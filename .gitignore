@@ -1,0 +1,48 @@
+# Large generated data and experiment outputs
+data/**
+!data/
+!data/README.md
+!data/*/
+!data/*/.gitkeep
+!data/*/raw/
+!data/*/raw/.gitkeep
+!data/*/wiki/
+!data/*/wiki/.gitkeep
+!data/*/viki/
+!data/*/viki/.gitkeep
+!data/*/aligned/
+!data/*/aligned/.gitkeep
+runs/**
+!runs/
+!runs/README.md
+!runs/.gitkeep
+results/
+logs/
+
+# Large third-party repositories kept outside this repo
+FlagEmbedding/
+hunalign/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Compiled/native build artifacts
+*.so
+*.so.reload1
+*.o
+hunalign_exec
+
+# Environment and local tooling files
+.env
+.venv/
+venv/
+
+# Heavy docs and local scratch files
+*.pdf
+*.tmp
+
+# Backups created while flattening embedded repos
+.embedded_git_backups/

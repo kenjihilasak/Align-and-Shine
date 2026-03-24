@@ -1,0 +1,21 @@
+language,model,min_score,max_score,f1_strict,n_docs_eval,threshold_source,source_note
+ca,bge,0.58,0.95,0.381,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+ca,bge_2,0.65,0.95,0.364,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+ca,labse,0.61,0.95,0.645,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+ca,sonar,0.41,0.95,0.299,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+en,bge,0.73,0.95,0.525,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+en,bge_2,0.65,0.95,0.413,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+en,labse,0.67,0.95,0.48,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+en,sonar,0.53,0.95,0.306,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+es,bge,0.71,0.95,0.336,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+es,bge_2,0.63,0.95,0.315,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+es,labse,0.67,0.95,0.422,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+es,sonar,0.58,0.95,0.236,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+fr,bge,0.7,0.95,0.253,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+fr,bge_2,0.62,0.95,0.176,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+fr,labse,0.62,0.95,0.469,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+fr,sonar,0.54,0.95,0.196,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+it,bge,0.78,0.95,0.494,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+it,bge_2,0.66,0.95,0.286,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+it,labse,0.64,0.95,0.554,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table
+it,sonar,0.55,0.95,0.265,15,experiments_analysis_strict_f1,auto-export from experiments_analysis.ipynb CELL 5 FINAL STRICT table

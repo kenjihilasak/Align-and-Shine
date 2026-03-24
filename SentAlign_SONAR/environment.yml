@@ -1,0 +1,11 @@
+name: SentAlignSONAR
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip=24
+  - numpy=1.26.4
+  - cython=0.29.37
+  - libsndfile=1.0.31
+  - pip:
+      - sonar-space==0.5.0
