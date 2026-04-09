@@ -66,8 +66,7 @@ The final corpus is available in `data/<lang>/aligned/`. Intermediate system out
 This repository separates code licensing from data licensing:
 
 - Code: `Apache-2.0` in `LICENSE`
-- Corpus/data policy: `DATA_LICENSE.md`
-- Upstream attribution guidance: `ATTRIBUTION.md`
+- Corpus/data policy and attribution guidance: `DATA_LICENSE.md`
 
 ## Core Pipeline
 
