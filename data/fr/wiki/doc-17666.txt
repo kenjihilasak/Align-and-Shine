@@ -1,0 +1,94 @@
+Technologie web|Norme ou standard informatique|Web
+2.0|Format ouvert|Dialecte XML
+RSS (sigle venant de l'anglais « ») est une famille de formats de données utilisés pour la syndication de contenu Web.
+Un produit RSS est une ressource du World Wide Web dont le contenu est produit automatiquement (sauf cas exceptionnels) en fonction des mises à jour d’un site Web.
+Les flux RSS sont des fichiers XML qui sont souvent utilisés par les sites d'actualité et les blogs pour présenter les titres des dernières informations consultables.
+On emploie parfois à tort le terme RSS pour désigner le format concurrent Atom.
+Trois formats de données peuvent être désignés par ces initiales :
+# (RSS 0.91) sorti en 1999 ;
+# RDF
+Site
+Summary
+RSS 0.90 et 1.0) sorti en 2000 ;
+# (RSS 2.0) sorti en 2002.
+Utilisation
+Lecture d’un flux
+RSS
+La lecture d'un flux RSS se fait à l'aide d'un logiciel agrégateur.
+Il faut lui amener l'adresse du fil RSS désiré (par exemple par copier/coller) afin que l'agrégateur se connecte au site émetteur afin de vérifier la présence de nouveau contenu.
+Si c'est le cas, le flux RSS est téléchargé et converti immédiatement au format HTML pour en permettre la lecture.
+Le principal avantage de cette technologie est de permettre de suivre facilement un flux d'informations sans avoir la nécessité de s'y rendre manuellement à l'aide d'un navigateur web.
+Ainsi on s'épargne le temps de lancement du logiciel navigateur web, et le temps nécessaire au téléchargement et à l'affichage des images de la page Web d'origine.
+Il existe différents types d'agrégateurs (tresseurs) : les lecteurs en ligne (au moyen d'un site web), les logiciels spécifiques locaux, certains clients de messagerie et certains navigateurs web.
+Pour une liste de noms, voir la page agrégateur et la .
+La plupart des fils d'actualités RSS sont accessibles librement mais certains peuvent être soumis à un abonnement qui doit être souscrit sur le site du flux en question.
+Fabrication des flux
+RSS
+Production d’un flux RSS
+Un flux RSS est créé à partir d’une page Web statique ou d’une base de données convertie en fichier XML à l’aide d’un script approprié.
+Généralement, un flux RSS contient un titre , une description de l'article, et un lien vers le site concerné.
+Risque concernant le droit d'auteur
+Les informations diffusées par un flux RSS sont susceptibles d'être protégées par le droit de la propriété intellectuelle.
+Plus particulièrement, le droit d'auteur confère à son titulaire le droit exclusif d'exploiter l'œuvre, notamment de fixer les conditions de sa diffusion.
+La diffusion d'un flux RSS est donc soumise à l'autorisation préalable des ayants droit, sous peine de constituer une contrefaçon.
+Responsabilités
+En France, la responsabilité des personnes diffusant des flux RSS sur l'Internet relève de la loi LCEN du 21 juin 2004.
+Selon son , l'éditeur est responsable du contenu diffusé sur l'Internet, tandis que l'hébergeur n'engage sa responsabilité que sous certaines conditions.
+L'application de ces régimes de responsabilité au domaine des flux RSS se précise grâce à la jurisprudence.
+Selon des décisions récentes, l'abonnement à un flux RSS et son agencement dans différentes rubriques entraîne pour le webmaster du site la qualification d'éditeur.
+En revanche,
+le webmaster d'un site composé d'un moteur de recherche alimenté par des flux RSS n'est pas éditeur mais hébergeur, faute d'exercer un contrôle sur les informations référencées.
+Aspects techniques
+Le format RSS est un format écrit en XML, comme l'indique la première ligne de l'exemple suivant.
+Exemple simple
+Mon site
+Ceci est un exemple de flux RSS 2.0
+Sat,
+07 Sep 2002
+00:00:01 GMT
+Actualité N°
+Ceci est ma première actualité
+Sat,
+07 Sep 2002
+00:00:01 GMT
+http:/ actu1
+Actualité N°2
+Ceci est ma seconde actualité
+Sat,
+07 Sep 2002
+00:00:01 GMT
+http:/ actu2
+Explication des principales balises
+Le contenu d'un document RSS est encadré par deux balises et dont l'attribut version (obligatoire) spécifie la version du standard à laquelle il se conforme.
+Au niveau suivant, une balise unique contient pour chaque article un groupe de métadonnées qui le décrivent et son contenu proprement dit.
+Métadonnées
+Trois métadonnées sont obligatoires dans un channel:
+D'autres sont optionnelles :
+* :
+Définit la dernière date de modification du flux ;
+* : Permet d'insérer un média (vidéo, etc.)
+dans le flux ;
+Contenu : Description de chaque article
+À chaque article correspond une balise .
+Dans cette balise se trouvent les données correspondantes à l'actualité sous forme de balise.
+Les balises les plus courantes sont :
+* :
+Définit l'URL du flux correspondant à l'actualité ;
+* :
+Définit une description succincte de l'actualité ;
+Selon la DTD RSS 2.0, il doit y avoir au moins un ou une dans un item et le reste des balises est optionnel.
+Il existe encore d'autres balises comme :
+* :
+Définit l'adresse électronique (mail) de l'auteur ;
+* :
+Définit l'URL d'une page de commentaire en rapport avec l'item.
+Il peut également arriver que l'on trouve d'autres balises dans un flux RSS, grâce aux espaces de noms (namespaces).
+On peut ainsi y inclure de nouvelles fonctions comme cela a été fait pour iTunes par exemple.
+Voir concernant ce sujet la spécification RSS 2 http:/ rss/RSS-2.0.html#Futur
+Modules
+L'objectif premier de tout module
+RSS
+est d'étendre le schéma XML de base pour une souscription au contenu plus robuste du contenu.
+La modulation permet d'ébaucher des transactions plus diverses, mais standardisées, sans modifier les spécificités de base du RSS.
+Pour accomplir cette extension syntaxique, un vocabulaire étroitement contrôlé (en termes RSS, un "module";
+en termes XML, un "schéma") est déclaré en amont pour donner des noms aux concepts et établir des relations entre ces concepts.

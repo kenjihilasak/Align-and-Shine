@@ -1,0 +1,63 @@
+Algorithmique
+Un algorithme est une suite finie et non ambiguë d’opérations ou d'instructions permettant de résoudre une classe de problèmes.
+Le mot algorithme vient du nom d'un mathématicien perse du , Al-Khwârizmî (en arabe : ).
+Le domaine qui étudie les algorithmes est appelé l'algorithmique.
+On retrouve aujourd'hui des algorithmes dans de nombreuses applications telles que le fonctionnement des ordinateurs, la cryptographie, le routage d'informations, la planification et l'utilisation optimale des ressources, le traitement d'images, le traitement de texte, la bio-informatique, etc.
+Définition générale
+Un algorithme est une méthode générale pour résoudre un type de problèmes.
+Il est dit correct lorsque, pour chaque instance du problème, il se termine en produisant la bonne sortie, c'est-à-dire qu'il résout le problème posé.
+On mesure l'efficacité d'un algorithme notamment par sa durée de calcul, par sa consommation de mémoire vive , par la précision des résultats obtenus (par exemple avec l'utilisation de méthodes probabilistes), sa scalabilité (son aptitude à être efficacement parallélisé), etc.
+Les ordinateurs sur lesquels s'exécutent ces algorithmes ne sont pas infiniment rapides : le temps de machine reste une ressource limitée, malgré une augmentation constante des performances des ordinateurs.
+Un algorithme sera donc dit performant s'il utilise avec parcimonie les ressources dont il dispose, c'est-à-dire le temps CPU, la mémoire vive et (aspect objet de recherches récentes) la consommation électrique.
+L’analyse de la complexité algorithmique permet de prédire
+l'évolution en temps calcul nécessaire pour amener un algorithme à son terme, en fonction de la quantité de données à traiter.
+Quelques définitions connexes
+Donald Knuth (1938-) liste,
+comme prérequis d'un algorithme, cinq propriétés :
+George Boolos (1940-1996), philosophe et mathématicien, propose la définition suivante :
+Gérard Berry (1948-), chercheur en science informatique en donne la définition grand public suivante :
+Algorithmes numériques
+Les algorithmes sont des objets historiquement dédiés à la résolution de problèmes arithmétiques, comme la multiplication de deux nombres.
+Ils ont été formalisés bien plus tard avec l'avènement de la logique mathématique et l'émergence des machines qui permettaient de les mettre en œuvre, à savoir les ordinateurs.
+Algorithmes non numériques
+La plupart des algorithmes ne sont pas numériques.
+On peut distinguer :
+* des algorithmes généralistes qui s'appliquent à toute donnée numérique ou non numérique : par exemple les algorithmes liées au chiffrement, ou qui permettent de les mémoriser ou de les transmettre ;
+* des algorithmes dédiés à un type de données particulier (par exemple ceux liés au traitement d'images).
+Voir aussi :
+Algorithmes dans la vie quotidienne
+L'algorithmique intervient dans la vie de tous les jours.
+Une recette de cuisine peut être réduite à un algorithme si on peut réduire sa spécification aux éléments constitutifs :
+** des entrées (
+les ingrédients, le matériel utilisé)
+** des instructions élémentaires simples (frire, flamber, rissoler, braiser, blanchir, etc.
+, dont les exécutions dans un ordre précis amènent au résultat voulu.
+*: Cependant, les recettes de cuisine ne sont en général pas présentées rigoureusement sous forme non ambiguë :
+il est d'usage d'y employer des termes vagues laissant une liberté d'appréciation à l'exécutant alors qu'un algorithme non probabiliste stricto sensu doit être précis et sans ambiguïté.
+Le tissage, surtout tel qu'il a été automatisé par le métier Jacquard est une activité que l'on peut dire algorithmique.
+Un casse-tête, tel le Rubik's Cube, peut être résolu de façon systématique par un algorithme qui mécanise sa résolution.
+* En sport, l'exécution de séquences répondant à des finalités d'attaque, de défense, de progression, correspond à des algorithmes (dans un sens assez lâche du terme).
+Voir en particulier l'article tactique (football).
+* En soins infirmiers
+, le jugement clinique est assimilable à un algorithme.
+Le jugement clinique désigne l'ensemble des processus cognitifs et métacognitifs qui aboutissent au diagnostic infirmier.
+Il met en jeu des processus de pensée et de prise de décision dans le but d’améliorer l’état de santé et le bien-être des personnes que les soignants accompagnent.
+Un code juridique, qui décrit un ensemble de procédures applicables à un ensemble de cas, est un algorithme.
+Critiques
+Dans la vie quotidienne, un glissement de sens s'est opéré, ces dernières années, dans la notion d'« algorithme » qui devient à la fois plus réducteur, puisque ce sont pour l'essentiel des algorithmes de gestion du big data, et d'autre part plus universel en ce sens qu'il intervient dans tous les domaines du comportement quotidien.
+La famille des algorithmes dont il est question effectue des calculs à partir de grandes masses de données (les big data).
+Ils réalisent des classements, sélectionnent des informations, et en déduisent un profil, en général de consommation, qui est ensuite utilisé ou exploité commercialement.
+Les implications sont nombreuses et touchent les domaines les plus variés.
+Mais les libertés individuelles et collectives pourraient être finalement mises en péril, comme le montre la mathématicienne américaine Cathy O'Neil dans le livre Weapons of Math Destruction, publié en 2016 et sorti en français en 2018 sous le titre Algorithmes : la bombe à retardement (aux éditions Les Arènes).
+Aujourd’hui, les modèles mathématiques et les algorithmes prennent des décisions majeures, servent à classer et catégoriser les personnes et les institutions, influent en profondeur sur le fonctionnement des États sans le moindre contrôle extérieur.
+Et avec des effets de bords incontrôlables.
+... Il s’agit d’un pouvoir utilisé contre les gens.
+Et pourquoi ça marche ?
+Parce que les gens ne connaissent pas les maths, parce qu’ils sont intimidés.
+C’est cette notion de pouvoir et de politique qui m’a fait réaliser que j’avais déjà vu ça quelque part.
+La seule différence entre les modèles de risque en finances et ce modèle de plus-value en science des données, c’est que, dans le premier cas, en 2008, tout le monde a vu la catastrophe liée à la crise financière.
+Mais, dans le cas des profs, personne ne voit l’échec.
+Ça se passe à un niveau individuel.
+Des gens se font virer en silence, ils se font humilier, ils ont honte d’eux.
+»Dans cet ouvrage, l'auteure alerte le lecteur au sujet des décisions majeures que nous déléguons aujourd'hui aux algorithmes dans des domaines aussi variés que l'éducation, la santé, l'emploi et la justice, sous prétexte qu'ils sont neutres et objectifs, alors que, dans les faits, ils donnent lieu à « des choix éminemment subjectifs
+, des opinions, voire des préjugés insérés dans des équations mathématiques ».

@@ -1,0 +1,268 @@
+Rubik's Cube|*|Phénomène de mode|Phénomène de mode des années 1980|Marque américaine
+Le (ou Cube de Rubik) est un casse-tête inventé par Ernő Rubik en 1974, et qui s’est rapidement répandu sur toute la planète au cours des années 1980.
+Au Canada francophone, il est nommé Cube Rubik (sans le « de ») et l'appellation est considérée comme exclusivement anglophone.
+Il s'agit d'un casse-tête géométrique à trois dimensions composé extérieurement de 26 éléments qui, à première vue, semblent être des cubes pouvant se déplacer sur toutes les faces et paraissant libres de toute attache sans tomber pour autant.
+Un système d’axes, dont le mécanisme a été breveté par son auteur, Ernő Rubik, se cache au centre du cube.
+Histoire
+Le est inventé le par Ernő Rubik, un sculpteur et professeur d’architecture hongrois, qui s’intéresse à la géométrie et à l’étude des formes en 3D.
+Ernő Rubik obtient en 1976
+le brevet hongrois
+HU170062 pour le « Magic Cube »,
+mais ne demande pas de brevet international.
+Le produit est testé en 1977, et les premiers cubes se vendent peu après dans les boutiques de jouets de Budapest.
+L’idée initiale
+d’Ernő Rubik était de construire un cube afin d’amener ses étudiants à deviner quel était son mécanisme interne, comment les petits cubes pouvaient tourner suivant trois axes tout en restant solidaires, et ainsi de les intéresser à la géométrie en 3 dimensions, un accord est signé avec Ideal Toys pour distribuer le cube mondialement.
+renomme alors le cube « » et les premiers exemplaires sont exportés de Hongrie vers mai 1980, en direction de Londres, de New York et de Paris.
+Aujourd’hui
+, le est copié sous licence par de nombreux distributeurs par le monde.
+Il est distribué par Win Games en France et par Jumbo en Belgique.
+Le atteint son maximum de popularité au début des années 1980.
+Plus de 100 millions de cubes sont vendus entre 1980 et 1982.
+Le « » gagne le prix des distributeurs de jouets britanniques en 1980 et de nouveau en 1981.
+De nombreux jeux similaires sont distribués peu de temps après le , notamment le «
+Rubik's Revenge », une version 4×4×4 du .
+Il existe aussi une version 2×2×2 et 5×5×5 (connus respectivement sous les noms de « » et de « »), et des versions dans d’autres formes, comme la pyramide ou le dodécaèdre régulier (1212).
+Depuis juin 2008, la marque V-Cube vend les modèles en 6×6×6, 7×7×7 et 8×8×8.
+En 1981, Patrick Bossert, écolier britannique de douze ans, publie sa solution détaillée.
+s'est vendu à 1,5 million d’exemplaires à travers le monde, dans 17 éditions différentes.
+Il est numéro 1 des best-sellers du Times et du New York Times en 1981.
+Le , la Cour de justice de l'UE annule l'enregistrement en tant que marque européenne de la forme du Rubik's cube, considérant que cet enregistrement protège non pas une marque mais une « solution technique », à savoir la capacité de rotation des faces du cube, qui dépend d'un brevet plutôt que d'une marque.
+Description
+Le est un cube dont chaque face est divisée en neuf cubes miniatures qui peuvent tourner indépendamment les uns des autres.
+En fait le cube est composé d’un axe central portant les centres des 6 faces, de 8 cubes de coin à 3 faces visibles et de 12 cubes d’arête à 2 faces visibles.
+À l’état final, chaque face du cube de Rubik est d’une couleur homogène et différente des autres, mais la rotation indépendante de chaque face provoque un mélange des petits cubes de coin et d’arête.
+Le but du jeu est, après avoir mélangé les six faces, de manipuler le cube pour tenter de lui rendre son apparence d’origine, avec les six faces de couleurs unies.
+Les couleurs des faces du cube original sont : blanc en face de jaune, vert en face de bleu, orange en face de rouge.
+Sur les versions non originales, les positions relatives des faces de couleurs et même parfois les couleurs peuvent changer.
+Il en est sorti de nombreuses variantes de forme et de décoration (voir la section Variantes).
+La pratique qui consiste à résoudre le le plus rapidement possible est le speedcubing.
+En utilisant la méthode la plus simple, on peut y arriver en moins d'une minute avec suffisamment d’entraînement.
+Les meilleurs le font en moins de dix secondes.
+Rubiks cube by keqs.jpg
+Cube dans un état mélangé
+Rubiks cube solved.jpg
+| Cube
+dans son état résolu
+Disassembled-rubix-1.jpg
+| Mécanisme interne du cube
+Résolution
+Il existe différentes techniques, consistant à réaliser des séquences comportant une dizaine de mouvements.
+Les techniques les plus utilisées consistent à construire la « croix » d’une face avant de finir cette face.
+On termine ensuite les arêtes de la tranche intermédiaire.
+Puis on résout la dernière face en orientant puis permutant les cubes qui la constituent.
+Ces méthodes sont nommées pour « couche par couche ».
+Combinatoire du problème
+Le nombre de positions différentes est supérieur à 43 trillions.
+Ainsi, en passant en revue un milliard de combinaisons différentes par seconde, il faudrait plus de ans pour toutes les épuiser.
+Ou encore, des classiques ( de côté)
+chacun dans une configuration différente pourraient recouvrir la surface entière de la Terre sur une hauteur d'environ six étages.
+Plus précisément, il y a 8!\times3^7\times12!\times2^=43\ 252\ 003\ 274\ 489\ 856\
+000 combinaisons
+ce qui se calcule comme suit :
+Il y a deux orientations possibles pour chacune des 12 arêtes.
+Étant donné qu’on ne peut pas changer l’orientation d’une arête seule, l’orientation de toutes les arêtes fixe l’orientation de la dernière.
+Cela donne 2 possibilités d’orientation des arêtes.
+Il y a trois orientations possibles
+pour chacun des 8 coins
+De même, on ne peut pas retourner un coin seul, l’orientation du dernier coin est donc fixée par les autres.
+Cela donne 3 possibilités d’orientation de coins.
+Les arêtes peuvent s’interchanger entre elles, ce qui donne 12!
+possibilités de positionnements pour les arêtes.
+Les coins peuvent s’interchanger entre eux.
+Cela fait
+possibilités.
+Mais il existe un problème dit de parité : on ne peut échanger juste deux coins ou deux arêtes (mais on peut interchanger deux coins ET deux arêtes).
+La position des arêtes et des premiers coins fixe donc la position des deux derniers coins et il faut donc diviser le résultat par deux.
+Ce qui donne : \frac=2^\times3^7\times12!\times8!
+Les centres ne sont pas considérés dans ce calcul, car ce sont eux qui nous servent de points de repère.
+Des versions modifiées du cube original, par exemple avec un motif imprimé sur ses surfaces, nécessitent, elles, une position spécifique de ces carrés centraux qui nous oblige à considérer l’orientation des centres.
+Chaque centre a quatre orientations possibles, l’orientation du dernier est comme d’habitude fixée par celle des précédents (à un demi-tour près) et il faut donc multiplier le nombre de positions du par 2×4 = 2048.
+Méthodes de résolution
+On peut tenter de chercher la solution au hasard, mais étant donnée l’espérance de vie humaine, ce n’est pas une solution viable.
+Si l'on admet qu'un être humain peut passer en revue en moyenne une combinaison par seconde, il lui faudrait en moyenne un temps cent fois supérieur à l'âge actuel de l'Univers (environ 5×1017 secondes) pour réussir à trouver toutes les combinaisons du cube seulement grâce au hasard (4,3×10 secondes) : autrement dit absolument rien de physiquement réalisable.
+Il a donc fallu inventer des méthodes pour résoudre le cube.
+La légende veut qu’Ernő Rubik lui-même y ait passé plus d'un mois.
+On peut manipuler le cube méthodiquement, selon des séquences de mouvements prédéfinies qui permettent de remonter le cube progressivement, c’est-à-dire de déplacer et d’orienter les petits cubes par étapes, sans perdre les fruits de son travail préalable.
+Exemples
+Première méthode, dite
+« méthode couche par couche »
+C’est la plus intuitive et la plus simple à mettre en œuvre
+La résolution nécessite en moyenne un peu plus de 185 mouvements :
+# Réaliser une face, par exemple la face supérieure blanche, en prenant bien soin de placer correctement la couronne (placer les cubes entourant cette face) et les cubes centraux (bleu, orange, vert et rouge),
+# puis la deuxième couronne (la rangée horizontale à mi-hauteur),
+# déplacer les cubes-arête de la face du bas à leur place et les orienter correctement,
+# déplacer les cubes-sommet à leur place,
+# enfin les orienter.
+Chaque opération (tourner une arête ou un sommet, échanger deux arêtes ou deux sommets) pourra être réalisée deux fois, après avoir placé les cubes concernés sur la même face, et en prenant soin de ne pas modifier cette face pendant l'opération.
+La première exécution mélange le reste du cube, mais en tournant alors la face d'un quart ou d'un demi-tour pour placer le (s) sujet (s) de la deuxième opération au même endroit relativement au reste du cube et en refaisant l'opération à l'envers, on réalisera la deuxième opération tout en remettant le reste du cube en place.
+Méthode « sandwich »
+Une autre méthode intuitive :
+# Réaliser une face, par exemple la face rouge.
+# Réaliser la face opposée à celle déjà correcte (ici la face orange)
+, pour cela il faut d’abord placer correctement tous les coins, puis les orienter correctement, et enfin mettre les arêtes.
+# Par échanges
+, amener chaque arête restante à sa place (à ce stade il ne reste plus que 4 arêtes à placer).
+# Enfin placer,
+puis orienter ces 4 arêtes correctement.
+Méthode de Jessica Fridrich (ou CFOP
+est encore une approche différente qui, comme celle de L. Petrus, nécessite environ 60 mouvements.
+Cette méthode est très utilisée en speedcubing car systématique :
+# Réaliser une croix sur une face.
+# Réaliser les F2L c'est-à-dire de placer les coins de la face en même temps que la deuxième couronne.
+# Réaliser l’OLL (), c’est-à-dire orienter les cubes de la dernière face.
+# Réaliser la PLL (), c’est-à-dire replacer les cubes de la dernière face.
+Cette méthode est utilisée par les plus grands champions mais nécessite l’apprentissage de nombreuses séquences :
+pour les F2L (
+les F2L ne nécessitent cependant pas d'être appris par cœur, ils peuvent être effectués de manière intuitive)
+Des méthodes alternatives permettent d’apprendre moins de séquences, comme l’OLL ou la PLL en deux étapes.
+Méthode Roux
+Basée sur la construction de bloc
+, cette méthode est intuitive et nécessite moins de coups.
+Elle est donc très adaptée pour le speedcubing.
+Elle est notamment utilisée par le champion d'Europe de .
+Elle porte le nom de son inventeur.
+Elle consiste à réaliser en premier deux faces opposées puis terminer par la tranche centrale.
+#construire 1 bloc 1×2×3
+#construire le bloc opposé 1×2×3
+#placer et orienter les derniers coins (CMLL)
+#résoudre les 6 dernières arêtes et les 4 derniers centres, en ne tournant que la face du haut du haut et la tranche.
+Méthode de Lars Petrus
+C’est une approche différente des deux premières : elle est moins automatisée, mais a l’avantage de conserver au maximum les cubes bien placés.
+La résolution nécessite en moyenne 60 mouvements.
+Elle est souvent utilisée pour des résolutions optimisées :
+# Réaliser un « petit cube » de dimensions 2×2×2 (constitué de 3 couleurs).
+Étendre ce « petit cube » à un parallélépipède 2×2×3 (constitué de 4 couleurs)
+, sans jamais détruire le « petit cube ».
+# Orienter les arêtes restantes, de façon à pouvoir les placer orientées correctement en utilisant deux faces.
+Étendre l’objet 2×2×3 à un objet 2×3×3 (c’est-à-dire deux couches du cube complet)
+, sans jamais détruire ce qui a été fait auparavant.
+# Placer et orienter les 4 coins restants.
+Et enfin, placer les 4 arêtes restantes
+Méthodes corners first (Guimond, Ortega, Waterman)
+Une approche encore différente et assez intuitive consiste à commencer par les coins ;
+l'avantage d'une telle méthode est qu'il est ensuite facile de résoudre les arêtes en gardant les coins bien placés.
+Ces méthodes étaient très utilisées dans les années 1980.
+Elles sont devenues plus rares aujourd'hui.
+La résolution nécessite 60 à 70 mouvements (une cinquantaine seulement si on compte un mouvement de tranche centrale comme un seul mouvement et non deux) :
+# Placer et orienter les coins (plusieurs approches sont possibles pour cela).
+# Placer et orienter les arêtes de deux couronnes opposées.
+# Résoudre la couche intermédiaire.
+Résolution informatique
+En 1981, Morwen Thistlewaite est l'un des premiers à publier une méthode de résolution informatique efficace.
+Grâce à sa méthode, il est capable de résoudre le cube en moins de 52 mouvements.
+En 1992, Herbert Kociemba améliore l'algorithme de Thistlewaite.
+Son logiciel «
+Cube Explorer » implémente cet algorithme.
+Cet algorithme est notamment utilisé pour générer des mélanges par la World Cube Association.
+Remarques
+Si un petit cube est à sa place, cela ne signifie pas nécessairement que les couleurs sont à leur bonne place.
+Par exemple un cube-arête a deux positions de couleur possibles et un cube-sommet trois.
+Chaque étape intermédiaire utilise elle-même des algorithmes spécifiques.
+Il existe en fait de nombreuses méthodes de résolution.
+Certains spécialistes y ont même consacré leur thèse universitaire.
+Des compétitions sont organisées.
+Les meilleurs concurrents sont capables de rétablir un cube en moins de quinze secondes.
+En 2008, ce même mathématicien a démontré que ce nombre pouvait être réduit à 22.
+Ce calcul a nécessité quelques semaines de calcul distribué sur un grand nombre d'ordinateurs prêtés par Google, et représentant l'équivalent d'un temps de calcul de 35 ans sur un PC haut de gamme.
+Au passage, ce calcul a révélé qu'il y a environ 300 millions de configurations qui nécessitent exactement 20 flips pour être résolues et qu'il faut en moyenne 17,88 flips pour résoudre une configuration tirée uniformément au hasard.
+En août 2014, Tomas Rokicki et Morley Davidson démontrent qu'en n'autorisant que les quarts de tour, le nombre de Dieu est 26.
+Championnats et records
+Il existe une World Cube Association (abrégée WCA) qui organise des championnats suivant des règles précises : chaque candidat utilise son cube personnel (parfois lubrifié) et la position de départ est la même pour tout le monde.
+Le premier championnat du monde s’est déroulé à Budapest en 1982.
+Le temps le plus rapide jamais réalisé officiellement est de 3,47 s, détenu par le « cubeur » Yusheng
+Du lors de la compétition Wuhu Open 2018, en Chine, le 24 novembre 2018, améliorant le record de 4,22 s, détenu par Feliks Zemdegs.
+Le temps officiel le plus rapide
+les yeux bandés est de 16,22s établi par l'Australien Jack Cai à Koalafication
+Brisbane 2019.
+Le record officiel basé sur la moyenne de 3 cubes parmi 5 (excluant l’essai le plus rapide et le plus lent) est de 5,69s, détenu par l'Australien Feliks Zemdegs, lors du Koalafication Brisbane 2019.
+Il existe également des épreuves moins conventionnelles, mais toutefois reconnues par la World Cube Association : résolution les yeux bandés (le ), avec une seule main, avec les pieds…
+La France organise tous les ans un championnat de France.
+Ce championnat a été organisé à Paris de 2004 à 2012.
+Depuis 2013, il se tient chaque année dans une ville différente.
+En 2011, le robot
+CubeStormer II a réussi à battre le record du monde (à l'époque de 5,66 s) jusque-là détenu par un humain en résolvant un cube en seulement 5,270 s.
+Il s'agissait d'un robot en Lego conçu et programmé par Mike Dobson et David Gilday et fonctionnant grâce à une application Android sur un Samsung Galaxy S II.
+Depuis, le 17 mars 2014, le robot ARM-Powered Cubestormer 3 a battu ce record en réalisant le casse-tête en 3,253 s. lors du Big Bang Fair de Birmingham, au Royaume-Uni.
+Le 23 janvier 2016, le robot Sub1 réalise le casse-tête en seulement 0,887 s, détrônant ainsi le précédent robot.
+Ce record a été réalisé au Cubikon Store de Munich en Allemagne.
+Références culturelles
+De 1983 à 1984, Hanna-Barbera crée douze épisodes d’
+un dessin animé appelé qui est diffusé sur ABC.
+Le fait plusieurs apparitions dans la série animée
+Les Simpson
+notamment quand Homer est distrait par un cube en apprenant les commandes de la centrale dans Une belle simpsonnerie, quand Homer devient forain, le fait une brève apparition, il fait partie des lots (impossibles) à gagner dans Un drôle de manège, quand Marge tente de résoudre le Cube pendant que le reste de la famille lui crie des conseils dans Une crise de Ned et quand Homer résout un panier plein de cubes après être devenu une personne d’intelligence normale (avec un QI de 105) dans Le Cerveau.
+* Dans le film Quatre garçons pleins d'avenir (1997), le personnage principal Arnaud Allard prétend être l'héritier d'Ernő Rubik pour entrer en boîte de nuit.
+Ignorant que son client devrait alors logiquement s'appeler Rubik, l'agent, sans s’interroger plus, s'empresse de lui demander de dédicacer un Cube qu'il porte sur lui et laisse entrer la bande de copains.
+* Dans le film Armageddon (1998), Rockhound (joué par Steve Buscemi) résout un Cube pendant son entretien avec le psychologue de la base d’entraînement en disant «
+Fastoche ».
+* En 2006, dans le film À la recherche du bonheur, Chris Gardner (Will Smith) se fait embaucher en épatant son recruteur en réalisant les six faces en quelques minutes.
+Pour ce film, l'acteur a appris à résoudre le cube en moins d'une minute avec l'aide des champions de speedcubing et .
+* Dans le film
+Eh mec !
+Elle est où ma caisse ?
+, sorti en 2001, Jesse (Ashton Kutcher) et Chester (Seann William Scott) cherchent un disrupteur dimensionnel.
+Ils apprennent par la suite qu’il s’agit du que Chester essaye de résoudre depuis le début de l’histoire.
+C’est d’ailleurs en le terminant
+qu’il active le disrupteur dimensionnel.
+* Dans le film Souris City, lorsque Rita revient sur son bateau « emprunté » par Roddy, celle-ci lui lance à la tête une kyrielle d'objets dont
+* Il fait aussi une apparition dans Numb3rs, série télévisée alliant mathématiques et criminologie.
+* Michel Gondry a publié sur Internet une vidéo le montrant résolvant le avec ses pieds en un temps relativement court.
+En réalité, le film était truqué : il s’agissait d’un film où il mélangeait le cube passé à l’envers.
+L’illusion était consolidée par une introduction où Michel Gondry exposait son exploit (passée à l’endroit et montée avant la prétendue résolution elle-même) et par le passage en arrière-plan d’un figurant qui marchait en réalité à reculons.
+En 2008, le fait partie des trésors du petit robot WALL-E dans le film éponyme.
+Il apparaît même sur une image promotionnelle du film.
+* Dans le jeu vidéo Zeno Clash, le Golem, une créature omnisciente, garde sur lui un dans un but mystérieux.
+* Depuis 2005, l'artiste Invader réalise des compositions en utilisant
+des .
+En 2009
+dans Morse
+, Oskar
+et Eli deviennent amis grâce au d'Oskar et à la passion d'Eli pour les énigmes.
+L'image du Cube est reprise dans nombre de graphismes évoquant les années 1980 en faisant l'un des symboles culturels de la décennie.
+* En 2011, dans le film Drive, le apparaît sur la table de l'appartement d'Irene la première fois qu'elle rencontre
+*En 2012, le cube apparaît dans le film The Amazing Spider-man.
+* Pour célébrer le du , le moteur de recherche Google a placé sur sa page d'accueil, le 19 mai 2014, une animation permettant aux internautes de manipuler virtuellement le célèbre cube.
+Variantes
+Le succès du a donné naissance à plusieurs variantes.
+Rubik a commercialisé quatre variantes de forme cubique, en changeant le nombre de cubes sur une arête :
+Image :
+Pocket cube solved.jpg | Pocket Cube (2×2×2)
+Image :
+Solved cube.png
+| (3×3×3)
+Image :
+Rubiks revenge scrambled.jpg
+Rubik's Revenge (4×4×4)
+Image :
+Professors cube.jpg | Professor's
+Cube (5×5×5)
+Il existe aussi des versions plus complexes, des cubes 6×6×6 et 7×7×7, inventées par :
+Cube 6 small.jpg
+| V
+Cube 6 (6×6×6)
+Cube 7 solved.jpg
+| V-
+Cube 7 (7×7×7)
+À noter qu'on peut grâce à l'informatique simuler des cubes jusqu'à 1000x1000x1000.
+D’autres variantes consistent à changer le polyèdre utilisé.
+La plupart de ces variantes furent inventées par Uwe Mèffert :
+Pyraminx solved.jpg | Pyraminx (tétraèdre)
+Skewb.jpg
+| Skewb (cube)
+Megaminx6.jpg | Megaminx (dodécaèdre régulier)
+Square-1 solved.jpg | Square
+One (cube)
+File:
+Rainbow Cube.jpg|Rainbow Cube (cuboctaèdre)
+Ou encore la Twistball inventée par Josip Matijek :
+twist-ball-bleu-vert.jpg
+| Twistball bicolore
+bleu-vert
+Il existe d'autres variantes, comme le Rubik's Barrel ou le Puzzle multi-pyramidal.
+Décoration du cube
+Il y a des variantes du schéma de couleurs classique.
+Par exemple, sur le schéma dit « japonais », la face blanche et la face bleue sont opposées.
+Le cube calendrier est un décoré de sorte qu'il soit possible de former n'importe quelle association de jour et date sur une des faces.
+Il existe également des variantes publicitaires ou à thèmes : ainsi furent créés des à l'effigie de Dark Maul, d'Homer Simpson, du Musée du Louvre ou encore de marques de sodas.
+Certains sont aussi distribués (parfois sous forme de porte-clés : 2×2×2 ; 3×3×3), pour des organisations ou des entreprises.
+Récompense

@@ -1,0 +1,68 @@
+Arithmétique|Combinatoire|Partition
+En mathématiques, une partition d'un entier est une décomposition de cet entier en une somme d'entiers strictement positifs , à l'ordre près des termes (à la différence du problème de composition tenant compte de l'ordre des termes).
+Une telle partition est en général représentée par la suite des termes de la somme, rangés par ordre décroissant.
+Elle est visualisée à l'aide de son diagramme de Ferrers, qui met en évidence la notion de partition duale ou conjuguée.
+Pour un entier naturel fixé, l'ensemble de ses partitions est fini et muni d'un ordre lexicographique.
+La suite des nombres de partitions pour les entiers naturels successifs est déterminée par une fonction récursive.
+Hardy et Ramanujan en ont donné un développement asymptotique en 1918, puis Hans Rademacher en a donné une formule exacte en 1937.
+Présentation
+À l'aide des diagrammes de Ferrers
+Un diagramme de Ferrers est constitué d'un ensemble de points disposés aux sommets d'un quadrillage sur lequel sont spécifiées une première ligne et une première colonne orientées.
+La seule condition exigée est que tout point du quadrillage précédant un point du diagramme, sur une même ligne ou une même colonne, doit aussi appartenir au diagramme.
+Une partition d'un entier n peut alors être conçue comme un diagramme de Ferrers avec n points, chaque colonne du diagramme représentant une partie par son cardinal.
+En particulier, le diagramme de Ferrers vide représente l'unique partition de l'entier 0.
+Ces diagrammes sont généralisés en combinatoire par les tableaux de Young.
+Définitions formelles
+Il existe plusieurs manières équivalentes de définir formellement une partition d'un entier naturel.
+* Par exemple à l'aide d'une suite finie d'entiers strictement positifs
+Comme les permutations des termes ne modifient pas la partition, la suite est par défaut présentée dans un ordre fixe, en général décroissant.
+Le choix arbitraire de cet ordre peut être évacué en utilisant une relation d'équivalence sur l'ensemble des suites finies par permutation des termes.
+Une partition est alors définie comme une classe d'équivalence de suites.
+Il est aussi possible de caractériser chaque partition à l'aide d'une mesure indiquant pour chaque entier strictement positif le nombre de termes de cette valeur, ce qui revient à considérer une partition comme un multiensemble.
+Une autre approche, qui fait le lien avec les partitions d'ensemble, consiste à définir une partition de n comme une orbite de l'ensemble des partitions de l'intervalle d'entiers sous l'action du groupe symétrique.
+Relations
+Relation d'ordre
+L'ensemble des partitions de n est muni d'un ordre lexicographique, c'est-à-dire que si deux partitions sont représentées par des suites décroissantes qui coïncident jusqu'au rang k exclu, alors celle qui a un plus grand terme au rang k est supérieure à l'autre, quels que soient leur nombre de termes et leurs valeurs ensuite.
+La partition composée du seul terme n est donc supérieure à toutes les autres partitions de n, tandis que la plus petite est celle qui est composée de n termes qui valent tous 1.
+Cet ordre est total, c'est-à-dire que toutes les partitions d'un même entier peuvent être comparées entre elles.
+Dualité
+Le fait de lire en lignes un diagramme de Ferrers tracé en colonnes, ou réciproquement, permet de définir la partition conjuguée (ou ).
+Géométriquement, cela revient à effectuer une symétrie par rapport à la diagonale.
+En particulier, cela implique que cette dualité est involutive : toute partition est duale de sa partition duale.
+Formellement, si une partition est représentée par une suite finie \lambda = (\lambda_i), la partition duale est définie par la suite \lambda^* où \lambda^*_k est le nombre de termes de \lambda supérieurs ou égaux à k. Si la suite \lambda est décroissante au sens large, le nombre d'éléments de \lambda^* égaux à i est \lambda_i-\lambda_ (ou \lambda_i si \lambda_i est le dernier terme de la suite \lambda).
+La dualité permet de mettre en évidence une bijection entre l'ensemble des partitions en exactement k parties et l'ensemble des partitions dont la première partie (la plus grande) est k.
+Cette propriété est à la base d'une formule récursive permettant de dénombrer les partitions d'un entier .
+Partition autoduale
+Une partition qui est égale à sa partition duale est dite autoduale ou autoconjuguée.
+Un exemple simple de partition autoduale est donné par un diagramme en 'L', définis pour tout entier impair de la forme 2k+1, avec une première partie valant k+1 et toutes les autres valant 1.
+D'autres exemples sont donnés pour les carrés et les nombres triangulaires.
+La représentation par les diagrammes de Ferrers permet de prouver que l'ensemble des partitions autoduales est en bijection avec l'ensemble des partitions à parties impaires distinctes.
+En effet, le diagramme de chaque partition autoduale peut être décomposé en une suite de diagrammes en 'L' de taille strictement décroissante mais toujours impaire.
+Réciproquement, les parties impaires d'une partition peuvent être associées à des diagrammes en 'L', dont la juxtaposition dans l'ordre décroissant forme le diagramme de Ferrers d'une partition autoduale.
+Injections
+Les diagrammes de Ferrers permettent de visualiser certaines relations entre les ensembles de partitions d'entiers.
+Notamment, l'adjonction d'une partie valant 1 induit une injection de l'ensemble des partitions d'un entier dans l'ensemble des partitions de l'entier suivant.
+Un autre exemple est donné par l'incrémentation de toutes les parties, qui induit une injection de l'ensemble des partitions d'un entier n en k parties, dans l'ensemble des partitions de (n+k) en k parties.
+Ensemble des partitions d'un entier
+Finitude
+Pour chaque partition de n, définie par la suite de ses termes dans l'ordre décroissant, la série associée (qui la caractérise)
+est strictement croissante, à valeurs entières strictement positives et de dernier terme n.
+Chaque partition peut donc être représentée par l'ensemble des valeurs de cette série.
+L'ensemble des partitions de n s'injecte donc dans l'ensemble des parties de l'intervalle d'entiers , de cardinal 2^n.
+En pratique, la valeur n étant toujours atteinte par la série, il est possible de ne considérer que l'ensemble des valeurs de la série qui soient strictement inférieures à n, ce qui divise par deux la majoration du cardinal de l'ensemble des partitions.
+Algorithme de construction
+La liste de toutes les partitions de n dans l'ordre décroissant est donnée par un algorithme itératif.
+Si une partition est représentée par une suite finie décroissante (a_i) dont au moins un terme est strictement supérieur à 1, la partition suivante (b_i) est construite comme suit :
+On note k le rang du dernier terme strictement supérieur à 1 et N le nombre de termes qui valent 1 dans (a_i).
+:Pour tout j n) vérifie :
+:p_m (n)=p_m (n
+m)+p_ (n)
+ainsi que la relation de récurrence
+:\forall n\ge m\ge1\quad
+p_m
+n)=1+\sum_p_k (n-
+Maximisation du produit
+Étant donné un entier n > 1, le produit m ×
+… × m d'une partition n = m + … + m est maximum si tous les m sont égaux à 3, sauf zéro, un ou deux d'entre eux (selon la classe de n modulo 3) qui valent 2.
+En effet :
+* aucun m ne doit être supérieur ou égal à 5 car on aurait 3 (m - 3) > m (ou encore : 2 (m - 2) > m) ;

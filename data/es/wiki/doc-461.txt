@@ -1,0 +1,53 @@
+Microsoft Excel es una aplicación de hojas de cálculo que forma parte de la suite de oficina Microsoft Office.
+Es una aplicación utilizada en tareas financieras y contables, con fórmulas, gráficos y un lenguaje de programación.
+Historia
+Microsoft comercializó originalmente un programa para hojas de cálculo llamado Multiplan en 1982, que fue muy popular en los sistemas CP/M, pero en los sistemas MS-DOS perdió popularidad frente al Lotus 1-2-3.
+Microsoft publicó la primera versión de Excel para Mac en 1985, y la primera versión de Windows (numeradas 2-05 en línea con el Mac y con un paquete de tiempo de ejecución de entorno de Windows) en noviembre de 1987.
+Lotus fue lenta al llevar 1-2-3 para Windows y esto ayudó a Microsoft a alcanzar la posición de los principales desarrolladores de software para hoja de cálculo de PC, superando al también muy popular Quattro Pro de Borland.
+Por esta razón Microsoft se solidificó como un competidor válido y mostró su futuro de desarrollo como desarrollador de software GUI (interfaz gráfica de usuario).
+Microsoft impulsó su ventaja competitiva lanzando al mercado nuevas versiones de Excel, por lo general cada dos años.
+La versión actual tanto para la plataforma Windows y Mac OS X es el reciente Excel 2017.
+La lista de versiones de Microsoft Excel que han sido lanzadas al mercado para Apple Macintosh es:
+La lista de versiones de Microsoft Excel que han sido lanzadas al mercado para Microsoft Windows son:
+La lista de versiones de Microsoft Excel que han sido lanzadas al mercado para OS/2 son:
+A principios de 1993, Excel se convirtió en el objetivo de una demanda por otra empresa que ya tenía a la venta un paquete de software llamado "Excel" en el sector financiero ya que era un producto muy competitivo en el mercado.
+Como resultado de la controversia, Microsoft o .xlsb para libros de Excel binarios en versiones posteriores o iguales a Excel 2007 (12.0).
+Excel ofrece una interfaz de usuario ajustada a las principales características de las hojas de cálculo, en esencia manteniendo ciertas premisas que pueden encontrarse en la hoja de cálculo original, VisiCalc: el programa muestra las celdas organizadas en filas y columnas (intersección de las filas y columnas), y cada celda contiene datos o una fórmula, con referencias relativas, absolutas o mixtas a otras celdas.
+Excel fue la primera hoja de cálculo que permitió al usuario definir la apariencia (las fuentes, atributos de carácter y celdas).
+También introdujo recomputación inteligente de celdas, donde celdas dependientes de otra celda que han sido modificadas, se actualizan al instante (programas de hoja de cálculo anterior recalculaban la totalidad de los datos todo el tiempo o esperaban para un comando específico del usuario).
+Excel tiene una amplia capacidad gráfica, y permite a los usuarios realizar, entre otras muchas aplicaciones, listados usados en combinación de correspondencia.
+Cuando Microsoft primeramente empaquetó Microsoft Word y Microsoft PowerPoint en Microsoft Office en 1993, rediseñó las GUI de las aplicaciones para mayor coherencia con Excel, producto insigne de Microsoft en el momento.
+Desde 1993, Excel ha incluido Visual Basic para Aplicaciones (VBA), un lenguaje de programación basado en Visual Basic, que añade la capacidad para automatizar tareas en Excel y para proporcionar funciones definidas por el usuario para su uso en las hojas de trabajo.
+VBA es una poderosa anexión a la aplicación que, en versiones posteriores, incluye un completo entorno de desarrollo integrado (IDE) conocido también como Editor de VBA.
+La grabación de macros puede producir código (VBA) para repetir las acciones del usuario, lo que permite la automatización de simples tareas.
+VBA permite la creación de formularios y controles en la hoja de trabajo para comunicarse con el usuario.
+Admite el uso del lenguaje (pero no la creación) de las DLL de ActiveX (COM); versiones posteriores añadieron soporte para los módulos de clase permitiendo el uso de técnicas de programación básicas orientadas a objetos.
+La funcionalidad de la automatización proporcionada por VBA originó que Excel se convirtiera en un objetivo para virus en macros.
+Este fue un grave problema en el mundo corporativo hasta que los productos antivirus comenzaron a detectar estos virus.
+Microsoft tomó medidas tardíamente para mitigar este riesgo mediante la adición de la opción de deshabilitar la ejecución automática de las macros al abrir un archivo excel.
+Aplicaciones
+Excel permite a los usuarios elaborar tablas y formatos que incluyan cálculos matemáticos mediante fórmulas; las cuales pueden usar “operadores matemáticos” como son: + (suma), - (resta), * (multiplicación), / (división) y ^ (potenciación); además de poder utilizar elementos denominados “funciones” (especie de fórmulas, pre-configuradas) como por ejemplo: Suma, Promedio, Buscar, etc.
+Especificaciones, límites y problemas
+Especificaciones y límites
+Las características, especificaciones y límites de Excel han variado considerablemente de versión en versión, exhibiendo cambios en su interfaz operativa y capacidades desde el lanzamiento de su versión 12.0 mejor conocida como Excel 2007.
+Esto también ha hecho que las personas sientan una evolución positiva dentro del programa y dado a su usuario una mejor calidad y opción de hoja ya que tiene más de 15 tipos de estas.
+Se puede destacar que mejoró su límite de columnas ampliando la cantidad máxima de columnas por hoja de cálculo de 256 a 16.384 columnas.
+De la misma forma fue ampliado el límite máximo de filas por hoja de cálculo de 65.536 a 1.048.576 filas por hoja, dando un total de 17,179,869,184 celdas.
+Otras características también fueron ampliadas, tales como el número máximo de hojas de cálculo que es posible crear por libro que pasó de 256 a 1.024 o la cantidad de memoria del PC que es posible emplear que creció de 1 GB a 2 GB soportando además la posibilidad de usar procesadores de varios núcleos.
+Problema de manejo de fechas anteriores a 1900
+Uno de los problemas conocidos y relevantes de esta hoja de cálculo es el hecho de su "incapacidad para manejar fechas anteriores a 1900" (incluyendo versiones para Mac OS X), es decir, no puede manejar campos en formato de fecha anteriores a dicho año (como acontecimientos históricos).
+Este problema se ha venido presentando desde versiones más antiguas de 16 bits, persistiendo aún en la versión actual.
+Bug de multiplicación
+El 23 de septiembre del 2007, se informó que la hoja de cálculo Excel 2007 mostraba resultados erróneos bajo ciertas condiciones.
+Particularmente para algunas parejas de números, para los que el producto sea 65.535 (tales como 850 y 77,1), Excel muestra como resultado de la operación 100.000.
+Esto ocurre con alrededor del 14,5 % de tales pares.
+Además, si se suma uno a este resultado Excel lo calcula como 100.001.
+No obstante, si se resta uno al resultado original, entonces muestra el valor correcto 65.534.
+(también si se multiplica o divide por 2, muestra los valores correctos 131.070 y 32.767,5, respectivamente).
+Microsoft informó en el blog de Microsoft Excel, que el problema existe al mostrar seis puntos flotantes específicos entre 65.534,9995 y 65.535, y seis valores entre 65.535,99999999995 y 65.536 (no incluye los enteros).
+Cualquier cálculo realizado a celda es correcto, sólo el valor mostrado estaría errado.
+Sin embargo, en algunas instancias, como al redondear el valor con cero dígitos decimales, almacenará un valor incorrecto en memoria.
+Este error se introdujo con los cambios realizados a la lógica de información en pantalla de la versión 2007, y que no existe en las versiones anteriores.
+El 9 de octubre de 2007 Microsoft lanzó un parche para este bug.
+Este problema también queda subsanado con la instalación del Service Pack 1, y desapareció por completo en todas las versiones de Excel lanzadas al mercado posteriormente.
+Véase también

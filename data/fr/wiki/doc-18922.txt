@@ -1,0 +1,66 @@
+Licence de logiciel|Logiciel malveillant
+Un adware, logiciel publicitaire ou publiciel est un logiciel qui affiche de la publicité lors de son utilisation.
+Un logiciel publicitaire contient habituellement deux parties :
+* une partie utile (le plus souvent un jeu vidéo ou un utilitaire)
+qui incite un utilisateur à l'installer sur son ordinateur ;
+Logiciels malveillants : les logiciels espions qui espionnent les habitudes de l'utilisateur pour lui envoyer de la publicité ciblée.
+Historique
+Les adwares cités dans cet historique visent le système d'exploitation Windows.
+* 2007 à 2010 : Deux Adwares sont très actifs en France, l'Adware Navipromo et Eorezo.
+L'Adware Navipromo est très actif en France.
+Ce dernier est un rootkit fonctionnant en espace utilisateur (userland), le processus n'apparaît pas dans le gestionnaire de tâches de Windows.
+Divers logiciels sont mis en ligne pour faire installer cet adware, comme un lecteur vidéo, des jeux (Sudoku, Solitaire, etc).
+L'Adware Eorezo est distribué à travers des widgets, ce dernier force aussi l'utilisation du moteur de recherche « lo.st » en page de démarrage
+- la diffusion de ces widgets et autres programmes Eorezo se fait par Google Adsense.
+* 2011 : L'éditeur Eorezo lance TutoPC et Tuto4PC et se lance en bourse.
+Des tutoriels sont mis en ligne sous forme de vidéos qui servent aussi de prétexte pour faire installer l'Adware.
+Google
+Adsense interdit la publicité Eorezo, Tuto4PC cherche alors à se diffuser par d'autres moyens avec et .
+* à partir de 2013 : de nouvelles plateformes de distribution d'adwares apparaissent petit à petit :
+DomaIQ/SoftPulse, InstallCore, Amonetize, etc.
+Les éditeurs d'adwares peuvent s'inscrire sur ces plateformes de distribution pour pousser leurs adwares.
+Les sites de streaming illégaux et de Torrent peuvent ouvrir des publicités vers des lecteurs vidéos ou encore de fausses pages de mise à jour de Flash Player, de Java ou de codecs vidéo qui servent de prétexte pour faire lancer un installeur d'adwares.
+DomaIQ/SoftPulse
+est distribué à travers de fausses pages de mise à jour de Flash Player et de Java, certaines régies publicitaires sont touchées (malvertising), les sites eBay et DeviantArt ont diffusé ces fausses pages Flash Player et Java.
+** InstallCore
+est plutôt spécialisé dans le partenariat avec des sites grand public de téléchargement et autres, mais peut aussi être diffusé à travers de fausses pages de lecteur vidéo, mise à jour Flash Player ou Java.
+Pour les créateurs de sites de téléchargement, c'est un nouveau moyen de les monétiser, puisque ces derniers gagneront de l'argent à chaque installation d'adware réussie.
+** Amonetize est spécialisé dans les faux sites de cracks/keygen.
+* 2014 : La frontière entre les adwares et les malwares se réduit, par exemple, la famille d'adwares vbates utilise des techniques proches des malwares, en changeant les serveurs DNS de l'ordinateur (Trojan.
+DNSChanger) pour rediriger les publicités des sites vers des régies contrôlées par l'éditeur de l'adware, ou encore en patchant le fichier système Windows « dnsapi.dll » pour charger un fichier Hosts modifié.
+Ceci pose de gros problèmes de sécurité mais aussi de dysfonctionnement de la connexion Internet.
+On notera aussi que InstallCore et DomaIQ/SoftPulse sont diffusés par Bing et Yahoo en résultats commerciaux, ces deux plateformes installent des Browser Hijacker (programmes qui modifient la configuration des navigateurs web sans l'accord de l'utilisateur) qui poussent ces deux moteurs de recherche.
+Mode opératoire
+L'affichage de publicité est généralement considéré par le développeur du logiciel publicitaire comme un moyen de récupérer ses coûts de développement, ce qui permet au développeur d'offrir le logiciel gratuitement ou à faible coût.
+Les revenus tirés de la publicité permettent ou incitent les développeurs à continuer de développer, maintenir et améliorer le logiciel.
+Par contre, les publicités peuvent être perçues comme des interruptions ou des distractions par les utilisateurs.
+Certains logiciels publicitaires permettent à l'utilisateur de se débarrasser de la publicité moyennant un certain coût.
+Un logiciel publicitaire est considéré comme un logiciel malveillant lorsque le distributeur du logiciel n'indique pas clairement à l'utilisateur potentiel qu'il recevra de la publicité lors de l'utilisation du logiciel.
+Exemples
+Le logiciel de messagerie Eudora est un exemple d'un programme disponible sous plusieurs modes de distribution, incluant le mode publiciel.
+Après une période d'essai au cours de laquelle toutes les fonctionnalités du programme sont disponibles, l'utilisateur se voit proposer les choix suivants : une version gratuite (gratuiciel) avec fonctionnalités limitées, une version publiciel (avec publicités) avec toutes les fonctions activées, ou une version payante incluant toutes les fonctions sans publicités.
+Prévention et protection
+Plusieurs logiciels publicitaires contiennent en plus des logiciels espions (généralement dans un objectif publicitaire ou de profilage du consommateur, le logiciel espion étant conçu pour collecter davantage de traces numériques).
+Aujourd'hui, cette pratique est très répandue, et de plus en plus d'applications mobiles et de logiciels se permettent ces pratiques.
+Prévention
+Concernant l'Internet, il existe un dicton qui peut être aussi utile à la prévention des logiciels publicitaires : (sous entendu le produit vendu par l'entreprise qui vous fournit un service gratuitement).
+Comprendre qu'un logiciel gratuit (à moins que ce soit un réel freeware-gratuiciel ou un logiciel libre (free software))
+va probablement chercher à gagner de l'argent indirectement, permettra de décider davantage en connaissance de cause s'il est souhaitable de laisser un publiciel être installé sur l'ordinateur.
+Lors de l'installation d'un logiciel, il faut prendre soin de lire les conditions d'utilisation et de repérer les cases que le logiciel propose de décocher (bien souvent, ces cases sont pré-cochées afin de permettre au logiciel de modifier le moteur de recherche du navigateur, lequel leur reversera de l'argent).
+Protection
+Logiciels spécialisés
+Durant les années 2000, des logiciels spécifiques ont été développés afin de détecter et supprimer les logiciels malveillants.
+Ces logiciels peuvent détecter et supprimer les logiciels espions des logiciels publicitaires.
+Il est à noter que ces logiciels spécialisés sont conçus spécifiquement pour la détection des logiciels publicitaires, voire des logiciels espions, mais ne détectent pas les virus.
+Les plus populaires de ces programmes sont : Outil de suppression des logiciels malveillants Microsoft Windows (nommé en anglais : ), Windows Defender, AdwCleaner, ZHPCleaner, Malwarebytes' Anti-Malware, Ad-Aware, Spybot
+- Search & Destroy et Hitman Pro.
+Logiciels antivirus
+Depuis les années 2010, presque tous les logiciels antivirus détectent également les logiciels espions, ou proposent un logiciel de détection des logiciels espions.
+La réticence des éditeurs d’antivirus à bloquer les logiciels espions directement dans leur antivirus est due à la crainte de poursuites judiciaires.
+Kaspersky, par exemple, a été poursuivi par l'éditeur de logiciels à la suite du blocage de ses publiciels.
+Zango a toutefois été débouté en faveur de Kaspersky Lab par la Cour de Washington DC (information disponible sur le site de Kaspersky Lab).
+Navigateurs web
+Les navigateurs web sont autant, sinon plus, menacés par les logiciels publicitaires que le système d'exploitation en lui-même.
+Certaines méthodes de publicité en ligne sont extrêmement nocives pour la confidentialité sur le web.
+Heureusement, certains logiciels antipubs permettent de bloquer les publicités lors de sessions de navigation sur le web.
+Des études tendent à démontrer que le terme confidentialité pourrait ne plus exister dans les années à venir.

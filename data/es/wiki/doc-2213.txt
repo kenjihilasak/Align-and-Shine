@@ -1,0 +1,55 @@
+Archivo:PC-Netzteilanschluesse_ATX2_numbered_IMGP2167_smial_wp.jpg|thumb|Conectores de la fuente de alimentación ATX2 para PC:
+mini molex para FDD.
+Molex universal: para dispositivos IDE, HDD y unidad de disco óptico.
+para dispositivos SATA.
+(4) para tarjetas gráficas de 8 pines, separable para 6 pines.
+(5) para tarjeta gráfica de 6 pines.
+para placa base de 8 pines.
+(7) para CPU P4, combinado para el conector de la placa base de 8 pines a 12V.
+(8) ATX2 de 24 pines.
+En electrónica, la fuente de alimentación o fuente de potencia es el dispositivo que convierte la corriente alterna (CA), en una o varias corrientes continuas (CC), que alimentan los distintos circuitos del aparato electrónico al que se conecta (computadora, televisor, impresora, router, etc.).
+En inglés se conoce como power supply unit (PSU), que literalmente traducido significa: unidad de fuente de alimentación, refiriéndose a la fuente de energía eléctrica.
+Clasificación
+Las fuentes de alimentación para dispositivos electrónicos, pueden clasificarse básicamente como fuentes de alimentación lineales y conmutadas.
+Las lineales tienen un diseño relativamente simple, que puede llegar a ser más complejo cuanto mayor es la corriente que deben suministrar, sin embargo su regulación de tensión es poco eficiente.
+Una fuente conmutada, de la misma potencia que una lineal, será más pequeña y normalmente más eficiente pero será más compleja y por tanto más susceptible a averías.
+Fuentes de alimentación lineales
+Las fuentes lineales siguen el esquema: transformador, rectificador, filtro, regulación y salida.
+y proporciona aislamiento galvánico.
+El circuito que convierte la corriente alterna en corriente continua pulsante se llama rectificador, después suelen llevar un circuito que disminuye el rizado como un filtro de condensador.
+La regulación, o estabilización de la tensión a un valor establecido, se consigue con un componente denominado regulador de tensión, que no es más que un sistema de control a lazo cerrado (“realimentado”, figura 3) que sobre la base de la salida del circuito ajusta el elemento regulador de tensión que en su gran mayoría este elemento es un transistor.
+Este transistor que dependiendo de la tipología de la fuente está siempre polarizado, actúa como resistencia regulable mientras el circuito de control juega con la región activa del transistor para simular mayor o menor resistencia y por consecuencia regulando el voltaje de salida.
+Este tipo de fuente es menos eficiente en la utilización de la potencia suministrada dado que parte de la energía se transforma en calor por efecto Joule en el elemento regulador (transistor), ya que se comporta como una resistencia variable.
+A la salida de esta etapa a fin de conseguir una mayor estabilidad en el rizado se encuentra una segunda etapa de filtrado (aunque no obligatoriamente, todo depende de los requerimientos del diseño), esta puede ser simplemente un condensador.
+Esta corriente abarca toda la energía del circuito, para esta fuente de alimentación deben tenerse en cuenta unos puntos concretos a la hora de decidir las características del transformador.
+Fuentes de alimentación conmutadas
+Una fuente conmutada es un dispositivo electrónico que transforma la energía eléctrica mediante transistores en conmutación.
+Mientras que un regulador de tensión utiliza transistores polarizados en su región activa de amplificación, las fuentes conmutadas utilizan los mismos conmutándolos activamente a altas frecuencias (20-100 kHz típicamente) entre corte (abiertos) y saturación (cerrados).
+La forma de onda cuadrada resultante se aplica a transformadores con núcleo de ferrita (los núcleos de hierro no son adecuados para estas altas frecuencias) para obtener uno o varios voltajes de salida de corriente alterna (CA) que luego son rectificados (con diodos rápidos) y filtrados (inductores y condensadores) para obtener los voltajes de salida de corriente continua (CC).
+Las ventajas de este método incluyen menor tamaño y peso del núcleo, mayor eficiencia y por lo tanto menor calentamiento.
+Las desventajas comparándolas con fuentes lineales es que son más complejas y generan ruido eléctrico de alta frecuencia que debe ser cuidadosamente minimizado para no causar interferencias a equipos próximos a estas fuentes.
+Las fuentes conmutadas tienen por esquema: rectificador, conmutador, transformador, otro rectificador y salida.
+La regulación se obtiene con el conmutador, normalmente un circuito PWM (pulse width modulation) que cambia el ciclo de trabajo.
+Aquí las funciones del transformador son las mismas que para fuentes lineales pero su posición es diferente.
+El segundo rectificador convierte la señal alterna pulsante que llega del transformador en un valor continuo.
+La salida puede ser también un filtro de condensador o uno del tipo LC.
+Las ventajas de las fuentes lineales son una mejor regulación, velocidad y mejores características EMC.
+Por otra parte las conmutadas obtienen un mejor rendimiento, menor coste y tamaño.
+Especificaciones
+Una especificación fundamental de las fuentes de alimentación es el rendimiento, que se define como la potencia total de salida entre la potencia activa de entrada.
+Como se ha dicho antes, las fuentes conmutadas son mejores en este aspecto.
+El factor de potencia es la potencia activa entre la potencia aparente de entrada.
+Es una medida de la calidad de la corriente.
+La fuente debe mantener la tensión de salida al voltaje solicitado independientemente de las oscilaciones de la línea, regulación de línea o de la carga requerida por el circuito, regulación de carga.
+Fuentes de alimentación especiales
+Entre las fuentes de alimentación alternas, tenemos aquellas en donde la potencia que se entrega a la carga está siendo controlada por transistores, los cuales son controlados en fase para poder entregar la potencia requerida a la carga.
+Otro tipo de alimentación de fuentes alternas, catalogadas como especiales son aquellas en donde la frecuencia es variada, manteniendo la amplitud de la tensión logrando un efecto de fuente variable en casos como motores y transformadores de tensión.
+Galería de imágenes
+Archivo:ATX-Netzteil.jpg|Fuente de alimentación para PC, formato ATX.
+Archivo:HP-Compaq-PC-Power-Supply IMG 8112.JPG|Fuente de alimentación para PC formato ATX (sin cubierta superior, para mostrar su interior).
+Archivo:PSU-gold-full set.jpg|Unidad de fuente de alimentación para equipo ATA, con los conectores estándar de 2004: MOLEX, AUX, una de las grandes conexiones de la placa base.
+Archivo:Molex.
+JPG|Conectores Molex: para placa madre de 20 pines (izq.), mini molex para unidad de disquete (centro) y para HDD o unidad de disco óptico (derecha).
+Archivo:ATX PS connectors.jpg|Conectores Molex para dispositivos SATA (izq.
+) y para unidad de disco duro o unidad de disco óptico (derecha).
+Véase también

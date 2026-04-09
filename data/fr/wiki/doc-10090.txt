@@ -1,0 +1,50 @@
+Analyse|Fonction de référence|Affine|Propriété de fonction|Affine
+En analyse, une fonction affine est une fonction obtenue par addition et multiplication de la variable par des constantes.
+Elle peut donc s'écrire sous la forme :
+f (x)=ax+b
+où les paramètres et ne dépendent pas de .
+Lorsque la fonction est définie sur l'ensemble des réels, elle est représentée par une droite, dont est le coefficient directeur et l'ordonnée à l'origine.
+Un cas particulier des fonctions affines est lorsque l'ordonnée à l'origine est nulle, on obtient alors une fonction linéaire.
+Les fonctions constantes et linéaires sont des exemples de fonctions affines.
+Les fonctions affines sont elles-mêmes des exemples de fonctions polynomiales de degré inférieur ou égal à 1.
+La notion de fonction affine est généralisée en géométrie par celle d'application affine.
+Remarque : dans certaines branches des mathématiques comme la statistique, une telle fonction est appelée, à l'image du terme anglophone linear function et du terme allemand Lineare Funktion, une fonction linéaire en référence au fait que son graphe est une ligne droite.
+Propriété caractéristique
+Une fonction affine est caractérisée par le fait que son taux d'accroissement est constant.
+En effet, si et sont deux réels, l'accroissement est proportionnel à , comme le donne l’égalité :
+:f (x_2)
+- f (x_1)
+= a (x_2
+- x_1).
+Cette propriété donne alors un outil pour déterminer le coefficient :
+:a = \frac si .
+On en déduit : f' (x)= a. (La dérivée d'une fonction affine est une fonction constante dont la valeur est le coefficient directeur de la fonction affine.
+L'ordonnée à l'origine peut se calculer de la manière suivante :
+b=\frac si .
+Résolution d'équations et d'inéquations
+Supposons réels et non nul.
+*L'ensemble des solutions de l'inéquation est l'intervalle réel si , si .
+Exemples
+Exemple de l'abonnement téléphonique.
+:Le prix de l'abonnement mensuel est A et le prix d'une communication à la minute est de /min.
+La facture téléphonique est alors une fonction affine du nombre de minutes de communication dans le mois :
+Longueur d'un ressort.
+Si au repos le ressort a une longueur L et si sa raideur est k, alors la longueur du ressort est une fonction affine de la force appliquée (loi de Hooke).Dans ce cas, le coefficient directeur est 1/k et l'ordonnée à l'origine L.
+Représentation graphique
+La représentation graphique d'une fonction affine définie sur l'ensemble des réels est une droite dont l'équation
+est
+y=ax+b.
+La droite coupe l'axe des ordonnées pour (d'où le nom d'ordonnée à l'origine).
+Lorsque est nul, la droite passe par l'origine du repère cartésien.
+La droite a pour « pente » ou « coefficient directeur » le réel .
+Si , la fonction affine est croissante (la droite « monte ») et si , elle est décroissante (la droite «
+descend »).
+Par un processus analogue à celui vu pour la fonction linéaire, un déplacement d'un carreau en abscisse induit un déplacement de carreaux en ordonnée, si le repère est orthonormé.
+Détermination de a et b
+Si et sont deux points distincts appartenant à la droite d'équation , alors :
+:a = \frac,
+y_1
+- ax_1
+y_2
+- ax_2=\frac.
+Si alors la fonction est constante et si alors la fonction est linéaire.

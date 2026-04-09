@@ -1,0 +1,127 @@
+è un celebre videogioco ideato da Toru Iwatani e prodotto dalla Namco nel 1980 nel formato arcade da sala.
+In occidente venne pubblicato in licenza dalla Midway Games.
+Acquisì subito grande popolarità e, negli anni successivi, sotto l'etichetta Namco sono state pubblicate varie versioni per la quasi totalità delle console e dei computer, conservando fino a oggi la sua fama di classico dei videogiochi.
+Modalità di gioco
+Il giocatore deve guidare una creatura sferica di colore giallo, chiamata Pac-Man, facendole mangiare tutti i numerosi puntini disseminati ordinatamente all'interno del labirinto e, nel far questo, deve evitare di farsi toccare da quattro "fantasmi", pena la perdita immediata di una delle vite a disposizione.
+Per facilitare il compito al giocatore sono presenti, presso gli angoli dello schermo di gioco, quattro "pillole" speciali ("power pills") che rovesciano la situazione rendendo vulnerabili i fantasmi, che diventano blu e, per 10 secondi esatti, invertono la loro marcia;
+per guadagnare punti, è possibile in questa fase andare a caccia degli stessi fantasmi, per mangiarli.
+Una volta fagocitati, però, questi tornano alla base (il rettangolo al centro dello schermo) sotto forma di un paio di occhi, per rigenerarsi e attaccare di nuovo Pac-Man.
+Completato un labirinto attraverso la fagocitazione di tutti i puntini, Pac-Man passa a quello successivo, identico nella struttura;
+le varie fasi sono intervallate da scenette umoristiche che vedono protagonisti Pac-Man e il fantasma Akabei (noto anche come Blinky).
+Punteggio
+Durante il gioco, ogni cosa che Pac-Man riesce a mangiare viene contabilizzata sotto forma di punti, che permettono di ottenere una vita extra una volta raggiunta quota (secondo la configurazione predefinita) e di essere iscritti alla classifica dei giocatori più abili.
+Le palline disseminate lungo il labirinto valgono 10 punti ognuna (in tutto il labirinto ce ne sono 240, per un totale di punti) mentre le power pill ne valgono 50 (per un totale di 200 punti).
+È possibile ottenere punti extra anche mangiando i fantasmi una volta resi vulnerabili da una delle power pill:
+in tal caso si ottengono 200, 400, 800 e punti (per un totale di punti) fagocitando i fantasmi in sequenza (200 punti con il primo fantasma, 400 con il secondo e così via).
+Esiste anche un'altra possibilità per l'aumento dei propri punti:
+durante l'esecuzione di ogni livello, per ben due volte appare al centro del labirinto un'icona, nella maggior parte dei casi rappresentante un frutto.
+Se il giocatore è abbastanza abile da recuperarla prima che scompaia, accresce il proprio punteggio.
+Questi oggetti speciali e il loro punteggio variano in base al livello:
+Il punteggio più alto raggiungibile a Pac-Man è di punti, perché un bug nel codice del gioco impedisce di oltrepassare il 256º livello (vedi sotto).
+Questo punteggio è definito "punteggio perfetto" ("perfect score":
+per ottenerlo bisogna mangiare in tutti i livelli di gioco tutte le pillole, tutti i fantasmi blu e tutti i bonus che appaiono.
+Il primo ad aver realizzato il "punteggio perfetto" è stato Billy Mitchell nel 1999, mentre l'ultimo è stato David Race il 4 gennaio 2012, che è stato anche il più rapido a realizzarlo, impiegando 3 ore, 33 minuti e 12 secondi.
+Intermezzi
+La linearità del gioco viene occasionalmente interrotta da alcune scenette d'intermezzo umoristiche che vedono come protagonista Pac-Man e il fantasma rosso Blinky;
+* Blinky insegue Pac-Man fino a sparire dallo schermo.
+Successivamente riappare di colore blu inseguito a sua volta da un Pac-Man gigante.
+Questa scena si presenta dopo il secondo livello.
+* Blinky insegue Pac-Man attraverso tutto lo schermo, ma il suo vestito rimane impigliato in una trappola finendo strappato e scoprendo le sue gambe nude.
+Questa scena si presenta dopo il quinto livello.
+* Blinky, con un lembo del suo vestito rattoppato, insegue come al solito Pac-Man attraverso lo schermo.
+Blinky riappare nudo in direzione opposta trascinando dietro di sé il suo vestito lacerato.
+Questa scena si presenta dopo il nono, il dodicesimo e il diciassettesimo livello.
+Questo livello è considerato, a causa di un bug, l'ultimo livello di Pac-Man.
+Teoricamente il gioco può proseguire all'infinito, dato che ogni livello che segue è praticamente identico a quello appena completato, ma arrivati al livello n. 256 la scena cambia sostanzialmente, a causa di un bug nella funzione che disegna la frutta nella barra inferiore dello schermo, dove appare l'indicazione del livello corrente.
+Nella linea non dovrebbero comparire più di sette frutti, questo perché il codice si occupa di disegnare - solo nel caso in cui il numero del livello è minore di 8 - tanti frutti quanto è il livello corrente.
+Siccome il numero del livello viene registrato su un solo byte, completato il 255º (in esadecimale "FF"), la funzione legge dal numero esadecimale 100 (ovvero 256 in decimale) solo lo "00".
+A questo punto il gioco crede di trovarsi in un livello inferiore a 8 e prova a tracciare sul fondo dello schermo 256 frutti.
+Questo problema fa sì che metà dello schermo venga riempita da simboli casuali che rendono quasi impossibile il completamento del livello (quasi, perché se è vero che molti appassionati hanno da sempre identificato il livello 256 come "the end of game", la fine del gioco, è vero anche che altri giocatori credevano possibile che, se solo una persona avesse conosciuto molto bene il labirinto, sarebbe stata in grado di terminare il livello 256).
+Non si sa se mai qualcuno sia riuscito a compiere tale impresa.
+Sembra però che nel dicembre del 1982, Jeffrey R. Yee (che all'epoca aveva 8 anni), abbia totalizzato il punteggio di punti, tanto da ricevere anche il plauso dell'allora presidente statunitense Ronald Reagan.
+Se ciò fosse vero, il calcolo del punteggio massimo realizzabile, collezionando tutti i bonus, implicherebbe il superamento della soglia dei 255 livelli.
+Dopo il livello 256 il gioco continua normalmente per altri 255 livelli, come è stato possibile sapere soltanto in tempi recenti, grazie all'avvento dell'emulatore MAME che, grazie a alcuni espedienti, è riuscito a simulare la vittoria del livello in questione.
+Nel 2015 è stato pubblicato per dispositivi mobili iOS e Android un videogioco basato su questo bug, intitolato Pac-Man 256 e prodotto dalla Namco Bandai Games in collaborazione con la Hipster Whale, famosa per aver prodotto il famoso videogioco Crossy Road.
+Storia
+L'idea
+L'origine di Pac-Man è piuttosto singolare.
+Sembra infatti che l'idea soggiunse a Tohru Iwatani durante una cena con degli amici guardando una pizza a cui era stata tolta una fetta.
+Dopo quattordici mesi da quella cena, precisamente il 22 maggio del 1980, grazie a un team di sviluppo di otto tecnici, divisi equamente fra software e hardware e capeggiati da Shigeo Funaki, comprendente anche il musicista Toshio Kai, vide la luce il primo Pac-Man.
+Il gioco fu commercializzato in Giappone a partire dal 10 maggio con il nome di Puckman, termine che deriva dalla parola giapponese ぱくぱく, ovvero "chiudere e aprire la bocca".
+Il nome fu poi cambiato in Pac-Man per la sua commercializzazione negli Stati Uniti, iniziata nell'agosto dello stesso anno, a causa di una spiacevole assonanza con una parolaccia inglese:
+si temeva che "Puckman" potesse essere storpiato in un osceno "Fuckman".
+Nel novembre dello stesso anno Pac-Man viene presentato all'Amusement and Music Operators Association (AMOA) di Chicago dove venne definito «troppo carino per avere successo» realizzò il primo "Perfect Pac-Man Game", ovvero la "partita perfetta", in cui riuscì a completare tutti e 255 i livelli di gioco senza essere mai catturato da un fantasma e a totalizzare 3.333.360 punti.
+Serie mobile
+Sono stati realizzati e pubblicati diversi giochi ufficiali di Pac-Man per gli smartphone:
+Il metodo GET
+Così chiamato dal nome dalle iniziali degli ideatori (George Huang, Ed Bazo e Tom Fertado), il "metodo GET" consente, nelle prime versioni del gioco, di completare ogni livello seguendo soltanto un percorso prestabilito, senza rischiare di venir catturato da alcun fantasma.
+Hack
+Oltre alle imitazioni, di Pac-Man furono creati numerosi hack, ovvero versioni modificate non autorizzate dalla casa madre e che aggiungevano e modificavano, integralmente o parzialmente, l'aspetto e il meccanismo del gioco.
+La diffusione di hack portò più volte la Namco a conflitti con le software-house produttrici di tali prodotti:
+molti vennero quindi bloccati, mentre altri raggiunsero il successo.
+Fra gli hack più diffusi e famosi si contano:
+* Pac-Man Hearts, hack prodotto dalla casa francese Unibox nel 1981.
+Le differenze apportate sono quasi esclusivamente grafiche:
+al posto dei classici puntini ci sono dei cuoricini, il numero di warp-tunnel (ossia di passaggi che permettono di saltare livelli) passa da 2 a 6 e fagocitando le power pills i fantasmi non si limitano più solo a cambiare colore, ma si trasformano in rosee lumache vulnerabili agli attacchi di Pac-Man.
+Per il resto il gioco rispecchia fedelmente l'originale.
+* Pac-Man Speed-Up:
+questo hack clona in tutto e per tutto l'originale Pac-Man della Midway, apportando una sola ma sostanziale differenza:
+la velocità di Pac-Man è più che raddoppiata.
+Questo tuttavia non rende il gioco meno interessante:
+sebbene sia più facile scappare dai fantasmi, diventa più difficile manovrare Pac-Man.
+Un problema riscontrato nel gioco riguarda le scene d'intermezzo, che risultano anch'esse accelerate tanto da rivelarsi incomprensibili.
+* Pac-Man Galaxian:
+è la trasposizione del gioco originale su di una scheda predisposta precedentemente per Galaxian, ovviamente grazie ad alcuni adattamenti grafici per renderlo compatibile con l'hardware "ospite".
+A causa di questi adattamenti viene modificata la zona adibita alla segnalazione di vite, frutta catturata e giocatore in gioco, passando dalla solita barra inferiore alle 4 zone centrali al di fuori del labirinto.
+Vengono modificati pesantemente anche i colori, conseguenza alla diversa gamma di colori utilizzata da Galaxian.
+Questa modifica fu distribuita più o meno illegalmente per permettere ai gestori di bar e sale giochi di passare velocemente da Galaxian a Pac-Man senza dover acquistare dalla Midway un nuovo case.
+A differenza del gioco originale, non esiste il bug del livello 256:
+l'unico sintomo è che il contatore della frutta mostra una chiave con accanto scritto "0"
+* Hangly-Man:
+le uniche modifiche apportate da questo hack sono lievi variazioni al labirinto (i warp-tunnel diventano 6 e appaiono lievi differenze al tracciato) e la possibilità che lo stesso scompaia secondo variabili casuali.
+* Caterpillar Pac-Man:
+pubblicato dalla PHi nel 1981, stravolge completamente la grafica del gioco anche se le meccaniche rimangono pressappoco le stesse.
+Il giocatore non guida più una pallina gialla ma un bruco intento a divorare tutte le palline in un labirinto che riprende la forma di quello usato da Hangly-Man.
+I fantasmi a loro volta si sono "trasformati" in ragni, che mantengono però sempre la stessa funzione.
+* Piranha:
+pubblicato dalla GL il novembre del 1981, è un altro hack di Pac-Man che stravolge la grafica originaria del gioco.
+Sparisce il labirinto, trasformato in un grosso lago pieno di palline, e Pac-Man assume la forma di un piranha che, mentre si aggira per lo schermo, deve stare attento ad evitare le piovre (ex fantasmi).
+Del labirinto originario rimangono soltanto i due warp-tunnel laterali a cui se ne aggiungono anche due nella parte superiore e inferiore dello schermo.
+* Joyman:
+pubblicato dalla Monster nel 1982, modifica integralmente la grafica originaria.
+Mantiene però, a differenza di Piranha, l'idea originaria del labirinto, che in questo hack è formato da lunghi corridoi verticali.
+Il protagonista, questa volta, assume le sembianze di oggetto alieno che deve raccogliere tutte le palline evitando di imbattersi nei piccoli alieni colorati (ex fantasmi).
+* Anti Pac-Man:
+una versione in Flash in cui, invece del Pac-Man, il giocatore controlla i quattro fantasmi e l'obiettivo è mangiare Pac-Man prima che questi riesca a fagocitare tutte le palline.
+Le regole sono le stesse del gioco originale con alcune modifiche:
+una volta mangiati, i fantasmi non torneranno più alla base centrale fino all'inizio del livello successivo.
+Ad ogni livello ci sono meno fantasmi da gestire ed il gioco viene velocizzato.
+Finiti 8 livelli con i fantasmi, si passa a impersonare Pac-man.
+* K.C. Munchkin:
+questo clone per la console Philips Videopac raffigura solo 12 palline, 3 fantasmi (invece di 4) e una specie di Pac-Man con i lati pentagonali, chiamato appunto Munchkin.
+In questo hack, i pallini si muovono, e i lati del labirinto sono predisposti in modo da sembrare delle trappole per Munchkin.
+Inoltre, ogni pallino (compresi quelli speciali) vale 1 punto, e non 10.
+* Ghostmuncher:
+una versione molto simile a Pac-Man Galaxian.
+Il labirinto varia dal nero con contorni blu a rosa con contorni gialli e due fantasmi sono rossi e si differenziano solo dagli occhi ma nonostante ciò il labirinto e il gioco non differiscono dall'originale.
+La musichetta di inizio partita è completamente diversa dall'originale e i suoni sono più acuti e rumorosi.
+Sull'ultimo corridoio in alto i personaggi sono visibili solo su una piccola parte mentre in Pac-Man Galaxian non sono proprio visibili.
+Conversioni
+Come tutti i giochi di successo dell'epoca, anche Pac-Man venne convertito per tutte le piattaforme esistenti.
+Ancora oggi è possibile trovare conversioni per console recenti, quali Xbox, PlayStation 3 e Nintendo Wii, all'interno di raccolte di classici.
+**Sony PlayStation 3 (2009, "Pac-Man Championship Edition")
+**Microsoft Xbox 360 ("Pac-Man Championship Edition")
+**Nintendo 3DS (2011,"Pac-Man & Galaga Dimension 3D")
+La fallimentare versione per l'Atari 2600
+Il primo tentativo di convertire Pac-Man per il mercato delle console casalinghe si rivelò un gigantesco disastro.
+Sono state fatte varie ipotesi sui motivi dell'enorme successo del gioco;
+anzitutto, il suo tema insolito e in certo senso non violento, in un'epoca in cui il mondo dei videogiochi era dominato da astronavi, raggi laser e guerre.
+Ken Uston, autore del best seller Mastering Pac-Man, fa notare come sia anche un gioco dove, per riuscire bene, è più importante lo sfruttamento intelligente degli schemi di comportamento dei fantasmi che la mera rapidità dei riflessi.
+Altra caratteristica è la semplicità dei comandi, essendo sufficiente una sola mano sulla manopola.
+Venne realizzata anche una versione animata di Pac-Man, che venne trasmessa negli Stati Uniti dal 1982 al 1984 ogni sabato mattina sulla rete CBS,.
+Il duo di musicisti americani Buckner & Garcia pubblicò nel 1982 un album dal nome Pac-Man Fever.
+Ogni traccia dell'album alludeva ad un particolare gioco arcade del periodo ed utilizzava alcuni effetti sonori presi dal gioco stesso.
+Il Six Flags Over Texas, un luna park di Arlington (Texas), denominò un proprio settore "Pac-Man Land" dal 1981 al 1985.
+Venne poi rinominata in "Looney Tunes Land" nel 1985.
+Più recentemente il giocatore di football Pacman Jones ha preso il soprannome dal videogioco.
+Note

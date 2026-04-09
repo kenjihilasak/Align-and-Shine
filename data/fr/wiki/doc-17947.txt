@@ -1,0 +1,78 @@
+Accumulateur|Électrochimie
+Une batterie d'accumulateurs, ou plus communément une batterie, est un ensemble d'accumulateurs électriques reliés entre eux de façon à créer un générateur électrique de tension et de capacité désirée.
+Ces accumulateurs sont parfois appelés éléments de la batterie ou cellules.
+On appelle aussi batteries les accumulateurs rechargeables destinés aux appareils électriques et électroniques domestiques.
+La batterie d'accumulateurs permet de stocker l'énergie électrique sous forme chimique et de la restituer sous forme de courant continu, de manière contrôlée.
+Vocabulaire
+En France,
+dans le langage commun, le mot
+« batterie » désigne souvent un ensemble d'accumulateurs électriques bien que ce ne soit que l'un des multiples sens de ce mot.
+Néanmoins, en 2016, peu de voitures électriques peuvent dépasser sans recharge en usage standard.
+Configuration
+Choix de configuration
+Les accumulateurs sont souvent câblés en série afin d'obtenir la tension de batterie souhaitée.
+Pour augmenter le courant disponible, il est également possible de recourir à un montage en parallèle des cellules.
+Le propre de la batterie d'accumulateur est donc d'augmenter la tension et/ou le courant disponible afin de correspondre aux caractéristiques d'une alimentation donnée.
+La combinaison des deux techniques peut être faite en accouplant plusieurs éléments :
+* en parallèle plusieurs blocs de cellules en séries (technique déconseillée
+pour un assemblage dans un même pack)
+* en série plusieurs blocs de cellules en parallèles (préférable)
+Notation série (S) et parallèle (P)
+Afin de simplifier les descriptions de montage des batteries d'accumulateurs, une notation usuelle est employée pour designer le couplage de :
+* 2 blocs en parallèle de 6 cellules en série : notée 2P6S
+Utilisations
+Les batteries d'accumulateurs sont utilisées dans de nombreux domaines :
+* Les accessoires des véhicules routiers sont alimentés en électricité par des batteries d'accumulateurs (souvent de type plomb-acide) lorsque le moteur du véhicule n'est pas en marche.
+Le but premier de la batterie est de fournir l'énergie nécessaire au démarreur lors de la mise en route du moteur, l'alternateur étant la principale source d'énergie électrique du véhicule une fois le moteur en marche.
+La tension de cette batterie est couramment de sur les automobiles, sur les camions et, peut-être, de pour la prochaine génération de véhicules) ;
+* Dans les alimentations sans interruption
+, elles stockent l'énergie permettant de suppléer pendant quelques minutes, à quelques heures
+, une coupure de courant du réseau électrique ;
+* Elles permettent le démarrage du groupe Diesel d'une alimentation de secours ;
+* Les batteries sont utilisées dans de nombreux appareils électroniques autonomes par exemple les téléphones mobiles, les baladeurs numériques ;
+* Les batteries solaires sont des batteries optimisées pour un fonctionnement avec des panneaux photovoltaïques ;
+* Dans son concept de troisième révolution industrielle, Jeremy Rifkin propose de maximiser les énergies renouvelables et en minimiser les coûts en utilisant les batteries de véhicules comme moyen de stockage itinérant d'électricité provenant de source d'énergie intermittente.
+Géographie de la production
+Selon Bloomberg New Energy Finance, la Chine dispose en 2019 d'une capacité de production de , devant les États-Unis () et la Corée ().
+La France se situe à la () grâce aux usines de Saft et Forsee Power.
+Charge des batteries
+Indicateurs de charge
+La mise en charge des batteries est une opération primordiale pour que les batteries conservent leurs caractéristiques initiales.
+On peut évaluer dans certains cas le niveau de charge d'une batterie en mesurant sa tension à vide (sans charge).
+Dans le cas de techniques plus récentes, comme le NiMh ou le Lithium, des méthodes plus élaborées sont nécessaires pour vérifier le niveau de charge, ce qui nécessite l'utilisation de chargeurs adaptés.
+Pour ces techniques, les chargeurs évaluent le taux de charge en surveillant l'évolution de la tension de charge et en prenant en compte le courant de charge et le temps, ( \frac ou \frac).
+Pour une batterie au plomb de tension nominale :
+Une batterie bien chargée a une tension supérieure à ;
+Une batterie à est totalement déchargée ou en mauvais état.
+Pour une batterie lithium-polymère, chaque cellule a une tension nominale de :
+Une cellule bien chargée a une tension supérieure à ;
+Une cellule sous est totalement déchargée ou en mauvais état et n'est souvent plus rechargeable.
+Quand une batterie lithium-polymère est composée de plusieurs cellules (cas fréquent), et il est recommandé de ne pas avoir un écart de tension entre les cellules qui dépasse .
+Temps de charge, rendement et capacité
+La durée de charge peut être approximativement calculée en fonction du courant de charge et de la capacité de la batterie : pour une batterie neuve totalement déchargée :
+Capacité (en A.h) = Courant de charge (en A) x Temps de charge (en h).
+Le rendement de charge (énergie stockée / énergie injectée pour la charge de la batterie) est inférieur à 1, en particulier en raison de la résistance interne à la batterie ;
+ce rendement dépend de l'intensité de courant utilisée pour la charge, il décroît quand l'intensité croît.
+La capacité doit être divisée par les facteurs de dépréciations en température (DT) et en charge 30 par exemple si le courant nominal est de alors que le courant de décharge réel est de () (cas des charges rapides).
+Régénération
+Les batteries plomb ouvert (chariots élévateurs, nacelles, etc.) ont une durée de vie limitée à environ .
+Lors du stockage et de la restitution de l'énergie au cours de cycles d'utilisation normaux, des cristaux de sulfate s'accumulent graduellement sur les électrodes, empêchant la batterie de fournir efficacement du courant.
+Les cristaux « étouffent » en fait la batterie.
+Même une charge de désulfatation n'empêche pas toujours que l'on doive remplacer la batterie après quelques années.
+La sulfatation est une des causes de vieillissement d'une batterie au plomb qui est restée déchargée pendant un certain temps avant la recharge, mais il y a aussi un autre facteur de vieillissement qui est la transformation au cours des cycles de charge/décharge de la matière active de l'électrode positive.
+Celle-ci est constituée de dioxyde de plomb PbO2 qui cristallise sous deux formes différentes (α-PbO2 et β-PbO2) dont une forme est constituée de petits cristaux, elle se transforme au cours des cycles en l'autre forme dont les cristaux sont plus gros, ce qui génère un gonflement de l'électrode qui se désagrège.
+Impact carbone
+L’Institut suédois de recherche environnementale (IVL) publie en 2017 un rapport sur l'impact environnemental des batteries : elle estime que la production des batteries engendre de par kWh ;
+une batterie de engendrerait donc entre tandis qu’une batterie de comme celle qui équipe la Tesla Model S P100D correspondrait à la production de plus de .
+L'IVL souligne cependant la forte disparité des mix énergétiques selon les pays : d’électricité étant nécessaires pour produire 1 kWh de batterie, l’étude révèle que l’électricité peut représenter jusqu'à 70 % du émis lors de la production ;
+avec un mix électrique entièrement décarboné comme en Suède, l’impact carbone lié à la production des batteries serait réduit de 60 %.
+Malgré cela, la recherche d'une autonomie maximale grâce à des batteries de grande capacité contribuerait significativement au réchauffement climatique.
+Recyclage
+Les batteries au plomb peuvent être recyclées : la plupart de leurs composants peuvent être réutilisés en fin de vie, par exemple le plastique, l'acide et les plaques de plomb.
+Au sein de l'usine de recyclage, le plastique du boîtier sera ainsi séparé du plomb des plaques et de l'acide de l'électrolyte.
+Ensuite, le plomb est fondu dans un four et réutilisé pour fabriquer de nouvelles plaques.
+Le plastique de son côté est également fondu et sert à confectionner de nouveaux boîtiers.
+Enfin, l’acide sulfurique est contrôlé, car il causerait de graves dommages s’il se retrouvait dans l’atmosphère.
+Il va servir lui aussi ultérieurement lors de la fabrication de batteries neuves.
+Ainsi donc, tout est recyclé dans les batteries et les pertes dans l’environnement sont très faibles, mais elles doivent être déposées dans des endroits prévus à cet effet : les mairies, décharges, des magasins spécialisés dans l'automobile ou le matériel industriel ou certains ferrailleurs (contre rémunération) peuvent s'en charger.
+Au Québec, les écocentres (centres municipaux de recyclage) offrent généralement ce service gratuitement.

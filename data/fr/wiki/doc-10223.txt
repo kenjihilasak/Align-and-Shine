@@ -1,0 +1,46 @@
+Système de numération
+Le système bibi
+binaire, ou système Bibi
+, est un mode de représentation graphique et phonétique des chiffres hexadécimaux, et donc aussi des chiffres binaires.
+Il a été inventé par le chanteur Boby Lapointe.
+Histoire
+Robert Lapointe, alias Boby Lapointe, a breveté son invention en 1968.
+À l'époque, le système, analysé par le magazine Science et Vie («
+Une phonétique du langage machine », ), avait notamment retenu l’attention du professeur André Lichnerowicz, titulaire d'une chaire de mathématiques au Collège de France, qui l’avait mis à l'étude au Centre universitaire de Lyon.
+Par la suite, diverses applications
+en ont été développées : poésie stochastique, graphisme stochastique, codification des couleurs, musique aléatoire, symbolisme architectural
+La description du langage est parue en 1970, dans l'ouvrage collectif
+Les Cerveaux non-humains.
+Elle a été reprise dans le Boby Lapointe d'Huguette Long Lapointe, publié en 1980.
+Caractéristiques
+Pourquoi Bibi
+Le qualificatif bibi-binaire ( « bi ») fait référence au fait que 16 (la base du système hexadécimal) peut s'écrire 2^ : comme on parle de binaire pour la base 2, Boby Lapointe a imaginé qu'on pourrait parler de « bi-binaire » pour la base 4, et pour la base 16 de « bibi-binaire », terme qu'il abrège en Bibi.
+Le dessin de chacun des seize chiffres Bibi est formé à partir des bits à 1 dans la répartition en carré de sa représentation binaire (suivant l'ordre d'écriture indiqué pour le chiffre 0) ;
+le tracé part du centre si un seul bit est à 1 et se termine alors à ce bit, sinon il relie dans l'ordre les positions des bits à 1, en prenant soin de passer par le centre si exactement deux bits sont à 1 ;
+les formes sont ensuite allongées si nécessaire pour remplir la hauteur ;
+les formes sont courbes s'il y a moins de trois bits positionnés à 1, et en lignes brisées s'il y en a trois ou quatre.
+Pour rendre l'usage du système moins fastidieux, l'inventeur a imaginé un procédé de conversion des chiffres en lettres et syllabes.
+À l'aide de quatre consonnes et de quatre voyelles, associées respectivement aux quatre valeurs des deux bits de gauche (
+et de droite (
+, on obtient les seize combinaisons nécessaires à la prononciation des seize chiffres :
+HO, HA, HE, HI, BO, BA, BE, BI, KO, KA, KE, KI, DO, DA, DE, DI.
+L'écriture des nombres à plusieurs chiffres utilise le principe classique de la notation positionnelle .
+Pour nommer un nombre, il suffit d'énumérer les chiffres (hexadécimaux) qui le composent.
+Exemple : en Bibi, le nombre qui s'écrit 2000 en base décimale et qui se traduit, en hexadécimal, par 7D0, est appelé BIDAHO.
+Nombres négatifs
+Contrairement à la numération retenue dans les ordinateurs actuels, le Bibi représente les nombres négatifs en complément à un, et non à deux.
+Ainsi :
+et leur addition donne :
+1 1111 (une des 2 représentations de « zéro » dans ce système ;
+zéro » y est aussi représenté par 0 0000).
+Sur les ordinateurs contemporains, en notation binaire classique, -7 s'écrit 1 1001 (on propage le « 1 » dans les bits supérieurs) ;
+et l'addition de -7 et 7 donnera 0 0000.
+Il n'y a ainsi qu'une seule notation pour le chiffre zéro.
+Liens externes
+* http:/
+nicolas bibibinaire.php
+Conversion en ligne décimal
+↔ bibi
+-binaire
+Références
+991ni7ya36i96k7vgxxqdhfv3z3izfq

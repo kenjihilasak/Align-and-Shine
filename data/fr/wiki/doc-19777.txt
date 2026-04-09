@@ -1,0 +1,626 @@
+Art numérique|Art contemporain|Imagerie numérique|Terminologie du jeu vidéo
+Le pixel art pik.sɛl.aʁ (t), aussi appelé art du pixel ou art des pixels aʁ.dy/de.pik.sɛl au Québec, désigne une composition numérique qui utilise une définition d'écran basse et un nombre de couleurs limité (même si cette double limitation n'est rigoureuse qu'historiquement parlant).
+De fait, le matériau de base du pixel art est la représentation plastique du pixel (contraction anglophone de picture element : élément d'image).
+C'est-à-dire une surface plus ou moins carrée et colorée, comme composante élémentaire de toute création de pixel art.
+Ces contraintes de moyens minimalistes imposent une stylisation, au cœur d'une recherche esthétique où chaque pixel a son importance.
+Ainsi, créer une œuvre où les pixels seraient simplement discernables les uns des autres n'est pas une condition suffisante pour en faire du pixel art.
+Si certaines techniques rappellent nettement des formes artistiques “du passé” (telles que les mosaïques ou certains types de textiles : broderie, tricot, métier Jacquard…), la vitalité du pixel art semble puiser dans un polymorphisme résolu à nos supports “modernes”.
+Concernant spécialement la compression spatiale des représentations, la nature matricielle de la vision humaine apparaît comme un facteur favorisant.
+(L'appréciation, l'expérimentation ou l'effort de simplification par cette stylisation tranchée s'en trouvent facilités physiologiquement, où le cerveau humain continue singulièrement de donner un sens à une image drastiquement réduite en nombre de pixels alignés.
+En outre, toutes les créations fortement pixelisées et/ou colorées du genre n'inspirent pas le même niveau qualitatif .
+Pourtant, à l'instar de l'art
+ASCII (
+qui est un parent proche esthétiquement), la formation et l'acception anglo-saxonnes du mot recommanderaient d'éviter ce critère d'appréciation, voire ce rejet dans la langue (pour lui préférer un emploi d'ordre générique ou absolu à des fins de nomenclature avant d'être de marché).
+Les « pixel-artistes » (dits encore « pixelleux ») du courant «
+néo-pixel
+art » actuel (pop, geek, kitsch…) semblent désormais profiter de cette liberté artistique, après s'être dégagés des contraintes des supports initiaux, que l'on rappellera comme celles d'un pixel art “classique”,
+davantage daté années 1980.
+Historique
+L'émergence
+Si le terme de pixel art paraît effectivement avoir été forgé historiquement avec les premiers écrans d'ordinateur et jeux vidéo ( en 1973, voire Computer Space dès 1971), son utilisation n'est réapparue que récemment .
+Après une courte période primitive durant laquelle les graphismes électroniques sont analogiques (sur écrans vectoriels
+- en omettant les bases électromécaniques des premières bornes de jeux d'arcade), ils deviennent numériques (sur écrans et moniteurs cathodiques).
+Les images reposent alors sur une matrice de pixels caractéristique, possédant une largeur et une hauteur fixes.
+Se pose alors la question de trouver comment représenter des figures avec une quantité de pixels et de couleurs très limitée.
+Dans les années 1980, les créateurs de jeux vidéo sont principalement des programmeurs et non des graphistes.
+La puissance des machines ne permet pas une approche véritablement artistique : la plupart des représentations sont très sommaires et s'affichent sur fond noir (Pong).
+Néanmoins, le public voit apparaître les premières icônes en pixels, comme le personnage de Pac-Man ou les aliens de Space Invaders (ci-contre en inversion vidéo).
+La culture populaire s'en trouve profondément marquée :
+les premiers graphismes sont désormais inoubliables ».
+L'âge d'or
+Dans les années 1990, les professionnels de l'informatique se familiarisent avec les techniques graphiques reposant sur les pixels et un nombre de couleurs limité.
+Ainsi, on voit apparaître des graphistes et des animateurs numériques professionnels, qui remplacent les programmeurs dans la tâche de réaliser les diverses images vidéoludiques.
+De nouvelles techniques et bonnes pratiques émergèrent alors spontanément, pragmatiquement ou plus conventionnellement, dans le but de représenter la figure souhaitée avec un minimum de ressources et un maximum de précision.
+Par exemple :
+* certaines illusions d'optique
+pour représenter par exemple : des arcs de cercle en seulement quelques pixels (ces derniers étant pourtant carrés, par définition), une moindre épaisseur de ligne de pixels (quand ceux carrés sont perçus en diagonale et qu'ils se mélangent ainsi isolément au blanc de l'arrière-plan), ou diverses fusions des composantes des pixels (ainsi que leurs décalages à l'opposé, spécialement dans les luminophores ;
+sans oublier les bons et mauvais côtés de l'effet des écrans LCD) ;
+* l'anticrénelage (avec comme prérequis une palette adaptée) et le tramage réalisés à la main (voir ce paragraphe concernant les dégradés) ;
+* le choix préalable des plages de couleurs (au sein de la palette utilisateur) qu'on souhaitera attribuer à tel ou tel élément d'affichage (personnage, décor…) ;
+* l'élaboration de masques (détourés ou pas, éventuellement sur les plus récents systèmes à la façon d'une transparence en utilisant une couleur de fond inutilisée ailleurs et en violet, magenta, rouge, vert, bleu, ou cyan etc.) ;
+* les tailles multiples de 8 pixels (puis éventuellement de 16 pixels) en largeur (moins souvent en hauteur mais alors toujours en plus de cette première limitation) ;
+* le regroupement de blocs d'images de ces dimensions fixes (permettant de multiplier les écrans de fond et les personnages, après avoir composé respectivement des et ) ;
+* l'adoption de tailles et d'éléments d'images divisibles par des multiples de deux (plusieurs fois de suite de façon binaire sans aucune perte de ratio, à l'instar des résolutions d'affichage les plus répandues), y compris dans les positionnements (directs ou après offset)
+, par précaution pour de meilleures portabilité et restitution à taille réduite (avec ou sans ) ;
+*la préférence à ce titre, comme pour le moindre crénelage ultérieur, pour des ratios d'aplatissement d'image n'impliquant, dans les axes diagonaux, que des lignes en escaliers de 1, ou/et 2, parfois 4 pixels de long (ces formats physiquement aplatis permettent un allongement inverse du champ de vision, donc de la profondeur sans déformation du terrain de jeu, une perspective en 3D qui n'était pas envisageable matériellement à la glorieuse époque des premiers graphismes dignes de ce nom en 2D), notamment via le très populaire format au ratio 2:1 qu'ont su initier mondialement les célèbres jeux vidéo d'arcade Zaxxon et Q*bert dès 1982
+* le choix de l'orientation de l'éclairage (parmi les deux diagonaux opposés qui étaient déjà très utilisés en infographie, où l'ombre portée en bas à droite s'est progressivement imposée par défaut, plutôt qu'en bas à gauche, notamment dans les textes et leurs titres ou logotypes) ;
+* l'émergence d'algorithmes (par exemple l'outil de remplissage accéléré et le tracé de cercles plus rapide, la mise à l'échelle et les déformations plus ou moins paramétrables, la mémoire/écran logique et physique en alternance, les sélections automatiques et les détourages par tolérance, les filtres entre surfaces ou autres plans de bits, le MIP mapping, l'accélération 2D matérielle, les annulations illimitées, des formats logiciels compatibles entre machines, les standards de transmission physique des images au niveau résolution et couleur…) ;
+* les “” ;
+* le “décalage de palette” (color cycling) qui permet d'animer des dégradés dans leur propre plage de couleurs (voir ce paragraphe dans la section des techniques) ;
+* la réduction de la taille des fichiers (nombre limité de plans de couleurs, graphismes à miroirs, mémoire optimisée par de la décompression en cours de jeu, distinguo entre formats avec et sans pertes, etc.) ;
+* le début des conventions relatives aux menus et aux contrôles (sur les matériels et genres spécifiques) ;
+* la limitation du nombre et des temps de chargement (fichiers concaténés en un bloc unique, accélérateurs sur cassette etc.) ;
+* la création d'éditeurs graphiques, de routines réutilisables d'un projet à l'autre, voire de moteurs de jeu ) ;
+* la spécialisation dans l'équipe de développement (scénaristes, concepteurs, programmeurs, graphistes bien sûr, musiciens, testeurs…).
+Concernant strictement le dessin, ces nouvelles approches aident à répondre notamment à des préoccupations d'ordre minimaliste : “Si l'on souhaite représenter le visage d'un personnage dans un carré de moins de 10 pixels de côté, combien de pixels doit-on utiliser pour représenter sa bouche, ou ses oreilles, ou son nez ?
+Doit-on même représenter ces éléments ou les laisser à l'imagination du spectateur ?
+Le placement de chaque pixel devient crucial et peut radicalement changer la perception du spectateur.
+Savoir placer les pixels au bon endroit selon les contraintes, tout en s'approchant d'une représentation la plus ressemblante possible, est alors une spécialité à part entière, sorti en 1992 sur Amiga, proposent ainsi des graphismes atteignant une qualité artistique inégalée ces années-là.
+Les écrans intertitres dAgony sont ainsi « signés par leurs auteurs respectifs ».
+L'Amiga côté scène démo (cf. ce paragraphe pour des graphismes équivalents sur Atari ST).
+En parallèle, les pixel-artistes amateurs ont également su tirer parti des capacités d'affichage très avancées des Amiga (cf. plus haut, sortie dès 1987).
+Un beau-livre met en avant ce caractère avantageux, voire dispendieux : The Masters of Pixel
+Art .
+Malheureusement pour le titre, on y mélange le pixel art historique des autres systèmes (pas nécessairement « préhistoriques »), avec les productions aux moyens photoréalistes des Amiga.
+La définition du pixel art n'intègre pas cette défiance au minimalisme, comme on ne souhaiterait pas confondre photographie et mosaïque, comme critère de sélection de la qualité.
+Par exemple, parmi les possibles incompatibilités que tolère ce livre dans son florilège de pixel-artistes sur l'Amiga : la grande majorité des dégradés y prend environ 8 couleurs de la palette , et ils y sont fréquemment trop plats (très délicats car sans contraste, grâce ou à cause de la vaste palette disponible) ;
+le lissage y est tout aussi gourmand (une large surface de pixels déborde souvent, comme autant de bavures), si l'anticrénelage n'y est pas simplement logiciel (dans ce cas parfois étonnamment plus précis, façon vectoriel, lequel est hors sujet) ;
+les images (retenues comme marquantes) y sont moins originales qu'ailleurs en général (peintures plagiées ou scannées dheroic fantasy, “logos” illisibles d'une même source de graffitis tortueux) ;
+les plus grands noms de ces pixel-artistes ont une production si abondante, luxuriante et pourtant riche de lissages omniprésents qu'il est tout à fait douteux que l'anticrénelage automatique ne soit pas d'un recours fréquent chez eux, assumé ou pas (le moindre dessin lissé à la main prend en effet au minimum quatre fois plus de temps à réaliser en 16 couleurs, empiriquement et mécaniquement, et les images présentées en ont souvent des centaines… ;
+à ces tailles-ci, relativement grandes, chaque œuvre prendrait au bas mot un mois de travail acharné, ce qui n'est pas trop envisageable sur des années d'exercice ;
+il y a une similitude technologique et plastique avec la peinture à l'huile et l'aérographe)…
+Cependant ce type de créations participait bien au confort sur Amiga, accompagnées de leur propre style de musiques (historiquement à base de modules souvent aussi léchés que filtrés, et alors parfois un peu “mous” en comparaison des systèmes utilisant des tables d'onde rustiques, à l'instar du traitement réservé aux pixels sur Amiga, très travaillés pour dépasser effectivement les dernières contraintes de minimalisme sur ces machines en cela un peu intemporelles).
+Ceux qui savaient donner vie à des sprites minuscules : Psygnosis édite en 1991 Lemmings, du studio DMA Design, connu aujourd'hui sous le nom de Rockstar North, qui va parvenir à donner de l'expression à des personnages de très petite taille (sans toutefois être extrêmement réduits, comme les développeurs indépendants sauront le faire, mais avec des animations tellement variées et pourtant fluides à cette taille que c'en est mémorable de souci du détail).
+Plus tard, les jeux Sensible Soccer et Worms, par exemple, reprendront cette idée centrale de la petitesse des sprites.
+Ceux qui utilisaient beaucoup la vue isométrique :
+certains développeurs comme Bullfrog proposeront des jeux utilisant la technique du « pixel art isométrique », dont notamment dans Populous, Powermonger, Syndicate et Theme Park, dans un style très proche de ce que l'on peut voir produire de nos jours.
+Sur consoles : en 1994, Psygnosis sort Flink sur Mega Drive puis Amiga CD32, développé par l'équipe derrière Lionheart sur Amiga et qui développera plus tard Lomax sur PlayStation.
+Malgré les limitations techniques de la Mega Drive qui ne peut afficher que 64 couleurs sur une palette qui en compte 512, le jeu dispose d'un rendu qui à l'époque fait sensation.
+Au Japon, les équipes techniques développant les jeux, par leur taille et les moyens engagés sont sans commune mesure avec les développeurs occidentaux.
+Konami ou Capcom notamment tiennent à cette période le haut du pavé en matière de graphisme 2D, avec des jeux comme Castlevania, Street Fighter II, Ghouls'n Ghosts, d'autres comme Nintendo se proposent généralement des jeux à la jouabilité irréprochable mais graphiquement en retrait, comme Super Mario World, Pilotwings ou F-Zero.
+Cependant, en 1995, Nintendo sort
+Yoshi's Island sur Super
+Nintendo qui justifie son graphisme «
+dessin d'enfant » par son scénario.
+Les couleurs pastel, la variété des décors et le style infantile le hissent parmi les plus beaux jeux de plates-formes.
+La démesure : enfin, en 1996, SNK sort Metal Slug sur Neo-Geo.
+Metal Slug 3 et Metal Slug X sont reconnus pour leurs graphismes exceptionnels.
+Les spécificités techniques de cette console, purement dédiée à la 2D, et alors dernière de sa génération, incitent les développeurs à produire massivement des sprites de grande qualité.
+En excluant le renouveau du pixel art qui suit l'avènement des appareils mobiles, Metal Slug demeure l'un des derniers jeux vidéo de l'histoire faisant massivement appel aux graphismes 2D.
+Le déclin
+Mécaniquement, l'augmentation progressive de la puissance des machines, et à l'écran notamment, de leur résolution et profondeur de couleurs, tend à rendre la gestion des pixels moins complexe et cruciale pour un affichage lisible.
+La taille des pixels diminue (de deux à trois fois environ), et le nombre de couleurs explose (bien plus de mille fois).
+La baisse continue du prix des mémoires permet parallèlement de lever peu à peu les dernières limitations des vieux systèmes, dans l'organisation jusqu'alors drastiquement optimisée de l'image (modes spécifiques aux machines, bridages divers des palettes, structures binaires non séquentielles etc., étaient un frein au réalisme visuel et à la productivité).
+Il devient alors possible de produire facilement des images, dites assistées par ordinateur, avec une intervention substantielle de la machine.
+Par exemple, le lissage logiciel, qui naît de calculs complexes : si le pixel-artiste peut conserver cette préoccupation à la main, pour un meilleur contrôle , et a fortiori si cette tâche est motivée par une performance (pour mettre en valeur sa technicité au point par point), ce n'est plus du tout rentable en haute définition .
+Ce début d'aisance informatique converge avec un second phénomène, lié davantage aux logiciels en général, et à la 3D en particulier, une visualisation permise par ces progrès matériels .
+Il s'agit de l'arrivée très remarquée des graphismes à base de vecteurs (différents ici des courbes connues des graphismes vectoriels en 2D), dans un contexte d'émergence de la 3D temps réel (sans, ou avec stéréoscopie).
+L'un des piliers de la 3D (à base de vecteurs, voire de voxels, ces équivalents 3D des pixels), repose en effet sur un système de positionnement des objets selon des coordonnées en virgule flottante : dans l'espace, elles sont indépendantes des coordonnées du pixel tel qu'il sera affiché à l'écran.
+Ainsi, ce n'est plus directement le graphiste qui détermine l'emplacement ni la teinte de chaque pixel.
+Il se contente de disposer des objets virtuels dans une scène en 3D, et c'est l'ordinateur qui détermine la position et la couleur des pixels pour tenir compte de l'éclairage, du mouvement, des filtres etc.
+Ces deux grandes avancées technologiques tendent à rendre le pixel art inutile techniquement, et l'intervention humaine chaque fois indirecte, quand la photographie et le dessin sur supports traditionnels ne trouvent pas d'alternatives (facilitatrices ou amélioratrices sur les systèmes modernes).
+Les machines 32 bits (PC, PlayStation ou Saturn) sont la dernière génération à utiliser du pixel dans les textures de leurs jeux vidéo.
+La parenthèse vectorielle
+Dans les années 2000, pendant que les grands éditeurs s'affrontent dans une course à la 3D de plus en plus complexe, des petits programmeurs amateurs travaillent dans l'esprit des pionniers des années 1970-1980 : celui de faire son propre jeu chez soi.
+Grâce au langage Flash (qui réunit dans un même outil le logiciel de dessin et le langage de programmation pour rendre l'ensemble interactif puis utilisable directement sur internet), des petits jeux gratuits pullulent sur le web, progressant doucement en qualité.
+Flash favorise des graphismes vectoriels, à l'opposé du pixel art.
+Cependant, le recours à la 2D rapide recrée un lien avec les jeux cultes des années passées, et dans cette mouvance « à l'ancienne » (on dit “retro”, à l'anglaise), le pixel finit par s'imposer de lui-même.
+Néanmoins il n'est plus obligatoire, il devient un choix esthétique.
+Les graphismes en pixel art sont parfois optimisés pour la technologie Flash, notamment les plus petites fontes (afin de leur éviter un rédhibitoire flou horizontal).
+Les graphiques et petits textes en pixel art ne souffrent pas, dès le brouillon jusqu'au rendu final, des instabilités fréquentes liées au lissage du vectoriel non optimisé (et aux autres valeurs mal arrondies par la machine, dans les deux dimensions).
+Cette parenthèse crée une “génération” de futurs programmeurs ayant assimilé les codes de représentation du pixel.
+Il faut attendre le milieu des années 2000 pour voir naître des jeux de qualité égale ou supérieure aux productions de l'âge d'or.
+On peut citer, parmi des milliers d'exemples, des jeux comme The Village Blacksmith (2008), Wobly Ware (2010), Neutronized (2010), Luftrauser (2010).
+Le renouveau moderne
+Le pixel art survit partout où les limitations techniques forcent à n'utiliser que des graphismes en 2D avec une résolution faible.
+La réelle renaissance du pixel art a coïncidé avec l'apparition des appareils mobiles, laquelle réintroduit d'une part les limitations techniques de l'affichage et d'autre part un besoin en contenu abondant et peu cher, lequel entraîne une explosion du marché des développeurs indépendants, qui à leur tour doivent revenir à des techniques de production peu coûteuses et rapides telles que le pixel art.
+Dans un deuxième temps, grâce à la distribution dématérialisée, les jeux indépendants ont pu se distribuer beaucoup plus largement, notamment sur les plates-formes de téléchargement de consoles de jeux.
+En 2012, Phil Fish sort FEZ sur le Xbox Live
+Arcade.
+Ce jeu est un hommage au retrogaming avec une esthétique des décors soignés.
+Il se rapproche du « jeu idéal » selon certaines critiques, et devient un véritable succès mondial.
+Néanmoins l'aspect de la profondeur limitée de couleurs, pourtant essentielle quoique contrainte dans le pixel art conventionnel, passe quasi systématiquement à la trappe, dans cette volonté de renouvellement adapté aux affichages et habitudes visuelles modernes.
+La démarche des développeurs consiste plutôt dans cette recette, commerciale éventuellement : débrider les palettes (voir ce paragraphe), tout en conservant une résolution raisonnablement basse pour nos écrans.
+Sur le plan technique, c'est donc du “demi-pixel art ancien” en général.
+En forçant le trait : de jolies couleurs, du demi-laid (en intégrant la grande rusticité des blocs), pour que cela plaise au moins à la moitié des joueurs et des clients.
+L'autre moitié préférera les nouveaux titres qui ont choisi de rester limités graphiquement sur les deux plans, question de vécu, voire de génération.
+À noter que le gameplay est rarement repris des machines d'origine , tandis que c'est souvent le contraire pour les sons et musiques .
+Lorsqu'il s'agit de tout simuler à la fois (graphisme, jouabilité, audio, limitation de mémoire…), jusqu'à la perfection, les plus grands amateurs s'orientent vers les développeurs programmeurs qui continuent à créer et à dessiner sur leurs machines de prédilection, à la façon des pionniers du début des années 1980, non sans avoir souvent amélioré les techniques par maintes astuces de codeurs documentées depuis, et atteint ou dépassé les limites habituelles de stockage par compromission avec les outils de création modernes.
+L'appropriation par les indépendants
+Les jeux indépendants s'emparent du pixel art et vont le hisser au rang d’œuvre d'art graphique.
+En 1999, Daisuke Amaya, développe seul un ambitieux jeu d'aventure : Cave Story.
+Les internautes suivent l'avancée du travail créant ainsi une base de fans inconditionnels.
+Le jeu est finalisé en 2004 : les critiques sont élogieuses et Cave
+Story devient l'ambassadeur du développement indépendant en pixel.
+Il est décliné sur plusieurs plates-formes de téléchargement en 2010.
+Dans son sillage, de nombreux jeux très talentueux sortent.
+Le travail graphique est particulièrement impressionnant.
+En 2010, Gunboy développé par Tennis est un Megaman like survitaminé à l'esthétique visuelle nippone.
+En 2011, Treasure Adventure
+Game place l'exploration d'un monde immense au centre de son gameplay, avec une richesse de contenu et de jeu.
+En 2013 Evoland
+développé par Nicolas Cannasse en 48 heures, sort vainqueur de la Ludum Dare.
+Il retrace, avec pédagogie, l'évolution des graphismes des jeux vidéo sur fond d'aventures à la Zelda.
+Des petits studios vont aussi se mettre à produire des jeux en pixel art.
+Arkedo sort l'éponyme Pixel !, son gameplay classique dévoile des univers visuels qui semblent surgir d'un passé fantasmé.
+En 2011, Lost Pixel sort le superbe Frogatto and Friend.
+Développé depuis 2009, il affiche des graphismes à faire pâlir les meilleures productions des années 1990.
+Toujours en 2011, D-
+Pad
+Studio
+sort
+Owlboy à l'esthétique incroyable,
+notamment par un character design singulier et l'utilisation d'ombres blanches astucieusement placées
+Encore en 2011, Konjak développe Iconoclasts et devient incontestablement la nouvelle référence graphique en pixel art.
+En gestation depuis 2009, le phénomène Minecraft déboule sur les réseaux en 2011.
+Markus Persson utilise une esthétique totalement dépouillée avec comme volume de base le cube et des textures en gros pixels.
+Cela permet de générer rapidement des cartes de mondes aléatoires et immenses.
+Le succès ne se fait pas attendre et plusieurs millions de copies sont écoulées.
+La reconnaissance artistique arrive en 2013, lorsque Minecraft entre officiellement au Museum of Modern
+Art de New York.
+Il est intéressant de noter que Minecraft est entièrement en 3D, et pourtant utilise les codes du pixel art, qui par définition ne peut être que 2D. On parlera donc dorénavant de « voxel art » pour la 3D.
+Il faut remarquer qu'à l'instar de l'âge d'or du pixel art, les néo-pixel artistes indépendants ont toutes les peines du monde à produire un travail rentable avec la vraie patte d'origine, tant l'accroissement du nombre de pixels et de couleurs rend leur tâche chronophage, bien davantage que par le passé à qualité équivalente.
+L'artiste professionnel Blake
+Reynolds
+de Dinofarm Games
+, détaillait ainsi ce problème à la fois commercialement et artistiquement insoluble en 2015, dans http:/ a-pixel-artist-renounces-pixel-art Dan Malone perd tout à fait son attrait d'ancien maître du pixel art, lorsqu'il passe aux formats d'images débridés actuels (sans modifier en rien ses qualités d'illustrateur et d'animateur).
+Nature du pixel art
+Les inspirations artistiques
+Le pixel art est précédé par des disciplines très antérieures aux années 1980, voire antiques.
+En effet, la mosaïque, la tapisserie, le point de croix et le perlage sont des modes de représentation similaires, d'un point de vue technique (dans la disposition alignée des objets ou des points de couleurs pris séparément).
+Le pointillisme en peinture, et certaines trames en gravure rappellent aussi le pixel art, sans l'inspirer directement.
+En peinture comme en sculpture, d'autres courants artistiques révèlent d'autres ressemblances : l'impressionnisme, l'art abstrait, ou le cubisme.
+L'intentionnalité des détails
+La définition du pixel art est très large ;
+cependant il existe un consensus suggérant qu'un dessin composé de pixels n'est pas nécessairement du pixel art.
+Il ne devient du pixel art que si la position précise de chaque pixel est importante, et si son déplacement (ou son changement de couleur) peut radicalement modifier la perception du spectateur.
+À ce titre
+, les œuvres en pixel art dotées d'un grand nombre de pixels conservent cette désignation, parce qu'elles représentent le plus souvent un assemblage d'éléments en pixel art, estimables individuellement en tant que tels au plus petit niveau .
+Ou bien il s'agit d'une grande superficie de pixels indivisible, digne d'intérêt créatif pour la richesse des détails qu'elle recèle (ceux faits main, ou semblant l'être là aussi).
+Dans tous les cas, la recherche esthétique des détails est inscrite dans ces grands tableaux de pixels.
+À la plus petite échelle, de façon quasiment anatomique, le rendu individuel des pixels demeure fondamental en pixel art. Toute déformation uniforme ou localisée de l'aspect très pixelisé s'éloigne d'autant de la représentation classique ou historique.
+Parmi ces entorses dont l'excès ne peut pas être recommandé en pixel art : le flou (dont l'anticrénelage incontrôlé), l'étirement (ex. : lignes précises, diffuses, sinusoïdales), et la dispersion .
+La phase de design (puis son application en programmation etc.) nécessite en cela de pouvoir distinguer conceptuellement le pixel logique (en tant que donnée plus ou moins matricielle) du pixel physique (celui qui est dit “rendu” sur le support avec les matériaux de son choix, donc pas nécessairement en tant que carré, de profondeur limitée, très aligné…).
+La recherche, sinon le goût des variations à ce niveau fait partie intégrante du pixel art (mais aussi de la récupération esthétique actuelle, dérivée de la forme la plus basique ou antique, comme référence).
+L'amélioration du contraste des pixels entre eux (par le choix des teintes, voire des formes) n'est qu'un moyen de souligner les détails .
+Ainsi par exemple, le noir et blanc (réputé pour sa précision), le rond et la croix (et autres signes complémentaires), ou le plein et le vide (schématiquement en logique) ne sont que d'ordre applicatif et relativement mineurs.
+En effet, ce n'est pas le placement mécanique des éléments ayant ces aspects (valeurs distinctes) qui produit l'art du pixel art (il ne serait produit que des pixels), mais la préexistence d'une volonté créatrice affirmée .
+En quelque sorte, par tous les procédés imaginatifs possibles : le pixel art suggère et magnifie, là où le pixel limite et dégrade.
+Certains artistes tentent toujours de théoriser le pixel art par le truchement de ses plus petits éléments.
+Par exemple Alex Hanson-White, dans http:/ pixelAesthetic.html son traité de juillet 2017 (en anglais :
+The Pixel Aesthetic / Paradigm?
+, une sorte de vulgarisation personnelle de la .
+En fait dans la pratique, le pixel art regroupe plutôt des procédés et savoir-faire adaptés à chaque style graphique particulier.
+Les associer par un dénominateur commun dépréciatif, celui de la dégradation ou de la limitation extrême, ne peut servir ni la variété, ni l'art (même pour le bien de la démonstration de l'importance géométrique ou colorimétrique des détails).
+Ainsi il faudrait se garder d'appliquer les mêmes techniques pour chaque genre, au nom du pointillisme ou du minimalisme les plus sévères.
+Tout pixel-artiste a nécessairement expérimenté et intégré certaines de ces notions plus ou moins scientifiques, au fil des années pour s'améliorer.
+La maîtrise puis l'optimisation de son outil, les illusions d'optique et ses erreurs incontournables, la composition dans les bons formats, les références modérées à d'autres artistes, une patience et une méticulosité supérieures à la moyenne, ainsi que l'exercice des arts graphiques traditionnels, font partie de la panoplie intellectuelle du pixel-artiste de tout temps ; de son talent aussi.
+Le choix esthétique des gros pixels
+Du fait de la disparition des contraintes techniques, aujourd'hui s'exprimer en pixel art n'est plus une nécessité, mais un choix esthétique, culturel, parfois commercial aussi.
+La plus commune des méthodes artistiques repose ainsi dans ce domaine en la réduction volontaire de la quantité de pixels pour un même sujet représenté (plutôt qu'en la diminution de sa palette de couleurs, puisque les changements y sont moins perceptibles, en général).
+Par ce type de filtre intentionnel, qui n'est dégradant que superficiellement (voir le paragraphe sur l'intentionnalité des détails)
+, l'image suffisamment crénelée peut finalement porter la mention : à « gros pixels ».
+L'agrandissement devient généralement nécessaire, sur les affichages haute résolution modernes (2, 3, 4 fois, voire davantage comme dans l'illustration de lalien plus haut, et préférablement sans flou, pour mieux apprécier le travail pointilleux et sans altérer la palette notamment).
+Cet étirement sans perte accroît nécessairement l'effet pixelisé initial, parfois exagérément jusqu'à le rendre presque grossier par la visibilité excessive des carrés.
+Il s'agit alors d'un effet pervers, qui dégrade la qualité esthétique de l'œuvre originelle.
+Cette perte de fidélité sans précaution, loin d'être moderne, est parfois oubliée collectivement par d'adoption, voire la revendication de blocs disgracieux quand ce n'est pas du tout nécessaire.
+À moins que cela ne soit intégré à un argument commercial tout à fait assumé.
+En cela, la mode des très gros pixels se réfère davantage à la préhistoire des jeux vidéo, à la Pong (tout point composant le dessin est restitué comme un large rectangle de plusieurs pixels sur les vieux écrans), plutôt qu'aux systèmes postérieurs dont la résolution écran était voisine de celle native matériellement (1 pixel logiciel est rendu par exemple en 2×2 physiquement).
+Le flou automatique lors de l'agrandissement est généralisé sur les navigateurs internet ;
+il l'est aussi sur la plupart des visionneuses d'images bitmap (où IrfanView permet a contrario de désactiver le filtre, sous Windows).
+Dramatiquement pour la diffusion des œuvres en pixel art de très faible résolution, les logiciels de retouche bitmap laissent encore trop souvent place à ces visionneuses “modernes”, tout à fait inadaptées en l'occurrence.
+Cette apparence carrée, plate, froide ou austère est le souci majeur des connaisseurs des premiers jeux vidéo sur les machines d'origine.
+Ils recourent de nos jours à des filtres logiciels, sur les émulateurs récents principalement, afin de voir simulés les luminophores de leurs écrans cathodiques d'antan (télévision domestique ou poste d'une borne d'arcade).
+Ces divers filtres adoucissent (brisent etc.) les carrés de pixels, jusqu'à restituer le lissage naturel du fameux balayage électronique, ce qui rend l'image aussi “chaleureuse” qu'à l'époque, dans un contexte nostalgique surtout.
+Les algorithmes de lissage des agrandissements, hormis ceux à base de vectorisation partielle dans certains logiciels dédiés en photographie, se retrouvent compilés (en dehors des émulateurs spécialisés ci-dessus) dans des interfaces telles que l'outil Image Resizer (alias 2dimagefilter) sur Windows .
+Si le résultat est parfois surprenant de poli (quand l'anticrénelage disparaît totalement, à la mode des jeux vidéo actuels, après celle des animations Flash en vectoriel), l'intérêt de supprimer aveuglément les arêtes des gros pixels, ou de détériorer l'image à divers niveaux dont les trames, repose la question de la prévalence des pixels précisément disposés en pixel art. Par exemple, les points (de pixels) abusivement connectés entre eux (afin de produire le lissé) : tant que les algorithmes actuels ne disposeront pas de reconnaissance à base d'images (et en étant optimiste sur la faisabilité à cette très petite échelle), l'agrandissement sera tantôt déformé, tantôt lissé correctement, sans possibilité de prédire le bénéfice (sur un échantillon quelconque d'images), ni d'affirmer que la méthode (chirurgicale ou seulement esthétique) ne cache simplement pas une curiosité passagère, voire une lassitude des gros pixels.
+Ce type d'agrandissement remplace une stylisation humaine par une artificielle, en y ajoutant souvent des erreurs d'interprétation.
+Un peu comme pour le cas des filtres de flou d'agrandissement (upsampling), son utilisation est donc sujette à caution : elle serait à éviter absolument pour toute restitution fidèle.
+Le public néophyte en pixel art pourrait cependant apprécier cette transition en douceur.
+Les liens culturels
+À l'instar du pop
+art, le pixel art possède des liens avec la culture populaire geek et s'exprime sous de multiples formes artistiques.
+En référence au pixel art d'origine, qui consiste en une production infographique traitant d'un sujet libre (notamment tous les graphismes engendrés par les jeux vidéo des années 1980 jusqu'au milieu des années 1990), différents domaines de création entretiennent cette culture, sur le mode ludique le plus souvent.
+La publicité
+Dans les années 2000 et 2010, des productions graphiques qui pourraient s'affranchir de la faible résolution d'image font le choix du pixel art pour obtenir un effet visuel porteur de signification.
+Notamment avec certaines affiches publicitaires qui ont recours au pixel art afin d'indiquer que la cible du produit fait partie de la génération Y. En 2017, https:/ watch?v
+kQNlt_5k4&t
+0m6s un spot télévisé pour des petits pots (Mini Lactés Blédina sans sucres ajoutés) s'adresse ainsi aux jeunes parents, mettant en scène des carrés de sucre blanc alignés comme des pixels (un affichage exotique), par référence au jeu vidéo fédérateur Space Invaders (attrayant pour les deux générations) et aux habituelles polices de caractères des nouveaux jeux vidéo dits indépendants (5 caractères de 3×5, dont un "R" décalé de façon mosaïque).
+L'art urbain
+Des supports totalement libres permettent de représenter, par exemple, un sprite du jeu vidéo Mario à l'aide de Post-it, en les collant sur une vitre .
+L'artiste français Invader clone les monstres du jeu vidéo Space Invaders depuis 1996, au moyen de carreaux de carrelage collés sur les murs des rues .
+La peinture
+Certains artistes expérimentent des passerelles vers d'autres formes d'art plus traditionnelles.
+Par exemple http:/
+Ced
+Vernay, un artiste français qui réalise du pixel art à la manière du pointillisme, à la peinture principalement (sur un fond de carrés) depuis 2011 au moins, voire avec des aimants alignés y ressemblant (contrairement à son utilisation non matricielle des confettis)
+La photographie
+Les travaux de Chuck Close sur la pixellisation, par exemple, dès le milieu des années 1980.
+L'art vidéo
+Les clips de DJ Shadow pour sa chanson https:/ watch?v
+xN6dopQdNsw
+This
+Time (2006), ou celui de https:/ watch?v
+7-tNUur2YoU We come together (2011) du groupe de dance Goldfish réalisé par Mike Scott.
+Le clip vidéo https:/ watch?v=
+SPlQpGeTbIE
+Move Your Feet (2002) du groupe Junior Senior
+, a atteint une popularité mondiale en 2003 en mettant en scène du pixel art de très basse résolution mais animé à la façon des GIF (voir ce paragraphe dans les techniques), ou des jeux en Flash non vectoriels ;
+ce qui a contribué à coller durablement l'étiquette “fun” et passablement dérisoire au pixel art (un style très naïf et stéréotypé bien loin de la grande variété esthétique proposée avant comme après le début des années 2000).
+La sculpture
+L’artiste japonais Toshiya Masuda s’inspire du pixel art pour créer des œuvres tridimensionnelles en céramique représentant des objets de la vie quotidienne
+vus
+de façon pixelisée
+Cette technique du voxel art prend ici la forme matérielle typique d'une impression 3D (et dans un style « low poly » affirmé - de très faible résolution).
+L'artiste suédois http:/ Pappas Pärlor se spécialise quant à lui depuis 2014 dans les perles à repasser en pixel art , avec une prédilection pour la mise en situation amusante (ou détournement) de ses sculptures 2D ou parfois 3D, par exemple des lutins de jeux vidéo (traduction littérale de sprites) disposés http:/ 42 art index.htm L.e.d.
+animation (sous-titrée : “Affichages électroniques et animation”
+- par LED), de l'artiste et électronicien américain http:/ archive/?date
+20031005&slug
+behind05x
+Robert Teeple,
+fut probablement parmi les premières séries de LED art figuratif à base de diodes électroluminescentes, à investir l'espace public des États-Unis d'Amérique.
+Auparavant, en France déjà, les images qui utilisaient le même médium étaient ponctuelles et/ou utilitaires (tels que des messages ou signalétiques temporaires, des enseignes de commerces aux horaires nocturnes, des bandeaux lumineux pendant les fêtes commerciales…).
+Ces installations rappellent fortement les anciens GIF animés (avec leurs icônes, figures scientifiques, simples mots aux caractères basse résolution dans différentes langues, et surtout leurs conversions de vidéos aux personnages célèbres à l'instar des mèmes internet).
+Celles-ci sont toutes monochromes (en deux ou trois couleurs sur fond noir), de très faible résolution (principalement 32×32, 16×16, ou en 8×8 assemblés), et certaines presque interactives (seulement sélectionnables).
+Les principales réalisations sous cette série (liste importée en décembre 2017) : Electric Lascaux (1990), Scope (1990-1991), Aniword (1996), Oracle (1998), Vernacular Generation , Say What (2006), Mirror, Mirror… (2007), Jazz (2008), Gods Names et War (en cours en 2017).
+D'autres artistes se consacrent entièrement aux LED.
+Par exemple, l'artiste autrichien )
+La bande dessinée
+Les anciens RPG pseudo-isométriques japonais basent notoirement leurs sprites de personnages sur du (cf. l'illustration des monstres détourés de noir).
+Cette technique d'ébauche, ou de rendement supérieur (en gain de productivité à vouloir moins la reprendre), facilite la transition avec les supports traditionnels, des prolifiques mangas et animes en particulier (et ce, dès les premières phases de développement, jusqu'à l'éventuelle publicité en direction des fans).
+Elle nécessite une meilleure résolution que sur les écrans des machines 8 bits historiques .
+Les machines de 16 bits et plus autorisent en effet davantage cette sorte de stylisation, en ligne claire initialement : le mode de rendu en peinture est quant à lui réservé aux décors, dans ce contexte assez conventionnel du RPG évoqué.
+Voir par exemple aussi, le paragraphe dédié aux bandes dessinées personnalisables (depuis les années 1990, voire 1980).
+Nous vous renvoyons également à la relation avec les cinématiques .
+L'informatique
+Les codes QR sont des codes
+-barres carrés dont l'agencement des pixels définit l'information traduite par un lecteur adéquat, depuis l'année 2000.
+Les X-Face, depuis 1992 déjà, sont de petites images noir et blanc de dimension
+48×48 pixels
+, attachées en en-tête de mail ou d'article usenet.
+Ni les codes QR ni les X-Face ne sont du pixel art, cependant ils contribuent à rendre les gros pixels familiers.
+Les sous-familles du pixel
+art
+Le pixel art isométrique
+Le pixel art dit isométrique est un genre très populaire de pixel art et est parfois confondu avec lui.
+Il s'agit de toute scène en pixel art représentée selon une perspective axonométrique, voire isométrique.
+Cette technique de représentation a deux particularités : elle donne une illusion de profondeur et propose un angle de caméra élevé (voire une vue aérienne).
+D'un point de vue strictement technique, elle affine les graphismes par l'utilisation des diagonales à 45° pour les fuyantes (axes de profondeurs).
+L'isométrie offre aussi l'avantage de conserver les mêmes dimensions au premier plan et à l'arrière plan, ce qui évite d'avoir à se soucier de la taille des éléments visuels : ils font la même taille quel que soit leur emplacement et on peut les dupliquer à plusieurs endroits dans la scène.
+Le plus souvent (mais ce n'est pas une obligation), le pixel art isométrique a pour particularité artistique de se concentrer sur l'ajout d'un maximum de détails dans la scène, et provoque parfois un effet d'accumulation du fait de la perspective aplatie.
+Le pixel art isométrique utilise souvent une résolution très supérieure au pixel art traditionnel, mais demeure malgré tout du pixel art par l'absence de filtres : les lignes demeurent la plupart du temps des lignes d'un pixel de large, sans anticrénelage.
+Côté effets techniques, le tramage est tout à fait toléré dans ce type de pixel art, tandis que le lissage est proscrit dans les formes historiques ou s'y référant, au moins sur les bords extérieurs et par homogénéité avec les surfaces intérieures . (Les pixels extérieurs, en contact avec un fond d'une couleur très variable en luminosité comme en saturation, ne pouvaient bénéficier à l'origine de couleurs translucides, comme c'est le cas actuel via le canal alpha.
+Le groupe germano-canadien réalise des illustrations d'immenses villes (existantes ou fictives) aux formes géométriques simples et aux couleurs vives (voir le paragraphe sur les palettes “historiques”).
+Les multiples petites saynètes montrent un microcosme dynamique où le spectateur scrute le moindre détail.
+Les jeux communautaires Habbo et Cyworld utilisent ce mode de représentation, synonyme d'une société idéale et totalement aseptisée.
+Dans une approche plus sobre, l’artiste français http:/ 2012 bazart-pixel-art-iso.html Laurent Bazart propose un regard critique de la société occidentale actuelle, de son organisation et de son uniformisation, comme sur les systèmes récents (dotés de 3D hardware), avec cependant un faible poids de programme (par exemple 64, 4 voire 1 Kio) afin de conserver les contraintes techniques, visuelles en pixel art et sonores en chiptune.
+Les icônes
+* Les icônes de bureau : l'arrivée de Windows 3.1 puis Windows 95 et de son interface graphique vont engendrer une profusion d'icônes pixelisées (les icônes actuelles ont une résolution maximale et un nombre de couleurs incomparablement supérieurs).
+L'un des critères déterminants pour ce type d'icônes est leur lisibilité visuelle.
+Travaillés au pixel près, ces petits logos requièrent donc un travail de grande précision.
+On a vu une vague de création d'icônes de toutes sortes au début et au milieu des années 1990, conjointement à l'explosion des logiciels de bureautique en shareware, lesquels permettaient de dessiner ces icônes.
+Réalisées par des amateurs et de qualité très inégale, distribuées sur les CD gratuits des magazines, elles ont prospéré avant que ce marché ne soit repris en main par des professionnels.
+Il est à noter que le clip art est le contraire de l'icône en pixel art, puisque le clip art est vectoriel.
+* Les émoticônes : en dehors des icônes de bureau, le pixel art a trouvé des applications dans les émoticônes sur les systèmes de tchat, où il est crucial d'être capable de représenter une expression faciale expressive dans un smiley de quelques pixels de large.
+Les bandes-dessinées personnalisables : depuis les débuts de l'informatique graphique, une certaine niche de logiciels continue de perdurer sous différentes formes successives : les éditeurs ont réalisé que le public trouverait un attrait dans le fait de pouvoir réaliser ses propres bandes dessinées en utilisant des logiciels qui lui permettraient de disposer lui-même des éléments dessinés pré-existants (proposés par le logiciel, parmi une bibliothèque la plus vaste possible) dans les cases d'une bande dessinée, et en changeant lui-même le texte des phylactères.
+On peut évoquer par exemple , qui permet de créer soi-même des petits strips de la bande dessinée Garfield.
+Dans un premier temps, les éléments dessinés proposés par ces logiciels se sont apparentés à du pixel art, de par la faible résolution autorisée par les écrans d'ordinateur.
+Ensuite, quand la résolution a cessé d'être le critère central, les contraintes de faible résolution ont néanmoins perduré, en particulier pour pouvoir publier ces strips sur internet.
+On a ainsi vu apparaître une nouvelle mode qui visait à décliner des personnages dessinés dans le plus grand nombre de façons possibles, en changeant leurs couleurs, leurs vêtements, etc.
+Par exemple on peut citer la mode des Dollz, “poupées” de pixels personnalisables où on choisit le visage, la coiffure, les vêtements, les accessoires… en les plaçant par drag'n'drop.
+Les Dollz, qui s'adressaient au début aux jeunes filles, a été récupéré par certains pixel-artistes qui proposent des déclinaisons humoristiques de personnages de la culture geek (notamment sur le modèle Megaman).
+Le même système de personnalisation se retrouve chez les amateurs de Pixel Cars et autre Little Pony.
+On peut aussi citer l'exemple des bandes dessinées personnalisables du site .
+Il ne faut pas confondre ces phénomènes avec ceux du genre des , qui ont un principe similaire de personnalisation, mais où les graphismes sont vectoriels.
+Les polices de caractères
+Dès la fin des années 1970, les théories du (rendu à une échelle inférieure au pixel) ont démontré qu'il est impossible de représenter de façon nette et lisible une police de caractères vectorielle sur un système d'affichage de faible résolution si on se repose uniquement sur un système de rendu entièrement automatique.
+Certaines entreprises, en particulier Apple, ont très vite déposé de nombreux brevets proposant des moyens de contournement semi-automatiques.
+Les systèmes PostScript et TrueType doivent leur succès en partie à l'intelligence de leurs algorithmes de rendu.
+Cependant, de tels algorithmes sont beaucoup trop complexes à implémenter pour des petits studios de développement.
+En outre, à une échelle aussi petite que celle utilisée par le pixel art, le gain en temps engendré par l'utilisation de tels algorithmes est négligeable par rapport au temps nécessaire à dessiner manuellement la police au pixel près, en particulier si cette police aura une taille fixe.
+On peut donner beaucoup de personnalité à une police de caractères même si chacun a une taille à peine supérieure à 5×5 pixels.
+Les nombreuses polices rencontrées dans les jeux vidéo des années 1980 et 1990
+en sont un exemple (on parle de fontes isolément) : en changeant seulement quelques pixels, un aspect futuriste ou classique peut
+être appliqué.
+L'aspect extrêmement contrasté de ces petites fontes les fait être préférées dans certains cas (quand l'espace d'affichage manque beaucoup) à celles lissées des écrans actuels, car ces polices d'écran sont par nature floues à cette taille.
+Le pixel art est d'ailleurs souvent rattaché esthétiquement à ces tout petits caractères d'écriture, souvent fort agrandis, et dès lors gros en pixels nettement carrés.
+Par exemple en 2013, dans le niveau Pixel du fameux jeu vidéo ).
+Depuis les années 1990 (avec l'essor des calculatrices graphiques), puis 2000 notamment (via une simple fonte console de Microsoft Windows), on voit l'œil des développeurs et des joueurs “rétro” s'habituer à toujours moins de pixels dans les caractères (d'écran au premier chef).
+La taille minimale communément proposée actuellement tourne autour de 3×5 pixels (souvent en renonçant à la compression sur certains caractères comme N et M avec une largeur variable supérieure, telle que 4×5 ou 5×5 respectivement), pour une lecture pour tous et sans trop d'ambiguïtés (donc ni trop expérimentale comme les strictes 3×3, ni trop personnelle).
+La présence de très nombreuses fontes de type “pixel” sur les sites de téléchargement, même les plus incomplètes, traduit d'une part l'aspect fort simple et ludique à les créer comme à les copier, et d'autre part la grande difficulté à les concevoir de façon efficace, consensuelle, et productive in fine.
+Parmi cette démocratisation du pixel art appliqué aux caractères de petite taille (sous une matrice quelconque, le plus souvent en grille), notons d'occasionnels grands affichages publics (pour des événements plus ou moins techniques ou numériques, d'une modernité actuelle ou des 80s), certains logos hi-tech (web ou mobiles) ou parties de génériques de films à l'avenant, et une bonne vague de bricolages bon marché sur nano-ordinateurs (écrans de GSM ou à base de LED, bien en deçà des polices classiques en 5×7).
+Les valeurs du pixel art, ainsi que ses vertus (les avantages au moins), sont reprises ou rappelées sur ces divers supports d'écriture, qui colonisent toujours plus le monde réel, et les canaux de communication visuels en général .
+Lister ces qualificatifs serait autant sociologique que subjectif dans leur choix,
+mais on peut évoquer ceux relatifs : au gaming (8-bit, cf. l'engouement chez les petits développeurs indépendants) ;
+aux bases de l'informatique (personnelle) ou au caractère geek ;
+à la nostalgie (des quadras entre autres) ou au retour aux (valeurs) sources.
+Au niveau des ressources logicielles, en plus des programmes dédiés sur les machines d'origine, deux éditeurs de fontes bitmap en ligne sont aujourd'hui encore très prisés des pixel-artistes férus de caractères textuels en très basse résolution (spécialement pour la prise en main très rapide de ces outils, et leur sauvegarde automatique en fonte vectorielle sans trop de flou) : l'ancien http:/ soft font news 04 our-palace-10-fontstructive-years/ FontStruct .
+Les programmes de dessin et de traitement de texte qui utilisent des fontes bitmap sont parfois dotés d'effets textuels classiques, appelés “styles” lorsqu'ils rejoignent
+ceux typographiques de base : italique, gras, souligné, barré…
+En outre, des scripts spécifiques permettent d'étendre et d'accélérer le processus de transformation des glyphes en basse résolution (au moyen de fonctions de décalages, de détourages, de masquages… relativement empiriques, éventuellement après essais-erreurs).
+Ce pixel art procédural, suffisamment minimaliste et sous contrôle par divers réglages, complète la panoplie des formes de caractères imaginables avec ou sans assistance programmatique : renversement en x ou en y, basculement par pas de 90°, translation au pixel, oblique paramétrable au pixel, grisé par tramage fixe ou scintillant,
+choix de lignes simples ou multiples pour les soulignés et barrés, négatif complet ou par quartier, cadre composite simple ou multiple avec opérateurs individuels, calques…
+Les figures 1 et 2 ci-
+contre illustrent certaines de ces manipulations (semi-)automatiques, voire systématiques.
+Les écrits à base de petits caractères s'affichent de moins en moins rarement sur les fenêtres (entières ou parfois sur leurs carreaux ;
+surtout celles nombreuses d'immeubles, comme dans l'exemple ci-contre), sur les sièges en quantité suffisante et bien alignés (ceux des stades, de grandes salles parfois… en jouant sur la couleur du matériel inoccupé, ou le plus souvent celle des personnes préparées), et plus facilement comme fréquemment sur toutes les surfaces à base de carreaux, dit généralement (au sol, aux murs, au plafond, sur le mobilier…).
+Quand ces textes sont modifiés (avec d'éventuels dessins à la façon des GIF animés, voir ce paragraphe), en les déroulant ou en les effaçant, le contrôle dynamique est souvent électronique ou par ordinateur , où le monde réel devient une sorte de périphérique de communication, néanmoins le plus souvent éphémère en tant que performance artistique.
+Par exemple, la clôture des Jeux olympiques et surtout paralympiques d'hiver de 2018, confirmèrent un vif intérêt pour le LED art (la totalité des gradins du grand stade de PyeongChang se couvrirent à l'occasion de textes et d'images animés en basse résolution, comme pour nous rappeler que la Corée du Sud reste à la pointe des nouvelles technologies de communication).
+Voir le paragraphe consacré aux liens culturels, et celui sur les jouets et matrices parmi les affichages exotiques.
+Les catégories de caractères
+Au-delà des critères de style typographique, les designers spécialisés répartissent les polices d'écriture ou les fontes de caractères de facture pixel art, en fonction de deux groupes d'utilisation : livrés avec, ou sans couleurs ni tons.
+La version en pixel art noir et blanc a techniquement des liens étroits avec les formats vectoriels, lesquels sont unicolores par nature .
+Ce format bitmap dépourvu de couleurs améliore grandement la portabilité (une compatiblité assurée par l'ajout ultérieur de valeurs colorimétriques et/ou de transparence, souvent au niveau logiciel, voire de filtres et autres déformations basées sur un calque d'un seul ton et détouré ;
+par exemple une librairie de moteur de jeu vidéo en 3D permet d'ajouter rapidement une texture quelconque à une fonte bitmap monochrome de ce type).
+dès 1987
+Le passage en haute définition (ou dès que la résolution et/ou la profondeur de couleurs suffit à en simuler une meilleure,) offre aux créatifs des pixels, la possibilité de davantage de styles ;
+leur restitution réaliste et l'ajout de textures aussi.
+D'une manière générale, les versions monochromes (noir et blanc, ou parfois avec des nuances, notamment réservées au lissage) sont consacrées au corps de texte (pour toute lecture prolongée).
+Les versions (ou modifications) colorées sont quant à elles limitées aux titres et aux logos ;
+et d'autre part, ambigu concernant l'intention .
+Les affichages exotiques
+Le Minitel
+Cette technologie n'était pas du tout adaptée au départ à l'affichage des images, à la base en Vidéotex rudimentaire, mais à du texte enrichi (à l'instar des débuts d'internet).
+Pourtant l'art télématique , dit en l'occurrence “Minitel Art” ou “Videotex
+Art” , s'est révélé similaire à de l'art ANSI (dans le principe de pavage de 80×72 blocs, mais en y ajoutant des fonctionnalités, parfois hétéroclites et déjà oubliées de nos jours).
+320×240 pixels étaient directement utilisables (sur une définition d'écran de 250 pixels de haut), ce qui correspondait nominalement à une bonne moyenne parmi les résolutions de l'époque.
+Mais les contraintes de débit (et de matériel) amenèrent à devoir organiser classiquement l'image par “pavettes” grossières.
+L'image était donc le plus souvent et schématiquement, formée de lignes de 40 colonnes, sur 24 lignes utilisables précisément (la première des 25 étant réservée)
+, bien que parfois un pseudo mode panoramique (dit “rouleau”) permettait un nombre de lignes illimité (l'écran demandait à être tourné pour “dérouler” des pages plus longues que la hauteur du mode portrait conventionnel, dans ce cas de détournement).
+Les animations étaient possibles par divers procédés.
+De plus, il est important de se souvenir que les images étaient souvent agrémentées de caractères d'écriture de 8×10 pixels , ainsi que d'autres effets visuels standard (inversion vidéo, clignotement, soulignement, doublement de la largeur ou/et hauteur).
+Plus tard et rarement, les normes
+Vidéotex européennes successives permirent : le lissage des mosaïques (offrant ainsi des courbes moins désagréables, quoiqu'accidentées par un effet de tramage), des tracés assez convaincants (à base de plusieurs formes ou éléments de base, géométriques essentiellement), la redéfinition des caractères (dynamiquement au pixel près, rappelant les micro-ordinateurs 8 bits), et même le JPEG (en 64 gris dans le méconnu mode photographique).
+L'ensemble de ces progrès palliatifs annonça la fin du Minitel en 2012 (ces consoles successives n'étant pas des ordinateurs), face à l'internet riche en images d'une qualité sans compétition possible (où les graphismes érotiques du “fameux” Minitel rose n'avaient plus leur place, par exemple).
+Parmi les outils de création, Pictex (outil commercial sous Mac OS) était, parmi d'autres, « un composeur Videotex facile à utiliser », même si la plupart des “Minitel-artistes” se révélaient être plutôt des codeurs de Vidéotex (autodidactes et recherchés par les entreprises).
+Certains se souviennent encore des interminables pages de chargement par bandes horizontales (960 caractères mosaïques, comme dans l'exemple ci-contre).
+L'internet bas débit pixelisé
+La démocratisation d'internet dans les années 1990 va permettre une diffusion massive d'informations.
+Si le débit permet d'accéder rapidement à du texte, l'image (avec un poids de fichier important) doit se résoudre à s'alléger afin d'être transférée dans des délais raisonnables.
+Le seul moyen est de baisser sa résolution et son nombre de couleurs, ce qui génère des dessins pixelisés et des photographies grossièrement numérisées.
+À l'heure actuelle, les images sur le net sont de haute qualité et peu (voire plus) pixelisées à l'écran.
+Mais un logiciel comme Photoshop propose toujours la conversion d'un fichier PSD pour le web.
+Vestige des temps anciens, cette option est une solution facile et idéale pour s'initier au pixel art.
+On pourra aussi remarquer que les images JPEG et les formats vidéo (de par leurs codecs) présentent une dégradation en mosaïque caractéristique d'un manque de débit. (Ces blocs à tendance uniforme, voire noirs ou gris, sont historiquement de 8×8 pixels avant l'étirement éventuel ;
+ils remplacent en quelque sorte et par exemple la neige analogique des anciens moyens de diffusion.
+Cet effet indésirable rappelle alors fortuitement les affichages à base de caractères des anciens systèmes 8 bits.
+Les écrans à cristaux liquides (LCD)
+Les premiers écrans à cristaux liquides avaient une très faible résolution et affichaient juste des pixels noirs.
+Ils sont utilisés principalement pour renforcer l'interaction avec le produit.
+On en retrouvait sur certains jeux électroniques ou sur téléphones portables (Snake, etc.).
+On a donc pu assister à une brève période de développement du pixel art en noir et blanc.
+Les animations des Tamagotchi (Bandai, depuis 1996 ;
+d'abord en noir sur blanc puis en couleur), avec un personnage qui doit sembler vivant sans occuper plus de quelques pixels, en sont une illustration notable.
+D'autres jeux et jouets électroniques (encore commercialisés en 2017) perpétuent cette technologie LCD, chez VTech notamment : les agendas de la gamme Secret, par exemple https:/ kidi-secrets-mini.html
+KidiSecrets
+Mini (depuis 2012 ;
+affichage noir et blanc à l'ancienne pour les premiers modèles) ou https:/ kidi-secrets-selfie.html
+KidiSecrets Selfie (depuis fin 2015 a priori ;
+affichage en couleur façon ordiphone pour les modèles les plus récents) ;
+la collection Kidi : la boule lumineuse Kidi Magic Rainbow Color puis le réveil Kidi Magic Color Show (en 2013 puis 2015 ;
+en noir sur blanc) de la gamme https:/ produits gamme-kidimagic.html Kidi Magic, les peluches Kidi
+Fluffies puis le robot https:/
+kidikitty-et-son-petit.html
+Kidi Kitty et son petit (depuis 2016 ;
+en noir sur blanc pour afficher des yeux changeants par l'interactivité, cf. les jouets avec LED chez Zoomer), les montres intelligentes et appareils photo de la gamme https:/ pre search/?q=kidizoom
+Kidi Zoom (depuis 2013 ;
+en couleur)
+Les diodes électroluminescentes (LED)
+Par exemple dans ces produits (encore commercialisés en 2017) : http:/ Pixel et http:/ superpixel
+index.php?id_product
+14&controller
+product&id_lang
+1 AuraBox et http:/ index.php?id_product
+12&controller
+product&id_lang
+1 TimeBox ;
+https:/
+Time (LaMetric, depuis juillet 2016 ;
+37×8 LED dont 8×8 RVB ;
+horloge allongée, avec application, Wi-Fi, caractères 3×5) ;
+https:/ store products products news 20170307005448 littleBits-Coding-
+Fun
+First
+Ever
+Game
+Based
+Code
+Kit
+littleBits
+Code Kit (Business Wire, depuis janvier 2017 ;
+8×8 LED RVB ;
+écran carré, programmation électronique de jeux vidéo pour écoliers, USB) ;
+https:/ intl
+360cam 360cam (Giroptic, depuis novembre 2014 ;
+caméra 360°, avec application, Wi-Fi, caractères 3×5 dont minuscules) ;
+https:/ rawthrills
+vb.95501689819 ?
+type
+2&theater Pac
+Man Premium LED
+Desk Clock (Raw Thrills, depuis mai 2015 ;
+32×14 LED RVB ;
+horloge de bureau animée sous licence, sprites d'environ 14×14 et caractères de 7×7, non connectée) ;
+https:/ #
+/games?module
+products&id
+6&name
+smart
+pixel
+-purse
+Project Mc2
+Pixel
+Purse (MGA Entertainment, depuis juillet 2017 ;
+32×16 LED RVB ;
+sac à main féminin en jouet, avec application mobile optionnelle via la prise écouteur) ;
+les robots jouets interactifs de la marque http:/ Zoomer, aux yeux expressifs , sur le modèle http:/ toys toys toys product_detail.php?pid=p21074
+Zupps
+Zupps
+- Tiny Pups) (Spin Master, depuis début 2017 ;
+5×5 LED, moins les emplacements aux 4 coins) ;
+et divers autres petits supports d'affichage numériques (boîtiers compacts) mêlant les styles minimalistes et rétro .
+Les artistes préfèrent créer leur propre installation sur mesure, en bricolant leurs LED achetées auprès des mêmes fournisseurs .
+Les jouets et matrices d'objets
+En dehors de ces écrans vidéo standard, plusieurs types de supports ont développé le goût des pixels chez les enfants , par exemple le Télécran dès 1960, Lite-Brite en 1967 (en 1989 en France), ou , dans les liens culturels).
+On pourra faire remarquer que les matrices utilisables peuvent être rendues volontairement moins évidentes (sans aller jusqu'à de la stéganographie efficace).
+Des variantes peuvent ainsi être simplement utilisées au niveau des caractères (ex.: déformations à base de rotation, d'inversion…).
+Ou bien la composition de la ou des matrices diffère dans l'espace comme dans le temps : elles ne sont alors pas nécessairement perpendiculaires (disposées plus ou moins diagonalement, comme les mailles d'un grillage ou les reliefs de certains papiers absorbants ou autres motifs en quinconce de surfaces très diverses, voire sur un filet en 3D comme dans les démos techniques), pas toujours simultanées (les pixels peuvent s'afficher individuellement de façon aléatoire ou cyclique, en exploitant la persistance rétinienne, la stéréoscopie etc.), ni sur un même plan , ni toujours intègres (par la présence de lacunes ou de parasites qui réduisent grandement la lisibilité des plus petits caractères, très fragiles pour leur très faible nombre de points sans redondance contre les dégradations).
+Les surfaces libres
+Souvent celles ennuyeuses.
+Par exemple les grands murs et façades des villes (sans fenêtres ou presque), que des artistes viennent égayer, de pixel art en l'occurrence (plutôt que de graffitis).
+Le mobilier urbain peut être affecté également, dans ce même souci de réduire une certaine austérité ou froideur .
+Voir aussi l'art urbain dans les liens culturels.
+Techniques et outils
+Les logiciels
+L'Amiga fut la première machine suffisamment flexible et étendue en couleurs pour encourager l'apparition des premiers logiciels de dessin permettant de réaliser confortablement du pixel art.
+Dans cette idée, le Macintosh proposait bien MacPaint dès 1984, mais son absence notoire de couleurs et même de niveaux de gris, ainsi que de vrai “zoom”, ne favorisèrent guère à l'époque que les petites créations au look bureautique et limitées à cet environnement.
+Sur Amiga en revanche, l'un des premiers logiciels de dessin 2D réputé fut Deluxe Paint, commandé par Commodore à Electronic
+Arts
+pour accompagner la sortie de sa machine en 1985.
+Il fut ensuite proposé sur les IBM PC et compatibles.
+Ce logiciel demeura longtemps une référence dans le graphisme 2D, et était utilisé par une grande partie des graphistes de la période charnière entre les années 1980 et 1990.
+Deluxe Paint a connu plusieurs versions (jusqu'à Deluxe Paint V en 1995 uniquement sur Amiga), et proposait des fonctions propres au pixel art comme le décalage de palette.
+Il peut être considéré comme le poids-lourd du logiciel de pixel art de cette époque et fut abondamment utilisé dans la création graphique, notamment dans le domaine du jeu vidéo.
+D'autres titres n'atteignirent pas cette renommée quasi institutionnelle, par exemple le logiciel Brilliance, sorti sur Amiga en 1993.
+Entre la fin des années 1990 et le début des années 2000, on a pu noter l'émergence de quelques logiciels très similaires à Deluxe Paint, mais légèrement modernisés, comme GrafX2 (1996), qui était toujours maintenu en 2012 sur Google Code.
+De nos jours, le pixel art requiert une capacité de traitement informatique dérisoire ;
+par conséquent n'importe quel logiciel très simple suffit pour en réaliser.
+Ainsi, sous Windows, Paint donne d'excellents résultats, mais laisse peu de place à l'erreur ( est un sérieux remplaçant officieux sans être parfait).
+On peut aussi citer ses équivalents sous d'autres systèmes : sous GNU p Gnome-paint pour l'environnement de bureau GNOME et KolourPaint pour l'environnement de bureau KDE.
+Pour des travaux plus complexes, l'utilisation de calques (qui sont un apport moderne), devient néanmoins très pratique.
+Les logiciels comme Gimp, Photofiltre, ou Photoshop proposent les calques, mais certains puristes revendiquent un pixel art sans cette fonctionnalité, toujours dans une volonté de travailler avec des moyens très limités.
+Il peut être très difficile de faire du pixel art sous Photoshop puisque le logiciel est entièrement pensé pour le traitement et l'amélioration d'images en haute résolution.
+Ce type d'outil favorise donc en permanence l'utilisation de filtres automatisés, comme le lissage, qui vont à l'encontre du pixel art.
+On peut noter le logiciel Pixen (sous Mac OS), qui pose comme principe d'utiliser les techniques modernes dans le but unique de réaliser du pixel art.
+Quel que soit le logiciel de dessin, le “crayon” est l'outil de base, car il est le seul à pouvoir atteindre 1 pixel d'épaisseur et à faire des lignes droite avec un effet daliasing.
+Il est possible aussi d'éditer une palette de couleurs afin de rester dans une gamme de tons restreinte.
+Concernant la palette, pour en réduire le nombre de couleurs sous Windows, IrfanView dispose d'une option très simple et automatique d'une étonnante efficacité (au début comme à la fin d'un projet, face aux outils concurrents), alors que ce programme devra absolument laisser la place à d'autres spécialisés dans le halftoning (cf. le paragraphe sur les dégradés par tramage), où ImageMagick est peut-être le moins facile d'accès de tous .
+IrfanView et PNGGauntlet (voir le paragraphe sur la compression) permettent de réduire le nombre de “plans” de couleurs des PNG, au passage .
+La visionneuse IrfanView permet sous Windows de désactiver le flou automatique d'agrandissement .
+Le pixel art animé
+L'animation n'est pas le cœur du pixel art, puisqu'en animation le positionnement précis des pixels n'est pas la problématique centrale.
+Cependant, le pixel art a vu se développer certaines techniques liées à l'animation et qui lui étaient propres.
+* Les images GIF :
+avec une palette limitée à 256 couleurs, le format GIF rend très facile la production d'animations de médiocre qualité, en particulier si on se repose entièrement sur des outils automatisés ;
+il faut donc avoir recours au pixel art pour produire des animations de qualité.
+Dans des logiciels comme Photoshop ou Gimp, chaque calque correspond à une image du mouvement décomposé.
+* Les alternatives aux GIF animés manquent de compatibilité (même si l'animation des GIF est déjà bloquée sur certains sites et environnements).
+De technologie moins ancienne, elles intègrent la plupart du temps une transparence à 256 niveaux (contre une seule pour le GIF, animé ou pas, ce qui permet d'éviter au passage le crénelage connu sur les bords des GIF), et une palette sans limitation (seize millions de couleurs environ).
+On proposera les formats suivants : Flash (vectoriel à la base
+- son support est de moins en moins assuré, au profit du HTML5), WebP et APNG (voir le paragraphe sur les formats de compression), SVG animé (bien que vectoriel) et vidéos (compressés pour la publication comme l'OGV, ou pour la production comme l'AVI).
+Les sprite sheets : l'animation peut être utilisée pour un sprite de jeu vidéo (voir le paragraphe sur cette relation avec l'animation), mais aussi pour certains éléments de décors, ou pour des effets de couleurs.
+Historiquement, les créateurs de jeux vidéo ont trouvé plus fonctionnel de stocker toutes les étapes de l'animation côte-à-côte, dans une grande image .
+On appelle «
+sprite sheets » (feuille ou tableau de sprites) ces planches, où un personnage en pixels est décliné dans toutes les positions intermédiaires de l'animation.
+(Le développement web actuel a récupéré cette appellation de “sprite”, sans toutefois de lien avec la première signification historique du mot, celle d'un personnage repositionnable de jeux vidéo.
+Le décalage de palette (palette shifting ou color cycling) : il s'agit d'une technique permettant d'animer les dégradés de couleurs dans une image à couleurs indexées, tout en réduisant beaucoup la mémoire et le temps de calcul nécessaire (elle était très utilisée sur les systèmes vidéo 8 bits et 16 bits).
+Elle nécessite une longue réflexion sur le positionnement et la couleur de chaque pixel, après avoir défini la ou les parties (ou couleurs individuelles) de la palette à réserver.
+Elle a souvent été utilisée pour animer de l'eau qui s'écoule.
+Le pixel-artiste Mark
+Ferrari utilise cette technique pour réaliser des effets environnementaux.
+Les dégradés par tramage
+Le pixel art utilise des carrés en aplat de couleurs limitées en nombre.
+Plus il y a de couleurs, plus le poids de l'image en bits sera élevé ;
+c'est ce que l'on nomme la profondeur de couleur.
+S'il est possible de travailler les complémentaires, les gammes ou les nuances, l'effet de dégradé est techniquement impossible à chaque couleur .
+Pour pallier (ou compléter, lors de matériaux) ces niveaux de “gris” directs (autrement dit, pour contourner l'impossibilité de contrôle de la visibilité, voire de l'opacité des pixels), les pixel-artistes utilisent un système de trames, basé sur une perception de plusieurs pixels simultanément ou presque (en prenant de la distance ou en plissant les yeux par exemple, pour qu'un mélange s'opère).
+Cette technique est passablement semblable aux hachures (etc.) utilisées depuis des siècles (sans commune mesure sur écran à main levée avec la précision des traits en gravure traditionnelle, ce que le vectoriel vient à pallier aujourd'hui en très haute résolution).
+Il s'agit d'alterner deux couleurs (voire plus) : soit par bandes horizontales ou verticales (l'effet de banding caractéristique dans la première colonne de l'exemple), soit par damiers de pixels (dans les trois colonnes de droite).
+Dans cette dernière méthode, la trame bicolore de (matrice de) 2×2 pixels reste d'ailleurs la plus fine, neutre, compatible, et efficace de toutes, car aussi la plus basique (de premier niveau intermédiaire), quoique “mécanique” .
+Cette organisation schématique dans les trames est souvent à remanier et à complexifier dans la pratique .
+On peut remarquer dans l'exemple que la dernière colonne de dégradé n'utilise que deux couleurs (ce que la vignette ne permet peut-être pas d'observer, ni la distance éventuellement).
+Toute la difficulté pour le pixel-artiste sera de choisir quel type de trame il souhaite appliquer pour rendre le dégradé le plus fluide possible, avec le moins de couleurs distinctes possible.
+Les transitions à base de deux couleurs (1 bit de profondeur) peuvent recourir à des motifs de taille progressive (où le nombre de pixels reste idéalement semblable aux gradations du tableau ci-contre).
+Ces groupements de pixels prennent alors diverses formes, tels des brosses numériques : cercles pleins façon quadrichromie, taches, écailles, croix, spirales, ondes, caractères, lignes pointillées savantes ou points éparpillés etc.
+Il s'agit alors chez le pixel-artiste, qui met en avant son expérience dans ce domaine, d'une volonté de texturer et d'enrichir le tramage en le forçant (lorsqu'il est visionné de près), tout en maintenant autant que possible les valeurs du dégradé initial (lorsqu'il est visualisé avec davantage de recul).
+Cependant, comme pour toute recette stylistique, le recours trop fréquent à ce procédé devient une facilité d'artiste .
+Par exemple : en dissimulant le banding ou les artefacts d'une médiocre numérisation sous des spires travaillées (motifs singuliers qui nécessitent de les multiplier pour moins les remarquer, et qui finissent par conférer un aspect de filtre automatique déformant sur l'ensemble de l'image) ;
+ou en ne pouvant s'empêcher de couvrir les surfaces les plus lisses, toutes même, d'une texture inadaptée de gros sable stéréotypé (par des trames qui dépassent leur zone ou leur niveau, voire qui pourraient être modifiées ou évitées en stylisant davantage le modelé ou la composition en amont, ce que la copie des sujets ne permet pas).
+La scène démo foisonne de trames palliatives, maniaques, comme fantaisistes.
+Les formats de compression
+On peut voir le pixel art comme une réorganisation manuelle du bruit dans l'image.
+C'est le dessinateur qui choisit arbitrairement quelles seront les zones qui auront une couleur unie, quelle sera la netteté des détails (contraste entre deux pixels contigus), quelle quantité de bruit il conviendra d'apporter à une zone de l'image (suivant qu'on veuille la rendre lisible ou y appliquer une texture), etc.
+Ces tâches ne sont pas confiées à des traitements automatisés.
+Ainsi, il convient de ne pas sauvegarder l'image dans un format qui va réintroduire du bruit après sauvegarde (la chaîne de production nécessite l'utilisation exclusive de formats de compression dits sans perte ;
+autrement dit : les images finales dégradées par un format destructif ne doivent pas être réintroduites dans le processus de production).
+Sur les systèmes modernes, les extensions (de format de fichiers) les plus populaires pour le pixel art sont :
+* le PNG (qui gère les transparences)
+Celui-ci a l'avantage de permettre une compression (de type RLE), sur des images statiques ;
+* le GIF (qui permet des animations)
+Ce format a connu un âge d'or au début d'internet, mais il est vieillissant, en particulier parce qu'il se limite à 256 couleurs , et qu'il n'intègre qu'une seule couleur de transparence (contre 256 en PNG).
+Il est très souvent moins performant à réduire le poids des fichiers de pixel art que le PNG, là est aussi son désavantage, alors que pour de l'animation, c'est encore le plus utilisé à l'heure actuelle, et de très loin, malheureusement.
+Car l'APNG (extension .apng, rarement .png) est l'une des deux solutions les moins incompatibles, notamment parmi les navigateurs (Mozilla Firefox en tête), vidéos destructives comme solution de repli mises à part.
+Le WebP, sur Google Chrome, est plus complet et avancé techniquement que l'APNG, mais son option de compression à pertes pose un sérieux souci en pixel art, à ne pas permettre de déterminer a priori si la création est bien intacte, puisque l'extension reste inchangée dans les deux cas :
+.webp.
+Le JPEG est à éviter chaque fois que possible en pixel art.
+On lui préfère les formats PNG et GIF, car le très populaire JPEG n'est spécialisé que dans la compression de photographies numériques.
+En effet, ce format introduit une grande quantité de bruit indésirable, du fait de son principe de compression : afin de produire un fichier de poids raisonnable, la photographie (composée souvent de plusieurs millions de pixels) est convertie grâce à l'ajout de bruit, lequel ne se verra pas à l’œil nu sur des grands formats.
+En revanche, sur quelques pixels, l'image est fortement dégradée.
+Sur l'exemple ci-contre, on voit que le dessin au format JPEG comporte des impuretés par rapport à celui intact au format GIF, car nous sommes sur du petit format.
+Les couleurs d'origine se dégradent, tandis que d'autres apparaissent à proximité , ce qui augmente au passage le nombre de couleurs uniques, pourtant l'une des deux préoccupations majeures du pixel art.
+De plus ici, la conversion fortement non conservative a utilisé deux fois plus de mémoire ou de stockage.
+Les grandes images en pixel art souffrent ainsi d'un poids parfois excessif en JPEG (car l'algorithme a souvent trop de détails à préserver) ;
+le GIF n'est alors généralement pas une solution non plus (à cause d'une technologie inadaptée aux grands formats, quelle que soit leur nature), et inverse même la balance sur les grandes tailles de pixel art.
+Le PNG est alors l'un des moins mauvais formats de compression (où PNGGauntlet améliore souvent les taux des autres outils), précédé de près, pour l'archivage plus particulièrement, du BMP (ou d'un autre format sans pertes et non compressé), nécessairement dans une archive (solide autant que possible si les fichiers sont multiples et ressemblants), de type 7-Zip (extension .7z), préféré également pour sa gratuité et sa compatibilité multisystèmes récents.
+(Les anciennes machines disposent d'ailleurs, pour certaines, de visionneuses très avancées pour des formats ou itérations de compression qui leur sont de très loin postérieurs, tels que le JPEG et le PNG, où la scène démo joue sur les images anachroniques par exemple, mais les ressources demandées, a fortiori pour un compresseur très exigeant, limitent grandement leur utilisation, la relègue même à des champs d'expérimentation, où la lenteur est reine.
+Les formats compressés standard et plus ou moins propriétaires des systèmes originaux étaient en effet optimisés, sinon adaptés à une utilisation courante sur du matériel non glonflé.)
+Un mélange JPEG-PNG est parfois envisagé et codé (dans les jeux vidéo), lorsqu'il s'agit de gagner en poids (effectivement et au cumul des deux fichiers) dans les surfaces grâce au JPEG, et de conserver en même temps un masque et son canal alpha intacts grâce au PNG.
+De par ces dégradations de compression inadaptée, toute création à base de pixel art se révèle donc très sensible au vieillissement provoqué par les modifications et publications numériques successives, particulièrement en web 2.0.
+Il s'agit d'un souci de conservation culturelle d'ordre général, comme nouvelle bonne pratique, à défaut d'une préservation de l'œuvre qui le mérite.
+Les formats qui négligent la fidélité des pixel art originaux, surtout les plus ténus et délicats, semblent heureusement exclus de la plupart des sites spécialisés, de nos jours.
+Mais il conviendrait au public le plus sensibilisé de vérifier chaque fois l'extension de ces fichiers, et si possible l'absence de traces de compression à la loupe sous un logiciel de retouche, via l'outil de remplissage global sans tolérance, pour être précis, afin que la copie ne remplace pas chez eux l'original par inadvertance.
+Par exemple, la visionneuse IrfanView, gratuite sous Windows, permet entre autres d'indiquer les erreurs d'extension, le nombre de couleurs, d'en remplacer, d'agrandir sans filtre aucun.
+Relations entre pixel art et jeux vidéo
+La relation avec le character design
+On considère parfois les graphismes des anciens jeux vidéo comme du “pixel art”, mais c'est bien par la force des choses.
+Avant tout, le problème était de créer des héros identifiables en quelques pixels : Pac-Man (1978) est composé de 110 pixels de couleur jaune en forme de camembert ou, sorti la même année que Mario, Jumpman (1983) est composé dans sa version originale sur Atari 8 bits d'1 couleur, mais dans l'adaptation sur C64, en 1984, de 129 pixels de 3 couleurs.
+Un sprite plus détaillé (taille, couleurs, animations) demande plus de mémoire et de temps de calculs.
+Les capacités informatiques de l'époque ne permettent pas toutes les fantaisies.
+Les designers sont obligés de faire des concessions.
+Si Mario a une moustache c'est parce qu’il était impossible de représenter une bouche.
+S'il porte une casquette c'est pour éviter l'animation des cheveux.
+Il est intéressant de voir comment les limitations techniques peuvent, contre toute attente, produire un personnage très humain et attachant ».
+Les cheveux verts des personnages de Lemmings sont également choisis pour les détacher du fond de l'écran.
+La relation avec l'animation
+Le contrôle d'un sprite par un joueur induit obligatoirement le mouvement.
+Dans les années 1980, il est réduit à son strict minimum.
+Par exemple, Alex Kidd (1986) court avec un cycle de 3 images (standard à l'époque)
+À la fin des années 1980, Shadow of the Beast et Turrican propose une animation en 50 images par seconde sur Amiga.
+Pourtant dès 1984
+, Brøderbund sort Karateka sur Apple II.
+Le jeu est remarquable par la haute qualité de ses animations.
+Pour arriver à un tel résultat, Jordan Mechner filme son frère afin d'analyser la décomposition de ses mouvements, à l'instar de Muybridge précurseur du cinéma.
+Retranscrit pixel par pixel, ce réalisme des déplacements se retrouvera dans son œuvre culte
+Prince of Persia (1989).
+Les jeux
+Another World (1991) et de New York.
+La relation avec le level design
+Pendant longtemps, par souci pratique, les environnements et les décors des niveaux des jeux ont été constitués d'un assemblage d'images plus petites qui pouvaient être ré-assemblées selon les besoins, ce qui permettait de réduire l'espace mémoire nécessaire pour les stocker.
+La plupart du temps il s'agissait de petites images carrées (les tiles, ou « carreaux ») disposées sur une grille.
+On appelle « tile sets » les planches contenant l'ensemble des tiles : êtres vivants, nature, architecture…
+Cela a maintenu le graphisme informatique dans un cadre technique très strict, puisqu'une fois encore il était interdit au graphiste de réaliser des dessins de la taille de l'écran
+- au lieu de cela il était forcé de tout concevoir d'après des petits dessins de quelques dizaines de pixels de côté, typiquement par carrés de 8 pixels sur les machines 8 bits .
+Indirectement, à la même période, l'esthétique du pixel art n’a pas pu atteindre son autonomie visuelle puisque toujours comparée aux autres arts (cinéma, photographie, dessin animé…) tout en ayant ses limitations propres.
+Une exception notable à ces pratiques est la famille des jeux d'aventure, où les scènes ont été constituées de dessins faisant la taille de l'écran, quasiment dès le début (exemples : Mystery House puis King's Quest, de Sierra).
+Certains jeux font le choix de privilégier l'aspect visuel sur la jouabilité.
+En 1982, Les Schtroumpfs sort sur Colecovision.
+Certains le qualifient alors de « dessin animé interactif ».
+Le magazine Tilt met en pleine
+page une capture d'écran du jeu en couverture du numéro 6.
+Par la suite, d'autres jeux recevront ce qualificatif, comme pour la série des Dragon's Lair de Readysoft, qui s'éloigne du pixel art en se rapprochant du dessin animé réel de type Walt Disney.
+La relation avec les cinématiques
+Le paragraphe précédent explique comment le recours aux tile sets interdisait aux pixel-artistes de réaliser de grands dessins originaux.
+Cependant, une exception réside dans le recours ponctuel aux images de mise en scène : relativement rares du fait de l'espace nécessaire à leur stockage, proposées en introduction, en conclusion ou pour l'articulation des chapitres, les images et leurs « cinématiques » améliorent l'immersion du joueur.
+Ainsi dans un premier temps, elles sont animées et issues du jeu lui-même (permettant de présenter le gameplay par une démonstration automatique et commerciale d'un joueur virtuel, notamment sur les premiers jeux vidéo d'arcade).
+Ensuite elles vont s’orienter vers l'image fixe (par un ajout non nécessaire directement au jeu), semblables à des illustrations dessinées et retravaillées en pixels.
+C'est en 1984, dans Karateka de Jordan Mechner que le joueur voit des cinématiques dignes de ce nom.
+Lors de toute cette décennie, la plupart des titres proposaient en effet seulement une introduction (menu plus ou moins animé, présentation et tutoriels éventuels, démonstration à l'ancienne, sans oublier les images plus ou moins statiques de chargement sur micro-ordinateurs), et souvent une conclusion (victorieuse, et parfois pas), de façon succincte mais appréciée (sauf à la longue, dans le cas des pages de game over, qui forçaient à attendre).
+Dans cet ordre d'idée, les transitions animées, gourmandes en mémoire, étaient encore plus rares en cours de jeu.
+C'est ainsi que dans les shoot 'em up et autres beat them all (jeux d'action), les bosses (ennemis de grande taille en fin de tableaux) venaient renforcer le scénario (sans autre préparation qu'une éventuelle petite pause de suspense).
+Le jeu de combat Barbarian de Palace Software, sur Commodore 64 en 1987, inaugurait quant à lui de façon très remarquée un début de cinématique gore en fin d'action (ce qui sera repris dans les fatalities, ces scènes d'actions littéralement fatales dans le jeu Mortal Kombat sur arcade et consoles en 1992).
+À partir de la fin des années 1980, les capacités des supports de jeu permettent le stockage de véritables mini films.
+Infogrames présente ainsi par exemple une introduction animée dans Bob Morane: Ocean, sur Atari ST en 1988.
+Core Design en fera de même au début des années 1990 dans la plupart de ses jeux (Chuck Rock, , Heimdall…).
+Auparavant en 1986, mais pendant le jeu cette fois, Defender of the Crown sur Amiga gratifiait déjà le joueur vainqueur (très majoritairement masculin à l'époque) d'une cinématique passablement érotique (un déshabillé en lingerie, inédit jusque-là et même durablement pour un jeu vidéo de grande audience, « AAA » comme on dirait aujourd'hui).
+L'apparition du CD-ROM pour PC-Engine en 1989 généralisera les introductions animées sur ce support, en attendant l'arrivée de machines CD-ROM plus puissantes.
+En 1993, Delphine Software sort .

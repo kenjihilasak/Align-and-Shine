@@ -1,0 +1,43 @@
+Sablier
+Un sablier en bois et en verre
+Le sablier est un instrument qui permet de mesurer le temps.
+Le sablier est constitué d'un récipient en verre qui contient du sable.
+Ce récipient comporte deux compartiments reliés par une petite ouverture.
+Au début, le sable est dans le compartiment inférieur.
+En retournant le sablier, le compartiment inférieur devient le compartiment supérieur.
+Le sable s'écoule alors par l'ouverture, entraîné par son poids.
+Comme l'ouverture est petite, l'écoulement du sable est lent.
+Le sable s'écoule jusqu'à épuisement du compartiment supérieur.
+Le sablier permet de mesurer un intervalle de temps, qui est la durée pour que le sable s'écoule.
+Par exemple, un sablier peut mesurer trois minutes, le temps de la cuisson d'un œuf à la coque.
+Petit problème à résoudre
+Je dispose de deux sabliers.
+Le premier sablier mesure des intervalles de 5 minutes.
+Le deuxième sablier mesure des intervalles de 19 minutes.
+Je veux mesurer le temps de cours d'un coureur à la minute près.
+Comment dois-je m'y prendre ?
+Réponse
+Le sablier A mesure des intervalles de 5 minutes et le sablier B des intervalles de 19 minutes.
+On peut retourner un des deux sabliers, ou les deux, dès qu'il ne reste plus de sable dans l'un des deux.
+Première étape : Je commence par isoler 1 minute dans le premier sablier.
+Pour cela, je retourne les sabliers simultanément.
+Au bout de 5 minutes, tout le sable du sablier A s'est écoulé.
+Il reste 6 minutes dans le sablier B. Immédiatement, je retourne le sablier A.
+Au bout de 5 nouvelles minutes, il ne me reste plus de sable dans le sablier A, et encore 9 minutes dans le sablier B. Je retourne à nouveau le sablier A. Au bout de 5 minutes, il ne me reste plus de sable dans le sablier A, mais encore 4 minutes dans le sablier B.
+Immédiatement, je retourne le sablier A. 4 minutes plus tard, il ne me reste plus de sable dans le sablier B, et encore 1 minute dans le sablier A.
+Au bout de 19 minutes, j'ai isolé 1 minute dans le sablier A.
+Deuxième étape :
+Une sorte de yo-yo...
+Immédiatement, je retourne le sablier B.
+Au bout d'une minute, il ne me reste plus de sable dans le sablier A et 10 minutes dans le sablier B.
+Immédiatement je retourne les deux sabliers.
+Au bout d'une minute, il me reste quatre minutes dans le sablier A et 0 minute dans le sablier B.
+A nouveau, je retourne simultanément les deux sabliers.
+Au bout d'une minute, il me reste 0 minute dans le sablier A et 10 minutes dans le sablier B.
+Et ainsi de suite.
+On peut donc chronométrer des temps supérieurs à 19 minutes à la minute près.
+Je dispose maintenant de trois sabliers.
+Le sablier A mesure des intervalles de 10 minutes.
+Le sablier B des intervalles de 12 minutes.
+Le sablier C des intervalles de 15 minutes.
+Comment dois-je procéder ?

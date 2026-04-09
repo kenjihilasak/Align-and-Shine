@@ -1,0 +1,43 @@
+In fluidodinamica la portata è la quantità di fluido che attraversa una sezione di area A nell'unità di tempo.
+Definizioni
+Data una sezione si può definire una:
+* portata ponderale (espressa in newton al secondo) se riferita al peso (massa moltiplicata per l'accelerazione gravitazionale pari a 9,80665 m/s²);
+* portata di massa (o massica, espressa in chilogrammi al secondo) se riferita alla massa di fluido;
+* portata molare (espressa in moli al secondo) se riferita alla quantità di sostanza;
+* portata volumetrica (espressa in metri cubi al secondo) se riferita al volume.
+Portata volumetrica
+La portata volumetrica nel Sistema Internazionale si misura in metri cubi al secondo (m3/s).
+La portata volumetrica \dot V di fluido che transita in un tubo la cui sezione ha un'area A è pari a:
+\dot V = A \, v \cos \theta
+dove v indica la velocità del fluido, considerata uniforme e con un certo angolo θ rispetto alla perpendicolare della sezione.
+Nel caso particolare di flusso perpendicolare all'area sarà:
+\dot V = A \, v
+Portata massica
+La portata di massa o portata massica (ṁ) indica la massa che scorre attraverso una sezione nell'unità di tempo e nel Sistema Internazionale si misura in kg/s (il punto sul simbolo è usato per indicare una grandezza riferita all'unità di tempo).
+Per passare dalla portata volumetrica alla portata massica, è necessario moltiplicare la portata volumetrica per la densità \rho del fluido (che è espressa nel Sistema Internazionale in kg/m3).
+La portata massica, o flusso massico, è quindi data dalla formula:
+\dot m
+\rho \dot V
+\rho \, A \, v
+dove \, v è la velocità media del fluido in direzione normale all'area \, A .
+Nella maggior parte delle applicazioni pratiche, il flusso di un fluido attraverso una tubazione od un condotto, se riferito ai valori medi delle proprietà nella generica sezione perpendicolare alla direzione del flusso, si può approssimare ad un flusso unidimensionale, ovverosia si trascurano le variazioni delle proprietà del fluido in ogni direzione tranne la direzione del flusso.
+Questa approssimazione se influisce poco sulla maggior parte delle proprietà del fluido, quali temperatura, pressione, densità, ha invece un effetto rilevante sulla velocità, il cui valore varia da zero in prossimità delle pareti ad un massimo in corrispondenza dell'asse a causa degli effetti viscosi (attrito tra strati fluidi).
+Nell'ipotesi di flusso unidimensionale si può assumere la velocità costante sull'intera sezione trasversale e pari ad un valore medio equivalente.
+Si ottiene in questo caso:
+\dot m = \rho \, \bar v \,
+dove \bar v è il valore medio della velocità.
+Idraulica
+Nella scienza idraulica il termine “portata” ha due significati:
+col primo s'intende il volume liquido che attraversa nell'unità di tempo la sezione di un corso d'acqua, un canale o un condotto;
+col secondo s'intende la capacità idraulica di un'opera o di un dispositivo per la captazione o l'erogazione dell'acqua.
+La portata di un corso d'acqua è qualificata da aggettivi (per esempio portata minima, media od ordinaria, massima o di punta), corrispondenti a specifiche elaborazioni idrologiche.
+La portata solida è la massa di sedimenti che attraversano nell'unità di tempo la sezione di un corso d'acqua naturale.
+Portata è un aggettivo sostantivato, derivante da un precedente uso come aggettivo, nel senso di “quantità d'acqua portata” da un alveo.
+Questo termine è molto importante nella storia dell'idraulica e si forma all'inizio del Seicento nella scuola di Galileo, dove maturano metodi esatti di misura delle acque.
+In precedenza le quantità d'acqua erano misurate semplicemente con le sezioni d'efflusso dalle luci o di deflusso nei corsi d'acqua, senza considerare la velocità e quindi senza il concetto di portata.
+La critica ai sistemi tradizionali di misura delle acque è anticipata già da Leonardo Da Vinci, ma sarà Benedetto Castelli, all'inizio del Seicento, a sviluppare per primo misure sistematiche di portata nel suo trattato Della misura dell'acque correnti.
+Prima di Castelli la portata di fiumi e acquedotti era ancora misurata in base alla sola sezione di deflusso, trascurando la velocità.
+Per evidenziare il concetto di portata, Castelli introdusse in modo efficace la velocità come terza dimensione, accanto alle due della sezione trasversale.
+Castelli usò l'espressione “quantità dell'acqua”per indicare la portata, un'espressione che rimase a lungo e lasciò tracce nel simbolo ancor oggi universalmente usato per indicare la portata, ossia la lettera Q, che rappresenta appunto l'iniziale di “quantità”.
+Note
+Bibliografia

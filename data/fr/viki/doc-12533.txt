@@ -1,0 +1,46 @@
+L'Hyper Text
+Coffee
+Pot Control Protocol (ou HTTCPC, ou en français protocole hypertexte1 de gestion de cafetière) est un protocole et une farce de premier avril, qui permet la gestion et le contrôle de cafetière.
+La RFC2324 décrit et explique ce protocole, mais bien que ce soit un poisson d'avril, le protocole est suffisamment complet pour être utilisé.
+La blague a été parfois prise au sérieux au tel point qu'il y a même un rapport de bug sur Firefox comme quoi le HTCPCP ne fonctionnerait pas.2
+Sommaire
+Pour bien choisir son café, il suffit de faire la bonne requête.
+Voici ce qu'il faut envoyer pour avoir les différentes sortes de café :3
+Permet d'envoyer la demande d'infusion du café au serveur.
+GET
+Récupère le café.
+Arrête l'insertion du lait dans le café (si elle avait commencé).
+Permet d'indiquer ce que l'on souhaite ajouter au café (lait, alcool, sirop...)
+Café normal
+milk-type
+Lait (type à préciser)
+syrup
+type
+Sirop (type à préciser)
+sweetener
+type
+Sucre
+spice
+type
+Épice(s
+alcohol-type
+Alcool (type à préciser)
+milk-type
+Indique au serveur le type de lait à ajouter au café, si vous avez demandé du lait.
+Un mélange de crème et de lait, 50% crème et 50% lait.
+Indique au serveur le gout du sirop à ajouter au café, si demandé.
+Indique au serveur le type d'alcool à ajouter au café, si demandé.
+Vous ne pouvez pas demander de café décaféiné.
+La justification de l'auteur est "à quoi ça sert ?".
+Comme tout protocole, HTCPCP renvoie des codes d'erreur.
+Ce dernier en renvoie deux :
+Il est impossible d'infuser le café choisi pour une raison quelconque.
+La plupart du temps, le serveur indique les choix possibles.
+418 I'm teapot
+Le serveur est une théière et va avoir des difficultés à faire du café.
+Des sites ont reprit du protocole l'erreur 418, comme Google, à but humoristique.
+Également, d'autres sites utilisent cette erreur pour l'afficher aux pirates tentant de faire de l'injection de code (une technique permettant de faire faire des actions non voulues au serveur, comme récupérer des informations personnelles par exemple).
+Vous pouvez en voir un exemple ici.
+Le protocole n'est évidemment pas vraiment utile pour l'échange entres ordinateurs, car il n'est pas adapté pour échanger des informations.
+En revanche, des personnes ont essayé de l'utiliser... pour contrôler une cafetière!
+↑Code spécial permettant l'échange entre l'ordinateur et le serveur.

@@ -1,0 +1,93 @@
+Registered
+jack|Ethernet|Sigle de 4 caractères
+RJ45 est le nom usuel et inexact du 8P8C ( et électriques) utilisé couramment pour les connexions Ethernet, et pour les connecteurs téléphoniques.
+Les références «
+RJ » viennent de l'anglais (prise jack déposée) qui est une partie du Code des règlements fédéraux () aux États-Unis pour les réseaux téléphoniques, et qui désigne en réalité, non pas des connecteurs, mais des branchements (brochages) standards officiels de ces connecteurs.
+Le « 45 » indique un numéro dans le standard «
+RJ » .
+En réalité, il n'existe pas de standard fédéral normalisé «
+RJ » pour les réseaux informatiques
+car ils ne traversent pas l'espace public.
+La seule interface officielle est le RJ45S qui correspond à un branchement de type data, en téléphonie avec un brochage différent.
+Comme l'indique son nom 8P8C (huit points, huit contacts), il comporte huit broches de connexions électriques.
+Un connecteur RJ45 est une interface physique souvent utilisée pour terminer les câbles de type paire torsadée.
+Il est souvent utilisé avec des standards comme le TIA/EIA-568-B qui décrit le brochage de terminaison du câblage.
+On le confond parfois avec le RJ50 (autre dénomination non officielle), qui est en réalité un peu plus grand (10P10C), et qui est entre autres utilisé pour la surveillance (informatique) des UPS (onduleurs), en permettant le raccordement soit vers une connexion USB, soit vers une connexion série (RS-232).
+Usages
+L'utilisation la plus courante du connecteur RJ45 est le câblage Ethernet utilisant quatre broches (deux paires) ou huit broches (4 paires).
+On l'utilise aussi comme connecteurs de téléphones de bureaux et pour les applications de réseaux informatiques comme l'ISDN et les T1.
+Mais, de plus en plus, c'est une connexion utilisant les huit points de contacts qui est utilisée pour relier les quatre paires nécessaires aux réseaux par seconde et pré-câbler les bâtiments pour toutes les applications à «
+courants faibles » (basse puissance et basse tension) qui ne demandent pas beaucoup de conducteurs distincts.
+De même, le connecteur 8P8C, dit RJ45 permet plusieurs types de câbles, torsadés en paires ou non, avec ou sans blindage.
+Ainsi, France Télécom recommande l'utilisation du RJ-45 raccordé en réseau en étoile, pour les nouvelles installations téléphoniques, en lieu et place de la prise en T, depuis 2003.
+Depuis le , la norme NF C 15-100 oblige l'installation du RJ-45 (des prises 8P8C avec un câblage à deux ou quatre paires torsadées) pour les bâtiments neufs, extension et rénovation complète, même si une seule paire non nécessairement torsadée suffit pour la téléphonie en mode analogique et si aujourd'hui la plupart des téléphones vendus ont des câbles souples non torsadés terminés par des fiches mâles 6P2C (compatibles physiquement et électriquement avec les prises femelles 8P8C).
+Par ailleurs, un décret royal espagnol définit les cas d'utilisation du RJ-11 et du RJ-45 pour les points utilisateurs de terminaison du réseau (TR1) téléphonique espagnol.
+Cette norme est aussi en vigueur au Canada et aux États-Unis pour l'utilisation de la prise RJ-45.
+Spécifications techniques
+À l'origine, la désignation RJ45 ne concerne
+que les spécifications de raccordement, l'assignation fonctionnelle du brochage et les spécifications électriques du câblage et des signaux utilisés pour la téléphonie
+La forme physique des connecteurs mâle et femelle communément appelée aujourd'hui RJ45 est normalement désignée comme 8P8C (pour indiquer un connecteur plat pouvant recevoir jusqu'à de contact, dont les 8 positions sont utilisables comme contacts, et avec un système mécanique commun de verrouillage sur le côté opposé aux positions de contacts).
+Ce connecteur est compatible physiquement avec le connecteur 6P6C (qui a deux positions de moins et donc deux contacts possibles en moins pour le câblage, et qui est largement utilisé pour raccorder les téléphones actuels à schéma de connexion RJ11).
+Suivant l'utilisation des câbles, il peut donc y avoir plusieurs connecteurs physiques possibles compatibles entre eux (une fiche 6P6C mâle d'un téléphone entre physiquement et se connecte électriquement dans une prise 8P8C femelle, qui peut alors véhiculer tous les six signaux véhiculés par le câble fixé à la fiche mâle).
+Mais du fait de la popularité de l'application modifiée de RJ45 pour le réseau, le schéma de câblage RJ45 d'une prise 8P8C s'est étendu pour désigner toutes les applications de ce connecteur physique.
+Les variantes de connexion pour le réseau Ethernet utilisant une fiche ou une prise désignée comme RJ45 emploient donc principalement le connecteur physique 8P8C, mais pour l'Ethernet à 10 ou (qui ne nécessitent que l'utilisation de deux paires), les quatre points inutilisés peuvent n'avoir aucun contact, tout en conservant la position physique afin de stabiliser physiquement les autres contacts.
+De même, pour la téléphonie, les connecteurs dits RJ11 sont des connecteurs 6P6C ou 6P4C, voire 6P2C ou 4P2C, et dont les fiches mâles peuvent s'insérer dans les prises 8P8C femelles désignées abusivement mais communément RJ45, en n'utilisant que les contacts centraux.
+Câblage
+Lors d'un câblage informatique en 10/, seules les quatre broches 1-2 et 3-6 sont utilisées pour transmettre les informations.
+Lors d'un câblage informatique en (), les sont utilisées.
+Lorsqu'on branche un poste de travail dans un concentrateur () ou un commutateur (), un câble droit doit être utilisé.
+Lorsqu'on doit brancher deux postes de travail ensemble, un câble croisé doit être utilisé.
+Dans le câble croisé, les paires utiles sont inversées, c'est-à-dire que la paire de transmission d'un côté est connectée aux broches de réception de l'autre côté.
+La règle générale est la suivante : pour deux périphériques travaillant au niveau de la couche 2 (MAC) du modèle OSI comme un Hub Ethernet ou un switch sans fonction de routage, ou deux périphériques de la couche 3 (IP) comme un PC ou un routeur, on utilise un câble croisé.
+Dès que l'on change de couche entre deux équipements, on peut alors utiliser un câble droit (PC à Switch, Routeur à Switch, Hub à PC).
+La plupart des équipements modernes de réseau sont cependant capables de faire du MDI/MDI-X, c'est-à-dire du (dé)croisement automatique en fonction du type de câble utilisé, des adaptateurs réseaux et de la situation présente.
+Ce (dé)croisement se fait de manière logicielle au niveau d'un des deux adaptateurs (ou au sein du système d'exploitation) après que ceux-ci se sont mis d'accord sur l'adaptateur à inverser.
+Câblage droit
+Le câble droit (marqué ou le long de sa gaine) est utilisé pour connecter un appareil hôte à un concentrateur réseau () ou un commutateur réseau ().
+Deux normes de câblages sont principalement répandues pour les connexions de la prise : la norme T568A et la norme T568B.
+Ces normes sont très similaires puisque seules les paires 2 (orange, blanc-orange) et 3 (vert, blanc-vert) sont interchangées.
+Même si ces deux normes sont déployées, la norme T568A est principalement utilisée dans le domaine du résidentiel (souvent avec du câblage simple non blindé de type UTP) alors que la norme T568B est plutôt employée dans le domaine professionnel (alors avec du câblage blindé par écrantage de type FTP).
+On peut noter que dans le cas des câbles droits de courte longueur vendus ou distribués déjà sertis dans le commerce, les deux normes sont compatibles entre elles, puisque la permutation des couleurs ne change rien aux propriétés électro-magnétiques de chacune des paires torsadées (à condition de ne pas permuter un des conducteurs d'une paire torsadée avec celui d'une autre, ni de permuter les deux conducteurs d’une même paire).
+De tels câbles droits compatibles pour l'une et l'autre des deux normes sont alors marqués T568A/B (et souvent alors blindés par écrantage de type FTP ou STP).
+Comme ces câbles sont fabriqués déjà sertis à leurs deux extrémités, tous n'utilisent pas un code couleur sur leurs conducteurs internes mais uniquement le marquage imprimé le long du câble sur sa gaine externe.
+On peut remarquer aussi que si les deux paires centrales, 1 (bleu) et 2 (orange) pour la norme T568A où 1 (bleu) et 3 (vert) pour la norme T568B, sont entremêlées, ceci est fait dans le but de faciliter le sertissage des prises RJ45.
+Les conducteurs étant disposés en cercle autour de l'axe du câble, il est plus facile de les mettre à plat dans la prise et de les ordonner après les avoir coupés tous à la même longueur, tout en évitant de les fragiliser par des torsions excessives.
+Convention de raccordement du RJ45 avec les câbles de 120 ohms
+Câblage croisé complet
+Le câble croisé (marqué le long de sa gaine) est en principe utilisé pour raccorder deux concentrateurs () ou commutateurs réseau (), entre un des ports normaux (MDI) d'un commutateur ou concentrateur de plus grande capacité, et le port amont MDI-X d'un commutateur ou concentrateur destiné à raccorder des hôtes locaux de plus faible capacité désirant se partager la bande passante de l'équipement réseau amont.
+Il peut aussi être utilisé parfois pour connecter ensemble deux appareils hôtes et ainsi s'affranchir de l'utilisation d'un ou d'un intermédiaire dans le cadre d'une simple liaison point à point.
+La connexion d'un appareil hôte à un commutateur ou un concentrateur, ou le raccordement entre deux concentrateurs ou commutateurs peut se faire éventuellement aussi par un câble croisé, à condition qu'au moins un des appareils dispose d'un bouton MDI/MDI-X de permutation des paires sur le port utilisé, ou bien (sur les appareils plus récents) qu'il détecte automatiquement le câblage utilisé (système de croisement
+Auto MDI/MDI-X).
+Le câblage utilisé entre les prises étant de même nature que celui d'un câble droit, le croisement des brins n'est effectué que d'un côté sur une seule des deux prises ;
+cette dernière, dont le montage est plus compliqué (et peut augmenter le prix du câble complet) peut être identifiée par l'impression de MDI-X, soit sur la prise elle-même, soit sur la gaine du câble.
+Mais le raccordement du câble aux appareils peut se faire dans un sens ou dans l'autre, les prises étant totalement échangeables par construction.
+Aujourd'hui, la connexion entre deux appareils hôtes ou celle entre deux commutateurs ou concentrateurs peut presque toujours se faire par un câble droit, la carte réseau des appareils étant souvent capable d'analyser si le câble utilisé est croisé ou non .
+Le croisement des paires du câble est facilement détectable automatiquement par l'inversion de polarité du signal, celle-ci ayant lieu à la fois sur la paire centrale du connecteur ainsi que sur l'autre paire avec laquelle elle est croisée, c'est-à-dire entre les brins de la paire 1 (bleu, blanc-bleu) d'une part, et entre ceux de la paire 4 (marron, blanc-marron) d'autre part, ou encore sur entre les broches 4 et 5 d'une part et entre les broches 7 et 8 d'autre part.
+Si le mauvais type de croisement de câble est utilisé entre des appareils ne disposant pas de cette détection automatique, la connexion peut ne pas fonctionner du tout, ou bien fonctionner de façon dégradée et uniquement en alternance sur une seule paire (en mode half-duplex, en principe sur la paire 1) ce qui réduit très sensiblement la bande passante utilisable sur cette seule paire lorsque des émissions de données ont lieu simultanément par les appareils de chaque côté du câble.
+Ce mode d'utilisation dégradé (en alternance sur une seule paire) n'est aujourd'hui plus conservé que pour pallier éventuellement des pannes matérielles qui surviendraient sur une des paires le long du câble ou sur une des prises et connecteurs.
+Le croisement ci-dessous est valable pour les connexions (1 gigabit par seconde).
+Câblage croisé partiel
+Dans le cas de l’utilisation de câbles et prises RJ-45 pour le raccordement téléphonique analogique (dans la bande audio de base), une seule paire est nécessaire puisque les signaux émis et reçus sont véhiculés sur le même support.
+Ce type de câble croisé partiel, tel que figuré ci-dessous, est alors compatible de la même façon que les câbles droits, la liaison téléphonique étant réalisée sur la paire 1 centrale (bleu, blanc-bleu).
+Les appareils téléphoniques analogiques qui utilisent une prise ou un adaptateur RJ45 (au lieu de la classique prise RJ11, ou de l'ancienne prise en T française) ne raccordent leur câble de liaison à la ligne que par la seule paire centrale de broches (4 et 5) de la prise RJ45, en laissant les autres broches inutilisés (l'intérêt de ces prises RJ45 est de permettre de prééquiper de façon économique les locaux en câbles et prises murales indifférenciés, qui pourront être brassées au niveau du tableau de raccordement soit pour le téléphone soit plus tard pour le réseau).
+Mais étant donné que certains équipements téléphoniques anciens peuvent véhiculer des courants importants sur la ligne, ainsi que des tensions de polarisation plus élevées et une impédance de la ligne plus faible que ce que peuvent supporter les adaptateurs réseau si la polarité des signaux émis ou reçus par la ligne téléphonique est inversée sur le port d'un adaptateur réseau, la connexion imprévue des équipements réseaux sur des installations qui ont été prééquipées aussi bien pour le téléphone que pour le réseau pourrait endommager ces équipements numériques anciens non protégés.
+Le croisement complet du câble comme dans la section précédente n'est alors pas compatible avec ce type de besoins.
+Pour pallier ce problème de compatibilité, certains équipements un peu anciens ou certains types d'installations peuvent nécessiter d'avoir un câble croisé uniquement entre les paires 2 et 3, les 2 autres paires ne devant pas être croisées.
+Ce câble partiellement croisé ressemble alors à ce qui suit ne connecte que les 2 paires de broches croisées utilisées par un réseau à 10 ou 100 Mbit/s, mais sera inutilisable pour la connexion à 1 gigabit par seconde.
+Puisque ce câble ne produit aucune inversion de polarité entre les signaux présentés à chaque paire de broches, la détection automatique du croisement effectuée par les équipements compatibles
+Auto MDI/MDI-X ne fonctionnera pas pour le mode à 1 gigabit par seconde.
+On a donc un câble qui ne pourra pas fonctionner non plus en 1 gigabit par seconde si on n'utilise pas le bon type de câble croisé (puisque le fonctionnement en 2 gigabits par seconde nécessite de raccorder correctement les quatre paires), mais qui fonctionnera encore en (lequel se contente d'utiliser les deux paires croisées), voire seulement en .
+Il est donc parfois nécessaire de disposer les 2 types de câbles si on ne sait pas comment est connecté le reste du réseau (par exemple dans des prises murales préinstallées), puisque les appareils pouvant autodétecter un croisement partiel sont peu répandus ou non disponibles, même si les adaptateurs réseau sont aujourd'hui protégés contre les inversions de polarité grâce à leur support de la détection automatique MDI/MDI-X (cette protection cependant ne permet pas pour le transfert des données l'utilisation des paires concernées, et on perd en débit utilisable puisque l'appareil réseau ne fonctionnera que sur deux des quatre paires).
+Aussi, plutôt que d'avoir un cordon croisé RJ45 mâle/RJ45 mâle, on peut préférer créer un « adaptateur croiseur » en utilisant un connecteur RJ45 mâle et un connecteur RJ45 femelle en suivant les mêmes montages que ci-dessus.
+Ainsi, en utilisant en plus un cordon réseau droit de la longueur qui nous intéresse, on obtient facilement un cordon croisé sur mesure en passant par ce petit « adaptateur » (qui se trouve également dans le commerce).
+Le seul inconvénient ici est qu'on ajoute des connectiques et donc autant de sources potentielles d'atténuation
+- voire de perte
+- de signal…
+Références
+Voir aussi
+Articles connexes
+Liens externes
+* http:/ cours
+pc HOWTO
+fabriquer-cabler-rj45-ethernet.html câble droit et câble croisé ou http:/ Telephonie/RJSertir.html sertir les fiches RJ
+j74rq24vknqgdfklju99gv5rn5mxwm2

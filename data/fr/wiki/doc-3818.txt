@@ -1,0 +1,47 @@
+Type de nombres|Decimal
+Un nombre décimal est un nombre réel qui peut s’écrire exactement avec un nombre fini de chiffres après la virgule en écriture décimale positionnelle.
+Les nombres décimaux sont les quotients d’entiers par des puissances de 10 et se présentent ainsi comme des rationnels particuliers.
+Les nombres décimaux permettent d’approcher n’importe quel nombre réel et d’effectuer des calculs et comparaisons sur ces valeurs avec des méthodes semblables à celles en usages sur les entiers en numération décimale.
+Leur usage, qui se répand du arabe au occidental avec François Viète et Simon Stevin, aboutit à la mise en place du système métrique à la Révolution française.
+L’ensemble des nombres décimaux, noté \mathbb, est un anneau intègre, dense dans la droite réelle, qui est la localisation de ℤ par rapport à l'ensemble des puissances entières positives de 10.
+Le choix d’autres bases que la base 10 mène à la définition d’ensembles de nombres analogues aux nombres décimaux, comme les fractions dyadiques.
+Notations et opérations
+Un nombre décimal peut s’écrire avec un ou plusieurs chiffres (éventuellement précédés d’un signe moins) comme un nombre entier, suivi ou non d’un séparateur décimal (virgule ou point) et d’un ou plusieurs chiffres.
+Dans certains langages de programmation, on peut n’indiquer aucun chiffre avant ou après le séparateur décimal, ce qui revient à écrire le chiffre 0 dans l’emplacement laissé vide.
+Le séparateur décimal est désigné par sa notation habituelle dans les pays francophones, à savoir la virgule, même si sa saisie à la calculatrice et dans les langages informatiques se fait essentiellement à l’aide du point.
+L’écriture d’un nombre décimal s’interprète comme le quotient du nombre obtenu en supprimant la virgule par autant de facteurs 10 qu’il y a de chiffres après la virgule.
+Cette interprétation permet de définir les opérations arithmétiques élémentaires sur les nombres décimaux.
+Pour une comparaison, une addition ou une soustraction avec deux nombres décimaux, la mise au même dénominateur de deux fractions sur des puissances de 10 revient à compléter éventuellement une écriture décimale par des zéros pour égaler le nombre de chiffres après la virgule sur chacun des décimaux.
+Ces opérations s’effectuent alors en alignant les virgules verticalement.
+Pour une multiplication de décimaux, on applique la méthode de calcul habituelle sur les entiers obtenus en supprimant la virgule de chaque facteur, puis on inscrit une virgule sur le résultat de façon à laisser autant de chiffres après la virgule qu’il y en a au total dans les deux facteurs initiaux.
+Pour une division, on peut multiplier chacun des termes par une puissance de 10 suffisante pour se ramener à une division d’entiers.
+Propriétés mathématiques
+Une fraction d’
+entiers irréductible décrit un nombre décimal si et seulement si son dénominateur est un produit d’une puissance de 2 et d’une puissance de 5.
+Ainsi, la fraction représente un décimal, ce qui n’est pas le cas de la fraction .
+Pour tout entier naturel , tout nombre réel admet une unique approximation par défaut à 10^ par un nombre décimal avec chiffres après la virgule.
+Dans le cas d’
+un nombre positif
+, cette approximation est le début de son développement décimal.
+Les nombres décimaux non nuls sont les seuls à admettre un développement décimal impropre en plus de leur développement décimal fini.
+En effet, comme dans le développement décimal de l'unité 1 = 0,9999..., il est possible de décrémenter le dernier chiffre non nul de l’écriture d’un nombre décimal et de le faire suivre d’une infinité de chiffres 9.
+Codage informatique
+La plupart des langages de programmation supportent des entrées et sorties de nombres flottants sous forme décimale, mais traitent la plupart du temps les données via des nombres en virgule flottante binaires qui sont une approximation.
+Ainsi, le nombre étant représenté en base 2 par la suite son codage coupe le développement à 52 chiffres binaires dans le format binaire double précision de la norme IEEE 754, le plus courant.
+Cette erreur d’arrondi donne lieu à des résultats parfois surprenants comme dans le calcul de en Python :
+Pour obtenir un comportement plus cohérent avec le calcul décimal, il existe des bibliothèques spécifiques comme le module Decimal en Python.
+Ensemble des nombres décimaux
+L'ensemble des décimaux
+s’écrit
+\mathbb = \left\.
+Il est stable par addition et multiplication et contient l’entier 1 donc
+il constitue un anneau unitaire dans le corps des réels, donc il est intègre et son corps des fractions est le corps ℚ des nombres rationnels.
+La construction de \mathbb D est une localisation de l’anneau \mathbb Z des entiers relatifs par rapport à l'ensemble des puissances entières positives de 10.
+L'ensemble \mathbb D est dense dans lui-même au sens de la théorie des ordres et topologiquement dense dans ℝ. Autrement dit, tout nombre réel est la limite d'une suite de nombres décimaux : par exemple, ses approximations décimales à tout ordre (par défaut ou par excès).
+Cadre historique
+L’usage de nombres fractionnaires est déjà présent dans les fractions sexagésimales de la numération babylonienne et avec les quantièmes égyptiens il y a plus de .
+Le système décimal est aussi développé dans plusieurs civilisations pour la numération des entiers, mais il n’apparait que très ponctuellement dans les fractions.
+La pratique des nombres décimaux est vraiment mise en place chez des auteurs arabes du , mais ne se diffuse dans les mathématiques européennes que six siècles plus tard.
+François Viète promeut l’usage des nombres décimaux pour remplacer les fractions sexagésimales.
+Simon Stevin publie sa Disme en 1585 et parvient à convaincre ses contemporains de l’efficacité des décimaux.
+C'est dans le but d'harmoniser l'usage des nombres décimaux avec celui des unités de mesure que les révolutionnaires français de 1789 ont été conduits à introduire le système métrique, qui est un système d'unités décimal.

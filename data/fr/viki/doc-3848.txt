@@ -1,0 +1,24 @@
+Les matrices sont très utilisées en infographie, pour les images numériques : la plupart des images que l'on peut voir sur Internet sont des images matricielles, c'est-à-dire des matrices de pointscolorés (les pixels).
+On peut voir un écran d'ordinateur comme une matrice, chaque point de l'écran étant un élément de la grande matrice «
+écran
+On écrit les matrices entre crochets ou parenthèses : par exemple, {\displaystyle {\begin{bmatrix}1&7\\0&2\end{bmatrix}}} et (1702){\displaystyle {\begin{pmatrix}1&7\\0&2\end{pmatrix}}} sont la même matrice.
+Si l'on numérote chaque ligne et chaque colonne d'une matrice en partant de 1, chacun des objets contenus dans la matrice peut être repéré par le numéro de sa ligne et celui de sa colonne.
+Dans les matrices précédentes, le nombre 7 est ainsi repéré par le couple (1,2) : il est sur la première ligne, dans la seconde colonne.
+Une matrice a un nombre fini de lignes et de colonnes.
+Une matrice de taille (1,1) est en pratique considérée comme un nombre.
+Les matrices sont très utilisées en algèbre linéaire et bilinéaire .
+En effet, elles sont pratiques pour représenter à la fois :
+Comme pour tout objet mathématique, on peut faire de nombreuses opérations sur les matrices.
+Les plus communes
+sont :
+la transposition :
+on inverse les lignes et les colonnes de la matrice.
+Si A est une matrice, on note tA la matrice transposée de A. Par exemple, si A =[abcdefghi]{\displaystyle {\begin{bmatrix}a&b&c\\d&e&f\\g&h&i\end{bmatrix}}}, alors tA =[adgbehcfi]{\displaystyle {\begin{bmatrix}a&d&g\\b&e&h\\c&f&i\end{bmatrix}}} ;
+le produit matriciel : on multiplie ligne par colonne.
+Exemple : (31−24−5367−1)×(01−2−2011−20){\displaystyle {\begin{pmatrix}3&1&-2\\4&-5&3\\6&7&-1\end{pmatrix}}\times {\begin{pmatrix}0&1&-2\\-2&0&1\\1&-2&0\end{pmatrix}}}
+Le produit matriciel n'est pas commutatif, si vous multipliez la 2ème matrice par la 1ère, on ne trouvera pas le même résultat :
+le déterminant d'une matrice est une valeur qui permet de connaître de nombreuses propriétés de cette matrice ;
+le produit de convolution :
+Dans les logiciels d'infographie (comme Photoshop ou Gimp), les effets que l'on peut appliquer aux images matricielles, comme le flou ou les déformations, sont des produits de convolution entre la matrice «
+image »
+et une matrice particulière pour chaque effet

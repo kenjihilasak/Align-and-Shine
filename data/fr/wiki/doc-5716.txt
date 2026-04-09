@@ -1,0 +1,46 @@
+Identifiant|Adressage réseau
+Une adresse MAC (Media Access Control), parfois nommée adresse physique, est un identifiant physique stocké dans une carte réseau ou une interface réseau similaire.
+À moins qu'elle n'ait été modifiée par l'utilisateur, elle est unique au monde.
+Le MAC (acronyme de Media Access Control) n'a aucun rapport avec le Mac d'Apple (diminutif de Macintosh).
+Toutes les cartes réseau ont une adresse MAC, même celles contenues dans les PC et autres appareils connectés .
+MAC constitue la partie inférieure de la couche de liaison (couche 2 du modèle OSI).
+Elle insère et traite ces adresses au sein des trames transmises.
+Elle est parfois appelée adresse ethernet, UAA (), BIA (), MAC-48 ou EUI-48.
+L'IEEE a défini un format similaire à 64 bits appelé EUI-64.
+Utilisation
+Les adresses MAC, attribuées par l'IEEE, sont utilisées dans beaucoup de technologies réseau, parmi lesquelles :
+Structure
+Une adresse MAC-48 est constituée de () et est généralement représentée sous la forme hexadécimale en séparant les octets par un double point ou un tiret.
+Par exemple 5E:
+FF:56:A2:AF:15.
+Ces 48 bits sont répartis de la façon suivante :
+: indique si l'adresse est individuelle, auquel cas le bit sera à 0 (pour une machine unique, unicast) ou de groupe (multicast ou broadcast), en passant le bit à 1 ;
+* U/L
+: indique 0 si l'adresse est universelle (conforme au format de l'IEEE) ou locale, 1 pour une adresse administrée localement ;
+* réservés : tous les bits sont à zéro pour une adresse locale, sinon ils contiennent l'adresse du constructeur ;
+* : adresse unique .
+Les concepteurs d'Ethernet ayant utilisé un adressage de 48 bits, il existe potentiellement 2 (environ milliards) d'adresses MAC possibles.
+L'IEEE donne des préfixes de 24 bits (appelés
+- OUI)
+aux fabricants, ce qui offre 2 (environ 16 millions) d'adresses MAC disponibles par préfixe.
+Changement d'adresse
+MAC
+Certaines personnes souhaitent changer l'adresse de MAC (adresse physique) d'une carte réseau local parce qu'une application en demande une particulière pour fonctionner, ou aussi parfois parce qu'il y a un conflit avec une autre adresse MAC sur le même réseau, ou pour éviter d’être tracé.
+Avec certains OS, l'adresse matérielle MAC n'est pas utilisée directement, ce qui permet de la modifier au niveau logiciel et non physique, elle est alors modifiable par l'utilisateur.
+Son changement permet de réduire le risque de traçage inhérent à tout identifiant immuable.
+Mais cela peut poser d'autres problèmes par la suite, par exemple si l'accès à une connexion internet est filtré sur la base des adresses MAC.
+Le changement peut être temporaire avec une commande ou persistant en modifiant un fichier de configuration par exemple.
+Avec certains pilotes l'adresse
+MAC peut directement être modifiée dans les propriétés avancées de la carte réseau.
+À noter que certains logiciels tiers permettent également cette modification.
+Ordre de transmission
+En Ethernet, le bit le moins significatif de chaque octet est transmis en premier, c'est-à-dire que le bit I/G est le premier à être transmis.
+La convention de Token Ring est inverse, ce qui peut mener à des confusions ().
+EUI-64
+La structure de l'adresse EUI-64 est similaire à celle de EUI-48 (EUI acronyme de "Extended Unique Identifier" pour "identifiant unique étendu").
+La taille du champ OUI varie de 24 à 36 bits.
+Les valeurs FF:FF et FF:FE dans les octets 4 et 5 sont interdites.
+Les adresses EUI-64 sont utilisées notamment par FireWire, IPv6, ZigBee, 802.15.4, 6LoWPAN, LoRaWAN.
+Dans le cas d'IPv6, l'adresse EUI-64 est construite à partir de l'adresse MAC-48 en insérant FFFE dans les octets 4 et 5.
+L'adresse IPv6 utilise un format modifié dans lequel le bit U/L est inversé ().
+Adresses particulières

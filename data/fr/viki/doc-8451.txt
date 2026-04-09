@@ -1,0 +1,18 @@
+L'inégalité triangulaire est une inégalité qui porte sur la distance.
+Elle affirme que pour aller d'un point A à un point B, il est plus court d'aller tout droit en parcourant le segment [A, B] plutôt que de passer par un point intermédiaire C.
+Pour trois points du plan (ou plus généralement de l'espace), on a :
+La distance de A à B est la longueur du segment [
+A, B].
+Les trois points A, B, C sont les sommets d'un triangleABC.
+En géométrie analytique, on peut aussi écrire :
+AB≤AC+CB{\displaystyle AB\leq AC+CB}
+Sommaire
+Chercher les cas d'égalité dans une inégalité, c'est décrire exactement toutes les situations pour lesquelles l'égalité obtenue en remplaçant ≤ par = est vérifiée.
+Ici, les points A, B, C sont alignés si on a : d (A, B)
+= d (A, C) + d (C, B) .
+En valeur absolue, on a ∀(x,y)∈R2,|x+y|≤|x|+|y|{\displaystyle \forall (x,y)\in \mathbb {R} ^{2},|x+y|\leq |x|+|y|}.
+Dans le domaine des nombres complexes, du point de vue géométrique, les modules vérifient aussi l'inégalité triangulaire : ∀(x,y)∈C2,|x+y|≤|x|+|y|{\displaystyle \forall (x,y)\in \mathbb {C} ^{2},|x+y|\leq |x|+|y|}.
+Un espace vectoriel E muni d'un produit scalaire s'appelle un espace préhilbertien ou un espace euclidien.
+Dans cet espace, on lui associe une norme‖⋅‖{\displaystyle \|\cdot \|}. Alors,
+Dans un K{\displaystyle \mathbb {K} }-espace vectoriel qu'on appelle E non muni d'un produit scalaire, mais que cet espace est muni d'une norme, cette norme vérifie aussi l'inégalité triangulaire : ∀(x,y)∈E2,‖x+y‖≤‖x‖+‖y‖{\displaystyle \forall (x,y)\in \mathbb {E} ^{2},\|x+y\|\leq \|x\|+\|y\|}.
+Par cette définition, la valeur absolue est une norme sur R et le module est une norme sur C

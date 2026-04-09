@@ -1,0 +1,164 @@
+Mécanique
+classique|Energie
+cinétique|Énergie (
+physique)|Energie cinétique
+Lénergie cinétique est l’énergie que possède un corps du fait de son mouvement par rapport à un référentiel donné.
+Sa valeur dépend donc du choix de ce référentiel.
+Elle s'exprime en joules (J).
+Pour un point matériel, l'énergie cinétique est égale au travail des forces appliquées nécessaires pour faire passer le corps du repos à son mouvement (si le référentiel choisi n'est pas galiléen, il faut tenir compte du travail des forces d'inertie d'entrainement).
+Par suite, l'énergie cinétique n'est pas en général une intégrale première du mouvement, sauf si le travail des forces extérieures et intérieures (pour un système de points matériels) est nul au cours du mouvement.
+Un exemple classique de ce type de situation est le cas du mouvement d'une charge électrique dans un champ magnétique uniforme.
+Historique
+Gottfried Leibniz
+, s'opposant ainsi à Descartes qui estimait que la quantité de mouvement se conservait toujours, développa l'idée de la « force vive » (), à laquelle il attribuait la valeur mv^2.
+La force vive est donc le double de l'énergie cinétique.
+Notations
+L'énergie cinétique est généralement notée dans les textes en français (« E » pour énergie, « c » pour cinétique).
+Dans les textes en anglais on trouve ou , « k » étant l'initiale de kinetics (le mot anglais qui correspond à cinétique).
+Définitions
+Dans les cas non relativistes (c'est-à-dire lorsque les vitesses sont petites comparées à la vitesse de la lumière dans le vide), l'énergie cinétique E_c (en J) d'un point matériel de masse m (en kg) se déplaçant à une vitesse v (en m/s) dans un référentiel donné s'exprime ainsi :
+: E_c = \frac\, m\, v^2
+Cas d'un point matériel
+Dans le domaine de validité de la mécanique newtonienne, la notion d'énergie cinétique peut être facilement mise en évidence pour un point matériel, corps considéré comme ponctuel de masse m constante.
+En effet, la relation fondamentale de la dynamique s'écrit dans ce cas :
+m\frac
+\sum \vec
+avec :
+* \sum \vec somme des forces appliquées au point matériel de masse
+m (y compris les « forces d'inertie »
+dans le cas d'un référentiel non galiléen)
+En prenant le produit scalaire, membre à membre, par la vitesse \vec du corps, il vient :
+m\left (\frac\right )\cdot \vec=\left (\sum \vec\right ) \cdot \vec
+or :
+\left (\frac\right )\cdot \vec=\frac\left ( \fracv^\right )
+il vient ainsi :
+: \frac\left ( \fracmv^\right )=\sum \left (\vec\cdot \vec\right ).
+On met en évidence dans le membre de gauche la quantité E_\equiv \fracmv^ appelée énergie cinétique du point matériel, dont la dérivée par rapport au temps est égale à la somme des puissances \vec\cdot \vec des forces appliquées au corps (théorème de l'énergie cinétique, forme « instantanée »).
+On peut obtenir une expression plus générale en considérant que l'on a donc \int \mathrm\left (\fracmv^\right )
+\int m\vec\cdot \mathrm\vec, puisque d (v^)
+2\vec\cdot \mathrm\vec.
+En introduisant la variation infinitésimale de la quantité de mouvement du corps, \mathrm\vec\equiv m\mathrm\vec, il vient finalement l'expression :
+: \Delta E_c = \int \vec \cdot \mathrm\vec
+où \Delta E_c désigne la variation d'énergie cinétique.
+Cas d'un système de points
+Dans le cas d'un corps que l'on ne peut considérer ponctuel, il est possible de l'assimiler à un système (d'une infinité) de points matériels M_i de masses m_i avec M=\sum_ m_\qquad masse totale du corps.
+L'énergie cinétique E_ du système de points peut être alors simplement définie comme la somme des énergies cinétiques associées aux points matériels constituant le système :
+\sum_ E_
+\sum_ \fracm_v_^ (1)
+Cette expression est générale et ne préjuge pas de la nature du système, déformable ou pas.
+Remarque : en considérant la limite des milieux continus on a E_=\int_ \frac\rho (M)v_^\,\mathrm\tau\ , M étant un point courant du système (S).
+Unité
+L'unité légale est le joule.
+Les calculs s'effectuent avec les masses en kg et les vitesses en mètres par seconde.
+Théorème de König
+L'expression (1) n'est guère utilisable directement, bien que générale.
+Il est possible de la réécrire sous une autre forme, dont l'interprétation physique est plus aisée.
+Énoncé
+Ce théorème se démontre en faisant intervenir le référentiel barycentrique (R*) lié au centre d'inertie G du système, et en mouvement de translation par rapport au référentiel d'étude (R).
+Il s'écrit :
+E_=\fracMv_^+E_^
+L'énergie cinétique d'un système est alors la somme de deux termes : l'énergie cinétique du centre de masse de (S) affectée de sa masse totale M, \fracMv_^, et l'énergie cinétique propre du système
+dans (R
+Application à un solide
+Un solide est un système de points tels que les distances entre deux points quelconques de (S) sont constantes.
+Il s'agit d'une idéalisation d'un solide réel, considéré comme absolument rigide.
+Cas général : axe instantané de rotation
+Dans ce cas, le mouvement du solide peut être décomposé en un mouvement de son centre de masse G dans (R) et un mouvement de rotation autour d'un axe instantané (Δ) dans le référentiel barycentrique (R
+Plus précisément, pour un solide on peut écrire le champ des vitesses dans le référentiel barycentrique (R*) sous la forme \vec=\vec\times \vec, \vec étant le vecteur rotation instantané du solide dans (R*) ou (R), puisque les deux référentiels sont en translation.
+Son énergie cinétique propre E_^ s'exprime alors :
+E_^
+\frac\sum_ m_\vec\cdot \left (\vec\times \vec\right )
+\frac\vec\cdot \left (\sum_\vec\times m_\vec\right )
+=\frac\vec\cdot
+\vec,
+puisque
+\vec
+\vec
+\sum_ \vec\times m_\vec, moment cinétique du solide par rapport à G, égal au moment cinétique propre \vec (voir théorèmes de König).
+D'après le théorème de König, l’énergie cinétique totale d’un solide s'écrit donc ainsi :
+E_=\fracMv_^+\frac\vec\cdot
+\vec
+que l'on peut considérer comme la somme d’une énergie cinétique « de translation » et d’une énergie cinétique de rotationE_\equiv \frac\vec\cdot \vec, aussi appelée énergie cinétique angulaire.
+Cas de la rotation autour d'un axe fixe
+Si, de surcroît, il y a rotation autour d'un axe (Δ) fixe dans (R), le moment cinétique par rapport à G du solide s'écrit \vec=I_\vec, où I_ est le moment d'inertie du solide par rapport à l'axe de rotation (Δ).
+Son énergie cinétique de rotation se mettra ainsi sous la forme :
+: E_r = \begin \frac \end I_ \cdot\omega^2 .
+En mécanique relativiste
+Dans la théorie de la relativité d’Einstein (utilisée principalement pour les vitesses proches de la vitesse de la lumière, mais valable pour toutes vitesses), l’énergie cinétique est :
+E_k
+m c^2 (
+\gamma
+- 1)
+\gamma
+m c^2
+- m c^2
+Avec :
+E_k
+\gamma
+m c^2
+- m c^2
+\left ( \frac
+- 1 \right ) m c^2
+* Ek
+: l’énergie cinétique du corps (dans le référentiel considéré) ;
+* v : la vitesse du corps (dans le référentiel considéré) ;
+* c : la vitesse de la lumière dans le vide (dans tout référentiel inertiel)
+* γmc2 : l’énergie totale du corps (dans le référentiel considéré) ;
+* mc : l’énergie au repos (90 pétajoules par kilogramme).
+La théorie de la relativité affirme que l’énergie cinétique d’un objet (ayant une masse « au repos» non nulle) tend vers l’infini quand sa vitesse s’approche de la vitesse de la lumière et que, par conséquent, il est impossible d’accélérer un objet jusqu’à cette vitesse.
+Pour une vitesse v petite devant c (v \ll c), le développement limité de l’énergie cinétique relativiste est :
+E_k \approx \frac m v^2 + \frac\frac + \frac\frac + \dots
+On retrouve ainsi au premier ordre l'énergie cinétique newtonienne.
+Par exemple, pour un objet d'un kilogramme allant à la vitesse de , la différence entre énergie cinétique relativiste et énergie cinétique newtonienne est d'environ 0,04 J pour une énergie cinétique newtonienne de 50 MJ, soit un écart relatif de 0,8 milliardième.
+Cette différence est de 400 J sur 5 GJ
+à , soit un écart relatif de 80 milliardièmes
+Quand la gravité est faible et que l’objet se déplace à des vitesses très inférieures à la vitesse de la lumière , la formule de la mécanique newtonienne est une excellente approximation de l’énergie cinétique relativiste.
+Théorème de l’énergie cinétique
+Ce théorème, valable uniquement dans le cadre de la mécanique newtonienne, permet de lier l’énergie cinétique d’un système au travail des forces auxquelles celui-ci est soumis.
+Énoncé
+Dans un référentiel galiléen, pour un corps de masse m constante parcourant un chemin reliant un point A à un point B, la variation d’énergie cinétique est égale à la somme des travaux
+W des forces (extérieures et intérieures) qui s’exercent sur le corps considéré :
+\Delta E_
+E_-E_
+\sum
+où :
+* EcA et EcB sont respectivement l’énergie cinétique du solide aux points A et B.
+Démonstration
+D’après la de Newton, l’accélération du centre de gravité est liée aux forces qui s’exercent sur le solide par la relation suivante :
+m\,\vec=\vec
+Pendant une durée dt, le solide se déplace de \mathrm\vec=\vec\, \mathrmt où \vec est la vitesse du solide.
+On en déduit le travail élémentaire des forces :
+\delta
+\vec\cdot\mathrm\vec
+m\,\vec\cdot\mathrm\vec
+m\,\frac\cdot\vec\
+, \mathrmt
+m\,\vec\cdot\mathrm\vec
+Si le solide parcourt un chemin d’un point A à un point B, alors le travail total s’obtient en faisant une intégrale le long du chemin :
+\int_A^\vec\cdot\mathrm\vec
+\int_^m\,\vec\cdot\mathrm\vec
+\vec\cdot\vec étant une différentielle exacte, l’intégrale ne dépend pas du chemin suivi entre A et B et peut donc être obtenue explicitement :
+m\,\int_^\vec\cdot\mathrm\vec
+m\,\left (\int_^v_x\, \mathrmv_x+\int_^v_y\, \mathrmv_y+\int_^v_z\, \mathrmv_z\right )
+=m\,\left (\left \frac \right_^+\left \frac \right_^+\left \frac \right_^\right )
+m\,\left (\frac+\frac+\frac\right )
+\fracm\,\left\left (v_^2+v_^2+v_^2\right )
+- \left (v_^2+v_^2+v_^2\right )\right
+\fracm\,\left (\left\|\vec\right\|^2 - \left\|\vec\right\|^2\right )
+\fracm\,\left ( v_B^2-v_A^2 \right )
+\fracm\, v_B^2
+- \fracm\, v_A^2
+E_-E_
+Théorème de la puissance cinétique
+Dans un référentiel galiléen, la puissance des forces s'appliquant au point M est égale à la dérivée par rapport au temps de l'énergie cinétique.
+:P = \frac\,
+On peut également appliquer cette définition à un unique solide si l'on considère uniquement la puissance des forces extérieures au solide.
+L’énergie thermique en tant qu’énergie cinétique
+L’énergie thermique est une forme d’énergie due à l’énergie cinétique totale des molécules et des atomes qui forment la matière.
+La relation entre la chaleur, la température et l’énergie cinétique des atomes et des molécules est l’objet de la mécanique statistique et de la thermodynamique.
+De nature quantique, l’énergie thermique se transforme en énergie électromagnétique par rayonnement.
+Ce rayonnement thermique peut être approché sous certaines conditions par le modèle du rayonnement dit du "corps noir".
+La chaleur, qui représente un échange d’énergie thermique, est aussi analogue à un travail dans le sens où elle représente une variation de l’énergie interne du système.
+L’énergie représentée par la chaleur fait directement référence à l’énergie associée à l’agitation moléculaire.
+La conservation de la chaleur et de l’énergie mécanique est l’objet
+du premier principe de la thermodynamique

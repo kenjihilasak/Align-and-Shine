@@ -1,0 +1,241 @@
+La elipse es una curva plana, simple y cerrada.
+Una elipse es la curva cerrada con dos ejes de simetría que resulta al cortar la superficie de un cono por un plano oblicuo al eje de simetría -con ángulo mayor que el de la generatriz respecto del eje de revolución.
+Una elipse que gira alrededor de su eje menor genera un esferoide achatado, mientras que una elipse que gira alrededor de su eje principal genera un esferoide alargado.
+La elipse es también la imagen afín de una circunferencia.
+Historia
+La elipse, como curva geométrica, fue estudiada por Menecmo, investigada por Euclides, y su nombre se atribuye a Apolonio de Pérgamo.
+El foco y la directriz de la sección cónica de una elipse fueron estudiadas por Pappus.
+En 1602, Kepler creía que la órbita de Marte era ovalada, aunque más tarde descubrió que se trataba de una elipse con el Sol en un foco.
+De hecho, Kepler introdujo la palabra «focus» y publicó su descubrimiento en 1609.
+Halley, en 1705, demostró que el cometa que ahora lleva su nombre trazaba una órbita elíptica alrededor del Sol.
+Elementos de una elipse
+La elipse es una curva plana y cerrada, simétrica respecto a dos ejes perpendiculares entre sí:
+*El semieje mayor (el segmento C-a de la figura),
+Miden la mitad del eje mayor y menor respectivamente.
+Puntos de una elipse
+Los focos de la elipse son dos puntos equidistantes del centro, F1 y F2 en el eje mayor.
+La suma de las distancias desde cualquier punto P de la elipse a los dos focos es constante, e igual a la longitud del diámetro mayor (d (P,F1)+d (P,F2)=2a).
+Por comodidad denotaremos por PQ la distancia entre dos puntos P y Q.
+Si F1 y F2 son dos puntos de un plano, y 2a es una constante mayor que la distancia F1F2, un punto P pertenecerá a la elipse si se cumple la relación:
+:P F_1 + P F_2 = 2a \,
+donde a \, es la medida del semieje mayor de la elipse.
+Ejes de una elipse
+El eje mayor, 2a, es la mayor distancia entre dos puntos opuestos de la elipse.
+El resultado de la suma de las distancias de cualquier punto a los focos es constante y equivale al eje mayor.
+El eje menor 2b, es la menor distancia entre dos puntos opuestos de la elipse.
+Los ejes de la elipse son perpendiculares entre sí.
+Excentricidad de una elipse
+La excentricidad ε (épsilon) de una elipse es la razón entre su semidistancia focal , denominada por la letra c, y su semieje mayor.
+Su valor se encuentra entre cero y uno.
+:\varepsilon=\frac , con (0\le\varepsilon\le1)
+Dado que c = \sqrt , también vale la relación:
+:\varepsilon=\sqrt
+=\sqrt
+o el sistema
+La excentricidad indica la forma de una elipse; una elipse será más redondeada cuanto más se aproxime su excentricidad al valor cero.
+La designación tradicional de la excentricidad es la letra griega ε llamada épsilon.
+(No se debe usar la letra e para designarla, porque se reserva para la base de los logaritmos naturales o neperianos.
+Véase: número e).
+Excentricidad angular de una elipse
+La excentricidad angular \alpha es el ángulo para el cual el valor de la función trigonométrica seno concuerda con la excentricidad \varepsilon, esto es:
+:\alpha
+\sin^ (\varepsilon)
+\cos^\left (\frac\right)=2\tan^\left (\sqrt\right);\,\!
+Constante de la elipse
+En la figura de la derecha se muestran los dos radio vectores correspondientes a cada punto P de una elipse, los vectores que van de los focos F1 y F2 a P. Las longitudes de los segmentos correspondientes a cada uno son PF1 (color azul) y PF2 (color rojo), y en la animación se ilustra como varían para diversos puntos P de la elipse.
+Como establece la definición inicial de la elipse como lugar geométrico, para todos los puntos P de la elipse la suma de las longitudes de sus dos radio vectores es una cantidad constante igual a la longitud 2a del eje mayor:
+:PF1 + PF2 = 2a
+En la elipse de la imagen 2a vale 10 y se ilustra, para un conjunto selecto de puntos, cómo se cumple la definición.
+Directrices de la elipse
+Cada foco F de la elipse está asociado con una recta paralela al semieje menor llamada directriz (ver ilustración de la derecha).
+La distancia de cualquier punto P de la elipse hasta el foco F es una fracción constante de la distancia perpendicular de ese punto P a la directriz que resulta en la igualdad:
+La relación entre estas dos distancias es la excentricidad \varepsilon de la elipse.
+Esta propiedad (que puede ser probada con la herramienta esferas de Dandelin) puede ser tomada como otra definición alternativa de la elipse.
+Además de la bien conocida relación \varepsilon
+\frac, también es cierto que \varepsilon
+\frac , también es útil la fórmula d=\frac .
+Aunque en la figura solo se dibujó la directriz del foco derecho, existe otra directriz para el foco izquierdo cuya distancia del centro O es -d, la cual además es paralela a la directriz anterior.
+Ver más adelante cómo se dibuja la directriz.
+Elementos gráficos de la elipse
+Nomenclatura
+La descripción corresponde a las imágenes de la derecha.
+*Los diámetros principales o ejes principales son los diámetros máximo y mínimo de la elipse, perpendiculares entre sí y que pasan por el centro.
+Tradicionalmente son nombrados A-B el mayor y D-C el menor, aunque también se utilizan otras nomenclaturas, como A-A' el mayor y B-B' el menor.
+*El centro de la elipse se suele nombrar O (origen).
+En la circunferencia los focos coinciden con el centro.
+*Los focos se suelen nombrar con la letra F acompañada de algún medio de diferenciarlos, F1 - F2, o F' - F" .
+*El diámetro mayor de la elipse se suele designar 2a, siendo a el semieje mayor.
+El semieje menor se denomina b y el diámetro menor 2b.
+La distancia de cada foco al centro se denomina c.
+*Los segmentos que van de cada foco a un punto de la elipse se denominan radios vectores; la suma de los radios vectores de cada punto es una constante igual a 2a.
+En la imagen de la derecha vemos algunas otras líneas y puntos importantes de la elipse.
+*La circunferencia principal (c. p., en verde) tiene como centro el de la elipse, y como radio a. Se puede definir como el lugar geométrico de todos los pies de las tangentes a la elipse (como se ve en el ejemplo).
+*Las circunferencias focales (c. f., en verde también) son las que tienen como centro cada foco y como radio 2a.
+Las circunferencias focales y la principal cumplen una homotecia de razón = 2 y centro en cada foco (el de la circunferencia focal contraria).
+*La recta t en color cian es una tangente por un punto cualquiera.
+Al punto de tangencia se lo suele nombrar T, T1, T2, etc.
+Los segmentos perpendiculares a las tangentes que pasan por los focos, aquí en rojo, se suelen prolongar hasta la circunferencia focal del foco opuesto.
+No coinciden con la normal a la tangente salvo en los extremos de los ejes principales.
+*Los puntos donde se cruzan las normales con sus tangentes son los pies de la tangente.
+Ese punto pertenece siempre a la circunferencia principal.
+Al doble de la distancia de F al pie se encuentra el corte de la normal con la circunferencia focal del foco opuesto.
+Diámetros conjugados
+Se denominan diámetros conjugados a cada par de diámetros de la elipse que cumple que uno de ellos pasa por el centro de todas las cuerdas paralelas al otro (ver debajo el dibujo de la izquierda).
+Otra definición es que son conjugados los diámetros cuyos afines en una circunferencia afín a la elipse son perpendiculares (dibujo de la derecha).
+Los diámetros principales serían también diámetros conjugados.
+Existen varios métodos para hallar los diámetros principales a partir de los conjugados.
+Rectas directrices
+La definición de las rectas directrices está en una sección anterior (véase), y también la definición de la elipse a partir de ellas.
+Es una expresión de la excentricidad de la elipse.
+El modo de hallarlas gráficamente se muestra en la imagen de la derecha.
+Trazamos una perpendicular al diámetro mayor por un foco hasta la circunferencia principal, dibujamos por el punto de corte una tangente a dicha circunferencia; en el lugar donde esa tangente encuentra la prolongación del diámetro mayor está la directriz, que es perpendicular al diámetro mayor.
+Dibujo de la elipse
+Elipse “del jardinero”
+El método se basa en la definición más corriente de la elipse, como lugar geométrico de los puntos cuya suma de distancias a los focos es constante.
+Los clavos o las chinchetas se colocan en el lugar de los focos, y la cuerda debe medir lo mismo que el eje mayor (2a).
+En el ejemplo de la foto al lazo de cuerda se le debe añadir la distancia de los focos.
+Con la cuerda tensa se mueve el lápiz o material de dibujo rodeando por completo los dos focos.
+Se denomina “del jardinero” a este método porque sirve para trazar en el suelo elipses de gran tamaño y precisión suficiente, con medios modestos.
+Ver en la sección siguiente el modo de determinar los focos a partir de los ejes.
+Modo de determinar los focos
+El modo de determinar los focos a partir de los ejes, o un eje a partir de otro y los focos, se basa en la definición.
+Dibujados los dos ejes principales, se toma con el compás la medida a de la mitad del eje mayor.
+Haciendo centro en un extremo del eje menor, el compás cruza por el eje mayor en los focos.
+Dado el eje mayor con los focos, la medida a aplicada a cada foco nos da arcos que se cruzan en los extremos del eje menor.
+Dado un eje menor y la distancia de los focos, primero debemos hallar la recta sobre la que está el eje mayor, luego dibujar los focos a la distancia dada, y desde ellos tomar la distancia a los extremos del eje menor, que es la mitad del eje mayor.
+Método de radios vectores
+También denominado "por puntos"; con este método dibujamos un número suficiente de puntos mediante el compás.
+Como en el método tradicional visto antes usamos los radios vectores y la propiedad de que la suma de los radios vectores de un punto es igual a la medida del eje mayor.
+Dados dos ejes principales y determinados los focos, se toman puntos al azar sobre el eje mayor entre el centro O y uno de los focos.
+Generalmente tres o cuatro, y preferiblemente cerca del foco por comodidad del dibujo.
+Tomamos con el compás la distancia de un extremo del eje mayor (A) a cada uno de los puntos del eje (1).
+Haciendo centro en cada foco trazamos arcos con esa medida.
+A continuación tomamos el resto de la medida del eje mayor, desde el punto (1) al otro extremo (B), y con esa medida, haciendo centro de nuevo en los focos, cruzamos los arcos trazados antes.
+Las cruces nos dan puntos que pertenecen a la elipse.
+Repitiendo la operación tantas veces como sea necesario obtenemos puntos de la elipse.
+Se completa el dibujo a mano o mediante plantillas de curvas.
+Método de la tarjeta, compás de Arquímedes
+Se puede dibujar la elipse mediante una regla de medir, un juego de escuadra y cartabón y un lápiz.
+Dibujamos los ejes principales con sus medidas, y determinamos los focos.
+Tomamos con la regla graduada, desde el 0, la distancia del centro al extremo del eje mayor, y después desde la marca del extremo del eje mayor, restamos la mitad del eje menor (ver dibujo).
+Apoyando el 0 de la regla en cualquier punto del eje menor y la diferencia calculada en el eje mayor, marcamos la medida del eje mayor.
+Para más claridad véase el dibujo.
+Esta misma operación se puede hacer con una tarjeta, y de ahí su nombre tradicional, haciendo marcas en el borde con las medidas dadas.
+Para construirla con reglas y compás marcamos puntos arbitrarios en el eje menor
+Tomando con el compás la medida de la mitad de la diferencia entre el eje mayor y el menor, hacemos centro en los puntos y señalamos puntos correspondientes en el eje mayor, a ambos lados.
+Dibujamos rectas desde los puntos del eje menor a sus correspondientes del eje mayor, prolongándolas.
+Sobre esas rectas, con el compás y desde cada punto del eje mayor, tomamos la medida de la mitad del eje menor, marcándola sobre la línea, lo que nos da los puntos de la elipse.
+Existe una máquina sencilla (un elipsógrafo) hecha a base de guías o raíles y barras y llamada compás de Arquímedes, que se basa en este principio.
+Construcción por afinidad
+Partimos de las rectas de los ejes principales.
+Se dibujan dos circunferencias concéntricas cuyos diámetros sean los de la elipse.
+Para hallar un punto trazamos un radio cualquiera de la circunferencia mayor fuera de los ejes.
+Desde el extremo del radio trazamos una recta auxiliar, paralela al eje menor, hacia dentro de la circunferencia.
+Desde el punto donde el radio corta la circunferencia menor trazamos una recta auxiliar paralela al eje mayor, que cruce la línea auxiliar que acabamos de hacer.
+El punto donde se cortan las dos auxiliares pertenece a la elipse.
+Repitiendo la operación se obtienen todos los puntos que sean necesarios; la elipse se completa a mano o con plantillas.
+Normalmente por comodidad el dibujo se sistematiza; en lugar de los radios dibujamos diámetros completos, los trazos auxiliares verticales y horizontales se hacen de una vez mediante paralelas a los ejes.
+En este método se puede considerar una de las circunferencias como una doble transformación afín de la otra, y los puntos unidos por el mismo radio serían entonces afines.
+Una de las líneas auxiliares es la recta de afinidad de dos puntos (uno en la circunferencia, otro en la elipse), mientras la otra línea auxiliar da la reducción que corresponde
+También se puede considerar la relación de las dos circunferencias una homología en la que el centro de homología coincide con el centro de una circunferencia, mientras su homóloga pertenece a un plano paralelo y también es concéntrica; estas homologías con rectas límite impropias son homotecias.
+Por afinidad, a partir de conjugados
+A partir de dos diámetros conjugados (A-B y C-D) se puede realizar la siguiente construcción, en la que hacemos afines los extremos del diámetro conjugado menor (C y C', la línea de afinidad en azul) con el de una circunferencia auxiliar de diámetro igual al mayor y perpendicular a él (en rojo), mientras el diámetro mayor es el eje de afinidad.
+Cada punto de la circunferencia es afín a otro de la elipse.
+Por afinidad, dentro de un paralelogramo
+Una construcción corriente para dibujar una elipse o un arco de elipse en un paralelogramo es hacerlo afín a otro ortogonal en el que podamos trazar un arco de circunferencia o una circunferencia completa.
+Esto es útil en particular para elipses proyectadas en axonométrica u otra proyección cilíndrica.
+Como se ve en el dibujo hacemos que dos puntos sean afines, así como dos rectas que se corten en otra que hará de eje de afinidad.
+El resto consiste en ir trasportando puntos y rectas mediante otras rectas afines conocidas, normalmente los lados de los paralelogramos o sus diagonales (véase el dibujo).
+En el cubo de la derecha se aprecia el principio que se aplica.
+Es importante señalar que en axonométrica este "truco" no equivale en general a un abatimiento.
+Por haces proyectivos
+Construcción por haces proyectivos, o del paralelogramo.
+En la variante tradicional ponemos tantos puntos en el eje menor como en los lados del rectángulo paralelos al eje menor; unimos estos desde los extremos del eje menor (C y D).
+Luego pasamos rectas desde esos extremos hasta los puntos del eje mayor, hasta cortar la recta correspondiente.
+Los puntos de cruce pertenecen a la elipse.
+En la segunda imagen vemos el mismo procedimiento aplicado a dos diámetros conjugados; el rectángulo se hace romboide, pero sigue funcionando la construcción como una proyección afín de la otra.
+En otra variante (ver imagen animada) dibujamos puntos a distancias iguales, proporcionales lado a lado, en un rectángulo exterior tangente a la elipse, que tiene los lados paralelos al eje menor de doble tamaño.
+Vamos uniendo en orden cada punto correspondiente como se ve en la imagen, desde los extremos el eje mayor.
+Los puntos que se cortan de las rectas correspondientes pertenecen a la elipse.
+Existen métodos semejantes para trazar la parábola y la hipérbola.
+La elipse como hipotrocoide
+La elipse es un caso particular de hipotrocoide, donde R = 2r, siendo R el radio de la circunferencia directriz, y r el radio de la circunferencia generatriz.
+En una curva hipotrocoide, la circunferencia que contiene al punto generatriz, gira tangencialmente por el interior de la circunferencia directriz.
+Anamorfosis de una circunferencia en una elipse
+Determinada trasformación del plano , se denomina anamorfosis.
+El término anamorfosis proviene del idioma griego y significa trasformar.
+Al transformar una circunferencia o una elipse mediante una afinidad o una homología el resultado es otra elipse (o una circunferencia como caso especial de elipse).
+En el caso de la circunferencia, si el plano cartesiano se divide en una red de cuadrados, cuando dicho plano se «deforma» en sentido del eje X, el Y, o ambos, la circunferencia se transforma en una elipse y los cuadrados en rectángulos.
+Este procedimiento era muy utilizado para realizar perspectivas ilusionistas, anamórficas, llamadas trampantojos.
+Ecuaciones de la elipse
+En coordenadas cartesianas
+Forma cartesiana centrada en el origen
+La ecuación de una elipse en coordenadas cartesianas, con centro en el origen, es:
+donde a > 0 y b > 0 son los semiejes de la elipse, donde si a corresponde al eje de las abscisas y b al eje de las ordenadas la elipse es horizontal, si es al revés, entonces es vertical.
+El origen O es la mitad del segmento FF'.
+La distancia entre los focos FF' se llama distancia focal y vale 2c = 2εa, siendo ε la excentricidad y a el semieje mayor.
+Forma cartesiana centrada fuera del origen
+Si el centro de la elipse se encuentra en el punto (h,k), la ecuación es:
+En coordenadas
+polares
+Forma polar centrada en origen
+En coordenadas polares, con origen en su centro, la ecuación de la elipse es:
+Una ecuación más elegante que la anterior (pero que obliga a pre-calcular la excentricidad \scriptstyle \varepsilon \to \sqrt ), es:
+Para ambas ecuaciones a es el semieje mayor, b es el semieje menor de la elipse, θ es el ángulo polar y para la ε es la excentricidad.
+Si no se quiere pre-calcular la excentricidad \scriptstyle \varepsilon \to \sqrt convendrá utilizar la ecuación , en caso contrario utilizar la ecuación .
+Formas polares centradas en un foco
+En coordenadas polares, con el origen en el foco F2, la ecuación de la elipse es:
+Para el foco F1:
+En el caso un poco más general de una elipse con el foco F2 en el origen y el otro foco en la coordenada angular \varphi, la forma polar es:
+El ángulo \theta de las ecuaciones , y es la llamada anomalía verdadera del punto y el numerador de las mismas a (1-\varepsilon^) es el llamado semi-latus rectum de la elipse, normalmente denotado l. El semi-latus rectum es la distancia entre un foco y la misma elipse sobre una línea perpendicular al semieje mayor que pasa por el foco.
+Formas paramétricas
+La ecuación paramétrica de una elipse con centro en (h,k) y siendo a el semieje mayor y b el menor, es:
+con \alpha\in 0,2\pi)\ .\ \alpha no es el ángulo θ del sistema de coordenadas polares con origen en el centro de la elipse, sino la anomalía excéntrica de la elipse.
+La relación entre \alpha y θ es
+::\operatorname \theta = \ \operatorname \alpha.
+La ecuación paramétrica de una elipse con centro en (h,k) en la que el parámetro \theta sea concordante con el ángulo polar respecto al centro desplazado (h,k) es:
+con \theta\in 0,2\pi)
+El parámetro \theta es el ángulo de un sistema polar cuyo origen está centrado en (h,k).
+Curvatura de una elipse
+parametrizada por y su radio de curvatura es R = \frac
+Radio de curvatura
+Sea el punto M (x_0, y_0) entonces el radio de curvatura
+Área de la región con frontera: una elipse
+Sea la región
+En este caso elárea de región es:
+Siendo a y b los semiejes.
+Perímetro de una elipse
+El cálculo del perímetro de una elipse requiere del cálculo de integrales elípticas de segunda especie.
+Sin embargo, el matemático Ramanujan dio una expresión sencilla que se aproxima razonablemente a la longitud de la elipse, pero en grado menor que la obtenida mediante integrales elípticas.
+Ramanujan, en su fórmula, utiliza el “semieje mayor” (a) y el “semieje menor” (b) de la elipse.
+Expresión aproximada del perímetro de una elipse:
+:P \approx \pi \left3 (a+b) - \sqrt\right\!\,
+La elipse como cónica
+La elipse es la intersección de una superficie cónica con un plano, de tal manera que la inclinación del plano no supere la inclinación de la recta generatriz del cono, consiguiendo así que la intersección sea una curva simple cerrada.
+En otro caso la intersección pudiera ser un círculo, una hipérbola o una parábola.
+Es por ello que a todas estas figuras bidimensionales o curvas planas se las llama secciones cónicas o simplemente cónicas.
+Elipses semejantes
+Se dice que dos figuras son semejantes cuando se diferencian sólo en el tamaño (pero no en la forma), de tal manera que multiplicando todas las longitudes por un factor dado, se pasa de una figura a la otra.
+Hay un teorema de utilidad en Física acerca de la intersección de una recta con dos elipses semejantes y concéntricas.
+Explicación: El teorema es cierto, por simetría, en el caso particular en que las elipses dadas sean dos circunferencias concéntricas.
+Contrayendo o dilatando uniformemente una de las direcciones coordenadas, mediante anamorfosis, podemos transformar cualquier caso en este caso particular, pues todos los segmentos con la misma pendiente cambian su longitud en la misma proporción.
+Por tanto, puesto que al final del proceso los dos segmentos de la recta tienen la misma longitud, la tenían ya al principio.
+No deben confundirse las elipses semejantes con las elipses cofocales.
+La elipse en mecánica celeste
+En mecánica celeste clásica, dos masas puntuales sometidas exclusivamente a interacción gravitatoria describen una órbita elíptica (o circular) la una en torno a la otra cuando la órbita es cerrada.
+Un observador situado en cualquiera de las masas verá que la otra describe una elipse uno de cuyos focos (o centro) está ocupado por el propio observador.
+La excentricidad y otros parámetros de la trayectoria dependen, para dos masas dadas, de las posiciones y velocidades relativas.
+Los planetas y el Sol satisfacen la condición de masas puntuales con gran precisión porque sus dimensiones son mucho más pequeñas que las distancias entre ellos.
+La cinemática de la órbita se rige por las leyes de Kepler.
+En la figura pueden verse dos intervalos de tiempo distintos de una órbita elíptica que cumplen la segunda ley de Kepler: "en tiempos iguales una masa en órbita barre con su radio vector áreas iguales".
+Cuando el "planeta" está más cerca de la "estrella" va más rápido y cuando está lejos va más despacio, pero de tal manera que su velocidad areolar es la misma en ambos casos.
+Esto significa que las áreas de los sectores elípticos amarillos son iguales y sus arcos t0 t1 se han recorrido en intervalos de tiempo iguales, Δt = t1 - t0.
+La "estrella" está situada en P, uno de los focos de la elipse.
+La elipse en la vida cotidiana
+La elipse es un lugar geométrico que se puede observar constantemente en la vida cotidiana, como en las obras de arte.
+Referente al arte se puede observar en las cúpulas y en los portales.
+En la vida cotidiana se puede observar en los vasos de agua cuando los inclinamos para beber que se forma una elipse.
+En las estaciones de metro alguna vez te habrás preguntado por qué se oye la conversación de algunas personas que están en el otro andén como si estuviesen al lado tuyo, eso es por el efecto de la elipse y significa que las personas integrantes de esa conversación estáis cerca de los focos de la elipse.
+Esto ocurre porque las palabras se transmiten por al aire mediante ondas y llegan a algún lugar.
+Hay una propiedad de la elipse que dice que una línea secante a una elipse rebota en uno de los puntos de corte conte ella y pasa por uno de sus dos focos y eso es lo que pasa en las estaciones de metro ya que tienen forma de elipse.
+Véase también

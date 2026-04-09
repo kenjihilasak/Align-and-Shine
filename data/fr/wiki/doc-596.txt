@@ -1,0 +1,100 @@
+Géométrie du triangle|Rectangle|Orthogonalité|Mathématiques élémentaires
+En géométrie euclidienne, un triangle rectangle est un triangle dont l'un des angles est droit.
+Les deux autres angles sont alors complémentaires, de mesure strictement inférieure.
+On nomme alors hypoténuse le côté opposé à l'angle droit.
+Les deux autres côtés, adjacents à l’angle droit, sont appelés cathètes.
+L’hypoténuse est alors le plus grand côté du triangle, et sa longueur est reliée à celles des deux autres côtés par le théorème de Pythagore.
+Cette relation est même caractéristique des triangles rectangles.
+Dans le cas des triangles à côtés entiers, elle mène à la définition des triplets pythagoriciens.
+Propriétés caractéristiques
+Théorème de Pythagore
+Le théorème de Pythagore précise que dans un triangle rectangle, le carré de la longueur de l'hypoténuse est égal à la somme des carrés des deux autres longueurs des côtés de l’angle droit, autrement dit, si un triangle ABC est rectangle en C, alors AB^2 = CA^2 + CB^2.
+Réciproquement, tout triangle ABC vérifiant l'égalité précédente est un triangle rectangle en C.
+Aire
+Comme un triangle rectangle peut se réaliser comme la moitié d’un rectangle engendré par les deux cathètes, l’aire d’un triangle rectangle est égale à la moitié du produit des longueurs de ces deux côtés.
+Récriproquement, si l’aire d’un triangle est le produit des longueurs de deux côtés, alors ce triangle est rectangle au sommet commun à ces côtés.
+Cercle circonscrit
+Si un triangle est rectangle, alors le milieu de l’hypoténuse est à égale distance des trois sommets, c’est-à-dire qu’il est le centre du cercle circonscrit, ou encore que la médiane issue de l’angle droit a pour longueur la moitié de l’hypoténuse.
+Réciproquement, tout point d’un cercle forme un triangle rectangle avec les extrémités d’un diamètre de ce cercle.
+Cette équivalence peut être vue comme un cas particulier théorème de l'angle au centre : l’angle inscrit est droit si et seulement si l’angle au centre est plat.
+Hauteurs
+La hauteur issue de l'angle droit d'un triangle rectangle possède des propriétés caractéristiques dont l'une apparaît dans les premières pages du livre de René Descartes, La géométrie.
+Dans tout triangle ABC dont H est le pied de la hauteur issue de C.
+* Réciproquement
+, un triangle dans lequel l'une de ces quatre propriétés est réalisée est rectangle en C.
+Les trois premières propriétés se déduisent de l'observation des trois triangles semblables ABC, CBH et ACH.
+La quatrième consiste à écrire l'aire du triangle rectangle en considérant successivement BC et BA comme base.
+Les réciproques utilisent les mêmes outils : les premières égalités traduisent des égalités de rapports et la présence d'un angle droit ou d'un angle en commun confirment la présence de triangle semblables.
+donc certains sont rectangles.
+L'orthocentre d'un triangle rectangle est de manière évidente le sommet où se trouve l'angle droit.
+Dans un triangle rectangle, la hauteur issue de l'angle droit, a une longueur HC égale à la somme des rayons des cercles inscrits respectivement dans le triangle rectangle initial ABC et les deux triangles rectangles délimités par la hauteur.
+Si on appelle r le rayon du cercle inscrit dans le triangle ABC, r1 celui du cercle inscrit dans le triangle AHC, r2 celui du cercle inscrit dans le triangle BHC, et h la hauteur CH, on a :
+: h = r + r1 + r2
+La hauteur h , les rayons r, r1 et r2 sont liés par les relations :
+\frac
+\frac et \frac
+\frac
+:r^2 = r_1^2 + r_2^2
+\frac
+\frac
+\frac
+Bissectrice
+Dans tout triangle rectangle, les bissectrices se rencontrent en un point O centre du cercle inscrit au triangle.
+Le rayon de ce cercle inscrit est égal au demi-périmètre moins l'hypoténuse (voir schéma) soit, avec les mêmes notations :
+On retrouve le théorème de Carnot, qui appliqué au triangle rectangle en C, donne, r étant le rayon du cercle inscrit, et R = celui du cercle circonscrit :
+= r + R et
+Le rayon r du cercle inscrit est aussi égal à deux fois la surface du triangle divisée par le périmètre.
+Cas particuliers
+Ces triangles sont uniques à similitude près.
+Triangle isocèle rectangle
+Le demi-carré est un triangle isocèle rectangle.
+Ses deux angles aigus mesurent 45°, et le rapport entre son hypoténuse et chacune de ses cathètes vaut .
+Triangle 3-4-5
+Le triangle 3-4-5 est un triangle dont les côtés mesurent respectivement 3, 4 et 5 unités.
+Il s’agit du triangle rectangle à côtés entiers avec l’hypoténuse minimale, et le seul triangle dont les longueurs de côtés suivent une progression arithmétique.
+Cette forme est mise à profit pour obtenir un angle droit à l’aide de la corde à 13 nœuds.
+Triangle de Kepler
+Le triangle de Kepler est le seul triangle rectangle dont les longueurs de côtés suivent une progression géométrique.
+La raison de cette progression est la racine carrée du nombre d'or.
+Demi-triangle
+équilatéral
+Le demi-triangle équilatéral a pour angles 90°, 60° et 30°.
+C’est le seul triangle rectangle dont les angles suivent une progression arithmétique.
+Applications
+Décomposition
+Tout triangle non plat peut être décomposé en deux triangles rectangles admettant pour côté commun une hauteur interne (par exemple, celle issue d’un sommet d’angle maximal).
+Ce principe permet de ramener les problèmes de pavages par des polygones à des problèmes de pavage par des triangles rectangles.
+Composantes dans un repère
+orthonormé
+Dans un repère orthonormé (O,\vec,\vec)
+, si un point M se projette selon H sur l'axe (O,\vec) et selon I sur l'axe (O,\vec), alors OHM et OMI sont des triangles rectangles.
+Trigonométrie dans le triangle rectangle
+Un triangle rectangle comporte un angle droit et deux angles aigus, du moins en géométrie euclidienne (sur une sphère, il existe des triangles à deux et même trois angles droits).
+Deux triangles rectangles ayant un de leurs angles non droits égaux sont semblables : le rapport de deux des côtés du triangle rectangle ne dépend donc que d'un angle non droit.
+Cette propriété permet d'introduire les fonctions trigonométriques pour un angle aigu non orienté, dont la mesure est, en degré entre 0 et 90° (ou en radians, entre 0 et π/2).
+Par exemple pour un triangle ABC rectangle en A :
+* le cosinus de l'angle α est le rapport du côté de l'angle droit adjacent à α par l'hypoténuse, soit cos (α) = AC AB ;
+* la tangente de l'angle α est le rapport du côté de l'angle droit opposé à α par côté de l'angle droit adjacent à α, tan (α) = BC/AC.
+Triangle pythagoricien
+Un triangle rectangle dont les trois côtés sont mesurés par des nombres entiers (pour une même unité de mesure) est appelé triangle pythagoricien.
+Par le théorème de Pythagore, les longueurs des trois côtés d'un triangle pythagoricien fournissent un triplet pythagoricien, qui est un triplet de nombres entiers (x, y, z) non nuls vérifiant x + y = z. Par la réciproque du même théorème, un triplet pythagoricien permet de construire un triangle pythagoricien.
+En particulier pour tout nombre entier n supérieur ou égal à 3, on peut construire un triangle rectangle dont la longueur d'un côté de l'angle droit est mesurée par ce nombre n, les deux autres côtés étant mesurés par des nombres entiers :
+* Si n est un nombre pair, n = 2k
+, il suffit de prendre la longueur de l'autre côté de l'angle droit égale à k2
+L'hypoténuse est alors de longueur égale à k2+1.
+* Si n est un nombre impair, n = 2k + 1, il suffit de prendre la longueur de l'autre côté de l'angle droit égale à 2k2 + 2k.
+L'hypoténuse est alors de longueur égale à 2k2 + 2k + 1.
+On sait décrire plus généralement tous les triplets, et donc tous les triangles, pythagoriciens.
+Fermat a démontré qu'aucun de ceux-ci ne pouvait avoir pour aire un carré parfait.
+Spirale
+de Théodore
+La spirale de Théodore est constituée d’une suite de triangles rectangles, chacun admettant une cathète de longueur 1 et l’autre définie par l’hypoténuse du triangle précédent.
+Le triangle initial est isocèle rectangle.
+La suite des longueurs des hypoténuses est constituée des racines carrées des entiers naturels.
+Cette spirale est nommée en hommage à Théodore de Cyrène qui aurait démontré que les racines carrées des premiers entiers (hors carrés parfaits) étaient irrationnelles.
+Généralisations
+Tétraèdre trirectangle
+Un tétraèdre est dit trirectangle si trois de ses faces sont des triangles rectangles en un même sommet.
+Le théorème de Gua généralise alors le théorème de Pythagore en stipulant que le carré de l’aire de la dernière face est la somme des carrés des aires des trois autres.
+Triangle rectangle sphérique
+En géométrie non euclidienne, un triangle rectangle sphérique peut posséder deux ou trois angles droits.

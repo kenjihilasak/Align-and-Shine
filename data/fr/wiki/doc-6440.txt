@@ -1,0 +1,146 @@
+Personnalité américaine en informatique|Personnalité en systèmes d'exploitation|Personnalité de la Free Software Foundation|Contributeur au projet GNU|Étudiant de l'université
+Harvard|Docteur du Massachusetts Institute of Technology|Emacs|Docteur honoris causa de la Vrije
+Universiteit Brussel|Docteur
+honoris causa de l'université Pierre-et-Marie-Curie|Docteur
+honoris causa de l'Université Concordia|Docteur honoris causa de l'université de Glasgow|Docteur honoris causa de l'université nationale de Córdoba|Prix MacArthur|Lauréat d'un EFF Pioneer Award|Membre de l'Académie américaine des arts et des sciences|Naissance en mars 1953|Naissance à Manhattan
+Richard Matthew Stallman, né le à Manhattan, connu aussi sous les initiales rms (en minuscules)
+, est un programmeur et militant du logiciel libre.
+Initiateur du mouvement du logiciel libre, il lance, en 1983, le projet GNU et la licence publique générale GNU connue aussi sous le sigle GPL.
+Il a popularisé le terme anglais « copyleft ».
+Programmeur renommé de la communauté informatique américaine et internationale, il a développé de nombreux logiciels dont les plus connus des développeurs sont l’éditeur de texte
+, le (GCC), le (gdb) mais aussi, en collaboration avec Roland McGrath, le moteur de production .
+Depuis le milieu des années 1990, il consacre la majeure partie de son temps à la promotion des logiciels libres auprès de divers publics un peu partout dans le monde.
+Depuis quelques années, il fait campagne contre les brevets logiciels et la gestion des droits numériques (DRM).
+Le temps qu’il alloue encore à la programmation est consacré à GNU Emacs, bien qu’il ne soit plus le mainteneur principal depuis .
+Il gagne sa vie en partie avec les cachets de conférencier qu’on lui donne à l’occasion ou des prix qu’on lui remet.
+En 2010, un récit biographique qui relate la vie de Richard Stallman paraît en français sous le titre Richard Stallman et la révolution du logiciel libre.
+Biographie
+Richard Matthew Stallman est né à Manhattan d'une famille juive le .
+Doté de fortes capacités en science, il participe régulièrement à des rencontres de jeunes passionnés par les sciences.
+Il utilisa un ordinateur pour la première fois durant ses années de lycée en 1969.
+L’été suivant, à la fin de ses études secondaires, il fut engagé par le centre scientifique d’
+IBM de New York
+et il s’attaqua à l’écriture de son premier programme : le préprocesseur du langage de programmation PL/I destiné aux ordinateurs IBM 360.
+En 1971, alors étudiant en physique et en mathématiques à l’université Harvard où il obtint d’excellents résultats, il devient hacker au département de recherche en intelligence artificielle du Massachusetts Institute of Technology (MIT) pendant des années.
+Ce milieu plaît davantage à Stallman, qui y apprécie notamment la souplesse de la politique d’accès aux ordinateurs.
+En 1975, il met fin à ses études à Harvard pour se consacrer uniquement à la programmation.
+Il découvrit au MIT l’éthique des hackers : le partage des connaissances, le refus de l’autorité et le perfectionnisme.
+Cependant, peu à peu, l’ambiance des débuts change et il est de plus en plus rejeté par ses pairs qui acceptent des postes dans des entreprises créant du logiciel propriétaire.
+Il décide de maintenir à jour les fonctionnalités de la machine Lisp qui était passée sous l’égide de deux entreprises : Symbolics et LMI.
+Durant des mois, seul contre des dizaines de développeurs, à partir de la documentation il parvint à s’acquitter de ce projet, exploit qui sera reconnu par ses collègues.
+Tout bascula au début des années 1980.
+Lorsque l’imprimante Xerox de son laboratoire se mit à avoir des soucis de bourrage, il décida d’améliorer le pilote existant afin de régler le problème.
+Il fut alors surpris de voir que celui-ci est uniquement disponible sous la forme d’un binaire;
+le code source en est inaccessible et personne ne veut le lui fournir.
+Il comprend que l’éthique du hacker est en train de disparaître et qu’il faut agir.
+C’est ce qui explique en partie la conception du projet GNU quelques mois plus tard après un message publié sur Usenet.
+Le journaliste américain lui a consacré de cette biographie, il a accepté d’en écrire la préface à condition de pouvoir annoter largement l’œuvre originale.
+Il parle couramment anglais et .
+Emacs
+L’ du MIT possédait TECO dans les années 1970, un éditeur de texte fonctionnant en arrière-plan.
+La modification du texte nécessitait de longues chaînes de commandes, c’est-à-dire une capacité d’abstraction assez importante de la part de l’utilisateur.
+En 1976, Stallman découvrit « E » au laboratoire d’intelligence artificielle de l’université Stanford, considéré comme le premier logiciel de traitement de texte WYSIWYG permettant de voir à l’écran en temps réel
+les modifications apportées.
+Il décide alors d’améliorer TECO pour lui apporter les mêmes fonctionnalités.
+Il implémenta des combinaisons de touche + qui exécutent des chaînes de commandes TECO.
+Cette amélioration permit ainsi aux hackers de sauvegarder des chaînes de commande longues et complexes et d’y faire appel avec un simple raccourci clavier.
+Cette version augmentée de TECO conduisit les hackers du AI Lab à programmer une quantité énorme de macros.
+Cette profusion et diversité de macros personnelles commencèrent à rendre l’utilisation de TECO différente sur chaque terminal, avec des incompatibilités et un temps d’apprentissage de plus en plus long quand on changeait de terminal.
+Avec Guy Steele, Richard Stallman entreprit de réorganiser toutes les commandes en un système unifié et plus universel.
+Le résultat fut baptisé «
+Emacs », acronyme pour Editing Macros.
+Il est toujours possible d’ajouter de nouvelles commandes, mais elles n’affectent plus le logiciel original, qui reste identique pour tous les utilisateurs.
+Stallman écrivit une règle dans le code source : les utilisateurs étaient libres de modifier et de redistribuer le code, à la condition de redonner en retour à la communauté les extensions qu’ils écrivaient.
+Il passe ainsi un contrat social avec tous les hackers qui apporteront une macro à l’édifice.
+En ce sens, le projet Emacs peut être considéré comme emblématique de l’esprit communautaire qui règne alors dans le AI Lab.
+Afin de s’assurer que tous les logiciels libres développés pour le système d’exploitation GNU restent libres, Richard Stallman popularisa le concept de copyleft (inventé par Don Hopkins), une astucieuse utilisation du droit d’auteur permettant d’assurer la protection légale des quatre libertés fondamentales des utilisateurs d’ordinateurs telles que définies par la FSF.
+En 1989, il publia la première version de la licence publique générale GNU à laquelle Eben Moglen contribuera.
+Cette licence sera utilisée pour protéger la majeure partie du système GNU qui est alors très avancé, mais encore incomplet.
+En effet, en 1990, la plupart des éléments du système GNU sont prêts à l’exception du noyau du système.
+C’est à ce moment-là que la FSF commença le développement de Hurd, mais son développement se révélera beaucoup plus long que prévu (et il n’est toujours pas terminé).
+La naissance du noyau Linux en 1991 (après que celui-ci eut été publié sous licence GPL) permet, en le combinant aux outils GNU, de former le système d’exploitation GNU/Linux.
+Il y a une controverse et une certaine confusion de nommage du système d’exploitation entre Linux, qui est en réalité le noyau du système d’exploitation, et GNU Linux est importante pour Richard Stallman, car elle permet entre autres que ne soit pas occulté le but du projet GNU : permettre l’utilisation d’un système entièrement libre et garantir les libertés fondamentales de manière générale.
+Depuis le début des années 1990, Richard est régulièrement victime de douleurs aux poignets l’empêchant de contribuer au code comme il le faisait auparavant.
+Présentement, il participe surtout à propager les libertés du logiciel libre à travers le monde en tenant des conférences ou des actions contre des lois locales.
+Ses relations avec les protagonistes du mouvement sont devenues de plus en plus difficiles.
+L’incarnation de Linus Torvalds en sauveur de l’informatique libre moderne
+- idée reçue véhiculée par les médias à travers la popularité du projet Linux
+- agace Stallman.
+Non seulement car Linus lui-même refuse ce rôle, mais aussi parce que, pour des raisons historiques logiques et sa lutte sans faille depuis le début du mouvement, selon Stallman, ce titre devrait lui revenir.
+D’autres comme Eric Raymond l’accusent de discréditer le projet aux yeux des entreprises.
+Ce dernier a lancé l’
+expression « open source »
+en opposition à Richard
+pour mettre en avant l’aspect technique plutôt que l’aspect éthique
+Ayant toujours été intransigeant sur le respect de l’idéologie initiale, Richard s’oppose à ce terme car il prête à confusion et relègue les libertés aux derniers rangs des priorités.
+Cependant, si le code source d’un logiciel libre est nécessairement ouvert, le code source d’un logiciel peut parfaitement être ouvert sans être libre.
+C’était par exemple le cas du BIOS des PC dès 1981, ou des premières versions de UNIX (voir ).
+Philosophie et promotion du logiciel libre
+Richard Stallman décrit en ces termes sa philosophie : .
+En 1999, Richard Stallman lança dans « » les idées à la base de Wikipédia.
+Il utilise de nombreux moyens afin de défendre sa philosophie du logiciel libre.
+Ainsi, sur le plan politique, il est allé à Paris le vendredi afin de présenter une pétition de signatures contre la loi DADVSI à l’hôtel Matignon.
+Mais il y est refoulé, une décision «
+mûrement réfléchie » selon le chef de la sécurité de la résidence du Premier ministre.
+Il a défendu la cause du logiciel libre auprès du président équatorien Rafael Correa le .
+Il a inauguré à Berga la première rue du Logiciel-Libre au monde le .
+En , il a apporté son soutien au candidat Jean-Luc Mélenchon pour l’élection présidentielle française de 2017.
+Sur le plan artistique, il a écrit la nouvelle Le Droit de lire, une mise en garde qui se passe dans un avenir où des technologies de contrôle de la copie sont employées pour restreindre la lecture des livres.
+Il a aussi créé la , un hymne des logiciels libres.
+Aussi, il a incarné Saint IGNUcius de l’Église d’Emacs lors d’un événement politique dans les locaux de Bull à Tunis en pour dénoncer la société de la surveillance.
+Critique des licences libres non commerciales
+Richard Stallman suggère d’éviter les licences Creative Commons non commerciales BY-NC-SA et BY-NC.
+Cela n’est pas une opposition au caractère non commercial, qui doit rester possible et fait partie de la liberté de choix des auteurs.
+La critique repose sur un vide juridique entravant la liberté inhérente à l’esprit des licences libres dans le cas de ces deux licences en particulier.
+En effet, la mention NC interdit tout usage commercial.
+Une personne souhaitant en faire un tel usage devrait avoir la liberté d’en demander la permission à l’auteur, mais la possibilité de modification par un grand nombre de personnes rendant l’ensemble des auteurs immense et difficilement identifiable et encore moins joignable : c’est donc une perte de liberté définitive.
+Il suggère de ne pas permettre de modification dans ce cas, et de remplacer lesdites licences problématiques par les licences BY-ND et BY-NC-ND.
+Critique des logiciels libres dont l'usage nécessite celui d'un logiciel non libre
+En avril 2016, Richard Stallman publie un article dans lequel il alerte les lecteurs sur les effets d'un phénomène dont il relate la « récente observation » consistant à imposer l'usage d'un logiciel non libre afin de pouvoir utiliser un logiciel libre.
+Dans cet article, Richard Stallman développe les raisons pour lesquelles il déconseille l'usage de tels logiciels, en particulier ceux comme celui du projet Odoo, qu'il vise nommément.
+Richard Stallman déconseille l'usage de ces logiciels entravés selon lui par ce qu'il appelle un « piège ».
+Critique des logiciels non libres et intrusifs
+En , il prend position contre Facebook en proposant « d’éliminer le réseau social pour protéger la vie privée des internautes » lors d’une conférence au Québec.
+Controverse et démission du MIT et de la FSF
+En 2019, des collègues de Stallman ont signalé qu'il avait fait des déclarations sur une liste de discussion interne de CSAIL pour défendre le défunt professeur du MIT Marvin Minsky, suite au témoignage de Virginia Giuffre qui déclarait que Jeffrey Epstein, accusé de participer à un réseau de prostitution de mineurs, lui avait ordonné d'avoir des relations sexuelles avec lui.
+Stallman a réagi en démissionnant à la fois du MIT et de la Free Software Foundation.
+Prix et distinctions
+Richard Stallman a reçu de nombreux prix et distinctions au cours de sa vie parmi lesquels :
+* 1991 : le prix Grace Murray Hopper de l’Association for Computing Machinery « Pour son travail de pionnier dans le développement de EMACS » ;
+* 1996 : un premier doctorat honoris causa à l’Institut royal de technologie (Kungliga tekniska högskolan en suédois) de Stockholm en Suède ;
+* 1998 : le Pioneer Award de l’Electronic
+Frontier
+Foundation ;
+* 2001 : un deuxième doctorat honoris causa de l’université de Glasgow ;
+* 2001 :
+le prix Takeda de techno-entreprenariat pour le bien-être socio-économique ;
+* 2002 : membre de l’Académie nationale d'ingénierie des États-Unis ;
+* 2003 : troisième doctorat honoris causa de la Vrije Universiteit Brussel ;
+* 2004 : quatrième doctorat honoris causa de l’, Argentine ;
+* 2004 : professorat honorifique de l’
+Université nationale d'ingénierie du Pérou ;
+* 2007 : cinquième doctorat honoris causa de l’Université de Los Angeles de Chimbote ;
+* 2007 : sixième doctorat honoris causa de l’Université de Pavie ;
+* 2008 : septième doctorat honoris causa de l’
+Université nationale de Trujillo, au Pérou ;
+* 2009 : huitième doctorat honoris causa de l’
+Université de Lakehead ;
+* 2013 : nomination au Temple de la renommée d'Internet dans la catégorie des « innovateurs » ;
+* 2014 : neuvième doctorat honoris causa de l’Université Concordia ;
+* 2015 : prix Logiciel de lAssociation for Computing Machinery ;
+* 2016 : dixième doctorat honoris causa de l’université Pierre-et-Marie-Curie.
+L’astéroïde (9882)
+Stallman fut nommé en hommage à Richard Stallman, l’astéroïde numéroté 9965 porte le nom du projet GNU.
+Conférences en France
+Le , Richard Stallman fut l’invité d’honneur de l’université Paris-VIII
+Vincennes-Saint-Denis à l’occasion
+d’une conférence sur le mouvement pour le logiciel libre et le système GNU/Linux, pour célébrer les du projet GNU.
+Publications
+* 1980: EMACS: The Extensible, Customizable, Self-Documenting Display Editor.
+Cambridge, Massachusetts: MIT.
+http:/ software emacs-paper.html HTML
+* 2004: GNU Make: A program for Directed Compilation.
+Boston, Massachusetts: GNU Press .
+* 2015: Free Software, Free Society: Selected Essays of Richard
+M. Stallman.
+Boston, Massachusetts: GNU Press .

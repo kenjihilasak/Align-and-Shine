@@ -1,0 +1,113 @@
+Il pendolo semplice (o pendolo matematico) è un sistema fisico costituito da un filo inestensibile e da una massa puntiforme (m) fissata alla sua estremità e soggetta all'attrazione gravitazionale (che supponiamo uniforme nello spazio e costante nel tempo).
+Questo sistema apparentemente banale è stato reso celebre dall'impegno sperimentale e teorico profuso dallo studioso Galileo Galilei, che ne ha correttamente descritto la proprietà principale, ovvero l'isocronismo.
+Impostazione delle equazioni del moto e loro soluzione
+Se accelerazione di gravità g , velocità iniziale e direzione iniziale del filo sono complanari il pendolo oscilla in un piano verticale, descrivendo in particolare una traiettoria circolare, a causa dell'inestensibilità del filo.
+Se si scelgono coordinate polari (come illustrato nel disegno), si possono scrivere le equazioni del moto, che assumono la seguente forma:
+m (\ddot r - r \dot \theta^2) = m g \cos \theta - T_f
+m (r \ddot \theta + 2 \dot r \dot \theta) = - m g \sin \theta
+La prima equazione corrisponde alla componente radiale di \mathbf = m \mathbf e la seconda alla componente tangenziale.
+T_f è la tensione del filo.
+Ora, essendo la lunghezza del filo r costante nel tempo per ipotesi, si deve avere:
+\ddot r
+\dot r
+ed inoltre le masse, che compaiono ad ambo i membri si semplificano.
+Si ottengono quindi le equazioni più semplici:
+T_f = m \left (g \cos \theta + l \dot \theta^2\right)
+l \ddot \theta = - g \sin \theta
+dove la lunghezza costante del filo è stata indicata, come è consuetudine, con la lettera l invece che, come in precedenza, con r. Notiamo ora che l'equazione che ci interessa, in quanto determina il moto angolare del pendolo (l'unico non banale, essendo il moto radiale nullo), è solo la seconda, mentre la prima risulterebbe utile solamente per determinare, in seguito, la tensione del filo.
+Scegliamo di approssimare la seconda equazione per piccoli angoli, ovvero considerando solo il termine lineare nello sviluppo in serie di Taylor del seno:
+l \ddot \theta = - g \theta
+che è l'equazione differenziale dell'oscillatore armonico di pulsazione \sqrt.
+Diventa così possibile determinare anche il periodo di una oscillazione completa, ovvero il tempo impiegato dal pendolo per andare da un estremo all'altro e ritornare nell'estremo iniziale.
+Si trova
+T = 2 \pi \sqrt
+La legge di oscillazione è dunque indipendente dalla massa e, nell'ipotesi di piccoli angoli, si riduce ad un oscillatore armonico, indipendente quindi anche dall'ampiezza dell'oscillazione.
+Se però l'ampiezza dell'oscillazione \theta_\mathrm non è piccola, si può dimostrare che il periodo del pendolo dipende da essa secondo la formula
+T=4\sqrtK\left (\sin^ \frac\right)
+dove K è l'integrale ellittico completo di prima specie, valutato in \sin^ \frac.
+I primi due termini dello sviluppo in serie di potenze dell'integrale forniscono l'espressione
+T = 2 \pi \sqrt\left (1+\frac\right)
+approssimata a meno di un infinitesimo dell'ordine di ^.
+Bilancio energetico
+Moltiplicando membro a membro la seconda equazione del moto per \dot \theta si ottiene:
+l \dot \theta \ddot \theta = - g \dot \theta \sin \theta
+che, riconoscendo una derivata rispetto al tempo e moltiplicando membro a membro per l, si riconduce a:
+ovvero la quantità tra parentesi risulta conservata nel tempo.
+Tale quantità, a meno di un fattore m e di una eventuale costante additiva è l'energia del pendolo:
+il primo addendo costituisce l'energia cinetica ed il secondo l'energia potenziale gravitazionale.
+Si può quindi verificare che, agli estremi dell'oscillazione, in cui \dot \theta = 0 per definizione, si ha solo energia potenziale, ovvero la particella ha solo energia di posizione e non di movimento;
+mentre, scegliendo uguale a +mgl la succitata costante additiva dell'energia, si può affermare che nel punto di minimo vi è solo energia cinetica, cioè solo energia di movimento e non di posizione.
+Pendolo fisico
+Il pendolo semplice non è che un caso particolare:
+un qualunque oggetto fissato ad un punto di sospensione e soggetto alla gravità costituisce un pendolo, talvolta denominato pendolo fisico.
+In questo caso la forza di gravità agisce sul centro di massa dell'oggetto e la componente di tale forza perpendicolare alla congiungente con il punto di sospensione risulta:
+F = -mg\sin\vartheta
+Il momento meccanico risultante sul pendolo, considerato rispetto al punto di sospensione è pertanto:
+M = - m g d \sin\vartheta
+dove d rappresenta la distanza tra punto di sospensione e centro di massa.
+Applicando la seconda equazione cardinale si trova che
+I \ddot \theta = - m g d \sin\vartheta
+dove I rappresenta il momento di inerzia del pendolo rispetto al centro di rotazione, che in questo caso è punto di sospensione.
+L'equazione si riduce in forma simile a quella dell'oscillatore armonico anche in questo caso, purché si considerino piccole oscillazioni.
+Si trova quindi:
+T = 2\pi\sqrt
+Confrontando questa formula con la corrispondente del pendolo semplice, si può concludere che il pendolo fisico oscilla con lo stesso periodo di un pendolo semplice di lunghezza
+l = \frac
+Tale lunghezza è detta lunghezza ridotta o lunghezza equivalente del pendolo fisico.
+Pendolo a torsione
+Un pendolo a torsione è costituito da un filo inestensibile e di massa trascurabile alla cui estremità è fissato un corpo rigido.
+Se si fa ruotare il corpo attorno all'asse passante per il filo, quest'ultimo si torce producendo un momento torcente dato da \vec
+-\chi\vartheta\hat, dove \chi
+\fracG\frac (nel caso il corpo rigido sia un disco) è detta costante di torsione.
+Esso ha segno meno perché tende a far ruotare il corpo nel verso opposto al moto.
+Prendendo come polo il centro di rotazione e applicando la seconda equazione cardinale della dinamica \vec^\!\!
+-\chi\vartheta\hat
+\frac=\frac, otteniamo la seguente equazione differenziale:
+\ddot+\frac\vartheta=0,
+dove I è il momento d'inerzia del corpo rigido rispetto all'asse di rotazione, avente soluzione
+\vartheta=\vartheta_\cos.
+Essa rappresenta l'equazione di un moto armonico semplice di pulsazione
+:\omega=\sqrt.
+Applicando il teorema di conservazione dell'energia meccanica (siccome non vi sono forze dissipative), ricaviamo che lenergia potenziale torsionale dovuta al momento del filo risulta essere:
+U =\frac\chi\vartheta^2.
+Pendolo cicloidale
+Il pendolo cicloidale è un tipo di moto periodico ideato da Christiaan Huygens intorno al 1659 con una peculiare proprietà:
+le sue oscillazioni sono isocrone indipendentemente dalla loro ampiezza.
+Si è visto infatti che questo vale nel caso del pendolo semplice solo per ampiezze abbastanza piccole.
+Huygens dimostrò invece che un punto materiale che oscilla seguendo una traiettoria cicloidale sotto l'azione della gravità ha un periodo costante che dipende unicamente dalle dimensioni della cicloide.
+L'equazione della cicloide in forma parametrica
+a (\theta - \sin) \;
+a (1 + \cos)
+dove a è la lunghezza del raggio della circonferenza che genera la cicloide.
+Siano quindi x e y le coordinate del punto di massa m che oscilla sotto l'azione della gravità.
+L'energia potenziale del punto è
+U = m g y
+mentre l'energia cinetica è
+K = \frac m (\dot^ + \dot^).
+Poiché
+\dot
+a\dot (1 - \cos) \;
+\dot
+- a \dot \sin
+si ha
+\dot^ + \dot^ = 2 a^ \dot^ (1 - \cos)
+e ricordando le trasformazioni
+\cos = \sqrt
+\sin = \sqrt
+si ottiene
+2mga \left (\cos\right)^ \;
+2m a^ \dot^ \left (\sin\right)^.
+Introducendo
+q = \cos,
+si ottiene
+\dot = - \frac \dot \sin.
+La grandezza q si può considerare coordinata generalizzata del punto oscillante, e la sua derivata \dot come velocità generalizzata.
+Allora
+2mga q^ \;
+8m a^ \dot^.
+L'energia potenziale è una funzione quadratica della coordinata q, e l'energia cinetica è una funzione quadratica della sua derivata (e i coefficienti sono costanti).
+Da ciò risulta che le oscillazioni del pendolo sono isocrone e armoniche di periodo
+T = 2 \pi \sqrt.
+Huygens utilizzò la sua scoperta per realizzare orologi a pendolo molto precisi.
+Per costruire il pendolo cicloidale occorre sospendere il pendolo ad un filo posto fra due archi di cicloide, in modo tale che esso segua il loro profilo facendo percorrere anche al peso attaccato una traiettoria cicloidale.
+Note

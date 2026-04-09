@@ -1,0 +1,308 @@
+En matemática, la raíz cuadrada de un número x, representada por \sqrt, es aquel número y que al ser multiplicado por sí mismo da como resultado el valor x.
+Es decir, cumple la ecuación y^2=x.
+La raíz cuadrada se corresponde con la radicación de índice 2 o, equivalentemente, con la potenciación de exponente 1/2.
+Cualquier número real no negativo x tiene una única raíz cuadrada positiva o raíz cuadrada principal y denotada como \sqrt donde \sqrt es el símbolo raíz y x es el radicando.
+Cuando se quiere denotar dos raíces cuadradas negativas, \sqrt y -\sqrt, suelen denotarse como \pm\sqrt.
+El concepto de raíz cuadrada puede extenderse a cualquier anillo algebraico, así es posible definir la raíz cuadrada de un número real negativo o la raíz cuadrada de algunas matrices.
+En los números cuaterniónicos los reales negativos admiten un número infinito de raíces cuadradas, sin embargo el resto de cuaterniones diferentes de cero admiten solo dos raíces cuadradas.
+En el anillo no conmutativo de las funciones reales de variable real con la adición y la composición de funciones si fºf = g, se puede plantear que f es la "raíz cuadrada" de g.
+Historia
+Las raíces cuadradas son expresiones matemáticas que surgieron al plantear diversos problemas geométricos como la longitud de la diagonal de un cuadrado.
+El Papiro de Ahmes datado hacia 1650 a. C., que copia textos más antiguos, muestra cómo los egipcios extraían raíces cuadradas.
+En la antigua India, el conocimiento de aspectos teóricos y aplicados del cuadrado y la raíz cuadrada fue al menos tan antiguo como los Sulba Sutras, fechados entre el 500 y el 300 a. C. Un método para encontrar muy buenas aproximaciones a las raíces cuadradas de 2 y 3 es dado en el Baudhayana Sulba Sutra.
+Aryabhata (476-550) en su tratado Aryabhatiya (sección 2.4), dio un método para encontrar la raíz cuadrada de números con varios dígitos.
+Los babilonios aproximaban raíces cuadradas haciendo cálculos mediante la media aritmética reiteradamente.
+En términos modernos, se trata de construir una sucesión a_0, a_1, a_2, a_3, \dots dada por:
+Puede demostrarse que esta sucesión matemática converge a_n \to \sqrt (como valor inical a_0 puede tomarse con buena aproximación el entero más cercano al valor de la raíz cuadrada).
+Las raíces cuadradas fueron uno de los primeros desarrollos de las matemáticas, siendo particularmente investigadas durante el periodo pitagórico, cuando el descubrimiento de que la raíz cuadrada de 2 era irracional (inconmensurable) o no expresable como cociente alguno, lo que supuso un hito en la matemática de la época.
+Inicialmente mostraron su utilidad para la resolución de problemas trigonométricos y geométricos, como la diagonal de un cuadrado o el teorema de Pitágoras.
+Posteriormente fueron ganando utilidad para operar con polinomios y resolver ecuaciones de segundo grado o superior, y son en la actualidad una de las herramientas matemáticas más elementales.
+David Eugene Smith, en History of Mathematics, dice acerca de la situación existente:
+Pietro Antonio Cataldi calculó en 1613 la raíz cuadrada aproximando por fracciones continuas, como aparece en la obra común Historia de la matemática de Julio Rey Pastor y José Babini.
+El símbolo de la raíz cuadrada (\sqrt) fue introducido en 1525 por el matemático Christoph Rudolff para representar esta operación, que aparece en su libro Coss, el primer tratado de álgebra escrito en alemán vulgar.
+El signo no es más que una forma estilizada de la letra r minúscula para hacerla más elegante, alargándola con un trazo horizontal, hasta adoptar el aspecto actual, que representa la palabra latina radix, que significa raíz.
+También se conjetura que pudiese haber surgido de la evolución del punto que en ocasiones se usaba anteriormente para representarlo, donde posteriormente se le habría añadido un trazo oblicuo en la dirección del radicando.
+Posteriormente se fue ampliando la definición de raíz cuadrada.
+Varios matemáticos vieron la necesidad de idear números que representasen la raíz cuadrada de números reales negativos para poder resolver todas las ecuaciones de segundo grado, pero no será hasta 1777 cuando Euler simbolizara la raíz cuadrada de -1 con la letra i. La generalización de la función raíz cuadrada de éstos da lugar al concepto de los números imaginarios y al cuerpo de los números complejos, algo necesario para que cualquier polinomio tenga todas sus raíces (teorema fundamental del álgebra).
+La diagonalización de matrices también permite el cálculo rápido de la raíz de una matriz.
+Función raíz cuadrada
+La raíz cuadrada permite definir una función real cuyo dominio e imagen es el conjunto \left0,\infty\right) (el conjunto de todos los números reales no negativos).
+Para cada número real x esta función se define como el único número no negativo y que elevado al cuadrado es igual a x.
+Consiste en hallar el número del que se conoce su cuadrado.
+La función raíz cuadrada de x se expresa de las siguiente manera:
+Usualmente la raíz cuadrada de un número entero no es un número racional a menos que el número entero sea un cuadrado perfecto, como por ejemplo:
+ya que:
+La función raíz cuadrada, en general, transforma números racionales en números algebraicos; \sqrt x es racional si y sólo si x es un número racional que puede escribirse como fracción de dos cuadrados perfectos.
+Si el denominador es 1^2 = 1\,, entonces se trata de un número natural.
+Sin embargo, \sqrt 2 es irracional.
+El descubrimiento de que la raíz cuadrada de muchos números era un número irracional se atribuye a los pitagóricos.
+Los babilonios y egipcios ya disponían de medios de estimar numéricamente la raíz cuadrada, pero su interés parece haber sido eminentemente práctico por lo que no parecen existir referencias sobre la naturaleza de la raíz cuadrada y el problema de si esta podía ser expresada como cociente de dos números enteros.
+La interpretación geométrica es que la función raíz cuadrada transforma la superficie de un cuadrado en la longitud de su lado.
+Propiedades generales
+Las siguientes propiedades de la raíz cuadrada son válidas para todos los números reales no negativos x, y:
+:\sqrt
+\sqrt x \sqrt y \qquad \sqrt
+\frac
+Con notación exponencial:
+:\sqrt = x^.
+y también la equivalencia
+La función \sqrt x es continua para todos los números no negativos x y derivable para todos los números positivos x (no es derivable para x = 0 ya que la pendiente de la tangente ahí es infinita).
+Su derivada está dada por
+:f' (x) = \frac
+La serie de Taylor de \sqrt en torno a x = 0 y convergente para |x≤ 1 se puede encontrar usando el teorema del binomio:
+:\sqrt
+\sum_^\infty \binom\,x^n
+\sum_^\infty \fracx^n = 1 + \fracx - \fracx^2 + \frac x^3 - \frac x^4 + \dots
+En cálculo, cuando se prueba que la función raíz cuadrada es continua o derivable, o cuando se calculan ciertos límites, la siguiente igualdad es muy útil (consiste en multiplicar y dividir por el conjugado, véase binomio conjugado):
+:\sqrt x - \sqrt y = \frac
+y es válida para todos los números no negativos x e y que no sean ambos cero.
+Irracionalidad de las raíces cuadradas
+Una propiedad importante de la raíz cuadrada de los números enteros es que, si estos no son cuadrados perfectos, sus raíces son siempre números irracionales, que son números no expresables como el cociente de dos números enteros.
+Es decir, la raíz cuadrada de un número entero siempre será entero o irracional, nunca un número racional no entero.
+Cualquier número entero puede ser expresado como el producto de una serie de factores primos elevados a diversos exponentes.
+De ser todos pares, las propiedades de la potenciación permiten reducir la raíz a un número natural.
+Sólo si uno o más de los factores tiene un exponente impar la raíz no es natural.
+Si \sqrt n fuera racional se debería poder expresar como \tfrac con p, q enteros y primos entre sí.
+Elevando al cuadrado ambas partes se obtiene que n = \tfrac, lo que es absurdo, pues a un lado queda al menos un factor primo con exponente impar mientras que, al otro lado de la igualdad, tanto p^2 como q^2 se expresan en función de producto de primos elevados a exponentes necesariamente pares.
+Por una reducción al absurdo llegaron los pitagóricos a la demostración de la irracionalidad de la raíz cuadrada de 2, atribuida a Hipaso de Metaponto, un discípulo de Pitágoras.
+La idea, contraria a lo esperado en la matemática de entonces, supuso la denominada crisis de los inconmensurables de la filosofía pitagórica.
+No obstante, es exactamente la longitud de la diagonal de un cuadrado cuyo lado mide 1, siendo fácil la construcción gráfica de la raíz.
+Por ello buena parte de la matemática helénica se centró en la geometría aplicada como forma de calcular gráficamente valores como ése.
+Teodoro de Cirene llegó a la espiral que lleva su nombre, que permite representar gráficamente cualquier raíz, y posteriormente Euclides llegó a un método más general.
+Radicales jerarquizados cuadrados
+En diferentes contextos se utilizan radicales de la forma
+: \sqrt
+que en algunos casos puede ser escritos en la forma
+:: \sqrt = \sqrt + \sqrt
+lo que es factible si sólo si x + y
+A, xy
+B .
+Las expresiones anteriores se denominan radicales jerarquizados.
+\sqrt implica que
+\sqrt, y por repeticiones sucesivas:
+Por razones análogas se obtiene:
+o que
+Si r es una entidad estrictamente superior a uno,
+Esta forma de expresar números mediante la repetición sucesiva de números contenidos dentro de raíces cuadradas puede tener diversas aplicaciones como la resolución de algunos tipos de ecuación o la expresión de algunos números famosos como el número áureo o el número pi.
+Fracciones continuas
+Uno de los resultados más interesantes del estudio de números irracionales como fracciones continuas fue obtenido por Joseph-Louis Lagrange cerca de 1780.
+Lagrange descubrió que la raíz cuadrada de cualquier número entero positivo no cuadrado se puede representar por una fracción continua periódica, es decir, donde ocurre cierto patrón de dígitos repetidamente en los denominadores.
+En un sentido estas raíces cuadradas son números irracionales mucho más simples, porque pueden ser representadas con un patrón de dígitos de repetición simple.
+\sqrt = 3 + \cfrac\,
+Aproximaciones enteras
+La aproximación de raíces cuadradas a números enteros es común en ciertos problemas matemáticos, como la criba de Eratóstenes que aproxima en sus cálculos la raíz cuadrada al mayor entero tal que su cuadrado sea menor que el valor de la raíz.
+Las aproximaciones pueden ser por defecto - usando la función piso - o por exceso - usando la función techo-.
+Las primeras dadas por defecto:
+Una observación de los primeros términos pone de manifiesto que en la construcción de esta tabla, se salta sucesivamente un incremento de manera regular.
+Más precisamente, el cero es repetido una vez, el 1 tres veces, el 2 cinco veces, el 3 siete veces, el 4 nueve veces, etc.
+El número de veces que el entero n se repite es el n-ésimo entero impar.
+La demostración reside sobre la identidad siguiente, del tipo diferencia finita:
+: (a+1)^2 -a^2 = 2a + 1\,
+Extensión de la función raíz cuadrada
+La raíz cuadrada de un número complejo
+El cuadrado de cualquier número real positivo o negativo es positivo, y el cuadrado de 0 es 0.
+Por lo tanto, ningún número negativo puede tener una raíz cuadrada en los números reales.
+Sin embargo, es posible trabajar con un sistema más grande de números, llamados los números complejos, que contienen soluciones a la raíz cuadrada de cualquier número real negativo (e incluso de cualquier número complejo).
+Los números complejos pueden construirse definiendo un nuevo número abstracto, denotado por i (a veces j, especialmente en el contexto de la electricidad) y llamado unidad imaginaria, que satisface que i2
+Utilizando esta notación podemos pensar en i como la raíz cuadrada de −1, pero notamos que también tenemos (
+-i)2
+i2 = -1, así que (−i) es también una raíz cuadrada de −1.
+En general, si x es cualquier número real positivo, entonces en la raíz cuadrada principal de −x se cumple la siguiente igualdad:
+es decir, la raíz cuadrada de un número negativo es necesariamente imaginario.
+Para cada número complejo diferente a cero z existen exactamente dos números w tales que w^2 = z\,\!.
+Raíz cuadrada de un número imaginario
+Si se desea encontrar la raíz de un número imaginario es posible demostrar la igualdad
+Por ejemplo, las raíces cuadradas de i son:
+\sqrt =
+\frac (1+i).
+- \sqrt =
+- \frac (1+i).
+Raíz cuadrada principal de un número complejo
+La definición general de \sqrt z está introduciendo el siguiente punto de rama: si z = r·eiφ es representado en coordenadas polares con −π < φ ≤ π, después fijamos el valor principal a:
+: \sqrt
+\sqrt
+\sqrt \,
+Así definido, la función de la raíz es holomorfa en todas partes excepto en los números reales no positivos, donde no es incluso continua.
+La antedicha serie de Taylor para \sqrt sigue siendo válida para el resto de los números complejos x con |x| < 1.
+También puede representarse en forma de funciones trigonométricas, utilizando la fórmula de Moivre.
+Si z = r (\cos + i\sin) entonces hay exactamente dos raíces cuadradas; la primera es:
+: \sqrt = \sqrt\left ( \cos + i\sin \right )
+y para la otra raíz se usa el argumento φ/2 + π, siendo el módulo el mismo.
+Fórmula algebraica
+En general, para un número complejo expresado en forma cartesiana, por medio de estas fórmulas se obtiene la raíz cuadrada principal:
+:\sqrt = \sqrt + i\ \sgn (\operatorname (z))\ \sqrt,
+donde |z| es el valor absoluto o módulo del número complejo,
+y el signo de la parte imaginaria de la raíz coincide con el signo de la parte imaginaria del radicando (ver función signo (sgn)).
+La otra raíz cuadrada se obtiene simplemente de multiplicar −1 por la raíz cuadrada principal, ambas raíces pueden ser escritas como
+:\pm\left (\sqrt + i\ \sgn (\operatorname (z))\ \sqrt\right)
+Esta fórmula puede ser usada para hallar las raíces de una ecuación (no algebraica) con coeficientes en ℂ.
+Notas
+Observe que debido a la naturaleza discontinua de la función de la raíz cuadrada en el plano complejo, la ley \sqrt
+\sqrt z \cdot \sqrt w es en general falsa, y tiene toda potencia en un conjunto determinado.
+Es incorrecto si se asume que esta ley es la base de varias demostraciones inválidas, por ejemplo el demostrar que -1
+1\,\!:
+-1 =
+i \cdot
+i =
+\sqrt \cdot \sqrt =
+\sqrt =
+\sqrt =
+Donde la tercera igualdad tiene que ser vista como:
+\sqrt =
+\longrightarrow \quad
+1^2 =
+\sqrt = -1
+\longrightarrow \quad
+\cdot (-1)
+(-1)^2 =
+Al no considerarse, normalmente las dos ramas de la función raíz cuadrada, puede inducir a errores en la consideración de esta operación.
+Raíces cuadradas en los cuaterniones
+Con los números complejos está asegurado que sólo existe un número finito de raíces enésimas de la unidad.
+Así por ejemplo -1 tiene sólo dos raíces complejas i e &minus;i.
+Sin embargo, en los números cuaterniónicos \scriptstyle \mathbb hay un número infinito de raíces cuadradas de -1: de hecho el conjunto de soluciones forma una esfera en el espacio tridimensional.
+Para ver esto, sea q = a + bi + cj + dk un cuaternión, y supóngase que su cuadrado es &minus;1.
+En términos de a, b, c y d esa asunción implica
+que
+Este conjunto de ecuaciones reales tiene infinitas soluciones.
+Para satisfacer las últimas tres ecuaciones debe tenerse que a
+0 o bien
+0, sin embargo, esta última posibilidad no puede darse ya que al ser a un número real la primera ecuación implicaría que
+&minus;1, pero eso es imposible para un número real.
+Por tanto a
+0 y b2 + c2 + d2 = 1.
+En otras palabras.
+Nótese que sólo un cuaternión que sea igual a un número real negativo puede tener un número infinito de raíces cuadradas.
+Todos los demás tienen sólo dos raíces (o en el caso del 0 una única raíz).
+Dado un número cuaterniónico a_0 + a_1i+ a_2j +a_3k (que no sea un real negativo) sus dos raíces cuaterniónicas son:
+Lo anterior implica que la ecuación:
+tiene infinitas soluciones, situadas sobre la esfera unidad.
+Raíz cuadrada de matrices
+La existencia de un producto de matrices permite definir la raíz cuadrada de una matriz como aquella matriz B que multiplicada por sí misma da la original A, es decir,
+A luego
+√A.
+Raíz cuadrada en cuerpo finito
+* Primero definamos los cuadrados, por ejemplo en F7 el conjunto de los restos enteros módulo 7, .
+El signo = significa congruencia.
+No todos los números de F7 tienen.
+1; 02 = 0.
+* Diremos que a es la raíz cuadrada de b si a2
+b; se denota a
+\sqrt.
+# \sqrt = 1;
+# \sqrt = 3;
+# \sqrt = 4;
+# \sqrt = 2;
+# \sqrt = 5;
+Cálculo de raíces cuadradas
+Hoy en día existen muchos métodos para calcular la raíz cuadrada, habiendo algunos aptos para el cálculo manual y otros mejor adaptados al cálculo automático.
+Algoritmo
+Cuando vamos a realizar la raíz cuadrada con su método de resolución usual podemos ver las partes en las que se divide, aunque las esenciales de ésta no tienen por qué aparecer o ser usadas solamente en la operación para ser calculada la raíz cuadrada.
+Según esta imagen, podemos ver que las partes de las que se compone; son:
+# Radical: es el símbolo que indica que es una raíz cuadrada.
+# Radicando o cantidad subradical: es el número del que se obtiene la raíz cuadrada.
+# Raíz
+: es propiamente la raíz cuadrada del radicando.
+# Renglones auxiliares: nos ayudarán a resolver la raíz cuadrada.
+# Resto: es el número final del proceso para resolver la raíz cuadrada.
+Utilizando logaritmos
+Se simplifica el cálculo utilizando logaritmos y sus propiedades empleando las tablas de logaritmos o reglas de cálculo.
+:: \!\, \sqrt2 = \operatorname \frac \,
+Algoritmos para máquinas
+Calculadoras, hojas de cálculo y otros softwares también se usan con frecuencia para calcular raíces cuadradas.
+Los programas de software ponen típicamente buenas rutinas en su ejecución para computar la función exponencial y el logaritmo natural o logaritmo, computándose después la raíz cuadrada de x usando la identidad:
+\sqrt =
+e^ o \sqrt
+10^
+Construcción geométrica de la raíz cuadrada
+La raíz cuadrada de un número real se puede construir con regla y compás.
+En sus Elementos, Euclides (300 AC) dio la construcción de la media geométrica de dos cantidades en sus proposiciones II.14 y VI.13.
+Dado que la media geométrica de a y b es \sqrt, uno puede construir \sqrt simplemente tomando b=1.
+La construcción también fue dada por Descartes en su libro La Géométrie, vea la figura 2 en la http:/ cgi-bin docviewer?did
+00570001&seq
+12&frames
+0&view
+50 segunda página.
+Otro método de construcción geométrica (para las raíces de números naturales) usa triángulos rectángulos e inducción: \sqrt = 1 puede, desde luego, ser construido, y una vez que \sqrt ha sido construido, el triángulo con 1 y \sqrt como catetos, tiene una hipotenusa de \sqrt.
+Pasos a seguir para la construcción geométrica
+Para "calcular" geométricamente la raíz cuadrada de un número real dado, lo que se hace es una construcción, mediante regla y compás, de un segmento que mida la raíz cuadrada de la longitud de un segmento original que tenga por longitud ese valor real dado.
+Los pasos a seguir son los siguientes:
+# Trazamos un segmento OB\,\!
+de longitud a\,\!, es decir, de longitud igual al número del cual queremos calcular su raíz cuadrada.
+# Extendemos el segmento OB\,\! en una unidad (según la longitud que hayamos tomado como unidad) de modo que tengamos el segmento AB\,\! de longitud a + 1\,\!.
+# Trazamos
+un círculo que tenga como diámetro el segmento AB\!.
+# En el punto O\,\! (que es donde empieza la extensión de longitud 1) trazamos una línea perpendicular a AB\!.
+Esta línea corta a la circunferencia en dos puntos.
+Sea H\,\! cualquiera de esos puntos.
+Entonces, resulta que el segmento OH\,\! tiene una longitud: OH = \sqrt a.
+Esta construcción tiene su importancia en el estudio de los números constructibles.
+Demostración de que OH es igual a la raíz cuadrada de OB
+Para demostrar esta igualdad, demostraremos que los triángulos AOH\,\! y HOB\,\! son triángulos semejantes
+# El ángulo H\,\! es un ángulo recto (de 90º) ya que AB\,\! es la diagonal de un arco capaz.
+# El segmento OH\,\!
+es perpendicular, por construcción, al segmento AB\,\!.
+O sea que los dos ángulos con vértice en O\,\!, BOH\,\! (el derecho en el diagrama) como HOA\,\! (el izquierdo en el diagrama) son ángulos rectos.
+# La suma de todos los ángulos de un triángulo es igual a
+180º.
+Ahora teniendo en cuenta todo esto construimos el siguiente sistema de ecuaciones:
+# 180 = 90 + B + (90 - H_i)\,\!
+# 180 = 90 + A + H_i\,\!
+Donde H_i\,\! es el ángulo superior del triángulo izquierdo del cual desconocemos su abertura, las otras letras representan los otros ángulos que desconocemos y el ángulo H_d\,\! se puede representar como la resta de 90 - H_i\,\! ya que 90º es el valor de H\,\! entero.
+Al resolver la primera ecuación vemos
+que:
+:180 = 90 + B + 90 - H_i\,\!;
+::H_i = B\,\!.
+Con lo que ya demostramos que estos ángulos miden lo mismo y al resolver el segundo:
+:90 = A + H_i\,\!;
+::A = 90 - H_i\,\!.
+Con lo que al ser 90 - H_i
+H_d\,\! se saca que A
+H_d\,\! y con esto queda demostrado que al medir todos los ángulos lo mismo son triángulos semejantes de manera A H_i O_i\,\! ~ H_d B O_d\,\!.
+Al poseer esta semejante los lados de los triángulos tienen una proporcionalidad igual para los tres lados tal que:
+:\frac
+\frac
+\frac
+Recordando que al construir geométricamente la raíz AO\,\!
+siempre valía 1, con lo que cogiendo lo que nos interesa desarrollamos:
+:\frac = \frac;
+::OB = OH^2\,\!;
+:::OH = \sqrt.
+Quedando demostrada.
+Raíces cuadradas útiles
+:1^2+1^2 = x^2\,\!
+Probablemente, la raíz cuadrada de 2 fue el primer número irracional descubierto, cuyo descubrimiento le costó la vida a un correligionario de Pitágoras.
+El valor de este número con 10 cifras decimales por truncamiento es 1,4142135623.
+Aparece como seno y coseno de un ángulo de 45 grados sexagesimales.
+Hay varias fórmulas de recurrencia para hallar su valor aproximado.
+Una de ellas es el conocido método de la tangente de Newton.
+Su irracionalidad ya lo habían demostrado los griegos.
+Sin embargo, su fundamentación le debemos a Dedekind, Cantor en el siglo XX.
+Ciertamente, no viene a ser sino un límite igual que e, pi, tan útiles y esquivos porque nadie puede escribir sus infinitas cifras; pero basta con menos de 10 dígitos decimales para lo que hace la ciencia y tecnología.
+La raíz cuadrada de 3: \sqrt 3, también conocida como constante de Teodoro (por Teodoro de Cirene), es geométricamente el valor de la diagonal de un cubo cuyas aristas miden la unidad, pudiéndose demostrar con el teorema de Pitágoras.
+También es la hipotenusa de un triángulo rectángulo construible cuyos catetos miden raíz cuadrada de 2 y la unidad respectivamente.
+El valor de este número con 10 cifras decimales por truncamiento es
+1,7320508075
+La raíz cuadrada de 5: \sqrt 5, aparece en la fórmula del número áureo, y es geométricamente la hipotenusa de un triángulo cuyos catetos miden 1 y 2 respectivamente, comprobándose mediante el teorema de Pitágoras.
+Su valor con 10 cifras decimales por truncamiento es 2,2360679774.
+Usos y casos
+* La raíz cuadrada se usa para calcular la hipotenusa de un triángulo rectángulo, conociendo los catetos.
+O uno de estos conociendo la hipotenusa y el otro cateto.
+* Para hallar el radio de un círculo conociendo su área.
+En la detección de si un número entero positivo es primo; basta considerar como divisores primos, aquellos números primos que son menores que su raíz cuadrada, aproximada a unidades.
+* Para hallar el tiempo en el movimiento uniforme acelerado sin velocidad inicial.
+* Para conocer cuántos números impares iniciales, empezando desde el 1, se han sumado; usando como dato un cuadrado perfecto.
+En una función cuadrática canónica, conociendo la ordenada, hallar las correspondientes abscisas.
+* Para calcular la diagonal de un cuadrado conociendo su área.
+* Para calcular la media cuadrática de datos positivos.
+* Al calcular él área de un triángulo equilátero, donde interviene \sqrt
+* Al obtener el área de un tetraedro regular, en función de su arista, se emplea \sqrt
+* Al obtener el volumen de un tetraedro regular, en función de su arista, se usa
+* Para hallar la media proporcional c entre a y b. La altura de un triángulo conociendo las proyecciones de los catetos sobre la hipotenusa.
+La tangente a una circunferencia, conociendo la secante y su parte externa.
+* La \sqrt se usa en ciertas razones trigonométricas de un ángulo de 30º o 60º.
+*La \sqrt se emplea para definir el seno y coseno de un ángulo de 45º.
+* Al resolver una ecuación de segundo grado completa o de la forma x2 = a, se usa la raíz cuadrada; en el primer caso si el determinante es negativo, y en la ecuación incompleta de segundo grado si a es menor que cero, hay que hallar la raíz cuadrada de un número negativo, que proporciona como raíces, dos números complejos conjugados.
+En el caso de que se tenga una ecuación de segundo grado con coeficientes complejos no reales, también se halla la raíz cuadrada, pero las raíces de la ecuación cuadrática, en este caso , no necesariamente, son conjugadas.
+En el caso de resolver la ecuación cúbica reducida y3 + py + q
+H; luego efectuar las raíces cúbicas de -q 2 -H.
+Véase también

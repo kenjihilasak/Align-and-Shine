@@ -1,0 +1,261 @@
+Cercle|Géométrie du triangle|Fonction
+trigonométrique|*|Analyse harmonique|Fonction de référence|Trigonometrique
+En mathématiques, les fonctions trigonométriques sont des fonctions dont la variable est une mesure d'angle.
+Elles permettent de relier les longueurs des côtés d'un triangle (τρίγωνον, trigonon en grec) en fonction de la mesure des angles aux sommets.
+Plus généralement, les fonctions trigonométriques sont importantes pour étudier les triangles et les polygones, les cercles (on les appelle aussi fonctions circulaires) et modéliser des phénomènes périodiques.
+Les trois fonctions trigonométriques les plus utilisées sont le sinus (noté ), le cosinus () et la tangente (, ou ).
+Les relations entre les différentes fonctions trigonométriques constituent les identités trigonométriques.
+En analyse mathématique, ces fonctions peuvent aussi être définies à partir de la somme de séries entières ou comme les solutions d'équations différentielles ce qui permet de les généraliser à des nombres complexes.
+Selon les domaines d'application, en navigation maritime ou aérienne notamment, d'autres fonctions sont utilisées : cotangente, sécante, cosécante, sinus verse, haversine, exsécante, etc.
+Par ailleurs, sur le modèle des fonctions trigonométriques, on définit aussi des fonctions hyperboliques dont le nom dérive des premières : sinus hyperbolique (), cosinus hyperbolique (), tangente hyperbolique (), etc.
+Histoire
+Les traces les plus anciennes d'utilisation de sinus seraient apparues dans les Śulba-Sūtras écrits en sanskrit védique dans la période des .
+Les fonctions trigonométriques furent plus tard étudiées par Hipparque de Nicée (185-125 av. J.-C.), Âryabhata (476-550), Varahamihira, Brahmagupta, Al-Khawarizmi, Abu l-Wafa, Omar Khayyam, Bhāskara II, Nasir ad-Din at-Tusi, Regiomontanus (1464), Al-Kachi (), Ulugh Beg (), Madhava (1400), Rheticus et son disciple Valentin Otho.
+L'ouvrage Introductio in analysin infinitorum (1748) de Leonhard Euler fut en grande partie à l'origine des considérations analytiques des fonctions trigonométriques en Europe en les définissant à partir de développements en séries, et présenta les formules d'Euler.
+Lignes trigonométriques
+Un triangle quelconque rectiligne (ou sphérique)
+possède six parties : trois côtés et trois angles.
+Toutes ces parties ne sont pas utiles à la construction du triangle, par exemple les seules données de la longueur de deux de ses côtés et de l'angle entre ces côtés permet de compléter le triangle.
+Mais connaissant seulement les trois angles, il est impossible de retrouver le triangle, puisqu'il existe une infinité de triangles ayant les trois mêmes angles (triangles semblables).
+En fait il suffit de connaître trois de ces parties dont au moins un côté pour construire un triangle.
+Le problème de la détermination avec exactitude des parties manquantes du triangle fut étudié en particulier en Europe à partir du Moyen Âge.
+Les méthodes géométriques ne donnant, à l'exception des cas simples, que des constructions approximatives et insuffisantes à cause de l'imperfection des instruments utilisés, les recherches s'orientèrent plutôt vers des méthodes numériques afin d'obtenir des constructions avec un degré de précision voulu.
+Et l'un des objectifs de la trigonométrie fut donc de donner des méthodes pour calculer toutes les parties d'un triangle, c'est-à-dire pour résoudre un triangle.
+Pendant longtemps les géomètres cherchèrent en vain des relations entre les angles et les côtés des triangles.
+Une de leurs plus grandes idées fut de se servir des arcs plutôt que des angles pour effectuer leurs mesures.
+Ces arcs de cercle ont pour centre un sommet du triangle et sont compris entre les côtés se rapportant à ce sommet.
+Ces considérations menèrent tout naturellement les géomètres à remplacer les arcs par les segments de droites dont ils dépendent.
+Ces segments s'appellent les lignes trigonométriques.
+Il s'agit en fait d'un autre vocable pour désigner les fonctions trigonométriques (, , …) appelées aussi fonctions circulaires.
+Des relations entre les côtés et certaines lignes liées aux arcs s'établissent de manière que les lignes puissent être déterminées à partir de certains arcs et réciproquement.
+Une convention fondamentale oblige alors à ne considérer que les lignes trigonométriques rapportées à des cercles de rayon 1.
+Ces lignes trigonométriques définissent les fonctions trigonométriques modernes.
+Les fonctions trigonométriques mathématiques sont celles qui s'appliquent à des mesures d'angles données en radians.
+Mais il est encore d'usage de garder les mêmes noms de fonctions pour les autres unités de mesures comme les degrés ou les grades.
+Définitions dans un triangle rectangle
+Pour définir les fonctions trigonométriques d'un angle \widehat A, considérons un triangle rectangle dont \widehat A est l'un des deux angles aigus.
+Les côtés du triangle rectangle sont appelés :
+* lhypoténuse : c'est le côté opposé à l'angle droit, constituant une jambe de l'angle \widehat A et le côté le plus long du triangle ;
+* le côté adjacent : c'est le côté joignant l'angle droit depuis \widehat A, constituant une jambe de l'angle \widehat A, qui n'est pas l'hypoténuse ;
+* le côté opposé : c'est le côté opposé à l'angle \widehat A, joignant l'angle droit, qui n'est pas l'hypoténuse.
+On notera :
+: la longueur de l'hypoténuse ;
+: la longueur du côté adjacent ;
+: la longueur du côté opposé.
+Les différents rapports de ces trois longueurs ne dépendent pas du triangle choisi (du moment qu'il comporte l'angle Â et un angle droit) puisque tous ces triangles sont semblables.
+Le sinus d'un angle est le rapport de la longueur du côté opposé par la longueur de l'hypoténuse :
+*Le cosinus d'un angle est le rapport de la longueur du côté adjacent par la longueur de l'hypoténuse :
+La tangente d'un angle est le rapport de la longueur du côté opposé à la longueur du côté adjacent :Notons que l'on a : \tan=\frac.
+Les trois fonctions restantes sont définies en utilisant les trois fonctions ci-dessus.
+*La cosécante de Â, notée csc (Â) ou cosec (Â), est l'inverse 1/sin (Â) du sinus de Â, c'est-à-dire le rapport de la longueur de l'hypoténuse par la longueur du côté opposé :
+*La sécante de Â, notée sec (Â), est l'inverse 1/cos (Â) du cosinus de Â, c'est-à-dire le rapport de la longueur de l'hypoténuse par la longueur du côté adjacent :
+*La cotangente de Â, notée cot (Â), est l'inverse 1/tan (Â) de la tangente de Â, c'est-à-dire le rapport de la longueur du côté adjacent par la longueur du côté opposé :Notons que l'on a : \cot=\frac.
+Définitions
+à partir du cercle unité
+Les six fonctions trigonométriques peuvent également être définies à partir du cercle unité.
+La définition géométrique ne fournit presque pas de moyens pour le calcul pratique ;
+en effet elle se fonde sur des triangles rectangles pour la plupart des angles.
+Le cercle trigonométrique, en revanche, permet la définition des fonctions trigonométriques pour tous les réels positifs ou négatifs, pas seulement pour des angles de mesure en radians comprise entre 0 et .
+Dans un plan muni d'un repère orthonormé (O;\vec,\vec), le cercle trigonométrique est le cercle de centre O et de rayon 1.
+Si l'on considère un point A (xA, yA) sur le cercle, alors on a :
+Sur le cercle ci-contre, nous avons représenté certains angles communs, et nous avons indiqué leurs mesures en radians figurant dans l'intervalle , soit deux mesures par angle et même trois pour l'angle nul.
+Notez que nous mesurons les angles positifs dans le sens trigonométrique, contraire à celui des aiguilles d'une horloge, et les angles négatifs dans le sens horaire.
+Une demi-droite qui fait un angle θ avec la demi-droite positive Ox de l'axe des abscisses coupe le cercle en un point de coordonnées (cos θ, sin θ).
+Géométriquement
+, cela provient du fait que l'hypoténuse du triangle rectangle ayant pour sommets les points de coordonnées (0, 0), (cos θ, 0) et (cos θ, sin θ) est égale au rayon du cercle donc à 1.
+Le cercle unité peut être considéré comme une façon de regarder un nombre infini de triangles obtenus en changeant les longueurs des côtés opposés et adjacents mais en gardant la longueur de leur hypoténuse égale à 1.
+On a donc :
+ainsi que
+Le cercle unité a pour équation :
+Cela donne immédiatement la relation
+: \cos^2\theta+\sin^2\theta=1.
+Définition à partir du produit scalaire
+En géométrie vectorielle, le cosinus est défini à partir du produit scalaire de deux vecteurs u et v et de leurs normes ||u|et ||v||
+par :
+Définitions
+à partir des séries entières
+Ici, et généralement en analyse, il est de la plus grande importance que tous les angles soient mesurés en radians.
+On peut alors définir et à l'aide de séries entières :
+Ces définitions sont équivalentes à celles données ci
+dessus ;
+on peut le justifier avec la théorie des séries de Taylor, et avec le fait que la dérivée du sinus est le cosinus et que celle du cosinus est l'opposé du sinus.
+Ces définitions sont souvent utilisées comme point de départ des traités rigoureux d'analyse et de la définition du nombre puisque la théorie des séries est bien connue.
+La dérivabilité et la continuité sont alors faciles à établir, de même que les formules d'Euler en analyse complexe reliant les fonctions trigonométriques à la fonction exponentielle, ainsi que l'identité d'Euler.
+Les définitions utilisant les séries ont l'avantage supplémentaire de permettre de prolonger les fonctions sinus et cosinus en des fonctions analytiques dans tout le plan complexe.
+Il n'est pas possible d'obtenir des séries aussi simples pour les autres fonctions trigonométriques, mais on a, par exemple
+\begin
+\tan x & = \sum_^\infty \frac \\
+& = x + \frac + \frac + \frac + \cdots, \qquad \text |x| < \frac
+\end
+où Bn est le n-ème
+nombre de Bernoulli.
+Ces expressions se traduisent sous forme de fractions continues généralisées ;
+elles ont permis à Lambert de démontrer l'irrationalité du nombre .
+À défaut de série entière simple, il existe pour la fonction cotangente une série absolument convergente, obtenue comme limite de sommes d'éléments simples correspondant à des pôles opposés :
+On en déduit :
+Représentations graphiques
+Les courbes des fonctions sinus et cosinus sont appelées sinusoïdes.
+Propriétés des fonctions trigonométriques
+Valeurs remarquables
+Il existe des tables de valeurs des fonctions trigonométriques, mais ces valeurs peuvent également être calculées par une calculatrice.
+Pour quelques angles simples, les valeurs peuvent être calculées exactement à la main : elles sont indiquées dans le tableau suivant.
+Exemples :
+* Pour 45 degrés (/4 radians) : les deux angles du triangle rectangle sont égaux ;
+les longueurs a et b étant égales, nous pouvons choisir a
+On détermine alors le sinus, le cosinus et la tangente d'un angle de 45 degrés en utilisant le théorème de Pythagore (voir figure à gauche) :
+* Pour 30 degrés ( radians) et 60 degrés ( radians) : on considère un triangle équilatéral de longueur latérale 2.
+Tous ses angles internes sont de 60 degrés.
+En le divisant en deux parties égales, on considère un des deux triangles rectangles obtenus ayant un angle de 30° et un angle de 60°.
+Le petit côté de ce triangle rectangle est égal au demi-côté du triangle équilatéral : il vaut 1.
+Le troisième côté de ce triangle rectangle est d'une longueur c telle que (voir figure à droite) :
+On peut se souvenir de certaines de ces valeurs en construisant la table suivante :
+en mettant dans l'ordre 0, (30°), (45°), (60°) et (90°), le sinus prend les valeurs /2, et pour le cosinus, on prend l'ordre inverse.
+\left.\begin\cos \left (\frac\right)
+\sin\left (\frac\right)
+\frac4=\frac
+\\\cos \left (\frac\right)
+\sin\left (\frac\right)
+\frac4=\frac\end\right\} avec désignant le nombre d'or.
+Zéros
+Les zéros de sont les réels qui s'écrivent k (pour un certain entier relatif k).
+Ceux de sont les /2 + k.
+Relations entre sinus et cosinus
+NB : Les valeurs d'angles sont en radians.
+Pour définir les angles strictement plus grands que ou strictement négatifs, il suffit d'effectuer des rotations autour du cercle.
+De cette façon, le sinus et le cosinus deviennent des fonctions périodiques de période , c'est-à-dire que pour tout angle θ et tout entier k :
+Grâce au cercle, et avec des considérations géométriques simples, on peut voir que
+Ces formules font partie des identités trigonométriques.
+Relations trigonométriques
+À partir des formules d'addition (dont se déduisent celles de différence) :
+:\begin\cos (a+b)&= \cos a\cos b-\sin a\sin b\\
+\sin (a+b)&=\sin a\cos b+\cos a\sin
+b\\
+\tan (
+a+b)&=\dfrac\end
+on démontre les formules de Simpson :
+\begin\cos a\cos b&=\dfrac12\cos (a+b)+\cos (a-b)\\
+\sin a\sin b&=\dfrac12\cos (a-b)-\cos (a+b)\\
+\sin a\cos b
+\dfrac12\sin (a+b)+\sin (a-b)\end\quad et, réciproquement, \quad\begin\cos p+\cos q&
+2\cos\dfrac2\cos\dfrac2\\
+\cos
+p-\cos q&=-2\sin\dfrac2\sin\dfrac2\\
+\sin p+\sin q&=2\sin\dfrac2\cos\dfrac2\\
+\sin p-\sin q&=2\cos\dfrac2\sin\dfrac2\end\
+ainsi que celles impliquant la « tangente de l'arc moitié », t=\tan\frac a2 :
+:\cos a
+\frac,\quad\sin
+\frac,\quad\tan a=\frac.
+Parité des fonctions
+Les fonctions sinus et tangente sont impaires : pour tout réel ,
+\sin (
+-x)=-\sin x
+\tan (-x)=-\tan x.
+La fonction cosinus est paire : pour tout réel ,
+\cos (
+-x)=\cos x.
+Dérivées
+On trouvera d'autres relations sur la page consacrée aux identités trigonométriques.
+Limites
+Les fonctions trigonométriques étant périodiques non constantes, elles ne possèdent pas de limite à l'infini.
+La fonction tangente, non définie en , possède une limite infinie à gauche et à droite en ces points :
+Relations avec la fonction exponentielle et les nombres complexes
+On peut montrer à partir de la définition des séries que les fonctions sinus et cosinus sont respectivement la partie imaginaire et la partie réelle de la fonction exponentielle quand son argument est imaginaire pur :
+:\forall x\in\R\quad\cos x
+\mbox (^)\text\sin x
+\mbox (^)
+où = -1, ou encore :
+:^ = \cos
+x+\sin x.
+Cette relation est généralement connue sous le nom de formule d'Euler.
+On en déduit
+que
+\sin z
+\sum_^\fracz^
+= \frac.
+: \cos
+\sum_^\fracz^
+= \operatorname \left (z\right).
+Fonctions réciproques : fonctions cyclométriques
+Les fonctions trigonométriques ne sont pas bijectives.
+En les restreignant à certains intervalles, les fonctions trigonométriques réalisent des bijections.
+Les applications réciproques appelée fonctions cyclométriques (arcsin, arccos, arctan, arccsc, arcsec et arccot) sont habituellement définies par (pour tous réels x et y) :
+arcsin x si et seulement si ≤ y ≤ et x
+sin y,
+arccos
+x si et seulement si 0 ≤ y ≤ et x
+cos y,
+arctan x si et seulement si < y < et x
+tan y,
+arccsc x si et seulement si ≤ y ≤ , y ≠ 0 et x
+csc y,
+arcsec x si et seulement si 0 ≤ y ≤ , y ≠ et x
+sec y,
+arccot x si et seulement si 0 < y < et x
+cot
+Ces fonctions peuvent s'écrire sous forme d'intégrales indéfinies :
+:\begin\forall x\in-1,1&\arcsin x&
+&\int_0^x\frac1\,\mathrm dt&\text&\arccos
+&\int_x^1 \frac1\,\mathrm dt,\\
+\forall x\in\R&\arctan x&
+&\int_0^x \frac1\,\mathrm dt&\text&\arccot x
+&\int_x^\infty\frac1\,\mathrm
+dt,\end
+\arcsec x
+\begin\int_1^x\frac1\,\mathrm dt&\textx\ge1\\\pi+\int_x^\frac1\,\mathrm dt&\textx\le-1\end\quad\text\quad\arccsc
+\begin\int_x^\infty\frac1\,\mathrm dt&\textx\ge1\\\int_^x \frac1\,\mathrm dt&\textx\le-1.\end
+Égalités pratiques :
+:\cos (\arcsin x)
+\sqrt,\quad\tan (\arcsin x)
+\frac x,
+\sin (\arccos x)
+\sqrt,\quad\tan (\arccos x)
+\fracx
+:\cos (\arctan x)
+\frac1,\quad\sin (\arctan x)
+\frac
+Applications
+Les fonctions trigonométriques, comme leur nom le suggère, ont une importance cruciale en trigonométrie, mais interviennent aussi dans l'étude des fonctions périodiques.
+En trigonométrie
+En trigonométrie, elles fournissent des relations intéressantes entre les longueurs des côtés et les angles d'un triangle quelconque.
+Considérons un triangle quelconque :
+\frac
+\frac
+\frac
+Cette relation peut être démontrée en divisant le triangle en deux triangles rectangles et en utilisant la définition ci-dessus du sinus.
+Le nombre commun \frac apparaissant dans le théorème est l'inverse du diamètre du cercle circonscrit au triangle (cercle passant par les trois points A, B et C).
+La loi des sinus est utile pour calculer des longueurs inconnues des côtés dans un triangle quelconque si deux angles et un côté sont connus.
+C'est une situation courante survenant dans la triangulation, une technique pour déterminer des distances inconnues en mesurant deux angles et une distance.
+* la loi des cosinus ou théorème d'Al-Kashi est une généralisation du théorème de Pythagore
+:c^2=a^2+b^2-2ab\cos (\widehat)
+À nouveau, ce théorème peut être démontré en divisant le triangle en deux triangles rectangles.
+La loi des cosinus est utile pour déterminer les données inconnues d'un triangle si deux des côtés et un angle sont connus.
+Remarquons que l'angle connu doit être contenu dans les deux côtés dont nous connaissons la longueur.
+\frac=\frac,
+ainsi que la loi des cotangentes et les formules de Mollweide.
+L'utilisation des fonctions trigonométriques ne se limite pas seulement à l'étude des triangles.
+Les fonctions trigonométriques sont des fonctions périodiques dont les représentations graphiques correspondent à des modèles caractéristiques d'ondes, utilisés pour modéliser des phénomènes oscillatoires tels que le bruit ou les ondes de la lumière.
+Chaque signal peut être écrit comme une somme (en général infinie) de fonctions de sinus et de cosinus de différentes fréquences ;
+ce sont les séries de Fourier.
+En analyse harmonique
+Les fonctions sinus et cosinus apparaissent aussi dans la description d'un mouvement harmonique simple, un concept important en physique.
+Dans ce contexte les fonctions sinus et cosinus sont utilisées pour décrire les projections sur un espace à une dimension d'un mouvement circulaire uniforme, le mouvement d'une masse au bout d'un ressort, ou une approximation des oscillations de faible écart angulaire d'un pendule.
+Les fonctions trigonométriques sont aussi importantes dans d'autres domaines que celui de l'étude des triangles.
+Elles sont périodiques et leurs représentations graphiques sont des sinusoïdes et peuvent servir à modéliser des phénomènes périodiques comme le son, les ondes de lumière.
+Tout signal, vérifiant certaines propriétés, peut être décrit par une somme (généralement infinie) de fonctions sinus et cosinus de différentes fréquences ;
+c'est l'idée de base de l'analyse de Fourier, dans laquelle les séries trigonométriques sont utilisées pour résoudre de nombreux problèmes aux valeurs limites dans des équations aux dérivées partielles.
+Par exemple un signal carré
+, peut être décrit par une série de Fourier :
+: x_ (t) = \frac \sum_^\infty .
+Fonctions de transition
+Lorsque x parcourt , la fonction sinus passe de la valeur -1 à la valeur 1.
+Elle est continue et dérivable, et ses tangentes sont horizontales aux extrémités de l'intervalle (les dérivées s'annulent en et ).
+Cela en fait donc une fonction de choix pour remplacer une fonction de Heaviside, qui n'est elle pas continue.
+Par exemple, si l'on veut qu'un dispositif passe d'une valeur y = a à une valeur b à l'instant t0, on peut le piloter par une loi de type
+y (t) = a + \frac
+\sin \left ( \frac
+- t_0 \right )
+où est la durée de la transition.
+Ce type de loi de pilotage permet d'éviter un trop grand écart entre la valeur visée et la valeur instantanée, et des phénomènes de type oscillations amorties.
+Par exemple, si un mobile doit subir une phase d'accélération puis une phase de décélération, on peut utiliser des lois sinusoïdales pour les transitions de vitesse.
+On s'assure ainsi que l'accélération est continue.

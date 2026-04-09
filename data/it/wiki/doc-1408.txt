@@ -1,0 +1,81 @@
+In geometria, la bisettrice è il nome dato a un piano o linea, semiretta o anche retta, utilizzati per la bisezione di un'entità geometrica, come un segmento, triangolo, poligono in generale o un angolo, in due parti congruenti (come dice la radice del nome bi, cioè due).
+Retta bisettrice
+Se queste sono incidenti, si hanno due bisettrici perpendicolari fra loro;
+se, invece, sono parallele, si avrà allora un'unica bisettrice anch'essa parallela alle due e ivi compresa a metà strada.
+In un riferimento cartesiano, date le equazioni identificative delle due rette
+\begina x+
+b y + c =0 \\
+a' x + b' y +c'=0\end
+abbiamo che Ax + By +C = 0 rappresenta l'equazione della\delle bisettrice\i, con:
+\frac \pm \frac,\
+\frac \pm \frac,\ C = \frac \pm \frac.
+Bisettrice dell'angolo
+In geometria, la bisettrice è la semiretta che divide l'angolo in due settori congruenti.
+Può essere idealmente considerata come l'asse di simmetria dell'angolo, che divide l'angolo iniziale di ampiezza \alpha in due angoli di eguale ampiezza \alpha/2 .
+Alcune proprietà geometriche della bisettrice:
+* Le bisettrici di due angoli opposti al vertice sono semirette opposte, che giacciono sulla stessa retta.
+* Analogamente, le bisettrici di due angoli esplementari sono semirette opposte.
+* Le bisettrici di due angoli supplementari adiacenti sono perpendicolari.
+Costruzione con riga e compasso
+Il problema di trovare la retta bisettrice dell'angolo formato da due rette date è un problema che si può risolvere con delle costruzioni con riga e compasso.
+La bisettrice di un angolo può essere infatti costruita, così come mostra Euclide, con riga e compasso secondo i seguenti passaggi:
+# Puntando il compasso nel vertice O, con raggio a piacere, con un arco si individuano due punti A e B sui lati dell'angolo;
+Tracciando due circonferenze centrate in A e in B, sempre con raggio AB, si trovano i punti C e C' di intersezione fra le due;
+# Si traccia infine una retta r da O passante per C:
+questa è la bisettrice.
+La bisettrice in pratica viene trovata come la perpendicolare del punto medio di AB (punti 2 e 3) i cui estremi sono equidistanti dal vertice O (punto 1).
+Il problema analogo in cui date due rette si cercano altre due rette che dividano l'angolo compreso in tre parti uguali (il problema della trisezione dell'angolo) si può dimostrare essere insolubile mediante costruzioni con riga e compasso.
+Angolo concavo
+La bisettrice ovviamente esiste e può essere costruita anche per gli angoli concavi:
+è la semiretta opposta alla bisettrice costruita per l'angolo esplementare a quello dato.
+Proprietà
+Luogo dei punti equidistanti
+La bisettrice di un angolo convesso è il luogo dei punti equidistanti dai lati.
+Dimostrazione
+Se individuiamo due generici punti \scriptstyle A e \scriptstyle B sui lati dell'angolo tali per cui le relative distanze dalla bisettrice si intersechino in \scriptstyle R sulla bisettrice, per verificare il teorema occorre che i segmenti \scriptstyle AR e \scriptstyle BR siano congruenti.
+Per loro definizione una distanza forma un angolo retto con la base, ragione per cui \scriptstyle AR e \scriptstyle BR sono anche i cateti di due distinti triangoli rettangoli, aventi \scriptstyle OR come ipotenusa e un angolo all'origine;
+essendo quindi le ipotenuse e, per la dimostrazione di sopra, almeno uno degli angoli acuti congruenti, per il terzo criterio di congruenza dei triangoli rettangoli, anche i cateti \scriptstyle AR e \scriptstyle BR, ovvero le distanze, risultano \scriptstyle AR \cong BR.
+Talvolta questo teorema viene espresso in maniera generica senza precisare la natura dell'angolo, lasciando con ciò intendere che sia valido anche per gli angoli concavi, cosa però impossibile in quanto le distanze dei lati vengono proiettate in modo da essere divergenti rispetto alla bisettrice.
+Ovviamente esiste comunque un luogo dei punti equidistanti dal lati ma è esterno alla porzione di piano dell'angoli interessato, in quanto si trova nell'angolo esplementare a quest'ultimo, dove le distanze risultano convergenti.
+La bisettrice nel triangolo
+Nel triangolo, per bisettrice di un angolo non s'intende solitamente più la semiretta che lo divide, ma il tratto di questa retta che congiunge il vertice col lato opposto;
+si tratta dunque di un segmento di cui è possibile determinare lunghezza.
+Si è soliti, poi, distinguere la bisettrice a seconda se cada fuori o dentro al perimetro del triangolo considerando "interna" la bisettrice che giace internamente al perimetro, ed "esterna" quella che invece congiunge il vertice al prolungamento del lato opposto, in altre parole la bisettrice dell'angolo esterno, che è sempre esterna al perimetro del triangolo.
+Vi sono inoltre diverse proprietà legate alle bisettrici:
+* La bisettrice interna ed esterna del medesimo vertice formano tra loro un angolo retto, e sono entrambe equidistanti dai lati adiacenti o dai loro prolungamenti.
+* In qualsiasi triangolo, le bisettrici interne si congiungono tutte e tre in un unico punto, incentro, interno al poligono ed equidistante dai lati del triangolo, mentre le bisettrici esterne si congiungono a coppie, assieme al prolungamento della bisettrice interna del terzo vertice, in un punto esterno (ex-centro) al perimetro equidistante dal loro lato comune e dai prolungamenti degli altri due lati.
+* la bisettrice interna e quella esterna del medesimo vertice incontrano il lato opposto e il suo prolungamento in due punti, le cui distanze dagli estremi di quest'ultimo stanno fra loro come i lati adiacenti, questa proprietà è in parte riassunta nel teorema della bisettrice.
+Teoremi legati alle bisettrici interne
+Primo teorema
+Tutte le bisettrici interne s'intersecano in un unico punto, detto incentro, equidistante da ciascun lato del triangolo.
+del triangolo, ovvero il centro della circonferenza inscritta nel poligono (unica per sua definizione) e quindi equidistante da tutti i lati del triangolo, condizione necessaria per soddisfarle contemporaneamente tutte e tre le bisettrici, le quali però, come sappiamo, sono equidistanti soltanto rispetto ai lati del proprio vertice.
+Il prolungamento della bisettrice, oltre il lato opposto, e quindi all'infuori dell'area poligonale, permette poi a quest'ultima di congiungersi sempre con le bisettrici, ma esterne, degli altri vertici in un secondo punto, detto ex-centro, che ha questa volta la proprietà di essere equidistante dal lato opposto e dai prolungamenti degli altri due lati.
+Teorema della bisettrice
+In un triangolo i lati adiacenti stanno fra loro come le parti distinte dalla bisettrice sul lato opposto.
+Dato il triangolo ABC e AL la sua bisettrice interna in A, deve valere la seguente proporzione:
+"center"> CA :
+LC :
+Dimostrazione.
+Corollario
+Ogni bisettrice è divisa dalle altre interne in due segmenti che stanno fra loro come i lati del vertice alle porzioni omolaterali che individua sul lato opposto.
+Poiché le bisettrici si incontrano in un unico punto e ognuna di queste evidenzi due triangoli complementari, il precedente corollario non è niente di più che una semplice applicazione del teorema ai triangoli da loro creati, e permette di evidenziare i seguenti rapporti:
+Formulario
+Formule geometriche:
+l_a
+\frac \quad l_b
+\frac \quad l_c= \frac
+Formule trigonometriche:
+l_a
+\frac \cos \left ( \frac \right) \quad l_b
+\frac \cos \left ( \frac \right) \quad l_c= \frac \cos \left ( \frac \right)
+Teoremi legati alle bisettrici esterne
+Primo Teorema
+Due bisettrici esterne s'intersecano in un punto, detto ex-centro, equidistante dal lato comune e dai prolungamenti dei lati rimanenti del triangolo.
+Proprio come le bisettrici interne anche le esterne sono equidistanti da entrambi i lati del vertice, anche se uno di questi è rappresentato da un suo prolungamento, è quindi ovvio che, in analogia all'incentro, pure il punto d'incontro di due bisettrici esterne sia dunque equidistante dal lato comune ai vertici ed ai prolungamenti dei lati rimanenti;
+così come non deve stupire il fatto che per tale punto passi pure la bisettrice interna del terzo vertice.
+Teorema della bisettrice (esterna)
+Ogni bisettrice esterna interseca il prolungamento del lato opposto in un punto le cui distanze dagli estremi di questo stanno fra loro come i lati adiacenti.
+È un teorema simile a quello della bisettrice interna, che afferma che data la bisettrice esterna del vertice A questa incontra il prolungamento del lato opposto, BC, in un punto H, tale che HC e HB stanno tra loro come i lati CA e AB.
+"center">CA:
+HC:
+Note

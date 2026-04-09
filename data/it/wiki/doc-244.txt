@@ -1,0 +1,93 @@
+La retta o linea retta è uno dei tre enti geometrici fondamentali della geometria euclidea.
+Viene definita da Euclide nei suoi Elementi come un concetto primitivo.
+Un filo di cotone o di spago ben teso tra due punti è un modello materiale che ci può aiutare a capire cosa sia la retta, un ente geometrico immateriale senza spessore e con una sola dimensione.
+La retta è illimitata in entrambe le direzioni, e inoltre contiene infiniti punti, cioè è infinita.
+Viene generalmente contrassegnata con una lettera minuscola dell'alfabeto latino.
+Definizione geometrica
+La retta è il secondo ente fondamentale della geometria;
+geometricamente priva di alcuno spessore ha una sola dimensione:
+la lunghezza.
+Una retta può giacere (cioè essere contenuta) nel piano o nello spazio tridimensionale.
+Due rette nel piano possono essere:
+** Un caso particolare di rette incidenti si ha quando le due rette formano nel punto di intersezione quattro angoli retti, in tal caso sono dette perpendicolari
+* Parallele se non si intersecano o se hanno tutti i punti in comune;
+in questo caso sono coincidenti.
+Due rette parallele nel piano mantengono sempre la stessa distanza tra di loro (questa caratteristica, tipica della geometria euclidea, non è verificata per esempio nella geometria iperbolica, dove due rette parallele possono divergere).
+Due rette nello spazio possono essere:
+* Complanari se esiste un piano che le contiene entrambe.
+In questo caso, sono incidenti se si intersecano e parallele altrimenti.
+* Sghembe se non sono contenute in un piano comune, e di conseguenza non hanno punti in comune né sono parallele.
+Date due rette sghembe, per ognuna di esse passa un unico piano parallelo all'altra retta.
+La distanza tra questi due piani equivale alla distanza tra le due rette.
+Retta nel piano cartesiano
+Una retta nel piano cartesiano è descritta da un'equazione lineare
+dove i coefficienti a , b e c sono dei numeri reali fissati,
+con a e b non contemporaneamente nulli.
+Se b\neq 0 oppure a\neq 0 , è possibile descrivere la stessa retta in forma esplicita rispettivamente in una delle due forme seguenti:
+mx + q oppure x
+m'y + q'
+dove m si chiama coefficiente angolare e quantifica la pendenza della retta.
+Nella prima delle equazioni di cui sopra il termine noto q rappresenta l'ordinata del punto di intersezione della retta con l'asse delle y (ordinata all'origine o intercetta), nella seconda il termine noto q' rappresenta l'ascissa del punto di intersezione della retta con l'asse delle x.
+Retta nello spazio euclideo tridimensionale
+Nello spazio euclideo tridimensionale, una retta può essere descritta tramite equazioni cartesiane come luogo di intersezione di due piani non paralleli:
+\left\{ \beginax+by+cz+d=0 \\
+a'x+b'
+y+c'z+d'=0 \end \right.
+In questo caso le soluzioni del sistema dipendono da un solo parametro t ed è sempre possibile ricavare unequazione parametrica della retta:
+\left\{ \beginx=lt+x_o \\
+y=mt+y_o \\
+z=nt+z_o \end \right.
+dove il vettore =l+m+n è un vettore parallelo alla retta e il punto P (x_0,y_0,z_0) è un punto appartenente alla retta.
+Se l,m,n sono tutti diversi da zero è possibile ricavare la sua equazione normale (equazione a catena):
+\frac
+\frac
+\frac
+Sia le equazioni cartesiane che l'equazione parametrica della retta non sono univocamente determinate, e sono in effetti infinite.
+Retta in uno spazio euclideo n-dimensionale
+Nello spazio euclideo n-dimensionale \mathbb^n, una retta è un insieme dei punti del tipo
+r = \
+dove \mathbf_0 e \mathbf sono due vettori fissati in \mathbb^n con \mathbf diverso da zero.
+Il vettore \mathbf descrive la direzione della retta, mentre \mathbf_0 è un qualsiasi punto della retta.
+Scelte differenti dei vettori \mathbf_0 e \mathbf possono descrivere la stessa retta.
+Questa definizione di retta nello spazio di dimensione n è una estensione della rappresentazione in forma esplicita nel piano descritta sopra.
+Descrivere invece una retta in forma implicita come insieme di vettori che soddisfano delle equazioni lineari è più complicato, perché per il teorema di Rouché-Capelli sono necessarie n-1 equazioni.
+Distanza tra rette
+Si definisce come distanza tra due rette r e r' la distanza minima tra due punti P \in r e P' \in r'.
+Tale distanza è ovviamente nulla nel caso di due rette che si intersecano.
+Per esaminare i restanti due casi (rette parallele e sghembe) verrà utilizzata la rappresentazione parametrica, che permette una trattazione unitaria per tutte le dimensioni.
+Siano dunque date due rette \mathbf e \mathbf di equazioni parametriche rispettivamente:
+\mathbf
+\mathbf+\mathbft \qquad e \qquad
+\mathbf
+\mathbf+\mathbft'
+dove \mathbf e \mathbf sono i loro vettori direzionali e \mathbf e \mathbf i vettori associati al punto T della retta \mathbf e al punto T' della retta \mathbf, relativamente alla terna cartesiana \mathbf.
+Distanza tra rette parallele
+Dato che le rette sono parallele possiamo misurare la distanza a partire da un punto qualsiasi della prima retta.
+Scegliamo il punto di \mathbf segnato dal vettore \mathbf.
+Ogni punto della retta \mathbf può essere espresso nella forma \mathbf + t' \mathbf.
+Se chiamo \mathbf il vettore ortogonale a \mathbf che segna la distanza dall'altra retta, allora per le proprietà del prodotto scalare
+\mathbf \cdot \mathbf
+(\mathbf + t' \mathbf - \mathbf) \cdot \mathbf
+Ottenuto \mathbf risolvendo la precedente equazione (incognita in t') è sufficiente calcolare la norma di \mathbf quindi con riferimento all'equazione parametrica la distanza d (r,s) fra due rette parallele r e s si può scrivere come:
+d (r,s) = \left \mathbf \times \frac \right |
+dove il vettore \mathbf è un vettore parallelo alle rette e il vettore \mathbf è il vettore che congiunge un punto R (x_r,y_r,z_r) della retta r e un punto S (x_s,y_s,z_s) della retta s ovvero la distanza fra due rette parallele è data dalla proiezione del vettore \mathbf nel verso ortogonale alle stesse.
+Dimostrazione:
+dalle formule del prodotto vettoriale, i moduli dei versori sono unitari, resta:
+\ \left| \mathbf \right| \, \mathrm \, \theta
+Distanza tra rette sghembe
+Se definiamo \mathbf come il vettore ortogonale a \mathbf \mbox \mathbf, la cui norma è la distanza tra le due rette, il nostro problema si riduce a trovare la norma di \mathbf.
+I tre vettori \mathbf, \mathbf e \mathbf sono una base, e possiamo quindi facilmente scomporre il vettore \mathbf-\mathbf lungo le tre componenti.
+Quindi
+(\mathbf-\mathbf)= \frac\frac + \frac\frac + \frac\frac
+Molto semplicemente si ricava che
+(\mathbf-\mathbf) - \frac\frac - \frac\frac
+\frac\frac
+\mathbf
+con riferimento all'equazione parametrica la distanza d (r,s) fra due rette sghembe r e s si può scrivere come:
+d (r,s)=\left |\mathbf \cdot \frac \right |
+dove il vettore \mathbf è il vettore che congiunge un punto R (x_r,y_r,z_r) della retta r che ha vettore parallelo \mathbf e un punto S (x_s,y_s,z_s) della retta s che ha vettore parallelo \mathbf, il vettore \mathbf è il vettore ortogonale \mathbf=\mathbf \times \mathbf ovvero la distanza fra due rette sghembe è data dalla proiezione del vettore \mathbf nel verso del vettore \mathbf.
+Dimostrazione:
+dalle formule del prodotto scalare il modulo del versore è unitario, resta :
+\left |\mathbf \right | \cos
+\theta
+Note

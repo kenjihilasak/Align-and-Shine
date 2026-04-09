@@ -1,0 +1,35 @@
+Hypertext
+Transfer Protocol|HTTP
+En informatique, l’erreur 404 est un code d’erreur du protocole de communication HTTP sur le réseau Internet.
+Ce code est renvoyé par un serveur HTTP pour indiquer qu'aucune ressource (généralement une page web) n'a été trouvée à l'adresse demandée.
+Le premier 4 indique une erreur dans la requête, ici une mauvaise URL, venant d’une page obsolète ou d’une erreur de saisie d’adresse web de la part du visiteur.
+Le dernier 4 indique le problème causé par cette erreur : la ressource est introuvable.
+Ce code peut aussi être détourné de son sens et renvoyé à la suite d'une restriction d’accès à certaines ressources web (par exemple due à une censure).
+Certains navigateurs web affichent alors le message « » (de l’anglais signifiant «
+fichier introuvable ») à destination de l’internaute.
+De telles erreurs peuvent aussi apparaître
+comme :
+Il existe un certain nombre d'outils, à l'image d'analyseurs de liens cassés comme l'extension Broken Link
+Checker de WordPress, pouvant être utilisés par les webmasters pour lister les erreurs 404, afin de pouvoir les réparer manuellement.
+Ces outils peuvent être utiles pour rechercher des liens existant dans un site Web particulier.
+La limite de ces outils est qu'ils ne trouvent que des liens dans un site Web en particulier et ignorent les erreurs 404 résultant de liens sur d'autres sites.
+En conséquence, ces outils manquent 83% des erreurs 404 des sites Web.
+Une solution consiste à rechercher des erreurs 404 en analysant des liens externes.
+Une autre méthode courante consiste à suivre le trafic sur les pages d'erreur 404 à l'aide d'une analyse de fichier historique.
+Cela peut être utile pour en savoir plus sur ce que les utilisateurs confrontés à l'erreur 404 ont consulté sur le site.
+Une autre méthode de suivi du trafic sur les pages d'erreur 404 consiste à utiliser des outils de suivi du trafic basés sur l'analyse des journaux des serveurs
+Web comme Awstats ou bien encore sur le langage JavaScript comme Matomo.
+Il est préférable d’utiliser un code d’en-tête 410, lorsque la ressource n’existe plus.
+Dans la culture
+Origine
+La légende attribue le numéro d’erreur «
+404 » à l’anecdote selon laquelle « au CERN, en Suisse, les chercheurs, excédés d’aller sans cesse relancer un serveur défaillant installé dans le bureau , aient attribué ce numéro d’erreur au défaut de connexion, en souvenir de cette pièce maudite ».
+Cette légende a été démentie par Tim Berners-Lee lors d'une séance de question réponse menée sur Reddit en mars 2014.
+Erreur 404 personnalisée
+De nombreux webmasters ont décidé de personnaliser cette page d'erreur, la page 404 étant réellement devenue partie intégrante de la culture du Web.
+En outre, de nombreux sites créent leur propre message d'erreur.
+Les serveurs Web sont généralement configurés pour afficher une page d'erreur 404 personnalisée, qui donne une description plus naturelle du message, parfois un plan du site, un formulaire de recherche ou un widget de page 404.
+La phrase de niveau protocole, qui est cachée à l'utilisateur, est rarement personnalisée.
+De nombreuses organisations utilisent les pages d'erreur 404 comme une occasion d'injecter de l'humour dans ce qui est généralement perçu par l'utilisateur comme un bug et une erreur de la part de l'organisation.
+Dans l'argot
+Dans l'argot l'expression "Erreur 404" signifie un état de stupéfaction ou d'incompréhension.

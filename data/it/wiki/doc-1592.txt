@@ -1,0 +1,25 @@
+Il prisma in geometria solida è un poliedro le cui basi sono due poligoni congruenti di n lati posti su piani paralleli e connessi da un ciclo di parallelogrammi (le "facce laterali").
+Nomenclatura
+Le basi
+Se il poligono che forma le basi è un particolare poligono, ad esempio un triangolo, quadrato, pentagono, etc. si parla rispettivamente di "prisma triangolare", "prisma quadrato", '"pentagonale", etc. In generale, si parla di "prisma n-gonale".
+Prismi retti e obliqui
+Se le facce laterali sono tutte dei rettangoli il poliedro è un "prisma retto":
+in questo caso infatti le facce laterali formano degli angoli retti con entrambe le basi.
+In caso contrario si parla di "prisma obliquo".
+Parallelepipedi
+Un prisma che ha tutte le facce a forma di parallelogramma è un parallelepipedo.
+Si tratta, quindi, di un prisma le cui basi sono parallelogrammi.
+Prismi regolari
+Un "prisma regolare" è un prisma retto la cui base è un poligono regolare.
+Grafo
+Proprietà
+Dualità
+Il poliedro duale di un prisma è una bipiramide.
+Volume
+Il volume di un prisma è dato dal prodotto dell'area di una delle sue basi per la distanza tra i piani (paralleli) ai quali appartengono.
+Se il prisma è retto, questa distanza è pari alla lunghezza di uno spigolo verticale (altrimenti no).
+Simmetrie
+Un prisma regolare con n\neq 4 lati ha 4n simmetrie.
+Per n=4 il prisma regolare è in realtà un cubo e le simmetrie sono di più (48), perché è possibile scambiare una faccia laterale con una base.
+Più precisamente, il gruppo di simmetria di un prisma regolare con n\neq 4 lati è il prodotto diretto D_\times \mathbb Z/_ del gruppo diedrale di ordine 2n con il gruppo ciclico di ordine 2.
+Il gruppo diedrale rappresenta infatti tutte le simmetrie che preservano ciascuna base, ed è quindi isomorfo al gruppo D_ di simmetrie di un n-gono regolare, mentre il secondo fattore rappresenta l'isometria che scambia le due basi.

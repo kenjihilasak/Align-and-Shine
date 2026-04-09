@@ -1,0 +1,83 @@
+Casse-tête mécanique
+articulé|Rubik'
+s Cube
+Le V
+Cube 6 est la version 6×6×6 du Rubik's Cube.
+Contrairement au puzzle original (mais comme le Rubik's Revenge), il ne possède pas de cube fixe : les cubes du centre (16 par face) sont libres de se déplacer dans différentes positions.
+Il a été inventé par Panagiotis Verdes et est produit par sa compagnie Verdes Innovations SA.
+Les méthodes pour résoudre le cube 3×3×3 fonctionnent pour les arêtes et les coins du cube 6×6×6.
+Le cube fait et sa masse est
+de .
+Mécanique
+Le puzzle est composé de 152 cubes miniatures ("cubies") à sa surface.
+Il y a également 60 pièces entièrement mobiles cachées à l'intérieur du cube, ainsi que six pièces fixes attachées à la charpente centrale.
+Le puzzle utilise
+le même mécanisme que le V-Cube 7, sauf que sur ce dernier les morceaux cachés sont visibles.
+Toutefois, les 16 cubes du centre de chaque sont une façade carrée simplement accrochée au mécanisme interne caché.
+C'est le changement principal par rapport au cube 3×3×3, parce que les pièces du centre peuvent se déplacer les unes par rapport aux autres, contrairement au centre fixe sur l'original.
+Il y a 48 pièces d'arête montrant deux couleurs chacune, et huit pièces de coin montrant trois couleurs.
+Chaque pièce (ou carré de pièce de bord) montre une combinaison de couleur unique, mais toutes les combinaisons ne sont pas présentes (par exemple, il n'y a pas d'arête avec un côté noir et jaune, puisque noir et jaune sont sur des faces opposées du cube résolu).
+La position de ces cubes relativement à un autre peut être modifiée en tournant les couronnes extérieures du cube de 90, 180 ou 270°, mais la position relative d'une face colorée par rapport à une autre sur le cube fini ne peut être modifiée (la face jaune sera toujours opposée à la face noire), elle est définie par les pièces des bords (arêtes et coins).
+Actuellement, le V-Cube 6 est produit avec du plastique blanc, avec rouge opposé à orange, bleu opposé à vert, et jaune opposé à noir.
+Un cube du centre de la face noire est marqué de la lettre V.
+Contrairement
+au V
+Cube 7 arrondi produit par la même compagnie, le V
+Cube 6 a des faces planes.
+Toutefois, les pièces extérieures sont légèrement plus larges que celles du centre.
+Les quatre rangées du centre font environ d'épaisseur, tandis que les deux rangées extérieures font environ de large.
+Cette différence permet d'utiliser des tiges plus épaisses pour relier les coins au mécanisme interne, rendant le puzzle plus résistant.
+Permutations
+Il y a 8 coins, 48 arêtes et 96 centres.
+Toutes les permutations des coins sont possibles.
+Sept coins peuvent être tournés indépendamment, et l'orientation du huitième dépend des sept autres, donnant 8!×3 combinaisons.
+Il y a en tout 96 cubelets composant les centres des 6 faces.
+Chaque type de pièce du centre existe en 24 exemplaires (4 de chaque couleur).
+Ces pièces du centre peuvent être échangées avec d'autres pièces du même type de n'importe quelle autre face.
+Chaque jeu de pièce peut donc être arrangé de 24 différentes façons.
+Sachant que l'on ne peut pas distinguer deux pièces du même set ayant la même couleur, le nombre de permutation est réduit à 24!/ (4!) arrangements, tous sont possibles, indépendamment des cubelets des coins.
+Le facteur de réduction vient du fait que chaque set de pièces d'une même couleur peut être réarrangé de 4 façons différente.
+La puissance 6 vient du nombre de couleurs.
+Le nombre total de permutations des centres est augmenté d'une puissance 4, 24!/ (4!), car il y a en tout 4 types différents de pièces composant le centre.
+Une permutation impaire des coins implique une permutation impaire des cubelets du centre, et vice versa.
+Cependant, les permutations paires et impaires ne sont pas distinguables à cause des cubelets de couleurs identiques.
+Il y a également 48 pièces sur les bords, qui se répartissent en 24 bords internes et 24 bords externes.
+On ne peut pas retourner sur elle-même une pièce toute seule (car la forme interne des pièces est asymétrique).
+On ne peut également pas échanger un bord interne avec un bord externe.
+Les quatre pièces du bord composant une même arête sont distinguables les unes des autres, car les couleurs sur un cubelet est unique.
+N'importe quelle permutation des cubelets d'une arête est possible, y compris les permutations impaires, soit 24!
+permutation pour chacun ou 24!
+au total si on ne tient pas compte de l'orientation des coins ou des centres.
+Sachant que le cube n'a pas d'orientation fixée dans l'espace (aucune pièce fixe ne nous indique la couleur d'une face), et en considérant que les permutations résultants de la rotation du cube sans tourner les couches sont considérés comme identiques, le nombre de permutations est réduit par un facteur 24.
+Cela vient du fait qu'aucune des six couleurs ne peut être choisie de façon préférentielle comme étant une couleur de référence, chaque face peut être intégralement tournée d'un angle de 0°, 90°, 180° ou 270° pour mettre une autre coleur "devant" (à sa place initiale).
+Ce facteur n'apparait pas dans le calcul des permutations des cubes impaires car ces derniers ont des centres fixes qui imposent une orientation spatiale au cube.
+Ceci donne un nombre total de permutations
+\frac
+\approx 1.57 \cdot 10^
+Le nombre entier est 157 152 858 401 024 063 281 013 959 519 483 771 508 510 790 313 968 742 344 694 684 829 502 629 887 168 573 442 107 637 760 000 000 000 000 000 000 000 000.
+Toutefois, une des pièces du centre de la face noire est marquée d'un V, ce qui la distingue des trois autres, et accroit le nombre de positions d'un facteur 4 à 6,29×10, ainsi toutes les orientations de cette pièce peuvent être considérées comme correctes.
+Solutions
+Il y a de nombreuses méthodes pour résoudre le V-Cube 6.
+La méthode couche par couche souvent utilisée pour le cube 3×3×3 peut être employée.
+Une méthode, dite centre first pour centres en premier consiste à regrouper en premier lieu les centres de la même couleur ensemble, puis d'aligner les arêtes présentant les deux mêmes couleurs.
+Une fois fait, en ne tournant que les faces extérieures, cela revient à résoudre le cube 3×3×3.
+Toutefois, certaines positions ne pouvant pas être résolues sur un cube 3×3×3 peuvent se présenter.
+Parmi ces cas dit "foireux", qui sont totalement impossibles à avoir ou à résoudre avec un cube impair, on peut citer :
+* échange de deux coins : deux coins adjacents ont échangé leurs positions
+* échange de deux arêtes :
+deux arêtes se faisant face ont leurs positions échangées
+* mauvais placement d'une arête : une arête est retournée
+Ces échanges sont qualifiés de parité pair, et sont impossibles sur les cubes impairs (avec 3,5,7... cubes par côté).
+Ces situations sont aussi connues comme des erreurs de parité, bien qu'en vérité ils ne soient que des positions impossibles avec les cubes impairs.
+Cependant, ces positions peuvent toujours être résolues avec des combinaisons de mouvements spéciaux qui doivent être exécutées sans grandes difficultés.
+Pour les personnes désirant connaître ces mouvements, vous pouvez les trouver http:/ cyril/revenge_step_4.php ICI.
+Une autre approche, totalement opposée à la première, dites edges first pour bords en premier est de commencer par rassembler les pièces des bords du cube, puis une fois fini d'achever de rassembler les pièces du centre.
+En s'y prenant de façon correcte, on peut totalement éviter les problèmes de parités décrits au-dessus avec cette méthodes.
+Cependant, elle a l'inconvénient d'être beaucoup plus longues .
+Records récents
+La moyenne est calculée sur 5 tentatives en enlevant à la fois les meilleurs et les moins bons temps.
+Variantes
+Des variantes du V
+Cube 6 à deux ou trois couleurs sont également commercialisées.
+Leurs faces représentent les drapeaux de différents pays.
+Voir aussi

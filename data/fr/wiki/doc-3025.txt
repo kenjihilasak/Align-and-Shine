@@ -1,0 +1,355 @@
+Antenne
+En radioélectricité, une antenne est un dispositif permettant de rayonner (émetteur) ou de capter (récepteur) les ondes électromagnétiques.
+L'antenne est un élément fondamental dans un système radioélectrique, et ses caractéristiques de rendement, gain, diagramme de rayonnement influencent directement les performances de qualité et de portée du système.
+Cet article définit les caractéristiques et paramètres généraux des antennes, chaque antenne et application particulière étant développée dans les articles liés.
+Historique
+Heinrich Hertz utilisa pour la première fois, en 1888, des antennes pour démontrer l'existence des ondes électromagnétiques prédites par la théorie de Maxwell.
+Il utilisa des antennes doublet, tant pour la réception que pour l'émission.
+Il installa même le dipôle émetteur au foyer d'un réflecteur parabolique.
+Les travaux et les dessins de l'installation furent publiés dans les Annalen der Physik und Chemie (vol.
+36, 1889
+Le terme « antenne » fut utilisé par Marconi.
+Théorie générale
+Une antenne radioélectrique convertit les grandeurs électriques existantes dans un conducteur ou une ligne de transmission (tension et courant) en grandeurs électromagnétiques dans l'espace (champ électrique et champ magnétique).
+Inversement, en réception, le champ électrique est converti en signal électrique qui peut ensuite être amplifié.
+Fonctionnement en émission
+Émission du doublet électrique élémentaire
+Une antenne élémentaire en émission, dénommée également doublet électrique, est constituée d'une petite longueur \scriptstyle de conducteur (petite devant la longueur d'onde \scriptstyle) dans lequel circule un courant alternatif \scriptstyle I :
+=I_\circ
+Dans laquelle \scriptstyle est la pulsation (et \scriptstyle la fréquence).
+\scriptstyle est le nombre imaginaire.
+(Cette notation, employant les nombres complexes correspond à la notation complexe des impédances).
+Soit un repère dont l'origine est placée au centre de l'antenne, et dont l'ordonnée se confond avec l'antenne, le champ \scriptstyle créé par cette antenne élémentaire en un point de coordonnées polaires \scriptstyle, telle que \scriptstyle r\gg\lambda est :
+\displaystyle
+E_=e^
+Dans lequel :
+* \scriptstyle E_ est l'amplitude du champ électrique au point \scriptstyle (r,\theta).
+* \scriptstyle est la permittivité diélectrique du vide.
+* \scriptstyle est la vitesse de la lumière dans le vide (plus généralement la vitesse de propagation des ondes électromagnétiques dans le vide).
+* \scriptstyle est la distance entre le dipôle et le point où le champ \scriptstyle est évalué.
+Le champ électrique lointain \scriptstyle de l'onde électromagnétique est coplanaire avec le conducteur et perpendiculaire à la ligne qui relie le point où il est évalué au conducteur.
+Si nous imaginons l'antenne élémentaire au centre d'une sphère et parallèle à l'axe nord-sud, le champ électrique de l'onde électromagnétique rayonnée sera parallèle aux méridiens et le champ magnétique de l'onde
+aura la même direction que les parallèles géographiques.
+Une telle antenne élémentaire n'existe pas.
+Une antenne filaire réelle quelconque sera considérée comme constituée par la juxtaposition d'antennes élémentaires, et ses caractéristiques seront obtenues par l'intégration des champs élémentaires, sachant que les caractéristiques du courant dans chaque élément sont différentes en amplitude et en phase.
+Une antenne cette fois réelle
+, que l'on peut ainsi construire, est l'antenne doublet demi-onde, encore appelée dipôle demi-onde.
+Si P est la puissance rayonnée par l'antenne élémentaire (doublet électrique), le champ électrique rayonné en un point situé à une distance r de cette antenne, est maximal dans une direction perpendiculaire au conducteur de l'antenne (sens du vecteur de Poynting).
+L'amplitude (maximale) de ce champ est donnée par la relation :
+E=\frac~
+en V/m
+P en W ;
+r en m.
+Avec k = 90 pour un doublet électrique élémentaire (élément théorique, petit par rapport à la longueur d'onde).
+Note :
+pour certains auteurs, le doublet électrique désigne plutôt le dipôle demi-onde, de longueur égale à la demi-onde.
+Émission de l'antenne isotrope
+L'antenne isotrope est une antenne fictive qui rayonnerait le même champ dans toutes les directions.
+Elle sert de référence pour définir le "gain" des antennes (voir plus loin)
+La formule précédente s'applique pour trouver l'amplitude maximale du champ E, en faisant k = 60 (on retrouve cette formule en considérant le flux du vecteur de Poynting sur la surface d'une sphère de rayon r).
+Si on considère le champ efficace, on fera k = 30.
+Émission du dipôle demi-onde
+Si on considère l'amplitude maximum du champ E dans une direction médiatrice du dipôle, la formule précédente s'applique en faisant k = 98 (2,15 dB de plus que l'antenne isotrope).
+Fonctionnement en réception
+Le champ électrique d'une onde électromagnétique induit une tension dans chaque petit segment de tout conducteur électrique.
+La tension induite dépend de la valeur du champ électrique et de la longueur du segment.
+Mais la tension dépend aussi de l'orientation du segment par rapport au champ électrique.
+Ces petites tensions induisent des courants et ces courants qui circulent traversent chacun une petite partie de l'impédance de l'antenne.
+Le résultat est que le schéma équivalent de Thévenin d'une antenne n'est pas immédiat à calculer.
+En utilisant le théorème de réciprocité on peut démontrer que le schéma équivalent de Thévenin d'une antenne en réception est le suivant :
+* \scriptstyle est la tension du schéma équivalent de Thévenin.
+* \scriptstyle
+\sqrt
+377\Omega est l'impédance intrinsèque du vide.
+* \scriptstyle est l'impédance du schéma équivalent de Thévenin et est égale à l'impédance de l'antenne.
+* \scriptstyle est la résistance série de l'impédance de \scriptstyle\, de l'antenne.
+* \scriptstyle est le gain de l'antenne (le même qu'en émission) dans la direction d'où viennent les ondes électromagnétiques.
+* \scriptstyle est le champ électrique de l'onde électromagnétique incidente.
+* \scriptstyle est l'angle de désalignement du champ électrique avec l'antenne.
+Par exemple, si l'antenne est un dipôle, la tension induite sera maximum quand le champ électrique est aligné avec le conducteur.
+Si ce n'est pas le cas, et qu'ils forment un angle de \scriptstyle, la tension induite sera multipliée par \scriptstyle.
+Cette formule donne donc l'atténuation en fonction de l'angle de dépolarisation.
+Le schéma équivalent et la formule à droite sont valables pour tout type d'antenne.
+Ce peut être une antenne dipolaire, une antenne parabolique, une antenne Yagi-Uda ou un réseau d'antennes.
+Notions relatives aux antennes réceptrices:
+les trois définitions suivantes découlent toutes de la formule du paragraphe précédent.
+Caractéristiques
+Les caractéristiques principales d'une antenne
+sont :
+Fréquence d'utilisation
+Une antenne s'utilise en général avec des signaux autour d'une fréquence donnée pour laquelle l'antenne possède des capacités optimales pour émettre ou recevoir l'énergie électromagnétique correspondante dans l'espace environnant.
+La fréquence de résonance d'une antenne dépend d'abord de ses dimensions propres, mais aussi des éléments qui lui sont ajoutés : on peut la mesurer approximativement avec un dipmètre.
+Par rapport à la fréquence de résonance centrale de l'antenne, un affaiblissement de détermine les fréquences minimum et maximum d'utilisation ;
+la différence entre ces deux fréquences correspond à la bande passante.
+Par exemple, une antenne classique est l'antenne dipôle demi-onde, qui résonne à la fréquence pour laquelle sa longueur est d'une demi longueur d'onde avec une largeur de bande d'environ 1 % si elle est très mince.
+En pratique, et pour les fréquences élevées, le diamètre du conducteur n'est plus négligeable par rapport à la longueur d'onde, ce qui augmente considérablement sa bande passante.
+En règle générale:
+* la bande passante d'une antenne
+diminue si l'antenne devient petite par rapport à la demi-onde : il n'existe pas d'antennes large bande et compactes.
+Du moins avec des pertes raisonnables.
+* la bande passante d'une antenne filaire augmente
+si le diamètre du conducteur augmente
+Certaines antennes dites
+« multibandes » peuvent fonctionner correctement sur des segments discontinus de bande de fréquences sans dispositif particulier.
+D'autres nécessitent l'emploi d'un circuit adaptateur d'impédance pour fonctionner correctement.
+Impédance d'antenne
+L'impédance d'antenne est la généralisation de la notion d'impédance utilisée pour les autres composants passifs (résistances, condensateurs, selfs…) aux antennes.
+Il s'agit donc du rapport complexe observé entre la tension et le courant à l'entrée d'une antenne en émission.
+L'utilité de cette notion est importante pour assurer les meilleurs transferts d'énergie entre les antennes et les dispositifs qui y sont connectés grâce aux techniques d'adaptation.
+Une antenne prise entre ses deux bornes d'accès constitue donc un dipôle ayant une impédance complexe R + jX où R et X représentent respectivement la résistance et la réactance de l'antenne.
+La résistance d'antenne R est elle-même la somme de deux types de résistance qui traduisent les différentes utilisations de l'énergie absorbée: la première Rp est la résistance liée aux pertes par effet Joule dans l'antenne tandis que la deuxième Rr est la résistance de rayonnement liée à l'énergie utile rayonnée par l'antenne dans l'espace qui l'entoure.
+On dit d'une antenne qu'elle résonne sur une fréquence si à cette fréquence le terme imaginaire jX est nul.
+La puissance absorbée par l'antenne est la puissance absorbée par la résistance R. La résistance
+Rr est parfois qualifiée de fictive, car elle n'est pas soumise à la loi de Joule : en effet, la puissance absorbée par cette résistance est, à la différence d'une véritable résistance, transformée en rayonnement électromagnétique.
+Très souvent, les constructeurs des antennes cherchent à obtenir une résistance pure R
+et X
+0 afin de pouvoir alimenter cette antenne par une ligne (plus rarement 300 ou ) mais toujours pour les antennes de la TNT.
+En effet, idéalement, l'antenne doit présenter à sa ligne d'alimentation une résistance pure égale à l’impédance caractéristique de cette ligne.
+La ligne d'alimentation fonctionnera alors "en onde progressive".
+Cette condition est pratiquement toujours recherchée aux fréquences au-delà de , car elle optimise le transfert d'énergie et surtout assure la transmission d'un signal fidèle en n'imposant pas de conditions sur la longueur de cette ligne.
+La mesure du rapport d'onde stationnaire permet de s'assurer que la ligne fonctionne en onde progressives.
+Cependant, pour les fréquences basses, il est parfois impossible d'obtenir une impédance résistive de .
+On doit alors intercaler entre l'antenne et la ligne d'alimentation un transformateur d'impédance qui aura pour but de transformer l'impédance complexe de l'antenne en une résistance pure, généralement de .
+C'est un dispositif d'adaptation ou adaptateur d'antenne.
+Le dispositif d'adaptation est parfois constitué par la ligne elle-même.
+La longueur de la ligne devient alors critique, et le rapport d'onde stationnaire est élevé.
+Polarisation
+La polarisation d'une antenne est celle du champ électrique E de l'onde qu'elle émet.
+Un dipôle demi-onde horizontal a donc une polarisation horizontale, d'autres antennes ont une polarisation elliptique ou circulaire.
+Dans cette optique de réception terrestre on peut considérer que l'antenne "type Yagi" atténue le signal d'un facteur 10 soit (10 db) lors de sa rotation du mode de réception horizontale au mode de polarisation verticale pour un même émetteur.
+En réception, l'écart entre la polarisation reçue et celle de l'antenne crée une atténuation pouvant être totale si la polarisation est perpendiculaire.
+La polarisation circulaire est utilisée si les antennes d'émission et réception sont orientées de façon aléatoire, par exemple pour les satellites défilants ou non stabilisés.
+Diagramme de rayonnement
+L'antenne isotrope, c'est-à-dire rayonnant de la même façon dans toutes les directions, est un modèle théorique irréalisable dans la pratique.
+En réalité, l'énergie rayonnée par une antenne est répartie inégalement dans l'espace, certaines directions étant privilégiées : ce sont les « lobes de rayonnement ».
+Le diagramme de rayonnement d'une antenne permet de visualiser ces lobes dans les trois dimensions, dans le plan horizontal ou dans le plan vertical incluant le lobe le plus important.
+La proximité et la conductibilité du sol ou des masses conductrices environnant l'antenne peuvent avoir une influence importante sur le diagramme de rayonnement.
+Les mesures sur les antennes sont effectuées en espace libre ou en chambre anéchoïque.
+Le diagramme de rayonnement complet peut être résumé en quelques paramètres utiles :
+Directivité
+La directivité de l'antenne dans le plan horizontal est une caractéristique importante dans le choix d'une antenne.
+Une antenne équidirective ou omnidirectionnelle rayonne de la même façon dans toutes les directions du plan horizontal.
+Une antenne directive possède un ou deux lobes nettement plus importants que les autres qu'on nomme « lobes principaux ».
+Elle sera d'autant plus directive que le lobe le plus important sera étroit.
+La directivité correspond à la largeur du lobe principal, entre les angles d'atténuation à 3 dB.
+Pour toutes les antennes, la dimension constitue un paramètre fondamental pour déterminer la directivité.
+Les antennes à directivité et à gain élevés seront toujours grandes par rapport à la longueur d'onde.
+Il existe en effet des relations mathématiques (transformation de Fourier) entre les caractéristiques spatiales et le diagramme de rayonnement.
+Gain
+Le gain définit l'augmentation de puissance émise ou reçue dans le lobe principal.
+Il est dû au fait que l'énergie est focalisée dans une direction, comme l'énergie lumineuse peut être concentrée grâce à un miroir et/ou une lentille convergents.
+Il s'exprime en dBi (décibels par rapport à l'antenne isotrope).
+Pour une antenne, le miroir peut être constitué par un élément réflecteur (écran plan ou parabolique) tandis qu'un élément directeur (dans une antenne Yagi, par exemple) jouera le rôle de la lentille.
+Lobes et zéros secondaires
+Aux angles proches du lobe principal, une antenne présente des minima et maxima relatifs appelés «
+lobes secondaires » qu'on tente de minimiser.
+Les antennes à grande directivité présentent également des lobes faibles et irréguliers dans tous les autres angles, appelés « lobes diffus ».
+Le niveau général de ces lobes secondaires décrit la sensibilité de l'antenne au brouillage (en télécommunications) ou la finesse d'imagerie (en radar).
+Une direction où le gain est faible peut être mise à profit pour éliminer un signal gênant (en réception) ou pour éviter de rayonner dans une région où il pourrait y avoir interférence avec d'autres émetteurs.
+Angle de départ
+vertical
+Dans le cas d'une antenne proche du sol, en particulier en haute fréquence et moyenne fréquence, le diagramme vertical dépend de l'éloignement du sol.
+Il en résulte une perte de gain dans le plan horizontal.
+L'angle du lobe principal dans le plan vertical définit les performances d'une antenne vis-à-vis des modes de propagation ionosphériques.
+Rendement
+La somme des puissances émises dans toutes les directions définit la puissance effectivement rayonnée.
+Le rapport avec la puissance fournie par la ligne de transmission définit son rendement.
+La résistance présentée par l'antenne a deux origines :
+* la résistance de rayonnement
+L'énergie absorbée par la résistance de rayonnement est en fait l'énergie rayonnée par l'antenne.
+* la résistance de pertes
+L'énergie absorbée par cette résistance est dissipée en chaleur par l'antenne, par effet joule dans les résistances ou par pertes dans les diélectriques.
+Le rendement est fonction du rapport entre ces deux résistances.
+Une antenne aura un bon rendement si la résistance de pertes est faible devant la résistance de rayonnement.
+Les antennes du type dipôle demi-onde ou monopole ont en général une résistances de rayonnement bien plus élevées que leur résistance de pertes, et leur rendement reste donc bon.
+Par contre, si l'antenne possède des dimensions faibles par rapport au dîpôle demi-onde, sa résistance de rayonnement va diminuer.
+C'est alors que se posera vraiment le problème du rendement et qu'il faudra chercher à réduire aussi la résistance de pertes (qualité des surfaces conductrices, élargissement des conducteurs...)
+Si on considère la puissance appliquée à l'entrée de la ligne de transmission, le rendement est évidemment plus faible, puisqu'une partie de l'énergie est dissipée dans cette ligne.
+Une ligne est caractérisée par les pertes en dB par unité de longueur, pour une fréquence donnée.
+Mais si la ligne est le siège d'ondes stationnaires du fait de la désadaptation, les pertes dans la ligne seront encore supérieures.
+Puissance maximale en émission
+Le rendement définit la puissance effectivement rayonnée, la puissance non rayonnée est dissipée thermiquement soit dans les fils, raccords, visseries, etc., ce qui limite la puissance moyenne tolérée.
+La puissance crête maximale tolérée dépend du champ électrique avant amorçage en chaque point de l'antenne, dans les lignes, pointes, guides, supports, isolants.
+Le point le plus critique est en général la ligne de transmission, coaxiale ou guide : son diamètre doit être adapté, ainsi que son diélectrique.
+Formes et dimension
+La forme et les dimensions d'une antenne sont extrêmement variables : celle d'un téléphone portable est parfois invisible car à l'intérieur du boîtier ou se limitant à une petite excroissance sur l'appareil, tandis que la parabole du radiotélescope d'Arecibo dépasse de diamètre.
+Très grossièrement on peut dire que pour la même fréquence d'utilisation, les dimensions d'une antenne seront d'autant plus grandes que son gain sera élevé et son lobe principal plus étroit.
+Les antennes directives peuvent être fixes pour les liaisons point à point, ou rotatives en télécommunications mobiles.
+Les antennes de poursuite des satellites sont orientables en azimut (direction dans le plan horizontal) et en site (hauteur au-dessus de l'horizon).
+Types
+Les formes d'antennes sont multiples, mais peuvent être regroupées en familles.
+Antennes élémentaires
+Les antennes élémentaires peuvent être utilisées isolément ou comme éléments de réseaux, ou comme source d'un système à réflecteur ou à éléments parasites.
+Ces antennes ne permettent qu'une polarisation linéaire.
+L'antenne isotrope est une référence théorique irréalisable, qui rayonnerait également dans toutes les directions.
+Elle ne sert que de référence à l'évaluation du gain (voir ci-dessous).
+L'antenne dipolaire ou «
+dipôle demi-onde » ou «
+doublet demi-onde » est constituée d'un élément conducteur de longueur égale à la demi longueur d'onde.
+Son impédance caractéristique est résistive et voisine de pour un dipôle isolé dans l'espace.
+L'antenne «
+monopôle » ou «
+quart d'onde » est constituée d'un élément de longueur égale au quart de longueur d'onde, perpendiculaire à un plan conducteur.
+Elle se comporte comme un demi dipôle, le plan conducteur agissant en miroir.
+Son impédance caractéristique est la moitié de celle du dipôle soit environ .
+Sa forme dépend des fréquences, depuis l'« antenne en parapluie » en VHF ou en « nappe » pour ondes kilométriques.
+* Fentes rayonnantes : aux fréquences élevées (hyperfréquences)
+, les ondes sont plus faciles à manipuler que les courants et tensions, la fente rayonnante attaquée par un guide d'onde est l'équivalent d'un dipôle attaqué par une ligne symétrique (dualité).
+La boucle est l'élément de base des antennes quad ou cadres.
+Antennes en réseaux
+Les antennes élémentaires peuvent être assemblées en réseaux à une ou deux dimensions, augmentant ainsi le gain et la directivité.
+Le diagramme d'une antenne réseau peut être modulé en modifiant phase et amplitude des excitations individuelles.
+L'antenne rideau ou « colinéaire » comporte en VHF/UHF plusieurs dipôles alimentés par une ligne parallèle, en général devant un réflecteur.
+En basse fréquence ce sont des monopoles ou des dipôles multiples alimentés par des lignes coaxiales indépendantes.
+L'antenne "cierge" est omnidirectionnelle dans le plan horizontal.
+Elle est composée de plusieurs dipôles demi-onde alimentés de façon à rayonner en phase.
+Ces dipôles sont disposés bout à bout verticalement les uns au-dessus des autres, et enrobés dans une enveloppe de protection.
+Plus le nombre de dipôles est important, plus l'antenne sera longue, plus son gain sera important et sa directivité dans le plan vertical élevée.
+L'antenne Yagi-Uda à éléments parasites, est la plus connue du public : c'est le « râteau » utilisé pour la réception de la télévision analogique ou numérique terrestre.
+Son gain et sa directivité dépendent du nombre d'éléments (donc de sa longueur).
+C'est une variante d'antenne réseau, les éléments parasites étant alimentés par couplage, grâce au choix de leur longueur.
+* Les panneaux rayonnants en hyperfréquence comportent de nombreuses antennes élémentaires, en général antenne patch (ou plane ou planaire), sur un support plan.
+* les antennes hybrides (planaire + éléments) plus connues en TNT sous antenne compacte.
+Antennes à réflecteurs
+En hyperfréquences, les antennes peuvent utiliser des montages similaires à l'optique, avec des réflecteurs plans ou paraboliques.
+L'antenne parabolique est la plus connue pour son usage en télévision satellitaire.
+* Les antennes de très grands diamètres utilisées en transmissions spatiales ou en radioastronomie utilisent aussi des montages type Cassegrain similaires aux télescopes.
+Antennes pour polarisation circulaire
+Une combinaison de deux antennes élémentaires croisées permet d'émettre ou de recevoir en polarisation circulaire.
+D'autres principes sont spécifiques à la polarisation circulaire.
+L'antenne
+Yagi croisée combine deux antennes
+Yagi attaquées avec un déphasage de .
+L'antenne hélice monofilaire, de forme «
+tire-bouchon » permet de réaliser un diagramme étroit, adapté par exemple à la poursuite de satellites.
+L'antenne hélice quadrifilaire permet de réaliser un diagramme favorisant les angles latéraux (utilisée en communications spatiale avec les satellites défilants.
+Antennes à guide d'onde
+L'antenne cornet utilisée en hyperfréquence est une ouverture rayonnante excitée par un guide ou un monopôle, rectangulaire en polarisation linéaire, circulaire en polarisation circulaire.
+* Les réseaux de fentes rayonnantes sont des réseaux de dipôles ouverts sur un guide.
+Leur géométrie permet de définir le faisceau et la polarisation (antenne à fentes).
+Antennes actives
+Une antenne active incorpore un circuit d'amplification directement aux bornes de l'antenne élémentaire, soit en réception pour adapter l'impédance (en basse fréquence par exemple), soit en émission pour permettre la création de diagrammes complexes dans un montage en panneau rayonnant.
+Ces antennes réseau à commande de phase
+sont utilisées pour les radars d'observation spatiale ou aéroportés, les radars de détection stratégiques, et peuvent comporter un millier d'éléments actifs.
+Antennes raccourcies
+L'une des antennes les plus utilisées dans les équipements portables est l'antenne "quart d'onde".
+Elle utilise l'équipement mobile comme plan de masse, et sa longueur théorique est d'un quart de longueur d'onde.
+En pratique, on peut réduire encore sa longueur en intercalant une inductance à sa base.
+Une autre technique plus récente et plus efficace consiste à réaliser le conducteur à l'aide d'un enroulement serré, en forme de ressort.
+L'ensemble est rendu rigide en entourant cet enroulement avec une membrane plastique.
+On obtient ainsi l'antenne dite "boudin", utilisée dans les équipements portables.
+On peut ainsi raccourcir l'antenne d'un facteur quatre.
+Cette réduction de la taille se paie par une réduction importante de la bande passante et de son gain par rapport au "quart d'onde" réel.
+Antennes à large bande
+Une antenne élémentaire présente une fréquence de résonance et une largeur de bande liées à son rapport longueur/diamètre, En augmentant ce rapport il est possible d’obtenir une bande passante de 50 %.
+Un dipôle à large bande ressemble alors à un haltère en hyperfréquence, ou à un double cône filaire en haute fréquence.
+L'antenne apériodique type
+T2FD
+W3HH
+ou TTFD
+est utilisable sur une gamme de fréquences de l'ordre de 1 à 5 (exemple à ) et jusqu'à 1 à 9 pour certains modèles (exemple à ).
+Pour aller au-delà, les antennes spéciales fonctionnant sur une décade ou plus, sont du type antenne log-périodique ou assimilées comme l’antenne discone, l’antenne plate hélicoïdale, etc.
+Antennes patch
+L’antenne planaire ou patch (en anglais) est une antenne plane dont l'élément rayonnant est une surface conductrice généralement carrée, séparée d'un plan réflecteur conducteur par une lame diélectrique.
+Sa réalisation ressemble à un circuit imprimé double face, substrat, et est donc favorable à une production industrielle.
+Le concept d'antenne patch est apparu dans les années 1950, mais le véritable développement ne s'est fait que dans les années 1970 et elle est devenue populaire avec la miniaturisation des systèmes de radiocommunication.
+Ce type d'antenne peut être utilisé seul ou comme élément d'un réseau.
+Antennes cadres et boucles
+Quand la longueur d'onde est trop grande par rapport aux dimensions possibles de l'antenne, on utilise les antennes cadres ou boucles.
+On parle d'antenne cadre s'il y a plusieurs spires, et de boucle s'il n'y en a qu'une.
+Ces antennes sont en fait des circuits résonants que l'on agrandit au maximum pour obtenir un rayonnement.
+Comme les dimensions restent petites par rapport à la longueur d'onde, la résistance de rayonnement reste très faible, souvent inférieure à l'ohm.
+Le rendement est alors réduit, car la résistance ohmique peut être supérieure à la résistance de rayonnement.
+Pour favoriser le rendement, la résistance ohmique doit être minimisée, le coefficient de surtension est alors élevé, et l'antenne a une bande passante faible.
+On utilise ces antennes dans les systèmes RFID, les lecteurs de cartes à puces radio, dans les télécommandes de petites dimensions, etc.
+Si on place un bâton de ferrite dans une antenne cadre, il n'est plus nécessaire d'agrandir physiquement le diamètre de la bobine, c'est la ferrite qui concentre le champ H:
+on a alors les antennes utilisées sur les récepteurs radio en moyenne fréquence.
+Mode d'alimentation
+L'antenne est généralement déployée à l'extérieur, voire fixée au sommet d'un mât.
+Pour acheminer vers l'antenne l'énergie à haute fréquence fournie par l'émetteur ou en sens inverse amener le signal capté par l'antenne jusqu'à l'entrée du récepteur, on utilise une ligne de transmission ou un guide d'onde.
+Pour obtenir un fonctionnement optimal, l'impédance au point d'alimentation doit être égale à l'impédance caractéristique de la ligne d'alimentation.
+L'ordre de grandeur des impédances rencontrées est de quelques dizaines (50 ou pour le câble coaxial) et quelques centaines d'Ohms ( pour une ligne bifilaire).
+Outre l'adaptation des impédances, une antenne symétrique (comme le doublet demi-onde) doit être alimentée par une ligne symétrique (comme la ligne bifilaire) ou par un système rendant l'alimentation symétrique (balun) et une antenne asymétrique comme l'antenne verticale par une ligne asymétrique : un câble coaxial, par exemple.
+Une antenne peut également être alimentée par une ligne de transmission à haute impédance, constituée de deux fils parallèles en l'air, d'impédance caractéristique .
+L'adaptation à une ligne de transmission classique se fait alors à son extrémité.
+Ce montage est fréquent pour alimenter les éléments individuels d'une antenne rideau.
+En hyperfréquences on utilise aussi des guides d'ondes, sortes de tubes de section rectangulaire ou elliptique dans lesquels circulent les ondes.
+Les guides d'onde permettent d'acheminer les ondes avec des pertes minimales et supportent des puissances élevées (plusieurs MW pour un radar de contrôle aérien par exemple).
+Pour permettre le fonctionnement d'une antenne élémentaire sur une large bande de fréquence, un système adaptateur d'antenne peut être inséré, adaptant pour chaque fréquence l'impédance complexe de l'antenne à la ligne de transmission.
+Il est à noter que l'EBU favorise par ses prescriptions une tension d'alimentation de pour l'alimentation des (pré-)amplificateurs externes ceci en vue de pourvoir à la protection du rapport signal bruit (S/N) par l'augmentation de l'intensité du courant d'alimentation de l'amplificateur dans la ligne coaxiale et le filtrage (dimensions des condensateurs)
+Antennes de réception
+Toute antenne d'émission est adaptée à la réception.
+Toutefois certaines antennes utilisées en réception ont un rendement très faible en émission () ou bien ne pourraient supporter une puissance d'émission importante en raison des pertes ou des surtensions trop élevées qui pourraient les détériorer.
+Les antennes de réception dites
+« actives » incorporent un préamplificateur
+adaptateur entre l'élément d'antenne et la ligne de transmission.
+Cet élément actif comporte en outre dans le cas des antennes de télévision satellitaires, un changement de fréquence pour réduire les pertes de distribution.
+En radiodiffusion moyenne fréquence ou basse fréquence, les antennes cadre sur ferrite permettent une réception avec une installation plus compacte qu'une antenne filaire, et moins sensible aux parasites.
+Ces antennes présentent un angle d'annulation, et doivent éventuellement être orientées.
+En réception, il est fréquent qu'une antenne soit utilisée largement en dehors de sa fréquence d'accord.
+c'est le cas des antennes d'auto-radio dont la fréquence de résonance est proche de la bande de radiodiffusion « FM » (bande des Ondes Ultras Courtes, bande OUC)
+vers , et qu'on utilise en petites ondes ou même grandes ondes à quelques centaines de kilohertz avec une longueur d'onde de l'ordre du kilomètre.
+Champs autour d'une antenne
+Une antenne, utilisée en émission, ne crée une onde plane qu'à une certaine distance.
+On peut distinguer quatre zones dans l'environnement de l'antenne, au fur et à mesure qu'on s'éloigne de celle-ci :
+* Zone de champs réactifs.
+Très proche des éléments composant l'antenne, on trouve des champs E et des champs H, fonction des tensions et des courants sur ces conducteurs.
+À proximité d'une tension élevée, on trouvera essentiellement un champ E, et à proximité des courants, essentiellement un champ H.
+* Zone de Rayleigh.
+On trouve une zone où la puissance par unité de surface décroît peu en fonction de la distance, bien que le rapport E/H soit déjà proche de .
+Cette zone, surtout identifiable pour les antennes à gain, s'étend jusqu'à une distance égale au carré de la dimension de l'antenne (mesurée dans une direction perpendiculaire à la direction considérée), divisé par lambda H s'est équilibré à .
+Mais on observe des variations importantes des champs, et même des ondulations si l'antenne est de grande dimension.
+On ne peut pas faire encore de mesure du gain de l'antenne dans cette zone.
+Dans la direction du maximum de rayonnement, les différentes parties de l'antenne censées rayonner en phase à l'infini, ne rayonnent pas encore en phase.
+* Zone de Fraunhofer.
+On la caractérise de la façon suivante: Dans cette zone, si on s'éloigne indéfiniment dans la même direction, on constate que la différence des distances entre les points de l'antenne ne varie plus.
+Dans la direction du maximum de rayonnement, les différentes parties de l'antenne censées rayonner en phase à l'infini, rayonnent bien en phase.
+Dans cette zone, qui s'étend jusqu'à l'infini, on peut considérer que l'on a une onde plane, les champs décroissent en 1 r² et on peut mesurer le gain de l'antenne.
+C'est aussi seulement dans cette zone que le diagramme de rayonnement est valable.
+Cette zone commence à une distance égale à deux fois le carré de la plus grande dimension perpendiculaire à la direction considérée, divisé par lambda.
+Cette distance peut être très grande pour les antennes à grand gain.
+Pour mesurer le gain d'une antenne à grand gain, il est donc important de savoir définir la zone de Fraunhofer.
+Par exemple, dans l'axe d'une parabole de de diamètre, et sur , la zone de Fraunhofer commence à plus de .
+Perturbation d'une antenne par son environnement immédiat
+L'environnement proche d'une antenne n'est pas toujours dégagé.
+Alors que les antennes fixes aux fréquences élevées sont généralement bien dégagées des obstacles environnants, il n'en est pas de même des antennes des appareils mobiles, souvent incorporées dans des systèmes plus larges.
+C'est par exemple le cas des petites antennes quart d'onde incorporées dans des systèmes portables de radiocommunication, ou bien des antennes des modems radio associés aux systèmes informatiques, souvent montées dans des espaces exigus.
+Par ailleurs, les antennes pour les fréquences moyennes et basses, du fait de leurs dimensions, seront influencés par le sol.
+Les objets métalliques situés à une distance de l'ordre de la longueur d'onde pourront produire un effet d'ombre dans la direction considérée, si leur dimension est elle-même de l'ordre de la longueur d'onde ou plus, mais il s'agit là plutôt de phénomènes de "masque" que de perturbations proprement dites.
+On sait modifier volontairement les caractéristiques de rayonnement d'un élément rayonnant, par l'adjonction de conducteurs à proximité de cet élément.
+Par contre, des perturbations cette fois non désirées du fonctionnement même de l'antenne apparaîtront par la présence de corps conducteurs, dans l'environnement immédiat de l'antenne.
+En règle générale, la fréquence de résonance d'une antenne dépend de la capacité de l'antenne par rapport à son environnement, surtout autour des ventres de tension.
+Ainsi, si un corps conducteur est proche de l'extrémité de l'antenne (ventre de tension), on observera une diminution de la fréquence de résonance.
+Si ce corps est de grande dimensions, et relié au sol ou à la masse, on aura en plus un effondrement de la résistance de rayonnement, car les lignes de champ électrique rejoindront la masse par un chemin court, au lieu de se déployer dans l'espace.
+La fréquence de résonance d'une antenne dépend par ailleurs de l'inductance des parties soumises à un ventre de courant.
+Ainsi, si un conducteur se trouve placé parallèlement à un ventre de courant, et si ce conducteur est suffisamment long pour pouvoir être le siège de courants induits, l'inductance de l'antenne diminuera, et sa fréquence de résonance augmentera.
+Cela explique que, par exemple pour une antenne quart d'onde, les conducteurs proches n'auront pas le même effet s'ils sont proches du sommet (ventre de tension) ou proches de la base (ventre de courant).
+Si c'est l'ensemble d'une antenne filaire qui est parallèle à un plan conducteur ou à une masse métallique, les deux effets cités ci-dessus se compenseront: la fréquence de résonance sera peu modifiée.
+Par contre ce plan conducteur parallèle à l'antenne influencera la résistance de rayonnement.
+Cette influence deviendra très importante si la distance au plan est très inférieure au quart d'onde: dans ce cas, on n'a plus une antenne, mais une ligne, et le rayonnement s'effondrera.
+Pour les antennes de fréquences basses, parallèles au sol, c'est bien sûr le sol qui représentera ce plan conducteur.
+D'une façon générale
+, on cherchera presque toujours à maintenir une antenne suffisamment loin du plan de masse ou du sol, afin d'éviter que la résistance de rayonnement ne s'effondre.
+On peut certes prévoir une ré-adaptation de l'antenne, mais la bande passante de l'antenne sera de toute façon plus faible, et si la résistance de rayonnement n'est plus grande devant la résistance ohmique, le rendement baissera.
+On cherche parfois à réduire l'encombrement d'une antenne, en la maintenant relativement proche d'un plan métallique.
+On devra alors tenir compte de ces problèmes : voir les antennes patch.
+Réalisation mécanique
+Selon qu'une antenne est destinée à la réception de la télévision grand-public ou à un satellite de télécommunication, la qualité (et le coût) de la réalisation ne sera pas la même.
+La résistance au vent et aux intempéries doit être particulièrement soignée pour obtenir une grande fiabilité et stabilité, c'est le cas des antennes à réflecteur parabolique.
+En altitude il n'est pas rare qu'une antenne soit enrobée de glace, les éléments doivent supporter cette surcharge sans se déformer.
+Pour éviter les problèmes d'oxydation et d'infiltration d'eau, les éléments alimentés sont souvent protégés par un étui isolant.
+Un radôme est un abri protecteur imperméable utilisé pour protéger une antenne.
+Voir aussi
+Liens externes
+* Jacques Pezzani et Philippe Picard, http:/ plasma
+Presentations Picard-Ant.pdf
+Les Antennes, Laboratoire d'études spatiales et d'instrumentation en astrophysique
+* Dominic Grenier, http:/ ~dgrenier gvillemaud antennes gvillemaud antennes gvillemaud antennes gvillemaud antennes watch?v
+8jxqMrXO
+cU&list
+PLfiqNnhpCsNuygWomPQXno8Qq__dR0UbM Introduction aux Antennes, source: Électro-Bidouilleur
+Playlist
+vidéo
+* http:/ index.php /284 Etat de l'art des antennes fractales
+- Novembre 2014 : Abdelati REHA et AL
+2x7wfealn6yhk84jckg40ex2pilz01k

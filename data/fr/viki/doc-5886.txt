@@ -1,0 +1,72 @@
+PHP
+Le langage PHP (PHP Hypertext Preprocessor en anglais) est un langage de programmation interprété «
+côté serveur » qui permet de créer des sites
+Web dynamiques, c'est à dire que les informations qui s'y trouvent peuvent être changées sans que le propriétaire du site ne touche aux fichiers de son site.
+Le fait qu'il soit côté serveur signifie que la page Web est créée par le serveur avant d'être envoyée au navigateur.
+Cela permet ainsi d'afficher du contenu personnalisé (selon l'utilisateur, la ville où il se trouve, l’heure qu’il est, etc.).
+Par exemple, on peut avoir une simple page Web qui demande le prénom de l’utilisateur.
+Quand on valide, elle envoie le prénom au serveur qui va s’en servir pour fabriquer une autre page, personnalisée (elle pourra dire bonjour avec le prénom).
+Cette page de réponse est au départ écrite en PHP : le serveur met le prénom de l’utilisateur au bon endroit ;
+ce faisant, il transforme la page PHP en une page Web « normale » (en HTML).
+Il n’a plus qu’à la renvoyer au navigateur de l’utilisateur qui va l’afficher.
+Il est utilisé avec JavaScript, un langage de programmation côté client, permettant d'interagir avec le site Internet.
+Voici l'illustration de l'exemple précédent :
+Du côté de l’utilisateur, on a une page HTML qui demande le prénom avec un formulaire.
+Elle affiche la phrase «
+Votre prénom est : » suivie d’un champ où l’utilisateur peut écrire son prénom.
+Pour valider, il suffit de cliquer sur un bouton «
+Valider » situé après le champ de texte.
+Du côté serveur, on a PHP qui traite les informations envoyées depuis le formulaire précédent.
+Ces informations (ici, le prénom) sont contenues dans une variable, qui s'appelle en fait un tableau nommé _POST.
+On utilise le mot-clé echo pour dire au serveur de faire afficher « Bonjour, $_POST['prenom'] !
+Si le prénom envoyé est «
+Jules », le serveur remplacera $_POST['prenom'] par Jules et créera donc une page Web où l’on pourra lire « Bonjour, Jules !
+Le code complet de la page PHP :
+Comme on peut le voir ci-dessus, on délimite du code PHP par les balises ou par .
+Par contre, tout autre code en dehors de ces balises ne sera pas traité par PHP et ne changera (à priori) jamais.
+Le mot-clé echo affiche le texte se trouvant à coté, entre guillemets.
+Ce mode PHP sert à développé en dehors du web, ajoutant des fonctionnalités utiles.
+Ce mode peux servir à faire des applications etc.
+Ce mode n'aborde pas les balises HTML.
+Voici un exemple qui demande le nom, prénom et l'âge de quelqu'un :
+Le PHP est un langage hybride: c'est à dire à la fois procédurale et objet.
+La version procédurale est disponible sur toutes les versions PHP.
+Quant à la POO, elle est développée peu après des anciennes versions, néanmoins, elle est plus disponible sur PHP.5: elle ajoute plus facilement des fonctionnalités objets, nottament le chargement dynamique d'une classe.
+Le langage objet aborde d'autres notions tels que la classe, l'objet, l'héritage ou le polymorphisme.
+Voici un exemple :
+nom : echo \"Hello World\";";}elseif($nom==C){echo"\n";echo"Avec $this->nom : printf(\"Hello World\");";}elseif($nom==Python){echo"\n";echo"Avec $
+this->nom : print(\"Hello World\")";}else{echo"\n";echo"Erreur";}/ / Utilisation de la méthode "getAffiche_hello_world".
+En POO, nous abordons des bases extrêmement importantes : la classe, les propriétés, les méthodes et les objets.
+Avec ces bases, on peut avancer vers l'héritage, get et set, la surcharge, la référence, les ::, le clonage, les classes abstraites (ainsi que les méthodes), les interfaces, les exeptions, les traits, les classes finales et bien sûr d'autres notions avancés.
+La classe est le modèle d'un objet (et la description).
+Elle contient des propriétés pour leur usage dans les méthodes.
+Les propriétés sont des constantes, variables que la classe possède.
+Les propriétés sont de 5 grands types :
+Publiques :
+La propriété est accessible via n'importe où
+Protégés :
+La propriété est accessible avec l'héritage
+Privés :
+La propriété est non accessible, c'est la notion.
+Sa lecture ou sa modification est accessible via get et set.
+Constantes : Celle-ci ne peuvent point changer.
+Sa récupération se fait via ::
+Statiques (obligatoirement avec les autres type) :
+La propriété est statique, il n'y a pas besoin d'une instance
+Les méthodes contiennent les instructions à faire.
+Ce sont des fonctions.
+Les méthodes possèdent également des types, comme celles des propriétés, mais aussi d'autres, comme abstraction ou la méthode finales.
+Un objet est construit avec un modèle, la classe.
+Celle-ci décrit comment est l'objet.
+La construction se fait à partir de "new" :
+$vikidia=newSite();// Dans les paramètres
+, on pourrait insérer la valeur des propriétés.
+Les bases de données sont des interfaces qui servent à stocker des informations dans des tableaux afin de les mémoriser et pouvoir faire des choses avec ses informations.
+PHP sait très bien dialoguer avec la BDD (base de données), c'est pourquoi il est utilisé pour faire des requêtes SQL.
+Côté programmation, les bases de données sont gérées avec la POO, plus précisément les BDD abordent surtout les exceptions.
+Par contre, on accède aux BDD avec un langage spécifique : le SQL.
+Ce langage est spécifique est utilisable aussi dans les autres langages.
+PHP a de nombreuses utilités !
+Citons, par exemple :
+faire des jeux en PHP ;
+faire des sites d'achat en ligne ;

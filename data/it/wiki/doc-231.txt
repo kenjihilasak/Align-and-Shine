@@ -1,0 +1,142 @@
+In matematica un monomio è un'espressione algebrica costituita da un coefficiente ed una parte letterale dove tra le lettere compaiono moltiplicazioni e elevamenti a potenza aventi esponente naturale.
+Questi sono tre esempi:
+3x, \ x^2y,\ -x^n.
+Nell'ultimo esempio, l'esponente n è un numero naturale non specificato.
+In alcuni casi si ammette la presenza nel monomio di esponenti negativi e si parla di monomi frazionari (o fratti):
+in questo caso, il monomio è in realtà una frazione algebrica:
+2x^2y^z = 2\frac .
+Talvolta si ammette anche l'operazione di estrazione di radice.
+I monomi con esponenti esclusivamente interi positivi sono detti interi e in questa voce ci limitiamo a considerare questo tipo di monomi.
+In un monomio non compaiono somme o sottrazioni;
+una espressione del tipo
+x+3xy
+dove compaiono anche delle somme algebriche è invece detta polinomio:
+un polinomio è quindi una somma algebrica di monomi.
+Coefficiente e parte letterale
+Ogni monomio è diviso in due parti:
+* Il coefficiente del monomio è il termine con valore numerico esplicito, solitamente si trova all'inizio del monomio e quando questo è 1 viene solitamente sottinteso.
+* La parte letterale del monomio è costituita dall'insieme di lettere.
+Ad esempio il monomio
+6x^2y
+ha coefficiente 6 e parte letterale x^2y.
+I monomi
+xy, \ -x^n
+hanno coefficiente 1 e -1 rispettivamente.
+In alcuni contesti il coefficiente può contenere delle costanti non numeriche, indicate con delle lettere.
+Ad esempio l'espressione
+2ax^2
+può indicare un monomio avente coefficiente 2a e parte letterale x^2.
+Di solito si intende distinguere fra quelle lettere come a che rappresentano delle costanti e altre lettere come x che rappresentano le variabili.
+Un monomio senza parte letterale è detto costante.
+Il grado di un monomio
+Il grado di un monomio è la somma algebrica degli esponenti della parte letterale.
+Ad esempio, il monomio
+5x^2
+ha grado 2.
+Le variabili senza esponente hanno come di consueto esponente 1 anche se non indicato esplicitamente:
+quindi
+3xy^3
+ha grado 1+3 = 4:
+le variabili x e y hanno infatti esponente 1 e 3 rispettivamente.
+I monomi costanti sono precisamente quelli con grado zero.
+Monomi simili
+I monomi ridotti in forma normale aventi la stessa parte letterale, con gli stessi esponenti, si dicono monomi simili.
+Ad esempio
+3xz \;\;\;
+-\fracxz \;\;\;
+-5xz sono monomi simili
+\fracy^2z^3 \;\;\;
+y^2z^3 \;\;\;
+-y^2z^3 sono monomi simili
+Tra questi due monomi aventi il coefficiente con valore assoluto uguale e segno opposto si dicono opposti, mentre due monomi aventi lo stesso coefficiente si diranno appunto uguali.
+Lo 0 viene chiamato monomio nullo.
+Una somma algebrica di monomi viene chiamata polinomio.
+Operazioni fra monomi
+Addizione algebrica
+La somma algebrica di due o più monomi simili è un monomio simile ad essi, in cui il coefficiente è la somma algebrica dei coefficienti dei singoli monomi.
+Quando i monomi non sono simili la somma non può essere applicata e si lascia l'espressione inalterata.
+Quando si ha un'espressione con più monomi si deve sempre cercare di sommare i termini simili fino ad arrivare ad una forma non più modificabile.
+Addizione algebrica di monomi simili
+L'addizione algebrica tra monomi simili è una operazione interna, ossia ha come risultato un monomio simile a quelli dati il cui coefficiente è la somma algebrica dei coefficienti.
+Operativamente, si raccoglie a fattor comune la parte letterale, applicando all'inverso la proprietà distributiva della moltiplicazione rispetto all'addizione e poi si esegue la somma dei coefficienti numerici.
+Dei semplici esempi sono dati dalle seguenti somme:
+5b \, -3b \, +6b
+(+5\,-3\,+6) \cdot b
+\fraca \, -\fraca \, +6a
+\left (\frac\,-\frac\,+6\right) \cdot a
+\left (\frac\right) \cdot a =
+\fraca
+2x^2y + 5x^2y = 7x^2y
+Addizione algebrica di monomi non simili tra loro
+Quando i monomi non sono simili l'addizione algebrica non porta semplificazioni, l'espressione rimane inalterata ed il risultato non è più un monomio, ma un polinomio:
+3a-y+\fracz
+Addizione algebrica di monomi simili e non simili
+La somma algebrica viene fatta solo tra monomi simili lasciando inalterati gli altri:
+2a + 3x -3a + 7xy +6a -2b
+a \cdot (2-3+6) + 3x + 7xy -2b
+5a + 3x + 7xy -2b
+questo procedimento viene anche detto riduzione dei termini simili.
+Prodotto
+Il prodotto di due o più monomi è il monomio che ha per coefficiente il prodotto dei coefficienti dei singoli monomi e come parte letterale il prodotto delle loro parti letterali.
+Ogni fattore letterale ha l'esponente uguale alla somma degli esponenti che esso ha nei singoli monomi.
+Considerando ad esempio il prodotto tra 5ab^3y^2 e -3a^3b^5, il prodotto dei coefficienti è:
+(5) \cdot (-3)=-15
+mentre quello delle parti letterali è:
+ab^3y^2 \cdot a^3b^5
+a \cdot a^3 \cdot b^3 \cdot b^5 \cdot y^2
+a^b^y^2
+a^4b^8y^2
+quindi il prodotto dei singoli monomi risulta
+essere
+5ab^3y^2 \cdot (-3a^3b^5) = -15a^4b^8y^2
+Altri esempi di moltiplicazione tra monomi:
+4ay \cdot 3a^2x=12a^3xy
+-4x^2y^2 \cdot -\fracx^3z = 2x^5y^2z
+2xy \cdot 3x^2a \cdot -x^4a^3b = -6x^7ya^4b
+Elevamento a potenza
+La potenza di un monomio è il monomio che ha per coefficiente la potenza del coefficiente e per parte letterale la potenza di ciascun fattore letterale del monomio.
+Considerando il monomio -2ab^3x^2 calcolare il suo cubo vuol dire moltiplicare 3 volte per se stesso il monomio:
+(-2ab^3x^2)^3 = (-2ab^3x^2) \cdot (-2ab^3x^2) \cdot (-2ab^3x^2)
+che per le regole del prodotto viste sopra diventa:
+(-2ab^3x^2)^3 = -8a^3b^9x^6
+Altre potenze di monomi sono:
+(2xy^2)^3
+2^3x^3 (y^2)^3
+8x^3y^6
+(-\fracx^3yz^2)^2 = \fracx^6y^2z^4
+Divisione
+In alcuni casi molto particolari, anche il quoziente di due monomi è un monomio:
+Esempio
+2x^2y / xy = 2x
+Questo accade però solo in casi molto particolari, cioè quando il grado del monomio dividendo è maggiore o uguale del monomio divisore e quando le lettere che compaiono nel divisore si trovano, con grado maggiore o uguale, anche nel dividendo.
+In generale, un monomio che contiene delle lettere non ha un inverso (rispetto alla moltiplicazione).
+Ad esempio, dato il monomio
+2xy
+non esiste nessun altro monomio che, moltiplicato per 2xy , dia come risultato 1.
+Questo perché la moltiplicazione fra monomi può solo incrementare il numero di lettere coinvolte, e non può eliminarle.
+Minimo comune multiplo
+Minimo comune multiplo tra due monomi è definito come quel monomio di grado minimo che è divisibile per i due dati.
+I minimi comuni multipli tra due monomi sono infiniti, essi infatti possono avere qualsiasi coefficiente.
+Per determinare la parte letterale dell'm.c.m.
+tra due monomi si prendono tutte le lettere, comuni e non comuni, dei monomi con il loro massimo esponente.
+Per quanto riguarda il coefficiente, per convenzione, si utilizza l'm.c.m.
+tra i coefficienti quando è possibile calcolarlo, altrimenti
+Esempio:
+m.c.m.
+(2x^y^;
+3x^yz^)
+= 6x^y^z^
+m.c.m.
+(-\fracxy^z^;
+3xy^z^) = xy^z^
+Massimo comune divisore
+Massimo comune divisore tra due monomi è definito come quel monomio di grado massimo che divide i due dati.
+I massimi comuni divisori tra due monomi sono infiniti, essi infatti possono avere qualsiasi coefficiente.
+Altre definizioni
+I monomi descritti sopra sono tutti in forma normale, cioè espressi come un unico coefficiente numerico che moltiplica delle lettere, ciascuna delle quali compare una volta sola con un certo esponente.
+Lo stesso monomio può però essere espresso anche in altre forme, posizionando in modo diverso i suoi elementi.
+Ad esempio, le scritture
+4 x^2y, \quad 4 xyx, \quad 2y2x^2
+rappresentano tutte lo stesso monomio, scritto in modi diversi.
+Solo la prima di esse rappresenta il monomio in forma normale.
+Note

@@ -1,0 +1,29 @@
+Linux|Sécurité informatique|Live CD|Live CD orienté sécurité|Hacking (sécurité informatique)|Logiciel d'analyse du réseau informatique|Logiciel libre de sécurité informatique|Distribution Linux|Distribution
+dérivée de Debian
+Kali
+Linux est une distribution GNU/Linux sortie le 13 mars 2013, basée sur Debian.
+La distribution a pris la succession de BackTrack.
+L'objectif de Kali
+Linux est de fournir une distribution regroupant l'ensemble des outils nécessaires aux tests de sécurité d'un système d'information, notamment le test d'intrusion.
+Depuis la version 2016.2, Kali Linux est disponible pré-installée avec de nombreux environnements de bureau.
+On retrouve : GNOME, KDE, LXDE, MATE, Enlightenment et Xfce, à choisir lors du téléchargement.
+Développement
+Le développement a été mené par Mati Aharoni et Devon Kearns lors de la réécriture de BackTrack, leur précédente distribution
+Linux consacrée à l'inforensique, qui était basée sur Ubuntu.
+Le troisième développeur principal les rejoint ensuite en tant que spécialiste de Debian.
+Kali Linux est basée sur Debian testing.
+La plupart des paquets utilisés proviennent des dépôts de Debian.
+Kali Linux est développée dans un environnement de développement sécurisé, où seulement un petit nombre de personnes de confiance est autorisé à contribuer en modifiant les paquets, chaque paquet étant de plus signé par son développeur.
+Le noyau de Kali a également été adapté pour être rendu moins vulnérable aux attaques par injection.
+Cette démarche a été motivée par le besoin de l'équipe de développement de pratiquer des analyses de réseaux sans fil.
+Utilisation
+Kali Linux est disponible sous forme de live DVD.
+Il est également possible de l'installer sur un disque dur, sur une clé USB, de mettre en place un démarrage PXE, ou encore de le virtualiser par-dessus son système d'exploitation grâce à des images disque virtuelles proposées en téléchargement.
+Il est également possible de construire son propre DVD en utilisant les scripts Debian live-build.
+Cette distribution est utilisée par des auditeurs en sécurité des systèmes d'information dans le cadre de l'audit automatisé de premier niveau, permettant d'évaluer la sécurité intrinsèque d'un environnement.
+Kali
+Linux propose plus de 600.
+Outils de sécurité
+Kali
+Linux
+intègre de nombreux logiciels de sécurité réputés, tels que :

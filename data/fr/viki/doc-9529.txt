@@ -1,0 +1,17 @@
+Nombre cardinal
+Le cardinal d'un ensemble est le nombre d'éléments que possède cet ensemble.
+Le cardinal de l'ensemble E est noté #E, Card(E) ou encore |E|. Ici, nous préfèreront la notation Card(E).
+Considérons les ensembles A = {0,1,2,4}, B = {♠,♣,♥,♦}, C = ∅, D ={0}.
+Card(A
+= 4 car A
+contient 4 éléments de type nombre.
+Card(B) = 4 car B contient 4 éléments de type symboles ou tarots.
+Card(C) = 0 car l'ensemble vide noté ∅ ne contient par définition aucun élément.
+Card(D)
+= 1 car l'ensemble D n'est pas vide : il contient un élément, le nombre 0.
+Si E = F, alors Card(E)
+= Card(F).
+Les ensembles E et F sont identiques donc ont le même nombre d'éléments.
+On peut noter ce théorème :
+En effet, si deux éléments n'ont pas le même nombre d'éléments, ils sont différents.
+La réciproque du théorème, à savoir (Card(A) = Card(B)) → (A = B), est généralement fausse : il ne suffit pas que deux ensembles aient le même nombre d'éléments pour qu'ils soient identiques (voir les ensembles A et B des exemples).

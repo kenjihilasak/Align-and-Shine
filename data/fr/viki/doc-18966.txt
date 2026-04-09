@@ -1,0 +1,39 @@
+On peut retrouver le code HTML d'une page en faisant par exemple un clic droit sur la page,
+puis "Code source de la page".
+Il y a plusieurs versions de HTML : HTML 1, HTML 2, HTML 3.2, HTML 4, HTML 5.
+Il existe aussi des déclinaisons du HTML, comme le XHTML 1.0.
+Voici le code de base d'une page écrite en HTML5 :
+Le titre de la page est très spéciale : elle n'a pas besoin de /> pour terminer.
+-->
+Ici se trouve le texte de votre page !
+Toutes ces balises se mettent entre les balises et .
+En effet, il n'existe que très peu de balises qui se mettent dans le header.
+Vous pouvez mettre un lien hypertexte dans votre page, il suffira alors de cliquer dessus pour accéder à la page demandée.
+Voici la balise à utiliser pour ajouter un lien :
+Le texte à cliquer pour le lien
+Par exemple, si nous voulons insérer un lien vers Wikipédia, nous utiliserions la balise ainsi :
+Vous pouvez également ajouter une image dans une page HTML.
+La balise d'image, img, s'utilise ainsi :
+Parmi les attributs, seul src est obligatoire, mais les autres peuvent servir.
+Voici la liste des attributs que peut prendre img :
+src(obligatoire)
+L'URL de l'image.
+alt :
+Le texte alternatif de l'image.
+Celui-ci sera affiché en cas d'erreur, si l'image ne peut pas s'afficher.
+title :
+Si vous le renseignez, un texte informatif sur l'image s'affichera au survol.
+Il y en a aussi d'autres, mais les trois ci-dessus sont les plus utilisés.
+Voici un exemple, imaginons que vous souhaitez afficher une image qui s'appelle « arbre.
+png » et qui se trouve dans le dossier « images » ;
+Vous ferez donc ainsi pour l'afficher :
+Et vous avez votre image qui s'affiche !
+Il existe un nombre considérable de balises, c'est pourquoi nous ne pourrons pas toutes les citer dans cet article.
+Cependant, vous pouvez les trouver en faisant une simple recherche sur Internet.
+Un site Web c'est bien, même statique (qui reste toujours le même), mais un site Web dynamique et interactif,
+c'est mieux.
+Certains langages ont été conçus pour cela:
+Il y a par exemple le DHTML, Dynamic HTML qui sert à faire des animations, par exemple, intégrées dans un code HTML.
+Il existe aussi le Javascript, qui est assez similaire au DHTML.
+Il existe aussi le langage PHP (PHP Hypertext Preprocessor) qui a la particularité d'être un langage serveur, c'est-à-dire que c'est le serveur qui gère la page avant de l’envoyer à l'utilisateur.
+Et il y en a bien sûr beaucoup d'autres!

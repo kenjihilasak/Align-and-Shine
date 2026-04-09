@@ -1,0 +1,18 @@
+Médiatrice
+Construction au compas et à la règle
+La médiatrice d'un segment [AB] est l'ensemble des points M du plan tels que AM=BM.
+La médiatrice de [AB] contient tous les points M du plan tels que AM=BM.
+On a : AM=BM si et seulement si le triangle ABM est isocèle en M. Soit I
+le milieu de [
+AB].
+Le triangle ABM est isocèle en M si et seulement si la droite (IM) est à la fois la hauteur et la médiane associés au sommet M. La droite (IM) est donc perpendiculaire au segment [AB].
+Il n'existe qu'une seule droite passant par I et perpendiculaire à [AB], donc la médiatrice d'un segment [AB] est une droite perpendiculaire à (AB) et passant par I, milieu de [
+AB].
+Avec une règle, on mesure la longueur du segment [AB], et on en place le milieu I, tel que AI=BI.
+Puis avec une équerre, on trace la droite perpendiculaire à (AB) et passant par I : c'est la médiatrice de I. Cette méthode est approximative.
+Avec un compas, on trace deux cercles, ayant pour centres A et B, et de même rayon, supérieur à la moitié de la longueur AB.
+On note M1 et M2 les points d'intersection des deux cercles : la droite (M1M2) est la médiatrice du segment [AB].
+Cette méthode est une méthode géométrique exacte.
+La médiatrice de [AB] contient tous les points M tels que AM=BM.
+Il suffit de tracer deux points M1 et M2 tels que AM1=BM1 et AM2=BM2.
+La droite (M1M2) est la médiatrice du segment.

@@ -1,0 +1,45 @@
+Analyse
+numérique|Analyse
+En mathématiques, la troncature est un terme utilisé pour couper le développement décimal d'un nombre à un certain nombre de chiffres après la virgule, ou le développement limité d'une fonction à un certain ordre.
+Troncature d'un nombre
+Par exemple, considérons les nombres réels :
+5,2009002
+32,009891288
+-6,47009757
+Pour tronquer ces nombres à quatre décimales, seuls sont gardés les quatre premiers chiffres après la virgule.
+Le résultat serait:
+5,2009
+32,0098
+-6,4700
+C'est une valeur approchée par défaut pour les nombres positifs, une valeur approchée par excès pour les négatifs.
+Une fois sur deux, la troncature donne le même résultat que l'arrondi (du même niveau de décimales) ;
+arrondi, qui est toujours, si divergence entre ces deux valeurs, une meilleure approximation du nombre initial.
+Elle découpe simplement les décimales à une position précise.
+L'erreur de troncature ne peut excéder deux fois l'erreur maximale d'un arrondi.
+Troncature et fonction partie entière
+Pour les réels positifs, la troncature peut être effectuée en utilisant la fonction partie entière.
+Soit x \in \mathbb_+ un nombre à tronquer et n un entier naturel, le nombre de chiffres à garder après la virgule, la troncature de x à n décimales est égale
+à :
+\frac
+où a désigne la partie entière de a.
+Pour les réels négatifs, la formule est analogue mais en utilisant la fonction partie entière par excès.
+Généralisation de la troncature
+La troncature peut être généralisée à d'autres systèmes que le système de base dix.
+Par exemple, on peut vouloir tronquer une longueur exprimée en centimètres au pouce près.
+Le résultat sera un nombre de centimètres qui sera un multiple de l'équivalent en centimètre du pouce.
+Il sera inférieure à la valeur non tronquée et l'erreur de troncature devra être inférieure strictement à la valeur du pouce en centimètres.
+Pour cela, il existe une formule qui généralise la formule de troncature décimale :
+\left\frac\right \cdot a
+où x désigne la partie entière de x.
+Et où a désigne l'unité de troncature.
+Dans l'exemple de la troncature au pouce près, a vaut 2,54 (un pouce vaut ).
+Avec cette formule, tronquer un nombre à deux décimales (ou à 10^ près) reviendra à prendre 10^ pour valeur de a.
+Et l'on peut constater facilement, si l'on pose a = 1, que la troncature à l'unité près correspond bien à la partie entière.
+Troncature d'un développement limité
+Voir aussi
+Articles connexes
+Lien externe
+http:/ fractal/walle.html
+Wallpaper
+applet
+spwvgikktyvewlsgzjswrlkv11fixst

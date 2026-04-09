@@ -1,0 +1,60 @@
+In matematica i numeri naturali sono quei numeri usati per contare e ordinare.
+Nel linguaggio comune i "numeri cardinali" sono quelli usati per contare e i "numeri ordinali" sono quelli usati per ordinare.
+I numeri naturali corrispondono all'insieme .
+Essi vengono fatti corrispondere biunivocamente all'insieme dei numeri interi non negativi .
+Talvolta viene usata anche per indicare l'insieme dei numeri interi positivi .
+Cenni storici
+I numeri naturali sono i numeri più "intuitivi" che esistono.
+L'operazione di distinguere tra nessuno, uno e molti risale all'uomo primitivo.
+Ma la comprensione che, ad esempio, una pecora e un albero hanno in comune il fatto di essere "uno", cioè la nozione astratta di numero, fu un processo graduale (probabilmente non legato ad una singola cultura o popolazione) che da vari studi viene fatto risalire circa al 300.000 a.C. Col tempo furono introdotti diversi simboli e parole per indicare i numeri naturali e in diversi casi anche alcuni tipi di frazioni.
+Esistono simboli risalenti agli antichi egizi che indicano frazioni unitarie, cioè con numeratore uguale a uno.
+Se ne possono trovare ad esempio nel papiro di Rhind risalente circa al 2000 a.C. Tuttavia il numero zero dovette aspettare più tempo per venire considerato un numero al pari degli altri.
+tra numeri naturali.
+Importanti risultati riguardanti i numeri naturali sono contenuti negli Elementi di Euclide, successivamente Diofanto di Alessandria si pose il problema della ricerca di soluzioni intere positive di equazioni date.
+L'introduzione dei numeri interi relativi, in particolare dei numeri negativi dovette aspettare ulteriormente.
+Risultati e spunti fondamentali sono dovuti a Pierre de Fermat.
+Lo studio dei numeri interi, noto oggi come teoria dei numeri, viene ripreso nel XIX secolo da matematici del livello di Carl Friedrich Gauss e Carl Jacobi e da allora viene considerato un capitolo primario della matematica (vedi anche:
+Ultimo teorema di Fermat).
+Notazioni
+In matematica si usa il simbolo \N (o N) per indicare l'insieme dei numeri naturali.
+Nella maggior parte della letteratura matematica contemporanea, nelle voci qui presenti e nello standard ISO 31-11 sui simboli matematici, si assume che l'insieme dei numeri naturali contenga anche lo zero;
+per evitare ogni ambiguità è spesso usata la dizione interi non negativi.
+Per mettere in evidenza che l'insieme non contiene lo 0 si usa la scrittura \N^
+\N^
+Per indicare l'insieme dei naturali senza lo zero si possono usare anche le scritture N*,N+, N+, ℕ+, ℕ+, \N_0.
+Talvolta con la notazione \N_0 si indica invece l'insieme dei naturali con lo zero incluso.
+Nella teoria degli insiemi, l'insieme dei numeri naturali in quanto insieme bene ordinato viene denotato con \omega, e rappresenta il più piccolo numero ordinale infinito.
+Quando è usata questa notazione, lo zero è incluso.
+Definizioni formali
+Nonostante la sua intuitività, quello di numero naturale non è, in matematica, un concetto primitivo:
+è infatti possibile darne una definizione basandosi unicamente sulla teoria degli insiemi.
+La definizione è utile perché permette anche di estendere il concetto di numero a oggetti più generali:
+i numeri transfiniti.
+Storicamente, la precisa definizione matematica dei numeri naturali ha incontrato alcune difficoltà.
+Gli assiomi di Peano definiscono le condizioni che ogni definizione matematica precisa deve soddisfare.
+Alcune costruzioni mostrano che dall'interno di una teoria degli insiemi è possibile costruire un modello degli assiomi di Peano.
+Assiomi di Peano
+* Ogni numero naturale a ha un numero naturale successore, denotato come S (a).
+* Non esiste un numero naturale il cui successore è 0.
+* Numeri naturali distinti hanno successori pure distinti:
+se a ≠ b, allora S (a) ≠ S (b).
+* Se una proprietà P è posseduta dallo 0 ed è posseduta anche dal successore di ogni numero naturale che possiede la proprietà P, allora la proprietà P è posseduta da tutti i numeri naturali.
+Bisogna notare che lo "0", nella definizione sopra descritta, non deve necessariamente corrispondere con quello che si considera normalmente il numero zero.
+"0" significa semplicemente un oggetto che, quando combinato con una funzione successiva appropriata, soddisfa gli assiomi di Peano.
+Ci sono molti sistemi che soddisfano questi assiomi, inclusi i numeri naturali .
+Costruzione basata sulla teoria degli insiemi
+Un numero naturale si può definire come una classe di insiemi aventi uguale cardinalità finita.
+In sostanza, si parte dalla proprietà (intuitiva) che tra due insiemi qualsiasi aventi lo stesso numero di elementi si può stabilire una corrispondenza biunivoca e la si riformula come definizione:
+tutti gli insiemi tra i quali si può stabilire una corrispondenza biunivoca vengono accomunati in una classe, che è come assegnare loro un'"etichetta", a questa etichetta viene dato il nome di numero naturale.
+La classe corrispondente all'insieme vuoto viene indicata con 0.
+La costruzione standard
+La seguente è una costruzione standard nella teoria degli insiemi per definire i numeri naturali:
+Poniamo 0 :
+= , l'insieme vuoto (∅)
+e definiamo S (a) = a U per ogni a.
+L'insieme dei numeri naturali è allora definito come l'intersezione di tutti gli insiemi contenenti 0 che sono chiusi rispetto alla funzione successione S. L'esistenza di un insieme siffatto è stabilita dall'assioma dell'infinito.
+Se tale insieme esiste soddisfa gli assiomi di Peano.
+Ogni numero naturale è allora uguale all'insieme dei numeri naturali minori di esso, per esempio:
+e così via.
+Quando ci si riferisce ad un numero naturale come insieme, e più propriamente come cardinalità di un insieme, questo è il senso.
+Con questa definizione, ci sono esattamente n elementi nell'insieme n e n ≤ m sse n è un sottoinsieme di m, e vale n

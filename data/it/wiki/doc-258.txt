@@ -1,0 +1,72 @@
+In geometria, il teorema di Talete è un teorema riguardante i legami tra i segmenti omologhi creati sulle trasversali da un fascio di rette parallele.
+L'enunciazione e la dimostrazione sono per tradizione, come vuole il nome, attribuite a Talete di Mileto, filosofo greco, a cui il mito attribuisce altri 4 teoremi geometrici, anche se gli storici della matematica sono concordi nell'attribuirgliene la conoscenza ma non la reale paternità, in quanto parrebbe che le proprietà di proporzionalità, espresse nel teorema, fossero già note fin dai tempi degli antichi babilonesi (in un testo del XVII secolo a.C. ca., cfr. Revue d'Assyriologie, XXXI, pp. 61 ss).
+La prima dimostrazione di cui si abbia documentazione è quella contenuta negli Elementi di Euclide risalente al III secolo a.C.
+In inglese, con Thales' Theorem si intende di solito il teorema secondo cui un angolo inscritto in una semicirconferenza è retto.
+Enunciato
+L'enunciato del teorema è il seguente:
+Il teorema afferma in pratica che se prese tre parallele a,\ b,\ c taglianti due rette trasversali \scriptstyle r e \scriptstyle r' - rispettivamente nei punti \scriptstyle A\ B\ C e \scriptstyle A'\ B'\ C' -, allora il rapporto tra i segmenti omologhi dell'una e dell'altra è sempre costante.
+"center">AB :
+A'B'
+BC:
+B'C'
+Inoltre se presi AC e A'C', segmenti omologhi, si ha tra loro lo stesso rapporto di AB con A'B' e di BC con B'C', ovvero
+= \frac
+Si può così trovare la lunghezza di uno qualsiasi dei segmenti della quaterna, a patto di averne almeno uno della stessa traversa e due dell'altra, o la loro somma.
+\frac
+\frac = \frac
+Queste relazioni valgono per ogni coppia di segmenti omologhi.
+Dimostrazione
+Euclide dimostra il teorema di Talete indirettamente, facendo uso delle proporzionalità fra le aree dei triangoli;
+pertanto potrebbe essere di non così immediata comprensione il legame fra la seguente dimostrazione e il risultato finale.
+Sia dato un triangolo ABC, tagliato da un segmento DE parallelo a uno dei suoi lati (in questo caso BC).
+La tesi del teorema si può quindi scrivere come:
+"center">\scriptstyle BD\ :
+\ AD\
+\ CE\ :
+\ AE
+Si congiungano gli estremi di DE con gli opposti del lato parallelo, evidenziando così i due triangoli BDE e CDE.
+Tali triangoli sono equiestesi, in quanto possiedono la stessa base e sono tra le medesime parallele DE e BC.
+Il segmento DE ha anche creato il triangolo ADE e, siccome a “grandezze” uguali corrispondono rapporti uguali con la stessa “grandezza” Prop.
+V.7, il triangolo BDE sta a ADE come CDE sta a ADE.
+"center">\scriptstyle BDE\ :
+\ ADE\
+\ CDE\ :
+\ ADE
+Ma il triangolo BDE sta a ADE come BD sta a DA, perché avendo la stessa altezza (nel caso in esempio DE) devono stare l'uno all'altro come le rispettive basi Prop.
+VI.1, così come, per la stessa ragione, il triangolo CDE sta a ADE, come CE sta a EA.
+Pertanto BD sta a DA, come CE sta a EA.
+"center">\scriptstyle BD\ :
+\ AD\
+\ CE\ :\ AE\ \ Cvd.
+Dal teorema di Talete derivano due corollari complementari, che assieme costituiscono per intero l'originaria proposizione di Euclide:
+Una retta parallela al lato di un triangolo determina segmenti proporzionali sugli altri due lati.
+Una retta che determina su due lati di un triangolo segmenti proporzionali, è parallela al terzo lato.
+Conseguenze
+Triangoli simili
+Applicando il teorema di Talete ai triangoli si può dimostrare il secondo criterio di similitudine dei triangoli:
+Due triangoli, aventi coppie di lati proporzionali e l'angolo ivi compreso congruente, sono simili.
+Se, come afferma, infatti, la seconda parte della proposizione euclidea, tutti i segmenti omologhi sono in proporzione \scriptstyle
+, allora B'C' e B'’C'’ sono paralleli a BC e dunque i triangoli ABC, AB'C' AB'’C'’, sono triangoli simili.
+Questo permette di stabilire una serie di legami non solo fra i segmenti omologhi delle traverse, ma anche sulle parallele.
+"center">AB :
+AB'
+AC :
+AC' = BC :
+B'C'
+Condizione necessaria per la validità di tali rapporti è che \scriptstyle A=A' :
+solo così, infatti, le trasversali sono assimilabili ai lati di un triangolo, dalla cui similitudine deriva la proporzionalità dei segmenti paralleli.
+Da questo si trova la lunghezza del generico segmento B'C', attraverso le seguenti relazioni.
+B'C'=
+Omotetia
+Nelle trasformazioni del piano il teorema di Talete è anche in grado di spiegare trasformazioni come l'omotetia sia in grado di mantenere invariate le proporzioni delle figure.
+BCD e B'C'D' sono figure simili:
+si ha, per esempio, che BC e B'C' rispetto ad A si possono vedere i terzi lati di due triangoli simili, dove A è il centro dell'omotetia e AB/AB' il rapporto della stessa.
+Cenni storici
+Vuole la leggenda, come racconta Plutarco, che Talete viaggiando per l'Egitto in cerca di sacerdoti della valle del Nilo da cui apprendere le conoscenze astronomiche, risalendo il fiume avrebbe sostato nei pressi della Piana di Giza, attirato dalla mole della Piramide di Cheope, ove il faraone Amasis, giunto a conoscenza della fama del sapiente, lo sfidò a dargli la misura corretta dell'altezza.
+Talete sapeva che, a una determinata ora del giorno, la nostra ombra eguaglia esattamente la nostra altezza e quindi, per compiere l'apparentemente ardua impresa, non avrebbe fatto altro che attendere l'ora propizia e dimostrare le sue doti, sbalordendo lo stesso faraone che si disse:
+Non sappiamo se Talete abbia realmente dimostrato il teorema che porta il suo nome o se (molto più probabilmente) abbia semplicemente usato la proprietà espressa nel suo enunciato, dopo averla appresa da altri, magari dai Caldei, come sostengono alcuni studiosi;
+se però si vuole considerare l'aneddoto non infondato, bisogna per forza presumere che avesse buona conoscenza delle proprietà citate e delle implicazioni inerenti ai triangoli simili.
+Affinché la proiezione dell'ombra sia uguale all'altezza occorre che i raggi del sole colpiscano l'oggetto con un'inclinazione pari a 45°, come la diagonale di un quadrato, il che, dato i circa 30° di latitudine Nord della Grande Piramide,
+implica che Talete fosse presente sul luogo o nel giorno del 21 novembre o del 20 gennaio, eventualità abbastanza inverosimile;
+più facile è invece ipotizzare che abbia sì usato l'ombra della piramide per misurarne l'altezza, ma sfruttando il rapporto che ha con essa, prendendo a riferimento l'omologo rapporto tra il paletto e la sua proiezione.
+Note

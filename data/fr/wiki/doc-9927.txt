@@ -1,0 +1,54 @@
+Infraction au droit d'auteur|Logiciel de sécurité informatique|Cracking
+Un crack (également appelé Cerise ou Fruit par les utilisateurs de NZB) est un programme qui s'applique sur un logiciel pour modifier son code, par exemple pour utiliser gratuitement un logiciel payant.
+Terminologie
+Lorsque des personnes redistribuent les applications crackées, on parle alors de warez.
+Lorsqu'une personne a trouvé comment cracker un programme, elle peut créer un patch (un crack) qui permettra aux autres de déprotéger le programme sans avoir à en étudier la protection.
+Il ne faut pas confondre un crack avec un patch:
+Un patch est la modification d'une application (logiciel, jeux vidéo...)
+pour apporter un correctif, de nouvelles fonctionnalités, corriger un bug, modifier le fonctionnement d'une application.
+Le patch est, en général, fourni par le créateur du logiciel.
+* Un crack est un type particulier de patch, car il n'émane pas de l'éditeur du logiciel et son application, n'est, dans la majorité des cas, pas autorisé par l'éditeur.
+Les cracks sont faits par des crackers.
+L'activité d'analyse et de modification est interdite dans la plupart des contrats de licences utilisateur des logiciels propriétaires.
+Utilité
+* Pouvoir utiliser un logiciel protégé ou une fonction bridée sans posséder la licence correspondante
+* Pouvoir utiliser un logiciel sans devoir utiliser le CD correspondant (crack «
+CD »
+* Permettre une interopérabilité
+, une amélioration ou une modification du fonctionnement d'un programme non prévue à l'origine par l'éditeur ou limité
+* Éviter les problèmes d’interopérabilité avec les composants matériels et applicatifs de l'ordinateur (ex: le logiciel monopolise votre lecteur de cd ou refuse de s'installer
+car vous possédez légitimement un graveur et un logiciel de gravure)
+* Plus rarement, améliorer une application ou corriger un bogue lorsque l'éditeur ne fournit pas le patch correspondant
+Outils du cracker
+* Le désassembleur permet d'interpréter le code compilé en code assembleur.
+Le débogueur (debugger) permet de visualiser l'état du programme en cours d'exécution.
+Un éditeur hexadécimal permet de modifier le programme après l'avoir analysé avec le désassembleur.
+* Des programmes espions divers qui tracent les accès à la base de registre, aux appels systèmes, etc.
+* Un logiciel pour savoir si le programme à cracker est chiffré ou non
+Méthodes du cracker
+Le but du crack est de contourner une limitation présente dans le logiciel, comme l'enregistrement avec une clé de sécurité, Pour y faire, on utilise la rétro-ingénierie.
+Le logiciel à cracker est désassemblé à l'aide d'un désassembleur, et le cracker essaye ensuite de trouver la fonction de protection.
+Dans la majorité des cas, il s'agit d'une fonction qui permet de vérifier si une clé donnée est valide ou non.
+Le but alors du cracking est de faire en sorte que la fonction valide toujours la clé entrée.
+Une fois que la fonction est repérée, celle-ci est remplacée à l'aide d'un éditeur hexadécimal par l'instruction NOP qui veut dire No Opération (ne rien faire).
+Certains crackers préfèrent ne pas modifier le code de logiciel, et étudient la fonction de protection.
+Ils réalisent alors un générateur de clés valides.
+Les développeurs de logiciels propriétaire essayent de rendre ce processus difficile en utilisant l'offuscation, chiffrement ou de faire des codes automodifiables .
+Dans d'autres cas, le logiciel est décompilé pour avoir accès à son code source originale dans un langage de haut niveau.
+Ceci est possible avec les Langages de script ou les langages qui utilisent la compilation à la volée.
+Protections à contourner
+Le cracker de logiciel est face à un objectif qui peut être :
+* Trouver un numéro de série pour enregistrer le programme
+* Trouver l'algorithme de génération des numéros de série pour enregistrer le programme à partir de n'importe quel nom par exemple.
+* Enlever les diverses protections du logiciel telles
+que :
+* Modifier le programme pour qu'il convienne à son goût.
+Cela s'appelle du « reverse » (du terme anglais « reverse engineering ») et cela consiste à implémenter de nouvelles fonctionnalités au programme ou modifier son apparence ou son comportement.
+Pour arriver à ses fins, le cracker doit déjouer quelques embûches
+comme :
+* l'anti-débogage qui rend le débogueur inutilisable.
+* l'anti-désassemblage qui empêche le désassemblage.
+* le chiffrement ou la compression qui rendent le programme binaire illisible.
+* le code polymorphe ou l'offuscation qui rend le débogage très pénible.
+Musique et Collection
+Les cracks possèdent souvent une musique électro 8-bit dans le style des musiques de Game Boy, ces musiques sont appelées chiptunes.

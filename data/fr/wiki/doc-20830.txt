@@ -1,0 +1,106 @@
+Métrologie
+La mesure du temps est la base fondamentale de la précision du Système international d'unités.
+Il convient donc de bien comprendre les fondements de la mesure du temps, et comprendre la double nécessité : rester compréhensible et utile pour tout homme, être de la meilleure précision possible.
+Concept de temps mesurable
+Comme pour toute grandeur fondamentale, il faut pouvoir définir le concept.
+Trois points seront dégagés ici :
+La simultanéité définit expérimentalement ce que veut dire t1 = t2 (au sens de la relation d'équivalence en mathématiques : réflexive, symétrique et transitive).
+Dans le cadre de la physique newtonienne où les vitesses ne sont pas bornées, cela est possible et permet de définir le concept d'évènements simultanés : tous les évènements de cette classe d'équivalence sont dits avoir eu lieu à la même date.
+Pour conférer à ce concept le statut de grandeur repérable, il faut pouvoir définir expérimentalement une relation dordre total (réflexive, antisymétrique et transitive) : on dira alors qu'il est possible de parler de date postérieure à une autre.
+Dans ces conditions, il ne reste plus qu'à trouver une (ou des) succession d'évènements sur lesquels tous les expérimentateurs seront d'accord pour dire qu'ils sont postérieurs les uns aux autres.
+Le choix d'une échelle de temps T = f (t) est alors arbitraire, du moment que f (t) soit croissante : on définit ainsi une échelle géologique, historique, linguistique, chronochimique, psychologique, ...
+On peut établir expérimentalement entre deux DURÉES une relation binaire, dite d'addition, qui soit isomorphe au groupe additif des réels : l'opération dt1 +dt2
+dt3 doit être associative, posséder un élément neutre et on doit savoir expliciter ce que veut dire dt1+dt2
+D'autre part, il faut le plus souvent lui conférer la structure de corps, et pouvoir valider l'axiome d'Archimède : c’est-à-dire que n .dt1 peut être une durée aussi grande que l'on veut en prenant n assez grand.
+Cela est souvent passé sous silence : par exemple on pense que le temps est divisible à l'infini ;
+on pense aussi que le temps futur ou passé n'a pas d'horizon (sinon, on sait quelle transformation faire pour cela).
+Alors, on peut définir dt.1/To, To étant une durée fondamentale prise pour unité.
+Ces trois notions fondent la notion de grandeur temps en science, du point de vue épistémologique ;
+on a insisté sur le caractère expérimental.
+Ce n'est important que pour pouvoir se démarquer de discussions sur l'élasticité du temps psychologique ou autres.
+Choix de l'unité
+Une unité doit, pour être acceptée par tous les Hommes, être :
+* universelle : chacun doit l'adopter et peut y accéder
+* facile d'accès et transférable avec traçabilité, sinon la sanction sera immédiate : une autre unité plus efficace apparaîtra.
+* précise : on choisit souvent l'instrument le plus précis : sinon, le secteur de recherche en pointe choisit son unité et il n'y a plus UNITÉ dans les mesures.
+Encore faut-il que cet instrument soit facile à fabriquer, ou bien que le transfert de temps soit utilisable.
+* l'horloge doit être exacte ou corrigée en justesse ;
+mais la vie d'une horloge est limitée.
+* stable : encore faut-il établir que cette précision dure et perdure : la somme cumulée des To ne servirait de rien pour établir une échelle de temps si l'appareil dérivait !
+Par exemple, la période des pulsars millisecondes dérive : on sait recaler cette dérive mais moins bien qu'avec un ensemble d'horloges atomiques.
+De même les masers sont de loin les plus précis actuellement en courte durée, mais on ne sait pas reproduire deux masers identiques, et leurs dérives : donc inutilisables pour une échelle de temps.
+Uniformité, exactitude et stabilité
+sont liées et exigent une définition scientifique précise (cf. variance d'Allan).
+La rotation de la Terre ralentit inexorablement : on sait partiellement en faire la correction ;
+mais cela est loin de la précision des horloges atomiques.
+Idem de la durée de révolution de la Terre autour du soleil.
+La conclusion a été une évolution prudente du Système International.
+Historique bref
+* En 1884, lors de la Conférence de Washington le Temps moyen de Greenwich basé sur la rotation de la Terre, l'antique succession jour
+-nuit que l'on croyait pérenne, est adopté comme référence mondiale.
+Il sera remplacé par le Temps Universel ( UT) en 1925.
+* Nicolas Stoyko, dès 1937, en comparant les variations saisonnières de la marche d'horloges, établit que la Terre tourne plus rapidement de juillet à octobre puis plus lentement le reste de l'année.
+* Puis la théorie est bien comprise : l'éloignement de la Lune est directement lié aux marées et est lié au ralentissement de la Terre : le jour sidéral varie et le mois lunaire aussi.
+Les tirs lasers depuis 1969 sur la Lune donne un éloignement de la Lune de 3.82 (5)cm/an.
+En 1956, le mouvement du pôle de Chandler (période 434 jours, plus composante saisonnière, plus aléas) est analysé, compris : tout est en place pour prendre l'année tropique comme unité.
+* En 1960
+, la seconde est définie à partir de la durée de l'année tropique 1900, c'est-à-dire à partir du mouvement de révolution de la Terre autour du Soleil : c'est la fraction 1/31 , 974 7 de l'année tropique.
+L'échelle de temps qui lui correspond est le temps des éphémérides (TE) ;
+il n'aura qu'une brève existence (1960-1967), due en partie à sa difficulté d'usage et de la complexité de sa mesure.
+* De plus les masers et les premières horloges atomiques apparaissent.
+Leur exactitude et leur stabilité défient toute concurrence astronomique.
+La Conférence Générale des Poids et Mesures change alors la définition de la seconde.
+En 1967, ce sera dorénavant la durée de périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133, à 0 kelvin, sur l'ellipsoïde terrestre de référence pivotant.
+Cette transition est actuellement réalisée avec une exactitude de 10^ (-15).
+Le Temps atomique est créé, puis bientôt le TAI avec le développement des horloges atomiques dans le monde.
+Le 0 kelvin veut dire que l'on corrige de l'effet
+Doppler transverse du second ordre, de même que l'on corrige l'influence de l'altitude, à cause du décalage d'Einstein (Expérience de Pound-Rebka en 1959), et la rotation de la Terre (effet Sagnac-Einstein).
+À partir du TAI, on fabrique l'échelle de temps de référence, l'UTC.
+La fabrique du Temps
+Une horloge même atomique est un instrument fabriqué par l'homme.
+Aussi elle peut être très exacte, mais sur de faibles intervalles de temps, car elle peut dériver à cause de paramètres mal contrôlés comme la température ou la pression.
+Elle peut aussi être légèrement inexacte, mais très stable dans son inexactitude.
+Dans un pays, chaque laboratoire disposant d'horloge (s) atomique (s) réalise un Temps atomique TA (k).
+Généralement les indications sur la marche des horloges (variance d'Allan) d'un même pays sont centralisées dans un organisme de métrologie qui établit un TA (pays).
+En France c'est le LNE-
+SYRTE
+à l'Observatoire de Paris qui est chargé d'établir le Temps Atomique français TA (F)
+Ces temps sont à nouveau regroupés, selon le meilleur algorithme possible (ALGOS d'abord, puis d'autres ensuite), pour faire le TA International, , mais qui sert aux métrologues pour repérer les dérives de leurs horloges et repondérer itérativement leurs moyennes.
+À l'heure actuelle, le temps USNO est celui qui a le moins d'écart au cours du temps avec cette moyenne qu'est le TAI, dont la fiabilité est assurée par la redondance.
+En gros la marche pondérée de 340 horloges réparties dans 56 laboratoires dans le monde donnent le TAI avec une précision meilleure que 10^ (-15) sur 40 jours, MAIS c'est un temps différé connu APRÈS calculs du BIPM.
+Le temps terrestre TT est le TAI +32.184s : il est réalisé sur commande par le BIPM ;
+Il représente un lissage du TAI sur une période plus longue, avec des étalons primaires surveillés sur un an au moins.
+Il est donc plus stable que le TAI, mais évidemment il est TRÈS différé.
+Il sert pour certaines mesures décennales comme la période des pulsars.
+Il sert aussi pour les datations des éclipses anciennes.
+Il faut savoir que, même avec la précision actuelle, le lieu et l'instant exacts d'une éclipse de Soleil dans 100 ou 1000 ans ne peuvent pas se prévoir avec une précision meilleure que quelques secondes.
+Les circonstances ou la manifestation de ce phénomène à la surface de la Terre sont liés à la rotation terrestre et on ne peut pas prévoir son comportement si loin en avance.
+Inversement l'archéologie des éclipses anciennes permet de recaler certains paramètres en particulier d'établir l'écart entre TU, lié à la rotation terrestre, et TT, parfaitement régulier par définition.
+À fortiori les échelles de temps géologique du Néogène (-25 Myr) viennent d'être publiées seulement en 2004 (Gradstein & al, 2004), grâce aux travaux sur les intégrateur symplectiques de Laskar (échelle La2004).
+Le BIPM diffuse, pour les applications, la base du temps légal, appelé temps UTC (temps universel coordonné), mais qui est calé sur le temps UT pour des raisons pratiques : à une date précise, annoncée à l'avance, on le décale par une seconde intercalaire (si on ne le faisait pas, au bout d'un certain temps, on se lèverait à minuit et on déjeunerait à 5h du matin !).
+Depuis le 31 décembre 2005, UTC := TAI + 33 s.
+Néanmoins, ce décalage, même édicté longtemps à l'avance peut créer des bugs, en particulier dans le domaine informatique ou dans les applications directement liées au temps.
+C'est pour cela que, par exemple, le temps propre du système GPS ne suit pas les secondes intercalaires.
+Le temps du système Glonass, qui les suit, a subi des bugs de recalage.
+On parle donc de n'effectuer cette opération que d'heure en heure, c’est-à-dire que la prochaine heure intercalaire serait repoussée de quelques millénaires : autant dire que ce que l'on mesurera c'est le ralentissement du pivotement terrestre !
+Le temps du GPS n'est pas un temps au sens légal, bien que cela soit un excellent temps puisque construit sur le temps TA (USNO).
+En effet, bien qu'il soit corrigé de tous les effets relativistes, il reste à le corriger correctement des variations d'indice de la troposhère, ce qui est mal connu.
+Le projet Galileo qui émettra sur deux fréquences amoindrira un peu cette difficulté, mais qui existera toujours.
+Le projet ACES , Atomic Clock Ensemble in Space, vise à envoyer une horloge, Pharao, encore plus précise en orbite.
+D'autre part, les transferts de temps ne peuvent se faire à mieux que 100, voire 10ps.
+D'où la nécessité d'améliorer l'électronique de base, mais à un niveau de 10ps, c'est très difficile.
+La plupart des composants comme les connecteurs ne sont pas prévus pour cela.
+Néanmoins, le transfert de temps s'effectue de mieux en mieux, au moins dans les laboratoires spécialisés (T2L2, par exemple).
+En définitive, le temps UTC est basé sur le temps TAI, recalé pour l'instant sur UT par des secondes intercalaires : il est d'exactitude inférieure à 50 ns, et de précision < 10^ (-15).
+Il est bien sûr ramené à l'altitude zéro du géoïde et prend en compte la rotation terrestre (effets relativistes).
+De même, il existe un temps terrestre géocentrique et un temps terrestre barycentrique (tenant compte de la lune) et un temps héliocentrique.
+Il existe évidemment un temps galactique.
+Les progrès réalisés sur les horloges optiques à ions piégés (précision attendue 10^ (-17)) sont à venir ;
+alors le S.I. (Système international d'unités) optera pour un changement de l'unité de temps, en continuité avec la définition actuelle.
+Voir aussi
+Bibliographie
+* Audoin et Guinot
+, Les Fondements de la mesure du temps, éd Masson, 1998
+* Noel Dimarcq : http:/ special 05nov / , le temps, le temps
+au .
+as294jciaivlx2vzdtv6wngg7v2tey1

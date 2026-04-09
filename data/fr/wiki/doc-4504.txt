@@ -1,0 +1,144 @@
+Liste d'empereurs|Byzance|Liste de chefs d'ancien État|Byzance|Empereur byzantinEmpereur byzantin|Histoire de la Rome antique
+La liste des empereurs byzantins présente les empereurs de l'Empire byzantin (Empire romain d'Orient).
+À partir du règne d'Héraclius, les empereurs portent le titre de basileus.
+Appellation des empereurs
+La question de l'appellation moderne des empereurs d'Orient a été compliquée à partir du par la généralisation de l'appellation « byzantin » pour l'Empire romain d'Orient, appellation apparue au chez l'historien allemand Hieronymus Wolf.
+En fait, il n'existe pas de fondateur ni de début de l'Empire byzantin, et donc pas de premier empereur byzantin, car la distinction entre l'Empire romain et l'Empire byzantin n'est qu'une question de conventions entre historiens modernes.
+Le partage de l'Empire romain a commencé au cours du , mais ces divisions avaient toutes été temporaires ;
+le système de la Tétrarchie, créé par Dioclétien en 284 pour des raisons pratiques, n'avait pas résisté à l'ambition des césars.
+Tout au plus existe-t-il quelques règnes marquant des césures et pouvant servir de points de repère :
+*Constantin Ier fonde
+Constantinople officiellement en 330 et dote ainsi l'Empire romain d'une seconde capitale ;
+*Théodose
+Ier est le dernier empereur à régner sur un Empire romain unifié.
+La bataille d'Andrinople où meurt son prédécesseur Valens en 378 marque l'avènement de la cavalerie, avènement militaire du Moyen Âge ;
+, est le premier empereur d'Orient après la partition définitive de l'Empire (que cependant personne ne jugea comme telle à l'époque) ;
+* Zénon est parfois considéré comme le dernier empereur romain d'Orient et le premier empereur byzantin, car sous son règne est déposé le dernier empereur d'Occident, Romulus Augustule, en 476, dont les insignes sont envoyées à Constantinople par Odoacre.
+*Justinien est généralement considéré comme le dernier empereur romain en raison de sa vision de l'Empire qui place l'Italie au cœur de la politique de reconquête, et en raison de sa culture essentiellement latine ;
+* Héraclius fait du grec la langue officielle de l'Empire ;
+en fait, le grec n'avait jamais cessé d’être la langue véhiculaire de la moitié orientale de l'Empire romain depuis ses origines, au Il abandonne le titre latin dimperator pour prendre le titre grec de basileus.
+Les Romains d'Orient que nous nommons «
+Byzantins » considéraient que l'orbis romain était unique et indivisible, aussi l'Empire continuait-il, à leurs yeux, en Orient
+- avec toutefois une interruption de à la suite du siège de Constantinople en 1204.
+Jusqu'à la chute de Constantinople en 1453, les historiens byzantins désignent donc toujours leur empire comme celui « des Romains » (et non « des Grecs » ou « des Byzantins »).
+De fait, durant tout le Moyen Âge, l'évocation de l'Empire romain est directement rattachée à Constantinople et garde, tant en Occident qu'en Orient, un prestige immense qui a conduit de nombreux rois barbares à être revêtus des insignes consulaires.
+Après le sacre de Charlemagne en 800 et la reconnaissance de son titre d 'imperator, seuls les empereurs byzantins s'accordent le titre de basileus des Romains, l'orbis romain demeurant indivisible.
+Frise chronologique
+ImageSize = width:1000 height:100
+PlotArea = width:960 height:60
+left:20
+bottom:20
+Period = from:300 till:1500
+TimeAxis = orientation:
+horizontal
+ScaleMajor = unit:year increment:100 start:300
+ScaleMinor = unit:year increment:50 start:300
+Colors
+id:theodosiens value:rgb (0.7,0.7,1) # light purple
+id:
+justiniens value:rgb (1,0.7,0.7)
+# light
+red
+id:heraclides value:rgb (0.7,1,0.7)
+# light green
+id:
+isauriens value:rgb (1,1,0.7)
+# light yellow
+id:amoriens value:rgb (0.7,1,1)
+# light
+blue
+:macedoniens value:rgb (1,0.7,1)
+# rose
+id:comnenes value:gray (0.8) # grey
+LineData
+width:1
+at:
+330 color:
+blue tillpos:60
+at:
+476 color:
+blue tillpos:60
+at:
+1204 color:blue tillpos:60
+at: 1453 color:
+blue tillpos:60
+PlotData=
+align:
+center textcolor:black fontsize:8 mark: (line,black)
+width:25 shift: (0,-5)
+at:
+330 align:
+center shift: (0,50) text:Création de~Constantinople~ (330)
+at:
+476 align:
+center shift: (0,50) text:Chute de Rome (476)
+at:
+1204 align:
+center shift: (0,50) text:Quatrième croisade (1204)
+at: 1453 align:
+center shift: (0,50) text:Chute de~Constantinople~ (1453)
+from:
+306 till: 363 text:Constantiniens color:macedoniens
+from
+364 till: 378 text:Valentiniens color:comnenes shift: (0,5)
+from:
+379 till: 457 text:Théodosiens color:theodosiens
+from:
+457 till: 518 text:Thraces
+from:
+518 till: 610 text:Justiniens color:
+justiniens
+from:
+610 till: 717 text:Héraclides color:
+heraclides
+from
+717 till: 820 text:Isauriens color:
+isauriens
+from:
+820 till: 867 text:
+Amoriens color:
+amoriens shift: (0,5)
+from:
+867 till: 1057 text:
+Macédoniens color:macedoniens
+from
+1057 till: 1185 text:Comnènes color:comnenes
+from
+1185 till: 1204 text:Anges color:theodosiens shift: (0,5)
+from:
+1204 till: 1261 text:Lascaris color:justiniens shift: (0,-8)
+from
+1259 till: 1453 text:
+Paléologues color:heraclides
+Liste des empereurs
+Constantiniens (306-364)
+Valentiniens (364-379)
+Théodosiens (379-457)
+Dynastie thrace (457-518)
+Deux usurpateurs :
+Dynastie justinienne (518-610)
+Héraclides (610-717)
+Usurpateurs sous Constant II :
+Dynastie isaurienne (717-802)
+Usurpateur sous Constantin V :
+Nicéphoriens (802-820)
+Dynastie amorienne / phrygienne (820-867)
+* 836-840 : Alexis Mousélé, gendre de Théophile,
+césar
+Dynastie macédonienne (867-1056)
+Comnène (1057-1059)
+Doukas (1059-1081)
+Comnène (1081-1185)
+Ange (1185-1204)
+Lascaris (1204-1261)
+Paléologue (
+États successeurs
+Détachés de l'Empire au (Venise), lors de la prise de Constantinople en 1204 par la quatrième croisade (l'Épire, Nicée, Trébizonde) ou par la suite (Morée, Théodoros), les États successeurs poursuivent des existences séparées, pour certains longtemps après la chute de Constantinople en 1453 :
+* 1122-1797 : la république de Venise (elle s'est définitivement détachée de l'obédience byzantine sous le mandat de Domenico Michele, doge).
+Phanariotes
+Les Phanariotes étaient de riches aristocrates chrétiens restés à Constantinople sous la domination ottomane et regroupés dans le quartier du Phanar, autour du patriarcat œcuménique.
+Certaines familles revendiquaient descendre des empereurs byzantins dont elles portaient les noms (les Cantacuzène, par exemple…), et ont donné des dynasties régnantes aux principautés roumaines de Valachie et de Moldavie, ainsi que des généraux à la Russie.
+Prétendants au trône byzantin
+* André Paléologue (
+, fils de Thomas Paléologue.
+Ce dernier vendit ses droits aux roi de France Charles VIII, puis aux rois catholiques qui le passèrent aux rois d'Espagne :

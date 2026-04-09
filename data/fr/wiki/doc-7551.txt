@@ -1,0 +1,98 @@
+Arithmétique élémentaire|Algèbre|Multiplication
+On nomme produit de nombres entiers, réels, complexes ou autres le résultat de leur multiplication.
+Les éléments multipliés s’appellent les facteurs du produit.
+L’expression d’un produit est aussi appelée « produit », par exemple l’écriture du triple du nombre est un produit de deux facteurs, où le symbole de la multiplication est sous-entendu.
+L'ordre dans lequel les nombres réels ou les nombres complexes sont multipliés, de même que la façon de regrouper ces termes, n'ont pas d'importance ;
+ainsi, nulle permutation de termes ne modifie le résultat du produit.
+Ces propriétés sont nommées commutativité de la loi et associativité de la loi de multiplication.
+Les multiplications d'objets comme les vecteurs et les matrices (produit matriciel, produit tensoriel, etc.) ne sont en revanche pas commutatifs.
+Exemples
+Trois paquets
+de cinq
+Si trois paquets contiennent chacun cinq friandises, alors au total ils contiennent friandises.
+Ce produit de trois par cinq est égal à une somme de trois termes égaux à cinq.
+Et trois fois cinq font quinze.
+5\;+\;5\;+\;5\;
+\;3\times 5\;
+\;15.
+Cinq virages à droite
+Dans l’expression française « une fraction d’une grandeur », la préposition « de » se traduit en mathématiques par un symbole de multiplication.
+Ce symbole est sous-entendu dans le produit qui représente la fraction de la grandeur .
+Produit qui vaut deux cinquièmes de trois cent soixante degrés si
+\frac\,\times \,360\,^\circ\,
+\,\frac\,\times \,360\,^\circ\,
+\,04\,\times \,360\,^\circ\,
+\,4\,\times36\,^\circ\,
+\,144\,^\circ.
+Imaginons un robot mobile,
+qui effectue des trajets rectilignes successifs de même longueur .
+Ces trajets partiels sont représentés en géométrie plane par des segments égaux successifs.
+Supposons
+qu’entre deux trajets rectilignes, le robot à l’arrêt tourne à droite sur lui-même
+de .
+Quand il a répété cinq fois la manœuvre suivante : avancer tout droit d’une longueur puis tourner à droite sur lui-même de , il revient à son point de départ.
+Son parcours polygonal fermé est représenté par un pentagone régulier étoilé (symbole de Schläfli ), de périmètre ).
+Pendant tout son trajet fermé, le robot tourne dans le sens horaire autour du centre du polygone régulier,
+d’un angle de .
+Il effectue deux tours complets autour du centre du pentagone étoilé.
+Cas simples et notations
+Le principe de base de la multiplication des nombres entiers naturels est de dénombrer les éléments d’une réunion de n ensembles disjoints deux à deux (n est le multiplicateur), quand chaque ensemble contient le même nombre p d'éléments (p est le multiplicande).
+Vocabulaire
+Dans un produit de deux facteurs, le premier facteur est nommé par convention multiplicande et le second multiplicateur.
+Inverser leurs valeurs ne change jamais le résultat, à la différence de l’inversion du dividende et du diviseur dans une division.
+multiplicande × multiplicateur
+L'opérateur est le signe multiplication
+», un point « .
+» sur la ligne quand le séparateur décimal est la virgule et un point opérateur «
+⋅ » (médian)
+lorsque le point sur la ligne sert déjà de séparateur décimal, comme dans la convention anglo-saxonne ;
+en programmation informatique, les langages utilisent en général l'astérisque « * » (signe étoile).
+Il est omis quand il est présent sans ambigüité, par exemple dans une expression comme 3a.
+Principe pour les nombres
+entiers
+Dans le cas des entiers naturels, la multiplication revient à faire des additions de nombres identiques.
+Quand on dit, par exemple, « cinq multiplié par sept », cela signifie que l'on répète sept fois un ensemble de cinq éléments.
+Ainsi :
+5\times7
+5 + 5 + 5 + 5 + 5 + 5 +5
+Par ailleurs, parmi les différentes propriétés algébriques de la multiplication de nombres, la commutativité peut-être explicitée : l'ordre des facteurs n'influe pas sur le résultat :
+7\times5
+35=5\times7.
+Ces expressions se lisent respectivement « cinq multiplié par sept » (ou « 7 fois 5 ») et « sept multiplié par cinq » (ou « 5 fois 7 »).
+Cette opération peut aussi se noter, pour des besoins techniques,
+Le résultat peut être obtenu :
+* par consultation d'un répertoire de résultats connus, tel qu'une table de multiplication ;
+* par l'exécution d'un algorithme (de tête, à la main avec un instrument d'écriture, ou à l'aide d'un calculateur) :
+** l'algorithme le plus simpliste
+se résume en additions successives (fréquent pour les petits nombres, mais rapidement inutilisable),
+pour des nombres plus grands mais encore de taille raisonnable, il existe des méthodes plus efficaces qui font partie du bagage culturel,
+** l'informatique
+moderne a suscité des techniques encore plus élaborées, certaines étant des objets de recherche.
+Principe pour les nombres décimaux
+Un nombre décimal est un nombre entier qui a été divisé par une puissance de dix (1
+- c'est alors un entier
+, 10, 100, 1 000…).
+La distributivité de la multiplication sur la division permet de calculer les multiplications de nombres décimaux comme celle des nombres entiers :
+# on ignore les virgules et l'on multiplie les nombres comme si c'étaient des entiers ;
+# le nombre de chiffres après la virgule du résultat final est la somme du nombre de chiffres après la virgule du multiplicande et du multiplicateur.
+Par exemple pour calculer 5,3 × 0,21 :
+* le multiplicande a un chiffre après la virgule, le multiplicateur en a deux, le résultat en a donc trois (1 + 2) : le résultat final est 1,113.
+Généralisation
+Plus généralement, un produit est le résultat de la composition de deux éléments d'un ensemble pour une loi interne multiplicative.
+Lorsque des matrices ou des objets de divers autres anneaux sont multipliés, le produit dépend en général de l'ordre des facteurs ;
+en d'autres termes, la multiplication des matrices, et les lois de multiplication de ces autres anneaux, ne sont pas commutatives.
+Des généralisations et des extensions du concept de produit existent en mathématiques :
+* le produit scalaire et le produit vectoriel sont des sortes de multiplications de vecteurs ;
+* le produit matriciel, la multiplication des matrices n'est pas commutative sauf sur des sous-ensembles triviaux;
+* les produits dans des anneaux ou dans des corps commutatifs (ou gauches) de toutes sortes.
+Des multiplications respectant l'invariance des normes (« la norme du produit de deux objets est égale au produit de leur norme »)
+n'ont pu être définies que pour quelques objets : les réels, les complexes,
+les quaternions et les octonions.
+Produit indexé
+Le produit peut être noté ∏ (pi capitale) lorsque de nombreux facteurs indexés interviennent.
+Par exemple, si l'on considère une suite (u_n)_, alors :
+\prod_^N u_i = u_1 \times u_2 \times
+\cdots \times u_N.
+Notes
+Voir aussi
+de6d83x9w379v0akwskhn1ladpjq0vm

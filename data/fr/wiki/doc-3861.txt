@@ -1,0 +1,274 @@
+Théorie du chaos|Physique théorique
+En mathématiques, la théorie du chaos étudie le comportement des systèmes dynamiques très sensibles aux conditions initiales, un phénomène généralement illustré par l'effet papillon.
+Pour de tels systèmes des différences infimes dans les conditions initiales entraînent des résultats totalement différents, rendant en général toute prédiction impossible à long terme
+Cela concerne même les systèmes purement déterministes (ceux dont le comportement futur est entièrement déterminé par les conditions initiales, sans aucune intervention du hasard) : leur nature déterministe ne les rend pas prévisibles car on ne peut pas connaître les conditions initiales avec une précision infinie.
+Ce comportement paradoxal est connu sous le nom de chaos déterministe, ou tout simplement de chaos.
+Le comportement chaotique est à la base de nombreux systèmes naturels, tels que la météo ou le climat.
+Ce comportement peut être étudié grâce à l'analyse par des modèles mathématiques chaotiques, ou par des techniques analytiques de récurrence et des applications de Poincaré.
+La théorie du chaos a des applications en météorologie, sociologie, physique, informatique, ingénierie, économie, biologie et philosophie.
+Introduction
+Définition heuristique d'un système chaotique
+Un système dynamique est dit chaotique si une portion « significative » de son espace des phases présente simultanément les deux caractéristiques suivantes :
+* le phénomène de sensibilité aux conditions initiales,
+La présence de ces deux propriétés entraîne un comportement extrêmement désordonné, qualifié à juste titre de « chaotique ».
+Les systèmes chaotiques s'opposent notamment aux systèmes intégrables de la mécanique classique, qui furent longtemps les symboles d'une régularité toute puissante en physique théorique.
+La dynamique quasi périodique d'un système intégrable
+semblait elle-même trouver son illustration parfaite dans les majestueux mouvements des planètes du Système solaire autour du Soleil ;
+aussi Voltaire, qui incita Émilie du Châtelet à entreprendre la traduction des Philosophiae Naturalis Principia Mathematica de Newton, parlait de Dieu comme du « Grand Horloger »…
+Qu'est-ce que la « théorie du chaos » ?
+Au cours de son histoire, la physique théorique s'était déjà trouvée confrontée à la description de systèmes complexes macroscopiques, comme un volume de gaz ou de liquide, mais la difficulté à décrire de tels systèmes semblait découler du très grand nombre de degrés de liberté internes du système à l'échelle microscopique (atomes, molécules).
+La mécanique statistique avait dans ce cas permis de rendre compte de façon satisfaisante des propriétés macroscopiques de ces systèmes à l'équilibre.
+Ce fut donc une grande surprise lorsqu'on s'aperçut à la fin du qu'une dynamique d'une grande complexité pouvait résulter d'un système simple possédant un très petit nombre de degrés de liberté, pourvu qu'il possède cette propriété de sensibilité aux conditions initiales.
+La théorie du chaos s'attache principalement à la description de ces systèmes à petit nombre de degrés de liberté, souvent très simples à définir, mais dont la dynamique nous apparaît comme très désordonnée.
+La théorie du chaos est-elle née dans les années 1970 ?
+La réponse à cette question est : oui et non.
+* Non,
+car le phénomène de sensibilité aux conditions initiales a été découvert dès la fin du par Henri Poincaré, dans des travaux concernant le problème à N corps en mécanique céleste (notamment dans le volume 3 des Méthodes Nouvelles de la Mécanique Céleste), puis par Hadamard avec un modèle mathématique abstrait aujourd'hui baptisé « flot géodésique sur une surface à courbure négative ».
+Cette découverte a entraîné un grand nombre de travaux importants, principalement dans le domaine des mathématiques.
+Ces travaux sont évoqués dans le paragraphe
+Développements historiques situé plus loin.
+* Oui, car ce n’est véritablement que dans les années 1970 que la théorie du chaos s'est progressivement imposée sur le devant de la scène scientifique, opérant une rupture épistémologique forte.
+Le terme suggestif de « chaos » n'a d'ailleurs été introduit qu'en 1975 par les deux mathématiciens Tien-Yien Li et James A. Yorke.
+Otto E. Rössler, connu pour avoir découvert l'un des attracteurs chaotiques le plus étudié (et appelé aujourd'hui attracteur de Rössler), utilisa le terme de « chaos » dans la plupart de ses articles dès 1976.
+Le caractère tardif de ce changement de paradigme s'explique aisément : la théorie du chaos doit en effet sa popularisation aux progrès fulgurants de l'informatique à partir des années 1960-70.
+Cette science nouvelle a en effet rendu accessible aux non-mathématiciens la visualisation directe de l'incroyable complexité de ces systèmes dynamiques, auparavant réservée aux seuls « initiés » capables d'absorber le formalisme mathématique idoine.
+À titre d'illustration, la figure ci-contre est un exemple typique d'images produites par la théorie du chaos ;
+il s'agit ici d'un objet géométrique découvert par Lorenz en 1963, et initialement baptisé « attracteur étrange » à la suite de l'introduction de ce concept par David Ruelle et Floris Takens.
+(Cet objet sera commenté plus bas, au paragraphe : Lorenz et la météorologie.
+La théorie du chaos est une véritable théorie scientifique.
+Elle repose sur la représentation des solutions des équations différentielles dans l'espace des phases associé : représenter les solutions sous forme de trajectoire dans l'espace plutôt que l'une des variables en fonction du temps permet de révéler la structure sous-jacente : c'est ce qui conduit à affirmer que la théorie du chaos contribue à «trouver de l'ordre caché sous un désordre apparent.
+L'attracteur de Lorenz précédemment représenté
+est un exemple d'une évolution d'un système dans l'espace des phases.
+Au déterminisme laplacien permettant la prédiction sur des temps arbitrairement longs a succédé un déterminisme de nature fondamentalement différente.
+Il peut être approché de manière probabiliste et alors caractérisé par l'existence d'invariants prenant la forme de mesures de probabilités, de dimension fractale… ou par une description topologique des attracteurs.
+Toutes les sciences, y compris sociales, sont concernées par ce changement de paradigme ;
+en particulier, cette théorie peut inclure l'organisation du vivant dans la nature.
+Le déterminisme, de Laplace à Poincaré
+La stabilité du Système solaire
+Le point de départ de la théorie du chaos est le problème à « 3 corps » qui consiste à étudier le mouvement de trois corps en interaction gravitationnelle, comme le système : , supposé isolé du reste de l'univers.
+Le but de cette recherche est de déterminer si le Système solaire est « stable » sur le long terme, ou bien si l'un des corps risque un jour de percuter un autre corps, ou encore être éjecté du Système solaire vers l'infini.
+Le problème à 3 corps est aussi vieux que la mécanique newtonienne ;
+en effet, dès la naissance de cette théorie, son fondateur s'est intéressé au problème à trois corps dans le but de prédire le mouvement de la Lune.
+Tous les astronomes à sa suite ont abordé ce problème, dont Laplace, qui crut avoir prouvé la stabilité du Système solaire en utilisant la théorie des perturbations au premier ordre.
+Malheureusement, le développement perturbatif au premier ordre est insuffisant pour conclure définitivement.
+Un siècle après Laplace, Henri Poincaré s'est donc emparé du problème.
+On examine ci-dessous l'évolution des idées qui distinguent la pensée de Laplace de celle de Poincaré.
+Notion de système dynamique différentiel conservatif
+Pour un système possédant n degrés de libertés, l'espace des phases \Gamma du système possède 2n dimensions, de telle sorte que l'état complet x (t) \in \Gamma du système à l'instant t est en général un vecteur à 2n composantes.
+On considère alors typiquement un système différentiel du premier ordre du type :
+où la fonction f définit le système dynamique étudié (c'est en général également un vecteur à n dimensions, c’est-à-dire un ensemble de n fonctions scalaires).
+Ce système physique, supposé conservatif, est déterministe si et seulement si la dynamique du système associe à chaque condition initiale x_0 un et un seul état final x (t).
+Il faut pour cela qu'il existe une application bijective \phi_t : \Gamma \to \Gamma de l'espace des phases sur lui-même telle que :
+Lorsque le temps t varie, cette bijection engendre un flot sur \Gamma , c’est-à-dire un groupe continu à un paramètre \phi_t.
+Cette modélisation mathématique correspond par exemple au flot hamiltonien de la mécanique classique, ainsi qu'au flot géodésique.
+Laplace, ou le déterminisme triomphant
+Fort des succès obtenus en mécanique céleste, Laplace écrit en 1814 dans l’introduction de son Essai philosophique sur les probabilités :
+Ce texte aujourd'hui célèbre est en réalité largement prophétique, au sens où Laplace ne possède pas le théorème général d'existence et d'unicité de la solution d'une équation différentielle, qui sera démontré ultérieurement, et fait l'objet du paragraphe suivant.
+Le théorème de Cauchy-Lipschitz
+C'est le mathématicien Cauchy qui énonce en 1820 le théorème général d'existence et d'unicité de la solution d'une équation différentielle.
+Lipschitz lui donnera sa forme définitive en 1868.
+Poincaré et l'imprédictibilité
+Environ un siècle après Laplace, Poincaré écrit dans l'introduction de son Calcul des Probabilités un texte dont la tonalité est fort différente de celui de son illustre prédécesseur.
+C'est entre 1880 et 1910, que Poincaré, qui cherche à prouver la stabilité du Système solaire, découvre un nouveau continent issu des équations de Newton et jusqu'alors inexploré.
+Sensibilité aux conditions initiales
+Dans le paragraphe précédent, Poincaré met en exergue le phénomène connu aujourd'hui sous la dénomination de sensibilité aux conditions initiales : pour un système chaotique, une très petite erreur sur la connaissance de l'état initial x0 dans l'espace des phases va se trouver (presque toujours) rapidement amplifiée.
+Quantitativement, la croissance de l'erreur est localement exponentielle pour les systèmes fortement chaotiques, baptisés selon la théorie ergodique K-systèmes (le K est pour Kolmogorov), ainsi que pour les systèmes très fortement chaotiques, dits B-systèmes (le B est pour Bernoulli).
+Cette amplification des erreurs rend rapidement totalement inopérant le pouvoir prédictif qui découle de l'unicité de la solution, assurée par Cauchy-Lipschitz.
+Typiquement, pour un système chaotique, les erreurs croissent localement selon une loi du type \textstyle e^\frac, où \tau est un temps caractéristique du système chaotique, appelé parfois horizon de Liapounov.
+Le caractère prédictible de l'évolution du système ne subsiste que pour les instants t \ll \tau , pour lesquels l'exponentielle vaut approximativement 1, et donc tels que l'erreur garde sa taille initiale.
+En revanche, pour t \gg \tau , toute prédiction devient pratiquement impossible, bien que le théorème de Cauchy-Lipschitz reste vrai.
+Poincaré et après
+Poincaré et la stabilité du Système solaire
+Un siècle après Laplace, Henri Poincaré s'est attelé au problème de la stabilité du Système solaire.
+Entre 1880 et 1886, il commence par publier une série de mémoires intitulés : «Sur les courbes définies par une équation différentielle» qui donne naissance à l'analyse qualitative des équations différentielles.
+Poincaré y introduit notamment la notion capitale de portrait de phase, qui résume géométriquement l'aspect des solutions dans l'espace des phases du système.
+Puis, en 1890, il publie le fameux mémoire intitulé : «Sur le problème des trois corps et les équations de la dynamique», qui lui vaudra le prix du roi Oscar, roi de Norvège et de Suède et passionné de mathématiques.
+L'histoire est célèbre : le mémoire lauréat comportait une erreur détectée par le jeune mathématicien Phragmén alors qu'il prépare le manuscrit pour l'imprimeur.
+Cette erreur obligera Poincaré à procéder à de profonds remaniements dans son mémoire, et aussi à rembourser les frais d'impression du premier mémoire, une somme supérieure de quelque mille couronnes au prix qu'il avait reçu.
+Mais cette erreur fut féconde, car en lieu et place de la stabilité du Système solaire, Poincaré découvrit le chaos potentiel caché dans les équations de la dynamique.
+Plus récemment, des calculs numériques effectués par l'astronome Jacques Laskar en 1989-1990, puis confirmés par Sussman & Wisdom en 1992, montrent que le système solaire est chaotique, avec un horizon de Lyapounov de l'ordre de 200 millions d'années.
+L'école russe des années 1890-1950
+Liapounov et la stabilité du mouvement
+Le 12 octobre 1892, Liapounov soutient à l'université de Moscou une thèse de doctorat intitulée :
+Le Problème général de la stabilité du mouvement.
+Il y introduit l'idée de mesurer la divergence possible entre deux orbites issues de conditions initiales voisines et définit la « stabilité de Liapounov ».
+Lorsque cette divergence croît exponentiellement avec le temps pour presque toutes les conditions initiales voisines d'un point donné, on a le phénomène de sensibilité aux conditions initiales, idée à laquelle sont attachés les exposants de Liapounov, qui donnent une mesure quantitative de cette divergence exponentielle locale.
+L'école de Gorki : 1930-1940
+Andronov
+- Pontriaguine
+- Lefschetz
+L'oscillateur de Van der Pol
+Émergence et développement de la théorie ergodique
+Prédictibilité et calculabilité
+Norbert Wiener et John von Neumann se sont préoccupés pourtant de la possibilité de prédire par le calcul une situation future à partir d'un état présent.
+Si Wiener jugeait la tâche ardue, voire impossible puisque de « petites causes » qu'on omettrait nécessairement d'inclure dans le modèle peuvent produire de « grands effets » (il donna l'image du « flocon de neige déclenchant une avalanche »), Von Neumann y voyait une occasion exceptionnelle pour les nouveaux appareils que l'on n'avait pas encore baptisés ordinateurs : «
+Si un flocon de neige peut déclencher une avalanche », répondait-il à Wiener, « alors la prédiction par le calcul nous dira très exactement quel flocon de neige précis intercepter pour que l'avalanche ne se produise pas !
+Wiener se montra sceptique : un état hypercritique restait un état hypercritique, et supprimer ce flocon particulier ne ferait à son avis que « permettre à un autre de le remplacer dans cette fonction ».
+Selon lui, rien ne serait donc résolu (point de vue admis aujourd'hui).
+Les deux hommes ne poussèrent pas plus avant ce différend.
+Lorenz et la météorologie
+Présentation
+Bien que le caractère vraisemblablement chaotique de la météorologie fut pressenti par Henri Poincaré, le météorologue Edward Lorenz est néanmoins considéré comme étant le premier à le mettre en évidence, en 1963.
+Mathématiquement, le couplage de l'atmosphère avec l'océan est décrit par le système d'équations aux dérivées partielles couplées de Navier-Stokes de la mécanique des fluides.
+Ce système d'équations était beaucoup trop compliqué à résoudre numériquement pour les premiers ordinateurs existant au temps de Lorenz.
+Celui-ci eut donc l'idée de chercher un modèle très simplifié de ces équations pour étudier une situation physique particulière : le phénomène de convection de Rayleigh-Bénard.
+Il aboutit alors à un système dynamique différentiel possédant seulement trois degrés de liberté, beaucoup plus simple à intégrer numériquement que les équations de départ.
+Il observa alors, par pur hasard, qu'une modification minime des données initiales (de l'ordre de un pour mille) entraînait des résultats très différents.
+Lorenz venait de mettre en exergue la sensibilité aux conditions initiales
+La métaphore du papillon
+En 1972, Lorenz fait une conférence à lAmerican
+Association
+for the
+Advancement of Science intitulée:
+« Predictability:
+Does the
+Flap of
+a Butterfly's Wings in Brazil
+Set off a Tornado in Texas?
+», qui se traduit en français par :
+Cette métaphore, devenue emblématique du phénomène de sensibilité aux conditions initiales, est souvent interprétée à tort de façon causale : ce serait le battement d'ailes du papillon qui déclencherait la tempête.
+Il n'en est rien ;
+Lorenz écrit en effet:
+De crainte que le seul fait de demander, suivant le titre de cet article, "un battement d'ailes de papillon au Brésil peut-il déclencher une tornade au Texas ?
+", fasse douter de mon sérieux, sans même parler d'une réponse affirmative, je mettrai cette question en perspective en avançant les deux propositions suivantes :
+* Si un seul battement d'ailes d'un papillon peut avoir pour effet le déclenchement d'une tornade, alors, il en va ainsi également de tous les battements précédents et subséquents de ses ailes, comme de ceux de millions d'autres papillons, pour ne pas mentionner les activités d'innombrables créatures plus puissantes, en particulier de notre propre espèce.
+Si le battement d'ailes d'un papillon peut déclencher une tornade, il peut aussi l'empêcher.
+Il serait plus juste de dire que la différence de cause (ici de conditions initiales) due à un battement d'ailes du papillon "induit" une différence d'effet qui est la tornade ;
+le battement d'ailes ne la provoque pas !
+Observation :
+Si l'homme est incapable d'appréhender la chaîne causale qui mènerait du simple battement d'ailes particulier d’un papillon, au déclenchement d’une tornade au Texas, tout autant d’ailleurs d’une même conséquence se produisant à la suite d'un simple battement de son bras, il se trouve être alors dans l'incapacité de déterminer quels sont les effets de bout de chaîne d'une cause qu'il estimerait être mineure.
+Dans l'hypothèse où il pourrait appréhender l'ensemble de la chaîne qui mènerait d'une cause anodine à un effet majeur sans rapport évident, il serait alors dans la capacité d’en provoquer l’existence, ou non.
+Il s'ensuivrait donc qu'un événement anodin ne pourrait être considéré comme provoquant un effet dévastateur qu’à la condition que l’homme ait connaissance de la chaîne des causalités qui lie ses extrêmes, en n'en ayant la volonté de la mettre en œuvre.
+D'où l'on pourrait déduire que nous sommes dans l'incapacité de déterminer ce qui a provoqué l'extinction des dinosaures, ni même si quelqu'un ou quelque chose en est la cause.
+Stephen Smale : topologie et stabilité structurelle
+L'école russe des années 1950-1980
+Anosov
+- Sinaï
+- Arnold
+Transition d'une dynamique régulière vers le chaos
+Soit un système dynamique dépendant d'un paramètre r :
+Il arrive que la dynamique change de comportement lorsque le paramètre r varie.
+On a pu mettre en évidence trois grands scénarios de passage d'une dynamique régulière à une dynamique chaotique lors de la variation d'un paramètre.
+Cascade de doublements de période
+Mitchell Feigenbaum a redécouvert une route vers le chaos qui avait été étudiée dans les années 60 par Myrberg.
+Aujourd'hui, cette route est appelée « cascade de doublements de période » pour décrire la transition entre un comportement périodique et un attracteur chaotique.
+Ce scénario est observé par exemple avec la suite logistique, qui est définie par récurrence par une application du segment 0, 1 dans lui-même :
+où n = 0, 1, … dénote le temps discret, x l'unique variable dynamique, et 0 \le r \le 4 un paramètre
+La dynamique de cette application présente un comportement très différent selon la valeur du paramètre r :
+, le système possède un point fixe attractif, qui devient instable lorsque r = 3.
+* Pour 3 \le r < 3.57..., l'application possède un attracteur qui est une orbite périodique, de période 2^n où n est un entier qui tend vers l'infini lorsque r tend vers 3.57…
+* Lorsque r = 3.57...
+, l'application possède un attracteur chaotique fractal découvert par le biologiste May (1976).
+Le cas r = 4 avait été étudié dès 1947 par Ulam et von Neumann.
+À noter qu'on peut dans ce cas précis établir l'expression exacte de la mesure invariante ergodique.
+Lorsque le paramètre r augmente, on obtient donc une succession de bifurcations entre les comportements périodiques et le chaos, résumée sur la figure ci-contre.
+Scénario de Ruelle-Takens
+Par quasi-périodicité…
+Scénario de Pomeau-Manneville
+Par intermittence
+Quelques exemples
+* Transformation du boulanger.
+La transformation du boulanger a de nombreuses variantes, qui toutes ont pour point commun de « faire remonter » très vite au niveau macroscopique d'infimes différences microscopiques, plus faible que la résolution de l'instrument utilisé.
+Applications
+* Astrophysique :
+Étoiles variables à Courbe de lumière irrégulière, Du chaos dans la musique des étoiles http:/ abs 0109028
+* Économie : son modèle simplifié décrit l'évolution de la bourse, du prix de l'or ou l'évolution d'une population donnée
+* Psychologie du développement :
+Esther Thelen a décrit le développement des premières acquisitions motrices de l'enfant et ses premiers apprentissages implicites (acquisition de la marche) en utilisant les modélisations issues des théories des systèmes dynamiques et théorie du chaos.
+Son approche était novatrice et a fortement influencé les modèles théoriques de la psychologie du développement après la publication de deux ouvrages de référence sur le sujet en 1993 et 1994 (co-auteur, Linda Smith) .
+Ce champ d'investigation est le developmental system theory en anglais, ou théorie développementale des systèmes.
+Bibliographie
+Bibliothèque virtuelle
+* David Ruelle, Chaos, imprédictibilité et hasard, conférence de vulgarisation donnée en 2000 par l'auteur à l'Université de tous les savoirs, puis publiée
+dans :
+Qu'est-ce que l'Univers ?
+(éd.
+Y. Michaud), Odile Jacob (2000), 647-656.
+Texte complet disponible au format http:/ ~ruelle 129chaos.pdf pdf.
+* Académie des sciences morales et politiques ;
+Le chaos, dans : Implications philosophiques de la science contemporaine (2001), groupe de travail présidé par Bernard d'Espagnat :
+François Lurcat, Le chaos & l'occident, format http:/ travaux
+philosc lurcat.pdf pdf.
+** Éric Bois, De quelques enjeux philosophiques du phénomène du chaos, format http:/ travaux
+philosc bois.pdf pdf.
+** Débat, format http:/ travaux
+philosc 2-3_Debat.pdf pdf.
+* , Roberto Artuso, Ronnie Mainieri et Gábor Vattay,
+- Décembre 2004).
+Ouvrage de référence http:/ en ligne écrit par Predrag Cvitanović (Niels Bohr Institute, Copenhague) et ses collaborateurs.
+Ouvrages de vulgarisation
+* Amy Dahan-Dalmedico, Jean-Luc Chabert et Karine Chemla (sous la direction de), Chaos & déterminisme, Points Sciences, Le Seuil (1992),
+Un ouvrage collectif au format poche, divisé en trois parties : Approches mathématiques, Physique & Calcul, et Quelques retours sur l'histoire et la philosophie, écrits par quelques-uns des meilleurs spécialistes actuels du domaine.
+* David Ruelle, Hasard & Chaos, Collection Opus 89, éditions Odile Jacob, 1991 .
+Ouvrage d'introduction au chaos au format poche par un expert, professeur de physique théorique à l'IHES.
+* Pierre Bergé, Yves Pomeau et Monique Dubois-Gance
+, Des rythmes au chaos, Collection Opus 64, Éditions Odile Jacob, 1997 .
+Un autre ouvrage d'introduction au format poche, par des spécialistes français.
+* et , Celestial Encounters
+- The Origin of Chaos, Princeton University Press, 1996 .
+L'origine du "chaos" moderne se trouve dans les travaux pionniers d'Henri Poincaré réalisés à la fin du à propos d'un vieux problème de mécanique newtonienne : le problème à N corps.
+Les auteurs, mathématiciens spécialistes du domaine, retracent l'histoire de ce problème et de ses développements de Poincaré à nos jours.
+Vulgarisation accessible à partir du premier cycle universitaire.
+* Ivar Ekeland
+, Le Chaos, Dominos, Flammarion, 1995 .
+Un ouvrage vulgarisant les notions de la théorie du chaos.
+* James Gleick, La Théorie du chaos, Albin Michel, 1989 .
+Réédité par Flammarion, 1991.
+Bestseller, a influencé les auteurs Michael Crichton (Jurassic Park) et Tom Stoppard (Arcadia).
+* Julien Gargani, Poincaré, le hasard et l’étude des systèmes complexes, L'Harmattan, 2012.
+un ouvrage d'histoire et philosophie des sciences.
+* et David Peat, Un miroir turbulent, Dunod, 1997 .
+Un ouvrage de vulgarisation de la théorie du chaos.
+* Vincent Fleury, Arbres de pierre, 1998.
+Ouvrage de vulgarisation qui part de l'histoire des dendrites pour introduire la morphogenèse (sensible) et articuler les relations entre structures compactes et arborescentes.
+* Étienne Ghys, La Théorie du chaos.
+Une conférence enregistrée pour rendre ce concept accessible à tous, une coédition
+De vive voix
+- Académie des sciences, 2011 (ce CD a reçu le prix Lire dans le noir du livre audio 2011).
+Textes techniques
+* Pierre Bergé, Yves Pomeau et Christian Vidal
+, L'ordre dans le chaos
+- Vers une approche déterministe de la turbulence, Hermann, 1988 .
+Un ouvrage d'introduction au chaos par des experts français, accessible dès le premier cycle universitaire.
+Prix Henri-Poincaré 1990 de l'Académie des Sciences.
+* Gilles Deleuze, Félix Guattari, Du chaos au cerveau
+dans Qu'est-ce que la philosophie?, Paris, Les éditions de minuit, 1991
+* Christophe Letellier
+, Le Chaos dans la nature, Vuibert, 2006 .
+Un ouvrage d'introduction tant aux aspects historiques qu'aux concepts techniques par un expert français.
+* T. W. B. Kibble et F.H. Berkshire, Classical Mechanics, Prentice Hall, édition, 1997
+Un excellent cours d'introduction à la mécanique, des fondements newtoniens jusqu’aux formalismes plus avancés de Lagrange et de Hamilton.
+Kibble est professeur émérite de Physique Théorique de l'Imperial College de Londres.
+Pour cette édition (avec un coauteur), deux chapitres d'introduction aux idées de la théorie du chaos ont été inclus.
+Niveau : à partir du premier cycle universitaire.
+(N.B. :
+Il a existé une traduction française de l'édition précédente, publiée en son temps par Dunod.
+* Kathleen T. Alligood, Tim Sauer et , Chaos: An Introduction to Dynamical Systems, Springer-Verlag, 1997
+* David Ruelle, Deterministic chaos:
+the science and the fiction, Proceedings of the Royal Society London A 427 (1990), 241-248
+* Henri Poincaré
+, Les méthodes nouvelles de la mécanique céleste, 3 volumes, Éditions Gauthiers-Villars, 1892
+* Jacques Hadamard, Les surfaces à courbures opposées et leurs lignes géodésiques,
+Journal de mathématiques pures et appliquées 4 (1898), 27.
+Pour une revue plus récente, voir e.g.
+la référence suivante : Pierre Pansu, Le flot géodésique des variétés Riemanniennes à courbure négative, Séminaire Bourbaki 738 (1991) publié dans : Astérisque 201-203 (1991) 269-298.
+* Vladimir Arnold, Mathematical Methods of Classical Mechanics, Springer-Verlag, édition, 1989 .
+Une synthèse de l'état de l'art en mécanique analytique (formalismes lagrangien & hamiltonien) avec l'accent mis sur l'interprétation géométrique de ces formalismes, par l'un des plus brillants mathématiciens du domaine.
+À partir du second cycle universitaire.
+* Vladimir Arnold, V.V. Kozlov et A.I. Neishtadt,
+Mathematical Aspects of Classical and Celestial Mechanics, Encyclopaedia of Mathematical Sciences, Springer-Verlag ( édition-1993).
+Une synthèse de l'état de l'art en mécanique céleste, par l'un des plus brillants mathématiciens du domaine (Arnold) et ses collaborateurs.
+À partir du second cycle universitaire.
+* Vladimir Arnold et André Avez, Ergodic problems of classical mechanics, Advanced Book Classics, Addison-Wesley, 1988.
+Réédition d'un ouvrage classique écrit en 1968.
+* David Ruelle et Jean-Pierre Eckman,
+Ergodic theory of chaos and strange attractors, Review of Modern Physisc 57 (1985), 617-656
+* Vladimir Damgov
+, Nonlinear and parametric phenomena
+- Applications in radiophysical and mechanical systems, World Scientific, Series on Nonlinear Sciences, 2004.
+Aspects historiques
+* David Aubin, A Cultural History
+of Catastrophes and Chaos: Around the
+Institut des Hautes
+Études Scientifiques, France 1958-1980, Ph.
+D., université de Princeton, 1998, UMI #9817022 au format pdf

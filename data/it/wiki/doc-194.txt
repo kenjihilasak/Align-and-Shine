@@ -1,0 +1,72 @@
+La velocità del suono è la velocità con cui un suono si propaga in un certo ambiente, detto mezzo.
+La velocità del suono varia a seconda del mezzo (ad esempio, il suono si propaga più velocemente nell'acqua che non nell'aria), e varia anche al variare delle proprietà del mezzo, specialmente con la sua temperatura.
+Nell'aria, la velocità del suono è di 331 m/s a (pari a e di (pari a a (e in approssimazione lineare varia secondo la legge con T la temperatura misurata in °C).
+Il suono si propaga in modi diversi a seconda che sia in un solido, in cui tutte le molecole sono collegate solidamente fra loro, oppure in un fluido (liquido o gas), che invece è incoerente.
+Nei fluidi, la velocità del suono segna il confine tra due regimi di moto completamente diversi, per l'appunto detti regime subsonico e regime supersonico.
+Questa grandezza è molto importante, perché è anche la velocità con cui si propagano l'energia cinetica e le sollecitazioni meccaniche in una determinata sostanza.
+Velocità del suono nei solidi
+Il suono nei solidi si può propagare in due modi diversi:
+tramite onde longitudinali in cui il solido viene sollecitato con sforzi di compressione, e onde trasversali in cui la sostanza è sottoposta a sollecitazioni di taglio.
+Per un'onda longitudinale, la velocità è data
+a_l = \sqrt
+dove E rappresenta il modulo di Young del materiale considerato e \rho la sua densità.
+Per le onde trasversali la formula è analoga
+a_t = \sqrt
+dove il modulo di Young viene sostituito da G, il modulo di taglio.
+Il modulo di Young è sempre superiore a quello di taglio, quindi le onde longitudinali sono sempre le più veloci;
+se il mezzo è limitato come nel caso di una sbarra o altro oggetto di piccole dimensioni sono anche le uniche ad essere eccitate.
+Perciò quando si parla di velocità del suono nel mezzo ci si riferisce correntemente a a_l, trascurando la propagazione trasversale.
+In mezzi materiali molto estesi invece i due modi di propagazione coesistono e devono essere considerati entrambi:
+per esempio nei terremoti il moto del terreno è la risultante sia delle onde P (longitudinali) che delle onde S (trasversali).
+Velocità del suono nei fluidi
+In un fluido gli atomi o le molecole sono liberi di scorrere, e quindi le onde trasversali non possono manifestarsi;
+il suono si propaga solo per mezzo di onde di pressione longitudinali.
+Ad esempio, un diapason messo in vibrazione genera una successione di perturbazioni infinitesime (cioè molto piccole rispetto alle altre grandezze in esame) di compressione ed espansione.
+Tale successione è percepita dall'orecchio umano come un suono.
+a = \sqrt
+che è la velocità del suono per un fluido generico.
+Generalmente le compressioni e le espansioni causate dal suono nel fluido sono troppo deboli perché vi sia un apporto apprezzabile di entropia, possiamo considerare il processo isoentropico (ipotesi storicamente avanzata da Pierre Simon Laplace).
+Se il particolare fluido con cui abbiamo a che fare è un gas, possiamo fare qualche passo in più;
+infatti il modulo di comprimibilità isoentropica di un gas è dato da
+E_s = p \, \gamma
+dove γ è il coefficiente di dilatazione adiabatica del gas e p la pressione media, che può essere messa in relazione con le altre variabili di stato termodinamiche con una legge costitutiva, per esempio nel caso valga la legge dei gas ideali:
+a (T) = \sqrt
+dove T è la temperatura assoluta del gas, e R è la costante propria del gas:
+\bar R = \frac m
+con R0 è la costante universale dei gas, e m la sua massa molare.
+Possiamo ricavare l'espressione anche applicando il principio di conservazione della massa ed il principio di conservazione della quantità di moto.
+Un'onda sonora che si propaga attraverso un gas è un fenomeno stazionario dal punto di vista dell'onda sonora, ma è non stazionario dal punto di vista del gas, perché al passare del tempo le grandezze avranno valori differenti:
+prima del passaggio dell'onda la velocità media del gas avrà sempre il valore \vec a (dove con a si indica la velocità del suono appunto), la pressione il valore p e la densità il valore \rho, mentre dopo di essa la velocità sarà diminuita se l'onda sonora è di compressione (o aumentata se l'onda è di espansione) al valore \vec a - \Delta\vec v;
+la pressione e la densità saranno aumentate (o diminuite) al valore p + dp e \rho + d\rho.
+Poiché la massa deve conservarsi, la portata specifica che attraversa l'onda deve essere uguale a quella che l'onda si lascia alle spalle, quindi:
+\rho \, a = \left ( \rho + d\rho \right) \left ( a - d\vec v \, \right)
+Trascurando gli infinitesimi di ordine superiore (ovvero i prodotti dei due infinitesimi), abbiamo:
+\vec a \, d\rho = \rho \, d\vec v.
+Oltre alla massa poi deve conservarsi anche la quantità di moto, quindi ogni variazione di questa deve essere uguale alla risultante delle forze di massa (l'inerzia, che in un gas è trascurabile) e di superficie (la pressione).
+Quindi:
+:p - (p + dp) = \dot m \left ( \left ( \vec a - d\vec v \, \right) - \vec a \, \right)
+risolvendo:
+dp = \rho \, \vec a \, d\vec v.
+Infine, eliminando d\vec v tra le due equazioni:
+a^2 = \left (\frac\right)_.
+Dove con il pedice s = costante si è messo in evidenza il fatto che il processo avviene ad entropia costante (processo isoentropico).
+Ricordando
+che
+ds = c_v \left ( \frac - \gamma \frac \right)
+dove γ è il rapporto tra calore specifico a pressione costante e calore specifico a volume costante.
+Per l'entropia costante:
+0 \Leftrightarrow \frac
+\gamma \frac
+e ricordando la legge dei gas perfetti:
+:p = \rho \bar T \,
+dove con Ṝ
+R0/m si è indicata la costante del gas per unità di massa e con T la temperatura assoluta:
+a^2
+\gamma \frac
+\gamma \bar T
+e quindi si può ricavare finalmente la velocità del suono:
+a = \sqrt
+Esempi della velocità del suono a diverse temperature
+La tabella seguente fornisce un quadro della variazione della velocità del suono nell'aria al variare della temperatura (γ = 1,4).
+Esempi della velocità del suono in diversi materiali
+La seguente tabella dà qualche esempio per alcuni materiali (ove non indicato alla temperatura di ed alla pressione di una atmosfera).

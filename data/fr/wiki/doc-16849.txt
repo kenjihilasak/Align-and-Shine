@@ -1,0 +1,28 @@
+Éditeur de texte|Logiciel libre sous licence GPL|Logiciel pour Unix|Logiciel
+pour Windows|Logiciel pour DOS
+JED est un éditeur de texte qui utilise la bibliothèque S-Lang.
+Fonctionnalités
+* Coloration syntaxique sur les terminaux en couleur
+* Émulation d'Emacs, EDT, WordStar, Borland, et éditeurs
+Brief
+* Extensible
+avec le langage S-Lang similaire au C, rendant l'éditeur entièrement personnalisable
+* Capable de lire les fichiers d'info GNU depuis le navigateur d'info de JED
+* Plusieurs modes de programmation (avec coloration syntaxique) sont disponibles, dont C, C++, Fortran, TeX, HTML, sh, Python, IDL, DCL, nroff…
+* Édition de fichiers TeX avec une édition style AUC-TeX (supporte aussi BiBTeX)
+* Supporte
+des sous-processus asynchrone
+, ce qui permet de compiler à l'intérieur de l'éditeur
+* Support intégré du pilote de souris GPM dans la console Linux
+* Support des encodages 8-bits avec touches mortes coller rectangulaire ;
+expressions régulières ;
+recherche incrémentale ;
+chercher et remplacer sur plusieurs fichiers ;
+fenêtres multiples ;
+buffers multiples ;
+shell modes ;
+éditeur de répertoires (dired) ;
+mail;
+rmail ;
+ispell ;
+et bien plus encore.

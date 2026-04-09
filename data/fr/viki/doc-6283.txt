@@ -1,0 +1,29 @@
+C++
+Son nom d'origine était C with classes (C avec classes).
+Il s'agit d'une version « améliorée » de C.
+De très nombreux et célèbres logiciels sont écrits en C++, par exemple2 :
+l’interface utilisateur de l’iPod ;
+un programme écrit en C ne sera pas forcément accepté par un compilateur de C++ ;
+Le nom « C++ » utilise
+l'opérateur d'incrémentation ( ++ ) du C, signifiant « C augmenté
+Ce programme affiche le typique "Hello World!" à l'écran.
+#include signifie que l'on va utiliser les fonctionnalités d'entrée/sortie (dans cet exemple, afficher du texte à l'écran).
+main est la fonction principale du programme.
+Ce qu'elle fait est indiqué entre { ... }.
+Devant son nom, int signifie que main renvoie un nombre entier (si tout va bien, 0).
+std::cout #include
+usingnamespacestd;intmain(){stringnom;cout >nom;cout<<"Votre nom est : "<<nom<<endl;return0;
+Ce programme va définir une variable nom.
+Puis, le texte "Entrez votre nom" va s'afficher à l'écran.
+On peut alors entrer notre nom qui sera stocké dans la variable nom.
+Enfin, le texte "votre nom est [ton nom que tu as entré précedemment]".
+Pour transformer du code source
+C++ en un programme exécutable (c'est-à-dire que l'ordinateur peut faire fonctionner)
+, il faut un logiciel : le compilateur.
+Il existe différents compilateurs de C++, parmi lesquels g++ et Visual C++ (Microsoft).
+Pour faciliter l'écriture de code source
+C++
+, on utilise souvent des EDI (IDE en anglais) comme Code::Blocks, Visual Studio ou Qt Creator, ce dernier étant principalement utilisé pour développer des applications graphiques (c'est-à-dire avec fenêtres, boutons, etc.) avec le framework Qt.
+↑Ces exemples ont été rassemblés par Bjarne
+Stroustrup lui-même sur le site d’AT&T.
+Les langages de l’informatique

@@ -1,0 +1,33 @@
+Opération|Arithmétique
+La primorielle d'un entier naturel n, notée n# , est le produit de tous les nombres premiers inférieurs ou égaux à n. Par exemple
+, la primorielle de 10 est 10#
+2×3×5×7 = 210.
+Ces nombres furent nommés ainsi par Harvey Dubner.
+L'idée de multiplier des nombres premiers consécutifs apparaît dans la démonstration de l'infinité des nombres premiers ;
+elle est utilisée pour montrer l'existence d'un nombre premier plus grand que tout nombre premier p donné : tout diviseur premier du nombre d'Euclide p# + 1 est en effet plus grand que p.
+Il est possible que p# + 1 lui-même soit premier ;
+c'est alors un nombre premier primoriel.
+Tout nombre hautement composé est un produit de primorielles (exemple 360 = 2 × 6 × 30).
+Progressions arithmétiques et primorielles
+Les primorielles jouent un rôle important dans la recherche de suites de k nombres premiers en progression arithmétique (Ben Green et Terence Tao ont établi en 2004 l'existence de telles suites avec k arbitrairement grand, mais de façon non constructive).
+Pour une telle suite, on a les deux propriétés suivantes :
+*la raison est un multiple de k#, sauf si la suite commence à k (qui doit alors être premier).
+Par exemple, la suite de 26 nombres premiers trouvée en par Benoît Perichon et PrimeGrid
+a une raison multiple de 26#
+23# : + ×23#×n pour n
+0, 1, … , 25 ;
+*il semble que pour tout k > 7 , le plus petit multiple (k# lui-même) est atteint pour certaines suites.
+Cette conjecture est vérifiée au moins jusqu'à k
+21 ; par exemple, David W. Wilson a découvert en 1999 une suite arithmétique de 13 nombres premiers de raison 13# : + 13#×n pour n
+0, 1, … , 12.
+Premières primorielles
+Voici les premières valeurs primorielles après 0# = 1, sous forme de liste et de représentation graphique.
+La liste n'indique n# que pour n premier puisque par définition, la suite P croît par paliers.
+Les indices k ≤ 12 pour lesquels p#
+- 1 est premier sont 2, 3, 5, 6 et ceux pour lesquels p# + 1 est premier sont 1, 2, 3, 4, 5, 11 .
+Évaluation asymptotique
+Erdős a montré élémentairement en 1932 que n# ≤ 4 (comme lemme dans sa preuve du postulat de Bertrand).
+Le logarithme de est égal à , où est la première fonction de Tchebychev.
+Le théorème des nombres premiers équivaut à , donc à .
+Voir aussi
+Inégalité de Bonse

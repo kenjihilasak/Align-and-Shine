@@ -1,0 +1,30 @@
+Informática
+La palabra informática fue creada a finales de 1950 por la contracción de las palabras información y automática.
+La informática utiliza técnicas como: la recogida de información, el almacenamiento en la memoria, y la transmisión y el uso de la información procesada de forma automática a través de programas (software) que son utilizados en un ordenador.
+Para ser procesada ​​por computadoras, la información se codifica como una secuencia de 1 o de 0.
+Decimos que es una representación binaria de la información (2 estados posibles, 0 ausencia de corriente eléctrica, 1 presencia de corriente eléctrica).
+Un bit representa la información, que sólo puede tener el valor 1 o 0.
+El código ASCII es uno de los códigos más antiguos que aún se utilizan en los equipos para representar caracteres latinos (letras o números).
+Este código utiliza para cada carácter una serie de 8 bits que forman un octeto (Atención, en inglés se habla de byte que no debe confundirse con bit) y representa un carácter.
+Por ejemplo, el carácter A se representa bajo la forma de un octeto (secuencia de 8 bits) que tiene los valores: 0 1 0 0 0 0 0 1 en binario o 65 en decimal.
+Este código puede representar hasta 256 valores diferentes que van de 0 a 255 (2x2x2x2x2x2x2x2 o 2 bien 8 que son 256).
+Se han ido desarrollando códigos más recientes, que permiten representar alfabetos no latinos, como el código UTF-8, sin dejar de ser compatibles con el código ASCII.
+Se basan en secuencias más largas de bits (16 bits, 32 bits ...) permitiendo aumentar la capacidad de codificación.
+Hay otros códigos para permitir la representación en forma electrónica de otros datos.
+Así, podemos representar el color de un punto en una pantalla bajo la forma de 3 octetos, cada octeto representa un color primario:
+8 bits para el rojo,
+8 bits para el verde,
+8 bits para el azul.
+Si deseamos mostrar en una pantalla o imprimir un punto verde con una intensidad máxima de color verde, se codificarán 3 octetos con los siguientes valores:
+0 0 0 0 0 0 0 0=
+el valor que representa elrojo
+1 1 1 1 1 1 1 1= el valor que representa el verde
+0 0 0 0 0 0 0 0=
+el valor que representa el azul
+Existen miles de códigos para representar la información de manera comprensible para una computadora (caracteres, colores, sonidos, imágenes, vídeos ...).
+Diferentes dispositivos o medios de comunicación pueden ser utilizados para recoger información por las computadoras antes de su procesamiento.
+Históricamente, se ha utilizado la tarjeta perforada.
+En una tarjeta, cada bit está representado por la presencia o ausencia de un agujero, que puede codificar un 1 o un 0.
+Cada columna se utiliza para formar un octeto.
+Después han aparecido otros periféricos para transmitir la información a las computadoras, como el teclado, ratón, el escáner, el captor de temperatura, ... etc ... Cada periférico está asociado con un componente que luego codifica la información.
+Al pulsar la tecla B en el teclado, el componente envía al ordenador la secuencia binaria 01000010.

@@ -1,0 +1,49 @@
+Il televisore, chiamato anche TV, ricevitore televisivo o (impropriamente) televisione è un dispositivo elettronico che combina un sintonizzatore, uno schermo e uno o più altoparlanti per la fruizione del servizio della televisione.
+Dopo la seconda guerra mondiale il televisore e diventato un prodotto di consumo molto popolare.
+Dal 1970 in poi è diventato anche il dispositivo principale di visualizzazione per i primi media come le cassette VHS e i primi Home Computer, in seguito per DVD, Blu-Ray e console per videogiochi.
+Descrizione
+A livello logico il televisore è un ricevitore ed un trasduttore di un segnale elettrico o elettromagnetico, che viaggia nel canale di comunicazione da una sorgente emittente al destinatario trasportando informazione, in un segnale ottico o visivo bidimensionale o tridimensionale per la visualizzazione a monitor e dotato di opportuna apparecchiatura ricevente del segnale entrante e sintonizzante del canale informativo prescelto.
+Per l'implementazione fisica di tali funzionalità sono possibili varie soluzioni tecnologiche che hanno scandito i tempi di evoluzione storica del dispositivo e dei servizi associati.
+In particolare i flussi o stream audio e video di uno stesso broadcasting televisivo viaggiano logicamente separati tra loro e fisicamente multiplati in frequenza in trasmissione sullo stesso canale fisico di comunicazione.
+Il ricevitore, una volta sintonizzatosi su tale canale o banda d'interesse riceverà i due flussi demultiplandoli tra loro, ovvero separandoli, e inviando il flusso video a monitor e quello audio alle casse acustiche/altoparlanti del televisore dopo aver sincronizzato tra loro i due flussi.
+In genere la sincronizzazione avviene a monte della trasmissione da parte dell'emittente televisiva.
+Storia
+La prima televisione meccanica viene commercializzata tra il 1928 e il 1934 nel Regno Unito, Stati Uniti e Russia.
+Questi apparecchi (realizzati e venduti da Baird nel Regno Unito) erano inizialmente delle radio con l'aggiunta di un dispositivo televisivo, costituito da un tubo al neon dietro a un disco meccanico rotante (brevettato dall'ingegnere tedesco Paul Nipkow nel 1884, si veda Disco di Nipkow), con dei fori disposti a spirale che riproducono un'immagine delle dimensioni di un francobollo, raddoppiata poi da una lente di ingrandimento.
+In dettaglio, la televisione di Baird era costituita da un sistema di scansione meccanico:
+un disco di Nipkow girava davanti agli elementi sensibili di selenio, e istante dopo istante si otteneva un valore elettrico corrispondente alla luminosità di un punto dell'immagine, riga dopo riga;
+il principio era simile a quello usato nelle successive TV a tubo catodico.
+Il visore era costituito da un altro disco di Nipkow, che girava davanti ad una lampada al neon comandata dal segnale modulato a seconda della luminosità dei punti letti istante dopo istante:
+in pratica si comandava la corrente di scarica del neon.
+I dischi dei due apparecchi (lo "scanner" e il visore) erano sincronizzati.
+Tra il 1930 e il 1933 vengono vendute circa un migliaio di unità;
+il "Baird Telivisor" divenne disponibile anche senza radio.
+Il primo televisore commerciale con tubo a raggi catodici viene fabbricato in Germania dalla Telefunken nel 1934.
+In Francia, Italia e Regno Unito viene fabbricato da altri produttori nel 1936 e negli Stati Uniti nel 1938.
+Si stima che prima della seconda guerra mondiale in Gran Bretagna siano stati realizzati circa 19.000 televisori elettronici, 1.600 in Germania, 8.000 negli Stati Uniti.
+Per esigenze belliche la produzione si ferma nel mese di aprile 1942, per riprendere nell'agosto del 1945.
+Dalla metà degli anni '60 iniziano a diffondersi in tutto il mondo i televisori a colori.
+Dettagli implementativi
+In particolare il televisore è costituito essenzialmente da tre componenti logiche principali:
+* un sintonizzatore, che seleziona un canale televisivo da visualizzare;
+* un decodificatore, o ricevitore, adibito alla ricezione dei segnali elettrici provenienti da una antenna (terrestre o satellitare) o direttamente via cavo e alla loro decodifica;
+* un monitor, che trasforma in immagini visibili i segnali elettrici dello stream video del canale selezionato.
+A questi si aggiunge generalmente:
+* un altoparlante per la diffusione nell'ambiente dell'eventuale segnale audio associato al segnale video;
+* un telecomando a infrarossi per cambiare canale in base ai desideri dell'utente, nato e introdotto a partire dagli anni 80.
+I tre oggetti sopramenzionati possono essere fisicamente realizzati in modi differenti dando luogo a differenti tipi di televisori:
+* il ricevitore può accettare segnali di tipo analogico o digitale:
+si parla in questi casi di TV analogica e TV digitale (DTV);
+* il tipo di sintonizzatore varia parallelamente al tipo di ricevitore:
+in caso di ricevitore analogico, il sintonizzatore sarà, in sostanza, un circuito oscillante che, a seconda della frequenza di oscillazione, permette di sintonizzare una stazione piuttosto che un'altra.
+Nel caso del ricevitore digitale, invece, il sintonizzatore è alquanto più complesso:
+oltre ad una parte analoga al sintonizzatore analogico, infatti, conterrà un circuito per elaborare ulteriormente il segnale in modo da distinguerlo a seconda di altri parametri caratteristici del segnale:
+** polarizzazione (nel caso di Televisione satellitare),
+** numero di simboli per secondo (symbol rate, indicato anche con S/R),
+** Forward Error Correction (FEC) per la decodifica di canale.
+Questa molteplicità di parametri, unita alla possibilità dei dati digitali di essere compressi in trasmissione (codifica di sorgente), fa sì che sia possibile trasmettere all'interno di una banda di frequenza analoga a quella analogica non soltanto un canale ma anche 4, 6 o addirittura 10 (v. anche TV digitale e DVB);
+* lo schermo, infine, può essere di diversi tipi:
+il classico tubo catodico, presente inizialmente in tutti i televisori;
+il plasma, a cristalli liquidi, più recentemente a OLED (Organic Light Emitting Diode), ovvero funzionanti tramite minuscoli diodi luminosi (LED) dal 2008 quello adottato per i monitor laser e i televisori a retro-proiezione (ormai in disuso).
+Ogni tipologia di schermo possiede inoltre un cosiddetto rapporto d'aspetto cioè il rapporto tra lato lungo e lato corto.
+Evoluzione tecnologica

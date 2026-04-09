@@ -1,0 +1,73 @@
+Clef de chiffrement
+Le terme de clef est utilisé en cryptologie pour désigner un nombre ou un groupe de nombres.
+Ces nombres sont utilisés pour chiffrer ou déchiffrer des informations qui doivent rester secrètes, à l'aide d'un algorithme de chiffrement.
+La clef permet à celui-ci de transformer les informations pour les rendre illisibles, procédé qui s'appelle chiffrement, jusqu'à ce qu'elles soient déchiffrées.
+Il existe deux types de clefs :
+la clef secrète
+le couple clef publique/clef privée
+Ce couple, on l'appelle parfois « trousseau » (parce qu'il contient deux clefs, comme un vrai trousseau de clefs).
+Par abus de langage, on l'appelle aussi clef publique, tout simplement (néanmoins, ce n'est pas le terme exact).
+Pour plus d'informations sur les clefs secrètes et les algorithmes de chiffrements qui les utilisent, voyez Cryptographie symétrique.
+Cet article se focalise sur les clefs publiques.
+Pour des informations plus générales sur les systèmes utilisant des clefs publiques, ou sur l'intérêt des clefs publiques en cryptographie, voyez Cryptographie asymétrique.
+Une clef publique est une clef qui ne permet QUE le chiffrement d'une information.
+Au contraire de la clef secrète, on ne retrouve pas le message d'origine en déchiffrant le message chiffré avec la clef publique.
+Voici pourquoi :
+Imaginons
+que nous possédions un magnifique et énorme
+diamant, aussi rare que la Joconde.
+Ce diamant est enfermé à Paris, dans un coffre-fort qui ne s'ouvre que lorsque l'on tape le bon code à 4 chiffres, mettons 4287.
+Connaissant la réputation de notre diamant autour du monde, nous sommes les seuls à connaître le code qui le protège, sans quoi, à coup sûr, on nous l'aurait déjà volé !
+Nous devons le confier à un expert pour qu'il estime son prix, mais nous sommes bloqués à Tokyo : nous ne pouvons donc pas ouvrir le coffre.
+Puisque nous avons totalement confiance en l'expert, nous allons lui envoyer le code d'ouverture par courriel.
+Cependant, des espions peuvent lire les courriels, aussi nous décidons de chiffrer le code d'ouverture pour que seul l'expert en diamants puisse le lire.
+Pour cela, il faut chiffrer le code avec la clef publique de l'expert, (396 611 ; 5).
+Avec RSA, le cryptosystème le plus populaire, une clef publique s'utilise ainsi : si X est l'information que nous voulons chiffrer et (396 611 ;
+la clef publique, nous devons calculer X5modulo 396 611.
+Pour chiffrer le code d'ouverture du coffre, 4287, nous montons donc ce nombre à la puissance 5 et appliquons au résultat l'opération % (modulo) 396 611.
+À présent, nous allons voir concrètement en quoi une clef publique est différente d'une clef secrète.
+Pour déchiffrer un message chiffré avec une clef secrète, il suffit généralement de réappliquer la clef, éventuellement inversée.
+Voyons ce qui se passe si l'expert tente de déchiffrer notre code d'ouverture avec sa clef publique : 241095 % 396 611 = 69 664.
+On ne retrouve pas le code d'ouverture !
+C'est en cela qu'une clef publique se distingue d'une clef secrète : pour déchiffrer notre code, l'expert va avoir besoin d'une deuxième clef, la clef privée !
+Celle-ci est créée en même temps que la clef publique, et chacune est inutilisable sans l'autre.
+En l'occurrence, la clef privée qui correspond
+à (396 611 ; 5)
+est (396 611 ; 158 141).
+Nous verrons plus loin comment les fabriquer.
+Maintenant, l'expert déchiffre notre message avec sa clef privée (qui fonctionne comme la clef publique) : 24 109158 141 % 396 611 = 4287
+Il retrouve bien le code d'ouverture que nous lui avons envoyé !
+Pour déchiffrer une information chiffrée à l'aide d'une clef publique, il faut connaître la clef privée associée.
+Clef publique et clef privée sont générées en même temps : on se base en effet sur la clef publique pour créer la clef privée.
+Fabriquons
+-nous
+une clef publique RSA :
+pour commencer, il nous faut deux nombres premiers.
+Pour les vraies clefs publiques
+, ces nombres sont immenses, avec plus d'une centaine de chiffres !
+Mais pour nous faciliter la tâche, nous allons recréer la clef de l'expert en diamants, dont les deux nombres premiers sont assez petits : 613 et 647.
+multiplions ces deux nombres : 613 × 647 =...
+396611 !
+On appelle généralement ce nombre n, mais son vrai
+nom est module de chiffrement (parce que c'est avec lui que l'on fait l'opération modulo pendant le chiffrement).
+Il constitue le premier nombre de la clef : (396 611 ; 5).
+à présent, il nous faut calculer l'indicatrice d'Euler de n, φ (n).
+Ce nombre spécial est très important.
+Nous le trouvons comme cela : φ (n) = (613 - 1) × (647 - 1) = 395 352, en nous servant des deux nombres premiers du début.
+grâce à notre φ (n), nous pouvons retrouver le 5 de (396 611 ; 5).
+Il faut en fait trouver un nombre premier avec φ (n) ;
+cela signifie que le PGCD de φ (n) et d'un nombre (que nous choisissons, ici 5) doit être différent de 1.
+5 est un bon candidat !
+On l'appelle e.
+Nous avons créé notre clef publique, (396 611 ; 5) !
+Cependant, nous avons vu qu'il nous faut absolument une clef privée qui va avec pour pouvoir l'utiliser.
+Pour cela, une étape suffit, bien que le calcul ne soit pas évident :
+nous n'avons qu'à trouver un nombre d tel que le calcul suivant soit vrai : e × d = 1 % φ (n) soit d = (1 % φ (n)) / e. La clef privée fonctionne pour d = 158 141.
+Notre trousseau de clefs est à présent complet :
+396 611 ; 5)
+pour chiffrer les messages ;
+396 611 ; 158 141)
+pour les déchiffrer.
+Pour écrire cet article, certains sites internet ont été particulièrement utiles :
+une application qui nous a permis de créer notre paire de clefs publique/privée se trouve sur [email protected] ;
+et Wikipédia fournit des informations précises sur la création des clefs

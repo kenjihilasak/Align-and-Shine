@@ -1,0 +1,34 @@
+Ellipse
+Une ellipse ressemble à un cercle qui a été étiré.
+Les planètes tournent autour d'une étoile en décrivant une ellipse.
+C'est l'une des raisons pour lesquelles les ellipses sont importantes (mais ce n'est pas la seule !).
+Si les cercles sont des cas particuliers d'ellipses, une ellipse en général présente moins de symétrie.
+Construction d'une ellipse
+Une ellipse est déterminée par une longueur d et par deux points F et F', qu'on appelle les foyers de l'ellipse.
+L'ellipse s'obtient en prenant tous les points dont la somme des distances aux foyers F et F' vaut d. On imagine donc une corde de longueur d attachée à deux piquets, la corde est tendue, et on voit quelle trajectoire elle décrit.
+L'excentricité de l'ellipse est le rapport de la distance de F à F' par d. Elle est positive et strictement inférieure à 1.
+Si les foyers F et F' sont confondus, alors l'ellipse est un cercle de centre F et de diamètred.
+Les cercles sont les ellipses d'excentricité 0.
+Plus généralement, la longueur d va s'interpréter comme une sorte de diamètre de l'ellipse.
+On note O le milieu du segment [
+FF']. C'est un centre de symétrie de l'ellipse.
+En effet, comme O est le milieu de [FF'], le point F' est l'image de F par rapport à O. Si M est un point de l'ellipse, alors MF+MF'=d par définition.
+On note M' le symétrique de M par rapport à O. Les droites (MF) et (M'F') sont symétriques par rapport à O, donc parallèles.
+Pour la même raison, les droites (MF') et (M'F) sont parallèles.
+De fait, le quadrilatère MFM'F' est un parallélogramme (côtés opposés parallèles).
+Les côtés opposés d'un parallélogramme ont même longueur : MF = M'F' et MF'
+M'F.
+Il s'en suit : M'F + M'F' = MF' + MF
+= d.
+Le symétrique M' de M par rapport à O appartient à l'ellipse.
+La droite (FF') est un axe de symétrie de l'ellipse.
+Cet axe intersecte l'ellipse en deux points A et A', qui sont symétriques par rapport à O. Le segment [AA'] est le grand axe de l'ellipse.
+La distance d s'interprète comme la longueur AA'.
+En effet, d'une part AA'=AF+FA', d'autre part AA'=AF'+F'A'.
+En additionnant, on obtient : 2AA' = (AF+AF') + (FA'+F'A') = d + d.
+La médiatrice du segment [FF'] intersecte l'ellipse en deux points B et B', symétriques par rapport à O.
+Le segment [BB'] est appelé le petit axe de l'ellipse.
+Sa longueur est toujours plus petite que d. La droite (BB') est aussi un axe de symétrie de l'ellipse.
+Le triangle FBF' est isocèle en B, car B appartient à la médiatrice du segment [FF']. Par conséquent, FB vaut la moitié de d.
+Comme les segments [AA'] et [BB'] s'intersectent orthogonalement en leurs milieux, le quadrilatère ABA'B' est un losange.
+C'est un carré uniquement lorsque l'ellipse est un cercle.

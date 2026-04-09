@@ -1,0 +1,45 @@
+ATTENTION :
+Cet article demande le niveau TERMINAL
+Les relations entre primitives et dérivées d'une fonction
+En mathématiques, la primitive d'une fonction est elle-même une fonction.
+On peut voir la primitivation, c'est-à-dire la recherche d'une primitive, comme l'opération « inverse » de la dérivation (comme sur le schéma à droite).
+En effet : appelons F{\displaystyle {\mathcal {F}}}
+la primitive de la fonction f{\displaystyle f} ;
+en dérivantF{\displaystyle {\mathcal {F}}}, on retombe sur f{\displaystyle f} !
+Il est important de noter que n'importe quelle fonction f admet une infinité de primitivesFn1, alors qu'elle n'admet qu'une seule dérivée.
+Pourquoi ?
+Prenons la fonction f:x↦2x+3{\displaystyle f:x\mapsto 2x+3}. Elle n'admet, comme toute fonction, qu'une seule dérivée : f′:x↦2{\displaystyle f':x\mapsto 2} (voir Dérivée de fonctions pour des détails sur la dérivation).
+Maintenant
+, dérivons cette autre fonction : g:x↦2x+487{\displaystyle g:x\mapsto 2x+487}.
+Sa dérivée est... g′:x↦2{\displaystyle g':x\mapsto 2} !
+On observe ici que deux fonctions différentes peuvent avoir la même fonction dérivée : f′=g′{\displaystyle f'=g'~}.
+À présent, nous allons primitiver f′:x↦2{\displaystyle f':x\mapsto 2}.
+Nous savons que la primitivation est un peu l'opération inverse de la dérivation : il suffit de remonter le raisonnement dans l'autre sens.
+Mais en fin de compte, quelle est la primitive de x↦2{\displaystyle x\mapsto 2} : f ou g ?
+Toutes les deux se dérivent bien en x↦2{\displaystyle
+x\mapsto 2} !
+En fait, si nous primitivons f′:x↦2{\displaystyle f':x\mapsto 2}, d'après les règles de calcul des primitives (qui ressemblent à celles de la dérivation), nous obtenons fk:x↦2x...+k{\displaystyle f_{k}:x\mapsto 2x~...+k} !
+Mais quel est donc ce k ?
+C'est la « constante d'intégration ».
+Lorsque l'on primitive une fonction, on recherche toutes ses primitives.
+On a vu qu'au moins deux fonctions (f et g) étaient des primitives de x↦2{\displaystyle x\mapsto 2} ;
+mais elles sont en réalité en nombre infini !
+Si l'on dérivait par exemple h:x↦2x−8{\displaystyle h:x\mapsto 2x-8}, on tomberait encore sur x↦2{\displaystyle
+x\mapsto 2}. C'est parce que, quand on dérive une fonction, son terme constant (ici 2, -8 ou 487) disparaît.
+Du coup, on peut mettre n'importe lequel à la place lorsque l'on primitive.
+C'est ce qu'indique le k dans fk:x↦2x+k{\displaystyle f_{k}:x\mapsto 2x+k} : nous pouvons le remplacer par n'importe quel nombre, fk{\displaystyle f_{k}} sera toujours une primitive de x↦2{\displaystyle x\mapsto 2}.
+Quelques primitives de fonctions usuelles (on n'oubliera pas d'ajouter une constante d'intégration) :
+a→primitivationax{\displaystyle a~{\xrightarrow
+{primitivation}}~ax
+a{\displaystyle a} est une constante)
+et, plus généralement, pour n différent de -1, xn→primitivationxn+1n+1{\displaystyle x^{n}~{\xrightarrow {primitivation}}~{\frac {x^{n+1}}{n+1}}} (x↦xn{\displaystyle x\mapsto x^{n}} étant la fonction «
+puissance n », où n est un nombre entier)
+cos⁡x→primitivationsin⁡x{\displaystyle \cos x~{\xrightarrow
+{primitivation}}~\sin
+x} (où l'on voit les fonctions sinus et cosinus)
+1x→primitivationln⁡|x|{\displaystyle
+{\frac
+{1}{x}}~{\xrightarrow {primitivation}}~\ln |x|} (où ln{\displaystyle \ln } est la fonction logarithme népérien)
+exp⁡x→primitivationexp⁡x{\displaystyle \exp x~{\xrightarrow {primitivation}}~\exp x} (où exp{\displaystyle \exp } est la fonction exponentielle)
+↑Dans Fn
+, n représente comme le « numéro » de la primitive : c'est simplement pour les distinguer les unes des autres.

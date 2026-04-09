@@ -1,0 +1,61 @@
+Ligne droite|Géométrie du triangle|Orthogonalité
+En géométrie plane, on appelle hauteur d'un triangle chacune des trois droites passant par un sommet du triangle et perpendiculaire au côté opposé à ce sommet.
+Les pieds des hauteurs sont les projetés orthogonaux de chacun des sommets sur le côté opposé.
+Orthocentre
+Les trois hauteurs d'un triangle sont concourantes.
+Leur point d'intersection H, est nommé orthocentre du triangle.
+L'orthocentre est le barycentre du système \begin A & B & C \\ \tan \hat A & \tan \hat B & \tan \hat C \endou \begin A & B & C \\ a \cos
+\hat B
+& c \cos
+\hat
+A : 1 \cos \hat C .
+Les trois sommets du triangle et leur orthocentre forment un quadrangle orthocentrique : chacun de ces points est l'orthocentre du triangle formé par les trois autres points.
+Dans un triangle, le centre du cercle inscrit dans le triangle et les centres des cercles exinscrits forment également un quadrangle orthocentrique.
+Symétriques de l'orthocentre
+Les symétriques A, B et C de l'orthocentre H par rapport aux milieux des côtés du triangle se trouvent sur le cercle circonscrit.
+Les symétriques orthogonaux A, B et C de l'orthocentre par rapport aux côtés du triangle se trouvent également sur le cercle circonscrit.
+Découle de l'observation
+que d'une part \widehat
+\widehat+\widehat,
+et d'autre part que \widehat
+\widehat=\pi-\widehat, et de même pour B_2
+Pour une autre démonstration utilisant des homothéties voir Cercle d'Euler.
+Cercle de Taylor
+Soit A', B' et C' les pieds des hauteurs du triangle.
+On note A2 et A3 les projetés orthogonaux de A' sur les côtés AB et AC du triangle et on définit de même B2 et B3 par rapport à B' et C2 et C3 par rapport à C'.
+Les six points ainsi définis sont cocycliques : ils sont situés sur le cercle de Taylor du triangle.
+On a :
+A2A3, BC) = (AB, AC), la droite (A2A3) est antiparallèle de (BC) par rapport à (AB) et (AC),
+et des propriétés analogues pour (B2B3) et (C2C3).
+(B2C2) est parallèle à (BC).
+De même (A2C3) / / (AB).
+C'est la configuration d'un cercle de Tücker particulier, dit cercle de Taylor.
+On trouve
+A2A3
+B2B3
+C2C3.
+L'hexagone ayant pour sommets ces six projections est l'hexagone de Catalan.
+Centre du cercle de Taylor
+Les trois droites (A1A2), (B1B2) et (C1C2) joignant les projections sont parallèles aux côtés du triangle orthique et coupent ses côtés en leurs milieux P, Q et R.
+Ces droites déterminent les côtés du triangle PQR qui est le triangle médian du triangle orthique.
+Si le triangle ABC est acutangle alors le centre du cercle de Taylor est le centre du cercle inscrit dans le triangle médian du triangle orthique.
+Si le triangle ABC est obtus alors le centre du cercle de Taylor est un des centre des cercles exinscrits du triangle PQR.
+Plus précisément, si ABC est obtus en A (respectivement en B, en C), alors le centre du cercle de Taylor est le centre du cercle exinscrit à PQR dans l'angle de sommet P, milieu de B’C’ (respectivement Q milieu de C’A’ , R milieu de A’B’).
+Axe orthique
+Dans un triangle ABC, soit A
+' (respectivement B' et C')
+le pied de la hauteur issue de A (respectivement issue de B et de C)
+A, B et C
+sont les trois autres points d'intersection des côtés du triangle ABC et de ceux du triangle orthique A’B’C’ : on note A l'intersection de (BC) et de (B'C'), B l'intersection de (AC) et de (A'C'), C l'intersection de (AB) et de (A'B').
+Les trois points A, B et C sont alignés sur une droite dénommée laxe orthique du triangle.
+L'axe orthique est aussi l'axe radical du cercle circonscrit et du cercle d'Euler.
+La droite d'Euler, ligne des centres des deux cercles, est perpendiculaire à l'axe.
+Voir aussi
+Bibliographie
+* Jean-Denis Eiden, Géométrie analytique classique, Calvage & Mounet,
+* Bruno Ingrao, Coniques affines, euclidiennes et projectives,
+C&M
+Article connexe
+Théorème de Hamilton
+Lien externe
+a5b3v210lbi2phw9e2j9bkztgol5q1v

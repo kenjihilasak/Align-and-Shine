@@ -1,0 +1,288 @@
+Attaque par déni de service|*|Sécurité sur Internet
+Une attaque par déni de service (abr.
+DoS attack pour en anglais) est une attaque informatique ayant pour but de rendre indisponible un service, d'empêcher les utilisateurs légitimes d'un service de l'utiliser.
+À l’heure actuelle
+la grande majorité de ces attaques se font à partir de plusieurs sources, on parle alors d'attaque par déni de service distribuée (abr.
+DDoS attack pour ).
+Il peut s'agir de :
+* l’inondation
+d’un réseau afin d'empêcher son fonctionnement ;
+* la perturbation des connexions entre deux machines, empêchant l'accès à un service particulier ;
+* l'obstruction d'accès à un service pour une personne en particulier ;
+* également le fait d'envoyer des milliards d'octets à une box internet.
+L'attaque par déni de service peut ainsi bloquer un serveur de fichiers, rendre impossible l'accès à un serveur web ou empêcher la distribution de courriel dans une entreprise.
+L'attaquant n'a pas forcément besoin de matériel sophistiqué.
+Ainsi, certaines attaques DoS peuvent être exécutées avec des ressources limitées contre un réseau de taille plus importante et plus moderne.
+On appelle parfois ce type d'attaque « attaque asymétrique » en raison de la différence de ressources entre les protagonistes.
+Les attaques en déni de service se sont modifiées au cours du temps (voir historique).
+Tout d'abord, les premières n'étaient perpétrées que par un seul « attaquant » ;
+rapidement, des attaques plus évoluées sont apparues, impliquant une multitude de « soldats ».
+On parle alors de DDoS ().
+Certains pirates informatiques
+se sont spécialisés dans la « levée » d’armées de « zombies », qu’ils peuvent ensuite louer à d’autres personnes ou groupes malveillants pour attaquer une cible particulière.
+Avec la forte augmentation du nombre d’échanges commerciaux sur Internet, le nombre de chantages au déni de service a très fortement progressé.
+Historique
+Les attaques par déni de service ont vu le jour dans les années 1980.
+Les DDoS (ou attaques DoS Distribuées) seraient plus récentes : la première attaque DDoS officielle a eu lieu en août 1999 : un outil appelé «
+Trinoo DDO » (décrit ci-dessous) a été déployé dans au moins 227 systèmes, dont 114 étaient sur Internet, pour inonder les serveurs de l'université du Minnesota.
+À la suite de cette attaque, l'accès internet de l'université est resté bloqué pendant plus de deux jours.
+La première attaque DDoS médiatisée dans la presse grand public a eu lieu en février 2000, causée par Michael Calce, mieux connu sous le nom de Mafiaboy.
+Le 7 février, Yahoo! a été victime d'une attaque DDoS qui a rendu son portail Internet inaccessible pendant trois heures.
+Le 8 février, , , CNN et eBay ont été touchés par des attaques DDoS qui ont provoqué soit l'arrêt soit un fort ralentissement de leur fonctionnement.
+Le 9 février, E-Trade et ZDNet ont à leur tour été victimes d’attaques DDoS.
+Les analystes estiment que durant les trois heures d'inaccessibilité, Yahoo! a subi une perte sur le commerce électronique et les recettes publicitaires s'élevant à environ .
+Selon , son attaque a entraîné une perte de sur dix heures.
+Au cours de l'attaque, est passé de 100 % de disponibilité à 9,4 % ; est passé au-dessous de 5 % du volume normal ; et étaient, eux, pratiquement inaccessibles.
+, le site en ligne du courtier Charles Schwab, a également été touché mais il a refusé de donner des chiffres exacts sur ses pertes.
+On peut seulement supposer que, dans une société qui fait de dollars par semaine sur les métiers en ligne, la perte n’a pas été négligeable.
+Michael Calce, qui a piraté , Yahoo!, CNN et Ebay, fut condamné à huit mois dans un centre de détention pour jeune (il n'avait que au moment des faits).
+En septembre 2001, un certain virus Code
+Red infecte
+quelques milliers de systèmes, et une seconde version, intitulée
+Code
+Red II, installe un agent DDoS.
+Les rumeurs prétendent qu'il devait lancer une attaque contre la Maison-Blanche.
+Dans un contexte politique de crise, le gouvernement américain annonce que des mesures de sécurité vont être entreprises.
+Mais dès l'été 2002, c'est au tour d'Internet de subir une attaque DDoS à l'encontre de ses treize serveurs racines.
+Ces serveurs sont les points clés du système d'aiguillage de l'Internet, appelé Domain Name System (DNS).
+Cette attaque ne durera qu'une heure mais aurait pu paralyser l'ensemble du réseau Internet.
+L'incident est pris au sérieux par les experts qui affirment renforcer à l'avenir la sécurité de leurs machines.
+La première version de Slapper, apparue à la mi-septembre 2002, a contaminé plus de serveurs
+Linux en deux semaines.
+Slapper exploite une faille de sécurité présente dans le module OpenSSL1, et véhicule un agent DDoS.
+Celui-ci est détecté et stoppé à temps.
+Malgré tout, le lundi 21 octobre 2002, une nouvelle attaque DOS bloque neuf des treize serveurs clefs, rendant leurs ressources inaccessibles pendant trois heures.
+Une partie des entreprises et organismes gérant ces serveurs clés réagit et décide de revoir leurs dispositifs de sécurité.
+Le FBI a ouvert une enquête, mais localiser le ou les auteurs de l'attaque s'annonce difficile.
+Peu de temps après des serveurs de bases de données Microsoft SQL Server, mal configurés, sont infectés par le ver SQL Slammer.
+Ce dernier transporte un agent DDoS qui lance une attaque le 25 janvier 2003 contre Internet.
+Cette fois ci, seuls quatre des treize serveurs racines ont été affectés.
+Malgré la virulence de l'attaque, la performance globale du réseau a été à peine réduite de 15 %.
+Types d'attaques
+On appelle « attaque par déni de service » toutes les actions ayant pour résultat la mise hors ligne d'un serveur.
+Techniquement, couper la connexion entre un serveur et un client, pour but malfaisant, peut être considéré comme une attaque par déni de service.
+Dans les faits, les attaques par déni de service sont opérées en saturant la bande passante d'un serveur défini.
+Exploitation des failles ou des limites des machines
+Une des attaques les plus courantes consistait à envoyer un paquet ICMP de plus de 65 535 octets.
+Au-dessus de cette limite, les piles IP ne savaient pas gérer le paquet proprement, ce qui entraînait des erreurs de fragmentation UDP, ou encore les paquets TCP contenant des « flags » illégaux ou incompatibles.
+Les piles actuelles résistent à ce type d’attaques.
+Néanmoins, les délais de traitement de ce genre de paquets restent plus longs que ceux nécessaires pour traiter les paquets légitimes.
+Ainsi, il devient commun voire trivial de générer une consommation excessive de processeur (CPU) par la simple émission de plusieurs centaines de milliers d’anomalies par seconde, ce qu’un outil tel que hping3 permet en une unique ligne de commande…
+root@localhost root
+hping3
+-SARFU -L 0 -M 0 -p 80 --flood
+Avec l'arrivée du haut débit et l'augmentation de la puissance des ordinateurs personnels, le potentiel d'attaque a été décuplé, mettant en évidence la faiblesse des installations développées il y a plusieurs années.
+Cette augmentation permet à quasiment toutes les anomalies d’être à l’origine d’un déni de service, pourvu qu’elles soient générées à un rythme suffisamment important.
+Par exemple
+* l’usage des champs « réservés » de l’en-tête TCP ;
+* le positionnement d’
+un numéro de séquence d’accusé de réception dans un paquet SYN ;
+* des paquets dont l’en-tête de couche 4 (TCP/UDP) est tronqué en dépit de checksums corrects.
+Attaque par déni de service SYN
+Flood
+Une attaque SYN Flood est une attaque visant à provoquer un déni de service en émettant un nombre important de demandes de synchronisation TCP incomplète avec un serveur.
+Quand un système (client) tente d'établir une connexion TCP vers un système offrant un service (serveur), le client et le serveur échangent une séquence de messages.
+Le système client commence par envoyer un message SYN au serveur.
+Le serveur reconnaît ensuite le message en envoyant un SYN-ACK message au client.
+Le client finit alors d’établir la connexion en répondant par un message ACK.
+La connexion entre le client et le serveur est alors ouverte, et le service de données spécifiques peut être échangé entre le client et le serveur.
+Voici une vue de ce flux de messages :
+Client Serveur
+SYN ---------
+SYN
+ACK
+ACK ---------
+Le risque d'abus se pose à l'endroit où le système de serveur a envoyé un accusé de réception (SYN-ACK) au client, mais ne reçoit pas le message ACK.
+Le serveur construit dans sa mémoire système une structure de données décrivant toutes les connexions.
+Cette structure de données est de taille finie, et elle peut être débordée en créant intentionnellement trop de connexions partiellement ouvertes.
+Créer des connexions semi-ouvertes s’
+accomplit facilement avec l'IP spoofing.
+Le système de l'agresseur envoie des messages SYN à la machine victime ;
+ceux-ci semblent être légitimes, mais font référence à un système client incapable de répondre au message SYN-ACK.
+Cela signifie que le message ACK final ne sera jamais envoyé au serveur victime.
+Normalement il y a un délai d'attente associé à une connexion entrante, les semi-connexions ouvertes vont expirer et le serveur victime pourra gérer l’attaque.
+Toutefois, le système agresseur peut simplement continuer à envoyer des paquets IP falsifiés demandant de nouvelles connexions, plus rapides que le serveur victime.
+Dans la plupart des cas, la victime aura des difficultés à accepter toute nouvelle connexion réseau entrante.
+Dans ces cas, l'attaque n'affecte pas les connexions entrantes, ni la possibilité d'établir des connexions réseau sortant.
+Toutefois, le système peut saturer la mémoire, ce qui provoque un crash rendant le système inopérant.
+UDP
+Flooding
+Ce déni de service exploite le mode non connecté du protocole UDP.
+Il crée une UDP Packet Storm (génération d’une grande quantité de paquets UDP) soit à destination d’une machine soit entre deux machines.
+Une telle attaque entre deux machines entraîne une congestion du réseau ainsi qu’une saturation des ressources des deux hôtes victimes.
+La congestion est plus importante du fait que le trafic UDP est prioritaire sur le trafic TCP.
+En effet, le protocole TCP possède un mécanisme de contrôle de congestion, dans le cas où l’acquittement d’un paquet arrive après un long délai, ce mécanisme adapte la fréquence d’
+émission des paquets TCP et le débit diminue
+Le protocole UDP ne possède pas ce mécanisme.
+Au bout d’un certain temps, le trafic UDP occupe donc toute la bande passante, ne laissant qu’une infime partie au trafic TCP.
+L’exemple le plus connu d’UDP Flooding est la « Chargen Denial of Service Attack ».
+La mise en pratique de cette attaque est simple, il suffit de faire communiquer le service chargen d’une machine avec le service echo d’une autre.
+Le premier génère des caractères, tandis que le second se contente de réémettre les données qu’il reçoit.
+Il suffit alors à l’attaquant d’envoyer des paquets UDP sur le port 19 (chargen) à une des victimes en usurpant l'adresse IP et le port source de l’autre.
+Dans ce cas, le port source est le port UDP 7 (echo).
+L’UDP
+Flooding
+entraîne une saturation de la bande passante entre les deux machines
+, il peut donc neutraliser complètement un réseau.
+Packet
+Fragment
+Les dénis de service de type Packet Fragment utilisent des faiblesses dans l'implémentation de certaines piles TCP/IP au niveau de la défragmentation IP (ré-assemblage des fragments IP).
+Une attaque connue utilisant ce principe est Teardrop.
+L'offset de fragmentation du second fragment est inférieur à la taille du premier ainsi que l'offset plus la taille du second.
+Cela revient à dire que le deuxième fragment est contenu dans le premier (overlapping).
+Lors de la défragmentation, certains systèmes ne gèrent pas cette exception et cela entraîne un déni de service.
+Il existe des variantes de cette attaque :
+bonk, boink et newtear
+Le déni de service Ping of Death exploite une mauvaise gestion de la défragmentation au niveau ICMP, en envoyant une quantité de données supérieure à la taille maximum d’un paquet IP.
+Ces différents dénis de services aboutissent à un crash de la machine cible.
+Smurfing
+Cette attaque utilise le protocole ICMP.
+Quand un ping (message ICMP ECHO) est envoyé à une adresse de broadcast (par exemple 10.255.255.255), celui-ci est démultiplié et envoyé à chacune des machines du réseau.
+Le principe de l’attaque est de truquer les paquets ICMP ECHO REQUEST envoyés en mettant comme adresse IP source celle de la cible.
+L’attaquant envoie un flux continu de ping vers l’adresse de broadcast d’un réseau et toutes les machines répondent alors par un message ICMP ECHO REPLY en direction de la cible.
+Le flux est alors multiplié par le nombre d’hôtes
+composant le réseau.
+Dans ce cas tout le réseau cible subit le déni de service, car l’énorme quantité de trafic générée par cette attaque entraîne une congestion du réseau.
+Exemples de mode d'attaque
+* Ping ’O
+Death (ping de la mort)
+: il s’agit de saturer un routeur ou un serveur en envoyant un nombre important de requêtes ICMP REQUEST dont les datagrammes dépassent la taille maximum autorisée.
+Des patches existent afin de se prémunir de ce type d’agression sous les systèmes MacOs, Windows NT/9x, Sun Oracle Solaris, Linux et Novell Netware.
+* Land
+- Blat :
+il s’agit d’envoyer un paquet forgé (« spoofé ») contenant le flag SYN sur un port donné (comme 113 ou 139 par exemple) et de définir la source comme étant l'adresse de la station cible.
+Il existe un certain nombre de patches pour ce « bug » pour les systèmes UNIX et Windows.
+* Jolt :
+spécialement destinée aux systèmes Microsoft (NT, 9x et 2000), cette attaque permet de saturer le processeur de la station qui la subit.
+La fragmentation IP provoque, lorsque l'on envoie un grand nombre de fragments de paquets identiques (150 par seconde), une saturation totale du processeur durant toute la durée de l'attaque.
+Des pré-patches existent déjà pour tenter de contrer ce type d’attaque.
+* TearDrop
+- SynDrop : problème découvert dans l'ancien noyau du système Linux dans la partie concernant la fragmentation des paquets IP.
+Il s’agit d’un problème de reconstruction du paquet.
+Lorsque le système reconstitue le paquet, il exécute une boucle qui va permettre de stocker dans un nouveau buffer tous les paquets déjà reçus.
+Il y a effectivement un contrôle de la taille du paquet mais uniquement si ce dernier est trop grand.
+S’il est trop petit cela peut provoquer un problème au niveau du noyau et planter le système (problème d’alignement des paquets).
+Ce problème a également été observé sur les systèmes Windows (NT/9x) et des patches sont dès à présent disponibles.
+* Ident
+Attack :
+ce problème dans le daemon identd permet aisément de déstabiliser une machine UNIX qui l'utilise.
+Un grand nombre de requêtes d’autorisation entraîne une instabilité totale de la machine.
+Pour éviter cela, il faut installer une version plus récente du daemon identd ou alors utiliser le daemon pidentd-2.8a4 (ou ultérieur).
+* Bonk
+- Boink : même problème que le TearDrop mais légèrement modifié afin de ne pas être affecté par les patches fournis pour le TearDrop.
+Il existe de nouveaux patches mieux construits qui permettent également d’éviter ce nouveau type d’attaque.
+* Smurf : ce programme utilise
+la technique de lICMP Flood et l'amplifie de manière à créer un véritable désastre sur la (ou les) machines visées
+En fait, il utilise la technique du Broadcast Ping afin que le nombre de paquets ICMP envoyés à la station grandisse de manière exponentielle causant alors un crash presque inévitable.
+Il est difficile de se protéger de ce type d’attaque, il n’existe aucun patch mais des règles de filtrage correctes permettent de limiter son effet.
+* WinNuke
+: il s’agit d’un programme permettant de « crasher » les systèmes Windows NT/95 par l'envoi de données de type « OOB » (Out of Band) lors d’une connexion avec un client Windows.
+NetBIOS semble être le service le plus vulnérable à ce type d’attaque.
+Apparemment, Windows ne sait comment réagir à la réception de ce type de paquet et « panique ».
+De nombreux patches existent contre ce type d’attaque et les versions postérieures de Windows sont dès à présent protégées.
+* SlowLoris : Un script en Perl ciblant les serveurs web.
+Déni de service distribué ou effet de levier
+Motivation
+Compte tenu des performances actuelles des serveurs et de la généralisation des techniques de répartition de charge et de haute disponibilité, il est quasiment impossible de provoquer un déni de service simple comme décrit dans les sections précédentes.
+Il est donc souvent nécessaire de trouver un moyen d’appliquer un effet multiplicateur à l’attaque initiale.
+Principe
+Le principe est d'utiliser plusieurs sources (daemons) pour l’attaque et des maîtres (masters) qui les contrôlent.
+L’attaquant utilise des maîtres pour contrôler plus facilement les sources.
+En effet, il a besoin de se connecter (en TCP) aux maîtres pour configurer et préparer l’attaque.
+Les maîtres se contentent d’envoyer des commandes aux sources en UDP, ce qui permet de ne pas avoir à se connecter manuellement à chaque source.
+La source de l’attaque serait détectée plus facilement et sa mise en place beaucoup plus longue.
+Chaque daemon et master discutent en échangeant des messages spécifiques selon l’outil utilisé.
+Ces communications peuvent même être chiffrées et/ou authentifiées.
+Pour installer les daemons et les masters, l’attaquant peut utiliser des failles connues (buffer overflow sur des services RPC, FTP ou autres).
+L’attaque en elle-même est un SYN Flooding, UDP Flooding ou autre Smurf
+Attack
+Le résultat d’un déni de service est donc de rendre un réseau inaccessible.
+Outils
+Inconvénients
+L’inconvénient dans ce cas est la nécessité de travailler en deux temps :
+# Infecter les systèmes destinés à héberger les zombies.
+# Lancer les ordres.
+À la deuxième étape le paquet de commande peut être bloqué par un outil de détection ou de filtrage.
+Par conséquent l’évolution consiste à automatiser le lancement des commandes dès la corruption des systèmes relais.
+Cette technique a été implémentée par CodeRed dont l’objectif était de faire connecter les serveurs corrompus au site Web de la maison blanche à une date précise.
+Dans le même ordre d’idées les DDoS basées sur les canaux IRC comme canaux de communication.
+L’objectif est ici non plus d’établir une connexion directe entre le maître et les zombies, mais d’utiliser un serveur IRC (ou plutôt un canal) comme relais.
+Cette méthode, initiée en juillet et août 2001 par Knight et Kaiten, présente de nombreux avantages :
+Les commandes sont transmises d’une manière asynchrone via un flux « sortant », qu’il s’agisse du point de vue du maitre ou de l’agent.
+Il est donc plus probable que le zombie puisse obtenir ses ordres ;
+* avec le support SSL il est impossible de détecter les commandes passées, et par conséquent d’identifier le canal IRC servant de relais.
+De la même manière le maître est quasi-indétectable ;
+* l’attaquant
+dispose d’une plate-forme de relais (le canal IRC) distribuée.
+Prévention et protections
+Les attaques par déni de service non distribuées peuvent être contrées en identifiant l'adresse IP de la machine émettant les attaques et en la bannissant au niveau du pare-feu ou du serveur.
+Les paquets IP provenant de la machine hostile sont dès lors rejetés sans être traités empêchant que le service du serveur ne soit saturé et ne se retrouve donc hors-ligne.
+Les attaques par déni de service distribuées sont plus difficiles à contrer.
+Le principe même de l'attaque par déni de service distribuée est de diminuer les possibilités de stopper l'attaque.
+Celle-ci émanant de nombreuses machines hostiles aux adresses différentes, bloquer les adresses IP limite l'attaque mais ne l'arrête pas.
+Thomas
+Longstaff de l'université
+Carnegie
+Mellon explique à ce sujet que : .
+Une architecture répartie, composée de plusieurs serveurs offrant le même service gérés de sorte que chaque client ne soit pris en charge que par l'un d'entre eux, permet de répartir les points d'accès aux services et offre, en situation d'attaque, un mode dégradé (ralentissement) souvent acceptable.
+Selon les attaques il est également possible de mettre un serveur tampon qui filtre et nettoie le trafic.
+Ce serveur, «
+» permet en cas d'attaques de faire en sorte que les requêtes malveillantes ne touchent pas le serveur visé.
+L'utilisation de SYN cookies est également une solution envisageable pour éviter les attaques de type SYN flood, mais cette approche ne permet pas d'éviter la saturation de la bande passante du réseau.
+Retour aux conditions normales
+Le retour aux conditions normales après une attaque peut exiger une intervention humaine, car certains logiciels ne retrouvent pas un fonctionnement normal après une attaque de ce type.
+Responsables et motifs
+Auteurs
+Les attaques par déni de service sont souvent effectuées par des personnes peu expérimentées comme les lamers et les script kiddies.
+Elles sont aussi abondamment utilisées par des acteurs plus expérimentés, sous une forme délictueuse ou de défense (par exemple à l'encontre de sites eux-mêmes hostiles ou menant des activités réputées illégales ou illégitimes).
+Un cas particulier d'attaque par déni de service est le Social Denial of Service (SDoS).
+C'est une sorte d'effet Slashdot dans lequel l'afflux de requêtes provient en partie de badauds venant observer les effets d'un déni de service annoncé.
+Les acteurs sont alors une multitude d'internautes bien réels, agissant de façon simultanée et stimulée.
+Motifs
+Depuis quelques années, l'attaque par déni de service distribuée est utilisée à des fins de chantage auprès d'entreprises dont l'activité commerciale repose sur la disponibilité de leur site web.
+Ces fraudes sont habituellement le fait d'organisations criminelles (mafieuses) et non de pirates isolés.
+Il arrive fréquemment qu'une attaque par déni de service soit financée par une entreprise concurrente de l'entreprise ciblée dans le but de récupérer des parts de marché et de lui faire perdre de l'argent.
+Financer une attaque par déni de service distribuée contre un concurrent peut être rentable, notamment contre une entreprise qui n'a pas implémenté de mesure de mitigation.
+En 2015, 12% des entreprises ayant répondu à un sondage de Kaspersky pensent avoir été victimes d'une attaque par déni de service provenant de leur concurrence.
+L'attaque par déni de service est également utilisée dans un but politique et antisystème, on parle alors d'hacktivisme.
+Des communautés partageant des valeurs communes à travers internet comme les Anonymous peuvent réunir beaucoup de personne et s'organiser pour lancer des attaques contre les plus grosses compagnies.
+Ce fut le cas par exemple lors de l'attaque contre les sociétés Visa et Mastercard dans le cadre de la campagne Operation Payback orchestrée par les Anonymous.
+Ce type d'attaque est également fréquemment rencontré sur les réseaux en ligne de jeux vidéo, comme Xbox Live (Microsoft) ou PlayStation Network (Sony).
+Les joueurs à l'origine de ces attaques peuvent agir par représailles ou tout simplement décider d'ennuyer des joueurs au hasard.
+Microsoft a publié un article détaillé à propos de ces attaques sur son site.
+Le procédé suivi par les auteurs de ces attaques est simple et accessible à tous.
+Dans un premier temps, l'auteur utilise un logiciel comme Wireshark ou Cain & Abel qui lui permet de trouver les adresses IP des joueurs avec lesquels il est connecté.
+Ensuite, il utilise un outil sur son PC ou un service en ligne pour lancer l'attaque sur une adresse IP.
+Risques juridiques
+Les attaquants des serveurs internet au moyen d'attaques par déni de service sont depuis quelques années poursuivis par la justice de divers pays.
+Trois cas majeurs ont eu lieu.
+Le premier en août 2005.
+Jasmine Singh, , a été condamné à cinq ans de prison à la suite d'une attaque par déni de service distribué à l'encontre de et Distant Replays commanditée par un concurrent des deux sites.
+En France
+En France, l'attaque par déni de service est punie pénalement à l' -2 du Code Pénal : «
+Le fait d'entraver ou de fausser le fonctionnement d'un système de traitement automatisé de données est puni de cinq ans d'emprisonnement et de 75000 euros d'amende ».
+Au Royaume
+Uni
+Depuis novembre 2006, avec le vote du Police and Justice Act (PJA), les attaques par déni de service distribué sont un délit passible de dix ans de prison.
+Proposer des outils permettant de lancer des attaques DDoS est passible de deux ans de prison ferme
+En Russie
+En 2008 la cour de Balakovo, la région de Saratov, a condamné trois pirates informatiques à huit ans de prison à la suite d'un chantage envers des sites de jeux en ligne.
+Les internautes demandaient plusieurs dizaines de milliers de dollars pour ne pas faire subir aux sites des attaques par déni de service distribué et contre le gouvernement tunisien début 2011 en réponse à des actes de censure commis par ce dernier ainsi que le Sony Playstation Network en avril 2011 ;
+* Les attaques sur le serveur de WikiLeaks, notamment après les révélations de télégrammes de la diplomatie américaine, fin novembre 2010 ;
+L'attaque sur le serveur de mise à jour de Microsoft ;
+L'attaque de sites
+Web connus comme Google, Microsoft et Apple ;
+* Les attaques de type « ping flood » d'octobre 2002 et l'attaque par déni de service de février 2007 sur les serveurs racines du DNS ;
+* Les attaques sur le site jaimelesartistes.fr, considéré comme un site de propagande pour la loi Hadopi.
+Cela a causé sa fermeture ;
+L'attaque du site en novembre 2010, selon Lobsang Wangyal ;
+L'attaque de plusieurs serveurs de jeux en ligne comme Dota et League of Legends en fin décembre 2013 par le groupe DERP ;
+L'attaque de Facebook menée le 19 juin 2014 depuis la Chine ;
+elle a perturbé le réseau social pendant environ (ce qui correspond à la plus grosse période d'inactivité du site en quatre ans) ;
+L'attaque subie par Sony Playstation Network ainsi que Xbox Live de Microsoft le 25 décembre 2014 par le groupe Lizard Squad ;
+L'attaque subie par ProtonMail, une société suisse d'emails chiffrés le 3 novembre 2015 ;
+L'attaque de DynDNS le 21 octobre 2016 qui a rendu indisponible plusieurs sites web importants tels que Twitter, PayPal et Ebay pour une période prolongée d'un peu plus d'une dizaine d'heures sur toute la côte Est américaine.
+Il s'agissait d'une puissante attaque ddos de plus de 1 téraoctet par seconde, brisant le record mondial de la plus puissante attaque
+DDoS.
+Le 6 septembre 2019 en fin d'après-midi, les serveurs de la Wikimedia Foundation à Amsterdam et qui hébergent l'encyclopédie Wikipédia, Wikimedia Commons ou le Wiktionnaire par exemple, sont la cible d'une attaque.
+Les internautes ne peuvent plus accéder aux différents sites depuis l'Europe pendant quelques heures.

@@ -1,0 +1,44 @@
+Théorie des ensembles|Propriété de fonction|Injectivite
+Une application f est dite injective ou est une injection si tout élément de son ensemble d'arrivée a au plus un antécédent par f, ce qui revient à dire que deux éléments distincts de son ensemble de départ ne peuvent pas avoir la même image par f.
+Lorsque les ensembles de départ et d'arrivée de f sont tous les deux égaux à la droite réelle ℝ, f est injective
+si et seulement si son graphe intersecte toute droite horizontale en au plus un point.
+Si une application injective est aussi surjective, elle est dite bijective.
+Définition formelle
+Une application f : X → Y est injective si pour tout y ∈ Y, il existe au plus un x ∈ X tel que f (x) = y, ce qui s'écrit :
+\forall x\in X\quad\forall x'\in X\quad\left (f (x)
+f (x')\Rightarrow x
+x'\right
+L'implication précédente équivaut à sa contraposée :
+\forall x\in X\quad\forall x'\in X\quad\left (x\ne x'\Rightarrow f (x)\ne f (x')\right).
+Exemple
+concret
+Prenons le cas d'une station de vacances où un groupe de touristes doit être logé dans un hôtel.
+Chaque façon de répartir ces touristes dans les chambres de l'hôtel peut être représentée par une application de l'ensemble des touristes, X, vers l'ensemble des chambres, Y (à chaque touriste est associée une chambre).
+* L'hôtelier souhaite que l'application soit surjective, c'est-à-dire que chaque chambre soit occupée.
+Cela n'est possible que s'il y a au moins autant de touristes que de chambres.
+* Les touristes souhaitent que l'application soit injective, c'est-à-dire que chacun d'entre eux ait une chambre individuelle.
+Cela n'est possible que si le nombre de touristes ne dépasse pas le nombre de chambres.
+Ces contraintes ne sont compatibles que si le nombre de touristes est égal au nombre de chambres.
+Dans ce cas, il sera possible de répartir les touristes de telle sorte qu'il y en ait un seul par chambre, et que toutes les chambres soient occupées : l'application sera alors à la fois injective et surjective ;
+on dira qu'elle est bijective.
+Exemples et contre-exemples
+Considérons l'application f : ℝ → ℝ définie par f (x) = 2x + 1.
+2x′ + 1 alors 2x
+2x′
+soit x = x′.
+En revanche, l'application g : ℝ → ℝ définie par g (x)
+x2 n'est pas injective, parce que (par exemple) g (1)
+1 = g (−1).
+D'autre part,
+si nous définissons l'application h : ℝ+ → ℝ par la même relation que g,mais avec lensemble de définition restreint à l'ensemble des réels positifs, alors l'application h est injective.
+Une explication est
+que, pour des réels positifs arbitraires donnés x et x′, si x2
+x′2, alors |x|
+|x′|, ainsi x = x′.
+Propriétés
+**f est injective (si et) seulement si X est l'ensemble vide ou s'il existe une application g : Y → X telle que g∘f soit égale à l'application identité sur X :
+**#si l'application composée g∘f est injective alors
+f est injective ;
+**#si f et g sont injectives alors g∘f est injective ;
+**#si f est surjective et si g∘f est injective alors g
+est injective.

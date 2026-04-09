@@ -1,0 +1,23 @@
+Factorisation
+Dans un calcul, la factorisation est une méthode qui consiste à faire passer une somme ou une différence en une multiplication.
+Plus exactement, il s'agit de reconnaître dans les termes d'une somme un facteur commun.
+La factorisation d'un entier consiste à le « casser » en un produit d'entiers plus petits.
+Dans cet exemple, on a factorisé par 128.
+C'est un entier qui divise les deux termes de l'addition, 384 et 896.
+On dit que c'est un diviseur commun de 384 et 896.
+Plus généralement, dans une addition, il est toujours possible de factoriser par un diviseur commun.
+On montre alors :
+Un diviseur commun de deux entiers (ou plus) divise leur somme.
+Pour une expression du type ax+bx{\displaystyle ax+bx}, on voit que x{\displaystyle x} apparaît dans les deux termes.
+On l'appelle facteur.
+Alors ax+bx=x(a+b){\displaystyle ax+bx
+=x(a+b)}.
+C'est l'opération dans le sens opposé par rapport à la distributivité.
+Bien évidemment, tout cela est prévu dans le programme de 3e avec des exigences pour les effectuer.
+Pour factoriser (2x−1)2−(5x+4)2{\displaystyle (2x-1)^{2}-(5x+4)^{2}}, on reconnaît que a=2x−1{\displaystyle a=2x-1} et b=5x+4{\displaystyle b=5x+4}. Alors en utilisant l'identité remarquable a2−b2{\displaystyle a^{2}-b^{2}}, on obtient :
+2x−1)2−(5x+4)2=(2x−1+5x−4)(2x−1−5x−4){\displaystyle (2x-1)^{2}-(5x+4)^{2}=(2x-1+5x-4)(2x-1-5x-4)}.
+On calcule les termes à l'intérieur de la parenthèse : 2x+5x=7x{\displaystyle 2x+5x=7x} et −1+4=3{\displaystyle -1+4=3} dans la première, et 2x−5x=−3x{\displaystyle 2x-5x=-3x} et −1−4=−5{\displaystyle -1-4=-5} dans la deuxième et on obtient :
+Pour factoriser x2+6x+9{\displaystyle x^{2}+6x+9} on reconnaît l'identité remarquable a2+2ab+b2{\displaystyle a^{2}+2ab+b^{2}}.
+On remarque que a=1{\displaystyle a=1} et b=3{\displaystyle b=3} car b2=9{\displaystyle b^{2}=9}.
+Exemple de factorisation simple en vidéo.
+Vous verrez comment factoriser 23×100+23×2, 5x-5y et d'autres exemples.

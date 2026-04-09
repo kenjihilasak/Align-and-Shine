@@ -1,0 +1,77 @@
+Grandeur physique|Électrostatique|Potentiel
+Le potentiel électrique, exprimé en volts (symbole : V), est l'une des grandeurs définissant l'état électrique d'un point de l'espace.
+Il correspond à l'énergie potentielle électrostatique que posséderait une charge électrique unitaire située en ce point, c'est-à-dire à l'énergie potentielle (mesurée en joules) d'une particule chargée en ce point divisée par la charge (mesurée en coulombs) de la particule.
+La différence de potentiel électrique entre deux points de l'espace ou d'un circuit permet de calculer la variation d'énergie potentielle d'une charge électrique, ou de trouver plusieurs tensions inconnues dans un circuit électrique ou électronique.
+Introduction
+Les objets peuvent posséder une propriété connue sous le nom de charge potentielle.
+Placé dans un champ électrique, un tel objet chargé subit une force ;
+si l'objet est chargé positivement, la force s'exerce dans le sens du vecteur de champ électrique au point où elle se situe.
+Lorsque la charge est négative la force s'exerce dans le sens opposé.
+L'intensité de la force subie est donnée par la quantité de charge possédée par l'objet, multipliée par l'intensité du champ électrique en ce point.
+Le potentiel électrique (ou plus simplement potentiel)
+en un point d'un champ électrique correspond au travail à fournir pour transporter une charge positive unitaire depuis l'infini jusqu'à ce point (le potentiel électrique à l'infini étant par définition égal à 0).
+La force et le potentiel sont directement liés.
+Quand un objet se déplace dans la direction de la force qui le met en mouvement, son énergie cinétique augmente ;
+par exemple, l'énergie potentielle gravitationnelle d'un objet au sommet d'une tour est plus élevée qu'au sol.
+Durant la chute de l'objet, son énergie cinétique augmente et est transformée en chaleur, ou énergie thermique.
+Un champ électrique (en l'absence de champ magnétique variable) partage avec un champ de force gravitationnel (gravité) cette propriété que l'énergie potentielle ne dépend que de la position dans le champ : la force s'exerçant sur un objet ne dépend que des propriétés intrinsèques de cet objet (par exemple masse ou charge) et de sa position, et obéit à des règles mathématiques.
+On dit que la force électrique est conservative.
+C'est pourquoi on utilise habituellement pour illustrer la notion de potentiel électrique l'analogie avec le cours d'eau d'une rivière ;
+le potentiel de chaque point correspond à son altitude, alors que la différence d’altitude (dénivellation) correspond à la différence de potentiel.
+La différence de potentiel (ou tension en l'absence de phénomènes d'induction d'origine extérieure) est une valeur algébrique (elle peut être positive, négative ou nulle) ;
+elle est souvent notée .
+On peut donc écrire :
+U_\mathrm=V (\mathrm A)-V (\mathrm B)
+:\Delta V=V_\text-V_\text
+où :
+V (\mathrm A) et V (\mathrm B) désignent le potentiel électrique en et en ;
+U_\mathrm et \Delta V désignent la différence de potentiel entre et .
+On la représente sur les schémas électriques par une flèche allant du point vers le point .
+Mesure
+Sa mesure s'effectue en physique comme en biologie grâce à un voltmètre ou à un oscilloscope qui sont toujours placés en dérivation ou en parallèle, par rapport au circuit ou à l'objet bipolaire à mesurer.
+Le potentiel est toujours défini à une constante près.
+En électricité il est fréquent que l'on prenne comme référence pour les potentiels (c'est-à-dire le potentiel qui sert de zéro) le potentiel de la terre (que l'on abrège par terre), même si cela n'est pas une obligation.
+Quel que soit le choix opéré, le point de référence dans le circuit dont le potentiel est fixé à 0 volt est appelé point froid.
+Selon les dispositifs il peut être relié soit à la masse (carcasse métallique du dispositif), soit à la terre, soit aux deux.
+Pour des explications plus pratiques concernant la notion de potentiel électrique, on se référera à l'article tension.
+Formules
+Le potentiel électrique en un point de l'espace est un concept du domaine de l'électricité.
+Il est défini à partir de la distribution des charges électriques dans l'espace à l'aide de l'application de la loi de Coulomb à une distribution volumique de charge et en utilisant le principe de superposition :
+:: V_1 (x_2,y_2,z_2)
+\frac\iiint\frac
+\mathrmx_1\mathrmy_1\mathrmz_1
+où : \vec_
+\vec_2-\vec_1 et où \rho \, est la densité de charge en 1 (autour du point 1 il y a une charge \rho \mathrmx_1\mathrmy_1\mathrmz_1 dans le volume \mathrmv
+\mathrmx_1\mathrmy_1\mathrmz_1)
+Le champ électrique qui dérive de ce potentiel est alors donné par la formule suivante :
+:: \vec_1 (x_2,y_2,z_2) = \frac\iiint\frac \mathrmx_1\mathrmy_1\mathrmz_1
+Inversement, la connaissance du champ électrique en un point permet le calcul du potentiel dont il découle :
+:V =
+- \int_s \vec \cdot \mathrm\vec
+où :
+:V \, est le potentiel électrique, et \mathrm\ell est l'élément d'intégration d'après la formule en repère cartésien (O, \vec, \vec, \vec) :
+\vec
+\vec V
+-\frac \vec-\frac \vec-\frac
+\vec
+Cas particulier
+Le potentiel électrique créé par une charge ponctuelle dans l'espace qui l'environne est :
+: V = \frac
+où : q est la charge ponctuelle, r est le vecteur de position du point où l'on calcule le champ et rq est le vecteur position de la charge ponctuelle.
+Comme mathématiquement :
+:\overrightarrow\left (\frac\right)
+\vec \left (\frac\right)
+-\frac \;
+pour une distribution de charges quelconques, l'équation devient :
+::\ V = \frac \int \frac \mathrmr
+où : \rho \
+, est la densité de charge en fonction de la position et r est la distance de l'élément de volume dV.
+Noter que V est un scalaire.
+L'énergie potentielle
+La variation d'énergie potentielle électrique d'une particule chargée se calcule à partir de la différence entre les potentiels à chacun des points.
+Il est possible de faire une analogie entre la hauteur et le potentiel.
+Lorsque la particule diminue en potentiel, son énergie potentielle diminue proportionnellement.
+Toutefois, à la différence de l'énergie potentielle gravitationnelle, l'énergie potentielle électrique dépend de la charge électrique de la particule, et non de sa masse qui est elle la "charge gravitationnelle" .
+Donc :
+Ev = \cdot \mathrm
+* q : charge élémentaire (négatif dans le cas d'un électron)

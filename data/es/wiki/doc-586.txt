@@ -1,0 +1,179 @@
+En informática, la memoria es el dispositivo que retiene, memoriza o almacena datos informáticos durante algún período de tiempo.
+La memoria proporciona una de las principales funciones de la computación moderna: el almacenamiento de información y conocimiento.
+Es uno de los componentes fundamentales de la computadora, que interconectada a la unidad central de procesamiento (CPU, por las siglas en inglés de Central Processing Unit) y los dispositivos de entrada/salida, implementan lo fundamental del modelo de computadora de la arquitectura de von Neumann.
+En la actualidad, «memoria» suele referirse a una forma de almacenamiento de estado sólido, conocida como memoria RAM (memoria de acceso aleatorio; RAM por sus siglas en inglés, de random access memory), y otras veces se refiere a otras formas de almacenamiento rápido, pero temporal.
+De forma similar, se refiere a formas de almacenamiento masivo, como discos ópticos, y tipos de almacenamiento magnético, como discos duros y otros tipos de almacenamiento, más lentos que las memorias RAM, pero de naturaleza más permanente.
+Estas distinciones contemporáneas son de ayuda, porque son fundamentales para la arquitectura de computadores en general.
+Además, se refleja una diferencia técnica importante y significativa entre «memoria» y «dispositivos de almacenamiento masivo», que se ha ido diluyendo por el uso histórico de los términos «almacenamiento primario» (a veces «almacenamiento principal»), para memorias de acceso aleatorio, y «almacenamiento secundario», para dispositivos de almacenamiento masivo.
+Esto se explica en las siguientes secciones, en las que el término tradicional «almacenamiento» se usa como subtítulo, por conveniencia.
+Jerarquía de almacenamiento
+Los componentes fundamentales de las computadoras de propósito general son la CPU, el espacio de almacenamiento y los dispositivos de entrada/salida.
+La habilidad para almacenar las instrucciones que forman un programa de computadora y la información que manipulan las instrucciones es lo que hace versátiles a las computadoras diseñadas según la arquitectura de programas almacenados.
+Una computadora digital representa toda la información usando el sistema binario.
+Texto, números, imágenes, sonido y casi cualquier otra forma de información puede ser transformada en una sucesión de bits, o dígitos binarios, cada uno de los cuales tiene un valor de 1 o 0.
+La unidad de almacenamiento más común es el byte, igual a 8 bits.
+Una determinada información puede ser manipulada por cualquier computadora cuyo espacio de almacenamiento sea suficientemente grande como para que quepa el dato correspondiente o la representación binaria de la información.
+Por ejemplo, una computadora con un espacio de almacenamiento de ocho millones de bits, o un megabyte, puede ser usada para editar una novela pequeña.
+Se han inventado varias formas de almacenamiento basadas en diversos fenómenos naturales.
+No existen ningún medio de almacenamiento de uso práctico universal y todas las formas de almacenamiento tienen sus desventajas.
+Por tanto, un sistema informático contiene varios tipos de almacenamiento, cada uno con su propósito individual.
+Almacenamiento primario
+La memoria primaria, está directamente conectada a la CPU del ordenador.
+Debe estar presente para que la CPU efectúe cualquier función.
+El almacenamiento primario consta de la memoria primaria del sistema; contiene los programas en ejecución y los datos con que operan.
+Se puede transferir información muy rápidamente (típicamente en menos de 100 ciclos de reloj) entre un registro del microprocesador y localizaciones del almacenamiento principal.
+En las computadoras modernas se usan memorias de acceso aleatorio basadas en electrónica del estado sólido, que está directamente conectada a la CPU a través de buses de direcciones, datos y control.
+El almacenamiento lleva por principal requisito que cualquiera de sus localidades debe ser directamente direccionable, esto es, todo dato contenido en memoria debe poder encontrarse basándose en su dirección.
+Es por esto que los registros del procesador no pueden considerarse almacenamiento primario.
+Las referencias a éstos se efectúan por nombre, de forma directa, y no por dirección.
+Los registros representan el estado actual del cómputo y los datos utilizados inmediatamente, pero no pueden almacenar un programa (sólo apuntar al lugar de ejecución actual).
+La gran diferencia de velocidad entre el procesador y la memoria primaria dio origen a la memoria caché.
+Esta es una memoria de muy alta velocidad, típicamente entre 10 y 100 veces más que la memoria primaria, y se emplea para mejorar la eficiencia o rendimiento del CPU.
+Parte de la información de la memoria principal se duplica en la memoria caché.
+Comparada con los registros, la caché es ligeramente más lenta, pero de mayor capacidad.
+Sin embargo, es más rápida, aunque de mucha menor capacidad que la memoria principal.
+Algunos autores presentan a la memoria caché como una jerarquía aparte, sin embargo, al no ser memoria directamente direccionable (guarda estrictamente copias de la información disponible en la memoria principal), es común presentarla como parte funcional del almacenamiento primario.
+Almacenamiento secundario
+La memoria secundaria requiere que la computadora use sus canales de entrada/salida para acceder a la información y se utiliza para almacenamiento a largo plazo de información persistente.
+Sin embargo, la mayoría de los sistemas operativos usan los dispositivos de almacenamiento secundario como área de intercambio para incrementar artificialmente la cantidad aparente de memoria principal en la computadora (a esta utilización del almacenamiento secundario se le denomina memoria virtual).
+La memoria secundaria también se llama de «almacenamiento masivo».
+Un disco duro es un ejemplo de almacenamiento secundario.
+Habitualmente, la memoria secundaria o de almacenamiento masivo tiene mayor capacidad que la memoria primaria, pero es mucho más lenta.
+En las computadoras modernas, los discos duros suelen usarse como dispositivos de almacenamiento masivo.
+El tiempo necesario para acceder a un byte de información dado almacenado en un disco duro de platos magnéticos es de unas milésimas de segundo (milisegundos).
+En cambio, el tiempo para acceder al mismo tipo de información en una memoria de acceso aleatorio (RAM) se mide en mil-millonésimas de segundo (nanosegundos).
+Esto ilustra cuan significativa es la diferencia entre la velocidad de las memorias de estado sólido y la velocidad de los dispositivos rotantes de almacenamiento magnético u óptico: los discos duros son del orden de un millón de veces más lentos que la memoria (primaria).
+Los dispositivos rotantes de almacenamiento óptico (unidades de CD y DVD) son incluso más lentos que los discos duros, aunque es probable que su velocidad de acceso mejore con los avances tecnológicos.
+Por lo tanto, el uso de la memoria virtual, que es cerca de un millón de veces más lenta que memoria “verdadera”, ralentiza apreciablemente el funcionamiento de cualquier computadora.
+Muchos sistemas operativos implementan la memoria virtual usando términos como memoria virtual o «fichero de caché».
+La principal ventaja histórica de la memoria virtual es el precio; la memoria virtual resultaba mucho más barata que la memoria real.
+Esa ventaja es menos relevante hoy en día.
+Aun así, muchos sistemas operativos siguen implementándola, a pesar de provocar un funcionamiento significativamente más lento.
+Almacenamiento terciario
+La memoria terciaria es un sistema en el que un robot industrial brazo robótico, montará, conectará o desmontará (desconectará) un medio de almacenamiento masivo fuera de línea (véase el siguiente punto) según lo solicite el sistema operativo de la computadora.
+La memoria terciaria se usa en el área del almacenamiento industrial, la computación científica en grandes sistemas informáticos y en redes empresariales.
+Este tipo de memoria es algo que los usuarios de computadoras personales normales nunca ven de primera mano.
+Almacenamiento fuera de línea
+El almacenamiento fuera de línea (off-line) es un sistema donde el medio de almacenamiento puede ser extraído fácilmente del dispositivo de almacenamiento.
+Estos medios de almacenamiento suelen usarse para transporte y archivo de datos.
+En computadoras modernas son de uso habitual para este propósito los disquetes, discos ópticos y las memorias flash, incluyendo las unidades USB.
+También hay discos duros USB que se pueden conectar rápidamente.
+Los dispositivos de almacenamiento fuera de línea usados en el pasado son cintas magnéticas en muchos tamaños y formatos diferentes, y las baterías extraíbles de discos Winchester.
+Almacenamiento de red
+El almacenamiento de red es cualquier tipo de almacenamiento de computadora que incluye el hecho de acceder a la información a través de una red informática.
+Discutiblemente, el almacenamiento de red permite centralizar el “control de información” en una organización y reducir la duplicidad de la información.
+El almacenamiento en red incluye:
+* El almacenamiento asociado a red es una memoria secundaria o terciaria que reside en una computadora a la que otra de éstas puede acceder a través de una red de área local, una red de área extensa, una red privada virtual o, en el caso de almacenamiento de archivos en línea, internet.
+* Las redes de computadoras son computadoras que no contienen dispositivos de almacenamiento secundario.
+En su lugar, los documentos y otros datos son almacenados en un dispositivo de la red.
+Características de las memorias
+La división entre primario, secundario, terciario, fuera de línea, se basa en la jerarquía de memoria o distancia desde la CPU.
+Hay otras formas de caracterizar a los distintos tipos de memoria.
+Volatilidad de la información
+* La memoria volátil requiere energía constante para mantener la información almacenada.
+La memoria volátil se suele usar sólo en memorias primarias.
+La memoria RAM es una memoria volátil, ya que pierde información en la falta de energía eléctrica.
+* La memoria no volátil retendrá la información almacenada incluso si no recibe corriente eléctrica constantemente, como es el caso de la memoria ROM.
+Se usa para almacenamientos a largo plazo y, por tanto, se usa en memorias secundarias, terciarias y fuera de línea.
+* La memoria dinámica es una memoria volátil que además requiere que periódicamente se refresque la información almacenada, o leída y reescrita sin modificaciones.
+Accesibilidad secuencial o aleatoria a información
+Dependiendo de la habilidad para acceder a información contigua o no, se puede clasificar en:
+* Acceso aleatorio significa que se puede acceder a cualquier localización de la memoria en cualquier momento en el mismo intervalo de tiempo, normalmente pequeño.
+* Acceso secuencial significa que acceder a una unidad de información tomará un intervalo de tiempo variable, dependiendo de la unidad de información que fue leída anteriormente.
+El dispositivo puede necesitar buscar .
+Habilidad para cambiar la información
+* Las memorias de lectura escritura como memoria principal sería inútil para muchas tareas.
+Las computadoras modernas también usan habitualmente memorias de lectura/escritura como memoria secundaria.
+* La memoria de sólo lectura (Read-Only Memory, ROM) retiene la información almacenada en el momento de fabricarse y
+** la memoria de escritura única lectura múltiple (Write Once Read Many, WORM) permite que la información se escriba una sola vez en algún momento tras la fabricación.
+También están las memorias inmutables, que se utilizan en memorias terciarias y fuera de línea.
+Un ejemplo son los CD-ROM.
+* Las memorias de escritura lenta y lectura rápida son memorias de lectura/escritura que permite que la información se reescriba múltiples veces pero con una velocidad de escritura mucho menor que la de lectura.
+Un ejemplo son los CD-RW.
+Direccionamiento de la información
+* En la memoria de localización direccionable, cada unidad de información accesible individualmente en la memoria se selecciona con su dirección de memoria numérica.
+En las computadoras modernas, la memoria de localización direccionable se suele limitar a memorias primarias, que se leen internamente por programas de computadora ya que la localización direccionable es muy eficiente, pero difícil de usar para los humanos.
+* En las memorias de sistema de archivos, la información se divide en archivos informáticos de longitud variable y un fichero concreto se localiza en directorios y nombres de archivos «legible por humanos».
+El dispositivo subyacente sigue siendo de localización direccionable, pero el sistema operativo de la computadora proporciona la abstracción del sistema de archivos para que la operación sea más entendible.
+En las computadora modernas, las memorias secundarias, terciarias y fuera de línea usan sistemas de archivos.
+* En las memorias de contenido direccionable (content-addressable memory), cada unidad de información legible individualmente se selecciona con una valor hash o un identificador corto sin relación con la dirección de memoria en la que se almacena la información.
+La memoria de contenido direccionable pueden construirse usando software o hardware; la opción hardware es la opción más rápida y cara.
+Capacidad de memoria
+Memorias de mayor capacidad son el resultado de la rápida evolución en tecnología de materiales semiconductores.
+Los primeros programas de ajedrez funcionaban en máquinas que utilizaban memorias de base magnética.
+A inicios de 1970 aparecen las memorias realizadas por semiconductores, como las utilizadas en la serie de computadoras IBM 370.
+La velocidad de los computadores se incrementó, multiplicada por 100.000 aproximadamente y la capacidad de memoria creció en una proporción similar.
+Este hecho es particularmente importante para los programas que utilizan tablas de transposición: a medida que aumenta la velocidad de la computadora se necesitan memorias de capacidad proporcionalmente mayor para mantener la cantidad extra de posiciones que el programa está buscando.
+Se espera que la capacidad de procesadores siga aumentando en los próximos años; no es un abuso pensar que la capacidad de memoria continuará creciendo de manera impresionante.
+Memorias de mayor capacidad podrán ser utilizadas por programas con tablas de Hash de mayor envergadura, las cuales mantendrán la información en forma permanente.
+* Minicomputadoras: se caracterizan por tener una configuración básica regular que puede estar compuesta por un monitor, unidades de disquete, disco, impresora, etc.
+Su capacidad de memoria varía de 16 a 256 KiB.
+* Macrocomputadoras: son aquellas que dentro de su configuración básica contienen unidades que proveen de capacidad masiva de información, terminales (monitores), etc.
+Su capacidad de memoria varía desde 256 a 512 KiB, también puede tener varios megabytes o hasta gigabytes según las necesidades de la empresa.
+* Microcomputadores y computadoras personales: con el avance de la microelectrónica en la década de los 70 resultaba posible incluir todos los componente del procesador central de una computadora en un solo circuito integrado llamado microprocesador.
+Ésta fue la base de creación de unas computadoras a las que se les llamó microcomputadoras.
+El origen de las microcomputadoras tuvo lugar en los Estados Unidos a partir de la comercialización de los primeros microprocesadores (INTEL 8008, 8080).
+En la década de los 80 comenzó la verdadera explosión masiva, de los ordenadores personales (Personal Computer PC) de IBM.
+Esta máquina, basada en el microprocesador INTEL 8008, tenía características interesantes que hacían más amplio su campo de operaciones, sobre todo porque su nuevo sistema operativo estandarizado (MS-DOS, Microsoft Disk Operating Sistem) y una mejor resolución óptica, la hacían más atractiva y fácil de usar.
+El ordenador personal ha pasado por varias transformaciones y mejoras que se conocen como XT (Tecnología Extendida), AT (Tecnología Avanzada) y PS/2...
+Tecnologías, dispositivos y medios
+Memoria de semiconductor
+La memoria de semiconductor usa circuitos integrados basados en semiconductores para almacenar información.
+Un chip de memoria de semiconductor puede contener millones de minúsculos transistores o condensadores.
+Existen memorias de semiconductor de ambos tipos: volátiles y no volátiles.
+En las computadoras modernas, la memoria principal consiste casi exclusivamente en memoria de semiconductor volátil y dinámica, también conocida como memoria dinámica de acceso aleatorio o más comúnmente RAM, su acrónimo inglés.
+Con el cambio de siglo, ha habido un crecimiento constante en el uso de un nuevo tipo de memoria de semiconductor no volátil llamado memoria flash.
+Dicho crecimiento se ha dado, principalmente en el campo de las memorias fuera de línea en computadoras domésticas.
+Las memorias de semiconductor no volátiles se están usando también como memorias secundarias en varios dispositivos de electrónica avanzada y computadoras especializadas y no especializadas.
+Memoria magnética
+Las memorias magnéticas usan diferentes patrones de magnetización sobre una superficie cubierta con una capa magnetizada para almacenar información.
+Las memorias magnéticas son no volátiles.
+Se llega a la información usando uno o más cabezales de lectura escritura solo cubre una parte de la superficie, el almacenamiento magnético es de acceso secuencial y debe buscar, dar vueltas o las dos cosas.
+En ‘computadoras modernas’,
+la superficie magnética es de alguno de estos tipos:
+* Cinta magnética, usada para memoria terciaria y fuera de línea.
+En las ‘primeras computadoras’, el almacenamiento magnético se usaba también como memoria principal en forma de memoria de tambor, memoria de núcleo, memoria en hilera de núcleo, memoria película delgada, memoria de Twistor o memoria de burbuja.
+Además, a diferencia de hoy, las cintas magnéticas se solían usar como memoria secundaria.
+Memoria de disco óptico
+Las memorias en disco óptico almacenan información usando agujeros minúsculos grabados con un láser en la superficie de un disco circular.
+La información se lee iluminando la superficie con un diodo láser y observando la reflexión.
+Los discos ópticos son no volátil y de acceso secuencial.
+Los siguientes formatos son de uso común:
+* CD, CD-ROM, DVD: Memorias de simplemente solo lectura, usada para distribución masiva de información digital (música, vídeo, programas informáticos).
+* CD-R, DVD-R, DVD+R: Memorias de escritura única usada como memoria terciaria y fuera de línea.
+* CD-RW, DVD-RW, DVD+RW, DVD-RAM: Memoria de escritura lenta y lectura rápida usada como memoria terciaria y fuera de línea.
+* Blu-ray: Formato de disco óptico pensado para almacenar vídeo de alta calidad y datos.
+Para su desarrollo se creó la BDA, en la que se encuentran, entre otros, Sony o Phillips.
+Se han propuesto los siguientes formatos:
+Memoria de disco magneto-óptico
+Los discos magneto-ópticos son discos de memoria óptica donde la información se almacena en el estado magnético de una superficie ferromagnética.
+La información se lee ópticamente y se escribe combinando métodos magnéticos y ópticos.
+Las memorias de discos magneto ópticos son de tipo no volátiles, de acceso secuencial, de escritura lenta y lectura rápida.
+Se usa como memoria terciaria y fuera de línea.
+Otros métodos iniciales
+Las tarjetas perforadas fueron utilizados por primera vez por Basile Bouchon para el control de telares textiles en Francia.
+En 1801 el sistema de Bouchon fue perfeccionado por Joseph Marie Jacquard, quien desarrolló un telar automático, conocido como telar de Jacquard.
+Herman Hollerith desarrolló la tecnología de procesamiento de datos de tarjetas perforadas para el censo de Estados Unidos de 1890 y posteriormente fundó la Tabulating Machine Company, una de las precursoras de IBM.
+IBM desarrolló la tecnología de la tarjeta perforada como una potente herramienta para el procesamiento de datos empresariales y produjo una línea extensiva de máquinas de registro que utilizaban papel perforado para el almacenamiento de datos y su procesado automático.
+En el año 1950, las tarjetas IBM y las unidades máquinas de registro IBM se habían vuelto indispensables en la industria y el gobierno estadounidense.
+Durante los años 1960, las tarjetas perforadas fueron gradualmente reemplazadas por las cintas magnéticas, aunque su uso fue muy común hasta mediados de los años 1970 con la aparición de los discos magnéticos.
+La información se grababa en las tarjetas perforando agujeros en el papel o la tarjeta.
+La lectura se realizaba por sensores eléctricos (más tarde ópticos) donde una localización particular podía estar agujereada o no.
+Para almacenar información, los tubos Williams usaban un tubo de rayos catódicos y los tubos Selectrón usaban un gran tubo de vacío.
+Estos dispositivos de memoria primaria tuvieron una corta vida en el mercado ya que el tubo de Williams no era fiable y el tubo de Selectrón era caro.
+La memoria de línea de retardo usaba ondas sonoras en una sustancia como podía ser el Mercurio para guardar información.
+La memoria de línea de retardo era una memoria dinámica volátil, ciclo secuencial de lectura/escritura.
+Se usaba como memoria principal.
+Otros métodos propuestos
+La memoria de cambio de fase usa las fases de un material de cambio de fase para almacenar información.
+Dicha información se lee observando la resistencia eléctrica variable del material.
+La memoria de cambio de fase sería una memoria de lectura/escritura no volátil, de acceso aleatorio podría ser usada como memoria primaria, secundaria y fuera de línea.
+La memoria holográfica almacena ópticamente la información dentro de cristales o fotopolímeros.
+Las memorias holográficas pueden utilizar todo el volumen del medio de almacenamiento, a diferencia de las memorias de discos ópticos, que están limitadas a un pequeño número de superficies en capas.
+La memoria holográfica podría ser no volátil, de acceso secuencial y tanto de escritura única como de lectura/escritura.
+Puede ser usada tanto como memoria secundaria como fuera de línea.
+La memoria molecular almacena la información en polímeros que pueden almacenar puntas de carga eléctrica.
+La memoria molecular puede ser especialmente interesante como memoria principal.
+Recientemente se ha propuesto utilizar el spin de un electrón como memoria.
+Se ha demostrado que es posible desarrollar un circuito electrónico que lea el spin del electrón y lo convierta en una señal eléctrica.
+Véase también

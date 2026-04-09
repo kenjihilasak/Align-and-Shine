@@ -1,0 +1,94 @@
+Quadrilatère|Théorème de géométrie
+Un trapèze est un quadrilatère possédant deux côtés opposés parallèles.
+Ces deux côtés parallèles sont appelés bases.
+Avec cette définition, les quadrilatères ABCD et ABDC de la figure sont tous deux des trapèzes (dont les côtés (AB) et (CD) sont parallèles).
+Certains auteurs imposent comme condition supplémentaire la convexité du quadrilatère, ce qui revient à exclure les « trapèzes croisés » tels que ABDC.
+Propriétés
+Un quadrilatère convexe est un trapèze si et seulement s’il possède une paire d’angles consécutifs de somme égale à 180°, soit radians.
+La somme des deux autres angles est alors la même.
+Par exemple dans la figure ci-dessus,
+les deux paires d'angles ont pour sommets (A,D) et (B,C).
+Attention :
+dans un trapèze, la somme de deux angles consécutifs n'est pas toujours égale à 180° (exemple ici : les angles de sommets A et B).
+Cas particuliers
+Un trapèze est qualifié de trapèze rectangle s’il possède au moins un angle droit (il en possède alors au moins deux, consécutifs).
+*Un trapèze est qualifié d’isocèle lorsqu'il vérifie l'une des propriétés équivalentes suivantes :
+***les deux bases du trapèze ont la même médiatrice, et celle-ci est un axe de symétrie du trapèze ;
+**c'est un quadrilatère inscriptible (c'est-à-dire dont les sommets sont cocycliques).
+*Un trapèze
+dont les bases ont même longueur est un parallélogramme, c'est-à-dire que ses deux autres côtés sont aussi parallèles.
+*Les trapèzes dont les deux côtés qui ne sont pas les bases ont même longueur sont les trapèzes isocèles et les parallélogrammes.
+*Les quadrilatères qui sont à la fois des trapèzes isocèles et des parallélogrammes sont les rectangles.
+*Un trapèze qui est un quadrilatère circonscriptible (c'est-à-dire qui possède un cercle inscrit) est appelé trapèze circonscriptible.
+Aire du trapèze
+L’aire du trapèze vaut le produit de sa hauteur par la demi-somme de ses bases.
+C’est-à-dire
+, soit h la hauteur, a la première base, et c la deuxième.
+\dfrac2
+Ceci peut se démontrer facilement en remarquant que le trapèze est un rectangle (d'aire ch) auquel on accole deux triangles rectangles (dont la somme des aires est
+Autre démonstration en considérant le parallélogramme obtenu après symétrie de centre le milieu d'un des côtés non parallèles.
+ABCD est un trapèze de grande base a
+AB et de petite base c
+La symétrie de centre I transforme A
+en A’ et D en D’.
+Les points A, B et D’ sont alignés comme les points D, C et A’.
+BD’) est parallèle à (A’C).
+BD’A’C est un trapèze de même aire que ABCD et l'on a :
+grandes bases :
+A’C, petite base c
+BD’, h = CH.
+AD)
+est parallèle à (A’D’).
+AD’A’D est un parallélogramme de base AD’
+= a + c.
+Aire (AD’A’D)
+AD’ ×
+a + c) ×
+Or Aire (AD’A’D)
+Aire (ABCD) + Aire (BD’A’C)
+2 Aire (ABCD), soit 2 Aire (ABCD)
+= (a + c) ×
+On retrouve Aire (ABCD) = \dfrac2.
+Une autre formule donne l'aire du trapèze lorsque ne sont connues que les quatre longueurs a, b, c, d des quatre côtés :
+: \frac\sqrt
+où a et c représentent encore les longueurs (supposées distinctes) des deux bases.
+, les sommets C et D sont confondus et on retrouve la formule de Héron pour le triangle ABC.
+On peut aussi considérer les triangles ADC et ACB, respectivement de bases c et a, et de hauteur commune
+Barycentre du trapèze
+Le centre de masse d'un trapèze de bases a et b et de hauteur h est situé sur la médiane joignant les deux bases et à une distance \frac h3\times\frac de la base de longueur a.
+C'est le barycentre des milieux I_a et I_b pondérés respectivement par 2a + b et 2b + a.
+Diagonales
+En supposant à nouveau que les deux bases a et c sont distinctes, les diagonales p et q sont liées aux quatre côtés par les formules :
+p^2
+ac+\frac,\quad
+q^2
+ac+\frac,
+équivalentes
+2ac
+p^2+q^2-b^2-d^2,\quad a (p^2-q^2+b^2-d^2)
+c (p^2-q^2+d^2-b^2).
+Ces deux formules permettent de retrouver les deux bases du trapèze précédent, s'il n'est ni isocèle, ni réduit à un triangle, connaissant les deux autres côtés et les diagonales.
+En effet, dans ce cas, les formules sont équivalentes
+a^2
+\frac,\quad c^2
+\frac
+Théorème du trapèze
+Plus précisément : soit ABCD
+un quadrilatère dont les côtés (AD) et (BC) se coupent en P et les diagonales (AC) et (BD) en O, et soient I et J les milieux respectifs de AB et CD
+Alors, le quadrilatère est un trapèze si et seulement si I appartient à (OP) .
+De plus, les quatre points (O, P, I, J) sont alors en division harmonique
+Si (AB) et (CD) sont parallèles
+alors, l'homothétie de centre P qui envoie A sur D envoie
+AB)∩ (PB)
+sur (DC)∩ (PB)
+Par conséquent, elle transforme le milieu I du segment AB en le milieu J de DC et donc P, I et J sont alignés.
+On montre de même que O, I et J sont alignés.
+*Réciproquement
+, si I appartient à la droite (OP) alors la symétrie par rapport à cette droite et parallèlement à (AB) envoie (AO)∩ (BP)
+sur (BO)∩ (AP)
+, donc (CD) est parallèle à (AB).
+*Enfin, lorsque toutes ces conditions sont réalisées, le théorème de Thalès permet d'affirmer
+que
+Méthode des trapèzes
+La méthode de calcul intégral approché dite « des trapèzes », décrite par Isaac Newton et son élève Roger Cotes, consiste à remplacer les arcs de courbe successifs MiMi+1 par les segments MiMi+1 : c'est une interpolation linéaire.
+La méthode des trapèzes est plus précise que la méthode élémentaire, dite des rectangles, correspondant aux sommes de Riemann, consistant à remplacer la fonction donnée par une fonction en escalier.

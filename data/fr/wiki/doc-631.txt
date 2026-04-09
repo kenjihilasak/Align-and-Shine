@@ -1,0 +1,270 @@
+Gravitation
+En physique, le centre de gravité ou CdG (en anglais, center of gravity ou COG), appelé G, est le point d'application de la résultante des forces de gravité ou de pesanteur.
+De ce fait, il est clairement dépendant du champ de gravitation auquel le corps est soumis et ne doit pas être confondu avec le centre d'inertie qui est le barycentre des masses.
+Il est souvent assimilé à ce dernier, mais ce n'est qu'une approximation liée au fait que dans la plupart des cas, le champ de gravitation auquel le corps est soumis peut être considéré comme uniforme dans le corps considéré.
+Historique
+Importance
+du centre de gravité
+En statique, le centre de gravité est le point d'application du poids.
+Il s'agit d'une simplification qui consiste à considérer le poids comme une force s'appliquant en un point unique, G, plutôt que de considérer une force volumique s'appliquant en chaque point de l'objet.
+Outre la simplification des calculs de statique, la connaissance de la position du centre de gravité est indispensable pour déterminer la stabilité d'un objet :
+* pour un objet posé au sol, la droite d'action du poids (\mathrm, \vec) doit passer dans la surface de sustentation ;
+si elle se trouve en dehors, l'objet bascule ;
+* lorsqu'un véhicule accélère (au sens physique du terme : augmentation de la vitesse mais aussi freinage, virage), un objet dont le centre de gravité est haut risque de basculer ;
+il s'agit plus d'une propriété du centre de masse, et cela résulte du principe d'équivalence entre gravité et accélération ;
+* lors du levage d'un objet (élingage), le centre de gravité s'aligne avec la verticale passant par le point d'accroche des élingues (sangles ou câbles) ;
+si le point d'accroche, le palonnier, ne se situe pas à l'aplomb du centre de gravité au départ, l'objet se balance ;
+* pour un objet flottant
+, le centre de gravité se positionne à l'aplomb du centre de poussée des forces de pression sur la coque (voir Poussée d'Archimède) ;
+si le centre de gravité se déplace, l'objet bascule ;
+* lorsqu'une personne seule lève une charge à la main, elle doit s'assurer que le centre de gravité de l'objet soit le plus proche possible de son bassin, et en particulier doit travailler le dos le plus droit possible ;
+cela limite l'effort de flexion sur les vertèbres lombaires.
+Détermination du centre de gravité
+Détermination expérimentale
+Pour les objets complexes, comme des machines, on détermine les coordonnées xG et yG par élingage : on fait des essais de levage et l'on ajuste la position du point d'accroche des élingues jusqu'à obtenir l'équilibre.
+On peut également poser l'objet sur plusieurs balances, au moins trois.
+La position du centre de gravité est alors le barycentre des positions des balances pondérées par le poids mesuré.
+Par exemple, pour déterminer le centre de gravité d'une voiture
+, on peut disposer une balance sous chaque roue.
+On ne peut pas déterminer l'altitude zG, sauf à faire des essais d'élingage ou de pesée avec une autre position de l'objet.
+Calcul dans le cas général
+Considérons un objet \mathcal dont la masse volumique au point M vaut \rho\left (\mathrm\right) et qui est situé dans le champ de gravité \vec\left (\mathrm\right).
+La position du centre de gravité \mathrm_g est définie par la relation suivante :
+\int_ \overrightarrow \wedge \vec\left (\mathrm\right)~ \mathrm = \vec
+où \vec\left (\mathrm\right) est le poids volumique définit par : \vec\left (\mathrm\right)
+= \rho\left (\mathrm\right)\vec\left (\mathrm\right).
+Cette relation traduit le fait que le moment du poids par rapport au centre de gravité est nul.
+Calcul de la position pour les cas simples
+Nous supposons ici que le champ de gravité \vec g est homogène ;
+le centre de gravité est alors confondu avec le centre de masse.
+Le centre de gravité des objets symétriques
+- sphères, parallélépipèdes (quelconques, rectangles ou cubes), prismes droits, solides de Platon
+- et homogènes se situe à leur centre géométrique.
+Si l'objet présente un élément de symétrie, le centre de gravité se situe sur cet élément de symétrie :
+* symétrie de révolution (pièce composée de troncs de cône, sphères tronquées, cylindres tous coaxiaux) : le centre de gravité se situé sur l'axe de symétrie ;
+* symétrie plane : le centre de gravité se situé sur le plan de symétrie.
+Si l'objet est fait d'une tôle plane d'épaisseur constante, le centre de gravité est situé sur le plan passant au milieu de la tôle, et sur la normale passant par le centre de gravité du polygone.
+Dans le cas d'un ensemble rigide, composé de n sous-ensembles dont les centres de gravité sont Gi et les poids pi, le centre de gravité de l'ensemble est le barycentre des centres de gravité
+Gi pondérés par les poids pi :
+\overrightarrow = \frac \sum_1^n p_i \overrightarrow_i
+où p est le poids total
+, p = ∑pi.
+Par exemple, considérons la boîte d'entrée d'un échangeur de chaleur ci-contre.
+Les coordonnées des centres de gravité sont, en millimètres (unité usuelle en chaudronnerie) :
+\overrightarrow_1 \begin 1200 \\ 0 \\ 0 \\ \end,
+\overrightarrow_2 \begin 770 \\ 0 \\ 0 \\ \end,
+\overrightarrow_5 \begin 507 \\ 0 \\ 0 \\ \end,
+\overrightarrow_
+\begin 790 \\ -537 \\ 0 \\ \end,
+\overrightarrow_
+\begin 790 \\ -546 \\ 0 \\ \end\text
+Dans les calculs, les cotes sont converties en mètres :
+: \left \{ \begin
+x_\mathrm
+\ & \frac
+0,733\ \mathrm
+= 733\ \mathrm
+y_\mathrm
+\ & \frac
+-0,044\ \mathrm = -44\ \mathrm
+z_\mathrm =\
+& 0 \\
+\end \right .
+On présente souvent les calculs sous la forme d'un tableau.
+Soit
+: \left \{ \begin
+x_\mathrm
+\ & \frac
+0,733\ \mathrm
+= 733\ \mathrm
+y_\mathrm
+\ & \frac
+-0,044\ \mathrm = -44\ \mathrm
+z_\mathrm =\
+& 0 \\
+\end \right .
+Méthode graphique
+On peut utiliser la méthode du dynamique et du funiculaire pour déterminer la position du centre de gravité.
+En effet, si l'on considère des éléments discrets on peut imaginer le système en équilibre sur une pointe, celle-ci exerçant une force -\vec.
+On a donc à résoudre un problème de statique à force parallèles, à ceci près que l'on connaît l'intensité de toutes les forces, et que l'inconnue est la droite d'action de l'une d'elles (-\vec).
+Pour procéder :
+# Sur le dynamique
+, on place les vecteurs poids les uns derrière les autres, dans l'ordre des pièces prises de gauche à droite.
+On choisit un point appelé pôle, et l'on trace les droites joignant le pôle aux extrémités des vecteurs (droites polaires) ;
+on numérote ces droites de haut en bas.
+On trace les parallèles aux droites polaires sur la figure pour former une ligne brisée ;
+par exemple, la droite 3', parallèle à la droite 3 séparant les vecteurs \vec_2 et \vec_1
+, est tracée entre les droites d'action de \vec_2 et \vec_1.
+Les parallèles
+0' et 4' aux deux droites polaires extrêmes sont tracées depuis les extrémités de la ligne brisées ;
+l'intersection de ces droites donne l'abscisse du centre de gravité.
+# Pour déterminer l'ordonnée, on tourne la figure d'un quart de tour et on applique à nouveau la méthode.
+Pour déterminer le centre de gravité d'une plaque de forme complexe, on peut découper cette plaque en bandes, appliquer un poids à chaque bande et appliquer la même méthode.
+Fichier
+Teknisk Elasticitetslære
+- Pl3-fig23.png Détermination du centre de gravité d'un groupe de rectangles (Asger , Teknisk Elasticitetslære, Forfatterens Forlag (Copenhague, 1898), planche 3)
+Fichier
+Teknisk Elasticitetslære
+- Pl4-fig26.png | Détermination du centre de gravité d'un rail (op.
+cit.
+planche 4)
+Utilisation des théorèmes de Guldin
+Les théorèmes de Guldin s'appliquent pour les pièces de révolution.
+Ils mettent en relation
+* la position du centre de gravité de l'arc générant une coque, la longueur de l'arc et l'aire de la coque ;
+* la position du centre de gravité de la surface générant un solide, l'aire de cette surface et le volume de ce solide.
+On peut ainsi déterminer la position du centre de gravité.
+Étudions une coque hémicylindrique ;
+vue en bout, on voit un demi-cercle.
+Le diamètre perpendiculaire à la corde divise ce demi-cercle en deux quarts de cercle égaux ;
+pour des raisons de symétrie, le centre de gravité se trouve donc sur ce diamètre.
+Un demi-cercle, de longueur
+πr, tournant autour de sa corde, génère une sphère d'aire A
+4πr.
+Le centre de gravité parcourt donc un périmètre
+p vérifiant
+\mathrm
+pl \Rightarrow p
+\frac
+\frac
+4r.
+Si rG est le rayon du cercle décrit par le centre de gravité, alors
+2\pi r_\mathrm \Rightarrow
+r_\mathrm
+\frac
+Étudions maintenant une plaque en forme de demi-disque d'aire A = 1/2πr.
+Le diamètre perpendiculaire à la corde divise ce demi-cercle en deux quarts de cercle égaux ;
+pour des raisons de symétrie, le centre de gravité se trouve donc sur ce diamètre.
+En tournant autour de sa corde, ce demi-disque génère une sphère de volume V = 4/3πr.
+Le centre de gravité parcourt donc un périmètre
+p vérifiant
+\mathrm
+p\mathrm \Rightarrow p
+\frac
+\frac
+\fracr.
+Si rG est le rayon du cercle décrit par le centre de gravité, alors
+2\pi r_\mathrm \Rightarrow
+r_\mathrm
+\frac
+Justification des méthodes de calcul
+Cas d'un ensemble de points matériels
+Soient deux points matériels M1 et M2 de masses respectives m1 et m2, donc de poids respectifs \vec_1 et \vec_2.
+Si ces points sont solidaires (reliés par une barre rigide de poids négligeable), on peut les remplacer par un point matériel unique G de poids \vec = \vec_1 + \vec_2.
+Pour que le système soit équivalent d'un point de vue statique, le moment du poids résultant \vec par rapport à un point quelconque A doit être égal à la somme des moments des forces \vec_1 et \vec_2 par rapport à ce point :
+\vec_\mathrm (\vec) = \vec_\mathrm (\vec_1) + \vec_\mathrm (\vec_2)
+soit, par définition du moment d'une force,
+\overrightarrow \wedge \vec = \overrightarrow_1 \wedge \vec_1 + \overrightarrow_2 \wedge \vec_2.
+On se place dans un repère orthonormé (\mathrm, \vec x, \vec y, \vec z), z étant l'axe vertical, et l'on note les coordonnées :
+: M1 (x1, y1, z1), M2 (x2, y2, z2), G (xG, yG, zG)
+et les composantes :
+\vec_1 \begin 0 \\ 0 \\ -p_1 \\ \end, \vec_2 \begin 0 \\ 0 \\ -p_2 \\ \end, \vec \begin 0 \\ 0 \\ -p \\ \end
+avec
+p_1
+\| \vec_1 \|, p_2
+\| \vec_2 \|, p = p_1 + p_2.
+Le point A est quelconque, on peut donc calculer le moment par rapport à O pour simplifier :
+\overrightarrow \wedge \vec = \overrightarrow_1 \wedge \vec_1 + \overrightarrow_2 \wedge \vec_2
+soit
+: \begin -y_\mathrmp \\ x_\mathrmp \\ 0 \\ \end = \begin -p_1y_1 \\ p_1x_1 \\ 0 \\ \end + \begin -p_2y_2 \\
+p_2x_2 \\ 0 \\ \end
+et donc
+: \left \{ \begin
+& y_\mathrm = \frac
+& x_\mathrm
+= \frac \\
+\end \right .
+On peut refaire le calcul en considérant que le poids est orienté selon l'axe x ;
+cela revient à tourner l'ensemble rigide d'un quart de tour dans le plan vertical (x, z), et à considérer que le repère est lié à l'ensemble rigide .
+On obtient alors une nouvelle relation similaire pour les coordonnées en z, soit finalement :
+: \left \{ \begin
+& x_\mathrm
+= \frac \\
+& y_\mathrm = \frac
+& z_\mathrm = \frac \\
+\end \right .
+Le centre de gravité est donc le barycentre des points matériels pondérés par leur poids.
+On peut étendre ce résultat à un ensemble de n points
+Mi (xi, yi, zi) :
+: \left \{ \begin
+& x_\mathrm
+= \frac \\
+& y_\mathrm = \frac
+& z_\mathrm = \frac \\
+\end \right .
+avec p = ∑pi.
+Il présente toutes les propriétés géométriques du barycentre.
+Le champ de gravité étant supposé homogène, on a
+pi = mi⋅g
+: p = (∑mi)⋅g
+et donc
+: \left \{ \begin
+& x_\mathrm
+= \frac \\
+& y_\mathrm = \frac
+& z_\mathrm = \frac \\
+\end \right .
+avec m = ∑mi
+On retrouve bien la définition du centre de masse.
+Cas d'un objet continu
+Soit un objet homogène de masse volumique ρ.
+Considérons un volume de matière infinitésimal dV autour d'un point M ;
+c'est un point matériel de masse dm
+ρ (M)dV et de poids dp
+dm⋅g.
+Le calcul est similaire au cas discret, mais la somme devient une intégrale (l'intégrale est une somme sur un ensemble continu) :
+: \left \{ \begin
+& x_\mathrm
+\dfrac \int x (\mathrm) \mathrmp
+\dfrac \int \rho (\mathrm) g x (\mathrm) \mathrm \\2ex
+& y_\mathrm
+\dfrac \int y (\mathrm)
+\mathrmp
+\dfrac \int \rho (\mathrm) g y (\mathrm) \mathrm
+\\2ex
+& z_\mathrm
+\dfrac \int z (\mathrm)
+\mathrmp
+\dfrac \int \rho (\mathrm) g z (\mathrm) \mathrm
+\end \right .
+avec p = \int \mathrmp.
+Par ailleurs, si g est uniforme :
+mg avec la masse m
+\int \rho (\mathrm)
+\mathrm
+soit
+: \left \{ \begin
+& x_\mathrm = \dfrac \int \rho (\mathrm)
+x (\mathrm) \mathrm \\1.5ex
+& y_\mathrm = \dfrac \int \rho (\mathrm)
+y (\mathrm) \mathrm \\1.5ex
+& z_\mathrm = \dfrac \int \rho (\mathrm) z (\mathrm)
+\mathrm \\
+\end \right .
+ce qui est la définition du centre de masse.
+Cas d'un objet homogène
+Si la masse volumique est uniforme, alors
+\rho \int \mathrm
+\rho \mathrm
+et donc
+: \left \{ \begin
+& x_\mathrm = \dfrac \int x (\mathrm) \mathrm
+\\1.5ex
+& y_\mathrm = \dfrac \int y (\mathrm)
+\mathrm
+\\1.5ex
+& z_\mathrm = \dfrac \int z (\mathrm)
+\mathrm \\
+\end \right .
+Le centre de gravité est donc le « centre géométrique »
+, c'est-à-dire le barycentre en considérant que tous les points de l'objet ont la même pondération (isobarycentre).
+Champ de gravité non homogène
+L'approximation du champ de gravitation ou de pesanteur uniforme n'est cependant pas toujours valable, dans certains problèmes d'astronomie notamment.
+Par exemple, dans le cas de la Lune, l'attraction gravitationnelle s'applique plus fort aux parties de la Lune proche de la Terre qu'aux parties plus éloignées, de sorte que le centre de gravité est en réalité légèrement plus proche que le centre de masse.
+De plus, si le corps en orbite n'est pas parfaitement symétrique par rapport à son axe de rotation, la position du centre de gravité se déplace en permanence avec cette rotation.
+C'est la raison pour laquelle, outre les effets de marées gravitationnelles, un corps en orbite tend à synchroniser sa vitesse de rotation sur sa vitesse orbitale pour montrer sa face la plus sphérique.
+C'est déjà le cas pour la Lune qui nous montre toujours la même face, et la planète Mercure qui montre toujours la même face au Soleil.
+De plus, c'est également la raison pour laquelle le relief de la face cachée de la Lune est beaucoup plus important que celui de sa face visible.
+Très souvent en mécanique, la dimension des corps étant faible devant la rotondité de la terre, on considère un champ de gravité uniforme.
+Sous cette hypothèse, le centre de gravité et le centre d'inertie sont confondus.
+Bibliographie

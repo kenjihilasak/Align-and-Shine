@@ -1,0 +1,52 @@
+Un bit -simbolitzat habitualment com a b, de l'anglès, binary digit, "dígit binari"- és la unitat d'informació mínima utilitzada en Informàtica i en teoria de la informació.
+Un bit pot tenir només dos estats mútuament exclusius, habitualment representats amb 0 i 1, o vertader o fals, obert o tancat, blanc o negre, nord o sud, masculí o femení, vermell o blau, etc. Només cal assignar un d'aquests valors a l'estat de "apagat" (0), i l'altre a l'estat de "encès" (1).
+La paraula «bit» és la contracció de les paraules angleses binary digit, que signifiquen «xifra binària», amb un doble sentit de la paraula bit, que també significa «tros».
+No s'ha de confondre un bit amb un byte, paraula anglesa que es pronuncia .
+Se'n deu la invenció a John Tukey i la popularització a Claude Elwood Shannon.
+Es pot imaginar un bit com una bombeta que pot estar en un dels següents dos estats:
+:Apagada
+Història
+La codificació de la informació usant símbols discrets (bits) es va començar a usar en les targetes perforades inventades per Basile Bouchon i Jean-Baptiste Falcon (1732), desenvolupat per Joseph Marie Jacquard (1804), i més tard adoptada per Semen Korsakov, Charles Babbage, Herman Hollerith, i els primers fabricants d'ordinadors com IBM.
+La mateixa idea es pot aplicar a una cinta de paper perforada.
+En tots aquests sistemes, el mitjà (targeta o cinta) conté, conceptualment, una llista de posicions que poden contenir forats.
+Cada posició pot estar perforada o no, constituint així un bit d'informació.
+La codificació de text mitjançant bits també fou utilitzat en codi Morse (1844) i als inicis de les màquines amb capacitat de comunicació digital com els teletips.
+Ralph Hartley va suggerir l'ús d'una mesura logarítmica de la informació en 1928.
+Claude I. Shannon va ser el primer a utilitzar la paraula bit en el seu estudi A Mathematical Theory of Communication.
+Ell atribueix l'origen de la paraula a John W. Tukey, que havia escrit una nota dels Laboratoris Bell el 9 de gener de 1947 a la qual va contraure "dígit binari" ("binary digit") simplement "bit".
+Curiosament, Vannevar Bush havia escrit el 1936 que "bits d'informació" podrien ser emmagatzemats en les targetes perforades utilitzades en els ordinadors mecànics de l'època.
+La primera computadora programable construïda per Konrad Zuse usava notació binària per als nombres.
+Notació dels valors
+Un bit no pot tenir més que dos valors.
+Segons el context, digital, lògic (vegeu Àlgebra de Boole, electrònica digital, o magnètica, se'ls anomena «zero» i «un», que equival respectivament a «fals» i «verdader», «obert» i «tancat», o «nord» i «sud»):
+El valor 0 és associat a «obert» en electrònica, ja que quan un interruptor és obert, llavors el circuit està obert, i el corrent no passa.
+Abreviatura i símbol
+No hi ha un estàndard universalment acceptat sobre les abreviatures de bit i byte.
+Un estàndard freqüentment citat és el de la Comissió electrotècnica internacional que defineix bit com el símbol de la unitat binària (per exemple kbit per a quilobit).
+El mateix estàndard defineix o i B per al byte.
+Avui, l'estàndard harmonitzat ISO/IEC reemplaça i anul·la els articles 3.8 i 3.9 de la norma IEC 60027-2:2005 (els relatius a la teoria de la informació i als prefixos binaris).
+Un altre estàndard sovint citat és l'IEEE 1541, que dona b com a símbol d'unitat per a bit i B per a byte.
+Aquesta convenció és freqüentment utilitzada en informàtica, però no gaudeix d'un reconeixement internacional per diverses raons:
+* aquests dos símbols ja són utilitzats per a altres unitats: b per al barn i B per al bel;
+* bit és ja l'abreviatura de binary dígit, hi ha poques raons per abreviar-lo més
+* les normes del SI volen que les majúscules en els símbols d'unitats estiguin reservades a les que tenen per origen el nom d'una persona (A, símbol de l'ampere; V, símbol del volt, etc.; però tots els noms d'unitats s'escriuen en minúscules: metre, segon, ampere, volt, etc.)
+* en lloc de byte, el terme octet és utilitzat en certs àmbits (per l'UIT sobretot)
+* b és de vegades utilitzat com a símbol del byte, així com bit per al bit.
+El bel és rarament utilitzat així, s'utilitza més aviat el decibel (dB), que és poc probable confondre amb un decibyte, l'eventualitat d'una confusió és rara, tot i que les dues unitats són utilitzades en telecomunicacions.
+Paral·lelització del tren de bits
+Dels anys 1970 fins al 1986, els investigadors han intentat tractar els més grans nombres sencers possibles per cicle de rellotge pels seus processadors més poderosos.
+En efecte, és molt més eficaç en termes de rapidesa fer per una instrucció un càlcul sobre una xifra codificat en un gran nombre d'octets més aviat que de descompondre l'operació en diverses operacions que manipulen xifres més petites.
+L'Intel 4004 va ser el primer microprocessador.
+Manipulava paraules de 4 bits.
+Els processadors de 8 bits el va reemplaçar; han seguit els de 16 bits, els 16-32, els de 32 bits, els de 64 bits que equipen els ordinadors personals des de 2002, i així fins al processador Very Long Instruction Word.
+Tractament paral·lel dels bits
+Els circuits electrònics són sovint concebuts per tractar diversos bits en paral·lel.
+Això permet accelerar o augmentar les capacitats de tractament de la informació.
+Exemple d'acceleració de tractament: Cal un segon per transferir un megabyte de dades a través d'un bus informàtic de 8 bits cadenciat a 1 megahertz.
+Si l'amplada del bus és duplicada a 16 bits, llavors amb mig segon n'hi ha prou.
+Exemple d'augment de les capacitats: Un processador de 32 bits pot dirigir un màxim de 4 GiB de memòria d'ordinador i un de 64 bits pot dirigir 16 EiBs.
+El subdimensionament de les capacitats dels processadors és un problema històric per l'augment de les capacitats de memòria.
+Així, els PC Compatibles han estat de manera inicial basats en una arquitectura de 16 bits (estructura x86) que no podia adreçar més de 64 kbibytes de memòria sense passar per complicacions (segmentació, memòria estesa, memòria expandida).
+Les capacitats de tractament 32 bits foren introduïdes en la família x86 amb l'Intel 80386, però no va ser fins a un sistema operatiu concebut per treure profit de les capacitats de 32 bits (Linux, Windows NT, Windows 95) quan els 4 gibibytes d'adreçament poden plenament ser explotats.
+Les dificultats trobades per augmentar les capacitats ampliant el nombre de bits tractats de manera simultània constitueixen un desafiament tècnic que ha estat àmpliament explotat pel màrqueting.
+Així els venedors de consoles de jocs i de targetes gràfiques han presentat sovint el seu producte com de 32, 64 o 128 bits basant-se en el bus més ample que es podia trobar al producte, sense que constituís una especificació tècnica molt pertinent.

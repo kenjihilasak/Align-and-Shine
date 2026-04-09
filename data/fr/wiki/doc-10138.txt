@@ -1,0 +1,124 @@
+Algèbre linéaire|Équation|Linéaire
+Une équation à coefficients réels ou complexes est dite linéaire quand elle peut être présentée sous la forme
+: ax = b
+ou, de manière équivalente
+: ax - b = 0,
+où x est l'inconnue, a et b sont deux nombres donnés.
+Si a est différent de zéro, la seule solution est le nombre
+: x = b/a.
+Plus généralement, une équation est dite linéaire lorsqu'elle se présente sous la forme
+u (x) = b,
+où u est une application linéaire entre deux espaces vectoriels E et F, b étant un vecteur donné de F.
+On recherche l'inconnue x dans E.
+La linéarité permet d'effectuer des sommes et des combinaisons linéaires de solutions, ce qui est connu en physique sous le nom de principe de superposition.
+Les espaces ont des structures d'espaces vectoriels ou affines.
+Les méthodes de l'algèbre linéaire s'appliquent et peuvent considérablement aider à la résolution.
+Applications
+Les équations linéaires à coefficients réels sont les équations les plus simples à la fois à exprimer et à résoudre.
+Elles ont donc un intérêt en pédagogie des mathématiques, pour enseigner la mise en place de la méthode de résolution générale : mise en équation, application d'une méthode de résolution.
+D'un point de vue concret, un certain nombre de phénomènes physiques peuvent se modéliser par une loi linéaire (ou loi proportionnelle).
+Une équation linéaire est l'expression d'un problème dont le phénomène peut se modéliser par une telle loi.
+Enfin
+, des lois plus complexes peuvent prendre une forme linéaire :
+* soit en la transformant par une fonction, soit par changement de variable ;
+par exemple, une loi en puissance
+Kxn (ou K et n sont des constantes) se transforme en loi linéaire par application du logarithme, ln y
+ln K + n ln x ;
+* soit par linéarisation, par exemple par développement limité du premier ordre.
+Résolution générale
+Soient u une application linéaire de E dans F, et b un vecteur de F.
+On considère l'équation linéaire
+u (x) = b.
+L'équation
+u (x) = 0,
+dite équation homogène associée a
+pour solution le noyau de u, qui est un sous-espace vectoriel de E.
+L'équation complète u (x) = b
+* a des solutions si et seulement si b appartient à l'image de u ;
+elle est alors dite compatible (et incompatible sinon) ;
+* dans ce cas, l'espace des solutions est un espace affine, dirigé par le noyau.
+En notant une solution particulière de l'équation complète, l'espace solution est de la forme
+Ce qu'on retient souvent sous la forme «
+la solution de l'équation complète est la somme d'une solution particulière et de la solution générale de l'équation homogène associée ».
+Relations image-noyau
+La résolution de l'équation revient donc à la détermination des espaces image et noyau de u.
+Le noyau est souvent plus facile à calculer que l'image, mais celle-ci peut être connue dans de nombreux cas grâce au théorème suivant.
+Cette formule est parfois appelée formule du rang.
+Ou même, plus généralement, si le noyau est de codimension finie, cette codimension est égale à la dimension de l'image.
+Superposition de solutions
+Si l'on additionne une solution de u (x)
+et une solution de u (x)
+, on obtient une solution de l'équation u (x) = b + c. On peut plus généralement effectuer des combinaisons linéaires de solutions, ce qui porte souvent le nom de superposition en physique.
+Ainsi, si l'on doit résoudre u (x) = b pour un vecteur b général, on constate qu'il suffit d'effectuer la résolution pour les vecteurs b d'une base de F.
+On peut essayer d'étendre la méthode de superposition à des « sommes infinies », c'est-à-dire des séries.
+Mais il faut alors justifier qu'on peut effectuer un passage à la limite.
+Exemple d'application : interpolation de Lagrange
+Soient n + 1 scalaires distincts x0, …, xn et n + 1 scalaires y0, …, yn.
+La recherche des polynômes P tels que pour tout i, P (xi) = yi est appelée problème d'interpolation de Lagrange.
+Il s'agit d'un problème linéaire
+avec
+: u:\beginKX & \longrightarrow &K^ \\
+P& \longmapsto & (P (x_0), \dots,P (x_n))
+\end \qquad b
+= (y_0, \dots, y_n).
+Le noyau de u est l'ensemble des polynômes nuls en x0, …, xn :
+\ker u
+X- x_0)\dots (X- x_n)KX
+Il admet pour supplémentaire l'espace des polynômes de degré inférieur ou égal à n.
+En conséquence, l'image de u est de dimension n + 1, ce qui prouve que u est surjective et que le problème a toujours une solution.
+En outre,
+u_1:\beginK_nX& \longrightarrow &K^ \\
+P& \longmapsto & (P (x_0), \dots,P (x_n))
+\end
+est un isomorphisme d'espaces vectoriels.
+On en déduit les résultats d'existence et d'unicité suivants :
+* le problème d'interpolation de Lagrange admet toujours des polynômes solutions ;
+* un seul des polynômes solutions est de degré inférieur ou égal à n ;
+* les autres s'en déduisent par ajout d'un multiple du polynôme (X - x0)…
+- xn
+Enfin, l'isomorphisme u1 peut être utilisé pour obtenir explicitement le polynôme d'interpolation de plus bas degré.
+Cela revient à déterminer l'antécédent de b par u1.
+Par linéarité, il suffit de déterminer les antécédents des vecteurs de la base canonique de K.
+Il est donc naturel de faire intervenir le problème d'interpolation élémentaire :
+trouver
+:L_j\in K_nX\hbox\forall i,\, 0 \leq i \leq n , \,L_j (i) = \delta_.
+On aboutit alors naturellement à l'expression :
+L_j (X) := \prod_ \frac
+et enfin, pour le problème d'interpolation complet :
+P=\sum_^n b_jL_j.
+Dans les équations algébriques
+Une équation linéaire à une inconnue x est une équation de la forme ax + b = 0 où a et b sont des réels (ou des complexes).
+Les réels a et b sont appelés des coefficients, a est le coefficient devant x et b le coefficient constant.
+On appelle aussi cette équation, une équation du premier degré à une inconnue.
+Une équation linéaire à plusieurs inconnues x, y, z, … est une équation de la forme
+: ax + by + cz + dt + … = k
+où a, b, c, … , k sont des réels (ou des complexes)
+. De même ici, a est le coefficient devant x, b le coefficient devant y, … , k le coefficient constant.
+L'ensemble des solutions d'une équation linéaire à n inconnues dont au moins un coefficient autre que le coefficient constant est non nul, est un sous-espace affine de dimension n
+Cas des équations linéaires homogènes
+Les équations linéaires homogènes sont celles
+dont le coefficient constant est nul.
+Propriété :
+si (x, y, z, …) et (x, y, z, …) sont deux solutions d'une équation linéaire homogène alors il en est de même de (kx, ky, kz, …) et (x + x, y + y, z + z, …).
+L'ensemble des solutions d'une équation linéaire homogène à n inconnues dont un coefficient au moins est non nul est un sous-espace vectoriel de dimension n
+Voir aussi :
+Système d'équations linéaires
+Dans les équations différentielles
+On parlera ici de fonctions définies sur ℝ ou sur ℂ à valeurs dans ℝ ou dans ℂ.
+Une équation différentielle linéaire du premier ordre d'inconnue y est une équation de la forme
+ay + by = c
+où a, b et c sont des fonctions numériques.
+Une équation différentielle linéaire d'ordre n et d'inconnue y est une équation de la forme
+: a_0 y + a_1 y' + a_2 y + \ldots + a_n y^= a_
+où a0, a1, … , an et an + 1 sont des fonctions numériques et y (k) la dérivée d'ordre k de y.
+Si a0, a1, … , an et an + 1 sont des constantes, on parle d'équation linéaire à coefficients constants.
+Cas des équations homogènes
+Si an + 1 = 0, l'équation différentielle linéaire est dite homogène.
+Par exemple, y" + y = 0 est une équation différentielle linéaire homogène à coefficients constants.
+Si y et y sont solutions d'une équation différentielle linéaire homogène alors il en est de même de ky et de y + y ;
+Si l'on connaît une solution particulière d'une équation différentielle linéaire, la solution générale est formée de la somme de cette solution particulière avec la solution générale de l'équation linéaire homogène associée.
+Suites récurrentes linéaires
+Voir aussi
+Méthode de la fausse
+position
+6s281b9fwrukmc01f5xzbdfzteapc5v

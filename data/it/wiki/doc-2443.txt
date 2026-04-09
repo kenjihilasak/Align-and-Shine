@@ -1,0 +1,75 @@
+In matematica, e più precisamente in geometria, una riflessione è una trasformazione della retta, del piano o dello spazio che "specchia" tutti i punti rispetto a (rispettivamente) un punto, una retta, o un piano (detti rispettivamente centro, asse o piano di riflessione).
+Definizione
+Sia π un iperpiano in uno spazio euclideo di dimensione n passante per l'origine.
+In altre parole, π è un sottospazio vettoriale di dimensione n − 1.
+Una riflessione rispetto a π è la trasformazione lineare data da
+\mathrm_a (\vec) = \vec- 2\frac\vec
+dove a è un qualsiasi vettore ortogonale a π, e v·a è il prodotto scalare fra v ed a.
+Sia p un punto nello spazio euclideo.
+Una riflessione rispetto a p è la trasformazione lineare data da
+:\mathrm_p (\vec) = 2\vec - \vec
+Proprietà
+* La matrice associata ad una riflessione rispetto ad una base ortonormale i cui primi n − 1 elementi sono contenuti nell'iperpiano è molto semplice:
+è una matrice diagonale aventi tutti i valori 1 sulla diagonale tranne l'ultimo, che è -1.
+* La composizione di due riflessioni lungo lo stesso iperpiano p è la funzione identità.
+* La composizione di due riflessioni del piano lungo rette distinte può essere una rotazione o una traslazione.
+* Ogni matrice associata ad una riflessione rispetto ad una qualsiasi base è una matrice ortogonale con determinante uguale a − 1.
+* Utilizzando la definizione di matrice di Householder, si possono ricavare molto facilmente le equazioni relative a questo tipo di trasformazione.
+Geometria euclidea piana
+Nel piano euclideo, due punti A e A' si dicono simmetrici rispetto a una retta r
+quando r è l'asse del segmento AA'.
+Il punto A' è il simmetrico di A rispetto ad r e viceversa.
+La corrispondenza biunivoca che associa ad ogni punto A che non appartiene ad r il punto A' suo simmetrico, e ad ogni punto C in r associa il punto C stesso, è detta simmetria assiale di asse r nel piano considerato.
+La simmetria assiale è unisometria del piano, cioè conserva la lunghezza dei segmenti.
+Alcuni autori utilizzano la notazione \eta_r per indicare la simmetria assiale di asse r;
+il simmetrico di A si scrive quindi '=\eta_r ().
+La simmetria assiale è involutoria, cioè coincide con la propria inversa e composta con se stessa dà l'identità.
+Infine, la simmetria assiale è unisometria di tipo inverso, cioè inverte l'orientazione degli oggetti (ad esempio, una coppia di assi ortogonali, il senso di percorrenza dei lati di un triangolo, etc.)
+Definizione di simmetria assiale
+Si dice simmetria assiale di asse r la trasformazione geometrica che lascia invariata la retta r e che associa ad ogni punto P del piano non appartenente ad r il punto Q in modo tale che il segmento PQ sia perpendicolare alla retta r e abbia come punto medio H, piede della perpendicolare condotta da P a r.
+Simmetria assiale in geometria analitica
+Data l'equazione dell'asse di simmetria y
+mx+q e il segmento di estremi P (x;y) e Q (x';y'), la retta passante per P e Q è perpendicolare all'asse di simmetria (pertanto m_
+-\frac) e lo interseca nel punto medio H di coordinate
+\left (\frac;\frac\right)
+Poiché H appartiene all'asse, vale la seguente equazione:
+\frac=m\frac+q
+Il coefficiente angolare della retta passante per P e Q si può scrivere come
+m_=\frac
+Pertanto,
+\frac=-\frac
+Per determinare le coordinate del punto Q, simmetrico di P, si ricorre al sistema di equazioni
+\begin \frac
+m\frac+q \\ \frac
+-\frac \end
+Da cui si ricava
+\begin x'
+\frac \\ y'
+\frac \end
+Casi particolari
+* Simmetria assiale rispetto alla retta y=x, bisettrice del primo e del terzo quadrante
+\begin x'
+y \\
+x\end
+* Simmetria assiale rispetto alla retta y=-x, bisettrice del secondo e del quarto quadrante
+\begin x'
+-y \\ y'
+-x\end
+* Simmetria assiale rispetto alla retta x=k, parallela all'asse
+\begin x'
+2k-x \\ y'
+y\end
+* Simmetria assiale rispetto alla retta y=k, parallela all'asse x
+\begin x'
+x \\ y'
+2k-y\end
+* Simmetria assiale rispetto alla retta x=0, asse delle ordinate
+\begin x'
+-x \\ y'
+y\end
+* Simmetria assiale rispetto alla retta y=0, asse delle ascisse
+\begin x'
+x \\ y'
+-y\end
+In geometria descrittiva
+La riflessione è un tipo di corrispondenza biunivoca detta affinità che può essere ortogonale, quando il piano di riflesso (specchio) è ortogonale al piano della figura oggettiva, altrimenti obliqua.

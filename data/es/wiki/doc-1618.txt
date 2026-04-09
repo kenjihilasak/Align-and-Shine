@@ -1,0 +1,213 @@
+Un lenguaje de programación es un lenguaje formal diseñado para realizar procesos que pueden ser llevados a cabo por máquinas como las computadoras.
+Pueden usarse para crear programas que controlen el comportamiento físico y lógico de una máquina, para expresar algoritmos con precisión, o como modo de comunicación humana.
+Está formado por un conjunto de símbolos y reglas sintácticas y semánticas que definen su estructura y el significado de sus elementos y expresiones.
+Al proceso por el cual se escribe, se prueba, se depura, se compila (de ser necesario) y se mantiene el código fuente de un programa informático se le llama programación.
+También la palabra programación se define como el proceso de creación de un programa de computadora, mediante la aplicación de procedimientos lógicos, a través de los siguientes pasos:
+* El desarrollo lógico del programa para resolver un problema en particular.
+* Escritura de la lógica del programa empleando un lenguaje de programación específico (codificación del programa).
+* Ensamblaje o compilación del programa hasta convertirlo en lenguaje de máquina.
+Existe un error común que trata por sinónimos los términos 'lenguaje de programación' y 'lenguaje informático'.
+Los lenguajes informáticos engloban a los lenguajes de programación y a otros más, como por ejemplo HTML (lenguaje para el marcado de páginas web que no es propiamente un lenguaje de programación, sino un conjunto de instrucciones que permiten estructurar el contenido de los documentos).
+Permite especificar de manera precisa sobre qué datos debe operar una computadora, cómo deben ser almacenados o transmitidos y qué acciones debe tomar bajo una variada gama de circunstancias.
+Todo esto, a través de un lenguaje que intenta estar relativamente próximo al lenguaje humano o natural.
+Una característica relevante de los lenguajes de programación es precisamente que más de un programador pueda usar un conjunto común de instrucciones que sean comprendidas entre ellos para realizar la construcción de un programa de forma colaborativa.
+Historia
+Para que la computadora entienda nuestras instrucciones debe usarse un lenguaje específico conocido como código máquina, el cual la máquina comprende fácilmente, pero que lo hace excesivamente complicado para las personas.
+De hecho sólo consiste en cadenas extensas de números 0 y 1.
+Para facilitar el trabajo, los primeros operadores de computadoras decidieron hacer un traductor para reemplazar los 0 y 1 por palabras o abstracción de palabras y letras provenientes del inglés; éste se conoce como lenguaje ensamblador.
+Por ejemplo, para sumar se usa la letra A de la palabra inglesa add (sumar).
+El lenguaje ensamblador sigue la misma estructura del lenguaje máquina, pero las letras y palabras son más fáciles de recordar y entender que los números.
+La necesidad de recordar secuencias de programación para las acciones usuales llevó a denominarlas con nombres fáciles de memorizar y asociar: ADD (sumar), SUB (restar), MUL (multiplicar), CALL (ejecutar subrutina), etc.
+A esta secuencia de posiciones se le denominó "instrucciones", y a este conjunto de instrucciones se le llamó lenguaje ensamblador.
+Posteriormente aparecieron diferentes lenguajes de programación, los cuales reciben su denominación porque tienen una estructura sintáctica semejante a la de los lenguajes escritos por los humanos, denominados también lenguajes de alto nivel.
+El primer programador de computadora que se haya conocido fue una mujer: Ada Lovelace, hija de Anabella Milbanke Byron y Lord Byron.
+Anabella inició en las matemáticas a Ada quien, después de conocer a Charles Babbage, tradujo y amplió una descripción de su máquina analítica.
+Incluso aunque Babbage nunca completó la construcción de cualquiera de sus máquinas, el trabajo que Ada realizó con éstas le hizo ganarse el título de primera programadora de computadoras del mundo.
+El nombre del lenguaje de programación Ada fue escogido como homenaje a esta programadora.
+A finales de 1953, John Backus sometió una propuesta a sus superiores en IBM para desarrollar una alternativa más práctica al lenguaje ensamblador para programar la computadora central IBM 704.
+El histórico equipo Fortran de Backus consistió en los programadores Richard Goldberg, Sheldon F. Best, Harlan Herrick, Peter Sheridan, Roy Nutt, Robert Nelson, Irving Ziller, Lois Haibt y David Sayre.
+El primer manual para el lenguaje Fortran apareció en octubre de 1956, con el primer compilador Fortran entregado en abril de 1957.
+Esto era un compilador optimizado, porque los clientes eran reacios a usar un lenguaje de alto nivel a menos que su compilador pudiera generar código cuyo desempeño fuera comparable al de un código hecho a mano en lenguaje ensamblador.
+En 1960, se creó COBOL, uno de los lenguajes usados aún en la actualidad, en informática de gestión.
+A medida que la complejidad de las tareas que realizaban las computadoras aumentaba, se hizo necesario disponer de un método más eficiente para programarlas.
+Entonces, se crearon los lenguajes de alto nivel, como lo fue BASIC en las versiones introducidas en los microordenadores de la década de 1980.
+Mientras que una tarea tan sencilla como sumar dos números puede necesitar varias instrucciones en lenguaje ensamblador, en un lenguaje de alto nivel bastará una sola sentencia.
+Elementos
+Variables y vectores
+Las variables son títulos asignados a espacios en memoria para almacenar datos específicos.
+Son contenedores de datos y por ello se diferencian según el tipo de dato que son capaces de almacenar.
+En la mayoría de lenguajes de programación se requiere especificar un tipo de variable concreto para guardar un dato específico.
+Por ejemplo, en Java, si deseamos guardar una cadena de texto debemos especificar que la variable es del tipo String.
+Por otra parte, en lenguajes como PHP este tipo de especificación de variables no es necesario.
+Además, existen variables compuestas llamadas vectores.
+Un vector no es más que un conjunto de bytes consecutivas en memoria y del mismo tipo guardadas dentro de una variable contenedor.
+A continuación, un listado con los tipos de variables y vectores más comunes:
+En el caso de variables booleanas, el cero es considerado para muchos lenguajes como el literal falso ("False"), mientras que el uno se considera verdadero ("True").
+Condicionales
+Las sentencias condicionales son estructuras de código que indican que, para que cierta parte del programa se ejecute, deben cumplirse ciertas premisas; por ejemplo: que dos valores sean iguales, que un valor exista, que un valor sea mayor que otro...
+Estos condicionantes por lo general solo se ejecutan una vez a lo largo del programa.
+Los condicionantes más conocidos y empleados en programación son:
+* If: Indica una condición para que se ejecute una parte del programa.
+Else if: Siempre va precedido de un "If" e indica una condición para que se ejecute una parte del programa siempre que no cumpla la condición del if previo y si se cumpla con la que el "else if" especifique.
+* Else: Siempre precedido de "If" y en ocasiones de "Else If".
+Indica que debe ejecutarse cuando no se cumplan las condiciones previas.
+Bucles
+Los bucles son parientes cercanos de los condicionantes, pero ejecutan constantemente un código mientras se cumpla una determinada condición.
+Los más frecuentes son:
+* For: Ejecuta un código mientras una variable se encuentre entre 2 determinados parámetros.
+* While: Ejecuta un código mientras que se cumpla la condición que solicita.
+Hay que decir que a pesar de que existan distintos tipos de bucles, todos son capaces de realizar exactamente las mismas funciones.
+El empleo de uno u otro depende, por lo general, del gusto del programador.
+Funciones
+Las funciones se crearon para evitar tener que repetir constantemente fragmentos de código.
+Una función podría considerarse como una variable que encierra código dentro de si.
+Por lo tanto cuando accedemos a dicha variable (la función) en realidad lo que estamos haciendo es ordenar al programa que ejecute un determinado código predefinido anteriormente.
+Todos los lenguajes de programación tienen algunos elementos de formación primitivos para la descripción de los datos y de los procesos o transformaciones aplicadas a estos datos .
+Estos elementos primitivos son definidos por reglas sintácticas y semánticas que describen su estructura y significado respectivamente.
+Sintaxis
+A la forma visible de un lenguaje de programación se le conoce como sintaxis.
+La mayoría de los lenguajes de programación son puramente textuales, es decir, utilizan secuencias de texto que incluyen palabras, números y puntuación, de manera similar a los lenguajes naturales escritos.
+Por otra parte, hay algunos lenguajes de programación que son más gráficos en su naturaleza, utilizando relaciones visuales entre símbolos para especificar un programa.
+La sintaxis de un lenguaje de programación describe las combinaciones posibles de los símbolos que forman un programa sintácticamente correcto.
+El significado que se le da a una combinación de símbolos es manejado por su semántica .
+Dado que la mayoría de los lenguajes son textuales, este artículo trata de la sintaxis textual.
+La sintaxis de los lenguajes de programación es definida generalmente utilizando una combinación de expresiones regulares (para la estructura léxica) y la Notación de Backus-Naur (para la estructura gramática).
+Este es un ejemplo de una gramática simple, tomada de Lisp:
+expresión ::= átomo | lista
+átomo ::= número |
+símbolo
+número ::= +-?
+'0'-'9'+
+símbolo ::= 'A'-'Z' 'a'-'z'.
+lista ::= '
+(' expresión
+Con esta gramática se especifica lo siguiente:
+* un número es una secuencia continua de uno o más dígitos decimales, precedido opcionalmente por un signo más o un signo menos;
+* un símbolo es una letra seguida de cero o más caracteres (excluyendo espacios);
+una lista es un par de paréntesis que abren y cierran, con cero o más expresiones en medio.
+Algunos ejemplos de secuencias bien formadas de acuerdo a esta gramática:
+'12345', ' ()', ' (a b c232 (1))'
+No todos los programas sintácticamente correctos son semánticamente correctos.
+Muchos programas sintácticamente correctos tienen inconsistencias con las reglas del lenguaje; y pueden (dependiendo de la especificación del lenguaje y la solidez de la implementación) resultar en un error de traducción o ejecución.
+En algunos casos, tales programas pueden exhibir un comportamiento indefinido.
+Además, incluso cuando un programa está bien definido dentro de un lenguaje, todavía puede tener un significado que no es el que la persona que lo escribió estaba tratando de construir.
+Usando el lenguaje natural, por ejemplo, puede no ser posible asignarle significado a una oración gramaticalmente válida o la oración puede ser falsa:
+* "Las ideas verdes y descoloridas duermen furiosamente" es una oración bien formada gramaticalmente pero no tiene significado comúnmente aceptado.
+* "Juan es un soltero casado" también está bien formada gramaticalmente pero expresa un significado que no puede ser verdadero.
+El siguiente fragmento en el lenguaje C es sintácticamente correcto, pero ejecuta una operación que no está definida semánticamente (dado que p es un apuntador nulo, las operaciones p->real y p->im no tienen ningún significado):
+complex complex abs_p = sqrt (p->real
+Si la declaración de tipo de la primera línea fuera omitida, el programa dispararía un error de compilación, pues la variable "p" no estaría definida.
+Pero el programa sería sintácticamente correcto todavía, dado que las declaraciones de tipo proveen información semántica solamente.
+La gramática necesaria para especificar un lenguaje de programación puede ser clasificada por su posición en la Jerarquía de Chomsky.
+La sintaxis de la mayoría de los lenguajes de programación puede ser especificada utilizando una gramática Tipo-2, es decir, son gramáticas libres de contexto.
+Algunos lenguajes, incluyendo a Perl y a Lisp, contienen construcciones que permiten la ejecución durante la fase de análisis.
+Los lenguajes que permiten construcciones que permiten al programador alterar el comportamiento de un analizador hacen del análisis de la sintaxis un problema sin decisión única, y generalmente oscurecen la separación entre análisis y ejecución.
+En contraste con el sistema de macros de Lisp y los bloques BEGIN de Perl, que pueden tener cálculos generales, las macros de C son meros reemplazos de cadenas, y no requieren ejecución de código.
+Semántica estática
+La semántica estática define las restricciones sobre la estructura de los textos válidos que resulta imposible o muy difícil expresar mediante formalismos sintácticos estándar.
+Para los lenguajes compilados, la semántica estática básicamente incluye las reglas semánticas que se pueden verificar en el momento de compilar.
+Por ejemplo el chequeo de que cada identificador sea declarado antes de ser usado (en lenguajes que requieren tales declaraciones) o que las etiquetas en cada brazo de una estructura case sean distintas.
+Muchas restricciones importantes de este tipo, como la validación de que los identificadores sean usados en los contextos apropiados (por ejemplo no sumar un entero al nombre de una función), o que las llamadas a subrutinas tengan el número y tipo de parámetros adecuado, puede ser implementadas definiéndolas como reglas en una lógica conocida como sistema de tipos.
+Otras formas de análisis estáticos, como los análisis de flujo de datos, también pueden ser parte de la semántica estática.
+Otros lenguajes de programación como Java y C# tienen un análisis definido de asignaciones, una forma de análisis de flujo de datos, como parte de su semántica estática.
+Sistema de tipos
+Un sistema de tipos define la manera en la cual un lenguaje de programación clasifica los valores y expresiones en tipos, cómo pueden ser manipulados dichos tipos y cómo interactúan.
+El objetivo de un sistema de tipos es verificar y normalmente poner en vigor un cierto nivel de exactitud en programas escritos en el lenguaje en cuestión, detectando ciertas operaciones inválidas.
+Cualquier sistema de tipos decidible tiene sus ventajas y desventajas: mientras por un lado rechaza muchos programas incorrectos, también prohíbe algunos programas correctos aunque poco comunes.
+Para poder minimizar esta desventaja, algunos lenguajes incluyen lagunas de tipos, conversiones explícitas no verificadas que pueden ser usadas por el programador para permitir explícitamente una operación normalmente no permitida entre diferentes tipos.
+En la mayoría de los lenguajes con tipos, el sistema de tipos es usado solamente para verificar los tipos de los programas, pero varios lenguajes, generalmente funcionales, llevan a cabo lo que se conoce como inferencia de tipos, que le quita al programador la tarea de especificar los tipos.
+Al diseño y estudio formal de los sistemas de tipos se le conoce como teoría de tipos.
+Lenguajes tipados versus lenguajes no tipados
+Se dice que un lenguaje es tipado si la especificación de cada operación debe definir los tipos de datos para los cuales es aplicable, con la implicación de que no es aplicable a otros tipos.
+Por ejemplo, "este texto entre comillas" es una cadena de caracteres.
+En la mayoría de los lenguajes de programación, dividir un número por una cadena de caracteres no tiene ningún significado.
+Por tanto, la mayoría de los lenguajes de programación modernos rechazarían cualquier intento de ejecutar dicha operación por parte de algún programa.
+En algunos lenguajes, estas operaciones sin significado son detectadas cuando el programa es compilado (validación de tipos "estática") y son rechazadas por el compilador, mientras en otros son detectadas cuando el programa es ejecutado (validación de tipos "dinámica") y se genera una excepción en tiempo de ejecución.
+Un caso especial de lenguajes de tipo son los lenguajes de tipo sencillo.
+Estos son con frecuencia lenguajes de marcado o de scripts, como REXX o SGML, y solamente cuentan con un tipo de datos; comúnmente cadenas de caracteres que luego son usadas tanto para datos numéricos como simbólicos.
+En contraste, un lenguaje sin tipos, como la mayoría de los lenguajes ensambladores, permiten que cualquier operación se aplique a cualquier dato, que por lo general se consideran secuencias de bits de varias longitudes.
+Lenguajes de alto nivel sin datos incluyen BCPL y algunas variedades de Forth.
+En la práctica, aunque pocos lenguajes son considerados con tipo desde el punto de vista de la teoría de tipos (es decir, que verifican o rechazan todas las operaciones), la mayoría de los lenguajes modernos ofrecen algún grado de manejo de tipos.
+Si bien muchos lenguajes de producción proveen medios para evitar o rodear el sistema de tipado.
+Tipos estáticos versus tipos dinámicos
+En lenguajes con tipos estáticos se determina el tipo de todas las expresiones antes de la ejecución del programa (típicamente al compilar).
+Por ejemplo, 1 y (2+2) son expresiones enteras; no pueden ser pasadas a una función que espera una cadena, ni pueden guardarse en una variable que está definida como fecha.
+Los lenguajes con tipos estáticos pueden manejar tipos explícitos o tipos inferidos.
+En el primer caso, el programador debe escribir los tipos en determinadas posiciones textuales.
+En el segundo caso, el compilador infiere los tipos de las expresiones y las declaraciones de acuerdo al contexto.
+La mayoría de los lenguajes populares con tipos estáticos, tales como C++, C# y Java, manejan tipos explícitos.
+Inferencia total de los tipos suele asociarse con lenguajes menos populares, tales como Haskell y ML.
+Sin embargo, muchos lenguajes de tipos explícitos permiten inferencias parciales de tipo; tanto Java y C#, por ejemplo, infieren tipos en un número limitado de casos.
+Los lenguajes con tipos dinámicos determinan la validez de los tipos involucrados en las operaciones durante la ejecución del programa.
+En otras palabras, los tipos están asociados con valores en ejecución en lugar de expresiones textuales.
+Como en el caso de lenguajes con tipos inferidos, los lenguajes con tipos dinámicos no requieren que el programador escriba los tipos de las expresiones.
+Entre otras cosas, esto permite que una misma variable se pueda asociar con valores de tipos distintos en diferentes momentos de la ejecución de un programa.
+Sin embargo, los errores de tipo no pueden ser detectados automáticamente hasta que se ejecuta el código, dificultando la depuración de los programas, no obstante, en lenguajes con tipos dinámicos se suele dejar de lado la depuración en favor de técnicas de desarrollo como por ejemplo BDD y TDD.
+Ruby, Lisp, JavaScript y Python son lenguajes con tipos dinámicos.
+Tipos débiles y tipos fuertes
+Los lenguajes débilmente tipados permiten que un valor de un tipo pueda ser tratado como de otro tipo, por ejemplo una cadena puede ser operada como un número.
+Esto puede ser útil a veces, pero también puede permitir ciertos tipos de fallas que no pueden ser detectadas durante la compilación o a veces ni siquiera durante la ejecución.
+Los lenguajes fuertemente tipados evitan que pase lo anterior.
+Cualquier intento de llevar a cabo una operación sobre el tipo equivocado dispara un error.
+A los lenguajes con tipos fuertes se les suele llamar de tipos seguros.
+Lenguajes con tipos débiles como Perl y JavaScript permiten un gran número de conversiones de tipo implícitas.
+Por ejemplo en JavaScript la expresión 2 * x convierte implícitamente x a un número, y esta conversión es exitosa inclusive cuando x es null, undefined, un Array o una cadena de letras.
+Estas conversiones implícitas son útiles con frecuencia, pero también pueden ocultar errores de programación.
+Las características de estáticos y fuertes son ahora generalmente consideradas conceptos ortogonales, pero su trato en diferentes textos varia.
+Algunos utilizan el término de tipos fuertes para referirse a tipos fuertemente estáticos o, para aumentar la confusión, simplemente como equivalencia de tipos estáticos.
+De tal manera que C ha sido llamado tanto lenguaje de tipos fuertes como lenguaje de tipos estáticos débiles.
+Implementación
+La implementación de un lenguaje es la que provee una manera de que se ejecute un programa para una determinada combinación de software y hardware.
+Existen básicamente dos maneras de implementar un lenguaje: compilación e interpretación.
+* es.
+Éstos, como los programas ensambladores avanzados, pueden generar muchas líneas de código de máquina por cada proposición del programa fuente.
+* sin ningún significado.
+Una interpretación otorga significado a esas fórmulas.
+Se puede también utilizar una alternativa para traducir lenguajes de alto nivel.
+En lugar de traducir el programa fuente y grabar en forma permanente el código objeto que se produce durante la compilación para utilizarlo en una ejecución futura, el programador sólo carga el programa fuente en la computadora junto con los datos que se van a procesar.
+A continuación, un programa intérprete, almacenado en el sistema operativo del disco, o incluido de manera permanente dentro de la máquina, convierte cada proposición del programa fuente en lenguaje de máquina conforme vaya siendo necesario durante el procesamiento de los datos.
+El código objeto no se graba para utilizarlo posteriormente.
+La siguiente vez que se utilice una instrucción, se la deberá interpretar otra vez y traducir a lenguaje máquina.
+Por ejemplo, durante el procesamiento repetitivo de los pasos de un ciclo o bucle, cada instrucción del bucle tendrá que volver a ser interpretada en cada ejecución repetida del ciclo, lo cual hace que el programa sea más lento en tiempo de ejecución (porque se va revisando el código en tiempo de ejecución) pero más rápido en tiempo de diseño (porque no se tiene que estar compilando a cada momento el código completo).
+El intérprete elimina la necesidad de realizar una compilación después de cada modificación del programa cuando se quiere agregar funciones o corregir errores; pero es obvio que un programa objeto compilado con antelación deberá ejecutarse con mucha mayor rapidez que uno que se debe interpretar a cada paso durante una ejecución del código.
+La mayoría de lenguajes de alto nivel permiten la programación multipropósito, aunque muchos de ellos fueron diseñados para permitir programación dedicada, como lo fue el Pascal con las matemáticas en su comienzo.
+También se han implementado lenguajes educativos infantiles como Logo mediante una serie de simples instrucciones.
+En la actualidad son muy populares algunos lenguajes especialmente indicados para aplicaciones web, como Perl, PHP, Ruby, Python o JavaScript.
+Técnica
+Para escribir programas que proporcionen los mejores resultados, cabe tener en cuenta una serie de detalles.
+* Corrección.
+Un programa es correcto si hace lo que debe hacer tal y como se estableció en las fases previas a su desarrollo.
+Para determinar si un programa hace lo que debe, es muy importante especificar claramente qué debe hacer el programa antes de desarrollarlo y, una vez acabado, compararlo con lo que realmente hace.
+* Claridad.
+Es muy importante que el programa sea lo más claro y legible posible, para facilitar así su desarrollo y posterior mantenimiento.
+Al elaborar un programa se debe intentar que su estructura sea sencilla y coherente, así como cuidar el estilo en la edición; de esta forma se ve facilitado el trabajo del programador, tanto en la fase de creación como en las fases posteriores de corrección de errores, ampliaciones, modificaciones, etc.
+Fases que pueden ser realizadas incluso por otro programador, con lo cual la claridad es aún más necesaria para que otros programadores puedan continuar el trabajo fácilmente.
+Algunos programadores llegan incluso a utilizar Arte ASCII para delimitar secciones de código.
+Otros, por diversión o para impedir un análisis cómodo a otros programadores, recurren al uso de código ofuscado.
+* Eficiencia.
+Se trata de que el programa, además de realizar aquello para lo que fue creado (es decir, que sea correcto), lo haga gestionando de la mejor forma posible los recursos que utiliza.
+Normalmente, al hablar de eficiencia de un programa, se suele hacer referencia al tiempo que tarda en realizar la tarea para la que ha sido creado y a la cantidad de memoria que necesita, pero hay otros recursos que también pueden ser de consideración al obtener la eficiencia de un programa, dependiendo de su naturaleza (espacio en disco que utiliza, tráfico de red que genera, etc.).
+* Portabilidad.
+Un programa es portable cuando tiene la capacidad de poder ejecutarse en una plataforma, ya sea hardware o software, diferente a aquella en la que se elaboró.
+La portabilidad es una característica muy deseable para un programa, ya que permite, por ejemplo, a un programa que se ha desarrollado para sistemas GNU/Linux ejecutarse también en la familia de sistemas operativos Windows.
+Esto permite que el programa pueda llegar a más usuarios más fácilmente.
+Paradigmas
+Los programas se pueden clasificar por el paradigma del lenguaje que se use para producirlos.
+Los principales paradigmas son: imperativos, declarativos y orientación a objetos.
+Los programas que usan un lenguaje imperativo especifican un algoritmo, usan declaraciones, expresiones y sentencias.
+Una declaración asocia un nombre de variable con un tipo de dato, por ejemplo: var x: integer;.
+Una expresión contiene un valor, por ejemplo: 2 + 2 contiene el valor 4.
+Finalmente, una sentencia debe asignar una expresión a una variable o usar el valor de una variable para alterar el flujo de un programa, por ejemplo: x :
+2 + 2; if x
+4 then haz_algo ();.
+Una crítica común en los lenguajes imperativos es el efecto de las sentencias de asignación sobre una clase de variables llamadas "no locales".
+Los programas que usan un lenguaje declarativo especifican las propiedades que la salida debe conocer y no especifican cualquier detalle de implementación.
+Dos amplias categorías de lenguajes declarativos son los lenguajes funcionales y los lenguajes lógicos.
+Los lenguajes funcionales no permiten asignaciones de variables no locales, así, se hacen más fácil, por ejemplo, programas como funciones matemáticas.
+El principio detrás de los lenguajes lógicos es definir el problema que se quiere resolver (el objetivo) y dejar los detalles de la solución al sistema.
+El objetivo es definido dando una lista de sub-objetivos.
+Cada sub-objetivo también se define dando una lista de sus sub-objetivos, etc.
+Si al tratar de buscar una solución, una ruta de sub-objetivos falla, entonces tal sub-objetivo se descarta y sistemáticamente se prueba otra ruta.
+La forma en la cual se programa puede ser por medio de texto o de forma visual.
+En la programación visual los elementos son manipulados gráficamente en vez de especificarse por medio de texto.
+Véase también

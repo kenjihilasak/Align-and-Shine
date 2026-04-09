@@ -1,0 +1,22 @@
+Critère de divisibilité
+Les critères de divisibilité sont les règles qui permettent de savoir si un nombre est divisible par un autre.
+2 s'il se termine par 0, 2, 4, 6 ou 8 ;
+on dit alors qu'il est pair.
+3 si la somme de ses chiffres se divise aussi par 3 (quand cette somme est trop grande, on peut recommencer à additionner ses chiffres).
+4 si le nombre formé par ses deux derniers chiffres se divise par 4, notamment s'il se termine par 00, 04, 08, etc., 88, 92 ou 96.
+5 s'il se termine par 0 ou par 5.
+6 s'il se divise par 2 et par 3, c'est-à-dire s'il est pair et la somme de ses chiffres se divise par 3 (voir ci-dessus).
+si le produit de son chiffre des unités avec 5, ajouté à son nombre de dizaines est divisible par 7.
+9 si la somme de ses chiffres se divise aussi par 9 (quand cette somme est trop grande, on peut recommencer à additionner ses chiffres).
+10 s'il se termine par 0.
+25 s'il se termine par 00, 25, 50 ou 75.
+50 s'il se termine par 00 ou 50.
+75 s'il se divise par 3 et par 25 ;
+c'est-à-dire s'il se termine par 00, 25, 50 ou 75; et si la somme de ses chiffres se divise par 3 (voir ci-dessus).
+100 s'il se termine par 00.
+1 000 s'il se termine par 000.
+Pour savoir si un nombre naturel se divise par 7, il faut découper le nombre au dernier chiffre puis multiplier par 2 le nombre tout seul et le soustraire à l'autre nombre( si le nombre a soustraire est plus grand que le nombre qui soustrait, on inverse les deux nombre), puis recommencer jusqu’à 7.
+-4 = 28 =>
+16 => 16-2 = 14 =>
+1 et 4 => 1-4x2 = 1-8 => 8-1 = 7.
+322 est divisible par 7.

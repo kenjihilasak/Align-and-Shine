@@ -1,0 +1,47 @@
+Vocabulaire de l'algèbre
+En mathématiques, la factorisation consiste à écrire une expression algébrique (notamment une somme), un nombre, une matrice sous la forme d'un produit.
+Cette transformation peut se faire suivant différentes techniques détaillées ci-dessous.
+Les enjeux de la factorisation sont très divers : à un niveau élémentaire, le but peut être de ramener la résolution d'une équation à celle d'une équation produit-nul, ou la simplification d'une écriture fractionnaire ;
+à un niveau intermédiaire, la difficulté algorithmique présumée de la factorisation des nombres entiers en produit de facteurs premiers est à la base de la fiabilité du cryptosystème RSA.
+Définition et techniques de base
+La factorisation d'une expression s'entend dans un domaine muni de deux lois opératoires ;
+typiquement, les nombres réels munis de l'addition et de la multiplication ;
+plus généralement, l'article se place dans le cadre d'un anneau commutatif.
+Une forme factorisée d'une expression est une forme où les dernières opérations (correspondant à la racine dans une écriture sous forme d'arbre) en jeu sont toutes des multiplications.
+Reconnaissance d'un facteur commun
+Lorsqu'un élément apparaît en facteur dans au moins deux termes d'une somme, tous ces termes peuvent être remplacés globalement par un seul produit de l'élément commun avec la somme de ses différents facteurs.
+Ce procédé s'appuie sur la distributivité de la multiplication par rapport à l'addition.
+Par définition même d'un anneau,
+si a, b et c sont trois éléments d'un anneau, alors
+ab + ac = a (b + c)
+Par exemple, avec des nombres entiers :
+:4 \times 7 + 4 \times 12 = 4 \times (7+ 12)
+:5 \times 11 + 3 \times 11 = (5 + 3)
+:3a + 21 = 3 \times (a + 7)
+Identités remarquables
+Diverses identités remarquables permettent de factoriser des expressions algébriques :
+a^2
+- b^2 = (a+b) (a-b)
+a^2 +2ab + b^2 = (a+b)^2
+a^2
+-2ab + b^2
+a-b)^2
+b-a)^2
+1 - x^n = (1-x) (1+x+x^2+...+x^)
+En arithmétique
+Des entiers
+Le théorème fondamental de l'arithmétique indique que tout entier naturel supérieur ou égal à deux peut être factorisé en produit de nombres premiers.
+Cette décomposition en produit de facteurs premiers pour les entiers est la « meilleure » factorisation possible, qui permet d'effectuer de nombreux calculs : simplifications de fractions, détermination de PGCD, PPCM, racines, etc.
+Des polynômes
+La connaissance des racines d'un polynôme permet la factorisation de ce polynôme :
+Pour déterminer la limite à l'infini d'une fonction polynomiale réelle de la variable réelle, on peut factoriser par le monôme de plus haut degré.
+Cela démontre que la limite de la fonction polynomiale en plus l'infini (ou moins l'infini) est celle de son monôme de plus haut degré.
+En théorie des ensembles
+Il est possible d'effectuer une opération analogue à la factorisation pour d'autres opérations que la multiplication, telles les opérations ensemblistes d'intersection et d'union qui sont distributives l'une par rapport à l'autre, ou encore l'addition par rapport au maximum dans le semi-anneau (R, max, +).
+Voir aussi
+Articles connexes
+*Développement (
+Dans une certaine mesure, il s'agit de l'opération inverse de la factorisation.
+Liens externes
+* Wims http:/ wims algebra input/?i=Factor%20-2006+%2B+1155+x+-+78+x^2+%2B+x^3 exemple.
+j7xnuuffoejfl15gqi9r3sf558gd8m3

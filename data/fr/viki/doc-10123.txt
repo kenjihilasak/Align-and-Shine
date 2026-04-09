@@ -1,0 +1,33 @@
+Conjecture de Goldbach
+La conjecture de Goldbach est l'un des plus vieux problèmes non résolus en mathématiques.
+La conjecture s'énonce ainsi :
+Voici comment s'écrivent les premiers entiers naturels pairs :
+Dans une lettre envoyée à Leonhard Euler, le mathématicienprussienChristian Goldbach annonça en 1742 que tout nombre supérieur à 5 peut être écrit comme une somme de trois nombres premiers.
+Dans sa réponse, Euler demanda si tout nombre pair plus grand que deux peut, être, écrit comme une somme de deux nombres premiers.
+Vérification informatique :
+Cette conjecture a fait l'objet de recherches par plusieurs théoriciens des nombres et a été vérifiée par ordinateur pour tous les nombres pairs jusqu'à 3 * 1017 à la date du 26 décembre 2005.
+Preuves partielles :
+Nous savons que tout nombre pair peut être écrit comme une somme d'au plus six nombres premiers.
+Comme conséquence du travail de Vinogradov, nous pouvons affirmer que tout nombre pair suffisamment grand peut être écrit comme la somme d'au plus quatre entiers premiers.
+Vinogradov a montré de plus que presque tout nombre pair peut être écrit comme la somme de deux nombres premiers (dans le sens que la proportion des nombres pairs qui peuvent s'écrire sous cette forme tend vers 1).
+En 1966, Chen Jing-run a montré que tout nombre pair suffisamment grand peut être écrit comme somme d'un nombre premier et d'un nombre avec au plus deux facteurs premiers.
+Ces résultats sont proches de l'affirmation selon laquelle tout entier pair s'écrit comme somme de deux nombres premiers.
+Mais aujourd'hui, il n'existe aucune preuve de ce résultat.
+La majorité des mathématiciens pensent que la conjecture est vraie...
+L'énoncé de la conjecture de Goldbach est facile à comprendre.
+Il se peut que sa preuve ne paraitra pas si difficile.
+Mais étant donné la quantité de professionnels qui se sont attaqué à ce problème et ont échoué, le problème n'est pas simple !
+Attention, beaucoup de gens ont proposé de fausses démonstrations...
+Si tout entier naturel pair strictement supérieur à 2 s'écrit comme somme de deux nombres premiers, de combien de manières cet entier peut-il ainsi s'écrire ?
+Par exemple, 22 s'écrit de trois manières différentes comme somme de deux nombres premiers.
+Question :
+Quel est le plus petit entier naturel qui s'écrit de cinq manières différentes comme somme de deux nombres premiers ?
+Plusieurs problèmes se posent :
+Existe-t-il une borne supérieure du nombre de manières dont un entier naturel
+peut s'écrire comme somme de deux nombres premiers distincts ?
+Si non, pour un entier n, peut-on trouver efficacement le plus petit entier naturel u(n) qui s'écrit de n manières différentes comme une somme de deux nombres premiers ?
+Comment évolue u(n) en fonction de n ?
+Existe-t-il de très grands entiers pairs qui ne peuvent s'écrire
+que d'une seule manière comme somme de deux nombres premiers ?
+Au contraire, le nombre de façons dont on peut écrire un entier naturel comme somme de deux nombres premiers augmente-t-il en fonction de n ?
+Si oui, peut-on estimer la « vitesse » à laquelle il augmente ?

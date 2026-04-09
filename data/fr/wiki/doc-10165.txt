@@ -1,0 +1,56 @@
+Géométrie du triangle|Ligne droite
+Dans son sens le plus courant, une médiane désigne, dans un triangle, une droite joignant un des trois sommets du triangle au milieu du côté opposé.
+Par extension, en géométrie plane, les médianes d'un quadrilatère sont les segments reliant les milieux de deux côtés opposés.
+Enfin, en géométrie dans l'espace, les médianes d'un tétraèdre sont les droites passant par un sommet du tétraèdre et par l'isobarycentre des trois autres.
+Géométrie du triangle
+Dans un triangle ABC, la médiane issue du sommet A est la droite (A I) où I désigne le milieu du segment B
+, C. Le terme médiane désigne parfois le segment A, I plutôt que la droite (A I).
+Chaque médiane sépare le triangle ABC en deux triangles d'aires égales : l'aire du triangle ABI est égale à l'aire du triangle ACI.
+Théorème de la médiane
+Dans le triangle ABC, si I est le milieu de BC alors \overrightarrow + \overrightarrow=2\overrightarrow.
+Cette égalité est une conséquence immédiate de la définition de I comme isobarycentre de B et C .
+Le « premier théorème de la médiane » affirme
+que
+:AB^2 + AC^2 = BC^2 + 2AI^2.
+Il fut énoncé par Apollonius de Perga et par Thalès.
+Isobarycentre
+Les trois médianes d'un triangle sont concourantes.
+Leur point d'intersection est l'isobarycentre des trois sommets, souvent appelé « centre de gravité du triangle ».
+Il est situé aux deux tiers de chaque médiane à partir du sommet correspondant.
+Cet isobarycentre G vérifie la relation vectorielle :
+\overrightarrow + \overrightarrow + \overrightarrow =\overrightarrow0.
+Il existe une autre démonstration, n'utilisant aucune connaissance vectorielle.
+Particularités
+Chaque médiane d'un triangle, issue d'un sommet (A par exemple) forme avec les deux côtés adjacents du triangle et la parallèle passant par A au côté opposé un faisceau harmonique
+Les deux droites reliant un sommet au milieu de chaque médiane issue des deux autres sommets, coupent le côté opposé en trois parts égales.
+La plus grande ellipse inscrite dans un triangle (ellipse de Steiner) est tangente aux côtés du triangle aux pieds des médianes.
+Dans tout triangle, la somme des carrés des longueurs des trois médianes m_A, m_B et m_C est égale aux trois quarts de la somme des carrés des côtés :
+m_A^2 + m_B^2 + m_C^2 = \frac 3 4 (a^2 + b^2 + c^2).
+Médiane dans des triangles particuliers
+Dans un triangle isocèle, la médiane relative à la base du triangle est un axe de symétrie du triangle.
+Considérées comme des segments, les deux autres médianes sont de longueur égale.
+Réciproquement si dans un triangle deux médianes sont de même longueur, le triangle est isocèle.
+Dans un triangle rectangle, la médiane issue du sommet de l'angle droit mesure la moitié de l'hypoténuse.
+Réciproquement si dans un triangle la longueur d'une médiane est égale à la moitié de la longueur du côté correspondant, le triangle est rectangle.
+Dans un triangle, les médianes issues de B et C sont orthogonales si et seulement si on a la relation suivante entre les côtés du triangle : .
+Si la médiane AM = \frac 3 2 a, alors les deux autres médianes sont orthogonales.
+Médianes
+dans un quadrilatère
+Les médianes du quadrilatère sont les segments reliant les milieux des côtés opposés.
+* Les médianes sont les diagonales du parallélogramme de Varignon, elles se coupent en leurs milieux.
+L'associativité des barycentres permet aussi de justifier que le milieu des médianes est l'isobarycentre des sommets du quadrilatère.
+Contrairement au cas du triangle, cet isobarycentre des sommets ne coïncide pas avec le centre de masse.
+Géométrie
+dans l'espace
+En géométrie dans l'espace, on appelle médianes d'un tétraèdre les droites joignant un des sommets du tétraèdre et l'isobarycentre des trois autres.
+Il y a donc quatre médianes dans un tétraèdre.
+Elles se coupent en un point qui est l'isobarycentre des quatre sommets (voir ).
+Il en va de même pour les trois bimédianes (joignant les milieux de deux arêtes opposées).
+Toutes ces propriétés (du triangle, du quadrilatère et du tétraèdre) sont des cas particuliers du théorème suivant, conséquence de l'associativité du barycentre :
+Dans un tétraèdre régulier (dont toutes les faces sont des triangles équilatéraux), les médianes sont aussi les hauteurs.
+On dit que ce tétraèdre est , car ses hauteurs sont concourantes (ce n'est pas le cas, en général, dans un tétraèdre, contrairement à un triangle).
+La molécule de méthane CH4 illustre
+ce cas : les sommets sont occupés par des atomes d'hydrogène ;
+l'atome de carbone se situe au point de rencontre des médianes.
+Références
+nvadyockvyh15qc0uc24pre3l0agshx

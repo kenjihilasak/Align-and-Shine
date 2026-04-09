@@ -1,0 +1,16 @@
+Glossaire de la cryptologie|Gestion de clé
+Une clé est un paramètre utilisé en entrée d'une opération cryptographique (chiffrement, déchiffrement, scellement, signature numérique, vérification de signature).
+Une clé de chiffrement peut être symétrique (cryptographie symétrique) ou asymétrique (cryptographie asymétrique) : dans le premier cas, la même clé sert à chiffrer et à déchiffrer ;
+dans le second cas on utilise deux clés différentes, la clé de chiffrement est publique alors que celle servant au déchiffrement est gardée secrète (la clé secrète, ou clé privée, ne peut pas se déduire de la clé publique).
+Une clé peut se présenter sous plusieurs formes : mots ou phrases, procédure pour préparer une machine de chiffrement (connexions, câblage, etc.
+Voir machine Enigma),
+données codées sous une forme binaire (cryptologie moderne)
+La protection apportée par un algorithme de chiffrement est liée à la longueur de la clé, qui peut s'exprimer en bits.
+En fait, la longueur de la clé quantifie le nombre maximal d'opérations nécessaires au décryptage.
+C'est donc une borne supérieure sur la sécurité du système.
+En l'état actuel, il est recommandé d'utiliser des clés d'au moins 128 bits pour les systèmes symétriques, ce qui signifie que la clé est une suite aléatoire de 128 zéros ou uns (il y a donc 2128 valeurs possibles pour une clé de 128 bits).
+Pour les clés symétriques, le problème est moins simple : le nombre maximal d'opérations est obtenu pour l'essai systématique de toutes les clés possibles.
+Or, pour les systèmes asymétriques, qui sont le plus souvent construits sur des problèmes relevant de l'arithmétique, il existe toujours des moyens largement moins coûteux en temps, à savoir la résolution du problème arithmétique sous-jacent.
+Concrètement, si on considère le système RSA, basé sur le problème de la factorisation, pour une clé de 2048 bits (quasiment le strict minimum actuellement) il n'est pas nécessaire de tester les 22048 clés, il « suffit » de factoriser un nombre dont l'écriture binaire comporte 2048 bits, ce qui est largement plus simple, bien que toujours totalement infaisable de nos jours (on a pu factoriser des nombres allant jusqu'à 768 bits, mais en 2 ans et demi, avec des ressources informatiques très importantes).
+Les tailles de clés entre systèmes symétriques et asymétriques ne doivent donc pas être directement comparées, et si dans le cas de la cryptographie symétrique, le fait de savoir que la clé fait 128 bits peut être rassurant, il est beaucoup moins évident de juger de la sécurité des systèmes asymétriques selon la taille de la clé.
+Ainsi, les systèmes basés sur les courbes elliptiques demandent des tailles bien inférieures à celle de RSA pour un niveau de sécurité équivalent.

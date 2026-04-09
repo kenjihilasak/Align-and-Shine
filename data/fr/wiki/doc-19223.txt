@@ -1,0 +1,205 @@
+Jeu de labyrinthe|Jeu vidéo sorti en 1980|Jeu vidéo d'arcade|Jeu
+Atari 2600|Jeu
+Atari 5200|Jeu
+Atari 8-bit|Jeu Commodore
+64|Jeu
+ColecoVision|Jeu
+Commodore VIC-20|Jeu
+Famicom
+Disk
+System|Jeu
+Game Boy|Jeu Game
+Boy Color|Jeu
+Game
+Boy
+Advance|Jeu Game Gear|Jeu Intellivision|Jeu Neo-Geo
+Pocket
+Color|Jeu
+Nintendo
+Entertainment
+System|Jeu
+PC-6001|Jeu
+PC-8001|Jeu
+PC-88|Jeu PC-98|Jeu
+Sharp
+X1|Jeu Xbox
+360|Jeu
+ZX Spectrum|Jeu sur téléphone mobile|Jeu sur la console virtuelle de la Wii|Jeu sur la console virtuelle de la Nintendo 3DS|Jeu sur la console virtuelle de la Wii U|Jeu vidéo développé au Japon|Jeu vidéo Pac
+-Man|Personnage de Namco|Jeu Namco|Jeu SNK|Mascotte de jeu vidéo|Jeu Xbox
+Live
+Arcade|Jeu NES Mini
+dans un labyrinthe hanté par quatre fantômes
+Quatre pac-
+gommes
+spéciales
+super pac
+-gommes
+rendent les fantômes vulnérables pendant une courte période au cours de laquelle Pac
+-Man peut les manger.
+Les fantômes deviennent alors bleus et affichent une expression de peur signalée par des petits yeux et une bouche en ligne cassée et quand un fantôme se fait manger, ses yeux retournent dans la salle centrale du labyrinthe pour le faire redevenir normal.
+Le jeu original comprend différents (le jeu était considéré comme allant à l’infini, mais le est injouable à cause d’un bug qui noie la moitié droite du niveau sous un gros amas de symboles (voir la sous-section Bug au ), ce bug vient du fait que le nombre de niveaux était codé sur un seul octet).
+Le personnage peut emprunter des passages situés de chaque côté de l'écran, produisant un effet de wraparound, le faisant réapparaître de l'autre côté de celui-ci.
+Voici le tableau indiquant les différents fruits, leurs valeurs et les niveaux où l’on peut les trouver :
+Si le joueur dépasse les , il obtient une vie supplémentaire.
+Personnages
+Voici les noms et surnoms originaux des fantômes dans Puckman :
+* Oikake (
+オイカケ
+- Poursuite)
+- Akabei (アカベイ) : le fantôme rouge.
+* Machibuse (マチブセ
+- Embuscade
+- Pinky (ピンキー
+- Rosette/petite et rose)
+: le fantôme rose est un personnage féminin.
+Il est présenté comme le plus intelligent.
+* Kimagure (キマグレ
+- Capricieux
+- Aosuke (アオスケ) : le fantôme bleu.
+* Otoboke
+- Guzuta (グズタ) : le fantôme orange.
+Voici les noms et surnoms des fantômes dans Pac-Man :
+* Bashful (Timide)
+- Inky (ou encore Inkey) : le fantôme bleu.
+Chaque fantôme a un comportement qui lui est propre :
+* Blinky attaque directement
+Pac Man.
+Il suit Pac
+-Man comme son ombre.
+* Pinky a tendance à se mettre en embuscade.
+Elle vise l'endroit où va se trouver Pac-Man.
+* Inky est capricieux.
+De temps en temps, il part dans la direction opposée à Pac-Man.
+* Clyde feint l'indifférence.
+De temps en temps, il choisit une direction au hasard (qui peut être celle de Pac-Man).
+Cette diversité est obtenue avec quelques règles simples de programmation.
+D'après Toru Iwatani, cela est le cœur du jeu : «
+Je voulais que chaque fantôme ait sa propre personnalité et sa propre manière de se déplacer, de manière à ce qu'ils ne soient pas tous en train de chasser Pac
+Man comme un seul homme, ce qui aurait été assommant et insipide ».
+Historique
+Le jeu est sorti dans les salles d’arcade le 22 mai 1980 au Japon sous le titre Puckman.
+Le mot «
+Puck » désigne le palet du hockey sur glace en anglais, et « man » signifie « homme ».
+Donc le titre signifie « homme-palet (de hockey sur glace) ».
+Il connaît un succès immédiat.
+Il est commercialisé en octobre 1980 aux États-Unis en changeant son nom, puis dans le reste du monde.
+Selon les importateurs américains Midway, le nom «
+Puckman »
+amenait des risques de dégradation des décorations de la borne d'arcade par des plaisantins, qui auraient pu transformer le « P » en « F », et ainsi donner le nom «
+Fuckman » (
+L'homme baiseur »).
+Cette obscénité aurait été mal vue dans les salles d’arcade, majoritairement fréquentées par des jeunes.
+Le nom du jeu devient Pac
+-Man pour couper court à toute déviance, dérivé de l'onomatopée japonaise paku paku qui dénote l’action d’ouvrir et refermer la bouche et de manger avec gloutonnerie.
+Sans en être une référence directe, il est à noter que Chase Game, l'un des tout premiers prototypes de jeu vidéo créé en 1966 par Ralph Baer, repose sur un principe relativement similaire : un joueur pourchasse l'autre, qui disparaît lors d'une collision.
+Pac
+-Man est par la suite adapté sur un grand nombre d'ordinateurs et consoles (Atari 2600, NES, Game Boy, PlayStation, Xbox 360, iPhone, etc.).
+Il est probablement l’un des jeux les plus connus au monde.
+Pac-Man a été le héros de deux dessins animés :
+Pac-Man et Pac
+-Man et les Aventures de fantômes.
+Le 21 mai 2010, le moteur de recherche Google modifie son logo en une version jouable (JavaScript et HTML5) de Pac-Man pour célébrer les trente ans du jeu, cette version de Pac-Man restera deux jours sur la page d’accueil Google.
+Il reste disponible par la suite sur une page web dédiée.
+Le avril 2015, Google, qui est habitué aux poissons d'avril, offre sur Google Maps la possibilité de jouer à Pac-Man sur la carte d'une ville de son choix, pourvu qu'il y ait assez de route.
+Un simple clic sur une icône permet de transformer la carte à l'image du jeu original, tout en conservant le tracé des routes affichées à l'écran.
+Fiche technique
+Les déplacements des fantômes sont déterminés, il n’y a pas de hasard dans l’algorithme qui détermine leur trajet (sauf lorsque ceux-ci prennent la fuite), mais l’adaptation de Pac
+-Man en version féminine
+Ms.
+Pac-Man met en évidence le déplacement aléatoire des fantômes.
+Postérité
+Lors de la première sortie au Japon par Namco en 1980, le jeu a reçu une réponse tiède, comme Space Invaders et autres jeux similaires étaient plus populaires à l'époque.
+Cependant, le succès de Pac-Man en Amérique du Nord la même année a surpris concurrents et distributeurs.
+Les responsables de marketing qui ont vu Pac-Man dans un salon avant de sortir ont complètement négligé le jeu (avec Defender désormais classique), alors qu'ils regardaient un jeu de voiture de course appelé Rally-X .
+Pac-Man a dépassé Asteroids en tant que jeu d'arcade le plus vendu en Amérique du Nord avec plus d' au cours des trimestres en une décennie, à la fin des années 1980, dépassant les revenus du plus grand succès du cinéma, Star Wars.
+Le jeu est l'un des premiers à avoir connu des produits dérivés (T-shirts, jeux, badges, objets divers), confirmant son statut singulier, et contribuant à nourrir sa notoriété et renforçant encore son positionnement emblématique.
+Portages et suites
+Pac-Man est l'un des rares jeux à avoir été régulièrement publié depuis plus de trois décennies, après avoir été porté sur de nombreuses plates-formes et engendré beaucoup de suites.
+Les rééditions comprennent des versions du jeu d'arcade original portés et mis à jour.
+De nombreux clones non autorisées de Pac-Man sont apparus peu de temps après sa sortie.
+Les ventes combinées de bornes d'arcade contrefaites ont presque dépassé le nombre de bornes vendues du Pac
+-Man original, dont plus de bornes ont été vendues.
+Portages
+Un des tout premiers portages du jeu l’a été pour l’Atari 2600 en 1982, qui ressemblait peu à l'original et a été largement critiqué pour ses fantômes clignotants, en raison de la mémoire limitée de la 2600 et du matériel par rapport à la machine d'arcade.
+Malgré les critiques, cette version de Pac-Man vendu sept millions d'unités à par copie, est le jeu le plus vendu de tous les temps sur l'Atari 2600.
+Tout en appréciant le succès des ventes initiale, Atari avait surestimé la demande en produisant de cartouches, dont sont invendues.
+Sa mauvaise qualité a endommagé la réputation de l'entreprise auprès des consommateurs et des détaillants, qui allait devenir l'un des facteurs qui contribuent à la baisse d'Atari et le krach nord-américain du jeu vidéo de 1983, avec E.T. the Extra-Terrestrial.
+Computing a classé dixième sur la liste du magazine des meilleurs jeux de la série Apple II du magazine à partir de la fin de 1985, basé sur les ventes et les données de parts de marché, et en décembre 1987 seulement la version IBM PC de Mindscape de Pac-Man a été vendue à plus de .
+Le jeu a également été publié pour les ordinateurs 5200 et 8 bits d'Atari, Intellivision, Commodore 64 et VIC-20, et la Nintendo Entertainment System.
+Pour les consoles de jeux portables, il est sorti sur Game Boy, Game Gear, Game Boy Color, et la Neo-Geo Pocket Color.
+Suites
+En 1981, sort Ms.
+Pac-Man, le second épisode de la série.
+En 1983, sort Jr.
+Pac-Man, qui offre de nouveaux labyrinthes.
+En 1987, sort sur arcade Pac-Mania, une variante en 3D isométrique.
+En 2007 et 2009
+sortent Pac
+-Man Championship Edition et sa version DX sur arcade et consoles, rééditions de Pac-
+Man inspirés du jeu du serpent.
+Le , sort Pac
+-Man 256, une variante en 3D isométrique inspirée
+Clones
+Depuis sa sortie, de nombreux clones de Pac-Man sont apparus sur le marché.
+*Guppy sur EXL 100 (Exelvision)
+, une variante avec un poisson et des pieuvres.
+*Clean Sweep sur la console Vectrex, où le joueur dirige un aspirateur chargé de récupérer les pièces de monnaie d’une banque, ce qui a pour effet de le grossir et de le ralentir, l’obligeant à rejoindre régulièrement le centre de la banque pour déposer sa récolte.
+Ce clone fut le plus apprécié par la communauté des joueurs de l’époque (qui mettait en avant l’inverse du bug de Space Invaders où les ovnis bougeaient de plus en plus vite au fur et à mesure qu’on les exterminait).
+*Chez Nintendo, il existe un clone nommé Devil World.
+Le personnage principal, Tamagon, doit nettoyer l’écran des croix.
+La principale différence réside dans la variété des ennemis.
+Le méchant principal du jeu apparaît dans Super Smash Bros.
+Brawl.
+Un autre jeu similaire se nomme
+Clu
+Clu Land
+, les commandes y sont différentes
+mais le principe reste le même : parcourir l’écran en évitant les ennemis.
+*Glouton et voraces est un clone de Pac
+-Man sorti sur l'Oddysey2/Videopac.
+Ce jeu est célèbre car Atari a traîné Magnavox en justice, le jeu étant trop ressemblant au Pac
+-Man original.
+Record
+En 1999, l’Américain Billy Mitchell devient le premier joueur à avoir réalisé le score parfait de points dans le jeu.
+Il a terminé les 256 niveaux en six heures, attrapant tous les fruits, mangeant les quatre fantômes à chaque bonus, et ne perdant aucune vie à chaque niveau.
+Bug
+Ce bug est causé par la présence des fruits au bas de l'écran.
+Le jeu ajoute un fruit à chaque fin de niveau pour compter les niveaux finis.
+Au niveau 2, il y a 2 fruits présents.
+Cependant, le jeu ne peut pas représenter plus de 7 fruits.
+Ainsi, le jeu va vérifier si le nombre de fruits est supérieur ou inférieur à 8.
+Donc 7 + 1 = 8, le jeu va commencer à remplacer les fruits.
+Au niveau 20, la machine représentera des clés à la place des fruits.
+Mais au niveau 255, le jeu étant en 8 bits
+, on a alors huit fois 1.
+Cependant, le compteur ne peut ajouter 8 fruits donc il revient à zéro.
+Mais zéro est inférieur à huit et si on suit la règle d'un fruit ajouté pour les sept premiers niveaux, le jeu doit vérifier à quel niveau on est.
+Mais le niveau précédent est le donc le jeu va essayer de représenter 256 clés, ce qui est impossible.
+Le jeu bugge donc avec un gros amas de symboles et se révèle injouable.
+Références dans la culture
+* Dans le film documentaire Sans soleil de Chris Marker (1983), le narrateur dit, à la minute :
+* Dans le film
+Les Mondes de Ralph
+Pac
+-Man fait une petite apparition ainsi que les 4 fantômes, dont Clyde chez les méchants anonymes.
+* Dans le film Pixels, Pac-Man est un des méchants envoyés par les extraterrestres.
+* Dans la série Real Humans : 100 % humain, les robots sont surnommés péjorativement «
+Pac
+-Man »
+par les groupes extrémistes s'opposant à leur production
+* Dans le roman
+Player One d'Ernest Clide, le personnage principal gagne une vie supplémentaire en réalisant un score parfait à ce jeu.
+* Dans le film Les Gardiens de la Galaxie Vol. 2, Star-Lord fait part de son envie de façonner une statue géante à l’effigie de Pac-Man.
+Plus tard dans le film, il porte un coup qu'il matérialise sous la forme d'un Pac
+Man lors de son combat sur la planète d'Ego.
+*Dans l'épisode interactif Black Mirror: Bandersnatch de la série Black Mirror sur Netflix, le personnage de Colin fait part de sa théorie sur le sens du jeu Pac-Man : "Il y'a des messages cachés dans tous les jeux.
+Comme Pac
+-Man, tu sais ce que Pac signifie ?
+P.A.C
+Programme and Control, c'est à dire l'homme qui peut programmer et contrôler.
+Le jeu entier est une métaphore, il croit détenir le libre arbitre, mais en fait il est coincé dans un labyrinthe, dans un système ou il est condamné à consommer.
+Il est poursuivie par des démons qui ne sont surement que dans sa tête.
+Et même si il parvient à s'échapper en disparaissant par les portes du labyrinthe, ce qui se passe, c'est qu'il se repointe directe de l'autre côté.
+C'est un jeu mais il n'y'a rien d'amusant là dedans.
+C'est un putain de cauchemar.
+Et le pire, c'est que tout est vrai et que c'est notre vie.

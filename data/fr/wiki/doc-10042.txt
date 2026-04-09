@@ -1,0 +1,63 @@
+BSD|Université de Californie
+à Berkeley
+La ou BSD, « collection de logiciels de Berkeley » en français
+, est un système d'exploitation dérivé d’Unix et originaire de l’université de Californie à Berkeley.
+Historique
+La commença en 1977 comme un ensemble de logiciels pour UNIX version 6, qui incluait notamment un compilateur de Pascal et l'éditeur ex, ancêtre de vi.
+Au milieu de l'année 1978 parut la seconde version, appelée 2BSD, qui comprenait des améliorations du compilateur de Pascal, vi et termcap ainsi que le C shell.
+2BSD continua d'être développée jusqu'à 2.11BSD, dont le dernier patch (447) parut le 31 décembre 2008.
+L'apparition des VAX, pour lesquels le seul UNIX disponible était 32 Unix, puis, en , 3BSD, composé des utilitaires standards de 32/V, du support nouvellement ajouté pour la mémoire virtuelle, ainsi que des programmes fournis avec 2BSD.
+En 1979, la DARPA cherchait à unifier les systèmes d'exploitation utilisés par les centres américains de recherche en informatique connectés au DARPAnet.
+Berkeley proposa alors de développer une version améliorée de 3BSD pour résoudre ce problème.
+En 1980 sortit 4BSD, qui incluait le support des VAX les plus récents, un nouveau système de courrier électronique, et un système de fichiers plus moderne, entre autres améliorations, et un interpréteur de LISP en plus de tous les programmes déjà inclus dans 3BSD.
+Cette version fut jugée trop lente et conduit rapidement à la publication de 4.1BSD, qui comprenait un noyau optimisé.
+4.2BSD, parue en 1983
+, incluait une des premières implémentations de TCP/IP, ainsi que le Berkeley Fast File System.
+Cette version devint extrêmement populaire, si bien qu'un certain nombre d'utilisateurs de System V passèrent à 4.2BSD en attendant que ces fonctions y soient implémentées.
+4.3BSD, la version suivante, contenait de nouveau un noyau plus rapide ainsi qu'un nouveau système TCP/IP.
+En 1988, 4.3BSD-Tahoe était une version plus portable de 4.3BSD, dans laquelle les fichiers indépendants de l'architecture et les autres avaient été séparés.
+Entre juin 1989 et juin 1991, le code AT&T (qui impliquait le paiement de licences) a été remplacé par du code libre, faisant de BSD un des premiers systèmes d'exploitation entièrement libres, parallèlement à GNU/Linux, autre variante d'UNIX.
+Une des premières réécritures libre (open source) fut celle des couches réseaux, publiée pour la première fois en juin 1989, et qui sera rapidement utilisée par le projet GNU sous GNU/Linux.
+Entre 1992 et janvier 1994, AT&T attaqua en justice BSD, considérant que la réécriture libre des programmes originellement AT&T ne suffisait pas à invalider ses licences.
+Le procès se termina en janvier 1994, donnant presque intégralement raison à Berkeley (quelques fichiers furent reconnus comme propriété intellectuelle de AT&T et durent être refaits).
+Entre 1992 et 1994, le procès freina considérablement le développement de BSD, les utilisateurs potentiels craignant d'être contraints à payer des redevances si les licences AT&T étaient confirmées.
+C'est pendant cette période que le nouveau noyau linux (bien qu'initialement moins développé), couplé aux outils GNU, eut le champ libre sur les serveurs UNIX et prit un avantage qu'il a conservé depuis.
+Description
+Les systèmes BSD sont généralement conçus pour être utilisés sur des serveurs, mais il existe quelques variantes spécifiquement destinées aux ordinateurs personnels.
+Ils sont réputés pour leur organisation et leurs performances dans leurs domaines de prédilection : la fiabilité en tant que serveur pour FreeBSD, la portabilité pour NetBSD et la sécurité pour OpenBSD.
+Leur très grande stabilité
+leur permet de fonctionner
+sans s'arrêter ni redémarrer durant des périodes extrêmement longues (plusieurs années)
+Dans le monde Unix, on oppose souvent les paradigmes BSD aux paradigmes Système V (POSIX), plus suivis, notamment par Linux.
+Comme Linux avec Tux, la famille BSD possède une mascotte : le Démon BSD.
+Descendance
+Les descendants encore utilisés de cette famille
+sont :
+* NetBSD
+, descendant de 386BSD 0.1 et de 4.3BSD NET/2.
+Projet lancé en 1993 (logiciel libre).
+** OpenBSD
+, dérivé de NetBSD.
+Projet lancé en 1995, OpenBSD se focalise sur la sécurité informatique.
+* FreeBSD
+, descendant de 386BSD.
+Projet lancé en 1993, FreeBSD a pour but d'être un système d'exploitation généraliste.
+** DragonFly BSD
+qui devait être une démonstration du nouveau système multi-tâche mais qui a divergé avec de nombreuses innovations et est devenu un projet à part et toujours en activité
+** NeXTSTEP, basé sur 4BSD et le noyau Mach, ancêtre de macOS.
+*** Darwin, le noyau de macOS et iOS
+De nombreux utilitaires en ligne de commande fournis sont ceux de FreeBSD.
+** TrueOS
+, anciennement PC-BSD, dérivé mettant l'accent sur la simplicité d'utilisation avec notamment une interface graphique.
+** GhostBSD
+, projet canadien lancé en 2010, avec GNOME puis MATE en interface graphique à partir de la version 4.0.
+C'est une adaptation de FreeBSD dont le but est d'être facile d'installation et d'emploi.
+** HardenedBSD, projet lancé par Shawn Webb pour une base plus sécurisée avec ASLR notamment.
+* SunOS, basé directement sur 4.1BSD (avec des ajouts d'UniSoft UniPlus V7) et Solaris, qui intègre également du code Système V.
+** OpenSolaris, basé sur Solaris et aujourd'hui arrêté.
+Voir aussi
+Articles connexes
+Liens externes
+* https:/ web http:/ docs index.html Certification BSD
+* http:/ catalog book man-page
+1 Man Pages BSD

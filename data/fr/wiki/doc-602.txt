@@ -1,0 +1,249 @@
+Théorème de géométrie|Pythagore|Géométrie du triangle|Histoire des mathématiques|Mathématiques élémentaires
+Le théorème de Pythagore est un théorème de géométrie euclidienne qui met en relation les longueurs des côtés dans un triangle rectangle : le carré de la longueur de l’hypoténuse, qui est le côté opposé à l'angle droit, est égal à la somme des carrés des longueurs des deux autres côtés.
+Ce théorème permet notamment de calculer l’une de ces longueurs à partir des deux autres.
+Il doit son nom à Pythagore de Samos, philosophe de la Grèce antique du .
+Cependant le résultat était connu plus de mille ans auparavant en Mésopotamie, et la plus ancienne démonstration qui nous soit parvenue est due à Euclide, vers -300.
+Même si les mathématiciens grecs en connaissaient sûrement une auparavant, rien ne permet de l'attribuer de façon certaine à Pythagore.
+Par ailleurs le résultat a vraisemblablement été découvert indépendamment dans plusieurs autres cultures.
+Les premières démonstrations historiques reposent en général sur des méthodes de calcul d’aire par découpage et déplacement de figures géométriques.
+Inversement, la conception moderne de la géométrie euclidienne est fondée sur une notion de distance qui est définie pour respecter ce théorème.
+Divers autres énoncés généralisent le théorème à des triangles quelconques, à des figures de plus grande dimension telles que les tétraèdres, ou en géométrie non euclidienne comme à la surface d’une sphère.
+Plus généralement, ce théorème a de nombreuses applications dans divers domaines très différents (architecture, ingénierie...), encore aujourd'hui, et a permis nombres d'avancées technologiques à travers l'Histoire.
+Vocabulaire et énoncés
+Un triangle rectangle est un triangle présentant un angle droit (c’est-à-dire de mesure 90°, ou encore radian).
+Les deux côtés adjacents à cet angle sont appelés cathètes et le côté opposé est l’hypoténuse.
+Théorème
+La forme la plus connue du théorème de Pythagore est la suivante :
+En particulier, la longueur de l’hypoténuse est donc toujours supérieure à celle de chaque autre côté.
+Le terme « longueur » est parfois omis, chaque côté étant assimilé à sa longueur.
+Toutefois l’élévation au carré (algébrique), qui n’a de sens que pour une grandeur numérique comme la longueur, correspond à la construction d’un carré (géométrique) sur chaque côté du triangle.
+Certaines démonstrations du théorème s’appuient d’ailleurs sur une égalité d’aires entre le carré construit sur l’hypoténuse et la réunion des carrés construits sur les deux autres côtés.
+En nommant les sommets du triangle, le théorème peut se reformuler dans l’implication suivante :
+Par contraposée :
+Réciproque
+L’implication réciproque est également vraie :
+Pour une formulation sans notations des sommets, le terme « hypoténuse »
+n'est utilisable qu'une fois acquis que le triangle est rectangle :
+Par contraposée de la réciproque :
+La réciproque se déduit du théorème lui-même et d'un cas d'« égalité » des triangles : si l'on construit un triangle rectangle en de sommets , et , avec , on a par le théorème de Pythagore, donc un triangle isométrique au triangle initial (les trois côtés sont deux à deux de même longueur).
+L'angle en du triangle initial , identique à celui du triangle , est donc droit.
+Équivalence
+Comme la réciproque est vraie, on dit que l'on a une équivalence : la propriété sur les carrés des longueurs des côtés du triangle est une condition nécessaire et suffisante pour qu'il soit dit rectangle en :
+Triplets pythagoriciens
+Quand trois nombres entiers vérifient la même relation que celle donnée par le théorème de Pythagore pour les côtés d'un triangle
+rectangle
+, c'est-à-dire que le carré du plus grand est la somme des carrés des deux autres, on les nomme « triplets pythagoriciens ».
+Le plus simple et le plus connu est le triplet (3,4,5) : 32 + 42 = 52.
+D'après la réciproque du théorème de Pythagore, un triangle dont les longueurs des côtés sont multiples de (3, 4, 5) est rectangle.
+Applications
+Arpentage
+D’après la réciproque du théorème de Pythagore, si un triangle a des côtés de longueurs 3, 4 et 5 (par rapport à une unité quelconque) alors il est rectangle.
+Ce cas particulier de triplet pythagoricien justifie l’usage de la corde à treize nœuds, qui permettait de mesurer des distances mais aussi d’obtenir un angle droit sans équerre rigide en répartissant les douze intervalles qui séparent les nœuds sur les trois côtés d’un triangle de dimensions 3
+Nature d'un triangle
+Le théorème (ou plutôt sa contraposée) et sa réciproque montrent que la relation donnée entre les longueurs des côtés est une propriété caractéristique des triangles rectangles, ce qui permet de l’utiliser comme test dans la détermination de la nature d’un triangle :
+* si n’est pas égal à alors le triangle n’est pas rectangle en .
+En effectuant le test pour le sommet opposé au plus grand côté du triangle (seul sommet susceptible d'abriter l'angle droit
+, on peut déterminer si le triangle est rectangle ou non à partir des longueurs de ses côtés.
+Distance euclidienne
+Dans le plan muni d’un repère orthonormé, la distance entre deux points s’exprime en fonction de leurs coordonnées cartésiennes à l’aide du théorème de Pythagore par :
+Cette formule est analogue à celle qui donne la norme d’un vecteur de coordonnées dans une base orthonormée :
+Ces formules se généralisent en dimension plus grande.
+Relation trigonométrique
+En considérant le cosinus et le sinus d’un angle α comme l'abscisse et l'ordonnée d’un point du cercle trigonométrique repéré par cet angle, et le rayon du cercle trigonométrique de longueur 1 comme l'hypoténuse, le théorème de Pythagore permet d’écrire :
+\cos^2\alpha + \sin^2\alpha=1.
+Histoire
+Pythagore vivait au , mais l'histoire du théorème de Pythagore commence plus d'un millénaire auparavant, comme en témoignent plusieurs tablettes d'argile de l'époque paléo-babylonienne.
+Il n'y a aucune preuve archéologique qui permette de remonter plus avant, même si quelques hypothèses existent.
+Ainsi les travaux d'Alexander Thom, qui imagine une organisation de sites mégalithiques datant du en Grande-Bretagne et en France utilisant triangles rectangles et triplets pythagoriciens, sont fortement contestés.
+L'hypothèse parfois avancée que le théorème aurait été connu de l'Égypte ancienne dès le Moyen Empire paraît elle aussi difficile à établir.
+Mésopotamie
+Les historiens des mathématiques et assyriologues ont découvert à la fin des années 1920 que s'était forgée en Mésopotamie (l'ancien Irak), à l'époque paléo-babylonienne une culture mathématique dont l'objet n'était pas purement utilitariste.
+Plusieurs des tablettes d'argile qui ont été retrouvées et analysées montrent que la relation entre les longueurs des côtés du rectangle et celle de sa diagonale (soit entre les longueurs des côtés d’un triangle rectangle) était connue et utilisée pour résoudre des problèmes calculatoires.
+La tablette Plimpton 322 datant de vers -1800 donne une liste de nombres associés à des triplets pythagoriciens, soit des entiers satisfaisant la relation .
+La tablette ne donne que deux nombres du triplet, mais les associe explicitement au plus petit côté et à la diagonale d'un rectangle.
+Il n'y a pas trace de l'énoncé d'un théorème, et les historiens préfèrent souvent utiliser un autre mot, certains parlent par exemple de « règle de Pythagore ».
+Ni celle-ci, ni le principe qui la sous-tend ne sont explicitement énoncés non plus, mais les exemples montrent bien qu'une règle générale est connue.
+La datation et l'origine exacte des tablettes d'argile n'est pas toujours évidente, beaucoup de celles-ci ont été achetées sur le marché des antiquités comme la tablette Plimpton 322, mais les historiens peuvent s'appuyer sur des éléments linguistiques, et les similarités avec celles dont l'origine est connue, ayant été obtenues par des fouilles archéologiques régulières.
+Les traces que l'on a des cultures antérieures rendent peu vraisemblable la découverte de la « règle de Pythagore », avant -2300, celle-ci pourrait apparaître entre -2025 et -1825.
+Inde
+En Inde, un énoncé du théorème, sous sa forme la plus générale, apparait dans l', l'un des Śulba-Sūtras, ces traités du cordeau qui codifient les règles des constructions destinées aux rituels védiques.
+Ceux-ci ont été rédigés entre le et le avant notre ère (par ailleurs certains triplets pythagoriciens sont mentionnés dans des textes bien antérieurs).
+Les Sulbasutras parlent du rectangle et de sa diagonale, plutôt que de triangle.
+Chine
+Le théorème apparaît également en Chine dans le Zhoubi suanjing («
+Le Classique mathématique du Gnomon des Zhou »), un des plus anciens ouvrages mathématiques chinois.
+Ce dernier, écrit probablement durant la dynastie Han (206 av. J.-C. à 220), regroupe des techniques de calcul datant de la dynastie Zhou ( à -256).
+Le théorème ou procédure s’énonce de la manière suivante :
+Mais la question se pose de savoir si ce théorème - ou cette procédure - était muni ou non d’une démonstration.
+Sur ce point les avis sont partagés.
+Le théorème, sous le nom de Gougu , est repris dans le Jiuzhang suanshu , avec une démonstration, utilisant un découpage et une reconstitution, qui ne ressemble pas à celle d’Euclide et qui illustre l'originalité du système démonstratif chinois.
+Égypte ancienne
+Aucun texte connu de l'Égypte antique ne permet d'attribuer aux Égyptiens une connaissance en rapport avec le théorème de Pythagore, avant un document écrit sur papyrus en démotique, généralement daté vers 300 av. J.-C. qui mentionne trois triplets pythagoriciens.
+Ceci peut tenir à la fragilité du support employé : peu de textes mathématiques de l'Égypte antique nous sont parvenus.
+Mais le plus notable d'entre eux, le papyrus Rhind, une copie effectuée vers 1650 d'un document datant de 1800 av. J.-C., apparaît comme une somme des connaissances mathématiques de l'époque.
+Or ni triplets pythagoriciens, ni rien en rapport avec le théorème, n'y apparaît, ce qui laisse penser qu'il est ignoré à ces dates.
+Il n'est cependant pas impossible que le triangle rectangle 3-4-5, celui dont les côtés correspondent au triplet pythagoricien le plus simple, soit connu en Égypte dès une époque assez ancienne.
+Plutarque décrit (à la fin du de notre ère)
+une interprétation symbolique religieuse du triangle.
+Mais à l'époque de Plutarque, le syncrétisme religieux a cours dans l'Égypte sous domination romaine, après avoir été gouvernée par les Ptolémées, et il est délicat de déterminer l'origine de cette interprétation, encore plus de la dater.
+L'hypothèse de l'utilisation en architecture du triangle 3-4-5 obtenu en utilisant des cordes, éventuellement pourvues de nœuds espacés régulièrement, et tendues en particulier pour tracer des angles droits, est pour le moins discutée.
+Les faces de la pyramide de Khephren ont une pente de 4/3, mais il existe des explications simples pour leur construction, qui ne supposent pas la connaissance du triangle correspondant.
+Pour les tracés horizontaux, au vu de ce que l'on sait des cordes disponibles à l'époque et de leur élasticité, la précision de la méthode ne paraît pas compatible avec celle des constructions de grande dimension de l'Égypte antique, mais pourrait fonctionner pour des salles ou des édifices de plus petite dimension.
+Ainsi le tracé d'une voûte elliptique datant de la dynastie découvert par Georges Daressy correspond à une ellipse dont le foyer, le centre et une intersection avec le petit axe, forment un triangle 3-4-5.
+Par ailleurs une ellipse peut, elle-même, se tracer facilement à l'aide d'une corde tendue.
+Il reste que la connaissance de ce que le triangle 3-4-5 est droit, même si elle n'a rien d'invraisemblable, n'attesterait de toute façon nullement que les carrés des côtés aient été comparés, encore moins de la connaissance du théorème de Pythagore.
+Les Grecs : de Pythagore à Euclide
+Le théorème et sa conclusion, accompagnés de démonstrations, concluent le livre I des Éléments d'Euclide, rédigés probablement au début du .
+Le théorème lui-même est donné à la proposition sous la forme suivante :
+Sa réciproque est la proposition .
+Les témoignages connus au sujet des contributions mathématiques de Pythagore sont tardifs : au plus tôt du , alors que Pythagore aurait vécu au avant notre ère.
+Un distique attribué à Apollodore de Cyzique () et cité par Plutarque ( de notre ère) pourrait faire exception s'il s'agit bien du théorème, mais Plutarque lui-même en doute.
+L'identité exacte de l'auteur du distique, et donc la date de sa composition, n'ont d'ailleurs elles-mêmes rien d'évident.
+Incommensurabilité
+Le théorème de Pythagore joue un rôle dans la découverte par les mathématiciens grecs, probablement au , de grandeurs incommensurables (qui ne peuvent pas être mesurées avec une même unité), prémisse des nombres irrationnels, en particulier à travers le cas particulier du triangle rectangle isocèle, pour lequel on dispose d'une démonstration particulièrement simple par duplication du carré : un carré dont le côté sert d’unité a une diagonale dont le carré de la longueur vaut 2.
+L'incommensurabilité a pu être mise en évidence géométriquement, sans qu'il soit question de racine carrée donc sans recourir au théorème de Pythagore, mais le théorème de Pythagore autorise une preuve arithmétique, dans le cas de la diagonale du carré en montrant qu'aucune fraction d’entiers n’a de carré égal à 2, soit l'irrationalité de .
+Démonstrations
+Plusieurs centaines de démonstrations différentes ont été répertoriées pour le théorème de Pythagore.
+La plupart sont construites sur des égalités d’aire obtenues par découpage et recollement, voire en utilisant des rapports d’aire de triangles semblables.
+La définition du produit scalaire en géométrie repérée fournit aussi une démonstration purement algébrique.
+De nombreuses autres démonstrations ont été recensées et même le président américain James Garfield en ont proposé.
+Selon Euclide
+La démonstration présentée par Euclide dans les Éléments s’appuie sur les précédentes propositions, en particulier la proposition
+- en termes modernes deux triangles ayant un angle de même mesure entre deux côtés de mêmes longueurs sont isométriques, et la proposition du livre (voir aire d'un triangle) :
+Sur les côtés d’un triangle ABC rectangle en A, sont construits extérieurement des carrés BCED, ABFG et ACIH.
+La hauteur de ABC issue de A coupe le côté opposé BC en J et le segment DE en K.
+Il s’agit de démontrer que l’aire du carré BCED est égale à la somme des aires des carrés ABFG et ACIH.
+Les triangles BCF et ABD ont même angle en B (c’est-à-dire l’angle du triangle ABC augmenté d’un angle droit) et par construction, et .
+Donc les triangles BCF et ABD ont même aire.
+Or d’après la proposition , l’aire du triangle BCF vaut la moitié de celle du carré ABFG et l’aire du triangle ABD vaut la moitié de celle du rectangle BDKJ.
+Donc le carré ABFG et le rectangle BDKJ ont même aire.
+De même, les triangles BCI et ACE ont même angle en C avec les égalités et donc ils ont même aire, donc d’après la proposition , le carré ACIH a même aire que le rectangle CEKJ.
+Finalement, le carré BCED se décompose en deux rectangles BDKJ et CEKJ, dont les aires sont celles de ABFG et ACIH respectivement, ce qui termine la démonstration.
+Pappus d'Alexandrie donne une démonstration de son théorème sur les aires, pour un triangle quelconque sur les côtés duquel sont construits des parallélogrammes, qui fournit en la particularisant au triangle rectangle sur les côtés duquel sont construits des carrés, une démonstration du théorème de Pythagore, alternative à celle d'Euclide.
+Les deux sections suivantes présentent des méthodes de découpage et réorganisation des morceaux, qui rentrent souvent dans la catégorie des preuves sans mots.
+Par le puzzle de Gougu
+Le théorème de Gougu de gou (base) et gu (hauteur) est reconstitué d’après les commentaires du mathématicien chinois Liu Hui ( apr. J.-C.) sur le Jiuzhang suanzhu «
+Les Neuf Chapitres sur l'art mathématique » (206 av.-220 apr.
+-C.
+et le Zhoubi Suanjing , «
+Le Classique mathématique du Gnomon des Zhou » (un livre d’astronomie).
+Le neuvième chapitre du livre Les neuf chapitres, classique mathématique de la Chine ancienne, s’ouvre sur un énoncé du théorème de Pythagore avec le commentaire laconique : .
+Cette preuve utilise le principe du puzzle : deux surfaces égales après découpage fini et recomposition ont même aire.
+Euclide, dans sa propriété de cisaillement, utilise
+le même principe.
+L’absence d’
+illustration associée à ce commentaire réduit les historiens à émettre des conjectures pour sa reconstitution.
+Le dessin ci-contre est proposé par Jean-Claude Martzloff d’après une édition de 1892 des Neuf chapitres.
+Le triangle rectangle y est tracé en gras, le carré de la hauteur a été tracé à l’extérieur du triangle, le carré de la base et celui de l’hypoténuse sont tournés vers le triangle.
+Les parties des carrés des côtés de l’angle droit qui dépassent du carré de l’hypoténuse ont été découpées et replacées à l’intérieur de ce carré.
+Le triangle rouge est égal au triangle de départ.
+Le triangle jaune a pour grand côté de l’angle droit le petit côté du triangle de départ et a mêmes angles que le triangle initial.
+Le triangle bleu a pour grand côté de l’angle droit, la différence des côtés du triangle initial et a mêmes angles que le triangle initial.
+Karine Chemla appuie plutôt son raisonnement sur une figure fondamentale associée au texte du Zhoubi suanjing et formée d’un triangle 3
+- 5 dans laquelle on peut lire de nombreuses relations liant les trois côtés du triangle rectangle.
+Elle interprète le commentaire de Liu Hui comme une nouvelle lecture de la figure fondamentale avec déplacement des 3 pièces 1
+- 3 de l’extérieur du carré dans le carré de l’hypoténuse.
+Quant à Li Jimin, il attribue au Zhoubi Suanjian la paternité de la première démonstration
+, il s’appuie lui aussi sur la figure fondamentale et fait pivoter les triangles (1-2) et 3 sur leur pointe pour les installer dans le carré de l’hypoténuse.
+Un tel découpage, avec pivotement des deux triangles, apparait également en Europe au chez George Biddell Airy et Philip Kelland.
+Par soustraction d'aire
+Pour un triangle rectangle donné, il est possible de l’inscrire en quatre exemplaires dans les coins d’un carré dont le côté a pour longueur la somme des longueurs des cathètes.
+Les quatre hypoténuses forment alors un carré, par égalité de longueur et sachant que chacun de ses angles est supplémentaire des deux angles aigus du triangle.
+Avec les notations usuelles, l’aire totale du grand carré vaut donc (a + b) et l’aire du carré intérieur vaut c. La différence est constituée par quatre triangles d’aire ab/2 chacun.
+La relation algébrique entre ces aires s’écrit alors , c’est-à-dire , ce qui revient à
+Avec une deuxième figure inscrite dans le même grand carré, les deux carrés formés sur les côtés du triangle rectangle s’obtiennent eux aussi par soustraction de quatre copies du triangle initial.
+Par des triangles semblables
+Il n’y a pas trace de la démonstration qu’aurait conçue Pythagore et les historiens envisagent deux types de démonstrations : ou bien une démonstration fondée sur un découpage comme celui de Gougu ou une démonstration utilisant les proportionnalités des triangles découpés par la hauteur issue de l’angle droit.
+Soit H
+le pied de la hauteur issue de C, celle-ci découpe le triangle ACB en deux triangles rectangles HAC et HCB semblables au triangle initial, par égalités des angles, puisqu'ils partagent à chaque fois un des angles non droits.
+Les aires de ces trois triangles semblables, portées par les trois côtés AC, CB et AB sont proportionnelles aux carrés de ces côtés.
+L'égalité des aires :
+Aire (HAC) + Aire (HCB) = Aire (ACB)
+donne donc le théorème de Pythagore, en simplifiant par le coefficient de proportionnalité :
+:AC^2 + BC^2 = AB^2.
+CQFD
+On peut également proposer une variante un peu plus calculatoire de cette démonstration sans passer par les aires : le rapport de similitude entre les triangles HAC et CAB implique \dfrac
+\dfrac soit AH \cdot AB
+AC^2.
+De même, le rapport de similitude entre les triangles HCB et CAB implique \dfrac
+\dfrac soit HB \cdot
+BC^2 en additionnant, il vient (AH+HB)
+\cdot AB
+AB^2
+AC^2 + BC^2.
+CQFD
+Cette démonstration est à rapprocher de celle du théorème de Ptolémée en prenant un rectangle comme quadrilatère.
+Par le produit scalaire
+Cette preuve s'inscrit dans un contexte tout à fait différent.
+Dans un espace vectoriel euclidien, les définitions mêmes de la norme, du produit scalaire et de l'orthogonalité sont déjà d'une certaine façon associées à une forme du théorème de Pythagore (voir ci-dessus).
+Par bilinéarité du produit scalaire, pour deux vecteurs quelconques \vec u et \vec v :
+\|\vec u+\vec v\|^2
+\vec u+\vec v)\cdot (\vec u + \vec v)
+\|\vec u\|^2+\|\vec v\|^2 + 2 \vec u\cdot\vec v,
+soit :
+\|\vec u+\vec v\|^2
+\|\vec u\|^2+\|\vec v\|^2\Longleftrightarrow \vec u\cdot\vec v
+ce qui, en définissant l'orthogonalité de deux vecteurs par la nullité de leur produit scalaire, fournit
+une version vectorielle du théorème de Pythagore (et de sa réciproque).
+Dans un espace affine euclidien la longueur d'un segment est la norme du vecteur \overrightarrow.
+Les vecteurs portés par les côtés d’un triangle vérifient la relation de Chasles :
+:\overrightarrow=\overrightarrow+\overrightarrow
+et le résultat précédent donne :
+AB^2
+AC^2 + CB^2 \Longleftrightarrow\overrightarrow
+\cdot \overrightarrow
+autrement dit le théorème de Pythagore et sa réciproque, quand l'orthogonalité est définie par la nullité du produit scalaire.
+Visualisation par des méthodes physiques
+Le théorème de Pythagore étant un théorème portant sur des aires, celles des carrés dont les bases sont les cotés du triangle, on peut le visualiser grâce à des réservoirs de liquide de volume proportionnel aux différentes aires.
+On peut alors constater que le volume du plus grand réservoir est égal à la somme des volumes des deux autres réservoirs plus petits.
+Il ne s'agit cependant pas d'une démonstration.
+On peut également citer d'autres méthodes non mathématiques, par exemple il en existe une mécanique utilisant un équilibre de forces.
+Généralisations
+Pour un triangle quelconque
+La loi des cosinus ou théorème d'Al-Kashi donne une formule faisant intervenir les longueurs des côtés et le cosinus de l'un des angles d'un triangle quelconque.
+L’angle de mesure , le côté opposé de longueur c et les deux autres côtés de longueurs respectives a et b sont reliés par la relation :
+Si l’angle γ est droit, son cosinus est nul et la formule se réduit à la relation du théorème de Pythagore.
+S'il n'est pas droit, le cosinus de l'angle γ est non nul, ce qui donne la réciproque.
+Cette généralisation permet de traiter des problèmes de calcul d’angles et de distances dans un triangle quelconque.
+Avec d'autres figures formées sur les côtés
+Euclide mentionne dans les Éléments, donne une autre généralisation
+- nommée souvent en France théorème de Clairaut
+- valable sur un triangle quelconque, sur les côtés duquel sont construits des parallélogrammes : sur le dessin ci-contre, la somme des aires des deux parallélogrammes en gris foncé égale celle du parallélogramme en gris clair.
+Pappus prenait le parallélogramme BUVC, plutôt que LBCM dont il est le translaté.
+En plus grande dimension
+L’hypoténuse d’un triangle rectangle pouvant se concevoir comme la diagonale d’un rectangle, une généralisation du théorème en dimension supérieure peut s’énoncer comme suit :
+Ce résultat est équivalent au calcul de la longueur d’un segment à partir des coordonnées cartésiennes de ses extrémités dans un repère orthonormé :
+ou, en dimension supérieure, si est de coordonnées et de coordonnées :
+Cette dernière formule est encore valable dans un espace de Hilbert de dimension infinie et aboutit notamment à la formule de Parseval.
+Le théorème de Gua donne une autre généralisation du théorème de Pythagore dans un espace euclidien : si un tétraèdre a toutes ses arêtes orthogonales en un sommet alors le carré de l’aire de la face opposée au coin est la somme des carrés des aires des trois autres faces.
+En arithmétique :
+le théorème de Fermat-Wiles
+La recherche exhaustive des triplets pythagoriciens est un problème arithmétique à part entière.
+Elle a pu être motivée par la construction de triangles rectangles dont les longueurs des côtés sont commensurables.
+Elle ouvre la porte à la recherche de triplets satisfaisant une équation plus générale : où l’exposant n est un entier supérieur à 2.
+L’absence de solution lorsque l’exposant est supérieur ou égal à 3 est la conjecture de Fermat, qui n’a été définitivement démontrée que plus de trois siècles plus tard par Andrew Wiles.
+En géométrie non euclidienne
+Le théorème de Pythagore est équivalent (en admettant les autres axiomes de la géométrie) à l'axiome des parallèles, qui peut être rédigé ainsi :
+Cela signifie que, dans les axiomes de la géométrie euclidienne, on peut remplacer l'« axiome » des parallèles par le « théorème » de Pythagore sans que les autres résultats de la géométrie soient modifiés.
+Les statuts d'axiome et de théorème de ces deux résultats sont alors inversés : le « théorème » de Pythagore devient un axiome (une vérité de base, indémontrable, sur laquelle s'appuie la théorie) et l'« axiome » des parallèles devient un théorème, qui peut être démontré à l'aide de Pythagore.
+Dans d'autres géométries, l'axiome des parallèles est remplacé par un autre qui le contredit, et le théorème de Pythagore n'est donc plus vrai.
+En trigonométrie sphérique, si un triangle est formé par trois arcs de grands cercles à la surface d’une sphère de rayon et si deux de ces arcs se croisent à angle droit, la relation du théorème de Pythagore n’est plus valable, comme dans le cas du triangle équilatéral trirectangle.
+Elle doit être remplacée par la formule :
+:\cos \left (\frac cR\right) = \cos \left (\frac aR\right)\cos \left (\frac bR\right)
+où c est la longueur de l’arc opposé à l’angle droit.
+Une relation similaire existe en géométrie hyperbolique pour une courbure constante égale à −1 :
+\cosh\left (\frac cR\right)=\cosh\left (\frac aR\right)\cosh\left (\frac bR\right)
+où désigne la fonction cosinus hyperbolique.
+Dans les deux cas, un développement limité à l’ordre 2 redonne, pour des triangles de faible dimension, la relation du théorème de Pythagore en géométrie plane.
+Plus généralement, la propriété résiste mal au transfert dans d’autres géométries à cause de leur courbure :
+Dans le cadre de la relativité générale, l’espace euclidien est remplacé par un espace courbe où les segments sont remplacés par des géodésiques.
+La théorie de la relativité générale soutient que la matière et l’énergie conduisent l’espace à être non euclidien et le théorème ne s’applique donc pas strictement en présence d’énergie.
+Cependant, la déviation par rapport à l’espace euclidien est faible sauf auprès d’imposantes sources gravitationnelles comme les trous noirs.
+Déterminer si le théorème est enfreint sur d’importantes échelles cosmologiques, c’est-à-dire mesurer la courbure de l’Univers, est un problème ouvert pour la cosmologie.
+Calcul numérique
+En informatique, le calcul direct de la longueur de l'hypoténuse par le théorème de Pythagore, par élévation au carré puis racine carrée de la somme, peut conduire pour des valeurs extrêmes (très grandes ou très faibles en valeur absolue) à des erreurs de dépassement ou de soupassement : l'étape intermédiaire d'élévation au carré peut mener à des résultats non représentables, par exemple pour la norme très utilisée IEEE 754, et donc à un résultat final de 0 ou « infini », alors même que le résultat final est lui-même représentable.
+L'algorithme de Moler-Morrisson, dérivé de la méthode de Halley, est une méthode itérative efficace qui évite ce problème..
+Culture
+Le théorème de Pythagore est mentionné dans La Planète des singes, de Pierre Boulle.
+Le narrateur, considéré comme un animal dépourvu d’intelligence, détrompe en effet son interlocuteur en traçant une figure géométrique qui illustre le théorème.
+Le chansonnier Franc-Nohain a composé un quatrain qui cite le théorème :

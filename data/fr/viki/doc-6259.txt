@@ -1,0 +1,38 @@
+Python (langage de programmation)
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : Python.
+Python est un langage informatique de haut niveau1 : c'est une suite d'instructions données par l'homme à l'ordinateur pour qu'il exécute certaines tâches.
+Il est actuellement le langage le plus utilisé au monde car puissant, rapide et efficace.
+Comme il s'agit d'un langage de haut niveau, il est donc plus facile.
+Sommaire
+Python se distingue des autres langages de programmation par la facilité avec laquelle on peut l'apprendre, car il est très intuitif.
+Par exemple, pour que l'ordinateur sache que l'on veut créer une variablenombre contenant la valeur 2, il suffit d'écrire :
+nombre=2
+alors qu'en C, C++ et notamment Java (des langages moins haut niveau), par exemple, il faut préciser que la variable nombre est un entier (int) avant de pouvoir lui donner la valeur 2 :
+Python
+contrairement au C, est un langage de haut niveau.
+Cela signifie qu'il est plus proche du langage humain (ici, de l'anglais, malgré les apparences) et donc plus facile, que d'autres langages, et notamment le langage binaire, que lit directement l'ordinateur.
+La traduction de nombre = 2 (Python) en binaire devrait en effet donner :
+Cet exemple peut aider à comprendre pourquoi on dit de Python qu'il est un langage informatique de haut niveau : comparé aux morceaux de code directement traité par la machine (le code binaire, suite de 0 et de 1 incompréhensible pour les êtres humains), il est très clair et très éloigné du fonctionnement de base de l'ordinateur.
+L'inconvénient de Python, comme pour tous les autres langages de haut niveau, est que son interprétation2 nécessite de nombreux autres fichiers, appelés « bibliothèques » ;
+ces fichiers permettent par exemple d'écrire en binaire que print « Bonjour »3 en Python signifie « afficher successivement les caractères B, o, n, etc. à l'écran » en binaire.
+Ce morceau de code permet d'afficher douze fois le mot Liberté.
+Ex2:
+Explication ex1:
+Précisément, il crée une variable nombre valant 0.
+Ensuite, il crée une boucle avec « while » (qui signifie « tant que ») : tant que nombre est plus petit que 12, l'ordinateur doit répéter ce qui se trouve dans la boucle, à savoir l'instruction afficher «
+Liberté !
+puis augmenter nombre d'une unité.
+Explication ex2:
+Ce code signifie " chaque élément (for) dans (in) la liste de 0 à 12 sont stockés dans la variable i .
+" Pour un ordinateur 0 est un chiffre
+Le dernier chiffre (12) ne compte pas.
+Ensuite print va faire afficher Liberté 12 fois à cause de la variable i.
+Pour comparer Python avec d'autres langages :
+Python est utilisé par des entreprises telles que :
+RUR
+PLE est un programme fait pour apprendre le Python de façon plutôt amusante, en programmant un robot qui se déplace à l'écran.
+Son interface est en français.
+↑Sa «
+traduction » en langage binaire, le seul que comprenne l'ordinateur.

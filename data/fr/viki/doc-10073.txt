@@ -1,0 +1,37 @@
+Feuilles de style en cascade
+Le CSS (Cascading Style Sheets : Feuilles de style en cascade) est un code informatique utilisé pour mettre en forme les pages XML, dont le HTML, célèbre langage d'écriture de pages Web.
+Tout comme le HTML et bien plus encore, le xHTML, le CSS est validé par le W3C, le World Wide
+Web
+Consortium
+Depuis sa création vers 1990, quasiment tous les sites web l'utilisent.
+En effet, sans CSS, un site internet n'est qu'une page écrite noir sur blanc sans aucune couleur et aucune mise en forme.
+Sommaire
+Du code CSS se place dans un fichier .css ou bien entre et Dans celui-ci, on mettra un code du genre :
+Le style sera appliqué à tous les textes dans une balise .
+Ici
+nous désignons un élément html par son id avec le sélecteur `#`.
+Exemple de balise : blablabla * * Enfin
+nous désignons ici un élément par son attribut class avec le sélecteur `.
+Exemple de balise : blablabla .
+Il existe beaucoup d'autres sélecteurs */
+Comme vous le voyez, on désigne couramment un élément XML par sa balise (pas de sélecteur), par son id (sélecteur "'#") ou par sa classe (sélecteur ".
+").
+Il existe beaucoup d'autres sélecteurs moins usités.
+Une fois l'élément sélectionné, on place entre deux accolades les styles sous la forme propriété:contenu.
+Il existe énormément de propriétés CSS.
+Cependant, nous n'en détaillerons que quelques-unes ici.
+Celle-ci change la couleur du texte.
+Elle peut être indiquée de plusieurs manières :
+Par un nom de couleur en anglais.
+Exemple : white, black, blue, red, green, ... mais il n'y en a que 16.
+Par un code hexadécimal.
+Exemple : #000000, #ffffff, #0000ff, #ff0000, #00ff00, ...
+Par un code couleur RVB.
+Exemple : rgb (0, 0, 0) ;
+rgb (0, 0, 255) ;
+rgb (255, 215, 0) ;
+Change la couleur de fond du texte.
+La couleur se définit de la même manière que pour la propriété color.
+Ajoute une décoration au texte.
+Celle-ci peut valoir underline (souligné), overline (ligne au dessus), none (pas de décoration), ...
+Les langages de l’informatique

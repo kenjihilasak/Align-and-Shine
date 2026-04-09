@@ -1,0 +1,92 @@
+Cheval de Troie
+Un cheval de Troie ( en anglais) est un type de logiciel malveillant, qui ne doit pas être confondu avec les virus ou autres parasites.
+Le cheval de Troie est un logiciel en apparence légitime, mais qui contient une fonctionnalité malveillante.
+Le rôle du cheval de Troie est de faire entrer ce parasite sur l'ordinateur et de l'y installer à l'insu de l'utilisateur.
+Histoire
+L'origine du concept
+Le terme « cheval de Troie » a été inventé en 1970 par Daniel J. Edwards, chercheur à la NSA.
+La terminologie a été par la suite utilisée en 1974 dans un rapport de l'US Air Force sur l'analyse de la vulnérabilité des systèmes informatiques, puis présentée en 1981 par David Jordan
+et enfin vraiment popularisée par Ken Thompson dans la conférence Turing qu'il donna à la réception du prix Turing en 1983, prix qu'il avait reçu pour avoir créé UNIX
+Sa conférence est sous-titrée:
+autrement dit :
+Il signale qu'il a eu connaissance de l'existence possibles de chevaux de Troie, à la manière de ceux qu'ils présentent, dans un rapport sur la sécurité de Multics dont malheureusement il ne peut pas trouver de référence, mais Paul Karger et Roger Schell sont en position d'affirmer qu'il s'agit du rapport cité plus haut .
+La légende du cheval de Troie dans l'Illiade
+Les chevaux de Troie informatiques (ou en anglais) tirent leur nom d'une célèbre légende de la Grèce antique, racontée par Homère dans l'Iliade et reprise par Virgile dans l'Énéide.
+Le cheval de Troie est la méthode utilisée par les Grecs pour conquérir la ville de Troie : le héros Ulysse fit construire un immense étalon de bois qu'il plaça devant les portes de Troie et dans les flancs duquel il se cacha avec ses compagnons.
+Lorsque les Troyens découvrirent ce cheval, ils le firent entrer eux-mêmes dans leur cité.
+Ils s'endormirent sans méfiance tandis que le cheval se trouvait dans leurs murs.
+À la nuit tombée, Ulysse et ses compagnons sortirent de leur cachette et ouvrirent les portes de la ville au reste de l'armée, qui la détruisit et massacra ses habitants.
+Les chevaux de Troie
+aujourd’hui
+Un cheval de Troie informatique est un programme d'apparence inoffensive, mais qui en contient un autre, malveillant celui-là et qui est installé par l'utilisateur lui-même, ignorant qu'il fait pénétrer un intrus malveillant sur son ordinateur.
+C'est par analogie, que ce type de programme a été baptisé « cheval de Troie », en référence à la ruse qu'Ulysse utilisa pour contourner les défenses adverses.
+En 2014, une étude de l'Association of Internet Security Professionnals centrée sur les dangers du live streaming illégal révèle qu'un ordinateur sur trois est infecté par un logiciel malveillant et que 73 % de ces infections proviennent d'un cheval de Troie.
+Quelques précisions terminologiques
+Le programme contenu (ou téléchargé par la suite automatiquement) est appelé la charge utile.
+Il peut s'agir de n'importe quel type de parasite : virus, keylogger, logiciel espion...
+C'est ce parasite qui va exécuter des actions au sein de l'ordinateur victime.
+Le cheval de Troie n'est rien d'autre que le véhicule, celui qui fait "entrer le loup dans la bergerie".
+Il n'est pas nuisible en lui-même car il n'exécute aucune action, si ce n'est celle de permettre l'installation du vrai parasite.
+Dans le langage courant, par métonymie on nomme souvent "cheval de Troie" le parasite contenu à l'intérieur.
+Cette confusion est en partie alimentée par les éditeurs d'antivirus, qui utilisent "trojan" comme nom générique pour désigner différents types de programmes malveillants qui n'ont rien à voir avec des trojans.
+Vecteurs d'infection
+Le cheval de Troie prend l'apparence d'un logiciel existant, légitime et parfois même réputé, mais qui aura été modifié pour y dissimuler un parasite.
+La subtilité avec laquelle l'installation est faite est expliquée par Ken Thompson dans sa conférence Turing.
+Berné, l'utilisateur va télécharger et installer le programme, pensant avoir affaire à une version saine.
+En réalité, le logiciel véhicule un parasite qui va pouvoir s'exécuter sur son ordinateur.
+Les logiciels crackés peuvent être des chevaux de Troie qui vont allécher l'internaute qui cherche à obtenir gratuitement un logiciel normalement payant (Adobe
+Acrobat pro, Photoshop, Microsoft Office..).
+Origines fréquentes des chevaux de Troie
+* Téléchargement de versions trafiquées sur des sites non officiels ou des plateformes peu sûres (P2P)
+Télécharger les logiciels sur le site officiel de l'auteur ou du distributeur évite normalement d'avoir affaire à une version infectée par un cheval de Troie.
+* Visite de sites
+Web
+contenant un exécutable (par exemple les contrôles ActiveX ou des applications Java)
+* Exploitation de failles
+dans des applications obsolètes (navigateurs, lecteurs multimédias, clients de messagerie instantanée) et notamment les Web Exploit
+* Ingénierie sociale (par exemple, un pirate envoie directement le cheval de Troie à la victime par messagerie instantanée).
+* Pièces jointes et fichiers envoyés par messagerie instantanée.
+* Connexion d'un ordinateur à un périphérique externe infecté.
+Notions voisines du cheval de Troie
+Le cheval de Troie ne doit pas être confondu avec d'autres notions proches :
+* Linjecteur (ou dropper, en anglais)
+est quasiment identique au cheval, car il sert lui aussi de véhicule pour une malveillance.
+Mais l'injecteur est un programme spécialement fabriqué pour propager des parasites, alors que le cheval est une version modifiée d'un programme existant et légitime.
+La porte dérobée (backdoor) est un programme qui va s'exécuter discrètement sur l'ordinateur où il est installé pour y créer une faille de sécurité.
+Le backdoor ouvre un ou plusieurs ports sur la machine, ce qui lui permet d'accéder à internet librement et de télécharger, à l'insu de l'utilisateur, un parasite.
+Le backdoor n'est donc pas un cheval de Troie : il ne véhicule pas le parasite en lui, il va simplement ouvrir l'accès et récupérer, via internet, le programme malveillant qui se trouve sur un serveur distant.
+Le RAT (
+Remote administration tool) est un logiciel de prise de contrôle à distance d'un ordinateur.
+Un RAT peut être un outil légitime (par exemple pour le dépannage à distance), mais il peut aussi être utilisé par un pirate pour s'emparer d'une machine.
+Dans ce cas, l'introduction du RAT sur la machine à contrôler se fait à l'insu de l'utilisateur.
+Par exemple, par un cheval de Troie qui contient le RAT, mais le RAT n'est pas le cheval.
+Contrairement à ce qu'on lit parfois, le T de RAT ne signifie pas Trojan mais Tool (outil).
+Les bombes de décompression ne transportent pas de parasite, mais elles peuvent être confondues avec les chevaux de Troie car la notion de conteneur entre aussi en jeu.
+Il s'agit d'un fichier compressé, par exemple un fichier zip, de taille raisonnable tant qu'il n'est pas ouvert.
+Mais lorsque l'utilisateur va tenter de la décompresser, elle va générer un fichier d'une taille gigantesque.
+Cette "explosion" entraîne le ralentissement ou le plantage de l'ordinateur, et sature le disque dur avec des données inutiles.
+Bien qu'il s'agisse de conteneurs malveillants, le fonctionnement des bombes de décompression n'a donc rien à voir avec celui des chevaux de Troie.
+En effet, elles ne transportent aucun parasite indépendant, elles saturent la machine de données aléatoires.
+Le Trojan Stealer, plutôt spécialisé dans le vol de données et notamment les comptes en ligne (Mail, Réseaux sociaux ou encore bancaire).
+Le préfixe utilisé par les antivirus peut alors être Trojan.
+PWD où PWD signifie password pour mot de passe.
+Symptômes possibles d'une infection
+* Activité anormale de la carte réseau ou du disque dur ou du modem
+* Ouvertures impromptues de programmes, du lecteur CD/DVD
+*Un comportement inhabituel dans le fonctionnement de l'ordinateur, tels que: changements d'économiseur d'écran de bureau, modification du rôle des boutons de la souris, modification du volume du lecteur audio.
+*Les programmes commencent ou terminent leur exécution de manière inattendue.
+Le navigateur accède tout seul à certains sites Internet.
+* Présence d'autres programmes qui n'ont pas été volontairement installés (y compris des logiciels malveillants)
+* Vol de renseignements personnels :
+informations bancaires, mots de passe, codes de sécurité...
+* Suppression, modification ou transfert de fichiers (téléchargement ou upload)
+* Surveillance des frappes (voir Enregistreur de frappe)
+* Espace libre du disque dur
+occupé par des fichiers inutiles.
+Prévention et lutte
+Pour lutter contre ce genre de programme malveillant, l'utilisation d'un antivirus peut s'avérer efficace, mais reste souvent insuffisante.
+Il est conseillé de faire une analyse complète de son système d'exploitation et un nettoyage profond effectué de préférence par un technicien agréé.
+Dans certains cas, l'utilisateur peut se retrouver obligé de démarrer sur un autre système d'exploitation, puis de redémarrer en mode sans échec pour pouvoir reprendre la main.
+Exemples
+Une liste des Trojan Banker
+, les plus actifs en 2016, spécialisés dans le vol de comptes bancaires :

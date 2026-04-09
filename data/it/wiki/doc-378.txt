@@ -1,0 +1,94 @@
+Le leggi di Keplero sono tre leggi concernenti il movimento dei pianeti.
+Sono il principale contributo di Johannes von Kepler all'astronomia e alla meccanica.
+L'astronomo tedesco le derivò studiando le osservazioni di Tycho Brahe.
+Isaac Newton, successivamente, dedusse dalle leggi di Keplero la spiegazione dinamica dei moti planetari introducendo, quale causa del moto, una forza, detta forza di gravitazione universale.
+Newton dimostrò anche il teorema inverso, ossia che dalla sua legge generale del moto e dalla forza di gravità si ottengono, in maniera equivalente, le leggi di Keplero.
+Prima Legge (Legge delle orbite ellittiche, 1609)
+La prima legge afferma che:
+Con questa definizione capiamo quindi che la distanza della Terra dal Sole non è sempre uguale ma cambia.
+Infatti il punto in cui il nostro pianeta si trova più distante dal Sole è detto afelio, mentre il punto in cui la Terra è più vicina al Sole si chiama perielio.
+Keplero propone un modello eliocentrico in cui le orbite non sono circolari, rinunciando così, per la prima volta, alle forme perfette;
+egli è supportato, nel farlo, dai dati osservativi ottenuti da Tycho Brahe.
+Osserviamo che, poiché l'ellisse è una figura piana, i moti dei pianeti avvengono in un piano, detto piano orbitale.
+Per la Terra tale piano è detto eclittica.
+Nella figura a fianco è rappresentata un'orbita ellittica, con indicati i suoi parametri caratteristici:
+semiasse maggiore (a), semiasse minore (b), semi-distanza focale (c), eccentricità (e).
+Fra questi parametri sussistono le seguenti relazioni:
+c =\sqrt
+e=\frac
+L'ellisse in figura ha un'eccentricità di circa 0,5 :
+un'ellisse con tale caratteristica è assai frequente tra le orbite degli asteroidi.
+I pianeti hanno invece eccentricità molto più piccole:
+0,0167 per la Terra, 0,0934 per Marte e 0,2482 per Plutone (pianeta nano).
+Le parti più importanti dell'ellisse sono il raggio vettore che unisce il centro del sole al centro di un pianeta.
+Poi troviamo la linea degli apsidi, che è la retta passante per i due fuochi dell’ellisse insieme ai suoi punti di intersezione con l’ellisse chiamati apsidi o vertici.
+La prima legge di Keplero è molto importante perché essa separa definitivamente la teoria eliocentrica di Nicolò Copernico dalla teoria geocentrica di Tolomeo.
+Con questa legge propone un modello eliocentrico in cui le orbite non sono circolari ma ellittiche, e in questo modo fu il primo a rinunciare alla forma perfetta.
+Seconda Legge (Legge delle aree, 1609)
+La seconda legge afferma che:
+La velocità orbitale al perielio è maggiore di quella all’afelio perché la parte di orbita che il pianeta percorre nello stesso periodo di tempo è maggiore.
+L’area descritta dal raggio vettore però rimane invariata perché la sua lunghezza nei due casi è differente.
+Conseguenze della seconda legge
+* La velocità orbitale non è costante, ma varia lungo l'orbita.
+Le due aree evidenziate nella figura qui a fianco sono infatti uguali e vengono quindi percorse nello stesso tempo.
+In prossimità del perielio, dove il raggio vettore è più corto che nell'afelio, l'arco di ellisse è corrispondentemente più lungo.
+Ne segue quindi che la velocità orbitale è massima al perielio e minima all'afelio.
+* Il momento angolare orbitale del pianeta si conserva (vedi riquadro sotto per la dimostrazione).
+* La velocità lungo una determinata orbita è inversamente proporzionale al modulo del raggio vettore.
+Questa è una conseguenza della conservazione del momento angolare.
+Se L, dato dal prodotto di m, r e vt è costante, allora ne discende che vt è inversamente proporzionale a r (si veda "momento angolare" per la definizione di L, m, r e vt).
+* Sul pianeta viene esercitata una forza centrale, cioè diretta secondo la congiungente tra il pianeta e il Sole.
+La seconda legge della dinamica per i sistemi in rotazione è
+\operatorname d \mathbf
+L/\operatorname
+d t = \mathbf M
+dove M è il momento meccanico applicato.
+Poiché L si conserva, la sua variazione è nulla e quindi anche M è nullo.
+Questo può accadere solo se F è parallelo a r, cioè è diretto come la congiungente con il Sole.
+del pianeta
+nel tempo Δ t.
+Se Δ t è sufficientemente piccolo, AB può essere approssimato da un segmento di retta.
+Sia inoltre θ l'angolo tra il raggio vettore e AB.
+Nel tempo Δ t viene quindi descritta un'area
+\Delta S = \frac \cdot \cdot \sin (\theta)
+La velocità areolare è quindi
+v_A
+\lim_ \frac
+\fracv r \sin (\theta)
+essendo
+v = \lim_ \frac
+la velocità orbitale istantanea.
+Poiché mvr \sin (\theta) è il modulo del momento angolare, risulta v_A = \frac .
+Se v_A è costante, anche L lo è.
+La seconda legge di Keplero non è altro che la conservazione del Momento angolare (la costanza del momento angolare, deriva, a sua volta, dal fatto che la forza è centrale).
+Terza Legge (Legge dei periodi, 1619)
+La terza legge afferma che:
+Il rapporto tra il quadrato del periodo di rivoluzione e il cubo del semiasse maggiore dell'orbita è lo stesso per tutti i pianeti
+Questa legge può essere espressa in forma matematica nel modo seguente:
+T^2 = K a^3
+dove a è il semiasse maggiore dell'orbita, T il periodo di rivoluzione e K una costante (a volte detta di Keplero), che dipende dal corpo celeste attorno al quale avviene il moto di rivoluzione.
+Se si considera il moto di rivoluzione dei pianeti del sistema solare attorno al Sole, si misurano le distanze in unità astronomiche e il tempo in anni solari, K vale 1.
+Rimarchiamo il fatto che la terza legge vale anche per i satelliti che orbitano intorno ai pianeta:
+il valore della costante, cambia da pianeta a pianeta mentre per un fissato pianeta, essa è uguale per tutti i satelliti del suddetto pianeta.
+Per un'orbita circolare la formula si riduce
+T^2 = K
+dove r è il raggio dell'orbita.
+Si può dimostrare che K
+\frac , con k
+Gm_1 m_2 per il caso gravitazionale e \mu massa ridotta.
+La dimostrazione è particolarmente semplice nel caso di orbita circolare di raggio a e nell'approssimazione in cui una massa (per esempio quella del sole) sia molto più grande dell'altra (pianeta), ovvero m_1 \gg m_2.
+La forza di attrazione gravitazionale è F_G
+\frac, e la forza centrifuga (supponendo m_1 fissa)
+è F_C
+m_2
+\omega^2 a dove \omega = \frac è la pulsazione e T il periodo.
+Uguagliando le due forze si ottiene
+\frac = \frac
+Limiti di validità delle leggi di Keplero
+Va specificato che le leggi di Keplero così formulate sono esatte se e solo se sono soddisfatte le seguenti ipotesi:
+* la massa del pianeta è trascurabile rispetto a quella della stella di riferimento;
+* si possono trascurare le interazioni tra diversi pianeti (tali interazioni portano a leggere perturbazioni sulla forma delle orbite);
+* l'intensità della gravità permette di trascurare gli effetti della teoria della relatività generale.
+Bibliografia
+* Frederick J. Bueche, Fisica, Milano, Principato, 1991,
+* Paride Nobel, Fenomeni Fisici, Napoli, Editrice Ferraro, 1994 ISBN 88-7271-126-6

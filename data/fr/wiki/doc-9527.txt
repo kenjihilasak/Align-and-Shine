@@ -1,0 +1,45 @@
+Statistique descriptive
+En théorie des probabilités et en statistiques, la médiane d'un ensemble de valeurs (échantillon, population, distribution de probabilités) est une valeur x qui permet de couper l'ensemble des valeurs en deux parties égales : mettant d'un côté une moitié des valeurs, qui sont toutes inférieures ou égales à x et de l'autre côté l'autre moitié des valeurs, qui sont toutes supérieures ou égales à x (s'il y a un nombre impair de valeurs, la valeur centrale sera mise des deux côtés).
+Intuitivement, on peut dire que la médiane est le point milieu de l'ensemble, qu'elle divise en deux moitiés.
+C'est un indicateur de tendance centrale de la série.
+On peut déterminer une médiane pour un ensemble de valeurs non numériques.
+Il s'agit d'algorithmes qui permettent de manière générale de déterminer le k-ième élément d'une liste de n éléments (voir Algorithme de sélection) ;
+k = n/2 pour la médiane.
+Ce sont des adaptations des algorithmes de tri, mais qui sont plus performants du fait que l'on ne s'intéresse pas à toutes les valeurs.
+On peut par exemple utiliser l'algorithme diviser pour régner en seulement O (n) opérations ;
+c'est le cas de l'algorithme quickselect, variation du Tri rapide (quicksort), qui est en général en O (n) mais peut être en O (n2) dans le pire des cas.
+Mesure de la dispersion statistique
+Lorsque la médiane est utilisée pour situer des valeurs en statistiques descriptives, il existe différentes possibilités pour exprimer la variabilité : l'étendue, l'écart interquartile et l'écart absolu.
+Puisque la médiane est la même valeur que le deuxième quartile, son calcul est détaillé dans l'article sur les quartiles.
+Médianes dans les distributions de probabilités
+Pour toutes distributions de probabilités réelles, la médiane m satisfait l'égalité :
+:\operatorname (X\leq m) \geq \frac\text\operatorname (X\geq m) \geq
+\frac\,\
+c'est-à-dire en termes de fonction de répartition :
+- \lim_ F_X (x).
+Ainsi pour une distribution de probabilités diffuse :
+:F_X (m) = \frac.
+Médianes de certaines distributions
+Pour toutes les distributions symétriques, la médiane est égale à l'espérance.
+La médiane de la loi normale d'espérance μ et de variance σ2 est μ.
+Pour cette distribution, espérance
+médiane
+mode.
+La médiane de la loi uniforme continue dans l'intervalle a, b est (a + b) / 2, qui est aussi l'espérance.
+La médiane de la loi de Cauchy avec le critère de position x0 et le paramètre d'échelle y est x0, le critère de position.
+La médiane de la loi exponentielle avec le facteur d'échelle λ est la division du logarithme népérien de 2 par le facteur d'échelle, soit ( )
+Médianes en statistiques descriptives
+La médiane est principalement utilisée pour les distributions asymétriques, car elle les représente mieux que la moyenne arithmétique.
+Considérons l'ensemble .
+La médiane est 2, tout comme le mode, ce qui est une meilleure mesure de tendance centrale que la moyenne arithmétique égale à 3,166….
+Le calcul de la médiane est couramment effectué pour représenter différentes distributions et elle est facile à comprendre, tout comme à calculer.
+Elle est aussi plus robuste que la moyenne en présence de valeurs extrêmes.
+Propriétés théoriques
+Propriété optimale
+La médiane est aussi la valeur centrale qui minimise la valeur moyenne des écarts absolus.
+Dans la série donnée auparavant, ce serait (1 + 0 + 0 + 0 + 1 + 7) / 6 = 1,5, plutôt que 1,944 à partir de la moyenne, qui, elle, minimise les écarts quadratiques.
+En théorie des probabilités, la valeur c qui minimise
+:E (\left|X-c\right|)\,
+est la médiane de la distribution de probabilités de la variable aléatoire X.
+Inégalité impliquant les moyennes et les médianes
+Pour les distributions continues de probabilités, la différence entre la médiane et l'espérance est au plus d'un écart type.

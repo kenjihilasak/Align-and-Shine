@@ -1,0 +1,114 @@
+Analyse
+réelle|Courbe
+Le terme dasymptote est utilisé en mathématiques pour préciser des propriétés éventuelles d'une branche infinie de courbe à accroissement tendant vers l'infinitésimal.
+C'est d'abord un adjectif d'étymologie grecque qui peut qualifier une droite, un cercle, un point… dont une courbe plus complexe peut se rapprocher.
+C'est aussi devenu un nom féminin synonyme de droite asymptote.
+Une droite asymptote à une courbe est une droite telle que, lorsque l'abscisse ou l'ordonnée tend vers l'infini, la distance de la courbe à la droite tend vers 0.
+L'étude du comportement asymptotique est particulièrement développé dans les études de fonctions et présente des commodités reconnues par de nombreux mathématiciens.
+Dans le domaine scientifique, il arrive fréquemment d'étudier des fonctions dépendant du temps (évolution de populations, réaction chimique ou nucléaire, graphique de température, oscillation d'un amortisseur).
+Un des objectifs du chercheur est alors de connaître l'état à la fin de l'expérience, c’est-à-dire lorsqu'un grand intervalle de temps s'est écoulé.
+L'objectif n'est alors pas de connaître les variations intermédiaires mais de déterminer le comportement stable, à l'infini du phénomène mesuré.
+Le projet d'une définition uniforme n'étant pas raisonnable, cet article détaillera plusieurs situations.
+Asymptote et rencontre
+L'étymologie grecque du mot
+asymptote » construit à l'aide du préfixe privatif «
+a » et de « symptôsis » (rencontre) laisse imaginer que deux courbes asymptotes ne se rencontrent pas.
+Cette impression est renforcée par certains usages littéraires du terme :
+Une des premières rencontres de droites asymptotes avec l'étude de l'hyperbole semble confirmer cet état de fait.
+Cette condition de ne jamais se rencontrer est même présente dans les vieilles définitions de l'asymptote.
+Cependant, la définition mathématique actuelle du terme (courbes se rapprochant indéfiniment près l'une de l'autre) permet la rencontre des courbes une fois ou même une infinité de fois et n'exclut pas la possibilité que les courbes se trouvent confondues.
+File:
+AsymptoteRencontre1.svg|Courbe d'équation et sa droite asymptote : .
+Courbe et droite se rencontrent pour .
+File:
+AsymptoteRencontre2.svg|Courbe d'équation et sa droite asymptote : .
+Courbe et droite se rencontrent une infinité de fois.
+File:
+AsymptoteRencontre3.svg|Courbe d'équation et sa droite asymptote : .
+Courbe et droite finissent confondues.
+File:
+Asymptote02 vectorial.svg|Courbe d'équation paramétrique et sa droite asymptote (d) : .
+Courbe et droite se rencontrent une infinité de fois.
+Courbe d'équation
+Les asymptotes sont à rechercher lorsque ou tend vers l'infini.
+Droite asymptote
+Dans ce qui suit, on utilisera les notations et pour désigner des nombres réels, donc finis.
+Asymptote « verticale
+La droite d'équation est une asymptote verticale à la courbe représentative de la fonction (en ) si, plus la valeur de se rapproche de la valeur finie aussi près que l'on veut, en restant plus petite ou plus grande que , mais sans jamais être égale à , plus la valeur de s'approche de l'infini :
+\lim_f (x) = \pm\infty.
+On trouvera des asymptotes verticales en particulier lorsque la fonction se présente sous forme d'un quotient dont le dénominateur s'annule en , mais pas le numérateur.
+Exemples : fonction homographique, logarithme népérien, fonction tangente
+Asymptote « horizontale »
+La droite d'équation est asymptote horizontale à la courbe d'équation , si, lorsque s'accroît autant qu'on veut vers l'infini (mais sans jamais atteindre l'infini), s'approche d'une valeur finie :
+\lim_f (x) = b.
+Exemples : fonction homographique, fonction exponentielle, tangente hyperbolique
+Asymptote «
+affine »
+La droite d'équation ( étant ici différent de 0) est asymptote oblique à la courbe représentative de la fonction si \lim_\left (f (x)- ax -b)\right)
+= 0.
+Les valeurs de et de se calculent à l'aide des formules suivantes :
+a = \lim_
+b = \lim_
+Si \lim_ est égale au réel alors que n'admet pas de limite réelle en , on dit que la courbe admet comme direction asymptotique la droite d'équation .
+Si \lim_ est égale au réel et si \lim_ f (x)-ax= \pm \infty, on parle alors de branche parabolique de direction .
+Le point de vue projectif
+Les trois situations précédentes n'en forment qu'une en géométrie projective, une asymptote étant une tangente à l'infini.
+Courbe asymptote
+La courbe d'équation est asymptote à la courbe d'équation en si \lim_ f (x)
+- g (x) = 0 .
+Les asymptotes « horizontales » ou « obliques » sont alors des cas particuliers de courbes asymptotes de ce type.
+Courbe paramétrée
+Droite asymptote
+On cherche les droites asymptotes aux branches infinies de la courbe d'équation , c’est-à-dire en (réel ou infini) tel que \lim_ OM (t) = + \infty où est le point de coordonnées .
+La droite d'équation est asymptote à la courbe en si
+\lim_ OM (t)
++ \infty\ \mathrm\ \lim_ ax (t) + by (t) + c
+Pour rechercher une droite asymptote à la courbe, on observe si l'une ou l'autre des coordonnées tend vers l'infini quand tend vers .
+Si aucune des coordonnées ne tend vers l'infini, on ne recherche pas de droite asymptote.
+Si l'une des coordonnées tend vers l'infini tandis que l'autre tend vers un réel, on peut conclure sur l'existence d'une asymptote :
+* la courbe admet la droite pour asymptote en si :
+*:\lim_ x (t)
++ \infty\ \mathrm\ \lim_ y (t)
+y_0 ;
+* la courbe admet la droite pour asymptote en si :
+*:\lim_ x (t)
+x_0\
+\mathrm\ \lim_ y (t)
++ \infty
+Dans le cas où les deux coordonnées tendent vers l'infini, on recherche une asymptote oblique.
+On cherche la limite de quand tend vers .
+Si cette limite est égale à un réel non nul, on cherche alors la limite de quand tend vers .
+Si cette limite est égale à un réel , alors la droite d'équation est asymptote à la courbe.
+Dans tous les autres cas, il n'y a pas d'asymptote oblique.
+Exemple :
+Considérons la courbe d'équation paramétrique
+:\begin x (t)
+1 (1-t^2) \end.
+Lorsque s'approche de -1, l'abscisse et l'ordonnée tendent vers l'infini, le rapport tend vers -1 et la somme tend vers 3/2 donc la courbe possède une droite asymptote d'équation .
+La courbe possède également une asymptote (correspondant au cas où tend vers 1) d'équation ainsi qu'une dernière (cas où tend vers l'infini) d'équation .
+Autres asymptotes
+Courbe d'équation polaire
+On cherche les asymptotes à la courbe d'équation lorsque ou tend vers l'infini ou une valeur donnée.
+Droite asymptote
+Une courbe d'équation polaire admet une direction asymptotique lorsque
+, pour donné, on a
+\lim_ \rho (\theta) = \infty
+La courbe admet alors une droite asymptote s'il existe un réel tel que
+\lim_ \rho (\theta)\sin (\theta-\theta_0)=\lambda
+La courbe s'approche de la droite d'équation
+\rho (\theta)
+= \frac
+Cercle asymptote
+Une courbe d'équation polaire admet un cercle asymptote lorsqu'il existe donné tel que
+:\lim_ \rho (\theta) = \rho_0
+La courbe «
+s'enroule » alors sur le cercle d'équation .
+Si au voisinage de , , la courbe s'enroule à l'intérieur du cercle asymptote, si, au contraire, au voisinage de , , alors elle s'y enroule à l'extérieur.
+Point asymptote
+Il peut arriver qu'une branche infinie d'une courbe s'enroule autour d'un point en s'en approchant indéfiniment.
+Ce point est alors appelé point asymptote à la courbe.
+On trouve cette situation au centre d'une spirale logarithmique.
+En équation polaire, l'origine est un point asymptote si \lim_ \rho (\theta) = 0.
+Note et référence
+Articles connexes
+ben63p3007dc6u5d39h2vpwh4ck015m

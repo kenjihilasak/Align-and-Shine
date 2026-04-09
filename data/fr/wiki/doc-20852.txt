@@ -1,0 +1,192 @@
+Standard du web|HTML
+HTML5 (
+) est la dernière révision majeure du HTML (format de données conçu pour représenter les pages web).
+Cette version a été finalisée le 28 octobre 2014.
+HTML5
+spécifie deux syntaxes d'un modèle abstrait défini en termes de DOM : HTML5 et XHTML5.
+Le langage comprend également une couche application avec de nombreuses API, ainsi qu'un algorithme afin de pouvoir traiter les documents à la syntaxe non conforme.
+Le travail a été repris par le W3C en mars 2007 après avoir été lancé par le WHATWG.
+Les deux organisations travaillent en parallèle sur le même document afin de maintenir une version unique de la technologie.
+Le W3C clôt les ajouts de fonctionnalités le 22 mai 2011, annonçant une finalisation de la spécification en 2014, et encourage les développeurs Web à utiliser dès ce moment.
+Fin 2016, la version 5.1 est officiellement publiée et présente plusieurs nouveautés qui doivent faciliter le travail des développeurs d'applications Web.
+Dans le langage courant, HTML5 désigne souvent un ensemble de technologies Web (HTML5, CSS3 et JavaScript) permettant notamment le développement d'applications ( DHTML).
+Contexte historique
+Changements par rapport à HTML 4.X et XHTML
+1.X
+Doctype
+Tout comme les pages HTML ou XHTML, les documents HTML5 nécessitent une déclaration cette déclaration est facultative, le navigateur l'interprétant en mode standard par défaut.
+Pour utiliser la structure XML (), il faut préciser dans le : « Content-Type: application/xhtml+xml ».
+Exemple d'utilisation avec HTML5
+titre de la page
+nom de mon lien
+nom de mon lien
+nom de mon lien
+titre de mon article
+texte de mon article
+sous-titre mon article
+texte de mon sous-titre
+titre de mon article
+texte de mon article
+sous-titre mon article
+texte de mon sous-titre
+nom de mon lien
+nom de mon lien
+nom de mon lien
+La déclaration du Doctype n'est pas sensible à la casse et il n'y a plus de référence à une DTD (, ou Définition de Type de Document, document permettant de décrire un modèle de document SGML ou XML).
+Encodage
+Le processus de détection de l'encodage a également été modifié et s'effectue dans l'ordre, la vérification de la présence d'un HTTP «
+Content
+Type »
+et ensuite à la détection du BOM en début de fichier.
+Solutions
+Quelques produits (logiciels ou outils sur le Web), comme ou pixappy designer, permettent de créer plus ou moins facilement des contenus HTML5.
+XHTML5
+Pour les documents XHTML5, l'auteur doit spécifier l'encodage dans le correspondants, sans quoi la page sera en erreur et le navigateur pourrait ne pas être capable de l'afficher.
+C’est le mode le plus strict qui impose d'avoir une syntaxe quasi parfaite.
+Exemple
+Nouveaux éléments
+* main
+définit le contenu principal de la page, il doit être unique dans la page.
+* section : définit les sections du document, telles que les chapitres, en-têtes, pieds de page.
+* article : partie indépendante du site, comme un commentaire.
+* header : spécifie une introduction, ou un groupe d'éléments de navigation pour le document.
+* footer : définit le pied de page d'un article ou un document.
+Contient généralement le nom de l'auteur, la date à laquelle le document a été écrit et / ou ses coordonnées.
+* figure : définit des images, des diagrammes, des photos, du code
+* audio : pour définir un son, comme la musique ou les autres flux audio ().
+* track : permet d’insérer un sous-titre (au format WebVTT) à une vidéo affichée avec la balise vidéo.
+* meter : permet d’utiliser les mesures avec un minimum et maximum connus, pour afficher une jauge.
+* progress :
+définit une barre de progression sur le travail en cours d’exécution.
+* time : définit une date ou une heure, ou les deux.
+Cette balise a été abandonnée en octobre 2011 en faveur de la balise data avant d'être réintroduite.
+* canvas : utilisé pour afficher des éléments graphiques
+, il faut utiliser un script pour l’animer.
+* command : définit un bouton.
+Cette balise est uniquement supportée par .
+Il n'est donc pas recommandé de l'utiliser.
+* details : précise les détails supplémentaires qui peuvent être masqués ou affichés sur demande.
+Nouveaux attributs
+Pour la balise :
+* media : permet de spécifier pour quel média ou appareil il est optimisé.
+Pour la balise :
+* media : permet de spécifier pour quel média ou appareil il est optimisé.
+* rel :
+indique la relation entre le document courant et l'URL cible.
+Pour la balise :
+* autofocus : indique que le bouton doit avoir le focus pendant le chargement de la page.
+* form :
+spécifie à quel formulaire le bouton appartient.
+* formaction : spécifie où envoyer le form-data quand un formulaire est soumis.
+Remplace l'attribut action du formulaire.
+* formenctype
+: indique comment le form-data doit être encodé avant d’être envoyé à un serveur.
+Remplace l'attribut enctype du formulaire.
+* formmethod : définit comment il faut envoyer le form-data.
+* formnovalidate : si présent, indique que le formulaire ne doit pas être validé quand il est envoyé.
+* formtarget : spécifie où ouvrir/exécuter l’action.
+Pour la balise :
+Pour la balise :
+* novalidate
+si présent le formulaire n’est pas validé lorsqu’il est soumis.
+Pour la balise :
+* manifest : URL de déclaration (manifest)
+des fichiers pour un usage hors ligne.
+Pour la balise :
+* sandbox : spécifie des restrictions sur le contenu de l'iframe
+* seamless
+: indique que l'iframe doit être parfaitement intégrée dans le document.
+* srcdoc : le code HTML du document affiché dans l'iframe.
+Pour la balise :
+* autofocus : définit le focus lors du chargement de la page.
+* form :
+spécifie à quel formulaire le champ appartient.
+* formaction : remplace l'attribut "action" du formulaire.
+Indique l'URL à laquelle envoyer les données du formulaire.
+* formenctype :
+remplace l'attribut "enctype" du formulaire.
+Indique comment la forme-données doit être encodé avant d’être envoyé au serveur.
+* formmethod : remplace l’attribut "method" du formulaire.
+Définit la méthode
+HTTP d'envoi des données à l'URL
+* formnovalidate : remplace l'attribut "novalidate" du formulaire.
+S'il est présent le champ de saisie ne devrait pas être validé lors de son envoi.
+* formtarget
+remplace l'attribut "target" du formulaire.
+Indique la fenêtre cible utilisée lorsque le formulaire est soumis.
+* list : désigne un "datalist" contenant des options prédéfinies pour le champ de saisie.
+* max :
+indique la valeur maximale du champ d'entrée.
+* min
+: indique la valeur minimale du champ d'entrée.
+* multiple : si présent, l’utilisateur peut entrer plusieurs valeurs.
+* placeholder : un conseil pour aider les utilisateurs à remplir le champ de saisie.
+* required
+indique que la valeur du champ de saisie est nécessaire pour soumettre le formulaire.
+Pour la balise :
+Pour la balise :
+* type :
+définit le type de menu à afficher.
+La valeur par défaut est « list ».
+Pour la balise :
+* charset :
+définit la table de caractères pour l'encodage de la page.
+Pour la balise :
+* reversed :
+si présent, change l’ordre d’affichage.
+Pour la balise :
+* async :
+définit si le script doit être exécuté de manière asynchrone ou pas.
+Pour la balise :
+* form :
+définit un ou plusieurs formulaires pour le "select".
+Pour la balise :
+* scoped :
+si présent, le style est appliqué uniquement sur le parent et les fils.
+Pour la balise :
+* form :
+définit une ou plusieurs formulaires pour le textarea.
+* placeholder :
+définit une astuce pour aider l’utilisateur.
+* required
+indique que la valeur du champ de saisie est nécessaire.
+* wrap :
+définit comment le texte est affiché dans le textarea.
+Ainsi que les attributs globaux qui s'appliquent à toutes les balises :
+Connexion et distribution P2P
+* HTML 5 se voit doté de la capacité de réaliser des connexions entre utilisateurs PeerToPeerConnection (), et également grâce aux websockets.
+Changements dans les balises et attributs
+Les balises suivantes sont supprimées car leurs effets étaient purement représentatifs, ce qui est le rôle de CSS.
+Les balises frame, frameset et noframes ont été supprimées elles aussi ;
+elles étaient déjà désuètes car elles créaient des problèmes d'accessibilité et d'utilisation pour l'utilisateur final.
+Les balises suivantes sont elles aussi supprimées :
+* acronym n'est plus incluse
+car elle créait beaucoup de confusions ;
+* isindex
+car elle peut être remplacée par l'utilisation des contrôleurs de formes ;
+Enfin, noscript n'est fourni que dans la version HTML, il n'est pas inclus dans la version XML.
+Obsolescence d'attributs
+Sur la balise a
+Sur la balise area
+Sur la balise embed
+Sur la balise form
+Sur la balise head
+Sur la balise html
+Sur la balise iframe
+Sur la balise input
+Sur la balise img
+Sur la balise link
+Sur la balise meta
+Sur la balise object
+Sur la balise option
+Sur la balise param
+Sur la balise script
+Sur la balise table
+Sur la balise td
+Sur la balise th
+API
+HTML5 introduit huit nouvelles API qui peuvent aider à créer des applications web et qui peuvent être utilisées ensemble, proposant de nouveaux éléments introduits pour les applications, notamment une API de dessin 2D utilisée avec la nouvelle balise canvas, une API pour jouer des vidéos et des sons/musiques utilisée avec les nouvelles balises vidéo et audio, une API utilisée pour les applications hors-lignes, une API d'édition en combinaison avec le nouvel attribut dit contenteditable, une API de glisser-déposer en combinaison avec l'attribut dit draggable, et finalement une API qui permet l'accès à l'historique de navigation et aux pages d'ajouter cette fonction d'historique de navigation, afin de prévenir les problèmes du bouton retour-en-arrière.
+De plus, des API tierces viennent s'intégrer à ce standard, telles que WebGL du permettant d'ajouter aux pages du contenu 3D.
+Controverse
+- Verrou numérique
+Vers la fin de l'année 2012, une campagne menée par plusieurs associations de défense des libertés numériques, dont la , a tenté d'attirer l'attention sur l'inclusion de verrous numériques (DRM) dans la norme HTML5.

@@ -1,0 +1,34 @@
+Lemme des bergers
+En mathématiques, le lemme des bergers est un résultat qui permet de mieux compter des objets.
+C'est donc un résultat de combinatoire.
+Il est facile à formuler.
+Imaginons qu'on a placé des objets dans différents sacs,
+et le même nombre d'objets dans chaque sac.
+Alors le lemme des bergers affirme :
+Le nombre total d'objets est la multiplication du nombre de sacs par le nombre d'objets par sac.
+Sommaire
+On va expliquer sur un exemple : on a 4 sacs de 7 objets, combien y-a-t-il d'objets ?
+L'explication va rester valable si on remplace 4 et 7 par n'importe quels entiers naturels.
+Imaginons
+que les objets sont des billes
+J'ai donc 4 sacs de 7 billes.
+Si je vide le premier sac, je mets par terre 7 billes.
+Si je vide le deuxième sac, j'ajoute 7 billes : il y a donc par terre 7 + 7 billes.
+Si je vide le troisième, j'obtiens 7 + 7 + 7 billes.
+Enfin
+, en vidant le quatrième et dernier sac, je trouve 7 + 7 + 7 + 7 billes.
+Le nombre total de billes était donc :
+On peut imaginer que les objets sont des boîtes, et les sacs sont... des colonnes de boîtes.
+Si les boîtes sont alignées selon des lignes et des colonnes, le nombre de boîtes dans une colonne vaut le nombre de ligne.
+On se ramène alors à la définition de la multiplication.
+Le nombre total de boîtes est donc la multiplication du nombre de colonnes (sacs) par le nombre de lignes (objets par sac).
+Un mouton en boîte
+Un berger garde un troupeau de moutons.
+Il souhaite compter le nombre de moutons.
+Pour cela il compte 92 pattes.
+Combien y
+-a-t-il de moutons ?
+Chaque mouton possède 4 pattes.
+Un mouton peut être vu comme une boîte avec quatre pattes à l'intérieur.
+Le produit de 4 par le nombre de moutons vaut 92.
+On trouve donc 23 moutons.

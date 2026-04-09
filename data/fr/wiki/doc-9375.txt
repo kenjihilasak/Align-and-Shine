@@ -1,0 +1,73 @@
+Métrologie|Numération
+Le nombre de chiffres significatifs indique la précision d'une mesure physique.
+Il s'agit des chiffres connus avec certitude plus le premier chiffre incertain.
+La précision (ou l'incertitude) avec laquelle on connait la valeur d'une grandeur dépend du mesurage (ensemble d'opérations ayant pour but de déterminer une valeur d'une grandeur).
+Par exemple
+a cinq chiffres significatifs.
+Le premier chiffre incertain est le 5.
+Cette notion est une simplification de la notion d'incertitude de mesure : au lieu d'exprimer l'incertitude sous la forme d'une valeur, on suppose implicitement qu'elle est de l'ordre de grandeur de l'unité du premier chiffre incertain.
+L'exemple ci-dessus est ainsi équivalent à ± 1.
+Dans un nombre
+Convention
+On rencontre fréquemment dans les tables des valeurs telles que 12,43, avec quatre chiffres significatifs.
+Par convention il s'agit d'une valeur abrégée pour 12,43 ± 0,01.
+Si la valeur est 12,43 ± 0,05 on peut écrire 12,43 (5).
+Le nombre de chiffres situés après le dernier 0 non significatif représente le nombre de chiffres significatifs :
+* lorsque le 0 est le dernier chiffre (donc placé à droite)
+, il est significatif :
+* le cas des nombres entiers tels :
+400, 1000, 10 peut prêter à confusion :
+si le résultat d'une mesure donne 400 et qu'un seul chiffre est significatif alors le résultat final peut être écrit 4 × 102 ou encore 0,4 × 103,
+si deux chiffres sont significatifs alors le résultat final peut être écrit 4,0 × 102 ou encore 0,40 × 103,
+si trois chiffres sont significatifs alors le résultat final peut être écrit 4,00 × 102 ou encore 0,400 × 103 ou encore 400,
+si quatre chiffres sont significatifs alors le résultat final peut être écrit 4,000 × 102 ou encore × 103 ou encore 400,0.
+Selon la façon dont il est écrit, le nombre de chiffres significatifs varie.
+Il peut donc être préférable d'écrire de tels nombres en notation scientifique ou en notation ingénieur, car avec ces notations, par convention, tous les chiffres de la mantisse sont significatifs.
+Dans une opération
+Lors d'un calcul, les données sont parfois fournies avec des nombres de chiffres significatifs différents.
+Le résultat du calcul doit alors être exprimé avec le nombre de chiffres significatifs de la donnée qui en possède le moins.
+Addition et soustraction
+Après une addition ou une soustraction, le résultat ne doit pas avoir plus de décimales que le nombre qui en comporte le moins.
+Exemple
+On calcule la masse molaire M du thiosulfate de sodium pentahydraté Na2S2O3, 5H2O, avec M (Na)
+23,0 g mol, M (S)
+32,05 g mol :
+M (Na2S2O3, 5H2O)
+= 248,2 g/mol car M (Na) et M (O) sont connus au dixième de gramme par mole : ils imposent donc leur précision.
+Calculer le périmètre d'un rectangle de longueur
+donc
+trois chiffres significatifs et connu au centimètre près, pas de décimale
+et de largeur l
+donc deux chiffres significatifs et connu au dixième de centimètre près, une décimale)
+P = 2 × (5,7 + 143)
+P = 2 × 148,7 cm
+P = 297,4 cm
+La valeur du périmètre s'écrit donc P = .
+Multiplication et division
+Après une multiplication ou une division, le résultat ne doit pas avoir plus de chiffres significatifs que la valeur la moins précise.
+Exemple
+On dissout une masse m
+de thiosulfate de sodium pentahydraté (de masse molaire
+, dans un volume V = de solution.
+La concentration molaire apportée est
+m (248,2 × 150,0 × 10−3)
+c = 0,165 726 564… mol L résultat correct avec trois chiffres significatifs
+Logarithme
+Après un logarithme, le résultat doit avoir autant de chiffres significatifs après la virgule que la valeur.
+Cette règle amène à des subtilités avec le logarithme décimal.
+Les nombres 4,2 × 102 et 4,2 × 103 ont deux chiffres significatifs.
+Leurs logarithmes décimaux
+sont respectivement
+Le nombre avant la virgule n'est que la valeur de l'exposant.
+Cette valeur ne servant qu'à positionner la virgule, elle n'est pas elle-même un chiffre significatif.
+Par conséquent le résultat correct s'écrit :
+Logiciels de calcul et chiffres significatifs
+Comme décrit ci-dessus, la question des chiffres significatifs repose sur une information qui va au-delà de la valeur du nombre.
+C'est pourquoi la plupart des logiciels de calcul ou de manipulation de données numériques ignore cette question.
+L'affichage précis des nombres, et en particulier donc du nombre de chiffres significatifs, est à la charge de l'utilisateur ;
+sinon, un choix par défaut est utilisé, parfois modifiable globablement, toujours prédéfini "en usine" dans chaque logiciel, sans connaissance des futurs usages et besoins.
+Apparaît ainsi la question des chiffres non-significatifs, essentielle à considérer lorsque l'on souhaite partager ou publier des résultats, typiquement un tableau de données mesurées ou calculées, qui ont été travaillé à partir de ces outils informatiques (par ex. des programmes de traitement de données, une feuille de calcul électronique, etc.) qui ne connaissent pas la notion de précision ou d'incertitude.
+Il est ainsi essentiel de penser à reformater chaque nombre en fonction de ses chiffres réellement significatifs, faute de quoi, ce sont les choix de programmation par défaut qui les déterminent, et il y a tromperie quant à la précision réelle des valeurs ainsi montrées (on peut alors parler de fraude scientifique).
+Notons que quelques logiciels généraux (et plus de logiciels dits "métier", spécifiques à un champ d'application, comme en ingénierie sur tel ou tel domaine.
+Exemples : résistance des matériaux, calculs de viscosité, détermination de pH, etc.) sont capables d'utiliser les informations supplémentaires, et définir des méta-données pour un affichage correct en termes de chiffres significatifs.
+Ainsi certains modules spécialisés sur la métrologie et la propagation des incertitudes dans des logiciels de calcul formel, des packages ou librairies spécifiques pour les langages de calcul scientifique.

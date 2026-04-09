@@ -1,0 +1,53 @@
+Il rombo o losanga è un poligono di quattro lati che ha tutti i lati della stessa lunghezza (congruenti);
+è un caso particolare di parallelogramma.
+Il quadrato è un particolare tipo di rombo:
+oltre ad avere tutti i lati congruenti, ha anche tutte le diagonali congruenti e gli angoli anch'essi congruenti.
+Proprietà
+Lati
+I lati opposti di un rombo sono paralleli:
+esso quindi appartiene alla famiglia dei parallelogrammi.
+Diagonali
+Essendo un quadrilatero, anche il rombo ha due .
+Le due diagonali costituiscono anche le bisettrici degli angoli.
+Angoli
+Gli angoli opposti sono congruenti, vale a dire hanno uguale ampiezza:
+quindi
+\hat A
+\hat
+\alpha
+\hat
+\hat
+\beta
+Due angoli adiacenti a ciascun lato sono supplementari, con somma quindi pari a 180°:
+\alpha + \beta = 180^\circ.
+Un caso particolare di rombo, avente tutti gli angoli uguali e pari a 90°, è il quadrato.
+Altezza del rombo
+L'altezza h del rombo è pari al diametro della circonferenza inscritta al rombo o al rapporto tra l'area e lato base:
+2 r
+\frac.
+Perimetro del rombo
+Se a è il lato del rombo, il suo perimetro 2p è dato da:
+2p = a \cdot 4.
+Area del rombo
+L'area del rombo si può calcolare in quattro modi:
+come per tutti i parallelogrammi, effettuando il prodotto della base a, coincidente con il lato del rombo, per l'altezza h:
+A = a \cdot h,
+moltiplicando la diagonale maggiore d_1 per la diagonale minore d_2 e dividendo il risultato per 2:
+\frac,
+moltiplicando il semiperimetro p per il raggio r della circonferenza inscritta:
+A = p \cdot r,
+infine, calcolando il quadrato del lato a e moltiplicandolo per il seno di uno qualunque degli angoli interni
+In merito a questa quarta formula per il calcolo dell'area vanno notati alcuni punti:
+* \sin\alpha e \sin\beta sono uguali perché \alpha e \beta sono angoli supplementari:
+questo è il motivo per cui si può usare indifferentemente l'uno o l'altro;
+* il rombo produce la sua massima area quando i lati sono perpendicolari fra loro a formare un quadrato:
+in tal caso \sin\alpha
+e \sin\beta sono uguali a 1 e la formula si identifica con quella del quadrato ossia diventa
+A = ;
+* man mano che il rombo si schiaccia, \sin\alpha e \sin\beta diventano minori di 1 e quindi l'area del rombo diventa più piccola rispetto a quella del quadrato da cui si era partiti;
+* infine, schiacciando totalmente il rombo fino ad avere \alpha
+0 e quindi \sin\alpha
+0, la sua area diventa nulla.
+Note
+Bibliografia
+*Massimo Bergamini, Anna Trifone, Graziella Barozzi, Manuale di Geometria, Zanichelli, Bologna, terza edizione, 2008, ISBN 978-88-08-24822-0

@@ -1,0 +1,30 @@
+LaTeX
+LaTeX est un langage informatique et un logiciel libre utilisé (notamment par les scientifiques) pour composer des documents.
+LaTeX se prononce «
+latex » ou « latek » (car le X de LaTeX est en fait un χ) ;
+on écrit souvent , le logiciel se chargeant de la mise en forme.
+Ce système a été développé par le chercheur américain Leslie Lamport.
+C'est en fait une version plus simple à utiliser du système TeX de Donald Knuth.
+Son utilisation peut paraitre compliquée au début.
+Contrairement à un traitement de texte, l'utilisateur se préoccupe peu de la mise en page.
+La forme est séparée du contenu.
+Avec de l'habitude c'est facile.
+Un document présente la structure suivante :
+Une seconde partie commence par \begin{document} et se termine par \end{document}. Cette deuxième partie contient les phrases du document.
+Les formules mathématiques sont décrites par des commandes spécifiques.
+Après rédaction de ce document appelé document source, l'utilisateur lance une compilation pour obtenir un fichier.
+Il peut demander :
+un format PDF ;
+On demande un format DVI pour avoir un premier aperçu du document.
+Les formats PostScript et PDF sont utilisés pour l'impression.
+La plupart des documents sur Internet sous ces formats ont été rédigés avec .
+Le lecteur lit le fichier obtenu.
+permet de donner une mise en page standard.
+Les éditeurs d'un journal ont des exigences sur les marges, la police, la taille des titres, ... L'auteur des articles ne se soucie pas de la mise en page.
+Les traitements de texte supportent mal l'introduction d'équations.
+est introduit dans d'autres logiciels ;
+sur Vikidia, par exemple, c’est lui
+qui est utilisé pour bien écrire les mathématiques :
+Γ(x+1)(a+b)n=x⋅∑k=0n∫0+∞akbn−ke−ttx−1dt{\displaystyle \Gamma (x+1)(a+b)^{n}=x\cdot \sum _{k=0}^{n}\int _{0}^{+\infty }a^{k}b^{n-k}e^{-t}t^{x-1}\mathrm {d} t} (ce qui serait impossible sans ).
+peut servir à écrire des articles ou des livres.
+Il peut aussi servir à écrire des transparents, des pochettes de CD, des étiquettes, …

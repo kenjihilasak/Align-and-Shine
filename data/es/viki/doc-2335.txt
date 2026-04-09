@@ -1,0 +1,7 @@
+Wireframe
+wireframe (del inglés).
+Algoritmo de renderización del que resulta una imagen semitransparente, de la cual sólo se dibujan las aristas de la malla que constituye al objeto.
+De ahí su nombre.
+Casi nunca se emplea en la representación final de una imagen, pero sí en su edición, debido a la escasa potencia de cálculo necesaria (comparada con otros métodos).
+Para conseguir una imagen en wireframe sólo tenemos que tener en cuenta las posiciones de los puntos en el espacio tridimensional y las uniones entre ellos para formas los polígonos.
+Habitualmente estas imágenes no tienen en cuenta la presencia de luces en la escena

@@ -1,0 +1,118 @@
+Thermodynamique|Transition de phase|Science des matériaux
+La solidification est l'opération (plus ou moins réversible) au cours de laquelle un liquide passe à l'état solide.
+Cela peut se faire par refroidissement (cas le plus courant), par augmentation de la pression, par cristallisation, par catalyse ou bien par une combinaison de ces phénomènes.
+La congélation peut aussi permettre la solidification de certains fluides (l'eau par exemple).
+La solidification de l'eau se fait à une température de .
+Enjeux industriels
+Il y a de très nombreux enjeux et applications industrielles à la bonne compréhension et maîtrise des phénomènes de solidification :
+coulée continue de l'acier, croissance du Si pour l'électronique, moulage d'implants dentaires...
+La solidification se fait en général par précipitation ou cristallisation à partir de la formation de germes de phase solide au sein du liquide (germination, nucleation en Anglais) puis croissance de ces germes ;
+avec donc une redistribution des éléments chimiques (quand la matière n'est pas mono-élémentaire).
+À pression constante
+, la solidification des corps purs se fait à température constante , la chaleur libérée par la solidification (chaleur latente de fusion) compense la chaleur perdue par le refroidissement.
+Les transferts thermiques sont eux-mêmes modifiés par les changements de propriété de la matière associés au changement de phase.
+Dans le cas d'un mélange de corps purs
+, la température baisse en général au cours de la solidification (sauf dans le cas des eutectiques).
+Surfusion
+La courbe de refroidissement est en réalité légèrement différente.
+La température du liquide descend en dessous de la température de fusion, puis remonte brusquement pour former le plateau.
+Ceci s'appelle la surfusion.
+La surfusion est due à l'énergie d'interface solide-liquide (tension superficielle).
+De manière simplifiée, on peut considérer que les petits germes de solide sont instables car ils sont dissous par l'agitation thermique, il faut attendre que le liquide soit « plus calme » pour qu'ils puissent se former.
+De manière plus rigoureuse, vu sous un angle thermodynamique, l'énergie libérée par la solidification (chaleur latente de fusion) ne compense pas l'énergie dépensée pour créer l'interface solide-liquide.
+Le liquide continue donc à se refroidir sans solidifier.
+Lorsque le gain d'énergie est suffisant pour compenser la création de l'interface, les germes se créent très rapidement, et la chaleur libérée fait remonter la température.
+Puis, les germes croissent lentement, ce qui correspond au plateau.
+Le gain d'énergie devient suffisant lorsque :
+* une impureté vient diminuer l'énergie d'interface ;
+c'est le fameux exemple des chevaux du lac Ladoga rapporté par Malaparte (1942).
+Bilan énergétique
+Considérons un germe sphérique de rayon r .
+Il a un volume V
+\frac\pi r^3 , ce qui correspond à la solidification d'une masse m
+\rho V si \rho est la masse volumique du solide.
+L'énergie E_V libérée est donc, \Delta g_f désignant l'enthalpie libre massique de fusion
+Ce germe a une surface S
+4 \pi r^2 .
+Pour le créer, il faut donc dépenser une énergie E_S
+\sigma \cdot S , où \sigma est la tension superficielle.
+On a donc
+Ainsi la différence d'enthalpie libre \Delta G s'exprime :
+Le liquide doit franchir une barrière énergétique \Delta G_c pour amorcer sa solidification.
+Si r r_c alors au contraire le cristal est stable et peut continuer sa croissance.
+Donc
+On s'intéresse alors au calcul de \Delta G_f (T) l'enthalpie libre de fusion en fonction de la température : \Delta G_f (T)=\Delta H_f
+- T \cdot \Delta S_f avec \Delta H_f et \Delta S_f respectivement l'enthalpie et l'entropie de fusion.
+Par définition
+, \Delta H_f
+H_f
+m \cdot h_f
+À la température de fusion, les phases liquide et solide sont à l'équilibre soit \Delta G_f (T_f)
+\Delta H_f
+- T_f \cdot \Delta S_f
+0 \Leftrightarrow \Delta
+S_f
+\frac
+\frac
+Donc
+\Delta G_f (T)
+m h_f
+- m h_f \frac
+m h_f \frac
+soit \Delta g_f
+h_f \frac avec \Delta T le degré de surfusion ( \Delta T
+T_f
+Donc
+À température proche de la température de fusion
+, ce rayon critique est grand et le liquide ne peut pas spontanément amorcer sa solidification par nucléation homogène.
+Ainsi, soit le liquide gèle à des degrés de surfusion très importants, soit on introduit un floculant (impureté) ou crée des défauts dans la paroi du récipient (rayures, aspérités ... ).
+Dans le deuxième cas, on parle de nucléation hétérogène et c'est la situation la plus observée.
+Solidification d'un système binaire
+Solidification à l'équilibre
+Considérons un système binaire, c'est-à-dire un mélange de deux corps purs A et B.
+Le diagramme binaire de ce système permet de prédire
+la manière dont la solidification va se passer.
+Prenons pour simplifier le cas d'un système à solution solide unique.
+Prenons un liquide composé de 100-C0 % de phase A et de C0 % de phase B (on utilise en général des concentrations massiques).
+On suppose ici qu'à tout instant, tout le solide est à l'équilibre avec le liquide, ce qui signifie notamment que le solide est homogène.
+En pratique, cela signifie que la solidification est lente, et que la diffusion en phase solide permet d'homogénéiser le solide (la convection permet d'homogénéiser la phase liquide).
+On met un liquide dans un moule, et on laisse le mélange refroidir.
+À la température T1 définie par l'intersection entre le liquidus et la droite verticale correspondant à C0, le premier germe solide se forme ;
+il se forme contre la paroi du récipient puisque c'est la partie la plus froide.
+Ce premier germe est un solide à l'équilibre avec du liquide à T1 ;
+il se trouve donc sur le solidus, et a une concentration C1 ;
+on remarque que C1 vaut presque 0, c'est du corps A presque pur.
+À une température donnée T2, la droite horizontale correspondant à cette température coupe le solidus à une concentration C2s et le liquidus à une concentration C2l
+À cette température, le solide a une concentration 100-C2s de A ;
+le solide étant plus riche en A que le mélange initial, le liquide s'est appauvri et ne contient plus que 100-C2l % de A.
+À la fin de la solidification, le solide a une teneur 100-C0 en A.
+Ceci détermine la température de fin de fusion T3.
+La dernière goutte de liquide à solidifier a une teneur 100-C3l en A, très faible, c'est presque du B pur ;
+comme le solide est encore légèrement plus riche en A que le mélange initial, cette goutte achève de « diluer » A.
+Règle des leviers
+Lorsque la solidification se fait à l'équilibre, le diagramme de phase permet de savoir quelle est la proportion de mélange qui a solidifié et quelle proportion reste liquide.
+À une température T2 donnée, les cristaux formés ont une concentration C2s en A, et le liquide a une concentration C2l en A. La proportion de matière sous forme liquide et solide est donnée par la règle des leviers :
+C'est comme si l'on avait une balance dont le pivot n'est pas au centre du fléau, un des plateaux portant le liquide, l'autre le solide (d'où la référence au moment d'une force).
+Solidification hors équilibre
+Maintenant, nous allons considérer que la solidification est trop rapide pour que la diffusion permette l'homogénéisation du solide.
+Alors, seule la couche superficielle du solide au contact avec le liquide est à l'équilibre ;
+la partie du solide sous cette couche superficielle est isolée du liquide et ne contribue donc pas à l'équilibre de solidification.
+C'est comme si la concentration C0 évoluait au cours de la solidification ;
+en effet, le liquide s'appauvrit en A et s'enrichit en B.
+Comme précédemment, le premier germe est un solide à l'équilibre avec du liquide à T1 ;
+il se trouve donc sur le solidus, et a une concentration C1 ;
+on remarque que C1 vaut presque 0, c'est du corps A presque pur.
+Ces premiers germes se forment sur la paroi du moule .
+Le liquide s'appauvrit en A au fur et à mesure.
+À une température donnée T2, ce n'est pas le solide en entier qui a une concentration C2s, mais uniquement les germes formés à ce moment-là.
+Le liquide continue à s'appauvrir au cours de la solidification, et les derniers germes formés, qui se trouvent au centre du moule, sont très riches en B pur ;
+la température de fin de fusion T3 est alors inférieure à la température de solidification à l'équilibre.
+On voit que la pièce formée est hétérogène ;
+c'est la raison pour laquelle les glaçons ont des bulles au milieu (l'eau pure gèle sur les côtés et rejette l'air dissout vers le centre, jusqu'au moment où on a de l'air pur).
+Ce phénomène est appelé ségrégation.
+Structure cristalline
+Dans le cas où le solide formé est cristallin, la structure du lingot est en général la suivante :
+* tout au bord, on a une fine zone à structure équiaxe, appelée « peau » (chill zone) : les cristaux sont symétriques et isotropes (sans orientation préférentielle) ;
+puis on a une structure colonnaire, également appelée « basaltique » : les cristaux sont allongés, perpendiculaires à la paroi, il y a une orientation cristalline préférentielle (texture) ;
+* au centre
+, une structure équiaxe : les cristaux sont symétriques et isotropes (sans orientation préférentielle).

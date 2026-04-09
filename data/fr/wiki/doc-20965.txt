@@ -1,0 +1,63 @@
+Mécanique des fluides
+Le débit est la quantité d'une grandeur qui traverse une surface donnée par unité de temps.
+Il permet de quantifier un déplacement de matière ou d'énergie.
+Le terme débit est le plus souvent associé au débit volumique ː il quantifie alors le volume qui traverse une surface, une section, par unité de temps.
+Le débit massique caractérise la masse qui traverse la surface par unité de temps.
+Il s'agit de notions centrales dans une situation d'écoulement de fluide.
+Plus généralement, le débit peut désigner le flux des autres grandeurs déplacées par le fluide ː débit de quantité de mouvement ou encore débit d’énergie.
+Le courant électrique est parfois considéré comme un débit de charges.
+Différents aspects du débit en physique
+Débit volumique
+Le débit volumique est la grandeur physique qui caractérise le volume d'un fluide qui traverse une surface S donnée par unité de temps.
+Son unité dérivée du Système international d'unités est le mètre cube par seconde (m/s).
+Ce débit est largement employé dans le domaine de l'hydraulique, en premier lieu en hydrologie, dès lors que l'on étudie l'écoulement des liquides que l'on peut considérer incompressibles, c'est-à-dire que leur masse volumique ne dépend ni de la température ni de la pression.
+Dans ce cas, le débit volumique reste constant lors de l'écoulement.
+Son expression correspond au flux du vecteur vitesse \vec v à travers la surface S ː
+D_V
+= \int \!\!\!\!
+\int_S \vec v \cdot \vec .
+Dans le cas d'un écoulement uniforme, c'est-à-dire dont la vitesse est la même sur la totalité de la surface S normale au champ de vitesse, l'expression peut se simplifier ː D_V
+v \
+, S. Si l'écoulement n'est pas uniforme, on introduit parfois la vitesse débitante, vitesse moyenne sur la surface, telle que v_m
+\frac S = \frac
+1 S
+\int
+\!\!\!\!
+\int_S \vec v \cdot \vec pour simplifier les calculs.
+Des variantes telles que le débit-volume surfacique en mètres carrés par seconde sont parfois utilisées.
+Débit massique
+Le débit massique est la grandeur physique qui caractérise la masse qui traverse une surface S donnée par unité de temps.
+Son unité dérivée du Système international d'unités est le kilogramme par seconde (kg/s).
+En mécanique des fluides, il est souvent indispensable de prendre en considération la compressibilité du fluide, tout particulièrement dans le cas des gaz ː il est préférable d'étudier le débit massique compte tenu du principe de conservation de la masse.
+En effet le volume d'une masse gazeuse peut être amené à varier fortement.
+Par exemple, pour le circuit secondaire d'une centrale électrique, le débit volumique de l'eau liquide qui entre dans l'échangeur est bien plus faible que celui de la vapeur d'eau produite qui part faire tourner la turbine.
+Le débit massique reste identique en tous points du circuit.
+Il est plus facile de détecter une perte massique du fluide caloporteur, l'eau dans le cas précédent, d'un circuit par différence de débits massiques.
+Le débit massique d'un turboréacteur de type CFM56 au décollage est de l'ordre de pour un diamètre d'entrée de .
+Ainsi la vitesse débitante, ou vitesse moyenne, à ce régime est de l'ordre de .
+Toutefois, si un gaz reste dans tout le circuit dans des conditions de température et de pression constantes, il sera par convention utilisé l'unité volumique ː c'est le cas pour les circuits de ventilation ou les circuits d'alimentation de gaz réglés en pression.
+Pour certains cas, on utilisera l'unité normo mètre cube par heure , pour des circuits particuliers dont on veut un débit régulier quelles que soient les conditions barométriques et thermiques du milieu.
+Par exemple les circuits munis de réchauffeurs, surpresseurs, climatiseurs.
+Le but étant de « ramener » ce débit à celui des conditions normales de température et de pression, éliminant alors toutes perturbations liées à la dilatation et la compression.
+L’expression du débit massique correspond au flux du produit de la masse volumique et du vecteur vitesse \rho \, \vec v, ce qui correspond à la quantité de mouvement par unité de volume, à travers la surface S).
+Leur expression respectives sont ː
+D_e = \int \!\!\!\!
+\int_S \rho \, e\, \vec v \cdot \vec ,
+\vec = \int \!\!\!\!
+\int_S \rho \, \vec v\, \left (\vec v \cdot \vec \right).
+où e est l'énergie massique, en joules par kilogramme.
+Débit de charges
+En électricité, l'intensité du courant électrique, en ampères (A), est souvent présentée comme un débit de charges électriques en coulombs par seconde (C/s).
+Débit de dose
+Le débit de dose mesure l'énergie déposée par unité de masse par un rayonnement ionisant par unité de temps.
+Applications industrielles
+Dans l'industrie, de nombreuses applications requièrent l'utilisation d'un débitmètre afin de mesurer les débits d'air ou de divers gaz, d'eau ou de divers liquides.
+Suivant les applications et l'importance du débit à mesurer, on peut utiliser différents types de débitmètres.
+Voir aussi
+* Régulateur de débit massique
+Liens externes
+* http:/ cours
+mesurdebit.htm
+Mesure et capteurs de débit
+Références
+rvc6h9xjh5e96ay2cruaft1xekxz5ir

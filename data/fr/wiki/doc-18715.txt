@@ -1,0 +1,173 @@
+Codage des caractères|Format ouvert|Protocole réseau sur la couche présentation
+L' (Code américain normalisé pour l'échange d'information), plus connu sous l'acronyme ASCII (), est une norme informatique de codage de caractères apparue dans les années 1960.
+C'est la norme de codage de caractères la plus influente à ce jour.
+ASCII définit 128 codes à 7 bits, comprenant 95 caractères imprimables : les chiffres arabes de 0 à 9, les lettres minuscules et capitales de A à Z, et des symboles mathématiques et de ponctuation.
+ASCII suffit pour représenter les textes en anglais, mais il est trop limité pour les autres langues, dont le français et ses lettres accentuées.
+Les limitations du jeu de caractères ASCII sont encore sensibles au , par exemple dans le choix restreint de caractères généralement offerts pour composer une adresse email.
+L'ASCII est une des variantes de la norme ISO/CEI 646.
+Il est inclus dans plusieurs dizaines de normes couvrant plus de caractères, qui sont parfois informellement appelées
+ASCII étendu.
+Celles-ci peuvent être régionales (ISO/CEI 8859), nationales (GB 18030) ou internationales (Unicode).
+Dans la norme Unicode, le standard
+ASCII est défini sous le nom de « C0
+Controls and
+Basic
+Latin
+Avec l'avènement de la mondialisation et de l'internationalisation des systèmes d'information, les limitations de l'ASCII ne sont plus acceptées que dans des domaines techniques qui requièrent la compatibilité avec des protocoles ou systèmes anciens.
+Histoire
+Avant la standardisation, de nombreux codages de caractères incompatibles entre eux existaient.
+Chaque matériel avait son propre codage, lié aux techniques qu'il utilisait : lecteur/perforateur de cartes 1442, imprimantes 1132 et 1403.
+Tout ordinateur, comme l'IBM 1130, était livré avec ses sous-programmes et ses tables permettant de transposer les codes d'un matériel à un autre.
+D'autres standards étaient utilisés, notamment pour les cartes perforées (Bull et IBM avaient chacun leur code, tous deux incompatibles).
+En 1960, l'ISO a créé le Technical Committee on Computers and Information Processing.
+Il a été divisé en six groupes de travail :
+L'American Standards Association (ASA, aujourd'hui ANSI) était chargée du standard des États-Unis.
+L'ASA a reconnu le consortium (BEMA, puis, CBEMA) comme le parrain du travail de standardisation du traitement des données.
+En 1960, BEMA a formé un groupe de traitement des données des partenaires, dont Minneapolis-Honeywell.
+Ce groupe a formé un , qui à son tour a formé l. L a formé le comité X3, qui a été reconnu par l'ASA comme .
+Parmi les membres du comité, Bob Bemer est parfois présenté comme père de l'ASCII, ce qu'il ne faut pas comprendre comme inventeur de l'ASCII, mais comme grand artisan de la diffusion d'ASCII.
+En 1961, le DoD met au point un code standard de transmission de donnée sur 8 bits.
+Ce standard 8 bits est une variante des standards FIELDATA sixbits utilisés dans la décennie précédente par la défense.
+Il a eu une influence notable sur la première version de l'ASCII.
+En 1963, la première version publiée de l'ASCII apparaît.
+La liste des caractères à considérer et leur position ont été débattues.
+Sa dernière version stabilisée a été normalisée par l'ANSI en 1986 sous la désignation ANSI X3.4:1986 (après deux autres versions en 1967 et 1968, historiquement normalisées par l'ASI, devenu ANSI mais qui ne normalisait pas encore toutes les positions).
+C'est également la variante américaine des jeux de caractères codés selon la norme ISO/CEI 646 avec laquelle on la confond souvent (d'où sa désignation également comme US-ASCII pour lever l'ambigüité, désignation préférée dans le registre IANA des jeux de caractères codés).
+À l'époque elle a été en concurrence avec des standards incompatibles.
+Par la suite, l'existence de nombreux codages reprenant les conventions de l'ASCII l'a rendu très populaire.
+IBM, qui utilisait sur ses mainframes un autre codage, l'EBCDIC, ne commença à utiliser officiellement l'ASCII sur ses matériels qu'avec l'IBM PC, en 1981.
+Principes
+L'ASCII définit 128 caractères numérotés de 0 à 127 et codés en binaire de 0000000 à 1111111.
+Sept bits suffisent donc.
+Toutefois, les ordinateurs travaillant presque tous sur un multiple de huit bits (un octet) depuis les années 1970, chaque caractère d'un texte en ASCII est souvent stocké dans un octet dont le bit est 0.
+Aujourd'hui encore, certains systèmes de messagerie électronique et de SMS fonctionnent avec des bytes ou multiplets composés de seulement sept bits (contrairement à un octet qui est un byte ou multiplet standardisé à huit bits).
+Les caractères de numéro 0 à 31 et le 127 ne sont pas affichables ;
+ils correspondent à des commandes de contrôle de terminal informatique.
+Le caractère numéro 127 est la commande pour effacer.
+Le caractère numéro 32 est l'espace.
+Le caractère 7 provoque l'émission d'un signal sonore.
+Les autres caractères sont les chiffres arabes, les lettres latines majuscules et minuscules sans accent, des symboles de ponctuation, des opérateurs mathématiques et quelques autres symboles.
+Limitations
+L'absence des caractères des langues étrangères à l'anglais rend ce standard insuffisant à lui seul pour des textes étrangers (par exemple en langue française), ce qui rend nécessaire l'utilisation d'autres .
+Lorsqu'il est employé seul pour la langue anglaise, il interdit l'usage des accents dans la langue anglaise (cf. ).
+Quelques-uns des caractères graphiques
+ASCII ont provoqué une polysémie.
+Ceci est en tout ou partie lié au nombre limité de codets dans un jeu à sept bits.
+Ceci se retrouve notamment dans les symboles de ponctuation et l'utilisation des guillemets.
+L'ASCII a été conservé parce qu'il est omniprésent dans de nombreux logiciels.
+Cet héritage se retrouve dans Unicode où ces signes sont dans un bloc disjoint des autres symboles similaires, se trouvant pour la plupart codés à partir de U+2000.
+Internationalisation
+Les limites du standard américain ASCII ont conduit, sur trois périodes différentes, à trois approches de l'internationalisation :
+* l'utilisation de standards régionaux à caractères mesurant un octet, techniquement les plus faciles à mettre en place ;
+* l'utilisation de standards extensibles, où un même octet peut représenter un caractère différent suivant le contexte (famille ISO/CEI 2022) ainsi que des extensions où un caractère est codé sur plusieurs octets ;
+* l'utilisation du standard
+Unicode (famille UTF), qui est celui qui comprend le plus grand nombre de caractères.
+Les standards régionaux ont l'inconvénient de ne permettre la représentation que d'un ensemble réduit de caractères, comme les caractères d'Europe occidentale.
+Avec cette approche, il est nécessaire d'indiquer l'encodage à l'extérieur du flot.
+Les standards extensibles ont l'inconvénient d'être contextuels.
+Il se peut que des logiciels utilisant certains algorithmes de recherche manquent d'interopérabilité à cet égard.
+Standardisation
+Le jeu de codage ASCII est défini quasiment identiquement par plusieurs standards différents, a de nombreuses variantes et a donné naissance à une foison (des dizaines ou des centaines) d'extensions plus ou moins incompatibles entre elles.
+Les principales extensions sont justifiées par le fait que l'ASCII ne répond pas aux divers besoins régionaux.
+Elles sont proposées par des organismes de normalisation, ou par des fournisseurs de produits et de services.
+Les standards
+ASCII
+N.B.
+- Ne pas confondre USASI X3.4
+-1968 ou ANSI
+X3.4
+-1968 et ANSI
+X3.4:1986.
+Standards ASCII des États-Unis (les standards hérités, et le standard en vigueur) :
+* ASA X3.4
+, (incomplet avec 28 positions libres, et un code de commande non assigné)
+* USASI X3.4-1967 (renommé rétroactivement ANSI X3.4-1967), ne normalisait pas encore toutes les positions ;
+* USASI X3.4
+-1968 (renommé rétroactivement ANSI X3.4
+, ne normalisait pas encore toutes les positions ;
+* ANSI X3.4:1986 (en 1986
+et en vigueur aujourd'hui).
+Les standards internationaux suivants sont généralement considérés compatibles (quasi identiques) avec le standard
+ASCII en vigueur de 1986 à 2011, tout en constituant une normalisation internationale officielle :
+Alphabet International de référence (dans le jeu G0 de l'IRV)
+La désignation US-ASCII,
+ASCII É-U ou ASCII des États-Unis est un mélange des désignations précédentes.
+Le registre IANA lui attribue la dénomination US-ASCII, sans en définir le codage.
+Approximation, variantes et extensions
+** Variante INV invariable (incomplète par rapport aux deux précédentes).
+Trois types de codages de caractères se rapprochent de l'ASCII :
+* ceux qui ne changent que par la dénomination
+- ils sont essentiellement identiques à l'ASCII ;
+* ceux qui sont des variantes, l'ASCII étant à l'origine la variante locale aux États-Unis de l'ISO/CEI 646 ;
+Alias
+En juin 1992, le RFC et la chambre d'enregistrement de jeux de caractères Internet Assigned
+Numbers Authority.
+Extensions mono-octets
+En particulier, beaucoup de pages de code étendent l'ASCII en utilisant le bit pour définir des caractères numérotés de 128 à 255.
+La norme ISO CEI 8859-1, aussi appelée Latin-1, étend l'ASCII avec les caractères accentués utiles aux langues originaires d'Europe occidentale comme le français ou l'allemand.
+Par abus de langage, on appelle souvent « ASCII » des normes qui étendent l'ASCII, mais qui ne sont pas compatibles entre elles (et parfois même ne sont pas compatibles sur leurs 128 premiers caractères codés).
+En particulier, les standards Windows-1252 (couramment utilisé sur Microsoft Windows dans les pays occidentaux), ISO/CEI 8859-1 (couramment utilisé sur Internet et Unix) et les pages de code pour PC numéro 437 et 850 (couramment utilisées sur DOS)
+ne sont pas la norme ASCII.
+Cet abus de langage ne va pas sans causer des confusions causant des incompatibilités, souvent rendues visibles par le fait que les caractères non ASCII comme les « lettres accentuées » (éÈç) s'affichent mal.
+On écrit parfois «
+ASCII de base »
+pour différencier l'ASCII d'un standard plus étendu.
+Extensions asiatiques, à base de séquences d'échappement
+Afin d'unifier les différents codages de caractères complétant l'ASCII et y intégrer les codages complètement différents (le JIS pour le japonais par exemple, qui bien que développé aussi sur la base de l'US-ASCII, en diffère dans l'assignation d'un des 128 premiers codets), la norme ISO/CEI 10646 a été inventée ;
+la norme Unicode y ajoute des sémantiques supplémentaires.
+Toutefois, certains pays d'Asie orientale (la République populaire de Chine, les anciens dominions britannique et portugais en Chine, de Hong Kong et Macao, qui sont devenus depuis des régions administratives spéciales de Chine, la République de Chine à Taïwan, et le Japon)
+ont choisi de continuer à développer leur propre norme pour coder le jeu de caractères universel, tout en choisissant de les maintenir entièrement convertibles avec l'ISO/CEI 10646 ;
+parmi ces normes asiatiques, seule la norme nationale japonaise continue à maintenir une différence dans ses 128 premières positions avec le jeu ASCII, en codant le symbole monétaire du yen à la place de la barre oblique inversée (comme c'est aussi le cas dans la variante japonaise de la norme ISO/CEI 646).
+Influence
+L'ASCII a eu une influence importante dans le monde informatique.
+En particulier, il a longtemps limité les caractères disponibles aux caractères latins non accentués, notamment dans le monde de l'Internet, que ce soit pour les noms de domaine, les adresses de courrier électronique, les caractères disponibles dans le BIOS, ou les caractères dans lesquels peuvent être écrits des programmes informatiques.
+Description
+Table des 128 caractères
+ASCII
+On peut aussi présenter la table des caractères ASCII sous cette forme plus condensée qui met en évidence une organisation fondée sur la base 16.
+Dans la table détaillée suivante, les 33 caractères de contrôle (codes 0 à 31 et 127) sont présentés avec leur nom en anglais suivi d'une traduction entre parenthèses.
+Groupement par type de caractères
+Caractères de contrôle
+ASCII réserve les 32 premiers codes (nombres décimaux de 0 à 31) pour les caractères de contrôle :
+codes destinés non à représenter des informations imprimables, mais plutôt à contrôler des périphériques (tels que des imprimantes) qui utilisent ASCII ou à fournir des méta-informations sur les flux de données, tels que ceux stockés sur bande magnétique.
+NUL
+nul.
+Il est à l'origine une NOP, c'est-à-dire un caractère à ignorer.
+Lui donner le code 0 permettait de prévoir des réserves sur les bandes perforées en laissant des zones sans perforation pour insérer de nouveaux caractères a posteriori.
+Avec le développement du langage C, il a pris une importance particulière quand il a été utilisé comme indicateur de fin de chaîne de caractères.
+SOH
+: début d'en-tête.
+Il est aujourd'hui souvent utilisé dans les communications séries pour permettre la synchronisation après erreur.
+DEL
+effacement.
+Lui donner le code 127 (1111111 en binaire) permettait de supprimer a posteriori un caractère sur les bandes perforées qui codaient les informations sur .
+N'importe quel caractère pouvait être transformé en DEL en complétant la perforation des 7 bits qui le composaient.
+LF, CR
+Line Feed : saut de ligne, Carriage Return : retour chariot.
+Dans un fichier texte, la fin d'une ligne est représentée par un ou deux caractères de contrôle.
+Plusieurs conventions existent :
+* sur les systèmes Multics, Unix, Type Unix (Linux, AIX, Xenix,
+Mac OS X, etc.), BeOS, AmigaOS, RISC OS entre autres, la fin de ligne est indiquée par un saut de ligne (LF) ;
+, la fin de ligne est indiquée par un retour chariot (CR) ;
+* sur les systèmes DEC, RT-11 et généralement tous les premiers systèmes non-Unix et non-IBM, CP M, MS-DOS, OS/2 ou Microsoft Windows
+, la fin de ligne est indiquée par un retour chariot suivi d'un saut de ligne (CR suivi de LF).
+Ainsi, lorsqu'on transfère un fichier ASCII entre des systèmes ayant des conventions de fin de ligne différentes, il faut convertir les fins de ligne pour pouvoir manipuler le fichier confortablement sur le système cible.
+Autrement, il faut utiliser un éditeur de texte capable de gérer les diverses conventions de fin de ligne, ce qui n'est par exemple pas le cas du classique Bloc-notes de Microsoft Windows.
+Les programmes utilisant les fichiers ASCII ne sont en général pas perturbés par un changement de type de fin de ligne.
+SUB
+Substitute : remplacement.
+Il est souvent associé à la combinaison de touches Ctrl + z et est utilisé dans les communications séries pour permettre l'envoi des données en lieu et place de la touche entrée.
+Caractères imprimables
+Les codes 20hex à 7Ehex, appelés caractères imprimables, représentent des lettres, des chiffres, des signes de ponctuation et quelques symboles divers.
+Il y a 95 caractères imprimables au total.
+Le code 20hex, le caractère espace, désigne l'espace entre les mots, tel que produit par la barre d'espace d'un clavier.
+Le caractère espace étant considéré comme un graphique invisible (plutôt que comme caractère de contrôle), il est répertorié dans le tableau ci-dessous et non dans la section précédente.
+Le code 7Fhex correspond au caractère d'effacement (DEL) n'est pas imprimable et est donc omis de ce tableau.
+Il est inclus dans le tableau de la section précédente.
+Notes
+Références
+Voir aussi
+Articles connexes
+* libcaca : bibliothèque permettant des rendus ASCII à partir de vidéos
+Bibliographie
+svaot1ycimuljy5squykwslnn0ac8l0

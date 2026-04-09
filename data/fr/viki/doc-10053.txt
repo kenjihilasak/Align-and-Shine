@@ -1,0 +1,24 @@
+Code source
+Un exemple de code : C++
+Un autre exemple : HTML
+En informatique, le code source d'un programme est un texte qui explique à l'ordinateur les différentes étapes qu'il doit exécuter pour faire fonctionner ce programme.
+Contrairement au programmeur, l'ordinateur ne peut pas comprendre directement le code source.
+Il ne comprend qu'un seul langage : le langage binaire, qui est formé d'une suite de 0 et de 1.
+Un programme spécial permet à l'ordinateur de transformer le code source pour pouvoir le comprendre et l'exécuter.
+Suivant les types de langages de programmation, ce programme spécial est :
+soit un interpréteur, qui lit et traduit le code source en langage binaire au fur et à mesure de l'exécution ;
+soit un compilateur, qui traduit les fichiers du code source pour donner des fichiers du programme compilé en langage binaire exécutable, une fois pour toute.
+Dans le premier cas, l'ordinateur a besoin du code source et de l'interpréteur pour exécuter le programme.
+Dans le deuxième, par contre, l'ordinateur n'a besoin que du code exécutable, qu'il comprend très bien puisque le compilateur le lui a traduit.
+Le langage binaire est un langage très compliqué, que l'ordinateur comprend très facilement mais il est presque impossible de comprendre le code exécutable pour un être humain.
+C'est pour cela que pour pouvoir comprendre ou changer le fonctionnement d'un programme, il est presque obligatoire d'avoir le code source de ce programme.
+Les sociétés qui écrivent et vendent des logiciels propriétaires ne donnent presque jamais le code source de leurs programmes.
+Ils ne donnent que les fichiers exécutables, car ils ne veulent pas que ceux qui utilisent leurs programmes puissent comprendre ou changer le fonctionnement de ces programmes.
+Avec les logiciels libres, en revanche, le code source est donné gratuitement pour que les utilisateurs puissent en faire ce qu'ils veulent ou, s'ils ne sont pas programmeurs, pour qu'ils puissent payer des informaticiens pour qu'ils leur changent les programmes comme ils le veulent.
+Idée d'occupation functionafficheMessage(){varrep=prompt('OK.
+Ton activité, tu veux la faire tout seul ou à plusieurs ?');
+if(rep=="Tout seul"||rep=="tout seul"){alert('Lis un livre !');}else{alert('Faites un jeu de société!');}}
+Si tu veux une idée de quoi faire pendant ton temps libre, clique sur le bouton ci-dessous :
+Afin d'obtenir une page Web comprenant ce code, il faut le mettre dans un éditeur de texte basique (exemple : Windows Notepad) et l'enregistrer sous en .html puis l'ouvrir dans un navigateur Web.
+Ce code n'est qu'une page Web, pas un programme ;
+il est écrit en HTML (langage de balises servant à faire des pages Web) et JavaScript :

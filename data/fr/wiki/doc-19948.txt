@@ -1,0 +1,48 @@
+Cercle|Construction géométrique|Napoléon
+Bonaparte
+En géométrie plane, le problème de Napoléon consiste à construire au compas seul le centre d'un cercle donné.
+On attribue souvent ce problème et sa démonstration à Napoléon I, mais il n'est pas sûr que cette démonstration soit de lui.
+Certes, il est connu pour son goût pour les mathématiques et sa formation d'artilleur lui permet d'en maîtriser les rouages.
+Cependant, à la même époque, l'Italien Lorenzo
+Mascheroni
+publie sa Géométrie du compas, ouvrage dans lequel il étudie justement les constructions au compas seul.
+Mais au livre dixième, chapitré « des centres », seul le problème 143, qui explique et démontre comment trouver le centre d'un cercle donné, traite la question, et ce de façon très différente de celle dite de Napoléon exposée ici.
+Construction
+Soit le cercle \mathcal C dont on veut déterminer le centre (cercle entier noir sur la figure 1).
+Soit un point A de \mathcal C (en bas du cercle noir sur la figure 1).
+Un cercle \mathcal C_1 centré en A rencontre \mathcal C en B et B
+' (arc de cercle en rouge sur la figure 1)
+Deux cercles \mathcal C_2 centrés en B et B' et passant par A se rencontrent au point C (deux arcs de cercles verticaux en vert sur la figure 1).
+Un cercle \mathcal C_3 centré sur C et passant par A rencontre \mathcal C_1 en D et D' (grand arc de cercle en magenta foncé en bas de la figure 1).
+Deux cercles \mathcal
+C_4 centrés en D et D' et passant par A se rencontrent au centre de \mathcal C (deux arcs de cercle verticaux en bleu sur la figure 1).
+Remarque :
+Il est nécessaire, pour que la construction soit réalisable, de prendre pour le rayon du cercle \mathcal C_1, une quantité ni trop grande, ni trop petite.
+Plus précisément, il faut que ce rayon soit compris entre la moitié et le double du rayon du cercle \mathcal C.
+Démonstrations
+À l'aide des propriétés du triangle rectangle
+Le principe de la démonstration est la possibilité de construire, , la longueur b²/a si les longueurs a et b sont connues (notations de la figure 2).
+La démonstration s'appuie sur les propriétés du triangle rectangle.
+Dans la figure2 ci-jointe, le triangle ABA' est rectangle en B ;
+H est le pied de sa hauteur issue de B
+, on peut donc écrire l'égalité suivante :
+AH.AA
+' = AB^2
+Donc
+\frac et AC
+\frac
+Or, dans la construction précédente (figure 1), on retrouve deux fois une configuration de ce type :
+* les points A, B et B' sont sur le cercle de centre O et de rayon r
+, les distances AB, AB', BC et B'C valent R, donc :
+AC = \frac
+* les points A, D et D' sont sur le cercle de centre C et de rayon \frac
+, les distances DA, D'A, DX, D'X valent R, donc :
+\frac
+Le point X est donc bien le centre O du cercle (C)
+CQFD
+À l'aide d'une inversion
+Les médiatrices des segments AB et AB', dont les extrémités sont des points du cercle \mathcal C, se coupent en O centre recherché de ce cercle.
+Dans l'inversion de centre A qui laisse le cercle \mathcal C_1 inchangé ces médiatrices sont les inverses des deux cercles \mathcal C_2.
+Le point C est donc l'inverse du point O. Les médiatrices des segments AD et AD', dont les extrémités sont des points du cercle \mathcal C_3, se coupent au centre C de ce cercle.
+Dans la même inversion, les cercles \mathcal C_4 dont les centres sont sur le cercle \mathcal C_1 sont les inverses de ces deux médiatrices .
+Ils se coupent donc en O.

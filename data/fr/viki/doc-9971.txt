@@ -1,0 +1,29 @@
+Type
+Ce programme a du sens : il calcule correctement que nous vivons avec 3 animaux en tout.
+On aurait aussi pu écrire :
+chats=2chiens="Bonjour
+"# on a changé cette lignetotal=chats+chiens
+À présent
+, au lieu d'un nombre de chiens, on indique du texte, « Bonjour ».
+C'est sûrement une erreur, car ce n'est pas une quantité : on ne peut donc pas compter les chiens avec.
+Pourtant, le langage de programmation, lui, ne peut pas deviner ce qu'on veut que chiens contienne, donc il accepte ce qu'on lui donne.
+La variablechiens contient donc le texte «
+Bonjour ».
+À la ligne suivante
+, cependant, il va forcément y avoir un problème : on sait additionner deux nombres (comme dans le premier programme), mais comment faire l'opération « 2 + Bonjour » ?
+Dit autrement :
+les valeurs 1 et 2 font partie d'un même groupe : les nombres ;
+on peut combiner les nombres en utilisant l'addition ;
+Bonjour » n'est pas un nombre, donc il ne fait pas partie du même groupe que 1 et 2 ;
+par conséquent, on voit mal comment utiliser l'addition des nombres avec « Bonjour ».
+Dans cet exemple, nombre est un type associé à 1 et 2.
+Être un nombre implique des contraintes (un nombre doit être composé de chiffres) et définit comment on peut manipuler ces valeurs (on peut faire l'addition de deux nombres).
+La valeur «
+Bonjour », elle, est d'un autre type (texte).
+Si le langage de programmation qu'on utilise ne définit pas d'opération + entre les types nombre et texte, impossible d'exécuter la dernière ligne de notre programme.
+Ce serait comme essayer de faire travailler ensemble des fourmis et l'océan, deux choses qui n'ont absolument rien en commun (« travailler » n'a même pas de sens pour l'océan).
+Le langage qu'on utilise peut avoir des règles pour résoudre ce problème, par exemple :
+traiter le texte comme un zéro (résultat du programme : le nombre 2) ;
+transformer le nombre 2 en texte, puis accoler les deux morceaux de texte (résultat du programme : le texte « 2Bonjour ») ;
+refuser de continuer et afficher une erreur.
+Dans tous les cas, il se base sur le fait que le typage n'est pas respecté pour proposer une solution « spéciale », quelque chose qu'il n'aurait pas fait dans le cas du premier programme.

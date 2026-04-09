@@ -1,0 +1,231 @@
+Système de gestion de base de données|Exploration de données|Modélisation des données|Science des données
+Le , littéralement « grosses données », ou mégadonnées (recommandé), parfois appelées données massives, désigne des ensembles de données devenus si volumineux qu'ils dépassent l'intuition et les capacités humaines d'analyse et même celles des outils informatiques classiques de gestion de base de données ou de l'information.
+L’explosion quantitative (et souvent redondante) de la donnée numérique contraint à de nouvelles manières de voir et analyser le monde.
+De nouveaux ordres de grandeur concernent la capture, le stockage, la recherche, le partage, l'analyse et la visualisation des données.
+Les perspectives du traitement des sont énormes et en partie encore insoupçonnées ;
+on évoque souvent de nouvelles possibilités d'exploration de l'information diffusée par les médias, de connaissance et d'évaluation, d'analyse tendancielle et prospective (climatiques, environnementales ou encore sociopolitiques, etc.) et de gestion des risques (commerciaux, assuranciels, industriels, naturels) et de phénomènes religieux, culturels, politiques, mais aussi en termes de génomique ou métagénomique, pour la médecine (compréhension du fonctionnement du cerveau, épidémiologie, écoépidémiologie...), la météorologie et l'adaptation aux changements climatiques, la gestion de réseaux énergétiques complexes , l'écologie (fonctionnement et dysfonctionnement des réseaux écologiques, des réseaux trophiques avec le GBIF par exemple), ou encore la sécurité et la lutte contre la criminalité.
+La multiplicité de ces applications laisse d'ailleurs déjà poindre un véritable écosystème économique impliquant, d'ores et déjà, les plus gros joueurs du secteur des technologies de l'information.
+Certains supposent que le big data pourrait aider les entreprises à réduire leurs risques et faciliter la prise de décision, ou créer la différence grâce à l'analyse prédictive et une « expérience client » plus personnalisée et contextualisée.
+Divers experts, grandes institutions (comme le MIT aux États-Unis, le Collège de France en Europe), administrations et spécialistes sur le terrain des technologies ou des usages considèrent le phénomène comme l'un des grands défis informatiques de la décennie 2010-2020 et en ont fait une de leurs nouvelles priorités de recherche et développement, qui pourrait notamment conduire à l'Intelligence artificielle en étant exploré par des réseaux de neurones artificiels autoapprenants.
+Histoire
+Le big data a une histoire récente et pour partie cachée, en tant qu'outil des technologies de l'information et comme espace virtuel prenant une importance volumique croissante dans le cyberespace.
+L'expression « big data » serait apparue en octobre 1997 selon les archives de la bibliothèque numérique de l'Association for Computing Machinery (ACM), dans un article scientifique sur les défis technologiques à relever pour visualiser les « grands ensembles de données ».
+Selon V. Tréguier (2014) et selon la publiée par Gil Press en 2013 pour la période 1944-2012, sa naissance est liée aux progrès des systèmes de stockage, de fouille et d'analyse de l'information numérisée, qui ont permis une sorte de big bang de l'information stockée puis une croissance inflationniste de l'univers de la donnée numérisée.
+Mais ses prémisses sont à trouver dans le croisement de la cybernétique et de courants de pensée nés durant la Seconde Guerre mondiale, selon lesquels l’homme et le monde peuvent être représentés comme ajoute V. Tréguier.
+Les évolutions qui caractérisent le big data et ses algorithmes, ainsi que celles de la science des données sont en partie cachées (au sein des services de renseignement des grands États) et si rapides et potentiellement profondes que peu de prospectivistes se risquent à pronostiquer son devenir à moyen ou long terme, mais la plupart des observateurs y voient des enjeux majeurs pour l'avenir, tant en termes d'opportunités commerciales que de bouleversements sociopolitiques et militaires, avec en particulier le risque de voir émerger des systèmes ubiquistes, orwelliens et totalitaires capables de fortement contrôler, surveiller et/ou influencer les individus et groupes.
+Les risques de dérives de la part de gouvernements ou d'entreprises ont surtout d'abord été décrits par Orwell à la fin de la dernière guerre mondiale, puis souvent par la science fiction.
+Avec l'apparition de grandes banques de données dans les années 1970 (et durant toute la période de la guerre froide) de nombreux auteurs s'inquiètent des risques pris concernant la protection de la vie privée, en particulier qui cite l'exemple de la croissance des données stockées relatives à la santé physique et psychique des individus.
+En 2000, Froomkin,dans un article paru dans la revue , se demande si la vie privée n'est pas déjà morte, mais ce sont surtout les révélations d'Edward Snowden (2013) qui ont suscité une nouvelle prise de conscience et d'importants mouvements de protestation citoyenne.
+Les quatre droits et « états de base de la vie privée » tels qu'énoncés par Westin en 1962 (droit à la solitude, à l'intimité, à l'anonymat dans la foule et à la ) sont menacés dans un nombre croissant de situations, de même que la protection du contenu des courriers électroniques qui fait partie du droit à la vie privée.
+Dimensions
+Le s'accompagne du développement d'applications à visée analytique, qui traitent les données pour en tirer du sens.
+Ces analyses sont appelées big analytics ou « broyage de données ».
+Elles portent sur des données quantitatives complexes à l'aide de méthodes de calcul distribué et de statistiques.
+En 2001,
+un rapport de recherche du META
+Group définit les enjeux inhérents à la croissance des données comme étant tri-dimensionnels : les analyses complexes répondent en effet à la règle dite « des 3V » (volume, vélocité et variété).
+Ce modèle est encore largement utilisé aujourd’hui pour décrire ce phénomène.
+Le taux de croissance annuel moyen mondial du marché de la technologie et des services du big data sur la période 2011-2016 devrait être de 31,7 %.
+Ce marché devrait ainsi atteindre 23,8 milliards de dollars en 2016 (d'après IDC mars 2013).
+Le big data devrait également représenter 8 % du PIB européen en 2020 (AFDEL février 2013).
+Volume
+C'est une dimension relative : le big data, comme le notait Lev Manovitch en 2011, définissait autrefois , mais il est rapidement (dans les années 1990/2000) devenu possible d'utiliser des logiciels standards sur des ordinateurs de bureau pour analyser ou co-analyser de vastes ensembles de données.
+Le volume des données stockées est en pleine expansion : les données numériques créées dans le monde seraient passées de par an en 2010 à en 2011, puis en 2012 et s'élèveront à en 2020.
+À titre d'exemple, Twitter générait en janvier 2013, de données chaque jour et Facebook .
+En 2014, Facebook Hive générait de data par jour.
+Ce sont les installations technico-scientifiques (météorologie) qui produiraient le plus de données.
+De nombreux projets de dimension pharaonique sont en cours.
+Le radiotélescope “Square
+Kilometre Array” par exemple produira de données analysées par jour, tirées de données brutes produites à un rythme de par seconde.
+Variété
+Le volume des big data met les centres de données face à un réel défi : la variété des données.
+Il ne s'agit pas de données relationnelles traditionnelles, ces données sont brutes, semi-structurées, voire non structurées (cependant, les données non structurées devront, pour utilisation, être structurées).
+Ce sont des données complexes provenant du web (Web mining), au format texte (text mining) et images (image mining).
+Elles peuvent être publiques (open data, Web des données), géo-démographiques par îlot (adresses IP), ou relever de la propriété des consommateurs.
+Ce qui les rend
+difficilement utilisables avec les outils traditionnels.
+La démultiplication des outils de collecte sur les individus et sur les objets permet d’amasser toujours plus de données.
+Et les analyses sont d’autant plus complexes qu’elles portent de plus en plus sur les liens entre des données de natures différentes.
+Vélocité
+La vélocité représente la fréquence à laquelle les données sont à la fois générées, capturées, partagées et mises à jour.
+Des flux croissants de données doivent être analysés en quasi-temps réel (fouille de flots de données) pour répondre aux besoins des processus chrono-sensibles.
+Par exemple, les systèmes mis en place par la bourse et les entreprises doivent être capables de traiter ces données avant qu’un nouveau cycle de génération n’ait commencé, avec le risque pour l'Homme de perdre une grande partie de la maîtrise du système quand les principaux opérateurs deviennent des machines capables de lancer des ordres d'achat ou de vente à la nanoseconde (trading haute fréquence) sans disposer de tous les critères pertinents d'analyse pour le moyen et long terme.
+Différence avec l'informatique décisionnelle
+Si la définition du Gartner en 3V est encore largement reprise (voire augmentée de “V” supplémentaires selon l’inspiration des services marketing), la maturation du sujet fait apparaître un autre critère plus fondamental de différence avec l'informatique décisionnelle et concernant les données et leur utilisation :
+* Informatique décisionnelle : utilisation de statistique descriptive, sur des données à forte densité en information
+afin de mesurer des phénomènes, détecter des tendances… ;
+* Big data : utilisation de statistique inférentielle, sur des données à faible densité en information dont le grand volume permet d’inférer des lois (régressions…) donnant dès lors au big data (avec les limites de l’inférence) des capacités prédictives.
+Synthétiquement :
+* l'informatique traditionnelle, informatique décisionnelle comprise, est basée sur un modèle du monde ;
+* le big data vise à ce que les mathématiques trouvent un modèle dans les données.
+Représentation
+Modèles
+Les bases de données relationnelles classiques ne permettent pas de gérer les volumes de données du big data.
+De nouveaux modèles de représentation permettent de garantir les performances sur les volumétries en jeu.
+Ces technologies, dites de business analytics and optimization (BAO) permettent de gérer des bases massivement parallèles.
+Des patrons d’architecture (“big data architecture framework", BDAF) sont proposés par les acteurs de ce marché comme MapReduce créé par Google et utilisé dans le framework Hadoop.
+Avec ce système, les requêtes sont séparées et distribuées à des nœuds parallélisés, puis exécutées en parallèles (map).
+Les résultats sont ensuite rassemblés et récupérés (reduce).
+Teradata, Oracle ou EMC (via le rachat de Greenplum) proposent également de telles structures, basées sur des serveurs standards dont les configurations sont optimisées.
+Ils sont concurrencés par des éditeurs comme SAP et plus récemment Microsoft.
+Les acteurs du marché s’appuient sur des systèmes à forte évolutivité horizontale et sur des solutions basées sur du NoSQL (MongoDB, Cassandra) plutôt que sur des bases de données relationnelles classiques.
+Stockage
+Pour répondre aux problématiques big data, l’architecture de stockage des systèmes doit
+être repensée et les modèles de stockage se multiplient en conséquence.
+* Cloud computing :
+l’accès se fait via le réseau, les services sont accessibles à la demande et en libre service sur des ressources informatiques partagées et configurables.
+Les services les plus connus sont ceux de Google BigQuery, Big
+Data sur Amazon
+Web Services et Microsoft Windows Azure
+* Super calculateurs hybrides :
+les HPC pour high performance computing, qu’on retrouve en France dans les centres nationaux de calculs universitaire tels que l’IDRIS, le CINES, mais aussi au CEA ou encore le HPC-LR
+* Systèmes de fichiers distribués
+: les données ne sont plus stockées sur une seule machine car la quantité est beaucoup trop importante.
+Les données, les fichiers sont "découpés" en morceaux d'une taille définie et chaque morceau est envoyé sur une machine bien précise utilisant du stockage local.
+Le stockage local est préféré au stockage SAN et NAS pour des raisons de goulots d'étranglement au niveau du réseau et des interfaces réseaux des SAN.
+De plus, utiliser un stockage de type SAN coûte bien plus cher pour des performances bien moindres.
+Dans les systèmes de stockage distribué pour le big data, l'on introduit le principe de data locality.
+Les données sont sauvegardées là où elles peuvent être traitées.
+Applications
+Le trouve des applications dans de nombreux domaines : programmes scientifiques (CERN28 Mastodons), outils d'entreprises (IBM29, Amazon Web Services, BigQuery, SAP HANA) parfois spécialisées (Teradata, Jaspersoft30, Pentaho31...) ou startups, ainsi que dans le domaine de l'open source (Apache Hadoop, Infobright32, Talend33...) et de logiciels d'exploitation ouverts (avec par exemple le logiciel ouvert d'analyse de big data H2O).
+Recherche scientifique
+Le big data en est issu et il alimente une partie de la recherche.
+Ainsi le Large Hadron
+Collider du CERN
+utilise environ 150 millions de capteurs délivrant des données 40 millions de fois par seconde ;
+Pour 600 millions de collisions par seconde, il reste après filtrage 100 collisions d'intérêt par seconde, soit de données à stocker par an, et après réplication.
+Les outils d'analyse du big data pourraient affiner l'exploitation de ces données.
+Quand le Sloan Digital Sky
+Survey (SDSS) a commencé à collecter des données astronomiques en 2000, il a amassé en quelques semaines plus de données que toutes celles précédemment collectées dans l’histoire de l’astronomie.
+Il continue à un rythme de par nuit, et a en 10 ans (2000-2010) stocké plus de d’information.
+Le Large Synoptic Survey Telescope prévu pour 2015 devrait en amasser autant tous les cinq jours.
+Décoder le premier génome humain a nécessité 10 ans, mais prend aujourd'hui moins d'une semaine : les séquenceurs d'ADN ont progressé d'un facteur les dix dernières années, soit 100 fois la loi de Moore (qui a progressé d'un facteur 100 environ sur 10 ans).
+En biologie, les approches massives basées sur une logique d’exploration des données et de recherche d’induction sont légitimes et complémentaires des approches classiques basées sur l'hypothèse initiale
+formulée.
+Le big data s'est aussi introduit dans le domaine des protéines.
+Le (NCCS) stocke de données d’observations et de simulations climatiques.
+Les sciences sociales explorent des corpus aussi variés que le contenu de Wikipédia dans le monde ou les millions de publications et de tweets sur Internet.
+Exemples d'applications pour la planète et le climat
+Le big data mondial contient des données essentielles , et notamment pour améliorer l'efficacité énergétique des villes et bâtiments, pour les smartgrids, pour vérifier l'application de règlementations visant à lutter contre la déforestation, la surpêche, la dégradation des sols, le gaspillage alimentaire ou à mieux gérer les déchets, éco-consommer ou inciter les investisseurs à créer des villes intelligentes pour stimuler l'efficacité, l'innovation et le soutien aux actions de protection du climat et de résilience face au changement climatique.
+Une meilleure collecte, mise à disposition de tous, analyse et utilisation des données volumineuses est une condition selon ce groupe pour atteindre l'objectif 2030 (pour le climat) de l'ONU et les objectifs de l'Accord de Paris sur le climat.
+En 2016
+Taylor s'interroge : Quand le big data est présenté comme un commun ou un bien public ;
+de quel bien parle-t-on ? et à quel public le destine-t-on réellement ?
+en citant notamment Robert Kirkpatrick (directeur de UN Global Pulse) pour qui .
+Depuis 2012, le département de la Défense américain investit annuellement sur les projets big data plus de de dollars.
+Le gouvernement américain possède six des dix plus puissants supercalculateurs de la planète.
+La National Security Agency est actuellement en train de construire le Utah
+Data
+Center qui stockera jusqu'à un yottaoctet d’informations collectées par la NSA sur internet
+En 2013, le faisait partie des sept ambitions stratégiques de la France déterminées par la Commission innovation 2030.
+Secteur privé
+La revente de fichier de profil utilisateur peut participer au big data.
+Walmart traite plus d'un million de transactions client par heure, importées dans des bases de données qui contiendraient plus de d’information.
+Facebook traite 50 milliards de photos.
+D’une manière générale l'exploration de données de big data permet l’élaboration de profils clients dont on ne supposait pas l’existence.
+Le musée Solomon R. Guggenheim construit sa stratégie en analysant des données massives : dans les salles des transmetteurs électroniques suivent les visiteurs tout au long de leur visite.
+Le musée détermine ainsi de nouveaux parcours de visite en fonction des œuvres les plus appréciées, ou décider des expositions à mettre en place.
+Dans le domaine de l'assurance, l'augmentation du nombres d'objets connectés permet de recueillir un grand nombre de données en temps réel.
+Elles aident à mieux connaître les personnes et les objets assurés.
+Secteur énergétique
+Les smart buildings sont caractérisés par une « hybridation » entre numérique et énergie.
+Ces bâtiments ou logements individuels peuvent produire de l'énergie (voire être « positifs en énergie »).
+Ils peuvent aussi produire des données sur cette énergie et/ou sur leur consommation d'énergies.
+Ces données une fois agrégées et analysées peuvent permettent d'appréhender voire d'anticiper la consommation des usagers, des quartiers, villes, etc. en fonction des variations du contexte, météorologique notamment.
+L'analyse des données collectées de production (solaire, microéolien...) et de consommation dans un bâtiment, par le biais des objets connectés et du smartgrid, permet aussi potentiellement de mieux gérer la consommation des usagers (de manière « personnalisée »).
+En attendant un développement plus large du stockage de l'énergie, les jours nuageux et sans vent il faut encore faire appel à des centrales conventionnelles, et les jours exceptionnellement beaux et venteux (ex. : 8 mai 2016 où durant 4 heures le vent et le soleil ont généré plus de 90 % de l'électricité du pays, les centrales électriques au charbon et au gaz doivent réduire à temps leur production).
+Un cas extrême est celui d’une éclipse solaire (prévisible).
+La gestion de ces pics et intermittences coûte aujourd’hui plus de 500 millions €/an à l’Allemagne et conduit à des émissions de et autres gaz à effet de serre que l’on voudrait éviter) d’
+analyse automatique du big data énergétique et météorologique.
+Contexte :
+Avec , la capacité éolienne de l'Allemagne est la au monde, derrière la Chine et les États-Unis, et seule la Chine rivalise avec l’Allemagne en termes de capacité solaire.
+1/3 de l'électricité est en 2016 d’origine renouvelable et le gouvernement cible au 80 % du total avant 2050 et 35 % avant 2020
+Perspectives et évolutions
+L'un des principaux enjeux de productivité du big data dans son évolution va porter sur la logistique de l'information, c'est-à-dire sur comment garantir que l'information pertinente arrive au bon endroit au bon moment.
+Il s'agit d'une approche micro-économique.
+Son efficacité dépendra ainsi de celle de la combinaison entre les approches micro- et macro-économique d'un problème.
+Selon une étude IDC, les données numériques créées dans le monde atteindraient 40 zettaoctets d'ici 2020.
+À titre de comparaison, Facebook générait environ 10 téraoctets de données par jour au début 2013.
+Le développement de l'hébergement massif de données semble avoir été accéléré par plusieurs phénomènes simultanément : la pénurie de disques durs suite aux inondations en Thaïlande en 2011, l'explosion du marché des supports mobiles , etc. Ajouté à cela, la démocratisation du cloud-computing de plus en plus proche, grâce à des outils comme Dropbox, amène le big data au centre de la logistique de l'information.
+Afin de pouvoir exploiter au maximum le big data, de nombreuses avancées doivent être faites, et ce en suivant trois axes.
+Modélisation de données
+Les méthodes actuelles de modélisation de données ainsi que les systèmes de gestion de base de données ont été conçus
+pour des
+volumes de données très inférieurs.
+La fouille de données a des caractéristiques fondamentalement différentes et les technologies actuelles ne permettent pas de les exploiter.
+Dans le futur il faudra des modélisations de données et des langages de requêtes permettant :
+* une représentation des données en accord avec les besoins de plusieurs disciplines scientifiques ;
+* de décrire des aspects spécifiques à une discipline (modèles de métadonnées) ;
+* de représenter des informations contextuelles sur la donnée ;
+De très nombreux autres thèmes de recherche sont liés à ce thème, citons notamment : la réduction de modèle pour les EDP, l'acquisition comprimée en imagerie, l'étude de méthodes numériques d'ordre élevé…
+Probabilités, statistiques, analyse numérique, équations aux dérivées partielles déterministes et stochastiques, approximation, calcul haute performance, algorithmique…
+Une grande partie de la communauté scientifique, notamment en mathématiques appliquées et en informatique, est concernée par ce thème porteur.
+Gestion de données
+Le besoin de gérer des données extrêmement volumineuses est flagrant et les technologies d’aujourd’hui ne permettent pas de le faire.
+Il faut repenser des concepts de base de la gestion de données qui ont été déterminés dans le passé.
+Pour la recherche scientifique, par exemple, il sera indispensable de reconsidérer le principe qui veut qu’une requête sur un SGBD fournisse une réponse complète et correcte sans tenir compte du temps ou des ressources nécessaires.
+En effet la dimension exploratoire de la fouille de données fait que les scientifiques ne savent pas nécessairement ce qu’ils cherchent.
+Il serait judicieux que le SGBD puisse donner des réponses rapides et peu coûteuses qui ne seraient qu’une approximation, mais qui permettraient de guider le scientifique dans sa recherche.
+Le big data et les technologies associées permettent de répondre à différents enjeux tels que l'accélération des temps d’analyse des données clients, la capacité à analyser l’ensemble des données clients et non seulement un échantillon de celles-ci ou la récupération et la centralisation de nouvelles sources de données clients à analyser afin d’identifier des sources de valeur pour l’entreprise.
+Outils de gestion des données
+Les outils utilisés au debut des années 2010 ne sont pas en adéquation avec les volumes de données engendrés dans l’exploration du .
+Il est nécessaire de concevoir des instruments permettant de mieux visualiser, analyser, et cataloguer les ensembles de données afin de permettre une optique de recherche guidée par la donnée) qui expose au risque d’infobésité et pourrait être comparé à l’équivalent d’une « pollution ».
+Face à cette « informationnelle »
+quelques réponses de type néguentropique sont nées .
+D’autres réponses ont été la création de moteurs de recherche et d’outils d’analyse sémantique et de fouille de flots de données, de plus en plus puissants et rapides.
+Néanmoins, l'analyse du big data tend elle-même à engendrer du big data, avec un besoin de stockage et de serveurs qui semble exponentiel.
+Bilan énergétique
+Parallèlement à la croissance de la masse et du flux de données, une énergie croissante est dépensée d'une part dans la course aux outils de datamining, au chiffrement/déchiffrement et aux outils analytiques et d’authentification, et d'autre part dans la construction de fermes de serveurs qui doivent être refroidis ;
+au détriment du bilan énergétique et électrique du Web.
+Idées reçues
+En 2010, les jeux de données produites par l’homme sont de plus en plus complétés par d'autres données, massivement acquises de manière passive et automatique par un nombre croissant de capteurs électroniques et sous des formes de plus en plus interopérables et compréhensibles par les ordinateurs.
+Le volume de données stockées dans le monde fait plus que doubler tous les deux ans, et en migrant de plus en plus sur internet, les uns voient dans le big data intelligemment utilisé une source d’information qui permettrait de lutter contre la pauvreté, la criminalité ou la pollution.
+Et à l'autre extrémité du spectre des avis, d'autres, souvent défenseurs de la confidentialité de la vie privée, en ont une vision plus sombre, craignant ou affirmant que le big data est plutôt un Big Brother se présentant dans de , « dans des vêtements de l’entreprise ».
+En 2011 à l'occasion d'un bilan sur 10 ans d'Internet pour la société, Danah Boyd (de Microsoft Research) et Kate Crawford (University of New South Wales) dénonçaient de manière provocatrice six problèmes liés à des idées reçues sur le big data :
+* Mésinterprétation de certaines données liées à l'altérité, avec d'éventuelles conséquences sociopsychologiques, par exemple et de mauvaise compréhension ou interprétation de l’autre ( rappelle D.
+Pucheu )
+Un autre risque est celui d'une .
+* Exacerbation de la ,
+car les outils de data mining offrent à quelques entreprises un accès croissant et presque instantané à des milliards de données et de documents numérisées.
+Pour ceux qui savent utiliser ces données, et avec certaines limites, elles offrent aussi une certaine capacité à produire, trier ou distinguer des informations jugées stratégiques, permettant alors aussi de retenir ou au contraire de libérer avant d’autres certaines informations stratégiques .
+Cet accès très privilégié et peu transparent à l'information peut favoriser des situations de conflits d'intérêt ou des délits d'initiés.
+Il existe un risque d'inégalités croissante face aux données et au pouvoir que l'on a sur elles : Manovich distingue ainsi 3 catégories d’acteurs, foncièrement inégaux face à la donnée : (2011).
+Ces derniers sont en faible nombre, mais très privilégiés (ils sont souvent employés par les entreprises et autres entités du big data et ont donc le meilleur accès à la donnée;
+ils contribuent à produire ou orienter les règles qui vont les encadrer et cadrer l’exploitation des big data.
+Des inégalités institutionnelles sont a priori inéluctables mais elles peuvent être minimisées et devraient au moins être étudiées, car elles orientent les données et les types de recherches et applications qui en découleront.
+* Appropriation monopolistique de certains jeux de mégadonnées collectées par quelques grandes entreprises (Google, Facebook…) ou par les outils publics ou secrets de grands États (ex. : PRISM) visant à ).
+Ces données sont ensuite plus ou moins mises à jour, et éventuellement louées ou vendues pour le marketing et la publicité ciblée, des études scientifiques des organismes de sondage, des groupes d’influence ou des partis politiques (qui peuvent ainsi plus facilement contacter leurs électeurs potentiels), etc.
+Les personnes dont les données circulent ainsi n’en sont généralement pas informées, n’ont pas donné de consentement éclairé et peuvent difficilement vérifier ces données ou surtout les retirer des bases de données qui les conservent pour une durée potentiellement illimitée.
+Des risques de production d’erreur et de mauvais usages existent
+dans le domaine des assurances et prêts bancaires par exemple
+D’après le reportage de F Lescalier intitulé « Big
+Data : les nouveaux devins »
+, 80 % des données personnelles mondiales seraient détenues par 4 grands acteurs qui sont (par ordre alphabétique) : Amazon, Apple, Facebook et Google.
+* Dérives éthiquement insoutenables, déjà constatées dans la partie grise ou sombre de l’internet, y compris dans les grands réseaux sociaux (dont Facebook et Twitter, qui collectent un grand nombre de données et informations sur leurs utilisateurs et les réseaux dans lesquels ils s’inscrivent) ;
+D’autres invitent à l’adoption de bonnes pratiques et de règles éthiques plus strictes pour le data mining et la gestion de ces mégadonnées.
+Notamment depuis les révélations du lanceur d'alerte américain Edward Snowden, certains s’inquiètent de voir outre une surveillance de plus en plus invasive (voire pervasive) de nos activités par les fournisseurs d’accès à Internet, puis fleurir des législations facilitant (sous prétexte de facilités économiques et/ou de sécurité nationale) l’usage d’outils de traçage .
+Certaines de ces législations facilitent ou légitiment explicitement les écoutes électroniques (écoute et analyse de conversations téléphoniques ;
+interception et analyse
+d’emails et de réseaux) et le suivi général des activités sur le Net, ce qui leur semble être un contexte pouvant préparer une surveillance orweillienne généralisée des individus.
+Ces auteurs dénoncent l’apparition de processus et d’un contexte de plus en plus orweillien , « même quand on n'a rien à cacher » ou (comme B. Schneier en 2008 ou Culnan & Williams en 2009) rappellent que les notions de sécurité et de protection de la vie privée et d’autonomie de l’individu ne sont pas opposées.
+Critiques
+La Commissaire européenne à la Concurrence, Margrethe Vestager, a considéré auprès du Wall Street Journal que les grandes sociétés pouvaient utiliser des masses gigantesques de données d’utilisateurs pour entraver la concurrence.
+Dans un rapport du CIB (Comité International de Bioéthique) sur les mégadonnées et la santé, publié en 2015, il est fait état d'une " surestimation et prévisions irréalistes " de l'utilisation des mégadonnées.
+L'enthousiasme suscité par ce phénomène risque de s'affaisser car les mégadonnées peuvent entraîner un déséquilibre des priorités en termes de politiques de santé, notamment dans les pays où l'accès à ces services essentiels (santé, éducation...) ne sont pas garantis.
+En conclusion de la proposition 45, le CIB " émet des doutes élevés sur le risque de négliger le potentiel bénéfique des mégadonnées et de ne pas mettre à profit leurs avantages ".
+Gouvernance et mégadonnées
+Elle nécessite un débat citoyen constant ainsi que des modes de gouvernance et de surveillance adaptés car des États, des groupes ou des entreprises ayant des accès privilégiés au big data peuvent en extraire très rapidement un grand nombre de qui, par croisement et analyse, permettent un profilage de plus en plus précis, intrusif et parfois illégal (faisant fi de la protection de la vie privée) des individus, des groupes, des entreprises, et en particulier de leur statut social, culturel, religieux ou professionnel (exemple du programme PRISM de la NSA), de leurs activités personnelles, leurs habitudes de déplacement, d’achat et de consommation, ou encore de leur santé.
+Cette question renvoie directement à la Déclaration Universelle des droits de l'Homme qui indique, dans l' , que .. En matière de santé publique notamment, des enjeux éthiques forts existent.
+Sur la scène européenne, un nouveau règlement a été mis en place dans le courant de l'année 2015: le GDPR (General Data Protection Regulation).
+Il s'agit d'un règlement qui modifie le cadre juridique relatif à la protection des données personnelles au sein de l’union européenne.
+Le GDPR rappelle que toute personne physique devrait avoir le contrôle de données à caractère personnel la concernant.
+Tout opération économique se doit, de plus, d'être transparente, le règlement en assure la sécurité juridique .
+Enfin la protection des données personnelles est garantie par ce nouveau règlement .
+Virtualisation
+La virtualisation des données est un moyen de rassembler des données provenant de plusieurs sources dans une seule « vue ».
+L'assemblage est virtuel : contrairement à d'autres méthodes, la plupart des données restent en place et sont extraites des sources brutes à la demande.
+Big data temps réel
+Les plateformes big data sont conçues pour traiter une quantité de données massive, en revanche elles sont très rarement conçues pour traiter ces données en temps réel.
+Les nouveaux usages et les nouvelles technologies génèrent des données au quotidien et sans interruption, il est donc nécessaire de faire évoluer ces plateformes pour traiter les données temps réel afin de répondre aux exigences métiers qui demandent d’aller vers plus de réactivité et de personnalisation.
+C’est la raison pour laquelle les architectures lambda et kappa ont vu le jour.
+Ces architectures permettent de prendre en compte les flux de données temps réel pour répondre à ces nouvelles exigences.

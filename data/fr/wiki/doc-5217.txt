@@ -1,0 +1,51 @@
+Casse-tête mécanique articulé
+Le Pyraminx est un équivalent tétraédrique du Rubik's Cube.
+Il a été inventé par Uwe Mèffert en 1970.
+Description
+Le Pyraminx est composé de quatre pièces centrales, six pièces d'arête, et quatre sommets triviaux.
+Il peut être tourné pour faire permuter les pièces.
+Les pièces centrales ont une forme octaédrique, bien que ce ne soit pas évident immédiatement, et peuvent être uniquement tournées autour de l'axe sur lequel elles sont attachées.
+Les six pièces d'arête peuvent être permutées librement.
+Les sommets triviaux sont appelés ainsi parce qu'ils peuvent être tournés indépendamment des autres pièces, rendant leur position évidente dans la résolution.
+Le but du Pyraminx est de faire correspondre les couleurs, pour revenir à la configuration d'origine.
+Le record du monde actuel pour une seule résolution du Pyraminx est de 0,91 secondes, réalisé par Dominik Górny au Byczy
+Cube
+Race 2018,
+le 24 juin 2018.
+Les quatre sommets triviaux peuvent tourner selon l'axe sur lequel ils sont attachés.
+Les pièces centrales et les sommets triviaux peuvent être placées facilement pour correspondre entre elles.
+Il reste donc uniquement les six pièces d'arête constituant la difficulté du puzzle.
+Elles peuvent être placées en répétant deux séquences de quatre rotations, qui sont une version miroir l'une de l'autre.
+Ces séquences permutent trois arêtes en même temps, et changent leur orientation différemment, donc une combinaison de ces deux séquences est suffisante pour résoudre le puzzle.
+Toutefois, des solutions plus efficace (nécessitant moins de mouvements) sont généralement utilisées (voir ci-dessous).
+Histoire
+Le Pyraminx est né de l'esprit de Uwe Mèffert, un Allemand, en 1970 ainsi que le Mégaminx et deux des cubes de la famille des Skewbs.
+Mais pensant que personne ne serait intéressé, il les garde donc pour lui-même.
+Cependant à la fin des années 1970, en voyant l'essor du Rubik's Cube, il décide donc de les ressortir en les présentant à un fabricant de puzzles japonais en 1981.
+Combinatoire du problème
+Le nombre de combinaisons du Pyraminx se calcule comme suit :
+Il y a trois orientations possibles
+pour chacun des 4 sommets triviaux, cela donne 34 possibilités
+Il y a trois orientations possibles pour chacune des 4 pièces centrales, cela donne 34 possibilités
+Il y a deux orientations possibles pour chacune des 6 arêtes.
+Étant donné qu’on ne peut pas changer l’orientation d’une arête seule, l’orientation de toutes les arêtes fixe l’orientation de la dernière.
+Cela donne 25 possibilités d’orientation des arêtes.
+Les arêtes peuvent s'échanger entre elles, ce qui donne 6!
+possibilités de positionnements pour les arêtes
+Le placement des deux dernières arêtes est déterminé par celui des quatre autres et il faut donc diviser le résultat par deux.
+Ce qui donne \frac=75\ 582\ 720 possibilités
+Sans considérer les sommets triviaux dans le calcul
+, on obtient \frac
+933\ 120 possibilités et mettre les pièces centrales de même réduit ce nombre à seulement \frac
+11\ 520 possibilités rendant ce puzzle assez simple à résoudre.
+Solution optimale
+Le nombre maximum de mouvements pour résoudre le Pyraminx est de 11.
+Il y a 933 120 positions différentes (sans compter la rotation des sommets), un nombre assez faible pour permettre à un ordinateur de chercher la solution optimale.
+Le tableau ci-dessous résume le résultat de cette recherche, avec p le nombre de positions nécessitant n rotations pour résoudre le Pyraminx :
+Records récents
+La moyenne (ou average, terme anglais) est calculée sur cinq tentatives en enlevant à la fois le meilleur et le moins bon temps de la série, se basant ainsi sur trois temps.
+Voir aussi
+Il existe également un Master Pyraminx créé par Katsuhiko Okamoto.
+Il possède 16 triangles sur chaque face au lieu de 9.
+Il existe également un Professor Pyraminx créé par Uwe Mèffert.
+Il possède 25 triangles sur chaque face au lieu de 9.

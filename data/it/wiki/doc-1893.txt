@@ -1,0 +1,77 @@
+Il codice ISBN (dall'inglese International Standard Book Number, "numero di riferimento internazionale del libro") è una sequenza numerica di 13 cifre usata internazionalmente per la classificazione dei libri (è ancora utilizzata anche la codifica antecedente il 2007, costituita da un numero di cifre pari a 10 in cui l'ultimo carattere può eventualmente contenere la lettera maiuscola X).
+È definito da uno standard dell'ISO, derivato dalla codifica SBN inglese del 1967.
+Sebbene non obbligatorio, il suo uso però è ormai diventato essenziale per l'immissione del prodotto librario nei canali della grande distribuzione.
+Ogni codice ISBN identifica in modo univoco ogni specifica edizione di un libro (non però le semplici ristampe, che mantengono lo stesso codice dell'edizione cui si riferiscono) e, una volta assegnato, non può più essere riutilizzato.
+Esistono anche analoghi codici numerici per la classificazione di pubblicazioni periodiche come i quotidiani o le riviste (l'ISSN) e per gli spartiti musicali (l'ISMN).
+Storia
+Nel 1965 la Smith's, la più estesa catena inglese della grande distribuzione specializzata in libri e giornali, annunciò di voler passare nel giro di un paio d'anni alla gestione computerizzata dei propri magazzini e depositi e, per creare un adeguato sistema di catalogazione, ne commissionò lo studio al professor Gordon Foster.
+In effetti, la codifica Standard Book Numbering (SBN) a 9 cifre fu elaborata nel 1966 in accordo con altri venditori di libri e attuata nel 1967.
+L'ISO (International Organization for Standardization) convocò allora una commissione per discutere della possibilità di ampliare questo metodo all'uso internazionale, possibilità per altro già contemplata e auspicata nello studio di Foster (compreso il passaggio da 9 a 10 cifre).
+Il primo incontro si tenne a Londra nel 1968 con i rappresentanti di Danimarca, Francia, Germania, Irlanda, Paesi Bassi, Norvegia, Regno Unito, USA e un osservatore dell'UNESCO.
+Altri paesi contribuirono con suggerimenti scritti e dichiarazioni d'interesse.
+Una relazione dell'incontro venne distribuita a tutti i membri dell'ISO e le varie osservazioni furono discusse nei successivi incontri di Berlino e Stoccolma del 1969, fino all'approvazione dell'ISBN a 10 cifre come standard nel 1970 con l'ISO 2108.
+Dal 1º gennaio 2007 si sono aggiunte 3 cifre davanti all'ISBN "vecchio", portando così le cifre che compongono l'ISBN da 10 a 13;
+l'algoritmo che genera il carattere di controllo è cambiato, e quindi l'ultimo carattere generalmente non coincide nelle due versioni.
+Il codice è normalmente rappresentato tramite il font OCR-B.
+Formato
+L'attuale codice ISBN è formato da una stringa di 13 cifre, suddivise in 5 settori.
+Solo il primo e l'ultimo settore hanno un numero fisso di cifre (rispettivamente 3 e 1), per gli altri tre settori centrali invece il numero di cifre varia in modo inversamente proporzionale fra loro.
+Generalmente, ma non sempre, i vari settori del codice ISBN sono separati l'uno dall'altro da un trattino (è il metodo consigliato) o da uno spazio.
+Prefisso EAN - sono le prime tre cifre del codice ISBN, introdotte a partire dal 2007;
+indicano che si è in presenza di un libro.
+# Gruppo linguistico - è l'identificativo del paese o dell'area linguistica dell'editore;
+può utilizzare da 1 a 5 cifre.
+# Editore - è l'identificativo della casa editrice o del marchio editoriale;
+può utilizzare da 2 a 7 cifre.
+# Titolo - è l'identificativo del libro;
+può utilizzare da 1 a 6 cifre.
+# Carattere di controllo - è l'ultima cifra del codice ISBN (nei "vecchi" codici ISBN-10, oltre ai numeri da 0 a 9, si utilizzava anche il 10 romano, cioè la "X") e serve a verificare che il codice non sia stato letto o trascritto erroneamente (cosa che può sempre accadere, specialmente quando si usano strumenti automatici come i lettori di codici a barre).
+I tre settori centrali, nel loro insieme, hanno dunque a disposizione le nove cifre restanti;
+ciò significa che meno cifre sono utilizzate dal gruppo linguistico e dall'editore, più cifre sono disponibili per la loro produzione editoriale (il settore titolo).
+In altre parole, le lingue e gli editori che hanno meno cifre nel codice ISBN dovrebbero essere anche quelli che pubblicano una maggior quantità di libri.
+Esemplificando, se consideriamo il codice ISBN riportato nell'immagine all'inizio di questa voce, 978-3-16-148410-0, ed escludiamo il primo e l'ultimo settore (978 e 0), le nove cifre dei tre settori centrali sono 3-16-148410.
+Come si vede, il gruppo linguistico (3
+tedesco)
+e l'editore (16
+Mohr Siebeck) usano solo tre cifre, per cui rimangono ben 6 cifre per il settore titolo;
+in altri termini, l'editore tedesco Mohr Siebeck ha a propria disposizione un milione di codici.
+Se consideriamo invece il codice ISBN riportato nell'immagine qui a destra, 978-81-7525-766-5, ed escludiamo il primo e l'ultimo settore (978 e 5), le nove cifre dei tre settori centrali sono 81-7525-766.
+In questo caso il gruppo linguistico (81 = indiano) e l'editore (7525) usano già sei cifre, per cui ne rimangono solo tre per il settore titolo;
+il che significa che quell'editore indiano ha a propria disposizione solo mille codici.
+Prefisso EAN
+Il primo settore del codice ISBN è costituito da tre cifre, per ora limitate a 978 o 979.
+Esse indicano che il prodotto esaminato è un libro e dipendono dall'adattamento del sistema ISBN a quello EAN.
+Poiché l'EAN è un codice a barre utilizzato per l'identificazione univoca di prodotti destinati al consumatore finale, dal 1º gennaio 2007 la codifica ISBN a 10 cifre (ISBN-10) è stata modificata per presentarne 13 (ISBN-13) e coincidere così con il numero del codice a barre EAN-13, sfruttandone tutti i vantaggi nelle diverse fasi della produzione, distribuzione e commercio dei libri.
+Tuttavia, nel codice EAN per gli altri prodotti non librari, le prime tre cifre identificavano il paese di provenienza del prodotto, elemento invece già presente nell'ISBN-10.
+Per non stravolgere la precedente codifica ISBN e poterla comunque convertire facilmente in quella EAN, per tutti i libri, di qualsiasi paese, lingua o area geografica, si è deciso di creare uno stato fittizio, il cosiddetto Bookland (il "Paese del libro", già in uso presso alcuni editori fin dagli anni ottanta), a cui è stato assegnato il prefisso 978.
+In tal modo i codici ISBN a 10 cifre già esistenti sono rimasti immutati (esclusa l'ultima cifra, il carattere di controllo) ed è stato loro semplicemente anteposto il prefisso 978.
+Analogamente sono stati individuati i prefissi EAN 977 per la conversione a 13 cifre dei codici ISSN (periodici) e 979 per quella dei codici ISMN .
+Una parte del prefisso 979 è anche utilizzata per aumentare la disponibilità di codici per i prodotti librari.
+Gruppo linguistico
+Il secondo settore del codice ISBN identifica il gruppo nazionale, linguistico o geografico da cui proviene il libro e può utilizzare da 1 a 5 cifre.
+Nel seguito sono elencati i codici dei gruppi linguistici o geografici.
+La cifra di controllo nell'ISBN-13
+Con l'ISBN-13 il codice di controllo è calcolato in modo differente.
+Il relativo algoritmo numerico è il seguente:
+* si moltiplica ogni cifra per un peso che assume in modo alternato i valori 1 e 3, partendo dalla prima cifra a sinistra che ha peso
+* si divide la somma per 10 e si prende il resto della divisione
+* si sottrae il risultato da 10:
+questa cifra è la cifra di controllo;
+se quest'ultimo risultato fosse proprio 10, lo si sostituirà con 0.
+Esempio:
+dato un codice 978-88-430-2534
+\frac
+110)
+La prova della correttezza di un codice ISBN-13 si ottiene rieseguendo il calcolo iniziale, stavolta con tutte e 13 le cifre.
+Il risultato dell'addizione dovrà essere divisibile per 10.
+ISBN
+L'ISBN A (Isbn Azionabile) è un ulteriore strumento relativo al codice Isbn, il cui utilizzo è prettamente riservato alle applicazioni Internet.
+Restituisce infatti all'utente le informazioni e i servizi che l'editore ha associato al libro.
+Non è quindi un nuovo codice, ma un servizio aggiuntivo dell'ISBN.
+Si distingue formalmente soltanto per l'ulteriore prefisso 10, e per la lieve modifica di formato.
+Esempio:
+ISBN 978-88-89637-41-8
+ISBN
+A 10.978.8889637/418
+Note
+Bibliografia

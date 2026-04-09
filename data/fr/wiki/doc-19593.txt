@@ -1,0 +1,99 @@
+Terminologie du jeu
+vidéo|Technologie
+Le test dans le monde du jeu vidéo, domaine particulier du test logiciel, est une pratique consistant à évaluer les fonctionnalités d'un jeu vidéo.
+Ce test peut être effectué lors du développement du jeu dans le but de rechercher d'éventuels dysfonctionnements ou améliorations nécessaires (effectué par des testeurs en version alpha ou en bêta-test ouvert ou fermé).
+Différentes techniques permettent de repérer la présence de bugs pour les corriger.
+Des tests sont également effectués par des journalistes sur les jeux vidéo lors de la commercialisation pour en évaluer la qualité et le contenu.
+Particularité du test lié au jeu vidéo
+Les techniques de tests automatiques ne fonctionnent pas dans le domaine du jeu vidéo car la plupart des jeux vidéo font partie des logiciels à fonctionnalités émergentes.
+En effet, les développeurs de jeux vidéo cherchent plutôt à divertir et amuser l’utilisateur.
+Il s’agit aussi d’un domaine créatif qui touche les émotions du joueur et cherche à lui procurer de la satisfaction.
+Du fait des différences constatées entre le jeu vidéo et le logiciel classique, l’ensemble des tests sera donc différent.
+On peut souligner quelques différences majeures :
+* La maintenance dans les jeux vidéo paraît moins importante du fait de la durée de vie courte des jeux.
+*Dans un logiciel
+, les tests utilisateurs permettent d'identifier puis de retirer les obstacles à la productivité de l'utilisateur.
+Dans le jeu vidéo l'obstacle est nécessaire : le test utilisateur (playtest) permettra (entre autres) d'adapter l'obstacle aux compétences du joueur, et non pas de le retirer.
+Les jeux vidéo auront donc une préférence pour les tests d'utilisabilité et les qui permet de classer les bugs en deux catégories : les bugs intemporels, qui peuvent apparaître à n'importe quel moment dans le jeu, et les bugs temporels, qui nécessitent de connaître l'état précédent du jeu pour reconnaître le bug.
+Bugs intemporels
+* Position invalide : un objet ne devrait pas pouvoir être là où il est.
+** Objet hors limites pour n'importe quel état : un objet se trouve dans un endroit normalement inaccessible (ex : un personnage marche sur la surface de l'eau).
+** Objet hors limites pour un état spécifique : un objet est dans une position inaccessible mais qui pourrait être valide dans un autre contexte (ex : un PNJ apparaît dans une cinématique alors qu'il ne devrait pas).
+* Représentation graphique invalide : le rendu graphique de certains objets ou aspects du monde est incorrect (ex : un personnage se met à nager alors qu'il est sur terre).
+* Changement de valeur invalide : un problème avec un compteur (ex : prendre une balle ne retire aucun point de vie).
+* Stupidité artificielle :
+l'intelligence artificielle ne répond pas aux attentes, c'est-à-dire que les Personnages Non-Joueurs (PNJ) cassent l'illusion d'intelligence par certaines de leurs actions (ex : le PNJ marche contre un mur ou bloque le passage).
+* Bugs d'information : des problèmes liés aux informations connues par le joueur
+** Manque d'informations
+: le joueur devrait connaître certaines informations pour comprendre le jeu mais ne les possède pas (ex : une cinématique ne fonctionne pas).
+** Accès à l'information invalide : le joueur connaît plus d'informations que prévu par accident (ex :
+en voyant à travers un mur)
+** Informations
+dans le désordre :
+le joueur reçoit les informations dans le mauvais ordre (ex : quand il y a plusieurs moyens d'obtenir une information, le joueur voit son personnage découvrir la même chose plusieurs fois).
+* Bugs d'actions : des problèmes liés aux actions dans le jeu
+** Action impossible : des actions que le jeu devrait permettre mais qui sont impossibles (ex : impossible de ramasser un objet).
+** Action non autorisée :
+des actions possibles lorsque le jeu est en pause ou pendant une cinématique, ou encore un script qui se lance au mauvais moment (ex : la cinématique se déclenche avant l'arrivée du personnage).
+Bugs temporels
+* Position invalide dans le temps : des mouvements impossibles (ex : téléportation) ou une absence de mouvements attendus (ex : un PNJ est coincé).
+* État du contexte
+invalide dans le temps : des objets restent dans le même état trop longtemps (ex : immobilité).
+* Occurrence des événements invalide dans le temps : des événements se produisent trop fréquemment ou trop rarement (ex : un événement considéré comme rare se produit plusieurs fois d'affilée)
+* Événements interrompus :
+des actions dans le jeu se terminent de façon abrupte (ex : un personnage parle mais la bande-son s'arrête sans raison).
+* Problèmes de réponse de l'implémentation : problèmes liés au matériel (ex : latences).
+Détection et correction automatique des bugs
+Dans le but d'accélérer la phase de tests dans le développement de jeux vidéo, des approches sur l'automatisation des tests ont été avancées.
+Détection de bugs
+Des études.
+On sait qu'un tour de boucle change atomiquement l'état du jeu.
+Au lancement, la boucle est démarrée et attend en entrée l'intervention du joueur.
+À chaque action de l'utilisateur, les données sont traitées, l'état du jeu est modifié et le résultat est renvoyé au joueur.
+Lorsque la phase de jeu est terminée, la boucle est détruite.
+En surveillant l'environnement d'exécution, il est possible de détecter dynamiquement des problèmes lors d'un tour de boucle à travers des contraintes et des conditions.
+Ainsi, les problèmes qui auraient pu passer inaperçus aux yeux d'un testeur sont détectés, et peuvent ensuite être corrigés.
+Correction de bugs
+Il est également possible, selon certaines études, de corriger à l'exécution les problèmes qui ont été détectés.
+Lorsqu'une condition n'est pas respectée, la valeur qui viole cette contrainte peut être modifiée dynamiquement pour régler le bug.
+Par contre, rien n'indique que cette correction ne va pas entraîner des régressions, c'est-à-dire déclencher d'autres violations.
+Le pire cas possible est que chaque réparation provoque un bug qui est ensuite réparé automatiquement mais provoque un nouveau problème, et ainsi de suite, créant une boucle de réparations infinie.
+Outils
+Mayet
+Mayet qui est capable de trouver un moyen de finir un jeu.
+La création d’un solveur est proche de la représentation des données et des opérations logiques du moteur de jeu.
+Le solveur est implémenté en suivant l’algorithme de parcours en largeur.
+Il va explorer chaque état du jeu, jusqu'à atteindre le but attendu.
+Chaque état est représenté par un nœud dans l’arbre, et chaque événement est une branche permettant d’accéder à un nouvel état.
+Tout d’abord, il va lister tous les événements de la scène, puis il va en choisir un afin d’atteindre un nouvel état du jeu.
+Le processus est répété jusqu'à ce qu’un objectif soit atteint ou que la recherche devienne trop profonde.
+LeChimp
+LeChimp est un serveur de tests fonctionnels utilisé par les développeurs du studio GamesFromWithin.
+Il exécute régulièrement le jeu sur un nombre fixe d'images, et s’assure que tout se charge et s’exécute correctement.
+Puis, il exécute de manière aléatoire différentes actions, comme si un singe jouait au jeu.
+Cela permet de découvrir des bugs que personne n’a remarqué durant les essais.
+Shadow Map
+Alfredo
+Nantes,
+Ross Brown et Frédéric Maire ont fait des recherches à propos d’un framework de test semi-automatique pour les jeux vidéo.
+Celui-ci repose sur l’utilisation d’un agent qui va permettre de détecter un bug visuel (inspection de l’environnement) ou de mesurer la difficulté d’une partie du jeu (inspection du divertissement).
+Shadow Map est une technique qui s'appuie sur ce framework.
+Par exemple, l’agent est capable de détecter l’aliasing d’une scène.
+D’abord l’agent extrait les ombres de la scène.
+Ensuite il exécute des algorithmes de détections de contours et de coins afin de faire ressortir les ombres souffrant d’aliasing.
+Métiers du test dans les jeux vidéo
+Il existe plusieurs catégories de testeurs de jeux vidéo sur le marché français : les testeurs qualité et les journalistes.
+Testeur qualité
+On distingue plusieurs phases de jeu où interviennent les testeurs : ils commencent par la version alpha du jeu, c’est-à-dire la première version, pour terminer avec la version bêta, la dernière version test.
+Rôle
+Le rôle du testeur qualité consiste à faire la chasse aux bugs et incohérences, ainsi que donner son opinion sur des points de gameplay.
+Le métier de testeur est plutôt un tremplin vers d’autres métiers du jeu vidéo, permettant de monter en grade au sein du service des tests et de diriger une équipe de testeurs.
+Le testeur peut également devenir game designer, passer en production ou encore gérer des projets.
+Les rédacteurs sont rattachés à un magazine tandis que les pigistes produisent des articles de tests à la demande.
+Le journaliste spécialiste du jeu vidéo peut exercer son métier pour la presse écrite ou la presse en ligne.
+Il doit être bon en Français et posséder des qualités d’écriture et de rédaction .
+Il doit aussi être ouvert d’esprit et suffisamment curieux pour se tenir au courant de l’actualité et des nouveautés .
+Le sens de la communication et du contact est une qualité nécessaire car il est souvent amené à se déplacer dans des salons et des présentations de jeux vidéo.
+Parfois obligé de terminer des articles dans des délais très serrés, il est nécessaire au journaliste d’être résistant au stress .
+Parcours
+Il n'y a pas de diplôme particulier pour devenir journaliste spécialisé dans le domaine des jeux vidéo .

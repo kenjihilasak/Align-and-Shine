@@ -1,0 +1,50 @@
+Filtrage d'Internet
+Le filtrage d'internet est un ensemble de techniques visant à limiter l'accès à certains sites normalement accessibles sur le réseau Internet.
+Voir censure de l'Internet pour la légitimité de ces techniques.
+Objectifs
+Cette limitation d'accès peut avoir différents buts :
+* contrôle parental
+pour protéger les enfants contre des contenus inappropriés ;
+* sécurisation d'un accès Internet public : borne internet, ou appareil de démonstration en accès public
+* restrictions
+d'un accès d'entreprise à un usage professionnel
+* restrictions
+d'un accès scolaire à un usage scolaire ;
+* protection juridique pour le titulaire de l'accès.
+Selon l'objectif visé le filtrage peut se faire sur le poste client de l'utilisateur (par exemple avec un logiciel appelé censorware) ou en amont, par exemple chez le FAI, ou également sur un routeur dans le cas d'un réseau local (le routeur est alors en général une passerelle du réseau local).
+En fonction des objectifs du filtrage et des législations nationales, la technologie peut être autorisée ou interdite.
+si elle remet en cause les droits fondamentaux des citoyens.
+Dans un article d'avril 2018, Radio Canada, décrit le flou juridique qui subsiste quant à l'utilisation de techniques de filtrage développées au Canada et utilisées à l'étranger pour censurer Internet dans des pays autoritaires.
+Aspects techniques
+Filtrage IP et
+DNS
+Les technologies employées peuvent être le blocage IP par routeur et la redirection DNS.
+Le filtrage peut être fait sur des adresses MAC des machines, sur des noms de domaine, ou bien sur des numéros de port correspondant à des protocoles connus pour la communication distribuée entre applications.
+Le filtrage peut être réalisé avec des pare-feu ou des proxys.
+Filtrage par mots-clefs
+Le mécanisme de filtrage empêche l'accès aux pages dont l'adresse et/ou le texte contiennent certains mots : les « listes noires » comprennent par exemple des mots relatifs à la sexualité, au jeu en ligne ou au racisme.
+La méthode comporte le risque d'un taux élevé de faux positifs (par exemple, si une entreprise veut interdire les sites pornographiques à ses employés et que, pour cela, elle interdit l'accès aux pages contenant des mots relatifs à la sexualité, elle risque aussi de bloquer l'accès à des informations médicales).
+Blocage de certains sites
+Des sites identifiés par nom de domaine ou adresse IP peuvent être mis sur « liste noire ».
+La liste des sites interdits peut aussi contenir des sites qui n'ont pas de contenu indésirable mais qui permettent de contourner le filtrage en servant d'intermédiaires lors de la connexion aux sites bloqués : il s'agit par exemple des anonymiseurs (spécialement conçus dans ce but), mais aussi des sites de traduction en ligne, par exemple (qui, si on leur fournit l'URL d'une page à traduire, se comportent comme des anonymiseurs).
+Le cache des moteurs de recherche joue le même rôle, mais son accès est moins souvent bloqué.
+Le projet PRINCIP
+La « Plateforme pour la recherche
+, l'identification et la neutralisation des contenus illégaux et préjudiciables sur l'Internet », lancée au début des années 2000, à laquelle participent plusieurs laboratoires européens, cherche principalement à détecter automatiquement les textes racistes, en s'appuyant sur des règles plus complexes que la simple recherche de mots-clefs :
+* l'identification de morphèmes comme peupl- qui apparaissent principalement dans les textes racistes
+* l'étude de l'environnement des mots qui, comme « immigration », apparaissent aussi bien dans les textes racistes que dans les textes antiracistes ;
+* des critères purement techniques comme la police de caractères utilisée ou la présence d'une image de fond (ce qui évoque les méthodes de détection de spam).
+Filtrage par catégorie
+En quelque sorte une évolution du filtrage d'URL, le filtrage par catégorie permet d'associer pour un site
+Web une catégorie à laquelle il appartient.
+Par exemple, on peut voir apparaître une catégorie "Pornographie" ou encore "Sports".
+Toute la difficulté dans ces systèmes de filtrage par catégorie est qu'il faut réussir à avoir une bonne granularité mais ne pas non plus entrer trop dans les détails et se retrouver avec une multitude de catégories.
+Il faut ensuite réussir à classer chaque site dans la bonne catégorie afin d'éviter les faux positifs.
+En fonction des solutions de filtrage, on dispose d'une base de données locale ou directement chez l'éditeur.
+Chaque société a ensuite son propre mode de fonctionnement pour effectuer la catégorisation des nouveaux sites internet (mots clés, analyse par site, récupération des sites visités et non reconnus par l'application, filtrage manuel, etc.).
+Filtrage manuel
+Ce type de filtrage est réalisé à la main par des personnes physiques.
+Ces personnes sont à même de juger du contenu d'un site afin de pouvoir le classer ensuite dans la bonne catégorie.
+Certains logiciels proposent un classement adapté à chaque pays, et ce en fonction de plusieurs critères :
+* la loi du pays et les différentes interdictions liées (avortement, vente d'armes en ligne, vente de tabac en ligne...)
+* les habitudes de surf des habitants du pays et leurs centres d'intérêt

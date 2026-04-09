@@ -1,0 +1,48 @@
+La cryptographie symétrique, aussi appelée cryptographie à clef secrète, désigne l'une des trois façons de chiffrer un message (et, plus généralement, de l'information).
+Les deux autres grands types de cryptographie sont la cryptographie asymétrique (dite à clef publique) et la cryptographie hybride.
+La cryptographie symétrique est la plus ancienne forme de cryptographie utilisée par l'homme.
+Cela est dû au fait que la cryptographie à clef publique s'appuie sur des outils mathématiques et informatiques modernes, et que la cryptographie hybride utilise le principe de la clef publique ;
+à l'inverse, les systèmes de chiffrement par clef secrète sont très faciles à mettre en œuvre, même « à la main ».
+clé de permutation
+Tous les systèmes cryptographiques reposent sur le principe de la clef :
+c'est elle qui permet le chiffrement, le déchiffrement, et elle joue un grand rôle dans la sécurité des messages.
+Dans un gobelet contenant des dés, la façon de secouer le gobelet influe sur celle dont les dés seront finalement mélangés ;
+dans les systèmes cryptographiques, on peut assimiler la clef au mouvement sur le gobelet : avec une clef faible (petit mouvement), les données à chiffrer (comme les dés) sont peu mélangées.
+Avec une clef forte (beaucoup de secousses sur le gobelet), les données sont très mélangées, et il est alors presque impossible de retrouver leur état initial.
+En cryptographie symétrique, « symétrique » fait référence à la clef utilisée : c'est la même pour chiffrer et déchiffrer les données (contrairement aux systèmes à clef publique comme RSA).
+Les avantages de la cryptographie symétrique sont :
+sa rapidité de chiffrement (notamment sur ordinateur)
+sa robustesse : contrairement aux systèmes à clef publique
+, les systèmes à clef secrète ne reposent pas sur l'idée qu'un certain problème mathématique (retrouver le message d'origine sans connaître la clef) est très long à résoudre.
+Ainsi, si l'on découvre un moyen de factoriser de très grands nombres, RSA est détruit ;
+un tel risque n'existe pas avec les systèmes à clef secrète, qui reposent entièrement sur leur efficacité à mélanger les données à partir de la clef ;
+sa mobilité : on la trouve par exemple sur la carte SIM des téléphones portables, parce que son exécution ne demande pas beaucoup de ressources.
+Des systèmes cryptographiques à clef secrète parmi les plus célèbres :
+le Chiffre de Vigenère, amélioration du Chiffre de César inventée au seizième siècle et qui a résisté jusqu'au dix-neuvième siècle !
+DES (Data Encryption Standard, « Standard de chiffrement des données ») qui a longtemps été le plus puissant système au monde, et fut notamment utilisé par le gouvernement des États-Unis ;
+Triple DES ou 3DES
+, sa version renforcée après les premières attaques réussies contre DES : Triple DES applique trois fois de suite DES aux données à chiffrer ;
+AES (Advanced
+Encryption Standard, «
+Standard de chiffrement avancé
+, algorithme qui remplace aujourd'hui l'ancien DES et qui reste à ce jour inviolé (2009).
+La cryptanalyse désigne l'ensemble des techniques mises en œuvre pour décrypter un message chiffré sans en connaître la clef, soit à des fins d'espionnage, soit pour tester la sécurité d'un système cryptographique.
+Par exemple, on considère comme sûr l'AES parce qu'il a été élu par des spécialistes, mais surtout parce qu'il a jusqu'à présent résisté à toutes les cryptanalyses.
+Après tout, les spécialistes auraient pu mentir contre de l'argent.
+Si l'on utilise aujourd'hui AES et non le Chiffre de César, alors que les deux sont pourtant des systèmes cryptographiques symétriques, c'est évidemment parce que le chiffre de César ne résiste plus à la moindre analyse.
+Au temps des Romains, les messages importants circulaient par messager (et non par courriel ou la Poste), et la majorité des gens ne pensait sans doute pas à décaler les lettres d'un message apparemment dénué de sens ;
+néanmoins, n'importe quel enfant peut décrypter un message chiffré César en moins d'un quart d'heure.
+Certains logiciels le font aisément en une seconde !
+La méthode naïve consiste à essayer un décalage d'une lettre, et voir si le morceau de message décrypté produit du sens.
+Sinon, on réessaie avec un décalage de deux, puis trois, etc.
+jusqu'à tomber sur le bon décalage.
+Au maximum et si l'on est peu chanceux, la vingt-cinquième tentative sera la bonne !
+Une méthode plus avancée est la recherche statistique : si l'on sait dans quelle langue est écrit le message
+, on peut estimer que la lettre la plus utilisée dans cette langue sera celle qui revient le plus souvent dans le message.
+Ainsi, si un message contient une majorité de K, on peut penser que K code E (la lettre la plus utilisée en français) et que le décalage est donc de 6.
+Et on essaie.
+Cette méthode implique quand même de connaître la langue d'origine du message.
+On peut aussi effectuer une recherche dite « par mot probable » : si l'on connaît vaguement le sujet du message, on s'attend à y retrouver certains mots (dans notre exemple, le mot attaquer, ennemi, ou une date).
+Si la taille correspond, on voit si le décalage est le même entre deux lettres consécutives.
+Cette méthode implique d'avoir une idée sur le sujet du message ;
+on peut s'en protéger... en enlevant les espaces !

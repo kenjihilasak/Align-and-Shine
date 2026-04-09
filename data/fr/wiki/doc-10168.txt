@@ -1,0 +1,35 @@
+Point|Géométrie classique
+En géométrie affine, le milieu d'un segment est l'isobarycentre des deux extrémités du segment.
+Dans le cadre plus spécifique de la géométrie euclidienne, c'est aussi le point de ce segment situé à égale distance de ses extrémités.
+Symétrie centrale
+Deux points distincts A et A sont symétriques par rapport à un point O si et seulement si O est le milieu du segment AA.
+Dans la symétrie centrale de centre O, le symétrique de O est O lui-même.
+Milieu, médiatrice, plan médiateur
+L'ensemble des points du plan équidistants de deux points A et B constitue la médiatrice du segment AB.
+Le milieu du segment AB peut donc être défini comme l'intersection de la droite (AB) avec la médiatrice du segment AB.
+Cette définition est intéressante, car elle permet de placer le milieu du segment AB par une construction à la règle et au compas.
+Remarques
+:* Les arcs de cercles doivent avoir des rayons supérieurs à la moitié de la longueur du segment, pour que leur intersection ne soit pas vide.
+Il est en théorie possible de se contenter de la première étape en traçant les cercles en entiers : on obtient alors deux points d'intersection qu'il suffit de relier pour tracer la médiatrice.
+Cette méthode n'est toutefois pas toujours applicable concrètement, si le segment se trouve trop près du bord de la feuille de tracé par exemple.
+Dans l'espace à trois dimensions, le milieu d'un segment est l'intersection de ce segment avec son plan médiateur.
+Caractérisation vectorielle
+Dans un espace affine, le milieu d'un segment AB est l'isobarycentre de la paire , c'est-à-dire le seul point I tel que
+\overrightarrow+\overrightarrow = \overrightarrow 0.
+Cette égalité est équivalente à chacune des propriétés suivantes :
+*il existe un point tel que \overrightarrow=\frac12\left (\overrightarrow+\overrightarrow\right) ;
+*pour tout point
+, on a : \overrightarrow=\frac12\left (\overrightarrow+\overrightarrow\right).
+Coordonnées
+Si le plan (ou l'espace) euclidien est muni d'un repère cartésien, les coordonnées du milieu d'un segment sont les demi-sommes de chacune des coordonnées des extrémités du segment.
+Autrement dit, dans le plan, le milieu du segment d'extrémités A (xA ;
+yA) et B (
+xB ;
+yB) est le point de coordonnées \left (\dfrac ; \dfrac\right).
+On a une propriété analogue dans l'espace en ajoutant une troisième coordonnée.
+Dans un triangle
+Les milieux des trois côtés d'un triangle jouent un rôle important à plusieurs niveaux.
+Parmi les droites remarquables du triangle, on distingue notamment les médiatrices des côtés et les médianes, qui sont les droites passant par un sommet et le milieu du côté opposé.
+Le théorème des milieux dans un triangle s'énonce ainsi :
+Une réciproque de la première assertion du théorème existe :
+cfcnk88ku9bjbkmmlv3xkgvfm74uy0p

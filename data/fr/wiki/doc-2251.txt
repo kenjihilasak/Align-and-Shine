@@ -1,0 +1,191 @@
+Mécanique des fluides|Loi en physique|Théorie de la plongée|Théorème de physique|Archimède|Archimède|Loi scientifique découverte au IIIe siècle av. J.-C.
+La poussée d'Archimède est la force particulière que subit un corps plongé en tout ou en partie dans un fluide (liquide ou gaz) et soumis à un champ de gravité.
+Cette force provient de l'augmentation de la pression du fluide avec la profondeur : la pression étant plus forte sur la partie inférieure d'un objet immergé que sur sa partie supérieure, il en résulte une poussée globalement verticale ascendante.
+C'est à partir de cette poussée qu'on définit la flottabilité d'un corps.
+Cette poussée a été pour la première fois mise en évidence par Archimède de Syracuse.
+Formulation du théorème d'Archimède
+Pour que le théorème s'applique il faut que le fluide immergeant et le corps immergé soient au repos.
+Il faut également qu'il soit possible de remplacer le corps immergé par du fluide immergeant sans rompre l'équilibre, le contre-exemple étant le bouchon d'une baignoire remplie d'eau : si celui-ci est remplacé par de l'eau, il est clair que la baignoire se vide et que le fluide n'est alors plus au repos.
+Le théorème ne s'applique pas puisque nous sommes dans un cas où le bouchon n'est pas entièrement mouillé par le liquide et ne traverse pas sa surface libre.
+Une fois les conditions précédentes respectées, dans un champ de pesanteur uniforme, la poussée d'Archimède, notée \vec_A est donnée par la formule :
+\vec_
+- \, m_ \,
+\vec
+où :
+m est la masse du fluide contenu dans le volume V déplacé ;
+\vec est l'accélération du champ de pesanteur.
+Dans le cas particulier où la masse volumique ρ du fluide est elle aussi uniforme, on a :
+\vec_
+- \, \rho \, V \, \vec
+où :
+Si l'on considère les intensités (normes) des forces alors, en notant PA et g les normes des vecteurs associés, on a :
+: P_ = \rho \, V \, g
+L'intensité P de la poussée d'Archimède s'exprime en , la masse volumique ρ en , le volume de fluide déplacé V en et l'accélération de la pesanteur g en .
+Démonstration
+Expérience de pensée
+On considère un fluide au repos.
+On délimite, par la pensée, un certain volume de forme quelconque au sein de ce fluide.
+Ce volume est lui aussi au repos : malgré son poids, ce volume ne tombe pas.
+Cela signifie donc que son poids est rigoureusement compensé par une force opposée, qui le maintient sur place, et qui provient du fluide extérieur.
+On remplace maintenant, toujours par la pensée, ce volume par un corps quelconque.
+Comme la force qui maintenait le fluide en équilibre est une force de pression agissant à la surface du volume, il est possible de supposer que cette même force s'applique encore au corps immergé : elle est toujours opposée au poids de fluide déplacé.
+C'est la poussée d'Archimède.
+Le fait que les champs de force soient identiques pour le fluide homogène au repos et pour le corps immergé dans le fluide au repos est appelé « théorème de solidification ».
+Idée de la démonstration
+Supposons
+un cube d'arête a entièrement immergé dans un liquide, sa face du haut étant horizontale et située à une profondeur z > 0 (le sens positif est vers le bas).
+On notera \vec_z le vecteur unitaire dirigé selon l'axe des z croissants (donc orienté vers le bas).
+Dans le cas d'un liquide incompressible au repos soumis à un champ de pesanteur uniforme, la pression absolue p à une profondeur z vaut :
+:p (z) = p_o + p_h (z)
+où :
+:* p (z) est la pression hydrostatique à la profondeur z.
+On considère une colonne de liquide, assimilable à un pavé droit de hauteur variable z et dont la surface de la base est constante et vaut A. À une profondeur z, la pression hydrostatique correspond à la norme P du poids, divisé par la base A de la colonne de liquide : p (z) = P/A.
+Or l'expression du poids de la colonne de liquide est :
+\vec
+m \,
+\vec
+(\rho \, z \, A) \;
+g\;
+\vec_z
+où :
+:::* ρ est la masse volumique (supposée uniforme) du liquide ;
+On obtient donc, en utilisant la formule p (z) = P/A :
+p_h (z)
+\frac
+\rho \, g \, z.
+La pression absolue vaut donc
+:p (z) = p_o + \rho \, g \, z.
+Par symétrie, les forces de pression exercées sur les quatre faces latérales du cube s'annulent deux à deux.
+La force \vec_1, exercée par le liquide sur la face supérieure (d'aire A = a) du cube, est dirigée de haut en bas et vaut :
+\vec_1
+p (z_1) \, A \;
+\vec_z
+p_o + \rho \, g \, z_1) \, a^2 \;
+\vec_z.
+La force \vec_2 dirigée du bas vers le haut, exercée par le liquide sur la face inférieure (d'aire A
+a) du cube, qui est située à la profondeur z
+z + a, vaut :
+:\vec_2
+- p (z_2) \, A \;
+\vec_z
+- (p_0 + \rho \, g \, z_2) \, a^ 2 \;
+\vec_z =
+-\left (p_0 + \rho \, g \, (z_1 + a)\right) \, a^ 2 \;
+\vec_z.
+La résultante \vec des forces de pression vaut donc :
+\vec
+\vec_1 + \vec_2
+- (\rho \, g \, a) \, a^2 \;
+\vec_z
+- \rho \, g \, a^ 3 \;
+\vec_z
+-\rho \, g \, V \;
+\vec_z
+- \rho \, V \, g \;
+\vec_z \qquad \Longrightarrow \qquad
+\vec
+- m_ \, g \;
+\vec_z
+\vec = m_ \,
+\vec
+où :
+V = a est le volume du cube, c'est-à-dire en l'occurrence le volume immergé ;
+La force résultante est donc bien égale à l'opposé du poids du volume de liquide déplacé.
+Cette force étant négative, elle est bien orientée verticalement du bas vers le haut.
+Il est possible de généraliser la démonstration précédente à un volume de forme quelconque.
+Il suffit de décomposer la surface bordant le volume en une infinité d'éléments infinitésimaux dS supposés plans, puis de faire la somme, à l'aide d'un calcul d'intégrales, de toutes les forces infinitésimales \mathrm\vec exercées sur chaque élément de surface.
+Démonstration plus générale
+On peut déduire le théorème d'Archimède de celui du gradient : supposons un volume quelconque V, délimité par une surface fermée S, plongé entièrement dans un fluide de masse volumique ρ soumis à un champ de pesanteur \vec g, non nécessairement uniforme.
+Par définition de la pression p, la résultante des forces de pression exercées sur le volume est :
+\vec P_=\iint_S-
+p~\vec S
+où :
+\vec S
+est un élément infinitésimal de la surface considérée, orienté par convention de l'intérieur vers l'extérieur de cette surface ;
+Par le théorème du gradient puis la loi fondamentale de l'hydrostatique, cette expression devient :
+\vec P_
+-\iiint_V\vec p~V
+-\iiint_V\rho \, \vec g~V
+qui est l'opposé du poids du volume de fluide déplacé.
+Applications
+Exemple d'un solide entièrement immergé
+Immergeons entièrement
+un solide de volume V, de masse m et de masse volumique ρ dans un fluide de masse volumique ρ uniforme, puis relâchons-le à partir du repos
+Au départ, la vitesse étant nulle, deux forces seulement agissent sur le solide : son poids F (vers le bas) et la poussée d'Archimède F (vers le haut).
+: F = ρ V g
+: F = ρ V g
+: F ρ
+Le rapport des masses volumiques est en l'occurrence équivalent à celui des densités :
+* si la densité du solide est supérieure à celle du fluide, alors F > F et le solide coule ;
+* si la densité du solide est égale à celle du fluide, alors F = F et le solide demeure immobile ;
+il est en équilibre neutre ou indifférent ;
+si la densité du solide est inférieure à celle du fluide, alors F < F et le solide remonte vers la surface.
+Dans les deux cas où le solide n'est pas en équilibre, son mouvement ultérieur est déterminé par trois forces : son poids, la poussée d'Archimède (opposée au poids) et une force de frottement visqueux F (opposée à la vitesse).
+Selon la deuxième loi du mouvement de Newton, on a alors :
+: F
+- F ± F = m a (le sens positif est vers le bas)
+où a est l'accélération du solide.
+Comme la force de frottement visqueux n'est pas constante, mais qu'elle augmente avec la vitesse, l'accélération diminue graduellement, de sorte que le solide atteint plus ou moins rapidement une vitesse limite, lorsque la résultante des forces est nulle.
+Exemple d'un solide flottant à la surface d'un liquide
+Image:
+Principio di Archimede galleggiamento.png|thumb|La poussée d'Archimède équilibre le poids du solide.
+En réalité, le point d'application.
+Les idées de ce genre qui commençaient à se faire jour dès le milieu du et anticipée par les jésuites Francesco Lana de Terzi (1631-1687), Bartolomeu Lourenço de Gusmão (1685-1724) et (1699-1762), sont complètement réalisées par les frères Montgolfier et Jacques Charles en 1782 et 1783.
+Point d'application
+Tout se passe comme si la poussée d'Archimède s'appliquait au centre de carène, c'est-à-dire au centre de gravité du volume de fluide déplacé.
+Cette caractéristique est importante pour le calcul de la stabilité d'un sous-marin en plongée ou d'un aérostat : sous peine de voir ces engins se retourner, il est nécessaire que leur centre de carène soit situé au-dessus de leur centre de gravité.
+Pour ce qui est d'un navire, en revanche, le centre de carène est souvent situé au-dessous du centre de gravité afin d'éviter des moments de redressement trop importants.
+Cependant, lorsque l'inclinaison du navire change (roulis), le centre de carène se déplace latéralement plus que le centre de gravité, ce qui génère un couple qui tend à ramener le navire à son inclinaison d'origine.
+La stabilité est alors assurée par la position du métacentre, qui est le point d'application des variations de la poussée.
+Ce métacentre doit se trouver au-dessus du centre de gravité.
+De façon anecdotique, on peut remarquer que les concepteurs de sous-marins doivent s'assurer simultanément de deux types d'équilibres pour leurs engins : l'équilibre en plongée et l'équilibre en surface.
+L'expérience d'Archimède, histoire et légende
+Le Traité des corps flottants, où Archimède énonce les lois de la statique des fluides
+- et des conditions d'équilibre des corps solides immergés dans un fluide ou flottant sur lui
+- est probablement la plus connue des œuvres d'Archimède, car tout le monde a présent à l'esprit l'anecdote rapportée par Vitruve suivant laquelle Archimède aurait eu l'intuition du principe fondamental de l'hydrostatique en prenant un bain:
+Archimède, savant grec qui vécut à Syracuse, en Sicile de 287 av. J.-C. à 212 av. J.-C.
+, est connu pour ses multiples travaux scientifiques, théoriques ou pratiques, que ce soit en mathématique ou en physique.
+Le Traité des corps flottants qui étudie avec rigueur l'immersion d'un corps, solide ou fluide, dans un fluide de densité inférieure, égale ou supérieure, jette les bases de la branche de mécanique des fluides, ce que l'on nommera plus tard « hydrostatique ».
+Dans cet ouvrage se trouve le théorème qui portera le nom du savant, qui ne sera complètement démontré qu'au .
+Le Traité des corps flottants contient d'autres propositions relatives à la poussée d'Archimède rapporte que le roi
+Hiéron II de Syracuse (306-214
+) aurait demandé à son jeune ami et conseiller scientifique Archimède (âgé alors de 22 ans) de vérifier si une couronne d'or, qu'il s'était fait confectionner comme offrande à Zeus, était totalement en or ou si l'artisan y avait mis de l'argent.
+La vérification avait bien sûr pour contrainte de ne pas détériorer la couronne.
+La forme de celle-ci était en outre trop complexe pour effectuer un calcul du volume de l'ornement.
+Archimède aurait trouvé le moyen de vérifier si la couronne était vraiment en or, alors qu'il était au bain public, en observant comment des objets y flottaient.
+Il serait alors sorti dans la rue entièrement nu en s'écriant (j'ai trouvé !), formule depuis lors devenue célèbre.
+La constatation qu'Archimède fait au bain public est que, pour un même volume donné, les corps n'ont pas le même poids, c'est-à-dire ont une masse par unité de volume différente.
+On parle de nos jours de masse volumique.
+L'argent (masse volumique ) est moins dense que l'or (masse volumique ), il a donc une masse volumique plus faible: pour obtenir le même poids, il faut une plus grande quantité d'argent que d'or.
+Si l'artisan a caché de l'argent dans la couronne du roi, Archimède déduit que la couronne doit être plus volumineuse que si elle avait été faite exclusivement en or.
+Ainsi fut démasquée la supercherie du joaillier.
+La solution au problème
+Pour répondre à la question du roi Hiéron, Archimède a donc pu comparer les volumes d'eau déplacés par la couronne et une quantité d'or de masse identique.
+Si les deux déplacent le même volume d'eau, leur masse volumique est alors égale
+et on peut en conclure que les deux sont composés du même métal.
+Pour réaliser l'expérience, on peut imaginer plonger la masse d'or dans un récipient rempli à ras-bord (et muni d'un bec verseur pour mieux observer la chose).
+Une certaine quantité d'eau débordera alors du récipient (on peut la recueillir pour la mesurer).
+Ensuite, on retire l'or et on le remplace par la couronne à étudier.
+Si la couronne est bien totalement en or, alors l'eau ne débordera pas.
+En revanche, si sa densité est plus faible et donc son volume plus important pour la même masse, de l'eau supplémentaire débordera.
+Le volume d'eau déplacé dépendra de la proportion d'argent dans l'or ;
+l'or étant approximativement deux fois plus dense que l'argent, remplacer 10 % en masse d'or par de l'argent conduit à une hausse de volume de 10 %.
+Mais du fait de la forte masse volumique de l'or, son volume est très faible : le volume d'une couronne de d'or n'est que d'un peu plus de et substituer 10 % d'or par de l'argent ne produit une différence que d'environ de (le volume d'eau d'une petite cuillère)
+La méthode ainsi décrite par Vitruve présente deux inconvénients.
+Le premier est qu'elle ne fait ici intervenir en rien le principe d'Archimède.
+Le second problème est qu'avec des conditions réalistes, en raison de la densité de l'or et du volume faible de la couronne, le volume d'eau déplacée est très faible et sa mesure est perturbée par l'eau qui peut être perdue dans les différentes opérations.
+Il est donc peu probable qu'Archimède ait pu tirer des conclusions significatives à partir d'une telle expérience.
+Une méthode plus réaliste est la suivante.
+On équilibre une balance avec la couronne d'un côté et de l'or pur de l'autre, dont les masses sont égales.
+Ensuite, on immerge complètement les objets pesés (pour s'affranchir de l'influence des plateaux de la balance, on peut s'assurer que ceux-ci sont bien strictement identiques, ou, mieux, les supprimer en les remplaçant par un fil fin et de densité proche de celle de l'eau).
+Si la couronne n'est pas en or pur, elle est de volume un peu plus grand, donc elle produit une force d'Archimède vers le haut un peu plus importante que la même masse d'or pur et l'équilibre initial de la balance est rompu.
+Là encore, la différence de poids est faible ;
+dans les conditions imaginées plus haut elle correspond au poids de d'eau, soit .
+Il faut donc une balance capable de détecter une telle variation, ce qui est difficile, mais pas irréaliste.
+L'appareil a effectivement été réalisé sous le nom de balance hydrostatique.
+Voir aussi
+Articles connexes
+Liens externes
+* http:/ archimed.htm#principe
+Archimède :
+histoire et physique

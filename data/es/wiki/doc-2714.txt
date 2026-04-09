@@ -1,0 +1,42 @@
+La bisectriz de un ángulo es la semirrecta con origen en el vértice del ángulo y que lo divide en dos ángulos de igual medida.
+Es el lugar geométrico de los puntos del plano que equidistan (están a la misma distancia) de las semirrectas de un ángulo.
+Propiedades
+*Los puntos de la bisectriz son equidistantes a los dos lados del ángulo
+* Dos rectas, al intersecarse, determinan cuatro ángulos consecutivos y sus bisectrices, que pasan por el punto de intersección, forman cuatro ángulos rectos consecutivos .
+En la figura, la bisectriz del ángulo xOy (en amarillo) es (zz'), y la del ángulo x'Oy es (ww').
+Se cortan formando un ángulo recto.
+En efecto, si llamamos a la amplitud de xOz, y b la de yOw, observamos que 2a + 2b es la amplitud del ángulo xOx'
+180º, es un ángulo plano.
+Luego zOw mide a + b
+90º.
+* La bisectriz de un ángulo, como rayo, con cada uno de los lados forma dos ángulos con lado común e iguales, cada uno de ellos es la mitad del original.
+Aplicación
+en triángulos
+Las tres bisectrices de los ángulos internos de un triángulo se cortan en un único punto, que equidista de los lados.
+Este punto se llama el incentro del triángulo y es el centro de la circunferencia inscrita al triángulo.
+Esta circunferencia es tangente a cada uno de los lados del triángulo.
+Demostración: Dos bisectrices del triángulo no pueden ser paralelas.
+Sea O la intersección de las bisectrices D y D' (ver figura).
+Como O pertenece a D, es equidistante de las rectas (A,B) y (A,C).
+Como O pertenece a D', entonces también equidista de las rectas (AB) y (BC).
+Por transitividad de la igualdad, es equidistante de (A,C) y (B,C), y pertenece a la bisectriz (interior) del ángulo C, es decir a D".
+Al ser equidistante a los tres lados.
+Se sigue que la circunferencia cuyo radio sea justamente la distancia común del punto O a los lados del triángulo es tangente a cada uno de los lados.
+Las bisectrices interiores, una respecto a cada ángulo se denotan b_A, b_B, b_C y las bisectrices exteriores se denotan b^e_A, b^e_B, b^e_C
+* La bisectriz b_A determina sobre el lado BC dos segmentos m y n que cumplen la proporción \frac= \frac
+Longitud
+# Para bisectriz interior b_A
+\frac\sqrt siendo
+\frac el semiperímetro.
+# Para la bisectriz exterior b^e_A = \frac\sqrt .
+Para la bisectriz de los otros ángulos se sigue el patrón del caso dado, contraponiendo los otros elementos, de manera cíclica.
+Propiedades en un triángulo inscrito
+Considere el triángulo A,B,C y la circunferencia circunscrita.
+La mediatriz M,N, del lado B,C corta el arco B,M,C en su punto medio.
+Como el ángulo inscrito B,A,C subtiende dicho arco, los ángulos B,A,M y M,A,C son iguales y la recta A,M resulta ser la bisectriz del ángulo B,A,C. Las rectas A,N y A,M son ortogonales, porque el lado M,N del triángulo A,M,N es diámetro de la circunferencia y el vértice A se halla sobre dicha circunferencia.
+La recta A,N es bisectriz del ángulo exterior al triángulo A,L,C en el vértice A.
+Por lo anteriormente expuesto: La mediatriz de un lado de un triángulo y las bisectrices del ángulo opuesto se intersecan sobre la circunferencia circunscrita.
+Este hecho se usa en la discusión de la circunferencia de los nueve puntos.
+GF FG
+Véase también
+Notas y referencias

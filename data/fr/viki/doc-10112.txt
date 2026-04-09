@@ -1,0 +1,21 @@
+Bijection
+L'ensemble A est l'ensemble des points rouges dans la zone jaune.
+L'ensemble B est l'ensemble des points verts dans la zone bleue.
+Les traits montrent comme associer à chaque point de A un point de B. Ils décrivent une bijection entre A et B.
+on appelle f une fonction qui « part » de A et « arrive » dans B,
+est-à-dire que, si a est un élément de A, f(a) est un élément de B ;
+si, pour n’importe quel élément y de l’ensemble B, il existe un unique élément x de A qui vérifie la relation : f(x) = y, alors f est une bijection.
+est la définition de la bijectivité d’une fonction f.
+Si une fonction f est une bijection, alors il existe une autre fonction (que l’on note g) qui fait en quelque sorte « l’inverse » de f. Par exemple, si l’on a f(x)
+= y, alors g(y) = x.
+Cette fonction g s’appelle la fonction réciproque (ou bijection réciproque) de f et on la note donc f-1 (sur les nombres, « a-1 »
+signifie « inverse de a »).
+La propriété caractérisant la bijection réciproque
+est :
+La fonction exponentielle (en bleu) et sa réciproque (logarithme, en vert) sont symétriques par rapport à la première bissectrice (en pointillés gris).
+f-1(f(x
+= x.
+On constate que les courbes d’une bijection et de sa fonction réciproque sont symétriques par rapport à une droite.
+Cette droite s’appelle « première bissectrice du plan » et représente de la fonction identité (elle a en effet pour équationy = x).
+l'application identité, notée id : A →{\displaystyle \to } A, qui à x fait correspondre le même x, est bijective ;
+l'application f : x↦{\displaystyle \mapsto } 2 n'est pas bijective car 0 n'a pas d'antécédent par f : en effet, il n’existe aucun x tel que f(x) = 0, puisque f transforme toutes les valeurs en 2.

@@ -1,0 +1,34 @@
+Casse-tête mécanique
+articulé|Rubik'
+s Cube
+Le Pocket Cube est un équivalent 2×2×2 du Rubik's cube.
+Il est constitué de seulement 8 petits cubes (au lieu de 26 pour le Rubik's Cube).
+Nombre de combinaisons
+Toute permutation des 8 petits cubes sommets est possible (8!
+positions), et 7 des petits cubes peuvent être orientés différemment (3 positions).
+L'orientation du Pocket Cube dans l'espace n'a pas d'importance, ce qui divise le nombre de positions différentes par 24.
+Le nombre total de positions différentes que peut prendre le Pocket Cube est donc :
+\frac
+7!\times 3^6
+Ce nombre total de positions est beaucoup plus petit que dans le cas du Rubik's Cube (environ de fois moins), ce qui facilite son étude.
+L'étude mathématique du Pocket Cube revient en fait à étudier uniquement les cubes « sommets » du Rubik's Cube complet.
+Il est possible de montrer informatiquement (en testant toutes les positions une par une) qu'au plus 11 demi-tours, ou bien 14 quarts de tour, sont nécessaires pour résoudre le cube, quelle que soit la position de départ.
+Le tableau suivant indique le nombre f de positions qui sont résolues en n demi-tour (s) et le nombre q de positions qui demandent n quarts de tours.
+Exemple :
+il existe 6 positions différentes du cube pouvant être résolues en un quart de tour, et 9 positions pouvant être résolues en un demi-tour.
+Records récents
+La moyenne est calculée sur 5 tentatives en enlevant le meilleur et le moins bon temps.
+Désignation des mouvements
+Dans tous les cubes la désignation est identique :
+Une lettre non suivi d'un prime, signifie un quart de tour dans le sens des aiguilles d'une montre.
+Une lettre suivi d'un prime, signifie un quart de tour dans le sens inverse des aiguilles d'une montre.
+La lettre est l'initiale du mouvement en anglais : R droit, L gauche, D dessous
+, U dessus, F la face avant, B la face arrière.
+Méthode de résolution
+La méthode la plus simple est en 3 étapes :
+Résolution de la couronne inférieure
+Résolution de la face du dessus
+* Si la couleur de la face du dessus est sur le côté droit : (RDR’D’)2
+* Si la couleur de la face du dessus est sur l’arrière : (DRD’R’)2
+Résolution de la couronne supérieure
+L’échange de 2 coins contigus se fait par L'U L U F U' F'

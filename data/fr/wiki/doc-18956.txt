@@ -1,0 +1,153 @@
+Blockchain
+Une (ou un) , ou chaîne de blocs, est une technologie de stockage et de transmission d'informations sans organe de contrôle.
+Techniquement, il s'agit d'une base de données distribuée dont les informations envoyées par les utilisateurs et les liens internes à la base sont vérifiés et groupés à intervalles de temps réguliers en blocs, formant ainsi une chaîne.
+L'ensemble est sécurisé par cryptographie.
+Par extension, une chaîne de blocs est une base de données distribuée qui gère une liste d'enregistrements protégés contre la falsification ou la modification par les nœuds de stockage ;
+c'est donc un registre distribué et sécurisé de toutes les transactions effectuées depuis le démarrage du système réparti.
+Une analogie avec l'Internet (TCP/IP) peut être dressée, car il s'agit dans les deux cas de protocoles informatiques sous-jacents à une infrastructure décentralisée.
+Internet transfère des paquets de données d'un point A à un point B, alors que la blockchain permet à la « confiance » de s'établir entre des agents distincts du système.
+Les concepts et les valeurs de la blockchain sont la vérité postmoderne et l’autonomisation des individus et des groupes.
+Aspects
+Travaux antérieurs
+La première étude sur les chaînes de blocs cryptographiquement sécurisées a été décrite en 1991 par Stuart Haber et W. Scott Stornetta.
+Ils voulaient mettre en application un système où les documents horodatés ne pourraient pas être falsifiés ou antidatés.
+En 1992, Bayer, Haber et Stornetta ont incorporé le concept d'arbre de Merkle au système, ce qui a amélioré son efficacité en permettant à plusieurs documents d'être assemblés en un seul bloc.
+La première chaîne de blocs a été conceptualisée par une personne (ou une équipe) connue sous le nom de Satoshi Nakamoto en 2008.
+Elle a été implémentée l'année suivante par Nakamoto en tant que composant principal du bitcoin, où elle sert de registre public à toutes les transactions sur le réseau.
+Historiques et sociétaux
+Beaucoup de monnaies virtuelles et de crypto-monnaies utilisent les chaînes de blocs pour leur sécurité.
+Satoshi Nakamoto, l'inventeur du bitcoin, a été le premier à appliquer une chaîne de blocs décentralisée.
+Les transactions sur une chaîne de blocs sont très difficiles à annuler parce que les chaînes de blocs sont résistantes aux changements.
+Énergétiques et environnementaux
+La consommation d'électricité et de ressources informatiques comptent parmi les coûts de transaction cachés de la blockchain.
+Une étude réalisée en 2014 par deux chercheurs irlandais montre que les systèmes basés sur le concept de blockchain avec preuve de travail peuvent être qualifiés de gouffres énergétiques.
+L'utilisation de la preuve de travail induit une consommation d'électricité et de temps de calcul (et donc une mobilisation de serveurs ou de réseaux d'ordinateurs individuels) qui augmente exponentiellement dans le monde ;
+ce pourquoi la Banque des règlements internationaux (la « banque des banques centrales ») a critiqué le système des validations par preuve de travail nécessaire à la blockchain ;
+système qualifié en 2018 de désastre environnemental par Hyun Song Shin (Juin 2018).
+Nicholas Weaver (International Computer
+Science Institute ;
+Université de Californie à Berkeley), après avoir examiné la sécurité en ligne de la blockchain et l’efficacité énergétique du système de la « preuve de travail » utilisé par les blockchains conclut dans les deux cas, que ces solutions sont « totalement inadéquates » .
+Le protocole Ethereum projette de diminuer le coût énergétique et écologique de la blockchain en remplaçant le procédé de minage de type preuve de travail par un minage de type preuve d'enjeu.
+La date de ce changement n'est pas encore fixée.
+Juridiques
+La chaîne de blocs pose des questions d'ordre juridique.
+Ces questions portent sur différents points : le droit de la concurrence, le droit à la vie privée (le hachage permet de réduire un ensemble de données par un procédé cryptographique.
+Il régit le système .
+Les hashs sont simples à vérifier mais très difficiles à résoudre) ;
+ceci réduit mécaniquement la consommation d'énergie des algorithmes de minage (SCRYPT ou SHA-256) nécessaires à la création de monnaie.
+Ethereum, qui utilise la méthode de « la preuve du travail », a annoncé en 2015 sa décision de migrer progressivement vers la preuve de participation en 2018 ou 2019.
+Gouvernance
+Il est important de noter que la notion de Loi dans les blockchain ne doit pas être comprise au sens des lois législatives (votées par un parlement d'une nation par exemple), mais d'une loi interne au processus de la blockchain, géré par la gouvernance de cette blockchain.
+La phrase usuelle "Code is
+Law" régulièrement utilisée comme règle de gouvernance des blockchains ne se réfère donc pas aux lois nationales ou internationales, mais uniquement aux « règles de gouvernance » édictées et applicables à la Blockchain, des forums de discussion IRC consacrés à la gouvernance, à la technique, etc., et même un protocole d'urgence en cas de piratage ou de bug avéré.
+Bien sûr, ce qui est disponible pour le Bitcoin n'est pas forcément disponible ou applicable pour les autres cryptomonnaies, en particulier les plus récentes et/ou les plus confidentielles.
+Transactions
+Les transactions représentent les échanges entre les utilisateurs, qui sont stockés au sein des blocs de la chaîne de blocs.
+Blocs
+Les différentes transactions enregistrées sont regroupées dans des blocs.
+Après avoir enregistré les transactions récentes, un nouveau bloc est généré et toutes les transactions vont être validées par les mineurs, qui vont analyser l'historique complet de la chaîne de blocs.
+Si le bloc est valide, il est horodaté et ajouté à la chaîne de blocs.
+Les transactions qu'il contient sont alors visibles dans l'ensemble du réseau.
+Une fois ajouté à la chaîne, un bloc ne peut plus être ni modifié ni supprimé (théoriquement), ce qui garantit l'authenticité et la sécurité du réseau.
+Chaque bloc de la chaîne est constitué des éléments suivants :
+* une somme de contrôle (« hash »), utilisée comme identifiant ;
+* la somme de contrôle du bloc précédent (à l’exception du premier bloc de la chaîne, appelé bloc de genèse) ;
+* une mesure de la quantité de travail qui a été nécessaire pour produire le bloc.
+Celle-ci est définie par la méthode de consensus utilisée au sein de la chaîne, telle que la « preuve de travail », ou « preuve de participation ».
+Applications
+L'application phare de cette technologie est celle des crypto
+monnaies comme l'est par exemple
+le bitcoin, qui est toutefois loin d'être la seule monnaie virtuelle : il en existe de multiples autres comme Ether, Monero, et des dizaines d'autres plus ou moins confidentielles.
+Au-delà de son aspect monétaire, cette technologie de stockage décentralisé d'informations pourrait avoir de multiples applications nécessitant une sécurisation des échanges sans passer par un organisme centralisateur, ou une traçabilité infalsifiable, comme :
+* des applications basées sur les contrats intelligents, permettant d'échanger toutes sortes de biens ou de services ;
+* des moyens de réduire les coûts de paiement et les coûts de transaction.
+Les banques internationales ont fait des annonces en 2015 sur ces sujets.
+Vingt-cinq d'entre elles ont par exemple signé un partenariat avec une société américaine R3 pour l’utilisation de blockchains dans les marchés financiers.
+Citibank a également annoncé son souhait d'émettre sa propre cryptomonnaie, le Citicoin.
+De même, en avril 2015, la banque UBS a ouvert à Londres son propre laboratoire de recherche voué à l'étude de la technologie blockchain et à ses applications dans le domaine financier.
+À travers ces recherches et ces consortiums, les banques espèrent mettre en place une technologie basée sur la blockchain qui deviendra une référence au sein du domaine bancaire.
+En effet, le consortium ou la banque qui parviendra le premier à sortir une technologie éprouvée sera à même de facturer son propre service auprès des autres acteurs du domaine financier ;
+* des moyens d'améliorer leurs systèmes prédictifs dits , pour les assurances notamment ;
+* la traçabilité des produits de la chaîne alimentaire
+*En termes de financement participatif, le blockchain a permis la mise en place d'ICO (initial coin offering), qui permet des levées des fonds extrêmement rapides.
+La technologie est développée au Ghana par l'ONG Bitland pour créer un cadastre virtuel.
+Un projet similaire avait été envisagé un temps au Honduras mais n'avait finalement pas abouti.
+La Géorgie a également annoncé une expérimentation de cadastre sur la blockchain en partenariat avec la start-up bitcoin BitFury, de même que la Suède avec la start-up ChromaWay.
+Le groupe industriel General Electric a choisi d'investir dans une start-up baptisée Xage qui exploite la blockchain pour créer des empreintes numériques des machines industrielles et ainsi identifier et sécuriser chaque machine d'un réseau électrique.
+Dès les premières années, des experts mettent en garde contre une possible sur-utilisation des blockchains.
+Par exemple, en 2018, le National Institute of Standards and Technology (USA) présente un rapport indiquant que de nombreux problèmes restent mieux résolus avec des bases de données ou de simples emails.
+Initiatives
+à travers le monde
+En Europe
+Le Parlement européen a validé en mai 2016 la création d'un groupe de travail chargé de surveiller la blockchain et les crypto-monnaies.
+Ce groupe sera piloté par la Commission européenne, il a pour objectif de surveiller ces technologies et recommander des mesures législatives.
+Le la Commission européenne lance, avec le soutien du Parlement européen, l'Observatoire-forum des chaînes de blocs de l'UE. Ses missions sont de mettre en lumière les grandes évolutions de la technologie des chaînes de blocs, d'encourager les acteurs européens dans ce secteur et d'aider à renforcer l'engagement européen auprès de plusieurs parties prenantes actives dans ce domaine.
+En France
+En décembre 2015, la Caisse des Dépôts a lancé une initiative avec de grands acteurs financiers, institutionnels et startups du secteur (dont Allianz, BNP Paribas, BPCE, Crédit Agricole, AXA, CNP Assurances, Croissance Plus, Blockchain Solutions, Paymium et Ledger) pour tester des cas d'usage.
+Le gouvernement a lancé des consultations sur un cadre dérogatoire permettant d'expérimenter la chaîne de blocs sur les bons de caisse puis le ministre de l'Économie, de l'Industrie et du Numérique a annoncé le 29 mars 2016 une adaptation de la réglementation de la chaîne de blocs au marché des bons de caisse.
+Malgré tel que le décrit le magazine L'Expansion, en 2016, la France semble timide face au principe de la chaîne de blocs.
+En juin 2016, plusieurs députés français ont proposé deux amendements qui font référence à la chaîne de blocs auprès du Parlement français, dans le cadre de la loi Sapin sur la transparence financière et la lutte contre la corruption, mais ceux-ci ont été rejetés.
+Le gouvernement lui-même a déposé un amendement relatif aux titres non cotés qui a été, lui, accepté.
+Fin 2017, le conseil des ministres a adopté une ordonnance facilitant la transmission de certains titres financiers non cotés au moyen de la technologie de la chaîne de blocs, une première en Europe selon Bercy.
+La modification du code monétaire et financier ouvre la possibilité d'une sécurisation juridique du développement de la technologie et de l'usage de la chaîne de bloc sous la dénomination .
+Début 2018, l'Assemblée nationale a créé une mission d'information sur la chaîne de blocs, regroupant 17 députés venant de trois commissions permanentes (affaires économiques, lois et finances) ;
+le président en est Julien Aubert et Jean-Michel Mis et Laure de la Raudière sont corapporteurs.
+C'est une initiative de Laure de La Raudière qui en 2017 a proposé deux amendements qui auraient pu autoriser le Quai d'Orsay à expérimenter la chaîne de blocs pour la dématérialisation des actes d'état civil, et qui en 2016 avait - avec une dizaine d'autres parlementaires
+- souhaité donner une valeur probante aux enregistrements de transactions authentifiés par cette même chaîne de blocs.
+Un des aboutissements de ces missions parlementaires est le projet de loi PACTE qui inclut des dispositions relatives à la blockchain, texte voté en première lecture par l'Assemblée Nationale le 9 octobre 2018 et transmis au Sénat.
+En septembre 2018, l’artiste Richard Texier crée la première œuvre d’art adossée à une chaîne de blocs.
+Pour la première fois depuis l’invention du système, Elastochain code un concept artistique (l’élastogénèse) sur Ethereum, dans l'intention d’unir art et technologie.
+En Allemagne
+Le 28 juin 2017, la Landesbank Baden-Württemberg (LBBW) et le constructeur automobile Daimler AG annoncent avoir utilisé pour la première fois la technologie blockchain pour exécuter une transaction financière.
+Daimler a lancé un Schuldschein de 100 millions d'euros sur la durée d'une année dans lequel quatre banques d'épargne (dont la LBBW) ont agi à titre de prêteurs.
+L'ensemble de la transaction a été réalisé via la technologie blockchain en coopération avec les filiales informatiques respectives des deux protagonistes.
+En Espagne
+La banque BBVA
+étudie l’
+utilisation de la blockchain dans le cas des imports/exports entre l'Amérique et l'Europe.
+En Suisse
+Le canton de Genève mène un projet pilote pour la délivrance d'extraits électroniques du Registre du commerce avec l'Ethereum et dans le négoce des matières premières dans un partenariat public-privé.
+La ville de Zoug mène également un projet pilote pour développer une identité numérique auprès de sa population.
+Aux Pays
+Bas
+Développement de projets collaboratifs régionaux .
+En Estonie
+L’État a créé un système de e-résident fonctionnant avec la technologie blockchain.
+Au Canada
+Dans la province canadienne du Québec, la firme comptable Raymond Chabot
+Grant Thornton a annoncé en juillet 2017 le lancement, de catallaxy , un centre d’expertise portant sur la technologie blockchain (Bitcoin principalement) avec les experts du domaine, Jonathan Hamel, Francis Pouliot et Vincent Gauthier..
+Le nom Catallaxy étant une référence à l'importance de l'ordre spontané et autres concepts de l'école autrichienne d'économie dans bitcoin.
+En Asie
+En Asie, un consortium réunissant l'Autorité monétaire de Singapour (MAS) et huit autres banques a été formé en novembre 2016 pour un projet pilote ayant pour but de mettre en place une plateforme
+reposant sur ce type de registre de transactions numérique décentralisé.
+Dans un premier temps, des banques pourront acheter une monnaie virtuelle sous le contrôle de la MAS.
+Cette monnaie pourra ensuite être utilisée soit pour des paiements interbancaires soit pour être échangée pour une monnaie réelle et non plus virtuelle.
+Une seconde phase prévoit d'inclure des transactions en devises étrangères.
+En Israël
+En 2017, la société israélienne Zim a mené une expérience de connaissement () numérique en utilisant la blockchain.
+Voir aussi
+Bibliographie
+* Les Blockchains, De la théorie à la pratique, de l'idée à l'implémentation, Billal Chouli, Frédéric Goujon, Yves-Michel Leporcher, Ed.
+Epsilon, 2017 .
+* Big Bang Blockchain
+, La seconde révolution d'internet, Stéphane Loignon, Ed.
+Tallandier, 2017 .
+* Blockchain
+- vers de nouvelles chaînes de valeur, Martin Della Chiesa, François Hiault, Clément Téqui, avec la collaboration de Nicolas Bouzou et Thibaut Gress, Ed.
+Prospectives Accuracy, 2018 .
+*Blockchain:
+La révolution de la confiance, Laurent Leloup, Ed.
+Eyrolles, 2017, 160 pages .
+*Investir et se financer avec la blockchain - Le Guide des ICO (Initial Coin Offering), Matthieu Quiniou, Ed.
+ENI, 2018, 252 pages .
+*Blockchain et cryptomonnaies, Primavera De Filippi, PUF 2018, 128 pages .
+Au cœur du Bitcoin
+- Programmer la Blockchain ouverte, Andreas Antonopoulos, First Interactive, 2019, 460 pages .
+Liens externes
+* http:/ 2016
+16/blockchain-expliquee
+-a-belle
+mere
+moins
+trois
+minutes-263129 Courte vidéo expliquant le principe des chaînes de blocs.

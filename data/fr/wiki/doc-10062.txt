@@ -1,0 +1,305 @@
+Debian|Distribution
+Linux|Live
+Debian (//) est une organisation communautaire et démocratique, dont le but est le développement de systèmes d'exploitation basés exclusivement sur des logiciels libres.
+Chaque système, lui-même nommé Debian, réunit autour d'un noyau de système d'exploitation de nombreux éléments pouvant être développés indépendamment les uns des autres, pour plusieurs architectures matérielles.
+Ces éléments, programmes de base complétant le noyau et logiciels applicatifs, se présentent sous forme de « paquets » qui peuvent être installés en fonction des besoins (voir Distribution des logiciels).
+L'ensemble système d'exploitation plus logiciels s'appelle une distribution.
+On assimile généralement ces systèmes d'exploitation au système Debian GNU
+Linux de Debian, car jusqu'en 2009 c'était la seule branche parfaitement fonctionnelle.
+Mais d'autres distributions Debian sont en cours de développement en 2013 : Debian GNU kFreeBSD.
+La version Debian «
+Squeeze » est la première à être distribuée avec le noyau kFreeBSD en plus du noyau Linux.
+Debian est utilisée comme base de nombreuses autres distributions telles que Linux Mint et Ubuntu qui rencontrent un grand succès.
+Fin 2005, la distribution Debian a été retenue par la ville de Munich pour équiper les quelque ordinateurs de type PC qui formaient alors son parc informatique.
+En 2014, un bilan établi par la nouvelle équipe municipale annonce 14 millions d'euros (M€) comme coût de la migration, compensés partiellement par en économies de licences et de matériel.
+Le coût du retour à Windows est estimé par la même étude à de matériel, plus le coût des licences, inconnu puisque négociable.
+Caractéristiques de la philosophie Debian
+Debian se distingue de la plupart des distributions fondées sur elle par son caractère non commercial et par le mode de gouvernance coopératif de l'association qui gère la distribution.
+Une distribution commerciale est une distribution éditée par une société commerciale.
+Par « constituer une distribution » on entend « choisir et assembler les logiciels qui composent la distribution » : le noyau du système d'exploitation, le programme d'installation de la distribution, un logiciel et des pilotes pour les connexions telles que le Wi-Fi ou pour une imprimante, des logiciels tels qu'un lecteur vidéo, un navigateur web, etc.
+Les distributions commerciales proposent généralement des versions gratuites, mais cela n'en fait pas des distributions non commerciales puisque l'objectif est de réaliser du profit par la vente de services liés à l'utilisation de la distribution (support, développement...) ou par la vente d'un code permettant d'activer une partie bridée de celle-ci (voir : modèle Freemium).
+Ainsi, Ubuntu est une distribution commerciale car elle est fabriquée par la société commerciale Canonical.
+Debian est en revanche une distribution non commerciale car elle est développée par l'organisation à but non lucratif : SPI (Software in the Public Interest).
+La distinction entre distributions non commerciales et commerciales est importante car les choix en matière de technologie ou de marketing ne sont pas fondés sur les mêmes critères selon qu'ils sont faits par des bénévoles organisés en démocratie directe, ou par le (ou les) propriétaire (s) d'une société commerciale.
+Organisation du projet
+Debian est une distribution GNU/Linux non commerciale, lancée en 1993 par Ian Murdock avec le soutien de la Free Software
+Foundation ;
+elle a pour principal but de fournir un système d'exploitation composé uniquement de logiciels libres.
+Debian se prononce «
+Débiane ».
+Ce nom trouve son origine dans la contraction de deux prénoms :
+Debra, la femme du créateur du projet, et Ian, le créateur lui-même.
+Le projet Debian s'organise autour de trois piliers :
+# un contrat social passé avec la communauté du logiciel libre définit de grands principes auxquels les développeurs adhèrent ;
+# les principes du logiciel libre selon Debian (ou DFSG)
+définissent précisément le sens du mot « libre » pour les développeurs de Debian ;
+# une constitution décrit le fonctionnement interne du projet, les méthodes de prise de décisions et les rôles des différents acteurs : le chef du projet, le secrétaire, les développeurs, etc.
+La démocratie Internet utilise une méthode de vote par pondération par classement : la méthode Schulze (une méthode Condorcet).
+Juridiquement, Debian est le projet d'une association à but non lucratif nommée SPI ().
+Debian est en fait le nom de l'organisation, mais est souvent utilisé pour désigner la distribution, fruit de l'organisation.
+La fondation regroupe plusieurs centaines de programmeurs, mais tous ne sont pas actifs.
+Les programmeurs actifs sont normalement chargés de la gestion d'un ou plusieurs modules.
+La coordination est assurée par des échanges sur liste de diffusion ou par chat IRC, ainsi que par les organes de la fondation.
+Le projet est dirigé par un (« chef du projet Debian ») élu (ou réélu) par les membres chaque année, dans le respect de la constitution de la fondation.
+Ses pouvoirs sont limités, et les décisions d'une certaine importance sont prises par la communauté.
+Il est assisté depuis 2006 par un (2IC).
+Un autre poste important est celui de , lui-même assisté de .
+Son rôle est de définir (avec la communauté des développeurs) les objectifs de la prochaine version, de superviser le processus et de définir les dates de sorties.
+Le projet est composé de bénévoles, essentiellement des développeurs.
+De ce fait, la fondation a des besoins financiers réduits, satisfaits par des dons en nature (des ordinateurs, par exemple) ou en argent.
+Chefs du projet Debian ()
+Le projet a eu les chefs de projet suivants :
+Un poste de Debian 2IC avait été créé par Anthony Towns.
+Le poste a été occupé par Steve McIntyre ( - ).
+Responsables de la distribution ()
+Installation
+Debian offre la possibilité de télécharger des images disque CD, DVD et BD via BitTorrent ou Jigdo.
+Il est également possible de les acheter via des revendeurs.
+Les ensembles complets sont constitués de nombreux disques.
+La version AMD64 de Debian 10 consiste par exemple en 16 DVD ou 4 BD.
+Seul le premier disque est requis pour l'installation, l'installateur pouvant récupérer les logiciels absents via les dépôts en ligne.
+Les images sont hybrides, il est donc possible de les utiliser pour créer une clé USB bootable.
+Les environnements de bureau pouvant être installés à partir du DVD sont GNOME, KDE, LXDE, LXQt, MATE, Cinnamon et Xfce.
+Si l'installation s'effectue à partir des DVD, seul le premier est nécessaire pour installer GNOME.
+Debian permet d'installer le système via le réseau de trois manières distinctes :
+* petits CD ou clés live USB,
+avec des fichiers images qui occupent
+jusqu'à ;
+* amorçage
+par le réseau
+, il faut au préalable paramétrer des serveurs TFTP et DHCP (ou BOOTP ou RARP) qui permettent aux machines du réseau local de récupérer l'image via le réseau.
+Une fois la machine cliente démarrée en PXE ou TFTP, l'installation du système Debian s'effectuera.
+Distribution des logiciels
+La distribution GNU/Linux Debian contient environ paquets logiciels ( au moment de la sortie de la version Buster) élaborés et entretenus par un millier de développeurs.
+Debian est réputée pour sa fiabilité et son gestionnaire de paquets original (APT), au format de fichier deb, permettant les mises à jour et garantissant un système homogène.
+Debian est officiellement disponible pour une dizaine de plates-formes de matériel informatique : x86 (i686), x64 (AMD64 ou Intel 64), ARM (EABI, v7 et 64 bits), MIPS (32 bits et 64 bits little-endian), Power Systems (PowerPC 64 bits) et System z. Les architectures IA-64 et SPARC étaient supportées par la version Wheezy, PowerPC par Jessie.
+D'autres architectures sont reconnues, mais de manière non officielle.
+Sections de paquets logiciels
+Pour chaque branche, trois sections sont disponibles :
+* la section main est la section principale de Debian.
+Elle contient la plupart des paquets ;
+* la section non-free regroupe tous les paquets qui ne respectent pas les DFSG.
+Ils ne font plus partie officiellement de la distribution et ne sont pas entretenus par les développeurs Debian.
+Le paquet vrms indique s'il y a des paquets non-free sur le système ;
+* la section contrib est destinée aux paquets qui respectent les DFSG, mais qui dépendent d'un paquet de la section non-free.
+D'autres dépôts logiciels existent dans Debian, comme les dépôts backports qui proposent un service de rétroportage à destination des utilisateurs de la version stable.
+En effet, une fois que la version stable est publiée, elle n’est plus mise à jour que pour des bugs sérieux trouvés dans ses paquets ou des mises à jour de sécurité.
+Les dépôts backports fournissent des versions plus récentes mais potentiellement moins stables de certains logiciels, qui proviennent de la prochaine version dite testing et sont adaptées pour s’intégrer à la version stable.
+Aujourd'hui les dépôts backports sont officiellement supportés par Debian.
+Gestion des paquets
+Dpkg est le programme principal pour manipuler les fichiers de paquets (APT y fait d'ailleurs appel pour l'installation desdits programmes).
+APT
+pour «
+Advanced
+Packaging
+Tool » (soit « utilitaire avancé de gestion de paquets » en français) est une interface avancée pour le système de gestion des paquets Debian, qui consiste en plusieurs programmes dont les noms commencent par « apt- » (apt-get, apt-cache, apt-cdrom…).
+Outre sa facilité d'emploi et sa polyvalence, son intérêt réside dans sa gestion automatique des dépendances entre les différents paquets.
+Il existe également une interface graphique pour ce programme : Synaptic.
+Dselect est l'interface utilisateur historique, permettant une gestion plus aisée des paquets.
+Cet utilitaire tend à céder la place à Aptitude.
+Versions de Debian GNU/Linux
+Debian est toujours disponible en trois versions (trois branches) qui sont :
+* stable : version figée où les seules mises à jour sont des correctifs de sécurité ;
+* testing :
+future version stable où seuls les paquets suffisamment murs peuvent rentrer ;
+* unstable : surnommée Sid
+, il s'agit d'une version en constante évolution, alimentée sans fin par de nouveaux paquets ou de mises à jour de paquets déjà existants (on parle de rolling release).
+Outre le dépôt de paquets nommé backports, il existe un dépôt nommé experimental, qui contient des paquets expérimentaux de logiciels dont l'utilisation pourrait dégrader le système.
+Cependant, le dépôt experimental ne contient pas tous les paquets disponibles dans les branches stable, testing et unstable.
+Voilà pourquoi il n'est pas considéré comme une branche à part entière.
+Enfin
+, une déclinaison Live
+CD (ou CD autonome)
+existe, permettant de tester la distribution depuis un support amovible, sans avoir à l'installer.
+Si l'utilisateur le souhaite, il pourra installer le système par la suite à l'aide de ce même CD.
+Seules les architectures i386 et AMD64 sont disponibles.
+L'utilisateur a le choix entre sept environnements de bureau, à savoir : GNOME, KDE, LXDE, LXQt, MATE, Cinnamon et Xfce.
+Historique des versions
+Les différentes versions de la distribution empruntent leur nom aux personnages du film d'animation
+Toy
+Story des studios Pixar :
+Chronologie de Debian GNU/Linux
+Versions
+0.x
+Debian
+est née en grâce à Debra Lynn et Ian Murdock, alors étudiants à l'université Purdue.
+Debian fut soutenu par le projet GNU de la Free Software
+Foundation de à .
+Les versions 0.01 jusqu'à 0.90 de Debian furent produites entre août et .
+Ian Murdock écrivait alors :
+: «
+La version 0.91 de Debian sortit en .
+Elle avait un système de gestion de paquets primitif qui permettait aux utilisateurs de manipuler les paquets mais n'autorisait pas grand-chose d'autre (il ne possédait certainement pas de dépendances ou d'options analogues).
+À partir de ce moment-là, quelques douzaines de personnes travaillaient sur Debian, alors que je devais toujours assembler les versions moi-même.
+La version 0.91 fut la dernière version faite de cette manière.
+: «
+Une grande partie de l'année 1994 fut consacrée à organiser le projet Debian de façon que les autres puissent plus directement contribuer, comme pour la réalisation de Dpkg (Ian Jackson fut très largement responsable de cette dernière).
+Si je me souviens bien, il n'y eut pas de version officielle en 1994, bien que nous en eûmes un certain nombre en interne, à chaque fois que nous progressions dans l'avancement de la distribution.
+: «
+La Debian 0.93, en version 5, sortie en mars 1995, fut la première version « moderne » de Debian : il n'y avait jamais eu autant de développeurs (bien que je ne puisse me rappeler combien), chacun avait maintenant ses propres paquets et Dpkg fut utilisé pour installer et entretenir tous ces paquets après l'installation du système de base.
+: «
+La Debian 0.93, en version 6, sortie en novembre 1995
+, fut la dernière version au format a.out.
+Il y avait environ 60 développeurs pour entretenir les paquets de la version 0.93R6.
+Si je me souviens bien, dselect fit son apparition dans cette version qui fut ma version favorite de Debian.
+Il arrêta de travailler activement sur le projet en mars 1996 durant la préproduction de la Debian 1.0.
+Cette dernière fut renommée 1.1 pour éviter toute confusion avec un fabricant de disque compact qui nomma faussement 1.0 une version précédente.
+Cet incident mena au concept d'images ISO « officielles », de façon à éviter aux vendeurs ce genre de bévue.
+Durant le mois d' (entre la version 0.93R5 et 0.93R6 de Debian), Hartmnut Koptein débuta le premier portage de Debian pour la famille des Motorola m68k.
+Selon lui : «
+De très nombreux paquets étaient construits autour de l'architecture i386 (« petit bout », - m486, - O6 et autres options de ce genre de la bibliothèque libc4) et ce fut un travail énorme que d'avoir une base de paquets de départ sur ma machine (un Atari Medusa 68040, ).
+Après trois mois (en ), je mis à disposition 200 paquets, sur les 250 disponibles, tous pour la bibliothèque libc5 !
+Depuis lors, le projet Debian s'est développé en incluant de nombreux portages vers d'autres architectures, ainsi qu'un portage vers un nouveau noyau, Hurd, et donc vers le système à micro-noyau GNU/Hurd.
+Un des tout premiers membres du projet, Bill Mitchell, se rappelle au sujet du noyau Linux :
+: «… on devait être entre la version 0.99r8 et 0.99r15 lorsque l'on a débuté.
+Pendant très longtemps, je fus capable de compiler un noyau en moins de sur une machine dotée d'un 386 à , et j'étais ainsi capable d'installer une Debian dans le même temps avec moins de d'espace disque.
+: «…
+Je me souviens que l'équipe initiale comprenait Ian Murdock, moi-même, Ian Jackson, un autre Ian dont je ne me souviens pas le nom de famille, Dan Quinlan, et quelques autres personnes dont je ne me souviens pas des noms.
+Matt Welsh faisait aussi partie du groupe initial, ou l'a rejoint à ses tout débuts (il a depuis quitté le projet...).
+Quelqu'un créa une liste de discussions et nous nous mîmes au travail.
+: «
+Si je me souviens bien, nous ne partîmes pas d'un plan défini, et nous ne partîmes pas sur le fait de créer ensemble un plan avec une approche très organisée.
+Dès le début, si je ne me trompe pas, nous rassemblâmes aléatoirement les sources d'un certain nombre de paquets.
+Avec le temps, nous finîmes par finaliser une collection d'articles qui seraient nécessaires au cœur de la distribution : le noyau, un shell, update, getty, de nombreux autres programmes et de fichiers de configuration requis pour initialiser le système ainsi que tout un jeu d'utilitaires.
+Versions
+2.x
+Ian Jackson devint le responsable du projet Debian au début de l'année 1998 et devint tout de suite après vice-président de la Software in the Public Interest.
+Après la démission du trésorier (Tim Sailer), du président (Bruce Perens) et du secrétaire (Ian Murdock), il devint président et trois nouveaux membres furent choisis : Martin Schulze (vice-président), Dale Scheetz (secrétaire) et Nils Lohner (trésorier).
+La version 2.0 de Debian (Hamm) sortit en pour les architectures de processeurs Intel x86 et Motorola m68k.
+Cette version se caractérise par l'introduction d'une nouvelle version des bibliothèques C (libc6 reposant sur la glibc2).
+Au moment de sa sortie, il y avait plus de paquets entretenus par plus de 400 développeurs Debian.
+Wichert Akkerman succéda à Ian Jackson comme chef de projet Debian en janvier 1999.
+La version 2.1 de Debian sortit le , après avoir été retardée pendant une semaine par des demandes de corrections de dernière minute.
+La Debian 2.1 (Slink) supporte officiellement deux nouvelles architectures : l'Alpha et le Sparc.
+Les paquets contenant le système X Window furent profondément réorganisés par rapport aux précédentes versions.
+Elle inclut aussi APT, l'interface de gestion de paquets de la génération suivante.
+Ainsi, cette version de Debian fut la première à requérir deux cédéroms pour le jeu de cédéroms officiels ;
+elle contient environ paquets.
+Le , Corel Corporation et le projet KDE formèrent effectivement une alliance avec Debian lorsque Corel affirma son intention de fabriquer une distribution GNU/Linux basée sur Debian et l'environnement de bureau du projet KDE.
+Durant le printemps et l'été suivants, une autre distribution basée sur Debian fit son apparition, Storm Linux.
+Le projet Debian choisit alors un nouveau logo, en créant à la fois une version officielle à utiliser sur le matériel utilisant Debian, comme les cédéroms ou les sites webs officiels du projet, et une version non officielle pour une utilisation dérivée de Debian ou mentionnant son nom.
+Un nouveau portage, unique en son genre, débuta à ce moment avec le Hurd.
+C'est la première tentative d'utiliser un noyau non-linux, avec le GNU/Hurd, qui est lui-même basé sur le micro-noyau GNU Mach.
+La Debian 2.2 (Potato) est sortie le , cette version ajoute le support des architectures PowerPC et ARM, avec Wichert Akkerman en tant que chef de projet, cette version de la distribution compte paquets entretenus par près de 450 développeurs.
+Versions 3.x
+La version 3.0, Woody, sortie le 19 juillet 2002, supportait toujours plus d'architectures, avec l'ajout de IA-64, HP PA-RISC, MIPS et S/390.
+Le projet comptait alors 900 développeurs et paquets, dont pour la première fois KDE, après que le conflit de licence de la bibliothèque Qt eut été résolu.
+Debian Sarge, soit la version 3.1, fut finalisée le et ne comptait pas moins de paquets et 11 architectures.
+Versions 4.x
+La version 4.0
+, Etch, sortie le , incluait les éléments suivants :
+* support officiel de l’architecture AMD64, soit un total de 11 architectures différentes ;
+* remplacement de XFree86 par (version 7.1) ;
+* nouvel installateur (incluant une version graphique) ;
+* présence de Secure APT pour des téléchargements sécurisés avec cryptographie et signatures améliorées.
+La quatrième révision de Etch est sortie le .
+Outre les mises à jour de sécurité habituelles, cette version incluait aussi etch-and-a-half.
+Ce dernier proposait un nouveau noyau (2.6.24), des pilotes plus récents pour , ainsi que divers autres changements permettant de faire fonctionner Debian avec un matériel plus récent.
+Le , Debian pouvait s'installer sur le téléphone Neo FreeRunner.
+Versions 5.x
+La version 5.0, Lenny, sortie le , incluait les éléments suivants :
+Versions 6.x
+La version 6.0, Squeeze, sortie le , incluait les éléments suivants :
+Versions 7.x
+La version 7.0, Wheezy, sortie le 4 mai 2013, incluait les éléments suivants :
+Pour la première fois, Debian offre les fonctionnalités suivantes, incluait les éléments suivants :
+Note : un fork de Debian, Devuan, a vu le jour fin 2014 en raison de l'intégration par défaut de systemd dans Debian Jessie.
+Versions 9.x
+La version 9.0, Stretch, sortie le , est la version oldstable.
+Elle inclut les éléments suivants :
+Et plus de autres paquets de logiciels prêts à l'utilisation.
+Version 10.x
+La version 10.0, Buster, sortie le , est l'actuelle version stable de Debian.
+Elle contient plus de 59 000 paquets logiciels, dont les éléments suivants :
+Version 11.x
+Debian Bullseye est le nom de la version testing de Debian, annoncé le 6 juillet 2016.
+Version 12.x
+Debian Bookworm sera le nom de la version 12 de Debian.
+Caractéristiques et critiques
+Orientation et utilisations
+La distribution Debian s'étant à l'origine principalement développée autour de son utilisation sur des serveurs, elle est donc particulièrement adaptée à ce rôle ;
+par exemple elle distingue toujours l'administrateur système de l'« utilisateur », si un mot de passe root est rentré lors de l'installation.
+Mais le but a toujours été d'obtenir un système universel, c'est-à-dire utilisable aussi bien sur un serveur que sur un ordinateur de bureau, un ordinateur portable, voire un smartphone (ordiphone).
+Sortie des versions
+Cette utilisation originellement orientée serveurs a également influencé son cycle de sortie de nouvelles versions.
+Une fiabilité irréprochable était nécessaire, ce qui a entraîné des délais très longs entre les versions stables (surtout à l'époque des versions 3).
+Cela avait pour conséquence de fournir des applicatifs stables mais parfois désuets ou dépassés au moment de la sortie d'une nouvelle version.
+En 2008, pour résoudre ce problème, la version Etch et demi (etch-and-a-half) propose une mise à jour des paquets au sein d'une version stable, ce qui est une première dans l'histoire de Debian.
+En 2009, il est décidé de commencer à geler les paquets à la fin de chaque année impaire (c'est-à-dire de stopper les mises à jour des éléments constituants pour se concentrer sur leurs bonnes interactions).
+Cette nouvelle stratégie laisse apparaître un cycle de développement de deux ans, et avec une nouvelle version stable au début de chaque année paire (comme les versions LTS d'Ubuntu, mais sans fixer la date de sortie).
+Toutefois, la sortie de la version 6.0 (alias Squeeze) de Debian le devrait constituer une exception unique à cette règle afin de pouvoir adapter le rythme au nouveau
+calendrier dans la sécurité de l'ensemble des logiciels proposés sur Debian est d'ailleurs une référence dans ce domaine et participe activement au comité «
+En , Luciano Bello, développeur Debian et chercheur en sécurité informatique découvre que des changements effectués dans la version d'OpenSSL distribuée par Debian avaient provoqué une faiblesse dans le générateur de nombres aléatoires.
+Ainsi les clés de sécurité générées par une machine utilisant la version Etch étaient prévisibles.
+Cette faille a concerné aussi les distributions dérivées de Debian telles que Ubuntu et Knoppix.
+Communication
+On relève aussi des problèmes sur le plan de la communication (site web à l'aspect peu moderne et peu actualisé par exemple), du moins jusqu'à la sortie de Squeeze : le site officiel, le wiki et l'interface d'accès aux paquets ont ainsi été mis à jour ;
+mais aussi des problèmes de communication entre les développeurs.
+Ces aspects avaient notamment été pointés du doigt par Sam Hocevar lors de la campagne pour le poste de chef de projet en 2007.
+Logos
+Le logo actuel (la volute) est l'œuvre de Raul M. Silva, c'est le résultat d'un concours organisé en 1999.
+Il existe en deux versions : une version dont l'usage est libre (volute seule, avec ou sans la mention « Debian ») et une version officielle (volute au-dessus d'une carafe à décanter le vin, avec ou sans mention « Debian ») qui ne peut être utilisée qu'avec l'autorisation explicite de Debian.
+Aucune déclaration officielle n'a été faite quant à la signification ou la source d'inspiration du logo.
+Différentes hypothèses ont toutefois été avancées.
+Distributions fondées sur Debian
+DebConf : la conférence des développeurs de Debian
+La DebConf est la conférence annuelle qui réunit les développeurs du projet Debian pour discuter du futur du développement du système.
+Bibliographie
+* Raphaël Hertzog et Roland Mas.
+(2016).
+Debian 8 Jessie
+- GNU/Linux.
+Eyrolles.
+538 pages.
+Livre diffusé selon les termes des licences GNU GPL 2.0 ou ultérieure et CC-BY-SA 3.0.
+* Raphaël Hertzog et Roland Mas.
+(2014).
+Debian Wheezy
+- GNU/Linux.
+Eyrolles.
+516 pages.
+Livre diffusé selon les termes des licences GNU GPL 2.0 ou ultérieure et CC-BY-SA 3.0.
+* Raphaël Hertzog et Roland Mas.
+(2011).
+Debian
+Squeeze
+- GNU/Linux.
+Eyrolles.
+476 pages .
+Livre libéré en 2013 et diffusé selon les termes de la licence publique générale GNU (GNU GPL) 2.0 ou ultérieure et de la licence Creative Commons Attribution-ShareAlike (CC-BY-SA) 3.0.
+* Raphaël Hertzog et Roland Mas.
+(2009).
+Debian
+Lenny
+- GNU Linux : services réseaux.
+ENI.
+296 pages.
+* Raphaël Hertzog et Roland Mas.
+Debian
+Etch
+- GNU/Linux.
+Eyrolles.
+430 pages .
+Debian à 200 % : 50 trucs, secrets et techniques.
+O'Reilly.
+303 pages.
+* Yann
+Le Thieis et Nicholas Pons.
+Debian GNU/Linux version 3.1 (Sarge) : administration du système.
+ENI.
+386 pages.
+* Martin Krafft
+(2006).
+Debian : administration et configuration avancées.
+Eyrolles.
+678 pages.
+* Frank Ronneburg.
+(2005).
+Debian
+GNU
+Linux
+Eyrolles.
+310 pages (avec un CD-Rom Debian GNU IP
+- les services réseaux.
+ENI.
+471 pages.

@@ -1,0 +1,118 @@
+Mathematica es un programa utilizado en áreas científicas, de ingeniería, matemática y áreas computacionales.
+Originalmente fue concebido por Stephen Wolfram, quien continúa siendo el líder del grupo de matemáticos y programadores que desarrollan el producto en Wolfram Research, compañía ubicada en Champaign, Illinois.
+Comúnmente considerado como un sistema de álgebra computacional, Mathematica es también un poderoso lenguaje de programación de propósito general.
+Reseña
+La primera versión de Mathematica se puso a la venta en 1988.
+La versión 10.3, fue lanzada el 15 de octubre de 2015, se encuentra disponible para una gran variedad de sistemas operativos.
+Mathematica se divide en dos partes, el "kernel" o núcleo (en informática) que desempeña los cálculos.
+Y el "front end" o interfaz, que despliega los resultados y permite al usuario interactuar con el núcleo como si fuera un documento.
+En la comunicación entre el kernel y la interfaz (o cualquier otro cliente) Mathematica usa el protocolo MathLink, a menudo sobre una red.
+Es posible que diferentes interfaces se conecten al mismo núcleo, y también que una interfaz se conecte a varios núcleos.
+A diferencia de otros sistemas de álgebra computacional, por ejemplo Maxima o Maple, Mathematica intenta usar las reglas de transformación que conoce en cada momento tanto como sea posible, tratando de alcanzar un punto estable.
+Características generales
+Los atributos de Mathematica incluyen:
+*Bibliotecas de funciones matemáticas elementales y especiales.
+*Matrices y manipulación de datos, así como soporte de matrices tipo sparse.
+*Soporte para números complejos, precisión arbitraria, computación de intervalos aritméticos y simbólicos.
+*Datos en 2D y 3D, función y visualización geográfica y herramientas de animación.
+*Solucionadores para sistemas de ecuaciones, ecuaciones diofánticas, ecuaciones diferenciales ordinarias, parciales, diferenciales algebraicas, de retraso, diferenciales estocásticas y relaciones de recurrencia.
+*Herramientas numéricas y simbólicas para cálculo de variable continua o discreta.
+*Bibliotecas de Estadística multivariable, incluyendo ajuste, pruebas de hipótesis, y cálculos de probabilidad y expectativa en más de 140 distribuciones.
+*Soporte para datos censurados, datos temporales, series temporales y datos basados en unidades.
+*Cálculos y simulaciones en procesos aleatorios y queues.
+*Herramientas de aprendizaje de máquina supervisadas y no supervisadas para datos, imágenes y sonidos.
+*Geometría computacional en 2D, 3D y dimensiones mayores.
+*Análisis de elementos finitos incluyendo generación de malla adaptiva en 2D y 3D.
+*Optimización restringida y no restringida, local y global.
+*Lenguaje de programación que da soporte a construcciones de procedimiento, functionales y orientados a objetos.
+*Juego de herramientas para agregar interfaces de usuario a cálculos y aplicaciones.
+*Herramientas para procesamiento de imágenes en 2D y 3D, y procesamiento morfológico de imágenes incluyendo reconocimiento de imágenes.
+*Herramientas para visualización y análisis de grafos dirigidos y no dirigidos.
+*Herramientas para minería de textos incluyendo expresiones regurales y análisis semántico.
+*Herramientas de minería de datos tales como análisis de grupos, alineación de secuencias y búsqueda de patrones.
+*Herramientas para cálculos financieros, incluyendo bonos, anualidades, derivados, opciones, etc.
+*Bibliotecas para procesamiento de señales, incluyendo análisis de ondas en sonidos, imágenes y datos.
+*Bibliotecas de sistemas de control lineares y no lineares.
+*Transformaciones integrales continuas y discretas.
+*Importación y exportación de filtros para datos, imágenes, video, sonido, CAD, GIS, formato de documento y biomédicos.
+*Colección de base de datos para información matemática, científica y socio-económica y acceso a datos de WolframAlpha y cálculos.
+*Procesamiento de palabras técnicos incluyendo edición de fórmulas y reportes automatizados.
+*Herramientas para conectarse a sistemas basados en DLL, SQL, Java, .NET, C++, Fortran, CUDA, OpenCL y http.
+*Usando ambos "entradas lingüística de forma libre" (una interfaz de usuario de lenguaje natural) y Wolfram Language en el cuaderno cuando está conectado a internet.
+Interfaces
+La interfaz preseleccionada por Mathematica tiene extensas características y capacidades gráficas, ofreciendo analogías a un cuaderno de trabajo: la entrada de datos por parte del usuario y los resultados enviados por el núcleo (incluyendo gráficas y sonidos), son colocados en forma de celdas jerárquicas (igual que Maple), lo cual permite seguir con facilidad la secuencia de las manipulaciones algebraicas o cálculos que se están desarrollando en una sesión.
+Comenzando con la versión 3.0 del software, los cuadernos se representan como expresiones que puedan ser manipuladas, a su vez, por el núcleo.
+Para permitir a aquellos usuarios que no tienen una licencia, la visualización de los cuadernos de trabajo escritos en Mathematica, se creó un paquete de lectura dedicado.
+Este paquete, llamado MathReader puede bajarse de la red gratuitamente.
+Otras interfaces se encuentran disponibles, como, http:/ ~radford JMath o mash, pero la interfaz estándar de Mathematica es la más popular.
+Conexiones con otras aplicaciones
+Las comunicaciones con otras aplicaciones ocurren a través del protocolo llamado MathLink.
+Este protocolo permite no solo comunicaciones entre el núcleo de Mathematica y las pantallas, sino que también provee la interfaz entre el núcleo y aplicaciones arbitrarias.
+Wolfram Research distribuye de forma gratuita un kit para enlazar aplicaciones escritas en el lenguaje de programación C hacia el núcleo de Mathematica a través de MathLink.
+Otros componentes de Mathematica, que usan el protocolo Mathlink, permite a los desarrolladores establecer comunicaciones entre el núcleo y Java o para programas .NET como J Link
+Usando J/Link, un programa de Java puede decirle a Mathematica que ejecute cálculos; también Mathematica puede cargar cualquier clase de Java, manipular objetos de Java y desempeñar llamadas a métodos, haciendo posible construir interfaces gráficas desde Mathematica.
+De forma similar, la plataforma .NET puede enviarle órdenes al núcleo para que ejecute cálculos, y devuelva los resultados, también los desarrolladores de Mathematica pueden acceder con facilidad a la funcionalidad de la plataforma .NET.
+Mathematica 9 es compatible con varias versiones de Linux, OS X de Apple, Windows (XP SP3, Vista, 7 y 8) de Microsoft y Raspberry Pi.
+Todas estas plataformas son compatibles con implementaciones de 64 bits.
+Versiones anteriores de Mathematica hasta la 6.0.3 son compatibles con otros sistemas operativos, incluyendo Solaris, AIX, Convex, HP-UX, IRIX, MS-DOS, NeXTSTEP, OS/2, Ultrix y Windows Me.
+Mathematica puede conectarse a una variedad de servicios en la nube para recuperar o enviar datos, incluido ArXiv, Bing, ChemSpider, Dropbox, Facebook, el Sistema de la Reserva Federal, Fitbit, Flickr, Google (Analytics, Calendar, Contacts, Custom search, Plus, Search, translate), Instagram, LinkedIn, Mailchimp, Open Library, PubChem, PubMed, Reddit, SurveyMonkey, Twitter y Wikipedia.
+Funcionalidades de Mathematica para Internet
+Wolfram Research cuenta con un programa denominado webMathematica que añade funcionalidades para publicación Web capaz de hacer cálculos y desplegar visualizaciones de Mathematica en línea.
+Como demostración de las capacidades de Mathematica y webMathematica, Wolfram Research mantiene un sitio web en la que es posible realizar integrales indefinidas simples "The Integrator" en http:/ calculators así como el "Demonstrations project" que consiste en pequeños programas encapsulados que muestran un concepto matemático o una función de Mathematica de manera simplificada, visual y libre ya que el código fuente también puede descargarse.
+Estos pequeños programas pueden visualizarse incluso sin contar con Mathematica sino directamente en el browser o con el Mathematica Player que es gratuito y puede descargarse en la página de Wolfram Research.
+Ejemplos
+La siguiente secuencia de Mathematica encuentra el determinante de una matriz de 6x6, cuyos i, j enésima entradas contienen ij con todos los ceros reemplazados por 1.
+Entonces, el determinante de tal matriz es cero.
+El siguiente calcula numéricamente la raíz de la ecuación ex
+x2 + 2, comenzando en el punto
+In2:
+FindRootExpx
+x^2 + 2,
+Out2=
+Múltiples paradigmas como lenguaje de programación
+Mathematica permite múltiples paradigmas de programación.
+Considere por ejemplo: una tabla con los valores de gcd (x, y) para 1 ≤ x ≤ 5, 1 ≤ y ≤ 5.
+La opción más concisa es usar una de las muchas funciones especializadas:
+In3:= ArrayGCD,
+Out3=
+También se puede de esta forma:
+In4:= TableGCDx, y, ,
+Out4=
+Igualmente se puede:
+In5:= OuterGCD, Range5, Range5
+Out5=
+Outer corresponde al operador del producto externo , Range corresponde al operador iota.
+De forma iterativa:
+In6:
+; (* inicia una lista vacía, para obtener una lista al final Fori
+1, i <
+5, i++,
+l2 = ;
+Forj
+1, j
+5, j++,
+l2 = Appendl2, GCDi, j
+l1 = Appendl1, l2; (
+; l1
+Out6=
+Observe que esta solución es considerablemente más larga que las anteriores.
+Estructuras comunes, manipulaciones comunes
+Uno de los principios que guían en Mathematica, es la estructura unificada detrás de todos los objetos representables.
+Por ejemplo, la expresión x^4+1 si es entrada será representada como si fuera escrita:
+Out7= 1+x4
+Pero si el comando FullForm es usado en esta expresión:
+Out8= Plus1, Powerx,
+Casi todos los objetos en Mathematica tienen básicamente la forma head e1, e2, ... (la cual puede ser mostrada o introducida de otras maneras).
+Por ejemplo, el head del ejemplo de arriba es Plus, y los símbolos tales como x tienen la forma Symbol"x".
+Las listas tienen esta estructura también, donde el head es List.
+El principio permite expresiones ordinarias sin relación con listas, ser operadas con operaciones de listas:
+In9:= Expand (Cosx + 2 Logx^11)
+Lo contrario también puede ocurrir -- las listas pueden ser modificadas para comportarse como expresiones ordinarias:
+In10:= MapApplyLog, # &,
+Out10=
+donde la función Apply cambia el head del segundo argumento hacia el primero.
+Historia
+Mathematica fue construido sobre la base del trabajo de Cole y Wolfram Symbolic Manipulation Program (SMP).
+El nombre de "Mathematica" fue sugerido a Stephen Wolfram por el co-fundador de Apple Steve Jobs, aunque Stephen Wolfram pensó sobre este nombre anteriormente y rechazó la idea.
+Wolfram Research ha lanzado las siguientes versiones de Mathematica:
+Ver también

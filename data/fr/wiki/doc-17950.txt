@@ -1,0 +1,37 @@
+Théorie des ensembles
+Une paire est un ensemble qui comprend exactement deux éléments.
+Remarques
+Une paire qui contient deux éléments a et b se note \left\.
+L'ordre d'écriture de la paire n'a pas d'importance: \=\. Ceci différencie la paire du couple.
+L'ensemble \left\ n'est pas une paire mais un singleton et se note aussi \left\.
+Exemples
+*\left\ (avec une espace après la virgule)
+est la paire comprenant les entiers 1 et 3.
+*\left\ est une paire composée du singleton \left\ et de la paire \left\.
+*\left\ est une paire composée du nombre 5 et de l'élément A.
+Propriétés
+Appartenance d'un élément à une paire (ou à un singleton)
+Un élément x appartient à une paire si et seulement s'il est égal à l'un des deux éléments de cette paire.
+Cet énoncé est en fait tout autant valable pour un singleton.
+On peut donc l'écrire formellement, pour a et b donnés :
+, x ∈ ⇔ (x
+a ou x
+le « ou » en question désigne, comme d'habitude en mathématiques, une disjonction inclusive : l'énoncé reste vrai
+si x
+a et x
+Cette proposition caractérise les paires (ou singletons).
+Dans l'axiomatisation de la théorie des ensembles, il y a un axiome spécifique, appelé axiome de la paire, qui exprime pour tout a et b l'existence d'une paire \ et qui se fonde sur cette proposition.
+Égalité de deux paires
+Deux paires sont égales si et seulement si leurs éléments sont égaux deux à deux, de l'une des deux façons dont on peut les associer.
+Plus précisément, pour deux paires ou singletons
+et :
+⇔ (
+c et b
+ou (a
+d et b
+= c
+Autres propriétés
+Un raisonnement simple de dénombrement montre que le nombre de paires d'un ensemble fini à éléments est égal à .
+Histoire
+Von Neumann, dans son article de 1923, qui est un des premiers sur la théorie des ensembles, note les paires (a,b), comme nous noterions aujourd'hui les couples.
+Remarquons qu'il définit l'entier 2 comme étant la paire \left\, qu'il écrit \left (\mathbf O, (\mathbf O)\right).

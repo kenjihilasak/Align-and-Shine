@@ -1,0 +1,61 @@
+Ensemble|Zéro|Vide
+En mathématiques, lensemble vide est l'ensemble ne contenant aucun élément.
+Notation
+L'ensemble vide peut être noté d'un O barré, à savoir ∅ ou simplement , qui est une paire d'accolades ne contenant qu'une espace, pour représenter un ensemble qui ne contient rien.
+La notation ∅ a été introduite par André Weil, dans le cadre de l'institution de notations par le groupe Bourbaki.
+Von
+Neumann dans son article de 1923,
+qui est l'une des premières références qui l'aborde, le note O.
+Propriétés
+Pour tout ensemble A :
+*: soit : l'ensemble vide est neutre pour la réunion ;
+* l'intersection de A avec l'ensemble vide est l'ensemble vide :
+*: soit : l'ensemble vide est absorbant pour l'intersection ;
+* le seul sous-ensemble de l'ensemble vide est l'ensemble vide lui-même :
+*: donc l'ensemble des parties de l'ensemble vide est un singleton, dont l'élément est l'ensemble vide :
+\mathcal P (\varnothing)=\ ;
+* le produit cartésien de A
+par l'ensemble vide est vide :
+*: soit : l'ensemble vide est absorbant pour le produit cartésien ;
+* si A est non vide, l'ensemble des applications de A dans l'ensemble vide est vide :
+* l'ensemble des applications de l'ensemble vide dans A est un singleton,
+dont l'élément est l'« application vide de ∅ dans A » (de graphe ∅).
+Si on la note ∅, on a donc :
+*: Par exemple,
+ce qui est cohérent avec l'égalité \mathcal P (\varnothing)
+\ ci-dessus.
+L'union d'une famille d'ensembles indexée par ∅ est ∅.
+L'intersection d'une famille d'ensembles indexée par ∅ n'est pas définie dans l'absolu.
+est fini ;
+son cardinal est 0 : card (∅) = 0.
+∅ admet une unique topologie, qui est .
+Elle est à la fois grossière (donc cet espace topologique est connexe) et discrète (donc cet espace est compact, comme tout espace fini discret).
+∅ admet une unique tribu, qui est (grossière et discrète).
+Deux ensembles sont égaux s'ils contiennent les mêmes éléments ;
+c'est l'axiome d'extensionnalité de la théorie des ensembles.
+Par conséquent, il ne peut y avoir qu'un ensemble ne contenant aucun élément, donc un seul ensemble vide.
+Dans certaines variantes de la théorie des ensembles, on peut introduire des « objets » appelés ur-elements, qui eux aussi n'ont pas d'éléments et peuvent aussi être éléments d'ensembles, mais qui, contrairement à l'ensemble vide, ne sont pas des ensembles.
+Subtilité de la notion d'ensemble
+vide
+L'ensemble vide ne contient rien, mais comme c'est un ensemble
+, il n'est pas rien.
+C'est la base sur laquelle s'appuie von
+Neumann s'il a au moins un élément.
+Par conséquent :
+:un ensemble habité est non vide,
+Sa réciproque s'énonce ainsi :
+:un ensemble non vide est habité,
+et peut se formuler :
+un ensemble qui n'est pas ∅ possède au moins un élément.
+Affirmer son équivalence à un ensemble habité
+est non vide
+nécessite le tiers exclu
+et n'est donc pas valide en logique intuitionniste.
+On a d'ailleurs le théorème :
+Le principe du tiers exclu est équivalent à l'affirmation tout ensemble non vide est habité
+Le point de vue catégorique
+L'ensemble vide peut être caractérisé très simplement comme objet de la catégorie des ensembles.
+C'est en effet l'unique objet ayant la propriété suivante :
+Pour tout ensemble E, il existe une et une seule flèche de ∅ vers E.
+Dans le cas de cette catégorie, flèche signifie application.
+Plus généralement, un objet qui, dans une catégorie, a cette propriété est appelé un objet initial.

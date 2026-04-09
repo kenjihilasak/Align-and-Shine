@@ -1,0 +1,173 @@
+Mathématiques
+Redirigé depuis Math)
+Une multiplication posée dans un cahier
+Les mathématiques (ou la mathématique, au singulier) désignent un ensemble de connaissances accumulées concernant des objets abstraits, par exemple les figures ou les nombres, et les relations entre ces objets étudiés.
+Les mathématiques désignent aussi le domaine de recherche visant à développer ces connaissances, ou la discipline scolaire dans laquelle on apprend la pratique des mathématiques (voir recherche en mathématiques).
+Un spécialiste des mathématiques est un mathématicien.
+Le mot « mathématique
+vient du grec μάθημα (máthēma) qui signifie science, connaissance, passé au latin sous la forme « mathematicus ».
+L'usage du pluriel date de l'Antiquité romaine, quand on l'enseignait selon quatre disciplines (le quadrivium : arithmétique, géométrie, astronomie et musique).
+De nos jours, certains utilisent toutefois le singulier, comme le groupe de mathématiciens Bourbaki, pour insister sur l'unité de la discipline.
+Dans le langage familier, on abrège souvent en "maths".
+Les mathématiques se développent par des raisonnements logico-déductifs autour d'objets rigoureusement définis pour lesquels on admet comme vrais des énoncés fondamentaux.
+On appelle ces énoncés des axiomes.
+Par exemple
+, dans son livre Les éléments, Euclide commence par définir ce qu'est un point, une droite, un segment et un angle.
+Toute sa géométrie découle de cinq axiomes :
+pour deux points, il existe toujours une droite passant par ces deux points
+pour tout segment, on peut prolonger le segment à l'infini pour obtenir une droite
+pour tout segment, il existe toujours un cercle dont le centre est une des deux extrémités du segment et qui passe par l'autre extrémité
+tous les angles droits sont égaux entre eux
+étant donné un point et une droite ne passant pas par ce point, il existe une seule droite passant par ce point et parallèle à la première
+Un énoncé ne peut être admis comme vrai qu'à partir du moment où le raisonnement qui y mène est sans faille.
+On parle de démonstration.
+Parmi les énoncés mathématiques, on distingue :
+une conjecture : un énoncé supposé vrai,
+mais pas encore démontré1
+une proposition : un théorème considéré comme pas très important
+un lemme : un énoncé intermédiaire servant d'étape dans une démonstration
+un corollaire : un énoncé vrai qui est une conséquence d'un théorème
+une théorie : un ensemble de théorèmes cohérents autour d'un même sujet
+Le mathématicien Kurt Gödel a démontré dans les années 1931 ses théorèmes d’incomplétude : il est établi que les théories mathématiques comportent une infinité de de théorèmes à démontrer, mais que certains d’entre eux ne pourront jamais l’être quels que soient les efforts des mathématiciens (on dit qu’ils sont indémontrables).
+Pour démontrer qu'un théorème est vrai, il existe plusieurs types de raisonnements fréquemment utilisés :
+Raisonnement par déduction :
+à partir des énoncés considérés comme vrais, un enchaînement logique mène à la conclusion
+Exemple :
+Une droite (d) est perpendiculaire à une droite (f) et une droite (g) est aussi perpendiculaire à la droite (f).
+On sait que deux droites perpendiculaires à une même droite sont parallèles entre elles.
+Alors les droites (d) et (g) sont parallèles.
+Deux droites perpendiculaires à une même droite
+Disjonction de cas :
+quand l'énoncé doit être vrai pour un tout un ensemble (de nombres, de formes...), on découpe l'ensemble en plusieurs catégories, et on montre que l'énoncé est vrai dans chaque catégorie
+Exemple :
+On veut montrer que pour tout nombre n, n ×(n+1) est un nombre pair.
+On sait que la multiplication d'un nombre pair donne toujours un nombre pair.
+On distingue deux cas :
+n est pair, donc n ×(n+1)
+est pair
+n est impair
+, donc n+1 est pair, donc n ×(n+1) est pair
+Raisonnement par contraposition :
+si une implication est vraie, sa contraposée3 est vraie aussi
+Exemple : On sait qu'un nombre divisible par 4 est un nombre pair.
+Donc on sait aussi qu'un nombre impair n'est pas divisible par 4.4
+Raisonnement par l’absurde : c'est une variante de la contraposition, où l'on suppose l'inverse de ce que l'on veut montrer afin d'aboutir à une impossibilité.
+Exemple : Je veux montrer qu'il existe une infinité de nombres.
+Je suppose qu'il n'existe pas une infinité de nombres.
+Donc il existe un nombre qui est le plus grand de tous, appelons-le A. Je calcule A+1, qui est plus grand que A, donc qui est le plus grand de tous les nombres.
+Donc A+1=A.
+Ce qui est impossible.
+Ma supposition est fausse, son contraire est vrai.
+Raisonnement par contre exemple : un énoncé est faux si un seul cas qu'il recouvre est faux
+Exemple : l'énoncé Deux figures ayant le même périmètre ont la même aire est faux car on peut trouver deux figures qui ont le périmètre mais pas la même aire : un rectangle de longueur 4 cm et de largeur 2 cm (P = 12 cm et A
+= 8 cm2)
+et un carré de côté 3 cm (P=12 cm et A = 9 cm2)
+Raisonnement par récurrence : pour montrer qu'un énoncé est vrai pour tous les nombre, on montre qu'il est vrai pour 0 ou 1 et que s'il est vrai pour un nombre quelconque, il est aussi forcément vrai pour le nombre d'après.
+Exemple : on veut montrer qu'un nombre pair se termine toujours par 0, 2, 4, 6 ou 8.
+Le premier nombre pair est 0, qui termine par 0.
+Si un nombre pair A finit par 0, 2, 4, 6 ou 8, le nombre pair suivant est A + 2.
+A + 2 finit forcément par 2, 4, 6, 8 ou 0 car on ajoute 2 au chiffre des unités.
+Raisonnement par analyse
+synthèse : on montre que si une solution au problème existe, alors elle possède certaines caractéristiques
+, on trouve un élément qui vérifie ces caractéristiques et on vérifie qu'il résout le problème.
+Exemple : on veut construire un point M à égale distance de trois points A, B et C. On sait que les points de la médiatrice d'un segment sont à égales distances des extrémités de ce segment.
+Donc le point M doit être sur la médiatrice de [AB], sur la médiatrice de [AC] et sur la médiatrice de [BC]. (analyse)
+Si on construit les médiatrices de [AB], de [AC] et de [BC], elles se croiseront toutes les trois en un seul point, qui sera à égale distance de A, B et C. Le point M sera cette intersection.
+synthèse)
+Il y a plusieurs domaines dans les mathématiques, qui se différencient par les objets étudiés et les techniques utilisées.
+Mais ces domaines ne sont pas vraiment séparés : on peut par exemple utiliser des outils d'analyse en géométrie.
+Certains domaines scientifiques sont fortement liés aux mathématiques, sans pour autant en faire partie :
+Pour faire face à la complexité de certains raisonnements, les mathématiciens utilisent un langage le plus précis et rigoureux possible, débarrassé au maximum de toute ambiguïté.
+Les mots du langage courant sont souvent utilisés mais dans un sens différents : un « facteur » est un nombre dans une multiplication et non plus quelqu’un qui livre le courrier.
+La plupart des mots crées pour le domaine sont issus du grec (polygone, tétraèdre), de l’arabe (zéro, chiffre, algèbre…) et du latin (diagonale, médiatrice, équation).
+Pour abréger leurs textes, ils ont aussi régulièrement été amené à représenter les objets étudiés avec des symboles pour mieux les manipuler.
+L’abondance de vocabulaire et de symboles rend difficile la compréhension de textes mathématiques pour les non-mathématiciens.
+Les mathématiques ont un rapport particulier au réel : dans les autres sciences, l’observation et l’expérience se font sur des objets concrets (les êtres vivants pour la biologie, la matière pour la chimie, le corps humain pour la médecine…).
+Mais les mathématiques étudient des objets abstraits, qui observent leur propriété de manière absolue et parfaite (le carré a quatre côtés parfaitement égaux et quatre angles parfaitement droits, ce qui n’existe pas dans la nature).
+Les connaissances mathématiques sont purement intellectuelles et découlent d’axiomes qui sont choisis de manière arbitraire : les axiomes de la géométrie euclidienne et les axiomes de la géométrie hyperbolique sont différents 5, et entraînent deux théories très différentes mais chacune est cohérente.
+La philosophie s’interrogent encore aujourd’hui sur les objets mathématiques : sont-ils réels ou des constructions humaines ?
+Ou est-ce que seuls certains objets ont une pertinence, comme ceux que l'ont peut construire ou calculer réellement ?
+Le réel peut-être étudié de différentes manières et à différentes échelles.
+C’est l’approche qui va dicter au scientifique quelle théorie mathématique utiliser.
+Par exemple dans la vie courante,
+sur une surface plane (une feuille de papier, un terrain plat), la géométrie euclidienne fonctionne très bien, mais si on raisonne sur la sphère terrestre dans son ensemble qui n’est pas plate, la géométrie sphérique conviendra mieux, et pour étudier l’espace-temps de la relativité d’Einstein, la géométrie est encore plus complexe.
+On parle de choix d’un modèle mathématique pour décrire une situation.
+Les problèmes soulevés par les sciences ont souvent poussé à développer de nouvelles branches de mathématiques (par exemple Newton a inventé le calcul infinitésimal pour développer sa théorie de la gravitation) mais parfois des découvertes mathématiques perçues au départ comme détachées du réel ont eu des applications surprenantes (par exemple les fonctions chaotiques étudiées par Bernard Bolzano, Karl Weierstrass et Bernhard Riemann dans les années 1830-1872 ont été utilisées par Einstein et Jean Perrin pour décrire le mouvement brownien).
+Le système solaire selon Kepler en utilisant des solides de Platon imbriqués
+Ces sciences sont en lien étroit avec les mathématiques.
+Pendant longtemps (Antiquité et Moyen-Âge), astronomie et mathématiques étaient presque confondues.
+Aujourd’hui encore, les mathématiques sont enseignées à haut niveau dans les filières de ces disciplines.
+L’astronomie et la physique utilisent tous les outils de l’analyse, de l’algèbre et des probabilités.
+L’informatique utilise
+en plus les outils de la cryptographie, de la théorie des graphes et des réseaux et de la logique mathématique.
+L’informatique est aussi devenue un outil parfois indispensable à la démonstration mathématique, même si les preuves uniquement informatique sont contestées.7
+Ces disciplines utilisent beaucoup les probabilités, les statistiques et la théorie du chaos pour comprendre l’évolution de populations, des atomes, du climat… .
+Le grand nombre de données générées par le Big data nécessite aussi un traitement mathématique de l’information.
+Pour les sciences humaines (économie, psychologie, sociologie), la mathématisation est parfois contestée8 : certains paramètres (l'imprévisibilité des individus ou l’intérêt du chercheur) ne seraient pas pris en compte dans les axiomes de la théorie, qui ne seraient pas alors fidèle à la réalité.
+Les mathématiques sont souvent utilisées pour valoriser de manière artificielle une discipline voulant se faire passer pour scientifique.
+La frontière est étroite et difficile à cerner pour un non-mathématicien.
+Par exemple, les mathématiques ont entretenu un lien très étroit avec l’astrologie (quand celle-ci n’était pas encore séparée de l’astronomie).
+De nombreux mathématiciens ont été des astrologues : Ptolémée, Regiomontanus, Cardan, Johannes Kepler…
+Très souvent, les mathématiques sont utilisées dans l’ésotérisme : le nombre serait une clé pour comprendre le sens caché du monde.
+Des disciplines utilisant le calcul de manière parfois complexes et très poussée se sont développées, comme la numérologie ou arithmomancie.
+Par exemple :
+Dans l’école de Pythagore, chaque nombre possède une signification symbolique que seuls les initiés avaient le droit de connaître.
+Platon fait le lien entre les cinq solides platoniciens et les cinq éléments
+la fascination pour le nombre d’or qui serait caché partout dans l’art et la nature
+Au XXIe siècle, toutes ces disciplines ne sont plus considérées comme des sciences.
+Pour les mathématiques, la vulgarisation use souvent d'un vocabulaire imagé, d’illustrations et de comparaisons non rigoureuses, pour faire comprendre les théories et leurs implications.
+Les calculs et les démonstrations ne sont pas, ou très peu, développées dans la vulgarisation.
+Il existe beaucoup de livres de vulgarisation, souvent illustrés, mais très peu d’émissions télévisées ou d’articles de presse.
+Il existe quelques magazines spécialisés, comme Tangente ou Images des mathématiques.
+Les mathématiciens sont rarement interviewés dans les médias, à quelques exceptions près, comme Cédric Villani.
+Les mathématiques peuvent être utilisées dans un but récréatif.
+La logique et le raisonnement déductif sont généralement mis en avant, et une connaissance avancée est rarement de mise, ce qui les rend accessibles à tout un chacun.
+Par exemple pour les sudokus, il n'y a pas besoin de savoir calculer, mais il faut être logique et méthodique.
+Les mathématiques récréatives recouvrent :
+Énigmes : problèmes de transvasements, de partage, de traversées (loup, chèvre et chou par exemple)
+Astuces de calcul :
+propriétés de certains nombres (nombres premiers, nombres cousins...) formules pour calculer Pi
+Pseudo-démonstrations et paradoxes : des raisonnements fallacieux, déroutants ou amusants,
+comme montrer que 1+1=3 ou que 0,99999...=1, paradoxe du barbier, paradoxe des nombres intéressants...
+Quelques auteurs célèbres en mathématiques récréatives :
+Le lien entre les fréquences des sons (la manière dont l’air vibre pour les produire) et l’harmonie (le type de son(s) que l’oreille trouve agréable à entendre) a été étudié mathématiquement, notamment pour créer les gammes : Pythagore a créé la gamme pythagoricienne et les musiciens du XVIe siècle la gamme tempérée.
+Les hommes relient souvent esthétique et symétrie.
+La géométrie étudie les symétries et ses variations (rotations…) et s’est intéressé aux motifs dans lesquels interviennent une répétition (frises, rosaces…).
+Les artistes du monde musulman médiéval ont poussé très loin l’art du carrelage, explorant toutes les manières de reproduire un motif, comme par exemple au palais de l’Alhambra de Grenade.
+Plus récemment le graveur, Maurits Cornelis Escher s’est fait connaître par des dessins reprenant le thème du pavage, et y associant des problématiques de mathématiques contemporaines (singularité, perspective) pour créer des ambiances fantastiques et paradoxales.
+Les mathématiques sont un thème peu exploité dans la littérature ou le cinéma.
+La majeure partie de la production concerne les biographies de mathématiciens.
+Quelques auteurs ont cependant mêlés les mathématiques à l’écriture.
+On peut noter :
+Lewis Carroll : professeur de mathématique
+, il a utilisé les règles de la logique pour créer un univers étrange et fantastique
+Jorge
+Luis Borges :
+il a utilisé la logique et les paradoxes pour écrire des nouvelles
+l’OULIPO (François Le Lionnais, Raymond Queneau, Georges Perec) :
+les membres de l’OUvroir de LIttérature Potentielle utilisent des règles et des contraintes inspirées des mathématiques pour des jeux d’
+écriture
+On peut aussi citer Omar Khayyam, mathématicien musulman médiéval, qui a écrit des poèmes courts, les Rubayat.
+Couverture de Flatland d'Edwin Abbott
+Fictions (1944), nouvelles de Jorge Luis Borges
+Gödel, Escher, Bach (1979), essai de Douglas Hofstadter
+Oncle Petros et la conjecture de Goldbach (1992), roman d'Apóstolos Doxiádis
+Le théorème du perroquet (1998), roman de Denis Guedj
+Logicomix (2008), BD, scénario de Apóstolos K. Doxiàdis et Christos H. Papadimitriou, dessin d’Alecos
+Papadatos
+Je suis né un jour bleu (2006), autobiographie de Daniel Tammet
+Numb3rs (2005-2010), série de Nicolas Falacci et Cheryl Heuton
+Eureka (2006-2012),
+série créée par Andrew Cosby et Jaime Paglia
+Las Vegas 21 (2008), film de Robert Luketic, avec Jim Sturgess et Kevin Spacey
+Agora (2009), film d’[[Alejandro Amenábar, avec Rachel Weisz
+Les femmes de l’ombre (2016), film de Theodore Melfi
+↑Certaines conjectures mettent beaucoup de temps à être démontré, comme le Grand théorème de Fermat qui a été énoncé par Pierre de Fermat en au XVIIe siècle mais sera démontré 300 ans plus tard en 1994 par Andrew Wiles
+↑On donne parfois des noms de mathématicien célèbre à des théorèmes, comme pour le théorème de Pythagore, mais cela ne signifie pas nécessairement que c'est eux qui l'ont énoncé ou démontré.
+↑La contraposée d'une implication "A > B" est l'implication inverse de sa négation "non B > non A"
+↑Ce
+type de raisonnement est utile quand l'implication inverse n'est pas forcément vraie (on dit qu'il n'y a pas équivalence).
+Par exemple, un nombre pair n'est forcément divisible par 4 comme c'est le cas pour 6.
+↑Dans la géométrie hyperbolique le cinquième axiome devient « Par un point extérieur à une droite passe plus d'une droite parallèle à cette droite »
+↑L'infini n'est pas dans cette catégorie, car le calculer nécessiterait un temps infiniment long, les mathématiciens intuitionnistes le rejettent donc comme objets à étudier
+↑La démonstration du Théorème des quatre couleurs a été faite en 1976 grâce à un ordinateur car les calculs sont trop complexes pour être faits à la main, ce qui a suscité des contestations.

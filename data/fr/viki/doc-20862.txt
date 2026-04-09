@@ -1,0 +1,59 @@
+Hello world
+Hello World (en français Bonjour le monde) est un programme simple qui est traditionnellement écrit pour donner un exemple rapide d'un langage de programmation (lors de l'apprentissage de celui-ci ou d'un simple test).
+La longueur de ce programme varie en fonction du langage de programmation utilisé : il peut d'ailleurs être utilisé pour savoir si le langage est de bas niveau (proche du langage machine, Hello World long) ou de haut niveau (plus abstrait, Hello World court).
+Voici des Hello World!
+pour divers langages de programmation.
+Ces programmes sont minimaux mais complets : il n'est pas nécessaire de leur rajouter du code pour les faire fonctionner, mais on ne peut en général pas leur en enlever.
+à l'intérieur d'une page html entre les balise
+INTERCAL(wp)
+est un langage de programmation fait exprès pour être le plus compliqué et absurde possible.
+Le code suivant est strictement équivalent au Hello World en C montré plus haut !
+publicclassHelloWorld/ / "Hello World!" sur l'écran ({{"|out}}).
+section.textglobal_start;
+on définit une fonction _start (voir ci-dessous)_start:;
+{{"|voici ce que fait la fonction _start}}movedx,len;
+sélection de la longueur du messagemovecx,msg;
+sélection de l'adresse du messagemovebx,1;
+sélection de l'endroit d'affichage ({{"|sortie
+standard}})moveax,4;
+sélection de l'appel
+système {{"|write}}int0x80;
+exécution de cet appel (interruption kernel)moveax,1;
+sélection de l'appel
+système {{"|exit}}int0x80;
+exécution de cet appel (interruption kernel)section.data;
+l'endroit où sont rangées les données du programmemsgdb'Hello,world!',0xa;
+adresse du messagelenequ$-msg;
+longueur du message
+Un programme est constitué de sections qui séparent ses différentes parties.
+Ici, on voit deux sections : .text et .data.
+La section text contient les instructions, tandis que la section data correspond à certaines variables du programme (ici, on peut voir msg et len).
+Avant tout, il faut savoir que le processeur de l'ordinateur possède des registres, qui sont de petites cases de mémoire où lui et nous plaçons les valeurs qu'il a produites ou avec lesquelles il doit travailler.
+Juste après le début de la section text (tout au début du code), on définit une fonction nommée _start avec l'instruction « global ».
+C'est par là que commence le programme.
+Ensuite, à la troisième ligne, on dit quelles instructions contient _start :
+mov edx, len : on met (« move », en anglais « déplacer ») la valeur de len (qui est la longueur du message à afficher, «
+Hello, World!
+», donc 13) dans le registre edx.
+mov ecx, msg : on met msg (l'adresse du message «
+Hello, World!
+dans le registre ecx.
+mov ebx, 1 : on met dans le registre ebx l'endroit où l'on veut afficher le message : 1 correspond à la « sortie standard » (en général l'écran).
+mov eax
+, 4 : on met dans le registre eax le numéro 4, qui correspond à l'appel systèmewrite : c'est lui qui va s'occuper d'écrire (en anglais «
+write »
+les caractères de notre message sur la sortie standard.
+Il faut bien comprendre que, quand on fait de l'assembleur, on s'adresse aux fonctions les plus basiques du système (le noyau, ou kernel).
+Ici, on va directement appeler le processeur !
+C'est le travail de l'instruction int
+0x80 :
+elle interrompt le processeur en lui disant :
+Hé, processeur, regarde un peu par là !
+J'ai mis dans tes registres (eax, ebx, etc.) ce que tu as à faire !
+Le processeur interrompt alors notre programme et demande au noyau du système d'exploitation d'exécuter l'appel système qui se trouve dans son premier registre (eax) en lui donnant en paramètre ce que contiennent les registres suivants (ebx, ecx, etc.).
+Le noyau fait ce qu'il faut, puis le processeur reprend l'exécution de notre programme.
+Ensuite, c'est pareil, sauf qu'on ne veut plus écrire mais terminer.
+On va donc utiliser un autre appel système, le numéro 1, qui signifie que notre programme est terminé : encore une fois, on met ce 1 dans le premier registre du processeur eax puis on lui relance une interruption : de la même manière, le noyau va prendre le relais et, cette fois-ci, terminer l'exécution du programme.
+Les parenthèses sont indispensables : elles créent une liste contenant deux éléments : print et "Hello World!", ce qui signifie en Lisp qu'on applique la fonction print au reste de cette liste (donc à "Hello World!").
+Dans les versions inférieures à 5.10, on doit écrire le retour à la ligne :
+Mais c'est inutile (quoique faisable) dans la version 5.10 et après, ou dans Perl 6 :

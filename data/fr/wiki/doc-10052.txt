@@ -1,0 +1,108 @@
+Code-barres
+Le code QR (en anglais ) est un type de code-barres en deux dimensions (ou code matriciel) constitué de modules noirs disposés dans un carré à fond blanc.
+L'agencement de ces points définit l'information que contient le code.
+Description et utilisations
+QR (abréviation de l'anglais ) signifie que le contenu du code peut être décodé rapidement après avoir été lu par un lecteur de code-barres, un téléphone mobile, un smartphone, ou encore une webcam.
+Son avantage est de pouvoir stocker plus d'informations qu'un code à barres, et surtout des données directement reconnues par des applications, permettant ainsi de déclencher facilement des actions comme :
+* naviguer vers un site internet
+, visiter un site web ou mettre l'adresse d'un site en marque-page pour, par exemple, montrer un point géographique sur une carte, telle que OpenStreetMap, ou ;
+* regarder une vidéo en ligne ou un contenu multimédia ;
+* déclencher un appel
+vers un numéro de téléphone ou envoyer un SMS
+* faire un paiement direct via son téléphone portable (Europe et Asie principalement) ;
+* ajouter une carte de visite virtuelle (vCard, MeCard) dans les contacts, un rendez-vous ou un événement (iCalendar) dans l'agenda électronique ;
+* afficher un texte ou rédiger un texte libre (sa version la plus grande permet d'inclure un texte d'environ
+Publié au Japon en 1999 sous un format de données libre, le code QR fait l'objet d'une normalisation ISO 18004.
+En France, les opérateurs de téléphonie mobile ont créé le format flashcode, mais sont les seuls à l'utiliser.
+Histoire
+Origine
+Le code QR a été créé par Masahiro Hara, ingénieur de l'entreprise japonaise Denso-Wave, en 1994 pour suivre le chemin des pièces détachées dans les usines de Toyota.
+Il est rendu public en 1999 : Denso-Wave publie le code QR sous licence libre ;
+cela a contribué à la diffusion du code au Japon.
+Par la suite, il prend un réel essor avec l'avènement des smartphones.
+À la fin des années 2000, il devient l'un des codes bidimensionnels les plus populaires dans le monde, et les applications de lecture de codes QR sont souvent déjà installées par les fabricants dans les téléphones mobiles.
+Au Japon, cette pratique était déjà répandue en 2003.
+Il existe aussi de nombreux autres fournisseurs de générateurs et de lecteurs.
+Normes et licences
+En 1999, tout en conservant les droits du brevet, Denso-Wave accorde l'utilisation du code QR avec une licence libre, défini et publié en tant que norme ISO.
+En octobre 1997
+publication du standard AIM (), renouvelé en 1999.
+En juin 2000 publication de la norme ISO/CEI 18004.
+* En novembre 2004, approbation du Micro QR code par la norme .
+Du côté applicatif, il y a des variations entre les mises en œuvre.
+NTT DoCoMo instaure la norme pour le codage des URL, des informations de contact et d'autres types de données.
+Le projet Zxing publie un guide des normes de codage de l'information dans les codes-barres.
+Fonctionnement
+Les codes QR peuvent contenir des adresses web, du texte, des numéros de téléphone, des mots de passe Wi-Fi, des SMS ou autres types de données comme le format vCard (permet l'ajout rapide d'un contact), lisibles par les smartphones et les téléphones mobiles équipés d'une application de lecture (lecteur de code QR ou en anglais).
+L'avantage du code QR est sa facilité et sa rapidité d'utilisation et de création.
+Pour lire un code QR, il suffit de lancer l'application de lecture et viser le code dans le mobile.
+De nombreuses pages Web offrent ces applications pour mobiles, généralement sans frais.
+En ce qui concerne l'écriture, plusieurs sites web permettent de générer librement les codes QR.
+Spécification
+Les codes QR peuvent stocker jusqu'à numériques, alphanumériques.
+Capacité maximum de stockage de données (, 177×177) :
+Versions
+Il existe différentes versions du code QR allant de :
+Fichier
+Qr-1.png|, 21×21, 10- caractères.
+Fichier
+Qr-2.png|, 25×25, 20- caractères.
+Fichier
+Sans-titrege.png|Version 3, 29×29, 35-77 caractères.
+Fichier:
+Qr-4.png|, 33×33, 67- caractères.
+Fichier
+Qr-code-ver-10.png|, 57×57, caractères
+Fichier
+Qr-
+code
+ver-40.png|, 177×177, caractères.
+Correction d'erreur
+Les codes QR utilisent le système Reed-Solomon pour la correction d'erreur : le code contient jusqu'à 30 % de redondance.
+code iQR : variante en forme rectangulaire.
+Micro QR Example.svg|Exemple de QR Micro.
+Iqr code.png|thumb|Code
+iQR
+Correction d'erreur
+Grâce au système de correction d'erreur Reed-Solomon, les codes QR peuvent incorporer des images, telles que logos ou dessins, sans perdre les informations utiles à la lecture du code.
+Il suffit de transformer le code avec un logiciel de retouche d'image tant que le code continue de fonctionner.
+Utilisations
+Dans la vie courante et culturelle
+Les musées et les offices de tourisme, et de façon générale les lieux culturels, utilisent de plus en plus les codes QR pour que les possesseurs de smartphones puissent lire des informations complètes, via un lien vers une page du site web concerné, voire un lien QR vers un fichier son pour écouter le commentaire.
+C'est une sorte de guide, d'aide à l'accessibilité aussi : sans avoir besoin d'écrire le texte du lien Web sur le téléphone portable, on a accès à l'information.
+De même des réseaux de transport public mettent en place des codes QR qui permettent d'accéder à un site de recherche d'itinéraires ou à des informations sur les travaux en cours.
+En Corée du Sud, une chaîne de magasins utilise des sculptures dont les ombres projetées forment un code QR à l'heure du déjeuner, offrant la possibilité de se rendre sur un portail, avec son smartphone, pour obtenir des réductions et des coupons.
+Des codes QR peuvent être utilisés pour réaliser des paiements.
+Dans l'Union Européenne, le code QR de l'EPC permet de faire des virements dans sa banque sans fil.
+Le secteur de la formation peut exploiter les codes QR aussi bien pour des aspects pratiques ou administratifs (liste de stagiaires…) que pédagogiques (quiz codé par exemple).
+Enfin
+, quelques startups pionnières (KeepZeLink, Winicode,etc...) ont tiré parti de la banalisation du QRCode et de son universalité pour construire des services innovants (notifications urgentes sans accès aux coordonnées, suivi de maintenance, lutte contre la contrefaçon, etc..).
+Dans le multimédia
+La firme Nintendo a inclus l'utilisation de codes QR dans la Nintendo 3DS pour faciliter l'échange de Mii.
+* La chaîne
+Nolife utilise des codes QR sur son système Nolife Online, où le code apparaît à chaque fin de vidéo et permet de récupérer sur son portable le lien de la vidéo
+* En 2011, le magazine Qweekr à Nantes n'utilise dans son contenu éditorial que des codes QR.
+* En 2012, le cablo-opérateur français Numericable a intégré les codes QR pour configurer le réseau Wi-Fi sur La Box.
+* En 2013, le QR code tombal fait son apparition en Europe.
+Différentes sociétés proposent de conserver un souvenir enregistré d'une personne décédée, accessible via un code QR céramique fixé sur une pierre tombale.
+* En 2016, l'application mobile snapchat, utilise un système de codes QR re-designés.
+Chaque utilisateur se voit attribuer un QR code relié à son compte personnel, ceux-ci peuvent ainsi s'ajouter automatiquement sur l'application moyennant un scan.
+L'application permet aussi de scanner les QR codes conventionnels et propose donc un service de scanner-QR classique.
+*En 2016, la firme de Pokémon a ajouté les codes QR pour compléter le Pokédex.
+Appropriation par des artistes
+* Depuis 2006, l'artiste italien
+Fabrice de Nola utilise les codes QR dans des peintures à l'huile ou des photographies.
+En 2007, le groupe pop britannique a utilisé un code QR pour télécharger le .
+Dans la vidéo, d'autres codes dirigent vers le site du groupe et des pages web au sujet de l'utilisation de la carte d'identité en Grande-Bretagne.
+En 2009, l'artiste japonais Takashi Murakami a créé un code QR avec l'image du motif LV et l'un des personnages de l'artiste.
+Le code dirige vers le site web Nauru Elégies, au sujet de l'île de Nauru au Pacifique.
+* Dans la vidéo du de Kylie Minogue, (2010)
+, apparaît un code QR imprimé sur des objets.
+Le code n'est pas assez visible pour être lu directement à partir de la vidéo, mais un blogueur l'a reconstruit, révélant qu'il contient le mot anglais (amour).
+, le groupe français a mis en place un code QR sur le verso de son album .
+Le code QR permettait le visionnage d'un clip du titre phare de l'album .
+Le collectif Raspouteam au travers de son projet « Paris, Désordres publics », disposant des codes QR dans certaines rues de la ville de Paris et relatant les événements marquants propres à ces rues.
+* En 2012, Jean-Thierry Lechein publie le premier livre Qr1book entièrement écrit en codes QR.
+* En 2012
+, Maryvonne Rippert publie "Alabama Blues" le premier roman jeunesse interactif où les codes QR permettent d'écouter la bande originale du livre composée et interprétée par Les Chics Types.
+En 2016, Jean-Robert Sédano publie "L'art interactif en jeu", un livre interactif avec QR codes et anaglyphes, qui agrémentent le texte de contenus multimédia.

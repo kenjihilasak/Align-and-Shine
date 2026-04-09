@@ -1,0 +1,169 @@
+Composant
+électronique|Acoustique|Cétologie
+Un hydrophone est un microphone destiné à être utilisé sous l'eau.
+C'est un transducteur électroacoustique, c'est-à-dire qu'il transforme, dans les liquides, des ondes acoustiques en signaux électriques.
+Généralement il est composé d'un récepteur piézoélectrique qui convertit une variation de pression en variation de tension électrique aux bornes du piézomètre mais il existe également d'autres types d'hydrophones moins couramment utilisés.
+Il permet ainsi l'enregistrement de la pression acoustique.
+Il peut être couplé avec d'autres capteurs acoustiques (géophone
+- mesure de la vitesse acoustique)
+pour accroître la quantité d'information sur l'onde acoustique.
+Certains hydrophones peuvent également servir de source sonore, mais tous n'ont pas cette capacité, et peuvent être endommagés par un tel usage.
+Dans ce cas on ne parle plus d'hydrophone (transducteur utilisé en réception) mais de projecteur (transducteur utilisé en émission).
+Ce type de transducteur est notamment utilisé dans les sonars.
+Conception et caractéristiques d'un hydrophone
+Les différents blocs de l'hydrophone
+Les hydrophones piézoélectrique sont les plus courant, Un hydrophone est constitué d’une enveloppe semi-rigide, d’un capteur complété d’électrodes permettant de recueillir les informations acoustiques sous formes de signaux électriques.
+La plupart des hydrophones utilise de la céramique piézoélectrique comme capteur (le plus souvent du Titano-Zirconate de Plomb (PZT)).
+La piézoélectricité est la propriété qu’ont certains matériaux à produire une tension électrique
+lorsqu’ils subissent une contrainte mécanique.
+Le principe de fonctionnement est le suivant : une onde acoustique vient rencontrer la paroi de l’hydrophone impliquant une variation de pression sur les plaques de céramique créant ainsi un signal électrique.
+Ce signal électrique est ensuite récupéré et analysé afin de pouvoir en extraire autant d'information que possible.
+Un amplificateur électronique peut venir compléter le dispositif.
+Il permet d’amplifier le signal reçu et ainsi d’augmenter la précision des mesures.
+De plus, un convertisseur analogique-numérique est nécessaire pour convertir le signal capté par l’hydrophone (analogique) en un signal pouvant être traité et enregistré par un ordinateur (numérique).
+Caractéristiques d'usage
+Différentes caractéristique permettent de classer les hydrophones :
+La sensibilité en résonance lors de la transmission du signal
+La qualité de la transcription du son dépend des caractéristiques et de la qualité de l’hydrophone mais aussi, et principalement, de l'emplacement de l’hydrophone par rapport à la source, ainsi que des conditions de prise d’information.
+Hydrophones directifs
+Unique transducteur (petit et cylindrique) permet une réception quasi-omnidirectionnelle (avec une sensibilité parfaite dans toutes les directions), mais un hydrophone directif (c'est-à-dire privilégiant une direction d'écoute par rapport aux autres) peut aider à mieux repérer l'origine d'un son sous l'eau.
+Pour obtenir des hydrophones directifs, deux principes de base sont utilisés :
+* favoriser une direction d'écoute pour un transducteur omnidirectionnel en le couplant à un réflecteur conique focalisant le signal acoustique.
+Ce principe permet de rendre directif un hydrophone omnidirectionnel à bas-coût.
+Il doit cependant être utilisé en configuration statique.
+* créer une antenne en combinant plusieurs hydrophones.
+Différents types d'antennes existent : linéaires (horizontale, verticale), surfaciques, etc.
+On privilégie ensuite une direction d'arrivée grâce à des traitements du signal mesuré sur l'antenne.
+L'utilisation d'antenne permet également d'amplifier le signal d'intérêt par rapport au bruit ambiant océanique.
+Début 2017 des coréens ont adapté un système de transmission de son sous-marin (USTS) à un petit ROV, lui permettant de mesurer le son sous-marin (via deux hydrophones) et de le rejouer en surface pour les opérateurs du ROV.
+Le système détermine aussi la position de l'origine de ce son (source) grâce à des amplificateurs, des filtres, un ADC et un contrôleur embarqués.
+Un filtre passe-bande numérique (implémenté via un FPGA) réduit fortement l'aliasing (parasitage par le bruit du ROV lui-même).
+En surface un algorithme de formation de faisceau (beamforming algorithm) génère du son directionnel via des haut-parleurs stéréophhoniques.
+L'algorithme pourra être amélioré pour affiner la précision de la directionnalité donnée.
+Sensibilité
+La sensibilité d'un hydrophone correspond à le logarithme en du rapport de la tension de sortie efficace à une référence de 1 V efficace, lorsque le capteur de l'hydrophone sans préamplificateur est placé dans un champ acoustique à ondes planes ayant une pression efficace de .
+Par exemple, un hydrophone d'une sensibilité de (référence ) donnera une tension de sortie de 10-8 V dans ce champ, tandis qu'un hydrophone d'une sensibilité de ne produira qu'une tension de sortie de 10-9 V. Ainsi, une sensibilité de est meilleure qu'une sensibilité de .
+Différents principes d'hydrophones
+Hydrophones piézoélectriques
+Ce type d’hydrophone est le plus courant.
+L’action mécanique exercée par une onde sonore sur un matériau piézoélectrique provoque l'apparition de charges électriques à la surface du matériau, d’où une variation de la répartition des charges dans le matériau qui entraîne une variation de tension.
+On peut également l’utiliser en émission car l’effet piézoélectrique est réversible : en réception, on s'appuie sur l’effet piézoélectrique direct et en émission sur l’effet piézoélectrique inverse (apport de charge électrique dans le matériau qui entraîne des contraintes mécaniques, donc un changement de géométrie et donc l’apparition d’une onde sonore du fait des déformations imposées au fluide qui suit ces variations de géométrie).
+L’hydrophone piézoélectrique est rarement constitué d’un barreau piézoélectrique seul.
+Il est en général constitué d’un empilement de plaquettes de céramique, d’une adaptation d’impédance de la céramique au milieu de propagation (pavillon, face parlante, face rayonnante ou masse avant) et d’une désadaptation entre la céramique et le support arrière (contre masse ou massa arrière).
+Hydrophones à magnétostriction
+Dans un matériau ferromagnétique, l’addition des spins des différents électrons créée des moments magnétiques (et donc des forces d’interaction)
+Au repos, la direction de ces moments est aléatoire.
+Lorsque le matériau est soumis à un champ magnétique, ces moments ont tendance à s’aligner sur la direction de ce champ et donneront naissance à un moment magnétique important dans le matériau.
+Les forces d’interaction associées s’exercent alors dans une unique direction et provoquent une déformation du matériau.
+Variation de géométrie et variation de champ magnétique sont liées par la relation :
+\frac
+kB^2
+avec δL l’allongement du barreau (m) B champ magnétique (T)
+k constante du matériau (m4/Wb²)
+L’hydrophone à magnétostriction est constitué d’une interface acoustique et d’un circuit électrique bobiné autour d’un barreau magnétostrictif.
+Lorsqu’elle rencontre l’interface, l’onde sonore exerce une action mécanique sur cette interface et le barreau magnétostrictif, qui provoque une variation de sa géométrie.
+Le barreau étant polarisé, cette déformation entraîne une variation du flux magnétique qui induit une variation de tension dans le circuit électrique (la loi de Lenz).
+Il peut être également utilisé en émission puisque ce principe est réversible (une variation de tension induit une variation de géométrie et donc créée une onde acoustique).
+Contrairement à une utilisation en réception, il n’est pas nécessaire que le barreau soit polarisé en émission.
+Cependant cela reste globalement toujours le cas grâce au magnétisme rémanent.
+Si l’on veut éviter une polarisation extérieure, il suffit d’envoyer une courte impulsion de courant dans l’enroulement qui produira cette induction magnétique rémanente.
+C'était le transducteur électroacoustique le plus répandu dans les sonars actifs mais il est maintenant largement remplacé par le transducteur piézoélectrique.
+Hydrophones à électrostriction
+Cet hydrophone est constitué d’une interface et d’un matériau diélectrique.
+Il est basé sur le même principe que l’hydrophone à magnétostriction.
+Seulement la déformation exercée par l’onde sonore sur l’interface et le matériau diélectrique entraîne une variation du champ électrique et par conséquent une variation de tension.
+Variation de géométrie et variation de tension sont liées par la relation :
+\frac
+k (\epsilon\,E)^2
+avec δL l’allongement du barreau (m) E champ électrique ε (F/m)
+Cet hydrophone est moins répandu car la taille du matériau diélectrique nécessite d'être particulièrement grande pour que l'hydrophone soit suffisamment efficace.
+Cependant, de nouveaux matériaux développés récemment ont permis de réduire la dimension de l'hydrophone pour le rendre plus intéressant.
+Hydrophones électromagnétiques
+Cet hydrophone est constitué d’une membrane et d’un aimant autour duquel s’enroule un circuit électrique.
+Du fait de l’action mécanique exercée par l’onde sonore sur la membrane, celle-ci entre en vibration.
+Cette vibration entraîne une force électromotrice et donc un champ magnétique variable.
+Ce champ magnétique variable induit un courant i variable dans le circuit électrique.
+Ce principe est réversible.
+On utilise d'ailleurs plus souvent ce transducteur en tant que projecteur qu'en tant qu'hydrophone.
+C'est le principe du haut-parleur.
+Hydrophones optiques
+Le temps de trajet d’une onde dans une fibre optique de longueur L et d’indice n est donné par la relation :
+\tau
+\frac= \frac
+n est fonction des contraintes mécaniques appliquées et de la pression extérieur s’exerçant sur la fibre :
+\tau (p_0+\delta\,p)
+\frac
+n (p_0)+n' (
+p_0)\delta\,p)=\tau_0+k\delta\,p
+avec k
+\fracn' (p_0) et \tau_0
+\fracn (p_0)
+kδp est un retard mesurable.
+L’onde sonore entraîne des variations de pression sur une des deux fibres optiques, donc une variation de l'indice de cette fibre.
+L'onde lumineuse en sortie de la deuxième fibre optique aura un temps de propagation différent de celui de l'onde lumineuse en sortie de la première fibre optique.
+C'est ce retard qui est mesuré et qui permet de transformer une onde sonore en signal électrique.
+Ce type d'hydrophone est encore en développement mais semble très prometteur pour une utilisation future car ils sont flexibles et particulièrement sensibles.
+Bilan
+Actuellement, ce sont plus couramment des hydrophones piézoélectriques que l'on trouve dans le commerce.
+Si l'hydrophone à électrostriction a été peu développé du fait de contraintes de dimensionnement, l'hydrophone à magnétostriction a été très largement utilisé dans les sonars avant d'être progressivement remplacé par l'hydrophone piézoélectrique.
+Enfin l'hydrophone optique relève encore d'une technologie d'avenir.
+Mise en application d'un hydrophone
+L’hydrophone représente le capteur que l’on place sur une antenne, le tout constituant un sonar, pour pouvoir recevoir une énergie acoustique.
+Généralement une antenne est constituée de plusieurs capteurs.
+Sonars actifs / sonars passifs
+Il existe deux grands types de sonars : les sonars actifs et les sonars passifs.
+Cette distinction est simplement déterminée par le fait qu’un sonar actif étudie l’énergie acoustique
+qu’il a envoyé dans le milieu (eau) et qui se réfléchit sur des obstacles (fonds marins, sous-marins), tandis que le sonar passif n’étudie que l’énergie acoustique émise par des sources extérieures.
+Un sonar actif est donc composé d’hydrophones mais aussi de projecteurs (sources d’énergie acoustique), qui fonctionnent de la même façon que les hydrophones mais à l’envers : cela transforme une énergie électrique en une énergie acoustique.
+Il existe de nombreux sonars actifs dans différents domaines (militaires ou civils).
+Par exemple dans les marines de guerre :
+* Bouée active larguée par des aéronefs (par exemple l’avion de patrouille maritime Atlantique 2)
+Pour des applications civiles :
+De même, pour les sonars passifs :
+* Sonar de veille passive de sous-marin (présents sur sa coque)
+* Sonar
+passif remorqué (la flûte du sous-marin)
+Il existe aussi d’autres systèmes mettant en œuvre l’énergie acoustique en milieu sous-marin qui ne rentrent pas dans la classification précédente.
+Par exemple :
+Sonars monostatiques/ sonars bistatiques
+Après la classification statique, on peut aussi distinguer les sonars selon s’ils sont monostatiques ou bistatiques.
+Dans le cas monostatique, l’émetteur et le récepteur du sonar ont en commun l’électronique et l’antenne, on parle ici de transducteurs, qui peuvent à la fois transformer une énergie acoustique en énergie électrique et faire l’inverse.
+Et dans le cas bistatique, l’émetteur et le récepteur sont distincts.
+Par exemple dans le cas du sonar de coque, l’énergie acoustique est émise et reçue par le même système, contrairement aux télécommunications sous-marines, où l’énergie acoustique émise en un point est reçue par un capteur à un autre point.
+Différents types d'antennes
+Le sonar latéral est un émetteur-récepteur d'ondes acoustiques, qui présente l'avantage de visualiser les fonds sur une largeur importante.
+Le sonar à balayage latéral se compose :
+d'un « poisson » cylindrique, en métal profilé, pourvu d'ailerons de stabilisation, tracté par un navire
+de deux transducteurs latéraux situés sur les flancs du poisson, émettant et recevant les ondes acoustiques.
+d'un équipement de visualisation, d'enregistrement et de traitement du signal à bord du navire.
+Le signal acoustique réfléchi par les fonds marins est restitué à bord du navire sur écran.
+On obtient ainsi des informations sur la forme et la nature du fond.
+Les deux transducteurs latéraux émettent des faisceaux sonores extrêmement fins, d'un degré d'ouverture dans le plan horizontal, de 20 à 50° d'ouverture dans le plan vertical, et de courte durée.
+Les ondes sonores se propagent dans l’eau et sont réfléchies par le fond vers les transducteurs du poisson.
+L’écho ainsi recueilli au cours du temps est une représentation de la réflectivité du fond et de la présence d'irrégularité ou petits obstacles.
+On peut ainsi construire faisceau après faisceau une image des fonds marins.
+Ce système est utilisé par les hydrographes, par exemple pour rechercher des épaves, ou bien pour cartographier les fonds marins.
+C’est un outil très utile car il apporte une vision du fond comparable à de la photographie aérienne du sol.
+Mesures
+L'acoustique sous marine peut être utilisée dans beaucoup de différents domaines comme la navigation, la communication, la détection anti-intrusion, et même l'étude de la vie sous marine, ce qui requiert la possibilité d'utiliser différents types d'appareils acoustiques.
+Les majeures différences entre les transducteurs de mesures générales et les transducteurs spécifiques sont la sensibilité et les caractéristiques de réponse aux fréquences (frequency-response characteristics).
+En effet, un transducteur général aura une haute sensibilité sur une grosse plage de fréquences, alors que le transducteur spécifique aura une plus haute sensibilité sur une bande de fréquences plus étroite.
+Par exemple, certains hydrophones non spécifiques possèdent une bonne sensibilité sur un domaine de fréquences de plus de 4 décades.
+L'unité fondamentale de la pression est le newton
+par mètre carré, c'est-à-dire le pascal (Pa).
+Cependant, l'étude de phénomènes acoustiques sous-marins est simplifiée par l'expression de la pression acoustique en utilisant l'échelle logarithmique, appelée niveau de pression acoustique SPL (sound pressure level).
+Il y a deux raisons à cela :
+* Il y a une grande étendue de pressions acoustiques mesurées : de 10^ (-7)
+Pa en mer calme à 10^8
+Pa lors d'une explosion
+L'utilisation du logarithme permet de compresser l'étendue et d'avoir une vue d'ensemble sur une plage de valeurs bien plus réduite (dans cet exemple de 0 dB à 260 dB re 1 μPa, 1 μPa étant la pression de référence pour des applications sous-marines).
+* Beaucoup de mécanismes effectuant des mesures apportent une perte de son, qui varie à taux constant quand les mesures sont exprimées en échelle logarithmique.
+Le SPL est défini par vingt fois le logarithme du rapport de la pression acoustique et d'une pression acoustique de référence.
+Sauf spécification contraire, la pression acoustique de référence est 20 μPa pour les sons aériens et 1 μPa pour les sons dans les milieux autres que l'air.
+Les caractéristiques de l'hydrophone et de la mesure sont reliées par l'expression suivante :
+SPL
+|Mh|-G+20\log (V)
+où G est le gain du système de mesure (dB), V la tension mesurée (volt) (amount of voltage measured) et Mh la sensibilité en champ libre (free field sensitivity) (dB re 1V/ (μPa)).
+Cette dernière valeur s'obtient en calculant le rapport de la tension de sortie en fonction de la pression acoustique mesurée.
+Le terme « en champ libre » désigne une mesure réalisée dans un espace dénué de réflexions sonores.
+On observe que la mesure s'exprime en dB, ce qui indique que l'on a choisi au préalable une pression acoustique de référence.

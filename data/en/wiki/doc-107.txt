@@ -1,0 +1,137 @@
+The Super Nintendo Entertainment System (SNES),{{refn|The acronym SNES can be pronounced by English speakers as a single word (compare "NATO") with various pronunciations, a string of letters (compare "IBM"), or as a hybrid (compare "JPEG").
+In written English, the choice of indefinite article can be problematic due to these differences in pronunciation.
+with an official nationwide release date of September 9, 1991.
+The SNES was released in the United Kingdom and Ireland in April 1992 for £150 (), with a German release following a few weeks later.
+Most of the PAL region versions of the console use the Japanese Super Famicom design, except for labeling and the length of the joypad leads.
+The Playtronic Super NES in Brazil, although PAL-M, uses the North American design.
+Both the NES and SNES were released in Brazil in 1993 by Playtronic, a joint venture between the toy company Estrela and consumer electronics company Gradiente.
+The SNES and Super Famicom launched with few games, but these games were well received in the marketplace.
+In Japan, only two games were initially available: Super Mario World and F-Zero.
+In North America, Super Mario World launched as a bundle with the console; other launch games include F-Zero, Pilotwings (both of which demonstrate the console's Mode 7 pseudo-3D rendering capability), SimCity, and Gradius III.
+Console wars
+The rivalry between Nintendo and Sega resulted in what has been described as one of the most notable console wars in video game history, in which Sega positioned the Genesis as the "cool" console, with games aimed at older audiences, and aggressive advertisements that occasionally attacked the competition.
+Nintendo however, scored an early public relations advantage by securing the first console conversion of Capcom's arcade classic Street Fighter II for SNES, which took more than a year to make the transition to the Genesis.
+Though the Genesis had a two year lead to launch time, a much larger library of games, and a lower price point, it only represented an estimated 60% of the American 16-bit console market in June 1992, and neither console could maintain a definitive lead for several years.
+Donkey Kong Country is said to have helped establish the SNES's market prominence in the latter years of the 16-bit generation, and for a time, maintain against the PlayStation and Saturn.
+According to Nintendo, the company had sold more than 20 million SNES units in the U.S.
+According to a 2014 Wedbush Securities report based on NPD sales data, the SNES outsold the Genesis in the U.S. market.
+Changes in policy
+During the NES era, Nintendo maintained exclusive control over games released for the system-the company had to approve every game, each third-party developer could only release up to five games per year , those games could not be released on another console within two years, and Nintendo was the exclusive manufacturer and supplier of NES cartridges.
+However, competition from Sega's console brought an end to this practice; in 1991, Acclaim began releasing games for both platforms, with most of Nintendo's other licensees following suit over the next several years; Capcom (which licensed some games to Sega instead of producing them directly) and Square were the most notable holdouts.
+Nintendo continued to carefully review submitted games, scoring them on a 40-point scale and allocating marketing resources accordingly.
+Each region performed separate evaluations.
+Nintendo of America also maintained a policy that, among other things, limited the amount of violence in the games on its systems.
+The surprise arcade hit Mortal Kombat (1992) is a gory fighting game with huge splashes of blood and dismemberment, which challenged Nintendo of America for console release and was heavily censored.
+Because the Genesis version retains all of the gore, it outsold the censored SNES version by a ratio of nearly three to one.
+U.S. Senators Herb Kohl and Joe Lieberman convened a Congressional hearing on December 9, 1993, to investigate the marketing of violent video games to children.
+Though Nintendo took the high ground with moderate success, the hearings led to the creation of the Interactive Digital Software Association and the Entertainment Software Rating Board, and the inclusion of ratings on all video games.
+According to TRSTS reports, two of the top five best-selling games in the U.S. for December 1996 were Super NES games.
+In October 1997, Nintendo released a redesigned model of the SNES (the SNS-101 model referred to as "New-Style Super NES") in North America for US$99, with some units including the pack-in game Super Mario World 2: Yoshi's Island.
+Like the earlier redesign of the NES (model NES-101), the new model was slimmer and lighter than its predecessor, but it lacked S-Video and RGB output, and it was among the last major SNES-related releases in the region.
+A similarly redesigned Super Famicom Jr. was released in Japan at around the same time.
+Nintendo ceased the production of the SNES in North America in 1999, and new games were produced until the year 2000, ending with the release of Metal Slader Glory Director's Cut on November 29, 2000.
+Many popular SNES games were ported to the Game Boy Advance, which has similar video capabilities.
+In 2005, Nintendo announced that SNES games would be made available for download via the Wii's Virtual Console service.
+On October 31, 2007, Nintendo Co., Ltd. announced that it would no longer repair Family Computer or Super Famicom systems due to an increasing shortage of the necessary parts.
+On March 3, 2016, Nintendo Co., Ltd. announced that it would bring SNES games to the New Nintendo 3DS and New Nintendo 3DS XL (and later the New Nintendo 2DS XL) via its eShop download service.
+At the Nintendo Direct event on September 4, 2019, Nintendo announced that it would be bringing select SNES games to the Nintendo Switch Online platform
+Technical specifications
+The 16-bit design of the SNES incorporates graphics and sound co-processors that perform tiling and simulated 3D effects, a palette of 32,768 colors, and 8-channel ADPCM audio.
+These base platform features, plus the ability to dramatically extend them all through substantial chip upgrades inside of each cartridge, represent a leap over the 8-bit NES generation and some significant advantages over 16-bit competitors such as the Genesis.
+CPU and RAM
+The CPU is a Ricoh 5A22, which is a modification of the WDC 65C816.
+It is a derivative of the 16-bit 65C816.
+In NTSC regions, its nominal clock speed is 3.58 MHz but the CPU will slow down to either 2.68 MHz or 1.79 MHz when accessing some slower peripherals.
+This CPU has an 8-bit data bus and two address buses.
+The 24-bit "Bus A" is used for general accesses, while the 8-bit "Bus B" is used to access support chip registers such as the video and audio co-processors.
+The WDC 65C816 also supports an 8-channel DMA unit; an 8-bit parallel I/O port a controller port interface circuits allowing serial and parallel access to controller data; a 16-bit multiplication and division unit; and circuitry for generating non-maskable interrupts on V-blank and IRQ interrupts on calculated screen positions.
+The console contains 128KB of general-purpose RAM, which is separate from the RAM dedicated to the video and audio subsystems.
+Video
+The Picture Processing Unit (PPU) consists of two separate but closely tied IC packages.
+It contains 64KB of SRAM for storing video data, 544 bytes of object attribute memory (OAM) for storing sprite data, and 256 × 15 bits of color generator RAM (CGRAM) for storing palette data.
+This CGRAM allows the console to display up to 256 colors, chosen from the 15-bit RGB color space, for a total of 32,768 possible colors.
+The PPU is clocked by the same signal as the CPU, and generates a pixel every two or four cycles.
+and is completely independent from the rest of the system.
+It is clocked at a nominal 24.576 MHz in both NTSC and PAL systems.
+It is capable of producing stereo sound, composed from 8 voices generated using 16 bit audio samples and various effects such as reverberation.
+Regional lockout
+Nintendo employed several types of regional lockout, including both physical and hardware incompatibilities.
+File:SNES-SFAM-Cartridges.jpg|thumb|A cartridge shape comparison
+Top: North American design
+Bottom: Japanese and PAL region design.
+----The bottom cartridge also illustrates the optional pins used by enhancement chips such as the Super FX 3D chip.
+On a physical level, the cartridges are shaped differently for different regions.
+North American cartridges have a rectangular bottom with inset grooves matching protruding tabs in the console, while other regions' cartridges are narrower with a smooth curve on the front and no grooves.
+The physical incompatibility can be overcome with use of various adapters, or through modification of the console.
+Internally, a regional lockout chip (CIC) within the console and in each cartridge prevents PAL region games from being played on Japanese or North American consoles and vice versa.
+The Japanese and North American machines have the same region chip.
+This can be overcome through the use of adapters, typically by inserting the imported cartridge in one slot and a cartridge with the correct region chip in a second slot.
+Alternatively, disconnecting one pin of the console's lockout chip will prevent it from locking the console; hardware in later games can detect this situation, so it later became common to install a switch to reconnect the lockout chip as needed.
+PAL consoles face another incompatibility when playing out-of-region cartridges: the NTSC video standard specifies video at 60 Hz while PAL operates at 50 Hz, resulting in approximately 16.7% slower framerate.
+Additionally, PAL's higher resolution results in letterboxing of the output image.
+Casing
+All versions of the Super NES are predominantly gray, of slightly different shades.
+The original North American version, designed by Nintendo of America industrial designer Lance Barr), has a boxy design with purple sliding switches and a dark gray eject lever.
+The loading bay surface is curved, both to invite interaction and to prevent food or drinks from being placed on the console and spilling as had happened with the flat surfaced NES.
+The Japanese and European versions are more rounded, with darker gray accents and buttons.
+The North American New-style Super NES (model SNS-101) and the Japanese Super Famicom Jr. (model SHVC-101), all designed by Barr, are both smaller with a rounded contour; however, the SNS-101 buttons are purple where the Super Famicom Jr. buttons are gray.
+The European and American versions of the SNES controllers have much longer cables compared to the Japanese Super Famicom controllers.
+All versions incorporate a top-loading slot for game cartridges, although the shape of the slot differs between regions to match the different shapes of the cartridges.
+The MULTI OUT connector (later used on the Nintendo 64 and GameCube) can output composite video, S-Video and RGB signals, as well as RF with an external RF modulator.
+Original versions additionally include a 28-pin expansion port under a small cover on the bottom of the unit and a standard RF output with channel selection switch on the back; the redesigned models output composite video only, requiring an external modulator for RF.
+The ABS plastic used in the casing of some older SNES and Super Famicom consoles is particularly susceptible to oxidization with exposure to air, likely due to an incorrect mixture of the stabilizing or flame retarding additives.
+This, along with the particularly light color of the original plastic, causes affected consoles to quickly become yellow; if the sections of the casing came from different batches of plastic, a "two-tone" effect results.
+Some users have seen to fix this issue, thus increasing the systems value, using a method called Retrobrighting where the Super Nintendo is taken apart, and the yellow peices are separated from the electronic components.
+It is then put in a mixture of chemicals and exposed to UV light, where the yellowing is then consequentially reversed back its original color.
+Game cartridge
+The cartridge media of the console is officially referred to as Game Pak in most Western regions, and as in Japan and parts of Latin America.
+While the SNES can address 128 Mbit, only 117.75 Mbit are actually available for cartridge use.
+A fairly normal mapping could easily address up to 95 Mbit of ROM data (48 Mbit at FastROM speed) with 8 Mbit of battery-backed RAM.
+However, most available memory access controllers only support mappings of up to 32 Mbit.
+The largest games released (Tales of Phantasia and Star Ocean) contain 48 Mbit of ROM data, while the smallest games contain only 2 Mbit.
+Cartridges may also contain battery-backed SRAM to save the game state, extra working RAM, custom coprocessors, or any other hardware that will not exceed the maximum current rating of the console.
+Peripherals
+The standard SNES controller adds X and Y face buttons to the design of the NES iteration, arranging the four in a diamond shape, and adds two shoulder buttons.
+It features an ergonomic design by Lance Barr, later used for the NES-102 model controllers, also designed by Barr.
+Throughout the course of its life, a number of peripherals were released which added to the functionality of the SNES.
+Many of these devices were modeled after earlier add-ons for the NES: the Super Scope is a light gun functionally similar to the NES Zapper (though the Super Scope features wireless capabilities) and the Super Advantage is an arcade-style joystick with adjustable turbo settings akin to the NES Advantage.
+Nintendo also released the SNES Mouse in conjunction with Mario Paint.
+Hudson Soft, under license from Nintendo, released the Super Multitap, a multiplayer adapter for use with its popular series of Bomberman games.
+Some of the more unusual controllers include the BatterUP baseball bat, the Life Fitness Entertainment System (an exercise bike controller with built-in monitoring software), and the TeeV Golf golf club.
+Though Nintendo never released an adapter for playing NES games on the SNES, the Super Game Boy adapter cartridge allows games designed for Nintendo's portable Game Boy system to be played on the SNES.
+The Super Game Boy touts several feature enhancements over the Game Boy, including palette substitution, custom screen borders, and access to the SNES console's features by specially enhanced Game Boy games.
+Japan also saw the release of the Super Game Boy 2, which adds a communication port to enable a second Game Boy to connect for multiplayer games.
+Like the NES before it, the SNES has unlicensed third-party peripherals, including a new version of the Game Genie cheat cartridge designed for use with SNES games.
+Soon after the release of the SNES, companies began marketing backup devices such as the Super Wildcard, Super Pro Fighter Q, and Game Doctor.
+These devices create a backup of a cartridge.
+They can also be used to play illicit ROM images or to create copies of rented video games, violating copyright laws in many jurisdictions.
+Japan saw the release of the Satellaview, a modem which attaches to the Super Famicom's expansion port and connected to the St.GIGA satellite radio station from April 23, 1995 to June 30, 2000.
+Satellaview users could download gaming news and specially designed games, which were frequently either remakes of or sequels to older Famicom games, and released in installments.
+In the United States, the relatively short-lived XBAND allowed users to connect to a network via a dial-up modem to compete against other players around the country.
+During the SNES's life, Nintendo contracted with two different companies to develop a CD-ROM-based peripheral for the console to compete with Sega's CD-ROM based add-on, Sega CD.
+Although a SNES-CD prototype console was produced by Sony, Nintendo's deals with both Sony and Philips were canceled, with Philips gaining the right to release a series of games based on Nintendo franchises for its CD-i multimedia console and Sony going on to develop its own PlayStation console based on its initial dealings with Nintendo.
+Enhancement chips
+As part of the overall plan for the SNES, rather than include an expensive CPU that would still become obsolete in a few years, the hardware designers made it easy to interface special coprocessor chips to the console, just like the MMC chips used for most NES games.
+This is most often characterized by 16 additional pins on the cartridge card edge.
+The Super FX is a RISC CPU designed to perform functions that the main CPU can not feasibly do.
+The chip is primarily used to create 3D game worlds made with polygons, texture mapping and light source shading.
+The chip can also be used to enhance 2D games.
+Four revisions of the chip exist, each physically identical but with different microcode.
+The DSP-1 version, including the later 1A and 1B bug fix revisions, is used most often; the DSP-2, DSP-3, and DSP-4 are used in only one game each.
+Similar to the 5A22 CPU in the console, the SA-1 chip contains a 65c816 processor core clocked at 10 MHz, a memory mapper, DMA, decompression and bitplane conversion circuitry, several programmable timers, and CIC region lockout functionality.
+Many cartridges contain other enhancement chips, most of which were created for use by a single company in a few games; During that time, two competing emulation projects-Snes96 and Snes97-merged to form Snes9x.
+In 1997, SNES enthusiasts began programming an emulator named ZSNES.
+In 2004, higan began development as bsnes, in an effort to emulate the system as closely as possible.
+Nintendo of America took the same stance against the distribution of SNES ROM image files and the use of emulators as it did with the NES, insisting that they represented flagrant software piracy.
+Proponents of SNES emulation cite discontinued production of the SNES constituting abandonware status, the right of the owner of the respective game to make a personal backup via devices such as the Retrode, space shifting for private use, the desire to develop homebrew games for the system, the frailty of SNES ROM cartridges and consoles, and the lack of certain foreign imports.
+Nintendo designed a hobbyist development system for the Super NES, but never released it.
+Emulation of the Super NES is also available on platforms such as Android, and iOS, the Nintendo DS line, the Gizmondo, the Dingoo and the GP2X by GamePark Holdings, as well as PDAs.
+Legacy
+Approximately 49.1 million Super NES consoles were sold worldwide, with 23.35 million of those units sold in the Americas and 17.17 million in Japan.
+In 2015, they also named it the best Nintendo console of all time, saying, "The list of games we love from this console completely annihilates any other roster from the Big N." Technology columnist Don Reisinger proclaimed "The SNES is the greatest console of all time" in January 2008, citing the quality of the games and the console's dramatic improvement over its predecessor; fellow technology columnist Will Greenwald replied with a more nuanced view, giving the SNES top marks with his heart, the NES with his head, and the PlayStation (for its controller) with his hands.
+GamingExcellence also gave the SNES first place in 2008, declaring it "simply the most timeless system ever created" with many games that stand the test of time and citing its innovation in controller design, graphics capabilities, and game storytelling.
+At the same time, GameDaily rated it 5th of the 10 greatest consoles for its graphics, audio, controllers, and games.
+In 2009, IGN named the Super Nintendo Entertainment System the fourth best video game console, complimenting its audio and number of AAA games.
+* List of Super Nintendo Entertainment System accessories
+Notes
+Bibliography

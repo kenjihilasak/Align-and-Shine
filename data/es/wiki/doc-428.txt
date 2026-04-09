@@ -1,0 +1,97 @@
+La velocidad es una magnitud física de carácter vectorial que relaciona el cambio de posición (o desplazamiento) con el tiempo.
+Se representa con: \mathbf \,o \vec \, (en la escritura manuscrita).
+En análisis dimensional sus dimensiones son L s).
+En virtud de su carácter vectorial, para definir la velocidad debe considerarse la dirección del desplazamiento y el módulo, el cual se denomina celeridad o rapidez.
+Historia
+Aristóteles estudió los fenómenos físicos sin llegar a conceptualizar una noción de velocidad.
+En efecto, sus explicaciones (que posteriormente se demostrarían incorrectas) solo describían los fenómenos inherentes al movimiento sin usar las matemáticas como herramienta.
+Fue Galileo Galilei quien, estudiando el movimiento de los cuerpos en un plano inclinado, formuló el concepto de velocidad.
+Para ello, fijó un patrón de unidad de tiempo, como por ejemplo 1 segundo, y midió la distancia recorrida por un cuerpo en cada unidad de tiempo.
+De esta manera, Galileo desarrolló el concepto de la velocidad como la distancia recorrida por unidad de tiempo.
+A pesar del gran avance que representó la introducción de esta nueva noción, sus alcances se limitaban a los alcances mismos de las matemáticas.
+Por ejemplo, era relativamente sencillo calcular la velocidad de un móvil que se desplazase a velocidad constante, puesto que en cada unidad de tiempo recorre distancias iguales.
+También lo era calcular la velocidad de un móvil con aceleración constante, como es el caso un cuerpo en caída libre.
+Sin embargo, cuando la velocidad del objeto variaba de forma más complicada, Galileo no disponía de herramientas matemáticas que le permitiesen determinar la velocidad instantánea de un cuerpo.
+Fue recién en el siglo XVI, con el desarrollo del cálculo por parte de Isaac Newton y Gottfried Leibniz, cuando se pudo solucionar la cuestión de obtener la velocidad instantánea de un cuerpo.
+Esta está determinada por la derivada del vector de posición del objeto respecto del tiempo.
+Las aplicaciones de la velocidad, con el uso de Cálculo, es una herramienta fundamental en Física e Ingeniería, extendiéndose en prácticamente todo fenómeno que implique cambios de posición respecto del tiempo, esto es, que implique movimiento.
+Un término relacionado con la velocidad es el de celeridad.
+En el lenguaje cotidiano empleamos frecuentemente el término velocidad para referirnos a la celeridad .
+En física hacemos una distinción entre ellas, ya que la celeridad es una magnitud escalar que representa el módulo de la velocidad.
+De manera muy sencilla, si decimos que una partícula se mueve con una velocidad de 10&thinsp;m/s, nos estamos refiriendo a su celeridad; por el contrario, si además especificamos la dirección en que se mueve, nos estamos refiriendo a su velocidad.
+Velocidad en mecánica clásica
+Velocidad media
+La velocidad media se define como el cambio de posición durante un intervalo de tiempo considerado.
+Se calcula dividiendo el vector desplazamiento (Δr) entre el escalar tiempo (Δt) empleado en efectuarlo:
+De acuerdo con esta definición, la velocidad media es una magnitud vectorial (ya que es el resultado de dividir un vector entre un escalar).
+Por otra parte, si se considera la distancia recorrida sobre la trayectoria durante un intervalo de tiempo dado, tenemos la velocidad media sobre la trayectoria o celeridad media, la cual es una magnitud escalar.
+La expresión anterior se escribe en la forma:
+El módulo del vector velocidad media, en general, es diferente al valor de la velocidad media sobre la trayectoria.
+Solo serán iguales si la trayectoria es rectilínea y si el móvil solo avanza (en uno u otro sentido) sin retroceder.
+Por ejemplo, si un objeto recorre una distancia de 10&thinsp;m sobre la trayectoria en un lapso de 3&thinsp;s, el módulo de su velocidad media sobre la trayectoria es:
+Velocidad instantánea
+La velocidad instantánea es un vector tangente a la trayectoria, corresponde a la derivada del vector posición respecto al tiempo.
+Permite conocer la velocidad de un móvil que se desplaza sobre una trayectoria cuando el intervalo de tiempo es infinitamente pequeño, siendo entonces el espacio recorrido también muy pequeño, representando un punto de la trayectoria.
+La velocidad instantánea es siempre tangente a la trayectoria.
+En forma vectorial, la velocidad es la derivada del vector posición respecto al tiempo:
+donde \mathbf u_t es un vector (vector de módulo unidad) de dirección tangente a la trayectoria del cuerpo en cuestión y \mathbf r es el vector posición, ya que en el límite los diferenciales de espacio recorrido y posición coinciden.
+Velocidad promedio
+La velocidad promedio es el promedio de la magnitud de la velocidad final e inicial concluyendo a la aceleración constante.
+Vp = (Vf +Vi ) /
+Celeridad instantánea
+La celeridad o rapidez instantánea es una magnitud escalar definida como el módulo de la velocidad instantánea, esto es, el módulo del vector velocidad en un instante dado.
+Se la expresa como:
+de modo que también podemos expresar la velocidad en función de la celeridad en la forma:
+siendo \mathbf_ el versor tangente a la trayectoria en ese instante.
+Velocidad relativa
+El cálculo de velocidades relativas en mecánica clásica es aditivo y encaja con la intuición común sobre velocidades; de esta propiedad de la aditividad surge el método de la velocidad relativa.
+La velocidad relativa entre dos observadores A y B es el valor de la velocidad de un observador medida por el otro.
+Las velocidades relativas medidas por A y B serán iguales en valor absoluto pero de signo contrario.
+Denotaremos al valor la velocidad relativa de un observador B respecto a otro observador A como \mathbf v_\text\;.
+Dadas dos partículas A y B, cuyas velocidades medidas por un cierto observador son \mathbf_\text \, y \mathbf_\text\,, la velocidad relativa de B con respecto a A se denota como \mathbf_\text\; y viene dada por:
+Naturalmente, la velocidad relativa de A con respecto a B se denota como \mathbf_\text\; y viene dada por:
+de modo que las velocidades relativas \mathbf_\text\; y \mathbf_\text\;
+tienen el mismo módulo pero dirección contraria.
+De la expresiones anteriores obtenemos:
+que nos permiten calcular vectorialmente la velocidad de A cuando se conoce su velocidad respecto de B y la velocidad de B. A estas expresiones se las denomina ley de adición de velocidades.
+Velocidad angular
+La velocidad angular no es propiamente una velocidad en el sentido anteriormente definido, ya que no se refiere al desplazamiento de un cuerpo sobre una trayectoria a un movimiento de rotación.
+Aunque no es propiamente una velocidad una vez conocida la velocidad de un punto de un sólido y la velocidad angular del sólido se puede determinar la velocidad instantánea del resto de puntos del sólido.
+Velocidad en mecánica relativista
+En mecánica relativista puede definirse la velocidad de manera análoga a como se hace en mecánica clásica sin embargo la velocidad así definida no tiene las mismas propiedades que su análogo clásico:
+* En primer lugar la velocidad convencional medida por diferentes observadores, aun inerciales, no tiene una ley de transformación sencilla (de hecho la velocidad no es ampliable a un cuadrivector de manera trivial).
+* En segundo lugar, el momento lineal y la velocidad en mecánica relativista no son proporcionales, por esa razón se considera conveniente en los cálculos substituir la velocidad convencional por la cuadrivelocidad, cuyas componentes espaciales coinciden con la velocidad para velocidades pequeñas comparadas con la luz, siendo sus componentes en el caso general:
+Además esta cuadrivelocidad tiene propiedades de transformación adecuadamente covariantes y es proporcional al cuadrimomento lineal.
+En mecánica relativista la velocidad relativa no es aditiva.
+Eso significa que si consideramos dos observadores, A y B, moviéndose sobre una misma recta a velocidades diferentes v_\text, v_\text \,, respecto de un tercer observador O, sucede que:
+Siendo la velocidad v_\text de B medida por A y v_\text la velocidad de A medida por B.
+Esto sucede porque tanto la medida de velocidades, como el transcurso del tiempo para los observadores A y B no es el mismo debido a que tienen diferentes velocidades, y como es sabido el paso del tiempo depende de la velocidad de un sistema en relación a la velocidad de la luz.
+Cuando se tiene en cuenta esto, resulta que el cálculo de velocidades relativas no es aditiva.
+A diferencia de lo que sucede en la mecánica clásica, donde el paso del tiempo es idéntico para todos los observadores con independencia de su estado de movimiento.
+Otra forma de verlo es la siguiente: si las velocidades relativas fuera simplemente aditiva en relatividad llegaríamos a contradicciones.
+Para verlo, consideremos un objeto pequeño que se mueve respecto a otro mayor a una velocidad superior a la mitad de la luz.
+Y consideremos que ese otro objeto mayor se moviera a más de la velocidad de la luz respecto a un observador fijo.
+La aditividad implicaría que el objeto pequeño se movería a una velocidad superior a la de la luz respecto al observador fijo, pero eso no es posible porque todos los objetos materiales convencionales tienen velocidades inferiores a la de luz.
+Sin embargo, aunque las velocidades no son aditivas en relatividad, para velocidades pequeñas comparadas con la velocidad de la luz, las desigualdades se cumplen de modo aproximado, es decir:
+Siendo inadecuada esta aproximación para valores de las velocidades no despreciables frente a la velocidad de la luz.
+Velocidad en mecánica cuántica
+En mecánica cuántica no relativista el estado de una partícula se describe mediante una función de onda \psi (x)\, que satisface la ecuación de Schrödinger.
+La velocidad de propagación media de la partícula viene dado por la expresión:
+Obviamente la velocidad solo será diferente de cero cuando la función de onda es compleja, siendo idénticamente nula la velocidad de los estados ligados estacionarios, cuya función de onda es real.
+Esto último se debe a que los estados estacionarios representan estados que no varían con el tiempo y por tanto no se propagan.
+En mecánica cuántica relativista se postula que por ejemplo un electrón podría tener junto con una velocidad media macroscópica (medida entre dos instantes diferentes) un movimiento de agitación u oscilación muy rápida adicional conocido como Zitterbewegung, de acuerdo con esa interpretación adicional no existe una relación entre el momento de la partícula y la velocidad asignable a dicho movimiento.
+Unidades de velocidad
+; Sistema Internacional de Unidades (SI)
+* Metro por segundo .
+Kilómetro por hora unidad de velocidad en el CGS
+; Sistema Anglosajón de Unidades
+* Pie por segundo (ft/s), unidad de velocidad del sistema inglés
+; Navegación marítima y Navegación aérea
+* El nudo es una unidad de medida de velocidad, utilizada en navegación marítima y aérea, equivalente a la milla náutica por hora (la longitud de la milla naútica es de 1852 metros; la longitud de la milla terrestre -statute mile- es de 1609,344 metros).
+Aeronáutica
+* El número Mach es una medida de velocidad relativa que se define como el cociente entre la velocidad de un objeto y la velocidad del sonido en el medio en que se mueve dicho objeto.
+Es un número adimensional típicamente usado para describir la velocidad de los aviones.
+Mach 1 equivale a la velocidad del sonido, Mach 2 es dos veces la velocidad del sonido,y así sucesivamente.
+La velocidad del sonido en el aire es de 340 m/s .
+Véase también
+Notas

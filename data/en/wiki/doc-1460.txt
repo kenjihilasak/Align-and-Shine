@@ -1,0 +1,78 @@
+Wiktionary is a multilingual, web-based project to create a free content dictionary of terms (including words, phrases, proverbs, etc.) in all natural languages and a number of artificial languages.
+These entries may contain definitions, pronunciation guides, inflections, usage examples, related terms, images for illustration, among other features.
+It is collaboratively edited via a wiki, and its name is a portmanteau of the words wiki and dictionary.
+It is available in 171 languages and in Simple English is slightly smaller than that of major monolingual print dictionaries.
+The Oxford English Dictionary, for instance, has 615,000 headwords, while Merriam-Webster's Third New International Dictionary of the English Language, Unabridged has 475,000 entries (with many additional embedded headwords).
+Detailed exist to show how many entries of various kinds exist.
+The English Wiktionary does not rely on bots to the extent that some other editions do.
+The French and Vietnamese Wiktionaries, for example, imported large sections of the Free Vietnamese Dictionary Project (FVDP), which provides free content bilingual dictionaries to and from Vietnamese.{{efn|Hồ
+Ngọc Đức, http:/ ~duc Free Vietnamese Dictionary Project. .
+In 2017 English part of en.wiktionary had over 500,000 gloss definitions and over 900,000 definitions (including different forms).
+Logos
+Wiktionary has historically lacked a uniform logo across its numerous language editions.
+Some editions use logos that depict a dictionary entry about the term "Wiktionary", based on the previous English Wiktionary logo, which was designed by Brion Vibber, a MediaWiki developer.
+Some communities adopted the winning entry by "Smurrayinchester", a 3×3 grid of wooden tiles, each bearing a character from a different writing system.
+However, the poll did not see as much participation from the Wiktionary community as some community members had hoped, and a number of the larger wikis ultimately kept their textual logos.
+In April 2009, the issue was resurrected with a new contest.
+This time, a depiction by "AAEngelman" of an open hardbound dictionary won a head-to-head vote against the 2006 logo, but the process to refine and adopt the new logo then stalled.
+Accuracy
+To ensure accuracy, the English Wiktionary has a policy requiring that terms be attested.
+Terms in major languages such as English and Chinese must be verified by:
+# clearly widespread use, or
+# use in permanently recorded media, conveying meaning, in at least three independent instances spanning at least a year.
+For less-documented languages such as Creek and extinct languages such as Latin, one use in a permanently recorded medium or one mention in a reference work is sufficient verification.
+Critical reception
+Critical reception of Wiktionary has been mixed.
+In 2006 Jill Lepore wrote in the article "Noah's Ark" for The New Yorker,
+There's no show of hands at Wiktionary.
+There's not even an editorial staff.
+"Be your own lexicographer!", might be Wiktionary's motto.
+Who needs experts?
+Why pay good money for a dictionary written by lexicographers when we could cobble one together ourselves?
+Wiktionary isn't so much republican or democratic as Maoist.
+And it's only as good as the copyright-expired books from which it pilfers.
+Keir Graff's review for Booklist was less critical:
+Is there a place for Wiktionary?
+Undoubtedly.
+The industry and enthusiasm of its many creators are proof that there's a market.
+And it's wonderful to have another strong source to use when searching the odd terms that pop up in today's fast-changing world and the online environment.
+But as with so many Web sources (including this column), it's best used by sophisticated users in conjunction with more reputable sources.
+References in other publications are fleeting and part of larger discussions of Wikipedia, not progressing beyond a definition, although David Brooks in The Nashua Telegraph described it as "wild and woolly".
+One of the impediments to independent coverage of Wiktionary is the continuing confusion that it is merely an extension of Wikipedia.
+In 2005, PC Magazine rated Wiktionary as one of the Internet's "Top 101 Web Sites", although little information was given about the site.
+The measure of correctness of the inflections for a subset of the Polish words in the English Wiktionary showed that this grammatical data is very stable.
+Only 131 out of 4748 Polish words have had their inflection data corrected.
+Wiktionary data in natural language processing
+Wiktionary has semi-structured data.
+Wiktionary lexicographic data can be converted to machine-readable format in order to be used in natural language processing tasks.
+Wiktionary data mining is a complex task.
+There are the following difficulties: (1) the constant and frequent changes to data and schemata, (2) the heterogeneity in Wiktionary language edition schemata {{efn|E.g.
+compare the entry structure and formatting rules in .
+There are several parsers for different Wiktionary language editions:
+* DBpedia Wiktionary: a subproject of DBpedia, the data are extracted from English, French, German and Russian wiktionaries; the data includes language, part of speech, definitions, semantic relations and translations.
+The declarative description of the page schema, regular expressions and finite state transducer are used in order to extract information.
+* JWKTL (Java Wiktionary Library): provides access to English Wiktionary and German Wiktionary dumps via a Java Wiktionary API.
+The data includes language, part of speech, definitions, quotations, semantic relations, etymologies and translations.
+JWKTL is distributed under the Apache License.
+* wikokit: the parser of English Wiktionary and Russian Wiktionary.
+The parsed data includes language, part of speech, definitions, quotations, semantic relations and translations.
+This is a multi-licensed open-source software.
+* Etymological entries have been parsed in the Etymological WordNet project.
+The various natural language processing tasks were solved with the help of Wiktionary data:
+* Rule-based machine translation between Dutch language and Afrikaans; data of English Wiktionary, Dutch Wiktionary and Wikipedia were used with the Apertium machine translation platform.
+* Construction of machine-readable dictionary by the parser NULEX, which integrates open linguistic resources: English Wiktionary, WordNet, and VerbNet.
+The parser NULEX scrapes English Wiktionary for tense information (verbs), plural form and part of speech (nouns).
+* Speech recognition and synthesis, where Wiktionary was used to automatically create pronunciation dictionaries.
+Word-pronunciation pairs were retrieved from 6 Wiktionary language editions (Czech, English, French, Spanish, Polish, and German).
+Pronunciations are in terms of the International Phonetic Alphabet.
+The ASR system based on English Wiktionary has the highest word error rate, where each third phoneme has to be changed.
+* Ontology engineering and semantic network constructing.
+* Text simplification.
+Medero & Ostendorf assessed vocabulary difficulty (reading level detection) with the help of Wiktionary data.
+Properties of words extracted from Wiktionary entries (definition length and POS, sense, and translation counts) were investigated.
+Medero & Ostendorf expected that (1) very common words will be more likely to have multiple parts of speech, (2) common words to be more likely to have multiple senses, (3) common words will be more likely to have been translated into multiple languages.
+These features extracted from Wiktionary entries were useful in distinguishing word types that appear in Simple English Wikipedia articles from words that only appear in the Standard English comparable articles.
+* Part-of-speech tagging.
+Li et al. (2012) built multilingual POS-taggers for eight resource-poor languages on the basis of English Wiktionary and Hidden Markov Models.
+Notes
+;General

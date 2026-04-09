@@ -1,0 +1,55 @@
+Temps|Internationalisation en informatique
+La date est, au sens usuel, une indication de temps visant à définir un jour unique, généralement du calendrier grégorien.
+On l’utilise notamment pour repérer, avec l’heure, un événement temporel donné.
+Le calendrier grégorien, utilisé aujourd’hui par la plupart des pays européens, se base sur une année terrestre, c’est
+-à-dire une révolution de la Terre autour de son Soleil.
+Il découpe l’année en douze mois, pour un total de 365 jours (à l’exception des années bissextiles qui en comportent 366), soit 28 (29 pour les années bissextiles), 30 ou 31 jours par mois.
+Dans des lettres
+Dans des lettres, on écrit «
+le 23 juin 2008 », pour indiquer le jour où la lettre a été écrite.
+En informatique
+En informatique, la date est utilisée pour indiquer un jour calendaire dans le calendrier grégorien.
+Elle indique donc un jour (comme au sens usuel), mais peut également contenir une heure, relative à un fuseau horaire.
+Sous une version française de Linux, la date peut par exemple être représentée par la chaîne «
+jeu mai 4 00:27:50 CEST 2006
+En informatique, la date peut également être représentée
+- afin de faciliter le tri automatique - en mettant les informations de poids fort en premier : « 2006-05-04 00:27:50 » (norme ISO 8601).
+Il est aussi possible d’obtenir une date comme un nombre de secondes écoulées depuis le , on parle alors de temps Unix (Unix Timestamp).
+De nombreux langages informatiques contiennent une bibliothèque logicielle intégrée qui offre certaines fonctionnalités liées à la date ;
+c’est notamment le cas du C, C#, du java et du PHP.
+Ces bibliothèques se distinguent cependant par exemple, par leur capacité à régionaliser la date, ou sur le niveau de précision géré par la date.
+En diplomatique
+Étymologiquement, le mot provient du latin datum, « donné ».
+En diplomatique, l’étude des documents officiels, on distingue la date dans son acception temporelle de la « date de lieu », c’est-à-dire l’indication du lieu où a été rédigé l’acte.
+La formule courante étant : « Donné à (date de lieu), le (date, sous la forme : jour, mois, années ou indication de règne) ».
+L’origine du concept vient donc de la nécessité d’ajouter l’indication chronologique dans la rédaction d’actes.
+Variations par pays
+Il existe différentes formes légales d’indiquer la date selon les pays : les deux plus connues sont les formats little endian (jj-mm-aaaa) et big endian (aaaa-mm-jj).
+Cependant des formats intermédiaires existent.
+L'existence de plusieurs représentations simplifiées des dates complique les échanges internationaux, en particulier si l’année n'est indiquée que par deux chiffres.
+C'est l'intérêt du format ISO 8601, qui demande d'utiliser quatre chiffres pour l'année et qui fixe l'ordre des éléments : année (sur 4 chiffres), mois puis jour.
+Ce format facilite le tri d'une liste de dates par logiciel (traitement de texte, par exemple).
+Pays utilisant le format jj aaaa
+Fichier
+Date format by country NEW.svg|thumb|350px
+Ce format présente les valeurs numériques, dans l'ordre, du jour, du mois et de l'année.
+* Norvège (j.m.a;
+forme fractionnaire
+j/m-a est fréquent mais incorrect)
+* Suisse (jj.mm.aaaa;
+on trouve également certaines fois jj.mm.aa mais jj.mm.aaaa est préféré)
+* Suède (forme fractionnaire
+j/m-a,
+sinon aaaa-mm
+jj)
+* Thaïlande (avec ère Bouddhiste au lieu de l'ère commune)
+Pays utilisant le format mm-jj-aa
+Dans ces pays, c'est le mois qui est au début de la forme simplifiée, suivi du jour puis de l'année.
+Pays utilisant le format aaaa
+Ce format présente les valeurs numériques, dans l'ordre, de l'année, du mois et du jour.
+C'est l'ordre de la norme ISO 8601.
+* Canada
+* Japon (souvent sous la forme aaaa年mm月jj日, ou bien aa年mm月jj日 en utilisant l'année de l'ère correspondante.
+Cette ère peut être (mais pas nécessairement) précisée en préfixe, par exemple sous la forme 平成aa年mm月jj日, où 平成 (Heisei) désigne l'ère actuelle.
+* Union européenne : un Comité des consommateurs (CC), comité consultatif de la Commission, envisage de préconiser ce format
+Pays utilisant la forme aaaa-mmm-jj

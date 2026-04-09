@@ -1,0 +1,61 @@
+Ordinateur 8 bits|Microprocesseur 6510|Matériel CBM|Produit lancé en 1982|Produit arrêté en 1994
+Le Commodore 64 est un ordinateur personnel conçu par Commodore Business
+Machines Inc.
+en 1982, sous l'égide de Jack Tramiel.
+Il fut la première machine vendue à plusieurs millions d'exemplaires (de 17 à 25 millions selon les estimations), et il reste le modèle d'ordinateur personnel le plus vendu à ce jour, selon le Livre Guinness des records.
+Description
+Le Commodore 64 utilise un microprocesseur 8 bits 6510 (un dérivé proche du 6502 qui a la possibilité de gérer des banques de mémoires en les amenant à la demande dans l'espace d'adressage du processeur) et dispose de 64 kilooctets de mémoire vive.
+Au Royaume-Uni, il a rivalisé en popularité avec le ZX Spectrum et a tiré bénéfice d'un clavier de taille normale et de puces graphiques et son plus avancées.
+La puce graphique
+, , fournit 16 couleurs, huit sprites, des capacités de défilement (scrolling), et deux modes graphiques bitmap.
+Le mode texte standard fournit 40 colonnes, comme la plupart des modèles PET de Commodore.
+La puce sonore, SID, a trois voix, plusieurs formes d'ondes, modulations sonores et capacités de filtrage.
+Elle est très avancée pour son époque.
+Son concepteur, Bob Yannes, sera le cofondateur de la société de synthétiseur Ensoniq.
+Le BASIC incorporé n'offre pas un moyen facile d'accéder aux capacités graphiques et sonores avancées de la machine ;
+les utilisateurs doivent donc utiliser les commandes PEEK et POKE pour adresser directement la mémoire afin d'obtenir le résultat escompté, ou alors utiliser des extensions comme Simon's BASIC, ou encore programmer directement en assembleur.
+Les limitations extrêmes de ce BASIC, la nécessité d'avoir à se documenter afin de rechercher des informations machines proches du système (puce audio, puce vidéo) pour afficher des graphiques, pouvoir jouer de la musique et créer des sons, la lourdeur d'utiliser les instructions PEEK et POKE en BASIC sur des programmes importants, tout ceci a sans doute conduit les programmeurs de l'époque à basculer très rapidement du BASIC au langage assembleur, bien plus rapide et offrant davantage de possibilités, ce qui peut expliquer en partie le très fort engouement autour de cette machine et la qualité supérieure des jeux et démos dessus, comparativement à d'autres micro-ordinateurs de la même époque.
+Ceci étant dit, Commodore possédait une meilleure implémentation du BASIC, mais choisit finalement de vendre le C64 avec le même BASIC 2.0 utilisé dans le VIC-20 de peur que le C64 ne fasse chuter les ventes du PET/CBM.
+Le C64 hérite des machines CBM et du VIC-20 un port utilisateur programmable (6522) et un port série propriétaire fonctionnant sur un principe proche de l'IEEE-488 et permettant de brancher (et d'adresser) des périphériques, en particulier une ou plusieurs unités de mono-disquettes de 1540 (lecteur de disquette du VIC-20), 1541 et 1542.
+Il y eut un modèle portable avec lecteur de disquette et écran intégrés, mais sans le port du lecteur de cassette.
+Avec cet ordinateur est (probablement) apparue une culture underground informatique connue sous le nom de scène démo.
+Historique
+Commodore tente en 1984 de remplacer le C64 par le Commodore Plus/4, qui offre un affichage plus haut en couleur, une meilleure implémentation du BASIC (V3.5) et quatre logiciels (traitement de texte, tableur, gestionnaire de fichier et graphisme) implantés en mémoire morte.
+Cependant, il manque à ce modèle les capacités de sprite, et il propose des capacités sonores en retrait, une bibliothèque de logiciels quasi inexistante et surtout une absence de compatibilité avec les logiciels du C64.
+Malgré un prix d'achat attractif ( à sa sortie), le Commodore Plus/4 est un échec.
+Des ordinateurs plus performants arrivant sur le marché, comme le successeur du C64, le Commodore 128 (fin 1985), entièrement compatible, Commodore positionne le C64 comme un ordinateur d'entrée de gamme, baissant son prix de façon notable.
+En 1986, Easter
+Egg lance le Commodore 64C, qui est fonctionnellement identique à l'original, mais avec un design extérieur remodelé dans l'esprit plus « moderne » du C128.
+Le C64C était souvent fourni avec le système d'exploitation graphique GEOS.
+Les derniers jeux officiels pour Commodore 64 se sont vendus jusqu'en 1994.
+Pendant l'été 2004, après une absence sur le marché de près de 10 ans, (propriétaire de la marque Commodore depuis 1997) annonce un C64-Direct-to-TV, une console-joystick basée sur le C64 avec 30 titres préprogrammés en ROM, selon un principe similaire aux mini-consoles basées sur l'Atari 2600 et l'Intellivision, qui avaient eu un succès plutôt modeste auparavant.
+Le C64 reste toujours employé, particulièrement pour la musique.
+Ses programmes peuvent être utilisés sur des machines plus récentes au moyen d'un émulateur ;
+certains jeux sont disponibles sur le service de la Console Virtuelle de la console Wii.
+Renouveau du Commodore
+En 2011, une société basée en Floride a mis en vente un « Commodore 64 » reprenant le boîtier d'origine et compatible PC.
+En 2017, Retro Games Ltd.
+annonce une réédition du Commodore 64, «
+The C64 Mini », une version miniaturisée de l'ordinateur personnel, dont la distribution doit être assurée par Koch Media.
+Celle-ci est basée sur le processeur Allwinner A20, comporte 256 Mo de RAM, 256 Mo de flash pour le système et, pour la connectique, un port HDMI, ainsi 2 ports USB, le clavier intégré étant ici uniquement représentatif, mais ne fonctionnant pas.
+Spécifications techniques
+* Processeur MOS
+Technology 6510 (un dérivé du 6502)
+cadencé à (PAL) / (NTSC)
+** 64 Ko de Mémoire vive (38 Ko disponible pour les programmes BASIC par défaut ;
+2 Ko de mémoire vidéo de caractère) ou 320 Ko (avec Commodore 1764 256 Ko) avec l'Unité d'extension mémoire, cependant, seulement 64 Ko sont directement accessibles, l'unité destinée principalement à GEOS)
+Ko de ROM (8
+Ko Noyau, 4 Ko de caractères générés, produisant deux ensembles de 2000 caractères)
+* Puce graphique VIC
+MOS 6567 8569 (PAL)
+-40×25 caractères de 8×8 pixels 2 couleurs chacun parmi 16.
+-40×25 demi-résolution caractères de 4×8 pixels 4 couleurs chacun parmi 16 (39x24 en mode scrolling).
+Le mode texte
+bénéficie du scrolling hard pixel par pixel.
+La grande majorité des jeux type arcade redéfinissaient les caractères pour en faire l’équivalent des « tuiles » des consoles.
+Avec les sprites hard, on s'approche grandement des techniques utilisé par les consoles 8 bits type NES et SMS.
+en 320x200 chaque bloc de 8*8 peut avoir 2 couleurs parmi les 16 (mode graphique notamment utilisé pour les jeux 3D fil de fer, par exemple Elite)
+en 160×200 chaque bloc de 4les 16 couleurs sont noir, blanc, rouge, cyan, violet, vert, bleu, jaune, orange, marron, rouge clair, gris foncé, gris moyen, vert clair, bleu clair, gris clair.
+Jeux vidéo
+La popularité et les capacités graphiques et sonores avancées du Commodore 64 lui ont permis d'accueillir plusieurs milliers de jeux vidéo.
+50 jeux parmi les plus appréciés :

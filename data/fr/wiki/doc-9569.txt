@@ -1,0 +1,72 @@
+Principe physique|Physique théorique
+Le principe de moindre action est le principe physique selon lequel la dynamique d'une quantité physique peut se déduire à partir d'une unique grandeur appelée action en supposant que les valeurs dynamiques permettent à l'action d'avoir une valeur optimale entre deux instants donnés (la valeur est minimale quand les deux instants sont assez proches).
+La plupart des équations fondamentales de la physique peuvent être formulées à partir du principe de moindre action.
+C'est notamment le cas en mécanique classique, en électromagnétisme, en relativité générale et en théorie quantique des champs.
+Formulation historique
+Dans Principe de la moindre quantité d'action pour la mécanique (1744), Maupertuis définit l'action comme suit :
+L'Action est proportionnelle au produit de la masse par la vitesse et par l'espace.
+Maintenant, voici ce principe, si sage, si digne de l'Être suprême : lorsqu'il arrive quelque changement dans la Nature, la quantité d'Action employée pour ce changement est toujours la plus petite qu'il soit possible.
+Ce principe révéla toute sa valeur grâce aux travaux d’Euler, Lagrange, Jacobi et Helmholtz.
+Près d'un siècle avant, Fermat avait avancé un principe similaire pour l'optique (géométrique), repris par Leibniz en valorisant la cause finale, en accord avec sa philosophie.
+En reliant deux points, la trajectoire prise par le corps n'est pas toujours celle qui lui fait dépenser globalement le moins d'énergie
+car c'est la dépense immédiate (ou plutôt instantanée) d'énergie qui est minimisée (comme si le corps ne percevait que les conditions de son environnement immédiat) et si le chemin parcouru est long, un chemin plus court avec une dépense d'énergie immédiate plus élevée peut permettre une dépense globale inférieure.
+Une analogie avec la consommation en carburant d'une voiture peut être faite.
+Dans ce « résumé », « énergie » signifie énergie cinétique, et une « dépense d'énergie » signifie que de l'énergie cinétique se transforme en énergie potentielle.
+Méthode variationnelle et interprétation en physique classique
+L'action se présente comme la sommation, le long du trajet du système, de la différence entre l'énergie cinétique et l'énergie potentielle.
+:L'action du système
+\int_^ \left ( \frac m.v^2
+- V \right) dt , où \ t est le temps.
+La détermination du trajet se fait par une méthode variationnelle : les points extremum étant fixés, le temps de trajet aussi, on fait varier les trajets, et le ou les trajets physiquement admis sont ceux pour lesquels l'action est stationnaire par rapport aux variations infimes (du trajet).
+Cette méthode aboutit aux équations d'Euler-Lagrange qui donnent des chemins sur lesquels l'action n'est pas toujours minimale par rapport aux autres proches et mathématiquement admissibles, mais sont parfois des points col : l'action est stationnaire pour les variations infinitésimales du trajet, et c'est un maximum pour certains types de variations, alors que c'est un minimum pour d'autres.
+Dans tous les cas ces chemins respectent les conditions physiques et sont donc réalistes.
+Toutefois, le long de chacun d'eux, si deux points sont assez proches (mesure faite par la longueur du chemin les séparant) alors on peut démontrer qu'entre eux ce trajet minimise l'action dans la méthode variationnelle, ce qui justifie le nom du principe.
+On peut interpréter cela comme équivalent aux deux conditions suivantes:
+La trajectoire que suit un corps est celle qui permet la transformation instantanée de l'énergie cinétique en énergie potentielle la plus petite possible (donc aussi la plus lente sur la trajectoire), ou la transformation immédiate de l'énergie potentielle en énergie cinétique la plus grande possible (donc la plus rapide possible sur la trajectoire) .
+* La transformation (et donc la trajectoire) est déterminée par les conditions initiales (position et vitesse) et les conditions de l'environnement physique : il doit y avoir continuité de la trajectoire s'il y a continuité du milieu physique.
+Il y a parfois un échange cyclique entre ces deux énergies (balancier sans frottement, satellite à orbite elliptique,...) ou une stabilisation provisoire (bille immobile ou posée au fond d'un trou, satellite à orbite circulaire,...).
+La chute libre d'un corps est l'exemple type de la transformation de l'énergie potentielle (gravitationnelle) en énergie cinétique.
+Le ralentissement et l'arrêt (avant sa chute) d'un corps lancé verticalement sont un exemple de la transformation inverse.
+Les frottements imposent une transformation plus compliquée car ils engendrent de la chaleur, qui est l'énergie cinétique des molécules des matériaux, mais en négligeant cette forme d'énergie, on peut utiliser le Principe de moindre action en considérant que de l'énergie cinétique se perd (sort du système étudié).
+Un problème métaphysique ?
+Le principe de moindre action utilise l'hypothèse de deux points fixes sur le parcours du mobile : un point de départ, mais aussi un point d'arrivée.
+Cela a souvent été critiqué comme étant l'utilisation dans le raisonnement d'une « cause finale », ce qui est contraire à la causalité qui suit la flèche du temps en physique.
+En fait, si le point de départ est doté de conditions initiales (coordonnées et vitesse), le point d'arrivée n'a pas de coordonnées précises ni de vitesse imposée : il existe, c'est tout.
+L'existence du point final dans le raisonnement permet d'émettre l'hypothèse de l'existence d'un trajet à partir de l'état initial et de déterminer ses conditions (équations d'Euler-Lagrange), mais n'impose aucune autre condition en dehors de la continuité indiquée plus haut (ce travail peut même montrer que seul un trajet de longueur nulle est possible dans les cas de stabilité du mobile).
+Un principe démontré
+Avant Lagrange ce principe se concevait à partir de considérations métaphysiques, indépendamment de tout autre principe physique.
+Lagrange, en 1756, fut celui qui donna au principe de moindre action son expression mathématique efficace qui est toujours d'actualité.
+Il fut aussi celui qui développa la mécanique analytique et démontra, dans son ouvrage de 1788, ce principe à partir du principe des vitesses virtuelles (nommé aussi principe de d'Alembert).
+Le principe des vitesses virtuelles exprime le principe fondamental de la dynamique de Newton en séparant les contraintes du système (limitation dans l'espace, rigidités, etc) et les phénomènes subis par le système (phénomènes externes ou internes au système).
+Cette démonstration met un point final aux interrogations métaphysiques sur le principe de moindre action : le principe est équivalent à un principe physique de Newton, non sujet aux critiques métaphysiques, et la « cause finale » est alors comprise comme un artifice mathématique.
+De l'action classique à l'action relativiste
+Suivant le système étudié, et le cadre théorique dans lequel on le considère, l'expression mathématique du principe de moindre action change légèrement de forme.
+C'est un des rares principes ayant survécu aux multiples mutations de la physique, mais il a rarement été à l'origine d'une découverte : il est plutôt utilisé pour reformuler ou redémontrer des lois trouvées par d'autres biais.
+Sa plus grande contribution a sans doute été de mettre W. R. Hamilton sur la voie de ses travaux théoriques (voir: Mécanique hamiltonienne).
+En physique relativiste, les équations d'Euler-
+Lagrange restent inchangées, mais le lagrangien n'est plus égal à la différence entre l'énergie cinétique et l'énergie potentielle.
+En fait, à partir de la relativité il est apparu que le principe de moindre action se fonde sur l'existence d'une trajectoire continue, paramétrée par le temps, qui minimise une fonction ou la différence entre des fonctions du système étudié, déterminées à partir de principes généraux, tels que par exemple :
+* Comme la trajectoire dans l'espace-temps ne dépend pas du repère d'où on l'observe, l'action qui la détermine, ainsi que les fonctions qui composent l'action, sont invariantes par changement de repère.
+L'indépendance de corps implique l'additivité de leurs actions et de leurs lagrangiens, pour que les trajectoires puissent être déterminées séparément en appliquant la méthode variationnelle.
+Il se trouve que si, en physique classique, ces fonctions du système sont les énergies cinétiques et potentielles, ce n'est plus le cas en relativité.
+En physique relativiste, et en l'absence de champ électromagnétique, on montre que la fonction du corps qui est minimisée dans le principe est particulièrement simple : il s'agit de -mc\tau, où \tau est le « temps propre » du trajet, qui est à la fois le temps s'écoulant dans le référentiel du corps au cours du trajet et la longueur de la trajectoire mesurée par la métrique de l'espace : cela revient à maximiser le « temps propre », du fait du signe
+- et de la constance de la masse m et de la vitesse de la lumière c.
+Un champ électromagnétique amène des différences de parcours entre les corps, suivant leurs charges et leurs répartitions.
+Et comme en physique classique, toutes les équations peuvent être obtenues sans le principe de moindre action.
+Sa formulation en mécanique
+quantique
+Dans le but de trouver une formulation plus simple de l'électrodynamique quantique, vers 1940, Richard
+Feynman
+chercha une formulation du principe de moindre action en mécanique quantique
+La solution lui vint d'une idée que Paul Dirac avait exprimée dans un article.
+Le principe a ainsi permis une reformulation de cette branche de la physique sous forme d'intégrale de chemin qui s'est révélé, en effet, plus simple que la formulation hamiltonnienne pour l'électrodynamique quantique.
+Cette formulation a donné lieu à des interprétations telles que « la particule teste tous les chemins possibles avec des probabilités différentes ».
+Comme on peut s'y attendre, la formulation quantique permet de retrouver, à la limite classique, la formulation habituelle et le chemin qui rend extrémale l'action classique est un col de l'intégrale : seul celui-ci contribue de manière significative dans l'intégrale.
+Court
+historique
+L'idée que la trajectoire minimise une durée ou une longueur est d'abord née chez Pierre de Fermat vers 1655, pendant son étude de l'optique (voir Principe de Fermat).
+Même si elle a intéressé Leibniz et Newton, c'est Maupertuis, vers 1740, qui fera progresser la formulation verbale et mathématique d'un « principe de moindre action » pour la mécanique.
+Euler, en développant l'analyse mathématique, commença à reformuler ce principe, mais c'est Lagrange qui lui donnera sa méthode et sa forme définitive en 1755, pour ensuite l'inclure comme une simple conséquence de sa mécanique analytique.
+En 1827, Hamilton, en cherchant à appliquer ce principe à l'optique, développa une nouvelle approche fondée sur l'étude de l'énergie par la méthode analytique : la mécanique hamiltonienne, que Jacobi peaufinera vers 1840.
+Depuis sa formulation, ce principe a guidé de nombreux scientifiques dans leurs recherches, notamment de Broglie vers 1920 dans son travail sur la théorie des quanta.
+En 1915, Hilbert a démontré les équations de la gravitation de la relativité générale à l'aide du principe (Einstein les a trouvées par une autre méthode), et Richard Feynman, en 1942, a proposé une nouvelle formulation du principe, dans sa thèse de doctorat intitulée Le Principe de moindre action en mécanique quantique, permettant une réécriture de la mécanique quantique.

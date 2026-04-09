@@ -1,0 +1,63 @@
+In geometria un poligono è una figura geometrica piana delimitata da una linea spezzata chiusa.
+I segmenti che compongono la spezzata chiusa si dicono lati del poligono e i punti in comune a due lati consecutivi si dicono vertici del poligono.
+La parola "poligono" deriva dal greco πολύς (polys, "molti") e γωνία (gōnia, "angolo").
+Definizione
+Una definizione di poligono è la seguente.
+Un poligono è la parte di piano delimitata da una linea spezzata semplice chiusa.
+Ricordiamo che una linea spezzata è l'unione finita di due o più segmenti consecutivi non adiacenti detti lati.
+Una linea spezzata è chiusa quando il secondo estremo dell'ultimo segmento coincide con il primo estremo del primo.
+Una linea spezzata è non intrecciata se due lati non consecutivi non si intersecano mai.
+Il punto in comune a due lati consecutivi è detto vertice.
+Sulla parte delimitata
+Il fatto che una linea spezzata chiusa non intrecciata delimiti effettivamente una porzione di piano è, per quanto intuitivo, un risultato non banale della geometria piana:
+si tratta di una conseguenza del teorema della curva di Jordan.
+Una definizione costruttiva è la seguente:
+un punto p del piano appartiene al poligono se (con al più un numero finito di eccezioni) tutte le semirette uscenti in p intersecano la spezzata in un numero finito e dispari di punti distinti.
+Classificazione
+Numero di lati
+Una prima classificazione di un poligono riguarda il suo numero di lati (vedi i nomi di poligono).
+Convessità
+Un poligono è:
+semplice:
+se i lati del poligono non si intersecano.
+; complesso (o intrecciato) :
+se non è semplice.
+Un poligono semplice è:
+convesso:
+se ogni angolo interno è minore o uguale ad un angolo piatto (o, equivalentemente, se il prolungamento immaginario di ogni segmento che congiunge due suoi vertici va al di fuori del poligono).
+concavo:
+se anche un solo angolo interno è maggiore di 180^\circ (o, equivalentemente, se il prolungamento immaginario di uno o più segmenti cade all'interno del poligono).
+Simmetria con uguaglianza
+In base alla simmetria, un poligono è:
+; equilatero:
+se tutti i suoi lati sono uguali.
+equiangolo:
+se tutti i suoi angoli sono uguali.
+; ciclico:
+se tutti i suoi vertici giacciono su un'unica circonferenza.
+; regolare:
+se è convesso, equilatero ed equiangolo (o, equivalentemente, se è ciclico ed equilatero).
+; irregolare:
+se non è regolare.
+Proprietà
+Angoli
+La somma degli angoli interni di un poligono è pari a tanti angoli piatti quanti sono i suoi lati (l), meno due
+180^\circ \times (l-2).
+Ad esempio, il poligono in figura ha cinque lati, e quindi:
+\alpha + \beta + \gamma + \delta + \varepsilon
+(5-2) \times 180^\circ
+540^\circ.
+La dimostrazione può essere svolta per induzione:
+in un triangolo la somma degli angoli è 180^\circ, e preso un qualunque poligono una sua diagonale lo divide in due altri poligoni con un numero minore di lati, per cui si può far valere l'ipotesi induttiva.
+La somma degli angoli esterni di un poligono convesso con n lati è uguale
+(360^ \circ \times n)-180^\circ \times (n-2) = 180^\circ \times (n+2).
+In quanto la somma di tutti gli angoli esterni ed interni è, evidentemente, uguale a n volte un angolo giro:
+sottraendo al totale la somma di quelli interni, avremo la somma di quelli esterni.
+Area
+Con la formula dell'area di Gauss è possibile calcolare l'area di un poligono con n vertici aventi coordinate cartesiane (x_i;y_i)_ nel modo seguente:
+A=\frac\left|\sum_^ x_i y_ - \sum_^ x_ y_i\right|
+con la convenzione che (x_;y_)= (x_1;y_1).
+Con questa formula possiamo ricavare una superficie di una qualsiasi figura piana attraverso le coordinate dei suoi vertici.
+È una formula molto utilizzata nella topografia e nella trigonometria.
+Nomi di poligono
+Distinzione in base al numero di lati e, quindi, di angoli:

@@ -1,0 +1,55 @@
+Sudoku
+Grille de sudoku traditionnelle à compléter.
+On voit les 9 régions de 3 × 3 cases séparées par un trait plus foncé.
+Un ancêtre du sudoku paru dans la presse française à la fin du XIXe.
+Une grille terminée pour comprendre les règles de base du sudoku : tous comme les autres chiffres, le chiffre 4 apparaît bien neuf fois dans la grille et une seule fois dans chaque région, ligne ou colonne.
+Un mini sudoku (grille de 4 × 4) à compléter.
+Le même sudoku complété.
+Le sudoku (terme venant de la contraction du japonais suji wa dokushin ni kagiru, qui signifie «
+nombre unique ») est un jeu de logique, une sorte de puzzle ou de casse-tête à chiffres qui se présente sous la forme d'une grille à compléter : traditionnellement, d'une grille carrée avec 81 cases (9 lignes et 9 colonnes), divisée en 9 régions de 3 × 3 cases.
+Des techniques existent pour résoudre plus rapidement les sudokus.
+Les ordinateurs sont capables de résoudre une grille en quelques secondes, souvent en moins d'une demi-seconde, tandis que les humains mettent plus de temps : les sudokus les plus difficiles (souvent appelés sudokus diaboliques) peuvent nécessiter plusieurs heures ou même des jours selon le niveau du joueur.
+Le sudoku est une variante ludique du carré magique (qui remonte à l'Antiquité), lui-même modifié au XVIIIe siècle par le mathématicien suisse
+Leonhard Euler.
+Sa forme a été mise au point par un ancien architecte, Howard Garns, et publiée pour la première fois dans la presse aux États-Unis en 1979, sous le nom de Number Place.
+Après avoir connu son premier grand essor dans les années 1980 au Japon, depuis le début du XXIe siècle, il est devenu très courant à travers le monde, le Royaume-Uni ayant montré l'exemple.
+Aussi existe-t-il, de nos jours, beaucoup de passionnés et de clubs se consacrant à ce jeu.
+Des versions sur ordinateur ont été également développées.
+Chaque case peut avoir un chiffre de 1 à 9.
+Au départ, certaines cases sont déjà remplies.
+Le joueur doit alors remplir toutes les autres en respectant un principe.
+Chaque chiffre de 1 à 9 doit apparaître une seule fois dans une région, une ligne ou une colonne.
+Autrement dit, chaque région, ligne ou colonne doit contenir tous les chiffres de 1 à 9.
+Au bout du compte, chaque chiffre apparaît
+neuf fois dans la grille.
+La difficulté d'une grille de sudoku provient essentiellement de deux choses.
+D'une part, plus le nombre de chiffres connu au départ est petit, plus la grille sera difficile, car il y aura plus à chercher.
+D'autre part, plus la grille sera asymétrique, plus elle sera difficile.
+Ainsi, on peut trouver des grilles faciles avec plus de 35 chiffres connus (sur les 81 cases de la grille) et des grilles diaboliques avec moins de 25 chiffres connus au départ.
+Les grilles asymétriques sont rares, car elles sont parfois insolubles ;
+aussi la plupart des grilles sont-elles à symétrie centrale.
+Voici une méthode analytique simple : pour avancer dans la résolution d'une grille, il faut déterminer, pour chaque case, quels sont les chiffres qui ne peuvent pas s'y trouver.
+Cela révélera les cases où :
+il ne peut y avoir qu'un seul chiffre (car tous les autres ont été éliminés) ;
+même si plusieurs chiffres sont permis, un seul
+- et unique
+- permet de ne pas bloquer la grille.
+Parfois fastidieuse
+, cette méthode impose de marquer dans chaque case les chiffres éliminés.
+Le blocage, c'est quand on ne peut pas continuer d'avancer en utilisant une méthode logique et sûre comme celle décrite ci-dessus.
+Cela se produit dans deux cas :
+la grille comporte une erreur qui aboutit à une impossibilité (deux fois le même chiffre dans une ligne par exemple).
+Il faut alors recommencer la grille ;
+la grille est difficile à résoudre et nécessite de faire un pari pour avancer.
+Il faudra alors déterminer la case qui, si on savait le chiffre qu'elle doit contenir, nous permettrait de continuer d'avancer.
+C'est parce qu'on risque d'être bloqué qu'on préfère généralement jouer au sudoku avec un crayon et une gomme plutôt qu'avec un stylo !
+Sudoku avec des formes géométriques colorées,
+dans le jeu pour enfants GCompris
+Il existe un grand nombre de variantes du sudoku, comme :
+le sudoku avec des grilles plus petites (grilles de 4 × 4 ou 6 × 6) ou plus grandes (comme l’Hexudoku,
+avec une grille de 16 × 16) ;
+le sudoku avec plusieurs grilles disposées en forme de X (Samurai Sudoku) ;
+le sudoku en 3D (un empilement de grilles nommé Sudokube) ;
+le sudoku avec des régions qui ne sont pas forcément carrées (Nonomino) ;
+le sudoku avec des règles sur les diagonales et plus seulement sur les lignes et les colonnes.
+GCompris : logiciel éducatif avec plusieurs types de sudokus (images, chiffres...) pour les petits et les grands enfants.

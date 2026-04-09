@@ -1,0 +1,54 @@
+Des serveurs informatiques dans des armoires.
+Ils ont souvent forme de lames, et sont superposés avec un peu d'espace pour laisser passer l'air entre eux.
+En effet, ils chauffent et les salles serveurs doivent toujours être climatisées !
+L'intérieur d'un serveur informatique
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : Serveur.
+Un serveur est un ordinateur qui contient des données informatiques et propose des services sur un réseau comme internet.
+Par exemple, les données de Vikidia sont enregistrées sur un serveur.
+Un serveur a une connexion à Internet et y est connecté en permanence, pour que les internautes puissent toujours y accéder.
+Les serveurs sont capable d'effectuer de très lourds calculs, ainsi ils possèdent des processeurs spécialisés, comme par exemple les Xeon d'Intel ou les Epyc d'AMD.
+Sommaire
+Un serveur ne parle pas français, ni anglais, il est comme l'ordinateur, il parle en binaire.
+Sauf que le binaire nous est incompréhensible, donc, on a créé des langages ou protocoles pour échanger avec lui.
+C'est le cas d'HTTP, ce protocole permet au navigateur internet (Internet Explorer, ou Firefox...) de demander l'affichage d'une page.
+Sur le serveur, des programmes informatiques tournent en permanence pour répondre aux demandes des utilisateurs.
+Pour afficher une page web de Vikidia comme celle-ci, c'est le programme Apache couplé à PHP qui répond au navigateur.
+En informatique, on appelle client celui qui se connecte au serveur (par exemple, vous, quand vous accédez à Vikidia).
+On dit que lorsque vous essayez d'accéder au serveur, vous effectuez une requête auprès de lui.
+Ensuite, il vous renvoie la page demandée.
+Lors d'une requête, le client demande au serveur de générer une page Web, la page est générée par PHP, qui retransmet la page au serveur.
+Le serveur n'a plus qu'à la donner à l'ordinateur demandeur.
+Bien entendu, cela se fait en quelque millièmes de secondes, et est donc invisible lors de notre navigation.
+Pour mieux comprendre, voici un « dialogue » entre un client et un serveur :
+Client : Bonjour, je voudrais la page « machin.php », qui se situe dans « www download/ »
+Apache :
+Bonjour, je transmets la page à PHP, pour qu'il la génère.
+PHP :
+Page reçue, je l'écris en regardant les informations dans la base de données « truc ».
+Et voilà, je te la rends, Apache.
+Apache : Et voila la page « machin.php »,
+je viens de te la transmettre.
+Client : Merci, je l'affiche à l'écran !
+Et si cela ne fonctionne pas ?
+Apache renvoie alors une erreur, voici la liste des principales erreurs du protocole HTTP :
+400 : échec de l'analyse HTTP;
+401 : mauvais pseudo/mdp
+dans le.
+htaccess ou accès interdit;
+402 : le client doit payer;
+404 : page non trouvée;
+405 : méthode non autorisée;
+500 : erreur interne au serveur ou serveur saturé;
+501 : le serveur ne supporte pas le service demandé;
+502 : réponse du serveur incorrecte;
+503 : service indisponible;
+504 :
+trop de temps à la réponse;
+505 : version HTTP non supportée.
+Il peut aussi renvoyer l'erreur 200 qui indique que la page a correctement été chargée, ce qui n'est pas une erreur.
+Il existe aussi la 304, qui veut dire que l'élément n'a pas été rechargé, car ce dernier n'a pas besoin de changer.
+Dans un collège, il y a souvent plusieurs réseaux différents pour séparer les informations de l'administration et celles des élèves et professeurs.
+Le serveur destiné aux élèves va centraliser leurs fichiers, et parfois les logiciels utilisés, pour pouvoir accéder à ses fichiers de n'importe quel ordinateur du collège (CDI, salles informatiques, salles de Technologie, ...).
+Il sert aussi à s'identifier sur le réseau.

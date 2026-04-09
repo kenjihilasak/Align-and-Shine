@@ -1,0 +1,6 @@
+Avant de tenter de diagonaliser un endomorphisme, il faut d'abord savoir s'il est diagonalisable ou non.
+Le spectre de la matrice canoniquement associée à l'endomorphisme contient autant de valeurs propres distinctes que la dimension de cette matrice.
+L'espace vectoriel sur lequel il est défini est la somme de ses espaces propres.
+C'est-à-dire, l'endomorphisme f{\displaystyle f} de E{\displaystyle E} est diagonalisable et possède k{\displaystyle k} valeurs propres distinctes λ1,...,λk{\displaystyle \lambda _{1},...,\lambda _{k}} si et seulement si E=⨁i=1kEλi(f){\displaystyle E=\bigoplus _{i=1}^{k}E_{{\lambda }_{i}}(f)}
+Une fois le spectre de la matrice diagonalisable M{\displaystyle M} obtenu, ainsi que ses vecteurs propres pour chaque valeur propre, on peut écrire : il existe une matrice D{\displaystyle D}diagonale et une matrice P{\displaystyle P}inversible telles que M=P−1DP{\displaystyle
+M=P^{-1}DP}, où D{\displaystyle D} contient les valeurs propres de la matrice sur sa diagonale, et les colonnes de P{\displaystyle P} sont ses vecteurs propres.

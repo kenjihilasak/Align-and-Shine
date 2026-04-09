@@ -1,0 +1,164 @@
+Multiplication (often denoted by the cross symbol "×", by the dot "⋅", by juxtaposition, or, on computers, by an asterisk "*") is one of the four elementary mathematical operations of arithmetic, with the others being addition, subtraction and division.
+The multiplication of whole numbers may be thought as a repeated addition; that is, the multiplication of two numbers is equivalent to adding as many copies of one of them, the multiplicand, as the value of the other one, the multiplier.
+The multiplier can be written first and multiplicand second (though the custom can vary by culture); both can be called factors.
+:a\times b = \underbrace_a
+For example, 4 multiplied by 3 (often written as 3 \times 4 and spoken as "3 times 4") can be calculated by adding 3 copies of 4 together:
+Here 3 and 4 are the factors and 12 is the product.
+One of the main properties of multiplication is the commutative property: adding 3 copies of 4 gives the same result as adding 4 copies of 3:
+Thus the designation of multiplier and multiplicand does not affect the result of the multiplication.
+The multiplication of integers (including negative numbers), rational numbers (fractions) and real numbers is defined by a systematic generalization of this basic definition.
+Multiplication can also be visualized as counting objects arranged in a rectangle (for whole numbers) or as finding the area of a rectangle whose sides have given lengths.
+The area of a rectangle does not depend on which side is measured first, which illustrates the commutative property.
+The product of two measurements is a new type of measurement, for instance multiplying the lengths of the two sides of a rectangle gives its area, this is the subject of dimensional analysis.
+The inverse operation of multiplication is division.
+For example, since 4 multiplied by 3 equals 12, then 12 divided by 3 equals 4.
+Multiplication by 3, followed by division by 3, yields the original number (since the division of a number other than 0 by itself equals 1).
+Multiplication is also defined for other types of numbers, such as complex numbers, and more abstract constructs, like matrices.
+For some of these more abstract constructs, the order in which the operands are multiplied together matters.
+A listing of the many different kinds of products that are used in mathematics is given in the product (mathematics) page.
+Notation and terminology
+In arithmetic, multiplication is often written using the sign "×" between the terms; that is, in infix notation.
+For example,
+:2\times 3 = 6 (verbally, "two times three equals six")
+The sign is encoded in Unicode at .
+There are other mathematical notations for multiplication:
+* Multiplication is also denoted by dot signs, usually a middle-position dot (rarely period):
+: or
+:The middle dot notation, encoded in Unicode as , is standard in the United States, the United Kingdom, and other countries where the period is used as a decimal point.
+When the dot operator character is not accessible, the interpunct (·) is used.
+In other countries that use a comma as a decimal mark, either the period or a middle dot is used for multiplication.
+* In algebra, multiplication involving variables is often written as a .
+* In vector multiplication, there is a distinction between the cross and the dot symbols.
+The cross symbol generally denotes the taking a cross product of two vectors, yielding a vector as the result, while the dot denotes taking the dot product of two vectors, resulting in a scalar.
+In computer programming, the asterisk (as in 5*2) is still the most common notation.
+This is due to the fact that most computers historically were limited to small character sets (such as ASCII and EBCDIC) that lacked a multiplication sign (such as ⋅ or ×), while the asterisk appeared on every keyboard.
+This usage originated in the FORTRAN programming language.
+The numbers to be multiplied are generally called the "factors".
+The number to be multiplied is the "multiplicand", and the number by which it is multiplied is the "multiplier".
+Usually the multiplier is placed first and the multiplicand is placed second; Also as the result of a multiplication does not depend on the order of the factors, the distinction between "multiplicand" and "multiplier" is useful only at a very elementary level and in some multiplication algorithms, such as the long multiplication.
+Therefore, in some sources, the term "multiplicand" is regarded as a synonym for "factor".
+In algebra, a number that is the multiplier of a variable or expression (e.g., the 3 in 3xy2) is called a coefficient.
+The result of a multiplication is called a product.
+A product of integers is a multiple of each factor.
+For example, 15 is the product of 3 and 5, and is both a multiple of 3 and a multiple of 5.
+Computation
+The common methods for multiplying numbers using pencil and paper require a multiplication table of memorized or consulted products of small numbers (typically any two numbers from 0 to 9), however one method, the peasant multiplication algorithm, does not.
+Multiplying numbers to more than a couple of decimal places by hand is tedious and error prone.
+Common logarithms were invented to simplify such calculations, since adding logarithms is equivalent to multiplying.
+The slide rule allowed numbers to be quickly multiplied to about three places of accuracy.
+Beginning in the early 20th century, mechanical calculators, such as the Marchant, automated multiplication of up to 10 digit numbers.
+Modern electronic computers and calculators have greatly reduced the need for multiplication by hand.
+Historical algorithms
+Methods of multiplication were documented in the Egyptian, Greek, Indian and Chinese civilizations.
+The Ishango bone, dated to about 18,000 to 20,000 BC, hints at a knowledge of multiplication in the Upper Paleolithic era in Central Africa.
+Egyptians
+The Egyptian method of multiplication of integers and fractions, documented in the Ahmes Papyrus, was by successive additions and doubling.
+For instance, to find the product of 13 and 21 one had to double 21 three times, obtaining , , .
+The full product could then be found by adding the appropriate terms found in the doubling sequence:
+(1 × 21) + (4 × 21) + (8 × 21)
+Babylonians
+The Babylonians used a sexagesimal positional number system, analogous to the modern day decimal system.
+Thus, Babylonian multiplication was very similar to modern decimal multiplication.
+Because of the relative difficulty of remembering different products, Babylonian mathematicians employed multiplication tables.
+These tables consisted of a list of the first twenty multiples of a certain principal number n: n, 2n, ..., 20n; followed by the multiples of 10n: 30n 40n, and 50n.
+Then to compute any sexagesimal product, say 53n, one only needed to add 50n and 3n computed from the table.
+Chinese
+In the mathematical text Zhoubi Suanjing, dated prior to 300 BC, and the Nine Chapters on the Mathematical Art, multiplication calculations were written out in words, although the early Chinese mathematicians employed Rod calculus involving place value addition, subtraction, multiplication and division.
+Chinese were already using a decimal multiplication table since the Warring States period.
+Modern methods
+The modern method of multiplication based on the Hindu-Arabic numeral system was first described by Brahmagupta.
+Brahmagupta gave rules for addition, subtraction, multiplication and division.
+Henry Burchard Fine, then professor of Mathematics at Princeton University, wrote the following:
+:The Indians are the inventors not only of the positional decimal system itself, but of most of the processes involved in elementary reckoning with the system.
+Addition and subtraction they performed quite as they are performed nowadays; multiplication they effected in many ways, ours among them, but division they did cumbrously.
+These place value decimal arithmetic algorithms were introduced to Arab countries by Al Khwarizmi in the early 9th century, and popularized in the Western world by Fibonacci in the 13th century.
+Grid Method
+Grid method multiplication or the box method, is used in primary schools in England and Wales & in some areas of the United States to help teach an understanding of how multiple digit multiplication works.
+An example of multiplying 34 by 13 would be to lay the numbers out in a grid like:
+and then add the entries.
+Computer algorithms
+The classical method of multiplying two -digit numbers requires digit multiplications.
+Multiplication algorithms have been designed that reduce the computation time considerably when multiplying large numbers.
+Methods based on the discrete Fourier transform reduce the computational complexity to .
+Recently, the factor has been replaced by a function that increases much slower although it is still not constant (as it can be hoped).
+In March 2019, David Harvey and Joris van der Hoeven submitted an article presenting an integer multiplication algorithm with a claimed complexity of O (n\log n).
+Products of measurements
+One can only meaningfully add or subtract quantities of the same type but can multiply or divide quantities of different types.
+Four bags with three marbles each can be thought of as: Peano arithmetic has two axioms for multiplication:
+:x \times S (y) = (x \times y) + x
+Here S (y) represents the successor of y, or the natural number that follows y.
+The various properties like associativity can be proved from these and the other axioms of Peano arithmetic including induction.
+For instance S (0), denoted by 1, is a multiplicative identity because
+x \times S (0)
+(x \times 0) +
+0 + x
+The axioms for integers typically define them as equivalence classes of ordered pairs of natural numbers.
+The model is based on treating (x,y) as equivalent to when x and y are treated as integers.
+Thus both (0,1) and (1,2) are equivalent to −1.
+The multiplication axiom for integers defined this way is
+: (x_p,\, x_m)
+\times (y_p,\, y_m)
+= (x_p \times y_p + x_m \times y_m,\; x_p
+\times y_m + x_m \times y_p)
+The rule that −1
+× −1 = 1 can then be deduced from
+: (0, 1) \times (0, 1)
+Multiplication is extended in a similar way to rational numbers and then to real numbers.
+Multiplication with set theory
+The product of non-negative integers can be defined with set theory using cardinal numbers or the Peano axioms.
+See below how to extend this to multiplying arbitrary integers, and then arbitrary rational numbers.
+The product of real numbers is defined in terms of products of rational numbers, see construction of the real numbers.
+Multiplication in group theory
+There are many sets that, under the operation of multiplication, satisfy the axioms that define group structure.
+These axioms are closure, associativity, and the inclusion of an identity element and inverses.
+A simple example is the set of non-zero rational numbers.
+Here we have identity 1, as opposed to groups under addition where the identity is typically 0.
+Note that with the rationals, we must exclude zero because, under multiplication, it does not have an inverse: there is no rational number that can be multiplied by zero to result in 1.
+In this example we have an abelian group, but that is not always the case.
+To see this, look at the set of invertible square matrices of a given dimension, over a given field.
+Now it is straightforward to verify closure, associativity, and inclusion of identity (the identity matrix) and inverses.
+However, matrix multiplication is not commutative, therefore this group is nonabelian.
+Another fact of note is that the integers under multiplication is not a group, even if we exclude zero.
+This is easily seen by the nonexistence of an inverse for all elements other than 1 and −1.
+Multiplication in group theory is typically notated either by a dot, or by juxtaposition (the omission of an operation symbol between elements).
+So multiplying element a by element b could be notated a \cdot b or ab.
+When referring to a group via the indication of the set and operation, the dot is used, e.g., our first example could be indicated by \left ( \mathbb\smallsetminus \ ,\cdot \right)
+Multiplication of different kinds of numbers
+Numbers can count (3 apples), order (the 3rd apple), or measure (3.5 feet high); as the history of mathematics has progressed from counting on our fingers to modelling quantum mechanics, multiplication has been generalized to more complicated and abstract types of numbers, and to things that are not numbers (such as matrices) or do not look much like numbers (such as quaternions).
+;Integers
+:N\times M is the sum of N copies of M when N and M are positive whole numbers.
+This gives the number of things in an array N wide and M high.
+Generalization to negative numbers can be done by
+:N\times (-M)
+(-N)\times M
+- (N\times M) and
+: (-N)\times (-M) = N\times M
+:The same sign rules apply to rational and real numbers.
+;Rational numbers
+:Generalization to fractions \frac\times \frac is by multiplying the numerators and denominators respectively: \frac\times \frac = \frac.
+This gives the area of a rectangle \frac high and \frac wide, and is the same as the number of things in an array when the rational numbers happen to be whole numbers.
+;Real numbers
+:Real numbers and their products can be defined in terms of sequences of rational numbers.
+;Complex numbers
+:Considering complex numbers z_1 and z_2 as ordered pairs of real numbers (a_1, b_1) and (a_2, b_2), the product z_1\times z_2 is (a_1\times a_2 - b_1\times b_2, a_1\times b_2 + a_2\times b_1).
+This is the same as for reals, a_1\times a_2, when the imaginary parts b_1 and b_2 are zero.
+:Equivalently, denoting \sqrt as i, we have z_1 \times z_2
+(a_1+b_1i) (a_2+b_2i)
+(a_1 \times a_2)+ (a_1\times b_2i)+ (b_1\times a_2i)+ (b_1\times b_2i^2)= (a_1a_2-b_1b_2)+ (a_1b_2+b_1a_2)i.
+;Further generalizations
+:See Multiplication in group theory, above, and Multiplicative group, which for example includes matrix multiplication.
+A very general, and abstract, concept of multiplication is as the "multiplicatively denoted" (second) binary operation in a ring.
+An example of a ring that is not any of the above number systems is a polynomial ring (you can add and multiply polynomials, but polynomials are not numbers in any usual sense.)
+;Division
+:Often division, \frac, is the same as multiplication by an inverse, x\left (\frac\right).
+Multiplication for some types of "numbers" may have corresponding division, without inverses; in an integral domain x may have no inverse "\frac" but \frac may be defined.
+In a division ring there are inverses, but \frac may be ambiguous in non-commutative rings since x\left (\frac\right) need not be the same as \left (\frac\right)x.
+Exponentiation
+When multiplication is repeated, the resulting operation is known as exponentiation.
+For instance, the product of three factors of two (2×2×2) is "two raised to the third power", and is denoted by 23, a two with a superscript three.
+In this example, the number two is the base, and three is the exponent.
+In general, the exponent (or superscript) indicates how many times the base appears in the expression, so that the expression
+:a^n = \underbrace_n
+indicates that n copies of the base a are to be multiplied together.
+This notation can be used whenever multiplication is known to be power associative.
+Notes

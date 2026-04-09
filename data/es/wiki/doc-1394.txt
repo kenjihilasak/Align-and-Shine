@@ -1,0 +1,96 @@
+Un círculo, en geometría euclídea, es el lugar geométrico de los puntos del plano cuya distancia a otro punto fijo, llamado centro, es menor o igual que una cantidad constante, llamada radio.
+En otras palabras, es la región del plano delimitada por una circunferencia y que posee un área definida.
+En castellano, la palabra círculo tiene varias acepciones, y a veces se utiliza indistintamente círculo por circunferencia siendo esta última una curva geométrica plana, cerrada, cuyos puntos son equidistantes del centro, y solo posee longitud (es decir, el perímetro del círculo).
+"Aunque ambos conceptos están relacionados, no debe confundirse la circunferencia (línea curva) con el círculo (superficie).
+Etimología y término actual
+La palabra círculo proviene del latín circulus, que es el diminutivo de circus y significa "redondez".
+Se suele utilizar el término geométrico disco, asociado al concepto círculo, en textos de topología, una rama de las matemáticas.
+En algunos textos de topología que, normalmente, son traducciones del inglés, se utiliza círculo como sinónimo de circunferencia.
+En cartografía se utiliza el término círculo como sinónimo de circunferencia, en expresiones tales como círculo polar ártico.
+Los elementos relevantes del círculo coinciden con los de la circunferencia con la única precisión que si dichos elementos están dentro del círculo entonces forman parte de él.
+Puntos relevantes
+El Centro del círculo coincide con el centro de la circunferencia que es su frontera, cualquier punto de ella tiene vecindades que contienen puntos del interior y del exterior del círculo.
+Segmentos relevantes
+Se llama Radio al segmento que une el centro con un punto de la circunferencia perimetral, y por extensión también se dice de la longitud de este.
+Se llama Diámetro al segmento que une dos puntos de la circunferencia pasando por el centro.
+El diámetro divide al círculo en dos partes iguales.
+También puede ser definido como dos radios que forman un ángulo de 180º.
+Cuerda: es un segmento que une dos puntos de la circunferencia sin pasar por su centro.
+Una cuerda define un arco.
+Segmento meridiano: línea que hace parte y sobresale del círculo .
+Rectas características
+Recta secante: Es la recta que corta al círculo en dos partes, con la propiedad de que toda recta secante, que pasa por el centro, es un eje de simetría.
+Hay una infinidad de ejes de simetría.
+Recta tangente: Es la recta que toca al círculo en un solo punto; es perpendicular al radio cuyo extremo es el punto de tangencia.
+Recta exterior: Es aquella recta que no toca ningún punto del círculo.
+Ángulos
+Ángulo central: cuando un ángulo tiene su vértice en el centro del círculo.
+Ángulo inscrito: los extremos y el vértice están sobre la circunferencia.
+Ángulo semiinscrito: formado por una cuerda y una recta tangente.
+En un círculo de radio uno, la amplitud de un ángulo central coincide con la longitud del arco que subtiende, así, un ángulo central recto mide π 2; si el radio mide r, el arco medirá r x π 360.
+Un ángulo inscrito mide la mitad del arco que subtiende, sin importar la posición del vértice.
+Un ángulo semi-inscrito mide la mitad del arco que se encuentra entre la cuerda y la tangente (véase arco capaz).
+Curvas
+Un círculo contiene infinitas circunferencias, siendo la más característica aquella que lo delimita, la circunferencia de radio máximo.
+Comparte con dicha circunferencia el arco, el segmento curvilíneo de puntos pertenecientes a la circunferencia de radio máximo.
+Superficies
+El círculo también puede compartir con la circunferencia exterior los siguientes elementos:
+Sector circular: es la superficie delimitada por un arco y los dos radios que contienen sus extremos.
+Segmento circular: es la superficie limitada por un arco y su cuerda.
+Semicírculo: es la superficie delimitada por un diámetro y media circunferencia exterior.
+Corona circular: es la superficie delimitada entre dos circunferencias concéntricas.
+Trapecio circular: es la superficie limitada por dos circunferencias y dos radios.
+Propiedades
+Perímetro del Círculo
+El perímetro de un círculo es una circunferencia y su ecuación es:
+: P = 2r \cdot \pi (en función del radio).
+: P = d \cdot \pi (en función del diámetro).
+donde P \, es el perímetro, \pi \, es la constante matemática pi (\pi=3.141592653589793238462643383279502884...), r \, es el radio y d \, es el diámetro del círculo.
+Área del círculo
+Existen numerosas fórmulas para calcular el área de un círculo.
+Un círculo de radio r \,, tendrá un área:
+: A = \pi \cdot r^2 ; en función del radio (r).
+: A
+\frac;
+en función del diámetro (d), pues
+\frac
+: A = \frac;
+en función de la longitud de la circunferencia máxima (C),
+pues la longitud de dicha circunferencia es: C = 2 \cdot \pi \cdot r
+Área del círculo como superficie interior del polígono de infinitos lados
+El área de un círculo se deduce sabiendo que la superficie interior de cualquier polígono regular es igual al producto entre el apotema y el perímetro de este polígono, es decir:
+A = \frac.
+Si se considera la circunferencia como el polígono regular de infinitos lados, entonces el apotema coincide con el radio de la circunferencia y el perímetro con la longitud de la circunferencia.
+Por tanto el área interior es:
+\frac
+\frac
+\frac
+\frac = \pi \cdot r^2
+Área del círculo como superficie triangular
+Si en un círculo desplegamos todos sus anillos circulares, y los consideramos como rectángulos, se forma un triángulo rectángulo de altura r y base 2πr (siendo la longitud de la base la de la circunferencia perimetral).
+El área A de este triángulo de altura r, será:
+:\begin
+A &= \frac \cdot \mathrm \cdot r \\
+&= \frac \cdot 2 \pi r \cdot r
+&= \pi r^2
+\end
+Semicírculo
+Se llama semicírculo a la mitad de un círculo.
+Es la figura geométrica plana (bidimensional) delimitada por un diámetro y la mitad de una circunferencia.
+Su área es la mitad de la del círculo.
+El arco de un semicírculo siempre mide 180°, por ser la mitad de los 360° de un círculo.
+El círculo en topología
+En geometría y topología, un círculo se denomina disco o bola, según el contexto; será un conjunto cerrado o abierto dependiendo de si contiene o no a la circunferencia que lo limita.
+* En coordenadas cartesianas, el círculo abierto con centro (a, b) y radio R será:
+::D=\.
+El círculo cerrado con el mismo centro y radio es:
+::\overline=\
+* Una esfera es un objeto tridimensional consistente en los puntos del espacio euclídeo \mathbb^3 que están a una distancia menor o igual a una cantidad fija: el radio de la esfera.
+Llamativamente, geómetras y topólogos adoptan convenios diferentes para el significado de "n-esfera".
+Para los geómetras, la superficie de la esfera es llamada 3-esfera, mientras que topólogos se refieren a ella como 2-esfera.
+Más aún se dice que toda curva simple y cerrada es equivalente a una circunferencia
+Observaciones
+* Es la figura límite de una elipse cuando la distancia entre los focos tiende a cero.
+* La intersección de una esfera ( sólido geométrico) con un plano cuya distancia al centro de la esfera es menor que el radio de esta, es un círculo.
+Si el plano pasa por el centro de la esfera se llama círculo mayor; en los demás casos, círculo menor.
+Véase también

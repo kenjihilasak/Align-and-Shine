@@ -1,0 +1,32 @@
+Tests Acid
+Acid3 désigne un test pour navigateur web mis en place par le groupe Web Standards Project et écrit par Ian Hickson en 2008.
+Il est destiné à soumettre les moteurs de rendu à une série de tests vérifiant leur capacité à supporter un choix de fonctionnalités relevant de différents standards du Web.
+Il est ainsi nommé à l'image des tests Acid2 (2005) et Acid1 (1998).
+Une mise à jour du test publiée le 17 septembre 2011 pour tenir compte des modifications intervenues dans les spécifications utiles du Web permet de constater que la plupart des navigateurs à cette date réussissent le test (sauf en ce qui concerne le critère méconnu de fluidité du test).
+La prochaine version (Acid4) se focalisera sur la bonne implémentation de SVG et CSS 3.
+Description du test
+Pour passer le test, un navigateur doit, avec ses réglages par défaut, faire le rendu fluide d'une animation dont l'image finale doit correspondre exactement à une image de référence, avec un score de 100/100.
+Pour cela, le navigateur doit implémenter correctement certains aspects du DOM2, d'ECMAScript, des CSS, du SVG, du XML et des URI.
+Le test Acid3 n'est donc pas un test de conformité global à ces spécifications, comme le sont en revanche les test suites du W3C.
+La version officielle du test est publiée le 3 mars 2008 par le , après avoir été élaborée principalement par Ian Hickson et complétée au terme d'une compétition ouverte aux développeurs.
+Le test n'est cependant alors pas encore documenté, et reste sujet à corrections, compte tenu de sa complexité.
+Les technologies testées
+** la propriété @font
+-face du module CSS3 permettant l'emploi de polices de caractères téléchargeables.
+Ce module est en 2008 encore au stade de document de travail du W3C, et non de recommandation.
+Håkon
+Wium
+Lie, créateur historique des Feuilles de style en cascade, soulignait dès 2007 l'importance cruciale à ses yeux de cette avancée
+** CSS Selectors (:lang, :nth-child (), combinators, dynamic changes, …)
+Impact sur le développement des navigateurs
+Le test Acid3 a suscité rapidement l'intérêt de la part des développeurs ou des communautés associées à certains navigateurs.
+Lors de sa publication officielle en mars 2008, Ian Hickson soulignait la réactivité remarquable à ses yeux de WebKit, qui a entrepris des corrections significatives avant même que le test ne soit finalisé.
+Des suivis de bugs spécifiques ont été ouverts dès janvier et février 2008 pour Konqueror, Firefox et Safari.
+Dès la fin mars 2008, WebKit et Opera annoncent simultanément que leurs versions en développement réussissent l'essentiel du test.
+Début 2008, aucune version finale de navigateur ne passe le test avec succès, chaque test individuel ayant été sélectionné spécifiquement pour son échec dans les versions de Firefox et de WebKit en développement en janvier 2008.
+À cet égard, Acid3 est l'objet de critiques de la part de Mike Shaver, l'un des fondateurs du projet Mozilla, pour qui: .
+Enfin, la publication du test Acid3 intervient alors que les principaux navigateurs s'apprêtent à finaliser de nouvelles versions majeures (Firefox 3, Internet Explorer 8), dont la stabilité et la qualité risqueraient d'être remises en cause par de nouvelles intégrations trop hâtives.
+C'est pourquoi, par exemple, la prise en compte d'Acid3 ne devrait concerner que les versions ultérieures de ces navigateurs.
+Les résultats précis du test Acid3 dans les divers navigateurs ne peuvent donc s'évaluer qu'à plus long terme.
+Résultats des principaux navigateurs
+Navigateurs pour mobile

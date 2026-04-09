@@ -1,0 +1,161 @@
+Matériel
+audio|Ouïe|Radiodiffusion|Vocabulaire radio propre à la technique|Composante radar
+Un récepteur radio (aussi appelé : poste de radio, transistor, tuner, autoradio) est un appareil électronique destiné à capter, sélectionner et décoder les ondes radioélectriques émises par les émetteurs radio.
+La fonction de décodage est d'extraire des ondes captées les informations, qui y ont été incorporées avant d’être émises : sons ou signaux numériques (RDS, DRM Digital
+Radio Mondiale, signaux horaires).
+Vocabulaire
+Le terme « radio » provient de la simplification de l'expression «
+récepteur d’émissions diffusées par ondes radiophoniques », et a été adopté progressivement avec le développement de l'usage de la radio, pour désigner toute la technique des ondes radio et dans le langage courant
+, une « radio » désigne aussi bien un récepteur qu'une chaîne de programmes.
+Tuner »
+vient de l'anglais « to tune » qui veut dire « accorder ».
+Le mot « tuner » peut désigner un appareil indépendant dans un ensemble « hifi », comportant un récepteur complet à l'exception des parties « audio ».
+Il désigne aussi un sous-ensemble d'une radio ou d'une télévision, comportant les circuits haute fréquence.
+Le terme français correct est syntoniseur.
+Galerie de photos
+File:2017 Odbiornik radiowy Światowid.jpg|Récepteur radio
+Światowid de 1964.
+Image:101111 Maison 010.jpg|Récepteur
+radio portable de 1972.
+Image:
+Radio.jpg|Récepteur radio de 2000.
+Les ondes radioélectriques
+Les ondes électromagnétiques sont caractérisées par leur fréquence ou leur longueur d'onde.
+On a défini un certain nombre de bandes de fréquences (voir ci-dessous, spectre des ondes électromagnétiques).
+Les autorités compétentes définissent les applications autorisées dans les différentes bandes de fréquence.
+Par exemple :
+* bandes pour radiodiffusion
+en modulation d'amplitude (AM) ou en modulation de fréquence (FM) ou en systèmes numériques ;
+* bandes pour transmission radio professionnelle (civile et militaire)
+Fonctions d'un récepteur radio
+Les signaux formés par les ondes électromagnétiques sont captés par une antenne.
+Celle-ci, quelle qu'elle soit, reçoit de nombreux signaux qu'il faut différencier.
+Un récepteur doit donc être capable de :
+* sélectionner, parmi les nombreux signaux, le signal désiré ;
+* amplifier ce signal afin de permettre son traitement ultérieur ;
+* démoduler le signal, qui est modulé en amplitude, en fréquence, en phase ou de type numérique, afin de récupérer une copie fidèle du signal original, appelé signal modulant.
+Histoire de tuner (ampli)
+Les diverses modulations
+FM : Fréquence Modulée
+AM :
+Amplitude Modulation
+La modulation d'amplitude (AM)
+Les principes de fonctionnement des récepteurs de radio AM (Modulation d'amplitude) sont multiples :
+La modulation à bande latérale unique
+La bande latérale unique (BLU ou SSB en anglais) est une variante de l'AM permettant d'émettre et de recevoir plus efficacement en radiotéléphonie professionnelle ou radioamateur.
+Le principal intérêt de ce type de modulation est sa bande réduite, environ le tiers de celle d'une radio AM, permettant d'augmenter le nombre de canaux dans une bande limitée et de réduire le bruit, et son efficacité due à l'élimination de la porteuse à l'émission.
+Ces deux facteurs combinés permettent à puissance égale d'atteindre des distances supérieures.
+La modulation de fréquence (FM : Fréquence Modulée)
+Les récepteurs de radio FM (Modulation de fréquence) fonctionnent sur le même principe que décrit ci-dessus, à ceci près qu'un circuit détecteur ou démodulateur spécial transforme la variation (ou modulation) de fréquence FM du signal haute fréquence HF (Haute Fréquence) à amplitude constante en une variation d'amplitude BF (Basse Fréquence), ce circuit est appelé « discriminateur ».
+Le procédé d'émission et de réception en FM est particulièrement insensible aux parasites permettant ainsi la diffusion de programmes en « haute fidélité » et le plus souvent en « stéréophonie ».
+Caractéristiques principales d'un récepteur
+Sensibilité
+La sensibilité d'un récepteur définit sa capacité à recevoir des émetteurs faibles ou lointains.
+Pour les récepteurs grand public en modulation d'amplitude, incluant l'amplificateur audio et le haut-parleur, on définit souvent la sensibilité comme la tension qu'il faut appliquer à l'entrée pour obtenir une puissance de dans le haut-parleur.
+Pour les récepteurs portatifs à antenne ferrite intégrée, on indique le champ électrique nécessaire pour obtenir le rapport S m.
+Sélectivité
+La sélectivité d'un récepteur décrit l'aptitude du récepteur à séparer le signal désiré de signaux perturbateurs (autres émetteurs, par exemple) à des fréquences voisines.
+Souvent les constructeurs se bornent à donner le facteur de réjection du canal adjacent ou du canal alterné, c'est-à-dire le rapport entre les puissances mesurés dans le haut-parleur lorsque, le récepteur étant réglé sur la fréquence Fp, le générateur est réglé à la fréquence Fp, Fp + LC ou Fp + 2LC.
+LC, la largeur d'un canal, est de 5 ou pour les émissions AM en ondes courtes, 9 ou pour les émissions AM en ondes moyennes ou longues, 200 ou pour les émissions en FM en ondes ultra-courtes.
+Stabilité
+Cette caractéristique indique comment l'accord du récepteur change si la température ambiante ou la tension d'alimentation changent.
+Dans les récepteurs superhétérodynes, les plus courants, la stabilité du récepteur est déterminée par la stabilité en fréquence de l'oscillateur local.
+La stabilité s'exprime en Hz V.
+Dynamique
+La dynamique du récepteur est le rapport entre le signal le plus grand toléré à l'entrée (si le signal est trop grand, des distorsions apparaissent) et le signal le plus faible (déterminé par le bruit du récepteur).
+Elle s'exprime en dB.
+Description détaillée
+Un récepteur radio est constitué de plusieurs blocs ayant chacun une fonction bien précise.
+Il existe divers schémas de réception, comme l'amplification directe, ou la super-réaction, mais le récepteur superhétérodyne est la structure de récepteur la plus utilisée, tant en radio qu'en télévision ou en hyperfréquences (radar, GSM, GPS...).
+Elle est caractérisée par l'utilisation d'un étage changeur de fréquence, ce qui permet une amplification plus aisée du signal.
+Le schéma ci-dessous montre la structure du récepteur superhétérodyne.
+Un filtre d'antenne élimine les signaux indésirables ;
+il est souvent placé avant l'ampli RF, de façon à éviter que des signaux indésirables éventuels, de forte amplitude, ne saturent l'ampli RF.
+L'amplificateur RF assure une première amplification ;
+il est conçu de façon à obtenir le meilleur rapport signal/bruit possible ;
+ceci est particulièrement important pour les récepteurs destinés à la réception de signaux à des fréquences élevées (supérieures à ) ;
+en effet, à ces fréquences, le bruit extérieur au récepteur est faible, il est donc important que le bruit interne soit le plus faible possible.
+* Le mélangeur est la pièce maîtresse du récepteur superhétérodyne ;
+lorsqu'on applique à ses entrées des signaux de fréquences Fo (oscillateur local) et Fp (signal à recevoir, modulé en amplitude ou fréquence), on retrouve en sortie des signaux non seulement à Fo et Fp mais aussi à Fo + Fp et |Fo
+- Fp|.
+Le filtre FI va supprimer les composantes Fo, Fp et Fo + Fp, ne laissant que la composante |Fo
+- Fp|. On a donc réalisé un changement de fréquence, c'est-à-dire une modification de la fréquence centrale du signal modulé, sans changer l'allure du spectre.
+La nouvelle fréquence centrale |Fo
+- Fps'appelle fréquence intermédiaire, FI.
+* L'oscillateur local pilote la seconde entrée du mélangeur ;
+on règle sa fréquence
+de façon que la fréquence intermédiaire soit fixe, indépendante de la fréquence du signal d'entrée
+; deux fréquences sont possibles :
+Fo = Fp + FI ou Fp
+- FI.
+* Grâce au changement de fréquence, l'on peut utiliser un filtre de fréquence centrale fixe ;
+on choisira en général un filtre céramique, qui permet d'obtenir une bonne réponse en fréquence (flancs raides) et donc une bonne sélectivité ;
+le filtre FI supprime les signaux indésirables à des fréquences proches de Fp, ainsi que les composantes indésirables générées par le mélangeur.
+L'amplificateur à fréquence intermédiaire est responsable de l'essentiel du gain du récepteur ;
+il est souvent constitué de plusieurs étages avec un contrôle automatique du gain (CAG);
+il amène le signal au niveau nécessaire pour la démodulation.
+* Le démodulateur récupère l'information transportée par le signal modulé.
+Pour les signaux MA (modulés en amplitude), on emploie un détecteur à diodes ;
+pour les signaux MF (modulés en fréquence), le démodulateur sera un discriminateur, un détecteur de rapport ou un discriminateur à coïncidence (aussi appelé détecteur à quadrature ou détecteur synchrone).
+L'amplificateur audio amplifie le signal démodulé et pilote le haut-parleur.
+Dans un récepteur superhétérodyne, les différentes fonctions, amplification, filtrage, démodulation, sont confiées à des étages distincts :
+* la sensibilité est déterminée par les différents amplificateurs ;
+* la réjection de la fréquence image est assurée par le filtre RF.
+Un montage hétérodyne désigne un mélangeur où le battement entre les deux signaux d'entrée produit un signal à fréquence audible.
+Le terme « superhétérodyne » a été choisi pour signifier qu'ici, le signal du mélangeur est à une fréquence (la FI) très supérieure aux fréquences audibles.
+L'antenne
+La fonction d'une antenne réceptrice est de convertir les ondes électromagnétiques provenant de l'émetteur en signal électrique (courant ou tension) qui sera appliqué au récepteur.
+Il existe de nombreux types d'antennes, le choix dépend principalement de la bande de fréquences que l'on désire capter : antenne dipôle, dipôle replié, antenne cadre, antenne ferrite, antenne Marconi, antenne rhombique, antenne Yagi.
+Dans les récepteurs portatifs, l'antenne est directement raccordée au récepteur ;
+dans les récepteurs fixes, l'antenne est généralement placée à une certaine distance du récepteur.
+On placera l'antenne en un endroit bien dégagé, avec un minimum d'obstacles susceptibles de faire écran, souvent sur le toit des bâtiments ou en haut d'une tour.
+L'antenne est alors reliée au récepteur par une ligne de transmission, câble coaxial ou ligne bifilaire.
+Les amplificateurs
+Comme les signaux captés sont généralement très petits (microvolts ou millivolts), il est nécessaire d'amplifier le signal.
+On distingue différents types d'amplificateurs :
+L'amplificateur RF (radiofréquence) : il amplifie le signal d'antenne, ou le signal provenant de l'ampli RF précédent.
+L'amplificateur FI (fréquence intermédiaire) : il amplifie un signal à la fréquence intermédiaire qui sort de l'étage mélangeur ;
+voir plus bas récepteur superhétérodyne et récepteur à double changement de fréquence.
+L'amplificateur audio : il amplifie le signal audio qui provient de la démodulation du signal capté par l'antenne.
+Le mélangeur
+Un mélangeur est un étage auquel on applique d'une part le signal d'entrée, capté par l'antenne et généralement amplifié par un ampli RF, et d'autre part un signal non-modulé, provenant d'un oscillateur local, c'est-à-dire intégré au récepteur.
+Après filtrage, le signal de sortie du mélangeur est décalé en fréquence, toujours la même, mais avec les mêmes composantes spectrales que le signal d'origine.
+L'oscillateur local
+L'oscillateur fournit le signal qui, injecté à la deuxième entrée du mélangeur, permet la transposition du signal en provenance de l'antenne appliqué sur la première entrée vers la fréquence intermédiaire (FI).
+Le démodulateur
+D'une façon générale, un démodulateur opère la fonction inverse d'un modulateur.
+Alors que ce dernier modifie une des caractéristiques (amplitude ou fréquence) d'un signal haute fréquence appelé porteuse, le démodulateur extrait l'information qui avait été confiée à la porteuse et permet d'obtenir une copie fidèle du signal audio original (musique, paroles...).
+Dans un récepteur en modulation d'amplitude, le démodulateur est souvent appelé détecteur (de crête).
+Le haut-parleur
+La mission du haut-parleur est de convertir le signal démodulé en ondes sonores perceptibles par l'oreille humaine.
+Les filtres
+Comme une antenne reçoit de très nombreux signaux, il est nécessaire de recourir à des filtres pour se débarrasser des signaux indésirables.
+Le plus souvent, on fait appel à des filtres passe-bande, qui laissent passer les signaux dont la fréquence se trouve dans la « fenêtre » du filtre.
+Caractéristiques principales de ces filtres : la fréquence centrale (le milieu de la « fenêtre ») et la largeur de bande (la largeur de la « fenêtre »).
+Technologie
+À l'aube de l'électronique, les fonctions citées étaient réalisées à l'aide de tubes à vide.
+Puis vint l'ère des transistors.
+Actuellement, et depuis une ou deux décennies, l'essentiel des composants électroniques du récepteur se retrouvent au sein d'un même circuit intégré.
+Ne peuvent être intégrés : l'antenne, le haut-parleur, le potentiomètre de réglage de volume, le condensateur de réglage de la fréquence (présent dans certains récepteurs), les composants d'alimentation.
+Il faut distinguer et ne pas confondre les technologies de construction des appareils, qui évoluent selon l'état de la technique et les contraintes économiques du moment, avec les principes de fonctionnement de ceux-ci : une radio RDS à affichage aux cristaux liquides dotée de la fonction de recherche automatique des stations fonctionne toujours selon le même principe qu'un poste à lampes, ce qu'ils ont de différent ce sont les technologies et le traitement des signaux utiles.
+Pour les filtres, on peut utiliser :
+* des circuits LC ;
+ces filtres peuvent être réalisés pour pratiquement n'importe quelle fréquence, la fréquence centrale peut être modifiée en utilisant un condensateur variable ;
+mais les flancs du filtre ne sont pas raides, ils laissent donc passer, en les atténuant, des composantes en dehors de la « fenêtre » ;
+* des filtres céramiques ou des filtres piézo-électriques ;
+ces filtres sont plus chers, donnent une meilleure réponse en fréquence (flancs plus raides) mais ni la fréquence centrale ni la largeur de bande ne peuvent être modifiés.
+Bibliographie
+* Paul, Berché, Pratique et Théorie de la TSF, Publications et éditions françaises de TSF et Radiovision
+, Paris 1934.
+* Jean-François, Remonté, Les Années Radio, L'Arpenteur, Paris 1989.
+* Camel Belhacène, Bernard Baris, Les débuts du Superhétérodyn, in TSF Panorama 1, 1989.
+* Bernard Baris
+, Un récepteur haut de gamme, l'Oradyne 1038, in TSF Panorama 11/12, 1990.
+* Joseph
+Carr, Réception des hautes fréquences, 2 volumes, Éditions Publitronic Elektor, Paris 1997.
+* Eugène
+Aisberg, La Radio ?
+mais c'est très simple, ETSF, Paris 1998.
+* Burkhard, Kainka, Construire des récepteurs de radio numérique sur ondes courtes,
+ETSF
+, Paris 2007

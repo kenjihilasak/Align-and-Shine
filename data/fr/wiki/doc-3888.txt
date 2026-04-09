@@ -1,0 +1,248 @@
+Marée|*|Océanographie physique
+La marée est la variation de la hauteur du niveau des mers et des océans, causée par des forces gravitationnelles dues à la Lune et au Soleil et une force d'inertie due à la révolution de la Terre autour du centre de gravité du couple Terre-Lune, le tout conjugué à la rotation de la terre sur son axe.
+Lors de la pleine lune et de la nouvelle lune, c'est-à-dire lorsque la Terre, la Lune et le Soleil sont sensiblement dans le même axe (on parle de syzygie), l'influence des corps célestes s'additionne et les marées sont de plus grande amplitude (vives-eaux).
+Au contraire, lors du premier et du dernier quartiers, lorsque les trois corps sont en quadrature, l'amplitude est plus faible (mortes-eaux).
+Le courant de marée montante se nomme flux ou flot, le courant de marée descendante se nomme reflux ou jusant.
+Selon l'endroit de la Terre, le cycle du flux et du reflux peut avoir lieu une fois (marée diurne) ou deux fois par jour (marée semi-diurne) ou encore être de type mixte.
+Le niveau le plus élevé atteint par la mer au cours d'un cycle de marée est appelé pleine mer (ou couramment marée haute).
+Par opposition, le niveau le plus bas se nomme basse mer (ou marée basse).
+Lorsque la mer a atteint son niveau le plus haut ou le plus bas et semble ne plus progresser, on dit que la mer est étale.
+Parler de « marée haute » et de « marée basse » est le plus courant, bien que le mot marée désigne normalement un mouvement.
+Les marées les plus faibles de l'année se produisent normalement aux solstices d'hiver et d'été, les plus fortes aux équinoxes de printemps et d'automne.
+Ce mouvement de marée est le plus visible, mais il n'est pas limité aux eaux : des marées, presques invisibles, affectent aussi l'atmosphère (marées atmosphériques) et toute la croûte terrestre (marées crustales), bien que dans une moindre mesure.
+Par conséquent, ce que nous percevons sur les côtes est en fait la différence entre la marée crustale et la marée océanique.
+Plus généralement, en raison des lois de la gravité, les objets et fluides célestes sont l'objet de forces de marée à proximité d'autres corps (Io, satellite rapproché de Jupiter, est soumis à des forces de marée colossales).
+Origine
+Les marées sont dues à la déformation des océans par les forces d'attraction de la Terre et des corps célestes les plus influents (la Lune et le Soleil), ainsi que de l'effet de la force centripète due à la rotation de la Terre autour du barycentre Terre-Lune.
+Il s'exprime de façon différente en chaque point du globe, en raison de nombreux effets additionnels : inertie du déplacement de l'eau, effets induits par la marée elle-même et les déformations terrestres, propagation des ondes différentes induites par des facteurs tels que la force de Coriolis, la taille et la forme des bassins (ouverts ou fermés, profond ou pas), etc., ce qui soumet les objets situés à sa surface à une force centrifuge.
+De façon simplifiée, la marée résulte donc de la combinaison de ces deux forces :
+* la force résiduelle résultant de la combinaison des différentes forces d'attraction ;
+* une force centrifuge due à la rotation du système Terre-Lune.
+C'est la combinaison de ces deux facteurs qui explique la présence de deux « bourrelets d'eau » de part et d'autre de la Terre selon l'axe Terre-Lune, on peut écrire le potentiel (eq 1.1) sous la forme :
+\Pi_=
+- G M_
+\Big ( \frac \Big ) \simeq -\fracG
+_ \frac
+\Big (\cos^\psi
+- \frac
+\Big )
+eq : 1.4)
+On donne les coordonnées (R_, \lambda_, \phi_) au corps céleste et les coordonnées (R_, \lambda_, \phi_) au point du globe P, on peut donc exprimer \cos (\psi) sous la forme :
+\cos\psi=\sin\phi_
+\sin\phi_^ + \cos\phi_
+\cos\phi
+_ \cos (\lambda_-\lambda_)
+L'équation (eq 1.4) devient alors :
+\Pi_ =
+- \fracG
+M_ \frac
+\Big \frac (1-3\sin^\phi_) (1-3\sin^\phi_)
++\sin (2\phi_)\sin (2\phi_^)\cos (\lambda_-\lambda_)
++\cos^\phi_\cos^\phi_
+\cos2 (\lambda_-\lambda_)
+\Big
+eq : 1.5)
+Si on détaille chacun des trois termes de l'équation (eq 1.5), et que l'on ne considère que le mouvement de rotation de la Terre en un jour, nous pouvons obtenir les termes de génération des premières ondes de marée.
+En effet :
+Le terme \cos^\phi_\cos^\phi_^
+\cos2 (\lambda_-\lambda_)
+effectue deux périodes lors d'une rotation de l'angle (\lambda_-\lambda_) de 2\pi (rotation de la Terre en 1 jour), il décrit donc une fonction semi-diurne.
+Le terme
+\sin (2\phi_)\sin (2\phi_)\cos (\lambda_-\lambda_^) n'effectue qu'une période lors d'une rotation, il décrit donc une formule .
+# Enfin le terme (1-3\sin^\phi_) (1-3\sin^\phi_^)
+ne dépend pas de la longitude mais uniquement de la latitude du corps céleste et du point de mesure, ce terme varie en fonction du mouvement de déclinaison du corps céleste (période >> 24 h), il décrit donc une fonction longue période.
+Nous ne développerons pas davantage ici le potentiel en fonction de tous les mouvements orbitaux des deux corps célestes perturbateurs.
+Nous ne citerons que les travaux de Darwin :
+* En 1883, il a effectué ce précédent calcul et a extrait 59 termes solaires et 32 termes lunaires.
+Ce travail est repris par Doodson qui a déduit près de 400 termes et plus récemment par bien d'autres chercheurs notamment Schureman en 1958.
+Ce sont Darwin et Doodson qui ont nommé les termes du développement du potentiel, ces noms sont toujours utilisés pour nommer les ondes.
+Les noms correspondent à un assemblage d'informations, ainsi M_ vient de M (Moon) un terme lunaire et 2 un terme semi-diurne, il en est de même pour l'onde solaire S_.
+Pourquoi deux bourrelets opposés ?
+Prenons deux objets sphériques homogènes A et B attirés l'un vers l'autre par la force gravitationnelle.
+Pour l'objet A, son centre de gravité est attiré vers le centre de gravité de B, selon les lois de l'attraction universelle (g sur le schéma).
+La force d'attraction est un peu plus importante sur la partie la plus proche de B (g + \Lambda sur le schéma), cette partie va donc avoir tendance à se bomber en direction de B, car la force d'attraction y est plus importante que celle au centre de gravité de A. Par contre, sur la partie de A la plus éloignée de B, l'attraction est moins forte (g - \Lambda sur le schéma), la force d'attraction y est plus faible, et cette partie éloignée va avoir tendance à se bomber dans la direction opposée à B. La rotation de la Terre et de la Lune s'effectue autour du centre de gravité commun de l'ensemble Terre-Lune (qui se situe à l'intérieur de la Terre, à de son centre).
+Sous les hypothèses ci-dessus de la marée statique, on observerait typiquement deux marées océaniques correspondant à chacun des deux bourrelets situés sur la droite Terre-Lune.
+Comme la Terre tourne sur elle-même, le phénomène s'observerait suivant une périodicité semi-diurne d'environ 12 h 25 min, correspondant à la moitié du jour lunaire (temps séparant deux passages successifs de la Lune au méridien).
+Une périodicité de 12 h pourrait aussi être relevée, ce qui traduit l'existence d'une marée solaire, d'amplitude un peu moins forte que celle causée par la Lune.
+Toutefois, le raisonnement présenté ne prend pas en compte les effets de propagation horizontale des courants de marée à la surface des océans, ou à proximité des côtes.
+Il en résulte dans ce dernier cas l'existence de marées de grande amplitude dans certaines régions propices, par la conformation des rivages ou des fonds, et dans le premier cas l'existence dans certaines régions océaniques de points où on n'observe qu'une seule marée journalière.
+La Lune subit aussi un effet de marée causé par la Terre, et beaucoup plus important que celui observé sur Terre, compte tenu de la masse importante de la Terre par rapport à la Lune.
+C'est pourquoi petit à petit le mouvement de rotation de la Lune sur elle-même s'est synchronisé au mouvement de la Lune autour de la Terre, nous présentant désormais toujours la même face (à une petite oscillation près : la libration).
+La Lune subit de la part de la Terre un effet de marée constant à sa surface, ce qui explique que sa forme ne puisse pas être parfaitement sphérique, mais ellipsoïdale.
+Les effets de marée existent aussi sur la croûte terrestre, qui se soulève au passage de la Lune et du Soleil et aux antipodes.
+Le développement d'une théorie systématique des marées terrestres a débuté avec George H. Darwin en 1879 et a ensuite été poursuivi par de nombreux auteurs, notamment par William Kaula en 1964 et par Paul Melchior.
+C'est cet effet qui a permis de résoudre une énigme au CERN, dans les relevés effectués au LEP : les faisceaux de particules faisaient un trajet plus long à cause de ce soulèvement avec un rythme identique à celui des marées.
+Cette différence de trajet modifiait périodiquement les mesures.
+On parlait d’une amplitude de de déplacement vertical de la croûte terrestre, pas très différent de l'amplitude moyenne du mouvement moyen au centre des océans.
+Autres effets induits : ralentissement de la vitesse de rotation de la Terre, et éloignement de la Lune
+Le phénomène des marées crée des mouvements de la structure terrestre et des océans qui engendrent des frottements, soit une dissipation d’énergie (sous forme de chaleur) qui est prélevée sur l’énergie cinétique de rotation de la Terre.
+Dans le même temps, afin de conserver le moment cinétique du système Terre-Lune, la Lune s'éloigne de la Terre d'environ par an.
+Ces mécanismes contribuent l'un et l'autre à une réduction de l’énergie cinétique, soit un ralentissement de la vitesse de rotation de la Terre qui entraîne un rallongement de la durée des jours.
+Les grandes marées se produisent habituellement à l'automne et au printemps.
+Plusieurs phénomènes astronomiques contribuent à la variation de l'amplitude des marées :
+La syzygie du Soleil et de la Lune (autrement dit, la nouvelle ou pleine lune).
+Cela se produit essentiellement lorsque la longitude du Soleil et de la Lune sont voisines ou voisines de l'opposition l'une de l'autre, soit deux fois par mois.
+Précisément, la période de ce phénomène est 14,7652944 jours, moitié de la durée que l'on qualifie de mois lunaire synodique.
+* Le passage du Soleil au nœud lunaire, c'est-à-dire le passage du Soleil dans le plan de l'orbite lunaire : celui-ci se produit deux fois par an (à la régression du nœud près), et détermine les « saisons d'éclipses » (ce sont pendant celles-ci que les éclipses de Soleil ou de Lune se produisent).
+Les marées sont alors plus importantes en syzygie (voir le point précédent) en raison du meilleur alignement Terre-Lune-Soleil.
+La période précise est 173,310038 jours, moitié de la durée que l'on qualifie d'année draconitique.
+Le passage du Soleil au nœud lunaire s'est par exemple produit le , le , le , le (plus précisément, cela sont les dates de coïncidence des longitudes moyennes ;
+notamment, le calcul des anomalies est omis ;
+mais on reconnaît le voisinage de l'éclipse de Lune du et de l'éclipse de Soleil du 21 juin 2001).
+Comme on le constate, ces dates sont actuellement proches des solstices mais évoluent rapidement dans l'année au cours du temps.
+La période précise est 182,621095 jours, la moitié d'une année tropique.
+Le phénomène des marées d’équinoxes n’a rien à voir avec l’alignement Lune-Terre-Soleil, qui a lieu toutes les deux semaines à la pleine lune et à la nouvelle lune et se réalise d’autant mieux lorsqu’il coïncide avec le cycle draconitique de 173 jours (Éclipse#Principes mécaniques).
+Le Soleil se trouve au-dessus de l’Équateur lors des équinoxes, alors qu’il est au-dessus du tropique du Cancer lors du solstice de juin et au-dessus du tropique du Capricorne lors du solstice de décembre.
+Rappelons que l’effet de marée d’un astre est maximal au point de la Terre se trouvant le plus proche de cet astre et au point se trouvant le plus éloigné.
+Aux moments des solstices, un des points où l’effet de marée du Soleil est maximal se trouvera en permanence sur le tropique du Cancer, pendant que l’autre se trouvera aux antipodes, sur le tropique du Capricorne.
+Chaque point se trouvant sur un des deux tropiques sera donc soumis à un effet de marée maximal du Soleil une seule fois par jour (on parle d’onde diurne).
+Au moment des équinoxes, ces deux points seront en permanence sur l’Équateur.
+Chaque point de l’équateur sera donc soumis à un effet de marée maximal du Soleil deux fois par jour (on parle d’onde semi-diurne).
+À ce moment-là, le terme diurne s'annule dans le calcul des marées, et le terme semi-diurne est maximal.
+* Le passage de la Lune au périgée, moment auquel les forces de marée exercées par la Lune sont donc les plus importantes.
+À la différence du nœud lunaire, qui régresse sur l'écliptique, le périgée, lui, avance.
+Le temps entre deux passages de la Lune au périgée est le mois anomalistique, de 27,5545499 jours.
+Le calcul de la position du périgée lunaire est soumis à énormément de perturbations.
+* Le passage de la Terre au périhélie, moment auquel les forces de marée exercées par le Soleil sont donc les plus importantes.
+Le périhélie terrestre progresse sur l'écliptique ;
+cela dit, la majeure partie (environ 5/6) de cette progression est en réalité due à la régression (
+« précession ») de l'équinoxe par rapport aux étoiles fixes.
+Le temps séparant deux passages de la Terre au périhélie est l'année anomalistique de 365,259636 jours.
+Il se produit actuellement le 3 janvier de l'année.
+Il est possible d'avoir des conjonctions assez bonnes entre tous ces phénomènes.
+Autres facteurs influant sur les marées
+Pour la Terre, seuls la Lune et le Soleil ont des impacts significatifs, qui s'additionnent ou se contrarient selon les positions respectives de la Terre, de la Lune et du Soleil, et de leur inclinaison.
+En fait, la Lune est beaucoup plus proche de la Terre que le Soleil, mais a aussi une masse beaucoup plus petite, de telle sorte que leurs attractions sont d'ordres de grandeur comparables : celle du Soleil est environ la moitié de celle de la Lune.
+Les autres corps célestes possèdent un rapport masse/distance trop faible pour que leur influence soit sensible.
+Cette attraction combinée de la Lune et du Soleil est cependant perturbée ou même parfois contrariée par d'autres phénomènes physiques comme l'inertie des masses d'eau, la forme des côtes, les courants marins, la profondeur des mers, ou encore le sens du vent local.
+De plus, un cycle long s’établit aussi sur une période de 18,6 ans durant lequel le niveau moyen des pleines mers augmente de 3 % par an durant 9 ans, puis diminue de 3 % durant 9 ans, et ainsi de suite.
+Ce cycle exacerbe puis diminue les effets de la montée des océans induite par le réchauffement climatique Selon l'IRD de France, là où l'amplitude des marées est naturellement forte (exemple : baie du Mont Saint-Michel) ce cycle contribuera dans les années 2008-2015 proportionnellement plus à l'élévation du niveau de la pleine mer, ou des grandes marées hautes que le seul réchauffement climatique (jusqu'à + , c'est-à-dire 20 fois l'expansion thermique de l'océan consécutive au réchauffement climatique global).
+Inversement de 2015 à 2025 la phase décroissante de ce cycle devrait conduire à un ralentissement apparent du phénomène de montée de l'océan, et probablement de l'érosion du trait de côte qui lui est généralement lié.
+Les courants marins
+La Terre se déplace au cours de sa circonvolution entre deux lignes de circonférence formant une couronne dont l'écartement est le diamètre de la Terre, environ .
+Cela nous amène à constater que la circonférence intérieure est plus courte que l'extérieure.
+Cette différence se traduit par en soit environ par jour et un peu plus de qui correspond à la différence de vitesse de déplacement dans l'espace entre l'intérieur et extérieur de la couronne, soit la face midi et la face minuit de notre globe terrestre.
+Cette différence est à l’origine des courants marins à contresens de la rotation le long de l'équateur.
+L'inertie
+C'est une force qui s'oppose au mouvement d'une masse que l'on veut déplacer (augmentation de vitesse) ou arrêter (diminution de vitesse).
+Plus la masse est grande, plus l'inertie sera importante.
+C'est le cas de la masse d'eau de tous les océans du globe, qui tente de contrarier les mouvements auxquels elle est soumise par attraction combinée de la Lune et du Soleil.
+Il y a généralement deux cycles de marée par jour (il y a des exceptions) dont les instants de haute mer et de basse mer varient avec la Lune (attraction prépondérante).
+La marée se manifeste essentiellement sur les côtes maritimes, où la mer monte ou se retire suivant un cycle lié, d'une part à la rotation de la Terre et à sa révolution autour du Soleil, d'autre part à la rotation de la Lune autour de la Terre.
+Ce cycle complet (pleine et basse mer) dure environ 12 heures 25 minutes.
+L'effet piston
+Lorsque les côtes se resserrent en entonnoir, comme dans le fond de certaines baies (baie du Mont-Saint-Michel, baie de Fundy, etc.) il y a amplification de la hauteur des marées qui peuvent dépasser entre les basses eaux et les hautes eaux par effet de résonance.
+Il s'y produit aussi un retard horaire progressif comme en Manche de l'entrée à Dunkerque, ou dans l'estuaire du fleuve Saint-Laurent au Canada.
+Les mers intracontinentales et intérieures sont peu sujettes aux marées car les masses d'eau et les distances entre les côtes concernées sont beaucoup plus faibles que dans les océans.
+Pour les mers partiellement ouvertes, tout dépend de l'ouverture par rapport au volume propre : en Méditerranée, l'étroitesse du détroit de Gibraltar empêche remplissage ou vidage conséquent, alors que dans le golfe du Morbihan, la marée génère des courants violents.
+Les marées terrestres
+Le susbstrat géologique et la croûte terrestre subissent aussi l'influence des marées.
+En effet les plaques formant le manteau terrestre sont épaisses et solides, mais tout en étant assez élastiques et déformables à grande échelle, et de ce fait se déplacent comme le niveau des océans, mais la déformation de la terre est moindre (de l'ordre d'un à quelques décimètre).
+Historique de l'étude des facteurs causaux des marées
+De l'Antiquité
+Dans l'Antiquité, le phénomène de marée est remarqué par Hérodote dans la mer Rouge, et les Grecs avaient également noté les courants capricieux de certains détroits méditerranéens.
+Ils prirent pleinement conscience du phénomène en s'aventurant en dehors de la Méditerranée, au (Pythéas en Atlantique, Alexandre le Grand en Inde).
+Un lien avec la position de la Lune est proposé par le même Pythéas, celui-ci se fondant sur ses propres observations ainsi que sur celles des Celtes de la côte Atlantique.
+Platon pensait que les marées étaient provoquées par des oscillations de la Terre.
+Mais les observations les plus précises sont effectuées par Posidonios au à Cadix.
+Il décrit trois phénomènes périodiques liées aux marées : les deux marées quotidiennes, correspondant aux deux culminations (inférieure et supérieure) de la Lune ;
+la période semi-mensuelle correspondant aux syzygies avec le Soleil ;
+la période semi-annuelle correspondant aux marées d'équinoxe.
+Il évalue correctement le décalage entre le passage de la Lune et le soulèvement des eaux.
+Posidonios voit dans ce phénomène la manifestation d'une sympathie, d'une attirance des flots pour la Lune réputée humide.
+Cicéron, Pline l'Ancien, Strabon, Ptolémée affirment que le phénomène des marées dépend des cours de la Lune et du Soleil.
+Du au
+Au , avec Augustin Erigène, les termes de morte-eau (ledo) et de vive-eau (malina) et leur corrélation avec les phases de la Lune apparaissent pour la première fois.
+Au , Bède le Vénérable approfondit les observations de Posidonios et étudie les variations des marées d'un point à l'autre de la côte anglaise.
+Il est le premier à : l'établissement du port.
+Il constate que .
+Au , l'astronome perse Albumasar décrit de façon détaillée dans son Introductorium magnum ad Astronomiam les corrélations entre marée et Lune.
+Toutefois, si lexplication par l'attirance a la faveur des astrologues et des médecins pour qui la Lune est l'astre humide par excellence, elle n'est pas reçue par les disciples d'Aristote qui limitent à la lumière et au mouvement l'action des astres sur la Terre.
+À partir du , se développe la théorie aimantique des marées qui compare l'action de la Lune sur les eaux de la mer à l'action de l'aimant sur le fer.
+C'est aux médecins et astrologues du qu'il faut attribuer l'idée de décomposer la marée totale en deux marées de même nature, l'une produite par la Lune, l'autre par le Soleil.
+Au , Kepler adopte le concept d’une force d’attraction de la Lune, de nature magnétique, qui engendrerait le phénomène des marées.
+Galilée se moque de la position de Kepler quant à l'attraction lunaire et explique le flux et le reflux de l’océan par les actions qu‘engendrent la rotation de la Terre.
+Malgré les objections, Galilée considère prouver le mouvement de la Terre par cette explication.
+La théorie de la gravitation de Newton permit de revenir à l'influence lunaire et solaire, fondée sur des principes scientifiques.
+Cette théorie fut largement adoptée au cours du , même si, au début du , Bernardin de Saint-Pierre tenta de persuader l'Académie des sciences française que ce n'était pas la Lune mais la fonte (alternée avec le gel nocturne) des glaciers qui provoquait les marées.
+Poussant jusqu'au bout son raisonnement, il justifiait la grande amplitude des marées d'équinoxe par l'action conjuguée des glaciers arctiques et antarctiques.
+Marnage
+Le marnage est, pour un jour donné et dans un intervalle pleine mer
+- basse mer, la différence de hauteur d'eau entre le niveau de la pleine mer et celui de la basse mer (exemple : marnage de ).
+Le marnage varie continuellement.
+La zone alternativement couverte et découverte par la mer, limitée par ces deux niveaux lorsqu'ils sont à leur maximum, est appelée l'estran ou zone de marnage, ou encore « zone de balancement des marées ».
+Le marnage est parfois confondu avec l'amplitude de marée, mais cette dernière expression est tantôt assimilée à l’expression anglaise désignant le marnage, tantôt assimilée à l’expression désignant le demi-marnage (différence de hauteur d'eau à pleine mer ou à basse mer avec celle de la mi-marée).
+Coefficient de marées
+Il s'exprime en centièmes et varie de 20 à 120, et indique la force de la marée.
+Le coefficient moyen est 70.
+Les grandes marées ou marées de vives
+eaux
+se produisent lorsque la Lune et le Soleil se trouvent en conjonction ou opposition (on parle de syzygie) par rapport à la Terre (situation de pleine ou de nouvelle lune) : leurs forces d'attraction s'ajoutent.
+Ce phénomène explique que les plus grandes marées (marées d'équinoxes) ont lieu lors de la première syzygie qui suit l'équinoxe (21 mars et 21 septembre).
+Inversement, les marées sont faibles (marées de mortes-eaux) lorsque la Lune est à 90° de l'axe Soleil-Terre .
+De même, les plus faibles ont lieu aux alentours des solstices d'été et d'hiver (21 juin et 21 décembre).
+:C = 20, définit la plus faible marée possible
+:C = 45, définit une morte-eau moyenne
+:C = 70,
+définit la séparation entre vive-eau et morte
+eau
+:C = 95, définit une vive-eau moyenne
+:C = 100, définit une vive-eau équinoxiale moyenne
+:C = 120,
+définit la plus forte marée possible
+Si U est, en un lieu donné, le demi-marnage de la plus forte marée de vive-eau survenant après une syzygie équinoxiale moyenne (C = 100), alors la hauteur d'eau (h) à la pleine mer d'une marée de coefficient (C)
+est environ :
+hpm = (1,2 + C) × U
+: de même la hauteur d'eau à la basse mer sera approximativement : hbm = (1,2 − C) ×
+* Dans ces deux précédentes formules, le coefficient C ne doit pas être exprimé en centièmes.
+C variant de 20 à 120, dans ces formules il prendra les valeurs de 0,2 à 1,2.
+* U est également appelé unité de hauteur du lieu considéré.
+Exemple pratique :
+la hauteur d'eau à pleine mer en un lieu où l'unité de hauteur U
+lorsque le coefficient C
+95 sera approximativement : hpm
+1,2 + 0,95) ×
+5,50
+De même la hauteur d'eau à basse mer sera hbm
+1,2 − 0,95
+5,50
+Classement des composantes de la marée
+Lieux de marées remarquables
+Au Canada : dans la baie d'Ungava, le marnage peut atteindre 17 voire et dans la baie de Fundy, .
+Ces baies sont les deux endroits où les marées les plus importantes au monde ont lieu et, selon les sources, on attribue à l'une ou à l'autre le record de marnage.
+Viennent ensuite Puerto Gallegos en Argentine (), l'estuaire de la Severn en Angleterre (), la baie de Frobisher au Canada (), la baie du Mont-Saint-Michel en France () et la baie de Saint-Brieuc en France ().
+* En Grande-Bretagne : le canal de Bristol, avec de marnage.
+* En France : jusqu'à de marnage
+dans la baie du Mont-Saint-Michel en Normandie
+, où il est traditionnellement dit que « la mer monte à la vitesse d'un cheval au galop » et entoure alors le Mont-Saint-Michel.
+Il est possible d'observer cet important marnage à Granville et plus largement le niveau de la mer pour ce site, entre autres, à partir du site des réseaux de référence des observations marégraphiques REFMAR.
+* En Norvège : le Saltstraumen, remplissant un fjord de de mètres cubes.
+En Australie
+Occidentale :
+les Horizontal Falls, dans la région du Kimberley, avec de marnage environ.
+* À Pondichéry (Inde) et dans certains ports du Viêt Nam, où il n'y a qu'une seule marée par jour.
+Les modèles de marées
+Caractéristique de l'onde de marée
+L'attraction de la Lune et du Soleil crée une onde de marée qui, en se propageant, crée le phénomène de marée.
+La vitesse de propagation est élevée dans les eaux profondes (400 nœuds en Atlantique, soit environ par seconde), beaucoup plus faible dans les eaux peu profondes (30 nœuds en Manche, soit environ par seconde).
+Cette vitesse détermine le décalage des horaires de pleine mer en différents lieux.
+De plus, la marée subit un retard par rapport aux situations astrales ;
+on parle dâge de la marée.
+Sur les côtes françaises, elle vaut environ 36 heures.
+À Brest, on verra donc les grandes marées 36 heures après la pleine lune.
+Cette notion d'âge de la marée ne doit pas être confondue avec le temps de propagation de l'onde de marée décrite au paragraphe précédent.
+L'ampleur et la périodicité de la marée dépendent du lieu : ils sont déterminés par de nombreux facteurs dont la taille du bassin maritime, sa profondeur, le profil des fonds marins, l'existence de bras de mer, la latitude, etc.
+Dans certaines mers, comme la Méditerranée, tous ces facteurs sont à l'origine d'une marée tellement faible qu'elle peut être négligée.
+Ailleurs les marées peuvent atteindre de marnage.
+Selon la latitude du lieu et la morphologie de sa côte (caractéristiques ci-avant), on distingue des marées de quatre types :
+* Régime de marée semi-diurne :
+deux pleines mers et deux basses mers ont lieu chaque jour lunaire (24 h 50 min), cas typique des côtes atlantiques européennes avec des amplitudes similaires ;
+* Régime de marée semi-diurne à inégalité diurne : régime similaire au précédent mais les hauteurs des pleines mers et des basses mers consécutives ont des amplitudes différentes (océan Indien) ;
+* Régime de marée diurne :
+régime plutôt rare dans lequel on observe une pleine mer et une basse mer par jour (golfes du Mexique, de Finlande, mer Baltique, mers d'Indochine) ;
+* Régime marée mixte : au cours de la lunaison, succession de marées marquant une transition progressive entre le type diurne et le type à inégalité diurne (côtes de l'océan Pacifique, mer Égée, mer Adriatique)
+La marée en France métropolitaine
+Elle est du type « semi-diurne », avec une période moyenne de 12 heures 25 minutes.
+Il y a donc un décalage chaque jour des heures de basse et pleine mer.
+Le marnage est très variable.
+Celui-ci peut atteindre dans la baie du mont Saint-Michel lors des grandes marées, et être seulement quelques dizaines de centimètres en Méditerranée en mortes-eaux.

@@ -1,0 +1,22 @@
+Un triangle isocèle.
+Les deux côtés portant une marque sont égaux.
+Plus exactement, un triangle ABC est dit isocèle en A lorsque les longueurs des côtés [AB] et [AC] sont égales.
+Un triangle ABC est isocèle en A si et seulement si le point A appartient à la médiatrice du segment [
+BC].
+Si H est la projection orthogonale de A sur la droite (BC), les triangles AHB et AHC sont rectangles en H.
+Le théorème de Pythagore s'applique et donne :
+L'égalité des longueurs AB et AC équivaut donc à l'égalité des longueurs HC et HB.
+Comme H appartient à la droite (BC), cette égalité signifie exactement que le point H est le milieu du segment [AB].
+Par conséquent, AB=AC si et seulement si le point A se projette orthogonalement sur le milieu du segment [BC].
+Ou encore : le triangle ABC est isocèle en A si le point A appartient à la médiatrice du segment [
+BC].
+Le triangle ABC est isocèle en A si les angles en B et en C ont même mesure.
+Supposons que le triangle ABC soit isocèle en A. Alors la propriété précédente implique que A appartienne à la médiatrice de [BC]. En particulier, la symétrie axiale d'axe la médiatrice fixe le point A. Par ailleurs
+, elle envoie B sur C et C sur B. Elle envoie donc l'angle en B sur l'angle en C. Comme les symétries axiales préservent les mesures d'angles, les angles en B et en C ont donc même mesure.
+Supposons que les angles B et en C aient les mêmes mesures.
+Appelons
+comme ci-dessus H le projeté orthogonal de A sur la droite (BC).
+Comme le triangle AHB est rectangle en H, le rapport de BH par AH est égal par définition à la tangente de l'angle en B. De même, le rapport de AH par CH vaut la tangente de l'angle en C. Par conséquent, les longueurs BH et CH sont égales : H est nécessairement le milieur du segment [
+BC].
+Le point A appartient donc à la médiatrice du segment [BC] ;
+autrement dit le triangle ABC est isocèle en A.

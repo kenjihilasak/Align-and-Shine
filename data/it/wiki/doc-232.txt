@@ -1,0 +1,104 @@
+Unequazione (dal latino aequatio) è una uguaglianza matematica tra due espressioni contenenti una o più variabili, dette incognite.
+L'uso del termine risale a Leonardo Fibonacci.
+Se un'equazione ha n incognite, allora ogni n-upla (ordinata) di elementi che sostituiti alle corrispondenti incognite rendono vera l'uguaglianza è una soluzione dell'equazione.
+Risolvere un'equazione significa individuare l'insieme di tutte le sue soluzioni.
+Dominio
+Il dominio (o insieme di definizione) delle variabili incognite è l'insieme degli elementi per cui le espressioni ad ambo i membri dell'equazione sono definite, ovvero quell'insieme di numeri per cui l'equazione esiste.
+L'insieme delle soluzioni è condizionato dal dominio:
+per esempio l'equazione
+non ammette soluzioni se il dominio è l'insieme dei numeri razionali, mentre ammette due soluzioni nei numeri reali, che possono essere scritte come \pm \sqrt.
+Analogamente, l'equazione
+non possiede soluzioni reali ma è risolvibile se il dominio è il campo dei numeri complessi.
+Principi di equivalenza
+Due equazioni si dicono equivalenti se i rispettivi insiemi delle soluzioni coincidono.
+Vi sono due principi che consentono di manipolare le equazioni per trovare l'insieme delle soluzioni;
+essi sono una conseguenza diretta delle proprietà delle uguaglianze:
+* Primo principio di equivalenza:
+data un'equazione, aggiungendo o sottraendo ad entrambi i membri uno stesso numero o una stessa espressione contenente l'incognita si ottiene un'equazione equivalente, a patto che, nel caso di aggiunta di un'espressione dipendente da un'incognita, non vengano ristrette le condizioni di esistenza.
+Esempio:
+4x+13=28\;
+4x+13\underline=28\underline\; ;
+4x+15=30\;
+* Secondo principio di equivalenza:
+data un'equazione, moltiplicando o dividendo ambedue i membri per un numero diverso da zero, o per un'espressione contenente l'incognita che non si annulli qualunque sia il valore dell'incognita stessa, e che non restringa le condizioni di esistenza, si ottiene un'equazione equivalente.
+Esempio:
+25x^-10x+1=5x-1\; ;
+(5x-1)^= 5x-1\; ;
+\frac= \frac\; ;
+5x-1= 1\;
+Notazioni
+Tipicamente in un'equazione compaiono, oltre alle incognite, dei coefficienti noti che moltiplicano le incognite stesse e dei termini noti che sono ad esse applicati tramite somma algebrica:
+questi elementi, se non sono esplicitati nel loro valore numerico, sono indicati in genere con le lettere a, b, c... mentre alle variabili incognite sono convenzionalmente attribuite le ultime lettere dell'alfabeto (x, y, z...).
+Le soluzioni di un'equazione vengono generalmente indicate esplicitando le incognite delle espressioni che contengano le costanti ed eventuali parametri arbitrari.
+Ad esempio, la soluzione dell'equazione
+ax + 2 = b
+dove a è un parametro non nullo, e il dominio è l'insieme dei numeri reali, si scrive come
+x = \frac
+Nomenclatura
+Un'equazione si dice:
+* determinata se ammette un numero finito di radici, in tal caso l'insieme soluzione sarà discreto, formato da un numero finito di elementi.
+* impossibile se non ammette alcuna radice, in tal caso l'insieme soluzione sarà l'insieme vuoto.
+* identità se ha come insieme delle soluzioni tutto il dominio, in tal caso l'insieme delle soluzioni sarà uguale al dominio.
+* indeterminata se il numero delle soluzioni è infinito ma non coincide con tutto il dominio, in tal caso l'insieme soluzione sarà infinito e diverso dall'insieme dominio.
+Risolubilità
+Dal teorema fondamentale dell'algebra, segue immediatamente che un'equazione polinomiale (ovvero formata da un polinomio eguagliato a zero, in una variabile) di grado n ammette sempre n soluzioni in campo complesso, di cui alcune possono essere multiple.
+In altre parole, un'equazione di grado n ammette almeno 1 soluzione e al massimo n soluzioni complesse differenti.
+Per il teorema di Abel-Ruffini, non esiste una formula generale per esprimere le radici delle equazioni polinomiali di grado 5 o superiore tramite una formula per radicali.
+Viceversa le equazioni di primo grado, secondo grado, terzo grado e quarto grado ammettono una formula risolutiva.
+Casi particolari di equazioni di grado superiore al quarto possono comunque ammettere una formula risolutiva.
+Il metodo delle tangenti di Newton, sotto determinate ipotesi, fornisce un algoritmo per la risoluzione numerica delle equazioni.
+Un altro algoritmo con ipotesi più generali è il metodo di bisezione.
+Le soluzioni trovate mediante metodi numerici vengono chiamate approssimate in contrapposizione alle soluzioni date da formule chiuse che vengono chiamate esatte.
+La nomenclatura è in parte fuorviante perché i metodi approssimati possono, in alcuni casi, determinare in maniera più precisa e più veloce le soluzioni numeriche di una equazione rispetto alle formule chiuse.
+Classificazione delle equazioni
+Una prima classificazione delle equazioni può avvenire in questo modo:
+* equazioni trascendenti, non riconducibili a polinomi;
+* equazioni funzionali, in cui le incognite sono funzioni.
+Equazioni algebriche
+Le equazioni algebriche possono essere divise in vari gruppi in base alle loro caratteristiche;
+è necessario ricordare che un'equazione deve appartenere ad almeno e solo una delle categorie per ogni gruppo.
+In base al grado del polinomio:
+Possono inoltre essere divise in base alla presenza di incognite al radicando di radici:
+* equazioni irrazionali, contenenti radici con incognite al radicando, si classificano in base all'indice della radice:
+Equazioni omogenee
+Si definisce equazione omogenea, un'equazione algebrica in più variabili i cui termini hanno tutti lo stesso grado.
+Un'equazione omogenea ammette sempre la soluzione banale con tutte le variabili uguali a 0 e, su un campo algebricamente chiuso, ammette sempre infinite soluzioni, infatti da ogni soluzione se ne ottengono infinite altre alterandole per un fattore di proporzionalità.
+Ad esempio:
+x^2 -5xy+6y^2
+(x-3y) (x-2y)
+ha per soluzioni, sul campo dei numeri complessi la coppia x
+e y
+e la coppia
+e y
+3 con k e h numeri complessi qualsiasi.
+Non è vero su un campo non algebricamente chiuso, infatti l'equazione omogenea
+x^2+y^2=0
+ammette come unica soluzione, sul campo dei numeri reali, la coppia
+e y
+Equazioni trascendenti
+Le equazioni trascendenti coinvolgono almeno un'incognita come argomento di una funzione non polinomiale.
+Le più comuni categorie di equazioni trascendenti sono:
+* equazioni trigonometriche, in cui almeno un'incognita è presente come argomento di funzioni trigonometriche;
+* equazioni esponenziali, in cui almeno un'incognita è presente come argomento di funzioni esponenziali;
+* equazioni logaritmiche, in cui almeno un'incognita è presente come argomento di logaritmi.
+Equazioni con valori assoluti
+Le equazioni con valori assoluti contemplano oltre le incognite la presenza del valore assoluto di espressioni algebriche o trascendenti.
+Possiamo aver quindi:
+* equazioni algebriche con uno o più valori assoluti;
+* equazioni trascendenti con uno o più valori assoluti.
+Equazioni funzionali
+Le equazioni funzionali hanno almeno un'incognita che è una funzione.
+Le più comuni categorie di equazioni funzionali sono:
+* equazioni differenziali, se contengono derivate della funzione incognita;
+* equazioni integrali, se contengono integrali della funzione incognita.
+In base alle espressioni letterali
+In base alla presenza di altre espressioni letterali tutte le equazioni possono essere divise in:
+* equazioni numeriche, contengono solo espressioni numeriche e l'incognita;
+* equazioni parametriche, in cui le incognite sono funzioni espresse in funzione di uno o più parametri.
+Altre categorie
+* Le equazioni diofantee sono equazioni in cui si ricercano solo le soluzioni intere.
+* I sistema di equazioni sono una collezione di più equazioni di cui si ricercano delle soluzioni simultanee, cioè che verificano tutte le equazioni considerate contemporaneamente.
+Essi a loro volta possono essere suddivisi in tutte le altre categorie sopra menzionate.
+* Nel 1521 Francesco Galigai, fiorentino, riunì quando studiato sino ad allora sulle equazioni di primo e secondo grado nel suo Summa de arithmetica stampato a Firenze da Bernardo Zucchetta.
+Equazioni famose
+Note

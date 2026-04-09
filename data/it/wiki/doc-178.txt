@@ -1,0 +1,157 @@
+In matematica un vettore è un elemento di uno spazio vettoriale.
+I vettori sono quindi elementi che possono essere sommati fra loro e moltiplicati per dei numeri, detti scalari.
+I vettori sono comunemente usati in fisica per indicare grandezze che sono completamente definite solo quando sono specificati sia una magnitudine (o modulo) che una direzione ed un verso rispetto ad un altro vettore o un sistema di vettori.
+Le grandezze che possono essere descritte in questo modo sono chiamate grandezze vettoriali, in contrapposizione alle grandezze scalari che sono caratterizzate unicamente dallo loro magnitudine.
+Nell'insieme di tutti i segmenti orientati si definisce una relazione di equivalenza, detta di equipollenza, convenendo che due segmenti orientati sono equipollenti se hanno la stessa direzione, la stessa lunghezza e lo stesso verso.
+La classe di equivalenza definisce un vettore.
+La classe di equipollenza individuata da un vettore applicato (P,Q) è di solito denotata con il simbolo \overrightarrow;
+si dice anche che (P,Q) è un rappresentante (non certamente unico) del vettore libero \overrightarrow.
+In questo modo è possibile definire in maniera naturale la somma \overrightarrow+\overrightarrow=\overrightarrow.
+Spazio vettoriale
+I vettori sono definiti come facenti parte di uno spazio vettoriale;
+il piano cartesiano \R^2, inteso come piano affine con un punto fissato O, è un esempio di spazio vettoriale (isomorfo allo spazio tangente in O):
+un vettore è rappresentato in tal caso come un punto del piano cartesiano determinato da una coppia di numeri reali (x, y).
+Disegnando una freccia che parte nell'origine (0, 0) e arriva in (x, y), si ottiene la rappresentazione geometrica del vettore (x, y).
+Nello spazio tridimensionale un vettore è analogamente una terna di numeri reali (x, y, z).
+In generale, in dimensione n arbitraria (finita), l'insieme:
+\R^n = \
+è uno spazio vettoriale di dimensione n, i cui vettori sono ennuple di numeri reali:
+= (v_1,\ldots, v_n)
+Numerosi esempi di spazi vettoriali possono essere costruiti sostituendo il campo \R dei numeri reali con un campo qualsiasi K, ad esempio il campo \C dei numeri complessi.
+Una ennupla di numeri complessi è quindi un vettore dello spazio vettoriale \C^n.
+Ogni spazio vettoriale V (sopra il campo K) di dimensione finita è in effetti identificabile con K^n, dopo aver fissato una opportuna base.
+In molti spazi vettoriali di dimensione infinita un vettore può essere descritto come una successione (infinita) di numeri:
+questo argomento necessita però di strumenti più sofisticati, quali ad esempio la struttura di spazio di Hilbert.
+Somma e prodotto per scalare
+In quanto elementi di uno spazio vettoriale, i vettori possono essere sommati fra loro e moltiplicati per uno scalare secondo le operazioni che definiscono lo spazio vettoriale stesso.
+Somma di due vettori
+In due dimensioni i vettori possono essere sommati con la regola del parallelogramma, che corrisponde alla somma (x_1 + x_2, y_1 + y_2) di due vettori (x_1, y_1) e (x_2, y_2).
+In generale, la somma di due vettori \mathbf v
+(v_1,\dots, v_n) e \mathbf w
+(w_1,\dots, w_n) in K^n è definita nel modo seguente:
+\mathbf v + \mathbf w = \left (\begin v_1 \\ \vdots \\ v_n \end \right)+
+\left (\begin w_1 \\ \vdots \\ w_n \end \right)=
+\left (\begin v_1+w_1 \\ \vdots \\ v_n+w_n \end \right)
+La somma è associativa, commutativa e possiede l'elemento neutro che è il vettore nullo;
+inoltre ogni elemento ha un opposto.
+In altre parole, i vettori con la somma formano un gruppo abeliano.
+Prodotto di uno scalare per un vettore
+Il prodotto di uno scalare \lambda in K per un vettore \mathbf v = (v_1,\ldots , v_n) in K^n è definito nel modo seguente:
+\lambda \mathbf v
+\lambda\left (\begin v_1 \\ \vdots \\ v_n \end \right)
+\left (\begin \lambda v_1 \\ \vdots \\ \lambda v_n \end \right)
+In particolare, 1 \mathbf v= \mathbf
+v. Il prodotto è associativo e gode della proprietà distributiva rispetto alla somma.
+Base di uno spazio vettoriale e coordinate di un vettore
+L'estensione del concetto di coordinate rispetto agli assi di un piano cartesiano è quello di coordinate di un vettore rispetto ad una base.
+Una base è un insieme di vettori tale per cui ogni elemento dello spazio vettoriale può essere scritto in modo unico come combinazione lineare dei vettori appartenenti a tale insieme.
+Una base del piano cartesiano sono ad esempio i vettori \, poiché ogni vettore del piano si può scrivere come somma di essi moltiplicati ciascuno per un opportuno scalare.
+Nello specifico, dato uno spazio vettoriale V su un campo K, l'insieme \mathbf_1 , \mathbf_2 \dots \mathbf_n di vettori di V è una base di V se tali vettori sono linearmente indipendenti in K e generano V, ovvero:
+\mathrm ( \mathbf v_1 ,\ldots, \mathbf v_n) :
+In particolare, per ogni vettore \mathbf v di V gli scalari a_1 , a_2 \dots a_n sono le sue coordinate rispetto alla base scelta.
+Data quindi una base \mathbf_1 , \mathbf_2 \dots \mathbf_n, un qualsiasi vettore \mathbf può essere espresso come combinazione lineare:
+\mathbf = b_1\mathbf_1 + b_2\mathbf_2 + \ldots + b_n\mathbf_n
+La scomposizione di vettori è una procedura utilizzata ad esempio in fisica per scomporre le forze lungo direzioni particolari (ad esempio parallele e perpendicolari a determinati vincoli).
+Basi ortonormali e versori
+Un caso particolare di sistema di riferimento è quello ortonormale, in cui i vettori scelti come base sono tra loro ortogonali (base ortogonale) e tutti di lunghezza unitaria, cioè versori.
+Nel caso del piano o dello spazio euclideo, un tale sistema di coordinate è detto cartesiano.
+Un vettore viene dunque scomposto nelle sue componenti cartesiane e, convenzionalmente, i versori sono denominati con i simboli \mathbf i, \mathbf j e \mathbf k rispettivamente per gli assi x, y e z. I versori sono tali che:
+\mathbf i \times \mathbf j
+\mathbf k \qquad \mathbf j \times \mathbf
+\mathbf i \qquad \mathbf k \times \mathbf i = \mathbf j
+con \times il prodotto vettoriale.
+Un vettore \mathbf = (v_x , v_y , v_z ) può allora essere scritto come combinazione lineare dei versori canonici:
+\mathbf = v_x\mathbf + v_y\mathbf + v_z\mathbf
+In generale, in un sistema di riferimento cartesiano, le componenti di un vettore coincidono con i coefficienti di Fourier.
+Norma di un vettore
+Gli elementi di uno spazio vettoriale non hanno automaticamente una "lunghezza", questa è definita solo se si aggiunge un'ulteriore struttura matematica:
+la norma (o modulo) di un vettore, quindi il modulo non è una proprietà intrinseca del vettore.
+Uno spazio vettoriale in cui è definita la norma di un vettore è uno spazio normato.
+Su un qualsiasi spazio vettoriale è possibile definire vari tipi di norme.
+Ad esempio la norma euclidea di un vettore \mathbf v = (v_1,\ldots,v_n) \in \R^n è il numero reale non negativo:
+\\|=\sqrt.
+Questa quantità è geometricamente interpretata come la lunghezza del vettore.
+Ovviamente è possibile anche definire una norma differente da quella euclidea su \R^n in tal caso si ottengono geometrie non euclidee.
+Un altro esempio è il seguente:
+lo spazio delle funzioni continue a valori reali definite su un intervallo chiuso a,b può essere dotato della norma :
+\|f (x)\|=\max_|f (x)|.
+Prodotto scalare e modulo di un vettore
+Definendo una forma quadratica \langle \cdot , \cdot \rangle nello spazio vettoriale considerato si associa ad ogni coppia di vettori \mathbf v_1 e \mathbf v_2 uno scalare \langle \mathbf v_1, \mathbf v_2 \rangle.
+Ad esempio la norma | \mathbf v_1|
+(\langle \mathbf v_1, \mathbf v_1 \rangle)^ caratterizza la "lunghezza" del vettore \mathbf v_1.
+Spesso la forma quadratica considerata è un prodotto scalare, che caratterizza la struttura dello spazio euclideo:
+così due vettori \mathbf v_1 e \mathbf v_2 sono ortogonali se \langle \mathbf v_1, \mathbf v_2 \rangle
+0, mentre sono paralleli quando \langle \mathbf v_1, \mathbf v_2 \rangle assume valore massimo.
+Il prodotto scalare standard di due vettori \mathbf v e \mathbf w in \R^n è il numero:
+\langle , \rangle=v_1w_1+\cdots+v_nw_n
+Il prodotto scalare tra due vettori viene indicato usualmente con uno dei simboli seguenti:
+\langle , \rangle \quad \cdot \quad ^
+dove ^ fa riferimento al prodotto matriciale tra un vettore riga e un vettore colonna, con ^ la trasposta di \mathbf v, che è equivalente al prodotto scalare standard.
+Importanti spazi muniti di prodotto interno sono lo spazio euclideo (reale) e lo spazio di Hilbert (complesso).
+Tramite il prodotto scalare standard è possibile scrivere la norma euclidea come:
+\| \mathbf v \|
+( \langle , \rangle )^
+\sqrt
+Spazio duale e covettori
+Le applicazioni che agiscono su uno spazio vettoriale e restituiscono un numero sono dette funzionali.
+L'insieme dei funzionali lineari definiti sui vettori di uno spazio vettoriale V è lo spazio duale V', i cui elementi però, non essendo vettori, non subiscono una trasformazione controvariante al cambiamento di coordinate, bensì una trasformazione covariante (sono quindi covettori).
+Ad esempio, l'impulso o il momento angolare sono covettori.
+Il prodotto scalare definisce in modo naturale un isomorfismo tra vettori e covettori, cioè tra lo spazio vettoriale e il suo duale.
+Se il prodotto scalare è euclideo e la base è ortonormale allora le componenti di vettori e covettori coincidono, motivo per cui la loro distinzione è spesso trascurata nei testi di fisica più elementari.
+Operazioni nello spazio tridimensionale
+Nello spazio tridimensionale sono particolarmente utilizzate alcune operazioni aggiuntive fra i vettori.
+Prodotto vettoriale o esterno tra due vettori
+Il prodotto vettoriale è un'operazione definita tra due vettori \mathbf v e \mathbf u di \R^3 che restituisce un terzo vettore \mathbf w \in \R^3 che ha la direzione della retta perpendicolare al piano individuato da \mathbf v e \mathbf u, e il suo modulo è dato dalla formula:
+|\mathbf\times\mathbf| = |\mathbf||\mathbf| \sin\theta
+dove \theta è l'angolo fra \mathbf v e \mathbf u.
+Il verso del vettore \mathbf w è dato dalla regola della mano destra:
+disponendo pollice, indice e medio perpendicolari tra loro, se il pollice indica la direzione di \mathbf v e l'indice la direzione di \mathbf u, allora il medio indica la direzione di \mathbf w (si veda la figura a lato).
+Esplicitamente il prodotto vettoriale è dato da:
+\times
+\det\left (\begin & & \\ _1 & _2 & _3 \\ w_1 & w_2 & w_3 \end \right)
+= (_2_3-_3_2) - (_1_3 - _3_1) + (_1_2-_2_1)
+dove \det indica il determinante e , , sono i versori degli assi.
+Il prodotto vettoriale si indica talvolta anche con la notazione \wedge .
+Si nota che il prodotto vettoriale è nullo se almeno uno dei due vettori è il vettore nullo, oppure se i vettori sono tra loro paralleli.
+Inoltre il prodotto vettoriale soddisfa l'identità ciclica di Jacobi, è distributivo rispetto alla somma:
+(\mathbf + \mathbf) \times \mathbf = \mathbf \times \mathbf + \mathbf \times \mathbf
+ed anticommutativo
+\mathbf \times \mathbf = - \mathbf \times \mathbf
+Prodotto misto di due vettori
+Un prodotto misto è un'espressione in cui compaiono contemporaneamente prodotti scalari e vettoriali di vettori.
+Ad esempio, il prodotto misto di tre vettori \mathbf a, \mathbf b, \mathbf c è del tipo (\mathbf a \times \mathbf b) \cdot \mathbf c ed è uno scalare.
+Il valore assoluto di questo scalare non dipende dall'ordine dei tre vettori e misura il volume del parallelepipedo costruito su di essi.
+Un prodotto misto che comprende due o più prodotti vettoriali è sempre riconducibile ad una somma di prodotti misti più semplici, ciascuno avente al più un prodotto vettoriale.
+Ad esempio:
+(\mathbf a \times \mathbf b)\cdot (\mathbf a \times \mathbf c) = a^2 (\mathbf b \cdot \mathbf c) - (\mathbf a \cdot \mathbf b) (\mathbf a \cdot \mathbf c).
+Interpretazione matriciale
+Una matrice costituita da una sola riga, ovvero di dimensione 1\times n, viene detta vettore riga;
+una matrice costituita da una sola colonna, ovvero di dimensione n\times 1, viene detta vettore colonna.
+L'operatore di trasposizione, denotato generalmente con una T ad esponente (\mathbf v^T) trasforma vettori riga in vettori colonna e viceversa.
+Spesso i vettori di \R^n vengono descritti come vettori colonna, per poter descrivere le trasformazioni lineari come prodotto con una matrice.
+Prodotto di una matrice per un vettore
+I vettori di K^n possono essere considerati delle matrici a una riga o una colonna.
+Per questo motivo è lecito parlare di moltiplicazioni tra matrici e vettori;
+in ossequio alle regole della moltiplicazione di matrici, un vettore colonna \mathbf v (di dimensione n\times 1) sarà moltiplicabile a sinistra per una matrice A a condizione che il numero di colonne di A sia n.
+Generalmente si intende e si usa questo tipo di moltiplicazione, anche se in linea di principio è anche possibile moltiplicare a destra un vettore 1\times n per una matrice con n righe.
+Matrice come prodotto esterno
+Il prodotto di Kronecker, definibile come prodotto tensoriale fra un vettore e uno trasposto rispettivamente in K^n e K^m, è la matrice n\times m:
+\otimes = ^
+dove la T ad apice indica l'operazione di trasposizione.
+Ad esempio per n
+\begina_1 \\ a_2 \\ a_3 \end \otimes \beginb_1 \\ b_2 \\ b_3\end
+\begina_1 \\ a_2 \\ a_3 \end \beginb_1 & b_2 & b_3\end
+\begina_1b_1 & a_1b_2 & a_1b_3 \\ a_2b_1 & a_2b_2 & a_2b_3 \\ a_3b_1 & a_3b_2 & a_3b_3 \end.
+Più in generale, dati due vettori \mathbf v e \mathbf w appartenenti a due spazi vettoriali V e W sopra lo stesso campo K, il prodotto tensoriale tra i due vettori è un tensore di rango
+\otimes \in V\otimes W
+Se V e W sono spazi vettoriali di dimensione n e m, fissate due basi, il prodotto tensoriale V\otimes W è descrivibile come uno spazio di matrici ed il prodotto tensoriale in coordinate si scrive come sopra.
+Cambiamento di base
+In uno spazio di dimensione finita un vettore può essere definito come una ennupla di numeri \mathbf a = (a_1,a_2,\ldots,a_n) che in seguito ad un cambio di sistema di riferimento subiscono una trasformazione controvariante, ovvero passando dal sistema di coordinate x_1 , \dots ,x_n al sistema x'_1 , \dots ,x'_n si ha:
+a'_i
+\frac a_j \qquad i,j
+1, \dots, n
+dove si è utilizzata la notazione di Einstein, e a'_i sono le componenti del vettore nel nuovo sistema di riferimento.
+Un vettore è dunque un tensore di tipo (0,1).
+Uno scalare può del resto essere pensato come un vettore di una sola componente, e coincide con un tensore di rango 0.
+Note
+Bibliografia

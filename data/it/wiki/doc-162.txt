@@ -1,0 +1,66 @@
+In termodinamica ed elettromagnetismo, per irraggiamento si intende il trasferimento di energia tra due corpi per mezzo di onde elettromagnetiche.
+Nel caso dell'irraggiamento di energia termica, si parla più precisamente di irraggiamento termico.
+Origine fisica
+L'origine dell'irradiazione elettromagnetica dei corpi per effetto macroscopico della temperatura va ricercato a livello microscopico come conseguenza del moto roto-vibrazionale molecolare e quindi delle correnti elettriche variabili nel tempo degli elementi portatori di carica elettrica (protoni ed elettroni) in accordo con le leggi base dell'Elettrodinamica classica ovvero le Equazioni di Maxwell.
+La frequenza e l'intensità dei fotoni emessi, ovvero dell'onda elettromagnetica, aumenta all'aumentare della temperatura, in conseguenza dell'aumentato moto di agitazione molecolare, ovvero delle correnti elettriche atomico-molecolari.
+Irraggiamento termico
+Se ci poniamo di fronte ad una sorgente termica luminosa avvertiamo una sensazione di caldo;
+tale sensazione è dovuta da una parte alla convezione (in quanto il calore riscalda l'aria circostante) e in parte all'irraggiamento.
+L'irraggiamento è uno dei tre modi attraverso cui avviene la propagazione del calore.
+In particolare, al contrario della conduzione e della convezione, l'irraggiamento non prevede contatto diretto tra gli scambiatori, e non necessita di un mezzo per propagarsi.
+Quindi è un fenomeno che interessa ogni aggregato materiale, non importa se solido, liquido o gassoso, e avviene anche nel vuoto.
+Questo è giustificato dal fatto che il trasferimento di calore per irraggiamento avviene sotto forma di onde elettromagnetiche.
+Si ha sia emissione che assorbimento di radiazione elettromagnetica.
+È un fenomeno che si presenta ad ogni temperatura, ma solo a temperature abbastanza elevate il contributo allo scambio termico per irraggiamento supera i contributi per conduzione e convezione.
+La quantità di calore emessa da un corpo per irraggiamento è infatti proporzionale a T^4, cioè alla quarta potenza della sua temperatura:
+perciò a basse temperature l'irraggiamento è responsabile di una frazione trascurabile del flusso di calore rispetto alla convezione e alla conduzione, ma al crescere della temperatura la sua importanza aumenta rapidamente fino a diventare il principale artefice della trasmissione del calore per temperature medio-alte.
+Fisicamente l'irraggiamento consiste nell'emissione di onde elettromagnetiche generate dagli atomi e molecole eccitati dall'agitazione termica, che si diseccitano emettendo fotoni di frequenza proporzionale alla loro temperatura:
+per esempio i corpi a temperatura ambiente emettono in prevalenza fotoni nella gamma degli infrarossi, è un buon assorbitore e un buon emettitore di calore per irraggiamento.
+Grandezze associate all'energia radiante
+L'energia raggiante incidente su una superficie è misurata dalla grandezza nota come irraggiamento;
+essa si scompone in tre termini:
+una parte viene riflessa, una parte viene assorbita e una terza parte riesce, eventualmente, a passare attraverso la superficie ovvero trasmessa.
+Per questo motivo si stabiliscono tre coefficienti:
+* Coefficiente di riflessione o riflettanza:
+r = energia riflessa energia incidente
+* Coefficiente di trasparenza o trasmittanza:
+t = energia uscente/energia incidente
+Da quanto detto segue che la somma dei coefficienti è pari a uno cioè:
+a + r + t = 1 (conservazione dell'energia).
+Da questo bilancio energetico possiamo stabilire che per un corpo nero i coefficienti di riflessione e di trasparenza sono nulli, r
+0 e quindi a = 1.
+Per corpi grigi ciascun termine è compreso tra 0 ed 1.
+Per i corpi opachi t
+0 e quindi a + r
+Per analizzare in maniera completa una sorgente di energia raggiante possiamo definire tre grandezze:
+la prima che caratterizza l'irraggiamento in modo globale detta emittanza globale, la seconda che tenga conto della lunghezza d'onda \lambda detta emittanza monocromatica e la terza che descriva la distribuzione spaziale della radiazione detta emittanza angolare spettrale.
+* J=\frac potenza irraggiata per unità di superficie
+* \varepsilon=\frac\frac considerando la lunghezza d'onda
+* j=\frac\frac considerando l'angolo solido \Omega che si forma tra la sorgente e la superficie irradiata
+I coefficienti prima definiti dipendono quindi dalla Temperatura T, dalla lunghezza d'onda e dagli angoli di incidenza della radiazione,
+in particolare il coefficiente di assorbimento spettrale angolare sarà espresso da una relazione del tipo
+f (T,\lambda,\theta,\varphi), il coefficiente di assorbimento spettrale
+da a
+f (T,\lambda), il coefficiente di assorbimento da a=f (T).
+Principio di Kirchhoff
+Stabilito che la trasmissione per irraggiamento è il risultato di un bilancio fra energia emessa ed energia assorbita possiamo affermare che il rapporto tra emittanza monocromatica e coefficiente di assorbimento di uno stesso corpo è indipendente dal corpo stesso e funzione della sola lunghezza d'onda e della temperatura:
+\varepsilon=\frac
+posto a = 1 per il corpo nero vale:
+\varepsilon_o = f (T,\lambda)
+Corpo nero
+In genere il corpo a temperatura maggiore irradia più energia al corpo a temperatura minore rispetto a quella che ne assorbe, finché non si ha una situazione di equilibrio, in cui raggiungono la stessa temperatura.
+In tal caso l'energia irradiata e quella assorbita si compensano.
+Un corpo nero assorbe tutta la radiazione incidente sul corpo e pertanto il suo coefficiente di assorbimento è a = 1.
+Essendo un corpo nero indipendente dalla lunghezza di radiazione e dall'angolo di incidenza dell'energia raggiante la sua emittanza monocromatica è stabilita dalla legge di Planck:
+\varepsilon_0 (\lambda,T) = \frac
+dove C1 e C2 sono due costanti ricavate sperimentalmente:
+Legge di Stefan-Boltzmann
+Dalle proprietà dei corpi neri sopra descritte possiamo definire l'emittanza globale di un corpo nero come:
+J_0 = \sigma T^4,
+dove σ è la costante di Stefan-Boltzmann.
+Stabilite le grandezze fondamentali di un corpo nero, possiamo descrivere il comportamento dei corpi non neri dall'emissività globale, cioè il rapporto tra l'emittanza del corpo e quella del corpo nero, e dall'emissività spettrale come rapporto tra l'emittanza monocromatica del corpo e quella del corpo nero.
+Rimandi pratici
+*La temperatura di colore indicata nelle regolazioni dei monitor, degli schermi televisivi, nei profili cromatici dei dispositivi grafici ed anche nei dispositivi di illuminazione (neon, led ecc.) si riferisce precisamente allo spettro di radiazione emesso per irraggiamento da un corpo nero alla temperatura specificata.
+*Un esempio di notevole importanza in cui si verifica il fenomeno dell'irraggiamento è il trasferimento di energia tra il Sole e la Terra.
+Note
+Bibliografia

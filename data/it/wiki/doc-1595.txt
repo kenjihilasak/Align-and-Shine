@@ -1,0 +1,99 @@
+In matematica, la radice quadrata o radice con indice 2 di un numero x è un numero y tale che il suo quadrato sia x, ovvero tale che
+y^2
+y\cdot
+Ogni numero reale non negativo ha un'unica radice quadrata non negativa, chiamata radice quadrata principale, che viene rappresentata simbolicamente come \sqrt o, nella notazione esponenziale, come x^. Ogni numero reale maggiore di zero ha due radici quadrate distinte, quella principale e il suo opposto, ovvero \sqrt e -\sqrt.
+Il concetto di radice quadrata può essere esteso ai numeri negativi nell'ambito dei numeri complessi.
+Più generalmente, il concetto di radice quadrata può essere esteso in qualunque contesto in cui sia ben definita la nozione di quadrato di un elemento.
+Sviluppo della nozione
+Quando si sono definiti i numeri reali si può definire radice quadrata principale di un numero reale non negativo z ogni numero reale non negativo x tale che
+Questo numero x, del quale si dimostrano l'esistenza e l'unicità, si indica con la scrittura \sqrt z. Si osserva poi che anche l'opposto -x soddisfa la precedente equazione quadratica *;
+inoltre entrambe le soluzioni di tale equazione sono notevoli, in quanto danno i due zeri della parabola di equazione y = x^2 -z.
+È dunque opportuno definire radice quadrata di un numero reale positivo z quel numero reale positivox che soddisfi la *.
+Lo zero reale possiede due radici quadrate coincidenti;
+ciò lo colloca sullo stesso piano dei numeri reali positivi, sebbene lo zero si possa considerare l'unico limite delle due radici quadrate x e -x del numero z al tendere a 0 di questo reale.
+Perciò, volendo semplificare, si può dire che lo zero reale possiede come radice quadrata solo se stesso.
+Restringendo la ricerca della radice quadrata al dominio dei numeri interi positivi, si trova che solo alcuni numeri, detti quadrati perfetti, ammettono per radice quadrata principale un numero intero.
+Sono quadrati perfetti ad esempio, 4 che ha per radice il numero 2, e 25 che ha per radice 5;
+viceversa molti altri interi positivi, a cominciare da 2 e 3, non ammettono una radice intera.
+Se ampliamo il dominio di ricerca ad includere i numeri razionali positivi, si trova che solo i numeri razionali che sono quadrati perfetti, ovvero che sono dati da frazioni con numeratore e denominatore entrambi quadrati perfetti, ammettono per radice principale un numero razionale positivo:
+4 3, ma 1 39 non ammettono radici razionali.
+Si è quindi trovato che l'insieme dei numeri razionali presenta una limitazione operativa e si è sentita la necessità di ampliare il campo dei razionali ad un campo numerico nel quale si possa trovare una radice quadrata per ogni numero positivo.
+Questo ha condotto alla introduzione dei numeri reali:
+se allarghiamo il dominio a questi numeri, ogni numero reale positivo (che in questo contesto viene chiamato radicando) possiede una radice quadrata dello stesso genere.
+È possibile dimostrare che un numero che sia la radice quadrata di un numero che non è un quadrato perfetto o una frazione il cui numeratore e denominatore sono ambedue quadrati perfetti è un numero irrazionale, cioè un numero non esprimibile come frazione ma rappresentabile con una scrittura decimale infinita non periodica.
+Ad esempio è irrazionale la radice quadrata di 2;
+in più, l'insieme di tutti gli interi positivi non quadrati perfetti è un sottoinsieme numerabile dei numeri reali, come pure quello dei razionali, mentre l'insieme degli irrazionali è non numerabile.
+Si osserva poi che nessun numero reale negativo possiede una radice quadrata reale e questo ha contribuito (vedi anche Rafael Bombelli) all'introduzione dei numeri complessi.
+Quando si estende a queste entità la ricerca di radici quadrate, si trova che ogni numero complesso ammette due radici quadrate complesse, l'una essendo il numero opposto dell'altra.
+Particolarmente importanti sono le radici quadrate di -1 indicate con i, detta unità immaginaria, e con -i.
+In generale si trova che il numero espresso in forma polare come
+z=|z| e^,
+possiede due radici complesse date da
+= \pm\sqrt
+e^.
+Per esprimere questi numeri complessi può essere conveniente estendere agli argomenti complessi la nozione di radice quadrata principale e la relativa notazione
+:\sqrt z :
+= \sqrt e^,
+in modo da poter dire ancora che le radici del numero complesso z sono
+\sqrt z \mbox -\sqrt z .
+Le radici del numero complesso 0 coincidono con lo stesso 0 e a tale radice si attribuisce molteplicità 2.
+Proprietà
+La funzione radice quadrata principale ha una grande utilità, perché pone in corrispondenza l'insieme dei numeri reali non negativi \R_0^+ con se stesso;
+si individua scrivendo \sqrt o anche x^. Più precisamente questa endofunzione entro \R_0^+ è una biiezione crescente e continua.
+L'equazione x = \sqrt ha solo due soluzioni, 0 e 1.
+In altre parole la funzione radice quadrata principale è una permutazione (cioè una endofunzione biiettiva) di \mathbb_0^+ avente \ come insieme dei punti fissi.
+Per ogni due numeri reali positivi x e y si trovano subito le identità
+\sqrt
+\sqrt x \sqrt y \qquad \sqrt
+\frac.
+Queste uguaglianze sono in sintonia con il fatto che la funzione radice quadrata fa corrispondere all'area di un quadrato la lunghezza del suo lato.
+Esse inoltre per y=100 diventano
+: \sqrt \,=\, 10 \cdot \sqrt y \quad\mbox\quad
+\sqrt = \frac .
+Queste uguaglianze implicano che per tabulare nella notazione decimale i valori assunti dalla funzione radice quadrata principale è sufficiente conoscere i suoi valori nell'intervallo 0,100).
+Per ogni numero reale x si trova
+che
+:\sqrt = \left|x\right|.
+Si supponga che x e a siano reali e che x^2
+a , e che si voglia ottenere la x. Un errore comune consiste nell'estrarre la radice quadrata e dedurre che x
+\sqrt a. Questo non è lecito, in quanto la radice quadrata principale di x^2 non è x, ma il valore assoluto \left| x \right|, come dice l'uguaglianza precedente.
+Non commettendo questo errore si potrebbe concludere che \left| x \right|
+\sqrt a, o equivalentemente x
+\pm\sqrt
+L'uguaglianza che segue è utile in molti passi del calcolo infinitesimale, ad esempio per dimostrare che la funzione radice quadrata è continua e differenziabile, o per calcolare certi limiti:
+:\sqrt x - \sqrt y = \frac,
+valida per tutte le coppie di interi non negativi x e y che non sono entrambi zero.
+La funzione f (x) = \sqrt x ha il seguente grafico, ottenibile da una metà di parabola avente come asse l'asse delle x.
+Questa funzione, continua per tutti gli x non negativi, è differenziabile per tutti gli x positivi, ma non è differenziabile per x=0, poiché la pendenza della tangente nel corrispondente punto tende a +\infty).
+La derivata della funzione è data
+f' (x) = \frac.
+La serie di Taylor di \sqrt in un intorno di x=0 si può ottenere servendosi del teorema binomiale:
+\sqrt
+1 + \sum_^\infty x^n
+1 + \fracx
+- \fracx^2
++ \frac
+x^3 - \frac x^4 + \dots
+per |x|<1.
+Generalizzazioni
+Il problema dell'estrazione della radice quadrata può porsi anche in un generico anello e in altre strutture di genere algebrico nelle quali si definisce un prodotto.
+In particolare si definisce radice quadrata di una matrice quadrata Z su un campo ogni matrice X con lo stesso dominio tale che sia X \cdot X = Z. Nel caso delle matrici 2\times 2 la ricerca della matrice radice quadrata si riconduce alla soluzione di un sistema di quattro equazioni di secondo grado in quattro incognite.
+Infatti l'equazione nelle incognite v, w, x e y
+\beginv&w\\x&y\end \times
+\beginv&w\\x&y\end =
+\begina&b\\c&d\end
+equivale al sistema
+\left\
+{ \beginv^2+wx&=&a \\
+vw+wy &=& b \\
+xv+xy
+&=&
+c \\
+wx+y^2 &=& d \end \right.
+In particolare una matrice diagonale 2\times 2 a valori reali
+\begina&0\\0&d\end
+con a e d positivi possiede le quattro le radici quadrate date dall'espressione
+\begin\pm \sqrt a&0\\0&\pm \sqrt d\end.
+Si può definire anche la radice quadrata di un linguaggio formale, in relazione al prodotto di giustapposizione, prodotto non commutativo e associativo.
+Ad esempio, se a è un carattere, il linguaggio \ possiede come unica radice quadrata il linguaggio \ e il linguaggio \ possiede come unica radice quadrata il linguaggio \;
+ogni linguaggio finito con più di una stringa non possiede invece alcuna radice quadrata.

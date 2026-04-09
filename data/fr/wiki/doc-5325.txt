@@ -1,0 +1,159 @@
+Volume
+Le volume, en sciences physiques ou mathématiques, est une grandeur qui mesure l'extension d'un objet ou d'une partie de l'espace.
+* En physique, le volume d'un objet mesure « l'extension dans l'espace physique » qu'il possède dans les trois directions en même temps, de même que l'aire d'une figure dans le plan mesure «
+l'extension » qu'elle possède dans les deux directions en même temps.
+* En mathématiques, le volume d'une partie de l'espace géométrique est sa mesure au sens de la théorie de la mesure de Lebesgue.
+Mesure du volume
+Le volume physique se mesure en mètre cube dans le Système international d'unités.
+On utilise fréquemment le litre, notamment pour des liquides et pour des matières sèches.
+Ainsi, on considère le volume comme une grandeur extensive et la grandeur intensive thermodynamique associée est la pression.
+* En mathématiques, et plus précisément en géométrie euclidienne, le volume du parallélépipède engendré par 3 vecteurs non coplanaires (\vec v_1, \vec v_2, \vec v_3) se calcule grâce au produit mixte des trois vecteurs :
+V = |\det ( \vec v_1, \vec v_2, \vec v_3)|.
+Les calculs de volume ont évolué au cours de l'histoire en suivant les progrès du calcul infinitésimal.
+C'est ainsi que les premiers volumes ont été calculés grâce à la méthode d'exhaustion, puis en utilisant le principe de Cavalieri et pour finir en calculant des intégrales triples.
+Pour les solides simples (parallélépipède et objets de révolution), il existe des formules mathématiques permettant de déterminer leur volume d'après leurs dimensions caractéristiques.
+Grandeur physique
+Le volume est une grandeur additive : le volume d'un système physique est la somme des volumes de ses parties.
+Ce n'est en revanche pas une grandeur algébrique : physiquement, il n'existe pas de « volume négatif » (dont serait fait le sac de voyage de Mary Poppins) dont la superposition avec un système physique de volume positif donnerait un système composé de volume globalement nul, ou du moins réduit : tous les volumes sont de même signe, et par convention, sont comptés positivement.
+C'est pour cette raison que dans la formule du produit mixte, le résultat est pris en valeur absolue.
+L'interprétation physique du produit mixte est qu'un volume physique est le produit scalaire d'une surface par un déplacement :
+\det ( \vec v_1, \vec v_2, \vec v_3)
+\vec v_1\cdot (\vec v_2\wedge\vec v_3)
+= \vec v_1\cdot\vec S_.
+Le déplacement est un vecteur, mais la surface orientée est un pseudovecteur, si bien que le volume ainsi défini est théoriquement une grandeur qui change de signe lorsqu'on fait subir au système une isométrie indirecte (symétrie miroir par exemple).
+De fait, si par exemple le volume d'une sphère est , une inversion polaire changera effectivement en et conduira logiquement à un volume négatif.
+Sur le plan de l'équation aux dimensions, et en tenant compte de la grandeur d'orientation, le déplacement est un vecteur de dimension et la surface un pseudovecteur de dimension , le produit des deux est un pseudoscalaire de dimension , c'est-à-dire qu'il a le même caractère qu'un flux.
+La physique reste effectivement inchangée si tous les volumes sont comptés négativement, mais en pratique les volumes physiques sont comptés positivement, ce qui revient à multiplier le volume au sens précédent par le symbole de Levi-Civita (lui-même en ).
+Le volume d'un corps physique est alors un scalaire vrai, à cause de la convention d'orientation.
+De même, alors qu'un élément de surface est normalement un pseudovecteur en , la convention d'orientation qui veut que son orientation sur une surface fermée soit dirigée vers l'extérieur revient à le multiplier par la convention d'orientation en , ce qui en fait alors un vecteur vrai en .
+L'utilisation de cette convention d'orientation peut être problématique dans l'analyse dimensionnelle, parce qu'elle correspond à une grandeur par ailleurs généralement invisible dans les données du problème.
+Volume élémentaire
+Un domaine de dimension
+3 peut généralement être décrit par trois paramètres indépendants , et .
+Pour tout point appartenant à ce domaine, le vecteur position \overrightarrow\mathrm (où désigne une origine fixe quelconque) a pour différentielle :
+\mathrm=\left (\frac\right)\mathrm du+\left (\frac\right)\mathrm dv+\left (\frac\right)\mathrm dw.
+Une variation élémentaire des trois paramètres forme lélément de volume (ou volume élémentaire) (ou simplement si l'on n'a pas besoin de rappeler que trois variables varient indépendamment), défini par :
+:\mathrm d^3V=\det\!\left\left (\frac\right),\left (\frac\right),\left (\frac\right)\right\,\mathrm du\,\mathrm dv\,\mathrm dw.
+Le module d'un vecteur position s'exprimant en mètres (m), un élément de volume s'exprime en mètres cubes (m).
+Le signe de est positif si les vecteurs et , pris dans cet ordre, forment un trièdre direct, et négatif s'ils forment un trièdre inverse.
+Coordonnées cartésiennes
+En coordonnées cartésiennes orthonormées, le point courant est repéré par , et , de telle sorte que :
+:\overrightarrow\mathrm=x\,\hat x+y\,\hat y+z\,\hat z
+où \hat x, \hat y et \hat z sont les vecteurs unitaires, fixes, de trois axes orthogonaux (et, pris dans cet ordre, forment un trièdre direct)
+On a alors :
+:\left (\frac\right)
+\hat
+x, \ \left (\frac\right)
+\hat
+y\ \textrm\ \left (\frac\right)=\hat z.
+On en déduit aisément que :
+\mathrm d^3V=\mathrm dx\,\mathrm dy\,\mathrm dz.
+Coordonnées cylindriques
+En coordonnées cylindriques, le point courant est repéré par , et , de telle sorte que :
+:\overrightarrow\mathrm=r\,\hat r (\varphi)+z\,\hat z
+où \hat z est le vecteur unitaire de l'axe d'un repère orthonormé, tandis que \hat r (\varphi), vecteur unitaire, a pour coordonnées cartésiennes , et .
+On a alors :
+:\left (\frac\right)
+\hat r (\varphi), \ \left (\frac\right)
+r\,\hat\varphi (\varphi)\ et \ \left (\frac\right)=\hat z
+où \hat\varphi (\varphi) est le vecteur unitaire de coordonnées cartésiennes , et .
+Les vecteurs \hat r (\varphi), \hat\varphi (\varphi) et \hat z sont unitaires et orthogonaux deux à deux (et, pris dans cet ordre, forment un trièdre direct).
+On en déduit aisément que :
+\mathrm d^3V=r\,\mathrm dr\,\mathrm d\varphi\,\mathrm dz.
+Coordonnées sphériques
+En coordonnées sphériques, le point courant est repéré par , et , de telle sorte que :
+\overrightarrow\mathrm=\rho\,\hat\rho (\theta,\varphi)
+où \hat\rho (\theta,\varphi), vecteur unitaire, a pour coordonnées cartésiennes , et .
+On a alors :
+:\left (\frac\right)
+\hat\rho (\theta,\varphi),\ \left (\frac\right)
+\rho\,\hat\theta (\theta,\varphi)\ \textrm\ \left (\frac\right)=\rho\sin (\theta)\,\hat\varphi (\varphi)
+où \hat\theta (\theta,\varphi) est le vecteur unitaire de coordonnées cartésiennes , et , et \hat\varphi (\varphi) celui de coordonnées , et .
+Les vecteurs \hat \rho (\theta,\varphi), \hat\theta (\theta,\varphi) et \hat\varphi (\varphi) sont unitaires et orthogonaux deux à deux (et, pris dans cet ordre, forment un trièdre direct).
+On en déduit aisément que :
+\mathrm d^3V=\rho^2\sin (\theta)\,\mathrm d\rho\,\mathrm d\theta\,\mathrm d\varphi.
+Unités de volume
+L'unité de volume du Système international est le mètre cube (m) et ses dérivés (dm, cm, mm).
+Mais d'autres unités de volume persistent surtout dans les pays anglo-saxons (voir Conversion des unités).
+Les volumes de matière liquide ont souvent leurs unités propres (litre, pinte, baril).
+La mise en place du système métrique a grandement simplifié le nombre d'unités de volume utilisées qui dans l'Ancien Régime en comptait plus de vingt (voir Unités de mesure de l'Ancien Régime).
+Pour les gaz où l'on veut connaître la quantité de matière (nombre de molécules) contenue dans un volume donné quelles que soient la pression et la température, deux définitions de correction existent :
+* le mètre cube dit normal
+exprimé en m (n) correspondant à un volume de gaz ramené sous une pression de (pression d'une atmosphère normale ou 1 atm) et une température de ;
+* le mètre cube dit standard exprimé en m (s) correspondant à un volume de gaz ramené sous une pression de (pression d'une atmosphère normale ou 1 atm) et une température de
+Les volumes décrits ci
+dessus correspondent à des volumes dits corrigés.
+Le volume qui ne tient pas compte de ces corrections est dit brut.
+On rencontre ces volumes dans l'élaboration des débits et du pouvoir calorifique des gaz.
+Dans l'Union européenne, de nombreux volumes (et masses), sur les produits de consommation, sont indiqués en quantité estimée.
+Ils sont marqués comme tel, d'un « e » minuscule.
+En mathématiques, l'unité de volume n'apparaît pas dans les formules.
+Elle est implicitement donnée par le volume du cube unité.
+Si, par exemple, pour des questions d'échelle, le cube unité a pour arête , un volume de X cubes unité correspond à .
+Quelques formules
+Dans la suite on notera :
+* et les aires de la grande base et de la petite base ;
+* la hauteur (ou distance séparant les deux faces) ;
+Les solides de Platon
+Ce sont les cinq seuls polyèdres réguliers convexes.
+Leurs volumes respectifs sont donnés par les formules suivantes :
+Les prismes et cylindres
+La formule générale est toujours : (volume = aire de la base × hauteur), que le prisme ou le cylindre soit droit ou pas.
+En particulier,
+* pour le parallélépipède rectangle ou pavé : V = L\times\ell\times H,
+Les pyramides et cônes
+La formule générale est toujours :
+La pyramide tronquée par un plan parallèle à la base : V=\frac H3\left (B+b+\sqrt\right).
+La boule
+* Pour une calotte sphérique, V
+\frac\pi3H^2 (3R-H) ou V
+\frac\pi2H\left (\frac3+r^2\right)
+où est le rayon de la boule, est le rayon de la calotte et la hauteur de la calotte.
+Le volume de la boule percée d'un cylindre (rond de serviette) ne dépend pas du rayon de la boule mais seulement de la hauteur du cylindre : V = \frac\pi6H^3.
+* Le secteur sphérique
+intersection entre un cône de sommet O et la boule de centre O :
+V=\frac23\pi R^2H où est la hauteur de la calotte et le rayon de la boule.
+Solides de révolution
+Le théorème de Guldin (ou règle de Pappus) permet de calculer le volume d'un solide de révolution engendré par la révolution d'un élément de surface plane autour d'un axe situé dans son plan et ne le coupant pas, pour peu que l'on connaisse le centre de gravité de l'élément de surface .
+V = 2\pi RS où est la distance séparant le point de l'axe de rotation.
+Cette formule permet de déterminer les volumes suivants :
+* le tore
+V = 2\pi^2 Rr^2 où est le rayon du cercle de centre tournant autour de l'axe et où est la distance de à .
+* le tonneau : Kepler donne une formule approchée pour le volume d'un tonneau, qui se révèle exacte lorsque le tonneau est engendré par une sphère, une pyramide, un hyperboloïde à une nappe, un paraboloïde elliptique, un ellipsoïde de révolution.
+Si et sont les surfaces des bases et la surface de la section à mi-hauteur alors
+V = \frac h6 (B_1 + B_2 + 4B_3).
+Autres
+* Le conoïde circulaire droit (exemple l'incisive)
+V = \frac 12 \pi R^2H où est le rayon du cercle de base et la hauteur du conoïde.
+* Le lingot (hexaèdre formé de deux bases rectangulaires parallèles et de 4 faces latérales trapézoïdales)
+On retrouve la formule de Kepler : V = \frac h6 (B_1+B_2+4B_3) où et sont les surfaces des deux bases rectangulaires et la surface de la section à mi-hauteur.
+Cette formule est très employée en génie civil dans les calculs de volume de terrassement et plus particulièrement pour les mouvements de terres dans le domaine des travaux publics.
+Volume et calcul intégral
+Si \mathcal D est une partie bornée de \R^2, le volume du cylindre ayant pour génératrice la frontière de \mathcal D, délimité par le plan et la surface d'équation - avec positive et continue sur \mathcal D
+- est :
+V = \iint_\mathcal D f (x,y)\,\mathrm dx\,\mathrm dy.
+Dans le cas où le domaine \mathcal D est défini par des conditions simples , , ce calcul se ramène à :
+V = \int_^\!\int_^ f (x,y)\,\mathrm dy\,\mathrm dx.
+Si \mathcal A est une partie bornée de \R^3 et si la fonction constante 1 est intégrable sur \mathcal A, le volume de \mathcal A est alors :
+V = \iiint _\mathcal A \mathrm dx\,\mathrm dy\,\mathrm dz
+Dans le cas où le domaine \mathcal A est défini par des conditions simples , et , ce calcul se ramène à :
+V = \int_^\!\int_^\!\int_^\mathrm dx\,\mathrm dy\,\mathrm dz.
+Par linéarité de l'intégration, un domaine difficile à définir peut être partitionné en plusieurs sous-domaines exprimables eux en conditions simples.
+Si le domaine \mathcal A s'exprime mieux en coordonnées cylindriques par des conditions simples \mathcal A', le calcul peut s'exprimer par :
+V = \iiint _
+r\,\mathrmr\,\mathrm\theta\,dz
+où \mathcal A' est une partie bornée de \R_+\times 0,2\pi \times \R
+Si le domaine \mathcal A s'exprime mieux en coordonnées sphériques par des conditions simples \mathcal A, le calcul peut s'exprimer par :
+V = \iiint _
+r^2\sin (
+\phi)\,\mathrmr\,\mathrm\theta\,\mathrm\phi où \mathcal A est une partie bornée de \R_+\times 0,2\pi\times 0,\pi.
+Dans le cas où le domaine \mathcal A est un solide de révolution dont la frontière est engendrée par la rotation d'une courbe d'équation autour de l'axe , le calcul du volume se réduit à une intégrale simple :
+V = \pi \int_^f^2 (x)\,\mathrm dx.
+Enfin, le théorème de flux-divergence permet de réduire le calcul de volume à une intégrale de surface :
+\iiint _A
+\mathrmV
+\frac
+13 \iint_ (x,y,z)\vec n\,\mathrmS
+où \partial\mathcal A est la frontière de \mathcal A, et \vec n le vecteur unitaire normal à dirigé vers l'extérieur de \mathcal A.
+Articles connexes
+tq80y4bxbc90im7bp6ms89um0r5zpsa

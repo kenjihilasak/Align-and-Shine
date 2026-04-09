@@ -1,0 +1,16 @@
+Damas
+Tablero de Damas
+Las damas son un juego de mesa para dos jugadores.
+Consiste en mover las piezas de forma diagonal en las casillas negras de un tablero de ajedrez, capturando (comiendo) así las piezas que estén más cercanas a la que se mueve.
+Se puede jugar con 12 o 20 fichas por jugador.
+Las reglas del juego son
+Se juega únicamente entre dos jugadores.
+Las piezas únicamente se colocan en las casillas negras.
+Cuando una ficha común llega a cualquier casilla de la última fila del lado contrario, esta es coronada y se convierte en "dama".
+Sólo se puede comer una ficha en diagonal, si la próxima casilla en la misma dirección está desocupada, aterrizando así la pieza que come en esa casilla.
+Se pueden comer varias piezas en un sólo turno.
+Las piezas no pueden retroceder, excepto si son damas o para comer una pieza del rival.
+Las damas pueden moverse tantas casillas como quieran, siempre en diagonal, para adelante o para atrás
+Se gana cuando uno de los dos jugadores se haya quedado sin piezas.
+Si un jugador omite comer al jugador contrario y hace otra jugada, debe entregar la ficha con la que debía capturar al otro jugador.
+Esto se llama ficha soplada o ficha boba.

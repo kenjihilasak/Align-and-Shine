@@ -1,0 +1,22 @@
+Unapprossimazione è una rappresentazione di una qualche grandezza che, pur essendo fatta in modo inesatto, è tuttavia abbastanza precisa per poter essere di una qualche utilità pratica.
+Benché il concetto di approssimazione si applichi prevalentemente ai numeri è anche frequentemente applicato ad altre entità come ad esempio, funzioni matematiche e geometriche, leggi fisiche.
+Descrizione
+L'uso delle approssimazioni è giustificato dal fatto che spesso l'incompletezza delle informazioni disponibili non consente l'uso di modelli e rappresentazioni esatte.
+Inoltre molti problemi e fenomeni del mondo fisico sono o troppo complessi per essere rappresentati con espressioni analitiche, o addirittura impossibili da modellare.
+Inoltre, anche quando una rappresentazione analitica è nota, a volte può essere conveniente ai fini pratici adottare rappresentazioni approssimate, allo scopo di ridurre la complessità del problema.
+Dal punto di vista prettamente numerico si possono avere due tipi di approssimazione:
+* "Approssimazione per troncamento":
+in questa tipologia di approssimazione si "tronca" letteralmente il numero a livello della cifra significativa necessaria:
+ad esempio, il numero 19,6923464 può essere troncato a livello della terza cifra significativa, ottenendo così 19,6;
+oppure a livello della quinta cifra significativa, risultando in questo modo 19,692;
+o, ovviamente, a livello di qualsiasi altra cifra, a seconda delle necessità che si presentano caso per caso.
+Occorre notare che gli zeri precedenti la cifra sono cifre significative mentre quelli successivi non lo sono poiché non influiscono sul valore.
+Inoltre quando si svolgono operazioni aritmetiche il risultato va espresso con il numero di cifre pari a quelle dell'operando che ne ha di meno.
+* "Approssimazione per arrotondamento":
+all'interno di questo secondo tipo di approssimazione si possono avere a loro volta due tipi di approssimazione, per "difetto" o per "eccesso", a seconda che la prima cifra che vogliamo togliere assuma un valore minore di 5 (primo caso) o maggiore o uguale a 5 (secondo caso).
+Come nel caso precedente, un numero può essere approssimato a livello di qualsiasi cifra significativa:
+ad esempio il numero 19,692307.può essere arrotondato a livello della terza cifra significativa, ottenendo così 19,7;
+oppure a livello della quinta cifra significativa, risultando 19,692.
+Notiamo che nel primo caso il numero è di un decimo superiore rispetto a quello ottenuto per troncamento, mentre nel secondo caso i due numeri sono gli stessi in entrambe le tipologie di approssimazione;
+questo accade perché la quarta cifra del numero preso in esame (19,692307...) è maggiore di cinque, mentre la sesta è minore di esso.
+Nel caso, infine, che si voglia approssimare un numero quale 22,45798... a livello della terza cifra significativa, poiché la cifra successiva ad essa è uguale a cinque, bisogna arrotondare il numero per eccesso, ottenendo 22,5.

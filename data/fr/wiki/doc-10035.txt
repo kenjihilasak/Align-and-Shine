@@ -1,0 +1,132 @@
+Apprentissage
+automatique|Science des données
+Lapprentissage automatique (en anglais , littéralement «
+apprentissage machine ») ou apprentissage statistique est un champ d'étude de l'intelligence artificielle qui se fonde sur des approches statistiques pour donner aux ordinateurs la capacité d' « apprendre » à partir de données, c'est-à-dire d'améliorer leurs performances à résoudre des tâches sans être explicitement programmés pour chacune.
+Plus largement, il concerne la conception, l'analyse, le développement et l'implémentation de telles méthodes.
+L'apprentissage automatique comporte généralement deux phases.
+La première consiste à estimer un modèle à partir de données, appelées observations, qui sont disponibles et en nombre fini, lors de la phase de conception du système.
+L'estimation du modèle consiste à résoudre une tâche pratique, telle que traduire un discours, estimer une densité de probabilité, reconnaître la présence d'un chat dans une photographie ou participer à la conduite d'un véhicule autonome.
+Cette phase dite « d'apprentissage » ou « d'entraînement » est généralement réalisée préalablement à l'utilisation pratique du modèle.
+La seconde phase correspond à la mise en production : le modèle étant déterminé, de nouvelles données peuvent alors être soumises afin d'obtenir le résultat correspondant à la tâche souhaitée.
+En pratique, certains systèmes peuvent poursuivre leur apprentissage une fois en production, pour peu qu'ils aient un moyen d'obtenir un retour sur la qualité des résultats produits.
+Selon les informations disponibles durant la phase d'apprentissage, l'apprentissage est qualifié de différentes manières.
+Si les données sont étiquetées (c'est-à-dire que la réponse à la tâche est connue pour ces données), il s'agit d'un apprentissage supervisé.
+On parle de classification ou de classement si les étiquettes sont discrètes, ou de régression si elles sont continues.
+Si le modèle est appris de manière incrémentale en fonction d'une récompense reçue par le programme pour chacune des actions entreprises, on parle d'apprentissage par renforcement.
+Dans le cas le plus général, sans étiquette, on cherche à déterminer la structure sous-jacente des données (qui peuvent être une densité de probabilité) et il s'agit alors d'apprentissage non supervisé.
+L'apprentissage automatique peut être appliqué à différents types de données, tels des graphes, des arbres, des courbes, ou plus simplement des vecteurs de caractéristiques, qui peuvent être continues ou discrètes.
+Historique
+Depuis l'antiquité, le sujet des machines pensantes préoccupe les esprits.
+Ce concept est la base de pensées pour ce qui deviendra ensuite l'intelligence artificielle, ainsi qu'une de ses sous-branches : l'apprentissage automatique.
+La concrétisation de cette idée est principalement due à Alan Turing et à son concept de la « machine universelle » en 1936, qui est à la base des ordinateurs d'aujourd'hui.
+Il continuera à poser les bases de l'apprentissage automatique, avec son article sur «
+L'ordinateur et l'intelligence » en 1950, dans lequel il développe, entre autres, le test de Turing.
+En 1943, le neurophysiologiste Warren McCulloch et le mathématicien Walter
+Pitts publient un article décrivant le fonctionnement de neurones en les représentant à l'aide de circuits électriques.
+Cette représentation sera la base théorique des réseaux neuronaux.
+Arthur Samuel, informaticien américain pionnier dans le secteur de l'intelligence artificielle, est le premier à faire usage de l'expression machine learning (en français
+, « apprentissage automatique ») en 1959 à la suite de la création de son programme pour IBM en 1952.
+Le programme jouait au Jeu de Dames et s'améliorait en jouant.
+À terme, il parvint à battre le meilleur joueur des États-Unis.
+Une avancée majeure dans le secteur de l'intelligence machine est le succès de l'ordinateur développé par IBM, Deep Blue, qui est le premier à vaincre le champion mondial d'échecs Garry Kasparov en 1997.
+Le projet Deep Blue en inspirera nombre d'autres dans le cadre de l'intelligence artificielle, particulièrement un autre grand défi : IBM Watson, l'ordinateur dont le but est de gagner au jeu Jeopardy!. Ce but est atteint en 2011, quand Watson gagne à Jeopardy!
+en répondant aux questions par traitement de langage naturel.
+Durant les années suivantes, les applications de l'apprentissage automatique médiatisées se succèdent bien plus rapidement qu'auparavant.
+En 2012, un réseau neuronal développé par Google parvient à reconnaître des visages humains ainsi que des chats dans des vidéos YouTube.
+En 2014, 64 ans après la prédiction d'Alan Turing, le dialogueur Eugene Goostman est le premier à réussir le test de Turing en parvenant à convaincre 33 % des juges humains au bout de cinq minutes de conversation qu'il est non pas un ordinateur, mais un garçon ukrainien de 13 ans.
+En 2015, une nouvelle étape importante est atteinte lorsque l'ordinateur «
+AlphaGo » de Google gagne contre un des meilleurs joueurs au jeu de Go, jeu de plateau considéré comme le plus dur du monde.
+En 2016, un système d'intelligence artificielle à base d'apprentissage automatique nommé LipNet parvient à lire sur les lèvres avec un grand taux de succès.
+Principes
+Les algorithmes utilisés permettent, dans une certaine mesure, à un système piloté par ordinateur (un robot éventuellement), ou assisté par ordinateur, d'adapter ses analyses et ses comportements en réponse, en se fondant sur l'analyse de données empiriques provenant d'une base de données ou de capteurs.
+La difficulté réside dans le fait que l'ensemble de tous les comportements possibles compte tenu de toutes les entrées possibles devient rapidement trop complexe à décrire (on parle d'explosion combinatoire).
+On confie donc à des programmes le soin d'ajuster un modèle pour simplifier cette complexité et de l'utiliser de manière opérationnelle.
+Idéalement, l'apprentissage visera à être non supervisé, c'est-à-dire que la nature des données d'entrainement n'est pas connue.
+Ces programmes, selon leur degré de perfectionnement, intègrent éventuellement des capacités de traitement probabiliste des données, d'analyse de données issues de capteurs, de reconnaissance (reconnaissance vocale, de forme, d'écriture…), de fouille de données, d'informatique théorique…
+Applications
+L'apprentissage automatique est utilisé pour doter des ordinateurs ou des machines de systèmes de : perception de leur environnement .
+Un expert (ou oracle) doit préalablement étiqueter des exemples.
+Le processus se passe en deux phases.
+Lors de la première phase (hors ligne, dite dapprentissage), il s'agit de déterminer un modèle à partir des données étiquetées.
+La seconde phase (en ligne, dite de test) consiste à prédire l'étiquette d'une nouvelle donnée, connaissant le modèle préalablement appris.
+Parfois il est préférable d'associer une donnée non pas à une classe unique, mais une probabilité d'appartenance à chacune des classes prédéterminées (on parle alors d'apprentissage supervisé probabiliste).
+Apprentissage non supervisé :
+Quand le système ou l'opérateur ne dispose que d'exemples, mais non d'étiquette, et que le nombre de classes et leur nature n'ont pas été prédéterminées, on parle d'apprentissage non supervisé ou clustering en anglais.
+Aucun expert n'est requis.
+L'algorithme doit découvrir par lui-même la structure plus ou moins cachée des données.
+Le partitionnement de données, data clustering en anglais, est un algorithme d'apprentissage non supervisé.
+Le système doit ici
+- dans l'espace de description (la somme des données)
+- cibler les données selon leurs attributs disponibles, pour les classer en groupe homogènes d'exemples.
+La similarité est généralement calculée selon une fonction de distance entre paires d'exemples.
+C'est ensuite à l'opérateur d'associer ou déduire du sens pour chaque groupe et pour les motifs (patterns en anglais) dapparition de groupes, ou de groupes de groupes, dans leur « espace ».
+Divers outils mathématiques et logiciels peuvent l'aider.
+On parle aussi d'analyse des données en régression (ajustement d'un modèle par une procédure de type moindres carrés ou autre optimisation d'une fonction de coût).
+Si l'approche est probabiliste , on parle alors de « soft clustering » (par opposition au « hard clustering »).
+Cette méthode est souvent source de sérendipité.
+Apprentissage semi-supervisé : Effectué de manière probabiliste ou non, il vise à faire apparaître la distribution sous-jacente des exemples dans leur espace de description.
+Il est mis en œuvre quand des données (ou « étiquettes ») manquent…
+Le modèle doit utiliser des exemples non étiquetés
+pouvant néanmoins renseigner.
+Apprentissage
+partiellement supervisé :Probabiliste ou non, quand l'étiquetage des données est partiel.
+C'est le cas quand un modèle énonce qu'une donnée n'appartient pas à une classe A, mais peut-être à une classe B ou C (A, B et C étant trois maladies par exemple évoquées dans le cadre d'un diagnostic différentiel).
+Apprentissage par renforcement est un exemple classique.
+Apprentissage par transfert : L’apprentissage par transfert peut être vu comme la capacité d’un système à reconnaître et appliquer des connaissances et des compétences, apprises à partir de tâches antérieures, sur de nouvelles tâches ou domaines partageant des similitudes.
+La question qui se pose est : comment identifier les similitudes entre la ou les tâche (s) cible (s) et la ou les tâche (s) source (s), puis comment transférer la connaissance de la ou des tâche (s) source (s) vers la ou les tâche (s) cible (s) ?
+Algorithmes utilisés
+Ce sont, dans ce domaine :
+L'acquisition de données :
+L'algorithme se nourrissant des données en entrée, c'est une étape importante.
+Il en va de la réussite du projet, de récolter des données pertinentes et en quantité suffisante.
+# La préparation, et le nettoyage de la donnée :
+Il peut arriver que la donnée recueillie à l'étape précédente ne soit pas pleinement pertinente, ou contienne du bruit, ou ne soit pas assez structurée.
+Un opérateur humain va donc optimiser la donnée pour que l'algorithme puisse mieux la traiter, ou arriver plus rapidement à son but.
+La création du modèle
+L'évaluation :
+Une fois l'algorithme d'apprentissage automatique entrainé sur un premier jeu de donnée, on va l'évaluer sur un deuxième ensemble de données afin de vérifier que le modèle ne fasse pas de surapprentissage.
+Le déploiement :
+Le modèle va être déployé en production pour faire des prédictions, et potentiellement utiliser les nouvelles données en entrée pour se ré-entrainer et améliorer son modèle.
+Controverses techniques
+L’apprentissage automatique demande de grandes quantités de données
+pour fonctionner correctement
+Il peut s’avérer difficile de contrôler l’intégrité des jeux de données, notamment dans le cas de données générées par les réseaux sociaux.
+La qualité des « décisions » prises par un algorithme d’AA dépend non seulement de la qualité (donc de leur homogénéité, fiabilité, etc.) des données utilisées pour l’entrainement mais surtout de leur quantité.
+Donc, pour un jeu de données sociales collecté sans attention particulière à la représentation des minorités, l’AA est statistiquement injuste vis-à-vis de celles-ci.
+En effet, la capacité à prendre de « bonnes » décisions dépend de la taille des données, or celle-ci sera proportionnellement inférieure pour les minorités.
+L’AA ne distingue actuellement pas cause et corrélation de par sa construction mathématique, et est incapable d’aller au-delà du cadre imposé par ses données, il n’a donc pas de capacité d’extrapolation.
+Un exemple : si on apprend à un algorithme de retourner le chiffre qu’on lui donne (application identité) en l’entraînant uniquement avec les nombres 1 à 5, il sera incapable de correctement répondre à 6.
+Il est donc incapable d’extrapoler.
+L’utilisation d’algorithmes
+d’apprentissage automatique demande donc d’avoir conscience du cadre de données que l’on a utilisé pour l’apprentissage lors de leur utilisation.
+Il est donc prétentieux d’attribuer des vertus trop grandes aux algorithmes d’apprentissage automatique.
+Application à la voiture
+autonome
+La voiture autonome paraît réalisable grâce à l’apprentissage automatique et les énormes quantités de données générées par la flotte automobile, de plus en plus connectée.
+Contrairement aux algorithmes classiques (qui suivent un ensemble de règles prédéterminées), l’apprentissage automatique apprend ses propres règles.
+Les principaux innovateurs dans le domaine insistent sur le fait que le progrès provient de l’automatisation des processus.
+Ceci présente le défaut que le processus d’apprentissage automatique devient privatisé et obscur.
+Privatisé, car les algorithmes d’
+AA constituent des gigantesques opportunités économiques, et obscurs car leur compréhension passe derrière leur optimisation.
+Cette évolution peut potentiellement nuire à la confiance du public envers l’apprentissage automatique, mais surtout au potentiel à long-terme de technologies très prometteuses.
+La voiture autonome présente un cadre test pour confronter l’apprentissage automatique à la société.
+En effet, ce n’est pas seulement l’algorithme qui se forme à la circulation routière et ses règles, mais aussi l’inverse.
+Le principe de responsabilité est remis en cause par l’apprentissage automatique, car l’algorithme n’est plus écrit mais apprend et développe une sorte d’intuition numérique.
+Les créateurs d’algorithmes ne sont plus en mesure de comprendre les « décisions » prises par leurs algorithmes, ceci par construction mathématique même de l’algorithme d’apprentissage automatique.
+Dans le cas de l’AA et les voitures autonomes, la question de la responsabilité en cas d’accident se pose.
+La société doit apporter une réponse à cette question, avec différentes approches possibles.
+Aux États-Unis, il existe la tendance à juger une technologie par la qualité du résultat qu’elle produit, alors qu’en Europe le principe de précaution est appliqué, et on y a plus tendance à juger une nouvelle technologie par rapport aux précédentes, en évaluant les différences par rapport à ce qui est déjà connu.
+Des processus d’
+évaluation
+de risques
+sont en cours en Europe et aux États-Unis.
+Prospective
+Dans les années 2000-2010, l'apprentissage automatique est encore une technologie émergente, mais polyvalente, qui est par nature théoriquement capable d'accélérer le rythme de l'automatisation et de l'autoaprentissage lui-même.
+Combiné à l'apparition de nouveaux moyens de produire, stocker et faire circuler l'énergie, ainsi qu'à l'informatique ubiquiste, il pourrait bouleverser les technologies et la société (comme l'ont fait la machine à vapeur et l'électricité, puis le pétrole et l'informatique lors des révolutions industrielles précédentes.
+L'apprentissage automatique pourrait générer des innovations et des capacités inattendues, mais avec un risque selon certains observateurs de perte de maitrise de la part des humains sur de nombreuses tâches qu'ils ne pourront plus comprendre et qui seront faites en routine par des entités informatiques et robotisées.
+Ceci laisse envisager des impacts spécifiques complexes et encore impossibles à évaluer sur l'emploi, le travail et plus largement l'économie et les inégalités.
+Selon le journal Science fin 2017 :
+Il est tentant de s'inspirer des êtres vivants sans les copier naïvement pour concevoir des machines capables d'apprendre.
+Les notions de percept et de concept comme phénomènes neuronaux physiques ont d'ailleurs été popularisés dans le monde francophone par Jean-Pierre Changeux.
+L'apprentissage automatique reste avant tout un sous-domaine de l'informatique, mais il est étroitement lié opérationnellement aux sciences cognitives, aux neurosciences, à la biologie et à la psychologie, et pourrait à la croisée de ces domaines, nanotechnologies, biotechnologies, informatique et sciences cognitives, aboutir à des systèmes d'intelligence artificielle ayant une assise plus vaste.
+Des enseignements publics ont notamment été dispensés au Collège de France, l'un par Stanislas Dehaene orienté sur l'aspect bayésien des neurosciences, et l'autre par Yann LeCun sur les aspects théoriques et pratiques de l'apprentissage profond.

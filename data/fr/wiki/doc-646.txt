@@ -1,0 +1,296 @@
+Nombre premier|Arithmétique élémentaire
+Un nombre premier est un entier naturel qui admet exactement deux diviseurs distincts entiers et positifs.
+Ces deux diviseurs sont 1 et le nombre considéré
+, puisque tout nombre a pour diviseurs 1 et lui-même (comme le montre l’égalité n
+1 \times n), les nombres premiers étant ceux qui n’en possèdent aucun autre.
+Par exemple, le nombre entier 7 est premier car 1 et 7 sont les seuls diviseurs entiers de 7.
+Par opposition, on appelle nombre composé tout nombre entier qui est le produit de deux entiers strictement supérieurs à 1 et possède de ce fait au moins trois diviseurs ; sont composés, par exemple, 4 \
+\ 2 \times 2 qui en possède 3 (à savoir 1, 2 et 4)
+, 9 \
+\ 3 \times 3 qui en possède 3 (à savoir 1, 3 et 9) et 12 \
+\ 2 \times 2 \times 3 qui en possède 6 (à savoir 1, 2, 3, 4, 6 et 12).
+Selon cette définition, les nombres 0 et 1 ne sont donc ni premiers ni composés : 1 n'est pas premier car il n'a qu'un seul diviseur entier positif et 0 non plus car il est divisible par tous les entiers positifs.
+Autrefois certains mathématiciens, grâce à une définition légèrement différente de nombre premier, considéraient que 1 en était un.
+Mais au début du , un consensus a abouti à la définition donnée ici, qui exclut 1 des nombres premiers.
+Les vingt-cinq nombres premiers inférieurs à 100 sont
+De telles listes de nombres premiers inférieurs à une borne donnée, ou compris entre deux bornes, peuvent être obtenues grâce à diverses méthodes de calcul.
+Mais il ne peut pas y avoir de liste exhaustive finie des nombres premiers, car on sait (depuis l'Antiquité : voir Théorème d'Euclide sur les nombres premiers) qu'il en existe une infinité.
+La notion de nombre premier est une notion de base en arithmétique élémentaire : le théorème fondamental de l'arithmétique assure qu'un nombre composé est factorisable en un produit de nombres premiers, et que cette factorisation est unique à l'ordre des facteurs près.
+Elle admet des généralisations importantes, mais délicates, dans des branches des mathématiques plus avancées, comme la théorie algébrique des nombres, qui prennent ainsi à leur tour l'appellation d'arithmétique.
+Par ailleurs, de nombreuses applications industrielles de l'arithmétique reposent sur la connaissance algorithmique des nombres premiers, et parfois plus précisément sur la difficulté des problèmes algorithmiques qui leur sont liés ;
+c'est le cas de certains systèmes cryptographiques et des méthodes de transmission de l'information.
+Les nombres premiers sont aussi utilisés pour construire des tables de hachage et pour constituer des générateurs de nombres pseudo-aléatoires.
+Découvert
+- 1, qui comporte plus de 24 millions de chiffres en écriture décimale.
+Éléments historiques
+Les entailles retrouvées sur l'os d'Ishango daté à plus de avant notre ère, mis au jour par l'archéologue Jean de Heinzelin de Braucourt et antérieur à l'apparition de l'écriture (antérieur à ), semblent isoler quatre groupes de valeurs : 11, 13, 17 et 19.
+Certains archéologues l'interprètent comme la preuve de la connaissance des nombres premiers.
+Toutefois, il existe trop peu de découvertes permettant de cerner les connaissances réelles de cette période ancienne.
+Des tablettes d'argile séchées attribuées aux civilisations qui se sont succédé en Mésopotamie durant le montrent la résolution de problèmes arithmétiques et attestent des premières connaissances de l'époque.
+Les calculs nécessitaient de connaître des tables d'inverses d'entiers (les réciproques) dont certaines ont été retrouvées.
+Dans le système sexagésimal utilisé par la civilisation babylonienne pour écrire les entiers, les réciproques des diviseurs des puissances de 60 (nombres réguliers) se calculent facilement : par exemple, diviser par 24, c'est multiplier par 2 × 60 + 30 et décaler de deux places le rang.
+Leur connaissance nécessitait une bonne compréhension de la multiplication, de la division.
+Dans les mathématiques égyptiennes, le calcul fractionnaire demandait aussi des connaissances sur les opérations et les divisions d’entiers.
+Les textes mathématiques égyptiens ne notaient que certaines fractions, en particulier celles correspondant actuellement aux inverses d’entiers .
+Mais il n'y a pas de trace de factorisation d'entiers ou de nombres premiers dans ces textes.
+La première trace incontestable de la présentation des nombres premiers remonte à l'Antiquité (vers 300 av. J.-C.), et se trouve dans les Éléments d’Euclide (livres VII à IX).
+Euclide donne une définition des nombres premiers, la preuve de leur infinité, la définition du plus grand commun diviseur (pgcd) et du plus petit commun multiple (ppcm), et les algorithmes pour les déterminer, aujourd’hui appelés algorithmes d’Euclide.
+Il est possible que les connaissances présentées soient antérieures.
+Jalons symboliques
+L'esprit ludique et l'émulation ont amené des mathématiciens à définir des seuils de gigantisme pour les nombres premiers, exprimés en nombre de chiffres en base dix.
+Parmi ces records, battus ou à battre, on notera en particulier :
+* les nombres premiers titanesques (titanic primes), au-delà de mille chiffres,
+* les nombres premiers gigantesques (gigantic primes), au-delà de dix mille chiffres,
+* les méga-nombres premiers (megaprimes), au-delà d'un million de chiffres.
+En janvier 2016, 149 méganombres premiers étaient connus.
+Le premier à être découvert fut, en 1999, le nombre de Mersenne 26 972 593 − 1 avec ses , grâce aux efforts du projet collaboratif de calcul distribué (GIMPS).
+LElectronic
+Frontier
+Foundation
+offre des prix de calcul coopératif pour encourager les internautes à contribuer à la résolution de problèmes scientifiques par le calcul distribué.
+Le GIMPS a ainsi reçu pour sa découverte en 2008 du premier nombre premier d'au moins 10 millions de chiffres décimaux.
+L'EFF offre encore et dollars respectivement pour la découverte du premier nombre premier de 100 millions et 1 milliard de chiffres décimaux.
+Historique du plus grand nombre premier connu
+Le record du plus grand nombre premier connu a presque toujours été trouvé parmi les nombres de Mersenne, comme le dernier en date, M82589933 = 2
+- 1, un nombre ayant décimaux.
+Historique des nombres premiers tous connus ou dénombrés en dessous d'un seuil
+Découvrir un nombre premier plus grand que tous ceux déjà connus n'implique pas de connaître tous les nombres premiers intermédiaires.
+Plus généralement, la recherche de tous les nombres premiers inférieurs à un nombre donné (premier ou non) constitue un défi mathématique spécifique.
+Notes :
+*) \pi (s) est la quantité totale de nombres premiers situés sous le seuil s (c'est-à-dire dans l'intervalle d'entiers 0, s).
+Structures algébriques, topologiques, et nombres premiers
+La notion de nombre premier est liée à l'étude de la structure multiplicative de l'anneau des entiers relatifs.
+Le théorème fondamental de l'arithmétique, basé sur le lemme d'Euclide, élucide cette structure en assurant que tout entier strictement positif se factorise en un produit de nombres premiers, de manière unique à l'ordre des facteurs près.
+Ce théorème permet de déterminer des notions de pgcd, ppcm, et de nombres premiers entre eux, qui sont utiles pour la résolution de certaines équations diophantiennes, notamment la caractérisation des triplets pythagoriciens.
+D'autres problèmes naturels sont envisagés, comme la détermination de la proportion d'entiers premiers à un entier fixé.
+L'introduction de structures algébriques plus avancées permet de résoudre ce problème rapidement dans le cadre de l'arithmétique modulaire.
+De nombreux théorèmes classiques de nature arithmétique peuvent être énoncés, comme le petit théorème de Fermat, ou le théorème de Wilson ;
+ou des théorèmes de nature plus algébrique comme le théorème des restes chinois.
+Le théorème des restes chinois est un premier résultat dans l'étude des groupes abéliens finis.
+Il met en évidence que la structure de ces groupes est en partie liée à la décomposition en produit de facteurs premiers de leurs cardinaux.
+Les choses sont plus compliquées pour les groupes non abéliens, cependant, l'étude se base à nouveau sur la décomposition en facteurs premiers de leurs cardinaux, à travers la théorie de Sylow.
+Les nombres premiers interviennent aussi dans les structures topologiques.
+Le corps des nombres rationnels admet une structure topologique habituelle, qui donne par complétion le corps des nombres réels.
+Pour chaque nombre premier p, une autre structure topologique peut être construite, à partir de la norme suivante : si x=\frac est un nombre rationnel non nul sous forme irréductible et que p^\alpha et p^\beta sont les plus grandes puissances de p divisant a et b, la norme p-adique de x est p^.
+En complétant le corps des rationnels suivant cette norme, on obtient le corps des nombres p-adiques, introduit par Kurt Hensel au début du .
+Le théorème d'Ostrowski assure que ces normes p-adiques et la norme habituelle sont les seules sur le corps des nombres rationnels, à équivalence près.
+Nombres premiers particuliers
+Il existe des types remarquables de nombres premiers, définis par des contraintes particulières.
+Les quelques cas ci-dessous sont parmi les plus connus.
+Nombres premiers de Pythagore
+On appelle parfois nombre premier « de Pythagore » tout nombre premier de la forme 4n + 1, où n est un entier naturel.
+Par exemple, le nombre premier 5 est de Pythagore.
+Un nombre premier impair est de Pythagore si et seulement s'il est somme de deux carrés.
+Nombres premiers de Mersenne
+Les nombres premiers de la forme :
+où p est alors nécessairement aussi premier
+, sont appelés nombres premiers de Mersenne.
+Les grands nombres premiers sont souvent recherchés sous cette forme car il existe un test efficace, le test de primalité de Lucas-Lehmer, pour déterminer si un tel nombre est premier ou non.
+- 1, qui comporte chiffres en écriture décimale.
+Il s'agit (chronologiquement) du premier de Mersenne connu et sa découverte a été annoncée le par le GIMPS.
+- 1, inférieur au précédent, a été découvert deux semaines plus tard ;
+- 1, lui aussi inférieur au premier cité.
+- 1 (en janvier 2013) puis à nouveau, le , par celle de M, le , par celle de M,
+et enfin, le , par celle de M.
+Nombres premiers de Fermat
+Les nombres de la forme :
+sont appelés les nombres de Fermat.
+Fermat avait conjecturé que tous ces nombres étaient premiers.
+Cependant
+, les seuls nombres de Fermat premiers connus sont
+F_0
+3, F_1
+5, F_2
+17, F_3
+257 et F_4=65\,537
+Le nombre de Fermat F est seulement semi-premier.
+Il est divisible par 641.
+Il s'agit du premier contre-exemple à cette conjecture de Fermat, découvert par Euler en 1732.
+Tous les autres nombres de Fermat calculés depuis sont composés, au point que l'objectif s'est transformé en la recherche effrénée d'un autre nombre de Fermat premier.
+Nombres premiers jumeaux
+Deux nombres premiers sont dits jumeaux s'ils ne diffèrent que de 2.
+Les trois plus petits couples de nombres premiers jumeaux sont (3, 5), (5, 7) et (11, 13).
+Le plus grand connu est × 2 ± 1 ;
+les deux nombres possèdent (septembre 2016).
+Il est conjecturé qu'il existe une infinité de nombres premiers jumeaux.
+Nombres premiers de Sophie Germain
+Un nombre premier G est un nombre premier de Sophie Germain si 2G + 1 est aussi un nombre premier, appelé nombre premier sûr.
+Les dix premiers nombres premiers de Sophie Germain sont 2, 3, 5, 11, 23, 29, 41, 53, 83, 89.
+Il est conjecturé qu'il existe une infinité de nombres premiers de Sophie Germain.
+Nombres premiers de Chen
+Un nombre premier de Chen est un nombre premier p tel que p + 2 est premier ou semi-premier (c'est-à-dire le produit de deux nombres premiers).
+En 1966, Jingrun Chen a démontré qu'il existe une infinité de tels nombres premiers.
+Les premiers nombres premiers de Chen sont :
+nombres premiers de Wieferich
+Les seuls nombres premiers de Wieferich connus sont 1093 et 3511.
+On ignore si l'ensemble des nombres premiers de Wieferich est fini ou infini.
+Nombres premiers de Wilson
+Un nombre premier p est un nombre premier de Wilson si p divise le nombre (p - 1)!
++ 1.
+Les seuls nombres premiers de Wilson connus sont 5, 13, et 563 ().
+Cependant, on conjecture qu'il existe une infinité de nombres premiers de Wilson.
+Nombres premiers de Wolstenholme
+Un nombre premier p est appelé nombre premier de Wolstenholme s'il vérifie la condition suivante :
+: \equiv 1 \bmod.
+Les seuls nombres premiers de Wolstenholme connus sont 16 843 et 2 124 679.
+Cependant, on conjecture qu'il existe une infinité de nombres premiers de Wolstenholme.
+Algorithmique : calcul des nombres premiers et tests de primalité
+Crible d'Ératosthène et algorithme par essais de division
+Les premiers algorithmes
+pour décider si un nombre est premier (appelés tests de primalité) consistent à essayer de le diviser par tous les nombres qui n'excèdent pas sa racine carrée : s'il est divisible par l'un d'entre eux, il est composé, et sinon, il est premier.
+Cependant, l'algorithme déduit de cette formulation peut être rendu plus efficace : il suggère beaucoup de divisions inutiles, par exemple, si un nombre n'est pas divisible par 2, il est inutile de tester s'il est divisible par 4.
+En fait, il suffit de tester sa divisibilité par tous les nombres premiers n'excédant pas sa racine carrée.
+Le crible d'Ératosthène est une méthode, reposant sur cette idée, qui fournit la liste des nombres premiers inférieurs à une valeur fixée n (n = 120 dans l'animation ci-contre) :
+* on retient comme «
+nombre premier » le premier nombre de la liste non encore barré (le premier dans ce cas est 2) ;
+* on barre tous les entiers multiples du nombre retenu à l'étape précédente, en commençant par son carré (puisque 2 × i, 3 × i, … , (i
+- 1) × i ont déjà été barrés en tant que multiples de 2, 3, ...) ;
+* on répète les deux dernières opérations (c'est-à-dire : on retient le prochain nombre non barré et on barre ses multiples) ;
+* dès qu'on en est à chercher les multiples des nombres excédant la racine carrée de n, on termine l'algorithme.
+Ainsi les nombres premiers inférieurs à n sont les nombres qui restent non barrés à la fin du processus.
+Cet algorithme est de complexité algorithmique exponentielle.
+Le crible d'Ératosthène fournit donc plus d'information que la seule primalité de n. Si seule cette information est souhaitée, une variante parfois plus efficace consiste à ne tester la divisibilité de n
+que par des petits nombres premiers dans une liste fixée au préalable (par exemple 2, 3 et 5), puis par tous les nombres entiers inférieurs à la racine carrée de n qui ne sont divisibles par aucun des petits nombres premiers choisis ;
+cela amène à tester la divisibilité par des nombres non premiers (par exemple 49 si les petits premiers sont 2, 3 et 5 et que n excède 2500), mais un choix d'un nombre suffisant de petits nombres premiers doit permettre de contrôler le nombre de tests inutiles effectués.
+Autres algorithmes
+Une variante du crible d'Ératosthène est le crible de Sundaram qui consiste à former les produits de nombres impairs.
+Les nombres qui ne sont pas atteints par cette méthode sont les nombres premiers impairs, c'est-à-dire tous les nombres premiers sauf 2.
+Par ailleurs, à partir du crible d'Ératosthène, la factorisation de l'entier n peut facilement être trouvée.
+D'autres méthodes plus générales concernant ce problème plus difficile que simplement déterminer la primalité sont aussi appelées méthodes de crible, la plus efficace étant actuellement le crible général des corps de nombres.
+Les algorithmes présentés précédemment ont une complexité trop importante pour pouvoir être menés à terme, même avec les ordinateurs les plus puissants, quand n devient grand.
+Une autre classe d'algorithme consiste à tester l'entier n pour une famille de propriétés vérifiées par les nombres premiers : si une propriété de cette famille n'est pas vérifiée pour n, alors il est composé ;
+en revanche, le fait qu'une des propriétés de la famille soit vérifiée pour n ne suffit pas à assurer la primalité.
+Toutefois, si cette famille est telle qu'un nombre composé ne vérifie pas au moins la moitié des propriétés en jeu, alors l'utilisateur peut estimer qu'un nombre n qui vérifie k propriétés de la famille est premier avec une probabilité supérieure à : il est déclaré probablement premier à partir d'une valeur de k à choisir par l'utilisateur ;
+un nombre déclaré probablement premier, mais qui n'est pas premier est appelé nombre pseudo-premier.
+Un test basé sur ce principe est appelé test probabiliste de primalité.
+De tels tests reposent souvent sur le petit théorème de Fermat, amenant au test de primalité de Fermat, et à ses raffinements : le test de primalité de Solovay-Strassen et celui de Miller-Rabin, qui sont des améliorations,
+car ils admettent moins de nombres pseudo-premiers.
+L'algorithme AKS mis au point en 2002 permet de déterminer (avec certitude) si un nombre donné N est premier en utilisant un temps de calcul polynomial.
+Des formules sur les nombres premiers
+De nombreuses formules ont été cherchées pour générer les nombres premiers.
+Le plus haut niveau d'exigence serait de trouver une formule qui à un entier n associe le n-ième nombre premier.
+De manière un peu plus souple, on peut se contenter d'exiger une fonction f qui à tout entier n associe un nombre premier et telle que chaque valeur prise ne le soit qu'une fois.
+Enfin
+, on souhaite que la fonction soit calculable en pratique (ce qui n'est pas le cas de la formule de Mills).
+Par exemple, le théorème de Wilson assure que p est un nombre premier si et seulement
+p-1
+\equiv
+-1 \mod p.
+Il s'ensuit que la fonction f\left ( n\right) = 2 + \left\bmod n\right vaut
+si n est un nombre premier et vaut
+2 sinon.
+Cependant, le calcul de la factorielle (même modulo n) est rédhibitoire pour de grandes valeurs de n, et cette fonction a donc peu d'utilité pour générer des nombres premiers.
+Il est donc tentant de chercher des fonctions polynomiales dont les valeurs
+sont des nombres premiers.
+Ceci a conduit au résultat (négatif) suivant : un polynôme (à une ou plusieurs variables) dont les valeurs aux entiers naturels sont des nombres premiers, est un polynôme constant.
+La recherche de polynômes vérifiant une propriété plus faible s'est développée à partir de la notion d'ensemble diophantien de nombres entiers ;
+de tels ensembles peuvent être caractérisés comme les ensembles de valeurs strictement positives prises par un polynôme (à plusieurs variables)
+dont les coefficients et les variables sont des nombres entiers.
+Un travail mené dans les années 1960 et 1970, notamment par Putnam, Matiyasevich, Davis et Robinson, permet de montrer que l'ensemble des nombres premiers est diophantien, conduisant à l'existence de polynômes à coefficients et variables entières dont toutes les valeurs positives sont les nombres premiers.
+L'écriture de divers polynômes explicites a ensuite été possible, avec différents nombres de variables, et divers degrés.
+Notamment, Jones, Sato, Wada et Wiens ont déterminé en 1976 un tel polynôme, de degré 25 à 26 variables.
+De même que pour les formules à factorielles, l'exploitation de ce polynôme ne donne aucun résultat en pratique car il ne donne pratiquement que des valeurs négatives quand on fait varier les variables a à z de 0 à l'infini.
+La notion d'ensemble diophantien s'est plus généralement développée à partir des problèmes posés par le dixième problème de Hilbert sur les équations diophantiennes.
+Répartition des nombres premiers
+Infinité des nombres premiers
+Euclide a démontré dans ses Éléments (proposition 20 du Livre IX) que les nombres premiers sont en plus grande quantité que toute quantité proposée de nombres premiers.
+Autrement dit, il existe une infinité de nombres premiers.
+La démonstration d'Euclide repose sur la constatation qu'une famille finie p1,...,pn de nombres premiers étant donnée, tout nombre premier divisant le produit des éléments de cette famille augmenté de 1 est en dehors de cette famille (et un tel diviseur existe, ce qui est aussi prouvé par Euclide).
+D'autres démonstrations de l'infinité des nombres premiers ont été données.
+La preuve d'Euler utilise l'identité :
+\sum_^\infin \ \frac1n\ = \ \prod_ \ \frac1.
+Dans la formule précédente, le terme de gauche est la somme de la série harmonique, qui est divergente.
+Par conséquent, le produit de droite doit contenir une infinité de facteurs.
+Furstenberg fournit une preuve utilisant une argumentation topologique.
+Les avancées du
+Le résultat sur l'infinité des nombres premiers amène des questions plus précises concernant la fonction qui à un nombre réel x associe \pi (x), le nombre de nombres premiers inférieurs à x, et qui tend donc vers l'infini.
+Une conjecture importante au , formulée par Adrien-Marie Legendre et Carl Friedrich Gauss, était que cette fonction de compte des nombres premiers est équivalente à la fonction x \mapsto \frac quand x tend vers l'infini, c'est-à-dire que la proportion de nombres premiers parmi les nombres inférieurs à x (soit \frac) tend vers 0 à la vitesse de \frac1.
+Avant la démonstration de la conjecture à la fin du siècle, un résultat partiel avait été démontré par Pafnouti Tchebychev, l'existence de deux constantes explicites C et D telles qu'on ait l'encadrement, pour x assez grand :
+C\leq\pi (x)\frac\leq D.
+L'inégalité de Tchebychev permettait notamment de démontrer le postulat de Bertrand selon lequel dans tout intervalle d'entiers naturels entre un entier et son double existe au moins un nombre premier.
+Plus généralement, les résultats sur la fonction de compte des nombres premiers permettent d'obtenir des résultats sur le n
+ième nombre premier ;
+par exemple les résultats d'Ishikawa de 1934 sont des conséquences directes des théorèmes de Tchebychev : pn + pn + 1 > pn + 2 et pnpm > pn + m, où pn désigne le n-ième nombre premier (avec p1 = 2) ; ou encore, d'après un résultat de Felgner de 1990 : 0,91 < < 1,7 .
+La démonstration analytique d'Euler sur l'infinité des nombres premiers peut être vue comme un premier pas vers la résolution de problèmes plus avancés.
+Elle consiste essentiellement à étudier le comportement de la fonction zêta de Riemann en 1 au moyen de ce qu'il est convenu d'appeler un produit eulérien, et d'en déduire la divergence de la série des inverses des nombres premiers.
+En reprenant cette étude, au moyen d'un outil appelé caractère de Dirichlet, et en utilisant à la place de la fonction zêta de Riemann des fonctions analogues appelées fonction L de Dirichlet, Dirichlet a été capable d'adapter la démonstration aux nombres premiers dans des progressions arithmétiques : si a et b sont premiers entre eux, alors il existe une infinité de nombres premiers de la forme aq+b.
+Plus précisément, les nombres premiers sont équirépartis entre les différentes progressions arithmétiques de raison a (c'est-à-dire avec a fixé, et b variant parmi les divers restes inversibles dans la division euclidienne par a).
+La conjecture de Legendre et Gauss a été démontrée indépendamment par Jacques Hadamard et Charles-Jean de La Vallée Poussin en 1896, et porte le nom de théorème des nombres premiers.
+Ces démonstrations nécessitent des outils puissants d'analyse complexe pour démontrer un énoncé d'arithmétique et d'analyse réelle.
+Une stratégie pour ces démonstrations est l'étude de la fonction zêta de Riemann sur un domaine plus grand qu'un simple voisinage de 1 : il est nécessaire de la contrôler, c'est-à-dire de majorer son module, au voisinage de la droite verticale des nombres de partie réelle 1 dans le plan complexe.
+La puissance des outils d'analyse complexe a conduit au développement d'une branche entière des mathématiques, la théorie analytique des nombres, dans laquelle l'étude de la fonction zêta de Riemann est devenue un thème central.
+En particulier l'hypothèse de Riemann, encore non démontrée, sur la localisation de ses zéros, aurait des conséquences fortes sur le comportement de la fonction de compte des nombres premiers.
+Ultérieurement
+au cours du , des démonstrations du théorème des nombres premiers ont été trouvées qui ne recourent pas à l'analyse complexe, notamment par Erdős et Selberg.
+Théorème de Green-Tao
+Le théorème de Green-Tao, démontré en 2004 par Ben Joseph Green et Terence Tao, généralise notamment un théorème de Dirichlet en assurant que pour tout entier k, il existe une infinité de suites de k nombres premiers en progression arithmétique, c'est-à-dire de la forme :
+a,\,a+b,\,a+2b,\,\dots,\,a+ (k-1)b.
+Le théorème de Green-Tao est en fait bien plus fort que cet énoncé seul : par exemple, il établit qu'une telle progression arithmétique existe, avec des entiers tous plus petits
+que :
+(expérimentalement, cette borne semble plutôt devoir être de l'ordre de k!).
+Il assure également que pour tout entier k et tout réel \delta strictement positif, pour tout x suffisamment grand, si P est un ensemble de nombres premiers inférieurs à x contenant au moins \delta\pi (x) éléments, alors P contient au moins une progression arithmétique de nombres premiers comptant k termes.
+Conjecture de Bateman-Horn
+De nombreux résultats et conjectures sur la répartition des nombres premiers sont contenus dans la conjecture générale suivante.
+Soit f1,...,fk des polynômes non constants, irréductibles et vérifiant la propriété que pour tout nombre premier p il y ait au moins un entier n parmi 0, ..., p - 1 tel que p ne divise pas le produit des fi (n).
+On note \omega (p) le complémentaire à p du nombre de tels entiers.
+Un tel ensemble de polynômes est dit admissible ;
+on cherche à connaître la proportion d'entiers en lesquels les polynômes prennent simultanément des valeurs premières, et se limiter à des ensembles de polynômes admissibles permet d'éviter des cas triviaux comme f1 (t)
+t, et f2 (t)
+t+1.
+Il est alors conjecturé que le nombre d'entiers n plus petits qu'un réel x tels que les valeurs f1 (n),...,fk (n) sont simultanément premières, est, pour x assez grand, de l'ordre de :
+\left (\prod_p\frac\right)\frac x.
+Le théorème des nombres premiers correspond au cas k
+et ft
+le théorème de Dirichlet à k
+et ft
+at + b, et
+pour k
+2, f1 (t)
+t et f2 (t)
+= t + 2, on obtient une version quantitative (et donc plus générale) de la conjecture des nombres premiers jumeaux.
+Applications
+La décomposition en facteurs premiers est utile pour simplifier les calculs fractionnaires, et de manière générale simplifier des formules.
+Elle n'est raisonnablement applicable
+que pour de petits nombres.
+Les sciences physiques ont de nombreuses formules comportant des nombres entiers petits, soit qu'il s'agisse de coefficients provenant de la dérivation ou de l'intégration de monômes, soit qu'il s'agisse de coefficients choisi volontairement entiers pour une application.
+Les nombres premiers, et plus généralement la théorie des nombres, ont longtemps été vus comme un sujet purement mathématique, avec peu ou pas d'applications extérieures.
+Cela changea rapidement dans les années 1970, quand de nouveaux systèmes de cryptographie basés sur les propriétés des nombres premiers furent conçus.
+Cryptographie à clé publique
+Jusque
+dans les années 1970, les systèmes de chiffrement connus étaient basés sur le principe de la cryptographie symétrique, où une même clé (secrète) est utilisée pour chiffrer et déchiffrer un message.
+En 1978, Ronald Rivest, Adi Shamir et Leonard Adleman décrivent le premier système public de cryptographie asymétrique (nommé d'après leurs initiales RSA), basé sur les propriétés des nombres premiers et de la factorisation.
+Dans un tel système, deux clés sont utilisées : l'une sert à chiffrer, l'autre à déchiffrer.
+La clé permettant de chiffrer est accompagnée d'un grand nombre entier, le produit de deux grands nombres premiers gardés secrets (de l'ordre de 200 chiffres).
+Pour calculer la clé de déchiffrement, la seule méthode connue nécessite de connaître les deux facteurs premiers.
+La sécurité du système est basée sur le fait qu'il est facile de trouver deux grands nombres premiers (en utilisant des tests de primalité) et de les multiplier entre eux, mais qu'il serait difficile pour un attaquant de retrouver ces deux nombres.
+Ce système permet également de créer des signatures numériques, et a révolutionné le monde de la cryptographie.
+Généralisations des nombres premiers
+La notion de nombre premier s'est vue généralisée au cours du dans d'autres structures algébriques que l'anneau des entiers relatifs.
+Pour résoudre des problèmes arithmétiques tels que le théorème des deux carrés, le théorème des quatre carrés, ou encore la loi de réciprocité quadratique (dont la première preuve est due à Carl Friedrich Gauss dans ses Disquisitiones arithmeticae), les mathématiciens ont été amenés à mener des raisonnements sur la divisibilité analogues à ceux qui impliquent les nombres entiers dans d'autres anneaux, par exemple celui des entiers de Gauss ou celui des entiers d'Eisenstein.
+Le point de vue moderne trouve sa source dans les travaux d'Ernst Kummer, qui introduit la notion de «
+nombre premier idéal », dans sa tentative de démontrer le grand théorème de Fermat.
+Cette notion est à l'origine de la théorie moderne des anneaux d'entiers algébriques, découlant des travaux de Dedekind et Kronecker : en termes modernes, on dit que ces anneaux ont une structure d'anneaux de Dedekind ;
+notamment, le théorème sur la factorisation des nombres premiers y est remplacé par un résultat de factorisation des idéaux de l'anneau (c'est-à-dire les sous-groupes absorbants pour la multiplication, qui dans ce contexte sont en rapport avec ce que Kummer appelait «
+nombres idéaux ») en produit d'idéaux premiers.
+L'arithmétique dans ces anneaux a en général des liens profonds et difficiles avec l'arithmétique des nombres premiers classiques : par exemple, dans ses travaux sur le théorème de Fermat, Kummer parvient à démontrer l'impossibilité de trouver des solutions non triviales (c'est-à-dire avec x, y et z non nuls) à l'équation xp + yp = zp si p est un nombre premier régulier (il s'agit d'une condition portant sur la nature de l'anneau des entiers algébriques engendré par une racine primitive p-ième de l'unité).
+Sur la seule base de quelques expériences statistiques, certaines conjectures sur les nombres premiers ont été transposées aux nombres chanceux (construits par une variante du crible d'Ératosthène).
+Conjectures et questions ouvertes
+Il y a beaucoup de conjectures et de questions ouvertes sur les nombres premiers.
+Par exemple :
+** conjecture de Goldbach : tout nombre pair strictement supérieur à 2 peut s'écrire comme somme de deux nombres premiers ;
+** conjecture des nombres premiers jumeaux :
+il existe une infinité de jumeaux premiers ;
+** conjecture de Legendre :
+il existe toujours au moins un nombre premier entre n et (n + 1) ;
+cette conjecture est liée à l'hypothèse de Riemann et, comme cette dernière, reste non démontrée à ce jour ;
+** existence d'une infinité de nombres premiers de la forme n + 1.
+L'existence d'une infinité de nombres premiers de Sophie Germain.
+* La conjecture de Polignac : tout entier naturel pair n peut s'écrire comme différence de deux nombres premiers consécutifs et cela d'une infinité de manières.
+* L'hypothèse H de Schinzel : elle englobe la conjecture des nombres premiers jumeaux et le quatrième problème de Landau ;
+elle stipule que si l'on a une famille finie de polynômes à coefficients entiers, alors il existe une infinité d'entiers n tels que tous les polynômes de la famille donnent des nombres premiers quand on les évalue en n (à condition qu'il n'y ait pas d'obstruction évidente pour que ce soit le cas : par exemple, si un des polynômes est n (n + 1) ou 2n, ce n'est clairement pas possible).
+* La conjecture de Bateman-Horn : elle précise l'hypothèse de Schinzel en donnant une valeur approchée du nombre des n < x ayant cette propriété.
+* Y a-t-il une infinité de nombres premiers de Fermat ou de Mersenne ou de Fibonacci ?
+* Y a-t-il une infinité de nombres premiers factoriels ou primoriels ?
+Une conjecture de Daniel Shanks : soit la suite, dite d'Euclide-Mullin, de premier terme u1 = 2 et telle que le terme un soit le plus petit diviseur premier du successeur du produit des termes ui pour La conjecture énonce que tous les nombres premiers apparaissent dans cette suite.
+* La spirale d'Ulam (ou horloge d'Ulam)
+n'est à ce jour pas encore pleinement expliquée.

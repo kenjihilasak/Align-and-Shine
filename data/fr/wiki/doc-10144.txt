@@ -1,0 +1,112 @@
+Polygone|Construction géométrique
+Un heptagone est un polygone à sept sommets, donc sept côtés et quatorze diagonales.
+La somme des angles internes d'un heptagone non croisé vaut .
+Un heptagone régulier est un heptagone dont tous les côtés sont égaux et dont tous les angles internes sont égaux.
+Il y en a trois : deux étoilés (les heptagrammes réguliers) et un convexe.
+C'est de ce dernier qu'il s'agit lorsqu'on parle de « l'heptagone régulier ».
+L'heptagone régulier est le plus petit des polygones réguliers non constructibles à la règle et au compas.
+Il est cependant possible de réaliser une construction à la règle et au compas si l'on s'aide d'autres outils géométriques ou si la règle peut être graduée (construction par neusis).
+Il est aussi possible d'en tracer une version approchée, aux erreurs faibles, avec le compas et la règle non graduée.
+Caractéristiques de l'heptagone régulier
+Non-constructibilité par règle et compas
+L'heptagone régulier n'est pas constructible à la règle et au compas car le nombre premier 7 n'est pas un nombre de Fermat (théorème de Gauss-Wantzel).
+On peut aussi démontrer cette propriété de non-constructibilité sans faire appel aux nombres de Fermat, en utilisant seulement le théorème de Wantzel :
+Notons
+\tfrac7 et x
+\cos
+Si l'heptagone était constructible alors x serait un nombre constructible.
+Les angles 3a et 4a ayant pour somme 2k\pi, on a
+: \cos (4a)=\cos (3a)
+qui, par les formules d'angle multiple, se réécrit
+8x^4
+- 8x^2 + 1 = 4x^3
+ou encore
+: (x-1) (8x^3+4x^2-4x-1)=0.
+Pour k non multiple de 7, le réel x est donc racine de 8x^3 + 4x^2
+- 4x
+- 1, qui est irréductible sur \Q et de degré 3.
+Ceci est en contradiction avec le résultat établi par Wantzel, qui énonce que le polynôme minimal d'un nombre constructible a toujours pour degré une puissance de 2.
+Donc \cos a n'est pas constructible si k n'est pas multiple de 7, par conséquent l'heptagone n'est pas constructible.
+Construction par intersection
+de coniques
+L'heptagone est cependant constructible à l'aide de coniques, puisque 7 est premier de la forme 23 + 1, ou encore : puisque l'heptagone est constructible par neusis .
+La figure jointe offre une construction de l'heptagone à l'aide du cercle unité et d'une hyperbole équilatère de centre Ω et passant par A (1, 0).
+Dans cette construction, quatre des sept sommets apparaissent comme points d'intersection du cercle circonscrit et de l'hyperbole équilatère.
+Construction par neusis
+Une construction par neusis ou par inclinaison est un procédé de construction utilisant une règle graduée et consistant à construire un segment de longueur donnée dont les extrémités se trouvent sur deux courbes données.
+Il s'agit ici de construire un angle de .
+Une construction préliminaire
+Dans la figure jointe, ABCDEFGA est un polygone où tous les segments sont de longueur 1.
+ABFD sont alignés et AGCE aussi.
+On prouve que l'angle DAE vaut :
+: on note cet angle a, qui est également l'angle BAC
+le triangle ABC étant isocèle, l'angle opposé ACB vaut a lui aussi ;
+la somme des angle d'un triangle vaut , l'angle ABC vaut -2a et l'angle complémentaire CBD vaut 2a ;
+: le triangle BCD étant isocèle, l'angle opposé CDB a également la même valeur (2a) et l'angle BCD vaut -4a ;
+la somme des angles ACB (qui vaut a), BCD (-4a) et DCE vaut , donc DCE vaut 3a.
+Le triangle CDE étant isocèle, l'angle opposé DEC vaut lui aussi 3a ;
+l'angle DEA est le même.
+Le triangle ADE étant isocèle, c'est aussi la valeur de l'angle EDA, et la somme des angles vaut 7a,
+mais aussi
+donc a = .
+On prouve que la longueur BE vaut :
+On note s et t les longueurs BF et FD.
+Le triangle FDE étant isocèle, 2\cos (EDF)=t.
+: Les droites (FC) et (DE) étant parallèles, l'angle ACF vaut 3a.
+Comme l'angle ACB vaut a, l'angle BCF vaut 3a
+- a
+2a.
+Le triangle BFC est donc isocèle et FC
+FB =
+Le même parallélisme permet de dire, d'après le théorème de Thalès, que
+:\frac=\frac s1
+qui, par produit en croix et simplification, donne s^2+st=1.
+Le théorème d'Al-Kashi dans le triangle BDE donne alors
+: BE^2
+BD^2 + DE^2
+- 2.BD.DE.\cos (EDF)
+1 + (s+t)^2-t (s+t)
+1 + s^2+st
+La construction par neusis
+Il s'agit de construire un point A sur la médiatrice d'un segment DE et un point B sur le segment AD tels que AB
+1 et BE
+On aura alors reconstitué le triangle précédent.
+On construit un carré CDEF de côté 1, on trace la médiatrice (d) de DE, et aussi de CF, ainsi que le cercle de centre E et de rayon EC.
+On place l'origine de la règle sur la médiatrice, la règle s'appuie sur le point D, on fait glisser le long de la médiatrice l'origine de la règle vers le haut de la figure tout en conservant l'appui sur D, jusqu'à ce que le cercle (C) traverse la règle à la graduation 1.
+On obtient alors les points B et A aux graduations 0 et 1 respectivement.
+On construit le cercle circonscrit au triangle isocèle ADE (par la méthode de l'intersection des médiatrices de deux de ses côtés, qui détermine le centre O du cercle à construire, le positionnement le plus précis étant de prendre les deux côtés les plus longs qui doit aussi coïncider sur la médiatrice déjà tracée (d) de DE), qui se trouve être aussi le cercle circonscrit de l'heptagone DEGHAIJ de base DE, qu'il suffit de construire en reportant au compas autour du cercle circonscrit la longueur de son premier arc DE en partant des points D, E et A déjà tracés (DE
+JD).
+Cette méthode permettant de tracer au moins un heptagone régulier de côté 1 permet ensuite de diviser un disque en 7 parties égales, en déplaçant le centre de cet heptagone de référence au centre du cercle à diviser, puis en utilisant la règle en s'appuyant sur le centre commun et les sommets du premier heptagone pour tracer les rayons coupant le cercle à découper en 7 arcs égaux :
+: Cette seconde construction ne nécessite que la règle et le compas pour faire « glisser » l'heptagone unitaire déjà construit pour faire coïncider les centres de l'heptagone déplacé avec le centre du cercle à diviser.
+: Il suffit juste de tracer une première droite joignant le centre du premier heptagone avec le centre du cercle à diviser, puis de tracer les parallèles passant par les sommets du premier heptagone, et de reporter au compas sur ces parallèles la distance entre les deux centres.
+: Une fois le second heptagone unitaire tracé et aligné au centre du cercle à diviser, il ne reste qu'à l'utiliser pour tracer les 7 rayons coupant le cercle à diviser et passant par les sommets de l'heptagone unitaire déplacé, pour obtenir un heptagone régulier de rayon quelconque inscrit dans le disque à diviser en 7 parts égales.
+Constructions approchées
+À l'aide d'un triangle équilatéral
+Le rapport entre le côté de l'heptagone et le rayon du cercle circonscrit est de 2\sin (\pi/7) \approx 08677.
+Ce nombre est très voisin de \frac2\approx 0866 et ce nombre est très facile à obtenir à l'aide d'un triangle équilatéral.
+D'où la construction suivante :
+Tracer un cercle de rayon 1 et de centre M.
+Prendre un point X sur le cercle.
+Le cercle de centre X et de rayon XM rencontre le cercle précédent en A et Y
+: Les droites (AY) et (MX) se coupent en H.
+La longueur AH est une bonne approximation du côté de l'heptagone inscrit dans ce même cercle.
+Par cette méthode l'angle au centre est d'environ 51,32 degrés au lieu des 51,43 (environ) attendus, soit une erreur relative de 2,15 pour mille.
+Heptagone régulier dans la vie courante
+La découpe de la pièce de 20 centimes d'euro est basée sur un heptagone régulier.
+Les pièces britanniques de 20 et de 50 pence sont des heptagones de Reuleaux.
+Fragments d'histoire
+L'heptagone est le premier polygone régulier à n'être pas constructible à la règle et au compas.
+Il est donc naturel qu'après la construction du pentagone et de l'hexagone, les Grecs puis les Arabes se soient penchés sur la construction de l'heptagone.
+Le seul texte d'origine grecque dont on ait trace sur une construction exacte de l'heptagone est attribué à Archimède : Sur la division d'un cercle en sept parties égales.
+Il nous est parvenu par une traduction arabe de Thābit ibn Qurra.
+La méthode de construction utilise une étape intermédiaire consistant à construire un point égalisant l'aire de deux triangles mais les détails de cette construction ne sont pas donnés.
+Les avis des commentateurs sont donc partagés : est-ce un trou dans la démonstration ?
+- la construction absente faisait-elle appel à une construction par neusis ?
+- le point a-t-il été obtenu par intersection de coniques ?
+Nombreux sont les mathématiciens arabes à avoir commenté ce texte d'Archimède et dès le , des méthodes de construction utilisant l'intersection de deux coniques (deux hyperboles ou une hyperbole et une parabole) sont proposées, soit pour combler la lacune de la démonstration d'Archimède, soit pour proposer d'autres constructions (Abū al-Jūd, Al-Sijzi, , Abū
+Sahl al-Qūhī,
+Ibn Sahl,
+Ibn al Haytham, Kamal al-Din ibn Yunus (mort vers 1242)).
+La relation existant entre la construction de l'heptagone et la résolution d'une équation de degré trois est étudiée dès Abu Nasr Mansur.
+De tous ces traités sur l'heptagone, il semble qu'aucun n'ait été traduit en latin.
+On trouve cependant trace d'une construction de l'heptagone faisant référence à la méthode d'Archimède dans le De Triangularis de Jordanus Nemorarius.

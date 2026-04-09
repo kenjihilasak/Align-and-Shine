@@ -1,0 +1,33 @@
+Virus
+informatique|Logiciel antivirus
+Le fichier de test
+Eicar est une chaîne de caractères, écrite dans un fichier informatique, destiné à tester le bon fonctionnement des logiciels antivirus.
+En anglais, il est dénommé «
+Anti-Virus test file »
+Le fichier de test EICAR standard
+Anti-Virus ou fichier de test
+EICAR est un fichier informatique qui a été développé par l' Institut européen pour recherche des virus informatiques (EICAR) et par la Computer Research Organization Antivirus (CARO), pour tester la réponse de l' ordinateur antivirus (AV) à certains programmes.
+Au lieu d'utiliser des logiciels malveillants réel, ce qui pourrait faire des dégâts réels, ce fichier de test permet aux gens de tester un logiciel anti-virus sans avoir à utiliser un vrai virus informatique.
+L'utilisation de la chaîne de test EICAR peut être plus polyvalent que la détection simple: un fichier contenant la chaîne de test EICAR peut être comprimé ou archivée, puis le logiciel antivirus peut être exécuté pour voir si elle peut détecter la chaîne de test dans le fichier compressé.
+Reconnaissance
+Ce fichier est édité par le centre de recherche EICAR (European Institute for Computer Antivirus Research), un organisme indépendant.
+Il est ainsi reconnu par la majorité des éditeurs d'antivirus (tant commerciaux que libres).
+Chaîne de caractères
+Pour tester un antivirus, il suffit de créer un fichier texte de 68 octets contenant les caractères suivants :
+X5O!P%@AP4\PZX54 (P^)7CC)7}$EICAR-STANDARD
+ANTIVIRUS
+TEST
+FILE!$H+H*
+Note:
+Le 3e caractère est la lettre 'O' majuscule et non le chiffre zéro.
+Ce fichier ne contient pas de virus mais une signature qui doit être détectée par le logiciel antivirus si celui-ci est basé sur une méthode de recherche par signature.
+Il peut être renommé en fichier .COM, c'est un fichier exécutable MS-DOS valide inoffensif affichant "EICAR-STANDARD-ANTIVIRUS-TEST-FILE!".
+Propriété inusuelle pour un programme en langage machine, le code ne contient que des caractères ASCII affichables, ce qui lui permet d'être saisi dans un éditeur de texte standard.
+Cela est rendu possible par l'utilisation de code automodifiable.
+Annexes
+Voir aussi
+* European Institute for Computer Antivirus Research
+Lien externe
+* http:/ anti_virus_test_file.htm Fichier
+Eicar
+pgkcs83t0tbbbrkm1va5x4ou4lkd2zm

@@ -1,0 +1,214 @@
+Théorie de l'intégration
+En mathématiques, lintégration est le fait de calculer une intégrale.
+C'est aussi une des deux branches du calcul infinitésimal, appelée également calcul intégral, l'autre étant le calcul différentiel.
+Les opérations de mesure de grandeurs (longueur d'une courbe, aire, volume, flux...) et de calcul de probabilités étant souvent soumises à des calculs d'intégrales, l'intégration est un outil scientifique fondamental.
+C'est la raison pour laquelle l'intégration est souvent abordée dès l'enseignement secondaire.
+Les différents domaines dans lesquels peuvent se rencontrer des intégrales ont conduit à donner des définitions différentes de l'intégrale permettant d'en calculer pour des fonctions de moins en moins régulières.
+On rencontre ainsi les intégrales dites de Riemann, de Lebesgue ou de Kurzweil-Henstock.
+Mais toutes ces définitions coïncident dans le cas des fonctions continues.
+Le symbole mathématique représentant l'intégration, \textstyle\int, est appelé signe somme, signe d'intégration, signe intégral ou intégrateur ;
+il a été introduit par Leibniz.
+Le présent article décrit l'intégrale des fonctions d'une variable réelle.
+Pour les extensions aux fonctions de plusieurs variables, voir les articles intégrale curviligne, intégrale multiple et intégrale de surface.
+Le cas général de l'intégrale des fonctions définies sur un espace mesurable muni d'une mesure positive est traité dans l'article intégrale de Lebesgue.
+Une autre extension est l'intégrale des formes différentielles.
+Cas particulier de la fonction continue sur un intervalle
+Calcul d'aire
+Dans un plan muni d'un repère cartésien, on choisit comme unité d'aire, l'aire du quadrilatère OIKJ où O est l'origine du repère et I, J et K les points de coordonnées respectives (1 ; 0), (0 ; 1) et (1 ; 1).
+Si est une fonction réelle positive continue prenant ses valeurs dans un segment , alors lintégrale de sur , notée\int_f (x)\, \mathrm dx\,\!
+,est l'aire d'une surface délimitée par la représentation graphique de et par les trois droites d'équation , , , surface notée . (
+Voir schéma ci-contre pour l'intervalle .
+S_f=\
+On donne un signe positif à l'aire des surfaces comme situées au-dessus de l'axe des abscisses.
+Pour pouvoir traiter aussi les fonctions négatives, on donne un signe négatif aux portions situées sous cet axe.
+Ainsi, pour définir l'intégrale d'une fonction continue dans le cas général (positive ou négative)
+, il suffit de définir et , communément appelées parties positive et négative de respectivement, comme suit :
+:f^+ (x)=\begin f (x) & \text f (x) > 0 \\ 0, & \text
+\end
+:f^- (x)=\begin -f (x) & \text f (x) < 0 \\ 0, & \text
+\end
+puis de définir l'intégrale de à partir de et , fonctions continues et positives :
+\int_ f \, \mathrm dx\,\!
+= \int_ f^+ \, \mathrm dx
+- \int_
+f^-
+\mathrm dx\,\!
+Plus précisément, définir l'aire de cette surface consiste, dans la définition de la théorie de Riemann, à approcher par une suite de fonctions dont on connait l'intégrale (en général : des rectangles qu'on définit d'aire ) et telle que la différence entre et tende vers 0 quand tend vers l'infini.
+Il se trouve qu'avec cette méthode, il est possible de définir l'aire d'une fonction continue bornée présentant un ensemble dénombrable de points de discontinuité.
+On appelle un intégrande, et on note ∫ (un s allongé, mis pour somme) l'opérateur mathématique, appelé intégrateur, qui est associé à l'intégration.
+Ce symbole est un ancien s long : en effet, Leibniz s'est servi de l'initiale du mot latin summa, « somme », lequel était le plus souvent écrit ſumma.
+À la différence du s long, ∫, en typographie, garde toujours une hampe descendant au-dessous de la ligne de base, en romaine comme en italique.
+Lien avec les primitives
+Le but du calcul intégral est de développer des méthodes permettant de calculer les intégrales.
+La principale méthode pour calculer une intégrale passe par la notion de primitive d'une fonction.
+La « primitivation » est l'opération qui, à partir d'une fonction , donne une fonction dérivable et dont la dérivée est égale à : .
+On montre que toute fonction continue sur un segment admet des primitives, et que l'intégrale de à est égale à , indépendamment de la primitive choisie.
+\int_^b f (x)\, \mathrm dx
+F (b)
+- F (a)
+\leftF (x)\right_a^b
+De plus l'ensemble des primitives d'une fonction continue sur un intervalle est donné par l'ensemble de ses intégrales indéfinies
+F (x) = \int_^x f (t)\, \mathrm dt + K\, ,
+où est un point de et un réel quelconque.
+Le théorème fondamental de l'analyse affirme que les deux approches de l'intégrale (« aire sous une courbe » et « primitivation »), sont sous certaines conditions les mêmes.
+Ces conditions peuvent varier selon le type d'intégrale considéré.
+Ainsi, les fonctions qui admettent des primitives presque partout, sont aussi intégrables au sens de Kurzweil-Henstock, mais pas nécessairement au sens de Riemann ou au sens de Lebesgue.
+Historique
+L'histoire des mathématiques doit beaucoup à la théorie de l'intégration, et sa place prédominante a façonné l'analyse en offrant à qui une solution, à qui un problème.
+Le lustre des « méthodes intégrales » en Grèce antique l'atteste (voir méthode d'exhaustion), et bien qu'il faille attendre le calcul infinitésimal pour une première formalisation, elles nous avaient déjà offert de profonds et beaux résultats : les Athéniens évaluèrent les grandeurs de l'espace puis en démontrèrent implicitement l'existence et l'unicité ;
+au naissent des méthodes générales de « calcul de l'infini » (rectification de courbes, quadratures, etc.)
+C'est alors que la méthode des indivisibles de Cavalieri voit le jour.
+C'est Leibniz qui opère le fondement de la théorie de l'intégration (Geometria recondita, 1686), perpétué jusqu'aujourd'hui, d'une part par un symbolisme inégalé reliant intégration et dérivation, d'autre part par la mise en place des principaux théorèmes.
+La formalisation de cette théorie a revêtu diverses formes.
+Elle aboutit tardivement, à cause de la complexité des problèmes soulevés :
+que sont les fonctions ?
+les réels ?
+(ces questions ne furent pleinement élucidées que grâce au développement de l'analyse au ) ;
+* quelles fonctions peuvent s'intégrer ?
+(c'est la question de l'intégrabilité ;
+elle est liée, entre autres, à des problèmes de convergence).
+L'intégrale de Riemann (Bernhard Riemann, 1854, publication posthume en 1867) puis l'intégrale de Lebesgue (Henri Lebesgue, 1902) ont marqué les esprits par leur formalisation aboutie.
+L'intégration est encore un sujet pour la recherche contemporaine ;
+en témoignent des extensions telles que l'intégrale d'Itō, l'intégrale de Kurzweil-Henstock, ou la récente construction de Bongiorno (1996).
+Extension de l'intégrale aux fonctions non continues sur un intervalle
+Différences entre l'intégration au sens de Riemann et au sens de Lebesgue
+Le schéma général utilisé pour construire une intégrale et qui cherche à mesurer l'aire du domaine sous la courbe est le même pour les trois approches de l'intégration :
+* ou au sens de Kurzweil-Henstock
+, voir Intégrale de Kurzweil-Henstock.
+D'abord, on considère une famille de fonctions élémentaires, pour lesquelles nous avons un moyen évident de mesurer l'aire sous la courbe.
+Dans le cas de l'intégrale de Riemann ou de Kurzweil-Henstock, ce sont les fonctions en escalier dont l'aire sous la courbe est égale à la somme des aires des rectangles ;
+les fonctions en escalier étant constantes sur des intervalles, le domaine sous la courbe d'une telle fonction peut alors être vu comme une réunion de rectangles.
+Pour l'intégrale de Lebesgue, les fonctions élémentaires sont les fonctions étagées, constantes, non plus sur des intervalles, mais sur des parties mesurables (approche plus souple et plus générale).
+L'intégrale de Riemann permet d'intégrer entre autres les fonctions croissantes ou décroissantes, et les fonctions continues, donc aussi les fonctions continues par morceaux, ainsi que les fonctions monotones par morceaux.
+Toute limite uniforme d'une suite de fonctions intégrables au sens de Riemann
+est intégrable au sens de Riemann.
+Cependant une limite simple (c'est-à-dire que pour tout de l'intervalle sans condition d'uniformité en ) de fonctions Riemann intégrables n'est pas nécessairement Riemann intégrable.
+Il est possible de caractériser les fonctions intégrables au sens de Riemann : ce sont les fonctions bornées dont l'ensemble des points de discontinuité est de mesure nulle (critère de Lebesgue).
+L'intégration au sens de Lebesgue permet d'intégrer plus de fonctions (dont des fonctions qui ne sont même pas localement bornées), et elle donne la même valeur à l'intégrale lorsque la fonction est déjà intégrable au sens de Riemann.
+Elle a l'avantage de munir l'espace vectoriel des fonctions intégrables d'une structure d'espace normé complet.
+Ceci est essentiel pour beaucoup d'applications.
+Cependant, on perd la notion de sommes de Riemann, et il existe des contextes (étude des suites uniformément distribuées par exemple) où les fonctions intégrables au sens de Riemann surviennent naturellement ;
+pour une généralisation de cette dernière permettant néanmoins d'intégrer également toutes les fonctions mesurables (au sens de Lebesgue), voir l'intégrale de Kurzweil-Henstock.
+Cas des fonctions monotones
+Si sur le segment (ainsi est inclus dans ), alors nous aurons .
+Si l'on suppose par exemple la fonction monotone sur , il est possible d'approcher son aire en utilisant soigneusement une fonction élémentaire (dans le cas de l'intégration de Riemann ou de Kurzweil-Henstock, une fonction en escalier, et dans le cas de l'intégration de Lebesgue, une fonction étagée).
+Nous choisissons telle que mais en supposant très proche de , au sens où, ayant préalablement fixé un arbitrairement petit, les valeurs prises par s'éloignent de celles prises par d'au plus , ce qui se note \|f-s\|_\infty=\sup_\,|f-s|\le\varepsilon.
+L'aire sous , facilement calculable comme somme d'aires de rectangles, est majorée par l'intégrale de , et est appelée somme inférieure.
+Cas des fonctions non monotones
+Dans le cas de l'intégrale de Riemann ou de Kurzweil-Henstock, nous fabriquons aussi des sommes supérieures de la même façon : nous choisissons une fonction en escalier, disons , telle que en supposant de la même manière très proche de , et nous considérons une somme supérieure comme un majorant de l'aire du domaine sous .
+Dans le cas de l'intégrale de Riemann, les rectangles utilisés ont des bases de longueur majorée par une constante ;
+dans le cas de l'intégrale de Kurzweil-Henstock, les rectangles ont des bases de longueur variable.
+La théorie de Lebesgue n'utilise pas de sommes supérieures.
+On montre que l'ensemble des aires sous les fonctions que l'on peut choisir (respectivement sous les fonctions dans la théorie de Riemann ou de Kurzweil-Henstock), admet une borne supérieure (resp.
+inférieure, et c'est la même).
+Cette valeur est alors appelée intégrale de sur .
+Les fonctions que nous pouvons intégrer sont appelées fonctions intégrables.
+Cependant, les différences commencent ici ;
+la théorie de Riemann est de loin la plus simple, mais de cette simplicité résulte que l'ensemble des fonctions intégrables est plus restreint que celui de la théorie de Lebesgue ou de Kurzweil-Henstock.
+En plus, l'interaction entre les limites et l'intégrale sont plus difficiles à décrire dans la théorie de Riemann.
+Généralisation à un intervalle quelconque
+Fonctions intégrables positives
+La généralisation de l'intégrale à un intervalle quelconque se fait en se basant sur la notion d'intégrale définie sur un segment.
+Soit une fonction à valeurs réelles positives, continue définie sur un intervalle quelconque, noté , où est réel ou égal à et est réel ou égal à , et où les parenthèses signifient ou (avec exclusion si valeur infinie).
+On dit que est intégrable sur l'intervalle lorsque l'ensemble \textstyle\ est majoré.
+Partie non vide et majorée de ℝ, il admet une borne supérieure : on la note alors \textstyle\int_I f et on l'appelle intégrale de sur .
+Avec ces mêmes données, on a l'équivalence logique : intégrable sur si et seulement si toute primitive de sur admet une limite finie en et en .
+Dans le cas où une fonction est intégrable sur un intervalle , on a\int_f=\lim_bF-\lim_aF.
+Fonctions intégrables à valeurs complexes ou vectorielles
+Enfin, pour une fonction continue définie sur un intervalle quelconque et à valeurs dans ℂ, on pose par définition : intégrable sur si intégrable sur en tant que fonction à valeurs réelles positives.
+De même pour continue définie sur et à valeurs dans un espace vectoriel normé , est intégrable sur si et seulement si est intégrable sur en tant que fonction à valeurs réelles positives.
+Intégrales impropres
+Il se peut très bien que « l'aire sous la courbe » d'une fonction définie et continue sur et à valeurs réelles (changeant de signe) ait une limite en faisant tendre les extrémités d'une suite de segments inclus dans vers les bornes de , sans toutefois que la fonction en jeu soit intégrable sur au sens de la définition.
+On parle alors dintégrale semi-convergente, la valeur de l'aire trouvée est appelée Intégrale impropre.
+C'est le cas avec l'exemple classique de la fonction de dans ℝ qui à tout associe : elle peut être prolongée continûment par 1 en zéro mais le problème de l'intégrabilité se pose au voisinage de .
+On peut calculer son intégrale impropre (puisqu'elle n'est que semi-convergente) : on trouve
+\int_0^ \fract\, \mathrm dt=\frac\pi2.
+Moyenne
+Valeur moyenne d'une fonction
+Pour toute fonction continue (ou même seulement continue par morceaux) sur un segment tel que , la valeur moyenne de sur est le réel défini par :m=\frac1\times\int_a^bf (x)\, \mathrm dx.
+Cette notion généralise celle de moyenne d'un nombre fini de réels en l'appliquant à un nombre infini de valeurs prises par une fonction intégrable.
+Elle sert par exemple dans la décomposition en série de Fourier d'une fonction périodique : c'est la composante constante.
+En traitement du signal, pour les signaux périodiques, il s'agit de la composante continue (offset).
+Moyennes pondérées
+On peut aussi, par analogie avec les moyennes pondérées d'un nombre fini de réels, affecter « à chacune des valeurs prises par la fonction »
+un coefficient strictement positif.
+On utilise alors ce que l'on appelle une fonction poids w:\R\to\R_+^* (w pour l'initiale de , poids en anglais) :m_w=\frac.
+Ce procédé peut aussi s'utiliser sur un intervalle ouvert ou semi-ouvert mais borné (c.-à-d. aucune de ses bornes n'est infinie) où la fonction est intégrable.
+On peut citer l'exemple classique servant à montrer l'orthogonalité de la famille des polynômes de Tchebychev :\frac2\pi\,\int_ \frac\,\mathrm dx\,\!où la fonction est continue sur le fermé et où la fonction poids est \beginw: & \R & \longrightarrow & \R_+^*\\& x & \mapsto & \frac.\endSon intégrale est bien définie et vaut .
+Propriétés des intégrales
+Relation de Chasles
+Soient une fonction continue sur et et trois réels de .
+*\int_b^af (x)\, \mathrm dx\,\!
+= -\int_a^bf (x)\, \mathrm dx\,\!
+*\int_a^bf (x)\, \mathrm dx\,\!
++ \int_b^cf (x)\, \mathrm dx = \int_a^cf (x)\, \mathrm dx (relation de Chasles)
+Linéarité
+Soient et deux fonctions continues sur et deux réels de .
+*\forall \lambda \in\R, \int_a^b\lambda\,f (x)\, \mathrm dx = \lambda\,\int_a^bf (x)\, \mathrm dx
+*\int_a^b (f (x)+g (x))\, \mathrm dx=\int_a^bf (x)\, \mathrm dx+\int_a^bg (x)\, \mathrm dx\,\!
+Inégalités
+Soient et deux fonctions continues sur et deux réels de .
+Si sur , alors \int_a^bf (x)\, \mathrm dx\le\int_a^bg (x)\, \mathrm dx.
+*Inégalité de la moyenne
+Si est continue sur , avec et si pour tout de cet intervalle, on a :m\le f (x)\le M,alorsm\, (b-a) \le \int_a^bf (x)\, \mathrm dx \le M\, (b-a).
+Intégration par parties
+Soient et deux fonctions de classe C (i. e. dérivables de dérivées continues sur le segment ) :
+\int_a^bu (x)v' (x)\,\mathrm dx=u (x)v (x)_a^b-\int_a^bu' (x)v (x)\,\mathrm dx
+Intégration par changement de variable
+Soit une fonction numérique continue, et une fonction de classe C sur dont l'image est contenue dans le domaine de définition de .
+Alors :
+\int_^f (
+x)\,\mathrm dx=\int_a^bf (\varphi (t)
+\varphi' (t)\,\mathrm dt.
+Calcul d'intégrales sous forme explicite
+Les formules précédentes, bien que permettant la détermination de nombreuses intégrales et primitives, ne permettent pas d'obtenir explicitement la plupart d'entre elles.
+Plus précisément, des théorèmes comme celui de Liouville montrent qu'il est par exemple impossible d'exprimer les primitives d'une fonction telle que x\mapsto\frac1 à l'aide des fonctions usuelles (dites élémentaires), ce qui oblige à en définir de nouvelles (ici, la fonction logarithme intégral) ;
+de même, la plupart des intégrales définies ne peuvent être calculées sans introduire de nouvelles constantes .
+Calcul numérique d'une intégrale
+On ne connaît pas toujours une formule pour décrire une fonction, par exemple dans le cas d'une courbe expérimentale.
+Dans d'autres cas, on ne connaît pas de méthode analytique pour exprimer la primitive, ou bien on n'a pas besoin de l'expression analytique et seule la valeur numérique suffit.
+On a recours dans ces cas-là à une méthode numérique.
+Les méthodes numériques consistent à prendre une suite de valeurs , les valeurs des étant si possible équidistantes : .
+On peut ensuite appliquer différentes méthodes, dont les deux principales consistent à faire la somme d'aires :
+* méthode
+des rectangles
+: S est l'aire d'un rectangle de hauteur et de largeur , on prend donc pour approximation
+:: \sum_^n f (
+x_i)\times
+* méthode des trapèzes : S est l'aire d'un trapèze de bases et , et de hauteur (graphiquement, c'est plutôt sa « largeur »), on prend donc pour approximation
+: \sum_^ \frac\times p = \sum_^ f (x_i)\times p + \frac\times p .
+Les méthodes numériques sont automatisables sur les ordinateurs et calculatrices programmables.
+D'autres méthodes sont possibles.
+Méthode graphique de tracé d'une primitive
+On peut utiliser des méthodes graphiques utilisant le fait que la valeur de la fonction en un point est la pente de la primitive.
+Considérant le même découpage que précédemment, on découpe l'intervalle d'intégration en bandes verticales de largeur centrées sur les valeurs .
+Sur un graphique voisin, le graphique polaire, on place des vecteurs \vec_i
+f (x_i)\vec à l'origine O et l'on considère un point P sur l'axe des , distant de O ;
+P est appelé le pôle.
+Si l'on relie P aux extrémités des vecteurs, on obtient des droites dites polaires, dont les coefficients directeurs sont proportionnels aux valeurs de : a_i
+\frac
+On reporte ensuite les directions de ces droites polaires pour former un polygone funiculaire.
+L'axe des ordonnées est à une échelle 1/OP.
+L'ordonnée de départ du funiculaire correspond à la constante d'intégration.
+Si, au lieu de placer l'origine des vecteurs en O, on les met bout à bout, on effectue alors une double intégration, puisque les valeurs sont cumulées.
+Le pôle n'est plus nécessairement sur l'axe des ;
+cela incline différemment la courbe obtenue, et correspond à la constante d'intégration de la première intégrale.
+Ceci est par exemple appliqué pour déterminer le diagramme des moments fléchissants d'une poutre en flexion à partir des charges, ou bien la forme de cette poutre à partir du diagramme des moments fléchissants.
+Méthodes analogiques
+Mesure de surface
+Il est possible d'estimer la valeur d'une intégrale par des mesures physiques.
+Par exemple, on trace la courbe sur une feuille de papier, on découpe la feuille suivant le tracé puis on pèse le résultat.
+En effet, si la masse surfacique est uniforme, alors le poids mesuré est proportionnel à l'aire.
+Ce principe était notamment utilisé pour déterminer l'aire d'un pic dans des mesures, par exemple pour faire de l'analyse quantitative par diffractométrie X.
+Intégration d'une fonction d'intensité électrique
+On peut utiliser d'autres phénomènes physiques « intégrateurs », comme le chauffage d'un corps :
+* la fonction à intégrer est représentée par un courant d'intensité variable qui passe dans un résisteur chauffant ;
+* l'intégrale est représentée par la température du corps chauffé, par exemple une quantité donnée d'huile ;
+puisque la variation de température est reliée à la chaleur reçue par l'équation :
+\delta Q = m \cdot C_p \cdot dT où est la masse d'huile et sa chaleur massique.
+Cette variation est donc proportionnelle à l'intensité par la loi d'Ohm :
+R \cdot i^2 \cdot dt = m \cdot C_p \cdot dT, où est la durée de chauffage,
+soit
+: \mathrm = \int_0^\tau \frac\cdot i^2 (t)
+\cdot \mathrmt
+Calculateurs analogiques électroniques

@@ -1,0 +1,35 @@
+Théorie de l'information|Codage de l'information
+Le codage de l’information concerne les moyens de formaliser l'information afin de pouvoir la manipuler, la stocker ou la transmettre.
+Il ne s'intéresse pas au contenu mais seulement à la forme et à la taille des informations à coder.
+Alphabet,
+mot, langages
+Définitions
+On définit un alphabet comme un ensemble non vide de symboles, par exemple :
+* A = , les bases de l'ADN qui codent notre génome (cet alphabet est le sujet principal de la bio-informatique).
+On nomme lettre un élément d'un alphabet.
+On nomme mot une suite finie de lettres.
+La suite de 0 lettre est nommée le mot vide, notée ε.
+On nomme langage un ensemble de mots associé à certaines règles d'interprétation (sans cette dernière restriction, n'importe quelle table de valeurs aléatoires pourrait être nommée langage).
+Dans le cas de l'ADN, ces règles sont contenues dans le ribosome, dans les langues naturelles, elles sont contenues dans leur lexique, sur un ordinateur, elles sont présentes dans les circuits de l'unité centrale.
+Opérations
+Soit un alphabet A et un entier naturel
+On note A^n
+l'ensemble de tous les mots de longueur n sur A et A^On dispose de :
+A^On définit l'opération de concaténation
+\cdot : A^* \times A^* \rightarrow A^* qui à (u, v) associe un mot w qui est constitué de la suite de lettres de u puis celle de v.
+Exemple :
+« marc » \cdot « et sophie »
+= « marc et sophie » (les guillemets servent à délimiter les symboles, ce ne sont pas des éléments de A).
+** \cdot est associatif : \forall u, v, w \in A^** \cdot admet ε comme élément neutre : \forall u \in A^
+Codages et codes
+Codage
+Soit L et M deux langages.
+Un codage c de L
+dans M est un morphisme (pour l'opération \cdot) injectif.
+En d'autres termes, c'est une correspondance entre les mots de L et ceux de M, où à tout mot de L est associé un unique mot de M et tel que le codage de la concaténée soit égale à la concaténée des codages.
+( \forall u,v \in L, c (u.v) = c (u).c (v) ).
+Codes
+Un langage L sur un alphabet A est un code si et seulement s'il n'existe pas deux factorisations différentes des mots A^
+Applications, exemples
+Articles connexes
+1dvzlmmmh8ts2wh8o87tsiphx9c5zt8

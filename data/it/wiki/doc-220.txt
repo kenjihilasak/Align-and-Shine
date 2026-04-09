@@ -1,0 +1,178 @@
+In matematica, un numero primo (in breve anche primo) è un numero intero positivo che abbia esattamente due divisori.
+Analogamente si può definire come un numero naturale maggiore di 1 che sia divisibile solamente per 1 e per sé stesso;
+al contrario, un numero maggiore di 1 che abbia più di due divisori è detto composto.
+Ad esempio 2, 3 e 5 sono primi mentre 4 e 6 non lo sono perché sono divisibili rispettivamente anche per 2 e per 2 e 3.
+L'unico numero pari primo è 2, in quanto tutti gli altri numeri pari sono divisibili per 2.
+La successione dei numeri primi comincia con 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37…
+Quello di numero primo è uno dei concetti basilari della teoria dei numeri, la parte della matematica che studia i numeri interi:
+l'importanza sta nella possibilità di costruire con essi, attraverso la moltiplicazione, tutti gli altri numeri interi, nonché l'unicità di tale fattorizzazione.
+I primi sono inoltre infiniti e la loro distribuzione è tuttora oggetto di molte ricerche.
+I numeri primi sono oggetto di studio fin dall'antichità:
+i primi risultati risalgono infatti agli antichi Greci, e in particolare agli Elementi di Euclide, scritti attorno al 300 a.C. Ciononostante, numerose congetture che li riguardano non sono state ancora dimostrate;
+tra le più note vi sono l'ipotesi di Riemann, la congettura di Goldbach e quella dei primi gemelli, indimostrate a tutto il 2015, a più di un secolo dalla loro formulazione.
+Essi sono rilevanti anche in molti altri ambiti della matematica pura, come ad esempio l'algebra o la geometria;
+recentemente hanno assunto un'importanza cruciale anche nella matematica applicata, e in particolare nella crittografia.
+Storia
+Non è noto quando sia stato definito il concetto di numero primo, tuttavia un segnale che fa supporre una qualche consapevolezza della diversità di tali numeri è testimoniato dall'Osso d'Ishango, un reperto osseo datato al Paleolitico superiore, in cui compaiono dei segni rappresentanti i numeri primi compresi tra 10 e 20.
+Per trovare un altro segno di questa consapevolezza bisogna recarsi in Mesopotamia e aspettare il secondo millennio a.C.;
+a tale periodo appartengono infatti alcune tavolette contenenti le soluzioni di alcuni problemi aritmetici che, per essere svolti, richiedono una buona conoscenza della fattorizzazione in primi.
+Allo stesso millennio appartiene anche il papiro di Rhind (trascritto intorno al 1650 a.C.), che contiene alcune espansioni in frazioni egizie dei numeri nella forma 2⁄n.
+Le espansioni dei numeri che hanno in comune il più piccolo dei loro fattori sono simili, suggerendo che gli Egizi fossero almeno consapevoli della differenza tra i numeri primi e i composti.
+La prima traccia incontestabile di un vero studio dei numeri primi è costituita dagli Elementi di Euclide, un libro composto tra il IV e il III secolo a.C., che fornisce un quadro completo delle conoscenze matematiche del tempo.
+Quest'opera contiene alcuni risultati fondamentali, tra cui il teorema dell'infinità dei primi e il lemma di Euclide, che prova un'importante caratterizzazione dei numeri primi.
+Euclide dimostra anche la possibilità di fattorizzare ogni intero positivo come prodotto di primi.
+All'antica Grecia dobbiamo anche il crivello di Eratostene, un semplice algoritmo per determinare quali sono i numeri primi.
+I secoli seguenti registrarono un certo disinteresse per lo studio dei numeri primi e per diverso tempo non furono provati risultati di particolare rilevanza su questo argomento.
+L'interesse verso di essi riprese vigore nel diciassettesimo secolo, con le dimostrazioni di nuovi e importanti risultati, alcuni dei quali dovuti a Pierre de Fermat:
+in particolare egli provò un teorema sulle congruenze modulo un primo, noto come "piccolo teorema di Fermat", e il teorema sulle somme di due quadrati che afferma che tutti i primi di una certa forma si possono scrivere come somma di due quadrati.
+Congetturò inoltre che tutti i numeri nella forma 22n + 1 (oggi chiamati in suo onore numeri di Fermat) fossero primi;
+Fermat stesso aveva verificato la sua congettura fino a n
+, ma Eulero mostrò
+che per n
+5 si otteneva un numero composto.
+A oggi non sono noti altri numeri di questo tipo che siano primi.
+Nello stesso periodo, il monaco francese Marin Mersenne pose l'attenzione sui primi nella forma 2p − 1, con p primo, che oggi sono chiamati in suo onore primi di Mersenne.
+Altri risultati vennero ottenuti da Eulero nel corso del diciottesimo secolo:
+tra di essi vi sono la divergenza della serie infinita 1⁄2 + 1⁄3 + 1⁄5 + 1⁄7 + 1⁄11 + ..., in cui gli addendi sono gli inversi dei numeri primi, e il cosiddetto prodotto di Eulero, una formula che evidenzia il legame dei primi con la serie armonica.
+Nella corrispondenza di Eulero con Christian Goldbach, quest'ultimo formulò inoltre la famosa congettura di Goldbach, ancora oggi non dimostrata, che riguarda la rappresentazione dei numeri naturali pari come somma di numeri primi.
+Dall'inizio dell'Ottocento, l'attenzione di molti matematici si rivolse allo studio della distribuzione asintotica dei primi, ossia allo studio dell'andamento della funzione che conta i primi minori o uguali a x. Legendre e Gauss congetturarono indipendentemente che tale funzione tende, al crescere di x, a x / ln (x), dove ln (x) indica il logaritmo naturale di x. Nel 1859 Bernhard Riemann collegò questo problema con il posizionamento degli zeri della funzione zeta di Riemann, una funzione di variabile complessa;
+questo approccio portò alla dimostrazione della congettura, compiuta in modo indipendente da Hadamard e de la Vallée Poussin nel 1896.
+Tale risultato è oggi noto col nome di teorema dei numeri primi.
+I numeri primi restarono confinati nell'ambito della matematica pura fino agli anni settanta, quando venne sviluppato il concetto di crittografia a chiave pubblica;
+il primo algoritmo di questo tipo, l'RSA, sfrutta infatti la difficoltà di fattorizzare numeri grandi formati da due soli fattori primi.
+Per questo motivo, ha assunto una notevole importanza anche la ricerca di numeri primi sempre più grandi.
+A partire dal 1951, tale ricerca viene effettuata attraverso l'uso di computer.
+Prime proprietà
+Il più piccolo numero primo è 2;
+tutti gli altri sono dispari, in quanto ogni numero pari è divisibile per 2.
+Nel passato 1 era a volte considerato un numero primo:
+ad esempio Derrick Norman Lehmer lo incluse nella sua tavola dei numeri primi pubblicata nel 1914.
+Oggi tuttavia si preferisce escluderlo, in quanto il suo inserimento tra i primi costringerebbe a riformulare in maniera più complessa diversi teoremi (come il teorema fondamentale dell'aritmetica) per tenere conto di questo caso speciale.
+Un metodo per verificare se un numero n è primo si definisce test di primalità.
+Un metodo che discende direttamente dalla definizione è controllare che non sia diviso da nessun numero minore di n o, in modo più efficiente, da nessun primo minore di n. Ad esempio, per provare che 11 è primo, basta osservare che non è diviso da 2, 3, 5 e 7 (che sono i primi minori di 11).
+Un antico algoritmo che evita le divisioni è il crivello (ossia setaccio) di Eratostene che, più precisamente, determina l'insieme dei primi minori o uguali a X.
+Per far ciò, l'algoritmo parte dall'insieme dei numeri naturali compresi tra 2 e X, ed elimina i multipli dei numeri primi individuati in precedenza (perché non sono multipli di numeri più piccoli).
+In effetti, è possibile migliorare questo algoritmo fermandosi a eliminare i multipli dei primi minori o uguali alla parte intera della radice di X:
+se infatti un numero composto c ha tutti i fattori maggiori della radice di X, allora è maggiore di X, in quanto, dovendo avere almeno due fattori,
+c>\sqrt\sqrt=X.
+La figura a destra mostra il funzionamento dell'algoritmo per X = 120.
+Analogamente, se si utilizza il metodo delle divisioni per dimostrare la primalità di un numero X si può evitare di controllare la divisibilità di X per numeri maggiori della radice quadrata di X.
+In una semplice interpretazione geometrica del concetto di numero primo, i numeri n che non sono primi sono esattamente quei numeri che possono essere rappresentati come rettangoli composti da n quadratini i cui lati sono maggiori di 1.
+Ad esempio 12 non è primo, perché può essere rappresentato come un rettangolo di lati 3 e 4, mentre 11 è primo, perché non ammette nessuna rappresentazione di questo tipo.
+Ogni rappresentazione di un numero composto tuttavia ne ammette una simmetrica a seconda che il lato lungo sia orizzontale o verticale;
+arrestare il crivello (o le divisioni) una volta raggiunta la radice di X significa considerare solo un rettangolo per ciascuna coppia di rettangoli simmetrici.
+Scomposizione in fattori primi
+L'importanza dei numeri primi in matematica è enorme e deriva essenzialmente dal teorema fondamentale dell'aritmetica, il quale asserisce che qualsiasi numero naturale diverso da uno può essere scomposto in fattori primi, e tale scomposizione è unica a meno dell'ordine dei fattori.
+Ad esempio, 23244 si fattorizza come
+23244 = 2^2 \times 3 \times 13 \times
+e ogni altra sua fattorizzazione in numeri primi è ottenuta da questa permutando i fattori.
+Ad esempio, l'ulteriore fattorizzazione
+non è altro che quella precedente con i fattori scritti in un ordine diverso.
+A causa di questa proprietà, ci si riferisce a volte ai numeri primi come agli "atomi dell'aritmetica".
+Questa è tra l'altro la ragione principale per cui 1 è escluso dall'insieme dei primi.
+Infatti, se si moltiplica una fattorizzazione di un numero per uno, un numero di volte a piacere, si ottiene sempre il numero di partenza, creando così fattorizzazioni distinte.
+Una proprietà strettamente collegata alla fattorizzazione unica è il lemma di Euclide:
+se un primo p divide il prodotto ab, allora divide a o b. Questa è considerata la definizione stessa di elemento primo in un dominio d'integrità, ed è ovvia a partire dal teorema fondamentale dell'aritmetica:
+la fattorizzazione di ab dovrà infatti contenere il primo p, e visto che p non può essere "spezzato" in due fattori, deve necessariamente essere nella fattorizzazione di almeno uno dei due numeri.
+Infinità
+I numeri primi sono infiniti.
+La più antica dimostrazione pervenutaci è quella di Euclide, che la presenta nel IX libro degli Elementi, come proposizione 20, con le parole:
+La dimostrazione procede per assurdo.
+Supponendo infatti che esista solo un numero finito di numeri primi p1, p2, ..., pn, si può considerare il numero q
+p1p2
+···
+pn + 1:
+questo numero è ovviamente maggiore di 1 e diverso da tutti i numeri primi pi.
+Ora, vi sono due possibilità per q:
+può essere primo o composto.
+Se fosse primo avremmo però una contraddizione, perché abbiamo assunto che i pi siano tutti i numeri primi;
+se fosse invece composto, dovrebbe avere un fattore primo d, che deve essere uno dei numeri primi pi.
+Ma allora d divide sia q sia il prodotto p1p2 ···
+pn (essendo uno dei numeri primi), e quindi deve dividere la loro differenza q − p1p2 ···
+1, il che è impossibile.
+Quindi q non può essere né primo né composto:
+ma questo è assurdo, e i numeri primi sono infiniti.
+Una questione che sorge dalla dimostrazione è se i numeri nella forma p1p2 ··· pn + 1, cioè il prodotto dei primi n primi più 1 (detti numeri di Euclide), siano o meno primi.
+31), ma è falso in generale:
+il più piccolo di tali numeri a essere composto è
+2\cdot 3\cdot 5\cdot 7\cdot 11\cdot 13+1
+59\cdot 509.
+Non è noto se in questa successione esistano infiniti numeri primi, anche se è stato congetturato che sia così.
+Molte altre dimostrazioni sono state create nel corso dei secoli:
+Eulero dimostrò questo teorema a partire dalla divergenza della serie armonica, Goldbach attraverso i numeri di Fermat, mentre Harry Furstenberg ne ideò una usando metodi della topologia.
+Un teorema più forte, da cui si ricava facilmente l'infinità dei numeri primi, è quello che stabilisce che la serie 1 3 + 1 7 + 1/11 + ..., formata dalla somma degli inversi dei numeri primi, diverge, e in particolare, usando la notazione O-grande:
+\sum_ \frac=\ln \ln n+O (1).
+Questo teorema è dovuto a Eulero, che lo dimostrò nel diciottesimo secolo.
+Dalla dimostrazione di Euclide segue anche che
+_ 3.
+Su questa strada, è stato dimostrato che la disuguaglianza
+p_^k 2k.
+Distribuzione dei numeri primi
+Una volta dimostrato che i numeri primi sono infiniti, sorge spontaneo chiedersi come si distribuiscono all'interno della sequenza dei numeri naturali, cioè quanto sono frequenti e quando ci si può aspettare di trovare l'n-esimo numero primo.
+Questo studio fu incominciato verso la fine del XVIII secolo indipendentemente da Gauss e da Legendre, che introdussero la funzione \pi (x) (detta funzione enumerativa dei primi) e congetturarono che essa fosse approssimativamente
+\pi (x)\sim\frac.
+Il tentativo di dimostrare questa congettura attraversò tutto l'Ottocento;
+i primi risultati furono ottenuti tra il 1848 e il 1859 da Chebyshev, che dimostrò usando metodi puramente aritmetici che esistevano due costanti A e B tali che
+A\leq \frac \leq B
+per x sufficientemente grande.
+Riuscì anche a provare che, se il limite del rapporto esiste, allora esso deve essere 1.
+Una dimostrazione fu invece trovata nel 1896 da Hadamard e da de la Vallée-Poussin, che, pur lavorando indipendentemente l'uno dall'altro, usarono metodi simili, basati sull'uso della funzione zeta di Riemann, la quale era stata introdotta da Bernhard Riemann nel 1859.
+Per una dimostrazione che usasse soltanto metodi elementari (cioè senza usare metodi di analisi complessa) si dovette attendere invece fino al 1949, quando essa fu ideata da Selberg e Erdős.
+Il teorema è oggi noto come teorema dei numeri primi.
+Gauss aveva introdotto anche una stima più precisa, utilizzando la funzione logaritmo integrale:
+\pi (x)\sim\frac\mathrm (x)=\int_2^x \frac\mathrmu.
+Nel 1899 de la Vallée-Poussin dimostrò
+che l'errore che si commette approssimando \pi (x) in questo modo è
+\pi (x)-\mathrm (x)
+O \left (x \mathrm^\right)
+O\left (\frac\right)
+per una costante positiva a e ogni intero m;
+tale risultato è stato leggermente migliorato nel corso degli anni.
+Inoltre, nel 1901 von Koch mostrò che se l'ipotesi di Riemann è vera, allora si ha la stima molto più precisa:
+\pi (x) - \mathrm (x) = O\left (\sqrt x \ln x\right).
+Una forma equivalente al teorema dei numeri primi è che pn, l'n-esimo numero primo, è ben approssimato da n ln (n).
+In effetti, pn è strettamente maggiore di questo valore, come è stato dimostrato da J. Barkley Rosser nel 1938;
+questa disuguaglianza è stata migliorata fino ad arrivare, nel 1995,
+p_n>n (\ln n+\ln\ln n -1),~
+per n ≥ 2.
+Intervalli tra i numeri primi
+Legato alla distribuzione dei numeri primi è lo studio degli intervalli tra due primi consecutivi.
+Questo, a parte la coppia formata da 2 e 3, deve essere necessariamente un numero pari maggiore o uguale a 2, perché tra due numeri consecutivi almeno uno è pari e quindi non primo.
+Se due numeri primi hanno come differenza 2, sono detti gemelli:
+con l'eccezione della "tripletta" formata da 3, 5 e 7, i numeri primi gemelli si presentano a coppie, ed è semplice verificare che, tranne nel caso 3 e 5, il numero posto tra di loro è sempre un multiplo di 6.
+Le più piccole coppie di primi gemelli sono (3, 5), (5, 7), (11, 13), (17, 19) e (29, 31).
+È stato congetturato che esistano infinite coppie di numeri primi gemelli, sebbene nessuno sia ancora riuscito a dimostrarlo;
+un'estensione di questa idea è chiedersi se, dato un numero pari k, la differenza tra due primi consecutivi sia pari a k infinite volte.
+Quest'ultimo problema prende il nome di congettura di Polignac.
+È facile invece mostrare che questa differenza può essere grande a piacere:
+dato un intero N, e indicando con N!
+il suo fattoriale (cioè il prodotto di tutti i numeri compresi tra 1 e N), i numeri
+(N+1)!+2,~ (N+1)!+3,\cdots, (N+1)!+N+1
+sono tutti composti:
+infatti, se m è minore di N, allora (N + 1)!
++ m è divisibile per m, e quindi non è primo.
+La sequenza, che comprende N numeri consecutivi, è quindi priva di numeri primi.
+Ad esempio, se N = 5, questi valori corrispondono
+6!+2
+2\times
+6!+3
+6!+4
+6!+5
+5\times
+6!+6
+6\times
+mentre il valore successivo, 6!+7=727, è primo.
+Si noti comunque che esistono modi più "efficienti" per costruire intervalli senza numeri primi;
+ad esempio invece di (N + 1)!
++ 1 si può considerare il prodotto dei numeri primi minori di N + 2.
+Dal teorema dei numeri primi discende facilmente che l'intervallo atteso tra due numeri primi consecutivi pn e pn+1 ha lunghezza ln (pn);
+tuttavia questi intervalli sono talvolta molto più grandi e talvolta molto più piccoli.
+Sugli intervalli corti, la congettura dei primi gemelli afferma esattamente che l'intervallo è il minimo possibile infinite volte.
+Questa congettura è tuttora aperta, ma grazie al lavoro di Zhang Yitang (annunciato nel 2013, e basato sull'approccio di Goldston, Pintz e Yıldırım) e ai successivi contributi di James Maynard e di un progetto Polymath, è noto che esistono infiniti numeri primi consecutivi la cui differenza è minore di 246.
+Sul problema opposto, degli intervalli lunghi, ci si aspetta che tali intervalli siano di ordine pn, o, più precisamente, che
+p_-p_n=O\left (p_n^\right),
+dovuti rispettivamente a Ford, Green, Konyagin, Maynard e Tao e a Pintz.
+Un altro risultato classico, seppur più debole di quelli appena riportati, è il postulato di Bertrand (che in realtà è un teorema, essendo stato dimostrato da Chebyshev nel 1850).
+Esso afferma che per ogni n esiste sempre un primo tra n e 2n.
+Un'interessante conseguenza di questo risultato è che pn+1
+Bibliografia

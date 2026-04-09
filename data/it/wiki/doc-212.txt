@@ -1,0 +1,94 @@
+In matematica, un raggruppamento di oggetti rappresenta un insieme se esiste un criterio oggettivo che permette di decidere univocamente se un qualunque oggetto fa parte o no del raggruppamento.
+Si tratta di un concetto fondamentale della matematica moderna, a partire dal quale si è sviluppata la teoria degli insiemi.
+Nell'uso informale gli oggetti della collezione possono essere qualunque cosa:
+numeri, lettere, persone, figure, ecc., anche non necessariamente omogenei;
+nelle formalizzazioni matematiche gli oggetti della collezione vanno invece ben definiti e determinati.
+Il concetto di insieme è considerato primitivo ed di scatole che contengono oggetti materiali (tendenzialmente omogenei);
+questa impostazione si basa sulla convinzione che l'idea di insieme sia naturalmente presente nella mente umana.
+Gli oggetti che compongono un insieme si dicono elementi di questo insieme;
+nel linguaggio matematico, detto a un elemento dell'insieme A, si dice che a appartiene ad A o in simboli a\in
+A. Un insieme A è sottoinsieme di un altro insieme B quando tutti gli elementi di A appartengono anche a B.
+Ciò che caratterizza il concetto di insieme e lo differenzia da strutture matematiche simili sono essenzialmente le seguenti proprietà:
+* Un elemento può appartenere o non appartenere a un determinato insieme, non ci sono vie di mezzo (come accade invece per gli insiemi sfocati);
+* Un elemento non può comparire più di una volta in un insieme (mentre può comparire più volte in un multiinsieme);
+* Gli elementi di un insieme non hanno un ordine di comparizione (come invece accade alle componenti di un vettore o di una ennupla);
+* Gli elementi di un insieme lo caratterizzano univocamente:
+due insiemi coincidono se e solo se hanno gli stessi elementi.
+Gli insiemi, con le loro operazioni e relazioni, possono essere rappresentati graficamente con i diagrammi di Eulero-Venn.
+Descrizioni di insiemi
+Solitamente un insieme viene indicato con le lettere maiuscole dell'alfabeto:
+A, B, E, M, S ... e si chiede che sia univocamente determinato:
+se ad esempio diciamo che M è linsieme degli x tali che x è un mammifero marino, allora supponiamo che si sappia sempre decidere se un qualsiasi animale possibile ed immaginabile abbia o meno le caratteristiche necessarie per rientrare in M. Se un oggetto x appartiene ad un insieme F viene detto elemento di F e la relazione si denota nella forma x \in F. Viceversa, la relazione di non appartenenza a un insieme si denota nella forma x \notin F.
+Un insieme può essere definito nei seguenti modi:
+* Per elencazione o in estensione:
+sono elencati gli elementi, in tal caso per convenzione si scrivono gli elementi tra parentesi graffe separati da virgole, ad esempio:
+F = \
+Questa definizione si utilizza per gli insiemi finiti;
+per gli insiemi infiniti talvolta si usano puntini di sospensione laddove si ritiene che sia evidente il criterio secondo cui si individuano gli elementi non indicati;
+ad esempio:
+P=\left\
+* Per proprietà caratteristica o in comprensione:
+come l'insieme degli oggetti che verificano una determinata proprietà P.
+In tal caso si usa la scrittura \ dove al posto di P (x) può comparire la descrizione d'una proprietà.
+Es. :
+(F è definito come l'insieme degli x tali che x è un fiore),
+\left\.
+Cardinalità
+La cardinalità di un insieme è il numero che indica la quantità dei suoi elementi.
+Ad esempio, l'insieme \ ha tre elementi (considerando distinte le tre lettere), quindi cardinalità 3;
+l'insieme dei numeri naturali \mathbb ha invece cardinalità \aleph_0, il primo cardinale infinito.
+Un insieme si dice finito se ha un numero finito di elementi, infinito se contiene infiniti elementi.
+Operazioni tra insiemi
+Le principali operazioni tra insiemi sono:
+* L'unione di due insiemi A e B:
+si indica con A\cup B ed è l'insieme formato da tutti gli elementi di A o B o entrambi presi una sola volta;
+* L'intersezione di due insiemi A e B:
+si indica con A\cap B ed è data dall'insieme formato da tutti gli elementi che appartengono sia all'insieme A che all'insieme B contemporaneamente;
+* La differenza tra B e A si indica con B\setminus A o con B - A ed è data dall'insieme formato dai soli elementi di B che non appartengono ad A. B\setminus A viene anche detto insieme complementare di A in B;
+* La differenza simmetrica tra due insiemi è l'insieme degli elementi che appartengono ad A e non a B oppure che appartengono a B e non ad A. Si indica con A\Delta B = ( A \setminus B ) \cup ( B \setminus A);
+* Il prodotto cartesiano di due insiemi A e B è l'insieme di tutte le possibili coppie ordinate (a,b) con a \in A e b \in B.
+Relazioni tra insiemi
+Due insiemi A e B si dicono inoltre:
+* Coincidenti, se sono lo stesso insieme:
+questo si verifica se e solo se hanno gli stessi elementi;
+* Disgiunti,
+se non hanno nessun elemento in comune.
+B è sottoinsieme di A se A contiene gli elementi di B. Secondo la definizione ogni insieme è contenuto in sé stesso.
+Per esprimere questo si usa la notazione:
+B \subseteq A
+Se si vuole escludere che B coincida con A, cioè prevedere che esistono elementi di A non contenuti in B, si usa la notazione:
+B \subset A
+che si legge:
+"B è un sottoinsieme proprio di A" oppure "B è incluso propriamente in A" oppure "B è contenuto propriamente in A".
+Alcuni autori utilizzano solo la seconda notazione, indipendentemente dal tipo di inclusione.
+La relazione binaria di inclusione tra insiemi rende una qualsiasi classe di insiemi un insieme parzialmente ordinato.
+L'insieme vuoto
+Insieme vuoto è l'insieme che non contiene nessun elemento.
+Si indica con i simboli \varnothing, \emptyset o con due parentesi graffe, la prima aperta e l'altra chiusa \left\.
+L'insieme vuoto è sottoinsieme di qualsiasi altro insieme (incluso sé stesso).
+L'insieme delle parti
+Per qualunque insieme A si definisce insieme delle parti o "insieme potenza" di A e si indica con \mathcal (A) o 2^A l'insieme che ha come elementi tutti e soli i sottoinsiemi di A. Ad esempio, se
+\left\ allora
+il suo insieme delle parti è costituito da \mathcal (A)
+L'insieme delle parti ha cardinalità strettamente maggiore di quella dell'insieme di partenza.
+Se A è finito ed ha |Aelementi, il numero degli elementi di \mathcal (A) è dato da 2^ (in simboli, |\mathcal (A)|
+|2^A|
+2^).
+L'insieme delle parti di qualsiasi insieme, considerato congiuntamente all'operazione di differenza simmetrica, forma un gruppo abeliano.
+Se vengono considerate insieme unione, intersezione e complementazione la struttura generata è un'algebra di Boole.
+La partizione di un insieme
+Si chiama partizione dell'insieme A un insieme di sottoinsiemi di A che ha queste caratteristiche:
+L'insieme complementare di un insieme
+Dati gli insiemi A e B, con B\subseteqA, l'insieme complementare di B rispetto ad A è A-B. Lo indichiamo con C_A (B).
+Insiemi numerici
+Alcuni insiemi, detti numerici, hanno un ruolo particolarmente importante e pervasivo in tutte le branche della matematica:
+Questi insiemi si possono vedere intuitivamente come contenuti uno nell'altro:
+\N \subset \Z \subset \mathbb \subset \R \subset \C \subset \mathbb.
+Più propriamente si dovrebbe parlare di immersione di ogni insieme nel seguente, poiché secondo la corrente assiomatizzazione i vari insiemi sono definiti in modi radicalmente diversi l'uno dall'altro.
+Note
+Bibliografia
+* Paul Halmos (1960):
+Naive set theory, D. Van Nostrand Company.
+Ristampato da Springer nel 1974, ISBN 0-387-90092-6.
+* Nicolas Bourbaki (1968):
+Théorie des ensembles, Hermann.

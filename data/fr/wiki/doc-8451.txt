@@ -1,0 +1,72 @@
+Distance et longueur|Inégalité|Triangulaire|Géométrie du triangle
+En mathématiques, linégalité triangulaire exprime l'idée que la distance est une mesure minimale.
+Dans la géométrie euclidienne cela se traduit par le fait que la ligne droite est le chemin le plus court.
+Cette inégalité peut être énoncée sous la forme d'une propriété ou bien d'une condition nécessaire à la bonne définition d'une distance.
+Énoncés
+En géométrie
+Dans un plan euclidien, soit un triangle ABC.
+Alors les longueurs AB, AC et CB vérifient les trois inégalités suivantes :
+Réciproquement, étant données trois longueurs dont chacune (ou, ce qui suffit : la plus grande) est inférieure à la somme des deux autres, il existe un triangle ayant ces longueurs de côté.
+Une propriété se déduit de ces inégalités :
+Cette dernière inégalité entraîne que dans un triangle, la longueur d'un côté est supérieure à la différence des longueurs des deux autres.
+Ce qui apparaît donc comme une propriété relative à la topologie du triangle.
+Une autre les complète :
+Pour les nombres complexes
+En utilisant une représentation complexe du plan euclidien, on peut noter
+On obtient cette formulation équivalente.
+Pour (x, y) \in\Complex^2, on a :
+* |x+y
+|x|+|y| \Longleftrightarrow \exists (\lambda,\mu)
+\in\R_+^2\setminus\,\ \lambda y
+\mu x.
+Généralisation aux espaces préhilbertiens
+Soit (E,\langle\cdot|\cdot\rangle) un espace préhilbertien réel.
+On note \|\cdot \| la norme associée au produit scalaire.
+Pour (x,y)\in E^2, on vérifie alors :
+* \|x+y\|
+\|x\|
++ \|y\| \Longleftrightarrow \exists (\lambda,\mu)
+\in\R_+^2\setminus\,\ \lambda y
+\mu x.
+Tout espace préhilbertien complexe (E, \langle \cdot | \cdot \rangle') est un espace préhilbertien réel, pour le produit scalaire \langle x|y\rangle:=\mathrm (\langle x|y\rangle'), qui induit la même norme que le produit hermitien \langle \cdot | \cdot \rangle'.
+Point de vue axiomatique
+Soient un ensemble et d : E\times E\to\R^+.
+On dit que est une distance sur si :
+* \forall (x,y)\in E^2,\ d (x,y)
+0\Longleftrightarrow
+* \forall (x,y,z)\in E^3,\ d (x,z)\le d (x,y)+d (y,z)
+La troisième propriété demandée à d pour être une distance est de vérifier l'inégalité triangulaire.
+Jointe à la première, elle entraîne :
+* \forall (x,y,z)\in E^3,\ |d (x,z)-d (y,z)|\le d (x,y)
+et plus généralement
+, pour toute partie non vide de , |d (x,A)-d (y,A)|\le d (x,y) .
+Réciproquement, |d (x,z)-d (y,z)|\le d (x,y)\Longrightarrow d (x,z)\le d (x,y)+d (y,z).
+Tout espace vectoriel normé (E,\|~\|)
+- en particulier (\Complex,|~|)
+- est naturellement muni d'une distance d, définie par d (x,y)=\|x-y\|, pour laquelle la majoration |d (x,0)-d (y,0)|\le d (x,y) se réécrit :
+Démonstration
+Soient (E,\langle\cdot|\cdot\rangle) un espace préhilbertien réel et (x,y)\in E^2.
+Inégalité
+On a \|x+y\|^2 = \|x\|^2 + \|y\|^2 + 2\langle x|y\rangle.
+Par l'inégalité de Cauchy-Schwarz, \langle x|y\rangle\le| \langle x|y \rangle
+|\le\|x\|
+\|y\|.
+D'où \|x+y\|^2\le\|x\|^2 + \|y\|^2 + 2\|x\| \|y\| = (\|x\|+\|y\|)^2.
+Et donc \|x+y\|\le\|x\| + \|y\|.
+Si E est le plan euclidien, identifié au plan complexe muni du produit scalaire
+- dont la norme associée est le module
+- l'inégalité de Cauchy-Schwarz utilisée ici est, de même que le cas d'égalité ci-dessous, une propriété élémentaire des nombres complexes.
+Cas d'égalité
+Supposons que \|x+y\| = \|x\| + \|y\| et y\ne0.
+Par ce qui précède, on a donc \langle x|y\rangle
+|\langle x|y\rangle|
+\|x\|\|y\|.
+Donc
+, par le cas d'égalité de Cauchy-Schwarz, x
+\lambda y avec \lambda
+\langle x|y\rangle \|y\|\ge0.
+Finalement, on a bien \lambda
+\mu x,
+avec \mu
+Articles connexes
+iw0hdn7ymeo8oettvbmcxn6x5n5fd9e

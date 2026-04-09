@@ -1,0 +1,137 @@
+In geometria piana il cerchio è la parte di piano delimitata da una circonferenza ed è costituito dall'insieme infinito dei punti che distano da un punto dato, detto centro, non più di una distanza fissata detta raggio.
+In un sistema di assi un generico cerchio di centro (a;b) e raggio r è rappresentato dall'insieme di punti che soddisfano la seguente condizione:
+\overline=\.
+Esso può essere immaginato come un poligono regolare con un numero di lati infinito, o meglio come il limite di una successione di poligoni regolari ad n lati per n che tende ad infinito.
+Il cerchio è una figura convessa.
+Un segmento avente gli estremi sulla circonferenza è detto corda;
+ognuna delle due parti in cui questa divide il cerchio si chiama segmento circolare.
+Se la corda in questione passa per il centro, essa si chiama diametro e i due segmenti sono congruenti e si chiamano semicerchi.
+Un segmento circolare può anche essere la parte di cerchio compresa tra due corde parallele.
+L'intersezione fra un angolo al centro, cioè un angolo avente come vertice il centro del cerchio, ed il cerchio stesso (visivamente, uno "spicchio" di cerchio) si chiama settore circolare.
+Se l'angolo al centro è retto, il settore circolare che individua si chiama quadrante;
+se è piatto, è il semicerchio.
+Due cerchi aventi lo stesso centro si dicono concentrici.
+L'area compresa fra le due circonferenze si chiama corona circolare.
+La formula dell'area del cerchio può essere ottenuta come limite di quella del poligono regolare, ovvero come lunghezza della circonferenza per raggio diviso 2:
+\mathrm
+\frac
+\pi r^2.
+La quadratura del cerchio si riferisce all'impossibile compito di costruire con riga e compasso, a partire da un cerchio, un quadrato avente stessa area.
+Alcuni solidi tridimensionali che possono avere, se tagliati da un piano, sezioni circolari sono la sfera, il cilindro ed il cono.
+Il cerchio viene detto inscritto in un poligono quando la sua circonferenza è tangente ad ogni lato di quest'ultimo, e circoscritto quando i vertici di un poligono stanno sulla circonferenza.
+L'area
+Integrazione con le coordinate polari
+Il valore dell'area del cerchio può venir visto come il valore dell'integrale doppio della funzione f (x,y)
+1 su un insieme coincidente con il cerchio.
+In formule si ha \iint_1 dx dy..
+Utilizzando il cambio di coordinate da cartesiane a polari si ottiene \int_0^\int_^R \rho d\rho d\theta, dove \rho e \theta sono le variabili polari.
+Al posto della funzione integranda f (x,y)
+1 abbiamo f (\rho,\theta)=\rho per via del cambio base.
+A questo punto l'integrale doppio si può scomporre nel prodotto di due integrali, in quanto le variabili sono separabili.
+Si ottiene
+\int_0^ d\theta \cdot\int_^R \rho
+d\rho
+2\pi\cdot \fracR^2
+\pi R^2.
+Integrazione "a cipolla"
+Un primo approccio, tramite gli integrali, al calcolo dell'area del cerchio può essere fatto pensando che questa superficie è data dalla somma progressiva di infiniti cerchi concentrici che hanno come valore massimo la circonferenza e come minimo il centro del cerchio.
+In pratica è come se sommassimo tra di loro infiniti anelli, aventi ognuno spessore infinitesimo.
+Da questa rappresentazione comprendiamo come il nome a cipolla derivi proprio dalla stratificazione del cerchio, come quella di una cipolla, anche se in due dimensioni.
+Possiamo dunque chiamare t il raggio del cerchio a cui corrisponde ogni singola circonferenza, la cui lunghezza è 2\pi t (notiamo che in questa dimostrazione si dà per assunto questo dato).
+Quindi possiamo integrare (integrazione definita) 2\pi t \, dt, cioè la funzione che ci dà le diverse circonferenze (separate dal fattore infinitesimo dt), tra il valore minimo e massimo dei loro raggi, 0 e r.
+:\mathrm (r)
+\int_0^ 2 \pi t \, dt
+\left (2\pi) \frac \right_^ = \pi r^2.
+Integrazione della semicirconferenza nel piano cartesiano
+Per procedere al calcolo dell'area di un cerchio attraverso un secondo metodo consideriamo innanzitutto una circonferenza con centro nell'origine degli assi;
+questo ci permette infatti di semplificare il caso generico di una circonferenza traslata rispetto all'origine, dato che la traslazione non modifica l'area.
+L'equazione di una circonferenza di generico raggio r e centro nell'origine degli assi è:
+x^2+y^2=r^2.
+Come sappiamo dalla definizione la suddetta formula non è una funzione, in quanto associa ad alcuni punti più di un punto.
+Per risolvere questo inconveniente e integrare la funzione è sufficiente, dopo averla esplicitata rispetto alle ordinate, y=\pm\sqrt, prenderne solo le immagini non negative.
+Avremo quindi che l'equazione della funzione che ci descrive la semicirconferenza con centro nell'origine di generico raggio r è
+y=\sqrt.
+Per conoscere quindi l'area del cerchio completo basta calcolare l'area sottesa alla funzione, tra -r e r:
+\int_^ \sqrt\,dx.
+Svolgiamo quindi i calcoli, ricorrendo al teorema fondamentale del calcolo integrale:
+Per arrivare alla formula finale ricordiamo che fin dal principio stavamo calcolando l'area tra il grafico della semicirconferenza y=\sqrt e l'asse x, per cui l'area del cerchio con centro nell'origine sarà il doppio:
+2\cdot \frac=,
+che è proprio la formula usata comunemente.
+Dobbiamo notare che in questa dimostrazione diamo per definita la formula dell'arcoseno (per trovare una primitiva della funzione), e quindi buona parte della trigonometria;
+questo però significa inserire anche nei concetti necessari per usare questo metodo quello di pi greco, che è indissolubilmente legato al concetto di cerchio e alle relazioni tra le sue parti.
+Il perimetro del cerchio
+Il perimetro del cerchio si può calcolare con la formula 2\pi r, cioè due volte il pi greco per il raggio.
+Integrazione della semicirconferenza nel piano cartesiano
+Il perimetro del cerchio, che si può definire anche come la lunghezza della circonferenza, si può pensare calcolabile grazie all'integrazione della funzione corrispondente alla semicirconferenza, avente centro nell'origine, tra -r e r, cioè il raggio.
+Ovviamente non possiamo utilizzare l'integrale definito, ma ci serve l'integrale che associa ad una funzione la lunghezza della curva che descrive:
+la formula di questo integrale, data una funzione f (x) e due punti a e b è:
+\int_^ \sqrt\,dx.
+Sappiamo che l'equazione di una circonferenza di generico raggio r e centro nell'origine degli assi è:
+x^2+y^2=r^2.
+Questa, come visto per l'area, va resa una funzione, e per farlo basta dopo averla esplicitata in funzione di y, y=\pm\sqrt, prenderne solo le immagini non negative.
+L'equazione della funzione che descrive la semicirconferenza che ci serve sarà allora
+y=\sqrt.
+Per calcolare l'integrale ci serve però la derivata prima della funzione stessa, quindi:
+\frac
+\frac.
+Adesso possiamo procedere al calcolo dell'integrale della curva tra -r e r. Svolgiamo quindi i calcoli, ricorrendo come prima al teorema di Torricelli-Barrow:
+Ma dal momento che stavamo calcolando la lunghezza di una semicirconferenza, allora il perimetro del cerchio sarà pari al doppio del valore trovato, cioè:
+2 \cdot \pi r = 2 \pi r.
+Ed è esattamente il valore che viene utilizzato solitamente.
+Come per il calcolo dell'area, dobbiamo ricordare che per la dimostrazione è essenziale conoscere la trigonometria, che implica di fatto la conoscenza del valore di pi greco e il suo legame con le componenti di un cerchio.
+In pratica quindi quella che abbiamo fatto più che una dimostrazione è una riprova della formula che lega il raggio e la lunghezza di una circonferenza qualunque.
+Cerchio, letteratura e filosofia
+La figura del cerchio e del circolo è al centro dell'opera di Platone.
+Leonardo da Vinci preferì invece collocare al centro della natura la figura della spirale.
+Lo stesso fece Ralph Waldo Emerson, introducendo nel suo saggio sui "Cerchi" la figura di cerchi in espansione come simbolo dell'avanzamento dello spirito umano.
+Angoli particolari nel cerchio
+Angolo al centro
+Si definisce 'angolo al centro' l'angolo che ha per vertice il centro della circonferenza e per lati due semirette che intersecano la circonferenza.
+Il cerchio è quindi diviso in due parti da ogni suo angolo al centro.
+La sua ampiezza si calcola con la seguente proporzione:
+AB:
+C = a^\circ :
+360^\circ .
+Proprietà
+L'angolo al centro è sempre il doppio del corrispondente angolo alla circonferenza, quando i vertici dell'angolo al centro e dell'angolo alla circonferenza sono dalla stessa parte rispetto alla corda individuata dai due punti di intersezione dei lati dei due angoli con la circonferenza.
+Quando invece il vertice dell'angolo alla circonferenza è dalla parte opposta rispetto al centro, l'angolo alla circonferenza è supplementare della metà dell'angolo al centro, cioè la somma dell'angolo alla circonferenza e la metà dell'angolo al centro è uguale ad un angolo piatto.
+Di conseguenza, se un angolo alla circonferenza è retto, esso sottende un diametro del cerchio, ovvero il corrispondente angolo al centro è piatto.
+Da ciò discendono le seguenti proprietà del triangolo rettangolo:
+* ogni triangolo rettangolo è inscrivibile in un semicerchio;
+* in ogni triangolo rettangolo, l'ipotenusa coincide con un diametro del cerchio circoscritto.
+Formulario
+Formule geometriche
+Data una circonferenza, siano r il raggio, A l'area, d=2r il diametro, P il perimetro.
+Allora si ha:
+Raggio r
+\frac
+\frac = \sqrt;
+Perimetro P
+2 \pi r
+d \pi = 2\sqrt;
+Area A
+\pi r^2
+\fracd^2 = \frac.
+Formule analitiche
+Avendo le coordinate del centro (x_0,y_0) e di un punto sulla circonferenza (x_i,y_i) è possibile determinare l'area
+Date invece le coordinate di tre punti A, B, C qualsiasi sulla circonferenza le coordinate del centro si calcolano come quelle del circumcentro del triangolo
+x_0
+\frac;
+\quad y_0
+\frac,
+con
+b_x = -\begin
+x_A^2+y_A^2
+x_B^2+y_B^2
+\end;
+\quad b_y = \begin
+x_A^2+y_A^2
+x_B^2+y_B^2 & x_B & 1 \\
+x_C^2+y_C^2 &
+x_C & 1 \\
+\end;
+\quad a = \begin
+x_A & y_A & 1 \\
+x_C & y_C & 1 \\
+\end.
+Note

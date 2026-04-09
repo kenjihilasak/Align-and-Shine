@@ -1,0 +1,101 @@
+Fraude
+sur Internet|Sécurité informatique
+L’hameçonnage ou filoutage (de l'anglais ) est une technique utilisée par des fraudeurs pour obtenir des renseignements personnels dans le but de perpétrer une usurpation d'identité.
+La technique consiste à faire croire à la victime qu'elle s'adresse à un tiers de confiance
+- banque, administration, etc.
+- afin de lui soutirer des renseignements personnels :
+mot de passe, numéro de carte de crédit, numéro ou photocopie de la carte nationale d'identité, date de naissance, etc.
+En effet, le plus souvent, une copie exacte d'un site internet est réalisée dans l'optique de faire croire à la victime qu'elle se trouve sur le site internet officiel où elle pensait se connecter.
+La victime va ainsi saisir ses codes personnels qui seront récupérés par celui qui a créé le faux site, il aura ainsi accès aux données personnelles de la victime et pourra dérober tout ce que la victime possède sur ce site.
+L’attaque peut aussi être réalisée par courrier électronique ou autres moyens électroniques.
+Lorsque cette technique utilise les SMS pour obtenir des renseignements personnels, elle s'appelle SMiShing.
+Sur Internet
+Les criminels informatiques utilisent généralement l'hameçonnage pour voler de l'argent ou des données personnelles qui peuvent être revendues au marché noir.
+Les cibles les plus courantes sont les services bancaires en ligne, les fournisseurs d'accès à internet, les sites de ventes aux enchères tels qu'eBay, et le système de paiement Paypal.
+Les adeptes de l'hameçonnage envoient habituellement des courriels à un grand nombre de victimes.
+Typiquement, les messages ainsi envoyés semblent émaner d'une société digne de confiance et sont formulés de manière à alarmer le destinataire afin qu'il effectue une action en conséquence.
+Une approche souvent utilisée est d'indiquer à la victime que son compte a été désactivé à cause d'un problème et que la réactivation ne sera possible qu'en cas d'action de sa part.
+Le message fournit alors un hyperlien qui dirige l'utilisateur vers une page Web qui ressemble à s'y méprendre au vrai site de la société digne de confiance.
+Arrivé sur cette page falsifiée, l'utilisateur est invité à saisir des informations confidentielles qui sont alors enregistrées par le criminel.
+En 2007, ces criminels informatiques ont changé de technique en utilisant un moyen de piratage appelé attaque de l'homme du milieu pour recueillir les informations confidentielles données par l'internaute sur le site visité.
+Afin d'entretenir la confusion, il arrive que l'utilisateur soit ensuite redirigé vers la vraie adresse du site web, sur lequel l'authentification lui est à nouveau demandée.
+Il existe différentes variantes :
+* le spear phishing, qui vise une personne précise, par exemple sur des réseaux sociaux ;
+* lin-session phishing, qui tente de récupérer la session utilisateur durant la navigation.
+Cette dernière variante est possible du fait de la présence d’une faille informatique de type XSS sur le site web visé.
+Parades
+Vérification de l'orthographe du nom de domaine
+La vérification de l'adresse web dans la barre d'adresse du navigateur web est la première parade.
+Ainsi, une attaque simple consiste à utiliser un nom de domaine très semblable (par exemple avec une faute grammaticale ou orthographique), comme http:/ / .
+L'attaquant aura préalablement acheté un nom de domaine proche de l'original, généralement une variante orthographique.
+De même le site france-impotsgouv.fr, est utilisé en lieu et place de impots.gouv.fr.
+Vérification de l'absence d'arobase dans l'URL
+Dans les années 1990 et au début des années 2000, une méthode très utilisée était la possibilité de laisser au sein de l'URL le nom d'utilisateur et le mot de passe dans le cadre d'une authentification HTTP.
+L'URL prend alors la forme «
+« «
+À cette époque, il était fréquent que les URLs comportent une longue chaîne de caractère pour identifier la session de l'utilisateur.
+Par exemple, une telle URL pouvait ressembler à « http:/ my.cnf?id
+56452575711&res
+lorem
+ipsum
+dolor&quux
+2&lang
+fr&sessid=jP3ie3qjSebbZRsC0c9dpcLVe2cAh0sCza3jcX7mSuRzwY4N0v1DBB71DMKNkbS »
+Les attaquants concevaient dès lors une URL ressemblant à celle ci-dessus, en écrivant le nom de domaine usurpé comme login.
+Par exemple, pour convaincre l'utilisateur que le site qu'il visite est bien , et que l'adresse IP du serveur de l'attaquant est 88.132.11.17, l'URL pouvait être « http:/ espaceclient:id
+56452575711&res
+lorem
+ipsum
+dolor&quux
+2&lang
+frsessid=jP3ie3qjSebbZRsC0c9dpcLVe2cAh0sCza3jcX7mSuRzwY4N0v1DBB71DMKNkbS@88.132.11.17 ».
+Du fait de cette technique d'hameçonnage, les navigateurs web ont été améliorés afin de prévenir leurs utilisateurs lorsqu'ils détectent cette manœuvre.
+Ainsi, dans le cas précédent, le navigateur Firefox proposerait le message suivant :
+:Vous êtes sur le point de vous connecter au site « 88.132.11.17 » avec le nom d'utilisateur « a », mais ce site web ne nécessite pas d'authentification.
+Il peut s'agir d'une tentative pour vous induire en erreur.
+:« 88.132.11.17 » est-il bien le site que vous voulez visiter ?
+Cette technique d'hameçonnage est donc aujourd'hui minoritaire.
+Vérifier l'absence de caractères Unicode
+Une méthode plus élaborée pour masquer le nom de domaine réel consiste à utiliser des caractères bien choisis parmi les dizaines de milliers de caractères du répertoire Unicode.
+En effet, certains caractères spéciaux ont l'apparence des caractères de l'alphabet latin.
+Ainsi, l'adresse web http:/ a la même apparence que http:/ , mais est pourtant bien différente car elle renvoie vers un site web différent.
+De même, http:/ / , surtout si le navigateur souligne l'adresse internet.
+Une contre-mesure à cette attaque est de ne pas permettre l'affichage des caractères hors du répertoire ASCII, qui ne contient que les lettres de A à Z, les chiffres et de la ponctuation.
+Cette dernière contre-mesure est cependant difficilement compatible avec l'internationalisation des noms de domaine, qui requiert le jeu de caractères Unicode.
+Vérifier les certificats électroniques
+Il existe depuis les années 1990 une parade technique à l'hameçonnage : le certificat électronique.
+Toutefois, l'interface utilisateur des navigateurs Web a longtemps rendu les certificats incompréhensibles pour les visiteurs.
+Cette interface était connue sous les traits d'un petit cadenas.
+Il était simplement expliqué au grand public que le cadenas signifie que la communication est chiffrée, ce qui est vrai, mais ne protège aucunement contre l'hameçonnage.
+Dans les années 2000, des certificats étendus ont été inventés.
+Ils permettent d'afficher plus clairement l'identité vérifiée d'un site.
+Écrire
+manuellement les URL
+Une personne contactée au sujet d'un compte devant être « vérifié » doit chercher à régler le problème directement avec la société concernée ou se rendre sur le site web en tapant manuellement l'adresse dans la barre d'adresse dans son navigateur web plutôt qu'en cliquant sur un lien qui lui aurait été fourni.
+Il faut savoir que les sociétés bancaires n'utilisent jamais la communication par courriel pour corriger un problème de sécurité avec leurs clients.
+En règle générale, il est recommandé de faire suivre le message suspect à la société concernée, ce qui lui permettra de faire une enquête.
+Autres parades
+Les filtres anti-spam aident à protéger l’utilisateur des criminels informatiques par le fait qu'ils réduisent le nombre de courriels que les utilisateurs reçoivent et par conséquent les risques d'hameçonnage.
+Le logiciel client de messagerie
+Mozilla Thunderbird comporte un filtre bayésien très performant (c'est un filtre anti-spam auto-adaptatif).
+Les fraudes concernant les banques en ligne visent à obtenir l'identifiant et le mot de passe du titulaire d'un compte.
+Il devient ensuite possible au fraudeur de se connecter sur le site web de la banque et d'effectuer des virements de fonds vers son propre compte.
+Pour parer à ce type de fraude, la plupart des sites bancaires en ligne n'autorisent plus l'internaute à saisir lui-même le compte destinataire du virement : il faut, en règle générale, téléphoner à un service de la banque qui reste seul habilité à saisir le compte destinataire dans une liste de comptes.
+La conversation téléphonique est souvent enregistrée et peut alors servir de preuve.
+D'autres banques utilisent une identification renforcée, qui verrouille l'accès aux virements si l'utilisateur n'indique pas la bonne clé à huit chiffres demandée aléatoirement, parmi les soixante-quatre qu'il possède.
+Si la clé est la bonne, l'internaute peut effectuer des virements en ligne.
+En France, les internautes sont invités à communiquer avec la cellule de veille de la police nationale pour témoigner de leurs propres (mauvaises) expériences ou leur envoyer des liens conduisant à des sites qu'ils jugent contraires aux lois.
+Ils ont pour cela à leur disposition un site internet dédié : .
+Pour aider les internautes à se protéger contre ces fraudes, l'association à but non lucratif Phishing Initiative a été créée en 2010 : elle permet à tout internaute de signaler les sites web frauduleux francophones pour les faire bloquer.
+Exemple
+Les attaques par hameçonnage sont le plus souvent dirigées vers les sites sensibles tels que les sites bancaires.
+Les sites de réseaux sociaux sont aujourd'hui également la cible de ces attaques.
+Les profils des utilisateurs des réseaux sociaux contiennent de nombreux éléments privés qui permettent aux pirates informatiques de s'insérer dans la vie des personnes ciblées et de réussir à récupérer des informations sensibles.
+Terminologie
+Hameçonnage » est un néologisme québécois créé en avril 2004 par l'Office québécois de la langue française.
+En France, la Commission générale de terminologie et de néologie a choisi
+« filoutage » en 2006.
+Le terme phishing est une variante orthographique du mot anglais , il s'agit d'une variation orthographique du même type que le terme phreaking (f remplacé par ph).
+Il aurait été inventé par les « pirates » qui essayaient de voler des comptes AOL et serait construit sur l'expression anglaise , soit « pêche aux mots de passe » : un attaquant se faisait passer pour un membre de l'équipe AOL et envoyait un message instantané à une victime potentielle.
+Ce message demandait à la victime d'indiquer son mot de passe, afin de, par exemple, « vérifier son compte AOL » ou « confirmer ses informations bancaires ».
+Une fois que la victime avait révélé son mot de passe, l'attaquant pouvait accéder au compte et l'utiliser à des fins malveillantes, comme l'envoi de spam.

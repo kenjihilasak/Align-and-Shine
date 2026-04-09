@@ -1,0 +1,222 @@
+Fi|*|Protocole de télécommunication|Protocole
+réseau sur la couche liaison|Protocole réseau sur la couche physique
+Le Wi-Fi, aussi orthographié wifi est un ensemble de protocoles de communication sans fil régis par les normes du groupe IEEE 802.11 (ISO/CEI 8802-11).
+Un réseau Wi-Fi permet de relier par ondes radio plusieurs appareils informatiques au sein d'un réseau informatique afin de permettre la transmission de données entre eux.
+Apparues pour la première fois en 1997, les normes IEEE
+802.11 (ISO/CEI 8802-11), qui sont utilisées internationalement, décrivent les caractéristiques d’un réseau local sans fil (WLAN)
+La marque déposée «
+-Fi » correspond initialement au nom donné à la certification délivrée par la Wi-Fi
+Alliance (« », WECA), organisme ayant pour mission de spécifier l’interopérabilité entre les matériels conformes à la norme 802.11 et de vendre le label «
+-Fi » aux matériels répondant à ses spécifications.
+Pour des raisons de facilité d’usage (et de marketing) le nom de la norme se confond aujourd’hui avec le nom de la certification (c’est le cas en France, en Espagne, au Canada, en Suisse, en Tunisie…).
+Ainsi, un réseau Wi-Fi est en réalité un réseau répondant à une des normes IEEE 802.11.
+Dans d’autres pays (Allemagne et États-Unis par exemple) de tels réseaux sont aussi nommés par le terme générique WLAN : LAN (réseau local sans fil).
+Grâce aux normes Wi-Fi, il est possible de créer des réseaux locaux sans fil à haut débit.
+En pratique, le Wi-Fi permet de relier des ordinateurs portables, des machines de bureau, des assistants personnels (PDA), des objets communicants ou même des périphériques à une liaison haut débit : de théoriques ou réels en 802.11b, à théoriques ou environ réels en 802.11a ou 802.11g, théoriques pour le 802.11n et théoriques pour le 802.11ac normalisé depuis décembre 2013.
+La portée peut atteindre plusieurs dizaines de mètres en intérieur (généralement entre une vingtaine et une cinquantaine de mètres) s'il n'y a aucun obstacle gênant (mur en béton par exemple) entre l’émetteur et l’utilisateur.
+Ainsi, des fournisseurs d’accès à Internet peuvent établir un réseau Wi-Fi connecté à Internet dans une zone à forte concentration d’utilisateurs (gare, aéroport, hôtel, train).
+Ces zones ou points d’accès sont appelés bornes ou points d’accès Wi-Fi ou « ».
+Historique
+Le Wi-Fi est un ensemble de normes concernant les réseaux sans fil qui ont été mises au point par le du comité de normalisation LAN/MAN de l'IEEE (IEEE 802).
+Sa première norme est publiée en 1997, et permet des échanges à une vitesse théorique de .
+Le protocole se développe en 1999, avec la publication des normes IEEE 802.11a et 802.11b, permettant respectivement des transferts de et théoriques.
+Le terme « Wi-Fi »
+Le terme « Wi-Fi » suggère la contraction de « », par analogie au terme «
+Fi »
+pour « » (apparu dans les années 1930)
+Cependant, bien que la Wi-Fi Alliance ait elle-même employé fréquemment ce terme dans divers articles de presse internet (notamment dans le slogan ), selon Phil Belanger, membre fondateur de la Wi-Fi Alliance, le terme « Wi-Fi » n'a jamais eu de réelle signification.
+Il s'agit bien néanmoins d'un jeu de mots avec «
+Le terme « Wi-Fi » est issu de la Wi-Fi Alliance, une association créée en 1999 ;
+il a été inventé par la société Interbrand, spécialisée dans la communication de marque, afin de proposer un terme plus attractif que la dénomination technique «
+IEEE 802.11b
+Direct
+Sequence
+Interbrand est également à l'origine du logo rappelant le symbole du Yīn et du Yang.
+La marque Wi-Fi a été déposée en France à l'INPI en juin 2010.
+Technique
+Structure (couches du protocole)
+Les normes 802.11 s’attachent à définir les couches basses du modèle OSI pour une liaison sans fil utilisant des ondes électromagnétiques, c’est-à-dire :
+* la couche physique (notée parfois couche PHY), proposant quatre types de codage de l’information ;
+* la couche liaison de données, constituée de deux sous-couches :
+La couche physique définit la modulation des ondes radioélectriques et les caractéristiques de la signalisation pour la transmission de données, tandis que la couche liaison de données définit l’interface entre le bus de la machine et la couche physique, notamment une méthode d’accès proche de celle utilisée dans le standard Ethernet et les règles de communication entre les différentes stations.
+Les normes 802.11 proposent donc en réalité trois couches (une couche physique appelée PHY et deux sous-couches relatives à la couche liaison de données du modèle OSI), définissant des modes de transmission alternatifs que l'on peut représenter de la manière suivante :
+Il est possible d’utiliser n’importe quel protocole de transport basé sur IP sur un réseau 802.11 au même titre que sur un réseau Ethernet.
+Modes de mise en réseau
+Il existe différents modes de mise en réseau :
+Le mode «
+Infrastructure »
+Mode qui permet de connecter les ordinateurs équipés d’une carte Wi-Fi entre eux via un ou plusieurs points d’accès (PA) qui agissent comme des concentrateurs (exemple : répéteur ou commutateur en réseau Ethernet).
+Autrefois ce mode était essentiellement utilisé en entreprise.
+Dans ce cas, la mise en place d’un tel réseau oblige de poser à intervalles réguliers des bornes «
+Point d’accès » (PA) dans la zone qui doit être couverte par le réseau.
+Les bornes, ainsi que les machines, doivent être configurées avec le même nom de réseau (SSID = ) afin de pouvoir communiquer.
+L’avantage de ce mode, en entreprise, est de garantir un passage obligé par le Point d’accès: il est donc possible de vérifier qui accède au réseau.
+Actuellement les FAI, les boutiques spécialisées et les grandes surfaces fournissent aux particuliers des routeurs sans fil qui fonctionnent en mode « Infrastructure », tout en étant très faciles à configurer.
+Le mode «
+Mode qui permet de connecter directement les ordinateurs équipés d’une carte Wi-Fi, sans utiliser un matériel tiers tel qu’un point d’accès (en , ou AP).
+Ce mode est idéal pour interconnecter rapidement des machines entre elles sans matériel supplémentaire (exemple : échange de fichiers entre portables dans un train, dans la rue, au café…).
+La mise en place d’un tel réseau consiste à configurer les machines en mode «
+Ad hoc » (au lieu du mode « Infrastructure »), la sélection d’un canal (fréquence), d’un nom de réseau (SSID) communs à tous et si nécessaire d'une clé de chiffrement.
+L’avantage de ce mode est de s’affranchir de matériels tiers, c'est-à-dire de pouvoir fonctionner en l'absence de point d'accès.
+Des protocoles de routage dynamique (exemples : OLSR, AODV…) rendent envisageable l'utilisation de réseaux maillés autonomes dans lesquels la portée ne se limite pas à ses voisins .
+Le mode «
+Pont » (« »)
+Un point d'accès en mode «
+Pont » sert à connecter un ou plusieurs points d'accès entre eux pour étendre un réseau filaire, par exemple entre deux bâtiments.
+La connexion se fait au niveau de la couche 2 OSI.
+Un point d'accès doit fonctionner en mode «
+Racine » (« », généralement celui qui distribue l'accès Internet) et les autres s'y connectent en mode « » pour ensuite retransmettre la connexion sur leur interface Ethernet.
+Chacun de ces points d'accès peut éventuellement être configuré en mode «
+Pont » avec connexion de clients.
+Ce mode permet de faire un pont tout en accueillant des clients comme le mode « Infrastructure ».
+Le mode «
+Répéteur » (« »)
+Un point d'accès en mode «
+Répéteur » permet de répéter un signal Wi-Fi plus loin (par exemple pour atteindre un fond de couloir en « L »).
+Contrairement au mode «
+Pont », l'interface Ethernet reste inactive.
+Chaque « saut » supplémentaire augmente cependant le temps de latence de la connexion.
+Un répéteur a également une tendance à diminuer le débit de la connexion.
+En effet, son antenne doit recevoir un signal et le retransmettre par la même interface ce qui en théorie divise le débit par deux.
+Les différentes normes Wi-Fi
+La norme IEEE 802.11 est en réalité la norme initiale publiée en 1997 qui offrait des débits de 1 ou (Wi-Fi est un nom commercial, et c’est par abus de langage que l’on parle de « normes » Wi-Fi).
+Des révisions ont ensuite été apportées à la norme originale afin d’augmenter le débit (c’est le cas des normes 802.11a, 802.11b, 802.11g, 802.11n et 802.11ac, appelées normes 802.11 physiques) ou de spécifier des fonctions de sécurité ou d’interopérabilité.
+Le tableau suivant présente les principales révisions de la norme 802.11 et leur signification :
+Linksys, la division grand public de Cisco Systems, avait développé en 2006 la technologie SRX pour ().
+Celle-ci superposait le signal de deux canaux 802.11g pour doubler le taux de transfert des données.
+Le taux maximum de transfert des données via un réseau sans fil SRX400 dépassait alors les capacités des réseaux filaires Ethernet 10/100 que l’on utilisait en 2006 dans la plupart des réseaux.
+Historique de l'intégration
+Les iBooks d’Apple furent, en 1999, les premiers ordinateurs à proposer un équipement Wi-Fi intégré (sous le nom d’AirPort), bientôt suivis par le reste de la gamme.
+D'autres ordinateurs commencent ensuite à être vendus avec des cartes Wi-Fi intégrées tandis que les plus anciens doivent s’équiper d’une carte Wi-Fi externe adaptée (PCMCIA, USB, CompactFlash, PCI, MiniPCI).
+À partir de 2003, on voit aussi apparaître des ordinateurs portables intégrant la plate-forme
+Intel
+Centrino,
+qui permet une intégration simplifiée du Wi-Fi.
+Les PDA eurent également des cartes Wi-Fi intégrées dans la fin des années 90, principalement Palm OS et Windows Mobile.
+Controverses, risques et limites
+Confidentialité
+Enjeux
+Le risque le plus évoqué est un accès indu par un tiers à des données relevant de la vie privée ou du secret industriel ou commercial
+Un autre risque pour le détenteur d'un point d'accès est de voir engager sa responsabilité si ce point est utilisé pour réaliser des actions illégales comme le partage illégal de copies protégées par le droit d'auteur ;
+problème qui se pose principalement lorsque le point d'accès n'est pas sécurisé.
+L’accès sans fil aux réseaux locaux rend nécessaire l’élaboration d’une politique de sécurité, dans les entreprises et chez les particuliers notamment.
+Enfin il semble possible de voir à travers les murs en utilisant le Wi-fi, En 2017, deux universitaires allemands ont montré qu'une analyse des ondes de l'émetteur radio d'un routeur sans fil faite à l’extérieur d'une pièce ou d'un bâtiment pourrait théoriquement permettre de coder une image 3D (de type hologramme) de l'intérieur d'une pièce en utilisant uniquement les signaux Wi-Fi qui « fuient » au travers des murs, portes, fenêtres, toitures.
+Mais avec des résultats grossiers en utilisant les moyens techniques disponibles, et à condition que la pièce ne soit pas encombrée.
+Cette idée est née d'une conversation où les interlocuteurs cherchaient à imaginer ce qu'on verrait du monde si on le regardait en voyant les ondes Wi-Fi, ce qui les a conduit à imaginer une vision holographique induite par le Wi-Fi.
+Une expérience a ainsi permis de représenter grossièrement l'image (à très basse résolution) d'une croix en aluminium de 1 m de haut placée dans une pièce.
+Moyens de protection
+Il est possible de choisir la méthode de codage de la communication sur l’interface radio.
+La plus ancienne était l’utilisation d’une clé dite (WEP), communiquée uniquement aux utilisateurs autorisés du réseau.
+Toutefois, il a été démontré que cette clé était facile à violer, avec l’aide de programmes tels que Aircrack.
+Pour améliorer la confidentialité, de nouvelles méthodes ont été proposées, comme Wi-Fi Protected Access (WPA), WPA2 ou plus récemment WPA3.
+Depuis l’adoption du standard 802.11i, on peut raisonnablement parler d’
+accès réseau sans fil sécurisé.
+En l’absence de 802.11i, on peut utiliser un tunnel chiffré (VPN) pour se raccorder au réseau de son entreprise sans risque d’écoute ou de modification.
+D'autres méthodes de sécurisation existent, avec, par exemple, un serveur Radius ou Diameter chargé de gérer les accès par nom d’utilisateur et par mot de passe.
+Risque sanitaire
+Le Wi
+-Fi apparaît au moment où se développent des interrogations sur l’impact des radiofréquences sur la santé humaine.
+Des débats scientifiques se sont multipliés autour du téléphone mobile, et le débat s'est étendu à l’ensemble des technologies radio reposant sur les micro-ondes, notamment les technologies GSM, WiMAX, UMTS (la 3G), ou encore HSDPA (la 3G+), DECT, et le Wi-Fi.
+Les ondes émises par les équipements Wi-Fi se diffusent dans l'ensemble de l'environnement, mais la fréquence relativement élevée de ces ondes () les font mal traverser les murs.
+En outre, la puissance émise par les équipements Wi-Fi () est vingt fois moindre que celle émise par les téléphones mobiles ().
+De plus, le téléphone est généralement tenu à proximité immédiate du cerveau, ce qui n’est pas le cas de tous les équipements émettant des ondes Wi-Fi (les box internet ou les téléphones avec micro et écouteur filaires).
+À une dizaine de centimètres, la densité de puissance du signal est déjà fortement atténuée;
+pour une antenne isotrope, elle est inversement proportionnelle au carré de la distance :
+avec PIRE W
+= puissance isotrope rayonnée équivalente.
+Dans les deux cas (téléphone et Wi-Fi), il faut prendre en compte le fait qu'ils émettent ou pas, si on passe beaucoup de temps près de la source.
+Malgré la permanence d'exposition, les effets thermiques des ondes Wi-Fi sont reconnus comme étant négligeables.
+Plusieurs organismes ont réalisé des études des effets sur la santé du Wi-Fi, et ont, dans un premier temps, majoritairement conclu qu'il n'y avait aucune raison de craindre que le Wi-Fi soit dangereux pour la santé dans le cadre d'une utilisation normale.
+Parmi ces organismes, on peut citer :
+La : Dans sa revue , l'organisme américain a effectué de nombreuses mesures en France, en Allemagne, en Suède, et aux États-Unis.
+Dans tous les cas le niveau du signal Wi-Fi détecté reste bien plus bas que les limites d'exposition internationales (ICNIRP et ), mais aussi bien plus faible que les autres champs électromagnétiques présents aux mêmes endroits.
+La Fondation Santé et Radiofréquences : Financée pour moitié par les opérateurs de téléphonie, cet organisme a organisé une rencontre scientifique en pour faire le point sur l'état des connaissances concernant l'effet des radiofréquences sur la santé, notamment pour le Wi-Fi.
+Une conclusion est que .
+Pour ceux que le Wi-Fi inquiéterait, il est précisé que .
+L'ANSES :
+Dans son rapport 2013, l'Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail indique
+qu' :
+* Ceci étant, comme le mentionne le rapport (p. 9), « il n’est pas possible aujourd’hui d’établir un lien de causalité entre ces effets biologiques décrits et d’éventuels effets sanitaires qui en résulteraient ».
+Supélec :
+En , l'École supérieure d'électricité a publié une étude sur les champs électromagnétiques produits par des équipements Wi-Fi, en mesurant notamment l'effet cumulatif de nombreux équipements Wi-Fi situés à proximité les uns des autres.
+Leur conclusion est que les limites légales sont très loin d'être atteintes.
+Cependant, il est à noter que ces limites sont fixées sur la base de recommandations de l'ICNIRP, organisation proche de l'industrie.
+La (HPA) : L'Agence de protection de la santé au Royaume-Uni indique qu'elle n'a connaissance d'aucune preuve cohérente permettant de penser que les ondes Wi-Fi ont un effet sur la santé.
+Le de l'HPA a souligné qu'une personne assise à proximité d'un hotspot Wi-Fi pendant un an reçoit la même dose d'ondes qu'une personne qui utilise son téléphone portable pendant vingt minutes.
+Toutefois, l'agence déclare opportun de mener de nouvelles études sur ce sujet.
+Bioinitiative :
+Ce groupe de quatorze chercheurs internationaux a publié en (mis à jour en 2011 et 2013) le Rapport Bioinitiative, globalement très pessimiste vis-à-vis des télécommunications sans fil au vu des enquêtes épidémiologiques dont il rend compte.
+En ce qui concerne le Wi-Fi, le rapport préconise l'utilisation d'alternatives filaires à cette technologie dans les écoles et les bibliothèques avec de jeunes enfants.
+Les conclusions sont donc controversées et le Wi-Fi a été officiellement déconseillé, voire interdit dans des écoles en Angleterre, en Allemagne et en Autriche.
+* En France, cinq bibliothèques parisiennes ont débranché leurs installations Wi-Fi après que plusieurs membres du personnel se sont déclarés incommodés (fin 2008, ces bornes ont été rebranchées après audit technique des sites).
+La Bibliothèque nationale de France, qui a décidé d'appliquer le principe de précaution, a déclaré choisir l'alternative filaire par le biais d'une liaison Ethernet, mais n'a à ce jour pas équipé ses salles de lecture accessibles au public de prises RJ45.
+Toutefois, bien que l'Organisation mondiale de la santé (OMS) ait conclu en 2006 que l'exposition prolongée aux ondes du Wi-Fi ne présentait aucun risque pour la santé, elle est depuis revenue sur cette position en ajoutant le Wi-Fi (ainsi que la téléphonie mobile) dans la liste des éléments cancérogènes du (possiblement cancérigène pour l'être humain) en .
+Partage des bandes de fréquences
+Le Wi
+-Fi utilise principalement une bande de fréquence dite
+« industrielle, scientifique et médicale », ISM, de 2,4 à , partagée avec d’autres types d'usages ce qui peut conduire à des problèmes d'interférences, brouillages causés par les fours à micro-ondes, les transmetteurs domestiques, les relais, la télémesure, la télémédecine, la télé-identification, les caméras sans fil, le Bluetooth, les émissions de télévision amateur (amateur TV ou ATV)
+Inversement, certains systèmes comme la technique RFID commencent à fusionner avec le Wi-Fi afin de bénéficier de l’infrastructure déjà en place.
+En Wi-Fi, il est recommandé de ne pas utiliser la même fréquence que celle utilisée par les voisins immédiats (collisions) et de ne pas utiliser une fréquence trop proche (interférences).
+Voir aussi la liste des canaux Wi-Fi.
+Applications et usages du Wi-Fi
+Cette technologie peut ouvrir les portes à un grand nombre d’applications pratiques.
+Elle peut être utilisée avec de l’IPv4, ou de l’IPv6, et permet le développement de nouveaux algorithmes distribués.
+Les utilisateurs des peuvent se connecter dans des cafés, des hôtels, des aéroports et accéder à Internet mais aussi bénéficier de tous les services liés à Internet (, courrier électronique, téléphonie (VoIP), téléphonie mobile (VoIP mobile), téléchargements).
+Cet accès est utilisable de façon fixe, mais parfois également en situation de mobilité (exemple : le disponible dans les trains Thalys).
+Les Wi-Fi contribuent à constituer ce que l'on peut appeler un « réseau pervasif ».
+En anglais, « » signifie « omniprésent ».
+Le réseau pervasif est un réseau dans lequel nous sommes connectés, partout, tout le temps si nous le voulons, par l’intermédiaire de nos objets communicants classiques (ordinateurs, téléphones) mais aussi, grâce à des objets multiples équipés d’une capacité de mémoire et d’intelligence : systèmes de positionnement GPS pour voiture, jouets, lampes, appareils ménagers
+Ces objets dits «
+intelligents
+sont d’ores et déjà présents autour de nous et le phénomène est appelé à se développer avec le développement du réseau pervasif.
+À observer ce qui se passe au Japon, aux États-Unis mais aussi en France, l’objet communicant est un levier de croissance pour tout type d’industrie.
+En parallèle des accès classiques de type hotspot, le Wi-Fi peut être utilisé pour la technologie de dernier kilomètre dans les zones rurales, couplé à des technologies de collecte de type satellite, fibre optique, WiMAX ou liaison louée.
+Les téléphones et smartphones
+Fi (GSM, UMTS, DECT) utilisant la technologie VoIP sont devenus très courants.
+À Paris
+, il existe un réseau important de plusieurs centaines de cafés offrant aux consommateurs une connexion Wi-Fi gratuite.
+Depuis juillet 2007, Paris WI-FI propose gratuitement à Paris 400 points d’accès dans 260 lieux municipaux.
+Les opérateurs de réseau mobile offrent souvent des solutions permettant aux téléphones mobiles d'utiliser, de façon transparente pour l'utilisateur, les hotspots Wi-Fi disponibles à proximité, qu'il s'agisse de nouvelles versions de hot-spots publics, de terminaux fixes (box) des abonnés du fournisseur, voire dans le cadre d'une interopérabilité entre fournisseurs.
+L'objectif est de faciliter l'accès à l'internet mobile et vise à dé-congestionner la bande passante utilisée par les réseaux 3G et 4G.
+Antennes Wi-Fi
+Antennes omnidirectionnelles
+Les antennes Wi-Fi à couverture omnidirectionnelles ou hémisphériques sont quantitativement les plus répandues ;
+elles sont notamment utilisées dans les hotspots Wi-Fi et dans les smartphones.
+Dans ce groupe d'antennes plusieurs types existent :
+* le dipôle ressemblant à un stylo est l’antenne tige basique (¼ d’onde) la plus rencontrée.
+Il est omnidirectionnel, et est destiné à la desserte de proximité.
+Il équipe aussi certains modèles de caméras sans fil numériques Wi-Fi à (conformes CE) permettant une PIRE (Puissance Isotrope Rayonnée Équivalente) maximale autorisée de , (D standard indicatif = à vue).
+* L’antenne
+colinéaire souvent installée sur les toits.
+Elle est omnidirectionnelle, son gain, 7 à , est lié à sa dimension verticale pouvant atteindre .
+* Les antennes patch (plates)
+notamment utilisées dans les smartphones et les tablettes tactiles.
+Les deux premiers types fonctionnent en polarisation V ;
+elles peuvent être considérées comme des antennes de stations d’accueil ou de base puisque compatibles avec un environnement 360°.
+Antennes directionnelles
+* L’antenne panneau peut être intérieurement un réseau d’antenne quad ou d’antenne patch, ou un réseau de dipôles.
+Le gain commence vers (8 × ) pour atteindre (45 × 45 × ).
+C’est l’antenne qui présente le meilleur rapport gain/encombrement et aussi le meilleur rendement, qui se situe autour de 85 à 90 %.
+Au-delà de ce gain maximum, elle est difficile à fabriquer, car surgissent des problèmes de couplage (pertes) entre étages des dipôles et il faudrait en plus envisager le doublement de la surface.
+:Le volume d’une antenne panneau est minimal.
+* L’antenne type parabole
+pleine ou ajourée (grille).
+Son intérêt d’emploi se situe dans la recherche du gain obtenu à partir d’un diamètre théorique d’approche suivant :
+:Le rendement de la parabole est moyen, 45~55 %.
+Le volume de l’antenne, qui tient compte de la longueur du bracon (bras qui éloigne la tête de réception du réflecteur parabolique), donc de la focale, est significatif.
+:Une parabole satellite (exemple TPS/CS sans tête 11-) est exploitable en Wi-Fi, à condition de prévoir une source adaptée : cornet, patch ou quad mono ou double
+* L’antenne à fentes
+fournit un diagramme sectoriel.
+Choix d’antenne
+Les antennes à gain directionnelles ou omnidirectionnelles sont destinées à la « plus longue portée », possible, quelques kilomètres.
+Les antennes panneaux et paraboliques sont uniquement directionnelles, c’est-à-dire qu’elles favorisent une direction privilégiée (plus ou moins ouverte) au détriment d’autres non souhaitées.
+Les antennes panneaux sont souvent préférées (voire préférables)
+lorsque le bilan de liaison est favorable, mais, dès que le système doit être plus performant, les paraboles deviennent nécessaires.
+Le point d’équilibre
+, à , se fait avec d’un côté un panneau carré de et de l’autre une parabole d = .
+En conclusion, en directionnel, ou point à point, il est plus intéressant de s’équiper d’abord d’un panneau, puis, si les circonstances l’exigent, d’une parabole.
+Les antennes Wi-Fi sont généralement dotées de connecteurs SMA, RP-SMA (reverse polarity SMA), ou N selon le constructeur.
+Cependant, les antennes à gain (exprimé en dBi ou en dBd) employées à l’émission (réception libre) doivent respecter la réglementation PIRE (puissance isotrope rayonnée équivalente).
+Autres antennes
+Il existe d’autres antennes, moins connues, et celles conçues par les wifistes, comme l’antenne cornet, les antennes de réalisation amateur, les Yagi, les cornières, les dièdres, les « discones » mais seules les tiges, les panneaux et les paraboles sont significativement utilisées.
+Pour améliorer les échanges, il peut être monté au plus près de l’antenne un préamplificateur d’antenne (RX) avec ou sans ampli de puissance mais toujours de type bidirectionnel.

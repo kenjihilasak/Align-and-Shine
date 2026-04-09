@@ -1,0 +1,114 @@
+Machine électrique
+Un générateur électrique est un dispositif permettant de produire de l'énergie électrique à partir d'une autre forme d'énergie.
+Par opposition, un appareil qui consomme de l'énergie électrique s'appelle un récepteur électrique.
+Modélisation
+Un générateur réel peut se modéliser de deux manières différentes :
+* un générateur idéal de tension avec une résistance en série
+* un générateur idéal de courant avec une résistance montée en parallèle
+Générateur idéal de tension
+Le générateur idéal de tension est un modèle théorique.
+C'est un dipôle capable d'imposer une tension constante quelle que soit la charge reliée à ses bornes.
+Il est également appelé source de tension.
+* En circuit ouvert, la tension qui existe à ses bornes lorsqu'il ne débite aucun courant est la tension à vide
+Le générateur de tension est donc un dipôle virtuel dont la tension à ses bornes est toujours égale à la tension à vide quelle que soit la valeur du courant débité ;
+Le générateur de tension ne peut être qu'un modèle théorique, car mis en court-circuit, il devrait délivrer un courant infini et donc fournir une puissance également infinie ce qui est irréalisable ;
+Un grand nombre de générateurs peuvent être modélisés par l'association d'un générateur idéal de tension et d'une résistance en série qui provoque une chute de tension aux bornes de l'ensemble lorsque le courant débité augmente.
+Un tel modèle s'appelle modèle de Thévenin d'un générateur réel.
+Il est impossible de placer en parallèle deux générateurs de tension de valeurs différentes, c'est pourquoi :
+il est fortement déconseillé de mettre en parallèle une pile usagée et une pile neuve ;
+** un conducteur parfait de résistance
+nulle peut être modélisé par un générateur de tension nulle.
+Court-circuiter un dipôle par un conducteur parfait revient à imposer à ses bornes une tension nulle.
+C'est pourquoi il ne faut jamais court-circuiter un générateur de tension : cela revient à imposer simultanément deux tensions différentes.
+Un condensateur est un générateur de tension au sens transitoire :
+il interdit toute discontinuité de la tension à ses bornes :
+Lorsqu'on court-circuite un condensateur, le transitoire de courant peut être très violent.
+Lorsqu'un condensateur initialement déchargé est relié en parallèle avec le secteur, la tension de ce dernier est quelconque au moment de la connexion.
+Il est donc possible qu'elle soit très différente de zéro.
+Le transitoire de courant est alors très violent et peut produire une étincelle au niveau de l'interrupteur.
+Ce phénomène est parfois constaté lorsqu'on relie une alimentation à découpage au secteur d'alimentation.
+Générateur idéal de courant
+Pour le générateur idéal de courant, le courant produit est constant, quelle que soit la tension demandée et la charge à alimenter.
+C'est également un modèle théorique car l'ouverture d'un circuit comportant un générateur de courant non nul devrait conduire à fournir une puissance infinie.
+Il est impossible de placer en série deux générateurs de courant de valeurs différentes car, par définition, il faudrait que les deux générateurs délivrent la même intensité pour être dits « en série ».
+* Les générateurs réels peuvent être simplement modélisés par l'association d'un générateur idéal de courant et d'une résistance branchée en parallèle.
+Un tel modèle s'appelle modèle de Norton.
+Un dipôle inductif est un générateur de courant au sens transitoire qui s'oppose à toute variation de l'intensité du courant qui le traverse.
+Lors de l'ouverture d'un circuit comportant un dipôle inductif traversé par un courant non nul une haute tension peut apparaitre pouvant créer un arc électrique au niveau de l’interrupteur (cet arc peut être atténué par un condensateur), comme cela se passe au niveau du rupteur dans les anciens circuits d'allumage des automobiles à essence.
+Machine tournante
+La très grande majorité des générateurs électriques sont des machines tournantes, c'est-à-dire des systèmes ayant une partie fixe, et une partie mobile tournant dans (ou autour de) la partie fixe.
+Cependant, la variété de machines tournantes créées au cours des siècles implique des différences importantes dans les différentes technologies et techniques utilisées pour produire le courant, d'une part, et dans les systèmes 'annexes' (onduleurs, électronique de puissance) éventuellement nécessaires pour leur bon fonctionnement.
+Générateur électrostatique
+Le générateur électrostatique n'est pas une machine tournante bien qu'elle fasse appel à la rotation d'un disque frottant sur les balais.
+Cependant ce concept est à l'origine de la conception des machines tournantes.
+La machine électrostatique fait appel aux lois de l'électrostatique à la différence des machines dites électromagnétiques.
+Bien que des moteurs électrostatiques aient été imaginés (ils fonctionnent sur le principe de la réciprocité des générateurs électrostatiques), ils n'ont pas eu de succès (mais les nanotechnologies pourraient proposer de tels « nanomoteurs » électrostatiques) ;
+en revanche, en tant que générateurs de très haute tension, les machines électrostatiques connaissent leur principale application dans le domaine des accélérateurs d'ions ou d'électrons.
+Elles transforment l'énergie mécanique en énergie électrique dont les caractéristiques sont la très haute tension continue et le microampérage.
+La puissance des machines du et du était en effet infime (quelques watts) et les frottements mécaniques ne leur laissaient qu'un très mauvais rendement.
+La raison en est que la densité maximale d'énergie du champ électrique dans l'air est très faible.
+Les machines électrostatiques ne peuvent être utilisables (de manière industrielle) que si elles fonctionnent dans un milieu où la densité d'énergie du champ électrique est assez élevée, c'est-à-dire pratiquement dans un gaz comprimé, qui est généralement l'hydrogène ou l'hexafluorure de soufre (SF6), sous des pressions comprises entre 10 et 30 atmosphères.
+Dynamo
+Une génératrice de courant continu appelée populairement dynamo est, comme beaucoup de générateurs électriques, une machine tournante, elle fut inventée en 1861 par le hongrois Ányos Jedlik et améliorée en 1871 par le belge Zénobe Gramme.
+Cette machine étant réversible peut fonctionner aussi bien en génératrice qu'en moteur.
+Elle devient facilement un moteur électrique, ce qui implique que lors de son arrêt la dynamo doit être déconnectée de sa charge si celle-ci peut lui fournir un courant en retour : batterie d'accumulateurs, autre dynamo.
+Cette caractéristique a été utilisée dans les petites automobiles des années 1970, un système de relais connecte la batterie pour fournir un courant à la dynastar qui fait démarrer le moteur à combustion interne et passe automatiquement en dynamo lorsque celui-ci atteint un certain régime.
+Alternateur
+La découverte en 1832
+Un alternateur est une machine rotative qui convertit l'énergie mécanique fournie au rotor en énergie électrique à courant alternatif.
+Plus de 95 % de l’énergie électrique est produite par des alternateurs : machines électromécaniques fournissant des tensions alternatives de fréquence proportionnelle à leur vitesse de rotation.
+Ces machines sont moins coûteuses et ont un meilleur rendement que les dynamos, machines qui délivrent des tensions continues (rendement de l'ordre de 95 % au lieu de 85 %).
+Principe de l'alternateur
+Cette machine est constituée d'un rotor et d'un stator .
+Le rotor : l'inducteur peut être constitué d'un aimant permanent (générant donc un champ constant), dans ce cas la tension délivrée par la machine n'est pas réglable (si on ne tient pas compte des pertes dans les conducteurs) et sa valeur efficace et sa fréquence varient avec la vitesse de rotation.
+Plus couramment un électroaimant assure l'induction.
+Ce bobinage est alimenté en courant continu, soit à l'aide d'un collecteur à bague rotatif (une double bague avec balais) amenant une source extérieure, soit par un excitateur à diodes tournantes et sans balais.
+Un système de régulation permet l'ajustement de la tension du courant produit.
+Le stator : l'induit, est constitué d'enroulements qui vont être le siège de courant électrique alternatif induit par la variation du flux du champ magnétique due au mouvement relatif de l'inducteur par rapport à l'induit.
+Différents types d'alternateurs
+Alternateurs industriels
+Dans les alternateurs industriels, l'induit est constitué de trois enroulements disposés à 360° 1p pour de pôles et trois enroulements, qui fournissent un système de courants alternatifs triphasés.
+Augmenter le nombre de paire de pôle permet de faire baisser la vitesse de rotation de la machine.
+La fréquence du réseau étant de ( par seconde, soit ), les machines synchrones doivent suivre ce rythme pour alimenter le réseau.
+Augmenter le nombre de pôle permet de réaliser plus de cycles pour un seul tour et comme la fréquence est fixe, on doit ralentir la vitesse de rotation pour respecter les à la minute (en ).
+* Dans les centrales électriques thermiques (nucléaires ou classiques), une turbine à vapeur ou une turbine à gaz tournant à grande vitesse est couplée à un turboalternateur.
+Ce type de générateur tourne généralement à (rotor à ) ou à (rotor à 2 pôles), pour les réseaux de distribution à .
+La puissance électrique fournie par un des turboalternateurs d'une centrale nucléaire peut atteindre .
+Les centrales hydrauliques, dont les turbines tournent plus lentement, ont des rotors comportant un nombre important de pôles (14 à ).
+L'axe de rotation de l'arbre peut être vertical ou horizontal et le diamètre de cet arbre est important.
+* Les gros groupes électrogènes utilisent généralement un moteur Diesel lent.
+Dans ce cas, le rotor de l'alternateur ressemble beaucoup à celui d'un alternateur hydraulique, avec un nombre élevé de pôles, un grand diamètre et un grand moment d'inertie absorbant les variations de vitesse de rotation de l'arbre du moteur Diesel.
+Alternateurs domestiques
+Dans les alternateurs domestiques (groupe électrogène monophasé), l'induit est constitué d'un seul enroulement.
+Alternateurs embarqués
+Les alternateurs s, fournissant l'énergie électrique du véhicule et rechargeant sa batterie visant à fournir l'énergie lorsque le moteur sera à l'arrêt.
+Il doit être associé à un régulateur de tension protégeant la batterie d'une surcharge.
+Les mal nommées "dynamos" de bicyclettes sont elles aussi des alternateurs, dont l'inducteur est constitué d´un ou plusieurs aimants permanents.
+Éolienne
+Dans certains cas, par exemple sur certaines éoliennes, le rotor est externe et le stator, fixe, est disposé au centre de la génératrice.
+Les pales de l'éolienne sont directement reliées au rotor.
+L'éolienne est un alternateur.
+Génératrice asynchrone
+Les machines asynchrones en fonctionnement hypersynchrone (fréquence de rotation supérieure à la fréquence de synchronisme) fournissent également de l'énergie au réseau électrique auquel elles sont connectées.
+Elles ont le désavantage de ne pas pouvoir réguler la tension, à la différence des machines synchrones qui peuvent assurer la stabilité des réseaux électriques.
+Cependant elles sont de plus en plus utilisées en génératrices de petites, et moyennes, puissances comme sur les .
+Générateur non tournant
+Il existe des générateur électrique ne nécessitant pas de machine tournante tel que :
+Générateur électrochimique :
+Les accumulateurs électrochimiques sont des générateurs de tension continue, rechargeables, utilisés dans les applications électrotechniques et électroniques portatives.
+Générateur photovoltaïque :
+Les panneaux solaires utilisent l'énergie solaire pour produire de l'électricité.
+Ils sont souvent adossés à des onduleurs solaires afin de transformer le courant continu, des panneaux, en courant alternatif du reseau électrique.
+Générateur utilisant la radioactivité :
+Le générateur thermoélectrique à radioisotope utilise la chaleur dégagée par la radioactivité d'un isotope pour la transformer en électricité.
+Ce type de générateur est principalement utilisé pour des applications spatiales (satellite par exemple).
+Générateur en développement
+D'autres technologies de générateurs sont en développement sans avoir encore d'application industrielle à grande échelle :
+Générateur utilisant la radioactivité :
+Le générateur bêtavoltaïque est un prototype utilisant la désintégration de particules radioactives.
+La différence avec les générateurs conventionnels nucléaires ou à isotope est qu'ils n'utilisent pas la chaleur générée, mais directement les électrons émis par la désintégration de la particule ;
+Générateur utilisant l'énergie marine : Des expérimentations sont en cours pour concevoir et valider industriellement des générateurs utilisant l'énergie marine.
+Générateur thermomagnétique destiné à la récupération de la chaleur :
+Ces générateurs utilisent l'effet pyromagnétique, c'est-à-dire la variation d'aimantation en fonction de la température.
+On réalise ainsi des cycles thermodynamiques pour convertir la variation de température en variation d’aimantation.
+Cette variation est ensuite convertie en énergie mécanique et enfin en énergie électrique

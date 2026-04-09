@@ -1,0 +1,190 @@
+Un diodo es un componente electrónico de dos terminales que permite la circulación de la corriente eléctrica a través de él en un solo sentido, bloqueándo el paso si la corriente circula en sentido contrario.
+Esto hace que el diodo tenga dos posibles posiciones: una a favor de la corriente (polarización directa) y otra en contra de la corriente (polarización inversa).
+Este término generalmente se usa para referirse al diodo semiconductor, el más común en la actualidad; consta de una pieza de cristal semiconductor conectada a dos terminales eléctricos.
+El diodo de vacío (que actualmente ya no se usa, excepto para tecnologías de alta potencia) es un tubo de vacío con dos electrodos: una lámina como ánodo, y un cátodo.
+De forma simplificada, la curva característica de un diodo (I-V) consta de dos regiones: por debajo de cierta diferencia de potencial, se comporta como un circuito abierto (no conduce), y por encima de ella como un circuito cerrado con una resistencia eléctrica muy pequeña.
+Debido a este comportamiento, se les suele denominar rectificadores, ya que son dispositivos capaces de suprimir la parte negativa de cualquier señal, como paso inicial para convertir una corriente alterna en corriente continua.
+Su principio de funcionamiento está basado en los experimentos de Lee De Forest.
+Los primeros diodos eran válvulas o tubos de vacío, también llamados válvulas termoiónicas constituidos por dos electrodos rodeados de vacío en un tubo de cristal, con un aspecto similar al de las lámparas incandescentes.
+El invento fue desarrollado en 1904 por John Ambrose Fleming, empleado de la empresa Marconi, basándose en observaciones realizadas por Thomas Alva Edison.
+Al igual que las lámparas incandescentes, los tubos de vacío tienen un filamento (el cátodo) a través del cual circula la corriente, calentándolo por efecto Joule.
+El filamento está tratado con óxido de bario, de modo que al calentarse emite electrones al vacío circundante los cuales son conducidos electrostáticamente hacia una placa, curvada por un muelle doble, cargada positivamente (el ánodo), produciéndose así la conducción.
+Evidentemente, si el cátodo no se calienta, no podrá ceder electrones.
+Por esa razón, los circuitos que utilizaban válvulas de vacío requerían un tiempo para que las válvulas se calentaran antes de poder funcionar y las válvulas se quemaban con mucha facilidad.
+Historia
+Aunque el diodo semiconductor de estado sólido se popularizó antes del diodo termoiónico, ambos se desarrollaron al mismo tiempo.
+En 1873 Frederick Guthrie descubrió el principio de operación de los diodos térmicos.
+Guhtrie descubrió que un electroscopio cargado positivamente podía descargarse al acercarse una pieza de metal caliente, sin necesidad de que éste lo tocara.
+No sucedía lo mismo con un electroscopio cargado negativamente, reflejando esto que el flujo de corriente era posible solamente en una dirección.
+Independientemente, el 13 de febrero de 1880 Thomas Edison re-descubre el principio.
+A su vez, Edison investigaba por qué los filamentos de carbón de las bombillas se quemaban al final del terminal positivo.
+Él había construido una bombilla con un filamento adicional y una con una lámina metálica dentro de la lámpara, eléctricamente aislada del filamento.
+Cuando usó este dispositivo, confirmó que una corriente fluía del filamento incandescente a través del vacío a la lámina metálica, pero esto sólo sucedía cuando la lámina estaba conectada positivamente.
+Edison diseñó un circuito que reemplaza la bombilla por un resistor con un voltímetro de DC, y obtuvo una patente para este invento en 1884.
+Aparentemente no tenía uso práctico para esa época.
+Por lo cual, la patente era probablemente para precaución, en caso de que alguien encontrara un uso al llamado Efecto Edison.
+Aproximadamente 20 años después, John Ambrose Fleming (científico asesor de Marconi Company y antiguo empleado de Edison) se dio cuenta que el efecto Edison podría usarse como un radio detector de precisión.
+Fleming patentó el primer diodo termoiónico en Gran Bretaña el 16 de noviembre de 1904.
+En 1874 el científico alemán Karl Ferdinand Braun descubrió la naturaleza de conducir por una sola dirección de los cristales semiconductores.
+Braun patentó el rectificador de cristal en 1899.
+Los rectificadores de óxido de cobre y selenio fueron desarrollados para aplicaciones de alta potencia en la década de los 1930.
+El científico indio Jagdish Chandra Bose fue el primero en usar un cristal semiconductor para detectar ondas de radio en 1894.
+El detector de cristal semiconductor fue desarrollado en un dispositivo práctico para la recepción de señales inalámbricas por Greenleaf Whittier Pickard, quién inventó un detector de cristal de silicio en 1903 y recibió una patente de ello el 20 de noviembre de 1906.
+Otros experimentos probaron con gran variedad de sustancias, de las cuales se usó ampliamente el mineral galena.
+Otras sustancias ofrecieron un rendimiento ligeramente mayor, pero el galena fue el que más se usó porque tenía la ventaja de ser barato y fácil de obtener.
+Al principio de la era de la radio, el detector de cristal semiconductor consistía de un cable ajustable (el muy nombrado bigote de gato) el cual se podía mover manualmente a través del cristal para así obtener una señal óptima.
+Este dispositivo problemático fue rápidamente superado por los diodos termoiónicos, aunque el detector de cristal semiconductor volvió a usarse frecuentemente con la llegada de los económicos diodos de germanio en la década de 1950.
+En la época de su invención, estos dispositivos fueron conocidos como rectificadores.
+En 1919, William Henry Eccles acuñó el término diodo del griego dia, que significa separado, y ode (de ὅδος), que significa camino.
+Diodos termoiónicos y de estado gaseoso
+Los diodos termoiónicos son dispositivos de válvula termoiónica (también conocida como tubo de vacío), que consisten en un arreglo de electrodos empacados en un vidrio al vacío.
+Los primeros modelos eran muy parecidos a la lámpara incandescente.
+En los diodos de válvula termoiónica, una corriente a través del filamento que se va a calentar calienta indirectamente el cátodo, otro electrodo interno tratado con una mezcla de Bario y óxido de estroncio, los cuales son óxidos alcalinotérreos; se eligen estas sustancias porque tienen una pequeña función de trabajo (algunas válvulas usan calentamiento directo, donde un filamento de tungsteno actúa como calentador y como cátodo).
+El calentamiento causa emisión termoiónica de electrones en el vacío.
+En polarización directa, el ánodo estaba cargado positivamente por lo cual atraía electrones.
+Sin embargo, los electrones no eran fácilmente transportados de la superficie del ánodo que no estaba caliente cuando la válvula termoiónica estaba en polarización inversa.
+Además, cualquier corriente en este caso es insignificante.
+En la mayor parte del siglo , los diodos de válvula termoiónica se usaron en aplicaciones de señales análogas, rectificadores y potencia.
+Actualmente, los diodos de válvula solamente se usan en aplicaciones exclusivas como rectificadores en guitarras eléctricas, amplificadores de audio, así como equipo especializado de alta tensión.
+Diodo semiconductor
+Un diodo semiconductor moderno está hecho de cristal semiconductor como el silicio con impurezas en él para crear una región que contenga portadores de carga negativa (electrones), llamada semiconductor de tipo n, y una región en el otro lado que contenga portadores de carga positiva (huecos), llamada semiconductor tipo p. Las terminales del diodo se unen a cada región.
+El límite dentro del cristal de estas dos regiones, llamado una unión PN, es donde la importancia del diodo toma su lugar.
+El cristal conduce una corriente de electrones del lado n (llamado cátodo), pero no en la dirección opuesta; es decir, cuando una corriente convencional fluye del ánodo al cátodo (opuesto al flujo de los electrones).
+Al unir ambos cristales, se manifiesta una difusión de electrones del cristal n al p (Je).
+Al establecerse una corriente de difusión, aparecen cargas fijas en una zona a ambos lados de la unión, zona que recibe el nombre de región de agotamiento.
+A medida que progresa el proceso de difusión, la región de agotamiento va incrementando su anchura profundizando en los cristales a ambos lados de la unión.
+Sin embargo, la acumulación de iones positivos en la zona n y de iones negativos en la zona p, crea un campo eléctrico (E) que actuará sobre los electrones libres de la zona n con una determinada fuerza de desplazamiento, que se opondrá a la corriente de electrones y terminará deteniéndolos.
+Este campo eléctrico es equivalente a decir que aparece una diferencia de tensión entre las zonas p y n. Esta diferencia de potencial (VD) es de 0,7 V en el caso del silicio y 0,3 V para los cristales de germanio.
+La anchura de la región de agotamiento una vez alcanzado el equilibrio, suele ser del orden de 0,5 micras pero cuando uno de los cristales está mucho más dopado que el otro, la zona de carga espacial es mucho mayor.
+Cuando se somete al diodo a una diferencia de tensión externa, se dice que el diodo está polarizado, pudiendo ser la polarización directa o inversa.
+Polarización directa de un diodo
+En este caso, la batería disminuye la barrera de potencial de la zona de carga espacial, permitiendo el paso de la corriente de electrones a través de la unión; es decir, el diodo polarizado directamente conduce la electricidad.
+Para que un diodo esté polarizado directamente, se debe conectar el polo positivo de la batería al ánodo del diodo y el polo negativo al cátodo.
+En estas condiciones podemos observar que:
+* El polo negativo de la batería repele los electrones libres del cristal n, con lo que estos electrones se dirigen hacia la unión p-n.
+* El polo positivo de la batería atrae a los electrones de valencia del cristal p, esto es equivalente a decir que empuja a los huecos hacia la unión p-n.
+* Cuando la diferencia de potencial entre los bornes de la batería es mayor que la diferencia de potencial en la zona de carga espacial, los electrones libres del cristal n, adquieren la energía suficiente para saltar a los huecos del cristal p, los cuales previamente se han desplazado hacia la unión p-n.
+* Una vez que un electrón libre de la zona n salta a la zona p atravesando la zona de carga espacial, cae en uno de los múltiples huecos de la zona p convirtiéndose en electrón de valencia.
+Una vez ocurrido esto el electrón es atraído por el polo positivo de la batería y se desplaza de átomo en átomo hasta llegar al final del cristal p, desde el cual se introduce en el hilo conductor y llega hasta la batería.
+De este modo, con la batería cediendo electrones libres a la zona n y atrayendo electrones de valencia de la zona p, aparece a través del diodo una corriente eléctrica constante hasta el final.
+Polarización inversa de un diodo
+En este caso, el polo negativo de la batería se conecta a la zona p y el polo positivo a la zona n, lo que hace aumentar la zona de carga espacial, y la tensión en dicha zona hasta que se alcanza el valor de la tensión de la batería, tal y como se explica a continuación:
+* El polo positivo de la batería atrae a los electrones libres de la zona n, los cuales salen del cristal n y se introducen en el conductor dentro del cual se desplazan hasta llegar a la batería.
+A medida que los electrones libres abandonan la zona n, los átomos pentavalentes que antes eran neutros, al verse desprendidos de su electrón en el orbital de conducción, adquieren estabilidad (8 electrones en la capa de valencia, ver semiconductor y átomo) y una carga eléctrica neta de +1, con lo que se convierten en iones positivos.
+* El polo negativo de la batería cede electrones libres a los átomos trivalentes de la zona p. Recordemos que estos átomos sólo tienen 3 electrones de valencia, con lo que una vez que han formado los enlaces covalentes con los átomos de silicio, tienen solamente 7 electrones de valencia, siendo el electrón que falta el denominado hueco.
+El caso es que cuando los electrones libres cedidos por la batería entran en la zona p, caen dentro de estos huecos con lo que los átomos trivalentes adquieren estabilidad (8 electrones en su orbital de valencia) y una carga eléctrica neta de -1, convirtiéndose así en iones negativos.
+* Este proceso se repite una y otra vez hasta que la zona de carga espacial adquiere el mismo potencial eléctrico que la batería.
+En esta situación, el diodo no debería conducir la corriente; sin embargo, debido al efecto de la temperatura se formarán pares electrón-hueco (ver semiconductor) a ambos lados de la unión produciendo una pequeña corriente (del orden de 1 μA) denominada corriente inversa de saturación.
+Además, existe también una denominada corriente superficial de fugas la cual, como su propio nombre indica, conduce una pequeña corriente por la superficie del diodo; ya que en la superficie, los átomos de silicio no están rodeados de suficientes átomos para realizar los cuatro enlaces covalentes necesarios para obtener estabilidad.
+Esto hace que los átomos de la superficie del diodo, tanto de la zona n como de la p, tengan huecos en su orbital de valencia con lo que los electrones circulan sin dificultad a través de ellos.
+No obstante, al igual que la corriente inversa de saturación, la corriente superficial de fuga es usualmente despreciable.
+Curva característica del diodo
+* Tensión umbral, de codo o de partida (Vγ ).
+La tensión umbral (también llamada barrera de potencial) de polarización directa coincide en valor con la tensión de la zona de carga espacial del diodo no polarizado.
+Al polarizar directamente el diodo, la barrera de potencial inicial se va reduciendo, incrementando la corriente ligeramente, alrededor del 1 % de la nominal.
+Sin embargo, cuando la tensión externa supera la tensión umbral, la barrera de potencial desaparece, de forma que para pequeños incrementos de tensión se producen grandes variaciones de la intensidad de corriente.
+* Corriente máxima (Imax ).
+Es la intensidad de corriente máxima que puede conducir el diodo sin fundirse por el efecto Joule.
+Dado que es función de la cantidad de calor que puede disipar el diodo, depende sobre todo del diseño del mismo.
+Corriente inversa de saturación (Is ).
+Es la pequeña corriente que se establece al polarizar inversamente el diodo por la formación de pares electrón-hueco debido a la temperatura, admitiéndose que se duplica por cada incremento de 10 °C en la temperatura.
+* Corriente superficial de fugas.
+Es la pequeña corriente que circula por la superficie del diodo (ver polarización inversa), esta corriente es función de la tensión aplicada al diodo, con lo que al aumentar la tensión, aumenta la corriente superficial de fugas.
+* Tensión de ruptura (Vr ).
+Es la tensión inversa máxima que el diodo puede soportar antes de darse el efecto avalancha.
+Teóricamente, al polarizar inversamente el diodo, este conducirá la corriente inversa de saturación; en la realidad, a partir de un determinado valor de la tensión, en el diodo normal o de unión abrupta la ruptura se debe al efecto avalancha; no obstante hay otro tipo de diodos, como los Zener, en los que la ruptura puede deberse a dos efectos:
+* Efecto avalancha (diodos poco dopados).
+En polarización inversa se generan pares electrón-hueco que provocan la corriente inversa de saturación; si la tensión inversa es elevada los electrones se aceleran incrementando su energía cinética de forma que al chocar con electrones de valencia pueden provocar su salto a la banda de conducción.
+Estos electrones liberados, a su vez, se aceleran por efecto de la tensión, chocando con más electrones de valencia y liberándolos a su vez.
+El resultado es una avalancha de electrones que provoca una corriente grande.
+Este fenómeno se produce para valores de la tensión superiores a 6 V.
+* Efecto Zener (diodos muy dopados).
+Cuanto más dopado está el material, menor es la anchura de la zona de carga.
+Puesto que el campo eléctrico E puede expresarse como cociente de la tensión V entre la distancia d; cuando el diodo esté muy dopado, y por tanto d sea pequeño, el campo eléctrico será grande, del orden de 3·105 V/cm.
+En estas condiciones, el propio campo puede ser capaz de arrancar electrones de valencia incrementándose la corriente.
+Este efecto se produce para tensiones de 4 V o menores.
+Para tensiones inversas entre 4 y 6 V la ruptura de estos diodos especiales, como los Zener, se puede producir por ambos efectos.
+Modelos matemáticos
+El modelo matemático más empleado es el de Shockley (en honor a William Bradford Shockley) que permite aproximar el comportamiento del diodo en la mayoría de las aplicaciones.
+La ecuación que relaciona la intensidad de corriente y la diferencia de potencial es:
+I=I_\mathrm \left ( e^-1 \right),\,
+Donde:
+* I es la intensidad de la corriente que atraviesa el diodo
+* VD es la diferencia de tensión entre sus extremos.
+* IS es la corriente de saturación (aproximadamente 10^ A)
+* n es el coeficiente de emisión, dependiente del proceso de fabricación del diodo y que suele adoptar valores entre 1 (para el germanio) y del orden de 2 (para el silicio).
+El Voltaje térmico VT es aproximadamente 25.85 mV en 300 K, una temperatura cercana a la temperatura ambiente, muy usada en los programas de simulación de circuitos.
+Para cada temperatura existe una constante conocida definida por:
+:V_\mathrm = \frac \,
+Donde k es la constante de Boltzmann, T es la temperatura absoluta de la unión pn, y q es la magnitud de la carga de un electrón (la carga elemental).
+La ecuación de diodo ideal de Shockley o la ley de diodo se deriva de asumir que solo los procesos que le dan corriente al diodo son por el flujo (debido al campo eléctrico), difusión, y la recombinación térmica.
+También asume que la corriente de recombinación en la región de agotamiento es insignificante.
+Esto significa que la ecuación de Shockley no tiene en cuenta los procesos relacionados con la región de ruptura e inducción por fotones.
+Adicionalmente, no describe la estabilización de la curva I-V en polarización activa debido a la resistencia interna.
+Bajo voltajes negativos, la exponencial en la ecuación del diodo es insignificante.
+y la corriente es una constante negativa del valor de Is.
+La región de ruptura no está modelada en la ecuación de diodo de Shockley.
+Para voltajes grandes, en la región de polarización directa, se puede eliminar el 1 de la ecuación, quedando como resultado:
+:I=I_\mathrm e^
+Con objeto de evitar el uso de exponenciales, en ocasiones se emplean modelos aún más simples, que modelan las zonas de funcionamiento del diodo por tramos rectos; son los llamados modelos de continua o de Ram-señal.
+El más simple de todos es el diodo ideal.
+Tipos de diodo semiconductor
+Existen varios tipos de diodos, que pueden diferir en su aspecto físico, impurezas, uso de electrodos, que tienen características eléctricas particulares usados para una aplicación especial en un circuito.
+El funcionamiento de estos diodos es fundamentado por principios de la mecánica cuántica y teoría de bandas.
+Los diodos normales, los cuales operan como se describía más arriba, se hacen generalmente de silicio dopado o germanio.
+Antes del desarrollo de estos diodos rectificadores de silicio, se usaba el óxido cuproso y el , que incluyen dos diodos por pin y muchos otros diodos internos.
+* Diodo avalancha (TVS): Diodos que conducen en dirección contraria cuando el voltaje en inverso supera el voltaje de ruptura, también se conocen como diodos TVS.
+Electricámente son similares a los diodos Zener, pero funciona bajo otro fenómeno, el efecto avalancha.
+Esto sucede cuando el campo eléctrico inverso que atraviesa la unión p-n produce una onda de ionización, similar a una avalancha, produciendo una corriente.
+Los diodos avalancha están diseñados para operar en un voltaje inverso definido sin que se destruya.
+La diferencia entre el diodo avalancha (el cual tiene un voltaje de reversa de aproximadamente 6.2 V) y el diodo zener es que el ancho del canal del primero excede la "libre asociación" de los electrones, por lo que se producen colisiones entre ellos en el camino.
+La única diferencia práctica es que los dos tienen coeficientes de temperatura de polaridades opuestas (la disipación de calor máxima es mayor en un diodo zener, es por ello que estos se emplean principalmente en circuitos reguladores de tensión).
+Este tipo de diodos se emplean para eliminar voltajes y corrientes transitorios que pudieran provocar un mal funcionamiento de un bus de datos que conecte dos dispositivos sensibles a voltajes transitorios.
+* Diodo de Silicio: Suelen tener un tamaño milimétrico y, alineados, constituyen detectores multicanal que permiten obtener espectros en milisegundos.
+Son menos sensibles que los fotomultiplicadores.
+Es un semiconductor de tipo p (con huecos) en contacto con un semiconductor de tipo n (electrones).
+La radiación comunica la energía para liberar los electrones que se desplazan hacia los huecos, estableciendo una corriente eléctrica proporcional a la potencia radiante.
+* Diodo de cristal: Es un tipo de diodo de contacto.
+El diodo cristal consiste de un cable de metal afilado presionado contra un cristal semiconductor, generalmente galena o de una parte de carbón.
+El cable forma el ánodo y el cristal forma el cátodo.
+Los diodos de cristal tienen una gran aplicación en los radio a galena.
+Los diodos de cristal están obsoletos, pero puede conseguirse todavía de algunos fabricantes.
+* Diodo de corriente constante: Realmente es un JFET, con su compuerta conectada a la fuente, y funciona como un limitador de corriente de dos terminales análogo al diodo Zener, el cual limita el voltaje.
+Permiten una corriente a través de ellos para alcanzar un valor adecuado y así estabilizarse en un valor específico.
+También suele llamarse CLDs (por sus siglas en inglés) o diodo regulador de corriente.
+* Diodo túnel o Esaki: Tienen una región de operación que produce una resistencia negativa debido al efecto túnel, permitiendo amplificar señales y circuitos muy simples que poseen dos estados.
+Debido a la alta concentración de carga, los diodos túnel son muy rápidos, pueden usarse en temperaturas muy bajas, campos magnéticos de gran magnitud y en entornos con radiación alta.
+Por estas propiedades, suelen usarse en viajes espaciales.
+* Diodo Gunn: Similar al diodo túnel son construidos de materiales como GaAs o InP que produce una resistencia negativa.
+Bajo condiciones apropiadas, las formas de dominio del dipolo y propagación a través del diodo, permitiendo osciladores de ondas microondas de alta frecuencia.
+* Diodo emisor de luz o LED del acrónimo inglés, light-emitting diode: Es un diodo formado por un semiconductor con huecos en su banda de energía, tal como arseniuro de galio, los portadores de carga que cruzan la unión emiten fotones cuando se recombinan con los portadores mayoritarios en el otro lado.
+Dependiendo del material, la longitud de onda que se pueden producir varía desde el infrarrojo hasta longitudes de onda cercanas al ultravioleta.
+El potencial que admiten estos diodos dependen de la longitud de onda que ellos emiten: 2.1V corresponde al rojo, 4.0V al violeta.
+Los primeros ledes fueron rojos y amarillos.
+Los ledes blancos son en realidad combinaciones de tres ledes de diferente color o un led azul revestido con un centelleador amarillo.
+Los ledes también pueden usarse como fotodiodos de baja eficiencia en aplicaciones de señales.
+Un led puede usarse con un fotodiodo o fototransistor para formar un optoacoplador.
+* Diodo láser: Cuando la estructura de un led se introduce en una cavidad resonante formada al pulir las caras de los extremos, se puede formar un láser.
+Los diodos láser se usan frecuentemente en dispositivos de almacenamiento ópticos y para la comunicación óptica de alta velocidad.
+* Diodo térmico: Este término también se usa para los diodos convencionales usados para monitorear la temperatura a la variación de voltaje con la temperatura, y para refrigeradores termoeléctricos para la refrigeración termoeléctrica.
+Los refrigeradores termoeléctricos se hacen de semiconductores, aunque ellos no tienen ninguna unión de rectificación, aprovechan el comportamiento distinto de portadores de carga de los semiconductores tipo P y N para transportar el calor.
+* Diodo con puntas de contacto: Funcionan igual que los diodos semiconductores de unión mencionados anteriormente aunque su construcción es más simple.
+Se fabrica una sección de semiconductor tipo n, y se hace un conductor de punta aguda con un metal del grupo 3 de manera que haga contacto con el semiconductor.
+Algo del metal migra hacia el semiconductor para hacer una pequeña región de tipo p cerca del contacto.
+El muy usado 1N34 (de fabricación alemana) aún se usa en receptores de radio como un detector y ocasionalmente en dispositivos analógicos especializados.
+* Diodo PIN: Un diodo PIN tiene una sección central sin doparse o en otras palabras una capa intrínseca formando una estructura p-intrínseca-n.
+Son usados como interruptores de alta frecuencia y atenuadores.
+También son usados como detectores de radiación ionizante de gran volumen y como fotodetectores.
+Los diodos PIN también se usan en la electrónica de potencia y su capa central puede soportar altos voltajes.
+Además, la estructura del PIN puede encontrarse en dispositivos semiconductores de potencia, tales como IGBTs, MOSFETs de potencia y tiristores.
+* Diodo Schottky: El diodo Schottky están construidos de un metal a un contacto de semiconductor.
+Tiene una tensión de ruptura mucho menor que los diodos pn.
+Su tensión de ruptura en corrientes de 1mA está en el rango de 0.15V a 0.45V, lo cual los hace útiles en aplicaciones de fijación y prevención de saturación en un transistor.
+También se pueden usar como rectificadores con bajas pérdidas aunque su corriente de fuga es mucho más alta que la de otros diodos.
+Los diodos Schottky son portadores de carga mayoritarios por lo que no sufren de problemas de almacenamiento de los portadores de carga minoritarios que ralentizan la mayoría de los demás diodos (por lo que este tipo de diodos tiene una recuperación inversa más rápida que los diodos de unión pn.
+Tienden a tener una capacitancia de unión mucho más baja que los diodos pn que funcionan como interruptores veloces y se usan para circuitos de alta velocidad como fuentes conmutadas, mezclador de frecuencias y detectores.
+* Stabistor: El stabistor (también llamado Diodo de Referencia en Directa) es un tipo especial de diodo de silicio cuyas características de tensión en directa son extremadamente estables.
+Estos dispositivos están diseñados especialmente para aplicaciones de estabilización en bajas tensiones donde se requiera mantener la tensión muy estable dentro de un amplio rango de corriente y temperatura.
+* Diodo Varicap: El diodo Varicap conocido como diodo de capacidad variable o varactor, es un diodo que aprovecha determinadas técnicas constructivas para comportarse, ante variaciones de la tensión aplicada, como un condensador variable.
+Polarizado en inversa, este dispositivo electrónico presenta características que son de suma utilidad en circuitos sintonizados (L-C), donde son necesarios los cambios de capacidad.
+Aplicaciones del diodo

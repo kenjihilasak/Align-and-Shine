@@ -1,0 +1,17 @@
+Système décimal
+Le système décimal appelé aussi système de numération de base 10, est un mode de représentation des nombres utilisant les chiffres 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+Pour déterminer le nombre de billes dans un sac, lorsqu'il y en a une grande quantité, il est difficile de les compter une par une sans se tromper.
+Il est plus judicieux de faire des paquets de dix.
+Le nombre de billes restantes, c'est-à-dire ne formant pas un paquet de dix, correspond au nombre des unités.
+Si le nombre de paquets de dix est supérieur à 10 alors on peut former des paquets de paquets de dix.
+Et le nombre de paquets restants, ne pouvant pas former un paquet de paquets de dix, est appelé nombre des dizaines.
+Et ainsi de suite...
+On place alors les nombres des unités, des dizaines, ... de droite à gauche pour obtenir le nombre total.
+Par exemple Antoine
+, possède un sac contenant cent vingt sept billes.
+Il veut compter ses billes.
+En regroupant les billes par paquets de dix, il va obtenir douze paquets de dix billes et il restera 7 billes.
+Avec les douze paquets de dix, il va former des paquets de dix paquets de billes et il va obtenir un grand paquet et 2 paquets de dix billes.
+Il y a moins de dix paquets de paquets, on ne peut plus les regrouper par dix alors on arrête.
+Il reste donc 1 paquet de paquets correspondant au nombre des centaines.
+Le nombre total de billes est alors 127.

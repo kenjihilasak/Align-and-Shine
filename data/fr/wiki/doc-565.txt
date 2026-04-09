@@ -1,0 +1,132 @@
+Grandeur physique|Théorie électrique
+En électricité, le terme résistance désigne :
+* une propriété physique : l'aptitude d'un matériau conducteur à s'opposer au passage d'un courant électrique sous une tension électrique donnée ;
+* un composant électrique figurant parmi les dipôles électriques, conçu pour approcher de manière très satisfaisante la loi d'Ohm dans une large plage d'utilisation ;
+* un modèle mathématique pour les éléments réels et qui respecte idéalement la loi d'Ohm.
+La propriété physique
+La résistance électrique traduit la propriété d'un composant à s'opposer au passage d'un courant électrique (l'une des causes de perte en ligne d'électricité).
+Elle est souvent désignée par la lettre R et son unité de mesure est l'ohm (symbole : Ω).
+Elle est liée aux notions de résistivité et de conductivité électrique.
+La résistance est responsable d'une dissipation d'énergie sous forme de chaleur.
+Cette propriété porte le nom d'effet Joule.
+Cette production de chaleur est parfois un effet souhaité (résistances de chauffage), parfois un effet néfaste (pertes Joule) mais souvent inévitable.
+Un des problèmes majeurs pour les ingénieurs est que la conductivité, et son inverse, la résistivité, dépendent fortement de la température.
+Lorsqu'un dipôle est traversé par un courant électrique, sa résistance provoque un échauffement qui modifie sa température, laquelle modifie sa résistance.
+La résistance d'un dipôle dépend donc fortement des conditions d'utilisation.
+La résistance a ceci de particulier que c'est une des rares caractéristiques physiques dont la plage de valeurs peut aller de 0 (supraconducteurs) à +∞ (isolants parfaits), même dans la pratique.
+Définition par l'électrocinétique
+Lorsque l'on soumet une différence de potentiel U continue à un objet (exprimée en volts, V), on provoque une circulation de charges électrique s quantifiée par l'intensité du courant I (exprimée en ampères, A).
+Si cette intensité n'est pas nulle, la résistance R est alors le rapport entre la différence de potentiel et l'intensité :
+\mathrm = \frac.
+La résistance est exprimée en ohms, Ω.
+L'équation aux dimensions est la suivante :
+R = L2⋅M⋅T-3⋅I-2
+Si les grandeurs ne sont pas continues, on peut toutefois appliquer cette loi en considérant les valeurs efficaces.
+La loi d'Ohm postule que cette résistance est une caractéristique de l'objet et est indépendante de la différence de potentiel et de l'intensité du courant, ce qui n'est vrai que dans certains cas.
+Résistance d'un fil homogène
+Pour un conducteur filiforme homogène, à une température donnée, il existe une relation permettant de calculer sa résistance en fonction du matériau qui le constitue et de ses dimensions :
+\mathrm
+\rho \cdot \frac l
+\frac
+Démonstration
+Hypothèses : Régime permanent (RP) et champ magnétique B
+négligé (loi d'Ohm locale utilisable).
+Soit un cylindre de longueur L et de surface S muni d'un repère cylindrique avec :
+*\overrightarrowle vecteur densité de courant en M à t.
+* Loi d'Ohm locale :
+\overrightarrow = \gamma.\overrightarrow
+Invariance
+du problème physique par rotation selon uθ, effets de bords négligés et régime permanent (indépendance du temps) :
+\overrightarrow
+\overrightarrow
+\overrightarrow=j (x).\overrightarrow
+D'après l'équation de conservation de la charge +div (\overrightarrow)
+0 en RP on a
+0 et donc div (\overrightarrow
+0 d'où par définition de div +
+Or j ne dépend que de la variable x donc
+0 et
+0 d'où
+0 et par intégration jx
+cste
+Finalement \overrightarrow=j.\overrightarrow
+\iint\limits_S \overrightarrow.\overrightarrow
+\iint\limits_S j.\overrightarrow.dS.\overrightarrow
+j\iint\limits_s
+j.S
+\int_^ dV
+\int_^ \overrightarrow.\overrightarrow or en RP \overrightarrow
+- \overrightarrow d'où U_
+=\int_^ -\overrightarrow.\overrightarrow
+=\int_^ \overrightarrow.\overrightarrow
+Par la loi d'Ohm locale on obtient U
+=\int_^ .\overrightarrow
+=\int_^.dl.\overrightarrow
+\int_^ dl
+Finalement I
+j.S et U
+Le quotient nous donne ensuite la résistance
+Origine du phénomène
+Le courant électrique est un déplacement de charges.
+Ces charges peuvent être des ions ou bien des électrons.
+Les porteurs de charge sont donc des particules matérielles.
+Leur mouvement peut être gêné par d'autres particules matérielles ;
+c'est en particulier le cas des ions dans une solution saline, l'effet Joule est alors un phénomène de frottement.
+Les charges peuvent être également ralenties par les variations locales du champ électrostatique, c'est notamment le cas de la conduction électrique dans les solides : si la différence de potentiel impose un champ électrique global, l'hétérogénéité du milieu crée des variations locales.
+En particulier, dans un cristal, les noyaux des atomes ou ions sont des charges positives qui peuvent attirer ou repousser les charges en mouvement, et donc les ralentir.
+En anglais, resistor ou l'anglicisme résistor sont parfois employés.
+Par abus de langage le dipôle s'est donc fait appeler lui aussi « résistance » par la pratique.
+Cet usage est permis par les dictionnaires.
+C'est un composant électronique qui permet d'augmenter volontairement la résistance (propriété physique) d'un circuit.
+Il est caractérisé par la proportionnalité entre l'intensité du courant qui le traverse et la tension entre ses bornes.
+Dans la pratique cette propriété ne se vérifie qu'approximativement à cause de la variation de résistivité avec la température du dipôle.
+On distingue :
+* Les résistances de puissance dont le but est de produire de la chaleur, exemple : chauffage électrique.
+Généralement une plaque indique la tension nominale d'utilisation et la valeur de la puissance produite.
+* Les résistances fixes dont le but est d'obtenir, dans un montage électronique, des potentiels ou des courants parfaitement déterminés en certains endroits du circuit.
+On indique alors par un code de couleur sa valeur de résistance et la précision de cette valeur.
+La puissance maximale qu'elle peut dissiper se devine (parfois) par sa taille.
+Ces résistances sont les seules à véritablement vérifier la loi d'Ohm dans un grand domaine d'utilisation (or elles ont été conçues après sa mort)
+Les résistances variables qui permettent à un utilisateur d'ajuster un courant: rhéostat, potentiomètre ou transistor
+CMOS.
+* Les dipôles dont la résistance varie avec une grandeur physique :
+** la température :
+CTN (résistance à coefficient de température négatif) et CTP (à coefficient de température positif)
+Le conducteur ohmique
+Un conducteur ohmique est un modèle physique des composants électroniques sus-mentionnés (dipôles appelés « résisteurs » ou « résistances »).
+Un conducteur ohmique est un dipôle qui vérifie la loi d'Ohm :
+U = R⋅I,
+étant l'intensité du courant, en ampères, traversant la résistance,
+La courbe représentative de la caractéristique d'une résistance est une droite passant par l'origine du repère.
+Les termes de « résistance pure » ou de « résistance idéale »
+sont parfois utilisés.
+En toute rigueur, aucun dipôle n'applique exactement la loi d'Ohm : la courbe U = ƒ (I) n'est pas exactement une droite, en particulier pour de fortes variations de U ou de I.
+Le conducteur ohmique est un modèle permettant de décrire les dipôles réels dans des conditions fixées.
+Par ailleurs, la résistance d'un conducteur métallique n'est pas une constante.
+Elle dépend en particulier de la température ;
+ceci est bien approchée par la relation :
+R = R0 (1 + aθ + bθ2)
+avec R0 un hypothétique conducteur ohmique modélisant le comportement du conducteur parfaitement thermostaté à la température de et θ la température en K.
+Lois d'électrocinétique
+La résistance est un cas particulier de l'impédance, ou, plus précisément, la résistance R est la partie réelle de l'impédance complexe :
+R = Re ()
+Expression de la puissance consommée
+La puissance consommée par un conducteur ohmique de résistance R, qui constitue l'effet Joule, peut se calculer à partir de la loi de puissance électrique
+: P = U⋅I
+et de la loi d'Ohm
+U = R⋅I.
+On a donc deux cas :
+* soit on connaît U, la valeur efficace de la tension effectivement appliquée aux bornes du dipôle (cette dernière peut être différente de la tension délivrée par le générateur), on a alors :
+\mathrm
+= \frac ;
+* soit, plus rarement, on connaît I,
+la valeur efficace de l'intensité du courant qui traverse effectivement le dipôle, et alors :
+\mathrm
+= .
+Résistances équivalentes
+Les lois dites d’associations de résistances ne s'appliquent en toute rigueur qu'à des conducteurs ohmiques :
+* en parallèle :
+\frac
+\frac
++ \frac \Leftrightarrow \mathrm
+\frac

@@ -1,0 +1,283 @@
+Matériel informatique
+libre|Ordinateur personnel|Architecture
+ARM|Nano
+ordinateur|Produit lancé en 2012|Domotique
+Le Raspberry Pi est un nano
+ordinateur monocarte à processeur ARM conçu par des professeurs du département informatique de l'université de Cambridge
+dans le cadre de la fondation Raspberry Pi
+Cet ordinateur, de la taille d'une carte de crédit, est destiné à encourager l'apprentissage de la programmation informatique et celui de Google, Android Pi.
+Il est fourni nu, c'est-à-dire la carte mère seule, sans boîtier, alimentation, clavier, souris ni écran, dans l'objectif de diminuer les coûts et de permettre l'utilisation de matériel de récupération.
+Néanmoins des « kits » regroupant le « tout en un » sont disponibles sur le web à partir de quelques dizaines d'euros seulement.
+Son prix de vente était estimé à américains, soit , début mai 2011.
+Les premiers exemplaires ont été mis en vente le 29 février 2012 pour environ .
+En septembre 2016, plus de dix millions de Raspberry
+ont été vendus.
+De multiples versions ont été développées, les dernières sont vendues un peu plus de 25 € pour le B+, à un peu plus de 30 € pour le Pi 2 (2015), un peu plus de 35 € pour le Pi 3 (2016), 5 € pour le Raspberry Pi Zero (2016), 10 € pour le Raspberry Pi Zero W (2017) et 15 € pour le Raspberry Pi Zero WH (2018).
+Le Raspberry Pi est utilisé par des « makers » du monde entier car son prix le rend très attirant.
+Le Raspberry Pi est bien un nano
+-ordinateur et non une carte électronique comme le propose Arduino.
+Le Raspberry Pi a des pins GPIO qui permettent la connexion de cartes d'extension HAT* ou d'autres composants électroniques pour réaliser des montages.
+HAT équivaut au shield d'Arduino).
+Historique
+Conception
+En 2006, les premiers prototypes du Raspberry Pi sont développés sur des microcontrôleurs Atmel ATmega 644.
+Le schéma et le plan du circuit imprimé sont rendus publics.
+Cet ordinateur, inspiré du BBC Micro d'Acorn Computer, commercialisé en 1981, est destiné à encourager la jeunesse à s'intéresser à la programmation informatique.
+Le premier prototype ARM est intégré dans un boîtier de la même taille qu'une clé USB avec un port USB d'un côté et un port HDMI de l'autre.
+L'objectif de la fondation est alors de proposer deux versions, l'une à US et une deuxième à US.
+L'ouverture des commandes pour le modèle B (le plus cher) a eu lieu le 29 février 2012 et le 4 février 2013 pour le modèle A (le moins cher).
+Prototype
+En août 2011, version Alpha sont construites, ces cartes étant identiques du point de vue fonctionnel au modèle B prévu mais elles sont plus grandes pour faciliter le débogage (placement des sondes).
+Une démonstration montre la carte exécutant une distribution Debian avec un bureau LXDE, Quake 3 en 1080p et une vidéo en Full HD MPEG-4 par HDMI.
+En octobre 2011, une version de RISC OS 5 tournant sur la carte est présentée.
+Après une année de développement la version grand public sera terminée en novembre 2012.
+En décembre 2011, modèle B ont été construites et testées.
+Le design des cartes version Beta est le même que les cartes grand public.
+Une seule erreur a été découverte dans le design, certaines broches du CPU ne fonctionnaient pas correctement ;
+l'erreur a été corrigée avant la première production.
+Les cartes version Beta sont présentées démarrant Linux, jouant une bande annonce en 1080p ou exécutant le benchmark
+Rightware
+Samurai OpenGL
+ES.
+La première semaine de l'année 2012, dix premières cartes sont mises aux enchères sur eBay.
+L'une est achetée anonymement et donnée au Centre for Computing History, dans le Suffolk en Angleterre.
+Les qui représentaient un prix de ont été vendues pour un total de .
+La carte possédant le numéro de série 01 est achetée pour .
+En prévision du lancement fin février 2012, la montée en charge des serveurs de la fondation est testée par des utilisateurs actualisant fréquemment leur navigateur.
+Commercialisation
+Lancement
+La première série de est produite à Taïwan et en Chine.
+Les livraisons de la première série sont annoncées pour mars 2012 en raison de l'installation d'un mauvais connecteur RJ45, mais la fondation annonce qu'elle s'attend à augmenter la production des futures séries sans difficulté.
+Les ventes débutent le à 06:00 UTC.
+Au même moment est annoncé un modèle A à 256 MB de RAM au lieu des 128 MB prévus.
+Dès l'annonce du début de la vente, les deux sites ne sont plus joignables, le site français de Farnell annonçant «
+Nos sites internet sont actuellement indisponibles pendant la mise à jour de nos systèmes ».
+En , ont été vendues.
+Le , la fondation annonce que le Raspberry Pi a obtenu la certification CE, demandée par les distributeurs pour pouvoir lancer la distribution auprès des premiers acheteurs.
+Évolutions
+Le , les premiers acheteurs font leurs premiers commentaires.
+Au 22 mai 2012, ont été envoyées.
+En juillet 2012, sont produites chaque jour.
+En , la Fondation Raspberry
+Pi annonce une deuxième révision du modèle B. De plus, les futures séries seront fabriquées au Royaume-Uni, dans les usines Sony de Pencoed, au Pays de Galles.
+Il est estimé que seraient produites par mois, créant .
+La fondation annonce aussi l'overclocking autorisé permettant un gain de performance jusqu'à 50 %, la fréquence du processeur passant de 700 à .
+En , plusieurs clients ayant commandé à l'un des constructeurs attendent leur commande depuis plus de six mois en raison de difficultés de production.
+La fondation annonce le passage au modèle B 4G ;
+à partir de cette date ces modèles sont envoyés lors d'un achat.
+Plus de 10 millions d'unités
+En , c'est un million de Raspberry Pi qui ont été produits au Royaume-Uni.
+Le deux millionième kit est envoyé entre le 24 et le 31 octobre.
+En , une nouvelle version est annoncée, elle divise la carte en deux parties : une partie calcul et une partie interface d'entrées-sorties.
+La partie calcul Compute
+Module comporte de mémoire vive et de mémoire flash.
+La dimension de la carte est réduite au format SO-DIMM (environ 68 × ).
+La partie interface d'entrées-sorties Compute
+Module IO
+Board
+comporte des connecteurs HDMI et USB.
+La carte calcul vient s'enficher dans la carte interface d'entrées-sorties.
+Au mois de juin, trois millions de Raspberry Pi ont été vendus.
+En , la fondation annonce que cinq millions de Raspberry Pi ont été vendus.
+Le 29 février 2016, la fondation Raspberry Pi annonce, quatre ans après le lancement du Raspberry Pi Model B, avoir vendu 8 millions d'unités, dont 3 millions de Raspberry Pi 2.
+Le , la fondation Raspberry
+Pi annonce avoir vendu 10 millions d'unités.
+Pour son cinquième anniversaire, la fondation Raspberry
+Pi annonce avoir atteint 12,5 millions d'exemplaires.
+La répartition des ventes à ce moment là est de 30 % pour le Raspberry Pi 3B, 23 % pour le Raspberry Pi 2B, 23 % pour le Raspberry Pi B, 15 % pour le Raspberry
+Pi B+
+, 4 % pour le Raspberry Pi Zero, 3 % pour le Raspberry Pi A+, 2 % pour le Raspberry Pi A et 1 % pour le Raspberry Pi Zero W. .
+Spécifications matérielles et architectures
+Le Raspberry Pi possède un processeur ARM11
+à .
+Il inclut 1, 2 ou 4 ports USB, un port RJ45 et de mémoire vive pour le modèle d'origine ( sur les dernières versions).
+Son circuit graphique BMC VideoCore 4 permet de décoder des flux Blu-Ray full HD (1080p 30 images par seconde), d'émuler d’anciennes consoles et d'exécuter des jeux vidéo relativement récents.
+Modèles
+Modèle 1 A
+* Processeur : ARM1176JZF-S (ARMv6) Broadcom 2835
+: GPIO, S2C, I2C, SPI ;
+* API
+logicielle vidéo
+OpenGL : version embarquée OpenGL
+ES 2.0 ;
+Modèle 1 A+
+Différences avec le modèle A :
+* Lecteur de carte microSD en lieu et place du lecteur SD
+Modèle 3 A+
+Modèles B
+Modèle 1 B
+Il existe plusieurs révisions du modèle B
+Spécificités du modèle B rev1 :
+* 2 ports USB 2.0 au lieu de l'unique port du modèle A, mais sur un seul bus, via le composant SMSC LAN9512 ;
+* 1 port réseau Fast Ethernet via le même composant SMSC.
+Le circuit LAN9512 qui gère les deux ports USB2 et le port réseau, est connecté au CPU via un unique port USB2 ;
+la bande passante est donc partagée entre ces trois ports.
+Spécificités du modèle Rev1 + ECN0003 :
+* Suppression des fusibles protégeant les sorties USB
+* Suppression de la diode D14, qui pouvait provoquer des interférences avec des périphériques possédant une broche CEC,
+lorsque le Raspberry restait connecté sans être alimenté.
+Spécificités du Raspberry Pi B
+Rev2 :
+* Implantation du reset
+en reliant les broches 1 et 2 de P6)
+* Support I2C (canaux primaire et secondaire inversés)
+* Suppression de quatre signaux
+GPIO utilisés pour l'identification de version, et réaffectation à d'autres rôles
+Spécificités du Raspberry Pi B :
+* Prise pour alimentation micro-USB (
+consommation : ) ;
+La RAM passe à (au lieu de sur les modèles précédents) ;
+Le modèle est estampillé avec la référence 4G en lieu et place de l'ancienne référence 2G.
+Pour utiliser les de RAM, le firmware de la carte mère doit être mis à jour.
+Différences par rapport au modèle initial :
+* 4 ports
+USB 2.0 et meilleur
+comportement en cas de surcharge
+* suppression de la prise RCA au profit d'une prise mini-jack 4 points, comprenant une sortie sonore et vidéo
+Modèle 2 B (Raspberry Pi 2)
+Le 2 février 2015, la fondation Raspberry Pi annonce la sortie du Raspberry Pi 2, plus puissant, il est équipé d'un processeur Broadcom BCM2836, quatre cœurs ARMv7 à , accompagné de de RAM.
+Il possède les mêmes dimensions et la même connectique que le modèle B+.
+Modèle 3 B (Raspberry Pi 3)
+Le 29 février 2016, pour le quatrième anniversaire de la commercialisation du premier modèle, la fondation Raspberry Pi annonce la sortie du Raspberry Pi 3.
+Comparé au Pi 2, il dispose d'un processeur Broadcom BCM2837 64 bit à quatre cœurs ARM Cortex
+-A53 à 1,2 GHz, d'une puce
+Wifi 802.11n et Bluetooth 4.1 intégrée.
+Il possède les mêmes dimensions et connectiques que les modèles 2 et B+.
+La vitesse d'horloge est 33 % plus rapide que le Pi 2, ce qui permet d'avoir un gain d'environ 50-60 % de performance en mode 32 bits.
+Il est recommandé d'utiliser un adaptateur de 2,5 A. Tous les travaux et tutoriels du Pi 2 sont parfaitement compatibles avec le Pi 3.
+Modèle 3 B+ (Raspberry Pi 3)
+Le 14 mars 2018, la fondation Raspberry Pi annonce la mise à jour du Raspberry Pi 3 vers le modèle B+.
+On y trouve une mise à jour du processeur Broadcom BCM2837B0
+64 bit à quatre cœurs ARM Cortex
+-A53 cadencé à 1,4 GHz au lieu du 1,2 GHz.
+la puce Cypress CYW43438 est remplacée par une nouvelle puce CYW43455 supportant le WiFi Dual
+band 802.11ac
+et la version 4.2 du Bluetooth.
+Et d'une prise en charge du Power over Ethernet grâce à un élément supplémentaire.
+Modèle 4 B (Raspberry Pi 4)
+Le 24 juin 2019 , la fondation Raspberry Pi annonce la sortie du Raspberry Pi 4 .
+Le 10 juillet 2019, la fondation annonce des problèmes de câblage, qui ne permettent pas à certaines batteries d’alimenter le Raspberry Pi.
+La fondation annonce des réparations pour plusieurs mois.
+Modèle Zero
+Le 26 novembre 2015, la fondation Raspberry Pi annonce la sortie du Raspberry Pi Zero.
+Il reprend les spécifications du modèle A/B avec un processeur cadencé à au lieu de , il est par contre plus petit, disposant d'une connectique minimale.
+Son prix de US est largement revu à la baisse par rapport aux autres Raspberry Pi.
+Modèle Zero W (Raspberry Pi Zero W)
+Le 28 février 2017, pour le cinquième anniversaire du Raspberry Pi, le Raspberry Pi Zero est maintenant doté de la nouvelle puce Cypress
+CYW43438 supportant le WiFi Single-band 802.11n et la version 4.2 du Bluetooth.
+Ces nouveautés lui permettent de se connecter à Internet et à d'autres appareils et donc d'en multiplier les usages.
+Le Raspberry Pi Zero, lui, n'avait pas de connexion Internet et cela pouvait poser problème pour certains projets.
+Ce nouveau modèle est commercialisé 10$ à sa sortie soit deux fois plus cher que le modèle précédent.
+Modèle Zero WH (Raspberry Pi Zero WH)
+Le 15 janvier 2018, Raspberry Pi sort un nouveau modèle Zero, le Raspberry pi Zero WH.
+la seule différence avec le précédent modèle est la présence PINs soudés reliées aux GPIO sur la Raspberry Pi.
+Ce nouveau modèle est commercialisé 15$.
+Tableau comparatif
+RaspberryPiZero.jpg|Raspberry Pi Zero
+Raspberry Pi Vector Illustration.svg|Schéma du modèle B
+Raspberry
+Pi B+ illustration.svg|Schéma du modèle B+
+Identification logicielle des différents modèles
+La commande suivante permet de retourner les informations concernant le processeur de la Raspberry Pi :
+cat cpuinfo
+Exemple :
+Le Raspberry Pi a la capacité de pouvoir accueillir une carte électronique qui se fixe sur les port GPIO de l'appareil.
+Ces cartes peuvent rajouter des fonctionnalités , mais ont besoin des connaissances de l'utilisateur dans le domaine du codage.
+Elles sont surnommés HAT signifiant chapeau en Anglais.
+Équipements, périphériques et accessoires
+Minimum requis
+Les Raspberry
+Pi requièrent au minimum pour fonctionner :
+Un support de stockage mémoire compatible contenant un système d'exploitation adapté (voir section Système d'exploitation).
+La majorité des cartes mémoires du marché sont reconnues par l'appareil, une carte mémoire de classe 6 minimum est néanmoins recommandée.
+Une source d'alimentation électrique adaptée.
+Soit via un système de piles ou de batteries, soit via un transformateur électrique délivrant la bonne tension et l'intensité minimum préconisées.
+Le Raspberry Pi est compatible avec de nombreuses alimentations, micro-USB étant par exemple une norme pour les téléphones mobiles récents en Europe.
+Le trio, écran, clavier et souris n'est pas indispensable pour faire fonctionner le Raspberry Pi.
+En effet, sur certains systèmes d'exploitations (Raspbian par exemple) le protocole SSH peut être activé et configuré, avant même le premier démarrage.
+Ainsi, le Raspberry Pi peut être contrôlé à distance par le réseau dès le premier démarrage.
+Le SSH n'est plus activé par défaut pour éviter d'éventuels piratages.
+Pour le confort d'utilisation
+Il est possible de mettre sur Raspberry :
+Un écran disposant d'entrée HDMI ou Composite (les connexions DVI et DisplayPort sont compatibles avec la sortie HDMI via un adaptateur, alors que la connexion VGA n'est pas supportée nativement et doit passer par un convertisseur dynamique).
+Un ensemble clavier et dispositif de pointage (souris, trackball, trackpad, trackpoint)
+USB ou bluetooth (attention en bluetooth, le dispositif ne sera pas reconnu avant d'avoir été convenablement configuré).
+Sur les ports USB
+Il est possible de connecter le Raspberry Pi avec :
+* Pour le modèle A, une carte réseau Ethernet ou Wi-Fi, pour établir une connexion en réseau, notamment avec Internet).
+Aspects logiciels
+Système d'exploitation
+Les systèmes d'exploitation compatibles Raspberry Pi et ARM incluent :
+* Diverses distributions Linux
+- La plateforme par défaut du Raspberry Pi ;
+** Debian
+stretch » est recommandé par la fondation Raspberry Pi avec sa version dédiée Raspbian.
+L'image est disponible sur le site officiel de la fondation ;
+*** Kali Linux, un système destiné au test d'intrusion (évolution de BackTrack)
+*** https:/ downloads/community
+editions
+SolydX RPI, une dérivée debian légère avec Xfce
+** Fedora
+Raspberry Pi Fedora remix ».
+L'image est disponible sur le site officiel de la fondation ;
+** Arch Linux est fonctionnel avec sa version ARM pour Raspberry Pi.
+L'image est disponible sur le site officiel de la fondation ;
+** Slackware
+est également utilisable classiquement ;
+** Suse est fonctionnel avec sa version ARM pour Raspberry Pi.
+L'image est disponible sur le site officiel consacré à cette carte.
+* Firefox OS (anciennement
+Boot to Gecko), le système d'exploitation mobile développé par Mozilla a été annoncé comme fonctionnel par l'association ;
+* NetBSD
+aucun support de OpenBSD pour le Pi n'est à l'ordre du jour) ;
+* Windows 10, Microsoft a annoncé que la version de leur nouveau système d'exploitation est compatible.
+** : basé sur une distribution Linux
+de taille réduite, JeOS (
+Just Enough
+Operating System)
+construit de zéro et sur le média center Kodi.
+** OSMC (
+anciennement appelé Rasbmc) : basé sur Debian (linux) et sur le média center Kodi
+** Xbian : basé sur une version minimale de Debian (linux) et sur le média center Kodi.
+* Distributions pour le retrogaming via de l'émulation :
+** Piplay (
+anciennement appelé Pimame) : émulateur de jeux arcade, adapté de MAME
+Logiciels
+Toutes les applications compatibles avec le système d'exploitation et le processeur ARM, ou utilisant un environnement d'exécution virtuel (Java, émulateurs…) sont susceptibles de fonctionner : Iceweasel, KOffice, Python.
+Les principales contraintes portent sur les performances du processeur et la mémoire vive disponible ().
+Ce dernier point a toutefois été corrigé avec l'arrivée de versions embarquant de mémoire vive, puis d'une version embarquant de mémoire vive.
+La version 4 (juillet 2019) embarque jusqu'à 4Go de mémoire vive.
+Le logiciel de surveillance réseau Overlook Fing a été porté sur la plate-forme Raspberry Pi qui permet d'installer des sentinelles pour la surveillance à faible coût des réseaux distants.
+Le logiciel open source Aseba, pour programmer des robots facilement et efficacement, est disponible sur Raspberry Pi.
+En utilisant Raspberry Pi avec Aseba et le Thymio II, un véritable laboratoire d'enseignement de la robotique peut être créé avec un coût très bas.
+Mojang
+et 4J Studios ont développé une version de Minecraft pour cette plate-forme : Minecraft Pi Edition.
+Pilotes
+Le 28 février 2014, la société Broadcom a annoncé la publication des sources du pilote graphique du Raspberry Pi.
+En février 2016, un pilote graphique libre et supportant OpenGL sort pour raspbian, et permet deux fois plus de performances par rapport au rendu logiciel.
+Cependant, il n'est disponible que sur le raspberry pi 2.
+Le code source des pilotes Broadcom est disponible partiellement (sans la source du bloc HDMI, du bloc de gestion du processeur ARM (un coprocesseur, en réalité) et de ThreadX) et sans le compilateur C (alors que le VPU utilise une architecture unique) ce qui expliquerait pourquoi Windows 10 IoT
+Core ne dispose pas de l'accélération graphique matériel sur cette plateforme.
+Communauté
+Fondation Raspberry Pi
+La fondation Raspberry Pi est une organisation caritative fondée en 2009 par David Braben.
+Distribution
+Le Raspberry Pi a été disponible en pré-commande dès le jour du lancement chez RS Components et Farnell qui restent distributeurs et grossistes exclusifs en 2014.
+Au début de cette même année, le Raspberry Pi est disponible sur une grande variété de plates-formes marchandes.
+Les prix varient selon le modèle, les accessoires inclus, etc.
+Domotique
+Une partie du monde de la domotique (automatismes de logements) est représentée par une communauté de passionnés de ce type de technologie (geeks), qui à défaut de solutions du commerce, conçoivent et mettent en œuvre individuellement à prix coûtant, leur propre solution domotique amateur, à base en général de ce nano-ordinateur Raspberry Pi, ou bien d'Arduino, microcontrôleur, automate programmable industriel..., avec des compétences professionnelles ou autodidactes personnelles en électricité, automatisme, robotique, électronique, informatique / informatique industrielle ...
+Domotique
+Habilis
+002.JPG
+Domotique
+Habilis
+001.JPG|
+Domotique
+Habilis
+003.JPG|
+Projets notables autour du Raspberry Pi
+* Pi
+hole : un bloqueur de publicité au niveau du réseau
+* PirateBox:
+permet aux utilisateurs qui y sont connectés d'échanger des fichiers anonymement et de manière locale

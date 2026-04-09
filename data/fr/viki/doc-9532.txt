@@ -1,0 +1,71 @@
+Racine cubique
+Prenons n'importe quel nombre réel et appelons-le N{\displaystyle N}.
+Il existe alors un unique nombre réel (notons-le R{\displaystyle R}) qui est tel
+que R×R×R=N{\displaystyle R\times R\times
+R=N}.
+On appelle ce nombre R{\displaystyle R} une racine cubique de N{\displaystyle N}.
+N{\displaystyle N} est donc égal à sa racine cubique réelle multipliée deux fois par elle-même.
+Par exemple, la racine cubique de 27 est égale à 3, car 3 × 3 × 3 = 27 ; et la racine cubique de -8 est -2 car (-2) × (-2) × (-2) = -8.
+Plutôt que de donner un nom (« R{\displaystyle R} ») à la racine cubique, on a une notation spéciale pour dire « la racine cubique de N{\displaystyle N} » : c'est N3{\displaystyle {\sqrt[{3}]{N}}}.
+Le radical
+Le signe {\displaystyle {\sqrt {~}}} s'appelle « radical » et se prononce « racine de ».
+C'est le même que celui de la racine carrée, avec un « 3 » au-dessus pour ne pas les confondre.
+3{\displaystyle {\sqrt[{3}]{~}}}
+se prononce donc « racine cubique de ».
+Extraire la racine cubique d'un nombre » signifie déterminer la racine cubique (réelle) de ce nombre.
+On a empilé 64 cubes de 1 cm de côté, pour former un gros cube.
+Quelle est la longueur d'un côté du gros cube ?
+Le problème se ramène à la détermination du nombre de cubes se trouvant sur un côté du gros cube.
+Ce nombre inconnu est tel que le produit de celui-ci par lui-même deux fois, donne 64 et il est donc égal à la racine cubique de 64 qui est égale à 4.
+On en déduit que la longueur d'un côté du gros cube est de 4 cm.
+Tu demandes à quelqu'un de penser à un nombre et d'élever au cube ce nombre.
+Tu demandes à la personne de donner le résultat et elle te répond 216.
+Mais dans ce cas il n'est pas simple de trouver le nombre de départ c'est-à-dire la racine cubique de 216.
+En fait celle-ci est égale à 6, mais il y a besoin d'une méthode pour déterminer la racine cubique d'un nombre.
+On peut facilement dresser une table des cubes de tous les nombres entiers de 0 à 25 par exemple.
+Pour déterminer la racine cubique d'un nombre, il suffit alors de le chercher dans la table et de lire la colonne correspondante.
+Par exemple
+pour déterminer la racine cubique de 4913, on cherche dans la deuxième ligne du tableau ce nombre, la racine cubique correspond au nombre placé immédiatement au-dessus, et est égale à 17.
+Lorsque le nombre est négatif, on détermine la racine cubique du nombre sans le signe (voir valeur absolue) et on ajoute un signe moins devant.
+Par exemple, pour -1000, la racine cubique de 1000 est 10, donc la racine cubique de -1000 est -10.
+Cependant, lorsque le nombre sans son signe ne figure pas dans la deuxième ligne de la table, ce qui est le cas de 22, on ne peut donner sa racine cubique qui existe pourtant, bien que celle-ci ne soit pas un entier.
+Pour de tels nombres, on recherche une valeur approchée de leur racine cubique.
+À partir d'une table suffisamment grande, il est possible d'effectuer une approximation linéaire pour approcher la racine cubique.
+Déterminons une valeur approchée de la racine cubique de 3000.
+Dans la table, on voit que les cubes les plus proches sont 2744 et 3375.
+On sait alors que la racine cubique de 3000 est comprise entre 14 et 15.
+pour passer de 2744 à 3000, on ajoute 3000-2744=256 ;
+pour passer de 2744 à 3375, on ajoute 3375-2744=631.
+Concernant les racines cubiques, on suppose qu'elles passent approximativement de 14 à la racine cubique inconnue et de 14 à 15 dans le même rapport de proportion que les nombres 256 631 proche de 14,4.
+Ce n'est pas une méthode vraiment acceptable puisque 14,43=2985,984{\displaystyle 14,4^{3}=2985,984}.
+La table pour des racines cubiques des premiers entiers est la suivante (valeurs arrondies au dix-millième).
+La méthode de Héron, qui sert à calculer les racines carrées, a été généralisée pour calculer les puissances n-ièmes et peut donc être utilisée pour calculer les racines cubiques.
+Elle consiste à améliorer de plus en plus une première valeur approchée de la racine cubique du nombre donné a{\displaystyle a}.
+Décrivons les étapes de cette méthode :
+considérer une première valeur approchée x{\displaystyle x} de la racine cubique du nombre a{\displaystyle a},
+répéter cette dernière étape jusqu'à la précision voulue.
+Par exemple, déterminons une valeur, assez proche de la racine cubique de a=15{\displaystyle
+a=15}.
+Prenons
+x=2{\displaystyle x=2}.
+On a 23=8{\displaystyle 2^{3}=8} qui est « assez proche » de 15.
+Et calculons, à partir de 2, les valeurs approchées successives obtenues par la méthode.
+2,583333333
+2,471441785
+2,466223133
+2,466212074
+2,466212075
+2,466212074
+2,466212075
+2,466212074
+2,466212075
+2,466212074
+On vérifie que (2,466212074)3= 14,99999999, ce qui correspond donc à une très bonne valeur approchée de la racine cubique de 15.
+De même que la méthode d'extraction manuelle de la racine carrée d'un nombre, il existe une méthode d'extraction manuelle de la racine cubique.1
+Cette méthode consiste à placer le nombre dont on veut extraire la racine cubique à gauche d'une potence, à le partager en tranches de trois chiffres à partir du chiffre des unités et à effectuer un certain nombre d'opérations sur chacune des tranches en partant de celle de gauche.
+Cette méthode est assez difficile à exposer et n'a pas beaucoup d'intérêt à l'heure actuelle, étant donné que les calculatrices et les ordinateurs sont depuis longtemps accessibles au grand public.
+Le cube d'une racine cubique d'un nombre est égal au nombre lui-même.
+La racine cubique du cube d'un nombre est égale au nombre lui-même.
+La racine cubique d'un nombre est du même signe que le nombre.
+La racine cubique d'un produit est égale au produit des racines cubiques.
+La fonction qui à un nombre fait correspondre la racine cubique du nombre est strictement croissante.

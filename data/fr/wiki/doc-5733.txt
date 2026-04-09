@@ -1,0 +1,67 @@
+Application linéaire|Théorème d'algèbre linéaire|Rang
+En mathématiques, et plus précisément en algèbre linéaire, le théorème du rang lie le rang d'une application linéaire et la dimension de son noyau.
+C'est un corollaire d'un théorème d'isomorphisme.
+Il peut être interprété par la notion d'indice d'application linéaire.
+En dimension finie, il permet notamment de caractériser l'inversibilité d'une application linéaire ou d'une matrice par son rang.
+Le théorème du rang
+Ce théorème résulte immédiatement du fait que pour tout sous-espace vectoriel V de E, on ait, consiste à vérifier que pour toute base (u) du noyau et toute base (f (u)) de l'image - indexées par des ensembles S et T disjoints -, (u) est une base de E :
+* cette famille est génératrice : pour tout vecteur x, en notant xt les coordonnées de f (x) dans la base de l'image, et xs celles de x
+- ∑xu dans la base du noyau, on obtient x = ∑xu ;
+* elle est libre : si une combinaison linéaire ∑xu est nulle alors, en prenant l'image par f, 0 + ∑ xf (u)
+, donc par indépendance des f (u) les x sont nuls, si bien que l'hypothèse de départ se simplifie en ∑
+0, dont on déduit, par indépendance des us, que les xs sont nuls aussi.
+Application à la caractérisation des isomorphismes
+Lorsque les espaces vectoriels E et F sont de dimension finie et ont même dimension n, le théorème du rang permet d'établir l'équivalence entre les propriétés suivantes :
+# l'application f est un isomorphisme de E sur F ;
+l'application f est surjective ;
+# l'application f est injective ;
+# le rang de f
+est égal à n.
+Cas particulier des endomorphismes
+Soit une application linéaire d'un espace vectoriel E de dimension finie dans lui-même.
+On a comme précédemment la relation :
+\mathrm
+f+\mathrm \ker
+\mathrm (f)+\mathrm \ker f
+\dim
+E\,,
+d'où l'on déduit que et sont supplémentaires si et seulement si leur intersection est réduite au vecteur nul.
+Cas des matrices
+Le théorème du rang peut s'écrire pour les matrices.
+Si A est une matrice (m, n) sur un corps K, alors
+:A+ (\ker U)=n
+où U est l'application linéaire de K dans K canoniquement associée à la matrice A.
+Certains définissent le noyau d'une matrice de la manière suivante :
+\ker A :=\,
+qui est un sous-espace vectoriel de \mathcal_ (K) de même dimension
+que .
+Le théorème du rang s'écrit alors
+\,A+ (\ker A)=n.
+Autres formulations et généralisations
+Généralisations
+Ce théorème est une forme particulière du premier théorème d'isomorphisme de l'algèbre dans le cas des espaces vectoriels.
+Dans un langage plus moderne, le théorème peut être énoncé de la manière suivante :
+0 \rightarrow D \rightarrow E \rightarrow F \rightarrow
+est une suite exacte courte d'espaces vectoriels, alors
+D) + (F)
+= (E).
+Ici, F joue le rôle de et D celui de .
+Cette formulation peut être généralisée à une suite exacte de longueur quelconque (éventuellement infinie) :
+\ldots\to E_\to E_n\to E_\to\ldots
+est une suite exacte d'espaces vectoriels, alors
+\sum_\dim (
+E_n)=\sum_\dim (E_n),
+ce qui, lorsque les seuls non nuls sont ceux tels que et sont de dimensions finies, se réécrit :
+\sum_^q (
+-1)^n\dim (E_n)=0.
+Interprétation par la notion d'indice
+Le théorème du rang pour des espaces vectoriels de dimension finie peut aussi être formulé en termes d'indice d'application linéaire.
+L'indice d'une application linéaire de E dans F, où E et F sont des espaces vectoriels de dimension finie, est défini par
+f= (\ker f)- (f) où coker désigne le conoyau de .
+Intuitivement, est le nombre de solutions indépendantes x de l'équation (x)
+0, et est le nombre de restrictions indépendantes sur y ∈ F pour rendre l'équation (x)
+y résoluble.
+Le théorème du rang pour des espaces vectoriels de dimension finie est équivalent à la proposition
+f= (E)- (F)
+Cela signifie que l'indice est indépendant de la fonction choisie dans L (E, F).
+Ce résultat est généralisé par le théorème de l'indice d'Atiyah-Singer, qui affirme que l'indice de certains opérateurs différentiels peut être obtenu à partir de la géométrie des espaces impliqués.

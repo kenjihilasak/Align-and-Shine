@@ -1,0 +1,105 @@
+Combinatoire|Fonction
+arithmétique|Fonction
+remarquable|Fonction gamma ou associée
+En mathématiques, la factorielle d'un entier naturel n est le produit des nombres entiers strictement positifs inférieurs ou égaux à n.
+Cette opération est notée avec un point d'exclamation, n!, ce qui se lit soit « factorielle de n », soit « factorielle n » soit « n factorielle ».
+Cette notation a été introduite en 1808 par Christian Kramp.
+Par exemple, la factorielle 10 exprime le nombre de combinaisons possibles de placement des 10 convives autour d'une table (on dit la permutation des convives).
+La factorielle joue un rôle important en algèbre combinatoire parce qu'il y a n!
+façons différentes de permuter n objets.
+Elle apparaît dans de nombreuses formules en mathématiques, comme la formule du binôme et la formule de Taylor.
+Définition
+Soit n un entier naturel.
+Sa factorielle est formellement définie par :
+\prod_ i
+1\times 2\times 3\times \ldots \times (n-1)
+\times
+Le tableau de droite donne les premières factorielles ;
+par exemple, on a
+* 10!
+1 × 2 × 3 × 4 ×
+5 × 6 ×
+Valeur de 0!
+Cette définition donne aussi
+puisque par convention, le produit vide est égal à l'élément neutre de la multiplication.
+Cette convention est pratique ici car elle permet à des formules de dénombrement obtenues en analyse combinatoire d'être encore valides pour des tailles nulles.
+En particulier, le nombre d'arrangements ou de permutations de l'ensemble vide est égal à 1.
+Il existe aussi une définition par récurrence (équivalente) de la factorielle :
+# 0!
+= 1.
+# Pour tout entier n > 0, n!
+= (n
+Enfin, la fonction Gamma, qui prolonge analytiquement la factorielle, donne un résultat cohérent :
+\Gamma (n) = (n-1)!\qquad n \in \mathbb_0,
+\Gamma (1)
+Propriétés
+* Les inverses des factorielles sont les coefficients du développement en série entière de la fonction exponentielle :le cas = 1 donnant la valeur de la constante :
+Les n
+- 1 entiers consécutifs n!
++ 2, n!
++ 3, … , n!
++ n sont composés.
+Donc il y a dans la suite des entiers des « trous » aussi grands que l'on veut où il n'y a aucun nombre premier.
+Généralisation
+La fonction factorielle admet pour prolongement, à l'ensemble des nombres complexes autres que les entiers strictement négatifs, l'application où Γ désigne la fonction gamma d'Euler.
+En effet, pour tout entier naturel n, on a :
+\int_0^t^n^t
+\Gamma (n+1)
+Par ailleurs, la fonction z ↦ Γ (z + 1) vérifie la même relation de récurrence que la factorielle :
+\forall z\in\Complex\setminus (-\N),\quad\Gamma (z+1)=z\Gamma (z).
+Cette vision de la fonction gamma (translatée) comme prolongement privilégié de la factorielle est justifiée par les raisons suivantes :
+* les deux fonctions partagent une même définition récurrente ;
+* la fonction gamma est généralement utilisée dans un contexte similaire (même si plus général) à la factorielle ;
+* la fonction gamma est la seule fonction qui satisfasse cette définition de récurrence sur les nombres complexes, qui est holomorphe et dont le logarithme de la restriction aux réels positifs est convexe (théorème de Bohr-Mollerup).
+Il existe cependant d'autres prolongements ayant de « bonnes propriétés », comme la « », qui est entière.
+Approximation
+La formule de Stirling donne un équivalent de n!
+quand n est grand :
+: \lim_ \frac=1
+d'où
+\sim \sqrt\, ^n.
+où le nombre désigne la base de l'exponentielle.
+On en déduit une approximation du logarithme de n! :
+\ln\left (n!\right)\simeq n\ln\left (n\right)
+- n.
+Exemples d'applications
+En combinatoire, il existe n&thinsp;
+façons différentes d'arranger n objets distincts (c’est-à-dire n!
+permutations).
+Et le nombre de façons de choisir k éléments parmi un ensemble de n est donné par le coefficient binomial :
+= .
+Les factorielles apparaissent également en analyse.
+Par exemple, le théorème de Taylor, qui exprime la valeur en x d'une fonction ƒ sous forme de série entière, fait intervenir la factorielle n!
+pour le terme correspondant à la n dérivée de ƒ en x.
+Le volume d'une hypersphère en dimension paire peut être exprimé par :
+: \mathrm_n = .
+Les factorielles sont utilisées de façon intensive en théorie des probabilités.
+Les factorielles sont souvent utilisées comme exemple
+- avec la suite de Fibonacci
+- pour l'apprentissage de la récursivité en informatique du fait de leur définition récurrente simple.
+Théorie des nombres
+Les factorielles ont de nombreuses applications en théorie des nombres.
+Par exemple, le théorème de Wilson montre qu'un entier n > 1 est premier si et seulement si (n - 1)!
+≡ -1 (mod n).
+En particulier, si n est premier alors il ne divise pas (n
+)!, ce qui peut d'ailleurs se déduire directement du lemme d'Euclide ;
+la réciproque est presque vraie : si n est un nombre composé différent de 4, alors (n - 1)!
+≡ 0 (mod n).
+Une preuve de ce dernier énoncé utilise qu'un produit P de k entiers consécutifs est toujours divisible par k (puisque l'un des k facteurs l'est).
+En fait, P est même divisible par k! : on peut le démontrer en exprimant P/k!
+comme un coefficient binomial, ou bien en comparant, pour tout nombre premier p, la multiplicité de p dans les décompositions en facteurs premiers de P et de k!, grâce à la formule de Legendre.
+La seule factorielle qui soit également un nombre premier est 2, mais il existe des nombres premiers de la forme n!
+± 1, appelés nombres premiers factoriels.
+Variantes
+De nombreux auteurs ont défini des fonctions analogues, croissant plus rapidement encore, ainsi que des produits restreints à certains entiers seulement.
+On rencontre ainsi dans la littérature les fonctions primorielles, multifactorielles, superfactorielles, hyperfactorielles, etc.
+Mais il ne semble pas que, contrairement à la factorielle, omniprésente dans la plupart des branches des mathématiques, ces autres fonctions aient eu beaucoup d'applications autres que récréatives, sauf les primorielles ;
+quant à leur utilisation pour désigner de très grands nombres, les notations de Knuth et celles de Conway s'avèrent à la fois plus maniables et beaucoup plus efficaces.
+Algorithme
+Le calcul de la factorielle peut se traduire par l'algorithme récursif suivant, écrit en pseudo-code :
+Fonction factorielle (n: entier):
+entier
+Début
+Retourner n Sinon
+Fin
+Fin

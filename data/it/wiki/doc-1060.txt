@@ -1,0 +1,99 @@
+La meteorologia è il ramo delle scienze dell'atmosfera che studia i fenomeni fisici che avvengono nell'atmosfera terrestre (troposfera) e responsabili del tempo atmosferico.
+Lo studio dell'atmosfera è lo studio dei suoi parametri fondamentali e delle leggi fisiche o processi che intercorrono tra essi:
+temperatura dell'aria, umidità atmosferica, pressione atmosferica, radiazione solare, vento.
+È uno studio sia sperimentale, che fa largo uso di osservazioni e misurazioni dirette e indirette a mezzo di stazioni meteorologiche, sonde, razzi, palloni e satelliti meteorologici equipaggiati della necessaria strumentazione, sia teorico, facente cioè uso dell'astrazione propria del linguaggio della fisica matematica per la quantificazione delle leggi fisiche appartenenti alla fisica dell'atmosfera.
+I due approcci confluiscono nel risultato finale ovvero l'ideazione, l'implementazione e l'inizializzazione di modelli matematici in grado di ottenere una previsione o prognosi a breve scadenza dei vari fenomeni atmosferici (nubi, perturbazioni, vento, precipitazioni tramite i cosiddetti modelli meteorologici) su un dato territorio (previsione del tempo).
+Storia
+Il termine deriva dal greco μετεωρολογία, meteōrología, da μετέωρος metéōros, "elevato" e λέγω légō, "parlo", quindi "discorso razionale intorno agli oggetti alti".
+La parola μετέωρος ha un'etimologia incerta, forse da μετά metá "con, dopo" e αἴρω áirō "alzo".
+Gli oggetti che cadono dal cielo più frequentemente sul nostro pianeta sono le idrometeore, vale a dire particelle costituite da acqua nella sua forma liquida (pioggia) o solida (neve, cristalli di ghiaccio, grandine o neve tonda).
+Dopo le prime intuizioni dei greci si è dovuto attendere fino alla seconda metà del XX secolo quando, con l'arrivo dei calcolatori elettronici, l'uomo ha avuto la possibilità di eseguire in un tempo ragionevole le tante operazioni di calcolo che caratterizzano l'elaborazione a mezzo di un modello meteorologico.
+Descrizione
+Tempo meteorologico e clima
+Nell'ambito della Meteorologia si studiano sia fenomeni di breve durata, sia l'andamento medio del meteo nell'ambito di una regione in un certo lasso temporale.
+Questa scienza ha infatti l'obiettivo di misurare dati istantanei e fornire previsioni su determinati eventi futuri, ma anche quello di registrare l'andamento climatico osservando i parametri atmosferici sul lungo periodo.
+Tuttavia occorre sottolineare che mentre il tempo atmosferico è definito come l'insieme delle condizioni atmosferiche in un certo istante temporale su un dato territorio, il Clima invece è l'insieme delle condizioni meteorologiche medie di un territorio su di un arco temporale di almeno 30 anni, come stabilito dall'Organizzazione Meteorologica Mondiale (WMO), per cui talune analisi che si riferiscono in primis all'ambito meteorologico non possono essere estese all'ambito climatologico essendo questo una media statistica sul lungo periodo.
+La disciplina che si occupa invece dello studio del clima è la climatologia.
+Quindi la Meteorologia ha come finalità ultime la comprensione dei fenomeni atmosferici a breve scadenza con relativa previsione, la climatologia studia invece i processi dinamici che modificano le condizioni atmosferiche medie a lunga scadenza come ad esempio i cambiamenti climatici.
+Principali fenomeni meteorologici
+L'atmosfera terrestre è un gigantesco sistema fluidodinamico, accoppiato con il sistema oceanico, la biosfera e la criosfera, e mosso da una sorgente di energia termica sotto forma di radiazioni che è il Sole.
+La natura dinamica e intrinsecamente turbolenta o caotica dell'atmosfera si esplica attraverso la circolazione generale dell'atmosfera e una serie innumerevole di fenomeni atmosferici cui quotidianamente osserviamo.
+Gran parte di questi fenomeni possono essere inclusi in tre grandi categorie di processi:
+* i processi di redistribuzione del calore, sia in verticale attraverso il trasferimento radiativo e convettivo, sia in orizzontale (a piccola, media e larga scala) attraverso i venti e la circolazione generale dell'atmosfera.
+* i processi atmosferici coinvolti nel ciclo dell'acqua, innescati a loro volta dai processi radiativi, quali evaporazione, condensazione, nubi, precipitazioni e i fenomeni perturbativi ad essi associati (a piccola, media e larga scala) quali fronti meteorologici, cicloni extratropicali, cicloni tropicali, temporali, rovesci, tornado ecc.
+* i processi legati all'elettricità atmosferica come ad esempio i fulmini.
+Le prime due categorie di processi sono intimamente connesse giacché evaporazione, condensazione e formazioni cicloniche contribuiscono anch'esse al trasporto dell'energia nel sistema sia in verticale che in orizzontale e allo stesso tempo da essi innescati.
+I vari fenomeni meteorologici sono classificati all'interno della cosiddetta scala dei moti atmosferici a seconda delle dimensioni del territorio, del tipo di analisi richiesta e dell'intervallo temporale di interesse in cui essi insistono.
+Strumentazioni
+L'uomo ha anche costruito nuovi strumenti per osservare le varie interazioni:
+* radiometri e scatterometri localizzati su satelliti meteorologici misurano l'energia elettromagnetica reirradiata dal pianeta verso lo spazio esterno, fornendo quindi un'immagine dello stato dell'atmosfera e della presenza di nuvole
+* palloni sonda attraversano verticalmente l'atmosfera per ottenere profili verticali di pressione, temperatura, umidità e vento (sono per ora la principale fonte di dati per i modelli meteorologici)
+radar meteorologici.
+Irradiano energia elettromagnetica e ricavano informazioni sull'atmosfera analizzando le caratteristiche del segnale da essa riflesso.
+Sono utilizzati per individuare eventi di precipitazione, stimarne l'entità e prevederne l'evoluzione a breve termine (nowcasting), e in alcuni casi per sondare la struttura interna delle nubi.
+Possono essere installati a terra o su satellite.
+Due particolari classi di radar utili in meteorologia sono le seguenti:
+# radar Doppler:
+sono in grado di misurare la componente radiale della velocità del vento
+# radar polarimetrici:
+sfruttano l'informazione sulla polarizzazione del segnale riflesso per stimare in maniera particolarmente accurata l'intensità della precipitazione.
+Modelli meteorologici
+Un modello meteorologico è costituito da un insieme (set) di equazioni fisico-matematiche, anche dette equazioni primitive, che descrivono differenti proprietà e processi dei vari costituenti e aspetti dell'atmosfera:
+* l'aria è un fluido e la sua dinamica è descritta dalle equazioni di Navier-Stokes (meteorologia dinamica)
+* il vapore acqueo presente in atmosfera si condensa in nubi che possono dar luogo a precipitazioni o dissolversi senza nessun fenomeno rilevante (Microfisica delle nubi)
+* nell'atmosfera ci sono tante particelle solide che svolgono ruoli fondamentali;
+si tratta di sale, granelli di polvere e inquinamento, chiamati aerosol atmosferico e che a loro volta svolgono l'azione di nuclei di condensazione
+* lo strato limite planetario (Planet Boundary Layer) è particolarmente turbolento e necessita particolari attenzioni e parametrizzazioni
+* il motore di tutto questo è il Sole che riscaldando la superficie terrestre le permette di irradiare all'aria la sua energia sotto forma di calore (trasferimento radiativo).
+I modelli sono utilizzati per ottenere una previsione dell'evoluzione dello stato dell'atmosfera nel futuro a partire dallo stato presente iniziale.
+Essi vengono cioè inizializzati a partire dai dati ricavati dalla strumentazione meteorologica, opportunamente filtrati (data assimilation) e, tramite risoluzione numerica (discretizzazione) su supercalcolatori delle equazioni che descrivono il moto dell'atmosfera, producono una risposta, sulla base della quale è possibile formulare una previsione atmosferica.
+Le previsioni sono però affette da errori, soprattutto nel lungo termine, poiché nei modelli vengono inevitabilmente operate alcune approssimazioni su alcuni processi (parametrizzazioni) e l'atmosfera stessa è propriamente un sistema caotico che amplifica gli inevitabili errori di arrotondamento/troncamento sui valori delle condizioni iniziali.
+La dinamica dell'atmosfera e dei suoi principali parametri (pressione, temperatura, umidità, densità, venti) è descritta da un set di 5 equazioni fondamentali (differenziali alle derivate parziali non-lineari);
+i molteplici e differenti modelli meteorologici in uso nascono da diversi metodi di risoluzione numerica del set di equazioni fondamentali e/o da diverse parametrizzazioni di alcuni processi fisici.
+Ambiti di studio
+All'interno della disciplina vi sono vari ambiti di studio:
+* la meteorologia sinottica che studia in maniera qualitativa e quantitativa l'evoluzione delle condizioni atmosferiche di vaste porzioni dell'atmosfera stessa (superiori ai 1000 km) tramite l'uso di carte meteo, nozioni empiriche, metodo delle analogie ecc.
+* la meteorologia dinamica che, partendo dalle equazioni di base della fluidodinamica, cerca di spiegare formazione e sviluppo dei fenomeni osservati (detta anche meteorologia fisica o teorica).
+* la modellistica meteorologica, si occupa di definire e affinare i modelli numerici di previsione meteorologica
+* la meteorologia satellitare, che si avvale delle analisi di telerilevamento atmosferico e quindi dei relativi dati trasmessi a terra dai satelliti meteorologici come ad esempio i satelliti Meteosat.
+* la radarmeteorologia che si avvale dei dati raccolti dai radar meteorologici dislocati sul territorio per affrontare la previsione meteo a brevissima scadenza (nowcasting).
+* la meteorologia aeronautica, che si occupa principalmente dei fenomeni rilevanti per la navigazione aerea;
+* la meteorologia ambientale che studia pollini e dinamica degli inquinanti;
+* l'agrometeorologia che studia le relazioni tra tempo atmosferico e agricoltura;
+Previsioni meteorologiche
+Le previsioni meteorologiche si ottengono solitamente dalla seguente procedura:
+# osservazione e misurazione delle variabili atmosferiche (es. velocità e direzione del vento, temperatura dell'aria, umidità, pressione);
+# trascrizione, studio ed elaborazione dei dati rilevati su carte sinottiche o assimilando i dati attraverso modelli matematici che girano su calcolatori numerici, dove in quest'ultimo caso, viene prodotta la situazione meteorologica di un determinato momento, chiamata analisi;
+# prognosi futura a partire dalle carte sinottiche oppure facendo evolvere la condizione iniziale tramite uso dei modelli matematici meteorologici (previsione).
+Osservazione e raccolta dei dati
+Le attuali previsioni meteorologiche nascono solo dopo l'osservazione e la raccolta di dati sulle condizioni atmosferiche attuali.
+Questi dati e osservazioni sono il risultato di misurazioni dei parametri atmosferici da parte di strumenti appositi come:
+* barometri, per la misurazione della pressione atmosferica;
+* termoigrometri, per la registrazione della temperatura e dell'umidità;
+* pluviometri, per la misurazione delle quantità di pioggia;
+* nivometri si avvicina a una più fredda.
+In questo caso l'aria calda, più leggera, sale sopra quella fredda, raffreddandosi e causando anche piogge leggere o nevicate al passaggio del fronte.
+** fronti freddi, quando una massa d'aria fredda (quindi meno umida ma più densa) si avvicina a una massa più calda e pertanto più leggera e più umida.
+In questo caso l'aria fredda si incunea sotto quella calda, facendola salire, causando temporali, tempeste, bufere.
+Questa fase di analisi consente di analizzare lo stato iniziale (attuale) dell'atmosfera (situazione) e fino all'avvento dei modelli matematici e dei supercalcolatori costituiva di fatto il primo passo verso il tracciamento delle carte meteorologiche e la successiva fase di previsione o prognosi futura attraverso le conoscenze empiriche accumulate dal meteorologo sulla dinamica dell'atmosfera.
+Con l'avvento di modelli matematici e supercalcolatori questa fase consiste principalmente nell'adattamento dei dati rilevati, spazialmente non omogenei, ai punti del grigliato atmosferico relativo al modello tramite tecniche di interpolazione ed estrapolazione che minimizzino in qualche modo gli inevitabili errori di approssimazione.
+Prognosi futura tramite modelli
+A partire dagli input dei dati iniziali, di cui sopra, i modelli meteorologici calcolano l'evoluzione dello stato futuro dell'atmosfera rispetto ai parametri o incognite del set di equazioni fondamentali.
+Tali modelli, non risolvibili analiticamente, vengono risolti numericamente al calcolatore e si parla dunque di modelli numerici di previsione meteorologica.
+A causa della natura intrinsecamente caotica dell'atmosfera il limite temporale di una previsione affidabile, ovvero non affetta da errori significativi, tramite modelli si aggira intorno ai 7-15 giorni.
+L'uso dei modelli fisico-matematici sempre più raffinati e affidabili ha aiutato di molto il lavoro del meteorologo, il cui compito rimane quello di interpretare correttamente e adattare la previsione (output) dei modelli, sulla scorta delle proprie conoscenze empiriche acquisite, alle situazioni particolari che si verificano su un dato territorio per il quale i modelli risultano ancora piuttosto approssimativi compiendo errori significativi (es. stima della nuvolosità, della precipitazione ecc.).
+Si distingue tra modelli a scala emisferica adatti per previsioni continentali e/o globali e modelli a scala locale o area limitata (LAM) per previsioni regionali, ottenuti a partire da procedure di downscaling a partire dai modelli globali.
+Spesso l'occhio del meteorologo riesce a leggere l'evoluzione futura della circolazione atmosferica a grandi linee, ovvero a scala sinottica, al di là del range operativo dei modelli stessi che attualmente raggiunge i 7-15 giorni, grazie a conoscenze legate, ad esempio, alle teleconnessioni atmosferiche o ancora una volta al metodo delle analogie.
+Esempi di modelli meteorologici sono il RAMs, il BOLAM, il DALAM, l'MM5 ecc.
+Negli ultimi anni si sono sviluppate e affinate nuove e più efficaci tecniche di previsione tramite modelli, dette previsioni di insieme o di ensemble, le quali consentono di ridurre l'incertezza intrinseca della previsione, dovuta alla sensibilità alle condizioni iniziali del modello, operando una media degli output (run) del modello stesso a partire da condizioni iniziali diverse comprese all'interno dei loro limiti di approssimazione e/o troncamento.
+Allo stesso modo è stato possibile ottenere delle previsioni ancora più accurate, dette Multimodel ensemble, riducendo l'incertezza intrinseca dei vari modelli (dovuta ai diversi metodi di risoluzione numerica e alle diverse parametrizzazioni dei processi) attraverso la media delle corse (run) dei vari modelli pesate con la probabilità di successo riscontrata dei modelli stessi.
+Tipi di previsioni
+Le previsioni meteo si dividono a seconda dell'area geografica e dell'intervallo temporale di prognosi.
+A seconda della dimensione dell'area considerata si dividono in ordine crescente in:
+A seconda dell'intervallo o orizzonte temporale di prognosi si distinguono previsioni:
+* a lungo termine (1 mese);
+si appoggiano su analisi teleconnettive offrendo scenari probabili di tendenza
+* stagionali (1-6 mesi), che si occupano di prevedere l'andamento generale dei fattori climatici piuttosto di fornire informazioni su singoli eventi
+Note
+Bibliografia
+* Antonio Navarra, Le previsioni del tempo, Il Saggiatore, 1996.

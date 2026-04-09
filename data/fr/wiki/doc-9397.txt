@@ -1,0 +1,89 @@
+Théorie électrique|James
+Prescott Joule
+Leffet Joule est la manifestation thermique de la résistance électrique qui se produit lors du passage d'un courant électrique dans tout matériau conducteur.
+L'effet porte le nom du physicien anglais James Prescott Joule qui l'a découvert en 1840.
+De manière générale, le courant électrique est assuré par le mouvement des charges électriques.
+Ces porteurs de charge en mouvement interagissent avec les atomes constitutifs du milieu dans lequel ils se déplacent ce qui constitue un frein, une résistance à leurs déplacements.
+Pour transférer une quantité déterminée de courant électrique par ce câble, il faut donc fournir une puissance supplémentaire à celle nécessaire à l'extrémité du conducteur, qui sera dissipée lors des interactions avec les atomes, sous forme d'énergie thermique (dissipation d'énergie électrique sous forme de chaleur).
+C’est cela qu’on appelle l'effet Joule.
+Une seule exception à cette règle :
+les supraconducteurs, qui nécessitent des conditions particulières pour conserver leur propriété.
+Nature
+L'effet Joule est un effet thermique qui se produit lors du passage du courant électrique dans un conducteur.
+Il se manifeste par une augmentation de l'énergie interne du conducteur et généralement de sa température.
+L'énergie dissipée sous forme de chaleur entre deux instants t1 et t2 par un dipôle de résistance R traversé par un courant d'intensité i s'écrit :
+: Q = R \int_^ i^2 dt \,
+avec :
+La puissance moyenne vaut donc :
+\frac
+\frac
+\int_^ i^2
+avec : P en watts (W)
+*En régime de courant périodique
+l'expression de la puissance peut se mettre sous la forme :
+: P = R I_^2 \, avec I_ \, , la valeur efficace de l'intensité du courant.
+*En régime de courant continu
+l'expression de la puissance devient :
+: P = R I^2 \,
+Si ce dipôle vérifie la loi d'Ohm, on peut écrire :
+: P = U \cdot I\,
+: P = \frac\,
+avec U \
+, la valeur efficace de la tension à ses bornes.
+À l'échelle locale, la puissance dissipée par effet Joule par unité de volume est donnée par
+: p=\rho\cdot j^2_
+où jeff est la valeur efficace de la densité de courant j (t) et ρ est la résistivité du matériau.
+L'emploi de ces formules n'est pas toujours simple, particulièrement lorsque la résistance dépend de la température du conducteur.
+La puissance dissipée par effet Joule modifie la température qui modifie la résistance qui modifie la puissance dissipée par effet Joule.
+L'effet Joule se manifeste dans tout conducteur électrique avec plus ou moins d'importance :
+* Dans certains cas, il s'agit d'un effet recherché pour produire de la chaleur (radiateur électrique, chauffe-eau, grille-pain) ou de la lumière (lampe à incandescence).
+En effet, l'élévation de la température du conducteur provoque un échange d'énergie avec l'extérieur sous forme de transfert thermique.
+Si cette température devient très importante, il cède également de l'énergie par rayonnement visible.
+* Dans les autres cas, l'effet Joule est responsable de pertes d'énergie, c'est-à-dire de la conversion indésirable, mais inévitable, d'une partie de l'énergie électrique en énergie thermique.
+C'est le cas par exemple des pertes en ligne lors du transport du courant électrique que l'on cherche à limiter en augmentant la tension pour diminuer l'intensité du courant.
+Forme locale de la loi de Joule
+La forme locale de la loi de Joule permet de déterminer la puissance dissipée par effet Joule localement et dans des cas particuliers tel qu'une répartition inhomogène de la densité de courant dans un conducteur (ce qui est le cas dans les conducteurs en haute fréquence, du fait de l'effet de peau).
+La forme locale de l'effet Joule permet d'établir l'expression de la puissance par unité de volume (p) qui s'écrit :
+p=\vec \cdot \vec
+ou, \vec est la densité de courant et \vec est le champ électrique.
+Illustration dans le cas du conducteur cylindrique
+On peut ainsi retrouver la forme bien connue de l'effet Joule ( P = R I^2 \, ) ainsi que l'expression classique de la résistance d'un conducteur cylindrique.
+Considérons un conducteur homogène, de longueur L (selon un axe z) et de rayon r, alimenté par un courant, I, de densité homogène \vec, portée par la direction longitudinale du conducteur: \vec=0;0;j_.
+La puissance sur le volume du conducteur (P), s'exprime:
+:P =\int_ \vec \cdot \vec\ \mathrmv \,
+puisque \vec=\sigma \vec , on peut substituer \vec dans l'expression de la puissance qui devient:
+:P =\int_ \frac \vec \cdot \vec \mathrmv \,
+ensuite, comme le vecteur densité de courant \vec n'a qu'une seule composante, qui est supposée homogène sur le conducteur la puissance devient:
+:P =\int_ \frac
+j_^ \mathrmv \,
+la densité de courant étant constante,
+on la sort de l'intégrale et il vient:
+:P =\frac \int_
+\mathrmv \,
+Finalement, en notant que le volume du fil conducteur est V=\pi r^L, le résultat de l'intégrale sur le volume donne:
+:P =\frac
+j_^ \pi r^
+ou encore en utilisant \rho=\frac:
+:P =\rho j_^ \pi r^
+En utilisant le fait
+que ( I
+j_ S \, ) ou S est la section du conducteur (càd ( S
+\pi r^2 \, ), la puissance devient:
+: P=\rho \frac I^
+expression dans laquelle on retrouve: ( P
+R I^2 \, ) en posant R
+\rho \frac
+Applications
+Chauffage électrique
+L'utilisation la plus commune de l'effet Joule est le chauffage électrique : fer à repasser, radiateur électrique, four électrique, cuisinière électrique, chauffe-eau électrique, bouilloire électrique, sèche-cheveux, grille-pain, couverture chauffante.
+Ces appareils utilisant une résistance électrique ont un rendement thermodynamique théorique de 100 % : ils peuvent convertir l'intégralité de l'énergie électrique en chaleur par convection et par rayonnement.
+Ils sont cependant beaucoup moins efficaces que les pompes à chaleur, qui ont un bilan énergétique bien supérieur (environ trois fois plus).
+Éclairage par incandescence
+Les Lampe à incandescence recourent également à l'effet Joule : le filament en tungstène, placé dans une enceinte contenant un gaz noble, est porté à une température élevée (plus de ).
+À cette température la matière émet des rayonnements dans le visible (Loi de Planck) mais aussi dans l'invisible (rayonnement infrarouge) ce qui fait chauffer l'enveloppe de verre et l’environnement.
+Ceci explique que l'efficacité lumineuse des lampes à incandescence est assez faible ( moins que l'éclairage fluorescent, moins que les lampes à décharge).
+Protection des installations électriques
+Les fusibles sont des dispositifs utilisant l'effet Joule pour faire fondre un conducteur calibré, afin d'isoler un circuit électrique en cas de surintensité.
+Les disjoncteurs thermiques ou magnétothermiques utilisent le même effet, mais sans destruction physique, ils sont réarmables.
+Perte en ligne
+Les câbles électriques offre de la résistance à la circulation des électrons ce qui induit une perte sous forme de calories à cause de l’effet Joule.

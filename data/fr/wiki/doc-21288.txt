@@ -1,0 +1,229 @@
+Distribution
+Linux|Progiciel
+Une distribution Linux, appelée aussi distribution GNU/Linux pour faire référence aux logiciels du projet GNU, est un ensemble cohérent de logiciels, la plupart étant des logiciels libres, assemblés autour du noyau Linux.
+Le terme «
+distribution » est calqué sur l’anglais software distribution qui signifie « collection de logiciels » en français.
+On préférera ainsi en français le terme de « système GNU
+Linux
+» est controversée.
+Certains n’emploient que le terme «
+Linux » par métonymie, Richard Stallman fondateur du projet GNU milite à présent pour que l’on utilise « GNU+Linux », de peur que l’appellation «
+GNU
+/Linux » en anglais
+ne fasse penser que Linux est un logiciel du projet GNU.
+Cette guerre d’appellation se poursuit encore aujourd’hui.
+Il existe une très grande variété de systèmes GNU+Linux, ayant chacun des objectifs et une philosophie particulière.
+Les éléments différenciant principalement ces systèmes d’exploitation sont : la convivialité (facilité de mise en œuvre), l'intégration (taille du parc de logiciels validés distribués), la notoriété (communauté informative pour résoudre les problèmes), leur fréquence de mise à jour, leur gestion des paquets et le mainteneur de la distribution (généralement une entreprise ou une communauté).
+Leur point commun est leur noyau, Linux, et un certain nombre de commandes.
+Les parties GNU et Linux d’un système d’exploitation sont indépendantes, on trouve aussi bien des systèmes avec Linux et sans GNU
+- comme Android
+- ou des systèmes GNU
+sans Linux
+- comme GNU/Hurd.
+Définition
+Les distributions rassemblent les composants d'un système dans un ensemble cohérent et stable dont l'installation, l'utilisation et la maintenance sont facilitées.
+Elles comprennent donc le plus souvent un logiciel d'installation et des outils de configuration.
+Il existe plusieurs centaines de systèmes GNU+Linux, chacun ayant ses particularités.
+*Les distributions à usage spécifique automatisant et facilitant l'installation des composants nécessaires pour par exemple réaliser : pare-feu, routeur, grappe de calcul, édition multimédia…
+*Les distributions pouvant être installées sur un grand nombre de matériels spécifiques (grâce aux supports de nombreuses architectures).
+*Les distributions généralistes, dont les plus populaires sont : Debian, Gentoo, Mageia, Fedora, Slackware, OpenSUSE, ou encore Ubuntu permettant des usages variés.
+*Les distributions orientées exclusivement vers l'entreprise avec un contrat de support annuel (à base de souscription par machine) par exemple
+Red
+Hat
+Entreprise Linux, Ubuntu Long Term
+Support
+et SUSE
+Linux Enterprise.
+La maintenance d'une distribution peut être assurée par une entreprise (cas de Red Hat Enterprise Linux, SUSE Linux Enterprise, ...) ou par une communauté (cas de Debian, Mageia, Gentoo, Fedora, Ubuntu, Slackware, ...).
+Certaines communautés peuvent aussi avoir comme mainteneur principal une entreprise (cas de Fedora dont Red Hat est le premier sponsor, Ubuntu par Canonical ou encore OpenSUSE par Novell).
+Leurs orientations particulières permettent des choix selon les besoins et les préférences de l'utilisateur.
+Certaines sont plus orientées vers les utilisateurs débutants (Ubuntu, Linux Mint, etc.), car plus simples à mettre en œuvre.
+Debian, en revanche, reste prisée pour les serveurs ou plutôt considérée comme une méta-distribution, c'est-à-dire pour servir de base à une nouvelle distribution.
+Diverses distributions en dérivent, comme Ubuntu, Knoppix, MEPIS…
+L'installation de Debian est devenue plus facile depuis la version 3.1 (Sarge), néanmoins des compétences en shell et une culture des projets libres restent nécessaires pour obtenir le GNU/Linux de ses rêves ;
+en revanche la mise à jour et la maintenance du système sont très aisées grâce aux outils Debian.
+La distribution Gentoo, destinée à des utilisateurs plus connaisseurs, à la recherche de mises à jour fréquentes, a pour particularité d'être compilée depuis le code source sur le poste même de l'usager, en tenant compte des nombreux paramètres locaux.
+Ceci en fait le système d'exploitation le plus optimisé pour chaque configuration individuelle.
+Certaines distributions sont commerciales, comme celles de Red Hat ou de SUSE, alors que d'autres sont l'ouvrage d'une fondation à but non lucratif comme Debian, Mageia et Gentoo.
+Les logiciels du projet GNU sont libres
+- ils utilisent tous la licence GPLv3
+- Linux quant à lui est partiellement libre
+- sous licence|GPLv2 - car il contient aussi une quantité importante de code qui n’est pas libre
+- ce sont les BLOBs.
+Une majorité des logiciels contenus dans les dépôts des systèmes GNU/Linux sont libres, mais libre ne veut pas dire gratuit, même si les logiciels libres sont généralement distribués gratuitement.
+Ainsi, lorsque l'on achète une distribution GNU/Linux, le prix payé est celui du média, de la documentation incluse et du travail effectué pour assembler les logiciels en un tout cohérent.
+Toutefois, pour se conformer aux exigences des licences utilisées par ces logiciels, les entreprises qui éditent ces distributions acceptent de mettre à disposition les sources des logiciels sans frais supplémentaires.
+La multiplication des distributions GNU/Linux a pu dans le passé être vue comme un inconvénient, mais Linus Torvalds défend au contraire avec vigueur la multiplicité de distributions spécialisées chacune sur un créneau particulier, à côté des distributions orientées « grand public » comme openSUSE, Fedora, Mageia ou Ubuntu.
+Historique
+La première distribution apparue en 1992 était assemblée sur quelques dizaines de disquettes.
+En raison de la très forte croissance de GNU/Linux, une distribution actuelle peut occuper de quelques mégaoctets (pour être installée sur une clé USB par exemple) à plusieurs gigaoctets.
+Avant l'existence des distributions, les utilisateurs de GNU/Linux devaient composer eux
+mêmes leur système en réunissant tous les éléments nécessaires.
+En 1992, Linux (version 0.96)
+est pleinement fonctionnel.
+C'est la naissance des premiers systèmes d’exploitation
+GNU
+Linux encore en activité aujourd’hui, est dérivé de cette distribution.
+Il est aussi le premier, longtemps avant les autres, à permettre un usage direct depuis le CD-ROM, sans installation préalable.
+Architecture logicielle d'une distribution
+Ce qui fait l'intérêt d'une distribution est l'exploitation du concept de couche d'abstraction matérielle.
+Comme on peut le voir sur le schéma les parties qui composent la distribution sont distinctes.
+On peut donc, par exemple, changer le noyau sans changer les logiciels et donc porter plus facilement la distribution sur une autre architecture matérielle.
+À la mi-2015, par exemple, la plupart des distributions sont livrées avec un noyau Linux 3.1x ou 3.2x, mais les utilisateurs qui le désirent peuvent installer en parallèle un noyau
+Linux 4.1 qui gère mieux l'économie d'énergie sur les batteries avec les processeurs récents.
+Plusieurs noyaux peuvent coexister (un seul étant évidemment choisi au boot), ce qui permet de revenir à l'ancien noyau en cas de souci.
+Différences entre distributions commerciales et non commerciales
+Une distribution commerciale est une distribution constituée par une société commerciale.
+Par « constituer une distribution » on entend « choisir et assembler les logiciels qui composent la distribution » (le noyau du système d'exploitation, un lecteur vidéo, un programme et les pilotes de connexion Wi-Fi, le programme d'installation de la distribution, etc.).
+Les distributions commerciales proposent généralement des versions gratuites, ce qui n'en fait pas des distributions non commerciales puisque l'objectif est de réaliser du profit par la vente de services liés à l'utilisation de la distribution (support, développement...) ou par la vente d'un code permettant d'activer une partie bridée de celle-ci.
+Ainsi, Ubuntu est une distribution commerciale car elle est constituée par la société commerciale, Canonical.
+Debian est en revanche une distribution non commerciale car elle est constituée par l'organisation à but non lucratif SPI.
+La distinction entre distributions non commerciales et commerciales est importante car les choix en matière de technologie ou de marketing ne sont pas fondés sur les mêmes critères selon qu'ils sont faits par des bénévoles organisés en démocratie directe, ou par le (ou les) propriétaire (s) d'une société commerciale.
+Principales distributions
+Distribution grand public
+Distributions
+mères
+Les systèmes d’exploitations de cette liste
+sont ceux dont sont issus la plupart des autres systèmes GNU/Linux.
+Pour avoir toutes les distributions faisant l'objet d'un article : voir .
+Standardisation
+En raison de la variété des options du noyau à compiler, des logiciels nécessaires ou souhaitables pour le fonctionnement du système, et de caractéristiques propres à des besoins géographiques locaux, de nombreuses distributions différentes ont vu le jour.
+Par exemple Conectiva, était l'une des plus populaires en Amérique du Sud, et très peu connue en Europe ;
+Mandrake
+et Conectiva ont fusionné en 2005 créant ainsi la distribution Mandriva.
+La multiplicité des distributions et l'existence des différents formats de paquet est parfois perçue comme source de possibles incompatibilités.
+Un standard fut créé par Red Hat, nommé Linux Standard Base ou LSB.
+Cependant, peu de distributions suivent ce standard, car il est centré autour des paquets RPM inventé par Red Hat.
+De nouvelles versions sont régulièrement publiées afin d'incorporer les nouveaux développements.
+La plupart intègrent également des logiciels annexes, tels des suites bureautiques et des jeux vidéo.
+La complexité de l'offre ou des questions d'incompatibilité provisoire (par exemple Kuickshow a pendant quelque temps manifesté une incompatibilité avec KDE 3.2) font que certains choix du menu pointent parfois dans le vide, même à l'intérieur d'une distribution, argument qui est mis en avant par ceux qui préfèrent les systèmes de Microsoft.
+Les partisans de GNU Linux et que celui-ci ne fait que manifester ici le défaut de ses qualités.
+Certaines distributions se caractérisent par des options prédéfinies qui leur sont propres.
+Ainsi Slackware utilise-t-elle le système de fichiers ReiserFS là où la plupart des autres considèrent comme implicite l'usage d'ext3fs.
+OpenSuse, au contraire, installe par défaut le système le plus puissant, mais plus récent Btrfs, et les répertoires utilisateurs sous XFS, plus éprouvé.
+Dans un cas comme dans l'autre, on peut si on le désire choisir d'autre systèmes de fichiers, comme ext4, au moment de l'installation.
+Concernant le codage des caractères, les distributions récentes sont généralement pré-configurées pour utiliser UTF-8 en tant que locale.
+Un pas majeur vers la standardisation des différents systèmes GNU
+Linux
+étant aussi considéré comme une force.
+Critères de distinction des distributions
+Depuis l'instauration du concept de distribution, plusieurs questionnent la nécessité de centaines de distributions différentes, alors que le système de Microsoft, Windows et celui d'Apple ne se déclinent qu'
+en une voire deux versions.
+La réponse réside dans l'éventail de possibilités offertes par le grand choix logiciel permettent de créer de nombreuses distributions adaptées aux objectifs que se fixe l'utilisateur.
+Voici une liste (non exhaustive) des critères permettant de distinguer deux distributions.
+Des exemples s'appuient sur les distributions les plus célèbres.
+Attention :
+il ne s'agit pas ici de classer les distributions les plus célèbres selon le critère en question (ce qui risquerait d'amener le troll) mais d'illustrer chaque critère pour faciliter la compréhension du lecteur.
+Architecture matérielle supportée
+Une distribution peut ne supporter qu'une seule et unique architecture matérielle comme elle peut en supporter plusieurs.
+On peut penser a priori qu'une distribution spécialisée sur une architecture fonctionnera mieux qu'une distribution plus générique mais ce n'est pas toujours vrai.
+Exemple :
+Yellow
+Dog ne fonctionne que sur les machines à base de processeurs PowerPC (Macintosh avec processeur G3, G4 ou G5, PlayStation 3) alors que Debian fonctionne sur pas moins de onze architectures matérielles différentes.
+Système d’
+initialisation
+Première étape lors du démarrage d’un système d’exploitation, l’initialisation est majoritairement fait aujourd’hui par systemd.
+Certains systèmes GNU/Linux au contraire mettent un point d’honneur à employer un autre système d’initialisation que systemd.
+Stabilité
+Certains préfèrent avoir un système très stable, qui ne plantera jamais et dont la cohérence est assurée, mais avec des logiciels d'une version un peu ancienne.
+D'autres utilisateurs aspirent à disposer de logiciels dans la toute dernière version, l'instabilité du système constituant la contrepartie de cette volonté d'actualisation constante.
+Ainsi, une distribution qui se veut stable met du temps à éditer des versions : par exemple, Debian, dont la stabilité est réputée, met deux années pour chaque édition majeure, et jusqu'à trois pour Sarge (2005).
+Exemples
+La version «
+» est mise à jour en essayant de rester le plus stable possible, les mises à jour étant essentiellement des modifications liées à la sécurité.
+C'est la plus stable des distributions Linux.
+La version «
+est destinée aux utilisateurs plus expérimentés et souhaitant un maximum de programmes ;
+cela peut se faire parfois au détriment de la stabilité.
+Il existe un compromis, « », qui permet l'accès à de très nombreux paquets provenant de la branche instable et expérimentale, mais ayant fait preuve d'une certaine stabilité.
+Cette version est la future version stable
+et elle est aussi stable que la plupart des autres distributions GNU/Linux.
+* ArchLinux est un peu l'opposé de Debian en matière de politique de fonctionnement : en développement constant, il n'existe pas de « version » d'Arch Linux, étant donné que les mises à jour se font sans discontinuer.
+Elle souffre cependant de plus d'instabilité que la moyenne des distributions.
+* Slackware est un système doté d'une grande stabilité, mais à réserver aux utilisateurs expérimentés, ainsi qu'aux personnes désireuses d'apprendre à gérer leur système en profondeur.
+C'est la distribution qui offre le plus de possibilités de configuration.
+Les documentations sont à la hauteur de ces dernières et leurs conseils doivent être suivis pour obtenir un système stable.
+Serveur ou station de travail
+Les distributions peuvent être destinées à faire fonctionner une machine serveur ou une machine de type bureau et cela influence le choix logiciel.
+Une distribution orientée bureau se doit d'inclure un environnement graphique (GNOME ou KDE) et un serveur graphique (XFree86 ou Xorg), tout le contraire d'une distribution serveur qui se passera très bien de ces logiciels.
+* Debian fut originellement orientée serveur, mais depuis la version 5 sortie en février 2009, cette distribution a atteint un niveau de convivialité qui la rend de plus en plus attractive auprès du grand public, et particulièrement auprès de celles et ceux qui partagent et soutiennent la philosophie non commerciale de Debian.
+* Ubuntu est à l'origine une distribution bureau mais il existe une version serveur avec des logiciels performants pour une distribution orientée serveur, sans bureau.
+* Mageia est à l'origine orientée bureau.
+Toutefois, rien n'oblige l'installation de l'interface graphique : les outils de configuration Drakconf sont disponibles sous trois modes : graphique, graphique déporté sur un autre poste (donc sans serveur X utilisant des ressources sur le serveur) et mode texte via Ncurses.
+Tolérance aux contraintes imposées par les licences logicielles
+Chaque logiciel
+, étant doté d'une licence qu'il faut respecter, donne ou non une certaine liberté à l'utilisateur.
+Des distributions n'intègrent strictement que des logiciels libres.
+D'autres, au contraire, incluent des logiciels, des pilotes, ou des codecs propriétaires.
+* Debian, de par son contrat social
+, s'est engagé à n'inclure que du logiciel strictement libre, mais permet explicitement l’utilisation de logiciels non libres.
+La Free Software Foundation tient une liste de distributions GNU/Linux libres (totalement).
+Distribution autonome ou amorçable
+Certaines distributions fonctionnent sans qu'on ait besoin de les installer.
+Elles sont appelées distributions « autonomes » ou « amorçables ».
+Le principe est de pouvoir amorcer l'ordinateur depuis un support de stockage : CD-ROM, DVD-ROM
+, clé USB… qui contient la distribution en lecture seule (à l'exception parfois des clés USB), donc sans installation sur le disque dur.
+* Knoppix est la distribution autonome la plus utilisée (avec Kaella).
+* Mageia, Fedora, Ubuntu
+openSUSE et Debian
+ainsi que d'autres distributions, proposent leurs versions autonomes.
+Grand public ou expert
+Les distributions peuvent se distinguer par le niveau de compétences nécessaire à l'utilisateur en matière d'administration système : Mageia, Ubuntu ou Debian (depuis la version 5) s'adressent au grand public qui n'a besoin d'aucune compétence particulière pour utiliser ces systèmes.
+Linux From Scratch s'adresse à un public plutôt expert en administration système, en effet il est nécessaire d'avoir installé et administré bien des systèmes en ligne de commande avant de se lancer dans une installation de LFS.
+Sélection et installation des logiciels
+Une des tâches centrales d'une distribution GNU/Linux, sans équivalent sur Microsoft Windows, consiste à centraliser dans un ou plusieurs dépôt (s) central (aux) un (plus ou moins) grand nombre de logiciels tiers et à les empaqueter de manière que les utilisateurs de la distribution puissent les installer en 1 clic, sans CD-ROM via Internet, dans la plus grande légalité.
+Un système de gestion de paquets installé (et souvent spécifique à la distribution) permet la recherche, l'installation, la désinstallation et la mise à jour de ces logiciels.
+Sélection des logiciels installés par défaut
+Les distributions se distinguent également en fonction des logiciels disponibles d'origine, lesquels répondent aux attentes de publics différents.
+Cette sélection peut être généraliste ou spécialisée.
+Ainsi par exemple :
+* Ubuntu
+, Mageia
+et Trisquel proposent une sélection de logiciels généraliste
+* AGNULA/Demudi et Ubuntu Studio sont des distributions destinées à la création multimédia.
+Ne sont donc inclus que des logiciels de mixage, sampling, encodage audio, montage, etc.
+Un souci particulier est accordé au fonctionnement réactif, s'approchant du temps réel : gestion des priorités système, interfaces graphiques légères et donc non pénalisantes, noyau à faible latence disponible (utile uniquement pour les travaux sur le son).
+* GeeXboX permet de transformer (presque) n'importe quel ordinateur en véritable Media
+Center.
+* IPCop
+est destinée à transformer un ordinateur en pare-feu.
+Ne sont intégrés que les logiciels servant à effectuer cette tâche.
+Ajouts personnalisés
+Les logiciels d'installation de paquets fournis avec chaque distribution permettent de la personnaliser, en prévenant en principe l'utilisateur des incompatibilités éventuelles.
+Ils fonctionnent sans problème pour les logiciels applicatifs, mais demandent un peu de doigté lorsqu'on installe quelque chose touchant l'interface graphique elle-même, en particulier :
+Le sélecteur d'environnement de bureau (ex: LightDM, GDM, KDM...)
+L'environnement de bureau lui-même (ex: GNOME, Unity, KDE, Xfce, LXDE, Cinnamon, Mate).
+Note : il est fortement conseillé dans un premier temps de créer un utilisateur distinct pour tester chaque environnement de bureau, ce qui ne pose aucun problème.
+On pourra ensuite si on est aventureux essayer d'en faire coexister plusieurs (en alternance) chez un utilisateur expérimental, à ses risques et périls.
+* Le bureau de l'utilisateur, si celui-ci utilise plusieurs environnements de bureau en alternance.
+Le gestionnaire de fichiers (ex:
+Nautilus, PCMan File Manager, Thunar, Dolphin, Konqueror)
+Note : si l'on souhaite faire coexister plusieurs systèmes d'exploitation sur le même disque dur, le gestionnaire graphique de boot permet de le faire dans de bonnes conditions de confort.
+Dépôts de paquets
+Au-delà du choix des logiciels installés par défaut, les distributions gèrent un ensemble plus ou moins grand de dépôts de paquets, depuis lesquels l'utilisateur peut par la suite installer des logiciels.
+Debian (par extension Ubuntu) ou Mageia ont des dépôts particulièrement remplis, permettant ainsi à leurs utilisateurs d'installer les logiciels qu'ils souhaitent (ex: traitement de texte, montage vidéo, jeu vidéo, outils réseaux ou de programmation, ...)
+Formats des paquetages
+Plusieurs formats de paquets existent :
+* tgz : archive tar compressée incluant des fichiers de contrôle, utilisé notamment par Slackware ou Archlinux (cf. infra).
+Un paquet tgz comporte juste chaque fichier et le nom du répertoire où il doit être placé : pas de gestion de l'existant (versions) ni des dépendances.
+* deb : système de gestion de paquets créé par la communauté Debian pour Debian GNU/Linux (cf. infra) et utilisé par de très nombreuses distributions telles que Ubuntu ainsi que d'autres dérivées
+* rpm : système de gestion de paquets inventé par Red Hat et utilisé par Fedora, SuSE, Mageia et quelques autres.
+Binaire ou source
+Il est possible d'utiliser des distributions dites sources (par exemple, Gentoo ou Funtoo) dans lesquelles le système de paquets télécharge les sources du logiciel puis produit le logiciel désiré sur l'ordinateur de l'utilisateur en le compilant.
+L'un des intérêts avancés pour les utilisateurs d'une distribution source est que théoriquement, les programmes compilés sur la même machine que celle sur laquelle ils seront exécutés seront plus rapides
+- cette théorie n'est cependant pas appuyée de façon significative par le benchmarking.
+Le principal avantage de compiler toute une distribution depuis les sources est qu'il est possible de mélanger les branches stables et test.
+Ceci est possible car les programmes installés dépendent uniquement des programmes qui existaient déjà lors de la compilation.
+Il est ainsi possible d'avoir un système de base stable et d'installer la dernière version de son logiciel préféré sans avoir à passer tout le système en version de test.
+Un autre avantage de la distribution source est de permettre l'installation de GNU/Linux sur des plateformes matérielles pour lesquelles aucune distribution n'est disponible .
+D'un autre côté, les distributions dites binaires (par exemple, Mageia ou Ubuntu) permettent, comme Microsoft Windows ou Mac OS, d'installer directement des logiciels déjà compilés pour son ordinateur, ce qui a pour principal avantage un gain de temps lors de l'installation.
+Puissance de la machine
+Des distributions sont destinées à l'utilisation sur des appareils plus anciens, que l'on pourrait considérer comme obsolètes : c'est le cas de Damn Small Linux.
+Ces distributions s'efforcent de proposer une interface graphique la plus réactive possible, par exemple en proposant une sélection de logiciels légers tournant dans l'environnement graphique Xfce, par exemple HandyLinux qui intègre Chromium plus léger et réactif que Iceweasel.
+Zenwalk
+, bien que n'étant pas destinée à cette catégorie d'ordinateurs mais plutôt à des ordinateurs « récents », utilise d'office Xfce afin d'augmenter les performances.
+De même pour Ubuntu dont il existe une version officielle dans laquelle GNOME est remplacé par Xfce baptisée Xubuntu.
+Localisation et internationalisation
+La plupart des distributions sont issues de l'Europe et des États-Unis d'Amérique.
+Des distributions sont nées pour des besoins locaux, par exemple pour qu'une distribution existante puisse être utilisée avec un clavier d'ordinateur particulier ou un codage des caractères différent.
+Ces distributions se sont notamment répandues de façon importante dans les pays asiatiques.

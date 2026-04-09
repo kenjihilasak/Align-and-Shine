@@ -1,0 +1,22 @@
+Théorie des ensembles
+En mathématiques, deux ensembles sont dits disjoints s'ils n'ont pas d'éléments en commun.
+Par exemple, \ et \ sont deux ensembles disjoints.
+Explication et généralisation
+De manière formelle, deux ensembles A et B sont disjoints si leur intersection est l'ensemble vide, c'est-à-dire
+:A\cap B = \varnothing~.
+(Dans le cas contraire, on dit que A et B «
+se rencontrent ».
+Cette définition s'étend à une famille d'ensembles.
+Les ensembles d'une famille sont dits disjoints deux à deux ou mutuellement disjoints si deux ensembles quelconques de cette famille sont disjoints.
+Plus précisément, soient I~ un ensemble d'indices, et pour chaque i \in I, un ensemble A_i.
+Alors les ensembles de la famille (A_i)_ sont mutuellement disjoints
+:\forall (i,j)\in I^2\qquad (\ i \neq j\Rightarrow \
+A_i
+\cap A_j = \varnothing)~.
+Par exemple, les singletons de la famille (\,\,\) sont mutuellement disjoints.
+Si (A_i)_ est une famille d'ensembles mutuellement disjoints, et s'il y a au moins deux indices dans I, alors l'intersection de la famille est vide :
+\cap_A_i=\varnothing~.
+Cependant, la réciproque est fausse : l'intersection de la famille (\,\,\) est vide, mais ces trois ensembles ne sont pas mutuellement disjoints.
+Une partition d'un ensemble X est une famille de parties non vides de X, disjointes deux à deux, dont la réunion est égale à X.
+Voir aussi
+exm0a7foi2kwncl9pe3kt0pyzvgqkcb

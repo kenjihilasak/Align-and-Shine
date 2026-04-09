@@ -1,0 +1,94 @@
+Logiciel Adobe|Logiciel vidéo
+est un logiciel, à l'origine, de montage vidéo qui est devenu par la suite un outil de composition (compositing en anglais) et d'effets visuels, pionnier de l'animation graphique sur ordinateur personnel, édité par la société Adobe Systems.
+Ce logiciel permet de créer des effets spéciaux et des animations graphiques pour tous supports et à partir de nombreux types de sources.
+La version actuelle (16.0) s'appelle « » (CC pour ).
+Présentation
+After Effects s'apparente à un logiciel de montage vidéo, notamment avec la "timeline" qui permet de savoir ou l’on se situe dans le temps par rapport à la Prévisualisation.
+Le logiciel utilise un système d'empilement de calques pour créer une composition animée à partir de différentes sources visuelles (images et vidéos).
+On retrouve ce principe d'empilement de calques dans la majorité des logiciels de création graphique.
+Par cet aspect, il est proche de Photoshop, mais propose en outre des modifications des calques animables dans le temps, et en mode non destructif.
+On qualifie ce mode de fonctionnement de « non destructif » car le fichier de projet créé ne contient que les informations de traitement des sources, sans aucune altération des fichiers originaux.
+Pour calculer le rendu final de l'animation, il faut donc disposer du fichier de projet ainsi que des sources intactes (images ou vidéo).
+On peut réaliser un montage sans sources préexistantes.
+Dans ce cas, le fichier projet se suffit à lui-même.
+Dans tous les cas, pour obtenir le résultat final, et produire un nouveau fichier vidéo par exemple, il faut passer par une phase de calcul, d'une durée variable selon la complexité de la création.
+Contrairement à un logiciel de montage vidéo, After Effects ne propose pas de visualisation en temps réel.
+Chaque phase de prévisualisation est précédée d'une phase de calcul en RAM.
+After Effects est conçu pour empiler les images et les vidéos les unes sur les autres sur la timeline.
+Par exemple il est impossible de fractionner une image en plusieurs parties sans créer un autre Calque.
+Le logiciel est utilisé pour les effets spéciaux car il y a des générateur d’effets comme “world particules” qui crée des particules dont la physique (vélocité, vitesse...) et la forme sont personnalisable.
+Mais on trouve aussi des possibilités d’animation de masques , d'incrustation, de transition, de match moving, de caméra, de lumière…
+En d’autres termes ce logiciel a pour but de manipuler et transformer l’image et non de monter ou assembler.
+Historique
+L'histoire commence dans une petite société américaine, CoSA à Providence dans l'État du Rhode Island.
+Après avoir développé le logiciel PACo (PICS Animation Compiler), Dave Herbstman, Dave Simmons et Dan Wilk se lancent dans le développement de Egg, qui aboutira à la sortie d'After Effects en janvier 1993, présenté au de Boston.
+Le but était de pouvoir créer des animations pour la télévision ou le cinéma sur un ordinateur personnel.
+À l'époque, les solutions de traitement numérique de l'image dans le milieu professionnel utilisaient du matériel spécialisé très coûteux, avec des résolutions fixes.
+CoSA apporte une solution : un logiciel multi-résolution de traitement vidéo tournant sur Macintosh.
+Les contraintes au niveau des formats d'entrée et de sortie n'étaient imposées que par la puissance de la machine et sa quantité de RAM.
+Le logiciel est racheté par Aldus Corporation, qui intègre Adobe Systems Inc.
+en 1994.
+Il dialogue à présent avec tous les programmes de la gamme Adobe Creative Cloud.
+Versions
+- La première version développée par CoSA ;
+- première version Adobe, qui lance le logiciel sur le marché ;
+La 3.1 est portée également sous Windows et traduite en français ;
+- plusieurs masques vectoriels par calque, calque d'effets, prévisualisation RAM ;
+- apporte la 3D
+, les expressions et le parentage ;
+* 2003 : version 6 - scripting et Textacy (générateur de texte) ;
+- nouvelle interface avec un nouvel éditeur de graphiques et le mode HDR 32 bits ;
+* 2007 : version 8 (CS3)
+- introduit les calques de forme, l'animation du texte en 3D et l'outil de déformation Marionnette ;
+* 2008
+: version 9 (CS4)
+- possibilité d'animer séparément les coordonnées xyz, Effet Dessin animé ;
+* 2010 : version 10 (CS5)
+- passage au 64 bits natif, outils Roto-pinceau, Plug-in freeform ;
+* 2012 : version 11 (CS6)
+- moteur de rendu « lancer de rayon » (Ray-Tracing), tracking 3D natif ;
+* 2013 : version 12 (CC)
+- Fourni avec «
+Cinema 4D
+Lite »
+* 2014 : version 13 (CC 2014)
+- motion tracking, suivi de masque, modèles de texte dynamiques ;
+* 2015 : version 13.5 (CC 2015)
+- tracking facial, nouveau rendu 3D, outil d'animation Character Animator, refonte des processus de prévisualisation/rendu.
+* 2016 : version 14.0 (CC 2017)
+- effets plus rapides et performances interactives, amélioration des modèles de texte dynamiques, optimisation de Character Animator.
+* 2017 : version 15.0 (CC 2018)
+- Import des fichiers de données JSON, accès des expressions aux points de tracé de masque et de forme, effets VR, propriétés principales
+*2018
+: version 16.0 (CC 2019)
+- Prise en charge d'Apple ProRes sous Windows.
+Principaux outils
+Les principaux outils proposés sont :
+* Des outils de masque, de texte et de peinture vectoriels ;
+* La fenêtre montage est un empilement de calques, à la manière de Photoshop, dont on peut faire évoluer les paramètres en fonction du temps et des autres calques.
+Pour ce faire, il suffit en général de faire glisser un effet de la palette d'effet sur le calque désiré et de modifier les réglages en développant les onglets ;
+La palette d'effets est une bibliothèque d'effets fournis avec le logiciel ou ajoutés en plug-ins ;
+* La fenêtre de composition
+, donne un aperçu du résultat.
+La prévisualisation de l'animation se fait après un calcul en RAM de la zone de travail.
+Il est possible d'ouvrir d'autres fenêtres pour avoir d'autres vues lors d'un travail en 3D. Pour accélérer le calcul de la prévisualisation, il est possible de baisser la qualité d'affichage en résolution ou en cadence d'images, voire de masquer certains calques.
+Dynamic link
+Dynamic link est une fonctionnalité qui permet de faciliter les interactions avec Premiere Pro.
+Si les deux logiciels sont ouverts simultanément, les modifications faites dans l'un seront répercutées dans le second.
+Suivi de mouvement et tracking de caméra 3D
+After effect
+a aussi une option de suivi de mouvement et de tracking 3D, deux outils similaires.
+Le suivi de mouvement consiste à demander au logiciel de suivre un point précis de l’image malgré les mouvements.
+Ce qui donne des informations au logiciel sur les mouvements effectués lors de la prise de l’image.
+Avec ces informations on peut faire en sorte qu’un calque «
+suive » l’image et donc donner l’illusion de réellement être dans la scène.
+Par exemple, si l’on cherche à faire une explosion sur une voiture qui avance et qu’on a déjà la vidéo de l’explosion qui est déjà incrustée :
+On suit la voiture grâce au suivi de mouvement et on définit la cible comme notre vidéo d’explosion.
+Le logiciel va permettre à l’explosion de suivre la voiture.
+Le tracking 3D va faire plusieurs points sur l’image et détecter la perspective et les mouvements dans une image.
+On l’utilise pour inclure des objets en 3D (avec un Plugin) dans la scène.
+Par exemple, à partir d'une vidéo où la caméra tourne autour d’une table vide, il est possible, après choix du track la scène en 3D, d'appliquer les informations sur une pomme (importées grâce à un plug-in) afin que la pomme semble faire partie de la vidéo initiale.
+After Effects sur internet
+De nombreux tutoriels sont disponibles sur Internet notamment sur YouTube, comme les tutoriels de Video Copilot, une entreprise qui travaille dans les plug-ins d’After Effects.
+En cherchant un peu, Youtube devient une réelle plateforme d’échange pour équiper les jeunes réalisateurs d’effets spéciaux.
+Logiciels concurrents

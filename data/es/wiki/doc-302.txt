@@ -1,0 +1,154 @@
+Stratego es un juego de mesa de estrategia para dos jugadores, usando un tablero de 10x10 recuadros y 40 fichas cada uno.
+Cada ficha representa distintos rangos militares, formando todas ellas un ejército.
+El objetivo del juego es capturar la bandera rival o eliminar todas sus piezas con capacidad ofensiva (o de movimiento, que es lo mismo).
+Los jugadores no pueden ver los rangos de las piezas del oponente, por lo que la desinformación y el descubrimiento son facetas importantes en el juego, teniendo los jugadores un conocimiento parcial del entorno, a diferencia de otros juegos como el ajedrez donde existe conocimiento total siempre.
+Preparación de una partida
+Al iniciar el juego, cada jugador coloca todas las fichas de su ejército en las cuatro filas más cercanas al jugador de modo que sólo éste y no el oponente pueda ver su rango.
+La distribución de las piezas queda a la elección del jugador, siendo una decisión que condiciona enormemente el desarrollo de la partida.
+Piezas
+Todas las piezas tiene un rango o valor asociado.
+En la mayoría de los casos ese rango sólo sirve para determinar el resultado de los enfrentamientos con contrarios, pero hay excepciones.
+* Una de las excepciones es la bomba, que no se puede mover y sólo puede ser eliminada por el minador.
+Sin embargo, la bomba elimina a cualquier otra pieza que la ataque.
+* Otra excepción es el espía, capaz de eliminar a la pieza de mayor rango, el mariscal, pero sólo si el espía ataca primero, no si es atacado por el mariscal.
+Sin embargo, el espía pierde en cualquier enfrentamiento con otra pieza.
+Por último, el explorador es la única ficha que puede dar más de un paso por turno, pero sin poder saltar sobre otra.
+Las piezas son, de mayor a menor rango e indicando la cantidad de ellas al inicio de la partida:
+Secuencia de juego
+El juego se desarrolla entre dos ejércitos, uno de color rojo y otro azul.
+Las piezas tienen dos caras, y están pintadas del color de su ejército por ambas para diferenciarlas más fácilmente.
+El rango de cada pieza sólo está indicado en una cara, mientras que en la otra hay una imagen idéntica para todas.
+Al inicio de la partida las fichas se colocan de modo que cada jugador pueda ver el rango de sus fichas .
+El objetivo del juego es capturar la bandera del oponente o capturar todas sus piezas con posibilidad de movimiento, de forma que el oponente no tenga piezas que poder mover.
+Movimientos y ataques
+Cada jugador mueve una pieza por turno, de una en una casilla.
+No se permiten movimientos en diagonal ni moverse entre dos casillas en tres turnos consecutivos.
+Los movimientos posibles son izquierda, derecha, delante y atrás (no diagonales).
+La única excepción es el explorador, que puede mover todas las casillas que desee en línea recta (como la torre en el ajedrez).
+Según las normas oficiales de la versión desde principios de los 60 hasta mediados de los 80, el explorador no puede mover y atacar en el mismo turno.
+Sin embargo, en las versiones siguientes está regla no se menciona.
+Las piezas no se pueden mover fuera del tablero ni a una casilla ocupada por una pieza del mismo ejército.
+Si una pieza se mueve a una casilla ocupada por una unidad del otro ejército se considera un ataque y ambas descubren su identidad (girándose).
+En este caso la pieza de menor rango es eliminada y la de mayor rango ocupa la posición de la anterior.
+Si las dos piezas tienen el mismo rango se eliminan ambas.
+Hay dos grupos de casillas de 2 x 2 en las que no puede haber piezas.
+Suelen estar marcadas en el tablero como lagos (mientras el resto del tablero es un campo de batalla).
+Su función es evitar ataques frontales masivos y permitir desarrollar estrategias acumulando piezas a sus alrededores.
+Reglas adicionales
+Hay reglas concretas que se pueden acordar entre los dos jugadores al comenzar la partida y que dan más variedad al juego.
+Por ejemplo:
+* Defensa silenciosa: sólo la pieza que ataca revela su rango.
+Por lo tanto el jugador atacado bien elimina su pieza, bien informa que el contrario ha sido derrotado.
+Excepción: cuando un explorador ataca, el defensor debe revelar su rango.
+* Ventaja para el atacante: si hay una lucha entre dos piezas de igual valor, el atacante gana.
+* Rescate: si una pieza llega a la última fila del tablero puede rescatar una pieza eliminada anteriormente.
+En este caso sólo se avisa al contrario que se ha recuperado una pieza, pero sin indicar su rango.
+Restricciones: Los exploradores no pueden rescatar piezas.
+No se pueden rescatar bombas.
+Cada jugador sólo puede hacer dos rescates.
+La misma pieza no puede hacer más de un rescate.
+Estrategia
+Al contrario del ajedrez, Stratego es un juego con conocimiento parcial del entorno.
+El acopio de información, la planificación y el pensamiento estratégico juegan un papel destacado en este juego.
+También son muy importantes los aspectos psicológicos.
+Estrategias básicas
+* Colocar inicialmente las piezas de modo que la bandera quede protegida, a la vez que se intenta despistar al contrario de su ubicación en el tablero
+* Identificar la forma de movimientos de las piezas enemigas durante la partida, de manera que obtengamos una idea de su distribución en el tablero.
+Colocar las piezas más fuertes y/o bombas lejos de la bandera (aunque esto es arriesgado), con el fin de engañar a un oponente para intentar que ataque el lado equivocado.
+La colocación del Espía, por ejemplo, en posición demasiado adelantada, favorece el que sea eliminado a las primeras de cambio, mientras que si se lo coloca muy atrás, puede hacer que quede bloqueado en su movimiento cuando se localice al Mariscal enemigo.
+Igualmente, los Mineros son débiles, pero su habilidad para desactivar minas puede hacerlos necesarios pronto (aunque algunos jugadores prefieren dejar las bombas activadas tanto tiempo como sea posible, sobre todo si estorban los movimientos de su enemigo).
+Un grupo de bombas en medio de un espacio vacío puede inducir a nuestro oponente a pensar que la bandera se encuentra ahí, cuando en realidad la hemos colocado en otro lugar.
+También es una buena estrategia colocar tropas de reserva en la parte trasera del tablero y lanzar en seguida a los exploradores, ya que se pueden mover más rápido.
+La colocación de la bandera
+Dado que el objetivo para ganar es capturar la bandera, su colocación es vital.
+Comúnmente se coloca en la fila de atrás, rodeado por dos o tres bombas de protección.
+Algunos jugadores utilizan esta generalización a su favor y colocan la bandera en algún lugar sin protección, por ejemplo, colocando la bandera directamente adyacente a uno de los lagos, donde el oponente no piense encontrarla.
+Jugadores sin experiencia accidentalmente puede alertar a un oponente de la ubicación de su bandera durante la colocación de las piezas en el tablero, colocando primero su bandera y luego construyendo sus defensas a su alrededor.
+Una medida para evitar esto es colocar todas las piezas en el tablero al azar y luego reorganizarlas en la configuración deseada.
+Esto puede evitarse colocando la caja u otro obstáculo entre los dos oponentes durante la colocación inicial.
+Algunas versiones más recientes ya incluyen una pantalla de cartón para este cometido.
+Los faroles
+Algunos faroles comúnmente empleados:
+* Colocar un grupo de bombas juntas puede llevar a un oponente a pensar que la bandera está allí, cuando en realidad está en el otro lado del tablero.
+* Avanzar con una unidad menor (por ejemplo, un Minero) hacia una unidad media conocida (por ejemplo, un Comandante), con el fin de pasar de largo y atacar a una bomba.
+* Si el Mariscal del oponente gana su primera batalla (por lo que es revelado), e inmediatamente movemos una pieza de alguna fila trasera en el otro lado del tablero, podemos hacer creer al oponente que crea que esta pieza es el Espía, cuando, en realidad, el Espía puede estar en el lado contrario del tablero, ya cercano al Mariscal.
+Esta es una táctica común, ya que puede provocar que el Mariscal se acerque al Espía y se coloque junto a él, lo que permite al Espía a atacar primero y ganar el combate.
+* Se podría amenazar a un Coronel revelado con un Sargento no revelado para tratar de obligar al oponente a retirarse.
+La exploración efectiva
+Los exploradores son muy útiles para el final del juego, una vez que el tablero está más despejado.
+Pueden ser utilizados para identificar las bombas en la última fila, revelar faroles o incluso capturar la bandera.
+Son más eficaces cuando se mueven un espacio cada vez hasta que sea necesario, puesto que quedan identificados como exploradores al moverlos muchos espacios seguidos.
+Ya que pueden desplazarse a lo largo de toda una línea, también son efectivos para capturar un espía que se atreva a dar un paso en nuestro territorio, incluso si se encuentran en el otro lado del tablero.
+Las estrategias del espía
+En la mayoría de las partidas, es recomendable tener un espía a la sombra de un general o coronel, puesto que estas piezas suelen ser susceptibles a ser atacadas por el mariscal.
+Manteniendo un general o coronel en la misma zona que el espía permite una retirada efectiva mientras el mariscal del oponente puede ser emboscado por el espía.
+Los faroles con el espía también son eficaces.
+Por ejemplo, poniendo un sargento a la sombra de un coronel podría confundir a un oponente, que podría ser reacio a atacar a nuestro coronel con su mariscal.
+La estrategia de los minadores
+Jugadores sofisticados, al descubrir las bombas del oponente, pueden optar por dejarlas en su lugar en vez de desactivarlas con un minador, con la intención de disminuir la capacidad de movimiento del enemigo.
+Para ello, es vital memorizar la ubicación de todas las bombas del oponente según se vayan descubriendo.
+Al mantener a los minadores inmóviles en su propio territorio durante el inicio de la partida, un jugador puede confundir al oponente haciéndole creer que son bombas.
+La protección de las piezas
+Uno de los conceptos más importantes de Stratego es el desconocimiento y la desorientación, por lo que el manual recomienda llevar una pieza junto a otra que no es mucho más fuerte que él, por ejemplo, acompañar a un capitán con un comandante.
+De la misma manera, otra estrategia es proteger las piezas con un sistema "pares e impares", donde una pieza es protegida con otra dos niveles más fuerte, por ejemplo protegiendo un capitán con un coronel.
+Pero se puede retar de lado.
+Aprovechar una ventaja
+Si un jugador tiene la suerte de haber ganado una ventaja sobre su oponente, vale la pena aprovechar esa ventaja cambiando con el oponente sus piezas de mayor rango para eliminarlas del tablero.
+Por ejemplo, atacar a un comandante con otro comandante supone una pérdida mucho mayor para el rival si a este ya no le queda ningún coronel, general o mariscal.
+Atacar piezas desconocidas
+Una estrategia arriesgada, que podría ser necesario cuando se va perdiendo, es atacar a una pieza desconocida e inmóvil con una pieza fuerte.
+Esta estrategia se basa en las probabilidades.
+Por ejemplo, si un jugador ataca una pieza desconocida e inmóvil con un general, perdería contra cualquiera de las seis bombas, el mariscal o el otro general.
+Matemáticamente, la probabilidad es de 7 sobre 40, pero en realidad esta probabilidad puede ser mejorada si no se ataca a las piezas que pudieran ser bombas, o manteniendo un seguimiento de las piezas ya identificadas.
+Historia
+Los orígenes de Stratego se remontan al tradicional juego de mesa chino "Selva", también conocido como "Juego de la lucha de los animales" (Dou Shou Qi) o "Ajedrez animal".
+El juego "Selva" también cuenta con piezas de diferentes rangos (caracterizadas por animales en vez de soldados) en donde las piezas de mayor rango capturan a las inferiores, menos la más baja (la rata) que captura a la más alta (el elefante).
+El tablero, con dos lagos en el medio, también es notablemente similar al de Stratego.
+Las principales diferencias entre los dos juegos es que en "Selva", las piezas no se ocultan al oponente, y la configuración inicial es fija.
+Las raíces del juego son similares a las de la invención patentada en 1908 por Mdm.
+Hermance Edan de "L Attaque" en Francia y el Sr. Mogendorff puede haber sacado su juego de este original, pero con algunas diferencias.
+En cuanto a la aparición en América en primer lugar, ésta vino de Milton Bradley, quien adquirió los derechos para distribuir el juego en Estados Unidos.
+En 1961 publicó una serie con los números en los azulejos de madera, pero una verdadera primera aparición fue distinguida por el hecho de que las fichas de madera tenían un diseño en el reverso que parecía viñas que cubrían una pared de castillo.
+Un moderno y más elaborado juego chino conocido como "Campo de batalla de ajedrez" (Te Zhi Lu Zhan Qi) o "Ejército de Ajedrez" (Lu Zhan junio Qi) es un descendiente de "Selva", y un primo de "Stratego": la configuración inicial no es fija, las piezas están ocultas para el oponente, y el juego básico es similar (con diferencias que incluyen piezas "misiles" y una especie de Ajedrez Chino diseño de la placa con ferrocarriles y campos de defensa, y donde un tercer jugador se suele utilizar como un árbitro neutral para decidir las batallas entre piezas sin revelar sus identidades).
+También existe una versión ampliada del juego Ajedrez de campo de batalla, conocido como Ajedrez Mar-Tierra-Aire de batallas (Hai Lu Hong Zhan Qi), al que se suman piezas navales y aeronaves.
+En su forma actual "Stratego" apareció en Europa antes de la Primera Guerra Mundial como un juego que se llama L'attaque.
+Thierry Depaulis escribe sobre "Stratego Ed Sitio":
+"De hecho, fue diseñado por una dama, la señorita Hermance Edan, que presentó una patente para un "jeu de bataille avec pièces damier-sur-móviles" (un juego de combate con piezas móviles sobre un tablero) el 26 1908.
+La patente fue publicada por la Oficina Francesa de Patentes en 1909 (patente # 396 795).
+Hermance Edan no le había dado ningún nombre a su juego, pero un fabricante francés "Au Jeu retrouvé" estaba vendiendo el juego como "L'Attaque" ya en 1910.
+Depaulis nota después que la versión de 1910 dividió el ejército en los colores rojo y azul.
+Las reglas de "L'attaque" eran básicamente las mismas que el juego que conocemos como "Stratego".
+Se presentó con piezas rectangulares de cartón en pie, con imágenes a color de soldados que llevaban uniformes napoleónicos y no uniformes contemporáneos (1900).
+El juego moderno, con su imaginería napoleónica, fue producida originalmente en los Países Bajos por Jumbo, y fue autorizado por la empresa Milton Bradley para la distribución estadounidense por primera vez en los Estados Unidos en 1961 (aunque fue registrado en 1960).
+La empresa Jumbo sigue lanzando ediciones europeas, incluyendo una versión de tres y cuatro jugadores, y una nueva pieza de cañón (que salta dos plazas para capturar cualquier pieza, pero pierde a cualquier ataque contra ella).
+También incluye algunas reglas alternas como presa (un juego más rápido de dos jugadores con menos piezas) y reservas (refuerzos en los juegos tres y cuatro jugadores).
+La versión de cuatro jugadores apareció en Estados Unidos en la década de 1990.
+Otras variantes del tema aparecieron por primera vez en América del Norte: una versión de Star Wars, la variante de "El Señor de los Anillos", y la variante "Leyendas" con piezas de fantasía, sin duda inspirado por "Magic: The Gathering".
+La variante "Leyendas" agregó más reglas y complejidad, dando a los jugadores opciones de piezas con atributos especiales, "ejércitos" coleccionables de más de un centenar de piezas individuales ofrecidos en seis juegos, y tableros variados con características en el terreno.
+Las piezas fueron hechas originalmente de cartón impreso.
+Después de la Segunda Guerra Mundial, el pintado de piezas de madera se convirtió en estándar, pero a partir de finales de 1960 todas las versiones tenían piezas de plástico.
+El cambio de la madera al plástico se hizo por razones económicas, como fue el caso de muchos productos durante ese período, pero con "Stratego" el cambio en realidad fue para bien - las piezas de plástico fueron mucho menos propensas a volcarse.
+A diferencia de las piezas de madera, las piezas de plástico se han diseñado con una pequeña base, mientras que las piezas de madera no tenía ninguna, lo que las hacía volcarse a menudo.
+Esto, por supuesto, fue desastroso para el jugador, ya que a menudo se revelaba inmediatamente el rango de la pieza.
+Las versiones europeas presentaron piezas cilíndricas en forma de castillo que resultaron ser muy populares.
+Más tarde, la variantes americanas introdujeron nuevas piezas rectangulares con una base más estable y pegatinas de colores en lugar de imágenes directamente impresas en el plástico.
+El juego es muy popular en los Países Bajos, Alemania y Bélgica, donde se celebran regularmente campeonatos nacionales y mundiales.
+La escena internacional "Stratego", en los últimos años, ha sido dominada por los jugadores de los Países Bajos.
+Versiones europeas del juego muestran el rango mariscal con el número numéricamente mayor (10), mientras que las versiones estadounidenses dan al mariscal el número más bajo (1) para mostrar el valor más alto.
+Recientes versiones americanas del juego que adoptan el sistema europeo causan considerables quejas entre los jugadores americanos que crecieron en los años 1960 y 1970.
+Esto puede haber sido un factor en el lanzamiento de una edición clásica, en una caja de madera, que reproduce la edición de clásicos de la década de 1970.
+La versión electrónica de "Stratego" fue presentada por Milton Bradley en 1982.
+Tiene características que hacen muchos aspectos del juego notablemente diferentes a los del "Stratego" clásico.
+Cada tipo de pieza en el juego electrónico tiene una serie única de protuberancias en su parte inferior que son leídos por pilas sensible al tacto, el juego de "tablero".
+Cuando se ataca a otra ficha de un jugador se pulsa en el botón Strike, prensas de su propia pieza y luego la pieza que tiene como objetivo: el juego recompensa un ataque con éxito y castiga un ataque no exitoso con la música apropiada.
+De esta manera, los jugadores nunca saben con certeza el grado de la pieza que ha sufrido el ataque, sólo si el ataque sufrido, falla o vence.
+En lugar de optar por mover una pieza, un jugador puede optar por probar una pieza oponente pulsando el botón de la sonda y la presión sobre la pieza enemiga: el juego a continuación, emite un pitido aproximado a la fuerza de esa pieza.
+No hay piezas de bombas: las minas se establecen mediante estacas colocada en una superficie sensible al tacto que está oculta a la vista antes del inicio del juego.
+Por lo tanto, es posible que un jugador tenga su propia pieza ocupando la plaza de una mina.
+Si una pieza es colocada en la plaza, aparentemente vacía, de una mina, el juego reproduce el sonido de una explosión y la pieza se retira del juego.
+Como en el "Stratego" clásico, sólo un minero puede quitar una mina de la partida.
+Un jugador que logra capturar la bandera contraria es recompensado con un poco de la música triunfante de la Obertura 1812.
+Variantes y similares
+En China se juega un juego similar relativamente moderno llamado Luzhanqi, el cual tiene muchos aspectos en común con el juego occidental "Stratego" y que goza de notable popularidad en este país.
+Otras ediciones comerciales
+Además del juego de tablero "Stratego" clásico, existen adaptaciones a temáticas concretas, como:

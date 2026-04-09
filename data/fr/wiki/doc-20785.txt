@@ -1,0 +1,33 @@
+Analyse
+réelle|Propriété de fonction|Numérique
+En mathématiques, une fonction numérique est une fonction à valeurs réelles, c'est-à-dire qu'elle associe à toute valeur possible de ses variables un résultat numérique.
+Le terme est souvent employé pour désigner une fonction réelle d'une variable réelle, notamment dans l'enseignement secondaire, mais il recouvre aussi les notions de fonction de plusieurs variables ou de fonctions définies sur d’autres espaces topologiques comme les variétés différentiables, ou sur des structures discrètes comme les graphes.
+Une telle fonction peut représenter l'évolution d'une grandeur dans le temps ou décrire une grandeur qui dépend de la position de mesure dans un espace, comme la température ou la pression en météorologie.
+Elle peut aussi modéliser l'influence d'un ou plusieurs paramètres sur un résultat, comme le chiffre d'affaires d'une entreprise de production dépend du prix des produits et du nombre de produits vendus.
+L'étude des fonctions numériques est motivée principalement par plusieurs grands types de problèmes :
+* la détermination des antécédents d'une valeur donnée, qui correspond à une résolution d'équation ;
+* la recherche d'un maximum ou d'un minimum, qui constitue un problème d'optimisation ;
+* une mesure globale des valeurs, qui se ramène à une question d'intégration.
+Cette étude repose en général sur l'analyse des variations, la représentation graphique, l'approximation, l'interpolation ou le calcul de limites.
+Analyse des variations
+La variation d'une fonction entre deux points et de son domaine de définition est la différence .
+Le signe de cette différence permet donc de savoir en lequel de ces deux points la fonction admet sa plus grande valeur.
+Pour éviter de devoir calculer la variation entre chaque couple de points, on peut définir une fonction dérivée qui mesure les variations locales.
+Lorsque la variable est définie sur une réunion d'intervalles réels, cette dérivée est la limite du taux d'accroissement.
+Lorsque la variable est entière, la dérivée est simplement la différence entre deux termes consécutifs.
+Pour des fonctions de plusieurs variables réelles, ce rôle est rempli par les dérivées partielles et plus généralement les dérivées directionnelles.
+Sur un graphe, on peut calculer les variations pour chaque couples de nœuds voisins.
+Cette dérivée permet de localiser les extrema de la fonction.
+En effet, pour une fonction dérivable d'une ou plusieurs variables réelles, un extremum local est toujours atteint au bord du domaine ou en un point critique, c'est-à-dire en un point où la dérivée s'annule.
+Pour une suite numérique, les extrema locaux sont atteints aux points où la dérivée change de signe.
+Sur un graphe, les extrema locaux sont atteints aux nœuds en lesquels toutes les variations avec les nœuds voisins sont de même signe.
+Analyse du signe
+Quitte à soustraire globalement une constante à la fonction, la recherche d'un antécédent revient à la recherche des zéros, c'est-à-dire les antécédents de 0.
+De même, la résolution d'une inéquation se ramène à l'étude du signe d'une fonction.
+En dehors des cas où l'équation se résout algébriquement par factorisation, l'analyse des variations permet de tenter d'approcher des solutions.
+Avec une seule variable réelle ou entière, le signe de la dérivée permet de décomposer le domaine de définition en intervalles sur lesquels la fonction est monotone.
+Par dichotomie ou à l'aide de méthodes plus sophistiquées (notamment la méthode de Newton), on détermine assez rapidement les intervalles sur lesquels la fonction est positive.
+Pour une fonction de plusieurs variables, différents algorithmes comme la descente de gradient ou le recuit simulé peuvent aboutir à une localisation d'un zéro puis à l'approximation d'une ligne de niveau.
+Notes
+Voir aussi
+3rnuesh9tcf6l139rt0yoo8lm73flch

@@ -1,0 +1,44 @@
+La parola bit, in informatica e in teoria dell'informazione, ha due significati molto diversi, a seconda del contesto in cui rispettivamente la si usi.
+Significato
+* un bit è l'unità di misura dell'informazione (dall'inglese "binary digit"), definita come la quantità minima di informazione che serve a discernere tra due possibili eventi equiprobabili.
+* un bit è una cifra binaria, ovvero uno dei due simboli del sistema numerico binario, classicamente chiamati zero (0) e uno (1);
+in questo caso si può parlare di numero di 8, 16, 32... bit proprio come nella comune base dieci si parla di un numero di 2, 5, 6... cifre.
+La differenza di significato tra le due definizioni può riassumersi con una frase come:
+"la ricezione degli ultimi 100 bit (simboli binari) di messaggio ha aumentato la nostra informazione di 40 bit (quantità di informazione)" (la quantità di informazione portata da un simbolo dipende dalla probabilità a priori che si ha di riceverlo).
+Come quantità di informazione
+In questo contesto, un bit rappresenta l'unità di misura della quantità d'informazione.
+Questo concetto di bit è stato introdotto dalla teoria dell'informazione di Claude Shannon nel 1948, ed è usato nel campo della compressione dati e delle trasmissioni numeriche.
+Intuitivamente equivale alla scelta tra due valori quando questi hanno la stessa probabilità di essere scelti.
+In generale, per eventi non necessariamente equiprobabili, la quantità d'informazione di un evento rappresenta la "sorpresa" nel constatare il verificarsi di tale evento;
+per esempio, se un evento è certo, il suo verificarsi non sorprende nessuno, quindi il suo contenuto informativo è nullo;
+se invece un evento è raro, il suo verificarsi è sorprendente, quindi il suo contenuto informativo è alto.
+Matematicamente, la quantità d'informazione in bit di un evento è l'opposto del logaritmo in base due della probabilità di tale evento.
+La scelta del numero 2 come base del logaritmo è particolarmente significativa nel caso elementare di scelta tra due alternative (informazione di un bit), ma è possibile usare anche e (numero di Nepero), usando dunque il logaritmo naturale;
+in tal caso l'unità di misura dell'informazione si dice "Nat".
+Nel caso di due eventi equiprobabili, ognuno ha probabilità 0,5, e quindi la loro quantità di informazione è −log2 (0,5) = 1 bit.
+Se un evento è impossibile la probabilità è zero, cioè la sua quantità di informazione è infinita.
+Se un evento è certo, la sua probabilità è uno e la sua quantità di informazione è −log2 (1) = 0 bit.
+Se ci sono due possibili eventi, uno con probabilità 25% e l'altro con probabilità 75%, il verificarsi del primo evento convoglia l'informazione di −log2 (0,25)
+2 bit, mentre il verificarsi del secondo evento convoglia l'informazione di −log2 (0,75)
+~0,415 bit.
+Il contenuto informativo (o entropia) di un generatore di eventi (detto "sorgente") è la media statistica dei contenuti informativi di ogni possibile valore, ovvero la somma delle informazioni pesate per la probabilità del corrispondente valore.
+Nel caso dei due valori con probabilità 25% e 75%, il contenuto informativo della sorgente è:
+0,25 × −log2 (0,25) + 0,75 × −log2 (0,75) = ~0,811 bit.
+Cioè la sorgente genera meno di un bit per ogni evento.
+Nel caso di due eventi equiprobabili, si ha:
+0,5 × −log2 (0,5) + 0,5 × −log2 (0,5)
+0,5 × 1 + 0,5 ×
+1 bit.
+Cioè la sorgente genera esattamente un bit per ogni evento.
+Come cifra binaria
+In questo contesto il bit rappresenta l'unità di definizione di uno stato logico, definito anche unità elementare dell'informazione trattata da un elaboratore.
+La rappresentazione logica del bit è rappresentata dai soli valori .
+Ai fini della programmazione è comune raggruppare sequenze di bit in entità più vaste che possono assumere valori in intervalli assai più ampi di quello consentito da un singolo bit.
+Questi raggruppamenti contengono generalmente un numero di stringhe binarie pari a una potenza binaria, pari cioè a 2n;
+il più noto è il byte (chiamato anche ottetto), corrispondente a 8 bit, che costituisce l'unità di misura più utilizzata in campo informatico.
+Altri raggruppamenti di questo tipo sono i seguenti:
+* word di lunghezza variabile, corrisponde a 16 o 32 o 64 bit a seconda del tipo di macchina.
+(L'API di Windows definisce il tipo di dato WORD come un numero intero di 16 bit senza segno su tutte le piattaforme.
+Questa circostanza, unita alle normali esigenze di retrocompatibilità dei nuovi sistemi, fa sì che spesso la lunghezza di un word venga fissata pari a 16 bit indipendentemente dall'hardware.
+NB:
+Le espressioni word, double word e quad word vengono usate come tipo di dato in programmazione (prevalentemente in linguaggio assembly e in linguaggio C).

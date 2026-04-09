@@ -1,0 +1,116 @@
+Se denomina número decimal al número que tiene una representación decimal finita en el sistema de numeración decimal, y por tanto, es un número racional con denominador de la forma 2n5m, donde m y n son enteros no negativos.
+Para el resto de números reales, esta representación puede ampliarse todavía más utilizando infinitas cifras decimales periódicas y no periódicas, de forma que también suele conocerse «informalmente» como número decimal a cualquier número real escrito así, sobre todo en los primeros cursos de la educación primaria.
+Siguiendo la denominación informal, extendida en muchos ámbitos de la educación, los números decimales son aquellos que poseen una parte decimal, en contraposición a los números enteros, que carecen de ella.
+Parte entera y parte fraccionaria
+La parte entera corresponde a un número entero (es decir que puede ser cero, o un número negativo); la parte decimal o fraccionaria, corresponde al valor decimal situado entre cero y uno.
+**Logaritmo decimal, se distingue la mantisa de la característica; en log (0,001237)
+- 2,90763
+-3 + 0,09237,
+la característica es -3 y la mantisa es 0,09237.
+**En base duodecimal, el desarrollo de √5 es 2,29BB13254051..., siendo 2 el entero y 29BB13254051... la parte fraccionaria.
+**La notación científica permite escribir el número: 156 234 000 000 000 000 000 000 000 000 como 1,56234×1029, siendo 1,56234 el coeficiente.
+La función parte entera es igual al mayor (o menor) entero contenido dentro de un número,
+:: \lfloor -2,3 \rfloor = -3
+Notación decimal
+En la lengua española en la actualidad se emplean básicamente tres formas de anotar un número con parte decimal, según el signo empleado como separador decimal:
+El punto decimal: se emplea un punto (.
+) para separar la parte entera de la decimal, este método es el utilizado en las calculadoras electrónicas y en los ordenadores, rara vez se utiliza en la notación de cifras manualmente.
+3.141592 \;
+La coma decimal: se emplea una coma (,) como separador, esta forma en común en las publicaciones de habla hispana y se utiliza también en las notaciones manuales.
+3,141592 \;
+El apóstrofo decimal: el apóstrofo (') en ocasiones también llamado coma decimal es la forma usual de separar la parte decimal de un número en las notaciones a mano.
+3'141592 \;
+En todos los casos, las cifras decimales, no se separan en grupos con espacios en blanco u otro signo, sino que se escriben seguidas, sea cual sea el número de cifras decimales que forme la parte decimal del número en cuestión.
+Cifras decimales
+\begin
+\hline
+\rm d\acutecima & \longmapsto & 10^ & = & 0,1 \\
+\rm cent\acutesima & \longmapsto & 100^ & = & 0,01 \\
+\rm mil\acutesima & \longmapsto & 1\,000^ & = & 0,001 \\
+\rm diezmil\acutesima & \longmapsto & 10\,000^ & = & 0,0001 \\
+\rm cienmil\acutesima & \longmapsto & 100\,000^ & = & 0,00001 \\
+\rm millon\acutesima & \longmapsto & 1\,000\,000^ & = & 0,000001 \\
+\hline
+\end
+Aproximación decimal
+Si se toman en cuenta las cifras significativas, el número 0,080 es distinto del número 0,08, pues aunque representan la misma cantidad, el primero indica un grado de aproximación con tres cifras decimales.
+Fracción decimal
+Un número decimal x = a, a_1a_2 \dots a_n \dots admite una escritura formal (llamada la representación decimal) con base en series infinitas de fracciones decimales.
+Las fracciones decimales suelen expresarse sin denominador, con uso del separador decimal, es decir, como número decimal exacto.
+Ejemplos:
+*8 100, 83 10000 se escriben 0,8, 0,83, 0,083 y 0,0083
+*en general: \frac es una fracción decimal, en donde N es un número entero.
+Representación decimal
+Una fracción decimal no es necesariamente irreducible, pero todo número decimal finito puede escribirse como una fracción irreducible de la forma:
+:\frac,
+con b un entero primo relativo con 5 y 2, y m y p enteros naturales.
+La representación decimal de los números reales (y por tanto de los racionales) se basa en el límite de series del tipo
+: r=\sum_^\infty \frac.
+No unicidad en la representación decimal
+La escritura de los números enteros (excepto el 0) y de los números decimales exactos no es única si se admiten secuencias recurrentes de 9.
+**1
+1,\underline...
+0,\underline... = 0,99999\dots
+**El número cero (0) no tiene una representación con 9 recurrente.
+Clasificación
+Atendiendo a la definición, y llamando parte entera a la parte a la izquierda del separador decimal y parte decimal a la parte derecha del separador decimal, se puede construir la siguiente clasificación:
+\rm n \acute
+mero
+\left \{
+\begin
+\rm entero \\
+\rm decimal
+\left \{
+\begin
+\rm exacto \\
+\rm peri \acute dico
+\left \{
+\begin
+\rm puro \\
+\rm mixto
+\end
+\right .
+\rm no \ peri \acute dico
+\end
+\right .
+\end
+\right .
+Número decimal exacto
+Los números decimales cuya parte decimal tiene un número finito de cifras se denominan números decimales exactos.
+Se pueden escribir como fracción, y por tanto, pertenecen a un subconjunto de los números racionales.
+Estos números tienen la particularidad de que su representación decimal no es única.
+0,2
+0,1999...
+Número decimal periódico
+Son los números decimales cuya parte decimal tiene un número infinito de cifras que se repiten siguiendo un patrón, llamado periodo.
+Si el patrón comienza inmediatamente después del separador decimal, se denominan números decimales periódicos puros; si el patrón comienza después del anteperíodo, se denominan números decimales periódicos mixtos.
+Estos números también pertenecen a un subconjunto de los números racionales, puesto que puede ser expresados en forma de fracción.
+Decimal periódico puro
+Son los números decimales en los que la parte decimal se repite periódicamente, inmediatamente después del separador decimal.
+La parte periódica se suele señalar usualmente con una línea horizontal superior.
+Por ejemplo:
+: 0,33333...
+0,\overline \;
+\frac =\lim_ \left ( \sum_^ \frac \right)
+Decimal periódico mixto
+Son los números decimales en cuya parte decimal hay una parte no periódica, denominada antiperiodo, y otra periódica.
+La parte periódica se suele señalar con una línea horizontal superior.
+Por ejemplo:
+0,16666... = 0,1\overline \;
+Al igual que los números decimales periódicos puros, los números decimales mixtos siempre pueden ser expresados en forma de fracción; en el caso del ejemplo, la fracción equivalente sería 1/6.
+Número decimal no periódico
+Los números decimales no periódicos son los que contienen una parte decimal infinita y que no se repite.
+Estos números corresponden al conjunto de los números irracionales, y no pueden ser representados por medio de una fracción.
+Algunos de ellos son:
+\pi \, , \;
+e \, , \;
+\sqrt \, , \;
+\sqrt \, , \;
+\dots
+Puesto que los irracionales contienen infinitas cifras decimales y ningún período, es usual expresarlos en forma simbólica.
+Para efectuar cálculos numéricos, se toma el valor decimal numérico con el suficiente número de cifras decimales significativas para la obtención de datos con una determinada precisión, ya sea redondeando o truncando.
+Por ejemplo, en el caso del número π, aplicando un truncado a sus primeras cifras, se obtiene:
+:\pi \approx 314159265358979323846
+Sistema de numeración decimal posicional
+En el sistema de numeración decimal (de manera general, en un sistema de numeración posicional de base racional), las fracciones irreducibles cuyo denominador contenga factores primos distintos de los que factorizan la base diez (es decir, 2 y 5), carecerán de representación finita, dándose recurrencia pura cuando no haya ningún factor primo en común con la base, y recurrencia mixta cuando haya al menos un factor primo en común con la base.
+Véase también

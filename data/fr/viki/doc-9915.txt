@@ -1,0 +1,18 @@
+Un algorithme génétique est un algorithme qui utilise le principe de sélection naturelle pour chercher la meilleure solution à un problème donné.
+En simplifiant, on peut considérer qu'un être vivant est défini par son propre code génétique, c'est-à-dire l'ensemble de ses gènes (son ADN).
+Selon le principe de sélection naturelle, ce sont les êtres vivants les plus adaptés à leur environnement qui survivent, et cette adaptation (pour les êtres vivants sexués) se fait de deux façons :
+Illustration d'un croisement entre deux ADN (représentés ici par des bits) : les deux nouveaux ADN héritent chacun d'une partie différente des ADN parents.
+la mutation (l'un des gènes d'un individu est modifié) ;
+le croisement (deux individus, en se reproduisant, produisent de nouveaux individus ;
+l'ADN de ces derniers est un mélange de l'ADN des deux parents).
+Un algorithme génétique reprend ces idées mais les applique à la résolution d'un problème :
+les êtres vivants (ou plutôt leur ADN) deviennent les solutions du problème ;
+les contraintes de l'environnement deviennent les contraintes du problème ;
+moins une solution les respecte, plus elle risque d'être éliminée.
+Ainsi, il fait « évoluer » un ensemble de solutions comme s'il s'agissait d'une espèce vivante, en les faisant muter et en les croisant, et en sélectionnant finalement la ou les « meilleures ».
+Les algorithmes génétiques ne permettent pas de trouver la meilleure solution à tous les coups : à la place, ils « explorent », ils « voyagent » d'une solution à l'autre en cherchant à se rapprocher de la meilleure, et donc en optimisant la solution de départ (qui peut simplement être prise au hasard).
+On appelle ça une métaheuristique.
+C'est très pratique quand on ne sait pas résoudre un problème par le calcul (qui trouve la meilleure solution mais peut être extrêmement difficile) ou quand ce serait trop coûteux (en temps ou en mémoire par exemple), et qu'on peut se contenter de « l'une des meilleures » solutions au lieu de « la meilleure ».
+Les premiers algorithmes génétiques datent de la fin des années 1950.
+Le recuit simulé est un autre algorithme d'optimisation.
+Au lieu de la sélection naturelle, celui-ci s'inspire du refroidissement progressif utilisé en métallurgie (qui permet d'obtenir des métaux plus solides que lors d'un refroidissement incontrôlé).

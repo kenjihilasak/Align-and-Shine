@@ -1,0 +1,49 @@
+Lisp
+Les langages Lisp les plus connus (et les plus utilisés aujourd’hui) sont Common Lisp, Scheme et Clojure, ainsi qu’Emacs Lisp qui est utilisé par l’éditeur de texteEmacs.
+Même si Lisp englobe plusieurs langages, on en parle souvent comme d’un langage particulier (« le Lisp » ou simplement «
+Lisp »
+pour en évoquer le principe général.
+Lisp est l’un des langages de programmation les plus simples en termes de syntaxe : tout y est soit symbole (les nombres, les noms), soit parenthèse.
+C’est aussi l’un des langages les plus proches de l’idée mathématique de « programme informatique » et il possède des propriétés extrêmement puissantes, comme l’homoiconicité (le fait qu’un programme puisse se représenter avec les structures du langage lui-même ;
+dans le cas de Lisp, avec les listes).
+Tout commence par une liste :
+ABC
+C’est une liste de trois symboles : A, B et C. Pour Lisp, c’est aussi l’appel de la fonctionA à laquelle on donne B et C en entrée.
+Par exemple, l’évaluation (c’est-à-dire le calcul) de la liste :
++23)
+correspond à l’appel de la fonction « + » (addition) sur 2 et 3.
+Pour Lisp, c’est donc équivalent à la valeur 5.
+Pour faire comprendre à Lisp qu'on veut parler d'une « vraie » liste (une simple suite d’éléments), et pas d’un appel de fonction comme au-dessus, il faut le lui dire avec l’« opérateur quote » :
+quote(+23
+'(+23)
+En anglais, «
+quote » désigne l’apostrophe « ' ».
+Lisp n'essaie plus d'appliquer « + » à 2 et 3 car ce n’est plus une fonction pour lui, juste un symbole comme les autres.
+Il comprend donc que l’on parle de la suite de symboles « + 2 3 ».
+On peut le voir avec la fonction print, qui affiche des choses à l’écran :
+(print(+23))
+affiche :
+alors que
+print'(+23)
+affiche :
+On remarque que l’on n’a pas écrit « 2 + 3 » mais « + 2 3 ».
+C’est juste la notation qui change :
+« 2 + 3 » utilise la notation infixe,
+car l’opérateur « + » est entre les opérandes (infixe)
+« + 2 3 » utilise la notation préfixe (ou notation polonaise), où l’on met l’opérateur tout devant (préfixe).
+Cela signifie la même chose, c’est juste une écriture différente, bien plus pratique en Lisp .
+En effet, rien ne différencie, par exemple, « + » et « print » : ce sont toutes les deux des fonctions !
+Pourquoi alors utiliser « + » en notation infixe et « print » en préfixe ?
+Toutes les fonctions sont donc préfixes en Lisp, ce qui simplifie beaucoup la grammaire du langage et sa représentation mathématique.
+On peut définir nos propres fonctions avec l’opérateur defun :
+Lisp connaît désormais la fonction carré !
+Elle prend un nombre (n) et lui applique la fonction :
+*nn)
+On reconnaît bien la fonction carré : dans la notation « habituelle », infixe
+, on écrirait « n × n », c’est-à-dire n2{\displaystyle n^{2}}.
+Il est intéressant de remarquer que créer la fonction carré s’est fait en appelant une autre fonction…
+La fonction defun qui prend en entrée le nom de la nouvelle fonction, ses arguments et sa valeur de retour !
+C’est normal, car Lisp est un langage fonctionnel : dans les langages fonctionnels, tout passe par des fonctions et leurs valeurs.
+On a aussi utilisé des listes… forcément, on fait du Lisp !
+Lisp a été largement utilisé dans le domaine de l'intelligence artificielle symbolique quand celui-ci était très actif ;
+John McCarthy a d'ailleurs beaucoup contribué lui-même à l'essor de ce domaine de recherche.

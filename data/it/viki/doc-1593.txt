@@ -1,0 +1,51 @@
+Probabilità
+Si definisce probabilità di un evento il rapporto fra il numero dei casi favorevoli e quello dei casi possibili di un evento.
+evento possibile
+evento casuale
+Un evento si dice certo se accade sicuramente.
+Esempio:
+“Se in un magazzino ci sono 4 scatole verdi, le quali contengono 8 biglie blu, la probabilità di estrarre da ogni scatola una biglia blu è del 100% ”.
+Un evento si dice probabile se è possibile che si verifichi.
+Esempio:
+“Lanciando un dado la probabilità che esca un numero pari è 50% (3/6)”.
+Un evento si dice casuale quando dipende dal caso.
+Esempio:
+“La probabilità che nasca un figlio maschio o una figlia femmina è casuale (dipende dal caso)”.
+TIPO EVENTO
+FREQUENZA
+PROBABILITA'
+FORMULA
+evento certo
+si verifica sempre
+Per calcolare la probabilità di un evento bisogna:
+determinare il numero di tutti i casi possibili determinare il numero dei casi favorevoli calcolare il rapporto tra il numero dei casi favorevoli e il numero dei casi possibili.
+p (E)= (numero dei casi favorevoli) n
+Due eventi semplici sono indipendenti tra loro se il verificarsi dell’uno non influenza in alcun modo il verificarsi dell’altro.
+Esempio:
+“Se due giocatori di calcio devono lanciare un calcio di rigore a testa, la probabilità che uno di loro faccia goal non è influenzata dalla possibilità che l’altro vi riesca”.
+Due eventi si dicono dipendenti se il verificarsi dell’uno influisce sul calcolo della probabilità del verificarsi dell’altro.
+Esempio:
+“Un sacchetto contiene 30 biglie, di cui 20 gialle e 10 viola.
+Calcola la probabilità di pescare una biglia gialla e una viola con 2 estrazioni consecutive.
+Una volta estratta la prima biglia la stessa non viene rimessa nel sacchetto”.
+Per calcolare la probabilità di un evento composto da due eventi semplici indipendenti si deve trovare il prodotto delle probabilità dei due eventi.
+Esempio 1:
+“Lanciando due monete, per calcolare quante probabilità ci sono che esca croce in entrambe, si deve moltiplicare la probabilità che esca croce su una per la probabilità che esca sull’altra:
+E1 “esce croce su moneta 1” (evento indipendente)
+½ E2 “esce croce su moneta 2” (evento indipendente) ½pE = ½ * ½ = ¼
+Esempio 2:
+“In 2 sacchetti ci sono 2 macchinine verdi e una azzurra in ognuno.
+La probabilità che vengano estratte 2 macchinine verdi è di 4 su 9 (4/9).
+Si può calcolare la probabilità di 2 eventi dipendenti servendosi di un grafo ad albero.
+Se due eventi sono compatibili, la loro probabilità si somma, con l'operatore booleano "E" (AND).
+Esempio:
+Se abbiamo un mazzo di carte con i quattro segni (cuori, quadri, picche e fiori), per trovare la p di pescare una carta di cuori e una di picche in un mazzo di carte da 52, dobbiamo calcolare la probabilità di un evento doppio.
+Sapendo che ci sono 13 carte per ogni segno, le probabilità di pescare una delle 13 carte di picche "E" delle 13 carte di cuori su 52 sono:
+52= 50%
+L’operatore booleano “O” (OR) applicato a due eventi parziali E1 e E2 li definisce incompatibili tra loro, in quanto non possono verificarsi in contemporanea;
+“O” accade uno “O” accade l’altro.
+Per calcolare la probabilità totale che avvengano i due eventi parziali incompatibili tra loro, si devono sommare le probabilità dei due eventi parziali.
+Esempio:
+“Calcola la probabilità che nel lancio di un dado esca il 4 (E1) o un numero dispari (E2)” All’evento che esca il numero 4 (E1) corrisponde 1 caso favorevole su 6 totali, mentre all’evento che esca un numero dispari (E2) corrispondono 3 casi favorevoli su 6 totali.
+Un dado ha 6 (numeri) facce quindi:
+E1= 1 6 = 3 casi favorevoli e 6 faccepE= pE1+pE2= 1 6 = 4 3 = 0,66 = 66%

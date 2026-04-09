@@ -1,0 +1,75 @@
+Théorie des ensembles|Propriété de fonction|Bijectivite
+En mathématiques, une bijection est une application bijective.
+Une application est bijective si et seulement si tout élément de son ensemble d'arrivée a un et un seul antécédent, c'est-à-dire est image d'exactement un élément (de son domaine de définition), ou encore si elle est injective et surjective.
+Les bijections sont aussi parfois appelées correspondances biunivoques.
+On peut remarquer que dans cette définition, on n'impose pas de condition aux éléments de l'ensemble de départ, autre que celle qui définit une application : tout élément a une image et une seule.
+S'il existe une bijection f d'un ensemble E dans un ensemble F alors il en existe une de F dans E : la bijection réciproque de f, qui à chaque élément de F associe son antécédent par f.
+On peut alors dire que ces ensembles sont en bijection, ou équipotents.
+Cantor a le premier démontré que s'il existe une injection de E vers F et une injection de F vers E (non nécessairement surjectives), alors E et F sont équipotents (c'est le théorème de Cantor-Bernstein).
+Si deux ensembles finis sont équipotents alors ils ont le même nombre d'éléments.
+L'extension de cette équivalence aux ensembles infinis a mené au concept de cardinal d'un ensemble, et à distinguer différentes tailles d'ensembles infinis, qui sont des classes d'équipotence.
+Ainsi, on peut par exemple montrer que l'ensemble des entiers naturels est de même taille que l'ensemble des rationnels, mais de taille strictement inférieure à l'ensemble des réels.
+En effet, de \N dans il existe des injections mais pas de surjection.
+Définitions formelles
+Définition fonctionnelle
+Une application f:E\to F est bijective si tout élément de l'ensemble d'arrivée F a exactement un antécédent par f, ce qui s'écrit formellement :
+\forall y\in F\quad\exist!\ x\quad f (x)=y
+ou, ce qui est équivalent, s'il existe une application g:F\to E qui, composée à gauche ou à droite par f, donne l'application identité :
+g\circ f
+\operatorname_E et f\circ g
+\operatorname_F
+c'est-à-dire :
+f (x)
+y\Longleftrightarrow g (y)
+Une telle application g est alors déterminée de manière unique par f.
+On l'appelle la bijection réciproque de f et on la note f^. C'est aussi une bijection, et sa réciproque est f.
+Définition relationnelle
+Une bijection de E dans F est une relation binaire R de E dans F qui est une application et dont la relation réciproque R^ est aussi une application.
+De façon plus détaillée, R doit posséder les quatre propriétés suivantes :
+*:soit : tout élément de E a
+au moins une image par R ;
+*:soit : tout élément a au plus un antécédent par R ;
+*:soit : tout élément de F a au moins un antécédent par R.
+L'injectivité de R équivaut à la fonctionnalité de R^ et la surjectivité de R équivaut à l'« applicativité » de R^.
+Il est usuel de représenter une relation binaire fonctionnelle R par une fonction f en posant : xRy si et seulement si f (x) = y. Si l'on précise que f est une application, on suppose que R est fonctionnelle et applicative.
+La symétrie entre fonctionnalité et injectivité d'une part, et entre « applicativité » et surjectivité d'autre part, donne que si R est une relation bijective alors R^ l'est aussi.
+Exemple
+concret
+Prenons le cas d'une station de vacances où un groupe de touristes doit être logé dans un hôtel.
+Chaque façon de répartir ces touristes dans les chambres de l'hôtel peut être représentée par une application de l'ensemble X des touristes vers l'ensemble Y des chambres (à chaque touriste est associée une chambre).
+* L'hôtelier souhaite que l'application soit surjective, c'est-à-dire que chaque chambre soit occupée.
+Cela n'est possible que s'il y a au moins autant de touristes que de chambres.
+* Les touristes souhaitent que l'application soit injective, c'est-à-dire que chacun d'entre eux ait une chambre individuelle.
+Cela n'est possible que si le nombre de touristes ne dépasse pas le nombre de chambres.
+* Ces souhaits sont incompatibles si le nombre de touristes est différent du nombre de chambres.
+Dans le cas contraire, il sera possible de répartir les touristes de telle sorte qu'il y en ait un seul par chambre, et que toutes les chambres soient occupées : on dira alors que l'application est à la fois injective et surjective ;
+elle est bijective.
+Exemples et contre-exemples
+*La fonction affine f:\R\to\R définie par est bijective, puisque pour tout réel , il existe exactement une solution réelle de l’équation d'inconnue , à savoir : .
+*La fonction carré g:\R\to\R définie par n’est pas bijective, pour deux raisons.
+La première est que l'on a (par exemple) , et donc n’est pas injective ;
+la seconde est qu'il n'y a (par exemple) aucun réel tel que , et donc n’est pas surjective non plus.
+L'une ou l'autre de ces constatations est suffisante pour affirmer que n'est pas bijective.
+En revanche, l'application \R_+\to\R_+,\,x\mapsto x^2 est bijective.
+L'explication est que pour tout réel positif , il existe exactement une solution réelle positive de l’équation , qui est .
+La fonction racine carrée est donc la bijection réciproque de la fonction carré sur ces ensembles.
+De même, la fonction sinus, vue comme une application de \R dans \R, n'est ni injective, ni surjective, donc pas bijective ;
+**sa corestriction \sin:\R\to-1,1 est surjective mais pas injective (par exemple, 0 et \pi ont la même image) donc pas bijective ;
+**sa restriction \sin:-,\to\R est injective mais pas surjective (par exemple, 2 n'est l'image d'aucune valeur) donc pas bijective ;
+**sa restriction
+-corestriction \sin:-,\to-1,1 est bijective (comme aussi une infinité d'autres de ses restrictions-corestrictions) ;
+**cependant
+, la fonction arc sinus prenant les mêmes valeurs, mais vue comme une application de -1,1 dans \R, est injective mais pas surjective (par exemple, \pi n'est l'image d'aucune valeur) donc pas bijective.
+La fonction sigmoïde f:\R\to0,1 définie par f (x)=\frac est bijective et est souvent utilisée en informatique, notamment dans les réseaux de neurones.
+Propriétés
+*Les bijections sont les isomorphismes dans la catégorie des ensembles.
+Si f et h sont bijectives alors h\circ f est bijective et (h\circ f)^=f^\circ h^.
+**Si h\circ f est bijective alors f
+est injective et h est surjective.
+*Pour tout ensemble E, les bijections de E sur lui-même s'appellent les permutations de E. Elles forment, avec l’opération ∘ de composition des applications, un groupe appelé le groupe symétrique de E et noté S (E) ou \mathfrak S (E).
+Le nombre de bijections entre deux ensembles finis de même cardinal n est n!.
+Une application de ℝ dans ℝ est bijective si et seulement si son graphe intersecte toute droite horizontale en exactement un point.
+Pour qu'une application d'un ensemble fini dans lui-même soit bijective, il suffit qu'elle soit injective ou surjective (elle est alors les deux).
+On peut le voir comme une application du principe des tiroirs.
+NB : il peut exister une bijection entre deux ensembles infinis dont l'un est strictement inclus dans l'autre.
+On en trouve de nombreux exemples dans le cas dénombrable.

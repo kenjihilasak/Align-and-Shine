@@ -1,0 +1,20 @@
+Sommaire
+Voici un exemple de programme en Python.
+Le programme demande 2 nombres à l'utilisateur et affiche leur somme.
+nombre_1=int(input("Nombre 1 :"))# Entrée du nombre 1nombre_2=int(input("Nombre 2 :"))
+# Entrée du nombre 2somme
+=nombre_1+nombre_2
+Calcul de leur sommeprint(nombre_1,"+",nombre_2,"=",somme)
+Affichage de la somme sous la forme : "1 + 2 = 3"
+Le même code en C++.
+#include
+usingnamespacestd;intmain(){intnombre_1;/ /
+Afficher
+l'opération
+et le résultat sous la forme
+"1 + 2 = 3"}
+La première machine programmable, c'est-à-dire dont les tâches exécutées changent quand on modifie le programme, est probablement le métier à tisser Jacquard, conçu en 1801.
+Cartes perforées du métier à tisser Jacquard
+Carte perforée à 80 colonnes
+Il tissait des motifs différents selon les cartes perforées que l'on insérait à l'intéreur de la machine.
+Les cartes perforées sont d'ailleurs longtemps restées l'unique moyen de communication homme-machine, avant l'arrivée de l'interface en ligne de commande (ILC), jusqu'à l'arrivée des disquettes d'IBM, vers la fin des années 1960.

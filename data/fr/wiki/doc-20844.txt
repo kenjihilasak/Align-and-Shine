@@ -1,0 +1,118 @@
+Domaine de premier niveau|*|Identifiant|Norme|Code géographique
+Dans le système de noms de domaine, un domaine de premier niveau ou un domaine de tête (en anglais , abrégé TLD), aussi appelé une extension, est un sous-domaine de la racine.
+Dans un nom de domaine, le domaine de premier niveau est généralement le dernier label du nom de domaine (exemple : dans que l'on peut aussi écrire , le domaine de premier niveau est ).
+Le dernier point est optionnel.
+À l'origine, il indiquait la fin du nom de domaine.
+Par simplicité, dans la vie courante, l'usage courant est de ne plus l'indiquer.
+Il peut toutefois être nécessaire dans la configuration de certains serveurs spécifiques (comme bind9).
+Dans cet article, le dernier point est systématiquement omis.
+Le point précédant le domaine de premier niveau sert à séparer le domaine de premier niveau du sous-domaine.
+Les domaines de premier niveau suivants sont fréquemment utilisés :
+.com, .net et .org.
+Sur Internet
+La liste des domaines de premier niveau d'Internet compte environ de premier niveau.
+On distingue :
+Chaque domaine de premier niveau est géré par une organisation qui est chargée d'allouer (éventuellement de manière commerciale) ses sous-domaines.
+Les domaines génériques se divisent en domaines génériques non parrainés et en domaines génériques parrainés.
+D'une manière générale, un domaine générique non parrainé obéit à des règles établies par l'ensemble de la communauté Internet représentée par l'ICANN alors qu'un domaine générique parrainé obéit à des règles établies par un organisme de gestion représentant la communauté étroite qui utilise le domaine.
+Les domaines génériques non parrainés se divisent en domaines génériques non parrainés ouverts et en domaines génériques non parrainés restreints.
+Les domaines ouverts sont ouverts à tous, quels que soient leurs domaines d'activités, alors que les domaines génériques non parrainés restreints sont destinés à des organisations ou des personnes possédant des caractéristiques précises (tout comme les domaines parrainés).
+En revanche, contrairement aux domaines parrainés, les demandes de sous-domaines dans des domaines génériques non parrainés restreints ne font pas l'objet d'une validation avant l'attribution du nom de sous-domaine.
+Les domaines génériques parrainés sont gérés de façon stricte par un organisme de gestion.
+Cet organisme, qui a reçu son autorité de l'ICANN, a beaucoup de latitude dans l'établissement des règles et dans la gestion du domaine qui lui est attribué.
+L'une des fonctions de l'organisme est de s'assurer que le demandeur d'un sous-domaine possède bien les caractéristiques qui sont affichées par le nom du domaine.
+Ainsi l'organisme de gestion du domaine .museum
+s'assure qu'un demandeur est bien un musée, une association muséale ou un membre de la profession muséale.
+Domaine de premier niveau spécial
+Domaine de premier niveau national
+Un domaine de premier niveau national (aussi connu sous les noms anglais de ou ccTLD) est un domaine de premier niveau associé à un pays ou un territoire, indépendant ou non.
+Exemples : .be pour la Belgique, .ca pour le Canada, .ch pour la Suisse (Confédération helvétique), .fr pour la France, .re pour La Réunion.
+L'inclusion d'un domaine de premier niveau dans un nom de domaine ne confirme pas la nationalité de l'organisation qui le possède ni sa présence sur le territoire mentionné.
+Pour utiliser un domaine de premier niveau national, il suffit de s'enregistrer auprès du bureau d'enregistrement correspondant.
+Certains bureaux d'enregistrement exigent une adresse postale dans le territoire correspondant, ce qui n'est pas très contraignant car il peut s'agir d'une simple boîte postale.
+D'autres bureaux d'enregistrement n'exigent même pas que le demandeur possède une telle adresse postale.
+Les domaines nationaux comportent tous deux lettres, correspondant pour la plupart au standard ISO 3166-1 des codes de pays.
+Inversement, ce sont les seuls domaines de premier niveau à comporter deux lettres.
+La création et la délégation de la gestion des domaines nationaux sont de la responsabilité de l' (IANA).
+L'IANA est une composante de l'ICANN, l'autorité suprême de régulation de l'Internet.
+Domaine de premier niveau générique
+Un domaine de premier niveau générique ( ou ) est un domaine de premier niveau destiné à accueillir des sous-domaines possédant une caractéristique commune autre que géographique.
+Par exemple, .com est destiné à accueillir des sous-domaines de type commercial (du moins c'était le cas à l'origine ;
+aujourd'hui, ce domaine est ouvert à tous) et .mil est destiné à accueillir des sous-domaines de type militaire.
+Les domaines génériques se divisent en domaines génériques non parrainés et en domaines génériques parrainés.
+Les domaines génériques non parrainés se divisent en domaines génériques non parrainés ouverts et en domaines génériques non parrainés restreints.
+Les domaines ouverts sont ouverts à tous quels que soient leurs domaines d'activité, alors que les domaines génériques non parrainés restreints sont destinés à des organisations ou des personnes possédant des caractéristiques précises (tout comme les domaines parrainés).
+En revanche, contrairement aux domaines parrainés, les demandes de sous-domaines dans des domaines génériques non parrainés restreints ne font pas l'objet d'une validation avant l'attribution du nom de sous-domaine.
+Domaine générique ouvert
+Un domaine générique ouvert est un domaine générique qui n'impose pas de règles aux utilisateurs qui veulent obtenir un sous-domaine dans ce domaine.
+Un utilisateur peut donc utiliser un sous-domaine pour une activité qui n'est pas conforme au type d'activités indiqué par le domaine.
+Ainsi, une entreprise qui n'a rien à voir avec les réseaux peut réserver un sous-domaine dans le domaine .net.
+L'inscription de noms de sous-domaines dans un domaine générique ouvert est largement soumis à la concurrence, et peut se faire via de nombreux registrars internationaux qui doivent être approuvés par l'ICANN.
+Ces domaines génériques, ouverts à tous sans restrictions, suivant la règle du premier demandeur servi, sont les plus fréquemment utilisés sur Internet.
+Toutefois des règles de nommage existent pour l'enregistrement de noms de sous-domaine dans certains domaines de second niveau réservés dans certains registres de second niveau.
+Les premiers domaines génériques ouverts ont été créés en 1985.
+sont :
+* .com : organismes commerciaux ou à but lucratif (exemple : , Google) ;
+* .net
+réseaux (en anglais : Network) (exemple : , GANDI) ;
+* .org : organisations à but non lucratif (exemple : , Wikipédia).
+Un nouveau domaine générique ouvert a été ajouté en 2001 :
+* .info : services d'information (exemple : ).
+Plus de 300 noms de domaines ouverts devraient être ajoutés au courant de 2014.
+La liste des domaines de premier niveau ouverts se trouve sur la page Liste des domaines Internet de premier niveau.
+Domaine générique restreint
+Un domaine générique restreint est un domaine générique qui propose des règles aux utilisateurs qui veulent obtenir un sous-domaine dans ce domaine.
+Par contre, contrairement aux domaines parrainés, les demandes de sous-domaines dans des domaines génériques restreints ne font pas l'objet d'une validation avant l'attribution du nom de sous-domaine.
+Les domaines génériques restreints
+sont :
+Informations sur les domaines génériques restreints
+Domaine de premier niveau parrainé
+Un domaine de premier niveau parrainé (ou commandité, aussi connu sous le nom anglais de ou sTLD) est un domaine de premier niveau qui confirme le domaine d'activités de l'organisation qui le possède.
+Les domaines parrainés ne sont pas ouverts à tous et fixent des conditions d'accès aux requérants, ou des conditions techniques d'utilisation.
+L'organisation tenant le registre du domaine parrainé peut dans certains cas procéder directement à l'enregistrement des noms de sous-domaine, sans nécessité de passer par un registrar approuvé.
+Toutefois des registrars approuvés peuvent proposer l'enregistrement, mais le registrant doit fournir au registre les preuves de légitimité sur le nom demandé.
+L'inscription de noms de domaines de premier niveau parrainés est réservée aux organisations exerçant une activité dans le secteur concerné, indépendamment de leur localisation dans le monde.
+Ou bien l'inscription est réservée aux personnes pouvant prouver un droit sur le nom concerné.
+Des conditions techniques sur l'utilisation du domaine peuvent aussi être requises et vérifiées.
+Les premiers domaines de premier niveau parrainés, approuvés en 1985, ont été :
+* .edu : pour les institutions éducatives accréditées aux États-Unis (exemple : , le )
+ainsi que les institutions éducatives d'autres pays dont les formations ont été approuvées aux États-Unis tels que , l'École Polytechnique en France ;
+* .gov : pour les organismes gouvernementaux américains (exemple : , la Maison-Blanche) ;
+* .mil : pour les organismes militaires américains (exemple : , l).
+De nombreux autres domaines se sont ajoutés depuis.
+Voir la liste des domaines de premier niveau parrainés.
+Domaine de premier niveau réservé
+Un domaine de premier niveau réservé ( ou ) est un domaine de premier niveau qui a été réservé pour un usage autre que pour construire des sous-domaines réels dans le système de nom de domaine () d'Internet.
+Le nom d'un domaine de premier niveau réservé n'est pas inclus dans les serveurs racines du DNS.
+Le définit quatre domaines de premier niveau réservés :
+* .example : réservé pour une utilisation dans des exemples ;
+* .invalid : réservé pour une utilisation manifestement non valide ;
+* .localhost : réservé pour éviter tout conflit avec l'utilisation traditionnelle de localhost ;
+En 2007, onze autres domaines de premier niveau avec un nom de domaine internationalisé avaient été réservés :
+Sur un réseau informatique privé
+Les domaines de premier niveau précédents sont en vigueur sur Internet, mais sont le résultat d'un choix arbitraire.
+Sur un réseau local, on peut tout à fait utiliser des domaines de premier niveau, et leur donner la sémantique que l'on veut.
+On utilise fréquemment le domaine de premier niveau .lan (en anglais, = réseau local) ou .local ou .localnet.
+D'autres domaines de premier niveau peuvent être utilisés localement en fonction des besoins.
+Exemples : .achat pour le département des achats, .prod pour le département de la production ou .fact pour le département de la facturation.
+L'usage de ces autres domaines de premier niveau n'est pas recommandé, car il existe un risque de collision avec des domaines de premier niveau d'Internet, et donc de fragmentation du réseau.
+Pseudo-domaine de premier niveau
+Un pseudo-domaine de premier niveau était autrefois un suffixe qui était ajouté à un message de courrier électronique provenant d'un réseau autre qu'Internet pour permettre son acheminement sur Internet.
+À une époque, Internet n'était qu'un réseau informatique étendu parmi d'autres.
+Les ordinateurs non connectés à Internet mais à un autre réseau comme BITNET, OZ, CSNET ou UUCP, pouvaient généralement échanger du courrier électronique avec Internet via des passerelles de courrier électronique.
+Pour être relayés à travers les passerelles, les messages associés à ces réseaux étaient étiquetés avec des suffixes comme .bitnet, .oz, .csnet et .uucp, mais les domaines correspondant à ces étiquettes n'existaient pas dans le système de nom de domaine d'Internet.
+La plupart de ces réseaux ont depuis longtemps disparu.
+UUCP, qui est encore en utilisation dans les régions du monde où l'infrastructure Internet n'est pas encore bien établie, utilise maintenant les noms de domaine d'Internet.
+En conséquence, la plupart des pseudo domaines de premier niveau sont maintenant des vestiges du passé.
+Une exception notable est l'émergence en 2007 du courrier électronique SWIFTNet Mail, qui utilise le pseudo domaine .swift.
+Il peut également être fait usage de pseudo-domaines de premier niveau dans le cas de réseaux reposant sur Internet, mais accessibles uniquement via certains programmes, qui se chargent donc de résoudre les adresses, tels que Tor avec les adresses en .onion.
+Le pseudo-domaine .local mérite
+une mention spéciale
+car il est requis par le protocole Zeroconf.
+Il est également utilisé à l'interne par de nombreuses organisations, ce qui pourrait devenir un problème pour ces organisations si Zeroconf devient de plus en plus populaire.
+Les nouveaux domaines de premier niveau
+Depuis 2012, l'autorité qui gère la régulation des noms de domaine dans le Monde, l'ICANN, a autorisé la création de près de domaines de premier niveau.
+Leur déploiement a commencé en 2014.
+Ainsi, par exemple, il est maintenant possible de réserver des sous-domaines dans :
+La Bretagne a réussi à obtenir son propre domaine de premier niveau (.bzh), à l'instar de Paris.
+L’ (IANA) liste les domaines de premier niveau disponibles sur son site.

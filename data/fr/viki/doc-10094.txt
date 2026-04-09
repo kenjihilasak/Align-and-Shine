@@ -1,0 +1,32 @@
+Haskell
+Logo de Haskell.
+On reconnaît le lambda (λ) du lambda calcul.
+Haskell est un langage :
+fonctionnel :
+il consiste principalement en l'évaluation de fonctions (au sens mathématique) pour produire des valeurs, contrairement aux langages impératifs (comme le C) qui fonctionnent majoritairement par effets de bord ;
+pur :
+par défaut, les effets de bord sont impossibles.
+S'il est pur, un programme peut être prouvé, c'est-à-dire qu'on peut montrer de façon rigoureuse qu'il se comportera toujours comme on l'attend (ce qui est nécessaire par exemple en aéronautique ou dans les centrales nucléaires) ;
+typé statiquement : le type de tous les objets du programme est déterminé lors de sa compilation ;
+paresseux : il ne calcule les valeurs que lorsqu'il en a besoin, ce qui lui permet par exemple de travailler avec des objets infinis.
+Sommaire
+Même si, comme Lisp, Haskell repose en grande partie sur la théorie du lambda calcul, il y ressemble beaucoup moins et est bien plus lisible.
+Dans de nombreux cas, un programme Haskell ressemble à une preuve mathématique.
+Par exemple, en mathématiques, la fonction valeur absolue (qui renvoie 5 pour -5 et 4 pour 4) est définie, pour tout nombre x{\displaystyle x}, comme :
+Comme Haskell met en œuvre l'inférence de types, il n'est pas nécessaire de préciser que x est un nombre réel : il le devine à partir des opérations de comparaison (>=) et de négation (-).
+Cependant, on pourrait forcer notre fonction abs à n'accepter que des nombres entiers :
+Ici, on précise que abs prend un entier et renvoie (->) un entier.
+Avec cette restriction, le compilateur Haskell refuse de produire un programme où l'on essaierait (et même où l'on pourrait essayer) de calculer la valeur absolue d'un nombre non entier.
+Haskell est un langage compilé et interprété.
+Le compilateur/interpréteur principal de Haskell est GHC, mais il en existe d'autres comme Hugs.
+On a dit que, par défaut, Haskell interdisait les effets de bord (écrire à l'écran, lire les entrées du clavier ou les actions de la souris, etc.).
+Cependant, ils sont indispensables pour de nombreuses applications !
+Il est donc possible d'utiliser des effets de bord dans un programme Haskell mais, pour respecter la cohérence et l'aspect fonctionnel du langage, ils sont encapsulés dans des objets appelés monades.
+Une monade peut être vue comme un conteneur de code à effets de bord au milieu d'un programme pur (sans effet de bord).
+En fait, grâce aux monades, le programme Haskell n'utilise pas directement des effets de bord mais manipule du code (la monade) qui, lui, produit des effets de bord ;
+il le manipule comme il manipule les fonctions, c'est-à-dire « de façon fonctionnelle pure ».
+Les effets de bord sont ainsi complètement déconnectés du reste du programme et ne remettent pas en question sa démontrabilité.
+Cette propriété permet d'écrire des programmes sûrs, c'est-à-dire dont on peut prouver qu'ils ne planteront jamais.
+Plus généralement, les programmes écrits dans des langages fonctionnels autant que possible purs (Haskell, Caml) sont réputés beaucoup plus robustes que les autres.
+De plus, les langages fonctionnels purs sont parfaitement adaptés au parallélisme de calcul : en effet, il ne peut y avoir de modification simultanée d'une variable (la hantise du calcul parallèle car la mémoire n'est alors plus dans un état cohérent) puisque, par définition, il ne peut y avoir de modification de variable.
+Même si Haskell se prête très bien aux calculs scientifiques (logique, mathématiques, informatique, physique, etc.), il est utilisé dans de nombreuses autres applications : des jeux vidéo, des serveursWeb ou courriel, des lecteurs de musique, des gestionnaires de fenêtres (xmonad(wp)), etc.

@@ -1,0 +1,206 @@
+Système d'exploitation
+En informatique, un système d'exploitation (souvent appelé OS
+- de l'anglais ) est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.
+Un système d'exploitation apporte commodité, efficacité et capacité d'évolution, permettant d'introduire de nouvelles fonctions et du nouveau matériel sans remettre en cause les logiciels.
+Il existe sur le marché des dizaines de systèmes d'exploitation différents.
+C'est le cas de Windows, Mac OS, Irix, Symbian OS, GNU/Linux, (pour lequel il existe de nombreuses distributions) ou Android.
+Les fonctionnalités offertes diffèrent d'un système à l'autre et sont typiquement en rapport avec l'exécution des programmes, l'utilisation de la mémoire centrale ou des périphériques, la manipulation des systèmes de fichiers, la communication, ou la détection et la gestion d'erreurs, Linux ou z Linux, iOS et Android) et Windows.
+Cette dernière détient un quasi-monopole sur les ordinateurs personnels avec près de 90 % de part de marché depuis .
+Fonctionnalités
+Le système d'exploitation offre une suite de services généraux facilitant la création et l'utilisation de logiciels applicatifs.
+Les services offerts sont en rapport avec l'utilisation des ressources de l'ordinateur par les programmes.
+Le principal rôle du système d'exploitation est alors de gommer les différences entre les différentes architectures informatiques, et d'organiser l'utilisation des ressources de façon rationnelle :
+* Utilisation des périphériques : chaque périphérique a ses propres instructions, avec lesquelles il peut être manipulé.
+Le système d'exploitation en tient compte.
+Il permet au programmeur de manipuler le périphérique par de simples demandes de lecture ou d'écriture, lui évitant la perte de temps de traduire les opérations en instructions propres au périphérique.
+Le système d'exploitation assure la réservation des différentes ressources pour les besoins des programmes exécutés simultanément.
+Les réservations peuvent être inscrites dans des journaux d'activités à des fins de statistiques ou de dépannage et le système d'exploitation peut refuser une réservation à un utilisateur n'ayant pas reçu d'autorisation.
+Interface de programmation
+Les appels système permettent des interactions entre un programme en cours d'exécution et le système d'exploitation.
+L'utilisation d'appels système ressemble a celle de fonctions ou de sous-routines ordinaires en langage C ou Pascal.
+Certains systèmes d'exploitation créent des processus pour effectuer certaines tâches propre au système.
+Le système d'exploitation réserve un emplacement de mémoire lorsqu'un processus le demande, et le libère lorsqu'il n'est plus utilisé, par exemple lorsque le processus s'est arrêté.
+Dans les systèmes d'exploitation contemporains, plusieurs programmes sont exécutés en même temps et utilisent simultanément la mémoire centrale, une partie des informations est stockée dans la mémoire de masse habituellement plus importante mais plus lente et sont transférées en mémoire centrale lorsque le programme en a besoin.
+Les programmes disposent d'un (ou plusieurs) espaces virtuels de mémoire continus pour travailler.
+Les adresses des données sont dites virtuelles dans la mesure où l'information adressée ne se trouve pas forcément ni en mémoire centrale, ni à l'adresse indiquée.
+Lorsque le programme essaie de lire ou écrire une donnée dans sa mémoire virtuelle, l'unité de gestion de mémoire cherche l'adresse physique correspondant à l'adresse virtuelle sollicitée grâce à une table de correspondance.
+Si l'emplacement n'est pas présent en mémoire centrale (on appelle cela une faute de page), il n'y aura évidemment aucune adresse physique correspondante.
+Le système d'exploitation devra alors chercher à libérer un espace en mémoire centrale en échangeant (anglais swap) le contenu d'un emplacement donné de mémoire centrale avec le contenu sollicité, qui se trouve en mémoire de masse.
+Cette opération s'effectue automatiquement, à l'insu des programmes.
+Des mémoires associatives, incorporées dans l'unité de gestion de mémoire, accélèrent le calcul des adresses.
+Les systèmes d'exploitation utilisent généralement deux mémoires associatives : une pour le mode noyau et une pour le mode utilisateur.
+La mémoire du mode noyau est arrangée de manière à permettre au processeur d'utiliser la totalité de la mémoire centrale disponible
+- lors de l'exécution des programmes du noyau du système d'exploitation.
+Tandis que celle du mode utilisateur est arrangée de manière à protéger le noyau (qui est ainsi invisible pour le programme en question)
+- lors de l'exécution des programmes hors du noyau.
+C'est ce que l'on nomme la protection, et ces mécanismes constituent les principales caractéristiques du mode protégé.
+Chaque programme dispose de sa propre table de correspondance, ce qui permet de les isoler les uns des autres.
+Lors d'une commutation de contexte, le système d'exploitation placera la table du programme courant dans la mémoire associative.
+Le système d'exploitation crée également de nouvelles tables pour les programmes qui démarrent et décide quels emplacements de mémoire virtuelle seront ou ne seront pas présents en mémoire centrale.
+Périphériques
+Les périphériques sont tous les dispositifs informatiques qui permettent au processeur de communiquer avec l'extérieur : clavier, imprimante, carte réseau, mémoire, disque dur est aujourd'hui remplacé par les interfaces graphiques.
+Interface graphique
+Dans une interface utilisateur graphique (anglais abrégé GUI), l'image numérique est composée par un programme du système d'exploitation par superposition de points, de lignes, de pictogrammes et de caractères d'imprimerie.
+L'interface se manipule typiquement avec une souris selon le principe WIMP (anglais Windows, Icons, Menus and
+Pointer device).
+L'image numérique est créée à l'aide du processeur graphique de l'ordinateur.
+Lors des manipulations de la souris, le système d'exploitation déplace l'élément d'image qu'est le pointeur et effectue les calculs nécessaires pour déterminer quel est l'élément de l'image qui se trouve juste en dessous.
+À chaque élément de l'image peut être associé un programme.
+Un widget est un programme qui dessine et anime un élément d'image dont l'aspect peut-être celui d'un bouton poussoir, d'une lampe témoin, d'un ascenseur, d'une zone texte, d'un menu, etc.
+Divers widgets sont fournis avec le système d'exploitation.
+Les programmes pour interface graphique sont aujourd'hui (2011) inclus dans tous les systèmes d'exploitation contemporains.
+Le X Window System est l'ensemble des programmes pour interface utilisateur graphique inclus dans tous les systèmes d'exploitation de la famille Unix.
+Pour Windows, l'équivalent est le programme Explorer, aussi nommé Explorateur Windows (à ne pas confondre avec Internet Explorer).
+Logiciels utilitaires
+Un logiciel applicatif sert à assister l'utilisateur dans une activité.
+Les logiciels utilitaires sont des logiciels applicatifs qui permettent à l'utilisateur d'effectuer des manipulations basiques telles que démarrer des programmes, copier des fichiers ou modifier des paramètres de configuration.
+Divers logiciels utilitaires sont fournis avec les systèmes d'exploitation.
+Un interpréteur de commandes est un programme qui permet d'exécuter d'autres programmes en écrivant leur nom éventuellement suivi de divers paramètres.
+Il est accompagné de plusieurs programmes qui permettent la manipulation des fichiers (copie, changement de nom…).
+Ce type de programme est utilisé pour effectuer des manipulations ou exécuter des scripts .
+Ce type de programme est souvent fourni avec le système d'exploitation, mais rien n'y oblige, et on peut très bien en importer.
+Un environnement de bureau est un programme dans lequel les différents éléments de l'ordinateur (programmes, fichiers, disques durs) sont présentés sous forme de pictogrammes sur lesquels il est possible d'effectuer différentes actions.
+Il permet d'exécuter des programmes, d'effectuer différentes opérations sur les fichiers (copie, changement du nom, déplacement ou suppression).
+Certains programmes permettent à l'utilisateur de modifier les paramètres de configuration du système d'exploitation.
+Ceux-ci proposent des listes à choix multiples et effectuent des contrôles de validité avant le modifier les paramètres.
+D'autres programmes servent à installer des logiciels, c'est-à-dire copier les fichiers dans les emplacements prévus à cet effet, et effectuer les modifications de configuration nécessaire pour rendre le logiciel opérationnel.
+Ces programmes peuvent aussi servir à consulter la liste des logiciels actuellement installés dans l'ordinateur.
+Un système d'exploitation multi-utilisateurs est en général fourni avec des programmes permettant de surveiller l'utilisation de l'ordinateur ou de modifier les listes de droits d'accès en vue d'autoriser ou d'interdire un fichier à certains utilisateurs.
+Typologie
+Il existe cinq générations de systèmes d'exploitation : par lots (batch), multi programmés, en temps partagé, temps réel, et distribués.
+Chacun des principes mis en œuvre dans une génération se retrouve dans les générations suivantes et adapté à chaque gamme de machines.
+La palette de pilotes inclus dans le système d'exploitation est adaptée au matériel informatique disponible sur le marché pour cette gamme de machines.
+Première génération : traitement par lots
+Les systèmes d'exploitation basés sur le traitement par « lots » sont apparus dans les années 1950.
+Un programme (avec ses données) n'est rien d'autre
+qu'une pile de cartes avec des indicateurs de début et de fin de lot.
+L'exécution d'un programme consiste à demander à un opérateur de placer la pile de cartes dans le lecteur, puis l'opérateur lance la lecture séquentielle des cartes.
+Le processeur central est au repos, durant les manipulations de l'opérateur.
+Ils sont destinés aux dispositifs devant non seulement donner des résultats corrects, mais les donner dans un délai déterminé.
+Ces systèmes d'exploitation sont souvent utilisés par des ordinateurs reliés à un appareil externe .
+Sur le principe de la multiprogrammation, le système d'exploitation autorisait le chargement de plusieurs programmes en mémoire et gérait le passage de l'un à l'autre, mais cette fois-ci sans attendre le blocage d'un programme.
+Chaque programme était exécuté pendant une durée de quelques millisecondes, puis le système passait au suivant.
+Ce temps, très court, donnait l'illusion que les programmes s'exécutaient simultanément .
+De plus, ces programmes pouvaient appartenir à des utilisateurs distincts, chacun ayant l'impression que la machine travaille uniquement pour lui.
+La possibilité pour un ordinateur de servir simultanément plusieurs personnes augmentait le retour sur investissement de l'achat de matériel très coûteux par les entreprises et les institutions.
+Cependant, du fait de son écriture dans un langage de programmation PL/I trop complexe pour les ordinateurs de l'époque, Multics fut un échec commercial.
+Il a cependant inspiré en grande partie la gamme de systèmes GCOS développés conjointement par Honeywell et Bull.
+En 1969, les ingénieurs Ken Thompson et Dennis Ritchie des laboratoires Bell rêvent d'utiliser le système d'exploitation Multics, mais le matériel pour le faire fonctionner est encore hors de prix.
+Thompson se lance dans l'écriture d'une version allégée de Multics pour un PDP-7 inutilisé.
+Le système, fonctionnel, est surnommé Unics (pour UNiplexed Information and Computing Service), puis finalement baptisé UNIX.
+Rapidement reprogrammé dans un langage de programmation plus approprié (le C,
+développé par Ritchie pour l'occasion)
+, UNIX se révèle particulièrement simple à porter sur de nouvelles plateformes, ce qui assure son succès.
+, les micro-ordinateurs
+Dès 1980, les circuits électroniques à transistor ont été remplacés par des circuits intégrés, plus petits, ce qui a permis de réaliser des appareils plus compacts et moins coûteux et lancé le marché des ordinateurs personnels.
+De nombreux concepteurs de système d'exploitation qui se sont lancés sur ce marché n'avaient pas d'expérience, ce qui a donné de nouveaux produits, fondés sur des nouvelles idées, sans héritage ou influence de ce qui se faisait jusqu'alors.
+Xerox, une des sociétés majeures de l'époque, s'intéresse à l'optique de Steve Jobs.
+Elle réunit une poignée de scientifiques et d'ingénieurs dans son centre de recherche de Palo Alto et développe le premier micro-ordinateur équipé d'une interface utilisateur graphique, sur la base de thèses et d'études en ergonomie effectuées les années précédentes.
+Le résultat de ces recherches, le Xerox Star, ne sera jamais commercialisé.
+Dix ans plus tard, c'est Apple avec le Macintosh qui popularise les recherches effectuées par Xerox.
+1990,
+les systèmes d'exploitation sous licence libre
+En 1983, Richard Stallman du Massachusetts Institute of Technology lance l'idée d'un système d'exploitation sous licence libre : GNU.
+Il développe des outils de programmation, des logiciels utilitaires, et crée la GNU General Public
+License
+- un contrat de licence autorisant une utilisation sans restrictions ainsi que la publication du code source, sa modification, et sa redistribution.
+Le succès est immédiat, mais le système ne possède toujours pas, en 1990, de noyau libre, et les tentatives pour en développer un sont loin d'être abouties.
+En 1987, Andrew Tanenbaum, professeur à l'université libre d'Amsterdam créé le système d'exploitation Minix, clone d'UNIX dont le code source est destiné à illustrer son cours sur la construction des systèmes d'exploitation.
+Mais Minix, dont la vocation est pédagogique, comporte alors de trop nombreuses limitations techniques et ne permet pas une utilisation poussée.
+En 1989 un « système d'exploitation libre » apparaît à la même époque : 4.4BSD.
+La Berkeley Software Distribution (BSD) est la version d'UNIX développée par les étudiants et les chercheurs de l'université de Berkeley depuis 1977.
+Les logiciels utilitaires, créés sous licence libre, sont vendus avec le noyau Unix de AT&T, lui-même sous licence propriétaire.
+Cette double licence de BSD est à l'origine de plusieurs années de litige entre l'Université de Berkeley et AT&T.
+Les étudiants de l'université travaillent à remplacer les programmes développés par AT&T par leurs propres programmes, sous licence libre, afin de résoudre le litige.
+Cette situation dure jusqu'à la sortie de 4.4BSD en 1994, qui ne contient pratiquement plus de code AT&T.
+En 1991, Linus Torvalds, étudiant à l'université d'Helsinki, inspiré par les travaux de Tanenbaum, sort la de son propre noyau : Linux, qui est au départ une réécriture de Minix.
+Linux passe sous licence GNU en 1992 et il faut attendre 1994 pour voir la version 1.0, donnant ainsi naissance à la distribution d'un système d'exploitation entièrement libre, GNU/Linux.
+C'est à la suite des initiatives et travaux de Linus Torvalds et de Richard Stallman, aidés par des milliers de bénévoles, et consécutivement aux travaux des étudiants de l'université de Berkeley que GNU/Linux et 4.4BSD sont devenus les premiers systèmes d'exploitation sous licence libre.
+Organisation générale du noyau
+Un système d'exploitation est essentiellement événementiel
+- il est exécuté lorsque quelque chose s'est passé, typiquement lors d'un appel système, une interruption matérielle ou une erreur.
+C'est un logiciel étendu et complexe, qui offre de nombreuses fonctions.
+Il est construit comme une suite de modules, chacun ayant une fonction déterminée.
+Le noyau (en anglais : kernel) est la pièce centrale du système d'exploitation.
+C'est le second programme chargé en mémoire (juste après le bootloader) et il y reste en permanence
+- ses services sont utilisés continuellement.
+La construction monolithique est la plus courante, appliquée à la plupart des Unix
+; Appels système :
+Le kernel étant dans un emplacement protégé, il est impossible pour un logiciel applicatif d'appeler directement ses fonctions.
+Puis à la suite de la croissance très rapide du marché des smartphones, et du retard pris par Microsoft sur ce marché, ses parts de marché sur les appareils personnels sont passées de 95 % en 2005 à 20 % en 2013.
+Amorcée en 1969, la famille de systèmes d'exploitation Unix compte plus de .
+GNU/Linux, BSD et Mac OS X sont aujourd'hui les systèmes d'exploitation les plus populaires de la famille Unix.
+La famille Windows équipe aujourd'hui 38 % des serveurs
+tandis que la famille Unix équipe
+31 %, dont à peu près la moitié avec GNU Linux équipe 100 % des du monde.
+En mai 2019, la famille Unix anime plus de 98 % des smartphones.
+Né en 1990, Symbian OS est en 2007 le système d'exploitation le plus répandu sur les téléphones mobiles et assistants personnels, avec 67 % de part de marché.
+En 2012, les quatre systèmes d'exploitation Android de Google, Symbian, iOS de Apple et Blackberry de Research In Motion occupent ensemble 95 % du marché des smartphones.
+Android, le plus populaire (75 %), est en progression, tandis que les autres sont en recul.
+Les parts de marché de Symbian ne sont plus que de 2,3 %.
+Du côté des tablettes tactiles, iOS de Apple était le premier système d'exploitation largement diffusé avec plus de 80 % de part de marché en 2010.
+Trois ans plus tard sa part de marché est de 20 % et celle de Android est de plus de 56 %.
+Les serveurs et super-ordinateurs sont majoritairement équipés de systèmes d'exploitation de la famille UNIX.
+Choix par l'acheteur
+De nombreux logiciels applicatifs sur le marché sont construits pour fonctionner avec un système d'exploitation en particulier, ou une famille en particulier et un système d'exploitation est construit pour fonctionner avec une gamme de machines donnée.
+Pour l'acheteur le choix de la famille de machine limite le choix du système d'exploitation, qui lui-même limite le choix des logiciels applicatifs.
+Chaque système d'exploitation, selon la palette de programmes qu'il contient, est construit pour fonctionner avec certains réseaux informatiques.
+Pour l'acheteur qui possède un réseau informatique (typiquement les entreprises et les institutions) le choix du système d'exploitation dépend de son adéquation au réseau existant de l'acheteur.
+L'utilité d'un système d'exploitation pour l'usager est proportionnel au nombre de logiciels applicatifs qui sont prévus pour lui.
+La popularité élevée d'un système d'exploitation attire les éditeurs de logiciels applicatifs, ce qui accroit encore sa popularité (effet réseau).
+Ce phénomène fait que le marché est sujet aux situations de monopole.
+Apple
+, Sun Microsystems et Silicon Graphics sont des marques qui fabriquent du matériel informatique et développent des systèmes d'exploitation pour leur propre matériel.
+Certains systèmes d'exploitation, comme Microsoft Windows et Android, sont vendus avec le matériel informatique, conformément à des accords entre les fabricants.
+Concurrence, compatibilité et interopérabilité
+La compatibilité d'un système d'exploitation est sa capacité à être utilisé à la place d'un autre, en particulier à exécuter les logiciels applicatifs de l'autre.
+Le système d'exploitation est dit « compatible » avec l'autre.
+La compatibilité au niveau source est la capacité pour un système d'exploitation A d'exécuter un logiciel applicatif créé pour B après avoir compilé le code source du logiciel pour la machine A. Et la compatibilité binaire est la capacité pour un système d'exploitation A d'exécuter un logiciel applicatif créé pour B tel quel, sans avoir à le recompiler.
+L’interopérabilité est la capacité pour plusieurs systèmes à être utilisés ensemble, par exemple dans un même appareil, ou dans un réseau informatique.
+Pour être compatibles, deux systèmes d'exploitation doivent avoir des points communs, notamment sur l'interface de programmation.
+La compatibilité binaire n'est possible qu'entre deux systèmes d'exploitation qui fonctionnent avec la même famille de processeur.
+La compatibilité et l'interopérabilité entre les systèmes d'exploitation sont assurées, par les éditeurs, par alignement de leur produit sur des normes industrielles ainsi que des technologies rendues publiques.
+Le système d'exploitation Unix, créé en 1969, a servi de source d'inspiration pour toute une famille de systèmes d'exploitation.
+Le jeu de la concurrence, très vif dans les années 1980, a conduit les différents membres de la famille Unix à s'éloigner, et perdre la compatibilité les uns avec les autres.
+Des organismes de normalisation tels que Open Group se sont penchés sur le problème et ont édicté des normes garantissant la compatibilité à travers toute la famille Unix.
+Entre 1995 et 2007, Microsoft, éditeur de la suite de systèmes d'exploitation Windows a été l'objet de plusieurs procès pour des pratiques anticoncurrentielles nuisant à la concurrence et à l'interopérabilité.
+La société a été condamnée par le département de la justice des États-Unis pour violation du Sherman Antitrust
+Act
+ainsi que par la Commission européenne pour violation des traités relatifs à la concurrence dans l'Union européenne.
+La popularisation d'Internet dans les années 1990 a contribué à améliorer l'interopérabilité entre les systèmes d'exploitation.
+La guerre des Unix et l'Open Group
+Le système d'exploitation Unix a été développé par American Telephone & Telegraph (AT&T).
+Jusqu'en 1975, un accord avec l'État fédéral américain lui interdisait de commercialiser Unix, ayant le monopole de la téléphonie aux États-Unis, le code source du système d'exploitation était par conséquent public.
+Mais en 1975, ce monopole fut attaqué en justice et en 1982, la société était démembrée par décision de justice.
+AT&T, née de la fragmentation des activités d’American Telephone & Telegraph, put enfin commercialiser Unix : les ingénieurs de la société partirent du code source de la version 7 (ouverte) pour aboutir à UNIX System V. Simultanément, d'autres éditeurs s'inspirèrent de la version 7 pour créer des systèmes Unix, notamment l'université de Berkeley, avec sa Berkeley Software Distribution (BSD, 1979).
+Puis ceux-ci ont servi de source d'inspiration pour d'autres systèmes d'exploitation, et ainsi de suite.
+En 2009, la famille Unix comptait plus de 25 systèmes d'exploitation.
+Le jeu de la concurrence a conduit chaque éditeur à ajouter ses propres améliorations et ses propres fonctionnalités à son système d'exploitation optimisé pour un matériel en particulier.
+Ceci a amené les différents membres de la famille Unix à s'éloigner, et perdre la compatibilité l'un avec l'autre.
+En 1987, dans le but de réunifier la famille Unix, AT&T conclut un accord avec Sun Microsystems (un des principaux éditeurs de système d'exploitation fondé sur BSD)
+Les autres éditeurs ne voyant pas cet accord d'un bon œil, créent la fondation Open Software Foundation (OSF).
+Dans un même temps, l'Open Group, un consortium de normalisation, publie des normes relatives aux systèmes d'exploitation de la famille Unix.
+Les deux institutions sont aujourd'hui fusionnées.
+POSIX est le nom donné aux normes IEEE 1003.
+Cette famille de normes appartenant à l'Open Group a été lancée en 1988 et concerne l'interface de programmation.
+La conformité d'un système d'exploitation à cette norme assure la compatibilité au niveau source.
+En 2009, de nombreux systèmes d'exploitations sont conformes à cette norme, y compris en dehors de la famille Unix.
+POSIX fait partie de la , une norme lancée en 1994 par l'Open Group, qui concerne les systèmes de fichiers, les logiciels utilitaires, ainsi que de l'interface de programmation.
+Le nom «
+Unix » appartient à l'Open Group et tout système d'exploitation doit être conforme à la pour être reconnu comme faisant partie de la famille Unix.
+Microsoft et la concurrence
+En 1995, conformément au Sherman Antitrust
+Act
+- une loi des États-Unis pour la prévention de l'abus de position dominante, le département de la justice des États-Unis interdit à Microsoft certaines de ses pratiques considérées comme nuisibles à la concurrence.
+Deux ans plus tard
+, un procès est ouvert pour non-respect des interdictions de 1995 : Microsoft obtient l'annulation du procès sur l'argument que .
+Entre 1999 et 2001, une enquête est ouverte concernant la position de Microsoft.
+L'enquête, menée par les juges Thomas Jackson et Richard Posner, amène à la conclusion que Microsoft abuse de sa position de monopole pour pratiquer du sur le marché connexe des navigateurs Web, des pratiques qui nuisent à ses concurrents, gênent leur émergence et freinent l'innovation.
+La société échappe de peu à la scission, et se retrouve dans l'obligation de publier les spécifications de ses technologies, en particulier les interfaces de programmation et les protocoles réseau, ceci afin de préserver l'interopérabilité et la concurrence.
+Plus tard, en 2007, Microsoft est condamné par la Commission européenne à une amende de près de 500 millions d'euros pour violation de l' du traité CE et l' de l'accord EEE (textes relatifs au droit de la concurrence et l'abus de position dominante) après avoir refusé de publier une de ses spécifications techniques à son concurrent Sun Microsystems.
+Selon la Commission européenne, les agissements de Microsoft nuisent à l'interopérabilité des systèmes d'exploitation et à la concurrence.
+Les réseaux informatiques
+Chaque système d'exploitation comporte une palette de programmes relatifs aux protocoles réseau.
+La composition de la palette dépend du choix de l'éditeur et diffère d'un système d'exploitation à l'autre.
+Toutefois, deux ordinateurs ne peuvent communiquer ensemble qu'à la condition unique d'utiliser les mêmes protocoles.
+La popularisation d'Internet dans les années 1990 a poussé de nombreux éditeurs à inclure dans leur système d'exploitation des programmes relatifs aux protocoles TCP/IP (les protocoles d'Internet), améliorant ainsi l'interopérabilité entre les systèmes d'exploitation.

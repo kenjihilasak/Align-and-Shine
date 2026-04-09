@@ -1,0 +1,119 @@
+Distance et longueur|Mathématiques élémentaires
+Le périmètre d'une figure plane est la longueur développée du contour de cette figure.
+Le calcul du périmètre sert par exemple à déterminer la quantité de grillage nécessaire à la clôture d'un terrain, le nombre de briques ou de pierres pour la construction d'un mur, etc.
+Pour tout polygone, le périmètre vaut la somme des longueurs des côtés du polygone.
+Il existe des formules simples pour le calcul du périmètre des figures de base, mais le problème devient beaucoup plus ardu pour des figures plus complexes : il fait appel à des calculs d'intégrales ou de limites.
+Dans ce cas, une méthode consiste à approcher la figure complexe par d'autres, plus simples et mieux connues, pour obtenir une approximation du périmètre voulu.
+La question de savoir, pour un périmètre donné, quelle est la surface dont l'aire est maximale (ou isopérimétrie) a été posée très tôt et sa réponse seulement démontrée au .
+Le périmètre désigne aussi parfois la courbe qui est le bord d'une surface, plutôt que sa mesure.
+Il est toutefois préférable d'employer la bonne terminologie afin d'éviter toute ambiguïté, à savoir, circonférence pour une figure de forme approximativement circulaire, ou contour pour tout autre figure.
+Le mot périmètre (du grec ancien : ) est composé du préfixe péri- qui signifie « autour » et du suffixe -mètre : « mesure ».
+Figures de base
+Polygone
+Le cas des polygones est fondamental, non seulement par sa simplicité, mais aussi parce que de nombreux périmètres sont calculés, en valeur approchée, par une suite de polygones tendant vers ces courbes.
+Le premier mathématicien connu pour avoir utilisé ce raisonnement fut Archimède qui approcha le périmètre d'un cercle en l'encadrant par celui de polygones réguliers.
+Le périmètre d'un polygone est égal à la somme des longueurs de ses côtés.
+En particulier, un rectangle de dimensions a et b a pour périmètre .
+Un polygone équilatéral est un polygone dont tous les côtés ont la même longueur (un losange est un polygone équilatéral à quatre côtés).
+Pour calculer le périmètre d'un polygone équilatéral, il suffit de multiplier cette longueur par le nombre de côtés.
+Un polygone régulier est souvent défini par son nombre de côtés et son rayon, c'est-à-dire la distance constante qui sépare son centre de chacun des sommets.
+Il est possible de calculer la longueur du côté par un raisonnement de trigonométrie.
+Si R est le rayon d'un polygone régulier et n le nombre de ses côtés, son périmètre est :
+2nR \sin\left (\frac\right).
+Ces méthodes sont résumées dans le tableau ci-dessous.
+Périmètre d'un cercle
+Le périmètre d'un cercle est la longueur développée de son contour.
+Il est proportionnel à son diamètre.
+C'est-à-dire qu'il existe une constante π (le p grec de périmètre) telle que, quel que soit un cercle de diamètre D et de périmètre P,
+:P = π D.
+L'usage du compas ayant favorisé l'utilisation du rayon R du cercle plutôt que de son diamètre, cette formule devient :
+: P = 2 π R.
+Ces deux formules sont parfaitement équivalentes puisque, pour tout cercle, .
+Il suffit, pour calculer le périmètre d'un cercle, de connaître son rayon ou son diamètre et le nombre π.
+Le problème est que ce nombre n'est pas rationnel (on ne peut pas l'écrire sous la forme d'un quotient de deux entiers) ni même algébrique (il n'est pas la racine d'un polynôme à coefficients entiers).
+Obtenir une valeur approchée de π aussi précise qu'on le souhaite n'est donc pas évident.
+La recherche des décimales de π mobilise des connaissances en analyse, algorithmique et informatique.
+Le périmètre d'un cercle est souvent appelé par extension circonférence même si la circonférence désigne une courbe et non une mesure de longueur.
+L'usage du terme longueur du cercle est ambigu et doit être évité car cette notion peut tout aussi bien recouvrir la distance entre deux points opposés (le diamètre) que la longueur développée du contour du cercle (le périmètre).
+Perception du périmètre
+Le périmètre est, avec l'aire, l'une des deux mesures principales des figures géométriques.
+Il est fréquent de confondre ces deux notions ou de croire que, plus l'une est grande, plus l'autre l'est aussi.
+En effet l'agrandissement (ou la réduction) d'une figure géométrique fait croître (ou décroître) simultanément son aire et son périmètre.
+Par exemple, si un terrain est représenté sur une carte à l'échelle 1:, le périmètre réel du terrain peut être calculé en multipliant le périmètre de la représentation par et l'aire en multipliant celle de la représentation par .
+Il n'existe cependant aucun lien direct entre l'aire et le périmètre d'une figure quelconque.
+Par exemple, un rectangle possédant une aire égale à un mètre carré peut avoir comme dimensions, en mètres : 0,5 et 2 (donc un périmètre égal à ) mais aussi 0,001 et 1000 (donc un périmètre de plus de ).
+Proclus () rapporte que des paysans grecs se sont partagé « équitablement » des champs suivant leurs périmètres, mais avec des aires différentes.
+L'enveloppe convexe d'une figure est semblable à un élastique qui entourerait cette figure.
+Sur l'animation ci-contre à gauche, toutes les figures ont la même enveloppe convexe : le grand hexagone initial.
+Isopérimétrie
+L'isopérimétrie traite, en particulier, la question de trouver la surface la plus vaste possible, pour un périmètre donné.
+La réponse est intuitive, c'est le disque.
+Ceci explique pourquoi, notamment, les yeux à la surface d'un bouillon ont une forme circulaire.
+Ce problème, d'apparence anodin, fait appel à des théories sophistiquées pour obtenir une démonstration rigoureuse.
+On simplifie parfois le problème isopérimétrique en limitant les surfaces autorisées.
+Par exemple on cherche le quadrilatère ou le triangle d'aire la plus vaste possible, toujours pour un périmètre donné.
+Les solutions respectives sont le carré et le triangle équilatéral.
+De manière générale, le polygone à n sommets ayant la plus grande surface, à périmètre donné, est celui qui se rapproche le plus du cercle, c'est le polygone régulier.
+L'isopérimétrie ne se limite pas à ces questions.
+On recherche aussi une zone d'aire la plus vaste possible pour un périmètre donné, avec des géométries différentes.
+Par exemple, dans le cas d'un demi-plan, la réponse est le demi-disque.
+Ce concept donne naissance à une famille de théorèmes, dit isopérimétriques, à des majorations dites inégalités isopérimétriques, ainsi qu'à un rapport, appelé quotient isopérimétrique.
+L'inégalité isopérimétrique indique qu'une surface de périmètre p et d'aire a vérifie la majoration suivante :
+\frac \le
+Le terme de gauche, est appelé quotient isopérimétrique, il est égal à 1 si, et seulement si la surface est un disque.
+Si l'origine de cette question date d'au moins ans, ce n'est qu'en 1895, à l'aide de méthodes dérivées du théorème de Minkowski que la question est définitivement résolue sous sa forme antique.
+Ces méthodes permettent de démontrer le théorème isopérimétrique et de le généraliser à des dimensions supérieures dans le cas d'une géométrie euclidienne.
+Voir l'article isopérimétrie pour les aspects élémentaires de cette question.
+Des éléments de réponse, faisant usage d'outils mathématiques plus sophistiqués, sont proposés dans l'article Théorème isopérimétrique.
+Courbe rectifiable
+Mis à part les cas des polygones et des cercles, le périmètre de la plupart des surfaces est malaisé à calculer : il fait intervenir une intégrale qui ne s'exprime pas souvent au moyen de fonctions élémentaires (polynômes, sinus, etc.)
+Un exemple : l'ellipse
+L'ellipse peut paraître simple : il ne s'agit après tout que d'un « cercle écrasé ».
+Soit une ellipse de demi-grand axe a et de demi-petit axe
+L'aire est aisée à calculer : \pi a b.
+Mais le périmètre P de l'ellipse ne peut être obtenu qu'à l'aide d'une intégrale elliptique :
+:P = 4\int_0^\sqrt\,\text t
+qui s'exprime sous forme de série, en notant e l'excentricité de l'ellipse (formule de J.H.Lambert (1772)):
+2\pi a \left\right où e
+\frac
+\frac
+\sqrt.
+La difficulté de ces calculs a conduit à développer des approximations.
+La deuxième proposée, plus précise, est l'œuvre de Ramanujan.
+Cette façon de mesurer des villes ou des régions par leur périmètre est utilisée par Homère pour Troie :
+La légende veut que Didon, vers 800 , cherchant une terre pour fonder une nouvelle cité pour son peuple, obtint d'un roi qu'il lui en cède .
+Didon découpa une peau de bœuf en très fines lanières et choisit une péninsule : avec les lanières, elle sépara la péninsule du continent et put ainsi délimiter un vaste terrain.
+Carthage était née.
+La légende de Didon peut avoir une origine didactique, car elle montre qu'aire et périmètre ne sont pas liés, elle est également une première approche du problème d'isopérimétrie.
+Le problème de l'isopérimétrie est très ancien, comme l'atteste la légende de Didon, et ses différentes réponses (polygone régulier, demi-disque dans un demi-plan, cercle) étaient connues dès l'antiquité grecque, bien qu'il ait fallu attendre le pour qu'une démonstration rigoureuse soit élaborée.
+Périmètre du cercle
+Les Babyloniens liaient l'aire A et le périmètre P d'un cercle suivant un algorithme de calcul équivalent à la formule A=\frac ce qui donne une approximation de π égale à 3.
+Même lorsqu'ils connaissaient le diamètre d'un cercle, les scribes passaient toujours par le calcul de son périmètre (en multipliant le diamètre par 3) pour ensuite obtenir son aire.
+La dimension usuelle pour un cercle était toujours son périmètre, jamais son diamètre ni son rayon.
+Cela montre que, pour les anciens, un cercle était plutôt vu comme une circonférence plutôt que comme une courbe définie par un centre et un rayon.
+La procédure pour calculer l'aire d'un disque à partir de son diamètre était la suivante, utilisée, dans cet exemple, pour déterminer le volume d'une bûche cylindrique dont le diamètre était 1 + :
+L'approximation de π par 3 est également utilisée dans la Bible :
+et le Talmud
+Son traité commence ainsi :
+La méthode d'Archimède a été reprise en 1579 par François Viète et en 1593 par Adrien Romain pour calculer de douze à quinze décimales de π.
+D'autres mathématiciens ont calculé des valeurs approchées de π en utilisant des calculs d'aires puis, à partir du , les techniques du calcul infinitésimal.
+Longueur développée d'une courbe
+La question du calcul de la longueur développée d'une courbe prend, au le nom de rectification d'une courbe.
+Elle est en général considérée comme impossible à résoudre, ce que Descartes exprime par :
+Au , l'invention du calcul infinitésimal a conduit à interpréter le calcul de la longueur développée d'une courbe comme celui d'une intégrale suivant la formule vue plus haut (voir l'exemple de l'ellipse).
+Au , Camille Jordan donne une nouvelle définition de la longueur développée d'une courbe, se rapprochant de celle d'Archimède mais utilisant les outils modernes (dont le calcul de la limite d'une suite) : il approche la courbe par un polygone dont les sommets sont des points de cette courbe.
+Lorsque le nombre de ces points tend vers l'infini, la limite supérieure de la suite des longueurs des polygones obtenus, si elle est majorée, est la longueur développée de cette courbe.
+Cette définition de courbe rectifiable englobe et étend la précédente qui utilisait une intégrale.
+Durant les et s, des mathématiciens découvrent de nombreuses courbes
+comme celle de von Koch, qui ne sont pas rectifiables
+À partir de 1967, Benoît Mandelbrot définit et étudie les fractales à partir d'une question apparemment très simple :
+Mandelbrot explique que plus on cherchera à préciser la mesure, plus celle-ci sera grande, jusqu'à éventuellement devenir infinie .
+En effet, si on mesure grossièrement le périmètre de la Bretagne (ou de tout pays) sur une carte, on va obtenir un polygone.
+Mais plus la carte sera précise, plus le polygone sera découpé et donc son périmètre grandira.
+Si l'on veut le « vrai
+» périmètre de la Bretagne, il faudra aller sur place mesurer chaque caillou, chaque escarpement de rocher, voire chaque atome de ces composants.
+L'étude de ces objets dépasse le cadre du calcul de périmètres.
+Annexes
+Bibliographie
+Livres
+Article

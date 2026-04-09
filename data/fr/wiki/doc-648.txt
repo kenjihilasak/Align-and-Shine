@@ -1,0 +1,206 @@
+Mathématiques élémentaires|Méthode d'analyse
+Le pourcentage d'une partie d'un ensemble, ou d'un système physique, est le rapport d'une mesure (effectif ou grandeur extensive) de cette partie à la mesure correspondante de l'ensemble total (ou du système physique), exprimé sous la forme d'une fraction de cent.
+Le pourcentage est donc un nombre sans dimension (un nombre pur), mais pour en rappeler l'origine on le fait généralement suivre du signe « % », ou parfois de « 100 », « 5,2 p.c.
+voire «
+5,2 pour cent »).
+Notation
+La notation des pourcentages semble tirer son origine de l'italien.
+Dans les textes du Moyen Âge, on peut voir des notations comme « per cento ».
+ou « per c. » ou « p. cento ».
+Selon David Eugene
+Smith
+, la première trace d'un symbole voisin de celui utilisé actuellement, se trouve dans un manuscrit italien anonyme écrit vers 1425 sous la forme p.\dfrac oo .
+Le p s'est ensuite perdu et la barre est devenue oblique.
+Les deux « o » ont ensuite été assimilés aux deux zéros de 100 ce qui a conduit à noter ‰ le symbole « pour mille ».
+Le signe «
+% » en typographie française doit être précédé d'une espace fine insécable et suivi d'une espace forte.
+Dans d'autres langues, et notamment en anglais, le signe est collé au chiffre.
+Calculs élémentaires
+On compare une valeur particulière à une valeur de référence, et on cherche à déterminer ce que vaudrait cette valeur particulière si la valeur de référence était ramenée à 100 tout en respectant les proportions.
+Avec un vocabulaire de statistique descriptive, on peut écrire qu'on compare une population partielle à une population totale, et qu'on cherche à déterminer ce que vaudrait cette population partielle si la population totale était ramenée à 100 tout en respectant les proportions.
+Exemple :
+56 personnes parmi 400 (population de référence) ont une particularité P. Pour exprimer cette proportion sur une population de 100, il faut diviser 400 par 4, et faire de même avec 56 pour conserver la proportion.
+Or 56 / 4 = 14.
+Donc 14 % ont une particularité P.
+Le calcul de ce pourcentage revient à trouver le numérateur d'une fraction dont le dénominateur serait 100 et qui serait égale à \dfrac.
+C'est ainsi que l'on confond souvent la fraction de dénominateur 100 avec le pourcentage et donc le pourcentage avec le nombre décimal 0,14.
+Cette confusion, très pratique en mathématique, induit parfois des incompréhensions dans le domaine technique puisque l'on rencontre souvent l'indication de calcul suivante :
+Calculer un pourcentage
+Dans une assemblée de 50 personnes, il y a 31 femmes.
+Celles-ci représentent 62 % de l'assemblée car :
+\dfrac
+0,62
+\dfrac = 62\, \%.
+On peut aussi voir le problème comme la recherche d'une quatrième proportionnelle.
+Il s'agit de trouver p tel que :
+\dfrac
+\dfrac p,
+soit p
+\dfrac.
+Quand on compare une valeur particulière à une valeur de référence, il est possible d'obtenir des pourcentages dépassant 100 %.
+Si le coût d'un produit passe de à et si on considère que le premier prix est une valeur de référence, le second prix représente 160 % du premier prix car :
+\dfrac
+1,6
+\dfrac = 160\, \%.
+Cet aspect du pourcentage est particulièrement utilisé en économie dans la notion d'indice.
+Appliquer un pourcentage
+Appliquer un pourcentage
+, c'est retrouver la valeur étudiée connaissant le pourcentage et la valeur (ou la population) de référence.
+Cette valeur étudiée se détermine en multipliant la valeur de référence par le décimal associé au pourcentage.
+Si une assemblée de 120 personnes compte 15 % de femmes, alors il y a 18 femmes dans cette assemblée car
+On peut aussi voir le problème comme la recherche d'une quatrième proportionnelle : il faut trouver n tel que :
+\dfrac
+\dfrac
+ce qui conduit à n
+120 \times \dfrac
+Le prix hors taxes d'un objet est .
+Le taux de TVA est de 5 %.
+Celle-ci s'élève donc à :
+120\times5\,\%
+120\times\dfrac
+120\times0,05=6
+Retrouver la valeur de référence (pourcentage « indirect »)
+Cette valeur de référence se trouve en divisant la valeur étudiée ou la population partielle par le décimal associé au pourcentage.
+Dans une assemblée il y a 36 femmes, elles représentent 30 % de l'assemblée donc l'assemblée est formée de 120 individus
+car :
+On peut aussi voir le problème comme la recherche d'une quatrième proportionnelle : il faut trouver N tel que :
+\dfrac
+\dfrac
+30 \times N \text
+N = \dfrac
+Le prix TTC d'un objet est de .
+Ce prix représente 119,6 % du prix HT.
+Le prix HT (hors taxe) est donc de car
+\dfrac \approx 165,55
+Pourcentage d'augmentation et de réduction
+En économie et dans les taux d'intérêt, l'étude porte sur des variations en pourcentage, des augmentations ou des réductions.
+On peut tout à fait décomposer le calcul en deux temps : calcul de l'augmentation ou de la réduction, puis calcul de la valeur finale en effectuant une addition ou une soustraction.
+Mais il est préférable de voir ces augmentations ou ces réductions comme issues de l'application d'un coefficient multiplicateur.
+Seul cet aspect des choses permet de retrouver efficacement une valeur de référence ou d'appliquer des augmentations successives.
+Calculer la valeur finale
+Une augmentation de p % se traduit par une multiplication par 1+\dfrac,
+car n + p\%\, \text\, n
+n +\dfrac
+n \times \left (1+\dfrac\right).
+De même, une diminution de p % par une multiplication par 1-\dfrac.
+Des variations successives à taux fixe conduisent à des progressions géométriques.
+Ainsi, augmenter 35 fois de 2 % revient à multiplier par 1,02, c'est-à-dire 1,99989, soit quasiment par 2.
+Et diminuer 35 fois de 2 % revient à multiplier par 0,98, c'est-à-dire à diviser par 2,028, soit un peu plus de 2.
+Coefficients multiplicateur ou diviseur et pourcentages
+Si un prix par exemple a été multiplié par un coefficient C ceci correspond à une augmentation de p % telle que 1+\dfrac
+Soit
+100\times (C-1)
+De telle sorte que si un prix a été multiplié par 8 en 10 ans cela correspond à une augmentation de p=100\times (8-1), soit une augmentation de 700 % en 10 ans et non pas 800 % comme on pourrait le croire.
+De même un prix multiplié par 2 correspond à une hausse de 100 %.
+Pour une baisse, si un prix a été divisé par un coefficient D ceci correspond à une baisse de p % telle que 1-\dfrac
+\dfrac,
+soit encore \dfrac
+\dfrac, d'où
+100\times \dfrac.
+Ainsi, si un prix a été divisé par 2 cela correspond à une baisse de p
+100\times \dfrac
+100\times \dfrac, soit une baisse de 50 %.
+Pour un prix divisé par 4 la baisse est de p
+100\times \dfrac=100\times \dfrac, soit une baisse de 75 %.
+Retrouver la valeur de référence (pourcentage « indirect »)
+Pour retrouver la valeur de référence, il suffit alors de diviser la valeur finale par le coefficient multiplicateur.
+Après une remise de 15 % le prix d'un objet n'est plus que de , le prix initial de l'objet était donc de car la réduction correspond à une multiplication du prix initial par 1 - 0,15 = 0,85, donc ce prix initial était
+\dfrac=40.
+Pourcentage de pourcentage
+On peut être amené à multiplier entre eux des pourcentages.
+C'est le cas par exemple des pourcentages de pourcentage.
+Dans cette assemblée, il y a 36 % de femmes et 25 % de ces femmes sont âgées de plus de 50 ans.
+Il y a donc 9 % de femmes âgées de plus de 50 ans dans l'assemblée car :
+\dfrac\times \dfrac= \dfrac
+On peut voir le problème en se ramenant à une assemblée de 100 personnes.
+Parmi celles-ci 36 seraient des femmes et 25 % de ces 36 femmes seraient âgées de plus de 50 ans.
+Or 25 % de 36 correspond à 9 donc dans une assemblée de 100 personnes, il y aurait 9 femmes de plus de cinquante ans.
+Procédure pour la multiplication
+Comment parvenir au résultat d'une multiplication de nombres représentant des pourcentages ?
+Une des façons simples d'y arriver est la suivante.
+Reprenons l'exemple
+dessus : dans cette assemblée, il y a 36 % de femmes et 25 % de ces femmes
+sont âgées de plus de 50 ans.
+Ajoutons, maintenant, que 50 % de ces femmes âgées de plus de 50 ans sont des femmes nord-américaines.
+On se retrouve ici avec une multiplication impliquant trois nombres : 25 \%\times 36 \%\times 50 \%
+...?
+En fraction cela donne donc : \dfrac\times \dfrac\times \dfrac
+Ce qui, ramené en notation décimale, donne: 0.25\times 0.36\times 0.5 = 0.045.
+Il suffit de multiplier le résultat par 100 pour obtenir la réponse ce qui s'exprime de la façon suivante dans notre exemple : 4,5 % des personnes de cette assemblée sont des femmes nord-américaines âgées de plus de 50 ans.
+On pourrait, aussi, ajouter que 45 % de ces femmes sont divorcées.
+La procédure reste inchangée: 0.25\times 0.36\times 0.5\times 0.45
+, on peut dire, en laissant de côté ici les trois dernières décimales, que, dans l'assemblée étudiée, il y a 2 % de femmes divorcées, nord-américaines et âgées de plus de 50 ans.
+Puisque la multiplication est, ici aussi, commutative, l'ordre des nombres à multiplier peut être interverti conduisant évidemment au même résultat, il n'en est pas de même pour les énoncés verbaux.
+Reprenons, à nouveau, l'exemple utilisé: dire que 36 % des personnes de cette assemblée sont des femmes et que 25 % d'entre elles sont âgées de plus 50 ans n'est pas équivalent à dire que 25 % des personnes de cette assemblée sont des femmes et que 36 % de ces femmes sont âgées de plus 50 ans.
+Dans les deux cas, on aboutit bien à un pourcentage de 9 % mais la composition des personnes de l'assemblée diffère et ce, même si l'énoncé final est le même, à savoir que 9 % des personnes de cette assemblée sont des femmes âgées de plus de 50 ans.
+Ce qui peut paraître contre-intuitif.
+Il y a pourtant bien deux façons différentes d'aboutir à ce résultat.
+En fait, il y en a bien plus.
+Toutes les compostions possibles dont la multiplication des deux pourcentages donne 9 % comme résultat.
+Pourcentages courants
+Domaines d'usage
+Statistique
+En statistique, la population étudiée est découpée en classe d'individus vérifiant le même critère (même nombre d'enfants, même préférence politique, même tranche de revenu...).
+Lorsque la taille de la population est trop grande, ou lorsqu'on veut comparer deux populations, travailler sur les effectifs des classes rend l'interprétation des résultats parfois difficile.
+Se ramener alors à une population de 100, revient à présenter la répartition sous forme de pourcentages.
+On parle alors de fréquences.
+On rencontre les pourcentages dans les sondages d'opinion alors que la population interrogée est rarement de 100 personnes.
+On les rencontre aussi dans les résultats d'élections.
+Domaine économique ou financier
+Dans les finances, on rencontre les pourcentages dans les calculs de TVA : une TVA de 19,6 % consiste à ajouter à un prix hors taxes (prix HT) une taxe correspondant à 19,6 % du prix HT.
+On obtient alors un prix toutes taxes comprises (prix TTC) qui correspond au prix HT multiplié par 1,196.
+On les rencontre aussi dans les taux d'intérêt : une somme placée ou empruntée pendant un an à un taux d'intérêt de p % a été multipliée en fin d'année par 1+\dfrac.
+Les taux d'imposition qui représentent une fraction du revenu d'un ménage sont aussi exprimés sous forme de pourcentage.
+En économie, un indice est la valeur d'une grandeur économique par rapport à une valeur de référence.
+Par exemple, si, en 2004, le prix moyen des appartements au mètre carré dans une ville a augmenté de 22 % par rapport à l'année 2000, servant de référence (indice 100), on dira que l'indice du prix moyen des appartements est de 122 en 2004.
+L'indice est donc une présentation particulière d'un pourcentage.
+Topographie
+Les panneaux routiers indiquent les pentes des routes en pourcentage.
+Une pente de 10 % signifie qu'à un déplacement horizontal de , correspond un déplacement vertical de .
+La pente correspond alors à la tangente de l'angle d'inclinaison de la route.
+Par conséquent, l'arc tangente du pourcentage donne le degré d'inclinaison de la pente.
+Métrologie
+En métrologie, les mesures ne peuvent pas être connues avec une précision absolue.
+Les calculs d'erreur ou les calculs d'incertitude sont souvent présentés en pourcentage.
+Quand on dit que le poids d'une conserve est connu à 5 % près, cela signifie que, si le poids de la conserve est supposé valoir , il peut se glisser une erreur de en excès ou défaut.
+Œnologie
+En œnologie, le degré alcoolique d'une boisson alcoolisée est le pourcentage en volume d'alcool pur contenu dans une boisson.
+Ainsi, si on prend un verre de de vin titré à 12 % vol, on absorbe d'alcool pur soit environ 12 \times 0,8= 9,6 grammes d'alcool pur.
+Le terme de degré pris à la place de pourcentage provient de l'ancienne unité utilisée : le degré Gay-Lussac (GL).
+Un degré GL correspondant à un pourcentage d'alcool pur de 1 %.
+Mésusages
+La place des pourcentages dans les données statistiques, leur présence dans les résultats de sondage et dans les indicateurs économiques leur confèrent un crédit argumentaire élevé qui risque de conduire à des erreurs de raisonnement, leur manipulation étant loin d'être aussi simple que leur formulation chiffrée peut le faire supposer.
+Le pourcentage n'est pas un simple nombre
+La représentation du pourcentage sous forme d'une fraction, sa transformation en décimal, lui confère un statut apparent de nombre, mais il n'a pas les qualités normalement attribuées à un nombre : il n'est pas possible d'effectuer des sommes de pourcentage dans l'absolu.
+On ne peut pas faire de sommes de pourcentage et leur donner un sens, sauf si ces pourcentages correspondent à deux populations partielles disjointes associées à la même population de référence.
+En particulier deux augmentations successives de 10 % ne donnent pas une augmentation de 20 % mais de 21 %.
+Quant au produit de pourcentage, il obéit à des règles très restrictives.
+De même, comparer des pourcentages peut se révéler mener à des contresens si la population de référence change dans les deux comparaisons.
+Méconnaissance de l'univers de référence ou population totale
+Le fait de ramener l'effectif ou population totale à 100 tend à réduire l'importance de cette population, à faire oublier cette population de référence qui peut même disparaître de l'exposé, source de divers contresens.
+L'augmentation d'un pourcentage, valeur relative, peut résulter de deux variations qui peuvent se conjuguer : l'augmentation en valeur absolue de la population partielle et la diminution de la valeur absolue de la population totale : par exemple, l'augmentation du nombre des locataires dans une commune dont la population diminue.
+Un mauvais choix ou une mauvaise identification de l'univers de référence amène le lecteur à une mauvaise interprétation du pourcentage.
+Sylviane Gasquet cite l'exemple du redoublement dans une classe.
+Dans l'expression, il y a 50 % de redoublement dans cette école, l'univers de référence a disparu.
+Il serait préférable de dire « 50 % des élèves sont amenés à redoubler », étant donné qu'attendu que la moitié de l'effectif étant déjà formée de redoublants qui, on l'espère ne vont pas tripler, c'est que 100 % des non-redoublants sont condamnés à redoubler.
+Un taux de TVA s'applique au prix hors taxe et non au prix TTC.
+Variation de pourcentages
+Le terme point
+Quand une population partielle est passée de 10 % à 12 %, il est délicat de parler de l'augmentation.
+Une erreur fréquente est de dire que la population a augmenté de 2 %.
+En effet, en supposant que la population de référence soit de 100 individus et ne change pas entre la première et la seconde mesure (ce qui est rarement le cas), la population partielle passerait de 10 individus à 12 individus, soit une multiplication par 1,2 c'est-à-dire une augmentation de 20 %.
+Or pourtant, il est utile de chiffrer cette variation : premier pourcentage 10 %, second 12 %.
+On parle alors d'une augmentation de 2 points.
+Pourcentage composé
+Lors de hausses et de baisses successives, la tentation est grande d'ajouter et soustraire les pourcentages d'augmentation, comme de penser qu'une augmentation de 10 % suivie d'une baisse de 10 % ramène à la valeur initiale.
+Pourtant ces pourcentages ne correspondent pas à la même population de référence.
+En reprenant la technique du coefficient multiplicatif et l'appliquant à une quantité Q on s'aperçoit que les 10 % d'augmentation reviennent à multiplier la quantité Q par 1,1 et que la réduction, s'appliquant à 1,1 \times Q, revient à multiplier cette quantité par 0,9.
+Or 0,9\times 1,1 \times Q = 0,99 \times
+Q ce qui correspond à une baisse de 1 %.
+Références
+Voir aussi
+Articles connexes
+Bibliographie
+Sylviane Gasquet-More, Plus vite que son nombre, Éditions du Seuil
+Lien externe
+o62fq3flbnhhvkyaelxrmyfegx8i7un

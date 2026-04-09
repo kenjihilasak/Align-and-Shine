@@ -1,0 +1,362 @@
+El microprocesador (o simplemente procesador) es el circuito integrado central más complejo de un sistema informático; a modo de ilustración, se le suele llamar por analogía el «cerebro» de un ordenador.
+Es el encargado de ejecutar los programas, desde el sistema operativo hasta las aplicaciones de usuario; sólo ejecuta instrucciones programadas en lenguaje de bajo nivel, realizando operaciones aritméticas y lógicas simples, tales como sumar, restar, multiplicar, dividir, las lógicas binarias y accesos a memoria.
+Puede contener una o más unidades centrales de procesamiento (CPU) constituidas, esencialmente, por registros, una unidad de control, una unidad aritmético lógica (ALU) y una unidad de cálculo en coma flotante (conocida antiguamente como «coprocesador matemático»).
+El microprocesador está conectado generalmente mediante un zócalo específico de la placa base de la computadora; normalmente para su correcto y estable funcionamiento, se le incorpora un sistema de refrigeración que consta de un disipador de calor fabricado en algún material de alta conductividad térmica, como cobre o aluminio, y de uno o más ventiladores que eliminan el exceso del calor absorbido por el disipador.
+Entre el disipador y la cápsula del microprocesador usualmente se coloca pasta térmica para mejorar la conductividad del calor.
+Existen otros métodos más eficaces, como la refrigeración líquida o el uso de células peltier para refrigeración extrema, aunque estas técnicas se utilizan casi exclusivamente para aplicaciones especiales, tales como en las prácticas de overclocking.
+La medición del rendimiento de un microprocesador es una tarea compleja, dado que existen diferentes tipos de "cargas" que pueden ser procesadas con diferente efectividad por procesadores de la misma gama.
+Una métrica del rendimiento es la frecuencia de reloj que permite comparar procesadores con núcleos de la misma familia, siendo este un indicador muy limitado dada la gran variedad de diseños con los cuales se comercializan los procesadores de una misma marca y referencia.
+Un sistema informático de alto rendimiento puede estar equipado con varios microprocesadores trabajando en paralelo, y un microprocesador puede, a su vez, estar constituido por varios núcleos físicos o lógicos.
+Un núcleo físico se refiere a una porción interna del microprocesador casi-independiente que realiza todas las actividades de una CPU solitaria, un núcleo lógico es la simulación de un núcleo físico a fin de repartir de manera más eficiente el procesamiento.
+Existe una tendencia de integrar el mayor número de elementos dentro del propio procesador, aumentando así la eficiencia energética y la miniaturización.
+Entre los elementos integrados están las unidades de punto flotante, controladores de la memoria RAM, controladores de buses y procesadores dedicados de vídeo.
+Historia de los microprocesadores
+La evolución del microprocesador
+El microprocesador surgió de la evolución de distintas tecnologías predecesoras, básicamente de la computación y de la tecnología de semiconductores.
+El inicio de esta última data de mitad de la década de 1950; estas tecnologías se fusionaron a principios de los años 1970, produciendo el primer microprocesador.
+Dichas tecnologías iniciaron su desarrollo a partir de la segunda guerra mundial; en este tiempo los científicos desarrollaron computadoras específicas para aplicaciones militares.
+En la posguerra, a mediados de la década de 1940, la computación digital emprendió un fuerte crecimiento también para propósitos científicos y civiles.
+La tecnología electrónica avanzó y los científicos hicieron grandes progresos en el diseño de componentes de estado sólido (semiconductores).
+En 1948 en los laboratorios Bell crearon el transistor.
+En los años 1950, aparecieron las primeras computadoras digitales de propósito general.
+Se fabricaron utilizando tubos al vacío o bulbos como componentes electrónicos activos.
+Módulos de tubos al vacío componían circuitos lógicos básicos, tales como compuertas y flip-flops.
+Ensamblándolos en módulos se construyó la computadora electrónica (la lógica de control, circuitos de memoria, etc.).
+Los tubos de vacío también formaron parte de la construcción de máquinas para la comunicación con las computadoras.
+Para la construcción de un circuito sumador simple se requiere de algunas compuertas lógicas.
+La construcción de una computadora digital precisa numerosos circuitos o dispositivos electrónicos.
+Un paso trascendental en el diseño de la computadora fue hacer que el dato fuera almacenado en memoria.
+Y la idea de almacenar programas en memoria para luego ejecutarlo fue también de fundamental importancia (Arquitectura de von Neumann).
+La tecnología de los circuitos de estado sólido evolucionó en la década de 1950.
+El empleo del silicio (Si), de bajo costo y con métodos de producción masiva, hicieron del transistor el componente más usado para el diseño de circuitos electrónicos.
+Por lo tanto el diseño de la computadora digital se reemplazó del tubo al vacío por el transistor, a finales de la década de 1950.
+A principios de la década de 1960, el estado de arte en la construcción de computadoras de estado sólido sufrió un notable avance; surgieron las tecnologías en circuitos digitales como: RTL (Lógica Transistor Resistor), DTL (Lógica Transistor Diodo), TTL (Lógica Transistor Transistor), ECL (Lógica Complementada Emisor).
+A mediados de los años 1960 se producen las familias de circuitos de lógica digital, dispositivos integrados en escala SSI y MSI que corresponden a baja y mediana escala de integración de componentes.
+A finales de los años 1960 y principios de los 70 surgieron los sistemas a alta escala de integración o LSI.
+La tecnología LSI fue haciendo posible incrementar la cantidad de componentes en los circuitos integrados.
+Sin embargo, pocos circuitos LSI fueron producidos, los dispositivos de memoria eran un buen ejemplo.
+Las primeras calculadoras electrónicas requerían entre 75 y 100 circuitos integrados.
+Después se dio un paso importante en la reducción de la arquitectura de la computadora a un circuito integrado simple, resultando uno que fue llamado microprocesador, unión de las palabras «Micro» del griego μικρο-, «pequeño», y procesador.
+Sin embargo, es totalmente válido usar el término genérico procesador, dado que con el paso de los años, la escala de integración se ha visto reducida de micro métrica a nanométrica; y además, es, sin duda, un procesador.
+* El primer microprocesador fue el Intel 4004, producido en 1971.
+Se desarrolló originalmente para una calculadora y resultó revolucionario para su época.
+Contenía 2300 transistores, era un microprocesador de arquitectura de 4 bits que podía realizar hasta 60000 operaciones por segundo trabajando a una frecuencia de reloj de alrededor de 700 kHz.
+* El primer microprocesador de 8 bits fue el Intel 8008, desarrollado a mediados de 1972 para su uso en terminales informáticos.
+El Intel 8008 integraba 3300 transistores y podía procesar a frecuencias máximas de 800 kHz.
+* El primer microprocesador realmente diseñado para uso general, desarrollado en 1974, fue el Intel 8080 de 8 bits, que contenía 4500 transistores y podía ejecutar 200 000 instrucciones por segundo trabajando a alrededor de 2 MHz.
+* El primer microprocesador de 16 bits fue el 8086, seguido del 8088.
+El 8086 fue el inicio y el primer miembro de la popular arquitectura x86, actualmente usada en la mayoría de los computadores.
+El chip 8086 fue introducido al mercado en el verano de 1978, pero debido a que no había aplicaciones en el mercado que funcionaran con 16 bits, Intel sacó al mercado el 8088, que fue lanzado en 1979.
+Llegaron a operar a frecuencias mayores de 4 MHz.
+* El microprocesador elegido para equipar al IBM Personal Computer/AT, que causó que fuera el más empleado en los PC-AT compatibles entre mediados y finales de los años 1980 fue el Intel 80286 (también conocido simplemente como 286); es un microprocesador de 16 bits, de la familia x86, que fue lanzado al mercado en 1982.
+Contaba con 134 000 transistores.
+Las versiones finales alcanzaron velocidades de hasta 25 MHz.
+* Uno de los primeros procesadores de arquitectura de 32 bits fue el 80386 de Intel, fabricado a mediados y fines de la década de 1980; en sus diferentes versiones llegó a trabajar a frecuencias del orden de los 40 MHz.
+* El microprocesador DEC Alpha se lanzó al mercado en 1992, corriendo a 200 MHz en su primera versión, en tanto que el Intel Pentium surgió en 1993 con una frecuencia de trabajo de 66 MHz.
+El procesador Alpha, de tecnología RISC y arquitectura de 64 bits, marcó un hito, declarándose como el más rápido del mundo, en su época.
+Llegó a 1 GHz de frecuencia hacia el año 2001.
+Irónicamente, a mediados del 2003, cuando se pensaba quitarlo de circulación, el Alpha aún encabezaba la lista de los microprocesadores más rápidos de Estados Unidos.
+* Los microprocesadores modernos tienen una capacidad y velocidad mucho mayores, trabajan en arquitecturas de 64 bits, integran más de 700 millones de transistores, como es en el caso de las serie Core i7, y pueden operar a frecuencias normales algo superiores a los 3 GHz (3000 MHz).
+Historia
+Hasta los primeros años de la década de 1970 los diferentes componentes electrónicos que formaban un procesador no podían ser un único circuito integrado, era necesario utilizar dos o tres "chips" para hacer una CPU (uno era el "ALU" - Arithmetical Logic Unit, el otro la " control Unit", el otro el " Register Bank", etc.).
+En 1971 la compañía Intel consiguió por primera vez poner todos los transistores que constituían un procesador sobre un único circuito integrado, el"4004 ", nacía el microprocesador.
+Seguidamente se expone una lista ordenada cronológicamente de los microprocesadores más populares que fueron surgiendo.
+En la URSS se realizaron otros sistemas que dieron lugar a la serie microprocesador Elbrus.
+El 4004 fue el primer microprocesador del mundo, creado en un simple chip y desarrollado por Intel.
+Era un CPU de 4 bits y también fue el primero disponible comercialmente.
+Este desarrollo impulsó la calculadora de Busicom/ wiki/Busicom e inició el camino para dotar de «inteligencia» a objetos inanimados y asimismo, a la computadora personal.
+Codificado inicialmente como 1201, fue pedido a Intel por Computer Terminal Corporation para usarlo en su terminal programable Datapoint 2200, pero debido a que Intel terminó el proyecto tarde y a que no cumplía con la expectativas de Computer Terminal Corporation, finalmente no fue usado en el Datapoint.
+Posteriormente Computer Terminal Corporation e Intel acordaron que el i8008 pudiera ser vendido a otros clientes.
+El SC MP (popularmente conocido como «Scamp») es el acrónimo de Simple Cost-effective Micro Processor (Microprocesador simple y rentable).
+Presenta un bus de direcciones de 16 bits y un bus de datos de 8 bits.
+Una característica, avanzada para su tiempo, es la capacidad de liberar los buses a fin de que puedan ser compartidos por varios procesadores.
+Este microprocesador fue muy utilizado, por su bajo costo, y provisto en kits, para propósitos educativos, de investigación y para el desarrollo de controladores industriales diversos.
+EL 8080 se convirtió en la CPU de la primera computadora personal, la Altair 8800 de MITS, según se alega, nombrada así por un destino de la Nave Espacial «Starship» del programa de televisión Viaje a las Estrellas, y el IMSAI 8080, formando la base para las máquinas que ejecutaban el sistema operativo CP/M-80.
+Los fanáticos de las computadoras podían comprar un equipo Altair por un precio (en aquel momento) de 395 USD.
+En un periodo de pocos meses, se vendieron decenas de miles de estos PC.
+Se fabrica, por parte de Motorola, el Motorola MC6800, más conocido como 6800.
+Fue lanzado al mercado poco después del Intel 8080.
+Su nombre proviene de que contenía aproximadamente 6800 transistores.
+Varios de los primeras microcomputadoras de los años 1970 usaron el 6800 como procesador.
+Entre ellas se encuentran la SWTPC 6800, que fue la primera en usarlo, y la muy conocida Altair 680.
+Este microprocesador se utilizó profusamente como parte de un kit para el desarrollo de sistemas controladores en la industria.
+Partiendo del 6800 se crearon varios procesadores derivados, siendo uno de los más potentes el Motorola 6809
+La compañía Zilog Inc.
+crea el Zilog Z80.
+Es un microprocesador de 8 bits construido en tecnología NMOS, y fue basado en el Intel 8080.
+Básicamente es una ampliación de éste, con lo que admite todas sus instrucciones.
+Un año después sale al mercado el primer computador que hace uso del Z80, el Tandy TRS-80 Model 1 provisto de un Z80 a 1,77 MHz y 4 KB de RAM.
+Es uno de los procesadores de más éxito del mercado, del cual se han producido numerosas versiones clónicas, y sigue siendo usado de forma extensiva en la actualidad en multitud de sistemas embebidos.
+La compañía Zilog fue fundada 1974 por Federico Faggin, quien fue diseñador jefe del microprocesador Intel 4004 y posteriormente del Intel 8080.
+Una venta realizada por Intel a la nueva división de computadoras personales de IBM, hizo que las PC de IBM dieran un gran golpe comercial con el nuevo producto con el 8088, el llamado IBM PC.
+El éxito del 8088 propulsó a Intel a la lista de las 500 mejores compañías, en la prestigiosa revista Fortune, y la misma nombró la empresa como uno de Los triunfos comerciales de los sesenta.
+El 80286, popularmente conocido como 286, fue el primer procesador de Intel que podría ejecutar todo el software escrito para su predecesor.
+Esta compatibilidad del software sigue siendo un sello de la familia de microprocesadores de Intel.
+Luego de seis años de su introducción, había un estimado de 15 millones de PC basadas en el 286, instaladas alrededor del mundo.
+Este procesador Intel, popularmente llamado 386, se integró con 275 000 transistores, más de 100 veces tantos como en el original 4004.
+El 386 añadió una arquitectura de 32 bits, con capacidad para multitarea y una unidad de traslación de páginas, lo que hizo mucho más sencillo implementar sistemas operativos que usaran memoria virtual.
+El microprocesador VAX 78032 (también conocido como DC333), es de único chip y de 32 bits, y fue desarrollado y fabricado por Digital Equipment Corporation (DEC); instalado en los equipos MicroVAX II, en conjunto con su chip coprocesador de coma flotante separado, el 78132, tenían una potencia cercana al 90 % de la que podía entregar el minicomputador VAX 11/780 que fuera presentado en 1977.
+Este microprocesador contenía 125 000 transistores, fue fabricado con la tecnología ZMOS de DEC.
+Los sistemas VAX y los basados en este procesador fueron los preferidos por la comunidad científica y de ingeniería durante la década de 1980.
+La generación 486 realmente significó contar con una computadora personal de prestaciones avanzadas, entre ellas, un conjunto de instrucciones optimizado, una unidad de coma flotante o FPU, una unidad de interfaz de bus mejorada y una memoria caché unificada, todo ello integrado en el propio chip del microprocesador.
+Estas mejoras hicieron que los i486 fueran el doble de rápidos que el par i386 - i387 operando a la misma frecuencia de reloj.
+El procesador Intel 486 fue el primero en ofrecer un coprocesador matemático o FPU integrado; con él que se aceleraron notablemente las operaciones de cálculo.
+Usando una unidad FPU las operaciones matemáticas más complejas son realizadas por el coprocesador de manera prácticamente independiente a la función del procesador principal.
+Procesadores fabricados por AMD 100 % compatible con los códigos de Intel de ese momento.
+Llamados «clones» de Intel, llegaron incluso a superar la frecuencia de reloj de los procesadores de Intel y a precios significativamente menores.
+Aquí se incluyen las series Am286, Am386, Am486 y Am586.
+Es un procesador de tecnología RISC de 32 bits, en 50 y 66 MHz.
+En su diseño utilizaron la interfaz de bus del Motorola 88110.
+En 1991, IBM busca una alianza con Apple y Motorola para impulsar la creación de este microprocesador, surge la alianza AIM (Apple, IBM y Motorola) cuyo objetivo fue quitar el dominio que Microsoft e Intel tenían en sistemas basados en los 80386 y 80486.
+PowerPC (abreviada PPC o MPC) es el nombre original de la familia de procesadores de arquitectura de tipo RISC, que fue desarrollada por la alianza AIM.
+Los procesadores de esta familia son utilizados principalmente en computadores Macintosh de Apple Computer y su alto rendimiento se debe fuertemente a su arquitectura tipo RISC.
+El microprocesador de Pentium poseía una arquitectura capaz de ejecutar dos operaciones a la vez, gracias a sus dos tuberías de datos de 32 bits cada uno, uno equivalente al 486DX (u) y el otro equivalente a 486SX (u).
+Además, estaba dotado de un bus de datos de 64 bits, y permitía un acceso a memoria de 64 bits (aunque el procesador seguía manteniendo compatibilidad de 32 bits para las operaciones internas, y los registros también eran de 32 bits).
+Las versiones que incluían instrucciones MMX no sólo brindaban al usuario un más eficiente manejo de aplicaciones multimedia, sino que también se ofrecían en velocidades de hasta 233 MHz.
+Se incluyó una versión de 200 MHz y la más básica trabajaba a alrededor de 166 MHz de frecuencia de reloj.
+El nombre Pentium, se mencionó en las historietas y en charlas de la televisión a diario, en realidad se volvió una palabra muy popular poco después de su introducción.
+En este año IBM y Motorola desarrollan el primer prototipo del procesador PowerPC de 64 bit, la implementación más avanzada de la arquitectura PowerPC, que estuvo disponible al año próximo.
+El 620 fue diseñado para su utilización en servidores, y especialmente optimizado para usarlo en configuraciones de cuatro y hasta ocho procesadores en servidores de aplicaciones de base de datos y vídeo.
+Este procesador incorpora siete millones de transistores y corre a 133 MHz.
+Es ofrecido como un puente de migración para aquellos usuarios que quieren utilizar aplicaciones de 64 bits, sin tener que renunciar a ejecutar aplicaciones de 32 bits.
+Lanzado al mercado en otoño de 1995, el procesador Pentium Pro (profesional) se diseñó con una arquitectura de 32 bits.
+Se usó en servidores y los programas y aplicaciones para estaciones de trabajo (de redes) impulsaron rápidamente su integración en las computadoras.
+El rendimiento del código de 32 bits era excelente, pero el Pentium Pro a menudo era más lento que un Pentium cuando ejecutaba código o sistemas operativos de 16 bits.
+El procesador Pentium Pro estaba compuesto por alrededor de 5'5 millones de transistores.
+Habiendo abandonado los clones, AMD fabricada con tecnologías análogas a Intel.
+AMD sacó al mercado su primer procesador propio, el K5, rival del Pentium.
+La arquitectura RISC86 del AMD K5 era más semejante a la arquitectura del Intel Pentium Pro que a la del Pentium.
+El K5 es internamente un procesador RISC con una Unidad x86- decodificadora, transforma todos los comandos x86 (de la aplicación en curso) en comandos RISC.
+Este principio se usa hasta hoy en todas las CPU x86.
+En la mayoría de los aspectos era superior el K5 al Pentium, incluso de inferior precio, sin embargo AMD tenía poca experiencia en el desarrollo de microprocesadores y los diferentes hitos de producción marcados se fueron superando con poco éxito, se retrasó 1 año de su salida al mercado, a razón de ello sus frecuencias de trabajo eran inferiores a las de la competencia, y por tanto, los fabricantes de PC dieron por sentado que era inferior.
+Con el K6, AMD no sólo consiguió hacerle seriamente la competencia a los Pentium MMX de Intel, sino que además amargó lo que de otra forma hubiese sido un plácido dominio del mercado, ofreciendo un procesador casi a la altura del Pentium II pero por un precio muy inferior.
+En cálculos en coma flotante, el K6 también quedó por debajo del Pentium II, pero por encima del Pentium MMX y del Pro.
+El K6 contó con una gama que va desde los 166 hasta los más de 500 MHz y con el juego de instrucciones MMX, que ya se han convertido en estándares.
+Más adelante se lanzó una mejora de los K6, los K6-2 de 250 nanómetros, para seguir compitiendo con los Pentium II, siendo este último superior en tareas de coma flotante, pero inferior en tareas de uso general.
+Se introduce un juego de instrucciones SIMD denominado 3DNow!
+Un procesador de 7'5 millones de transistores, se busca entre los cambios fundamentales con respecto a su predecesor, mejorar el rendimiento en la ejecución de código de 16 bits, añadir el conjunto de instrucciones MMX y eliminar la memoria caché de segundo nivel del núcleo del procesador, colocándola en una tarjeta de circuito impreso junto a éste.
+Gracias al nuevo diseño de este procesador, los usuarios de PC pueden capturar, revisar y compartir fotografías digitales con amigos y familia vía Internet; revisar y agregar texto, música y otros; con una línea telefónica; el enviar vídeo a través de las líneas normales del teléfono mediante Internet se convierte en algo cotidiano.
+Los procesadores Pentium II Xeon se diseñan para cumplir con los requisitos de rendimiento en computadoras de medio-rango, servidores más potentes y estaciones de trabajo (workstations).
+Consistente con la estrategia de Intel para diseñar productos de procesadores con el objetivo de llenar segmentos de los mercados específicos, el procesador Pentium II Xeon ofrece innovaciones técnicas diseñadas para las estaciones de trabajo y servidores que utilizan aplicaciones comerciales exigentes, como servicios de Internet, almacenamiento de datos corporativos, creaciones digitales y otros.
+Pueden configurarse sistemas basados en este procesador para integrar de cuatro u ocho procesadores trabajando en paralelo, también más allá de esa cantidad.
+Continuando la estrategia, Intel, en el desarrollo de procesadores para el segmento de mercados específicos, el procesador Celeron es el nombre que lleva la línea de de bajo costo de Intel.
+El objetivo fue poder, mediante ésta segunda marca, penetrar en los mercados impedidos a los Pentium, de mayor rendimiento y precio.
+Se diseña para añadir valor al segmento del mercado de los PC.
+Proporcionó a los consumidores una gran actuación a un bajo coste, y entregó un rendimiento destacado para usos como juegos y el software educativo.
+Procesador totalmente compatible con la arquitectura x86.
+Internamente el Athlon es un rediseño de su antecesor, pero se le mejoró substancialmente el sistema de coma flotante (ahora con 3 unidades de coma flotante que pueden trabajar simultáneamente) y se le incrementó la memoria caché de primer nivel (L1) a 128 KB (64 Kb para datos y 64 Kb para instrucciones).
+Además incluye 512 Kb de caché de segundo nivel (L2).
+El resultado fue el procesador x86 más potente del momento.
+El procesador Athlon con núcleo Thunderbird apareció como la evolución del Athlon Classic.
+Al igual que su predecesor, también se basa en la arquitectura x86 y usa el bus EV6.
+El proceso de fabricación usado para todos estos microprocesadores es de 180 nanómetros.
+El Athlon Thunderbird consolidó a AMD como la segunda mayor compañía de fabricación de microprocesadores, ya que gracias a su excelente rendimiento (superando siempre al Pentium III y a los primeros Pentium IV de Intel a la misma frecuencia de reloj) y bajo precio, la hicieron muy popular tanto entre los entendidos como en los iniciados en la informática.
+El procesador Pentium III ofrece 70 nuevas instrucciones Internet Streaming, las extensiones de SIMD que refuerzan dramáticamente el rendimiento con imágenes avanzadas, 3D, añadiendo una mejor calidad de audio, video y rendimiento en aplicaciones de reconocimiento de voz.
+Fue diseñado para reforzar el área del rendimiento en el Internet, le permite a los usuarios hacer cosas, tales como, navegar a través de páginas pesadas (con muchos gráficos), tiendas virtuales y transmitir archivos video de alta calidad.
+El procesador se integra con 9,5 millones de transistores, y se introdujo usando en él tecnología 250 nanómetros.
+El procesador Pentium III Xeon amplía las fortalezas de Intel en cuanto a las estaciones de trabajo (workstation) y segmentos de mercado de servidores, y añade una actuación mejorada en las aplicaciones del comercio electrónico e informática comercial avanzada.
+Los procesadores incorporan mejoras que refuerzan el procesamiento multimedia, particularmente las aplicaciones de vídeo.
+La tecnología del procesador III Xeon acelera la transmisión de información a través del bus del sistema al procesador, mejorando el rendimiento significativamente.
+Se diseña pensando principalmente en los sistemas con configuraciones de multiprocesador.
+Este es un microprocesador de séptima generación basado en la arquitectura x86 y fabricado por Intel.
+Es el primero con un diseño completamente nuevo desde el Pentium Pro.
+Se estrenó la arquitectura NetBurst, la cual no daba mejoras considerables respecto a la anterior P6.
+Intel sacrificó el rendimiento de cada ciclo para obtener a cambio mayor cantidad de ciclos por segundo y una mejora en las instrucciones SSE.
+Cuando Intel sacó el Pentium 4 a 1,7 GHz en abril de 2001 se vio que el Athlon Thunderbird no estaba a su nivel.
+Además no era práctico para el overclocking, entonces para seguir estando a la cabeza en cuanto a rendimiento de los procesadores x86, AMD tuvo que diseñar un nuevo núcleo, y sacó el Athlon XP.
+Este compatibilizaba las instrucciones SSE y las 3DNow! Entre las mejoras respecto al Thunderbird se puede mencionar la prerrecuperación de datos por hardware, conocida en inglés como prefetch, y el aumento de las entradas TLB, de 24 a 32.
+A principios de febrero de 2004, Intel introdujo una nueva versión de Pentium 4 denominada 'Prescott'.
+Primero se utilizó en su manufactura un proceso de fabricación de 90 nm y luego se cambió a 65nm.
+Su diferencia con los anteriores es que éstos poseen 1 MiB o 2 MiB de caché L2 y 16 Kb de caché L1 (el doble que los Northwood), prevención de ejecución, SpeedStep, C1E State, un HyperThreading mejorado, instrucciones SSE3, manejo de instrucciones AMD64, de 64 bits creadas por AMD, pero denominadas EM64T por Intel, sin embargo por graves problemas de temperatura y consumo, resultaron un fracaso frente a los Athlon 64.
+El AMD Athlon 64 es un microprocesador x86 de octava generación que implementa el conjunto de instrucciones AMD64, que fueron introducidas con el procesador Opteron.
+El Athlon 64 presenta un controlador de memoria en el propio circuito integrado del microprocesador y otras mejoras de arquitectura que le dan un mejor rendimiento que los anteriores Athlon y que el Athlon XP funcionando a la misma velocidad, incluso ejecutando código heredado de 32 bits.
+El Athlon 64 también presenta una tecnología de reducción de la velocidad del procesador llamada Cool'n'Quiet,: cuando el usuario está ejecutando aplicaciones que requieren poco uso del procesador, baja la velocidad del mismo y su tensión se reduce.
+Intel lanzó esta gama de procesadores de doble núcleo y CPUs 2x2 MCM (módulo Multi-Chip) de cuatro núcleos con el conjunto de instrucciones x86-64, basado en la nueva arquitectura Core de Intel.
+La microarquitectura Core regresó a velocidades de CPU bajas y mejoró el uso del procesador de ambos ciclos de velocidad y energía comparados con anteriores NetBurst de los CPU Pentium 4/D2.
+La microarquitectura Core provee etapas de decodificación, unidades de ejecución, caché y buses más eficientes, reduciendo el consumo de energía de CPU Core 2, mientras se incrementa la capacidad de procesamiento.
+Los CPU de Intel han variado muy bruscamente en consumo de energía de acuerdo a velocidad de procesador, arquitectura y procesos de semiconductor, mostrado en las tablas de disipación de energía del CPU.
+Esta gama de procesadores fueron fabricados de 65 a 45 nanómetros.
+Phenom fue el nombre dado por Advanced Micro Devices (AMD) a la primera generación de procesadores de tres y cuatro núcleos basados en la microarquitectura K10.
+Como característica común todos los Phenom tienen tecnología de 65 nm lograda a través de tecnología de fabricación Silicon on insulator (SOI).
+No obstante, Intel, ya se encontraba fabricando mediante la más avanzada tecnología de proceso de 45 nm en 2008.
+Los procesadores Phenom están diseñados para facilitar el uso inteligente de energía y recursos del sistema, listos para la virtualización, generando un óptimo rendimiento por vatio.
+Todas las CPU Phenom poseen características tales como controlador de memoria DDR2 integrado, tecnología HyperTransport y unidades de coma flotante de 128 bits, para incrementar la velocidad y el rendimiento de los cálculos de coma flotante.
+La arquitectura Direct Connect asegura que los cuatro núcleos tengan un óptimo acceso al controlador integrado de memoria, logrando un ancho de banda de 16 Gb/s para intercomunicación de los núcleos del microprocesador y la tecnología HyperTransport, de manera que las escalas de rendimiento mejoren con el número de núcleos.
+Tiene caché L3 compartida para un acceso más rápido a los datos (y así no depende tanto del tiempo de latencia de la RAM), además de compatibilidad de infraestructura de los zócalos AM2, AM2+ y AM3 para permitir un camino de actualización sin sobresaltos.
+A pesar de todo, no llegaron a igualar el rendimiento de la serie Core 2 Duo.
+Intel Core i7 es una familia de procesadores de cuatro núcleos de la arquitectura Intel x86-64.
+Los Core i7 son los primeros procesadores que usan la microarquitectura Nehalem de Intel y es el sucesor de la familia Intel Core 2.
+FSB es reemplazado por la interfaz QuickPath en i7 e i5 (zócalo 1366), y sustituido a su vez en i7, i5 e i3 (zócalo 1156) por el DMI eliminado el northBrige e implementando puertos PCI Express directamente.
+Memoria de tres canales (ancho de datos de 192 bits): cada canal puede soportar una o dos memorias DIMM DDR3.
+Las placa base compatibles con Core i7 tienen cuatro (3+1) o seis ranuras DIMM en lugar de dos o cuatro, y las DIMMs deben ser instaladas en grupos de tres, no dos.
+El Hyperthreading fue reimplementado creando núcleos lógicos.
+Está fabricado a arquitecturas de 45 nm y 32 nm y posee 731 millones de transistores su versión más potente.
+Se volvió a usar frecuencias altas, aunque a contrapartida los consumos se dispararon.
+Phenom II es el nombre dado por AMD a una familia de microprocesadores o CPUs multinúcleo (multicore) fabricados en 45 nm, la cual sucede al Phenom original y dieron soporte a DDR3.
+Una de las ventajas del paso de los 65 nm a los 45 nm, es que permitió aumentar la cantidad de caché L3.
+De hecho, ésta se incrementó de una manera generosa, pasando de los 2 MiB del Phenom original a 6 MiB.
+Entre ellos, el Amd Phenom II X2 BE 555 de doble núcleo surge como el procesador binúcleo del mercado.
+También se lanzan tres Athlon II con sólo Caché L2, pero con buena relación precio/rendimiento.
+El Amd Athlon II X4 630 corre a 2,8 GHz.
+El Amd Athlon II X4 635 continua la misma línea.
+AMD también lanza un triple núcleo, llamado Athlon II X3 440, así como un doble núcleo Athlon II X2 255.
+También sale el Phenom X4 995, de cuatro núcleos, que corre a más de 3,2 GHz.
+También AMD lanza la familia Thurban con 6 núcleos físicos dentro del encapsulado
+Llegan para remplazar los chips Nehalem, con Intel Core i3, Intel Core i5 e Intel Core i7 serie 2000 y Pentium G.
+Intel lanzó sus procesadores que se conocen con el nombre en clave Sandy Bridge.
+Estos procesadores Intel Core que no tienen sustanciales cambios en arquitectura respecto a nehalem, pero si los necesarios para hacerlos más eficientes y rápidos que los modelos anteriores.
+Es la segunda generación de los Intel Core con nuevas instrucciones de 256 bits, duplicando el rendimiento, mejorando el rendimiento en 3D y todo lo que se relacione con operación en multimedia.
+Llegaron la primera semana de enero del 2011.
+Incluye nuevo conjunto de instrucciones denominado AVX y una GPU integrada de hasta 12 unidades de ejecución
+AMD Fusion es el nombre clave para un diseño futuro de microprocesadores Turion, producto de la fusión entre AMD y ATI, combinando con la ejecución general del procesador, el proceso de la geometría 3D y otras funciones de GPUs actuales.
+La GPU (procesador gráfico) estará integrada en el propio microprocesador.
+Se espera la salida progresiva de esta tecnología a lo largo del 2011; estando disponibles los primeros modelos (Ontaro y Zacate) para ordenadores de bajo consumo entre últimos meses de 2010 y primeros de 2011, dejando el legado de las gamas medias y altas (Llano, Brazos y Bulldozer para mediados o finales del 2011)
+Ivy Bridge es el nombre en clave de los procesadores conocidos como Intel Core de tercera generación.
+Son por tanto sucesores de los micros que aparecieron a principios de 2011, cuyo nombre en clave es Sandy Bridge.
+Pasamos de los 32 nanómetros de ancho de transistor en Sandy Bridge a los 22 de Ivy Bridge.
+Esto le permite meter el doble de ellos en la misma área.
+Un mayor número de transistores significa que puedes poner más bloques funcionales dentro del chip.
+Es decir, este será capaz de hacer un mayor número de tareas al mismo tiempo.
+Haswell es el nombre clave de los procesadores de cuarta generación de Intel Core.
+Son la corrección de errores de la tercera generación e implementan nuevas tecnologías gráficas para el gamming y el diseño gráfico, funcionando con un menor consumo y teniendo un mejor rendimiento a un buen precio.
+Continua como su predecesor en 22 nanómetros pero funciona con un nuevo socket con clave 1150.
+Tienen un costo elevado a comparación con los APU's y FX de AMD pero tienen un mayor rendimiento.
+Este procesador está en la línea de la séptima generación, incorporando una potencia y una capacidad de respuesta nunca antes vistas.
+Especialmente fabricado para usuarios exigentes que quieren aumentar su productividad, sin dejar de lado a aquellos que pretenden pensar también en el entretenimiento y juegos sensacionales, con alta transferencia de datos y mucho más, ya está disponible en el mercado.
+Es una marca de procesadores desarrollados por AMD lanzada en febrero de 2017, usa la microarquitectura Zen en proceso de fabricación de 14 nm y cuentan con 4800 millones de transistores, ofrecen un gran rendimiento multi-hilo pero uno menor usando un solo hilo que los de su competencia Intel.
+Estos requieren del zócalo AM4 y todas las tarjetas madre para este tipo de procesadores incorporan multiplicadores desbloqueados para overclocking, además que todos los productos soportan overclocking automático, aunque esto procesadores no cuentan con GPU integrada, por lo que dependen de una solución dedicada.
+Los procesadores Ryzen devolvieron a AMD a la gama alta de CPUs de escritorio, capaces de competir en rendimiento contra los procesadores Core i7 de Intel con precios menores y competitivos; desde su lanzamiento la cuota de mercado de AMD ha aumentado.
+Funcionamiento
+Desde el punto de vista lógico, singular y funcional, el microprocesador está compuesto básicamente por: varios registros, una unidad de control, una unidad aritmético lógica, y dependiendo del procesador, puede contener una unidad de coma flotante.
+El microprocesador ejecuta instrucciones almacenadas como números binarios organizados secuencialmente en la memoria principal.
+La ejecución de las instrucciones se puede realizar en varias fases:
+Prefetch, prelectura de la instrucción desde la memoria principal.
+* Decodificación de la instrucción, es decir, determinar qué instrucción es y por tanto qué se debe hacer.
+* Ejecución, lanzamiento de las máquinas de estado que llevan a cabo el procesamiento.
+* Escritura de los resultados en la memoria principal o en los registros.
+Cada una de estas fases se realiza en uno o varios ciclos de CPU, dependiendo de la estructura del procesador, y concretamente de su grado de segmentación.
+La duración de estos ciclos viene determinada por la frecuencia de reloj, y nunca podrá ser inferior al tiempo requerido para realizar la tarea individual (realizada en un solo ciclo) de mayor coste temporal.
+El microprocesador se conecta a un circuito PLL, normalmente basado en un cristal de cuarzo capaz de generar pulsos a un ritmo constante, de modo que genera varios ciclos (o pulsos) en un segundo.
+Este reloj, en la actualidad, genera miles de megahercios.
+Rendimiento
+El rendimiento del procesador puede ser medido de distintas maneras, hasta hace pocos años se creía que la frecuencia de reloj era una medida precisa, pero ese mito, conocido como «mito de los megahertzios» se ha visto desvirtuado por el hecho de que los procesadores no han requerido frecuencias más altas para aumentar su potencia de cómputo.
+Durante los últimos años esa frecuencia se ha mantenido en el rango de los 1,5 GHz a 4 GHz, dando como resultado procesadores con capacidades de proceso mayores comparados con los primeros que alcanzaron esos valores.
+Además la tendencia es a incorporar más núcleos dentro de un mismo encapsulado para aumentar el rendimiento por medio de una computación paralela, de manera que la velocidad de reloj es un indicador menos fiable aún.
+De todas maneras, una forma fiable de medir la potencia de un procesador es mediante la obtención de las Instrucciones por ciclo.
+Medir el rendimiento con la frecuencia es válido únicamente entre procesadores con arquitecturas muy similares o iguales, de manera que su funcionamiento interno sea el mismo: en ese caso la frecuencia es un índice de comparación válido.
+Dentro de una familia de procesadores es común encontrar distintas opciones en cuanto a frecuencias de reloj, debido a que no todos los chips de silicio tienen los mismos límites de funcionamiento: son probados a distintas frecuencias, hasta que muestran signos de inestabilidad, entonces se clasifican de acuerdo al resultado de las pruebas.
+Esto se podría reducir en que los procesadores son fabricados por lotes con diferentes estructuras internas atendiendo a gamas y extras como podría ser una memoria caché de diferente tamaño, aunque no siempre es así y las gamas altas difieren muchísimo más de las bajas que simplemente de su memoria caché.
+Después de obtener los lotes según su gama, se someten a procesos en un banco de pruebas, y según su soporte a las temperaturas o que vaya mostrando signos de inestabilidad, se le adjudica una frecuencia, con la que vendrá programado de serie, pero con prácticas de overclock se le puede incrementar
+La capacidad de un procesador depende fuertemente de los componentes restantes del sistema, sobre todo del chipset, de la memoria RAM y del software.
+Pero obviando esas características puede tenerse una medida aproximada del rendimiento de un procesador por medio de indicadores como la cantidad de operaciones de coma flotante por unidad de tiempo FLOPS, o la cantidad de instrucciones por unidad de tiempo MIPS.
+Una medida exacta del rendimiento de un procesador o de un sistema, es muy complicada debido a los múltiples factores involucrados en la computación de un problema, por lo general las pruebas no son concluyentes entre sistemas de la misma generación.
+Arquitectura
+El microprocesador tiene una arquitectura parecida a la computadora digital.
+En otras palabras, el microprocesador es como la computadora digital porque ambos realizan cálculos bajo un programa de control.
+Consiguientemente, la historia de la computadora digital ayuda a entender el microprocesador.
+Hizo posible la fabricación de potentes calculadoras y de muchos otros productos.
+El microprocesador utiliza el mismo tipo de lógica que es usado en la unidad procesadora central (CPU) de una computadora digital.
+El microprocesador es algunas veces llamado unidad microprocesadora (MPU).
+En otras palabras, el microprocesador es una unidad procesadora de datos.
+En un microprocesador se puede diferenciar diversas partes:
+* Encapsulado: es lo que rodea a la oblea de silicio en si, para darle consistencia, impedir su deterioro (por ejemplo, por oxidación por el aire) y permitir el enlace con los conectores externos que lo acoplaran a su zócalo de la placa base.
+* Memoria caché: es una memoria ultrarrápida que emplea el procesador para tener alcance directo a ciertos datos que «predeciblemente» serán utilizados en las siguientes operaciones, sin tener que acudir a la memoria RAM, reduciendo así el tiempo de espera para adquisición de datos.
+Todos los micros compatibles con PC poseen la llamada caché interna de primer nivel o L1; es decir, la que está dentro del micro, encapsulada junto a él.
+Los micros más modernos (Core i3, Core i5, Core i7, etc.) incluyen también en su interior otro nivel de caché, más grande, aunque algo menos rápida, es la caché de segundo nivel o L2 e incluso los hay con memoria caché de nivel 3, o L3.
+* Coprocesador matemático: unidad de coma flotante.
+Es la parte del micro especializada en esa clase de cálculos matemáticos, antiguamente estaba en el exterior del procesador en otro chip.
+Esta parte está considerada como una parte «lógica» junto con los registros, la unidad de control, memoria y bus de datos.
+* Registros: son básicamente un tipo de memoria pequeña con fines especiales que el micro tiene disponible para algunos usos particulares.
+Hay varios grupos de registros en cada procesador.
+Un grupo de registros está diseñado para control del programador y hay otros que no son diseñados para ser controlados por el procesador pero que la CPU los utiliza en algunas operaciones, en total son treinta y dos registros.
+* Memoria: es el lugar donde el procesador encuentra las instrucciones de los programas y sus datos.
+Tanto los datos como las instrucciones están almacenados en memoria, y el procesador las accede desde allí.
+La memoria es una parte interna de la computadora y su función esencial es proporcionar un espacio de almacenamiento para el trabajo en curso.
+* Puertos: es la manera en que el procesador se comunica con el mundo externo.
+Un puerto es análogo a una línea de teléfono.
+Cualquier parte de la circuitería de la computadora con la cual el procesador necesita comunicarse, tiene asignado un «número de puerto» que el procesador utiliza como si fuera un número de teléfono para llamar circuitos o a partes especiales.
+Fabricación
+Procesadores de silicio
+El proceso de fabricación de un microprocesador es muy complejo.
+Todo comienza con un buen puñado de arena (compuesta básicamente de silicio), con la que se fabrica un mono cristal de unos 20 x 150 centímetros.
+Para ello, se funde el material en cuestión a alta temperatura (1.370 °C) y muy lentamente (10 a 40 mm por hora) se va formando el cristal.
+De este cristal, de cientos de kilos de peso, se cortan los extremos y la superficie exterior, de forma de obtener un cilindro perfecto.
+Luego, el cilindro se corta en obleas de 10 micras de espesor, la décima parte del espesor de un cabello humano, utilizando una sierra de diamante.
+De cada cilindro se obtienen miles de obleas, y de cada oblea se fabricarán varios cientos de microprocesadores.
+Estas obleas son pulidas hasta obtener una superficie perfectamente plana, pasan por un proceso llamado “annealing”, que consiste en someterlas a un calentamiento extremo para eliminar cualquier defecto o impureza que pueda haber llegado a esta instancia.
+Después de una supervisión mediante láseres capaz de detectar imperfecciones menores a una milésima de micra, se recubren con una capa aislante formada por óxido de silicio transferido mediante deposición de vapor.
+De aquí en adelante, comienza el proceso del «dibujado» de los transistores que conformarán a cada microprocesador.
+A pesar de ser muy complejo y preciso, básicamente consiste en la “impresión” de sucesivas máscaras sobre la oblea, sucediéndose la deposición y eliminación de capas finísimas de materiales conductores, aislantes y semiconductores, endurecidas mediante luz ultravioleta y atacada por ácidos encargados de eliminar las zonas no cubiertas por la impresión.
+Salvando las escalas, se trata de un proceso comparable al visto para la fabricación de circuitos impresos.
+Después de cientos de pasos, entre los que se hallan la creación de sustrato, la oxidación, la litografía, el grabado, la implantación iónica y la deposición de capas; se llega a un complejo «bocadillo» que contiene todos los circuitos interconectados del microprocesador.
+Un transistor construido en tecnología de 45 nanómetros tiene un ancho equivalente a unos 200 electrones.
+Eso da una idea de la precisión absoluta que se necesita al momento de aplicar cada una de las máscaras utilizadas durante la fabricación.
+Los detalles de un microprocesador son tan pequeños y precisos que una única mota de polvo puede destruir todo un grupo de circuitos.
+Las salas empleadas para la fabricación de microprocesadores se denominan salas limpias, porque el aire de las mismas se somete a un filtrado exhaustivo y está prácticamente libre de polvo.
+Las salas limpias más puras de la actualidad se denominan de clase 1.
+La cifra indica el número máximo de partículas mayores de 0,12 micras que puede haber en un pie cúbico (0,028 m3) de aire.
+Como comparación, un hogar normal sería de clase 1 millón.
+Los trabajadores de estas plantas emplean trajes estériles para evitar que restos de piel, polvo o pelo se desprendan de sus cuerpos.
+Una vez que la oblea ha pasado por todo el proceso litográfico, tiene “grabados” en su superficie varios cientos de microprocesadores, cuya integridad es comprobada antes de cortarlos.
+Se trata de un proceso obviamente automatizado, y que termina con una oblea que tiene grabados algunas marcas en el lugar que se encuentra algún microprocesador defectuoso.
+La mayoría de los errores se dan en los bordes de la oblea, dando como resultados chips capaces de funcionar a velocidades menores que los del centro de la oblea o simplemente con características desactivadas, tales como núcleos.
+Luego la oblea es cortada y cada chip individualizado.
+En esta etapa del proceso el microprocesador es una pequeña placa de unos pocos milímetros cuadrados, sin pines ni cápsula protectora.
+Cada una de estas plaquitas será dotada de una cápsula protectora plástica (en algunos casos pueden ser cerámicas) y conectada a los cientos de pines metálicos que le permitirán interactuar con el mundo exterior.
+Estas conexiones se realizan utilizando delgadísimos alambres, generalmente de oro.
+De ser necesario, la cápsula es provista de un pequeño disipador térmico de metal, que servirá para mejorar la transferencia de calor desde el interior del chip hacia el disipador principal.
+El resultado final es un microprocesador como los que equipan a los computadores.
+También se están desarrollando alternativas al silicio puro, tales como el carburo de silicio que mejora la conductividad del material, permitiendo mayores frecuencias de reloj interno; aunque aún se encuentra en investigación.
+Otros materiales
+Aunque la gran mayoría de la producción de circuitos integrados se basa en el silicio, no se puede omitir la utilización de otros materiales que son una alternativa tales como el germanio; tampoco las investigaciones actuales para conseguir hacer operativo un procesador desarrollado con materiales de características especiales como el grafeno o la molibdenita.
+Empaquetado
+Los microprocesadores son circuitos integrados y como tal están formados por un chip de silicio y un empaque con conexiones eléctricas.
+En los primeros procesadores el empaque se fabricaba con plásticos epoxicos o con cerámicas en formatos como el DIP entre otros.
+El chip se pegaba con un material térmicamente conductor a una base y se conectaba por medio de pequeños alambres a unas pistas terminadas en pines.
+Posteriormente se sellaba todo con una placa metálica u otra pieza del mismo material de la base de manera que los alambres y el silicio quedaran encapsulados.
+En la actualidad los microprocesadores de diversos tipos (incluyendo procesadores gráficos) se ensamblan por medio de la tecnología Flip chip.
+El chip semiconductor es soldado directamente a una colección de pistas conductoras (en el sustrato laminado) con la ayuda de unas microesferas que se depositan sobre las obleas de semiconductor en las etapas finales de su fabricación.
+El sustrato laminado es una especie de circuito impreso que posee pistas conductoras hacia pines o contactos, que a su vez servirán de conexión entre el chip semiconductor y un zócalo de CPU o una placa base.
+Antiguamente las conexión del chip con los pines se realizaba por medio de microalambres de manera que quedaba boca arriba, con el método Flip Chip queda boca abajo, de ahí se deriva su nombre.
+Entre las ventajas de este método esta la simplicidad del ensamble y en una mejor disipación de calor.
+Cuando la pastilla queda bocabajo presenta el sustrato base de silicio de manera que puede ser enfriado directamente por medio de elementos conductores de calor.
+Esta superficie se aprovecha también para etiquetar el integrado.
+En los procesadores para computadores de escritorio, dada la vulnerabilidad de la pastilla de silicio, se opta por colocar una placa de metal, por ejemplo en los procesadores Athlon como el de la primera imagen.
+En los procesadores de Intel también se incluye desde el Pentium III de más de 1 GHz.
+Disipación de calor
+Con el aumento de la cantidad de transistores integrados en un procesador, el consumo de energía se ha elevado a niveles en los cuales la disipación calórica natural del mismo no es suficiente para mantener temperaturas aceptables y que no se dañe el material semiconductor, de manera que se hizo necesario el uso de mecanismos de enfriamiento forzado, esto es, la utilización de disipadores de calor.
+Entre ellos se encuentran los sistemas sencillos, tales como disipadores metálicos, que aumentan el área de radiación, permitiendo que la energía salga rápidamente del sistema.
+También los hay con refrigeración líquida, por medio de circuitos cerrados.
+En los procesadores más modernos se aplica en la parte superior del procesador, una lámina metálica denominada IHS que va a ser la superficie de contacto del disipador para mejorar la refrigeración uniforme del die y proteger las resistencias internas de posibles tomas de contacto al aplicar pasta térmica.
+Varios modelos de procesadores, en especial, los Athlon XP, han sufrido cortocircuitos debido a una incorrecta aplicación de la pasta térmica.
+Para las prácticas de overclock extremo, se llegan a utilizar elementos químicos tales como hielo seco, y en casos más extremos, nitrógeno líquido, capaces de rondar temperaturas por debajo de los -190 grados Celsius y el helio líquido capaz de rondar temperaturas muy próximas al cero absoluto.
+De esta manera se puede prácticamente hasta triplicar la frecuencia de reloj de referencia de un procesador de silicio.
+El límite físico del silicio es de 10 GHz, mientras que el de otros materiales como el grafeno puede llegar a 1 THz
+Conexión con el exterior
+El microprocesador posee un arreglo de elementos metálicos que permiten la conexión eléctrica entre el circuito integrado que conforma el microprocesador y los circuitos de la placa base.
+Dependiendo de la complejidad y de la potencia, un procesador puede tener desde 8 hasta más de 2000 elementos metálicos en la superficie de su empaque.
+El montaje del procesador se realiza con la ayuda de un zócalo de CPU soldado sobre la placa base.
+Generalmente distinguimos tres tipos de conexión:
+PGA: Pin Grid Array: La conexión se realiza mediante pequeños alambres metálicos repartidos a lo largo de la base del procesador introduciéndose en la placa base mediante unos pequeños agujeros, al introducir el procesador, una palanca anclará los pines para que haga buen contacto y no se suelten.
+* BGA: Ball Grid Array: La conexión se realiza mediante bolas soldadas al procesador que hacen contacto con el zócalo
+* LGA: Land Grid Array: La conexión se realiza mediante superficies de contacto lisas con pequeños pines que incluye la placa base.
+Entre las conexiones eléctricas están las de alimentación eléctrica de los circuitos dentro del empaque, las señales de reloj, señales relacionadas con datos, direcciones y control; estas funciones están distribuidas en un esquema asociado al zócalo, de manera que varias referencias de procesador y placas base son compatibles entre ellos, permitiendo distintas configuraciones.
+Buses del procesador
+Todos los procesadores poseen un bus principal o de sistema por el cual se envían y reciben todos los datos, instrucciones y direcciones desde los integrados del chipset o desde el resto de dispositivos.
+Como puente de conexión entre el procesador y el resto del sistema, define mucho del rendimiento del sistema, su velocidad se mide en bits por segundo.
+Ese bus puede ser implementado de distintas maneras, con el uso de buses seriales o paralelos y con distintos tipos de señales eléctricas.
+La forma más antigua es el bus paralelo en el cual se definen líneas especializadas en datos, direcciones y para control.
+En la arquitectura tradicional de Intel (usada hasta modelos recientes), ese bus se llama front-side bus y es de tipo paralelo con 64 líneas de datos, 32 de direcciones además de múltiples líneas de control que permiten la transmisión de datos entre el procesador y el resto del sistema.
+Este esquema se ha utilizado desde el primer procesador de la historia, con mejoras en la señalización que le permite funcionar con relojes de 333 MHz haciendo 4 transferencias por ciclo.
+En algunos procesadores de AMD y en el Intel Core i7 se han usado otros tipos para el bus principal de tipo serial.
+Entre estos se encuentra el bus HyperTransport de AMD, que maneja los datos en forma de paquetes usando una cantidad menor de líneas de comunicación, permitiendo frecuencias de funcionamiento más altas y en el caso de Intel, Quickpath
+Los microprocesadores de Intel y de AMD (desde antes) poseen además un controlador de memoria de acceso aleatorio en el interior del encapsulado lo que hace necesario la implementación de buses de memoria del procesador hacia los módulos.
+Ese bus esta de acuerdo a los estándares DDR de JEDEC y consisten en líneas de bus paralelo, para datos, direcciones y control.
+Dependiendo de la cantidad de canales pueden existir de 1 a 4 buses de memoria.
+Arquitecturas
+** Motorola 88000 (antecesor de la familia PowerPC con el IBM POWER)
+IBM POWER (antecesor de la familia PowerPC con el Motorola 88000)
+* Transmeta Crusoe, Transmeta Efficeon (arquitectura VLIW, con emulador de la IA32 de 32-bit Intel x86)
+** Intel 8086, 8088, 80186, 80188 (arquitectura x86 de 16-bit con sólo modo real)
+** Intel 80286 (arquitectura x86 de 16-bit con modo real y modo protegido)
+Véase también

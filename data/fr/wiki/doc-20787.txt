@@ -1,0 +1,131 @@
+Mécanique classique|Relativité|Système de référence
+En physique, un référentiel galiléen (nommé ainsi en hommage à Galilée), ou inertiel
+, se définit comme un référentiel dans lequel le principe d'inertie est vérifié, c'est-à-dire que tout corps ponctuel libre (id est sur lequel ne s’exerce aucune force ou sur lequel la résultante des forces est nulle) est en mouvement de translation rectiligne uniforme, ou au repos .
+Par suite, la vitesse du corps est constante (au cours du temps) en direction et en norme.
+Une définition, plus abstraite mais équivalente, est celle d'un référentiel par rapport auquel le temps est uniforme, l'espace homogène et isotrope.
+Il s'agit en pratique d'une idéalisation, la recherche d'un référentiel inertiel étant un sujet délicat, et sa détermination concrète toujours approximative.
+Tout référentiel en mouvement de translation rectiligne et uniforme par rapport à un référentiel galiléen est lui-même galiléen : il existe donc une infinité de référentiels galiléens, les formules de passage de l'un à l'autre se faisant par transformation de Galilée, qui laisse inchangée la forme des lois du mouvement de Newton.
+En mécanique relativiste, le passage d'un référentiel galiléen à l'autre fait intervenir la transformation de Lorentz, qui se ramène à celle de Galilée pour des vitesses faibles devant celle de la lumière dans le vide.
+Les lois de la mécanique sont invariantes par changement de référentiel galiléen : ce postulat constitue le principe de la relativité galiléenne, qui toutefois n'est pas valable pour l'électrodynamique classique.
+En effet, les formules de passage d'un référentiel galiléen à un autre prévoient une dépendance de la vitesse de la lumière dans le vide c selon le référentiel par composition des vitesses, ce qui n'est pas observé.
+La prise en compte de cette invariance de c par changement de référentiel galiléen est à la base de la théorie de la relativité restreinte
+Dans un référentiel non inertiel, qui est animé d’un mouvement accéléré par rapport à un référentiel galiléen, il faut faire intervenir les forces d’inertie.
+Ces forces se distinguent de celles prises en compte dans un référentiel galiléen, car elles ne sont pas associées à une interaction entre le corps dont on étudie le mouvement et un autre corps.
+Définition et propriétés générales
+En physique classique comme en relativité restreinte, l'espace de l'observateur est assimilé à un espace affine à trois dimensions auquel est associé un temps utilisé pour paramétrer les mouvements des corps observés.
+L'association d'un tel repère d'espace, qui implique l'existence d'un "solide de référence" auquel on rapporte l'étude des mouvements, et d'un repère de temps ou "horloge", constitue un référentiel.
+Position du problème
+Le choix du référentiel d'étude n'est pas uniquement guidé par des considérations techniques de complexité plus ou moins grande d'écriture des équations du mouvement, par exemple selon l'orientation des axes, le système de coordonnées , ou l'origine des dates, mais détermine également du point de vue fondamental le cadre spatio-temporel d'étude des phénomènes considérés.
+En effet, pour un référentiel quelconque, l'espace n'apparaîtra pas nécessairement homogène et/ou isotrope, ni le temps uniforme.
+Ainsi, par exemple, l'étude du mouvement d'un corps par rapport au référentiel lié à un wagon en mouvement accéléré par rapport aux voies fera apparaître une direction privilégiée, celle du vecteur accélération, donc une anisotropie de l'espace.
+Il en sera de même pour un référentiel lié à un corps en mouvement de rotation autour d'un axe, qui fera apparaître à la fois une direction privilégiée, celle de l'axe de rotation (anisotropie), et des effets "centrifuges" dépendant de la distance à l'axe (non-homogénéité de l'espace), voire du temps si la vitesse de rotation n'est pas constante (non-uniformité du temps).
+Ces deux exemples sont détaillés plus bas.
+Une telle situation conduirait à devoir écrire les équations de la physique, notamment celles de la mécanique, d'une façon distincte selon le référentiel d'étude
+, c'est-à-dire sous une forme non covariante, à moins de définir une classe de référentiels particuliers, dits galiléens, par rapport auxquels ces équations prennent justement une forme covariante.
+Définition d'un référentiel galiléen
+Les considérations précédentes conduisent à définir de façon générale).
+Une autre définition, historique, et souvent donnée à un niveau élémentaire, est celle d'un référentiel dans lequel est vérifié le principe d'inertie : tout point matériel libre (c.-à-d., qui n'est soumis à aucune force) est animé d'un mouvement rectiligne uniforme, l'immobilité étant un cas particulier.
+Cette définition est rigoureusement équivalente à la précédente : dans un référentiel où le temps est uniforme, et l'espace homogène et isotrope, un corps libre ne subira aucun changement dans les conditions auxquelles il est soumis durant son déplacement, tous les points de l'espace étant équivalents, et ce quelle que soit la direction de son mouvement, du fait de l'isotropie, et à tout instant, du fait de l'uniformité du temps.
+Dès lors il persistera dans son mouvement avec un vecteur vitesse constant, donc rectiligne et uniforme, ou son état de repos, ce qui correspond à l'énoncé du principe d'inertie.
+Enfin une dernière définition, également équivalente aux deux précédentes, mais plus adaptée au cadre particulier de la mécanique newtonienne, est celle d'un référentiel par rapport auquel la relation fondamentale de la dynamique s'écrit sous une forme ne faisant intervenir que des forces réellement appliquées, c'est-à-dire traduisant une interaction, à distance ou de contact, du corps considéré avec d'autres corps, à l'exclusion de toutes forces d'inertie.
+Confrontation avec l'expérience et exemples
+Dans la pratique, un référentiel lié à des corps réels ne peut être qu'approximativement, localement et momentanément galiléen.
+Il a déjà été indiqué que par rapport à un système de référence quelconque, l'espace est physiquement non-homogène et anisotrope, et le temps non uniforme, et dans ce cas la description d'un phénomène même simple peut prendre une forme très compliquée, comme il est possible de le montrer simplement en détaillant les deux exemples de référentiels non-inertiels déjà évoqués plus haut.
+* Soit un wagon en mouvement de translation rectiligne uniformément accéléré d'accélération \vec_e, par rapport à un référentiel lié aux voies, approximativement galiléen.
+Le mouvement accéléré du wagon se traduit par l'existence, du point de vue d'un observateur lié à un tel référentiel, d'une force d'inertie -m\vec_e=\vec s'appliquant à tout point matériel.
+Cette force d'inertie est localement équivalente à un champ de gravitation uniforme et constant, de valeur -\vec_e, non lié à la présence d'un corps physique mais constituant une propriété intrinsèque de ce référentiel.
+:Donc dans un référentiel lié au wagon, le temps sera uniforme, le champ étant constant, et l'espace sera homogène (tous les points seront équivalents, le "champ" étant uniforme) mais non isotrope, la direction de -\vec_e étant privilégiée.
+Dès lors le référentiel ne sera pas galiléen, les corps auront tendance à se déplacer dans la direction opposée à celle de l'accélération, et ceci sans qu'aucune force ne leur soit appliquée : le principe d'inertie n'y sera donc pas vérifié.
+* Soit un objet lié à l'axe d'un disque en rotation par un fil supposé totalement rigide (exemple d'un manège).
+Un observateur lié au référentiel en rotation associé au disque constatera l'existence d'une force d'inertie radiale \vec_c=m^2 r \vec_r.
+:Du point de vue de la deuxième loi de newton appliquée à l'objet sur le disque pris comme système, chacun des deux observateurs décrira la situation de façon différente (cf. figure ci-contre).
+L'observateur lié au disque comme celui d'un objet au repos, soumis à deux forces, la tension \vec T du fil et la force d'inertie \vec_c.
+Celui lié au sol, référentiel supposé galiléen, décrira la situation comme celle d'un objet en mouvement circulaire, subissant comme seule force la tension \vec T du fil, et donc ayant une accélération centripète : clairement les deux points de vue ne sont pas équivalents
+Cependant, l'expérience nous apprend que l'on peut toujours trouver un référentiel galiléen : l'espace y est (approximativement) homogène et isotrope, et le temps uniforme.
+En pratique on se contente d'un référentiel approximativement inertiel, approximation jugée satisfaisante pour l'expérience considérée.
+Ainsi, le référentiel terrestre peut être supposé galiléen, sauf si les effets de la rotation de la Terre ne sont pas négligeables : pour une expérience de courte durée en laboratoire, cela sera généralement accepté ;
+pour le calcul de la trajectoire d'un missile balistique, non.
+Il convient de souligner cependant que dans ce référentiel il est fait usage d'une force, le poids, traduisant l'action de la Terre sur un corps placé dans son voisinage, qui dans sa définition prend en compte des effets non-inertiels, à savoir celui de la rotation de la Terre, et (dans une bien moindre mesure) les effets différentiels de marée, liés principalement au Soleil et à la Lune.
+Toutefois les effets de l'accélération de Coriolis ne seront pas pris en compte par le poids.
+Un "meilleur" référentiel pourra être le référentiel géocentrique, lié au centre de la Terre, et dont les directions du repère d'espace associé pointent vers trois étoiles lointaines, pouvant être considérées comme fixes.
+Dans ce référentiel la Terre est en rotation, ce qui élimine l'effet non-inertiel ("axifuge") lié à celle-ci, toutefois il persistera l'effet de l'accélération de la Terre sur son orbite, entre autres, donc le référentiel ne sera pas rigoureusement galiléen.
+Toutefois pour des observations d'une durée faible devant la période de rotation de la Terre l'approximation est très bonne.
+Des référentiels encore "meilleurs" seront constitués par ceux de Kepler ou de Copernic, liés respectivement au centre du Soleil et au centre d'inertie du système Solaire, pour lesquels les effets non-inertiels, liés entre autres au mouvement du Soleil par rapport au centre galactique, ne seront perceptibles que pour des périodes de plusieurs millions d'années.
+Ces exemples montrent le caractère idéal de la notion de référentiel galiléen.
+Il est évident que le choix du référentiel dépend aussi du problème étudié.
+Les référentiels de Copernic ou de Kepler sont sans doute pratiques pour l'étude du mouvement des corps du système solaire, beaucoup moins pour celle de la trajectoire d'un satellite et encore moins pour celle d'un avion...
+Le référentiel géocentrique et le référentiel terrestre, respectivement, seront beaucoup plus appropriés, bien que non rigoureusement galiléens.
+Il est aussi possible de noter que le référentiel lié au centre de masse d'un satellite artificiel, dont le repère d'espace associé est défini par les directions de trois étoiles définit un référentiel «
+quasi galiléen », comme en témoigne le fait que dans la capsule spatiale les objets flottent en impesanteur (pas de forces d'inertie).
+En fait, ce type de référentiel, qui peut être considéré en première approximation comme en chute libre, peut être qualifié comme « localement » galiléen.
+Toutefois ce « caractère galiléen » ne sera approximativement valable que dans un voisinage de l'origine de ce référentiel, contrairement à un « vrai » référentiel inertiel.
+Cette notion de référentiel "localement inertiel".
+Principe de relativité
+Étant donné un référentiel supposé galiléen tout autre référentiel, en mouvement de translation rectiligne et uniforme (cf. figure ci-contre), constituera un référentiel galiléen.
+Il existe ainsi une infinité de référentiels galiléens, les formules de passage de des uns par rapport aux autres étant donnée par la transformation de Galilée (ou de Lorentz dans le cas de la relativité restreinte), cf. plus bas.
+La notion de référentiel galiléen est fondamentale en physique, particulièrement en mécanique.
+De fait, postuler l'existence d'un tel référentiel est indispensable pour pouvoir énoncer des lois physiques générales, qui ne varient ni au cours du temps, ni selon la position dans l'espace ou la direction considérée.
+En physique classique notamment, newtonienne ou relativiste (restreinte), les référentiels galiléens constituent une "classe privilégiée" de référentiels, pour lesquels les lois physiques sont invariantes lors d'un passage d'un de ces référentiels à un autre : ce postulat constitue le principe de relativité.
+* Dans le cadre de la relativité restreinte, l'équivalence des référentiels galiléens est aussi supposée valide, mais la vitesse de la lumière dans le vide est également postulée comme invariante par changement de référentiel galiléen.
+Il est facile de montrer que ceci est incompatible avec le caractère absolu de la simultanéité et donc du temps de la mécanique newtonienne.
+Il n'y a plus alors, comme en mécanique newtonienne, d'invariances distinctes de la durée \Delta t et de la distance \Delta r entre deux événements lors d'un changement de référentiel galiléen, mais invariance de lintervalle d'espace-temps \Delta s^2=c^2\Delta t^2-\Delta\vec^2, par suite des observateurs situés dans des référentiels différents vont obtenir une séparation en temps et en espace différente entre deux mêmes évènements.
+La mécanique newtonienne permet toutefois de raisonner dans tout référentiel, les effets non-inertiels étant pris en compte en utilisant la notion de force d'inertie, bien que l'utilisation de référentiels (approximativement au moins) galiléens soit généralement privilégiée afin de simplifier les analyses.
+En revanche, la relativité restreinte ne s'applique que dans les référentiels galiléens, les autres référentiels sont étudiés en relativité générale.
+Conséquences du principe de relativité
+Deux expériences de mécanique newtonienne, ou classique, faites identiquement dans deux référentiels inertiels distincts s'y déroulent de manière identique.
+En relativité restreinte, il s'agit de tous types d'expériences physiques (hormis la gravitation qui n'y est pas définie), et pas seulement de mécanique.
+Par exemple,
+en mécanique classique,
+en considérant le sol terrestre comme un référentiel galiléen dans lequel les corps ne subissent que l'influence de la gravitation (en première approximation), le référentiel lié à un train en mouvement de translation rectiligne à vitesse constante par rapport au sol est lui aussi inertiel (sous l'influence aussi de la gravitation)
+Soient deux personnes, la première immobile par rapport au sol, et la seconde par rapport au train.
+Si ces deux personnes lâchent, sans vitesse initiale, un objet en tous points identiques, à une même distance du sol ou du plancher du train, elles observeront chacune une chute de leur objet suivant une droite verticale, parfaitement identique aux observations de l'autre (les mesures faites par l'une et l'autre personne sont identiques).
+Une expérience observée depuis deux référentiels galiléens distincts (supposés en mouvement relatif de translation rectiligne uniforme) suit une loi identiquement
+écrite
+dans les deux référentiels
+La différence entre les deux lois n'étant que la valeur numérique d'un paramètre (sous forme vectorielle, en général) qui change d'un référentiel à l'autre du fait de la vitesse relative des deux référentiels.
+Ce paramètre change les observations et mesures de l'expérience faites depuis l'un ou l'autre référentiel.
+Dans l'exemple cité ci-dessus
+, si une des personnes regarde la chute de l'objet de l'autre, elle ne verra pas une chute identique : en plus du mouvement vertical, elle y verra un mouvement horizontal rectiligne uniforme, le tout formant à ses yeux une trajectoire à la forme parabolique.
+Invariances et lois de conservation
+Emmy Noether a montré, par ses théorèmes de symétrie, le rapport remarquable entre l'homogénéité du temps et la conservation de l'énergie, l'homogénéité de l'espace et la conservation de la quantité de mouvement, l'isotropie de l'espace et la conservation du moment cinétique.
+Changement de référentiel et transformation de Galilée
+Un changement de référentiel est l'ensemble des lois à appliquer pour convertir les grandeurs physiques d'un référentiel à un autre.
+Dans le cas où la conversion porte sur les distances et les durées, on parle de transformation.
+Mécanique classique
+Il a déjà été indiqué qu'un référentiel animé d'un mouvement relatif de translation rectiligne uniforme par rapport à un référentiel, supposé inertiel, est lui-même inertiel, et qu'il existe donc une infinité de référentiels inertiels en translation rectiligne uniforme les uns par rapport aux autres.
+Soient (R) et (R') deux référentiels inertiels en mouvement de translation rectiligne uniforme l'un rapport à l'autre de vitesse relative \vec v, tels que les axes des repères d'espace associés soient deux à deux parallèles, les origines de ceux-ci coïncidant à l'origine commune des dates cf. figure ci-contre).
+En notant \vec et \vec\;
+' les vecteurs position d'un point M du corps observé par rapport respectivement à (R) et (R'), et t et t' le temps dans chaque référentiel, les formules de changement de référentiel s'écrivent :
+\left\{\begin
+t'&=&t \\
+\vec\;
+' &=& \vec
+\vec t
+\end\right..
+La première équation traduit en fait l'hypothèse du temps absolu, c'est-à-dire de l'invariance des durées \Delta t et \Delta t\;
+' entre deux mêmes évènements lors du changement de référentiel.
+Il s'agit d'un exemple de transformation propre de Galilée.
+Dans le cas particulier où les axes des référentiels sont deux à deux parallèles et la vitesse relative est parallèle à l'axe des \ x , ces formules deviennent :
+\left\{\begin
+t'&=&t\\
+x'&=&x
+- vt\\
+y'&=&y\\
+z'&=&z
+\end\right.
+Relativité restreinte
+Dans cette théorie aussi, on admet comme hypothèse que tous les référentiels galiléens sont en translation spatiale rectiligne uniforme les uns par rapport aux autres.
+Toutefois, et contrairement à la mécanique non relativiste le caractère invariant de la vitesse de la lumière dans le vide conduit à devoir abandonner l'hypothèse du temps absolu.
+Par suite, le temps doit être traité sur le même plan que l'espace, conduisant au concept d'espace-temps, qui peut être représenté par un espace (pseudo-)euclidien quadridimensionnel appelé espace de Minkowski à quatre dimensions.
+Par suite, et par contraste avec la mécanique newtonienne, où le changement de référentiel galiléen suppose les invariances séparées de la durée (\Delta t
+\Delta t\;
+et de la distance (\Delta r
+\Delta r\;') entre deux évènements, c'est l'intervalle d'espace-temps \Delta
+s^2=c^2 \Delta t^2-\Delta\vec^ qui est invariant lors du changement de référentiel
+ceci constituant en fait la traduction mathématique de l'invariance de c.
+Poincaré articule sa réflexion comme suit.
+Un référentiel galiléen est défini comme un repère cartésien, de l'espace supposé affine, dans lequel le mouvement de tout corps non influencé par une force est rectiligne uniforme : il faut savoir ce qu'est une force avant de poser cette définition.
+Une force ne peut être mesurée -donc définie- que par le fait qu'elle rend le mouvement non rectiligne-uniforme : la notion de force présuppose que celle de référentiel galiléen est bien définie.
+La force et le référentiel inertiel sont définis l'un par l'autre.
+Ce qui ressemble dès lors à une définition circulaire trouve sa justification dans les expériences : en observant des systèmes à peu près isolés (c'est-à-dire loin de tout corps pouvant l'influencer de manière significative), on arrive toujours à définir des référentiels dans lesquels les mouvements des centres de gravité des systèmes sont à peu près rectilignes et uniformes.
+Enfin, Henri Poincaré insiste : la mécanique est une science expérimentale où la nature des notions utilisées importe peu, seul compte le fait que ces notions soient « commodes » du point de vue de leur formulation mathématique, qu'elles soient mesurables et permettent de prédire des résultats d'expériences renouvelées.

@@ -1,0 +1,10 @@
+Une console, en informatique, est un petit programme où l'utilisateur l'utilisant peut exécuter des commandes, par exemple pour supprimer un fichier.
+Cette console est disponible sur tous les systèmes d'exploitation.
+Il peut avoir différents noms en fonction du système.
+Un autre nom existe pour parler d'une console, c'est le terminal.
+Sur Windows, la console s'appelle l'« Invité de commandes » (en anglais : « Command Prompt ») (une autre console existe sur Windows, c'est PowerShell).
+WSL (Windows Sub-system for Linux) peut aussi être utilisé comme sous-système Linux (seulement les commandes, aucune interface graphique).
+Sur Linux et MacOS, la console s'appelle le « bash ».
+Les développeurs et les programmeurs ont plutôt tendance à utiliser ces systèmes, car sur la console (de Linux et MacOS), énormément de commandes sont disponibles et, pour la grande majorité d'entre elles, elles sont simple à comprendre, mais aussi simple d'utilisation.
+Certaines commandes sont incluses dans le système, alors que sur Windows, il est nécessaire d'installer un logiciel via un exécutable (.exe).
+Sur Linux, installer un logiciel se fait en exécutant juste une commande : sudo apt install

@@ -1,0 +1,127 @@
+Bit es el acrónimo de Binary digit (o sea de ‘dígito binario’, en español denominado como bit, y en menor medida como bitio).
+Un bit es un dígito del sistema de numeración binario.
+La capacidad de almacenamiento de una memoria digital también se mide en bits, pues esta palabra tiene varias acepciones.
+Lo usual es que un registro digital u otras memorias digitales vinculadas con la computación y/o con las telecomunicaciones, tengan una capacidad de representación de informaciones de por ejemplo 8 bits, 16 bits, 32 bits, 64 bits, etc; una memoria binaria tiene una capacidad efectiva de representación de un bit.
+Mientras que en el sistema de numeración decimal se usan diez dígitos (diez símbolos), en el binario se usan solo dos dígitos, el 0 y el 1.
+Un bit o dígito binario puede representar uno de esos dos valores: 0 o 1.
+Se puede imaginar un bit como una bombilla que puede estar en uno de los siguientes dos estados:
+:apagada
+El bit es la unidad mínima de información empleada en informática, en cualquier dispositivo digital, o en la teoría de la información.
+Con él, podemos representar dos valores cualesquiera, como verdadero o falso, abierto o cerrado, blanco o negro, norte o sur, masculino o femenino, rojo o azul, etc.
+Basta con asignar uno de esos valores al estado de "apagado" (0), y el otro al estado de "encendido" (1).
+Combinaciones de bits
+Con un bit podemos representar solamente dos valores o dos diferentes estados, que suelen representarse como 0, 1.
+Para representar o codificar más información en un dispositivo digital, necesitamos una mayor cantidad de bits.
+Si usamos dos bits, tendremos cuatro combinaciones posibles:
+* 0 1 - El primero está "apagado" y el segundo "encendido"
+* 1 0 - El primero está "encendido" y el segundo "apagado"
+Con estas cuatro combinaciones podemos representar hasta cuatro valores o estados diferentes, como por ejemplo, los colores azul, verde, rojo, y magenta.
+A través de secuencias de bits, se puede codificar cualquier valor discreto como números, palabras, e imágenes.
+256 valores diferentes.
+En general, con un número n de bits pueden representarse hasta 2n valores o estados diferentes.
+Nota: Un byte y un octeto no son lo mismo.
+Mientras que un octeto siempre tiene 8 bits, un byte contiene un número fijo de bits, que no necesariamente deben ser 8.
+En los computadores antiguos, el byte podría estar conformado por 6, 7, 8 o 9 bits.
+Hoy en día, en la inmensa mayoría de los computadores, y en la mayoría de los campos, un byte tiene 8 bits, siendo equivalente al octeto, pero hay excepciones.
+Valor de posición
+En cualquier sistema de numeración posicional, el valor de los dígitos depende de la posición en que se encuentren.
+En el sistema decimal, por ejemplo, el dígito 5 puede valer 5 si está en la posición de las unidades, pero vale 50 si está en la posición de las decenas, y 500 si está en la posición de las centenas.
+Generalizando, cada vez que nos movemos una posición hacia la izquierda el dígito vale 10 veces más, y cada vez que nos movemos una posición hacia la derecha, vale 10 veces menos.
+Esto también es aplicable a números con decimales.
++-----------+-----------+-----------+-----------+-----------+
+Centenas | Decenas | Unidades | Décimas | Centésimas| ← Nombre de la posición
++-----------+-----------+-----------+-----------+-----------+
+| 100 | 10 | 1 | 1 100 | ← Valor del dígito decimal
++-----------+-----------+-----------+-----------+-----------+ de acuerdo a su posición
+| 10^2 | 10^1 | 10^0 | 10^ (-1) | 10^ (-2) | ← Valor del dígito decimal
++-----------+-----------+-----------+-----------+-----------+ de acuerdo a su posición
+posición de la coma decimal
+Por tanto, el número 153,7 en realidad es: 1 centena + 5 decenas + 3 unidades + 7 décimas, es decir,
+: 100 + 50 + 3 + 0,7 = 153,7.
+En el sistema binario es similar, excepto que cada vez que un dígito binario (bit) se desplaza una posición hacia la izquierda vale el doble (2 veces más), y cada vez que se mueve hacia la derecha, vale la mitad (2 veces menos).
++-----+-----+-----+-----+-----+
+| 16 | 8 | 4 | 2 | 1 | ← Valor del bit de acuerdo a su posición
++-----+-----+-----+-----+-----+ expresado en números
+| 2^4 | 2^3 | 2^2 | 2^1 | 2^0 | ← Valor del bit de acuerdo a su posición
+Abajo vemos representado el número 19.
+: 16 + 2 + 1 = 19.
+También se pueden representar valores fraccionarios.
+Los números reales se pueden representar con formato de coma fija o de coma flotante.
+Abajo vemos el número 5,25 representado en una forma binaria de coma fija.
+: 4 + 1 + 0,25 =
+5,25
+La de arriba es una representación en coma fija de un número real en formato binario.
+Aunque la representación de números reales en coma flotante es diferente de lo que aquí se muestra, el esquema da una idea una parte del concepto.
+La representación en coma flotante es similar a la notación científica en una calculadora de mano, solo que en vez números decimales se usan números binarios y el exponente no está en base 10 sino en base 2.
+Subíndices
+Cuando se trabaja con varios sistemas de numeración o cuando no está claro con cual se está trabajando, es típico usar un subíndice para indicar el sistema de numeración con el que se ha representado un número.
+El 10 es el subíndice para los números en el sistema decimal y el 2 para los del sistema binario.
+En los ejemplos de abajo se muestran dos números en el sistema decimal y su equivalente en binario.
+Esta igualdad se representa de la siguiente manera:
+Bits más y menos significativos
+Un conjunto o grupo de bits, como por ejemplo un byte, representa un conjunto de elementos ordenados.
+Se llama bit más significativo (MSB) al bit que tiene un mayor peso (mayor valor) dentro del conjunto, análogamente, se llama bit menos significativo (LSB) al bit que tiene un menor peso dentro del conjunto.
++---+---+---+---+---+---+---+---+
+| 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 | ← Posición del bit
++---+---+---+---+---+---+---+---+
+|128|64 |32 |16 | 8 | 4 | 2 | 1 | ← Valor del bit de acuerdo a su posición
++---+---+---+---+---+---+---+---+
+↖ Bit más significativo ↖ Bit menos significativo
+En una palabra de 16 bits, el bit más significativo es el de la posición 15 y el menos significativo el de la posición 0.
++----+----+----+----+----+----+---+---+---+---+---+---+---+---+---+---+
+| 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 | ← Posición del bit
++----+----+----+----+----+----+---+---+---+---+---+---+---+---+---+---+
+|2^15|2^14|2^13|2^12|2^11|2^10|512|256|128|64 |32 |16 | 8 | 4 | 2 | 1 | ← Valor del bit de acuerdo
++----+----+----+----+----+----+---+---+---+---+---+---+---+---+---+---+ a su posición
+↖ Bit más significativo ↖ Bit menos significativo
+Tomemos, por ejemplo, el número decimal 27 codificado en forma binaria en un octeto:
+Aquí, el primer '0', el de la izquierda, (que se corresponde con el coeficiente de 2^7), es el bit más significativo, siendo el último '1', el de la derecha, (que se corresponde con el coeficiente de 2^0), el menos significativo.
+En cualquier caso, el bit más significativo es el que generalmente se representa en el extremo izquierdo y el menos significativo el del extremo derecho.
+Esto es análogo al sistema decimal, en donde el dígito más significativo es el de la izquierda y el menos significativo el de la derecha, como por ejemplo, en el número 179, el dígito más significativo, el que tiene mayor valor, es el 1, (el de las centenas), y el menos significativo, el 9, (el de las unidades).
+Este concepto de significatividad se extiende al conjunto de bytes que representan números o valores numéricos en las computadoras.
+Little endian y Big endian
+Little endian y big endian se refieren al orden que las máquinas asignan a los bytes que representan números o valores numéricos.
+Una máquina little endian asigna los bytes menos significativos en el extremo más bajo de la memoria, mientras que una máquina big endian asigna los bytes menos significativos en el extremo más alto.
+En los computadores, cada byte se identifica con su posición en la memoria (dirección).
+Cuando se manejan números de más de un byte, estos bytes también deben estar ordenados de menor a mayor, indicando la posición del byte menos significativo y del byte más significativo.
+De este modo, un byte con el número decimal 27 se almacenaría en una máquina little endian igual que en una máquina big endian, ya que solo ocupa un byte.
+Sin embargo, para números más grandes los bytes que los representan se almacenarían en distinto orden en cada arquitectura.
+Este aspecto es particularmente importante en la programación en lenguaje ensamblador o en código máquina, ya que algunas máquinas consideran el byte situado en la dirección más baja de la memoria el menos significativo (arquitectura little endian, como los procesadores Intel) mientras que otras consideran que ese es el byte más significativo (arquitectura big endian, como los procesadores Motorola).
+Por ejemplo, consideremos el número hexadecimal entero AABBCCDD, de 32 bits (4 bytes), localizado en la dirección 100 de la memoria.
+El número ocuparía las posiciones desde la 100 a la 103, pero dependiendo de si la máquina es little o big endian, los bytes se almacenarían de diferente manera:
+Little-endian (como Intel)
+Big-endian (como Motorola)
+En las imágenes de arriba, en donde se representan las posiciones de memoria 100, 101, 102 y 103 creciendo de izquierda a derecha, «parece» que la representación big endian es más natural, ya que el número AABBCCDD lo podemos leer correctamente (ver figura), mientras que en la representación little endian parece que el número está al revés, o «patas arriba».
+Sin embargo, no hay nada que nos impida imaginar que las direcciones de memoria «crecen» de derecha a izquierda, y al observar la memoria de esta manera, la representación little endian «se ve natural» y es la big endian la que «parece» al revés, como se muestra en las figuras de abajo.
+Little-endian (como Intel)
+Big-endian (como Motorola)
+Independiente de si la máquina es de arquitectura little endian o big endian, los bits dentro de cada byte siempre están en el mismo orden, con el bit más significativo a la izquierda y el menos significativo a la derecha.
+Los registros del procesador, que pueden ser de 4 a 64 bits, y más, también tienen sus bits en el mismo orden en ambos tipos de máquina.
+La diferencia entre little y big endian solo existe externamente, en el orden en que los bytes se representan en memoria.
+Arquitecturas de 4, 8, 16, 32 y 64 bits
+Cuando se habla de CPUs o microprocesadores de 4, 8, 16, 32, 64 bits, se refiere al tamaño, en número de bits, que tienen los registros internos del procesador y también a la capacidad de procesamiento de la Unidad aritmético lógica (ALU).
+Un microprocesador de 4 bits tiene registros de 4 bits y la ALU hace operaciones con los datos en esos registros de 4 bits, mientras que un procesador de 8 bits tiene registros y procesa los datos en grupos de 8 bits.
+Los procesadores de 16, 32 y 64 bits tienen registros y ALU de 16, 32 y 64 bits respectivamente, y generalmente pueden procesar los datos, tanto en el tamaño en bits de sus registros como, dependiendo de su diseño, en determinados submúltiplos de estos.
+Así, un procesador de 16 bits puede procesar los datos en grupos de 8 y 16 bits, comportándose como si fuera un procesador tanto de 8 como de 16 bits.
+Un procesador de 32 bits puede procesar los datos en grupos de 8, 16 y 32 bits, y el procesador de 64 bits puede procesar los datos en grupos de 8, 16, 32 y 64 bits.
+Para poder hacer esto, los procesadores de 16, 32 y 64 bits generalmente tienen sus registros divididos en otros registros más pequeños.
+Así, los registros de un procesador de 32 bits, por ejemplo, pueden estar divididos a su vez en registros de 16 y 8 bits y puede hacer operaciones aritméticas, lógicas, de comparaciones, y otras, con cualquiera de sus registros en cualquiera de estos tamaños.
+Cuando se habla de procesadores de, digamos 32 bits, nos referimos a su capacidad de procesar datos en hasta 32 bits simultáneamente (también puede procesar datos en 8 y 16 bits).
+La denominación de "microprocesador de 32 bits" no se refiere al tamaño del bus de datos del CPU ni del bus de direcciones, sino a su capacidad de trabajar normalmente con los datos en el número máximo de bits (salvo alguna excepción).
+Por ejemplo, los primeros procesadores de la arquitectura x86, el Intel 8086 y el Intel 8088, eran procesadores de 16 bits, porque tenían registros de 16 bits (y de 8 bits) y sus unidades aritmético lógicas podían realizar operaciones de 16 bits (y de 8 bits).
+Sin embargo, exteriormente, el 8086 tenía un bus de datos de 16 bits y podía mover datos desde y hacia el CPU en bloques de 8 y 16 bits), mientras que el 8088 tenía un bus de datos de solo 8 bits, y también podía mover datos de 8 y 16 bits desde y hacia el CPU, sin embargo, como su bus de datos era de solo 8 bits, para mover 16 bits de datos tenía que hacer dos operaciones de lectura o escritura, de 8 bits, por su limitado bus de datos.
+Esto era completamente transparente, los dos procesadores ejecutaban exactamente el mismo conjunto de instrucciones de 16 bits, solo que el 8088 era más lento cada vez que tenía que leer o escribir 16 bits de datos hacia o desde la memoria.
+Bit en las películas
+En la película Tron, un bit está representado por una forma poliédrica de color blanco que es un compuesto de dodecaedro e icosaedro.
+Solo puede decir "sí" (encendido) y "no" (apagado).
+Cuando el bit dice "sí" cambia brevemente en un octaedro amarillo, y cuando dice que "no" se transforma en una forma de punta roja.
+Si se alarma repite la palabra varias veces, por ejemplo: "¡No no no no no no!".
+Bibliografía
+John B. Anderson, Rolf Johnnesson, https:/ books Understanding_Information_Transmission.html?id
+yuujQuTL9lMC&redir_esc
+y Understanding Information Transmission, editor Wiley, 2006, ISBN 0471711195 y 9780471711193.
+* Norman Abramson, https:/ books Information_theory_and_coding.html?id
+94dQAAAAMAAJ&redir_esc
+y Information theory and coding, McGraw-Hill, 1963.
+Véase también
+Notas y referencias

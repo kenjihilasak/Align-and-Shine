@@ -1,0 +1,159 @@
+Codage des caractères
+En télécommunications et en informatique, un jeu de caractères codés est un code qui associe un jeu de caractères abstraits d’un ou plusieurs systèmes d’écriture (comme des alphabets ou des syllabaires) utilisés pour transcrire des langues naturelles avec une représentation numérique pour chaque caractère de ce jeu, ce nombre pouvant lui-même avoir des représentations numériques différentes.
+Par exemple, le code Morse (qui associe l’alphabet latin à une série de pressions longues et de pressions courtes sur le manipulateur morse du télégraphe) et le code ASCII (qui code les lettres, les chiffres et d'autres symboles comme des entiers codés sur 7 bits) sont des jeux de caractères codés.
+Il est indispensable, pour l'échange d'information sur l'Internet, par exemple, de préciser le codage utilisé.
+Ne pas le faire peut rendre un document difficilement lisible (remplacement des lettres accentuées par d'autres suites de caractères connu sous le nom de mojibake).
+Toutefois, la convergence vers un standard commun devrait enfin répondre à ce problème.
+Dans certains contextes , il est important de distinguer un répertoire de caractères, qui est un jeu complet de caractères abstraits qu'un système supporte, et un jeu de caractères codés ou codage de caractères qui spécifie comment représenter un caractère en utilisant un entier.
+Principe
+Le codage des caractères est une convention qui permet, à travers un codage connu de tous, de transmettre de l'information textuelle, là où aucun support ne permet l'écriture scripturale.
+Cela consiste à représenter chaque caractère, par un motif visuel, un motif sonore, ou une séquence abstraite.
+Les techniques des ordinateurs reposent sur l’association d'un caractère à un nombre, et/ou à un ou plusieurs codets.
+D'autres techniques permettent, en utilisant un jeu restreint de caractères, d'en coder un plus grand nombre, ou de coder des octets qui peuvent en coder un plus grand nombre, notamment les bien connus Quoted printable, Entité de caractère et Percent-encoding (défini par le ).
+Différence entre jeu de caractères codés et forme de codage
+Le terme jeu de caractères codés est parfois confondu avec la façon dont les caractères sont représentés par une certaine séquence de bits, ce qui implique une forme de codage où le code entier est converti en un ou plusieurs codets (c’est-à-dire des valeurs codées)
+entiers qui facilitent le stockage dans un système qui gère les données par groupe de bits de taille fixe ou variable.
+Par exemple le codage morse utilise
+un codage ternaire, dont deux des trois codets (impulsion courte ou longue) sont utilisés en groupes pour coder chaque valeur codée
+, le troisième (une pause plus longue) étant utilisé pour séparer les caractères.
+De même, les entiers plus grands que 65535 ne peuvent pas être représentés sur 16 bits, c'est pourquoi la forme de codage UTF-16 représente ces grands entiers comme des couples d’
+entiers inférieurs à 65536 mais qui ne sont pas associés isolément à des caractères (par exemple, U+10000
+- en hexadécimal
+- devient la paire 0xD800 0xDC00).
+Ce plan de codage convertit alors les valeurs de ces codes en une suite de bits et ce en prenant garde à un certain nombre de contraintes comme la dépendance vis-à-vis de la plateforme sur l'ordre final des octets (par exemple, D800 DC00 devient 00 D8 00 DC sur une architecture Intel x86).
+L'https:/ reports
+Unicode
+Technical Report #17 explique cette terminologie en profondeur et fournit davantage d'exemples.
+Une page de code abrège ce procédé en associant directement aux caractères abstraits des séquences de bits spécifiques de taille fixe (généralement 7 ou 8 bits par caractère).
+Internationalisation
+Les limites du standard américain ASCII ont conduit, sur trois périodes différentes, à trois approches de l'internationalisation :
+* L'utilisation de standards régionaux à caractères-monooctets, techniquement les plus faciles à mettre en place ;
+* L'utilisation de standards extensibles, où un même octet peut représenter un caractère différent suivant le contexte (famille ISO/CEI 2022) ainsi que des extensions où un caractère est codé sur plusieurs octets ;
+* L'utilisation du Standard
+Unicode (famille UTF),
+qui est celui qui comprend le plus grand nombre de caractères.
+Les standards régionaux ont l'inconvénient de ne permettre la représentation que d'un ensemble réduit de caractères, comme les caractères d'Europe occidentale.
+Avec cette approche, il est nécessaire d'indiquer l'encodage à l'extérieur du flot.
+Les standards ISO/CEI 2022 ont l'inconvénient d'être contextuels.
+Il se peut que des logiciels utilisant certains algorithmes de recherche manquent d'interopérabilité à cet égard.
+Les formes de codage définies par le Standard Unicode ont l'inconvénient de la présence éventuelle de la fonctionnalité d'indicateur d'encodage en début de flot, qui le cas échéant est introduit par le caractère Byte Order Mark.
+Certains logiciels anciens ne sont pas compatibles avec la présence de ces trois octets, et ne pourront pas l'être en raison de la complexité conceptuelle que représente le fait de traiter ces trois octets.
+En particulier, certaines opérations deviennent plus complexes comme la concaténation de chaînes.
+Historique
+Premiers codages de caractères
+Les premiers codages de caractères permettaient de s'affranchir de la distance.
+Ils utilisaient des techniques visuelles variées, mais ne codaient pas l'information sous forme binaire.
+* Code international des signaux maritimes.
+Il s'agit de transmission visuelle, basée sur une séquence de drapeaux.
+* Tour Chappe (1794).
+Il s'agit de transmission visuelles par positionnement des bras du télégraphe dans différentes postures.
+* Alphabet Morse (1838)
+Il a été inventé en 1832 pour la télégraphie.
+Il est basé sur des séquences courtes et des séquences longues.
+Il permet de transmettre des textes non accentuées, mais n'est pas limité en longueur, rendant des extensions possibles.
+Le télégraphe chinois convertissait les texte chinois avec des pages de codes en séquences de quatre chiffre décimaux, chiffres transmis en Morse.
+Codage par séquence de bits
+Les premiers codages binaires de caractères furent introduits en France par l'ingénieur Mimault et par le code Baudot pour le Télex et aux États-Unis par des sociétés répondant aux appels d'offres de l'État fédéral.
+Pour le recensement puis des besoins particuliers.
+En 1845, Highton utilisait un système basé sur les puissances de 2 : 1, 2, 4, 8, 16, 32, 64, 128, d'après un livre consacré à Émile Baudot.
+En 1874, l'ingénieur Mimault a le premier breveté le principe de la progression géométrique 1, 2, 4, 8, 16, pour obtenir 31 combinaisons servant à coder un alphabet.
+Code Baudot (1874) : 32 codes (5 bits).
+Il permettait de transmettre des caractères non accentués et ne servait que pour le Telex.
+Il permettait de transmettre les vingt-six lettres non accentuées, les dix chiffres, ainsi qu'une douzaine de symboles supplémentaires.
+Vers 1901, le code Baudot original a été modifié par Donald Murray qui réorganisa les caractères, ajouta de nouveaux symboles, et introduisit les jeux de caractères.
+Codage industriel, mécanique et télécommunications
+En 1890, on répartit les perforations arbitrairement sur la carte (recensement Hollerith 1890).
+En raison de l'existence de brevets le codage Hollerith de IBM n'est pas utilisé par Bull.
+Ce manque d'interopérabilité fragmenta le marché entre « clients
+IBM » et « clients Bull ».
+Vers le changement de siècle développement d'un codage performant sur cartes perforées pour le recensement étatique.
+Le produit fut ensuite commercialisé par le Tabulating Machine Co..
+* Western Union
+en utilisa une version modifiée jusque dans les années 1950.
+Avaient été rajoutées l'espace et la sonnerie.
+* Dans les années 1930, le CCITT a introduit le International Telegraph Alphabet No. 2 (ITA2)
+code comme standard international, basé sur le code Western Union modifié.
+Les États-Unis ont standardisé une version de l'ITA2 comme American Teletypewriter code (USTTY) qui était une base de codes 5-bit teletypewriter jusqu'aux débuts de l'ASCII 7 bits en 1963.
+Informatisation
+En 1948, Manchester Mark I, le premier ordinateur électronique, utilisait les principes du code Baudot.
+* RADIX-50 (
+1959)
+: 40 codes, stocke 3 caractères dans un mot de 16 bits en big endian (PDP-11).
+Il permet de stocker les dix chiffres, l'espace, vingt-six lettres, et les trois symboles « .
+», «
+», « % ».
+* Sixbit (1968 et 1954)
+64 codes (6 bits), stocke six bits caractères par mot mémoire (PDP-10).
+* BCD
+6-bit
+était utilisé par IBM sur les premiers ordinateurs comme le IBM 704 en 1954.
+Par la suite, il donne naissance à l'EBCDIC.
+Voir aussi BCD (6-bit) et Fieldata.
+Les années 1960
+En 1960, IBM, Univac, Burrough, Honeywell et d'autres, se sont regroupés en consortium pour définir un standard commun.
+Évolutions vers un jeu de caractères codés universel
+De son côté, l’Inde a créé sa propre norme ISCII.
+La norme ISCII a été créée pour assurer la bonne interopérabilité d'une dizaine de jeux de caractères nécessaires pour autant de systèmes d’écriture différents.
+Elle aurait pu rentrer dans la norme ISO CEI 2022 pour basculer d’un jeu à l’autre ;
+de toute façon une telle intégration mise à jour de l’ISCII pour assurer cette compatibilité aurait plutôt nui à l'interopérabilité des systèmes d'écritures indiens, l’Inde ayant depuis aussi décidé que toute nouvelle extension se ferait via le jeu de caractères universel en développement et activement supporté par l’Inde.
+Il devenait urgent de définir un jeu de caractères codés dit « universel ».
+L’ISO met en place un comité technique, mais tarde à publier sa norme (ISO/CEI 10646), et de plus un autre organisme de normalisation privé (le Consortium Unicode) se met en place sous l’impulsion de plusieurs éditeurs de logiciels : son but est de rendre utilisable le jeu de caractères universel en ajoutant des propriétés, mais dans un premier temps les deux organismes ne se mettent pas d'accord sur le codage de l’hangul (l’alphabet utilisé pour transcrire le coréen).
+De plus, dans les premiers temps, Unicode ne croit pas avoir besoin de plus de 65536 caractères dans un seul plan, le consortium n’ayant au départ comme objectif que de couvrir les systèmes d'écritures des langues modernes (les plus économiquement rentables), afin de mettre en place le plus rapidement possible un système de codage universel.
+La norme Unicode 1.0 voit le jour, mais est en partie incompatible avec la première version de l’ISO 10646, ce qui freine finalement le développement, d’autant plus que le Consortium Unicode convient rapidement que plus d’un plan sera finalement nécessaire en observant les travaux de codification des sinogrammes effectués par un comité technique spécifique UniHan).
+Différentes solutions sont alors envisagées et UTF-16 est expérimenté (mais pas encore standardisé par Unicode, ni approuvé dans la norme ISO/CEI 10646), tandis qu’apparaissent d’autres difficultés techniques d’interopérabilité avec UTF-32 (dont le développement initial a lui aussi connu plusieurs variantes) et UTF-8 (l’ISO/CEI 10646 en normalise une variante légèrement différente de celle définie par le standard Unicode !).
+De leur côté, les systèmes d'exploitation et logiciels pour PC ou Mac ne sont pas encore prêts à supporter des jeux de caractères codés sur plusieurs octets, et d’autres variantes de l’ISO 8859 voient le jour, par exemple l’ISO CEI 8859-15 (introduisant en 1998 le symbole € de l’euro qui allait devenir la monnaie unique d’une douzaine de pays de l’Union européenne), et l’ISO/CEI 8859-16 (palliant l'absence de caractères nécessaires à la transcription correcte du roumain, à savoir des caractères utilisant une virgule souscrite et non une cédille).
+Ce sera la dernière partie ajoutée à l’ISO 8859, l’ISO estimant que les besoins des autres langues étaient déjà couverts par les autres normes nationales (ISCII en Inde, VISCII au Viet Nâm, GB2312 en Chine, EUC-JP au Japon, etc.) et préférant se consacrer au développement du jeu de caractères universel plutôt que d'en définir de nouveaux, codés sur 7 ou 8 bits et complètement incompatibles avec ceux déjà largement déployés dans ces pays, les autres pays ayant déjà décidé d’adopter pour leurs langues directement le jeu universel de caractères codés.
+Cet abandon sera d’autant plus facilité que les normes ISO 10646 et Unicode ont rapidement décidé de fusionner leurs répertoires et y sont parvenues rapidement en produisant une mise à jour majeure pour Unicode 1.1 (rendant obsolète la version 1.0 du standard
+Unicode incompatible, mais intégrant la forme de codage UTF-16 dans son standard) et ISO 10646-1 (compatible avec ISO 10646, mais en abandonnant l’idée de supporter à l’avenir plus de 17 plans, et en acceptant d’intégrer et normaliser UTF-16), et en créant des procédures permettant aux deux comités techniques de collaborer.
+De plus les systèmes d’exploitation, logiciels, polices de caractères et protocoles pour l’Internet ont également évolué pour accepter nativement le jeu universel.
+La norme ISO 10646 qui définit le jeu de caractères universel (conjointement avec le standard Unicode lui ajoutant des propriétés facilitant le traitement) a largement réussi son ambition de coder la majorité des systèmes d’écriture utilisés dans le monde (il reste encore à coder quelques écritures complexes ou mal connues), et conserve son ambition de couvrir toutes les écritures utilisées dans l’histoire de l’humanité (donc y compris les écritures anciennes, ou des caractères rares dans des écritures déjà codées, ou de nouveaux caractères qui apparaîtraient dans l’usage courant dans certains pays du monde ou qui seraient rendus nécessaires pour certains traitements afin de lever des ambigüités).
+Le répertoire universel (d’ISO 10646-1 et Unicode) contenait à la fin de 2009 environ caractères (dont plus de la moitié pour les seuls sinogrammes), chacun possédant un unique code entier compris entre 0 et 10FFFF en hexadécimal (soit un peu plus de 1,1 million de possibilités
+- il existe donc des entiers auxquels aucun caractère n'est encore associé).
+Deux autres répertoires fréquemment utilisés, les jeux de caractères codés ASCII (ISO 646, dans sa dernière variante américaine normalisée en 1984) et ISO/CEI 8859-1, sont respectivement identiques aux 128 et 256 premiers caractères codés dans ce répertoire universel.
+Retour aux plages réduites
+La popularisation des messages courts de , dits SMS, de par leur taille réduite et leur coût, a conduit à la réapparition des techniques de codage de texte sur des bytes courts de sept bits.
+Jeux de caractères codés populaires, par pays
+Sur Internet, l'UTF-8 et l'ASCII sont les deux encodages les plus populaires depuis 2010.
+En juillet 2012, leur utilisation est estimée conjointement à 80 % (UTF-8: 65 % et ASCII: 15 %), contre 10 % environ pour les encodages occidentaux (latin1) et le solde (< 10 %) pour tous les autres.
+Amérique
+États-Unis
+Canada
+Europe
+Union européenne
+* UTF-8
+, notamment utilisé par http:/ .
+France
+* ISO
+/CEI 646-variante de référence internationale (IRV, alias ASCII)
+standard de compatibilité, sans accent, pour le développement de logiciel en anglais ;
+* «
+Jeu de caractères graphiques français pour la langue française », 94 caractères codés sur 7 bits, normalisé ISO/CEI 646-69
+le juin 1983
+et normalisé AFNOR NF Z 62 010 en 1982
+Aujourd'hui désuet, mais activable par séquence d'échappement ;
+** dans l'une de ses deux variantes françaises (AFNOR) ;
+* ISO/CEI
+2022 peu utilisé en France
+mais reprend tous les caractères français ;
+* Windows-1252, originaire de Microsoft Windows, encore appelé CP1252 ou Ansinew ;
+* Unicode
+, voir aussi UTF-8
+(reprend tous les caractères des jeux de code précédent).
+Historique des codages de caractères français
+Grèce
+Roumanie
+Lituanie
+* Windows-1257, pour Windows, utilisé par http:/ ;
+* UTF-8
+, utilisé pour la langue française par http:/ fr portailinst .
+Asie
+* ISCII (alphasyllabaires utilisés en Inde, au Sri Lanka et au Bangladesh)
+* GB18030 (écriture sinographique simplifiée des langues chinoises)
+* Big5 (écriture sinographique traditionnelle des langues chinoises)
+* Shift-JIS (syllabaires et écriture sinographique traditionnelle des langues japonaises).
+Autres codages de caractères populaires
+* ISO
+CEI 8859-1, ISO CEI 8859-3, ISO CEI 8859-5, ISO CEI 8859-7, ISO CEI 8859-9, ISO CEI 8859
+-11, ISO CEI 8859-14, ISO CEI 8859-16 ;
+* Jeux de caractères codés DOS : CP437, CP737, CP850, CP852, CP855, CP857, CP858, CP860, CP861, CP863, CP865, CP866, CP869 ;
+* Jeux de caractères codés Windows : Windows-1250, Windows-1251, Windows-1252, Windows-1253, Windows-1254, Windows-1255, Windows-1256, Windows-1257, Windows-1258 ;

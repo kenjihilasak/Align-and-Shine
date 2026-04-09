@@ -1,0 +1,335 @@
+In computer science, artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans.
+Leading AI textbooks define the field as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.
+A quip in Tesler's Theorem says "AI is whatever hasn't been done yet."
+For instance, optical character recognition is frequently excluded from things considered to be AI, having become a routine technology.
+Modern machine capabilities generally classified as AI include successfully understanding human speech, competing at the highest level in strategic game systems (such as chess and Go),
+Analytical AI has only characteristics consistent with cognitive intelligence; generating a cognitive representation of the world and using learning based on past experience to inform future decisions.
+Human-inspired AI has elements from cognitive and emotional intelligence; understanding human emotions, in addition to cognitive elements, and considering them in their decision making.
+Humanized AI shows characteristics of all types of competencies (i.e., cognitive, emotional, and social intelligence), is able to be self-conscious and is self-aware in interactions.
+Artificial intelligence was founded as an academic discipline in 1956, and in the years since has experienced several waves of optimism, This raises philosophical arguments about the nature of the mind and the ethics of creating artificial beings endowed with human-like intelligence.
+These issues have been explored by myth, fiction and philosophy since antiquity.
+Others believe that AI, unlike previous technological revolutions, will create a risk of mass unemployment.
+The first work that is now generally recognized as AI was McCullouch and Pitts' 1943 formal design for Turing-complete "artificial neurons".
+The field of AI research was born at a workshop at Dartmouth College in 1956, Attendees Allen Newell (CMU), Herbert Simon (CMU), John McCarthy (MIT), Marvin Minsky (MIT) and Arthur Samuel (IBM) became the founders and leaders of AI research.
+(and by 1959 were reportedly playing better than the average human), solving word problems in algebra, proving logical theorems (Logic Theorist, first run c. 1956) and speaking English.
+The Kinect, which provides a 3D body-motion interface for the Xbox 360 and the Xbox One, uses algorithms that emerged from lengthy AI research as do intelligent personal assistants in smartphones.
+In March 2016, AlphaGo won 4 out of 5 games of Go in a match with Go champion Lee Sedol, becoming the first computer Go-playing system to beat a professional Go player without handicaps.
+In the 2017 Future of Go Summit, AlphaGo won a three-game match with Ke Jie, who at the time continuously held the world No. 1 ranking for two years.
+This marked the completion of a significant milestone in the development of Artificial Intelligence as Go is a relatively complex game, more so than Chess.
+According to Bloomberg's Jack Clark, 2015 was a landmark year for artificial intelligence, with the number of software projects that use AI Google increased from a "sporadic usage" in 2012 to more than 2,700 projects.
+Clark also presents factual data indicating the improvements of AI since 2012 supported by lower error rates in image processing tasks.
+He attributes this to an increase in affordable neural networks, due to a rise in cloud computing infrastructure and to an increase in research tools and datasets.
+Around 2016, China greatly accelerated its government funding; given its large supply of data and its rapidly increasing research output, some observers believe it may be on track to becoming an "AI superpower".
+However, it has been acknowledged that reports regarding artificial intelligence have tended to be exaggerated.
+Definitions
+Computer science defines AI research as the study of "intelligent agents": any device that perceives its environment and takes actions that maximize its chance of successfully achieving its goals.
+Basics
+A typical AI analyzes its environment and takes actions that maximize its chance of success.
+AI often revolves around the use of algorithms.
+An algorithm is a set of unambiguous instructions that a mechanical computer can execute.
+A complex algorithm is often built on top of other, simpler, algorithms.
+A simple example of an algorithm is the following (optimal for first player) recipe for play at tic-tac-toe:
+If someone has a "threat" (that is, two in a row), take the remaining square.
+Otherwise,
+# if a move "forks" to create two threats at once, play that move.
+Otherwise,
+# take the center square if it is free.
+Otherwise,
+# if your opponent has played in a corner, take the opposite corner.
+Otherwise,
+# take an empty corner if one exists.
+Otherwise,
+# take any empty square.
+Many AI algorithms are capable of learning from data; they can enhance themselves by learning new heuristics (strategies, or "rules of thumb", that have worked well in the past), or can themselves write other algorithms.
+Some of the "learners" described below, including Bayesian networks, decision trees, and nearest-neighbor, could theoretically, (given infinite data, time, and memory) learn to approximate any function, including which combination of mathematical functions would best describe the world.
+These learners could therefore, derive all possible knowledge, by considering every possible hypothesis and matching them against the data.
+In practice, it is almost never possible to consider every possibility, because of the phenomenon of "combinatorial explosion", where the amount of time needed to solve a problem grows exponentially.
+Much of AI research involves figuring out how to identify and avoid considering broad range of possibilities that are unlikely to be beneficial.
+The earliest (and easiest to understand) approach to AI was symbolism (such as formal logic): "If an otherwise healthy adult has a fever, then they may have influenza".
+A second, more general, approach is Bayesian inference: "If the current patient has a fever, adjust the probability they have influenza in such-and-such way".
+The third major approach, extremely popular in routine business AI applications, are analogizers such as SVM and nearest-neighbor: "After examining the records of known past patients whose temperature, symptoms, age, and other factors mostly match the current patient, X% of those patients turned out to have influenza".
+A fourth approach is harder to intuitively understand, but is inspired by how the brain's machinery works: the artificial neural network approach uses artificial "neurons" that can learn by comparing itself to the desired output and altering the strengths of the connections between its internal neurons to "reinforce" connections that seemed to be useful.
+These four main approaches can overlap with each other and with evolutionary systems; for example, neural nets can learn to make inferences, to generalize, and to make analogies.
+Some systems implicitly or explicitly use multiple of these approaches, alongside many other AI and non-AI algorithms; the best approach is often different depending on the problem.
+Learning algorithms work on the basis that strategies, algorithms, and inferences that worked well in the past are likely to continue working well in the future.
+These inferences can be obvious, such as "since the sun rose every morning for the last 10,000 days, it will probably rise tomorrow morning as well".
+They can be nuanced, such as "X% of families have geographically separate species with color variants, so there is an Y% chance that undiscovered black swans exist".
+Learners also work on the basis of "Occam's razor": The simplest theory that explains the data is the likeliest.
+Therefore, according to Occam's razor principle, a learner must be designed such that it prefers simpler theories to complex theories, except in cases where the complex theory is proven substantially better.
+Settling on a bad, overly complex theory gerrymandered to fit all the past training data is known as overfitting.
+Many systems attempt to reduce overfitting by rewarding a theory in accordance with how well it fits the data, but penalizing the theory in accordance with how complex the theory is.
+Besides classic overfitting, learners can also disappoint by "learning the wrong lesson".
+A toy example is that an image classifier trained only on pictures of brown horses and black cats might conclude that all brown patches are likely to be horses.
+A real-world example is that, unlike humans, current image classifiers don't determine the spatial relationship between components of the picture; instead, they learn abstract patterns of pixels that humans are oblivious to, but that linearly correlate with images of certain types of real objects.
+Faintly superimposing such a pattern on a legitimate image results in an "adversarial" image that the system misclassifies.
+Compared with humans, existing AI lacks several features of human "commonsense reasoning"; most notably, humans have powerful mechanisms for reasoning about "naïve physics" such as space, time, and physical interactions.
+This enables even young children to easily make inferences like "If I roll this pen off a table, it will fall on the floor".
+Humans also have a powerful mechanism of "folk psychology" that helps them to interpret natural-language sentences such as "The city councilmen refused the demonstrators a permit because they advocated violence".
+This lack of "common knowledge" means that AI often makes different mistakes than humans make, in ways that can seem incomprehensible.
+For example, existing self-driving cars cannot reason about the location nor the intentions of pedestrians in the exact way that humans do, and instead must use non-human modes of reasoning to avoid accidents.
+Challenges of AI
+The overall research goal of artificial intelligence is to create technology that allows computers and machines to function in an intelligent manner.
+The general problem of simulating (or creating) intelligence has been broken down into sub-problems.
+These consist of particular traits or capabilities that researchers expect an intelligent system to display.
+The traits described below have received the most attention.
+The most general ontologies are called upper ontologies, which attempt to provide a foundation for all other knowledge scene interpretation, clinical decision support, knowledge discovery (mining "interesting" and actionable inferences from large databases), and other areas.
+Among the most difficult problems in knowledge representation are:
+;Default reasoning and the qualification problem: Many of the things people know take the form of "working assumptions".
+For example, if a bird comes up in conversation, people typically picture an animal that is fist-sized, sings, and flies.
+None of these things are true about all birds.
+John McCarthy identified this problem in 1969 is the study of computer algorithms that improve automatically through experience.
+In reinforcement learning and machine translation.
+Perception
+Machine perception Moravec's paradox generalizes that low-level sensorimotor skills that humans take for granted are, counterintuitively, difficult to program into a robot; the paradox is named after Hans Moravec, who stated in 1988 that "it is comparatively easy to make computers exhibit adult level performance on intelligence tests or playing checkers, and difficult or impossible to give them the skills of a one-year-old when it comes to perception and mobility".
+This is attributed to the fact that, unlike checkers, physical dexterity has been a direct target of natural selection for millions of years.
+Social intelligence
+Moravec's paradox can be extended to many forms of social intelligence.
+Distributed multi-agent coordination of autonomous vehicles remains a difficult problem.
+Affective computing is an interdisciplinary umbrella that comprises systems which recognize, interpret, process, or simulate human affects.
+Moderate successes related to affective computing include textual sentiment analysis and, more recently, multimodal affect analysis (see multimodal sentiment analysis), wherein AI classifies the affects displayed by a videotaped subject.
+In the long run, social skills and an understanding of human emotion and game theory would be valuable to a social agent.
+Being able to predict the actions of others by understanding their motives and emotional states would allow an agent to make better decisions.
+Some computer systems mimic human emotion and expressions to appear more sensitive to the emotional dynamics of human interaction, or to otherwise facilitate human-computer interaction.
+General intelligence
+Historically, projects such as the Cyc knowledge base (1984-) and the massive Japanese Fifth Generation Computer Systems initiative (1982-1992) attempted to cover the breadth of human cognition.
+These early projects failed to escape the limitations of non-quantitative symbolic logic models and, in retrospect, greatly underestimated the difficulty of cross-domain AI.
+Nowadays, the vast majority of current AI researchers work instead on tractable "narrow AI" applications (such as medical diagnosis or automobile navigation).
+Many researchers predict that such "narrow AI" work in different individual domains will eventually be incorporated into a machine with artificial general intelligence (AGI), combining most of the narrow skills mentioned in this article and at some point even exceeding human ability in most or all these areas.
+Many advances have general, cross-domain significance.
+One high-profile example is that DeepMind in the 2010s developed a "generalized artificial intelligence" that could learn many diverse Atari games on its own, and later developed a variant of the system which succeeds at sequential learning.
+Besides transfer learning, hypothetical AGI breakthroughs could include the development of reflective architectures that can engage in decision-theoretic metareasoning, and figuring out how to "slurp up" a comprehensive knowledge base from the entire unstructured Web.
+Some argue that some kind of (currently-undiscovered) conceptually straightforward, but mathematically difficult, "Master Algorithm" could lead to AGI.
+Finally, a few "emergent" approaches look to simulating human intelligence extremely closely, and believe that anthropomorphic features like an artificial brain or simulated child development may someday reach a critical point where general intelligence emerges.
+Many of the problems in this article may also require general intelligence, if machines are to solve the problems as well as people do.
+For example, even specific straightforward tasks, like machine translation, require that a machine read and write in both languages (NLP), follow the author's argument (reason), know what is being talked about (knowledge), and faithfully reproduce the author's original intent (social intelligence).
+A problem like machine translation is considered "AI-complete", because all of these problems need to be solved simultaneously in order to reach human-level machine performance.
+Approaches
+There is no established unifying theory or paradigm that guides AI research.
+Researchers disagree about many issues.
+A few of the most long standing questions that have remained unanswered are these: should artificial intelligence simulate natural intelligence by studying psychology or neurobiology?
+Or is human biology as irrelevant to AI research as bird biology is to aeronautical engineering?
+Researchers in the 1960s and the 1970s were convinced that symbolic approaches would eventually succeed in creating a machine with artificial general intelligence and considered this the goal of their field.
+Cognitive simulation
+Economist Herbert Simon and Allen Newell studied human problem-solving skills and attempted to formalize them, and their work laid the foundations of the field of artificial intelligence, as well as cognitive science, operations research and management science.
+Their research team used the results of psychological experiments to develop programs that simulated the techniques that people used to solve problems.
+This tradition, centered at Carnegie Mellon University would eventually culminate in the development of the Soar architecture in the middle 1980s.
+The knowledge revolution was also driven by the realization that enormous amounts of knowledge would be required by many simple AI applications.
+Sub-symbolic
+By the 1980s, progress in symbolic AI seemed to stall and many believed that symbolic systems would never be able to imitate all the processes of human cognition, especially perception, robotics, learning and pattern recognition.
+A number of researchers began to look into "sub-symbolic" approaches to specific AI problems.
+Different statistical learning techniques have different limitations; for example, basic HMM cannot model the infinite possible combinations of natural language.
+Critics note that the shift from GOFAI to statistical learning is often also a shift away from explainable AI.
+In AGI research, some scholars caution against over-reliance on statistical learning, and argue that continuing research into GOFAI will still be necessary to attain general intelligence.
+Integrating the approaches
+;Intelligent agent paradigm: An intelligent agent is a system that perceives its environment and takes actions which maximize its chances of success.
+The simplest intelligent agents are programs that solve specific problems.
+More complicated agents include human beings and organizations of human beings (such as firms).
+The paradigm allows researchers to directly compare or even combine different approaches to isolated problems, by asking which agent is best at maximizing a given "goal function".
+An agent that solves a specific problem can use any approach that works-some agents are symbolic and logical, some are sub-symbolic artificial neural networks and others may use new approaches.
+The paradigm also gives researchers a common language to communicate with other fields-such as decision theory and economics-that also use concepts of abstract agents.
+Building a complete agent requires researchers to address realistic problems of integration; for example, because sensory systems give uncertain information about the environment, planning systems must be able to function in the presence of uncertainty.
+The intelligent agent paradigm became widely accepted during the 1990s.
+Tools
+AI has developed many tools to solve the most difficult problems in computer science.
+A few of the most general of these methods are discussed below.
+Search and optimization
+Many problems in AI can be solved in theory by intelligently searching through many possible solutions:
+Logic
+Logic
+Default logics, non-monotonic logics and circumscription and modal logics.
+Probabilistic methods for uncertain reasoning
+Many problems in AI (in reasoning, planning, learning, perception, and robotics) require the agent to operate with incomplete or uncertain information.
+AI researchers have devised a number of powerful tools to solve these problems using methods from probability theory and economics.
+The study of non-learning artificial neural networks and was introduced to neural networks by Paul Werbos.
+Deep feedforward neural networks
+Deep learning is any artificial neural network that can learn a long chain of causal links.
+For example, a feedforward network with six hidden layers can learn a seven-link causal chain (six hidden layers + output layer) and has a "credit assignment path" (CAP) depth of seven.
+Many deep learning systems need to be able to learn chains ten or more causal links in length.
+According to one overview, the expression "Deep Learning" was introduced to the machine learning community by Rina Dechter in 1986 and gained traction after
+Igor Aizenberg and colleagues introduced it to artificial neural networks in 2000.
+The first functional Deep Learning networks were published by Alexey Grigorevich Ivakhnenko and V. G. Lapa in 1965.
+These networks are trained one layer at a time.
+Ivakhnenko's 1971 paper describes the learning of a deep feedforward multilayer perceptron with eight layers, already much deeper than many later networks.
+In 2006, a publication by Geoffrey Hinton and Ruslan Salakhutdinov introduced another way of pre-training many-layered feedforward neural networks (FNNs) one layer at a time, treating each layer in turn as an unsupervised restricted Boltzmann machine, then using supervised backpropagation for fine-tuning.
+Similar to shallow artificial neural networks, deep neural networks can model complex non-linear relationships.
+Over the last few years, advances in both machine learning algorithms and computer hardware have led to more efficient methods for training deep neural networks that contain many layers of non-linear hidden units and a very large output layer.
+Deep learning often uses convolutional neural networks (CNNs), whose origins can be traced back to the Neocognitron introduced by Kunihiko Fukushima in 1980.
+In 1989, Yann LeCun and colleagues applied backpropagation to such an architecture.
+In the early 2000s, in an industrial application CNNs already processed an estimated 10% to 20% of all the checks written in the US.
+Since 2011, fast implementations of CNNs on GPUs have
+won many visual pattern recognition competitions.
+Deep recurrent neural networks
+Early on, deep learning was also applied to sequence learning with recurrent neural networks (RNNs) and can run arbitrary programs to process arbitrary sequences of inputs.
+The depth of an RNN is unlimited and depends on the length of its input sequence; thus, an RNN is an example of deep learning.
+but suffer from the vanishing gradient problem.
+In 1992, it was shown that unsupervised pre-training of a stack of recurrent neural networks can speed up subsequent supervised learning of deep sequential problems.
+Numerous researchers now use variants of a deep learning recurrent NN called the long short-term memory (LSTM) network published by Hochreiter & Schmidhuber in 1997.
+LSTM is often trained by Connectionist Temporal Classification (CTC).
+At Google, Microsoft and Baidu this approach has revolutionised speech recognition.
+For example, in 2015, Google's speech recognition experienced a dramatic performance jump of 49% through CTC-trained LSTM, which is now available through Google Voice to billions of smartphone users.
+Google also used LSTM to improve machine translation, Language Modeling and Multilingual Language Processing.
+LSTM combined with CNNs also improved automatic image captioning and a plethora of other applications.
+Evaluating progress
+AI, like electricity or the steam engine, is a general purpose technology.
+There is no consensus on how to characterize which tasks AI tends to excel at.
+While projects such as AlphaZero have succeeded in generating their own knowledge from scratch, many other machine learning projects require large training datasets.
+Researcher Andrew Ng has suggested, as a "highly imperfect rule of thumb", that "almost anything a typical human can do with less than one second of mental thought, we can probably now or in the near future automate using AI."
+Moravec's paradox suggests that AI lags humans at many tasks that the human brain has specifically evolved to perform well.
+E-sports such as StarCraft continue to provide additional public benchmarks.
+There are many competitions and prizes, such as the Imagenet Challenge, to promote research in artificial intelligence.
+The most common areas of competition include general machine intelligence, conversational behavior, data-mining, robotic cars, and robot soccer as well as conventional games.
+The "imitation game" (an interpretation of the 1950 Turing test that assesses whether a computer can imitate a human) is nowadays considered too exploitable to be a meaningful benchmark.
+A derivative of the Turing test is the Completely Automated Public Turing test to tell Computers and Humans Apart (CAPTCHA).
+As the name implies, this helps to determine that a user is an actual person and not a computer posing as a human.
+In contrast to the standard Turing test, CAPTCHA is administered by a machine and targeted to a human as opposed to being administered by a human and targeted to a machine.
+A computer asks a user to complete a simple test then generates a grade for that test.
+Computers are unable to solve the problem, so correct solutions are deemed to be the result of a person taking the test.
+A common type of CAPTCHA is the test that requires the typing of distorted letters, numbers or symbols that appear in an image undecipherable by a computer.
+Proposed "universal intelligence" tests aim to compare how well machines, humans, and even non-human animals perform on problem sets that are generic as possible.
+At an extreme, the test suite can contain every possible problem, weighted by Kolmogorov complexity; unfortunately, these problem sets tend to be dominated by impoverished pattern-matching exercises where a tuned AI can easily exceed human performance levels.
+Applications
+AI is relevant to any intellectual task.
+Modern artificial intelligence techniques are pervasive and are too numerous to list here.
+Frequently, when a technique reaches mainstream use, it is no longer considered artificial intelligence; this phenomenon is described as the AI effect.
+High-profile examples of AI include autonomous vehicles (such as drones and self-driving cars), medical diagnosis, creating art (such as poetry), proving mathematical theorems, playing games (such as Chess or Go), search engines (such as Google search), online assistants (such as Siri), image recognition in photographs, spam filtering, predicting flight delays, prediction of judicial decisions and targeting online advertisements.
+With social media sites overtaking TV as a source for news for young people and news organizations increasingly reliant on social media platforms for generating distribution, major publishers now use artificial intelligence (AI) technology to post stories more effectively and generate higher volumes of traffic.
+Healthcare
+AI in healthcare is often used for classification, whether to automate initial evaluation of a CT scan or EKG or to identify high risk patients for population health.
+The breadth of applications is rapidly increasing.
+As an example, AI is being applied to the high cost problem of dosage issues-where findings suggested that AI could save $16 billion.
+In 2016, a ground breaking study in California found that a mathematical formula developed with the help of AI correctly determined the accurate dose of immunosuppressant drugs to give to organ patients.
+Artificial intelligence is assisting doctors.
+According to Bloomberg Technology, Microsoft has developed AI to help doctors find the right treatments for cancer.
+There is a great amount of research and drugs developed relating to cancer.
+In detail, there are more than 800 medicines and vaccines to treat cancer.
+This negatively affects the doctors, because there are too many options to choose from, making it more difficult to choose the right drugs for the patients.
+Microsoft is working on a project to develop a machine called "Hanover".
+Its goal is to memorize all the papers necessary to cancer and help predict which combinations of drugs will be most effective for each patient.
+One project that is being worked on at the moment is fighting myeloid leukemia, a fatal cancer where the treatment has not improved in decades.
+Another study was reported to have found that artificial intelligence was as good as trained doctors in identifying skin cancers.
+Another study is using artificial intelligence to try to monitor multiple high-risk patients, and this is done by asking each patient numerous questions based on data acquired from live doctor to patient interactions.
+One study was done with transfer learning, the machine performed a diagnosis similarly to a well-trained ophthalmologist, and could generate a decision within 30 seconds on whether or not the patient should be referred for treatment, with more than 95% accuracy.
+According to CNN, a recent study by surgeons at the Children's National Medical Center in Washington successfully demonstrated surgery with an autonomous robot.
+The team supervised the robot while it performed soft-tissue surgery, stitching together a pig's bowel during open surgery, and doing so better than a human surgeon, the team claimed.
+IBM has created its own artificial intelligence computer, the IBM Watson, which has beaten human intelligence (at some levels).
+Watson has struggled to achieve success and adoption in healthcare.
+Automotive
+Advancements in AI have contributed to the growth of the automotive industry through the creation and evolution of self-driving vehicles.
+, there are over 30 companies utilizing AI into the creation of driverless cars.
+A few companies involved with AI include Tesla, Google, and Apple.
+Many components contribute to the functioning of self-driving cars.
+These vehicles incorporate systems such as braking, lane changing, collision prevention, navigation and mapping.
+Together, these systems, as well as high performance computers, are integrated into one complex vehicle.
+Recent developments in autonomous automobiles have made the innovation of self-driving trucks possible, though they are still in the testing phase.
+The UK government has passed legislation to begin testing of self-driving truck platoons in 2018.
+Self-driving truck platoons are a fleet of self-driving trucks following the lead of one non-self-driving truck, so the truck platoons aren't entirely autonomous yet.
+Meanwhile, the Daimler, a German automobile corporation, is testing the Freightliner Inspiration which is a semi-autonomous truck that will only be used on the highway.
+One main factor that influences the ability for a driver-less automobile to function is mapping.
+In general, the vehicle would be pre-programmed with a map of the area being driven.
+This map would include data on the approximations of street light and curb heights in order for the vehicle to be aware of its surroundings.
+However, Google has been working on an algorithm with the purpose of eliminating the need for pre-programmed maps and instead, creating a device that would be able to adjust to a variety of new surroundings.
+Some self-driving cars are not equipped with steering wheels or brake pedals, so there has also been research focused on creating an algorithm that is capable of maintaining a safe environment for the passengers in the vehicle through awareness of speed and driving conditions.
+Another factor that is influencing the ability for a driver-less automobile is the safety of the passenger.
+To make a driver-less automobile, engineers must program it to handle high-risk situations.
+These situations could include a head-on collision with pedestrians.
+The car's main goal should be to make a decision that would avoid hitting the pedestrians and saving the passengers in the car.
+But there is a possibility the car would need to make a decision that would put someone in danger.
+In other words, the car would need to decide to save the pedestrians or the passengers.
+The programming of the car in these situations is crucial to a successful driver-less automobile.
+Finance and economics
+Financial institutions have long used artificial neural network systems to detect charges or claims outside of the norm, flagging these for human investigation.
+The use of AI in banking can be traced back to 1987 when Security Pacific National Bank in US set-up a Fraud Prevention Task force to counter the unauthorized use of debit cards.
+Programs like Kasisto and Moneystream are using AI in financial services.
+Banks use artificial intelligence systems today to organize operations, maintain book-keeping, invest in stocks, and manage properties.
+AI can react to changes overnight or when business is not taking place.
+In August 2001, robots beat humans in a simulated financial trading competition.
+AI has also reduced fraud and financial crimes by monitoring behavioral patterns of users for any abnormal changes or anomalies.
+AI is also being used by corporations.
+Whereas AI CEO's are still 30 years away, robotic process automation (RPA) is already being used today in corporate finance.
+RPA uses artificial intelligence to train and teach software robots to process transactions, monitor compliance and audit processes automatically.
+The use of AI machines in the market in applications such as online trading and decision making has changed major economic theories.
+For example, AI based buying and selling platforms have changed the law of supply and demand in that it is now possible to easily estimate individualized demand and supply curves and thus individualized pricing.
+Furthermore, AI machines reduce information asymmetry in the market and thus making markets more efficient while reducing the volume of trades.
+Furthermore, AI in the markets limits the consequences of behavior in the markets again making markets more efficient.
+Other theories where AI has had impact include in rational choice, rational expectations, game theory, Lewis turning point, portfolio optimization and counterfactual thinking..
+In August 2019, the AICPA introduced AI training course for accounting professionals.
+Government
+Artificial intelligence paired with facial recognition systems may be used for mass surveillance.
+This is already the case in some parts of China.
+An artificial intelligence has also competed in the Tama City mayoral elections in 2018.
+In 2019, the tech city of Bengaluru in India is set to deploy AI managed traffic signal systems across the 387 traffic signals in the city.
+This system will involve use of cameras to ascertain traffic density and accordingly calculate the time needed to clear the traffic volume which will determine the signal duration for vehicular traffic across streets.
+Video games
+In video games, artificial intelligence is routinely used to generate dynamic purposeful behavior in non-player characters (NPCs).
+In addition, well-understood AI techniques are routinely used for pathfinding.
+Some researchers consider NPC AI in games to be a "solved problem" for most production tasks.
+Games with more atypical AI include the AI director of Left 4 Dead (2008) and the neuroevolutionary training of platoons in Supreme Commander 2 (2010).
+Military
+The main military applications of Artificial Intelligence and Machine Learning are to enhance C2, Communications, Sensors, Integration and Interoperability.
+Artificial Intelligence technologies enables coordination of sensors and effectors, threat detection and identification, marking of enemy positions, target acquisition, coordination and deconfliction of distributed Join Fires between networked combat vehicles and tanks also inside Manned and Unmanned Teams (MUM-T).
+Military drones capable of autonomous action are widely considered a useful asset.
+Many artificial intelligence researchers seek to distance themselves from military applications of AI.
+The Indian army has recently announced their intent to induct AI in the next 2-3 years for constructive and disruptive operations.
+Audit
+For financial statements audit, AI makes continuous audit possible.
+AI tools could analyze many sets of different information immediately.
+The potential benefit would be the overall audit risk will be reduced, the level of assurance will be increased and the time duration of audit will be reduced.
+Advertising
+It is possible to use AI to predict or generalize the behavior of customers from their digital footprints in order to target them with personalized promotions or build customer personas automatically.
+A documented case reports that online gambling companies were using AI to improve customer targeting.
+Moreover, the application of Personality computing AI models can help reducing the cost of advertising campaigns by adding psychological targeting to more traditional sociodemographic or behavioral targeting.
+Art
+Artificial Intelligence has inspired numerous creative applications including its usage to produce visual art.
+The exhibition "Thinking Machines: Art and Design in the Computer Age, 1959-1989" at MoMA provides a good overview of the historical applications of AI for art, architecture, and design.
+Recent exhibitions showcasing the usage of AI to produce art include the Google-sponsored benefit and auction at the Gray Area Foundation in San Francisco, where artists experimented with the deepdream algorithm and the exhibition "Unhuman: Art in the Age of AI," which took place in Los Angeles and Frankfurt in the fall of 2017.
+In the spring of 2018, the Association of Computing Machinery dedicated a special magazine issue to the subject of computers and art highlighting the role of machine learning in the arts.
+The Austrian Ars Electronica and Museum of Applied Arts, Vienna opened exhibitions on AI in 2019.
+AI textbooks
+History of AI
+Other sources
+* http:/ rec conf Aleksander95 BibTex .
+* Presidential Address to the Association for the Advancement of Artificial Intelligence.
+* Ronald, E. M. A. and Sipper, M. https:/ file 0B6G3tbmMcpR4TFdHSXNFWUtlNWc/view?usp=sharing Intelligence is not enough: On the socialization of talking machines, Minds and Machines, vol. 11, no. 4, pp.
+567-576, November 2001.
+* Ronald, E. M. A. and Sipper, M. https:/ file 0B6G3tbmMcpR4VnpOX0xxazFNbjA/view?usp=sharing What use is a Turing chatterbox?, Communications of the ACM, vol. 43, no. 10, pp. 21-23, October 2000.
+Further reading
+* DH Author, ‘Why Are There Still So Many Jobs?
+The History and Future of Workplace Automation’ (2015) 29 (3) Journal of Economic Perspectives 3.
+Boden, Margaret, Mind As Machine, Oxford University Press, 2006.
+* Cukier, Kenneth, "Ready for Robots?
+How to Think about the Future of AI", Foreign Affairs, vol. 98, no. 4 (July/August 2019), pp.
+George Dyson, historian of computing, writes (in what might be called "Dyson's Law") that "Any system simple enough to be understandable will not be complicated enough to behave intelligently, while any system complicated enough to behave intelligently will be too complicated to understand."
+Computer scientist Alex Pentland writes: "Current AI machine-learning algorithms are, at their core, dead simple stupid.
+They work, but they work by brute force."
+* Domingos, Pedro, "Our Digital Doubles: AI will serve our species, not control it", Scientific American, vol. 319, no. 3 (September 2018), pp. 88-93.
+* Gopnik, Alison, "Making AI More Human: Artificial intelligence has staged a revival by starting to incorporate what we know about how children learn", Scientific American, vol. 316, no. 6 (June 2017), pp.
+* Johnston, John (2008)
+The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI, MIT Press
+* Marcus, Gary, "Am I Human?:
+Researchers need new ways to distinguish artificial intelligence from the natural kind", Scientific American, vol. 316, no. 3 (March 2017), pp.
+A stumbling block to AI has been an incapacity for reliable disambiguation.
+An example is the "pronoun disambiguation problem": a machine has no way of determining to whom or what a pronoun in a sentence refers.
+* E McGaughey, 'Will Robots Automate Your Job Away?
+Full Employment, Basic Income, and Economic Democracy' (2018) https:/ sol3/papers.cfm?abstract_id=3044448 SSRN, part 2 (3).
+* George Musser, "Artificial Imagination: How machines could learn creativity and common sense, among other human qualities", Scientific American, vol. 320, no. 5 (May 2019), pp.
+* Myers, Courtney Boyd ed. (2009).
+https:/ 2009 22/singularity-robots-computers-opinions-contributors-artificial-intelligence-09_land.html
+"The AI Report".
+Forbes June 2009
+* Scharre, Paul, "Killer Apps: The Real Dangers of an AI Arms Race", Foreign Affairs, vol. 98, no. 3 (May/June 2019), pp. 135-44.
+"Today's AI technologies are powerful but unreliable.
+Rules-based systems cannot deal with circumstances their programmers did not anticipate.
+Learning systems are limited by the data on which they were trained.
+AI failures have already led to tragedy.
+Advanced autopilot features in cars, although they perform well in some circumstances, have driven cars without warning into trucks, concrete barriers, and parked cars.
+In the wrong situation, AI systems go from supersmart to superdumb in an instant.
+When an enemy is trying to manipulate and hack an AI system, the risks are even greater."
+* Sun, R. & Bookman, L. (eds.), Computational Architectures: Integrating Neural and Symbolic Processes.
+Kluwer Academic Publishers, Needham, MA. 1994.
+* Tooze, Adam, "Democracy and Its Discontents", The New York Review of Books, vol.
+LXVI, no. 10 (6 June 2019), pp. 52-53, 56-57.
+"Democracy has no clear answer for the mindless operation of bureaucratic and technological power.
+We may indeed be witnessing its extension in the form of artificial intelligence and robotics.
+Likewise, after decades of dire warning, the environmental problem remains fundamentally unaddressed....
+Bureaucratic overreach and environmental catastrophe are precisely the kinds of slow-moving existential challenges that democracies deal with very badly....
+Finally, there is the threat du jour: corporations and the technologies they promote."

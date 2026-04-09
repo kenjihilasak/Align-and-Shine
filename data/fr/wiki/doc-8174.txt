@@ -1,0 +1,38 @@
+Imagerie numérique|3D
+La modélisation tridimensionnelle est l'étape en infographie tridimensionnelle qui consiste à créer, dans un logiciel de modélisation 3D, un objet en trois dimensions, par ajout, soustraction et modifications de ses constituants.
+La révolution consiste à faire tourner un profil 2D autour d'un axe 3D : on obtient ainsi un volume de révolution.
+C'est la technique majoritairement utilisée dans le jeu vidéo, et le cinéma d'animation.
+La modélisation polygonale induit une marge d'erreur de proportions et de dimensions le plus souvent invisible à l'œil nu.
+Dans le cinéma d'animation, les modèles 3D organiques sont le plus souvent lissés.
+Le lissage consiste à subdiviser un maillage (une itération correspond à une subdivision de chaque arête, soit dans le cas de face à quatre côtés
+, une subdivision en quatre faces)
+et arrondir les faces obtenues selon différents algorithmes, afin de gommer l'effet anguleux des modèles obtenus par modélisation polygonale
+Modélisation à partir d'exemples
+Les méthodes de modélisation à partir d'exemples permet de réutiliser des modèles existant, et de construire un modèle existant par assemblage.
+Contrairement à la géométrie de construction de solides, les primitives ne sont pas des objets géométriques simples (cône, cylindre, cube, etc.) mais des sous-partie de polyèdres.
+Le résultat final est donc un polyèdre, et la surface ainsi obtenue peut être une variété, ou non.
+Les méthodes de modélisation à partir d'exemples font appel à des algorithmes de recherche au sein d'une base de données de modèle 3D et d'assemblage de maillage.
+Deux types d'usage peuvent être considérés :
+* Suggestion de segments à ajouter à un modèle en cours de création
+* Remplacement d'une partie existante par une autre géométriquement ou fonctionnellement similaire
+Les mécanismes de recherche dans la base de données peuvent être faites à partir de mots-clés, d'esquisse 2D ou de maillages 3D
+Références
+Voir aussi
+Il existe des bibliothèques de composants CAO 3D
+qui aident à la modélisation.
+Par exemple, TraceParts publie , une bibliothèque contenant des fichiers CAO pour la mécanique et l'électromécanique issus des fabricants de composants du monde entier.
+Bibliographie
+* Doug Kelly, Animation et modélisation 3D : studio pro, éd.
+Sybex, 2000.
+* François Goulette, Modélisation 3D automatique : outils de géométrie différentielle, éd.
+TRANSVALOR
+Presses des MINES, 1999.
+* Antoine Veyrat,
+Débutez dans la 3D avec Blender, éd.
+Le Site du Zéro, janvier 2012, 416 p.
+Articles connexes
+Lien externe
+* http:/ fr contenu 1248129465807 index.html
+USINES 3D
+- La modélisation 3D au service du patrimoine industriel.
+jgu8wxzet4gjyi06x8dh63l1hbfw8um

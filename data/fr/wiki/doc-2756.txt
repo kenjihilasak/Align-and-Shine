@@ -1,0 +1,160 @@
+Probabilités
+Le terme probabilité possède plusieurs sens : venu historiquement du latin probabilitas, il désigne l'opposé du concept de certitude ;
+il est également une évaluation du caractère probable d'un événement, c'est-à-dire qu'une valeur permet de représenter son degré de certitude ;
+récemment, la probabilité est devenue une science mathématique et est appelée théorie des probabilités ou plus simplement probabilités;
+enfin une doctrine porte également le nom de probabilisme.
+La probabilité d'un événement est un nombre réel compris entre 0 et 1.
+Plus ce nombre est grand, plus le risque, ou la chance, que l'événement se produise est grand.
+L'étude scientifique des probabilités est relativement récente dans l'histoire des mathématiques.
+L'étude des probabilités a connu de nombreux développements depuis le grâce à l'étude de l'aspect aléatoire et en partie imprévisible de certains phénomènes, en particulier les jeux de hasard.
+Ceux-ci ont conduit les mathématiciens à développer une théorie qui a ensuite eu des implications dans des domaines aussi variés que la météorologie, la finance ou la chimie.
+Historique
+À l'origine, dans les traductions d'Aristote, le mot ne désigne pas une quantification du caractère aléatoire d'un fait, mais la perception qu'une idée est communément admise par tous.
+Ce n'est qu'au cours du Moyen Âge, puis de la Renaissance, autour des commentaires successifs et des imprécisions de traduction de l'œuvre d'Aristote, que ce terme connaîtra un glissement sémantique pour finir par désigner la vraisemblance d'une idée.
+L'apparition de la notion de , préalable à l'étude des probabilités, n'est apparue qu'au , pour l'évaluation de contrats commerciaux avec le Traité des contrats de Pierre de Jean Olivi, et s'est développée au , avec la généralisation des contrats d'assurance maritime.
+À part quelques considérations élémentaires par Girolamo Cardano au début du , et par Galilée au début du , le véritable début de la théorie des probabilités date de la correspondance entre Pierre de Fermat et Blaise Pascal, en 1654.
+C'est dans la deuxième moitié du , à la suite des travaux de Blaise Pascal, Pierre de Fermat et Christian Huygens sur le problème des partis, que le terme prend peu à peu son sens actuel, avec les développements du traitement mathématique du sujet par Jakob Bernoulli.
+Au , Gabriel Cramer donne un cours sur la logique probabiliste qui deviendra une base à l'article probabilité de l'encyclopédie de Diderot, écrite à la fin de ce même siècle.
+Ce n'est alors qu'au qu'apparaît ce qui peut être considéré comme la théorie moderne des probabilités en mathématiques.
+Le calcul des probabilités prend un nouvel essor au début du , avec l'axiomatique de Kolmogorov;
+commence alors la théorie des probabilités.
+Les probabilités deviennent une science et une théorie, comme branche des mathématiques.
+Terminologies
+Ainsi, il existe plusieurs notions que nous détaillerons dans les sections suivantes :
+*la probabilité d'un fait caractérise la possibilité que ce fait se produise, une vraisemblance, une apparence de vérité.
+(définition 2 du Larousse).
+Le probable, la connaissance probable ou la logique probabiliste :
+Ce qui rend une opinion probable chez Aristote est son caractère généralement admis;
+ce n'est qu'avec la traduction de Cicéron des Topiques d'Aristote, qui traduit par probabilis ou par verisimilis, que la notion de vraisemblance est associée à celle de « probabilité », ce qui aura un impact au cours du Moyen Âge puis de la Renaissance, avec les commentaires successifs de l'œuvre d'Aristote.
+Une phrase, situation ou proposition est vraie ou fausse.
+Sa probabilité est la pour cette section)
+La probabilité d'un certain événement , notée \mathbb (A), associe une valeur entre 0 et 1 que l'événement se réalise.
+Lorsque \mathbb (A)
+, l'événement est dit presque sûr (ou quasi certain), c'est-à-dire qu'il a « toutes les chances » de se réaliser.
+À l'inverse si \mathbb (A)
+, est dit négligeable (ou quasi impossible), c'est-à-dire qu'il a une chance nulle de se réaliser.
+La probabilité d'un événement peut s'obtenir de manière fréquentiste, notamment lorsqu'il est possible de faire une expérience plusieurs fois et de compter le nombre de succès de l'expérience.
+En effet, si on effectue fois une expérience et que dans fois des cas, l'événement est réalisé, alors, la probabilité de est donnée par :
+De manière plus probabiliste, lorsque le nombre de résultats possibles de l'expérience est fini et que ces résultats sont équiprobables, la probabilité de est obtenue
+par :
+Mathématiquement, l'événement est un sous-ensemble d'un ensemble qui représente toutes les éventualités possibles.
+Pour obtenir une théorie, des axiomes ont été proposés par Kolmogorov : la probabilité \mathbb doit vérifier :
+#pour tout événement , 0\leq \mathbb P (A)\leq 1,
+# \mathbb P (\Omega) = 1,
+# \mathbb P (A \cup B)
+\mathbb P (A) + \mathbb P (B) pour A\cap B
+\emptyset.
+Grâce à cette description, plusieurs notions peuvent s'écrire de manière mathématique.
+Deux événements sont dits indépendants si le fait de connaître la probabilité du premier événement ne nous aide pas pour prévoir la probabilité du second et inversement.
+Mathématiquement, cela s'écrit : \mathbb P (AB)=\mathbb P (A)\mathbb P (B).
+Par exemple, la probabilité d'obtenir un as à un premier jeté de dé et d'obtenir un as au deuxième jeté de dé est la multiplication des deux probabilités et vaut 1/36.
+Il est possible de considérer la probabilité d'un événement (notons le ) conditionnellement à un autre (noté ).
+Lorsque les deux événements ne sont pas indépendants, le fait de connaître la probabilité de l'un influence la probabilité de l'autre par la formule : \mathbb P (A\mid B)=\mathbb P (A\cap B)
+Des formules existent pour pouvoir calculer tout type de probabilité.
+C'est le cas de la formule de Poincaré, de la formule des probabilités totales ou du théorème de Bayes.
+Théorie des probabilités
+Encouragé par Pascal, Christian Huygens publie
+De ratiociniis in ludo aleae (raisonnements sur les jeux de dés) en 1657.
+Ce livre est le premier ouvrage important sur les probabilités.
+Il y définit la notion d'espérance et y développe plusieurs problèmes de partages de gains lors de jeux ou de tirages dans des urnes.
+Deux ouvrages fondateurs sont également à noter :
+Ars Conjectandi de Jacques Bernoulli (posthume, 1713) qui définit la notion de variable aléatoire et donne la première version de la loi des grands nombres, et Théorie de la probabilité d' Abraham de Moivre (1718) qui généralise l'usage de la combinatoire.
+La théorie de la probabilité classique ne prend réellement son essor qu'avec les notions de mesure et d'ensembles mesurables qu'Émile Borel introduit en 1897.
+Cette notion de mesure est complétée par Henri Léon Lebesgue et sa théorie de l'intégration.
+La première version moderne du théorème central limite est donnée par Alexandre Liapounov en 1901 et la première preuve du théorème moderne est donnée par Paul Lévy en 1910.
+En 1902, Andrei Markov introduit les chaînes de Markov pour entreprendre une généralisation de la loi des grands nombres pour une suite d'expériences dépendant les unes des autres.
+Ces chaînes de Markov connaîtront de nombreuses applications, entre autres pour modéliser la diffusion ou pour l'indexation de sites internet sur Google.
+Il faudra attendre 1933 pour que la théorie des probabilités sorte d'un ensemble de méthodes et d'exemples divers et devienne une véritable théorie, axiomatisée par Kolmogorov.
+Kiyoshi Itô met en place une théorie et un lemme qui porte son nom dans les années 1940.
+Ceux-ci permettent de relier le calcul stochastique et les équations aux dérivées partielles, faisant ainsi le lien entre analyse et probabilités.
+Le mathématicien Wolfgang Doeblin avait de son côté ébauché une théorie similaire avant de se suicider à la défaite de son bataillon en juin 1940.
+Ses travaux furent envoyés à l'Académie des sciences dans un pli cacheté qui ne fut ouvert qu'en 2000.
+Axiomatique
+Au début du , Kolmogorov définit des axiomes mathématiques afin de pouvoir étudier le hasard.
+Ainsi il construit l'espace des possibles, appelé univers, qui contient tous les hasards possibles, il le munit d'un ensemble qui contient les sous-ensembles de l'univers, appelés tribu, et d'une mesure de probabilité qui permet de calculer les probabilités correspondantes.
+L'espace (\Omega, \mathcal A, \mathbb P) ainsi construit vérifie les trois axiomes des probabilités :
+# (positivité)
+la probabilité d'un événement est une valeur entre 0 et 1 : pour tout A\in \mathcal A, 0\leq \mathbb P (A)\leq 1,
+# (masse unitaire)
+la probabilité de l'univers est 1 : \mathbb P (\Omega)
+= 1,
+# (additivité) pour toute suite dénombrable d'événements A_1,A_2,\dots \in \mathcal A disjoints deux à deux, c'est-à-dire tels que A_i\cap A_j
+\emptyset pour tous i\neq j, alors : \mathbb \left ( \bigcup_A_i \right)
+\sum_\mathbb (A_i).
+Variables aléatoires, lois et caractérisations
+Afin de pouvoir mieux manipuler le hasard, il est commode d'utiliser une variable aléatoire.
+Elle peut être réelle, mais peut aussi être multidimensionnelle, ou même plus générale.
+Cette variable réelle est, en théorie, une application : X:\Omega \rightarrow \mathbb R qui à chaque aléa \omega\in \Omega, associe le résultat de l'expérience : X (\omega).
+Cette variable possède une répartition de ses valeurs donnée par sa loi de probabilité, qui est une mesure.
+Cette dernière peut être représentée de nombreuses manières, les plus communes étant par l'utilisation de la fonction de répartition, la densité de probabilité (si elle existe) ou la fonction de masse, le cas échéant.
+De nombreuses propriétés des lois de probabilité, et donc des variables aléatoires, peuvent être étudiées : espérance, moments, indépendance entre plusieurs variables, etc.
+Convergence et théorèmes limites
+Il est possible de considérer une infinité de variables aléatoires : (X_n, n\in \mathbb N).
+Dans ce cas,
+y a-t-il une limite possible?
+La question de notion de convergence aléatoire se pose alors.
+Il existe plusieurs types de convergences : la convergence en loi qui est la convergence de la loi de la variable (en tant que mesure), la convergence en probabilité, la convergence presque sûre ou encore la convergence en moyenne.
+De nombreux théorèmes limites existent alors.
+Les plus connus sont : la loi des grands nombres qui annonce que la moyenne des premières variables aléatoires converge vers la moyenne théorique de la loi commune des variables aléatoires ;
+le théorème central limite, qui donne la bonne renormalisation de la somme des variables aléatoires pour avoir une limite non triviale.
+Calcul stochastique
+Le calcul stochastique est l'étude des phénomènes qui évoluent au cours du temps de manière aléatoire.
+Le temps peut être modélisé de manière discrète, c'est-à-dire par les valeurs entières : 0,1,2,\dots , dans ce cas le phénomène est représenté par une suite (infinie) de variables aléatoires : (X_n,n\geq 0), c'est une marche aléatoire.
+Le temps peut également être modélisé de manière continue, c'est-à-dire par des valeurs réelles t\in \mathbb R_+ ou t\in \mathbb R, il s'agit alors d'un processus stochastique (X_t,t\geq 0).
+Plusieurs propriétés sont alors liées au calcul stochastique : la propriété de Markov annonce que le mouvement futur du phénomène ne dépend que de l'état présent et non pas du mouvement passé ;
+la récurrence et la transience d'une chaîne de Markov assurent le retour ou le passage unique en un état donné ;
+une martingale est un processus tel que l'état futur est déterminé en moyenne par l'état présent, etc.
+Doctrine des probabilités
+La doctrine de la probabilité, autrement appelée probabilisme, est une théologie morale catholique qui s'est développée au cours du , sous l'influence, entre autres, de Bartolomé de Medina et des jésuites.
+Avec l'apparition de la doctrine de la probabilité, ce terme connaîtra un glissement sémantique pour finir par désigner, au milieu du , le caractère vraisemblable d'une idée.
+La probabilité d'une opinion désigne alors, au milieu du , la probabilité qu'une opinion soit vraie.
+Ce n'est qu'à partir de la fin du , avec l'émergence de la probabilité mathématique, que la notion de probabilité ne concernera plus seulement les opinions et les idées, mais aussi les faits, et se rapprochera de la notion de hasard que l'on connaît aujourd'hui.
+Interprétation des probabilités
+Lors de l'étude d'un phénomène aléatoire, il existe plusieurs façons d'aborder la notion de probabilité liée à ce phénomène.
+*La conception subjective de la probabilité d'un événement s'applique dans le cas où il est difficile, voire impossible, de connaître les différentes probabilités des résultats d'une expérience aléatoire.
+Notamment dans le cas où l'expérience ne peut se réaliser plusieurs fois dans les mêmes conditions.
+Les probabilités attribuées ne correspondent alors pas exactement à la réalité, et leurs estimations peuvent varier selon les personnes et les situations.
+On parle dans ce cas de probabilité épistémique ou de probabilité bayésienne.
+Il s'agit d'une probabilité s'appliquant au jugement que l'on porte plus que sur l'événement lui-même.
+*La conception fréquentiste des probabilités d'un événement est plus historique.
+Elle permet d'attribuer les chances de réalisation de chaque événement par une méthode statistique, c'est-à-dire en réalisant plusieurs fois l'expérience et d'en déduire les probabilités liées aux événements.
+Idéalement il faudrait répéter l'expérience à l'infini pour obtenir les probabilités réelles de l'expérience, cependant, puisque ce n'est pas possible, les méthodes expérimentales donnent des probabilités empiriques.
+(voir la section Les probabilités d'un événement ci-dessus).
+Cette notion s'appelle également probabilité statistique ou probabilité a posteriori.
+(voir la section interprétation des probabilités ci-dessus).
+Le calcul des probabilités a posteriori correspond à une attribution des valeurs des probabilités inconnues par une manière statistique.
+Pour estimer les probabilités, les estimateurs statistiques sont utilisés afin de mieux approcher la variable recherchée.
+Un estimateur est une valeur calculée à partir d'un échantillon de la population totale étudiée.
+Un estimateur est bien choisi, c'est-à-dire qu'il donnera une bonne estimation des valeurs recherchées, si c'est un estimateur sans biais et convergent ;
+autrement dit la moyenne empirique approche la moyenne théorique et l'estimateur converge vers la bonne variable aléatoire lorsque la taille de l'échantillon augmente.
+La méthode du maximum de vraisemblance permet de choisir un bon estimateur.
+Par ces méthodes, il est possible de retrouver les paramètres inconnus d'une loi de probabilité associée au phénomène étudié.
+La révision bayésienne est une autre méthode
+pour le calcul des probabilités
+a priori.
+Celle-ci se fait grâce au théorème de Bayes :
+Dans cette formule, lhypothèse représente ce que l'on suppose a priori sur le phénomène aléatoire, la preuve est une partie du phénomène que l'on connaît et que l'on peut mesurer.
+Ainsi \mathbb P (\textrm|\textrm)
+permet de mesurer la vraisemblance de l'hypothèse que l'on fixe.
+Exemple
+La fréquence empirique permet d'estimer les probabilités.
+Dans un échantillon de individus, il suffit de compter le nombre de fois où l'individu appartient à la catégorie recherchée.
+En notant n_A ce nombre parmi les tirages, la fréquence \frac est proche de la probabilité \mathbb P (A) recherchée.
+Lors de 400 lancers de pièces, s'il apparaît 198 fois le côté face, alors on en déduit que la probabilité d'obtenir face est approximativement \mathbb P (\text)\simeq\frac= 0,495.
+C'est un cas particulier de la loi des grands nombres.
+0,495 est la valeur estimée de \mathbb P (\text).
+Une liste de valeurs x_1,x_2,\dots,x_n est connue, elle est supposée de loi normale dont la moyenne est connue .
+La question est de trouver l'écart type de la loi normale.
+La statistique définie par T^2
+\sum_^n (x_i-m)^2 est un estimateur de , c'est-à-dire qu'il tend vers lorsque tend vers l'infini.
+On se demande quel temps il fera demain, la météo permet d'obtenir des informations supplémentaires.
+Certaines données sont alors connues : la probabilité que la météo annonce un beau temps sachant qu'il fera effectivement beau : \mathbb P (M|\text)
+0,9,
+la probabilité que la météo annonce un beau temps sachant qu'il pleuvra : \mathbb P (M|\text)
+0,2.
+Une hypothèse est choisie : par exemple \mathbb P (\text)=1/2, c'est-à-dire que l'on considère, a priori, qu'il y a une chance sur deux qu'il fera beau demain.
+Il est alors possible de calculer la probabilité que la météo annonce un beau temps :
+c'est-à-dire que la météo annonce un beau temps dans 55 % des cas.
+La probabilité qu'il fera beau demain sachant que la météo a annoncé beau temps est alors donnée par :
+Il est alors possible de réviser une deuxième fois l'hypothèse qu'il fera beau en regardant un deuxième bulletin météo d'une source différente.
+On prendrait alors comme nouvelle hypothèse la probabilité d'avoir un beau temps nouvellement calculée.

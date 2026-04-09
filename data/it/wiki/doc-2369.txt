@@ -1,0 +1,228 @@
+Il CSS (acronimo di Cascading Style Sheets, in italiano fogli di stile a cascata), in informatica, è un linguaggio usato per definire la formattazione di documenti HTML, XHTML e XML ad esempio i siti web e relative pagine web.
+Le regole per comporre il CSS sono contenute in un insieme di direttive (Recommendations) emanate a partire dal 1996 dal W3C.
+L'introduzione del CSS si è resa necessaria per separare i contenuti delle pagine HTML dalla loro formattazione e permettere una programmazione più chiara e facile da utilizzare, sia per gli autori delle pagine stesse sia per gli utenti, garantendo contemporaneamente anche il riutilizzo di codice ed una sua più facile manutenzione.
+Storia
+Per permettere agli autori di poter plasmare liberamente l'aspetto delle pagine web, dal 1993 in poi Netscape Navigator ed Internet Explorer, i due software di navigazione che si disputavano gli utenti nella nota guerra dei browser, presentarono tag proprietari, ovvero non aderenti agli standard né compatibili con i browser concorrenti.
+Un esempio di questi tag è che va a definire il font dei caratteri.
+Questi tag proprietari di formattazione erano l'unico modo per gli autori di definire la formattazione, così il loro uso è diventato molto intenso.
+Tuttavia questi tag presentavano tre problemi:
+Il primo problema è costituito dalla lunghezza dei tag.
+Se confrontata con una pagina che adotta il linguaggio CSS, una pagina che non lo adotta è in genere più pesante (in termini di bit) in un rapporto che spesso raggiunge il 0.2%.
+Inoltre, le istruzioni CSS possono essere raccolte in un file esterno che rimane memorizzato nella cache del browser, riducendo ulteriormente la quantità di dati che i server devono trasmettere.
+# Il secondo problema risiede nella mancanza di logica del codice
+(X)HTML.
+Un codice non aderente agli standard, ridondante e confuso comporta infatti molto lavoro aggiuntivo per i browser, che devono cercare di correggere ed interpretare (quando possibile) direttive arbitrarie.
+# Il terzo problema comincia a diventare sempre più rilevante ed è la mancanza di compatibilità con i nuovi computer palmari e gli smartphone.
+Queste pagine infatti sono progettate per schermi con risoluzione minima 800x600 pixel.
+Dispositivi come i palmari (o i più moderni tablet) che possono avere una risoluzione inferiore ed una forma dello schermo ben diversa dal rapporto 4:3 dei monitor per computer, si trovano quindi impossibilitati a visualizzare correttamente la pagina con il risultato che l'utente si troverà una pagina confusa e scomoda da leggere.
+Un'ulteriore questione era, nelle pagine web non standard, l'uso del tag (le tabelle) per realizzare l'impaginazione delle pagine web.
+L'impaginazione tabellare viene considerata deprecabile dai puristi, in quanto le tabelle sono pensate per impaginare dati tabulari e non layout web.
+Oltre a questo, l'uso delle tabelle comporta anche svantaggi pratici:
+aumento del peso delle pagine, come già indicato al problema 1, e peggioramento dell'accessibilità, in quanto l'ordine logico dei dati può dover essere sacrificato per motivi di layout.
+Nonostante tutto, alcuni sostengono l'uso delle tabelle per la loro maggior facilità di implementazione.
+Per tentare di risolvere questa situazione, nel 1996 il W3C emanò le specifiche CSS 1.
+I CSS 1 erano un interessante sistema per separare contenuto da formattazione.
+La base di questo linguaggio, infatti, consisteva nel fatto che il contenuto sarebbe stato sempre definito dal codice (X)HTML, mentre la formattazione si sarebbe trasferita su un codice completamente separato, il CSS appunto.
+I richiami tra i due codici venivano effettuati tramite due particolari attributi:
+class e ID.
+Queste specifiche:
+# Erano un'efficace soluzione al primo problema (escludendo la questione del tag ) perché riducevano notevolmente le dimensioni delle pagine.
+Risolvevano il secondo in modo parziale perché consentivano al codice (X)HTML di ritornare in gran parte semplice ed essenziale, ma presentavano qualche mancanza che costringeva a ricorrere ai tag HTML.
+# Non prendevano però in considerazione il terzo problema, dato che nel 1996 i PDA (i palmari) erano scarsamente diffusi.
+I CSS 1 sviluppavano un'idea semplice ma efficace, ma nonostante le loro grandi potenzialità non ebbero successo a causa della mancanza di browser in grado di supportarli.
+CSS 2 e CSS 2.1
+Per includere le nuove funzionalità e rendere i CSS un linguaggio ben supportato, nel 1998 il W3C pubblicò le specifiche CSS 2.
+Nel 2004 iniziarono i lavori sulle specifiche aggiornate CSS 2.1 che divennero raccomandazione ufficiale il 7 giugno 2011.
+I CSS 2 sono la naturale evoluzione dei CSS 1 ed offrono potenti soluzioni per risolvere soprattutto il terzo problema, con la possibilità di creare fogli di stile separati per i dispositivi portatili.
+Anche il secondo problema è ormai pienamente risolvibile, scrivendo una pagina (X)HTML esclusivamente indirizzata alla struttura e ai contenuti e manovrandola poi esclusivamente con i CSS per impaginarla.
+A partire da Internet Explorer 5, Firefox e Opera 7, i CSS 2 hanno potuto avvalersi di browser in grado di interpretarli e sono quindi entrati a far parte del codice di molti siti web.
+A differenza delle specifiche CSS 2, che è costituita da un'unica specifica, le specifiche CSS3 sono costituite da sezioni separate dette "moduli".
+A causa di questa modularizzazione, le specifiche CSS3 hanno differenti stati di avanzamento e stabilità.
+A novembre 2014, cinque moduli risultano pubblicati formalmente dal W3C come raccomandazioni:
+* 2011-06-07:
+* 2011-09-29:
+* 2011-09-29:
+* 2012-06-19:
+http:/ TR Media Queries
+* 2013-11-07:
+http:/ TR CSS Style Attributes
+I CSS3 dovrebbero presentare soluzioni per , migliorie nella gestione degli sfondi e una soluzione per realizzare i bordi arrotondati la cui realizzazione affligge i webdesigner da tempo.
+HTML e CSS3 costituiscono un linguaggio turing completo, condizione sufficiente per un linguaggio per essere considerato un linguaggio di programmazione.
+Caratteristiche
+Il codice
+L'inserimento di codice CSS nelle pagine web può essere effettuato in tre modi diversi:
+* Inserendo nel tag della pagina in codice HTML un collegamento ad un foglio di stile esterno, cioè un file contrassegnato dall'estensione .css
+come negli esempi seguenti, tramite il tag link o tramite la direttiva import, che può essere utilizzata anche negli stessi file .css per collegare più file tra loro:
+Esempio
+oppure
+Esempio
+@import url (foglio_di_stile.css);
+questa soluzione garantisce il massimo riuso di codice possibile potendo essere richiamato in ciascuna delle pagine web HTML desiderate.
+* Inserendo, sempre all'interno dell' tra gli specifici tag e le dichiarazioni css.
+Esempio
+codice
+css
+Questa soluzione garantisce un minor riuso di codice rispetto al precedente potendo essere utilizzato solo all'interno della pagina HTML in cui è dichiarato.
+Questa soluzione garantisce un riuso di codice ancora minore rispetto al precedente.
+Regole
+Un foglio di stile CSS è sintatticamente strutturato come una sequenza di regole, che sono coppie costituite da un selettore e un blocco di dichiarazioni, racchiuso tra parentesi graffe.
+Un selettore è un predicato che individua certi elementi del documento HTML;
+una dichiarazione, separata con un punto e virgola dalle altre, è a sua volta costituita da una proprietà,
+ovvero un tratto di stile (come il colore del testo)
+e un valore da assegnare a quest'ultimo (per esempio blu).
+separati dai due punti.
+selettore1
+selettore2
+Selettori
+Si descrivono di seguito alcune delle principali tipologie di selettori.
+Selettori di tipo
+I selettori di tipo applicano la regola a tutti gli elementi della pagina del tipo determinato.
+Esempi:
+body
+Selettori di classe
+Le classi applicano la regola a tutti gli elementi della pagina che presentano la proprietà class
+"nome_classe".
+La sintassi CSS è la seguente:
+.nome_classe
+Selettori d'identificatore
+Gli identificatori (comunemente ID) applicano la regola a quell'elemento della pagina che presenta la proprietà id
+"nome_identificatore".
+Gli ID contraddistinguono elementi unici.
+La sintassi CSS è la seguente:
+nome_identificatore
+Selettori di pseudo-classe
+Le pseudoclassi identificano elementi in base alle loro proprietà.
+* first-child individua un elemento solo se è il primo figlio dell'elemento padre.
+Così quindi
+first-child
+individuerà nel codice (X)HTML sottostante solo il primo paragrafo.
+Lorem ipsum
+Lorem ipsum
+Lorem ipsum
+* link e visited si applicano ai collegamenti.
+La prima identifica i collegamenti non visitati, la seconda quelli visitati.
+La sintassi CSS è:
+link
+* active, focus e hover
+identificano gli elementi solo in particolari condizioni, la prima se l'elemento è attivo, la seconda se è selezionato, la terza se il puntatore è sopra di lui.
+Quindi
+hover
+si applicherà solo se il puntatore del mouse andrà sopra un paragrafo e solo per il tempo che vi rimarrà.
+* lang si utilizza per identificare gli elementi di una certa lingua ma il suo supporto è esiguo.
+Selettori di pseudo-elementi
+Gli pseudo-elementi identificano solo una parte di un elemento, senza la necessità di utilizzare la marcatura (X)HTML.
+* first-line individua solo la prima linea di un paragrafo.
+Se la finestra del browser cambia dimensione si adatterà automaticamente alla nuova dimensione della linea.
+La sintassi CSS è la seguente:
+p::first-line
+* first-letter individua solo il primo carattere di un elemento.
+* before e after sono due pseudoclassi utilizzate nella creazione dei contenuti generati.
+Non individuano un elemento, ma una posizione dove creare i contenuti.
+Sono poco utilizzate, dato il mancato supporto di Internet Explorer.
+Selettori di gerarchia
+Identificano solamente gli elementi che si trovino in una particolare relazione derivante dalla struttura arborescente del documento (X)HTML, come la discendenza, la figliolanza, la fratellanza.
+* Il selettore di discendenza identifica solo gli elementi contenuti in altri elementi.
+Così
+p span
+identifica solo gli elementi contenuti in elementi
+* Il selettore figlio identifica invece solo gli elementi che siano contenuti direttamente nell'elemento padre.
+Così
+div >
+individua solo i
+contenuti direttamente
+in un
+* Il selettore fratello identifica il primo elemento immediatamente successivo ad un altro con cui condivida lo stesso padre.
+Così
+h1 + p
+individua solo il primo
+fratello
+Selettori di attributo
+Il selettore di attributi permette, tramite la sintassi che segue, di identificare elementi (X)HTML in base ai loro attributi.
+atitle=Esempio
+Questa regola si applica solo agli elementi che presentano l'attributo title="Esempio".
+I selettori di attributi sono molti e permetterebbero un controllo eccellente della pagina, ma Internet Explorer non li supporta ed il loro uso è quindi molto limitato.
+Proprietà
+Le proprietà CSS sono numerose, circa 60.
+Le più utilizzate sono:
+* background.
+Definisce lo sfondo di un elemento.
+È una scorciatoia (shorthand properties) per background-attachment, background-color, background-image, background-position e background-repeat.
+* border.
+Definisce il bordo di un elemento.
+È una scorciatoia (shorthand properties) per 'border-color, border-style e border-width.
+* color.
+Definisce il colore del testo di un elemento.
+Per definire lo sfondo si utilizza la proprietà background.
+* float.
+Questa proprietà definisce un blocco flottante, ovvero che permette la disposizione di altri elementi ai suoi lati.
+* font.
+Definisce le proprietà del carattere.
+È una scorciatoia (shorthand properties) per font-family, font-size e font-weight.
+* margin e padding.
+Definiscono lo spazio circostante gli elementi.
+La prima lo spazio esterno ai bordi, la seconda quello interno.
+* text-align.
+Definisce l'allineamento degli elementi, tra cui il testo.
+Valori
+Se non specificata, una proprietà assume i valori predefiniti di ogni browser, o in seconda istanza lo stile utente scelto, altrimenti può assumere uno dei seguenti:
+La stringa inherit specifica che la proprietà deve ereditare il valore dagli elementi da cui l'elemento discende.
+La stringa auto ha significati molto diversi a seconda della proprietà a cui viene assegnata.
+Se i numeri sono contraddistinti da un'unità di misura è necessario che tale unità sia espressa (tranne che nel caso dello zero).
+Tra il numero e l'unità non devono esserci spazi, come nell'esempio che segue:
+I colori possono essere indicati con più di un sistema.
+Ad esempio il colore arancione può essere indicato con:
+#ff6600
+#f60
+rgb (255,102,0)
+rgb (100%,40%,0%)
+L'URL viene indicato nelle forme
+url
+I CSS permettono di indicare nella proprietà font-family più di un font, o una famiglia di font (serif e sans).
+In questo modo il browser utilizzerà il primo che troverà installato sul sistema operativo.
+La dichiarazione utilizza questa sintassi:
+Il supporto dei Browser e CSS
+Nessun browser attuale offre il supporto completo e corretto delle specifiche CSS.
+Tuttavia esistono browser che si avvicinano molto a questo risultato ed altri che invece ne sono molto lontani.
+La lista che segue è di motori di rendering perché a loro è assegnato il compito di formattare la pagina secondo le istruzioni CSS.
+Gecko (Mozilla Firefox e Netscape Navigator):
+Gecko ha un ottimo supporto dei CSS 1 e 2 ed è per questo spesso utilizzato nella verifica della resa delle pagine web.
+Gecko e Mozilla Firefox sono software libero.
+;Trident (Internet Explorer ):
+Internet Explorer, dalla versione 9 supporta CSS 3.
+Una peculiarità di Internet Explorer sono i cosiddetti commenti condizionali che consentono di applicare delle regole di CSS soltanto a una determinata versione di Internet Explorer.
+Questa funzionalità è ampiamente utilizzata laddove si presume un'utenza che utilizzi ancora vecchie versioni di Internet Explorer e che perciò richiedono frequentemente alcune regole di CSS addizionali per la corretta visualizzazione della pagina web.
+In molti casi è necessario utilizzare regole di stile CSS ad-hoc esclusivamente per Internet Explorer a causa delle differenze sostanziali nel modo in cui alcune versioni di Internet Explorer si discostano dagli standard, come per esempio nel "box model non-standard" utilizzato da alcune versioni di Internet Explorer e che differisce sostanzialmente da quello imposto dagli standard del World Wide Web Consortium.
+La sintassi dei commenti condizionali è la seguente:
+regole CSS ad-hoc per Internet Explorer
+poiché
+Trident e Internet Explorer sono software proprietario.
+Presto (Opera):
+Presto offre un ottimo supporto dei CSS 1 e 2.
+Opera offre inoltre un'opzione che permette all'utente di disattivare i fogli di stile o usarne di propri.
+Presto e Opera sono software proprietario.
+;KHTML e WebKit (Safari, Google Chrome e .
+Oltre alle differenze di compatibilità, ogni motore di rendering aggiunge ai CSS standard alcuni nuovi elementi o nuove proprietà.
+Normalmente tali proprietà iniziano con un prefisso che cambia in base al browser, per esempio -webkit indica che la proprietà riguarda il motore di rendering WebKit, ad esempio -webkit-appearance.
+Tutte queste proprietà però dovrebbero essere utilizzate esclusivamente quando si desidera esclusivamente utilizzare quel browser con quel determinato motore di rendering poiché tutte queste proprietà sono caratteristiche aggiuntive valide solo per quel determinato motore di rendering e non sono proprietà standard definite dal World Wide Web Consortium.
+Utilizzo su diversi dispositivi
+Una utilissima funzione dei CSS è la possibilità di essere applicati solo sui dispositivi (media) specificati dall'autore.
+La sintassi (X)HTML da utilizzare è la seguente.
+Il codice precedente associa il foglio di stile solo (in teoria) ai browser standard per computer desktop e portatili.
+I valori dell'attributo media sono i seguenti:
+Sebbene il numero dei dispositivi gestibili tramite CSS sia notevole, soltanto i primi tre sono supportati in maniera sufficiente.
+Il media screen è quello standard cui si fa riferimento.
+Il media handheld è specifico per i palmari, ma alcuni browser per palmari tentano, spesso con scarso successo, di interpretare anche i fogli marcati con screen, per cui si preferisce in genere marcare con handheld sia il foglio per lo schermo che quello per il palmare e poi usare quest'ultimo per sovrascrivere le istruzioni del primo.
+Il media print codifica la pagina per la stampa, è supportato discretamente.
+Un supporto completo è garantito da Opera.
+Fogli di stile preferiti e alternativi
+Come descritto, ad ogni pagina si possono collegare più fogli di stile.
+Tuttavia è anche possibile far scegliere all'utente quali applicare.
+Per farlo si definiscono innanzitutto i fogli di stile permanenti, cioè non disattivabili, secondo la sintassi già vista.
+Poi si definiscono i fogli preferiti, cioè attivi al caricamento della pagina, ma disattivabili, aggiungendo l'attributo come nell'esempio che segue:
+A questo punto possiamo specificare fogli di stile alternativi cioè non attivi al caricamento, ma attivabili dall'utente, come nell'esempio che segue:
+Per attivare e disattivare i fogli di stile l'utente può ricorrere all'apposito menu del suo browser, tuttavia Internet Explorer non offre questa possibilità quindi è necessario creare uno script JavaScript che svolga la funzione di sostituire i fogli.
+Il codice è stato pubblicato la prima volta su http:/ articles/alternate A List Apart ed è ora comunemente utilizzato.
+Tuttavia se questo script è facile da mettere in opera per gli sviluppatori, richiede un browser moderno con un buon supporto del DOM, oltre che avere attivati sia JavaScript e i cookie.
+Un sistema più complesso ma molto più robusto può essere uno script lato server come PHP.
+Un esempio è disponibile sempre sullo http:/ articles stesso sito.
+Note

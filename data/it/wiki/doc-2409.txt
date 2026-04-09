@@ -1,0 +1,176 @@
+Microsoft Windows (abbreviazioni comunemente utilizzate:
+"Windows" o "Win") è una famiglia di ambienti operativi e sistemi operativi dedicati ai personal computer, alle workstation, ai server e agli smartphone.
+Il sistema operativo si chiama così per via della sua interfaccia di programmazione di un'applicazione a finestre (che si chiamano "windows" in lingua inglese), detta File Explorer.
+In particolare Microsoft Windows nasce come ambiente operativo per i sistemi operativi MS-DOS e PC DOS (dedicati ai primi home computer), e diventa sistema operativo con Windows NT (dedicato alle workstation e ai server) e Windows 95 (dedicato ai personal computer).
+È software proprietario della Microsoft Corporation che lo rende disponibile esclusivamente a pagamento.
+In particolare attualmente Microsoft Corporation commercializza solo sistemi operativi appartenenti alla famiglia Microsoft Windows:
+Mobile per gli smartphone, e Windows IoT Core
+per i Pocket PC e i Portable Media Center.
+Descrizione
+Caratteristiche
+Il sistema è multitasking e multiutente seriale.
+Necessita di partizione primaria in fase di installazione per essere eseguito sin dal suo start-up.
+I file system spesso utilizzati sono di tipo fat, fat32 e NTFS, eventualmente raggruppati in volumi.
+Come memoria virtuale utilizza un file di paging all'interno della partizione di sistema.
+La cartella di sistema è notoriamente System32, protetta nelle modifiche ai normali utenti.
+Il sistema è noto per avere il cosiddetto registro di sistema come base dati per le impostazioni, opzioni del sistema nonché come riferimento per le applicazioni installate.
+Le periferiche di sistema vengono etichettate dal sistema con il termine Unità (es. C, D, E).
+I file di default vengono salvati nella cartella predefinita Documents and Settings.
+I sistemi Windows prima di Windows 10, l'ultima versione del sistema operativo, necessitavano di antivirus in quanto facilmente vulnerabili a malware.
+Recentemente, con l'avvento di Windows 10, sono state aggiunte delle caratteristiche attue a migliorare la sicurezza del sistema, come "Windows defender" (antivirus preinstallato che scansiona periodicamente il pc in automatico se non sono presenti altri anti-virus, presente anche in altre versioni di windows ma migliorato notevolmente in windows 10) o il download automatico (e da Creators Update, non disattivabile) degli aggiornamenti di sicurezza e dei major update, i quali contengono anche nuove funzionalità o miglioramenti al sistema stesso.
+È anche grazie a queste migliorie, che recentemente, il famoso malware "Wannacry" ha colpito solo lo 0,3% dei pc Windows 10, i cui aggiornamenti erano però stati bloccati dagli utenti o dalle società che ne facevano uso.
+Architettura
+Il sistema operativo è concepito fin dall'inizio per essere portabile su differenti architetture, sebbene si sia diffuso quasi esclusivamente su computer con processori con architettura x86 (in passato sono state prodotte alcune versioni di Windows NT per DEC Alpha, MIPS, PowerPC e SPARC, oggi non più supportate).
+Attualmente sono supportate anche le nuove piattaforme a 64 bit di Intel e AMD.
+Dall'avvento di Windows 8, Windows ha anche una versione per ARM, i processori più diffusi nei dispositivi portatili .
+La tipologia del kernel è di tipo ibrido.
+Le varie famiglie di Windows hanno caratteristiche tecniche molto diverse fra loro:
+* Le versioni a 16 bit erano semplicemente degli "ambienti grafici" che fornivano al programmatore un insieme di librerie e servizi per l'interfaccia grafica.
+In realtà le funzioni di base disponevano invece di un proprio kernel in modalità protetta, che tuttavia era un'evoluzione del kernel in modalità reale del DOS.
+* La famiglia Windows NT, invece, è basata su un kernel completamente nuovo a 32 bit (anche 64 bit da Windows XP) con architettura a microkernel ibrido.
+Ciò che rende uniformi tutti i sistemi Windows è l'interfaccia ad alto livello al programmatore, costituita dalle Windows API che hanno mantenuto una forma sostanzialmente immutata dalla prima versione di Windows ad oggi.
+Interfaccia grafica o GUI (graphic user interface)
+Windows è sin dall'origine un sistema operativo grafico, pensato per essere utilizzato con il mouse, e a differenza dei sistemi Unix l'interfaccia grafica è un componente essenziale, non opzionale.
+Solo nelle prime versioni di Windows NT il sottosistema grafico operava in user mode, ma a partire dalla versione 4.0 è stato portato a livello kernel per motivi di prestazioni.
+Si tratta di un'interfaccia a finestra che implementa la cosiddetta metafora della scrivania (Desktop Environment) con icone, pulsanti , wallpaper, barra delle applicazioni, barra di stato ecc...
+Microsoft venne accusata di avere copiato l'interfaccia di Windows dal sistema operativo del Macintosh di Apple, il Mac OS, a sua volta ispirata a quella sviluppata dalla Xerox;
+Apple, tuttavia, aveva stipulato un regolare contratto con Xerox per poter utilizzare le sue risorse all'interno del progetto Macintosh.
+Per distribuire la prima versione di Windows, Microsoft ottenne una licenza da Apple con alcune limitazioni.
+Tale versione infatti non disponeva della possibilità di avere finestre affiancate:
+per questo in Windows 1.0 le finestre occupavano sempre tutto lo schermo, consentendo di utilizzare un solo programma per volta.
+In Windows 2.0
+Microsoft introdusse le finestre affiancate e Apple citò in giudizio Microsoft.
+La causa legale si risolse, molti anni dopo, con una trattativa privata, i cui dettagli non sono completamente noti al pubblico.
+La shell di Windows fino alla versione 3.1 era divisa in diversi programmi:
+Executive nelle prime versioni e in seguito Program Manager e File Manager.
+Il grande passo avanti si ebbe con la shell Explorer di Windows 95 (in italiano Gestione risorse), caratterizzata in particolare dalla barra delle applicazioni e dal menu Start.
+Era inoltre presente un moderno desktop, come quello presente da anni in altri sistemi operativi.
+Componenti
+Tra i componenti di Windows in dotazione al sistema si ricorda il cestino, il blocco note, la calcolatrice, Paint, Windows Firewall.
+Windows offre la possibilità di installare la nota suite software di Microsoft Office come software di utilità personale e aziendale.
+Spesso in dotazione sono anche alcuni semplici videogiochi.
+Per la navigazione in rete in dotazione ci sono Internet Explorer e Microsoft Edge come web browser.
+L'accesso alle risorse avviene attraverso il File Explorer.
+Windows Update garantisce l'aggiornamento del sistema operativo in maniera automatica o su richiesta dell'utente.
+Amministrazione
+L'amministrazione del sistema da parte dell'utente è attuata attraverso il noto Pannello di controllo, il Windows Task Manager, l'app Impostazioni (da Windows 8 in poi) e il Desktop remoto.
+È inoltre possibile utilizzare il prompt dei comandi di Windows di eredità del vecchio MS-DOS come interfaccia a riga di comando.
+Altri tool utili sono il ripristino configurazione di sistema e msconfig.
+Per la manutenzione disco rigido è presente lo scandisk, la pulizia disco e la deframmentazione del disco.
+Combinazione di tasti
+In Windows è presente una funzionalità denominata "tasti di scelta rapida" ovvero combinazioni di tasti (digitati) che attivano varie operazioni.
+L'elenco completo delle combinazioni è descritto in https:/ it-it 126449 Tasti di scelta rapida per Windows.
+Una delle combinazioni più utilizzate è "ALT + TAB" che permette di passare da una finestra all'altra senza agire sulla barra delle applicazioni.
+In pratica questa combinazione attiva lo switcher ovvero il rettangolo in cui sono contenuti i task aperti (sottoforma di finestre miniaturizzate):
+digitando su tab (tenendo premuto su alt) si passa da un programma all'altro.
+Invece, "WINDOWS + TAB" attiva sempre lo switcher ma con le finestre miniaturizzate in forma tridimensionale.
+Windows 10 ha un'icona nella barra delle applicazioni che attiva lo switcher e fa apparire sul desktop le finestre miniaturizzati dei task aperti.
+Reti Windows
+In ambito aziendale sono diffuse reti dati che collegano tra loro computer client di tipo Windows spesso connesse a server centralizzato con sistema operativo Windows Server.
+Una rete di questo tipo con particolari servizi e logiche si chiama dominio.
+Famiglie di Microsoft Windows
+Prima di Windows XP, Microsoft commercializzava due linee separate di sistemi operativi.
+La prima (rappresentata da Windows 95, Windows 98 e Windows ME) era progettata per computer monoutente, quindi tipicamente domestici e per le piccole aziende.
+Disponeva di una buona compatibilità con i programmi sviluppati per MS-DOS, e poteva funzionare anche su quelli di fascia più bassa.
+L'altra linea (rappresentata da Windows NT e Windows 2000) era pensata, fin dalla struttura del file system, per computer multiutente.
+Microsoft indirizzò queste versioni alle aziende e ai server, e al prezzo di maggiori richieste in fatto di potenza di calcolo e di memoria e di una ridotta compatibilità con i software MS-DOS.
+Era caratterizzata da una stabilità solitamente maggiore e disponeva di caratteristiche pensate per le grandi aziende.
+Con l'aumento vertiginoso e a buon mercato della potenza di calcolo, non sussistevano più le ragioni per proseguire con due linee di prodotti separate.
+Con Windows XP si offrì un'unica piattaforma client, sia per gli utenti privati che per le piccole e grandi aziende.
+Solo la linea server, pur essendo basata essenzialmente sullo stesso kernel e sullo stesso codice sorgente, è commercializzata come prodotto distinto.
+Gli ambienti operativi e i sistemi operativi Microsoft Windows possono essere raggruppati in alcune grandi famiglie.
+Ambienti operativi a 16 bit
+Questi forniscono semplicemente un'interfaccia grafica, detta desktop e richiedono un sistema operativo separato per i servizi essenziali (come l'accesso ai dischi, il monitoraggio della tastiera per l'input, e così via) che usualmente era MS-DOS della stessa Microsoft.
+Sistemi operativi ibridi 16/32 bit
+I servizi del sistema operativo DOS vengono integrati in Windows.
+Questi sistemi operativi vengono spesso indicati con il nome "Windows 9x".
+Sistemi operativi a 32 bit
+Originariamente progettati per il mercato professionale con il progetto di un sistema operativo completamente nuovo, compongono la famiglia Windows NT.
+Sistemi operativi a 64 bit per architetture EM64T e AMD64
+Lo sviluppo tecnologico portò allo sviluppo di tecnologie quali Intel EM64T e AMD AMD64, che estendono il set tradizionale di istruzioni a 32 bit X86.
+Il supporto a questa nuova architettura nacque inizialmente con le versioni x64 di Windows XP e Windows Server, per poi estendersi a tutte le versioni successive di Windows.
+Dopo Windows XP, ogni sistema operativo avrà la sua versione a 64 bit.
+* Windows XP
+Professional x64 Edition, distribuito nel 2005.
+* Windows Server 2012, distribuito il 26 ottobre 2012.
+* Windows Server 2012 R2, distribuito il 17 ottobre 2013.
+* Windows Server 2016, distribuito il 26 settembre 2016.
+Sistemi operativi per Smartphone e Tablet basati su architettura ARM
+* Windows Phone 7, distribuito nell'ottobre 2010 (basato su Windows CE).
+* Windows Phone 7.5, aggiornamento di Windows Phone 7, distribuito nel settembre 2011.
+* Windows Phone 7.8, aggiornamento di Windows Phone 7.5, distribuito nel gennaio 2013.
+* Windows Phone 8, basato sul kernel di Windows 8 (Windows NT 6.2) e distribuito nell'ottobre 2012.
+* Windows Phone 8.1, aggiornamento di Windows Phone 8, distribuito nell'aprile 2014.
+* Windows RT, distribuito il 26 ottobre 2012, versione per tablet ARM di Windows 8.
+* Windows 8.1 RT, distribuito il 17 ottobre 2013, versione per tablet ARM di Windows 8.1.
+Mobile, distribuito a marzo 2016 come aggiornamento per quasi tutti i Lumia Windows Phone 8.1.
+Sistemi operativi a 64 bit per architettura IA-64
+Già alla fine degli anni ottanta e nei primi anni novanta, Hewlett-Packard si rese conto della limitazione dell'architettura X86 che dominava il mercato.
+Dallo sforzo per migliorare questa tecnologia, nacquero prima EPIC e poi, con la collaborazione di Intel, la versione definitiva dell'architettura, IA-64.
+Questa nuova architettura si era posta come successore di x86 e delle architetture RISC, rinnovando completamente il set di istruzioni e basandosi soprattutto sul parallelismo di istruzioni.
+L'IA-64 è rimasta limitata al campo server e non saranno più sviluppati sistemi operativi Windows per questa architettura.
+Sistemi operativi per sistemi embedded e altri
+* Windows CE kernel su cui si basano sistemi operativi per PDA, sub-notebook e altri sistemi embedded.
+* Windows XP
+Tablet PC Edition per apparecchi con touch screen come Tablet PC e Ultra Mobile PC.
+* Windows XP
+Embedded
+per sistemi embedded x86 come bancomat, registratori di cassa, slot machines, ecc.
+Utilizza i binari di Windows XP.
+* Windows NT per DEC Alpha e IBM PowerPC (non più supportati dal 2000).
+Sistemi operativi beta o cancellati
+* Windows Nashville, mai distribuito al pubblico, originariamente destinato a essere distribuito nel 1996 come Windows 96
+Tabella riassuntiva delle versioni di Windows e relazione tra versione consumer, professional e server
+Loghi
+File:
+Windows logo and wordmark - 1985.svg|Il primo logo di Windows, usato dal 1985 al 1991.
+File:
+Windows 3.x logo.svg|Il logo usato dal 1993 al 1995.
+File:
+Windows logo vecchio.svg|Il logo usato dal 1995 al 1999.
+File:
+Microsoft Windows logo (year 2000).png|Il logo usato dal 1999 al 2001.
+File:
+Windows logo - 2002-2012 (Multicolored).svg|Forma alternativa del logo usato dal 2001 al 2012
+File:
+Windows logo and watermark - 2012.svg|Il logo in uso dal 2012.
+Aggiornamento
+Microsoft consente l'aggiornamento, ossia la possibilità di installare una versione più recente di Windows semplicemente eseguendo il programma di installazione da una versione più vecchia, senza alcuna perdita di dati e di impostazioni.
+Non è però possibile eseguire l'aggiornamento per tutte le versioni, e di seguito vengono riportati i criteri per determinare se è possibile aggiornare.
+Criteri
+dal 2001
+A partire da Windows XP, il primo sistema operativo della linea Windows NT destinato sia per un pubblico "consumer" che "professional", il criterio principale per determinare se è possibile eseguire l'aggiornamento è l'edizione installata nel PC:
+* Se si ha l'edizione "Professional", è possibile aggiornare solo verso l'edizione "Professional" (o "Ultimate" in caso di Windows Vista e 7) della versione successiva.
+* Nel caso in cui si ha l'edizione "Home", è possibile aggiornarlo verso l'edizione "Home", oppure verso l'edizione "Professional", in quanto essa ha caratteristiche superiori dell'edizione "Home", (o "Ultimate" in caso di Windows Vista e 7).
+* Se invece si ha l'edizione "Ultimate", è possibile aggiornare solo verso l'edizione "Ultimate" del sistema operativo successivo oppure verso l'edizione "Professional" (Pro) di un altro sistema operativo.
+L'unica eccezione si ha se si desidera aggiornare Windows Vista a 7, visto che non è consentito l'aggiornamento da Windows Vista Home Basic/Home Premium a 7 Professional, in quanto quest'ultima manca di alcune caratteristiche multimediali tipiche dell'edizione home (es. il Media Center).
+Aggiornamento a Windows XP
+Un criterio simile viene utilizzato per l'aggiornamento a Windows XP:
+* È possibile aggiornare Windows NT 4.0 e 2000 Professional solo verso XP Professional, in quanto questi sono sistemi operativo destinato ad un pubblico professionale.
+* È possibile aggiornare Windows 98 e ME verso XP Home Edition oppure XP Professional.
+Aggiornamento a Windows 2000
+È possibile aggiornare tutti i sistemi operativi Windows 9x e Windows NT 4.0 a 2000 Professional.
+Da notare la possibilità di aggiornare Windows ME ad Windows 2000, malgrado ME sia stato pubblicato dopo Windows 2000 ed abbia molte caratteristiche, prevalentemente multimediali, che 2000 non possiede.
+Prima di Windows 2000
+È possibile aggiornare i sistemi operativi della linea Windows 9x alle loro versioni più recenti, solo se si possiede la versione "aggiornamento".
+Se si prova invece ad eseguire il programma di installazione di una versione di Windows 9x su una versione di Windows NT, anche se pubblicata anni dopo (es. si esegue su Windows NT 4.0 l'installazione di Windows ME), si riceve un messaggio di errore che impedisce l'installazione.
+L'"aggiornamento" da Windows NT a Windows 9x è vietato perché la Microsoft è consapevole del fatto che il kernel di Windows NT è più nuovo e più stabile di quello vecchio e monolitico delle versioni Windows 9x, basato su MS-DOS, e quindi sarebbe come effettuare un downgrade.
+Problemi di sicurezza
+I sistemi operativi della Microsoft sono il principale obiettivo degli scrittori di virus informatici, a causa dell'effetto combinato della grandissima diffusione e dalle scarsissime conoscenze, da parte dell'utente medio, dei pericoli di sicurezza derivanti dalla connessione di un PC ad una rete di estensione mondiale come Internet.
+Negli ultimi anni con l'avvento di Internet e la crescita ulteriore della base di computer installati, tanto la produzione di virus, quanto l'ampiezza del danno che possono provocare è cresciuta:
+è richiesto un bagaglio relativamente basilare di nozioni per creare epidemie in grado di rallentare significativamente le strutture informatiche di tutto il mondo, con conseguenze calcolate da alcuni in migliaia di ore di lavoro perso.
+Alla luce di tutto ciò la sicurezza è tornata ad essere un tema primario per governi, analisti, sviluppatori e aziende:
+per la stessa Microsoft è diventata una delle priorità principali.
+Infatti, molti aggiornamenti distribuiti per i propri sistemi operativi sono dedicati alla sicurezza, come quelli atti a "chiudere" le falle scoperte nel sistema o come il tool Strumento di rimozione malware di Windows.
+Parallelamente si è sviluppato il dibattito se la garanzia di programmi sicuri sia meglio assicurata dalla trasparenza nel rendere pubblici i bachi e le vulnerabilità scoperti o invece dal mantenere questo tipo di informazioni riservate fino alla risoluzione del problema.
+Dibattito che si intreccia con quello sulla diffusione o meno del codice sorgente.
+Microsoft, che è un proponente del secondo approccio, ha risposto alla crescente richiesta da parte di pubbliche amministrazioni e grosse aziende di poter visionare il codice che utilizzano, varando l'iniziativa denominata Shared source, la quale consente a pagamento (ma gratuitamente per le pubbliche amministrazioni) di avere accesso ai sorgenti.
+Ironicamente, una falla di sicurezza del sito della società delegata a gestire gli accessi al codice sorgente ha causato nel febbraio del 2004 la diffusione di una parte del sorgente di una versione preliminare di Windows 2000 (circa 200 MB di codice), da cui derivano anche Windows XP e Windows Server 2003.
+Quota di mercato
+Statistiche provenienti da Net Applications e StatCounter di dicembre 2017.
+Con Microsoft Windows attualmente la Microsoft Corporation detiene la maggior parte del mercato dei sistemi operativi per desktop e laptop computer:
+a dicembre 2017 la quota di mercato relativa a Microsoft Windows in tale settore commerciale è pari al 82.68%.
+Cronologia delle versioni
+Legenda:
+Cronologia delle varie linee
+Note

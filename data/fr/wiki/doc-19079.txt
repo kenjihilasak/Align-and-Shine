@@ -1,0 +1,96 @@
+Constante fondamentale|Planck, constante de|Max Planck
+En physique, la constante de Planck, notée h, est utilisée pour décrire la taille des quanta.
+Nommée d'après le physicien Max Planck, cette constante joue un rôle central dans la mécanique quantique.
+Elle relie notamment l’énergie d’un photon (E) à sa fréquence \nu (lettre grecque nu) E
+h \nu
+\hbar \cdot \omega\;.Elle est, depuis le 20 mai 2019, à la base de la définition du kilogramme.
+Dans de nombreux cas, en mécanique quantique, il est plus naturel de parler de la pulsation (ou fréquence angulaire) que de la fréquence proprement dite, c'est-à-dire d'exprimer la fréquence en radians par seconde et non en hertz (ce qui correspond à la vitesse de rotation de la phase dans l'espace réciproque).
+Dans ces formules, il est le plus souvent utile d'absorber le facteur 2\pi dans la constante elle-même, ce qui conduit à définir et utiliser la constante de Planck réduite (ou constante de Dirac), égale à la constante de Planck divisée par 2\pi, et notée \hbar (prononcée «
+h barre »)
+\hbar
+\frac \;.
+Présentation
+Historique
+Cette constante a été initialement introduite par Max Planck dans l'étude de la radiation du corps noir, comme rapport de proportionnalité entre l'incrément minimal d'énergie E d'un oscillateur électriquement chargé et la fréquence f de l'onde électromagnétique associée.
+Par la suite, en 1905, cet incrément quantifié d'énergie a été relié par Albert Einstein à un quantum de l'onde électromagnétique elle-même, ce quantum lumineux se comportant parfois comme une particule électriquement neutre et non comme une onde électromagnétique.
+Ce quantum fut finalement dénommé le photon.
+La relation ainsi mise en évidence par Planck et Einstein relie l'énergie E d'un photon avec sa fréquence f ou sa fréquence angulaire ω :
+hf = \hbar\omega\;.
+L'énergie en question, de l’ordre de pour un photon de lumière visible, est extrêmement petite par rapport aux ordres de grandeur des énergies quotidiennes.
+Dans de nombreux cas, la quantification de l'énergie implique que seuls certains niveaux d'énergie sont autorisés, et les valeurs intermédiaires ne peuvent pas être atteintes.
+Cette constante a joué un rôle primordial dans le modèle de l'atome d'hydrogène, proposé en 1913 et connu à présent sous le nom de modèle de Bohr afin d'expliquer la présence des raies spectrales qui traduisent le fait que les fréquences du mouvement de l'électron autour du noyau central ne sont pas quelconques, et de même que l'énergie correspondante est parfaitement bien déterminée.
+Niels Bohr admit qu'un électron sur des orbites stationnaires ne peut pas émettre un rayonnement, contrairement à ce qui était soutenu en électromagnétique classique.
+Il émit l'hypothèse qui devint la première condition de quantification de Bohr, à savoir que l'action de la quantité de mouvement \vec p
+m \vec v sur une orbite complète est un multiple entier de h (constante de Planck).
+Cette idée est également connue comme l'« hypothèse quantique de Planck ».
+On a \oint mv \,\mathrm ds
+2n\pi\hbar\;.Faisant suite à la découverte de Planck, il fut reconnu que d'une manière générale l'action d'un système physique ne pouvait pas prendre n'importe quelle valeur, mais était également quantifiée par un quantum d'action à présent dénommé constante de Planck.
+Cette approche correspond à la première interprétation de la mécanique quantique, développée par Bohr et Sommerfeld, pour laquelle les particules existent et ont des trajectoires, mais sont des variables cachées contraintes par les lois de la mécanique quantique.
+Cette interprétation est à présent désuète, remplacée par une approche où la notion même de trajectoire n'existe plus, et où toutes les particules sont représentées par une fonction d'onde s'étendant dans l'espace et le temps : cette approche ne permet plus de définir l'action au sens classique du terme.
+Plus généralement, en 1924, l'hypothèse de De Broglie sur la dualité onde-corpuscule généralise cette relation à une particule quelconque (et non plus uniquement le photon) en reliant la quantité de mouvement \vec d'une particule et sa longueur d'onde \lambda par une équation simple : \lambda
+\;.
+Cette hypothèse sera confirmée expérimentalement peu de temps plus tard, posant ainsi les bases de la mécanique quantique.
+Constante réduite
+L'hypothèse de de Broglie conduisit Erwin Schrödinger à proposer en 1925 que l'évolution d'une particule de masse m dans un champ d'énergie potentielle \scriptstyle V (t,\vec) est décrite par une fonction d'onde \scriptstyle\Psi (t,\vec) qui associe à chaque point \scriptstyle\vec r de l'espace un nombre complexe (analysable en un module et une phase) et qui satisfait à l'équation suivante :
+i\hbar\psi
+-\vec^\psi+V\psi\;.
+L'amplitude de la fonction d'onde normalisée est une distribution de probabilité : le carré de la fonction d'onde \scriptstyle |\psi (\vec x, t)|^2 donne la probabilité de mesurer la présence de la particule au point \scriptstyle \vec x ;
+et la phase quantique est une rotation pure dans le plan complexe, dont la fréquence de rotation dépend de l'énergie cinétique de la particule.
+Si par exemple l'hamiltonien de la particule ne dépend pas explicitement du temps, la fonction d'onde \scriptstyle\Psi (t,\vec) peut se décomposer en une fonction de l'espace \scriptstyle\psi (\vec) et une fonction du temps.
+Une résolution par séparation des variables montre que l'équation est alors de la forme :
+:\Psi (t,\vec)
+\psi (
+\vec).e^
+\psi (\vec).e^\qquad avec \quad\omega.\hbar
+= E
+De ce fait, dans de nombreux cas, en mécanique quantique, il est plus naturel de parler de la fréquence angulaire que de la fréquence proprement dite, c'est-à-dire d'exprimer la fréquence en radians par seconde et non en hertz (ce qui correspond à la vitesse de rotation de la phase dans l'espace réciproque).
+Dans ces formules, il est le plus souvent utile d'absorber le facteur 2π dans la constante elle-même, ce qui conduit à utiliser la constante de Planck réduite (ou constante de Dirac), égale à la constante de Planck divisée par 2π, et notée \hbar (h-barre) :
+\hbar = \frac .
+L'énergie d'un photon de fréquence angulaire ω=2πf s'écrit alors :
+:E = \hbar \omega
+De même, le moment cinétique \vec p est alors relié au nombre d'onde \vec k par :
+\vec p = \hbar \vec k
+Ces deux relations sont les composantes temporelles et spatiales d'une formule de relativité restreinte portant sur des quadrivecteurs :
+P^\mu
+\left (\frac, \vec\right)
+\hbar K^\mu
+= \hbar\left (\frac, \vec\right)
+Caractérisation
+Valeur
+Lors de sa 26 réunion, le 16 novembre 2018, la Conférence générale des poids et mesures (CGPM) a décidé qu'à compter du 20 mai 2019, le Système international d'unités, le SI, est le système d'unités selon lequel la constante de Planck, h, est strictement égale à
+, ceci afin de définir le kilogramme à partir de cette constante.
+Une grandeur associée est le « quantum d’action », également appelé « constante de Planck réduite » ou encore (parfois) « constante de Dirac », notée ħ et prononcée «
+h barre
+Dimension
+Dans sa formulation initiale, la constante apparaît comme le rapport d'une énergie (en joules) par une fréquence (en hertz), donc de dimension .
+La constante de Planck possède ainsi les dimensions d’une énergie multipliée par le temps, c'est-à-dire d'une action.
+Il est également possible d’écrire ces unités sous la forme d’une « quantité de mouvement fois une longueur ».
+De son côté, la constante réduite apparaît comme le rapport d'une énergie (en joules) par une fréquence angulaire (en radians par seconde), et s'exprime donc en .
+Malgré l'identité des unités, ce n'est cependant pas physiquement un moment angulaire, qui a un caractère pseudo-vectoriel, et dont la multiplication par une vitesse de rotation donne une énergie cinétique de rotation.
+C'est la constante par laquelle l'énergie (un scalaire d'orientation ) est divisée pour trouver la vitesse de rotation équivalente de la phase quantique.
+Incertitude
+La constante de Planck est l'une des constantes physiques pour laquelle l'incertitude est la plus grande, une incertitude relative de .
+Elle n'est dépassée sur ce plan que par la constante de Boltzmann () et la constante gravitationnelle (), et bien sûr la constante cosmologique très largement hors concours.
+Cette incertitude est à son tour un facteur d'incertitude sur d'autres constantes physiques dans la détermination desquelles elle intervient
+* la masse de l'électron, déterminée à partir de la constante de Rydberg ;
+* la charge élémentaire, calculée à partir de la constante de structure fine ;
+* le magnéton de Bohr, défini à partir de la charge et de la masse de l'électron ;
+* le nombre d'Avogadro, déterminé à partir de la masse de l'électron dans un pièges à ions de Paul et de Penning.
+Mesure
+En théorie, la constante de Planck pourrait être calculée à partir du spectre d'émission d'un corps noir, et c'est cette donnée physique qui en a fourni la première estimation faite par Planck.
+Les mesures les plus précises se fondent actuellement sur la balance du watt (qui fait intervenir les constantes de l'électron, et présuppose que la théorie sur l'effet Josephson et l'effet Hall quantique entier est correcte) et sur la mesure de la densité d'un cristal par diffraction de rayons X (qui fait intervenir le nombre d'Avogadro).
+La difficulté de la mesure est illustrée par le fait que ces deux méthodes ne donnent pas des résultats compatibles, sans que l'on puisse déterminer laquelle des deux est moins précise qu'attendu.
+Un des enjeux d'une mesure précise de la constante de Planck a été de pouvoir donner au kilogramme une définition ne dépendant plus d'un artefact, l'ancien kilogramme étalon détenu au Pavillon de Breteuil.
+Dans la mesure où l'incertitude sur la conservation de cet étalon est devenue progressivement supérieure à celle sur la constante de Planck, il devient plus précis de mesurer la masse d'un kilogramme à partir d'une valeur conventionnellement fixée de la constante de Planck (comme c'est déjà le cas pour la vitesse de la lumière), par l'une ou l'autre des méthodes ci-dessus.
+C'est désormais le cas depuis mai 2019.
+Interprétation physique
+Quantum d'action
+La physique quantique peut découler du principe suivant : il n'existe pas de système physique présentant un changement inférieur à \hbar entre deux observations.
+De là on peut montrer qu'entre deux observations séparées par un intervalle de temps Δt, la variation d'action observée étant toujours supérieure à \hbar, le produit de la variation d'énergie E par la variation de temps doit vérifier, (« à l'aide !
+») ou encore
+(« aider »).
+Représentation informatique
+La constante de Planck possède les représentations
+Unicode suivantes :
+* \hbar\, :
+U+210F (constante de Planck réduite sur 2π) ;

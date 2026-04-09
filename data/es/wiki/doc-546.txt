@@ -1,0 +1,100 @@
+PDF (sigla del inglés Portable Document Format, «formato de documento portátil») es un formato de almacenamiento para documentos digitales independiente de plataformas de software o hardware.
+Este formato es de tipo compuesto (imagen vectorial, mapa de bits y texto).
+Fue inicialmente desarrollado por la empresa Adobe Systems, oficialmente lanzado como un estándar abierto el 1 de julio de 2008 y publicado por la Organización Internacional de Estandarización (ISO) como ISO 32000-1.
+Características del PDF
+* Es multiplataforma, es decir, puede ser presentado en los principales sistemas operativos (GNU/Linux, MacOS, Unix, Windows), sin que se modifique el aspecto ni la estructura del documento original.
+* Puede contener cualquier combinación de texto, elementos multimedia como vídeos o sonido, elementos de hipertexto como vínculos y marcadores, enlaces y miniaturas de páginas.
+* Los archivos PDF no pierden el formato con el envío a otros usuarios, como sí sucede cuando se envían documentos de texto (se desordenan las páginas, se desorganizan los párrafos, etc.).
+* Es uno de los formatos más extendidos en Internet para el intercambio de documentos.
+Por ello, es muy utilizado por empresas, gobiernos e instituciones educativas.
+* Es una especificación abierta, para la que se han adaptado herramientas de software comercial como las suites ofimáticas Microsoft Office y WordPerfect Office y creado otras en software libre que permiten crear, visualizar o modificar documentos en formato PDF, como , LibreOffice y Calligra Suite así como sistemas de composición de textos (LaTeX u ConTeXt).
+* Puede cifrarse para proteger su contenido e incluso firmarlo digitalmente.
+* Un archivo PDF puede crearse desde varias aplicaciones exportando el archivo, como es el caso de y Microsoft Office .
+* Puede generarse desde cualquier aplicación mediante la instalación de una «impresora virtual» en el sistema operativo, en caso de usar aplicaciones sin esa funcionalidad integrada.
+* Es el estándar ISO (ISO 19005-1:2005) para ficheros contenedores de documentos electrónicos con vistas a su preservación de larga duración.
+* Los ficheros PDF son independientes del dispositivo, por lo que pueden imprimirse en una impresora matricial, de inyección de tinta, láser o en microfilme.
+Para la optimización de la impresión, se configuran las opciones apropiadas en la creación del fichero PDF.
+Reseña histórica
+Los archivos PDF, junto con las aplicaciones que podían ver y crear este tipo de documentos, comenzaron a desarrollarse a partir de 1991, y su adopción comercial y general era muy reducida.
+El software de las aplicaciones se distribuía como software de licencia comercial.
+En esa época el visor de documentos PDF estaba disponible de forma gratuita (freeware), pero no de forma libre.
+El cofundador de Adobe, John Warnock, introdujo el concepto de «documento de formato portátil» (PDF) en 1992 como parte de su concepto de oficina sin papeles.
+Acrobat, el software para crear o procesar el formato de archivos PDF, fue lanzado comercialmente el siguiente año (1993).
+La mayoría de los archivos PDF se pueden ver e imprimir en prácticamente cualquier computadora o dispositivo móvil.
+Versiones del formato PDF
+El formato de archivos PDF ha cambiado varias veces, relacionadas con las nuevas versiones de Acrobat que ha ido lanzando Adobe.
+Hasta el momento, se han publicado nueve versiones de la especificación de archivos PDF:
+Uso de los archivos PDF
+Los archivos PDF se utilizan para almacenar documentos, interactivos y regulares, así como mapas, gráficos, catálogos, presentaciones y libros electrónicos.
+Las versiones tempranas de los documentos PDF no tenían hipervínculos externos; por este motivo, su adopción en Internet era considerablemente reducida y no tenía mucha popularidad.
+En esos tiempos, eran comunes las conexiones lentas a Internet a través de módems telefónicos, y el tamaño de los documentos PDF era mucho más grande que otros tipos de documentos, como por ejemplo el texto simple (sin formato); por lo tanto, la banda ancha fue un factor clave para su aceptación en Internet.
+Además, ya existían otros tipos de documentos que le hacían fuerte competencia al tipo de documentos PDF, como por ejemplo, los documentos PostScript (.ps), los cuales, en esos tiempos, eran considerablemente comunes.
+Con el tiempo, el formato PDF fue adquiriendo popularidad de varias formas diferentes, como publicidad, hasta convertirse en un estándar de facto.
+Este formato es visto como una “página digital” que está lista para imprimirse exactamente como se muestra en la pantalla, sin problemas de márgenes a la hora de imprimir, a diferencia de lo que sucede en otros formatos digitales de documento.
+En los años recientes, han surgido varias aplicaciones lectoras de este tipo de archivos tales como Evince, Atril y Okular, que son de software libre, entre otras.
+Su popularidad ha abierto la posibilidad de crear documentos PDF con programas de software comercial y libre tales como Microsoft Office, WordPerfect Office, , LibreOffice y Calligra Suite.
+Otras aplicaciones, son incluso capaces de editarlos de manera directa, sin necesidad de usar la típica aplicación para crear y editar documentos PDF de Adobe.
+Tipos de archivos PDF
+Archivos de sólo imágenes
+Un archivo de sólo imágenes se presenta como una imagen de mapa de bits o una instantánea.
+Debido a que es una instantánea, cualquier texto no se puede buscar.
+Sin embargo, este formato es útil cuando las versiones digitales deben ser absolutamente fieles a las originales, como en los casos de facturas o documentos legales.
+Documentos sin etiquetas
+Los documentos sin etiquetar se han creado sin etiquetas PDF.
+Las etiquetas PDF son similares a las etiquetas utilizadas en el código HTML para hacer la búsqueda Web más accesible.
+El texto en documentos sin etiqueta es a menudo difícil de leer.
+Cuando sucede esto, aparecerá un cuadro de diálogo, dando al usuario la opción de añadir etiquetas.
+Documentos etiquetados
+Los documentos etiquetados son fáciles de encontrar a través de una búsqueda web.
+Son fáciles de leer, optimizados para ser vistos en una pantalla pequeña y capaces de ser copiados.
+Formularios electrónicos
+Los formularios PDF electrónicos ofrecen al usuario la posibilidad de guardar los datos introducidos con el teclado o copiados de un archivo existente.
+Los formularios terminados pueden ser protegidos con contraseña y guardados.
+Los formularios también pueden ser publicados en Internet o enviados a través de correo electrónico.
+Formato de archivo PDF
+Independientemente de cómo se hayan creado los archivos PDF, todos ellos comparten la misma estructura interna compuesta de cuatro partes:
+# Cabecera: información sobre la especificación del estándar PDF que se ha seguido, en donde se indica, por ejemplo, la versión.
+# Cuerpo: descripción de los elementos usados en las páginas del documento.
+# Tabla de referencias cruzadas: información de los elementos usados en las páginas del archivo.
+# Coda: indica dónde encontrar la tabla de referencias cruzadas.
+Notar que cuando un archivo PDF es modificado y se añade nuevo contenido, este tendrá nuevas secciones de cuerpo, tabla de referencias cruzadas y coda, pero al guardar este documento se puede optimizarlo para que las secciones duplicadas se fusionen en una sola y se reorganice el archivo.
+Representación del color en PDF
+El formato PDF está indicado para la impresión de documentos, ya que especifica toda la información necesaria que los definen.
+Es interesante especificar cómo se hace la representación de colores del fichero en PDF.
+En el formato PDF se especifican espacios de color, esto es la descripción de cómo hay que interpretar los colores del documento.
+Un color se define mediante uno o varios componentes numéricos y la interpretación de estos se hará según el espacio de color especificado.
+Los espacios de color pueden ser:
+Dependientes del dispositivo
+Es la forma más simple e imprecisa de reproducir colores, usada por aparatos que no disponen de gestores de color.
+Cada punto es descrito por un color que está compuesto de ciertas cantidades de colorantes.
+Para PDF existen tres espacios de colores distintos dependientes del dispositivo:
+* CMYK del dispositivo: los valores de composición de los colores son descritos por los colores primarios de pigmento CMYK (Acrónimo de “Cyan, Magenta, Yellow y Black”; Cian, Magenta, Amarillo y Negro) mediante mezcla sustractiva que es la usada en pintura y artes gráficas.
+* RGB del dispositivo: los valores de composición de los colores son descritos por los colores primarios de la luz RGB (“Rojo, Verde y Azul”) mediante mezcla aditiva.
+* Gris del dispositivo: los valores de composición de los colores son descritos por una escala acromática de blanco a negro.
+Al usar la definición de color dependiente, aunque tenga unos mismos valores del color, la reproducción de ellos variará según el dispositivo que lo reproduzca.
+Independientes del dispositivo
+Estos espacios de color están basados en los estándares de la Comisión Internacional de la Iluminación (CIE), organización internacional que estudia la luz y el color.
+Su objetivo es describir con detalle cómo ve el ser humano e intenta reproducirlos de la misma forma, independientemente del dispositivo que lo reproduzca.
+A estos colores también se les llama “calibrados”.
+Los colores son descritos mediante matrices numéricas y se modifican mediante transformaciones de valores usando las ideas de colores neutros más claros y más oscuros.
+Para PDF existen cuatro espacios de colores distintos independientes del dispositivo:
+* RGB calibrado: los valores de composición de los colores son descritos por los colorantes RGB mediante mezcla aditiva pero tanto la intensidad, tonalidad y gradación dependen de funciones decodificadoras en las que se aplica un valor gamma particular para cada colorante.
+* Gris calibrado: los valores de composición de los colores son descritos por una escala acromática de blanco a negro pero tanto la intensidad, tonalidad y gradación dependen de funciones decodificadoras en las que se aplica un valor gamma particular para el colorante.
+* Lab: espacio de color basado en CIE compuestos por “A, B y C” que se les asigna los valores L*, a* y b* del espacio de color CIELAB (espacio de color Lab).
+* Basado en ICC: basados en los espacios de color del Consorcio Internacional del Color, el cual no se basa en las entradas de los diccionarios de espacio de color sino en perfiles de color International Color Consortium (ICC).
+Espaciales
+Se utilizan métodos especiales de reproducción del color.
+* Espacios de color Separación: son espacios de color monocromos en donde se usan colorantes especiales como tintas metálicas o fluorescentes.
+* Espacios de color Dispositivo: usados para ocasiones en que los objetos necesiten utilizar más colorantes en la impresión.
+Estos espacios de color permite que los colorantes que haya en el dispositivo se traten como un espacio de color del dispositivo con varios componentes.
+Compresión en PDF
+Los archivos PDF se pueden comprimir y cada elemento del mismo es comprimido mediante uno u otro algoritmo.
+Los textos y órdenes de formato PostScript se pueden comprimir usando el algoritmo Lempel Ziv Welch (LZW) y las imágenes mediante JPEG, ZIP o RLE.
+JPEG
+JPEG (Joint Photographic Experts Group), en modo con pérdidas o sin pérdidas usado para imágenes en escala de grises o cuatricromías.
+Si se recomprime causa pérdida acumulativa de información.
+ZIP
+ZIP (Formato de compresión ZIP) realizada mediante el algoritmo LZW, sin pérdidas, en donde reemplaza secuencias repetidas por marcadores.
+Indicado para imágenes en color y escala de grises.
+RLE
+RLE (Run-length encoding) sistema sin pérdidas usado para imágenes de línea (gráfico rasterizado).

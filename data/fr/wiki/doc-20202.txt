@@ -1,0 +1,47 @@
+Logiciel
+pour Windows|Plate-forme pédagogique
+Pronote est un logiciel de gestion de vie scolaire créé en 1999 par Index Éducation.
+Selon l'entreprise, il est utilisé dans plus de , édition des bulletins et des relevés de notes, graphes, orientation, stages...)
+Les absences (absences, retards, dispenses, infirmerie...).
+* Les punitions et sanctions de l'élève en question (retenues, exclusions...).
+* L'agenda, où les professeurs notent le travail à faire pour le prochain cours.
+Le contenu des cours
+afin que les élèves puissent s'y référer.
+Espace de la vie scolaire
+Les assistants d’éducation ainsi que le conseiller principal d'éducation peuvent saisir des absences, des punitions, des retards et des sanctions ainsi qu'apporter des modifications exceptionnelles et individuelles d'emploi du temps.
+Espace administratif
+Le personnel administratif de l'établissement scolaire (4 personnes au maximum) peuvent gérer les absences des professeurs ainsi que les remplacements de professeurs et emploi du temps, .
+Espace académique
+Un inspecteur académique peut visualiser l'emploi du temps ainsi que le cahier de texte d'un professeur qu'il inspecte.
+Espace entreprise
+Un maître de stage peut visualiser l'emploi du temps, les résultats ainsi que la vie scolaire d'un élève sous sa responsabilité, il peut aussi y saisir des offres de stage.
+Espace des parents
+Les parents reçoivent un code unique leur permettant d'avoir accès aux informations suivantes :
+* Les événements à venir, comme un conseil de classe ou une réunion d'information.
+* Le calendrier scolaire avec les vacances et les jours fériés.
+L'emploi du temps de sa classe, en fonction des semaines de l'élève.
+Les parents peuvent en plus modifier les informations relatives au compte de « l'Espace élèves ».
+Espace des élèves
+Les élèves peuvent accéder à Pronote depuis leur établissement scolaire ou depuis chez eux.
+Ils peuvent ainsi consulter :
+* Les événements à venir, comme un conseil de classe ou une réunion.
+* Le calendrier scolaire avec les vacances et les jours fériés.
+* Leurs notes, leurs absences, leurs retards voir le contenu des cours.
+L'emploi du temps de leur classe, en fonction des semaines.
+* Les absences et remplacements des professeurs ainsi que les cours annulés.
+Pronote est également accessible via le web à travers .
+Les informations sont transmises en XML, ce qui fait qu'un maximum de code HTML est construit côté client, avec du JavaScript.
+Elles sont chiffrées avec l'algorithme AES durant leur communication et le déchiffrage comporte un processus de vérification.
+Les données peuvent aussi êtres chiffrées avec RSA mais le code ne semble pas être utilisé.
+Les différents espaces proposés sur sont les suivants :
+Direction Vie scolaire Élèves
+Académie
+Problèmes de sécurité
+Durant l'été 2005, mAg3, un magazine édité par le bureau DPMA
+A3 du ministère de l'Éducation nationale, révèle une faille critique dans permettant de récupérer l'intégralité d'une base de données Pronote.
+L'article souligne également la faiblesse du chiffrement des mots de passe.
+Le , le blogueur Bluetouff annonce une faille critique dans permettant de trouver les informations personnelles des élèves et parents d'élève de tout un établissement scolaire facilement ;
+mais la faille n'a toujours pas été corrigée un mois après son signalement.
+Un article a été publié sur ;
+puis, le , Index Éducation dit ne jamais avoir reçu le mail − ce qui suppose un problème de transmission du côté du ministère de l'Éducation nationale − et s'engage à corriger la faille au plus vite en échange de la suppression de l'article.
+Le , Index Éducation publie sur son site une mise à jour de Pronote qui neutralise cette faille de sécurité.

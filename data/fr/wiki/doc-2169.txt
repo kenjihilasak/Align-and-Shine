@@ -1,0 +1,49 @@
+Électrostatique|Théorie électrique|Génie énergétique
+La tension électrique est la circulation du champ électrique le long d'un circuit électrique mesurée en volts par un voltmètre.
+Elle est notée U aux bornes d'un dipôle.
+La notion de tension électrique est souvent confondue avec celle de la « différence de potentiel électrique » (DDP) entre deux points d'un circuit électrique.
+Les deux notions sont équivalentes en régime stationnaire (indépendant du temps).
+Néanmoins, dans un cas général, en régime variable (par exemple : les courants alternatifs), la circulation du champ électrique n'étant plus conservative en raison du phénomène d'induction électromagnétique, la tension et la différence de potentiel ne sont alors plus synonymes.
+De manière plus générale, l’existence d'une tension dans un circuit électrique constitué d'éléments de résistance non nulle, est la preuve de l'existence dans ce circuit d'un générateur électrique entretenant une tension à ses bornes.
+Notations de la tension électrique
+Dans le cas général, le symbole normalisé de la tension électrique est U mesuré en volts, unité dont le symbole est V.
+Différences de conventions de notations sur un schéma électrique
+Sur un schéma électrique, la tension peut être complétée par des flèches, ou des + et − pour indiquer son sens.
+Ces différences sont uniquement des différences de convention (cf. image 1).
+Notation en rapport avec le nom de l'élément mesuré
+Pour distinguer les différentes tensions dans un circuit, le U majuscule peut être accompagné d'une lettre en indice décrivant à quel élément du circuit cette tension est rattachée.
+Dans un circuit RLC, il a donc 4 tensions : U (tension aux bornes du générateur), UR (tension aux bornes de la résistance), UL (tension aux bornes de l'inductance) et UC (tension aux bornes de la capacitance).
+cf. image 2)
+Notation dans le cas particulier du courant triphasé
+En triphasé, on note les tensions composées (tensions entre phases) U et les tensions simples (tensions entre phase et neutre) V. Dans le cas du courant triphasé, il y a donc 6 tensions :
+UAB (tension entre la phase A et la phase B)
+UAC (
+tension entre la phase A et la phase C)
+UBC (tension entre la phase B et la phase C)
+VA (tension entre la phase A et le neutre)
+VB (tension entre la phase B et le neutre)
+VC (tension entre la phase C et le neutre)
+- (image 3).
+Images
+Fichier:
+- Conventions de représentation du courant et de la tension sur un dipôle récepteur.
+a : Convention recommandée selon la norme internationale IEC/CEI 60375 ed2.0
+b : Convention en usage aux États-Unis
+c : Convention en usage en France.
+Fichier:
+Seriovy_rezonancni_obvod.png|alt=
+- Tensions dans un circuit RLC :
+U, UR, UL et UC.
+Fichier
+Fresnel v u.png|alt=
+Représentation de Fresnel des tensions simples et composées pour un système équilibré direct|Image 3 : Représentation de Fresnel des tensions simples et composées pour un système équilibré direct.
+Mesure
+On peut mesurer la tension à l'aide d'un voltmètre branché en parallèle/ dérivation sur le circuit.
+Cette mesure fut découverte par Alessandro comte de la Volta.
+Définition et interprétation physique
+La tension électrique aux bornes d'un dipôle est toujours égale à la circulation du champ électrique à l'intérieur de ce dipôle.
+En d'autres termes, la tension électrique représente le travail de la force électrique (qui règne au sein du dipôle) sur une particule chargée, divisé par la valeur de la charge (dans le cas d'un générateur de tension continue, une pile par exemple, la tension électrique à vide de cette pile, appelée force électromotrice (fem), est le travail de la force électrostatique de propulsion sur les électrons).
+On parlera donc d'énergie échangée par unité de charge, qui peut être comparée, si l'on ne tient pas compte des unités, à l'énergie échangée pour une charge de .
+Son unité est donc celle d'une énergie divisée par une charge électrique, c'est-à-dire le joule par coulomb, lequel équivaut au volt.
+La nouvelle classification des domaines de tension ne fait plus la différence entre le BTA et BTB.
+Seul le domaine BT existe depuis pour couvrir les domaines de à en alternatif et de à en tension continue.

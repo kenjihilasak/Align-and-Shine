@@ -1,0 +1,86 @@
+Instrument de mesure météorologique|Thermodynamique
+Un hygromètre est un appareil qui sert à mesurer l'humidité relative de l'air (l'hygrométrie relative).
+Ces appareils utilisent la température de condensation de la vapeur d'eau dans l'air (appelée point de rosée), des modifications de la capacité ou de la résistance électrique pour mesurer les différences d'humidité.
+Le premier hygromètre brut fut inventé par le polymathe de la Renaissance italienne Leonard de Vinci en 1480.
+En 1755, Jean-Henri Lambert a créé une version plus moderne et en 1783, Horace
+Bénédict de Saussure, physicien et géologue suisse, inventa le premier hygromètre utilisant le cheveu humain pour mesurer l'humidité.
+Intérêt
+Ce paramètre est plus qu'important dans les domaines de la météorologie, de la climatisation, de certaines industries et loisirs.
+Ainsi le séchage de la peinture et diverses réactions chimiques peuvent différer selon l'humidité de l'air.
+Principaux modèles
+Hygromètre en bobine de papier métallique
+Quatre-vingt-quinze pour cent des caves à cigares
+ont un hygromètre standard en bobine de papier métallique.
+Non pas parce que c’est le meilleur, mais parce que c’est le moins cher.
+Les erreurs de mesure allant jusqu’à 20 % sont la norme.
+Une bande métallique enroulée recouverte de plastique est utilisée comme instrument de mesure qui réagit à un changement d’humidité par une variation de longueur, ce qui permet de déplacer l’indicateur.
+Hygromètre à cheveux
+L'hygromètre le plus simple est l'« hygromètre à cheveux » qui utilise la propriété du crin de cheval, ou du cheveu humain, qui s'allonge, ou se raccourcit, lorsque l'hygrométrie de l'air varie.
+L'allongement du cheveu est de l'ordre de 2 % lorsque l'humidité (relative) varie de .
+De manière anecdotique, les cheveux blonds sont plus sensibles aux variations d'humidité que les cheveux bruns.
+L'hygromètre à cheveux est peu fiable car fortement sensible à la température.
+Cependant, on peut atténuer ce problème en intégrant un système de bilame qui compense la température.
+On obtient alors une précision de ± 7 % dans une gamme de .
+Hygromètre à condensation
+Ce système fut inventé par John Frederic Daniell en 1827.
+Il est fondé sur la mesure de la température du point de rosée.
+Cet appareil sert à mesurer l'humidité dans un mélange gazeux.
+On injecte le gaz sous un débit contrôlé.
+Ce fluide entre ensuite en contact avec un miroir placé dans l'appareil.
+Un faisceau lumineux est réfléchi sur le miroir et il est envoyé à un récepteur.
+Par la suite, on refroidit le miroir jusqu'à ce que de la condensation se forme sur ce dernier, ce qui a pour effet d'atténuer la puissance du faisceau lumineux.
+Un microcontrôleur enregistre alors la température ambiante et la température du miroir (température humide).
+Avec ces deux résultats, on peut trouver l'humidité relative à l'aide d'une charte (diagramme psychrométrique) entrée dans le microcontrôleur.
+Le résultat est ensuite affiché sur un écran en pourcentage.
+Une boucle d'asservissement permet de contrôler la température du miroir et de maintenir une buée d'épaisseur constante.
+L'erreur est de ±0,3 % pour des humidités comprises entre .
+Encore aujourd'hui, il existe des modèles manuels pour lesquels l'opérateur doit vérifier de manière visuelle l'apparition de buée sur le miroir et noter les températures.
+Capteur d'impédance variable
+Hygromètre capacitif
+On mesure la capacité d'un condensateur dont le diélectrique est hydrophile.
+Pour mesurer l'humidité de l'air, on utilise généralement l'oxyde d'aluminium comme diélectrique.
+Le condensateur doit avoir une armature poreuse pour faciliter le passage de l'air dans le diélectrique.
+On utilise une électrode craquelée pour obtenir cette caractéristique.
+Un pont de Sauty relie les différentes cellules.
+Le pont est ensuite alimenté par un courant alternatif de haute fréquence (une fréquence élevée favorise une plus faible consommation d'énergie).
+La tension ainsi générée nous indique le pourcentage d'humidité.
+Cette technique de mesure offre des performances correctes (±2 % d'erreur) pour une gamme variant entre 5 et 99 % d'humidité relative.
+Cette méthode s'applique aussi aux solides.
+La capacité diélectrique de l'eau est de 80 et celle des solides est généralement inférieure à 5.
+La caractéristique diélectrique influencera donc la capacité électrique.
+En comparant la capacité d'un échantillon sec et d'un échantillon humide, on obtient une droite.
+On peut alors trouver le pourcentage d'humidité dans notre solide selon sa capacité.
+Hygromètre
+résistif
+Pour mesurer l'humidité de l'air, on emploie généralement des résistances au chlorure de lithium.
+Ce matériau hygroscopique possède une grande résistance lorsqu'il est sec et une faible résistance lorsqu'il est humide.
+Comme ce type de capteur ne permet de mesurer l'humidité que pour une faible plage, il faut raccorder plusieurs cellules qui ont une sensibilité différente.
+Comme la résistance varie avec la température, il faut employer une thermistance pour ne pas fausser les résultats.
+On obtient alors une plage qui varie de 15 % à 95 % avec une précision de ± 3 %) et sa température humide.
+Pour mesurer la température humide (ou température du thermomètre mouillé), il faut techniquement que le deuxième thermomètre soit entouré d'une mèche imbibée d'eau liquide et que l'air humide en contact avec ce thermomètre s'écoule autour de celui-ci avec une vitesse suffisante.
+Ainsi, en régime permanent, le séchage de la mèche humide provoque une baisse de température isenthalpique jusqu'à saturation de l'air en contact immédiat avec le thermomètre.
+Les deux thermomètres doivent être bien ventilés pour prendre les caractéristiques de la masse d'air et non celle de l'environnement immédiat qui peut subir un effet de serre.
+Le psychromètre peut donc être placé dans un abri météorologique ventilé ou être monté sur une fronde mise en rotation au bout d'une ficelle, d'une chainette ou à l'aide d'un léger châssis que l'observateur fait tourner.
+La différence entre ces deux températures données par le psychromètre permet d'accéder à l'ensemble des données énergétiques de l'air humide et en particulier son humidité relative.
+L'utilisation d'un abaque permet de connaitre l'humidité relative.
+La différence de température peut atteindre plusieurs degrés Celsius.
+Méthode gravimétrique
+Cette méthode est utilisée pour mesurer l'humidité des solides ou des gaz.
+On doit d'abord peser un échantillon.
+Par la suite, on chauffe la matière et on la pèse une nouvelle fois.
+En soustrayant la nouvelle masse de la masse de départ, on peut déterminer la quantité d'eau qui était présente.
+On trouve donc l'humidité absolue.
+Cette méthode est surtout utilisée pour étalonner les appareils de grandes précisions.
+Étalonnage
+Les hygromètres sont étalonnés avec différents types de sels.
+Lorsqu'on sature un environnement en sel, l'humidité relative ne peut pas dépasser une certaine valeur.
+Les principaux sels utilisés sont le chlorure de sodium qui donne une humidité relative de 75 %, le chlorure de lithium qui donne une humidité relative de 11 %, le chlorure de magnésium qui donne une et le sulfate de potassium qui donne une humidité relative de 97 %.
+Pour effectuer l'étalonnage, on doit mélanger ces sels avec un peu d'eau et placer cette solution de manière étanche autour de la sonde.
+Il faut s'assurer que l'hygromètre ne touche pas à la solution saline durant cette opération.
+Après plusieurs minutes, l'hygromètre devrait afficher le pourcentage qui correspond au sel employé.
+Si ce n'est pas le cas, on doit corriger à l'aide des vis d'ajustement.
+Pour avoir un résultat linéaire, on doit répéter l'opération avec un autre type de sel.
+Ces étalonnages par les sels ont une .
+Difficultés de mesures
+La pollution, la condensation et le vieillissement sont tous des facteurs qui nuisent à l'exactitude des résultats.
+Les appareils mentionnés plus haut ont un temps de réponse très lent lorsqu'ils passent d'un environnement saturé (100 %) en eau à un environnement d'humidité plus faible.

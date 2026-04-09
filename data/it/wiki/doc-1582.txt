@@ -1,0 +1,45 @@
+In matematica la fattorizzazione è la riduzione in fattori:
+fattorizzare un numero intero positivo n significa trovare un insieme di numeri interi positivi \ tali che il loro prodotto sia il numero originario (n = a_0 \times a_1 \times a_2 \times a_3 \times \dots).
+I numeri interi di poche cifre si possono fattorizzare velocemente a mano aiutandosi con i criteri di divisibilità o, per numeri di qualche decina di cifre, con un computer.
+Per numeri con più di un centinaio di cifre il problema di fattorizzazione rimane tuttavia un problema complesso nonché un argomento di ricerca fondamentale per la teoria dei numeri computazionale e la crittografia.
+Numeri primi e fattorizzazione
+Innanzitutto bisogna tenere presente che un qualunque numero intero ha infinite fattorizzazioni:
+lo si può infatti moltiplicare quante volte si vuole per 1.
+In pratica, però, non si considerano i fattori 1 nella fattorizzazione:
+è questa tra l'altro la ragione per cui si preferisce non considerare 1 come un numero primo.
+La maggior parte dei numeri ha comunque svariate fattorizzazioni possibili:
+ad esempio,24
+2\times
+3\times
+2\times 2\times 2\times 3.
+Per convenzione, ci si concentra su una sola tra tutte queste, che è anche la più importante:
+la fattorizzazione in numeri primi, che consiste nel cercare un insieme di fattori del numero che siano tutti primi (generalmente indicati con \ per ricordare la loro primalità).
+Per il teorema fondamentale dell'aritmetica, ogni numero intero ha una ed una sola fattorizzazione in numeri primi.
+Ad esempio
+12 = 2^2 \times 3^
+52 = 2^2 \times 13^
+3300 = 2^2 \times 3^1 \times 5^2 \times 11^1
+Metodi di fattorizzazione
+Nel corso della storia sono stati ideati molti algoritmi per rendere la fattorizzazione un problema sempre più veloce.
+Il problema però rimane tuttora un problema complesso.
+Tra i metodi utilizzati vi sono i seguenti:
+* metodo forza bruta:
+si divide n per tutti i numeri che gli sono minori.
+Il costo operativo nel caso peggiore è O (n)
+* metodo forza bruta migliorato:
+si considerano solo i numeri primi minori o uguali alla radice quadrata del numero (possono essere generati efficientemente con un crivello di Eratostene), si prova a dividere il numero n per il minore di questi, se non risulta divisibile si procede con il successivo e così via, si procede allo stesso modo con il risultato ottenuto e si ripete la stessa sequenza fino a quando si ottiene quoziente 1.
+Se tutti i numeri primi minori della radice quadrata di n sono stati provati e nessuno di loro è un divisore, n stesso è un numero primo.
+Il costo operativo nel caso peggiore è O (√n) (nell'assunzione poco reale di un modello di costo a costi costanti).
+* metodi di fattorizzazione basati su curve ellittiche (ECM, dall'inglese Elliptic Curve Method):
+uno dei più noti è quello di Lenstra, che si basa su idee già contenute nell'algoritmo (p-1) di Pollard.
+Insieme all'algoritmo di Pollard-Strassen e al crivello dei campi di numeri generale è a tutt'oggi (2007) uno dei più veloci metodi totalmente deterministici.
+* metodi probabilistici:
+tra di essi ci sono gli algoritmi di Schnorr-Lenstra e di Lenstra-Pomerance.
+Nel 1994 Peter Shor ha sviluppato un algoritmo di fattorizzazione polinomiale (cubico, per la precisione).
+Questo algoritmo, noto come algoritmo di fattorizzazione di Shor, richiede tuttavia un computer quantistico.
+Implementazione dell'algoritmo
+Segue un'implementazione dell'algoritmo per la fattorizzazione in numeri primi.
+Fattorizza 'value'
+e salva il risultato in 'res'
+void factorize (char
+bool is_prime (int value)

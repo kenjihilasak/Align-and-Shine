@@ -1,0 +1,33 @@
+Effet Joule
+L'effet Joule est une propriété de l'électricité très utilisée pour chauffer.
+Lorsqu'un courant électrique passe dans un fil conducteur, celui-ci s'échauffe.
+Cet échauffement est très différent selon la taille du fil et l'intensité du courant.
+Le courant électrique est transporté dans des fils électriques.
+Toutefois, le fil qui transporte l'électricité pour un chargeur de téléphone et ceux qui sont utilisés pour relier deux batteries d'automobile ensemble (quand on est en panne de batterie) n'ont pas la même épaisseur : en effet, l'intensité électrique (la valeur du courant) transporté n'est pas la même dans les deux cas.
+Alors que le fil d'un chargeur transporte un courant de quelques milliampères (mA), les câbles de démarrage véhiculent des courants de l'ordre de la centaine d'ampères.
+Un savant du nom de James Prescott Joule a montré que l’échauffement des conducteurs dépendait du carré de l'intensité du courant.
+Si on multiplie par 10 le courant dans un même câble, on augmente l'échauffement par 100.
+C'est la raison pour laquelle les fils électriques qui transmettent ces courants sont très différents : lorsqu'on veux réduire au minimum l'effet joule pour éviter de perdre de l'énergie, plus le courant électrique est important plus le fil électrique qui sert à son transport doit être épais1.
+À cause de cela
+lorsque l'on fait passer un courant de grande intensité dans un minuscule filament, ce dernier devient très chaud.
+Il peut devenir si chaud qu'il en devient incandescent.
+C'est pourquoi les fils d'un grille-pain peuvent devenir rouges.
+Cette propriété est utilisée pour fabriquer les ampoules à incandescence.
+On note par I la valeur de l'intensité du courant qui traverse la résistance R
+On note par U la tension aux bornes de la résistance R
+Si deux grandeurs sont connues, on peut calculer la puissance électrique P qui est transformée en chaleur par la résistance avec l'une des formules :
+P=RI2{\displaystyle P
+=RI^{2}\
+,} : c'est la formule la plus pratique quand la résistance R est en série avec d'autres dipôles.
+P=U2R{\displaystyle P={\frac {U^{2}}{R}}\,} : c'est la formule la plus pratique quand la résistance R est reliée directement aux bornes d'un générateur ou du réseau d'alimentation (par exemple les radiateurs électriques).
+P=U⋅I{\displaystyle P=U\cdot I\,} : c'est la formule la plus pratique quand la valeur de la résistance R n'est pas connue.
+Dans les circuits électroniques, comme par exemple celui d'un ordinateur, l'effet joule produit de la chaleur qu'il faut évacuer à l'aide de ventilateurs.
+Le bruit d'un ordinateur est provoqué par les divers ventilateurs qui refroidissent la puce du processeur.
+Si on fait fonctionner un processeur sans le refroidir, celui-ci fond en moins d'un dixième de seconde.
+C'est surtout vrai avec les puces récentes.
+Plus il y a d'opération à la seconde (mesuré en mégahertz), plus il y a de courant qui circule et plus la puce chauffe.
+C'est vrai pour tous les appareils électroniques : ils doivent tous être refroidis d'une manière ou d'une autre car il est impossible de se débarrasser de l'effet joule sauf dans des cas très particuliers, comme au zéro absolu, ou dans les supra conducteurs.
+↑En
+réalité
+, une autre grandeur doit être prise en compte : c'est la résistance, que l'on peut imaginer comme le pouvoir de « freinage du courant » du conducteur.
+Plus la résistance d'un matériau est élevée, moins bien passe le courant, et plus il y a d'effet Joule.

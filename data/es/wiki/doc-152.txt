@@ -1,0 +1,72 @@
+En geometría, un polígono es una figura geométrica plana compuesta por una secuencia finita de segmentos rectos consecutivos que encierran una región en el plano.
+Estos segmentos son llamados lados, y los puntos en que se intersecan se llaman vértices.
+El polígono es el caso bidimensional del politopo.
+Etimología
+La palabra polígono deriva del griego antiguo πολύγωνος (polúgonos), a su vez formado por πολύ (polú) ‘muchos’ y γωνία (gōnía) ‘ángulo’, aunque hoy en día los polígonos son usualmente entendidos por el número de sus lados.
+La noción geométrica elemental ha sido adaptada de distintas maneras para servir a propósitos específicos.
+A los matemáticos a menudo les interesan sólo las líneas poligonales cerradas y los polígonos simples (aquellos en los cuales sus lados sólo se intersecan en los vértices), y pueden definir un polígono de acuerdo a ello.
+Es requisito geométrico que dos lados que se intersecan en un vértice formen un ángulo no llano (distinto a 180°), ya que de otra manera los segmentos se considerarían partes de un único lado; sin embargo, esos vértices podrían permitirse algunas veces por cuestiones prácticas.
+En el ámbito de la computación, la definición de polígono ha sido ligeramente alterada debido a la manera en que las figuras son almacenadas y manipuladas en la computación gráfica para la generación de imágenes.
+Definición
+La definición del polígono depende del uso que se le quiera dar, así por ejemplo para hacer referencia a una región del plano se tiene:
+* Llamaremos polígono a la porción del plano delimitada y encerrada por una línea poligonal.
+Para hacer referencia al estudio euclidiano de las longitudes de los lados de un polígono, se tiene
+* Llamaremos polígono a una figura geométrica plana definida por una línea poligonal de la cual sus dos extremos coinciden.
+Para desarrollar un concepto didáctico del polígono, se tiene:
+* Llamaremos polígono al conjunto de puntos y segmentos que unen sucesivamente dichos puntos.
+En esta última definición se suele evitar los puntos consecutivos alineados.
+Línea poligonal
+Se denomina línea poligonal o línea quebrada al conjunto de segmentos, s_1, \dots , s_n, unidos sucesivamente por sus extremos donde el extremo de cada uno es origen del siguiente, tal que dos segmentos sucesivos no están alineados, en tal caso se considera ambos como un único segmento.
+:Línea poligonal = \bigcup_ s_i.
+Sean P_i y P_ los extremos de s_i, entonces:
+* Si los dos extremos libres, P_1 y P_, no coinciden se dice que la línea poligonal es abierta.
+Elementos de un polígono
+En un polígono se distinguen los siguientes elementos geométricos:
+* Lados del polígono: son cada uno de los segmentos que conforman el polígono.
+* Vértices de un polígono: son los puntos de intersección o puntos de unión entre lados consecutivos.
+* Diagonales del polígono: son segmentos que une dos vértices, no consecutivos, del polígono.
+* Ángulo interior del polígono: es el ángulo formado, internamente al polígono, por dos lados consecutivos.
+* Ángulo exterior del polígono: es el ángulo formado, externamente al polígono, por uno de sus lados y la prolongación del lado consecutivo.
+* Ángulo entrantes del polígono: es el ángulo interior al polígono que miden más de 180º.
+* Ángulo salientes del polígono: es el ángulo interior al polígono que miden menos de 180º.
+En un polígono regular se puede distinguir, además:
+* Centro (C): es el punto equidistante de todos los vértices y lados.
+* Ángulo central (AC): es el ángulo formado por dos segmentos de recta que parten del centro a los extremos de un lado.
+* Apotema (a): es el segmento que une el centro del polígono con el centro de un lado; es perpendicular a dicho lado.
+Diagonal (d_i): son los segmentos que unen los vértices del polígono no consecutivamente.
+Formulario
+* Perímetro (P): es la suma de las longitudes de todos los lados del polígono.
+Intersecciones de diagonales N_I =\frac, en un polígono de n vértices.
+* Todo polígono regular de n lados, puede ser descompuesto en un conjunto ordenado de n-2 triángulos, con un vértice común y la suma de las áreas de los triángulos sea igual al área del polígono.
+Clasificación
+Existen varias clasificaciones posibles de los polígonos.
+Para ver una clasificación basada en su número de lados, vea la tabla inferior.
+Clasificación de los polígonos según su contorno
+Según las propiedades que cumpla el contorno del polígono, es posible realizar las siguientes clasificaciones.
+* Simple, si ningún par de aristas no consecutivas se corta.
+Equivalentemente, su frontera tiene un solo contorno.
+* Complejo o Cruzado, si dos de sus aristas no consecutivas se intersecan.
+* Convexo, si todo segmento que une dos puntos cualesquiera del contorno del polígono yace en el interior de este.
+Todo polígono simple y con todos sus ángulos internos, menores que 180º es convexo.
+* No convexo, si existe un segmento entre dos puntos de la frontera del polígono que sale al exterior del mismo.
+O si existe una recta capaz de cortar el polígono en más de dos puntos.
+* Equilátero, si tiene todos sus lados de la misma longitud.
+* Equiángulo, si tiene todos sus ángulos interiores iguales.
+* Irregular, si no es regular.
+Es decir, si no es equilátero o equiángulo.
+* Cíclico, si existe una circunferencia que pasa por todos los vértices del polígono.
+Todos los polígonos regulares son cíclicos.
+* Ortogonal o Isotético, si todos sus lados son paralelos a los ejes cartesianos x o y.
+* Alabeado, si sus lados no están en el mismo plano.
+* Estrellado, si se construye a partir de trazar diagonales en polígonos regulares.
+Se obtienen diferentes construcciones dependiendo de la unión de los vértices: de dos en dos, de tres en tres, etc.
+* Reticular es simple y, al representarlo en un reticulado, cada vértice yace exactamente en un vértice de cuadrado unitario del reticulado (en este caso funciona la fórmula de Pick).
+* Monótono, si existe alguna dirección del plano en la cual todos los cortes del polígono en esa dirección consisten en un punto o un segmento.
+Archivo:Simple polygon.svg|Polígono simple, cóncavo e irregular.
+Archivo:Complex polygon.svg|Polígono complejo, cóncavo e irregular.
+Archivo:Decagon.svg|Polígono convexo y regular (equilátero y equiángulo).
+Archivo:Bahai star.svg|Polígono estrellado.
+Nombres de polígonos según su número de lados
+Los polígonos tienen un nombre especial para designar el número de lados del mismo.
+Los nombres más comunes están en la siguiente tabla:
+Véase también

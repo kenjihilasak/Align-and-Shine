@@ -1,0 +1,107 @@
+Préordre
+Une relation d’ordre dans un ensemble est une relation binaire dans cet ensemble qui permet de comparer ses éléments entre eux de manière cohérente.
+Un ensemble muni d’une relation d’ordre est un ensemble ordonné.
+On dit aussi que la relation définit sur cet ensemble une structure d'ordre ou tout simplement un ordre.
+Définitions et exemples
+Relation d'ordre
+Une relation d'ordre est une relation binaire réflexive, antisymétrique et transitive :
+soit E
+un ensemble ;
+une relation interne ≤ sur E est une relation d'ordre si pour tous x, y et z éléments de E :
+La forme même de ces axiomes permet d'affirmer que ces derniers sont également vérifiés par la relation binaire réciproque ≥, définie par
+y ≥ x si et seulement si x ≤ y.
+À toute relation d'ordre est donc associée une relation d'ordre opposée sur le même ensemble ;
+les formules x ≤ y et y ≥ x se lisent indifféremment : « x est inférieur à y », ou « x est plus petit que y », ou « y est supérieur à x », ou « y est plus grand que x » à » est une relation d'ordre total sur l'ensemble des entiers (naturels ou relatifs), sur l'ensemble des rationnels ou l'ensemble des réels.
+* Étant donné un ensemble ordonné (E, ≤), l'ordre lexicographique sur l'ensemble des n-uplets d'éléments de E est l'« ordre du dictionnaire », plus simple à définir par son ordre strict associé : (x, … , x) Étant donnée une famille (E) d'ensembles ordonnés, l'ordre naturel sur l'ensemble produit ∏E est lordre produit, défini par :Par exemple sur l'ensemble E des fonctions de I dans un ensemble ordonné E, l'ordre produit est donné par : f ≤ g si pour tout i ∈ I, f (i) ≤ g (i).
+Pour l'ordre produit sur ℝ, une fonction est plus petite qu'une autre si sa courbe est toujours en dessous de l'autre courbe.
+On peut généraliser l'ordre lexicographique (mentionné en début de liste) de la façon suivante : si I est bien ordonné, on définit un ordre sur ∏E par :Si les ordres sur les E sont totaux, l'ordre lexicographique sur ∏E l'est aussi (mais pas en général l'ordre produit).
+Une relation de préordre n'est pas une relation d'ordre en général car il manque la propriété d'antisymétrie.
+Mais tout quotient d'un préordre par la relation d'équivalence associée est un ordre.
+Une relation d'ordre strict sur un ensemble non vide n'est pas une relation d'ordre car elle n'est pas réflexive.
+Mais si < est un ordre strict sur E, la relation « x < y ou x = y » est un ordre sur E.
+Une relation d'ordre cyclique n'est pas une relation d'ordre car c'est une relation ternaire.
+Mais les relations binaires obtenues en fixant l'un de ses trois arguments sont des relations d'ordre strict.
+Un arbre enraciné est un graphe orienté acyclique associé à une relation d'ordre partiel particulière, importante en informatique.
+Notions associées
+Applications monotones
+Si et sont deux ensembles ordonnés, une application de dans est dite croissante (ou parfois croissante au sens large, ou isotone) quand elle conserve l'ordre, décroissante (au sens large), ou antitone.
+Une application monotone ou monotone au sens large (resp.
+strictement monotone) est une application croissante ou décroissante (resp.
+strictement croissante ou strictement décroissante).
+La bijection réciproque d'une bijection croissante n'est pas nécessairement croissante (prendre par exemple l'application identité, de
+ℝ muni de l'ordre d'égalité
+dans
+ℝ muni de l'ordre usuel)
+Elle l'est cependant si ≤ est total (si alors, par croissance de , .
+Donc par contraposée : si et si ≤ est total alors ).
+Un isomorphisme entre deux ensembles ordonnés et est une bijection de dans qui est croissante et dont la réciproque est croissante, ce qui revient à dire que est bijective et vérifie pour tous et de :
+: .
+Un plongement d'ensembles ordonnés de dans est une application de dans vérifiant pour tous et de :
+(une telle application est forcément injective).
+Les isomorphismes d'ordres sont donc les plongements surjectifs, et les isomorphismes sont, par conséquent, ceux introduits ci-dessus.
+Plus grand élément et élément maximal
+Dans un ensemble ordonné E, il n'existe pas forcément de plus grand élément.
+Si E est fini, il contiendra (au moins) un élément maximal.
+Si E est un ensemble inductif infini, le lemme de Zorn garantit encore l'existence d'un élément maximal.
+Relation d'ordre strict
+On a vu qu'à une relation d'ordre ≤ sur un ensemble E, on associait naturellement une relation < sur E, qui est alors une relation d'ordre strict, c'est-à-dire antiréflexive (x < x n'est vrai pour aucun élément x de E) et transitive.
+Or toute relation d'ordre strict est antisymétrique et même asymétrique (ce qui équivaut à : antisymétrique et antiréflexive), c'est-à-dire que pour tous x et y :
+:x < y ⇒ non (y < x).
+Par conséquent, réciproquement, à toute relation d'ordre strict < sur E, on peut associer une relation d'ordre ≤ sur E en posant :
+:x ≤ y si et seulement si x < y ou x = y.
+On vérifie facilement qu'en mettant bout à bout ces deux constructions, à partir d'un ordre ou d'un ordre strict, on retrouve la relation de départ.
+Choisir l'une ou l'autre des axiomatisations n'a donc pas d'importance en soi.
+Pour un ordre strict, la totalité s'exprime ainsi :
+∀ x, y ∈ E ( x < y ou x = y ou y < x ).
+et l'on dit alors que c'est une relation d'ordre strict total
+Il n'y a pas de confusion possible avec la notion de relation totale, car les relations d'ordre strict sont antiréflexives, tandis que les relations totales sont réflexives.
+Pour un ordre strict total, les trois possibilités
+- x < y, x = y et y < x
+- sont exclusives, et l'on parle parfois, à la suite de Cantor, de propriété de trichotomie.
+Relation acyclique
+La clôture réflexive transitive d'une relation R est une relation d'ordre
+- ou encore : la clôture transitive de R est antisymétrique
+- si et seulement si R est acyclique.
+La clôture transitive de R est un ordre strict si et seulement si R est strictement acyclique, c'est-à-dire si son graphe est acyclique.
+Négation (ou complémentaire) d'une relation d'ordre
+La négation d'une relation binaire R définie sur un ensemble A est la relation de graphe le complémentaire de celui de R dans A \times
+On la note \not\!
+Dit autrement, deux éléments sont en relation par \not\!
+R si et seulement s'ils ne le sont pas
+par R.
+Dire qu'un ordre est total, c'est dire que sa négation est l'ordre strict inverse.
+C’est-à-dire qu'il y a équivalence pour un ordre \leqslant entre :
+Par contre
+, dès qu'il existe deux éléments distincts non comparables par un ordre, sa négation ne peut être un ordre (strict ou large), car elle n'est pas antisymétrique.
+La négation d'un ordre non total n'est donc jamais un ordre.
+Par exemple, la négation de l'inclusion ⊄ sur l'ensemble des parties d'un ensemble d'au moins deux éléments n'est pas un ordre, car, si a ≠ b, on a toujours ≠ avec cependant ⊄ et ⊄.
+Ordre dual
+Lordre dual (ou ordre opposé.
+Le bidual (P) de P est égal à P.
+Préordre
+Un préordre est une relation binaire réflexive et transitive.
+Tout préordre ℛ
+sur un ensemble induit une relation d'ordre sur l'ensemble quotienté par la relation d'équivalence ~ définie par « »
+Pour plus de précisions et des exemples, voir l'article détaillé.
+Propriétés complémentaires
+Compatibilité
+La compatibilité d'une relation d'ordre avec une structure algébrique ne se définit qu'au cas par cas.
+Un ordre ≤ sur un demi-groupe (G, +) est dit compatible si, pour tous x, y et z dans G tels que x ≤ y, on a x + z ≤ y + z et z + x ≤ z + y.
+Lorsque (G, +) est un groupe, on dit alors que (G, +, ≤) est un groupe ordonné, et qu'un élément est positif s'il est supérieur à l'élément neutre.
+Tout groupe totalement ordonné archimédien est abélien et se plonge dans (ℝ, +, ≤).
+Un anneau ou un corps (A, +, ×) est dit ordonné s'il est muni d'un ordre ≤ tel que (A, +, ≤) soit un groupe ordonné et que le produit de deux éléments positifs soit positif.
+Tout corps totalement ordonné archimédien se plonge dans (ℝ, +, ×, ≤).
+Dans un corps totalement ordonné, -1 n'est jamais un carré ni même une somme de carrés.
+Un est un espace vectoriel réel (E, +, ∙) muni d'un ordre ≤ tel que (E, +, ≤) soit un groupe ordonné et que tout vecteur produit d'un réel positif par un vecteur positif soit positif.
+Ensemble bien ordonné
+Un ensemble ordonné est dit bien ordonné si tout sous-ensemble non vide de cet ensemble possède un plus petit élément.
+Treillis
+Un ensemble est appelé treillis s'il est ordonné et si tout couple d'éléments possède une borne supérieure et une borne inférieure.
+Applications
+Topologie de l'ordre
+Un ensemble ordonné peut être muni de plusieurs topologies issues de l'ordre : la topologie de l'ordre, la topologie de l'ordre à droite et la topologie de l'ordre à gauche.
+Liens avec les complexes simpliciaux
+Une classe importante de complexes simpliciaux provient d'ensembles ordonnés finis.
+On définit le complexe d'ordre D (P) d'un ensemble ordonné fini P comme étant l'ensemble des chaînes de P.
+Le complexe d'ordre est trivialement un complexe simplicial.
+L'étude de l'ensemble ordonné en lui-même donne des informations sur son complexe d'ordre, et il est donc intéressant d'étudier un complexe simplicial comme le complexe d'ordre d'un ensemble ordonné.

@@ -1,0 +1,275 @@
+Dispositif à fusion thermo
+-nucléaire|Tokamak
+Un tokamak est une chambre torique de confinement magnétique destinée à l'étude des plasmas et notamment pour étudier la possibilité de la production d'énergie par fusion nucléaire.
+C'est une technologie candidate pour permettre à long terme la production d'électricité en récupérant la chaleur qui serait produite par la réaction de fusion nucléaire.
+Inventé au début des années 1950 par les physiciens Soviétiques Igor Tamm et Andreï Sakharov sur une idée originale du physicien Oleg Lavrentiev, l’acronyme tokamak vient du russe « » (toroidalnaïa kamera s magnitnymi katushkami : en français, chambre toroïdale avec bobines magnétiques).
+On rencontre
+- plus rarement
+- la graphie tokomak.
+Le premier tokamak, dénommé T1, a été construit à l'institut Kurchatov à Moscou.
+Le futur tokamak d'Iter mesurera de haut pour de diamètre et pèsera approximativement .
+Principe
+À l'intérieur du tokamak, l'énergie qui est générée par la fusion des noyaux atomiques est absorbée sous forme de chaleur par les parois de la chambre vide.
+Tout comme les centrales électrogènes classiques, une centrale de fusion utilise
+cette chaleur pour produire de la vapeur, puis, grâce à des turbines et des alternateurs, de l'électricité.
+La fusion nucléaire permet à partir de deux atomes très légers (par exemple le deutérium et le tritium) de créer des atomes plus lourds.
+La réaction ne pourra jamais s'emballer car ce n'est pas une réaction en chaîne.
+La moindre poussière dans le tokamak stoppera la réaction.
+Cette transformation produit un défaut de masse qui se manifeste sous forme d'énergie (
+E = mc où E est l'énergie produite en joules, m la masse disparue en kg, et c la célérité de la lumière dans le vide, en m/s).
+Cet excès d'énergie pourrait se transformer en excès de chaleur, qui par convection pourrait être convertie en électricité au moyen d'une turbine à vapeur couplée à un alternateur ;
+l'Iter vise l'utilisation d'un mélange deutérium-tritium (D-T) équimolaires.
+Conditions nécessaires
+La fusion nucléaire nécessite que 2 noyaux se rencontrent.
+Il faut donc :
+* que les atomes soient débarrassés de leur enveloppe électronique : c'est le plasma
+* que ces noyaux soient amenés à se percuter : c'est le confinement,
+* que la percussion soit suffisamment violente pour que les atomes fusionnent (sinon, ils se repoussent car chargés positivement) : c'est la température.
+Un autre critère est la vitesse de refroidissement naturelle du plasma lorsqu'on arrête de le chauffer.
+Plus le plasma est volumineux plus le rapport «
+nombre d'atomes à la surface » sur le «
+nombre d'atomes à l'intérieur » diminue.
+Au bout du compte il garde mieux sa chaleur et met plus de temps à se refroidir.
+Ce temps de refroidissement est appelé « temps de confinement » et explique notamment la course au gigantisme des tokamaks.
+Création d'un plasma
+Une réaction de fusion s'obtient lorsque 2 noyaux atomiques se rencontrent.
+Or, à l'état naturel sur Terre, les noyaux sont entourés d'un nuage électronique, le tout formant un atome.
+Le noyau est chargé positivement et le nuage électronique, négativement (l'atome est globalement neutre).
+Comme les pôles sud ou nord d'un aimant se repoussent, les nuages électroniques se repoussent et forment une carapace de protection pour les noyaux.
+La première étape consiste à séparer les noyaux de leur nuage électronique.
+Deux méthodes existent : soit abaisser la pression (comme dans les néons), soit chauffer le gaz (comme dans une flamme).
+La deuxième étape consiste à remplir une chambre avec un gaz de deutérium/tritium (les réactifs) sous une très faible pression (seuls quelques grammes de matières suffisent à « remplir » uniformément la chambre du tokamak).
+Dans ce cas, le confinement est mécanique.
+Le gaz est ensuite chauffé par micro-ondes (même principe que l'appareil domestique) : il va commencer à perdre des électrons.
+Les températures atteintes par le plasma vont rapidement devenir dangereuses pour les matériaux de la paroi de la chambre.
+Confinement du plasma
+L'enjeu est de contrôler un plasma au cœur du tokamak, dans un volume limité et assez éloigné de tout élément solide, notamment la paroi de la chambre (qui brûlerait ou fondrait instantanément sous la chaleur).
+Le concept initial est simple : confiner les particules dans un espace réduit, à l'intérieur de la chambre (le plasma sera alors séparé des parois par du vide).
+Le confinement radial (solénoïde)
+Le plasma est constitué de particules chargées (ions et électrons) ;
+or ces dernières sont très facilement confinables dans un champ magnétique, car elles ne peuvent bouger que perpendiculairement à ce dernier.
+On fait donc en sorte que la chambre devienne un long tube, entouré d'une bobine de fil électrique formant un solénoïde.
+Ce solénoïde crée un champ radial (le long du rayon du tube) et, grâce à la force de Lorentz, les particules ne peuvent plus bouger que dans la direction perpendiculaire : l'axe du tube.
+Cette direction correspond à une ligne de champ magnétique.
+Ce champ magnétique va pousser les particules vers les extrémités du tube : ions d'un côté, et électrons de l'autre.
+Pour être plus précis il faut aussi considérer que :
+* les particules vont se déplacer non pas en ligne droite, mais en spirale le long de la ligne de champ.
+* le solénoïde n'a pas besoin d'être continu.
+Dans la pratique, on utilise des bobines de Helmholtz, qui ont plusieurs avantages (plus simples à construire, et elles permettent d'ajourer le solénoïde pour pouvoir accéder plus facilement à la chambre interne).
+Le confinement en tore (champ toroïdal)
+On n'a donc résolu que la moitié du problème du confinement, car on n'a pas fait de confinement aux extrémités du tube.
+Pour pallier ce problème, on referme le tube sur lui-même, créant un tore.
+Ce dispositif a cependant un inconvénient : le champ magnétique n'est pas aussi homogène que dans un solénoïde.
+Les spires du bobinage, au niveau du grand rayon du tore (l'extérieur) sont moins serrées que les spires à l'intérieur : plus la matière s'éloigne du centre du tore, moins elle est soumise au champ magnétique.
+Trois phénomènes apparaissent :
+* le plasma va avoir tendance à s'aplatir le long du petit rayon du tore.
+Ainsi, la section du tore (initialement circulaire) va devenir un cercle aplati : c'est-à-dire une « poloïde » ;
+* les particules parcourent le tore, la force centrifuge va les forcer à aller vers l'extérieur, où le champ magnétique est plus faible ;
+* les particules se déplaçant également en spirale, le long de leur déplacement, elles ne sont pas à une distance constante du centre du solénoïde.
+Finalement, ces deux derniers phénomènes vont décaler la spirale de manière qu'après un tour les particules ne se retrouvent plus au même endroit : elles se sont décalées perpendiculairement au tore (toujours dans des sens opposés selon qu'on regarde les ions ou les électrons).
+Le confinement poloïdal
+Il faut donc un troisième confinement qui force les particules à reboucler au même endroit après un tour.
+La solution est de faire vriller le plasma.
+Il faut alors créer une force capable de faire tourner le tore de particules sur lui-même (faire en sorte que le grand rayon devienne le petit rayon et vice versa).
+Deux solutions existent :
+* tordre mécaniquement le tore en utilisant des aimants dont la forme est très complexe.
+C'est la solution retenue dans un Stellarator.
+* tordre magnétiquement le tore avec un champ qui suit le cercle défini par la section interne du tore (solution retenue dans le tokamak).
+Pour créer ce champ magnétique qui tourne autour du tore, les équations de Lorentz impliquent qu'un courant électrique doit circuler le long du tore.
+Le plasma étant ionisé, il forme naturellement un conducteur en forme d'anneau.
+On va alors considérer cet anneau comme le secondaire d'un transformateur constitué d'une spire.
+Concentriquement au tore et tout autour de ce dernier on va disposer des bobines circulaires pour former le primaire du transformateur.
+Le courant alimentant ces bobines sera donc alternatif avec une fréquence de l'ordre du hertz.
+On aurait pu appeler ce champ champ circulaire, or, comme vu dans le paragraphe précédent, le tore d'un tokamak est aplati en son centre, sa section n'est plus un cercle mais un cercle aplati, qui est une variété de poloïde.
+C'est pourquoi le terme utilisé est champ poloïdal.
+Turbulences
+Malgré le soin apporté au confinement magnétique, le plasma est un fluide sujet à des turbulences microscopiques et macroscopiques, qui ont des conséquences très importantes.
+Les turbulences microscopiques, liées aux chocs des particules entre elles brassent le plasma et contribuent à le refroidir (comme on tourne la cuillère dans son potage).
+Les températures élevées du plasma font que ces turbulences ont un impact non négligeable sur le temps de confinement et donc l'efficacité globale du réacteur.
+Les turbulences macroscopiques surviennent lorsque c'est tout le plasma qui bouge.
+il peut osciller, se rapprocher de la paroi, voire être parcouru par des vagues.
+Si de la matière entre en contact avec les parois , on parle de perte de confinement (confinement disruption en anglais) ou plus généralement disruption.
+Or, si les protubérances touchent la paroi du tokamak, cette dernière va se voir très fortement chauffée et parcourue par d'intenses courants électriques (liés aux courants induits par les bobines poloïdales).
+Les conséquences peuvent aller jusqu'à la perte de l'intégrité du réacteur.
+Le chauffage du plasma
+Pour produire une réaction de fusion nucléaire, il faut chauffer la matière à de très hautes températures (environ 150 millions de degrés Celsius).
+Dans ces conditions, les électrons se détachent complètement de leur noyau
+- on dit que l'atome s'ionise.
+La matière entre alors dans un nouvel état : l'état de plasma.
+Afin d'obtenir de telles températures, plusieurs méthodes ont été expérimentées :
+* l'utilisation de l'effet Joule produit par le déplacement des électrons, notamment lié au champ poloïdal (mais ce phénomène n'est plus très efficace au-delà d'une température de 10 millions de degrés) ;
+* l'injection et le confinement magnétique de particules préalablement accélérées dans un accélérateur de particule annexe
+* l'échauffement obtenu par de puissants lasers (effet Compton)
+* l'utilisation d'ondes électromagnétiques aux fréquences caractéristiques du milieu plasmique (le principe d'échauffement pourrait être comparé à celui du four à micro-ondes).
+Dans les réacteurs à fusion du futur, la température nécessaire pourrait être obtenue par une combinaison de ces méthodes.
+Bilan énergétique
+Le bilan énergétique est défini par le facteur «
+Q »
+qui correspond au quotient de l'énergie libérée par la fusion divisée par l'énergie consommée, avec :
+* énergie consommée : ensemble de la consommation électrique nécessaire pour maintenir le plasma à une température donnée ;
+* énergie produite : chaleur rayonnée par le plasma (collectée par les parois et potentiellement utilisable pour produire de l'électricité).
+On distingue différentes phases qui sont liées aux niveaux de confinement et de températures du plasma :
+* Q = 0 Dans la phase transitoire d'échauffement, il n'y a pas de fusion, donc pas d'énergie produite ;
+* Q < 1 Démarrage des réactions de fusion :
+Lorsque la température et le confinement atteignent les valeurs critiques, quelques noyaux finissent par se rencontrer avec suffisamment d'énergie pour fusionner, mais l'énergie produite ne compense pas l'énergie rayonnée (qui correspond au refroidissement naturel).
+Exemple : de chauffage produisent de chaleur, soit liés à la fusion : Q = 0,2 ;
+* Q = 1, le : les réactions de fusion produisent autant d'énergie qu'elles en consomment.
+Malheureusement, il faut toujours chauffer le plasma car 80 % environ de l'énergie rayonnée par la fusion traverse le plasma et ne contribue pas à son maintien en température.
+Techniquement, c'est un point arbitraire qui n'est pas relié à un phénomène physique.
+Il est cependant souvent utilisé comme objectif à atteindre ;
+: les réactions de fusion contribuent autant au chauffage du plasma que le chauffage externe ;
+20 : la qualité de la réaction (température/confinement)
+est proche de Q
+mais si on arrête le chauffage externe, le plasma refroidit rapidement et les réactions s'arrêtent en quelques secondes ;
+* Q = ∞
+, l'allumage ( en anglais) : 100 % de l'énergie nécessaire pour maintenir la température du plasma est issue des réactions de fusion.
+La conséquence directe est qu'il devient possible d'arrêter de chauffer le plasma et de continuer à observer les réactions de fusion.
+Actuellement, le JET détient le record du plus haut facteur Q avec
+0,65.
+Le réacteur Iter en cours de construction est prévu pour atteindre théoriquement
+10 (et Q=5 en fonctionnement continu).
+Fonctions supplémentaires
+En plus de son rôle de four (chauffage) et de bouteille magnétique (confinement), un tokamak peut être équipé de 2 éléments : une couverture tritigène et un « divertor ».
+La couverture tritigène est un enrobage d'une partie de la paroi du tokamak avec du lithium qui, au contact des neutrons issus de la réaction de fusion, va produire du tritium (par fission du lithium).
+Cette solution a l'avantage de ne pas nécessiter de stocker du tritium (très cher à produire, radioactif et à faible durée de vie).
+Le divertor intervient à la fin de la réaction pour dévier (« » en anglais) et séparer du plasma les déchets issus de la réaction (notamment l'hélium).
+Le divertor est généralement placé à la base du tore, le tore est alors étiré vers le bas (seconde déformation du poloïde).
+Cette configuration permet d'avoir un flux de plasma moins important en contact avec le divertor.
+Ce dernier est constitué de "cibles" régulièrement espacées qui viennent couper le flux de plasma.
+Les contraintes mécaniques et thermiques subies par le divertor sont extrêmes.
+Le divertor peut être équipé d'un revêtement tritigène.
+Avantages
+Si une telle technologie parvenait à être mise au point
+, ses avantages
+seraient :
+Une grande quantité de « carburant »
+fusible disponible : la matière fusible choisie est constituée de deutérium et de tritium.
+On trouve le deutérium (ou eau lourde quand cet isotope est combiné à l'oxygène) à l'état naturel (1 atome de deutérium pour atomes d'hydrogène dans l'eau soit /l d'eau).
+De plus, si l'on place dans des modules dits « tritigènes » ;
+Une production d'éléments radioactifs à vie courte : le combustible est faiblement radioactif (tritium) et sa production reste confinée dans l'enceinte du réacteur.
+À la fin de vie du réacteur, les éléments radioactifs à recycler sont pour la plupart dits « à vie courte » : la demi-vie de la plupart des isotopes radioactifs dans ces déchets est inférieure à dix ans et en un siècle, la radioactivité de ces matériaux aura suffisamment diminué pour permettre leur recyclage, ce qui est très peu par rapport aux millions d'années nécessaires à la désintégration des déchets à longue vie des centrales actuelles ;
+* Un faible risque d'accident nucléaire majeur : étant donné les conditions strictes nécessaires à la fusion, toute anomalie dans l'état de la réaction provoquerait l'arrêt immédiat des réactions en cours.
+Il n'y aurait donc pas de risque d'emballement de la réaction.
+Selon le Rapport préliminaire de sûreté d'Iter, « même en cas de brèche accidentelle dans le Tokamak, les niveaux de radioactivité à l'extérieur de l'enceinte seraient encore très faibles » ;
+* Un faible risque de contamination radioactive, dû aux faibles quantités de combustibles présents dans le réacteurs (de l'ordre du gramme)
+Difficultés
+Difficultés technologiques
+Cette technologie est encore au stade de la recherche et de l'expérimentation :
+* La physique des plasmas n'est pas encore bien maîtrisée,
+et la configuration d'Iter doit être faite en grande partie sur la base de modèles intégrés complexes alors qu'il est notamment très difficile de modéliser le comportement d'un plasma dans un confinement magnétique ;
+* La gestion des microdébris, poussières et particules d'érosion produits par les disruptions pose également problème,
+car ils peuvent interagir avec le plasma.
+Il faut pouvoir les exporter (et les décontaminer).
+Les petites instabilités du plasma (instabilités « en dents de scie » () semblent devoir être conservées et maîtrisées pour éviter l'accumulation d'impuretés dans le plasma ;
+* Les choix et l'utilisation des matériaux ne sont pas encore définis car les contraintes imposées sont nombreuses (stabilité aux radiations, importante durée de vie…).
+Et on ne connaît pour le moment aucun matériau capable de résister longtemps à ces conditions ;
+La chambre à vide d'Iter doit à la fois rester étanche mais alimentée en combustible (gaz et glaçons injectés) et débarrassée de ses impuretés.
+Le système de chauffage par faisceau de neutres (d'atomes neutres) utilisera du deutérium ou du protium ;
+* Pour atteindre l'objectif d'une fusion auto-entretenue rentable, il serait nécessaire de confiner une grande quantité de plasma.
+La rentabilité des plasmas obtenus est liée à la taille des installations.
+Par exemple, la durée de confinement du plasma utile (fusible) varie avec le carré du grand rayon du plasma traité.
+Ainsi les coûts de construction et de maintenance de tels dispositifs seront très importants.
+Les disruptions
+Les disruptions sont des phénomènes connus depuis la réalisation des premiers tokamaks.
+Elles sont définies comme , et de « lois-ingénieurs » pouvoir les gérer (par injection massives de gaz nobles dans l'anneau du Tokamak).
+Iter devra néanmoins être testé à des puissances progressives, car des flux d'énergie importants et destructeurs, avec possibilité d'érosion explosive pour les modules de la paroi du tokamak, peuvent être générés en situation d'instabilité ;
+le plasma chaud (T = 1-20 keV) qui sera produit dans le tokamak d'un réacteur à fusion agirait alors sur le graphite et le tungstène de la couverture de manière différente, avec un flux d'énergie allant jusqu'à /m² pouvant attaquer les matériaux de couverture avec .
+Enfin, les dégâts, particules et débris d'érosion d'échelle atomique de ces accidents doivent pouvoir être réparés et nettoyés par le système de décontamination dans des délais compatibles avec l'exploitation à des fins de production énergétique.
+Une vanne d'atténuation des perturbations rapides a été récemment ajoutée au JET pour y étudier l'atténuation par injection massive de gaz.
+Elle a permis d'étudier les effets de plusieurs sortes de gaz et taux d'injection, au regard des délais et de leur efficacité en termes d'atténuation.
+Selon deux thèses récentes (Reux 2010 et Thornton 2011), plus le tokamak est puissant, plus les instabilités du plasma ont des conséquences importantes.
+Chaque génération de tokamak utilise une intensité plus importante.
+En cas de disruption dans Iter, une brève décharge pourrait atteindre environ 11 millions d'ampères appliqués en une sorte de coup de foudre sur une surface de quelques dizaines de cm, avec le risque de détruire le matériau de couverture de manière bien plus importante que dans les premiers tokamaks expérimentaux, voire l'étanchéité du tore.
+Selon la thèse soutenue par Andrew Thornton à l'université d'York en janvier 2011, .
+Elles sont aujourd’hui présentées comme un pour les prochaines générations de tokamaks dont Iter, qui seront beaucoup plus puissants que les précédents et qui ne pourront tolérer les effets caloriques et électromagnétiques des disruptions, pas plus que les flux d'électrons découplés à haute énergie (runaway electrons).
+Gestion et « amortissement des disruptions »
+Les concepteurs des futurs réacteurs expérimentaux (ou de futur tokamaks de puissance destinés à produire de l'électricité en routine, encore théoriques) estiment aujourd'hui ne pas pouvoir éviter les disruptions.
+Ils cherchent donc à les « amortir », c'est-à-dire à en limiter les effets destructeurs (deux thèses récentes ont porté sur ce sujet, s'appuyant sur des modélisations et des expériences conduites dans les tokamaks Tore Supra et JET).
+Pour cela, les ingénieurs prévoient notamment des systèmes d'injection massive de gaz qui s'ils sont injectés assez tôt et de manière assez homogène (la disruption peut se produire en quelques millisecondes, et le plasma est alors très turbulent), doivent freiner et/ou totalement inhiber la production d'électrons découplés à haute énergie.
+* Des gaz légers et nobles (hélium par exemple, qui est lui-même le principal sous-produit de la fusion) inhibent la production de tels électrons découplés ;
+* L'injection de gaz plus lourds permettrait aussi de dissiper par rayonnement et moins violemment une partie de l'énergie thermique du plasma ;
+* Tous les gaz injectés affaiblissent les forces électromagnétiques ;
+* Divers mélanges de gaz
+- dont légers et lourds en mélange ;
+He, Ne, Ar, He/Ar, qui laissent penser que est de produire une barrière de lithium liquide autour du plasma.
+On a pour cela déjà testé un flux de pénétrant une cible constituée d'un flux de lithium liquide (Li target) circulant à par seconde, et on doit expérimenter la stabilité d'un flux de lithium liquide circulant à une vitesse de sous vide (10−) dans une installation (ELTL) qui contiendra de lithium liquide.
+Dans Iter, en fonctionnement normal, ce lithium devrait être bombardé par un flux neutronique estimé à environ 10^neutrons de haute énergie émis par centimètre carré et par seconde.
+Cependant, cette auto-production est très problématique, parce que le bilan neutronique est très défavorable.
+En effet, la production d'un atome de tritium à partir de lithium consomme un neutron, et la fusion ultérieure de cet atome ne produit qu'un seul neutron.
+Pour compenser les fuites inévitables de neutrons, il faut d'une manière ou d'une autre introduire une étape intermédiaire multipliant le nombre de neutrons.
+Le bilan neutronique doit être augmenté par l'ajout de matériaux multiplicateurs de neutrons comme le plomb ou le s.
+Cette solution a l'inconvénient de produire des déchets nucléaires du même type que ceux produits par les centrales nucléaires actuelles, alors même que l'un des objectifs avancés pour la fusion nucléaire est d'être une énergie « propre ».
+Maîtrise de la radioactivité
+Le tritium pose le problème de sa diffusion élevée dans les différents matériaux (risques significatifs de fuites et d'absorption dans les matériaux).
+Cela complique d'autant le choix de ces matériaux et des systèmes de décontamination du tritium (détritiation).
+Une installation comme Iter nécessitera plusieurs barrières de confinement et traitement du tritium dans chaque composant impliquant la présence de tritium.
+Des systèmes de détritiation de l’atmosphère et de la ventilation sont nécessaires, impliquant une unité de l'installation entièrement consacrée à ce gaz, dite «
+Bâtiment tritium »
+spécialement consacrée au traitement du combustible deutérium-tritium, 4 produits très toxiques.
+Les tokamaks dans le monde
+Environ 200 tokamaks
+ont été construits dans le monde.
+Liste de quelques tokamaks toujours opérationnels à ce jour :
+* International Thermonuclear
+Experimental
+Reactor (
+Iter
+qui est en cours de construction à Cadarache ;
+*Experimental
+Advanced
+Superconducting Tokamak (
+EAST)
+, à Hefei, Chine, opérationnel depuis 2006, premier Tokamak dans le monde qui a réussi à produire un plasma stable en mode H pour 100 secondes pour plus de 50 millions de Kelvin (juillet 2017) ;
+* KSTAR
+Korean Superconducting Tokamak
+Advanced
+Research
+à Daejeon ;
+* Joint European
+Torus (JET), basé à Culham au Royaume-Uni ;
+* JT-60 ou JAERI
+- Japan Atomic
+Energy
+Research Institute
+- Tokamak 60, au Japon (Naka) ;
+* Asdex et son amélioration Asdex-Upgrade, conçu en Allemagne dans les années 1980 ;
+* Doublet et son amélioration DIII
+, conçu aux États-Unis dans les années 1980.
+Premiers prototypes :
+* Tokamak T3, conçu en Union soviétique dans les années 1960 ;
+* T 10, conçu en Union soviétique dans les années 1970 (toujours en exploitation)
+* TFR (
+Tokamak de Fontenay-aux-Roses
+, conçu en France dans les années 1970 ;
+* TFTR, conçu aux États-Unis dans les années 1980, aujourd'hui fermé.
+Il existe de nombreuses autres expériences, chacune avec ses spécificités :
+* COMPASS (
+ayant remplacé CASTOR depuis 2004) à Prague en République tchèque ;
+* Tokamak à configuration variable, ou TCV, basé à l'École polytechnique fédérale de Lausanne en Suisse ;
+Prochains tokamaks :
+Plusieurs tokamaks vont être construits dans le but d'étudier la viabilité d'un tokamak industriel permettant la production à bas coût et de manière écologique d'électricité :
+* JT-60SA
+, le successeur de JT-60 actuellement (2016) en construction sur le site de Naka
+* Iter qui doit être construit en France (à Cadarache), la France
+devant couvrir 50 % des coûts de construction du réacteur ;
+* Demo qui est un prototype de réacteur industriel qui doit succéder à Iter vers 2040.
+Demo sera encore plus volumineux et couplé à une centrale vapeur pour produire de l'électricité et valider le concept de manière globale et dans un contexte opérationnel.
+Technologies voisines
+Un tokamak sert deux objectifs : maîtriser le confinement des plasmas.
+Il existe d'autres méthodes pour arriver à cela.
+** Confinement inertiel
+par Striction axiale (Z-Pinch)
+Voir aussi
+Articles connexes
+Liens externes
+* http:/ accueil fr_mat index_f.html
+nosbreves nosbreves031128.html
+Wise paris
+- Les dangers de la fusion
+* http:/ research_TCV_Tokamak
+Le Tokamak
+à Configuration Variable
+Bibliographie
+* Takaaki Fujita, « » ;
+Volume 50 Numéro 11 ;
+doi:10.1088 50 113001

@@ -1,0 +1,156 @@
+Arithmétique élémentaire|Multiplication|*|Opération
+La multiplication est l'une des quatre opérations de l'arithmétique élémentaire avec l'addition, la soustraction et la division.
+Cette opération est souvent notée avec la croix de multiplication
+« × »,
+mais peut aussi être notée par d'autres symboles (par exemple le point médian
+· »
+ou par l'absence de symbole.
+Son résultat s'appelle le produit, les nombres que l'on multiplie sont les facteurs.
+La multiplication de deux nombres a et b se dit indifféremment en français « a multiplié par b » ou « b fois a ».
+La multiplication de deux nombres entiers peut être vue comme une addition répétée plusieurs fois.
+Par exemple, « 3 fois 4 » peut se voir comme la somme de trois nombres 4 ;
+« 4 fois 3 » peut se voir comme la somme de quatre nombres 3 :
+4 x 3 = 4 + 4 + 4 ;
+3 x 4 = 3 + 3 + 3 + 3 ;
+avec :
+La multiplication peut permettre de compter des éléments rangés dans un rectangle ou de calculer l'aire d'un rectangle dont on connaît la longueur et la largeur.
+Elle permet aussi de déterminer un prix d'achat connaissant le prix unitaire et la quantité achetée.
+La multiplication se généralise à d'autres ensembles que les nombres classiques (entiers, relatifs, réels).
+Par exemple, on peut multiplier des complexes entre eux, des fonctions, des matrices et même des vecteurs par des nombres.
+Notations
+En arithmétique, la multiplication est souvent écrite à l'aide du signe "×" entre les termes, c'est à dire en notation infixée.
+Par exemple,
+2\times 3 = 6 (oralement, "deux fois trois égale six")
+Ce symbole est codé en Unicode par .
+En mode mathématique dans LaTeX, il s'écrit \times.
+Il y a d'autres notations mathématiques pour la multiplication:
+La multiplication est aussi notée par un point, en hauteur médiane ou basse : ou
+* En algèbre, une multiplication impliquant des variables est souvent écrite par une simple .
+* En multiplication vectorielle, le symboles croix et point ont des sens différents.
+Le symbole croix représente le produit vectoriel de deux vecteurs de dimension 3, fournissant un vecteur comme résultat, alors que le symbole point représente le produit scalaire de deux vecteurs de même dimension (éventuellement infinie), fournissant un scalaire.
+* En programmation informatique, l'astérisque (comme dans 5*2) est la notation la plus courante.
+Cela est dû au fait qu'historiquement les ordinateurs étaient limités à un petit jeu de caractères (comme ASCII ou EBCDIC) n'ayant pas de symbole comme ⋅ ou ×, alors que l'astérisque se trouve sur tous les claviers.
+Cet usage trouve ses origines dans le langage de programmation FORTRAN.
+Multiplication dans les ensembles de nombres
+Multiplication dans les entiers
+Multiplier un entier par un autre c'
+est ajouter cet entier à lui-même plusieurs fois.
+Ainsi multiplier 6 par 4 c'est calculer 6 + 6 + 6 + 6, le résultat se dit 4 fois 6 ou 6 multiplié par 4.
+On appelle le produit de 6 par 4 le résultat de cette opération.
+Dans cette multiplication, 6 est appelé le multiplicande car c'est lui qui est répété et 4 est appelé le multiplicateur car il indique combien de fois 6 doit être répété.
+Cependant, le fait que 4 fois 6 soit égal à 6 fois 4, rend cette distinction peu nécessaire, et les deux nombres sont appelés facteurs du produit.
+Dans les livres scolaires d'arithmétique des deux derniers siècles, on lisait plutôt de la seconde manière à l'origine.
+"Fois" était ressenti comme moins précis (comme "et" pour l'addition).
+Il n'est pas efficace, à long terme, de voir la multiplication comme une addition répétée.
+Il est donc nécessaire d'apprendre le résultat de la multiplication de tous les entiers de 1 à 9.
+C'est l'objet de la table de multiplication.
+La multiplication dans les entiers vérifie les propriétés suivantes :
+* on peut changer l'ordre des facteurs sans changer le résultat final : a × b = b ×
+On dit que la multiplication est commutative ;
+* quand on doit multiplier trois nombres entre eux, on peut, au choix, multiplier les deux premiers et multiplier le résultat obtenu par le troisième facteur ou bien multiplier entre eux les deux derniers puis multiplier le résultat par le premier nombre : (a × b) × c = a × (b × c).
+On dit que la multiplication est associative ;
+* quand on doit multiplier une somme (ou une différence)
+par un nombre, on peut, au choix, calculer d'abord la somme et multiplier le résultat par le nombre ou bien, multiplier d'abord chaque terme de la somme par ce nombre et ensuite effectuer la somme : (a + b) × c = (a × c) + (b × c).
+On dit que la multiplication est distributive pour l'addition car on a distribué c aux deux termes de la somme.
+Les parenthèses indiquent l'ordre dans lequel les opérations doivent être effectuées.
+En pratique, pour éviter de traîner trop de parenthèses, on utilise, par convention, la règle de priorité suivante : les multiplications s'effectuent toujours avant les additions.
+Ainsi, dans l'écriture 4 + 5 × 2, il faut lire 4 + (5 × 2), c'est-à-dire 4 + 10 = 14 et non (4 + 5) × 2 qui aurait valu 18.
+4 + (5 \times 2)
+4 + 10 = 14,
+18 \ne 4 + 5 \times 2.
+Cette règle s'appelle une priorité opératoire.
+La dernière propriété a trait aux comparaisons.
+Si deux nombres sont rangés dans un certain ordre et qu'on les multiplie par le même nombre strictement positif, les résultats seront rangés dans le même ordre.
+Si a 3 × (-4).
+Multiplication dans les fractions
+Multiplier entre elles deux fractions, c'est multiplier entre eux les numérateurs et les dénominateurs :
+\frac ab \times \frac cd = \frac.
+Dans l'ensemble ℚ des nombres rationnels, la multiplication conserve les propriétés déjà énoncées avec la même difficulté concernant l'ordre et la multiplication par un nombre négatif.
+Multiplication dans les réels
+C'est une généralisation de la multiplication précédente.
+Elle conserve les mêmes propriétés.
+Inverse
+L'inverse d'un nombre pour la multiplication est le nombre par lequel il faut le multiplier pour obtenir 1.
+Par exemple
+L'inverse du nombre a est noté ou encore a.
+Ainsi :
+Selon les ensembles de nombres, on ne trouve pas toujours un inverse dans l'ensemble :
+* dans l'ensemble des entiers, seuls 1 et -1 possèdent des inverses ;
+* quel que soit l'ensemble de nombres vérifiant 0 ≠ 1, 0 ne possède pas d'inverse car 0 multiplié par a donne toujours 0 et jamais 1 ;
+* dans l'ensemble des rationnels et dans l'ensemble des réels, tous les nombres, sauf 0, possèdent un inverse.
+La quatrième opération des mathématiques élémentaires, la division peut alors être vue comme une multiplication par l'inverse.
+Multiple
+On dit qu'un nombre a est multiple d'un nombre b s'il est le résultat de la multiplication de b par un entier (naturel ou relatif)
+: a est multiple de b si et seulement s'il existe un entier relatif k tel que a = k × b
+Lorsque a et b sont des entiers, on dit aussi que a est divisible par b.
+Notion de corps ordonné
+Dans l'ensemble des nombres rationnels, et dans l'ensemble des nombres réels, on retrouve les propriétés suivantes pour la multiplication :
+Ces propriétés associées à celles que possède l'addition sur ces ensembles font de ℝ et ℚ, munis de l'addition et de la multiplication, des ensembles spéciaux appelés des corps ordonnés.
+Techniques de multiplication
+Excepté la multiplication égyptienne et sa variante russe qui utilisent un principe binaire, les techniques de multiplication qui se sont développées au cours des siècles, utilisent le système décimal et nécessitent pour la plupart de connaitre la table de multiplication des nombres de 1 à 9 ainsi que le principe de distributivité.
+Ainsi pour multiplier 43 par 25, on écrit que .
+Ensuite, on distribue les différents termes
+: 43 × 25 = 43 ×
+2 dizaines + 43 × 5 unités.
+4 × 2 centaines + 3 × 2 dizaines) + (4 ×
+5 dizaines + 3 × 5 unités)
++ + + = .
+Les différentes méthodes consistent à présenter ce calcul de manière pratique.
+On trouve ainsi la méthode chinoise qui commence par les poids forts, c'est-à-dire la multiplication des chiffres les plus à gauche.
+Cette méthode est celle utilisée dans la multiplication avec boulier.
+Mais d'autres méthodes sont possibles comme celle couramment utilisée dans les écoles françaises consistant à en multipliant 43 d'abord par 5 puis par 2 dizaines et faire la somme.
+D'autres techniques utilisant ce même principe ont été développées comme la multiplication par glissement utilisée au par Al-Khawarizmi ou la multiplication par jalousies utilisée au Moyen Âge en Europe.
+Cette dernière a donné lieu à la fabrication de bâtons automatisant le calcul : les bâtons de Napier.
+Ces techniques nécessitent pour la plupart la connaissance des tables de multiplication.
+Elles furent utilisées très tôt.
+On en trouve trace par exemple à Nippur en Mésopotamie sur des tablettes réservées à l'entraînement des apprentis scribes.
+La mémorisation des tables pour des nombres compris entre 6 et 9 se révèle parfois difficile.
+Georges Ifrah signale un moyen simple de multiplier avec les doigts des nombres compris entre 6 et 9.
+Sur chaque main, on dresse autant de doigts que d'unités dépassant 5 pour chacun des nombres concernés.
+Ainsi pour multiplier 8 par 7 on dresse de la main gauche et deux doigts de la main droite.
+La somme des doigts dressés donne le nombre de dizaines et le produit des doigts repliés donne le nombre d'unités à ajouter.
+Ainsi, dans l'exemple, il y a dressés donc .
+Il y a pliés dans une main et pliés dans l'autre ce qui donne .
+L'explication mathématique fait appel encore une fois à la distributivité : si on appelle x et y le nombre de doigts repliés, les nombres de doigts dressés sont a
+- x et b
+- x par
+: (10
+- x) (10 - y)
+10 (10
+- x)
+- (10
+- x) y
+10 (10
+- x )
+- 10y + xy
+10 (10
+- y)
++ xy
+10 (a + b) + xy.
+Une technique analogue existe pour multiplier entre eux des nombres compris entre 11 et 15.
+On ne se sert alors que des doigts dressés.
+Le nombre de doigts dressés donne le nombre de dizaines à ajouter à 100, et le produit des doigts dressés donne le nombre d'unités à ajouter.
+Notations
+Dans les tablettes babyloniennes, il existe un idéogramme pour représenter la multiplication A
+- DU.
+Dans les éléments d'Euclide, la multiplication est vue comme le calcul d'une aire.
+Ainsi, pour représenter le produit de deux nombres, on parle d'un rectangle ABCD, dans lequel les côtés AB et AD représentent les deux nombres.
+Le produit des deux nombres est alors appelé le (sous-entendu l'aire du rectangle de et AD).
+Diophante, lui, n'utilise pas de symbole spécial pour la multiplication, plaçant les nombres côte à côte.
+On retrouve cette même absence de signe dans les mathématiques indiennes, les nombres sont souvent placés côte à côte, parfois séparés par un point ou parfois suivis de l'abréviation bha (pour bhavita, le produit).
+Ce n'est qu'au cours du que se généralise l'usage du point pour la multiplication dans le langage symbolique .
+Multiplications de plusieurs facteurs entre eux
+Puisque la multiplication est associative, il est inutile de définir une priorité sur les multiplications à effectuer.
+Il reste cependant à définir comment écrire le produit d'un nombre indéterminé de facteurs.
+\underbrace_n
+signifie que l'on a multiplié n fois le facteur a par lui-même.
+le résultat est noté a et se lit « a à la puissance n ».
+1 \times 2 \times \cdots \times n
+signifie que l'on a fait le produit de tous les entiers de 1 à n, le résultat est noté n! et se lit « factorielle n ».
+Si (x_i) est une suite de nombres, x_1 \times x_2 \times \cdots \times x_n
+signifie que l'on a fait le produit de ces n facteurs entre eux.
+Ce produit est aussi noté
+\prod_^nx_k.
+Si l'expression a un sens, la limite du produit précédent quand n tend vers l'infini
+est appelée produit infini et se note
+\prod_^x_k.

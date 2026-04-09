@@ -1,0 +1,182 @@
+Se conoce como software al soporte lógico de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hacen posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.
+La interacción entre el Software y el Hardware hace operativa una computadora (u otro dispositivo), es decir, el Software envía instrucciones que el Hardware ejecuta, haciendo posible su funcionamiento.
+Los componentes lógicos incluyen, entre muchos otros, las aplicaciones informáticas, tales como el procesador de texto, que permite al usuario realizar todas las tareas concernientes a la edición de textos; el llamado software de sistema, tal como el sistema operativo, que básicamente permite al resto de los programas funcionar adecuadamente, facilitando también la interacción entre los componentes físicos y el resto de las aplicaciones, y proporcionando una interfaz con el usuario.
+El software en su gran mayoría, está escrito en lenguajes de programación de alto nivel, ya que son más fáciles y eficientes para que los programadores los usen, porque son más cercanos al lenguaje natura l respecto del lenguaje de máquina.
+Los lenguajes de alto nivel se traducen a lenguaje de máquina utilizando un compilador o un intérprete, o bien una combinación de ambos.
+El software también puede estar escrito en lenguaje ensamblador , que es de bajo nivel y tiene una alta correspondencia con las instrucciones de lenguaje máquina; se traduce al lenguaje de la máquina utilizando un ensamblador.
+El anglicismo software es el más ampliamente difundido al referirse a este concepto, especialmente en la jerga técnica; en tanto que el término sinónimo «logicial», derivado del término francés logiciel, es utilizado mayormente en países y zonas de influencia francesa.
+Su abreviatura es Sw.
+Etimología
+Software (pronunciación AFI:) es una palabra proveniente del inglés, que en español no posee una traducción adecuada al contexto, por lo cual se la utiliza asiduamente sin traducir y así fue admitida por la Real Academia Española (RAE).
+Aunque puede no ser estrictamente lo mismo, suele sustituirse por expresiones tales como programas (informáticos) o aplicaciones (informáticas) o soportes lógicos.
+Software es lo que se denomina producto en ingeniería de software.
+Definición de software
+Existen varias definiciones similares aceptadas para software, pero probablemente la más formal sea la siguiente:
+Considerando esta definición, el concepto de software va más allá de los programas de computación en sus distintos estados: código fuente, binario o ejecutable; también su documentación, los datos a procesar e incluso la información de usuario forman parte del software: es decir, abarca todo lo intangible, todo lo «no físico» relacionado.
+El término software fue usado por primera vez en este sentido por John W. Tukey en 1957.
+En la ingeniería de software y las ciencias de la computación, el software es toda la información procesada por los sistemas informáticos: programas y datos.
+El concepto de leer diferentes secuencias de instrucciones (programa) desde la memoria de un dispositivo para controlar los cálculos fue introducido por Charles Babbage como parte de su máquina diferencial.
+La teoría que forma la base de la mayor parte del software moderno fue propuesta por Alan Turing en su ensayo de 1936, «Los números computables», con una aplicación al problema de decisión.
+Clasificación del software
+Si bien esta distinción es, en cierto modo, arbitraria, y a veces confusa, a los fines prácticos se puede clasificar al software en tres tipos:
+* Software de sistema: Su objetivo es desvincular adecuadamente al usuario y al programador de los detalles del sistema informático en particular que se use, aislándolo especialmente del procesamiento referido a las características internas de: memoria, discos, puertos y dispositivos de comunicaciones, impresoras, pantallas, teclados, etc.
+El software de sistema le procura al usuario y programador adecuadas interfaces de alto nivel, controladores, herramientas y utilidades de apoyo que permiten el mantenimiento del sistema global.
+Incluye entre otros:
+* Software de programación: Es el conjunto de herramientas que permiten al programador desarrollar programas de informática, usando diferentes alternativas y lenguajes de programación, de una manera práctica.
+Incluyen en forma básica:
+** Entornos de desarrollo integrados (IDE): Agrupan las anteriores herramientas, usualmente en un entorno visual, de forma tal que el programador no necesite introducir múltiples comandos para compilar, interpretar, depurar, etc.
+Habitualmente cuentan con una avanzada interfaz gráfica de usuario (GUI).
+* Software de aplicación: Es aquel que permite a los usuarios llevar a cabo una o varias tareas específicas, en cualquier campo de actividad susceptible de ser automatizado o asistido, con especial énfasis en los negocios.
+Incluye entre muchos otros:
+** Aplicaciones para Control de sistemas y automatización industrial
+** Telecomunicaciones (por ejemplo Internet y toda su estructura lógica)
+Proceso de creación del software
+Se define como «proceso» al conjunto ordenado de pasos a seguir para llegar a la solución de un problema u obtención de un producto, en este caso particular, para lograr un producto software que resuelva un problema específico.
+El proceso de creación de software puede llegar a ser muy complejo, dependiendo de su porte, características y criticidad del mismo.
+Por ejemplo la creación de un sistema operativo es una tarea que requiere proyecto, gestión, numerosos recursos y todo un equipo disciplinado de trabajo.
+En el otro extremo, si se trata de un sencillo programa (por ejemplo, la resolución de una ecuación de segundo orden), éste puede ser realizado por un solo programador (incluso aficionado) fácilmente.
+Es así que normalmente se dividen en tres categorías según su tamaño (líneas de código) o costo: de «pequeño», «mediano» y «gran porte».
+Existen varias metodologías para estimarlo, una de las más populares es el sistema COCOMO que provee métodos y un software (programa) que calcula y provee una aproximación de todos los costos de producción en un «proyecto software» (relación horas/hombre, costo monetario, cantidad de líneas fuente de acuerdo a lenguaje usado, etc.).
+Considerando los de gran porte, es necesario realizar complejas tareas, tanto técnicas como de gerencia, una fuerte gestión y análisis diversos (entre otras cosas), la complejidad de ello ha llevado a que desarrolle una ingeniería específica para tratar su estudio y realización: es conocida como ingeniería de Software.
+En tanto que en los de mediano porte, pequeños equipos de trabajo (incluso un avezado analista-programador solitario) pueden realizar la tarea.
+Aunque, siempre en casos de mediano y gran porte (y a veces también en algunos de pequeño porte, según su complejidad), se deben seguir ciertas etapas que son necesarias para la construcción del software.
+Tales etapas, si bien deben existir, son flexibles en su forma de aplicación, de acuerdo a la metodología o proceso de desarrollo escogido y utilizado por el equipo de desarrollo o por el analista-programador solitario (si fuere el caso).
+Los «procesos de desarrollo de software» poseen reglas preestablecidas, y deben ser aplicados en la creación del software de mediano y gran porte, ya que en caso contrario lo más seguro es que el proyecto no logre concluir o termine sin cumplir los objetivos previstos, y con variedad de fallos inaceptables (fracasan, en pocas palabras).
+Entre tales «procesos» los hay ágiles o livianos (ejemplo XP), pesados y lentos (ejemplo RUP), y variantes intermedias.
+Normalmente se aplican de acuerdo al tipo y porte del software a desarrollar, a criterio del líder (si lo hay) del equipo de desarrollo.
+Algunos de esos procesos son Programación Extrema (en inglés eXtreme Programming o XP), Proceso Unificado de Rational (en inglés Rational Unified Process o RUP), Feature Driven Development (FDD), etc.
+Cualquiera sea el «proceso» utilizado y aplicado al desarrollo del software (RUP, FDD, XP, etc), y casi independientemente de él, siempre se debe aplicar un «modelo de ciclo de vida».
+Se estima que, del total de proyectos software grandes emprendidos, un 28 % fracasan, un 46 % caen en severas modificaciones que lo retrasan y un 26 % son totalmente exitosos.
+Cuando un proyecto fracasa, rara vez es debido a fallas técnicas, la principal causa de fallos y fracasos es la falta de aplicación de una buena metodología o proceso de desarrollo.
+Entre otras, una fuerte tendencia, desde hace pocas décadas, es mejorar las metodologías o procesos de desarrollo, o crear nuevas y concientizar a los profesionales de la informática a su utilización adecuada.
+Normalmente los especialistas en el estudio y desarrollo de estas áreas (metodologías) y afines (tales como modelos y hasta la gestión misma de los proyectos) son los ingenieros en software, es su orientación.
+Los especialistas en cualquier otra área de desarrollo informático (analista, programador, Lic. en informática, ingeniero en informática, ingeniero de sistemas, etc.) normalmente aplican sus conocimientos especializados pero utilizando modelos, paradigmas y procesos ya elaborados.
+Es común para el desarrollo de software de mediano porte que los equipos humanos involucrados apliquen «metodologías propias», normalmente un híbrido de los procesos anteriores y a veces con criterios propios.
+El proceso de desarrollo puede involucrar numerosas y variadas tareas, por su eficacia y simplicidad, más que nada en software de pequeño y algunos de mediano porte; pero nunca (o muy rara vez) se lo usa en su "forma pura", como se dijo anteriormente.
+En lugar de ello, siempre se produce alguna realimentación entre etapas, que no es completamente predecible ni rígida; esto da oportunidad al desarrollo de productos software en los cuales hay ciertas incertezas, cambios o evoluciones durante el ciclo de vida.
+Así por ejemplo, una vez capturados y especificados los requisitos (primera etapa) se puede pasar al diseño del sistema, pero durante esta última fase lo más probable es que se deban realizar ajustes en los requisitos (aunque sean mínimos), ya sea por fallas detectadas, ambigüedades o bien por que los propios requisitos han cambiado o evolucionado; con lo cual se debe retornar a la primera o previa etapa, hacer los reajustes pertinentes y luego continuar nuevamente con el diseño; esto último se conoce como realimentación.
+Lo normal en el modelo cascada es entonces la aplicación del mismo con sus etapas realimentadas de alguna forma, permitiendo retroceder de una a la anterior (e incluso poder saltar a varias anteriores) si es requerido.
+De esta manera se obtiene el «modelo cascada realimentado», que puede ser esquematizado como lo ilustra la Figura 3.
+Lo dicho es, a grandes rasgos, la forma y utilización de este modelo, uno de los más usados y populares.
+Los requisitos del usuario y del producto suelen cambiar conforme se desarrolla el mismo.
+Las fechas de mercado y la competencia hacen que no sea posible esperar a poner en el mercado un producto absolutamente completo, por lo que se aconseja introducir una versión funcional limitada de alguna forma para aliviar las presiones competitivas.
+En esas u otras situaciones similares, los desarrolladores necesitan modelos de progreso que estén diseñados para acomodarse a una evolución temporal o progresiva, donde los requisitos centrales son conocidos de antemano, aunque no estén bien definidos a nivel detalle.
+En el modelo cascada y cascada realimentado no se tiene demasiado en cuenta la naturaleza evolutiva del software, aunque ella aún no existe formalmente.
+Hay grupos de estudio e investigación, en todo el mundo, que están exclusivamente abocados a idear modelos, técnicas y procesos para intentar lograr la correcta captura, análisis y registro de requisitos.
+Estos grupos son los que normalmente hablan de la ingeniería de requisitos; es decir se plantea ésta como un área o disciplina pero no como una carrera universitaria en si misma.
+Algunos requisitos no necesitan la presencia del cliente, para ser capturados o analizados; en ciertos casos los puede proponer el mismo analista o, incluso, adoptar unilateralmente decisiones que considera adecuadas (tanto en requisitos funcionales como no funcionales).
+Por citar ejemplos probables: Algunos requisitos sobre la arquitectura del sistema, requisitos no funcionales tales como los relativos al rendimiento, nivel de soporte a errores operativos, plataformas de desarrollo, relaciones internas o ligas entre la información (entre registros o tablas de datos) a almacenar en caso de bases o bancos de datos, etc.
+Algunos funcionales tales como opciones secundarias o de soporte necesarias para una mejor o más sencilla operatividad; etc.
+La obtención de especificaciones a partir del cliente (u otros actores intervinientes) es un proceso humano muy interactivo e iterativo; normalmente a medida que se captura la información, se la analiza y realimenta con el cliente, refinándola, puliéndola y corrigiendo si es necesario; cualquiera sea el método de ERS utilizado.
+EL analista siempre debe llegar a conocer la temática y el problema que resolver, dominarlo, hasta cierto punto, hasta el ámbito que el futuro sistema a desarrollar lo abarque.
+Por ello el analista debe tener alta capacidad para comprender problemas de muy diversas áreas o disciplinas de trabajo (que no son específicamente suyas); así por ejemplo, si el sistema a desarrollar será para gestionar información de una aseguradora y sus sucursales remotas, el analista se debe compenetrar en cómo ella trabaja y maneja su información, desde niveles muy bajos e incluso llegando hasta los gerenciales.
+Dada a gran diversidad de campos a cubrir, los analistas suelen ser asistidos por especialistas, es decir gente que conoce profundamente el área para la cual se desarrollará el software; evidentemente una única persona (el analista) no puede abarcar tan vasta cantidad de áreas del conocimiento.
+En empresas grandes de desarrollo de productos software, es común tener analistas especializados en ciertas áreas de trabajo.
+Contrariamente, no es problema del cliente, es decir él no tiene por qué saber nada de software, ni de diseños, ni otras cosas relacionadas; sólo se debe limitar a aportar objetivos, datos e información (de mano propia o de sus registros, equipos, empleados, etc) al analista, y guiado por él, para que, en primera instancia, defina el «Universo de Discurso», y con posterior trabajo logre confeccionar el adecuado documento ERS.
+Es bien conocida la presión que sufren los desarrolladores de sistemas informáticos para comprender y rescatar las necesidades de los clientes/usuarios.
+Cuanto más complejo es el contexto del problema más difícil es lograrlo, a veces se fuerza a los desarrolladores a tener que convertirse en casi expertos de los dominios que analizan.
+Cuando esto no sucede es muy probable que se genere un conjunto de requisitos erróneos o incompletos y por lo tanto un producto de software con alto grado de desaprobación por parte de los clientes/usuarios y un altísimo costo de reingeniería y mantenimiento.
+Todo aquello que no se detecte, o resulte mal entendido en la etapa inicial provocará un fuerte impacto negativo en los requisitos, propagando esta corriente degradante a lo largo de todo el proceso de desarrollo e incrementando su perjuicio cuanto más tardía sea su detección (Bell y Thayer 1976) (Davis 1993).
+Procesos, modelado y formas de elicitación de requisitos
+Siendo que la captura, elicitación y especificación de requisitos, es una parte crucial en el proceso de desarrollo de software, ya que de esta etapa depende el logro de los objetivos finales previstos, se han ideado modelos y diversas metodologías de trabajo para estos fines.
+También existen herramientas software que apoyan las tareas relativas realizadas por el ingeniero en requisitos.
+El estándar IEEE 830-1998 brinda una normalización de las «Prácticas recomendadas para la especificación de requisitos software».
+A medida que se obtienen los requisitos, normalmente se los va analizando, el resultado de este análisis, con o sin el cliente, se plasma en un documento, conocido como ERS o Especificación de requisitos software, cuya estructura puede venir definida por varios estándares, tales como CMMI.
+Un primer paso para realizar el relevamiento de información es el conocimiento y definición acertada lo que se conoce como «Universo de Discurso» del problema, que se define y entiende por:
+Universo de Discurso (UdeD): es el contexto general en el cual el software deberá ser desarrollado y deberá operar.
+El UdeD incluye todas las fuentes de información y todas las personas relacionadas con el software.
+Esas personas son conocidas también como actores de ese universo.
+El UdeD es la realidad circunstanciada por el conjunto de objetivos definidos por quienes demandaron el software.
+A partir de la extracción y análisis de información en su ámbito se obtienen todas las especificaciones necesarias y tipos de requisitos para el futuro producto software.
+El objetivo de la ingeniería de requisitos (IR) es sistematizar el proceso de definición de requisitos permitiendo elicitar, modelar y analizar el problema, generando un compromiso entre los ingenieros de requisitos y los clientes/usuarios, ya que ambos participan en la generación y definición de los requisitos del sistema.
+La IR aporta un conjunto de métodos, técnicas y herramientas que asisten a los ingenieros de requisitos (analistas) para obtener requisitos lo más seguros, veraces, completos y oportunos posibles, permitiendo básicamente:
+* Facilitar la obtención de las necesidades del cliente/usuario
+Si bien existen diversas formas, modelos y metodologías para elicitar, definir y documentar requisitos, no se puede decir que alguna de ellas sea mejor o peor que la otra, suelen tener muchísimo en común, y todas cumplen el mismo objetivo.
+Sin embargo, lo que si se puede decir sin dudas
+que es indispensable utilizar alguna de ellas para documentar las especificaciones del futuro producto software.
+Así por ejemplo, hay un grupo de investigación argentino que desde hace varios años ha propuesto y estudia el uso del LEL (Léxico Extendido del Lenguaje) y Escenarios como metodología, aquí se presenta una de las tantas referencias y bibliografía sobre ello.
+Otra forma, más ortodoxa, de capturar y documentar requisitos se puede obtener en detalle, por ejemplo, en el trabajo de la Universidad de Sevilla sobre «Metodología para el Análisis de Requisitos de Sistemas Software».
+En la Figura 7 se muestra un esquema, más o menos riguroso, aunque no detallado, de los pasos y tareas a seguir para realizar la captura, análisis y especificación de requisitos software.
+También allí se observa qué artefacto o documento se obtiene en cada etapa del proceso.
+En el diagrama no se explicita metodología o modelo a utilizar, sencillamente se pautan las tareas que deben cumplirse, de alguna manera.
+Una posible lista, general y ordenada, de tareas recomendadas para obtener la definición de lo que se debe realizar, los productos a obtener y las técnicas a emplear durante la actividad de elicitación de requisitos, en fase de Especificación de requisitos software es
+Obtener información sobre el dominio del problema y el sistema actual (UdeD).
+# Preparar y realizar las reuniones para elicitación revisar los objetivos del usuario.
+Identificar revisar los requisitos de información.
+Identificar revisar los requisitos no funcionales.
+# Priorizar objetivos y requisitos.
+Algunos principios básicos a tener en cuenta:
+* Presentar y entender cabalmente el dominio de la información del problema.
+Definir correctamente las funciones que debe realizar el software.
+Representar el comportamiento del software a consecuencias de acontecimientos externos, particulares, incluso inesperados.
+* Reconocer requisitos incompletos, ambiguos o contradictorios.
+* Dividir claramente los modelos que representan la información, las funciones y comportamiento y características no funcionales.
+Clasificación e identificación de requisitos
+Se pueden identificar dos formas de requisitos:
+* Requisitos de usuario: Los requisitos de usuario son frases en lenguaje natural junto a diagramas con los servicios que el sistema debe proporcionar, así como las restricciones bajo las que debe operar.
+* Requisitos de sistema: Los requisitos de sistema determinan los servicios del sistema y pero con las restricciones en detalle.
+Sirven como contrato.
+Es decir, ambos son lo mismo, pero con distinto nivel de detalle.
+Ejemplo de requisito de usuario: El sistema debe hacer préstamos
+Ejemplo de requisito de sistema: Función préstamo: entrada código socio, código ejemplar; salida: fecha devolución; etc.
+Se clasifican en tres los tipos de requisitos de sistema:
+Los requisitos funcionales describen:
+* Los servicios que proporciona el sistema (funciones).
+La respuesta del sistema ante determinadas entradas.
+* El comportamiento del sistema en situaciones particulares.
+Los requisitos no funcionales son restricciones de los servicios o funciones que ofrece el sistema (ej. cotas de tiempo, proceso de desarrollo, rendimiento, etc.)
+::Ejemplo 1.
+La biblioteca Central debe ser capaz de atender simultáneamente a todas las bibliotecas de la Universidad
+::Ejemplo 2.
+El tiempo de respuesta a una consulta remota no debe ser superior a 1/2 s
+:A su vez, hay tres tipos de requisitos no funcionales:
+* Requisitos del producto.
+Especifican el comportamiento del producto (Ej.
+prestaciones, memoria, tasa de fallos, etc.)
+* Requisitos organizativos.
+Se derivan de las políticas y procedimientos de las organizaciones de los clientes y desarrolladores (Ej.
+estándares de proceso, lenguajes de programación, etc.)
+* Requisitos externos.
+Se derivan de factores externos al sistema y al proceso de desarrollo (Ej.
+requisitos legislativos, éticos, etc.)
+Los requisitos del dominio se derivan del dominio de la aplicación y reflejan características de dicho dominio.
+Pueden ser funcionales o no funcionales.
+Ej.
+El sistema de biblioteca de la Universidad debe ser capaz de exportar datos mediante el Lenguaje de Intercomunicación de Bibliotecas de España (LIBE).
+Ej.
+El sistema de biblioteca no podrá acceder a bibliotecas con material censurado.
+Diseño del sistema
+En ingeniería de software, el diseño es una fase de ciclo de vida del software.
+Se basa en la especificación de requisitos producido por el análisis de los requisitos (fase de análisis), el diseño define cómo estos requisitos se cumplirán, la estructura que debe darse al sistema de software para que se haga realidad.
+El diseño sigue siendo una fase separada del la programación o codificación, esta última corresponde a la traducción en un determinado lenguaje de programación de las premisas adoptadas en el diseño.
+Las distinciones entre las actividades mencionadas hasta ahora no siempre son claras cómo se quisiera en las teorías clásicas de ingeniería de software.
+El diseño, en particular, puede describir el funcionamiento interno de un sistema en diferentes niveles de detalle, cada una de ellos se coloca en una posición intermedia entre el análisis y codificación.
+Normalmente se entiende por "diseño de la arquitectura" al diseño de "muy alto nivel", que sólo define la estructura del sistema en términos de la módulos de software de que se compone y las relaciones macroscópicas entre ellos.
+A este nivel de diseño pertenecen fórmulas como cliente-servidor o “tres niveles”, o, más generalmente, las decisiones sobre el uso de la arquitectura de hardware especial que se utilice, el sistema operativo, DBMS, Protocolos de red, etc.
+Un nivel intermedio de detalle puede definir la descomposición del sistema en módulos, pero esta vez con una referencia más o menos explícita al modo de descomposición que ofrece el particular lenguaje de programación con el que el desarrollo se va a implementar, por ejemplo, en un diseño realizado con la tecnología de objetos, el proyecto podría describir al sistema en términos de clases y sus interrelaciones.
+El diseño detallado, por último, es una descripción del sistema muy cercana a la codificación (por ejemplo, describir no sólo las clases en abstracto, sino también sus atributos y los métodos con sus tipos).
+Debido a la naturaleza "intangible" del software, y dependiendo de las herramientas que se utilizan en el proceso, la frontera entre el diseño y la codificación también puede ser virtualmente imposible de identificar.
+Por ejemplo, algunas herramientas CASE son capaces de generar código a partir de diagramas UML, los que describen gráficamente la estructura de un sistema software.
+Codificación del software
+Durante esta etapa se realizan las tareas que comúnmente se conocen como programación; que consiste, esencialmente, en llevar a código fuente, en el lenguaje de programación elegido, todo lo diseñado en la fase anterior.
+Esta tarea la realiza el programador, siguiendo por completo los lineamientos impuestos en el diseño y en consideración siempre a los requisitos funcionales y no funcionales (ERS) especificados en la primera etapa.
+Es común pensar que la etapa de programación o codificación (algunos la llaman implementación) es la que insume la mayor parte del trabajo de desarrollo del software; sin embargo, esto puede ser relativo (y generalmente aplicable a sistemas de pequeño porte) ya que las etapas previas son cruciales, críticas y pueden llevar bastante más tiempo.
+Se suele hacer estimaciones de un 30% del tiempo total insumido en la programación, pero esta cifra no es consistente ya que depende en gran medida de las características del sistema, su criticidad y el lenguaje de programación elegido.
+Cuando un sistema deja de evolucionar, eventualmente cumplirá con su ciclo de vida, entrará en obsolescencia e inevitablemente, tarde o temprano, será reemplazado por un producto nuevo.
+El software evoluciona sencillamente por que se debe adaptar a los cambios del entorno, sean funcionales (exigencias de usuarios), operativos, de plataforma o arquitectura hardware.
+La dinámica de evolución del software es el estudio de los cambios del sistema.
+La mayor contribución en esta área fue realizada por Meir M. Lehman y ) respecto de los cambios producidos en los sistemas.
+Estas leyes (en realidad son hipótesis) son invariantes y ampliamente aplicables.
+Lehman y Belady analizaron el crecimiento y la evolución de varios sistemas software de gran porte; derivando finalmente, según sus medidas, las siguientes ocho leyes:
+# Cambio continuo: Un programa que se usa en un entorno real necesariamente debe cambiar o se volverá progresivamente menos útil en ese entorno.
+# Complejidad creciente: A medida que un programa en evolución cambia, su estructura tiende a ser cada vez más compleja.
+Se deben dedicar recursos extras para preservar y simplificar la estructura.
+# Evolución prolongada del programa: La evolución de los programas es un proceso autorregulativo.
+Los atributos de los sistemas, tales como tamaño, tiempo entre entregas y la cantidad de errores documentados son aproximadamente invariantes para cada entrega del sistema.
+# Estabilidad organizacional: Durante el tiempo de vida de un programa, su velocidad de desarrollo es aproximadamente constante e independiente de los recursos dedicados al desarrollo del sistema.
+# Conservación de la familiaridad: Durante el tiempo de vida de un sistema, el cambio incremental en cada entrega es aproximadamente constante.
+# Crecimiento continuado: La funcionalidad ofrecida por los sistemas tiene que crecer continuamente para mantener la satisfacción de los usuarios.
+# Decremento de la calidad
+: La calidad de los sistemas software comenzará a disminuir a menos que dichos sistemas se adapten a los cambios de su entorno de funcionamiento.
+Realimentación del sistema
+: Los procesos de evolución incorporan sistemas de realimentación multiagente y multibucle y estos deben ser tratados como sistemas de realimentación para lograr una mejora significativa del producto.

@@ -1,0 +1,254 @@
+Transformation
+géométrique|Symétrie
+La symétrie est la propriété d'un système : c'est lorsque deux parties sont semblables.
+L'exemple le plus connu est la symétrie en géométrie.
+De manière générale, un système est symétrique quand on peut permuter ses éléments en laissant sa forme inchangée.
+Le concept d'automorphisme permet de préciser cette définition.
+Un papillon, par exemple, est symétrique parce qu'on peut permuter tous les points de la moitié gauche de son corps avec tous les points de la moitié droite sans que son apparence soit modifiée.
+On peut échanger les deux moitiés sans changer la forme de l'ensemble.
+Les figures symétriques rendent visible l'égalité des formes parce que les parties permutables ont toujours la même forme.
+On pourrait en faire une définition du concept : une figure est symétrique lorsqu'elle répète une même forme de façon régulière.
+Qu'est-ce qu'une forme ?
+Le concept de forme est défini en mathématiques à partir de celui d'isomorphisme.
+Deux systèmes isomorphes ont la même forme.
+Un système, une structure mathématique, un modèle, un univers, ou un monde, au sens mathématique, est déterminé avec plusieurs ensembles :
+* l’ensemble
+des éléments du système, ses points, ses atomes ou ses constituants élémentaires ;
+* l’ensemble des prédicats fondamentaux
+propriétés de base des éléments et relations entre eux ;
+* l’ensemble
+des opérateurs, ou fonctions, qui déterminent davantage la structure du système
+Souvent
+par abus de langage, on identifie une structure par l'ensemble U de ses éléments.
+Soient U et U deux structures définies par les relations binaires R et R respectivement.
+Une transformation inversible t (une bijection) de U dans U est un isomorphisme pour R et R
+lorsque :
+S'il existe une telle transformation t, U et U sont isomorphes
+- plus précisément, les structures (U, R) et (U, R) sont isomorphes.
+Cette définition peut être aisément généralisée à toutes les relations, quel que soit le nombre de leurs arguments, et aux prédicats monadiques.
+Soient U et U deux structures définies par les opérateurs binaires + et +' respectivement.
+Une bijection t de U dans U est un isomorphisme pour + et +' lorsque :
+S'il existe une telle transformation t, U et U sont isomorphes
+- plus précisément, les structures (U, +) et (U, +') sont isomorphes.
+Cette définition peut être aisément généralisée à tous les opérateurs, quel que soit le nombre de leurs arguments.
+À un opérateur binaire +, on peut associer une relation ternaire définie par x + y = z. On voit alors que la définition d’un isomorphisme pour un opérateur est un cas particulier de la définition d’un isomorphisme pour les relations.
+Lorsque les structures sont définies avec plusieurs prédicats, monadiques ou relationnels, et plusieurs opérateurs, les isomorphismes sont les bijections qui sont des isomorphismes pour tous les prédicats et tous les opérateurs.
+Ainsi défini, le concept d'isomorphisme est universel, il peut être appliqué à toutes les structures mathématiques (les définitions d'un homéomorphisme et d'un difféomorphisme requièrent davantage de précisions.
+Les groupes d'automorphismes
+Le concept d'automorphisme permet de préciser celui de symétrie.
+Les permutations, ou transformations, qui laissent la forme inchangée, sont les symétries, ou les automorphismes, du système.
+Un automorphisme est un isomorphisme interne.
+Les automorphismes d'une structure U sont les bijections de U dans U qui sont des isomorphismes pour tous les prédicats et tous les opérateurs qui déterminent la structure.
+Plus explicitement :
+Une fonction inversible, ou bijection, de U dans U est un automorphisme pour une relation binaire R
+lorsque
+\forall (x, y) \in U^2, \quad x \;
+R \;
+y \Leftrightarrow tx \;
+R \;
+Cette définition d’un automorphisme se généralise aisément aux prédicats monadiques et à toutes les relations, quel que soit le nombre de leurs arguments.
+Pour un prédicat monadique P, une transformation t est un automorphisme lorsque
+\forall x, \quad
+Px \Leftrightarrow Ptx
+Dans l’exemple du papillon, la symétrie entre la gauche et la droite est un automorphisme pour les propriétés (les prédicats monadiques) de couleur.
+Un point a la même couleur que son point symétrique.
+Une transformation t est un automorphisme pour un opérateur binaire +
+lorsque
+\forall x, y, \quad t (x+y) = (tx)+ (ty)
+Cette définition d’un automorphisme se généralise aisément à tous les opérateurs, quel que soit le nombre de leurs arguments.
+t est un automorphisme pour un opérateur à un argument
+lorsque
+\forall x, \quad t (-x)
+= -t (x)
+Autrement dit, une transformation est un automorphisme pour un opérateur monadique (une fonction d'une seule variable)
+lorsqu'elle commute avec lui.
+Lorsque des opérateurs commutent entre eux, ils sont tous des automorphismes les uns vis-à-vis des autres, au sens où toute forme définie par l'un est conservée par tous les autres.
+Les automorphismes d'une structure forment un groupe, au sens de l'algèbre, son groupe de symétries.
+Pour tous automorphismes t et u, t ∘ u est un automorphisme et l’inverse de t est un automorphisme.
+La transformation identique (qui associe toujours x à x) est un automorphisme.
+Autrement dit :
+* Si une forme est conservée par deux transformations effectuées séparément
+, elle est aussi conservée lorsqu'on effectue les deux transformations l'une à la suite de l'autre.
+C'est simplement la transitivité de l'égalité des formes ;
+* Si une forme est conservée par une transformation, elle est aussi conservée par la transformation inverse ;
+En outre, il existe toujours une transformation identique, qui ne transforme rien, qui est donc toujours un automorphisme, puisqu'elle ne peut pas modifier quoi que ce soit.
+Ces trois propriétés font de l'ensemble des automorphismes d'un système un groupe pour sa loi de composition interne naturelle.
+Exemples
+Les isométries
+Les isométries sont les automorphismes de la structure d'espace métrique ou, dit autrement, de l'espace pour sa structure métrique.
+t est une isométrie si et seulement
+si d (x, y)
+d (tx, ty)
+pour tous x et y, où d (x, y) est la distance entre x et y.
+Ce sont des automorphismes pour toutes les relations binaires d (x, y)
+L où L est un nombre réel positif,
+parce que d (x, y)
+L si
+et seulement
+si d (tx, ty)
+L’espace euclidien en son entier est un des systèmes les plus symétriques, au sens où l’ensemble des façons de permuter simultanément tous ses points sans modifier sa structure, son groupe de symétries, est l’un des moins contraints, parmi les groupes des symétries géométriques.
+Tous les points de l’espace sont semblables.
+Ils n’ont pas d’autre qualité que d’être un point et ils ont tous les mêmes relations avec le reste de l’espace.
+Que n’importe quel point peut être transformé en n’importe quel autre par une isométrie traduit cette égalité de tous les points de l'espace.
+Si l’on brise la symétrie de l’espace en introduisant une sphère, alors tous les points ne sont plus semblables : il y a des points sur la sphère, d’autres à l’intérieur et d’autres à l’extérieur.
+En revanche, tous les points de la sphère sont semblables.
+N’importe lequel d’entre eux peut être transformé en n’importe quel autre par une isométrie : une rotation autour du centre de la sphère.
+Comme les chevaliers de la Table Ronde, aucun n'a une position privilégiée.
+Ils sont tous également placés les uns par rapport aux autres.
+Les symétries des molécules et des cristaux
+La structure d'une molécule ou d'un cristal est définie en mécanique quantique par la fonction d'onde de tous ses constituants, noyaux et électrons.
+Mais pour de nombreux usages, on peut modéliser la structure simplement par les positions des centres des atomes ou des ions.
+Avec un tel modèle, la structure est complètement décrite avec les prédicats
+monadiques « est le centre d'un atome de l'espèce i » et « est le centre d'un ion de l'espèce j ».
+Les symétries de la molécule ou du cristal peuvent être alors définies comme les isométries de l'espace qui sont aussi des automorphismes pour les prédicats monadiques de structure.
+Les symétries transforment toujours le centre d'un atome ou d'un ion en un centre d'un atome ou d'un ion de même espèce.
+Les similitudes
+Selon l'usage courant une structure et un modèle réduit ont la même forme.
+Pour préciser ce concept de forme, il faut définir les automorphismes de l'espace comme des similitudes.
+Elles conservent les rapports de distance, elles sont donc des automorphismes pour les prédicats quaternaires d (A, B)
+= k.d (C, D), pour tous les nombres réels positifs k. Plus explicitement, lorsque s est une similitude :
+pour tous les points A, B, C et D et tout nombre réel positif
+La spirale logarithmique
+Une spirale logarithmique est définie avec l'équation
+r=e^
+où r et \theta sont les coordonnées polaires d'un point P.
+Cette équation détermine le prédicat monadique
+est sur la spirale » :
+r=e^ si et seulement si P est sur la spirale.
+Une telle spirale est invariante pour toutes les transformations composées d'une rotation d'angle \alpha et d'une homothétie de rapport e^.
+Ces similitudes d'angle \alpha et de rapport e^ sont donc les symétries de la spirale.
+Les mouvements périodiques
+Les trajectoires périodiques (les oscillations, les vibrations, les mouvements des satellites…) sont des structures spatio-temporelles symétriques pour certaines translations dans le temps.
+T est une période d'une trajectoire lorsque (x, t) est sur la trajectoire si et
+seulement si (x, t + T)
+l'est aussi.
+Les translations de durée T, 2T, 3T… considérées comme des transformations de l'espace-temps sont des automorphismes pour le prédicat monadique « est sur la trajectoire ».
+Les symétries de l'espace-temps
+La structure de l'espace-temps peut être définie par la pseudo-métrique de Minkowski : à deux points quelconques P et P' de coordonnées (x,y,z,t) et (x',y',z',t') respectivement, on associe un nombre réel, positif ou négatif (le carré de sa distance relativiste):
+d (P,P')=c^2 (t'-t)^2- (x'-x)^2- (y'-y)^2- (z'-z)^2
+où c est la vitesse de la lumière.
+Une transformation s est une symétrie si et seulement si pour tous P et P' :
+d (sP, sP')=d (P,P')
+Autrement dit, d (P,P')
+K si et seulement si d (sP,sP')
+K, pour toute constante réelle K.
+Les symétries de l'espace-temps sont les automorphismes pour tous les prédicats binaires d (P,P')=K, où K est n'importe quel nombre réel.
+Les symétries de l'espace-temps forment le groupe de Poincaré.
+Les symétries de l'espace et du temps ont une importance fondamentale pour la physique à cause du principe de l'égalité de tous les observateurs.
+Comme autour d'une table ronde nous sommes tous également placés les uns par rapport aux autres.
+Aucun d'entre nous n'a une position privilégiée.
+Toute observation faite par l'un peut être faite par un autre.
+On peut donc permuter les observateurs sans modifier les observations.
+Puisqu'à chaque observateur est lié un référentiel, les symétries de l'espace-temps doivent permettre de transformer n'importe quel référentiel en n'importe quel autre.
+Le groupe des symétries de l'espace-temps est donc une expression mathématique du principe de l'égalité de tous les observateurs.
+Dans le domaine vivant
+La plupart des êtres vivants supérieurs se développent selon un plan d'organisation qui suit une symétrie, radiaire ou axiale.
+Seuls quelques êtres très primitifs comme les éponges ne montrent aucune symétrie dans leur développement (et encore, certaines éponges ont des formes géométriques et leurs spicules peuvent également en avoir).
+Dans le règne végétal
+La plupart des plantes suivent une symétrie radiaire autour de la tige ;
+à cette symétrie s'ajoute souvent une symétrie bilatérale au niveau des feuilles, et une nouvelle symétrie radiaire () ou bilatérale () au niveau des fleurs, qui est une caractéristique majeure dans leur classification
+- certaines fleurs n'ont toutefois aucune symétrie, et sont appelées fleurs .
+Dans le règne animal
+Tous les animaux pluricellulaires à l'exception des éponges se développent à partir d'une symétrie radiaire ou bilatérale.
+Certains êtres combinent parfois aussi les deux, comme les cténophores qui possèdent une symétrie , avec deux centres de symétrie radiaire eux-mêmes en symétrie bilatérale.
+, des ganglions qui peuvent fusionner en centres nerveux et une tagmatisation en lien avec l'adaptation aux milieux de vie très diversifiés.
+Symétrie bilatérale
+La symétrie bilatérale est extrêmement répandue dans le règne animal, et est notamment la règle chez les mammifères comme les humains : elle présente l'intérêt de favoriser des déplacements dans une seule direction, développant la spécialisation des segments entre la tête et la queue.
+Le sous-règne des bilatériens regroupe l'essentiel des animaux à symétrie axiale en un même groupe phylogénétique, même s'il comprend quelques animaux qui ont abandonné cette symétrie pour une autre au fil de l'évolution (échinodermes, tuniciers...).
+Seuls les bilatériens peuvent être décrits en termes d', d', de et de : les êtres radiaires ont seulement deux faces (souvent orale et anale ou ), et un certain nombre de
+La symétrie trimérique, présente chez certaines plantes (comme le trèfle), est quasiment absente du règne animal contemporain.
+On compte cependant quelques animaux à symétrie trimérique apparente dans le registre fossile, comme l'énigmatique Tribrachidium, fossile du Précambrien.
+La symétrie d'ordre 4 est présente chez certains cnidaires, notamment chez les méduses, hydroméduses et cuboméduses, caractérisées par leur forme de pavé, d'où partent 4 filaments urticants (ou 4 bouquets de filaments).
+Fichier
+Carybdea branchi9.jpg|Carybdea branchi, une cuboméduse caractéristique, arborant une symétrie radiaire d'ordre 4.
+Fichier:
+Aurelia aurita
+3.jpg|Les méduses séméostomes ont également une symétrie tétramérique.
+Fichier:
+Haeckel
+Peromedusae.jpg|Les méduses couronnes ont un symétrie radiale d'ordre 4, mais souvent dupliquée.
+Fichier
+Jellyfishlake.jpg|Les méduses rhizostomes ont aussi un symétrie radiale d'ordre 4 souvent dupliquée.
+Fichier:
+Haeckel Siphonophorae.jpg|Les hydroméduses forment un groupe très divers, où la symétrie 4 est répandue.
+Dans le règne animal
+, la symétrie radiaire d'ordre 5 est l'apanage exclusif des échinodermes, qui regroupent les étoiles de mer, oursins, concombres de mer, ophiures et crinoïdes.
+Les échinodermes font en réalité partie du groupe biologique des bilatériens, et toutes leurs larves sont organisées selon une symétrie bilatérale, mais à la métamorphose en adulte ils adoptent une symétrie pentamérique, le corps étant organisé selon 5 , plus ou moins évidents pour l'observateur.
+Cependant, une partie de l'organisation interne (notamment du système vasculaire) ne respecte pas cette pentamérie, et demeure organisée selon un plan axial.
+Fichier
+Asterias rubens.jpg|Une étoile de mer.
+Fichier
+Ophiura ophiura.jpg|Une ophiure.
+Fichier
+Guillecrinus neocaledonicus.jpg|Un crinoïde.
+Fichier
+:Astropyga radiata group.
+JPG|Des oursins.
+Fichier
+Cercodemas anceps Red box sea cucumber PC260152.JPG|Un concombre de mer.
+Chez certaines espèces cependant, ces rayons peuvent être surmultipliés, notamment certaines étoiles de mer qui peuvent avoir plus de 30 bras (comme le , Pycnopodia helianthoides, mais aussi certaines ophiures), et inversement des problèmes de développement ou les conséquences de la prédation peuvent réduire ce nombre (aucun échinoderme n'a cependant une symétrie fondamentale inférieur à 5 de manière ).
+Enfin certains sous-groupes d'échinodermes ont partiellement abandonné la symétrie radiaire pour y superposer une symétrie bilatérale, restaurant l'idée d' et d', car ils se meuvent dans un sens unique sur le fond.
+C'est par exemple le cas de presque toutes les holothuries, mais aussi des oursins irréguliers.
+Cependant, les holothuries conservent des organes dupliqués cinq fois le long du corps (deux lignes dorsale et trois ventrales), et les oursins irréguliers arborent sur la face dorsale un motif en forme de fleur à 5 pétales, d'où sortent les organes respiratoires.
+Fichier:
+Crown of Thorns-jonhanson.jpg|Une étoile de mer avec de très nombreux bras.
+Fichier
+Tiny in-a-sponge brittle stars (Ophiactis savignyi).jpg|Une ophiure à six bras.
+Fichier:
+Comasteridae
+- Oxycomanthus bennetti-003.jpg|Un
+crinoïde
+aux bras très ramifiés
+Ils ne sont toujours que 5 à la base.
+Fichier:
+Clypeaster reticulatus both sides.jpg|Squelette d'oursin irrégulier.
+On voit l'anus déporté vers l'arrière, mais le motif pentamérique conservé.
+Fichier:
+Pearsonothuria graeffei bouche.
+JPG|On voit les trois rangées de ventouses sur la face ventrale de cette holothurie ;
+elle a deux rangées de papilles sur la face dorsale, ce qui fait 5.
+Symétrie radiaire d'ordre
+La symétrie d'ordre 6 se retrouve chez de nombreux cnidaires, en particulier dans le groupe des Hexacorallia, qui regroupe les anémones de mer, coraux récifaux et certains autres groupes comme les coraux noirs.
+Cette symétrie est cependant peu visible à l’œil nu, d'abord parce que les rayons sont souvent subdivisés chez ces animaux, qui se contentent rarement de 6 tentacules, et ensuite parce que cette symétrie touche essentiellement les polypes, souvent minuscules et pouvant former des colonies massives et le plus souvent non géométriques.
+Fichier
+Peachia quinquecapitata.jpg|Une anémone peu subdivisée, à 2x6 bras.
+Fichier:
+Wirecoral goby.jpg|corail noir :
+on voit les 6 tentacules de chaque polype.
+Fichier
+Stenocyathus calicular-
+ZooKeys-227-001-g013.jpg|Calice calcaire d'un polype de corail.
+Fichier
+Leptasterias aequalis
+- Six-armed.jpg|Certaines étoiles de mer aberrantes comme Leptasterias aequalis ont 6 bras,
+mais cette symétrie est secondaire.
+Aucun animal de symétrie heptamérique n'a encore jamais été découvert, actuel comme fossile (cette symétrie existe cependant chez certaines plantes).
+Seules quelques espèces peuvent acquérir secondairement dans leur développement ce genre de plan d'organisation, comme l'étoile de mer Luidia ciliaris, qui demeure cependant fondamentalement un bilatérien à développement d'abord pentaradiaire, puis heptaradiaire (avec une marge d'erreur).
+Cette absence a cependant inspiré certains auteurs de fiction comme Ted Chiang, qui met en scène des extraterrestre dans L'Histoire de ta vie (Story of Your Life), porté au cinéma par Denis Villeneuve dans le film Premier Contact.
+La symétrie d'ordre 8 est présente dans le règne animal, notamment chez certains cnidaires comme les octocoraux (groupe qui contient notamment les gorgones) et les trachyméduses, cependant elle est souvent considérée comme une symétrie d'ordre 4 dupliquée.
+Fichier
+Corallium rubrum (Linnaeus, 1758) 11.jpg|Le de Méditerranée est un octocorail, dont les polypes ont 8 tentacules.
+Fichier
+:Botrynema ellinorae.jpg|Les trachyméduses ont une symétrie d'ordre 8.
+Fichier:
+Meridiastra calcar.jpg|Certaines étoiles de mer aberrantes
+comme Meridiastra calcar ont 8 bras, mais cette symétrie est secondaire.
+La symétrie d'ordre 9 ne semble pas exister dans le règne animal (ni même comme réplicat d'une symétrie d'ordre 3, elle-même absente) mis à part quelques formes à symétrie secondaire comme l'étoile de mer Luidia senegalensis.
+Toutes les symétries supérieures à ce nombre sont des réplications de symétries plus réduites.
+Bibliographie
+* Amaury Mouchet, L'Élégante
+Efficacité des symétries, Dunod
+, 2013 240 pages
+* Henri Bacry, La Symétrie dans tous ses états, Vuibert, 2000 447 pages
+* Claude Cohen-Tannoudji, Yves Sacquin, Symétrie et brisure de symétrie, EDP Sciences, 1999
+* Jean Sivardière, Description de la symétrie et Symétrie et propriétés physiques , EDP Sciences, 2004
+* Bas van Fraassen, Lois et symétrie, Vrin,
+1994 520 pages
+* Hermann Weyl, Symétrie et mathématique moderne
+, Champs|Flammarion, 1964 153 pages
+* Cécile Malgrange, Christian Ricolleau et François Lefaucheux, Symétrie et propriétés physiques des cristaux, éd.
+EDP Sciences, 2011 496 pages
+* Sidney Kettle, Christine Assfeld, Xavier Assfeld, Symétrie et structure, théorie des groupes en chimie, Masson, 1997 379 pages
+Voir aussi
+* En Chimie : symétrie moléculaire, chiralité, isomérie
+* En Géométrie : symétrie (transformation géométrique)

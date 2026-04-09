@@ -1,0 +1,136 @@
+In mathematics, a set is a well-defined collection of distinct objects, considered as an object in its own right.
+For example, the numbers 2, 4, and 6 are distinct objects when considered separately, but when they are considered collectively they form a single set of size three, written .
+The concept of a set is one of the most fundamental in mathematics.
+Developed at the end of the 19th century, set theory is now a ubiquitous part of mathematics, and can be used as a foundation from which nearly all of mathematics can be derived.
+Definition
+A set is a well-defined collection of distinct objects.
+can be anything: numbers, people, letters of the alphabet, other sets, and so on.
+Georg Cantor, one of the founders of set theory, gave the following definition of a set at the beginning of his Beiträge zur Begründung der transfiniten Mengenlehre:
+QTEMPLATE |A set is a gathering together into a whole of definite, distinct objects of our perception Anschauung or of our thought-which are called elements of the set.
+Sets are conventionally denoted with capital letters.
+Sets A and B are equal if and only if they have precisely the same elements.
+For technical reasons, Cantor's definition turned out to be inadequate; today, in contexts where more rigor is required, one can use axiomatic set theory, in which the notion of a "set" is taken as a primitive notion and the properties of sets are defined by a collection of axioms.
+The most basic properties are that a set can have elements, and that two sets are equal (one and the same) if and only if every element of each set is an element of the other; this property is called the extensionality of sets.
+Set notation
+There are two common ways of describing, or specifying the members of, a set: roster notation and set builder notation..
+These are examples of extensional and intensional definitions of sets, respectively.
+Roster notation
+The Roster notation (or enumeration notation) method of defining a set consist of listing each member of the set.
+More specifically, in roster notation (an example of extensional definition), For instance, the set of the first thousand positive integers may be specified in roster notation as
+where the ellipsis ("...") indicates that the list continues in according to the demonstrated pattern.
+Moreover, the order in which the elements of a set are listed is irrelevant (unlike for a sequence or tuple), so is yet again the same set.
+the set is specified as a subset of a larger set, where the subset is determined by a statement or condition involving the elements.
+Set-builder notation is an example of intensional definition.:
+:A is the set whose members are the first four positive integers.
+:B is the set of colors of the French flag.
+This is another example of intensional definition.
+If y is not a member of B then this is written as y ∉ B, read as "y is not an element of B", or "y is not in B".
+For example, with respect to the sets A
+, B
+, and F = ,
+:4 ∈ A and 12 ∈ F; and
+:20 ∉ F and green ∉ B.
+Subsets
+If every element of set A is also in B, then A is said to be a subset of B, written A ⊆ B (pronounced A is contained in B).
+Equivalently, one can write B ⊇ A, read as B is a superset of A, B includes A, or B contains A.
+The relationship between sets established by ⊆ is called inclusion or containment.
+Two sets are equal if they contain each other: A ⊆ B and B
+⊆ A is equivalent to A = B. called the empty set (or the null set), which is denoted by the symbol ∅
+(other notations are used; see empty set).
+The empty set is a subset of every set, and every set is a subset of itself:
+Partitions
+A partition of a set S is a set of nonempty subsets of S such that every element x in S is in exactly one of these subsets.
+That is, the subsets are pairwise disjoint , and the union of all the subsets of the partition is S.
+Power sets
+The power set of a set S is the set of all subsets of S.
+The power set of a finite set with n elements has 2n elements.
+For example, the set contains three elements, and the power set shown above contains 23 = 8 elements.
+The power set of an infinite (either countable or uncountable) set is always uncountable.
+Moreover, the power set of a set is always strictly "bigger" than the original set in the sense that there is no way to pair every element of S with exactly one element of P (S).
+(There is never an onto map or surjection from S onto P (S).)
+Cardinality
+The cardinality of a set S, denoted , is the number of members of S. For example, if B = , then .
+Repeated members in roster notation are not counted, so , too.
+The cardinality of the empty set is zero.
+Some sets have infinite cardinality.
+The set N of natural numbers, for instance, is infinite.
+However, it can be shown that the cardinality of (which is to say, the number of points on) a straight line is the same as the cardinality of any segment of that line, of the entire plane, and indeed of any finite-dimensional Euclidean space.
+Special sets
+There are some sets or kinds of sets that hold great mathematical importance and are referred to with such regularity that they have acquired special names and notational conventions to identify them.
+One of these is the empty set, denoted or ∅. A set with exactly one element, x, is a unit set, or singleton, .
+Special sets of numbers include
+* N or \mathbb, denoting the set of all natural numbers: N = (sometimes defined excluding 0).
+Each of the above sets of numbers has an infinite number of elements, and each can be considered to be a proper subset of the sets listed below it.
+The primes are used less frequently than the others outside of number theory and related fields.
+Positive and negative sets are sometimes denoted by superscript plus and minus signs, respectively.
+For example, ℚ+ represents the set of positive rational numbers.
+Basic operations
+There are several fundamental operations for constructing new sets from given sets.
+Unions
+Two sets can be "added" together.
+The union of A and B, denoted by A ∪ B, is the set of all things that are members of either A or B.
+Examples:
+Some basic properties of unions:
+Intersections
+A new set can also be constructed by determining which members two sets have "in common".
+The intersection of A and B, denoted by is the set of all things that are members of both A and B.
+If then A and B are said to be disjoint.
+Examples:
+Some basic properties of intersections:
+Complements
+Two sets can also be "subtracted".
+The relative complement of B in A (also called the set-theoretic difference of A and B), denoted by (or ), is the set of all elements that are members of A but not members of B.
+It is valid to "subtract" members of a set that are not in the set, such as removing the element green from the set ; doing so has no effect.
+In certain settings all sets under discussion are considered to be subsets of a given universal set U. In such cases, is called the absolute complement or simply complement of A, and is denoted by A′.
+Examples:
+If U is the set of integers, E is the set of even integers, and O is the set of odd integers, then U \ E
+Some basic properties of complements:
+An extension of the complement is the symmetric difference, defined for sets A, B as
+:A\,\Delta\,B = (A \setminus B) \cup (B \setminus A).
+For example, the symmetric difference of and is the set .
+The power set of any set becomes a Boolean ring with symmetric difference as the addition of the ring (with the empty set as neutral element) and intersection as the multiplication of the ring.
+Cartesian product
+A new set can be constructed by associating every element of one set with every element of another set.
+The Cartesian product of two sets A and B, denoted by A × B is the set of all ordered pairs (a, b) such that a is a member of A and b is a member of B.
+Examples:
+Some basic properties of Cartesian products:
+Let A and B be finite sets; then the cardinality of the Cartesian product is the product of the cardinalities:
+* |&thinsp;A
+× B&thinsp;
+|&thinsp;B × A&thinsp;|
+|&thinsp;A&thinsp;| × |&thinsp;B&thinsp;|.
+Applications
+Set theory is seen as the foundation from which virtually all of mathematics can be derived.
+For example, structures in abstract algebra, such as groups, fields and rings, are sets closed under one or more operations.
+One of the main applications of naive set theory is constructing relations.
+A relation from a domain A to a codomain B is a subset of the Cartesian product A × B.
+Given this concept, we are quick to see that the set F of all ordered pairs (x, x2), where x is real, is quite familiar.
+It has a domain set R and a codomain set that is also R, because the set of all squares is subset of the set of all real numbers.
+If placed in functional notation, this relation becomes f (x) = x2.
+The reason these two are equivalent is for any given value, y that the function is defined for, its corresponding ordered pair, (y, y2) is a member of the set F.
+Axiomatic set theory
+Although initially naive set theory, which defines a set merely as any well-defined collection, was well accepted, it soon ran into several obstacles.
+It was found that this definition spawned , most notably:
+* Russell's paradoxIt shows that the "set of all sets that do not contain themselves," i.e. the "set" does not exist.
+* Cantor's paradoxIt shows that "the set of all sets" cannot exist.
+The reason is that the phrase well-defined is not very well-defined.
+It was important to free set theory of these paradoxes because nearly all of mathematics was being redefined in terms of set theory.
+In an attempt to avoid these paradoxes, set theory was axiomatized based on first-order logic, and thus axiomatic set theory was born.
+For most purposes, however, naive set theory is still useful.
+Principle of inclusion and exclusion
+The inclusion-exclusion principle is a counting technique that can be used to count the number of elements in a union of two sets, if the size of each set and the size of their intersection are known.
+It can be expressed symbolically as
+: |A \cup B| = |A| + |B| - |A \cap B|.
+A more general form of the principle can be used to find the cardinality of any finite union of sets:
+:\begin
+\left|A_\cup A_\cup A_\cup\ldots\cup A_\right|=& \left (\left|A_\right|+\left|A_\right|+\left|A_\right|+\ldots\left|A_\right|\right) \\
+& - \left (\left|A_\cap A_\right|+\left|A_\cap A_\right|+\ldots\left|A_\cap A_\right|\right) \\
+& + \ldots \\
+& + \left (-1\right)^\left (\left|A_\cap A_\cap A_\cap\ldots\cap A_\right|\right).
+\end
+De Morgan's laws
+Augustus De Morgan stated two laws about sets.
+If A and B are any two sets then,
+The complement of A union B equals the complement of A intersected with the complement of B.
+The complement of A intersected with B is equal to the complement of A union to the complement of B.
+Notes

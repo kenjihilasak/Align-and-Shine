@@ -1,0 +1,16 @@
+Langage de balisage
+En informatique, un langage de balisage est un langage permettant de structurer (ranger) ou mettre en forme (présenter) des données en les organisant à l'aide de balises.
+Le langage de balisage le plus connu est sans doute le HTML qui sert à construire les pages Web.
+Un langage de balisage n'est pas un langage de programmation : on dit que c'est un langage de description parce qu'il ne sert pas à écrire des programmes mais à décrire des données.
+Un langage de programmation dit à un ordinateur ce qu'il doit faire alors qu'un langage de description lui dit juste comment comprendre ou afficher des informations.
+Il faut distinguer balises et données :
+les données sont les informations que l'on veut présenter ou organiser dans le document (par exemple, les informations d'une image ou une liste de choses à faire) ;
+une balise est un morceau de texte spécial qui permet de modifier le traitement des données auxquelles il se rapporte.
+Par exemple, en HTML, la balise permet de souligner du texte :
+l' écume des jours
+produit :
+l'écume des jours
+On utilise les balises deux par deux (une ouvrante et une fermante) pour encadrer des données ou seules quand elles représentent elles-mêmes les données.
+Ainsi, en HTML, la balise
+qui représente un retour à la ligne, s'utilise seule alors que s'utilise toujours avec sa balise fermante
+Les langages de l’informatique

@@ -1,0 +1,130 @@
+Mécanique céleste|Loi en physique|Kepler|Johannes Kepler|Loi scientifique découverte au XVIIe siècle
+En astronomie, les lois de Kepler décrivent les propriétés principales du mouvement des planètes autour du Soleil.
+Elles ont été découvertes par Johannes Kepler à partir des observations et mesures de la position des planètes faites par Tycho Brahe, mesures qui étaient très précises pour l'époque.
+Copernic avait soutenu en 1543 que les planètes tournaient autour du Soleil, mais il s'appuyait sur le mouvement circulaire uniforme, hérité de l'antiquité grecque, et les moyens mathématiques n'étaient pas si différents de ceux utilisés par Ptolémée pour son système géocentrique.
+Les deux premières lois de Kepler sont publiées en 1609 et la troisième en 1618.
+Les orbites elliptiques, telles qu'énoncées dans ses deux premières lois, permettent d'expliquer la complexité du mouvement apparent des planètes dans le ciel sans recourir aux épicycles, excentriques et autre équant (ou substituts de celui-ci) des modèles copernicien et ptoléméen.
+En 1687, s'appuyant sur les travaux de Galilée, Kepler et Huygens, Isaac Newton découvre la loi de la gravitation qui lui permet d'expliquer les trois lois de Kepler.
+Énoncé des trois lois de Kepler
+Première loi
+- Loi des orbites
+Les planètes du système solaire décrivent des trajectoires elliptiques, dont le Soleil occupe l'un des foyers.
+Dans le référentiel héliocentrique, le Soleil occupe toujours l'un des deux foyers de la trajectoire elliptique des planètes qui gravitent autour de lui.
+À strictement parler, c'est le centre de masse qui occupe ce foyer ;
+la plus grande différence est atteinte avec Jupiter qui, du fait de sa masse importante, décale ce centre de masse de ; soit solaires
+- des déplacements plus importants peuvent être obtenus en cumulant les effets des planètes sur leur orbite.
+Les ellipses que décrivent les centres de gravité des planètes sont quasi-circulaires, ayant une faible ou très faible excentricité orbitale, les plus élevées étant celles de Mercure (~0,2), suivie de celle de Mars (~0,09).
+C'est cette dernière que Kepler a utilisée pour sa découverte de la première loi, et il est aidé en cela par la faiblesse de l'excentricité de l'orbite de la Terre (~0,017) relativement à celle de Mars.
+Les foyers sont eux bien distincts du centre de l'ellipse.
+Deuxième loi
+- Loi des aires
+Si S est le Soleil et M
+une position quelconque d'une planète
+, l'aire (de la surface) balayée par le segment SM entre deux positions C et D est égale à l'aire balayée par ce segment entre deux positions E et F si la durée qui sépare les positions C et D est égale à la durée qui sépare les positions E et F.
+La vitesse d'une planète devient donc plus grande lorsque la planète se rapproche du Soleil.
+Elle est maximale au voisinage du rayon le plus court (périhélie), et minimale au voisinage du rayon le plus grand (aphélie).
+De cette deuxième loi, on déduit que la force exercée sur la planète est constamment dirigée vers le Soleil.
+Kepler écrira à un collègue :
+Une chose est certaine : du Soleil émane une force qui saisit la planète.
+De la loi des aires découle directement l'équation de Kepler qui permet de trouver l'aire parcourue en fonction de la position exacte d'une planète.
+En effet la deuxième loi de Kepler implique que la planète accélère en approchant du Soleil et décélère en s'éloignant du Soleil.
+La vitesse n'est donc pas constante mais seulement la vitesse aréolaire (la planète balaie des aires égales en des intervalles de temps égaux) .
+C'est pourquoi à \frac la planète n'a pas parcouru un angle de 90° mais a balayé une aire de \frac.
+L'équation est de la forme M
+= E
+- e \sin (E).
+Avec M l'aire parcourue (connue sous le nom d'anomalie moyenne), e l’excentricité et E
+l'angle au centre de l'ellipse.
+Comme l'équation de Kepler est non linéaire (en E), le problème inverse qui revient à trouver l'angle de la planète en fonction de l'aire (et donc du temps), ne possède pas de résolution simple.
+Mais il existe une solution exacte sous forme de séries (sommes infinies) ainsi que des approximations En obtenues par la méthode de Newton.
+En partant, par exemple, de E0=M on a :
+:::::::::::::::::: E_= E_n- \frac.
+Troisième loi
+- Loi des périodes
+Le carré de la période sidérale P d'une planète (temps entre deux passages successifs devant une étoile) est directement proportionnel au cube du demi-grand axe a de la trajectoire elliptique de la planète :
+: \left (\frac\right)^2\cdot a^3=
+avec k constant
+Les lois de la gravitation universelle énoncées par Isaac Newton permettent de déterminer cette constante en fonction de la constante gravitationnelle G, de la masse du Soleil M et de la masse de la planète m gravitant autour du Soleil
+selon
+k = G (M_\odot+m)
+soit, avec M>>m
+k = G M_\odot
+En exprimant les distances en unités astronomiques et les périodes en années, la loi s'exprime très simplement :
+:P = k'\sqrt
+De cette troisième loi, appelée aussi «
+loi harmonique de Kepler » (car elle exprime un invariant à travers tout le système solaire
+, « donc » une certaine harmonie de celui-ci, le mouvement de toutes les planètes
+étant unifié en une loi universelle)
+, on déduit qu'il existe un facteur constant entre la force exercée et la masse de la planète considérée, qui est la constante de gravitation universelle, ou constante gravitationnelle.
+Cette formule, avec celles de l'ellipse, permet de calculer les différents paramètres d'une trajectoire elliptique à partir de très peu d'informations.
+En effet, Johann Lambert (1728
+- 1777) montra que la connaissance de trois positions datées permettaient de retrouver les paramètres du mouvement.
+Forme newtonienne de la troisième loi de Kepler
+Isaac Newton comprit le lien entre les lois de la mécanique classique et la troisième loi de Kepler.
+Il en déduisit la formule suivante :
+T^2
+\fraca^3
+plus souvent sous la forme \frac
+\frac
+* a est le demi grand axe de la trajectoire elliptique,
+Dans le cas d'un système étoile/planète, la masse m de la planète peut être négligée par rapport à la masse M de l'étoile :
+: \frac=\frac \approx \frac
+On commence par établir la loi des aires :
+Soit \vec=\vec \wedge \vec.
+On a \frac\vec
+\vec \wedge \vec+\vec \wedge
+\vec
+Donc
+\vec
+r\vec\wedge (\dot\vec+r\dot\vec)
+r^2\dot\vec
+Cte
+\Lambda\vec.
+Soit dS l'aire balayée par le vecteur \vec pendant dt et \vec la variation de \vec pendant le même temps
+On a dS
+\frac\left \\vec\wedge\vec \right \|
+\fracr^2\dotdt
+\frac\Lambda dt d'où S (t)
+\frac
+:L'aire de l'ellipse valant \pi a^2\sqrt, on en déduit que \frac\Lambda T = \pi a^2\sqrt.
+De plus on a r (\theta)
+\frac \Rightarrow 2a
+r_+r_=\frac.
+On en déduit que \fracT
+\frac
+d'où, en élevant au carré T^2
+\fraca^3
+Quand ces lois s'appliquent-elles ?
+Un exercice mathématique classique consiste à démontrer qu'on trouve les trois lois de Kepler pour un corps en mouvement à partir du moment où on admet que ce corps est soumis à une accélération inversement proportionnelle au carré de sa distance à un point fixe, et dirigée vers ce point.
+On parle d'accélération en 1/r².
+Pour un même corps placé dans différentes conditions initiales, la troisième loi s'applique, avec un coefficient dépendant du problème.
+Cas de la gravitation
+En admettant que le Soleil soit infiniment lourd par rapport aux planètes, et en négligeant leurs interactions entre elles, on constate que les planètes sont soumises aux trois lois.
+De plus, en combinant le principe fondamental de la dynamique (deuxième loi de Newton) et la loi universelle de la gravitation, on trouve que l'accélération est indépendante de la masse du corps mobile dans le cas d'un mouvement pour lequel la force qui s'applique est la gravité.
+En conséquence, la constante de la troisième loi est la même pour toutes les planètes.
+On peut appliquer les lois de Kepler pour tout autre objet central ;
+seule la constante de la troisième loi change.
+C'est le cas, par exemple, de la Lune et de la Terre ou d'un satellite artificiel en orbite autour de celle-ci ou pour les multiples lunes de Saturne.
+Problème à deux corps
+Les lois de Kepler peuvent aussi s'appliquer dans le cas d'un problème à deux corps.
+Simplement, dans ce cas, le point central auxquelles se réfèrent les deux premières lois n'est pas le centre du corps le plus massif, mais le centre de masse des deux objets.
+Cas de forces autres que la gravitation
+Comme on l'a dit plus haut, les lois de Kepler ne sont pas limitées à la gravitation.
+Elles s'appliquent pour toute accélération en 1/r².
+Or c'est aussi le cas de la loi de Coulomb en électrostatique.
+Les lois de Kepler s'appliquent donc aussi aux électrons orbitant autour d'un noyau atomique.
+Le modèle de Bohr-Sommerfeld prévoit d'ailleurs des orbites elliptiques pour les électrons.
+Par contre, on n'a plus indépendance par rapport à la masse du corps mobile.
+La constante dans la troisième loi dépend des constantes de la force, et de la masse (indépendante d'un électron à l'autre).
+Toutefois aujourd'hui, la physique quantique considère que les électrons en orbite elliptique autour du noyau n'est qu'une approximation autrefois utile.
+Découverte de nouveaux corps célestes
+Johannes Kepler découvre ses lois grâce à un travail d'analyse considérable des observations astronomiques établies par Tycho Brahe, qui sont bien plus précises que celles déjà connues, il s'appuie en particulier sur les positions de Mars, dont il étudie le mouvement dès 1600.
+Il est persuadé que le soleil est, d'une façon ou d'un autre, le « véritable » centre du système solaire (pour les planètes extérieures comme Mars, Copernic utilise un point fictif voisin du soleil comme centre d'un cercle sur lequel tourne à vitesse uniforme le centre d'un petit épicycle portant la planète).
+Guidé par cette conviction et après de longs errements, il finit par découvrir que le mouvement des planètes est elliptique, avec le soleil placé en un foyer de l'ellipse.
+Ses résultats et la façon dont il y est parvenu sont consignés dans son ouvrage majeur, l'Astronomia nova, paru en 1609, mais de fait terminé fin 1605.
+Ses lois ont permis, elles-mêmes, d'affiner les recherches astronomiques et de mettre en évidence des irrégularités de mouvements de corps connus, par une étonnante progression de l'analyse.
+L'exemple le plus spectaculaire fut celui des irrégularités d'Uranus qui permit la découverte de Neptune par Le Verrier (1811
+- 1877)
+, par le calcul : découverte confirmée par l'observation de Galle (1812
+- 1910)
+en 1846.

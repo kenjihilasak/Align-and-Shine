@@ -1,0 +1,290 @@
+Polyèdre|Surface
+Un polyèdre est une forme géométrique à trois dimensions (un solide géométrique) ayant des faces planes polygonales qui se rencontrent selon des segments de droite qu'on appelle arêtes.
+Le mot polyèdre, signifiant à plusieurs faces, provient des racines grecques πολύς (polys), « beaucoup » et ἕδρα (hedra)
+, « base », « siège » ou « face ».Un polyèdre est un solide dont toutes les faces sont des polygones.
+Les côtés de ces polygones sont appelés arêtes.
+Les extrémités des arêtes sont des points appelés sommets.
+Historique
+Comme beaucoup d'autres concepts, la notion de polyèdre a été formellement introduite par les Grecs.
+Leur étude occupe une place tout à fait significative dans les Éléments d'Euclide et a, pour ce qui est des mathématiques, constitué l'une des préoccupations importantes de Platon.
+Il suffit cependant de contempler les pyramides pour réaliser que cette notion est perçue depuis des temps encore plus anciens.
+Après Platon, Euclide et Archimède dans l'Antiquité
+, l'étude des polyèdres a occupé nombre de bons esprits des temps modernes, et notamment ceux de Kepler, Euler, Poincaré, Hilbert
+Définition
+La définition donnée en introduction peut sembler suffisamment claire pour la plupart d'entre nous.
+Elle ne l'est pas pour un mathématicien.
+Aussi étrange que cela puisse paraître, dans la mesure où le concept de polyèdre ne fait pas référence à la dimension de l'espace dans lequel il se trouve, il n'existe pas de définition universellement agréée sur ce qui fait que « quelque chose » soit un polyèdre (le cœur du problème vient de ce que la notion intuitive de polyèdre n'est pas exactement la même selon qu'on a dans l'idée une surface ou un volume).
+Afin d'obvier à cette difficulté, on introduit la notion de simplexe.
+On peut la considérer comme équivalente à celle de polyèdre en dimension 3 et elle permet des généralisations aux dimensions supérieures.
+Un polyèdre P de dimension p est alors la réunion d'un ensemble fini de simplexes S_i de dimension q_i \le p tel que chacune des d-faces (d \le q_i) d'un simplexe S_i est un élément de P, et tel que pour tout couple de simplexe (S_i, S_j) l'intersection S_i
+\cap S_j est soit vide soit une (d-1)-face commune à S_i et S_j.
+Ainsi un simplexe représente-t-il une définition généralisable de la notion intuitive de polyèdre.
+Il est la réunion de ses d-faces, et l'intersection de deux d-faces quelconques d'un simplexe est soit vide soit une face de dimension d-1.
+Par exemple, un triangle, qui est un 2-simplexe, est la réunion de segments, et l'intersection de deux segments adjacents est un point qui est un sommet du triangle.
+Un polyèdre apparaît ainsi comme construit à partir de différentes sortes d'éléments ou d'entités, présentant un nombre différent de dimensions :
+* 3 dimensions :
+le corps est limité par les faces et correspond habituellement au volume compris à l'intérieur.
+* 2 dimensions : une face est limitée par un circuit d'arêtes et est habituellement une région plane appelée un polygone.
+Les faces mises ensemble forment la surface polyédrique.
+* 1 dimension : une arête joint un sommet à un autre et une face à une autre et est habituellement une droite d'une certaine sorte.
+Les arêtes mises ensemble forment le squelette polyédrique.
+Il s'ensuit que l'objet ci-dessous n'est pas un polyèdre au sens de cette définition.
+En effet, la face supérieure de la boîte n'est pas limitée par un mais par deux circuits d'arêtes : l'un qui la limite extérieurement et l'autre qui la limite intérieurement.
+Plus généralement en mathématiques et dans d'autres disciplines, le terme « polyèdre » est utilisé pour faire référence à une variété de constructions reliées, certaines géométriques et d'autres purement algébriques ou abstraites.
+En particulier, un polytope est un polyèdre convexe et borné
+Dans , et définissent les polyèdres par un ensemble fini de polygones planaires tels que chaque arête d’
+un polygone est partagée par un seul autre polygone, et aucun autre sous-ensemble des polygones ne possède cette propriété.
+Cette définition implique des contraintes strictes : par exemple, les polyèdres ne doivent pas présenter d’auto-intersections.
+Propriétés caractéristiques
+Nomenclature
+Les polyèdres sont en général nommés selon leur nombre de faces.
+La nomenclature est basée sur le grec classique.
+On a ainsi, par exemple : tétraèdre (4 faces), pentaèdre (5 faces), hexaèdre (6 faces), heptaèdre (7 faces), triacontaèdre (30 faces), et ainsi de suite.
+Cette méthode de désignation a son équivalent dans la nomenclature des polygones.
+Arêtes
+Les arêtes ont deux caractéristiques importantes (à moins que le polyèdre ne soit complexe) :
+Ces deux caractéristiques sont duales.
+Convexité
+Un polyèdre est dit convexe si tout point de tout segment joignant deux points quelconques du polyèdre appartient au polyèdre.
+Autrement dit, un polyèdre est convexe si toutes ses diagonales sont entièrement contenues dans son intérieur.
+Il est possible de donner une définition barycentrique d'un tel polyèdre : c'est l'enveloppe convexe d'un ensemble fini de points non coplanaires.
+Caractéristique d'Euler
+Soit un polyèdre.
+Si l'on note :
+on appelle caractéristique d'Euler le nombre
+\chi \equiv f
+- a + s
+Pour un polyèdre convexe, cette caractéristique vaut toujours 2.
+C'est la relation d'Euler
+\chi \equiv f
+- a + s = 2.
+Dualité
+Pour chaque polyèdre, il existe un polyèdre dual ayant des faces à la place des sommets originaux et vice versa.
+Dans la plupart des cas, le dual peut être obtenu par le processus de réciprocité sphérique.
+Le dual d'un polyèdre régulier peut se construire en joignant les centres des faces adjacentes.
+Polyèdres simples
+Un polyèdre est une forme tridimensionnelle qui se compose d'un nombre fini de faces polygonales qui sont des parties de plans ;
+les faces se rencontrent le long des arêtes qui sont des segments de droite, et les arêtes se rencontrent aux points nommés sommets.
+Les cubes, les prismes et les pyramides sont des exemples de polyèdres.
+Le plus souvent, le polyèdre délimite un volume limité de l'espace à trois dimensions.
+Quelquefois, ce volume intérieur est considéré être une partie du polyèdre ;
+d'autres fois, seule la surface est considérée.
+Les polyèdres traditionnels incluent les cinq polyèdres convexes réguliers que l'on nomme les solides de Platon : le tétraèdre (4 faces), le cube (ou hexaèdre) (6 faces), l'octaèdre (8 faces), le dodécaèdre régulier (12 faces) et l'icosaèdre (20 faces).
+Les autres polyèdres traditionnels sont les quatre polyèdres non convexes réguliers (les solides de Kepler-Poinsot), les treize solides d'Archimède convexes (cuboctaèdre, icosidodécaèdre, tétraèdre tronqué, cube tronqué, octaèdre tronqué, dodécaèdre tronqué, icosaèdre tronqué, cuboctaèdre tronqué, icosidodécaèdre tronqué, rhombicuboctaèdre, cube adouci, dodécaèdre adouci et rhombicosidodécaèdre) et les 53 polyèdres uniformes restants.
+Plus petit polyèdre
+Un polyèdre possède au moins 4 faces, 4 sommets et 6 arêtes.
+Le plus petit polyèdre est le tétraèdre.
+Les polyèdres symétriques
+On peut définir diverses classes de polyèdres présentant des symétries particulières :
+* sommet uniforme : si tous les sommets sont les mêmes, au sens où pour deux sommets quelconques, il existe une symétrie du polyèdre appliquant le premier isométriquement sur le deuxième ;
+* arête uniforme : si toutes les arêtes sont les mêmes, au sens où pour deux arêtes quelconques
+, il existe une symétrie du polyèdre appliquant le premier isométriquement sur le deuxième ;
+* :
+si toutes les faces sont les mêmes, au sens où pour deux faces quelconques, il existe une symétrie du polyèdre appliquant le premier isométriquement sur le deuxième ;
+* quasi régulier :
+si le polyèdre est d'arête uniforme mais pas soit de face uniforme ou de sommet uniforme ;
+* semi-régulier : si le polyèdre est de sommet uniforme mais pas de face uniforme et chaque face est un polygone régulier.
+(c'est une des nombreuses définitions du terme, dépendant de l'auteur, qui chevauchent la catégorie quasi régulière) ;
+* régulier : si le polyèdre est de sommet uniforme, d'arête uniforme et de face uniforme.
+(l'uniformité des sommets et l'uniformité des arêtes combinées implique que les faces sont régulières) ;
+* uniforme : si le polyèdre est de sommet uniforme et chaque face est un polygone régulier, i.e.
+il est régulier ou semi-régulier.
+On appelle solide uniforme un solide dont toutes les faces sont régulières et tous les sommets identiques.
+Ainsi sont donc tous les solides réguliers et semi-réguliers précédents.
+Ils sont en tout 75, auxquels il faut ajouter les deux familles infinies des prismes et des antiprismes.
+Bien sûr, il est facile de tordre de tels polyèdres, de telle façon qu'ils ne sont plus symétriques.
+Mais, lorsqu'un nom de polyèdre est donné, tel que l'icosidodécaèdre, la géométrie la plus symétrique est toujours impliquée, sauf indication contraire.
+Les groupes de symétrie polyédriques sont tous des groupes ponctuels et incluent :
+* T
+- symétrie tétraédrique chirale ;
+le groupe des rotations du tétraèdre régulier ;
+ordre 12.
+Td - symétrie tétraédrique complète ;
+le groupe de symétrie du tétraèdre régulier ;
+ordre 24.
+- symétrie pyritoédrique ;
+ordre 24.
+La symétrie d'un pyritoèdre.
+* O
+- symétrie octaédrique chirale ;
+le groupe des rotations du cube et de l'octaèdre régulier ;
+ordre 24.
+* Oh
+- symétrie octaédrique complète ;
+le groupe de symétrie du cube et de l'octaèdre régulier ;
+ordre 48.
+- symétrie icosaédrique chirale ;
+le groupe des rotations de l'icosaèdre et du dodécaèdre régulier ;
+ordre 60.
+- symétrie icosaédrique complète ;
+le groupe de symétrie de l'icosaèdre et du dodécaèdre régulier ;
+ordre 120.
+Les polyèdres à symétrie chirale n'ont pas de symétrie axiale et par conséquent ont deux formes énantiomorphes qui sont les réflexions l'un de l'autre.
+Les polyèdres adoucis ont cette propriété.
+Polyèdres réguliers
+Un polyèdre régulier possède des faces régulières et des sommets réguliers.
+Le dual d'un polyèdre régulier est aussi régulier.
+Partons d'un sommet et prenons les points situés à une distance donnée sur chacune des arêtes.
+Relions ces points, nous obtenons le polygone du sommet.
+Si celui-ci est régulier on dit que le sommet est régulier.
+Un polyèdre est régulier s'il est constitué de faces toutes identiques et régulières, et que tous ses sommets sont identiques.
+Ils sont au nombre de neuf, classiquement répartis en deux familles :
+* les cinq solides de Platon
+ou polyèdres réguliers
+convexes : tétraèdre, cube, octaèdre, dodécaèdre régulier et icosaèdre réguliers.
+Platon considérait ces solides comme l'image de la perfection.
+Les mathématiques modernes rattachent ces exemples à la notion de groupe.
+Fichier
+Tetrahedron.svg
+Fichier
+Hexahedron.svg
+Fichier
+Octahedron.svg
+Fichier
+POV
+Ray
+Dodecahedron.svg
+Fichier
+Icosahedron.svg
+* les quatre polyèdres de Kepler-Poinsot, ou polyèdres réguliers étoilés.
+Polyèdres quasi réguliers et duaux
+Les polyèdres quasi réguliers sont à faces régulières, de sommet uniforme et d'arête uniforme.
+Il en existe deux convexes :
+Les polyèdres duaux quasi réguliers sont d'arête uniforme et de
+Il en existe deux convexes, en correspondance avec les deux précédents :
+Les polyèdres semi-réguliers et leurs duaux
+Le terme semi-régulier est diversement défini.
+Une définition consiste en « des polyèdres de sommet uniforme avec deux sortes ou plus de faces polygonales ».
+Ils sont effectivement les polyèdres uniformes qui ne sont ni réguliers, ni quasi réguliers.
+Un polyèdre est semi-régulier si ses faces sont constituées de plusieurs sortes de polygones réguliers, et que tous ses sommets sont identiques.
+Ainsi sont par exemple les solides d'Archimède, les prismes et les antiprismes réguliers.
+La terminologie ne paraît pas tout à fait arrêtée.
+On parle parfois de solides semi-réguliers de la première espèce pour désigner ceux de ces solides qui sont convexes, et de solides uniformes pour le cas général.
+Les polyèdres de Catalan ne sont pas semi-réguliers, mais ont des faces identiques et des sommets réguliers.
+On dit parfois de tels polyèdres qu'ils sont semi-réguliers de la seconde espèce.
+Les polyèdres convexes et leurs duaux incluent les ensembles des :
+Il existe aussi beaucoup de polyèdres uniformes non convexes, incluant des exemples de divers sortes de prismes.
+Polyèdres nobles
+Un est à la fois (faces égales) et isogonal (de coins égaux).
+En plus des polyèdres réguliers, il existe beaucoup d'autres exemples.
+Le dual d'un polyèdre noble est aussi un polyèdre noble.
+Autres polyèdres à faces régulières
+Faces égales régulières
+Quelques familles de polyèdres, où chaque face est un polygone de même sorte :
+* Les deltaèdres ont des triangles équilatéraux pour faces.
+* En ce qui concerne les polyèdres dont les faces sont toutes des carrés :
+il n'existe que le cube, si les faces coplanaires ne sont pas permises, même si elles sont déconnectées.
+Autrement, il existe aussi le résultat du collage de six cubes sur les faces d'un seul, tous les sept de la même taille;
+il possède 30 faces carrées (comptant pour des faces déconnectées dans le même plan comme séparé).
+Ceci peut être étendu à une, deux ou trois directions : nous pouvons considérer l'union d'un grand nombre arbitraire de copies de ces structures, obtenues par translations de (exprimé en tailles de cubes) (2,0,0), (0,2,0), et/ou (0,0,2), par conséquent avec chaque paire adjacente ayant un cube en commun.
+Le résultat peut être un ensemble quelconque de cubes connectés avec les positions (a,b,c), avec les entiers a,b,c ou un au plus est pair.
+Il n'existe pas de nom particulier pour les polyèdres qui ont toutes les faces en forme de pentagones équilatéraux ou en pentagrammes.
+Il existe une infinité d'entre eux, mais seulement un est convexe : le dodécaèdre régulier.
+Le reste est assemblé par (collages) combinaisons de polyèdres réguliers décrit précédemment : le dodécaèdre régulier, le petit dodécaèdre étoilé, le grand dodécaèdre étoilé et le grand icosaèdre.
+Il n'existe pas de polyèdre dont les faces sont toutes identiques et qui sont des polygones réguliers avec six côtés ou plus car le point de rencontre de trois hexagones réguliers définit un plan.
+(voir polyèdre oblique infini pour les exceptions).
+Deltaèdres
+Un deltaèdre est un polyèdre dont les faces sont toutes des triangles équilatéraux.
+Il en existe une infinité, mais seuls huit sont convexes :
+* 3 polyèdres réguliers
+convexes (3 des solides de Platon)
+* 5 polyèdres non uniformes convexes (
+5 des solides de Johnson)
+Les solides de Johnson
+Norman Johnson a cherché les polyèdres non uniformes ayant des faces régulières.
+En 1966, il publia une liste de 92 solides convexes, maintenant connus comme les solides de Johnson, et leur donna leurs noms et leurs nombres.
+Il ne prouva pas qu'ils n'étaient que 92, mais il conjectura qu'il n'y en avait pas d'autres.
+, en 1969, démontra que la liste de Johnson était complète.
+Les autres familles de polyèdres
+Les pyramides
+Les pyramides sont autoduales.
+Les stellations et les facettages
+Fichier
+First stellation of octahedron.png
+Fichier:
+First stellation of dodecahedron.png
+Fichier:
+Second stellation of dodecahedron.png
+Fichier:
+Third stellation of dodecahedron.png
+Fichier
+Sixteenth stellation of icosahedron.png
+Fichier
+First stellation of icosahedron.png
+Fichier
+Seventeenth stellation of icosahedron.png
+La stellation d'un polyèdre est le processus d'expansion des faces (dans leurs plans), c’est-à-dire qu'elles se rencontrent pour former un nouveau polyèdre.
+C'est la réciproque exacte du facettage qui est le processus d'enlèvement de parties d'un polyèdre sans créer de nouveau sommets quelconques.
+Le facettage permet d'obtenir, entre autres, de nombreux nouveaux solides semi-réguliers concaves.
+On construit de nouvelles faces régulières en regroupant les arêtes d'un polyèdre semi-régulier.
+Le plus simple est un héptaèdre construit à partir de l'octaèdre, constitué de trois faces carrées et de quatre faces triangulaires.
+Troncatures
+C'est l'opération qui consiste à raboter un sommet ou une arête.
+Elle conserve les symétries du solide.
+Troncature des sommets
+Cette opération permet d'obtenir sept des solides d'Archimède à partir des solides de Platon.
+On remarque en effet qu'en rabotant de plus en plus les arêtes d'un cube on obtient successivement le cube tronqué, le cuboctaèdre, l'octaèdre tronqué et enfin l'octaèdre.
+On peut aussi suivre cette série dans l'autre sens.
+En partant du dodécaèdre régulier on obtient le dodécaèdre tronqué, l'icosidodécaèdre, l'icosaèdre tronqué (qui donne sa forme au ballon de football), puis l'octaèdre.
+Le tétraèdre donne le tétraèdre tronqué.
+On peut appliquer cette opération au grand dodécaèdre ou au grand icosaèdre et obtenir des solides uniformes concaves.
+Troncature des arêtes
+À partir d'un cube, cette opération donne successivement un cuboctaèdre, puis un dodécaèdre rhombique.
+À partir d'un dodécaèdre régulier, on obtient l'icosidodécaèdre puis le triacontaèdre rhombique.
+Les composés
+Les composés polyédriques sont formés comme des composés de deux polyèdres et plus.
+Ces composés partagent souvent les mêmes sommets que les autres polyèdres et sont souvent formés par stellation.
+Certains sont listés dans la .
+Les zonoèdres
+Un zonoèdre est un polyèdre convexe
+où chaque face est un polygone avec une symétrie inverse ou, de manière équivalente, des rotations à 180°.
+Généralisations de polyèdres
+Le mot « polyèdre » a été employé pour une variété d'objets ayant des propriétés structurelles similaires aux polyèdres traditionnels.
+Les polyèdres complexes
+Un est un polyèdre qui est construit dans un espace à trois dimensions complexes.
+Cet espace possède six dimensions : trois dimensions réelles correspondant à l'espace ordinaire, avec une dimension imaginaire accompagnant chacune.
+Les polyèdres courbés
+Certains champs d'étude permettent aux polyèdres d'avoir des faces et des arêtes courbées.
+Les polyèdres sphériques
+La surface d'une sphère peut être divisée par des arcs de grands cercles (délimitant des régions appelées polygones sphériques) pour former un .
+Ce point de vue est très adapté pour démontrer une grande partie de la théorie des polyèdres symétriques.
+Les polyèdres courbés remplissant l'espace
+Les deux types importants sont :
+* Les formes remplissant l'espace utilisées en architecture.
+Les polyèdres généraux
+Plus récemment, les mathématiciens ont défini un polyèdre comme un ensemble dans un espace affine réel (ou euclidien) de dimension quelconque n qui possède des côtés plats.
+Il peut être défini comme l'union d'un nombre fini de polyèdres convexes, où un polyèdre convexe est un ensemble quelconque qui est l'intersection d'un nombre fini de demi-espaces.
+Il peut être borné ou non borné.
+Dans ce sens, un polytope est un polyèdre borné.
+Tous les polyèdres traditionnels sont des polyèdres généraux, et en plus, il existe des exemples tels
+que :
+Un quadrant dans le plan
+Par exemple, la région du plan cartésien constituée de tous les points au-dessus de l'axe des abscisses et à droite de l'axe des ordonnées :
+Ses côtés sont les deux axes positifs.
+Un octant dans l'espace à trois dimensions euclidien,
+* Un prisme d'extension infinie.
+Par exemple, un prisme carré doublement infini dans l'espace tridimensionnel, constitué d'un carré dans le plan xy balayé le long de l'axe z : .
+* Chaque cellule dans un pavage de Voronoï est un polyèdre convexe.
+Dans le pavage de Voronoï d'un ensemble S, la cellule A correspondant à un point c∈S est bornée (et est par conséquent un polyèdre traditionnel) lorsque c est placé dans l'intérieur de l'enveloppe convexe de S, et autrement (lorsque c est placé sur la frontière de l'enveloppe convexe de S) A est non bornée.
+Quelques exemples de polyèdres dans les arts plastiques et l’architecture
+* Les polyèdres réguliers dessinés par Léonard de Vinci,
+pour illustrer la Divine Proportion, de Luca Pacioli
+* Portrait de Luca Pacioli,
+par Jacopo de’ Barbari, 1495
+* Melencolia I
+Albrecht Dürer, 1514.
+Un polyèdre à huit faces est représenté.
+Il faut noter qu’
+Albrecht Dürer et Jacopo de’ Barbari se connaissaient.
+Les "cubes" d'Alberto Giacometti, 1934, qui font référence au polyèdre de Dürer
+De nombreuses peintures et sculptures de Sol LeWitt représentent des polyèdres.
+* Tony Smith, un autre artiste minimaliste, a utilisé ces formes géométriques, par exemple Wandering Rocks, Milwaukee, 1967
+La série Melancholia d'Anselm Kiefer, commence en 1988, et fait référence à Dürer.
+* Marathon de Henk Visch, Rotterdam
+Un polyèdre irrégulier et coloré.
+* Les polyèdres irréguliers appelés Moduloform par le NeoConsortium
+* Les docks
+- Cité de la Mode et du Design, Paris, 2008, cabinet Jacob + Mac Farlane
+* La Caverne du Pont d'Arc, 2015, Vallon-Pont-d'
+Arc, cabinet
+Fabre/Speller

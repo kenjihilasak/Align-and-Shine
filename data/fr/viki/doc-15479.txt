@@ -1,0 +1,112 @@
+Langage de programmation
+Un langage de programmation est un code de communication entre un humain et une machine .
+À l'aide de ces langages, on peut écrire des programmes.
+Un ordinateur peut être vu comme un petit robot installé entre un tapis roulant et de nombreuses ardoises.
+Le tapis roulant lui amène des ordres très simples, les uns après les autres, comme « écris K sur l'ardoise n°42 » ou « remplace le contenu de l'ardoise n°17 par celui de l'ardoise n°18 ».
+Il ne peut faire que ça : lire ce que lui amène le tapis roulant puis lire ou modifier ce qui est écrit sur les ardoises.
+Dans la réalité, ce petit robot s'appelle processeur et, au lieu de recevoir ses ordres sous forme de phrases, il récupère une suite de nombres (précisément des 0 et des 1 : c'est le binaire).
+Par exemple, pour lui, « 1110100110010
+» peut signifier « écris la lettreK sur l'ardoise n°42 ».
+Quand il reçoit cet ordre, le processeur l'exécute immédiatement ;
+c'est pour cela qu'on dit qu'un ordinateur est stupide et ne fait que ce qu'on lui dit.
+Quand on veut faire effectuer une tâche par un ordinateur, on doit donc mettre les ordres correspondants sur le tapis roulant, afin que le processeur les lise et les exécute.
+Une suite de tels ordres est appelée programme.
+Tous les programmes, même les plus complexes (comme le navigateur Web et même le système d'exploitation), sont en fait une suite d'ordres aussi simples que dans notre exemple.
+Bien sûr, ces ordres sont beaucoup trop simples pour représenter facilement une opération aussi complexe que, par exemple, l'affichage d'une page Web ;
+c'est pourquoi il en faut une très longue suite, de la même façon qu'une chose aussi simple qu'un atome permet de construire le cerveau s'ils y en a beaucoup et s'ils sont bien agencés.
+On voit bien, cependant, qu'il est très difficile d'exprimer (et de vérifier) le comportement d'un programme comme une très longue suite de tels nombres.
+C'est pourquoi on a inventé les langages de programmation : des façons beaucoup plus naturelles pour les humains d'exprimer leurs ordres mais qu'on peut toujours traduire en langage machine (la suite d'ordres donnés au processeur en binaire).
+Le premier langage de programmation, le langage d'assemblage, consiste (presque) seulement à donner un nom aux ordres numériques : par exemple, au lieu de « 1011 1001011 101010 »
+, on écrira quelque chose comme « écris K 42 » ;
+un petit programme appelé assembleur remplacera « écris » par 1011 ainsi de suite en binaire que le processeur comprend.
+Ce n'est pas très avancé, mais « écris K 42 » est déjà bien plus lisible par les humains, et avec un peu de pratique, on comprend facilement que ça signifie « met K dans l’ardoise n°42 ».
+On a par la suite inventé des langages plus évolués, comme Fortran ou le C, qui sont bien moins proches du langage machine (binaire) et nécessitent donc une importante phase de traduction (appelée compilation) avant d'être compréhensibles par le processeur ;
+certains sont toujours très utilisés, d'autres ont disparu et il s'en crée régulièrement de nouveaux pour correspondre aux besoins des programmeurs.
+Le langage machine est une suite d'instructions qui seront interprétées par le processeur de l'ordinateur.
+Le nombre et la nature de ces instructions dépendent donc du type de processeur utilisé.
+Elles sont en nombre limité : déplacement d'un nombre, addition, soustraction, comparaison de deux valeurs, saut vers une autre instruction, etc.
+Ces instructions ne disent pas grand-chose à un être humain : c'est juste une suite de nombres.
+Il est très compliqué d'écrire des programmes en langage machine.
+À l'origine de l'informatique, c'était pourtant le seul moyen de communiquer avec un ordinateur.
+Pour simplifier la vie des programmeurs, on a inventé le langage d'assemblage (aussi appelé, par abus de langage, « assembleur »).
+Il s'agit toujours d'utiliser les instructions spécifiques du processeur, mais des mots remplacent les nombres.
+Voici
+, par exemple, un extrait de programme écrit pour un processeur Motorola :
+Dans cet exemple, on efface un registre (une petite mémoire, comme une ardoise), on y ajoute 1, on compare avec 10 et on recommence la même opération d'addition tant que le registre ne contient pas 10.
+Pour être exécuté, un programme écrit en langage d'assemblage doit d'abord être traduit en langage machine grâce à un programme spécial : c'est l'assembleur.
+Très vite, on a cherché à simplifier encore le travail des programmeurs en offrant des langages beaucoup plus évolués, et surtout qui ne dépendent plus du processeur utilisé.
+Le premier était Fortran, qui est toujours utilisé aujourd'hui.
+Beaucoup de langages ont été inventés depuis.
+Certains anciens langages ont été oubliés, certains sont toujours améliorés, d'autres continuent à apparaître aujourd'hui.
+Les fichiers d'un programme écrit en langage de haut niveau constituent le code source de ce programme.
+Comme pour le langage d'assemblage, ils doivent être traduits en langage machine par un programme spécial, le compilateur.
+Un programme qui a été traduit en langage machine peut être compris par l'ordinateur, mais est beaucoup plus compliqué à comprendre pour un être humain.
+Dans pratiquement tous les langages de programmation, certaines notions élémentaires reviennent
+car c'est à la fois ce que les programmeurs trouvent le plus pratique et ce que les compilateurs manipulent le mieux :
+Les commentaires sont des portions du code source ignorées par le compilateur.
+Ils permettent donc au programmeur d'écrire ce qu'il veut (le plus souvent, des explications) sans rendre son code invalide.
+Un exemple de commentaires est donné à la section suivante.
+Une variable associe un nom (symbole) à une valeur (qui peut éventuellement changer pendant le déroulement du programme).
+Voici un exemple, dans le langage Python :
+# En Python
+, les commentaires commencent par {{"|#}} et s'étendent sur toute la ligne.a=42# on associe le nombre 42 à la variable {{"|a}}b=8# on associe le nombre 8 à la variable {{"|b}}c=a+b# la variable c contient donc 42 + 8,
+Dans de nombreux langages, chaque donnée (une variable par exemple) est associée à une certaine catégorie de valeurs (comme les nombres entiers ou vrai/faux).
+Cette catégorie s'appelle un type et on dit alors que les données sont typées.
+Pour en savoir plus, lire l’article : Type.
+Une fonction est un ensemble d'instructions réalisant une certaine tâche.
+Pour exécuter ces instructions, on doit appeler la fonction en utilisant son nom et en lui passant les informations dont elle a besoin pour travailler.
+Par exemple, voici une fonction (toujours en Python) qui trouve le maximum (le plus grand) de deux nombres :
+On définit la fonction {{"|maximum}} :defmaximum(a,b):#
+On l'appelle avec deux variables a et b (ses {{"|paramètres}}).ifa>b:#
+Si a est plus grand que b ...returna# ... alors la fonction retourne a (le maximum de a et b).returnb# Sinon, elle retourne b (le maximum de a et b).
+Voyons le résultat :
+x=maximum(42,8)print(x)#
+Affiche 42 à l'écran (
+car 42 est plus grand que 8).
+Voici quelques exemples de langages, mais il en existe une multitude d'autres .
+Le Fortran (abréviation de mathematicalFORmula TRANslating system, « système de traduction de formules mathématiques » en anglais) est le premier langage de programmation évolué de l'histoire de l'informatique.
+Il est créé en 1954-1957 par John Backus chez IBM pour simplifier le dialogue avec la machine et le rendre plus proche du langage humain.
+COBOL (acronymeanglais de COmmon Business Oriented Language, « langage de gestion commun ») est un langage de programmation créé en 1959.
+Le but était de créer un langage de programmation proche du langage naturel humain, avec des phrases complètes rédigées en anglais, sans oublier le point à la fin de la phrase !
+COBOL est un langage bavard.
+Le même petit programme qu'en assembleur (voir plus haut) donnerait cette ligne d'instruction en COBOL, mais elle devrait être précédée d'une douzaine d'autres pour préciser le contexte :
+COBOL était de loin le langage le plus employé dans les domaines de la gestion et la comptabilité jusque dans les années 1980, et reste toujours utilisé en particulier dans les banques.
+C'est en partie l'existence de programmes anciens dans ce langage qui a fait craindre le bogue de l'an 2000.
+BASIC (acronymeanglais de Beginner’s All-purpose
+Symbolic Instruction
+Code, « langage de programmation multi-usages pour débutants ») est inventé en 1964.
+Il est devenu célèbre car un interpréteur BASIC équipait tous les premiers ordinateurs personnels dans les années 80.
+Comme son nom l'indique, il a été conçu pour être facilement et rapidement appris par un débutant.
+Des variantes de ce langage sont encore utilisées de nos jours (par exemple Small Basic).
+Le même petit programme que précédemment (compter dans une variableA de 1 à 10) donnerait ceci en BASIC :
+C'est aujourd'hui l'un des langages les plus utilisés par les programmeurs : on le retrouve en quantité dans Linux, Windows et de très nombreux autres logiciels.
+#include intmain(void){for(inti=1;i<=10;i++){printf("%s","Hello, world!\n");// Ce texte sera écrit 10 fois !}}
+Dans la boucle (for (...)
+{ ... }), l'appel à la fonction printf sert à insérer du texte.
+Le langage C++ est une version modifiée du langage C. Il a été inventé par Bjarne Stroustrup entre 1979 et 1983.
+Un code en langage C est très souvent valide en C++.
+On peut par contre utiliser des constructions en C++ qui n'existent pas en C.
+Le C++ est beaucoup utilisé, notamment dans les jeux vidéo.
+Cependant, il est bien plus complexe que le C et donc plus difficile à apprendre.
+Voici un exemple de code avec une boucle qui va écrire dix fois Hello World :
+Le langage Java est apparu en 1995.
+Il a été inventé par James Gosling et Patrick Naughton, qui travaillaient alors pour l'entreprise Sun Microsystems.
+À première vue, il ressemble beaucoup au langage C++ (et donc au langage C), ce qui est normal car il s'en inspire.
+En fait, il y a énormément de différences entre les deux.
+Un des objectifs de Java était de permettre de créer des programmes qui fonctionnent sur tous les ordinateurs.
+C'est quelque chose qui n'est pas facile à faire avec du C++, par exemple.
+Pour cela, les programmes écrits en Java ne sont pas traduits directement en langage machine.
+Un logiciel, la machine virtuelle, se charge d'exécuter le programme à la place du processeur.
+Le Java est utilisé par de très nombreux programmeurs et dans beaucoup d'entreprises.
+Un jeu très connu codé en Java est Minecraft !
+Attention,
+Java et JavaScript sont deux langages différents, qui ne se ressemblent que par leur nom !
+Ce langage a été créé en 1994 par Rasmus Lerdorf pour son site Web.
+Le programme est exécuté en principe sur un serveur Web (une machine sur laquelle on se connecte pour lire des pages Web).
+Son principal intérêt est de permettre de fabriquer simplement des pages HTML.
+Au fil du temps, ce langage s'est enrichi et il peut fonctionner maintenant comme n'importe quel autre langage.
+Vikidia
+Le programme qui affiche les pages de Vikidia est écrit en PHP !
+Bien sûr, quand tu modifies une page de Vikidia, tu ne modifies pas le code source.
+Le langage LOGO a été créé pour être facilement utilisé par de jeunes élèves en leur apprenant les bases de la programmation et de l’algorithmique.
+Il est notamment connu pour sa « tortue », qui permet de dessiner à l’écran comme si on donnait des ordres (« tourne à gauche », « avance ») à une tortue qui dessinerait une ligne derrière elle.

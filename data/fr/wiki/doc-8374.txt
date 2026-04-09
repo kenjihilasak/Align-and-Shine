@@ -1,0 +1,82 @@
+Projection cartographique|Mercator|Histoire de la géographie
+La projection de Mercator ou projection Mercator est une projection cylindrique tangente à l'équateur du globe terrestre sur une carte plane formalisée par le géographe flamand, Gerardus Mercator en 1569.
+Elle s'est imposée comme le planisphère standard dans le monde grâce à sa précision pour les voyages marins.
+La projection de Mercator est une projection conforme, c’est-à-dire qu'elle conserve les angles.
+Elle a cependant pour effet des déformations sur les distances et les aires.
+En effet, une distorsion s’accroît au fur et à mesure de l'éloignement de l'équateur vers les pôles.
+Une carte de Mercator ne peut ainsi couvrir les pôles : ils seraient infiniment grands.
+Cela a par exemple pour conséquence la vision d'une égalité de surface entre le Groenland et l'Afrique alors que cette dernière est 14 fois plus grande.
+Le principe de représentation sur un canevas orthogonal avait été esquissé par Dicéarque, Strabon et utilisé par Marinos de Tyr.
+Il était également connu des Chinois au ap.
+Propriétés
+Intérêt pour la navigation
+La plupart des cartes marines utilisent la projection de Mercator.
+Cette projection conforme conserve les angles mais pas les distances ni les surfaces (contrairement aux projections équivalentes).
+Toute ligne
+droite sur une carte de Mercator est une ligne d'azimut constant, c'est-à-dire une loxodromie.
+Ceci la rend particulièrement utile aux marins, même si le trajet ainsi défini n'est généralement pas sur un grand cercle et n'est donc pas le chemin le plus court.
+Déformations
+Les cartes traditionnelles inspirées des travaux de Mercator destinés à la navigation ont pour principal défaut de donner une idée erronée des surfaces occupées par les différentes régions du monde, et donc des rapports entre les peuples.
+Ainsi :
+* L’Amérique du Sud
+semble plus petite que le Groenland ;
+en réalité, elle est huit fois plus grande : de kilomètres carrés contre .
+* L’Inde ( de kilomètres carrés)
+semble de taille identique à la Scandinavie ( carrés).
+* L’Europe ( de kilomètres carrés)
+semble plus étendue que l’Amérique du Sud, pourtant près de deux fois plus grande ( de kilomètres carrés).
+* La Russie ( de kilomètres carrés)
+semble beaucoup plus étendue que l'Afrique ( de kilomètres carrés) alors que cette dernière est plus grande que l'Inde, la Chine, les États-Unis, l'Europe et le Japon réunis.
+L'Alaska apparaît aussi grand que le Brésil qui est pourtant plus étendu.
+L'Antarctique apparaît comme le plus grand continent, alors qu'il n'est en réalité que le cinquième par sa superficie.
+* L'Afrique apparaît de taille équivalente au Groenland alors qu'elle est de plus étendue
+Pour pallier ces déformations, Arno Peters proposa une projection cylindrique (comme celle de Mercator) qui préserve les superficies relatives : la projection de Peters.
+Elle perd en revanche le caractère conforme, c'est-à-dire qu'elle ne préserve pas les angles et donc la forme des continents.
+Formules de la projection de Mercator à partir d'une Terre sphérique
+Les équations suivantes déterminent les coordonnées x et y d'un point sur une carte de Mercator à partir de sa latitude φ et de sa longitude λ en faisant l'approximation d'une Terre modélisée par une sphère.
+Par construction de la projection de Mercator, la coordonnée y tend vers l'infini lorsque le point se rapproche des pôles, et que la valeur absolue de la latitude φ tend alors vers π/2.
+\begin
+x &=& \lambda
+- \lambda_0 &\text& x \in -\pi,\pi
+\\ y &=& \ln \left \tan \left ( \frac + \frac \right)
+\right
+\\ \ & =& \frac \ln \left ( \frac \right)
+\\ \ & =& \sinh^ \left ( \tan \varphi \right)
+\\ \ & =& \tanh^ \left ( \sin \varphi \right)
+\\ \
+& \ln \left ( \tan \varphi + \sec
+\varphi \right)&\quad\text&\sec
+\varphi
+\frac
+\end
+Cette dernière fonction est appelée fonction de Gudermann inverse :
+\begin
+\varphi &=& 2\tan^ \left ( e^y \right)
+- \frac \pi
+\\ \lambda &=& x + \lambda_0
+\end
+Exemple d'application
+Soit la carte illustrant cet article (ayant une hauteur h
+et une largeur w
+679 (en pixels)
+La carte est centrée sur latitude 0, longitude 0.
+Le pixel 0,0 est en haut à gauche.
+Pour obtenir la position du pixel horizontal représentant la longitude λ (en degrés), il suffit d'appliquer la formule donnée précédemment :
+x = w\times\frac.
+Pour obtenir la position du pixel vertical de la latitude φ (en radians) :
+y = \frac-\frac\ln\left (\tan\left (\frac+\frac\right)\right)
+Démonstration
+Puisqu'on utilise une projection cylindrique, x ne dépend que de λ et y ne dépend que de φ.
+L'échelle Nord-Sud (en φ) doit être partout égale à l'échelle Est-Ouest (en λ), mais un degré de longitude ne fait pas la même taille aux pôles qu'à l'équateur.
+Le rapport des dérivées doit donc être égal au rapport de la longueur du parallèle par rapport à la longueur du méridien.
+\forall \varphi,\lambda\ : \frac = \frac
+Et puisque l'on choisit
+On trouve
+\frac
+\frac
+\frac
+\frac
+\frac = \frac
+puis en intégrant
+y = \ln \left ( \tan\left (\frac + \frac\right) \right) ;
+cette fonction est connue sous le nom de fonction de Gudermann (inverse).

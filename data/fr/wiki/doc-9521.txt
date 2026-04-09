@@ -1,0 +1,131 @@
+Optique ondulatoire|Phénomène optique|Expérience de physique
+En optique, on appelle tache de Fresnel le point lumineux qui se forme au centre de l’ombre portée d'un corps circulaire par diffraction de Fresnel.
+En astronomie, on peut voir une tache de Fresnel se former dans l’image très floue d’une étoile que donne un télescope de Newton dé-focalisé : pour l’occasion, l’étoile constitue une source ponctuelle à l'infini idéale, et le miroir secondaire du télescope constitue l’obstacle circulaire.
+Le principe de Huygens énonce que lorsque la lumière éclaire l’
+obstacle
+circulaire
+, chaque point du plan d'incidence se comporte à son tour comme une source lumineuse ponctuelle.
+Tous les rayons de lumière issus des points de la circonférence de l’obstacle se concentrent au centre de l’ombre et décrivent le même chemin optique ;
+de sorte que les rayons frôlant l’objet atteignent l’écran en phase et interfèrent.
+Il en résulte une tache lumineuse au centre de l’ombre, que ni l’optique géométrique, ni la Théorie corpusculaire de la lumière ne peuvent expliquer.
+Histoire
+Au début du , l’idée selon laquelle la lumière ne se propage pas simplement en ligne droite commença à attirer quelques adeptes.
+Thomas Young venait de publier son expérience des Fentes de Young en 1807.
+Mais le président de la commission, François Arago (futur Premier Ministre), décida de reprendre l'expérience plus en détail.
+Il fit monter un disque métallique de sur une plaque de verre avec de la cire 1819.
+Arago signala par la suite que ce phénomène avait déjà été observé par Delisle et Maraldi un siècle plus tôt.
+Il faudra attendre encore plus de trois-quarts de siècle avant qu'on mette en évidence le caractère mixte (dualité onde-corpuscule) de la lumière, grâce à l'un des articles d'Einstein.
+Théorie
+La théorie ondulatoire de Fresnel repose sur le « principe de Huygens-Fresnel », qui énonce que
+# tout point d'un front d’onde se comporte comme une source secondaire d’ondelettes sphériques,
+# et que l'amplitude de l'éclairement E en un point de l’écran est donnée par la superposition de toutes ces ondelettes secondaires, en tenant compte de leur déphasage mutuel .
+Cela signifie que l’éclairement en un point P1 (r1) de l’écran est exprimé par l’intégrale double :
+E (
+P_1
+= \frac \int\int_S \frac \cdot t (\chi)
+\cdot dS,
+où le facteur d’incidence t (\chi)
+exprime que l’on considère uniquement la contribution incidente des ondelettes secondaires.
+t (\chi)
+= \frac (1 + \cos (\chi))
+et où
+A est l’amplitude de l'onde source
+k = \frac est le nombre d'onde
+: S est l’aire non-masquée.
+Le premier terme en dehors du signe intégrale représente les oscillations de l’onde incidente source à la distance r0.
+De même, le terme sous le signe intégrale représente les oscillations des ondelettes secondaires à la distance r1.
+Pour que cette intégrale exprime l'intensité au-delà de l'obstacle circulaire, il faut supposer que les paramètres expérimentaux satisfont aux hypothèses de la diffraction en champ proche (c’est-à-dire que la taille de l’obstacle circulaire obstacle soit grande devant la longueur d'onde et petite devant les distances g
+P0C et b
+CP1
+En passant en coordonnées polaires, l’intégrale pour un objet circulaire de rayon a devient (cf. Born et Wolf ):
+E (
+P_1
+- \frac \frac 2\pi
+\int_a^\infty e^ r \, dr.
+Cette intégrale peut être calculée numériquement (cf. infra).
+Si g est grand et si b est suffisamment petit, l’angle \chi ne peut être négligé et l’intégrale pour un point situé sur l’axe optique (P1 est au centre de l’ombre) s’écrit (cf. Sommerfeld ) :
+E (
+P_1
+= \frac \frac e^.
+L’intensité de la source, qui est le carré de l’amplitude de l’éclairement, est I_0=\left|\frac\right|^2
+et l’intensité sur l’écran I = \left U (P_1) \right |^2.
+L’intensité axiale
+dépend donc de la distance b selon :
+:I = \frac I_0.
+Cela montre que l'intensité axiale au centre de l'ombre tend à rejoindre l'intensité de la source, comme si l'obstacle circulaire n'existait pas.
+En outre, cela montre que la tache de Fresnel se forme à seulement quelques diamètres au-delà du disque opaque.
+Calcul de l'image de diffraction
+Pour calculer la totalité de la figure de diffraction visible à l’écran, il faut considérer l’intégrale de surface de la section précédente.
+Il n’est plus possible d’exploiter la symétrie de révolution, puisque la ligne tirée entre la source et un point donné de l’écran ne passe plus a priori par le centre de l’objet circulaire.
+En introduisant une « fonction d'ouverture » t (r,\theta) valant 1 pour les zones translucides du diaphragme et 0 pour les zones opaques, l’intégrale qu'il faut calculer est :
+E (
+P_1)
+\propto \int_0^
+\int_0^\infty t (r,\theta)
+e^ \rho \, d\rho \, d\theta.
+Ni la Méthode des trapèzes, ni la Méthode de Simpson ne permettent de calculer cette intégrale de façon satisfaisante : elles deviennent instables lorsque le nombre de Fresnel augmente ;
+toutefois, il est possible de résoudre la composante radiale de l’intégrale de sorte qu’il n'y ait plus qu’à s'occuper de l’intégration sur l’angle d’azimuth .
+Pour un angle donné, il faut calculer l'intégrale curviligne pour le rayon issu du point d'intersection point de la ligne P0P1 sur le plan de l’obstacle circulaire opaque.
+La contribution d'un rayon donné, d'azimuth \theta_1 traversant une partie translucide du plan de l'objet plan
+entre r
+r_1 et r=r_2
+est :
+R (\theta_1)
+\propto e^
+- e^.
+Il faut ainsi sommer les contributions de chaque angle en déterminant le point d'intersection (s) de chaque rayon avec l’obstacle circulaire opaque I (\theta_1), pour un certain nombre d'angles entre 0 et 2\pi.
+On obtiendra ainsi par point l'image suivante :
+L’image ci
+dessus montre une simulation numérique de la tache de Fresnel dans l’ombre d'un disque (diaphragme) de diamètre , à de distance du disque.
+La source lumineuse est un laser hélium-néon qui émet dans le rouge (λ = ) et est située à de l’obstacle circulaire opaque.
+La largeur réelle de cette figure de diffraction est de .
+Aspects expérimentaux
+Intensité et taille
+Avec une source ponctuelle idéale, l'intensité de la tache de Fresnel rejoint celle du front d'onde incident.
+Seule l'étendue de la tache de Fresnel dépend des distances entre la source, le corps circulaire opaque et l'écran, ainsi que de la longueur d'onde (la couleur) de la source et du diamètre du corps circulaire.
+Cela signifie qu'on peut compenser un changement de couleur de la source en augmentant la distance l entre le corps circulaire opaque et l'écran ou en diminuant le diamètre du corps opaque.
+Au voisinage de l’axe optique, la distribution radiale d'intensité sur l'écran produite par la diffraction d'une source lumineuse plane (source ponctuelle à l'infini) est donnée par le carré de la Fonction de Bessel de première espèce, d'ordre zéro :
+U (
+P_1,r)
+\propto
+J_0^2 \left (\frac\right)
+r est la distance à l’axe optique du point P1 de l'écran
+: d est le diamètre du diaphragme circulaire
+&lambda;
+est la longueur d'onde
+b est la distance séparant le diaphragme circulaire de l’écran.
+Étendue spatiale de la source et cohérence
+La difficulté qu'il y a à observer une tache de Fresnel dans les ombres portées par des disques opaques avec la lumière du soleil ou les ampoules électriques vient de ce que la source lumineuse est loin d'être ponctuelle.
+Or si la source lumineuse a une étendue non nulle S, l’étendue de la tache de Fresnel est donnée par S×b/g, ce qui fait que le diaphragme circulaire agit comme une lentille : l’intensité de la tache de Fresnel s'en trouve diminuée proportionnellement à l'intensité du front d'onde incident.
+Défaut de circularité
+Si le contour du corps opaque s'écarte même légèrement du cercle (malgré un contour bien net), la forme de la tache de Fresnel s'en trouve affectée.
+En particulier, si ce corps a une section elliptique, la tache de Fresnel prend la forme d'une développée de cercle .
+Cela n'est toutefois vraiment perceptible qu'avec une source quasi-ponctuelle ;
+avec une source étendue, la tache de Fresnel reste globulaire, et l'on peut l’interpréter comme une fonction d'étalement du point.
+Ainsi, c'est uniquement par étalement de la tache que l’image de la source étendue devient floue ;
+son intensité d'ensemble n'est pas affectée.
+Effet de la rugosité de l'écran
+La tache de Fresnel est très sensible aux défauts de régularité des contours de l’obstacle circulaire opaque : même les micro-rugosités à la périphérie de l'obstacle peuvent entraîner sa disparition.
+La meilleure façon d’expliquer ce phénomène est de recourir à l’Ellipsoïde de Fresnel.
+L’obstacle circulaire opaque intercepte un certain nombre de zones de Fresnel.
+La zone de Fresnel issue de la circonférence exacte de l'obstacle (des rides ou creux de la surface) contribue seule à former la tache de Fresnel ;
+toutes les autres zones de Fresnel interfèrent et annulent presque entièrement leurs contributions.
+Une rugosité aléatoire (ou irrégulière) du bord de l’obstacle circulaire opaque, d'une amplitude de même ordre que la largeur de la zone de Fresnel adjacente fait donc baisser l’intensité de la tache de Fresnel.
+Les contributions des crêtes du bord (dues aux micro-rugosités), en débord de la circonférence d'une longueur voisine de celle de la zone de Fresnel adjacente, interfèrent avec les contributions du reste de la circonférence.
+La zone de Fresnel adjacente est donnée approximativement par :
+\Delta r \approx \sqrt
+- r.
+En pratique
+, pour obtenir une figure de diffraction suffisamment nette, il faut faire en sorte que les micro-rugosités du bord n'excèdent pas 10 % de la largeur des zones de Fresnel.
+Tache de Fresnel et ondes de matière
+Récemment, une tache de Fresnel a pu être produite avec un jet supersonique de molécules de deutérium (qui sont des ondes de matière électriquement neutres).
+On sait par la mécanique quantique que les particules matérielles peuvent se comporter comme des ondes.
+La nature ondulatoire des particules remonte aux théories de hypothèse de de Broglie et à l'expérience de Davisson et Germer .
+On peut observer des taches de diffraction d'électrons, qui sont un type d'ondes de matière, en microscopie à transmission électronique lorsque l'on examine des structures circulaires d'une certaine taille.
+Les taches de Fresnel se formant avec de grandes molécules constituent un sujet de recherche toujours actuel .
+Autres applications
+Outre la mise en évidence du caractère ondulatoire de la lumière, les taches de Fresnel ont quelques autres applications.
+On peut s'en servir pour tester l'alignement parfait de deux points ;
+on peut également tester l'aberration des rayons laser en exploitant la sensibilité du phénomène aux aberrations .
+Bibliographie
+ogypwb543yesn1fue2znuodztgnjsgo

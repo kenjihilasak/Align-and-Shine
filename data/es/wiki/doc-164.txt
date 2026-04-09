@@ -1,0 +1,78 @@
+La Game Boy Advance (conocida en Japón como ゲームボーイアドバンス; Gēmu Bōi Adobansu), abreviada como GBA, es una popular consola de videojuegos de la compañía Nintendo, fabricada desde marzo de 2001 hasta 2008.
+Cualidades
+Cuenta con un procesador ARM propio de 32 bits a 16,7 MHz, basado en la arquitectura RISC, con una potencia suficiente para permitir el desarrollo de juegos utilizando el lenguaje de programación C. El microprocesador ARM es capaz de ejecutar tanto un juego de instrucciones con un tamaño de instrucción de 32 bits, como un juego de instrucciones llamado "Thumb" de un tamaño de 16 bit (pero igualmente, de 32 bits).
+El sistema, además, lleva un procesador Z80 a 8 MHz para dar soporte al software de Game Boy clásica y color, pero sus dos procesadores no pueden estar funcionando a la vez debido a diferencias de voltaje y uso del bus de datos.
+La pantalla LCD es capaz de mostrar una retícula de 240x160 píxeles en color de 15 bits (32768 colores).
+Esta pantalla incluye más píxeles que la original Game Boy (160x144).
+Cuando se ejecutan juegos anteriores, el usuario puede pulsar el botón L o el R para conmutar la pantalla entre mostrar 160x144 con un borde negro o bien escalar a 240x144.
+Los primeros juegos exhiben paletas de color muy oscuras porque la pantalla en el kit de desarrollo era mucho más luminosa que la de las unidades comercializadas.
+Los títulos más recientes usan una corrección gamma en sus paletas.
+El generador de imágenes de la GBA tiene seis modos de visualización (tres basados en bloques y tres basados en mapas de bit) y 96 KB de RAM dedicada.
+En los modos de visualización basados en bloques, el sistema puede gestionar cuatro capas pixel-a-pixel, dos capas pixel-a-pixel y una capa afín, o bien dos capas afines, y usa 64 KB de RAM para los datos de celdas y mapas y 32 KB para los datos de los 'sprites'.
+En los modos de mapa de bit, puede mostrar un mapa de bit grande de 16 bits, dos mapas de bits de 8 bit (en modo paginado) o bien un mapa de bit de 16 bit pequeño (con paginación), usando 80 KB de RAM para los datos de mapa y 16 KB para los datos de 'sprite'.
+En todos los modos, puede mostrar hasta 128 'sprites' (pequeños objetos móviles individuales) de 8x8 hasta 64x64 pixels en color indexado de 4 u 8 bits.
+Cada 'sprite' puede ser dibujado mediante mapeado directo a píxel o bien por mapeado afín.
+La interfaz de la GBA con el cartucho ROM incluye únicamente un bus de dirección de 24 bits multiplexado con un bus de datos de 16 bits.
+(La consola Intellivision de Mattel ya había usado anteriormente un bus multiplexado).
+Esta configuración limita la memoria direccionable directamente a 16 megapalabras binarias (es decir, 256 megabits o 32 megabytes).
+Sin embargo, si el cartucho dispone de hardware de conmutación de bancos puede expandir esta cantidad mediante el control por software de las líneas superiores de direccionamiento, conmutando otras partes de la ROM en el espacio de direccionamiento de la GBA.
+La GBA también tiene un puerto serie para conectarse con otras unidades GBA en una configuración similar a la red token ring sobre una topología física de bus.
+La GBA también puede recibir 256 KB en código de arranque a través del puerto, incluso cuando no tiene un cartucho conectado (lo que se conoce como multiboot o netboot).
+Esto se utiliza en las conexiones multijugador, donde varias GBA pueden funcionar con un único cartucho: la GBA que tiene el cartucho envía el código inicial a las que no lo tienen.
+El puerto serie puede (con el cable adecuado) conectarse a un puerto serie RS-232 para ayudar en la depuración e, hipotéticamente, jugar a través de Internet, si bien aún no se ha implementado una pila TCP/IP en la GBA.
+Compatibilidad regional
+Debido a que el Game Boy Advance no es un medio dependiente de la toma eléctrica ni de las normas de televisores, ya que posee un display LCD propio y ya sea el modelo original como el Micro o el SP no dependen directamente de la toma eléctrica (aun cuando este último necesite ser recargado mediante la toma de electricidad), la compatibilidad regional es total, esto es, no existen diferentes normas de colores o trasmisión (como existen por ejemplo en las consolas de sobremesa), con lo cual se asegura que un juego comprado en cualquier parte del mundo funcione en una consola comprada en cualquier otra parte del mundo.
+A modo de aclaración podemos tomar un videojuego de Game Boy Advance comprado en dos partes del mundo diferentes y jugarlo en la consola sin impedimento, ya que estos diferirán en mayor o menor medida por las condiciones idiomáticas que posean (tanto de textos in-game como de packaging) y no por códigos de regiones o normas de colores (por lo explicado anteriormente), a diferencia de las consolas de sobremesa las cuales no solo por los medios que utilizan (CD, DVD, Blu-Ray, etc.), sino porque dependen de un televisor con norma fija que difiere país a país y también dependiendo de la región la fuente eléctrica recibirá un voltaje diferente (220v, 110v, etc.
+), esto hace que las consolas de sobremesa sean "región dependiente", a diferencia de las portátiles (al menos de las de Nintendo).
+Reinicio en caliente
+Además de la posibilidad de reiniciarse de manera analógica (cortando y restableciendo físicamente el paso de la electricidad mediante el interruptor de encendido/apagado de la consola), la consola también tiene la posibilidad de hacer un reinicio en caliente, o sea, un reinicio de manera digital, sin la necesidad de romper el circuito físico.
+Esto es especialmente útil cuando un juego se queda congelado (aunque, a veces, no es posible), cuando se está jugando con un cartucho que incluye la posibilidad de jugar a varios juegos (Final Fantasy I & II: Dawn of souls, por ejemplo) o, en caso de Yggdra Union, tiene la opción de reiniciar el mapa y no el juego entero.
+En cualquier caso, esto se puede realizar apretando en cualquier momento (sólo basta que la consola esté encendida) y de manera simultánea los botones START + SELECT + A + B.
+En los juegos de Pokémon de la primera y segunda generación en Game Boy/Game Boy Color, es posible hacer el reinicio en caliente, utilizando el mismo método para GBA.
+Juegos
+La Game Boy Advance posee un extenso catálogo de juegos diferentes que salieron desde el 2001 al 2008, hubo juegos de todos los géneros para esta consola, hubo muchos juegos cancelados para el sistema siendo los más destacables Resident Evil 2 y Grand Theft Auto 3 Uno de los juegos que no se eliminó, más conocido fue el Metal Slug Advance.
+La consola también es compatible con todos los juegos de Game Boy y todos los de Game Boy Color lo que le da 730 juegos más en su catálogo teniendo un total de 1730 juegos diferentes.
+Características técnicas
+* CPU: ARM7TDMI de 32 bits a 16,7 MHz, licenciado a ARM y producido por Nintendo para integrar prácticamente toda la consola en un único chip, reduciendo así el consumo de batería.
+*CPU 2: Zilog Z80 de 8bits a 8MHz.
+Este CPU se usa únicamente para dar soporte a juegos de Game Boy y Game Boy Color.
+* Memoria: 32 KB de memoria interna (IWRAM, Internal Work RAM) y 96 KB de VRAM (Video RAM) (32kb para sprites y 64kb para mapas), integrado en el procesador y con un bus de 32 bits, 256 KB de WRAM (Work Random Access Memory) externa, con un bus de 16 bits.
+1k de memoria para paletas y 1k para la configuración de los sprites (OAM).
+Direccionamiento de hasta 256 megabits (32 megabytes) de ROM (memoria de solo lectura).
+** Pantalla color TFT matriz activa de 7,4 cm (2,9 pulgadas)
+** Medidas de la pantalla : 40,8 mm X 61,2 mm
+** 16 paletas de 16 colores para sprites (cuyo color 0 se usa como transparente) y 16 paletas de 16 colores para mapeado.
+Posibilidad de usarlas como una única paleta de 256 colores con el 0 como transparente.
+Hasta 32,768 colores en los modos de framebuffer.
+* Alimentación : 2 pilas LR 06 para una autonomía de 15 horas
+Ediciones especiales Pokémon
+Existen un total de 4 Game Boy Advance edición Pokémon:
+Game Boy Advance Pokémon Center Latias Latios (2002).
+Game Boy Advance Pokémon Center Celebi (2002).
+Game Boy Advance Pokémon Center New York (2002).
+Game Boy Advance Pokémon Center Suicune (2002).
+Versiones
+Game Boy Advance SP
+A principios de 2003 se actualizó a un nuevo modelo pasándose a llamar GameBoy Advance SP (GBA SP), las siglas SP quieren decir Special Project, ya que se redujo el tamaño de la Game Boy Advance original.
+Nintendo implementó una pantalla con iluminación frontal y una batería de ion litio (similar a las de los teléfonos móviles), así como un tamaño de aproximadamente la mitad del de la GBA y con un diseño más portátil, al reducir su tamaño al plegarse.
+Se sustituyó el conector de auriculares mini-jack que había existido en todos los modelos previos de GB, añadiendo un conector especial.
+Nintendo siempre había negado la posibilidad de implementar pantalla retroiluminada y batería recargable por motivos de costo.
+Pero debido a los avances técnicos desde que el modelo original vio la luz, era posible adaptar la nueva versión para tener pantalla retroiluminada y batería recargable por el mismo precio del original en 2001 ($99,99).
+A mediados de 2003 se hizo posible jugar a los juegos de la GBA en un televisor, pues Nintendo lanzó un complemento de GameCube llamado Game Boy Player que se conectaba por debajo de la consola y permitía ejecutar juegos de GBA y GBC con conexiones multijugador.
+Inicialmente se lanzó en dos colores, negro y plata, pero han sido lanzadas distintas versiones como la Classic NES (que imita a la veterana consola NES), la Tribal Edition (con motivos tribales), distintas ediciones relacionadas con la saga Pokémon, la GBA SP Pink (en color rosa), cuyo propósito era atraer al mercado femenino; y la edición dedicada a The Legend of Zelda, que salió junto al juego The Legend of Zelda: The Minish Cap.
+Kits de desarrollo no oficiales
+A principios de 2002 estuvo disponible el hardware para llevar código escrito por el usuario a la GBA.
+Por ejemplo, en diciembre de 2001 se podía comprar un cartucho de memoria flash, así como el dispositivo grabador por menos de USD$200, y un dispositivo de USD$50 simula ser el cartucho maestro en un 'netboot'.
+En junio de 2002 apareció el primer cable libre para hacer 'netboot' sobre la GBA (más conocido como cable multiboot).
+En abril de 2003, los precios estaban por debajo de USD$100 para el cartucho y la grabadora, y USD$30 para el arranque.
+Debido a ello, ha aparecido una comunidad entusiasta de desarrollo de software.
+Nintendo, sin embargo, tiene una larga tradición de contemplar estos dispositivos como "piratería", argumentan su posible uso en copiar cartuchos con programas bajo copyright.
+En febrero de 2002, Nintendo comenzó a enviar cartas amenazadoras a algunos vendedores estadounidenses de estos periféricos.
+Los contenciosos anteriores habían llevado a la prohibición de importar dispositivos similares para las Game Boy de 8 bits.
+Accesorios
+El accesorio Nintendo e-Reader fue lanzado a finales del año 2002 y funciona solamente con modelos Game Boy Advance y su evolución SP, pero no con Game Boy Micro aunque es compatible con el Nintendo DS Lite.
+Este dispositivo es similar a un lector de códigos de barras.
+Juegos sencillos, A menudo viejos títulos de NES, son impresos en trading cards, escaneados por el dispositivo para cargar cada juego en la GBA.
+Para videojuegos propios de la consola, las cartas permiten desbloquear diversas funciones.
+Este dispositivo no salió en Europa oficialmente.
+Véase también

@@ -1,0 +1,185 @@
+Internet è una rete ad accesso pubblico che connette vari dispositivi o terminali in tutto il mondo.
+Dalla sua nascita rappresenta il principale mezzo di comunicazione di massa, che offre all'utente una vasta serie di contenuti potenzialmente informativi e di servizi.
+Si tratta di un'interconnessione globale tra reti informatiche di natura e di estensione diversa, resa possibile da una suite di protocolli di rete comune chiamata "TCP/IP" dal nome dei due protocolli principali, il TCP e l'IP, che costituiscono la "lingua" comune con cui i computer connessi a Internet (gli host) sono interconnessi e comunicano tra loro a un livello superiore indipendentemente dalla loro sottostante architettura hardware e software, garantendo così l'interoperabilità tra sistemi e sottoreti fisiche diverse.
+L'avvento e la diffusione di Internet e dei suoi servizi hanno rappresentato una vera e propria rivoluzione tecnologica e socio-culturale dagli inizi degli anni novanta (assieme ad altre invenzioni come i telefoni cellulari e il GPS) nonché uno dei motori dello sviluppo economico mondiale nell'ambito dell'Information and Communication Technology (ICT).
+In quanto rete di telecomunicazione, come diffusione è seconda solo alla rete telefonica generale, anch'essa di diffusione mondiale e ad accesso pubblico, ma ancora più "capillare" di Internet.
+Quest'ultima condivide largamente la rete telefonica per l'accesso e il trasporto dei suoi utenti ed è destinata, in un futuro non troppo lontano con il miglioramento della tecnologia VoIP, a soppiantarla inglobandola in sé, in quanto basata sulla più efficiente tecnica della commutazione di pacchetto.
+Storia
+L'origine di Internet risale agli anni sessanta, su iniziativa degli Stati Uniti, che misero a punto durante la guerra fredda un nuovo sistema di difesa e di controspionaggio.
+La prima pubblicazione scientifica in cui si teorizza una rete di computer mondiale ad accesso pubblico è On-line man computer communication dell'agosto 1962, pubblicazione scientifica degli statunitensi Joseph C.R. Licklider e Welden E. Clark.
+Nella pubblicazione Licklider e Clark, ricercatori del Massachusetts Institute of Technology, danno anche un nome alla rete da loro teorizzata:
+"Intergalactic Computer Network".
+Prima che tutto ciò cominci a diventare una realtà pubblica occorrerà attendere il 1991 quando il governo degli Stati Uniti d'America emana la High performance computing act, la legge con cui per la prima volta viene prevista la possibilità di ampliare, per opera dell'iniziativa privata e con finalità di sfruttamento commerciale, una rete Internet fino a quel momento rete di computer mondiale di proprietà statale e destinata al mondo scientifico.
+Questo sfruttamento commerciale viene subito messo in atto anche dagli altri Paesi.
+ARPANET (1969)
+Il progenitore e precursore della rete Internet è considerato il progetto ARPANET, finanziato dalla Defence Advanced Research Projects Agency (), un'agenzia dipendente dal Ministero della Difesa statunitense .
+In una nota del 25 aprile 1963, Licklider aveva espresso l'intenzione di collegare tutti i computer e i sistemi di time-sharing in una rete continentale.
+Avendo lasciato l'ARPA per un posto all'IBM l'anno seguente, furono i suoi successori che si dedicarono al progetto ARPANET.
+Il contratto fu assegnato all'azienda da cui proveniva Licklider, la Bolt, Beranek and Newman (BBN) che utilizzò i minicomputer di Honeywell come supporto.
+La rete venne fisicamente costruita nel 1969 collegando quattro nodi:
+l'Università della California di Los Angeles, l'SRI di Stanford, l'Università della California di Santa Barbara, e l'Università dello Utah.
+L'ampiezza di banda era di 50 kbps.
+Negli incontri per definire le caratteristiche della rete, vennero introdotti i fondamentali Request for Comments, tuttora i documenti fondamentali per tutto ciò che riguarda i protocolli informatici della rete e i loro sviluppi.
+La super-rete dei giorni nostri è risultata dall'estensione di questa prima rete, creata sotto il nome di ARPANET.
+I primi nodi si basavano su un'architettura client/server, e non supportavano quindi connessioni dirette (host-to-host).
+Le applicazioni eseguite erano fondamentalmente Telnet e i programmi di File Transfer Protocol (FTP).
+Il servizio di posta elettronica fu inventata da Ray Tomlinson della BBN nel 1971, derivando il programma da altri due:
+il SENDMSG per messaggi interni e CPYNET, un programma per il trasferimento dei file.
+L'anno seguente Arpanet venne presentata al pubblico, e Tomlinson adattò il suo programma per funzionarvi:
+divenne subito popolare, grazie anche al contributo di Larry Roberts che aveva sviluppato il primo programma per la gestione della posta elettronica, RD.
+Da Arpanet a Internet (anni settanta e ottanta)
+In pochi anni, ARPANET allargò i suoi nodi oltreoceano, contemporaneamente all'avvento del primo servizio di invio pacchetti a pagamento:
+Telenet della BBN.
+In Francia si inizia la costruzione della rete CYCLADES sotto la direzione di Louis Pouzin, mentre la rete norvegese NORSAR permette il collegamento di Arpanet con lo University College di Londra.
+L'espansione proseguì sempre più rapidamente, tanto che il 26 marzo del 1976 la regina Elisabetta II spedì un'email alla sede del Royal Signals and Radar Establishment.
+Le emoticon vennero istituite il 12 aprile 1979, quando Kevin MacKenzie suggerì di inserire un simbolo nelle mail per indicare gli stati d'animo.
+Tutto era pronto per il cruciale passaggio a Internet, compreso il primo virus telematico:
+il 27 ottobre 1980, facendo esperimenti sulla velocità di propagazione delle e-mail, Arpanet venne totalmente bloccata a causa di un errore negli header del messaggio.
+Definendo il Transmission Control Protocol (TCP) e l'Internet Protocol (IP), DCA e ARPA diedero il via ufficialmente a Internet come l'insieme di reti interconnesse tramite questi protocolli.
+Internet in Italia
+L'Italia fu il terzo Paese in Europa a connettersi in rete, dopo Norvegia e Inghilterra, grazie ai finanziamenti del Dipartimento della Difesa degli Stati Uniti.
+La connessione avvenne dall'Università di Pisa, dove era presente un gruppo di ricerca fra i più avanzati in Europa.
+Alcuni di questi componenti del gruppo avevano lavorato a contatto con quelli che poi sarebbero stati considerati i padri di Internet, Robert Kahn e Vinton Cerf.
+Fu proprio Kahn a convincere i suoi superiori a finanziare l'acquisto delle tecnologie necessarie (Butterfly Gateway) per il gruppo di Pisa.
+Il collegamento avvenne il 30 aprile 1986, alle 18 circa.
+Nascita del World Wide Web (1991)
+Nel 1991 presso il CERN di Ginevra il ricercatore Tim Berners-Lee definì il protocollo HTTP (HyperText Transfer Protocol), un sistema che permette una lettura ipertestuale, non-sequenziale dei documenti, saltando da un punto all'altro mediante l'utilizzo di rimandi (link o, più propriamente, hyperlink).
+Inoltre, il 6 agosto Berners-Lee pubblicò il primo sito web della storia, presso il CERN, all'indirizzo http:/ hypertext TheProject.html.
+Nel World Wide Web (WWW), le risorse disponibili sono organizzate secondo un sistema di librerie, o pagine, a cui si può accedere utilizzando appositi programmi detti web browser con cui è possibile navigare visualizzando file, testi, ipertesti, suoni, immagini, animazioni e filmati.
+Il primo browser con caratteristiche simili a quelle attuali, il Mosaic, venne realizzato nel 1993.
+Il 30 aprile 1993 il CERN decide di rendere pubblica la tecnologia alla base del World Wide Web in modo che sia liberamente implementabile da chiunque.
+A questa decisione fa seguito un immediato e ampio successo del World Wide Web in ragione delle funzionalità offerte, della sua efficienza e della sua facilità di utilizzo.
+Internet crebbe in modo esponenziale, in pochi anni riuscì a cambiare la società, trasformando il modo di lavorare e relazionarsi.
+Nel 1998 venne introdotto il concetto di eEconomy.
+La facilità d'utilizzo connessa con l'HTTP e i browser, in coincidenza con una vasta diffusione di computer per uso anche personale, hanno aperto l'uso di Internet a una massa di milioni di persone, anche al di fuori dell'ambito strettamente informatico, con una crescita in progressione esponenziale.
+Diffusione
+Se prima del 1995 Internet era dunque relegata a essere una rete dedicata alle comunicazioni all'interno della comunità scientifica e tra le associazioni governative e amministrative, dopo tale anno si assiste alla diffusione costante di accessi alla rete da parte di computer di utenti privati fino al boom degli anni 2000 con centinaia di milioni di computer connessi in rete in parallelo alla diffusione sempre più spinta di PC al mondo, all'aumento dei contenuti e servizi offerti dal Web e a modalità di navigazione sempre più usabili, accessibili e user-friendly nonché a velocità di trasferimento dati a più alta velocità passando dalle connessioni ISDN e V.90 alle attuali connessioni a banda larga tramite sistemi DSL.
+Questa è la situazione di diffusione di Internet nel mondo occidentale, mentre nel secondo e terzo mondo il tasso di penetrazione è ovviamente inferiore, ma in continua crescita grazie al progressivo riammodernamento delle infrastrutture di reti di telecomunicazioni.
+Internet oggi
+Internet, oggi, è sinonimo di globalizzazione.
+Avere un sito internet significa possedere una vetrina sul mondo, farsi conoscere dappertutto.
+Dicendo:
+"Vado su internet!" la gente afferma che intende visitare i siti del World Wide Web.
+È quindi più simile all'insieme delle entità che lo popolano, piuttosto che all'insieme delle reti di cui è costituito.
+È più simile alla definizione di insieme degli iperoggetti di Tim Berners Lee:
+il WWW;
+cioè qualcosa di staccato dall'infrastruttura fisica che, invece, potrebbe subire modificazioni.
+Importantissima è la capacità dei browser di vedere internet dando la possibilità di interpretare il maggior numero di entità possibili.
+Internet, Web, World Wide Web, WWW sono oggi trattati come sinonimi.
+Tanto è vero che i browser più diffusi permettono il raggiungimento del sito destinazione anche senza la digitazione del protocollo (http://) e del prefisso (www.).
+Ad ogni modo, internet e web rimangono specificatamente due cose diverse:
+seppur con qualche semplificazione, si può dire che "internet" è l'hardware cioè la struttura, il web è il software cioè il contenuto.
+Evoluzione
+Fino all'anno 2000 si è temuto di dover reingegnerizzare ex novo l'intera Internet perché il numero degli host indirizzabile attraverso il protocollo IP era vicino a essere esaurito (IP shortage) dal numero di host realmente collegati (oltre alla necessaria ridondanza e alle perdite per motivi sociali).
+Il problema è stato parzialmente evitato (o posticipato) con l'utilizzo della tecnica del NAT/gateway mediante la quale una rete aziendale non ha bisogno di un range ampio di indirizzi IP fissi, ma può utilizzarne uno più ridotto con anche un buon risparmio economico.
+Oggi, come soluzione definitiva, si è fiduciosi nella possibilità di migrare in modo non traumatico alla versione successiva di IP (IPv6) che renderà disponibili circa 340 miliardi di miliardi di miliardi di miliardi di numeri IP indirizzabili.
+I processi di convergenza in atto nell'ambito ICT, media e comunicazioni, indicano inoltre la sempre più probabile piena integrazione nel prossimo futuro della rete Internet con la rete telefonica già con la tecnologia VoIP, nonché la parallela fruizione di contenuti informativi tipici di altri mezzi di comunicazione come la televisione e la radio in un'unica grande rete.
+Se infatti da una parte i primordi della rete sono stati caratterizzati dallo scambio di dati come i contenuti testuali e immagini statiche, l'evoluzione futura della rete va verso la sempre maggiore diffusione di contenuti multimediali come ad esempio i contenuti audio-video (es. streaming, Web Tv, IPTV, Web radio) che ne aumentano enormemente il traffico complessivo e il relativo carico sui nodi o sistemi interni di commutazione (router) e sui server, vuoi anche per l'aumento del numero di utenti connessi in rete al mondo.
+La soluzione più praticata a questo problema è la decentralizzazione delle risorse ovvero sistemi di rete distribuiti (es. Content Delivery Network) in grado di gestire l'aumento di traffico, mentre per far fronte all'aumento di banda necessaria sui collegamenti sono da menzionare nuove e più efficienti tecniche di compressione dati che hanno reso possibile il diffondersi di servizi sempre più evoluti e pesanti.
+Sotto questo punto di vista l'evoluzione della rete dal punto di vista dei servizi richiede anche lo sviluppo di un'infrastruttura di rete di accesso a banda sempre più larga con la realizzazione delle cosiddette Next Generation Network per sopperire all'aumento di traffico previsto e la fruizione dei servizi stessi dall'utente finale.
+Gli stessi operatori che dovrebbero investire sulla realizzazione di tali infrastrutture richiedono però un ritorno certo dell'investimento ovvero una convenienza economica che risulterebbe invece molto più a favore dei grandi network o fornitori di servizi e contenuti di rete (Google, YouTube, Facebook, Twitter, LinkedIn, ecc.) sollevando così il problema della cosiddetta neutralità della rete o meno.
+La natura globale con la quale è stata concepita Internet ha fatto sì che oggi, un'enorme varietà di processori, non solo apparati di calcolo in senso stretto, ma a volte anche incorporati in maniera invisibile (embedded) in elettrodomestici e in apparecchi dei più svariati generi, abbiano tra le proprie funzionalità quella di connettersi a Internet e, attraverso questo, a qualche servizio di aggiornamento, di distribuzione di informazione e dati;
+dal frigorifero, al televisore, all'impianto di allarme, al forno, alla macchina fotografica:
+ogni processore oramai è abilitato a comunicare via Internet.
+In tal senso dunque un'ulteriore evoluzione della Rete, propugnata da alcuni, potrebbe essere l'estensione della connettività agli oggetti taggati del mondo reale dando vita alla cosiddetta Internet delle cose.
+Caratteristiche
+Le caratteristiche di tale rete possono essere descritte attraverso la sua struttura fisica (topologia, nodi, collegamenti trasmissivi e apparati di rete), e attraverso il suo funzionamento a livello logico-protocollare.
+Struttura fisica
+Internet è costituita da alcune centinaia di milioni di computer collegati tra loro con i più svariati mezzi trasmissivi ed è anche la più grande rete di computer attualmente esistente, collegando tra loro a livello globale reti LAN, MAN e WAN, motivo per cui è definita "rete delle reti", "interete", "rete globale" o "la Rete" per antonomasia.
+In generale a livello fisico la rete Internet può essere vista come una complessa interconnessione di nodi con funzionalità di ricetrasmissione, appoggiata a collegamenti trasmissivi di vario tipo, sia cablati sia wireless (fibre ottiche, cavi coassiali, doppini telefonici, cavi elettrici in posa anche in strutture idrauliche, collegamenti sottomarini, collegamenti satellitari, collegamenti a radiofrequenza (WiFi) e su ponti radio) che consentono l'interconnessione da estremo a estremo (end to end) di un agente umano o automatico a un altro agente, praticamente qualsiasi tipo di computer o elaboratore elettronico oggi esistente.
+Ogni dispositivo terminale connesso direttamente a Internet si chiama nodo ospite, in inglese host o end system (sistema finale o terminale utente), mentre la struttura che collega i vari host si chiama link di comunicazione passando attraverso i vari nodi interni di commutazione.
+Da qualche anno è ormai possibile collegarsi a Internet anche da dispositivi mobili come palmari, telefoni cellulari, tablet, ecc.
+Sulla maggior parte dei dispositivi mobili è possibile non solo «accedere» a Internet, ma anche «subire l'accesso» da parte di altri host Internet.
+In quanto "Rete delle reti" Internet non possiede dunque una topologia ben definita, ma varia e soprattutto di natura capillare fino agli utenti, com'è tipico anche della rete telefonica.
+Come nel caso di altre reti di telecomunicazioni come la rete telefonica, la "ragnatela" di collegamenti è composta, a livello fisico-infrastrutturale, da un'ossatura molto veloce e potente, nota come rete di trasporto, con le sue backbone, a cui si connettono, attraverso collegamenti di backhauling (raccordo), molteplici sottoreti a volte più deboli e lente e che costituiscono quindi la rispettiva rete di accesso, com'è tipico in generale anche della rete telefonica, della quale Internet condivide proprio l'infrastruttura di accesso per la connessione delle utenze private.
+I collegamenti tra i vari nodi interni si appoggiano su criteri statistici di disponibilità (multiplazione statistica) e non su criteri totalmente deterministici, a causa della natura distribuita e aleatoria piuttosto che centralizzata dei processi in rete.
+Molti nodi interni sono collegati tra loro in diversi modi e tramite diversi path (in inglese "sentiero", "percorso").
+Questo tipo di interconnessione può essere compreso alla luce delle motivazioni che negli anni sessanta dettarono la nascita di Internet (allora denominata avrebbero sostituito quelli distrutti.
+Le sottoreti componenti possono anche essere protette e, quindi, consentono l'accesso a Internet (e viceversa) solo in maniera condizionata.
+Si tratta delle Intranet e la protezione è tipicamente realizzata attraverso l'uso di un firewall (muro tagliafuoco in inglese).
+La velocità di connessione o velocità di trasmissione in una comunicazione end to end tra due terminali è in ogni caso limitata dalle prestazioni più basse, in termini di velocità di trasferimento, della sottorete o del collegamento geografico attraversato, che fungono quindi da classico collo di bottiglia, e/o da eventuali situazioni di congestione interna della rete.
+Gli ISP sono connessi a loro volta a ISP di livello superiore che utilizzano router ad alta velocità e link fisici in fibra ottica nella rete di trasporto.
+In molti Stati la possibilità di accesso a Internet da parte dell'utente viene vista sotto l'obbligo di servizio universale al pari della connessione alla rete telefonica.
+Funzionamento logico
+Internet è costituita da tutta una serie di reti private, pubbliche, aziendali, universitarie e commerciali interconnesse tra di loro.
+In effetti, già prima della sua nascita, esistevano reti locali, principalmente nei centri di ricerca internazionali e nei dipartimenti universitari, che operavano ciascuna secondo modalità o protocolli propri di comunicazione
+Il grande risultato della nascita e dell'affermazione di Internet è stata quindi la creazione di uno standard de facto da parte di ARPA tra i protocolli di comunicazione che, in aggiunta ai protocolli di rete locale, interoperasse e gestisse in maniera affidabile a un livello logico superiore tutte le varie reti interagenti, consentendo ai più diversi enti e agenti di scambiarsi dati grazie a un protocollo comune, il TCP/IP, relativamente indipendente da specifiche hardware proprietarie, da sistemi operativi e dai formati dei linguaggi di comunicazione degli apparati di rete.
+Dal punto di vista trasmissivo e informativo ciò che viaggia in Internet sono i pacchetti dati, che costituiscono l'unità minima di informazione in questo vasto sistema di comunicazione.
+Tali pacchetti viaggiano nei link e nodi interni di rete usando una tecnica di commutazione nota come commutazione di pacchetto che consente di condividere più di un possibile cammino piuttosto che fare uso di un percorso unico dedicato e fisso come accade invece nella classica commutazione di circuito della rete telefonica.
+In pratica i pacchetti dati di una comunicazione che viaggiano da un host all'altro non seguono percorsi di instradamento predefiniti, ma quelli più congeniali nel preciso momento di attraversamento in base alla disponibilità fisica di collegamento dei link della rete e/o alle condizioni di congestione della rete stessa.
+Di conseguenza i pacchetti di una stessa comunicazione possono seguire percorsi diversi verso lo stesso destinatario.
+Per potersi collegare a Internet e usufruire dei relativi servizi, il solo requisito logico-funzionale necessario a un qualsiasi agente o dispositivo elettronico (tipicamente detto client) è quello di poter "dialogare" con il destinatario e i nodi interni di rete per mezzo di opportuni protocolli di rete che, nel caso in questione, fanno parte della cosiddetta suite di protocolli Internet, regolando opportunamente l'invio e la ricezione dei pacchetti informativi e implementando a livello software tutte le funzionalità richieste in una tipica architettura di rete a strati o livelli (layer).
+I protocolli più importanti di tale suite, cioè quelli che garantiscono l'interoperabilità e il buon funzionamento tra le diverse sottoreti, sono il Transmission Control Protocol (Protocollo di Controllo di trasmissione dati, TCP), l'User Datagram Protocol (UDP) e l'Internet Protocol (Protocollo Internet, IP):
+il primo ha funzionalità di controllo di trasmissione, il secondo di inoltro semplice, il terzo ha funzionalità di indirizzamento OSI) in una pila o stack protocollare di 5 livelli dal livello fisico al livello applicativo:
+secondo tale struttura, il protocollo TCP o UDP occupa il livello superiore (livello di trasporto) rispetto a IP (livello di rete).
+Al di sopra di questi ci sono i protocolli di tipo applicativo connessi al particolare servizio richiesto da espletare, al di sotto ci sono i protocolli di trasporto tipici delle reti locali, metropolitane e geografiche da interconnettere, dei collegamenti di raccordo (backhauling) e di dorsale (backbone), altri ancora sono collocati al loro stesso livello.
+In sostanza un pacchetto dati iniziale (payload) che parte a livello applicativo da un host attraversa verticalmente dall'alto al basso tutti i vari strati protocollari che aggiungono al pacchetto stesso, in una procedura detta di imbustamento, via via informazioni aggiuntive (header) in una struttura di informazioni di servizio (overhead);
+quando il pacchetto totale così ottenuto, una volta trasmesso a livello fisico sul mezzo trasmissivo, raggiunge la destinazione, ovvero viene ricevuto, avviene uno spacchettamento inverso dal basso verso l'alto e ogni livello legge e elabora le informazioni del rispettivo header.
+Tale struttura logica di servizio si basa sugli Internet Standard sviluppati dall'Internet Engineering Task Force (IETF) con documenti rigorosamente approvati noti come Request for Comments ("Richiesta di commenti", RFC) e, a livello applicativo, dai protocolli del World Wide Web Consortium (W3C).
+In particolare, dal punto di vista della fruizione di servizi di livello applicativo, l'architettura logica della rete Internet può essere di tipo client-server oppure peer-to-peer.
+Ciascun terminale o host di rete, per la sua raggiungibilità, è inoltre identificato da un indirizzo IP statico o dinamico (cioè assegnato manualmente dall'amministratore di rete o dal DHCP), mentre le risorse da fruire sono tipicamente presenti sui server, raggiungibili dal client sotto l'indicazione mnemonica fornita dal cosiddetto URL, grazie all'utilizzo di un web browser e dei suddetti protocolli di rete forniti/implementati nel sistema operativo della macchina terminale in uso.
+La conversione da indirizzo mnemonico URL a indirizzo IP, necessaria per l'instradamento effettivo in rete nei nodi di commutazione, è fornita dal cosiddetto DNS, mentre la comunicazione tra client e server si instaura in seguito alla definizione dei cosiddetti socket in cui oltre agli indirizzi IP di client e server vengono specificate anche le cosiddette porte coinvolte nel servizio di comunicazione da espletare.
+Le modalità di utilizzo di Internet differiscono a seconda del tipo di servizio che si richiede e al tipo di server a cui ci si collega;
+per citarne solo alcune:
+* File Transfer Protocol ("Protocollo di trasferimento dati", FTP)
+consente di inviare e ricevere (a/da sistemi) file, cioè insiemi di informazioni codificate in maniera binaria (es.: testi, immagini, filmati, programmi, ecc.);
+* Hyper Text Transfer Protocol ("Protocollo di trasferimento ipertesti", HTTP)
+consente di organizzare le informazioni e le risorse presenti in rete in maniera non-sequenziale (collegamento ipertestuale), come meglio descritto in seguito.
+consente di inviare e ricevere (a/da utenti) messaggi contenenti testo e altri formati (es.: immagini, video, audio).
+La modalità di funzionamento dei server di posta elettronica e di molti programmi client viene detta store-and-forward;
+Nata come rete di comunicazione dati tra utenti è diventata in seguito anche una rete per trasferimento di dati vocali grazie allo sviluppo della tecnologia VoIP.
+Accesso
+Per l'accesso alla rete Internet e la fruizione dei suoi molteplici servizi, chiunque disponga di un computer, di un modem e degli opportuni software oppure una rete locale da interconnettere attraverso un router, deve instaurare una connessione con l'Internet Service Provider (ISP), a seguito della stipulazione di un contratto di servizio, che gli fornisce un accesso attraverso una linea di telecomunicazione dedicata cablata o wireless (ADSL, HDSL, VDSL, GPRS, HSDPA, Wi-Fi, ecc.) o una linea telefonica della rete telefonica generale (POTS, ISDN, GSM, UMTS ecc.) e cominciare così la rispettiva sessione di navigazione attraverso l'utilizzo di un web browser.
+Principali servizi disponibili su Internet
+Internet offre i più svariati servizi, i principali dei quali sono il World Wide Web e la posta elettronica, ed è utilizzata per le comunicazioni più disparate:
+private e pubbliche, lavorative e ricreative, scientifiche e commerciali.
+I suoi utenti, in costante crescita, nel 2008 hanno raggiunto quota 1,5 miliardi e, visto l'attuale ritmo di crescita, si prevede che saliranno a 2,2 miliardi nel 2013.
+Le potenzialità teoriche in termini informativi e di servizi di Internet sono enormi;
+i principali servizi già attivi o di futura possibile applicazione sono:
+Pubblicità in Internet
+Internet si sta sempre più affermando anche come canale pubblicitario, promozionale e commerciale.
+I suoi vantaggi sono dati dalla possibilità di effettuare quasi dei collegamenti virtuali one-to-one a costi estremamente competitivi.
+; innumerevoli sono ormai i siti web di grandi e piccole medie imprese, nonché portali di e-commerce.
+Forte e in crescita è inoltre il ricorso della pubblicità direttamente sulla posta elettronica degli utenti fino al caso limite di spam.
+Problemi della rete
+Regolamentazione
+Attualmente e sin dai suoi sviluppi al grande pubblico dalla metà degli anni '90 la rete Internet si è caratterizzata come una rete fondamentalmente "anarchica" cioè priva di regolamentazione effettiva ufficiale (ciascun utente può contribuire ai suoi contenuti secondo regole non sempre ben definite, chiare e omogenee).
+Secondo altri la Rete rappresenta invece un esempio di libertà di espressione e democrazia globale dei tempi moderni e per questo da tutelare.
+Tutto ciò rappresenta di fatto un punto cruciale che secondo alcuni critici dovrà essere risolto nell'immediato o prossimo futuro.
+In generale la ragione di tale condizione è da ricercare semplicemente nella natura e nelle finalità originarie di Internet come rete dati dedicata alla diffusione di documenti all'interno della comunità scientifica e delle organizzazioni e non pensata invece per scopi puramente pubblici.
+Sicurezza
+Su Internet viaggiano tantissime informazioni non solo immagazzinate nei siti web, ma anche con e-mail, chatting, ecc.
+Sotto questo punto di vista Internet si caratterizza attualmente come una rete fondamentalmente ultrademocratica (o per alcuni anche al limite dell'anarchia ovvero scarsamente regolamentata) dove ciascun singolo utente può veicolare informazioni di qualunque tipo ai propri scopi e spesso in maniera del tutto anonima.
+Tale fatto se da una parte rappresenta una delle ragioni principali del successo della rete come potente strumento di comunicazione di massa, dall'altra, ovvero nel rovescio della medaglia, evidenzia debolezze e vulnerabilità intrinseche dovute sostanzialmente al fatto che il "potere" è demandato al mittente e a chi eventualmente "controlla" la rete:
+molte sono infatti le tipologie di attacco alla sicurezza informatica attuabili a mezzo della rete stessa da parte di pirati informatici (cracker) con intenzioni malevoli quali ad esempio attacchi di negazione del servizio e furto di dati personali dell'utente nonché truffe dirette ai danni dei consumatori ad esempio tramite false e-mail.
+Inoltre, essendo divenuto una forma di comunicazione di massa, Internet ha necessitato di diversi tentativi di filtraggio di parte delle informazioni veicolate o addirittura di controllo a fini di pubblica sicurezza.
+Uno dei programmi ampiamente riconosciuti è Carnivore, voluto dall'FBI per controllare la posta elettronica in entrata e in uscita alla ricerca di parole chiave di interesse.
+Per tutti questi motivi il filone della sicurezza informatica nell'ambito delle reti è un filone molto attivo.
+In Italia, sempre per motivi di sicurezza pubblica legati a norme antiterrorismo, il Decreto Pisanu dal 2006 imponeva l'obbligo agli utenti che volevano connettersi a Internet tramite rete Wi-Fi di registrarsi con le proprie credenziali di identità presso il gestore stesso della rete nonché la previa richiesta di autorizzazione alla questura da parte del gestore stesso per l'installazione della rete Wi-Fi connessa alla rete Internet.
+Questa restrizione, da molti vista come puramente burocratica, ha significato per molti un ostacolo alla diffusione di tale tipo di accesso a Internet rispetto ad altri paesi europei ed esteri in cui l'accesso tramite Wi-Fi era invece pienamente liberalizzato.
+Tale situazione è cambiata durante il governo Berlusconi IV, il quale non prorogando il decreto ha liberalizzato l'accesso Internet tramite Wi-Fi a partire dal 1º gennaio 2011, ma sul quale però restano aperti diversi interrogativi su quale sia il corretto iter da seguire per eventuali esercenti pubblici che volessero offrire un servizio WI-FI alla propria clientela.
+In senso opposto invece si muove la proposta di legge italiana dell'onorevole Gabriella Carlucci che anziché difendere l'anonimato su Internet sancisce l'impossibilità di caricare contenuti di ogni genere senza identificarsi e inoltre propone di espandere il reato di diffamazione ai contenuti digitali.
+Privacy
+D'altra parte l'intercettazione e il filtraggio dei dati personali degli utenti da parte degli ISP o dei maggiori network di rete a scopo di ricerche di mercato pone oggi anche il problema della privacy dell'utente in Rete.
+Copyright
+Non solo si vuole controllare Internet perché mezzo di comunicazione di massa, ma anche per il fatto che esistono dei sistemi di scambio peer-to-peer che veicolano file protetti da diritto d'autore.
+Le case discografiche hanno cercato in tutti i modi di sostenere le proposte che suggerivano un controllo della rete a discapito del diritto di anonimato e della libertà personale.
+Un esempio è il tentato avviamento in Francia di una proposta di legge che avrebbe permesso agli ISP di togliere la connessione a Internet agli utenti che praticassero condivisione dei file protetti da copyright (dopo due avvertimenti), ma il decreto voluto da Nicolas Sarkozy ha perso la maggioranza dopo l'approvazione della relazione sul rafforzamento della sicurezza e delle libertà fondamentali su Internet di Stavros Lambrinidis, il 26 marzo 2009, all'Unione europea, che esprimeva una posizione forte in difesa della libertà d'espressione che in Internet vede la sua piena realizzazione.
+Neutralità della rete
+Al crescere dei servizi offerti dalla rete si è fatto strada l'ampio dibattito in merito alla network neutrality tra chi (gli utenti) vorrebbe una rete completamente trasparente nella fruizione di contenuti e servizi e chi (gli operatori di rete) vorrebbe un maggior controllo e selezione dei contenuti stessi impedendo la libera proliferazione di chi si appoggia sulle infrastrutture di rete per diffondere il proprio marketing e il proprio business ovvero i principali network o fornitori di servizi web (Google, YouTube, Facebook, Twitter, LinkedIn, ecc.).
+Tutela dei minori
+La sempre più facile accessibilità alla rete e ai suoi contenuti liberi da parte di un pubblico/utenti minorenni, progressivamente sempre più giovani, pone il problema della loro tutela di fronte a pericoli e rischi che l'anonimato e la vastità dei contenuti della rete può offrire nei loro confronti (es. pedofilia, pornografia, cyberbullismo, ecc.).
+Strumenti di filtraggio dei contenuti, opportunamente impostati (es. firewall), sono tuttavia disponibili da tempo nei vari sistemi informatici connessi come possibile rimedio al problema.
+Internet dipendenza
+Un altro problema che si è affacciato nel contesto della Rete, in merito al suo sempre più diffuso utilizzo, è l'Internet dipendenza, un aspetto di dipendenza psicologica, attualmente molto dibattuto, compreso all'interno della dipendenza dalle tecnologie digitali.
+Secondo i dati del rapporto annuale del 22 maggio 2012 di Mechthild Dyckmans, responsabile del dipartimento per le dipendenze patologiche del governo federale tedesco sono circa 250.000 le persone tra i 14 e i 24 anni che soffrono da dipendenza da internet, e altre 1,4 milioni sono considerate internauti problematici.
+Inibizione dei processi cognitivi e di apprendimento
+Secondo lo psichiatra e neuroscienziato Manfred Spitzer, sono stati effettuati diversi studi per verificare se l'utilizzo delle nuove tecnologie informatiche, migliorino le capacità di studio e apprendimento, che hanno portato a conclusioni negative soprattutto nei confronti dei giovani.
+Critiche a internet
+Molti degli aspetti controversi di internet sono stati discussi da autori come:
+Evgeny Morozov, Jaron Lanier, Andrew Keen, Nicholas Carr, Dave Eggers, Geert Lovink.
+Principali enti di gestione di Internet
+* ICANN (Internet Corporation of Assigned Names and Numbers);
+Note
+Bibliografia
+* Lee Siegel, Homo Interneticus - Restare umani nell'era dell'ossessione digitale, prefazione di Luca De Biase, Edizioni Piano B, Prato 2011 ISBN 978-88-96665-31-2

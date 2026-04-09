@@ -1,0 +1,31 @@
+Partition d'un entier
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : Partition.
+Une partition d'un entier est une séquence finie d'entiers naturels dont la somme vaut l'entier donné.
+On ordonne la séquence d'entiers par ordre décroissant.
+Par exemple, les partitions de 5 sont :
+Prenons par exemple les partitions de 8.
+Mais pas toutes, seulement celles qui ne contiennent que des chiffres impairs.
+Ce sont celles-là :
+Il y en a 6.
+Et en comptant les partitions de 8, mais distinctes (c'est-à-dire qu'il n'y a pas deux fois où plus le même chiffre), on obtient 6 aussi :
+8 =
+8 =
+8 =
+8 =
+8 =
+8 =
+Ces deux nombres sont toujours égaux.
+Les partitions d'un nombre sont notées p(n){\displaystyle p(n)}. Donc p(5)=7{\displaystyle p(5)=7}.
+Ça se dit "p de n" ;
+Le nombres de partitions distinctes et celui des partitions impaires est noté q(n){\displaystyle q(n)} ("q de n").
+Un « diagramme de Ferrer » est un assemblage de boîtes.
+Il vérifie :
+Chaque ligne comporte moins de boîtes que la ligne précédente ;
+Les boîtes sont alignées sur la gauche.
+A un diagramme de Ferrer, on associe une partition du nombre de boîtes.
+Il suffit de compter le nombre de boîtes par lignes.
+Voici deux exemples :
+Entre deux diagrammes de gauche et de droite, il y a une symétrie.
+Laquelle ?

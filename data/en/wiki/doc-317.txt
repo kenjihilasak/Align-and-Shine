@@ -1,0 +1,158 @@
+The decimal numeral system (also called base-ten positional numeral system, and occasionally called denary or decanary) is the standard system for denoting integer and non-integer numbers.
+It is the extension to non-integer numbers of the Hindu-Arabic numeral system.
+The way of denoting numbers in the decimal system is often referred to as decimal notation.
+A decimal numeral, or just decimal, or casually decimal number, refers generally to the notation of a number in the decimal numeral system.
+Decimals may sometimes be identified for containing a decimal separator (for example the "."
+in or ).
+"Decimal" may also refer specifically to the digits after the decimal separator, such as in " is the approximation of to two decimals".
+The numbers that may be represented in the decimal system are the decimal fractions, that is the fractions of the form , where is an integer, and is a non-negative integer.
+The decimal system has been extended to infinite decimals, for representing any real number, by using an infinite sequence of digits after the decimal separator (see Decimal representation).
+In this context, the decimal numerals with a finite number of non-zero places after the decimal separator are sometimes called terminating decimals.
+A repeating decimal is an infinite decimal that after some place repeats indefinitely the same sequence of digits (for example ).
+An infinite decimal represents a rational number if and only if it is a repeating decimal or has a finite number of nonzero digits.
+Origin
+Many numeral systems of ancient civilisations use ten and its powers for representing numbers, possibly because there are ten fingers on two hands and people started counting by using their fingers.
+Examples are Brahmi numerals, Greek numerals, Hebrew numerals, Roman numerals, and Chinese numerals.
+Very large numbers were difficult to represent in these old numeral systems, and only the best mathematicians were able to multiply or divide large numbers.
+These difficulties were completely solved with the introduction of the Hindu-Arabic numeral system for representing integers.
+This system has been extended to represent some non-integer numbers, called decimal fractions or decimal numbers for forming the decimal numeral system.
+Decimal notation
+For writing numbers, the decimal system uses ten decimal digits, a decimal mark, and, for negative numbers, a minus sign "−".
+The decimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9; the decimal separator is the dot "" in many countries (including all English speaking ones), but may be a comma "" in other countries (mainly in continental Europe).
+For representing a non-negative number, a decimal consists of
+* either a (finite) sequence of digits such as 2017, or in full generality,
+::a_ma_\ldots a_0
+: (in this case, the (entire) decimal represents an integer)
+* or two sequence of digits separated by a decimal mark such as 3.14159, 15.00, or in full generality
+::a_ma_\ldots a_0.b_1b_2\ldots b_n
+It is generally assumed that, if , the first digit is not zero, but, in some circumstances, it may be useful to have one or more 0's on the left.
+This does not change the value represented by the decimal.
+For example, .
+Similarly, if , it may be removed, and conversely, trailing zeros may be added without changing the represented number: for example, and .
+Sometimes the extra zeros are used for indicating the accuracy of a measurement.
+For example, 15.00 m may indicate that the measurement error is less than one centimeter (0.01 m), while 15 m may mean that the length is roughly fifteen meters, and that the error may exceed 10 cm.
+For representing a negative number, a minus sign is placed before .
+The numeral a_ma_\ldots a_0.b_1b_2\ldots b_n represents the number
+:a_m10^m+a_10^+\cdots+a_10^0+\frac+\frac+\cdots+\frac
+Therefore, the contribution of each digit to the value of a number depends on its position in the numeral.
+That is, the decimal system is a positional numeral system
+Decimal fractions
+The numbers that are represented by decimal numerals are the decimal fractions (sometimes called decimal numbers), that is, the rational numbers that may be expressed as a fraction, the denominator of which is a power of ten.
+For example, the numerals 0.8, 14.89, 0.00024 represent the fractions , , .
+More generally, a decimal with digits after the separator represents the fraction with denominator , whose numerator is the integer obtained by removing the separator.
+Expressed as a fully reduced fraction, the decimal numbers are those whose denominator is a product of a power of 2 and a power of 5.
+Thus the smallest denominators of decimal numbers are
+2^0\cdot 5^2, \ldots
+The integer part or integral part of a decimal is the integer written to the left of the decimal separator (see also truncation).
+For a non-negative decimal, it is the largest integer that is not greater than the decimal.
+The part from the decimal separator to the right is the fractional part, which equals the difference between the numeral and its integer part.
+When the integral part of a numeral is zero, it may occur, typically in computing, that the integer part is not written (for example , instead of ).
+In normal writing, this is generally avoided because of the risk of confusion between the decimal mark and other punctuation.
+Real number approximation
+Decimal numerals do not allow an exact representation for all real numbers, e.g. for the real number .
+Nevertheless, they allow approximating every real number with any desired accuracy, e.g., the decimal 3.14159 approximates the real , being less than 10−5 off; and so decimals are widely used in science, engineering and everyday life.
+More precisely, for every real number x, and every positive integer n, there are two decimals L and u, with at most n digits after the decimal mark, such that L ≤ x ≤ u and (u - L) = 10−n.
+Numbers are very often obtained as the result of a measurement.
+As measurements are generally afflicted with some measurement error with a known upper bound, the result of a measurement is well represented by a decimal with digits after the decimal mark, as soon as the absolute measurement error is bounded from above by 10−n.
+In practice, measurement results are often given with a certain number of digits after the decimal point, which indicate the error bounds.
+For example, although 0.080 and 0.08 denote the same decimal number, the numeral 0.080 suggests a measurement with an error less than 0.001, while the numeral 0.08 indicates an absolute error bounded by 0.01.
+In both cases, the true value of the measured quantity could be, for example, 0.0803 or 0.0796 (see also significant figures).
+Infinite decimal expansion
+For a real number x and an integer n ≥ 0, let xn denote the (finite) decimal expansion of the greatest number that is not greater than x, which has exactly n digits after the decimal mark.
+Let di denote the last digit of xi.
+It is straightforward to see that xn may be obtained by appending dn to the right of xn-1.
+This way one has
+:xn = x0.d1d2...dn−1dn,
+and the difference of xn-1 and xn amounts to
+:|xn − xn-1= dn ⋅ 10−n \; x = \lim_ x_n \; or
+: x = x0.d1d2...dn...,
+which is called an infinite decimal expansion of x.
+Conversely, for any integer x0 and any sequence of digits \; (d_n)_^ the (infinite) expression is an infinite decimal expansion of a real number x.
+This expansion is unique if neither all dn are equal to 9 nor all dn are equal to 0 for n large enough (for all n greater than some natural number N).
+If all dn for n > N equal to 9 and the limit of the sequence \; (x_n)_^ is the decimal fraction obtained by replacing the last digit that is not a 9, i.e.: dN, by dN + 1, and replacing all subsequent 9s by 0s (see 0.999...).
+Any such decimal fraction, i.e., dn = 0 for n > N, may be converted to its equivalent infinite decimal expansion by replacing dN by dN − 1, and replacing all subsequent 0s by 9s (see 0.999...).
+In summary, every real number that is not a decimal fraction has a unique infinite decimal expansion.
+Each decimal fraction has exactly two infinite decimal expansions, one containing only 0s after some place, which is obtained by the above definition of xn, and the other containing only 9s after some place, which is obtained by defining xn as the greatest number that is less than x, having exactly n digits after the decimal mark.
+Rational numbers
+Long division allows computing the infinite decimal expansion of a rational number.
+If the rational number is a decimal fraction, the division stops eventually, producing a decimal numeral, which may be prolongated into an infinite expansion by adding infinitely many zeros.
+If the rational number is not a decimal fraction, the division may continue indefinitely.
+However, as all successive remainders are less than the divisor, there are only a finite number of possible remainders, and after some place, the same sequence of digits must be repeated indefinitely in the quotient.
+That is, one has a repeating decimal.
+For example,
+: = 0.&thinsp;012345679&thinsp;012... (with the group 012345679 indefinitely repeating).
+Conversely, every eventually repeating sequence of digits is the infinite decimal expansion of a rational number.
+This is a consequence of the fact that the recurring part of a decimal representation is, in fact, an infinite geometric series which will sum to a rational number.
+For example,
+:0.0123123123\ldots
+\frac \sum_^\infty 0.001^k
+\frac\ \frac
+\frac
+\frac
+Decimal computation
+Most modern computer hardware and software systems commonly use a binary representation internally (although many early computers, such as the ENIAC or the IBM 650, used decimal representation internally).
+For external use by computer specialists, this binary representation is sometimes presented in the related octal or hexadecimal systems.
+For most purposes, however, binary values are converted to or from the equivalent decimal values for presentation to or input from humans; computer programs express literals in decimal by default.
+Both computer hardware and software also use internal representations which are effectively decimal for storing decimal values and doing arithmetic.
+Often this arithmetic is done on data which are encoded using some variant of binary-coded decimal, especially in database implementations, but there are other decimal representations in use (including decimal floating point such as in newer revisions of the IEEE 754 Standard for Floating-Point Arithmetic).
+Decimal arithmetic is used in computers so that decimal fractional results of adding (or subtracting) values with a fixed length of their fractional part always are computed to this same length of precision.
+This is especially important for financial calculations, e.g., requiring in their results integer multiples of the smallest currency unit for book keeping purposes.
+This is not possible in binary, because the negative powers of 10 have no finite binary fractional representation; and is generally impossible for multiplication (or division).
+See Arbitrary-precision arithmetic for exact calculations.
+History
+Many ancient cultures calculated with numerals based on ten, sometimes argued due to human hands typically having ten digits.
+Standardized weights used in the Indus Valley Civilization (c.3300-1300 BCE) were based on the ratios: 1 10, 1 2, 1, 2, 5, 10, 20, 50, 100, 200, and 500, while their standardized ruler - the Mohenjo-daro ruler - was divided into ten equal parts.
+Egyptian hieroglyphs, in evidence since around 3000 BCE, used a purely decimal system, as did the Cretan hieroglyphs (ca. 1625−1500 BC) of the Minoans whose numerals are closely based on the Egyptian model.
+The decimal system was handed down to the consecutive Bronze Age cultures of Greece, including Linear A (ca. 18th century BC−1450 BC) and Linear B (ca.
+1375−1200 BC) - the number system of classical Greece also used powers of ten, including, Roman numerals, an intermediate base of 5.
+Notably, the polymath Archimedes (ca. 287-212 BC) invented a decimal positional system in his Sand Reckoner which was based on 108 Hittite hieroglyphs (since 15th century BCE) were also.strictly decimal.
+Some non-mathematical ancient texts like the Vedas, dating back to 1900-1700 BCE make use of decimals and mathematical decimal fractions.
+The Egyptian hieratic numerals, the Greek alphabet numerals, the Hebrew alphabet numerals, the Roman numerals, the Chinese numerals and early Indian Brahmi numerals are all non-positional decimal systems, and required large numbers of symbols.
+For instance, Egyptian numerals used different symbols for 10, 20, to 90, 100, 200, to 900, 1000, 2000, 3000, 4000, to 10,000.
+The world's earliest positional decimal system was the Chinese rod calculus.
+and then spread to the Middle East and from there to Europe.
+The written Chinese decimal fractions were non-positional.
+Qin Jiushao in his book Mathematical Treatise in Nine Sections (1247) denoted 0.96644 by
+:::::
+:::::, meaning
+:::::
+:::::096644
+J. Lennart Berggren notes that positional decimal fractions appear for the first time in a book by the Arab mathematician Abu'l-Hasan al-Uqlidisi written in the 10th century.
+The Jewish mathematician Immanuel Bonfils used decimal fractions around 1350, anticipating Simon Stevin, but did not develop any notation to represent them.
+The Persian mathematician Jamshīd al-Kāshī claimed to have discovered decimal fractions himself in the 15th century.
+A forerunner of modern European decimal notation was introduced by Simon Stevin in the 16th century.
+Natural languages
+A method of expressing every possible natural number using a set of ten symbols emerged in India.
+Several Indian languages show a straightforward decimal system.
+Many Indo-Aryan and Dravidian languages have numbers between 10 and 20 expressed in a regular pattern of addition to 10.
+The Hungarian language also uses a straightforward decimal system.
+All numbers between 10 and 20 are formed regularly (e.g. 11 is expressed as "tizenegy" literally "one on ten"), as with those between 20 and 100 (23 as "huszonhárom" = "three on twenty").
+A straightforward decimal rank system with a word for each order (10 , 100 , 1000 , 10,000 ), and in which 11 is expressed as ten-one and 23 as two-ten-three, and 89,345 is expressed as 8 (ten thousands) 9 (thousand) 3 (hundred) 4 (tens) 5 is found in Chinese, and in Vietnamese with a few irregularities.
+Japanese, Korean, and Thai have imported the Chinese decimal system.
+Many other languages with a decimal system have special words for the numbers between 10 and 20, and decades.
+For example, in English 11 is "eleven" not "ten-one" or "one-teen".
+Incan languages such as Quechua and Aymara have an almost straightforward decimal system, in which 11 is expressed as ten with one and 23 as two-ten with three.
+Some psychologists suggest irregularities of the English names of numerals may hinder children's counting ability.
+Other bases
+Some cultures do, or did, use other bases of numbers.
+* Pre-Columbian Mesoamerican cultures such as the Maya used a base-20 system (perhaps based on using all twenty fingers and toes).
+* The Yuki language in California and the Pamean languages in Mexico have octal (base-8) systems because the speakers count using the spaces between their fingers rather than the fingers themselves.
+The existence of a non-decimal base in the earliest traces of the Germanic languages is attested by the presence of words and glosses meaning that the count is in decimal (cognates to "ten-count" or "tenty-wise"); such would be expected if normal counting is not decimal, and unusual if it were.
+Where this counting system is known, it is based on the "long hundred" = 120, and a "long thousand" of 1200.
+The descriptions like "long" only appear after the "small hundred" of 100 appeared with the Christians.
+Gordon's https:/ doc Introduction-to-Old-Norse-by-E-V-Gordon Introduction to Old Norse p 293, gives number names that belong to this system.
+An expression cognate to 'one hundred and eighty' translates to 200, and the cognate to 'two hundred' translates to 240.
+http:/ catalogue arch-352-1 pdf 123_395_418.pdf Goodare details the use of the long hundred in Scotland in the Middle Ages, giving examples such as calculations where the carry implies i C (i.e. one hundred) as 120, etc. That the general population were not alarmed to encounter such numbers suggests common enough use.
+It is also possible to avoid hundred-like numbers by using intermediate units, such as stones and pounds, rather than a long count of pounds.
+Goodare gives examples of numbers like vii score, where one avoids the hundred by using extended scores.
+There is also a paper by W.H. Stevenson, on 'Long Hundred and its uses in England'.
+* Many or all of the Chumashan languages originally used a base-4 counting system, in which the names for numbers were structured according to multiples of 4 and 16.
+* Many languages use quinary (base-5) number systems, including Gumatj, Nunggubuyu, Kuurn Kopan Noot and Saraveca.
+Of these, Gumatj is the only true 5-25 language known, in which 25 is the higher group of 5.
+* Some Nigerians use duodecimal systems.
+So did some small communities in India and Nepal, as indicated by their languages.
+* The Huli language of Papua New Guinea is reported to have base-15 numbers.
+* Umbu-Ungu, also known as Kakoli, is reported to have base-24 numbers.
+* Ngiti is reported to have a base-32 number system with base-4 cycles.
+12, nif means 36, and nif thef means 36×2
+88zokmwqb982kexrt7jfeb77pdm54oq

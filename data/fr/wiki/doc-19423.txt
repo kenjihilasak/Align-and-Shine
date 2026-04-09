@@ -1,0 +1,87 @@
+Relativité
+Le est un paramètre-clé intervenant dans de nombreuses formules de la relativité restreinte d'Albert Einstein.
+Il s’agit du facteur par lequel le temps, les longueurs, et la masse relativiste changent pour un objet tandis que cet objet est en mouvement.
+Historique
+Le facteur de Lorentz () est ainsi nommé en l'honneur du mathématicien et physicien néerlandais Hendrik Antoon Lorentz, lauréat du prix Nobel de physique en 1902, qui l'a introduit en 1904 comme rapport de proportionnalité entre deux temps, le temps vrai et le temps local, mais qui apparaissait dans ses travaux antérieurs de 1895 comme rapport de deux longueurs.
+Le facteur est aussi nommé facteur gamma de Lorentz ou encore facteur de dilatation du temps.
+Notation et expression
+Le facteur de Lorentz est couramment noté \gamma, la lettre gamma minuscule de l'alphabet grec.
+Il est défini par :
+où :
+* \beta est la vitesse réduite, définie comme le rapport de v par c :
+\beta=\frac;
+* \alpha est le facteur de contraction, qui est l'inverse de \gamma :
+\alpha
+\frac
+\sqrt
+\sqrt
+\frac=\frac;
+Dimension
+En analyse dimensionnelle, le facteur de Lorentz est une grandeur sans dimension.
+Quelques valeurs
+La table suivante indique quelques valeurs du facteur de Lorentz correspondant à différentes valeurs de la vitesse, données en pourcentage de c.
+Principale utilisation
+Le facteur de Lorentz s'applique à la dilatation du temps et la contraction des longueurs en relativité restreinte.
+On peut décrire ces effets en considérant les expériences imaginaires suivantes (imaginaires car pour que l'effet soit mesurable il est nécessaire que les vitesses soient proches de celle de la lumière).
+Des observateurs terrestres situés le long du trajet d'une fusée donnée et observant son horloge à travers le hublot verront cette dernière tourner moins vite.
+Si Δτ est l'intervalle de temps lu sur l'horloge de la fusée, il lui correspondra pour les observateurs terrestres un temps Δt plus long donné par la formule
+\,\Delta t = \gamma \Delta\tau \,.
+Cette dilatation du temps est à l'origine du fameux paradoxe des jumeaux.
+La contraction des longueurs est illustrée par le paradoxe du train.
+Si un train de longueur propre L (c'est la longueur mesurée par un observateur au repos par rapport au train) passe dans un tunnel de même longueur propre L, les observateurs situés sur la voie pourront constater qu'à un instant donné pour eux le train semble plus court que le tunnel, sa longueur en quelque sorte « apparente » L étant plus courte que le tunnel et donnée par la formule
+:\,L=L_0/\gamma \,.
+Démonstration
+La relativité restreinte raisonne sur des événements repérés dans un espace-temps à quatre dimensions par une coordonnée temporelle t et trois coordonnées spatiales (x, y, z).
+Si on considère deux événements E1 et E2 de coordonnées (t, x, y, z) et (t, x, y, z) on définit le carré de l'intervalle d'espace-temps
+Δτ entre ces deux événements par la formule
+:\,c^2\Delta\tau^2 = c^2 (t_2 - t_1)^2
+- (x_2
+- x_1)^2
+- (y_2
+- y_1)^2
+- (z_2
+- z_1)^2 \,,
+:\,c^2\Delta\tau^2 = c^2\Delta t^2
+- \Delta
+s^2
+si Δt et Δs représentent la distance temporelle et la distance spatiale entre les deux événements.
+Le relativité restreinte pose que cette quantité est indépendante du repère dans lequel elle est calculée.
+Elle est dite invariante par changement de coordonnées.
+Appliquons
+cette propriété d'invariance à deux événements se produisant dans la fusée.
+Considérons ainsi deux éclairs successifs séparés par un intervalle de temps
+Δτ mesuré dans la fusée (il suffit de lire l'heure indiquée par l'horloge embarquée).
+Dans le repère fixe, les deux observateurs terrestres en coïncidence avec les éclairs 1 et 2 notent l'heure sur leur horloge et mesurent une différence de temps égale à Δt.
+Ces deux observateurs terrestres sont situés à une distance égale à v Δt si v est la vitesse de la fusée.
+Cette quantité représente la distance spatiale entre les événements E1 et E2 dans le repère fixe.
+Comme les deux éclairs sont émis dans la fusée, la distance spatiale entre ces deux mêmes événements évaluée dans le repère de la fusée est nulle.
+En écrivant l'invariance de la quantité cΔt
+- Δs on obtient
+\,c^2\Delta\tau^2
+c^2\Delta\tau^2
+c^2\Delta t^2
+- v^2\Delta t^2\,.
+Cette formule redonne bien
+:\Delta t = \Delta\tau/\sqrt égale par définition à \gamma\Delta\tau
+Remarque
+En introduisant le paramètre angulaire de vitesse θ défini par la formule
+\theta \,=\
+, \mathrm \,
+\tanh \theta
+\,\gamma = \cosh\theta\,.
+Ce changement de variable permet d'écrire plus simplement les formules de Lorentz.
+Énergie
+On déduit de la valeur de \gamma l'énergie d'une particule de masse m,
+E=\gamma mc^2
+où c est la vitesse de la lumière dans le vide.
+En utilisant un développement en série entière de cette fonction,
+\frac
+mc^2 + \fracmv^2 + \frac \frac + ... + mc^2 \frac\frac +
+On retrouve l’énergie au repos contenue dans la masse (v=0) :
+E_0 = mc^2
+E = E_0 + E_c
+E_c = ( \gamma
+- 1) m c^2
+\gamma = 1 + \frac
+Ainsi que l'approximation de l'énergie cinétique pour les faibles vitesses (v<<c) :
+E_c = \fracmv^2

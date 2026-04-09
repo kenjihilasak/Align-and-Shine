@@ -1,0 +1,87 @@
+Cercle|Géométrie du triangle|Fonction trigonométrique|Analyse harmonique|Fonction de référence
+La fonction cosinus est une fonction mathématique paire d'un angle.
+Dans un triangle rectangle, le cosinus d'un angle est le rapport de la longueur du côté adjacent par la longueur de l'hypoténuse.
+Le cosinus est habituellement cité en deuxième parmi les fonctions trigonométriques.
+Les fonctions trigonométriques sont habituellement définies comme le rapport de deux côtés d'un triangle rectangle, et peuvent être définies de manière équivalente comme la longueur de différents segments sur le cercle unité.
+Les définitions plus modernes les caractérisent par des séries entières ou comme des solutions d'équations différentielles particulières, permettant leur extension à des valeurs arbitraires et aux nombres complexes.
+La fonction cosinus est utilisée couramment pour modéliser des phénomènes périodiques comme les ondes sonores ou lumineuses ou encore les variations de température au cours de l'année.
+Définitions
+Dans un triangle rectangle
+Pour définir le cosinus d'un angle Â, noté cos Â, considérons un triangle rectangle arbitraire qui contient l'angle Â.
+Les côtés du triangle rectangle sont appelés :
+* l’hypoténuse : c'est le côté opposé à l'angle droit, une jambe de l'angle Â et le côté le plus long du triangle ;
+* le côté opposé : c'est le côté opposé à l'angle Â qui nous intéresse ;
+* le côté adjacent : c'est le côté qui est une jambe de l'angle Â, qui n'est pas l'hypoténuse.
+On notera :
+h : la longueur de l'hypoténuse ;
+a : la longueur du côté adjacent.
+Alors :
+:\cos (\widehat)
+\frac
+\frac
+ah.
+Ce rapport ne dépend pas du triangle rectangle particulier choisi, aussi longtemps qu'il contient l'angle, puisque tous ces triangles rectangles sont semblables.
+À partir du cercle unité
+En trigonométrie, le cercle unité est le cercle de rayon 1 centré à l'origine (0, 0) d'un système de coordonnées cartésiennes.
+Considérons l'intersection entre une droite passant par l'origine, faisant un angle \omega avec la moitié positive de l'axe x, et le cercle unité.
+Alors la composante horizontale de cette intersection est égale à \cos (\omega).
+À partir des séries entières
+La fonction cosinus peut être définie à partir de la série entière, qui converge pour tout réel x :
+:\cos x=\sum_^ \frac x^.
+Autrement dit, le cosinus de x est défini comme la partie réelle de la série exponentielle de ix :
+:\cos x= \frac2.
+Cette définition, jointe à celle analogue du sinus , est équivalente à la formule d'Euler.
+Comme solution d'une équation différentielle
+La série entière précédente est l'unique solution du problème de Cauchy :
+-y,\, y (0)
+y' (0)=0,
+qui constitue donc une définition équivalente de la fonction cosinus.
+Propriétés
+Périodicité
+La fonction cosinus est périodique, de période .
+\forall x \in \R\quad\cos (x+2\pi)=\cos x.
+Cette propriété découle naturellement de la définition à partir du cercle unité .
+Plus précisément, deux nombres réels ont le même cosinus si et seulement leur somme ou leur différence appartient à 2 \pi \Z.
+Parité
+La fonction cosinus est paire :
+\forall x \in \R\quad\cos (-x)=\cos x.
+Cette propriété apparaît clairement dans le développement en série entière.
+Réciproque
+La fonction cosinus est périodique donc non injective.
+Aussi, on considère sa restriction à 0, π qui, elle, est bien bijective de 0, π dans l'image -1, 1, et l'on définit alors la fonction réciproque arc cosinus :
+\begin
+\mathrm : & -1,1 & \to& 0,\pi \\
+& x & \mapsto & \arccos x
+\end
+qui vérifie donc
+:\forall x \in 0,\pi\quad\arccos (\cos x) = x ;
+:\forall x \in -1,1\quad\cos (\arccos x) = x.
+Dérivée
+La dérivée de la fonction cosinus est l'opposée de la fonction sinus :
+:\forall x \in \R\quad\cos'x=-\sin x.
+Primitive
+Une primitive de cos est
+sin, ce qui s'écrit :
+\forall x \in \R\quad\sin' x=\cos x.
+Limites
+Pour tout réel x
+, la fonction cosinus est continue au point x, donc sa limite en ce point est cos (x).
+Du fait de sa périodicité, elle n'a pas de limite en ±∞.
+Valeurs remarquables
+La racine de l'équation cos (x) = x est ipso
+facto
+un nombre remarquable, appelé le nombre de Dottie.
+Relation avec les nombres complexes
+Le cosinus est utilisé pour déterminer la partie réelle d'un nombre complexe z donné en coordonnées polaires, par son module r et son argument φ :
+:\Re (z)
+\Re (r \mathrm
+e^)
+r \cos\varphi.
+Cosinus avec un argument complexe
+La fonction cosinus peut s'étendre sur le domaine complexe, où elle est une fonction entière :
+\forall z \in \Complex\quad\cos z
+\sum_^ \frac
+\frac2= \cos (\Re (z))
+\cosh (\Im (z))-\mathrm i\sin (\Re (z))\sinh (\Im (z)).
+Lien externe
+ifc0ui5ad14hbvsx5vlq7mq2d0ktfh8

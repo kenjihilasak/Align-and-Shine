@@ -1,0 +1,43 @@
+Fonction de référence|Inverse
+En mathématiques, la fonction inverse est la fonction qui à tout réel x non nul associe son inverse, noté \frac.
+Elle se note de la manière suivante :
+:f:\begin\R^*\to\R^* \\x\mapsto f (x)=\displaystyle \dfrac1x.\end
+Variations
+Cette fonction est strictement décroissante sur l'intervalle des réels strictement négatifs, puis strictement décroissante sur l'intervalle des réels strictement positifs, avec 0 comme « valeur interdite » (pôle).
+Mais elle n'est pas strictement décroissante sur ℝ* car si a < 0 < b, on conserve l'inégalité 1 b.
+La fonction inverse ne s'annule pas et n'admet pas de maximum ou minimum sur ℝ*, ni même sur ou sur .
+Elle a pour limite 0 en et en .
+Cette fonction permet donc de modéliser un certain nombre de comportements qui décroissent mais qui présentent une « borne inférieure » (les fonctions ne tendent pas vers ), comme la gravitation et la force électrostatique qui sont en 1/r.
+En 0, sa limite à gauche vaut et à droite, .
+Représentation graphique
+La représentation graphique de la fonction inverse est une hyperbole.
+L'hyperbole d'équation y
+\frac1x admet deux asymptotes :
+une horizontale (l'axe des abscisses, d'équation y
+et une verticale (l'axe des ordonnées, d'équation x = 0).
+Ces deux asymptotes étant (dans un repère orthonormal) perpendiculaires, l'hyperbole est dite équilatère (son excentricité vaut \sqrt2).
+On remarque d'autre part que le centre de symétrie de cette hyperbole est le point (0, 0), ce qui traduit le fait que la fonction inverse est une fonction impaire.
+On remarque enfin que cette hyperbole (H) possède un axe de symétrie : la droite d'équation y
+En effet le point (x, y) appartient à (H)
+si et seulement si le point (y, x) appartient à (H) (
+1/x équivaut à Cette propriété graphique permet de remarquer que la fonction inverse est une involution, c'est-à-dire une bijection qui est sa propre réciproque : f \circ f =\mathrm_. Ou bien encore, pour tout réel x non nul, l'inverse de l'inverse de x est égal à x.
+Dérivée de la fonction inverse
+La dérivée de la fonction inverse est la fonction f' définie par :
+:f':\begin\R^*\to\R^*\\x\mapsto f
+' (x)=\displaystyle -\dfrac1.\end
+Illustration :
+La dérivée de y
+\dfrac1x au point d'abscisse 1 vaut -\dfrac1
+-1 donc la pente de la tangente à la courbe de la fonction inverse au point de coordonnées (1, 1) vaut -1.
+La fonction inverse est concave sur l'intervalle et convexe sur .
+Primitives de la fonction inverse
+Le logarithme naturel, ou logarithme népérien, noté
+, est défini dans l'article détaillé comme la fonction de dans ℝ dont la dérivée est la fonction inverse, et dont la valeur en 1 est 0.
+Les primitives sur de la fonction inverse sont donc les fonctions de la forme , où C est une constante réelle arbitraire.
+Fonction inverse
+abstraite
+On peut définir de manière générale une fonction inverse f dans un groupe (G,\times) par
+\forall x \in G\quad f (x)=x^.
+L'inverse permet donc d'étendre aux exposants entiers négatifs la notion de puissance d'un nombre (ou d'un élément d'un groupe) en posant, pour tout entier n positif :
+Voir aussi
+72ac3wqp9630c2xnlo7w1ne89x4r4kn

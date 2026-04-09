@@ -1,0 +1,289 @@
+Hydromécanique|Mécanique|Mécanique
+des fluides|Hydraulique|Grandeur thermodynamique|Théorie de la plongée
+La pression est une grandeur physique qui traduit les échanges de quantité de mouvement dans un système thermodynamique, et notamment au sein d'un solide ou d'un fluide.
+Elle est définie classiquement comme l'intensité de la force qu'exerce un fluide par unité de surface.
+C'est une grandeur scalaire (ou tensorielle) intensive.
+Dans le Système international d'unités elle s'exprime en pascals, de symbole Pa.
+L'analyse dimensionnelle montre que la pression est homogène à une force surfacique ( ) comme à une énergie volumique ( ).
+Par abus de langage on appelle parfois «
+pression exercée » (par un fluide sur une paroi)
+la force (dite « force pressante ») qu'il exerce par unité d'aire de la paroi, mais il s'agit alors d'une grandeur vectorielle définie localement alors que la pression est une grandeur scalaire définie en tout point du fluide.
+Histoire de la notion de pression
+La notion de pression, corollaire de celle du vide, est à l'origine liée au problème de la montée de l'eau par pompe aspirante.
+Héron d'Alexandrie donne la première description des pompes de ce type, interprétant leur fonctionnement en termes de vide créé par « une certaine force ».
+Aristote récuse le concept de vide.
+La pensée scholastique médiévale généralise : « la Nature a horreur du vide » (horror vacui), ce qui n'empêche pas les progrès techniques de l'âge d'or islamique tels que la pompe aspirante-foulante décrite par Al-Jazari.
+Ces progrès gagneront l'Europe de la Renaissance avec les techniques de pompage étagé.
+Le problème scientifique refait surface au .
+En 1630, Jean-Baptiste Baliani suggère le rôle du poids de l'air pour équilibrer celui de l'eau dans une lettre à Galilée.
+Celui-ci remet en cause l'inexistence du vide en 1638, mais l'âge arrête ses réflexions sur le sujet.
+Evangelista Torricelli, reprenant le problème des fontainiers de Florence lié à la limitation des pompes aspirantes initialement confié à Galilée, confirme l'hypothèse du « poids de l'atmosphère » et invente le baromètre en 1643.
+Gilles Personne de Roberval précise le concept en étudiant en 1647 l'expansion des gaz, puis Blaise Pascal publie son fameux traité sur la pression atmosphérique en 1648.
+Robert Boyle établit la relation entre pression et volume en 1660 et Edmé Mariotte en 1676 (la loi de Boyle-Mariotte).
+On a à cette époque une description assez complète mais empirique de la pression des gaz.
+La théorie cinétique des gaz commence avec Daniel Bernoulli en 1738.
+Ludwig Boltzmann la mène à un degré de précision proche de l'état actuel en 1872 et 1877.
+Satyendranath Bose étend le domaine au rayonnement en 1924.
+Définitions
+Avec la pression on s'intéresse au transfert de quantité de mouvement dans un milieu liquide ou gazeux et à ses effets sur une paroi réelle ou virtuelle.
+On note x le vecteur unitaire normal à la paroi.
+En mécanique
+Approche élémentaire
+La pression est définie classiquement par son effet sur une surface élémentaire dS.
+La force exercée F est définie par
+:\mathrm\mathbf=p \,\mathrmS \,\mathbf\equiv p\,\mathrm\mathbf
+Cette force est normale à la surface.
+Cette expression définit le scalaire p défini comme la pression.
+Pour un milieu d'aire finie
+:p=\frac
+Cette définition élémentaire, intéressante du point de vue didactique, est incorrecte aux plans physique et logique : la pression existe en l'absence de toute paroi et l'effet du milieu environnant sur une telle paroi dépend des propriétés de cette surface.
+Il y a une relation causale mais pas de relation biunivoque entre pression et force résultante.
+Approche générale
+Considérons tout d'abord le cas d'un milieu unidimensionnel où un ensemble de particules se déplace avec la vitesse v.
+La pression p est définie comme le flux de la quantité de mouvement par unité de volume ½ ρ v :
+\frac\,\rho \,\mathbf \cdot \mathbf
+\frac\,\rho \,v^2
+où ρ est la masse volumique du fluide et v la vitesse de module
+Cette définition est une définition physique de la pression.
+Elle correspond en une dimension d'espace à la pression dynamique dans le cas d'une description macroscopique du problème d'un écoulement et se généralise aisément à un milieu tridimensionnel à symétrie sphérique lorsque la distribution des vitesses est isotrope.
+C'est le cas pour la description microscopique d'un gaz en équilibre thermodynamique (voir ci-dessous).
+En effet dans ce cas le flux est identique dans toutes les directions.
+Plus généralement ces échanges de quantité de mouvement ne sont ni isotropes ni totalement directifs et dans ce cas on utilise le tenseur des contraintes \mathsf\equiv \sigma_ (ou tenseur de pression) pour les décrire.
+En l'absence de couple interne au système ce tenseur est symétrique.
+Ceci est vérifié pour un fluide newtonien (mais pas seulement).
+Pour un fluide au repos ce tenseur est isotrope
+:\mathsf=-p\,\mathsf
+où \mathsf est le tenseur unité et p la pression hydrostatique
+On définit le tenseur de contraintes visqueuses comme le déviateur
+\mathsf\equiv \tau_=\mathsf+p\,\mathsf\equiv \sigma_+p\delta_
+où δij est le symbole de Kronecker.
+Pour un fluide newtonien et avec l'hypothèse de Stokes σij est un tenseur à diagonale nulle.
+Cette propriété est utilisée pour l'écriture standard des équations de Navier-Stokes.
+En physique statistique
+Approche cinétique
+On définit la pression comme l'effet sur une paroi des impacts de particules (atome , molécules), effet résultant du transfert de quantité de mouvement.
+:p=\fracn\,m\,\langle v^2 \rangle
+où n est la densité volumique des particules, m leur masse et v leur vitesse microscopique.
+est la moyenne statistique du carré du module de la vitesse.
+Pour un gaz à l'équilibre thermodynamique local la moyenne statistique se réduit à la moyenne temporelle au point considéré et la vitesse obéit à la distribution statistique de Maxwell.
+On peut écrire
+::p=n\,k\,T
+où T est la température thermodynamique et k la constante de Boltzmann
+Dans cette approche la paroi est supposée parfaitement réfléchissante, ce qui ne correspond pas à la réalité.
+En fait la condition de réflexion parfaite définit une condition de symétrie, donc la négation même d'une paroi : ce type de condition aux limites est utilisé en physique pour éviter tout problème lié à l'écriture d'une condition physiquement réaliste.
+Effet sur une paroi solide
+La distribution maxwellienne des vitesses dans un gaz à l'équilibre thermodynamique résulte des interactions particule-particule dans le milieu libre.
+Les interactions paroi-particule sont de nature très différente et la distribution des vitesses est profondément altérée par la présence de la paroi sur une hauteur de quelques libres parcours moyens
+On peut définir une échelle macroscopique pour toute variable scalaire a par
+:l_a=\frac
+Si l est grand devant la on est en régime moléculaire décrit par l'équation de Boltzmann.
+Le calcul de l'effort sur la paroi se fera à partir de celui des interactions individuelles.
+Dans le cas l << la la paroi influence la distribution des vitesses dans une région épaisse de quelques libres parcours moyens appelée couche de Knudsen.
+On peut montrer que la contrainte normale sur la paroi pxx est la pression p hors de la couche de Knudsen à un facteur correctif près qui est en \mathcal (\sqrt).
+Ce terme tend donc vers 0 lorsque la masse volumique du gaz augmente.
+Pour un gaz monoatomique il est strictement nul en l'absence d'écoulement et de transfert thermique.
+De la même façon il existe des termes de cisaillement pyy et pzz (tension superficielle) en \mathcal (l).
+Si l'effet sur la pression est toujours négligeable, celui sur la vitesse et la température doivent être pris en compte dans certaines situations, par exemple l'écoulement en milieu poreux décrit par l'équation de Darcy-Klinkenberg.
+Surface liquide
+La tension interfaciale entre un liquide et un gaz ou entre deux liquides est liée aux phénomènes d'interaction entre molécules.
+Cet effet est analogue à celui dans un milieu gazeux proche d'une paroi solide décrit ci-dessus.
+Toutefois les interactions moléculaires dans un liquide sont beaucoup plus complexes que dans un gaz et il n'existe pas de surface en tant que discontinuité comme pour un solide.
+L'analyse analytique du phénomène est beaucoup plus difficile.
+On est réduit à l'expérience ou à un calcul de dynamique moléculaire, donc une expérience numérique.
+Toutefois l'approche qualitative utilisant le tenseur de pression permet d'illustrer le phénomène.
+Le tenseur de pression est diagonal du fait des symétries du problème.
+L'équilibre en x (axe normal à la surface) implique que pxx (x)
+Cste
+Les termes transverses pyy et pzz sont égaux par symétrie et varient avec x.
+On note pt (x) leur valeur.
+Ces termes induisent une contrainte correspondant à l'écart à p
+:\gamma_
+\gamma
+\int (p-p_t)\mathrmx=\gamma
+l'intégration se faisant sur un domaine incluant la région d'épaisseur nanométrique de la couche incriminée.
+γ est la tension superficielle qui est une propriété du liquide seulement.
+Généralement la modélisation du phénomène s'appuie sur une approche mécanique ou thermodynamique qui ne dit rien des mécanismes sous-jacents.
+Rayonnement
+La thermodynamique du gaz de photons (des bosons obéissant à la statistique de Bose-Einstein) permet de définir une pression radiative qui a les mêmes attributs que la pression des atomes et molécules.
+Elle existe dans le milieu vide ou contenant un matériau non opaque et est utilisée en transfert radiatif.
+Dans les gaz à très haute température elle est du même ordre de grandeur ou même supérieure à la pression gazeuse.
+Cependant, par rapport aux gaz, le problème est simplifié par l'absence d'interaction photon-photon.
+Pour calculer le phénomène on peut donc superposer le rayonnement incident et le rayonnement émis de la paroi.
+Il n'existe pas l'équivalent de la couche de Knudsen.
+La force résultante sur la paroi peut avoir une direction quelconque.
+Dans le cas d'un faisceau parallèle impactant une surface absorbante, la force résultante a la direction du faisceau.
+Gaz dégénéré d'électrons ou de neutrons
+Dans les étoiles denses comme les naines blanches ou les étoiles à neutrons la densité est telle que la matière est dans un état dégénéré.
+La composante de la pression liée au mouvement des particules est négligeable devant la part quantique liée à l'impossibilité pour les électrons ou les neutrons de se rapprocher au-delà d'une certaine distance sous peine de violer le principe d'exclusion de Pauli.
+La thermodynamique permet d'attribuer une pression isotrope à ce milieu, appelée pression de dégénérescence.
+Elle varie comme la puissance 5/3 de la masse volumique et est indépendante de la température.
+Le domaine est limité par la température de Fermi définie
+par
+:T_F=\frac
+où μ est le potentiel chimique.
+Dans le cas de dégénérescence électronique la température de Fermi des corps est de l'ordre de quelques dizaines de milliers de kelvins.
+En thermodynamique
+En thermodynamique, la pression est définie à partir de l'énergie interne U ( V, S, N )
+par
+:p=-\left (\frac\right)_,
+où V est le volume occupé, S l'entropie et N = n V le nombre de particules dans le volume V.
+En général la pression est strictement positive
+car il faut fournir de l'énergie () pour diminuer le volume ().
+Cette définition est cohérente avec celle de la pression pour un milieu à l'équilibre thermodynamique en cinétique des gaz.
+En mécanique des fluides
+Il existe de nombreux problèmes dans lesquels la couche limite est modifiée par l'état de paroi : rugosité à l'échelle millimétrique en aérodynamique, à l'échelle centimétrique en hydraulique ou à l'échelle métrique pour les vents dans l'atmosphère.
+Pour ne pas avoir à détailler chaque détail de la surface on définit une surface plane équivalente et on transfère les effets de la rugosité sur une condition aux limites ad hoc.
+Lorsqu'on regarde ce qui se passe au niveau élémentaire on voit qu'il se produit une surpression dans la région au vent de la rugosité et une dépression dans la région sous le vent (voir figure).
+La force résultant de cette pression a donc une composante parallèle à la paroi équivalente.
+Celle-ci est petite devant la composante normale mais pas toujours totalement négligeable.
+Elle est généralement incluse dans le frottement et peut ainsi constituer une partie prépondérante de la valeur apparente de celui-ci.
+Le problème des écoulements sur paroi rugueuse est un problème non totalement résolu de la mécanique des fluides, à l'exception du cas de l'écoulement de Stokes pour lequel une homogénéisation est possible.
+Cet exemple met en évidence le fait que la décomposition habituelle du tenseur des contraintes en un terme diagonal (la pression) et un déviateur (le cisaillement) n'est pas toujours très pertinente, même dans le cas d'un fluide newtonien.
+Onde de pression
+Une perturbation quelconque dans un milieu solide ou fluide va créer un déséquilibre qui va se propager sous diverses formes.
+La propagation de la pression sous forme d'une onde étant rapide, c'est elle qui va porter l'information de cette perturbation dans le milieu environnant.
+Onde simple
+Pour la simplicité on s'intéresse tout d'abord à un milieu uniforme où une onde plane se propage dans la direction x.
+La perturbation, supposée faible, ne perturbe que faiblement la distribution des atomes ou molécules à l'échelle microscopique, sur une distance de quelques libres parcours moyens.
+Deux cas sont possibles :
+* dans un fluide, décrit par un tenseur de pression isotrope
+, la symétrie par rapport à tout plan perpendiculaire à x fait que la perturbation des vitesses des particules ne change pas cette distribution : il ne peut se créer une onde transversale.
+L'onde de pression est donc nécessairement longitudinale.
+* dans un solide ou certains fluides non-newtoniens, comportant des termes de couplage entre directions, une déformation longitudinale entraîne une contrainte transversale et donc crée une onde transversale.
+Dans le cas du gaz on sait calculer la vitesse de propagation dans le cas où la perturbation est suffisamment faible pour supposer la transformation adiabatique.
+On peut alors écrire une équation de propagation à partir des équations d'Euler, d'où l'on tire la vitesse du son.
+Cette onde est faiblement amortie.
+En effet la viscosité dynamique ne concerne que les termes de cisaillement, ici absents.
+Par contre la viscosité volumique, correspondant aux phénomènes de compression et détente et liés aux échanges microscopiques entre énergie interne et énergie cinétique, joue un rôle d'amortissement de l'onde.
+Mesure de la pression
+Unités et ordres de grandeur
+L'unité standard définie dans le Système international est le pascal (symbole Pa).
+Une pression de correspond à une force de exercée sur une surface de :
+On utilise encore diverses unités, souvent d'origine historique, comme la barye (symbole ba, système CGS), le millimètre de mercure (mmHg) ou torr (Torr), l'atmosphère (atm) ou le bar (bar).
+Toutes ces unités sont encore d'usage courant dans divers domaines.
+On trouve encore dans le monde anglo-saxon des unités spécifiques comme la livre-force par pouce carré (psi = pound per square inch).
+La pression peut être négative.
+Un liquide placé dans une centrifugeuse subit
+une force qui peut être interprétée comme la résultante d'une .
+Des pressions négatives sont également observées dans de l'eau refroidie dans un volume constant, qui peut rester liquide à une température de en produisant une pression de (soit ).
+La pression théorique du vide absolu est nulle.
+La pression du vide interstellaire est d'environ (soit ).
+La pression maximale théorique est la pression de Planck (≈ ).
+Les pressions les plus élevées observées expérimentalement se situent au cœur des étoiles, la pression dans le soleil est d'environ (soit ).
+Instruments de mesure
+On peut faire varier expérimentalement la pression statique sur plus de vingt ordres de grandeur : depuis pour les vides poussés jusqu'à pour les plus hautes pressions produites en cellule à enclumes de diamant, utilisées par exemple pour déterminer l'équation d'état de métaux ou roches au centre des planètes.
+Selon la gamme de pression visée, les appareils de mesure utilisent des principes physiques très différents.
+Les méthodes de mesure peuvent être classées en méthodes directes et indirectes.
+Les premières reposent sur la mesure directe d'une force, exercée sur une membrane par exemple, et sont proches de la définition première de la pression.
+Les méthodes indirectes reposent sur la mesure d'une autre grandeur physique (résistivité, température…) qu'on peut relier à la pression par un étalonnage.
+Ces sondes de pression peuvent porter des noms très divers suivant leur utilisation et donc leur mode de fonctionnement.
+On peut citer comme appareils traditionnels :
+* le baromètre et l'altimètre sous diverses déclinaisons (jauge de Penning, jauge de Pirani) ou l'hypsomètre pour la pression atmosphérique ;
+* le vacuomètre ou la jauge de Mac Leod pour la pression
+dans un tube à vide
+Certaines technologies ont été développées spécifiquement pour un domaine, par exemple les peintures sensibles à la pression (PSP) pour les expériences en soufflerie.
+La mesure de pression peut être absolue (valeur physique) ou relative à une valeur de référence, généralement la pression normale (1 bar).
+Dans ce dernier cas on parle toujours de pression alors qu'il s'agit d'une différence de pression, qui peut donc être négative.
+Il existe également des moyens permettant d'obtenir de très hautes pressions dynamiques (lasers de puissance, hautes puissances pulsées).
+Les hautes températures qui accompagnent ces expériences conduisent à l'utilisation de diagnostics optiques.
+Quelques applications
+Applications générales
+La notion de pression étant d'un usage extrêmement général on se limitera à quelques exemples utilisables dans un objectif de vulgarisation.
+On trouve assez facilement des sites illustrant les bases de chacun de ces aspects.
+Force appliquée sur une surface
+Une application très courante consiste à faire varier la surface d'application dans le but de multiplier l'effort exercé localement.
+Cela peut être réalisé par l'intermédiaire d'un solide, par l'exemple d'un objet pointu comme un clou ou un poinçon.
+On peut également utiliser un liquide comme pour la presse hydraulique.
+L'effet contraire de démultiplication est illustré par l'usage d'un support de surface notable pour exercer un effort sur un sol déformable.
+La notion d'intensité de la force due à la pression atmosphérique est illustrée par l'expérience historique des hémisphères de Magdebourg.
+Le lien avec la gravité permet d'expliquer un phénomène comme la poussée d'Archimède comme pour le thermomètre de Galilée ou le fonctionnement du baromètre tel celui de Huygens.
+La notion de pression de rayonnement permet d'expliquer le fonctionnement d'une voile solaire ou d'un radiomètre.
+Base de la mécanique des fluides
+Un élément caractérisant la pression en mécanique des fluides est le fait qu'elle est à l'origine d'écoulements.
+Un calcul simple permet de le montrer : prenons un élément de volume de fluide incompressible dV = dS dl, d'épaisseur dl, nommé « particule fluide ».
+En présence d'une différence de pression dp il est soumis à une force :
+\mathrmf
+-\mathrmp\,\mathrmS
+-\frac\,\mathrml\,\mathrmS=-\frac\,\mathrmV
+On exprimera ceci plus généralement en disant que la force exercée par unité de volume est proportionnelle au gradient de pression :
+:\mathbf=-\nabla p
+En lui appliquant l'équation fondamentale de la dynamique
+on trouve l'équation de conservation de quantité de mouvement pour un fluide non visqueux écrite en repère lagrangien
+:\rho\frac=-\nabla p
+Mesure d'une autre grandeur
+Si la pression peut être mesurée par l'intermédiaire d'un phénomène qui en dépend, certaines quantités sont mesurées par leur dépendance à la pression.
+Profondeur,
+altitude
+, niveau
+L'altitude z (au sens mathématique) sur terre peut être mesurée par l'intermédiaire de sa relation avec la pression au travers de la loi d'équilibre hydrostatique :
+:\frac = -\rho g
+où \rho est la masse volumique et g l'accélération de la pesanteur supposée constante dans l'intervalle d'altitude considéré
+On calcule le profil p \! \left ( z \right) d'où on déduit z \!
+\left ( p \right).
+Diverses applications illustrent cette relation :
+* dans l'eau (plongée sous-marine) \rho est constante :
+:\int_^p \mathrm p = - \rho g \int_0^z \mathrm z
+::p \!
+\left ( z \right)
+= p_0
+- \rho g z
+:z \!
+\left ( p \right) =
+avec z<0
+:Compte tenu de la forte variation de p avec z, la valeur de p_0 n'a pas besoin d'être connue avec précision : on prendra p_0 = .
+* en altitude (altimétrie) et en supposant un gaz parfait de masse molaire M :
+:\rho =
+:\int_^p
+\ln \!
+\left ( \right)
+- \frac \int_0^z \frac
+où R est la constante universelle des gaz parfaits.
+La température T varie également avec l'altitude : cette intégrale est résolue en se donnant un profil standard de température avec l'altitude (atmosphère normalisée).
+La précision est améliorée si l'on recale le calcul avec une donnée d'une station p \!
+\left ( 0 \right) fournie par une station au sol.
+En supposant une atmosphère isotherme :
+::p \!
+\left ( z \right)
+= p_0 \, \exp \left ( - \frac z \right)
+:z \!
+\left ( p \right) =
+- \frac \, \ln \!
+\left ( \right)
+:Une application industrielle courante est la mesure de niveau dans un réservoir contenant une phase liquide et un ciel gazeux.
+Deux capteurs de pression sont placés l'un dans le ciel du réservoir, l'autre au pied du réservoir.
+La différence de pression entre les deux mesures est reliée à la hauteur de liquide par le principe de Pascal :
+::\Delta p = \rho_L \, g \, h_L + \rho_G \, g \, h_G
+avec :
+:* \Delta p la différence de pression mesurée entre les deux capteurs (positive : pression de pied
+pression du ciel) ;
+:* \rho_L et \rho_G les masses volumiques respectives du liquide et du gaz ;
+:* h_L la hauteur de liquide entre le capteur de pied et l'interface liquide-gaz ;
+h_G la hauteur de gaz entre l'interface liquide-gaz et le capteur du ciel.
+:L'écart de hauteur h entre les deux capteurs étant connu, avec h = h_L + h_G, on a :
+::h_L =
+Si l'on peut négliger la contribution du gaz à la différence de pression :
+:h_L \approx
+Température
+L'échelle absolue de température thermodynamique est basée sur l'équation d'état du gaz parfait et la mesure de pression ou de volume.
+Le thermomètre à hydrogène constitue un étalon secondaire de mesure.
+Vitesse et débit
+On peut estimer le débit d'un fluide en utilisant un système entraînant une perte de charge calibrée (par ex. une plaque à orifice ou diaphragme).
+La différence de pression entre l'entrée et la sortie du système déprimogène est reliée à la vitesse du fluide par :
+:\Delta p = K \rho \dot v^2
+avec :
+* \Delta
+p la perte de charge aux bornes du capteur de débit ;
+* K
+le coefficient de perte de charge du capteur de débit ;
+* \rho la masse volumique du fluide passant dans le capteur de débit, en supposant le fluide incompressible ;
+* \dot
+v la vitesse du fluide à l'entrée du capteur de débit.
+On calcule ainsi la vitesse :
+:\dot v = \sqrt
+Dans un tube de Pitot, qui permet notamment de mesurer la vitesse des avions, l'un des capteurs mesure la pression totale (somme de la pression statique et de la pression dynamique) dans la veine du fluide et l'autre la pression statique seule.
+Le coefficient de perte de charge K = 1.
+Avec S la surface de la section d'entrée du capteur, le débit massique \dot m vaut :
+:\dot m
+\rho S \dot
+S \,
+\sqrt

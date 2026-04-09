@@ -1,0 +1,119 @@
+Distribution dérivée de Debian|Distribution dérivée d'Ubuntu|Logiciel libre sous licence GPL|Plate-forme pédagogique|Logiciel pour Linux
+AbulÉdu est un espace numérique de travail pour l'éducation et l'éducation populaire, conçu par des enseignants et réalisé en partenariat avec des informaticiens.
+La solution serveur est destinée à faciliter l’implantation et l’usage d’un réseau informatique dans un établissement scolaire et conçue pour être utilisée au quotidien par des enseignants, sans compétence informatique particulière, en permettant d'utiliser un matériel hétérogène.
+Elle intègre tous les outils de base, préconfigurés pour une utilisation en réseau dans une école : intranet, navigateur, courrier électronique, traitement de texte et d’images, publication instantanée sur l’intranet, outils de bureautique et logiciels pédagogiques...
+Le développement de logiciels métiers a été lancé en parallèle, c'est le terrier d'AbulÉdu : une suite de logiciels libres créée par les enseignants pour leurs besoins scolaires.
+De 2009 jusqu'à mai 2016 la société RyXéo a participé activement au développement de ces logiciels, en concertation avec plusieurs membres de la communauté.
+De juin à décembre 2016, suite au dépôt de bilan de l'entreprise et à une campagne de financement participatif, l'ancien directeur a été embauché à mi-temps par l'ABUL, pour assurer la transition vers un mode de gestion associatif.
+Présentation
+AbulÉdu, solution
+TICE complète
+, se présente sous la forme d'une distribution Linux x86 lancée en 1998 par RyXéo SARL.
+Elle est destinée aux écoles et aux associations et est distribuée sous licence GPL 2 pour la partie la plus ancienne du code (anciens contributeurs non joignables pour passer en GPL3) et GPL 3 pour le code produit depuis 2009 Linux puis Ubuntu a été spécialement pensée pour permettre l'usage de n'importe quel type d'ordinateur connecté au réseau (terminal graphique avec LTSP, Linux, MacOS, Windows).
+* il permet aussi d'utiliser des "clients lourds" : utilisation du système installé sur n'importe quel ordinateur du réseau, qui s'accroche à l'authentification et la gestion du domaine d'un serveur AbulÉdu (le dossier de travail est sur le serveur et non sur l'ordinateur que vous utilisez, ce qui rend l'utilisateur indépendant du poste de travail)
+* la version poste autonome pour les postes isolés: AbulÉdu Live.
+C'est une solution qu'on peut utiliser depuis un DVD ou une clé usb amorçables, en dehors du réseau scolaire (par exemple à la maison afin de disposer des mêmes outils et logiciels que ceux installés à l'école) et qui permet aussi de se connecter à distance à son espace de travail du serveur de l'école via Internet
+Depuis fin 2012, le projet AbulÉdu
+intègre une offre pour les tablettes tactiles à usage scolaire avec TEDI (tablette pour l'éducation digitale interactive) de la société Unowhy et depuis février 2015 la société Ryxéo commercialise une tablette appelée TabulÉdu, également équipée avec la suite logicielle d'AbulÉdu et intégrée à l'ensemble de l'écosystème du projet (serveur et services en ligne).
+Historique des versions
+C'est à l'ABUL, en 1998, que Jean Peyratout, instituteur dans la banlieue bordelaise, a exposé son besoin : équiper son école d'ordinateurs, minimiser les coûts et utiliser des logiciels libres.
+Après plusieurs mois de recherches et après avoir subi quelques déconvenues, un fonctionnement satisfaisant fut trouvé.
+Il était basé sur l'utilisation de LTSP.
+Comme cette solution était issue des travaux de l'ABUL, elle fut nommée AbulÉdu.
+Éric Seigne, l'un des participants à ces travaux de recherches, a continué son développement et en est le développeur principal.
+Pour répondre à la demande, Éric Seigne a créé la société RyXéo et embauché des collaborateurs.
+AbulÉdu est soutenu par les associations ABUL, AFUL, CEMEA et AbulÉdu
+fr.
+La version actuelle est la version AbulÉdu
+Il y a eu plusieurs versions d'AbulÉdu :
+Le projet, lancé en 1998, a abouti aux premières versions béta en 1999 et 2000.
+La version stable 1.0 a officiellement été diffusée en juillet 2001 lors des Rencontres Mondiales du Logiciel Libre.
+Elle était basée sur une distribution Mandrake 7.2.
+* AbulÉdu
+s'appuie depuis 2003 sur une base Debian, puis Ubuntu LTS depuis 2005 (Ubuntu 6.06 LTS Dapper Drake).
+De 2003 à 2008 ont coexisté deux versions d'AbulÉdu : une version associative dont la dernière version, de novembre 2005, s'appelait AbulÉdu PLM 5.11 (PLM signifie :
+Pour Les Militants) ;
+une version Pro, dont les sources n'étaient pas disponibles sur internet mais uniquement sur les serveurs vendus ou installés, en respect de la licence GPL, proposée par un réseau de prestataires de services en logiciel libre.
+La dernière version s'appelait AbulÉdu
+Pro 1.6.2 "Niamey".
+La version AbulÉdu
+8.08, unique
+, est sortie en version béta en août 2008.
+Conformément aux principes d'origine du projet il n'y a donc eu plus qu'une seule distribution AbulÉdu, en libre téléchargement pour tous sur la forge du projet à partir du 15 octobre 2008.
+La version AbulÉdu
+9.08 est sortie en version spéciale pour les Écoles Numériques Rurales (Plan de relance économique de la France de 2008-2009) en juillet 2009, comme version serveur disponible aux clients avec contrat de maintenance.
+Elle s'appuyait sur la version 9.04 d'Ubuntu sur laquelle RyXéo assurait un suivi à plus long terme et des améliorations spécifiques.
+La version AbulÉdu
+9.08 a été déclinée en LiveDVD pour une utilisation monoposte, par exemple pour une utilisation à la maison ou pour les écoles qui n'ont pas de serveur ;
+la création d'une clé USB était également possible à partir du LiveDVD.
+La version 11.08 publiée dans le courant de l'année 2011 s'appuie sur Ubuntu 10.04 LTS, c'est la à être disponible en 32 et 64 bits.
+La version 15.08 "Live" est proposée depuis la fin de l'année 2015, elle s'appuie sur Ubuntu 14.04 LTS.
+Version Monoposte "Live"
+La Version Live d'AbulÉdu est née sous l'impulsion de François Audirac avec la version AbulÉduLive 8.04.
+Elle a été suivie par le DVD Live AbulÉdu 9.08 puis le DVD Live AbulÉdu 11.08 et enfin la 15.08 .
+L'objectif principal de cette version est de proposer une solution pour les ordinateurs "isolés" et les situations où il n'est pas possible d'installer de serveur de réseau.
+Elle comporte les logiciels et les outils qui sont présents sur l'espace numérique de travail AbulÉdu ainsi qu'une application "votre école à distance".
+Cette dernière permet de se connecter à l'espace de travail du serveur, via Internet, par exemple depuis le domicile.
+Elle est particulièrement adaptée à un élève éloigné de l'école, par exemple lors d'une longue maladie, qui peut ainsi rester en contact avec sa classe ou à des périodes de télé-travail pour l'enseignant.
+Le DVD est "amorçable" : il contient un système complet que l'on peut utiliser sur son ordinateur en le démarrant directement sur le CD.
+On peut aussi l'installer sur l'ordinateur familial, en plus du système qui s'y trouve déjà (ou à la place de celui-ci).
+Son utilisation n'affecte pas le système déjà installé.
+Projets liés à AbulÉdu
+Plusieurs logiciels ont été développés autour d'AbulÉdu, c'est la suite de logiciels pédagogiques "Le Terrier d'AbulÉdu", qui proposent de nombreuses activités d'apprentissage.
+Ces logiciels ne sont pas dépendants d'un serveur AbulÉdu, ils sont téléchargeables et utilisables sur n'importe quel ordinateur, dans un cadre scolaire ou familial : ils sont de plus multiplateformes.
+La liste de ces logiciels est disponible sur le site web du projet, et sur la page wikipédia dédiée, Le Terrier.
+Les ressources produites sont également sous licence cc-by-sa et la plupart du temps en libre téléchargement.
+De nombreux livres illustrés, accompagnés de questionnaires de lecture, ont été récemment versés sur.
+Certains logiciels ont de plus un site dédié, comme raconte-moi.
+En 2013, le site de microblogue BabyTwit est proposé aux écoles primaires pour répondre aux problématiques de vie privée et de confidentialité des données personnelles.
+Il a été remplacé par édutwit à la rentrée 2017.
+En 2014 la communauté AbulÉdu crée une base de données de ressources éducatives libres, appelée Data.
+Elle est dédiée au stockage et à la diffusion d'images et de textes libres, validés par les enseignants membres de l'association AbulÉdu-fr, choisis en fonction de leur intérêt pour des usages pédagogiques scolaires ou extra-scolaires.
+Elle réutilise les données Rameau en SKOS, un des vocabulaires principaux du Web sémantique.
+Data est directement connectée à une dizaine de logiciels de la suite AbulÉdu susceptibles d'utiliser des ressources externes.
+Cette base de données est soutenue par l'Organisation Internationale de la Francophonie dans la mesure où elle correspond aux objectifs et au plan d'action de l'Organisation concernant les ressources éducatives libres de 2013 et confirmé lors du sommet de Tunis en novembre 2015.
+En 2015 l'association AbulÉdu
+-fr lance http:/ QiRo, un service en ligne de questions-réponses (un peu sur le modèle de Stack Overflow) dédié aux écoles et aux enfants : on y trouvera donc des questions correspondant aux préoccupations des enfants de 7 à 13 ans.
+Le projet , les réponses aux questions permettant d'alimenter les articles documentaires de cette encyclopédie pour les jeunes.
+En 2016, une alternative libre à la plateforme d'apprentissage de codage Scratch est lancée avec Snap : Snap-Abulédu.
+Autour d'AbulÉdu
+La planète permet de suivre l'actualité du projet (agrégation des flux rss des développeurs et autres sources d'informations).
+* Un flux http:/ group / Data, la base de données de ressources éducatives libres francophones : images du domaine public ou en cc-by-sa et quelques textes.
+33 200 REL en octobre 2017.
+* https:/ twictee-sur-babytwit
+En-140-caracteres
+et-bien-plus#.WCdqQ8OkswU.twitter twitclasse de CM2 est présenté dans les Cahiers pédagogiques d'octobre 2016.
+* QiRo, outil de partage de connaissances par questions
+réponses dédié aux usages pédagogiques de l'école élémentaire,
+utilisé en lien avec Vikidia comme tremplin à l'écriture ou l'amélioration d'articles via le projet https:/ wiki , une série de 200 vidéos libres, déposées par des enseignants et quelques réalisations scolaires : 40 membres inscrits.
+Site recommandé dans la carte mentale de l'EMI-élèves créateurs : comprendre, créer et diffuser avec le numérique par le groupe académique traAMDoc.
+* http:/ w/?s=, près de 400 diaporamas sonorisés, utilisant des images libres ou du domaine public, pour conter des histoires connues et d'autres à découvrir, pour les enfants de 4 à 11 ans
+* Trois projets innovants girondins ont été sélectionnés par le Café pédagogique, en novembre 2016, réalisés par des membres de l'association AbulÉdu-fr :
+** http:/
+des-
+meres
+cuisine
+langue
+quand
+culture
+familiale
+rencontre
+culture
+scolaire/ patrimoine culinaire international par Céline Souleille, cartographié avec Umap, par une classe de CM1 et partagé avec d'autres classes via BabyTwit ;
+** http:/ formation burdigala-2016-en-6eme parcours pédestre de recherches d'indices sur la romanisation de Burdigala, par Claire Claverie avec géolocalisation des points importants sur Umap également ;
+** http:/ 2015
+citoyennete-et-numerique-des-lecole.html exercice de la citoyenneté en maternelle, par Philippe Guillem avec création d'un logiciel BoitaVot par l'IUT de Talence.
+Voir aussi
+* Liste des liveCD consacrés au monde de l'éducation
+Autres distributions libres pour l'éducation :
+* Edubuntu
+- basé sur Ubuntu, système de serveur avec LTSP
+* ASRI
+Edu
+- , basé sur Puppy Toutou Linux
+Liens externes
+* http:/ abuledu
+dvd
+live-15
+La forge logicielle où se trouve le code source des différents projets
+Bibliographie

@@ -1,0 +1,113 @@
+LibreOffice es un paquete de software de oficina libre y de código abierto desarrollado por The Document Foundation.
+Se creó como bifurcación de OpenOffice en 2010.
+El entorno está programado en los lenguajes informáticos Java, C++ y Python.
+Cuenta con un procesador de texto (Writer), un editor de hojas de cálculo (Calc), un gestor de presentaciones (Impress), un gestor de bases de datos (Base), un editor de gráficos vectoriales (Draw) y un editor de fórmulas matemáticas (Math).
+Está diseñada para ser compatible con los principales paquetes ofimáticos, incluyendo Microsoft Office, aunque algunas características de diseño y atributos de formato son manejados de forma diferente o no son compatibles.
+LibreOffice está disponible en más de 120 idiomas (incluyendo español, catalán, vasco y gallego) y para diferentes sistemas operativos, incluyendo Microsoft Windows, Mac OS X 10.4 Tiger o superior y GNU/Linux (incluyendo un visor de LibreOffice para Android), así como en forma de una suite de oficina en línea.
+Es la suite ofimática por defecto en las distribuciones Linux más populares.
+Entre enero de 2011 (la primera versión estable) y octubre de 2011, LibreOffice fue descargada aproximadamente 7,5 millones de veces.
+Desde mayo de 2011 hasta mayo de 2015, fue descargada 120 millones de veces, excluyendo las distribuciones de Linux, que desde mayo de 2014 hasta mayo de 2015 fueron 55 millones de veces descargadas.
+Historia
+El 28 de septiembre de 2010, un importante número de desarrolladores del proyecto formaron un nuevo equipo denominado The Document Foundation, publicando una bifurcación de a la que llamaron LibreOffice.
+La bifurcación fue creada ante los temores de que Oracle Corporation, después de comprar a Sun Microsystems, anterior patrocinador de , descontinuara la suite, como hizo con OpenSolaris.
+Se esperaba que el nombre «LibreOffice» fuera provisional, puesto que Oracle fue invitada a convertirse en miembro de The Document Foundation y se le pidió que donara la marca al proyecto.
+Oracle, en lugar de ello, rechazó el proyecto y exigió a todos los miembros del directorio de involucrados que renunciaran, alegando un conflicto de intereses.
+A finales de octubre de 2010, 33 voluntarios alemanes, no involucrados con el desarrollo, dejaron y se trasladaron a The Document Foundation para apoyar a LibreOffice.
+The Document Foundation recibió apoyo de parte de la antigua comunidad de , incluyendo a las empresas Novell, Red Hat, Canonical y Google.
+El objetivo es producir una suite ofimática independiente de cualquier proveedor, compatible con el formato de archivo OpenDocument (norma ISO) y sin ninguna obligación de atribución de la autoría del código a Sun ni a Oracle.
+En abril de 2011 Oracle anunció que abandonaba OpenOffice, cediéndolo a la Apache Software Foundation.
+En el ínterin surgió el proyecto Go-oo, que era una versión adaptada a partir de con algunas modificaciones y gestionada por Novell y otras empresas y utilizada como base en casi todas las distribuciones de GNU/Linux.
+Sin embargo, el Proyecto Go-oo fue abandonado a favor de LibreOffice y las mejoras que este proyecto realizó ahora están fusionadas en LibreOffice.
+Asimismo, se esperaba que otros proyectos se unieran también a LibreOffice.
+'The Document Foundation' se dirige a lanzar nuevas versiones de LibreOffice a un ritmo de una cada seis meses, de manera que cada lanzamiento se alinee con el calendario de publicación de nuevas versiones en marzo y septiembre de la mayoría del ecosistema del software libre.
+Uno de los objetivos de los desarrolladores de LibreOffice es la eliminación de código no utilizado, como señaló Michael Meeks, miembro del directorio de 'The Document Foundation' y, anteriormente, desarrollador de .
+Desde septiembre hasta diciembre de 2011 se ha eliminado más de la mitad del código fuente que se sabe no utilizado en la suite.
+Aplicaciones incluidas
+LibreOffice incluye las siguientes aplicaciones:
+Características
+Plataformas
+LibreOffice está disponible en las plataformas de los siguientes sistemas operativos: Microsoft Windows, distribuciones de GNU/Linux y Mac OS X. A su vez, puede ejecutarse en las arquitecturas x86 y x86-64.
+Formatos compatibles
+Además de escribir los documentos en un formato estándar ISO (ISO/IEC 26300:2006, OpenDocument), LibreOffice permite también importar y exportar documentos en varios formatos adicionales como, por ejemplo, los de Microsoft Office, Rich Text Format (.rtf), archivos de texto plano (.txt) poniéndole un formato predeterminado en el mismo LibreOffice, Office Open XML y XML, Microsoft Works y WordPerfect.
+Además, puede exportar documentos directamente a los formatos PDF y SWF.
+LibreOffice también cuenta con la capacidad de importar documentos en modo de «solo lectura» en los formatos Unified Office Format, Data Interchange Format y los formatos propios de Lotus 1-2-3, entre otros.
+Formatos de archivos admitidos
+Interfaz de usuario
+Desde su separación de OpenOffice en septiembre de 2010, Libreoffice siempre se caracterizó por tener una interfaz de usuario basada en Menús y Barras de Herramientas, heredada de su progenitora , muy similar a la de Microsoft Office 2003.
+Sin embargo, lo anterior comienza a cambiar a partir de la revisión 5.3, versión con la que The Document Foundation muestra un nuevo enfoque orientado al desarrollo de una nueva interfaz para Libreoffice, buscando renovarla casi por completo.
+Con la llegada de la versión 5.3, en febrero de 2017, Libreoffice puso a disposición de los usuarios (aunque solamente como novedad experimental, en ese momento) un nuevo concepto de interfaz de usuario denominado MUFFIN (acrónimo de My User Friendly & Flexible Interface: Mi Interfaz de Usuario Amigable y Flexible), basado en pestañas y condensado en la NotebookBar, muy al estilo del Ribbon o "cinta" de Microsoft Office, que engloba de forma alternativa a toda la interfaz de LibreOffice a partir de febrero de 2018, cuando hace su aparición la versión 6.0.
+Este cambio marca un nuevo salto en la evolución de esta suite de oficina y, aunque todavía le hace falta cierto desarrollo, se puede apreciar que dicho paso significa una nueva visión de cara al futuro inmediato como resultado de un esfuerzo conjunto de desarrollo y diseño.
+Últimas versiones
+Desde marzo de 2014 y a partir de la versión 4.2.2, constantemente existen dos versiones disponibles de LibreOffice interactuando en todo momento.
+Estas versiones sirven de guía para los usuarios finales, siendo diferenciadas de la siguiente manera:
+* Última versión estable (Estable, Still).
+Es la versión más confiable para ser utilizada por los usuarios finales y en la que se han corregido los errores que iban surgiendo en la versión "en pruebas".
+Por lo tanto, es la más adecuada y recomendada para los usuarios finales.
+* Última versión en pruebas (Nuevo, Fresh).
+Es la versión más reciente, la cual se encuentra disponible y operativa, aunque no por ello es la más recomendada ni confiable para los usuarios finales.
+Contiene las últimas actualizaciones, con sus mejoras, pero a su vez también puede contener errores de aplicación que estarán pendientes por solucionar y que se harán evidentes con el consiguiente uso de la aplicación.
+En ese orden de ideas, la última versión estable y revisada es la 5.4.5, con un ciclo de mantenimiento que aún permanece activo, mientras que la última versión en pruebas es la 6.0.1, la cual apunta a ser lo suficientemente estable en los próximos meses, tiempo en el cual las aplicaciones de esta suite ofimática se irán depurando con las correcciones de bugs.
+Histórico de versiones
+Uso
+LibreOffice puede utilizarse sin dificultades con los manuales, las extensiones, las plantillas de documentos, las macros, los foros de ayuda y de discusión de OpenOffice.
+Como cualquier programa informático, y sobre todo del tamaño de este proyecto, siempre existen tareas pendientes y muchas de ellas, es de fácil realización.
+Algunas son triviales y otras requieren de mayores conocimientos.
+Hay también otras que no requieren saber de programación, como introducir mejoras en la documentación o en las ayudas al usuario, desarrollar plantillas de documentos, realizar traducciones, mejorar gráficos, descubrir fallas y hacer sugerencias, entre otras.
+Licencia
+El proyecto LibreOffice emplea una licencia dual LGPL (Licencia Pública General Reducida) v3 (o posterior) /MPL (Licencia Pública de Mozilla) para nuevas contribuciones a fin de facilitar su actualización.
+Como LibreOffice está licenciado bajo los términos del licenciamiento LGPLv3, las nuevas contribuciones tienen doble licencia, LGPL v3 + y MPL.
+Esto significa que el usuario tiene la libertad de utilizarlo para uso personal y comercial, es libre de copiarlo y entregar copias, y además es libre de modificar y rediseñar el código fuente, y crear obras derivadas.
+Extensiones y secuencias de comandos
+Extensiones
+LibreOffice admite extensiones de terceros.
+En abril del año 2015, el repositorio de extensión de LibreOffice controlaba más de 280 extensiones de aplicaciones.
+La Fundación Apache Software controla y mantiene un listado similar y la Fundación Software Libre también se ocupa de mantener otro.
+Las secuencias de comandos y extensiones para LibreOffices pueden ser escritas en los siguientes lenguajes: C ++, Java, Python y Basic.
+Los intérpretes de los dos últimos nombrados están incluidos en la mayoría de los paquetes de LibreOffices, por lo que no es necesario una instalación adicional.
+La interfaz de programación de aplicaciones se conoce como "UNO" de la que existe amplia documentación.
+LibreOffice Basic
+LibreOffice Basic es un lenguaje de programación similar a Microsoft Visual Basic for Applications (VBA) pero basado en Basic.
+Accesible desde Writer, Calc y Base.
+Es utilizado para escribir pequeños programas conocidos como "macros", que sirven por ejemplo para contar palabras en diversos párrafos de un texto .
+Línea Temporal
+Descargas y migraciones
+Descargas
+En octubre del año 2011, se había producido aproximadamente unos diez millones de descargas on-line o vía cd-rom de licencias de la aplicación LibreOffice, según estimaciones de The Document Foundation.
+Más del 90% destinadas a instalarse sobre Windows y otro 5% más en Mac OS X. La suite Libreoffice es la utilizada por defecto para sistemas Linux.
+Según estudios de mercados realizados por la International Data Corporation (IDC) para nuevas instalaciones o actualizaciones de Linux en el año 2011, The Document Foundation calcula que existe un total de 15 millones de usuarios Linux, que sumado al resto hace un total de 25 millones de usuarios en el año 2011.
+Dos años después el número subió aproximadamente a 75 millones.
+The Document Foundation estima que para el año 2020 haya un total aproximado de 200 millones de usuarios de LibreOffice.
+Migraciones
+Implementación de la suite desde su creación:
+* Años 2003 y 2004, la corporación, Serviço Federal de Processamento de Dados, de Brasil, comenzó la migración a BrOffice (versión local de LibreOffice en ese momento).
+* Año 2005, la Gendarmería Francesa anuncia la migración a la suite .
+Migrándose en la actualidad una versión de LibreOffice para Ubuntu.
+* Año 2010, en Limerick, en Irlanda, comenzó gradualmente su migración a código abierto con la intención de no depender de proveedores y abaratar sus gastos, haciendo uso para ello de la suite LibreOffice.
+* La región administrativa de Isla de Francia (en la que se encuentra incluida la ciudad de París) distribuye entre los estudiantes un pendrive conteniendo la suite LibreOffice, el número de pendrives entregado llegó a los 800.000.
+En trece hospitales de la ciudad de Copenhage también se distribuyó gradualmente la suite, llegando a disposición de aproximadamente sus 25.000 trabajadores.
+* El municipio de Pylea-Jortiatis, en Grecia, migró a sus equipos la suite.
+Supuso un ahorro estimado de aproximadamente 70.000 euros.
+* En junio, en la ciudad de Las Palmas de Gran Canaria, en España, migraron a la suite 1.200 de sus equipos, suponiendo un ahorro de 400.000 euros.
+* La administración de la Región de Umbría, en Italia, puso en marcha la migración de su equipo de 5000 trabajadores hacia la suite.
+* La ciudad de Largo, en Florida (Estados Unidos), trabajaban desde hacía tiempo utilizando Linux con código abierto, teniendo instalada la suite , migrando a la suite LibreOffice en el año 2013.
+* En junio, en la región italiana Tirol del Sur, migraron sus equipos a la suite, llegando a ser 70000 en dicha administración y varios miles más en los servicios de salud.
+* En agosto, la Comunidad Valenciana, en España, completó la migración de sus equipos, llegando a alcanzar 120.000 equipos, incluyendo escuelas y tribunales.
+* En Munich (Alemania), se anunció la futura migración hacia la suite.
+Actualmente está realizando dicha migración.
+Allí son mayoría los usuarios de LiMux, un derivado de Ubuntu, siendo aproximadamente 15.000 los equipos existentes en la ciudad.
+La ciudad de Múnich es la segunda administración pública que se unió al consejo asesor de la Document Foundation.
+* En Toulouse (Francia) la migración a la suite en miles de equipos, supuso un ahorro sustancial de un millón de euros.
+* En el Ministerio de Defensa de Italia hizo pública la migración a la suite de 150.000 de sus equipos informáticos.
+* En Bari, en Italia, se migraron 1.700 equipos a la suite.
+* El gobierno del Reino Unido realiza su migración, afectando a todos sus organismos.
+* El gobierno del condado de Yilan, en Taiwán, hace público su anuncio de migrar a la suite.
+* En julio, el director del proyecto de IT que trabajan para la administración de Nantes (sexta ciudad más grande de Francia) informó que la migración en sus 5000 equipos se está llevando a cabo desde el año 2013.
+De acuerdo con el director del proyecto de IT, el cambio a LibreOffice supone para la administración el ahorro de un millón setecientos mil euros.
+* A finales del año 2015, la suite se encuentra instalada en prácticamente casi la totalidad de los 500.000 puestos de trabajo de los 11 ministerios franceses miembros del grupo de trabajo MIMO.
+El grupo de trabajo MIMO es la primera administración pública que se unió al consejo asesor de la Document Foundation.
+* La corporación, Vietnam Posts and Telecommunications Group (VNPT), de Vietnam, migró sus más de 15.000 equipos a LibreOffice.
+* La policía de Lituania migró a LibreOffice en más de 8.000 equipos, citando un ahorro de costes de 1 millón de euros.
+* La región autónoma española de Galicia planea finalizar su cambio a LibreOffice en varios servicios y ministerios del gobierno central este año.
+En al menos 6.000 equipos, LibreOffice será la única suite ofimática.
+Conferencias sobre LibreOffice
+Dando comienzo en el año 2011, "The Document Foundation" organiza conferencias anuales siendo las celebradas y las pendientes de celebrar las siguientes:

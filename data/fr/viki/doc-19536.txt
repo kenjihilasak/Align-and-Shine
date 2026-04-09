@@ -1,0 +1,49 @@
+Pointeur
+Le pointeur a a pour valeur l’adresse mémoire
+d’une autre valeur (assignée à b) : par simplicité, on dit que a pointe sur b.
+Les ordinateurs représentent la mémoire que les programmes peuvent utiliser comme une suite de « cases », où chaque case a la même taille (un octet).
+Pour lire ou écrire le contenu d’une case, il faut connaître son adresse mémoire.
+, la suivante à l’adresse 1, puis 2, etc.
+Ces cases peuvent contenir n’importe quelle valeur (du moment qu’elle tient dans un octet) : un nombre, un morceau de texte, etc.
+Par exemple, dans un langage de programmation très basique, on pourrait avoir le programme suivant :
+Écris le nombre 2 à l’adresse mémoire 19.
+Écris le nombre 3 à l’adresse mémoire 20.
+, écris le résultat de l’addition du contenu des adresses 19 et 20.
+Dans un programme, on manipule généralement le contenu des cases en utilisant des variables, qui sont simplement des noms temporairement donnés à certaines cases, comme des étiquettes plus confortables à utiliser que des adresses mémoire.
+Avec des variables, le programme précédent devient plus simple à suivre :
+a ← 2, soit : écris le nombre 2 dans une variable a ;
+b ← 3, soit : écris le nombre 3 dans une variable b ;
+a ← a + b, soit : remplace
+la valeur de a par la somme (des valeurs)
+de a and b.
+C’est le même programme, mais l’ordinateur s’occupe de remplacer automatiquement les variables par des adresses mémoire pour nous, ce qui rend le programme plus lisible.
+Comme les adresses mémoire sont des nombres, elles aussi tiennent dans une case mémoire.
+On a alors un pointeur, c’est
+-à-dire une valeur qu'on peut utiliser pour lire ou changer le contenu d’une autre case mémoire (par son adresse).
+Quand on accède à la valeur de la case mémoire pointée, on dit qu’on déréférence le pointeur.
+est très puissant : au lieu de simplement agir sur des valeurs basiques qui tiennent dans une seule case mémoire (comme des nombres), un programme qui utilise des pointeurs devient capable d’agir sur des structures composées de plusieurs cases, comme des listes.
+Les pointeurs sont tellement fondamentaux que tout programme utile les emploie (parfois indirectement) :
+les structures de données complexes (telles que les listes, les graphes, les tables de hachage, etc.) sont toutes implémentées avec des pointeurs, car elles ne peuvent généralement pas tenir dans une seule case mémoire ;
+les systèmes d'exploitation exposent leur fonctionnement sous forme d’adresses mémoire, donc afficher quelque chose à l’écran ou émettre un son revient à utiliser un pointeur pour modifier la resource désirée.
+Par exemple, on peut calculer la somme de toute une liste de nombres (au lieu de seulement deux, ou tout nombre fixé par le programme à l’avance) :
+p ← adresse-du-premier-nombre (on suppose que les nombres à additionner sont déjà écris en mémoire, et le premier d’entre eux est à l’adresse adresse-du-premier-nombre) ;
+tant que *p ≠ 0 (où *p signifie « la valeur pointée par le pointeur p »), répète :
+somme ← somme + *p,
+soit : ajoute la valeur pointée par p au nombre stocké dans la variable somme ;
+p ← p + 1, soit : modifie la variable p pour qu’elle pointe sur la case mémoire à l’adresse suivante.
+À la différence des programmes n°1 et n°2, qui ne calculaient que la somme de deux nombres, ce programme n°3 calcule la somme de n’importe quelle quantité de nombres
+Les programmes n°1 et n°2 pourraient être étendus pour calculer la somme de plus de deux nombres (trois nombres, etc.) en ajoutant des instructions (comme c ← 4 et a ← a + c), mais ils calculeraient toujours la somme d’une quantité fixée de nombres, alors que le programme n°3, sans modification, fonctionne pour toutes les quantités.
+Ce qui rend le programme n°3 strictement plus « puissant » que les programmes n°1 et 2, ce n’est pas l’usage d’une boucle (tant que …, répète : …) ;
+c’est la représentation sous forme de données de quelque chose qui était représenté sous forme d’instructions (b ← 3 et a ← a + b).
+Les programmes peuvent manipuler leurs données, pas leurs instructions (sauf lorsque celles-ci sont représentées sous la forme de données, comme en Lisp).
+Les pointeurs sont un moyen d’encoder sous forme de données des manipulations de la mémoire qui, sans eux, devraient généralement être encodées sous la forme d’instructions.
+Les pointeurs sont souvent une fonctionnalité essentielle des langages de programmation dits « de bas niveau », c’est-à-dire qui exposent le fonctionnement du système d’exploitation au programmeur sans beaucoup le simplifier (ou sans créer d’abstractions).
+Des exemples connus de tels langages sont le C, le C++ et l’Objective-C.
+Les pointeurs ont aussi des inconvénients : en donnant accès au contenu de toute la mémoire, ils permettent aux programmes de lire et d’écrire
+n’importe quelle valeur, ce qui peut faciliter des erreurs ou des failles de sécurité.
+De nombreux langages modernes gèrent la mémoire automatiquement (par exemple avec un ramasse-miettes) pour faciliter la tâche des programmeurs.
+Ces langages ne donnent généralement pas à leurs programmeurs la possibilité d’utiliser des pointeurs, parce que ceux-ci interféreraient avec la gestion automatique de la mémoire.
+C’est le cas des langages les plus populaires1 : JavaScript, Python, Java et bien d’autres n’exposent pas les pointeurs au programmeur.
+Parfois, les langages offrent une version « affaiblie » des pointeurs, souvent appelée « référence ».
+De telles références pointent aussi sur une certaine case mémoire, mais le langage vérifie que la case est valide pour réduire le risque d’erreur.
+C’est le cas de nombreux autres langages tels que C#, Go ou Rust.

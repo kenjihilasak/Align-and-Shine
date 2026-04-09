@@ -1,0 +1,73 @@
+Algèbre générale|Opération|Vocabulaire de l'algèbre
+En mathématiques, plus précisément en arithmétique et en algèbre générale, la distributivité d'une opération par rapport à une autre est une généralisation de la propriété élémentaire :
+le produit d'une somme est égal à la somme des produits ».
+Par exemple, dans l'expression , le facteur 2 est distribué à chacun des deux termes de la somme 5 + 3.
+L'égalité est alors bien vérifiée : à gauche , à droite .
+Cette propriété est vraie pour tout triplet d'entiers naturels, d'entiers relatifs, de nombres rationnels, de nombres réels ou de nombres complexes :
+On parle alors de distributivité de la multiplication par rapport à l'addition.
+En algèbre générale, la distributivité est généralisée à d'autres opérations que l'addition et la multiplication.
+Une loi de composition interne ∘ est distributive par rapport à une autre loi interne ∗ dans un ensemble E si pour tout triplet d'éléments de E, on a les propriétés suivantes :
+: (distributivité à gauche)
+: (distributivité à droite)
+Distributivité en arithmétique
+En arithmétique, les deux opérations considérées lorsqu'on parle de distributivité sont l'addition et la multiplication.
+La multiplication est distributive par rapport à l'addition :
+mais l'addition n'est pas distributive par rapport à la multiplication : sauf cas spéciaux (comme ), en général,
+Distributivité en calcul élémentaire
+Si les facteurs d'un produit sont des sommes, on peut effectuer les produits terme à terme puis effectuer la somme.
+Cette propriété est souvent utilisée, en calcul mental ou en informatique, pour calculer un produit d'entiers de façon efficace.
+235 × (100 - 1)
+De même, la multiplication par les nombres uniformes 9, 99, 999, etc. se ramène à une soustraction en utilisant la distributivité.
+:458 ×
+400 + 50 + 8) × (500 + 90 + 2)
+Distributivité à droite et à gauche
+Pour les entiers naturels, les entiers relatifs, les nombres rationnels, les nombres réels ou les nombres complexes, l'addition et la multiplication sont des opérations commutatives.
+On dit alors que la multiplication est distributive par rapport à l'addition, sans préciser » ou , car la distributivité à gauche implique la distributivité à droite (et réciproquement) du fait de la commutativité du produit.
+Par contre
+mais
+et la division sera dite seulement distributive à droite par rapport à l'addition.
+Entiers de Gauss
+Parmi les nombres complexes, un cas intéressant est celui des entiers de Gauss, qui s'écrivent sous la forme avec n et m entiers.
+On utilise la distributivité de la multiplication complexe pour montrer par exemple que (1 + i)
+1 + 2i + i
+2i, c'est-à-dire que 1 + i est une racine carrée de 2i.
+Plus généralement, on montre que le produit de deux entiers de Gauss est un entier de Gauss.
+Distributivité en algèbre générale
+En algèbre générale, on étudie les structures algébriques, c'est-à-dire des ensembles munis de lois de composition ayant certaines propriétés.
+Dans ce cadre, la distributivité se généralise aux cas où :
+:* les deux lois de composition interne ne sont pas obligatoirement l'addition et la multiplication ;
+:* la première opération est une loi de composition interne et la seconde opération est une loi de composition externe.
+Anneaux et corps commutatifs
+La distributivité de la seconde loi de composition interne sur la première loi de composition interne est une propriété fondamentale des anneaux (et donc des corps) : dans un anneau A muni de deux lois internes notées + et ×, la loi × doit être distributive (à droite et à gauche) par rapport à +.
+Anneaux ℤ/nℤ
+Les anneaux quotients de ℤ héritent de l'addition et de la multiplication des entiers relatifs, et ces lois induites vérifient la distributivité de la multiplication par rapport à l'addition.
+Quaternions
+La distributivité de la multiplication sur la division reste valable pour les quaternions de Hamilton, bien que la multiplication des quaternions ne soit pas commutative.
+Identités remarquables dans les anneaux non commutatifs
+Certaines identités remarquables qui font intervenir la distributivité, par exemple et généralisations, utilisent également la commutativité et ne sont donc pas valides pour les anneaux non commutatifs tels que les anneaux de matrices ou les anneaux non commutatifs de polynômes.
+Bien entendu, toute propriété résultant de la distributivité et qui ne nécessite pas la commutativité reste valable dans les anneaux non commutatifs.
+(Dans l'exemple en question, on aura si ;
+mais on a toujours (1+x)^n = \sum_^n C_n^k \, x^k puisque tout commute avec 1 dans tout anneau unitaire.
+Espaces vectoriels
+Dans la définition d'un espace vectoriel, la multiplication externe par des scalaires est distributive par rapport à l'addition des vecteurs.
+Ici, on a affaire à une loi de composition externe et non interne, mais la propriété de distributivité reste valable (aussi bien celle à gauche que celle à droite, qui elle ( (λ+μ)•x = λ•x + μ•x) implique deux lois d'addition différentes: d'une part celle des scalaires, d'autre part celle des vecteurs).
+C'est donc une notion de distributivité plus générale qui n'est pas un cas particulier de celle définie dans la préambule de cet article, où tous les éléments appartiennent au même ensemble.
+Ensemble des parties d'un ensemble
+Soit \mathcal (E)
+l'ensemble des parties d'un ensemble E.
+On munit \mathcal (E) de deux lois de composition interne : la réunion ⋃ et l'intersection ⋂.
+Dans ce cas, les deux lois de composition interne sont distributives l'une par rapport à l'autre.
+Autrement dit, pour tout triplet (A, B, C) d'éléments de \mathcal (E) :
+La distributivité est également vérifiée si l'on considère la différence symétrique au lieu de la réunion.
+Contrairement à la réunion, cette opération confère la structure de groupe abélien, et avec l'intersection la structure d'anneau de Boole à \mathcal (E).
+Treillis
+Un treillis est un ensemble E partiellement ordonné dans lequel toute paire admet une borne supérieure x⋁y et une borne inférieure x⋀y.
+On dit que E est un treillis distributif si les deux lois de composition interne sont distributives l'une par rapport à l'autre.
+Dans ce cas, pour tout triplet (x, y, z) d'éléments de E, on a :
+Articles connexes
+* François-Joseph Servois (le premier à employer l'adjectif «
+distributif
+en mathématiques)
+Notes
+Références
+dqausowijld7hn7nuz6yv9r92idvypp

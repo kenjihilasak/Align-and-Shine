@@ -1,0 +1,107 @@
+Satellite expérimental|CubeSat
+ROBUSTA-1A (sigle pour Radiation
+On Bipolar for University
+Satellite Test Application) est un nano
+satellite du CNES au format CubeSat développé par l’
+dont l'objectif est de tester le comportement de composants électroniques dans l'espace.
+ROBUSTA-1A a été placé sur une orbite basse le 13 février 2012 par le lanceur européen Vega.
+La mission devait durer 3 ans.
+Contexte
+Le Centre national d'études spatiales (CNES) a lancé, en 2006 un appel à idées, EXPRESSO, pour des projets étudiants dans le domaine des systèmes orbitaux.
+Trois dossiers sur huit ont été retenus en fin d'année dont celui de l’Université Montpellier 2.
+L’objectif du projet présenté est d’élaborer un pico-satellite du nom de ROBUSTA embarquant une expérience scientifique, et de sa station sol associée.
+Sur les trois dossiers EXPRESSO présentés, Robusta-1A a été le seul mené à terme.
+Ce satellite est de type Cubesat.
+Sa mission est de vérifier la dégradation en vol de composants électroniques à base de transistors bipolaires lorsqu’ils sont exposés au milieu radiatif spatial.
+Les résultats de cette expérience permettront de valider une méthode de test proposée en laboratoire de recherche.
+Robusta-1A est le premier satellite de type
+Cubesat français.
+Il est également le premier satellite étudiant de l'Université Montpellier 2.
+La station sol dédiée est localisée sur le campus de l'Université de Montpellier, c'est une station sol aussi conçue par les étudiants.
+Format cubesat
+Le satellite doit répondre strictement aux normes CubeSat pour picosat soit :
+À la fin de la conception, Robusta pesait
+900 g.
+Déroulement du projet
+La durée de conception du satellite ROBUSTA-1A, est de 5 ans environ (début du projet fin 2006, lancement en 2012, fin de vie estimée du satellite 2014).
+Le CNES utilise
+le terme de phases pour décrire l’évolution de la vie d’un produit, de l’
+expression du cahier des charges jusqu'au retrait de service du produit.
+Pour un satellite il y a habituellement 7 phases, pour un petit satellite comme Robusta cela peut être ramené à 5 phases.
+Le projet se décompose donc en sept phases principales :
+*phase 0 : identification des besoins qualification au sol
+Les équipes de conception, le management, les partenaires
+Le projet Robusta fédère plusieurs formations de l’Université Montpellier II.
+Ces formations sont réparties sur plusieurs sites : le campus de l'Université Montpellier et l'IUT de Nîmes.
+Les formations impliquées sont les suivantes :
+La conception mécanique est réalisée par l’IUT GMP (Génie Mécanique et Productique) de Nîmes ;
+*La gestion de l’énergie est développée l’IUT GEII (Génie Électrique et Informatique Industrielle) de Nîmes ;
+L'aspect radio-communication avec la carte embarquée et la station sol est pris en charge par la filière EEA (Électronique, Électrotechnique, Automatique) de l'Université Montpellier 2, plus particulièrement la section Hyperfréquences;
+La carte contrôleur est étudiée par l'école d'ingénieurs Polytech’Montpellier (filière ERII) de l'Université Montpellier 2 ;
+La carte expérience est prise en charge par les sections Électronique et Fiabilité et la section Capteurs de la filière EEA de l'Université Montpellier 2.
+À chaque phase importante du projet, des réunions ont eu lieu entre les acteurs permanents et étudiants de l'Université et des experts du CNES.
+Le CNES a en effet joué un rôle majeur dans la validation des solutions techniques proposées et la direction correcte du projet.
+Le management du projet a été assuré par des étudiants managers sous la houlette de professeurs.
+Cette partie management a joué un rôle primordial pour la discussion inter-équipes et la possibilité de mener à bien un projet multi-site, multi-compétences et multi-formations.
+Au total sur cinq années, plus de 200 étudiants ont participé à Robusta, avec des niveaux allant de bac+2 au doctorat.
+Le projet satellite « Robusta-1A »
+Description de la mission
+Un des axes du travail de recherche réalisé par l’équipe
+Radiations et Composants du laboratoire de recherche universitaire
+IES
+Institut d'Électronique du Sud) à Montpellier vise à comprendre les mécanismes de dégradation des technologies bipolaires face aux faibles débits de dose.
+L’intérêt porté à la réponse radiative des technologies bipolaires est très récent.
+En effet, ce n’est qu’en 1991, qu’il a été montré que les structures bipolaires présentaient une sensibilité accrue aux faibles débits de dose.
+Avant cette date, du fait de leur nature, les technologies bipolaires étaient considérées comme durcies face aux effets de dose et les résultats des tests réalisés à forts débits de dose allaient en ce sens.
+Les premières irradiations à faibles débits de dose ont montré que la dégradation des composants bipolaires pouvait être bien supérieure à celle observée à fort débit de dose.
+Un tel résultat souleva beaucoup d’interrogations quant à la validité des méthodes de test au sol de composants bipolaires.
+Dans ce contexte un travail a débuté au laboratoire du Centre d’Électronique et de Micro-électronique de Montpellier en 2000 (devenu IES depuis le janvier 2007).
+Le but de ces études est double :
+*Premièrement
+, comprendre les phénomènes induisant l’accroissement de la dégradation à faible débit de dose.
+*Deuxièmement
+, fournir aux industriels une procédure de test applicable aux technologies bipolaires.
+Une réflexion sur la base des résultats expérimentaux obtenus a permis de proposer un modèle physique permettant d’expliquer les phénomènes mis en jeu dans les effets de débits de dose sur les technologies bipolaires.
+Une méthode de test pour les composants bipolaires a été proposée et est actuellement en cours de validation auprès d’agences et partenaires industriels (CNES, EADS ASTRIUM, ALCATEL SPACE, SAAB) via un programme lancé par l’Agence spatiale européenne (ESA) pour faire de cette méthode d’évaluation une norme européenne de test.
+L’expérience embarquée sur le nano-satellite du projet ROBUSTA s’intègre pleinement dans ce travail.
+En effet, des résultats expérimentaux en vol seront une aide précieuse lors de la définition des paramètres de la méthode et permettra une comparaison des résultats obtenus au sol.
+La radiocommunication
+Robusta-1A utilise des fréquences radio-amateurs pour la communication avec la station sol.
+* Protocole utilisé :
+AX.25 avec une modulation AFSK.
+* Antennes du satellite Robusta :
+deux dipôles, une pour chaque fréquence
+* Antennes de la station sol Robusta-GS :
+deux antennes Yagi croisées, une pour chaque fréquence
+La station sol Robusta-GS est composée de matériel radio-amateur.
+Les radio-amateurs de l'Amsat francophone ont également beaucoup aidé le projet par leurs conseils pour tout ce qui concernait la carte radio-communication et en effectuant la déclaration officielle des fréquences.
+Fabrication
+À part les cellules solaires et la batterie, toutes les pièces ont été fabriquées par les étudiants au sein de leurs formations.
+Les prototypes de cartes électroniques ont été faits et testés par les étudiants.
+Des tests en vibration et thermiques et sous vide ont eu lieu à l'université en tant que pré-tests sur les modèles engineering.
+Les cartes du modèle de vol ont été tirées par la société Omicron.
+L'assemblage et l'intégration du modèle de vol ont eu lieu dans la salle blanche du service commun de l'université par les étudiants.
+La fin de l'intégration a eu lieu le 21 octobre 2011.
+Les tests de qualification (cycles de température sous vide, vibrations, mesures du centre d'inertie) ont eu lieu chez la société Intespace à Toulouse.
+Contraintes spatiales
+De par l’environnement spatial, un certain nombre de contraintes s’imposent :
+*Les contraintes thermiques : les composants électroniques choisis devront être utilisables dans la gamme de température à laquelle sera soumis le satellite ( à + )
+Les vibrations lors du décollage seront prises en compte.
+Selon les données fournies par le CNES, au décollage de la fusée, les vibrations peuvent monter jusqu’à 20G.
+Il faut donc s’assurer que la connectique carte à carte, ainsi que les soudures des composants et la résistance des colles utilisées prennent en compte cette contrainte.
+*L’exposition aux radiations
+aura un impact sur les composants non expérimentaux.
+Les composants expérimentaux seront sous 1 mm d’aluminium pour que la dose soit suffisante pour le test.
+Les autres composants du satellite seront protégés par une épaisseur plus importante d’aluminium (3 mm).
+Néanmoins l’orbite choisie aura une importance sur le flux de radiations.
+Lancement
+À l'issue d'un concours proposé par le bureau Éducation de l'ESA, Robusta a gagné une place sur le vol de qualification de la nouvelle fusée Européenne Vega.
+Vega est lancé le 13 février 2012 aux environs de 10h UTC.
+Robusta-1A sera le premier à être éjecté du p-pod n° 2.
+Derrière lui se trouveront les cubesats universitaires (Hongrie, Université polytechnique et économique de Budapest) et (Pologne, Académie polonaise des sciences).
+Robusta sera sur une orbite elliptique -
+Statut
+Quelques jours après le lancement, le satellite n'émet plus de signal.
+Une expertise montrera plus tard que le problème est lié à une anomalie du système de recharge de la batterie.
+Remarques
+Robusta-1A est le français à être entièrement conçu et réalisé par des étudiants universitaires.

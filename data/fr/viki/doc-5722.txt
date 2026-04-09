@@ -1,0 +1,134 @@
+JQuery
+Réputé pour sa syntaxe aussi simple que courte,
+JQuery est donc énormément utilisé par les débutants comme par les professionels.
+Parmi ses multiples possibilités, il offre entre autres :
+Des sélecteurs très simples, pour manipuler la source DOM.
+Pour vous simplifier la vie, les sélecteurs de base sont quasiment identiques à ceux du CSS.
+Un système d'évènements très au point, et que les débutants ont malheureusement tendance à négliger au profit des évènements JavaScript, simples eux aussi,
+mais qui deviennent vite difficiles en cas de répétitions.
+Des fonctions permettant de modifier le style et de manipuler les attributs très facilement.
+Beaucoup d'effets graphiques très réussis, et d'une utilisation terriblement simple.
+Et pour finir, on trouve un système permettant de faire de l'AJAX très simplement.
+L'AJAX sert à communiquer avec le serveur (l'hébergeur du site), sans que la page doive être rechargée.
+Viennent ensuite de multiples fonctions très diverses mais qui ne trouvent pas toujours leur équivalent en JavaScript.
+JQuery
+en tant que bibliothèque libre permet aussi de créer ses propres plugin.
+C'est pourquoi, beaucoup de personnes ont développé leur propre plugin, et les meilleurs sont publiés sur le site officiel de JQuery (par exemple le plugin modalbox).
+Pour pouvoir utiliser JQuery, il suffit d'inclure le code contenant la librairie.
+Pour cela, il est conseillé d'utiliser les serveurs de Google.
+Voici donc le bout de code à insérer dans le bloc de votre page HTML pour pouvoir utiliser JQuery :
+Vous pouvez aussi télécharger cette bibliothèque ici : Vous y trouverez différentes versions de JQuery, compilée ou non ...
+Tout d'abord, qu'es-ce qu'un sélecteur en JQuery ?
+C'est en fait ce qui va nous permettre de récupérer un "objet" dans la page HTML.
+Par exemple, cela va nous permettre de récupérer tel bloc
+en fonction de son id, de sa classe, etc.
+Pour faciliter les choses, JQuery a décidé d'utiliser les mêmes sélecteurs qu'en CSS.
+Le sélecteur '#bloc1' va donc récupérer l'élément donc l'id est 'bloc1'
+Exemple:
+Ce texte fait partie du bloc1
+Le sélecteur '.bloc1' va quant à lui récupérer l'élément dont l'attribut "class" est 'bloc1'
+Exemple:
+Ce texte fait partie du bloc1
+Le sélecteur 'a' va "récupérer" le ou les balises ...
+Inutile d'aller plus loin, car un sélecteur CSS marchera très certainement avec JQuery.
+Sans doute l'aurez-vous remarqué, mais que va faire JQuery si on lui demande l'élément '.class1', alors qu'il y a plusieurs éléments répondants à ce sélecteur ?
+Eh bien ... il va vous en renvoyer un, sans doute le premier ou le dernier, mais cette sorte d'utilisation n'est pas conseillée !
+Imaginons que vous vouliez modifier la valeur de tout les éléments dont l'attribut class est 'c1'.
+Il va falloir utiliser la fonction each(), et voici comment :
+('#.c1').each(function(){$(this).html("Ceci est un élément de class 'c1' !");});
+Parmi les fonctions de base, on trouve notamment les fonctions html(), append() et remove().
+Elles servent à modifier le contenu d'un élément.
+Viennent ensuite d'autre fonctions telles que replace(), before(), after() etc.
+Cette fonction sert simplement à récupérer ou à modifier le texte d'un élément.
+('#element').html();
+va récupérer le texte de l'élément.
+('#element').html('Coucou toi !'); va quant à lui modifier l'élément, en écrivant 'Coucou toi !' à l'intérieur.
+Attention,
+car cela écrase ce que l'élément contenait déjà.
+Pour éviter cela, il faudra utiliser la fonction .append().
+Cette fonction est semblable à la précédente, à la différence qu'elle n'écrase pas le contenu de l'élément, mais écrit à la suite.
+Demo en ligne.
+Cette fonction ressemble à la précédente, à la seule différence qu'elle insère le texte qu'on lui a passé après l'élément, et non à l'intérieur.
+Cette fonction fait la même chose que after(), mais au lieu d'insérer le texte après l'élément, elle l'insère avant.
+Comme son nom l'indique, cela supprime l'élément.
+$('#mon_text').remove();
+va donc supprimer l'élément 'mon_text'.
+Ne confondez pas avec la fonction html() !
+La fonction html() écrit à l'intérieur de l'élément, tandis que la fonction replace() remplace l'élément entier (et pas seulement ce qu'il contient).
+La bibliothèque JQuery propose de multiples effets graphiques qui n'existe pas en JavaScript.
+En fait, c'est possible de faire la même chose en JavaScript, mais il faudrait écrire des vingtaines de lignes compliquées en JavaScript, tandis qu'il suffit de faire appel à une seule fonction en Jquery.
+Voici les fonctions graphiques de base:
+Ces fonctions servent à masquer ou dévoiler un texte, avec un effet de déroulement.
+slideUp() "enroule" le texte (le fait disparaître), tandis que slideDown() le "déroule" (en le faisant apparaître).
+slideToggle() quant à lui fait les deux.
+Si le texte est caché il le déroule, sinon il le masque.
+Pour chacune de ces fonctions, on peut préciser un nombre en argument, qui va définir la vitesse d'animation en millisecondes.
+Ainsi, slideDown(3000) déroulera un texte en 3 secondes.
+/ Masquer
+Bonjour, ceci est mon texte !
+Par défaut, il est masqué, mais quand vous cliquerez sur le lien ci-dessus,
+cela va appeler la fonction afficher(), qui déroulera ou enroulera ce texte.
+Faites l'essai
+, il n'y a plus qu'à recopier ce code pour le tester !
+Ces deux fonctions sont très semblables a slideUp(), slideDown() et slideToogle().
+Comme elles, ces fonctions peuvent prendre comme argument un nombre qui indique la durée de l'animation en millisecondes.
+La seule différence est qu'au lieu d'enrouler et de dérouler un bloc de texte, ces fonctions le font apparaître et disparaître en fondu.
+Il suffit de reprendre l'exemple précédent, en remplaçant slideToggle(1000) par fadeToggle(1000).
+Cette fonction est décidément une fonction très utile.
+En effet, elle permet de manipuler le style CSS d'un élément !
+* Avec un seul argument
+La fonction .css() peut s'utiliser avec un seul argument.
+Dans ce cas, vous devez préciser la propriété css que vous voulez récupérer: Par exemple, $('#mon_text').css('background-color'); renverra la couleur de fond de l'élément '#mon_text'.
+functionafficher(){// cette fonction affiche la couleur de fond de l'élément mon_textalert($('#mon_text').css('background-color'));
+cliquez ici !
+Ceci est simplement l'élément mon_text ...
+sa couleur de fond est verte.
+Mais ce code affichera 'rgb(0, 128, 0)', qui veut dire 'vert' en CSS.
+* Avec deux arguments
+Vous pouvez aussi utiliser la fonction .css() avec deux arguments.
+Dans ce cas, le premier correspondra à la propriété CSS à modifier, et le deuxième correspondra à la valeur que vous voulez lui donner.
+Par exemple, .css('background-color', 'blue');
+va donner une couleur de fond rouge à l'élément:
+functionafficher(){// cette fonction change la couleur de fond de l'élément mon_text$('#mon_text').css('background-color','red');
+cliquez ici !
+Ceci est simplement l'élément mon_text ...
+sa couleur de fond est par défaut verte.
+Quand vous cliquerez sur le lien ci-dessus,
+la couleur de fond deviendra rouge !
+JQuery possède un système d'évènements très au point.
+Les débutants ont malheureusement tendance à négliger les évènements JQuery, au profit des évènements classiques de javascript.
+Comme vous allez le voir, le système d'évènements de JQuery est pourtant très complet.
+Voici la fonction gérant ces évènements :
+Ce code vous paraît horriblement compliqué ?
+! C'est normal, c'est la réaction de tout les débutants.
+En fait, c'est simplement que la fonction $(document).ready(); prend comme argument ... une autre fonction.
+Donc on va lui passer l'argument function(){ };
+C'est ce que l'on appelle les fonctions callback.
+Il faut simplement ne pas se perdre dans les parenthèses et les accolades !
+Passons à la suite:
+Il faut savoir qu'il existe énormément d'évènements.
+Certains détectent le clic, le double-clic, d'autres détectent la frappe ou le passage de la souris etc.
+Ici, nous allons utiliser l'évènement 'click' qui réagit au clic de la souris:
+Et oui, vous ne rêvez pas, encore une fonction callback !
+Ces fonctions paraissent effrayantes au début, mais ne vous y fiez pas, avec un tout petit peu de pratique, cela devient un jeu d'enfant.
+Ce code réagira donc quand on cliquera sur l'élément 'mon_lien'.
+Pour réagir à d'autres évènements, il vous suffit de remplacer 'click' par d'autres évènements.
+Les évènements les plus importants à connaitre sont mis en gras.
+click :
+réagit au clic de la souris.
+mousedown : réagit quand un bouton de la souris est enfoncé.
+dblclick : réagit au double-clic.
+keydown : réagit quand on presse sur une touche.
+keypress : réagit quand une touche est enfoncée (se déclenche après keydown).
+keyup :
+réagit quand on relâche un touche du clavier (se déclenche après keypress).
+focus : réagit quand le focus se place sur l'élément.
+blur :
+réagit quand le focus quitte l'élément.
+change : réagit quand un élément change de valeur (s'utilise surtout pour les et les ).
+hover : réagit au survol de la souris.
+load : réagit quand l'élément a été "chargé".
+mouseenter : réagit quand le pointeur de la souris entre dans l'élément.
+mouseleave : réagit quand le pointeur de la souris quitte l'élément.
+scroll : réagit quand un élément est "déroulé".
+Il existe encore d'autres évènements, que vous pourrez retrouver sur cette page.

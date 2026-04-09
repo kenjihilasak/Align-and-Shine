@@ -1,0 +1,145 @@
+Una dirección IP es un número que identifica, de manera lógica y jerárquica, a una Interfaz en red (elemento de comunicación/conexión) de un dispositivo que utilice el protocolo IP o (Internet Protocol), que corresponde al nivel de red del modelo TCP/IP.
+La dirección IP no debe confundirse con la dirección MAC, que es un identificador de 48 bits para identificar de forma única la tarjeta de red y no depende del protocolo de conexión utilizando la red.
+La dirección IP puede cambiar muy a menudo por cambios en la red o porque el dispositivo encargado dentro de la red de asignar las direcciones IP decida asignar otra IP (por ejemplo, con el protocolo DHCP).
+A esta forma de asignación de dirección IP se le denomina también dirección IP dinámica (normalmente abreviado como IP dinámica).
+Los sitios de Internet que por su naturaleza necesitan estar permanentemente conectados generalmente tienen una dirección IP fija (comúnmente, IP fija o IP estática).
+Esta no cambia con el tiempo.
+Los servidores de correo, DNS, FTP públicos y servidores de páginas web necesariamente deben contar con una dirección IP fija o estática, ya que de esta forma se permite su localización en la red.
+Los dispositivos se conectan entre sí mediante sus respectivas direcciones IP.
+Sin embargo, para las personas es más fácil recordar un nombre de dominio que los números de la dirección IP.
+Los servidores de nombres de dominio DNS, "traducen" el nombre de dominio en una dirección IP.
+Si la dirección IP dinámica cambia, es suficiente actualizar la información en el servidor DNS.
+El resto de las personas seguirán accediendo al dispositivo por el nombre de dominio.
+Direcciones IPv4
+Las direcciones IPv4 se expresan mediante un número binario de 32 bits permitiendo un espacio de direcciones de hasta 4.294.967.296 (232) direcciones posibles.
+Las direcciones IP se pueden expresar como números de notación decimal: se dividen los 32 bits de la dirección en cuatro octetos.
+El valor decimal de cada octeto está comprendido en el intervalo de 0 a 255 el número binario de 8 bits más alto es 11111111 y esos bits, de derecha a izquierda, tienen valores decimales de 1, 2, 4, 8, 16, 32, 64 y 128, lo que suma 255.
+En la expresión de direcciones IPv4 en decimal se separa cada octeto por un carácter único ".
+Cada uno de estos octetos puede estar comprendido entre 0 y 255.
+* Ejemplo de representación de dirección IPv4: 10.128.1.253
+En las primeras etapas del desarrollo del Protocolo de Internet, los administradores de Internet interpretaban las direcciones IP en dos partes, los primeros 8 bits para designar la dirección de red y el resto para individualizar la computadora dentro de la red.
+Este método pronto probó ser inadecuado, cuando se comenzaron a agregar nuevas redes a las ya asignadas.
+En 1981 el direccionamiento internet fue revisado y se introdujo la arquitectura de clases.
+(classful network architecture).
+En esta arquitectura hay tres clases de direcciones IP que una organización puede recibir de parte de la Internet Corporation for Assigned Names and Numbers (ICANN): clase A, clase B y clase C.
+* En una red de clase A, se asigna el primer octeto para identificar la red, reservando los tres últimos octetos (24 bits) para que sean asignados a los hosts, de modo que la cantidad máxima de hosts es 224 - 2 (se excluyen la dirección reservada para broadcast (últimos octetos a 1) y de red (últimos octetos a 0)), es decir, 16 777 214 hosts.
+* En una red de clase B, se asignan los dos primeros octetos para identificar la red, reservando los dos octetos finales (16 bits) para que sean asignados a los hosts, de modo que la cantidad máxima de hosts por cada red es 216 - 2, o 65 534 hosts.
+* En una red de clase C, se asignan los tres primeros octetos para identificar la red, reservando el octeto final (8 bits) para que sea asignado a los hosts, de modo que la cantidad máxima de hosts por cada red es 28 - 2, o 254 hosts.
+* (*)
+La dirección que tiene los bits de host iguales a 0 sirve para definir la red en la que se ubica.
+Se denomina dirección de red.
+La dirección que tiene los bits correspondientes a host iguales a 1, sirve para enviar paquetes a todos los hosts de la red en la que se ubica.
+Se denomina dirección de broadcast.
+* (**)
+La dirección 0.0.0.0 es reservada por la IANA para identificación local.
+* (***)
+Las direcciones 127.x.x.x se reservan para designar la propia máquina.
+Se denomina dirección de bucle local o loopback.
+* (****)
+La primera dirección se reserva para identificar la red (p.ej. 18.0.0.0), mientras que la última dirección se emplea como dirección de difusión o broadcast (p.ej. 18.255.255.255).
+Ese es el motivo por el que el número máximo de hosts en una red es siempre igual al número de direcciones disponibles en un rango específico menos dos.
+El diseño de redes de clases (classful) sirvió durante la expansión de internet, sin embargo este diseño no era escalable y frente a una gran expansión de las redes en la década de los noventa, el sistema de espacio de direcciones de clases fue reemplazado por una arquitectura de redes sin clases Classless Inter-Domain Routing (CIDR) en el año 1993.
+CIDR está basada en redes de longitud de máscara de subred variable (variable-length subnet masking VLSM), lo que permite asignar redes de longitud de prefijo arbitrario.
+Permitiendo por tanto una distribución de direcciones más fina y granulada, calculando las direcciones necesarias y "desperdiciando" las mínimas posibles.
+Direcciones privadas
+Existen ciertas direcciones en cada clase de dirección IP que no están asignadas y que se denominan direcciones privadas.
+Las direcciones privadas pueden ser utilizadas por los hosts que usan traducción de dirección de red (NAT) para conectarse a una red pública o por los hosts que no se conectan a Internet.
+En una misma red no pueden existir dos direcciones iguales, pero sí se pueden repetir en dos redes privadas que no tengan conexión directa entre sí o que se conecten a través de un tercero que haga NAT.
+Las direcciones privadas son:
+* Clase A: 10.0.0.0 a 10.255.255.255 (8 bits red, 24 bits hosts).
+* Clase B: 172.16.0.0 a 172.31.255.255 (16 bits red, 16 bits hosts).
+16 redes clase B contiguas, uso en universidades y grandes compañías.
+* Clase C: 192.168.0.0 a 192.168.255.255 (24 bits red, 8 bits hosts).
+253 redes clase C continuas, uso de compañías medias y pequeñas además de pequeños proveedores de internet (ISP).
+Muchas aplicaciones requieren conectividad dentro de una sola red, y no necesitan conectividad externa.
+En las redes de gran tamaño a menudo se usa TCP IP para conectar los cajeros automáticos que no se conectan a la red pública, de manera que las direcciones privadas son ideales para estas circunstancias.
+Las direcciones privadas también se pueden utilizar en una red en la que no hay suficientes direcciones públicas disponibles.
+Las direcciones privadas se pueden utilizar junto con la traducción de direcciones de red (NAT) para suministrar conectividad a todos los hosts de una red que tiene relativamente pocas direcciones públicas disponibles.
+Según lo acordado, cualquier tráfico que posea una dirección destino dentro de uno de los intervalos de direcciones privadas no se enrutará a través de Internet.
+Máscara de red
+La máscara de red permite distinguir dentro de la dirección IP, los bits que identifican a la red y los bits que identifican al host.
+En una dirección IP versión 4, de los 32 bits que se tienen en total, se definen por defecto para una dirección clase A, que los primeros ocho (8) bits son para la red y los restantes 24 para host, en una dirección de clase B, los primeros 16 bits son la parte de red y la de host son los siguientes 16, y para una dirección de clase C, los primeros 24 bits son la parte de red y los ocho (8) restantes son la parte de host.
+Por ejemplo, de la dirección de clase A 10.2.1.2 sabemos que pertenece a la red 10.0.0.0 y el anfitrión o host al que se refiere es el 2.1.2 dentro de la misma.
+La máscara se forma poniendo en 1 los bits que identifican la red y en 0 los bits que identifican al host.
+De esta forma una dirección de clase A tendrá una máscara por defecto de 255.0.0.0, una de clase B 255.255.0.0 y una de clase C 255.255.255.0 :los dispositivos de red realizan un AND entre la dirección IP y la máscara de red para obtener la dirección de red a la que pertenece el host identificado por la dirección IP dada.
+Por ejemplo:
+Dirección IP: 196.5.4.44
+Máscara de red (por defecto):
+AND (en binario):
+11000100.00000101.00000100.00101100 (196.5.4.44)
+Dirección IP
+11111111.11111111.11111111.00000000 (255.255.255.0) Máscara de red
+11000100.00000101.00000100.00000000 (196.5.4.0) Resultado del AND
+Esta información la requiere conocer un router ya que necesita saber cuál es la red a la que pertenece la dirección IP del datagrama destino para poder consultar la tabla de encaminamiento y poder enviar el datagrama por la interfaz de salida.
+La máscara también puede ser representada de la siguiente forma 10.2.1.2 8 indica que los 8 bits más significativos de máscara que están destinados a redes o número de bits en 1, es decir /8
+Análogamente .
+Las máscaras de red por defecto se refieren a las que no contienen subredes, pero cuando éstas se crean, las máscaras por defecto cambian, dependiendo de cuántos bits se tomen para crear las subredes.
+Creación de subredes
+El espacio de direcciones de una red puede ser subdividido a su vez creando subredes autónomas separadas.
+Un ejemplo de uso es cuando necesitamos agrupar todos los empleados pertenecientes a un departamento de una empresa.
+En este caso crearíamos una subred que englobara las direcciones IP de estos.
+Para conseguirlo hay que reservar bits del campo host para identificar la subred estableciendo a uno los bits de red-subred en la máscara.
+Por ejemplo la dirección 173.17.1.1 con máscara 255.255.255.0 nos indica que los dos primeros octetos identifican la red (por ser una dirección de clase B), el tercer octeto identifica la subred (a 1 los bits en la máscara) y el cuarto identifica el host (a 0 los bits correspondientes dentro de la máscara).
+Hay dos direcciones de cada subred que quedan reservadas: aquella que identifica la subred (campo host a 0) y la dirección para realizar broadcast en la subred (todos los bits del campo host en 1).
+Las redes se pueden dividir en redes más pequeñas para un mejor aprovechamiento de las direcciones IP que se tienen disponibles para los hosts, ya que éstas a veces se desperdician cuando se crean subredes con una sola máscara de subred.
+La división en subredes le permite al administrador de red contener los broadcast que se generan dentro de una LAN, lo que redunda en un mejor desempeño del ancho de banda.
+Para comenzar la creación de subredes, se comienza pidiendo “prestados” bits a la parte de host de una dirección dada, dependiendo de la cantidad de subredes que se deseen crear, así como del número de hosts necesarios en cada subred.
+IP dinámica
+Una dirección IP dinámica es una IP asignada mediante un servidor DHCP (Dynamic Host Configuration Protocol) al usuario.
+La IP que se obtiene tiene una duración máxima determinada.
+El servidor DHCP provee parámetros de configuración específicos para cada cliente que desee participar en la red IP.
+Entre estos parámetros se encuentra la dirección IP del cliente.
+DHCP apareció como protocolo estándar en octubre de 1993.
+El estándar RFC 2131 especifica la última definición de DHCP (marzo de 1997).
+DHCP sustituye al protocolo BOOTP, que es más antiguo.
+Debido a la compatibilidad retroactiva de DHCP, muy pocas redes continúan usando BOOTP puro.
+Las IP dinámicas son las que actualmente ofrecen la mayoría de operadores.
+El servidor del servicio DHCP puede ser configurado para que renueve las direcciones asignadas cada tiempo determinado.
+Ventajas
+* Reduce los costos de operación a los proveedores de servicios de Internet (ISP).
+* Reduce la cantidad de IP asignadas (de forma fija) inactivas.
+* El usuario puede reiniciar el modem o router para que le sea asignada otra IP y así evitar las restricciones que muchas webs ponen a sus servicios gratuitos de descarga o visionado multimedia en línea.
+Desventajas
+* Obliga a depender de servicios que redirigen un host a una IP.
+Asignación de direcciones IP
+Dependiendo de la implementación concreta, el servidor DHCP tiene tres métodos para asignar las direcciones IP:
+* manualmente, cuando el servidor tiene a su disposición una tabla que empareja direcciones MAC con direcciones IP, creada manualmente por el administrador de la red.
+Solo clientes con una dirección MAC válida recibirán una dirección IP del servidor.
+* automáticamente, donde el servidor DHCP asigna por un tiempo preestablecido ya por el administrador una dirección IP libre, tomada de un intervalo prefijado también por el administrador, a cualquier cliente que solicite una.
+* dinámicamente, el único método que permite la reutilización de direcciones IP.
+El administrador de la red asigna un intervalo de direcciones IP para el DHCP y cada ordenador cliente de la LAN tiene su software de comunicación TCP/IP configurado para solicitar una dirección IP del servidor DHCP cuando su tarjeta de interfaz de red se inicie.
+El proceso es transparente para el usuario y tiene un periodo de validez limitado.
+IP fija
+Una dirección IP fija es una dirección IP asignada por el usuario de manera manual (en algunos casos el ISP o servidor de la red no lo permite), o por el servidor de la red (ISP en el caso de internet, router o switch en caso de LAN) con base en la Dirección MAC del cliente.
+Muchas personas confunden IP fija con IP pública e IP dinámica con IP privada.
+Una IP puede ser privada ya sea dinámica o fija como puede ser IP pública dinámica o fija.
+Una IP pública se utiliza generalmente para montar servidores en internet y necesariamente se desea que la IP no cambie.
+Por eso la IP pública se la configura, habitualmente, de manera fija y no dinámica.
+En el caso de la IP privada es, generalmente, dinámica y está asignada por un servidor DHCP, pero en algunos casos se configura IP privada fija para poder controlar el acceso a internet o a la red local, otorgando ciertos privilegios dependiendo del número de IP que tenemos.
+Si esta cambiara (si se asignase de manera fuera dinámica) sería más complicado controlar estos privilegios (pero no imposible).
+Direcciones IPv6
+La función de la dirección IPv6 es exactamente la misma que la de su predecesor IPv4, pero dentro del protocolo IPv6.
+Está compuesta por 128 bits y se expresa en una notación hexadecimal de 32 dígitos.
+IPv6 permite actualmente que cada persona en la Tierra tenga asignados varios millones de IP, ya que puede implementarse con 2128 (3.4×1038 hosts direccionables).
+La ventaja con respecto a la dirección IPv4 es obvia en cuanto a su capacidad de direccionamiento.
+Su representación suele ser hexadecimal y para la separación de cada par de octetos se emplea el símbolo ":".
+Un bloque abarca desde 0000 hasta FFFF.
+Algunas reglas de notación acerca de la representación de direcciones IPv6 son:
+Ejemplo: 2001:0123:0004:00ab:0cde:3403:0001:0063 -> 2001:123:4:ab:cde:3403:1:63
+* Los bloques contiguos de ceros se pueden comprimir empleando "::".
+Esta operación solo se puede hacer una vez.
+Ejemplo: 2001:0:0:0:0:0:0:4 -> 2001::4.
+Ejemplo no válido: 2001:0:2001::2:0:0:1 o 2001:0:0:0:2::1.
+Google y Wikipedia
+Cuando se realiza una búsqueda en Google, se registra la dirección IP del dispositivo con el que se está buscando de esta manera Google sabe dónde enviar la respuesta.
+Cuando se realiza un cambio en Wikipedia, se registra la dirección IP en el historial del artículo.
+Obtención de la dirección IP
+Dependiendo del sistema operativo en el que usted se encuentre, puede saber fácilmente cuál es su dirección IP:
+Microsoft Windows
+En Windows, se puede averiguar la IP del equipo en cada interfaz de red con el siguiente comando:
+C:\Windows\system32\ipconfig
+El cual informará de la dirección IP, de la máscara de red usada, y de la dirección de la puerta de enlace de cada interfaz de red conectada.
+GNU Linux y demás subsistemas UNIX y UNIX-like, se tiene el siguiente comando:
+user@host:~$ ifconfig interfaz
+El cual retornará las direcciones IP, máscara de subred y dirección de broadcast, junto con otros parámetros de la interfaz de red, como la dirección MAC o distintos contadores.
+Véase también

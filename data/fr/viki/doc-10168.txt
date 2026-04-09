@@ -1,0 +1,24 @@
+Milieu d'un segment
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : Milieu.
+Le milieu I d'un segment [AB] est l'unique point I de la droite (AB) tel que [AI]=[IB].
+Milieu d'un segment
+Le point B est le symétrique de A par rapport à I.
+La droite passant par I et perpendiculaire au segment [AB] s'appelle la médiatrice de [
+AB].
+C'est l'ensemble des points qui sont à égale distance des points A et B.
+Avec une règle graduée, il est possible de mesurer la longueur du segment [AB].
+On divise cette longueur par 2, et on positionne le point I du segment [AB] tel que [AI]=[AB]/2.
+Cette méthode est approximative : on fait nécessairement des erreurs de lectures en mesurant les longueurs de segment.
+Les méthodes exactes de construction s'effectuent à la règle et au compas.
+Le compas sert à remporter les longueurs, la règle à tracer des portions de droites passant par deux points constuits.
+On pointe le compas en la point A. En le faisant pivoter, on trace un cercle de centre A passant par B. En le pointant ensuite en B, on trace un cercle passant par A. On a tracé deux cercles qui s'intersectent en deux points distincts C et D. Avec la règle non graduée, on trace une portion de la droite (CD).
+Il s'agit de la médiatrice du segment [AB] : elle intersecte le segment [AB] en le milieu I.
+Explications : Par construction, les segments [AC], [CB], [AD] et [DB] ont la même longueur.
+Donc le quadrilatère ABCD est un losange.
+Ses diagonales sont perpendiculaires et s'intersectent en leurs milieux.
+Par conséquent, la droite (CD) est perpendiculaire à (AB) et intersecte [AB] en son milieu.
+Soit les points A et B de coordonnées A(xA,yA){\displaystyle A(x_{A},y_{A})} et B(xB,yB){\displaystyle B(x_{B},y_{B})} dans un repère orthonormé.
+Le milieu du segement [AB]{\displaystyle [AB]} est de coordonnées : (xA+xB2;yA+yB2){\displaystyle \left({\dfrac {x_{A}+x_{B}}{2}};{\dfrac
+{y_{A}+y_{B}}{2}}\right)}.

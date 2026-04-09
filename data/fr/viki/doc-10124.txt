@@ -1,0 +1,39 @@
+Conjecture de Syracuse
+La conjecture de Syracuse est une conjecture portant sur les entiers naturels.
+Personne, aujourd'hui, ne peut dire si elle est vraie ou si elle est fausse.
+Soit l'entier est pair, et dans ce cas on le divise par 2 ;
+Soit l'entier est impair et dans ce cas, on le multiplie par 3 et on lui ajoute 1.
+Puis on recommence, encore et encore.
+Si on part de 4, on obtient successivement 2 puis 1 puis à nouveau 4.
+La conjecture de Syracuse affirme que, quel que soit l'entier naturel duquel on est parti, on obtient tôt ou tard l'entier 4 (et donc, 4, 2, 1, 4, 2, 1,...).
+Exemple :
+Partons de 13.
+C'est un entier impair.
+On le multiplie par 3 et on lui ajoute 1 : on obtient 40.
+40 est un entier pair ;
+on le divise donc par 2.
+On obtient 20.
+20 est un entier pair ;
+on le divise encore par 2.
+On obtient 10.
+10 est un entier pair.
+En le divisant par 2, on obtient 5.
+5 est un entier impair.
+On le multiplie par 3 et on ajoute 1.
+On obtient alors 16.
+16 est un entier pair.
+En le divisant par 2, on obtient 8.
+8 est un entier pair : on doit donc le diviser par 2.
+On obtient 4.
+Altitude :
+Chaque entier naturel représente une altitude.
+L'entier 1 est le sol.
+Temps de vol :
+Le nombre de fois qu'il a fallu appliqué le procédé décrit avant d'obtenir 1.
+Pour l'entier 13 le temps de vol est 9.
+Altitude maximale :
+Le plus grand entier qu'on a atteint.
+Pour l'entier 13, l'altitude maximale est 40.
+Facteur d'expansion :
+Le rapport entre l'entier maximal et l'entier duquel on est parti.
+La conjecture de Syracuse affirme que le temps de vol peut toujours être défini.

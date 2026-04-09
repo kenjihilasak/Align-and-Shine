@@ -1,0 +1,62 @@
+En el ámbito de la estadística, la mediana (del latín mediānus 'del medio') representa el valor de la variable de posición central en un conjunto de datos ordenados.
+Cálculo
+Cálculo de la mediana:
+Ordenamos los datos de menor a mayor.
+Si la serie tiene un número impar de medidas la mediana es la puntuación central.
+2, 3, 4, 4, 5, 5, 5, 6, 6 Me =
+Si la serie tiene un número par de puntuaciones la mediana es la media entre las dos puntuaciones centrales.
+7, 8, 9, 10, 11, 12 Me =
+9,5
+Existen dos métodos para el cálculo de la mediana:
+Considerando los datos en forma individual, sin agruparlos.
+# Utilizando los datos agrupados en intervalos de clase.
+A continuación veamos cada una de ellas:
+Datos sin agrupar
+Sean x_1,x_2,x_3,\ldots,x_n los datos de una muestra ordenada en orden creciente y designando la mediana como M_e, distinguimos dos casos:
+a) Si n es impar, la mediana es el valor que ocupa la posición (n+1)/2 una vez que los datos han sido ordenados (en orden creciente o decreciente), porque éste es el valor central.
+Es decir: M_e=x_.
+Por ejemplo, si tenemos 5 datos, que ordenados son: x_1
+3, x_2
+x_3
+x_4
+x_5
+> El valor central es el tercero: x_
+x_3
+Este valor, que es la mediana de ese conjunto de datos, deja dos datos por debajo (x_1, x_2) y otros dos por encima de él (x_4, x_5).
+Si n es par, la mediana es la media aritmética de los dos valores centrales.
+Cuando n es par, los dos datos que están en el centro de la muestra ocupan las posiciones n/2
+Donde N_ y N_ son las frecuencias absolutas acumuladas tales que N_ 19,5 con lo que
+5 puntos, la mitad de la clase ha obtenido un 5 o menos, y la otra mitad un 5 o más.
+Ejemplo 2: cantidad (N)
+par de datos
+Las calificaciones en la asignatura de Matemáticas de 38 alumnos de una clase viene dada por la siguiente tabla (debajo):
+Primero se hallan las frecuencias absolutas acumuladas N_i.
+Así, aplicando la fórmula asociada a la mediana para n par, se obtiene la siguiente fórmula
+: X
+n 2)
+> X
+19 (Donde n
+38 alumnos divididos entre dos).
+Con lo cual la mediana será la media aritmética de los valores de la variable que ocupen el decimonoveno y el vigésimo lugar.
+En el ejemplo el lugar decimonoveno lo ocupa el 5 y el vigésimo el 6 con lo que
+(5+6)/2
+5,5 puntos, la mitad de la clase ha obtenido un 5,5 o menos y la otra mitad un 5,5 o más.
+Ejemplo para datos agrupados
+Entre 11,510 y 11,6011 hay 210 estudiantes.
+Entre 11,610 y 11,7011 hay 10 estudiantes.
+:Mediana
+1,60 + \left ( \frac \right)0,1
+1,63
+Método de cálculo general
+Consideramos:
+- x11 valor mínimo<
+Entonces:
+:Mediana= x_ + \left ( \cfrac \right).
+donde:
+:x_ = es el límite inferior de la clase de la mediana.
+: (\cfrac) = es la posición de la mediana.
+:N_ = es la frecuencia acumulada de la clase premediana.
+:f_i = es la frecuencia absoluta de la clase de la mediana.
+: (x_-x_)
+Amplitud del intervalo de la clase de la mediana.
+Véase también

@@ -1,0 +1,38 @@
+Informatique
+Sommaire
+Le mot informatique a été créé en 1957 par la contraction des mots information et automatique.
+Il a été validé par l'Académie française dix ans après, c’est à dire en 1967.
+Il a été décliné dans d'autres langues comme l'espagnol, l'allemand... et même en russe.
+Les anglos-saxons ont eux créé l'expression "science des ordinateurs"
+- computer science.
+L'informatique utilise les techniques de la collecte, du tri, de la mise en mémoire, du stockage, de la transmission et de l'utilisation des informations traitées automatiquement, grâce à des programmes (logiciels) qui sont utilisés sur un ordinateur.
+Pour pouvoir être traité par des ordinateurs, les informations sont codées sous la forme d'une suite de 1 ou de 0.
+On parle d'une représentation sous forme binaire (2 états possibles, 0 absence de courant électrique, 1 présence de courant électrique) de l'information.
+Un bit représente donc une information qui peut avoir uniquement la valeur 1 ou 0.
+Le code ASCII est l'un des plus anciens codes toujours utilisés par les ordinateurs pour représenter des caractères latins.
+Il utilise pour chaque caractère une suite de 8 bits qui forment un octet (attention, en anglais on parle de byte à ne pas confondre avec bit) et représente un caractère.
+Par exemple le caractère A est représenté sous la forme d'un octet (suite de 8 bits) ayant pour valeurs: 0 1 0 0 0 0 0 1 en binaire ou 65 en décimal.
+Ce code permet de représenter au maximum 256 valeurs différentes allant de 0 à 255 (2x2x2x2x2x2x2x2, ou bien 28 font 256).
+Des codes plus récents ont été mis au point pour permettre de représenter les alphabets non latins tels que le code UTF-8, tout en restant compatible avec le code ASCII.
+Ils reposent sur des suites plus longues de bits (16bits, 32 bits...) permettant d'augmenter la capacité de codage.
+Il existe d'autres codes pour permettre la représentation sous forme informatique d'autres informations.
+Ainsi, on peut représenter la couleur d'un point sur un écran sous la forme de 3 octets, chaque octet représentant une couleur primaire:
+8 bits pour le rouge,
+8 bits pour le vert,
+8 bits pour le bleu.
+Si on veut afficher sur un écran ou imprimer un point vert avec un vert d'intensité maximum, on codera 3 octets avec les valeurs suivantes:
+0 0 0 0 0 0 0 0 = la valeur représentant le rouge
+1 1 1 1 1 1 1 1 = la valeur représentant le vert
+0 0 0 0 0 0 0 0 = la valeur représentant le bleu
+Des milliers de codes existent pour représenter les informations de façon compréhensibles par un ordinateur (caractères, couleurs, sons, images, videos, ...).
+Pour en savoir plus, voir {{
+|Codage de l'information}}
+Différents appareils ou supports peuvent être utilisés pour la collecte des informations par les ordinateurs avant leur traitement.
+Historiquement, on a utilisé la carte perforée.
+Sur une carte, on représente chaque bit par la présence ou l'absence d'un trou, ce qui permet de coder un 1 ou un 0.
+Chaque colonne permet de former un octet.
+B o n j o u r
+Si on lit la première colonne, on retrouve bien 01000010 qui représente le B en code ASCII(66)
+Puis d'autres périphériques sont apparus pour transmettre des informations aux ordinateurs comme le clavier, la souris, le capteur photo/video, le capteur de température, etc.
+Chaque périphérique est associé à un composant qui va donc coder l'information.
+Quand on appuie sur la touche B du clavier, le composant envoie à l'ordinateur la séquence binaire 01000010

@@ -1,0 +1,52 @@
+Notation musicale
+En solfège, le bémol (symbole ♭) est un signe d’altération, destiné à indiquer sur une partition de musique un abaissement d’un demi-ton chromatique de la hauteur naturelle des notes associées.
+La note affectée d'un bémol est dite « bémolisée ».
+Une note peut être bémolisée pour plusieurs raisons : la modulation, la transposition ou l'utilisation de notes intermédiaires de la gamme.
+Origine du mot
+Bémol vient du latin b mollis, par l'italien b molle, qui signifie littéralement "si mou" ;
+le si ayant été la première note bémolisée.
+En allemand, B-moll signifie encore "si-bémol mineur".
+Effet du bémol
+L'effet du bémol est d'abaisser une note d'un demi-ton.
+Mais l'altération n'a pas la même portée si elle est placée devant une note dans la partition, ou « à la clef » (lorsque le symbole se trouve à l’armure).
+Bémol
+accidentel
+L’effet du bémol
+accidentel altère toutes les notes de même nom et de même hauteur se trouvant après lui jusqu’à la fin de la mesure.
+Si cette même note doit être bémolisée au-delà de la barre de mesure, l’altération doit être répétée, et ceci à chaque nouvelle mesure.
+Un si-bémol accidentel dans une partition (extrait des Sonates du Rosaire, première sonate, Aria, mesures 1 à 3) :
+Bémol essentiel
+Un bémol à la clef affecte toutes les notes de même nom, à toute hauteur et pour toutes les mesures jusqu'à la fin du morceau (sauf changement d'armure).
+Les altérations accidentelles rencontrées (double-bémol, bécarre, dièse, double-dièse) pour cette même note (ou ces notes) sont prioritaires et affectent la note, jusqu'à la fin de la mesure.
+Ces bémols « à la clef » sont habituellement rappelés au début de chaque ligne de portée, et à chaque changement de clef.
+Ils constituent l’armure de la section du morceau.
+On les trouve toujours rangés dans cet ordre et ce quel que soit leur nombre : si, mi, la, ré, sol, do, fa.
+C'est l'ordre des bémols, ou plutôt le cycle des quintes descendantes en commençant par si.
+Une exception : le cas d'accord des instruments à cordes en scordatura, où il peut y avoir un mélange d'altérations à la clef.
+Autres bémols
+Il existe aussi :
+* un double-bémol, qui abaisse de deux demi-tons chromatiques (ce qui revient à abaisser d'un ton pour les instruments suivant le tempérament égal)
+, utilisé dans certains accords et certaines tonalités ;
+par exemple en Fa♭Majeur
+, les notes de la gamme sont : fa♭
+- sol♭
+- la♭
+- si - do♭
+- ré♭
+- mi♭
+\new Staff = "haut" \with
+* un semi-bémol, qui abaisse d'un quart de ton.
+Il peut être représenté par le symbole bémol barré ou avec un bémol inversé.
+\new Staff = "haut" \with
+* un sesqui-bémol, qui abaisse de trois quarts de ton, représenté par le symbole bémol + semi-bémol
+\new Staff = "haut" \with
+Représentation du bémol en informatique
+Le bémol et Unicode
+Le caractère bémol «
+» est à l'emplacement U+266D dans Unicode (9837 en décimal) ;
+comme il est absent de la majorité des claviers, on y supplée souvent par un b en minuscule, dont l'œil est proche de celui du bémol.
+Voir le http:/ roberge 03-categ.htm
+Guide des difficultés de rédaction en musique à ce propos.
+Le caractère double-bémol « » est à l'emplacement U+1D12B dans Unicode.
+Le bémol et LaTeX
+En LaTeX, le symbole \flat s'obtient avec la commande \backslash\, flat.

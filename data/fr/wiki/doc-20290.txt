@@ -1,0 +1,67 @@
+Primitive|*|Théorie de l'intégration|Dérivée
+En mathématiques, une primitive d’une fonction réelle (ou holomorphe) est une fonction dont est la dérivée :
+F'=f.
+Il s’agit donc d’un antécédent pour l’opération de dérivation.
+La détermination d’une primitive sert d’abord au calcul des intégrales de fonctions continues sur un segment, en application du théorème fondamental de l'analyse.
+\int^b_a f (x)\;\mathrm dx = F (b)-F (a)
+De nombreuses méthodes de calcul permettent d’exprimer des primitives pour certaines combinaisons de fonctions usuelles, mais le traitement général du problème diffère du calcul de la dérivée pour deux raisons essentielles.
+Il n’y a pas unicité de la primitive pour une fonction donnée, donc pas de notation formelle (même si pour une fonction notée avec une lettre minuscule, une primitive est souvent notée avec la majuscule associée).
+# Quel que soit l’ensemble fini de fonctions usuelles que l’on se donne, certaines combinaisons de ces fonctions n’admettent aucune primitive qui puisse s’exprimer comme combinaison de fonctions usuelles.
+Les conditions précises d’existence de l’expression d’une primitive sont explicitées par le théorème de Liouville.
+Toute fonction réelle continue sur un intervalle, voire continue par morceaux, admet une primitive.
+En revanche, une fonction holomorphe sur un ouvert de \C n’admet une primitive que si son intégrale curviligne sur tout lacet est nulle (par exemple si l’ouvert de définition est simplement connexe, d’après le théorème intégral de Cauchy).
+Méthodes de calcul
+Formulaire
+Chacune des primitives indiquées ici permet de déterminer toutes les autres primitives en ajoutant des constantes (éventuellement différentes d’une composante connexe à l’autre du domaine).
+En particulier, la fonction exponentielle est une primitive d’elle-même.
+Ce tableau inclut les primitives des inverses de fonctions puissances avec la règle \frac
+x^, la racine carrée par \sqrt
+x^, et plus généralement les racines d’
+ordre supérieur par \sqrtn
+= x^.
+Combinaisons
+Le formulaire de dérivation permet d’obtenir l’expression de primitives pour toutes les combinaisons linéaires des dérivées de fonctions usuelles, en particulier pour un polynôme à partir de sa forme développée.
+Par exemple, une primitive du polynôme :x\mapsto 3x + x^2 est x\mapsto \frac 32x^2+\frac 14x^4.
+Pour une fraction rationnelle, il est possible d’obtenir une primitive à l’aide de sa décomposition en éléments simples, mais celle-ci repose sur une factorisation du dénominateur, ce qui ne s’explicite pas en général.
+La composition à droite par une fonction affine permet d’étendre ce formulaire : si est une primitive de , et si et sont deux réels avec , alors la fonction x\mapsto f (ax+b) admet pour primitive
+x\mapsto \frac 1a F (ax+b).
+En particulier, on obtient des primitives de signaux périodiques apparaissant par exemple dans le circuit RLC :
+Plus généralement, si est une fonction dérivable, toutes ses composées à gauche par les primitives dans les tableaux ci-dessus fournissent des formes standard dans la recherche de primitive, comme dans le tableau ci-dessous.
+Intégration
+Les méthodes d’intégration permettent d’obtenir des primitives supplémentaires, notamment par changement de variable ou intégration par parties.
+C’est ainsi qu’on peut retrouver facilement une primitive des fonctions logarithme ou arc tangente.
+\int_1^x \ln (t) \mathrm
+\leftt \ln (t)\right_1^x
+- \int_1^x \frac tt \mathrm
+x \ln (x)
+- (x-1)
+\int_0^x \arctan (t) \mathrm
+\leftt \arctan (t)\right_0^x
+- \int_0^x \frac t \mathrm
+x \arctan (x)
+- \left\frac 12 \ln (1+t^2)\right_0^x
+= x \arctan (x)
+- \frac2
+De même, les règles de Bioche permettent de déterminer une primitive pour un quotient de polynômes trigonométriques.
+Utilisations
+Les primitives permettent de calculer des intégrales, en vertu du théorème fondamental de l'analyse :
+si est une primitive d’une fonction définie sur un intervalle réel a, b, alors la fonction est intégrable sur cet intervalle avec \int_a^b f (x) \mathrm dx = F (b)
+- F (a).
+Cette égalité assure l’équivalence suivante : une fonction définie et continue sur un intervalle réel est intégrable si et seulement si ses primitives admettent des limites finies aux bornes de l’intervalle.
+La résolution de certaines équations différentielles repose sur la détermination de primitives.
+Par exemple, pour une équation du premier ordre sous forme résolue y' = g (y), en notant une primitive de \frac 1g, on obtient que les fonctions solutions sont de la forme x\mapsto F^ (x+C), où F^ est une réciproque partielle de .
+Pour une variable aléatoire réelle à densité, la fonction de répartition est une primitive de la fonction de densité.
+Calcul automatique
+Des logiciels comme Maxima, SageMath, Maple ou Mathematica permettent depuis quelques années de calculer interactivement certaines primitives sous forme symbolique.
+Le premier logiciel permettant d'effectuer de l'intégration assistée par ordinateur sous forme symbolique était le langage FORMAC, utilisé par les physiciens dans les années 1970.
+Il n'est cependant pas possible en général d'exprimer les primitives de fonctions élémentaires (comme celles de la fonction x\mapsto 1/\ln x) à l'aide de fonctions élémentaires seules (d'où la nécessité d'introduire des « fonctions spéciales » telles que la fonction Logarithme intégral, Li) ;
+des conditions précises pour qu'une primitive « élémentaire » explicite existe sont données par un théorème de Liouville, et il est même possible d'automatiser complètement la recherche de telles primitives, grâce à l'algorithme de Risch.
+Primitive généralisée
+Une primitive généralisée d'une application , où est un intervalle réel et un espace vectoriel normé, est une application continue telle que, sur le complémentaire d'un ensemble dénombrable, .
+Par exemple, si est la fonction nulle et la fonction indicatrice d'un ensemble dénombrable de réels, alors est une primitive généralisée de puisque pour tout réel , .
+Si une fonction est une primitive généralisée d'une fonction alors :
+* les autres sont les applications de la forme où est une constante (vectorielle) (d'après l'inégalité des accroissements finis généralisée) ;
+* dans le cas E = ℝ, est localement intégrable au sens de Kurzweil-Henstock et satisfait : (d'après le second théorème fondamental de l'analyse).
+Le premier théorème fondamental de l'analyse fournit une réciproque partielle : si ℝ est réglée (donc localement Riemann-intégrable), l'application définie par
+:F (x)=\int_a^x f (t)\,\mathrm dt
+où est un point arbitraire de ) est une primitive généralisée de .

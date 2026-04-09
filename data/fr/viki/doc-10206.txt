@@ -1,0 +1,47 @@
+Système de numération
+Un système de numération est un moyen de compter et de dire des nombres.
+Le système de numération le plus utilisé par la majorité des gens utilise dans la vie de tous les jours, mais aussi en sciences et comme système officiel est le système décimal qui utilise dix chiffres : 0, 1, 2, 3, 4, 5, 6, 7, 8 et 9.
+Mais il existe plein d'autres systèmes, dont certains sont bien pratiques pour des utilisations particulières.
+D'autres étaient très utilisés à d'autres époques ou dans des civilisations anciennes.
+En réalité, on peut utiliser un système de n'importe quel nombre de chiffres, de 2 chiffres différents.
+Un système à deux chiffres est nommé système de base 2, à trois chiffres, système de base 3, etc.
+Il y a, par exemple, le système binaire ou système de base 2, qui n'a que deux chiffres : 0 et 1.
+Il est utilisé par les machines (ordinateurs...).
+« 011101 » en système binaire signifie « 29 » en système décimal.
+Le système duodécimal ou système de base 12 utilise 12 chiffres
+- on utilise les 10 chiffres et les lettres A et B (pour 10 et 11).
+En mathématique ce système est très peu utilisé.
+En revanche, on utilise la base 12 pour de nombreuses choses dans la vie courante : les heures (une journée est égale 2 douzaine d'heures), le commerce (deux douzaines d'huitres, d'œufs...), etc.
+Le système hexadécimal a 16 chiffres
+- on utilise donc les lettres : A, B, C, D, E et F pour compléter 0,1,2,3,4,5,6,7,8,9.
+On s'en sert notamment pour nommer les couleurs du Web dans le système Rouge vert bleu (RVB): Deux chiffres par couleur (2 chiffres hexadécimaux = 1 octet).
+#000000 signife noir, #FFFFFF signifie blanc et #FFBB66 est un orange .
+Le système sexagésimal, ce qui veut dire système de base soixante (60).
+On voit ou entend rarement le mot sexagésimal.
+Pourtant, c'est sûrement le système le plus utilisé de la vie courante après le système décimal, quoiqu'il n'est pas utilisé réellement avec 60 chiffres.
+On s'en sert à chaque fois qu'on lit l'heure (60 minutes dans une heure et 60 secondes dans une minute).
+C'est aussi le système de calcul utilisé par les degrés (60 x 3 = 180°).
+En système sexagésimal, 75 minutes font 1 heure 15 minutes.
+5000 secondes font 1 h 23 minutes et 20 secondes.
+Le système de calcul mésopotamien était de base 60.
+Pour calculer la valeur d'un nombre représenté en base n, il faut multiplier chacun de ses chiffres par n^x .
+Par exemple :
+En décimal, le chiffre des unités (le plus à droite, avant la virgule) a une valeur de 10^0 (c'est-à-dire 1) : le chiffre ajoute au nombre sa valeur multipliée par 1.
+Le deuxième chiffre (les dizaines) a une valeur de 10^1 (=10) : il ajoute au nombre sa valeur multipliée par 10.
+Le troisième chiffre a une valeur de 10^2 (100), etc...
+Le nombre 23 a donc une valeur de 2×10 + 3×1.
+En binaire (base 2), n=2.
+Le nombre 1101 par exemple, se calcule de la manière suivante: 1×2^0 + 0×2^1 + 1×2^2 + 1×2^3 = 1×1 + 0×2 + 1×4 + 1×8 = 1+0+4+8 = 13 en décimal (base 10)
+Exemple en hexadécimal (base 16), n=16.
+C0CA :
+A×16^0 + C×16^1 + 0×16^2 + C×16^3 = 10×1 + 12×16 + 0×256 + 12×4096 (on remplace les lettres par leurs valeurs, c'est-à-dire 10 pour A et 12 pour C) = 10+192+0+49152 = 49254 en base 10.
+Pour représenter un nombre décimal en base n, il faut trouver la plus grande puissance de n inférieure ou égale au nombre, et la soustraire au nombre, puis on suit la liste des puissances de n jusqu'à atteindre n^0.
+Exemple en binaire: on veut représenter 49.
+la liste des puissances de 2: 1 2 4 8 16 32 64 On soustrait donc 32 au nombre, et on ajoute "1" à notre représentation binaire.
+49-32=17.
+la puissance de 2 précédant 32 est 16, et 16 est justement inférieure à 17.
+Notre représentation binaire est maintenant "11", et notre nombre est 17-16=1.
+On continue, pour les puissance de 2 : 8,4 et 2, elles sont supérieures à notre nombre.
+On ajoute donc des zéros : "11000".
+Pour 2^0 (=1), cette puissance est inférieure ou égale au nombre, on ajoute donc "1", et notre nombre vaut maintenant 0.
+On s'arrête, la représentation est : 110001.

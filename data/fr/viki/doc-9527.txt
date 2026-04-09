@@ -1,0 +1,69 @@
+C'est la valeur qui est au milieu d'une série de valeurs.
+Pour calculer la médiane, il est nécessaire de classer les données de la série de la plus petite à la plus grande.
+Le calcul est légèrement différent suivant que le nombre de données est pair ou impair.
+Il y a une donnée au milieu (après classement).
+La médiane est la valeur de la donnée au milieu.
+Par exemple
+Si il y a 5 données, la médiane est la valeur de la 3e donnée.
+Si il y a 19 données, la médiane est la valeur de la 10e donnée.
+Si il y a 21 données, la médiane est la valeur de la 11e donnée.
+Il y a deux données au milieu (après classement).
+Toute valeur égale ou comprise entre les 2 données au milieu est une médiane.
+Par exemple
+Si il y a 10 données, les 2 données du milieu sont la 5e et la 6e.
+Toute valeur égale ou comprise entre la 5e donnée et la 6e donnée est une médiane.
+Si il y a 20 données, les 2 données du milieu sont la 10e et la 11e.
+Toute valeur égale ou comprise entre la 10e donnée et la 11e donnée est une médiane.
+Si il y a 100 données, les 2 données du milieu sont la 50e et la 51e
+Toute valeur égale ou comprise entre la 50e donnée et la 51e donnée est une médiane.
+Si il est possible (ce n'est pas toujours le cas pour des données non quantitatives) d'additionner et de calculer la moyenne entre ces deux données du milieu,
+Alors la médiane est souvent considérée comme étant cette valeur moyenne (en ne considérant que ces 2 données du milieu) parmi l'ensemble des valeurs possibles entre ces 2 données.
+La moyenne tente par le calcul arithmétique de répartir l'ensemble des valeurs de manière équitable entre les individus.
+La médiane tente par le classement de partager l'ensemble des individus en 2 groupes de même taille.
+La médiane exprime une tendance centrale d'une série de données
+La médiane ne dépend pas des variations des données extrêmes.
+La médiane ne dépend que de la ou des deux données du milieu.
+La médiane fournit un paramètre de tendance centrale (milieu) à partir d'un classement uniquement.
+La médiane (ou la zone médiane) n'a pas besoin de calcul algébrique (ni somme ni division) sur les données (uniquement sur les positions de ces données dans le classement)
+Lorsque les données sont différentes, la médiane partage l'ensemble
+en 2 parties de même taille
+excepté la ou les données au milieu qui servent à calculer la médiane).
+Lorsque les données sont en grand nombre et que certaines données ont la même valeur, nous pouvons utiliser des effectifs pour compter le nombre de fois qu'une même valeur est répétée dans les données.
+Classer les données en ordre croissant (du plus petit au plus grand) ;
+Calculer le nombre de données (effectif total) en additionnant les effectifs de chaque valeur ;
+Diviser l'effectif total par 2 pour déterminer théoriquement le nombre de données dans chaque groupe (avant et après la médiane) ;
+Déterminer le rang de la médiane.
+Si la division tombe juste, considérer qu'une médiane est toute valeur entre cette position et la position suivante ;
+Par contre, si la division ne tombe pas juste, il faut arrondir à l'entier au-dessus pour trouver la position de la médiane ;
+Déterminer la valeur qui correspond à ce rang (si l'effectif total est impair) et déterminer les valeurs qui correspondent à ces rangs (si l'effectif est pair)
+Donc
+pour déterminer la médiane, il faut trouver le rang de la médiane qui est environ la moitié de l'effectif total mais pas exactement.
+Elle se calcule en additionnant tous les effectifs de chaque valeur, puis en divisant la somme des effectifs par 2.
+Pour trouver le rang de la médiane,
+- Si la valeur obtenue de la division n'est pas un nombre entier, il faut l'arrondir à l'entier au-dessus ;
+- Si la valeur obtenue de la division est un nombre entier, il faut considérer cette position et la position suivante .
+Grâce à l'éventuel arrondi ou transformation, nous obtenons la combientième valeur qui correspond à la médiane dans une série triée.
+Modalités (valeurs possibles) : Insuffisant, Faible, Bien, Très bien,
+Excellent
+Une classe de 10 élèves passent une interrogation sur la médiane mais il y a un absent.
+Voici les notes triées des 9 élèves présents lors de cette interrogation sur la médiane.
+La médiane est la note du milieu qui est la 5e soit TB.
+L'élève absent passe l'interro et obtient un F.
+Le nouveau classement est
+La médiane est l'intervalle entre les 2 notes du milieu qui sont la 5e B et la 6e TB.
+Une médiane est soit B soit TB.
+Il n'est pas possible ici d'additionner les appréciations ni d'en faire une moyenne.
+Une classe de 10 élèves passent une interrogation sur la médiane mais il y a un absent.
+Voici les notes triées des 9 élèves présents lors de cette interrogation sur la médiane.
+La médiane est la note du milieu qui est la 5e soit 9 10 .
+L'élève absent passe l'interro et obtient un 5 10 et la 6e qui est un 9 10 soit 8 10.
+La médiane est 8 10 .
+Une classe de 10 élèves passent une interrogation sur la médiane mais il y a un absent.
+Voici les notes triées des 9 élèves présents lors de cette interrogation sur la médiane.
+Il y a 2x I, 1x F, 1x B, 3x TB, 2x E
+La médiane est la note du milieu qui est la 5e soit TB.
+L'élève absent passe l'interro et obtient un F.
+Le nouveau classement est
+Il y a 2x I, 2x F, 1x B, 3x TB, 2x E
+La médiane est l'intervalle entre les 2 notes du milieu qui sont la 5e qui est B et la 6e qui est un TB.
+Une médiane est dans la plage de B à TB.

@@ -1,0 +1,48 @@
+Langage de programmation|Apprentissage du BASIC|Environnement de développement
+intégré|.NET Framework
+Microsoft Small Basic est un langage de programmation utilisant la technologie .NET dérivé de BASIC qui a été créé par Microsoft en novembre 2008.
+La volonté des développeurs est que Small Basic soit un langage simple mais performant pour ceux qui n'ont pas encore fait de programmation et qui souhaitent se lancer dans la conception de programmes.
+Microsoft Small Basic (à ne pas confondre avec SmallBASIC, un autre langage basé sur BASIC) a été imaginé et publié en première version par l'équipe Microsoft DevLabs en novembre 2008.
+Son public cible est l'ensemble des débutants en programmation (que ce soit des enfants ou des adultes) ou des développeurs confirmés qui souhaitent créer de petits programmes « pour le fun » de manière plus rapide qu'avec des langages conventionnels.
+Lorsqu'il a été publié, Small Basic ne comportait que 15 mots-clés, ce qui est très peu pour un langage basé sur Basic, et ce dans une volonté de rendre le langage simple à apprendre et à utiliser.
+Langage
+Le langage en tant que tel, même s'il ressemble au très connu Visual , a son propre compilateur (inclus dans la suite Microsoft Small Basic) et fonctionne de manière très différente.
+Le traditionnel 'Hello World'
+GraphicsWindow.
+Show () 'Ouvre la fenêtre graphique
+GraphicsWindow.
+BackgroundColor = "Azure" 'colorie en azure l'arrière plan de la fenêtre graphique
+Helloworld = Shapes.
+AddText ("Hello world") 'écrit le texte "Hello World" sur la fenêtre graphique
+Shapes.
+Move 'Place le texte au milieu de la fenêtre
+Program.
+Delay (2000) 'attend 2 secondes
+'Zoom le texte
+For i
+To 9 Step
+Shapes.
+Zoom (Helloworld, i, i)
+Program.
+Delay (50)
+EndFor
+GraphicsWindow.
+MouseUp = Mouse_click
+Sub Mouse_click
+Program.
+End () 'Ferme le programme
+EndSub
+Changer le fond d'écran
+Small Basic dispose de fonctionnalités permettant de faire interagir par du mash-up différents services (dictionnaires en ligne, Flickr, ...) et certaines fonctions de Windows, tel le fond d'écran du bureau.
+For i
+To 10 ' Répéter l'action 10 fois
+pic = Flickr.
+GetRandomPicture ("mountains") ' Télécharger une image dont le sujet est les montagnes
+Desktop
+SetWallPaper (pic) ' Appliquer cette image comme fond d'écran
+Program.
+Delay (10000) '
+Attendre 10 secondes (10 * 1000 ms) avant de continuer
+EndFor
+Références
+76vvs17lz61xa9dpa4a7kml0rjrqvxk

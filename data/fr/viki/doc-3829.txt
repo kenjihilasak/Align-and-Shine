@@ -1,0 +1,130 @@
+Arithmétique
+Le mot arithmétique est basé sur le grec ancien ἀριθμός (arithmos) qui signifie nombre.
+On appelle aussi ce domaine la Théorie des nombres.
+Les traces de mathématiques les plus anciennes révèlent des connaissances arithmétiques.
+La tablette d’argile Plimpton 322 (Mésopotamie, vers 1800 avant J-C)
+contient une liste de triplets pythagoriciens1.
+Les mathématiciens mésopotamiens avaient donc une connaissance de cette propriété, mais sans qu’on sache comment ils l’interprétaient.
+Les quatre premiers nombres triangulaires, étudiés par les pythagoriciens
+Au VIe siècle avant J
+l’École pythagoricienne se développe en Grèce.
+A partir du savoir mésopotamien et phénicien, elle construit un culte autour d'une mystique des nombre.
+Les pythagoriciens pensent que les nombres contiennent le sens caché de l’Univers et interprètent les propriétés des nombres en fonctions de leurs croyances.
+L'un deux, Hippase de Métaponte, démontra que la racine carrée de 2 est un nombre irrationnel, ce qui était contraire à leur doctrine.
+Au IIIe siècle avant J-C, Euclide fait la synthèse des connaissances de son époque dans son livre Les éléments.
+Comme en géométrie, il énonce les axiomes de l’arithmétique et en déduit tous les théorèmes.
+Il s’est notamment intéressé à la divisibilité et aux nombres premiers : algorithme de calcul du PGCD de deux nombres, étude des nombres parfaits, preuve de l’existence d’une infinité de nombres premiers, lemme d’Euclide et première version du théorème fondamental de l’arithmétique.
+Au IIIe siècle après J-C, Diophante d’Alexandrie explore la résolution de 130 problèmes dans son livre Arithmetica.
+Ses équations n’utilise que des nombres entiers (même si les solutions peuvent être des nombres rationnels), on les appelle des équations diophantiennes.
+Son travail est une étape importante dans l’histoire de l’algèbre.
+Problème résolu par Sun
+Zi avec ce qui deviendra le théorème des restes chinois :
+Soient des objets en nombre inconnu.
+Si on les range par 3 il en reste 2.
+Si on les range par 5, il en reste 3 et si on les range par 7, il en reste 2.
+Combien a-t-on d'objets ?
+Les mathématiciens indiens
+Aryabhata (
+Ve siècle) et Brahmagupta (VIIe siècle) ont développé une arithmétique originale : calcul de PGCD, résolutions d’équations diophantiennes à deux inconnues, résolution d’
+équations
+diophantiennes
+de degré deux (appelées équations quadratiques
+... En Chine, le théorème des restes chinois est connu dès le IIIe siècle avant J-C. Il sera étudié de manière très poussée par Qin Jiushao au XIIIe siècle2.
+La civilisation islamique possède un rôle charnière.
+D’abord elle récupère et développe le savoir Grec, Indien et, dans une moindre mesure, Chinois.
+En arithmétique, les mathématiciens arabes s’intéressent surtout aux nombres ayant des propriétés intéressantes : nombres parfaits (Alhazen au Xe siècle, al-Baghdadi au Xe siècle), nombres amicaux (Thabit ibn Qurra au IXe siècle), triplets pythagoriciens (al-Sijzi au XIe siècle)…
+Ensuite, à la fin du Moyen-Âge, ces connaissances seront transmises en Europe.
+En 1624, Bachet de Méziriac traduit Les arithmétiques de Diophante.
+Il démontre une première version du théorème de Bachet-Bézout, qui sera précisé par Etienne Bézout.
+Ce théorème montre comment résoudre les équations diophantiennes à deux inconnues du premier degré.
+Mais ce sont les nombres premiers qui fascinent particulièrement les mathématiciens : Marin Mersenne et Pierre de Fermat créent des formules pour trouver des nombres premiers très grands, René Descartes fait le lien avec les nombres parfaits et les nombres amicaux, Christian Goldbach énonce sa fameuse conjecture (qui reste encore aujourd'hui à démontrer), Gottfried Leibniz démontre une première version du théorème de Wilson qui est un critère efficace de reconnaissance d'un nombre premier...
+Pierre de Fermat était un mathématicien amateur, il n'a pas écrit de livre.
+Son travail est connue par les lettres qu'il échangeait avec les grands savants de son temps et par ses notes personnelles.
+Il énonce un grand nombre de théorèmes, dont les plus connus sont le petit théorème de Fermat, le théorème des deux carrés de Fermat3 et le grand théorème de Fermat.
+Fermat a rarement démontré ses affirmations 4.
+Les travaux de Fermat n'auront que peu d'impact sur ses contemporains.
+Il faudra attendre leur redécouverte par Leonhard Euler pour qu'ils soient étudiés à leur juste valeur.
+Il démontre le petit théorème de Fermat et le Grand théorème de Fermat dans le cas n=4 et il montre que les nombres premiers sont de plus en plus rares au fur et à mesure qu'on avance dans la suite des nombres.
+Les 60 premières valeurs de la fonction π
+Durant ces deux siècles, l’arithmétique se nourrit des avancées de l’algèbre, de l’analyse et de la géométrie.
+La recherche est axée sur la résolution de deux grands problèmes : la répartition des nombres premiers et la démonstration du Grand théorème de Fermat.
+De nouvelles théories et de nouveaux outils très complexes et abstraits se développent.
+Le début du siècle est dominé par Carl Friedrich Gauss5.
+Grâce à des outils abstraits mais très efficaces, il vérifie beaucoup de conjectures (notamment la loi de réciprocité quadratique qui permet d’écrire un nombre premier sous la forme d’un nombre au carré) et simplifie les démonstrations anciennes.
+C’est le début de l’arithmétique modulaire, qui sera complétée par Gustav
+Lejeune Dirichlet et Charles Jacobi grâce aux méthodes de l’algèbre moderne.
+Adrien
+Marie Legendre, Dirichlet et Pafnouti Tchebychev cherchent à préciser comment les nombres premiers diminuent.
+Ils inventent une fonction π(x){\displaystyle \pi (x)} qui compte les nombres premiers inférieurs à x{\displaystyle x}. Par exemple π(10)=4{\displaystyle \pi (10)=4} car il y a quatre nombres premiers (2, 3, 5 et 7) inférieurs ou égaux à 10.
+firent progresser l’étude de π(x){\displaystyle \pi (x)}, C’est le mémoire de Bernhard Riemann de 1859 qui va permettre la résolution du problème.
+Il introduit la fonction ζ{\displaystyle \zeta } et son étude fait le lien avec la fonctionπ{\displaystyle \pi }.
+Ses idées seront presque toutes prouvées avec la démonstration du Théorème des nombres premiers en 1896 par Jacques Hadamard et Charles Jean de la Vallée-Poussin.
+Seule la conjecture de Riemann résiste encore.
+Représentation de la fonction ζ{\displaystyle \zeta }
+A la fin du XIXe siècle, les mathématiciens s’intéressent au statut des nombres, et notamment aux nombres transcendants.
+Par exemple, Charles Hermite montre que e{\displaystyle e} est un nombre transcendant en 1873 et Ferdinand von Lindemann montre que π{\displaystyle \pi } est un nombre transcendant en 1882.
+En 1888, Richard Dedekind écrit
+Que sont les nombres et à quoi servent-ils ? qui mêle arithmétique et théorie des ensembles.
+En 1889, Giuseppe Peano établit les axiomes de l'arithmétique.
+Ces réflexions sont à la base de la crise des fondement du début du XXe siècle : il faut assurer les bases des mathématiques avec des fondements rigoureux.
+L'arithmétique semble être le domaine le plus rigoureux et les efforts se concentrent dessus.
+Mais les paradoxes ne cessent de ressurgir.
+La crise prend fin avec les Théorèmes d'incomplétude de Gödel : la fiabilité de l'arithmétique ne peut être prouvée avec l'arithmétique elle-même.
+L’arrivée de l’informatique à partir des années 1950 permet de rendre les calculs plus rapides.
+Mais il faut adapter les notations et les raisonnements pour que les programmes fonctionnent.
+Les chercheurs en arithmétique numérique améliorent en permanence les algorithmes de calcul.
+En 1995, Andrew Wiles démontre le Grand Théorème de Fermat, mettant fin à 300 ans de recherche.
+A l’inverse, l’étude de la fonction ζ{\displaystyle \zeta } et la démonstration de la conjecture de Riemann résistent encore aujourd’hui aux chercheurs.
+En 1940, André Weil en a démontré une version pour certain type de fonction et énonce les conjectures de Weil (qui seront toutes démontrées en 2004).
+Mais le mystère reste entier pour la fonction ζ{\displaystyle \zeta } elle-même.
+L’arithmétique élémentaire concerne l’étude des opérations et l’étude des nombres entiers (nombres pairs et impairs, nombres premiers, nombres parfaits...).
+Le niveau de difficulté de l’arithmétique est très variable et la discipline marque par le contraste fréquent entre la facilité à comprendre un énoncé et la complexité de la résolution.
+La lecture des nombres et les quatre opérations de base (soustraction, addition, division, multiplication) sont étudiés à l’école primaire.
+Les règles de divisibilité, les nombres premiers et la décomposition en nombres premiers sont abordés au collège.
+Les théorèmes fondamentaux sont vus au lycée.
+Ces théorèmes sont le lemme d’Euclide, le théorème de Bachet-Bézout et encore le théorème fondamental de l'arithmétique.
+Ils permettent de démontrer des théorèmes plus complexes comme celui de Wilson ou le petit théorème de Fermat.
+De nombreux résultats d’arithmétique sont encore à démontrer : la conjecture de Goldbach, la conjecture des nombres premiers jumeaux ou la conjecture de Syracuse.
+L’ arithmétique modulaire repose sur le concept de la congruence.
+On s’intéresse au reste dans la division euclidienne : on dit que 7 est congru à 1 modulo 3 car le reste dans la division euclidienne de 7 par 3 est 1 (7=3×2+1{\displaystyle 7=3\times 2+1}).
+On note 7 ≡ 1 .
+L’idée est de regrouper les nombres ayant la même congruence en groupes, qu’on appelle « classes de congruence ».
+Par exemple, pour la division par 3, il y a la classe des nombres dont le reste
+est 0 (0, 3, 6, 9, 12…), la classe des nombres dont le reste est 1 (1, 4, 7, 10, 13…) et la classe des nombres dont le reste est 2 (2, 5, 8, 11, 14…).
+On définit des nouvelles opérations sur ces classes, ce qui rend les calculs plus rapides, mais aussi bien plus abstraits et complexes.
+De nombreuses questions ne trouvent pas de réponse avec les méthodes de l’arithmétique élémentaire ou de l’arithmétique modulaire, comme la résolution des équations diophantiennes.
+Pour répondre à ces problèmes, on élargit l’ensemble des nombres entiers à une nouvelle structure.
+Cette structure possède les mêmes propriétés que l’ensemble des nombres entiers, mais est bien plus abstraite, donc complexe à utiliser.
+La théorie des nombres comporte plusieurs domaines, qui se différencient par les méthodes utilisées ou les objets étudiés.
+On peut citer :
+la théorie algébrique des nombres : on étudie les ensembles formés par les classes de congruence avec les outils de l'algèbre moderne
+la théorie analytique des nombres : l'étude de la fonction zeta} de Riemann, à l'aide de méthode de l'analyse complexe,
+afin de résoudre des problèmes sur les nombres premiers et les nombres entiers
+la géométrie diophantienne : on cherche à résoudre des équations diophantiennes à l'aide de méthodes de la géométrie algébrique
+L'arithmétique modulaire est le domaine qui a généré le plus d'applications.
+En cryptographie, elle est particulièrement efficace pour concevoir des codes correcteurs d'erreurs, des algorithmes de traitement d'un signal ou de compression de données, ou encore des clés secrètes pour le codage de message.
+Par exemple, l'algorithme de chiffrement RSA, sur lequel repose la sécurité de la majorité des transactions bancaires sur Internet, utilise comme clé de chiffrement des nombres premiers extrêmement grands.
+Principes de fonctionnement d'un algorithme de chiffrement
+1re étape : Alice génère deux clefs.
+La clef publique (verte) qu'elle envoie à Bob et la clef privée (rouge) qu'elle conserve précieusement sans la divulguer à quiconque
+2e et 3e étapes :
+Bob chiffre le message avec la clef publique d'Alice et envoie le texte chiffré.
+Alice déchiffre le message grâce à sa clef privée.
+Über die
+Anzahl der Primzahlen unter einer gegebenen Grösse , Bernhard Riemann, 1859
+Une histoire des mathématiques : Routes et dédales, Amy Dahan-Dalmedico et Jeanne Peiffer, Seuil, 1986
+Arithmétique pour amateurs (quatre volumes), Marc Guinot, Aléas, 1992
+Histoire universelle des chiffres, Georges Ifrah, Robert Laffont,
+Le Dernier Théorème de Fermat, Simon Singh, Hachette Livre Littérature, 1999
+Merveilleux nombres premiers : Voyage au cœur de l'arithmétique, Jean-Paul Delahaye,
+Histoire des codes secrets, Simon Singh, Poche, 2001
+Histoire des mathématiques, Jean C. Baudet, Vuibert, 2014
+Toutes les mathématiques du monde, Hervé Lehning, Flammarion, 2017
+↑Des nombres entiers a{\displaystyle a}, b{\displaystyle b} et c{\displaystyle c} constituent un triplet pythagoricien si a2+b2=c2{\displaystyle a^{2}+b^{2}=c^{2}}. Comme leur nom l’indique, on peut les relier au théorème de Pythagore.
+Qin Jiushao était l'un des plus grands mathématiciens de sa race, de son temps et à vrai dire de tous les temps.
+George Sarton
+↑Ces deux théorèmes donnent des propriétés des nombres premiers et sont très utilisés en arithmétique modulaire
+↑Concernant son grand théorème, il l'a écrit dans la marge de son exemplaire des Arithmétiques de Diophante, en affirmant qu'il avait une démonstration «… mais la place me manque ici pour la développer}}.
+La mathématique est la reine des sciences et l’arithmétique est la reine des mathématiques.
+Carl Friedrich Gauss
+↑Les zones noires représentent les points proches de 0 qui sont les points concernés par la Conjecture de Riemann

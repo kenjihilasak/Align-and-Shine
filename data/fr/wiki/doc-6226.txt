@@ -1,0 +1,33 @@
+Logiciel de voix sur réseau IP|Logiciel libre sous licence GPL|Logiciel pour Unix|Logiciel pour Windows|Logiciel utilisant Qt|Service de jeu en ligne
+Mumble (
+« marmonnement » en anglais) est un logiciel libre de voix sur IP (VoIP), dont le principal usage est la communication pendant les parties de jeux en réseau.
+Technologies utilisées
+Mumble utilise la bibliothèque graphique Qt 4 et l'analyseur de code Klocwork.
+Depuis la version 1.2.4, Mumble utilise le nouveau codec Opus
+Interactive
+Audio
+Codec qui remplace désormais le codec Speex.
+Synthèse vocale
+Sur Windows, et depuis peu sous GNU/Linux, Mumble utilise SAPI,
+afin de synthétiser le texte, quand par exemple une nouvelle personne se connecte au serveur, ou quand quelqu'un quitte le serveur, quand quelqu'un est banni Mais également lorsqu'un joueur envoie un message textuel à un autre joueur.
+Cette fonction est désactivable facilement par le menu Audio.
+Plateformes supportées
+Le client Mumble fonctionne sur Windows, Mac OS X, GNU/Linux, iOS et Android.
+Le serveur nommé murmur peut potentiellement fonctionner sur tout système précédemment cité.
+Apparences graphiques
+Mumble dispose d'un système de personnalisables et facilement modifiables.
+Ils sont écrits en css et avec des images simples (souvent des png).
+On trouve déjà de nombreuses apparences sur le Web, notamment réalisées par des clans ou des équipes de jeu.
+Certains modifient notablement le design, changeant le contraste (fond sombre et texte clair), l'intégralité du logiciel (menus, fenêtres de configuration & de paramétrage), icônes
+Application mobile
+Concernant les plateformes mobiles, le client officiel de Mumble a été porté sur iOS (utilisé sur iPhone et iPad).
+Il existe également une application client pour Android.
+Il est possible avec ces outils de se connecter à Mumble en passant par un réseau 3G données ou Wi-Fi.
+Implémentation
+dans les jeux
+Minecraft
+Une partie des serveurs Minecraft publics et beaucoup de serveurs multijoueurs privés utilisent Mumble.
+En effet, Mumble possède un mod (extension)
+Forge qui une fois installé sur les machines des joueurs, permet de synchroniser les positions et ainsi les voix.
+La seule utilisation du mod est la synchronisation 3D : plus les joueurs sont éloignés, plus leur volume est réduit.
+Il existe aussi une synchronisation du même type pour le chat.

@@ -1,0 +1,38 @@
+Framework de programmation|JavaScript|Logiciel libre sous licence MIT|Logiciel libre sous licence GPL
+est une bibliothèque JavaScript libre et multiplateforme créée pour faciliter l'écriture de scripts côté client dans le code HTML des pages web.
+La première version est lancée en janvier 2006 par John Resig.
+Le but de la bibliothèque étant le parcours et la modification du DOM (y compris le support des sélecteurs CSS 1 à 3 et un support basique de XPath), elle contient de nombreuses fonctionnalitées ;
+notamment des animations, la manipulation des feuilles de style en cascade (accessibilité des classes et attributs), la gestion des évènements, etc.
+L'utilisation d'Ajax est facilitée et de nombreux plugins sont présents.
+Depuis sa création en 2006 et notamment à cause de la complexification croissante des interfaces Web, jQuery a connu un large succès auprès des développeurs Web et son apprentissage est aujourd'hui un des fondamentaux de la formation aux technologies du Web.
+Il est à l'heure actuelle la bibliothèque front-end la plus utilisée au monde (plus de la moitié des sites Internet en ligne intègrent jQuery)
+Cependant, son utilisation devient moins pertinente avec l'émergence de nouvelles librairies telles que React (JavaScript) et Vue.js qui la remplacent dans la construction d'Application web monopage.
+Usage
+jQuery se présente comme un unique fichier JavaScript de ( dans sa version minifiée par la suppression des commentaires, des caractères d'espacement et des retours à la ligne, et de 32 ko avec une compression gzip) contenant toutes les fonctions de base.
+Il peut être inclus dans toute page web de deux façons:
+Télécharger le fichier source
+A partir du site officiel https:/ download/ .
+Dans ce cas, on peut intégrer le fichier en utilisant le code suivant :
+Utiliser un CDN
+Parmi les CDN (Content Delivery Networks) proposés, on peut utiliser ceux de https:/ ajax jquery jquery.min.js
+Google
+CDN ou de https:/
+ajax jquery-3.3.1.min.js&#x22;
+Microsoft CDN.
+Dans ce cas on peut utiliser les codes suivants:
+Google CDN:
+Microsoft CDN:
+La bibliothèque jQuery peut être appelée de deux manières différentes :
+* via la fonction jQuery, ou $
+Cette fonction est chaînable (elle retourne l'objet appelant).
+Par exemple :
+$ ("div.test").add ("p.quote").addClass ("blue").slideDown ("slow");
+*via l'objet $.
+Par exemple :
+$.each (1,2,3, function () );
+Voici un exemple d'Ajax avec jQuery :
+$ (document).ready (function () );
+Fermeture de la fonction de rappel du $ (document).ready
+On peut aussi remplacer la première ligne du script $ (document).ready (function () { par $ (function () {.
+Modules d'extension
+Parce que jQuery est un constructeur de code source libre, d'autres personnes utilisent sa syntaxe pour créer de nouveaux modules d'extension afin d'ajouter d'autres fonctionnalités aux bibliothèques.

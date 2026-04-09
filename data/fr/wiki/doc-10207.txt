@@ -1,0 +1,149 @@
+Arithmétique
+En arithmétique, une base désigne la valeur dont les puissances successives interviennent dans l'écriture des nombres dans la numération positionnelle N-adique, ces puissances définissant l'ordre de grandeur de chacune des positions occupées par les chiffres composant tout nombre.
+Par commodité, on utilise usuellement, pour les bases entières à partir de deux, un nombre de chiffres égal à la base.
+En effet, l'écriture d'un nombre en base N à l'aide de N chiffres allant de 0 à N - 1 correspond à son développement en base N.
+On peut reformuler ainsi : En base N, on a donc besoin de N chiffres, de 0 à N
+Par exemple, en base 10, on a besoin de 10 chiffres, de 0 à 9, en base 3, on a besoin de 3 chiffres de 0 à 2, etc.
+Bases
+courantes
+Certaines bases sont couramment employées :
+* la base deux (système binaire), en électronique numérique et informatique ;
+* la base trois (système trinaire), dans les mêmes domaines, bien que moins fréquemment ;
+* la base huit (système octal), en informatique, davantage à l'échelle humaine que la base deux, aujourd'hui abandonnée au profit de la base seize ;
+elle a été utilisée par les Yukis ;
+* la base neuf (système nonaire)
+, davantage à l'échelle humaine que la base 3 ;
+* la base dix (système décimal), la plus commune, aujourd'hui la référence dans le domaine des sciences ;
+* la base douze (système duodécimal), de manière embryonnaire
+, a été utilisée par les Égyptiens pour le compte en heures et mois ;
+* la base seize (système hexadécimal), en informatique, facilitant les conversions en base 2 en regroupant des chiffres binaires, 16 étant une puissance de 2 ;
+* la base vingt (système vigésimal) a été utilisée par les Mayas et les Aztèques, ainsi que de manière alternative en France (dont on garde un héritage dans « quatre-vingts ») ;
+* la base soixante (système sexagésimal), dans la mesure du temps et des angles
+, a été utilisée par les Sumériens, les Akkadiens, puis les Babyloniens (voir «
+Numération babylonienne ») ;
+* la base cent cinquante ou base indienne, utilisée notamment dans la table astronomique appelée Table indienne d'Al-Khwârizmî.
+De nombreuses bases sont, et ont été, aussi utilisées par différents peuples ;
+consulter «
+Numération » pour plus de détails.
+Bien que peu utilisée, la base trente a l'intérêt d'exprimer simplement le résultat de la majorité des petites fractions (à dénominateurs de la forme 2p.3q.5r) et factorielles.
+De plus, à la différence de la base 60, elle peut être représentée à l'aide des dix chiffres usuels et des vingt premières lettres de l'alphabet.
+Pour des applications spécifiques, l'informatique peut utiliser des bases : pour un entier représenté par une chaîne d'octets, on peut considérer un octet comme un chiffre en base 256 ;
+on peut voir un identificateur comme un nombre en base 40 ;
+pour des applications décimales, on peut avoir avantage à utiliser une base 1000.
+Symboles utilisés
+Pour les bases jusqu'à dix inclus, on utilise les chiffres 0, 1, 2, 3, 4, 5, 6, 7, 8 et 9.
+Au-delà, on utilise les lettres.
+Par exemple, pour la base 16, les symboles utilisés sont 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+L'usage du zéro positionnel est une convention pratique et élégante, mais non nécessaire pour représenter les entiers naturels, comme l'illustre le système décimal sans zéro.
+Il est, par contre, indispensable pour généraliser l'écriture positionnelle aux nombres fractionnaires.
+Notations courantes
+Pour n'importe quelle base, on a l'habitude de l'indiquer en indice du nombre.
+Par exemple 100111 pour le nombre dont le développement en base 2 est 100111, ou encore 172 pour le nombre dont le développement en base 8 est 172.
+En plus de cette notation, il en existe d'autres, notamment employées en informatique.
+* Base 8 :
+on peut indiquer le nombre avec un zéro au début.
+Par exemple 0157 pour 157.
+* Base 16 : on peut indiquer de diverses manières qu'un nombre est en hexadécimal (voir tableau ci-dessous).
+Une autre écriture courante est l'ajout du suffixe «
+h »
+à la fin du nombre, ce qui avec notre exemple
+donne AE4Fh.
+Conversion d'une base à
+une autre
+Un nombre dans une base donnée s'écrit sous la forme d'additions des puissances successives de cette base.
+Le nombre c_n...c_2c_1c_0 en base b, constitué des chiffres c_n, ..., c_2, c_1, c_0, peut aussi s'écrire sous la forme c_n b^n + ... + c_2 b^2 + c_1 b^1 + c_0 b^0, c'est-à-dire un polynôme dont les coefficients sont les chiffres et l'inconnue est la base.
+Ainsi, un nombre exprimé en base b par les quatre chiffres 1101 se développe de cette façon :
+1\times b^3+1\times b^2+0\times b^1+1\times b^0, qui donne, selon la base :
+On remarque que la signification des représentations 10, 100, 1000, etc. dépend de la base utilisée :
+10 est toujours égal à la base, c'est-à-dire dix en base dix, mais deux en base deux ou trois en base trois.
+Lorsqu'on veut passer d'une base à une autre, on utilisera deux méthodes (algorithmes), suivant que l'on sait calculer dans la base de départ ou dans la base d'arrivée.
+Méthode de division successives
+Si l'on sait calculer dans la base de départ, des divisions entières successives par la base donneront en restes les chiffres du résultat, en commençant par les unités.
+Plus précisément :
+:q_0 :
+n (le nombre à convertir) ;
+0 ;
+tant que q_i >0 faire (r_:
+q_i\ mod\ b
+;\ q_:
+q_i\ div\ b ;\ i := i+1 )
+les r_i sont les chiffres du nombre converti, en partant des unités.
+Algorithme en JavaScript :
+function convert (n, b_d, b_a)
+:Remarque : ce programme peut fonctionner jusqu'à la base 36, au-delà, la fonction parseInt ne fonctionne plus.
+Méthode de Horner
+Si l'on sait calculer dans la base d'arrivée, on évalue le polynôme .
+La méthode de Horner est généralement utilisée :
+::v :
+c_n ;
+n ;
+:pour i:
+n-1
+à 0 faire v :
+v est le nombre dans la base d'arrivée.
+Exemple d'algorithme en Python :
+def convert_horner (num, base=16):
+sym = '0', '1', '2', '3', '4', '5', '6', '7',
+'8',
+'9', 'A', 'B', 'C', 'D', 'E', 'F'
+for n in num:
+r = r return r
+Si on ne sait calculer ni dans la base de départ ni dans celle d'arrivée, on passe par une base intermédiaire où l'on sait calculer.
+Si la base d'arrivée est une puissance r-ième de la base de départ (exemple : de la base 2 à la base 16), on peut convertir chaque groupe de r chiffres en un chiffre, localement et directement.
+Systèmes balancés
+Un système numérique de base 2N ou 2N + 1 peut également être doté des 2N + 1 chiffres signés , … , , , 0, 1, 2, … , N. On parle alors de système balancé ou symétrique.
+Bases non standard
+On peut également employer des bases :
+* négatives
+pour lesquelles les nombres sont signés mais pas les chiffres ;
+* non entières
+, on parle alors de bêta-numération (la base d'or en est un exemple) ;
+* imaginaires ou autres
+(par exemple
+, le système quater-imaginaire, dans lequel tout nombre complexe peut se développer, est une généralisation aux complexes du développement binaire) ;
+* , pour lesquels la base varie d'une position à une autre.
+15, 1616 (en base 16)
+22 et 112 (en base 2)
+à au total, le nombre représenté est donc égal à 15 + (22×8) + (3×16×8) = 575.
+Un usage courant de notation en base mixte est celui des dates notamment dans le format ISO 8601 tel qu'il est par exemple utilisé au Canada : 2014-08-29 est une simplification de la notation 201408122930 qui indique que le nombre de jours est transcrit selon une base trigésimale (env.
+30 jours par mois) et les mois selon une base duodécimale ;
+* doubles, utilisant deux entiers premiers entre eux, la base double la plus courante étant la base .
+Quelques propriétés
+* De la même manière
+, le nombre un s'écrit dans toutes les bases, puisque quelle que soit la base, base égale 1.
+L'égalité «
+121 = 11^2 »
+est vraie dans toutes les bases naturelles strictement supérieures à 2.
+* En base dix, un nombre est pair s'il se termine par un multiple de 2, c'est-à-dire 0, 2, 4, 6 ou 8 ;
+en base 2, il est pair s'il se termine par 0.
+Inversement, en base dix, un nombre est impair s'il se termine par un chiffre impair, soit 1, 3, 5, 7 ou 9, et en base deux s'il se termine par 1.
+Cette propriété peut s'étendre à toutes les bases paires.
+* L'alternance des chiffres 0 et 1 en binaire se fait avec les chiffres 5 ou A en hexadécimal.
+55516 = 0101010101012
+:AAA16 = 1010101010102
+* Pour plusieurs nombres s'écrivant de la même façon dans des bases naturelles différentes, le plus grand est celui dans la plus grande base, à condition que ces nombres soient supérieurs à la base.
+5716 (
+8710)
+> 5710 >
+578 (
+De même, un grand nombre aura besoin de moins de chiffres pour s'écrire dans une grande base naturelle que dans une petite.
+:F424016 (5 chiffres)
+1 000 00010 (7 chiffres)
+1111 0100 0010 0100 00002 (20 chiffres)
+* 10 1 si
+la base n appartient à l'intervalle .
+* La base s'écrit 10 dans toutes les bases.
+, 1016
+16, 1060 = 60.
+* En base N, un nombre est divisible par N
+- 1 (resp.
+par un diviseur d de N - 1) si la somme de ses chiffres est divisible par N
+- 1 (resp.
+par d) (exemple connu : la divisibilité par 3 ou par 9 en base 10).
+Culture
+* Boby Lapointe avait imaginé un usage comique du système hexadécimal, qu'il avait baptisé Système Bibi-binaire.
+Ce système présentait l'avantage de rendre les nombres binaires faciles à prononcer et à mémoriser.
+La RFC 1924 propose la base 85 pour la notation des adresses IPv6, mais ce n'est qu'un poisson d'avril.
+* Dans le jeu vidéo Portal, lors du combat final, GLaDOS annonce que 2 + 2 font 10, avant de se rattraper en complétant par
+Références
+o0nsls8w5avjcbl4ny88m9an1kg4qri

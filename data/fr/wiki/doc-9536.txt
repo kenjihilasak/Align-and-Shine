@@ -1,0 +1,105 @@
+Opération|Fonction remarquable|Fonction de référence
+En mathématiques, la valeur absolue (parfois appelée module, c'est-à-dire ) d'un nombre réel est sa valeur numérique sans tenir compte de son signe.
+On peut la comprendre comme sa distance de zéro ;
+ou comme sa valeur quantitative, à laquelle le signe ajoute une idée de polarité ou de sens (comme le sens d'un vecteur).
+Par exemple, la valeur absolue de -4 est 4 et celle de +4 est 4.
+Pour éviter d'écrire
+la valeur absolue de… »
+, on utilise la notation |…|. Ainsi, on écrit :
+|-4
+|+4|
+En programmation informatique, l'identificateur utilisé pour désigner la valeur absolue est usuellement .
+Il existe de nombreuses généralisations de la valeur absolue dans des espaces plus abstraits (nombre complexe, espace vectoriel, corps commutatif voire corps gauche : voir par exemple Norme).
+Cette notion est proche de celles de distance et de magnitude dans de nombreuses branches de la physique et des mathématiques.
+Historique
+Il y a eu quatre phases dans l'évolution de la notion de « valeur absolue ».
+Durant la première, sa définition était le « nombre sans son signe » ou la « distance à partir de zéro ».
+Cette définition était implicite, car il n'y avait pas eu de définition formelle.
+Dans la deuxième phase, la valeur absolue était devenue une fonction, souvent utilisée dans le calcul d'erreurs.
+Un sens plus exact des applications de la valeur absolue à cette époque était « prendre positivement » un nombre ou « faire abstraction des signes ».
+La troisième phase a découlé de la compréhension du nombre en tant que concept abstrait.
+La valeur absolue devint un concept spécifique défini pour chaque nombre, en plus de la méthode pour mesurer des nombres complexes.
+En 1821, Cauchy popularise son utilisation dans l'analyse formelle.
+À ce moment, il manquait une notation.
+La quatrième et dernière phase découle de sa propre formalisation.
+Ceci était nécessaire pour l'évolution de l'analyse complexe.
+Napier aurait utilisé les valeurs absolues dans l'élaboration des tables logarithmiques, alors que Descartes et Newton les auraient utilisées pour une théorie générale des équations polynomiales.
+Lagrange et Gauss utilisaient la valeur absolue dans la théorie des nombres pour résoudre des équations de calcul d'erreurs.
+Argand et Cauchy l'utilisaient pour mesurer la distance entre nombres complexes, et Cauchy l'a souvent utilisée dans l'analyse.
+Valeur absolue d'un nombre réel
+Première approche
+Un nombre réel est constitué de deux parties : un signe + ou - et une valeur absolue.
+Par exemple :
+* +7 est constitué du signe + et de la valeur absolue 7 ;
+* -5 est constitué du signe
+- et de la valeur absolue 5.
+La valeur absolue de +7 est donc 7, la valeur absolue de -5
+est donc 5.
+Comme il est fréquent de supprimer le signe lorsque celui-ci est +, on obtient alors :
+* la valeur absolue de -5 est 5, c'est-à-dire l'opposé de -5.
+D'où la définition ci-dessous.
+Définition
+Pour tout nombre réel x, la valeur absolue de (notée )
+est définie par :
+Nous remarquons que |x|=\max (x,-x).
+Propriétés
+La valeur absolue possède les propriétés suivantes, pour tous réels et :
+* |a+b| \leqslant |a| + |b|\ (inégalité triangulaire)
+* |a
+- b| \geqslant ||a|-|b|| (deuxième inégalité triangulaire, découle de la première)
+* \left|\sum_^n a_i\right|\leqslant \sum_^n |a_i|\ (inégalité triangulaire généralisée à une famille finie (a_i)_)
+* |a| \leqslant b \Leftrightarrow
+- b \leqslant a \leqslant b
+* |a| \geqslant b \Leftrightarrow
+a \leqslant -b
+\mbox a \geqslant b
+Ces dernières propriétés sont souvent utilisées dans la résolution des inéquations ;
+par exemple, pour réel :
+:\begin
+&|x-3|&\leqslant 9 &\\
+\Leftrightarrow &-9 &\leqslant x
+- 3 &\leqslant 9 \\
+\Leftrightarrow
+\end
+Enfin, si f:I\to\R est continue sur I\subset \R, alors \left|\int_I f (t)\mathrmt\right|\leqslant \int_I|f (t)|\mathrmt.
+Valeur absolue et distance
+Il est utile d'interpréter l'expression comme la distance entre les deux nombres et sur la droite réelle.
+En munissant l'ensemble des nombres réels de la distance valeur absolue, il devient un espace métrique.
+Une inéquation telle que se résout alors simplement à l'aide de la notion de distance.
+La solution est l'ensemble des réels dont la distance au réel 3 est inférieure ou égale à 9.
+C'est l'intervalle de centre 3 et de rayon 9.
+C'est l'intervalle .
+Extension aux nombres complexes
+La même notation s'emploie pour le module d'un nombre complexe.
+Ce choix est légitime parce que les deux notions coïncident pour les complexes dont la partie imaginaire est nulle.
+En outre, le module de la différence de deux nombres complexes et est la distance euclidienne
+des
+deux points et .
+Si est nul, module de , soit la valeur absolue de
+* En représentation exponentielle, si a
+re^ alors |a|
+La fonction valeur absolue
+Cette fonction fait correspondre à tout , si celui-ci est positif ou si celui-ci est négatif.
+La fonction valeur absolue est à valeurs positives, paire.
+La fonction valeur absolue définie par est continue sur \mathbb R mais n'est dérivable qu'en tout point de \mathbb R^
+Si est une fonction :
+* la fonction définie par g (x)
+= f (|x|) est une fonction paire coïncidant avec pour tout de D_f
+\cap \mathbb_+ ;
+* la fonction définie par h (x)
+= |f (x)| est une fonction coïncidant avec pour tout tel
+Valeur absolue sur un corps
+Une valeur absolue sur un corps K est une application qui à tout élément de K fait correspondre un nombre réel positif noté de telle sorte que, pour tous et de K :
+* |x|
+0 \iff x
+0_K (axiome de séparation) ;
+* |x + y| \leqslant |x| + |y| (inégalité triangulaire)
+Une telle application vérifie (pour tous et dans K) :
+#Si b\ne0 (donc |b|\ne0) alors \left|a |b| ;
+#L'application est une distance sur K, qui munit K d'une structure de corps topologique ;
+#|a| 0 telle que \forall x\in K\quad|x|_2=|x|_1^c.
+Une valeur absolue est dite ultramétrique si, pour tous et de K,
+C'est le cas si et seulement si cette valeur absolue est induite par une valuation à valeurs réelles.
+Exemples
+Le module défini sur ℂ est bien une valeur absolue, d'où le fait qu'on utilise la même notation.
+*Pour tout nombre premier p, la valeur absolue associée à la valuation p-adique, définie sur le corps ℚ, est une valeur absolue ultramétrique.

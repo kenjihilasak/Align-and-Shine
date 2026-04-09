@@ -1,0 +1,194 @@
+Physique théorique|Physique quantique
+Le spin () est, en physique quantique, une des propriétés internes des particules, au même titre que la masse ou la charge électrique.
+Comme d'autres observables quantiques, sa mesure donne des valeurs discrètes et est soumise au principe d'incertitude.
+C'est la seule observable quantique qui ne présente pas d'équivalent classique, contrairement, par exemple, à la position, l'impulsion ou l'énergie d'une particule.
+Il est toutefois souvent assimilé au moment cinétique .
+Enfin, le moment cinétique intrinsèque (de spin) et le moment magnétique intrinsèque (de spin) sont tous deux confondus sous le terme de « spin ».
+Le spin a d'importantes implications théoriques et pratiques, il influence pratiquement tout le monde physique.
+Il est responsable du moment magnétique de spin et donc de l'effet Zeeman (parfois incorrectement appelé anormal) qui en découle.
+Les particules sont classées selon la valeur de leur nombre quantique de spin (aussi appelé communément le spin) : les bosons qui ont un spin entier ou nul, et les fermions pour lesquels le spin est demi-entier .
+Fermions et bosons se comportent différemment dans des systèmes comprenant plusieurs particules identiques ;
+le fait que l'électron soit un fermion est ainsi la cause du principe d'exclusion de Pauli et des irrégularités de la table périodique des éléments.
+L'interaction spin
+-orbite conduit à la structure fine du spectre atomique.
+Le spin de l'électron joue un rôle important dans le magnétisme.
+La manipulation des courants de spins dans des nano-circuits conduit à un nouveau champ de recherche : la spintronique.
+La manipulation des spins nucléaires par des champs radiofréquences conduit au phénomène de résonance magnétique nucléaire utilisé dans la spectroscopie RMN et l'imagerie médicale (IRM).
+Le spin du photon
+- ou plus exactement son hélicité
+- est associé à la polarisation de la lumière.
+Historique
+La genèse du concept de spin fut l'une des plus difficiles de l'histoire de la physique quantique aux années 1920.
+L'effet Zeeman anomal, la structure hyperfine des raies spectrales observées, ou encore l'expérience de Stern et Gerlach (1922) posèrent à cette époque de grosses difficultés d'interprétation.
+La découverte du concept de spin par Samuel Goudsmit et George Uhlenbeck, en septembre 1925, a été révolutionnaire.
+Immédiatement après la publication, un problème de facteur 2 dans la structure fine du spectre de l'hydrogène, identifié par Heisenberg, fut résolu par les deux physiciens et publié en décembre 1925.
+Leur interprétation incorporait la nouvelle notion de spin.
+Le spin a d'abord été interprété comme un degré de liberté supplémentaire, s'ajoutant aux trois degrés de liberté de translation de l'électron : son moment cinétique intrinsèque (ou propre).
+En d'autres termes, l'électron ponctuel était vu comme tournant sur lui-même
+- d'où le nom de « » (de l'anglais « to spin » : faire tourner).
+Mais il est vite apparu que cette « rotation » devait être considérée comme purement quantique ː elle n'a pas d'équivalent en mécanique classique.
+La représentation du spin en termes de simple rotation a donc été abandonnée.
+Wolfgang Pauli avait déjà noté en 1924 que, compte tenu des dimensions estimées de l'électron, une rotation de l'électron nécessiterait une vitesse tangentielle de rotation à son équateur qui serait supérieure à la vitesse de la lumière, vitesse par principe infranchissable selon la théorie de la relativité restreinte.
+La notion théorique de spin
+a été introduite par Pauli en décembre 1924 pour l'électron, afin d'expliquer un résultat expérimental qui restait incompréhensible dans le cadre naissant de la mécanique quantique non-relativiste : l'effet Zeeman anomal.
+L'approche développée par Pauli consistait à introduire de façon ad hoc le spin en ajoutant un postulat supplémentaire aux autres postulats de la mécanique quantique non-relativiste (équation de Schrödinger).
+En 1927, Wolfgang Pauli a proposé la modélisation du spin en termes de matrice, ce qui correspond à une écriture en termes d'opérateurs sur la fonction d'onde intervenant dans l'équation de Schrödinger : l'équation de Pauli.
+En 1928, à partir de l'équation de Klein-Gordon, Paul Dirac démontra qu'une particule ayant un spin non nul vérifie une équation relativiste, appelée aujourd'hui équation de Dirac.
+Enfin, c'est en théorie quantique des champs que le spin montre son caractère le plus fondamental.
+L'analyse du groupe de Poincaré effectuée par Wigner en 1939 montra en effet qu'une particule est associée à un champ quantique, opérateur qui se transforme comme une représentation irréductible du groupe de Poincaré.
+Ces représentations irréductibles se classent par deux nombres réels positifs : la masse et le spin.
+Le spin du photon a été mis en évidence expérimentalement par Râman et Bhagavantam en 1931.
+Le moment cinétique de spin
+Le spin est le moment cinétique intrinsèque des particules quantiques.
+Il est donc soumis aux mêmes lois générales qui régissent tout autre moment cinétique quantique, tel que, par exemple, le moment cinétique orbital.
+Le spin est donc un opérateur vectoriel hermitien
+\hat S comportant trois composantes, notées usuellement \hat_x, \, \hat_y et \hat_z par référence aux trois axes de coordonnées cartésiennes utilisables dans l'espace physique.
+Ces composantes sont des observables vérifiant les relations de commutations caractéristiques d'un moment cinétique :
+\left \, \hat_i \,
+, \ \hat_j \, \right \ = \ i \ \hbar \ \epsilon_
+\ \hat_k
+où \epsilon_ est le symbole de Levi-Civita et
+:\left \hat S^2, \hat S_i \right =0.
+Ces relations de commutations sont analogues à celles découvertes en novembre 1925 par Born, Heisenberg et Jordan pour les composantes du moment cinétique orbital.
+Ces relations de commutations impliquent que le principe d'incertitude s'applique aux mesures du spin faites dans les différentes directions de l'espace : on peut en effet mesurer très exactement la norme du vecteur et une projection sur un axe de coordonnées, mais les deux autres projections sur les deux autres axes orthogonaux ne sont plus alors mesurables précisément.
+Par analogie avec les résultats obtenus pour le moment cinétique orbital (ou plus généralement pour un moment cinétique quantique), il existe pour l'opérateur spin une base de vecteurs propres notés s,m_s \rangle , où s est entier ou demi-entier, et m_s est un entier ou demi-entier prenant l'une des 2s + 1 valeurs
+- \, s \le m_s \le s, tels que :
+:\hat^2 \
+| s,m_s \rangle \ = \ s (s+1) \, \hbar^2 \
+| s,m_s \rangle \qquad (1)
+:\hat_z \
+| s,m_s \rangle \ = \ m_s \, \hbar \
+| s,m_s \rangle \qquad (2)
+Le nombre s est un nombre quantique, qui est aussi appelé le spin (de manière impropre toutefois).
+Les valeurs propres des opérateurs \hat
+S^2 et \hat
+S_z représentent l'ensemble des mesures possibles pour les deux observables, c'est-à-dire respectivement le carré de la norme, et la projection sur un axe z arbitraire dans l'espace.
+Spin des particules élémentaires et composites
+Toutes les particules connues ou d'existence fortement suspectée ont un nombre quantique de spin compris entre 0 et 2.
+C'est en particulier le cas des particules élémentaires.
+* Spin 1/2 : l'électron, le positron, les neutrinos, les quarks, etc.;
+* Spin 1 : le photon, le gluon (vecteur de l'interaction forte), les bosons W et Z (vecteurs de l'interaction faible);
+* Spin 2 : le graviton, particule hypothétique, qui serait vecteur de la gravitation.
+Il n'existe pas de particule élémentaire connue de spin 3/2, mais la théorie de la supersymétrie en prédit une, le gravitino.
+Le spin (à l'état fondamental) des particules composées de plusieurs particules élémentaires, comme le proton, le neutron, tout noyau atomique ou encore tout atome, est constitué des spins des particules élémentaires qui les composent, auquel s'ajoute le moment cinétique orbital de ces différentes particules élémentaires :
+* Spin 0 : noyaux atomiques tels que 12C, 16O, 28Si… et de manière générale les noyaux composés d'un nombre pair de protons et de neutrons ;
+* Spin 1 2 : 75 % des isotopes stables .
+Il n'est pas toujours facile de déduire
+le spin d'une particule à partir de principes simples ;
+par exemple, même s'il est connu que le proton a un spin 1/2, la question de savoir comment les particules élémentaires qui le composent sont disposées et arrangées est toujours un sujet actif de recherche (voir structure de Spin des nucléons).
+Comme le montre le théorème spin-statistique,
+la valeur entière ou demi-entière du spin détermine une propriété cruciale de la particule :
+* si son spin est entier, elle suit la statistique de Bose-Einstein, et c'est un boson,
+* si son spin est demi-entier, en raison du principe d'exclusion de Pauli, elle suit la statistique de Fermi-Dirac, et c'est un fermion.
+Aux hautes températures, ces statistiques tendent toutes les deux vers la statistique de Maxwell-Boltzmann.
+Aux basses températures, la différence explique que seuls les bosons puissent former un condensat de Bose-Einstein.
+Spin 1 2 comme l'électron
+: il existe seulement deux états de spin distincts, caractérisés par m_s = \pm 1/2.
+On note souvent les deux états propres correspondants : |+\rangle et |-\rangle, ou encore : |\uparrow\rangle et |\downarrow\rangle.
+Pauli a introduit trois matrices 2 × 2, notées \hat_i, \ i = x,y,z telles que l'opérateur de spin s'écrive :
+\hat_i \ = \ \frac \
+\hat_i
+Ces trois matrices de Pauli s'écrivent explicitement :
+:\hat_x \
+\ \begin 0 & 1 \\ 1 & 0 \end ;
+\quad \hat_y \
+\ \begin 0 & - \ i \\ i & 0 \end ;
+\quad \hat_z \ = \ \begin 1 & 0 \\ 0 &
+- \ 1 \end
+Elles satisfont les relations de commutation :
+: \left \, \hat_i \, , \ \hat_j \, \right \ = \
+2 \ i
+\ \epsilon_
+\ \hat_k
+Il a été remarqué qu'il s'agit là des relations entre quaternions découvertes par William Rowan Hamilton, ce qui donne une représentation plus compacte des opérateurs de spin.
+Orientation du spin
+Composantes du spin et multiplicité de spin
+En mécanique classique, le moment angulaire d'une particule possède non seulement une magnitude , mais également une direction .
+En mécanique quantique, le moment angulaire de spin (spin) contient également ces informations, mais dans une forme plus subtile.
+La mécanique quantique montre en effet, par l'intermédiaire des équations (1) et (2) ci-dessus (voir #
+Le moment cinétique de spin), que si l'état du moment angulaire de spin est l'un des états propres de \hat S^2, la composante du spin mesurée selon une direction quelconque, c'est-à-dire sa projection sur un axe quelconque (par exemple l'axe z), ne peut prendre que les valeurs quantifiées suivantes :
+S_z
+\lang s,m_s\vert\hat S_z\vert s,m_s\rang
+m_s\hbar
+\qquad m_s =
+s, - s + 1, \cdots, s - 1,
+où s est le nombre quantique de spin de la particule.
+On peut constater qu'il existe 2s+1 valeurs possibles de m_s.
+Le nombre 2s+1 est appelé la multiplicité de spin.
+Par exemple, il n'y a que deux valeurs possibles pour une particule de spin 1 2 ou -1/2.
+Cela correspond à deux états quantiques, notés symboliquement \vert \uparrow \rangle et \vert \downarrow \rangle, pour lesquels la projection du spin pointe respectivement dans la direction +z ou -z.
+La valeur de la projection dans les autres directions de l'espace, x ou y par exemple, est par contre indéterminée, du fait des relations de non-commutation (ou d'« incertitude ») entre les trois composantes du spin.
+En d'autres termes, si on ne s'intéresse qu'à un spin individuel, il n'est pas possible de déterminer avec précision sa direction dans l'espace .
+Représentation géométrique du spin
+par une sphère de Riemann
+Un état quantique quelconque d'une particule isolée de spin s=1/2 peut s'exprimer sous la forme générale :
+: |\nearrow\rangle = a |\uparrow\rangle + b |\downarrow \rangle
+où a et b sont deux nombres complexes.
+Cette formule exprime une superposition des deux états propres.
+Penrose montre que l'état de spin 1 a.
+Si cette valeur est projetée sur une sphère de Riemann, qui permet de représenter l'ensemble des nombres complexes, il est possible d'établir une correspondance entre un état de spin et une direction dans l'espace ordinaire.
+Selon cette représentation, tout état quantique |\nearrow\rangle d'un spin s=1/2 correspond à un point sur la sphère dont la projection stéréographique sur le plan complexe (le plan équatorial de la sphère) est ce rapport u.
+Ce point définit un vecteur correspondant à l'orientation de la polarisation d'un ensemble de spins placés dans le même état |\nearrow\rangle (voir #
+Signification physique du vecteur d'orientation du spin).
+Représentation sur une sphère de Bloch
+Une autre représentation est possible, celle de la sphère de Bloch.
+Dans cette représentation, les coefficients et sont définis en utilisant des coordonnées angulaires sphériques :
+a=\cos e^
+Le vecteur représentant l'état \vert \nearrow \rangle est alors représenté comme sur la figure ci-contre.
+Cette représentation est bien entendu parfaitement équivalente à la représentation précédente sur une sphère de Riemann, pour laquelle le rapport u vaut :
+Signification physique du vecteur d'orientation du spin
+Les représentations précédentes n'indiquent pas explicitement la direction proprement dite du spin (laquelle est indéterminée, comme il a été dit plus haut), mais plus exactement la direction moyenne d'un spin préparé expérimentalement dans un état particulier |\nearrow\rangle, sur lequel un grand nombre de mesures seraient réalisées, ou bien encore peut représenter celle d'un ensemble statistiquement significatif de particules placées dans le même état, sur lequel un nombre réduit de mesures (voire une seule) seraient faites.
+Ces deux types de protocoles de mesures donnent le même résultat, d'après le principe ergodique de Gibbs.
+Pour un système préparé dans un état quantique de spin quelconque, il n'est possible de décrire les trois projections d'un moment angulaire spin sur trois axes orthogonaux que par des valeurs moyennes:
+\lang S_i \rang
+\langle\nearrow|\hat S_i|\nearrow\rangle \qquad i
+x,y,z
+Le vecteur \vec S défini par les trois projections \big ( \langle S_x\rangle,\langle S_y\rangle, \langle S_z\rangle
+\big)
+décrit une « direction » vers laquelle pointe la direction moyenne du moment angulaire du spin, et qu'il est judicieux d'appeler polarisation.
+C'est exactement l'orientation de ce vecteur qui a été représentée précédemment sur la sphère de Riemann ou de Bloch.
+Il s'avère que ce vecteur de polarisation du spin a une signification physique pratique, notamment en spectroscopie de résonance magnétique nucléaire (RMN).
+Dans cette technique, les spins des protons (ou de tout autre noyau atomique possédant un spin non nul) peuvent être préparés dans n'importe quel état donné.
+Par exemple, si le système de spin est placé dans un champ magnétique homogène, la polarisation moyenne à l'équilibre thermodynamique correspond à l'état |\uparrow\rangle.
+L'application d'impulsions radiofréquence choisies permet ensuite de polariser les spins dans n'importe quelle autre direction de l'espace.
+On trouve aussi des valeurs moitié pour le proton et le neutron qui correspondraient à un moment magnétique anomal.
+Magnéton de Bohr
+Pour l'électron, on a les valeurs suivantes : s
+1/2 et g
+2,002 ;
+on introduit alors le « quantum magnétique » suivant, appelé magnéton de Bohr :\mu_ = \frac
+Moment magnétique anomal de l'électron
+L'équation de Dirac prédit pour l'électron un facteur de Landé exactement égal à : g=2.
+Or, la valeur expérimentale admise en 2005 vaut :
+Il existe donc un écart, décelé pour la première fois en 1947 dans la structure hyperfine de l'hydrogène et du deutérium : on parle alors du moment magnétique anomal de l'électron.
+La théorie quantique des champs du modèle standard permet de rendre compte de cette anomalie avec une très grande précision.
+Spin et représentation de groupes
+L'analyse du comportement des objets sous l'effet des rotations nécessite de prendre en compte la structure mathématique de groupe formé par celles-ci.
+À un objet se transformant sous les rotations est alors associée une représentation de groupe.
+Deux objets ayant des propriétés de symétrie similaires seront donc associés à des représentations équivalentes du groupe des rotations.
+De ce point de vue, le spin n'est rien d'autre
+qu'un nombre qui permet de classifier les différentes représentations irréductibles non équivalentes du groupe des rotations.
+Le spin dans l'art
+Références
+Voir aussi
+Bibliographie
+* Wolfgang Pauli ;
+Zeitschrift fur Physik 31 (1925) 373.
+* George E. Uhlenbeck et Samuel Goudsmit ;
+Naturwissenschaften 13 (1925) 953.
+* Samuel Goudsmit et George E. Uhlenbeck
+Nature 117 (1926) 264.
+* Sin
+Itiro Tomonaga ;
+The story of spin, The university of Chicago press (1997), .
+Traduction anglaise d'un ouvrage paru en japonais en 1974.
+* Marc Knecht ;
+The anomalous magnetic moments of the electron and the muon, séminaire Poincaré (Paris, 12 octobre 2002), publié dans : Bertrand Duplantier et Vincent Rivasseau (Eds.
+) ;
+Poincaré Seminar 2002, Progress in Mathematical Physics 30, Birkhäuser (2003), .
+Liens externes
+* http:/
+#spin
+Animation, applications et recherches liées au spin
+Articles connexes
+1c52j41nwub0w8c1iketqlgapa5ay26

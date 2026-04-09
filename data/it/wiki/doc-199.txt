@@ -1,0 +1,118 @@
+In fisica, la legge di Ohm, il cui nome è dovuto al fisico tedesco Georg Simon Ohm, esprime la legge costitutiva di proporzionalità diretta tra la differenza di potenziale elettrico applicata ai capi di un conduttore e l'intensità della corrente elettrica che lo attraversa.
+La costante di proporzionalità è detta resistenza elettrica.
+Un'altra relazione, detta anche impropriamente seconda legge di Ohm, permette di calcolare la resistenza di un materiale a partire da resistività, lunghezza e sezione.
+Descrizione
+Prima legge di Ohm
+Denotando con V la differenza di potenziale elettrico ai capi di un conduttore elettrico e con I l'intensità di corrente elettrica che lo attraversa, la legge di Ohm ha la formula:
+I = \frac
+Formule inverse:
+R = \frac
+V = R I
+dove R è la resistenza elettrica caratteristica del conduttore.
+Si tratta di una costante, indipendente dall'entità della corrente.
+Tuttavia questa appena espressa può essere identificata come la legge di Ohm solo se la si vuole esprimere in maniera generale, limitandosi ai materiali conduttori piuttosto che ai dispositivi conduttori.
+Essa infatti è semplicemente la definizione di resistenza e si applica a tutti i dispositivi conduttori, che essi obbediscano alla legge di Ohm oppure no.
+Seconda legge di Ohm
+La resistenza dipende da alcune caratteristiche fisiche e geometriche del conduttore, come la resistività \rho, la lunghezza l e la sezione S. L'esempio più semplice è quello in cui il conduttore è composto di un solo materiale, ha sezione uniforme e il flusso di corrente al suo interno è anch'esso uniforme.
+In questo caso, la resistività è legata a R dalla relazione:
+R = \rho \frac
+Terza legge di Ohm
+La corrente è composta da un moto ordinato di elettroni, guidati da un campo elettrico, che possiedono una certa energia cinetica.
+Quando il flusso di cariche attraversa un resistore l'energia cinetica posseduta dalle cariche viene ceduta, in parte o totalmente, al materiale.
+Questo fenomeno è detto effetto Joule, e la potenza trasferita al materiale è data da:
+\cdot I
+R \cdot I^2
+Essa risulta proporzionale al quadrato della corrente elettrica, e provoca il riscaldamento più o meno consistente del conduttore.
+Conoscendo la capacità termica e la resistenza termica del materiale si può stabilire il conseguente aumento della temperatura.
+A livello locale, la relazione di Ohm assume la forma:
+J = \sigma E
+valida nei punti del dominio in cui il campo elettrico E, la densità di corrente J e la conducibilità elettrica \sigma sono funzioni continue (nei punti di discontinuità si può soltanto formulare la legge a livello globale).
+L'utilizzo della densità di corrente fornisce la potenza dP dissipata per effetto Joule nell'unità di volume:
+d P = J \cdot E
+La legge di Ohm è valida per tutti i materiali conduttori.
+In particolare, gli elementi elettrici che sfruttano la legge di Ohm sono detti resistori (o resistenze) ideali o ohmici.
+Moto degli elettroni
+Solitamente si utilizza un modello microscopico secondo cui gli elettroni sono diffusi nel conduttore elettrico come se fossero un gas.
+Essi si muovono liberamente, e quando viene applicato un campo subiscono un ulteriore moto collettivo ordinato.
+La velocità v di tale moto collettivo, detta velocità di deriva, è vari ordini di grandezza minore della velocità di agitazione termica dei singoli elettroni, ed è legata alla densità di corrente dall'equazione:
+\operatorname d I=nq v \operatorname d S
+dove n è il numero di portatori di carica per unità di volume, S è l'area della sezione del conduttore e q è la carica di ciascun portatore di carica (elettrone).
+Scrivendo la corrente elettrica come il flusso costante di carica elettrica attraverso la sezione S di conduttore della sua densità di corrente \mathbf J, si ha:
+\int_S \mathbf \cdot \operatorname \mathbf
+\int_S \sigma \mathbf \cdot \operatorname \mathbf
+dove \sigma è la conduttività elettrica e \mathbf A il vettore area della sezione S.
+Se si considera un caso particolarmente semplice, in cui si suppone \sigma costante, \mathbf perpendicolare a S e di modulo uniforme, si ottiene:
+\sigma |\mathbf\int_S \operatorname |\mathbf|
+\sigma |\mathbf| S
+Detta d la lunghezza del conduttore, si può sfruttare il fatto che V = d |\mathbf|, per cui:
+\sigma |\mathbf| S
+\sigma \frac
+In questo modo si può definire la conduttanza elettrica G come:
+\frac
+\sigma \frac
+e la resistenza R come l'inverso della conduttanza:
+\frac
+\frac = \rho \frac
+dove \rho = 1 / \sigma è la resistività elettrica.
+Corrente alternata
+La legge di Ohm può essere applicata al caso di corrente alternata, cioè un campo elettrico variabile nel tempo con un andamento sinusoidale.
+Per i circuiti in corrente alternata tensione e corrente sono date da:
+\mathbf
+V_0 \sin (\omega t + \phi) \qquad \mathbf
+I_0
+\sin (\omega t + \phi)
+dove V_0 e I_0 sono le ampiezze, \omega è la pulsazione e \phi la fase.
+Quando tensione e corrente sono funzioni del tempo, come in questo caso, si deve tenere conto degli effetti capacitivi ed induttivi del materiale o del circuito, e per descrivere l'energia scambiata con il materiale si ricorre all'utilizzo di un numero complesso \mathbf Z, detto impedenza, tale che si abbia:
+\mathbf V = \mathbf Z \cdot \mathbf
+dove le quantità in gioco sono scalari in \C.
+L'impedenza può allora essere scritta come:
+\mathbf
+R + iX
+Z_0 e^
+Z_0 \cos (\arg ( \mathbf Z)) + i Z_0 \sin (\arg ( \mathbf Z)) \qquad
+Z_0
+| \mathbf Z |
+e la sua parte reale R è la resistenza, mentre la parte immaginaria X è detta reattanza:
+Z_0 \cos (\arg (\mathbf Z)) \qquad
+Z_0 \sin (\arg (\mathbf Z))
+L'argomento \arg (\mathbf Z) quantifica lo sfasamento tra campo elettrico e corrente:
+\arg (\mathbf Z)
+\tan^\left (\frac X R \right) \qquad
+Z_0
+\sqrt
+La reattanza tiene conto dei fenomeni di accumulo di energia elettromagnetica all'interno del materiale, che non si verificano in regime stazionario.
+La legge di Ohm estesa al caso non stazionario descrive quindi il comportamento di un componente circuitale passivo che, oltre a ostacolare il passaggio di corrente, provoca uno sfasamento tra corrente e tensione (nel caso stazionario non vi è sfasamento e l'equazione di Ohm contiene solo numeri reali).
+I componenti circuitali passivi fondamentali sono, oltre alla resistenza, la capacità C e l'induttanza L.
+La capacità sfasa la corrente di - \pi 2.
+Denotando con il pedice la rispettiva impedenza, essa vale:
+\mathbf_R
+R \qquad \mathbf_L
+j \omega L \qquad \mathbf_C =
+\frac
+e la legge di Ohm - applicata rispettivamente a resistenza, induttanza e capacità - ha la forma:
+\mathbf_R
+R \;
+\mathbf \qquad \mathbf_L
+j \omega L \;
+\mathbf I \qquad \mathbf_C = \frac \;
+\mathbf
+Per i circuiti in corrente alternata si utilizza spesso questo tipo di formalismo.
+Anche altre leggi, come i teoremi di Norton, Thévenin e Millman, hanno analoghe forme per circuiti in corrente alternata.
+Note
+Bibliografia
+* Tipler, Paul (1998).
+Physics for Scientists and Engineers:
+Vol.
+2: Electricity and Magnetism, Light (4th ed.).
+W. H. Freeman.
+ISBN 1-57259-492-6
+* Serway, Raymond;
+Jewett, John (2003).
+Physics for Scientists and Engineers (6 ed.).
+Brooks Cole.
+ISBN 0-534-40842-7
+* Saslow, Wayne M. (2002).
+Electricity, Magnetism, and Light.
+Thomson Learning.
+ISBN 0-12-619455-6.
+See , and especially pp. 255-259 for coefficients of potential.

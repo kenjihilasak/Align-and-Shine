@@ -1,0 +1,93 @@
+Una pirámide es un poliedro, que es un conjunto formado por un polígono (llamado base) y triángulos que tienen su base en cada lado poligonal; todos los triángulos tienen un vértice común llamado vértice de la pirámide.
+Los triángulos se llaman caras laterales.
+El lado común a dos caras laterales se llama arista, del mismo modo que cualquier lado de la base.
+El número total de las aristas es doble del número de lados de la base.
+Estrictamente, el poliedro tiene n+1 vértices donde n es el número de vértices de la base.
+El ápice o punta también es llamado vértice de la pirámide, aunque una pirámide tiene más vértices, tantos como el número de polígonos que lo limitan.
+Definición
+Se llama pirámide a un cuerpo geométrico que es la unión de todos los segmentos que unen todos los puntos de un polígono S con un punto P exterior al plano del polígono.
+Se considera que el polígono es una parte del plano y es un conjunto bidimensional.
+Elementos
+* Base: es el polígono cuyos puntos son los extremos de los segmentos que se unen con el punto exterior.
+* Vértice de la pirámide: es el punto exterior al plano de la base.
+*Arista lateral: es el segmento que une cada vértice del polígono con el vértice de la figura del espacio.
+* Altura: es el segmento perpendicular del vértice de la pirámide al plano de la base.
+También lo es su medida.
+* Cada lado de la base con el vértice de la pirámide al unirlos por sus extremos determina una región triangular, llamada cara lateral
+* Apotema: es un segmento perpendicular del vértice de la pirámide a un lado de la base.
+Tipos de pirámides
+Una pirámide recta es un tipo de pirámide en la que la proyección ortogonal del ápice sobre la base coincide con su centroide.
+Una pirámide oblicua es una pirámide que no es recta.
+Si la base de una pirámide oblicua es un polígono regular, es posible que no todas sus caras laterales sean triángulos isósceles.
+Es decir, alguna de sus caras laterales no es un triángulo isósceles
+Una pirámide regular es una pirámide recta cuya base es un polígono regular.
+En este tipo de pirámides cada cara lateral es un triángulo isósceles igual a los demás, su altura se llama apotema de la pirámide.
+Una pirámide convexa tiene como base un polígono convexo.
+Una pirámide cóncava tiene como base un polígono cóncavo.
+Existen tres tipos de pirámides cuyas caras son triángulos equiláteros, con bases de 3, 4 y 5 lados respectivamente.
+Un tetraedro regular es una pirámide cuyas caras (base y caras laterales) son triángulos equiláteros.
+Área
+Área de un polígono regular
+El área de un polígono regular puede calcularse en función de la longitud de cada lado y su número de lados.
+Un polígono regular de n lados puede dividirse en n triángulos isósceles (equiláteros en el caso del hexágono regular) cuyas bases son los lados del polígono regular.
+La altura de cada uno de estos triángulos es un apotema del polígono regular y divide cada uno de los triángulos isósceles en dos triángulos rectángulos, dividiendo así el polígono en 2n triángulos rectángulos.
+El área del polígono regular (Ab) es igual a la suma de las áreas de los triángulos rectángulos (At):
+Donde a es el apotema del polígono regular.
+Para calcular la longitud del apotema se aplica la trigonometría.
+Aparte: Calculemos la apotema a, donde α es el ángulo del vértice del triángulo rectángulo que coincide con el centro del polígono regular.
+Ahora reemplazando el valor de la apotema a en el área del polígono regular (Ab) tenemos:
+El valor del ángulo α resulta de dividir el ángulo completo (2π) por el número de triángulos rectángulos (2n), luego \alpha
+2 \pi
+Área lateral de una pirámide
+El área lateral de una pirámide es la suma de las áreas de las caras laterales.
+En una pirámide regular, las caras laterales son triángulos isósceles.
+El área de cada cara es el semiproducto de su base (que es igual al lado de la base de la pirámide l ), por su altura (que es el apotema de la pirámide ap ).
+El área lateral de una pirámide regular resulta de multiplicar el área de una de sus caras laterales por el número de caras laterales.
+Donde ap es el apotema de la pirámide y p es el perímetro de la base.
+Altura de la pirámide: h = a.
+Apotema de la base: ab = b.
+Apotema de la pirámide: ap = c.
+La apotema de la pirámide (ap) puede calcularse a partir de la apotema de la base (ab) y de la altura de la pirámide (h) aplicando el teorema de Pitágoras.
+Área total de una pirámide
+El área total de la pirámide es la suma del área de la base y el área lateral.
+En el caso de una pirámide regular, sustituyendo el área de la base y el área lateral en la ecuación , se obtiene:
+Volumen
+El volumen de una pirámide puede obtenerse mediante cálculo diferencial.
+El área de un plano de corte transversal es directamente proporcional al área de la base (Ab) y al cuadrado de la distancia del plano de corte respecto al vértice de la pirámide.
+Esta distancia (d) es la diferencia entre la altura de la pirámide (h) y altura del plano de corte (z).
+Por lo tanto, el área de un plano de corte transversal situado a una altura z por encima de la base es
+El volumen de una pirámide se puede hallar conociendo el área de su base y su altura, independientemente de la forma de la base y de la posición del ápice en un plano paralelo a la base.
+Esta fórmula también es válida para el cono, ya que no depende de la forma de la base, sino de su área.
+Volumen de una pirámide regular
+El volumen de una pirámide cuya base es un polígono regular puede calcularse a partir del lado del polígono regular que define su base y la altura de la pirámide.
+Sustituyendo el área de la base Ab en la ecuación del volumen de la pirámide se obtiene:
+Como un polígono regular es inscriptible, puede usarse el radio r de la circunferencia circunscrita, el ángulo α interior del polígono, la altura h y el número n de lados, y calcular, con dichos datos, el volumen sujeto a la siguiente fórmula:
+V = \frach r^2 sen2\alpha
+Centroide, centro de masas y centro de gravedad
+El centroide o baricentro de un tetraedro regular está situado en su altura.
+El punto donde se cortan las cuatro posibles alturas, se encuentra a una distancia de la base igual a: \frac \cdot h
+Coincide con el centro de masas de un tetraedro regular de densidad uniforme.
+También coincide con el centro de gravedad de un tetraedro regular de densidad uniforme y campo gravitacional uniforme.
+El centro de gravedad de una pirámide de densidad y campo uniforme está situado a una distancia de la base igual a un cuarto de su altura.
+Pirámide homotética de volumen la mitad
+Dada una pirámide recta de altura h, la pirámide homotética cuyo volumen es la mitad tendrá una altura h:
+::: h' = h \cdot \sqrt3
+;Demostración
+El plano paralelo a la base, situado a dicha distancia de la cúspide, cortará a la pirámide en dos partes de igual volumen.
+Buscamos la razón de la homotecia: el coeficiente por el que tenemos que multiplicar los lados de la base y la altura, para obtener las dimensiones de la pirámide homotética cuyo volumen mide la mitad del total.
+:Si el volumen total de la pirámide es:
+::: V = \frac
+:La pirámide cuyo volumen es la mitad, tendrá:
+::: V' = \frac
+:siendo x la razón de la homotecia, el coeficiente de proporcionalidad.
+:Como
+::: V' = \frac \cdot V
+:deducimos
+::: \frac = \frac \cdot \frac
+:simplificando
+::: x^3 \cdot a \cdot b \cdot h = \frac \cdot a \cdot b \cdot h
+::: x^3 = \frac
+::: x = \sqrt3
+: La razón de la homotecia es 0,79370053 aproximadamente.
+Véase también
+* Bipirámide (unión de dos pirámides por sus bases)

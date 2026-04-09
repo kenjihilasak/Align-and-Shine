@@ -1,0 +1,59 @@
+Système d'équations
+Un système d'équations est un ensemble d'équations relative à un même problème où il y a plusieurs inconnues.
+Il existe plusieurs méthodes pour résoudre un système d'équations.
+Résoudre un système d’équations signifie trouver l’ensemble des groupes de variables qui satisfont chaque équation du système.
+En effet, une seule équation peut très bien accepter pour solutions plusieurs groupes de variables (et même une infinité !) mais, pour qu’un groupe de variable soit solution du système entier, il faut également qu’il convienne à toutes les autres équations du système, ce qui est plus restrictif.
+Les systèmes d'équations ont aussi une interprétation géométrique.
+Les équations de droites possèdent deux variables.
+En recherchant l'intersection entre les droites d'un plan, les solutions du système d'équations représentent ce point d'intersection.
+En analyse, les systèmes d'équations interviennent lorsqu'on cherche à écrire une expression mathématique sous une autre forme pour pouvoir faire une étude mathématique plus simplement.
+Par exemple, trouver un horaire de rencontre commun entre plusieurs amis consiste en fait à résoudre un système d’inéquations !
+Les horaires de passage des trains, eux, sont établis par des supercalculateurs qui tentent de résoudre numériquement d’énormes systèmes d’équations à de très nombreuses inconnues ;
+l’enjeu est très important, puisqu’une erreur de calcul pourrait entraîner un accident de train…
+La méthode dite de substitution consiste à calculer une inconnue en utilisant les informations données par une des équations.
+Par exemple on a:
+On peut donc trouver x car on nous donne la valeur de y dans la deuxième équations:
+On remplace donc le y de la première équation par 2x−5{\displaystyle 2x-5} ce qui nous donne:
+Il ne reste plus qu'a résoudre l'équation: 3x+4x−10=4{\displaystyle 3x+4x-10=4}
+On met sous forme de fraction:
+x=147{\displaystyle x={\frac {14}{7}}}
+On simplifie:
+x=2{\displaystyle x=2}
+On remplace alors x par 2 dans la deuxième équation on a donc: 3x2+2y=4{\displaystyle 3x2+2y=4}
+Il ne reste plus qu'a résoudre l'équation:
+6+2y=4{\displaystyle 6+2y=4}
+On soustraie alors 6 à 4: 2y=−2{\displaystyle 2y=-2}
+On met sous forme de fraction:
+On simplifie: y=−1{\displaystyle y=-1}
+Il ne reste plus qu'a vérifié les équations.
+Pour la première: 3x2+2x(−1)=4{\displaystyle 3x2+2x(-1)=4}
+Pour la deuxième: −2x2+(−1)=−5{\displaystyle -2x2+(-1)=-5}
+L’autre méthode « habituelle » est la résolution par combinaison qui consiste à obtenir par exemple le même nombre de x ou de y dans toutes les équations du système.
+Reprenons notre système d'équations de deux équations à deux inconnues :
+On remarque que si l'on multiple la deuxième équation par deux on obtient le même nombre de y dans les deux équations:
+On fait "disparaître les y: (3x+2y)+(4x+2y)=14{\displaystyle (3x+2y)+(4x+2y)=14}
+Ce qui donne: 3x+4x=7x{\displaystyle 3x+4x=7x}
+On met sous forme de fraction:
+147=2{\displaystyle {\frac {14}{7}}=2}
+On remplace x par 2 dans l'équation n°1 et on résout la première équation comme avec l'autre méthode.
+En voici un autre exemple :
+On a remplacé l’équation n°2 par l’équation (n°1 - n°2), c’est
+-à-dire (2x+7y)−(2x+6y)=4−6{\displaystyle (2x+7y)-(2x+6y)=4-6}, ce qui se simplifie en la nouvelle équation n°3 : y=−2{\displaystyle y=-2}, et l’on a déjà trouvé la valeur d’une première inconnue.
+On peut alors remplacer y{\displaystyle y} par −2{\displaystyle -2} dans l’équation n°1 (c’est le plus simple et rapide), ce qui donne 2x−14=4{\displaystyle 2x-14=4}, soit 2x=18{\displaystyle 2x=18}, soit x=9{\displaystyle x=9} ;
+ou continuer par combinaisons, juste pour l’exemple :
+et la résolution se termine comme pour des équations « solitaires », à une seule inconnue :
+On parle d’un système à n{\displaystyle n} équations pour dire que l’on se moque du nombre d’équations, qui peut valoir 1, 2, 3, etc. : ce que l’on dit à propos est valable quelle que soit la valeur de n.
+La résolution d'un système d'équations passe souvent par l'isolement de chacune des variables dans un membre d’une des équations du système : on essaie d'exprimer une des variables en fonction des autres, puis on remplace cette variable dans les autres équations du système par son expression.
+Plus il y a d’équations ou d’inconnues, plus c’est long.
+Cette méthode porte le nom de méthode de résolution par substitution (parce que l’on substitue les variables les unes aux autres).
+L’autre méthode « habituelle » est la résolution par combinaison (où l’on combine les différentes équations d’un même système pour faire disparaître des variables).
+Elle est plus rapide que la résolution par substitutions, mais elle ne fonctionne pas toujours : il peut être nécessaire de revenir aux substitutions pour avancer.
+Il existe des méthodes algébriques bien plus rapides pour résoudre des systèmes de n’importe quelle taille ;
+par exemple, la règle de Cramer, qui permet de résoudre des systèmes d’équations à deux ou trois inconnues si facilement qu’on peut le faire de tête.
+Cette règle repose sur des notions de mathématiques enseignées au-delà du niveau du bac (matrices), aussi ne sont-elles pas développées ici ;
+la méthode peut cependant toujours être utile, pour vérifier un calcul par exemple.
+Il existe des méthodes au moins aussi rapides qui fonctionnent avec n’importe quel système de n équations à n inconnues, comme celle du « pivot de Gauss » .
+Les ordinateurs utilisent le pivot de Gauss ou l’algorithme de Strassen pour résoudre des systèmes comportant des milliers d’équations !
+Il est possible d'associer des inéquations reliant plusieurs variables ;
+la plupart du temps, cela délimite des portions du plan (tandis que les systèmes d'égalité délimitent généralement des points).
+La résolution du système utilise les mêmes techniques que pour les systèmes d'équations.

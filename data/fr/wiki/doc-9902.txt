@@ -1,0 +1,61 @@
+Instrument de mesure électrique
+Le voltmètre est un appareil qui permet de mesurer la tension (ou différence de potentiel électrique) entre deux points, grandeur dont l'unité de mesure est le volt (V).
+La grande majorité des appareils de mesure actuels est construite autour d'un voltmètre numérique, la grandeur physique à mesurer étant convertie en tension à l'aide d'un capteur approprié.
+C'est le cas du multimètre numérique qui, en plus d'offrir la fonction voltmètre, comporte au moins un convertisseur courant tension permettant de le faire fonctionner en ampèremètre et un générateur de courant constant pour fonctionner en ohmmètre.
+Les différents types de voltmètre
+Voltmètres analogiques
+Ils sont en voie de disparition, bien qu'encore utilisés comme indicateurs rapides de l'ordre de grandeur ou de la variation de la tension mesurée.
+Ils sont généralement constitués d'un milliampèremètre en série avec une résistance élevée.
+Toutefois cette résistance, de l'ordre de quelques kΩ, est nettement inférieure à la résistance interne des voltmètres numériques, habituellement égale à .
+Pour cette raison, les voltmètres analogiques introduisent une perturbation plus importante dans les circuits dans lesquels ils sont introduits que les voltmètres numériques.
+Pour limiter cette perturbation, on est allé jusqu'à utiliser des galvanomètres d'une sensibilité de pour la pleine échelle sur des contrôleurs universels (combinaison voltmètre-microampèremètre-ohmmètre-capacimètre) de haut de gamme.
+Voltmètres magnétoélectriques
+Un voltmètre magnétoélectrique est constitué d'un galvanomètre, donc un milliampèremètre magnétoélectrique très sensible, en série avec une résistance additionnelle de valeur élevée (de quelques kΩ à quelques centaines de kΩ).
+On réalise un voltmètre à plusieurs calibres de mesure en changeant la valeur de la résistance additionnelle.
+Pour les mesures en courant alternatif, un pont redresseur à diodes est intercalé mais ce procédé ne permet de mesurer que des tensions sinusoïdales.
+Ils ont toutefois un certain nombre d'avantages : ils ne nécessitent pas de pile pour fonctionner.
+Par ailleurs, à prix équivalent, leur bande passante est beaucoup plus large, autorisant ainsi des mesures en AC sur plusieurs centaines de kilohertz là où un modèle numérique standard se cantonne à quelques centaines de hertz.
+C'est pour cette raison qu'ils sont encore très utilisés en test sur du matériel électronique fonctionnant à des fréquences élevées (HI-FI)
+Voltmètres ferroélectriques
+Un voltmètre ferroélectrique est constitué d'un milliampèremètre ferroélectrique en série avec une résistance additionnelle de valeur élevée (de quelques centaines d'Ω à quelques centaines de kΩ).
+Comme les ampèremètres du même type le font pour les courants, ils permettent de mesurer la valeur efficace de tensions de forme quelconque (mais de fréquence faible < 1 kHz).
+Voltmètres numériques
+Ils sont généralement constitués d'un convertisseur analogique-numérique double rampe, d'un système de traitement et d'un système d'affichage.
+Mesure des valeurs moyennes de tensions continues
+La tension à mesurer est appliquée à l'entrée du convertisseur analogique-numérique à travers une résistance dont la valeur dépend du calibre choisi, puis l'organe de traitement, tenant compte de ce calibre, permet d'afficher la valeur moyenne de cette tension.
+Mesure des valeurs efficaces des tensions alternatives
+Voltmètre « bas de gamme »
+Il n'est utilisable que pour la mesure des tensions sinusoïdales dans le domaine de fréquence des réseaux de distribution électrique.
+La tension à mesurer est redressée par un pont de diodes puis traitée comme une tension continue.
+Le voltmètre affiche ensuite une valeur égale à 1,11 fois la valeur moyenne de la tension redressée.
+Si la tension est sinusoïdale, le résultat affiché est la valeur efficace de la tension ;
+si elle ne l'est pas, il n'a aucun sens.
+Voltmètre « efficace vrai
+La majorité des appareils commercialisés effectuent cette mesure en trois étapes :
+# La tension est élevée au carré par un multiplieur analogique de précision.
+L'appareil réalise la conversion analogique-numérique de la moyenne du carré de la tension
+# La racine carrée de cette valeur est ensuite effectuée numériquement.
+Le multiplieur analogique de précision étant un composant coûteux, ces voltmètres sont trois à quatre fois plus chers que les précédents.
+La numérisation quasi totale du calcul permet de réduire le coût tout en améliorant la précision.
+D'autres méthodes de mesure sont également utilisées, par exemple :
+* Conversion analogique-numérique de la tension à mesurer,
+puis traitement entièrement numérique du calcul de la «
+racine carrée du carré moyen ».
+* Égalisation de l'effet thermique engendré par la tension variable et de celui engendré par une tension continue qui est ensuite mesurée.
+On distingue deux types de voltmètres
+« efficace vrai
+» :
+* TRMS (de l'anglais signifiant
+vraie moyenne
+racine
+carrée
+- Il mesure la véritable valeur efficace d'une tension variable.
+* RMS (de l'anglais signifiant
+« moyenne racine carrée »)
+- La valeur RMS est obtenue grâce à un filtrage qui élimine la composante continue (valeur moyenne) de la tension, et permet d'obtenir la valeur efficace de l'ondulation (valeur efficace RMS ou AC) de la tension.
+Historique
+Le premier voltmètre numérique a été conçu et construit par en 1953
+Résistance interne
+La mesure avec un voltmètre s'effectue en le branchant en parallèle sur la portion de circuit dont on désire connaître la différence de potentiel.
+Ainsi en théorie, pour que la présence de l'appareil ne modifie pas la répartition des potentiels et des courants au sein du circuit, aucun courant ne devrait circuler dans son capteur.
+Ce qui implique que la résistance interne dudit capteur soit infinie, ou du moins soit la plus grande possible par rapport à la résistance du circuit à mesurer.

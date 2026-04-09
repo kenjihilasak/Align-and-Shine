@@ -1,0 +1,79 @@
+Langage de programmation
+éducatif|Langage orienté objet|Langage fonctionnel|Environnement de développement intégré|Logiciel libre sous licence GPL|Logiciel pour Mac OS|Logiciel pour Linux|Logiciel
+pour Windows|Université de Californie à Berkeley
+Snap!
+est un langage de programmation graphique et multisystème, conçu pour l'apprentissage de l'informatique et des mathématiques auprès d'élèves et de débutants.
+En imbriquant et en associant des blocs d'instructions élémentaires paramétrés, les étudiants créent des histoires, des animations ou des jeux qui s'exécutent ensuite à l'intérieur de leur navigateur Web.
+Les programmes ainsi créés sont comparables à des organigrammes tout en étant directement exécutables, ce qui permet un gain de temps et de motivation pour les jeunes enfants.
+Les performances de ce langage permettent toutefois une utilisation avancée et l'étude de concepts de haut niveau et son adoption pour des cours universitaires.
+Snap!
+, développé par l'Université de Californie à Berkeley, est entièrement basé sur HTML5 et ne nécessite aucune installation de logiciel en local.
+C'est un logiciel libre sous licence AGPL.
+Historique
+BYOB (
+Build Your
+Own Blocks, « construisez vos propres blocs ») a été développé conjointement par Jens Mönig et Brian
+Harvey comme une extension de Scratch qui était utilisé à l'Université de Californie à Berkeley, pour un cours intitulé «
+The Beauty and Joy of Computing (la beauté et la joie de l'informatique) ».
+Selon Brian Harvey, Scratch pourtant dérivé de Logo, a le gros défaut de ne pas intégrer la notion de procédure, et donc de récursion, idée centrale en informatique et également centrale dès le départ dans l'enseignement par Logo.
+De plus, son support des structures de données est faible.
+BYOB, en s'inspirant de Scheme, lui-même inspiré de Logo, visait donc à compléter Scratch.
+Il s'installait par-dessus Scratch et lui apportait ce qui manquait cruellement, surtout bien sûr aux étudiants plus âgés de l'Université de Californie à Berkeley, mais pourquoi pas aux plus jeunes désireux de mieux appréhender les techniques de codage et les aborder de manière plus logique et efficace.
+Entre autres, les notions d’algorithmes et de structures de données peuvent être abordées directement et complètement avec BYOB et son successeur Snap!, sans que cela nuise à la convivialité nécessaire pour les plus jeunes enfants.
+Scratch souffre aussi d'un autre défaut, celui d'être basé sur le logiciel Adobe Flash, très controversé et qui n'est pas disponible sur toutes les plateformes et l'utilisation est la même, avec 39 langues disponibles.
+Elle existe toutefois en deux versions qui ne diffèrent que par le nombre d'instructions et fonctions de base.
+La http:/ snapsource init version étendue propose pour les utilisateurs avancés plus d'instructions et fonctions de base, qui peuvent certes être créées avec l'interface simplifiée, mais qui sont ainsi mises directement à disposition.
+Comme pour Scratch, il est possible d'enregistrer son projet sur le site (ici, ce sera bien sûr le serveur de l'Université de Californie à Berkeley) après avoir créé un compte.
+Chaque projet peut soit rester confidentiel, soit être ouvert à tous.
+Un projet peut aussi être exporté au format XML et enregistré localement sur le poste de l'utilisateur.
+Puisque Snap!
+ne nécessite aucune installation, il est possible de la voir et l'utiliser directement sur le site consacré à cet effet (voir les liens externes ou utiliser l'un de ceux des interfaces mentionnées ci-dessus).
+Fonctionnalités
+Les principales caractéristiques qui différencient Snap!
+de Scratch
+sont :
+* les expressions utilisant des fonctions imbriquées
+, se composant d'une ou plusieurs « fonctions anonymes », chacune étant représentée par un bloc ayant une ou plusieurs cases vides pour y insérer un paramètre, chacun des ces paramètres pouvant être lui-même une Fonction d'ordre supérieur.
+(Leur base en informatique théorique étant les fonctions de première classe, elles-mêmes
+basées sur le Lambda-calcul).
+* La programmation multi-paradigme qui permet à la fois la programmation fonctionnelle et procédurale ou impérative)
+* Les fonctionnalités décrites
+ci-dessus permettent d’écrire aisément et simplement des fonctions récursives
+* le transcodage de Snap!
+vers les langages couramment utilisés (C, javascript, python etc.)
+Cela apporte des particularités appréciées même des plus jeunes ou plus débutants, par exemple le fait de pouvoir scinder un lutin en plusieurs parties pour l'animer, comme on peut le voir sur dans le projet "hélicoptère" de l'Académie de Poitiers.
+Utilisations
+Comme pour tout langage de programmation, les utilisations sont innombrables.
+Toutefois, de par son interface intuitive et conviviale, disponible en de nombreuses langues, et sa conception multi-paradigme qui le rend aussi bien abordable aux jeunes enfants du primaire que puissant et éducatif pour des universitaires, Snap!
+vise principalement l'enseignement et la conception de prototypes.
+Jens Mônig de nombreux exemples dans ces deux domaines.
+Utilisation dans le cadre de la réforme du collège de 2015
+Snap! est tout à fait adapté à être utilisé dans ce cadre.
+Son interface intuitive et ludique permettent aux plus jeunes enfants d'aborder facilement les notions de base du codage informatique et le fait qu'il ait été conçu également pour des universitaires de haut niveau garantit que les notions acquises ne sont pas rendues inexactes par une simplification mal pensée.
+Un bon exemple en est la notion universelle de fonction mise en avant dans le nouveau programme de seconde en préparation.
+Snap! a été testé et apprécié par l'académie de Poitiers Selon les projets, il peut parfois y avoir quelques petites adaptations à faire, mais elles sont généralement minimes.
+Et c'est un excellent moyen d'apprendre à mettre au point un projet !
+Cette facilité permet d'évoluer facilement vers ce que certains n'hésitent pas à appeler un vrai langage, alors qu'ils considèrent Scratch comme un simple outil éducatif.
+La personnalité des auteurs de Snap!
+(Brian
+Harvey était un enseignant très attaché à transmettre ses connaissances et sa passion) fait qu'il n'a rien perdu de son caractère ludique et éducatif au passage.
+Du projet à l'exécutable
+Il est également possible de transformer le projet en un programme exécutable qui pourra fonctionner sur le système de son choix : Linux, Windows ou OSX.
+Comme on peut choisir de laisser le code visible, on peut donc retrouver une version hors ligne permettant de travailler sur son projet, tout en étant « jouable ».
+Manuel de référence
+Les auteurs ont pris le soin d'écrire un http:/ SnapManual.pdf manuel de référence de 109 pages permettant de se familiariser aussi bien avec la manipulation des blocs qu'avec les nouveaux concepts apportés par Snap!
+par rapport à Scratch.
+Il est disponible au format PDF sur le site de l'Université de Californie à Berkeley .
+Voir aussi
+Articles connexes
+Liens externes
+* https:/ jmoenig
+SnapManual.pdf
+Manuel de référence (anglais)
+* http:/ ManuelSnap.php
+Traduction du Manuel de référence (français)
+* http:/ snapsource init Interface de programmation Snap!
+* https:/ Snapin8r2
+Utilitaire en ligne de conversion de Snap!
+en exécutable
+Notes

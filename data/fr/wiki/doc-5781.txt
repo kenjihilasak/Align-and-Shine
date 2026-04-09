@@ -1,0 +1,99 @@
+Relation binaire
+En mathématiques, une relation binaire entre deux ensembles E et F (ou simplement relation entre E et F)
+est définie par un sous-ensemble du produit cartésien E × F, soit une collection de couples dont la première composante est dans E et la seconde dans F.
+Cette collection est désignée par le graphe de la relation.
+Les composantes d'un couple appartenant au graphe d'une relation R sont dits en relation par R.
+Une relation binaire est parfois appelée correspondance entre les deux ensembles.
+Par exemple, en géométrie plane, la relation d'incidence entre un point et une droite du plan « le point A est sur la droite d » est une relation binaire entre l'ensemble des points et l'ensemble des droites du plan.
+Les fonctions ou applications d'un ensemble E dans un ensemble F peuvent être vues comme des cas particuliers de relations binaires entre E et F.
+Lorsque F = E, l'ordre des deux composantes d'un couple a son importance.
+Par exemple, la relation «
+… est strictement inférieur à … », notée ) sont des relations complémentaires l'une de l'autre pour n'importe quel ordre total ≤ (comme l'ordre sur les réels) ;
+: « aime »
+et « n'aime pas »
+sont aussi complémentaires l'une de l'autre.
+La représentation de la relation complémentaire de R se déduit simplement de celle de R :
+* pour la représentation sagittale, en supprimant tous les liens déjà existants et ajoutant ceux qui n'existent pas encore (y compris ceux en sens opposés si c'est une composition interne et la représentation est un graphe orienté sur un seul ensemble, sinon en ajoutant ceux qui manquent dans le même sens entre les éléments des deux ensembles tracés séparément) ;
+* pour une représentation matricielle, en remplaçant par leur complément logique les valeurs booléennes de chacune des cellules de la matrice.
+Par construction, le complémentaire d'une relation binaire a les propriétés suivantes :
+* le complémentaire du complémentaire d'une relation R est la relation R elle-même ;
+* le complémentaire de la réciproque d'une relation R est la réciproque du complémentaire de R.
+De plus, une relation interne est :
+*symétrique si (et seulement si) sa relation complémentaire l'est ;
+*réflexive si et seulement si sa relation complémentaire est antiréflexive.
+Relation fonctionnelle
+Lorsque, pour tout élément x de E, x n'est en relation qu'avec 0 ou 1 élément y de F, on dit que la relation est fonctionnelle.
+C'est une façon élémentaire de définir la notion de fonction.
+En langage formel, la propriété précédente s'écrit :
+\forall x \in E\quad\forall y \in F\quad\forall z \in F\quad ( x , y ) \in \mathcal_ \land ( x , z ) \in \mathcal_
+\Rightarrow
+y = z )
+Exemple important :
+: La diagonale de E est définie par :
+: \Delta_E = \left\.
+: C'est le graphe de la relation d'égalité sur E, notée
+en l'absence d'ambiguïté sur l'ensemble concerné.
+: Cette relation est aussi une fonction, l'identité de E, notée idE.
+Relation sur (ou dans)
+un ensemble
+Dans le cas particulier
+où E
+= F, on dit que R est une relation binaire définie sur E ou dans E.
+Propriétés liées à la réflexivité
+Relation réflexive
+La relation \mathcal sur E est dite réflexive si tout élément de E est en relation avec lui-même, c'est-à-dire si :
+\forall x \in E\quad x \mathcal x.
+Relation irréflexive
+La relation \mathcal sur E est irréflexive ou antiréflexive si aucun élément de E n'est en relation avec lui-même, c'est-à-dire si :
+\forall x \in E\quad x \cancel x.
+Une relation peut n'être ni réflexive, ni antiréflexive.
+Propriétés liées à la symétrie
+Relation symétrique
+La relation \mathcal est symétrique si :
+\forall (x,y) \in E^, x \mathcal y\Rightarrow y \mathcal x.
+Relation antisymétrique
+La relation \mathcal est dite :
+*antisymétrique (ou faiblement antisymétrique)
+si :
+*asymétrique (ou fortement antisymétrique)
+si :ou encore, si elle est à la fois antisymétrique (au sens faible) et antiréflexive.
+Une relation peut n'être ni symétrique, ni antisymétrique.
+Transitivité
+La relation \mathcal sur E est transitive si, lorsqu'un premier élément de E est en relation avec un deuxième élément lui-même en relation avec un troisième, le premier élément est aussi en relation avec le troisième, c'est-à-dire si :
+\forall x,y,z\in E\quad (x \mathcal y\wedge y \mathcal z)\Rightarrow x\mathcal z,
+ou encore, si son graphe contient celui de sa composée avec elle-même, ce qui s'écrit :
+\mathcal_
+\subseteq \mathcal_.
+On appelle clôture transitive, ou fermeture transitive de \mathcal la relation
+\mathcal^=\bigcup_\mathcal^n.
+C'est la plus petite (au sens de l'inclusion des graphes)
+relation transitive contenant \mathcal.
+Relation totale
+La relation \mathcal sur E est totale si :
+\forall x,y\in E\quad x \mathcal y\vee y \mathcal x,
+ou encore, si l'union de son graphe avec celui de sa réciproque est égal au carré cartésien de E, ce qui s'écrit :
+\mathcal_ \cup \mathcal_ = E^2.
+On emploie le plus souvent ce qualificatif à propos des relations d'ordre.
+Toute relation totale est réflexive.
+Relation d'équivalence
+Une relation d'équivalence est une relation réflexive, transitive et symétrique.
+Relation d'ordre
+Une relation d'ordre est une relation réflexive, transitive et antisymétrique.
+Si une relation d'ordre est totale, on dit que c'est un ordre total.
+Dans les cas contraires, on dit que c'est seulement un ordre partiel.
+Relation de tournoi
+Un tournoi est une relation binaire totale et antisymétrique.
+Cette définition est à rapprocher (sans lui correspondre totalement) à celle de tournoi en théorie des graphes : un tournoi est un graphe vérifiant
+:\forall (x,y) \in E^2,x \neq y, (x,y)\in \mathcal A \Leftrightarrow (y,x) \notin
+\mathcal
+Un tournoi permet de modéliser les tournois en compétition sportive où chaque équipe joue contre toutes les autres sans match nul.
+Relation bien fondée
+Nombre de relations binaires sur des ensembles finis
+Considérons un ensemble E fini de cardinal n et un ensemble F fini de cardinal p.
+Il y a autant de relations binaires de E sur F que d'applications de E × F dans , ce qui donne 2 relations.
+En particulier, si E = F, on trouve 2 relations binaires sur E,
+dont
+* Pour le nombre de relations transitives, il n'y a toujours pas actuellement de formule « fermée ».
+Le nombre de relations d'équivalence est égal au nombre de partitions d'un ensemble, c'est-à-dire le nombre de Bell.
+La catégorie des relations binaires
+Les relations binaires et la composition des relations forment une catégorie que l'on appelle la et que l'on note Rel.

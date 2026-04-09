@@ -1,0 +1,88 @@
+Nombre premier
+En mathématiques, un nombre premier est un entier naturel qui admet exactement deux diviseurs : 1 et lui-même.
+Différentes définitions équivalentes sont données ci-dessous.
+sont :
+2, 3, 5, 7, 11, 13, 17 et 19,
+mais la liste est sans fin.
+Les nombres premiers sont en quantité infinie.
+Le produit de deux nombres A et B, c’est le résultat de la multiplication A ×
+Un nombre premier est un entier naturel qu'on ne peut pas écrire comme le produit de deux autres entiers naturels plus petits.
+Par exemple, 23 est un nombre premier, mais 21 n'est pas un nombre premier car on peut l’écrire comme le produit de 7 par 3 (3 × 7 = 21), qui sont strictement inférieurs à 21.
+Un nombre premier, c'est aussi un entier naturel qui admet 1 et lui-même comme seuls diviseurs.
+Les deux définitions sont équivalentes.
+Exemples :
+historiquement, le nombre 1 a été longtemps considéré comme un entier naturel premier, mais il ne l'est plus au sens strict car il n'admet qu'un seul diviseur (1) ;
+2 est un nombre premier car il n'est divisible que par 1 (2 ÷ 1 = 2) et par lui-même (2 ÷ 2 = 1) ;
+4 n'est pas un nombre premier car il admet 3 diviseurs : 1, 2 et 4 ;
+123 n'est pas un nombre premier, car il est divisible par 3.
+La division de 123 par 3 donne un quotient de 41, sans reste.
+En revanche, le nombre 41 est premier.
+Les nombres premiers étaient connus depuis l'Antiquité, et probablement avant.
+Parmi les textes mathématiques de la Grèce antique qui ont survécu, les Éléments d'Euclide fournissent la première étude connue des nombres premiers dans la civilisation grecque.
+Dans ce traité, Euclide démontre les résultats suivants :
+tout entier admet au moins un diviseur premier ;
+les nombres premiers sont en quantité infinie.
+Terence Tao en 2006
+Mais la recherche sur les nombres premiers a réellement avancé à partir du XVIIe siècle.
+Il fallait attendre le développement de l'analyse pour en obtenir d'importantes applications («
+théorie analytique des nombres »).
+L'une des plus importantes date du XIXe siècle : l'estimation du nombre de nombres premiers inférieurs à un entier suffisamment grand.
+Par « estimation », il ne faut pas comprendre un calcul exact (impossible pour l'heure) mais une étude de son comportement : on peut ainsi dire que, pour un nombre N très grand, le N-ième nombre premier sera à peu près aussi « grand » que N × lnN.
+En parallèle, l'algèbre se développe au XIXe siècle en Europe et ses applications à l'étude des nombres donnent lieu à la « théorie algébrique des nombres ».
+Malgré une recherche constante, les nombres premiers n'ont pas livré tous leurs secrets.
+Une suite arithmétique est une suite finie de nombres dont les différences successives sont égales.
+Par exemple, 3, 13 et 23 forment une suite arithmétique de nombres premiers.
+En 2004, Terence Tao démontra qu'il existe une infinité de suites arithmétiques dans la suite des nombres premiers.
+Il reçut la médaille Fields.
+Les trois propriétés suivantes expliquent pourquoi les nombres premiers sont importants en arithmétique :
+tout entier naturel sauf 1 est divisible par au moins un nombre premier ;
+il existe une infinité de nombres premiers ;
+il existe une seule manière de décomposer un nombre composé en un produit de nombres premiers.
+Cette opération est la décomposition en produit de facteurs premiers.
+D’autres propriétés peuvent être intéressantes :
+tout nombre premier est impair, sauf 2 ;
+Dans la suite1, (1 + 4 = 5), (5 + 4 = 9), (9 + 4 = 13), (13 + 4 = 17), (17 + 4 = 21), … , il existe une infinité de nombres premiers.
+En moyenne, un nombre premier sur deux apparait dans cette suite.
+Plus généralement, dans toute suite arithmétique partant de 1, il existe une infinité de nombres premiers, et on peut dire combien de nombres premiers apparaissent en moyenne dans cette suite.
+C'est le théorème de progression arithmétique de Dirichlet.
+Chaque propriété énoncée ci-dessus a été démontrée.
+Si un nombre est pair, il peut être divisé par 2 ;
+donc
+un nombre pair n'est pas un nombre premier (sauf 2 puisque, dans ce cas, il est divisé par lui-même).
+Prenons un nombre, par exemple 23.
+On liste tous les nombres premiers inférieurs à vingt-trois : 2, 3, 5, 7, 11, 13, 17, 19, et 23.
+Le produit de tous ces nombres est 223 092 870.
+On obtient vite de grands nombres !)
+Le nombre obtenu est pair, comme on peut s'y attendre (puisque 2 est un facteur du produit).
+Il n'est donc pas premier.
+Ajoutons 1 et regardons : 223 092 870 + 1 = 223 092 871.
+Soit ce nombre est premier (ce n’est pas le cas), soit il existe un nombre premier (que l’on note P) qui le divise.
+Imaginons
+que ce nombre premier P soit inférieur à 23 :
+P serait donc l’un des nombres premiers 2, 3, 5, … , 19, 23 qui divisent 223 092 870, puisque 223 092 870 est le produit de tous les nombres premiers inférieurs à 23.
+Donc
+, en nommant Q le produit de tous les nombres premiers inférieurs à 23 saufP (c’est-à-dire
+Q = 223 092 870 ÷ P), on peut écrire 223092871
+= P
+Q + 1 et, comme P divise 223 092 871, P doit donc aussi diviser P × Q + 1 ;
+c’est-à-dire que P doit diviser P ×
+Qet 1.
+P divise bien P × Q mais, dans l’ensemble des nombres entiers naturels, aucun nombre premier ne peut diviser 1… c’est donc impossible !
+Cela signifie que notre hypothèse de départ, « P est inférieur à 23 », est fausse !
+Donc P est strictement plus grand que 23.
+Par conséquent, il existe un nombre premier plus grand que 23 (dans notre exemple, il en existe même deux car 223 092 871 = 317 × 703 763, qui sont tous les deux premiers et plus grands que 23).
+Et cette démonstration peut se répéter pour n’importe quel nombre : on peut toujours trouver un nombre premier plus grand que les autres, donc l’ensemble des nombres premiers est infini !
+Tout nombre pair (sauf 2) est la somme de deux nombres premiers.
+Par exemple : 12 = 5 + 7 ;
+14 = 7 + 7 ;
+16 = 5 + 11.
+La plupart des mathématiciens pensent que cette conjecture est vraie, mais personne n'est jamais parvenu à la démontrer.
+Il suffirait de trouver un seul contre-exemple pour prouver qu'elle est fausse.
+Des nombres premiers jumeaux, cousins et même sexy !
+Les mathématiciens se sont amusés à donner des noms originaux à des nombres premiers spécifiques.
+Ils ont donné, par exemple, le nom de nombres jumeaux à deux nombres premiers dont la différence ne fait que deux.
+Parmi ces nombres premiers jumeaux, on trouve 3 et 5, 5 et 7, 11 et 13, 17 et 19, 107 et 109 ou encore 881 et 883.
+Il existe également les nombres cousins qui sont, eux, deux nombres premiers dont la différence fait quatre (comme 3 et 7, ou 19 et 23).
+Et pour deux nombres premiers pour lesquels la différence fait six, les mathématiciens ont trouvé le curieux nom de nombres sexy !
+, 7 et 13 ou 11 et 17 en font donc partie !
+Cet adjectif est en fait un jeu de mots avec le mot latin qui signifie six.

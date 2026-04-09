@@ -1,0 +1,49 @@
+Se le llama mecanismo a los dispositivos o conjuntos de sólidos resistentes que reciben una energía de entrada y, a través de un sistema de transmisión y transformación de movimientos, realizan un trabajo.
+Un mecanismo transforma el movimiento de entrada (lineal, circular, oscilante) en un patrón deseable, por lo general desarrolla una trayectoria final de salida predecible, acorde al problema que se desea solucionar.
+Introducción
+Basándose en principios de la mecánica se representan los mecanismos mediante engranajes o ruedas dentadas, con los cuales se forman sistemas de ecuaciones, que caracterizan el comportamiento y funcionamiento de un mecanismo.
+A diferencia de un problema de dinámica básica, un mecanismo no se considera como una masa puntual sino como un conjunto de sólidos rígidos enlazados.
+Estos sólidos se denominan elementos del mecanismo y presentan combinaciones de movimientos relativos de rotación y traslación, que combinados pueden dar lugar a un movimiento de gran complejidad.
+Para el análisis de un mecanismo usualmente son necesarios conceptos como el de centro de gravedad, momento de inercia, velocidad angular, entre otros.
+La mayoría de veces un mecanismo puede ser analizado utilizando un enfoque bidimensional, lo que reduce el mecanismo a un plano.
+En mecanismos más complejos y, por lo tanto, más realistas, es necesario utilizar un análisis espacial.
+Un ejemplo de esto es una rótula esférica, la cual puede realizar rotaciones tridimensionales.
+El análisis de los esfuerzos internos de un mecanismo, usualmente se realiza una vez determinada su cinemática y dinámica, y en este período se hace necesario modelizar alguno de sus elementos como sólidos deformables, y así mediante los métodos de la resistencia de materiales y la teoría de la elasticidad se pueden determinar sus deformaciones, así como sus tensiones, y decidir si los esfuerzos a los que están sometidos los elementos del mecanismos pueden ser adecuadamente resistidos sin rotura o pérdida de la funcionalidad del mecanismo.
+Análisis de mecanismos
+El análisis de un mecanismo se refiere a encontrar las velocidades, aceleraciones y fuerzas en diferentes partes del mismo, conocido el movimiento de otra parte.
+En función del objetivo del análisis pueden emplearse diversos métodos para determinar las magnitudes de interés entre ellos:
+Pares cinemáticos
+Reuleaux llama las conexiones ideales entre los enlaces de par cinemático.
+Hizo una distinción entre los pares más altos que se dice que tienen la línea de contacto entre los dos eslabones más bajos y pares que tienen el área de contacto entre los eslabones.
+J. J. Phillips, Libertad en Maquinaria, Cambridge University Press, 2006 muestra que hay muchas maneras de construir parejas que no encajan en esta clasificación simple.
+Par bajo: Un par inferior es un conjunto de enlaces ideales cuya restricción requiere una curva o superficie en el cuerpo en movimiento mantener contacto con una superficie curva o en el cuerpo fijo o un plano en el cuerpo en movimiento.
+Tenemos los siguientes casos:
+* Un par de revolución, o conjunto articulado, requiere una línea en el cuerpo en movimiento a permanecer co-lineal con una línea en el cuerpo fijo, y un plano perpendicular a esta línea en el cuerpo en movimiento mantener contacto con un plano perpendicular similar en el cuerpo fijo.
+Esto impone 5 restricciones sobre el movimiento relativo de los enlaces, que por lo tanto, tiene un grado de libertad.
+* Una articulación prismática, o deslizador, que requiere que una línea en el cuerpo en movimiento permanezca co-lineal con una línea en el cuerpo fijo, y un plano paralelo a la línea del cuerpo en movimiento mantener contacto con un plano en paralelo a la línea del cuerpo fijo .
+Ello impone cinco restricciones sobre el movimiento relativo de los enlaces, que por lo tanto tiene un grado de libertad.
+* Una articulación cilíndrica requiere que una línea en el cuerpo en movimiento permanezca co-lineal con una línea en el cuerpo fijo.
+Es una combinación de una articulación de giro y una junta deslizante.
+Esta articulación tiene dos grados de libertad.
+* Una junta esférica o esférica, requiere que un punto en el cuerpo en movimiento mantenga contacto con un punto en el cuerpo fijo.
+Esta articulación tiene tres grados de libertad.
+* Una junta plana requiere que un plano en el cuerpo en movimiento mantenga contacto con un plano en el cuerpo fijo.
+Esta articulación tiene tres grados de libertad.
+Pares superiores: Generalmente, un par más alto, limita el contacto entre un punto o una línea .
+Por ejemplo, el contacto entre una leva y su seguidor es un par más alto llamado leva conjunta.
+Del mismo modo, el contacto entre las curvas envolventes que forman el mallado dientes de dos engranajes son articulaciones de leva.
+Grados de libertad
+En un mecanismo resulta de fundamental importancia determinar el número de grados de libertad, ya que ese número entero es precisamente el número de ecuaciones diferenciales de segundo orden que se requieren para describir completamente el mecanismo.
+El número de grados de libertad se determina a partir del número de elementos o sólidos que forman el mecanismo y de los pares cinemáticos que ligan el movimiento de unos elementos a otros.
+El número de grados de libertad se determina según esta fórmula:
+Donde:
+:n_s, número de sólidos o elementos que conforman el mecanismo.
+:GL_s es el número de grados de libertad por sólido (para un mecanismo plano será 3 y para un mecanismo tridimensional 6).
+:E_, el número de restricciones que impone el k-ésimo par cinemático.
+Un caso particular de la fórmula anterior, es el de un mecanismo plano sin enlaces redundante, donde el número de grados de libertad del mismo se pueden calcular mediante el criterio de Grübler-Kutzbach:
+donde:
+:GL,, número de grados de libertad.
+:n_s\,, número de elementos (eslabones, barras, piezas, etc.) de un mecanismo.
+:j_1\,, número de uniones (pares cinemáticos) que eliminan 2 grado de libertad.
+:j_2\,, número de uniones (pares) que eliminan 1 grados de libertad.
+Véase también

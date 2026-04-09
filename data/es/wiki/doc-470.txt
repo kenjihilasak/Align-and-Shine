@@ -1,0 +1,122 @@
+Un tetraedro (del griego τέτταρες 'cuatro' y ἕδρα 'asiento, base de apoyo o cara') es un poliedro de cuatro caras.
+Con este número de caras es un poliedro convexo, sus caras triangulares y concurren tres caras por cada vértice.
+Si las cuatro caras del tetraedro son triángulos equiláteros, iguales entre sí, el tetraedro se denomina regular.
+El tetraedro es el símplex tridimensional.
+Propiedades geométricas
+En todo tetraedro, sea o no regular, se verifica que:
+* Los segmentos que unen los puntos medios de las aristas opuestas son concurrentes en un punto, este punto está en el punto medio de los segmentos.
+* Los segmentos que unen cada vértice con los puntos de intersección de las medianas de su cara opuesta son también concurrentes en un punto, que los divide separando tres cuartas partes del lado del vértice respectivo (Teorema de Commandino).
+* Los seis planos perpendiculares a las aristas por sus puntos medios pasan por un mismo punto, centro de la esfera circunscrita al tetraedro.
+* Las rectas perpendiculares a las caras por su circuncentro son concurrentes en un punto, centro de la esfera circunscrita al tetraedro.
+* Los planos bisectores de los diedros interiores de un tetraedro concurren en un punto equidistante de las cuatro caras, centro de la esfera inscrita al tetraedro.
+Propiedades métricas
+Volumen
+Existe una fórmula general para calcular del volumen de un tetraedro OABC, donde O coincide con el origen de coordenadas, sea o no regular, en función de las coordenadas cartesianas (x, y, z) de tres de sus vértices A, B C:
+Esta fórmula también se puede escribir en términos de las coordenadas cartesianas de los cuatro vértices \scriptstyle \; el volumen de un tetraedro (regular o no) viene dado por la siguiente fórmula:
+Otra fórmula, que puede obtenerse de la anterior, permite calcular el volumen de un tetraedro, regular o irregular, conociendo la longitud de dos aristas opuestas \ l_1 y \ l_2, la distancia \ h y el ángulo \theta entre ellas:
+Esta fórmula es aplicable para calcular, de forma aproximada, el volumen de un terraplén, de una carretera o una presa de materiales sueltos, por ejemplo, a partir de la longitud de su coronación \ l_1, la longitud en la base \ l_2, y su altura \ h.
+Área
+El Área de un tetraedro regular es la siguiente:
+donde Ac es el área de una de sus caras.
+Alturas del tetraedro
+Un tetraedro (no necesariamente regular) se define en ℝ3 conociendo las coordenadas de sus cuatro vértices, por ejemplo \scriptstyle V_1
+(x_1, y_1, z_1),
+V_2
+, V_3
+(x_3, y_3, z_3),
+V_4
+(x_4, y_4, z_4).
+Cualquiera de sus cuatro caras se define por el triángulo formado por los tres vértices de la misma, cada una de las caras define un plano (plano por tres puntos) base de la altura que forma con el vértice opuesto, siendo dicho vértice opuesto el punto restante que no se usó al definir la cara.
+Se puede imaginar un tetraedro pensando en que su base está definida por el triángulo formado por tres vértices cualquiera del mismo a los que llamaremos \scriptstyle V_2, V_3 y \scriptstyle V_4 y que existe un vértice opuesto a esa base al que llamaremos \scriptstyle V_1 .
+Para calcular la altura que forma un vértice opuesto cualquiera con su cara base solo hay que poner los valores de dicho vértice opuesto en \scriptstyle
+V_1
+(x_1, y_1, z_1) y después poner los valores de los tres vértices de la cara opuesta al mismo en \scriptstyle V_2
+, V_3
+(x_3, y_3, z_3) y \scriptstyle V_4
+, luego aplicarlos en la fórmula siguiente:
+Para conocer las cuatro alturas del tetraedro basta con ir rotando las coordenadas de sus vértices.
+Esta fórmula no requiere que el tetraedro sea regular, vale para cualquier tetraedro no degerado.
+Tetraedro regular
+Es un poliedro formado por cuatro caras que son triángulos equiláteros, y cuatro vértices en cada uno de los cuales concurren tres caras.
+Es uno de los cinco poliedros perfectos llamados sólidos platónicos.
+Además es uno de los ocho poliedros convexos denominados deltaedros.
+Aplicándole la nomenclatura estándar de los sólidos de Johnson podría ser denominado pirámide triangular.
+Para la escuela pitagórica el tetraedro representaba el elemento fuego, puesto que pensaban que las partículas (átomos) del fuego tenían esta forma.
+Cálculo de dimensiones fundamentales
+Exclusivamente a partir de la arista a se pueden calcular el resto de las dimensiones fundamentales de un tetraedro regular.
+Así, para las esferas singulares del tetraedro:
+* Radio R de la esfera circunscrita al tetraedro (la que contiene en su superficie los cuatro vértices del mismo):
+: R= \frac \cdot a \approx 0,6124 \cdot a
+* Radio r de la esfera inscrita al tetraedro (la tangente a las cuatro caras del tetraedro):
+: r=\frac \cdot a \approx 0,2041 \cdot a
+* Radio ρ de la esfera tangente a las seis aristas del tetraedro:
+: \rho = \frac \cdot a \approx 0,3536 \cdot a
+En un tetraedro regular cada pareja de aristas opuestas (las que no concurren en un mismo vértice) son ortogonales entre sí, siendo la mínima distancia entre ellas el segmento que une sus puntos medios, de longitud doble al radio ρ de la esfera tangente a las aristas del tetraedro.
+* La altura H del tetraedro (apoyado el tetraedro de manera estable sobre un plano horizontal, distancia perpendicular desde el plano de apoyo al vértice opuesto):
+:H = \frac \cdot a \approx 0,8165 \cdot a
+Volumen, área y desarrollo
+Dado un tetraedro regular de arista a, podemos calcular su volumen V mediante la siguiente fórmula:
+Y el área total de sus caras A (que es 4 veces el área de una de ellas, Ac)
+, mediante:
+Ángulos
+Los ángulos planos que forman las aristas concurrentes son, como en el resto de los sólidos platónicos, todos iguales; y con un valor de 60º (π/3 rad), al constituir los ángulos interiores de un triángulo equilátero.
+Los ángulos diedros que forman las caras son, como en el resto de los sólidos platónicos, todos iguales, y pueden calcularse:
+: \delta=2 \cdot \arcsin \approx 1,23\ \text\ (70^\circ 31' 43,61)
+Los ángulos sólidos que forman los vértices son, como en el resto de los sólidos platónicos, todos iguales, y pueden calcularse:
+Propiedades particulares
+Simetría
+Un tetraedro regular tiene cuatro ejes de simetría de orden tres, las rectas perpendiculares a cada cara por el vértice opuesto de tetraedro; y seis planos de simetría, los formados por cada arista y el punto medio de la arista opuesta.
+Esto hace que este cuerpo tenga un orden de simetría total de 24: 2x (4x3).
+Los elementos de simetría anteriores definen uno de los grupos de simetría tetraédricos, el denominado Td según la notación de Schläfli.
+El tetraedro tiene también tres ejes de simetría de orden dos: las rectas que pasan por el punto medio de una arista y por el de la arista opuesta.
+Conjugación
+El tetraedro regular es el único sólido platónico conjugado de sí mismo (se suele denominar autoconjugado), ya que el poliedro conjugado de un tetradro de arista a es otro tetraedro de arista b, tal que:
+:b=\frac
+Proyecciones
+Las proyecciones ortogonales de un tetraedro regular sobre un plano pueden ser:
+* En particular, si el plano de proyección es paralelo a una cara, la proyección del tetraedro es un triángulo equilátero, correspondiente a una cara en verdadera magnitud.
+* En particular, si el plano de proyección es paralelo a dos aristas opuestas del tetraedro, la proyección es un cuadrado, con un lado igual a la longitud de la arista del tetraedro dividida por la raíz cuadrada de dos.
+Secciones
+Las infinitas secciones que podemos tomar de un tetraedro regular pueden resultar:
+* En particular, cualquier sección tomada por un plano paralelo a una de las caras del tetraedro es un triángulo equilátero.
+** En particular, cualquier sección tomada por un plano paralelo a dos aristas opuestas es un rectángulo.
+** Si, además de ser paralelo a dos aristas opuestas, el plano de corte equidista de ambas, la sección resultante es un cuadrado de lado mitad de la arista del tetraedro.
+Como existen tres pares de aristas opuestas, un tetraedro regular se puede seccionar de esta forma por tres planos diferentes.
+Composición, descomposición y maclado
+Es posible incluir un tetraedro regular en un cubo de tal forma que cada uno de los vértices del tetraedro coincida con un vértice del cubo, coincidiendo las aristas del tetraedro con diagonales de las caras del cubo.
+El volumen del cubo necesario para incluir un tetraedro en la forma descrita es el triple que el del tetraedro.
+Hay dos posiciones posibles para incluir los tetraedros en el cubo en esta forma;
+* Las aristas de los tetraedros colocados en ambas posiciones son perpendiculares entre sí (son las diagonales cruzadas de las caras del cubo).
+* Las tres secciones cuadradas de ambos tetraedros coinciden.
+* El sólido conjunto (o macla) de ambas es un poliedro compuesto denominado estrella octángula de Kepler (stella octangula).
+* El sólido común de ambos es un octaedro regular de arista mitad que la de los tetraedros.
+No es posible rellenar el espacio únicamente con tetraedros regulares (aunque, parece ser, que Aristóteles así lo creía), pero sí es posible hacerlo con elementos formados por una combinación de un octaedro regular y dos tetraedros regulares.
+De las infinitas formas de truncar un tetraedro regular, hay dos que producen resultados singulares:
+* Truncando el tetraedro con planos que pasen por el punto medio de sus aristas, obtenemos un octaedro regular.
+* Truncando el tetraedro con planos que pasen por la tercera parte de sus aristas, obtenemos un sólido arquimediano que toma el nombre genérico de tetraedro truncado.
+Un tetraedro no puede ser estelado, puesto que todas las intersecciones entre los planos de las caras del tetraedro son aristas del tetraedro.
+Tetraedros en la naturaleza y en la técnica
+La forma tetraédrica aparece en la naturaleza en ciertas moléculas de enlace covalente.
+La más común de ellas es la molécula de metano (CH4), en la que los cuatro átomos de hidrógeno se sitúan aproximadamente en los cuatro vértices de un tetraedro regular del que el átomo de carbono es el centro.
+Existen también estructuras cristalinas naturales de forma tetraédrica.
+A pesar de ser el tetraedro un poliedro de forma simple y totalmente regular no existen muchos objetos de uso común basados en su forma.
+Como medio de almacenamiento es una forma desastrosa: no es posible rellenar el espacio con ella, que sería la forma de no desperdiciar volumen entre las piezas; tampoco resulta fácilmente apilable al no tener caras paralelas; y, además, es muy ineficaz: para contener un litro de producto son necesarios más de 7,2 dm² de «pared», mientras que utilizando un cubo con 6 dm² es suficiente.
+A pesar de todos estos inconvenientes, la empresa sueca Tetra Pak desarrolló un envase de cartón metalizado en forma tetraédrica en la década de 1950, únicamente porque su fabricación resultaba singularmente sencilla: bastaba con enrollar una hoja de papel formando un cilindro, para después aplastar sus dos extremos, pero en direcciones perpendiculares, logrando con ello un tetraedro.
+En cualquier posición que sea apoyado un tetraedro, uno de sus vértices queda vertical hacia arriba.
+Por este motivo se basa en su forma la fabricación de ciertos modelos de elementos móviles de balizamiento de carreteras ya que, al ser indiferente la posición en la que se apoyen, su colocación es rápida y sencilla, y no pueden ser derribados por los vehículos.
+Es una forma sencilla con gran facilidad para trabarse y engancharse, puesto que sus vértices son muy agudos y dirigidos en las cuatro direcciones.
+Por este motivo se busca su forma en elementos cuya principal función sea engancharse, como las anclas de barco (en esquema, un ancla está formada por las dos aristas opuestas de un tetraedro unidas por su perpendicular), o trabarse entre sí, como las escolleras de hormigón armado para defensa contra el oleaje.
+Existen al menos tres modelos de uso frecuente basados en la forma de un tetraedro regular:
+* Los tetrápodos, formados por cuatro troncos de cono colocados según las alturas de un tetraedro regular, entre sus vértices y su centro.
+Los doloses (plural de dolos), diseñados por el ingeniero Eric M. Merrifield, formados por tres piezas rectas, dos materializando las aristas opuestas de un tetraedro regular y una tercera uniéndolas por su perpendicular.
+* Los akmon (yunque), desarrollados en el Laboratorio de Hidráulica de Delf (Países Bajos), de forma similar a los doloses, pero más robusta.
+A principios del siglo XX Alexander Graham Bell, inventor del teléfono, experimentó intensamente con cometas, con el fin de desarrollar el vuelo tripulado con vehículos más pesados que el aire, y llegó tras una serie de experimentos a esta forma.
+Las cometas tetraédricas están compuestas de múltiples celdas con forma de tetraedro, en el que se materializan únicamente dos de sus caras.
+Llegó a construir cometas enormes, formadas por un gran número de estas celdas.
+En 1907 construyó una de 3.393 celdas que arrastró con un barco de vapor, siendo capaz de elevarla 50 m con un tripulante a bordo.
+Intentó después otras construcciones aún más grandes, y equipadas con motor, pero no dieron el resultado deseado.
+A los motores les faltaba potencia y las construcciones resultaban frágiles en exceso, por lo que abandonó el proyecto, dedicándose a otras actividades.
+La sonda espacial Mars Pathfinder de la NASA también tuvo forma de tetraedro, cuyas caras se abrieron como pétalos al amartizar, el 4 de julio de 1997, para permitir la salida del robot Sojourner que llevaba en su interior.
+Otra aplicación práctica del tetraedro es la de dar forma al dado de cuatro caras, cuya notación escrita es «d4» y al que se utiliza sobre todo en numerosos juegos de rol.
+Al no mostrar este dado una cara hacia arriba, suele llevar marcado el valor de la tirada en los vértices o en la base.
+Véase también

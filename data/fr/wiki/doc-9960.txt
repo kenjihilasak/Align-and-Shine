@@ -1,0 +1,161 @@
+Unité de mesure informatique
+En informatique, un octet est un multiplet de codant une information.
+Dans ce système de codage, s'appuyant sur le système binaire, un octet permet de représenter 2 nombres, soit différentes.
+Un octet permet de coder des valeurs numériques ou jusqu'à différents.
+Le terme est couramment utilisé comme unité de mesure en informatique (symbole : o) pour indiquer la capacité de mémorisation des mémoires (mémoire vive ou morte, capacité des périphériques de stockage).
+À cette fin, on utilise couramment des multiples de l'octet, comme le kilooctet (Ko), le mégaoctet (Mo), le gigaoctet (Go) ou le téraoctet (To).
+Cette unité permet aussi de quantifier la rapidité de transfert d'informations en octets par seconde .
+Étymologie
+Le mot octet est constitué du préfixe «
+oct- » signifiant huit et du suffixe « -et » signifiant petit.
+Littéralement un octet est un groupe de .
+Aux origines de l'informatique, le byte était l'unité de stockage permettant de stocker un caractère.
+En anglais, on utilise fréquemment le mot « char » (apocope de character) pour « byte », et réciproquement.
+Chaque constructeur définissait la taille du byte en fonction de ses besoins du moment.
+Ainsi, par exemple, le PDP-10 utilise
+un byte par le jeu d'instructions en langage machine, qui a une taille variable.
+Sur cette même architecture, les mots, utilisés pour l'adressage mémoire, font 36 bits.
+Dans la plupart des architectures matérielles, la capacité de la mémoire informatique est généralement exprimée en , alors que sur les architectures « grand public » en français, on l'exprime en octets.
+La généralisation des de huit bits amplifie cette confusion, en tirant un trait sur les architectures anciennes − essentiellement nord-américaines.
+On trouve beaucoup de documentation en français exprimant improprement la capacité de mémoire en par une confusion bytes/octets lors de la traduction.
+Aujourd'hui
+pour le Dictionnaire du multimédia
+- Audiovisuel, informatique, télécommunications de l'AFNOR, le byte est « l'unité d'information correspondant à un octet, soit ».
+La normalisation IEC 80000-13 va dans le même sens : normaliser la taille des bytes à 8 bits.
+C'est de cette « normalisation » à que vient la confusion.
+Toutefois, en anglais comme en français, si l'on veut explicitement désigner une quantité de huit bits, on utilise le mot «
+» ;
+tandis que si l'on veut exprimer l'unité d'adressage indépendamment du nombre de bits, on utilise le mot «
+Ainsi la description formelle d’un langage de programmation utilisera sciemment le mot si le langage ne nécessite pas qu’un ait une taille d’un octet.
+C’est par exemple le cas du langage C, où un peut contenir plus de huit bits.
+Le mot «
+octet » est sciemment utilisé en français comme en anglais pour décrire un format de données au bit près.
+Ainsi, on trouve le mot « octet »
+dans des textes anglais comme le qui décrit le protocole de communication TCP d'Internet, ou dans le standard H.263 qui décrit une norme de codage vidéo numérique
+La même distinction entre « » et « octet » existe donc dans les deux langues, seul change le mot que l'on utilise couramment dans les cas où le byte mesure huit bits.
+Symbole
+Le symbole de l'octet est la lettre « o » minuscule.
+La lettre « O » (en majuscule) n'est pas acceptable dans le Système international d'unités (SI) en raison du risque de confusion avec le chiffre 0 et parce que les lettres majuscules sont en général utilisées pour les symboles des unités dérivées d'un nom propre (par exemple : volt dont le symbole est V, ou watt dont le symbole est W).
+Cette question n'est cependant pas tranchée, les unités d'information ne faisant pas partie du SI.
+Multiples
+Historiquement, dans le monde informatique, les préfixes « kilo », « méga », « giga » ne représentaient pas une puissance d'un nombre en base 10 (10 = ), mais une puissance d'un nombre en .
+Cependant cette tradition viole les normes en vigueur pour les autres unités, et n'est même pas appliquée uniformément aux tailles exprimées en octets, notamment pour la mesure de la capacité des disques durs et autres périphériques de stockage.
+Une nouvelle norme a donc été créée en 1998 pour noter les multiples de : les « », « mébi », « gibi »
+Multiples normalisés
+La normalisation des préfixes binaires de 1998 par la Commission électrotechnique internationale spécifie les préfixes suivants pour représenter
+les
+La puissance de 2 définit les possibilités d'adressage (2 zones mémoire admissibles par bit), équivalentes à 0 ou 1 pour un bit.
+2 octets = zones adressables pour 10 bits.
+Concernant les multiples de l'octet, cela donne :
+Les préfixes kilo, méga, giga, téra correspondent aux mêmes multiplicateurs que dans tous les autres domaines :
+des
+Appliqué à l'informatique, cela donne :
+Cela permet de connaître la quantité de bits (valeur 0 ou 1) contenus dans un support de stockage
+Confusions entre multiples binaires et décimaux
+Certains utilisateurs débutants sont légitimement perturbés lorsqu'un logiciel ou système d'exploitation leur présente une quantité d'octets affichée avec un préfixe décimal, ou un acronyme en « GB », « MB », mais une quantité calculée, à tort, sur des puissances de 1024.
+Bien que les constructeurs indiquent sur leurs composants des valeurs décimales (par exemple « 32GB » représentent ), ces logiciels vont indiquer soit correctement « », soit incorrectement « ».
+Plus la capacité des supports augmente plus l'écart entre les valeurs attendues et constatées devient important : ainsi un disque dur de « » (valeur indiquée par le constructeur et qui est techniquement correcte) a une capacité affichée dans les systèmes d'exploitation de = , fréquemment notée de façon erronée « », soit un écart de 9 %.
+Ces confusions ont été à l'origine de plusieurs actions en justice, notamment aux USA.
+L'usage des préfixes décimaux, en contradiction avec les recommandations de la Commission électrotechnique internationale qui définissent clairement d'autres préfixes, reste toujours répandu dans la littérature et dans le langage courant.
+Les préfixes recommandés
+- « kibi »
+, « mébi »...
+- ne sont pas encore systématiquement intégrés.
+D'autres usages courants, mais incorrects, suppriment complètement le nom ou le symbole de l'unité pour ne plus garder que le nom ou le symbole du préfixe multiplicateur (par exemple « 56K » ou « 20 méga »).
+Cela entraîne cependant de nombreuses ambiguïtés quant à la nature de cette unité, notamment quand on l'utilise pour exprimer un taux de transfert de données ou la capacité d'une puce de mémoire : en effet, dans ces deux cas, il est courant que l'on mesure en bits plutôt qu'en octets (ainsi un débit de connexion de « 20 méga »
+- selon l'appellation commerciale
+- correspond à , ce qui peut induire en erreur un utilisateur non averti).
+Variantes orthographiques
+La langue française pose un problème d'orthographe, relativement à la prononciation de la voyelle initiale du mot « octet »
+lorsqu'il suit un préfixe ;
+on peut donc trouver dans la littérature les formes suivantes : « kilo-octet » (avec trait d'union), « kilooctet » (sans trait d'union).
+Propriétés
+Propriétés de représentation binaire
+Un octet peut représenter 2 soit différentes.
+La valeur de tout octet peut s'écrire avec un entier naturel entre 010 et 25510 compris.
+Elle peut aussi s'écrire avec huit chiffres binaires, entre 000000002 et 111111112 compris, ou avec deux chiffres hexadécimaux, entre 0016 et FF16 compris.
+La notation hexadécimale est utilisable dans de nombreux langages informatiques car elle est compacte et pratique pour noter la valeur d'un ou plusieurs octet (s).
+Un octet peut servir à noter un entier naturel, appelé en informatique « non signé », entre 0 et 255 (en base 10).
+Une autre convention courante, le complément à deux, permet de noter un entier relatif, ou « signé », .
+De nombreuses conventions existent pour représenter un caractère par un ou plusieurs octets.
+On peut notamment citer le codage ISO/CEI 8859-1, très utilisé pour représenter avec un octet les 10 chiffres, les 26 lettres minuscules, les 26 lettres majuscules, ainsi que les lettres accentuées et la ponctuation des langues d'Europe occidentale, dont le français.
+Plus récent, le codage UTF-8 permet de noter tout caractère avec un à quatre octets.
+L'article sur le codage des caractères développe ce thème.
+Propriétés de représentation décimale
+Dans certaines applications nécessitant un codage exact des valeurs décimales (par exemple pour les applications financières), les puissances de 2 peuvent ne pas s'avérer pratiques.
+Aussi un octet est parfois utilisé pour stocker jusqu'à décimaux exactement , chacun codé sur un quartet () distinct entre .
+Les autres valeurs de quartets peuvent être utilisées pour coder la position d'une virgule décimale, un signe, l'absence de chiffre significatif à la position indiquée, ou une autre fonction spéciale (valeur infinie, valeur erronée non numérique).
+Certains calculateurs (et des bibliothèques logicielles de calcul à virgule fixe ou travaillant sur de très grands entiers ou des valeurs de grande précision) utilisent ce format dit « BCD », sigle anglais de binary coded decimal (décimal codé en binaire).
+L'usage du codage BCD était populaire sur les anciens systèmes (notamment ceux utilisant l'EBCDIC) car cela évitait une conversion finale coûteuse pour afficher les nombres à virgule flottante.
+De plus ce système était plus pratique au temps où les données étaient entrées manuellement sur des cartes perforées : pour convertir un nombre BCD en caractères, il suffisait d'éclater le nombre BCD en deux en n'utilisant qu'un seul quartet par octet pour représenter le chiffre en décimal, le quartet de poids fort prenant une valeur fixe indiquant simplement que c'est un chiffre décimal.
+Les autres valeurs de quartets de poids fort étaient utilisées pour indiquer que c'était une lettre majuscule, une lettre minuscule ou un autre symbole ou ponctuation.
+Aujourd'hui, dans la plupart des systèmes actuels, le codage EBCDIC des caractères et du BCD pour les valeurs numériques est plus rarement utilisé car la plupart des calculs se font plus rapidement en représentation binaire de façon matérielle avec une précision globale prédéfinie (codée sur un nombre fixe d'octets).
+Il existe des variantes du système BCD permettant de conserver une représentation précise des nombres à virgule fixe ou flottante en base 10, tout en permettant une plus grande compacité de stockage et en rendant les calculs plus rapides.
+L'astuce consiste à grouper les chiffres décimaux et les représenter en binaire sur un groupe de plusieurs octets.
+Par exemple :
+* Tout d'abord la représentation en quartets s'avère coûteuse en termes de traitement, et une valeur BCD est généralement d'abord convertie en supprimant la séparation en quartets, pour alors représenter en binaire les deux chiffres décimaux sur le même octet ;
+le calcul est alors simplifié car il s'effectue par groupe de 2 chiffres à la fois au lieu d'un seul ;
+cette représentation laisse 1 bit de poids fort inutilisé (mais on peut l'utiliser comme marqueur pour des valeurs spéciales).
+On peut représenter exactement 4 chiffres décimaux dans un groupe de (c'est-à-dire sur 16 bits, puisque ceux-ci peuvent contenir 2 = valeurs différentes) ;
+avec une représentation BCD, on stockerait exactement également 4 chiffres décimaux, mais les calculs se feraient uniquement chiffre par chiffre (c'est-à-dire 4 fois plus lentement) ;
+cette représentation laisse 2 bits de poids fort inutilisés (mais on peut les utiliser comme marqueurs pour des valeurs spéciales).
+On peut représenter exactement 7 chiffres décimaux dans un groupe de (c'est-à-dire sur 24 bits, puisque ceux-ci peuvent contenir 2 = valeurs différentes) ;
+avec une représentation BCD, on ne stockerait exactement que 6 chiffres décimaux ;
+cette représentation ne laisse aucun bit inutilisé.
+On peut représenter exactement 9 chiffres décimaux dans un groupe de (c'est-à-dire sur 32 bits, puisque ceux-ci peuvent contenir 2 = valeurs différentes) ;
+avec une représentation BCD, on ne stockerait exactement que 8 chiffres décimaux ;
+cette représentation laisse 2 bits de poids fort inutilisés (mais on peut les utiliser comme marqueurs pour des valeurs spéciales).
+Cette représentation est souvent utilisée dans les bibliothèques mathématiques de calcul sur des nombres de très grande précision.
+Usages
+Les processeurs n'opèrent généralement pas sur chaque bit individuellement, mais sur des groupes de bits.
+L'habitude de concevoir le matériel pour qu'il traite les bits par huit, ou par multiples de huit, s'est généralisée depuis les années 1970, si bien qu'aujourd'hui l'octet et ses multiples sont généralement utilisés comme mesure de la capacité de mémorisation des mémoires informatiques : mémoire vive, disquette, disque dur, CD-ROM La taille des fichiers est aussi mesurée en octets (avec le plus souvent les multiples conventionnels en binaire).
+Le taux de transfert des bus informatiques entre les applications informatiques et périphériques informatiques locaux est généralement donné en octets par seconde (avec les multiples normalisés ;
+voir ci-après).
+Mais les débits sur les réseaux ou supports de transmission de données s'expriment plutôt :
+* en bauds (avec les multiples normalisés)
+c'est-à-dire le nombre de symboles codés par seconde, pour les technologies matérielles de modulation de très bas niveau, par exemple dans les modems, ces technologies séparant la fréquence d'échantillonnage en bauds (fortement liée à la bande passante physique exprimée en hertz) de la précision d'échantillonnage exprimée en bits par symbole (fortement liée au rapport signal/bruit du support de transmission exprimé en décibels ou en ) ;
+* en bits par seconde (avec les multiples normalisés)
+pour le débit binaire final utilisable, résultant du produit du débit en bauds par le nombre de bits transmis par symbole, diminué éventuellement des bits de détection ou correction d'erreurs ou de synchronisation.
+Bits et octets
+Exemples de conversion des bits vers octets (sans normalisation CEI) :
+Mots
+Lorsque le traitement se fait sur plusieurs octets simultanément, notamment (16 bits) et (32 bits), on parle parfois de mot et de double-mot.
+La signification de ces termes a tendance à varier avec le contexte, notamment car en terminologie des langages d'assemblage pour processeurs, le « mot » désigne souvent la quantité d'information dans un registre de calcul entier pour une opération élémentaire, cette quantité pouvant aussi dépendre du mode d'adressage utilisé par le processeur à l'exécution (ou des traditions de programmation pour un système d'exploitation donné), aussi n'est-il pas recommandé de les utiliser.
+Octets, bits et décibels
+Le bit (ou son multiple l'octet) est une unité dérivée parfois plus pratique dans certains calculs sur les signaux que le bel noté « B » ou le décibel noté « dB » :
+une qualité de signal d'1 bit est définie comme le double du logarithme binaire d'un rapport signal/bruit exactement égal à 2, soit la formule : 2.log10 (2)=0.60205999132,
+et le bel est défini comme le logarithme décimal d'un rapport de grandeurs exactement , soit la formule log10 (10)=1.
+Par la suite, on parle de signaux de qualité :
+La qualité de signal
+d'1 bit
+vaut exactement ou (soit environ ou ).
+La qualité de signal d' vaut exactement plus, soit ou (soit environ ou )
+On peut noter qu'en dessous de de rapport signal/bruit, il n'est théoriquement plus possible de détecter un seul bit entier d'information avec un seul échantillon.
+Cependant, la détection d'informations (pour la transmission ou le stockage) dans un tel signal est possible grâce à la technique du sur-échantillonnage.
+Pour cela il suffit de prendre plusieurs échantillons : les rapports signal/bruit de chaque échantillon s'additionnent alors jusqu'à dépasser le seuil de , au-delà duquel il est possible, par calcul, de détecter, transmettre ou stocker d'information.
+On fait alors de même avec des signaux en dessous de pour détecter, transmettre ou stocker, par calcul, d'information.
+Les plus petits « fragments » de bits ou d'octets sont donc utilisables.
+Sur les supports de transmission de données
+Débit de transmission
+Le débit maximum d'un support de transmission de données (exprimé en décibels par seconde, ou respectivement bits par seconde, ou octets par seconde) est la somme des produits de la fréquence d'échantillonnage de chaque signal transporté (exprimée en hertz) par la qualité de ce signal (exprimée en décibels, ou respectivement bits ou en octets).
+Selon les technologies employées, il existe toujours un compromis entre qualité et fréquence d'échantillonnage de chaque signal, le meilleur compromis (qui apporte le débit maximum) étant obtenu quand le produit qualité-fréquence est maximum.
+Le débit (ou capacité temporelle d'informations) effectif d'un support de transmission de données (exprimé en décibels par seconde, ou respectivement en bits par seconde ou en octets par seconde) est toujours strictement inférieur à ce débit maximum théorique qu'il est impossible de dépasser sur le même support (à condition d'avoir pris en compte tous les signaux détectables sur ce support).
+L'unité la plus employée pour mesurer le débit d'un support de transmission de données est le bit par seconde pour les supports physiques, mais l'usage de l'octet par seconde (et de ses multiples normalisés en puissances de 10, ou traditionnels en puissances de 2) est très courant pour les applications et protocoles de transfert de fichiers.
+Quantité d'informations transmise
+La quantité d'informations maximale transmise dans un intervalle de temps sur un support de transmission de données est l'intégration de son débit sur chaque position temporelle dans cet intervalle où les échantillons sont transmis.
+La quantité d'informations effectivement transmise est toujours strictement inférieure à cette quantité maximale théorique.
+Elle se mesure en décibels, ou respectivement en bits ou en octets (ou ses multiples normalisés en puissances de 10, ou conventionnels en puissances de 2).
+L'unité la plus utilisée est le kilo-
+octet traditionnel, symbolisé ko en français
+Sur les supports de stockage d'informations
+Capacité par unité spatiale
+On effectue le même raisonnement pour la capacité des supports statiques de stockage, en considérant que chaque position de la longueur (ou respectivement de la surface ou du volume) de ce support définit un certain nombre de signaux ayant chacun une qualité exprimée en bits, octets ou décibels, la nature de ces signaux détectables dépendant des capteurs employés (conversion de signaux électriques en signaux magnétiques, optique…), de leur qualité (c'est-à-dire leur précision intrinsèque), et du niveau de bruit environnant (dépendant aussi de la construction du support, notamment son isolation).
+Le domaine spatial de stockage le plus utilisé aujourd'hui est la surface (disquettes, disques durs, disques optiques ou magnéto-optiques, mémoires électroniques…), mais la longueur est encore utilisée (bandes magnétiques).
+Le domaine spatial du volume est encore à l'état expérimental (stockage optique dans un cristal, holographique…), mais commence à apparaître sur les disques optiques multicouche (les unités correspondantes restent encore surfaciques).
+On peut alors parler de capacité linéaire (ou respectivement surfacique ou volumique) d'informations exprimée en décibels par mm (ou respectivement par mm ou par mm) ou donc aussi en bits par mm (ou respectivement par mm ou par mm) ou encore en octets par mm (ou respectivement par mm ou par mm), l'unité de longueur (ou respectivement de surface ou de volume) remplaçant la seconde dans le paragraphe précédent, et selon les mêmes formules de Nyquist-Shannon pour la qualité des signaux échantillonnés sur ce support.
+Pour les disques durs, disques optiques ou magnéto-optiques, l'unité de capacité surfacique la plus utilisée est le bit par mm, ou ses multiples normalisés en puissances de 10 comme le kilobit par mm, symbolisé kb mm en français).
+Les unités traditionnelles ne sont jamais employées à ce niveau, au contraire des fabricants de mémoires qui préfèrent les unités traditionnelles en comme le kilooctet par mm (ou qui parfois comptent plutôt en nombre de transistors par unité de surface, mais cette fois avec les multiples conventionnels en , sachant qu'un bit d'information stockée nécessite souvent deux transistors).
+Capacité totale du support
+La capacité totale d'informations maximale de ce support, exprimée en décibels, bits ou octets, est l'intégration de cette capacité linéaire (ou respectivement surfacique ou volumique) sur chaque position de la longueur (ou respectivement de la surface ou du volume) de ce support.
+La capacité totale d'informations effective d'un support de stockage se mesure le plus souvent en octets (ou ses multiples normalisés en puissances de 10, comme le kilooctet, symbolisé conventionnellement ko sur les disques durs).
+Mais le plus souvent l'interface de ce support se fait par secteurs de taille conventionnelle de , et donc la capacité d'utilisation de ce support dans les systèmes d'exploitation se mesure plus souvent et de façon plus pratique avec les multiples traditionnels en puissances de 2.

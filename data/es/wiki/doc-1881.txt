@@ -1,0 +1,136 @@
+En geometría, una superficie esférica es una superficie de revolución formada por el conjunto de los puntos del espacio que equidistan de un punto llamado centro.
+Los puntos cuya distancia es menor que la longitud del radio forman el interior de la superficie esférica.
+La unión del interior y la superficie esférica se llama bola cerrada en topología, o esfera, como en geometría elemental del espacio.
+Obviamente, la esfera es un sólido geométrico.
+La esfera, como sólido de revolución, se genera haciendo girar una superficie semicircular alrededor de su diámetro (Euclides, L. XI, def.
+14).
+Esfera proviene del término griego σφαῖρα, sphaîra, que significa pelota (para jugar).
+Coloquialmente hablando, se emplea la palabra bola, para describir al cuerpo delimitado por una esfera.
+Geometría esférica
+Como superficie
+La esfera (superficie esférica) es el conjunto de los puntos del espacio tridimensional que tienen la misma distancia a un punto fijo denominado centro; tanto el segmento que une un punto con el centro, como la longitud del segmento, se denomina radio.
+En este caso se genera al rotar una semicircunferencia , usando como eje de rotación su diámetro.
+Este concepto se usa al definir la esfera en geometría analítica del espacio.
+Como sólido
+La esfera (sólido esférico) es el conjunto de puntos del espacio tridimensional que están, respecto del centro, a una distancia igual o menor que la longitud de su radio.
+Este concepto coincide con la definición de bola cerrada en el análisis real de ℝ3.
+Se genera al rotar un semicírculo, teniendo como eje de rotación su diámetro.
+En esta situación, topológicamente, se puede hablar de frontera ( Fr) el conjunto de puntos de la esfera de distancia igual al radio; interior ( Int), el conjunto de puntos de distancia menor que el radio; exterior (Ext), el conjunto de puntos de distancia mayor que el radio.
+Cumpliéndose que estos tres conjuntos forman una partición del espacio, de modo que son disjuntos dos a dos y la unión de los tres es el mismo espacio.
+Propiedades
+* Cualquier segmento que contiene el centro de la esfera y sus extremos están en la superficie esférica, es un diámetro.
+* Cualquier sección plana de una esfera es un círculo.
+* Cualquier sección que pasa por el centro de una esfera es un círculo mayor, y si la sección no pasa por el centro es un círculo menor.
+Si se da un círculo de una esfera, los extremos del diámetro perpendicular a aquel se llaman polos de dicho círculo.
+Volumen
+El volumen, V\,, de una esfera se expresa en función de su radio r\, como:
+:V = \frac
+Se puede considerar el volumen de una esfera como 2/3 del volumen del cilindro circunscrito a la esfera.
+Su base es un círculo del mismo diámetro que la esfera.
+Su altura tiene la misma medida que dicho diámetro:
+:V = \frac (\pi r^2 \cdot 2r)
+Esta relación de volúmenes se adjudica a Arquímedes.
+Es posible calcular el volumen de una esfera con un margen de error aproximado al 0.03% sin utilizar el valor de π:
+:V = \frac r^3
+Área
+El área es 4 veces \pi \, por su radio al cuadrado.
+:\ A = 4\pi r^2
+Ecuaciones de la esfera
+Ecuación cartesiana
+En un sistema de coordenadas cartesianas en un espacio euclidiano tridimensional, la ecuación de la esfera unitaria (de radio 1), con centro en el origen, es:
+Esta ecuación se obtiene considerando que en el punto M (x, y, z) de la esfera, el vector normal OM es igual a 1.
+Generalizando, la esfera de radio r, de centro Ω (a, b, c) tiene como ecuación:
+La ecuación del plano tangente en el punto M (x', y', z') se obtiene mediante el desdoblamiento de las variables: en el caso de la esfera unitaria:
+y en el segundo ejemplo:
+En un espacio euclidiano tridimensional, los puntos de la superficie esférica pueden ser parametrizados de la siguiente manera:
+:\, x = x_0 + r \cos \theta \;
+\sin \varphi
+:\, y = y_0 + r \sin \theta \; \sin \varphi \qquad (0 \leq \theta \leq 2\pi \mbox 0 \leq \varphi \leq \pi ) \,
+:\, z = z_0 + r \cos \varphi \,
+donde r es el radio, (x0, y0, z0) son las coordenadas del centro y (θ, φ) son los parámetros angulares de la ecuación.
+Secciones
+La intersección de un plano y una esfera siempre es una circunferencia.
+La esfera es el único cuerpo que tiene esta propiedad.
+Lógicamente, si el plano es tangente, el área de contacto queda reducido a un punto (puede considerarse el caso límite de la intersección).
+Si el plano pasa por el centro de la esfera, el radio del círculo es el mismo que el de la esfera, r. En este caso, la circunferencia puede llamarse ecuador o círculo máximo.
+Si la distancia d, entre el plano y el centro, es inferior al radio r de la esfera, aplicando el teorema de Pitágoras, el radio de la sección es:
+:r' = \sqrt
+Por otra parte, dos esferas se intersecan si:
+:d \le r + r'
+:r - r' \le d
+(son las desigualdades triangulares, y equivalen a que ningún lado es superior a la suma de los otros dos), es decir, si existe un triángulo con lados que midan r, r' y d, donde d es la distancia entre los centros de las esferas, r y r' sus radios.
+En tal caso, la intersección es también una circunferencia.
+Cuando una de las desigualdades anteriores es una igualdad, la intersección será un punto, que equivale a una circunferencia de radio cero.
+En general, el radio es:
+:\frac 2 d \sqrt \quad \mbox \quad m = \frac 2 el medio perímetro.
+Planos en un punto de la superficie esférica
+Plano tangente
+Es el plano cuya distancia al centro de la esfera es igual a la longitud del radio.
+O bien la posición límite de los planos secantes de la esfera cuando su distancia al centro tiende a la longitud del radio.
+Dicho plano es único y siempre existe, dado un punto P= (x_0,y_0,z_0) de una esfera de radio de radio R el plano tangente viene dado por:
+Plano normal
+Sin información.
+Plano binormal
+Es el plano perpendicular tanto al plano tangente como al plano normal.
+Coordenadas sobre la esfera
+Para localizar un punto de la superficie esférica, las coordenadas cartesianas no son las más adecuadas, por varias razones: en primer lugar, porque hay tres coordenadas cartesianas, mientras que la superficie esférica es un espacio bidimensional.
+En segundo lugar, tratándose de una esfera, el ángulo es un concepto más adecuado que las coordenadas ortogonales.
+Los dos orígenes ortogonales de las coordenadas esféricas
+Se elige un ecuador y un punto del mismo como origen de los ángulos horizontales; se escoge una orientación del ecuador para definir el signo del ángulo φ; se escoge uno de los dos puntos de la esfera más distantes del ecuador -llamados polos- para definir el signo del ángulo θ
+;Determinación de los puntos mediante ángulos
+Todo punto de la esfera está localizado de manera inequívoca por los dos ángulos θ y φ.
+Con el valor de un ángulo sobre el plano horizontal (plano del ecuador) y otro vertical (desde un polo), se puede localizar cualquier punto de la esfera.
+En geometría, normalmente, se expresan estos ángulos en radianes (pues permite calcular longitudes de arcos de circunferencia), mientras que en geografía se usan los grados sexagesimales o centesimales: en este caso, θ es la latitud del punto y φ su longitud si se toma un origen en el punto del ecuador del meridiano de Greenwich y el otro origen en el polo norte.
+Las latitudes positivas corresponden al hemisferio norte, y las longitudes positivas al hemisferio Este.
+Introducir un tercer parámetro r permite localizar cualquier punto del espacio con las coordenadas esféricas (r, φ, θ).
+Si se impone tomar φ en un intervalo semi-abierto de longitud 2π y θ en uno de longitud π, entonces, cualquier punto del espacio tiene coordenadas esféricas únicas, salvo los del eje vertical, donde sirve cualquier valor de φ.
+Las coordenadas cartesianas (x, y, z) en el sistema de coordenadas esféricas (r, φ, θ) serán:
+\left\{ \begin
+x & = & r \sin \theta \; \cos \varphi
+y & = & r \sin \theta \;
+\sin \varphi\\
+z & = & r \cos
+\theta
+\end \right.
+\qquad \text- \frac 2 < \theta \le \frac 2,\ \ \text \ \ 0 < \varphi \le 2 \pi
+Recíprocamente, a partir de las coordenadas cartesianas, se obtienen las coordenadas esféricas:
+\left\{ \begin r = \sqrt \ne 0 \\
+\theta
+\arccos \frac z r
+\arccos \frac z \\
+\varphi
+\arcsin \frac y
+2 \arcsin \frac
+\end \right.
+Extremos de sólidos en la esfera
+Dada una esfera, de radio
+R, un cilindro inscrito en ella, tiene los siguientes datos, r
+radio y h= altura, cuando su superficie lateral es máxima:
+::r = \frac\times R
+::h = \sqrt\times R .
+* Un cilindro de radio
+r y altura
+h, inscrito en una esfera de radio = R, alcanza volumen máximo si se tiene los siguientes resultados:
+::r = \sqrt\times R
+::h = \frac\times R .
+Esferas
+en otras métricas
+La noción de esfera se generaliza a cualquier espacio métrico \scriptstyle (E,d) así: la esfera de centro a y de radio r es el conjunto de puntos de ese espacio que distan r del punto a, es decir:
+y la bola correspondiente es:
+Para no ser demasiado general, restrinjámonos al espacio real tridimensional, con distancias provenientes de distintas normas, y consideramos las esferas unitarias.
+Para un vector u (x, y, z) cualquiera, se definen las normas siguientes:
+:||u||1 = |x+ |y| + |z|.
+S (O,1) es un octaedro regular (figura a la derecha).
+:u2 = √ (x² + y² + z²).
+Se trata de la norma euclidiana, luego S (O,1) es la esfera usual.
+:ux|³ + |y|³ + |z|³)
+S (0,1) es una especie de forma intermedia entre la esfera usual y el cubo (figura a la izquierda).
+ux|,|y|,|z|).
+S (0,1) es un cubo.
+Esferas en topología
+Cabe tener presente que el concepto geométrico y el concepto topológico de "n-esfera" no coinciden.
+En geometría, la superficie de la esfera es llamada 3-esfera, mientras que los topólogos se refieren a ella como 2-esfera y la indican como S^2\;.
+Esferas en física
+La esfera es la figura geométrica que para igual volumen presenta la superficie externa menor.
+Esta propiedad es la causa de su omnipresencia en el mundo físico; en una gota de un líquido inmerso en un ambiente gaseoso, o entre líquidos no solubles de diferente densidad, existen fuerzas superficiales que deformarán la gota hasta encontrar el valor mínimo de tensión en todos los puntos de la misma, y este corresponde a una esfera, en ausencia de toda perturbación exterior.
+Véase también

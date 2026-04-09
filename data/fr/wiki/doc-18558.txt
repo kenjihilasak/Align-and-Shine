@@ -1,0 +1,382 @@
+Réception de la télévision terrestre|Technique de la télévision|Télévision numérique
+La télévision numérique terrestre (TNT) est une évolution technique en matière de télédiffusion, fondée sur la diffusion de signaux de télévision numérique par un réseau de réémetteurs hertziens terrestres.
+Par rapport à la télévision analogique terrestre à laquelle elle se substitue, la télévision numérique terrestre permet de réduire l'occupation du spectre électromagnétique grâce à l'utilisation de modulations plus efficaces, d'obtenir une meilleure qualité d'image, ainsi que de réduire les coûts d'exploitation pour la diffusion et la transmission une fois les coûts de mise à niveau amortis.
+La télévision numérique terrestre est à comparer à la télévision numérique reçue par câble ou par satellite (TNS).
+Dans ce dernier cas, la diffusion ne se fait pas par le réseau des émetteurs terrestre mais via un satellite (d'où l'utilisation d'antennes paraboliques au lieu d'une antenne de télévision classique dite antenne
+« râteau »).
+Introduction
+Les éléments numériques de la TNT
+Avec la TNT, comme avec la télévision analogique, les ondes radio utilisées pour transporter l'image sont analogiques.
+Ce sont d'ailleurs les mêmes bandes de fréquences qui sont utilisées dans les deux cas.
+Ce sont donc les mêmes ondes, mais encodées différemment.
+Pour la télévision analogique, le signal modulant l'onde porteuse est analogique, c'est-à-dire que le signal électrique de modulation varie proportionnellement à la luminosité voulue.
+Les 625 lignes d'une image sont balayées l'une après l'autre ;
+un repère dans le signal électrique de modulation permet au récepteur TV de se synchroniser.
+Ce qui est numérique dans la TNT, c'est l'information elle-même.
+Typiquement un fichier vidéo
+- mpeg par exemple
+- est transporté par la modulation d'ondes électromagnétiques.
+Le démodulateur extrait les données numériques du signal électrique (analogique) reçu sur l'antenne.
+Les données aux deux bouts de la chaîne étant numériques, on peut profiter du traitement numérique des données :
+* Compression des fichiers
+pour réduire leur taille (ce qui permet de mettre plusieurs programmes dans un seul canal de fréquence)
+* Code correcteur d'erreurs (on ajoute quelques données à la source, le récepteur les utilise pour détecter et corriger les erreurs introduites par le transport de l'information)
+Qu'est ce que la « modulation numérique » ?
+La modulation est le fait d'utiliser une fréquence haute (HF) pour transporter un signal électrique.
+On dit que la fréquence HF « porte » le signal à transmettre.
+Par exemple pour la radio AM, on fait varier l'amplitude de la porteuse proportionnellement au signal audio.
+Un signal audible a une fréquence basse (), est porté par une fréquence de 150 à .
+Dans le cas de la FM, c'est la fréquence de la porteuse qui varie proportionnellement au signal audio.
+Dans le cas de la TNT, la modulation est différente : on utilise un grand nombre de porteuses côtes à côtes.
+On appelle ce type de modulation de l'Orthogonal frequency
+division multiplexing (OFDM)
+Le principe est de répartir (multiplexer) les données sur plusieurs porteuses, en divisant la bande de fréquences allouée.
+Par exemple, une bande d'environ est divisée en espacées de .
+Les porteuses sont dites « orthogonales » entre elles parce que l'espacement est régulier, et qu'il est calculé très précisément pour que l'information modulée sur chacune des porteuses n'empiète pas sur la porteuse d’après.
+Avec des données numériques, il est possible de corriger en grande partie les erreurs de transmission ;
+la TNT est bien moins sensible aux bruits parasites que la TV analogique.
+L'intérêt principal de répartir les données sur est d'utiliser de façon optimale la bande de fréquence, toutes les porteuses ayant en moyenne la même puissance.
+Les émetteurs TNT peuvent émettre près de dix fois moins de puissance que les anciens émetteurs pour une même couverture.
+La correction des erreurs de transmission permet d'avoir une image parfaite, jusqu'à un certain taux d'erreurs.
+Au-dessus de ce seuil, d'abord quelques blocs ne sont plus corrigeables avec une perte de pavés d'image (il n'y a jamais de « neige » comme avec les réceptions en analogiques) mais si le nombre de défauts augmente (apparition de blocs carrés sur l’écran d'abord par intermittence puis de plus en plus fréquemment) et il arrive un moment ou aucune erreur n'est corrigeable : l'image se fige.
+Dans le cas de la TV analogique, les perturbations météorologiques faisaient apparaître des parasites sur l'image et la qualité était fortement diminuée,
+mais l'image restait visible longtemps.
+Avec la TNT, l'image reste quasi parfaite si la qualité du signal reçu est dans la zone où toutes les erreurs peuvent être corrigées.
+Si la qualité du signal reçu se dégrade des pixels commencent à manquer sur l'image, puis de plus en plus de pixels vont manquer jusqu’à ce que l'image se fige par intermittence, laissant apparaître des blocs de pixels par intermittence.
+Si le signal reçu est vraiment trop faible aucune image ne peut plus être affichée et l'écran devient noir.
+Si la qualité du signal s’améliore la qualité de l’image va aussi s’améliorer au fur et à mesure avec un comportement similaire à celui décrit précédemment, mais en sens inverse.
+Transmission
+La télévision numérique est transmise sur ondes radio à travers l'espace terrestre de la même façon que la télévision analogique, la principale différence étant l'utilisation d'émetteurs multiplex permettant la transmission de plusieurs programmes sur le même canal.
+La télévision numérique terrestre utilise les bandes de fréquences auparavant allouées à la télévision analogique (bande III en VHF, bandes et en UHF).
+Selon les pays, la transmission se fait selon les normes DVB-T (notamment en Europe), ISDB (en Amérique du Sud) ou ATSC (en Amérique du Nord).
+La quantité de données qui peut être émise (et donc le nombre de programmes) est directement affectée par la capacité du canal et la méthode de modulation du canal.
+La méthode de modulation en DVB-T est la COFDM avec soit une modulation d'amplitude en quadrature à 64 ou 16 états.
+En général, un canal 64QAM est capable de transmettre un taux supérieur d'octets, mais est plus sensible aux interférences.
+Les constellations à 16 et 64 états peuvent être combinées dans un seul multiplex, fournissant une dégradation contrôlable pour les flux de programmes plus importants.
+C'est ce qu'on appelle la modulation hiérarchique.
+Le standard ATSC utilise la modulation 8VSB, qui a des caractéristiques similaires à la modulation de bande latérale utilisée pour la télévision analogique.
+Cela protège considérablement des interférences, mais n'est pas à l'abri, contrairement au DVB-T, de multiples distorsions et ne fournit pas d'opération de réseau à fréquence unique (qui n'est en tout cas pas applicable aux États-Unis).
+Les différents systèmes utilisent le flux de transport MPEG ;
+ils diffèrent de façon significative dans la façon dont les services connexes (comme l'audio multicanaux, les légendes et guides de programmes) sont codées.
+Les codecs vidéo utilisés sont H.262 MPEG-4 AVC, plus récent et plus performant.
+H.264 permet notamment à trois services de télévision haute définition d'être transportés sur un canal DVB-T à 24 Mbit/s.
+Inconvénients
+Il peut être assez difficile de régler l'antenne, en raison de l'absence de rétroaction qui serait fournie par une image progressivement dégradée en mode analogique.
+L'image est généralement soit d'une qualité optimale soit totalement non disponible, ne fournissant aucune information sur la direction dans laquelle déplacer l'antenne.
+Un indicateur de puissance du signal fourni sur la plupart des syntoniseurs contribue considérablement à régler ce problème, mais certains téléviseurs n'en disposent pas.
+Le même problème peut aussi rendre très difficile de sélectionner et tester les antennes.
+* Les anciens récepteurs ne sont plus utilisables tels quels.
+Les magnétoscopes analogiques ne peuvent enregistrer avec leur propre syntoniseur que la télévision analogique.
+Réception
+La télévision numérique est reçue soit par un syntoniseur intégré à un téléviseur récent, soit par un boîtier décodeur numérique (en anglais set-top box) relié à un téléviseur plus ancien.
+Le récepteur décode
+signal
+reçu par une antenne de télévision standard
+Toutefois, en raison de problèmes de planification des fréquences, une antenne adaptée à la réception d'un ensemble de canaux analogique peut ne pas convenir pour un ensemble de canaux numériques.
+Ceci est assez fréquent au Royaume-Uni.
+Les antennes d'intérieur (également appelées oreilles de lapin) sont encore plus susceptibles d'être touchées par ces problèmes et peuvent avoir besoin d'être remplacées.
+Transition de l'analogique vers le numérique
+Fichier:
+Worldmap digital television transition.svg|thumb|400px|Légende :
+Allemagne
+En Allemagne, la quasi-totalité des émetteurs analogiques a été mise hors service, faisant de la TNT le seul mode de réception de la télévision hertzienne.
+Le lancement de la TNT a commencé en à Berlin, où l’extinction des émetteurs analogiques a eu lieu en .
+Depuis 2004, la TNT a démarré successivement dans d’autres régions (d’abord dans les régions urbaines, plus tard dans le reste du pays).
+En , la numérisation de la diffusion hertzienne s’est achevée avec l’extinction de quelques émetteurs analogiques en Bavière.
+Le SOA allemand est actuellement complet (état ).
+L’Allemagne
+étant un pays de la télévision par câble et de la télévision par satellite, la TNT ne couvre qu’un peu plus de 90 % des foyers, avec des zones d’ombre notamment dans les régions montagneuses et dans le nord-est du pays.
+Les multiplex des chaînes privées ne couvrent qu’environ 45 % des foyers, uniquement dans les régions de Berlin, Hambourg, Kiel, Lübeck, Brême, Hanovre, Brunswick, Cologne, Düsseldorf, Dortmund, Francfort, Nuremberg et Munich.
+Au début 2013 le groupe de Media RTL annonçait son retrait progressif de ce mode de diffusion pour des raisons économiques.
+La modulation des canaux TNT en Allemagne se fait en 16 et 64-QAM - le signal est donc plus robuste qu’en France, où on utilise le 64-QAM.
+Toutes les chaînes sont en MPEG-2 et émettent en clair.
+Toutes les chaînes sont en définition standard.
+En 2009, il n’y a pas de plans pour introduire la TNT HD.
+La puissance des émetteurs TNT en Allemagne est, en général, supérieure à celle des émetteurs français, ce qui rend la TNT plus facile à capter.
+Dans beaucoup de régions urbaines, la réception portable, voire mobile, est donc possible.
+À cause de la modulation différente, un multiplex allemand ne contient que 4 chaînes (contre 6 en France).
+Ces arbitrages techniques, qui ont été faits en faveur du téléspectateur et non du diffuseur et des chaînes, font que la qualité d'image de la TNT allemande est nettement supérieure à la TNT française, et permet notamment un meilleur taux de couverture et la réception mobile (voitures, trains, piétons, etc).
+Multiplex nationaux
+** 3sat (chaîne culturelle en coopération avec l'ARD, l'ORF et la SF) ;
+** KI.KA (chaîne jeunesse, en coopération avec l'ARD, recevable de 6 à 21 h) ;
+** ZDFneo
+chaîne pour jeunes adultes actifs, recevable de 21 à 6 h)
+Multiplex régionaux
+* 2 Multiplex de l’ARD :
+Das
+Erste (chaîne généraliste nationale de l’ARD)
+*** EinsExtra, EinsFestival ou EinsPlus (chaînes numériques de l’ARD, une chaîne par région)
+* Multiplex régional privé (~45-50 % des foyers, la composition varie selon la région) :
+** Tele
+5 ;
+** Eurosport (chaîne sportive, dans quelques régions)
+** Bibel TV ;
+La TNT allemande peut être captée en France, dans presque toute l’Alsace et dans le nord de la Lorraine.
+Passage au DVB-T2
+Depuis le 29 mars 2017, l'Allemagne a entamé sa transition officielle vers la TNT adoptant la norme de compression HEVC.
+327 transmetteurs sur 60 localisations ont assuré la transition vers la norme DVB-T2.
+La TNT allemande comprend désormais environ 20 chaînes en clair (10 chaines nationales publique, 3 chaines privées et selon les régions entre 4 et 7 chaines régionales).
+19 chaînes commerciales sont accessibles avec abonnement (Freenet.
+TV).
+Source :
+Toutes ces chaînes, désormais compressées en HEVC, sont proposées en résolution Full-HD.
+L'Allemagne doit finaliser cette transition vers le DVB-T2 en 2019.
+Andorre
+L'Andorre est le second pays d'Europe ayant incorporé la télévision numérique terrestre.
+Elle couvre tout le pays depuis 2007 et a remplacé complètement le signal analogique ;
+il n'y a plus de possibilité en Andorre de revenir au système antérieur.
+L'Andorre est aussi l'un des premiers pays à avoir adopté la fibre optique.
+Australie
+L'Australie a suivi le modèle anglais, mais a commencé plus tard ;
+le territoire à couvrir est important.
+Belgique
+Belgique francophone
+La RTBF (Communauté française) a lancé officiellement le son offre de télévision numérique terrestre en test depuis 2005.
+L’offre TNT de la RTBF comprend des programmes TV (La Une, La Deux, La Trois et Euronews) et radio (La Première, VivaCité, Musiq’3, Classic21 et Pure FM) ainsi que BRF1.
+Les locales de la communauté française souhaitent également être sur la TNT mais un décret de la Communauté Française leur interdit actuellement d’être diffusé en analogique.
+Seules les locales de Bruxelles (TéléBruxelles et TVBrussel) ont le droit de diffuser en analogique.
+n’est plus disponible sur le () de la TNT à Bruxelles, mais elle a été difficile à capter vu ses émissions en faisceau direction N-NO à partir de la région Est de Bruxelles (Tour Reyers).
+Cette chaîne n’est plus disponible en TNT depuis la fin du mois d' sur le (VRT).
+Télé Bruxelles est disponible depuis le 29 novembre 2011 sur la TNT sur le (source Télé Bruxelles ).
+Il n’y a donc qu’une chaîne régionale émise par voie analogique () à Bruxelles (état ).
+En outre, un canal DVB-H (MPEG-4 mobile) a été diffusé sur le en polarisation verticale depuis la tour des finances (début 2008) à titre expérimental, celui-ci est actuellement modulé en DVB-T.
+Une mire en compression MPEG-2 a été émise pendant quelques jours, mais ce canal ne diffuse plus aucune information (décodable en MPEG-2) (état ).
+Le avoir la potentialité d’émettre en MPEG-4 DVB-T.
+Ce canal reste cependant dévolu à la réception mobile (DVB-H) prônée par L’UER ou à la T-DMB dans un avenir proche.
+Il couvrira la province de Namur dans la mise en application de la seconde couche du plan de numérisation hertzien (source CSA belge).
+Pour ce nouveau marché, les appels d’offres seront clôturés en date du (source CSA belge).
+La région bruxelloise est actuellement couverte par un émetteur situé sur la Tour des Finances de la Cité Administrative de l’État (près du Jardin botanique) sur le en polarisation verticale ainsi que par l’émetteur de Wavre sur le en polarisation horizontale Le réseau a ensuite été complété par les émetteurs de Tournai (), d’Anderlues (), de Profondeville () et de Namur ().
+Tous ces émetteurs sont en SFN et en contre polarisation avec un constant de , sur le ().
+Depuis , les émetteurs de Léglise, Liège et Marche-en-Famenne () diffusent aussi la TNT mais sur le ().
+La couverture est de 80 % en Communauté française.
+Il est à noter que la Belgique Francophone a adopté la même robustesse de signal que la Suisse (16QAM) vu son relief géographique.
+La Flandre, quant à elle, module ses signaux en dans d’autres situations de relief géographique.
+BeTV (ex-Canal+ Belgique) a émis en numérique sur le à Bruxelles via un émetteur peu puissant ().
+Les chaînes disponibles en crypté étaient : , Be Ciné, Be Séries.
+Elle pourrait entrer dans la TNT pour la Wallonie en 2012.
+Un rapport du CSA belge prônait le lancement commercial de la TNT en Communauté Française le à la suite de la libération des fréquences analogiques de BeTV louées précédemment sous son ancien nom Canal+ Belgique et dont le contrat la liant à la RTBF s’achevait
+le .
+Ce contrat avait été renouvelé puisque les émetteurs de la RTBF émettaient toujours en analogique la chaîne en .
+La diffusion de BeTV en analogique a été stoppée le à minuit.
+Une interruption de l’émission de ces chaînes via le multiplex (TNT) a été constatée au mois de pendant cinq jours.
+Elle correspond à la reconduction du contrat de BeTV (ex-Canal+) avec les moyens techniques de la RTBF (émetteurs).
+Le premier multiplex est actuellement complet en avec émission de quatre chaînes TV, l’EPG et les chaînes radio.
+Le disparaît officiellement toute diffusion en analogique en Belgique.
+Belgique néerlandophone
+La VRT (Communauté flamande) dispose depuis le d'une nouvelle couverture intégrale en TNT (DVB-T) avec des émetteurs sur les fréquences suivantes, seul l'émetteur de Genk Limburg a été modifié dans sa puissance ou sa directivité (ex canal 41 reçu à Bruxelles avant la fin du mois d') : les autres émetteurs TNT de la VRT ont conservé la même puissance antérieure au (SOA).
+La situation flamande est donc passée de cinq multiplexes potentiels sur les canaux 22 (Bruxelles, Veltem, Sint Pieters
+- Leeuw) ;
+40 (Egem) ;
+41 (Genk) ;
+53 (Bruxelles, TV Brussel).
+Il est à noter que toutes émissions à forte puissance même en faisceau est interdite depuis la tour Reyers ;
+ce centre de télécommunication terrestre étant réservé aux relais hertziens ;
+canal 59 Anvers et Schoten (avant le SOA) à deux mux potentiels sur les canaux 22 et 25.
+* Anvers pol V PAR 5 ou , Genk pol H et Schoten pol V
+PAR
+sur le canal 25 () ;
+* Bruxelles pol V
+, Egem Beisem pol V sur le canal 22 ().
+Le canal 25 issu de Schoten (Polarisation V) et le canal 22 émis depuis Egem (Polarisation V)sont reçus en flux continu avec une antenne extérieure directrice (type yagi) sans amplificateur radio
+fréquence
+dans la région Ouest de Bruxelles
+Le bouquet reprend pour le moment les quatre chaînes publiques Één, Één+, Ketnet Canvas+ ainsi que les radios numériques :
+Radio 1, Radio 2, Klara, Klara Continuo, MNM (anciennement Donna), MNM Hits (anciennement Donna Hitbits), Studio Brussel, Sporza et Nieuws+ (boucle en continu du journal parlé).
+Le , la nouvelle chaîne Canvas+ de la VRT est apparue sur la TNT belge.
+Une quatrième chaîne, nommée , apparait le vendredi sur la TNT belge.
+L'extinction des émetteurs hertziens analogiques de la VRT a lieu dans la nuit du 2 au à .
+La réception analogique de la VRT reste possible via le câble mais une nouvelle syntonisation du canal concerné a été nécessaire.
+Depuis 2006, les deux chaînes de télévision publiques Één et Ketnet/Canvas sont disponibles sur les téléphones portables via la norme DVB-H.
+La VRT n'émet plus en DVB-H (à ).
+TV Brussel a été disponible sur le canal 53 () de la TNT à Bruxelles mais très difficile à capter, l'émetteur étant très directif Nord-Nord-Ouest à partir de l'est de Bruxelles : Reyers.
+Cette chaîne n'est plus disponible en TNT depuis la fin du mois d' sur le canal 53 (VRT).
+Depuis le mois de février, la VRT a commencé ses émissions en HD native (productions émises en (progressif) (prônée par l'UER) via le câble et le satellite, sur la Één.
+La VRT est actuellement la seule chaîne à émettre une mire chromatique et de linéarité avec des tests audios dynamiques dans le courant de la matinée.
+La VRT a décidé d'entamer une première phase de privatisation de son parc d'émission à concurrence de 49 % pour Norkring- Telenor (Norvège) 51 % pour la VRT (état ).
+Cette privatisation pourrait conduire à des parts de 74 % pour Norkring et 26 % pour la VRT, cette minorité des parts est nécessaire et suffisante dans le cas où un blocage « de minorité » serait nécessaire en vue de permettre des émissions Fédérales en Belgique (cf statut des sociétés Belges).
+La situation des médias hertziens Belges par rapport à la TNT est actuellement très critique et très préoccupante face aux nouveaux potentiels technologiques numériques, et cela engendre une certaine confusion.
+Actuellement, certains rapports mentionnent un dépassement de l'audience des médias «
+IPTV » et mobiles
+eu égard aux moyens de réception fixe pour le mois de .
+Il est évident que les statistiques en cours ne tiennent pas compte de la durée de la connexion des utilisateurs et du suivi complet d'une émission mais bien du nombre de connexions établies.
+Il faut aussi mentionner que tous les changements de fréquence d'un émetteur TNT peuvent être réalisés en une heure avec un coût de , d'après le CSA Belge.
+Cette notion doit être relativisée par rapport aux gains des antennes plus élevés aux basses fréquences UHF .
+Brésil
+La télévision numérique terrestre a été officiellement lancée à São Paulo le 2 décembre 2007, et a été déployée à partir de 2008 sur l'ensemble du territoire brésilien.
+La TNT brésilienne exploite la norme SBTVD (Sistema Brasileiro de Televisão Digital en portugais), basée sur la norme japonaise ISDB-T.
+Canada
+Le Conseil de la radiodiffusion et des télécommunications canadiennes a imposé 28 marchés à convertir leurs signaux analogiques en signaux numériques pour le 31 août 2011.
+États-Unis
+Chargée de faire appliquer la loi du prévoyant l'arrêt complet des diffusions NTSC analogiques au , la FCC () a instauré un mandat imposant, depuis le , que tout appareil de réception télé produit ou importé aux États-Unis pour la vente soit capable de recevoir les signaux numériques terrestres.
+Pour le consommateur, elle prévoit également la distribution de bons de réduction de (jusqu'à 2 par foyer) pour l'achat d'un décodeur ATSC à partir de .
+Au , stations de télévision sur le territoire américain (environ 98,8 % des stations) ont reçu leur permis de construire ou d'émettre en numérique.
+Un total de stations diffusent déjà en format numérique.
+Le SOA est différé au (d'après l'EBU).
+Les modes de diffusion terrestre hertzien et satellitaire hertzien y sont inclus vu les espaces géographiques de ce pays.
+Espagne
+En Espagne, la télévision numérique terrestre s'appelle « » (TDT).
+En 2000 une plate-forme payante de télévision numérique terrestre, Quiero TV, est lancée.
+N'ayant pas atteint la rentabilité nécessaire, cette plate-forme arrêta ses diffusions le .
+Le la Télévision numérique fut relancée avec l'émission de chaînes en (émission de la même programmation en analogique et en numérique) et avec l'apparition de nouvelles chaînes purement numériques.
+La TVE s'est vue attribuer trois canaux numériques en plus de la duplication de ses deux chaînes analogiques, et chacun des quatre opérateurs de télévision hertzienne analogique privée s'est vu attribuer, en plus de la duplication de son signal hertzien numérique, deux autres fréquences.
+Radio Televisión Española :
+La 1 SD HD, Canal 24 Horas, Clan SD HD.
+** Atresmedia :
+Antena 3 SD HD, Neox, Nova, Mega et HD.
+Mediaset
+España :
+Telecinco SD HD, Factoría de Ficción, Boing, Divinity, Energy et HD
+Sociedad Gestora de Televisión
+Net
+Disney Channel et Paramount Network.
+Pays basque:
+Chaque région décide du nombre et de la distribution public/privé mais en général les régions ont deux télévisions publiques et deux télévisions privées.
+Les télévisions locales : chaque région est divisée en zones (qui peuvent regrouper plusieurs communes).
+Dans chacune des zones, quatre ou huit chaînes de télévision (huit chaînes dans le cas des zones très habitées comme Madrid, Barcelone, Valence, etc.) vont émettre soit une chaîne publique appartenant à la mairie ou aux mairies et trois ou sept autres chaînes locales privées.
+Fin 2005, 80 % de la population recevait le signal de la TDT, 90 % était couverte fin 2008 et 95 % (98 % pour la TVE) était couverte au moment de la mise hors service du réseau analogique, le 2 avril 2010.
+France
+Italie
+L'Italie a commencé la transition vers la télévision numérique terrestre en 2003 en Sardaigne, puis dans le Val d'Aoste.
+Depuis le 27 octobre 2008, le signal analogique n'est plus émis en Sardaigne.
+Depuis le 16 juin 2009, la transition a commencé dans le Piémont et à Rome, avec l'élimination de Rai2 et de Rete4 du système analogique.
+Depuis le 16 novembre 2009, Rome a achevé la transition en numérique.
+Le 15 octobre a eu lieu la transition en Campanie et le décembre à Naples et dans sa province, tandis qu'à Salerne et Caserte les émetteurs analogiques de Rai2 e Rete4 ont été éteints.
+À la fin de 2010 la transition vers le numérique a été achevé pour l'Italie du nord (Piémont, Lombardie, Vénétie, Trentin H.A., Frioul V.J., Émilie-Romagne).
+Le gouvernement a déjà prévu d'éteindre le réseau analogique dans toute l'Italie en 2012, comme prévu par les recommandations européennes.
+Plusieurs chaînes de la TNT italienne sont disponibles par satellite avec le bouquet Tivù Sat.
+HD étend son nouveau réseau, et utilise la norme DVB-T2.
+Luxembourg
+Depuis le , le pylône de Dudelange-Ginzeberg diffuse un bouquet de neuf chaînes appartenant à RTL Group qui seront rejointes par plusieurs autres programmes luxembourgeois.
+Les programmes suivants sont diffusés en numérique terrestre :
+: Diffusion de la chaine M6 boutique and
+Co à la suite de l'arrêt d'AIR, L'Autre télé le .
+: Multiplex Belgique RTL 4, RTL 5 et RTL 7.
+* UHF Canal 27 : Multiplex Luxembourg diffusant RTL Télé Lëtzebuerg, Den 2.
+RTL et RTL
+Télé Lëtzebuerg HD.
+* VHF
+Canal 7 :
+Multiplex Luxembourg Pays-Bas
+diffusant RTL 8 (depuis le pour les Pays-Bas).
+Courant la radio RTL a été ajoutée au multiplex puis Eldoradio en octobre 2012.
+RTL9 était diffusée en analogique (canal 21, en langue française) sur l'émetteur de Dudelange jusqu'au 31 décembre 2010.
+Aucune information précise concernant son passage en numérique ne circulait, BCE ne souhaitant pas se prononcer sur un éventuel calendrier.
+Toutefois, dans le rapport d'activité 2007 du Gouvernement luxembourgeois paru en , il avait été signalé que ce programme, reçu par un public non négligeable en Lorraine, passera au numérique au plus tard au moment de l'arrêt de l'analogique en Lorraine.
+Cependant, le , Jean-Luc Bertrand, le responsable des activités pour RTL9 Est en Lorraine a indiqué que la chaîne commencerait le numérique en été 2010.
+Mais, le , AB annonce l'arrêt des émissions à destination de la Lorraine pour le .
+Après et environ, Télé-Luxembourg quitte définitivement la Lorraine et RTL9 perdurera en réseau national par câble et satellite.
+Dès le 28 février 2011, après quelques jours de test sur le canal 21 numérisé SD, AIR, L'Autre télé remplaçait le programme régional de RTL9 sur la Lorraine, à la suite du dépôt du projet «
+Notre télé », jusqu'au 17 décembre 2014, date à laquelle la chaine dépose le bilan.
+Dès le 18 décembre, les programmes sont arrêtés avec la diffusion d'une image fixe de AIR annonçant la fin de la chaîne, et une image de BCE annonçant que le canal sera prochainement disponible.
+Depuis avril 2015 ce canal diffuse les programmes de M6 boutique and Co.
+Le SOA luxembourgeois est complet (source UER).
+Maroc
+La télévision numérique terrestre a été lancée en dans les villes de Casablanca, Rabat, Fès, Meknès, Tanger, Oujda et Marrakech ce qui représente 54 % de la population.
+En juin, c'était au tour des villes d'Agadir, Laâyoune, Figuig, Tétouan et Nador de bénéficier de la TNT, ce qui a porté la couverture à 74 % de la population.
+Le bouquet gratuit comporte 9 chaînes dont les trois chaînes hertziennes analogique
+Al Aoula, 2M, Medi 1 TV (disponible en hertzien analogique et sur les satellites Hot Bird 6 et Nilesat 102) ainsi que de nouvelles chaînes créées par la SNRT (
+Télévision publique marocaine) à l'occasion de l'arrivée de la TNT :
+Al Aoula
+chaîne généraliste HD)
+, Arryadia (sport)
+, Arrabiâ (la , chaîne culturelle) et Assadissa (la , chaîne religieuse) mais également Aflam TV (Cinéma arabe et international)
+, Tamazight chaîne généraliste Berbère et Laayoune TV (Chaîne destinée notamment au Sahara marocain ;
+diffuse trois heures de programmes quotidiens)
+sauf Al Maghribiya (la marocaine, chaîne destinée aux Marocains résidents à l'étranger)
+D'autres chaînes pourraient arriver par la suite.
+D'autres évolutions sont à attendre, notamment la possibilité de regarder la TNT depuis son téléphone mobile (même si les normes DVB-H et T-DMB n'ont pas été citées).
+Le 17 juin 2015, le gouvernement annonce l'arrêt de la transmission en signal analogique de la bande UHF et laisse celui de la bande VHF, en faveur du passage au signal numérique dans presque tout le pays.
+Depuis cette date, seule
+Al Aoula est disponible.
+Norvège
+Pour la TNT, la Norvège a escamoté la phase MPEG-2 pour se lancer directement en MPEG-4 et coupe progressivement les transmissions hertziennes classiques en mode analogique.
+À terme
+et malgré une géographie au relief très accidenté, le but est de fournir l'accès TNT à environ 95 % des norvégiens.
+Le reste aura accès aux programmes gratuits via le satellite.
+Beaucoup de résidences secondaires dans les régions peu peuplées échappent à la couverture des émetteurs TNT.
+Le SOA norvégien est actuellement complet (état ).
+Les chaînes de télévision gratuite ne sont pas légion :
+S'y ajoute la populaire chaîne :
+RiksTVs et Canal Digital offrent des bouquets payants aux amateurs.
+Le bouquet des stations de radio gratuites est plus important :
+NRK P1, NRK P2, NRK P3
+, NRK Alltid
+Nyheter, NRK Alltid Klassisk, NRK
+Sami
+Radio, NRK Alltid Folkemusikk, NRK Stortinget, NRK Super, NRK Jazz, NRK Gull, NRK Sport et NRK mP3.
+Pologne
+En Pologne, la télévision numérique était avant tout satellitaire.
+Même si beaucoup de téléviseurs se signalèrent « » dans les magasins, bien peu intégrèrent un récepteur DVB-T.
+Les déploiements en Pologne se sont faits avec le codage MPEG-4 AVC.
+Le premier émetteur numérique a été activé le .
+Le lancement officiel de la télévision numérique terrestre a eu lieu le ; et la diffusion analogique s'est terminée le .
+Portugal
+Au Portugal, la télévision numérique est implantée depuis le sous le nom de TDT (Televisão Digital Terrestre).
+La TDT comprend 4 grandes chaines nationales (RTP1, RTP2, SIC, TVI), c'est-à-dire les mêmes chaînes qu'en analogique.
+À partir du 18 septembre 2012, une cinquième chaîne fera son apparition, il s'agit de ARtv, qui est la chaîne parlementaire portugaise, cette chaîne existe depuis 2002.
+Un canal HD partagé entre les chaînes nationales a été prévu, mais il n'émet aucun programme à l'heure actuelle.
+Au début des émissions TDT, il était prévu qu'il y ait huit multiplex destinés à la diffusion de la télévision numérique terrestre : un pour les chaînes gratuites et sept autres pour les chaînes payantes.
+Désormais, à la suite de l'abandon de PT Comunicações, seule entreprise à être habilitée à développer la télévision payante par la TDT, l'utilisation des ressources hertziennes vacantes sont remises en question.
+On parle de diffuser les chaînes gratuites existantes en HD.
+Actuellement ce sont officiellement 9 millions de Portugais qui sont couverts par le numérique, soit 90 % de la population portugaise.
+La télévision numérique terrestre n'est diffusée qu'en norme MPEG-4.
+Le 2016, deux nouvelles chaînes complètent l'offre TDT avec RTP3, chaîne d'information en continu et RTP Memória, chaîne d'histoire télévisuelle (sorte d'INA).
+Deux autres chaînes de télévision régionales appartenant au groupe RTP, sont incluses dans la TDT, mais leur transmission n'est effective que sur les archipels des Açores ou Madère :
+* RTP Madeira, (
+créée en 1972) diffusée exclusivement à Madère
+* RTP Açores
+, (créée en 1975) diffusée exclusivement aux Açores
+La télévision analogique s'arrêtera en plusieurs phases :
+* Courant 2011 : Zones pilotes, afin d'évaluer l'impact de ce dernier :
+* :
+Le reste du pays, arrêt définitif de la télévision analogique au Portugal
+Russie
+La télévision numérique terrestre est apparue en été 2009 avec le lancement d'un premier multiplex comprenant : Perviy Kanal, Rossiya-1, Rossiya-2 (maintenant Match-TV), NTV, Pétersbourg TV-5, Rossiya-K, Rossiya-24, Bibigon (devenue Carousel).
+Au printemps 2013, s'est ajouté deux autres chaînes sur ce multiplex : OTR et TV-Center.
+Le format numérique DVB-T sur DVB-T2 a été remplacé le 19 mars 2012
+Lancement du deuxième multiplex le 14 décembre 2012, comprenant : REN TV, TV Center , STS, Domashniy, Sport , NTV Plus Sport Plus , Zvezda, Mir, TNT et Muz-TV.
+En 2014, lancement du troisième et quatrième multiplex en Crimée, après l'annexion de cette région par la Russie.
+Le 15 janvier 2015 est lancé à Moscou et sa région un troisième multiplex diffusant certaines chaînes par satellite (telles que sur 22 canaux 2х2 à 24h et dans les 11h59, My planet dans les 12h-18h, et dans les 18h-24h
+- Nauka 2.0).
+Le 30 novembre 2018, un calendrier connu pour éteindre la télévision analogique en Russie et le 10 décembre 2018, le ministère du Développement numérique, des Communications et des Communications de masse de la Fédération de Russie a approuvé le calendrier pour éteindre la radiodiffusion analogique.
+3 décembre 2018 - la région pilote est déconnectée, la télévision analogique est déplacée dans la Oblast de Tver
+À partir du 11 février 2019, la désactivation progressive de la télévision analogique commencera 7 régions
+Et le 15 avril 2019, 20 régions seront coupées (y compris Moscou et la Oblast de Moscou)
+Et le 3 juin 2019 désactivera toutes les régions de la Russie (y compris Saint-Pétersbourg et la Oblast de Leningrad, et la République de Crimée et Sébastopol)
+Et les canaux d'éther non piétinés dans le paquet de deux multiplex, iront à la télévision par câble et par satellite
+Le premier multiplex:
+Le deuxième multiplex
+Royaume
+Uni
+La TNT est présente au Royaume-Uni depuis 1998 sous le nom de OnDigital et depuis 2001 ITV Digital.
+Depuis la faillite de ITV Digital, la TNT a été relancée le sous le nom de Freeview.
+Le bouquet, diffusé en clair, est composé d'une trentaine de chaînes de télévision et d'une vingtaine de radios.
+En 2012, le service analogique disparaîtra et les émissions de télévision se feront exclusivement en numérique.
+La couverture actuelle de la diffusion du service numérique est d'environ 98,5 %.
+Un bouquet payant appelé est également disponible.
+Il regroupe une douzaine de chaînes supplémentaires.
+La TNT au Royaume-Uni est également disponible par satellite avec Freesat, qui regroupe plus de 150 chaînes nationales, régionales et internationales.
+Suède
+En Suède, les émissions de la TNT ont débuté en 1999.
+L'extinction des fréquences analogiques a commencé le et s'est achevée
+le .
+La diffusion en clair de chaînes de la TNT est assurée par Teracom, une société contrôlée par l'État suédois.
+Cette diffusion concerne notamment un bouquet de chaînes publiques du groupe Sveriges Television (SVT1, SVT2, SVT24, Barnkanalen et Kunskapskanalen).
+D'autres bouquets diffusés en clair proposent des chaînes privées financées par la publicité.
+Un bouquet de chaines payantes est également proposé par la société .
+À noter que les chaînes Finlandaises sont reçues en TNT à Stockholm.
+Suisse
+La transition vers la télévision numérique terrestre s'est déroulée en Suisse entre 2003 et le .
+Cependant, les multiplex nationaux ont été arrêtés en 2019.
+Ce sont principalement les chaînes du service public SRG SSR
+idée
+suisse
+qui ont été diffusées en TNT, à raison d'un multiplex dans chaque région linguistique.
+Le déploiement s'est effectué progressivement et, au départ, en parallèle des diffusions analogiques existantes, région par région, à partir de 2003 au Tessin, ou à partir du dans le bassin lémanique.
+Les derniers émetteurs analogiques ont été arrêtés en 2008.
+La réception hertzienne étant relativement marginale en Suisse, la diffusion en TNT des chaînes du service public a été arrêtée le 3 juin 2019.
+Deux réseaux privés à péage émettaient également dans des régions de montagne non couvertes par le câble (au Valais et dans les Grisons).
+Ces réseaux ont été arrêtés en 2013 et 2018.
+La seule chaîne indépendante diffusée en TNT est Léman Bleu qui dispose d'un émetteur unique à Genève converti au numérique le .
+À l'été 2019, il s'agit de la seule émission TNT subsistant en Suisse.
+Tunisie

@@ -1,0 +1,73 @@
+Microsoft Windows|Microsoft Windows
+Server|Système d'exploitation abandonné|Produit lancé en 1996|Produit arrêté en 2006
+Windows
+NT 4.0, apparu en 1996
+, est une version professionnelle de Microsoft Windows orientée réseau et sécurité.
+Contrairement à Windows 95 elle ne repose pas sur MS-DOS.
+Son architecture est 100 % , , multi-utilisateur et multi-processeur, contrairement à Windows 95 qui utilise un noyau hybride 16/, et est mono-processeur et mono-utilisateur.
+Une identification par mot de passe est nécessaire pour accéder à l'interface du système ;
+de plus, l'utilisation du système de fichiers NTFS permet d'attribuer des permissions sur les fichiers et dossiers en fonction du nom de l'utilisateur ou de son appartenance à un groupe de sécurité.
+Windows
+NT 4.0 a reçu la certification de sécurité C2 de la part du gouvernement américain.
+À noter cependant que cette certification n'est valide que tant que Windows est utilisé hors réseau, en poste de travail isolé.
+Les systèmes de fichiers supportés sont FAT16 (ne gère pas la FAT32 sauf avec un pilote propriétaire conçu par la société Winternals) et NTFS 1.2.
+C'est la première édition de la branche NT à fonctionner avec la couche d'abstraction matérielle.
+Cela permet d'adapter Windows au type de processeur et carte mère utilisé.
+Windows
+NT 4.0 est livré avec deux HAL différentes : « PC Standard » et « PC SMP ».
+De plus l'intégration de la gestion graphique dans le noyau du système d'exploitation permet à Windows NT 4.0 d’accroître sa vitesse par rapport aux versions précédentes.
+Le CD de Windows
+NT 4.0 contient en plus de la version pour l'architecture x86, les éditions pour les architectures, PowerPC, DEC Alpha et MIPS.
+C'est la dernière version de Windows qui supporte ces trois architectures.
+NT » signifie « ».
+Son successeur est Windows 2000.
+Apparence et fonctionnement
+Windows
+NT 4.0 offre une interface graphique similaire à celle de Windows 95.
+Le slogan de NT4 est d'ailleurs : « 95 interface, NT power.
+» (Interface de 95, puissance de NT).
+Internet
+Explorer 2 était livré avec NT4 avec le Service Pack 1.
+Internet Explorer 4 (avec le pack « Plus !
+») est proposé à l'installation de NT4 avec le Service Pack 3.
+Cela donne à l'interface de NT4 certaines fonctions similaires à celle de Windows 98 (affichage des fenêtres pendant leur déplacement, lissage des icônes…).
+Ce système est très stable et réactif, ceci grâce à l'isolation des processus en mémoire ainsi que l'interdiction de l'accès direct au matériel.
+Concrètement, le plantage d'un programme donné ne risque plus de s'étendre à d'autres ou de rendre le système instable ;
+un programme malveillant, tel le virus C.I.H., ne peut plus changer les paramètres du BIOS pour détruire physiquement l'ordinateur.
+Seuls des pilotes mal programmés sont encore susceptibles de mener à un écran bleu.
+La configuration minimale préconisée pour Windows
+NT 4.0
+Workstation est : processeur Intel 80486, de RAM et d'espace disque.
+Dans la pratique, mieux vaut disposer d'un processeur Pentium avec de RAM ;
+ces besoins élevés pour l'époque ont beaucoup nui
+à la diffusion de la version
+Déclinaisons
+Windows
+NT 4.0
+est décliné en quatre versions :
+* , destiné aux serveurs d'entreprise avec fonction .
+Comparativement à la version , NT 4.0
+Server apporte les fonctions de contrôleur de domaine, serveur DHCP, serveur DNS statique, serveur WINS, serveur HTTP/FTP et Gopher (avec IIS 3.0 et 4.0), serveur RAS, serveur de fichiers et d'impression à partir de 10 utilisateurs simultanés.
+, sorti en 1998, ajoute la fonction Terminal Services permettant d'accéder à l'interface graphique du serveur à partir de n'importe quel poste équipé de Windows 3.11 minimum.
+Cela permet d'utiliser des terminaux dépourvus de puissance propre qui se contentent d'afficher le bureau du serveur distant, l'utilisateur travaillant entièrement à travers le réseau.
+Popularité et critiques
+a rapidement été un grand succès en entreprise, son interface conviviale mettant l'administration d'un réseau à la portée du plus grand nombre.
+n'a été véritablement déployé que dans certaines entreprises où la sécurité des données sur le poste était primordiale.
+Ses insuffisances par rapport à Windows 95 pour l'utilisateur courant, notamment en matière de jeux, ont limité son succès.
+Il est resté largement inconnu parmi le grand public.
+Plus stable que les versions 95 et 98, il est surtout destiné à un usage bureautique et ne nécessite que peu de ressources : la configuration minimale est un 80 486 SX 25 équipé de de mémoire
+Les insuffisances souvent retenues pour Windows NT 4.0 sont :
+* absence de support du en natif : nécessité d'installer les drivers supplémentaires présents sur le CD d'installation (dossier \Drvlib\Pnpisa) ;
+* absence de support de l'USB en natif : nécessité d'installer des drivers supplémentaires
+* défaut de support de DirectX, limitant le fonctionnement des jeux récents ;
+* défaut de compatibilité pour les applications DOS.
+Windows
+NT comprend un émulateur DOS nommé « » (NTVDM ou Machine DOS Virtuelle), cependant incapable d'émuler correctement les anciens jeux et programmes système ;
+* absence de vérification de la validité des drivers installés : la signature des drivers ne sera développée qu'à partir de Windows 2000.
+Support
+Windows
+NT 4.0 a connu 6 Service Packs successifs depuis sa sortie.
+Le Service Pack 6 a apporté le support du chiffrement 128-bits au système ;
+du fait de restrictions à l'exportation, la version française du Service Pack est limitée à 40-bits.
+Il n'est plus soutenu par Microsoft depuis le .
+Les failles de sécurité critiques apparues depuis ne sont donc pas corrigées.

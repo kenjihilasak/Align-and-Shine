@@ -1,0 +1,103 @@
+In fisica lattrito è una forza che si oppone allo scivolamento o rotazione/rotolamento di un corpo su una superficie.
+La forza d'attrito che si manifesta tra superfici in quiete tra loro è detta di attrito statico, mentre tra superfici in moto relativo si parla invece di attrito dinamico.
+L'attrito è un fenomeno macroscopico sempre presente nel mondo reale presentando vantaggi e svantaggi a seconda del contesto di analisi e la cui origine fisica è fatta risalire alle forze di adesione o coesione tra materiali in interazione tra loro, le quali a loro volta derivano in ultima analisi dall'interazione elettrostatica tra i materiali in questione.
+Storia
+Aristotele non isolò il fenomeno dell'attrito, legandolo inscindibilmente alla dinamica di un corpo:
+nel suo modello per principio un corpo tenderebbe naturalmente a fermarsi se non mosso da qualche forza, in accordo con le proprie osservazioni del mondo quotidiano.
+Fu invece Galilei a rendersi conto grazie agli esperimenti sul piano inclinato che era un fenomeno variabile in base al tipo di contatto tra i corpi, e che non era quindi "proprio" dei corpi stessi.
+Coulomb proseguì lo studio fino ad arrivare all'enunciazione di tre leggi classiche riguardanti in particolare l'attrito radente:
+questo dipende linearmente dal carico di compressione delle superfici, non dipende dall'estensione della superficie di contatto tra i due corpi, ed infine non dipende dalla velocità relativa di strisciamento di un corpo sull'altro.
+Queste tre "leggi" sono in realtà approssimazioni, in quanto valide solo sotto particolari ipotesi riduttive.
+In particolare l'ultima legge è valida solo per velocità di strisciamento piuttosto ridotte, poiché all'aumentare della velocità il coefficiente di attrito diminuisce con legge non lineare;
+la seconda legge è valida per superfici mediamente piane e non eccessivamente ridotte, mentre al loro tendere al minimo (forza concentrata) il coefficiente di attrito può diminuire;
+infine la prima legge (di linearità) è valida fintanto che i materiali a contatto siano sufficientemente isotropi, esibiscano comportamenti elastici e poco viscosi e che l'intervallo di tempo in cui la superficie è a contatto sia sufficientemente lungo, mentre in caso di materiale viscoso, anisotropo e/o plastico (come alcuni terreni) o con tempi di contatto ridotti (come per ruote pneumatiche che ruotino velocemente, anche se senza scorrimenti) il legame carico di compressione/attrito diviene non-lineare.
+Un esempio quotidiano della non validità dell'ultima legge si manifesta oggi nei freni automobilistici:
+la forza frenante non dipende solo dal coefficiente μrd e dalla forza che preme il tamburo sul cerchione o la pastiglia sul disco (mentre è sostanzialmente indipendente dall'estensione dell'area di quest'ultimo), ma dipende anche dalla velocità di strisciamento tra pastiglia e disco, e di conseguenza una frenata di intensità costante ha una efficacia che aumenta al diminuire della velocità, causando il classico effetto di "contraccolpo" al momento dell'arresto.
+La causa dell'attrito radente fu però sempre individuata nelle asperità tra le superfici a contatto fino a Hertz, che invece dimostrò come l'attrito radente sia dovuto soprattutto a fenomeni di adesione (legami chimici) tra le superfici a contatto, e modificò quindi il modello matematico del fenomeno.
+Si osserva in particolare che lastre metalliche lucidate a specchio in condizioni di vuoto spinto possiedono un coefficiente di attrito enorme.
+Infine la spiegazione quantistica dell'attrito ne lega le cause all'interazione elettrostatica attrattiva tra le molecole delle superfici di contatto, come evidente nel modello di Tomlinson.
+Tipologia
+Secondo l'interpretazione classica, esistono tre diversi tipi di attrito:
+Attrito radente
+L'attrito radente è dovuto allo strisciamento (ad esempio, l'interazione tra due superfici piane che rimangono a contatto mentre scorrono l'una rispetto all'altra).
+Si esercita tra le superfici di corpi solidi a contatto ed è espresso dalla formula:
+_ = \cdot _
+dove Fr è la forza di attrito radente, \mu_r il coefficiente di attrito radente e _ la componente perpendicolare al piano di appoggio della risultante delle forze agenti sul corpo.
+Per un corpo appoggiato su un piano orizzontale _ è semplicemente uguale a F_p, forza peso del corpo;
+per un corpo appoggiato su un piano inclinato di un angolo \alpha rispetto all'orizzontale risulta invece
+_ = _ \cos \alpha
+Il coefficiente d'attrito è una grandezza adimensionale e dipende dai materiali delle due superfici a contatto e dal modo in cui sono state lavorate.
+Esso corrisponde al rapporto tra la forza di attrito tra due corpi (_) e la forza che li tiene in contatto ( _).
+Il coefficiente di attrito statico \mu_ è sempre maggiore o uguale al coefficiente d'attrito dinamico \mu_ per le medesime superfici.
+Dal punto di vista microscopico, esso è dovuto alle forze di interazione tra gli atomi dei materiali a contatto.
+Questo implica che la forza necessaria al primo distacco (cioè per far sì che i corpi inizino a strisciare) è superiore a quella necessaria a tenerli in strisciamento.
+Il coefficiente di attrito statico è uguale alla tangente dell'angolo massimo raggiungibile tra le due forze prima che uno dei due corpi cominci a scivolare lungo l'altro (angolo di attrito).
+La forza di attrito, definita dalla prima delle due formule scritte sopra, rappresenta la forza di attrito massima che si manifesta nel contatto tra due superfici.
+Se la forza motrice F_m è minore di \mu_ F_p, allora l'attrito è pari a F_m e il corpo non si muove;
+se F_m supera \mu_ F_p, il corpo inizia a muoversi;
+per valori di F_m ancora maggiori, l'attrito (dinamico) è sempre costante e pari a \mu_ F_p.
+Calcolo del coefficiente d'attrito dinamico
+Si può calcolare il coefficiente d'attrito dinamico di un materiale su di un altro attraverso un piano inclinato, facendolo strisciare su di esso.
+Lasciando andare il corpo, esso si muoverà di moto rettilineo uniformemente accelerato, con accelerazione pari a:
+a=\frac
+dove a è l'accelerazione, s è lo spazio percorso e t è il tempo trascorso.
+La forza che muove il corpo è pari a:
+F_m
+F_-_
+mg\sin-mg\cos\alpha=mg (\sin-\cos \alpha)
+Dove F_m è la forza che muove il corpo, F_ è la forza parallela al piano inclinato, F_d è l'attrito dinamico, m è la massa, g è l'accelerazione di gravità, \alpha è l'angolo d'inclinazione del piano e \mu_ è il coefficiente d'attrito dinamico.
+Dividendo la forza risultante per la massa del corpo si ottiene l'accelerazione:
+\frac
+\frac=g (\sin-\cos \alpha)
+Ora si mettono a confronto le due formule dell'accelerazione:
+\frac=g (\sin-\cos \alpha)
+e risolvendo l'equazione, si trova:
+=\tan-\frac
+Attrito volvente
+Il rotolamento di norma è reso possibile dalla presenza di attrito radente statico tra la ruota e il terreno;
+se questo attrito non ci fosse, o fosse molto piccolo (come nel caso di un terreno ghiacciato), la ruota striscerebbe senza riuscire a compiere un rotolamento puro, nel qual caso entrerebbe subito in gioco l'attrito radente dinamico che si oppone allo slittamento e, riducendo progressivamente la velocità relativa fra i corpi striscianti, tende a ripristinare le condizioni di puro rotolamento.
+Un caso in cui il puro rotolamento può avvenire senza l'aiuto dell'attrito statico si ha quando una ruota che sta già rotolando su un piano orizzontale con velocità angolare \omega = V/r, dove V è la velocità del centro di massa della ruota, viene lasciata a sé stessa:
+in tal caso l'attrito statico assume il valore zero e solo l'attrito volvente può frenare il rotolamento, riducendo simultaneamente e armonicamente sia la velocità di traslazione sia quella di rotazione della ruota in modo che il puro rotolamento si conservi fino a fine corsa.
+Se si applica un momento alla ruota, essa inizia a rotolare senza strisciare fintanto che il momento applicato è minore di R \cdot \mu_ \cdot F_p, dove R è il raggio della ruota.
+Se il momento supera questo valore, la forza motrice applicata alla superficie della ruota supera l'attrito statico massimo e la ruota slitta mentre rotola;
+è la classica "sgommata" ottenuta accelerando da fermi in modo repentino.
+L'effetto dell'attrito volvente si può descrivere spostando leggermente in indietro, nel senso opposto al moto, la reazione vincolare (in genere non perfettamente normale) esercitata dal piano di rotolamento sul corpo rotolante, di modo che tale reazione vincolare abbia non solo una componente contraria al moto traslatorio, ma anche un momento di forza rispetto all'asse di rotazione della ruota che si oppone al moto rotatorio.
+Una siffatta reazione vincolare è la sintesi schematica del campo di sforzi che sorgono e si distribuiscono sull'intera area di contatto (che non è mai veramente puntiforme o riducibile ad un segmento) tra la ruota e il terreno:
+la rotazione causa di fatto una deformazione dell'area di contatto e quindi una distribuzione delle forze di pressione, dovute alla forza peso, non uniforme su tutta la superficie di contatto;
+il risultato di queste interazioni si può riassumere dicendo che il piano di rotolamento esercita sulla ruota una forza vincolare quasi-normale, rivolta verso l'alto e all'indietro rispetto al moto, la cui linea di applicazione di norma non passa per l'asse della ruota, di modo che tale forza produce sia una debole resistenza al moto traslatorio sia un debole momento torcente opposto al senso del rotolamento in atto.
+Quantitativamente, questo tipo di attrito è espresso da un'equazione simile alla precedente,
+_ =\frac
+A parità delle altre condizioni, infatti, la resistenza opposta dall'attrito volvente è tanto minore quanto maggiore è il raggio di curvatura del corpo che rotola.
+Calcolo del coefficiente d'attrito volvente
+Il coefficiente d'attrito volvente ha le dimensioni di una lunghezza.
+Similmente all'attrito radente, è possibile calcolare il coefficiente d'attrito volvente di un materiale su di un altro attraverso un piano inclinato, facendolo rotolare su di esso.
+Lasciando andare il corpo, esso si muoverà di moto rettilineo uniformemente accelerato, con accelerazione pari a:
+a=\frac
+La forza che muove il corpo è pari a:
+F_m
+F_-_
+mg\sin-\frac=mg \left (\sin-\frac\right)
+Dividendo la forza risultante per la massa del corpo si ottiene l'accelerazione:
+\frac
+\frac=g\left (\sin-\frac\right)
+Ora si mettono a confronto le due formule dell'accelerazione:
+\frac=g\left (\sin-\frac\right)
+e risolvendo l'equazione, si trova:
+=r\left (\tan-\frac\right)
+Più in generale il coefficiente di attrito volvente è all'incirca direttamente proporzionale al coefficiente di attrito statico e inversamente proporzionale al raggio della ruota.
+L'attrito statico è sempre maggiore dell'attrito dinamico e l'attrito radente è sempre maggiore dell'attrito volvente, da cui il successo dell'invenzione della ruota.
+Attrito viscoso
+Quando un corpo si muove all'interno di un fluido (liquido o gas) è soggetto ad una forza di attrito dovuta all'interazione del corpo con le molecole del fluido.
+Tale forza di attrito è legata ad un numero adimensionale detto numero di Reynolds:
+\mathrm = \frac ,
+in cui R_s è la dimensione caratteristica dell'oggetto, nel caso di un sistema isotropo il raggio della sfera, \mathrm = \vert \vec \, \vert la sua velocità scalare, \rho la densità del fluido e \eta la viscosità del fluido.
+Se il corpo si muove a bassa velocità, così che nel flusso prevalgano le forze di viscosità rispetto a quelle d'inerzia (regime di Stokes) ovvero per \hbox 1), le forze d'inerzia prevalgono rispetto alla viscosità ed il moto relativo del fluido è detto laminare (fino a \hbox = 10^6) oppure turbolento (per \hbox > 10^6).
+In tale caso è possibile approssimare la forza di attrito con la formula
+F_a = \frac c_r \, \rho \, S \,
+dove S è l'area della sezione frontale del corpo e cr un coefficiente aerodinamico di resistenza (adimensionale) che tiene conto della forma e del profilo del corpo in moto nel fluido.
+I valori di cr riportati per una sfera variano tra 0,4 e 0,5, mentre si hanno valori maggiori di 1 per oggetti di forma irregolare.
+Per un profilo alare cr può anche essere significativamente minore di 0,1.
+La velocità in questo caso è lungo l'asse della direzione di avanzamento principale e c_r è proporzionale all'angolo di attacco del mezzo.
+Effetti
+Gli effetti dell'attrito sono la dispersione dell'energia meccanica (energia cinetica) in calore, il che riduce il rendimento del movimento, ma in alcuni casi questo attrito può essere utile, qualora non si cerchi un movimento ma un'adesione/controllo, soprattutto in ambito stradale, o nelle attività fisiche, permettendo gli spostamenti e azioni che altrimenti non sarebbero possibili, difatti la tenuta stradale e la camminata/passeggiata, sono possibili anche grazie all'attrito con il suolo.
+Note

@@ -1,0 +1,111 @@
+La moltiplicazione è una delle quattro operazioni fondamentali dell'aritmetica.
+È un modo rapido per rappresentare la somma di numeri uguali.
+Il risultato di una moltiplicazione è chiamato prodotto, mentre i due numeri moltiplicati sono detti fattori se considerati insieme, e rispettivamente moltiplicando e moltiplicatore se presi individualmente.
+Notazione
+Nella scrittura matematica, esistono due diversi simboli utilizzati per indicare la moltiplicazione:
+entrambe le seguenti notazioni significano "cinque moltiplicato per due volte" ed entrambe si leggono cinque per due:
+\begin
+5 \times 2\\
+\end
+Qualora i due moltiplicandi non siano scritti in cifre, e quindi non ci sia il rischio di equivoco, è possibile anche semplicemente giustapporli, come in:
+\,2
+\,2 (z + 2)
+anche per leggere queste formule vale lo stesso principio:
+se non c'è rischio di equivoco si può omettere il per, come nella prima (due zeta), altrimenti verrà detto, come nella seconda (due per, aperta parentesi, zeta più due, chiusa parentesi o due per, tra parentesi, zeta più due) o infine due che moltiplica zeta più due.
+Nei linguaggi di programmazione e nelle calcolatrici, la moltiplicazione viene solitamente indicata con l'asterisco
+Definizione per numeri naturali
+Dati due numeri interi positivi n e m, detto il primo "moltiplicando" ed il secondo "moltiplicatore", la definizione di moltiplicazione non è altro che:
+n \cdot m := \underbrace_
+ovvero "addizionare il numero n per m volte".
+Usando una formula più ristretta, con il simbolo di sommatoria:
+n \cdot m := \sum_^m
+Quindi, per esempio:
+2 ×
+2 + 2 + 2 + 2 +
+5 ×
+3 ×
+m × 6 = m + m + m + m + m + m
+Data la proprietà commutativa della moltiplicazione (vedi più in basso), talvolta si dà la seguente definizione (equivalente) di moltiplicazione:
+n \cdot m :
+\sum_^n m
+\underbrace_
+Proprietà algebriche
+A partire dalla definizione, si può dimostrare che la moltiplicazione ha le seguenti proprietà:
+;Proprietà commutativa
+Non ha importanza l'ordine con cui vengono moltiplicati due numeri.
+Infatti, per ogni coppia di numeri x e y,
+x\cdot
+y = y\cdot x
+È importante sottolineare che questa proprietà vale solo per i numeri (interi, razionali, reali, complessi), ma non vale sempre, ad esempio non vale quando si moltiplicano tra loro matrici e quaternioni.
+;Proprietà associativa
+Per ogni terna di numeri x, y e z,
+(x\cdot y)\cdot z = x\cdot (y\cdot z)
+cioè non ha importanza l'ordine con cui vengono eseguite le operazioni se queste coinvolgono solo le moltiplicazioni.
+;Proprietà distributiva rispetto all'addizione
+Si può "distribuire" la moltiplicazione ai vari addendi di una somma:
+x\cdot (y + z) = x\cdot y + x\cdot z
+Elemento neutro
+Ogni numero moltiplicato per 1 è pari a se stesso:
+x\cdot 1 = x
+1\cdot x = x
+Il numero 1 è detto anche elemento neutro per la moltiplicazione.
+Elemento zero
+La moltiplicazione di qualsiasi numero per zero ha zero come risultato:
+per un qualunque x (finito).
+Questa definizione è coerente con la proprietà distributiva, infatti:
+\cdot
+\cdot (y + 0)
+(x \cdot y) + (x
+\cdot 0)
+Per la moltiplicazione nel campo dei numeri razionali (v. sotto) vale anche
+Esistenza dell'inverso
+Qualsiasi numero x, ad eccezione dello zero, ha un inverso rispetto alla moltiplicazione, \frac, cioè un numero definito in modo tale che:
+x\cdot\left (\frac\right) =
+La moltiplicazione con gli assiomi di Peano
+Nel libro Arithmetices principia, nova methodo exposita, Giuseppe Peano propose un sistema assiomatico per i numeri naturali;
+due di questi assiomi riguardano la moltiplicazione:
+a\times 1=a
+a\times b'= (a\times b)+a
+Qui b rappresenta l'elemento dei numeri naturali successivo di b. Con gli altri nove assiomi di Peano, è possibile provare le regole comuni della moltiplicazione, come la proprietà distributiva e associativa.
+I due assiomi elencati forniscono una definizione ricorsiva della moltiplicazione.
+Numeri negativi e regola dei segni
+Estendiamo l'operazione di moltiplicazione al caso dei numeri negativi, definendo quanto segue:
+dato x numero naturale
+(-1)\cdot x = -x
+dove con − x si intende l'inverso additivo di x :
+Da qui abbiamo che la moltiplicazione di interi qualunque si riduce alla moltiplicazione di interi positivi e di -1.
+Lo schema che ne deriva è detto regola dei segni:
+*Il prodotto di due numeri positivi è un numero positivo:
+ovvero "più per più fa più".
+*Il prodotto di un numero negativo per un numero positivo, o viceversa, è un numero negativo:
+-\cdot\ + =\ -
+ovvero "più per meno fa meno".
+*Il prodotto di due numeri negativi è un numero positivo:
+ovvero "meno per meno fa più".
+Quest'ultima regola pratica ha un'interpretazione anche nella vita reale.
+Supponiamo di guadagnare m euro l'anno;
+tra n anni avremo mn euro (un numero positivo), mentre se questo guadagno era iniziato nel passato allora n anni fa (cioè "tra meno n anni") avevamo mn euro in meno (un numero negativo).
+Se invece perdessimo m euro l'anno (cioè guadagnassimo "meno m euro"), tra n anni ne avremo mn in meno, ma n anni fa ne avevamo mn in più di quanti ne abbiamo ora!
+Numeri razionali, reali e complessi
+La definizione di moltiplicazione si può infine estendere ai numeri razionali, ai numeri reali, e ai numeri complessi.
+Per i numeri razionali abbiamo che
+\frac \cdot \frac = \frac,
+verificando che la definizione è indipendente dai rappresentanti scelti.
+Per i numeri reali, una definizione di moltiplicazione si può ottenere prendendo il modello di numero reale come sezione di Dedekind:
+dati due numeri reali positivi, rappresentati come sezioni in campo razionale, moltiplicando (con opportuni accorgimenti) i minoranti tra loro e i maggioranti tra loro si ottiene ancora una sezione, che rappresenta il prodotto dei due numeri.
+La definizione si può poi estendere a tutti i numeri reali seguendo la regola dei segni indicata nella sezione precedente.
+Per i numeri complessi, infine, si ha:
+( a + ib ) \cdot ( c + id ) = (ac - bd) + i (bc + ad) .
+Computazione
+** per moltiplicare due numeri con carta e penna, l'approccio più comune fa uso della tavola pitagorica, e di un algoritmo che ottiene il prodotto finale come somma di tanti prodotti di moltiplicazioni più semplici.
+Il tempo impiegato con questo metodo cresce con l'aumentare delle cifre dei numeri da moltiplicare;
+se si vuole risparmiare tempo, ed è sufficiente un risultato approssimato, si possono usare l'algoritmo di prostaferesi, o meglio ancora quello dei logaritmi.
+** il supporto strumentale più antico è l'abaco che permette di ottenere risultati esatti.
+Risale al XV secolo il regolo calcolatore che dà risultati approssimati (ma è molto più rapido).
+Nel XX secolo, più per sfizio accademico che per reale necessità pratica, è stato progettato un regolo prostaferico
+** nel 1962 il matematico russo Anatoly Karatsuba definisce il primo algoritmo per la moltiplicazione con complessità meno che quadratica;
+nel 1963 un altro russo, Andrei Toom, pone le basi per l'algoritmo di Toom-Cook, con complessità ancora inferiore.
+** Nel XVIII secolo Gottfried Leibniz perfeziona la pascalina aggiungendo la moltiplicazione alle funzioni disponibili.
+** Le moderne calcolatrici tascabili racchiudono la logica degli algoritmi in un microchip.
+** Una panoramica dei modi per implementare informaticamente la moltiplicazione è disponibile su questa pagina.
+Note

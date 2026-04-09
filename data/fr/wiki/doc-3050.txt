@@ -1,0 +1,129 @@
+Mécanique ondulatoire|Radiofréquence
+En physique, la fréquence est le nombre de fois qu'un phénomène périodique se reproduit par unité de mesure du temps.
+Son unité dans le Système international d'unités est le hertz (Hz).
+La notion de fréquence s'applique aux phénomènes périodiques ou non.
+L'analyse spectrale transforme la description d'un phénomène en fonction du temps en description en fonction de la fréquence.
+Dans plusieurs domaines technologiques, on parle de fréquence spatiale.
+Dans cet usage, une dimension de l'espace prend la place du temps.
+S'il existe une variation périodique dans l'espace, la fréquence spatiale est l'inverse de la distance minimale à laquelle on retrouve la forme identique, par exemple en imprimerie la linéature.
+On peut appliquer à l'espace les règles de l'analyse spectrale, comme on le fait dans les systèmes de compression numérique des images.
+Dans le cas des ondes progressives, la fréquence spatiale ou nombre d'onde est le quotient de la fréquence par la vitesse de l'onde.
+La pulsation d'un phénomène périodique est la valeur de la vitesse de rotation qu'aurait un système en rotation de même fréquence : pour une fréquence f, la pulsation est donc ω = 2π.f (rad/s).
+L'idée de répétition et le temps
+La fréquence, dans ce qu'elle a de plus accessible intuitivement, mesure un phénomène périodique
+Plus le phénomène est fréquent, plus sa fréquence est grande.
+Inversement, pour mesurer le temps
+, on fait appel à des phénomènes périodiques qu'on sait stables.
+C'est ainsi que le Système international d'unités définit la seconde comme .
+En conséquence, on peut définir une fréquence comme le rapport entre deux unités de temps différentes, exprimée en général par le nombre d'unités de l'une pour une de l'autre.
+L'analyse spectrale
+La décomposition en série de Fourier montre que tout signal décrivant un phénomène périodique peut se décomposer en une somme de sinusoïdes, dont la fréquence est un multiple entier de la fréquence du phénomène.
+La transformation de Fourier étend le concept de série de Fourier à des phénomènes non périodiques ː elle permet de passer de la description d'un phénomène en fonction du temps à sa description en fonction des fréquences qu'il contient, appelée spectre de fréquences, et inversement.
+La transformation de Fourier est un procédé mathématique qui suppose que la valeur qui décrit le phénomène est connue à chaque instant.
+De même, elle suppose que les valeurs de la fréquence peuvent être quelconques, de moins l'infini à plus l'infini.
+Elle connaît donc des fréquences négatives.
+Relation entre temps et fréquence
+Les phénomènes ont à la fois une extension dans le temps, entre un début et une fin, et une dimension fréquentielle, dans la mesure où ils se répètent périodiquement entre ce début et cette fin.
+On peut les décrire par l'évolution de leur amplitude dans le temps, ou par les fréquences de leur spectre.
+Une description temporelle ne contient aucune information fréquentielle ;
+une description fréquentielle ne contient aucune information temporelle.
+La transformation suppose qu'on connaisse le signal à l'infini.
+Pour décrire adéquatement un phénomène, on peut le découper dans le temps en segments dont on puisse déterminer à peu près le .
+La relation d'incertitude
+\Delta
+t \cdot \Delta f \ge \frac1
+décrit le fait que plus la durée Δt du segment est longue, et donc plus l'incertitude sur la durée est grande, plus l'incertitude sur la fréquence
+Δf est faible, et vice-versa.
+Cette approche mathématique décrit avec précision des faits connus de l'expérience.
+Pour définir avec précision une fréquence, il faut observer l'oscillation pendant une longue durée.
+C'est ainsi que l'horloger, pour régler la fréquence du balancier, doit observer la pendule, qui compte ces oscillations, pendant une longue durée.
+En procédant ainsi, il obtient la moyenne de la durée des balancements, mais perd toute information sur les éventuelles irrégularités.
+Inversement, en observant le mouvement pendant une brève période, en soumettant l'horloge à divers mauvais traitements comme le remontage du ressort, des courants d'air ou des vibrations, il reconnaît leur conséquence éventuelle sur le balancement, mais n'acquiert aucune notion précise de sa fréquence.
+En acoustique musicale, on a depuis longtemps remarqué qu'on ne peut définir la tonie des sons brefs.
+Identifier un ton implique de discriminer précisément une fréquence fondamentale, ce qui n'est possible qu'avec un minimum de temps d'écoute.
+Pulsation
+La pulsation d'un phénomène périodique est la valeur de la vitesse de rotation, ou vitesse angulaire,
+qu'aurait un système en rotation de même fréquence : pour une fréquence f en hertz, la pulsation associée est donc \omega = 2\pi f ː son unité SI est le radian par seconde (rad·s).
+La pulsation est parfois nommée « fréquence angulaire », par traduction littérale de l'anglais « angular frequency » ː ce terme est fréquemment employé dans des ouvrages traduits d'auteurs anglophones et est déconseillé par de nombreux auteurs francophones.
+L'analogie avec un système mécanique en rotation est intéressante car la description mathématique est très similaire à celle d'une grandeur évoluant de façon sinusoïdale
+a\cos (\omega ~ t)
+a\cos (2\pi f\,t), où a est l'amplitude, \omega la vitesse angulaire, f la fréquence et t le temps.
+La différence avec une véritable vitesse de rotation est que le phénomène décrit n'est pas une rotation, mais une variation périodique ;
+la rotation n'est pas ici une rotation physique, mais est celle de la phase dans l'espace réciproque.
+Les coordonnées d'un point en rotation dans un plan décrivent en fonction du temps des sinusoïdes de la forme
+\begin x
+=a\cos (\omega ~ t)\\
+y=a\sin (\omega ~ t)
+\end
+où x est l'abscisse, y est l'ordonnée
+Dans de nombreux domaines de la physique, il est plus simple d'utiliser les nombres complexes avec x comme partie réelle et y comme partie imaginaire.
+D'après la formule d'Euler, \mathrm^ = \cos (\omega\,t) + \mathrm\,\sin (\omega\,t), où \mathrm est la constante de Neper, base du logarithme naturel et \mathrm l'unité imaginaire.
+Avec cette notation, la formule de Moivre permet de traiter avec élégance les élévations à une puissance, nécessaires dans de nombreux calculs.
+La position d'un point en rotation en fonction du temps peut ainsi s'écrire
+:p = a\,\mathrm^
+où p est un nombre complexe dont la partie réelle est l'abscisse et la partie imaginaire l'ordonnée du point
+Cette notation est fréquente en analyse spectrale.
+Dans certains cas, seule la partie réelle a un sens physique, dans d'autres, c'est l'amplitude qui peut porter l'information.
+Ondes
+Quand le phénomène périodique est une onde, la fréquence temporelle et la longueur d'onde sont liées par la vitesse de propagation (célérité) de l'onde.
+f=\frac
+où f est la fréquence de l'onde (en hertz), c la célérité de l'onde (en mètres par seconde) et \lambda\,, la longueur d'onde (en mètres).
+Fréquence et énergie
+Le rayonnement électromagnétique peut se définir soit en termes d'onde de propagation d'une perturbation électromagnétique à la vitesse de la lumière, caractérisée par une fréquence et dont l'énergie dépend de l'amplitude, soit en termes de particules sans masse appelées photon, se déplaçant à la vitesse de la lumière.
+Dans ce contexte, on désigne la fréquence par la lettre grecque
+\nu (nu).
+L'énergie d'un photon est proportionnelle à la fréquence :
+:E = h\cdot \nu
+h est la constante de Planck.
+Symboles et unités
+En électromagnétisme, physique quantique et relativité, on désigne la fréquence par \nu, la lettre nu de l'alphabet grec.
+On y parle aussi de fréquence pour la quantité \omega=\frac, avec la lettre grecque oméga.
+Dans la technologie et l'ingénierie, on utilise plus couramment la lettre f, et on appelle la grandeur 2πf
+pulsation
+vitesse
+angulaire
+Dans le Système international d'unités dit SI, l'unité de temps est la seconde dont le symbole est s. La fréquence est alors en hertz dont le symbole est
+Hz (unité SI),
+et on a = 1 s-1.
+Le hertz ne s'utilise que pour les signaux périodiques.
+Lorsque le compte d'occurrences par seconde concerne un phénomène aléatoire, on le note explicitement ;
+par exemple en physique statistique ou en thermodynamique
+, on compte les « collisions par seconde ».
+Ainsi, le nombre de désintégrations d'un radionucléide par seconde, représentant son activité, s'exprime en becquerels, et non en hertz.
+En mécanique, en médecine, en musique
+et en général dans des domaines où la mesure de la fréquence ne sert qu'à des comparaisons
+, on exprime souvent la fréquence « par minute » :
+tours par minute (voir vitesse angulaire), pouls en battements par minute, comme la graduation du métronome.
+Applications
+Dans le domaine de la physique ondulatoire on parlera d'une fréquence :
+* de vibration (ressort, corde vibrante, vibration du réseau cristallin, vibration de molécules, etc.)
+* d'oscillation acoustique dans le domaine audible (sonore) ou inaudible (infrasons, ultrasons, hypersons, etc.)
+* d'oscillation électromagnétique (lumière visible, infrarouge, ultraviolet, etc.).
+Dans le traitement du signal numérique, la fréquence d'échantillonnage détermine la bande passante admissible pour le système.
+Dans les technologies numériques synchrones, les circuits communiquent entre eux en suivant un signal d'horloge dont la fréquence détermine les capacités de transfert du système, toutes choses étant égales par ailleurs.
+Mesure de la fréquence
+Un fréquencemètre est un instrument de laboratoire destiné à mesurer la fréquence de signaux électriques périodiques simples.
+L'appareil détecte les occurrences d'une transition caractéristique de ces signaux, et compare leur fréquence à celle d'un oscillateur aussi stable que possible appelé base de temps :
+* soit en comptant les occurrences dans un intervalle de temps correspondant à un nombre déterminé de périodes de la base de temps,
+* soit en comptant le nombre de périodes de la base de temps dans l'intervalle entre un nombre déterminé de transitions,
+* soit, indirectement, en mélangeant un signal dérivé des transitions caractéristiques à un autre, de fréquence proche, constitué à partir de la base de temps, et en mesurant ensuite, par l'un ou l'autre des moyens précédents, la fréquence des battements qui s'ensuivent.
+En musique
+Tempo
+La musique se caractérise par un déroulement assez régulier dans le temps ;
+les notes reviennent à des instants particuliers.
+La fréquence de ces instants est déterminée par une grandeur appelée tempo, qui est une fréquence exprimée en battements par minute.
+Hauteur
+En musique, les sons sont caractérisés par la hauteur, une perception dont on a depuis l'Antiquité remarqué qu'elle correspond à la longueur des cordes ou des tuyaux des instruments de musique, dont l'étude est à l'origine de l'acoustique.
+La théorie de la musique résume ces recherches en affirmant :
+Les recherches psychoacoustiques ont montré le caractère schématique de cette définition, mais la correspondance entre la fréquence fondamentale d'un son et la perception d'une hauteur est indiscutée.
+Le solfège note les hauteurs sur la portée ;
+on peut aussi indiquer une note de musique par son nom, avec éventuellement une altération, en précisant l'octave.
+Le diapason le plus courant fixe la fréquence du la de la troisième octave à la fréquence fondamentale
+de .
+Selon la théorie de la musique, les intervalles musicaux correspondent à des rapports harmoniques, c'est-à-dire que le quotient des fréquences est proche de rapports de nombres entiers : l'octave correspond à un rapport 2, la quinte juste à un rapport de 3 4 Pour la théorie de la musique, dans l'abstrait, un intervalle de douze quintes devrait être identique à un intervalle de sept octaves.
+Mais douze quintes correspondent à un rapport de fréquences de 3 4096, à peu près 129,7, alors que 7 octaves correspondent à un rapport 128.
+Les musiciens, pour aboutir aux gammes et tempéraments musicaux, procèdent à des petits ajustements que l'on peut exprimer en cents ou en savarts.
+Les humains perçoivent les sons de quelques hertz à , mais la plage dans laquelle une personne entraînée peut distinguer les tons s'étend d'environ à environ .
+Hors de ces limites, qui correspondent au registre du piano, la sensation de hauteur est de moins en moins précise.
+Voir aussi
+Articles connexes

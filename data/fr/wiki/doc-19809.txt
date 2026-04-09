@@ -1,0 +1,38 @@
+Administration Windows
+est un service de mise à jour des composants du système d'exploitation Windows.
+Il peut être remplacé par , qui inclut également des mises à jour de logiciels développés par Microsoft.
+Histoire
+Apparu avec Windows 98, est un site web de Microsoft permettant de maintenir à jour son système d'exploitation Windows.
+Il s'agissait à l'origine d'un site web qui détectait les différentes mises à jour qui n'avaient pas été installées sur l'ordinateur qui accédait au site.
+Au fil du temps, de nombreuses améliorations sont apparues telles que les mises à jour automatiques () ou encore , qui est en fait une évolution de qui permet de mettre à jour, en plus de Windows, d'autres logiciels Microsoft tels que Office, ou encore Visual Studio.
+Depuis juillet 2005, il est nécessaire que ait été installé pour que l'utilisation du logiciel soit possible.
+, est toujours en version 6 (à l'opposé de la version 7 sous Vista et 7), sous la forme d'un site web qui ne fonctionne que sous .
+Nouvelle interface avec Windows Vista
+Dans Windows Vista, Windows Update apparaît comme un composant du panneau de configuration, et non plus comme un logiciel en ligne.
+Tout comme les versions pré-Vista de ce gestionnaire de mises à jour, on peut choisir de rajouter très simplement le composant Microsoft Update.
+Bien plus pratique et rapide
+, il permet également de rechercher automatiquement des pilotes (ou mises à jour de pilotes) certifiés par Microsoft.
+Cette pratique a été reprise avec Windows 7 puis Windows 8 et 10 qui l'intègre lui aussi comme un module du Panneau de Configuration.
+L'utilitaire se lance en passant par le « Panneau de Configuration », «
+Système et Sécurité »
+puis « ».
+Les mises à jour prioritaires sont sélectionnées directement lorsque le logiciel en est informé et propose de suite leur installation.
+Les mises à jour facultatives doivent être sélectionnées manuellement par l'utilisateur.
+Windows peut aussi télécharger automatiquement les mises à jour critiques et procéder à leurs installation automatique, ceci est paramétrable.
+Enfin l'utilisateur peut aussi visualiser la liste des mises à jour installées dans l'historique des mises à jour de Windows Update.
+Depuis Windows 10, il est impossible de désactiver les mises à jour automatiques, l'utilisateur a cependant la possibilité de prévenir du redémarrage automatique nécessaire à l'installation de ces mises à jour, pour cela :
+Cliquez sur le bouton «
+Démarrer » et sélectionnez « Paramètres », « Mise à jour et sécurité », « Windows Mise à jour » puis « Options avancées ».
+Notez
+que dans les options avancées, vous pouvez aussi désactiver le "mode P2P", en effet, depuis Windows 10, les ordinateurs peuvent servir à d'autres ordinateurs ces mises à jour Windows, cela peut donc utiliser la bande passante de votre connexion internet.
+Erreurs et problèmes liés
+étant devenu un service Web intégré à Windows, ce dernier nécessite que certains éléments, notamment des services Windows soient fonctionnels.
+Si ces services sont endommagés ou arrêtés, le téléchargement ou l'installation des mises à jour de Windows ne va pas fonctionner et Windows Update retourne, en général, un code erreur du type 0x00000, exemple :
+0x8024001D
+Pour fonctionner Windows Update a besoin :
+* Que l'accès aux sites sécurisés (HTTPs) soit fonctionnel, soit donc que le PC soit à l'heure, que les services Windows cryptographie soit démarrés.
+(NOTE : certains antivirus effectuant des analyses HTTPs peuvent provoquer des problèmes d'accès à Windows Update).
+* Que le magasin des composants de Windows ne soit pas corrompu.
+Microsoft fournit divers programmes pour réparer Windows Update comme Windows Update Troubleshooter, il existe aussi d'autres programmes non Microsoft comme Winupdatefix ou Windows Repair qui peuvent réparer les composants Windows Update.
+Depuis Windows 10, l'utilisateur ne peut plus contrôler les mises à jour, Microsoft voyant Windows 10 comme un logiciel en tant que service.
+La firme américaine a pu faire appel à Windows Update pour la mise à jour gratuite qui aura suivi sa première année de commercialisation.

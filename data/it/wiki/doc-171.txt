@@ -1,0 +1,57 @@
+Per conduzione termica si intende la trasmissione di calore che avviene in un mezzo solido, liquido o aeriforme (all'interno di un corpo solo o due corpi tra loro in contatto) dalle zone a temperatura maggiore verso quelle con temperatura minore.
+Oltre alla conduzione termica, esistono altre due modalità di trasferimento di calore, che sono l'irraggiamento e la convezione.
+Spiegazione microscopica
+L'energia termica si manifesta a livello microscopico sotto forma di oscillazione delle molecole del materiale;
+tale oscillazione aumenta all'aumentare dell'energia termica accumulata nel corpo (cioè aumenta con la temperatura).
+Ad esempio mettendo sopra una fiamma l'estremità di una sbarra metallica, dopo qualche tempo anche l'altra estremità si scalda e può scottare;
+ciò è dovuto al fatto che il calore somministrato dalla sorgente innalza il contenuto energetico delle molecole della parte a contatto, le quali oscillano con maggior velocità;
+durante la loro oscillazione, le molecole vanno ad urtare le molecole vicine, scambiandosi reciprocamente quantità di moto;
+tale scambio di quantità di moto (che avviene a livello microscopico) si traduce a livello macroscopico in scambio di energia termica per conduzione;
+in conseguenza di tale scambio di energia termica dopo un certo tempo anche l'estremità opposta della sbarretta a contatto con la fiamma si riscalda, per cui il fenomeno della conduzione termica come conseguenza rende la temperatura della sbarretta più omogenea possibile.
+In altre parole, tanto maggiore è la conducibilità termica del materiale tanto più facilmente un corpo sottoposto ad una variazione locale di temperatura distribuisce tale variazione di temperatura lungo tutto il corpo.
+Quindi ripetendo l'esperienza con un tubo di vetro, si osserva invece che il punto a contatto con la fiamma può diventare rosso a causa dell'elevata temperatura, mentre a qualche centimetro di distanza si avverte solo un debole aumento di temperatura;
+ciò è dovuto al fatto che il vetro conduce peggio il calore rispetto al metallo.
+Le oscillazioni di ciascuna molecola causate dall'energia termica immagazzinata avvengono intorno alla posizione inizialmente occupata dalla molecola, per cui in un determinato intervallo di tempo la posizione media delle molecole è sempre la stessa, per cui nella conduzione termica non si ha trasporto di materia, ma solo trasmissione di urti molecolari.
+Conduttori e isolanti termici
+Sono buoni conduttori di calore tutti i metalli, ma non tutti nella stessa misura.
+Per esempio, il rame conduce il calore meglio del ferro.
+Una semplice prova si ottiene riscaldando alle estremità due sbarre con la stessa fonte di calore, una di ferro e l'altra di rame, che hanno attaccata all'estremità opposta una pallina fissata con una goccia di cera:
+la sbarra di rame lascia cadere la pallina molto prima della sbarra di ferro.
+Il miglior conduttore di calore è l'argento.
+Un buon conduttore è anche l'oro.
+Sono esempi di cattivi conduttori di calore tutti i semimetalli, il vetro, il legno e il sughero.
+In genere i materiali che sono buoni conduttori di calore sono anche buoni conduttori di corrente elettrica.
+Bisogna comunque notare che nel caso dei metalli la corrente elettrica corrisponde al fatto che gli elettroni nel materiale, che altrimenti si muovono in modo casuale in tutte le direzioni, tendono a spostarsi nel tempo in una certa direzione, mentre i nuclei sono fermi.
+Invece la conduzione di calore corrisponde ad un'oscillazione dei nuclei intorno ad una posizione media di riposo nella struttura, quindi è una trasmissione di energia cinetica (urti).
+Campo di temperatura e regime
+Lo studio delle caratteristiche della conduzione richiede in primo luogo la conoscenza del campo di temperatura all'interno del corpo:
+T\ =\ f (x,y,z,t)
+Quando il campo termico è indipendente dal tempo si dice che la conduzione avviene in regime stazionario, mentre se la temperatura è funzione anche del tempo il regime si dice transitorio.
+Equazione generale
+L'equazione generale della conduzione termica è espressa dal postulato di Fourier.
+Dato un campo di temperature T (r), dipendente dalla posizione r = (x,y,z) nello spazio, la densità di corrente termica è data da:
+\frac = - \sigma_\nabla T
+dove σμν rappresenta il tensore conducibilità termica.
+Il significato di tale equazione è che il flusso di calore avviene in virtù di un gradiente di temperature (se ∇T fosse nullo, tale sarebbe anche l'integrale).
+Se lo spazio soggetto a tale campo di temperature è isotropo, vale a dire che la direzione, per la relazione gradiente di temperatura- flusso di calore, è inessenziale ed è omogeneo, cioè uniforme in ogni regione di spazio, il tensore si riduce alla costante σ.
+La mancanza di isotropia comporta la natura tensoriale della conducibilità termica:
+il flusso di calore non si ha lungo la direzione del gradiente di temperature, bensì lungo una direzione distorta dovuta alle caratteristiche del mezzo;
+la nuova direzione del flusso termico sarà allora quella del vettore σμν ∇T.
+Conduzione
+nei solidi
+Consideriamo un solido a forma di parallelepipedo con le due superfici maggiori S distanti L.
+Se si riscalda una delle due superfici S si viene a formare una differenza di temperatura, diciamo \Delta T, tra di esse.
+Supponendo le superfici minori ben isolate, il calore si diffonde dentro il corpo solamente verso la superficie opposta a temperatura minore per il secondo principio della termodinamica.
+Sperimentalmente si vede che il calore trasferito per unità di tempo \dot Q è direttamente proporzionale alla superficie e alla differenza di temperatura ed inversamente proporzionale allo spessore:
+\dot Q = \lambda \frac
+dove la costante di proporzionalità λ è la conducibilità termica.
+Se consideriamo uno spessore infinitesimo, invece di L poniamo dx, invece di \Delta T poniamo -dT ed otteniamo l'equazione di Fourier nel caso monodimensionale:
+\dot Q = -\lambda \cdot S \frac
+L'equazione fondamentale che regola la conduzione è l'equazione differenziale alle derivate parziali, detta anche equazione del calore:
+\frac = \frac \frac
+dove \mathcal D_Q = \frac rappresenta la diffusività termica, ρ la densità e c_p il calore specifico.
+Riportiamo due risultati fondamentali:
+* fra due superfici piane e parallele a differente potenziale distanti l, di un corpo solido,
+con scambio continuo di calore, in regime stazionario, le temperature secondo la retta normale comune alle due pareti, decrescono con legge lineare.
+Note
+Bibliografia

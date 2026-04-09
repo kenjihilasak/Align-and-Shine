@@ -1,0 +1,43 @@
+3D Slash is a type of 3D modeling software produced by Sylvain Huet.
+3D Slash software offers an original and intuitive experience to 3D model easily imitating the stone-cutter and his block : 3D Slash develops its concept on preassembled Cuboid forms of different sizes (from 1 unit up to 1024) according to octree model.
+Background
+Inspiration for 3D Slash came from kids playing on Minecraft and the easy way they develop sophisticated 3D models without noticing it.
+However, 3D Slash is specifically meant for designing 3D printable objects, in relation with the stone-cutter metaphor.
+Therefore, it provides an original 3D Slash toolset such as :
+- the hammer (to remove a cuboid)
+- the trowel (to add a cuboid)
+- the chisel (to remove slices of cuboids)
+- the brush (to set the color of cuboids)
+- the wood filler (to add a slice of cuboids)
+- the milling machine (to remove adjacent cuboids volume)
+- picture projection on cuboid (to help cutting your object out according to the picture shape)
+3D Slash app offers complementary advanced tools :
+- complex geometrical shapes to handle (cylinder, sphere or cone)
+- the bucket (to fill in with cuboid an identified volume)
+- cut paste functions
+Therefore, curved shapes (cylinder, sphere, cone) are also approximated by the small cuboids of the octree.
+3D Slash particularity is also based on its .STL files (standard 3D Printing file format) import / export function.
+3D Slash algorithm computes the mesh approximation thanks to the octree's cuboids (import) and the reverse operation for the export (computation of the octree's mesh envelope).
+3D Slash enables community links with the possibility to share, like and re-use 3D designs among members.
+Printing is directly possible thanks to commercial partnerships.
+3D Slash provides a 3D modeling unique solution for non-designer mass-market audience, ages from 5 to 95, matching together creativity seeks, Do it yourself trends and their concrete production thanks to 3D Printing.
+On the other hand, 3D Slash is an easy handling rapid prototyping solution for entrepreneurship and the Makers community.
+3D Slash is integrated in various websites.
+As of January 2017 it is the only STL customization plugin for Thingiverse.
+It is the only 3D modeling app integrated in GoogleDrive.
+It is available as a plugin in Onshape.
+With 3D Slash Sylvain Huet was rewarded in 2014 :
+Gold Medal on Lépine 2014, famous French contest for international inventors since 1901; two ribbons as Maker of Merit on Paris MakerFaire 2014 from the organisator Le FabShop and from Sketchup.
+Since its release, the ease of use of 3D Slash has been recognized by various actors from the 3D printing field as well as from the Education area.
+Technical information
+The software starts from a primary cuboid (i.e. including form) and manages the related arborescence in which each cuboid is either full, either empty or subdivided in 8 cuboids.
+An arbitrary color can be attached to any full cuboid.
+The octree model enables the software to implicitly define the level of details (LOD) by cutting the octree according to an arbitrary depth.
+3D Slash application is written in Metal, a functional language designed by Sylvain Huet in 2003.
+3D Slash application is available for Windows, MacOS and Linux.
+A special version is also available for Raspberry Pi
+An android version is available on the Sqool, a French tablet for education.
+3D Slash is also available as a web app on any webGL browser including iOS and Android devices.
+Content license
+As of January 2017, the EULA states that any content created in 3D Slash online or that is uploaded to the community webpages from the offline editor are automatically licensed as Creative Common License BY - NC - SA, unless the premium license subscription is purchased.
+bh8o356ct3mzb3occ3z6qw36a9q6q1v

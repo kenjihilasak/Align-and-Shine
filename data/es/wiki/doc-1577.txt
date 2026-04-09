@@ -1,0 +1,158 @@
+Rotación es el movimiento de cambio de orientación de un cuerpo o un sistema de referencia de forma que una línea (llamada eje de rotación) o un punto permanece fijo.
+La rotación de un cuerpo se representa mediante un operador que afecta a un conjunto de puntos o vectores.
+El movimiento rotatorio se representa mediante el vector velocidad angular \boldsymbol\omega, que es un vector de carácter deslizante y situado sobre el eje de rotación.
+Cuando el eje pasa por el centro de masa o de gravedad se dice que el cuerpo «gira sobre sí mismo».
+En ingeniería mecánica, se llama revolución a una rotación completa de una pieza sobre su eje (como en la unidad de revoluciones por minuto), mientras que en astronomía se usa esta misma palabra para referirse al movimiento orbital de traslación de un cuerpo alrededor de otro (como los planetas alrededor del Sol).
+Rotación en física
+Concepto de rotación y revolución
+En astronomía es habitual distinguir entre el movimiento de rotación y el de revolución con los siguientes sentidos:
+* La rotación de un cuerpo alrededor de un eje (exterior o interior al cuerpo) corresponde a un movimiento en el que los distintos puntos del cuerpo presentan velocidades que son proporcionales a su distancia al eje.
+Los puntos del cuerpo situados sobre el eje (en el caso de que éste sea interior al cuerpo) permanecen en reposo.
+** La orientación del cuerpo en el espacio cambia continuamente durante la traslación.
+* Un ejemplo de rotación es el de la Tierra alrededor de su propio eje de rotación, con un período de rotación de un día sidéreo.
+* La revolución de una partícula o de un cuerpo extenso corresponde a un movimiento de traslación del cuerpo alrededor de otro.
+* Un ejemplo de revolución es el de la Tierra alrededor del Sol, con un periodo de revolución de un año.
+La distinción entre rotación y revolución está asociada con la existente entre rotación y traslación de un cuerpo extenso.
+Si la velocidad de traslación es constante (v=cte), cada uno de los puntos del sólido recorrerá una trayectoria rectilínea con celeridad constante y todas esas trayectorias serán paralelas entre sí (movimiento de traslación uniforme).
+Pero, en general, la velocidad de traslación no tiene por que ser constante y la trayectoria puede ser curvilínea.
+Las trayectorias recorridas por los distintos puntos del cuerpo pueden ser circunferencias, todas ellas del mismo radio (congruentes) aunque de distinto centro.
+Esta situación se presenta en una noria de feria de eje horizontal, como se muestra en la figura: la armadura de la noria gira en torno al eje (rotación), pero las barquillas suspendidas de dicha armadura, prescindiendo de pequeñas oscilaciones pendulares, experimentan una traslación con trayectorias circulares.
+Movimiento rotatorio
+Rotación infinitesimal
+En una rotación en un ángulo infinitesimal δθ, se puede tomar cos δθ ≈ 1 y sen δθ ≈ δθ, de modo que la expresión de la rotación plana pasa a ser:
+Si se componen dos rotaciones infinitesimales y, por ello, se descartan los términos de orden superior al primero, se comprueba que poseen la propiedad conmutativa, que no tienen las rotaciones tridimensionales finitas.
+Matemáticamente el conjunto de las rotaciones infinitesimales en el espacio euclideo forman el álgebra de Lie
+\mathfrak (3), asociada al grupo de Lie SO (3)
+Velocidad angular
+Dado un sólido rígido que rota alrededor de un eje, la velocidad lineal v de una partícula se puede expresar a partir de la velocidad angular ω:
+Mientras que la aceleración a es:
+Si el sólido rígido además de rotar alrededor de un eje tiene un movimiento adicional de traslación con velocidad instantánea V entonces las fórmulas anteriores deben substituirse por:
+Dinámica de rotación
+La velocidad angular de rotación está relacionada con el momento angular.
+Para producir una variación en el momento angular es necesario actuar sobre el sistema con fuerzas que ejerzan un momento de fuerza.
+La relación entre el momento de las fuerzas que actúan sobre el sólido y la aceleración angular se conoce como momento de inercia (I) y representa la inercia o resistencia del sólido a alterar su movimiento de rotación.
+La energía cinética de rotación se escribe:
+siendo \scriptstyle \mathbf el tensor momento de inercia.
+La expresión del teorema del trabajo en movimientos de rotación se puede expresar así:
+de modo que, la variación de la energía cinética del sólido rígido es igual al producto escalar del momento de las fuerzas por el vector representativo del ángulo girado (\Delta\theta).
+Eje de rotación
+Si bien se define la rotación como un movimiento de rotación alrededor de un eje, debe tenerse presente que dicho eje de rotación puede ir cambiando su inclinación a lo largo del tiempo.
+Así sucede con el eje de rotación terrestre y en general con el eje de rotación de cualquier sólido en rotación que no presente simetría esférica.
+Para un planeta, o en general cualquier sólido en rotación, sobre el que no actúa un par de fuerza el momento angular se mantiene constante, aunque eso no implica que su eje de rotación sea fijo.
+Para una peonza simétrica, es decir, un sólido tal que dos de sus momentos de inercia principales sean iguales y el tercero diferente, el eje de rotación gira alrededor de la dirección del momento angular.
+Los planetas con muy buena aproximación son esferoides achatados en los polos, lo cual los convierte en una peonza simétrica, por esa razón su eje de giro experimenta una rotación conocida como precesión.
+La velocidad angular de precesión viene dada por el cociente entre el momento angular de rotación y el menor de los momentos de inercia del planeta:
+El el caso de existencia de asimetría axial el planeta es una peonza asimétrica y además el eje de giro puede realizar un movimiento de nutación.
+Rotación en matemáticas
+Introducción matemática
+El tratamiento detallado de las rotaciones ha sido objeto de numerosos trabajos matemáticos, que abordan el problema desde diversos puntos de vista y grados de sofisticación: cuaterniones, matrices, operadores vectoriales, teoría de grupos...
+Todos estos enfoques son matemáticamente equivalentes y se pueden derivar unos de otros, salvo en algunos aspectos concretos y posibles resultados redundantes, y la elección de uno u otro depende del problema concreto.
+Con la llegada de la robótica y los gráficos informáticos, la matemática de las rotaciones ha cobrado un nuevo impulso y ha pasado a ser una materia de estudio muy activo, con particular énfasis en el enfoque basado en cuaterniones.
+En matemáticas las rotaciones son transformaciones lineales que conservan las normas (es decir, son isométricas) en espacios vectoriales en los que se ha definido una operación de producto interior y cuya matriz tiene la propiedad de ser ortogonal y de determinante igual a ±1.
+Si el determinante es +1 se llama rotación propia y si es −1, además de una rotación propia hay una inversión o reflexión y se habla de rotación impropia.
+La conservación de la norma es equivalente a la conservación del producto interior, que se puede expresar como:
+Consecuencia de ella es que las distancias y las formas también se conservan.
+Como parámetro que determina la rotación se puede usar un vector (que tiene carácter deslizante) del eje de rotación y de longitud proporcional al ángulo de rotación.
+Sin embargo, lo normal es separar este vector en el ángulo y un vector unitario, lo que en el espacio da cuatro parámetros.
+Como consecuencia hay dos formas de representar una única rotación, pues
+Rotaciones en el plano
+Sea un vector A en el plano cartesiano definido por sus componentes x e y, descrito vectorialmente a través de sus componentes:
+La operación de rotación del punto señalado por este vector alrededor de un eje de giro puede siempre escribirse como la acción de un operador lineal (representado por una matriz) actuando sobre el vector (multiplicando al vector:
+Expresión matricial
+En dos dimensiones la matriz de rotación para el vector dado puede escribirse de la manera siguiente:
+Al hacer la aplicación del operador, es decir, al multiplicar la matriz por el vector, obtendremos un nuevo vector A que ha sido rotado en un ángulo \theta en sentido antihorario:
+siendo
+:A'_x = A_x \cos\theta - A_y\sin\theta\,
+:A'_y = A_x \sin\theta + A_y\cos\theta\,
+las componentes del nuevo vector después de la rotación.
+Expresión mediante números complejos
+Las rotaciones en el plano pueden tratarse igualmente mediante números complejos, ya que eiα es una rotación de ángulo a:
+El grupo de rotaciones en dos dimensiones es isomorfo al grupo de Lie, ortogonal especial SO (2) que a su vez es isomorfo al grupo unitario U (1).
+Teorema de rotación de Euler
+En matemáticas, el teorema de rotación de Euler dice que cualquier rotación o conjunto de rotaciones sucesivas puede expresarse siempre como una rotación alrededor de una única dirección o eje de rotación principal.
+De este modo, toda rotación (o conjunto de rotaciones sucesivas) en el espacio tridimensional puede ser especificada a través del eje de rotación equivalente definido vectorialmente por tres parámetros y un cuarto parámetro representativo del ángulo rotado.
+Generalmente se denominan a estos cuatro parámetros grados de libertad de rotación.
+Rotaciones en el espacio
+Las rotaciones tridimensionales revisten especial interés práctico por corresponderse con la geometría del espacio físico en que vivimos (naturalmente siempre que se consideren regiones de escala mediana, ya que para distancias grandes la geometría no es estrictamente euclídea).
+En tres dimensiones conviene distinguir entre las rotaciones planas o rectangulares, que son aquellas en las que el vector rotado y el que determina el eje de giro forman un ángulo recto, y las cónicas, en las que el ángulo entre estos vectores no es recto.
+Las rotaciones planas son de tratamiento matemático más simple, pues se pueden reducir al caso bidimensional descrito más arriba, mientras que las cónicas son mucho más complejas y por lo general se tratan como una combinación de rotaciones planas (especialmente los ángulos de Euler y los parámetros de Euler-Rodrigues).
+Expresión vectorial
+La expresión vectorial de las rotaciones cónicas es:
+donde:
+:\mathbf, \mathbf' representan los vectores posición de un punto antes y después de la operación de rotación.
+:\mathbf es un vector unitario que coincide con la dirección de eje de giro.
+:\theta\in0,2\pi) es el valor del ángulo girado.
+:\cdot, \times, denotan respectivamente el producto escalar y el producto vectorial.
+Expresiones matriciales
+Matricialmente este producto se puede escribir de varias maneras, bien como matriz ortogonal:
+Donde:
+:\mathbf
+(x,y,z), \mathbf'
+:\mathbf = (u_x,u_y,u_z)
+\cos
+Puede comprobarse con un poco de álgebra rutinaria que la matriz anterior tiene como autovalores:
+La dirección principal (recta generada por un vector propio) asociaciada al autovalor 1 es precisamente el vector \scriptstyle \mathbf que da la dirección de eje de giro.
+Expresiones vectoriales
+Se puede describir el movimiento de rotación cónica con operadores vectoriales que, al contrario que las expresiones matriciales, son independientes de las coordenadas.
+Así,
+donde la expresión entre paréntesis funciona como operador y \tilde
+\mathbf\times \mathbf, de modo que \tilde\cdot \mathbf
+\mathbf\times\mathbf.
+Hay ciertos casos especiales de este operador:
+* \tilde es una rotación plana de (1/2)π rad.
+La aplicación sucesiva de este operador da \tilde^2
+-1,
+\tilde^3
+-\tilde,
+\tilde^4
+\tilde^5
+\tilde, etc.
+, con un comportamiento parecido a la unidad imaginaria (i).
+Es un operador hemisimétrico y en coordenadas castesianas su matriz es:
+* \cos \theta + \sin \theta \tilde es una rotación plana de ángulo θ.
+Una notación alternativa es \mathrm^ (por similitud con los números complejos).
+La forma matricial de este operador en los ejes cartesianos principales es particularmente sencilla; por ejemplo, para i es:
+* 2\mathbf-1 es una rotación cónica binaria (de π rad).
+Una rotación cónica arbitraria de ángulo θ se puede representar con dos rotaciones binarias, perpendiculares a \mathbf y que forman un ángulo (1/2)θ; la manipulación de este par de rotaciones binarias (o, de modo equivalente, de dos reflexiones) se puede tomar como la base para la descripción mediante los parámetros de Euler-Rodrigues.
+Así, el segundo de estos ejes se obtiene mediante una rotación plana del primero con \cos \frac\theta + \mathop \frac\theta \tilde, que da los cuatro parámetros:
+Ángulos de Euler
+Mediante los ángulos de Euler se puede representar una rotación cualquiera con una sucesión de tres rotaciones planas alrededor de tres ejes ortogonales.
+No hay acuerdo sobre los tres ejes concretos y en la literatura científica aparecen diversos convenios; hay, en concreto, 12 posibilidades, pero lo más habitual es que se tomen zyz y zxz.
+A estos 12 convenios hay que añadir posibles variaciones en el signo, orientación relativa de ejes (horario o antihorario) y punto de vista (operación en vectores o transformación de coordenadas).
+Los ángulos de Euler fueron el sistema más popular en los siglos XIX y XX para representar las rotaciones, pues permiten modelizar fácilmente varios sistemas mecánicos, como los trompos, los giroscopios, los barcos y los aviones.
+En el caso del trompo, los ejes se corresponden con la precesión, la nutación y la rotación.
+En los aviones se toman como ejes xyz, de modo que se correspondan con el alabeo (o balanceo en barcos), el cabeceo y la guiñada; este convenio específico de ejes se llama también ángulos de navegación o de Tait-Bryan.
+Los ángulos de Euler presentan una singularidad cuando el ángulo del segundo giro es 0 o π, pues en tal caso el primer ángulo y el segundo pasan a quedar indefinidos, y solo está definida su suma, si el ángulo es 0.
+Con ello se pierde un grado de libertad, lo que en los dispositivos mecánicos que combinan varios ejes, como los giroscopios, puede conducir a un bloqueo del sistema, conocido como bloqueo de cardán (en inglés, gimbal lock).
+Matemáticamente, es posible evitar estas singularidades con sistemas de cuatro parámetros, como los parámetros de Euler-Rodrigues (o cuaterniones).
+Parámetros de Euler-Rodrigues y cuaterniones
+Los cuaterniones proporcionan un método para representar rotaciones que no presentan singularidades a costa de ser redundantes.
+Pueden introducirse axiomáticamente o derivarse a partir de rotaciones vectoriales, en especial mediante la construcción de Euler-Rodrigues.
+Históricamente, los cuatro parámetros que forman los cuaterniones fueron introducidos de modo independiente y con diferentes tratamientos matemáticos y geométricos por Gauss, Rodrigues y Hamilton, entre otros, aunque aparentemente Euler, a pesar del nombre, los desconocía.
+Rodrigues llegó a ellos mediante trigonometría esférica como una combinación de reflexiones; Hamilton, poco después, lo formuló de modo axiomático como una extensión de los números complejos.
+En mecánica cuántica también se llegó a ellos con las matrices de Pauli.
+En tres dimensiones existe una construcción similar a la de los números complejos de módulo unidad para representar las rotaciones en el plano.
+La construcción clave reside en identificar los vectores tridimensionales con números cuaterniónicos con parte real nula, y usar las tres componentes como coeficientes de la parte no real.
+La rotación se puede representar como un producto conjugado por un cuaternión unitario obtenido por exponenciación de un cuaternión igual al producto del ángulo girado por el cuaternión que representa al eje de giro.
+Dado un vector tridimensional \scriptstyle \mathbf rerepsentable como un número cuaterniónico con parte real nula, y una rotación tridimensional dada por un giro \scriptstyle \alpha en torno al eje \scriptstyle \mathbf se puede representar el vector girado resultante como:
+Este enfoque está relacionado con el álgebra geométrica y los vectores i, j y k siguen las reglas algebraicas de los cuaterniones (i2 = &minus;1, etc.).
+El producto de dos rotaciones viene dado, en términos de vectores ordinarios, por:
+donde a, b representa un cuaternión con parte real a y parte no real b.
+Teoría de grupos
+En teoría de grupos, la rotación es una de las posibles transformaciones que se pueden aplicar a un sistema o una figura geométrica, que permiten determinar la simetría de redes cristalográficas, orbitales atómicos y moléculas, y por tanto parte de sus propiedades físico-químicas.
+Otras tranformaciones son la traslación, la reflexión y la inversión.
+Rotaciones frente a traslaciones
+En mecánica se demuestra que el movimiento del sólido rígido se puede descomponer en una rotación y una traslación.
+Ambas trasformaciones son isométricas, como corresponde al hecho de que el sólido es rígido, pero en la rotación, al contrario que en la traslación, hay al menos un punto fijo.
+El conjunto de estas transformaciones forma un grupo llamado grupo euclidiano que es el grupo de isometría del espacio euclidiano tridimensional.
+Cada elemento g de este grupo euclidiano se puede representar de manera única como:
+donde R es una matriz de 3x3 que representa una rotación y d las componentes del vector de tres componentes que representa el desplazamiento.
+Por tanto esta manera de representar el grupo es una representación lineal sobre un espacio vectorial de dimensión cuatro.
+Rotaciones frente a reflexiones e inversiones
+Estas tres transformaciones se llaman tranformaciones puntales pues dejan un punto fijo, y están estrechamente relacionadas.
+Así, dos reflexiones según dos planos equivalen a una rotación.
+La composición de dos rotaciones tridimensionales es otra rotación, por lo que estas forman un grupo, llamado O (3) y que incluye las reflexiones.
+Las rotaciones propias son un subgrupo, llamado SO (3), pero no las rotaciones impropias, pues dos de ellas equivalen a una rotación propia.
+Percepción de las rotaciones
+La imagen muestra un artificio para crear la ilusión de una rotación en 3D a partir de una imagen en 2D. Está formada por partes restringidas una detrás de otra, de modo que nuestro cerebro interpreta como una rotación de acuerdo a los datos que sobre el objeto (la cabeza) retiene nuestra memoria.
+Véase también

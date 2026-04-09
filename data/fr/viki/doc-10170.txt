@@ -1,0 +1,41 @@
+ToutEnClic
+Erreur
+lors de la création de la miniature : Fichier manquant
+ToutEnClic est un logiciel développé en Python dans un environnement Ubuntu pour travailler à l'écran sur un document numérisé, de la même façon que sur un cahier, pour palier le handicap des enfants incapables d’utiliser les outils usuels, tels que règles, crayons, compas.
+Sommaire
+ToutEnClic est une application développée depuis 2009 pour une enseignante, Christelle BOURLARD, qui accueillait dans sa classe Quentin, un enfant physiquement dans l’impossibilité d’écrire et de manière générale, de travailler comme ses petits camarades.
+Quentin disposait d'un ordinateur avec un clavicom (clavier virtuel libre et gratuit), Christelle était à la recherche d’un logiciel qui lui permettrait de numériser les pages d’exercices qu’elle distribue à ses élèves valides, et donnerait la possibilité à Quentin de réaliser complètement tous ces exercices, uniquement à la souris et au clavicom.
+Cependant, aucun logiciel libre ou commercial ne répondait à ses attentes.
+Arnaud CHAMPOLLION a proposé à Alain DELGRANGE de relever le défi de développer ce logiciel.
+Vous pouvez créer un document sous différents formats avec un fond de couleur unie.
+Des fonctionnalités qui sont nombreuses et répondent quasiment à toutes les tâches demandées par un enseignant à ses élèves.
+Un document ToutEnClic est une page qui peut être créée dans le format (A4 par défaut), la disposition (portrait par défaut) et la couleur (blanche par défaut) désirés.
+Vous pouvez également créer un document suivant un modèle A4 préétabli.
+Il est également possible d’importer une page numérisée et dans ce cas ToutEnClic en demande le format initial afin d’ajuster sa taille et ses proportions afin qu’elles soient réellement à l’échelle des outils.
+Une fois le document chargé dans la zone de travail, l'enfant peut :
+Tirer un trait
+Écrire à main levée
+Tracer un pointeur
+Dessiner une Ellipse vide ou pleine
+Dessiner un rectangle vide ou plein
+Gommer
+Sélectionner une zone et la recopier à un autre endroit
+Découper une zone et la recopier à un autre endroit
+Insérer une image externe dans une zone délimitée
+Utiliser une règle, un rapporteur, une équerre, un compas et une loupe
+Écrire un texte à l'aide d’un clavier virtuel propre à ToutEnClic ou tout autre dispositif de saisie
+Compter sur ses doigts à l’aide d’un outil graphique représentant quatre mains.
+Afficher une vue globale du document dans une autre fenêtre.
+ToutEnClic permet de régler l’épaisseur des tracés, la couleur des tracés et des remplissages ainsi que leur niveau de transparence.
+Chaque action réalisée est conservée en mémoire pour autoriser les retours en arrière.
+ToutEnClic produit des fichiers au format XML d’extension “.tec” et permet de les exporter en JPEG ou de les imprimer.
+L’utilisation simultanée des outils tels que règle, compas, rapporteur, équerre et loupe, est facilitée et un simple clic sur un outil le place au premier plan par rapport aux autres.
+Le contrôle de l’outil en cours d’utilisation est par défaut visible sur le bord haut gauche du document.
+Pour gagner en surface de travail, le panneau de paramétrage des outils peut être masqué par un clic sur le bouton situé juste au dessous, puis ré-affiché par un clic sur le même bouton.
+Pour optimiser la surface de travail, le contrôle de l’outil peut également être déplacé sur le bord en bas à droite.
+En cas de défilement de l’espace de travail, le contrôle de l’outil reste toujours visible…
+Une vue globale du document en cours d’édition est également disponible pour mieux se repérer pendant le travail.
+ToutEnClic 5.02 a été écrit en Python3 et PyQt5 pour lui apporter plus de fluidité, de stabilité et améliorer ses fonctionnalités1.
+ToutEnClic n’est disponible que sous forme de scripts Python ce qui lui permet d’être opérationnel sur toutes les plateformes disposant de l’interpréteur python3.
+La version 5.02 est stable et compatible avec tout système d'exploitation 32 ou 64 bits.
+Elle est intégrée à PrimTux.

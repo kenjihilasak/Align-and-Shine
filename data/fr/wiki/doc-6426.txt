@@ -1,0 +1,136 @@
+Intelligence
+artificielle|Technologie
+web|Sécurité
+informatique|Spam|Acronyme
+Le terme CAPTCHA est une marque commerciale déposée par l'université Carnegie-Mellon désignant une famille de tests de Turing permettant de différencier de manière automatisée un utilisateur humain d'un ordinateur.
+Ce test de défi
+-réponse est utilisé en informatique pour vérifier que l'utilisateur n'est pas un robot.
+La vérification utilise généralement la capacité d'analyse d'image ou de son de l'être humain.
+Un CAPTCHA usuel requiert ainsi que l'utilisateur saisisse au clavier une courte séquence improbable d'une demi-douzaine de lettres et/ou de chiffres visibles sur une image distordue (voir illustration) qui apparaît à l'écran.
+Certains sites web préfèrent afficher une image qui contient une question mathématique.
+À l'inverse des tests de Turing standards réalisés par des humains, un CAPTCHA est généré et interprété par un ordinateur,
+et est donc souvent décrit comme étant un
+Ce terme est néanmoins ambigu, dans la mesure où il qualifie aussi, dans un autre contexte, les participants humains qui essaient de se faire passer pour des ordinateurs.
+Des contournements du système, notamment par des programmes de reconnaissance optique de caractères (OCR), sont progressivement apparus.
+Leur faillibilité ainsi que l'obstacle qu'ils représentent, en particulier pour les malvoyants, ont conduit à des évolutions des CAPTCHA qui ne font plus appel à la seule reconnaissance par lecture.
+Histoire
+Dès les débuts d'Internet, les utilisateurs ont voulu produire des textes que les ordinateurs ne puissent pas déchiffrer.
+Les premiers ont été les hackers, qui postaient sur des sujets sensibles dans des forums en ligne, surveillés automatiquement grâce à des mots clefs.
+Pour contourner ces filtres, ils ont commencé à remplacer les mots par des caractères visuellement ressemblants.
+Par exemple, HELLO pouvait être remplacé par |-|3|_|_ () ou )
+- (3££0, ainsi qu'une multitude de variantes numériques.
+Ainsi les filtres à mots-clefs étaient-ils dupés.
+Ce procédé a plus tard été connu sous le nom de « 13375p34k » (leetspeak).
+La première réflexion sur la création de tests automatiques qui pourraient discriminer les humains des ordinateurs dans le but de contrôler l'accès aux services web est apparue dans un manuscrit de Moni Naor de l'institut de science de Weizmann, daté de 1996 et intitulé Verification of a human in the loop, or Identification via the Turing Test.
+Des CAPTCHA primitifs semblent avoir été développés plus tard, en 1997 chez AltaVista par Andrei Broder et ses collègues, dans le but d'empêcher des bots d'ajouter des sites à leur moteur de recherche.
+En recherchant un moyen de rendre leurs images résistantes à des attaques de logiciels de reconnaissance de caractères, l'équipe a pris le contre-pied du manuel de son numériseur de marque Brother, qui donnait des recommandations pour améliorer les performances de la reconnaissance de caractères (types d'écritures similaires, fond homogène…).
+L'équipe a donc conçu des casse-têtes en essayant de simuler ce qui pourrait causer une mauvaise reconnaissance automatique de caractères.
+En 2000, von
+Ahn et Blum ont développé et publié la notion de CAPTCHA, qui comprend tout programme qui peut différencier un humain d'un ordinateur.
+Ils en ont inventé de multiples exemples, dont les premiers ont largement été utilisés (par Yahoo!
+notamment).
+Une compétition a alors commencé entre l'amélioration des robots lecteurs de CAPTCHA et le brouillage des CAPTCHA.
+Ainsi sont apparus des caractères de plus en plus déformés, l'usage de couleurs et des CAPTCHA animés (dont les caractères se déforment avec le temps).
+Ces procédés posent néanmoins des problèmes d'accessibilités aux personnes ayant une vision déficiente.
+Pour remédier à ce problème, certains systèmes proposent de choisir entre identification graphique et sonore.
+Afin de contourner les CAPTCHA, certaines sociétés engagent des humains pour décoder les tests.
+D'autres renvoient le CAPTCHA dans des logiciels permettant d'accéder par exemple à des images pornographiques, annulant ce faisant les coûts de main-d’œuvre et permettant à des robots, grâce à ces réponses, d'envoyer des spams à peu de frais.
+Dans les années 2010, de nouvelles formes de CAPTCHA sont apparues, comme des puzzles (images découpées à rassembler dans le bon ordre).
+Elles sont par exemple utilisées dans le système de vérification de WeChat.
+Différents plugin de type puzzle sont disponibles pour les systèmes de gestion de contenu à l'instar de Captcha-garb pour Wordpress.
+Origine du mot
+« CAPTCHA » est un rétroacronyme :
+le mot se prononce comme .
+Le nom « captcha » peut également être interprété par capture character (caractères de capture).
+Caractéristiques
+CAPTCHA désigne non seulement une boîte de dialogue, mais aussi l'ensemble du protocole de génération des images et de routage réseau associé à la résolution du test de Turing.
+Les CAPTCHA sont entièrement automatisés, ne nécessitant que quelques secondes du temps de l'utilisateur.
+Le but est de diminuer le coût associé à la détection manuelle de l'identité des utilisateurs et d'augmenter les performances, c'est-à-dire le nombre de formulaires soumis par de vrais humains traités par le site web par unité de temps.
+L'algorithme utilisé pour créer un CAPTCHA est souvent public, bien qu'il puisse être breveté comme c'est le cas par exemple pour reCAPTCHA.
+Ceci a pour but de démontrer que casser ce type de test nécessite la résolution d'un problème difficile en faisant appel à des notions d'intelligence artificielle, plutôt que la découverte des secrets de l'algorithme, qui pourraient être obtenus par décompilation ou un autre moyen.
+Le CAPTCHA désigne plus communément la boîte de dialogue située juste avant l'envoi d'un formulaire, constituée le plus souvent de :
+* un fichier image censé être à la fois facilement reconnaissable par un humain et difficilement identifiable par un algorithme
+* une méthode de saisie pour que l'utilisateur puisse entrer son résultat ;
+et moins souvent de :
+* une méthode de renouvellement du fichier, lorsque celui-ci n'est pas même identifiable pour l'homme ;
+* une méthode d'accessibilité, par exemple une version audio pour personne ayant une déficience visuelle.
+BLPDGAF.jpg|Image de texte déformé probablement trop simple à déchiffrer pour les robots d'aujourd'hui.
+Avant même d'envoyer le formulaire au site web, la requête est rejetée si le CAPTCHA n'est pas correctement renseigné, ce qui évite aux serveurs hébergeurs d'être victimes d'une attaque par inondation de requêtes comme la DoS.
+Cette procédure visuelle est dépassée, en 2017, lorsque Google introduit un Captcha n'utilisant qu'une simple case à cocher.
+Son fonctionnement est plus complexe que les tests exécutés à partir des fichiers susmentionnés.
+L'algorithme est gardé plus ou moins secret, mais Google explique analyser l'ensemble du comportement de l'utilisateur précédent le clic.
+On peut supposer que cela comprend notamment des techniques de suivi de la souris.
+La prochaine génération de CAPTCHA ne devrait plus même nécessiter de participation humaine, qui analyserait directement le comportement de l'utilisateur sur la page web consultée.
+Applications
+Le CAPTCHA est utilisé sur Internet pour prémunir les formulaires contre les soumissions automatisées et répétées réalisées par des robots malveillants.
+Ils sont utilisés :
+** lors de l'inscription à des webmails gratuits (dont les comptes pourraient être utilisés par la suite pour l'envoi de courriers non sollicités)
+** lors de la soumission de messages dans des forums de discussion et des blogs (qui pourraient permettre de faire du référencement abusif) ;
+* contre l'extraction automatisée de bases de données ;
+* pour la participation à des sondages (dont les résultats pourraient être faussés par des votes automatisés).
+Complexité
+La complexité de certains types CAPTCHA pénalise les internautes, contraints d'essayer plusieurs fois des combinaisons possibles.
+En effet, certains CAPTCHA sont tellement déformés que même les internautes ne peuvent les reconnaître.
+De plus, leur efficacité est contestée et des CAPTCHA peuvent être reconnus en quelques secondes par des algorithmes.
+Accessibilité
+Les tests de CAPTCHA basés sur une lecture de texte
+- ou toute autre tâche de perception visuelle
+- rendent impossible l'accès aux ressources protégées pour des personnes déficientes visuelles (aveugles ou ayant des difficultés à percevoir des couleurs).
+Les outils courants d'aide, comme les lecteurs d'écran, ne peuvent en effet pas les interpréter.
+Des solutions alternatives sont parfois apportées par les sites web:
+* Certains CAPTCHA font appel à un message audio suivi d'une reconnaissance vocale, autre branche de l'intelligence artificielle qui peut être utilisé comme base pour un test de CAPTCHA.
+Le développement des CAPTCHA audio semble être en retard par rapport aux tests visuels.
+* Certains nécessitent une compréhension de texte (par exemple, un puzzle logique, des questions ou des instructions pour créer un mot de passe).
+Peu d'études concernent leur résistance face aux contre-mesures.
+* Quelques tests s’appuient sur la reconnaissance d'images.
+KittenAuth est de ce type, qui demande à l'utilisateur de reconnaître un animal (des chatons) dans une série de photographies de différentes espèces (dauphins, chiots, renards, etc.)
+Ces procédés excluent toujours les personnes souffrant à la fois d’un déficit visuel et auditif.
+L'utilisation d'un CAPTCHA empêche ainsi plusieurs individus d'utiliser tous les services basés sur Internet comme PayPal, Gmail, Orkut, Yahoo!, ainsi que de nombreux forums et blogs.
+Du point de vue légal, dans certaines juridictions, les propriétaires de sites peuvent devenir la cible de litiges s'ils utilisent des CAPTCHA qui discriminent les gens ayant certains handicaps.
+Contournement
+Plusieurs approches permettent de mettre en échec les CAPTCHA :
+* utiliser une main-d’œuvre humaine pour les reconnaître :
+rémunérer des décodeurs de CAPTCHA dans des pays à bas coût de main-d’œuvre ;
+** exploiter un site bien fréquenté demandant aux utilisateurs de résoudre un CAPTCHA qui provient d'un autre site, en temps réel ;
+* exploiter les bogues dans les implémentations qui permettent à l'attaquant de passer complètement outre le CAPTCHA ;
+* améliorer les logiciels de reconnaissance de caractères ;
+* l'attaque par force brute ou l'attaque par dictionnaire, qui peuvent être facilitées par la reconnaissance partielle du CAPTCHA (notamment le nombre de caractères)
+Main
+œuvre humaine
+Il est possible de réussir un test de CAPTCHA en utilisant des opérateurs humains embauchés pour les décoder.
+Une publication du W3C indique qu'un tel opérateur « pourrait aisément vérifier des centaines de CAPTCHA par heure ».
+Des entreprises de services indiennes de crowdsourcing sont spécialisées dans ce négoce.
+Des spammeurs ont réussi à contourner la difficulté en créant des sites internet qui demandent que l'utilisateur passe un test de CAPTCHA pour y accéder, ce test étant en fait celui requis par un autre site, tel celui de Yahoo pour valider la création d'une nouvelle adresse électronique.
+L'utilisateur du premier site contribue ainsi, à son insu, aux actes malveillants de ces derniers.
+Une contre-mesure existe : ajouter, dans le CAPTCHA, une expression identifiant clairement son émetteur (telle que « yahoo.fr »).
+Bogues de conception
+Certains systèmes de protection par CAPTCHA mal conçus peuvent parfois être forcés sans utiliser de logiciels de reconnaissance de caractères, en réutilisant l'ID d'une session d'une image connue de CAPTCHA.
+Parfois, si une partie du logiciel qui génère le CAPTCHA est située côté client (la validation est faite sur un serveur, mais le texte que l'utilisateur doit saisir pour s'identifier est généré côté client), alors les utilisateurs peuvent modifier le logiciel client pour afficher le texte de CAPTCHA non déformé par exemple.
+Reconnaissance automatique de caractères
+Bien que les CAPTCHA aient initialement été conçus pour contrer les logiciels de reconnaissance de caractères standard utilisés pour la numérisation par balayage de documents, plusieurs projets de recherche ont prouvé qu'il est possible de décrypter un grand nombre de CAPTCHA avec des programmes spécifiquement adaptés à un type de CAPTCHA.
+Pour des CAPTCHA avec des lettres déformées, l'approche adaptée est constituée d'une manière générale par les étapes suivantes :
+# suppression du fond de l'image, par exemple avec des filtres de couleurs et la détection de lignes fines ;
+# segmentation, c'est-à-dire découpe de l'image en plusieurs segments contenant une seule lettre ;
+# identification de la lettre contenue dans chaque segment.
+Le reCAPTCHA propose une approche semblable, à l'échelle des mots.
+Autres procédés
+Les robots peuvent également contourner les captcha.
+Les scores suivants ont été atteints par des robots : 66,6 % pour reCAPTCHA, 64,4 % pour BotDetect, 57,4 % pour Yahoo, et 57,1 % pour PayPal .
+Utilisations déviées
+En numérisation de livres
+Le reCAPTCHA propose deux mots dont le premier est connu et sert de CAPTCHA et le second est incertain voire inconnu car issu de la numérisation d'un livre.
+Cela permet de contribuer (à l'insu de l'utilisateur, par le travail du consommateur) à la numérisation de textes mal scannés.
+Un tel générateur nécessite pour fonctionner et être réellement sécurisé un système utilisé par une base très importante d’utilisateurs différents (plusieurs millions) et de tels générateurs ne peuvent être mis en pratique que par les plus grands agrégateurs de contenus et sites Internet.
+En numérisation de données cartographiques
+Le CAPTCHA propose une ou plusieurs séries de chiffres correspondant à des panneaux indicateurs routiers, plaques de rues, numéros de maisons, afin d’aider à constituer un fichier d’adresses géolocalisées à partir de clichés photographiques du terrain.
+La grande variété de formats et de présentation des chiffres, ainsi que des couleurs et textures du lettrage et des fonds et des matériaux utilisés, rend souvent trop aléatoire leur traitement entièrement automatique ;
+le générateur de CAPTCHA utilise
+les réponses fournies pour améliorer la reconnaissance effective des chiffres
+Comme pour le système reCAPTCHA, si les CAPTCHA sont utilisés comme méthode d'autorisation d'accès, ce système fournit généralement deux images à lire, dont une a une réponse connue du serveur et l'autre est imprécise et encore à confirmer (à son insu) par un lecteur humain.
+En publicité
+Certaines entreprises proposent d'utiliser le CAPTCHA comme vecteur de propagation de publicité.
+Le CAPTCHA peut ainsi demander à l’utilisateur de visiter un site, regarder une vidéo ou animation ou écouter une bande annonce, pour y chercher et obtenir la réponse correcte à retourner.
+En bonus, l'utilisateur peut obtenir une rémunération ou un autre avantage (comme une réduction sur le prix normalement demandé pour obtenir le produit ou service protégé par le CAPTCHA).
+Comme moyen de micropaiement ou de confirmation légale ou contractuelle
+Certains sites utilisent les CAPTCHA pour vérifier que l'utilisateur a lu, entendu et compris un message particulier avant d'avoir accès à un contenu ou service protégé ou payant.
+Le message est souvent de nature publicitaire mais peut aussi être une façon pour le site protégeant le contenu de prouver que l’utilisateur a bien mémorisé le message publicitaire ou compris une clause légale ou contractuelle qu’il s'engage à respecter en connaissance de cause (dans de tels cas, le CAPTCHA pose une question ou un problème relatif à ce message ou cette clause, et l’utilisateur doit mentionner la réponse correcte confirmant que le message a été compris).

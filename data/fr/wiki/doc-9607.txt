@@ -1,0 +1,75 @@
+Base de données
+Une base de données (en anglais database), permet de stocker et de retrouver l'intégralité de données brutes ou d'informations en rapport avec un thème ou une activité ;
+celles-ci peuvent être de natures différentes et plus ou moins reliées entre elles.
+En effet, leurs données peuvent y être très structurées (base de données relationnelles par exemple), ou bien hébergées sous la forme de données brutes déstructurées (base de données NoSQL Redis par exemple) qui, dans ce cas, seront ensuite parcourues de manière organisée au moment de la lecture via des moteurs spécifiques (comme Elasticsearch).
+Une base de données peut être localisée dans un même lieu et sur un même support informatisé, ou réparties sur plusieurs machines à plusieurs endroits (base de données NoSQL par exemple).
+La base de données est au centre des dispositifs informatiques de collecte, mise en forme, stockage et utilisation d'informations.
+Le dispositif comporte un système de gestion de base de données (abréviation : SGBD) : un logiciel moteur qui manipule la base de données et dirige l'accès à son contenu.
+De tels dispositifs comportent également des logiciels applicatifs, et un ensemble de règles relatives à l'accès et l'utilisation des informations.
+C'est la pièce centrale d'un système d'information ou d'un système de base de données (ou base de données tout court), qui régit la collecte, le stockage, le retraitement et l'utilisation de données.
+Ce dispositif comporte souvent un logiciel moteur (cf. paragraphe suivant), des logiciels applicatifs, et un ensemble de règles relatives à l'accès et l'utilisation des informations.
+Une base de données nécessite généralement plus d'espace disque, le large éventail de fonctions offertes par les SGBD rend les manipulations plus complexes, et les pannes ont un impact plus large et sont plus difficiles à rattraper.
+modèle de données logique et physique
+Le modèle de données logique est la description des données telles qu'elles sont dans la pratique, tandis que le modèle de données physique est un modèle dérivé du modèle logique qui décrit comment les données seront techniquement stockées dans la base de données.
+Selon ce type de modèle, une base de données est un lot d'entités et d'associations.
+Une entité est un sujet concret, un objet, une idée, pour laquelle il existe des informations.
+Un attribut est un renseignement concernant ce sujet .
+À chaque attribut correspond un domaine : un ensemble de valeurs possibles.
+Une association désigne un lien entre deux entités .
+Les premières bases de données hiérarchiques sont apparues au début des années 1960.
+Les informations étaient découpées en deux niveaux de hiérarchie : un niveau contenait les informations qui sont identiques sur plusieurs enregistrements de la base de données.
+Le découpage a ensuite été étendu pour prendre la forme d'un diagramme en arbre ;
+il est destiné à clarifier l'organisation des données dans les bases de données relationnelles.
+En 1990, la banque de données juridique LEADERS, avec mises à jour mensuelles sur ordinateur des clients, par disquettes dans un premier temps, CD-ROM par la suite (responsable René Janray), a été lancée en Belgique.
+Elle a été cédée en 2000 à la société Kluwer.
+Entretemps elle avait rassemblé près de 1000 clients dont les commerces et entreprises les plus importants.
+Un mémoire de fin d'étude à l'ISAT portait essentiellement sur ce produit et était intitulé "La banque de données Leaders : une percée dans le monde des éditions juridiques électroniques."
+En 1998, dans un ouvrage consacré aux banques de données, l'éditeur MARABOUT a consacré tout un chapitre à la banque de données LEADERS.
+Dans le modèle relationnel, la relation désigne l'ensemble des informations d'une table, tandis que l'association, du modèle entité-association, désigne le lien logique qui existe entre deux tables contenant des informations connexes.
+Les premières bases de données étaient calquées sur la présentation des cartes perforées : réparties en lignes et colonnes de largeur fixe.
+Une telle répartition permet difficilement de stocker des objets de programmation ;
+en particulier, elles ne permettent pas l'héritage entre les entités, caractéristique de la programmation orientée objet.
+Apparues dans les années 1990
+, les bases de données objet-relationnel utilisent un modèle de données relationnel tout en permettant le stockage des objets.
+Dans ces bases de données les associations d'héritage des objets s'ajoutent aux associations entre les entités du modèle relationnel.
+Construction
+Les étapes clefs du cycle de vie d'une base de données sont la conception et la mise en service.
+Avant la conception, les utilisateurs et les producteurs des informations sont interviewés en vue de prendre connaissance des caractéristiques des informations, des relations entre les informations, ainsi que les caractéristiques du système informatique qui accueillera la base de données.
+Les enregistrements sont stockés dans des fichiers, et chaque fichier contient typiquement un lot d'enregistrements similaires.
+Les enregistrements sont stockés dans des fichiers, et chaque fichier contient typiquement un lot d'enregistrements similaires ;
+Table de hachage (en anglais ) :
+Dans cette organisation, une fonction de hachage est utilisée pour transformer, par calcul arithmétique, une valeur quelconque en un nombre entier.
+Le nombre obtenu est utilisé pour déterminer l'emplacement exact où sera enregistrée la donnée de cette valeur.
+Les secteurs de la finance, des assurances, des écoles, de l'administration publique et les médias, secteurs majeurs de la société de l'information, qui offrent des services fondés sur des informations, utilisent des bases de données.
+Il s'agit en général de bases de données contenant des livres numériques et/ou des articles de la presse généraliste ou spécialisée, fournies par des prestataires extérieurs.
+Par exemple, la bibliothèque de l'École nationale supérieure des sciences de l'information et des bibliothèques (enssib) propose un accès à 76 bases de données à ses usagers, dont A to Z (presse), Cairn (presse et e-books), Dawsonera (e-books), Électre (base de données bibliographique), etc.
+Certaines sont en accès libre et gratuit, d'autres en accès sur place uniquement, et d'autres en accès réservé sur place et à distance.
+Par ailleurs l'école (enssib) produit et met en ligne ses propres bases de données pour mieux desservir la communauté des professionnels des sciences de l'information et des bibliothèques : base de constructions de bibliothèques françaises depuis 1992, Service offres de stages et emplois de l'enssib, Base Maguelone : base de données d’ornements typographiques.
+Dans les systèmes d'information géographique les informations de cartographie sont enregistrées dans une base de données.
+Des informations de cartographie du ciel sont disponibles dans les catalogues d'étoiles.
+Dans les logiciels de forums ou de messagerie électronique, les messages sont souvent enregistrés dans une base de données.
+Les logiciels antivirus utilisent souvent une base de données dans laquelle sont enregistrées les empreintes laissées par les virus informatiques.
+La base de registre est une base de données qui contient les paramètres de configuration des systèmes d'exploitation Windows.
+Le Object Data Manager est une base de données similaire des systèmes d'exploitation AIX.
+Dans un logiciel de gestion électronique de documents, des documents électroniques sont enregistrés dans une base de données.
+Dans un système de gestion de contenu ce sont des morceaux de page
+web qui sont enregistrés dans une base de données et dans un logiciel de commerce en ligne ce sont les annonces, ainsi que les annonceurs.
+Dans une plate-forme d'apprentissage en ligne, les exercices, les examens, les cursus, ainsi que l'annuaire des enseignants et des apprenants sont enregistrés dans une base de données.
+Un progiciel de gestion intégré tel que SAP ERP (de la société SAP AG) comporte un ensemble de logiciels qui utilisent tous la même base de données.
+Les différents logiciels de ce type de produit concernent des activités ordinaires des entreprises telles que la facturation, la comptabilité, les salaires, le suivi des commandes et des stocks.
+Types d'utilisations
+Un moteur de recherche est un logiciel qui permet de retrouver des ressources (fichiers, documents, pages web) associées à des mots quelconques.
+La liste des mots et des ressources associées sont stockés dans une base de données.
+Une banque de données est une application informatique qui sert à collecter et permettre la publication d'un ensemble d'informations librement consultables et relatives à un domaine de connaissances.
+Par exemple des renseignements de bibliographie, de linguistique de justice, de chimie, d'architecture, de cinématographie, de biologie, d'astronomie, de géographie, de médecine ou de jeu.
+Les renseignements sont souvent stockés dans des bases de données et la banque de données équipée d'un moteur de recherche.
+* Un système d'informations est une application informatique qui sert à collecter, classer, regrouper et modifier un ensemble d'informations relatives à une activité.
+Les systèmes d'informations sont d'usage courant dans les entreprises et les institutions telles que les douanes, les hôpitaux, la marine, les transports ou l'armée.
+Un « enterprise resource planning » (ERP) est un système d'informations qui sert à la collecte et la maintenance des informations concernant l'activité d'une entreprise (ventes, achats, salaires…
+Un système d'information géographique est un système d'informations qui permet de collecter, manipuler des renseignements de cartographie (coordonnées de routes, de forêts, de plans d'eau).
+Ces informations sont utilisées par le système d'informations géographique pour créer des cartes géographiques.
+* Un entrepôt de données est une base de données qui est utilisée pour collecter et stocker définitivement des informations historiques qui seront utilisées pour des statistiques et des analyses.
+Les informations sont souvent collectées à intervalle régulier depuis un système d'informations.
+L'informatique de gestion est un domaine d'activité et de connaissances orientées vers la manipulation de masse de grandes quantités d'informations (gestion de données), un secteur qui utilise des bases de données.
+Les L4G sont des environnements de développement des applications de base de données souvent utilisés en informatique de gestion.
+Ils sont composés d'un système de gestion de base de données et d'un langage de programmation.

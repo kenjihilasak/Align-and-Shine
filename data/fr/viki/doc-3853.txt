@@ -1,0 +1,90 @@
+Nombre complexe
+Un nombre complexe est un nombre un peu spécial, que l'on n'utilise pas dans la vie courante, mais qui est très utilisé en sciences.
+l'ensemble des entiers naturels (symbolisé par la lettre N{\displaystyle \mathbb {N} }) :
+0, 1, 2, 3, 4, ...
+l'ensemble des entiers relatifs (symbolisé par la lettre Z{\displaystyle \mathbb {Z} }), qui contient les entiers naturels et leurs opposés : -2, -1, 0, 1, 2, ...
+l'ensemble des nombres rationnels (symbolisé par la lettre Q{\displaystyle \mathbb {Q} }), qui contient tous les nombres qu'on peut écrire sous la forme d'une fraction d'entiers :
+0, 1 36),
+l'ensemble des nombres réels (symbolisé par la lettre R{\displaystyle \mathbb {R} }), qui contient tous les nombres qui peuvent, par exemple, désigner une longueur : 0, 1/3, 2{\displaystyle {\sqrt {2}}}, pi, 2, ...
+En plus de ceux-ci, on a inventé l'ensemble des nombres complexes (symbolisé par la lettre C{\displaystyle \mathbb {C} }), qu'on va décrire dans cet article.
+Depuis longtemps, les mathématiciens se posaient des questions
+comme :
+Quel nombre faut-il mettre à la place de « x{\displaystyle x} » pour avoir x×(10−x)=40{\displaystyle \ x\times \left(10-x\right)=40\ } ?
+On appelle cela une équation.
+Résoudre une équation », c'est trouver la valeur manquante (à la place de x{\displaystyle x}) qui rend l'égalité vraie : on appelle cette valeur une solution de l'équation.
+Certaines équations ont une solution simple ;
+par exemple, 10−x=0{\displaystyle \ 10-x=0\ } a pour solution 10 (car si l'on remplace x{\displaystyle x} par 10, on a bien 10−10=0{\displaystyle 10-10=0}).
+Une équation peut aussi avoir plusieurs solutions : les solutions de x×(10−x)=0{\displaystyle
+x\times \left(10-x\right)=0\ } sont 10 et 0, car on peut remplacer x{\displaystyle x} par l'un ou l'autre pour retomber sur 0=0{\displaystyle 0=0}.
+Cependant, même en essayant beaucoup de nombres, on a du mal à trouver une solution pour x×(10−x)=40{\displaystyle \ x\times \left(10-x\right)=40\ }.
+Par exemple, 0 n'est plus une solution :
+En replaçant x{\displaystyle x} par 0 dans x×(10−x){\displaystyle \ x\times \left(10-x\right)}, on obtient : 0×(10−0)=0×10=0≠40{\displaystyle 0\times \left(10-0\right)\ =\ 0\times 10\ =\ 0\ \neq \ 40} donc l'égalité n'est pas vérifiée.
+En fait, il est impossible de résoudre cette équation, x×(10−x)=40{\displaystyle \
+x\times \left(10-x\right)=40\ }, si on ne cherche ses solutions que parmi les nombres dit « réels ».
+Les mathématiciens italiens de la Renaissance, notamment Girolamo Cardano et Raphaël Bombelli, n'ont pas été les premiers à s'en rendre compte, mais avant eux personne n'avait vraiment réussi à chercher « plus loin » : on disait simplement que cette équation n'avait pas de solution.
+En effet, une façon habituelle de résoudre ce genre d'équations consiste à calculer une valeur (le discriminant) dont on prend ensuite la racine carrée.
+Dans le cas de notre équation problématique, ce discriminant vaut -60 et est donc un nombre négatif
+or la racine carrée d'un nombre réel négatif n'existe pas !
+Malgré tout, Cardano et Bombelli ont fait « comme si », c'est-à-dire qu'ils ont manipulé −60{\displaystyle {\sqrt
+{-60}}}
+comme un nombre habituel
+Pour bien montrer qu'ils savaient qu'ils s'aventuraient au-delà des règles de l'époque, ils ont donné à ce −60{\displaystyle {\sqrt
+{-60}}} des noms particuliers, comme nombre imaginaire qui a été inventé par Descartes et est encore utilisé aujourd'hui.
+Pour les nombres complexes, principalement deux choses ont changé depuis la Renaissance :
+Autrefois
+nombres « bizarres » et suspects
+, ils sont devenus indispensables à notre compréhension des mathématiques.
+Ils ont été complètement intégrés à notre définition habituelle de « nombre » : l'ensemble des nombres complexes C{\displaystyle \mathbb {C} } contient les nombres réelsR{\displaystyle \mathbb {R} } et est contenu par d'autres ensembles encore plus grands.
+Cela signifie notamment que n'importe quel nombre réel est un nombre complexe particulier.
+On a trouvé des façons efficaces de les représenter et de les utiliser dans nos calculs.
+Un morceau de « règle infinie » avec quelques nombres entiers (-1, 0, 1, …) et réels (racine de 2, e et pi).
+On peut voir les nombres entiers comme les graduations régulières d'une très longue règle (infinie des deux côtés, en fait).
+Les nombres réels sont alors toutes ces graduations plus n'importe quelle autre graduation qu'on pourrait faire, n'importe où sur cette règle.
+Imaginons que l'on pose le doigt sur cette règle infinie : sous notre doigt, il y a peut-être un nombre entier, et il y a une infinité de nombres réels (parce qu'entre deux nombres réels, il y en a toujours un troisième !).
+Difficile de trouver de la place pour les nombres imaginaires…
+La réunion des deux « règles infinies » des réels (horizontalement) et des imaginaires (verticalement) donne le « plan complexe », sur lequel on peut écrire n'importe quel nombre complexe.
+On peut voir le nombre complexe 3+2i{\displaystyle 3+2i} représenté sur ce plan.
+Les nombres imaginaires comme −60{\displaystyle {\sqrt
+{-60}}
+se trouvent en fait sur une autre règle, rattachée à notre première règle au niveau du zéro.
+Ensemble, ces deux règles se comportent comme l'abscisse et l'ordonnée d'un repère gradué : elles permettent de donner une « adresse » à n'importe quel point du plan.
+Les nombres complexes sont donc de trois catégories :
+ceux qui se trouvent directement sur la droite des réels (la règle horizontale) :
+ce sont les nombres réels ;
+ceux qui se trouvent directement sur la droite des imaginaires (la règle verticale) :
+ce sont les nombres imaginaires (parfois dits purs) ;
+tous les autres, ni totalement réels, ni totalement imaginaires, mais un peu des deux : leur « adresse » dans le plan se lit sur les deux droites à la fois.
+Pour résumer, on peut dire que les nombres complexes sont les points du « plan complexe ».
+Les nombres complexes ne sont pas dits « complexes » parce qu'ils seraient compliqués (à comprendre), mais parce qu'ils sont composés d'autres nombres, un peu comme les fractions (qui sont composées de deux nombres : un numérateur et un dénominateur).
+Un nombre complexe se décompose en deux parties :
+une partie réelle, c'est-à-dire un nombre réel ;
+une partie imaginaire
+, c'est-à-dire un nombre imaginaire.
+Chaque partie d'un nombre complexe correspond à son « adresse dans le plan » : sa partie réelle est le nombre de graduations à parcourir sur la droite des réels (horizontale, l'abscisse), et sa partie imaginaire est le nombre de graduations à parcourir sur la droite des imaginaires (verticale, l'ordonnée) pour atteindre son point du plan complexe.
+L'adresse d'un nombre complexe est la somme d'un nombre réel et d'un nombre imaginaire.
+Les graduations réelles s'écrivent en fonction du nombre 1 : par exemple, 3=3×1=1+1+1{\displaystyle 3=3\times 1=1+1+1}. On dit que 1 est « l'unité réelle ».
+De la même façon, les nombres imaginaires s'écrivent en fonction d'une unité imaginaire, nommée « i
+La seconde graduation de la droite des imaginaires est donc 2i, c'est-à-dire 2×i{\displaystyle 2\times i}.
+Pour « aller jusqu'à » 3, on se déplace sur la droite réelle de trois graduations en partant de zéro.
+Pour « aller jusqu'à » 2i, on se déplace sur la droite imaginaire de deux graduations en partant de zéro.
+Pour atteindre un nombre complexe qui n'est ni réel, ni imaginaire, on peut donc se déplacer un peu selon la droite réelle (c'est-à-dire horizontalement) puis un peu selon la droite imaginaire (c'est-à-dire verticalement).
+L'adresse d'un nombre complexe qui n'est ni réel ni imaginaire est donc la somme d'une adresse réelle (horizontale) et d'une adresse imaginaire (verticale).
+C'est pour cela qu'on écrit les nombres complexes comme la somme d'un nombre réel et d'un nombre complexe :
+Pour 3, par exemple, cela donne : 3⏟partie réelle+0i⏟partie imaginaire{\displaystyle \underbrace {3} _{\text{partie réelle}}+\underbrace {0i} _
+{\text{partie imaginaire}}}
+Et l'une des solutions de notre équation x(10−x=40{\displaystyle \ x(10-x=40} s'écrit : 5−i15{\displaystyle 5-i{\sqrt {15}}}.
+On constate que ce n'est ni un nombre réel (on le savait déjà), ni un nombre imaginaire (mais c'est bien un nombre complexe), car ni sa partie réelle (5) ni sa partie imaginaire (−15×i{\displaystyle -{\sqrt {15}}\times i}) ne sont nulles.
+Sur le plan complexe, ce nombre se trouve donc à 15≈{\displaystyle {\sqrt {15}}\approx } 3,9 unités (i) en-dessous (-) de la graduation 5 de la droite des réels.
+Illustration de l'égalité i2=−1{\displaystyle i^{2}=-1} par rotations dans le plan complexe
+Par rapport au calcul en nombres réels, la seule chose nouvelle à savoir pour le calcul complexe est l'égalité i2=−1{\displaystyle i^{2}=-1}. Géométriquement, c'est facile à voir :
+Prenons la graduation 1 sur la droite des réels.
+Si on la fait tourner d'un angle droit dans le sens inverse des aiguilles d'une montre, elle devient la graduation i{\displaystyle i} sur la droite des imaginaires.
+Cela correspond à 1×i=i{\displaystyle 1\times i=i}.
+Si on applique encore notre angle droit , on retombe sur la droite des réels mais de l'autre côté de zéro, c'est-à-dire sur -1 (en effet, deux angles droits correspondent à un demi-tour).
+Cela correspond à i×i=−1{\displaystyle i\times i=-1}, autrement dit i2=−1{\displaystyle i^{2}=-1}.
+Et ainsi de suite.
+En appliquant un nouvel angle droit (c'est-à-dire une multiplication par i{\displaystyle i}) à la graduation -1, celle-ci se retrouve sur la droite des imaginaires, du côté en-dessous de zéro, c'est-à-dire sur −i{\displaystyle -i}.
+On a bien −1×i=−i{\displaystyle -1\times i=-i}.
+Enfin, on retrouve notre point de départ, 1, avec un angle droit final à partir de −i{\displaystyle -i}. Cela revient à dire que −i×i=1{\displaystyle -i\times i=1} (ce qui est la même chose que i2=−1{\displaystyle i^{2}=-1}).
+Quand on connaît cette règle, on peut utiliser les nombres complexes aussi simplement que les nombres réels.
+Par exemple, on peut ajouter 1+2i{\displaystyle 1+2i} à 5−i{\displaystyle 5-i} :

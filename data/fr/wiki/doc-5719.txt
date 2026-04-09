@@ -1,0 +1,147 @@
+Théorie météorologique|Océanographie|Géophysique|Mécanique classique
+La force de Coriolis est une force inertielle agissant perpendiculairement à la direction du mouvement d'un corps en déplacement dans un milieu (un référentiel) lui-même en rotation uniforme, tel que vu par un observateur partageant le même référentiel.
+Cette « force » est nommée ainsi en l'honneur de l'ingénieur français Gaspard-Gustave Coriolis.
+Elle n'est pas en fait une « force » au sens strict, soit l'action d'un corps sur un autre, mais plutôt une force fictive résultant du mouvement non linéaire du référentiel lui-même.
+C'est l'observateur qui change de position par l'action de l'accélération centripète du référentiel et qui interprète tout changement de direction de ce qui l'entoure comme une force inverse.
+L'introduction de cette force permet de simplifier les calculs du mouvement dans ce genre de repère, au même titre que celui de la force centrifuge.
+Histoire
+Au , il était connu que les vents de l'hémisphère nord formaient une boucle tournant vers la droite (sens des aiguilles d'une montre).
+Les navigateurs portugais qui suivaient la côte de l'Afrique à la recherche de la route maritime vers l'Inde rencontraient des vents contraires au-delà de l'équateur.
+Bartolomeu Dias eut l'idée que ces vents formaient également une boucle tournant vers la gauche (sens inverse des aiguilles d'une montre).
+Il utilisa cette intuition pour naviguer plus rapidement vers le sud de l'Afrique et découvrit ainsi le Cap de Bonne-Espérance.
+L'astronome jésuite Giovanni Battista
+Riccioli et son assistant
+Francesco Maria Grimaldi décrivaient l'effet en 1651 dans Almagestum Novum, en disant que l'effet de la rotation de la Terre doit dévier la trajectoire d'un boulet de canon, tiré au nord, vers l'est.
+Dans son Cursus seu Mundus Mathematicus, publié en 1674, Claude François Milliet Dechales, prêtre jésuite et anti-Copernicien comme Riccioli, utilise le fait que ces déviations ne sont pas observées comme argument que la Terre n'est pas en rotation.
+À la fin du et au début du , la mécanique connut de grands développements théoriques
+En tant qu'ingénieur, Gaspard-Gustave Coriolis s'intéressait à rendre la mécanique théorique applicable dans la compréhension et le développement de machines industrielles.
+C'est dans son article Sur les équations du mouvement relatif des systèmes de corps (1835) que Coriolis décrivit mathématiquement la force qui devait porter son nom.
+Dans cet article, la force de Coriolis apparaît comme une composante supplémentaire à la force centrifuge, elle aussi inertielle, ressentie par un corps en mouvement relativement à un référentiel en rotation, comme cela pourrait se produire par exemple dans les rouages d'une machine.
+L'argumentation de Coriolis était basée sur une analyse du travail et de l'énergie potentielle et cinétique dans les systèmes en rotation.
+De nos jours, la démonstration la plus utilisée pour enseigner la force de Coriolis utilise les outils de la cinématique.
+Ce n'est qu'à la fin du que cette force fit son apparition dans la littérature météorologique et océanographique.
+Le terme « force de Coriolis » apparut
+au début du
+Définition
+En mécanique newtonienne, on qualifie la force de Coriolis de force fictive, ou inertielle, en vertu du fait qu'elle n'existe que parce que l'observateur se trouve dans un référentiel en rotation alors qu'aucune force ne s'exerce pour un observateur dans un référentiel galiléen (ou référentiel inertiel).
+L'animation à droite nous montre donc la différence entre le point de vue d'un observateur immobile dans un référentiel inertiel hors du système en haut et celui d'un observateur qui se déplace avec un disque en rotation dans le même référentiel en bas.
+Dans les deux cas, il n'y a pas de friction entre la bille noire et le disque et donc aucune force réelle.
+Pour le premier, la bille ne fait que se déplacer avec une vitesse constante depuis le centre du disque vers sa bordure.
+Pour lui, il n'y a pas de force en jeu et la bille se déplace en ligne droite.
+Pour le second (le point rouge), la bille se déplace le long d'un arc de cercle, vers sa gauche, changeant constamment de direction.
+Il faut donc une force pour expliquer ce déplacement.
+Cette pseudo-force est la force de Coriolis \vec F_C.
+Elle est perpendiculaire à l'axe de rotation du référentiel et au vecteur de la vitesse du corps en mouvement.
+Si le corps s'éloigne de l'axe de rotation, \vec F_C s'exerce dans le sens contraire de la rotation.
+Si le corps se rapproche de l'axe de rotation, \vec F_C s'exerce dans le même sens que la rotation :
+:f = 2 \Omega_T
+\sin \phi
+Où \scriptstyle \phi est la latitude
+Les oscillations inertielles à la surface de la Terre due à la force de Coriolis se produisent à la fréquence définie comme \scriptstyle |f|, appelée aussi fréquence d’inertie, période de Coriolis ou période d’inertie.
+Cela veut dire d'une particule seulement affectée par la force de Coriolis effectuera un cercle complet autour de sa position de départ à \scriptstyle |fsur un rayon de \scriptstyle R= A_0^ où A0 est l'amplitude de sa vitesse (section Balistique et cercles inertiels).
+Circulation autour d'une dépression
+Le flux d'air dans une masse d'air au repos s'effectue depuis les zones de haute pression vers celles de basse pression.
+Si la Terre n'était pas en rotation, la pression d'air s'égaliserait donc rapidement et l'atmosphère deviendrait rapidement isotrope sans apport de chaleur.
+Par contre, avec le réchauffement différent aux pôles et à l'équateur qui maintient une différence de pression, on aurait une éternelle circulation entre ces deux endroits.
+Cette dernière circulation existe près de l'équateur où l'effet de Coriolis devient nul car \vec et \vec V deviennent parallèles (voir Cellules de Hadley).
+Cependant, la Terre tourne et en utilisant la définition de la force de Coriolis dans un référentiel en rotation, on voit que cette dernière augmente à mesure que la vitesse obtenue par le gradient de pression augmente mais dans la direction perpendiculaire.
+Ceci donne une déviation vers la droite dans l'hémisphère nord (gauche dans celui du sud) d'une parcelle d'air en mouvement.
+Ainsi la circulation de l'air sera anti-horaire autour d'une dépression et horaire autour d'un anticyclone (hémisphère nord).
+Il s'agit là du vent géostrophique.
+Dans la figure à droite, on voit comment cela se produit en prenant les quatre points cardinaux comme début de l'interaction des forces.
+Le gradient de pression (flèches bleues) amorce le déplacement de l'air mais la force de Coriolis (flèches rouges) le fait dévier vers la droite (flèches noires).
+Le gradient de pression s'ajuste en direction avec ce changement ainsi que la force de Coriolis ce qui fait changer continuellement la direction de notre parcelle.
+Rapidement, le gradient de pression et la force de Coriolis s'opposent et le déplacement de l'air se stabilise en suivant une trajectoire perpendiculaire au gradient et donc parallèle aux lignes d'équi-pression (isobares).
+En fait, à cause de la friction, de la force centrifuge et des différences de pression dans une région, l'équilibre n'est jamais vraiment atteint et la direction restera toujours légèrement vers le centre de basse pression (voir Spirale d'Ekman).
+Les dépressions, aussi appelés cyclones, ne peuvent pas se former près de l'équateur où la composante horizontale de la force de Coriolis est nulle.
+La variation de la force de Coriolis donne donc différents régimes de circulation atmosphérique selon la latitude.
+Balistique et cercles inertiels
+Une autre utilisation pratique de la force de Coriolis est le calcul de la trajectoire des projectiles dans l'atmosphère.
+Une fois qu'un obus est tiré ou qu'une fusée en vol sous-orbital a épuisé son carburant, sa trajectoire n'est contrôlée que par la gravité et les vents (quand il est dans l'atmosphère).
+Supposons maintenant qu'on enlève la déviation due au vent.
+Dans le repère en rotation qu'est la Terre, le sol se déplace par rapport à la trajectoire rectiligne que verrait un observateur immobile dans l'espace.
+Donc pour un observateur terrestre, il faut ajouter la force de Coriolis pour savoir où le projectile retombera au sol.
+Dans la figure de droite, on montre la composante horizontale de la trajectoire qu'un corps parcourrait (elle ne comporte pas la composante verticale du vol, ni la composante verticale de Coriolis).
+Supposons que le corps se déplace à vitesse constante de l'équateur vers le pôle Nord à altitude constante du sol, il subit un déplacement vers la droite par Coriolis (hémisphère nord).
+Sa vitesse ne change pas mais sa direction courbe.
+Dans sa nouvelle trajectoire, la force de Coriolis se remet à angle droit et le fait courber encore plus.
+Finalement, il effectue un cercle complet en un temps donné qui dépend de sa vitesse (v) et de la latitude.
+Le rayon de ce cercle (R) est :
+:\,R = v/f
+::Où \begin f\ est\ la\ projection\ horizontale\ de\ la\ force\ de\ Coriolis\ (param\gravetre\ de\ Coriolis)\\
+\phi
+latitude \\
+-2 \sin (\phi) \Omega_T \end.
+Pour une latitude autour de 45 degrés, \,f est de l'ordre de 10−4 seconde−1 (donnant une fréquence de rotation de 14 heures).
+Si un projectile se meut à 800 km s), l'équation donne un rayon de courbure de .
+Il est clairement impossible pour un projectile sur une courbe balistique de rester en l'air 14 heures et il effectuera donc seulement une partie de la trajectoire courbe.
+Par exemple, pendant la Première Guerre mondiale, les obus tirés par les Pariser Kanonen, appelés Grosse Bertha par les Français, qui pilonnaient Paris à 110 kilomètres de distance, étaient déviés de près de par la force de Coriolis.
+Par contre, la situation est différente dans le cas de l'océan ou de l'atmosphère.
+En effet, pour une parcelle d'air en mouvement dans une zone où la pression atmosphérique est uniforme (vaste col de pression) ou pour une couche océanique en mouvement dans une zone à très faible relief dynamique, le déplacement inertiel est appelé oscillation d'inertie.
+Aux latitudes moyennes, avec une vitesse typique de pour l'air, le rayon est de alors qu'avec des vitesses de pour l'eau
+, on obtient un rayon de .
+Dans ces deux cas, ces oscillations d'inertie, dont le rotationnel est nul, ne doivent pas être confondues avec des tourbillons.
+Ces trajectoires inertielles sont des cercles décrits en un demi-jour pendulaire dans le de celui de la circulation autour d'une dépression.
+Il faut se rappeler qu'il s'agit d'un cas où il n'y a pas de gradient de pression.
+En toute rigueur, comme \,f varie avec la latitude, cette trajectoire n'est pas exactement un cercle, c'est une boucle qui ne se referme pas.
+En effet, la vitesse restant constante, la déviation due à l'effet Coriolis est plus forte à la latitude la plus élevée de la trajectoire, il s'ensuit qu'après une période d'inertie, la parcelle d'eau ou d'air se retrouve légèrement à l'ouest de son point de départ, aussi bien dans l'hémisphère nord que dans l'hémisphère sud.
+Coriolis à trois dimensions
+Jusqu'à présent, nous avions considéré des mouvements selon l'horizontale uniquement.
+Parce que la Terre n'est pas plate et que l'atmosphère a une certaine épaisseur, les mouvements ont généralement une composante verticale.
+La force de Coriolis ne s'exerce donc pas uniquement parallèlement à la surface de la planète mais également selon la verticale.
+On peut penser par exemple à une parcelle d'air en surface qui se dirigerait en direction d'une étoile du firmament dans le sens de rotation de la Terre.
+Comme cette dernière tourne, sa surface change de direction par rapport à cette orientation et la parcelle semble s'éloigner vers le haut d'où une pseudo-force l'attirant dans cette direction.
+Cet effet est très faible car la force de Coriolis a peu de temps pour s'exercer avant que la parcelle d'air atteigne la limite supérieure ou inférieure de l'atmosphère mais influence certains objets comme les tirs balistiques vu plus haut.
+Si on regarde les effets selon la direction :
+Une parcelle d'air descendante sera légèrement défléchie vers l'est.
+Une autre en ascension sera défléchie vers l'ouest.
+Interprétations erronées
+L'eau du lavabo
+Contrairement à une croyance populaire, la force de Coriolis due à la rotation du globe terrestre est trop faible pour avoir le temps d'influer sur le sens de rotation de l'écoulement de l'eau dans un lavabo qui se vide.
+Comme l'ont montré Arsher Shapiro et Lloyd N. Trefethen, pour percevoir une telle influence, il est nécessaire d'observer une masse d'eau stabilisée dans un très grand bassin circulaire, d'un diamètre de l'ordre d'au moins plusieurs dizaines de kilomètres pour un effet en centimètres.
+Dans le siphon d'un lavabo, le sens de rotation de l'eau est dû à la géométrie du lavabo et aux microcourants d'eau créés lors de son remplissage, ou lors d'une agitation de l'eau.
+Pour calculer la composante horizontale de l'accélération de Coriolis, a, on utilise cette relation :
+:a = 2 \omega \cdot v \cdot \
+|\sin (\phi)|
+Avec :
+:\omega \, : vitesse angulaire du pivotement sidéral de la Terre.
+\omega = \frac\ rad \cdot s^
+:j_\text : le nombre de secondes dans un jour sidéral.
+Prenons j_\text \approx 86164
+::v \, : Vitesse horizontale de l'eau en mouvement.
+Prenons v = 1 \ m \cdot s^
+::\phi \, :
+Latitude du lieu considéré.
+Prenons \phi \approx 60^\circ
+:Application numérique : a = \frac
+\approx 0,0001 \ m \cdot s^
+Soit environ fois moins que l'accélération due à la pesanteur (g=9,81 \ m \cdot s^).
+Donc le bassin se vide bien avant que la déviation due à Coriolis se fasse sentir.
+Une expérience facile à reproduire et qui démontre ce point est présentée à ce sujet sur le site de Planet Terre.
+Dans le cas des attractions touristiques mentionnées précédemment, la latitude est nulle, et la composante horizontale de l'accélération de Coriolis également.
+Pour l'anecdote, George Gamow parodia cette idée reçue en affirmant avoir constaté lors d'un voyage en Australie que dans l'hémisphère sud, les vaches ruminent en faisant circuler l'herbe en sens inverse du sens dans l'hémisphère nord.
+Les tornades et tourbillons de poussière
+La rotation dans une tornade est le plus souvent anti-horaire mais ce n'est pas dû à Coriolis.
+Dans ce cas, la rotation est initiée par la configuration des vents dans la couche d'air près du sol qui donne une rotation horizontale de l'air.
+Lorsque le fort courant ascendant d'un orage verticalise cette rotation et qu'elle se concentre, le sens est déjà déterminé.
+On est encore là dans un domaine où le mouvement de l'air est beaucoup trop rapide pour que l'effet de Coriolis ait le temps d'avoir un impact.
+Dans le cas d'un tourbillon de poussière, la mise en route de la rotation se fait par une différence des vents horizontaux.
+On a alors un axe vertical de tourbillon créé où la force centrifuge est contrebalancée par celle de pression.
+La vitesse des particules est trop rapide et sur un trop petit rayon pour que la force de Coriolis ait le temps d'agir.
+Les observations ont montré que la rotation dans ces vortex est statistiquement divisée également entre horaires et anti-horaire, quel que soit l'hémisphère.
+Divers
+La force de Coriolis ne dépend pas de la courbure de la Terre, seulement de sa rotation et de la latitude où on se trouve.
+La terre étant quasiment une sphère, les cartes géographiques en deux dimensions sont nécessairement une projection (voir par exemple la projection de Mercator) qui donne une distorsion de la surface terrestre.
+La trajectoire des missiles balistiques, ou des obus, est courbée lorsqu'on la trace sur une carte mais la courbe obtenue est une somme de l'effet de Coriolis, des vents et de la projection qui a servi à faire la carte.
+Or ces deux dernières sont en général plus importantes que la déviation de Coriolis.
+Dans la culture populaire
+* Dans le cycle de Dune du romancier Frank Herbert, les tempêtes Coriolis sont de gigantesques tempêtes de sable se produisant sur la planète Arrakis.
+La rotation de la planète alimente et entretient ces tempêtes que rien n'arrête sur cette planète sableuse, hormis les quelques formations rocheuses, détruisant tout sur leur passage.
+* Dans le jeu vidéo Call of Duty 4:
+Modern Warfare, l'effet de Coriolis fait son apparition lorsqu'il s'agit de tirer sur une cible très éloignée (à mètres) avec un fusil de précision Barrett M82.
+* Cet effet est mentionné dans le film Shooter, tireur d'élite lors d'un tir à plus de que doit effectuer le personnage principal contre le président des États-Unis.
+* Dans l'épisode de la série Simpson
+, «
+Bart contre l'Australie », la force de Coriolis est à la base de l'intrigue.
+Bart fait des appels malicieux à travers le monde et est troublé d'apprendre que le sens du tourbillon des toilettes est inverse en Australie (fausseté déjà démontrée).
+Un membre de l'ambassade américaine le rassure en mentionnant qu'un système permet de faire tourner le tourbillon dans le sens américain dans leurs locaux.

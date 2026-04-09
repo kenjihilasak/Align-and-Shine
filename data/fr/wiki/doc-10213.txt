@@ -1,0 +1,96 @@
+Mathématiques élémentaires|Méthode
+mathématique|Détection et correction d'erreur
+En arithmétique, la preuve par neuf est une technique permettant de vérifier un calcul mental ou effectué « à la main ».
+Malgré son nom, cette technique n'est pas une preuve mathématique, car elle peut montrer qu'un résultat est erroné, mais si la technique ne trouve pas d'erreur, elle ne permet pas de conclure que le résultat est correct.
+Le principe général est de refaire le calcul beaucoup plus simplement, en remplaçant chaque nombre supérieur ou égal à 10 par la somme de ses chiffres, de façon répétée.
+Cette technique est en fait une application des propriétés de l'arithmétique modulaire puisqu'elle revient à calculer modulo 9.
+Comment l'appliquer
+Pour la multiplication
+Supposons que nous ayons calculé 17\times 35.
+On remplace 17 par la somme de ses chiffres : 1+7
+8\,,
+de même pour 35, remplacé par 3+5
+8\,.
+Le résultat de 17\times 35 devrait avoir pour somme de ses chiffres
+la même que
+64,
+soit 6+4
+10\,, lui-même remplacé par 1+0=1\,.
+La preuve par neuf appliquée au produit 17\times 35 s'applique ainsi : on calcule la somme des chiffres du résultat trouvé.
+Dans cet exemple, si cette somme est différente de 1, notre calcul est faux.
+Si elle est égale à 1, il peut être juste.
+Effectivement 17\times
+595, or 5+9+5
+19\, et 1+9
+10\,, lui-même remplacé par 1+0
+1\,
+Pour l'addition
+La preuve par neuf fonctionne également pour vérifier le résultat d'une addition, il convient alors d'additionner les deux sommes des chiffres.
+Supposons que nous ayons calculé 36994+99363.
+On remplace 36994 par la somme de ses chiffres : 3+6+9+9+4
+31\
+,, lui-même remplacé par 3+1
+4\,,
+de même pour 99363, remplacé par 9+9+3+6+3
+30\
+, lui-même remplacé par 3+0
+3\,.
+Le résultat de 36994+99363 devrait avoir pour somme de ses chiffres la même que la somme 4+3=7.
+La preuve par neuf appliquée à la somme 36994+99363 s'applique ainsi : on calcule la somme des chiffres du résultat trouvé.
+Dans cet exemple, si cette somme est différente de 7 notre calcul est faux.
+Si elle est égale à 7, il peut être juste.
+Effectivement 36994
++99363
+136357,
+or 1+3+6+3+5+
+25\
+, lui-même remplacé par 2+5=7\,.
+Astuces de calcul
+Comme 9 est congru à 0 modulo 9 (c.a.d.
+: 9 ≡ 09 ), ces deux chiffres jouent le même rôle dans la preuve par neuf : on peut donc remplacer les 9 par des 0, ce qui revient à omettre les 9 dans les calculs des sommes des chiffres.
+Par exemple, le nombre 1999999992 sera, après plusieurs itérations, remplacé par la somme 1+2.
+Lorsqu'on calcule la somme des chiffres, il est astucieux de regrouper ceux dont la somme donne 9, pour ensuite remplacer ce 9 par 0.
+Par exemple : 1+7+3+8+2 = (1+8)+ (7+2)+3 donnera 3.
+Pourquoi elle fonctionne
+Le principe de la preuve par neuf repose sur la compatibilité de la congruence avec l'addition et la multiplication ainsi que sur le fait que 10 soit congru à 1 modulo 9.
+Ceci entraîne que tout nombre entier naturel est congru, modulo 9, à la somme de ses chiffres en écriture décimale.
+Ses limites
+La preuve par neuf est mise en défaut
+* si des chiffres sont permutés, car leur somme est inchangée ;
+* si l'écart entre le nombre trouvé après le calcul et le résultat est un multiple de 9.
+Par exemple, si le résultat est 1992 et qu'on trouve 1092, l'erreur ne sera pas détectée : pour ces deux nombres, l'algorithme sur la somme des chiffres donnera : 3.
+Donc
+la preuve par neuf est sujette aux faux positifs.
+On dira que la preuve par 9 est une condition nécessaire, mais pas suffisante.
+Généralisation
+La preuve par 9 fonctionne grâce à l'arithmétique modulaire et au fait que le modulo neuf est égal au reste de la somme des chiffres en base dix modulo neuf.
+Mais qu'en est-il dans d'autres bases ?
+On comprend rapidement qu'en base N on peut utiliser la preuve par N-1.
+Ainsi en base 16 on peut utiliser la preuve par quinze.
+Accessoirement ceci donne un test de divisibilité rapide par 5 et par 3.
+On peut aussi pour des nombres en base dix utiliser la base cent, avec la preuve par quatre-vingt-dix-neuf, et donc réduire le risque de faux positif de 11 % à 1 %.
+Preuve par onze
+Une technique similaire et moins connue est la preuve par onze, basée sur le fait
+que 10^n\equiv (-1)^n \pmod .
+On remplace ici chaque nombre par la somme alternée de ses chiffres, formée en partant de la droite : 43726 devient 6-2+7-3+4
+12 qui devient 2-1
+1 ;
+Si le résultat brut est négatif, on ajoute 11 autant de fois que nécessaire pour se ramener entre 0 et 10.
+Pour un nombre comme 182, on obtient d'abord 2-8+1
+-5, finalement congru à 11-5
+6 modulo 11.
+La preuve par onze appliquée au produit 17\times 35 se déroule ainsi :
+12 est associé -1+2
+595 est associé
+5-9+5
+10-9 = 1.
+Du fait de la concordance, le produit 595 est présumé juste (à un multiple de 11 près).
+La preuve par onze, ou preuve des comptables, ne laisse passer que les rares permutations entre chiffres ayant des rangs de même parité : 43 726 est confondu avec 43 627 mais pas avec 43 762.
+La combinaison de ces preuves par 9 et par 11 redonne la preuve par 99.
+Bibliographie
+Alexandre Sarrazin de Montferrier, Encyclopédie mathématique ou Exposition complète de toutes les branches des mathématiques d'après les principes de la philosophie des mathématiques de Hoëné Wronski.
+Première partie, Mathématiques pures.
+Tome premier, page 35, éd.
+Amyot, 1856.
+Ouvrage accessible en ligne sur le site de la Bibliothèque nationale de France :
+jw1u45mltoi4kz87vbtkyv4e2mh0119

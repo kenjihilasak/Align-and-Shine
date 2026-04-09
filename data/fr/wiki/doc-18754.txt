@@ -1,0 +1,50 @@
+Symbole typographique|Notation musicale
+En musique, dans le solfège, un dièse est un symbole graphique () appartenant à la famille des altérations et dont la fonction est d'indiquer, sur la partition, que la hauteur naturelle de la note associée à ce dièse doit être élevée d'un demi-ton chromatique.
+La note affectée d'un dièse est dite « diésée ».
+Une note peut être diésée pour toutes sortes de raisons : modulation, transposition, note de passage, ornementation, utilisation de l'échelle chromatique…
+Étymologie et histoire
+Le français |trans=díesis.
+Au Moyen Âge, à l'époque du Roman de Fauvel, apparaît le dièse dont la forme provient du bécarre.
+Effet du dièse
+Le dièse a toujours pour effet de hausser la note d'un demi-ton chromatique.
+Il peut être constitutif (c'est-à-dire placé à l'armure en début de portée, placé à la droite de la clef), ou bien accidentel (c'est-à-dire placé de manière ponctuelle à divers endroits sur une portée musicale).
+Dièse constitutif ou dièse à la clé
+Les dièses constitutifs, communément appelés « dièses à la clé », sont habituellement rappelés au début de chaque ligne de portée, et à chaque changement de clé (lorsque sur la même portée on passe de la clé de sol à la clé de fa par exemple).
+Ils constituent l’armure de la section du morceau.
+Leur effet est permanent pour toute la durée de la portée, sauf si l'armure est modifiée.
+Ces dièses altèrent toutes les notes de même nom quelle qu'en soit l'octave, sauf si entre-temps intervient une autre altération (accidentelle) modifiant temporairement (pour la durée de la mesure en cours) la hauteur de la note en question, ou bien sûr si l'armure à la clé est modifiée.
+L'ordre des dièses (selon le cycle des quintes montantes) est immuable : fa, do, sol, ré, la, mi, si.
+De sorte que s'il n'y a qu'un dièse à la clé, c'est toujours le fa qui est altéré ;
+s'il y en a deux ce sont toujours le fa et le do ;
+trois dièses à la clé affectent toujours fa, do et sol, et ainsi de suite.
+Dièse
+accidentel
+L'effet d'une altération accidentelle, quelle qu'elle soit, est temporaire.
+Elle altère toutes les notes de même nom et de même hauteur se trouvant après elle, et ce jusqu'à la prochaine barre de mesure, sauf si entre-temps apparaît une autre altération modifiant la hauteur de cette même note.
+Autres dièses
+Il existe aussi :
+* un double-dièse, qui monte de deux demi-tons chromatiques (pour les instruments à tempérament égal cela revient à monter d'un ton)
+, utilisé dans certains accords et certaines tonalités ;
+par exemple en ré ♯ mineur, les notes de la gamme mineure harmonique
+sont : ré ♯, mi ♯, fa ♯, sol ♯, la ♯, si, do
+\new Staff = "haut" \with
+* un semi-dièse, qui monte d'un quart de ton
+Il peut être représenté par le symbole dièse avec une seule barre verticale.
+\new Staff = "haut" \with
+* un sesqui-dièse, qui monte de trois quarts de ton
+Il peut être représenté par le symbole dièse avec trois barres verticales.
+\new Staff = "haut" \with
+Représentation du dièse en informatique
+Le dièse et Unicode
+Le dièse (♯) est un caractère différent du croisillon (« # ») ;
+ce dernier a les deux barres transversales horizontales, et ses barres « verticales » légèrement en oblique à droite, alors que les barres verticales du dièse sont bien verticales mais ses « horizontales » sont, elles, légèrement ascendantes.
+Unicode distingue les deux caractères : le dièse est codé à l'emplacement U+266F, tandis que le croisillon l'est à U+0023.
+On utilise cependant souvent le croisillon (#) pour représenter le dièse (♯) pour des raisons de facilité, car le croisillon est disponible sur le clavier.
+Le dièse
+et LaTeX
+LaTeX permet de tracer le symbole du dièse facilement.
+La syntaxe est $\sharp$ et le résultat est \sharp .
+Le dièse et Linux
+Linux aussi permet de taper les dièses (♯) très facilement .
+Si l'on a défini une touche Compose, il suffit de taper Compose # #.
+Compose # b donnera un bémol () et Compose # f un bécarre ().

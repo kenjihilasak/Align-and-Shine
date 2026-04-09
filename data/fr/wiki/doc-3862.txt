@@ -1,0 +1,138 @@
+Fractale|Motif
+Une figure fractale est un objet mathématique, telle une courbe ou une surface, dont la structure est invariante par changement d'échelle.
+L'adjectif « fractal », à partir duquel l'usage a imposé le substantif une fractale pour désigner une figure ou une équation de géométrie fractale, est un néologisme créé par Benoît Mandelbrot en 1974 à partir de la racine latine , qui signifie «
+brisé »
+, « irrégulier », et de la désinence -al présente dans les adjectifs naval et banal (pluriels : navals, banals, fractals).
+De nombreux phénomènes naturels
+- comme le tracé des lignes de côtes ou l'aspect du chou romanesco
+- possèdent des formes fractales approximatives.
+Les fractales sont définies de manière paradoxale, à l'image des poupées russes qui renferment une figurine identique à l'échelle près : « les objets fractals peuvent être envisagés comme des structures gigognes en tout point
+- et pas seulement en un certain nombre de points, les attracteurs de la structure gigogne classique.
+Cette conception hologigogne (gigogne en tout point) des fractales implique cette définition tautologique : un objet fractal est un objet dont chaque élément est aussi un objet fractal (similaire).
+Caractéristiques
+Un objet fractal possède au moins l'une des caractéristiques suivantes :
+* sa dimension de Hausdorff
+est strictement supérieure à sa dimension topologique.
+Cette caractéristique est généralement prise comme définition même d'un objet fractal.
+Pour exprimer la chose autrement, un réseau d'irrigation est un déploiement de lignes (« en 1D ») qui offre des caractéristiques commençant à évoquer une surface (« en 2D »).
+La surface du poumon (« en 2D ») est repliée en une sorte de volume (« en 3D »).
+De façon imagée, les fractales se caractérisent par une sorte de dimension non entière.
+(Mandelbrot ne considère pas cette définition comme tout à fait satisfaisante) ;
+* il a des détails similaires à des échelles arbitrairement petites ou grandes ;
+* il est trop irrégulier pour être décrit efficacement en termes géométriques traditionnels ;
+il est exactement ou statistiquement autosimilaire, c'est-à-dire que le tout est semblable à une de ses parties.
+Domaines de validité
+Les figures fractales n'ont pas à satisfaire toutes les propriétés mentionnées ci-dessus pour servir de modèles.
+Il leur suffit de réaliser des approximations convenables de ce qui intéresse dans un domaine de validité donné (le livre fondateur de Mandelbrot
+Les Objets fractals en donne une grande variété d'exemples).
+La taille des alvéoles du poumon, par exemple, taille à partir de laquelle celui-ci cesse de se subdiviser de façon fractale, est liée à la taille du libre parcours moyen de la molécule d'oxygène à température du corps.
+La dimension utilisée est celle de Hausdorff, et on observe qu'elle correspond à une caractéristique nouvelle des surfaces irrégulières.
+On connait les plages de validité des dimensions de Hausdorff observées sur Terre pour les montagnes, les nuages, etc.
+Des exemples de figures fractales sont fournis par les ensembles de Julia, de Fatou et de Mandelbrot, la fractale de Lyapunov, l'ensemble de Cantor, le tapis de Sierpinski, le triangle de Sierpinski, la courbe de Peano ou le flocon de Koch.
+Les figures fractales peuvent être des fractales déterministes ou stochastiques.
+Elles apparaissent souvent dans l'étude des systèmes chaotiques.
+Les figures fractales peuvent être réparties en trois grandes catégories :
+Les systèmes de fonctions itérées.
+Ceux-ci ont une règle de remplacement géométrique fixe (l'ensemble de Cantor, le tapis de Sierpinski, le triangle de Sierpinski, la courbe de Peano, le flocon de Koch) ;
+Les fractales définies par une relation de récurrence en chaque point dans un espace (tel que le plan complexe)
+Des exemples de ce type sont les ensembles de Mandelbrot et la fractale de Lyapunov ;
+Les fractales aléatoires, générées par des processus stochastiques et non déterministes, par exemple les paysages fractals.
+De toutes ces figures fractales, seules celles construites par des systèmes de fonctions itérées affichent habituellement la propriété d'autosimilitude, signifiant que leur complexité est invariante par changement d'échelle.
+Les fractales aléatoires sont les plus utilisées dans la pratique, et peuvent servir à décrire de nombreux objets extrêmement irréguliers du monde réel.
+Les exemples incluent des nuages, les montagnes, les turbulences de liquide, les lignes des côtes et les arbres.
+Les techniques fractales ont aussi été utilisées dans la compression fractale d'images, de même que dans beaucoup de disciplines scientifiques.
+Dimension fractale
+La dimension d'une ligne droite, d'un cercle et d'une courbe régulière est de 1.
+Une fois fixés une origine et un sens, chaque point de la courbe peut être déterminé par un nombre, qui définit la distance entre l'origine et le point.
+Le nombre est pris négativement s'il faut se déplacer dans le sens opposé à celui choisi au départ.
+La dimension d'une figure simple dans le plan est de 2.
+Une fois un repère défini, chaque point de la figure peut être déterminé par deux nombres.
+La dimension d'un corps simple dans l'espace est de 3.
+Une figure telle qu'une fractale n'est pas simple.
+Sa dimension n'est plus aussi facile à définir et n'est plus forcément entière.
+La dimension fractale, plus complexe, s'exprime à l'aide de la dimension de Hausdorff.
+Quand la fractale est formée de répliques d'elle-même en plus petit, sa dimension fractale peut se calculer comme suit :
+d = \frac
+où la fractale de départ est formée de n exemplaires dont la taille a été réduite d'un facteur h (pour homothétie).
+Quelques exemples :
+* un côté du flocon de Koch est formé de n
+4 exemplaires de lui-même réduit d'un facteur h
+Sa dimension fractale vaut :
+d= \frac \approx 1,2618595\ldots
+* le triangle de Sierpinski est formé de n
+3 exemplaires de lui-même réduit d'un facteur h
+Sa dimension fractale vaut :
+d= \frac \approx 1,5849625\ldots
+* le tapis de Sierpinski est formé de n
+8 exemplaires de lui-même réduit d'un facteur h
+Sa dimension fractale vaut :
+d= \frac \approx 1,892789\ldots
+Une liste beaucoup plus longue se trouve sous : Liste de fractales par dimension de Hausdorff.
+KochFlake.svg|Suite de constructions géométriques qui tend vers le flocon de Koch.
+Sierpinski triangle
+evolution.svg|Les cinq premières étapes de construction du triangle de Sierpiński.
+Animated Sierpinski carpet.gif|Évolution de la construction du tapis de Sierpiński.
+Objets fractals dans la nature
+Des formes fractales approximatives sont facilement observables dans la nature.
+Ces objets ont une structure autosimilaire sur une échelle étendue, mais finie : les nuages, les flocons de neige, les montagnes, les réseaux de rivières, le chou-fleur ou le brocoli, et les vaisseaux sanguins.
+Les arbres et les fougères sont de nature fractale et peuvent être modélisés par ordinateur à l'aide d'algorithmes récursifs comme les L-Systems.
+La nature récursive est évidente dans ces exemples ;
+la branche d'un arbre ou la fronde d'une fougère sont des répliques miniatures de l'ensemble : pas identiques, mais de forme similaire.
+La surface d'une montagne peut être modélisée sur ordinateur en utilisant une fractale : prenons un triangle dans un espace tridimensionnel dont nous connectons les milieux de chaque côté par des segments, il en résulte quatre triangles.
+Les points centraux sont ensuite déplacés aléatoirement vers le haut ou le bas, dans un rayon défini.
+La procédure est répétée, diminuant le rayon de moitié à chaque itération.
+La nature récursive de l'algorithme garantit que le tout est statistiquement similaire à chaque détail.
+Enfin, certains astrophysiciens ont remarqué des similitudes dans la répartition de la matière dans l'Univers à six échelles différentes.
+Les effondrements successifs de nuages interstellaires, dus à la gravité, seraient à l'origine de cette structure fractale.
+Ce point de vue a donné naissance au modèle de l'univers fractal, décrivant un univers fondé sur les fractales.
+Domaines d'application
+Les domaines d'application des fractales sont très nombreux, on peut citer en particulier :
+* en biologie, répartition des structures des plantes, bactéries, feuilles, branches d'arbres…
+* en géologie, étude du relief, côtes et cours d'eau, structures de roches, avalanches…
+* en paléontologie, loi de puissance des apparitions et extinctions d'espèces
+* en morphologie animale, structures des invertébrés, plumes d'oiseaux…
+* en médecine, structure des poumons, intestins, battements du cœur
+* en météorologie, nuages, vortex, banquise,
+vagues scélérates, turbulences, structure de la foudre
+* en volcanologie, prévision d'éruptions volcaniques, tremblements de terre
+* en astronomie avec la description des structures de l'univers, cratères sur la Lune, répartition des exoplanètes et des galaxies…
+* en économie et finance, prévision des krachs boursiers, (théorie du « multifractal »)
+* en électronique, antennes
+larges bandes des téléphones portables
+* en géographie urbaine, pour l'analyse des formes urbaines
+* en urbanisme et dans les domaines socio-politiques
+* dans les Arts, arts graphiques bien sûr, mais aussi en littérature, en musique, au cinéma…
+Tous ces domaines
+et bien d'autres
+- peuvent bénéficier de la description et d'une modélisation en termes fractals des phénomènes associés.
+Le modèle commence tout particulièrement à se développer en finance, où l'approche fractale de Mandelbrot se prête aux marchés volatils.
+Des sociétés utilisent un modèle identifiant les répétitions mathématiques afin de prévoir certains mouvements de prix à court-terme.
+Cette approche systématique est basée sur la volatilité et l'accélération des échanges de titres afin de valider les tendances.
+Une anticipation des variations est ainsi immédiatement inscrite sur le modèle : si la variation est d'ampleur suffisante, elle permet de prendre par exemple une position short sur le marché.
+Utilisations industrielles
+Surface spécifique de Blaine :
+la finesse de broyage d'un ciment est exprimée en termes de surface spécifique (cm²/g) et mesurée par la méthode de Blaine, dite de perméabilité à l'air, utilisant la loi de Darcy, et la loi de Kozeny-Carman qui établit que la traversée d'un lit de granules par un fluide est affectée par la surface spécifique des granules.
+Ainsi, en calculant la durée que met un gaz sous pression à traverser un volume donné de granules, on en déduit la surface des granules.
+Plus le broyage est fin, plus la surface calculée est importante.
+Cette expérience se produisant dans un volume déterminé, on peut imaginer obtenir une surface développée infinie en broyant toujours plus finement le ciment.
+Il s'agit là d'une utilisation industrielle d'un modèle expliqué par les mathématiques fractales (un objet de dimension n de mesure finie, borné par une frontière de dimension n-1, de mesure tendant vers l'infini).
+Informatique
+* Fractint est un logiciel gratuit destiné à tracer de nombreux types de fractales.
+* Sterling est un générateur de fractales gratuit pour Windows.
+* XaoS est un logiciel libre permettant une découverte à la fois technique et poétique des fractales.
+* FractaNep est un logiciel gratuit traçant les ensembles de Mandelbrot, Julia et Newton (compatible Windows).
+* Qosmic est un logiciel s'intéressant à l'édition de flammes fractales, les rendus sont générés de manière algorithmique.
+Galerie d'images
+Mandelbrot_set_5000px.png|Ensemble de Mandelbrot
+Julia (Fractal).png|Ensemble de Julia en 0.3+0.5i.
+Fractal_Sentinel_SterlingW3165.jpg|Illustration fractale
+créée avec le générateur Sterling2.
+Quaternion_Julia_x%3D-0,75_y%3D-0,14.jpg|Quaternion Julia
+avec x
+-0,75
+et y
+-0,14.
+Fractales.jpg|Motif fractal.
+GreenCircleFractal.png|Figure fractale circulaire.
+Menger sponge (IFS).jpg|L'éponge de Menger.
+RandomApollonianCircleFractal.svg|Image fractale circulaire générée par un code JavaScript.

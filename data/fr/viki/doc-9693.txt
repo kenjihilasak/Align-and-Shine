@@ -1,0 +1,117 @@
+Vecteur
+Un vecteur ou plus précisément un vecteur Euclidien est un segment orienté, symbolisé par une flèche.
+Il permet de représenter le déplacement d'un point A à un point B, c'est ce déplacement que l'on appelle vecteur.
+En physique, un vecteur sert surtout à représenter une force
+, cette dernière a une direction et une dimension, on peut donc la voir comme un vecteur.
+Quels est le lien entre ses points?
+Pour aller de A à B, on part de A et on se déplace vers le point B d'une certaine distance (par exemple 6 cm), même chose pour aller de C vers D, de E vers F et de G vers H.
+Le déplacement de A vers B se note AB→{\displaystyle {\overrightarrow {\rm {AB}}}}, celui de C vers D CD→{\displaystyle {\overrightarrow {\rm {CD}}}}, celui de E vers F EF→{\displaystyle {\overrightarrow {\rm {EF}}}} et celui de G vers H GH→{\displaystyle
+{\overrightarrow {\rm {GH}}}}.
+AB→{\displaystyle {\overrightarrow {\rm {AB}}}}, CD→{\displaystyle {\overrightarrow {\rm {CD}}}}, EF→{\displaystyle {\overrightarrow {\rm {EF}}}} et GH→{\displaystyle {\overrightarrow {\rm {GH}}}} sont ce que l'on appelle des vecteurs.
+Pour ces quatre vecteurs on s'est déplacé dans la même direction et sur la même distance, la seule chose différente c'est le point de départ.
+On en déduit donc que ces quatre vecteurs sont égaux: AB→=CD→=EF→=GH→{\displaystyle {\overrightarrow {\rm {AB}}}={\overrightarrow {\rm {CD}}}={\overrightarrow {\rm {EF}}}={\overrightarrow {\rm {GH}}}}.
+Le vecteur u est égal aux autres vecteurs
+Pour simplifier les formules, on va désigner ces quatre vecteurs égaux par une seule lettre (par exemple u→{\displaystyle {\vec {u}}}), contrairement aux autres vecteurs, celui-ci ne commence ni ne se termine à un point précis, il représente juste la distance entre A et B, C et D, E et F, G et H.
+On peut donc définir le vecteur par trois paramètres: sa direction, ici les vecteurs ont la direction sud-ouest nord-ouest, un sens (A vers B...) et une norme ou longueur notée entre ‖‖{\displaystyle
+\|\|}, ici la norme de AB→{\displaystyle {\overrightarrow {\rm {AB}}}} est ‖AB→‖{\displaystyle \|{\overrightarrow {\rm {AB}}}\|}. A est appelé l'origine du vecteur et B est son extrémité.
+Les conditions pour que deux vecteurs soient égaux sont qu'ils aient la même norme, la même direction et le même sens.
+Prenons
+un parallélogramme ABCD (un parallélogramme a ses côtés parallèles deux à deux).
+On peut donc écrire quatre égalités: AB→=DC→{\displaystyle \scriptstyle {\overrightarrow {AB}}=\scriptstyle {\overrightarrow {DC}}}, en effet, parce que ces deux droites sont parallèles, elles ont donc la même direction, elles ont également le même sens, en effet : aller de A à B, c'est comme aller de D à C ;
+ils ont également la même norme car AB = DC, on peut aussi écrire AD→=BC→{\displaystyle
+\scriptstyle {\overrightarrow
+{AD}}=\scriptstyle {\overrightarrow
+{BC}}};
+pour les mêmes raisons, il y a également BA→=CD→{\displaystyle \scriptstyle {\overrightarrow {BA}}=\scriptstyle {\overrightarrow {CD}}};
+et pour finir DA→=CB→{\displaystyle \scriptstyle {\overrightarrow {DA}}=\scriptstyle {\overrightarrow
+{CB}}}.
+Attention
+AB→{\displaystyle \scriptstyle {\overrightarrow
+{AB}}} et BA→{\displaystyle \scriptstyle {\overrightarrow
+{BA}}} sont différents : en effet, ils n'ont pas le même sens (l'un va de A a B, l'autre de B vers A).
+Cependant AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} = −BA→{\displaystyle -\scriptstyle {\overrightarrow {BA}}} peuvent être égaux uniquement dans ce cas de figure.
+Une multiplication de vecteur
+On peut multiplier un vecteur par un nombre réel, ce dernier est appeler un scalaire.
+Prenons un vecteur u→{\displaystyle \scriptstyle {\overrightarrow {u}}} et un réel non nul quelconque que nous appelons r.
+Il y a deux cas soit r est positif soit r est négatif.
+Imaginons
+que r= 4 et que le vecteur v→=4u→{\displaystyle \scriptstyle {\overrightarrow {v}}=4\scriptstyle {\overrightarrow {u}}}.
+Le vecteur v→{\displaystyle \scriptstyle {\overrightarrow {v}}}a
+le même sens, la même direction que u→{\displaystyle \scriptstyle {\overrightarrow {u}}}, mais une norme multipliée par 4.
+Donc multiplier un vecteur par un nombre réel positif revient à multiplier sa norme par ce réel.
+Maintenant imaginons que r= -4 et que le vecteur w→=−4u→{\displaystyle \scriptstyle {\overrightarrow {w}}=-4\scriptstyle {\overrightarrow {u}}}.
+Le vecteur w→{\displaystyle \scriptstyle {\overrightarrow
+{w}}}a
+la même direction que u→{\displaystyle \scriptstyle {\overrightarrow {u}}} car ces deux vecteurs sont parallèles, il ont des sens opposés et la norme de w→{\displaystyle \scriptstyle {\overrightarrow {w}}} est multipliée par 4 (valeur absolue de -4)
+Donc multiplier un vecteur par un nombre réel négatif revient à multiplier la norme de vecteur par ce réel, mais si le réel est négatif le sens du vecteur change.
+Pour résumer:
+Multiplier un vecteur par un réel donne un vecteur
+Le vecteur obtenu a la même direction, le même sens si le réel est positif ou alors des sens opposés s'il est négatif.
+Multiplier un vecteur par un nombre réel revient à multiplier sa norme par ce réel.
+Prenons trois vecteurs non nuls a→{\displaystyle \scriptstyle {\overrightarrow
+{a}}}, b→{\displaystyle \scriptstyle {\overrightarrow {b}}} et c→{\displaystyle \scriptstyle {\overrightarrow {c}}} dont la relation est c→=a→+b→{\displaystyle \scriptstyle {\overrightarrow
+{c}}=\scriptstyle {\overrightarrow {a}}+\scriptstyle {\overrightarrow {b}}}
+Pour additionner deux vecteurs, on va réaliser une translation de vecteur (déplacer le vecteur).
+Pour déplacer ce vecteur, il faut que le vecteur déplacé ait la même direction, le même sens et la même norme.
+Nous allons déplacer le vecteur b→{\displaystyle \scriptstyle {\overrightarrow {b}}} et le vecteur déplacé va s’appeller b′→{\displaystyle \scriptstyle {\overrightarrow {b'}}}.
+On va en quelque sorte les mettre l'un derrière l'autre.
+Le vecteur c→{\displaystyle \scriptstyle {\overrightarrow {c}}} est égal à la distance entre le début de a→{\displaystyle \scriptstyle {\overrightarrow
+{a}}} et la fin de b′→{\displaystyle \scriptstyle {\overrightarrow {b'}}}.
+La relation de Chasles dit qu'un vecteur AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} peut être calculé en introduisant un point C. On a donc: AB→=AC→+CB→{\displaystyle \scriptstyle {\overrightarrow {AB}}=\scriptstyle {\overrightarrow {AC}}+\scriptstyle {\overrightarrow {CB}}}.
+Prenons un segment [AB] ayant pour milieu C. On peut donc dire 3 choses:
+AB→=2AC→{\displaystyle
+\scriptstyle {\overrightarrow
+{AB}}=2\scriptstyle {\overrightarrow
+{AC}}}.
+On en déduit donc que C est le milieu de [AB]
+CA→+CB→=0→{\displaystyle \scriptstyle {\overrightarrow {CA}}+\scriptstyle {\overrightarrow {CB}}=\scriptstyle {\overrightarrow
+{0}}}
+Car la somme de deux vecteur opposés est égale a 0→{\displaystyle \scriptstyle {\overrightarrow {0}}} qui se lit "vecteur nul"
+On peut également dire que BA→=2BC→{\displaystyle \scriptstyle {\overrightarrow {BA}}=2\scriptstyle {\overrightarrow
+{BC}}}
+Un vecteur nul est un vecteur qui revient à partir d'un point vers ce même point par exemple AA→=0→{\displaystyle \scriptstyle {\overrightarrow {AA}}=\scriptstyle {\overrightarrow
+{0}}}, car le sens de ce vecteur est de A vers A.
+Additionner un vecteur avec le vecteur nul revient à ne rien faire.
+Deux vecteurs sont dit opposés lorsque leurs sens sont opposés : par exemple k→{\displaystyle \scriptstyle {\overrightarrow {k}}} et −k→{\displaystyle \scriptstyle {\overrightarrow {-k}}} sont des vecteur opposés.
+La somme de deux vecteur opposés est égale au vecteur nul, cela marche de la même façon que les nombres, par exemple 5+(−5)=0{\displaystyle 5+(-5)=0}.
+Additions de vecteur simple et une autre montrant la règle du parallélogramme
+Prenons un quadrilatère
+ABCD.
+Si AB→+AD→=AC→{\displaystyle \scriptstyle {\overrightarrow {AB}}+\scriptstyle {\overrightarrow {AD}}={\overrightarrow {AC}}},
+alors ce quadrilatère est rectangle.
+On peut également appliquer la distributivité aux vecteurs (rappel: k(a+b) = ka +kb).
+La règle est la même que pour les nombres sauf qu'à la place de a et de b on prend des vecteurs, ce qui donne: k(v→+u→){\displaystyle k(\scriptstyle {\overrightarrow {v}}+\scriptstyle {\overrightarrow {u}})}
+On applique donc la distributivité on a alors: kv→+ku→){\displaystyle k\scriptstyle
+{\overrightarrow {v}}+k\scriptstyle {\overrightarrow {u}})}.
+On peut aussi multiplier la somme de deux réels par un vecteur: (2+3)×w→{\displaystyle (2+3)\times \scriptstyle {\overrightarrow
+{w}}}.
+On applique donc la distributivité : 2w→+3w→{\displaystyle 2\scriptstyle {\overrightarrow {w}}+3\scriptstyle {\overrightarrow {w}}}
+La dernière possibilité est de multiplier deux réels par un vecteur:(2×3)×w→{\displaystyle (2\times 3)\times \scriptstyle {\overrightarrow
+{w}}}.
+On utilise donc l'associativité ce qui donne : 2×(3×w→)=6w→{\displaystyle 2\times (3\times \scriptstyle {\overrightarrow {w}})=6\scriptstyle {\overrightarrow {w}}}
+Maintenant si k×Z→)=0→{\displaystyle k\times \scriptstyle {\overrightarrow {Z}})=\scriptstyle {\overrightarrow
+{0}}} alors soit
+k=0{\displaystyle k=0} soit Z→)=0→{\displaystyle
+\scriptstyle {\overrightarrow {Z}})=\scriptstyle {\overrightarrow
+{0}}}, sachant que les deux peuvent être nuls.
+La définition exacte de la colinéarité entre deux vecteurs est: Deux vecteurs sont colinéaires si et seulement s'il existe un réel k tel que u→=k×v→{\displaystyle \scriptstyle {\overrightarrow {u}}=k\times \scriptstyle {\overrightarrow {v}}}.
+Le vecteur nul est, quant à lui, colinéaire à tous les vecteurs.
+En pratique, deux vecteurs sont colinéaires si ils ont la même direction.
+Par exemple si w→=−3v→{\displaystyle \scriptstyle {\overrightarrow {w}}=-3\scriptstyle {\overrightarrow
+} donc
+w→=kv→{\displaystyle \scriptstyle {\overrightarrow
+{w}}=k\scriptstyle {\overrightarrow {v}}} avec k=-3.
+Donc w→{\displaystyle \scriptstyle {\overrightarrow {w}}}. et v→{\displaystyle \scriptstyle {\overrightarrow {v}}} sont colinéaires puisqu'il existe un réel qui, multiplié, par le deuxième vecteur donne le premier vecteur.
+Un autre exemple A, B et C sont alignés, si et seulement si, AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} et AC→{\displaystyle \scriptstyle {\overrightarrow {AC}}} sont colinéaires.
+Ces deux vecteurs ont un point commun qui est A. Pour montrer que AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} et AC→{\displaystyle \scriptstyle {\overrightarrow {AC}}} sont colinéaires, il faut trouver le réel k tel que AB→=kAC→{\displaystyle \scriptstyle {\overrightarrow {AB}}=k\scriptstyle
+{\overrightarrow
+AC}}}.
+Imaginons un problème où l'on donne CA→=−3AB→{\displaystyle \scriptstyle {\overrightarrow {CA}}=-3\scriptstyle {\overrightarrow {AB}}}
+, on en déduit donc que AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} et CA→{\displaystyle \scriptstyle {\overrightarrow {CA}}} sont colinéaires.
+Donc on peut en déduire que A, B, C sont alignés.
+La colinéarité permet également de montrer que deux droites sont parallèles.
+En effet (AB) et (CD) sont parallèles si et seulement si AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} et CD→{\displaystyle \scriptstyle {\overrightarrow {CD}}} sont colinéaires.
+Imaginons que AB→=8CD→{\displaystyle \scriptstyle {\overrightarrow {AB}}=8\scriptstyle {\overrightarrow {CD}}} donc AB→{\displaystyle \scriptstyle {\overrightarrow {AB}}} et CD→{\displaystyle \scriptstyle {\overrightarrow {CD}}} sont colinéaires.
+Donc (AB) et (CD) sont parallèles.
+Donc si deux vecteurs colinéaires ont un point commun, ils sont alignés et s'il n'ont pas de point commun,
+ils sont parallèles

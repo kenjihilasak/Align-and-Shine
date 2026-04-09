@@ -1,0 +1,73 @@
+La similitudine è una particolare trasformazione geometrica, contenuta nel piano o nello spazio, che conserva i rapporti tra le distanze.
+Questo vuol dire che, per ogni similitudine f, esiste un numero reale positivo k tale che:
+d (f (A),f (B))=k\cdot d (A,B)
+per ogni coppia di punti (A,B).
+Ogni similitudine si può ottenere dalla composizione di una omotetia ed una isometria, o viceversa.
+Queste trasformazioni mantengono la "forma" (non vengono modificati gli angoli) dell'oggetto, pur cambiandone la posizione, l'orientazione o la grandezza;
+quindi due oggetti simili hanno la stessa "forma".
+Esempi
+Due circonferenze nel piano sono sempre simili.
+Tutti i quadrati sono simili:
+più in generale, tutti i poligoni regolari con un numero fissato di lati e la stessa ampiezza degli angoli, sono simili.
+Tutte le parabole sono simili fra loro, mentre ellissi ed iperboli non lo sono necessariamente.
+Quando due oggetti P e Q sono simili, si scrive generalmente
+P\sim Q\,\!.
+Geometria affine
+In geometria affine, una similitudine del piano cartesiano è una particolare affinità
+f (x) = Ax+b.
+In questa notazione x indica un generico punto del piano (x_1,x_2), mentre A è una matrice 2x2
+A = \begin a_ & a_ \\ a_ & a_ \end
+e b è un vettore colonna fissato (b_1,b_2).
+Nella notazione si fa uso della moltiplicazione fra matrici.
+Una affinità descritta in questo modo è una similitudine se e solo se:
+a_^2 + a_^2
+a_^2 + a_^2
+_ \cdot a_ - a_ \cdot a_= |\det A| \neq 0.
+Questo è equivalente a chiedere che i coefficienti a_ siano non tutti nulli e che una delle due seguenti condizioni sia verificata:
+Nel primo caso, il determinante di A è positivo, la similitudine preserva l'orientazione e si dice diretta.
+Nel secondo caso il determinante è negativo, l'orientazione è ribaltata e si dice inversa.
+Poligoni
+Triangoli simili
+Esistono alcuni criteri che permettono di determinare se due triangoli sono simili, il primo è il più noto:
+Due triangoli sono simili se e solo se hanno ordinatamente tre angoli congruenti.
+*Corollario 1.
+Due triangoli equilateri sono simili.
+*Corollario 2.
+Due triangoli rettangoli, con un angolo acuto congruente, sono simili.
+*Corollario 3.
+Due triangoli isosceli, con gli angoli al vertice congruenti, sono simili.
+Due triangoli ABC e DEF tali che:
+sono simili.
+*Corollario.
+Due triangoli rettangoli sono simili se hanno i cateti in proporzione
+Due triangoli ABC e DEF tali che:
+\frac
+\frac
+\frac
+sono simili.
+Poligoni simili
+Esistono criteri analoghi per due poligoni arbitrari nel piano.
+Il più importante è il seguente:
+Due poligoni sono simili se hanno gli angoli corrispondenti congruenti e i lati corrispondenti in proporzione.
+In verità, non è necessario effettuare la verifica su tutti gli angoli e tutti i lati:
+è possibile escludere
+*due lati qualsiasi consecutivi e l'angolo compreso tra essi,
+oppure
+*due angoli qualsiasi consecutivi e il lato compreso tra essi,
+oppure
+Se il poligono non è un triangolo, non è vero che due poligoni aventi gli angoli interni uguali sono simili:
+ad esempio, due rettangoli hanno sempre gli stessi angoli interni, ma sono simili soltanto se hanno lo stesso rapporto fra i lati.
+Numeri complessi e figure auto-similari
+Numeri complessi
+Ogni similitudine fra due oggetti nel piano può essere elegantemente espressa tramite l'uso dei numeri complessi.
+È sufficiente descrivere il piano come piano complesso:
+in questo modo, ogni similitudine è esprimibile tramite una trasformazione lineare del tipo
+z\mapsto az+b
+oppure
+z\mapsto a\bar z+b
+dove a e b sono due numeri complessi, e \bar z è il complesso coniugato di z\,\! .
+Frattali
+Un frattale è un oggetto geometrico autosimilare:
+ogni sua piccola parte contiene un oggetto simile all'oggetto grande.
+Altri progetti
+5pufexovb77v9e7da4yuyyjq33tukqd

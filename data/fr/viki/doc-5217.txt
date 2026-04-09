@@ -1,0 +1,32 @@
+Pyraminx
+Sommaire
+Le Pyraminx est composé de quatre pièces centrales, six pièces d'arête, et quatre sommets triviaux.
+Il est possible de tourner afin de permuter les pièces.
+Les pièces centrales ont une forme octaèdrique, bien qu'il ne soit pas évident de la savoir immédiatement, et ne peuvent être tournées que sur l'axe auxquelles elles sont attachées.
+Les pièces d'arêtes sont librement permutables.
+Les sommets dits triviaux le sont
+car ils peuvent être tournés indépendamment des autres pièces, ce qui rend leur position évidente.
+Le but de ce casse-tête est, tout comme le Rubik's Cube original, de rétablir la position initiale (une couleur par face).
+Actuellement, le record du monde est de 1,36 s et est détenu par Oscar Roth Andersen.
+Le but est, tout comme le Rubik's Cube, de rendre au solide sa position initiale (une couleur par face).
+Les sommets triviaux peuvent tourner selon l'axe auquel ils sont attachés, et les pièces centrales sont elles aussi placées facilement afin de correspondre entre elles.
+Sachant cela, seules les faces d'arêtes constituent une difficulté sur ce puzzle.
+Elles peuvent être placées en répétant deux séquences de quatre rotations, qui sont une version miroir l'une de l'autre.
+Ces séquences permutent trois arêtes en même temps, et changent leur orientation différemment, donc une combinaison de ces deux séquences est suffisante pour résoudre la pyramide.
+Toutefois, des solutions plus efficaces (nécessitant moins de mouvements) sont généralement utilisées (voir ci-dessous).
+La rotation d'une pièce centrale est indépendante des trois autres, comme c'est le cas pour les sommets.
+Les six arêtes peuvent être placées dans 6!/2 positions et tournées de 25 manières.
+En multipliant ceci par 38 pour les pièces centrales, ceci donne 75 582 720 positions possibles.
+Toutefois, mettre les sommets dans la bonne position réduit les possibilités à 933 120 et mettre les pièces centrales de même réduit ce nombre à seulement 11 520, faisant de cette pyramide l'un des puzzles les plus simples de la famille des Rubik's et de ses variantes.
+Avant même que le Rubik's Cube ne fasse son apparition, le Pyraminx naît de l'esprit de Uwe Mèffert, un Allemand, en 1970, avec le Mégaminx et deux cubes de la famille des Skewbs.
+Pensant que personne ne s'intéresserait à ses œuvres, il décide de les garder pour lui.
+Mais, voyant l'essor du Rubik's Cube à la fin des années 1970, il décide de les ressortir et les présenta à un fabricant japonais de puzzles en 1981.
+Le nombre minimal de déplacements pour réussir le Pyraminx le mieux mélangé est de 11.
+Il y a 933 120 positions différentes (sans compter la rotation des sommets), ce qui permet à un ordinateur de chercher la solution optimale.
+Le tableau ci-dessous résume le résultat de cette recherche, avec p le nombre de positions nécessitant n rotations pour résoudre le Pyraminx :
+* Meilleur des 5 essais
+** Moyenne de 3 des 5 essais (meilleur et moins bon exclus)
+Il existe également un Master Pyraminx créé par Katsuhiko Okamoto.
+Il possède 16 triangles sur chaque face au lieu de 9.
+Il existe également un ProfessorPyraminx créé par Uwe Mèffert.
+Il possède 25 triangles sur chaque face au lieu de 9.

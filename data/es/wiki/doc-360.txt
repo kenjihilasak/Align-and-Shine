@@ -1,0 +1,111 @@
+Unix (registrado oficialmente como UNIX®) es un sistema operativo portable, multitarea y multiusuario; desarrollado, en principio, en 1969, por un grupo de empleados de los laboratorios Bell de AT&T, entre los que figuran Dennis Ritchie, Ken Thompson y Douglas McIlroy.
+El sistema, junto con todos los derechos fueron vendidos por AT&T a Novell, Inc.
+Esta vendió posteriormente el software a Santa Cruz Operation en 1995, y esta, a su vez, lo revendió a Caldera Software en 2001, empresa que después se convirtió en el grupo SCO.
+Sin embargo, Novell siempre argumentó que solo vendió los derechos de uso del software, pero que retuvo el copyright sobre "UNIX®".
+En 2010, y tras una larga batalla legal, ésta ha pasado nuevamente a ser propiedad de Novell.
+Solo los sistemas totalmente compatibles y que se encuentran certificados por la especificación Single UNIX Specification pueden ser denominados "UNIX®" (otros reciben la denominación «similar a un sistema Unix» o «similar a Unix»).
+En ocasiones, suele usarse el término "Unix tradicional" para referirse a Unix o a un sistema operativo que cuenta con las características de UNIX Versión 7 o UNIX System V o unix versión 6.
+Historia
+A finales de la década de 1960 el Instituto Tecnológico de Massachusetts, los Laboratorios Bell de AT&T y General Electric trabajaban en un sistema operativo experimental llamado Multics (Multiplexed Information and Computing Service), desarrollado para ejecutarse en una computadora central (mainframe) modelo GE-645.
+El objetivo del proyecto era desarrollar un gran sistema operativo interactivo que contase con muchas innovaciones, entre ellas mejoras en las políticas de seguridad.
+El proyecto consiguió dar a luz versiones para producción, pero las primeras versiones contaban con un pobre rendimiento.
+Los laboratorios Bell de AT&T decidieron desvincularse y dedicar sus recursos a otros proyectos.
+Uno de los programadores de los laboratorios Bell, Ken Thompson, siguió trabajando para la computadora GE-645 y escribió un juego llamado Space Travel, (Viaje espacial).
+Sin embargo, descubrió que el juego era lento en la máquina de General Electric y resultaba realmente caro, algo así como 75 dólares de EE.UU. por cada partida.
+De este modo, Thompson escribió nuevamente el programa, con ayuda de Dennis Ritchie, en lenguaje ensamblador, para que se ejecutase en una computadora DEC PDP-7.
+Esta experiencia, junto al trabajo que desarrolló para el proyecto Multics, condujo a Thompson a iniciar la creación de un nuevo sistema operativo para la DEC PDP-7.
+Thompson y Ritchie lideraron un grupo de programadores, entre ellos a Rudd Canaday, en los laboratorios Bell, para desarrollar tanto el sistema de ficheros como el sistema operativo multitarea en sí.
+A lo anterior, agregaron un intérprete de órdenes (o intérprete de comandos) y un pequeño conjunto de programas.
+El proyecto fue bautizado UNICS, como acrónimo Uniplexed Information and Computing System, pues solo prestaba servicios a dos usuarios (de acuerdo con Andrew Tanenbaum, era solo a un usuario).
+La autoría de esta sigla se le atribuye a Brian Kernighan, ya que era un hack de Multics.
+Dada la popularidad que tuvo un juego de palabras que consideraba a UNICS un sistema MULTICS castrado (pues eunuchs, en inglés, es un homófono de UNICS), se cambió el nombre a UNIX, dando origen al legado que llega hasta nuestros días.
+Hasta ese instante, no había existido apoyo económico por parte de los laboratorios Bell, pero eso cambió cuando el Grupo de Investigación en Ciencias de la Computación decidió utilizar UNIX en una máquina superior a la PDP-7.
+Thompson y Ritchie lograron cumplir con la solicitud de agregar herramientas que permitieran el procesamiento de textos a UNIX en una máquina PDP-11/20, y como consecuencia de ello consiguieron el apoyo económico de los laboratorios Bell.
+Fue así como por vez primera, en 1970, se habla oficialmente del sistema operativo UNIX ejecutado en una PDP-11/20.
+Se incluía en él un programa para dar formato a textos (runoff) y un editor de texto.
+Tanto el sistema operativo como los programas fueron escritos en el lenguaje ensamblador de la PDP-11/20.
+Este "sistema de procesamiento de texto" inicial, compuesto tanto por el sistema operativo como de runoff y el editor de texto, fue utilizado en los laboratorios Bell para procesar las solicitudes de patentes que ellos recibían.
+Pronto, runoff evolucionó hasta convertirse en troff, el primer programa de edición electrónica que permitía realizar composición tipográfica.
+El 3 de noviembre de 1971 Thomson y Ritchie publicaron un manual de programación de UNIX (título original en inglés: "UNIX Programmer's Manual").
+En 1972 se tomó la decisión de escribir nuevamente UNIX, pero esta vez en el lenguaje de programación C. Este cambio significaba que UNIX podría ser fácilmente modificado para funcionar en otras computadoras (de esta manera, se volvía portable) y así otras variaciones podían ser desarrolladas por otros programadores.
+Ahora, el código era más conciso y compacto, lo que se tradujo en un aumento en la velocidad de desarrollo de UNIX.
+AT&T puso a UNIX a disposición de universidades y compañías, también al gobierno de los Estados Unidos, a través de licencias.
+Una de estas licencias fue otorgada al Departamento de Computación de la Universidad de California, con sede en Berkeley.
+en el transcurso de 1975.
+Estas versiones incluían los pipes o tuberías, lo que permitió dar al desarrollo una orientación modular respecto a la base del código, consiguiendo aumentar aún más la velocidad de desarrollo.
+Ya en 1978, cerca de 600 o más máquinas estaban ejecutándose con alguna de las distintas encarnaciones de UNIX.
+La versión 7, Esto ocurrió en un momento delicado en el que Unix Systems Laboratories disputaba una demanda en los tribunales contra BSD por infracción de los derechos de copyright, revelación de secretos y violación de marca de mercado.
+Aunque BSD ganó el juicio, Novell descubrió que gran parte del código de BSD fue copiada ilegalmente en UNIX System V. En realidad, la propiedad intelectual de Novell se reducía a unos cuantos archivos fuente.
+Xinuos (antes UnXis) continúa la comercialización de System V en su producto UnixWare tras adquirir a SCO en abril de 2011.
+Familias UNIX más significativas
+* AT&T: La familia que tuvo su origen en el UNIX de AT&T. Considerada la familia UNIX "pura" y original.
+Sus sistemas operativos más significativos son UNIX System III y UNIX System V.
+* Xenix: Familia derivada de la adquisición de los derechos originales de AT&T primero por parte de Microsoft y de esta los vendió a SCO.
+* - también han sido parte fundamental de otros sistemas UNIX.
+se han hecho populares tanto entre los aficionados a la computación como en el mundo empresarial.
+Obsérvese que Linux tiene un origen independiente, por lo que se considera un 'clónico' de UNIX y no un UNIX en el sentido histórico.
+Las interrelaciones entre estas familias son las siguientes, aproximadamente en orden cronológico:
+* La familia BSD surge del licenciamiento del UNIX original de AT&T.
+* Xenix también surge por licenciamiento del UNIX original de AT&T, aunque aún no era propiedad de SCO.
+* AIX surge por licenciamiento de UNIX System III, pero también incorpora propiedad intelectual de BSD.
+* La familia original AT&T incorpora ilegalmente propiedad intelectual de BSD en UNIX System III r3.
+* La familia AIX vuelve a incorporar propiedad intelectual de la familia AT&T, esta vez procedente de UNIX System V.
+* Linux incorpora propiedad intelectual de BSD, gracias a que éste también se libera con una licencia de código abierto denominada Open-source BSD.
+* Según SCO Group, Linux incorpora propiedad intelectual procedente de AIX gracias a la colaboración de IBM en la versión 2.4.
+Aún no está demostrado y hay un proceso judicial: Disputas de SCO sobre Linux.
+La marca
+UNIX® es una marca registrada de Novell, después de una disputa con The Open Group en Estados Unidos y otros países.
+Esta marca solo se puede aplicar a los sistemas operativos que cumplen la "Single Unix Specification" de esta organización y han pagado las regalías establecidas.
+En la práctica, el término UNIX se utiliza en su acepción de familia.
+Se aplica también a sistemas multiusuario basados en POSIX (tales como GNU/Linux, Mac OS X el cual, en su versión 10.5 ya ha alcanzado la certificación UNIX, FreeBSD, NetBSD, OpenBSD), los cuales no buscan la certificación UNIX por resultar cara para productos destinados al consumidor final o que se distribuyen libremente en Internet.
+En estos casos, el término se suele escribir como "UN*X", "UNIX*", "*NIX", o "*N?X".
+Para referirse a ellos (tanto a Unix, como a los sistema basados en Unix/POSIX) también se utiliza "Unixes", pero "Unices" (que trata la palabra Unix como un nombre latino de la tercera declinación) es asimismo popular.
+Implementaciones más importantes
+A lo largo de la historia ha surgido una gran multitud de implementaciones comerciales de UNIX.
+Sin embargo, un conjunto reducido de productos ha consolidado el mercado y prevalece gracias a un continuo esfuerzo de desarrollo por parte de sus fabricantes.
+Los más importantes son:
+* Solaris de Sun Microsystems.
+Uno de los sistemas operativos Unix más difundidos en el entorno empresarial y conocido por su gran estabilidad.
+Parte del código fuente de Solaris se ha liberado con licencia de fuentes abiertas (OpenSolaris).
+* AIX de IBM.
+El UNIX "propietario" de IBM cumplió 20 años de vida en el 2006 y continúa en pleno desarrollo, con una perceptible herencia del mainframe en campos como la virtualización o la RAS de los servicios, heredada de sus "hermanos mayores".
+* HP-UX de Hewlett-Packard.
+Este sistema operativo también nació ligado a las computadoras departamentales de este fabricante.
+También es un sistema operativo estable que continua en desarrollo.
+* macOS.
+Se trata de un UNIX completo, aprobado por The Open Group.
+Su diferencia marcada es que posee una interfaz gráfica propietaria llamada Aqua, y es principalmente desarrollada en Objective-C en lugar de C o C++.
+Existen sistemas operativos basados en el núcleo Linux, y el conjunto de aplicaciones GNU (también denominado GNU/Linux), entre las más utilizadas encontramos:
+* Red Hat Enterprise Linux.
+Cuyo fabricante Red Hat es conocido por su amplia gama de soluciones y aportes al desarrollo de software libre.
+Apoya el proyecto Fedora del cual se beneficia y de ella se derivan distribuciones compatibles como Oracle Enterprise Linux y CentOS, también distribuciones como Mandriva Linux, se basó en una de sus primeras versiones.
+* SUSE Linux de Novell.
+Originalmente liberado por la compañía alemana SuSE.
+Es popular por sus herramientas de administración centralizada.
+De manera análoga a RedHat con Fedora, apoya el proyecto openSUSE.
+* Debian GNU/Linux.
+Con una de las comunidades más grandes y antiguas del movimiento de software libre, es base para distribuciones como Xandros, Mepis, Linspire, Ubuntu y Linux Mint.
+También son populares los sistemas operativos descendientes del 4.4BSD:
+* FreeBSD.
+Quizá el sistema operativo más popular de la familia, de propósito múltiple.
+Con una implementación SMP muy elaborada, es el sistema operativo utilizado por los servidores de Yahoo.
+Y base de muchos sistemas operativos entre ellos Mac OS X de Apple.
+* OpenBSD.
+Ampliamente reconocida por su seguridad proactiva y auditoría permanente del código fuente.
+Es utilizada en ambientes donde la seguridad prima sobre todo, es usual encontrarlo instalado en servidores que actúan como Firewall, VPN o Proxy.
+* NetBSD.
+Se le conoce por su portabilidad, a octubre de 2008: 53 arquitecturas soportadas.
+La NASA lo ha utilizado para la investigación en redes TCP/IP satelitales, al igual que para reciclar computadoras viejas con software moderno.
+Las siguientes implementaciones de UNIX tienen importancia desde el punto de vista histórico, no obstante, actualmente están en desuso:
+Tru64 UNIX actualmente de Hewlett-Packard (antes de Compaq y originalmente de Digital Equipment Corporation).
+* UnixWare y SCO OpenServer anteriormente de Santa Cruz Operation y SCO Group, ahora de Xinuos (UnXis).
+Órdenes clásicas de UNIX
+Algunos comandos básicos de UNIX son:
+* Navegación archivos: ls cd pwd mkdir rm rmdir cp.
+* Edición/visión de archivos: touch more ed vi nano.
+* Procesamiento de textos: echo cat grep sort uniq sed awk tail head.
+* Administración del sistema: chmod chown ps find xargs sd w who.
+Esta es una lista de los sesenta comandos de usuario de la sección 1 de la Primera Edición:
+:ar as b bas bcd boot cat chdir check chmod chown cmp cp date db (Unix) dbppt dc df dsw dtf du ed find for form hup lbppt ld ln ls mail mesg mkdir mkfs mount mv nm od pr rew (Unix) rkd rkf rkl rm rmdir roff sdate sh stat strip (Unix) su sum tap (Unix) tm tty type un wc who write
+Otros comandos
+Véase también

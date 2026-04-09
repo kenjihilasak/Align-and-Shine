@@ -1,0 +1,121 @@
+In geometria, si definisce triangolo isoscele un triangolo che possiede due lati congruenti.
+Vale il seguente teorema:
+"Un triangolo è isoscele se e solo se ha due angoli congruenti".
+Questo teorema costituisce la quinta proposizione del Libro I degli Elementi di Euclide ed è noto come pons asinorum.
+In un triangolo isoscele la bisettrice relativa all'angolo al vertice coincide con la mediana, l'altezza e l'asse relativi alla base.
+Particolari triangoli isosceli sono i triangoli equilateri e i triangoli rettangoli isosceli.
+Esistono anche triangoli isosceli acutangoli e ottusangoli.
+I triangoli isosceli rettangoli sono tutti simili tra di loro, come i triangoli equilateri.
+Simmetrie
+Un triangolo isoscele che non sia equilatero è invariante solo per la riflessione rispetto alla bisettrice dell'angolo diverso dai due rimanenti.
+Il suo gruppo di simmetria, oltre alla trasformazione identità, comprende solo questa riflessione e quindi è isomorfo al gruppo di due elementi, ovvero al gruppo moltiplicativo sull'insieme \.
+Triangoli isosceli in geometria analitica
+Teorema 1:
+Condizione necessaria e sufficiente affinché un triangolo con la base parallela agli assi sia isoscele è che abbia i due lati di coefficiente angolare opposto.
+Dimostrazione.
+Date le tre rette
+y = k
+y = mx
+# y = -mx
+ne calcoliamo l'intersezione.
+\left\{\begin&y
+k\\&y
+mx\end\right.
+\left\{\begin&x
+\frac\\&y
+k\end\right.
+A \left (\frac, k\right)
+\left\{\begin&y
+k\\&y
+-mx\end\right.
+\left\{\begin&x
+-\frac\\&y
+k\end\right.
+B \left (-\frac, k\right)
+\left\{\begin&y
+mx\\&y
+-mx\end\right.
+\left\{\begin&x
+0\\&y
+0\end\right.
+Ora calcoliamo la distanza dei segmenti AC e BC.
+AC = \sqrt
+BC = \sqrt
+Quindi il triangolo è isoscele sulla base AB.
+In modo analogo si dimostra il caso della base parallela all'asse y.
+Viceversa costruiamo un triangolo isoscele con la base parallela all'asse delle ascisse.
+Dati i due punti:
+# (x_1, k)
+# (x_2, k)
+poiché il vertice di un triangolo isoscele giace sulla stessa retta del punto medio della base, prima troviamo M e poi C.
+M \left (\frac, k\right)
+Quindi troviamo C, che avrà la stessa ascissa di M e diversa ordinata.
+C \left (\frac, h\right)
+Verifichiamo che il triangolo è isoscele:
+AC = \sqrt
+BC = \sqrt
+Ora calcoliamo il coefficiente angolare dei due lati:
+m AC
+(h - k) \cdot \left (\frac\right)
+\frac
+m BC
+(h - k) \cdot \left (\frac\right)
+\frac
+Teorema 2:
+Condizione necessaria e sufficiente affinché un triangolo con la base parallela alla bisettrice di due quadranti sia isoscele è che abbia i due lati di coefficiente angolare inverso.
+Dimostrazione.
+Date le tre rette
+# y = x +
+y = mx
+# y = \fracx
+ne calcoliamo l'intersezione.
+\left\{\begin&y
+x +
+q\\&y
+mx\end\right.
+\left\{\begin&x (m - 1)
+q\\&y
+mx\end\right.
+\left\{\begin&x
+\frac\\&y
+\frac\end\right.
+A \left (\frac, \frac\right)
+\left\{\begin&y
+x +
+q\\&y
+\fracx\end\right.
+\left\{\begin&x (1 - m)
+mq\\&y
+\fracx\end\right.
+\left\{\begin&x
+\frac\\&y
+\frac\end\right.
+B \left (\frac, \frac\right)
+\left\{\begin&y = \fracx\end\right.
+\left\{\begin&x
+0\\&y
+0\end\right.
+Ora calcoliamo la distanza dei segmenti AC e BC.
+AC = \sqrt
+BC = \sqrt
+Quindi il triangolo è isoscele sulla base AB.
+In modo analogo si dimostra il caso della base parallela all'asse y.
+Viceversa costruiamo un triangolo isoscele con la base parallela alla bisettrice del primo e terzo quadrante .
+Dati i due punti:
+# (0, q)
+# (-q, 0)
+poiché il vertice di un triangolo isoscele giace sulla stessa retta del punto medio della base, prima troviamo M e poi C.
+M \left (-\frac, \frac\right)
+Quindi troviamo C, che si trova sulla retta di equazione y=-x perpendicolare alla base e passante per M.
+C (h,-h)
+dove h è un numero reale arbitrario diverso da 0.
+Verifichiamo che il triangolo è isoscele:
+AC = \sqrt
+BC = \sqrt
+Ora calcoliamo il coefficiente angolare dei due lati:
+m AC
+\frac
+-\frac
+m BC
+\frac
+-\frac

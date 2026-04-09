@@ -1,0 +1,123 @@
+TCP/IP|Adressage
+réseau|Identifiant
+Une adresse IP (avec IP pour ) est un numéro d'identification qui est attribué de façon permanente ou provisoire à chaque périphérique relié à un réseau informatique qui utilise l'.
+L'adresse IP est à la base du système d'acheminement (le routage) des paquets de données sur Internet.
+Il existe des adresses IP de version 4 sur , et de version 6 sur .
+La est actuellement la plus utilisée : elle est généralement représentée en notation décimale avec quatre nombres compris entre 0 et 255, séparés par des points, ce qui donne par exemple « 172.16.254.1 ».
+Utilisation des adresses IP
+L'adresse IP est attribuée à chaque interface avec le réseau de tout matériel informatique connecté à un réseau utilisant l’ comme protocole de communication entre ses nœuds.
+Cette adresse est assignée soit individuellement par l'administrateur du réseau local dans le sous-réseau correspondant, soit automatiquement via le protocole DHCP.
+Si l'ordinateur dispose de plusieurs interfaces, chacune dispose d'une adresse IP spécifique.
+Une interface peut également disposer de plusieurs adresses IP.
+Chaque paquet transmis par le protocole IP contient l'adresse IP de l'émetteur ainsi que l'adresse IP du destinataire.
+Les routeurs IP acheminent les paquets vers la destination de proche en proche.
+Certaines adresses IP sont utilisées pour la diffusion (multicast ou broadcast) et ne sont pas utilisables pour adresser des ordinateurs individuels.
+La technique anycast permet de faire correspondre une adresse IP à plusieurs ordinateurs répartis sur Internet.
+Les adresses IPv4 sont dites publiques si elles sont enregistrées et routables sur Internet, elles sont donc uniques mondialement.
+À l'inverse, les adresses privées ne sont utilisables que dans un réseau local, et ne doivent être uniques que dans ce réseau.
+La traduction d'adresse réseau, réalisée notamment par les box internet, transforme des adresses privées en adresses publiques et permet d’accéder à Internet à partir d'un poste du réseau privé.
+Adresse IP et nom de domaine
+Le plus souvent, pour se connecter à un serveur informatique, l'utilisateur ne donne pas son adresse IP, mais son nom de domaine (par exemple ).
+Ce nom de domaine est ensuite résolu en adresse IP par l'ordinateur de l'utilisateur en faisant appel au système de noms de domaine (DNS).
+Ce n'est qu'une fois l'adresse obtenue qu'il est possible d'initier une connexion.
+Les noms de domaine ont plusieurs avantages sur les adresses IP :
+* Ils ne sont pas impliqués dans le routage, donc ils peuvent être conservés même en cas de réorganisation de l'infrastructure réseau.
+* Ils ne sont pas limités à quelques milliards comme les adresses IPv4.
+Classe d'adresse IP
+Jusqu'aux années 1990, les adresses IP étaient réparties en classes (A, B, C, D et E), qui étaient utilisées pour l'assignation des adresses et par les protocoles de routage.
+Cette notion est désormais obsolète pour l'attribution et le routage des adresses IP du fait de la pénurie d'adresses () du début des années 2010.
+La mise en place très progressive des adresses IPv6 a accéléré l'obsolescence de la notion de classes.
+Attention toutefois : dans la pratique, au début des années 2010, de nombreux matériels et logiciels se basent sur ce système de classe, y compris les algorithmes de routage des protocoles dit classless (cf.Cisco CCNA
+Exploration
+- Protocoles et concepts de routage).
+Malgré tout, il est facile d'émuler une organisation en classe à l'aide du système CIDR.
+Sous-réseau
+En 1984, devant la limitation du modèle de classes, la (Internet subnets) crée le concept de sous-réseau.
+Ceci permet par exemple d'utiliser une adresse de Classe B comme 256 sous-réseaux de 256 ordinateurs au lieu d'un seul réseau de 65536 ordinateurs, sans toutefois remettre en question la notion de classe d'adresse.
+Le masque de sous-réseau permet de déterminer les deux parties d'une adresse IP correspondant respectivement au numéro de réseau et au numéro de l'hôte.
+Un masque a la même longueur qu'une adresse IP.
+Il est constitué d'une suite de chiffres 1 (éventuellement) suivie par une suite de chiffres 0.
+Pour calculer la partie sous-réseau d'une adresse IP, on effectue une opération ET logique bit à bit entre l'adresse et le masque.
+Pour calculer l'adresse de l'hôte, on effectue une opération ET bit à bit entre le complément à un du masque et l'adresse.
+En IPv6, les sous-réseaux ont une taille fixe de /64, c'est-à-dire que 64 des 128 bits de l'adresse IPv6 sont réservés à la numérotation d'un hôte dans le sous-réseau.
+Agrégation des adresses
+En 1992, la (Supernetting: an Address
+Assignment and
+Aggregation
+Strategy
+propose d'abolir la notion de classe qui n'était plus adaptée à la taille d'Internet.
+Le Classless Inter-Domain Routing (CIDR), est mis au point en 1993 afin de diminuer la taille de la table de routage contenue dans les routeurs.
+Pour cela, on agrège plusieurs entrées de cette table en une seule.
+La distinction entre les adresses de classe A, B ou C a été ainsi rendue obsolète, de sorte que la totalité de l'espace d'adressage unicast
+puisse
+être gérée comme une collection unique de sous-réseaux indépendamment de la notion de classe.
+Le masque de sous-réseau ne peut plus être déduit de l'adresse IP elle-même, les protocoles de routage compatibles avec CIDR, dits classless, doivent donc accompagner les adresses du masque correspondant.
+C'est le cas de Border Gateway
+Protocol
+dans sa version 4, utilisé sur Internet ( A Border Gateway
+Protocol 4, 1994), OSPF, EIGRP ou RIPv2
+Les registres Internet régionaux (RIR) adaptent leur politique d'attribution des adresses en conséquence de ce changement.
+L'utilisation de masque de longueur variable (Variable-Length Subnet Mask, VLSM) permet le découpage de l'espace d'adressage en blocs de taille variable, permettant une utilisation plus efficace de l'espace d'adressage.
+Le calcul du nombre d'adresses d'un sous-réseau est le suivant, 2taille de l'adresse
+- masque.
+Un fournisseur d'accès internet peut ainsi se voir allouer un bloc 30 pour des liens points-à-point à 19 sera visible pour les réseaux extérieurs, ce qui réalise l'agrégation et l'efficacité dans l'utilisation des adresses.
+Base de données des adresses IP
+L'IANA, qui est depuis 2005 une division de l'ICANN, définit l'usage des différentes plages d'adresses IP en segmentant l'espace en 256 blocs de taille 8 à 255/8.
+Les adresses IP sont distribuées par l'IANA aux registres Internet régionaux (RIR).
+Les RIR gèrent les ressources d'adressage IPv4 et IPv6 dans leur région.
+L'espace d'adressage unicast IPv4 est composé des blocs d'adresse 8 à 223/8.
+Chacun de ces blocs est soit réservé, assigné à un réseau final ou à un registre Internet régional (RIR) ou libre.
+En février 2011, il ne reste plus aucun bloc 3 est réservé pour les adresses unicast globales.
+Des blocs /23 sont assignés aux RIR depuis 1999.
+Il est possible d'interroger les bases de données des RIR pour savoir à qui est assignée une adresse IP grâce à la commande whois ou via les sites web des RIR.
+Les RIR se sont regroupés pour former la Number Resource Organization (NRO) afin de coordonner leurs activités ou projets communs et mieux défendre leurs intérêts auprès de l'ICANN (l'IANA), mais aussi auprès des organismes de normalisation (notamment l'IETF ou l'ISOC).
+Plages d'adresses IP spéciales
+IPv4
+Adresses privées :
+Ces adresses ne peuvent pas être routées sur Internet.
+Leur utilisation par un réseau privé est encouragée pour éviter de réutiliser les adresses publiques enregistrées.
+Il faut toutefois prévoir qu'il n'y ait pas de doublon lors de l'interconnexion de réseaux privés non prévue lors de leurs créations.
+Adresses de diffusion :
+L'adresse 255.255.255.255 est une adresse de diffusion.
+La première adresse d'un réseau spécifie le réseau lui-même, la dernière est une adresse de diffusion ().
+Adresses multicast :
+En IPv4, tout détenteur d'un numéro d'AS 16 bit peut utiliser un bloc de 256 adresses IP multicast, en 233.x.y.z où x et y sont les du numéro d'AS ().
+IPv6
+Adresses spéciales
+* ::/128 indique une adresse non spécifiée.
+Celle-ci est illégale en tant qu'adresse de destination mais elle peut être utilisée localement dans une application pour indiquer n'importe quelle interface réseau ou sur le réseau dans une phase d'acquisition de l'adresse.
+Adresses locales
+En IPv6, les adresses locales de site fec0::/10 étaient réservées par la pour le même usage privé, mais sont considérées comme obsolètes par la pour privilégier l'adressage public et décourager le recours aux NAT.
+Elles sont remplacées par les adresses locales uniques fc00:: 64 ne sont uniques que sur un lien.
+Un hôte peut donc disposer de plusieurs adresses identiques dans ce réseau sur des interfaces différentes.
+Pour lever une ambiguïté avec ces adresses de scope lien local, on devra donc préciser l'interface sur laquelle l'adresse est configurée.
+Sous les systèmes de type Unix, on ajoute à l'adresse le signe pourcent suivi du nom de l'interface (par exemple ff02::1%eth0), tandis que sous Windows on utilise le numéro de l'interface (ff02::1%11).
+Adresses expérimentales obsolètes
+* 3ffe:: 8 étaient utilisés par le 6bone entre 1996 et 2006.
+* ::a.b.c.d/96 (où a.b.c.d est une adresse IPv4) étaient des adresses compatibles IPv4 définies dans la mais rendues obsolètes par la en 2006.
+Épuisement des adresses IPv4
+La popularité d'Internet a abouti à l'épuisement en 2011 des blocs d'adresses IPv4 disponibles, ce qui menace le développement du réseau.
+Pour remédier à ce problème ou repousser l'échéance, plusieurs techniques existent :
+* IPv6, dont la capacité d'adressage est considérable.
+* NAT, qui permet à de nombreux ordinateurs d'un réseau privé de partager une adresse publique, mais qui complique le fonctionnement de certains protocoles.
+* Les registres Internet régionaux ont développé des politiques d'affectation d'adresses plus contraignantes, qui tiennent compte des besoins réels à court terme.
+L'affectation de blocs d'adresses plus petits diminue cependant l'efficacité de l'agrégation des adresses.
+* La récupération des blocs attribués généreusement autrefois
+, certaines entreprises disposent ainsi d'un bloc /8, soit plus de 16 millions d'adresses publiques.
+Enjeux sociaux
+Si l'adresse IP est initialement conçue dans un usage technique, elle pose aussi des questions éthiques, dans la mesure où elle peut dans certains pays servir à agréger un profil très détaillé d'une personne et de ses activités.
+Usages
+L'identification par adresse IP se fait dans de multiples contextes très différents :
+* à des fins d'identification du titulaire de la ligne, par exemple avec la coopération du fournisseur d'accès à Internet à une enquête judiciaire ;
+* à des fins d'élaborations d'hypothèses sur l'identifiant unique de la carte réseau (il peut transparaître avec IPv6, selon le protocole utilisé pour l'auto-configuration, toutefois ce n'est pas une donnée fiable) ;
+* à des fins de sécurisation en complément d'autres moyens d'identification (liste blanche, notifications supplémentaires ou questions de vérification plus poussée en cas d'IP non reconnue)
+* à des fins d'identification approximative plus ou moins anonyme à des fins publicitaires .
+* Wikipédia se sert des adresses IP pour contrôler les utilisateurs non inscrits.
+Elle a ainsi bloqué pour un an une adresse IP émanant du Ministère de l'Intérieur français pour "trop d'actes de vandalisme" .
+Problématiques
+Tenter d'identifier un internaute de façon fiable au travers son adresse IP pose un problème, pour plusieurs raisons :
+Une adresse
+IP publique peut être utilisée par plusieurs personnes simultanément et indépendamment (voir NAT et Carrier Grade NAT).
+Il est possible d'usurper l'adresse IP d'autrui dans la source d'un paquet IP dans la mesure où les routeurs utilisent normalement l'adresse destination.
+L'établissement d'une connexion TCP implique cependant un routage bidirectionnel correct.
+Le traçage de l'adresse IP est souvent utilisé à des fins de marketing, et soupçonné d'influencer les politiques tarifaires.

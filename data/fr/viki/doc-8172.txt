@@ -1,0 +1,5 @@
+Mapping
+Pour créer un jeu vidéo en trois dimensions (3D), il faut créer des espaces de jeu qui sont en 3D. Ces espaces de jeu s'appellent des maps .
+La création de ces maps s'appelle le mapping, cela consiste à modéliser en 3D, à l'aide d'un logiciel (GTKRadiant, Hamer...), tout ce qui se trouve sur la map : les bâtiments, le terrain (souvent avec un autre logiciel de « terraformation »), un bout de mur, un escalier, etc.
+Pour tous les jeux, à leur création, des mappeurs professionnels ont créé quelques maps, mais souvent des mappeurs amateurs, en créent beaucoup d'autres, plus ou moins bien faites, plus ou moins grandes.
+Après avoir modélisé toute la map, il faut la texturer, parfois ajouter des scripts pour faire bouger une voiture, par exemple, et la compiler pour que le jeu puisse lire la map dans un langage qu'il connaît.

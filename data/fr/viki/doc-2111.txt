@@ -1,0 +1,26 @@
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : témoin.
+Un témoin (cookie en anglais) est un petit fichier géré par le navigateur.
+Il sert à stocker des informations pour un site Web.
+Les navigateurs le renvoient automatiquement à chaque requête faite à ce site.
+De nombreux sites Web (par exemple, les réseaux sociaux) demandent à leurs utilisateurs de se créer un compte.
+Pour utiliser ce compte, il faut s'identifier, généralement en fournissant un pseudonyme et le bon mot de passe.
+À partir de ça, le site génère un « secret », sous la forme d'une suite de caractères comme c2VjcmV0Cg.
+En annonçant ce secret (lorsqu'il demande une page au site), le navigateur prouve que la requête provient d'un utilisateur connecté.
+Pour faire cette annonce, on peut mettre le secret dans l'URL mais ce n'est pas très élégant.
+De plus, à leur prochaine visite, les utilisateurs n'ajouteront pas le secret à l'URL (parce que ça allonge celle-ci et qu'il est difficile à se rappeler), et ils devront donc s'identifier à nouveau.
+Une solution répandue consiste à stocker le secret (et d'autres informations pratiques comme le pseudonyme) dans un témoin.
+Comme le témoin est envoyé au site par le navigateur à chaque requête, c'est comme si les informations qu'il contient étaient incluses dans les URL.
+De plus, comme les navigateurs conservent généralement les témoins très longtemps, l'utilisateur n'a pas besoin de s'identifier à chaque visite : grâce au témoin, le navigateur se « souvient » du secret.
+Quand on administre un site Web, on peut vouloir savoir combien de personnes le visitent.
+On ne peut pas simplement compter le nombre de pages vues, car un même visiteur peut visiter plusieurs pages.
+On ne peut pas non plus compter les adresses IP des visiteurs, car certains visiteurs partagent la même adresse (c'est souvent le cas dans les écoles) et d'autres en changent souvent.
+Pour éviter ces problèmes (qui impliqueraient un comptage incorrect), les outils de mesure d'audience comme Google Analytics peuvent se servir des témoins, où ils stockent quelque chose qui permet de distinguer les visiteurs (comme le « secret » des comptes d'utilisateur).
+C'est la raison pour laquelle le grand public n'aime pas les témoins, certains allant jusqu'à les considérer comme des logiciels malveillants1 (alors qu'en réalité ils ne sont que des bouts de texte conservés par le navigateur) : les témoins sont très utilisés pour analyser le comportement des internautes, et ainsi pouvoir leur imposer des publicités « personnalisées ».
+Le mécanisme est le suivant : le site A affiche des publicités.
+Pour cela, il indique au navigateur de ses visiteurs de télécharger une image (la publicité) située sur le site P. Lors du téléchargement de cette image, P crée un témoin dans le navigateur.
+Ce témoin contient un texte unique, qui permet donc de distinguer tous les internautes.
+Lorsque la même personne visite un autre site B, qui affiche lui aussi des publicités venant de P, le navigateur renvoie le contenu du témoin à P. Ainsi, P sait que cette personne précise a visité les deux sites A et B. Répétée sur un grand nombre de sites, cette méthode permet de se faire une idée des intérêts de la personne (par exemple, l'équitation), et donc de la « cibler » en lui proposant des publicités censées correspondre à ses intérêts (pour du matériel d'équitation par exemple).
+↑Technique pionnière devenue standard, le cookie s'est attiré les critiques visant l'omniprésence d'une publicité ciblant l'individu à son insu et s'est retrouvé décrit comme « logiciel espion » ou « mouchard ».
+- Le Monde

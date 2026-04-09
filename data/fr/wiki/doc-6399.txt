@@ -1,0 +1,65 @@
+Réaction chimique|Cinétique chimique|Radiochimie|Physique
+nucléaire|Pesticide
+La demi-vie est le temps mis par une substance (molécule, médicament ou autre) pour perdre la moitié de son activité pharmacologique ou physiologique.
+Employée par extension dans le domaine de la radioactivité, la demi-vie, également appelée période radioactive, est le temps au bout duquel la moitié des noyaux radioactifs d'une source se sont désintégrés.
+Le terme demi-vie est souvent mal interprété : deux demi-vies ne correspondent pas à la vie complète du produit.
+La demi-vie est en fait la médiane de la durée de vie d'un produit, c'est-à-dire la durée en deçà de laquelle il reste plus de 50 % du produit, et au-delà de laquelle il en reste moins de 50 %.
+En biologie ou biochimie, la demi-vie est parfois notée L ou B (durée de vie d'espérance 50 %).
+La demi-vie est différente de la durée de vie moyenne.
+La demi-vie se mesure en secondes (s).
+Les demi-vies supérieures à sont souvent données en heures (h), jours (j), années (a) ou multiples d'années (il s'agit alors, sauf mention contraire, de l'année julienne :
+exactement).
+Différents contextes scientifiques
+En biologie et pharmacologie
+En biologie, la demi-vie d'une enzyme correspond au temps nécessaire pour que l'enzyme perde la moitié de son activité spécifique pour cause de dénaturation et d'inactivation.
+En pharmacologie, la demi-vie désigne par extension le temps nécessaire pour que la concentration d’une substance contenue dans un système biologique soit diminuée de la moitié de sa valeur initiale (par exemple la concentration d’un médicament dans le plasma sanguin).
+Ce paramètre varie légèrement d'un individu à l'autre, selon le processus d'élimination et le fonctionnement relatif chez l'individu.
+En pratique, on considère qu'un médicament n'a plus d'effet pharmacologique après cinq à sept demi-vies.
+En chimie
+Certaines molécules présentant une faible stabilité
+peuvent se décomposer, généralement en se transformant en d'autres espèces moléculaires.
+Cette décomposition n'est pas instantanée mais fait décroître la quantité de molécules en fonction du temps, la demi-vie caractérise cette décroissance en indiquant la durée au bout de laquelle la quantité de molécules est diminuée de moitié.
+Cette demi-vie moléculaire dépend de la température.
+Elle est aussi appelée « temps de demi-réaction ».
+En physique
+En physique, la demi-vie (ou période) d'un isotope radioactif est le temps au bout duquel la moitié des noyaux de cet isotope initialement présents se sont désintégrés.
+S'il n'y a pas par ailleurs de création de tels noyaux (comme produits d'une réaction nucléaire ou de la désintégration d'autres radioisotopes), c'est aussi le temps au bout duquel le nombre de noyaux de l'isotope considéré a été divisé par deux.
+Demi-vie
+selon la loi statistique
+Cas d'une décroissance exponentielle
+La désintégration d'une particule est « totalement aléatoire », c'est-à-dire que sa probabilité de désintégration est uniforme dans l'avenir, et ne dépend que de la durée de l'intervalle d'avenir considéré.
+Le taux de proportionnalité temporel est noté \lambda.
+La probabilité pour la particule de se désintégrer entre les instants futurs t et t + \mathrm dt vaut donc :
+:\operatorname (\text~t~;~t + \mathrm dt) = \lambda\,\mathrm dt
+C'est également la probabilité que la durée de vie T d'une particule soit égale à t (puisqu'elle existe à l'instant t et n'existe plus à t + \mathrm dt) :
+:\operatorname (T\int~;~t + \mathrm dt\,) = \lambda\,\mathrm dt
+Ceci décrit également les systèmes présentant un taux de défaillance instantané constant, c'est-à-dire une défaillance sans faiblesse de jeunesse, ni usure, ni effet de mémoire, comme les composants électroniques.
+À l'échelle d'une population de N particules (ou systèmes), la loi de désintégration (ou de défaillance) s'écrit donc :
+= - \lambda\,N (t)
+où :
+: N (t) est la population à l'instant t ;
+: \lambda (lettre grecque lambda) est une constante homogène à l'inverse d'un temps (elle s'exprime en , ) ;
+dans le contexte de la radioactivité on l'appelle constante de désintégration.
+La résolution de cette équation différentielle fait apparaître une fonction exponentielle décroissante :
+: N (t) = N_0\;
+\mathrm^
+dans lequel N_0 est la concentration au temps initial.
+La demi-vie (notée t_) est définie comme étant l'instant tel que l'on ait :
+N (t_) = N_0
+On a donc :
+Si T est la durée de vie d'une particule, on a également, par simple application de la définition des probabilités donnée ci-dessus :
+: Prob (T\;\leqslant \;
+t_ )
+Prob (T \;\geqslant \;
+t_)
+Remarque importante :
+La durée de vie moyenne de la particule
+- notée : T_
+- n'est pas à confondre avec la demi-vie, notée :
+Cas général
+Tous les systèmes ne suivent pas une loi exponentielle.
+En particulier, le taux de défaillance instantané n'a aucune raison d'être uniforme :
+il peut décroître, ce qui indique que le système devient plus robuste avec le temps ou bien que les systèmes présentant des défauts de jeunesse sont éliminés dans les premiers temps (voir Mortalité infantile, Mortalité juvénile et Rodage) ;
+* il peut croître, ce qui indique un phénomène de vieillissement, d'usure ;
+il peut avoir une courbe « en baignoire », avec trois étapes dans la vie du système : décroissant, puis constant, puis croissant.
+Dans tous les cas, la demi-vie t1/2 reste égale à la médiane.

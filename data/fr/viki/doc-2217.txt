@@ -1,0 +1,29 @@
+Mouvement
+Sphère effectuant un mouvement de rotation autour d'un de ses diamètres
+Le mouvement est le déplacement d'un objet dans l'espace.
+L'objet peut par exemple être une balle de tennis, un satellite, une planète ;
+mais aussi des êtres vivants, des animaux, des hommes, ...
+La description d'un mouvement s'effectue par rapport à un observateur.
+Une vache observe un train avancer : pour elle, le train se déplace !
+Mais pour un passager assis dans le train, le train reste immobile.
+Il peut ressentir l'accélération, mais aussi se rendre compte du déplacement en voyant le paysage se déplacer.
+Donc, à différents observateurs, différents mouvements.
+Sommaire
+Pour décrire un mouvement, dans un premier temps on définit l'ensemble des positions consécutives de l'objet : c'est ce qu'on appelle sa trajectoire.
+Il faut imaginer un appareil photo qui bombarde de photographies un objet qui se déplace.
+La trajectoire peut être assez compliquée, mais elle ne renseigne pas de l'écoulement du temps.
+On décrit dans un deuxième temps la manière dont l'objet parcourt cette trajectoire, en fonction du temps.
+Par exemple, dans un circuit électrique, la voiture est contrainte de se déplacer selon une trajectoire déterminée (le tracé du circuit).
+Les joueurs doivent chercher à aller le plus vite possible, sans faire dérailler la voiture.
+Il faut ralentir avant un virage, et accélérer dans les lignes droites.
+Le joueur ne peut pas modifier la trajectoire de la voiture, mais il peut agir sur la vitesse grâce à sa manette.
+Dans un mouvement rectiligne, l'objet se déplace selon une droite, sans pivoter.
+Par exemple, un ascenseur effectue un mouvement rectiligne vertical.
+Quand on appuie sur un bouton de l'ascenseur, celui se déplace jusqu'à l'étage choisi, et s'y arrête.
+Il ne peut se déplacer que vers le haut (on monte) et vers le bas (on descend).
+Le mouvement de rotation est dit uniforme lorsque l'angle de la rotation est proportionnel au temps.
+Contrairement au mouvement rectiligne uniforme, tous les points de l'objet n'ont pas la même vitesse.
+Un mouvement circulaire n'est pas un mouvement de rotation.
+Les points de l'objet se déplacent selon des cercles de même rayon et tracés dans des plans parallèles.
+À tout instant, les points de l'objet ont la même vitesse.
+Par exemple, une nacelle d'une grande roue effectue un mouvement circulaire (par rapport au sol).

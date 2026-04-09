@@ -1,0 +1,62 @@
+Modulus
+Modulus vient du latin: on parle d'un modulus, mais d'un nombre « modulo » 3 (c'est-à-dire un nombre auquel on applique le modulus de 3).
+Il est normal que cette opération soit méconnue : à l'inverse des quatre autres opérations (addition, soustraction, multiplication et division), elle n'est pas utilisée très consciemment dans la vie courante.
+Sommaire
+Le principe du modulus est simple ;
+prenons une horloge pour l'illustrer.
+La petite aiguille de l'horloge avance d'une unité chaque heure : elle pointe sur 6 heures, puis, une heure plus tard, sur 7 heures.
+Mais nous parlons du modulus, et non de l'addition : lorsque cette même aiguille pointe sur 12 heures, elle ne désignera pas, une heure plus tard, 13 heures !
+Sinon il faudrait un cadran infini, et c'est impossible.
+L'aiguille retourne en fait sur le 1.
+C'est un « retour à la case départ ».
+Et c'est le modulus !
+Où y a-t-il un modulus ?
+C'est simple : l'horloge est un « modulo 12 », car, passé le nombre 12, le compte repart automatiquement à zéro.
+Nos horloges digitales (sur les micro-ondes ou les réveils, par exemple)
+sont plus souvent des « modulo 24 ».
+Les années sont aussi des modulus : un jour après le 365e jour, si l'année n'est pas bissextile, on est au 1er jour ;
+c'est un exemple de modulo 365 (ou plutôt de modulo 365.25, pour prendre en compte les années bissextiles).
+En somme, le modulus est un simple retour à zéro, le nombre qui le suit (par exemple 33 dans « modulo 33 ») étant la limite, le nombre à partir duquel le compte recommence.
+Contrairement aux apparences, les exemples d'utilisation du modulus sont assez nombreux:
+il est utilisé inconsciemment pour toutes les durées cycliques, comme nous l'avons vu précédemment (heure, jour, année, etc.)
+sa capacité à réduire un nombre plusieurs fois, sans que le nombre de réductions soit connu , en fait le candidat idéal pour différentes techniques de chiffrement ;
+et cela aussi, on l'utilise tous les jours (Internet, service bancaire, commerce, etc.).
+en langage de programmation, le modulus (alors représenté par le symbole %) complète la division :
+lorsque l'on écrit 5 / 2 (5 divisé par 2), l'ordinateur compte simplement « en 5, combien de fois 2 ?
+» ;
+il trouve 2 (2×2 = 4) et affiche à l'utilisateur la chose suivante : « {{{1}}} », ce qui, bien sûr, est une erreur.
+Le modulus permet alors de retrouver le reste de la division: 5 = 2×2+1, c'est le 1 que le modulus récupère.
+Les calculatrices possèdent parfois une touche « mod », qui correspond au modulus.
+Voici l'algorithme du modulus, c'est-à-dire la façon schématisée dont il fonctionne :
+Un modulus est donc une « soustraction en cascade » ;
+en français, on pourrait dire « Enlève le nombre A à mon nombre tant que celui-ci est supérieur au nombre A », A étant un nombre quelconque, celui choisi comme modulus.
+est-il plus petit que 11 ?
+Non, alors :25−11=14{\displaystyle 25-11=14} 14 est-il plus petit que 11 ?
+Non, alors :14−11=3{\displaystyle 14-11=3} 3 est-il plus petit que 11 ?
+Oui !
+C'est le résultat de 36 mod 11.
+Son utilité dans les codes secrets: il permet de soustraire (et donc de transformer) un certain nombre de fois un nombre, mais le nombre de soustractions effectuées reste inconnu si l'on ne dispose pas du nombre de départ.
+Exemple :
+On applique un modulus 11 au nombre A, qui vaut au départ 36.36mod11=3{\displaystyle 36mod11=3} (36−11−11−11=3{\displaystyle 36-11-11-11=3})
+À présent
+en oubliant la valeur de A (qui est 36), essayons de retrouver A en connaissant uniquement le résultat et le modulus: impossible de dire avec certitude «
+C'est celui-là !
+», regardons pourquoi: A peut être égal à…
+3×11+3=36{\displaystyle 3\times 11+3=36} (
+la vraie valeur de A, mais on n'a aucun moyen de le savoir)
+Cette particularité est utilisée en cryptographie (la science des codes secrets), avec une légère variante : une « faille » permet de retrouver le résultat.
+Le modulus permet de définir une relation entre deux nombres, appelée relation de congruence.
+Par exemple, nous avons vu que, sur une horloge à 12 heures, dire «
+il est 16 heures » revenait à dire « il est 4 heures » : ici, il existe donc une relation entre 4 et 16 grâce au modulus 12 ;
+on dit alors que 4 et 16 sont « congrus modulo 12 ».
+On remarque qu’ils ne sont pas congrus modulo 13, par exemple, mais qu’ils le sont modulo 2 ou 4.
+Définition : si n est un nombre entier, deux nombres entiers a
+et b sont congrus modulo n s’il existe un nombre entier k tel que :
+Cela s’écrit plus rapidement :
+a ≡ b (mod n)
+ou :
+a ≡ b [n]
+On écrit donc, pour notre horloge : 16≡4 {\displaystyle 16\equiv 4~ } ou 4≡16 {\displaystyle 4\equiv 16~ } (c’est la même chose car la relation de congruence est une relation d'équivalence).
+Cela signifie aussi que le reste de la division euclidienne de a par n est égal à celui de la division euclidienne de b par n.
+Propriétés :
+si a1≡b1[n]{\displaystyle a_{1}\equiv b_{1}~[n]}, a2≡b2[n]{\displaystyle a_{2}\equiv b_{2}~[n]} et si k est un entier naturel différent de zéro, alors :

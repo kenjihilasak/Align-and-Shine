@@ -1,0 +1,27 @@
+Bisettrice
+Per tracciare la bisettrice di un angolo si procede così:
+si punta nel vertice dell'angolo, con apertura libera, e si traccia un arco;
+l'arco interseca i lati dell'angolo nei punti 1 e 2;
+si punta in 1 e si tracci un grande arco;
+si punta in 2 e si tracci un grande arco che interseca il primo nei punti 3 e 4;
+si uniscono i punti 3 e 4 con il vertice
+Il problema di trovare la retta bisettrice dell'angolo formato da due rette date è un problema che si può risolvere con delle costruzioni con riga e compasso.
+La bisettrice di un angolo può essere infatti costruita con riga e compasso secondo i seguenti passaggi:
+Puntando il compasso nel vertice O, con raggio a piacere, con un arco si individuano due punti A e B sui lati dell'angolo;
+Tracciando due circonferenze centrate in A e in B, sempre con raggio AB, si trovano i punti C e C' di intersezione fra le due;
+Si traccia infine una retta r da O passante per C:
+questa è la bisettrice.
+La bisettrice in pratica viene trovata come la perpendicolare del punto medio di AB (punti 2 e 3) i cui estremi sono equidistanti dal vertice O (punto 1).
+1) Ogni triangolo ha tre bisettrici, una per ciascun vertice.
+2) In un triangolo qualsiasi le bisettrici sono tutte e tre interne.
+3) Le bisettrici che riguardano gli angoli interni si intersecano (incontrano) in un unico punto detto incentro.
+Questo punto è equidistante (ha la stessa distanza) dai lati.
+4)Dato un vertice qualsiasi, la bisewttrice interna e quella eterna sono perpendicolari tra loro.
+5)Ogni punto di una bisettrice ha la stessa distanza dai lati che toccano il vertice da cui è condotta
+Nel triangolo, per bisettrice di un angolo non s'intende solitamente più la semiretta che lo divide, ma il tratto di questa retta che congiunge il vertice col lato opposto;
+si tratta dunque di un segmento di cui è possibile determinare lunghezza.
+Si distingue la bisettrice a seconda se cada fuori o dentro al perimetro del triangolo considerando "interna" la bisettrice che giace internamente al perimetro, ed "esterna" quella che invece congiunge il vertice al prolungamento del lato opposto.
+Per trovate l'incentro ho bisogno di tracciare le bisettrici.
+Il punto di incontro dei tre segmenti corrisponderà all'incentro.
+Per chiarire come fare l'incentro ci sono dei video spiegazione incentro.
+Ci sono dei programmi che permettono di disegnare usando strumenti di geometria (es geogebra).

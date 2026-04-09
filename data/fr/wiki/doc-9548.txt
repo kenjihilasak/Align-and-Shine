@@ -1,0 +1,270 @@
+Pendule|Foucault|Expérience de physique|Foucault
+Le pendule de Foucault, du nom du physicien français Léon Foucault, est un dispositif expérimental conçu pour mettre en évidence la rotation de la Terre par rapport à un référentiel galiléen.
+Le résultat de l'expérience dans le référentiel non galiléen lié à un observateur terrestre s'explique par l'effet de la force de Coriolis.
+Historique
+La première expérience a lieu le 3 janvier 1851 dans la cave de sa maison située au carrefour des rues d'Assas et de Vaugirard (Paris).
+La première démonstration publique date de 1851, le pendule étant accroché à la voûte du Panthéon de Paris.
+L'intérêt du pendule, imaginé et réalisé par Foucault, est qu'il met en évidence la rotation de la Terre par une expérience locale aisément reproductible et que l'on peut également déterminer en quelques heures, par mesure de la déviation au sol du plan d'oscillation, la latitude du lieu de l'expérience sans aucune observation astronomique extérieure.
+Il ne semble pas que Foucault ait été informé des travaux de Coriolis portant sur les lois de la dynamique dans un référentiel non inertiel, datant de 1832.
+C'est donc de manière purement empirique qu'il mena son expérience, et seulement après coup que les mécaniciens expliquèrent l'expérience par l'utilisation de la force de Coriolis.
+Si le principe général fut rapidement expliqué, il fallut attendre bien plus longtemps pour en comprendre toutes les subtilités, notamment avec la thèse de Kamerlingh Onnes en 1879.
+Si l'on considère le plan déterminé par :
+* le point de fixation du pendule (la voûte du Panthéon de Paris par exemple),
+* sa position au repos, donc la verticale du lieu où il est suspendu,
+* le point d'où il est lâché sans vitesse initiale (sans vitesse relative locale),
+l'expérience met en évidence :
+* que le plan d'oscillation du pendule est en rotation autour de l'axe de la verticale du lieu,
+* que ce plan d'oscillation tourne dans le sens horaire dans l'hémisphère nord et dans le sens inverse dans l'hémisphère sud.
+* que le plan d'oscillation effectue un tour complet en un jour sidéral aux pôles (soit ), mais qu'ailleurs la période est plus longue et doit être divisée par le sinus de la latitude.
+Cette période définit le jour pendulaire.
+À une latitude de 30°, le jour pendulaire est donc de et à 45° de latitude de 1,4 jour.
+À l'équateur le pendule oscille dans un plan fixe.
+Cette expérience historique, répétée par la suite en de nombreux endroits, a permis de vérifier le bien-fondé des lois du mouvement de Newton.
+En 1851, les lâchers du pendule avaient un certain cérémonial.
+Léon Foucault décrit dans un :
+Aujourd'hui on trouve généralement un mécanisme magnétique qui permet d'entretenir le mouvement car en raison des frottements de l'air celui du Panthéon n'oscille que durant 6 heures.
+L'expérience du pendule du Panthéon n'était pas suffisamment convaincante pour beaucoup de contemporains ce qui a poussé Foucault à inventer l'année suivante le gyroscope dont l'axe reste parallèle à une direction fixe par rapport aux astres et cela, quelle que soit la latitude.
+Mise en équation
+Pour simplifier, nous supposerons l'amplitude des oscillations suffisamment faible pour admettre que la masse oscillante du pendule se déplace horizontalement.
+Notons Oxy ce plan horizontal, avec O position de la masse au repos, Ox axe horizontal dirigé vers l'est (et donc tangent au parallèle), et Oy dirigé vers le nord (et donc tangent au méridien).
+Le troisième axe Oz sera vertical, dirigé vers le haut.
+Cas du pendule simple
+Sans tenir compte de la rotation de la Terre par rapport à un référentiel galiléen et dans le cas de petites oscillations, les équations du mouvement sont celles du pendule simple, à savoir :
+\left \{ \begin \ddot
+- \omega^2 x\\ \ddot
+- \omega^2 y \end \right.
+où ω est la pulsation propre du pendule simple, soit :
+\omega = \sqrt où g est l'accélération de la pesanteur et l la longueur du pendule.
+À titre d'exemple,
+si à l'instant t = 0, le pendule passe en O avec la vitesse V0
+selon l'axe
+, alors, la solution à ce système est :
+: \left \{ \begin x
+& \sin (\omega t), \\ y
+&0. \end \right.
+Cas du pendule de Foucault
+Avec la rotation de la Terre par rapport à un référentiel galiléen, il faut tenir compte de la force de Coriolis dont l'accélération s'écrit
+2 \Omega (\vec\wedge\vec) où \vec est la vitesse du pendule par rapport à la Terre, \vec est le vecteur unitaire porté par l'axe de rotation terrestre et Ω la vitesse de rotation angulaire de la Terre (à savoir un tour en un jour sidéral).
+Cette vitesse de rotation Ω est beaucoup plus faible que la pulsation propre ω du pendule.
+Si on se trouve à la latitude θ, alors le vecteur \Omega \vec se décompose, dans un repère lié au sol, en une composante de valeur \Omega \sin sur une verticale du lieu et une composante \Omega \cos dans un plan horizontal dont on peut orienter l'axe des ordonnées y vers le nord pour simplifier.
+Dans ce repère, le vecteur \Omega \vec a pour coordonnées \begin 0\\ \Omega \cos \\ \Omega \sin \end.
+Si on note \begin \dot\\ \dot \\ \dot\end les coordonnées du vecteur \vec, l'accélération de Coriolis subie par le pendule -2 \Omega (\vec\wedge\vec) a pour composantes \begin 2\dot \Omega \sin
+- 2\dot \Omega \cos\\
+- 2\dot \Omega \sin \\ 2\dot
+\Omega \cos \end.
+En négligeant l'influence des déplacements verticaux (h), les équations du mouvement dans le plan Oxy deviennent :
+\left\{\begin \ddot
+- \omega^2 x + 2\dot \Omega\sin,\\ \ddot
+- \omega^2 y
+- 2\dot \Omega \sin.\end\right.
+En utilisant la notation complexe z=x+iy, le système à résoudre s'écrit :
+\ddot+2i\Omega\sin \dot + \omega^2 z = 0.
+Proposons une solution classique de la forme z (t)
+e^, on en déduit que le complexe r doit vérifier l'équation du second degré : r^2+2i\Omega\sin (\theta)r + \omega^2
+0 qui s'écrit aussi : \left (r+i\Omega\sin (\theta)\right)^2- i^2\omega^2\left (1+\sin^2 (\theta)\frac\right)=0.
+En notant \omega_0
+\sqrt, les deux solutions de l'équation du second degré sont :
+-i (\Omega\sin (\theta)
+\pm \omega_0)
+et on peut alors en déduire que la solution générale du système est de la forme :
+z (t)= e^ \left (c_1 e^ + c_2 e^\right).
+\qquad\qquad (1)
+où c_1 et c_2 sont deux constantes, éventuellement complexes, qu'on peut déterminer par deux conditions initiales comme, la position du pendule et sa vitesse à la date t=0 qui conduisent aux deux équations :
+: \left \{ \begin z (0)
+& c_1 +c_2 \,,\\ \dot (0)
+&-i \left (\Omega\sin (\theta) z (0)
+- \omega_0 (c_1-c_2) \right).
+\end\right.
+En remplaçant les expressions trouvées pour les deux constantes dans l'équation (1), on peut alors écrire une équation plus aisément interprétable :
+z (t) =e^ \leftz_0\left (\cos (\omega_0 t) +i \frac\sin (\omega_0 t) \right) + \frac \sin (\omega_0 t)\right.
+\qquad\qquad (2)
+Ainsi, si \dot_0 est nulle et z_0 un réel pur, la trajectoire au sol du pendule dans un repère tournant selon une pulsation \Omega \sin (\theta) est une ellipse parcourue en une période de \frac.
+Si \dot_0 est non nulle mais un imaginaire pur, le mouvement elliptique est perturbé par une oscillation perpendiculaire au plan principal d'oscillation et de même fréquence \omega_0\,.
+Examinons alors deux manières de lancer le pendule :
+* Supposons que le pendule soit propulsé depuis la position d'équilibre (z (0)
+0 vers l'est à la vitesse \dot (0)
+V_0) et nous obtenons le mouvement décrit par l'équation :
+z (t)= \frac \sin (\omega_0 t)
+e^.
+L'exponentielle complexe mise en facteur montre que la dynamique du pendule se décompose en un mouvement pendulaire simple (sinusoïdal de pulsation \omega_0) au sein d'un plan qui tourne lentement en raison de la rotation de la Terre (\Omega) mais dont seule la composante verticale en ce lieu, \Omega\sin (\theta), ne compte.
+À chaque oscillation, le pendule repasse exactement par sa position de lancement qui est aussi sa position d'équilibre.
+On ne voit pas comment un tel mouvement peut être initié de manière simple.
+Dans le cas général, le pendule s'écarte de part et d'autre du plan tournant et ce n'est que par cet artefact de conditions initiales très difficiles à réaliser en pratique que le mouvement pourrait rester dans un plan et osciller au sein de ce plan comme un pendule simple.
+* Supposons
+, comme le fit Foucault, que le pendule soit écarté de sa position d'équilibre par une corde tendue (par exemple vers l'est : z_0 mètres) et qu'on la brûle (voir un ) afin de libérer le pendule avec une vitesse initiale nulle (\dot_0=0), on obtient la solution suivante :
+z (t)= z_0 e^ \left\cos (\omega_0t) + i \frac \sin (\omega_0 t) \right\qquad\qquad (3)
+Il suffit de tracer la courbe paramétrée par la partie réelle (longitude est) et la partie imaginaire (latitude nord) pour obtenir le tracé au sol de couleur verte de l'animation A (cliquer sur l'animation pour lire le programme de tracé en langage Gnuplot correspondant) même si la vitesse de rotation de la Terre est encore fictive et de l'ordre d'une rotation en au lieu d'une rotation par .
+Si on met une caméra dans le plan d'oscillation du pendule, on obtient l'animation tourne.
+On peut remarquer, contrairement au cas simple examiné précédemment mais qui correspondait à un lâcher difficilement réalisable, que le pendule n'oscille pas rigoureusement dans le plan tournant mais s'en écarte de part et d'autre selon l'ellipse de couleur bleue décrite dans la grande parenthèse de l'équation.
+:Il est également possible de voir le même pendule depuis le soleil, c’est-à-dire depuis une caméra fixe par rapport aux étoiles (animation ).
+Le pendule de Foucault du Panthéon à Paris oscille avec une pulsation propre \omega_0 extrêmement proche de celle du pendule simple \omega (les 8 premiers chiffres sont identiques) puisque \Omega est très petit devant \omega.
+La période d'oscillation, T
+\frac
+2\pi\sqrt vaut, si la longueur du fil fait , .
+Le rapport du petit côté de l'ellipse sur le grand côté a pour expression \frac et est très petit.
+Le pendule de Foucault oscille donc quasiment dans un plan qui tourne en raison de la rotation de la Terre.
+Mais le plan n'effectue un tour complet en qu'aux pôles.
+À une latitude \theta donnée, la période, \frac, inversement proportionnelle au sinus de cette latitude, est plus longue.
+Cette période définit le jour pendulaire (pendulum day).
+Le sinus de 30° valant 1/2, un pendule de Foucault implanté à une latitude de 30° effectuerait un tour complet en .
+La durée d'une rotation complète d'un pendule de Foucault situé à une latitude autre que l'équateur permet ainsi de déterminer cette latitude indépendamment de tout autre mesure.
+À la latitude nord de 48°52' du Panthéon à Paris, le plan fait un tour complet en T
+31h48
+et, en une heure, il tourne de -\Omega\sin\left (\frac\right)\times\frac\times3600
+-11^\circ 19 ' \quad
+, où \Omega\approx\frac est la vitesse de rotation de la Terre sur elle-même, exprimée en radians par seconde, et correspondant à la durée du jour sidéral qui est de et .
+La figure D, ci-contre, représente les oscillations après un lâcher à vitesse nulle à une distance de à l'est du centre de la coupole du Panthéon.
+Étant donnée la faible déviation vers le nord par rapport au déplacement est-ouest du pendule durant ces trois premières oscillations, l'échelle de l'ordonnée (sud-nord) est multipliée par 1000 ce qui correspond à un déplacement en millimètre.
+La force de Coriolis, perpendiculaire au déplacement et proportionnelle à la vitesse, fait dévier le pendule de son plan d'oscillation initial vers le nord ;
+elle est maximale lorsque la vitesse est maximale c’est-à-dire lorsque le pendule passe près du point d'équilibre, qu'il dépasse de z_0\frac =0,86\,\mathrm au nord.
+Le pendule s'arrête au bout d'une demie période (donc ) à l'opposé et a encore été dévié vers le nord.
+Au retour, le sens de la vitesse est inversé et la force de Coriolis fait déplacer le pendule vers le sud.
+Il passe à au sud du point d'équilibre puis s'arrête à au sud du point de lancement à la fin de la période d'oscillation soit après .
+La vitesse du pendule par rapport à notre repère terrestre étant alors nulle, la force de Coriolis est donc nulle et le pendule repart dans la même direction en effectuant un point de rebroussement.
+On remarque sur les figures A, B et C un poteau central éclairé par le soleil (le lâcher est simulé à midi un jour d'équinoxe) et son ombre portée sur le sol.
+Si l'extrémité du pendule se terminait par une tige de de diamètre, le diamètre de ce poteau ne devrait pas excéder lui aussi pour que ce dernier ne soit pas emporté à la première oscillation.
+Il semble néanmoins assez irréaliste d'installer un tel poteau, comme une fibre optique, car les fluctuations dues aux imperfections du lancer, aux courants d'air, aux vibrations de toute sorte, semblent beaucoup plus importantes.
+Le pendule : quel système de référence ?
+Le pendule de Foucault pose la question de la nature du repère qui sert de référence.
+En effet, tout mouvement est relatif.
+Si la Terre est en rotation, elle l'est par rapport à quelque chose;
+on ne peut pas parler d'un mouvement sans définir un cadre de référence.
+Ce cadre est le référentiel galiléen dans lequel le pendule oscille dans un plan fixe.
+Les mesures montrent que les étoiles distantes semblent former, en première approximation, un référentiel par rapport auquel le plan d’oscillation du pendule paraît être fixe.
+Mais comment est défini exactement ce référentiel ?
+Qu’a-t-il de particulier pour que le pendule reste fixe par rapport à celui-ci et pas un autre ?
+Cette question reste toujours sujette à controverse.
+Cette question ne posait pas de problème fondamental au temps de Foucault, car il était généralement admis à cette époque qu’il existait un espace absolu, tel que l’avait postulé Newton dans ses Principia Mathematica, par rapport auquel tous les mouvements sont définis, et qui forme donc un référentiel naturel d'oscillation du pendule.
+Cette notion d’espace absolu avait été critiquée notamment par Leibniz et d’autres philosophes, mais restait un concept dominant vers la fin du , d’autant que la découverte alors récente des ondes électromagnétiques par Maxwell semblait impliquer l’existence d’un éther luminifère qui constituait également un repère absolu.
+À cette époque, le physicien Ernst Mach essaye de nouveau d’apporter une critique de l’espace absolu, et postule le principe de Mach, selon lequel l’inertie des objets matériels
+est définie par rapport à un référentiel constitué par les masses distantes.
+Selon ce principe, dans un univers sans aucun objet matériel, l’espace absolu serait inobservable.
+On n’y sentirait donc aucune accélération ni force centrifuge, et le pendule n’y oscillerait pas selon un plan fixe.
+Si le principe de Mach est vrai, alors le référentiel d’oscillation du pendule serait le référentiel défini par la distribution de la matière de tout l’univers, et serait donc lié aux étoiles distantes, comme cela est observé.
+Au début du , Albert Einstein élabore la théorie de la relativité, guidé en partie par le principe de Mach.
+Einstein espérait démontrer le principe de Mach à partir des équations de la théorie de la relativité générale.
+Mais des difficultés théoriques rendaient difficile cette démonstration, et Einstein finit par y renoncer.
+L’espace
+temps permet donc de définir un référentiel galiléen par rapport auquel le pendule reste fixe, d’autres directement par l’espace-temps (Greene ou Tobin).
+Effets parasites
+La mise en évidence de la rotation terrestre par le pendule de Foucault est une expérience très délicate.
+Le plan d'oscillation du pendule tourne de quelques degrés par heure (maximum, 15° aux pôles).
+Plusieurs phénomènes risquent de masquer ce que l'on veut mettre en évidence.
+L'amortissement du pendule par le frottement dans l'air : il est proportionnel à la section du pendule, à son volume, et inversement proportionnel à son poids.
+On choisira donc un objet dense et lourd.
+Il faut une sphéricité parfaite, un cylindre est parfois plus approprié pour de petites amplitudes.
+* L'asymétrie du pendule
+Celui-ci doit être parfaitement symétrique pour ne pas dévier.
+Il ne doit pas non plus pivoter sur lui-même : l'effet Magnus le dévierait de son plan d'oscillation (cependant, il tournera légèrement sur lui-même en raison de sa précession !).
+Il faut aussi veiller au point d'attache.
+Le pendule doit être lancé sans composante de vitesse perpendiculaire au plan d'oscillation.
+Comme il s'agit d'un pendule sphérique, on doit effectuer la correction d'erreur systématique :
+Victor Puiseux a montré que si le pendule effectuait une ellipse, celle-ci entraînait un effet de précession proportionnelle à son aire et inversement proportionnelle au carré de la longueur du pendule.\omega_ = .
+Il faut utiliser un pendule long et le lancer en le lâchant sans vitesse initiale par rapport au laboratoire ;
+sa trajectoire sera donc légèrement elliptique, mais toute la manipulation sera alors reproductible et l'on pourra corriger les erreurs systématiques.
+L'astuce de l'anneau de Charron est peu connue (cf Bulletin de la SAF de novembre 1931) mais pourtant très efficace : on entretient le mouvement du pendule par un électroaimant très pointu et le cylindre est lui-même muni d'une pointe qui vient quasiment en contact de celle de l'électroaimant.
+Celui-ci est alimenté par un courant continu basse tension haché de la façon suivante : l'anneau de Charron (C) est placé à quelques décimètres du point d'oscillation O (pour une longueur de environ).
+Quand le fil de suspension métallique touche l'anneau très bien centré, le courant passe, il y a force électromagnétique attractive, donc retard vers la montée mais avance sur la descente.
+Puis aucune force lorsque le contact est perdu.
+Puis la symétrie pour l'autre côté.
+L'astuce consiste à ce que la bobine engendre un retard du courant : il y a donc bien gain global d'énergie.
+L'amplitude des oscillations (2 degrés environ) est imposée par le bilan énergétique.
+L'énergie perdue pendant une oscillation, qui croit avec l'amplitude, est exactement compensée par l'énergie fournie par l'électroaimant.
+Certes la période du pendule est composée de deux mouvements, l'un autour de O, et l'autre autour de (C) (de rayon très petit, environ).
+On peut le vérifier par la mesure de T .
+L'originalité du système n'est pas qu'il entretienne le pendule, mais que le frottement solide du fil sur l'anneau (C) pendant une partie du mouvement, loin de perturber la précession, est au contraire un très subtil moyen pour supprimer l'influence des conditions initiales de lancement qui sont si critiques.
+Celui du Palais de la découverte fonctionnait sur ce principe.
+Quelques pendules de Foucault dans le monde
+On peut voir un pendule de Foucault au Deutsches Museum (jusque 2016), ainsi qu'à l'Institut de géophysique de Munich (voir un des liens externes pour une vue en direct sur ce pendule).
+Le département de physique de l'Université de Heidelberg a un pendule de Foucault, http:/ view/viewer_index.shtml?id=630840 filmé en direct par une caméra en ligne.
+* Pour célébrer le centenaire de l'expérience de Foucault, un pendule fut installé le 8 mai 1951 sous le dôme du Palais de justice de Bruxelles.
+Du 7 au 19 mars 2005
+: dans le cadre de 2005 : Année Mondiale de la Physique, un pendule de Foucault de et d'une masse de a été installé dans la collégiale Sainte-Waudru à Mons.
+En 2005, un pendule de Foucault a été installé à Auderghem, Bruxelles, au croisement Avenue de la Houlette/Rue des Pêcheries.
+Du 24 mai au 18 octobre 2009 : dans le cadre de 2009 : Année Mondiale de l'Astronomie, un pendule de Foucault de et d'une masse de est installé dans la collégiale Saint-Ursmer de Lobbes.
+Un pendule de Foucault
+de est installé dans la collégiale Sainte-Waudru de Mons en Belgique du mars au 3 avril 2011.
+La masse de la sphère est de 42 kilos pour un diamètre de .
+Sa période est de .
+* Entre le 29 janvier 2015 et le 29 mars 2015, l'université de Mons a réinstallé dans la collégiale Sainte-Waudru de Mons un pendule de Foucault.
+Faisant usage du matériel utilisé par le professeur J. F.
+Cox et M. J. Brouet, au Palais de Justice de Bruxelles (voir la Belgique), l'expérience a été reproduite à Usumbura (Bujumbura maintenant) situé à 3° 22' 57” de latitude sud en 1956 par Georges Serrure, recteur de la préuniversitaire d'Usumbura.
+Le déplacement de la direction du plan d'oscillation du pendule était très lent;
+un tour complet s'effectua en 17 jours environ.
+L'expérience a été effectuée dans la cage d'escalier de la Brasserie du Ruanda-Urundi (maintenant Burundi)
+En 2005, un pendule de Foucault est installé dans le hall d'honneur du pavillon Roger-Gaudry de l'Université de Montréal.
+Un poids de oscille au bout d’une corde de piano de de longueur.
+Un pendule de Foucault est installé en 2008 à l'École de technologie supérieure à Montréal.
+Un pendule est également installé dans l'édifice Herzberg de l'Université Carleton, à Ottawa.
+Un pendule de Foucault est installé à la Cité des arts et des sciences de Valence.
+Un pendule de Foucault est installé à la CosmoCaixa à Barcelone.
+Un pendule de Foucault est installé au Parque de las Ciencias de Grenade.
+Un pendule de Foucault est installé au musée des sciences de Saint-Sébastien.
+Un pendule de Foucault est installé au siège des Nations unies à New York.
+La sphère est plaquée or et pèse .
+Elle est suspendue à au-dessus d'un anneau métallique de de diamètre et surélevé de par rapport au plancher.
+On peut lire dessus un message de la reine Juliana des Pays-Bas : .
+Un pendule de Foucault est installé au Musée des Sciences naturelles de Houston, États-Unis.
+Il accueille le visiteur à l'entrée du hall des dinosaures, le plus grand des États-Unis.
+Un pendule de Foucault est aussi présent à Los Angeles, dans l'observatoire Griffith Park.
+Le pendule que Foucault a installé au Panthéon de Paris en 1851 mesurait et portait une masse de .
+Une fois lancé, ce pendule oscillait pendant .
+La période (aller-retour) était de ;
+le pendule déviait
+de .
+La sphère de ce pendule est réutilisée dans le pendule de Foucault installé au Musée des arts et métiers de Paris.
+Il a été réinstallé sous la coupole en 1995, constituant une attraction très appréciée des visiteurs.
+Démonté pendant les travaux de restauration du Panthéon
+, il a été remis en mouvement, après restauration, par la Société Bodet, le .
+Un accident a provoqué la chute du pendule original au Musée des arts et métiers
+le .
+La sphère de , cabossée, devenue irrécupérable a été conservée dans les réserves du musée en Seine-Saint-Denis avant de rejoindre le musée pour être exposée en vitrine.
+Une copie a été installée à la place.
+Un pendule de Foucault est installé au Palais de la découverte de Paris, et des exposés (en français) lui sont consacrés chaque jour.
+* Du 26 au en la cathédrale Sainte-Marie d'Auch, le pendule installé faisait de long pour une masse de .
+* Musée du Temps (
+diamètre de au sol et un pendule suspendu à ).
+La période du pendule est de et sa rotation complète s'effectue
+Un pendule de Foucault est installé au lycée polyvalent Galilée de Gennevilliers (Hauts-de-Seine) depuis la construction du nouveau lycée.
+Un pendule de Foucault est installé au lycée La Martinière Diderot à Lyon.
+Il est mis en place pour les portes ouvertes de ce Lycée.
+Il mesure de hauteur.
+Un pendule de Foucault a été installé en 2008 au lycée Denis-Diderot à Marseille, et mesure de hauteur et porte une masse de .
+Une fois lancé, ce pendule oscille pendant 3h.
+La période (aller-retour) est de 8,4s.
+Le pendule dévie de 10° par heure.
+Un pendule est installé depuis 2014 à l'école de la deuxième chance de Marseille.
+Un pendule de Foucault est installé en extérieur au pavillon des Sciences à Montbéliard.
+Un pendule de Foucault est installé à la Faculté de Physique et D'Ingénierie de Strasbourg.
+Un pendule de Foucault est installé au lycée Gérard de Nerval à Noisiel.
+Un pendule de Foucault est installé à l'entrée du bâtiment principal de l'Observatoire de Toulouse sur la colline de Jolimont.
+Il a été inauguré le à l'occasion des de la Société d'astronomie populaire (SAP) de Toulouse.-
+Un pendule de Foucault est installé à l'Hôtel de la Région Grand-Est, à Metz.
+Un pendule de Foucault est installé à la Bibliothèque Universitaire de l'Université du Havre depuis 2017.
+Il mesure de hauteur.
+Un pendule de Foucault est installé dans l'église d'Evran depuis juin 2019.
+Il mesure de haut et a une masse de .
+Ce pendule de Foucault a été précédemment installé à Villeneuve d'Ascq, Toulouse, Rennes, Brest...
+* Depuis le , un pendule de Foucault est installé au Palazzo della
+Ragione
+de Padoue
+Un pendule de Foucault est installé au Lycée Scientifique "Galileo Galilei" de Sienne.
+La corde est longue de , la sphère est de 36 kilos et la période de rotation est de 35 heures.
+Un pendule de Foucault est installé depuis 1934 au Musée national de la nature et des sciences de Tokyo.
+Un pendule de Foucault est installé au Tokyo DisneySea
+dans la "Fortress Explorations" nommé le Pendule Tower.
+Le premier pendule de Foucault a été installé en 2017 dans la cage d'escalier du groupe scolaire SZM1 de Vaduz, intégré dans une œuvre d'art de Ferdinand Gehr.
+Un pendule se trouvait dans le bâtiment des sciences de la Faculté de droit, d'économie et de finance de l'université du Luxembourg au Grand-duché de Luxembourg.
+Celui-ci est actuellement démonté.
+Un pendule de Foucault est installé à l'Institut de physique à l'université d'Oslo.
+Un pendule de Foucault est installé à l'université norvégienne de sciences et de technologie de Trondheim.
+Un pendule de Foucault est installé au Musée des Sciences Copernic (Centrum Nauki Kopernik) à Varsovie
+Un pendule de Foucault est installé dans la rotonde du Jardin des Fleurs de la ville de Kroměříž.
+Un pendule de Foucault est installé au Science Museum de Londres.
+Un pendule de Foucault est installé depuis 1993 dans la cour du Séminaire du lycée cantonal de Porrentruy.
+Ce pendule est inséré dans une tour métallique.
+La sphère pèse environ et est fixée à un fil d'acier de .
+Ce pendule a été érigé à l'occasion du de l'ancien collège des Jésuites et appartient au Musée jurassien des Sciences naturelles.
+* Plusieurs pendules de Foucault de très petites dimensions () ont été réalisés par Marcel Bétrisey et certains sont exposés dans son atelier de Sion.
+Un pendule de Foucault est installé à la Cité des sciences de Tunis.
+Modèles de pendule de Foucault

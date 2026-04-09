@@ -1,0 +1,53 @@
+SQL sert à écrire des requêtes.
+Par exemple, si on a dans notre base de données une table nommée «
+Europe » et qui ressemble à :
+Pays
+Capitale
+Population (en millions)
+France
+Paris
+Allemagne
+Berlin
+Islande
+Reykjavík
+0,33
+on peut connaître la population allemande en envoyant la requête :
+Le SGBD répond 82.
+On peut aussi vouloir connaître la population moyenne des pays de la base de données :
+SELECTavg(population)-- avg signifie {{"|average}} ({{"|moyenne}} en anglais)FROMEurope;
+et le SGBD répond alors 49,11.
+Et si l'on veut connaître les capitales des pays qui comptent moins de 70 millions d'habitants ?
+Les requêtes que nous avons vues ne servent qu'à demander des informations au SGBD, mais on peut aussi se servir de SQL pour ajouter un nouveau pays à notre table Europe :
+Notre table Europe ressemble maintenant à :
+Pays
+Capitale
+Population (en millions)
+France
+Paris
+Allemagne
+Berlin
+Islande
+Reykjavík
+0,33
+Italie
+Roma
+On peut également mettre à jour ou supprimer des lignes avec UPDATE et DELETE.
+SELECT, INSERT
+, UPDATE et DELETE constituent la partie Data Manipulation Language (« Langage de manipulation des données », DML) de SQL.
+Les autres parties de SQL sont :
+DDL (
+Data Definition
+Language
+, « Langage de définition des données »)
+pour créer et modifier des tables entières ;
+TCL (Transaction Controls Language
+, « Langage des contrôles de transaction »)
+pour grouper plusieurs requêtes ensemble
+DCL (Data Control Language, «
+Langage de contrôle des données »)
+pour définir qui a accès aux informations
+SQL n'est pas un langage de programmation car il ne permet pas d'écrire des programmes.
+En effet, il ne décrit pas des instructions que doit exécuter l'ordinateur.
+On ne peut donc pas écrire de conditions, de boucles ni de procédures en SQL.
+Cependant, pour pallier ce défaut, on a inventé PL pgSQL (PostgreSQL) qui, eux, sont bien des langages de programmation.
+De plus, on peut utiliser SQL dans d'autres langages comme PHP, Python, Perl, etc.

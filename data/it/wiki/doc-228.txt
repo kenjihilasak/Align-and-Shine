@@ -1,0 +1,89 @@
+In matematica il minimo comune multiplo di due o più numeri interi a e b, indicato con \operatorname (a,b), è il più piccolo intero positivo multiplo sia di a sia di b.
+0 o b
+0, allora \operatorname (a,b) è uguale a zero.
+Se si considerano due o più frazioni, il minimo comune multiplo dei denominatori fornisce il loro minimo comune denominatore.
+Ossia il più piccolo numero che può essere utilizzato per trasformare tutte le frazioni di partenza in frazioni con lo stesso denominatore e quindi direttamente sommabili algebricamente.
+Se a e b non sono entrambi nulli, il minimo comune multiplo può essere calcolato usando il massimo comun divisore (MCD) di a e b e la formula seguente:
+\operatorname (a,b)=\frac.
+Per esempio:
+\operatorname (21,6)
+Quindi, l'algoritmo di Euclide per il MCD fornisce anche un veloce algoritmo per il calcolo del mcm.
+Calcolo efficiente del mcm
+La formula
+\operatorname (a,b)=\frac
+è adeguata per calcolare il mcm per piccoli numeri.
+Poiché (ab) c o a/c sono più semplici da calcolare rispetto alla divisione tra il prodotto ab e c:
+il fatto che c sia multiplo sia di a che di b consente di semplificare completamente il fattore c dalla frazione a c, prima di effettuare il prodotto ab.
+Allora il mcm si può calcolare o così:
+\operatorname (a,b)=\left (\right)\cdot b
+oppure così:
+\operatorname (a,b)=a\cdot\left (\right)
+In questo modo, l'esempio precedente diventa:
+\operatorname (21,6)
+\cdot6
+\cdot6
+7\cdot6
+Anche se i numeri sono grandi e non sono facilmente scomponibili in fattori, il MCD può essere calcolato velocemente usando l'algoritmo di Euclide.
+Come ricordarsi di semplificare prima di moltiplicare
+Il metodo che segue rende impossibile dimenticarsi di semplificare prima di moltiplicare.
+Verrà illustrato con un esempio:
+come trovare il \operatorname (12,8).
+* Si deve ridurre ai minimi termini la frazione avente come numeratore e denominatore i due numeri di cui si deve trovare il minimo comune multiplo:
+= .
+* Si esegue la "moltiplicazione a croce":
+12\times 2 = 8\times 3.
+Metodo di calcolo alternativo
+Il teorema fondamentale dell'aritmetica afferma che ogni intero maggiore di 1 può essere scritto in un modo unico come prodotto di fattori primi.
+I numeri primi possono essere considerati come "atomi" che, combinati insieme, producono un numero composto.
+Per esempio:
+2^1
+\cdot 3^2 \cdot 5^
+Il numero composto 90 è costituito da un elemento uguale al numero primo 2, due elementi uguali al numero primo 3 e un elemento uguale al numero primo 5.
+Si può usare questo teorema per trovare facilmente il mcm di un gruppo di numeri.
+Per esempio: calcolare il \operatorname (45, 120, 75).
+45=3^2 \cdot 5^1
+120=2^3 \cdot 3^1 \cdot 5^1
+75=3^1 \cdot 5^2
+Il mcm è il prodotto di tutti i fattori primi comuni e non comuni, presi una sola volta con il massimo esponente.
+Quindi
+\operatorname (45,120,75)
+2^3
+\cdot 3^2 \cdot 5^2
+8 \cdot 9 \cdot 25 = 1800.
+Questo è il metodo che di solito viene insegnato nella scuola italiana.
+Esempi
+i tre numeri sono primi, quindi
+\operatorname (3,5,7)
+3 \cdot 5\cdot
+i numeri non primi devono essere scomposti in fattori primi
+7=7
+3\cdot 2^2
+5^2
+quindi risulta
+\operatorname (2,25,7,12)
+\operatorname (3,4,7,25)
+2\cdot 3\cdot
+5^2\cdot 7=2100.
+i fattori primi 2 e 5 sono stati presi con esponente massimo 2.
+Analogamente si ragiona se si vuole eseguire il mcm tra espressioni algebriche:
+si procede alla scomposizione in fattori (monomi, binomi, trinomi...), comunque espressioni algebriche non trasformabili in prodotto di espressioni algebriche di grado inferiore) primi tra loro e si ricava il mcm tra le espressioni algebriche applicando la stessa definizione data per i numeri.
+Esempio:
+* Calcolo di \operatorname (2np, (p+q)^2,4n^2 (q+p)^3).
+Le espressioni sono già indicate come prodotti di espressioni algebriche semplici e allora il loro mcm risulta
+\operatorname (2np, (p+q)^2,4n^2 (q+p)^3)
+\operatorname (4,n^2,p, (p+q)^3)
+4n^2p (p+q)^3.
+* Calcolo di \operatorname (x^3,ab
+(x^2-2x+1), (1-x)).
+Si ha che
+x^3=x^3
+ab (x^2-2x+1)
+ab (x-1)^2
+ab (1-x)^2
+(1-x)=- (x-1).
+E quindi il mcm in questo caso è
+\operatorname (x^3,ab (x^2-2x+1), (1-x))
+\operatorname (ab,x^3 (1-x)^2)
+\operatorname (ab,x^3 (x-1)^2)=abx^3 (x-1)^2.
+Note
+Bibliografia

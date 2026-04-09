@@ -1,0 +1,386 @@
+Concept en physique|Métrologie|Physique théorique|Grandeur physique
+Lanalyse dimensionnelle est une méthode pratique permettant de vérifier l'homogénéité d'une formule physique à travers ses équations aux dimensions, c'est-à-dire la décomposition des grandeurs physiques qu'elle met en jeu en un produit de grandeurs de base : longueur, durée, masse, intensité électrique, irréductibles les unes aux autres.
+L'analyse dimensionnelle repose sur le fait qu'on ne peut comparer ou ajouter que des grandeurs ayant la même dimension ;
+on peut ajouter une longueur à une autre, mais on ne peut pas dire qu'elle est supérieure, ou inférieure, à une masse.
+Intuitivement, il est clair qu'une loi physique ne saurait changer, hormis dans la valeur numérique de ses constantes, au simple motif qu'on l'exprime dans d'autres unités.
+Le théorème de Vaschy-Buckingham le démontre mathématiquement.
+En physique fondamentale, l'analyse dimensionnelle permet de déterminer a priori la forme d'une équation à partir d'hypothèses sur les grandeurs qui gouvernent l'état d'un système physique, avant qu'une théorie plus complète ne vienne valider ces hypothèses.
+En science appliquée, elle est à la base de la modélisation par maquettes et de l'étude des effets d'échelle.
+Applications
+L'analyse dimensionnelle peut trouver des applications dans de nombreux problèmes, en particulier pour déterminer des nombres sans dimension intervenant dans les phénomènes physiques, et qui permettent de modéliser le phénomène par des maquettes, ou encore pour déterminer a priori des effets d'échelle.
+On la retrouve par exemple dans les domaines suivants :
+* l'aérodynamique
+pour les caractéristiques aérodynamiques des avions, et plus généralement le comportement des corps dans un fluide en mouvement (optimisation de ponts suspendus)
+*résistance à l'écoulement et chute de pression dans l'écoulement d'un fluide à travers des tuyaux ;
+* formation des vagues et leur propagation, dans diverses interfaces ;
+* détonique, étude des détonations et de leurs effets ;
+* tests de résistance de matériau et essais de collision
+* maquettage de l'effet des tremblements de terre
+par exemple pour les immeubles de grande hauteur) ;
+* vieillissement et tassements dans les sols, pour l'étude des fondations des bâtiments, ou les glissements de terrain et les avalanches ;
+* hydraulique des canaux, transport de sédiments dans les rivières ;
+* en médecine et en biologie, effet d'échelle en bionique, développement de la circulation sanguine ou croissance de la plante.
+L'analyse dimensionnelle de ces phénomènes fournit d'utiles règles de proportionnalité.
+Elle permet de spécifier l'étalonnage des modèles expérimentaux, et de guider les études de variation.
+Dans de nombreux cas, elle permet d'identifier des dépendances fonctionnelles.
+Dans tous les cas, elle contribue à une meilleure compréhension du problème.
+L'analyse dimensionnelle est à la base des systèmes d'unités naturelles.
+Mesures, unités et dimensions
+Formules homogènes
+Dans une formule physique, les variables présentes ne sont pas « que » des nombres, mais représentent des grandeurs physiques.
+Une grandeur physique est un paramètre mesurable qui sert à définir un état, un objet.
+Par exemple, la longueur, la température, l'énergie, la vitesse, la pression, une force (comme le poids), l'inertie (masse), la quantité de matière (nombre de moles)… sont des grandeurs physiques.
+Une mesure physique exprime la valeur d'une grandeur physique par son rapport avec une grandeur constante de même espèce prise comme unité de mesure de référence (étalon ou unité).
+On exprime alors la grandeur par un nombre rationnel multipliant l'unité de mesure.
+De ce fait, les opérations entre grandeurs physiques ne portent pas que sur les nombres, mais également sur les unités.
+Ces unités présentes dans les formules physiques contraignent la forme que peuvent prendre ces formules, parce que certaines opérations possibles sur de simples nombres deviennent impossibles quand ces nombres sont associés à des unités.
+Ces contraintes sont celles qui font qu'une formule physique est qualifiée d'« homogène » :
+* la multiplication (ou la division) est possible entre toutes unités, ou avec des constantes sans dimension, mais c'est pratiquement la seule opération permise sans restriction ;
+la multiplication ou la division de grandeurs physiques est également possible, et porte à la fois sur les valeurs numériques et sur les unités de ces grandeurs ;
+* l'addition (ou la soustraction) de grandeurs physiques de nature différente n'a pas de sens ;
+l'addition ou la soustraction de grandeurs physiques de même nature est possible à condition de les exprimer avec la même unité (cf. section suivante) ;
+* à l'exception de l'élévation à une puissance (une généralisation de la multiplication et de la division), une fonction mathématique (comme le sinus ou l'exponentielle) ne peut porter que sur des nombres « purs », sans dimension.
+Un tel contrôle est automatisable.
+Dès 1976, Michel Sintzoff remarquait qu'on peut renforcer la fiabilité des programmes de calculs en physique, en déclarant les variables physiques en tant que telles, et en codant leur dimension par la suite des exposants relatifs aux dimensions de base prises dans un ordre fixe.
+Il est alors possible de vérifier à la compilation leur homogénéité dimensionnelle par évaluation symbolique.
+Pour cela, on remarque notamment que :
+* les dimensions des diverses grandeurs forment un groupe multiplicatif ayant pour générateurs les dimensions de base ;
+* l'addition, la soustraction, les combinaisons min/max, l'affectation de grandeurs supposent opérandes et résultats de même dimension
+* la dimension du résultat du produit (resp.
+quotient) de deux grandeurs est le produit (resp.
+quotient) de leurs dimensions.
+Unités de même nature
+Si l'addition d'unités n'a pas de sens, celle de grandeurs physiques de même nature reste possible, à condition toutefois de les ramener à une unité commune.
+Remarque : il faut prendre avec précaution le « facteur de conversion » pour les températures, parce cette grandeur physique a une référence absolue, le zéro absolu.
+Les échelles usuelles de température, degré Celsius comme degré Fahrenheit, partent de zéros différents, si bien que la conversion d'une unité dans une autre est une transformation affine, au lieu d'être une proportionnalité.
+C'est pourquoi il ne peut y avoir de facteur de conversion qu'entre écarts de température.
+Les formules physiques expriment la température en kelvin.
+La « nature » et l'unité
+Il faut se rappeler ici ce qu'est exactement une « unité de mesure » : une mesure physique vise à exprimer la valeur d'une grandeur physique par son rapport avec une grandeur constante de même espèce.
+Si donc l'« heure » est une unité de mesure du temps, c'est parce que l'on peut comparer des grandeurs temporelles avec la grandeur particulière qu'est « une heure » : toute mesure physique ne fait qu'évaluer un rapport entre deux grandeurs de même nature.
+Ces unités de mesure sont elles-mêmes des grandeurs physiques mesurables, donc un nombre associé à une unité, et prendre «
+une heure » ou « une minute » comme référence est fondamentalement un choix arbitraire.
+Le caractère arbitraire de ce choix peut être frustrant, parce qu'il ne permet pas de capturer ce qu'est la « nature » d'une unité : bien qu'une mesure soit un nombre associé à une unité (laquelle donne donc à cette mesure sa nature), on ne peut en réalité que faire des rapports, et accéder à des nombres sans dimension.
+L'idée d'un système d'unités naturelles répond à cette idée d'éliminer la part d'arbitraire dans la mesure : s'il existe une unité naturelle « T » qui puisse servir de référence universelle pour mesurer le temps, alors la minute et l'heure peuvent se décrire comme respectivement n.T et soixante fois n.T. Si l'unité est naturelle, on peut alors considérer que « T » concentre l'essence de cette grandeur et en est la nature même, ce qui fait qu'un nombre change sa nature et devient une mesure physique : l'unité arbitraire que l'on utilise au quotidien est ainsi dissociée en une grandeur physique essentielle, qui lui donne sa « nature », et un facteur de conversion propre à cette unité, qui en supporte tout l'arbitraire.
+Dans cette approche, une mesure d'une grandeur physique implique alors conceptuellement trois entités : une unité naturelle, qui donne la « nature » de la mesure, un facteur de conversion qui découle de la grandeur utilisée comme unité pratique, et un nombre mesuré représentant le rapport entre la grandeur mesurée et l'unité pratique.
+Que l'unité naturelle ne soit pas clairement définie (la seule unité clairement naturelle est la vitesse de la lumière) n'a pas d'importance pratique.
+Un facteur de conversion, s'il faut le calculer, prend toujours la forme d'un rapport entre deux mesures de même nature, et ne dépend donc pas de la valeur exacte de l'unité naturelle.
+Formules physiques et grandeurs
+Indépendamment de ce que doit être
+la valeur d'une unité naturelle, on peut considérer dans cette optique qu'une expression physique traduit des opérations sur des objets complexes, associant un nombre, une unité, et un facteur de conversion.
+Il y a les opérations numériques effectuées sur des nombres, sur lesquelles se concentrent les praticiens utilisateurs de la formule.
+C'est ce qui fait l'intérêt pratique de la formule.
+Il y a d'autre part des opérations simultanées sur des grandeurs, qui représentent la « nature » des mesures physiques impliquées
+- et ceci
+, indépendamment du choix d'une unité ;
+c'est ce sur quoi se concentre le théoricien lorsqu'il examine l'« équation aux dimensions ».
+Il y a enfin des opérations sur les facteurs de conversions qui découlent du choix d'un système d'unités potentiellement arbitraires.
+C'est ce qu'il faut examiner quand on passe d'un système d'unités à un autre.
+Dans une formule physique, ce choix ne se traduit jamais, en réalité, que par un facteur de conversion sans dimension (donc, ne changeant pas la « nature » de l'expression).
+Et comme ce facteur ne fait que refléter un choix arbitraire, on s'arrange dans les systèmes bien conçus (comme le système métrique) pour choisir les unités pour que le facteur de conversion soit « un », et disparaisse de la formule.
+L’équation aux dimensions d'une formule physique est une « équation de grandeurs », qui a la même forme que la formule physique initiale, mais où ne sont pris en compte ni les nombres, ni les facteurs de conversion, ni les constantes numériques sans dimension : uniquement les grandeurs.
+On y représente les phénomènes mesurés par un symbole ;
+par exemple, un temps y est représenté par la lettre «
+, une longueur est représentée par la lettre «
+L ».
+C'est cette formule qui permet de déterminer la dimension dans laquelle doit être exprimé le résultat d'une formule physique, indépendamment des nombres résultant des mesures.
+Facteur de conversion
+Les équations physiques relient entre elles des grandeurs physiques, donc des nombres et des unités, et potentiellement des facteurs de conversion dépendant du choix de ces unités.
+Grandeur d'une unité
+Grandeur de base
+D'une manière générale, en passant d'une loi physique à une autre, il est possible d'exprimer de proche en proche la dimension de toutes les grandeurs physiques en fonction de sept dimensions de base.
+Le système international d'unités fait le choix suivant, et recommande les notations correspondante, largement répandues :
+Le choix de ces sept grandeurs est une construction historique, les grandeurs ont été choisies depuis le en fonction des besoins et des étalons que l'on pouvait fabriquer de manière simple et précise.
+Elles sont a priori les plus fondamentales, et « les trois unités fondamentales » étant les seules directement accessible à la mesure pour la physique du , il aurait été difficilement imaginable de faire le choix d'autres grandeurs de base.
+On peut cependant choisir d'autres grandeurs de référence, par exemple définir la vitesse comme grandeur de base, et définir l'étalon-longueur en fonction de l'étalon-vitesse et de l'étalon-temps : c'est ce qui est d'ailleurs fait à présent implicitement dans le système métrique, l'étalon-vitesse étant la vitesse de la lumière dans le vide.
+De même, une alternative à l'intensité électrique pourrait être de retenir la charge électrique comme unité de base.
+Ces choix alternatifs conduisent alors à des alternatives en matière de système d'unités.
+Le choix des grandeurs de base par rapport aux grandeurs dérivées est relativement arbitraire.
+Dans la plupart des cas, en mécanique, les grandeurs effectivement utilisées se limitent aux « trois unités fondamentales » de Maxwell, le sous-système .
+Mais il serait possible de fonder un système sur la force au lieu de la masse ().
+De fait, exprimer des unités en ou en revient en quelque sorte à considérer que le newton pourrait être une grandeur de base pour définir ces grandeurs dérivées.
+On pourrait de même remplacer le temps par une vitesse ou une fréquence, ou s'appuyer sur l'énergie, ou opter pour toute autre combinaison de trois grandeurs mécaniques, du moment que ces trois grandeurs sont indépendantes.
+Ce choix est uniquement une question de commodité.
+L'analyse dimensionnelle ne dépend pas des grandeurs retenues comme base.
+Grandeurs dérivées
+Comme indiqué ci-dessus, dans le cas général, une loi physique comporte dans le cas général (pour des systèmes d'unité non rationnels) un terme constant reflétant la conversion des unités entre grandeurs d'entrée et grandeur de sortie.
+Inversement, dans un système rationnel, l'unité de la grandeur de sortie est choisie de telle manière, que son facteur de conversion soit égal à l'unité, c'est-à-dire disparaisse de la formule décrivant la loi physique : ce facteur n'a en effet aucune signification physique.
+De proche en proche, de loi physique en loi physique, ce principe permet de déterminer toutes sortes de « grandeurs dérivées », d'en connaître la dimension, et si possible d'en fixer une unité cohérente avec les unités précédemment retenues, pour laquelle le « facteur de conversion » sera égal à un.
+Une grandeur dérivée est ainsi une grandeur dont la dimension est liée à au moins une des sept grandeurs de base.
+Une loi physique exprime le lien entre une grandeur dérivée et les grandeurs de base (ou d'autres grandeurs dérivées).
+Son énoncé impose une certaine équation aux dimensions.
+La dimension d'une grandeur dérivée est dite « simple » lorsqu'elle n'est liée qu'à une des sept grandeurs de base.
+Par exemple, la dimension de la superficie est simple : elle n'est liée qu'à la longueur et correspond au carré d'une longueur.
+La dimension d'une grandeur dérivée est dite « composée »
+lorsqu'elle est liée à au moins deux des sept grandeurs de base.
+Par exemple, la vitesse est le rapport d'une longueur par une durée.
+Équation aux dimensions
+Léquation aux dimensions est l'équation qui relie la dimension d'une grandeur dérivée à celles des sept grandeurs de base.
+Dans une équation aux dimensions, la dimension de la grandeur dérivée est notée .
+La forme générale d'une équation aux dimensions est :
+:\rm X = L^
+\cdot M^
+\cdot
+T^ \cdot I^
+\cdot \Theta^ \cdot N^
+\cdot
+où :
+* \rm L, M, T, I, \Theta, N et \rm J sont les dimensions respectives des sept grandeurs de base ;
+*^ et ^ sont les exposants respectifs des sept grandeurs de base.
+Ces derniers sont appelés « exposants dimensionnels ».
+Un tel exposant dimensionnel est un nombre entier relatif.
+Il peut être (strictement) positif, nul ou (strictement) négatif.
+Une grandeur sans dimension, ou grandeur de dimension 1, est une grandeur pour lesquels tous les exposants dimensionnels sont nuls.
+Ainsi, la dimension d'une grandeur est la manière dont elle se compose à partir des sept dimensions de base.
+La composition peut devenir plus complexe.
+Extensions du système
+Notation des angles
+Le radian et son homologue sphérique le stéradian occupent une place à part dans les unités, ni tout à fait unité de base, ni vraiment homologue à une unité dérivée.
+Pendant longtemps, il a été qualifié d'« unité supplémentaire » ;
+la générale du Bureau international des poids et mesures a retiré cette notion.
+Le radian est à présent une .
+Le statut particulier de cette unité vient de la dimension réputée « sans dimension » de l'angle plan.
+Un angle est en effet mesuré par le rapport entre la longueur de l'arc (AB) qu'il découpe sur un cercle de rayon r et le rayon r de ce cercle.
+Ces deux mesures étant faites dans une unité de longueur, on en conclut que la dimension du radian est nulle, (et de même pour le stéradian, rapport de la surface interceptée au carré du rayon, ).
+Paradoxalement, donc, la quatrième grandeur immédiatement mesurable dans l'expérience quotidienne ne partage pas le statut privilégié des « trois unités fondamentales » : son unité est facultative, et elle n'est même pas considéré comme une grandeur effective.
+La « grandeur angulaire » est néanmoins importante pour clarifier la notation de quelques unités, ce qui justifie son emploi facultatif dans le système international d'unités.
+C'est ainsi que la vitesse angulaire se note en , et se distingue ainsi des hertz et des becquerels, a priori de même dimension .
+De même, l'accélération angulaire se note habituellement en .
+Bien que ce ne soit pas la pratique habituelle, il est également correct de noter la composante angulaire dans les grandeurs décrivant la rotation, qui peut être simplement identifiée de proche en proche à travers les équations aux dimensions :
+* le travail d'un couple est W
+= \vec C\cdot\vec\alpha, et est en .
+Le couple est donc en , se distinguant ainsi de l'unité d'énergie en ;
+* l'équation E
+\frac
+\, I
+\, \omega^2 exprime l'énergie cinétique d'un corps en rotation.
+étant en , le moment d'inertie est en ;
+* on en déduit que la grandeur conservative en rotation, le moment cinétique,
+\vec L
+\, \vec \omega, a pour dimension × = .
+Mais fondamentalement, pour l'analyse dimensionnelle, les angles ne peuvent pas être considérés comme une variable du problème, parce que leur définition classique ne leur donne pas de dimension propre.
+Par exemple, prenons un projectile dont on cherche une expression de la portée en fonction de l'angle et la vitesse du tir, et de l'attraction de la pesanteur .
+Sous cette forme, le problème a quatre variables dépendant de trois grandeurs et devrait donc être bien posé pour résoudre en fonction des trois autres, à une constante près.
+Mais l'angle étant considéré comme sans dimension, la manière dont il intervient dans un monôme ne peut être qu'arbitraire : cette « variable » s'avère inutilisable dans une approche classique, où elle ne se distingue pas d'une constante arbitraire.
+Ce problème particulier sera traité ci-dessous par projection, en distinguant les composants et de la vitesse initiale suivant deux directions, mais cette solution par projection n'est pas un traitement général, et ne résout pas réellement le problème spécifique des angles.
+Masse inertielle et masse grave
+En thermodynamique ou en mécanique des fluides, il est parfois intéressant de distinguer entre la masse en tant que mesure de l'inertie (masse inertielle), et la masse en tant que mesure de la quantité de matière (masse grave), suivant une suggestion de Huntley
+Il existe en effet deux masses pour chaque corps :
+* la masse inerte est une propriété dynamique de la matière qui se manifeste par l'inertie des corps.
+Concrètement, une masse de résiste deux fois plus à l'accélération qu'une masse de ;
+* la masse grave (du latin gravis, lourd) est une propriété statique de la matière qui se manifeste par l'attraction universelle des corps.
+Une masse de crée autour d'elle un champ de gravité deux fois plus intense qu'une masse de ;
+par ailleurs, en présence d'un même champ de gravité extérieur (celui de la Terre par exemple), la masse de subira une force (le poids) deux fois plus grande que la masse de .
+La masse grave est à la loi de la gravitation de Newton ce qu'est la charge électrique à la loi de Coulomb : elle est en quelque sorte une charge gravitationnelle.
+Bien que masse grave et masse inertielle soient conceptuellement distinctes, on constate en pratique qu'elles sont toujours proportionnelles, ce qui justifie que l'on puisse utiliser la même unité pour les deux (c'est le principe d'équivalence).
+Cependant, si utiliser la même unité de masse est une possibilité, ce n'est pas une nécessité, et il reste possible de distinguer les deux dans une équation aux dimensions : dans son analyse, Huntley montre qu'une équation physique mettant en jeu les deux types de masse doit être homogène pour chaque type de masse a proposé pour représenter le caractère vectoriel de certaines grandeurs de retenir comme grandeur à part entière des « grandeurs d'orientation » , et dans l'équation aux dimensions, le symbole représentant de son côté une grandeur scalaire sans orientation.
+Avec cette approche, la dimension projetée que propose Huntley
+devient une grandeur dérivée composée , où traduit le caractère de « longueur », et traduit le caractère d'« orientation » dans une direction particulière, donc le caractère essentiellement vectoriel de cette grandeur.
+Dans les formules dimensionnelles, les grandeurs scalaires ont alors une dimension de quelle que soit la direction de l'espace où elles sont projetés, mais les grandeurs vectorielles reçoivent une dimension d'orientation non nulle
+- dont le choix en , , est relativement arbitraire tant que ces choix se simplifient dans l'équation aux dimensions.
+La direction peut être par exemple «
+celle du problème »
+lorsqu'une seule direction est impliquée, mais devient « l'autre direction du plan »
+lorsqu'une deuxième intervient, et « la direction orthogonale aux deux autres » , en tant que de besoin.
+Cette convention conduit notamment à poser que l'écart angulaire traduit une rotation dans un espace à trois dimensions :
+:Une rotation est de dimension .
+Ce même résultat peut s'obtenir directement en remarquant qu'en coordonnées polaires , une variation élémentaire entraîne un déplacement orthogonal : étant d'orientation par rapport à la distance posée d'orientation , l'homogénéité de la formule impose que dα est d'orientation , ce qui est donc la dimension du radian.
+On peut montrer par ailleurs (à travers le développement en série de Taylor) que sin (θ), comme toute fonction impaire, a la même grandeur d'orientation que son argument ;
+et que , comme toute fonction paire, a toujours une grandeur d'orientation scalaire
+- les fonctions ni paires ni impaires ne pouvant prendre que des arguments scalaires.
+En exemple d'application, reprenons le problème de la portée d'un projectile en tenant compte de la grandeur d'orientation.
+Par rapport à la direction 1_x du point d'impact, la gravité est d'orientation , et l'angle de tir étant dans un plan sera de dimension perpendiculaire, c'est-à-dire .
+La portée est alors de la forme :
+P\propto g^a\,v^b\,\theta^c, ce qui implique que
+: \mathrm \, 1_\sim
+\left (\frac\right)^a\left (\frac\right)^b\,1_^c.
+L'homogénéité dimensionnelle impose alors correctement que et ;
+et par rapport à la grandeur d'orientation, doit alors être un entier impair (donc, peut être pris égal à l'unité).
+Une analyse complémentaire montre que la fonction recherchée en , nécessairement impaire pour des raisons d'homogénéité, est périodique de période (donc de la forme ) et s'annule pour et : donc et la fonction recherchée est .
+On a donc :
+P\propto\frac \, \sin (2 \, \theta).
+Exemples d'applications
+Principe zéro » de la physique théorique
+La puissance du pouvoir prédictif de l'analyse dimensionnelle en regard de sa simplicité a conduit Wheeler à proposer le principe général suivant :
+: «
+Ne jamais faire de calculs avant d'en connaître le résultat ».
+Cet énoncé, qui peut sembler a priori paradoxal, signifie concrètement : ne pas se lancer dans un calcul compliqué sans avoir trouvé au préalable la forme qualitative du résultat, avec l'analyse dimensionnelle.
+L'analyse dimensionnelle permet en effet de trouver la forme de la solution de certains problèmes, sans avoir à résoudre d'équations, grâce au théorème de Buckingham (parfois appelé « théorème
+Pi »).
+Ce type de calcul n'est valable
+que si un petit nombre de paramètres contrôlent la solution d'un problème (2 ou 3).
+L'analyse dimensionnelle ne permet de trouver l'équation physique qui gouverne le phénomène, qu'à une constante numérique près, sans dimension, et que cette méthode ne peut donc pas déterminer.
+Il faut faire un calcul explicite complet pour la trouver (ou une mesure expérimentale pour la déterminer).
+L'expérience montre cependant que, dans un système d'unités adapté au problème étudié, cette constante est toujours de l'ordre de grandeur de 1 (au sens où ), d'où la pertinence de l'analyse dimensionnelle pour prévoir la forme du résultat d'un calcul, ainsi que son ordre de grandeur.
+Le fait de construire des équations homogènes ne suffit cependant pas à identifier des lois physiques pertinentes.
+La célèbre équation est parfaitement homogène et invariante par changement d'unités ;
+mais cette homogénéité ne suffisait pas pour autant à la pressentir.
+Deux exemples célèbres sont le calcul de la puissance de la première bombe atomique et le modèle de Kolmogorov de la turbulence homogène isotrope, qui a influencé grandement toute la mécanique des fluides.
+Lois de la chute des corps
+Galilée avait initialement supposé (à tort) que dans la mesure où la force de gravité exercée sur un corps (son poids) dépend de sa masse, la loi gouvernant la chute des corps, c'est-à-dire la hauteur h fonction du temps t et de la gravité g, pouvait également dépendre de la masse m de ce corps.
+On aurait dans ce cas :
+h=f (g,m,t)
+La hauteur h a évidemment pour dimension \scriptstyle
+L, la masse m est en \scriptstyle M, et t a pour dimension \scriptstyle T ;
+et l'analyse dimensionnelle donne pour g la dimension \scriptstyle
+LT^. La seule combinaison donnant une grandeur sans dimension
+est alors :
+\frac=Cte
+Une fonction de la masse ne peut pas être rendue sans dimension au moyen des variables g, t et h, ce qui montre que l'idée de faire dépendre cette loi de la masse est physiquement incorrecte.
+En réalité, la masse n'intervient dans la description de la trajectoire que lorsque la résistance de l'air est prise en compte, parce que la viscosité de l'air importe alors la dimension d'une masse.
+Galilée ne disposait pas du calcul différentiel, et supposait que la vitesse v (dont la dimension est \scriptstyle LT^) était proportionnelle à la hauteur de chute h, c'est-à-dire que
+v \sim h.
+S'il avait pu avoir recours à l'analyse dimensionnelle, il aurait pu voir que la seule grandeur sans dimension qui peut être obtenue à partir de v, h et g est :
+\frac=Cte
+Il ne peut donc pas y avoir de dépendance linéaire entre h et v, ce qui peut donc être déterminé sans calcul différentiel.
+Fréquence d'un système masse
+ressort
+On cherche à déterminer la période t d'oscillation du système masse-ressort en fonction de la raideur k du ressort et du poids p qui y est suspendu.
+Ces trois grandeurs physiques ont respectivement pour dimension :
+On voit que sous cette forme le problème est insoluble : le poids est la seule grandeur physique ayant une composante en longueur, donc ne peut pas intervenir dans un facteur sans dimension ; et la raideur est alors la seule grandeur ayant une composante en masse, donc ne peut pas intervenir non plus.
+Décomposant le poids en produit de la masse par l'accélération de la pesanteur, on cherche alors à déterminer cette période d'oscillation T d'une masse m attachée à un ressort idéal de raideur k dans un champ gravitationnel g. Ces quatre grandeurs physiques ont respectivement pour dimension :
+À partir de ces quatre grandeurs il n'est possible de former qu'un seul composé sans dimension : \scriptstyle \pi_1 = k/ (m.T^2).
+Aucune combinaison ne comporte de facteur g, parce qu'ici c'est le seul qui ait une composante en longueur.
+De fait, l'analyse dimensionnelle peut imposer de fortes contraintes sur la pertinence d'une grandeur physique dans la solution d'un problème, ou sur la nécessité de faire intervenir des paramètres complémentaires.
+Ici il y a suffisamment de variables pour donner une description correcte du problème, et la conclusion est qu'en réalité la période des oscillations d'une masse accrochée à un ressort ne dépend pas de la gravitation g : elle serait la même à la surface de la Terre ou sur la Lune.
+Le facteur sans dimension qui a été trouvé est a priori une « petite constante », et l'équation peut se réécrire sous la forme équivalente :
+T=\pi_2.\sqrt
+L'analyse dimensionnelle ne peut pas déterminer seule la constante \pi_2.
+On trouve par d'autres moyens que \pi_2=2\pi
+Pulsation
+synchrotron
+Considérons un point matériel de masse m et de charge électrique q soumis à un champ magnétique uniforme \vec.
+Le point matériel animé d'une vitesse \vec est soumis à la force de Lorentz :
+\vec = q \vec \wedge
+\vec
+Lorsque \vec \perp \vec, le point matériel décrit un cercle dans le plan perpendiculaire au champ magnétique à vitesse angulaire ω constante.
+Cette vitesse angulaire doit dépendre des paramètres m, q et \vec du problème.
+On peut chercher s'il existe une relation simple, comme un produit, entre ces paramètres :
+\omega = k m^ q^\beta B^\gamma
+où k, α, β et γ sont des constantes inconnues, et des nombres sans dimension.
+Les équations aux dimensions permettent de déterminer ces nombres.
+En effet, on a :
+:\rm \left F \right
+M\cdot L\cdot T^
+\left q\cdot v \cdot B \right = Q\cdot L\cdot
+\leftB \right
+d'où l'équation aux dimensions d'un champ magnétique :
+:\rm \left B \right = M\cdot T^\cdot Q^
+On en déduit l'équation aux dimensions de ω :
+:\left\omega \right
+\leftk \;
+m^ \;
+q^ \;B^ \right
+\rm M^ \;
+Q^ \;
+\left B\ \right^ = M^ \;
+Q^ \;
+Par ailleurs, la vitesse angulaire ω est le rapport d'un angle divisé par un temps T0 (la période de rotation) :
+\omega = \frac
+Un angle étant sans dimensions, il vient :
+\rm \left\omega \right
+M^\cdot
+Q^\cdot
+On en déduit
+que : γ
+1 ;
+α+γ
+0 →
+-1 ;
+et β-γ
+0 → β = 1.
+D'où la forme de ω :
+\omega = k\cdot \frac
+On appelle « pulsation cyclotron » la grandeur :
+\omega_c = \frac
+Pour cet exemple précis, la résolution de l'équation de la dynamique de Newton montre que k = 1 exactement.
+Par ailleurs, B est la seule grandeur physique de ce monôme à avoir un caractère d'orientation (c'est un pseudovecteur).
+La relation peut donc s'écrire sous forme vectorielle :
+:\overset\hookrightarrow \omega_c = \cdot\overset\hookrightarrow B
+Energie d'une bombe atomique
+La légende voudrait que l'analyse dimensionnelle ait permis à Geoffrey Ingram Taylor d'estimer en 1950 l'énergie qu'avait dégagée l'explosion d'une bombe atomique, alors que cette information était classée top secret.
+Il lui a suffi pour cela d'observer sur un film d'explosion que les militaires américains avaient imprudemment rendu public la dilatation du champignon atomique.
+L'énergie s'en déduisait suivant la loi expérimentale de proportionnalité.
+La légende est la suivante : En 1949, après la déclassification des images d'une explosion nucléaire au Nouveau Mexique, le physicien Taylor analyse
+les photographies à la lumière de ses travaux passés et en déduit la puissance de la bombe
+Taylor suppose a priori que le processus d'expansion de la sphère de gaz dépend au minimum des paramètres suivants :
+L'analyse dimensionnelle le conduit alors pour le rayon de la sphère de gaz à l'instant t à l'équation :
+r = k \;
+E^ \;
+\rho^ \;
+où k est une constante sans dimensions.
+Taylor retrouve donc bien la loi expérimentale de dilatation du champignon
+r (t) \propto t^,
+ce qui semble valider son choix de paramètres.
+Il détermine alors r et t à partir du film, et, k étant supposée de l'ordre de l'unité et ρ étant connue, il obtient finalement :
+E \sim \frac
+En réalité, G. I. Taylor n'a pas utilisé ce raisonnement simpliste.
+Dans sa première publication, longue de 15 pages, G. I. Taylor utilise l'analyse dimensionnelle pour simplifier les équations différentielles qui décrivent l'écoulement.
+Après de longs et difficiles calculs, il obtient finalement la formule très simple suivante :
+r = k (\gamma) \;
+E^ \;
+\rho^ \;
+où intervient la grandeur numérique k (\gamma) qui dépend de la constante \gamma qui vaut 1,4 à température ambiante, mais qui diminue à haute température.
+Taylor s'étonne ainsi dans son second article du très bon accord entre la formule et les valeurs mesurées sur les photos et précise qu'il s'attendait à un moins bon accord.
+Ce n'est donc qua posteriori, grâce aux lourds calculs de Taylor et à la constatation expérimentale que la température n'intervient pas, que l'on peut retrouver très élégamment l'expression du rayon du champignon nucléaire en fonction du temps et de l'énergie de la bombe.
+Geoffrey Ingram Taylor et John von
+Neumann ont publié cette solution élégante indépendamment durant la seconde guerre mondiale, ainsi que trois autres après la guerre, L. I. Sedov, R. Latter, et J. Lockwood-Taylor.
+L'expression de l'énergie dans l'exemple ci-dessus (bombe nucléaire) peut être obtenue de manière plus générale sans faire référence à l'expansion d'une sphère de gaz.
+Puisqu'il s'agit de retrouver rapidement le monôme qui intervient dans la relation E = f (\rho,r, t), n'importe quelle méthode convient :
+Par exemple
+, E
+mc^2 \Rightarrow E
+\rm M\cdot L^2\cdot T^
+et \rho
+\frac
+m V \Rightarrow \rho
+\rm M\cdot L^ donc \frac = \rm L^5\cdot T^, d'où E \sim \frac
+Méthode généralisable: on cherche (a,b,c)\in \mathbb^3 tels que E
+\rho ^a r^b t^c avec E
+ML^T^ , \rho
+ML^ ,r
+L et t
+=T (voir tableau en dessous)
+\rho ^a r^b
+t^c \Rightarrow E
+\rho^a \times r^b
+\times
+t^c \Leftrightarrow M^L^T^
+M^L^T^ \Leftrightarrow (a,b,c)
+\Rightarrow E =
+\rho
+r^5 t^
+Vitesse de sédimentation
+Une manière de faire l'analyse granulométrique d'un sédiment fin est de le mettre en suspension homogène, puis de mesurer la hauteur sédimentée en fonction du temps.
+Cette méthode suppose que l'on connaisse la vitesse de sédimentation v d'une particule en fonction de son diamètre d. De toute évidence, cette vitesse de sédimentation dépend également de l'accélération de la pesanteur g, de la viscosité \mu du liquide, et de la densité relative \rho, différence de densité entre le sédiment et le liquide.
+Comme il y a ici cinq paramètres pour seulement trois dimensions fondamentales, il n'est a priori possible que de déterminer une dépendance partielle entre les paramètres.
+Il est cependant possible.
+On cite généralement les mathématiciens Leonard Euler et Joseph Fourier et le physicien Rayleigh comme y ayant fait d'importantes contributions,
+en partant de l'idée que des lois physiques comme \vec
+m \
+, \vec ne devraient pas dépendre des unités employées pour mesurer les grandeurs physiques qui apparaissent dans la formule.
+Cette exigence amène à la conclusion qu'une loi physique doit former une équation « homogène » entre ces différentes unités ;
+résultat finalement formalisé avec le théorème de Vaschy-Buckingham.
+Mais la première application d'une analyse dimensionnelle semble être due au mathématicien savoyard François Daviet de Foncenex (1734-1799), dans un ouvrage publié en 1761, soit 61 ans avant les travaux de Fourier.
+De même, en écrivant la loi de Coulomb dans une forme où la constante est posée égale à l'unité, Maxwell détermina que la dimension de l'unité électrostatique devait être , et compte tenu de ce que par ailleurs il considérait la masse comme une grandeur dérivée , la charge électrique avait alors la même dimension qu'une masse, c'est-à-dire .
+L'analyse dimensionnelle permet aussi de déduire la forme que doit avoir la relation entre les quantité physiques qui interviennent dans un phénomène que l'on cherche à comprendre et à caractériser.
+Rayleigh semble l'avoir utilisée dans ce sens le premier, en 1872, en cherchant à expliquer pourquoi le ciel est bleu.
+Rayleigh publia sa méthode en 1877, dans son livre sur la théorie du son.
+C'est dans son ouvrage Théorie de la Chaleur que Joseph Fourier introduit la « dimension », qu'à l'origine il assimile aux valeurs numériques que prennent les exposants des unités de base.
+Pour lui, par exemple, l'accélération est donc de dimension 1 par rapport à l'unité de longueur, et de dimension -2 par rapport à l'unité de temps.
+Pour Maxwell, la « dimension » de l'accélération est toute l'expression , et non la série des exposants ;
+c'est cette terminologie qui est utilisée aujourd'hui.
+Modélisations
+Dès la fin du et le début du siècle, avec l'étude plus approfondie des propriétés des fluides et des corps en mouvement dans les fluides, des physiciens comme Ludwig Prandtl, Theodore von Karman, Albert Shields, Johann Nikuradse et Rayleigh ont utilisé l'analyse dimensionnelle pour reproduire en laboratoire et dans des conditions contrôlables le comportement de phénomènes physiques, mais avec des vitesses ou des densités différentes, en se fondant sur les lois de similitude applicables à des maquettes d'échelles différentes.
+Ce principe de similitude, qui permet d'étudier des phénomènes physiques à des échelles différentes, est la base de la théorie de la similitude, aussi appelée théorie du modèle.
+L'analyse dimensionnelle est en effet sous-jacente à la modélisation et la similitude.
+Le théorème de Vaschy-Buckingham montre que pour toute formule physique où interviennent
+variables dimensionnelles
+indépendantes, dépendant de unités fondamentales
+, la formule peut se transformer en une formule équivalente dépendant de n-k variables sans dimension se déduisant des variables initiales.
+Cette transformation permet d'appliquer la même loi, et donc de reproduire le même phénomène, à des échelles différentes, du moment que ces nombres sans dimension sont identiques dans les deux cas.
+Dans un cas particulier important, lorsque , il n'y a pas de variable libre sans dimension, et le théorème implique que l'expression sans dimension que les variables peuvent former est constante pour le phénomène considéré.
+Inversement, dans l'étude d'un phénomène physique, il n'est nécessaire d'étudier le comportement du système que lorsque ces variables sans dimension varient, le reste s'en déduisant par proportionnalité.
+Une analyse dimensionnelle permet alors de dégager les variables pertinentes pour l'étude du phénomène considéré, ce qui demande un bon sens de la réalité physique, mais permet ensuite de limiter le plan d'expérimentation à ces seules dimensions.
+Tous les graphiques de résultats
+où les axes sont des nombres sans dimension découlent d'une analyse dimensionnelle.

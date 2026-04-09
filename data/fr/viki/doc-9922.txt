@@ -1,0 +1,66 @@
+Codage de l'information
+Sommaire
+Dans le cas du texte et pour les applications informatiques, plusieurs codes peuvent être utilisés.
+Le premier IBM PC avait un moniteur monochrome qui n'affichait que du vert
+Les images sur les écrans des premiers ordinateurs étaient composés de pixelsmonochromes : des points lumineux (en fait de très petits carrés) qui pouvaient être soit allumés (en vert ou en orange par exemple), soit éteints.
+Le codage de telles images était plutôt simple : pour représenter un pixel allumé, on utilisait un 1, et pour un pixel éteint, c'était un 0.
+Les images noir et blanc de type fax (sans nuances de gris) sont toujours codées ainsi.
+Elles occupent très peu de place et leur acheminement sur un réseau est très rapide.
+Exemple : une image de 800 pixels de large et 600 pixels de hauteur (on dit aussi une taille de 800x600) codée en 1 bit (c'est-à-dire monochrome) a une taille de 800 × 600 = 480 000 bits = 60 000 octets = 60 ko
+Quand on n'avait que des images monochromes, un bit suffisait pour les 2 couleurs (noir et blanc par exemple).
+Mais une fois les ordinateurs capables d'afficher des couleurs, il a fallu coder les pixels sur plusieurs bits.
+L'une des premières normes d'affichage, la norme CGA, permettait d'afficher des pixels dans une palette de 4 couleurs différentes (prises parmi les 16 disponibles).
+Pour cela, il fallait que chaque pixel soit codé par 2 bits.
+Par exemple :
+Ensuite, le nombre de couleurs qu'on pouvait représenter à la fois a continué à augmenter.
+On peut à présent avoir des images de 16 couleurs.
+Et puisque 16 = 24 il suffit pour cela de coder chaque pixel par une suite de 4 bits.
+Voici un exemple de palette courante :
+décimal
+binaire
+Couleur
+décimal
+binaire
+Couleur
+noir
+gris
+foncé
+bleu
+bleu clair
+vert
+vert clair
+cyan
+cyan clair
+rouge
+rouge clair
+magenta
+magenta clair
+marron
+jaune
+gris
+blanc
+Remarque :
+La palette utilisée peut être optimisée pour obtenir des images plus belles.
+Par exemple, si c'est une photo avec la mer et le ciel d'été, il est possible de ne pas utiliser certaines couleurs (rouge, marron, magenta...) et les remplacer par des nuances de bleu.
+Les logiciels de traitement d'image permettent ces optimisations.
+Et on peut continuer ainsi pour découvrir des images de plus en plus belles grâce à leur grand nombre de couleurs : avec 8 bits par pixels, on obtient 256 couleurs (car 28 = 256) ;
+avec 15 bits, 32 768 couleurs ;
+avec 16 bits, 65 536 couleurs ; avec 24 bits, 16 777 216 couleurs ;
+avec 32 bits, 4 294 967 296.
+À partir de 24 bits, on parle d'ailleurs d'affichage en vraies couleurs tant le réalisme est parfait.
+Mais attention
+Émerveillés par tant de couleurs, on peut oublier que plus le nombre de bits pour coder un pixel est grand, plus la taille en mémoire de l'image le sera : en 32 bits, un pixel a besoin de 4 octets pour être codé...
+Voici donc quelques exemples :
+Une image de 800x600 en 16 couleurs (4 bits) fait 800 × 600 × 4 = 1 920 000 bits = 240 000 octets = 240 ko
+Une image de 800x600 en 256 couleurs (8 bits) fait 800 × 600 × 8 = 3 840 000 bits = 480 000 octets = 480 ko
+Une image de 800x600 en 16 777 216 couleurs (24 bits) fait 800 × 600 × 24 = 11 520 000 bits = 1 440 000 octets = 1,44 Mo
+Avec un affichage réglé à 1280x1024 et 32 bits (ce qui est courant pour un simple moniteur 17" actuel), l'image du papier-peint (fond d'écran) du bureau aura une taille de plus de 5 Mo.
+Remarque :
+On peut faire l'expérience en observant les tailles d'images que l'on pourra créer avec un logiciel de traitement d'images comme GIMP.
+Mais il faut l'enregistrer dans un format simple comme BMP.
+La plupart des formats récents utilisent des techniques de compression pour réduire la taille du fichier obtenu (à moins de 10 fois sa taille d'origine souvent).
+La taille que fait un fichier son dépend également de la façon dont ce son est codé.
+Il existe principalement deux types de sons : les musiques synthétisées (de type MIDI), et les sons échantillonnés (de type WAV).
+Les premières sont celles que l'on obtient avec un synthétiseur et sont générées par l'ordinateur à partir des notes qui composent cette musique.
+La taille de ces fichiers est relativement très petite ;
+Les sons échantillonnés sont employés pour reproduire le plus fidèlement possible des sons enregistrés (bruits, voix, musiques...).

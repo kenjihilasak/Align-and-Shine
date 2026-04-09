@@ -1,0 +1,116 @@
+In fisica, la velocità (dal latino vēlōcitās, a sua volta derivato da vēlōx, cioè ‘veloce’) è una grandezza definita come il tasso di cambiamento della posizione di un corpo in funzione del tempo, ossia, in termini matematici, come la derivata del vettore posizione rispetto al tempo.
+Quando non specificato, per "velocità" si intende la velocità istantanea, termine utilizzato per sottolineare che la velocità è definita istante per istante e dipende dal tempo.
+Ha le dimensioni di uno spazio diviso un tempo, quindi nel Sistema internazionale di unità di misura (SI) si misura in metri al secondo.
+Talvolta, per analogia con la lingua inglese, si usa il termine rapidità per indicare la velocità in valore assoluto, indipendentemente dalla sua posizione (ovvero il modulo del vettore velocità).
+In inglese si indica infatti con speed la rapidità e con velocity la velocità in senso vettoriale.
+La variazione della velocità (sia in aumento che in diminuzione) è l'accelerazione.
+Nel linguaggio comune a volte si parla di "decelerazione" quando la velocità diminuisce.
+Velocità media e istantanea
+La velocità è un vettore che indica la rapidità del moto (modulo), la direzione e il verso di un corpo in movimento.
+È quindi una grandezza vettoriale che si riduce ad una grandezza scalare soltanto in casi particolari (come ad esempio nel moto rettilineo uniforme, in cui il vettore ha una sola componente diversa da zero).
+Si definisce velocità media \bar\mathbf il rapporto tra lo spostamento \Delta\mathbf
+\mathbf-\mathbf e la durata
+dell'intervallo di tempo impiegato a percorrerlo:
+\bar\mathbf
+\frac
+\frac
+dove \mathbf e \mathbf sono i vettori posizione agli istanti iniziale t_1 e finale t_2.
+La velocità media può essere vista come la pendenza della retta che congiunge i punti iniziale e finale del grafico posizione-tempo in cui si rappresenta il moto di cui è calcolata la media.
+Si definisce velocità istantanea \mathbf il limite della velocità media per intervalli di tempo molto brevi, ovvero la derivata della posizione rispetto al tempo:
+\frac
+\frac\left (\sqrt \right)=\sqrt
+ed il vettore velocità ha la direzione del moto:
+\mathbf v = v \mathbf
+\hat \mathbf T
+con \hat \mathbf T il vettore unitario tangente alla curva.
+Velocità in due dimensioni
+Utilizzando uno spazio bidimensionale, la velocità media e quella istantanea si possono scomporre nel seguente modo:
+\bar\mathbf
+\frac\hat\mathbf + \frac\hat\mathbf \qquad \mathbf
+\frac\hat\mathbf + \frac\hat\mathbf = v_x \hat\mathbf + v_y \hat\mathbf
+dove \hat\mathbf e \hat\mathbf sono due versori in direzione degli assi x e y. Il modulo del vettore velocità è a sua volta scomponibile nei suoi componenti:
+\bar\mathbf|
+\sqrt \qquad
+\mathbf|
+\sqrt
+mentre l'angolo \alpha formato dal vettore \mathbf v con l'asse delle ascisse è dato da:
+\tan \alpha
+\frac \qquad
+v_x
+| \mathbf| \cos \alpha \qquad v_y =
+| \mathbf| \sin \alpha
+Se si considera il vettore posizione \mathbf, con d \mathbf = (dr,rd\theta), la velocità \mathbf si può scomporre in direzione perpendicolare e parallela alla posizione:
+\mathbf
+v_r \hat\mathbf + v_\theta \hat\mathbf_\perp
+\frac \hat\mathbf + \frac\hat\mathbf_\perp
+dove v_r
+\mathrm dr \mathrm dt è il modulo della velocità ortogonale a \mathbf r.
+La norma del vettore è pertanto:
+\frac
+\frac\left (\sqrt \right)=\sqrt
+e la direzione è sempre tangente alla curva percorsa.
+Velocità scalare
+La velocità scalare media è una grandezza scalare definita come lo spazio totale percorso diviso il tempo impiegato, e tale definizione è molto diversa da quella per la velocità vettoriale media.
+Per esempio, nel moto circolare (il moto che avviene lungo una circonferenza) dopo un periodo T la velocità vettoriale media è nulla, perché il punto di arrivo e quello di partenza coincidono, ovvero \Delta\mathbf r=0, mentre la velocità scalare media è uguale a 2\pi R / T, con R il raggio della circonferenza.
+Data una traiettoria curva \gamma, la velocità scalare media è definita come:
+\langle v_s \rangle
+\frac\int_\gamma\,\mathrm \mathbf r
+\frac\int_^ \| \mathbf v (t) \| \mathrmt
+dove l'integrale è la lunghezza della curva che descrive la traiettoria.
+La velocità scalare non è quindi semplicemente la norma della velocità vettoriale media, e si può dimostrare che la prima è sempre maggiore o uguale della seconda.
+unidimensionale.
+Per studiare dal punto di vista geometrico la velocità è comodo ricorrere a due tipi di grafici:
+quello spazio-tempo e quello velocità-tempo.
+Il grafico dello spostamento presenta concavità verso il basso:
+questo corrisponde al fatto che il grafico della velocità è decrescente.
+Al tempo t1 il grafico di x (t) ha pendenza positiva, per cui v (t1) è maggiore di zero.
+Al tempo t2 il grafico di x (t) ha pendenza nulla, per cui v (t2) è nulla.
+Al tempo t3 il grafico di x (t) ha pendenza negativa, per cui v (t3) è minore di zero.
+Caduta nel campo gravitazionale
+In caso di caduta di un oggetto immerso in un campo gravitazionale, la velocità finale dell'oggetto può essere determinata utilizzando la conservazione dell'energia, ottenendo così una semplice espressione:
+v = \sqrt
+dove h è la differenza di quota tra il punto di caduta e quello in cui l'oggetto si ferma.
+In quest'ultimo caso si parla di velocità di impatto.
+Velocità terminale di caduta
+Per velocità terminale di caduta (o velocità limite) si intende la velocità massima che raggiunge un corpo in caduta.
+Cadendo attraverso un fluido infatti il corpo incontra una crescente resistenza all'aumentare della velocità e quando l'attrito eguaglia la forza di attrazione gravitazionale la velocità si stabilizza.
+Velocità limite
+Il fatto, implicito nelle equazioni di Maxwell per la propagazione delle onde elettromagnetiche e verificato sperimentalmente agli inizi del Novecento, che la velocità di un fotone (o di un'onda elettromagnetica) nel vuoto è identica per tutti i sistemi di riferimento (e pari a 299792458 m/s) ha portato alla necessità di modificare le equazioni del moto e della dinamica.
+Una delle conseguenze di queste modifiche è che la velocità massima raggiungibile al limite da un qualunque oggetto fisico è quella della luce nel vuoto.
+Da non confondere con la velocità terminale di caduta, a volte detta anche velocità limite.
+Composizione delle velocità
+Considerando ad esempio una barca che si muove con una velocità v rispetto all'acqua di un canale, che a sua volta si muove con una velocità V rispetto alla riva, si prenda un osservatore O solidale con la riva e un osservatore O' solidale con la barca.
+Si ha che:
+v = v_ + V
+Quindi, per l'osservatore fisso le velocità della corrente e della barca si compongono sommandosi quando la barca va nel verso della corrente e sottraendosi quando va controcorrente.
+Va sottolineato che O' con i suoi strumenti misura sempre la velocità v della barca rispetto all'acqua, e può anche misurare la velocità con la quale l'acqua scorre davanti O. Questo misura anch'esso la velocità con la quale si muove l'acqua e, a differenza di O', misura pure la velocità di O' rispetto alla sponda del canale.
+Una situazione del tutto analoga si verifica pure quando la barca si muove trasversalmente alla corrente.
+Questo tipo di composizione delle velocità, introdotta da Galilei nella teoria della relatività galileiana, era già nota a Leonardo da Vinci che fa l'esempio di un arciere che lancia una freccia dal centro della Terra verso la superficie.
+L'esempio è ripreso in maniera più formale da Galilei:
+qui un osservatore esterno alla Terra vede comporsi il moto rettilineo della freccia lungo un raggio e il moto rotatorio della Terra.
+Il moto risultante è una spirale di Archimede.
+La freccia si muove con il moto rettilineo uniforme, e lo spazio percorso risulta allora:
+s = v t
+Le proiezioni di s sui due assi è quindi:
+v t \cos (\omega t) \qquad
+v t \, \mathrm (\omega t)
+Composizione delle velocità in relatività speciale
+Nella teoria della relatività speciale, passando da un sistema di riferimento S a un sistema di riferimento S',
+la velocità di una particella si trasforma nel modo seguente:
+v'_x=\frac \qquad
+v'_y=\frac \qquad
+v'_z=\frac
+dove V è la velocità (diretta lungo l'asse x) del sistema S' rispetto al sistema di riferimento S, e \gamma=\gamma (V) è il fattore di Lorentz.
+Ricavare la posizione dalla velocità
+Tramite l'integrazione è possibile conoscere la variazione della posizione ricavandola dalla velocità.
+La definizione scalare di velocità è data da:
+\vec (t) = \frac
+Si può effettuare una separazione delle variabili portando a primo membro r (t) e al secondo membro il resto dell'equazione:
+\operatorname d \vec (t) = \vec (t) \operatorname d t
+in modo che sia possibile integrare entrambi i membri:
+\int_^ \operatorname d \vec (t) = \int_^ \vec (t) \operatorname d t
+e determinare così la variazione di \vec (t).
+Se ad esempio la velocità è costante e pari a \vec, l'integrale si riduce alla legge del moto rettilineo uniforme:
+\vec (t_2) - \vec (t_1) = \vec (t_2 - t_1).
+Note
+Bibliografia

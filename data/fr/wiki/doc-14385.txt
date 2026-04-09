@@ -1,0 +1,89 @@
+Chimie analytique
+En chimie analytique, le dosage est l'action qui consiste à déterminer la quantité de matière, la fraction,
+ou la concentration d'une substance précise (l'analyte)
+présente dans une autre ou dans un mélange (la matrice).
+Classification des méthodes de dosage
+Il existe trois familles de dosages :
+** méthodes spectrophotométriques : détermination de la quantité d'analyte par mesure de l'absorbance de la lumière à une longueur d'onde donnée par celui-ci (dans l'UV, le visible ou l'IR)
+** méthodes de physique nucléaire :
+activation neutronique ;
+* méthodes chimiques de dosage ou titrages : ces méthodes font intervenir une réaction chimique de l'analyte.
+L'analyte à titrer est mélangé avec une espèce chimique, dite réactif titrant introduite en quantité connue.
+La stœchiométrie de la réaction mise en jeu entre l'analyte et le réactif titrant doit être connue et unique.
+Exemples de méthodes de dosage
+Dosages gravimétriques
+Un dosage gravimétrique consiste à déterminer la quantité d'analyte par pesée.
+Dosages qui ne sont pas des titrages
+* Dosage de l'eau par perte de poids à la dessiccation
+* Dosage des cendres après calcination (dans ce cas ce qui est dosé n'est pas une espèce chimique, mais un mélange)
+** par spectroscopie (
+UV, visible, IR
+, RMN principalement)
+Dosages qui sont des titrages
+** dosage de l'argent sous forme de chlorure d'argent ;
+** dosage acido-basique (par pH-métrie ou colorimétrie)
+** dosage rédox (par potentiométrie ou par colorimétrie) ;
+** dosage complexométrique (par exemple avec l'EDTA).
+Les dosages sont également catégorisés par la grandeur mesurée :
+Dosages titrimétriques
+Un dosage titrimétrique consiste à consommer la totalité du réactif (le titrant) nécessaire à la transformation quantitative de la totalité du constituant à doser (l'analyte).
+Par exemple, dosage d'une solution d'acide chlorhydrique H+ ;
+Cl−, de concentration inconnue, à l'aide d'une solution titrée (c'est-à-dire de composition connue) d'hydroxyde de sodium (appelé plus communément « soude caustique ») Na+ ;
+HO−.
+Certains dosages titrimétriques mettent en jeu l'analyte au moment de la détermination de l'équivalence.
+Ce sont les titrages directs.
+Dans d'autres, l'analyte a réagi dans une première réaction chimique et l'équivalence est déterminée avec une autre réaction chimique.
+Ce sont les titrages indirects (par exemple les dosages en retour).
+Dosage en retour
+Le dosage en retour est une méthode de détermination indirecte de la quantité de matière à doser.
+On fait réagir la substance à doser avec une quantité \rm Q_T connue et en excès de réactif titrant puis on neutralise l'excès de réactif titrant avec un autre réactif.
+Connaissant la quantité totale \rm Q_T de réactif titrant et la quantité \rm Q_2 qui a été neutralisée par le deuxième réactif, on en déduit par simple soustraction la quantité \rm Q_1 qui a servi à neutraliser la matière à doser et par conséquent la quantité de matière à doser.
+Par exemple, lorsqu'on veut déterminer l'indice de saponification I d'un corps gras, on fait réagir cette matière avec une base forte qui est généralement l'hydroxyde de potassium (aussi appelé « potasse caustique »).
+Cette réaction est assez lente et doit être réalisée à chaud.
+Aussi préfère-t-on mettre un excès de potasse dans la solution, laisser agir les deux matières pendant une heure au moins pour que la réaction soit complète.
+On détermine ensuite, grâce à une solution titrée d'acide chlorhydrique, la masse de potasse qui n'avait pas réagi avec le corps gras.
+La masse de potasse qui a réagi avec le corps gras est calculée, ce qui donne I.
+Cette technique est précieuse quand la réaction entre l'analyte et le titrant n'est pas instantanée.
+C'est le cas de la saponification précédente.
+Il faut que la réaction en retour, elle, soit rapide.
+Dosages électrochimiques
+Montage à deux électrodes dont une référence
+On mesure le potentiel d'une électrode de mesure par rapport à une électrode de référence.
+Exemples de référence :
+* électrode au calomel saturée ;
+les potentiels repérés à partir de cette électrode sont notés en volts ECS ;
+* électrode standard
+à hydrogène, les potentiels repérés à partir de cette électrode sont notés en volts ESH ;
+* tout couple rédox dont le potentiel est stable dans les conditions d'utilisation peut servir d'électrode de référence ;
+une telle électrode doit cependant être reliée à la solution étudiée par un pont ionique.
+Exemples d'électrode de mesure :
+* les métaux pour doser leurs ions métalliques (électrode en argent pour doser les ions argent)
+* électrode de verre
+pour les dosages acido-basiques
+Montage
+à deux électrodes indicatrices
+Montage à trois électrodes
+On utilise pour ce montage :
+* une électrode de travail (électrode tournante ;
+celle que l'on veut étudier) ;
+* une électrode de référence : généralement, on utilise celle au calomel (ECS) car l'électrode à hydrogène (ESH) est peu commode à mettre en œuvre.
+Remarque : E = ;
+* une électrode auxiliaire : souvent on utilise l’électrode de platine ou en carbone, éventuellement une électrode en inox.
+L'important est qu'elle ne soit pas attaquée dans le milieu d'utilisation.
+Le montage à trois électrodes permet de tracer la courbe de l'intensité en fonction du potentiel :
+Pour cela, on utilise expérimentalement un voltammogramme en réglant la vitesse de rotation dans le cas d'une électrode tournante (en tr/min), le potentiel initial (exprimé en mV) et le potentiel final (en mV).
+La hauteur de la vague de la courbe est proportionnelle à la concentration de l'espèce chimique réduite .
+Autres techniques
+* Détection couplée à un chromatographe en phase gazeuse ;
+la grandeur mesurée est alors l'intégration du signal donnée par le dispositif de détection en sortie de colonne ;
+ces techniques nécessitent un étalonnage préalable :
+** catharomètre (détecteur par conductibilité thermique) : mesure de la variation de la conductibilité thermique du gaz vecteur ;
+** FID : détecteur à ionisation de flamme.
+Après séparation par la colonne de chromatographie, les substances arrivent une à une dans une flamme d'hydrogène/oxygène (air).
+En brûlant, elles sont transformées en ions qui, en passant entre deux électrodes polarisées, créent un courant électrique.
+La mesure de ce dernier permet de doser les substances ;
+** ECD : détecteur à capture d'électrons.
+Après séparation par la colonne de chromatographie, les substances arrivent une à une dans le détecteur où se trouve une source ionisante (rayons β).
+Les ions formés sont capturés par des électrodes et le courant ainsi formé est mesuré.
+Voir aussi
+oafldlnv44abmvbg48jujbalyw8i0b7

@@ -1,0 +1,165 @@
+Moyenne
+En mathématiques, la moyenne est un outil de calcul permettant de résumer une liste de valeurs numériques en un seul nombre réel, indépendamment de l’ordre dans lequel la liste est donnée.
+Par défaut, il s’agit de la moyenne arithmétique, qui se calcule comme la somme des termes de la liste, divisée par le nombre de termes.
+D’autres moyennes peuvent être plus adaptées selon les contextes.
+La moyenne est un des premiers indicateurs statistiques pour une série de nombres.
+Lorsque ces nombres représentent une quantité partagée entre des individus, la moyenne exprime la valeur qu’aurait chacun si le partage était équitable.
+La notion de moyenne s’étend aux fonctions avec la valeur moyenne, en géométrie classique avec le barycentre et en théorie des probabilités avec l’espérance d’une variable aléatoire.
+Moyenne de deux valeurs
+Valeur
+intermédiaire
+La notion de moyenne est historiquement reliée à celle de valeur intermédiaire, appelée aussi médiété.
+Étant donné deux nombres et , comment choisir une valeur pour que soit à ce que soit à ?
+La réponse diffère selon l’opération choisie pour aller d’un nombre à l’autre.
+Par exemple
+pour aller de 2 à 18, on peut ajouter deux fois 8, avec une étape en 10, ou multiplier deux fois par 3, avec une étape en 6
+Le premier cas décrit une moyenne arithmétique, qui s’obtient par la fraction \frac.
+Le second cas est une moyenne géométrique, qui s’obtient avec la racine carrée \sqrt.
+Les identités remarquables usuelles permettent de montrer rapidement que la moyenne géométrique de deux nombres positifs est toujours inférieure à leur moyenne arithmétique.
+Moyenne pondérée
+La recherche d’une position moyenne peut s’accommoder d’un déséquilibre entre les données initiales.
+Par exemple, on peut souhaiter que la moyenne soit trois fois plus proche de la première valeur que de la deuxième.
+Entre 7 et 19, le nombre 10 est bien trois fois plus proche de 7 que de 19 .
+On dit alors que 10 est la moyenne pondérée des nombres 7 et 19 avec les coefficients 3 et 1.
+On le trouve en calculant la somme pondérée que l’on divise par la somme des coefficients \frac
+\frac
+Partage équitable
+Une autre manière de définir ces moyennes est de cumuler les nombres choisis puis de chercher comment on peut obtenir le même résultat en cumulant deux fois la même valeur.
+Tout dépend alors de la procédure de cumul.
+Avec une addition, on trouve 2+18
+20, qu’on aurait pu obtenir en posant 10+10
+Avec une multiplication, on trouve 2×18
+, qu’on aurait pu obtenir avec 6×6
+D’autres procédures de cumul sur deux nombres et permettent de définir la moyenne harmonique \frac et la moyenne quadratique \sqrt.
+Cette approche permet de définir les moyennes pour des listes de plus de deux nombres.
+Moyenne arithmético-géométrique
+À partir de deux nombres et , la moyenne arithmétique et la moyenne géométrique fournissant deux nouveaux nombres,
+et l’on peut itérer le processus pour obtenir deux suites adjacentes qui convergent vers un réel intermédiaire (parfois noté ) appelé moyenne arithmético-géométrique et qui est relié à la longueur d’une ellipse.
+Formulations
+Moyenne arithmétique
+Pour toute liste de réels, on définit sa moyenne arithmétique par la formule
+\overline = \sum_^n, qui ne dépend pas de l’ordre des termes et est toujours comprise entre les valeurs minimale et maximale de la liste.
+Cette moyenne est linéaire et cumulative, c’est
+-à-dire que si la liste est partagée en plusieurs sous-listes, la moyenne de la liste globale est la moyenne pondérée des moyennes des sous-listes, avec pour coefficients de chaque sous-liste le nombre de termes concernés.
+Pour calculer une moyenne sur une liste dans laquelle beaucoup de valeurs sont répétées, on peut noter la liste des valeurs (sans répétition) et la liste des effectifs (le nombre de fois qu’apparait chaque valeur dans la liste initiale).
+La moyenne s’écrit alors
+\overline = \sum_^k.
+Cette formule introduit la notion de moyenne pondérée, dans laquelle les facteurs ne représentent pas nécessairement des effectifs, mais des coefficients appelés poids, par exemple pour calculer la moyenne de notes sur un bulletin scolaire dans lequel on souhaite accorder plus d’importance à certaines disciplines ou à certains devoirs, en leur attribuant un coefficient plus grand que les autres.
+Autres moyennes homogènes
+Étant donnée une liste de réels positifs (voire strictement positifs pour la moyenne harmonique), avec éventuellement une liste de poids associés, positifs et non tous nuls, on définit les moyennes usuelles suivantes.
+Ces moyennes reprennent certaines propriétés de la moyenne arithmétique :
+* la moyenne est toujours comprise entre la valeur minimale et la valeur maximale de la liste ;
+* la moyenne est homogène, c’est
+-à-dire que si toutes les valeurs de la liste sont multipliées par un même facteur, la moyenne est multipliée par ce même facteur ;
+* la moyenne est cumulative, c’est-à-dire que si la liste est partagée en plusieurs sous-listes, la moyenne de la liste globale est la moyenne pondérée des moyennes des sous-listes, avec pour coefficients de chaque sous-liste le nombre de termes concernés.
+En outre, ces moyennes sont toujours ordonnées par les inégalités suivantes qui prolongent l’inégalité arithmético-géométrique :
+\overline^H \le \overline^G \le \overline \le \overline^Q
+Toutes ces moyennes s’obtiennent sous la forme \sqrtm ou comme limite d’expressions sous cette forme.
+Plus précisément, on retrouve :
+* lorsque , la limite de est la moyenne géométrique ;
+* lorsque , la limite de est le maximum de la série ;
+* lorsque , la limite de est le minimum de la série.
+Autres moyennes cumulatives
+On peut définir la moyenne énergétique de la manière suivante :
+: \bar = 10\log_
+\left
+\frac\sum_^n \right)
+C'est la moyenne de valeurs données en décibels, utilisées par exemple en acoustique.
+Cette moyenne n’est pas homogène, mais elle reste cumulative, encadrée par le maximum et le minimum.
+Elle s’apparente à des moyennes qui s’écrivent sous la forme
+f^ (\overline)
+= f^\left (\frac 1n \sum_^n f (x_i)\right), où est une fonction réelle continue et strictement croissante sur un intervalle contenant les valeurs de la liste, et est sa fonction réciproque.
+On retrouve en particulier les moyennes homogènes avec les fonctions puissances ou avec la fonction logarithme.
+La moyenne énergétique s’obtient avec la fonction x\mapsto 10^.
+Utilisations
+Évaluation globale
+La moyenne est beaucoup utilisée en évaluation scolaire.
+Dans de nombreux systèmes scolaires, une partie de l'évaluation des élèves débouche sur une note chiffrée, par exemple
+* en France, en Tunisie, Algérie et au Maroc : de 0 à 10 ou de 0 à 20 (0 étant la plus mauvaise note, 10 ou 20 la meilleure) ;
+* en Suisse : de 1 à 6 (1 étant la plus mauvaise note, 6 la meilleure) ;
+* en Allemagne : de 6 à 1 (6 étant la plus mauvaise note, 1 la meilleure) ;
+* au Canada : de 0 à 100 (100 étant la meilleure note et 0 la plus mauvaise) ;
+* au Danemark : de -3 à 12 (-3 étant la plus mauvaise note, 12 la meilleure).
+On peut alors calculer la moyenne des notes d'une classe dans une matière, ou la moyenne des notes d'un élève dans une matière.
+Ces moyennes ont des sens différents :
+* la moyenne de la classe est censée représenter un « niveau global », si tant est que cela ait un sens ;
+* dans le cas d'un examen de grande ampleur, comme le baccalauréat en France, où de nombreux élèves passent la même épreuve mais sont corrigés par différents professeurs, la différence des moyennes entre les groupes peut indiquer une différence de correction selon le professeur (certains étant plus sévères, d'autres plus tolérants), et l'on peut par exemple effectuer une correction de notes, une « mise en adéquation », afin que les groupes aient tous la même moyenne ;
+par exemple, si m1, m2
+… sont les moyennes des groupes et M la moyenne globale, alors les notes du groupe i seront multipliées par M/mi ;
+* dans le cas d'un élève : la moyenne des notes sur une matière permet de niveler les résultats ;
+ainsi, si les résultats sont fluctuants, les faiblesses d'un moment sont rattrapées par les réussites d'un autre moment ;
+* la moyenne des notes d'un élève dans plusieurs matières est une autre manière de niveler les résultats, non plus dans le temps mais selon la matière : les points forts rattrapent les points faibles ;
+la moyenne est alors un critère de sélection, sachant que ce que l'on demande d'un élève, ce n'est pas qu'il soit bon partout, mais qu'il ait des qualités permettant de rattraper ses défauts ;
+lorsque certaines matières sont plus importantes que d'autres, on applique des coefficients de pondération (cf. infra).
+Dans ces exemples, la moyenne est un lissage des valeurs.
+On peut bien sûr se demander si la moyenne est un critère pertinent de sélection (voir Évaluation sommative) ;
+en général, ce n'est pas le seul critère qui entre en compte, à l'exception de certains examens et concours.
+Statistique
+La moyenne est la valeur unique que devraient avoir tous les individus d'une population (ou d'un échantillon) pour que leur total soit inchangé.
+C'est un critère de position.
+Dans la plupart des cas, le total formé par les individus d'une population est la somme de leurs valeurs.
+La moyenne est alors la moyenne arithmétique.
+Mais si le total représenté par une population ou un échantillon n'est pas la somme de leurs valeurs, la moyenne pertinente ne sera plus la moyenne arithmétique.
+Si, par exemple, le total d'un ensemble d'individus est le produit de leurs valeurs, il convient de calculer leur moyenne géométrique.
+La moyenne ne peut donc se concevoir que pour une variable quantitative.
+On ne peut pas faire le total des valeurs d'une variable qualitative.
+Quand la variable est ordinale, on lui préférera la médiane.
+Physique
+Les règles de conservation sur les différentes grandeurs physiques mènent à l’usage de moyennes différentes.
+Ainsi, la capacité électrique moyenne de condensateurs en série est la moyenne harmonique de leurs capacités, comme la résistance (électricité) moyenne de conducteurs ohmiques en parallèle.
+L’énergie cinétique dépendant linéairement du carré de la vitesse, la vitesse moyenne d’un ensemble de particules en agitation thermique est la moyenne quadratique des vitesses individuelles.
+Extensions de la notion de moyenne
+Au-delà des définitions précédentes de moyenne, il existe d'autres approches plus étendues pour cette notion :
+Moyenne glissante (ou « mobile »)
+La moyenne glissante est une notion statistique, où la moyenne au lieu d'être calculée sur n valeurs fixes
+, est calculée sur n valeurs consécutives « glissantes ».
+Ce type de calcul est aussi utilisé en informatique pour minimiser la taille mémoire nécessaire au stockage des valeurs intermédiaires.
+Différentes formules de moyennes glissantes existent, par exemple pour une moyenne glissante de période n :
+\bar_0 = x_0 (une moyenne glissante de période 0 ne prend qu'un terme)
+\bar_n = \frac (formule de récurrence)
+Moyenne tronquée (ou « réduite »)
+Une moyenne tronquée est un calcul de moyenne arithmétique qui est appliqué après avoir ignoré les valeurs les plus extrêmes des données.
+L'idée de la troncation, opération dont le résultat s'appelle une troncature de l'ensemble des données, est de ne pas tenir compte des valeurs les plus éloignées, considérées alors comme aberrantes, et ainsi, dans le cas de la moyenne dite tronquée, de ne la calculer que sur un sous-ensemble « central » des données, la troncature.
+Notons que cette procédure est généralisable à d'autres estimateurs centraux.
+Les statistiques tronquées, en anglais , ont été inventées pour pallier la sensibilité des statistiques aux valeurs aberrantes, ce qu'on appelle la robustesse statistique.
+Leur avantage sur la médiane et sur la moyenne arithmétique est d'allier la robustesse de la médiane, à la définition « collective » de la moyenne arithmétique, la formule de calcul ressemblant fort à celle de cette moyenne arithmétique, lui conférant un avantage psychologique sur la médiane dont le défaut majeur (!) est de ne pas s'écrire avec une formule simplement arithmétique.
+Historiquement, cette technique a eu son heure de gloire dans la première moitié du comme méthode de « correction » des valeurs aberrantes, et avec l'apparition des premiers calculateurs, notamment, jusqu'aux travaux plus récents pour mieux cerner la notion de robustesse ().
+Moyenne pondérée
+La moyenne pondérée est utilisée, en géométrie pour localiser le barycentre d'un polygone, en physique pour déterminer le centre de gravité ou en statistique et probabilité pour calculer une espérance.
+On la calcule ainsi :
+\bar = \frac
+Dans le cas général le poids représente l'influence de l'élément par rapport aux autres.
+À noter qu'il s'agit ici de la moyenne pondérée arithmétique.
+Il existe aussi des versions pondérées des autres moyennes, comme la moyenne géométrique pondérée et la moyenne harmonique pondérée.
+Valeur moyenne d'une fonction
+Pour toute fonction continue (ou même seulement continue par morceaux) sur un segment a, b non vide et non trivial (i. e. b > a), la valeur moyenne de ƒ sur a, b est le réel m défini par :
+m = \frac \times \int_^ f (x)\, dx
+Cette notion généralise celle de moyenne d'un nombre fini de réels en l'appliquant à un nombre infini de valeurs prises par une fonction intégrable.
+Elle sert par exemple dans la décomposition en série de Fourier d'une fonction périodique : c'est la composante constante.
+En traitement du signal, pour les signaux périodiques, il s'agit de la composante continue ().
+On peut aussi, par analogie avec les moyennes pondérées d'un nombre fini de réels, affecter « à chacune des valeurs prises par la fonction »
+un coefficient strictement positif.
+On utilise alors ce que l'on appelle une fonction poids
+w:\,\mathbb R \longrightarrow\mathbb
+w pour l'initiale
+de , « poids » en anglais) :
+m_w = \frac.
+Ce procédé peut aussi s'utiliser sur un intervalle ouvert ou semi-ouvert mais borné (i. e. aucune de ses bornes n'est infinie) où la fonction ƒ×w est intégrable.
+On peut citer l'exemple classique servant à montrer l'orthogonalité de la famille des polynômes de Tchebychev :
+\,\int_\,dx
+où la fonction Tn×Tp est continue sur le fermé 0,1 et où la fonction poids
+est
+w:\,\mathbb R \longrightarrow\mathbb R^,\;x\mapsto
+est intégrable sur 0,1, et dont l'intégrale vaut \pi\over 2.
+Nota :
+Lorsque la fonction est périodique de période T, elle a la même valeur moyenne sur toute période a, a + T.
+Cette valeur commune est appelée valeur moyenne de la fonction.
+Ainsi la fonction cosinus est de moyenne nulle, son carré de moyenne 1/2.
+La médiane, alternative à la moyenne
+De manière générale, la moyenne n'est pas forcément une manière pertinente de représenter la tendance centrale des données considérées.
+On peut, par exemple, lui préférer la valeur médiane qui est la valeur à laquelle 50 % des valeurs observées sont inférieures.
+La médiane n'est pas (sauf exception ou hasard) équivalente à la moyenne arithmétique de l'ensemble.
+En supposant que l'on ait, au préalable, rangé les valeurs observées de sorte qu'elles se trouvent indexées suivant l'ordre des valeurs croissantes :
+* pour un nombre pair 2n de valeurs, la médiane est la moyenne des deux valeurs centrales, soit , ou toute autre valeur strictement comprise entre et
+* pour un nombre impair 2n+1 de valeurs, la médiane est unique et égale
+à .

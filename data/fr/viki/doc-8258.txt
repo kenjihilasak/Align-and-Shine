@@ -1,0 +1,214 @@
+Redirigé depuis RSA)
+Rivest Shamir Adleman, plus souvent RSA, est un cryptosystème à clé publique : il permet de chiffrer des messages en utilisant le principe de la clef publique, et est très utilisé dans le domaine du commerce électronique et des communications militaires.
+Le commerce électronique (puces électroniques, transactions par Internet), la sécurité militaire, sont les principaux domaines de prédilection de RSA.
+Malheureusement, le terrorisme commence à voir dans cet algorithme un formidable moyen de communication qui pourrait passer à travers les filets des brigades de détection antiterroristes...
+De nombreux systèmes de cryptographie s'inspirent de RSA pour renforcer encore la sécurité des messages : en particulier, le système PGP.
+Tous ces systèmes sont basés sur l'utilisation d'une fonction asymétrique, utilisée dans RSA.
+Prenons une personne quelconque, et appelons-là
+Alice.
+Prenons-en une autre, que nous nommons Bob.
+Alice veut envoyer des messages à Bob, mais elle ne veut pas que leur conversation soit surveillée.
+Elle utilise donc un système de codage simple, comme celui de l'exemple de la clef privée : Y = X + 3.
+Seuls elle (pour coder) et Bob (pour décoder) connaissent la clef, qui est Y = X + 3.
+Mais Alice change d'école et se fait plein d'amis.
+Si elle garde le système de la clef privée, elle doit en créer énormément, autant qu'elle a d'amis (car elle ne réutilise pas la même clef plusieurs fois, pour des raisons de sécurité).
+Que faire si elle a des millions d'amis ?
+Elle ne peut quand même pas générer des millions de clefs privées !
+Alors elle a recours au système de la clef publique.
+Elle se trouve une clef publique et une clef privée qui lui permettent de décoder sa clef publique (les nombres p et q).
+Puisque sa clef publique est irréversible, elle peut la donner à tout le monde, à ses millions d'amis, qui pourront seulement coder des messages avec.
+Ils ne pourront rien décoder, et donc les messages des autres seront en sécurité !
+Alice sera la seule à pouvoir lire les messages qu'on lui envoie.
+Dans tous les systèmes de codage, on utilise ce que l'on appelle une clef.
+C'est cette clef qui transforme le message, et qui, dans le cas d'une cryptographie symétrique, la plus courante, peut le décoder en inversant la clef.
+Par exemple : mon message est : « Vikidia ».
+Disons que chaque lettre du mot est remplacée par son numéro dans l'alphabet (A=1, B=2, C=3, Z=26, ...).
+On obtient donc, à la place de « Vikidia », 22 ;
+9 ;
+11 ;
+9 ;
+4 ;
+9 ;
+Si ma clef est une fonction du type F(x)=x+3 (c'est-à-dire que le message codé est le numéro de la lettre plus 3), alors mon message codé sera 22+3 ; 9+3 ; 11+3 ;
+9+3 ;
+4+3 ;
+9+3 ;
+1+3, soit 25 ;
+12 ;
+14 ;
+12 ;
+7 ;
+12 ;
+4, soit YLNLGLD !
+Ainsi, par ma clef privée (car je dois la garder secrète si mon message veut le rester, il faut seulement la donner au destinataire du message) F(x)=x+3, VIKIDIA devient YLNLGLD.
+Le destinataire du message codé pourra décoder en inversant la clef, c'est-à-dire en appliquant la fonction F(x)=x-3.
+En cryptographie, on appelle trousseau de clés le couple clé publique/clé privée.
+Pour créer son trousseau de clés, il faut procéder en plusieurs étapes.
+Une mauvaise conception peut détruire la sécurité du système, il faut donc faire très attention !
+Les étapes nécessaires sont :
+Choix de deux nombres premiers, nommés en général p et q.
+On calcule n = p × q. Plus ces deux nombres seront grands, plus la clé sera sûre, parce que les ordinateurs ont du mal à retrouver p et q lorsque ceux-ci sont très grands.
+C'est là toute la sécurité du RSA !
+On appelle factorisation d'un produit de nombres entiers l'action de retrouver p et q en partant de n. n sera le module de chiffrement (le modulo).
+Calcul de l'indicatrice d'Euler, c'est-à-dire le nombre φ (n) = (p-1) (q-1).
+φ (n), et donc p et q, doivent absolument rester secrets !
+Dans le cas contraire, si une personne mal intentionnée les connaît, celle-ci peut trouver la clef secrète très facilement.
+Choix d'un nombre e tel que e soit premier avec φ (n), c'est-à-dire que pgcd (e ;
+φ (n)) = 1 (autrement dit, le plus grand diviseur commun à e et à φ (n) doit être 1).
+Choix d'un nombre d tel que d = [1 mod.
+φ(n)] / e. En français
+, cela veut dire que d doit valoir φ (n) (ou l'un de ses multiples) + 1, le tout divisé par e.
+Exemple :
+choisissons p = 593 et q = 613.
+n vaut donc p × q = 593 × 613 = 363509.
+cherchons
+un nombre e tel que pgcd (φ (n) ;
+e) = 1, par exemple e=5.
+Notre trousseau de clefs va donc se présenter sous cette forme :
+Clé publique (distribuable à tout le monde) : (n ;
+e), soit (363509 ;
+Tout d'abord, il faut préciser une chose : on se sert de la clef publique de quelqu'un pour lui envoyer des messages chiffrés ;
+attention à ne pas confondre, ce n'est pas lui qui l'utilise pour nous écrire !
+Le coup de génie de RSA, c'est la fonction asymétrique : on ne peut l'inverser qu'à certaines conditions.
+Nous avons vu comment inverser une clef.
+Alors, comment une clef peut-elle être impossible à inverser ?
+Il faut se servir du principe du modulo.
+Une clef publique, c'est cela : (33 ; 3).
+(Bien sûr, les nombres varient) 33 représente le modulo de la clef.
+3 est l'exposant (appelé aussi l'encodeur).
+Voici comment ils sont utilisés :(X est le nombre que je veux coder ;
+Y est ce nombre, mais codé)
+Y = X3 mod.
+Pour plus de clarté : j'élève X au cube (c'est-à-dire que je multiplie X par lui-même, et ce 3 fois : X multiplié par X multiplié par X), puis j'applique au nombre obtenu le modulo 33.
+Par exemple
+pour coder VIKIDIA avec la clef publique (33 ; 3) :
+Je remplace, comme tout à l'heure, les lettres par leur numéro dans l'alphabet : 22 ;
+9 ;
+11 ;
+9 ;
+Je regroupe les nombres par deux : 2209 ;
+1109 ;
+... (en mettant un zéro devant les nombres à un chiffre, pour obtenir dans tous les cas un nombre de 4 chiffres).
+Chacun de ces nombres représente un X, c'est-à-dire un nombre que je vais coder.
+On peut les noter X1, X2, ...
+J'applique l'encodeur.
+Il s'agit simplement de monter mon Xi à la puissance demandée.
+Ici, l'encodeur vaut 3, j'élève donc Xi à la puissance 3 (i.e.
+au cube) :
+X13 = 22093,
+c'est-à-dire 2209
+x 2209 x 2209, soit 10779215329.
+(Pour cela, il s'agit de soustraire 33 à 10779215329,
+puis au résultat de cette soustraction, et ainsi de suite jusqu'à ce que le résultat soit compris entre 0 et 33).
+Par la clef publique (33 ; 3), VI est codé en 25.
+Il faudrait continuer le chiffrement jusqu'à la fin de VIKIDIA.
+Remarque : le V avec le I, le K avec le 2e I, le D avec le 3e I, ...
+Mais le A est tout seul !
+Pour conserver un Xi d'une longueur de 4 chiffres, X4 = 0100 (le numéro du A, première lettre de l'alphabet, plus deux zéro pour compléter).
+Il faut conserver la même longueur pour tous les Xi.
+Ce qui empêche d'inverser une clef publique, c'est la présence du modulo, parce qu'une fois que j'ai Y1 = 25, comment puis-je deviner combien de fois j'ai soustrait 33 à X13 ?
+C'est impossible !
+Exemple : nous allons essayer de retrouver X1 à partir de Y1
+Y1 vaut 25.
+Supposons que je connaisse aussi la clé : puisse qu'elle est publique, n'importe qui peut la connaitre.
+Je dispose donc de 2 informations : Y1 = 25 et clépublique = (33 ;
+3).
+Voyons si on peut inverser cette clé ...
+On va commencer par faire 25 + 33.
+Peut-être que X1 était juste un peu plus grand que 33 ?
+25 + 33 = 58.
+On va maintenant tenter d'inverser la "puissance 3" pour retrouver X1.
+Pour cela, on utilise un objet mathématique bizarre, nommé racine cubique.
+C'est comme si, au lieu de "puissance 3", on calculait "puissance 1 3 = 3.870876640627796 ?
+Ah non, ce n'est pas cela, puisque l'on cherche un nombre entier de 4 chiffres !
+Il faudrait continuer, en faisant 25 + (33 × 2), puis 25 + (33 × 3), ... Mais c'est très hasardeux, et beaucoup trop long !
+Pour retrouver 10779215329, il faudrait en fait calculer 25 + (33 × [un nombre plus grand que 300 000]), mais pour en arriver là, en partant de 25 + (33 × 2), le temps à passer est énorme (surtout à la main ...).
+Plus loin dans cet article, nous verrons comment retrouver Xi, c'est-à-dire casser RSA.
+Mais cela ne fonctionne qu'avec des clefs de faible taille ...
+Mais si personne ne peut le décoder, le destinataire ne peut pas lire le message !
+Si, parce que ce destinataire (celui qui a créé sa clef publique), a en même temps créé sa clef privée.
+Il suffit de suivre les mêmes opérations que pour le chiffrement, mais en sens inverse et avec la clef privée.
+Pour cela, il faut savoir que la clef privée associée à (33 ; 3) est... (33 ; 7) !
+C'est simple : les deux nombres premiers (p et q) utilisés pour former n (qui vaut 33) sont 11 et 3 (car 3 × 11 = 33).
+De là, on peut calculer φ(n) = (p - 1) × (q - 1) = (11
+- 1) × (3 - 1) = 10 × 2 = 20.
+e valant 3, on sait que d = ( 1 mod.
+φ(n) ) 3 = 7.
+Cependant, à cause d'une propriété (la taille, trop faible) de cette clef publique, celle-ci n'est pas utilisable dans cet exemple.
+Nous allons donc considérer notre second trousseau qui, lui, est nettement suffisant : clépublique = (363509 ; 5) ;
+cléprivée = (363509 ;
+Par cette clé, VI est codé en 31015.
+Voir le détail du chiffrement de VI en 31015
+V est la la 22e place dans l'alphabet, I à la 9e.
+On définit donc V = 22 et I = 9, ce qui nous fait un X1 valant 2209 (les deux nombres accolés, avec un zéro devant 9 pour obtenir un X de quatre chiffres).
+On récupère donc tous les Yi qu'on nous a envoyés grâce à notre clef publique.
+On procède comme si l'on chiffrait chaque Yi, sauf que l'on se sert cette fois de la clef privée ;
+pour Y1, cela donne : Y1 = 31015 Y1d = 3101572461
+Pourquoi ne pas afficher le résultat de cette dernière opération ?
+Ici, le détail de l'opération n'est pas donné ;
+en effet, 3101572461 est un nombre si énorme (31015 multiplié par lui-même 72461 fois !) que la calculatrice Windows refuse de donner le résultat ("Entrée fonction incorrecte").
+Il en va de même pour le logiciel de calcul formel utilisé (Maxima).
+Cependant, il ne faut jamais baisser les bras : le résultat de 3101572461 mod.
+363509 nous est donné ...
+par une simple calculatrice programmable (beaucoup moins puissante qu'un ordinateur) !
+Comment est-ce possible ?
+Explication : pour une clarté la plus grande possible
+, nous avons choisi d'afficher dans cet article tous les résultats intermédiaires de nos calculs.
+Alors, quand on demande à l'ordinateur "Combien vaut 3101572461 mod.
+363509 ?
+", celui-ci calcule 3101572461, puis applique le modulo au résultat obtenu ;
+nous avons vu qu'il ne pouvait pas afficher ce résultat, il est donc dans l'incapacité de résoudre ce calcul.
+C'est parce que nous nous y prenons mal !
+La calculatrice parvient à nous donner 2209 car elle ne le calcule pas directement, comme l'a tenté l'ordinateur.
+Il suffit de créer un programme adéquat, et elle résout les opérations selon ce programme.
+Comme c'est assez compliqué, nous dirons simplement que la méthode utilisée ici par la calculatrice s'inspire de l'exponentiation modulaire.
+Le résultat, si le programme est correct, est calculé en 3 secondes, tandis que Maxima y est depuis plus d'une demi-heure et n'a rien trouvé !
+On retrouve bien notre 2209 qui, une fois décomposé, signifie VI !
+Précédemment, nous avons délaissé la clé publique (33 ;
+au profit d'une autre
+, (363509 ; 5).
+Pourquoi ?
+La première chose à remarquer, c'est la différence entre les deux modules de chiffrement (les modulo) : 363509 est bien plus grand que 33 !
+Cela a beaucoup d'importance.
+Pour mieux comprendre, nous allons tenter de décoder VI codé par (33 ; 3).
+Y1 = 25 (c'est notre VI, mais chiffré, voir l'opération ici) Y1d = 257 = 6103515625 Y1d mod.
+33 = 6103515625 mod.
+33 = 31Ce n'est pas le bon résultat !
+On attendait 2209, c'est-à-dire VI.
+Pourquoi cela ne fonctionne-t-il pas ?
+C'est que notre clef est trop petite ;
+en effet, on ne peut pas avoir 2209 en appliquant un modulo 33, parce que la définition du modulo est « {{{1}}} ».
+Or 2209 est plus grand que 33, on a donc continué à soustraire.
+Il nous faut alors choisir un module de chiffrement plus grand, ce que nous avons fait en prenant 363509.
+Bien sûr, n'importe quel module supérieur à 2626 (pour coder ZZ, les deux lettres de l'alphabet ayant le plus grand nombre associé) aurait fait l'affaire.
+33 ;
+3) fait une longueur de 7 bits, c'est minuscule.
+363509 ;
+5) fait une longueur de 20 bits, c'est déjà mieux, mais toujours ridicule face à la puissance des ordinateurs et des algorithmes de calcul.
+Aujourd'hui, il est recommandé d'utiliser des clés de 1024 bits, mais on préfèrera du 2048 bits pour plus de sûreté.
+Une clef de 2048 bits ressemble à cela :
+Ce n'est pas rien.
+Pourquoi a-t-on besoin de tels
+nombres
+Nous avons vu qu'il faut pour créer son trousseau deux nombres entiers premiers, p et q.
+Ces nombres sont aussi utilisés pour déterminer l'indicatrice d'Euler φ (n), qui elle permet de créer sa clé privée.
+Il est donc indispensable de conserver p et q secrets !
+Les machines à calculer parviennent très bien à calculer un produit (le résultat d'une multiplication) ;
+ainsi, on peut avoir p et q long chacun comme les nombres écrits plus haut, cela ne pose aucun problème1 et p × q est effectué en très peu de temps.
+En revanche, ces machines ont d'énormes difficultés à faire l'opération dite de « décomposition en facteurs premiers »2 dès lors que les nombres deviennent très grands.
+Ainsi, les plus puissants ordinateurs ne parviendront pas à décomposer le n de la clef de 2048 bits montrée précédemment, ou alors en travaillant pendant une durée équivalente à plusieurs milliards d'années (ce qui, d'un point de vue humain, est inacceptable).
+Cependant, avec des clés plus petites, de l'ordre de 512 bits et moins, il est possible de retrouver p et q. Plus le module de chiffrement est petit, plus il est simple de le décomposer !
+Avec un ordinateur pas très récent et un logiciel de calcul formel renommé, 33 est décomposé en moins d'une seconde : 11 × 3 (même une calculatrice le fait).
+363509 en une seconde : 593 × 613.
+487244884854344046304090844893 (100 bits) est décomposé en 20 secondes : 669536424408869 × 727734693873497.
+Mais pour décomposer un module de chiffrement de 120 bits3, il faut plus de 3 minutes 30 !
+On observe que le temps nécessaire à la décomposition augmente beaucoup plus rapidement que la taille de la clé.
+Plus une clé est grande, moins il y a de risques de la voir « cassée », c'est-à-dire de découvrir la clé privée associée.
+Les communications importantes entre gouvernement (utilisant des systèmes semblables à RSA) utilisent des clés de 4096 bits, voir davantage.
+Cela garantit une excellente sécurité.
+Selon la loi de Moore, la puissance des ordinateurs double tous les 18 mois.
+Il faut donc s'attendre à voir les algorithmes de décomposition en facteurs premiers de plus en plus efficaces.
+De plus, il est possible que des algorithmes plus performants que ceux qu'on utilise actuellement voient le jour dans un futur proche...
+Et le développement de l'ordinateur quantique pourrait annoncer la fin des cryptosystèmes tels que RSA, car ils sont présentés comme extrêmement puissants.
+Cependant, il faut noter que leur record de décomposition est, en octobre 2001, la factorisation de 15 = 3 × 5 !
+↑C'est-à-dire de trouver p et q à partir de n, quand on a fait p × q.

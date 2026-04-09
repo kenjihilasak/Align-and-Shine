@@ -1,0 +1,296 @@
+Mécanique des fluides
+La mécanique des fluides est un domaine de la physique consacré à l’étude du comportement des fluides (liquides, gaz et plasmas) et des forces internes associées.
+C’est une branche de la mécanique des milieux continus qui modélise la matière à l’aide de particules assez petites pour relever de l’analyse mathématique mais assez grandes par rapport aux molécules pour être décrites par des fonctions continues.
+Elle se divise en deux parties, la statique des fluides qui est l’étude des fluides au repos et la dynamique des fluides, qui est l’étude des fluides en mouvement.
+Aujourd’hui
+, la dynamique des fluides est un domaine actif de la recherche avec de nombreux problèmes non résolus ou partiellement résolus.
+Elle utilise systématiquement des méthodes numériques appelées «
+mécanique
+des fluides numérique » (MFN)
+, ou en anglais (CFD).
+Historique
+Statique des fluides
+L'hydrostatique, ou statique des fluides, est l'étude des fluides immobiles.
+Ce domaine a de nombreuses applications comme la mesure de pression et de masse volumique.
+Échelles et nature du problème hydrodynamique
+Niveau microscopique
+Au niveau le plus bas de la modélisation on décrit le milieu par position et vitesse de chaque particule constitutive et le potentiel d'interaction entre elles.
+Cette approche est bien sûr limitée par la quantité d'information qu'elle suppose.
+Elle est utilisée :
+* en pratique dans les méthodes de dynamique moléculaire où elle constitue une véritable expérience numérique possible pour un liquide comme pour un gaz,
+* en théorie pour des tentatives de construction ab initio d'un système formel de description macroscopique du milieu.
+Ce type d'approche est extrêmement difficile et peu de résultats
+ont été obtenus depuis les travaux de Jean Leray.
+En particulier l'existence de solutions régulières des équations de Navier-Stokes fait l'objet du prix Clay.
+Pour les gaz et à un niveau moins détaillé on se contente de décrire la distribution statistique des vitesses et éventuellement de tous les autres degrés de liberté (énergie interne, rotation et vibration dans le cas de molécules).
+Ludwig Boltzmann a ainsi réussi à écrire l'équation cinétique qui porte son nom.
+Cette fonction du temps, de la position et de la vitesse peut être calculée à partir d'outils comme la simulation directe Monte Carlo ou la méthode de gaz sur réseau particulièrement bien adaptée aux milieux poreux.
+Il s'agit de calculs coûteux en raison de la dimension 7 du problème.
+Pour cette raison on utilise généralement un potentiel d'interaction peu réaliste physiquement mais conduisant à des résultats acceptables.
+Niveau mésoscopique
+Par ce vocable on entend la description de phénomènes descriptibles à une échelle grande devant la précédente mais petite devant l'échelle du continu.
+Concept de particule élémentaire du fluide
+La particule fluide décrit un fluide à l'échelle mésoscopique : c'est un volume de dimension suffisamment petite pour que les propriétés du fluide ne varient pas spatialement dans la particule et suffisamment grand pour qu'une quantité importante de molécules soient comprises dedans de manière à moyenner les fluctuations statistiques.
+On peut effectuer dans cette particule un bilan de masse, de quantité de mouvement et d'énergie en utilisant les flux correspondants sur les limites du domaine.
+Cette approche conduit à l'écriture des équations de conservation correspondantes et, par passage à la limite, aux équations descriptives du phénomène.
+Cette méthode est aussi la base de la description numérique, le volume élémentaire étant alors la maille élémentaire du calcul.
+Suppression des détails de taille
+intermédiaire
+La géométrie étudiée peut comprendre des détails dont la prise en compte explicite va rendre le problème coûteux, par exemple une rugosité de la surface ou le détail de la géométrie d'un milieu poreux.
+Dans ce dernier cas les méthodes bien connues de la prise de moyenne volumique ou de l'homogénéisation permettent le calcul de quantités intervenant sous forme de coefficients comme le coefficient de diffusion dans l'équation de Darcy.
+Dans le cas d'une rugosité l'homogénéisation aboutit à l'écriture d'une relation de saut à la paroi, c'est-à-dire une relation liant toute valeur à sa dérivée spatiale.
+On peut faire également entrer dans cette catégorie les phénomènes de raréfaction dans un choc ou une couche pariétale.
+Dans ces régions d'espace les équations du continu sont invalides sur une distance de quelques libres parcours moyens.
+On peut généralement les ignorer.
+Lorsque ce n'est pas les cas leur modélisation aboutit comme précédemment à des équations de saut.
+Les relations de Rankine-Hugoniot en sont un exemple.
+Enfin, et ce n'est pas le moindre problème
+, on peut faire disparaître toutes les fluctuations d'un écoulement turbulent par des méthodes de moyennage très diverses, pouvant ramener le problème à une simple diffusion équivalente.
+Là aussi le but est de simplifier le calcul, possible par la simulation directe, mais coûteux.
+Niveau macroscopique
+Le niveau macroscopique résulte donc d'une simplification drastique de tous les détails du problème, lesquels sont tout de même présents au travers des coefficients qui interviennent dans les équations descriptives, des conditions aux limites et de l'équation d'état du milieu.
+Compressible et incompressible
+Ces notions qui séparent nettement deux types d'écoulements ont une origine microscopique :
+* le caractère compressible généralement associé à un gaz est lié au fait qu'un tel milieu est formé d'objets très espacée ayant des interactions rares, caractérisées par un potentiel particule-particule.
+Ceci est vrai même dans le cas de milieux contenant des espèces chargées en faible proportion, où les électrons ne sont pas totalement libres et accompagnent (statistiquement) les ions (diffusion ambipolaire).
+La connaissance de ces potentiels, aujourd'hui d'origine spectroscopique, est suffisante pour permettre le calcul de toutes les propriétés de transport du milieu : coefficients de diffusion binaire et thermique (équations de Stefan-Maxwell), viscosités dynamique et volumique, conductivité.
+Ce caractère de milieu peu dense n'est pas affecté par un changement de pression donc une variation du libre parcours moyen entre deux collisions.
+* le caractère d'incompressibilité associé aux liquides est lié aux liaisons que voit une particule dans un tel milieu.
+Elle est en effet liée à plusieurs voisins, même si ces liaisons ne sont pas aussi strictes que dans un solide.
+Ce caractère interdit une approche formelle comme dans les gaz : les propriétés de transport sont mesurées, la théorie ne permettant que d'expliquer les variations avec la température par exemple.
+Ce caractère d'incompressibilité n'est pas insurmontable : une pression très élevée de quelques centaines de GPa tel que rencontré dans le noyau terrestre met en évidence une variation de masse volumique des composants liquides.
+Équations de la mécanique des fluides
+On considère ici les équations de Navier-Stokes pour un fluide simple (newtonien), qui sont la pierre angulaire du domaine et à partir desquelles on déduit de nombreuses autres lois.
+Ces équations sont écrites dans un repère fixe, mais il existe deux façons d'exprimer les différentes grandeurs en fonction de la position : soit en fonction des coordonnées actuelles dans le repère (description eulérienne), soit en fonction des coordonnées occupées à un certain instant initial (description lagrangienne).
+Dans le premier cas le vecteur \vec v (x,y,z,t) représente la vitesse à l'instant et au point de coordonnées (x,y,z) (mais à différents instants il ne s'agira pas de la même portion de matière), dans le second cas \vec v (x_0,y_0,z_0,t) représente la vitesse à l'instant de la matière qui à l'instant initial occupait la position (x_0,y_0,z_0) (et qui à l'instant se trouve en un point différent (x (x_0,y_0,z_0,t),y (x_0,y_0,z_0,t),z (x_0,y_0,z_0,t))).
+On utilise le plus souvent la description eulérienne.
+Équations de base
+On peut obtenir ces équations par au moins deux voies :
+* à partir des relations de conservation de la masse, de la quantité de mouvement et de l'énergie,
+* à partir de l'équation de Boltzmann décrivant l'évolution moléculaire par la méthode de Chapman-Enskog.
+Cette méthode n'est utilisable que pour les gaz en raison de la simplicité relative des interactions au niveau microscopique dans ce cas.
+Dans la première méthode apparaissent le tenseur des contraintes (ou tenseur de pression, incluant contraintes visqueuses et pression) et le flux de chaleur.
+Pour ces deux quantités on fait l'hypothèse qu'elles sont liées à un gradient :
+* le flux de chaleur est proportionnel au gradient de température (loi de Fourier),
+* le tenseur des contraintes est proportionnel au tenseur des vitesses de déformation (hypothèse de Stokes).
+En une dimension d'espace cette expression s'exprime en disant que la contrainte visqueuse est proportionnelle au taux de cisaillement.
+Ceci définit un écoulement « newtonien ».
+Le mécanisme sous-jacent dans les deux cas n'est pas très apparent : on se doute que cette proportionnalité est liée à une linéarisation des équations qui décrivent le problème exact sous-jacent.
+C'est là un processus général en physique mathématique.
+La méthode partant du microscopique permet d'éclairer cet aspect.
+Les équations de Navier-Stokes sont l'expression d'une petite perturbation de la fonction de distribution microscopique des vitesses et, éventuellement, des énergies internes (statistique de Maxwell-Boltzmann).
+A contrario les équations d'Euler décrivent le cas correspondant à l'équilibre thermodynamique local.
+Il faut alors donner les coefficients qui interviennent : pression, viscosité et conductivité.
+La pression est définie par l'équation d'état.
+Les propriétés de transport, viscosité, conductivité
+peut
+résulter dans le cas du gaz d'un calcul effectué à partir du niveau microscopique (du potentiel interatomique).
+Pour les liquides ces quantités relèvent de l'expérience.
+équations de conservation pour la masse et la quantité de mouvement
+: \mathbf \cdot \mathbf =
+\begin
+\rho \dfrac +\rho \mathbf
+\cdot \left (\mathbf \mathbf \right) & = & \mathbf \cdot \mathsf
+\end
+:\mathsf=\underbrace_ -\underbrace_
+* étape 3 : équation d'état et expression de la viscosité
+...\,,\;\;\;\mu
+avec
+Similitude
+La similitude est la mise en évidence de nombres sans dimensions permettant de réduire le nombre de paramètres intervenant dans les équations afin de simplifier son analyse, éventuellement de définir des expériences à l'échelle du laboratoire.
+Elle est basée sur l'invariance d'échelle qui assure la covariance des équations : celles-ci sont valides dans tout référentiel galiléen.
+On peut alors par un changement de variable faire apparaître des nombres adimensionnels et diminuer ainsi le nombre de variables d'un problème.
+Reprenons l'exemple précédent.
+On définit :
+* une longueur de référence
+L* une vitesse de référence VÀ partir de ces valeurs on déduit les variables réduites :
+Le système en variables réduites s'écrit :
+::\mathbf_ \cdot \tilde=
+:\frac + \mathbf_ \cdot \left (\tilde \tilde \right) =
+- \mathbf \tilde + \frac \nabla_^2
+\,\tilde
+\mathbf_
+L^* \mathbf est l'opérateur nabla adimensionné et Re
+\frac
+le nombre de Reynolds
+Le problème ne dépend plus explicitement des dimensions physiques : l'équation ci-dessus décrit une famille de problèmes (et donc de solutions) se déduisant l'un de l'autre par transformation de l'espace et du temps.
+Instabilités et turbulence
+Instabilités
+L'instabilité des solutions des équations est due au terme non-linéaire de transport de quantité de mouvement V &sdot;
+&nabla;V.
+Elles correspondent à une bifurcation de la solution obtenue pour une certaine valeur du nombre de Reynolds.
+On rencontre divers types d'instabilités :
+* instabilité de cisaillement bidimensionnelle
+pour des profils de vitesse perpendiculaire à l'écoulement ayant un point d'inflexion (instabilité de Kelvin-Helmholtz)
+Le tourbillon généré est dans le plan de l'écoulement ;
+* instabilités centrifuges de type Taylor-Couette qui se crée lorsque le moment cinétique r V (r) décroît lorsque l'on s’éloigne du centre de courbure.
+Le tourbillon généré est perpendiculaire à l'écoulement, conduisant par exemple aux tourbillons de Görtler.
+Il existe nombre d'autres instabilités de type inertiel telles les instabilité elliptique et instabilité de Crow rencontrées en aéronautique ou en géophysique.
+De plus les interfaces soumises à une accélération ou à un champ de gravité peuvent être le siège d'instabilités :
+Rayleigh
+-Taylor, Richtmyer-
+Meshkov
+etc.
+Transition vers la turbulence
+Le passage de l'état laminaire d'un écoulement vers un état totalement turbulent peut emprunter plusieurs voies :
+* transition naturelle :
+une perturbation quelconque est amplifiée comme le montre une analyse de stabilité (équation de Orr-Sommerfeld).
+Les perturbations d'abord régulières (ondes de Tollmien-Schlichting) se déforment, créent des tourbillons longitudinaux qui sont eux-mêmes déformés et qui finissent par créer des régions (« spots ») turbulentes, lesquelles finissent par occuper tout l'espace.
+* transition «
+by-pass » : ce phénomène, présent dans les couches limites, désigne une transition forcée par la contamination par une turbulence externe.
+Les premières étapes de la transition naturelle sont contournées, d'où le nom.
+* transition par rugosité :
+les irrégularités de la paroi sont un moteur puissant de déstabilisation de la couche limite.
+* transition par décollement de l'écoulement moyen créant une couche de cisaillement instable
+Il n'existe pas de modèle universel de transition.
+Ceci est aisément compréhensible dans le cas de la transition naturelle où la source de l'instabilité peut être diverse et où de plus son amplitude joue un rôle.
+De même on ne maîtrise pas forcément une turbulence externe.
+En pratique on utilise des critères expérimentaux valides sur telle ou telle configuration.
+Turbulence
+La turbulence est un phénomène étudié depuis Léonard de Vinci mais encore mal compris.
+Il n'existe pas de théorie permettant de décrire le phénomène à partir des équations de Navier-Stokes.
+La cascade turbulente se manifeste par un transfert d'énergie des grandes structures créées par les gradients de vitesse
+- encore le terme V &sdot;
+&nabla;V
+- vers les petits tourbillons détruits par dissipation visqueuse.
+Un résultat majeur obtenu par Kolmogorov est la description des échelles intermédiaires où se produit une diffusion de l'énergie cinétique par mélange et étirement/repli des tourbillons.
+Cette région possède une propriété d'auto-similitude : les transferts se produisent identiquement à toutes les échelles.
+Ce résultat illustre la capacité explicative de l'approche physique statistique et systèmes dynamiques.
+Il faut mentionner l'existence d'une turbulence quasi-bidimensionnelle obtenue lorsque l'une des dimensions du problème est limitée : c'est le cas de l'atmosphère où les grands tourbillons excèdent largement la « hauteur utile » où peut se développer une troisième dimension.
+Il se produit alors une double cascade d'énergie.
+En pratique l'approche physique statistique ne permet pas un calcul global.
+De même la résolution directe des équations est beaucoup trop coûteuse et ne sert qu'à générer des expériences numériques servant de test à une théorie.
+En pratique la mécanique des fluides numérique utilise une méthode où les moments des corrélations statistiques des variables issus d'une prise de moyenne sont modélisés par une hypothèse physique raisonnable.
+Il existe plusieurs modèles, chacun étant plus ou moins adaptée à une situation donnée.
+Les effets de la turbulence sur l'écoulement sont importants.
+Directement ils favorisent les échanges de masse, quantité de mouvement et énergie.
+Ce phénomène augmente également le bruit acoustique.
+Il a aussi un effet indirect en modifiant la structure globale d'une région, par exemple la région décollée d'une couche limite ou un jet.
+Lois de comportement
+La loi de comportement d'un milieu solide ou fluide (voire intermédiaire) relie les contraintes σij exercées dans le milieu aux déformations εij du milieu et/ou à leurs dérivées par rapport au temps.
+Fluide newtonien
+Pour beaucoup de fluides le tenseur des contraintes peut s'écrire comme la somme d'un terme isotrope (la pression p) et d'un déviateur (le cisaillement):
+:\sigma_=\underbrace_+\underbrace_
+δij est le symbole de Kronecker, μ la viscosité dynamique et V la vitesse.
+En réalité il existe toujours un terme de viscosité volumique μ' div V δij correspondant à une variation isotrope de volume et dû à des interactions moléculaires inélastiques.
+Ce terme est généralement négligé quoique mesurable et, dans le cas des gaz, calculable.
+Très petit, il est supposé nul dans l'hypothèse de Stokes.
+Certains matériaux comme les verres ont un comportement qui passe continûment de l'état solide à l'état liquide.
+C'est vraisemblablement le cas du verre commun si l'on en croit les mesures de viscosité dans la plage où celles-ci sont faisables en un temps raisonnable ou celle du Silly Putty.
+Fluides non newtoniens
+De nombreux fluides ont des comportements différents, particulièrement en cisaillement.
+Ce comportement est lié à leur composition : phase solide en suspension, polymère, etc.
+Leur étude relève de la rhéologie.
+On présente généralement leur comportement sous un cisaillement simple pour lequel la viscosité est la pente de la courbe contrainte-déformation :
+* le fluide de Bingham (boue de forage, dentifrice) qui a un comportement visqueux newtonien passé un seuil de déformation correspondant à la dislocation de sa structure au repos.
+* fluides rhéofluidifiants ou pseudo-plastiques (sang, peintures, pâte à papier, etc.
+dont la viscosité apparente diminue avec la contrainte appliquée, le phénomène étant lié à une diminution des liaisons internes, affectées par l'écoulement.
+Certains fluides de Bingham ont un comportement pseudo-plastique.
+* à l'inverse certains fluides sont rhéoépaississant ou dilatants comme les suspensions concentrées.
+La relation containtes
+déformation n'est pas suffisante pour caractériser certains fluides dont le comportement est plus complexe :
+* dépendance en fonction du temps comme les fluides thixotropes comme le ketchup dont la viscosité apparente diminue avec le temps sous contrainte constante.
+Ce phénomène est lié à une déstructuration plus ou moins rapide du milieu.
+Plus rarement on rencontre des fluides antithixotropes comme le latex.
+* Un autre caractère possible est l'élasticité de fluides comme certaines résines polyacrilamides capables d'aligner leurs chaînes macromoléculaires dans le sens de l'écoulement.
+Ces caractéristiques peuvent donner naissance à des comportements remarquables
+comme :
+* l'effet Weissenberg pour les fluides pseudo-plastiques ;
+* l'effet de siphon ouvert pour les fluides élastiques ;
+Les comportements peuvent être décrits par des modèles rhéologiques obtenus en ordonnant de manière plus ou moins complexes des éléments de base : ressort pour l'élasticité, amortisseur pour le comportement visqueux, patin pour la pseudo-plasticité.
+On obtient ainsi le modèle de Kelvin-Voigt ou le modèle de Maxwell pour décrire la viscoélasticité.
+Les caractéristiques sont mesurées à l'aide de rhéomètres ou, dans le cas des polymères, peuvent être prédites.
+Types d'écoulement (milieu homogène)
+Stationnarité, instationnarité
+Un écoulement peut être stationnaire ou instationnaire ou les deux à la fois.
+Prenons l'exemple de l'écoulement autour d'un cylindre infini :
+* à bas nombre de Reynolds basé sur le diamètre l'écoulement est laminaire et stationnaire ;
+* lorsque le nombre de Reynolds augmente (
+Re ≈ 10), on voit apparaître une région de recirculation à l'arrière : cet écoulement est stationnaire ;
+* cette recirculation entraîne une instabilité de type Kelvin-Helmholtz (
+Re ≈ 100) et l'apparition d'allées de Kármán par appariement des tourbillons produits de part et d'autre ;
+* à plus grand nombre de Reynolds (
+Re ≈ 1000) l'écoulement de sillage devient turbulent donc instationnaire mais stationnaire en moyenne statistique.
+Vorticité
+Les tourbillons peuvent naître dans une région décollée comme la recirculation dans l'exemple précédent.
+Il s'agit alors d'un phénomène entretenu d'origine visqueuse.
+Ils peuvent également avoir pour origine une dissymétrie des conditions aux limites : c'est le cas des extrémités d'une aile d'avion.
+Dans ce cas il s'agit d'un phénomène inertiel non entretenu (en un point de l'espace donné).
+Les tourbillons ainsi créés sont de grande taille et peu affectés par la viscosité, ce leur confère une grande durée de vie.
+Mathématiquement le tourbillon (ou vorticité)
+se définit comme le rotationnel de la vitesse ou la moitié de cette valeur.
+On sait écrire une équation de transport pour cette quantité qui est à la base des études sur la turbulence vue sous l'angle mécanique des fluides et non sous l'angle statistique comme dans l'étude de la cascade turbulente.
+Compressibilité
+Tous les fluides sont visqueux jusqu'à un certain degré.
+La compressibilité de l'eau par exemple vaut environ 5 × 10−10 N−1, ce qui suppose des pressions de l'ordre du kbar pour obtenir un effet mesurable.
+Cette faible valeur permet dans le cas général de faire l'approximation de masse volumique constante.
+Les écoulements dans lesquels cette approximation est valide sont généralement tels que la température y est sensiblement constante et où l'on peut par suite supposer la viscosité constante.
+L'équation de conservation de l'énergie est découplée et les équations de Navier-Stokes réduites à une forme plus simple.
+Si de plus on suppose le nombre de Reynolds petit (Re ≈ 1) on aboutit à l'équation de Stokes.
+Dans le cas d'un écoulement irrotationnel on montre que la vitesse découle d'un potentiel : on parle d'écoulement potentiel.
+Toutefois la compressibilité d'un liquide n'est jamais nulle et il est possible d'y propager une onde de choc, laquelle suppose une discontinuité des toutes les variables comme indiqué par les relations de Rankine-Hugoniot.
+Celles-ci sont relatives aux équations d'Euler, donc à un milieu sans viscosité.
+Cette discontinuité n'existe qu'au point de vue macroscopique puisque la théorie cinétique montre pour les gaz une variation rapide sans discontinuité sur une distance de quelques libres parcours moyens.
+L'onde de choc résulte d'une propriété remarquable des équations d'Euler : leur caractère hyperbolique.
+L'information dans le milieu est transportée par les caractéristiques.
+Ceci a donné lieu par le passé à des méthodes de résolution par construction géométrique dans des cas assez simples comme une tuyère ou l'onde accompagnant un objet en vol supersonique.
+Cette propriété est aujourd'hui à la base des méthodes de résolution numérique par volumes finis : les solveurs de Riemann.
+Écoulements visqueux et non visqueux, couche limite
+Hors problème de turbulence les effets dits visqueux, en fait tous les effets liés au transport de masse (diffusion), de quantité de mouvement (cisaillement) et d'énergie (conduction), sont généralement confinés à des régions particulières, généralement une paroi et dans ce cas on parle de couche limite.
+Un immense progrès dans la compréhension de ce phénomène a été faite au début du .
+Elle a permis l'avènement de l'aérodynamique moderne grâce à l'analyse que permet son caractère parabolique : l'information ne remonte pas l'écoulement.
+En outre la relative simplicité des équations autorise la mise en évidence de solutions approchées.
+Écoulement en milieu inhomogène
+Écoulements à surface libre
+Les écoulements à surface libre désignent les écoulements d'un fluide limité par une surface libre continue.
+Ils concernent essentiellement l'atmosphère, les océans ou les lacs et les rivières ou canaux, mais décrivent aussi une étoile.
+Les problèmes à grande échelle dans l'atmosphère ou l'océan ne possèdent pas de caractère spécifique.
+Ils sont décrits par les équations de Navier-Stokes.
+D'autres sont limités dans un ou plusieurs directions d'espace.
+sont :
+* les écoulements en eau peu profonde qui, contrairement à leur nom, peuvent se rencontrer dans l'atmosphère.
+Ils sont décrits par une vitesse où deux composantes sont dominantes.
+On décrit ainsi les courants de marée, les seiches, les mascarets, les vagues non déferlantes, les ondes de gravité comme le tsunami mais aussi dans l'atmosphère les ondes de Rossby, de Kelvin, etc.
+* les écoulements de canaux et rivières qui sont décrits par leur seule vitesse moyenne.
+La tension superficielle ne joue pas de rôle dans ce type de problème.
+Écoulements polyphasiques
+Ce domaine de la mécanique des fluides s'intéresse à ce qui se passe lorsque l’on a affaire à plusieurs phases qui s’écoulent ensemble.
+Dans la majorité des cas il s'agit d'un milieu diphasique où une phase mineure en volume est dispersée dans la phase majeure.
+On peut distinguer en fonction du milieu majoritaire :
+* liquide contenant un gaz sous forme de bulles (ébullition, échangeur de chaleur), de liquide , de solide (suspensions diluées) ou de vide (cavitation),
+* gaz contenant un liquide sous forme de gouttes (sprays).
+Cette systématisation des phénomènes peut faire illusion : cela cache des problèmes de natures très différentes.
+Par exemple les bulles et leur interaction avec leur environnement
+constituent à elles seules un vrai
+problème physique que l'on doit aborder avant même de s'intéresser au problème diphasique.
+Pour le traitement théorique et numérique du problème on distingue les méthodes cinétique où l'on suit chaque élément de la phase diluée en lui appliquant les lois d'interaction ad hoc (par exemple dans l'équation de Mason-Weaver) et méthodes bifluides où des équations de Navier-Stokes couplées sont écrites pour chaque phase, moyennant certaines hypothèses sur le moyennage des phases (exemple de la méthode du volume de fluide.
+Cette méthode est plus économique mais pose souvent des problèmes de conditions aux limites où les hypothèses ne sont pas respectées.
+Il faut noter que les systèmes diphasiques sont susceptibles de montrer des instabilités spécifiques, un exemple remarquable étant le geyser.
+En taille et fraction suffisante les éléments dispersés peuvent affecter la turbulence.
+Écoulements en milieu poreux
+Les écoulements en milieu poreux sont présents dans de nombreux domaines comme l'hydrologie, les protections thermiques, etc.
+Il s'agit souvent de fluides homogènes mais on rencontre des cas hétérogènes comme dans l'extraction pétrolière.
+Ce sont par nature des écoulements de fluide à faible vitesse, généralement décrits par l'équation de Stokes à l'échelle du pore.
+La loi de Darcy établie expérimentalement est démontrable par prise de moyenne volumique ou homogénéisation sous cette condition.
+L'extension à des écoulements plus rapides (loi de Darcy-Forchheimer) se fait en introduisant un nombre de Reynolds.
+Pour les gaz on sait également traiter tous les régimes d'écoulement depuis le moléculaire jusqu'au continu (équation de Darcy-Klinkenberg).
+La quantité importante dans le domaine est la perméabilité.
+Celle-ci est mesurable.
+Elle a longtemps été évaluée théoriquement par des modèles utilisant des porosités de forme simple, respectant la porosité (par exemple la loi de Kozeny-Carman).
+Ces méthodes ont une prédictabilité limitée aux variations et non aux valeurs absolues.
+Ceci a changé avec l'avènement de la microtomographie qui permet une simulation numérique directe du phénomène à l'échelle du pore.
+Branches interdisciplinaires
+Microfluidique
+Magnétohydrodynamique
+Mécanique des fluides numérique
+La mécanique des fluides numérique consiste à étudier les mouvements d'un fluide, ou leurs effets, par la résolution numérique des équations régissant le fluide.
+En fonction des approximations choisies, qui sont en général le résultat d'un compromis en termes de besoins de représentation physique par rapport aux ressources de calcul ou de modélisation disponibles, les équations résolues peuvent être les équations d'Euler, les équations de Navier-Stokes, etc.
+La mécanique des fluides numérique a grandi d'une curiosité mathématique pour devenir un outil essentiel dans pratiquement toutes les branches de la dynamique des fluides, de la propulsion aérospatiale aux prédictions météorologiques en passant par le dessin des coques de bateaux.
+Dans le domaine de la recherche, cette approche est l'objet d'un effort important, car elle permet l'accès à toutes les informations instantanées (vitesse, pression, concentration) pour chaque point du domaine de calcul, pour un coût global généralement modique par rapport aux expériences correspondantes.
+Les méthodes ont porté non seulement sur le calcul proprement dit mais également sur le traitement des données issues de l'expérience (éventuellement numérique !).
+Cette discipline a prospéré grâce aux progrès des ordinateurs bien sûr mais aussi grâce à ceux de l'analyse numérique et de l'analyse tout court.
+Enseignement et recherche en France
+La mécanique des fluides est enseignée dans de nombreuses universités et écoles d'ingénieur.
+La recherche est le fait de centres d'études spécialisés comme l'Office national d'études et de recherches aérospatiales, l'Institut de mécanique des fluides de Toulouse ou le Centre national de recherches météorologiques.
+La spécialité est également très présentes dans des organismes comme le Commissariat à l'énergie atomique et aux énergies alternatives, l'Institut de radioprotection et de sûreté nucléaire ou l'Institut national de recherche en informatique et en automatique et dans de nombreux laboratoires dépendants de l'Université, d'écoles d'ingénieur ou du Centre national de la recherche scientifique.
+Il existe également des centres d'études ou d'essais pour l'industrie comme le Centre d'études et de recherche de Grenoble ou pour la défense comme le bassin des carènes.

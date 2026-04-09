@@ -1,0 +1,209 @@
+In elettronica e informatica un disco rigido o disco fisso -
+nonché denominato con le locuzioni inglesi hard disk drive (abbreviato comunemente in hard disk o con la sigla HDD) o fixed disk drive (abbreviato in fixed disk o FDD) - è un dispositivo di memoria di massa di tipo magnetico che utilizza uno o più dischi magnetizzati per l'archiviazione dei dati (file, programmi e sistemi operativi).
+Il disco rigido è un dispositivo di archiviazione del computer ed è uno dei tipi di dispositivi di memoria di massa attualmente più utilizzati essendo presente nella maggior parte dei computer ed anche in altri dispositivi elettronici, come per esempio il PVR.
+Il disco rigido è stato per lungo tempo l'unica scelta sui personal computer, ma sta conoscendo una perdita di quote di mercato a favore delle più recenti unità a stato solido (SSD).
+Storia
+L'hard disk venne inventato nel 1956 dall'IBM con il 350 Disk Storage Unit.
+Il primo prototipo era costituito da 50 dischi del diametro di 24 pollici (circa 60 cm) e poteva immagazzinare circa 5 megabyte di dati.
+Era grande quanto un frigorifero, con un peso di oltre una tonnellata.
+La denominazione originaria era fixed disk (disco fisso), il termine hard disk (disco rigido) nacque intorno al 1970 per contrapposizione coi neonati floppy disk (dischetti).
+Nel 1963 sempre l'IBM ideò il meccanismo di sollevamento della testina mediante l'aria.
+Nel 1973 IBM introdusse il modello 3340 Winchester, così denominato per analogia con il popolare modello di cartuccia da fucile ".30
+30 Winchester" poiché era dotato di due dischi da 30 MB l'uno;
+questo nome entrò nell'uso comune come sinonimo di disco rigido perché questo modello fu il predecessore di tutti i dischi rigidi moderni.
+Il primo modello per personal computer fu il Seagate ST-508 prodotto da Seagate Technology nel 1980, aveva una capacità di 5 MB, diametro di 5,25 pollici ed era dotato di motore passo-passo, uno per la rotazione dei dischi rigidi ed un secondo per il movimento delle testine (il controllo voice coil arriverà solo qualche anno dopo).
+Questo modello equipaggiava i personal computer AT&T con processore 286 prodotti negli stabilimenti Olivetti di Scarmagno, in seguito alla collaborazione della società di Ivrea con la multinazionale statunitense.
+Contemporaneamente, la società OPE (Olivetti Peripheral Equipment), una consociata Olivetti, forniva i dischi rigidi per i computer M24;
+storicamente questa società fu l'unica in Europa a impegnarsi in progettazione, sviluppo e produzione di questo tipo di periferica.
+Nel 2007 Albert Fert e Peter Grünberg ricevono il premio Nobel per la Fisica come pionieri dell'invenzione dell'hard-disk moderno cioè con capacità di memorizzazione superiore al gigabyte (scoperta della magnetoresistenza gigante).
+Descrizione
+Il disco rigido è costituito fondamentalmente da uno o più piatti in rapida rotazione, realizzati in alluminio o vetro, rivestiti di materiale ferromagnetico e da due testine per ogni disco (una per lato), le quali, durante il funzionamento "volano" alla distanza di poche decine di nanometri dalla superficie del disco leggendo o scrivendo i dati.
+La testina è tenuta sollevata dall'aria mossa dalla rotazione stessa dei dischi la cui frequenza o velocità di rotazione può superare i 15.000 giri al minuto;
+attualmente i valori standard di rotazione sono 4.200, 5.400, 7.200, 10.000 e 15.000 giri al minuto.
+Principi fisici di registrazione magnetica e lettura
+La memorizzazione o scrittura dell'informazione o dati sulla superficie del supporto ferromagnetico consiste sostanzialmente nel trasferimento di un determinato verso alla magnetizzazione di un certo numero di domini di Weiss.
+Ad un certo stato (verso) di magnetizzazione è associato un bit di informazione (1 o 0).
+Il numero di domini di Weiss che costituiscono un singolo bit, moltiplicato per la loro estensione superficiale media, rapportato alla superficie di archiviazione disponibile, fornisce la densità d'informazione (bit al pollice quadro).
+Quindi stipare una maggiore quantità di dati sullo stesso disco richiede la riduzione del numero di domini che concorrono alla definizione di un singolo bit e/o la riduzione dell'area di un singolo dominio magnetico.
+L'evoluzione continua della tecnologia dei dischi rigidi ci ha portati ormai vicino al limite fisico inferiore tollerabile:
+quando infatti il numero di domini che definiscono un singolo bit si è avvicinato all'unità e la loro area è dell'ordine di pochi nanometri quadri, l'energia termica del sistema è diventata ormai paragonabile all'energia magnetica ed è sufficiente un tempo brevissimo a far invertire il verso della magnetizzazione del dominio e perdere in questo modo l'informazione contenuta.
+La lettura/scrittura dell'informazione magnetica in passato veniva affidata a testine induttive, avvolgimenti di rame miniaturizzati in grado di rilevare, in fase di lettura e secondo il principio di induzione magnetica, la variazione del flusso del campo magnetico statico al transitare della testina tra un bit ed il successivo di una traccia contenente i bit, oppure in maniera duale imprimere una magnetizzazione sul disco in fase di scrittura.
+L'evoluzione che la spintronica ha portato nelle case di tutti sono state le testine magnetoresistive, basate su un dispositivo, la spin-valve, in grado di variare resistenza al mutare dell'intensità del campo magnetico.
+Il vantaggio dato da queste testine risiede nella loro sensibilità, migliore rispetto alle vecchie testine induttive, e nella loro dimensione ridottissima, cosa che consente di seguire il passo delle evoluzioni verso il nanometro per quanto riguarda l'area di un singolo bit.
+Infine, il prossimo futuro vedrà protagoniste della scena le testine di lettura basate sulle magnetic tunneling junction, MTJ.
+Organizzazione logica dei dati
+Tipicamente per la memorizzazione di dati digitali il disco rigido necessita dell'operazione preliminare di formattazione logica con scelta del particolare sistema logico di archiviazione dei dati da utilizzare noto come file system, tramite il quale il sistema operativo è in grado di scrivere e recuperare i dati.
+Organizzazione fisica dei dati
+I dati, a livello fisico, sono generalmente memorizzati su disco seguendo uno schema di allocazione fisica ben definito in base al quale si può raggiungere la zona dove leggere Head/Sector ;
+in questa struttura i dati sono memorizzati avendo come indirizzo fisico un numero per ciascuna delle seguenti entità fisiche:
+Piatto:
+un disco rigido si compone di uno o più dischi paralleli, di cui ogni superficie, detta "piatto" e identificata da un numero univoco, è destinata alla memorizzazione dei dati.
+;Traccia:
+ogni piatto si compone di numerosi anelli concentrici numerati, detti tracce, ciascuna identificata da un numero univoco.
+Cilindro:
+l'insieme di tracce alla stessa distanza dal centro presenti su tutti i dischi o piatti è detto cilindro.
+Corrisponde a tutte le tracce aventi il medesimo numero, ma diverso piatto.
+;Settore:
+ogni piatto è suddiviso in settori circolari, ovvero in "spicchi" radiali uguali ciascuno identificato da un numero univoco.
+Blocco:
+L'insieme di settori posti nella stessa posizione in tutti i piatti.
+Testina:
+Su ogni piatto è presente una testina per accedere in scrittura o in lettura ai dati memorizzati sul piatto;
+la posizione di tale testina è solidale con tutte le altre sugli altri piatti.
+In altre parole, se una testina è posizionata sopra una traccia, tutte le testine saranno posizionate nel cilindro a cui la traccia appartiene.
+;Cluster:
+insieme di frammenti di tracce contigui.
+Questa struttura introduce una geometria fisica del disco che consta in una serie di "coordinate" CHS, esprimibili indicando cilindro, testina, settore.
+In questo modo è possibile indirizzare univocamente ciascun blocco di dati presente sul disco.
+Ad esempio, se un disco rigido si compone di 2 dischi (o equivalentemente 4 piatti), 16384 cilindri (o equivalentemente 16.384 tracce per piatto) e 16 settori, e ciascun settore di una traccia ha una capacità di 4096 byte, allora la capacità del disco sarà di 4 × 16384 ×
+16 × 4096 byte, ovvero 4 GB.
+Il fattore di interleaving è il numero dei settori del disco rigido che si deve saltare per leggere consecutivamente tutti quelli della traccia.
+Ciò dipende strettamente dalle caratteristiche prestazionali del disco rigido stesso, cioè dalla velocità di rotazione del disco, dal movimento dei seeker con le relative testine e dalla velocità di lettura-scrittura della stessa testina.
+Tale processo è stato introdotto poiché inizialmente le CPU, che ricevevano e rielaboravano i dati letti, compivano queste azione ad una velocità inferiore della velocità di lettura/scrittura sul disco rigido, quindi, una volta rielaborati i dati provenienti da un settore, la testina si troverebbe già oltre l'inizio del settore successivo.
+Alternando i settori in modo regolare e leggendoli secondo lo specifico interleaving factor, si velocizzava il disco rigido e il calcolatore.
+I moderni dischi rigidi non necessitano di interleaving.
+Struttura di un settore
+Il settore è l'unità più piccola della formattazione di basso livello che riguarda la struttura fisica del disco rigido .
+Generalmente i settori sono raggruppati dal punto di vista logico in cluster per motivi di efficienza, quindi quando parliamo di cluster ci riferiamo a un gruppo di settori.
+Si ricordi che un file occupa sempre almeno un cluster.
+Per accedere a un settore bisogna specificare la superficie (platter), la traccia e il settore stesso.
+Il settore non è un semplice spazio sul disco memorizzabile, ma è dotato anch'esso di una struttura particolare che linearmente può essere sintetizzata così (la dimensione di un settore è variabile tra 32 byte e 4 KB, solitamente 512 byte):
+L'IRG è InterRecordGap, cioè la parte smagnetizzata della traccia che serve a preannunciare l'inizio del settore (o la sua fine).
+La parte nominata "SYN,SYN" sono dei byte noti per il clock di lettura, cioè servono a sincronizzare un clock di lettura attuale, generato dal PLL e dal VCO combinati, con quello originale di scrittura.
+Al centro sta l'"HEADER", parte del settore dove sono memorizzate le informazioni necessarie alla localizzazione dello stesso settore su tutto il disco rigido, cioè dove in quel momento la testina sta leggendo-scrivendo.
+Sicuramente la parte di maggiore rilievo è quella "DATI", cioè dove i dati sono stati impacchettati attraverso record in modo che il rapporto tra dati "utili" e le informazioni sia alto:
+devono essere maggiori i dati allocati nel settore che le informazioni di allocamento del settore stesso.
+Altra importante parte della struttura di un settore è il "BCC", block check character.
+Tale parte del settore è il risultato di una funzione calcolata sul blocco "dati" e il suo scopo è di confermare la corretta lettura delle informazioni, cioè dei dati e di rendere evidente un eventuale errore di lettura.
+Di recente è stata introdotta la denominazione commerciale Advanced Format, tutti i costruttori applicano uno speciale logo inconfutabilmente discernibile su tutti i dischi fissi che hanno i settori più grandi di 512 bytes utilizzando questa denominazione comune.
+Ogni costruttore adotta una struttura peculiare per i singoli settori dei dischi AF che contiene, oltre a parti omologhe di quelle descritte, un vero e proprio CRC ed altri parametri costruttivi proprietari a seconda del modello e della destinazione d'uso dello specifico prodotto.
+Settore di avvio di SO
+Nel caso di dischi rigidi con sistema operativo (SO) installato, il primo settore del disco, noto come settore di avvio, è il cosiddetto Master Boot Record (MBR) che contiene le istruzioni di avvio (boot) del sistema operativo su di esso installato e la tabella delle partizioni presenti nel disco.
+Nel caso di hard disk partizionato, ciascuna partizione contiene anche un proprio settore di avvio eventualmente lanciato dall'MBR.
+Caratteristiche prestazionali
+I dischi rigidi moderni hanno capacità e prestazioni enormemente superiori a quelle dei primi modelli, ma poiché nel frattempo la velocità e le prestazioni delle memorie ad accesso casuale (RAM e ROM) sono aumentate molto di più, la loro velocità nella lettura e scrittura dei dati restano comunque di diversi ordini di grandezza al di sotto delle prestazioni della RAM e della componentistica a stato solido che equipaggia un computer.
+Per questo motivo il disco rigido è spesso la causa principale del rallentamento di un computer (collo di bottiglia) soprattutto quando, a causa di una memoria RAM inferiore alla memoria virtuale richiesta dai programmi in esecuzione, il sistema operativo è costretto ad effettuare un gran numero di operazioni di swap tra il disco e la memoria centrale.
+Le caratteristiche prestazionali principali di un disco rigido sono:
+La capacità di memorizzazione è in genere espressa in gigabyte (GB).
+I produttori usano i gigabyte decimali, invece delle approssimazioni per potenze di due usate per la memoria.
+Questo significa che la capacità di un disco rigido è in realtà un poco più piccola di quella di un modulo di memoria con la stessa capacità, e lo scarto aumenta all'aumentare delle dimensioni.
+Quando la capacità è espressa in GB, il fattore di correzione è di (1000/1024)3, pari a circa 0,93, per cui un disco rigido da 320 GB ha una capacità effettiva di circa 298 GiB. Attualmente (aprile 2017) i dischi rigidi si trovano in vendita con capacità fino a 10 TB.
+Alcune aziende accorpano più dischi in un unico box, si tratta di un espediente per poter offrire la massima capacità di archiviazione nel minimo spazio, ad es: Lacie Big Disk, Maxtor Shared Storage, ecc.
+La capacità può essere aumentata incrementando la densità con cui le informazioni vengono memorizzate sui piattelli che compongono il disco rigido o impiegandone un numero maggiore.
+Il tempo di accesso è la variabile più importante nel determinare le prestazioni di un disco rigido (conoscendo il modello facilmente si può risalire ai dati tecnici dell'unità compreso il tempo di accesso;
+molti produttori di computer non menzionano questo dato e a volte nemmeno la marca e il modello).
+Si tratta del tempo medio necessario perché un dato, residente in un punto casuale del disco, possa essere reperito.
+Il tempo impiegato dipende dalla velocità della testina a spostarsi sulla traccia dove risiede il dato e dalla velocità di rotazione del disco;
+maggiore è la velocità e più breve è il tempo impiegato dal dato a ripassare sotto la testina nel caso questa non fosse arrivata in tempo sul dato, durante la rotazione precedente (latenza rotazionale).
+I produttori cercano perciò di realizzare testine sempre più leggere (che possono spostarsi più in fretta perché dotate di minore inerzia) e dischi che girano più velocemente.
+Il tempo di accesso tipico per un disco rigido da 7200 rpm
+è di circa 9 millisecondi (ms), per uno da 15.000 rpm è inferiore a 4 ms.
+La velocità di trasferimento è la quantità di dati fornita dal disco rigido in un determinato tempo (in genere si prende 1 secondo come riferimento).
+Usare dischi che ruotino più velocemente o incrementare la densità di memorizzazione porta ad un miglioramento diretto della velocità di trasferimento.
+Va ricordato che la velocità di trasferimento cala in modo proporzionale al numero di discontinuità nei settori che compongono il file ricercato (vedi frammentazione).
+Oltre alle tre viste sopra, altre caratteristiche influenzano in misura minore le prestazioni di un disco rigido.
+Tra queste:
+Il buffer è una piccola memoria cache (in genere di alcuni megabyte) posta a bordo del disco rigido, che ha il compito di memorizzare gli ultimi dati letti o scritti dal disco.
+Nel caso in cui un programma legga ripetutamente le stesse informazioni, queste possono essere reperite nel buffer invece che sul disco.
+Essendo il buffer un componente elettronico e non meccanico, la velocità di trasferimento è molto maggiore, nel tempo, la capacità di questa memoria è andata sempre aumentando, attualmente (aprile 2017) 64 MB o anche 128 MB sono una dimensione abbastanza usuale, fino ad arrivare a 256 MB nei modelli di punta.
+Linterfaccia di collegamento tra il disco rigido e la scheda madre (o, più specificatamente, il controller) può influenzare le prestazioni perché specifica la velocità massima alla quale le informazioni possono essere trasferite da o per il disco.
+Le moderne interfacce tipo ATA133, Serial ATA o SCSI possono trasferire centinaia di megabyte per secondo, molto più di quanto qualunque singolo disco fisso possa fare, e quindi l'interfaccia non è in genere un fattore limitante.
+Il discorso può cambiare nell'utilizzo di più dischi in configurazione RAID, nel qual caso è importante utilizzare l'interfaccia più veloce possibile, come per esempio la Fibre Channel da 2 Gb/s.
+Tempo di accesso a disco
+Il tempo di accesso a disco è influenzato da cinque fattori:
+* Controller Overhead (overhead del controllore):
+è il tempo necessario alla gestione dei dati e l'invio dell'opportuno interrupt;
+è il tempo in assoluto minore;
+* Seek time (tempo di ricerca):
+è il tempo necessario a spostare la testina sulla traccia;
+è il fattore più critico poiché si tratta di un movimento meccanico e non di un impulso elettrico;
+questo fa sì che non si possa scendere al di sotto di qualche decina di millisecondo;
+* Assessment time (tempo di assestamento):
+è il tempo necessario all'assestamento della testina sulla traccia dopo lo spostamento;
+spesso viene inglobato nel Seek time;
+* Latency time (tempo di latenza):
+(anche rotational latency) è il tempo necessario perché, a causa della rotazione del disco, l'inizio del settore desiderato arrivi a trovarsi sotto la testina;
+ovviamente dipende dalla velocità dello spindle;
+per esempio con una velocità (tipica) di 5400
+rpm, il tempo di latenza massimo è di circa 11 millisecondi;
+* Rotational time (tempo di rotazione):
+è il tempo necessario al settore per passare sotto la testina, tempo durante il quale il settore viene letto o scritto.
+Tempo di accesso:
+ControllerOverhead + SeekTime + Latency + RotationalTime
+Metodi di scrittura HD
+Esistono diverse tecniche per la scrittura del supporto magnetico:
+*Registrazione longitudinale, registrazione standard, dove la registrazione e lettura magnetica rimane a livello superficiale del supporto, con tale tecnologia si è raggiunta una densità pari a 0,1-0,2 terabit per pollice quadrato.
+*Registrazione perpendicolare o PMR (Perpendicular Magnetic Recording), ideata da parte di Hitachi nel 2005 ha aperto la strada ad una nuova generazione di dischi rigidi, con capacità dieci volte maggiori a parità di dimensioni (o, parallelamente, dimensioni 10 volte minori a parità di capacità), grazie ad una maggiore densità con cui le informazioni vengono memorizzate nel materiale magnetizzato che costituisce i piatti del disco, con tale tecnologia si è raggiunta una densità pari a 1,1 terabit per pollice quadrato.
+*SMR (Shingled Magnetic Recording), il modulo di lettura delle testine è più piccolo rispetto a quello di scrittura, tale tecnica modifica la posizione relativa tra questi due moduli, in modo che in fase di scrittura le tracce siano leggermente sovrapposte, lasciando integra solo la porzione che andrà poi effettivamente letta dal modulo di lettura, con tale tecnologia si è raggiunta una densità pari a 1,4 terabit per pollice quadrato.
+*HAMR (Heat Assisted Magnetic Recording), cerca di aumentare la densità tramite l'uso di un laser che scalda il supporto magnetico in fase di scrittura, tale tecnologia non è stata utilizzata per via dei suoi alti costi di produzione e affidabilità ridotta, con tale tecnologia si è raggiunta una densità pari a 1,66 terabit per pollice quadrato.
+*MAMR (Microwave Assisted Magnetic Recording), variazione dell'HAMR, dove viene utilizzato un "Spin Torque Oscillator" che lavora a una frequenza sufficientemente alta (20-40 GHz), che oltre ad abbattere i costi permette un ulteriore incremento della densità, che con tale tecnologia si è raggiunta una densità pari a 4 terabit per pollice quadrato.
+Altre caratteristiche
+I dischi rigidi sono prodotti in 7 dimensioni standardizzate chiamate "fattore di forma", e si riferiscono al diametro del disco espresso in pollici:
+8" - 5,25" - 3,5" - 2,5" - 1,8" - 1" - 0,85".
+I primi (3,5") sono utilizzati nei personal computer chiamati desktop, nei server, e nelle unità NAS, unità remote di memorizzazione in reti di calcolatori e ultimamente disponibili anche per uso casalingo.
+I secondi (2.5") nei computer portatili e dovunque ci sia poco spazio e/o potenza di alimentazione, i più piccoli nei dispositivi tascabili.
+Tutti i formati sono utilizzati anche per realizzare memorie di massa esterne ai computer, collegabili tramite un cavo USB o FireWire, adottate quando sia necessario ampliare la capacità di memorizzazione del computer o quando occorra trasportare agevolmente grandi quantità di dati.
+Nel formato 3.5" l'alimentazione elettrica avviene tramite un alimentatore collegato alla rete elettrica;
+il formato 2,5" solitamente è alimentato direttamente dal cavo dell'interfaccia;
+i più piccoli dalla batteria del dispositivo in cui risiedono.
+Attualmente (aprile 2017), la capacità massima di archiviazione di questi dispositivi è di 10 terabyte.
+Il miglior rapporto tra capacità e prezzo sono i dispositivi da 1 terabyte;
+due costruttori, Seagate Technology e Western Digital forniscono queste periferiche differenziandone i modelli in base alle prestazioni, velocità e consumo di corrente, le unità destinate ai RAID hanno un MTBF di 2.000.000 ore (228 anni).
+I dischi rigidi da 2,5" sono più piccoli e meno esigenti, ma al prezzo di capacità e prestazioni sensibilmente minori e costi maggiori (ad esempio, una velocità di rotazione di 4200 o 5400 rpm, invece dei 7200 rpm o più dei dischi da 3,5").
+Il disco rigido della dimensione di un pollice è il più recente immesso sul mercato e corrisponde al formato compact flash di tipo II, grandi solo due o tre centimetri e spessi quanto una carta di credito, ma capaci di memorizzare comunque alcuni gigabyte di dati (vedi IBM Microdrive).
+I dischi rigidi più veloci, avendo motori più potenti, sviluppano molto calore.
+Alcuni devono addirittura essere raffreddati con ventole apposite.
+Il suono emesso da un disco è composto da un sibilo continuo, generato dalla rotazione dei dischi e da un crepitio intermittente, di cui ogni clic corrisponde ad un movimento della testina.
+In molti casi il rumore generato può risultare fastidioso, pertanto i produttori tendono ad adottare soluzioni tecniche per ridurlo al minimo, inevitabilmente però, un disco veloce risulta più rumoroso di uno lento;
+tra i vari dati forniti dal costruttore per un dato modello, compare anche il valore di rumore espresso in dB.
+Per maggiore flessibilità, in alcuni dischi la velocità di spostamento della testina è impostabile via software;
+alcuni produttori, per ridurre di qualche decibel il rumore, adottano la bronzina come supporto dell'albero rotante al posto del cuscinetto.
+Anomalie nei suoni emessi dal disco rigido sono indicativi di severi danni meccanici, i quali rendono i dati inaccessibili e solo attraverso sofisticate tecniche di recupero dati, questi possono essere in alcuni casi resi nuovamente disponibili.
+Un significativo miglioramento si registra anche nei consumi di energia elettrica (Wh), sempre in diminuzione grazie al sempre più sofisticato controllo delle parti meccaniche in movimento, come ad esempio la gestione della velocità di spostamento delle testine proporzionale al tempo che impiegheranno ad arrivare sul punto in cui passerà il dato, è inutile arrivare prima sul posto e poi dover aspettare, meglio arrivare giusto in tempo con velocità più lenta, significa meno corrente consumata e minor rumore.
+Interfacce
+L'hard-disk è messo in comunicazione con la scheda madre e il processore attraverso varie possibili interfacce.
+Interfaccia IDE-ATA
+L'interfaccia più comune fino ai primi anni 2010 era quella IDE (Integrated Drive Electronics, "memoria di massa con elettronica integrata" ), poi evolutasi in EIDE e Serial ATA.
+Un cavo piatto, solitamente grigio, è usato per connettere il disco rigido alla scheda madre.
+Spesso il cavo ha un terzo connettore per poter usare un altro disco (o altre periferiche ATA come i lettori cd) con lo stesso cavo.
+In tal caso, per poter distinguere tra le due periferiche, esse devono essere configurate una come master (padrone) e una come slave (schiavo).
+Questa configurazione può avvenire sia manualmente, spostando dei jumper presenti sulle periferiche, sia automaticamente se esse sono impostate come cable select.
+In quest'ultimo caso è la scheda madre a decidere chi è il master e chi lo slave.
+Questo è particolarmente utile quando si utilizzano dischi rigidi vecchi, o nel caso di bassa compatibilità tra unità diverse (ad esempio due dischi rigidi, ma anche un disco rigido e un lettore CD).
+Una scheda madre ha solitamente due connettori IDE (primario e secondario, detti spesso canali e impropriamente controller), ad ognuno dei quali è possibile connettere due unità per un totale di quattro periferiche.
+Non mancano schede madri con quattro connettori.
+Il cavo IDE non porta l'alimentazione elettrica necessaria per il funzionamento delle periferiche, che quindi devono essere connesse all'alimentatore per mezzo di un cavo separato.
+Tipicamente, un personal computer ha un disco fisso come master sul canale IDE primario, ma a seconda del sistema operativo utilizzato esso può risiedere su una qualunque interfaccia IDE.
+Ecco un esempio delle possibili connessioni all'IDE di un pc:
+** slave:
+lettore cd (con il jumper su cable select)
+Impostazione di master, slave, cable select
+Ogni unità che può essere connessa ad un cavo IDE possiede un gruppo di pin nella parte posteriore, tra il connettore per il cavo IDE e quello per l'alimentazione, che possono essere collegati a due a due da un apposito jumper.
+La posizione dei jumper per ottenere le diverse funzioni è normalmente descritta sull'etichetta che riporta le caratteristiche del disco rigido.
+Di norma, il disco primario è impostato come master, e un disco secondario come slave.
+Inoltre l'impostazione master è il più delle volte obbligatoria nel caso il disco rigido venga utilizzato in un box come disco esterno.
+Serial ATA
+Negli ultimi anni con l'evoluzione delle periferiche di memorizzazione l'interfaccia ATA ha mostrato i suoi limiti tecnologici e quindi è stata sostituita da una nuova versione chiamata Serial ATA o SATA.
+Questa nuova interfaccia ha come principale caratteristica quella di trasmettere i dati in modo seriale e quindi invece di utilizzare molteplici fili per trasmettere i dati ne utilizza solo due, uno per trasmettere i dati e uno per ricevere, oltre a due fili per le masse.
+In realtà il cavo è a sette fili dato che lo standard utilizza anche alcuni fili come segnali di controllo.
+Tecnologie SATA
+Recentemente nei dischi SATA è stata implementata una tecnologia ereditata dai dischi SCSI:
+l'NCQ, sigla di Native Command Queuing.
+Quando un processo richiede di accedere al disco rigido, la CPU invia una richiesta I Output) e, se il dato non è già presente in una delle cache di memoria del disco (solo nel caso di lettura dei dati), le testine vengono attivate e posizionate in modo da potere iniziare la lettura/scrittura dei dati.
+Se occorre accedere a una serie di dati non sequenziali distribuiti in varie zone del disco, le testine dovranno saltare da un cilindro all'altro, avanti e indietro.
+Per esempio, se la sequenza di accesso è 1, 4, 3, 5, 2, 6, 7 (immaginando che la sequenza numerica corrisponda all'angolo di rotazione), si perderanno parecchi cicli di rotazione prima che le testine abbiano visitato tutti i blocchi di dati.
+Con l'NCQ, il disco rigido crea una coda delle richieste di accesso, quindi le riordina (ne cambia la sequenza) per ridurre al minimo il numero di rotazioni e il tragitto delle testine in modo da eseguire tutti gli accessi nel più breve tempo possibile.
+La rotazione dei piatti e il posizionamento sulla traccia (seek) sono i due criteri per ottimizzare l'esecuzione dei comandi in coda, così da compiere il tragitto più breve per visitare tutti i blocchi di dati che la coda di comandi prevede di leggere e scrivere.
+Questo meccanismo di accodamento e riordino è paragonabile all'ottimizzazione delle consegne da parte di un postino che debba consegnare centinaia di lettere in diverse zone di una città;
+anziché esaminare una consegna per volta in sequenza e saltare continuamente da un capo all'altro della città, il postino stabilisce un percorso che richiede il tempo minore per eseguire tutte le consegne.
+Per utilizzare al meglio l'NCQ occorre che le applicazioni stabiliscano code di comandi, cosa che non succede se è in esecuzione una singola applicazione che attende la risposta a una richiesta di dati prima di inviare la richiesta successiva.
+Sono stati introdotti hard disk SATA 2 con un'interfaccia in grado di trasmettere fino a 3 Gigabit s.
+Interfaccia SCSI
+Un altro tipo di interfaccia utilizzata per hard-disk è l'interfaccia SCSI, di prestazioni più elevate rispetto alla tecnologia ATA-IDE, ma dal costo superiore, impiegata tipicamente su computer di fascia più alta.
+Operazioni su disco rigido
+In generale su disco rigido sono possibili le seguenti operazioni:
+Precauzioni
+Se si dovesse tentare una riparazione in proprio di un disco rigido senza l'adeguata strumentazione (camera bianca), si potrà talvolta arrivare allo smontaggio della parte elettronica, ma qualsiasi tentativo di aprire la parte sigillata che contiene le parti mobili del disco rigido quasi sicuramente tramuterà il problema in un danno irreversibile, in quanto anche un piccolissimo granello di polvere renderà inutilizzabile la superficie del disco;
+il vano che lo contiene è sigillato, ma non ermetico, un piccolo foro protetto da un filtro estremamente fine permette di mantenere la camera alla stessa pressione atmosferica esterna, fatta eccezione per gli HDD di ultima generazione riempiti ad elio che devono essere inevitabilmente resi ermetici.
+Solitamente i centri assistenza specializzati e professionali faranno poi pagare molto caro anche il solo tentativo di riparazione.
+Note

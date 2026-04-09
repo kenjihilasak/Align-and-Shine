@@ -1,0 +1,83 @@
+Surface réglée|Géométrie dans l'espace|Figure de géométrie|Quadrique
+En géométrie, un cône est une surface réglée ou bien un solide.
+Surface
+Cas général
+Un cône est une surface réglée définie par une droite (d), appelée génératrice, passant par un point fixe S appelé sommet et un point variable décrivant une courbe (c), appelée courbe directrice.
+On parle aussi dans ce cas de surface conique.
+Cône de révolution
+Parmi ces surfaces coniques, la plus étudiée est le cône de révolution dans lequel la courbe directrice est un cercle de centre O situé dans un plan perpendiculaire à (SO).
+Ce cône est appelé de révolution car il peut être généré simplement par la rotation d'une droite (d) passant par S autour d'un axe (Sz) différent de (d).
+La génératrice du cône fait alors un angle fixe \alpha avec l'axe de rotation.
+C'est à partir de ce cône de révolution que les mathématiciens (dont Apollonius de Perga) ont classifié un ensemble de courbes comme des coniques (intersection du cône et d'un plan) : cercles, ellipses, paraboles, hyperboles.
+Dans le repère orthonormal (S, i, j, k), l'équation du cône de révolution d'axe (Sz) et de sommet S est donnée par :
+x^2+y^2=z^2 (\tan\ \alpha)^2
+où \alpha est l'angle du cône (ou demi-angle au sommet), formé par l'axe de révolution et une génératrice.
+Sections d'un cône de révolution par un plan
+Dans les cas où le plan est parallèle ou perpendiculaire à l'axe de révolution du cône on obtient les courbes suivantes :
+* La section d'un cône de révolution par un plan perpendiculaire à l'axe de révolution est un cercle.
+* La section d'un cône de révolution par un plan parallèle à l'axe de révolution
+est
+** l'union
+de deux droites sécantes
+si le plan contient l'axe de révolution
+Plus généralement, la section d'un cône de révolution par un plan donne une conique.
+Ainsi on trouve,
+* une parabole (réduite éventuellement à une génératrice)
+lorsque le plan est strictement parallèle à une génératrice du cône
+* une ellipse (éventuellement réduite à un point) quand l'angle que forme le vecteur normal au plan et l'axe de rotation est inférieur à π/2
+- α
+* une hyperbole (éventuellement réduite à deux droites sécantes) quand l'angle que forme le vecteur normal au plan et l'axe de rotation est supérieur à π/2
+- α
+Solide
+Cas général
+On appelle aussi cône le solide délimité par la surface conique, le sommet S et un plan (P) ne contenant pas S et sécant à toutes les génératrices.
+La section du plan et de la surface s'appelle la base du cône.
+Lorsque la section est circulaire de centre O et que la droite (OS) est perpendiculaire à la section, le cône est appelé cône de révolution ou cône circulaire droit.
+C'est le cône le plus connu (cornet de glace, chapeau de clown).
+Dans ce cas, la distance séparant le sommet d'un point quelconque du cercle est constante et s'appelle lapothème du cône.
+Lorsque la courbe fermée est un polygone, on obtient une pyramide.
+Volume
+Quelle que soit la forme du cône, son volume est toujours le tiers du volume d'un cylindre de mêmes base et hauteur :
+où B est l'aire de la base et h la hauteur du cône, c'est-à-dire la distance séparant le sommet S et le plan (P).
+Cône tronqué
+Quand on coupe le cône par un plan parallèle à sa base, on obtient deux solides.
+Celui qui contient le sommet est une réduction du cône original, le second solide est un cône tronqué.
+Son volume s'exprime, en fonction de ses deux bases B1 et B2 et de sa hauteur h (la distance séparant les deux bases) selon la formule :
+Cependant, si le sommet est entre les bases, la formule devient
+Cas du cône de révolution
+Dans le cas particulier du cône de révolution, les formules du volume V et de l'aire A (aire de la surface enfermant le cône: aire latérale + base circulaire)
+sont
+V = \frac\pi r^2\times h
+: A = \pi r (r+a)\,,
+où r est le rayon du cercle de base, h la hauteur du cône et
+a = \sqrt
+lapothème du cône.
+Aire latérale
+L'aire latérale
+Al (sans la base)
+vaut
+A_l
+\pi r \sqrt
+\pi r^2 \sqrt
+or, d'après les relations trigonométriques dans le triangle rectangle
+, on a
+1 + \frac = \frac
+où α est le demi-angle au sommet
+Si A0 est l'aire de la base π⋅r 2, on a alors
+: A_l = \frac
+Cette formule sert par exemple à calculer l'aire du front de flamme dans le cas d'une flamme conique, donc la consommation de gaz et la puissance de cette flamme.
+Section du cône de révolution par un plan
+Quand on coupe un solide, cône de révolution, par un plan parallèle à la base, on obtient un cercle.
+Le rayon r1 de ce cercle s'obtient en fonction du rayon r de la base, de la hauteur h du cône et de la distance h1 entre le plan et le sommet du cône en utilisant le théorème de Thalès :
+\frac=\frac
+Quand on coupe ce même cône par un plan contenant son axe de révolution
+, on obtient un triangle isocèle de base 2r et de hauteur
+Patron ou développement d'un cône de révolution
+Pour obtenir le patron d'un cône de révolution de rayon r et de hauteur h, il faut d'abord calculer l'apothème
+a=\sqrt.
+Il suffit alors de tracer un cercle de rayon r et une portion de cercle de rayon a dont l'angle au centre vaut \frac de l'angle plein.
+Voir aussi
+Articles connexes
+Lien externe
+A. Javary, Traité de géométrie descriptive, 1881 (sur Gallica) : http:/ AfficherNoticeServlet?idNotice=37251169 Cônes et cylindres, sphère et surfaces du second degré
+6en35afck3b1vzzprtgvwkdpu5n4025

@@ -1,0 +1,215 @@
+Il microprocessore è una tipologia particolare di circuito elettronico che si contraddistingue per essere interamente costituita da uno o più circuiti integrati e per questo di dimensioni molto ridotte.
+Il microprocessore è attualmente , montato direttamente su una scheda madre e utilizzato dalla quasi totalità dei moderni computer, con la caratteristica di utilizzare, per tutte le sue elaborazioni, un insieme di istruzioni fondamentali di base (instruction set),
+Tipologie di microprocessori
+Tipologie particolari di microprocessori sono le seguenti:
+Microprocessore monolitico
+Un microprocessore monolitico è un microprocessore costituito da un unico circuito integrato.
+Questo importante traguardo è stato raggiunto nei primi anni settanta del secolo scorso grazie ai notevoli e sorprendenti passi avanti compiuti dalla .
+Oggi invece il microprocessore è tipicamente implementato come microprocessore monolitico.
+Attualmente quindi il microprocessore monolitico è una tipologia di microprocessore estremamente diffusa.
+Attualmente la tendenza è di inserire anche più processori nel medesimo circuito integrato.
+In particolare, da una decina d'anni, la tendenza è di inserire, nel medesimo circuito integrato, molteplici CPU tutte identiche (tale circuito integrato è chiamato "processore multicore").
+Da qualche anno inoltre è in atto la tendenza ad inserire, nel medesimo circuito integrato, oltre a molteplici CPU, anche una GPU.
+Microprocessore general purpose
+Un microprocessore general purpose è un microprocessore progettato per essere utilizzato nelle elaborazioni dati più varie.
+È quindi utilizzato come CPU nei computer general purpose, ma anche in altri compiti.
+Ad esempio, le periferiche che necessitano di grande potenza di calcolo, possono essere dotate di un proprio processore al fine di non gravare sul processore centrale.
+E spesso per tali periferiche vengono utilizzati microprocessori general purpose.
+Un esempio di periferiche in cui vengono utilizzati microprocessori general purpose sono le stampanti.
+Microprocessore special purpose
+Un microprocessore special purpose è un microprocessore progettato per essere utilizzato in particolari elaborazioni dati.
+Un esempio di microprocessore special purpose è il microcontrollore.
+Altri esempi di microprocessori special purpose sono i microprocessori che implementano digital signal processor, unità di elaborazione grafiche e unità di calcolo in virgola mobile.
+Molti microprocessori special purpose sono dotati di limitate possibilità di programmazione o non sono completamente programmabili.
+Per esempio le prime GPU sviluppate negli anni novanta non erano programmabili o supportavano una limitata programmazione.
+Solo recentemente le GPU hanno acquisito una certa libertà di programmazione.
+L'RCA 1802 era un microprocessore specializzato non perché fosse limitato nella programmazione, bensì perché era progettato per applicazioni spaziali e quindi aveva delle particolari caratteristiche.
+Il sistema venne definito a progetto statico dato che poteva variare la frequenza di funzionamento in modo arbitrario fino a raggiungere gli 0 Hz in modo da andare in stop totale.
+Le sonde Voyager, Viking e Galileo per utilizzare la minor potenza elettrica durante il viaggio spaziale mettevano in stop il processore.
+Dei timer o dei sensori risvegliavano il processore alzandone la frequenza quando era necessario che il sistema elaborasse dei dati per la navigazione, per il controllo orbitale, per l'acquisizione dati o per le comunicazione radio.
+Storia
+La costruzione dei microprocessori è stata resa possibile dall'avvento della tecnologia LSI, fondata sulla nuova tecnologia "Silicon Gate Technology" sviluppata dall'italiano Federico Faggin alla Fairchild nel 1968:
+integrando una CPU completa in un solo chip permise di ridurre significativamente i costi dei calcolatori.
+Dagli anni ottanta in poi i microprocessori sono praticamente l'unica implementazione di CPU.
+Dalla loro introduzione ad oggi, l'evoluzione del microprocessore ha seguito con buona approssimazione la legge di Moore, una legge esponenziale che prevede il raddoppio del numero di transistor integrabili sullo stesso chip (e quindi, nella visione di Moore, delle prestazioni) ogni 18 mesi.
+L'incremento prestazionale verificatosi dalla fine degli anni 80 però è dovuto soprattutto al miglioramento dell'architettura dei calcolatori, attraverso l'adozione di tecnologie RISC, come l'uso di pipeline e di gerarchie di memorie cache.
+Come altre innovazioni tecnologiche, il microprocessore monolitico apparve appena la tecnologia lo consentì dato che l'idea di integrare i componenti di una CPU in un singolo circuito integrato era una soluzione logica e già alla fine degli anni 60 erano state articolate architetture di microprocessore.
+Quasi contemporaneamente infatti, iniziarono lo sviluppo l'Intel 4004, il Texas Instruments TMS 1000, e il Garrett AiResearch Central Air Data Computer.
+Nel 1968 Garrett iniziò a sviluppare un sistema elettronico per competere con i sistemi elettromeccanici utilizzati nei caccia militari.
+L'obiettivo del progetto era equipaggiare il nuovo F-14 Tomcat che allora era in sviluppo.
+Il progetto venne completato nel 1970 e utilizzava integrati MOS per il core della CPU.
+Il progetto era semplice e innovativo e vinse sui competitori elettromeccanici venendo utilizzato fin dai primi Tomcat.
+La marina americana però considerò il progetto tanto innovativo che impedì la pubblicazione di articoli sul sistema fino al 1997, per cui questo microprocessore rimase semisconosciuto.
+Si trattava comunque di una implementazione della CPU in più di un chip e quindi non era un vero microprocessore (che è per definizione una CPU in un singolo chip).
+Texas Instruments (TI) sviluppò il sistema TMS 1000 a 4 bit per applicazioni embedded pre-programmate e quindi non utilizzabile per altre applicazioni.
+Il 17 settembre 1971 annunciò il modello TMS 1802NC, programmabile, che poteva essere utilizzato per implementare un calcolatore.
+L'Intel 4004, processore a 4 bit, già in produzione per la ditta Busicom nel giugno del 1971, venne presentato per l'uso generale il 15 novembre 1971 e fu sviluppato da Federico Faggin (che ne ideò il design e lavorò al progetto dal 1970 fino al suo debutto sul mercato nel 1971) e Marcian Hoff (che ne formulò l'architettura nel 1969).
+Il primo microprocessore commerciale fu il 4004 della Intel che creò e fece capire il mercato dei microprocessori con la possibilità di nuove applicazioni che non erano possibili prima del suo avvento
+TI presentò la prima richiesta di brevetto per il microprocessore.
+Gary Boone ottenne l'assegnazione del brevetto per l'architettura di un microprocessore a singolo chip il 4 settembre 1973.
+Non è mai stato reso noto se realmente l'azienda avesse avuto il microprocessore funzionante nei suoi laboratori.
+Comunque sia nel 1971 che nel 1976 Intel e TI stipularono un accordo in cui Intel pagava a TI i diritti per l'utilizzo del suo brevetto.
+Un riassunto della storia è contenuto nella documentazione che Intel presentò in tribunale quando fu chiamata in giudizio da Cyrix per violazione dei brevetti e TI intervenne come proprietario del brevetto originario.
+Interessante è il fatto che recentemente Intel e TI abbiano affermato di avere brevetti che potrebbero coprire il brevetto del "microprocessore".
+In http:/ ~me179 patents case6article1.html questa pagina web viene riportato il caso singolare di Gilbert Hyatt che riuscì ad ottenere nel 1990 il brevetto sul microprocessore.
+Questo brevetto fu poi invalidato nel 1996 per il fatto che l'architettura di Hyatt non sarebbe stata realizzabile con la tecnologia disponibile nel 1970.
+Sempre sull'argomento, sulla rivista McMicrocomputer n. 101 del 11/1990, fu pubblicata un'intervista sia ad Gylbert Hyatt che a Federico Faggin, in cui si approfondirono risvolti poco chiari sulla condotta tenuta dalla Intel.
+Il caso dimostra quanto, più che l'idea e l'architettura, fosse critica e determinante l'implementazione in un chip producibile a basso costo.
+TI e Intel pre-datano il brevetto descrivendo un microcontrollore che potrebbe coprire il brevetto del microprocessore essendo il progetto indicato concettualmente simile:
+Gary Boone e Michael J. Cochran presso la TI ne depositarono il brevetto, , che pur essendo più simile a un microcontroller potrebbe coprire anche quello del microprocessore.
+Secondo "A History of Modern Computing'", (MIT Press), pp. 220-21, Intel venne contattata dalla Computer Terminals Corporation (in seguito nota come Datapoint) di San Antonio TX per l'acquisto dell'integrato che stava sviluppando.
+In seguito Datapoint decise di non utilizzare l'integrato e Intel lo immise sul mercato come 8008 nell'aprile del 1972, riscuotendo un certo successo, creando il primo vero mercato per i microprocessori:
+fu la base del famoso computer Mark-8 venduto in scatola di montaggio da Radio-Electronics nel 1973.
+Microprocessori a 8 bit
+Il 4004 venne seguito nel 1972 dall'8008, il primo microprocessore a 8 bit del mondo, evoluto successivamente nel più famoso Intel 8080 (1974).
+Dal progetto 8080 venne derivato lo Z80 prodotto nel 1976 dalla ZiLOG, società fondata da Federico Faggin con Ralph Ungerman nel 1975.
+Compatibile a livello binario con i programmi scritti per l'8080, lo Z80 includeva moltissimi miglioramenti che lo fecero rapidamente preferire all'8080 dagli utenti.
+Intel reagì producendo nel 1977 una propria versione migliorata dell'8080, l'8085, anch'essa compatibile a livello binario con i programmi scritti per l'8080, ma molto inferiore allo Z80.
+Motorola presentò nell'agosto del 1974 il 6800, primo processore ad adottare un registro indice.
+Molto versatile, ebbe un discreto successo, oscurato in parte l'anno successivo dal lancio del MOS Technology 6502:
+era ispirato all'architettura del 6800, dotato di alcune soluzioni tecniche migliorative e soprattutto caratterizzato da un costo drasticamente inferiore (25 USD contro i 175 USD del 6800), cosa che lo rese estremamente popolare.
+Il 6502 fu scelto, ad esempio, da Steve Wozniak per l'Apple I nel 1976 ed il successivo Apple II nel 1977.
+Motorola reagì con il 6809 (1979), uno dei più potenti e ortogonali processori a 8 bit mai sviluppati:
+non usava microcodice, e l'unità di controllo era interamente in logica cablata.
+I successori del 6809 risultarono essere troppo complessi per poter mantenere questo approccio e vennero equipaggiati con una tradizionale unità logica a microcodice.
+Il progetto 6809 è alla base di una serie molto diffusa di microcontrollori tuttora utilizzata in sistemi embedded.
+Western Design Center, Inc. (WDC) presentò nel 1982 il WDC 65C02 con tecnologia CMOS e dette in licenza il progetto a molte altre ditte che svilupparono i processori alla base dei computer Apple IIc e IIe.
+Il processore fu utilizzato anche in pacemaker, defibrillatori, automobili, prodotti industriali e di consumo.
+WDC fu pioniera nella vendita delle proprietà intellettuali e fu seguita anni dopo da Architettura ARM e altre ditte che basano i loro guadagni sullo sviluppo e sulla vendita delle proprietà intellettuali.
+Un altro processore a 8 bit che ebbe una discreta fama fu il Signetics 2650 un processore con un'architettura innovativa e un potente set di istruzioni.
+Tutti questi processori furono alla base della "rivoluzione" degli home computer, poiché grazie al loro basso prezzo permisero la realizzazione di veri computer ad un costo accessibile.
+Il primo microprocessore utilizzato per applicazioni spaziali fu l'RCA 1802 (conosciuto anche come CDP1802 o RCA COSMAC) (presentato nel 1976) che venne utilizzato dalle sonde NASA Voyager, Viking e dalla sonda Galileo (lanciata nel 1989 e arrivata nel 1995 su Giove).
+L'RCA COSMAC era la prima implementazione della tecnologia CMOS.
+Il CDP1802 venne utilizzato dato che era a basso consumo e dato che era prodotto con una tecnologia (Silicon on Sapphire) che lo rendeva meno sensibile ai raggi cosmici e alle cariche elettrostatiche.
+Il 1802 può essere considerato il primo microprocessore anti radiazione della storia.
+Microprocessori a 16 bit
+Il primo microprocessore a 16 bit fu il National Semiconductor IMP-16 basato su più integrati.
+Venne presentato nel 1973 e una versione a 8 bit chiamata IMP-8 venne presentata nel 1974.
+Nel 1975 National presentò il primo microprocessore a 16 bit su singolo chip il PACE, che fu seguito dalla versione NMOS chiamata INS8900.
+Altri sistemi multichip a 16 bit furono l'LSI-11 prodotto da Digital Equipment Corporation per il minicomputer PDP 11/03 e il MicroFlame 9440 della Fairchild Semiconductor prodotto tra il 1975 e il 1976.
+Il primo microprocessore a 16 bit su singolo chip fu il Texas Instruments TMS-9900 un processore compatibile con la linea TI 990 di minicomputer.
+Il 990 venne utilizzato dai minicomputer TI990 4A e dai computer TM990 prodotti da terze parti.
+Il processore era inserito in un integrato ceramico da 64 pin di tipo DIP mentre molti altri microprocessori a 8 bit dell'epoca utilizzavano un più economico package a 40 pin di tipo plastico.
+Il successivo TMS 9980 venne sviluppato per competere con l'Intel 8080 e venne inserito in un package plastico di 40 pin.
+Il processore era compatibile con il set di istruzioni TI 990 ma per poter utilizzare solo 40 pin faceva muovere 8 bit di dati per ciclo di clock e gestiva un indirizzamento di 16 kB. Il successore TMS 9995 aveva una nuova architettura.
+La famiglia venne espansa con il 99105 e il 99110.
+La Western Design Center, Inc. presentò nel 1984 il CMOS 65C816, una versione a 16 bit del WDC CMOS 65C02.
+Il 65C816 fu il cuore dell'Apple IIGS e del Super Nintendo Entertainment System, uno dei progetti a 16 bit più famosi dell'epoca.
+Diversamente da TI, Intel non aveva una linea di minicomputer da emulare e decise di usare l'8085 come base per il suo progetto a 16 bit, realizzando così l'Intel 8086, capostipite di quella che poi sarebbe diventata la famiglia X86, i cui discendenti sono molto diffusi nei moderni personal computer.
+Realizzò anche una versione con il bus esterno a 8 bit, l'8088, che venne impiegato nel primo IBM PC modello 5150.
+Successivi sviluppi furono gli Intel 80186, 80286 e nel 1985 l'Intel 80386, la prima versione a 32 bit compatibile X86.
+La prima Memory management unit (MMU) integrata in un microprocessore venne sviluppata da Childs e altri per Intel e ricevette il brevetto .
+Microprocessori a 32 bit
+I progetti a 16 bit erano disponibili da pochi anni quando sul mercato iniziarono ad apparire architetture a 32 bit.
+Il primo microprocessore a 32 bit fu il BELLMAC-32A prodotto dalla AT&T Bell Labs e i primi esemplari furono prodotti nel 1980 mentre la produzione in serie iniziò nel 1982 .
+Nel 1984 dopo lo smembramento della AT&T il microprocessore venne rinominato WE 32000 (WE da Western Electric) e vennero sviluppati due successori, il WE 321000 e il WE 32200.
+Questi microprocessori vennero utilizzati nei minicomputer AT&T 3B5 e 3B15.
+Il 3B2 fu il primo superminicomputer da tavolo.
+I processori vennero utilizzati anche in Companion il primo computer portatile a 32 bit e in Alexander il primo supermicrocomputer grande quanto un libro.
+Il sistema era dotato anche di cartucce ROM, simili a quelle utilizzate da alcune console attuali.
+Tutte queste macchine eseguivano l'originale Unix sviluppato dai Bell Labs e includevano il primo gestore grafico chiamato xt-layer.
+Il primo processore a 32 bit ad arrivare sul mercato dei personal computer fu però il Motorola 68000 presentato nel 1979.
+Il 68000 possedeva un'architettura interna a 32 bit ma un bus dati a 16 bit per ridurre il numero di pin del package.
+Motorola normalmente lo indicava come un processore a 16 bit sebbene l'architettura interna fosse chiaramente a 32 bit.
+La combinazione di alta velocità, ampio spazio di indirizzamento (16 MB) e costo contenuto ne fecero un processore molto diffuso:
+venne usato dall'Apple Lisa e dal Macintosh e da molti altri sistemi come l'Atari ST e l'Amiga, e anche Olivetti lo impiegò sulla sua linea di minicomputer denominata L1.
+Dato il successo ottenuto, Motorola sviluppò una serie di successori del 68000:
+il secondo della famiglia fu l'MC 68010 che aggiunse il supporto della memoria virtuale.
+Nel 1984 presentò il Motorola 68020, la prima versione con bus dati e indirizzi a 32 bit.
+Il 68020 fu molto popolare nei superminicomputer Unix e diverse compagnie produssero macchine basate su questo microprocessore.
+Il successivo Motorola 68030 (1987) introdusse la MMU nel microprocessore;
+la famiglia 68000 in quel periodo era l'unica a contendere la palma di processori per personal computer alla famiglia x86, con un considerevole vantaggio in termini di prestazioni e versatilità.
+Il successivo Motorola 68040 (1991) inserì il coprocessore matematico nel microprocessore e migliorò notevolmente le sue prestazioni grazie all'adozione della pipeline.
+Tuttavia Motorola, operando anche in altri mercati oltre a quello dei microprocessori, non fu in grado di tenere il passo con Intel e le varie case produttrici di processori x86 compatibili sul piano della ricerca e dell'accelerazione tecnologica:
+i successivi processori della serie, il 68050 e 68060, offrivano un incremento prestazionale molto modesto, rimanendo staccati dalle prestazioni offerte dai modelli x86 compatibili di prezzo analogo.
+Alcune società avevano utilizzato il 68020 per realizzare soluzioni embedded.
+Ci fu un periodo dove il numero di 68020 utilizzati in sistemi embedded era uguale a quello dei personal computer con processore Pentium https:/ web http:/ 98/9807sr.htm.
+Motorola a tal proposito sviluppò la famiglia ColdFire derivata dal 68020.
+Tra l'inizio e la metà degli anni ottanta National Semiconductor presentarono una versione a 32 bit del loro precedente processore, il processore chiamato NS 16032 aveva una piedinatura compatibile con la versione a 16 bit.
+Il successore con piedinatura in grado di trasmettere 32 bit di dati e indirizzi fu l'NS 32032 che venne utilizzato in una linea di computer industriali prodotti da OEM.
+In quel periodo la Sequent presentò il primo sistema server SMP basato su NS 32032.
+Questi sistemi vennero abbandonati alla fine degli anni 80.
+Altre architetture come l'interessante Zilog Z8000 (a 16 bit) e lo Zilog Z80000 (a 32bit) arrivarono troppo tardi sul mercato e non ebbero seguito.
+Microprocessori a 64 bit per personal computer
+Sebbene i microprocessori a 64 bit fossero disponibili per i sistemi di fascia alta (server e workstation) in filosofia RISC a partire dagli ALPHA MICRO della Digital fin dagli anni 90, solo dopo l'inizio del nuovo millennio si iniziarono a vedere sistemi a 64 bit per il mercato dei personal computer.
+AMD presentò il primo sistema a 64 bit compatibile con l'architettura x86 nel settembre 2003 con l'Athlon 64.
+Questo microprocessore implementava l'AMD64 una espansione a 64 bit dell'IA-32 sviluppata da AMD.
+Intel arrivò poco dopo con l'estensione x86-64 che pur con un nome diverso era l'estensione sviluppata da AMD;
+infatti ne era pienamente compatibile.
+I processori supportavano le istruzioni a 32 bit per compatibilità ma solo con la modalità a 64 bit riuscivano a mostrare a pieno la loro potenza.
+Con il passaggio a 64 bit vennero raddoppiati i registri gestiti dal set di istruzioni dei processori per migliorare le prestazioni dei sistemi.
+La penuria di registri è sempre stata un problema per le architetture x86.
+Il passaggio dei processori PowerPC ad un'architettura a 64 bit fu invece indolore, i processori vennero sviluppati durante l'inizio degli anni 90 e vennero previste fin dall'inizio le estensioni a 64 bit.
+I registri degli interi e la gestione degli indirizzi venne estesa a 64 bit mentre la parte in virgola mobile era già a 64 bit.
+Non furono aggiunti nuovi registri e le prestazioni dei programmi a 32 bit non erano penalizzate dalla nuova architettura.
+Architetture multicore
+Un approccio per incrementare le performance di un computer consiste nell'utilizzo di più processori, come nelle architetture SMP utilizzate in server e workstation a partire dagli anni novanta.
+L'inseguimento della legge di Moore ha però presentato difficoltà sempre maggiori, così come nella progettazione di singoli chip più prestanti, a mano a mano che si avvicinavano i limiti fisici della tecnologia.
+Conseguentemente, i produttori hanno cercato soluzioni alternative per inseguire i costanti aggiornamenti nel mercato.
+Grazie anche alla continua evoluzione della tecnologia di fabbricazione dei chip, si è resa possibile la realizzazione di processori multi core, costituiti dall'integrazione di più microprocessori (core) su un singolo chip.
+I processori multi-core consentono potenzialmente una moltiplicazione delle performance in base al numero dei core (ammesso che il sistema operativo sia in grado di avvantaggiarsene).
+I vari core possono condividere tra loro alcuni componenti come il bus di interfaccia o la cache di secondo livello.
+La prossimità estrema dei diversi core consente uno scambio di dati molto più veloce in comparazione con i sistemi SMP discreti tradizionali, migliorando le prestazioni generali.
+Nel 2005 è stato presentato il primo processore dual-core (a due core) e già nel 2007 i processori dual-core erano ampiamente diffusi in server, workstation e nei PC.
+Al 2008 si annoverano già processori quad-core (a quattro core) per applicazioni high-end in ambito professionale ma anche domestico.
+Sun Microsystems ha recentemente annunciato i chip Niagara e Niagara 2, entrambi con architettura octa-core (a otto core), mentre sono già ampiamente diffusi processori dual-core di Intel e AMD, tri-core di IBM (di derivazione PowerPC, utilizzati nella console Xbox 360) e quad-core per applicazioni high-end.
+Anche Intel e AMD ora producono CPU six-core (a sei core), come il nuovo Intel Core i7 980x con 6 cores e 12 threads e l'AMD Opteron 6000 series.
+Microprocessori CISC, RISC, MIPS e SPARC
+Tra la metà degli anni 80 e l'inizio degli anni 90 apparvero molti microprocessori RISC ad alte prestazioni sebbene questi microprocessori vennero utilizzati principalmente in sistemi ad alte prestazioni basati su varianti del sistema operativo Unix e su macchine embedded.
+Da allora i sistemi RISC si diffusero ovunque e oramai anche i microprocessori Intel integrano all'interno un'architettura RISC che utilizza uno strato di emulazione per eseguire il codice x86 che è di tipo CISC.
+Il concetto RISC apparve nei supercomputer fin dagli anni 60 (CDC 6600) ma i primi progetti che puntarono allo sviluppo di microprocessori esplicitamente RISC risalgono agli anni 80 con i progetti Berkeley RISC e il progetto MIPS della Stanford University.
+Il primo microprocessore RISC commerciale fu l'R2000, un sistema a 32 bit appartenente all'architettura MIPS derivata dall'architettura sviluppata a Stanford.
+Il successore R3000 migliorò le prestazioni e l'R4000 fu il primo sistema a 64 bit RISC.
+Progetti concorrenti furono l'IBM POWER e il Sun SPARC.
+Poco dopo anche altri produttori iniziarono a mettere in commercio processori RISC, tra questi si segnalano l'AT&T CRISP, l'AMD 29000, l'Intel i860 e Intel i960, il Motorola 88000, il DEC Alpha e il PA-RISC.
+La guerra dei microprocessori ha eliminato quasi tutte le famiglie, solo il PowerPC e lo SPARC resistono nei sistemi di calcolo per server e supercomputer.
+I MIPS fino al 2006 furono utilizzati da Silicon Graphics per alcuni loro sistemi sebbene adesso siano utilizzati principalmente in applicazioni embedded.
+Alcune società come la ARM seguirono una strada diversa.
+Inizialmente i processori ARM vennero progettati per l'utilizzo nei personal computer ma nel giro di pochi anni la società si rese conto dell'elevata richiesta di processori a basso consumo per applicazioni embedded e si convertì invadendo il mercato embedded con opportune versione di processori ARM.
+Attualmente il mercato dei dispositivi embedded e dominato dai processori MIPS, ARM e PowerPC.
+Nel calcolo a 64 bit le architetture DEC Alpha, AMD64, MIPS, SPARC, Power e Itanium sono tra le più popolari.
+Realizzazione
+La realizzazione dei chip (e quindi anche dei microprocessori) avviene in diverse fasi.
+Il materiale di partenza è una fetta circolare di semiconduttore (solitamente silicio) detta substrato:
+questo materiale, già debolmente drogato, viene ulteriormente drogato per impiantazione ionica per creare le zone attive dei vari dispositivi;
+vengono poi depositati una serie di sottili strati di materiali diversi che vanno a creare il wafer:
+* Strati isolanti di ossido molto più spessi dei precedenti;
+* Strati metallici per i collegamenti elettrici, generalmente costituiti da alluminio e più raramente da rame
+La geometria delle zone che devono ricevere il drogaggio è data con un processo di fotolitografia:
+ogni volta che il circuito integrato deve ricevere un nuovo strato o una nuova impiantazione di droganti, viene ricoperto da un sottile film fotosensibile, che viene impressionato tramite una maschera ad altissima definizione.
+Le zone del film illuminate divengono solubili e vengono asportate dal lavaggio, lasciando in tal modo scoperto il chip sottostante.
+Una volta terminata la creazione dei chip sul substrato, questi vengono testati, il substrato viene tagliato e i chip incapsulati nei package con cui verranno montati sui circuiti stampati.
+In un circuito integrato si possono facilmente inserire transistor e diodi:
+è anche possibile creare su semiconduttore delle piccole resistenze e condensatori, ma in genere questi ultimi componenti occupano molto spazio sul chip e si tende ad evitarne l'uso, sostituendoli quando possibile con reti di transistor.
+Non è invece possibile integrare degli induttori, dei trasformatori, che devono quindi essere collegati esternamente al circuito integrato:
+lo stesso vale per i condensatori di media e grande capacità.
+In questi ultimi anni, tuttavia, si è iniziato ad usare il Silicio in combinazione col Germanio con la tecnica del silicio stirato (Strained-Silicon).
+Questa tecnica consiste nel depositare, sul corpo del wafer di silicio, uno strato di silicio-germanio di 2 micron con concentrazione di germanio pari al 20%;
+la concentrazione di germanio non è uniforme in tutto lo strato:
+vi è una maggiore concentrazione sulla cima della struttura.
+A questo punto un sottilissimo strato di silicio dello spessore di circa 20 nm viene depositato sullo strato di silicio-germanio.
+Questa tecnica allunga il reticolato cristallino del Silicio di circa l'1% sia in direzione laterale che verticale e ciò permette un enorme incremento sulla mobilità dei portatori di carica, che incontrano una resistenza inferiore al loro passaggio e fluiscono fino al 70% più velocemente, cosa che rende più veloci i chip del circa 30% senza bisogno di ulteriori miniaturizzazioni.
+Il principio che sta alla base di tutto questo è che gli atomi di silicio dello strato sovrastante tendono ad allinearsi con quelli dello strato di silicio-germanio che, essendo più spesso, obbliga gli atomi di silicio a spaziarsi di una distanza analoga a quella degli atomi di silicio-germanio.
+Nota:
+nei wafer di silicio da 8", non si usa più da tempo né rame né alluminio per i collegamenti, bensì diversi strati di tungsteno (deposti a tot Angstrom, a seconda dello strato) che vanno a ricoprire le Vias che sono appunto i famosi piedini dove vengono fatti i collegamenti elettrici, con le micro-saldature.
+Il tungsteno è deposto su tutto il wafer (sarebbe estremamente difficile ricoprire migliaia e migliaia di Vias singolarmente) e viene rimosso per planarizzazione chimica-meccanica.
+Mercato dei microprocessori
+Nel 2003 il mercato dei microprocessori valeva 44 miliardi di dollari;
+la cifra include sia la produzione che la vendita https:/ web http:/ press.html.
+I microprocessori per personal computer assorbono la metà del fatturato totale pur rappresentando solo lo 0.2% del numero totale di pezzi prodotti.
+Circa il 55% delle CPU erano microcontrollori a 8 bit;
+nel 1997 furono venduti più di due miliardi di microcontrollori a 8 bit https:/ web http:/ library silicon_update index.asp.
+Meno del 10% delle CPU erano a 32 bit o 64 bit;
+di tutte le CPU a 32 bit, solo il 2% era utilizzato nei personal computer, mentre il 98% era utilizzato in applicazioni embedded come elettrodomestici, controllori industriali, periferiche per computer o altro.
+Tenendo conto di tutti i microprocessori prodotti e del mercato totale, il prezzo medio di un microprocessore è di 6 dollari statunitensi https:/ web http:/ shared/printableArticle.jhtml?articleID=9900861.
+Tra tutte le case produttrici si distinguono, specie nel mercato dei personal computer e server, Intel e AMD.
+Architetture e microprocessori comuni
+* AMD K5, K6, K6-2, K6-III, Duron, Athlon, Athlon XP, Athlon MP, Athlon XP-M (IA-32 32-bit Intel architettura x86)
+AMD Athlon 64, Athlon 64 FX, Athlon 64 X2, Opteron, Sempron, Turion 64 (architettura AMD64)
+** Intel 8086, 8088, 80186, 80188 (architettura x86 a 16 bit reale)
+** Intel 80286 (architettura x86 a 16 bit modalità reale e protetta)
+** Intel 80386, 80486, Pentium, Pentium Pro, Celeron, Intel Core Duo, Intel Core 2 Duo, Pentium II, Pentium III, Xeon, Pentium 4, Pentium M, Celeron M (IA-32 architettura Intel x86 a 32 bit)
+* Autimi Xeon, primi Pentium 4, Pentium D, Celeron D, Intel Core 2 (architettura EM64T)
+* Transmeta Crusoe, Efficeon (VLIW architettura x86, IA-32 32-bit Intel x86 tramite emulazione)
+* VIA C3,C7,Eden Series (IA-32 architettura x86 a 32 bit)
+Note

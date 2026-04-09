@@ -1,0 +1,134 @@
+Théorie des nombres|Conjecture non résolue|Syracuse|Suite d'entiers|Syracuse
+En mathématiques, on appelle suite de Syracuse une suite d'entiers naturels définie de la manière suivante : on part d'un nombre entier plus grand que zéro ;
+s’il est pair, on le divise par 2 ;
+s’il est impair, on le multiplie par 3 et on ajoute 1.
+En répétant l’opération, on obtient une suite d'entiers positifs dont chacun ne dépend que de son prédécesseur.
+Par exemple, à partir de 14, on construit la suite des nombres : 14, 7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1, 4, 2…
+C'est ce qu'on appelle la suite de Syracuse du nombre 14.
+Après que le nombre 1 a été atteint, la suite des valeurs (1,4,2,1,4,2…) se répète indéfiniment en un cycle de longueur 3, appelé cycle trivial.
+Si l'on était parti d'un autre entier, en lui appliquant les mêmes règles, on aurait obtenu une suite de nombres différente.
+A priori, il serait possible que la suite de Syracuse de certaines valeurs de départ n'atteigne jamais la valeur 1, soit qu'elle aboutisse à un cycle différent du cycle trivial, soit qu'elle diverge vers l'infini.
+Or, on n'a jamais trouvé d'exemple de suite obtenue suivant les règles données qui n'aboutisse pas à 1, puis au cycle trivial.
+La conjecture de Syracuse, encore appelée conjecture de Collatz, conjecture d'Ulam, conjecture tchèque ou problème 3x + 1, est l'hypothèse mathématique selon laquelle la suite de Syracuse de n'importe quel entier strictement positif atteint 1.
+En dépit de la simplicité de son énoncé, cette conjecture défie depuis de nombreuses années les mathématiciens.
+Paul Erdős a dit à propos de la conjecture de Syracuse : .
+Origines
+Dès 1928, Lothar Collatz s'intéressait aux itérations dans les nombres entiers, qu'il représentait au moyen de graphes et d'hypergraphes.
+Il inventa alors le problème 3x+1, et le présentait souvent ensuite dans ses séminaires.
+En 1952, lors d'une visite à Hambourg, Collatz expliqua son problème à Helmut Hasse.
+Ce dernier le diffusa en Amérique à l'université de Syracuse : la suite de Collatz prit alors le nom de « suite de Syracuse ».
+Entre-temps, le mathématicien polonais Stanislas Ulam le répand dans le Laboratoire national de Los Alamos.
+Dans les années 1960, le problème est repris par le mathématicien Shizuo Kakutani qui le diffuse dans les universités Yale et Chicago.
+Cette conjecture mobilisa tant les mathématiciens durant les années 1960, en pleine guerre froide, qu'une plaisanterie courut selon laquelle ce problème faisait partie d'un complot soviétique visant à ralentir la recherche américaine.
+Première approche de la conjecture
+Suite de Syracuse
+La suite de Syracuse d'un nombre entier est définie par récurrence, de la manière suivante :
+u_0 = N
+et pour tout entier naturel : u_ = \begin
+\dfrac& \mbox
+u_n \mbox\\
+3u_n + 1 & \mbox u_n \mbox
+\end
+Énoncé de la conjecture
+La conjecture affirme que pour tout , il existe un indice tel que .
+Vocabulaire
+L'observation graphique de la suite pour et pour montre que la suite peut s'élever assez haut avant de retomber.
+Les graphiques font penser à la chute chaotique d'un grêlon ou bien à la trajectoire d'une feuille emportée par le vent.
+De cette observation est né tout un vocabulaire imagé : on parlera du vol de la suite.
+On définit alors :
+* le temps de vol
+c'est le plus petit indice tel que .
+* le temps de vol
+en altitude :
+c'est le plus petit indice tel que .
+* l'altitude maximale : c'est la valeur maximale de la suite.
+Autres formulations de la conjecture
+On peut donner de nombreuses formulations équivalentes au problème de Syracuse.
+La conjecture de Syracuse est équivalente aux propositions suivantes :
+# la durée de tout vol est finie ;
+# la durée de tout vol en altitude est finie ;
+# tout vol a un nombre fini d'étapes paires ;
+# tout vol a un nombre fini d'étapes impaires ;
+# tout vol a un nombre fini d'étapes paires en altitude ;
+# tout vol a un nombre fini d'étapes impaires en altitude.
+Approches de la conjecture et résultats
+La suite compressée
+On remarque que si u_n est impair dans la formule ci-dessus, u_ est nécessairement pair et donc, le pas suivant de la suite doit être une division par deux ;
+on peut définir une nouvelle version compressée de la suite de Syracuse en combinant ces deux pas de la façon suivante : v_ = \begin
+\frac& \mbox
+v_n \mbox\\
+\frac & \mbox
+v_n \mbox
+\end
+La nouvelle suite est une suite extraite de la version de base, et la conjecture dit que cette suite aboutit toujours au cycle (1,2,1…).
+Approche inverse
+On peut aussi partir d'un algorithme inverse :
+R (
+= \begin\& \mbox n\equiv 0,1,2,3\mbox 5 \\ \ & \mbox n\equiv 4 \end \pmod.
+Au lieu de prouver que la suite directe, partant de n'importe quel entier naturel non nul, mène toujours à 1, on essaye de démontrer que l'algorithme inverse, partant de 1, est capable de générer tous les nombres entiers naturels non nuls.
+Il existe aussi une version compressée de l'algorithme inverse :
+R (
+= \begin\& \text n\equiv 0 \mbox 1 \\ \& \text n\equiv 2 \end \pmod
+Ces algorithmes inverses peuvent être représentés par des arbres, dont la racine est 1.
+Si la conjecture est vraie, ces arbres recouvrent tous les entiers naturels non nuls.
+Approche binaire
+Les applications répétées de la fonction de Syracuse peuvent être représentées comme une machine abstraite traitant d'un processus binaire.
+La machine effectuera les trois étapes suivantes sur n'importe quel nombre impair jusqu'à ce qu'il ne reste plus qu'un « 1 »:
+# Rajouter un « 1 » à l'extrémité (droite) du nombre en binaire (donnant 2n + 1);
+Additionner
+le nombre original n (donnant 2n + 1 + n = 3n + 1);
+# Enlever tous les « 0 » situés à droite (c'est-à-dire diviser par deux jusqu'à ce que le résultat soit impair).
+Exemple
+Le nombre de départ choisi est 7.
+22 + 21 + 20)
+La séquence qui en résulte est la suivante:
+"font-family:'Courier New', 'Lucida Console', 'Courier', Monospace">
+Approche probabiliste
+Il existe des arguments heuristiques et statistiques de nature à motiver la conjecture.
+Considérons par exemple une itération de la suite de Syracuse compressée sur un nombre v pris aléatoirement dans un intervalle assez grand.
+Si v est pair, il est multiplié par environ.
+Dans les deux cas, on vérifie que la parité du résultat est indépendante de celle de v.
+Un raisonnement heuristique consiste à supposer que ce raisonnement probabiliste est valable pour n'importe quel terme de la suite compressée.
+Bien que ce ne soit pas rigoureux (les termes de la suite ne sont pas aléatoires), certaines observations expérimentales tendent à le confirmer.
+Ainsi, le modèle obtenu en appliquant cette hypothèse prédit convenablement le temps de vol en altitude de la suite.
+Avec cette heuristique, on peut dire que statistiquement, l'effet de deux opérations consécutives de la suite revient à multiplier le nombre de départ par = 0,866…
+Ce rapport nettement inférieur à l'unité suggère fortement que les éléments successifs d'une suite de Syracuse ne peuvent croître indéfiniment.
+Il n'existe aucune preuve rigoureuse de cette affirmation (et même si l'on parvenait à rendre rigoureux cet argument probabiliste, cela ne permettrait pas encore de conclure, un événement de probabilité infinitésimale n'étant pas pour autant impossible).
+Également, l'argument ici esquissé n'exclut nullement l'existence de cycles non triviaux.
+Concernant la répartition des nombres qui satisfont à l'hypothèse de Syracuse, par des méthodes élaborées de programmation linéaire on arrive à montrer que, pour x suffisamment grand, le nombre d'entiers inférieurs à x qui satisfont l'hypothèse de Syracuse est au moins x ^ a pour certaine constante a < 1 .
+En 2002, I. Krasikov et J. Lagarias obtinrent a=0,84 .
+Approche calculatoire
+Une voie d'exploration intéressante consiste en l'étude systématique du comportement de la suite de Syracuse à l'aide d'ordinateurs, pour des nombres de départ de plus en plus grands.
+On a ainsi vérifié la conjecture pour tout N < 1,25×262.
+La grandeur de ce nombre, de l'ordre de six milliards de milliards, est de nature à renforcer notre croyance en la véracité de la conjecture de Syracuse.
+Il convient cependant de comprendre qu'aussi loin que l'on poursuive le calcul, il ne peut directement fournir une démonstration de cette conjecture ;
+le calcul pourrait éventuellement, au contraire, rencontrer un contre-exemple, qui démontrerait la fausseté de la conjecture.
+Cette approche présente aussi l'intérêt de fournir des résultats numériques utilisables par les théoriciens pour compléter leurs démonstrations.
+Par exemple, en utilisant la borne N ci-dessus avec un théorèmesur la longueur des cycles de la suite de Syracuse, on peut conclure qu'à part le cycle trivial (1,4,2,1…) il n'existe aucun cycle de longueur inférieure à 17 milliards.
+Les résultats numériques permettent de chercher des corrélations entre le nombre de départ N et la durée de vol, ou le record d'altitude.
+On a ainsi observé que si les records d'altitude pouvaient être très élevés, la durée du vol était en comparaison plus modeste.
+Une observation sur les nombres déjà étudiés semble indiquer que l'altitude maximale est majorée par φ (N).N2, où φ (N) pourrait être soit une constante, soit une fonction lentement croissante.
+Le temps de vol est plus erratique mais semble majoré par un multiple du logarithme de N.
+Les expériences numériques suggèrent ainsi de nouvelles conjectures auxquelles les théoriciens peuvent s'attaquer.
+En revanche, la recherche théorique est seule en mesure d'apporter des lumières concernant l'existence de trajectoires infinies : il a été démontré que l'ensemble des nombres appartenant à une telle trajectoire aurait une densité asymptotique nulle ;
+pour rester dans l'image du vol, on pourrait dire que le grêlon, pour ne pas retomber jusqu'au sol, doit acquérir et maintenir une haute «
+vitesse de libération ».
+Si la conjecture est vraie, alors un tel vol infini est impossible.
+Un énoncé indécidable ?
+La relative faiblesse des résultats obtenus
+en dépit de l'application acharnée de méthodes mathématiques puissantes par des esprits brillants
+a conduit certains chercheurs à se demander si la conjecture de Syracuse est un problème indécidable.
+En 1972, John Conway a établi l'indécidabilité algorithmique pour une famille de problèmes qui généralise de manière naturelle le problème 3x+1 .
+Ce résultat implique qu'il y a dans la famille considérée des problèmes individuels qui sont indécidables (il est en fait même possible, en théorie sinon en pratique, d'en expliciter un), mais ne résout pas la décidabilité du problème de Syracuse en particulier.
+Extension aux nombres réels et aux nombres complexes
+Le problème de Syracuse peut être vu comme la restriction aux entiers naturels de la suite z_=f (z_n) où f (z) est fonction réelle ou complexe, suivante :
+f (z)=\frac 1 2 z \cos^2\left (\frac \pi 2 z\right)+ (3z+1)\sin^2\left (\frac \pi 2 z\right).
+Ou, dans la version compressée où 3n+1 est remplacée par \frac :
+f (z)=\frac 1 2 z \cos^2\left (\frac \pi 2 z\right)+\frac \sin^2\left (\frac \pi 2 z\right).
+Dans l'ensemble des nombres réels, la fonction a été étudiée par Marc Chamberland
+Il montre que la conjecture ne tient pas avec cette fonction pour les nombres réels car il existe une infinité de points fixes.
+Il a également montré qu'il existe au moins un autre cycle : 1,1925 - 2,1386 et qu'il existe des suites infinies divergentes de réels.
+Dans le plan complexe la fonction a été étudiée par Letherman, Schleicher et Wood
+De nombreux points divergent à l'infini, représentés dans l'illustration ci-contre en jaune ou bleu.
+La frontière qui sépare ces régions divergentes et celles qui ne divergent pas, ici en noir, forme une courbe fractale.
+On y retrouve des éléments caractéristiques de l'ensemble de Mandelbrot.

@@ -1,0 +1,61 @@
+Arduino
+La carteArduino est une carte électroniqueprogrammable (appelée microcontrôleur) utilisée pour réaliser des montages électroniques.
+Facile d'utilisation, elle permet de s'initier aisément à l'électronique et à la programmation.
+Elle devra se connecter sur un ordinateur pour permet le téléversement des commandes à exécuter (le code ou le programme).
+Elle est open source ce qui signifie que chacun peut construire son propre microcontrôleur et la diffuser .
+Ainsi, il existe de nombreuses de copies (clones) sur Internet moins chères que l'officiel (telle que la Arduino
+Uno
+R3 à env.
+20 €)
+Il existe actuellement treize modèles de microcontrôleurs Arduino :
+la Uno ;
+la Mega 2560 possède plus d'entrées/
+sorties
+et de mémoire
+la Due est comme la Mega, mais avec un processeur plus rapide ;
+la Nano est une version naine ;
+la Leonardo, la 101, l'Esplora, la Micro...1
+Des coffrets de divers constructeurs sont accessibles afin d'expérimenter facilement plusieurs dizaines de composants ou modules (utilisation d'un afficheur, déclencheur physique selon un module sensitif comme l'odeur, l'infrarouge, le mouvement, l'humidité dans la terre, captation d'onde wifi...).
+Des codes de programmations, des schémas et de la documentation sont fournit pour chaque leçon.
+Les shields servent à étendre les capacités ou à ajouter des fonctions sur la carte Arduino.
+Par exemple : permettre l'accès à l'Internet, contrôler 2 moteurs électrique ou ajouter un écran tactile...
+Un shield comporte toujours une carte (le support ou circuit imprimé), des composants et un ou des circuits intégrés.
+Le nom shield, plutôt spécifique à Arduino, est aussi appelé circuit électronique.
+Ce shield permet de connecter l'Arduino au wifi.
+Un shield moteur.
+un drone quadricopter télécommandé ;
+Tipibot, un robot qui dessine (ou drawbot
+, inspiré du projet
+Polargraph de Sandy Noble) les images ;
+On peut voir deux fils sur le schéma :
+un fil noir : la masse, c'est comme la polarité moins (-) d'une pile ;
+un fil rouge branché sur le pin 8 qui va allumer la LED (polarité : +) ;
+on remarque aussi une résistance (le composant marron entouré de bandes de couleurs) destinée à diminuer (résister) le courant afin que la LED (rouge ici) ne grille pas.
+Remarque : la LED possède un sens : le fil le plus long se branche du côté du courant +.
+La résistance ne possède pas cette particularité.
+pinLed = 8 : indique l'emplacement du pin (connecteur) n° 8 relié à la LED (celui en fil rouge).
+void setup() : fonction d'initialisation du programme .
+pinMode(ledPin, OUTPUT) : configure le connecteur spécifié afin qu'elle se comporte comme une entrée (INPUT) ou une sortie (OUTPUT).
+void loop() : c'est le programme à proprement parler.
+Cette partie du code boucle (loop en anglais) à l'infini.
+digitalWrite(pinLed, HIGH)
+: envoie du courant "HIGH" (TOUT) dans le pin "pinLed".
+delay(500)
+: le programme se met en pause pendant 500 millisecondes, soit une demi-seconde.
+digitalWrite(pinLed, LOW) :
+aucun courant envoyé, l'instruction assigne "LOW" (RIEN) dans le pin "pinLed".
+Programmation par mBlock.
+Afin de développer son programme d'automatisation, la carte Arduino s'utilise avec le code du langage C ou C++.
+À l'aide du logiciel libre Arduino, on téléversera (injectera) le code qu'on aura créer dans la carte Arduino.
+On peut aussi utiliser un langage graphique (ou visuel sous forme de bloc) pour programmer les cartes.
+mBlock, un des plus utilisés, a été développé afin de contrôler le robot mBot, lui-même construit autour d'une Arduino.
+Il en existe d'autres : ardublock, Blockly...
+Apprendre l'électronique avec peu de programmation
+Divers magasins en ligne proposent des coffrets d'initiation de qualités et de quantités (de composants)
+variables avec documentation en français.
+Voir l'initiation sur 22 courtes vidéos de U=RI.
+À partir de la deuxième vidéo, il faudra s'armer du microcontrôleur Arduino et de composants.
+Apprendre le développement de logiciels
+Pour débuter dans la programmation de l'Arduino, des cours gratuits en ligne sont accessibles.
+Le temps d'étude et de pratique est d'environ quinze heures chacun.
+Ces cours sont destinés aux enseignants comme aux adolescents

@@ -1,0 +1,209 @@
+Cassini
+-Huygens|Agence spatiale
+européenne|Impact sur Saturne
+Cassini est une sonde spatiale de la NASA pour les besoins de la mission Cassini-Huygens qui a pour but l'étude de la planète Saturne, de ses satellites et de ses anneaux.
+Lancée dans l'espace le 15 octobre 1997 de Cap Canaveral par une fusée Titan IV-Centaur, elle a commencé sa mission dans le système saturnien le 1er juillet 2004 et l'a achevée le 15 septembre 2017 en plongeant dans l'atmosphère de Saturne.
+La sonde a été construite par le Jet Propulsion Laboratory avec des contributions de l'Agence spatiale européenne, de l'Agence spatiale italienne (pour l'antenne de communication parabolique) ainsi que celles de nombreux laboratoires de recherche et universités américaines et internationales pour les instruments scientifiques.
+Elle transporte le petit atterrisseur Huygens qui s'est posé sur la surface de Titan en 2004.
+Cassini est en 2017 la plus grosse sonde spatiale jamais lancée avec une masse au décollage de dont kg d'ergols (hydrazine), 362 kg d'instruments et 350 kg pour l'atterrisseur Huygens.
+La sonde spatiale est stabilisée selon trois axes et l'énergie est fournie par un générateur thermoélectrique à radioisotope produisant 885 watts en début de mission.
+La sonde spatiale porte le nom de l'astronome Jean-Dominique Cassini (1625-1712), qui a étudié les anneaux de Saturne en détail et découvert certaines des principales lunes de la planète géante (Japet, Rhéa, Téthys et Dioné).
+Conception de la sonde spatiale
+Cassini
+Cassini devait être le deuxième engin de la série Mariner Mark II.
+Il a été conçu conjointement avec le premier, Comet RendezVous/Asteroid Flyby (CRAF).
+Toutefois, des coupes budgétaires ont conduit à simplifier sa conception, ce qui a conduit à un appareil plus spécialisé, hors de la série Mariner Mark II, et moins richement doté en instruments que ne le prévoyait ce programme.
+Cassini
+-Huygens fait partie des sondes interplanétaires les plus lourdes, les plus grandes et les plus complexes.
+Seules les deux sondes envoyées vers Phobos par l'Union soviétique formaient un système plus lourd.
+Cassini seul pèse à vide, auxquels s'ajoutent les de Huygens et de carburant pour la propulsion (de l'hydrazine).
+Cassini mesure de haut et de largeur (diamètre de l'antenne HGA).
+La perche du magnétomètre mesure même .
+Cette complexité est rendue nécessaire à la fois par sa trajectoire vers Saturne et par les nombreuses observations prévues.
+La sonde comporte interconnectés, et de câbles.
+En particulier, comme la distance entre la Terre et la sonde, une fois arrivée à destination, était comprise entre , les signaux entre la sonde et sa base mettaient de pour arriver à destination, ce qui rend impossible le contrôle en temps réel, que ce soit pour les opérations normales ou pour les évènements imprévus.
+Même en répondant immédiatement, il fallait autour de entre le moment d'un évènement et le moment où la base recevait la réponse de la sonde à ses commandes.
+Sous-systèmes
+La sonde Cassini est composée de :
+*Gestion des commandes et données (
+- CDS)
+: Il s'agit du système informatique de la sonde.
+Il enregistre et traite les données en provenance des autres sous-systèmes et instruments.
+Outre les commandes en provenance de la base terrestre, il est en mesure d'exécuter des logiciels de protection afin de maintenir la sonde en état de fonctionnement.
+Le cœur du système est l, conçu par IBM, qui s'interface avec le reste de la sonde au travers d'un bus unique.
+*Enregistreur à semi-conducteurs () :
+Ce système enregistre les données scientifiques ainsi que les données concernant la situation et l'état de la sonde.
+Cet enregistreur ne comporte aucune partie mobile, ce qui est une première.
+Il contient aussi des données de vol essentielles pour la suite de la mission.
+Les données scientifiques sont périodiquement envoyées à la base terrestre puis effacées.
+*Module de propulsion :
+Ce système fournit la poussée nécessaire aux changements de trajectoire et d'orientation.
+Le moteur principal est utilisé pour les corrections de vitesse et de trajectoire, tandis que secondaires à hydrazine, disposés en quatre groupes de quatre, sont utilisés pour les corrections d'orientation.
+*Contrôles de l'orientation et de l'articulation (
+- AACS) :
+Le rôle de ce système est triple.
+Le premier est de définir l'orientation de la sonde selon les trois axes.
+Le second est de définir l'articulation de la sonde et le troisième de définir la direction vers laquelle doit pointer le moteur principal.
+Dans ce but, ce système est équipé de trois unités gyroscopiques, fabriqués par Hughes Aircraft Company, d'une unité à référence stellaire, capable de repérer et de se positionner par rapport à , et d'un dispositif de pointage monté sur trois roues octogonales, permettant de diriger le moteur principal sur les trois axes.
+*Alimentation électrique
+et système pyrotechnique (
+- PPS) :
+Ce système fournit l'énergie électrique et gère les évènements pyrotechniques, notamment ceux nécessaires lors du lancement de la sonde par le véhicule de lancement Centaur.
+L'électricité est produite par trois générateurs thermoélectriques à radioisotope (RTG, dont l'utilisation n'a pas été sans controverse) et est ensuite acheminée vers les autres systèmes.
+*Radiofréquences
+- RFS)
+: Ce système, conjointement avec le sous-système des antennes, gère les télécommunications avec la base terrestre.
+Certains éléments sont également utilisés par les instruments scientifiques radios.
+La sonde communique avec la Terre sur la bande X, à .
+Le système module les données provenant du CDS, les amplifie à et les transfère aux antennes.
+*Antennes (
+- ATM) :
+Ce système est composé d'une antenne directionnelle (dite à haut gain ou HGA) et de deux antennes omnidirectionnelles (dites à bas gain ou LGA).
+La fonction primaire de l'antenne directionnelle est d'assurer la communication avec la Terre, mais aussi la communication avec le module Huygens sur bande S lors de son atterrissage et le fonctionnement du radar sur bande Ku et des instruments radios sur bande Ka.
+L'antenne directionnelle est composée d'un réflecteur parabolique de de diamètre, d'un sous-réfracteur monté à son point focal et de reliant les deux.
+Afin de protéger les instruments scientifiques de la sonde des rayons du Soleil, la parabole était dirigée au début de la mission vers le Soleil, afin d'agir comme une ombrelle.
+*Sous-système de structure () :
+En plus de ses fonctions de squelette de la sonde, ce système sert à la conduction thermique au sein de la sonde, afin de répartir l'énergie et agir comme masse électrique.
+Il protège également les autres éléments de la sonde contre les radiations et les micrométéorites.
+En outre, il est équipé de points d'ancrage ayant servi à la manutention au sol.
+*Dispositifs mécaniques (
+- DEV)
+: Ce système comprend un certain nombre de dispositifs mécaniques non asservis, comme le dispositif de séparation avec le véhicule Centaur, le déploiement du bras du magnétomètre ou les déclencheurs des dispositifs pyrotechniques.
+*Ensemble électronique () :
+Ce système, qui comprend les différents éléments électroniques de la sonde, est constitué d'un bus circulaire composé de contenant les modules électroniques.
+Ces baies sont conçues de manière à protéger les modules des radiations, des champs magnétiques, et à respecter les nécessités de centres de gravité et de liaison.
+*Câblage (
+) :
+Ce système sert à la liaison électrique de tous les autres sous-systèmes, que ce soit pour l'alimentation ou la transmission de données.
+Ce système est passif et ne contient pas de dispositif électronique.
+Sa fonction est de transférer un signal électrique sans l'altérer.
+*Contrôle de la température (
+- TEMP)
+: Ce système a pour but de maintenir la température de la sonde dans des limites acceptables.
+Quand la sonde a survolé Vénus, la température était jusqu'à trois fois supérieure à celle lors de sa présence dans l'orbite terrestre, alors que dans l'orbite de Saturne, elle est jusqu'à inférieure.
+La température est maintenue à l'aide de dispositifs spécialisés, mais aussi grâce à des astuces simples, comme l'effet d'ombrelle obtenu en orientant l'antenne parabolique face au Soleil.
+Instruments scientifiques
+Cassini transporte à son bord douze
+instruments scientifiques représentant une masse totale de 362 kilogrammes.
+Spectromètre à plasma de Cassini (Cassini Plasma
+Spectrometer
+- CAPS)
+Le spectromètre à plasma de Cassini, créé par le Southwest Research Institute (SRI), a pour objectif de déterminer l'énergie et la charge électrique de particules telles que des électrons et des protons que rencontre la sonde.
+Ce détecteur analyse les particules provenant de la vaste ionosphère de Saturne mais étudie également la configuration du champ magnétique de la planète.
+Il analyse aussi le plasma dans cette région ainsi que le vent solaire dans la magnétosphère de Saturne.
+L'instrument se compose de trois capteurs : un spectromètre à électrons, un spectromètre à faisceau ionique et un spectromètre ionique de masse.
+L'ensemble pèse et consomme .
+Les données sont transférées au système informatique à un débit de .
+Analyseur de poussières cosmiques (Cosmic Dust Analyzer
+- CDA)
+L'analyseur de poussières cosmiques, créé par l'Institut Max-Planck de physique nucléaire à Heidelberg, en Allemagne, est un appareil qui détermine la taille, la vitesse et la direction des poussières que l'on trouve à proximité de Saturne.
+Certaines de ces poussières sont en orbite autour de la planète tandis qu'il est possible que d'autres proviennent de systèmes solaires différents.
+L'analyseur embarqué sur Cassini a donc pour but d'aider à percer le mystère de ces particules en réalisant leur analyse chimique.
+Il permet d'en savoir plus sur la nature de ce qui compose ces corps célestes et par la même occasion sur l'origine de l'Univers.
+L'instrument est capable de détecter des poussières d'un micromètre et même d'un nanomètre dans certaines circonstances.
+Cet instrument a été mis en fonction en 1999, bien avant donc que la sonde n'atteigne Saturne, et a commencé à fournir des informations.
+Dans l'environnement jovien, le CDA a détecté des poussières se déplaçant à à travers le système solaire.
+Ces particules, provenant de Jupiter, sont continuellement émises et ont été détectées à plus de 100 millions de kilomètres de Jupiter.
+Le CDA pèse et consomme .
+Il transmet ses données au système informatique avec un débit de .
+Spectromètre infrarouge composite (Composite InfraRed Spectrometer
+- CIRS)
+Le spectromètre infrarouge composite, créé en collaboration par le CEA, l'université d'Oxford, la NASA, l'Observatoire de Paris et le Queen Mary's College, analyse la lumière infrarouge émise par Saturne et son atmosphère mais aussi par ses anneaux et ses satellites et en étudie leurs composition et température.
+Cet instrument permet aussi de représenter l'atmosphère de la planète en trois dimensions et de tracer des profils de température et de pression en fonction de l'altitude, de la composition du gaz et de la distribution des nuages.
+Cet outil mesure également les caractéristiques thermiques et la composition de la surface des satellites ainsi que des anneaux.
+Il facilite en outre la visualisation d'une partie de la structure interne de ces différents corps célestes.
+Le CIRS, comme tout spectromètre, décompose le rayonnement (infrarouge, dans ce cas) et mesure la puissance des différentes composantes (couleurs) qui composent ce rayonnement.
+Il pèse et consomme .
+Il transfère ses données au système informatique avec un débit de .
+Spectromètre de particules chargées et neutres (Ion and Neutral
+Mass Spectrometer
+- INMS)
+Le spectromètre de particules chargées et neutres est un instrument qui analyse les particules chargées telles que les protons ou les ions lourds ou bien les particules neutres tels que des atomes aux environs de Saturne et Titan afin d'en apprendre plus sur leurs atmosphères.
+Il détecte également les ions positifs et neutres des anneaux de Saturne et de ses satellites.
+L'instrument est capable de déterminer la composition chimique des particules ainsi détectées.
+Il pèse et consomme .
+Son débit est de .
+Système de caméras (Imaging Science
+Subsystem
+- ISS
+Le système de caméras se compose de deux caméras.
+La première est une caméra grand-angle (Wide Angle Camera
+- WAC), ayant une focale de et une ouverture de 3,5, destinée à des vues générales, alors que la seconde, une caméra à longue focale (Narrow Angle Camera
+- NAC)
+, ayant une focale de et une ouverture de 10,5, permet des plans rapprochés.
+Chaque caméra est équipée d'un capteur CCD d'un mégapixel.
+Elles sont capables d'enregistrer des séquences vidéo et de mettre en place des filtres grâce à un mécanisme comprenant deux roues pour chaque caméra, servant à intercaler une série de filtres.
+La caméra grand angle est ainsi pourvue de deux roues supportant chacune (soit un total de 18), tandis que la caméra à longue focale possède deux roues pourvues chacune de (soit un total de 24).
+L'instrument pèse au total de et consomme .
+Il a un débit de .
+Magnétomètre à double technique (Dual Technique
+Magnetometer
+- MAG)
+MAG est un instrument de mesure directe de l'intensité et de la direction du champ magnétique autour de Saturne.
+Le champ magnétique kronien est créé dans le cœur de Saturne.
+La mesure de ce champ magnétique est un moyen de sonder ce cœur très chaud et très dense, malgré l'impossibilité d'y envoyer des instruments de mesure.
+L'objectif de MAG est de produire un modèle tridimensionnel de la magnétosphère de Saturne, de déterminer les propriétés magnétiques de Titan et des autres satellites glacés ainsi que d'étudier leurs interactions avec le champ magnétique de Saturne.
+L'instrument pèse , consomme environ et transmet ses données avec un débit moyen de .
+Instrument d'imagerie de la magnétosphère (Magnetospheric Imaging Instrument
+- MIMI)
+Cet instrument est conçu pour mesurer la composition, la charge électrique et l'énergie des ions et électrons, ainsi que les neutrons rapides de la magnétosphère de Saturne.
+Cet instrument fournit des images des gaz ionisés (plasmas) entourant Saturne et détermine la charge et la composition des ions.
+Tout comme le RPWS, cet instrument comporte trois capteurs : un système de mesure d'énergie faible de la magnétosphère (
+- LEMMS), qui quantifie la distribution angulaire des particules (ions, électrons, protons), c'est-à-dire le nombre de particules venant de chaque direction, un spectromètre charge-énergie-masse (
+- CHEMS), permettant une analyse de la composition et de la charge des ions, et une caméra ions et particules neutres ( - INCA), servant à obtenir une visualisation en trois dimensions des particules ionisées et neutres (neutrons) et de leurs vitesses.
+Cet instrument pèse et a une consommation électrique de .
+Il transfère les données à un débit de .
+Radar (Radio
+Detection and
+Ranging Instrument
+Le radar de Cassini, comme tout radar, utilise la réflexion d'un faisceau de micro-ondes pour déterminer le relief et la conductance électrique du terrain observé, en mesurant le temps de retour du faisceau induit (relief), ainsi que son affaiblissement (conductance).
+Le radar de Cassini est prévu essentiellement pour l'observation de Titan (afin de déterminer l'existence d'océans à sa surface et, dans ce cas, leur position), mais il est également utile pour observer Saturne, ses anneaux et ses autres lunes.
+L'utilisation du radar est triple : un capteur à perception synthétique, servant à percevoir le profil des terrains étudiés, avec une résolution de , un altimètre, avec une précision de , et un radiomètre, avec une précision de , permettant d'utiliser le capteur du radar comme un capteur passif de micro-ondes.
+Les précisions indiquées concernent les mesures effectuées à la surface de Titan.
+Le radar fonctionne sur la bande Ku, à une fréquence de .
+Cet instrument pèse et consomme .
+Il transfère des données à un débit de .
+Mesures plasmas et ondes radio (Radio and Plasma
+Wave
+Science
+- RPWS)
+L'expérience RPWS est un instrument de mesure électrique et magnétique.
+Elle est constituée de trois groupes de capteurs (antennes électriques, antennes magnétiques et sonde de Langmuir) auxquels peuvent se connecter quatre récepteurs : un récepteur haute fréquence ( - HFR), un récepteur à large bande ( - WBR), un récepteur moyenne fréquence ( - MFR) et un récepteur à forme d'onde basse fréquence ( - LFWR).
+L'instrument comporte aussi une unité de traitement numérique de données (
+- DPU) et un convertisseur d'alimentation ().
+L'expérience couvre la gamme de en fréquence.
+Les instruments basses fréquences (MFR, WBR et LFWR) sont dédiés essentiellement à l'étude des oscillations locales de plasma dans le milieu interplanétaire et les magnétosphères planétaires que Cassini traverse.
+Le récepteur haute fréquence (HFR, fabriqué à l'Observatoire de Meudon)
+étudie des ondes radio se propageant librement dans l'espace (rayonnement radio auroral par exemple).
+La sonde de Langmuir mesure aussi la densité et la température du milieu ambiant.
+Les objectifs principaux de l'expérience RPWS sont l'étude de l'environnement magnétisé et ionisé de Saturne : étude du champ magnétique de la planète, mesure des conditions locales in situ, mesure à distance de ces émissions radio, détection d'éclairs d'orages dans l'atmosphère de Saturne (et peut-être de Titan).
+L'instrument pèse , consomme en moyenne et produit un débit de données moyen de .
+Sous-système scientifique à radio (Radio Science
+Subsystem
+- RSS)
+Cet instrument est un émetteur radio dont la fréquence et la puissance sont très stables.
+Il envoie toujours son signal en direction de la Terre, où l'affaiblissement du signal et d'éventuelles modifications de fréquence sont mesurés avec précision.
+On obtient ainsi des informations sur les matériaux que les ondes radio ont traversés, comme les particules des anneaux de Saturne ou l'atmosphère de la planète.
+Cet instrument est donc composé d'une partie faisant partie de la sonde et d'une partie située sur Terre.
+L'instrument pèse et a une consommation électrique de .
+Spectromètre à imagerie ultraviolette (Ultraviolet Imaging
+Spectrograph
+- UVIS)
+Cet instrument est constitué d'un ensemble de quatre télescopes capables de percevoir le rayonnement ultraviolet.
+Il a été fabriqué par le (LASP), de l'université du Colorado, conjointement avec l'Institut Max-Planck de recherche sur le système solaire à Lindau, en Allemagne.
+Les ultraviolets permettent de voir des gaz qu'il n'est pas possible de percevoir à l'aide de la spectrométrie en lumière visible, et cet instrument a déjà donné lieu à la découverte dans le système de Saturne des corps comme l'hydrogène, l'oxygène, l'eau, l'acétylène et l'éthane.
+Il peut être particulièrement fructueux de regarder une étoile (surtout le Soleil) à travers un objet non opaque, comme l'atmosphère d'une lune, ce qui a déjà permis par exemple de déterminer précisément la composition et la structure de l'atmosphère de Titan.
+De plus, cet instrument décèle dans les anneaux de Saturne des objets dix fois plus petits que ce dont le système de caméras est capable d'observer.
+Cet instrument pèse et a une consommation électrique de .
+Il transmet ses données au calculateur avec un débit de .
+Spectromètre à imagerie en lumière visible et en infrarouge (Visible and Infrared Mapping Spectrometer
+- VIMS)
+Cet instrument est composé de deux caméras spectrométriques.
+La première décompose la lumière visible, et la seconde le rayonnement infrarouge.
+Cet instrument permet de détecter le rayonnement sur trois octaves et de capter 99 % du spectre du rayonnement solaire réfléchi.
+Il capte le rayonnement sur d'onde différentes, entre .
+Il est conçu pour aider à déterminer la composition, la structure et la température des objets étudiés.
+Il a déjà permis de déterminer la présence d'un volcan de glace sur Titan et de glace fraîche sur Encelade.
+De plus, il est utilisé dans le cadre d'un projet à long terme d'étude de l'évolution météorologique de Saturne.
+Cet instrument pèse et consomme .
+Il transmet les données collectées avec un débit de .

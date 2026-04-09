@@ -1,0 +1,43 @@
+Casse-tête mécanique articulé
+Le Pyraminx Crystal est un puzzle dodécaédrique proche du Rubik's cube et du Megaminx.
+Il est fabriqué et vendu par Uwe Mèffert dans ses magasins depuis 2008.
+Ne pas confondre avec le Pyraminx, qui a également été inventé et est vendu par Mèffert.
+Historique
+Le Pyraminx Crystal a été breveté en Europe le 16 juillet 1987.
+Le numéro du brevet
+est DE8707783U.
+En 2007, en raison de la demande des fans de puzzle, Uwe Mèffert commença à le fabriquer.
+Les premiers ont été expédiés en février 2008.
+Il existe deux variantes à 12-couleurs, une avec un corps noir et une à corps blanc.
+Description
+Ce puzzle est un dodécaèdre coupé de telle manière que les coupes passent par le centre de chaque face pentagonale.
+Le puzzle est constitué de 20 coins et 30 bords, soit 50 pièces.
+Chaque face est composée de cinq coins et de cinq bords.
+Quand une face tourne, cinq bords bougent avec elle.
+Chaque coin est partagé par trois faces et chaque bord par deux.
+En tournant alernativement les faces adjacentes, les pièces peuvent être permutées.
+Le but du puzzle est de mélanger les couleurs et de les remettre dans leur position initiale.
+Solutions
+En dépit de son nom, le puzzle n'est pas de la famille du Pyraminx.
+Il s'agit d'une variante du Megaminx.
+Les mêmes algorithmes utilisés pour résoudre les coins du Megaminx peuvent être utilisés pour résoudre les coins du Pyraminx Crystal.
+Les bords peuvent être permutés à l'aide de l'algorithme 4-mouvements qui laisse les coins à leur place.
+Ceci peut être répété jusqu'à ce que les bords soient résolus.
+Nombre de combinaisons
+Il y a 30 bords avec deux orientations possibles, et 20 coins avec trois orientations possibles, donnant un maximum de 30!·230·20!·320 combinaisons possibles.
+Pourtant, cette limite n'est pas atteinte parce que :
+seules les permutations des bords sont possibles, réduisant les arrangements à 30!/2.
+# l'orientation du dernier bord est déterminé par l'orientation des autres, réduisant le nombre d'orientations à 229.
+# seules les permutations des coins
+sont possibles, réduisant les arrangements à 20!/2.
+# l'orientation du dernier coin est déterminé par l'orientation des autres, réduisant le nombre d'orientations à 319.
+# l'orientation du puzzle n'a pas d'importance (puisqu'il n'y a pas de centre fixe pouvant servir de point de référence), divisant le total par 60.
+Il y a 60 positions et orientations possibles pour le premier coin, mais toutes sont équivalentes à cause de l'absence de centre.
+Ceci donne un total de \frac \approx 1,68\times 10^ combinaisons possibles.
+Le nombre exact est de .
+Voir aussi
+Lien externe
+*http:/ TwistyPuzzles
+/twisty.htm
+Page de brevet sur Magic Polyhedra
+ozsyhbnwqcm0n3larqwdsmn1j3ldf7s

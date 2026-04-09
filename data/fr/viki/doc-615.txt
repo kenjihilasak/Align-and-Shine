@@ -1,0 +1,55 @@
+Théorème de Thalès
+Le théorème de Thalès est un théorème de géométrie permettant de calculer facilement des rapports de longueurs.
+Il est attribué au mathématicien et philosophe grec Thalès, né à Milet (fin du 7e siècle jusqu'au début du 6e siècle avant J.C.).
+Il est dit que Thalès s'en serait servi pour calculer la hauteur des pyramides d'Égypte, dont la grande pyramide de Khéops, en mesurant leur ombre au sol.
+Cependant, des résultats similaires étaient connus des Égyptiens et des Babyloniens au début du IIe millénaire av. J.C.
+Sommaire
+Soient (d) et (d') deux droites sécantes (qui se croisent) en un point A. Soient B et D deux points distincts (différents) de A appartenant à la droite (d).
+Soient C et E deux points distincts de A appartenant à la droite (d').
+Si les droites (DE) et (BC) sont parallèles, alors on peut affirmer que :
+AD] divisé par [AB] est égal à [AE] divisé par [AC] qui est lui aussi égal à [DE] divisé par [BC].
+Ce théorème peut alors s'appliquer dans n'importe quel triangle.
+On peut prouver que des droites ne sont pas parallèles à partir du théorème de Thalès :
+Soient deux droites (d) et (d') sécantes en un point A. Les points B et N (distincts de A)
+appartiennent à la droite (d), et les points C et M (distincts de A) appartiennent à la droite (d').
+On a :AB=15 cm ;
+AC=12 cmAD=24 cm ;
+AE=20 cm{\displaystyle {\begin{aligned}&AB=15{\text{ cm ;
+AC=12{\text
+{ cm}}\\&AD=24{\text{ cm ;
+}}AE=20{\text
+cm}}\end{aligned}}}
+⇒{\displaystyle \Rightarrow }
+Les droites (BC) et (MN) sont-elles parallèles ?
+On suppose alors que l'on se trouve dans une configuration (= situation) du théorème de Thalès :
+Il faut établir l'égalité et la vérifier en calculant grâce au produit en croix, tout en utilisant les droites concernées.
+Si l'égalité est fausse, les droites ne sont pas parallèles.
+Soient (d) et (d') deux droites sécantes en A. Soient B et D deux points de la droite (d), distincts de A. Soient C et E deux points de la droite (d'), distincts de A.
+Si l'égalité du théorème de Thalès est vérifiée et si les points A, C, E et A, B, D sont dans le même ordre, alors les droites (DE) et (BC) sont parallèles.
+Vous connaissez à peu près tout sur le théorème de Thalès : ce qui est difficile, c'est de reconnaître quand on peut utiliser ce théorème.
+Ce théorème est étudié à partir de la 4e (théorème de la droite des milieux) et s'approfondit en 3e (en France).
+Soit ABCDE un pentagone régulier dont la longueur des côtés vaut 1.
+Comme le montre la figure, on note :
+A' l'intersection de (BD) et de (CE) ;
+B' l'intersection de (CE) et de (DA) ;
+C' l'intersection de (DA) et de (EB) ;
+' l'intersection de (EB) et de (AC) ;
+l'intersection de (AC) et de (BD).
+La symétrie axiale d'axe la médiatrice du segment [CD] préserve la figure, fixe le point A et envoie C sur D et C' sur D'.
+Par conséquent, les longueurs AC et AD sont égales ;
+les longueurs AC' et AD' sont égales.
+Comme AD′AC=AC′AD{\displaystyle {\frac {AD'}{AC}}={\frac {AC'}{AD}}}, le théorème de Thalès appliqué aux triangles ACD et AD'C' implique que les droites (CD) et (BE) sont parallèles.
+On montre de même que les droites (DE) et (CA) sont parallèles.
+Par conséquent, le quadrilatère (CDED') est un parallélogramme.
+En particulier, ses côtés opposés sont de même longueur : 1=CD=D′E{\displaystyle 1=CD=D'E}.
+On cherche à exprimer la longueur l{\displaystyle l} du segment [EB] (une « diagonale » du pentagone régulier).
+On constate :
+l−1=BD′=EC′{\displaystyle l-1=BD'=EC'} par symétrie ;
+et donc 2−l=D′E−EC′=C′D′{\displaystyle
+2-l
+=D'E-EC'=C'D'}.
+A nouveau
+, par application du théorème de Thalès aux triangles ACD et AD'C', il vient :
+Cette équation détermine l{\displaystyle l} : c'est le nombre d'or.
+Le théorème de Thalès a donc été utilisé pour prouver le résultat remarquable suivant :
+Le nombre d'or est la longueur de la diagonale d'un pentagone régulier de côté 1.

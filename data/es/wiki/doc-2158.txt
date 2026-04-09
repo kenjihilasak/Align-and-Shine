@@ -1,0 +1,107 @@
+En matemática, la radicación de orden n de un número a es cualquier número x tal que
+:x^n = a
+donde n se llama índice u orden, a se denomina radicando, y x es una raíz enésima, por lo que se suele conocer también con ese nombre.
+*La raíz de orden dos de a, se llama raíz cuadrada de a y se escribe como \sqrt o también \sqrt2.
+*la raíz de orden tres de a, se llama raíz cúbica de a y se escribe como \sqrt3.
+*Las raíces de ordenes superiores se nombran usando , por ejemplo raíz cuarta o raíz séptima.
+La radicación es la operación inversa a la potenciación.
+Definición y notación
+Se define la raíz enésima de un número a, donde n es un número entero positivo, a cualquiera de las n soluciones reales o complejas de la ecuación
+:x^n-a=0
+de incógnita x y se denota como \sqrtn.
+De esta manera se tiene la equivalencia:
+:x^n
+a \iff
+\sqrtn.
+La raíz cuadrada (n
+, por ser la más frecuente, se escribe sin superíndice: \sqrt en vez de \sqrt2.
+Para el caso n
+1 el símbolo de raíz \sqrt ni siquiera se escribe, puesto que \sqrt1=a.
+Dentro de los números reales positivos, siempre puede encontrarse una única raíz enésima también positiva.
+Si el número a es negativo entonces sólo existirá una raíz real cuando el índice n sea impar.
+# No tiene factores en el radicando que puedan escribirse como potencias mayores o iguales que el índice.
+# No hay fracciones bajo el signo radical
+# No hay radicales en el denominador.
+Por ejemplo, para escribir la expresión radical \sqrt en forma simplificada, se procede como sigue.
+Primero, se buscan cuadrados perfectos bajo el signo de la raíz cuadrada y se eliminan:
+:\sqrt
+\sqrt
+4 \sqrt
+Después, hay una fracción bajo el signo radical, la cual se cambiara como:
+:4 \sqrt = \frac
+Finalmente, se elimina el radical del denominador como sigue:
+:\frac
+\frac \cdot \frac
+\frac = \frac\sqrt
+Suma y resta de radicales
+Radicales semejantes son aquellos radicales que después de simplificados tienen el mismo índice y el mismo radicando.
+Para sumar y restar radicales semejantes se saca factor común el radical semejante de todos los términos.
+En el caso en que no sean semejantes, no se pueden sumar ni restar, por ejemplo:
+:7 \sqrt4 + \sqrt4 +10 \sqrt4
+( 7 + 1 + 10 )\sqrt4
+18 \sqrt4.
+Racionalización
+Racionalizar una expresión consiste en eliminar los radicales del denominador, transformando la expresión en otra equivalente.
+Por ejemplo, usando la factorización de la suma de dos cubos:
+\frac =
+\frac =
+\frac \,.
+Cálculo de la raíz enésima
+Mediante funciones
+El cálculo efectivo de la raíz se hace mediante las funciones logaritmo y exponencial:
+:\sqrtn
+\exp\left (\frac\right)
+donde x tiene que ser un número real positivo.
+Algoritmo de la raíz enésima
+La raíz enésima de un número A puede ser calculada mediante el algoritmo de la raíz enésima, un caso especial del método de Newton.
+Comienza con un supuesto valor inicial x0 y luego se itera usando la relación de recurrencia
+_ = \frac \left (\right)
+hasta que se alcance la precisión deseada.
+Dependiendo de la aplicación, puede ser suficiente con usar únicamente la primera aproximación del método de Newton:
+: \sqrtn \approx x + \frac.
+Por ejemplo, para encontrar la raíz quinta de 34, nótese que
+32 por lo tanto x
+5 e
+2 en la fórmula anterior.
+Esto proporciona
+: \sqrt5
+\sqrt5 \approx 2 + \frac
+El error en la aproximación es de solo del 0.03%.
+El método de Newton se puede modificar para producir una fracción continua generalizada para la raíz enésima que puede ser representada de diversas maneras, entre las que están:
+\sqrtn
+\sqrtn
+x+\cfrac ;
+\sqrtn = x+\cfrac.
+Series infinitas
+La raíz enésima puede representarse mediante la serie infinita:
+:\sqrtn=\sum_^x^k
+siendo
+:\binom = \frac
+con el valor inicial \tbinom=1 por ser un producto vacío.
+Esta serie converge para |x|<1 y su expresión se deriva de la serie binomial.
+Números complejos
+Si z es un número complejo, entonces admite una representación mediante módulo y argumento (forma polar) de la forma:
+a+bi
+\rho e_^, donde \;
+\rho
+\sqrt, \quad \theta
+\arg (a+bi)
+De esta manera, en forma polar, las raíces n-ésimas de z, necesarias para la ecuación x_^n=z, pueden ser calculadas por medio de la fórmula:
+:\sqrtnz
+\sqrtn \,
+\, \sqrtn\,e^,\ k \in
+Por tanto, un número complejo tiene n raíces enésimas distintas.
+En el plano complejo están dispuestas en los vértices de un polígono regular de n lados con centro en el origen del plano complejo.
+La raíz cúbica y la distancia del centro de dicho polígono a sus vértices es
+\sqrtn
+;Ejemplo:
+: \sqrt31
+\sqrt3
+\left \{
+\begin
+\sqrt3\,e^ & = & 1+ 0i \\
+\sqrt3\,e^ & = & -+ i\\
+\sqrt3\,e^ & = & --
+\end
+\right .
+Véase también

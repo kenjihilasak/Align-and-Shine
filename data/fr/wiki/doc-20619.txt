@@ -1,0 +1,15 @@
+Moteur de jeu
+vidéo|*|Terminologie du jeu vidéo
+Un moteur de jeu est un ensemble de composants logiciels qui effectuent des calculs de géométrie et de physique utilisés dans les jeux vidéo.
+L'ensemble forme un simulateur en temps réel souple qui reproduit les caractéristiques des mondes imaginaires dans lesquels se déroulent les jeux.
+Le but visé par un moteur de jeu est de permettre à une équipe de développement de se concentrer sur le contenu et le déroulement du jeu plutôt que la résolution de problèmes informatiques.
+Le moteur 3D crée des images par des calculs de projection, tandis que le moteur 2D construit l'image du jeu par empilement d'images matricielles.
+Le moteur effectue le mixage des bruits et de la musique tout au long du jeu.
+Les possibilités de scriptage des moteurs de jeu permettent de simuler le comportement des personnages non-jouables avec peu ou pas de programmation et le moteur physique sert à appliquer des règles de physique telles que l'inertie ou la pesanteur dans le but d'obtenir des mouvements plus réalistes.
+Pour le développement de Jedi Knight: Dark Forces II (1997), le moteur de jeu a été adapté pour supporter un langage de script.
+Robert Huebner, qui a participé à cette évolution, explique qu'il existait avant cela un langage binaire INF qu'il était dur d'assimiler
+- un livret complet était destiné à cet usage.
+Le langage de script implémenté, COG, est compilé à la volée lors du lancement d'une partie puis exécuté sur une machine virtuelle (un automate à pile) pour assurer la robustesse du jeu.
+Il n'y a eu aucune conséquence négative rapportée que ce soit sur le développement ou sur le jeu lui-même, mais plutôt un accroissement de la créativité des concepteurs.
+Intelligence artificielle
+Réseau

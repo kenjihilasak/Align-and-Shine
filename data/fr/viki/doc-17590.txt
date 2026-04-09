@@ -1,0 +1,33 @@
+Équation aux dimensions
+Lorsqu'il y a un problème de physique un peu compliqué, la technique de l'équation aux dimensions permet de répondre à la question «
+quelle grandeur physique suis-je en train d'évaluer ?
+On appelle aussi cela l'analyse dimensionnelle.
+Sommaire
+Les nombres en physique ont tous une unité :
+ce sont des masses exprimés en kilogrammes (kg), des longueurs exprimées en mètres (m), des vitesses en mètres par seconde (m/s), des temps exprimés en secondes, etc.
+D'une manière générale, on ne peut comparer et additionner que des grandeurs physiques de même nature : des masses avec des masses, des vitesses avec des vitesses, des temps avec des temps... Par exemple, cela n'a pas de sens d'additionner la masse d'un éléphant avec sa hauteur, ou de se demander si la masse d'un éléphant est supérieure ou non à la hauteur d'une girafe.
+Une équation aux dimensions est donc un moyen de vérifier si des calculs complexes n'ont pas des erreurs graves au point d'être complètement faux en vérifiant si les unités de départ se retrouvent identiques à la fin comme on désiré.
+Dans une équation en physique, deux membres de l'équation (c'est-à-dire des nombres ou des lettres qui les représentent) ne peuvent être comparés directement que s'ils sont de la même grandeur physique : comme écrire une égalité entre A et B. On dit alors qu'ils sont homogènes et ils s'écrivent donc dans la même unité.
+Par contre on a besoin de multiplier ou diviser différentes grandeurs physiques, et plusieurs d'entre elles sont définies à partir de multiplication ou division des autres.
+grandeurs.
+Les grandeurs physiques ont donc des relations qui sont fixées par définition.
+Par convention, on note ces grandeurs physiques entre crochets, avec par exemple, le temps [T], la masse [M]. Mais seules 7 grandeurs physiques ont une lettre qui les symbolise.
+Ces grandeurs physiques sont, avec leurs unités dans le système international :
+Les autres grandeurs sont définies en combinant les premières : par exemple : La vitesse est un rapport d'une distance par un temps :
+Une énergie est une masse multipliée par une aire divisée par une durée au carré :
+À partir d'une équation entre différentes grandeurs qui sont multipliées ou divisés entre elles une ou plusieurs fois, une équation aux dimensions consiste à se servir des définition des grandeurs physiques pour ensuite simplifier (réduire) une équation et trouver l'unité du résultat.
+Quand on multiplie plusieurs fois la même grandeur, on utilise les puissances : par exemple [L]
+x [L] équivaut à [L]2,
+quand on divise une ou plusieurs fois par une grandeur, cela se note avec une puissance négative.
+Par exemple [L] ÷ [T] ou [L]/[T] s'écrit [L].[T]-1.
+Puis on applique les règles des puissances pour simplifier une équation.
+Après la simplification, on cherche à quelle définition de dimension le résultat correspond.
+Si, par exemple, un résultat s'exprime dans les mêmes unités qu'une vitesse, c'est peut-être une vitesse...
+Dans une théorie ou des calculs complexes on vérifie ainsi qu'il n'y a pas des erreurs fondamentales qui la rendent totalement fausse, comme calculant des chevaux on finit sans le savoir avec des escargots comme unités..
+Par exemple si on cherche à avoir une idée comment varie la vitesse des vagues dans la mer, aussi bien les vagues usuelles que celle d'un tsunami sans faire toute la théorie très complexe des fluides on cherche les grandeurs qui caractérisent le phénomène étudié, puis on cherche à obtenir la bonne unité, ici une vitesse avec les dimensions d'une vitesse avec les unités des grandeurs intervenant dans ce phénomène.
+On cherche les grandeurs qui caractérisent le phénomène étudié, puis on cherche à obtenir la bonne unité, ici une vitesse avec les dimensions d'une vitesse avec les unités des grandeurs intervenant dans ce phénomène.
+Ici les vagues sont des oscillations qui ont une longueur d'onde L et qui dépendent aussi dans un récipient d'une profondeur L comme celle d'une piscine ou de la mer.
+Une vitesse est une longueur L parcourue par unité de temps T soit L/T. Enfin la cause réelle des vagues qui est l'attraction terrestre qui fait tomber l'eau des vagues de façon progressive sous forme d'onde, assez similaire à des dominos tombant les uns après les autres, avec une accélération g égale à la vitesse de variation d'une vitesse, donc une vitesse L T^2 .
+Sur terre g=9,81 m T^2 et L ce qui simplement est obtenu en multipliant g par L en donnant le carré d'une vitesse pour gL= avec un facteur de proportionnalité fonction exacte de la géométrie détaillée (angle de collision, épaisseur des dominos)
+On peut réaliser le même type d'analyse dimensionnelle pour beaucoup d'autres phénomènes.
+James Clerk Maxwell, fondateur de l'électromagnétisme a créé et utilisé l'analyse dimensionnelle entre unités électrostatiques et électromagnétiques pour les mêmes grandeurs mesurées comme courants ou énergie pour y trouver le carré d'une vitesse surprenante qu'il a mesuré égale à celle de la lumière en 1865 ce qui a permis à Maxwell en 1865 à 1870 de prouver que la lumière en théorie est formée d'ondes électromagnétiques bien avant Heinrich Hertz qui les a observé en 1888, ondes similaires à celles de nos smartphones.

@@ -1,0 +1,45 @@
+Radian
+Un angle d'1 radian est un angle qui délimite un arc de cercle d'une longueur égale au rayon du cercle.
+Dans un cercle de rayon R, un arc de longueur s est délimité par un secteur angulaire de mesure s/R radian.
+Il est important de remarquer que cette grandeur n'a pas d'unité : c'est le rapport de deux longueurs.
+Pour calculer ce rapport, les longueurs doivent être exprimées dans la même unité de longueur ;
+mais changer d'unité de longueur ne modifie pas le rapport.
+Cette unité de mesure a pour symbole rad
+Un Radian est approximativement égal à 57,2°.
+Un angle plein (de 360 °) Correspond à un cercle entier.
+La circonférence de ce cercle est de 2 x π x r (le rayon) et de même, cet angle vaut 2π radians.
+Donnons dans une table,
+les valeurs en degré et en radian des angles les plus importants :
+nom de l'angle
+valeur en radian
+valeur
+en degré
+valeur en tour
+angle nul
+0 rad
+milliradian
+1 mrad
+3′26″15‴
+radian
+1 rad
+57°17′44″48‴
+1 2 rad
+90°
+1 4 rad
+135°
+angle plein
+2π rad
+Pour passer des radians aux degrés et vice versa on effectue une règle de trois, ou on utilise la formule suivante :
+Considérons un cercle de rayon R.
+Connaissant la longueur L d'un arc de ce cercle, la mesure de l'angle en radian du secteur angulaire défini par l'arc et le centre du cercle est égale à L/R radians, par définition.
+Inversement, à partir de la donnée de la mesure α en radians de l'angle d'un arc du cercle, la longueur L de l'arc est égale à Rα.
+Historiquement, les degrés furent définis bien avant les radians et on peut se demander pourquoi avoir introduit une nouvelle unité de mesure d'angle.
+Les radians furent introduits à la fin du XIXe siècle par James Thomson.
+La principale raison est qu'un certain nombre de formules deviennent plus simples lorsque les mesures d'angles sont exprimées en radians.
+Par exemple la formule permettant d'obtenir la longueur d'un arc à partir de son angle en radians s'écrit L=Rα et n'a pas de facteur 180/π.
+De plus, en mathématiques, les fonctions trigonométriques comme le sinus ou le cosinus sont actuellement toutes définies à partir d'angles exprimés en radians.
+Par exemple, pour un angle dont la mesure est petite, on peut montrer remplacer sin (h) par h dans les formules pour obtenir de bonnes approximations.
+Alors pourquoi ne pas abandonner les degrés ?
+Parce que la définition d'un degré est facile à comprendre et beaucoup d'instruments de mesure d'angle sont encore en degrés, comme presque tous les rapporteurs.
+Cependant, en physique, les radians sont couramment utilisés.
+La vitesse angulaire s'exprime en rad/s ou en tours par minutes.

@@ -1,0 +1,30 @@
+Jeu de société|Jeu de stratégie combinatoire abstrait|Jeu par arrangement|Jeu de papier et crayon|Jeu
+Hasbro|Jouet sorti en 1974
+Puissance 4 (appelé aussi parfois 4 en ligne) est un jeu de stratégie combinatoire abstrait, commercialisé pour la première fois en 1974 par la Milton Bradley Company, plus connue sous le nom de MB et détenue depuis 1984 par la société Hasbro.
+Règles du jeu
+Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7 colonnes.
+Chaque joueur dispose de 21 pions d'une couleur (par convention, en général jaune ou rouge).
+Tour à tour, les deux joueurs placent un pion dans la colonne de leur choix, le pion coulisse alors jusqu'à la position la plus basse possible dans la dite colonne à la suite de quoi c'est à l'adversaire de jouer.
+Le vainqueur est le joueur qui réalise le premier un alignement (horizontal, vertical ou diagonal) consécutif d'au moins quatre pions de sa couleur.
+Si, alors que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.
+Stratégie
+Solution exacte
+Le jeu a été résolu de façon exacte en 1988, par James D. Allen, et indépendamment par Victor Allis, à quelques jours d'intervalle ( et ), avec des calculs informatiques.
+Le premier joueur peut s'assurer la victoire s'il joue les coups adéquats.
+Le seul premier coup gagnant est celui dans la colonne centrale.
+Un premier coup dans les colonnes adjacentes permet au second joueur d'obtenir une partie nulle, et un premier coup dans l'une des quatre autres colonnes extérieures permet même au second joueur de remporter la victoire (à condition qu'il joue parfaitement).
+Éléments stratégiques
+Commencer dans la colonne centrale est un coup permettant au premier joueur d'obtenir en théorie la victoire s'il continue de jouer parfaitement, mais plus généralement, cette colonne est un élément important du jeu.
+En effet, les jetons de la colonne centrale sont ceux qui sont le plus susceptibles de former une ligne, et sont également ceux qui bloquent le plus de lignes de l'adversaire.
+En particulier, un jeton dans la colonne centrale empêche l'adversaire de faire une ligne horizontale aussi bien à gauche qu'à droite.
+Un autre élément essentiel de la maîtrise du jeu consiste à créer des menaces multiples, de façon que l'adversaire ne puisse pas bloquer toutes les menaces à la fois.
+L'exemple le plus simple consiste à aligner 3 jetons horizontaux, avec les deux extrémités libres, et toutes les deux accessibles au coup suivant.
+L'adversaire, qui ne peut jouer qu'un seul jeton, ne pourra donc bloquer qu'une seule des extrémités.
+Lorsque la main revient au joueur possédant les 3 jetons, il lui suffit de jouer à l'autre extrémité pour remporter la partie.
+Une menace multiple plus évoluée consiste à créer deux lignes de 3 jetons (horizontales, ou diagonales) de telle sorte que leurs jetons manquants soient placés l'un au-dessus de l'autre.
+Lorsque l'adversaire va tenter de bloquer la ligne dont le jeton manquant est situé dessous, le joueur principal n'aura plus qu'à jouer dans la même colonne, complétant ainsi la ligne de sa deuxième menace.
+Se placer systématiquement au-dessus du pion de l'adversaire, quand cela est possible (l'adversaire n'a pas joué sur la ligne du haut, ou n'a pas trois pions alignés qu'il faut bloquer), permet d'obtenir assez souvent un match nul pour le joueur qui commence, s'il place son premier pion dans la colonne du milieu (pour la version à six lignes et sept colonnes).
+Variantes
+Ce jeu, lui-même dérivé du morpion, a connu plusieurs variantes.
+Une version 3D se jouant sur un plateau de (4×4×4)
+intitulée Sogo a été éditée par Ravensburger en 1978.

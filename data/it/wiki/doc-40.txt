@@ -1,0 +1,65 @@
+Con il termine satellite artificiale si possono intendere tutti gli oggetti orbitanti intorno ad un corpo celeste che sono stati posti volutamente nell'orbita desiderata con mezzi tecnologici (ad esempio razzi vettori) e con varie finalità a supporto di necessità umane (servizi o indagini/monitoraggio scientifico-ambientali).
+L'insieme di più satelliti artificiali adibiti ad uno stesso scopo forma una costellazione o flotta di satelliti artificiali.
+Suddivisione
+I satelliti artificiali si possono suddividere in:
+* satelliti scientifici, destinati alla ricerca pura nel campo dell'astronomia o della geofisica, es. Telescopio Spaziale Hubble o Lageos;
+* satelliti applicativi, destinati a scopi militari o ad usi commerciali civili.
+I satelliti applicativi si possono ulteriormente suddividere in:
+* satelliti per telecomunicazioni, apparecchiature costruite dall'uomo per le telecomunicazioni, es. i Satelliti COSPAS-SARSAT;
+spesso sono posizionati in un'orbita geostazionaria intorno alla Terra e in numero tale da formare una rete satellitare;
+* satelliti meteorologici, posizionati sia in orbita geostazionaria (es. METEOSAT) sia in orbita polare (es. satelliti NOAA);
+* satelliti per telerilevamento, costruiti per il telerilevamento, la cartografia e l'osservazione sistematica della superficie terrestre (es. satelliti Landsat, QuickBird, Envisat, IKONOS o RapidEye);
+* satelliti per la navigazione, come quelli della rete GPS (Global positioning system);
+* satelliti militari sia a scopo offensivo che difensivo, es. la rete di satelliti di monitoraggio nucleare Vela o lo statunitense Geosat;
+* stazioni orbitanti, es. Stazione Spaziale Internazionale, Skylab, Mir;
+* sonde spaziali in modo improprio, perché in genere le sonde non orbitano attorno ad un altro corpo.
+Inoltre sono caratterizzati in base all'orbita che percorrono.
+Le orbite principali sono: orbita polare, orbita equatoriale, orbita geostazionaria, orbita terrestre bassa, orbita terrestre media.
+Movimento dei satelliti
+Lo studio del moto dei corpi nello spazio, specie artificiali, è oggetto dell'astrodinamica.
+Il moto o traiettoria di un corpo nello spazio, compresi quindi i satelliti, è detta orbita.
+Per i satelliti artificiali, così come per quelli naturali, valgono delle regole atte a calcolare la loro velocità.
+Tuttavia, per la semplificazione dei calcoli, sono presi in considerazione i seguenti punti:
+* l'orbita del satellite viene considerata come circolare;
+* il satellite si muove attorno ad un corpo puntiforme con una certa massa;
+Un satellite che gira attorno alla terra è soggetto alla forza di attrazione di gravità che cerca di farlo precipitare sulla terra, e alla forza centrifuga che cerca di farlo allontanare.
+Per le leggi del moto circolare uniforme, è noto che la forza centrifuga è data dalla formula:
+F_C=\frac
+e ancora, per la legge di gravitazione universale, la forza di attrazione gravitazionale tra due masse m_1 e m_2
+si calcola con la formula:
+F_G=\frac
+Tuttavia, per creare una situazione di equilibrio, cioè fare in modo che il satellite ruoti attorno ad un corpo e non precipiti su di esso, la forza centrifuga dev'essere uguale alla forza di gravitazione:
+F_C=F_G
+Quindi ci è possibile eguagliare le due espressioni precedentemente citate:
+\frac=\frac
+dove:
+* M = massa del corpo attorno al quale il satellite ruota
+* G = costante di gravitazione universale, che vale 6,67
+è possibile semplificare l'espressione, omettendo m:
+\frac=\frac
+risolvendo l'equazione, ossia moltiplicando i membri per r, si trova il valore della velocità del satellite:
+v=\sqrt \frac
+sapendo inoltre che il periodo, nel moto circolare uniforme, vale 2 \pi r/v, si potrà calcolare quello di un satellite dividendo 2 \pi r per la sua velocità.
+Anche i satelliti geostazionari non sono perfettamente fermi rispetto al moto della Terra, ma a causa dell'influenza gravitazionale degli altri corpi celesti come Luna, Sole ed altri pianeti oscillano nella loro posizione e sono dunque necessarie manovre correttive comandate dalla Terra e perfettamente automatizzate che rendono a loro volta necessaria a bordo del satellite la presenza di più motori a reazione, uno per ciascuna direzione di moto alimentati da carburante.
+Al cessare del carburante a bordo cessa di fatto la vita operativa del satellite ed esso si disperde in una nuova orbita rispetto a quella originaria diventando parte della cosiddetta "spazzatura spaziale" oppure ricade sulla superficie terrestre.
+Struttura e dotazione di un satellite
+Il nucleo principale del satellite che svolge le funzioni per cui esso è stato posto in orbita è detto carico utile mentre per la trasmissione/ricezione dei dati da e verso il suolo terrestre sono necessarie una o più antenne.
+Come accessori indispensabili di funzionamento oltre ai motori e al carburante per manovrarlo a piacimento, il satellite artificiale possiede dei pannelli fotovoltaici, opportunamente dimensionati e regolati costantemente verso la radiazione solare tramite sistemi ad inseguimento solare, necessari per fornire l'energia elettrica per le funzionalità di elaborazione e/o trasmissione a Terra dei dati da parte dei componenti elettronici deputati a tal fine.
+Disturbi sui satelliti
+L'elettronica di bordo dei satelliti artificiali è disturbata e a volte danneggiata:
+* dalle particelle cariche (protoni ed elettroni) delle fasce di Van Allen, cui si ovvia immettendo il satellite in un'orbita diversa da quelle delle suddette fasce;
+* dalle radiazioni cosmiche-ionizzanti sotto forma di raggi cosmici e dalle tempeste solari sotto forma di vento solare durante l'aumento di attività solare attraverso macchie solari ed eruzioni solari.
+Per questo problema molti satelliti in passato sono andati fuori uso in occasione di violente tempeste solari.
+* dai plasmi, che sono causa di archi elettrici (a volte anche sostenuti), i quali possono causare il fallimento di sottosistemi di potenza, come ad esempio di celle di pannelli fotovoltaici
+* dalle specie chimiche neutre, come ad esempio l'ossigeno atomico, responsabile di erosione da impatto, e di thinning (assottigliamento) dei contatti elettrici (è opportuno far notare che, per ragioni collegate alla massa, i cavi e i contatti sono scoperti, quindi esposti all'interazione con l'ambiente)
+È opportuno sottolineare come, per un satellite, sia critico il deterioramento delle proprietà termo-ottiche delle superfici.
+Proprietà che sono fondamentali per un opportuno controllo termico (passivo o attivo).
+A questi fattori di rischio si aggiunge anche il rischio connesso ai detriti spaziali e micrometeoriti (di origine naturale, in orbite eliocentriche, che possono intercettare le orbite terrestri), che sono causa di impatti iperveloci.
+Tali impatti, in base alla dimensione ed alla velocità dell'oggetto impattante (per un detrito si può raggiungere una velocità anche dell'ordine dei 10÷15 km/s), possono portare al fallimento di sottosistemi di un satellite, o addirittura (in casi più estremi) al fallimento catastrofico dello stesso.
+Allo stato dell'arte, per satelliti di tipo "manned" (con la presenza di uomini a bordo, ad esempio la ISS), vengono utilizzate procedure di shielding passivo, tramite gli scudi Whipple per detriti "piccoli".
+Per detriti di dimensioni notevoli, vengono adottate opportune manovre evasive all'occorrenza (essendo tali detriti catalogati e monitorati).
+Costi
+Spesso l'uso di un satellite si rende necessario per compiere studi, rilevazioni, trasmissioni dati e servizi che altrimenti effettuati direttamente a Terra con sistemi terrestri richiederebbero costi sensibilmente maggiori.
+Il costo complessivo di un satellite è comunque elevato e rappresentato dal costo di progettazione e realizzazione del cosiddetto carico utile, dal costo della strumentazione accessoria per far funzionare al meglio il satellite (motori, pannelli, involucro) e dal costo per il lancio che è una funzione diretta del peso da trasportare in orbita (si parla comunemente di costi per Kg di peso) e della quota di orbita.
+Una parte cospicua del costo di lancio o messa in orbita è rappresentata dal razzo vettore e dal suo carburante.
+Vi è, inoltre, il costo assicurativo per un parziale recupero del danno provocato dal fallimento del lancio o da una mancata riuscita del posizionamento nell'orbita desiderata.

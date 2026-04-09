@@ -1,0 +1,66 @@
+Python|Logiciel
+éducatif|Logiciel libre sous licence GPL|Accessibilité|Produit lancé en 2009
+ToutEnClic est un logiciel libre pour travailler à l’écran sur un document numérisé, de la même façon que sur un cahier, pour pallier le handicap physique des enfants incapables d’utiliser les outils usuels, tels que règles, crayons, compas, mais capables d'utiliser une souris.
+Il est développé par Alain Delgrange sur plateforme
+Gnu/Linux depuis 2009
+avec Python et wxPython
+Depuis la version 5.0, il est écrit en Python 3 et PyQt 5.
+Historique
+ToutEnClic est une application développée pour une enseignante, Christelle Bourlard, qui avait dans sa classe un enfant physiquement dans l’impossibilité d’écrire.
+Quentin disposait d'un ordinateur personnel avec un clavicom, clavier virtuel libre et gratuit.
+Christelle cherchait un logiciel pour numériser les pages d’exercices qu’elle distribuait à ses élèves valides, et qui permettrait à Quentin de réaliser ces exercices à la souris et au clavicom.
+Fonctionnalités
+ToutEnClic permet de créer un document sous différents formats avec un fond de couleur unie.
+Un document ToutEnClic est une page qui peut être créée dans le format A4, la disposition (portrait par défaut) et la couleur (blanche par défaut) désirés ou bien suivant un modèle A4 préétabli.
+Il est possible d’importer une page numérisée.
+Dans ce cas, ToutEnClic en demande le format initial afin d’ajuster sa taille et ses proportions afin qu’elles soient réellement à l’échelle des outils.
+ToutEnClic permet de régler l’épaisseur des tracés, la couleur des tracés et des remplissages, ainsi que leur niveau de transparence.
+Chaque action réalisée est conservée en mémoire pour autoriser les retours en arrière.
+ToutEnClic produit des fichiers au format XML d’
+extension .tec et permet de les exporter en JPEG ou de les imprimer.
+L’utilisation simultanée des outils tels que règle, compas, rapporteur, équerre et loupe est facilitée et un simple clic de souris sur un outil le place au premier plan par rapport aux autres.
+Fichier:
+Pivotequerre.png|équerre
+Fichier:
+Pivotrapporteur.png|rapporteur
+Fichier
+Pivotregle.png|règle
+Fichier
+Touslesoutils.png|tous les outils
+Utilisation
+Une fois le document chargé dans la zone de travail, l’enfant peut :
+* sélectionner une zone et la recopier à un autre endroit ;
+* découper une zone et la recopier à un autre endroit
+* insérer une image externe dans une zone délimitée ;
+* utiliser une règle, un rapporteur, une équerre, un compas et une loupe ;
+* écrire un texte à l’aide d’un clavier virtuel propre à ToutEnClic ou tout autre dispositif de saisie ;
+* compter sur ses doigts à l’aide d’un outil graphique représentant quatre mains ;
+* afficher une vue globale du document dans une autre fenêtre.
+Fichier:
+Copier.png|copier
+Fichier
+Couper.png|couper
+Fichier:
+Lignedroite.png|ligne droite
+Fichier
+Mainlibre.png|écrire main libre
+Fichier:
+Pointeur.png|tracer un pointeur
+Fichier
+Ellipse-toutenclic.png|dessiner une ellipse vide
+Fichier
+Ellipsepleine.png|dessiner une ellipse pleine
+Fichier
+Rectangle
+-toutenclic.png|rectangle vide
+Fichier:
+Rectangleplein.png|rectangle plein
+Versions
+La version 5.02 est écrite en Python 3 et PyQt 5 pour améliorer sa fluidité, stabilité et ses fonctionnalités correspondant aux tâches demandées par un enseignant à ses élèves.
+Elle fonctionne sur les plates-formes 32 bits ou 64 bits disposant de l’interpréteur Python 3.
+Elle est intégrée à PrimTux.
+La version 6.0 permet de créer des documents multi-pages comportant des feuillets hétérogènes : pages unies, quadrillées, Seyès.
+L'élève peut travailler sur chaque page avec l’ensemble des outils disponibles dans la trousse virtuelle.
+Elle apporte une amélioration ergonomique dans l’utilisation des outils en supprimant tous les éléments nécessitant de faire glisser le curseur tout en maintenant un bouton enfoncé.
+Ces contrôles ont tous été remplacés par des boutons permettant à la fois un simple clic et la répétition des clics rien qu’en les maintenant enfoncés.
+C’est ainsi que pour actionner la rotation des outils (compas, règle, rapporteur et équerre) il suffit de cliquer sur le bouton adéquat et de le maintenir enfoncé tant qu’on désire voir l’outil pivoter.

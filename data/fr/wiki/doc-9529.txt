@@ -1,0 +1,139 @@
+Théorie des ensembles|Nombre cardinal
+En linguistique, les nombres entiers naturels zéro, un, deux, trois, etc. s’appellent des adjectifs numéraux cardinaux.
+En théorie des ensembles, le nombre cardinal ou cardinal d'un ensemble E (fini ou infini) est, intuitivement, le « nombre » d'éléments lui appartenant.
+On peut définir formellement ce « nombre »
+comme la classe de tous les ensembles équipotents à E (c'est-à-dire en bijection avec E), ou comme le plus petit ordinal équipotent à E.
+Le cas fini
+Les saisons, les points cardinaux, les fils Aymon, forment trois ensembles partageant une certaine qualité, qu'ils ne partagent pas avec l'ensemble des doigts de la main : on peut mettre en évidence cette qualité en faisant correspondre un à un les éléments respectifs de ces ensembles et dire qu'ils sont de cardinal « quatre ».
+Quatre » serait alors la signature de la propriété en question.
+De la même façon l'ensemble des doigts de la main peut être mis en correspondance, élément à élément, avec l'ensemble des mots ;
+ces deux ensembles sont en un certain sens équivalents : on dit qu'ils sont en bijection ou qu'ils sont équipotents.
+Il n'y a par contre aucun moyen de mettre en correspondance «
+un à un » chaque point cardinal avec chaque doigt de la main (il n'existe même pas d'injection du second ensemble dans le premier) ;
+et donc là on n'a pas affaire à des ensembles équipotents.
+Il existe cependant une injection du premier ensemble dans le second.
+On dira que le premier est subpotent au second.
+La subpotence est une relation de préordre dans la classe des ensembles.
+Ce que l'on appelle « cardinal » sera en quelque sorte la mesure de la « puissance » d'un ensemble.
+Un ensemble sera dit fini de cardinal n s'il est équipotent à l'ensemble de nombres entiers ou de façon équivalente à l'ensemble qui dans la notation de von Neumann est identifié à n lui-même.
+Ainsi donc, tant qu'on en reste au fini, les cardinaux apparaissent sous le double aspect de l’équivalence et de l’ordre : chacun d'eux est la signature d'une équivalence entre ensembles, mais entre eux ils sont ordonnés par taille.
+On verra plus bas que la situation se complique lorsque l'on a affaire à des cardinaux infinis ;
+ainsi, l'affirmation que de deux cardinaux l'un doit être supérieur à l'autre dépend de l'axiomatique choisie : c'est le problème de la comparabilité cardinale.
+Le cas général
+Définition de Frege
+Une première théorie de la cardinalité peut se construire comme une théorie de la relation d'équipotence, sans définir ce qu'est vraiment un nombre cardinal en toute généralité.
+La relation d'équipotence étant réflexive, symétrique et transitive sur la classe des ensembles, chaque classe d'équivalence est appelée nombre cardinal ou simplement cardinal.
+Cette définition qui paraît très naturelle se présente parfois dans les exposés élémentaires de la théorie des ensembles ;
+cependant son usage pose certains problèmes dans les théories usuelles, ainsi la classe des ensembles à un seul élément, qui serait le nombre un, n'est pas un ensemble et n'est élément d'aucune classe ;
+de même la classe des ensembles à quatre éléments, etc., d'où l'impossibilité de même parler d'intervalles de nombres entiers naturels.
+Ces difficultés s'apparentent au paradoxe de Russell, qui fut d'ailleurs découvert quand ce dernier adressa une lettre critique à Frege.
+Définition par les ordinaux
+Position du problème
+On pourrait, pour contourner ces difficultés, choisir de caractériser un représentant dans chaque classe d'ensembles équipotents entre eux.
+Ceci peut se faire très simplement dans le cas fini comme suit :
+L'ensemble vide et les ensembles d'entiers de la forme forment des ensembles de cardinaux deux à deux différents ;
+Avec la définition des « entiers de von Neumann », qui est le cas particulier restreint au fini de la définition des ordinaux, l'entier naturel n, vu comme un ordinal fini, est l'ensemble de ses prédécesseurs :
+:*:
+en particulier
+, l’ensemble vide étant le seul ensemble à n'être équipotent qu'à lui-même ;
+Cependant, l’extension de cette méthode aux ensembles infinis requiert des outils supplémentaires :
+La relation «
+il existe une injection de l'ensemble X dans l'ensemble Y » est un préordre partiel sur les ensembles ;
+Si deux ensembles A et B sont équipotents, il existe évidemment une injection de chacun des deux dans l'autre ;
+Le théorème de Cantor-Bernstein permet de montrer la réciproque : deux ensembles sont équipotents dès qu'il existe une injection de chacun d'eux dans l'autre.
+Ainsi, l'équipotence est la relation d'équivalence associée au préordre, et on a une relation d'ordre sur les classes d'équipotence ;
+:* L'affirmation que cet ordre est total équivaut à l'axiome du choix: c'est le théorème de comparabilité cardinale.
+Sans cet axiome, étant donnés deux ensembles E et F, il n’existe pas nécessairement d’injection de E dans F ni de F dans E ;
+On voit donc que la définition du cardinal est dépendante de l’axiome du choix.
+L’axiome du choix équivaut à l’existence d’un bon ordre sur tout ensemble ;
+:* Dans la théorie des ensembles ZFC (Zermelo-Fraenkel avec axiome du choix) et ses extensions, on définit une classe de représentants de tous les bons ordres : les nombres ordinaux, généralisation des nombres entiers dont la représentation en théorie des ensembles est due à von Neumann.
+Il s'agit d'une classe propre, elle-même bien ordonnée donc en particulier totalement ordonnée.
+Définition
+Dans ce cadre, un nombre cardinal est alors défini comme un nombre ordinal (de von Neumann) qui n'est équipotent à aucun ordinal qui lui soit strictement inférieur.
+Le cardinal d'un ensemble est le plus petit ordinal auquel cet ensemble est équipotent.
+Tous les entiers naturels, identifiés à des ordinaux finis, sont des cardinaux en ce sens.
+Les cardinaux infinis sont représentés au moyen de la lettre hébraïque :
+ℵ. Le plus petit cardinal infini
+est ℵ₀.
+C'est le cardinal de l'ensemble N des entiers naturels, qui est également désigné en tant que nombre ordinal par .
+Le cardinal immédiatement supérieur est ℵ₁, etc.
+D'une manière générale, un cardinal infini quelconque peut toujours s'écrire ℵ, où α est un ordinal.
+Propriétés générales
+Exemples
+*On appelle ensemble dénombrable tout ensemble équipotent à l'ensemble des entiers naturels.
+Par exemple, l'ensemble des rationnels est dénombrable.
+card (Q)
+ℵ₀ :
+card (N)
+* Le cardinal de l'ensemble des nombres réels est le même que celui de l'ensemble des parties de N :
+\mathrm (\R)=\mathrm (\mathcal P (\N))>\aleph_0 (théorème de Cantor).
+:Ce cardinal se note également \mathfrak c, dit cardinal du continu.
+*On dit qu'un ensemble a la puissance du continu si son cardinal est \mathfrak c (puissance était utilisé dans le sens du cardinal, et a donné également équipotent).
+De même que
+Nk est équipotent à N, pour tout entier k > 0, Rk est équipotent à R, c'est-à-dire de cardinal \mathfrak c. L'ensemble des suites réelles ℝ également.
+L'ensemble des fonctions continues de R dans R est donc aussi de cardinal \mathfrak c, car cet ensemble a au plus la puissance de RQ (et au moins celle du continu).
+*\mathrm (
+\mathcal P (\R)^)
+\mathrm (\R^)
+\mathrm (\N^)=\mathrm (\mathcal P (\R))> \mathfrak c (B désigne l'ensemble des applications de A dans B).
+Propriétés
+S'il existe une surjection de A dans B, alors card (B) ≤ card (A).
+Il n'existe pas de surjection d'un ensemble E sur l'ensemble de ses parties \mathcal P (E).
+Un ensemble n'est donc jamais équipotent à l'ensemble de ses parties, bien qu'il s'injecte dedans par l'ensemble des singletons de ses éléments, ce qui permet d'écrire :C'est le théorème de Cantor ;
+le point de départ de la théorie de la cardinalité pour les ensembles infinis fut un article de 1874 de Georg
+Cantor
+qui montrait que le continu, l'ensemble des réels, ne pouvait être mis en bijection avec l'ensemble des entiers naturels, et que donc il existait des infinis différents du point de vue de la cardinalité.
+*Si A est infini alors card (A×A)
+= card (A).
+Cet énoncé, qui équivaut à l'axiome du choix, a de nombreux corollaires.
+Par exemple, si A est infini :
+**si 0<\mathrm (B)\le\mathrm (A), alors \mathrm (
+A \times B)=\mathrm (A)
+- en particulier, , donc
+**si \mathrm (B)\le\mathrm (A), alors \mathrm (
+A\cup B)=\mathrm (A) ;
+***en particulier, si B est inclus dans C infini avec \mathrm (B)
+< \mathrm (C), alors \mathrm (C)=\mathrm (C\setminus B) ;
+**si 2 \le \mathrm (B)
+\le\mathrm (\mathcal P (A)), alors \ \mathrm (B^A)
+=\mathrm (\mathcal P (A)).
+**l'ensemble Fin (A)
+des parties finies de A et l'ensemble A des suites finies d'éléments de A ont même cardinal que A.
+Les grands cardinaux
+L'étude de la cardinalité en théorie des ensembles est toujours un sujet de recherche actif.
+Les « grands cardinaux »
+permettent une extension naturelle de la théorie ZFC.
+Cardinal inaccessible
+Laccessibilité est la possibilité d'atteindre un ordinal ou un cardinal donné à partir des ordinaux plus petits.
+Un ordinal β est dit cofinal dans un ordinal α s'il existe une application strictement croissante de β dans α tel que α soit la limite de au sens suivant :
+\forall \gamma \in \alpha, \exists \delta \in \beta, \gamma \le f (\delta).
+Par exemple, aucun ordinal strictement plus petit que ℵ₀
+n'est cofinal dans ℵ₀, puisqu'un ordinal strictement inférieur à ℵ₀ est un entier n = et qu'une application strictement croissante définie sur est bornée.
+Le cardinal ℵ₀ est dit alors régulier, c'est le cas de tous les cardinaux successeurs.
+Par contre, ω est cofinal dans le cardinal ℵ au moyen de l'application f : n \in \omega \mapsto \aleph_n.
+Ce cardinal ℵ est dit alors singulier.
+En notant cf (α) le plus petit ordinal cofinal dans α, on obtient cf (ω)
+cf (ℵ)
+Les cardinaux se classent alors comme suit :
+* ceux de la forme ℵ, indexés par un ordinal α + 1 successeur d'un ordinal α ;
+* ceux de la forme ℵ, indexés par un ordinal α limite et qui sont singuliers ;
+* ceux de la forme ℵ, indexés par un ordinal α limite et qui sont réguliers.
+Ce dernier type de cardinal est qualifié de faiblement inaccessibles car ils ne peuvent être construits à partir de cardinaux plus petits.
+On distingue parmi eux les cardinaux fortement inaccessibles qui vérifient de plus \mathrm (x) < \aleph_ \Rightarrow 2^ < \aleph_.
+L'existence de tels cardinaux ne peut se déduire des axiomes de la théorie des ensembles ZFC ;
+ces cardinaux, et d'autres satisfaisant la même condition, sont qualifiés pour cette raison de grands cardinaux.
+Les deux premiers types de cardinaux sont qualifiés au contraire daccessibles, car on peut les construire (dans ZFC) à partir de cardinaux plus petits qu'eux.
+Hypothèse du continu
+L'inégalité card N
+ℵ₀ < card R
+2 énoncée plus haut permet d'écrire ℵ₁
+≤ 2 puisque ℵ₁ est le plus petit cardinal strictement supérieur à ℵ₀.
+L'hypothèse du continu affirme l'égalité ℵ₁ = 2.
+On montre que cette propriété est indécidable dans ZFC.
+Par extension, l'hypothèse généralisée du continu énonce que, pour tout ordinal α, on a
+Les résultats suivants s'obtiennent en admettant comme axiome l'hypothèse généralisée du continu.
+* Il y a équivalence entre les notions de cardinaux faiblement inaccessibles et fortement inaccessibles.
+L'ensemble ℵ des fonctions de ℵ dans ℵ a pour cardinal :
+Une reformulation de l'hypothèse du continu est que R, l'ensemble des réels, est bien ordonnable de type ℵ1.
+C'est un énoncé plus fort que le simple fait que R peut être bien ordonné, qui équivaut dans ZF à l'axiome du choix sur les sous-ensembles des réels.
+Une forme forte de l'hypothèse généralisée du continu, énoncée pour des ensembles infinis quelconques, a pour conséquence l'axiome du choix .

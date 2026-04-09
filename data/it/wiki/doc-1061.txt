@@ -1,0 +1,68 @@
+In fisica, laccelerazione è una grandezza vettoriale che rappresenta la variazione della velocità nell'unità di tempo.
+In termini differenziali, è pari alla derivata rispetto al tempo del vettore velocità.
+Le derivate temporali di ordine superiore al primo della velocità vengono studiate nel moto vario.
+Nel SI l'unità di misura del modulo dell'accelerazione è il m/s², ovvero metro al secondo quadrato.
+Definizione
+L'accelerazione di un punto materiale è la variazione della sua velocità rispetto al tempo.
+Il modo più immediato per quantificare tale variazione consiste nel definire laccelerazione media \bar come il rapporto tra la variazione di velocità \Delta\mathbf
+\mathbf _2-\mathbf _1 al tempo finale \mathbf _2
+\mathbf (t_2) e iniziale \mathbf _1
+\mathbf (t_1) posseduta dall'oggetto, e l'intervallo finito di tempo \Delta t
+t_2 - t_1 di durata del moto:
+\bar
+\frac
+\frac
+Un modo preciso per caratterizzare l'accelerazione si ottiene considerando la velocità in ogni istante di tempo, ovvero esprimendo la velocità in funzione del tempo e, ove la funzione è continua, calcolandone la derivata.
+Si definisce in questo modo laccelerazione istantanea:
+\mathbf (t)= \frac
+Si tratta del limite per l'intervallo di tempo tendente a zero del rapporto incrementale che definisce l'accelerazione media:
+\mathbf
+\lim_ \frac
+\lim_ \frac
+L'accelerazione media coincide con l'accelerazione istantanea quando quest'ultima è costante nel tempo (\mathbf a (t) = cost), e si parla in tal caso di moto uniformemente accelerato.
+Nel moto del punto materiale su di una curva, il vettore accelerazione in un punto è orientato verso la concavità della traiettoria in quel punto.
+Può succedere che durante il moto il vettore velocità cambi soltanto in direzione e verso, restando costante in modulo, come ad esempio nel caso di moto circolare uniforme.
+La componente del vettore accelerazione nella direzione del moto è in questo caso nulla, e il vettore è quindi radiale (perpendicolare alla traiettoria).
+Data una traiettoria curvilinea arbitraria e continua, per individuare la direzione ed il verso dell'accelerazione di un oggetto che la percorre si utilizza il metodo del cerchio osculatore.
+In un contesto più formale, sia s (t) la lunghezza di un arco della curva percorsa dall'oggetto in moto.
+Se ds è lo spostamento dell'oggetto nel tempo dt, la norma della velocità istantanea nel punto \mathbf r = (x,y,z) è la derivata dello spostamento rispetto al tempo:
+\frac
+\frac \left (\sqrt \right)=\sqrt
+con il vettore velocità che è quindi scritto come:
+\mathbf = v \mathbf
+dove \hat è il vettore unitario tangente alla curva.
+Il modulo dell'accelerazione istantanea è allora:
+\frac
+\frac
+\frac
+\frac \frac + \frac \frac + \frac \frac = \frac \cdot \frac
+ed il vettore accelerazione è dato da:
+Identificando i termini si ha, infatti, che le componenti sono:
+a_t
+\frac \qquad
+a_n
+\omega v =
+Mentre in due dimensioni il versore normale è univocamente determinato, in tre dimensioni bisogna specificarlo:
+esso è parallelo al raggio del cerchio che meglio approssima la traiettoria in quel punto, il cerchio osculatore.
+Da quanto mostrato segue inoltre che se la componente normale dell'accelerazione è nulla, allora il moto si svolge su una retta:
+infatti la direzione del vettore velocità è costante, e dato che la velocità è sempre tangente alla traiettoria, quest'ultima è rettilinea.
+Talvolta si verifica che anche la componente tangenziale dell'accelerazione sia nulla:
+il vettore velocità è allora costante e si ha un moto rettilineo uniforme.
+Se invece l'accelerazione tangenziale è costante si ha un moto rettilineo uniformemente accelerato.
+Significato geometrico
+L'accelerazione media si rappresenta con il grafico velocità-tempo, dal quale si comprende come l'accelerazione media sia uguale alla pendenza della retta che congiunge i punti iniziale e finale del grafico velocità-tempo in cui andiamo a calcolare la media.
+L'accelerazione istantanea è la tangente alla curva velocità-tempo nel punto fissato, così come è il significato geometrico della derivata prima.
+Essa è quindi uguale alla pendenza della retta tangente alla curva nel punto in cui viene calcolata.
+Attraverso lo studio della curva nel grafico velocità-tempo si possono ricavare ulteriori importanti informazioni:
+dall'angolo che la tangente forma con l'asse del tempo si evince che l'accelerazione è negativa se la tangente forma un angolo superiore ai 90 gradi con l'asse delle ascisse, è positiva se rimane sotto i 90 gradi mentre è nulla se la tangente è parallela all'asse.
+Inoltre, si noti come a valori positivi della curva accelerazione-tempo corrispondano valori crescenti della curva velocità-tempo.
+Poiché l'accelerazione è la derivata seconda della posizione, si può anche ricavare l'andamento della relazione accelerazione-tempo anche studiando la concavità del grafico.
+Accelerazione di gravità
+Nello studio del campo gravitazionale terrestre, per un corpo in caduta libera, trascurando la resistenza fluidodinamica dell'aria, si ha:
+a = g
+dove g è l'accelerazione di gravità, pari a circa 9,81 \, m/s^2.
+Questo valore dunque è il modulo dell'accelerazione di gravità terrestre (direzione verticale, orientamento verso il centro della Terra);
+esso permette di determinare la velocità tramite un'operazione di integrazione;
+il modulo della velocità è proporzionale all'accelerazione a meno di una costante iniziale.
+Note
+Bibliografia

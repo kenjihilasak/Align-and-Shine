@@ -1,0 +1,146 @@
+Langage de programmation
+En informatique, un langage de programmation est une notation conventionnelle destinée à formuler des algorithmes et produire des programmes informatiques qui les appliquent.
+D'une manière similaire à une langue naturelle, un langage de programmation est composé d'un alphabet, d'un vocabulaire, de règles de grammaire et de significations.
+Les langages de programmation permettent de décrire d'une part les structures des données qui seront manipulées par l'appareil informatique, et d'autre part d'indiquer comment sont effectuées les manipulations, selon quels algorithmes.
+Ils servent de moyens de communication par lesquels le programmeur communique avec l'ordinateur, mais aussi avec d'autres programmeurs ;
+les programmes étant d'ordinaire écrits, lus, compris et modifiés par une équipe de programmeurs.
+Un langage de programmation est mis en œuvre par un traducteur automatique : compilateur ou interprète.
+Un compilateur est un programme informatique qui transforme dans un premier temps un code source écrit dans un langage de programmation donné en un code cible qui pourra être directement exécuté par un ordinateur, à savoir un programme en langage machine ou en code intermédiaire.
+Définition
+Un langage de programmation est construit à partir d'une grammaire formelle, qui inclut des symboles et des règles syntaxiques, auxquels on associe des règles sémantiques.
+Ces éléments sont plus ou moins complexes selon la capacité du langage.
+Sous un angle théorique, tout langage informatique peut être qualifié de langage de programmation s'il est Turing-complet c'est-à-dire qu'il permet de représenter toutes les fonctions calculables au sens de Turing et Church (en admettant néanmoins pour exception à la théorie que la mémoire des ordinateurs n'est pas un espace infini).
+Les règles de syntaxe
+: Définies par une grammaire formelle, elles régissent les différentes manières dont les éléments du langage peuvent être combinés pour obtenir des programmes, ou Unicode pour la plupart des langages modernes (dans lesquels l'utilisation se limite en général aux chaînes de caractères littérales et aux commentaires, avec quelques exceptions notables comme C♯ qui autorisent également les identifiants unicode).
+La plupart des langages de programmation peuvent prévoir des éléments de structure complémentaires, des méthodes procédurales, et des définitions temporaires et variables et des identifiants :
+Les commentaires
+: Les commentaires sont des textes qui ne seront pas traduits.
+Ils peuvent être ajoutés dans les programmes pour y laisser des explications.
+Les commentaires sont délimités par des marques qui diffèrent d'un langage de programmation à l'autre tel que , ou .
+Les programmeurs apprécient que la syntaxe permette d'exprimer la structure logique inhérente au programme.
+Un des soucis en programmation est d'éviter des pannes, qu'il soit possible de les détecter, les éviter et les rectifier;
+ceci est rendu possible par des mécanismes internes des langages de programmation.
+Des vérifications implicites sont parfois effectuées en vue de déceler des problèmes.
+L'alignement sur les standards industriels, la possibilité d'utiliser des fonctionnalités écrites dans un autre langage de programmation et l'exécution simultanée de plusieurs threads sont des possibilités appréciées des langages de programmation.
+Une instruction
+Un ordre donné à un ordinateur.
+Une variable
+Un nom utilisé dans un programme pour faire référence à une donnée manipulée par programme.
+Une constante
+Un nom utilisé pour faire référence à une valeur permanente.
+Une expression littérale
+Une valeur mentionnée en toutes lettres dans le programme.
+Une déclaration
+Une phrase de programme qui sert à renseigner au traducteur (compilateur, interpréteur...) les noms et les caractéristiques des éléments du programme tels que des variables, des procédures, de types.
+Chaque paradigme amène sa philosophie de la programmation;
+une fois qu'une solution a été imaginée par un programmeur selon un certain paradigme, un langage de programmation qui suit ce paradigme permettra de l'exprimer.
+Impératif, déclaratif, fonctionnel, logique, orienté objet, concurrent, visuel, événementiel, et basé web sont des paradigmes de programmation ou chaque prédicat.
+Dans ces paradigmes une variable n'est pas modifiée par affectation est la transparence référentielle, qui fait qu'une expression peut être remplacée par son résultat sans changer le comportement du programme.
+Fonctionnel
+Le paradigme fonctionnel a pour principe l'évaluation de formules, afin d'utiliser le résultat pour d'autre calculs ;
+il s'appuie sur la récursivité et il a pour modèle le lambda-calcul, plus précisément la réduction en forme normale de tête.
+Tous les calculs évaluent des expressions ou font appel à des fonctions.
+Pour simplifier, le résultat d'un calcul sert pour le calcul ou les calculs qui ont besoin de son résultat jusqu'à ce que la fonction qui produit le résultat du programme ait été évaluée.
+La traduction s'effectue en plusieurs étapes.
+En premier lieu, le traducteur effectue une analyse lexicale où il identifie les éléments du langage utilisés dans le programme.
+Dans l'étape suivante, l'analyse syntaxique, le traducteur construit un diagramme en arbre qui reflète la manière dont les éléments du langage ont été combinés dans le programme, pour former des instructions.
+Puis, lors de l'analyse sémantique, le traducteur détermine s'il est possible de réaliser l'opération, et les instructions qui seront nécessaires dans le langage cible.
+Dans le langage de programmation assembleur, des mots aide-mémoire (mnémonique) sont utilisés pour référer aux instructions de la machine.
+Les instructions diffèrent en fonction des constructeurs et il en va de même pour les mnémoniques.
+Un programme assembleur traduit chaque mnémonique en la séquence de bits correspondante.
+Les langages de programmation fonctionnent souvent à l'aide d'un runtime.
+Un runtime
+Un runtime (traduction : exécuteur) est un ensemble de bibliothèques logicielles qui mettent en œuvre le langage de programmation, permettant d'effectuer des opérations simples telles que copier des données, voire les opérations beaucoup plus complexes.
+Lors de la traduction d'un programme vers le langage machine, les opérations simples sont traduites en les instructions correspondantes en langage machine tandis que les opérations complexes sont traduites en des utilisations des fonctions du runtime.
+Dans certains langages de programmation, la totalité des instructions sont traduites en des utilisations du runtime.
+Chaque langage de programmation a une manière conventionnelle de traduire l'exécution de procédures ou de fonctions, de placer les variables en mémoire et de transmettre des paramètres.
+Ces conventions sont appliquées par le runtime.
+Les runtime servent également à mettre en œuvre certaines fonctionnalités avancées des langages de programmation telles que le ramasse-miettes, ou la réflexion.
+Fonctionnalités
+avancées
+Les fonctionnalités avancées telles que le ramasse-miettes (anglais garbage collector), la manipulation des exceptions, des événements, ou des threads, ainsi que la liaison tardive et la réflexion sont mises en œuvre par les runtime des langages de programmation.
+Une exception
+Un fait inattendu, souvent accidentel, entraîne l'échec du déroulement normal du programme, et ce fait exceptionnel doit être pris en charge par le programme avant de pouvoir continuer.
+Certains langages de programmation permettent de provoquer délibérément l'arrêt du déroulement normal du programme.
+Un événement
+Une procédure qui va être exécutée lorsqu'une condition particulière est rencontrée.
+les événements sont notamment utilisés pour mettre en œuvre les interfaces graphiques.
+Un thread
+Une suite d'instructions en train d'être exécutée.
+Les langages de programmation qui manipulent les threads permettent d'effectuer plusieurs tâches simultanément.
+Cette possibilité d'exécution simultanées, offerte par les systèmes d'exploitation, est également offerte en allégé par les runtime des langages de programmation.
+La liaison tardive
+Le procédé de liaison (anglais binding) consiste à associer chaque identifiant d'un programme avec l'emplacement de mémoire concerné.
+Cette opération peut être effectuée lors de la traduction du programme, au cours de l'exécution du programme ou juste avant, elle est dite tardive lorsque l'opération de liaison est effectuée très tard, juste avant que l'emplacement concerné ne soit utilisé.
+La réflexion
+La possibilité pour un programme d'obtenir des informations concernant ses propres caractéristiques.
+Des instructions du langage de programmation permettent à un programme d'obtenir des informations sur lui-même, et de les manipuler comme des données.
+Une monade
+Une structure permettant de manipuler des traits impératifs dans des langages fonctionnels purs.
+Historique
+Bien que la notion de programme apparaisse progressivement au cours de la deuxième moitié du , les premiers langages de programmation n'apparaissent qu'autour de 1950.
+Chacun pouvant créer son propre langage, il est impossible de déterminer le nombre total de langages existant à l'heure actuelle.
+Utilisations
+On peut aussi classer les langages de programmation en fonction de leur utilisation car beaucoup de langages sont spécialisés à une application ou à un domaine particulier.
+Langages pour pages
+Web dynamiques
+Ce type de langage est utilisé pour une plus grande interaction entre un client et un serveur.
+Du côté du serveur Web, cela permet de produire des pages dont le contenu est généré à chaque affichage.
+Ces langages sont par ailleurs souvent couplés avec un langage pour communiquer avec des bases de données (exemples : PHP, LiveCode).
+Côté client (en général le navigateur web), ces langages offrent la possibilité de réagir à certaines actions de l'utilisateur sans avoir à questionner le serveur.
+Par exemple, le JavaScript d'une page Web peut réagir aux saisies de l'utilisateur dans un formulaire (et vérifier le format des données).
+Certains langages permettent de développer à la fois les aspects client et serveur.
+C'est le cas d'Ocsigen, de Hop, de Dart ou bien encore du Server-Side JavaScript.
+Langages de programmation théorique
+On désigne parfois par langage de programmation théorique les systèmes formels utilisés pour décrire de façon théorique le fonctionnement des ordinateurs.
+Ils ne servent pas à développer des applications mais à représenter des modèles et démontrer certaines de leurs propriétés.
+On peut citer la machine de Turing et le λ-calcul de Church, qui datent tous les deux des années 1930, et donc antérieurs à l'invention de l'ordinateur.
+Le λ-calcul a par la suite servi de base théorique à la famille des langages de programmation fonctionnelle.
+Dans les années 1980, Robin Milner a mis au point le π-calcul pour modéliser les systèmes concurrents.
+Langages exotiques
+Les langages exotiques ont pour but de créer des grammaires complètes et fonctionnelles mais dans un paradigme éloigné des conventions.
+Beaucoup sont d'ailleurs considérés comme des blagues.
+Ces langages sont généralement difficiles à mettre en pratique et donc rarement utilisés.
+Langages spécialisés
+* ABEL, langage pour la programmation électronique des PLD
+* CDuce, langage fonctionnel d'ordre supérieur pour la manipulation de documents au format XML
+* Forme de Backus-Naur (BNF), formalisation des langages de programmation
+* PROMELA, langage de spécification de systèmes asynchrones
+Langages synchrones
+Langages de programmation synchrones pour les systèmes réactifs : Esterel, Lustre.
+Langages à vocation pédagogique
+Les pseudo-codes ont généralement un but uniquement pédagogique.
+Logo est un langage fonctionnel simple à apprendre.
+Dans les années 1990, c'est le langage BASIC qui était souvent conseillé pour débuter.
+Il avait cependant la réputation de favoriser la prise de mauvaises habitudes de programmation.
+Le Processing est un langage simplifié qui s'appuie sur Java.
+Il permet un développement d'applications fenêtrées sur tout type d'ordinateur équipé de Java.
+L'Arduino est un langage simplifié s'appuyant sur C/C++.
+Il permet un développement simple de projets électroniques à partir de carte Arduino (AVR).
+L'ArduinoEDU est un langage encore plus simple, en français, pour les grands débutants s'appuyant sur le langage C Arduino.
+Il permet un développement très simple de projets électroniques à partir de cartes Arduino (AVR).
+Flowgorithm est un outil de création et modification graphique de programmes informatiques sous forme d'Algorigramme.
+Langages pour l'électronique numérique
+* Verilog, VHDL : langages de description matérielle, permettant de synthétiser de l'électronique numérique (descriptions de portes logiques) et d'en simuler le fonctionnement
+* SystemC, langage de description matérielle de plus haut niveau que les précédents et permettant une simulation plus rapide
+Langages pour la statistique
+R, SAS et xLispStat sont à la fois un langage de statistiques et un logiciel.
+Langages de programmation de Commande Numérique (C.N.)
+Une machine-outil automatisée, ou Commande Numérique (C.N.), a besoin d'un langage de programmation pour réaliser les opérations de tournage ou de fraisage…
+Langages de programmation des automates programmables industriels (API)
+* , langage graphique, dérivé du grafcet (
+NB : le grafcet définit les spécifications de façon graphique).
+Langages de programmation audio
+Nyquist est un langage de synthèse et d'analyse sonore.
+Pure Data est un logiciel de création musicale graphique qui repose sur un langage de programmation procédural.
+Popularité
+La popularité de chaque langage est difficilement quantifiable ;
+néanmoins, il existe l'index TIOBE, calculé mensuellement, qui se base sur le nombre de formations free
+lance spécialisés dans un langage de programmation.
+C'est une information parcellaire mais qui peut donner un ordre d'idée sur les tendances en matière de préférence des programmeurs.
+Voir aussi
+Articles connexes
+Liens externes
+* http:/ news
+prog_lang_poster.pdf
+Chronologie des langages de programmation

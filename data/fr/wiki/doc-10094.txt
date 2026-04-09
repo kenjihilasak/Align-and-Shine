@@ -1,0 +1,145 @@
+Théorie des types|Haskell
+Haskell est un langage de programmation fonctionnel.
+Il est fondé sur le lambda-calcul et la logique combinatoire.
+Son nom vient du mathématicien et logicien Haskell Brooks Curry.
+Il a été créé en 1990 par un comité de chercheurs en théorie des langages intéressés par les langages fonctionnels et l'évaluation paresseuse.
+Le dernier standard
+est Haskell 2010 : c'est une version minimale et portable du langage conçue à des fins pédagogiques et pratiques, dans un souci d'interopérabilité entre les implémentations du langage et comme base de futures extensions.
+Le langage continue d'évoluer rapidement, principalement avec GHC, constituant ainsi un standard de facto comprenant de nombreuses extensions.
+Historique
+La sortie de Miranda en 1985 provoqua un regain d'intérêt pour les langages fonctionnels à évaluation paresseuse et entraîna une explosion du nombre de tels langages expérimentaux, de sorte qu'en 1987 plus d'une douzaine d'entre eux étaient disponibles.
+Miranda était de loin le plus populaire mais son modèle propriétaire fermé n'encourageait pas les contributions et à la conférence FPCA '87 (Functional Programming Languages and Computer Architecture, se traduisant par langages de programmation fonctionnels et architecture des ordinateurs) à Portland en Oregon, une réunion de chercheurs éminents du domaine aboutit à la conclusion qu'il serait souhaitable d'établir un standard ouvert qui pourrait servir de base commune à de futures recherches sur les langages fonctionnels.
+Dans ce but ils formèrent un comité dont la tâche serait de mettre en commun les points forts des prototypes de l'époque.
+Haskell 1.0 à 1.4
+Le travail du comité se poursuivit de réunion en réunion et aboutit en 1990 à la définition de Haskell 1.0, suivi par diverses révisions pour les versions 1.1, 1.2, 1.3 et 1.4.
+Le rapport Haskell
+98 établit un standard durable sur lequel toutes les implémentations subséquentes se basent.
+Une version révisée parait en janvier 2003.
+Haskell 2010
+Le procédé de révision du standard Haskell, nommé Haskell' () commença en 2006.
+Originellement entrepris dans l'optique de publier une nouvelle version du standard Haskell, l'effort peina à se mettre en place de façon durable et s'est maintenant fixé un objectif plus restreint : publier régulièrement (théoriquement une fois par an) une révision du rapport de 1998 intégrant quelques nouveautés introduites depuis par GHC et incontestablement acceptées et utilisées par la communauté.
+Haskell 2010 a ainsi ajouté une définition du mécanisme d'interface de Haskell avec d'autres langages (la FFI : ) et supprimé les motifs «
+n+k » du langage (qui permettaient d'écrire
+: decrement (n+1)
+= n).
+Il a également officialisé un mécanisme pour spécifier quel standard on souhaite respecter dans un fichier source donné, ainsi que les extensions éventuelles, entérinant la nature plutôt modulaire du Haskell utilisée en pratique.
+Versions de recherche
+En 2012, Haskell est probablement le langage fonctionnel sur lequel le plus de recherches ont été entreprises.
+Plusieurs variantes ont été développées.
+Des versions parallélisées faites au Laboratory for Computer Science du Massachusetts Institute of Technology (MIT) et à l'Université de Glasgow ont toutes deux été appelées Parallel Haskell.
+Des versions plus parallélisées et plus distribuées sont appelées Distributed Haskell (anciennement Goffin) et Eden, il existe également une tentative d'utiliser Haskell dans le nuage appelée Cloud Haskell.
+Une version d'exécution spéculative, Eager Haskell et plusieurs versions orientées objet, Haskell++, O'Haskell et Mondrian ont vu le jour.
+Ces diverses versions de recherche étaient assez souvent basées sur GHC et ont fréquemment laissé leurs traces dans ce compilateur lorsque l'expérimentation s'est révélée fructueuse, inspirant ainsi le support actuel pour les fils d'exécutions et les diverses formes de parallélisation du code.
+Fonctionnalités
+Les fonctionnalités les plus intéressantes de Haskell sont le support des fonctions récursives, l'inférence de types, les listes en compréhension, l'évaluation paresseuse et les structures de données infinies dont l'exemple phare est le type de donnée stream.
+Ces fonctionnalités, surtout si elles sont combinées, facilitent l'écriture et l'utilisation de fonctions et la manipulation des données.
+Le système de types, objet de nombreuses recherches, est également l'un des plus expressifs et l'un des plus aptes à mettre en œuvre, de façon statique, de nombreuses contraintes ordinairement vérifiées à l'exécution.
+Haskell se distingue également par l'utilisation de monades pour les entrées/sorties et pour la gestion des exceptions, rendue nécessaire par l'une des plus importantes spécificités du langage, à savoir que Haskell est un langage fonctionnel pur, ce qui signifie que, de façon inhérente, aucun effet de bord n'est autorisé, ni les entrées/sorties, ni les affectations de variables, ni les exceptions.
+La plupart des langages fonctionnels encouragent ce style, mais Haskell l'impose dans tout code qui ne signale pas explicitement par son type qu'il admet des effets de bord et qui grâce à ce mécanisme en prévient et en circonscrit les dangers.
+Exemples de code
+Fonction factorielle (récursive)
+La définition classique de la fonction factorielle :
+fac n = if n > 0 then n
+Fonction factorielle (avec product)
+La définition élégante de la fonction factorielle (qui utilise la fonction Haskell product et la notation sur les listes) :
+fac n = product 1..n
+Fonction factorielle (liste infinie)
+Il est également possible de définir une liste de toutes les factorielles :
+facs = 1: zipWith (
+La valeur précédente est une liste infinie, ce qui est tout à fait possible grâce à l'évaluation paresseuse.
+Grâce à cette liste, on peut implémenter fac de cette manière :
+fac n = facs !!
+(!!
+est un opérateur qui retourne le n
+-ième élément d'une liste)
+Comme facs est évaluée de manière paresseuse dans fac, un appel à fac n ne provoque que l'évaluation des n premiers termes de facs.
+Notez que la valeur de chaque élément de facs n'est évaluée qu'une seule fois.
+Fonction Fibonacci (naïve)
+Une implémentation naïve de la fonction qui retourne le n-ième nombre de la suite de Fibonacci :
+fib n = fib (n
++ fib (n - 1)
+Fonction Fibonacci (liste infinie)
+Une fonction qui retourne la liste infinie des nombres de Fibonacci, également grâce à l'évaluation paresseuse :
+fibs = 0 :
+1 : (zipWith (+) fibs (tail fibs))
+fib n = fibs !!
+Contrairement à la version naïve, la complexité d'un appel à fib est linéaire, et ceci grâce à la mémoïsation.
+En effet, dans la précédente version les valeurs de fib étaient calculées à chaque demande.
+Ainsi, un appel à fib 4 provoque un appel à fib 3 et un appel à fib 2, qui eux-mêmes appellent une nouvelle fois fib 2, deux fois fib 1 et une fois fib 0, etc.
+On remarque ici la présence du triangle de Pascal.
+En revanche, dans le cas de la liste infinie, chaque valeur de fib n'est calculée qu'une seule fois puis stockée en mémoire.
+Recherche de nombres premiers
+Grâce au mécanisme de l'évaluation paresseuse, il est également possible de définir la liste entière (et infinie) des nombres premiers :
+where remDivs (x:xs)
+x: remDivs n n
+prem
+:a | a mod a x) (takeWhile (
+qsort =
+qsort (x:xs)
+qsort elts_lt_x ++ x ++ qsort elts_greq_x
+where
+elts_lt_x = y | y
+qsort =
+qsort (x:xs)
+qsort (filter (
+x) xs)
+Due aux copies et concaténations de listes, ce code peut être lent, en fonction du compilateur.
+Une amélioration consiste à effectuer le test de comparaison une seule fois :
+qSort :: (Ord a)
+=> a -> a
+qSort =
+qSort (mid:xs) = qSort inf ++eg++ qSort sup
+where (inf, eg, sup) = sep xs (,mid,)
+where
+sep tuple = tuple
+sep (y:ys) (i,e,s)
+| (y < mid)
+= sep ys (y:i,e,s)
+| (y
+mid)
+sep ys (i,y:e,s)
+| otherwise
+= sep ys (i,e,y:s)
+Ces implémentations naïves du tri rapide présentent cependant l'inconvénient d'être dans le pire des cas (O (N²)) dans le cas d'une liste triée.
+Implémentations
+Les implémentations suivantes sont toutes compatibles (ou presque compatibles) avec le standard Haskell 98, et sont distribuées sous licences libres.
+Toutes les implémentations de Haskell sont à ce jour des logiciels libres.
+* GHC
+Le Compilateur Haskell de Glasgow (Glasgow Haskell Compiler) compile le code en natif sur nombre d'architectures, et compile aussi en C. GHC est probablement le plus populaire des compilateurs Haskell, et il contient des bibliothèques très utiles (par exemple des bindings pour OpenGL) qui ne marchent qu'avec GHC.
+* Hugs est un interpréteur bytecode.
+Il offre une compilation rapide et une vitesse d'exécution raisonnable.
+Il possède aussi une bibliothèque graphique simple.
+Hugs se prête bien à l'apprentissage de Haskell, mais il ne faut pas en déduire que Hugs est une implémentation simpliste.
+C'est la plus portable et la plus légère des implémentations de Haskell.
+* nhc98 est un autre interpréteur de bytecode, mais le bytecode s'exécute plus vite qu'avec Hugs.
+Nhc98 se concentre sur un usage minimal de la mémoire, et c'est un choix recommandé pour les vieilles machines.
+* HBC est un autre compilateur natif.
+Il n'est plus développé depuis quelque temps, mais il reste encore utilisable.
+Quelques succès d'Haskell
+Parce que non-procédural, Haskell permet de limiter considérablement les besoins de débogage : les déclarations (un programme Haskell ne comporte que des déclarations) étant indépendantes les unes des autres, le programmeur n'a pas à s'occuper d'un quelconque flot de contrôle ni même de la séquence ou du contexte des déclarations ;
+il arrive donc sans surprise que des projets soient réalisés en Haskell avant d'être disponibles dans d'autres langages.
+Les exemples les plus connus sont :
+* Réécriture du système anti-spam de Facebook, Sigma, avec Haskell, en remplacement du langage propriétaire précédemment utilisé, FXL.
+Sigma traite plus d'un million de requêtes par seconde.
+* Pandoc, logiciel de conversion de documents en ligne de commande
+* Darcs, logiciel de gestion de versions décentralisé.
+* Pugs, implémentation de Perl 6 rendue
+disponible bien avant la sortie officielle de la version du langage fondée sur la machine virtuelle Parrot.
+* le programme nget, permettant de récolter toutes les images d'un newsgroup Usenet
+- par exemple d'astronomie -, dont la première version fut codée en Haskell (une version en langage C++ fut ensuite développée pour en faciliter le portage).
+Langages similaires à Haskell
+* le Concurrent Clean, qui offre un support pour la création de GUI ainsi que CAL (Quarks Framework) qui tourne sur VM Java et est prévu pour s'intégrer comme extension d'API Java.
+* une version éducative de Haskell, appelée Gofer, a été développée par Mark Jones, et a finalement été supplantée par HUGS, le Système Gofer de l'Utilisateur Haskell (Haskell User's Gofer System).
+* les langages à la ML sont aussi assez proches de Haskell, par leur philosophie commune de programmation fonctionnelle et de typage statique.
+Ocaml est le plus populaire des représentants de cette famille de langages, connu en France pour son enseignement en classe préparatoire et à l'université.
+* Bien que PureScript soit un langage strict, sa similarité syntaxique avec Haskell est évidente malgré quelques différences.
+Voir aussi
+Articles connexes
+* Haskell Curry (1900-1982
+, un mathématicien et logicien américain,
+Références
+Liens externes
+* http:/ haskellwiki
+en-us people papers history.pdf History
+of Haskell
+mky52i0r2ogomug2c6b55vdgbj1x10y

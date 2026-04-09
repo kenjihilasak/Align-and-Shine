@@ -1,0 +1,110 @@
+Science des matériaux|Type de béton de ciment|Armé|Génie
+civil|Construction parasismique
+Le béton armé est un matériau composite constitué de béton et de barres d'acier qui allie les résistances à la compression du béton et à la traction de l'acier.
+Il est utilisé comme matériau de construction, en particulier pour le bâtiment et le génie civil.
+Histoire
+Principe de fonctionnement
+Le béton est un matériau capable de supporter des contraintes de compression importantes (10 à 100 MPa) alors que sa résistance aux efforts de traction est très faible (de l’ordre du dixième de sa résistance à la compression).
+C’est donc pour pallier cette insuffisance qu’est née l’idée de placer, dans les zones soumises à des efforts de traction, des barres d’acier (armatures) qui, elles, sont résistantes aussi bien en compression qu’en traction.
+Le matériau résultant de l’association du béton et de l’acier est appelé « béton armé ».
+Dans une structure en béton armé, les aciers principaux sont positionnés dans les parties tendues du béton pour compenser la mauvaise résistance du béton en traction.
+Pour une dalle en béton armé par exemple, on place les armatures principales en partie basse des travées et en partie haute au niveau des appuis.
+Les premiers ouvrages en béton armé utilisaient des barres lisses en acier doux, par la suite les barres furent constituées d'acier haute adhérence (HA) comprenant des aspérités et ayant une meilleure résistance.
+Les premières définitions des principes de calcul ont été faites à la suite des travaux de la commission du ciment armé qui ont abouti à la rédaction de la circulaire du 20 octobre 1906 concernant les instructions relatives à l'emploi du béton armé.
+Une commission prussienne définit les premières instructions sur le béton armé le 16 avril 1904, modifiées par le ministre des Travaux publics de Prusse par la circulaire du 24 mai 1907.
+Les grandes dates de la réglementation pour les ingénieurs béton en France sont les suivantes :
+# la circulaire du 20 octobre 1906
+# le projet de règlement de la chambre syndicale du BA de 1928
+# la circulaire du 19 juillet 1934
+# les règles BA 1945 modifiées en 1948
+# les règles BA 1960
+# circulaire du 14 novembre 1964
+# règles
+CCBA
+# règles BAEL
+# règles BAEL
+91 Révisé
+en 1999
+# en mars 2010, entre en vigueur la fin de l’application des normes nationales en contradiction avec l’Eurocode 2.
+Principes de calcul
+Principes de sécurité
+Avant que les méthodes de calcul semi-probabilistes modernes deviennent la règle générale, les calculs de structure étaient basés sur le principe déterministe des coefficients de sécurité.
+Le coefficient de sécurité était défini comme le rapport d'une contrainte admissible sur une contrainte de calcul, les contraintes admissibles étant données par la nature des matériaux, et les contraintes de calcul déduites de la résistance des matériaux (RDM).
+Lorsque les matériaux sont soumis à des combinaisons d'efforts, ce principe de calcul basé sur le coefficient de sécurité a montré ses limites et ses insuffisances.
+Un exemple significatif est celui de la cheminée soumise à son poids propre et au vent.
+Avec un coefficient de sécurité égal à 2, on peut croire que chaque effort élémentaire sollicitant la structure peut être doublé sans que l'on atteigne la ruine.
+Or on montre que ce raisonnement est faux et qu'une augmentation du vent de 10 % peut entraîner la rupture de la cheminée.
+Face à l'insuffisance du principe déterministe de coefficient de sécurité, il a fallu définir autrement la sécurité des structures : les sollicitations ont été scindées en deux genres qui ont ensuite évolué vers la définition des états limites.
+* Le premier genre de sollicitations, qui a évolué vers l'état limite de service (ELS), traite les structures dans leur fonctionnement de tous les jours, les matériaux sont sollicités dans le domaine élastique uniquement.
+Cet état regroupe un peu plus de 95 % des sollicitations normales.
+Le second genre de sollicitations, qui a évolué vers l'état limite ultime (ELU), traite les structures dans leur fonctionnement exceptionnel avant ruine
+, les matériaux peuvent alors atteindre le domaine plastique.
+La probabilité d'atteindre et dépasser cet état est de l'ordre de 10-7 à 10-3.
+Durant la vie d'un ouvrage, celui-ci doit pouvoir résister une fois à l'ELU, cela étant l'ouvrage en ressort endommagé de façon irréversible.
+Ainsi, le principe de sécurité des ouvrages est aujourd'hui basé sur des notions d'analyse de fiabilité probabiliste et non plus sur des coefficients de sécurité.
+Cette définition probabiliste fait intervenir des notions de spectres de sollicitation et de résistance.
+On démontre alors que mathématiquement, la sécurité absolue (probabilité de ruine nulle ou risque nul) ne peut exister, les coefficients de pondération utilisés dans les calculs réduisent les recouvrements des spectres et donc la probabilité de ruine mais ne l'annule jamais…
+Pour que les habitudes de calcul ne soient pas totalement bouleversées, et malgré des concepts sous-jacents totalement différents, le formalisme des calculs suivant la nouvelle approche probabiliste de la sécurité, a été maintenu très proche du formalisme des anciennes méthodes de calcul déterministes ;
+on parle alors de méthode de calcul semi-probabiliste.
+Bien que la notion de sécurité a été complètement redéfinie, les règles de calcul modernes (BAEL et Eurocode 2) emploient encore le terme de coefficient de sécurité, il faut le comprendre comme coefficient de pondération et non plus comme le définissaient les anciennes règles déterministes.
+Évolution des règles de calcul
+Les progrès scientifiques dans la compréhension du comportement des matériaux et des phénomènes physiques ont amené les règles de calcul à évoluer.
+Jusque dans les années 1970
+, on utilisait uniquement le modèle de comportement linéaire des matériaux (contraintes proportionnelles aux déformations : loi de Hooke), y compris pour les sollicitations du second genre où on utilisait une limite élastique conventionnelle.
+Avec l'évolution de la notion de sécurité et des progrès scientifiques, les modèles de calcul se sont rapprochés du comportement réel, non linéaire, des matériaux.
+Les règles de calcul du béton armé aux états limites de 1980 (BAEL80) ont été les premières à intégrer pleinement le modèle de comportement non linéaire des matériaux.
+Ces règles ont ensuite évolué en BAEL83, BAEL91 et BAEL91 révisées 99.
+L'Eurocode 2, qui remplace les règles BAEL depuis 2010, est dans la lignée des règles de calcul modernes intégrant les notions probabilistes de sécurité et les comportements non linéaires des matériaux.
+Domaines des modèles de calcul
+État limite de service, ELS
+Il s'agit du mode sollicitation de « tous les jours », l'ouvrage ne doit pas subir de déformation irréversible.
+Les matériaux sont employés dans leur domaine de comportement élastique.
+Tout naturellement, c'est le « modèle élastique linéaire » qui est utilisé pour les calculs à l'ELS.
+En général pour les ouvrages courants de bâtiment, les éléments ne sont pas calculés en résistance à l'ELS, ils le sont principalement pour des environnements agressifs ou lorsque les conditions de fissuration ou de déformation sont préjudiciables à la durabilité de l'ouvrage dimensionné.
+Il convient cependant de vérifier la déformation de la structure à l'ELS afin de s'assurer que les limites admissibles ne sont pas dépassées.
+État limite ultime
+, ELU
+Dans ce mode de sollicitation, l'ouvrage est à la limite de la ruine, il doit résister aux charges mais il subit des déformations irréversibles et en ressort endommagé.
+Pour cet état, il est inutile de rester dans le domaine de comportement élastique des matériaux, on utilise alors des « modèles de plasticité non linéaires » qui se rapprochent du comportement réel des matériaux.
+On utilise aussi les « modèles de calcul de stabilité de forme » qui concernent le flambement et le voilement des éléments comprimés (poteau, buton, voile ou coque) ainsi que le déversement des éléments fléchis élancés.
+Pour le béton, le diagramme contrainte déformation est habituellement une courbe parabole rectangle, un rectangle simplifié ou encore un diagramme bilinéaire.
+Pour certains ouvrages d'exception, il est aussi possible d'utiliser des lois de comportement plus élaborées modélisant mieux la rhéologie réelle et complexe du béton.
+Pour l'acier, le diagramme contrainte déformation est habituellement un diagramme bilinéaire, une droite ayant pour pente le module d'élasticité, limitée par les zones plastiques horizontales ou incurvées.
+Les modèles de stabilité de forme pour le béton sont bien trop complexes pour être expliqués dans ce chapitre traitant des « principes de calcul » du béton armé.
+Le lecteur intéressé pourra se reporter aux ouvrages spécialisés.
+En général pour les ouvrages courants de bâtiment, les éléments sont calculés uniquement à l'ELU pour reprendre une partie de ces efforts.
+Les dispositions indiquées ci-après concernent uniquement les aciers principaux.
+Poutres
+Les poutres sont armées par des aciers principaux longitudinaux, destinés à reprendre les efforts de traction dus à la flexion, et des aciers transversaux, cadres et épingles (ou étriers), destinés à reprendre l'effort tranchant.
+Les espaces entre cadres varient en fonction de l'effort tranchant, resserrés quand l'effort tranchant est important, en général près des appuis, et plus espacés quand l'effort tranchant est faible, en général vers le milieu des poutres.
+Poteaux
+Les poteaux sont armés par des aciers longitudinaux et des cadres transversaux destinés à limiter le flambement.
+Les cadres transversaux sont espacés régulièrement et resserrés dans les zones de recouvrement avec les aciers en attente.
+Dalles et dallages
+Les dalles sont généralement armées par deux à quatre lits (ou « nappes ») d'armatures croisées, formés par des barres individuelles ou des treillis soudés.
+On parle de « lit inférieur » (« nappe inférieure ») pour les deux nappes d'aciers proches de l'intrados de la dalle (face inférieure) et de « lit supérieur » (« nappe supérieure », « nappe haute ») pour les éventuelles nappes d'aciers proches de l'extrados de la dalle (face supérieure).
+Il est possible, par mesure d’économie, de renoncer aux armatures supérieures en travée et de ne conserver des aciers en nappe haute qu'au niveau des appuis ;
+ils sont alors appelés « chapeaux ».
+Les armatures transversales (verticales) sont assez rares mais peuvent être mises en œuvre dans le cas d'un cisaillement localisé important (risque de poinçonnement) ou d'une reprise de bétonnage comme une prédalle .
+Voiles
+Les voiles sont des murs en béton, suivant les cas, ils peuvent être « non armés » ou « armés ».
+Poutres
+voiles ou parois fléchies
+Une poutre-voile ou paroi fléchie est une poutre de grande hauteur dont le rapport hauteur sur longueur est supérieur à 0,5 dans laquelle il se développe un « effet de voûte ».
+Les poutres
+-voiles sont armées, en partie basse, par un tirant qui reprend la traction engendrée par l'effet de voûte et par des armatures horizontales et verticales qui reprennent les effets du cisaillement.
+Murs de soutènement
+Il s'agit d'ouvrages destinés à retenir les terres, ils sont armés par des aciers longitudinaux destinés à reprendre les efforts de flexion.
+Fondations
+Le terme fondations regroupe tous les éléments de structure qui transmettent les efforts d'un ouvrage vers le sol.
+On distingue deux types de fondations :
+* fondations superficielles (semelle, radier) : elles travaillent par contact entre la surface d'assise de la fondation et le sol ;
+** les semelles sont armées d'une nappe d'acier en partie basse et en partie haute si besoin ;
+** les radiers se comportent comme des dalles à l'envers, de façon analogue
+, ils sont armés d'une nappe haute, et d'aciers en partie basse au niveau des longrines, voiles ou poteaux.
+* Fondations profondes (puits, pieux)
+: elles travaillent soit par friction entre la face latérale de la fondation et le sol, soit en pointe ;
+** les pieux sont, suivant les cas, non armés ou armés par des d'aciers longitudinaux et transversaux ;
+Coques
+Il s'agit de tous les ouvrages en béton à surfaces non planes, cela concerne par exemple des silos, des réservoirs, des toitures.
+Les coques peuvent être armées d'une seule nappe d'armatures située au milieu ou bien de deux nappes, une sur chacune des faces.

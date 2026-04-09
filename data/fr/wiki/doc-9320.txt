@@ -1,0 +1,194 @@
+Mécanique
+Une force modélise, en physique, une action mécanique exercée par un objet sur un autre et capable d'imposer une accélération induisant la modification du vecteur vitesse (une force exercée sur l'objet fait aller celui-ci plus vite, moins vite ou le fait tourner).
+En 1684, Isaac Newton a précisé ce concept en établissant les bases de la mécanique newtonienne.
+La base sensorielle de la notion est donnée par la sensation de contraction musculaire.
+Histoire
+Le concept de force est ancien, mais il a mis longtemps à obtenir une nouvelle définition utilisable.
+En effet, à la différence de grandeurs physiques telles que la longueur ou la masse, qui sont représentées par des grandeurs scalaires, les forces peuvent être représentées par des vecteurs.
+Les représentations vectorielles des forces doivent être distinguées des forces proprement dites.
+Certains philosophes et physiciens, dits opérationnalistes ou instrumentalistes au sujet des forces, nient qu'il existe des forces : selon eux, les vecteurs de forces utilisés en mécanique sont des outils utiles du physicien, mais ils ne décrivent rien dans la réalité.
+Un de leurs arguments est que les forces sont imperceptibles.
+Les réalistes au sujet des forces, à l'opposé, soutiennent que les vecteurs de forces réfèrent à des forces qui existent indépendamment de leur représentation.
+À l'objection selon laquelle les forces seraient imperceptibles, ils répondent souvent que la perception tactile ou le sens musculaire nous permettent d'expérimenter de telles entités physiques.
+Archimède,
+lors de l'étude du problème du bras de levier, évoquait le poids des corps, sans expliquer plus explicitement ce qu'il entendait par là.
+Lors des études sur les poulies, la notion de force est utilisée confusément comme étant la tension dans les fils.
+Même le problème du plan incliné ou celui de la chute des corps sont résolus par Galilée sans faire appel explicitement à la notion de force.
+Parallèlement, la composition des forces apparaît implicitement dans les travaux de Simon Stevin (De Beghinselen der Weeghconst, 1586).
+Toutefois, la distinction entre la notion de force et de vitesse ne se fait pas encore, et il faudra attendre les travaux d'Isaac Newton pour avoir une formalisation précise de la notion de force.
+La définition donnée dans les célèbres Philosophiae Naturalis Principia Mathematica (1687) est celle qui est encore acceptée de nos jours.
+La définition du concept de force a permis une présentation simple de la mécanique classique par Isaac Newton (lois du mouvement de Newton).
+Aujourd'hui, la notion de force reste très utilisée, en particulier dans l'enseignement et dans l'ingénierie.
+Pourtant, alors que les moments, l'énergie et les impulsions sont des grandeurs fondamentales de la physique, dans le sens où ils obéissent tous à une loi de conservation, la force peut être vue comme un artifice de modélisation, commode mais non indispensable.
+En mécanique analytique existent des formulations de la mécanique classique qui n'utilisent pas le concept de force.
+Ces formulations, apparues après la mécanique newtonienne, font cependant appel à des notions encore plus abstraites que le vecteur force, et on considère en conséquence qu'il vaut mieux les introduire seulement dans l'enseignement supérieur.
+Les forces sont d'autre part souvent confondues avec le concept de contrainte, et notamment avec les tensions.
+Définition
+En mécanique classique, une force a un sens strict.
+C'est la modélisation d'une interaction, quelle que soit la nature de celle-ci.
+La force ou interaction résulte de l'action d'un objet sur un autre.
+C'est le cas en particulier des interactions de contact (pression, frottement, interaction dans une liaison) ou à distance (force gravitationnelle, force électrostatique, force électromagnétique).
+La force est représentée par un vecteur ayant un point d'application, une direction, un sens et une intensité (en newtons).
+voir vecteur
+Force
+Un concept très utile
+Le concept de force est très utile pour « imaginer » le mouvement (dynamique), les efforts (statique) ou déformations (Résistance des matériaux) subis par un objet.
+Quelle que soit la ou les causes du mouvement ou des efforts (freinage par frottement, accélération par moteur, portance sur une aile par les écoulements de l'air, attraction par la terre, attraction par un aimant etc.), tout se passe comme si on attachait à cet objet des petits élastiques tendus avec la même tension que la force qui s'applique sur l'objet.
+Qui plus est, il est possible de combiner les forces s'appliquant sur un même point, mais provenant de différentes causes, en une seule force.
+Pour cela, il suffit de sommer les vecteurs force (cette opération revient à remplacer deux élastiques attachés à un même point, mais tirant peut-être dans des directions différentes, par un seul élastique produisant la même tension).
+C'est cette capacité à réunir et à combiner dans un même outil des phénomènes aussi variés qui confère toute sa puissance au concept de force.
+Ainsi, une fois assimilées les lois du mouvement de Newton, on peut comprendre l'effet de n'importe quelle interaction sur un objet, pourvu, toutefois, de rester dans les conditions d'application de la mécanique classique :
+* les objets doivent être suffisamment grands, par rapport à un atome, pour que la matière paraisse continue (sinon, il faut utiliser la mécanique quantique) ;
+* les vitesses doivent être relativement faibles, par rapport à la vitesse de la lumière (sinon, il faut utiliser la relativité générale ou la relativité restreinte) ;
+* le champ de gravitation doit être peu variable et d'intensité limitée, afin que l'on puisse négliger ses effets sur la géométrie de l'espace-temps (sinon, il faut utiliser la relativité générale).
+Dans notre vie quotidienne de terriens humains, les conditions d'application de la mécanique classique sont toujours satisfaites sur les objets que nous pouvons voir sur terre à l'œil nu.
+Mais les propriétés de ces objets (couleurs, dureté, fonctionnement d'un appareil électronique, etc.) s'expliquent en général par des interactions au niveau moléculaire, et nécessitent parfois, pour être expliquées, d'avoir recours à la mécanique quantique.
+Application aux systèmes complexes
+Quand on étudie le comportement d'un système physique constitué de plusieurs objets et qu'on fait le bilan des forces \vec F appliquées au système (c'est-à-dire à ses différents objets), il est utile de distinguer les forces intérieures \vec F_\mathrm (exercées par d'autres objets du système) des forces extérieures \vec F_\mathrm (exercées par des objets extérieurs au système).
+On montre en effet que la résultante des forces intérieures est nulle et donc qu'elles ne contribuent en rien à l'accélération globale du système (c'est-à-dire l'accélération de son centre de gravité).
+Par contre elles interviennent dans le bilan énergétique (parce que deux forces opposées deux-à-deux peuvent très bien fournir un travail non nul).
+Le vecteur force
+En physique, on modélise une force par un vecteur.
+Un représentant du vecteur force est caractérisé par quatre éléments :
+La direction : orientation de la force ;
+Le sens : vers où la force agit ;
+La norme (ou intensité) : grandeur de la force, elle est mesurée en newtons (N) ;
+Le point d'application : endroit où la force s'exerce.
+Le parallélogramme des forces (Relation de Chasles appliquée aux vecteurs forces)
+Le théorème du parallélogramme des forces provient de la constatation du fait que des mouvements peuvent être combinés entre eux sans que l'ordre de cette combinaison ait une quelconque influence sur le mouvement final.
+Dans le parallélogramme ci-contre, on peut distinguer deux types de mouvement :
+* un déplacement parallèle à AB et DC (côtés bleus du parallélogramme) ;
+* un déplacement parallèle à AD et BC (côtés verts du parallélogramme).
+Quand un solide est situé initialement au point A, l'ordre de parcours AB puis BC ou bien AD puis DC n'a aucune influence sur le résultat final : quel que soit l'ordre des mouvements, le solide est déplacé au point C.
+Fort de cette constatation, l'observation entre les forces (les causes) et les mouvements (les effets) fut fait et Simon Stevin puis Isaac Newton purent énoncer le théorème du parallélogramme des forces :
+Considérons un solide au point A. Appliquons-lui une force F proportionnelle et parallèle au segment AB et qui déplace l'équilibre du solide au point B, puis une force F proportionnelle et parallèle au segment BC et qui déplace l'équilibre du solide du point B au point C. Alors la force F parallèle au segment AC et qui déplace l'équilibre du solide du point A au point C est telle que :
+\frac=\frac+\frac.
+La force F est appelée la force « résultante » des deux forces F et F.
+Inversement, soit un point B quelconque et la force F proportionnelle et parallèle au segment AC et qui déplace l'équilibre du solide du point A au point C. Considérons les forces F et F parallèles respectivement aux segments AB et BC et telles que :
+\frac+\frac=\frac.
+Alors l'application des forces F et F au solide va déplacer l'équilibre de ce dernier du point A au point C.
+Cette dernière propriété des forces permet de séparer une force en plusieurs composantes et est utilisée par exemple pour décomposer une force de réaction R en ses composantes normale (l'effort d'appui N) et tangentielle (l'effort de frottement T).
+: Enfin, soit un point D tel que ABCD soit un parallélogramme, alors la force F, qui déplace l'équilibre du solide du point B au point C, peut aussi déplacer l'équilibre du point A au point D. Il en est de même pour la force F qui peut indifféremment déplacer le solide du point A au point B ou du point D au point C.
+Le parallélogramme des forces amène naturellement à modéliser celles-ci par un vecteur souvent noté \vec.
+Le sens et la direction du vecteur indiquent respectivement le sens et la direction de l'action, la longueur du vecteur indiquant l'intensité de cette même action.
+Avec cette notation, le parallélogramme des forces se résume simplement à la relation vectorielle suivante :
+\vec=\vec+\vec.
+Le point d'application
+Une force exerce son action en un point appelé point d'application (ou point d'impact).
+La connaissance de ce point est importante pour déterminer le moment de la force....
+L'action d'une force peut être transmise aux autres points de l'objet par déformation élastique, par exemple, si l'on pousse une voiture, la force exercée par la paume de la main est transmise au reste du véhicule.
+La notion de point d'application est évidente dans le cas d'une cause « ponctuelle » : si l'on pousse un objet à la main, le point d'application est le point de contact entre l'objet et la main, et si on le tire avec une corde, c'est le point d'attache de la corde.
+Cependant, à y regarder de plus près, la paume de la main fait une certaine surface, et la corde a une section non nulle.
+La force s'exerce donc sur une surface, et non pas en un point.
+Le point d'application est en fait le barycentre de la surface, en supposant que la force est répartie uniformément sur la surface ;
+sinon, cela se ramène à un problème de pression.
+La notion peut s'étendre au cas où la surface de contact est importante, comme dans le cas de la réaction d'un support sur lequel est posé un objet, ou bien la poussée d'Archimède.
+On l'étend également au cas des forces volumiques, c'est-à-dire des forces à distance qui s'exercent en chaque point de l'objet, comme le poids ou l'attraction électrostatique ;
+le point d'application est alors aussi un barycentre (le centre d'inertie de l'objet dans le cas du poids).
+Dimension et unités de mesure
+La force a pour équation aux dimensions :
+: F = M ×
+L ×
+L'unité de mesure (SI) d'une force est le newton, symbole N, en hommage au savant Isaac Newton.
+Le newton équivaut à , c'est-à-dire qu'un newton est la force colinéaire au mouvement qui, appliquée pendant une seconde à un objet d'un kilogramme
+, est capable d'ajouter (ou de retrancher) un mètre par seconde à sa vitesse.
+On a utilisé également le kilogramme-force (kgf), force exercée par une masse de 1 kg dans le champ de pesanteur terrestre (au niveau de la mer), et qui vaut donc environ , ainsi que la sthène qui vaut .
+L'aéronautique et l'astronautique ont fait un grand usage d'un multiple du kilogramme-force : la tonne de poussée.
+Là où l'on utilisait le kgf, on utilise maintenant le décanewton (daN) :
+Le kilogramme-force est encore parfois utilisé, bien que l'unité ne soit pas recommandée, par exemple sur certains articles de bricolage (résistance d'une cordelette).
+Les anglo-saxons utilisent parfois la livre-force :
+: ≃ .
+Quelques exemples de forces
+Les phénomènes qui provoquent l'accélération ou la déformation d'un corps sont très divers, on distingue donc plusieurs types de force, mais qui sont tous modélisés par un même objet : le vecteur force.
+Par exemple, on peut classer les forces selon leur distance d'action :
+* forces de contact :
+pression d'un gaz, action de contact d'un objet sur un autre (appuyer, tirer), frottement ;
+* forces à distance :
+poids (attraction gravitationnelle), force électromagnétique.
+Forces élastiques
+Dans le cas le plus simple de la déformation élastique, l'allongement ou la compression modérée d'un ressort dans son axe engendre une force proportionnelle à l'allongement relatif, soit :
+\vec=-k\,\vec
+où k est la constante de raideur du ressort et x son allongement (longueur finale moins longueur initiale ;
+\vec x=x\,\vec u, le vecteur unitaire \vec u étant dirigé du point d'attache du ressort vers son extrémité mobile).
+La déformation des solides est étudiée par la mécanique des milieux continus (MMC).
+Pressions
+Lorsqu'une force s'exerce sur une surface, il est parfois intéressant de considérer la répartition de la force selon la surface.
+Par exemple, si l'on enfonce une punaise dans du bois, la punaise s'enfonce car la force est répartie sur une toute petite surface (l'extrémité de la pointe) ;
+si l'on appuie simplement avec le doigt, le doigt ne va pas s'enfoncer dans le bois car la force est répartie sur une grande surface (l'extrémité du doigt).
+Pour ce type d'études, on divise l'intensité de la force par la surface sur laquelle elle s'exerce, c'est la pression.
+Au sein d'un matériau solide, cette pression est appelée contrainte (stress).
+Par définition, la pression p vaut :
+: p = \frac
+où :
+Forces centrales
+Une force est dite centrale si sa direction passe à tout instant par un point O fixe dans le référentiel d'étude, appelé centre de force.
+Bien souvent, de telles forces sont conservatives, mais il est utile de distinguer les deux notions.
+Ainsi la force de gravitation exercée par un corps ponctuel sur un autre est centrale ET conservative, tandis que pour le pendule simple, la tension du fil est centrale (elle passe à tout moment par le point de fixation du fil) mais NON conservative.
+Une caractéristique importante du mouvement sous l'action d'une force purement centrale est que le moment cinétique du système par rapport au centre de force est conservé.
+Forces conservatives
+Certaines forces peuvent dériver d'un potentiel, dans ce cas, il existe un champ U homogène à une énergie tel que la force résultante peut s'écrire sous la forme suivante :
+\vec=-\vec\,U.
+De telles forces sont conservatives.
+Forces volumiques
+Il existe des forces qui s'exercent sur la totalité de l'objet, comme le poids, ces forces sont dites volumiques.
+On démontre, dans le cas des solides indéformables, que l'action de telles forces est équivalente à l'application d'une seule force au barycentre du corps, encore appelé « centre de masse », « centre de gravité » ou « centre d'inertie ».
+Force et lagrangien
+En mécanique lagrangienne,
+si l'on note L (q,q) le lagrangien du système
+avec q la position et q la vitesse du système, on a :
+: F = \frac.
+On notera que F est une force généralisée : force (au sens ordinaire du terme) si la coordonnée généralisée q est une coordonnée cartésienne (exprimée en mètres), mais moment de force si q est une coordonnée angulaire (exprimée en radians).
+Force, travail et énergie
+L'énergie fournie par l'action d'une force sur une distance donnée est appelée travail.
+En physique, force et énergie sont deux manières différentes de modéliser les phénomènes.
+Selon les cas, on préfère l'une ou l'autre expression.
+Par exemple, on pourra traiter la chute d'un objet avec les forces en se servant des lois de Newton, particulièrement la seconde (l'accélération est proportionnelle à la force et inversement proportionnelle à la masse), ou avec les énergies (la diminution de l'énergie potentielle de gravité est égale à l'augmentation de l'énergie cinétique).
+Une force travaille (ou effectue un travail) lorsque son point d'application se déplace.
+Pour le cas d'une force constante, la valeur du travail d'une force, notée W (F), est égale au produit scalaire du vecteur force par le vecteur déplacement.
+Mesure d'une force
+: l'idée est de déterminer l'effort nécessaire qu'il faut opposer à la force à mesurer pour atteindre l'équilibre.
+Dans le cas particulier du poids, on peut utiliser une balance qui compare le poids à mesurer au poids d'une masse connue.
+Pour les autres cas, on utilise généralement un dynamomètre qui est en général constitué d'un ressort dont on connaît la raideur k et dont une extrémité est attachée à un point fixe.
+On applique la force à mesurer sur l'autre extrémité du ressort et l'on mesure la variation de longueur Δl du ressort.
+On en déduit la force F par la relation que nous avons vue plus haut :
+: F = k\;\Delta l.
+La mesure de la longueur Δl est généralement faite par un comparateur.
+La force F étant directement proportionnelle à Δl, il suffit de graduer le cadran du comparateur en newtons plutôt qu'en mètres.
+Lorsque la force à mesurer est importante, on peut utiliser une barre massive comme « ressort » (cf. la loi de Hooke).
+La déformation élastique de la barre est alors mesurée avec un extensomètre (ou jauge de déformation) ;
+il s'agit en général d'un fil en zig-zag collé sur la barre, et dont la résistance électrique varie avec l'allongement relatif.
+Le concept de force et les théories modernes de la physique
+En mécanique newtonienne, la relation entre la force et le mouvement est donnée par la loi de Newton ou « principe fondamental de la dynamique » :
+\vec = \frac
+où \vec est la quantité de mouvement de l'objet, c'est-à-dire le produit de la masse par la vitesse (tandis que l'impulsion est le changement de la quantité de mouvement produit dans un court laps de temps donné), et t est le temps
+Si la masse est constante, alors on a
+\vec
+m \,
+\vec
+où \vec est l'accélération.
+Ernst Mach a fait remarquer dans son ouvrage n'apprend rien de plus que ce qui est dans \vec=m\,\vec et n'est finalement qu'une reformulation (incomplète) de cette dernière équation.
+Cette impuissance à définir une force autrement que par des définitions circulaires était problématique pour de nombreux physiciens parmi lesquels Ernst Mach, Clifford Truesdell et Walter Noll.
+Ces derniers ont donc cherché, en vain, à établir une définition explicite de la notion de force.
+Les théories modernes de la physique ne font pas appel aux forces en tant que sources ou symptômes d'une interaction.
+La relativité générale utilise le concept de courbure de l'espace-temps.
+La mécanique quantique décrit les échanges entre particules élémentaires sous la forme de photons, bosons et gluons.
+Aucune de ces deux théories n'a recours aux forces.
+Toutefois, comme la notion de force est un support pratique pour l'intuition, il est toujours possible, aussi bien pour la relativité générale que pour la mécanique quantique, de calculer des forces.
+Mais, comme dans le cas de la loi de Newton, les équations utilisées n'apportent pas d'informations supplémentaires sur ce qu'est la nature intrinsèque d'une force.
+Les quatre forces de la nature
+L'ensemble des interactions de la matière s'explique par uniquement quatre types de forces :
+Les deux dernières n'interviennent que de façon interne au noyau atomique et leurs seules manifestations tangibles à notre échelle sont les réactions nucléaires.
+L'interaction forte permet aux particules composées de quarks, comme les protons et les neutrons, de ne pas se désagréger.
+Elle est également responsable, bien que de façon indirecte, de la stabilité des atomes.
+L'interaction faible, plus discrète à notre échelle, se manifeste dans un certain type de réaction nucléaire, la désintégration β.
+En dehors des réactions nucléaires, et une fois donnés les atomes et sans considérer leurs interactions internes aux noyaux atomique, la plupart des phénomènes physiques à notre échelle ne font intervenir que les deux autres interactions.
+La force gravitationnelle se manifeste dans la plupart des phénomènes décrits par l'astronomie et la géologie .
+Toutefois, selon Einstein, la force gravitationnelle n'est pas une force mais le résultat de la courbure de l'espace-temps par la matière.
+Enfin, la force électro-magnétique est souvent la seule interaction à intervenir dans de très nombreux phénomènes décrits par la chimie (réactions chimiques), la physico-chimie (dureté de certains matériaux, état liquide, solide ou gazeux de la matière), la tribologie (frottements), l'optique (comportement de la lumière), et tous les phénomènes faisant intervenir l'électricité et/ou le magnétisme .
+Notes
+Voir aussi
+Articles connexes
+Liens externes
+* http:/ pohl/pgb_04.pdf
+La dynamique, Martin Pohl (CERN)
+9lfzvj0bm0v4rzmd6vob7vxitvc63ai

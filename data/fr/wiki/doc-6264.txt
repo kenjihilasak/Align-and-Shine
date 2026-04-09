@@ -1,0 +1,69 @@
+Dispositif mécanique|Capteur
+Un gyroscope (du grec « qui observe la rotation ») est un appareil qui exploite le principe de la conservation du moment angulaire en physique (ou encore stabilité gyroscopique ou effet gyroscopique).
+Cette loi fondamentale de la mécanique veut qu'en l'absence de couple appliqué à un solide en rotation, celui-ci conserve son axe de rotation invariable.
+Lorsqu'un couple est appliqué à l'appareil, il provoque une précession ou une nutation du solide en rotation.
+Dans les capteurs : un gyroscope est un capteur de position angulaire et un gyromètre un capteur de vitesse angulaire.
+Le gyroscope donne la position angulaire (selon un, deux ou les trois axes) de son référentiel par rapport à un référentiel inertiel (ou galiléen).
+Effet gyroscopique
+L'essentiel du dispositif est une roue (ou tout objet correctement équilibré) tournant sur un axe qui, une fois lancée tend à résister aux changements de son orientation.
+Une façon simple d'expérimenter cet effet consiste à tenir à bout de bras une roue de vélo par les écrous du moyeu et de la faire tourner rapidement par une autre personne.
+Lorsque l'on tente de pencher sur le côté la roue en rotation, on ressent une résistance.
+C'est la conservation du moment de rotation qui tend à s'opposer à ce mouvement.
+Le gyroscope de Foucault
+Le gyroscope, étudié et commercialisé dès 1810 par l'Allemand Bohnenberger, fut perfectionné et baptisé ainsi en 1852 par Léon Foucault pour une expérimentation impliquant la rotation de la Terre.
+La rotation avait déjà été mise en évidence par le Pendule de Foucault en 1851.
+L'expérience du pendule du Panthéon n'était pas suffisamment convaincante pour beaucoup de contemporains ce qui a poussé Foucault à inventer l'année suivante le gyroscope.
+Foucault présenta ainsi en 1852 un appareil capable de conserver une rotation suffisamment rapide ( par seconde) pendant un laps de temps suffisamment long (une dizaine de minutes) pour que des mesures observables puissent être effectuées.
+Cette prouesse mécanique (pour l'époque) illustre le talent en mécanique de Foucault et de son collaborateur, Froment.
+La rotation de la Terre fait apparaître, pour un observateur terrestre, une révolution complète de l'axe de rotation du gyroscope en un jour sidéral.
+Cet effet n'est pas visible si l'axe de rotation du gyroscope est précisément l'axe de rotation de la Terre.
+Foucault se rendit compte que son appareil pouvait servir à indiquer le nord.
+En effet, une fois aligné sur le méridien, le gyroscope garde son axe orienté vers le nord.
+Un poids fixé sur le bas d'un cardan permet à un navire qui avance dans une direction, de régler automatiquement le nord ;
+le compas gyroscopique (Sperry)
+était né.
+On trouvera également ce dispositif pour le guidage inertiel des missiles et, par exemple, le pilotage vers la Lune lors du programme Apollo.
+On en trouve également dans les satellites artificiels pour le contrôle de l'attitude.
+Généralités
+Le fonctionnement du gyroscope repose sur la conservation du moment angulaire (ou moment cinétique).
+Les gyroscopes peuvent être utilisés pour construire des compas gyroscopiques qui complémentent ou remplacent les compas magnétiques (boussoles)
+- dans les navires, aéronefs et véhicules en général
+ainsi que pour aider à la stabilité des motocyclettes, du télescope spatial Hubble et comme un dépôt pour le moment angulaire pour les roues de réaction.
+Contrairement à une idée répandue, le phénomène de précession est négligeable dans le cas de l'équilibre d'une bicyclette.
+Les effets gyroscopiques sont aussi la base de jouets comme les yo-yos, Powerballs, les toupies ou encore le diabolo.
+Le nombre de gyroscopes utilisés dans le monde explose dorénavant car ils équipent un nombre croissant de .
+Ils servent à repérer précisément la position et l'orientation de l'appareil dans l'espace.
+Lois physiques
+L'équation fondamentale décrivant le comportement du gyroscope est :
+\vec\tau
+I\vec \alpha
+où les vecteurs
+\vec\tau
+et \vec L sont respectivement le moment (ou couple) sur le gyroscope et son moment cinétique, le scalaire I est son moment d'inertie, le vecteur \vec\omega est sa vitesse angulaire, et le vecteur \vec\alpha est son accélération angulaire.
+Il découle de cela qu'un couple \vec\tau appliqué perpendiculairement à l'axe de rotation, et donc perpendiculaire à \vec, provoque un déplacement perpendiculaire à la fois à \vec\tau et \vec L.
+Ce mouvement est appelé précession.
+La vitesse angulaire de la précession Ω est donnée par
+\vec\tau=_P \wedge
+\vec L
+Le phénomène de précession peut être observé en plaçant un gyroscope tournant autour de son axe vertical et soutenu par le sol ou un point fixé au sol à une extrémité.
+Au lieu de tomber comme on peut s'y attendre, le gyroscope apparaît comme défiant la gravité en restant sur son axe vertical, même si un bout de l'axe n'est pas soutenu.
+L'énergie étant conservée, l'extrémité libre de l'axe décrit lentement un cercle dans un plan horizontal.
+Les équations précédentes décrivent cet effet.
+Le moment du gyroscope est fourni par un couple de forces : la gravité pousse vers le bas le centre de la masse du dispositif, et une force égale la pousse vers le haut pour soutenir le côté libre.
+Le déplacement résultant de ce moment n'est pas vers le bas, comme l'intuition nous le fait supposer, mais perpendiculaire à la fois au mouvement gravitationnel (le bas) et l'axe de rotation (vers l'extérieur du point d'appui), c'est-à-dire dans une direction horizontale vers l'avant, faisant faire à l'appareil une rotation lente autour du point de support.
+Comme démontre la deuxième équation, sous un moment constant dû à la gravité, la vitesse de précession du gyroscope est inversement proportionnelle à son moment cinétique.
+Cela signifie que, comme la friction fait ralentir le mouvement tournant du gyroscope, le taux de précession augmente.
+Cela continue jusqu'à ce que le dispositif ne puisse plus tourner suffisamment rapidement pour soutenir son propre poids, alors il arrête la précession et tombe hors de son support.
+Utilisations
+* En aviation, l'horizon artificiel, le conservateur de cap, le coordonnateur ou indicateur de virage
+* Stabilisateur de caméra lors d'une capture perturbée par le mouvement des vagues
+, le tangage d'un avion
+* Les motocyclettes doivent une grande partie de leur stabilité à l'effet gyroscopique.
+* Le gyropode (exemple Segway), véhicule électrique
+monoplace utilise des gyroscopes pour assurer sa stabilisation de façon autonome.
+Les hélicoptères radiocommandés en possèdent un pour gérer le rotor anticouple, il peut même intégrer une fonction qui lui fait garder son cap quelles que soient les conditions.
+* L' iPhone 4, la PlayStation Vita, la Nintendo 3DS et l' ainsi que le et le ont été les premiers appareils électroniques grand public à posséder un gyroscope à .
+Cet équipement tend à se généraliser sur les .
+La Station spatiale internationale possède qui permettent de contrôler son attitude lors de sa trajectoire orbitale autour de la Terre.
+* Dans le domaine du forage pétrolier, pour déterminer la trajectoire d'un puits foré.
+* Comme actionneur gyroscopique, par exemple pour contrôler la position d'un cube (Cubli) posé sur un support, par , éventuellement mouvant (en activant ou freinant la rotation de l'un de plusieurs gyroscopes).

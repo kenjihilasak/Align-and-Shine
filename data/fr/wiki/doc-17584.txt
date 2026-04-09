@@ -1,0 +1,56 @@
+Histoire de la géométrie|Construction géométrique
+La trisection de l'angle est un problème classique de mathématiques.
+C'est un problème géométrique, faisant partie des trois grands problèmes de l'Antiquité, avec la quadrature du cercle et la duplication du cube.
+Ce problème consiste à diviser un angle en trois parties égales, à l'aide d'une règle et d'un compas.
+Sous cette forme, le problème (comme les deux autres) n'a pas de solution, ce qui fut démontré par Pierre-Laurent Wantzel en 1837.
+Impossibilité générale avec la règle et le compas
+S'il est facile de partager un angle en deux en construisant sa bissectrice, s'il est aisé de partager l'angle droit en trois à l'aide de triangles équilatéraux, beaucoup de mathématiciens ont longtemps cherché, en vain, une méthode géométrique pour réaliser la trisection d'un angle quelconque à la règle et au compas.
+Dès le , Archimède proposa une méthode par ajustement (ou neusis), à l'aide d'un compas et d'une règle dotée de deux graduations.
+Au , Nicomède utilisa une courbe auxiliaire, la conchoïde de droite pour déterminer la solution.
+Mais en 1837, Pierre-Laurent Wantzel démontra le théorème qui porte son nom, permettant d'exhiber une large famille d'équations de problèmes impossibles à résoudre à la règle et au compas.
+L'équation de la trisection de l'angle étant de cette forme, la construction générale est donc impossible à réaliser selon ces règles.
+La trisection de l'angle est en revanche réalisable au moyen du compas et de la règle graduée, ou au moyen de courbes auxiliaires dites trisectrices, ou au moyen de pliage d'une feuille de papier.
+Utilisation du compas et de la règle graduée
+Archimède donne la construction suivante par neusis (par ajustement), à l'aide d'un compas et d'une règle portant deux graduations.
+Soit a l'angle à trisecter, de sommet B.
+On trace un cercle de centre B et de rayon égal à la distance séparant les deux graduations de la règle (soit r).
+Le cercle coupe l'un des côtés de l'angle en A (donc AB
+On dispose la règle de façon qu'elle passe par A, que l'une des graduations C de la règle soit disposée sur le cercle, et que l'autre graduation D soit sur le prolongement (BD) de l'autre côté de l'angle (donc CD
+L'angle b de sommet D est alors le tiers de l'angle a.
+En effet, le triangle BCD est isocèle en C, donc l'angle CBD est égal à b. Mais dans le cercle de centre C passant par B et D, l'angle au centre ACB (
+est le double de l'angle inscrit CDB (
+soit c = 2b
+Or BAC est également un triangle isocèle en B, donc l'angle BAC est égal à c. L'angle ABC vaut donc .
+L'angle ABD vaut alors , de sorte que l'angle a vaut bien 3b.
+Utilisation de courbes trisectrices
+Quadratrice d'Hippias
+Selon Proclus, Hippias aurait imaginé la quadratrice comme un moyen de diviser graphiquement un angle.
+Par construction, l'angle au centre d'un point de la quadratrice est proportionnel à son ordonnée (comptée depuis D) ;
+par conséquent, si l'on peut découper un segment en parties égales, on divisera par là-même un angle en trois angles égaux.
+Or la division d'un segment en 3 segments égaux est constructible à la règle et au compas.
+Conchoïde de Nicomède
+C'est la courbe d'équation polaire \rho
+\frac
+a + d, où a est la distance du pôle à la directrice (
+OH).
+Pour l'utiliser comme trisectrice, on construit un triangle OHI rectangle en H, tel que l'angle φ à trisecter soit \widehat, et la conchoïde de la droite (IH) de pôle O et de module OI (voir la figure ci-contre).
+On a : a
+OH et
+\frac
+a ;
+la conchoïde a pour équation \rho
+\frac
+a + \frac a , avec \phi = \widehat.
+L'intersection de la courbe avec le cercle de centre I passant par O permet de déterminer deux points M et N, et on montre que l'angle \widehat trisecte l'angle \widehat.
+Construction par pliage de papier
+Voici une construction par origami due à Hisashi Abe (1980), qu'illustre la figure ci-contre :
+On trace la droite d passant par le coin A de la feuille de sorte qu'elle forme, avec le bord inférieur h0 de la feuille, l'angle à couper en trois.
+* Par pliage on détermine deux bandes horizontales de même largeur (arbitraire) en bas de la feuille.
+On appelle h1 et h2 les droites qui les délimitent.
+On plie la feuille le long d'un pli p de sorte que AB vienne en A'B' tel que le point A aille sur la droite h1 (en un point A'), en même temps que le point B (intersection du bord gauche avec la droite h2) ira sur la droite d en un point B' (axiome 6 des mathématiques des origamis).
+* La droite t passant par A et A' est alors la trisectrice de l'angle donné: l'angle formé par h0 et t vaut 1/3 de l'angle formé par h0 et d.
+La démonstration est simple : par symétrie par rapport à la droite p, le milieu P de AB donne le milieu P’ de A’B’ et, de même que A’P est perpendiculaire à AB, on a AP’ qui est perpendiculaire à A’B’.
+Les deux triangles rectangles P’A’A et P’B’A sont donc isométriques.
+D’autre part, soit H la projection orthogonale de A’ sur h0.
+Puisque les triangles HAA’ et PA’A sont isométriques comme moitiés d’un même rectangle, et comme les triangles PA’A et P’AA’ sont aussi isométriques par symétrie par rapport à p, il en résulte que les triangles HAA’ et P’AA’ sont isométriques.
+L'isométrie des trois triangles HAA', P'AA' et P'AB' montre que les droites AP’ et AA’ partagent bien l’angle dAh0 en trois angles de même mesure.

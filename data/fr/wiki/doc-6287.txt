@@ -1,0 +1,88 @@
+Logiciel du projet GNU|Éditeur d'image matricielle|Logiciel de photographie|Logiciel d'animation|Logiciel de DAO|Logiciel libre sous licence GPL|Logiciel qui utilise GTK|Logiciel pour Unix|Logiciel pour Windows|Logiciel
+pour Mac OS|Produit lancé en 1996
+GIMP (GNU ), ou The GIMP (), est un outil d'édition et de retouche d'image, diffusé sous la licence GPLv3 comme un logiciel gratuit et libre.
+Il en existe des versions pour la plupart des systèmes d'exploitation dont GNU/Linux, macOS et Microsoft Windows.
+Le logiciel est intégré à la liste des logiciels libres préconisés par l’État français dans le cadre de la modernisation globale de ses systèmes d’informations (SI).
+GIMP a des outils utilisés pour la retouche et l'édition d'image, le dessin à main levée, réajuster, rogner, photomontages, convertir entre différents formats d'image, et plus de tâches spécialisées.
+Les images animées comme les fichiers GIF et MPEG peuvent être créées en utilisant un plugin d'animation.
+En utilisant les calques et la transparence, le logiciel peux servir a tracer de la rotoscopie.
+Les développeurs et mainteneurs de GIMP souhaitent créer un logiciel d'infographie gratuit haut de gamme pour l'édition et la création d'images originales, de photos, d'icônes, d'éléments graphiques de pages web, et d'art pour les éléments de l'interface de l'utilisateur.
+Histoire
+Le projet a été lancé en 1995 par Spencer Kimball et Peter Mattis.
+GIMP signifiait initialement .
+Il était destiné en premier lieu aux systèmes UNIX et GNU/Linux ainsi que Darwin (la base de Mac OS X), mais fonctionne aussi sous Windows.
+Le nom de ce programme est un jeu de mots sur le terme « », qui a plusieurs sens en anglais, notamment celui de .
+Caractéristiques
+* Début 2014, il n'est pas encore compatible avec le mode CMJN pour l'impression professionnelle.
+Il est cependant possible de traiter les images en quadrichromie grâce à l'ajout de l'extension Separate+.
+* Le format spécifique de GIMP est le format XCF, qui permet de conserver les calques, canaux, et autres paramètres propres à une image modifiée avec GIMP (l'équivalent du format Psd sous Adobe Photoshop).
+GIMP supporte également le format OpenRaster.
+Une des grandes forces de GIMP est sa capacité de « scriptage ».
+Il est interfacé avec de nombreux langages de programmation, en particulier Guile, Scheme, Perl et Python.
+Cela permet d'automatiser des traitements répétitifs et d'écrire des modules d'extension.
+* Les versions
+GIMP 2.8 et supérieures permettent de réunir les différentes fenêtres dans une seule par un système d'onglets, facilitant ainsi leur gestion.
+* Il existe un greffon spécialisé dans l'animation appelé GAP (), permettant l'import et l'export dans différents formats vidéo, de déplacer, tourner et agrandir des objets sur différentes couches, et d'y ajouter du son.
+Il traite le format «
+Photoshop ABR
+brush » des brosses Photoshop .
+* GIMP a donné lieu, outre la création de GTK+, à un grand nombre de développements annexes, comme Gutenprint, GIMPshop, GimPhoto, CinePaint (autrefois
+Film Gimp), GIMP
+Mode ou GEGL ().
+Les outils de manipulation de GIMP sont accessibles grâce à des boîtes à outils, des menus déroulants et des boîtes de dialogue (qui sont aussi connus sous le nom de palettes).
+Ces outils sont des brosses et des filtres, mais aussi des outils de transformation, de sélection et de calques.
+Par exemple, GIMP possède par défaut 48 brosses, mais il est possible d'en créer ou d'en télécharger puis installer de nouvelles ;
+de plus la compatibilité de GIMP avec les brosses Photoshop permet l'installation des brosses dans ce format qui est beaucoup plus répandu sur la toile.
+Les brosses peuvent être utilisées avec les outils crayon, pinceau, gomme, aérographe, clonage, correcteur et l'outil de clonage en perspective.
+Support des couleurs
+GIMP possède une palette de sélection des couleurs d'arrière et premier plan avec les formats de codage de couleur RGB, HSV, CMYK.
+En outre, il possède aussi un outil « pipette à couleur » qui permet de prélever des couleurs sur une image.
+GIMP traite aussi les dégradés, il les intègre même dans ses outils comme les brosses et l'outil de remplissage.
+Il possède par défaut une grande variété de dégradés de couleurs, et tout comme les brosses il est possible d'en créer ou d'en télécharger de nouveaux.
+Outil de sélection et calques
+GIMP possède des outils de sélection rectangulaire, elliptique et à main levée.
+Il a aussi la fonctionnalité de pouvoir agir sur la taille et la position de la sélection grâce à des poignées sans transformer le contenu.
+Il est aussi possible de créer des chemins et de les convertir en sélection et vice versa.
+L'outil « extraction du premier plan » de GIMP permet de sélectionner un objet ou une personne sans utiliser l'outil de sélection à main levée peu précis et sans convertir un chemin prenant trop de temps.
+GIMP possède une gestion des calques, pouvant ainsi rendre des couches de l'image visibles, invisibles ou transparentes.
+Chemins
+Les chemins contiennent des segments et des courbes comparables à du dessin vectoriel.
+Ils peuvent être nommés, sauvegardés, agrandis sans perte de qualité, tracés d'un simple trait ou en utilisant des brosses, ou venir d'une sélection.
+Les chemins peuvent être aussi utilisés pour créer des sélections complexes.
+Ils peuvent aussi être courbés au moyen de poignées modulables.
+Effets, scripts et filtres
+GIMP possède par défaut à peu près et filtres, nommés script-fu, classés par types .
+Il est aussi possible de créer ou télécharger des scripts.
+GIMP supporte comme langage de script Perl, Tcl ou Python.
+Le support du langage Ruby n'est pour l'instant qu'au stade expérimental.
+Il est possible de créer différents effets sur le texte ainsi que sur les images.
+Distribution
+GIMP est disponible pour une grande variété de systèmes d'exploitation et d'architectures de processeur.
+GIMP est inclus comme éditeur d'image par défaut dans beaucoup de distributions Linux, comme Debian, Ubuntu, Mandriva, Mageia, SUSE, et Fedora.
+Image
+Gimp 2.2.8 Mac.png|GIMP sous Mac OS X.
+Image
+GIMP-2.8 mode fenêtre unique (Ubuntu).png|GIMP sous Ubuntu.
+Image:
+Gnome-Desktop (Gentoo-Linux).jpg|GIMP sous Gentoo en allemand
+Image
+Gimp 2-6.png GIMP sous Ubuntu Studio.
+GIMP fonctionne sans problème sous KDE, sa bibliothèque étant simplement chargée en doublon avec celle de KDE.
+Si la RAM est suffisante, les performances n'en souffrent pas de façon notable, hormis un peu de contention sur les caches de données et d'instructions.
+Il fonctionne également sous Windows, Mac OS X et Solaris.
+Greffons
+Les greffons (traduction française pour ) sont des modules complémentaires qui étendent les possibilités de GIMP.
+Placés dans le dossier "plug-ins" de Gimp, ce sont des exécutables binaires écrits en C ou C++ puis compilés (Windows PE avec extension .exe ou binaires ELF pour les systèmes à base UNIX), qui sont donc susceptibles de fonctionner plus vite ou d'effectuer des opérations plus complexes que les scripts.
+Citons parmi les plus connus :
+* Gimp (ou GAP), outil d'animation bitmap, permettant l'import/export dans les formats vidéo les plus courants, l', la synchronisation du son ;
+* G'MIC (GREYC's Magic for Image Computing)
+: G'mic est un langage de script libre pour le traitement des images.
+Mais ses auteurs ont créé une interface graphique qui fonctionne comme greffon de Gimp, et qui inclut actuellement (2018) plus de 500 scripts différents, soit l'équivalent de 500 greffons en C, en Python ou en TinyScheme.
+Le greffon G'mic permet la prévisualisation des effets (alors qu'il n'y a pas de prévisualisation pour les scripts dans Gimp).
+*Liquid rescale permet de redimenssioner les calques par un algorithme de redimensionnement prenant en compte le contenu de l'image.
+Il est possible de definir les zones ou les dimensions initiales doivent etre respectés et des zones dont le poid est negatif, qui seront effacés lors d'un retrecissement.
+Cette methode est utile par exemple dans le cadre d'une image dont l'on souhaite aggrandir la taille horizontal, sans que ne soit deformé le perssonage au centre.
+L'on definit alors un calque de preservation sur ce dernier, avant d'augmenter la taille en X.
+Le decors seras etiré, tandit que le perssonage central gardera les memes proportions.
+Historique des versions
+La feuille de route est consultable sur le site officiel.

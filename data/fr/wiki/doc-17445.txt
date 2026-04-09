@@ -1,0 +1,48 @@
+Symbole monétaire|Euro
+, le symbole euro, est le symbole monétaire représentant l’euro.
+Le code de trois lettres pour l’euro au niveau international est EUR (selon la norme ISO 4217).
+Signification du symbole
+D’après la Commission européenne, il est inspiré de la lettre grecque epsilon et fait référence à la première lettre du mot Europe.
+Les deux lignes parallèles symbolisent la stabilité de l’euro.
+Après qu’une étude publique eut sélectionné parmi les propositions initiales, c’est la Commission européenne qui a finalement choisi le symbole actuel.
+Ce dernier aurait été créé par une équipe de quatre experts dont les noms n’ont pas été divulgués officiellement.
+Le nom du Belge Alain Billiet est souvent cité mais une polémique existe sur une création bien antérieure par l’Allemand Arthur Eisenmenger, ancien responsable jusqu’en 1974 du design de la Communauté européenne.
+Le symbole monétaire a été présenté au public par la Commission européenne le .
+Codage du caractère
+Le symbole euro n'est pas représenté par le même symbole numérique dans tous les codages, ce qui peut expliquer sa disparition occasionnelle (mojibake) dans un processus mal maîtrisé.
+* Caractère Unicode :
+U+20AC (valeur décimale : 8364).
+* ISO
+CEI 8859-16 (Latin 10, jeu de caractères latin pour les langues celtiques) : un seul octet de valeur 0xA4 (164 en décimal).
+* Windows-1252 (ANSI latin occidental) : un seul octet de valeur 0x80 (128 en décimal).
+* Représentation alternative : superposition de la lettre C et du signe égal (uniquement sur les dispositifs d’impression ne disposant pas du glyphe correspondant).
+Il est vivement déconseillé d’utiliser cette représentation alternative dans le texte des documents et transmissions informatiques.
+* Si le résultat n’est pas suffisamment ressemblant au symbole officiel, il est vivement recommandé d’utiliser à la place le code international EUR de l’euro selon la norme ISO 4217.
+Confusion avec le code 128 de Windows-1252
+Dans les textes issus de certains systèmes d'information, il n’est pas exceptionnel de rencontrer un usage fautif du code 128 de Windows-1252 là où les normes stipulent que le codage Unicode ou ISO/CEI 8859-1 est utilisé.
+En particulier, en HTML et XML, l’entité numérique &#128;n’est pas valable ;
+le symbole euro doit être représenté avec l’entité numérique &#8364;. En outre, dans un texte codé en ISO CEI 8859-15, le code 128 ne représente pas le symbole euro ;
+ISO 8859
+-1 ne permet pas de représenter le symbole euro et ISO 8859
+-15 utilise le code 164.
+Enfin, le standard «
+Supplementary set for
+Latin-1 alternative with EURO SIGN » est une modification de l'ISO 8859-1 qui remplace le « CURRENCY SIGN » (¤) en position 10/04 par l'« EURO SIGN » (€).
+Méthode de saisie (obtenir les symboles € et ¢ au clavier)
+Le symbole € peut être obtenu par pression simultanée des touches Alt
+Gr + e sur la plupart des claviers AZERTY (sous Windows 95 et les versions ultérieures)
+ainsi que dans les environnements
+Linux
+configurés pour;
+lorsque cette combinaison n’est pas possible sur le clavier, on peut utiliser Alt + 0128 tapé sur le pavé numérique, sous Windows (clavier QWERTY).
+Pour le symbole ¢, sur clavier AZERTY et sous Windows on peut utiliser Alt + 0162 tapé sur le pavé numérique.
+Les claviers Macintosh AZERTY permettent de taper le symbole € via la combinaison des touches Option + $.
+Sous Linux, on peut obtenir le symbole € sur clavier QWERTY en configuration US International en utilisant la combinaison des touches Alt
+Gr + e ou Alt
+Gr + 5.
+On peut obtenir le symbole ¢ en utilisant la combinaison des touches Alt
+Gr + Maj + e. Toujours sous Linux, mais sur clavier AZERTY variante belge, Alt Gr + e fournit le symbole € et tant Alt Gr + Maj + e que Alt Gr + c fournissent le symbole ¢.
+Sources
+Références
+Bibliographie
+4c0ax606tpgtnkoie8aqa45bz9ryw3h

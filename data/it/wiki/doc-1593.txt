@@ -1,0 +1,190 @@
+Il concetto di probabilità, utilizzato a partire dal XVII secolo, è diventato con il passare del tempo la base di diverse discipline scientifiche rimanendo tuttavia non univoco.
+In particolare su di esso si basa una branca della statistica (la statistica inferenziale), cui fanno ricorso numerose scienze sia naturali che sociali.
+Cenni storici
+I primi studi che portarono successivamente a concetti legati alla probabilità possono essere trovati a metà del XVI secolo in Liber de ludo aleæ di Cardano (scritto nel 1526, ma pubblicato solo un secolo e mezzo dopo, nel 1663) e in Sulla scoperta dei dadi di Galilei (pubblicato nel 1656).
+In particolare, Galileo spiegò come mai, lanciando tre dadi, la probabilità di uscita delle somme 10 e 11 sia più probabile dell'uscita del 9 e del 12, nonostante entrambi i risultati si ottengano da un uguale numero di combinazioni.
+Il problema della ripartizione della posta in gioco nel caso che un gioco d'azzardo debba essere interrotto venne affrontato da Pacioli nella Summa de arithmetica, geometria, proportioni et proportionalita (pubblicata nel 1494) e successivamente da Tartaglia, per poi essere risolto da Pascal e Fermat.
+La nascita del concetto moderno di probabilità viene attribuita a Pascal e Fermat.
+Il Cavalier de Méré (un accanito giocatore) aveva calcolato che ottenere almeno un 6 in 4 lanci di un dado non truccato era equivalente ad ottenere almeno un doppio 6 in 24 lanci, sempre di un dado non truccato.
+Tuttavia, giocando secondo tale convinzione, invece di vincere perdeva e scrisse a Pascal lamentando che la matematica falliva di fronte all'evidenza empirica.
+Da ciò scaturì una corrispondenza tra Pascal e Fermat in cui iniziò a delinearsi il concetto di probabilità nell'accezione frequentista.
+Pascal annunciò nel 1654 all'Accademia di Parigi che stava lavorando sul problema della ripartizione della messa in gioco.
+E in una lettera del 29 luglio dello stesso anno a Fermat propose la soluzione del problema, affrontato con il metodo per ricorrenza, mentre Fermat utilizzava metodi basati sulle combinazioni.
+Nel 1657 Huygens scrisse un Libellus de ratiociniis in ludo aleæ,, il primo trattato sul calcolo delle probabilità, nel quale introduceva il concetto di valore atteso.
+I suoi lavori influenzarono tra l'altro Montmort, che scrisse nel 1708 un Essai d'analyse sur le jeux de hasard, ma anche Jakob Bernoulli e de Moivre.
+Nel 1713 viene pubblicato postumo Ars conjectandi di Jakob Bernoulli, dove veniva dimostrato il teorema che porta il suo nome, noto anche come legge dei grandi numeri.
+Successivamente, de Moivre pervenne ad una prima formulazione, poi generalizzata da Laplace, del Teorema centrale del limite.
+La teoria delle probabilità raggiunse così basi matematicamente solide e, con esse, il rango di nuova disciplina.
+In essa esercita un ruolo centrale il rapporto tra casi favorevoli e casi possibili e la probabilità è un numero intrinsecamente legato ad un evento.
+Negli anni centrali del XX secolo, tuttavia, prima de Finetti e poi Savage hanno elaborato una concezione soggettiva della probabilità, secondo cui essa è il grado di fiducia che una persona ha nel verificarsi dell'evento.
+Nello stesso periodo, Kolmogorov ha dato inizio alla moderna teoria assiomatica (Grundbegriffe der Wahrscheinlichkeitsrechnung, 1933), ispirandosi alla teoria della misura.
+Si è così affermata una teoria della probabilità puramente matematica, che generalizza il patrimonio matematico comune alle diverse impostazioni.
+Definizioni
+In probabilità si considera un fenomeno osservabile esclusivamente dal punto di vista della possibilità o meno del suo verificarsi, prescindendo dalla sua natura.
+Tra due estremi, detti evento certo (ad esempio:
+lanciando un dado a sei facce si ottiene un numero compreso tra 1 e 6) ed evento impossibile (ottenere 1 come somma dal lancio di due dadi), si collocano eventi più o meno probabili (aleatori).
+Si usa il linguaggio della teoria degli insiemi:
+un insieme non vuoto Ω (detto spazio delle alternative) ha come elementi tutti i risultati possibili di un esperimento;
+l'evento che risulta verificato da un unico risultato (un unico elemento di Ω) viene detto evento elementare;
+altri eventi sono sottoinsiemi di Ω costituiti da più risultati.
+Gli eventi vengono normalmente indicati con lettere maiuscole.
+Dati due eventi A e B, si indica con A∪B la loro unione, ovvero l'evento costituito dal verificarsi dell'evento A oppure dell'evento B.
+Si indica con A∩B la loro intersezione, ovvero l'evento costituito dal verificarsi sia dell'evento A che dell'evento B.
+Se A∩B = ∅ i due eventi A e B vengono detti incompatibili (non possono verificarsi simultaneamente).
+Il complemento di un evento A rispetto a Ω, Ω\A, è detto negazione di A e indica il suo non verificarsi (ovvero il verificarsi dell'evento complementare).
+Definizione classica
+Secondo la prima definizione di probabilità, per questo detta classica, la probabilità di un evento è il rapporto tra il numero dei casi favorevoli all'evento e il numero dei casi possibili, purché questi ultimi siano tutti equiprobabili.
+Questa definizione è spesso attribuita a Pierre Simon Laplace e quindi anche identificata definizione classica di Laplace.
+Indicando con Ω l'insieme di casi possibili e con |Ω|
+n la sua cardinalità, con A un evento e con nA il numero dei casi favorevoli ad A (ad esempio, nel lancio di un dado Ω
+"numero pari", nA = 3), la probabilità di A, indicata con P (A), è pari a:
+\frac
+\frac=\frac
+Dalla definizione seguono tre regole:
+# la probabilità di un evento aleatorio
+è un numero compreso tra 0 e 1;
+# la probabilità dell'evento certo è pari a 1;
+"numero compreso tra 1 e 6", nA
+6 e nA/n = 1;
+# la probabilità del verificarsi di uno di due eventi incompatibili, ovvero di due eventi che non possono verificarsi simultaneamente, è pari alla somma delle probabilità dei due eventi;
+"numero pari", con P (A)
+1 6, la probabilità che tirando un dado si ottenga un numero pari oppure un 3 è:
+:P (A\cup B)
+\frac
+\frac
+\frac+\frac
+\frac+\frac=\frac
+Frequenza dell'evento
+Introduciamo la definizione di frequenza:
+nell'esempio del lancio del dado con evento A="numero pari", indichiamo come successi (S_A) il numero di volte che otteniamo
+un numero pari ed (S) il totale dei lanci effettuati, la frequenza è pari a:
+F (A)=\frac , il rapporto indica la frequenza (F) dell'evento favorevole "uscita numero pari".
+Inoltre per la Legge dei grandi numeri con un numero elevatissimo di lanci il valore di F (A) tende a quello di P (A) ;
+come risulta anche dalla definizione frequentista della probabilità descritta più avanti.
+La definizione classica consente di calcolare effettivamente la probabilità in molte situazioni.
+Inoltre, è una definizione operativa e fornisce quindi un metodo per il calcolo.
+Presenta tuttavia diversi aspetti negativi non irrilevanti:
+* dal punto di vista formale, è una definizione circolare:
+richiede che i casi possiedano tutti la medesima probabilità, che è però ciò che si vuole definire;
+* non definisce la probabilità in caso di eventi non equiprobabili;
+* presuppone un numero finito di risultati possibili e di conseguenza non è utilizzabile nel continuo.
+Definizione frequentista
+Per superare tali difficoltà, von Mises propose di definire la probabilità di un evento come il limite cui tende la frequenza relativa dell'evento al crescere del numero degli esperimenti:
+:P (A)=\lim_\frac
+La definizione frequentista si applica ad esperimenti casuali i cui eventi elementari non siano ritenuti ugualmente possibili, ma assume che l'esperimento sia ripetibile più volte, idealmente infinite, sotto le stesse condizioni.
+Anche tale definizione consente di calcolare la probabilità di molti eventi e da essa si ricavano le stesse tre regole che seguono dalla definizione classica.
+È sufficiente, infatti, sostituire il rapporto tra numero dei casi favorevoli nA e numero dei casi possibili n con il limite del rapporto per n tendente all'infinito.
+Tuttavia:
+* il "limite" delle frequenze relative non è paragonabile all'analogo concetto matematico;
+ad esempio, data una successione , si dice che a è il suo limite se per ogni ε > 0 esiste un numero naturale N tale che |an - a N, e, comunque dato ε, è sempre possibile calcolare N;
+nella definizione frequentista, invece, N non è sempre calcolabile;
+* non tutti gli esperimenti sono ripetibili;
+ad esempio, ha sicuramente senso chiedersi quale sia la probabilità che vi sia vita su Marte o che tra 50 anni il tasso di natalità in Africa diventi la metà di quello attuale, ma in casi simili non è possibile immaginare esperimenti ripetibili all'infinito.
+Definizione soggettiva
+De Finetti e Savage hanno proposto una definizione di probabilità applicabile ad esperimenti casuali i cui eventi elementari non siano ritenuti ugualmente possibili e che non siano necessariamente ripetibili più volte sotto le stesse condizioni:
+la probabilità di un evento è il prezzo che un individuo ritiene equo pagare per ricevere 1 se l'evento si verifica, 0 se l'evento non si verifica.
+Al fine di rendere concretamente applicabile la definizione, si aggiunge un criterio di coerenza:
+le probabilità degli eventi devono essere attribuite in modo tale che non sia possibile ottenere una vincita o una perdita certa.
+In tal modo è possibile ricavare dalla definizione soggettiva le stesse tre regole già viste.
+# P (A)
+è compresa tra 0 e 1;
+se infatti fosse negativa si avrebbe un guadagno certo, se fosse maggiore di 1 si avrebbe una perdita certa;
+# P (Ω) = 1;
+se l'evento è certo, si riceverà sicuramente 1, ma se fosse P (Ω) 1 si avrebbe una perdita certa;
+se A∩B
+∅, P (A∪B)
+P (A)+P (B).
+Si osserva preliminarmente che se gli n eventi A1, A2, ..., An sono incompatibili (non possono presentarsi insieme) e necessari (uno di loro deve necessariamente verificarsi), la somma delle probabilità P (Ai), con i che va da 1 a n, è uguale a 1;
+infatti, se si paga P (Ai) per ciascun evento, se la somma fosse inferiore a 1 si avrebbe un guadagno certo, se fosse superiore si avrebbe una perdita certa.
+Si considerano poi gli eventi incompatibili A e B e l'evento complemento della loro unione;
+i tre eventi sono incompatibili e necessari e si ha:
+P (A)+P (B)+P (\overline)
+Sono però incompatibili anche l'unione di A e B ed il suo complemento:
+P (A\cup B)+P (\overline)
+Dalle due uguaglianze segue:
+se A\cap B
+\varnothing, allora P (A\cup B)
+P (A)+P (B).
+La definizione soggettiva consente quindi di calcolare la probabilità di eventi anche quando gli eventi elementari non sono equiprobabili e quando l'esperimento non può essere ripetuto.
+Rimane fondata, tuttavia, sull'opinione di singoli individui, che potrebbero presentare diverse propensioni al rischio.
+Basta pensare che molti sarebbero disposti a giocare 1 euro per vincerne 1000, ma pochi giocherebbero un milione di euro per vincerne un miliardo.....
+Definizione assiomatica
+L'impostazione assiomatica della probabilità venne proposta da Andrey Nikolaevich Kolmogorov nel 1933 in Grundbegriffe der Wahrscheinlichkeitsrechnung (Concetti fondamentali del calcolo delle probabilità), sviluppando la ricerca che era ormai cristallizzata sul dibattito fra quanti consideravano la probabilità come limiti di frequenze relative (cfr. impostazione frequentista) e quanti cercavano un fondamento logico della stessa.
+Va notato che la definizione assiomatica non è una definizione operativa e non fornisce indicazioni su come calcolare la probabilità.
+È quindi una definizione utilizzabile sia nell'ambito di un approccio oggettivista che nell'ambito di un approccio soggettivista.
+Il nome deriva dal procedimento per "assiomatizzazione" quindi nell'individuare i concetti primitivi, da questi nell'individuare i postulati da cui poi si passava a definire i teoremi.
+L'impostazione assiomatica muove dal concetto di σ-algebra, o classe additiva.
+Dato un qualsiasi esperimento casuale, i suoi possibili risultati costituiscono gli elementi di un insieme non vuoto Ω, detto spazio campionario, e ciascun evento è un sottoinsieme di Ω. La probabilità viene vista, in prima approssimazione, come una misura, cioè come una funzione che associa a ciascun sottoinsieme di Ω un numero reale non negativo tale che la somma delle probabilità di tutti gli eventi sia pari a 1.
+Se Ω ha cardinalità finita n o infinita numerabile, l'insieme di tutti i suoi sottoinsiemi, detto insieme delle parti, ha, rispettivamente, cardinalità 2n o la cardinalità del continuo.
+Tuttavia, se Ω ha la cardinalità del continuo, il suo insieme delle parti ha cardinalità superiore e risulta "troppo grande" perché si possa definire su di esso una misura.
+Si considerano pertanto i soli sottoinsiemi di Ω che costituiscono una classe additiva \mathcal, ovvero un insieme non vuoto \mathcal tale che
+* se un evento A appartiene ad \mathcal, vi appartiene anche il suo complemento:
+A\in\mathcal\Rightarrow\overline\in\mathcal
+* se un'infinità numerabile di eventi, A1, A2, ... An, ..., appartiene ad \mathcal, vi appartiene anche l'evento costituito dalla loro unione:
+\forall i\in\mathbb,A_i\in\mathcal\Rightarrow\bigcup_A_i\in\mathcal
+Una classe additiva è quindi un sottoinsieme delle insieme delle parti di Ω che risulta chiuso rispetto alle operazioni di complemento e di unione numerabile.
+Si può aggiungere che una classe additiva è chiusa anche rispetto all'intersezione, finita o numerabile, in quanto per le leggi di De Morgan si ha:
+\forall i\in\N,A_i\in\mathcal\Rightarrow\bigcap_A_i=\overline\in\mathcal
+Si pongono i seguenti assiomi (che includono le tre regole ricavabili dalle definizioni precedenti):
+# Gli eventi sono sottoinsiemi di uno spazio Ω e formano una classe additiva \mathcal.
+# Ad ogni evento A\in\mathcal è assegnato un numero reale non negativo P (A), detto probabilità di A.
+# P (Ω)=1, ovvero la probabilità dell'evento certo è pari ad 1.
+# Se l'intersezione tra due eventi A e B è vuota, allora P (A∪B)=P (A)+P (B).
+# Se An è una successione decrescente di eventi e al tendere di n all'infinito l'intersezione degli An tende all'insieme vuoto, allora P (An)
+tende a zero:
+A_n\downarrow\varnothing\Rightarrow \lim_P
+(A_n)=0
+La funzione P (A) viene detta funzione di probabilità, o anche distribuzione di probabilità.
+La terna \ (\Omega,\mathcal, P) viene detta spazio di probabilità.
+Dagli assiomi si ricavano immediatamente alcune proprietà elementari della probabilità:
+* Se P (A) è la probabilità di un evento A, la probabilità dell'evento complementare è 1-P (A).
+Infatti, poiché l'intersezione di A e del suo complemento è vuota e la loro unione è Ω, dagli assiomi 3 e 4 si ricava:
+(A)+P (\overline)
+P (A\cup\overline)
+P (\Omega)=1
+* La probabilità dell'evento impossibile è pari a zero.
+Infatti l'insieme vuoto è il complemento di Ω e si ha:
+:P (\varnothing)
+P ()
+1-P (\Omega)
+* La probabilità di un evento è minore o uguale a 1.
+Infatti, dovendo la probabilità essere non negativa per il secondo assioma, si ha:
+* Se un evento A è incluso in un evento B, allora la sua probabilità è minore o uguale a quella di B. Infatti, se B include A può essere espresso come unione di insiemi disgiunti e si ha:
+A\subseteq B\Rightarrow P (B)
+P (A\cup (\overline\cap B))
+P (A)+P (\overline\cap B)\geq P (A)
+Teoremi di base
+Dai suddetti assiomi derivano alcuni teoremi e concetti fondamentali.
+Il teorema della probabilità totale consente di calcolare la probabilità dell'unione di due o più eventi, ovvero la probabilità che si verifichi almeno uno di essi.
+Essa è la somma delle probabilità dei singoli eventi se sono a due a due incompatibili;
+in caso contrario, alla somma va sottratta la somma delle probabilità delle intersezioni due a due, poi aggiunta la somma delle probabilità delle intersezioni a tre a tre e così via.
+Ad esempio, nel caso di tre eventi:
+(A\cup B\cup C)=P (A)+P (B)+P (C)-P (A\cap B)-P (A\cap C)-P (B\cap C)+P (A\cap B\cap C)
+Si dice probabilità condizionata di A dato B, e si scrive P (A|B), la probabilità che l'evento A ha di verificarsi quando si sa che B si è verificato:
+:P (A|B)=\frac
+Attraverso tale concetto si perviene al teorema della probabilità composta, che consente di calcolare la probabilità dell'intersezione di due o più eventi, ovvero la probabilità che essi si verifichino tutti.
+Nel caso di due eventi (che può essere generalizzato), si ha:
+(A\cap B)=P (A|B)P (B)
+Nel caso che la probabilità di A dato B, P (A|B), sia uguale a P (A), i due eventi vengono definiti indipendenti stocasticamente (o probabilisticamente) e dalla stessa definizione segue una diversa formulazione della probabilità composta, caso particolare del precedente:
+P (A∩B)=P (A)P (B).
+Il teorema di Bayes consente di calcolare la probabilità a posteriori di un evento Ai, quando si sappia che si è verificato un evento E. Se Ai appartiene ad un insieme finito o numerabile di eventi a due a due incompatibili, e se E si verifica allora si verifica necessariamente uno degli eventi di tale insieme (ed uno solo, dato che sono incompatibili), allora, conoscendo le probabilità a priori degli eventi Ai e le probabilità condizionate P (E|Ai) e sapendo che si è verificato E, si può calcolare la probabilità a posteriori di un particolare Ai:
+:P (A_i|E)=\frac
+Più discorsivamente:
+se si conoscono sia le probabilità a priori delle diverse possibili "cause" di E (ma non si sa per effetto di quale di esse E si è verificato), sia le probabilità condizionate di E data ciascuna delle cause, è possibile calcolare la probabilità che E si sia verificato per effetto di una particolare causa.
+Difficoltà nell'utilizzo delle probabilità
+Quante insidie vi siano nei ragionamenti sulle probabilità - al di là delle difficoltà nella comprensione di cosa possa essere la probabilità - viene messo in evidenza da alcuni cosiddetti paradossi, dove in realtà si tratta di domande con risposte apparentemente illogiche:
+* nel paradosso delle tre carte l'errore consiste solitamente nel non avere identificato correttamente quali siano gli eventi:
+i lati delle carte e non le carte stesse
+* nel paradosso dei due bambini l'errore consiste solitamente nel non distinguere eventi diversi, ovvero nel considerare un unico evento quelli che in realtà sono due
+* nel problema di Monty Hall la difficoltà consiste anzitutto nell'accettare l'idea che una nuova informazione può modificare le probabilità di eventi, senza che il mondo reale cambi, l'altro errore consiste nel non analizzare completamente e dunque valutare correttamente la nuova informazione acquisita.
+Una ulteriore fonte di confusione può essere data dal presupporre (sbagliando) che il fatto che un evento abbia probabilità 1 implica che esso avvenga sempre (invece che quasi certamente).
+Note
+Bibliografia
+* Remo Cacciafesta, Lezioni di calcolo delle probabilità, Veschi, Roma, 1983
+* Giorgio Dall'Aglio, Calcolo delle probabilità, Zanichelli, Bologna, 2003
+* Domenico Piccolo, Statistica, Il Mulino, Bologna, 1998, Parte Seconda, Cap.
+VIII, pp. 215-291
+* Keith Devlin, La lettera di Pascal.
+Storia dell'equazione che ha fondato la teoria della probabilità, Rizzoli, 2008
+* Giancarlo Rota e Joseph P.S. Kung, http:/ enciclopedia Probabilità, Enciclopedia del Novecento (1980), Istituto dell'Enciclopedia italiana Treccani
+* Eugenio Regazzini, http:/ enciclopedia Probabilità, Enciclopedia della Scienza e della Tecnica (2007), Istituto dell'Enciclopedia italiana Treccani

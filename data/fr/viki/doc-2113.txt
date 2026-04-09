@@ -1,0 +1,66 @@
+Chiffrement
+Le chiffrement est l'action de transformer des informations, grâce à une clef, afin qu'elles soient incompréhensibles pour tout le monde, sauf pour les personnes qui connaissent cette clef.
+Par convention, les informations à cacher s'appellent le texte clair et le résultat du chiffrement s'appelle le texte chiffré.
+Il faut d’abord comprendre qu’il y a une différence entre cryptologie et cryptographie :
+La cryptologie est l’étude des messages chiffrés
+La cryptographie représente l’ensemble des procédés permettant de rendre incompréhensible un message (le "chiffrer") à partir d'une clé
+PS :
+A ne pas confondre avec la stéganographie qui consiste à cacher un message et non à le chiffrer
+De l'Antiquité à nos jours, les chefs d'armée ont toujours eu besoin de transmettre des ordres à leurs soldats éloignés.
+Comme ces ordres ne doivent pas tomber entre les mains des ennemis (qui pourraient alors prévoir les attaques), ils sont chiffrés.
+N'importe qui, cependant, peut avoir besoin de protéger des informations.
+En réalité, on le fait même très souvent sans s'en apercevoir !
+Par exemple, lors d'un achat par Internet, il faut donner son numéro de carte bancaire.
+Mais si quelqu'un le découvre, il peut l'utiliser pour voler l'argent du possesseur de la carte !
+Pour empêcher cela, ce numéro est chiffré afin que seul le vendeur (qui connaît la clef) puisse le lire et l'utiliser.
+Pour chiffrer un texte clair, on effectue différentes opérations dessus: c'est le travail d'un algorithme de chiffrement.
+Ces opérations doivent toujours être inversibles, sinon il est impossible de déchiffrer le texte chiffré pour retrouver le texte clair !
+Par exemple, « ajouter 2 » est une opération inversible (et « soustraire 2 » est son inverse), parce qu'en appliquant ces deux opérations, on retrouve l'information I{\displaystyle {\mathcal {I}}} de départ:
+Dans cet exemple, 2 serait la clef et « ajouter la clef » serait l'algorithme.
+Dans la pratique, les algorithmes de chiffrement utilisent des étapes plus nombreuses et compliquées, pour qu'on ne puisse pas retrouver le texte clair sans connaître la clef de chiffrement.
+Quand le chiffrement n'est pas inversible (et qu'on ne peut donc pas retrouver le texte clair), on parle plutôt de hachage, qui utilise des opérations irréversibles.
+Le verbe « crypter » ne doit pas être utilisé pour dire « chiffrer », et son usage est déconseillé.
+Chiffrer »
+signifie rendre un message incompréhensible à qui ne connaît pas la clé de chiffrement (celui-là
+peut donc « déchiffrer » le message grâce à la clé).
+Si on employait « crypter », ce serait pour dire qu'on rend un message incompréhensible sans même connaître la clé de décryptage, ce qui reviendrait à dire que ce message n'est destiné à personne puisque personne n'en a la clé...
+D'où son usage déconseillé.
+De même, « décrypter » n'a pas le même sens que « déchiffrer »:
+« déchiffrer » signifie: à partir d'un texte chiffré, retrouver le texte clair en connaissant la clef.
+C'est donc l'opération inverse du chiffrement ;
+« décrypter » signifie: à partir d'un texte chiffré, retrouver le texte clair sans connaître la clef.
+La science du décryptage (qui consiste à « casser » les messages chiffrés) s'appelle la cryptanalyse.
+Le plus vieux document chiffré a été retrouvé en Irak et datant du XVIe siècle avant J.-C..
+Un potier y avait gravé sa recette secrète en supprimant des consonnes et en modifiant l’orthographe des mots.
+La méthode grecque (scytale)
+Cette technique est utilisé entre le Xe et le VIIe siècle avant J.-C..
+On place le message sur un bâton d’un diamètre bien déterminé appelée scytale.
+Ainsi, la position des lettres change dans le message.
+Le code de César
+Cette méthode consiste simplement en un déplacement des lettres dans l’alphabet.
+Par exemple, on peut remplacer le A par un C, et donc le B par un D, etc.
+Cependant, vu qu’il n’y a que 26 lettres dans l’alphabet, il n’y a donc que 25 méthodes de chiffrement.
+Enigma
+La machine Enigma marque un tournant dans les méthodes de chiffrement.
+Cette machine utilise une clé afin de chiffrer les messages.
+Chaque lettre est remplacée par une autre.
+L’astuce, est que la substitution change d’une lettre à l’autre.
+Par exemple, si le A prend la place du F, le B pourrait prendre la place du Y. Cela représente plus d’un billard (ou un million de milliard ou encore 1015) de possibilité.
+Cette technique a été utilisé par les Allemands lors de la 2e Guerre Mondiale.
+Elle a été déchiffrer par Elizabeth Smith Friedman et elle est la première femme dans le domaine de la cryptologie.
+Ce type de chiffrement utilise une seule clé secrète pour chiffrer et déchiffrer les données.
+Un exemple sera plus simple à comprendre :
+Bob veut envoyer un message codé à Alice.
+Il va donc déposer son courrier dans un coffre qui n’as que 2 seule clés (une à Bob et l’autre à Alice).
+Ainsi lors du transfert du message, si une personne intercepte le message, il lui sera impossible de décrypter le message vu qu’il n’a pas la clé secrète.
+Lorsqu’on veut envoyer un message avec ce type de chiffrement, il faut que le destinataire ait une paire de clé (l’une est publique et l’autre est privée).
+La clé publique est utilisée pour crypter le message et la clé privée est utilisé pour décrypter (il est impossible de décrypter le message avec une clé publique).
+Par exemple : si Tintin veut envoyer un message à Haddock, il va utiliser la clé publique d’Haddock pour crypter le message puis lorsqu’Haddock recevra le message, il pourra le décrypter avec sa clé privée.
+La cryptographie asymétrique est considérée comme une méthode de chiffrement « incassable ».
+Cela étant, il est possible de les casser à condition qu’il y est un défaut dans le chiffrement.
+En voici quelques exemples :
+Le premier système de cryptage WI-FI WEP
+Le chiffrement utilisé pour le contrôle et l’utilisation de DVD
+Il faut comprendre que plus la clé qu’on utilise est longue et compliqué, plus nôtre message sera difficile à décrypter.
+Même si le chiffrement est sûr, les ordinateurs deviennent de plus en plus puissants.
+Il faut donc des clés de plus en plus longues afin que la clé ne soit pas « cassée ».

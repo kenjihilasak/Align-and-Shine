@@ -1,0 +1,105 @@
+Authentification
+Un mot de passe est un mot ou une série de caractères utilisés comme moyen d'authentification pour prouver son identité lorsque l'on désire accéder à un lieu protégé, à une ressource (notamment informatique) ou à un service dont l'accès est limité et protégé.
+Le mot de passe doit être tenu secret pour éviter qu'un tiers non autorisé puisse accéder à la ressource ou au service.
+C'est une méthode parmi d'autres pour vérifier qu'une personne correspond bien à l'identité déclarée.
+Il s'agit d'une preuve que l'on possède et que l'on communique au service chargé d'autoriser l'accès.
+Dans le conte Ali Baba et les Quarante Voleurs des Mille et Une Nuits figure l'un des plus célèbres mots de passe :
+Historique
+Origine
+Le terme « mot de passe » est d'origine militaire.
+Les « mots d'ordres » comprennent
+le « mot de sommation » (c'est-à-dire la question convenue) et le « mot
+de passe » (c'est-à-dire la réponse correspondante).
+Il s'agit des signes verbaux qui permettent à deux unités ou deux militaires de se reconnaître mutuellement, par exemple lors d'une patrouille de nuit, au moment délicat du retour dans le dispositif ami.
+Dans ce cas, le mot de passe est donc partagé par un groupe de personnes de confiance.
+Quand il s'agit d'un code personnel, il vaut mieux utiliser l'expression «
+code confidentiel »
+pour mettre en évidence le caractère secret du code et responsabiliser son détenteur.
+Sur Internet
+Par abus de langage, on assimile authentifications « faibles » à une authentification par identifiant et mot de passe car historiquement, sur Internet les identifiants et mot de passe étaient transmis en clair (non chiffré) vers les serveurs.
+L'absence de chiffrement était due au fait que les protocoles de communication (HTTP, FTP...) et Internet dans sa globalité n'ont pas été conçus dans une optique de sécurité.
+De plus, la puissance requise pour chiffrer des données pouvait à l'époque être rédhibitoire.
+En 2009, l'activation du protocole SSL/TLS (généralement symbolisé par un cadenas dans les navigateurs web) permet de chiffrer la communication, et plus particulièrement l'identifiant et le mot de passe.
+La capture d'une communication (contenant identifiant et mot de passe) est toujours possible.
+Mais cette communication est, en théorie, inintelligible pour une tierce personne.
+SSL permet l'authentification du serveur et du client.
+Mais généralement seul le serveur s'authentifie, avec une clé publique et un certificat.
+L'utilisateur s'identifie avec son identifiant et son mot de passe, mais ne présente en général pas de certificat au serveur.
+C'est pourquoi on parle toujours d'authentification faible.
+Une authentification plus forte mettrait en œuvre des mécanismes plus élaborés du côté du client : l'utilisation d'une clé au lieu d'un mot de passe, et un certificat de sa clé publique.
+SSL ne renforce donc pas l'authentification du client, mais assure la confidentialité des échanges à l'aide de chiffrement.
+Le mot de passe joue ici encore un rôle : la clé que possède le client est généralement conservée sous forme chiffrée, sur un support physique spécifique.
+Le mot de passe sert alors à chiffrer/déchiffrer la clé.
+Ceci assure sa protection, car la compromission de la clé signifie la compromission de toute communication chiffrée à l'aide de cette clé.
+C'est pourquoi on chiffre la clé elle-même pour la conserver.
+Principe et limites
+Une limite juridique existe en France à la sécurisation par mot de passe : si des données chiffrées sont saisies par la justice, la loi sur la sécurité quotidienne oblige l'utilisateur à fournir la méthode de chiffrement et les clés ou mots de passe.
+L'utilisation de mots de passe est un compromis entre la sécurité et l'aspect pratique.
+Avec la multiplication de situations où il est nécessaire de disposer d'un mot de passe, chacun de nous possède un nombre de plus en plus important de mots de passe.
+S'il est légitime d'utiliser le même mot de passe pour l'ensemble des situations où celui-ci n'a pas grande importance, il reste néanmoins de nombreux cas où un mot de passe de qualité doit être utilisé.
+Ce mot de passe ne peut être le même partout, d'une part pour éviter que la compromission de celui-ci ne conduise à des situations malheureuses, d'autre part parce que certains sites et logiciels obligent à changer régulièrement son mot de passe et en limitent la réutilisation.
+La mémoire de l'utilisateur étant alors insuffisante pour mémoriser tous ces mots de passe, la tentation est grande de les lister.
+Il est indispensable que la liste de mots de passe ainsi constituée soit plus protégée encore.
+On parle alors de « coffre-fort à mots de passe ».
+Capture d'un mot
+de passe « en clair »
+Un mot de passe est « en clair » lorsqu'il n'a pas été transformé via une fonction de hachage.
+Il existe plusieurs situations où le mot de passe peut être trouvé en clair :
+* Espionnage direct du clavier de la personne qui saisit son mot de passe.
+* Mise en place d'un enregistreur de frappes (keylogger), qui saisit tout texte tapé par un utilisateur à son insu.
+* Écoute du réseau
+Si un attaquant arrive à écouter une communication non chiffrée où la cible doit s'identifier par un mot de passe, ce mot de passe apparaîtra en clair à l'attaquant.
+Certains logiciels permettent de rendre visibles les mots de passe des formulaires.
+Les caractères sont « cachés » par des ronds ou astérisques, qui sont là pour éviter qu'une personne derrière soi ne lise ce que l'on saisit.
+Dans le programme, à ce moment-là, le mot de passe est bien présent et encore non chiffré, le rendre visible consiste simplement à changer une option d'affichage.
+Capture d'un mot
+de passe chiffré
+Dans le cas où un mot de passe chiffré est capturé, il n'est pas directement utilisable : la personne malintentionnée (l'attaquant) doit découvrir le clair correspondant, en le déchiffrant si c'est possible, ou avec d'autres techniques.
+On dit que l'attaquant casse ou « craque » le mot de passe.
+On distingue deux principaux cas de figure : le mot de passe fait partie d'une communication, ou c'est seulement le mot de passe chiffré qui est capturé.
+Toute la communication est chiffrée
+Dans ce cas, il faut trouver un moyen de déchiffrer toute la communication pour trouver le mot de passe.
+Il faut donc trouver une faille dans l'algorithme de chiffrement ou dans une de ses implémentations.
+Si le chiffrement est cassé, peu importe la taille du mot de passe il sera trouvé dans le texte déchiffré.
+Seul le mot de passe chiffré est capturé
+C'est généralement un condensat (ou hash) du mot de passe qui est capturé, c'est-à-dire le résultat d'un algorithme non réversible.
+C'est une bonne pratique, utilisée dans de nombreux cas : sites web, comptes d'utilisateur de système d'exploitation, etc.
+Dans le cas où cet algorithme n'est pas vraiment irréversible (à cause d'erreurs de conception ou d'implémentation), il peut être possible de retrouver le clair correspondant à un condensat.
+Par exemple, la gestion des mots de passe pour protéger les fichiers Excel et Word d'Office 97 comporte des failles qui font qu'il est facile de trouver les mots de passe utilisés.
+Mais en général pour casser un condensat, on utilise d'autres techniques.
+En connaissant la fonction de hachage, on peut imaginer différentes attaques :
+* l'attaque par force brute : on se donne un espace de mots de passe à explorer en se fixant une longueur et un ensemble de caractères ;
+on énumère tous les mots de passe possibles de cet espace ;
+pour chacun de ces mots de passe on calcule l'empreinte par la fonction de hachage, et on compare cette empreinte avec celle que l'on a capturée.
+Pour empêcher ces attaques, l'utilisation d'un mot de passe long et complexe est recommandée.
+Par mot de passe complexe, on entend mot de passe comprenant différents types de caractères : des lettres minuscules et majuscules, des chiffres, et des caractères non alphanumériques (comme !:/#@ ...).
+La longueur du mot de passe assurera qu'il n'est pas énuméré lors d'une attaque par force brute : plus l'espace à énumérer est grand et plus l'attaque prend de temps.
+Voir le graphique ci-contre (attention l'échelle est logarithmique).
+* l'attaque par dictionnaire :
+même chose que pour l'attaque par force brute, mais où les mots sont choisis dans un dictionnaire.
+L'utilisation de caractères différents des lettres et chiffres assurera généralement que le mot de passe n'appartient pas à un dictionnaire, et qu'il ne sera donc pas sensible à une attaque par dictionnaire.
+* des attaques plus complexes, issues de la cryptanalyse, comme l'utilisation de tables arc-en-ciel.
+L'utilisation d'un mot de passe complexe ne protège pas nécessairement de ce type d'attaque.
+La préparation d'une attaque de ce type est longue et gourmande en espace de stockage, mais elle est loin d'être inaccessible de nos jours.
+Choix du mot
+de passe
+Critères de robustesse
+La qualité et la longueur du mot de passe sont des éléments cruciaux pour la sécurité.
+Un mot de passe trop court ou provenant d'un dictionnaire est susceptible d'être attaqué via une recherche dans une table contenant une liste de mots de passe.
+D'une manière plus systématique, une attaque par force brute tente toutes les possibilités et, avec suffisamment de temps, il est théoriquement possible de retrouver le mot de passe.
+Un compromis est la table arc-en-ciel, une amélioration du principe du compromis temps-mémoire.
+La robustesse d'un mot de passe dépend de plusieurs critères :
+* Sa longueur, qui est le critère le plus important.
+Il est conseillé d'utiliser des mots de passe d'une longueur suffisante.
+* Sa non-simplicité : 123456, www, 111111, Love, 0000, azerty… sont à proscrire, de même que les dates de naissance, le nom du chien ou toutes autres informations ayant un rapport direct avec la vie privée.
+De même, les slogans et les citations sont facilement attaquables via une attaque par dictionnaire.
+Plus généralement, le contenu du mot de passe ne devrait suivre aucune logique, mais être une simple succession de caractères choisis aléatoirement.
+* Son unicité : la réutilisation du même mot de passe pour des services différents est à proscrire, afin d'éviter des dégâts en cascade.
+La variation des caractères utilisés : le mot de passe est plus fort lorsqu'il mélange des majuscules, des minuscules, des chiffres, des signes de ponctuation et des caractères spéciaux.
+Tous les ans, SplashData, fournisseur de solutions de sécurité publie également une liste des mots de passe les plus utilisés, et désignés comme étant .
+Les 5 mots de passe les plus utilisés par les utilisateurs du monde entier en 2015 sont :
+# password
+qwerty
+Mot de passe sous contrainte
+Certaines sociétés de télésurveillance utilisent 2 mots de passe : le mot de passe normal et le mot de passe sous contrainte.
+En cas de déclenchement de l'alarme, la société de télésurveillance appelle le client, et demande son mot de passe pour s'assurer de son identité, si celui-ci donne le mot de passe sous contrainte, alors l'agent de télésurveillance sait que la personne qui le dit est menacée et déclenche une intervention.

@@ -1,0 +1,100 @@
+Jeu vidéo sorti en 2015|Jeu vidéo de karting|Jeu
+Linux|Jeu Windows|Jeu Mac|Pays de développement inconnu|Jeu vidéo libre|Jeu de combat motorisé|Manchot dans la culture|Clone de jeu vidéo
+SuperTuxKart, parfois abrégé STK, est un jeu vidéo de course de karts en 3D qui s'est inspiré de la série de jeux vidéo Mario Kart.
+En développement continu depuis décembre 2004, c'est un jeu vidéo libre sous licence GNU GPL 2.
+Multiplateforme, il fonctionne sous GNU/Linux, Mac OS, Windows, *BSD, Solaris et Android.
+Le jeu se veut donc plus amusant que réaliste.
+Quatre niveaux de difficultés sont proposés : Débutant, Intermédiaire, Expert et Supertux.
+Le mode Course permet de participer à une simple course contre d'autres karts avec divers objets comme aide.
+Dans le Contre-la-montre, le joueur devra battre les records de temps sur un circuit, avec ou sans adversaires.
+Contrairement au mode Course, il y a aucune arme, mais chaque kart a un nombre limité de Zipper au début de la course.
+Un autre mode de jeu, plus novateur, est Suivre le meneur.
+Le but étant alors de rester le plus près possible du meneur sans le dépasser.
+Le dernier kart est éliminé à intervalles réguliers, lorsqu'un compte à rebours arrive à 0.
+Si un kart est devant le meneur à ce moment-là, c'est ce kart et non le dernier qui est éliminé.
+Cela se répète jusqu'à ce qu'il ne reste plus que le meneur et le dernier joueur qui est alors déclaré vainqueur.
+Le joueur a à sa disposition les nombreux objets existants.
+Le dernier mode, Chasse aux œufs, demande au joueur, seul sur le parcours, de chercher des œufs cachés partout sur le circuit en un minimum de temps.
+Enfin, il est possible de jouer un Grand Prix, qui consiste à parcourir plusieurs circuits à la suite, les joueurs recevant des points en fonction de leur position au classement.
+À partir de la , l’ordre de départ est celui du classement général.
+Ce mode est disponible pour le mode Course, Contre-la-montre et Suivre le meneur.
+Multijoueur
+Depuis la version 0.4, il est possible de jouer jusqu'à quatre sur la même machine.
+La version 1.0 ajoute la possibilité de jouer en réseau.
+Depuis la version 0.6, il est possible de faire un combat en arène.
+Objets
+Si l’adresse pour négocier les difficultés du circuit joue un rôle important, un aspect particulier du jeu tient à la multiplicité des objets et armes pouvant être utilisés contre les adversaires.
+En complément, des pièges disséminés sur le parcours ralentissent la progression des joueurs.
+Tous les karts, y compris ceux contrôlés par l’ordinateur, peuvent utiliser toutes les armes.
+Le joueur peut saisir les fioles de nitro qui se trouvent sur le parcours.
+Le joueur peut les utiliser à n’importe quel moment pour augmenter la vitesse du kart pendant quelques secondes.
+Elles peuvent être cumulées et, en combinaison avec les dérapages ou d’autres accélérateurs, elles peuvent très significativement accélérer le kart.
+Les peaux de bananes sont à éviter.
+Elles apportent un malus au joueur, choisi aléatoirement entre :
+* un parachute, qui ralentit le kart pendant quelques secondes
+* une ancre, qui ralentit très fortement le kart pendant quelques secondes
+* une bombe à retardement, qui explose après un certain laps de temps, ce qui bloque le kart.
+Le joueur peut s’en débarrasser auprès d’un autre kart en le percutant.
+Par contre, s’il touche une autre peau de banane, sa bombe explosera immédiatement.
+Les boîtes bleues contiennent des armes ou des éléments de défense, choisi aléatoirement.
+Le joueur ne peut avoir qu’un seul objet en réserve à la fois : s’il n’a pas utilisé l’objet lorsqu’il touche une autre boîte bleue, celui-ci est perdu.
+Toutefois, si l’objet est identique, il est alors accumulé.
+Certains objets peuvent être projetés vers l’avant ou vers l’arrière du kart, au choix du joueur.
+Dans la version 0.9.1, ces objets sont au nombre de neuf :
+Dans les versions précédentes du jeu existait également une arme en forme d’ancre, qui ralentissait automatiquement le kart en première position.
+Karts
+Le jeu compte une quinzaine de karts représentant pour la plupart des mascottes d'OS ou des logiciels libres :
+Nolok est le seul personnage créé spécifiquement pour le jeu.
+Il se distingue également au niveau de l’apparence de certaines de ses armes : la bulle de chewing-gum est verte et dentelée, tandis que la tapette à mouches est remplacée par un puissant marteau.
+Circuits
+Dans la version de base, le jeu propose 20 circuits différents, qui se distinguent par leur décor à thème (pyramides d’Égypte, intérieur d’une maison, planète Mars).
+La musique en fond sonore est également adaptée au thème du circuit.
+Fichier
+Supertuxkart-0.8.1-screenshot-1.png|Minigolf
+Fichier:
+Supertuxkart-0.9-screenshot-19.jpg|Autour du phare
+Fichier:
+Supertuxkart-0.9-screenshot-2.jpg|L'île de Grand Paradiso
+Fichier:
+Supertuxkart-0.9-screenshot-7.jpg|Sables mouvants
+Fichier:
+Supertuxkart-0.9-screenshot-1.jpg|Temple Cacao
+Lors d'une course simple en mode «
+Course » ou « Contre la montre »
+, il est possible de choisir le nombre de tours que l'on souhaite effectuer (entre 1 et 99).
+L’utilisateur peut également créer des « Grand Prix » personnalisés avec les circuits de son choix, et déterminer le nombre de tours souhaités sur chacun des circuits.
+Le nombre de tours dans les quatre Grand Prix proposés par défaut n’est toutefois pas personnalisable.
+Développement
+Joerg Henrichs (alias hiker) et Marianne Gagnon (alias Auria) sont les deux administrateurs du projet.
+Ils s'occupent de coordonner les efforts des nombreux contributeurs qu'ils soient développeurs, infographistes ou traducteurs.
+STK est écrit dans le langage de programmation C++ et utilise le moteur 3D .
+Historique
+STK a été créé à partir d'un fork du projet TuxKart en .
+De nombreuses améliorations ont été réalisées depuis :
+Un historique détaillé mais non exhaustif des améliorations est visible dans le fichier ChangeLog du projet.
+Avenir du projet
+De nombreuses améliorations du jeu sont prévues sur la Todo list (liste de choses à faire) du projet.
+En plus des continuelles améliorations graphiques et de performances, un module de replay est prévu pour la version 0.8.2, et la publication en ligne des meilleurs scores pour la 0.8.3.
+Le jeu en réseau devrait apparaître dans une version future, grâce à la participation du projet au Google Summer of Code, il est actuellement en cours de développement .
+Un éditeur de circuits est également en prévision.
+Communauté
+Le projet dispose d'une communauté passionnée et active, notamment sur le forum officiel du projet.
+Elle participe entre autres à la traduction du jeu et à la création de ressources .
+Traductions
+SuperTuxKart, projet anglophone
+, est traduit dans plus de 40 langues telles que le français, l'allemand, l'espagnol, l'italien ou le chinois.
+Les traductions sont réalisées en très grande partie par la communauté, l'interface mise en place s'y prêtant particulièrement.
+Musique
+Les musiques créées par la communauté pour SuperTuxKart sont publiées sous licence libre, tout comme le reste du projet.
+Extensions
+Les extensions proposées à partir de la version 0.7.2 sont l'œuvre de la communauté et permettent d'allonger considérablement la durée de vie du jeu.
+Plus d'une trentaine de karts supplémentaires sont disponibles ainsi qu'une vingtaine de circuits.
+Certains circuits sont proposés pour leur gameplay remarquable et moins pour leurs graphismes mais la plupart ont un gameplay et des graphismes comparables à ceux des circuits par défauts.
+Ces karts et ces circuits ainsi que ceux disponibles par défaut sont réalisés sous le logiciel libre de modélisation et de rendu 3D Blender.
+Notes et critiques
+Le jeu, dans ses versions 0.7.x, a connu un assez bon accueil de la part des critiques, bien meilleur que dans ses versions précédentes où les revues étaient assez mitigées.
+On lui reprochait surtout des graphismes décevants et l'obligation de jouer sur un même clavier en mode multijoueur, deux points qui, avec l'arrivée des versions 0.7.x, sont corrigés.
+Dans le premier cas, cela est dû au nouveau moteur 3D utilisé (Irrlicht) et dans le deuxième, au support des manettes de jeu.
+À ce jour
+, ce qui pénalise le plus le jeu vis-à-vis des critiques est l'absence du jeu en réseau, cependant, il est prévu pour la version 0.10.0.
+Annexes

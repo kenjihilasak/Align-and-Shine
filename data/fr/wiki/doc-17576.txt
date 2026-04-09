@@ -1,0 +1,95 @@
+Type de nombres
+En mathématiques, un entier relatif est un nombre qui se présente comme un entier naturel auquel on a adjoint un signe positif ou négatif indiquant sa position par rapport à 0 sur un axe orienté.
+Les entiers positifs (supérieurs à zéro) s'identifient aux entiers naturels : 0, 1, 2, 3… tandis que les entiers négatifs sont leurs opposés : 0, −1, −2, −3…
+L'entier 0 lui-même est donc le seul nombre à la fois positif et négatif.
+Un nombre réel est entier s'il est sans partie fractionnaire, c'est-à-dire si son écriture décimale ne comprend pas de chiffre (autre que zéro) « après la virgule ».
+Les entiers relatifs permettent d'exprimer la différence de deux entiers naturels quelconques.
+Entre autres significations de la différence, on peut citer la position sur un axe orienté par rapport à un point de référence (un axe à positions discrètes, c'est-à-dire discontinues) ;
+le déplacement depuis une position d'origine, dans un sens ou dans l'autre ;
+ou encore la variation d'une valeur entière, donc comptée en unités (variation positive pour un gain, négative pour une perte).
+L'ensemble des entiers relatifs est noté « Z », lettre capitale grasse dans les textes dactylographiés, peu à peu supplantée par la graphie manuscrite avec une barre oblique :
+« ℤ ».
+La présence d'un astérisque en exposant (« Z* ») désigne en général l'ensemble des entiers relatifs non nuls, même si cette notation est utilisée parfois pour l'ensemble des éléments inversibles, c'est-à-dire la paire d'entiers .
+La notation « Z− » désigne l'ensemble des entiers négatifs.
+Il est plus rare de trouver la notation «
+Z+ », remplacée par la notation «
+N » des entiers naturels par identification
+Cet ensemble est (totalement) ordonné pour la relation de comparaison usuelle héritée des entiers naturels.
+Il est aussi muni des opérations d'addition et de multiplication qui fondent la notion d'anneau en algèbre.
+Les entiers relatifs sont aussi quelquefois appelés entiers rationnels, appellation qui ne doit pas entraîner de confusion avec les nombres rationnels ou fractions.
+Cette dénomination vient de l'anglais , et désigne un cas particulier d'entiers algébriques, construit sur le corps de nombres des rationnels.
+On trouve cette appellation chez Nicolas Bourbaki et certains mathématiciens s'inscrivant dans le mouvement des mathématiques modernes, parmi lesquels Georges Papy.
+Motivation
+La principale raison de l'introduction des nombres négatifs est la possibilité de résoudre toutes les équations de la forme :
+a + x = b, où x est l'inconnue et a et b sont des paramètres.
+Dans l'ensemble des entiers naturels, seules certaines de ces équations ont une solution.
+5 + x
+8 si et seulement
+si x
+: 9 + x = 4 n'a pas de solution dans l'ensemble des entiers naturels.
+Elle possède une solution dans l'ensemble des entiers relatifs qui est −5.
+Fragments d'histoire
+La première allusion à des nombres négatifs apparaît dans des textes indiens comme l'Arybhatiya du mathématicien indien Âryabhata (476-550) où sont définies les règles d'additions et de soustractions.
+Les nombres négatifs apparaissent alors comme représentant des dettes et les nombres positifs comme des recettes.
+Quelques siècles plus tard, dans les écrits du mathématicien perse Abu l-Wafa (940-998), on voit apparaître des produits de nombres négatifs par des nombres positifs.
+Cependant le nombre reste encore attaché à des quantités physiques et le nombre négatif n'a guère de statut légal.
+Al Khuwarizmi (783-850) par exemple, dans son ouvrage la Transposition et la réduction préfère traiter 6 types d'équations du second degré au lieu d'envisager des soustractions.
+En Europe les nombres relatifs apparaissent tardivement, on attribue en général à Simon Stevin (1548-1620)
+la fameuse règle des signes pour le produit de deux entiers relatifs.
+D'Alembert (1717-1783)
+lui-même dans lEncyclopédie envisage le nombre relatif comme une idée dangereuse.
+Il faut attendre encore deux siècles et l'avènement du formalisme pour voir apparaître une construction formelle de l'ensemble des entiers relatifs à partir de classes d'équivalence de couples d'entiers naturels
+C'est à Richard Dedekind (1831-1916) que l'on doit cette construction.
+Lui
+-même utilisait la lettre K pour désigner l'ensemble des entiers relatifs.
+Plusieurs autres conventions ont eu cours, jusqu'à ce que Nicolas Bourbaki popularise l'usage de la lettre \mathbb, initiale de l'allemand Zahlen (nombres).
+Règles opératoires
+Dans un nombre relatif, on distingue le signe (+ ou −) et la valeur absolue : −3 a pour valeur absolue 3.
+Addition
+La somme de deux entiers de même signe s'obtient en additionnant les deux valeurs absolues et en conservant le signe commun :
+(−3) + (−5)
+, supprimant le signe opératoire +.
+La somme de deux entiers relatifs de signes contraires s'obtient en calculant la différence entre les deux valeurs absolues et en lui affectant le signe de l'entier ayant la plus grande valeur absolue :
+(+3) + (−5)
+−2.
+Multiplication
+Le résultat d'une multiplication s'appelle un produit.
+Le produit de deux nombres relatifs de même signe est toujours positif (+) et s'obtient en effectuant le produit des valeurs absolues:
+(+3) × (+4)
++12
+(−3) × (−7)
+Le produit de deux nombres relatifs de signes différents est toujours négatif (−) et s'obtient en effectuant le produit des valeurs absolues
+: (+7) × (−4) = −28
+Règle des signes
+: plus multiplié par plus, donne produit plus.
+: moins multiplié par moins, donne produit plus
+: moins multiplié par plus ou plus multiplié par moins donne produit moins
+Ensemble des entiers
+Construction
+L'ensemble Z des entiers relatifs peut être vu comme le symétrisé du semi-anneau N des entiers naturels.
+Fichier:
+Construction_blackboard_integers.jpg|thumb|alt=
+Une représentation d'une construction des entiers relatifs.
+Une représentation d'une construction des entiers relatifs.
+Structure
+L'ensemble des entiers relatifs, muni de ses lois d'addition et de multiplication
+, est le prototype de la notion d'anneau.
+Il s'agit même d'un anneau euclidien, en référence à la division euclidienne.
+Il est donc également principal et factoriel.
+Il peut être muni de la topologie discrète associée à la distance usuelle induite par la valeur absolue de la différence, qui en fait un espace métrique complet.
+Les seules autres distances compatibles avec la structure d'anneau sont les distances p-adiques, où p est un nombre premier.
+La structure de groupe additif (Z, +) est un groupe monogène sans torsion, c'est-à-dire un groupe abélien libre de rang 1.
+L'ensemble Z est totalement ordonné pour la relation d'ordre usuelle.
+Les entiers relatifs forment un ensemble dénombrable infini.
+Extensions
+L'ensemble Z des entiers relatifs se plonge dans l'ensemble des nombres décimaux, noté D, qui lui-même est une partie de l'ensemble des nombres rationnels noté Q.
+La notion d'entier est étendue par la définition des entiers algébriques, qui sont aux divers corps de nombres ce que les entiers relatifs sont au corps des rationnels.
+Les entiers rationnels, c'est-à-dire les entiers algébriques du corps des rationnels, sont donc exactement les entiers relatifs.
+Pour chacune des distances p-adiques, le complété de Z est un anneau des entiers p-adiques noté Z, dont le corps de fraction est le corps des nombres p-adiques, noté Q et qui contient Q.
+Utilisations courantes
+Les nombres relatifs sont des nombres qui sont devenus relativement familiers.
+On les trouve :
+* dans les ascenseurs où par exemple -2 désignera le deuxième sous-sol;
+* sur les thermomètres pour indiquer les températures en dessous de 0°C;
+* sur les relevés bancaires où par exemple -120
+indiquera un découvert de 120 euros.

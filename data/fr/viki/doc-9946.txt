@@ -1,0 +1,16 @@
+Hedgewars
+Son moteur de jeu est écrit en Pascal, et son interface graphique en C++.
+Le serveur est en Haskell.
+Sommaire
+Capture d'écran d'une partie.
+Les armes et gadgets.
+Le joueur dirige un ou plusieurs équipes composées d'hérissons et doit éliminer toutes les épuipes adverses afin de remporter la victoire.
+Pour cela, il dispose d'un ensemble d'armes, par exemple le fusil, le pistolet, le bazooka, l'abeille à tête chercheuse, la bombe pastèque, la dynamite, le gâteau explosif, les attaques aériennes, etc..., ainsi que de multiples gadgets, comme le grappin
+, la téléportation, l'avion télécommandé, un générateur de portail...
+Dans une partie, un ou plusieurs joueurs peuvent s'affronter.
+Le joueur peut aussi faire une partie en solo avec ses propres équipes entre elles ou avec une intelligence artificielle.
+En mode hors-ligne, le jeu dispose de quatre modes :
+Une partie en local entre équipes ;
+Une campagne de missions ;
+Un tutoriel pour apprendre et s'entraîner.
+En mode multijoueur, le jeu possède un serveur local pour jouer en privé, ainsi qu'un accès au serveur public maintenu par les développeurs pour jouer avec des joueurs du monde entier.

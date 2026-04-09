@@ -1,0 +1,75 @@
+El principio de Arquímedes es un principio físico que afirma: «Un cuerpo total o parcialmente sumergido en un fluido en reposo, experimenta un empuje vertical y hacia arriba igual al peso de la masa del volumen del fluido que desaloja».
+Esta fuerza recibe el nombre de empuje hidrostático o de Arquímedes, y se mide en newtons (en el SI).
+El principio de Arquímedes se formula así:
+o bien cuando se desea determinar para compararlo contra el peso del objeto:
+donde E es el empuje N, Pe es el peso específico del fluido N/m^3, ρf es la densidad del fluido, V el «volumen de fluido desplazado» por algún cuerpo sumergido parcial o totalmente en el mismo, g la aceleración de la gravedad y m la masa.
+De este modo, el empuje depende de la densidad del fluido, del volumen del cuerpo y de la gravedad existente en ese lugar.
+El empuje (en condiciones normales y descrito de modo simplificado) actúa verticalmente hacia arriba y está aplicado en el centro de gravedad del cuerpo; este punto recibe el nombre de centro de carena.
+Historia
+Arquímedes creció en un ambiente donde la ciencia era familiar, ya que su padre, Fidias, era astrónomo.
+Arquímedes reveló tempranamente particular disposición para los estudios.
+Viajó por la península ibérica y estudió en Alejandría.
+Allí trabó amistad con el famoso Eratóstenes de Cirene, con quien efectuó la medición de la circunferencia terrestre.
+Probablemente a consecuencia de los estudios realizados con Eratóstenes, más que por tradición familiar, en Arquímedes nació la afición por la astronomía.
+Vuelto a Siracusa, se dedicó a sus estudios de matemática, física, geometría, mecánica, óptica y astronomía.
+En todas estas materias realizó investigaciones que aún hoy resultan difíciles para una persona de buena preparación.
+La anécdota más conocida sobre Arquímedes, matemático griego, cuenta cómo inventó un método para determinar el volumen de un objeto con una forma irregular.
+De acuerdo con Vitruvio, arquitecto de la antigua Roma, una nueva corona con forma de corona triunfal había sido fabricada para Hierón II, tirano gobernador de Siracusa, el cual le pidió a Arquímedes determinar si la corona estaba hecha de oro puro o si un orfebre deshonesto le había agregado plata.
+Arquímedes tenía que resolver el problema sin dañar la corona, así que no podía fundirla y convertirla en un cuerpo regular para calcular su densidad.
+Mientras tomaba un baño, notó que el nivel de agua subía en la tina cuando entraba, y así se dio cuenta de que ese efecto podría usarse para determinar el volumen de la corona.
+Debido a que la compresión del agua sería despreciable, la corona, al ser sumergida, desplazaría una cantidad de agua igual a su propio volumen.
+Al dividir la masa de la corona por el volumen de agua desplazada, se podría obtener la densidad de la corona.
+La densidad de la corona sería menor si otros metales más baratos y menos densos le hubieran sido añadidos.
+Entonces, Arquímedes salió corriendo desnudo por las calles, tan emocionado estaba por su descubrimiento para recordar vestirse, gritando «¡Eureka!» (en griego antiguo: «εὕρηκα» que significa «¡Lo he encontrado!»)
+Dado que la historia se había transmitido de forma oral, durante el renacimiento fue cuestionada por la imprecisión de medir el volumen y el empuje por separado y dividirlos, y también por el hecho de que la descripción anterior no utiliza para nada el Principio de Arquimedes.
+Galileo En 1586, con solo 22 años, publicó el artículo La Bilancetta, en el que describía una forma de comparar densidades con una balanza sumergida y proponía que podría ser el dispositivo original del propio Arquímedes.
+La historia de la corona dorada no aparece en los trabajos conocidos de Arquímedes, pero en su tratado Sobre los cuerpos flotantes él da el principio de hidrostática conocido como el principio de Arquímedes.
+Este plantea que todo cuerpo sumergido en un fluido experimenta un empuje vertical y hacia arriba igual al peso del volumen de fluido desalojado; es decir, dados dos cuerpos que se sumergen en el seno de un fluido (ej:agua), el más denso o el que tenga compuestos más pesados se sumerge más rápido, es decir, tarda menos tiempo para llegar a una posición de equilibrio.
+Esto sucede por el gradiente de presión que aparece en el seno del fluido, que es directamente proporcional a la profundidad de inmersión y al peso del propio fluido.
+Demostración
+El principio de Arquímedes puede deducirse matemáticamente de las ecuaciones de Euler para un fluido en reposo que a su vez pueden deducirse generalizando las leyes de Newton a un medio continuo.
+De la misma manera el principio de Arquímedes se puede deducir de las ecuaciones de Navier-Stokes para un fluido:
+La condición de que el fluido incompresible que esté en reposo implica tomar en la ecuación anterior \mathbf=0, lo que permite llegar a la relación fundamental entre presión del fluido, densidad del fluido y aceleración de la gravedad:
+A partir de esa relación podemos reescribir fácilmente las fuerzas sobre un cuerpo sumergido en términos del peso del fluido desalojado por el cuerpo.
+Cuando se sumerge un sólido K en un fluido, en cada punto de su superficie aparece una fuerza por unidad de superficie \scriptstyle \mathbf perpendicular a la superficie en ese punto y proporcional a la presión del fluido p en ese punto.
+Si llamamos \scriptstyle \mathbf
+(n_x,n_y,n_z) al vector normal a la superficie del cuerpo podemos escribir la resultante de las fuerzas \scriptstyle \mathbf
+-p\mathbf sencillamente mediante el teorema de Stokes de la divergencia:
+donde la última igualdad se da solo si el fluido es incompresible.
+Otra demostración
+Supongamos un cuerpo de volumen V sumergido en un fluido de densidad \rho, ahora podemos elegir pequeños elementos de área dA, tales que tiendan a ser un punto de la superficie del cuerpo.
+Sobre cada punto (elemento de área) actúa una presión de valor p_i
+p_0+\rho gh_i y una fuerza F_i asociada a ella, tal que F_i
+p_idA=p_0dA+\rho gh_idA
+Todas las fuerzas que están bordeando el cuerpo debido a la presión a un mismo nivel h_i se anulan.
+quedando únicamente fuerzas en dirección hacia abajo y hacia arriba.
+Ahora si tomamos dos puntos de la superficie del cuerpo que estén conectados a través de una vertical tenemos una respectiva fuerza hacia abajo F_ y otra hacia arriba F_ y por ende una respectiva resultante F_= F_ - F_
+:F_
+p_0dA+\rho gh_dA - p_0dA-\rho gh_dA
+\rho g (h_-h_)dA
+Donde la parte (h_-h_)dA es un pequeño elemento de volumen del cuerpo, dV_i.
+Por lo tanto, F_ se puede reescribir como:
+:F_= \rho gdV_i
+Ahora, el empuje E viene a ser la fuerza neta F_n=\sum F_
+F_n
+\sum \rho gdV_i = \rho g\sum dV_i
+Donde la suma de todos los pequeños elementos de volumen del cuerpo, \sum dV_i, resulta ser el volumen total del cuerpo sumergido
+, es decir, \sum dV_i = V
+Por lo tanto se llega a:
+:E= \rho gV
+Es decir, el empuje es proporcional al volumen del líquido desplazado por el cuerpo, es decir proporcional al volumen del cuerpo sumergido.
+Sabiendo que m_= \rho V, reemplazando se obtiene:
+:E= m_g
+Es decir, el empuje es igual al peso del líquido desplazado.
+Con esto queda demostrado el principio de Arquímedes.
+Prisma recto
+Para un prisma recto de base Ab y altura H, sumergido en posición totalmente vertical, la demostración anterior es realmente elemental.
+Por la configuración del prisma dentro del fluido las presiones sobre el área lateral solo producen empujes horizontales que además se anulan entre sí y no contribuyen a sustentarlo.
+Para las caras superior e inferior, puesto que todos sus puntos están sumergidos a la misma profundidad, la presión es constante y podemos usar la relación Fuerza = presión x Área, y teniendo en cuenta la resultante sobre la cara superior e inferior, tenemos:
+donde p_ es la presión aplicada sobre la cara inferior del cuerpo, p_ es la presión aplicada sobre la cara superior y A es el área proyectada del cuerpo.
+Teniendo en cuenta la ecuación general de la hidrostática, que establece que la presión en un fluido en reposo aumenta proporcionalmente con la profundidad:
+Introduciendo en el último término el volumen del cuerpo y multiplicando por la densidad del fluido ρf vemos que la fuerza vertical ascendente FV es precisamente el peso del fluido desalojado.
+El empuje o fuerza que ejerce el líquido sobre un cuerpo, en forma vertical y ascendente, cuando este se halla sumergido, resulta ser también la diferencia entre el peso que tiene el cuerpo suspendido en el aire y el "peso" que tiene el mismo cuando se lo introduce en un líquido.
+A este último se lo conoce como peso "aparente" del cuerpo, pues su peso en el líquido disminuye "aparentemente"; la fuerza que ejerce la Tierra sobre el cuerpo permanece constante, pero el cuerpo, a su vez, recibe una fuerza hacia arriba que disminuye la resultante vertical.
+donde P_ es el peso del cuerpo en el aire y P_ es el peso del cuerpo sumergido en el líquido.
+Notas

@@ -1,0 +1,13 @@
+Et voici un autre programme pour un jeu de Console (Terminal) nommé + ou - :
+TextWindow.
+Write("Bienvenue sur le jeu du + ou -, entrez un nombre : ")'On demande à l'utilisateur d'entrer un nombrenum=TextWindow.
+ReadNumber()multi=num+10*2TextWindow.
+WriteLine("Entrez un autre nombre, l'ordinateur vous indiquera s'il est plus grand ou plus petit que le nombre mystère : ")start:'"Start" est une marque (un repère)num2=TextWindow.
+ReadNumber()'L'utilisateur entre un autre nombreIf(num2>multi)ThenTextWindow.
+WriteLine("c'est -")'Si le nombre est supérieur à "multi" alors c'est -TextWindow.
+Write(" Réessayez : ")GotostartEndIfIf(num2<multi)ThenTextWindow.
+WriteLine("c'est +")'Si le nombre est inférieur à "multi" alors c'est +TextWindow.
+Write(" Réessayez : ")GotostartEndIfIf(num2=multi)ThenTextWindow.
+WriteLine("c'est exact !")'S'il est égal alors c'est exactGotoendEndIfend:TextWindow.
+WriteLine("Le
+nombre mystère était "+multi+", aurevoir !")'On ferme le programme avec un aurevoir

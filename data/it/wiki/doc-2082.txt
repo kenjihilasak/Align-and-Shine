@@ -1,0 +1,64 @@
+Laccelerazione di gravità (o accelerazione gravitazionale) è l'accelerazione che un corpo subisce quando è lasciato libero di muoversi in caduta libera in un campo di gravità.
+Accelerazione di gravità sulla superficie terrestre
+L'accelerazione gravitazionale si indica con la lettera g e la sua unità di misura è il metro al secondo quadrato.
+Sulla superficie terrestre il valore esatto di g varia a seconda del luogo, in particolare della latitudine e dell'altitudine:
+per questo motivo è stato anche introdotto un valore convenzionale per g, pari a 9,80665 m/s², dalla terza CGPM nel 1901.
+Si tratta di un valore medio che approssima il valore dell'accelerazione di gravità presente al livello del mare a una latitudine di 45,5°.
+Tale valore viene a volte rappresentato con g0, quando g viene invece usato per rappresentare l'effettiva accelerazione di gravità locale.
+L'accelerazione di gravità g è talvolta usata come unità di misura non-SI.
+Il simbolo è scritto g minuscolo per distinguerlo dalla costante gravitazionale G che compare nella equazione di Newton e fu calcolata per la prima volta da Henry Cavendish.
+Variazioni della gravità terrestre
+L'effettiva accelerazione che la Terra produce su un corpo in caduta varia al variare del luogo in cui questa è misurata.
+Il valore dell'accelerazione aumenta con la latitudine per due ragioni:
+* la rotazione della Terra, che produce una forza centrifuga che si oppone all'attrazione gravitazionale;
+questo effetto da solo fa sì che l'accelerazione di gravità sia 9,823 m s² all'equatore (il valore convenzionale di g, pari a 9,80665 m/s² di cui sopra, è una media di questi due valori);
+* lo schiacciamento della Terra ai poli, che allontana ulteriormente dal centro della Terra ogni corpo che si trova alle basse latitudini facendo sì che la forza di gravità che agisce su di esso sia leggermente inferiore, dato che è inversamente proporzionale al quadrato della distanza tra i baricentri del corpo e della Terra.
+La combinazione di questi due effetti rende il valore di g misurato ai poli circa lo 0,5% più grande di quello misurato all'equatore.
+Il valore di g cui è sottoposto un corpo che si trova in aria ad altezza h sul livello del mare è calcolabile come:
+g = 97803184 \left ( 1+A \;
+\mathrm^2 L - B \;
+\mathrm^2 2L \right) -3086 \times 10^h
+dove:
+L'ultimo termine, h è una correzione dovuta all'altezza.
+Se il corpo è sulla verticale della terraferma, viene aggiunta un'ulteriore correzione dovuta alla maggiore massa di un volume di terra rispetto all'acqua;
+tale maggiore massa può essere approssimata con una superficie orizzontale infinita dando luogo a un fattore di correzione (la correzione di Bouguer, si veda Anomalia di Bouguer) pari a 2πG volte la massa per unità di area, ovvero m³ s−2 kg−1.
+La gravità al di sotto della superficie terrestre viene invece calcolata sottraendo dalla massa totale della Terra la massa del guscio esterno al punto di misurazione.
+La forza di gravità diminuisce progressivamente all'aumentare della profondità e al centro della Terra è zero perché l'intera massa del pianeta attira il corpo in tutte le direzioni attorno a esso.
+Anche variazioni locali nella composizione delle rocce e delle superfici possono alterare localmente l'accelerazione di gravità;
+queste anomalie sono generalmente misurate e mappate.
+Calcolo del valore di g
+A partire dalla legge della gravitazione universale, g è il prodotto di alcuni termini che vi compaiono,
+ovvero
+G \;
+\frac
+\left (G \;
+\frac\right) m_2
+g = G \frac
+Inserendo quindi i valori di G, della massa e del raggio della Terra si ottiene
+G \frac
+\left (66742 \times 10^ \ \mathrm \right) \frac = 9822 \ \mathrm
+che è una buona approssimazione del valore medio di g. Le differenze sono ascrivibili a diversi fattori:
+* la Terra non è una sfera perfetta - viene considerato un valore medio del suo raggio
+* il calcolo non tiene conto dell'effetto centrifugo dovuto alla rotazione del pianeta
+Si può calcolare anche usando il pendolo (a patto che l'angolo d'oscillazione considerato sia piccolo).
+In questo caso bisogna usare la formula:
+g=l \frac
+dove:
+Applicazioni
+L'unità di misura g (conosciuta come Forza g) è principalmente impiegata in campo aerospaziale per esprimere le accelerazioni alle quali sono sottoposti i velivoli, i veicoli spaziali e gli eventuali passeggeri.
+L'unità di misura g è usata anche in campo automobilistico per esprimere le accelerazioni che agiscono sul veicolo in curva, accelerazione, frenata e per l'analisi delle collisioni.
+La costante di accelerazione gravitazionale terrestre trova inoltre grande impiego dal punto di vista fisico nello studio dei comportamenti dei corpi sottoposti a certe condizioni (es. statica, dinamica, ecc..)
+Fattore di carico
+Con l'espressione colloquiale forza g utilizzata in aeronautica (spesso erroneamente scritta forza G), ci si riferisce al fattore di carico lungo l'asse verticale di un aeromobile, unità di misura delle accelerazioni a cui astronauti e piloti sono soggetti, moltiplicato per l'accelerazione di gravità terrestre, con simbolo appunto g.
+In realtà, quindi, la cosiddetta forza g non è una forza, ma un'accelerazione:
+in questo contesto, quando ci si riferisce a "1 g" si indica un'accelerazione pari all'accelerazione di gravità media misurata sulla Terra, che vale 9,80665 m/s².
+Una persona mediamente riesce a sopportare accelerazioni verticali di circa 5 g positivi e 2÷3 g negativi.
+Per g positivo si intende una accelerazione che produce lo stesso effetto soggettivo causato dalla gravità terrestre su un soggetto in posizione eretta;
+questo effetto è prodotto da una accelerazione nel senso che va dai piedi verso la testa, quindi di senso contrario alla forza di gravità cui si è soggetti stando in piedi.
+Per g negativi si intendono accelerazioni ed effetti soggettivi di senso inverso.
+I g positivi, quindi, causano il deflusso del sangue dalla testa verso i piedi, i negativi viceversa.
+Si calcola che un'accelerazione di 5 g, se prolungata per vari secondi, provochi perdita di conoscenza e valori superiori possono danneggiare il corpo umano anche mortalmente, se non adeguatamente protetto.
+Con la combinazione di speciali tute anti-g e di forze applicate ai muscoli per tenerli in tensione, entrambi con lo scopo di ridurre il deflusso sanguigno dal cervello, i piloti moderni possono sopportare oltre 10 g positivi il campo visivo diventa rosso, a causa del maggiore apporto di sangue nei capillari nei globi oculari dovuta all'aumento della pressione sanguigna.
+La forza g non va confusa con la costante di gravitazione universale, indicata con "G", né con l'accelerazione di gravità sulla superficie terrestre:
+non va confusa in generale con una forza, essendo una accelerazione (sebbene, nei casi sia una accelerazione relativa al riferimento considerato, determina una forza fittizia, es. l'accelerazione centrifuga).
+Note

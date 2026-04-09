@@ -1,0 +1,28 @@
+Sistema binario
+Es un sistema posicional: los enteros se escriben de 0 y 1, pero la importancia del 1 depende de la posición del número: el número 1 puede representar uno, dos, cuatro, ocho, dieciséis.
+El número cero se escribe como 0;
+El número uno se escribe como 1;
+El número dos se escribe
+El número tres se escribe como 11;
+En términos generales, para "traducir" en sistema decimal un entero escrito en sistema binario, procedemos de la siguiente manera:
+Se escriben debajo de cada cifra las potencias crecientes de 2, partiendo de la derecha; 20, 2 1, 2 2, 2 3...
+Se suman las potencias de 2 escritas bajo las cifras 1.
+Se divide el número del sistema decimal entre 2, cuyo resultado entero se vuelve a dividir entre 2, y así sucesivamente hasta que el dividendo sea menor que el divisor, 2.
+Es decir, cuando el número a dividir sea 1 finaliza la división.
+A continuación se ordenan los restos empezando desde el último al primero, simplemente se colocan en orden inverso a como aparecen en la división, se les da la vuelta.
+Éste será el número binario que buscamos.
+Ejemplo: Transformar el número decimal 131 en binario.
+El método es muy simple:
+131dividido entre 2 da 65 y el resto es igual a 165dividido entre 2 da 32 y el resto es igual a 132dividido entre 2 da 16 y el resto es igual a 016dividido entre 2 da 8 y el resto es igual a 08dividido entre 2 da 4 y el resto es igual a 04dividido entre 2 da 2 y el resto es igual a 02dividido entre 2 da 1 y el resto es igual a 01dividido entre 2 da 0 y el resto es igual a
+-> Ordenamos los restos, del último al primero
+: 10000011
+En sistema binario, 131 se escribe 10000011
+Ejemplo: Transformar el número decimal 100 en binario.
+La ventaja de este sistema binario es que las tablas de adición y multiplicación son muy simples.
+Las CPUs de las computadoras comprenden solamente el lenguaje binario.
+La corriente eléctrica pasa (1) o no pasa (0).
+Sin embargo, es fácil pasar de una base a otra.
+Por ejemplo, 0 en base 2 es 0, 1 en base 2 es 1, 2 en la base 2 es 10 y 3 en base 2 es 11.
+También se puede pasar de base 2 a base 10.
+Incluso podemos hacer coincidir una letra del alfabeto con un número binario utilizando la tabla de códigos ASCII, que fue aceptada por todo el mundo.
+Por eso se puede escribir en una computadora: las letras se transforman en números binarios según la correspondencia con el número binario del código ASCII, que la computadora sí puede entender.

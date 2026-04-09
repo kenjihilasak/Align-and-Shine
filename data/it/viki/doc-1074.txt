@@ -1,0 +1,99 @@
+Sistema operativo
+Il sistema operativo è la parte del pc che si occupa di gestire le periferiche hardware e di fare da intermediario tra l'utente e la macchina, così da poter garantire all'utente un modo facile e veloce per utilizzare il computer, senza avere un'ampia conoscenza del linguaggio di programmazione.
+Il sistema operativo (SO) è formato da 6 strati strettamente in relazione tra di loro, infatti ogni strato superiore si serve di quello inferiore per lavorare al meglio.
+Questo schema gerarchico di livelli viene chiamato onion skin o buccia di cipolla perché infatti questo schema di livelli ricorda una cipolla.
+I 6 livelli sono:
+Nucleo (o kernel)
+Gestore della memoria
+Gestore delle periferiche
+Il nucleo è la parte più importate dell'intero SO perché gestisce la CPU (il processore).
+Riordina i file in esecuzione ed assegna ad ogni programma un processo.
+Mentre un programma è la lista delle azioni che un programma deve fare mentre è in esecuzione un processo è la "strada" che il computer deve fare per arrivare al programma ed avviarlo, perciò mentre un programma è un'entità statica un processo è un'entità dinamica.
+I computer che possono eseguire più programmi contemporaneamente vengono chiamati multiprogrammati.
+Per poter essere eseguiti, tutti i programmi devono essere caricati nella memoria RAM, ma poiché essa possiede una dimensione limitata non è in grado di contenere contemporaneamente tutti i programmi in esecuzione.
+Per esempio, mentre ascoltiamo un CD di musica contenente 10 tracce, non è necessario caricarle tutte e 10 nella memoria RAM, basta caricare quella che si sta ascoltando.
+Il sistema operativo si occupa di frazionare la memoria e i programmi in sezioni chiamate pagine e segmenti effettuando periodicamente il caricamento e lo scaricamento dei programma man mano che viene eseguito oppure termina la sua esecuzione.
+Inoltre, il SO, garantisce sempre ai programmi in esecuzione un'enorme quantità di memoria chiamata memoria virtuale.
+Grazie alla memoria virtuale il SO simula uno spazio di memora maggiore di quello fisicamente presente.
+Questo risultato viene raggiunto utilizzando uno spazio di memoria secondaria su altri dispositivi, solitamente sul disco fisso.
+La memoria secondaria utilizzata a questo scopo è comunemente chiamata file di paging.
+Le operazioni di spostamento delle pagine dalla memoria di massa alla memoria fisica sono chiamate swapping.
+Le periferiche che un SO deve gestire sono costituite da tutti i componenti hardware del calcolatore, sia interni che esterni connessi attraverso delle porte (USB, seriali...):
+tra di esse c'è il mouse, la tastiera, la stampante, il masterizzatore e ancora altri...
+Il SO deve quindi "regolare" l'utilizzo di queste risorse, cioè deve assegnarle ai processi che ne fanno richiesta durante la loro esecuzione.
+Può talvolta succedere che più processi richiedono contemporaneamente una risorsa unica:
+il SO si preoccupa allora di virtualizzare la risorsa rendendola disponibile per ogni processo, definendo dispositivi virtuali che aumentano il numero di periferiche.
+Il SO offre agli utenti la possibilità di aumentare in modo virtuale il numero delle periferiche stesse attraverso lo spooling:
+il termine deriva dall'acronimo SPOOL (Simultaneous Peripherical Operation On Line) che indica un meccanismo che consente a diversi processi l'uso contemporaneo della stessa periferica.
+Un caso è quello in cui una sola stampante è collegata al PC e più processi mandano in stampa dei documenti:
+il SO risolve le richieste contemporanee generando gli output dapprima sul disco (file di spool) in aree riservate ai vari utenti, poi lanciandoli in stampa uno alla volta.
+Il file system provvede alla gestione di tutto quanto deve essere archiviato sulle memorie di massa:
+ogni "elemento" che viene registrato su memoria di massa prende il nome di file.
+Il file system consente sia all'utente che al programmatore di riferirsi ai file attraverso un nome simbolico di identificazione e di organizzare i file in cartelle (directory) e in strutture gerarchiche.
+Il file system deve:
+gestire in modo ottimale lo spazio disponibile della memoria di massa per le registrazioni richieste dagli utenti
+garantire all'utente l'accesso ai dati contenuti in un file, in modo molto veloce, anche in presenza di richieste di accesso dello stesso file da parte di più utenti
+fornire agli utenti meccanismi di protezione dei file a diversi livelli rispetto a interventi dannosi o non autorizzati da parte di altri utenti
+rendere disponibili in modo semplice le operazioni io uso comune sui file, quali la copia di un file, la cancellazione, il cambio del nome, l'elenco dei file presenti sul supporto di memoria di massa, la visualizzazione delle informazioni contenute in un file.
+Un disco viene fisicamente suddiviso in tracce e settori, quindi un insieme di tracce formeranno un cluster .
+Ogni file occupa un numero di blocchi che gli vengono assegnati dal SO (allocazione dei cluster) non necessariamente contigui tra loro;
+sempre il SO deve mantenere una tabella dove segna quali sono i blocchi liberi e quali quelli occupati per poterli assegnare alle nuove richieste.
+L'espressione interfaccia utente (o shell) indica quelle parti che frappongono tra la macchina e l'utente, permettendo a quest'ultimo di dialogare con la macchina, permettendogli di poter gestire le funzionalità di un sistema.
+L'interfaccia utente può essere di tipo CUI (Command User Interface) o GUI (Graphical User Interface).
+Le interfacce di tipo CUI sono tipiche dei sistemi operativi a linea di comando, per esempio MS-DOS o Unix, quelle di tipo GUI sono utilizzate nei sistemi operativi "friendly user", per esempio Windows, MacOS o Linux.
+Solitamente, quando si acquista un computer nuovo, il sistema operativo è già presente sul disco fisso.
+Per poterlo usare, è necessario che esso venga trasferito dal disco fisso alla memoria RAM.
+Questa face prende il nome di bootstrap e avviene automaticamente quando si accende il computer;
+può durare da pochi secondi ad alcuni minuti, a seconda delle caratteristiche del sistema operativo.
+Durante la fase di bootstrap appare una schermata di attesa.
+Spesso la fase si conclude con l'identificazione dell'utente che accede al computer, che avviene mediante una fase di login, nella quale l'utente deve indicare il nome e la password necessari per accedere alle varie funzioni del sistema operativo.
+Ogni utente può accedere in tal modo soltanto ai propri dati, senza doverli condividere con gli altri utenti dello stesso computer:
+ciò garantisce una maggiore protezione e sicurezza dei dati stessi.
+Affiché il SO sia presente sul disco fisso è necessaria una fase preliminare di installazione, che nella maggior parte dei casi viene effettuata dalla casa produttrice del computer.
+Tale operazione può comunque essere ripetuta in caso di guasti o malfunzionamenti.
+È inoltre necessario aggiornare periodicamente il sistema operativo attraverso programmi appositi chiamati service pack.
+L'installazione può essere effettuata anche per far coesistere sullo stesso computer sistemi operativi di tipo diverso, dopo aver effettuato una partizione del disco fisso.
+Questa operazione permetterà all'utente di scegliere volta per volta, quando il computer si accende, quale sistema operativo usare.
+Teli sistemi prendono il nome di dual boot o, più in generale, multi boot
+Sul mercato sono disponibili diversi SO;
+la scelta di quello più idoneo avviene tenendo conto delle esigenze dell'utente e del campo di applicazione.
+Alcuni sono infatti idonei a gestire reti di computer, altri invece sono più adatti per essere usati nel campo della grafica, altri ancora offrono maggiori garanzie di funzionamento in caso di guasti del sistema.
+I SO più adatti per la gestione delle reti sono Linux e Windows nella versione server, per la sicurezza dei dati Unix, per la grafica MacOSX e infine Windows e Android.
+Un'altra suddivisione dei SO tiene conto del tipo di computer sul quale devono essere installati.
+Ad esempio Unix e un SO adatto per computer molto potenti di tipo mini e mainframe
+, mentre Windows, Linux e MacOS vengono installati sui personal computer.
+Il primo SO idoneo a essere utilizzato sui personal computer è stato l'MS-DOS (Microsoft Disk Operative System), in seguito chiamato semplicemente DOS.
+Aveva il pregio di occupare poca memoria RAM ma lo svantaggio di richiedere conoscenze tecniche abbastanza approfondite da parte dell'utente.
+Aveva inoltre un'interfaccia di tipo testuale a riga di comando.
+Ciò inoltre comportava che ciascun comando impartito doveva essere digitato sulla tastiera, costringendo l'utente a una conoscenza dettagliata del linguaggio di tale sistema.
+Per attivare il sistema operativo DOS da windows si può aprire il Prompt dei comandi aprendo il programma cmd.exe.
+L'evoluzione di questo software è senza dubbio Windows prodotto nei primi anni Novanta e attualmente il SO più diffuso al mondo.
+Per tenere passo dei continui progressi nel campo dell'elettronica, ogni due o tre anni circa escono nuove versioni di questo SO.
+Il sistema operativo svolge un duplice compito:
+gestore delle risorse e interfaccia per l'utente.
+Il SO è formato da un insieme di programmi organizzati tra loro in modo tale che ciascuno di essi si occupi di un compito preciso, secondo lo schema onion skin.
+Secondo lo schema a buccia di cipolla vengono individuati i seguenti livelli:
+1°: nucleo (kernel), 2°: gestore della memoria centrale, 3°: gestore delle periferiche, 4°:
+file system, 5°:
+interfaccia utente, 6°:
+programmi applicativi.
+L'interfaccia utente si frappone tra la macchina e l'utente, consente all'utente di comunicare con l'hardware.
+L'interfaccia utente può essere di tipo CUI o GUI.
+I SO CUI sono:
+DOS e UNIX e alcune versioni di Linux.
+Mentre i SO GUI sono i più diffusi: Windows, Linux nella maggior parte delle distibuzioni e MacOS.
+Il bootstrap è la fase di caricamento dei file necessari all'utilizzo dei SO dalla memoria di massa alla memoria RAM.
+I SO multitasking consentono l'utilizzo di più applicazioni aperte contemporaneamente in memoria.
+↑Virtualizzare significa presentare all'utente una visione delle risorse del sistema diversa da quella reale.
+Si ottiene introducendo un livello di indirezione tra la vista logia e quella fisica delle risorse.
+↑Con il termine cluster si intende l'unità minima di allocazione, ovvero la quantità minima di spazio su disco allocabile per contenere un file;
+esso dipende dalla dimensione del disco fisso.
+Minore è la dimensione del cluster, maggiore sarà l'efficienza con cui le informazioni verranno memorizzate sul disco
+↑Il termine bootstrap deriva dall'espressione inglese "pulling yourself up by your bootstraps" che significa "avere successo senza l'aiuto di nessuno".
+In informatica il termine indica la fase iniziale dell'avvio del computer.
+All'accensione del computer il software presente nella memoria RAM esegue una diagnosi del sistema chiamato POST, e successivamente carica nella memoria RAM il sistema operativo.
+↑La password è una parola segreta che viene immessa per proteggere l'accesso a determinati documenti, applicazioni o ambienti e che viene usata come una chiave:
+chi non la conosce rimane chiuso fuori.
+Mentre si digitano le lettere o i numeri nella casella apposita, il sistema visualizza soltanto una sequenza di asterischi o pallini neri, per impedire che la password venga letta.
+↑La versione è molto spesso rappresentata da un numero che accompagna il nome di un programma per identificare l'eventuale aggiornamento.
+Il numero può andare da 1 a 10, oppure indicare l'anno di uscita del programma.

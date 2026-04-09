@@ -1,0 +1,27 @@
+Programmation informatique
+traduit littéralement en français par )
+sont les mots traditionnellement écrits par un programme informatique simple dont le but est de faire la démonstration rapide de son exécution sans erreur.
+Certains des programmes imprimant ces mots sont étonnamment complexes, particulièrement dans un contexte d’interface graphique.
+D’autres sont très simples, particulièrement ceux qui utilisent un interpréteur de ligne de commande pour afficher le résultat.
+Dans plusieurs systèmes embarqués, le texte peut être envoyé sur une ou deux lignes d’un afficheur LCD (ou dans d’autres systèmes, une simple DEL peut se substituer à un ).
+Histoire
+Alors que les petits programmes de test existaient depuis le début de la programmation, la tradition d’utiliser comme message de test a été initiée par le livre de Brian Kernighan et Dennis Ritchie.
+Le premier exemple de ce livre affiche (sans majuscule ni point final, mais avec une virgule et un retour à la ligne terminal).
+Le premier dont Kernighan et Ritchie se souviennent, provient d’un manuel d’apprentissage du langage B écrit par Kernighan.
+Le PDP-11 16 bits
+- l’un des ordinateurs les plus populaires de l’époque
+- contribua à la diffusion de l’expression, les usagers se procurant l'ouvrage The C Programming Language pour apprendre à utiliser la machine.
+Dans une interview à l'édition indienne du magazine Forbes, Brian Kernighan explique que cette phrase provient d'un dessin animé qu'il avait vu, où un poussin sortait de son œuf en disant .
+Au , les programmes affichent plus souvent comme une phrase, avec majuscule et point d’exclamation final.
+Utilité
+De manière plus large, c'est le programme le plus simple qu'on essaie de faire fonctionner lorsqu'on apprend un nouveau langage de programmation (par exemple à but pédagogique), mais aussi lorsqu'on met au point ou qu'on met en œuvre des composants logiciels dans une situation donnée.
+Il peut par exemple permettre au développeur spécialiste en langages de programmation de tester le compilateur ou l'interpréteur du langage dans lequel il est écrit, mais aussi à tout développeur de tester l'intégration de différentes technologies logicielles dans un contexte particulier.
+Par exemple l'exécution réussie du programme en JavaScript à l'aide de V8Js au sein d'un programme PHP permettant l'exécution de code JavaScript Server-side donnera au développeur la preuve qu'il a mis en œuvre avec succès l'intégration de toute cette pile de technologies dans son contexte spécifique (par exemple versions spécifiques de Serveur web, de PHP, de navigateur, ou de tout autre composant logiciel impliqué dans la transaction complète)
+Programmes Hello world!
+GNU Hello
+La mise en œuvre GNU est sensiblement plus complexe que l’algorithme de base décrit par Kernighan et Ritchie.
+Elle fait ici figure d’exemple canonique pour l’empaquetage d’un programme GNU, et va jusqu’à servir de modèle aux normes de codage GNU ainsi qu’aux pratiques en vigueur au sein du projet.
+Il s’agit du fameux programme qui affiche : cinq lignes de C, empaquetées comme s’il s’agissait d’une distribution GNU.
+Par conséquent, il contient toute l’information relative à Texinfo et à Configure.
+Et tout le reste des rouages d’ingénierie logicielle que le projet GNU a inventés pour permettre le portage aisé vers les autres environnements.
+C’est un travail extrêmement important, et ça n’affecte pas seulement les logiciels de Stallman, mais aussi tous les autres logiciels du projet GNU.

@@ -1,0 +1,129 @@
+En matemáticas, un número natural es cualquiera de los números que se usan para contar los elementos de ciertos conjuntos, como también en operaciones elementales de cálculo.
+Son aquellos números naturales que sirven para contar elementos por lo que son enteros por ejemplo: 1,2,3,4,5,6,7,8,9...
+Por definición convencional se dirá que cualquier miembro del siguiente conjunto, ℕ = , es un número natural.
+por lo que el conjunto de los números naturales es ordenado e infinito.
+El conjunto de todos los números naturales iguales o menores que cierto número natural k , es decir, el conjunto \, se llama segmento de una sucesión natural y se denota |1,ko bien k. y otras, como la teoría de la computación.
+Sin embargo, en la actualidad ambos convenios conviven.
+Para distinguir ambas definiciones a veces se introducen símbolos distintos.
+Por ejemplo, si no se incluye el cero en los naturales, al conjunto de los números naturales sin el cero se lo llama conjunto de los enteros positivos y se lo denota como .
+Alternativamente también se utiliza .
+Por el contrario, cuando el 0 se considera un número natural (cosa que es conveniente, por ejemplo, en divisibilidad y teoría de números), al conjunto de los naturales con el cero se lo llama conjunto de los números cardinales y se lo denota .
+Historia
+Antes de que surgieran los números naturales para la representación de cantidades, el hombre usó otros métodos para contar, utilizando para ello objetos como piedras, palitos de madera, nudos de cuerdas, o simplemente los dedos (ver sistema de numeración unario).
+Más adelante comenzaron a aparecer los símbolos gráficos como señales para contar, por ejemplo marcas en una vara o simplemente trazos específicos sobre la arena (véase hueso de Ishango).
+Pero fue en Mesopotamia alrededor del año 4000 a. C. donde aparecen los primeros vestigios de los números que consistieron en grabados de señales en forma de cuñas sobre pequeños tableros de arcilla empleando para ello un palito aguzado.
+De aquí el nombre de escritura cuneiforme.
+Este sistema de numeración fue adoptado más tarde, aunque con símbolos gráficos diferentes, en la Grecia Antigua y en la Antigua Roma.
+En la Grecia antigua se empleaban simplemente las letras de su alfabeto, mientras que en la antigua Roma, además de las letras, se utilizaron algunos símbolos.
+Quien colocó al conjunto de los números naturales sobre lo que comenzaba a ser una base sólida,fue Richard Dedekind en el siglo XIX.
+Este los derivó de una serie de postulados (lo que implicaba que la existencia del conjunto de números naturales se daba por cierta), que después precisó Peano dentro de una lógica de segundo orden, resultando así los famosos cinco postulados que llevan su nombre.
+Frege fue superior a ambos, demostrando la existencia del sistema de números naturales partiendo de principios más fuertes.
+Lamentablemente la teoría de Frege perdió, por así decirlo, su credibilidad, y hubo que buscar un nuevo método.
+Fue Zermelo quien demostró la existencia del conjunto de números naturales, dentro de su teoría de conjuntos y principalmente mediante el uso del axioma de infinitud, que, con una modificación de este hecha por Adolf Fraenkel, permite construir el conjunto de números naturales como ordinales según von Neumann.
+Algunas características de los números naturales son:
+# Todo número mayor que 1 (o mayor que 0 en caso de considerar el 0 como natural) va después de otro número natural.
+# Entre dos números naturales
+siempre hay un número finito de naturales (interpretación de conjunto no denso).
+# Dado
+un número natural cualquiera, siempre existe otro natural mayor que este (interpretación de conjunto infinito).
+# Entre el número natural
+a y su sucesor a+1 no existe ningún número natural.
+Construcciones axiomáticas
+Históricamente, se han realizado propuestas para axiomatizar la noción habitual de números naturales, de entre las que destacan las de Peano y la construcción a partir de la teoría de conjuntos.
+Axiomas de Peano
+* Si n es un número natural, entonces el sucesor de n también es un número natural.
+Si hay dos números naturales n y m con el mismo sucesor, entonces n y m son el mismo número natural.
+* Si el 1 pertenece a un conjunto de números A, y además siempre se verifica que: dado un número natural cualquiera que esté en A, su sucesor también pertenece a A; entonces A contiene al conjunto de todos los números naturales.
+Este es el axioma de inducción, que captura la idea de inducción matemática.
+Versión de Bush-Obreanu
+El sistema de Peano ha sido simplificado.
+Definición
+en teoría de conjuntos
+En teoría de conjuntos se define al conjunto de los números naturales como el mínimo conjunto que es inductivo.
+La idea es que se pueda contar haciendo una biyección desde un número natural hasta el conjunto de objetos que se quiere contar.
+Es decir, para dar la definición de número 2, se requiere dar un ejemplo de un conjunto que contenga precisamente dos elementos.
+Esta definición fue proporcionada por Bertrand Russell, y más tarde simplificada por Von Neumann quien propuso que el candidato para 2 fuera el conjunto que contiene solo a 1 y a 0.
+Formalmente, un conjunto se dice que es un número natural si cumple
+# Para cada ,
+# La relación es un orden total estricto en
+# Todo subconjunto no vacío de tiene elementos mínimo y máximo
+en el orden
+Se intenta pues, definir un conjunto de números naturales donde cada elemento respete las convenciones anteriores.
+Primero se busca un conjunto que sea el representante del , lo cual es fácil ya que sabemos que no contiene elementos.
+Luego se definen los siguientes elementos de una manera ingeniosa con el uso del concepto de sucesor.
+Se define -según Halmos- entonces que el conjunto vacío es un número natural que se denota por y que cada número natural tiene un sucesor denotado como .
+Estas ideas quedan formalizadas mediante las siguientes expresiones:
+De esta manera, cada elemento de algún número natural es un número natural; a saber, un antecesor de él.
+Por ejemplo:
+* Por definición (lo cual refuerza el hecho de que no tiene antecesores)
+Esto permite establecer una relación de orden entre los elementos del conjunto a pesar de que un conjunto es por naturaleza un agregado de elementos desordenados.
+Se define esta relación mediante la expresión:
+es decir que un número es menor o igual que si y solo si contiene a todos los elementos de .
+También se puede usar otra definición más inmediata a partir del hecho de que cada número natural consta de sus antecesores.
+Así si y solo si .
+Esa es la construcción formal de los naturales que garantiza su existencia como conjunto a la luz del desarrollo axiomático Zermelo-Fraenkel.
+El postulado de los conjuntos infinitos asegura la validez de la técnica de demostración conocida como inducción matemática.
+Un teorema demuestra que cualquier conjunto que sea inductivo contiene a todos los números naturales, es decir que si es un conjunto inductivo, entonces .
+Esto significa que, en efecto, es el mínimo conjunto inductivo.
+Se define la suma por inducción mediante:
+Lo que convierte a los números naturales en un monoide conmutativo con elemento neutro 0, el llamado Monoide Libre con un generador.
+Este monoide satisface la propiedad cancelativa y por lo tanto puede incluirse en un grupo matemático.
+El menor grupo que contiene a los naturales es el de los números enteros.
+De manera análoga, la multiplicación × se define mediante las expresiones:
+Esto convierte (esto es, ℕ con esta nueva operación), en un monoide conmutativo.
+Otra forma de construcción de es la siguiente:
+Sea ℱ la clase de todos los conjuntos y definiremos una relación binaria "ser equipotente" de la siguiente manera:
+Dados y se dice que A R B ↔ Existe una aplicación biyectiva de sobre , es decir, existe biyectiva.
+Claramente se puede demostrar que esta relación verifica las propiedades reflexiva, simétrica y transitiva luego es una relación de equivalencia al conjunto cociente los llamaremos cardinales y a los cardinales finitos se les llamará números naturales.
+Las operaciones de suma y producto de cardinales se definen como el cardinal de la unión y el producto cartesiano de los conjuntos representantes y verifica todas las propiedades para que sea un semianillo conmutativo y unitario.
+Operaciones con los números naturales
+Las operaciones matemáticas que se definen en el conjunto de los números naturales son la suma , la multiplicacióny la división.
+La suma y la multiplicación de números naturales son operaciones conmutativas y asociativas, es decir:
+* El orden de los números no altera el resultado (propiedad conmutativa), , y .
+* Para sumar -o multiplicar- tres o más números naturales, no hace falta agrupar los números de una manera específica ya que (propiedad asociativa).
+Esto es lo que da sentido a expresiones como .
+Al construir la operación de multiplicación de números naturales, se puede observar claramente que la adición o suma y la multiplicación son operaciones compatibles, pues la multiplicación sería una adición de cantidades iguales y gracias a esta compatibilidad se puede desarrollar la propiedad distributiva, que se expresa de la forma:
+Aparte, estas dos operaciones cumplen con las propiedades de:
+* Clausura de ambas operaciones para todos los números naturales y , ya que y son siempre números naturales.
+* Existencia de elementos neutros para ambas operaciones, es decir, para cada número , y .
+* No existencia de divisores de cero para la operación de multiplicación: si y son números naturales tales que , entonces o .
+Propiedades de los números naturales
+Los números naturales están totalmente ordenados.
+La relación de orden se puede redefinir así: si y solo si existe otro número natural que cumple .
+Este orden es compatible con todas las operaciones aritméticas puesto que si , y son números naturales y , entonces se cumple:
+Una propiedad importante del conjunto de los números naturales es que es un conjunto bien ordenado
+# Para cualquier elemento de existe en tal que
+En los números naturales existe el algoritmo de la división.
+Dados dos números naturales y , si , podemos encontrar otros dos números naturales y , denominados cociente y resto respectivamente, tales que:
+Los números y están unívocamente determinados por y .
+Otras propiedades más complejas de los números naturales, como la distribución de los números primos por ejemplo, son estudiadas por la teoría de números.
+;Relación de orden
+La relación sucesor le da una estructura de orden.
+Conceptos globales y de estructura
+* Algebraicamente, el conjunto es un semigrupo aditivo asociativo con elemento neutro y semigrupo multiplicativo asociativo con elemento neutro .
+Uso de los números naturales
+Los números naturales, son usados para dos propósitos fundamentalmente: para describir la posición de un elemento en una secuencia ordenada, como se generaliza con el concepto de número ordinal, y para especificar el tamaño de un conjunto finito, que a su vez se generaliza en el concepto de número cardinal (teoría de conjuntos).
+En el mundo de lo finito, ambos conceptos son coincidentes: los ordinales finitos son iguales a así como los cardinales finitos.
+Cuando nos movemos más allá de lo finito, ambos conceptos son diferentes.
+* Otro uso de gran importancia, desde el punto de vista matemático, es en la construcción de los números enteros, para lo cual en se establece una relación de equivalencia, para dos pares ordenados de :
+Sustracción o resta con números naturales
+Asúmase que y sea , sea una aplicación de en , tal que , donde están en y está en .
+A la aplicación de sobre se llama sustracción o resta en .
+La diferencia , solo es posible en el caso que .
+Proposiciones
+como , hace el papel de elemento neutro por la derecha.
+Si se da , existe una infinidad de números naturales y tal que ; de modo tal que en la relación define una relación de equivalencia, punto de partida para la construcción del de los números enteros.
+Observación
+Una operación en definen algunos matemáticos como una aplicación de en .
+Si se acepta esto, la sustracción no es una operación en el conjunto de los naturales.
+Si se define una aplicación en , parte propia de , en tal aplicación se llama operación parcialmente definida en .
+Admitido lo anterior, la sustracción es una operación parcialmente definida en los números naturales.
+Topologización de N
+En el conjunto de los naturales cabe la topología discreta y la cofinita, también alguna topología de orden.
+Principio de permanencia
+Es un teorema vinculado al sistema de los números naturales y sus ampliaciones aplicativas.
+Esta proposición expresa que las propiedades de cálculo usuales para los números naturales, también son legítimas para los números estructurados mediante operaciones inversas.
+Como ejemplo: según el principio de permanencia, las propiedades de la potenciación siguen válidas aun en el caso de números con exponentes fraccionarios.
+(ab)5
+a5b5 ⇒ (ab)2 3 b2/3 entre otras leyes de la potenciación.
+Véase también

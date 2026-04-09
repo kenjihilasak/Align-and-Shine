@@ -1,0 +1,79 @@
+Radiodiffusion|Vocabulaire radio propre à la technique
+La radio AM est un procédé de radiodiffusion à partir d'émetteurs utilisant la modulation d'amplitude.
+Ce terme désigne également le récepteur qui permet son écoute.
+La radio AM est utilisée dans les bandes de radiodiffusion GO, PO et OC, où elle permet une couverture plus large que la radio FM, avec une largeur de bande réduite.
+Modulation d'amplitude
+Largeur de bande
+La modulation d'amplitude est la variation en amplitude d'un signal électrique haute fréquence HF modulé par un signal électrique basse fréquence BF, elle se traduit par l'adjonction à la fréquence porteuse HF de deux bandes latérales (supérieure et inférieure) qui transportent le signal audio.
+Ainsi, si on émet un signal audio de 2 kHz sur 765 kHz (émetteur de Sottens en ondes moyennes par exemple), on aura dans le signal :
+* i :
+Bande latérale inférieure (porteuse
+- signal modulant)
+Fréquence : 765+2=767 kHz ;
+* iiPss :
+Forme du signal émis sur un analyseur de spectre.
+Puissance
+Lorsque l'on module une porteuse en amplitude, la puissance émise augmente.
+= P_ (1+\frac)
+où k est le taux de modulation moyen (0 < k < 1).
+Un émetteur de 100 watts (puissance de la porteuse) émettra donc une puissance maximum de 150 W si k = 1 :
+En fonctionnement normal, le taux moyen de modulation est relativement faible.
+Ceci est dû à la nature du signal sonore (paroles, musique), dont le niveau moyen est faible par rapport au niveau maximum.
+Structure d'un émetteur AM
+La figure ci-dessus montre la structure d'un émetteur de radiodiffusion en modulation d'amplitude :
+* la porteuse haute fréquence (par exemple 1 MHz pour une émission en ondes moyennes) est générée par un oscillateur, nommé maître-oscillateur ;
+sa fréquence est stabilisée par un quartz ;
+* le signal de l'oscillateur est amplifié par un ou plusieurs étages (selon la puissance de l'émetteur) travaillant en classe C, de façon à obtenir un bon rendement ;
+* les différentes sources audio, tourne-disques, lecteurs de disques compacts, magnétophones, micros (non-illustrés) sont raccordées chacune à un amplificateur adapté qui corrige les non-linéarités en fréquence éventuelles des transducteurs (cellule du tourne-disques, tête de lecture magnétique...) ;
+* un sommateur permet de combiner les différentes sources, de régler leur intensité, de réaliser des effets (fade in, fade out) ;
+ce bloc est aussi appelé table de mixage ;
+* le signal de sortie du sommateur est appliqué à un ampli audio travaillant en classe A de façon à minimiser les distorsions ;
+* le modulateur est un ampli audio de puissance ;
+il doit être capable de fournir la puissance nécessaire aux bandes latérales, soit au maximum 50 % de la puissance de la porteuse ; afin d'obtenir une bonne linéarité et un rendement honorable, on utilise souvent un amplificateur de type push pull fonctionnant en classe B ou AB ;
+* la porteuse amplifiée et le signal audio amplifié sont appliqués à l'étage final d'amplification, nommé PA (Power Amplifier) travaillant en classe C ;
+la technique la plus répandue est la modulation par l'anode, où le signal RF est appliqué à la grille d'un tube à vide (ou à la base d'un transistor) et le signal audio est superposé au signal d'alimentation Vcc de l'étage final ;
+* le signal de sortie du PA est envoyé à l'antenne, éventuellement à travers une ligne de transmission si émetteur et antenne sont physiquement séparés.
+Bandes utilisées
+En Europe, les radios publiques et commerciales émettent en AM en ondes longues (OL ou GO ou LW de 150 kHz - 281 kHz), moyennes (OM ou PO ou MW de 520 kHz - 1 620 kHz) et courtes (OC ou SW sur 12 bandes de 2 300 kHz à 26 100 kHz).
+En Amérique du Nord, en mode commercial, les stations de radio en modulation d'amplitude émettent dans la bande 530-1710 kHz.
+En Europe, la largeur de canal dans les gammes d'ondes nommées plus haut est de 9 kHz.
+En Amérique du Nord, on utilise des canaux de 10 kHz au lieu de 9 comme en Europe.
+Les fréquences d'émission vont de 530 kHz à 1600 kHz pour la bande standard et de 1610 à 1710 kHz pour la bande X (extended band).
+La seule radio francophone de la bande X est Radio-union, une station radio de faible puissance (1 kW) destinée à la communauté haïtienne de Montréal.
+Il existe aussi des stations AM stéréophoniques qui utilisent une largeur de bande de 12 kHz.
+En Amérique du Nord, la limite en puissance d'une station AM a été limité à 50 kW, une limite bien plus faible qu'en Europe.
+Structure d'un récepteur AM
+Réception et filtrage
+* Antenne:
+La réception est assurée par une antenne, c’est-à-dire par un fil métallique d’une longueur de 1 mètre environ.
+Le signal perçu est complexe car de nombreuses radiations électromagnétiques se propagent dans l’espace: il s’agit d’un mélange de signaux modulés envoyés par les différents émetteurs existants.
+Le dipôle LC parallèle:
+Une antenne réceptrice est sensible aux nombreuses émissions radio existantes.
+Il est donc nécessaire de filtrer les signaux reçus, pour sélectionner la porteuse correspondant à l’émetteur recherché.
+Pour éliminer les parasites et améliorer la réception, on va insérer dans la bobine un batônnet de ferrite qui a une très grande perméabilité magnétique et va ainsi concentrer le champ magnétique.
+Le signal reçu est ainsi multiplié en tension par 8 environ.
+Préamplification
+La tension aux bornes du dipôle LC, apparaissant grâce à l’antenne, étant très faible (quelques dizaines de milliVolts)
+, il est nécessaire d’amplifier cette tension.
+Cette amplification est réalisée en utilisant un montage amplificateur non-inverseur comportant un Amplificateur Opérationnel et deux résistances dont la valeur sera choisie en fonction du facteur d’amplification souhaité.
+Démodulation
+La démodulation d’
+amplitude est l’opération consistant à reconstituer le signal modulant à partir de l’onde modulée en amplitude.
+Voici un exemple.
+Elle s’opère en deux étapes :
+* la détection d’enveloppe: il s’agit d’un montage redresseur simple alternance : la diode bloque les alternances négatives.
+La tension recueillie aux bornes du conducteur ohmique est une tension modulée redressée.
+* l’élimination de la composante continue par filtrage:
+l’opération consiste à ajouter un condensateur en dérivation aux bornes du conducteur ohmique du montage redresseur.
+Amplification et émission sonore
+Cette partie du montage permet d’amplifier le signal démodulé afin qu’il soit audible au moyen d’un haut-parleur.
+Avantages et inconvénients
+La modulation d'amplitude permettrait une qualité de réception similaire à la modulation de fréquence, c'est le cas par exemple sur la sous-porteuse son de télévision, modulée en AM, et même en stéréo.
+Cependant, en radiodiffusion, la largeur du spectre du signal modulé étant le double de la plus haute fréquence présente dans le signal modulant, la bande passante du signal audio de 4,5 kHz au maximum.
+La qualité des émissions en radio AM est donc loin des normes « hifi » vis-à-vis de la bande passante.
+De plus les radio AM sont écoutées à des distances où les distorsions de propagation sont importantes, dégradant également la qualité.
+Ces différents défauts sont éliminés en radio FM : la bande passante suffisante en VHF permet d'affecter 150kHz à chaque émission et les émissions sont écoutées en propagation directe.
+La radio AM n'occupe qu'un spectre limité à deux fois la fréquence maximum présente dans le signal transmis, contrairement à la FM.
+La réception de programmes de qualité est possible jusqu'à des distances de en moyenne fréquence, et permet de diffuser des informations au-delà des océans en bandes HF, (1 à 30Mhz) grâce à la particularité de propagation de ces ondes par réflexion sur les couches ionisées de l'atmosphère.
+Voir aussi
+1kzh1xmoil7hwnsdo4an94mpxd77cz6

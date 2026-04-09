@@ -1,0 +1,171 @@
+Tic-tac-toe (American English), noughts and crosses (British English), or Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid.
+The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+The following example game is won by the first player, X:
+Players soon discover that the best play from both parties leads to a draw.
+Hence, tic-tac-toe is most often played by young children, who often have not yet discovered the optimal strategy.
+Because of the simplicity of tic-tac-toe, it is often used as a pedagogical tool for teaching the concepts of good sportsmanship and the branch of artificial intelligence that deals with the searching of game trees.
+It is straightforward to write a computer program to play tic-tac-toe perfectly or to enumerate the 765 essentially different positions (the state space complexity) or the 26,830 possible games up to rotations and reflections (the game tree complexity) on this space.
+The game can be generalized to an m,n,k-game in which two players alternate placing stones of their own color on an m×n board, with the goal of getting k of their own color in a row.
+Tic-tac-toe is the (3,3,3)-game.
+Harary's generalized tic-tac-toe is an even broader generalization of tic-tac-toe.
+It can also be generalized as a nd game.
+Tic-tac-toe is the game where n equals 3 and d equals 2.
+History
+Games played on three-in-a-row boards can be traced back to ancient Egypt, where such game boards have been found on roofing tiles dating from around 1300 BCE.
+An early variation of tic-tac-toe was played in the Roman Empire, around the first century BC.
+It was called terni lapilli (three pebbles at a time) and instead of having any number of pieces, each player only had three, thus they had to move them around to empty spaces to keep playing.
+The game's grid markings have been found chalked all over Rome.
+Another closely related ancient game is three men's morris which is also played on a simple grid and requires three pieces in a row to finish, and Picaria, a game of the Puebloans.
+The different names of the game are more recent.
+The first print reference to "noughts and crosses" (nought being an alternative word for zero), the British name, appeared in 1858, in an issue of Notes and Queries.
+The first print reference to a game called "tick-tack-toe" occurred in 1884, but referred to "a children's game played on a slate, consisting in trying with the eyes shut to bring the pencil down on one of the numbers of a set, the number hit being scored".
+"Tic-tac-toe" may also derive from "tick-tack", the name of an old version of backgammon first described in 1558.
+The US renaming of "noughts and crosses" as "tic-tac-toe" occurred in the 20th century.
+In 1952, OXO (or Noughts and Crosses), developed by British computer scientist Alexander S. Douglas for the EDSAC computer at the University of Cambridge, became one of the first known video games.
+The computer player could play perfect games of tic-tac-toe against a human opponent.
+It is currently on display at the Museum of Science, Boston.
+Combinatorics
+When considering only the state of the board, and after taking into account board symmetries (i.e. rotations and reflections), there are only 138 terminal board positions.
+A combinatorics study of the game shows that when "X" makes the first move every time, the game is won as follows:
+*3 distinct positions are drawn (often called a "cat's game")
+Strategy
+A player can play a perfect game of tic-tac-toe (to win or at least, draw) if each time it is their turn to play, they choose the first available move from the following list, as used in Newell and Simon's 1972 tic-tac-toe program.
+#Win: If the player has two in a row, they can place a third to get three in a row.
+#Block: If the opponent has two in a row, the player must play the third themselves to block the opponent.
+#Fork: Create an opportunity where the player has two ways to win (two non-blocked lines of 2).
+#Blocking an opponent's fork: If there is only one possible fork for the opponent, the player should block it.
+Otherwise, the player should block all forks in any way that simultaneously allows them to create two in a row.
+Otherwise, the player should create a two in a row to force the opponent into defending, as long as it doesn't result in them creating a fork.
+For example, if "X" has two opposite corners and "O" has the center, "O" must not play a corner in order to win.
+#Center: A player marks the center.
+#Opposite corner: If the opponent is in the corner, the player plays the opposite corner.
+#Empty corner: The player plays in a corner square.
+#Empty side: The player plays in a middle square on any of the 4 sides.
+The first player, who shall be designated "X", has 3 possible positions to mark during the first turn.
+Superficially, it might seem that there are 9 possible positions, corresponding to the 9 squares in the grid.
+However, by rotating the board, we will find that in the first turn, every corner mark is strategically equivalent to every other corner mark.
+The same is true of every edge (side middle) mark.
+For strategy purposes, there are therefore only three possible first marks: corner, edge, or center.
+Player X can win or force a draw from any of these starting marks; however, playing the corner gives the opponent the smallest choice of squares which must be played to avoid losing.
+This might suggest that the corner is the best opening move for X, however another study shows that if the players are not perfect, an opening move in the center is best for X.
+The second player, who shall be designated "O", must respond to X's opening mark in such a way as to avoid the forced win.
+Player O must always respond to a corner opening with a center mark, and to a center opening with a corner mark.
+An edge opening must be answered either with a center mark, a corner mark next to the X, or an edge mark opposite the X.
+Any other responses will allow X to force the win.
+Once the opening is completed, O's task is to follow the above list of priorities in order to force the draw, or else to gain a win if X makes a weak play.
+More detailed, to guarantee a draw, O should adopt the following strategies:
+* If X plays corner opening move, O should take center, and then an edge, forcing X to block in the next move.
+This will stop any forks from happening.
+When both X and O are perfect players and X chooses to start by marking a corner, O takes the center, and X takes the corner opposite the original.
+In that case, O is free to choose any edge as its second move.
+However, if X is not a perfect player and has played a corner and then an edge, O should not play the opposite edge as its second move, because then X is not forced to block in the next move and can fork.
+* If X plays edge opening move, O should take center or one of the corners adjacent to X, and then follow the above list of priorities, mainly paying attention to block forks.
+* If X plays center opening move, O should take corner, and then follow the above list of priorities, mainly paying attention to block forks.
+When X plays corner first, and O is not a perfect player, the following may happen:
+If O responds with a center mark (best move for them), a perfect X player will take the corner opposite the original.
+Then O should play an edge.
+However, if O plays a corner as its second move, a perfect X player will mark the remaining corner, blocking O's 3-in-a-row and making their own fork.
+If O responds with a corner mark, X is guaranteed to win, by simply taking any of the other two corners and then the last, a fork.
+(since when X takes the third corner, O can only take the position between the two X's.
+Then X can take the only remaining corner to win)
+If O responds with an edge mark, X is guaranteed to win, by taking center, then O can only take the corner opposite the corner which X plays first.
+Finally, X can take a corner to create a fork and then X will win on the next move.
+Further details
+Consider a board with the nine positions numbered as follows:
+When X plays 1 as their opening move, then O should take 5.
+Then X takes 9 (in this situation, O should not take 3 or 7, O should take 2, 4, 6 or 8):
+* X1 → O5 → X9 → O2 → X8 → O7 → X3 → O6 → X4, this game will be a draw.
+or 6 (in this situation, O should not take 4 or 7, O should take 2, 3, 8 or 9.
+In fact, taking 9 is the best move, since a non-perfect player X may take 4, then O can take 7 to win).
+* X1 → O5 → X6 → O2 → X8, then O should not take 3, or X can take 7 to win, and O should not take 4, or X can take 9 to win, O should take 7 or 9.
+** X1 → O5 → X6 → O2 → X8 → O7 → X3 → O9 → X4, this game will be a draw.
+** X1 → O5 → X6 → O2 → X8 → O9 → X4 (7) → O7 (4) → X3, this game will be a draw.
+* X1 → O5 → X6 → O3 → X7 → O4 → X8 (9) → O9 (8) → X2, this game will be a draw.
+* X1 → O5 → X6 → O8 → X2 → O3 → X7 → O4 → X9, this game will be a draw.
+* X1 → O5 → X6 → O9, then X should not take 4, or O can take 7 to win, X should take 2, 3, 7 or 8.
+** X1 → O5 → X6 → O9 → X2 → O3 → X7 → O4 → X8, this game will be a draw.
+** X1 → O5 → X6 → O9 → X3 → O2 → X8 → O4 (7) → X7 (4), this game will be a draw.
+** X1 → O5 → X6 → O9 → X7 → O4 → X2 (3) → O3 (2) → X8, this game will be a draw.
+** X1 → O5 → X6 → O9 → X8 → O2 (3, 4, 7) → X4/7 → X3 (2, 7, 4), this game will be a draw.
+In both of these situations (X takes 9 or 6 as second move), X has a property to win.
+If X is not a perfect player, X may take 2 or 3 as second move.
+Then this game will be a draw, X cannot win.
+* X1 → O5 → X2 → O3 → X7 → O4 → X6 → O8 (9) → X9 (8), this game will be a draw.
+* X1 → O5 → X3 → O2 → X8 → O4 (6) → X6 (4) → O9 (7) → X7 (9), this game will be a draw.
+If X plays 1 opening move, and O is not a perfect player, the following may happen:
+Although O takes the only good position (5) as first move, but O takes a bad position as second move:
+* X1 → O5 → X9 → O3 → X7, then X can take 4 or 8 to win.
+* X1 → O5 → X6 → O4 → X3, then X can take 2 or 9 to win.
+* X1 → O5 → X6 → O7 → X3, then X can take 2 or 9 to win.
+Although O takes good positions as the first two moves, but O takes a bad position as third move:
+* X1 → O5 → X6 → O2 → X8 → O3 → X7, then X can take 4 or 9 to win.
+* X1 → O5 → X6 → O2 → X8 → O4 → X9, then X can take 3 or 7 to win.
+O takes a bad position as first move (except of 5, all other positions are bad):
+* X1 → O3 → X7 → O4 → X9, then X can take 5 or 8 to win.
+* X1 → O9 → X3 → O2 → X7, then X can take 4 or 5 to win.
+* X1 → O2 → X5 → O9 → X7, then X can take 3 or 4 to win.
+* X1 → O6 → X5 → O9 → X3, then X can take 2 or 7 to win.
+Variations
+Many board games share the element of trying to be the first to get n-in-a-row, including three men's morris, nine men's morris, pente, gomoku, Qubic, Connect Four, Quarto, Gobblet, Order and Chaos, Toss Across, and Mojo.
+Tic-tac-toe is an instance of an m,n,k-game, where two players alternate taking turns on an m×n board until one of them gets k in a row.
+Harary's generalized tic-tac-toe is an even broader generalization.
+Other variations of tic-tac-toe include:
+* 3-dimensional tic-tac-toe on a 3×3×3 board.
+In this game, the first player has an easy win by playing in the centre if 2 people are playing.
+One can play on a board of 4x4 squares, winning in several ways.
+Winning can include: 4 in a straight line, 4 in a diagonal line, 4 in a diamond, or 4 to make a square.
+Another variant, Qubic, is played on a 4×4×4 board; it was solved by Oren Patashnik in 1980 (the first player can force a win).
+Higher dimensional variations are also possible.
+A 3×3 game is a draw.
+More generally, the first player can draw or win on any board (of any dimension) whose side length is odd, by playing first in the central cell and then mirroring the opponent's moves.
+In "wild" tic-tac-toe, players can choose to place either X or O on each move.
+* Number Scrabble or Pick15 is isomorphic to tic-tac-toe but on the surface appears completely different.
+Two players in turn say a number between one and nine.
+A particular number may not be repeated.
+The game is won by the player who has said three numbers whose sum is 15.
+If all the numbers are used and no one gets three numbers that add up to 15 then the game is a draw.
+* Another isomorphic game uses a list of nine carefully chosen words, for instance "eat", "bee", "less", "air", "bits", "lip", "soda", "book", and "lot".
+Each player picks one word in turn and to win, a player must select three words with the same letter.
+The words may be plotted on a tic-tac-toe grid in such a way that a three-in-a-row line wins.
+* Numerical Tic Tac Toe is a variation invented by the mathematician Ronald Graham.
+The numbers 1 to 9 are used in this game.
+The first player plays with the odd numbers, the second player plays with the even numbers.
+All numbers can be used only once.
+The player who puts down 15 points in a line wins (sum of 3 numbers).
+* In the 1970s, there was a two player game made by Tri-ang Toys & Games called Check Lines, in which the board consisted of eleven holes arranged in a geometrical pattern of twelve straight lines each containing three of the holes.
+Each player had exactly five tokens and played in turn placing one token in any of the holes.
+The winner was the first player whose tokens were arranged in two lines of three (which by definition were intersecting lines).
+If neither player had won by the tenth turn, subsequent turns consisted of moving one of one's own tokens to the remaining empty hole, with the constraint that this move could only be from an adjacent hole.
+* Quantum tic tac toe allows players to place a quantum superposition of numbers on the board, i.e. the players' moves are "superpositions" of plays in the original classical game.
+This variation was invented by Allan Goff of Novatia Labs.
+English names
+The game has a number of English names.
+*Tick-tack-toe, tic-tac-toe, tick-tat-toe, or tit-tat-toe (United States, Canada)
+*Noughts and crosses or naughts and crosses (United Kingdom, Republic of Ireland, Australia, New Zealand, South Africa, Zimbabwe, India)
+*Exy-ozys, xsie-osies (verbal name only) (Northern Ireland)
+Sometimes, the games tic-tac-toe (where players keep adding "pieces") and three men's morris are confused with each other.
+In popular culture
+* Wordsworth alludes to tic-tac-toe in his The Prelude (1799).
+* In the movie WarGames, a computer learns through a tic-tac-toe analogy that nuclear war is unwinnable.
+The BBC's Test Card F image includes a picture of a game.
+In the updated version, Test Card J, the game's X indicates the exact center of the screen.
+* George Cooper wrote the words and John Rogers Thomas wrote the music for a song "Tit, Tac, Toe" in 1876.
+The adventure game Sam & Max Save the World features an arcade version called Tic-Tac-Doom, but its artificial intelligence is intentionally poor.
+Rather than beating the game, the player must lose it in order to progress.
+*Episode 452 of This American Life recounts the true story of a legal defense team that sought to overturn the state of Florida's decision to execute a mentally ill murderer by eliciting a tic-tac-toe playing chicken as evidence.
+Arcade games with tic-tac-toe-playing chickens were popular in the mid 1970s; the animals were trained using operant conditioning, with the moves being chosen by computer and indicated to the chicken with a light invisible to the human player.
+* In the 1957 film version of Twelve Angry Men there is a small scene were two jurors are playing the game in order to pass the time.
+* In the Three Stooges short Disorder in the Court, Moe and Larry are seen playing tic-tac-toe in a couple of different scenes.
+Elle King's debut solo single "Ex's & Oh's" references another name for Tic-Tac-Toe, with a punning allusion to her exes; and how accumulating former partners who never seem to leave her alone is a pointless, unwinnable exercise.
+Various game shows have been based on tic-tac-toe and its variants:
+* On Hollywood Squares, nine celebrities filled the cells of the tic-tac-toe grid; players put symbols on the board by correctly agreeing or disagreeing with a celebrity's answer to a question.
+Variations of the show include Storybook Squares and Hip Hop Squares.
+The British version was Celebrity Squares.
+Australia had various versions under the names of Celebrity Squares, Personality Squares & All Star Squares.
+In Tic-Tac-Dough, players put symbols up on the board by answering questions in various categories, which shuffle after both players have taken both turns.
+In Beat the Teacher, contestants answer questions to win a turn to influence a tic-tac-toe grid.
+* On The Price Is Right, several national variants feature a pricing game called "Secret X", in which players must guess prices of two small prizes to win Xs (in addition to one free X) to place on a blank board.
+They must place the X's in position to guess the location of the titular "secret X" hidden in the center column of the board and form a tic-tac-toe line across or diagonally (no vertical lines allowed).
+There are no Os in this variant of the game.
+* On Minute to Win It, the game Ping Tac Toe has one contestant playing the game with nine water-filled glasses and white and orange ping-pong balls, trying to get three in a row of either color.
+He must alternate colors after each successful landing and must be careful not to block himself.

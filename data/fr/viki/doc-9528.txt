@@ -1,0 +1,50 @@
+Méthode de Héron
+Sommaire
+Une calculatrice dispose souvent d'une touche √. Lorsqu'on tape √ et 5, la calculatrice fournit en effet une bonne approximation de √5.
+Alors pourquoi vraiment s'embêter ?
+En fait, les calculatrices se contentent d'exécuter des programmes, c’est-à-dire la traduction d'algorithmes dans une machine.
+Pour les extractions de racines carrées, les calculatrices et les ordinateurs disposent de meilleurs algorithmes que la méthode de Héron.
+Cependant, il a fallu que des mathématiciens développent ces algorithmes.
+Pour cela, ils ont dû réfléchir sur la façon d’obtenir des approximations de racines carrées.
+Par ailleurs, dans un système informatique, les nombres ne peuvent pas dépasser une certaine taille à cause de la capacité limitée de la mémoire : au-delà d’une certaine longueur, ils sont « coupés » (on dit tronqués).
+Par conséquent, l'exécution des programmes sur des calculatrices peut conduire à de petites erreurs.
+L'accumulation d'erreurs peut rendre un résultat grossièrement faux !
+Il faut avoir une idée des calculs réalisés et du résultat final pour pouvoir le contrôler.
+La méthode de Héron a l'avantage de pouvoir s’effectuer « à la main », sans calculatrice !
+Elle porte néanmoins le nom de Héron d'Alexandrie.
+En fait, l'existence des civilisations babyloniennes fut oubliée jusqu'à la fin du XIXe siècle.
+Babylone reste un mystérieux nom de ville mentionné dans l'Ancien Testament.
+Ce sont les fouilles réalisées en Irak qui ont permis de mettre à jour les vestiges des premières civilisations, datant des IIIe et IIemillénairesav. J.-C.
+L'objectif est de déterminer une bonne approximation de la racine carrée d'un nombre positif a{\displaystyle
+~a}. Si on part d'une approximation x{\displaystyle ~x} de a{\displaystyle {\sqrt {a}}}, alors les nombres x{\displaystyle ~x} et ax{\displaystyle {\frac {a}{x}}} encadrent a{\displaystyle {\sqrt {a}}}.
+En effet :
+Si x{\displaystyle ~x} est inférieur à a{\displaystyle {\sqrt {a}}}, alors ax{\displaystyle {\frac {a}{x}}} est supérieur à aa=a{\displaystyle {\frac {a}{\sqrt {a}}}={\sqrt
+{a}}}.
+Au contraire, si x{\displaystyle ~x} est supérieur à a{\displaystyle {\sqrt {a}}}, alors ax{\displaystyle {\frac {a}{x}}} est inférieur à aa=a{\displaystyle {\frac {a}{\sqrt {a}}}={\sqrt
+{a}}}.
+On s'attend donc à ce que la moyenne de x{\displaystyle ~x} et de ax{\displaystyle {\frac {a}{x}}} reste proche de a{\displaystyle {\sqrt {a}}}.
+La méthode de Héron est donc l'algorithme suivant :
+Partir d'une approximation x de √a.
+Remplacer x par la moyenne de x et de a/x.
+Recommencer tant qu’on n’a pas atteint la précision voulue.
+Par exemple, on va prendre a = 5.
+L'entier 2 est une première approximation de √5 car 2 * 2 font 4.
+C'est, bien sûr, une très mauvaise approximation, mais peu importe.
+Appliquons la méthode de Héron :
+on la remplace par la moyenne de 2 et de 5 4 c'est-à-dire exactement 2,25.
+on recommence : la moyenne de 9 9 est 161 72 et de 360 23 184, ce qui fait environ 2,23606797791...
+Arrêtons
+-nous
+là !
+Que donne la calculatrice ?
+Cette méthode semble aboutir à des approximations toujours meilleures de la racine carrée de 5.
+Au bout de la troisième étape, on égalise presque ce que certaines calculatrices et certains ordinateurs peuvent donner !
+Pourquoi la méthode de Héron permet-elle d'affiner à chaque étape l'approximation de la racine carrée recherchée ?
+À chaque étape, la méthode de Héron consiste à remplacer une approximation x{\displaystyle ~x} de a{\displaystyle {\sqrt {a}}} par la moyenne y{\displaystyle ~y} de x{\displaystyle ~x} et de ax{\displaystyle {\frac {a}{x}}}.
+Le calcul donne :
+Si x{\displaystyle ~x} est une approximation de a{\displaystyle {\sqrt {a}}} à 10-3 près, alors y{\displaystyle ~y} sera une approximation de a{\displaystyle
+{\sqrt {a}}} à 10−62a{\displaystyle {\frac
+{10^{-6}}{2{\sqrt
+{a}}}}} près.
+Le nombre de décimales exactes double presque à chaque étape.
+On dit que la convergence est quadratique.

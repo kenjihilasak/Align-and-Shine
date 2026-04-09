@@ -1,0 +1,191 @@
+Blender|Logiciel de modélisation 3D|Logiciel d'animation|Solution 3D|Logiciel propriétaire
+devenu libre|Logiciel pour Windows|Logiciel pour Unix|Logiciel libre sous licence GPL|Produit lancé en 1995
+Blender est un logiciel libre et gratuit de modélisation, d’animation par ordinateur et de rendu en 3D, créé en 1995.
+Il est actuellement développé par la Fondation Blender.
+Il propose des fonctions avancées de modélisation (dont la sculpture 3D, le texturage et dépliage UV, etc), d’animation 3D (rigging, blend shapes), et de rendu (sur GPU comme sur CPU).
+Il gère aussi le montage vidéo non linéaire, la composition, la création nodale de matériaux, la création d’applications 3D interactives ou de jeux vidéo grâce à son moteur de jeu intégré (le Blender Game Engine), ainsi que diverses simulations physiques telles que les particules, les corps rigides, les corps souples et les fluides.
+Disponible dans de nombreuses langues, Blender est également disponible sur plusieurs plates-formes telles que Microsoft Windows, Mac OS X, GNU/Linux, IRIX, Solaris, FreeBSD, SkyOS, MorphOS et Pocket PC.
+De plus, c’est un programme extensible (ajout de scripts) à l’aide du langage Python.
+Historique
+Origine et développement
+Produit à l’origine par la société néerlandaise Not a Number
+Technologies (NaN)
+et par le studio d’animation
+NeoGeo
+, Blender a d’abord été un ray tracer nommé Traces sur Amiga en 1989, la société de production se servait alors de comme modeleur.
+Le nom de Blender n’arriva que plus tard, inspiré de l’album Baby du groupe Yello, lorsque cela devint une suite d’animation complète .
+La société NaN fut fondée en 1998 pour développer et distribuer le logiciel en tant que partagiciel, dont certaines fonctionnalités n’étaient accessibles que par l’intermédiaire d’une licence payante.
+Plus tard, son auteur Ton Roosendaal trouva des investisseurs pour l’aider à développer son produit et en faire un graticiel.
+Au début de l’année 2002, étant donné le peu de gains qu’ils en retiraient, les investisseurs décidèrent de retirer leur soutien à Ton Roosendaal, ce qui eut pour effet immédiat la faillite de la société NaN et la fermeture du site Internet de Blender.
+Néanmoins, la communauté d’utilisateurs de Blender se reforma rapidement au sein du forum de discussion du site Elysiun .
+Le , Ton Roosendaal parvint à négocier le rachat des droits d’auteur de Blender contre , en vue de la création d’une fondation Blender et de la diffusion du logiciel sous la licence libre GPL.
+En moins d’une semaine, la communauté des utilisateurs a déjà rassemblé près de la moitié de la somme.
+Le 7 septembre est annoncée l’ouverture du code de Blender, supervisé par la Fondation Blender.
+C'est en fin de compte le 13 octobre 2002 que Blender est diffusé sous licence libre GPL.
+La fondation commence alors à rendre plus modulaire le code pour faciliter son évolution.
+On sépare Blender en plusieurs bibliothèques afin d'ouvrir ses fonctionnalités à d’autres logiciels.
+Blender devient alors le composant standard d'un écosystème qui va en faire une référence.
+Le sort la première version libre (2.26).
+La version suivante (2.27) marque le début de l’internationalisation, permettant ainsi aux non anglophones de découvrir ce logiciel.
+Blender aujourd’hui
+Blender dispose de nombreuses fonctionnalités et d’une gestion souple des fenêtres.
+Il pèse de 200 à selon les versions.
+Son interface basée sur OpenGL s'écarte des habitudes de Windows, MATE ou KDE, ce qui lui a valu (comme à GIMP) une réputation d’apprentissage long et difficile.
+Cette interface autorisant beaucoup de raccourcis clavier pour rendre le travail de production plus rapide, rend son utilisation moins intuitive que des cycles d'essais et d'erreurs sur des menus standards.
+Depuis son passage à l’Open Source, le logiciel a été amélioré notamment en ergonomie, par une réorganisation et l'ajout de quelques menus contextuels.
+L'interface revue et corrigée est intégrée à la version 2.50.
+Après quatre ans de développement, la Fondation Blender a sorti une version stable de Blender 2.5x en avril 2011 : Blender 2.57.
+En octobre 2011 sort la version 2.60, qui marque l'aboutissement et la fin de développement de la série 2.5x.
+En juin 2015, la version 2.74 devient celle de référence, la 2.75 étant déjà annoncée avec le statut de Release Candidate.
+La libération du code source a donné un élan important au développement du logiciel.
+Les équipes de développeurs y conduisent parfois à des fonctionnalités nouvelles.
+Les amateurs de Blender peuvent suivre son évolution à partir des compilations.
+Selon certains professionnels, sa modularité permet à Blender de rivaliser avec les autres logiciels commerciaux professionnels.
+De très nombreux tutoriels en anglais sont disponibles sur le Blender Cloud, certains gratuitement et d'autres disponibles avec un abonnement.
+Les fonds ramassés servent à financer le développement de Blender et des films libres de l'institut Blender.
+De nombreux tutoriaux sont également disponibles sur les sites de partage de vidéo comme YouTube.
+Historique des versions
+Suzanne
+Suzanne est la mascotte de Blender et le plus courant des « modèles d’essai » (comme la théière dans beaucoup de logiciels 3D).
+C’est un modèle composé de 507 sommets, arêtes et 500 faces.
+Suzanne est souvent utilisée pour tester les matériaux, les textures ou encore les réglages de l’éclairage.
+Le plus grand concours de Blender décerne le Prix Suzanne (sous la forme d’une statuette de Suzanne).
+Fonctionnalités
+* Gestion de plusieurs techniques de modélisation, comme polygonale, subdivision de surface, courbes de Bézier, surfaces NURBS, metaballs et .
+* Différents renders compatibles avec le logiciel dont l'exporteur pour POV-Ray inclut de base, ainsi que la possibilité d’exportation pour de nombreux moteurs tels que Indigo, Kerkythea, http:/ Thea ainsi que Vray.
+Voir la liste des moteurs compatibles.
+* Gestion avancée d’animations incluant un système d’armaturage, animation linéaire (par courbes IPO) et non linéaire (par actions), cinématique inverse, déformations par courbes et lattices, Keys Shape (Morphage), contraintes, vertex weighting, corps souples et corps rigides avec gestion des collisions, système de particules (utilisation du moteur physique Bullet).
+* Composition vidéo (séquenceur et timeline gérant les plugins)
+, à laquelle s’ajoute la bande son qui peut être synchronisée en interne.
+* Compositeur nodal d’image, pleinement intégré au flux du rendu.
+* Création avancée de matériaux intégrant un système nodal.
+* Traitement des éclairages avancés par occlusion ambiante et radiosité (
+cette dernière, n’étant pas liée au ray-tracing, fonctionne aussi en scanline
+« ligne à ligne »).
+* Langage de script embarqué basé sur le python permettant d’accéder à la plupart des fonctions.
+* Moteur 3D
+temps réel permettant le développement de jeux vidéo ou d'applications à l’aide de briques logiques, pouvant être enrichies par des scripts python, dont l’exportation est possible en VRML 1.0 et 2.0.
+Gestion des shaders GLSL pour le normal mapping.
+* Simulation de fluides réalistes
+bien que largement en dessous de
+* À partir de la version 2.50, Blender intègre un simulateur de fumée, une interface totalement renouvelée, et une ergonomie repensée.
+Moteur de rendu
+Blender a longtemps été basé sur le moteur Hybride Blender Internal, mélangeant du scanline ainsi que du Raster scan, qui est désormais vieillissant.
+Depuis la version 2.61, Blender offre le moteur Cycles qui est photoréaliste de type
+Path tracing.
+La Blender fondation travaille sur un moteur de rendu temps réel EEVEE complémentaire à Cycles qui sera disponible à partir de la version 2.8.
+À partir de la version 2.67, Freestyle est intégré dans Blender pour étendre les possibilités du moteur Blender Internal.
+Il s'agit d'un moteur de rendu non photo-réaliste dont la fonction est de générer des lignes en 2D sur un dessin 3D (contour des objets par exemple).
+Blender est également compatible avec divers moteurs de rendu externes:
+* YafaRay : un moteur de rendu de type raytracing, libre et open source.
+* Freestyle Render :
+Un moteur de rendu spécialisé dans un rendu non-photoréaliste et proche d'un aspect dessin.
+* 3Delight :
+Exporter non officiel, moteur de rendu basé sur la norme RenderMan
+* RenderMan:
+Rendu officiel de renderman (Pixar) officiel depuis 2015 (Add-
+Ons
+PrMan
+Configurations possibles
+Blender ne demande pas pour son apprentissage une configuration minimale très puissante, contrairement à d'autres applications 3D. Seuls des effets avancés et des modèles comportant beaucoup de polygones demanderont un ordinateur puissant.
+La configuration minimale est :
+* une carte graphique compatible OpenGL avec de RAM.
+Pour des utilisateurs avancés, le matériel suivant est recommandé :
+* une souris à trois boutons et une molette pour zoomer, par exemple une molette cliquable ;
+* une carte graphique compatible OpenGL avec de RAM.
+Le mode GLSL de Gameblender exige une carte graphique supportant OpenGL GLSL.
+Pour les versions 2.80 de Blender, une refonte totale de l'interface est en cours de développement.
+Un nouveau moteur de rendu est installé: EEVEE.
+Cela exige, au minimum, une carte graphique compatible OpenGL 3.3 ou supérieure pour plus de performance et de fluidité dans la vue 3D.
+Les recommandations actuelles pour une meilleure performance sont:
+Code
+Blender accepte des extensions en Python, mais n'est pas majoritairement programmé lui-même dans ce langage pour des raisons de performance.
+Python est utile pour réaliser des travaux d'enchaînement qu'on ne veut plus faire à la main, à la manière d'un langage de script.
+L'affichage au lancement du message «
+Compiled with python version 2.6.2
+» signifie juste que cette version inclut la version 2.6.2 de l’interpréteur Python.
+Le code est presque entièrement écrit en C/C++ et compilé à l’aide d’un compilateur classique comme gcc.
+En 2004, Blender comporte plus de trois cent mille lignes de code dont (69,49 %) lignes en C ISO, (29,30 %) lignes en C++ et 3303 (1,01 %) lignes en python (autres : 673 (0,20 %)) .
+Principaux plug-ins
+La relation de longue date avec le langage Python a permis de constituer une importante base de greffons (plugins) qui ont fait de Blender un véritable logiciel de conversion de formats.
+Ces outils ont été écrits par des auteurs aussi enthousiastes que bénévoles.
+Bon nombre d'entre eux, couverts par la licence GPL ou la Blender Artistic Licence, sont regroupés et distribués dans un paquet qui accompagne le logiciel.
+Ces scripts sont variés (création d'arbres, de coquillages, etc.).
+Formats d'export supportés
+Certains de ces formats, cependant nécessitent des plugins développés par des développeurs tiers qui doivent généralement être renouvelés régulièrement car le dialecte du Python utilisé évolue et les nouvelles versions ne sont pas toujours compatibles avec les versions antérieures.
+La liste des formats supportés par défaut, elle, varie selon les versions de Blender.
+Le format md2, par exemple, n'est plus supporté par défaut depuis la version 2.5.
+Blender Artistic License
+Blender est aussi une sorte de phénomène social qui a donné naissance à un nombre considérable de productions : didacticiels, plugins, images statiques, films d'animation.
+De fait, une licence spéciale a été créée, la Blender Artistic License.
+Elle vise les didacticiels, les fichiers .blend
+d’exemple ainsi que les images et animations.
+Elle est plus limitative que la Blender Documentation License, mais est pensée pour protéger les droits des auteurs sur leurs didacticiels.
+Les auteurs peuvent choisir la Blender Documentation License, moins limitative, mais aucune autre que ces deux licences ne sera acceptée pour les didacticiels sur le site de la Fondation Blender.
+Dans l’industrie cinématographique
+Le premier véritable projet professionnel dans lequel Blender a été utilisé était Spider-Man 2, où il a été essentiellement utilisé pour la création des animations et des aperçus lors de l’élaboration de la maquette du film.
+Vendredi ou un autre jour est le premier long métrage utilisant Blender pour tous les effets spéciaux, réalisé sur des stations utilise Blender pour ses effets spéciaux.
+Le projet Orange (Elephants Dream)
+En septembre 2005, des artistes et développeurs de Blender commencent
+à travailler sur un court métrage
+- Elephants Dream
+- en utilisant quasi exclusivement des logiciels libres.
+Cette initiative, connue sous le nom de Orange Movie Project, a alors pour but d'évaluer les capacités de Blender dans le milieu du cinéma professionnel.
+Le résultat de ce travail, Elephant Dreams, est diffusé le en avant-première, puis distribué aux contributeurs financiers sous forme de DVD comprenant non seulement le film en haute-définition, mais également l'intégralité des sources : scènes, textures, etc.
+Plumíferos
+Plumíferos est un projet de film commercial argentin entièrement créé sous Blender, de la société Manos Digitales Animation Studio.
+Il est actuellement disponible sur le site officiel et des bandes-annonces ont été présentées aux Blender Conferences de 2005 et 2006.
+Le film a été fini en 2009 et est sorti sur les écrans argentins le .
+Le projet Peach (Big Buck Bunny)
+Big
+Buck Bunny est un court métrage
+créé également par la Fondation Blender, laquelle, pour gérer ce projet et les suivants, a fondé l'Institut Blender.
+Ce court métrage est en production depuis le et s'inscrit dans la même logique que Elephants Dream.
+Connu durant sa conception sous le nom de Projet Pêche, ce projet a vu son nom officiel rendu public le .
+Ce nouveau volet part sur un concept complètement différent du premier, en abandonnant le côté mystique pour aller vers du « drôle et doux » (funny and furry selon l'expression anglaise).
+Il est disponible en téléchargement depuis le .
+Le projet Durian (Sintel)
+Un nouveau projet
+de court métrage
+, Sintel (projet Durian)
+, est annoncé par la Fondation Blender en mai 2009.
+Le thème se rapproche de la fantasy épique, il est un prétexte pour développer la création d'effets spéciaux avec Blender.
+Ce film a servi de support pour le développement de la nouvelle version majeure de Blender, la mouture 2.5, qui se caractérise par une refonte complète du logiciel.
+Il est disponible sur le http:/ site officiel du projet depuis le .
+Durant toute la période de création, il a été possible de suivre le développement de l'ensemble du projet en temps réel sur le blog http:/ Durian.
+Le projet Mango (Tears of Steel)
+Tears of Steel (produit sous le nom de Projet Mango) est réalisé par l'américain Ian Hubert.
+Il se focalise sur la réalisation d'effets spéciaux pour le cinéma, comme des outils pour la capture de mouvement ou un éclairage plus réaliste par exemple.
+L'action du film se déroule à Amsterdam et est de type science-fiction.
+Il est officiellement sorti le , il est disponible (avec sous-titrage en français) sur http:/ production
+le site officiel du projet.
+Le projet Gooseberry (Cosmos Laundromat)
+Le dernier projet en cours de la Fondation Blender s'intitule Gooseberry, il se profile comme le premier long métrage libre.
+Il sera réalisé par le français Mathieu Auvray qui dirigera 12 studios à travers le monde soit une équipe de 70 à 80 personnes en tout (développeurs compris).
+La campagne de financement a débuté le avec pour objectif de rassembler abonnés au Blender Cloud.
+La campagne a été étendue le avec des objectifs revus à la baisse.
+Elle se finira le .
+Le projet Spring
+Dans le cadre du développement de la version 2.8, la fondation Blender annonce le 25 octobre 2017 le démarrage un projet de court métrage appelé Spring.
+Le projet, à l'instar de Sintel pour la version 2.5, permettra de valider les concepts de la version 2.8 avant la publication de la version finale.
+Le film, d'une longueur de 7 minutes, met en scène un esprit de la forêt et son petit chien.
+Il s'agit d'une application basée sur Blend4Web.
+L'application permet de contrôler le rover, ses caméras, son bras articulé et de reproduire les événements importants de la mission Mars Science Laboratory.
+L'application a été présentée au début de la section WebGL au SIGGRAPH 2015.
+Le projet Apricot (Yo Frankie!
+Deuxième projet de l'Institut Blender, Yo Frankie! est un jeu vidéo libre en 3D, sous licence Creative Commons.
+Le projet a débuté le et est sorti en DVD le et en téléchargement le .
+Les personnages principaux du jeu sont basés sur ceux du projet de film d'animation Big
+Buck Bunny.
+Il s'agit d'un jeu multiplate-forme tournant sous les systèmes GNU/Linux, Mac OS X et Microsoft Windows utilisant Blender pour la modélisation et l'animation, ainsi que le kit de développement Crystal Space et le langage de programmation Python.
+L'objectif du projet a été de parvenir à réaliser un jeu libre d'un niveau équivalent aux meilleures productions commerciales non libres.
+Le projet Apricot a stimulé le développement et l'optimisation du moteur de jeu de Blender.
+Les forks et versions alternatives de Blender
+De par sa nature opensource, des projets secondaires se basent sur blender.
+On pourra évoquer :
+* http:/
+mechanicalblender, une version dédiée à la CAD
+* https:/ upbge
+un fork du Blender Game Engine
+* http:/
+fr bforartists est un fork qui vise à fournir une interface plus conviviale

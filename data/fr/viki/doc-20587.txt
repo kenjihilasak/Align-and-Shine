@@ -1,0 +1,21 @@
+Octet
+Redirigé depuis Mio)
+La quantité d'informations qui peut être manipulée par un ordinateur étant de plus en plus grande, il fallait créer des unités plus grandes que l'octet.
+Ainsi, de la même manière qu'un kilogramme c'est 1000 grammes, un kilooctet c'est 1 000 octets.
+Il y a aussi le mégaoctet, qui fait 1000 kilooctets, le gigaoctet, qui fait 1000 mégaoctets, le téraoctet, qui fait 1000 gigaoctets, le pétaoctet, qui fait 1000 téraoctets...
+Exemple : Un ordinateur a un disque dur qui a une capacité de 80 Go ou 180 Go.
+Il existe d'autres unités utilisées surtout par les informaticiens.
+Elles ressemblent aux précédentes mais au lieu d'être des multiples de mille, ce sont des multiples de 1024 :
+Le nombre 1024 n'a pas été choisi au hasard : c'est une puissance de 2.
+Car 210 = 2×2×2×2×2×2×2×2×2×2 = 1024.
+C'est plus pratique car les ordinateurs fonctionnent avec le système binaire1.
+Le « bi » des préfixeskibi-, mébi- et gibi- vient d'ailleurs du mot binaire.
+Ces unités à préfixe binaire sont celles qu'il faut utiliser quand on parle de la taille de la mémoire vive (la RAM), car la taille d'une barrette de RAM est toujours une puissance de 2.
+Exemple :
+Aujourd'hui on peut souvent ajouter une barrette de mémoire RAM de 1 ou 2 Gio à son ordinateur s'il est trop lent.
+Pour le texte simple, un caractère (lettre, chiffre, signe de ponctuation) a le plus souvent une taille de un octet, mais peut suivant les cas en occuper deux, trois ou quatre octets.
+Dans certains codages (comme UTF-8), certains caractères sont codés sur un octet et d'autres le sont sur deux ou plus.
+Pour les images (en mode point), chaque point ou pixel de l'image a une taille en bits qui dépend du nombre de couleurs de l'image : 1 bit pour les images monochrome, 2 bits pour 16 couleurs, 24 ou 32 bits (3 ou 4 octets) pour des couleurs « vraies » (plus de 16 millions de couleurs)
+Pour le son, une minute de son de qualité CD a une taille d'environ 9 Mo
+↑Une puissance de 2 en binaire, c'est un seul un suivi de zéros.
+1024 s'écrit donc 10000000000 en binaire, alors que 1000 c'est plus compliqué (ça donne 1111101000)

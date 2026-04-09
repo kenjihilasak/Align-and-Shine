@@ -1,0 +1,172 @@
+Conique
+En mathématiques, une hyperbole est une courbe plane obtenue comme la double intersection d'un double cône de révolution avec un plan.
+Elle peut également être définie comme une conique d'excentricité supérieure à 1, ou comme l'ensemble des points dont la différence des distances à deux points fixes est constante.
+Une hyperbole est constituée de deux branches disjointes symétriques l'une de l'autre et possédant deux asymptotes communes.
+On peut rencontrer l'hyperbole dans de nombreuses circonstances comme lors de la représentation graphique de la fonction inverse, x \to 1/x et de celle de toutes les fonctions qui lui sont associées : x \to ax+b+\frac, ou encore dans l'ombre créée par une source de lumière sur un mur, dans la trajectoire de certains corps dans l'espace ou dans les interférences produites par deux sources d'ondulations de même fréquence.
+C'est également la courbe suivie, pendant une journée, par l'extrémité de l'ombre du gnomon d'un cadran solaire de style polaire.
+L'hyperbole intervient dans d'autres objets mathématiques comme les hyperboloïdes, le paraboloïde hyperbolique, les fonctions hyperboliques (sinh, cosh, tanh).
+Sa quadrature, c'est-à-dire le calcul de l'aire comprise entre une portion d'hyperbole et son axe principal, est à l'origine de la création de la fonction logarithme.
+Définitions géométriques
+Intersection d'un cône et d'un plan
+On considère un cône de révolution engendré par la rotation d'une droite (OA) autour d'un axe (Ox) et on appelle l'angle géométrique entre ces deux droites.
+On prend d'autre part un plan dont la normale fait avec l'axe (Ox) un angle supérieur à .
+Si le plan ne passe pas par O, il coupe le cône suivant une hyperbole.
+Si le plan passe par O, il coupe le cône selon deux droites sécantes en O.
+Lorsqu'une lampe munie d'un abat-jour est placée non loin d'un mur vertical, la courbe qui délimite, sur le mur, la zone éclairée et la zone ombragée est un arc d'hyperbole.
+En effet, la lumière est diffusée selon un cône
+- les rayons lumineux partent du centre de l'ampoule et s'appuient sur le cercle de l'ouverture de la lampe
+- coupé par un plan parallèle à l'axe du cône - le mur.
+C'est également ce principe qui explique l'existence d'hyperboles sur ou ligne de déclinaison, intersection du cône et d'un plan.
+Au cours de l'année, l'angle du cône varie.
+Aux équinoxes, il est de 90°
+, le cône est un plan et l'ombre dessine une droite.
+Aux solstices, l'angle est de 66° 34' et l'ombre dessine une hyperbole.
+La construction de l'hyperbole comme section d'un cône et d'un plan peut être réalisée à l'aide d'un compas parfait.
+Définition par foyer et directrice
+Soient (D) une droite et F un point n'appartenant pas à (D), et soit P le plan contenant la droite (D) et le point F.
+On appelle hyperbole de droite directrice (D) et de foyer F l'ensemble des points M du plan P vérifiant
+où mesure la distance du point M au point F et mesure la distance du point M à la droite (D).
+La constante e est appelée excentricité de l'hyperbole.
+Elle est caractéristique de la forme de l'hyperbole : si l'on transforme l'hyperbole par une similitude, son excentricité reste inchangée.
+Elle est donc indépendante du choix arbitraire de repère orthonormé pour ce plan ;
+elle détermine tous les autres rapports de distances (et toutes les différences angulaires) mesurés sur l'hyperbole.
+Plus e est grand, plus l'hyperbole s'évase, les deux branches se rapprochant de la directrice.
+Plus e s'approche de 1 plus
+l'hyperbole s'arrondit,
+les deux branches s'éloignant l'une de l'autre, celle située dans le même demi-plan que le foyer se rapprochant d'une parabole.
+Notons K le projeté orthogonal de F sur (D).
+(KF) est alors clairement un axe de symétrie de l'hyperbole appelé axe focal.
+L'axe focal coupe l'hyperbole en deux points appelés les sommets S et S' de l'hyperbole.
+La médiatrice du segment SS' est également un axe de symétrie de l'hyperbole appelé axe non focal.
+Le point d'intersection des deux axes, noté O, est alors le centre de symétrie de l'hyperbole.
+Le cercle de diamètre SS' est appelé cercle principal de l'hyperbole.
+La symétrie orthogonale par rapport à l'axe non focal envoie le foyer F et la directrice (D) en F' et (D').
+Par symétrie, l'hyperbole est également l'hyperbole de foyer F', de directrice (D') et d'excentricité e.
+Une telle hyperbole possède en outre deux asymptotes passant par O et par les points d'intersection du cercle principal et des directrices.
+Ces points sont également les projetés orthogonaux des foyers sur les asymptotes.
+Lorsque les deux asymptotes sont perpendiculaires, on dit que l'hyperbole est équilatère.
+En relation avec la définition précédente, l'hyperbole obtenue comme section de cône et de plan peut être définie par foyer et directrice.
+On considère une sphère (Σ) inscrite dans le cône (Γ) et touchant le plan (P) en F (sphère de Dandelin) et (P') le plan contenant le cercle de tangence de la sphère et du cône.
+L'hyperbole est de foyer F et de directrice (D) droite d'intersection des deux plans (P) et (P').
+Dans le plan perpendiculaire à (P) et passant par l'axe du cône, se trouvent le point F, le sommet S et le point K.
+L'excentricité est donnée par le rapport SF/SK.
+Elle ne dépend que de l'inclinaison du plan par rapport à l'axe du cône.
+Si l'on appelle (d) la trace de (P) dans le plan perpendiculaire à (P) passant par l'axe du cône, si l'on note α l'angle entre (d) et l'axe du cône et θ l'angle du cône, l'excentricité est de .
+Cette relation entre foyer, directrice et excentricité dans une hyperbole est exploitée dans la construction des lentilles divergentes : si l'indice de la lentille par rapport au milieu est de e, et si la surface concave de la lentille est une hyperbole de foyer F et d'excentricité e, le faisceau de rayons parallèles traversant la lentille, se disperse comme si les rayons venaient du foyer F.
+En chaque point M de cette hyperbole, la bissectrice du secteur angulaire (FMF') se trouve être la tangente en M à la courbe.
+Cette construction de l'hyperbole permet d'expliquer la présence d'hyperbole lors d'interférences entre deux sources de même fréquence.
+Au point M le déphasage de l'onde par rapport à la source S est proportionnel à la distance MS.
+Le déphasage entre l'onde venant de S et l'onde venant de S est donc proportionnel à la différence des distances.
+Les deux ondes s'annulent quand leur déphasage est égale à ;.
+Les deux ondes s'amplifient quand leur déphasage est de ;.
+Les points où l'onde résultante a une amplitude nulle et les points où l'onde résultante a une amplitude maximale dessinent donc un faisceau d'hyperboles de foyers S et S.
+Il existe des mécanismes avec corde et poulie exploitant cette propriété des hyperboles pour effectuer leur tracé.
+c'est le cas du dispositif conçu par Ibn Sahl au .
+Image
+d'un cercle par une homographie
+Comme toute conique, l'hyperbole peut être considérée comme l'image d'un cercle par une transformation projective.
+Plus précisément, si (H) est une hyperbole et (C) un cercle, il existe une transformation projective qui transforme (C) en (H).
+Par exemple, l'hyperbole est l'image de son cercle principal par une transformation projective dont l'expression analytique, dans un repère orthonormé porté par ses axes de symétrie
+, est
+où a est le rayon du cercle principal et ± b/a les pentes de ses asymptotes.
+Cette propriété permet de transférer à l'hyperbole des propriétés touchant des règles d'incidence de droites dans un cercle, comme le théorème de Pascal.
+Parmi les transformations projectives, il en est de particulières comme les homologies harmoniques.
+Ce sont des homologies involutives de centre I d'axe (d) et de rapport -1.
+Dans celles-ci, un point M, son image M', le centre I et le point m d'intersection de (IM) avec (d) sont en division harmonique.
+Un cercle (C)
+a pour image une hyperbole par une homologie harmonique de centre I et d'axe (d)
+si et seulement si l'image (d') de l'axe (d) par l'homothétie de centre I et de rapport 1/2 coupe le cercle en deux points.
+Réciproquement, une hyperbole étant donnée, il est possible de trouver des cercles et des homologies harmoniques associées échangeant hyperbole et cercle.
+Par exemple :
+Une hyperbole de foyer F, de directrice (d) et d'excentricité e est l'image du cercle de centre F et de rayon eh (où h est la distance entre le foyer et la directrice) par l'homologie harmonique de centre F et d'axe (d1) image de (d) dans l'homothétie de centre F et de rapport 2 :
+Réciproquement, si deux droites de vecteurs directeurs \vec et \vec se coupent en O et si une courbe, dans le repère (O, \vec, \vec), a pour équation xy= Cste où Cste est un réel non nul, alors cette courbe est une hyperbole.
+Équations dans des repères où l'axe focal est l'axe principal
+Si le centre du repère est le centre de l'hyperbole
+Dans un repère dont les axes sont de symétrie pour l'hyperbole, l'axe transverse pour axe des abscisses, l'équation cartésienne se met sous la forme
+donnant alors les représentations paramétriques
+pour chacune des branches
+Un autre paramétrage possible est :
+Son équation polaire est :
+Si le centre du repère est le foyer de l'hyperbole
+Dans un repère orthonormé (F, \vec i, \vec j) dans lequel \vec i
+\frac
+\overrightarrow
+\frac
+1h\overrightarrow
+, l'hyperbole a pour équation cartésienne :
+Son équation polaire, dans ce même repère est :
+où p = eh est le paramètre de l'hyperbole.
+Équation générale de conique
+De manière générale, comme toute conique, une hyperbole a une équation cartésienne de la forme
+avec
+Pour qu'une telle équation soit celle d'une hyperbole, il est nécessaire
+que
+Dans ce cas, la conique a pour centre le point C dont les coordonnées (x, y) vérifient le système:
+On reconnait les dérivées partielles :
+Un changement de repère, en prenant pour centre le point C, conduit à l'équation suivante:
+qui sera l'équation d'une hyperbole si et seulement si f (x, y) est non nul.
+Les directions des asymptotes sont les solutions de l'équation homogène
+Les asymptotes font un angle φ tel que.
+Par conséquent, dans un faisceau de droites parallèles (di) rencontrant l'hyperbole, les milieux des cordes que déterminent ces droites sur l'hyperbole, sont alignés avec le centre O de l'hyperbole.
+De plus, si M est le point de l'hyperbole tel que (SM) soit parallèle à (di) alors la droite des milieux est parallèle à (S'M).
+Un telle droite passant par le centre de l'hyperbole est appelée diamètre de l'hyperbole.
+Sécantes et asymptotes
+Si une droite coupe l'hyperbole en M et M', alors elle coupe les asymptotes en P et P' et les segments MM' et PP' ont même milieu.
+Soit (d) une droite non parallèle aux asymptotes.
+Si par un point M de l'hyperbole, on trace une parallèle à (d), elle rencontre les asymptotes en P et P' et le produit \overline\times\overline est indépendant du point M.
+Hyperbole équilatère
+Une hyperbole est dite équilatère lorsque ses deux asymptotes sont perpendiculaires.
+Tangentes
+Si l'hyperbole a pour équation
+la tangente au point M de coordonnées (x0, y0) a pour équation :
+Comme une tangente est une sécante particulière, la propriété des sécantes et des sommets offre un moyen de tracer une tangente en un point M distinct des sommets : la droite passant par un des sommets S de l'hyperbole et parallèle à (OM) rencontre l'hyperbole en N, la tangente est alors parallèle à (S'N).
+Si M est un point de l'hyperbole distinct des sommets, la tangente en M est également la bissectrice intérieure de l'angle FMF' où F et F' sont les foyers de l'hyperbole et le produit des distances des foyers à la tangente est toujours égal à b².
+Cette propriété a quelques applications pratiques.
+Elle fournit un moyen simple de construire la tangente en un point comme bissectrice intérieure de (F'MF).
+Dans un miroir de forme hyperbolique, les rayons issus d'un foyer sont réfléchis comme s'il provenaient de l'autre foyer.
+Bergery préconise donc, pour éviter les déperditions de chaleur, de construire le fond d'un cheminée selon un cylindre hyperbolique.
+La tangente en un point M coupe les asymptotes en deux points P et P' symétriques par rapport à M.
+Par le point O ou un point M intérieur à l'hyperbole, il ne passe aucune tangente, par un point situé sur l'hyperbole ou sur une asymptote (distinct de O), il en passe une seule et par un point situé à l'extérieur de l'hyperbole, non situé sur les asymptotes, il passe toujours deux tangentes.
+Pour construire les deux tangentes issues de M, il suffit de tracer le cercle de centre M passant par un foyer F et le cercle de centre F' et de rayon 2a.
+Les cercles se rencontrent en N et N', les médiatrices de FN et FN' sont les tangentes recherchées.
+Pour trouver le point de contact, il suffit de construire une parallèle à la tangente coupant l'hyperbole en deux points, la droite passant par O et par le milieu de la corde ainsi construite rencontre la tangente en son point de contact.
+Ou bien, on prend le symétrique d'un des foyers par rapport à la tangente, la droite joignant ce symétrique à l'autre foyer rencontre la tangente à son point de contact.
+Cercles
+Cercle principal : c'est le cercle de diamètre SS'.
+Foyer et directrice sont en relation pôle/polaire par rapport au cercle principal.
+Le cercle principal est également la podaire de l'hyperbole par rapport à l'un des foyers (si l'on exclut les intersections du cercle avec les asymptotes), c'est-à-dire le lieu des projetés orthogonaux de ce foyer sur les tangentes.
+Cercles osculateurs : en tout point M de l'hyperbole, il existe un cercle possédant un point de contact triple avec l'hyperbole.
+C'est le cercle osculateur à l'hyperbole au point M. Son centre, appelé centre de courbure, est situé sur la normale à la courbe (qui est aussi la bissectrice extérieure de l'angle FMF') a une distance de M égale au rayon de courbure.
+Si l'hyperbole a pour équation :
+le rayon du cercle osculateur au point d'abscisse x0 a pour valeur:
+Il est possible de construire géométriquement le centre du cercle osculateur en M. Si (t) et (n) sont respectivement la tangente et la normale à l'hyperbole au point M, on trace le symétrique M' de M par rapport à l'axe principal et le symétrique (t') de (t) par rapport à (MM'), cette droite rencontre la droite (OM') en N.
+La perpendiculaire à (t') en N rencontre la normale (n) au centre de courbure.
+La développée de l'hyperbole, c'est-à-dire le lieu des centres de courbure est une courbe de Lamé d'équation :
+Longueur et aire
+Si M (t0) est un point de l'hyperbole d'équation paramétrée,
+où t0 est compris entre 0 et π/2, la longueur de l'arc SM
+est
+dont l'intégration nécessite l'utilisation des intégrales elliptiques.
+L'aire d'une portion de plan délimitée par un arc d'hyperbole est à l'origine de la création de la fonction logarithme et des fonctions hyperboliques.
+L'aire de la surface délimitée par l'hyperbole d'équation yx
+1, l'axe des abscisses et les droites d'équation x
+u et x = v est égale à |ln (v/u)|.
+Histoire
+L'hyperbole est étudiée, dans le cadre des coniques, durant la période grecque.
+Ainsi Menechme résout un problème de double proportionnelle en utilisant une hyperbole d'équation XY= constante.
+Mais pour Menechme et ses successeurs, Euclide et Aristée, cette courbe ne possède qu'une composante.
+Ils l'appellent «conique obtusangle» car ils la définissent comme l'intersection d'un cône obtusangle (cône engendré par la rotation d'un triangle ABC, rectangle en B, autour de AB et tel que l'angle de sommet A soit supérieur à 45 °) avec un plan perpendiculaire à sa génératrice.
+Apollonius de Perge semble être le premier à envisager les deux composantes de l'hyperbole.
+C'est également lui qui lui donne le nom d'«hyperbole» (ajustement par excès) ayant remarqué que l'aire du carré dessiné sur l'ordonnée est supérieure à celle du rectangle dessiné sur l'abscisse et dont la hauteur serait fixe
+En 1757-1762
+, Vincenzo Riccati établit une relation entre l'aire d'un secteur angulaire dans une hyperbole et les coordonnées d'un point et définit les fonctions cosinus hyperbolique et sinus hyperbolique par analogie à la relation existant dans le cercle.
+Références
+Bibliographie
+* Jean-Denis Eiden, Géométrie analytique classique, Calvage & Mounet, 2009,
+* Bruno Ingrao, Coniques affines, euclidiennes et projectives, C&M
+Annexes
+Articles connexes
+Liens externes
+* http:/ courbes2d hyperbole.shtml
+* http:/ coursmath belges.htm Coniques et théorème de Dandelin
+h67rdmdgkye1g19fcdmfxxrbjgbhuq7

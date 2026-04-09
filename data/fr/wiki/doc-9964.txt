@@ -1,0 +1,64 @@
+Réseaux privés
+virtuels|*|Sécurité du réseau informatique|Protocole de communication chiffrée|Architecture réseau
+En informatique, un réseau privé virtuel, abrégé VPN
+(et RPV au Québec
+, est un système permettant de créer un lien direct entre des ordinateurs distants, qui isole leurs échanges du reste du trafic se déroulant sur des réseaux de télécommunication publics.
+On utilise notamment ce terme dans le travail à distance, ainsi que dans le cadre de l'informatique en nuage.
+Types
+Le VPN peut être de type point à point, utilisé entre un client et un concentrateur VPN (routeur spécialisé, pare-feu, ou logiciel sur ordinateur), sur Internet par le biais d'un logiciel de VPN.
+Dans une autre acception, le VPN peut exister sous la forme d'un réseau privé virtuel étanche et distribué sur un nuage MPLS.
+Les ordinateurs sur ce VPN y sont souvent raccordés physiquement, la notion de « virtuel » se rapportant alors au fait que l'infrastructure MPLS fait circuler plusieurs réseaux virtuels étanches entre eux.
+De façon plus générale les VPN peuvent être classés selon les protocoles, services, et type de trafic (couche OSI 2 ou 3) pouvant circuler en son sein.
+VPN client / concentrateur
+La connexion entre les ordinateurs est gérée de façon transparente par un logiciel de VPN, créant un tunnel entre eux.
+Les ordinateurs connectés au VPN sont ainsi sur le même réseau local (virtuel), ce qui permet de passer outre d'éventuelles restrictions sur le réseau (comme des pare-feux ou des proxys).
+Les principales techniques pour les postes clients
+Le VPN SSL
+Aussi appelé « clientless », car il ne nécessite pas l'installation d'un logiciel client ;
+un navigateur internet compatible avec l’ouverture des sessions HTTPS SSL/TLS est suffisant.
+Un tunnel VPN SSL ne permet pas de véhiculer différents protocoles de communication comme le VPN IPsec, mais des solutions existent ainsi :
+Pour le protocole RDP, l'ouverture d'un bureau distant utilisera l'accès Web aux services Bureau à distance (RD Web Access) qui permet d’accéder aux programmes RemoteApp et aux services Bureau à distance.
+Le VPN IPsec
+L'installation d'un logiciel « agent » est nécessaire afin d’établir un tunnel vers un serveur VPN.
+Un Tunnel VPN IPsec permet de véhiculer différents protocoles de communication tels que SSH, RDP, SMB, SMTP, IMAP, etc.
+Une technique alternative consiste à utiliser du L2TP/IPsec qui associe ces protocoles pour faire passer du PPP sur L2TP sur IPsec, en vue de faciliter la configuration côté client sous Windows.
+Intérêt
+Un VPN permet d'accéder à des ordinateurs distants comme si l'on était connecté au réseau local.
+Il permet d'avoir un accès au réseau interne (réseau d'entreprise, par exemple) ou de créer un réseau de pairs.
+Un VPN dispose généralement aussi d'une « passerelle » permettant d'accéder à l'extérieur, ce qui permet de changer l'adresse IP source apparente de ses connexions.
+Cela rend plus difficile l'identification et la localisation approximative de l'ordinateur émetteur par le fournisseur de service.
+Cependant, l'infrastructure de VPN (généralement un serveur) dispose des informations permettant d'identifier l'utilisateur : par exemple, les sociétés proposant des VPN gratuits ou payants peuvent récolter les données de navigation de leurs clients, ce qui relativise l'anonymat de ces services.
+Cela permet aussi de contourner les restrictions géographiques de certains services proposés sur Internet.
+Le VPN permet également de construire des « réseaux overlay », en construisant un réseau logique sur un réseau sous-jacent, faisant ainsi abstraction de la topologie de ce dernier.
+L'utilisation de VPN n'est généralement pas légalement restreinte.
+Elle l'est en Chine.
+VPN sur les routeurs
+Avec l’utilisation croissante des VPN, beaucoup ont commencé à déployer la connectivité VPN sur les routeurs.
+Ainsi, l’objectif étant de renforcer la sécurité et le chiffrement de la transmission de données en utilisant diverses techniques cryptographiques.
+À domicile, les utilisateurs déploient généralement des réseaux privés virtuels sur leurs routeurs pour protéger des périphériques: tels que des téléviseurs intelligents ou des consoles de jeux qui ne sont pas pris en charge par les clients VPN natifs.
+Les périphériques pris en charge ne sont pas limités à ceux capables d’exécuter un client VPN.
+De nombreux fabricants de routeurs fournissent des routeurs avec des clients VPN intégrés.
+Certains utilisent des microprogrammes open-source tels que .
+Chiffrement
+Les connexions VPN ne sont pas nécessairement chiffrées.
+Cependant si l'on ne chiffre pas, cela peut permettre à des éléments intermédiaires sur le réseau d'accéder au trafic du VPN, ce qui peut être problématique si les informations qui y transitent sont sensibles.
+De plus, des techniques de DPI permettent à des pare-feux de filtrer le trafic du VPN s'il n'est pas chiffré.
+Protocoles
+Un réseau privé virtuel utilise un ou plusieurs protocoles parmi les suivants :
+* GRE (Generic Routing Encapsulation)
+développé au départ par Cisco, à l'origine protocole transportant des paquets de couche 3, mais pouvant désormais aussi transporter la couche 2
+* PPTP
+Point
+-to
+Point tunneling Protocol) est un protocole transportant des trames de couche 2 (du PPP) développé par Microsoft, 3Com, Ascend, US Robotics et ECI Telematics.
+* L2F (Layer
+Two Forwarding) est un protocole transportant des trames PPP (couche 2) développé par Cisco Systems, Nortel et Shiva.
+Il est désormais obsolète.
+* L2TP (Layer
+Two Tunneling Protocol
+est l'aboutissement des travaux de l'IETF () pour faire converger les fonctionnalités de PPTP et L2F. Il s'agit ainsi d'un protocole transportant des sessions PPP (couche 2).
+* IPsec est un protocole transportant des paquets (couche 3), issu des travaux de l'IETF, permettant de transporter des données chiffrées pour les réseaux IP.
+Il est associé au protocole IKE pour l'échange des clés.
+*L2TP/IPsec est une association de ces deux protocoles (RFC 3193 sur un nuage MPLS, de niveau 2 (L2VPN) point à point, point à multipoint (VPLS), ou de niveau 3 (L3VPN) notamment en IPv4 (VPNv4) et 6VPE), par extension et propagation de VRF (Virtual routing and forwarding
+- tables de routage virtuelles)
+sur l'ensemble du réseau MPLS

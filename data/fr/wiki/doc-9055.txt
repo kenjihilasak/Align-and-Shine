@@ -1,0 +1,133 @@
+Composant électronique|Circuit électrique
+Un circuit électronique est un ensemble de composants électroniques interconnectés souvent à l'aide d'un circuit imprimé et dont le but est de remplir une .
+Description
+Un circuit électronique est souvent considéré comme une boîte noire comportant :
+* un ou plusieurs circuits d'alimentation électrique,
+** actifs (diode, transistor,
+triac, circuit intégré, microprocesseur)
+Les composants d’un circuit électronique sont essentiellement assemblés sur un support isolant (résine époxy), à une ou plusieurs couches et comportant des pistes conductrices et des connecteurs, appelé circuit imprimé sur lequel les composants sont de tous types dont les circuits intégrés eux mème constitués d'un ensemble de circuits électroniques regroupés dans un seul composant et destinés à réaliser une ou plusieurs fonctions.
+Les microprocesseurs sont constitués d'un ensemble de circuits intégrés et de composants regroupés dans le même boîtier servant à exécuter des programmes soit pour lesquels ils ont été conçu soit pour ceux qui lui sont fournis.
+Conception
+Un circuit électronique peut paraître complexe alors qu'il est souvent constitué de circuits électroniques indépendants, eux-mêmes constitués de modules, parfois appelés « étages ».
+Ces modules sont constitués eux-mêmes de modules élémentaires : les composants électroniques.
+Les principaux « étages » rencontrés en électronique sont :
+L’alimentation
+Une alimentation a pour but de générer du courant nécessaire au fonctionnement du circuit.
+Elle est donc constituée :
+* d’
+un capteur de puissance électrique (la prise électrique, ou un panneau solaire), qui sert à transformer une énergie en courant électrique ;
+* d’
+un étage de transformation, qui sert à rapprocher la tension électrique de la tension nécessaire aux autres composants.
+Il est souvent réalisé par un transformateur (à une ou plusieurs sorties), un redresseur et un filtre pour obtenir
+* un étage de lissage, qui assure la suppression des ondulations de la tension (suppression des parasites ou des pics dans le cas d’une tension continue).
+Ce lissage est souvent effectué par des condensateurs et des bobines ;
+* un étage de contrôle de la tension, qui garantit une tension d’alimentation toujours identique quelle que soit la puissance consommée par le circuit, grâce par exemple à un circuit avec une diode Zener.
+Les filtres
+Un filtre analogique sert à modifier la structure harmonique d’un signal analogique.
+On distingue différents types de filtres :
+* coupe-bande (ou réjecteur)
+pour supprimer un fréquence particulière (la fréquence de du secteur par exemple) ;
+* passe-bande pour ne laisser passer qu'une bande de fréquence (la bande UHF par exemple) ;
+* passe-haut (ou coupe-bas)
+pour supprimer tout ce qui est au-dessous d'une certaine fréquence (par exemple les fréquences basses du téléphone dans un filtre ADSL)
+* passe-bas (ou coupe-haut)
+pour supprimer tout ce qui est en dessus d'une certaine fréquence (par exemple les fréquences hautes tel qu'internet ou la télévision dans un filtre ADSL)
+La puissance
+Le module de puissance fonctionne avec quelques contraintes.
+Il doit :
+* posséder des composants électroniques adaptés à la tension de fonctionnement et à la puissance à gérer (isolation électrique, échauffement) ;
+* posséder un étage de protection (détection de surchauffe, de courts-circuits) ;
+* répondre aux normes encadrant l’utilisation de l’appareil.
+L’amplification
+L’amplification est réalisée au moyen d’un composant de base, le transistor, mais aussi souvent grâce à des circuits intégrés spécialisés.
+Le domaine de l’amplification est tellement utilisé en électronique, qu’au fil du temps, différents modules sont venus se greffer au transistor (lissage, rétrocontrôle, protection).
+Un composant intègre toutes ces fonctions : l’amplificateur opérationnel.
+Il contient un circuit électronique intégré constitué de transistors, condensateurs et diodes.
+L’informatique
+En électronique, on peut aussi voir un signal électrique comme porteur d’information.
+Ce département de l’électronique s’appelle l’informatique.
+L’acteur principal est le transistor, mais vu cette fois-ci comme un interrupteur.
+Le signal étant codé uniquement sur deux valeurs :
+Lors de la conception d'un circuit électronique pour l’informatique, on raisonne surtout avec ces deux chiffres (0 et 1), c’est donc un signal numérique qui est traité.
+Les principaux modules numériques sont :
+* les opérateurs logiques (assemblage de portes logiques)
+Le traitement informatique est souvent découplé du traitement analogique.
+Le pont entre ces deux mondes est réalisé par deux convertisseurs :
+* le convertisseur analogique-numérique qui permet acquérir la valeur d'une tension par exemple ;
+* le convertisseur numérique
+analogique
+qui permet de générer un son par exemple
+Autres
+Il existe beaucoup
+autres modules en électronique, parmi lesquels :
+** radio (portails électriques, fermeture centralisée d’une voiture, etc.
+* les circuits de transmissions de données, par exemple les bus informatiques, les lignes RS-232, USB, SATA ;
+* le multiplexage qui permet de mélanger plusieurs signaux dans le but de les transmettre par le même support, au moyen des opérations de multiplexage et démultiplexage ;
+* le modem permettant de transmettre des informations sur une ligne téléphonique aujourd'hui souvent sous forme d'ADSL ;
+* le timer : circuit intégré permettant de synchroniser différentes opérations entre plusieurs composants numériques en générant un signal d'horloge.
+Les interfaces
+Un circuit électronique peut avoir besoin d’informations extérieures, non électriques.
+Dans ce cas, il existe différents convertisseurs d’information et/ou d'énergie (transducteurs) :
+Les commandes
+Les principales commandes convertissant un phénomène physique en signal électrique sont :
+* l'interrupteur (signal binaire à la suite d'une pression solide)
+ex : bouton poussoir, fin de course)
+* le potentiomètre rotatif (angle de rotation) (ex : bouton de volume d’une chaîne hi-fi)
+* le potentiomètre linéaire (distance)
+ex : variateur de lampe halogène)
+* l’électroaimant (variations d’un champ magnétique)
+ex : micros de guitare)
+* le métal (champ électrostatique)
+ex : alarmes de voitures)
+* le capteur de pression
+pression fluide
+- gaz ou liquide) (ex : station météo)
+* le capteur piézo-électrique (signal analogique à la suite d'une pression solide)
+ex : balances)
+* le capteur de température (ex : thermomètre électronique)
+* le capteur chimique (molécule)
+ex : détecteur de monoxyde de carbone)
+* les barrières (passage d’un corps opaque devant un rayon)
+** infrarouge (ex : sonnette d’entrée des magasins, compte tours)
+* le capteur laser (disque optique) (ex : lecteur CD)
+* le capteur infrarouge (lumière infrarouge) (ex : téléviseurs)
+* le photorécepteur (quantité de lumière) (ex : éclairage nocturne automatique)
+* l’accéléromètre (accélération)
+ex : mesures d’accélération et de position)
+* l’électrode (
+variation du champ électrique)
+ex : électrocardiographe)
+Les actionneurs
+Les principaux convertisseurs permettant d’obtenir une action physique à partir d’un signal électrique (entre parenthèses le type de signal généré)
+sont :
+* le moteur électrique (rotation) (ex : voiture électrique)
+* le canon à électron (émission d’électrons) (ex : téléviseur)
+* l’électroaimant (champ magnétique)
+* le haut-parleur (variation de pression)
+* l’émetteur électromagnétique (rayonnement électromagnétique)
+** ampoule halogène (lumière visible)
+Led
+Oled (lumière visible monochromatique)
+** l’émetteur infrarouge (lumière infrarouge) (ex : télécommande)
+** l’émetteur micro-onde (micro-ondes) (ex : micro-ondes)
+** l’émetteur radio (ondes radio) (ex : émetteur radio)
+* la résistance (rayonnement thermique, chaleur) (ex : convecteurs)
+Les composants électroniques
+Les composants électroniques sont les éléments de base d'un circuit électronique, et possèdent chacun une fonction élémentaire.
+Ils appartiennent à deux grandes familles dont les représentants les plus courants sont cités dans la liste suivante :
+** (limitation du courant ou conversion courant-tension selon l'usage)
+** transistor et son précurseur, le tube
+** l'amplificateur opérationnel (composant actif permettant de réaliser les principales opérations mathématiques : addition, soustraction, multiplication, division, intégration, dérivation)
+sur des signaux analogiques ;
+** Circuits opérationnels (additionneur, soustracteur)
+Fabrication
+La première étape réside dans la fabrication du circuit imprimé permettant de connecter les composants les uns avec les autres.
+Une fois la carte électronique fabriquée s'ensuit l'étape d'assemblage, au cours de laquelle les composants électroniques sont soudés à la carte par brasage.
+Plusieurs techniques d'assemblage existent selon les types de composants :
+Composants traversants
+Historiquement les premières cartes électroniques utilisent des composants dit traversants, dont les pattes s'insèrent dans des trous métallisés.
+Ces composants sont soudés soit manuellement soit par soudure à la vague (en anglais ).
+Resistors (1).jpg|Résistances traversantes
+MOS6581 chtaube061229.jpg|Composants d'un ordinateur des années 1980.
+Composants montés en surface
+La technique de montage en surface des composants les plus récents appelés CMS, en anglais surface mount technology (SMT), est apparue dans les années 1960 et est devenue en 2018 la technique la plus utilisée dans l'industrie.

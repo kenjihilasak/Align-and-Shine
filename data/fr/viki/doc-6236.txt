@@ -1,0 +1,45 @@
+Tor
+Il est très souvent utilisé afin d'aller sur le dark web.
+Sommaire
+Prenons l'exemple d'une internaute nommée Alice :
+comme toutes les machines connectées à Internet, l'ordinateur d'Alice a une adresse IP.
+C'est cette adresse qui lui permet de communiquer avec les autres machines, par exemple les sites Web qu'elle visite : ces sites ont besoin de connaître l'adresse (IP) de la machine d'Alice pour lui envoyer les pages Web qu'elle demande.
+À cause
+de cette adresse IP, qui est associée à toutes ses actions sur Internet, Alice n'est pas anonyme :
+n'importe qui peut facilement savoir à peu près où elle se trouve, recouper ses différentes actions, etc.
+Son fournisseur d'accès à Internet, son gouvernement ou son employeur (si elle navigue au travail) peuvent même savoir précisément qui est derrière cette adresse IP.
+Cela peut être très gênant ou dangereux pour Alice, par exemple si elle exprime des idées interdites dans un pays qui ne respecte pas la liberté d'expression.
+En utilisant Tor, l'adresse IP d'Alice n'est plus dévoilée, ce qui lui permet de rester anonyme ;
+et même si son gouvernement pratique la censure, Alice peut quand même accéder aux sites Web censurés.
+Le fonctionnement de Tor : « le Tor d'Alice choisit au hasard un chemin sur Internet jusqu'à la machine qu'elle veut atteindre (« Bob »).
+Les liens en vert sont chiffrés, ceux en rouge non.
+Les machines marquées d'une croix verte sont des nœuds du réseau Tor.
+Imaginons
+qu'Alice veuille
+se connecter à Vikidia.
+Quand Alice n'utilise pas Tor, sa machine se connecte assez directement à celle de Vikidia.
+Le chemin emprunté par les données échangées entre Alice et Vikidia ressemble à : Alice ↔ machines du FAI d'Alice ↔ machines du FAI de Vikidia ↔ Vikidia.
+Toutes les machines entre Alice et Vikidia savent qu'Alice communique avec Vikidia, car les informations échangées (les « paquets ») entre Alice et Vikidia indiquent leur origine et leur destination.
+Quand Alice utilise
+Tor, le chemin est beaucoup moins direct (c'est pourquoi naviguer avec Tor est plus lent), comme le montre l'illustration ci-contre.
+Comme on veut cette fois empêcher tout le monde (sauf Alice) de savoir avec qui Alice communique, on ne peut pas laisser (comme avant) les paquets indiquer leur origine et leur destination.
+Tor va donc les envelopper dans de « faux » paquets, qui seront « épluchés » un par un (comme les couches d'un oignon, d'où le nom) en passant par les machines du réseau Tor (entre celles des FAI d'Alice et de Vikidia).
+Imaginons que Tor ait prévu d'utiliser deux machines du réseau Tor, nommées Mercure et Phébus :
+Alice envoie ses paquets enveloppés.
+Dans le FAI d'Alice (
+avant d'entrer dans le réseau Tor), les machines, qui lisent l'enveloppe la plus « extérieure » des paquets, croient qu'Alice veut communiquer avec Mercure (entrée du réseau Tor) et lui envoient donc les paquets
+Mercure sait qu'il faut éplucher les paquets d'Alice.
+Il en enlève la première couche et découvre qu'il doit transmettre les paquets à Phébus, mais il ne connaît pas leur destination finale (Vikidia) car elle n'est indiquée que par la couche la plus profonde, que seul Phébus peut lire.
+Phébus reçoit les paquets de Mercure (impossible de savoir qu'ils viennent d'Alice), enlève la couche suivante et découvre qu'il doit transmettre les paquets à Vikidia.
+Vikidia reçoit les paquets de la part de Phébus (avec peut-être quelques machines non-Tor entre elles), donc sans savoir qu'ils viennent d'Alice, et y répond par le même chemin.
+Les machines du réseau Tor (dans notre exemple, Mercure et Phébus) ne peuvent pas enlever aux paquets qu'ils reçoivent plus que leur couche la plus « extérieure », car chaque couche est chiffrée : seule la machine prévue peut « l'éplucher ».
+Jacob Appelbaum donnant une conférence sur Tor
+Conclusion :
+aucune machine ne sait qu'Alice a communiqué avec Vikidia :
+Mercure
+, le nœud d'entrée (dans le réseau Tor), sait qu'il a communiqué avec Alice, mais n'a pas entendu parler de Vikidia (seul le nœud de sortie, Phébus, le sait) ;
+Phébus sait qu'il a communiqué avec Vikidia et Mercure, mais Mercure lui masque les machines situées entre lui-même et Alice ;
+Vikidia voit les actions d'Alice comme provenant de l'adresse IP de Phébus, qui lui masque toutes les machines situées entre lui-même et Alice.
+Tor propose également des « services cachés », accessibles uniquement à travers Tor et donc invisibles depuis le réseau Internet classique.
+Tor fait partie des outils utilisés ou encouragés par Edward Snowden2.
+De nombreuses personnes participent à l'élaboration de Tor3, mais le visage le plus connu du projet est celui de son porte-parole Jacob Appelbaum, hacker également connu comme membre actif de Wikileaks4.

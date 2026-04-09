@@ -1,0 +1,303 @@
+Astrophysique|Électromagnétisme|Biomécanique|Relativité|Biomathématiques|Vitesse de la lumière|Propagation des ondes radioélectriques
+Leffet Doppler, ou effet Doppler-Fizeau, est le décalage de fréquence d’une onde (mécanique, acoustique, électromagnétique ou d'une autre nature) observé entre les mesures à l'émission et à la réception, lorsque la distance entre l'émetteur et le récepteur varie au cours du temps.
+Si on désigne de façon générale ce phénomène physique sous le nom d'effet Doppler, le nom d'« effet Doppler-Fizeau » est réservé aux ondes électromagnétiques.
+Cet effet fut présenté par Christian Doppler en 1842 dans l'article Sur la lumière colorée des étoiles doubles et de quelques autres astres du ciel (), confirmé sur les sons par le chercheur néerlandais Buys Ballot (en utilisant des musiciens jouant une note calibrée sur un train de la ligne Utrecht-Amsterdam), et fut également proposé par Hippolyte Fizeau pour les ondes électromagnétiques en 1848.
+L'effet Doppler
+L'effet Doppler se manifeste par exemple pour les ondes sonores dans la perception de la hauteur du son d’un moteur de voiture, ou de la sirène d’un véhicule d’urgence.
+Le son est différent selon que l’on se trouve à l'intérieur du véhicule (l’émetteur étant immobile par rapport au récepteur), ou que le véhicule se rapproche du récepteur (le son étant alors plus aigu) ou s’en éloigne (le son étant plus grave).
+Il faut cependant remarquer que la variation de la hauteur du son dans cet exemple est due à la position de l'observateur par rapport à la trajectoire du mobile.
+En effet, la vitesse du mobile perçue par l'observateur v_ varie suivant l'angle \theta formé par sa ligne de visée vers le mobile et la trajectoire de celui-ci.
+On a : v_=v_\cdot \cos.
+Il n'y a pas de modulation si l'observateur est exactement sur la trajectoire et va à la même vitesse et dans le même sens que l'émetteur.
+Cet effet est utilisé pour mesurer une vitesse, par exemple celle d’une voiture, ou bien celle du sang lorsqu’on réalise des examens médicaux, notamment les échographies en obstétrique ou en cardiologie.
+Il revêt une grande importance en astronomie car il permet de déterminer directement la vitesse d’approche ou d’éloignement des objets célestes (étoiles, galaxies, nuages de gaz).
+Toutefois, le décalage vers le rouge cosmologique, qui traduit la fuite apparente des galaxies et constitue une preuve de l’expansion de l’espace, est d’une autre nature : il n’est pas justifiable par un effet Doppler car il est dû (de façon imagée) à un étirement de l’espace produisant lui-même un étirement des longueurs d’onde (la longueur d’onde d’un rayonnement suivant fidèlement la taille de l’Univers).
+Explication physique
+Imaginons
+le cas d'une personne sur une plage, debout dans l’eau, au bord du rivage.
+Des vagues arrivent à ses pieds toutes les dix secondes.
+La personne marche en direction du large : elle va à la rencontre des vagues, celles-ci l’atteignent alors avec une fréquence plus élevée, par exemple toutes les huit secondes.
+Lorsque cette personne se met à courir vers le large, les vagues l'atteignent alors toutes les cinq secondes.
+Lorsque cette personne fait demi-tour, et marche puis court en direction de la plage, les vagues l’atteignent avec une fréquence moins élevée, par exemple toutes les douze, puis quinze secondes.
+La fréquence des vagues ne dépend pas du mouvement de la personne par rapport à l’eau (elle est notamment indépendante de la présence ou non d’un courant), mais du mouvement de la personne par rapport à l’émetteur des vagues (en l’occurrence un lieu au large où le courant s’oppose au vent).
+De manière inverse, on peut imaginer une source mobile de vagues, par exemple un aéroglisseur dont le jet d’air générerait des vagues à une fréquence régulière.
+Si l’aéroglisseur se déplace dans une direction, alors les vagues sont plus resserrées vers l’avant du mouvement et plus espacées vers l’arrière du mouvement ;
+sur un lac fermé, les vagues frapperont la berge à des fréquences différentes.
+Formulation mathématique
+Effet Doppler-
+Fizeau galiléen
+Supposons que l’émetteur et le récepteur se déplacent sur une même droite.
+Il y a trois référentiels galiléens à considérer :
+# Le référentiel du milieu dans lequel se propage l’onde (par exemple l’atmosphère pour une onde sonore).
+On note c la célérité de l’onde dans ce référentiel (ce n’est pas forcément la vitesse de la lumière).
+# Le référentiel lié à l’émetteur (source) : appelons vem la vitesse algébrique de l’émetteur (source) par rapport au référentiel (1).
+# Le référentiel lié au récepteur : appelons vrec la vitesse du récepteur par rapport au référentiel (1).
+Par convention, les vitesses seront comptées comme positives suivant la direction et dans le sens de propagation du signal (de l’émetteur vers le récepteur).
+Ainsi une vitesse vem positive et vrec négative correspondra à un rapprochement entre source et récepteur tandis qu’une vitesse vem négative et vrec positive correspondra à un éloignement.
+Si ƒem est la fréquence de l’onde dans le référentiel de la source, alors le récepteur va recevoir une onde de fréquence ƒrec
+\frac
+\cdot f
+\frac\cdot f_
+En effet, supposons que la source émette des bips à une fréquence ƒem et que le mouvement relatif entre émetteur et récepteur se fasse selon la droite les joignant.
+Lorsque le deuxième bip est produit, le premier bip a parcouru une distance
+d0 = c·Tem
+dans le référentiel (1)
+avec Tem = 1/ƒem.
+La source s’étant déplacée de vem·Tem pendant le temps Tem, la distance séparant deux bips est
+:d1 = (c
+- vem)·Tem.
+Calculons le temps Trec séparant la détection des deux bips par le récepteur.
+Ce dernier reçoit le premier bip.
+Au bout de ce temps Trec, il a parcouru la distance vrec·Trec au moment où il reçoit le deuxième bip.
+Durant ce laps de temps Trec, le deuxième bip aura donc parcouru la distance
+d1 + vrec·Trec
+c·Trec,
+ce qui donne bien :
+\cdot
+\cdot f
+Si seule la source est mobile par rapport au référentiel (vrec = 0), on a alors :
+\frac
+\cdot f
+\frac\cdot f_
+et si seul le récepteur est mobile par rapport au référentiel (vem = 0), on a :
+\frac
+\cdot f
+\left (1
+- \frac\right)\cdot f_
+Les deux situations ne sont pas symétriques : en effet, si le récepteur « fuit » l’émetteur à une vitesse supérieure à c, il ne recevra jamais d’onde, alors que si l’émetteur fuit un récepteur immobile, celui-ci recevra toujours une onde.
+On ne peut pas inverser le rôle de l’émetteur et du récepteur.
+Dans le cas classique, il y a dissymétrie dans le décalage fréquentiel selon que l’émetteur ou le récepteur est en mouvement (les fréquences reçues diffèrent par les termes du second ordre pour une même fréquence d’émission).
+Cette dissymétrie est due à la présence du milieu dans lequel se propagent les ondes, elle est justifiée pour les ondes sonores.
+Effet
+Doppler et invariance
+galiléenne
+On peut vérifier que la formule:
+\frac
+\cdot f
+\frac\cdot f_
+résulte directement de l'invariance galiléenne des longueurs (ici la longueur d'onde) qui s'écrit en notant respectivement T_m et cT_m = \lambda_m la période et la longueur d'onde dans le référentiel du milieu de propagation au repos:
+cT_m = \lambda_m .
+La longueur d'onde qui est la même dans les trois référentiels ne dépend que de la vitesse de la source par rapport au référentiel de référence:
+\lambda_
+cT_m = \lambda_m .
+Calcul relativiste rapide
+Dans le cas d’ondes électromagnétiques dans le vide
+, la vitesse de l’onde est la vitesse de la lumière, elle ne dépend pas du référentiel.
+On doit alors traiter le problème dans le cadre de la relativité restreinte et on s’attend alors à trouver un effet parfaitement symétrique puisqu’on ne peut pas distinguer entre vitesse de l’émetteur et vitesse du récepteur, seule comptant la vitesse relative entre les deux.
+Cependant dans le cas d’ondes électromagnétiques dans un milieu diélectrique, la vitesse de l’onde dépend de la nature du milieu (et notamment de son indice de réfraction) et du référentiel (combinaison de la vitesse de l'onde dans le milieu diélectrique et de la vitesse du milieu diélectrique dans le référentiel considéré) comme le montre l'expérience de Fizeau.
+Avant de donner la formule de l’effet
+Doppler relativiste dans le cas général, voici d’abord une démonstration simplifiée rapide de la formule relativiste dans le cas où tous les mouvements se font le long d’un même axe, celui le long duquel se propage le signal.
+Le principe du calcul consiste à tenir compte de l’effet de dilatation du temps qui accompagne le passage d’un repère au repos à un repère en mouvement.
+Changeons de notation
+avant de passer à une symétrisation du problème
+La vitesse entre l’émetteur et le récepteur sera notée v et sera comptée comme positive si elle correspond à une vitesse d’éloignement.
+C’est la convention généralement adoptée en astronomie pour la vitesse radiale.
+Par conséquent si la source se déplace seule, sa vitesse des formules antérieures est vem
+et si c’est le récepteur qui se déplace seul, sa vitesse est vrec
++v.
+* Considérons d’abord que c’est la source qui se déplace.
+Si on la calculait par la formule classique précédente, la fréquence du signal à la réception serait
+\frac
+\frac\
+avec \ \beta
+=v \sqrt
+- \beta^2)^ \
+qui augmente les durées mesurées par le récepteur fixe, la fréquence observée diminuera par le facteur inverse
+- (v^2/c^2)^ de sorte que la fréquence frec devient
+\frac
+\frac
+f_ = \sqrt f_ \,
+* Considérons maintenant que c’est le récepteur qui se déplace.
+Avec la formule galiléenne nous aurions
+:f_ = (1 - \beta) f_\ .
+Comme précédemment, il faut tenir compte du facteur relativiste γ .
+Ici, c’est le récepteur qui est en mouvement et la source qui est fixe.
+C’est l’expression de f_
+= f_
+c^2)^. Nous obtenons donc la même formule que précédemment :
+\frac
+\frac
+f_ = \sqrt f_\ ,
+qui montre que l’effet Doppler est parfaitement symétrique et ne dépend que de la vitesse relative entre l’émetteur et le récepteur.
+Cette symétrie a été exploitée par le physicien Hermann Bondi à des fins
+pédagogiques
+dans sa méthode de calcul par le facteur k
+Bondi's k-calculus)
+, graphiquement représentée par le diagramme de Bondi.
+L’effet
+Doppler relativiste combine
+deux effets, l’effet galiléen et l’effet de ralentissement des horloges
+Le premier fait intervenir la vitesse radiale entre source et observateur, le second la valeur de la vitesse totale.
+Si l’on considère le cas plus classique d’une onde électromagnétique progressive plane monochromatique se déplaçant dans R le long des x avec un champ électrique selon l’axe des y
+\vec = E_0 \cos (kx -\omega t)\vec
+et un champ magnétique
+\vec
+B_0 \cos (kx -\omega t)\vec
+\frac \cos (kx -\omega t)\vec
+et si l’on considère un référentiel R’ mû d’une vitesse v par rapport à R comme on a :
+:ct= \gamma ct' + \beta\gamma x'
+:x= \gamma x' + \beta\gamma ct'
+alors
+kx -\omega t
+k (\gamma x' + \beta\gamma ct')
+-\omega\left (\gamma t' + \beta\gamma \frac\right) et \frac
+:kx -\omega t = k\gamma (1-\beta)
+x' -\omega\gamma (1-\beta)t'
+On a un nouveau vecteur d’onde k'
+k\gamma (1-\beta) et une nouvelle pulsation \omega'
+\omega\gamma (1-\beta)
+Le tenseur de Maxwell permet de trouver les transformations de E0
+En l’occurrence
+:\frac= \gamma (1-\beta)\frac de même pour B
+La nouvelle onde dans R’
+\vec = E'_0 \cos (k'x -\omega t')\vec
+:= \gamma (1-\beta) E_0 \cos\left (k\gamma (1-\beta) x -\omega\gamma (1-\beta)t\right)\vec
+On retrouve la proportionnalité entre l’augmentation de l’énergie et l’augmentation de la fréquence en intégrant la densité d’énergie \frac\left (\vec E^2 \epsilon_0 + \frac\right) sur un volume V'= \gamma (1+\beta)V
+est-à-dire si U’ est l’énergie de l’onde dans R’ et U dans R alors \frac
+\gamma (
+1-\beta
+\frac
+Effet Doppler-
+Fizeau
+relativiste
+En relativité restreinte, un photon est entièrement caractérisé par son quadrivecteur énergie-impulsion
+Cette quantité est définie indépendamment de tout système de coordonnées mais il est utile lorsqu’on veut faire des mesures ou des calculs algébriques de préciser la valeur des composantes de ce quadrivecteur.
+Si, dans un système de coordonnées, la fréquence du photon est \nu et le vecteur unitaire le long du trajet du photon est le vecteur à \vec, le quadrivecteur P
+est
+\mathbf
+\left (\frac, \,\frac\, \vec\right)
+p_0,\, p_1,\,p_2,\,p_3)
+où h est la constante de Planck.
+Considérons une étoile
+dont nous recevons les photons sur Terre.
+Choisissons un repère terrestre
+Oxyz
+tel que l’axe
+Ox soit orienté le long de la vitesse v de l’étoile.
+La relativité restreinte nous apprend alors que les composantes (p'_0,\, p'_x, \,p'_y,\, p'_z) d’un quadrivecteur P dans le repère en mouvement de l’étoile se transforment dans les composantes (p_0,\, p_x,\, p_y,\, p_z) dans le repère terrestre selon les formules de Lorentz suivantes
+:\begin
+p_0 = \gamma (
+p'_0 + \beta p'_x)
+p_x
+= \gamma (\beta p'_0 + p'_x)\\
+p_y
+= p'_y\\
+p_z = p'_z
+\end
+avec toujours
+\beta
+v \sqrt
+En utilisant les notations des paragraphes précédents, les fréquences du photon sont \nu \,
+\,f_
+dans le repère terrestre et \nu'\,
+\,f_
+dans le repère de l’étoile émettrice
+Les équations de Lorentz donnent alors (les composantes du quadrivecteur sont proportionnelles à la fréquence et le facteur commun de proportionnalité h/c disparaît)
+:f_ = \gamma (1 + \beta\cos\theta') f_\ \,,
+où \theta
+' est l’angle que fait le photon avec l’axe
+Ox dans le repère de l’étoile.
+Si la quantité \beta'_ correspond à la composante radiale de la vitesse relative entre émetteur et récepteur dans le repère de l’étoile, c’est-à-dire
+:\beta'_ = v\cos\theta'/c \,
+on peut écrire la formule
+Doppler relativiste sous la forme
+f_ = \frac\,f_ \,
+qui redonne les formules présentées ci-dessus quand on prend \cos\theta'=-1.
+L’effet relativiste est
+en quelque sorte la combinaison de l’effet
+Doppler classique dû à la vitesse radiale et du phénomène de ralentissement des horloges inhérent à la relativité restreinte.
+Trouvons l’angle \theta
+que fait le rayon lumineux avec l’axe
+Ox dans le repère terrestre.
+La différence entre les directions du photon dans le repère terrestre et le repère de l’étoile constitue le phénomène d’aberration de la lumière.
+D’après les équations de Lorentz écrites
+dessus
+, on a :
+\begin\cos\theta
+p_x (
+1 + \beta\cos\theta')\\
+\sin\theta
+p_y (1+\beta\cos\theta')
+\end
+Ces formules donnent une description relativiste complète de l’effet Doppler-Fizeau.
+Il y a une subtilité à saisir dans le phénomène d’aberration.
+Si le photon se propage radialement dans un repère, il le fera aussi dans l’autre.
+Autrement dit, si \cos\theta'\,
+\,-1 alors \cos\theta\,
+\,-1.
+En revanche, si la vitesse est perpendiculaire à la direction du photon dans un repère, elle ne le sera pas en toute rigueur dans l’autre.
+En effet si
+\cos\theta'\,
+\,0 alors \cos\theta\,
+\,\beta.
+Et si \cos\theta\,
+\,0 alors \cos\theta'\,
+\,-\beta.
+Applications
+L’effet
+Doppler est utilisé dans des domaines où la mesure de la vitesse de déplacement d’un milieu ou d’un mobile est requise.
+On peut citer les applications suivantes.
+Astronomie
+L’effet
+Doppler est particulièrement précieux en astronomie car il renseigne à la fois sur le mouvement des astres et sur les mouvements de matière à l’intérieur de ces astres.
+L’effet Doppler permet de déterminer directement la vitesse radiale d’une étoile.
+En effet en étudiant le spectre d’un astre, on constate que les raies spectrales sont décalées en longueur d’onde par rapport aux mêmes raies observées en laboratoire.
+Le décalage d’une raie visible se produit soit vers le rouge, ce qui indique que l’étoile s’éloigne, soit vers le bleu, si elle se rapproche.
+La mesure de la vitesse des étoiles ou des nuages de gaz interstellaire a permis de préciser les mouvements de matière à l’intérieur de la Voie lactée et d’en déterminer la structure spirale.
+L’effet Doppler explique pourquoi les raies observées présentent une largeur en longueur d’onde supérieure à la largeur naturelle.
+En effet, par suite de l’agitation thermique, une moitié des atomes émettant la lumière se déplace vers l’observateur, avec une diminution correspondante de la longueur d’onde et l’autre moitié s’en éloigne, avec une augmentation de la longueur d’onde.
+La largeur caractéristique d’une raie λ est mesurée par une quantité appelée largeur Doppler directement proportionnelle à la vitesse moyenne d’agitation thermique et donnée par la formule
+:\Delta \lambda_\text = (\lambda_0/c) \sqrt
+où k est la constante de Boltzmann et m la masse des atomes considérés.
+La largeur d’une raie est donc une indication de la température de l’étoile observée.
+L’agitation thermique n’est pas la seule cause d’élargissement : des mouvements turbulents sont présents dans tous les milieux astrophysiques et contribuent à déformer et élargir les raies.
+Radar
+Un radar est un appareil qui émet des paquets d’ondes et écoute ensuite le retour de cible.
+Si ces cibles se déplacent, un effet Doppler est engendré ce qui permet d’en tirer la vitesse radiale de leur déplacement.
+Le radar peut donc être adapté pour utiliser ce principe.
+* Radar de contrôle routier : la police et la gendarmerie utilisent des radars
+pour déterminer la vitesse des automobiles
+Pour cela ils utilisent un radar dont la fréquence est parfaitement connue.
+La mesure de la fréquence de l’écho donne la vitesse du véhicule.
+La technologie moderne permet aujourd’hui d’avoir des radars automatiques et des jumelles laser.
+* Radar météorologique :
+on utilise non pas la variation de la fréquence par l’effet Doppler dans un radar météorologique, car celle-ci est trop petite, mais plutôt la variation de la phase entre deux impulsions revenant des précipitations.
+Ceci est un effet de second ordre Doppler.
+* Profileur de vents :
+c’est un radar météorologique pointant verticalement et qui mesure la vitesse de chute et de déplacement horizontal des précipitations.
+* Radar de mesure balistique :
+de nombreuses mesures balistiques sont effectuées grâce au radar Doppler.
+Il permet de mesurer la vitesse du projectile (calibre de , éclat par exemple jusqu’au missile), et surtout la mesure du V0 (vitesse initiale du projectile à la sortie de la bouche du canon), la vitesse à l’impact (mise au point de gilet pare-balle, par exemple), la vitesse de rotation du projectile ainsi que sa trajectographie et son coefficient de traînée.
+La gamme de mesure de vitesse va de à , ce qui couvre la majorité des applications dans le domaine de la balistique.
+Rappelons que pour effectuer une bonne prise de mesure de vitesse, les coordonnées x, y et z de positionnement du radar Doppler par rapport à la bouche du canon de l’arme sont rentrées au mm près dans le logiciel d’analyse et de traitement des données.
+Les fréquences d’émission en mode CW ()
+couramment utilisées sont et .
+La distance de mesure est fonction du calibre et de la fréquence d’émission du radar Doppler.
+La fréquence de permet d’obtenir une résolution meilleure qu’à la fréquence de , mais la distance de mesure est pratiquement moins importante.
+Lidar
+Sur le même principe qu’un radar, le lidar utilise
+un laser pour mesurer le déplacement des particules.
+Il est utilisé en météorologie comme profileur de vents ou comme anémomètres laser (LDV) pour la mesure de vitesses d’écoulement des fluides.
+En médecine
+En 1958
+, le doppler continu (qui est un cristal émettant et recevant en continu des ultrasons) permit l’étude de la circulation sanguine dans les vaisseaux (Rushmer).
+Le premier doppler pulsé (émission de l’ultrason en discontinu et fenêtre d’écoute temporelle fixée, permettant d’analyser la vitesse du sang à une profondeur définie) a été introduit par Baker en 1970.
+Le doppler, couplé ou non à un examen échographique, permet d’analyser la vitesse du sang.
+On peut ainsi quantifier des débits, des fuites ou des rétrécissements.
+En effet, l’échodoppler est utilisé en médecine pour mesurer la vitesse des hématies et pour calculer le diamètre d’un vaisseau sanguin (aorte…).
+* En cardiologie, on peut analyser la vitesse des parois cardiaques à l’aide du doppler tissulaire, c’est l’imagerie doppler des tissus, ou TDI ()
+Maritime
+Antennes de repérage d'urgence
+Le radiogoniomètre de repérage d’urgence à effet
+Doppler est constitué d’un groupe de (alimentées électroniquement les unes après les autres pour déterminer la direction de la station en difficulté) sur les fréquences : et .
+En France, cet équipement est obligatoire sur les vedettes d’assistance, de surveillance et de sauvetage.
+Loch doppler
+Les grands navires utilisent un loch doppler pour mesurer leur vitesse lors d’un accostage.
+Autres
+Plusieurs appareils utilisent l’effet Doppler dans les laboratoires expérimentaux de physique et les applications de télédétection ainsi que dans certains détecteurs d’alarme de type bivolumétrique ou double
+technologie.
+Mentionnons le vibromètre laser pour la mesure de vibrations en mécanique, le sonar et l’interféromètre.
+L'effet Doppler est aussi utilisé sur certains débitmètres, pour la mesure de liquide dans une canalisation pleine.
+Lors des recherches entreprises pour retrouver les traces du vol MH370 disparu en vol le 8 mars 2014, les enquêteurs britanniques ont utilisé l'effet Doppler.
+Car l'un des systèmes de l'avion reçoit un signal satellite chaque heure et lui répond.
+Les variations du délai de réponse à ce signal ont permis de reconstituer la trajectoire de l'avion.

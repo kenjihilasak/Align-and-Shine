@@ -1,0 +1,29 @@
+Si definisce triangolo scaleno un triangolo i cui tre lati non sono congruenti o, equivalentemente, un triangolo i cui tre angoli sono diversi.
+In effetti la prima definizione equivale a definire i triangoli scaleni come triangoli non isosceli;
+ma questi, per il teorema noto come pons asinorum, oltre a definirsi come i triangoli con almeno due lati congruenti, possono definirsi come i triangoli con almeno due angoli congruenti;
+quindi i triangoli scaleni sono esattamente i triangoli con i tre angoli diversi.
+Classificazione dei triangoli scaleni e classi di similitudine dei triangoli
+Come per i triangoli isosceli, ogni trasformazione di similitudine trasforma un triangolo scaleno in un altro triangolo scaleno;
+di conseguenza anche i triangoli isosceli si possono opportunamente ripartire in classi di similitudine.
+I triangoli isosceli sono invarianti solo per le similitudini e il gruppo di simmetria di una classe di similitudine di triangoli scaleni si riduce alla sola trasformazione identità.
+Vediamo ora come si possono classificare le classi di similitudine dei triangoli scaleni.
+Ciascuna classe si può rappresentare con un triangolo scaleno il cui lato maggiore ha lunghezza 1 e possiamo ricondurre il suddetto problema di classificazione al problema della parametrizzazione di questi triangoli rappresentativi.
+A questo fine consideriamo il triangolo curvilineo che ha come vertici A e B estremi del segmento AB di lunghezza 1 (che tracciamo orizzontalmente) e V, terzo vertice del triangolo equilatero avente come lato AB posto al di sopra dello stesso AB;
+T è delimitato da AB, dall'arco AV della circonferenza con centro in B e raggio 1 e dall'arco VB della circonferenza con centro in A e raggio 1.
+Inoltre chiamiamo M il punto medio di AB, S la semicirconferenza di centro in M e raggio 1/2 posta al di sopra di AB ed O il punto di intersezione della mediana VM con la S.
+Si osserva che muovendo C all'interno e sulla frontiera di T si individuano tutte le classi di similitudine dei triangoli.
+* Per C=O si ha il triangolo isoscele rettangolo con l'ipotenusa di lunghezza 1 e i cateti di lunghezza 1/\sqrt 2.
+* Se C si trova tra M ed O si hanno i triangoli isosceli ottusangoli.
+* I triangoli isosceli acutangoli con base più lunga dei lati uguali si ottengono con C all'interno di OV;
+i triangoli isosceli acutangoli con base più corta dei lati uguali si ottengono con C all'interno dell'arco AV;
+facendo variare C sull'arco BV si ottengono gli stessi triangoli in quanto due triangoli ABC1 e ABC2 con C1 nell'arco AV e con C2 nell'arco BV ottenuto dal precedente per riflessione rispetto alla mediana forniscono triangoli trasformabili l'uno nell'altro con una rotazione.
+* Ogni punto C interno di AM determina un triangolo degenere ottenibile facendo tendere un vertice C verso un punto del lato opposto AB;
+ogni punto di MB individua una entità equivalente a quella determinata dal punto simmetrico rispetto ad M.
+* I triangoli rettangoli sono individuati da C che varia sulla semicirconferenza S;
+due triangoli ABC1 e ABC2, dove ancora C1 e C2 denotano due punti simmetrici rispetto alla MV individuano due triangoli rettangoli trasformabili l'uno nell'altro solo ricorrendo a una riflessione.
+* Ogni punto C dell'insieme D dei punti interni al triangolo T non appartenenti ad MV individua biunivocamente un triangolo scaleno rappresentativo di una classe di similitudine;
+infatti i triangoli corrispondenti a C in D hanno lati diversi con AC e BC più corti di AB.
+* Consideriamo due punti C1 e C2 simmetrici rispetto alla mediana MV, il primo appartenente alla metà sinistra di D, il secondo alla destra;
+essi determinano due triangoli scaleni trasformabili l'uno nell'altro solo ricorrendo ad una riflessione, in particolare con la riflessione rispetto alla MV;
+si osserva che il secondo di questi ABC2 si può anche ottenere dal primo ABC1 sottoponendolo alla riflessione rispetto alla retta contenente AB e successivamente alla rotazione di π intorno ad M.
+* Quando C si trova al di sotto della semicirconferenza S si hanno i triangoli scaleni ottusangoli, quando si trova sulla S (diverso da O) i triangoli scaleni rettangoli e quando si trova al di sopra della S i triangoli scaleni acutangoli.

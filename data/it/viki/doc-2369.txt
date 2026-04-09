@@ -1,0 +1,23 @@
+CSS
+Il CSS è un linguaggio utilizzato per definire lo stile delle pagine web scritte in HTML e linguaggi simili.
+Serve principalmente a renderle più appetibili graficamente.
+Il CSS può essere utilizzato creando un nuovo foglio di lavoro con estensione .css
+oppure può essere inserito all'interno del codice HTML (nel prossimo paragrafo si vede come fare).
+La prima versione di questo linguaggio è stata pubblicata nel 1996.
+Siamo ora giunti alla sua terza versione.
+Il CSS può essere inserito nella sezione head all'interno dell'elemento style.
+Il CSS qui sotto inserito rende il testo contenuto nell'elemento h1 di colore rosso, con un font sans-serif e grande 20 pixel (abbreviato:
+px).
+Il mio sito web h1{color:red;font-family:
+Sans-Serif;font-size:20px;
+Benvenuto nel mio sito web
+Il CSS può essere inserito anche direttamente all'interno di un tag (o elemento) nel corpo della pagina, cioè nel body per stilizzare velocemente qualcosa.
+Il mio sito web Benvenuto nel mio sito web
+Il CSS inserito nell'attributo style direttamente nel tag h1 ha lo stesso identico effetto del CSS inserito prima nell'head.
+Infine, possiamo utilizzare il CSS anche in un foglio di stile separato.
+Per farlo bisogna creare un file con l'estensione .css e "collegarlo" al file HTML attraverso il tag link, che deve assolutamente essere inserito dopo il tag title (nell'head).
+Il mio sito web
+Benvenuto nel mio sito web
+Poi si può cominciare a scrivere il codice CSS nel nuovo foglio di stile creato.
+Tutti e tre i metodi qui elencati hanno lo stesso identico effetto, ovvero attribuire al contenuto dell'h1:
+il colore rosso, il font sans-serif e la grandezza di 20px.

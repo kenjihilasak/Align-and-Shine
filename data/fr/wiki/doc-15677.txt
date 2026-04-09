@@ -1,0 +1,46 @@
+Logiciel libre sous licence GPL|KDE|Gestionnaire de fichiers|Navigateur web|Logiciel pour Unix|Navigateur web utilisant KHTML
+Konqueror est un navigateur web et un gestionnaire de fichiers libre de l'environnement de bureau libre KDE.
+Il peut également afficher le contenu d'un serveur FTP, permettre de parcourir le réseau local et de visualiser des fichiers.
+Interface
+utilisateur
+Profils d'affichage
+Il est possible de se créer différents profils d'affichage autres que ceux disponibles par défaut, et dans lesquels on peut ajouter, arranger, voire supprimer des panneaux d'information ou des boutons.
+Par exemple, il est possible d'afficher le panneau de signets (encore connus sous le nom de marque-pages ou favoris) sur un côté du navigateur, permettant d'un simple clic sur un signet d'afficher la page correspondante sur le panneau de navigation.
+Il est également possible d'afficher un panneau contenant l'arborescence des répertoires, ou encore sa collection de musiques, de vidéos, d'images, et de conjuguer l'utilisation de Konqueror avec des logiciels tels que Amarok, Kaffeine ou encore KuickShow.
+Konqueror permet aussi de séparer en plusieurs parties la zone d'affichage afin d'offrir des vues sur plusieurs répertoires (locaux ou distants) simultanément.
+Il est donc "multi-panels" (plus que quatre si on veut).
+Fonctions de navigation
+La quasi-totalité de l'interface peut-être configurée pour répondre à des raccourcis clavier, la plupart étant déjà prédéfinis (comme F11 pour basculer en affichage plein écran, etc.), permettant ainsi d'effectuer la totalité des opérations au clavier.
+La barre d'adresse a un support étendu d'.
+Quel que soit le profil d'affichage utilisé, Konqueror permet la navigation par onglet.
+Navigateur
+web
+Konqueror a été développé comme navigateur
+Web indépendant.
+Il utilise KHTML comme moteur de rendu des pages, lequel répond aux normes HTML.
+Il supporte le JavaScript, les applets Java, les feuilles de style en cascade, SSL et d'autres standards, ainsi que les animations Flash et le streaming vidéo.
+Ce même moteur a été repris par Apple dans son navigateur Safari.
+Pour démontrer la nature très modulaire de Konqueror, un module avait été développé pour pouvoir utiliser le moteur de rendu Gecko de Mozilla en lieu et place de KHTML.
+Ce module s'appelle kmozilla et peut être trouvé dans le paquetage kdebindings mais il n'est plus maintenu car l'interface de communication avec Gecko évoluait trop souvent.
+Ce module n'était qu'une démonstration de la flexibilité de la technologie KParts.
+Cependant, le 11 septembre 2004, un nouveau projet de port de Gecko sur Konqueror est apparu, semble-t-il plus complet que le précédent.
+Konqueror intègre plusieurs services de recherche qui peuvent être consultés en saisissant le code d'abréviation du service (par exemple « gg: » pour Google), suivi des termes de la recherche.
+Après l'avoir implémenté dans Safari, David Hyatt a récemment offert aux développeurs de Konqueror les améliorations apportées à KHTML lui permettant de passer le très sélectif test Acid2.
+Safari et Konqueror sont donc les deux premiers (rejoints depuis par la version 9.0 d'Opera et 3.0 de Firefox) navigateurs Web à passer ce test.
+Depuis la version 4.5 de KDE, il est possible d'utiliser le moteur de rendu Webkit par le biais de Kparts à la place de KHTML.
+Ce dernier reste le moteur de rendu par défaut, mais cette configuration peut être modifiée.
+La future version de Konqueror devrait utiliser QtWebKit, l'intégration dans Qt 4.4 du moteur de rendu de pages web WebKit, lui-même dérivé de KHTML et KJS.
+Gestionnaire de fichiers
+Comme Internet Explorer, Konqueror permet l'affichage des dossiers locaux, soit en saisissant l'emplacement dans la barre d'adresses, soit en choisissant des éléments dans la fenêtre du gestionnaire de fichiers.
+Il permet l'affichage de différentes manières, qui diffèrent par leur utilisation des icônes et par leur disposition, de façon comparable à Windows.
+Un aperçu de plus grande taille s'affiche lorsque le pointeur passe au voisinage d'un fichier.
+Cet aperçu est d'autant plus détaillé que le pointeur s'attarde sur celui-ci, de façon paramétrable par l'utilisateur.
+Certains logiciels spécialisés dans la copie de fichiers peuvent ou pourront replacer le système de copie par défaut, comme Ultracopier dans sa version KDE.
+Visualiseur de fichiers et lecteur
+vidéo
+En utilisant le modèle d'objet de KParts, Konqueror charge les composants permettant de visualiser (et parfois d'éditer) des types de fichiers spécifiques, et embarque directement le lecteur dans Konqueror, dans lequel les fichiers respectifs ont été ouverts.
+Ceci permet, par exemple, de regarder un document bureautique de la suite KOffice directement dans Konqueror.
+N'importe quelle application qui implémente correctement le modèle
+KParts peut être incluse de cette façon.
+KMPlayer (Konqueror Media Player) est à la fois un plug-in pour Konqueror, et un logiciel de lecture vidéo.
+Il est capable d'utiliser MPlayer ou xine.

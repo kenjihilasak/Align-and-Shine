@@ -1,0 +1,23 @@
+Redirigé depuis Sin)
+En trigonométrie, le sinus d'un angle non droit d'un triangle rectangle est le rapport entre les longueurs du côté opposé et de l'hypoténuse.
+Le sinus d'un angle est toujours compris entre -1 et 1.
+Pour s'en souvenir, on peut retenir sin=opp hyp}, ou sinopip.
+Sommaire
+Dans un triangle quelconque on a la relation : asin⁡(γ)=bsin⁡(α)=csin⁡(β){\displaystyle {\frac {a}{\sin(\gamma )}}={\frac {b}{\sin(\alpha )}}={\frac {c}{\sin(\beta )}}} ou α, β, γ sont les angles de ce triangle.
+Cela nous permet donc à partir des sinus de calculer les longueurs des côtés a et b.
+Prenons l'exemple de l'image, commençons par calculer l'angle γ : γ=180−(30+45)=105{\displaystyle \gamma =180-(30+45)=105}
+On a donc la relation suivante : asin⁡(105)=bsin⁡(45)=2sin⁡(30){\displaystyle {\frac {a}{\sin(105)}}={\frac {b}{\sin(45)}}={\frac {2}{\sin(30)}}}
+On peut donc commencer par calculer b ce qui donne : b=2×2212=2×2{\displaystyle b={\frac {2\times {\frac {\sqrt {2}}{2}}}{\frac {1}{2}}}=2\times {\sqrt {2}}}
+On peut également calculer a de la même façon : a=212×sin⁡(105)≈3,86{\displaystyle a={\frac {2}{\frac {1}{2}}}\times \sin(105)\approx 3,86}.
+La loi des sinus se démontre très facilement et fait seulement appel à des propriétés de niveau 3e au maximum.
+Prenons un triangle ABC quelconque et traçons son cercle circonscrit ayant pour rayon R, comme sur l'image ci-contre.
+Le triangle ABC étant supposé non-rectangle, il n'est pas facile de donner le sinus de l'angle α.
+Pour ce faire nous allons tracer un autre triangle qui lui sera rectangle, ce qui sera plus facile.
+Pour tracer ce triangle rectangle on va tracer un segment [CJ] qui est un diamètre du cercle circonscrit, comme sur l'image ci-contre.
+En effet, le triangle est rectangle, car il est inscrit dans le cercle ayant pour diamètre un de ses côtés.
+On en déduis donc le sinus de l'angle BDC^{\displaystyle {\widehat {BDC}}} qui est égale à sin⁡(BDC^)=BCCD=BC2R{\displaystyle \sin({\widehat {BDC}})={\frac {BC}{CD}}={\frac {BC}{2R}}}. Cependant on cherche le sinus de l'angle α et non celui de l'angle D (ou BDC).
+On remarque que les deux angles interceptent le même arc de cercle en B et en C, cela veut donc dire que les deux angles sont égaux et que donc leur sinus sont égaux on a donc sin⁡(BDC^)=sin(α^)=CB2R{\displaystyle \sin({\widehat {BDC}})=sin({\widehat {\alpha }})={\frac {CB}{2R}}} on obtient donc CBsin⁡(α^)=2R{\displaystyle {\frac {CB}{\sin({\widehat {\alpha }})}}=2R}. Avec le même raisonnement on obtient CAsin⁡(α^)=2R{\displaystyle {\frac {CA}{\sin({\widehat {\alpha }})}}=2R} et ABsin⁡(α^)=2R{\displaystyle {\frac {AB}{\sin({\widehat {\alpha }})}}=2R}, ce qui termine la démonstration.
+Si l'on connait le sinus on peut déterminer le cosinus d'un angle et inversement grâce à la relation cos2(x)+sin2(x)=1{\displaystyle cos^{2}(x)+sin^{2}(x)=1}. Par exemple si cos(x)=34{\displaystyle cos(x)={\frac {3}{4}}} alors on a (34)2+sin2(x)=1{\displaystyle ({\frac {3}{4}})^{2}+sin^{2}(x)=1}.
+On en déduit donc que sin2(x)=1−(34)2{\displaystyle sin^{2}(x)=1-({\frac {3}{4}})^{2}}
+qui équivaut à sin2=1−916=716{\displaystyle sin^{2}=1-{\frac {9}{16}}={\frac {7}{16}}}
+on utilise la racine carré: 716=74{\displaystyle {\sqrt {\frac {7}{16}}}={\frac {\sqrt {7}}{4}}} qui approximativement égale 0,65.

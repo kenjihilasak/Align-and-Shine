@@ -1,0 +1,79 @@
+In informatica lHyperText Markup Language (HTML; traduzione letterale:
+linguaggio a marcatori per ipertesti) è un linguaggio di markup.
+Nato per la formattazione e impaginazione di documenti ipertestuali disponibili nel web 1.0, oggi è utilizzato principalmente per il disaccoppiamento della struttura logica di una pagina web (definita appunto dal markup) e la sua rappresentazione, gestita tramite gli stili CSS per adattarsi alle nuove esigenze di comunicazione e pubblicazione all'interno di Internet.
+L'HTML è un linguaggio di pubblico dominio, la cui sintassi è stabilita dal World Wide Web Consortium (W3C).
+È derivato dall'SGML, un metalinguaggio finalizzato alla definizione di linguaggi utilizzabili per la stesura di documenti destinati alla trasmissione in formato elettronico.
+La versione attuale, la quinta, è stata rilasciata dal W3C nell'ottobre 2014.
+Il motivo principale che ha spinto il W3C e i suoi membri a sviluppare HTML5 è stata la necessità di fornire direttamente le funzionalità che in precedenza erano fruibili tramite estensioni proprietarie all'esterno dei browser, come Adobe Flash e simili.
+Un secondo obiettivo che gli sviluppatori si erano prefissati era quello di garantire una maggiore compatibilità tra i diversi browser, indipendentemente dalla piattaforma software utilizzata, e principalmente mirata all'espansione dei dispositivi mobili.
+Storia
+L'HTML è stato sviluppato nei primissimi anni novanta del XX secolo da Tim Berners-Lee al CERN di Ginevra (Svizzera), assieme al protocollo HTTP dedicato al trasferimento di documenti in tale formato.
+Nel 1989 Berners-Lee propose un progetto che riguardava la pubblicazione di ipertesti, noto con il nome di "world wide web".
+All'interno di questo progetto in seguito nacquero sia il server web "httpd" (HyperText Transfer Protocol Daemon), sia il client WorldWideWeb (il primo browser della storia), il cui sviluppo partì nell'ottobre del 1990, e il cui uso fu esclusivamente interno al CERN fino alla sua pubblicazione nella rete internet nel corso del 1991.
+Assistito dai suoi colleghi all'interno dell'istituto Svizzero, Berners-Lee concorse alla definizione della prima versione dell'HTML, che fu ufficialmente resa pubblica nel giugno del 1993, co-firmata insieme a Daniel Connolly e sostenuta dal gruppo di lavoro dell'Internet Engineering Task Force (IETF) chiamato Integration of Internet Information Resources ("Integrazione delle risorse informative di Internet"), per proporla come standard IETF..
+Tale distinzione, tra contenuto e aspetto finale del documento, permette a browser e dispositivi differenti di rappresentare gli stessi contenuti in maniera consona alle diverse capacità grafiche e dimensioni disponibili.
+Se da una parte questo impone agli sviluppatori web la creazione di personalizzazioni dei fogli di stile, dall'altra ha garantito la massima diffusione del web ed evitato che esso diventasse un medium di élite.
+Nel gennaio 2000, viene pubblicato come standard XHTML 1.0, una variante di HTML4 che usa XML 1.0 anziché SGML come metalinguaggio di markup, per migliorarne l'interoperabilità con altri linguaggi della famiglia come SVG e MathML Il W3C decise di riformulare l'HTML4 e di continuare lo sviluppo solo su XHTML e nel maggio 2011
+XHTML 1.1 diventa uno standard ufficiale.
+Nel corso del nuovo millennio, il W3C cominciò a lavorare a due nuovi progetti, uno orientato ad estendere l'XHTML, e l'altro destinato a definire un nuovo linguaggio che non sarebbe stato compatibile con le vecchie versioni di HTML e XHTML, noto con il nome di XHTML 2 (quest'ultimo progetto è stato dichiarato ufficialmente fallito alla fine del 2010, in favore di un approccio meno rigido).
+Nel 2004, a seguito di una giornata di studi, nasce un gruppo di lavoro alternativo al consorzio:
+Apple, Mozilla Foundation, Opera Software e, in un secondo momento, anche Google, si riuniscono nel Web Hypertext Application Technology Working Group (WHATWG) e cominciano lo sviluppo di una nuova versione dell'HTML, preoccupati dal disinteresse per l'HTML dimostrato dal consorzio.
+Nel 2006 il W3C decide di prendere parte allo sviluppo di HTML5 e nel 2007 si unì al WHATWG, i due gruppi collaborano fino al 2011, quando si rendono conto di avere obiettivi inconciliabili:
+il consorzio voleva tracciare una linea e pubblicare una nuova versione delle specifiche standard, mentre il WHATWG voleva uno standard in continua evoluzione
+Il linguaggio HTML, o la sua variante XHTML, ha come scopo quello di gestire i contenuti associandone o specificandone allo stesso tempo la struttura grafica (layout) all'interno della pagina web da realizzare grazie all'utilizzo di tag diversi.
+Ogni tag (ad esempio
+specifica un diverso ruolo dei contenuti che esso contrassegna (quindi il tag
+definirà un'importanza maggiore del tag
+La formattazione consiste nell'inserimento nel testo di marcatori o etichette, detti tag, che descrivono caratteristiche come la funzione, il colore, le dimensioni, la posizione relativa all'interno della pagina.
+I browser che leggono il codice mostrano all'utente formattazioni predefinite per ogni tag che incontrano (così ad esempio i contenuti marcati con il tag
+avranno carattere 18pt e i contenuti marcati da
+avranno carattere 12pt).
+Tuttavia questa formattazione è completamente sotto il controllo dell'utente, che può modificarla nelle Impostazioni del suo browser.
+Quando un documento ipertestuale scritto in HTML è memorizzato in un file la sua estensione è tipicamente .html o .htm.
+Archiviazione e manipolazione
+I documenti HTML vengono immagazzinati sui dischi rigidi di macchine elaboratrici (computer-server) costantemente collegate e connesse alla rete Internet.
+Su queste macchine è installato un software specifico (web server) che si occupa di produrre e inviare i documenti ai browser degli utenti che ne fanno richiesta usando il protocollo HTTP per il trasferimento dati.
+Spesso il documento HTML viene generato del tutto o parzialmente tramite un codice eseguibile residente sul server Internet (elaborazione lato server) in grado di interagire con altre applicazioni presenti sul server stesso, come per esempio un database, e inviare poi al browser il risultato finale, realizzando le cosiddette pagine web dinamiche con cui un utente può compiere operazioni interattive avanzate .
+È il caso di documenti scritti in linguaggi come ASP, PHP, Perl o Java.
+In altri casi invece alcuni tipi di elaborazione sono operati lato client con linguaggi come JavaScript.
+Sintassi
+Il componente principale della sintassi di questo linguaggio è lelemento, inteso come struttura di base a cui è delegata la funzione di formattare i dati o indicare al browser delle informazioni.
+Ogni elemento è racchiuso all'interno di marcature dette tag, costituite da una sequenza di caratteri racchiusa tra due parentesi angolari o uncinate (<>), cioè i segni minore e maggiore (Es.:
+il tag di questo esempio serve per indicare un ritorno a capo).
+Quando il tag deve essere applicato a una sezione di testo o di codice, l'ambito di applicazione deve essere delimitato fra un tag di apertura ed uno di chiusura (chiusura esplicita), che coincide col tag di apertura preceduto da una barra (/) dopo la parentesi angolare aperta (Es.:
+testo testo testo , in questo caso, il testo compreso tra questi due tag verrà visualizzato in grassetto dal browser).
+Alcuni tag presentano un'applicazione puntuale, come per esempio il tag che serve per inserire un'immagine in un determinato punto della pagina, e in quanto tali non richiedono il tag di chiusura;
+in questo caso si parla di tag a chiusura implicita.
+In XHTML, invece, la chiusura implicita è proibita e tutti i tag devono essere sempre chiusi esplicitamente tramite un tag di chiusura o, nel caso dei tag puntuali, usando il carattere '/' alla fine del tag stesso (per esempio
+Per questi tag, i browser sono in grado di accettare entrambe le modalità, per motivi di compatibilità.
+Struttura di un documento HTML
+Un documento HTML inizia con una dichiarazione del tipo di documento, una breve stringa che indica in quale sintassi e relativa versione esso sia scritto, per esempio HTML 4.0 Strict.
+Tale informazione è necessaria al browser per identificare le regole di interpretazione e visualizzazione appropriate per lo specifico documento, ed è per questa ragione che la dichiarazione debba precedere il documento vero e proprio.
+Ogni versione del linguaggio HTML precedenti alla quinta, ovvero fino ad HTML 4.01 o XHTML 1.1, possiede una sintassi formalmente definita da una definizione del tipo di documento (DTD) che, pubblicata sul web dal W3C, indica, per ogni versione, quali elementi, attributi ed entità possano o debbano essere utilizzati, e in quale maniera;
+pertanto in questi casi la dichiarazione del tipo di documento deve (può, nel caso delle varianti XML) comprendere anche l'URL di tale risorsa.
+La quinta versione di HTML, invece, non possiede alcuna DTD, pertanto in questi casi la dichiarazione iniziale indica la mera dicitura "HTML".
+Dopo la dichiarazione del tipo di documento, il documento HTML presenta una struttura ad albero annidato, composta da sezioni delimitate da tag opportuni che al loro interno contengono a loro volta sottosezioni più piccole, sempre delimitate da tag.
+La struttura più esterna è quella che delimita l'intero documento, eccetto la DTD, ed è compresa tra i tag e .
+All'interno dei tag lo standard prevede sempre la definizione di due sezioni ben distinte e disposte in sequenza ordinata:
+* la sezione di intestazione o header, delimitata tra i tag e , che contiene informazioni di controllo normalmente non visualizzate dal browser, con l'eccezione di alcuni elementi
+* la sezione del corpo o body, delimitata tra i tag e , che contiene la parte informativa vera e propria, ossia il testo, le immagini e i collegamenti che costituiscono la parte visualizzata dal browser.
+Al di sotto di questa suddivisione generale, lo standard non prevede particolari obblighi per quanto riguarda l'ordine e il posizionamento delle ulteriori sottosezioni all'interno dellheader o del body, a parte l'indicazione del rispetto dei corretti annidamenti (le sottosezioni non si devono sovrapporre, ossia ogni sottosezione deve essere chiusa prima di iniziare la sottosezione successiva), lasciando così completa libertà allo sviluppatore o al progettista per quanto riguarda la strutturazione e l'organizzazione successive.
+Tag della head
+I tag utilizzati nella sezione head sono tipicamente di tipo diverso da quelli utilizzati nella sezione body, essendo destinati a scopi differenti.
+I tag utilizzati nella sezione head normalmente non vengono visualizzati dal browser ma servono come informazioni di controllo e di servizio quali:
+* metadata per convogliare informazioni utili ad applicazioni esterne (es. motori di ricerca) o al browser (es. codifica dei caratteri, utile per la visualizzazione di alfabeti non latini)
+* metadata di tipo http-equiv per controllare informazioni aggiuntive nel protocollo
+HTTP
+* collegamenti verso file di servizio esterni (CSS, script, icone visualizzabili nella barra degli indirizzi del browser)
+* inserimento di script (codice eseguibile) utilizzati dal documento
+* il titolo associato alla pagina e visualizzato nella finestra principale del browser
+Tag del body
+All'interno della sezione di body, che racchiude la parte visualizzabile del documento, si utilizzano i tag specifici previsti per la formattazione dei contenuti accessibili all'utente finale, ossia per il controllo di:
+* intestazioni (titoli di capitoli, di paragrafi eccetera)
+* strutture di testo (testo indentato, paragrafi, eccetera)
+* elenchi e liste (numerate, generiche, di definizione)
+* moduli elettronici (campi compilabili dall'utente, campi selezionabili, menu a tendina, pulsanti eccetera)
+* inserimento di contenuti multimediali (audio, video, animazioni eccetera)
+* inserimento di contenuti interattivi (script, applicazioni esterne)
+Tra quelli elencati sopra, il tag è quello che gioca un ruolo chiave in quanto descrive un collegamento (o link) a un altro documento ipertestuale consentendo, con un click del mouse o con un'operazione da tastiera, di abbandonare la pagina o il sito che si sta visualizzando e caricare quella indicata dal link, realizzando così la funzione di navigazione tipica dell'uso di Internet.
+Note

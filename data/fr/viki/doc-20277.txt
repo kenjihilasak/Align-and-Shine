@@ -1,0 +1,40 @@
+Pair à pair
+Un réseau pair à pair (ou peer-to-peer en anglais et P2P dans le langage informatique) est un réseau informatique où tous les ordinateurs sont directement connectés les uns aux autres.
+Les informations sont donc transmises directement d’un ordinateur à l’autre sans passer par un serveur central comme dans un réseau classique.
+Dans le langage informatique ce serveur central s'appelle le nœud du réseau, car toutes les informations échangées vont passer par ce point.
+Dans le cas d’un réseau pair-à-pair qui n'a pas de serveur central, tous les ordinateurs connectés sont alors des nœuds.
+Sommaire
+Ordinateurs connectés en réseau centralisé
+Les sites internet fonctionnent généralement de manière centralisée.
+Toutes les informations sont stockées sur un serveur central et il faut alors se connecter à celui-ci pour y accéder.
+Facebook et Youtube par exemple sont centralisés :
+il est possible de communiquer avec d’autres utilisateurs, donc avec d’autres ordinateurs du réseau, mais toutes les informations échangées (messages, photos, vidéos, …) passent alors par un serveur central qui les stocke et les transmet.
+C’est aussi le cas pour les boites mails, les forums de discussion, ou n’importe quel site internet tel que Wikipedia ou Vikidia par exemple.
+Pour un réseau pair à pair, on parle de réseau décentralisé.
+Les informations vont passer directement d’un ordinateur à l’autre sans passer par un serveur central.
+Si des informations sont stockées sur un ou plusieurs ordinateurs du réseau, elles seront directement accessibles par les autres ordinateurs.
+Il n’y a pas d’intermédiaire et chaque ordinateur joue tour à tour le rôle de serveur.
+Mais en réalité, il est très difficile de faire fonctionner un réseau pair-à-pair complètement décentralisé.
+Dans la majorité des cas, un serveur central s’occupe quand même de connecter les différents ordinateurs du réseau entre eux pour qu’ils puissent ensuite communiquer directement.
+Dans un réseau centralisé, lorsque le serveur central (nœud du réseau) est coupé, les utilisateurs ne peuvent plus se connecter et les communications et les échanges d’informations sont bloqués.
+Un réseau pair-à-pair lui n’a pas de nœud central, ce qui le rend beaucoup moins fragile.
+En effet, pour couper complètement un réseau de ce type, il faudrait pouvoir couper tous les ordinateurs connectés.
+Les réseaux pairs-à-pairs sont donc beaucoup mieux protégés en cas de panne ou d’attaque de pirate informatique.
+De plus dans un réseau centralisé, pour intercepter et espionner les communications, il suffit de regarder ce qu’il se passe dans le serveur central.
+Toutes les informations circulant par celui-ci, on a alors accès à tout.
+Dans un réseau pair-à-pair, aucun point n’est privilégié, il n’est donc pas possible d’intercepter toutes les communications en même temps.
+Un certain nombre de logiciels utilisent actuellement des réseaux pair-à-pair.
+On retrouve trois grands types d’applications de ce type de réseau :
+On peut citer Teamviewer, qui permet entre autres d’effectuer des conversations vidéos, et plusieurs logiciels de messagerie instantanée comme Wambo ou encore Tox.
+Ce dernier permet en plus des communications chiffrées (voir Cryptographie).
+Skype fonctionnait aussi sur un réseau pair à pair, mais ce n’est plus le cas maintenant.
+est l’utilisation la plus répandue des réseaux pair-à-pair, elle permet d’échanger des fichiers de tout type entre utilisateurs sans avoir à les stocker sur un serveur principal.
+On peut citer dans ce domaine les logiciels BitTorrent, μTorrent ou encore eMule.
+Lorsque l’on doit effectuer des opérations vraiment compliquées nécessitant une grande puissance de calcul, il peut être utile d’associer plusieurs ordinateurs entre eux pour répartir la charge et donc accélérer le calcul.
+Un réseau pair à pair permet alors de connecter des ordinateurs du monde entier dans ce but.
+Le projet BOINC par exemple regroupe différents projets indépendants utilisant cette technologie dans des domaines comme les sciences physiques, les mathématiques ou la biologie.
+Les plus connus d’entre eux sont [
+email protected] qui cherche des preuves d’une vie extraterrestre intelligente et [email protected] qui étudie les protéines.
+En dehors de ces trois grands types d’applications, on peut citer PeerTube qui permet le partage de vidéos comme sur Youtube, mais qui fonctionnent sur un réseau pair à pair.
+Source :
+cette page a été partiellement adaptée de la page Pair à pair de Wikipédia.

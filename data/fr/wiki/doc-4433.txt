@@ -1,0 +1,121 @@
+Système de coordonnées
+Un système de coordonnées cartésiennes permet de déterminer la position d'un point dans un espace affine (droite, plan, espace de dimension 3, etc.) muni d'un repère cartésien.
+Le mot cartésien vient du mathématicien et philosophe français René Descartes.
+Il existe d'autres systèmes de coordonnées permettant de repérer un point dans le plan ou dans l'espace.
+__TOC__
+Abscisse sur une droite affine
+Sur une droite affine D, un repère est la donnée de :
+Une origine O, c'est-à-dire un point distingué de D ;
+* Un vecteur \vec de la droite vectorielle directrice \vec.
+Ce vecteur porte deux informations :
+Une orientation : un point A est à droite de O
+lorsque le vecteur \overrightarrow est positivement colinéaire à \vec,
+Une unité : un point A est à la distance r de O lorsque \overrightarrow=\pm r\cdot
+\vec.
+Dans ce cas, labscisse du point M est l'unique réel r tel que : \overrightarrow=r\cdot \vec.
+Il y a donc une correspondance entre les points d'une droite affine et l'ensemble des réels.
+Remarque :
+Il existe des systèmes de graduation non régulière mais le repère n'est plus appelé cartésien (voir échelle logarithmique).
+Coordonnées cartésiennes
+dans le plan
+Dans un plan affine, les coordonnées cartésiennes sont sans doute la manière la plus naturelle de définir un système de coordonnées.
+Un repère du plan affine P est la donnée conjointe
+de :
+* deux vecteurs \vec et \vec non colinéaires du plan vectoriel directeur \vec P.
+Les axes de coordonnées sont les droites affines (Ox)
+O,\vec
+et (Oy)
+O,\vec
+Ces droites admettent des graduations respectives fournies par O et les vecteurs \vec et \vec.
+Par un point M, on est en droit de tracer :
+* une droite parallèle à (Oy) qui coupe (Ox) en m_x d'abscisse x,
+* une droite parallèle à (Ox) qui coupe (Oy) en m_y d'abscisse
+Le couple de réels (x, y) est uniquement déterminé par le point M, on l'appelle les coordonnées de M dans le repère (O;\vec,\vec) :
+Réciproquement, à tout couple (x, y), correspond un unique point M de coordonnées d'abscisse x et d'ordonnée
+y. C'est le point d'intersection des deux droites suivantes :
+* La droite parallèle à (Ox) passant par le point de (Oy) d'abscisse y ;
+* La droite parallèle à (Oy) passant par le point de (Ox) d'abscisse x.
+Cette construction peut être interprétée comme la mise en place d'un parallélogramme de sommets O et M.
+En termes vectoriels, on obtient l'identité suivante :
+\overrightarrow = x\vec+y\vec
+Ce qui permet de faire une correspondance entre le calcul sur des coordonnées et le calcul vectoriel.
+Cas de la base orthonormée
+Les bases orthonormées n'ont de sens que dans les plans affines euclidiens.
+Dans un plan affine euclidien, une base (O;\vec,\vec) est dit orthonormée lorsque les vecteurs \vec et \vec sont d'une part de longueur 1 (de norme 1) et d'autre part orthogonaux, c'est-à-dire que le produit scalaire des deux vecteurs est nul.
+Autrement dit, les axes de coordonnées sont deux droites affines orthogonales avec le même système de graduation.
+Dans ce cas, on peut calculer des distances et des orthogonalités en utilisant le théorème de Pythagore.
+Voici un formulaire :
+* Pour un point M de coordonnées (x,y), la distance OM s'écrit :
+:OM = \sqrt
+:Dans le dessin ci-à droite, on a placé dans un repère orthonormé les points A de coordonnées (1,1) et B de coordonnées (4,5).
+Le calcul de la distance AB est alors :
+: AB
+\sqrt
+* Les vecteur \vec (x, y) et \vec (X, Y) sont orthogonaux si et seulement si xX + yY = 0.
+Le calcul des distances et des angles étant souvent un objectif de la géométrie plane euclidienne, on privilégie particulièrement les repères orthonormés.
+À tel point que certains ouvrages réservent le terme de coordonnées cartésiennes à ce type de repère, les autres coordonnées étant appelées coordonnées obliques.
+Coordonnées cartésiennes dans l'espace
+Le principe de construction sera le même.
+Dans un espace affine E de dimension 3, un repère est la donnée conjointe
+de :
+* et trois vecteurs non coplanaires \vec, \vec, et \vec.
+Les axes de coordonnées sont les droites affines concourantes (Ox)
+O;\vec)
+, (Oy)
+O;\vec) et (Oz)= (O;\vec).
+Pour un point M, on est en droit de tracer :
+* un plan parallèle au plan Oyz qui coupe
+Ox en m_x d'abscisse x,
+* un plan parallèle au plan Oxz qui coupe
+Oy en m_y d'abscisse y,
+* un plan parallèle au plan Oxy qui coupe Oz en m_z d'abscisse
+Le triplet de réels (x,y,z) est uniquement déterminé par la position du point M. Il s'appelle les coordonnées de M dans le repère (O;\vec,\vec,\vec) :
+Réciproquement, à tout triplet de réels (x,y,z) correspond un unique point M d'abscisse x, d'ordonnée y et de cote z.
+Ce point s'obtient comme l'intersection :
+* du plan parallèle au plan Oyz passant par le point de Ox d'abscisse x,
+* du plan parallèle au plan Oxz passant par le point de Oy d'abscisse y et
+* du plan parallèle au plan Oxy passant par le point de Oz d'abscisse z.
+Ces trois plans ainsi que les trois plans de bases Oxy, Oxz et Oyz dessinent un parallélépipède.
+Il y a correspondance biunivoque entre tout point M et tout triplet de réels appelés alors système de coordonnées de M.
+De même que dans le plan, ces coordonnées se réinterprètent via l'écriture vectorielle :
+\overrightarrow = x\vec+y\vec + z\vec
+Repères orthonormés
+Dans un espace affine euclidien de dimension 3, un repère (O;\vec,\vec,\vec) est dit orthonormé lorsque les vecteurs \vec, \vec, et \vec sont unitaires et deux à deux orthogonaux.
+Cette deuxième condition s'écrit :
+:\langle\mathbf\mid\mathbf\rangle
+0 ;
+\langle\mathbf\mid\mathbf\rangle
+0 ;
+\langle\mathbf\mid\mathbf\rangle=0
+Comme dans le plan, il sera nécessaire de prendre un repère orthonormé si l'on désire travailler sur des distances et des angles.
+La distance s'écrira alors:
+:OM = \sqrt
+Coordonnées cartésiennes en dimension n
+Les observations précédentes permettent de remarquer un lien entre couple ou triplet de réels et vecteurs du plan ou de l'espace.
+Ce lien se généralise à tout espace vectoriel ou affine de dimension finie sur un corps K.
+Si (\vec, \vec, \dots,\vec) est une base d'un espace vectoriel sur un corps K alors, pour tout vecteur \vec, il existe un unique n-uplet (x_1, x_2, \dots,x_n) \, élément de Kn tel que :
+\vec = x_1\vec+ x_2 \vec+\dots +x_n\vec \,
+Ce n
+-uplet est appelé système de coordonnées cartésiennes du vecteur \vec dans la base (\vec, \vec, \dots,\vec).
+La correspondance entre chaque vecteur et chaque n-uplet permet de construire un isomorphisme d'espaces vectoriels entre V et Kn.
+Pour travailler sur des systèmes de coordonnées de points, il suffit d'ajouter à la base précédente un point O appelé origine.
+Les coordonnées du point M étant celles du vecteur \overrightarrow.
+Enfin, pour travailler sur des distances, il sera nécessaire de construire une base orthonormale (dans laquelle tous les vecteurs sont de norme 1 et chaque vecteur est orthogonal à tous les autres).
+La distance OM s'exprimera alors sous la forme suivante :
+: OM = \sqrt \,
+Cinématique dans l'espace
+Les quantités cinématiques, position, vitesse et accélération sont données par :
+\begin
+\overrightarrow &=x\overrightarrow + y\overrightarrow + z\overrightarrow\\
+\dot &=\dot x\overrightarrow + \dot y\overrightarrow + \dot z\overrightarrow\\
+\ddot &=\ddot x\overrightarrow + \ddot y\overrightarrow + \ddot z\overrightarrow\\
+\end
+Coordonnées cartésiennes dans l'espace
+temps
+Les coordonnées cartésiennes ont été imaginées par Descartes au et ont été largement utilisées par la suite en mécanique newtonienne pour décrire l'espace physique selon trois dimensions (souvent symbolisées par les lettres x, y, z).
+La relativité restreinte a constitué une véritable révolution scientifique, et a amené dès les années 1900 des scientifiques comme Henri Poincaré et Hermann Minkowski à concevoir l'espace et le temps comme indissociablement liés, dans ce que l'on appelle l'espace-temps, théorisé par la notion d'espace de Minkowski.
+Aux trois dimensions d'espace s'ajoute ainsi la quatrième dimension du temps.
+Dans cette théorie, Minkowski utilise une représentation simplifiée de l'espace-temps en coordonnées cartésiennes, le diagramme de Minkowski, avec une dimension d'espace et la dimension de temps (symbolisée par ct, où c est la vitesse de la lumière et t le temps), pour rendre compte de phénomènes tels que la dilatation du temps, la contraction des longueurs ou encore la notion de simultanéité, sans utiliser d'équation mathématique.
+Introduction historique par Descartes
+L'introduction des coordonnées cartésiennes est faite dans le livre premier de la géométrie de René Descartes comme un outil afin de résoudre le problème de Pappus.
+Il montre en fait dans ce livre, comment résoudre un problèmes géométrique par un calcul algébrique, participant à la naissance de la géométrie analytique.

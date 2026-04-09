@@ -1,0 +1,201 @@
+Détecteur de métaux
+Un détecteur de métaux est un appareil permettant de localiser des objets métalliques en exploitant le phénomène physique de l'induction magnétique.
+Il est utilisé par exemple dans le domaine de la sécurité, dans les aéroports pour détecter des armes cachées sur les passagers d'un avion, dans le domaine militaire pour le déminage, dans les loisirs pour la recherche de divers objets enfouis, en archéologie pour la recherche d'objets anciens et, marginalement, dans le domaine médical pour la détection des métaux avant utilisation d'un appareil d'IRM.
+Afin de limiter les atteintes au patrimoine archéologique et historique, l'utilisation de détecteurs de métaux est réglementée dans différents pays dont la .
+Historique
+En 1881, le président des États-Unis James Garfield, fut victime d'un attentat.
+Aucun des 16 chirurgiens qui le traitèrent ne put localiser la balle qui était restée dans son corps.
+Alexander Graham Bell fut convoqué à son chevet et utilisa un détecteur de métaux primitif pour rechercher la balle, mais sans succès.
+Durant la Première Guerre mondiale, des détecteurs de métaux sont utilisés par des chirurgiens pour localiser ou même extraire (avec un électro-aimant) des éléments métalliques ayant pénétré le corps .
+En particulier un révélateur de métaux à distance était utilisé, sous forme d'un « doigtier audioscopique », basé sur le principe de la balance électrique de Hughes;
+un écouteur dit téléphone placé sur l'oreille du chirurgien lui signale au moyen d'un son plus ou moins fort si son doigt muni du doigtier s'approche ou s'éloigne de l'objet métallique à extraire.
+Selon H Guilleminot, une version de grande taille de ce détecteur aurait même été testée pour retrouver dans le sol des munitions non explosées, avec des résultats « qui sont parait-il des plus encourageants » précisait Guilleminot.
+Gerhard Fisher est l'inventeur et le constructeur d'un des tout premiers détecteurs de métaux à large diffusion, le "Metallascope".
+Il connaîtra le succès après avoir fondé en 1931 l'entreprise Fisher Labs qui commercialisera son invention.
+Józef Kosacki est l'inventeur durant l'hiver 1941-1942 d'un détecteur de métaux portatif, le détecteur de mine polonais.
+Il fut utilisé pour la première fois par l'armée britannique pour le déminage en Afrique du Nord.
+Fonctionnement
+Principe
+Un détecteur de métaux fonctionne en exploitant un phénomène physique bien connu : l'induction électromagnétique.
+Seuls les objets conducteurs, et en particulier les métaux, sont le siège de courants induits (les courants de Foucault).
+Un détecteur de métaux est composé de deux bobines :
+* la bobine émettrice est alimentée par un courant électrique alternatif sinusoïdal.
+* la bobine réceptrice réagit au champ magnétique induit par les courants de Foucault et produit un courant électrique qui présente un décalage de phase par rapport au courant de la bobine émettrice.
+Un processeur analyse l'intensité du courant induit ainsi que son décalage de phase pour opérer la détection.
+Cette analyse lui permet de percevoir la profondeur, la taille et la conductivité de l'objet.
+Discrimination
+Plus l'objet métallique est gros, plus il sera conducteur et plus le décalage de fréquence sera grand.
+De même certains métaux sont meilleurs conducteurs (l'argent notamment) et le décalage de fréquence sera d'autant plus grand.
+C'est en étudiant ce décalage de fréquence que l'objet détecté peut être « discriminé », c'est-à-dire réussir à distinguer et trouver la nature de ce métal.
+Mais dans la pratique, c'est un peu différent.
+En effet un détecteur de métaux cherche du métal mais aussi ses différents alliages.
+La conductivité électrique d'un alliage est différente d'un alliage à un autre et sa valeur peut être proche entre deux alliages de nature très différente.
+Ainsi de l'or 18 carats, peut tout à fait être confondu avec du papier d'aluminium et si le papier d'aluminium est éliminé à l'aide du bouton discrimination, l'or est également éliminé.
+De l'or bas titre (14 carats) pourra même être visualisé sur le vu-mètre du détecteur comme du fer (ou pas loin).
+En définitive, la discrimination n'est valable que pour les petits ferreux (petits morceaux de fil de fer barbelé ou petits clous) mais pas pour les grosses masses ferreuses (genre fer à cheval dont la forme en boucle se détecte facilement).
+Toutefois, il existe des détecteurs de métaux capables d'indiquer la présence d'une grosse masse ferreuse sans erreur.
+Le fer donne en effet un signal particulier facilement reconnaissable sur un oscilloscope.
+Du fait de la variété des alliages, la discrimination ne peut être considérée comme totalement fiable.
+Si tous les métaux étaient purs, discriminer ne serait pas un problème.
+Principes physiques
+La détection d’
+un métal dans l’air par un appareil électronique se fait toujours selon le même principe physique : l’induction magnétique.
+Un conducteur électrique transportant du courant produit un champ magnétique dans l’espace qui l’entoure mais l’inverse est également vrai.
+Un champ magnétique variable produit un courant dans un conducteur.
+À travers une bobine, la loi de Faraday donne la valeur de la force électromotrice produite par la variation du champ magnétique.
+La présence d’un objet métallique à proximité d'une bobine modifie son inductance, ce qui est repéré électroniquement par la modification de la force électromotrice aux bornes de la bobine.
+Types
+Les premiers détecteurs fonctionnaient selon le principe du battement de fréquence mais ils étaient peu performants.
+La technique des très basses fréquences donna une meilleure sensibilité, mais dans les années 1960, l’induction par impulsion fut mise au point et elle est actuellement encore la plus utilisée.
+Battement de fréquence
+Les détecteurs à battement de fréquence furent les premiers à apparaître car ils sont simples à mettre en œuvre mais ce sont également les moins sensibles.
+Le principe est le battement de fréquence.
+Il utilise, en fait, deux oscillateurs, l’un fixe, l’autre sensible aux modifications du champ magnétique.
+La modification du champ magnétique d’une bobine influe, comme nous l’avons vu, sur son inductance et donc, si un oscillateur est construit autour de cette dernière, celui-ci aura une fréquence qui réagit avec le champ magnétique et donc la présence de métal.
+Pour l’utiliser
+, il suffit de comparer le signal issu de cet oscillateur avec un signal de référence ;
+ce dernier représente le signal du premier oscillateur qui ne serait pas modifié par la présence de métal.
+Le signal comparé peut servir à allumer une diode ou être relié à un amplificateur pour entendre via un haut-parleur la différence des fréquences si celle-ci est comprise entre 20 Hz et 30 kHz.
+Très basse fréquence
+Les fréquences utilisées sont inférieures à 20 kHz.
+Ce détecteur est composé de deux bobines, une émettrice et une réceptrice.
+La bobine émettrice traversée par un courant sinusoïdal génère autour d’elle un champ magnétique ;
+lorsqu’un objet métallique passe dans ce champ magnétique, des courants de Foucault apparaissent en son sein.
+Ces courants génèrent à leur tour un champ magnétique qui tend à compenser le champ magnétique créé par la bobine émettrice.
+La bobine réceptrice va réagir au champ magnétique émis par l’objet métallique, un courant induit va la traverser.
+Ce courant traité par l’électronique permet de savoir s’il y a ou non un objet métallique.
+Ce détecteur permet de discriminer les métaux et les ferromagnétiques.
+Le signal perçu par la bobine réceptrice est déphasé par rapport au signal émis.
+Le déphasage dépend des métaux et permet ainsi de les discriminer.
+Pour un prospecteur, le but est de se débarrasser avant tout des petits objets en fer.
+Discriminer l'aluminium fait courir le risque de manquer des cibles intéressantes en alliage tel que le billon, l'électrum, le potin (qui ont servi à travers les âges à fabriquer des monnaies) et même l'or.
+La fréquence d'oscillateur sur laquelle le détecteur fonctionne conditionne sa qualité de réponse aux métaux précieux ainsi que sa résistance aux effets de sol.
+Ainsi, plus sa fréquence est haute (au-dessus de 10 kHz et très au-delà, vers 20 kHz), plus il sera sensible aux ferrailles et perturbations du sol et moins bien il ressentira les métaux précieux.
+En dessous de 10 kHz ou encore plus bas, les appareils deviennent insensibles aux effets de sol réducteurs de leur performances.
+Les détecteurs de métaux très basse fréquence, appelés aussi VLF (very low frequency), peuvent être utilisés avec deux types de disques de détection : les disques concentriques et les disques wide scan (appelés aussi double D).
+La différence entre ces deux types de disques vient de l'agencement interne des bobines émettrices et réceptrices.
+Dans un disque concentrique, les deux bobines ne se chevauchent pas, alors que dans un disque wide scan elles se chevauchent sur une petite surface.
+Induction pulsée
+Le détecteur à induction pulsée ne nécessite qu’une seule bobine.
+Ces détecteurs sont très performants dans la recherche en grande profondeur.
+Ils peuvent détecter jusqu'à 1,50 m sous le sol pour des objets réduits et jusqu'à environ 3,50 m pour de grosses masses métalliques.
+Une puissante impulsion de courant est envoyée dans la bobine.
+Chaque impulsion génère un champ magnétique très bref.
+Quand l’impulsion prend fin, la polarité du champ s’inverse et s’écroule soudainement ce qui provoque un pic de courant, l’impulsion de retour.
+Celui-ci dure quelques microsecondes et cause un autre courant à travers la bobine.
+Le processus se répète.
+Si le détecteur est au-dessus d’un objet métallique, l’impulsion crée un champ magnétique opposé dans l’objet.
+Quand l’impulsion s’arrête, le champ magnétique de l’objet augmente la durée de l’impulsion de retour.
+Un circuit test permet de contrôler la durée de l’impulsion de retour.
+En la comparant avec la longueur de départ, le circuit détermine si un autre champ magnétique a rallongé le temps de décroissance de l’impulsion de retour.
+Ces détecteurs n'ont pas nécessairement la forme en plateau ovale des détecteurs classiques à basse fréquence.
+Il en existe sous forme de cadre de 1 × 1 m ou 2 × 2 m, à soulever des deux mains, ceux-ci ne détectant alors que les masses de la taille d'un poing, donc pas les petites pièces.
+Mais il existe de plus petits cadres, proche de la taille d'un plateau classique, qui eux détectent les pièces et autres petits objets, toujours en technologie d'induction pulsée.
+Ce type de détecteur se rencontre aussi sous la forme de deux petits cadres reliés par une barre se fixant sur un tableau de bord de détecteur classique.
+Leur performance en discrimination est beaucoup moins importante que ceux à basse fréquence.
+En revanche, ils sont beaucoup moins sensibles aux effets de sol.
+Les premiers modèles étaient statiques (se déplacer d'une zone de détection à une autre puis rester statique pour la détection), on en trouve à présent des semi-statiques où l'on peut se déplacer très lentement sur le terrain.
+Radar à pénétration
+de sol
+Le radar à pénétration de sol, permettant également de détecter des métaux, se commercialise désormais en appareillage portatif pour la détection de loisirs, comme professionnelle.
+Le matériel reste toutefois très coûteux.
+Les profondeurs de détection peuvent atteindre 15 mètres.
+L'interprétation des résultats est très délicate et ces appareils ne doivent être utilisés que par des spécialistes.
+Effets de sol (ground)
+En détection, il existe sur les détecteurs milieu et haut de gamme un potentiomètre appelé "effet de sol" ou ground.
+Il existe également la mention "sensibilité" ou "sensitivity" en anglais.
+Celui-ci permet à l'utilisateur de régler manuellement le détecteur, en fonction de la minéralisation rencontrée sur différents sols composés d'une terre chargée en oxydes de minéraux, de façon qu'il soit toujours calibré à un niveau de stabilité neutre.
+De cette manière, l'appareil n'est pas gêné par les faux signaux intempestifs que provoquent ces oxydes.
+Il est bon de savoir que ce genre de terre est chargé de particules métalliques naturelles ;
+la charge est positive et donc dite « positive », contrairement à la plage qui elle est chargée en salinité.
+Le sel n'étant pas un métal, la charge sera donc négative.
+Donc l'utilité d'un tel réglage sur la plage en bord de mer n'aura aucun effet sur les faux signaux générés par le champ magnétique provoqué par la haute teneur en sel.
+Il ne servira donc à rien de posséder un tel réglage si ce n'est simplement à corriger les particules et oxydes métalliques contenus dans le sable.
+Maintenant certains détecteurs possèdent en plus de ce réglage un interrupteur ou autre bouton appelé beach ou mode plage qui permet à l'appareil d'étendre la plage de réglage dans la charge négative de façon à pouvoir s'affranchir au mieux du champ magnétique créé par la salinité.
+En conclusion, ces réglages manuels permettront d'obtenir la meilleure puissance de pénétration dans le sol.
+Par contre, il est parfois possible de trouver sur un même terrain différentes couches karstiques, donc obligatoirement un sol plus ou moins minéralisé.
+De ce fait, l’utilisateur devra en permanence recaler ses effets de sol en fonction de la nature du sol prospecté.
+Sur certains détecteurs, le réglage d'effets de sol est calibré par le fabricant.
+Ce réglage est étalonné de façon assez haute pour que l'appareil soit stable sur les différents sols faiblement minéralisés : sans aucun doute un bon compromis mais au détriment de quelques centimètres de puissance de pénétration.
+Ce réglage est sans doute le mieux qu'un détecteur puisse posséder, dans la mesure où c'est l'appareil qui effectue automatiquement le réglage grâce à un microprocesseur qui analyse et calibre en permanence au mieux les effets de sol en fonction de la nature du terrain présent.
+Bien sûr, si un tel système représente un réel avantage et confort d'utilisation pour le prospecteur, il se fait malgré tout au détriment du temps de réponse de la cible détectée, temps qui, en millisecondes, se révèle très important en détection.
+Tableau de bord
+Sur le tableau de bord d'un détecteur peuvent être trouvés les éléments suivants afin de procéder aux réglages des paramètres de la détection :
+Un VU
+mètre
+ou galvanomètre à aiguille généralement gradué de 0 à 100 pour indiquer l'intensité du signal de l'objet détecté,
+analyser sa taille et tenter une hypothèse sur la nature de l'objet détecté.
+La firme Garrett Electronics a introduit sur le marché des VU-mètres analytiques digitaux à la fin des années 1990.
+Un potentiomètre de discrimination pour définir la qualité des composants de l'objet (du clou en fer à l'or)
+Une fonction de seuil ferreux/seuil sonore (threshold en anglais).
+Ce potentiomètre peut être comparé à une discrimination dont la plage ne couvre que les ferreux.
+Un potentiomètre de tuner ou syntoniseur pour compenser l'effet de sol, pour s'adapter à la qualité du terrain (présence ou non de fer dans le sol ou de sel sur une plage, tous deux perturbant la détection).
+Un potentiomètre de sensibilité pour définir jusqu'à quelle profondeur l'utilisateur souhaite prospecter.
+Une fonction pinpoint (en français : pointe d’aiguille) d'affinement très précis de la localisation, cette fonction est visuelle et ne concerne que les détecteurs les plus modernes ;
+sinon elle doit se faire à l'oreille en distinguant les montées des baisses du signal sonore de la fréquence émise au-dessus de l'objet détecté.
+Il existe sur le marché des baguettes pinpoint braquées dans le trou creusé pour localiser l'épicentre exact de l'objet détecté.
+Il est aussi utilisé sur les mottes de terre enlevées du trou pour vérifier si l'objet n'a pas déjà émergé.
+# Un bouton d'enregistrement d'une fréquence de détection, l'appareil ne recherche alors plus que cette seule et unique fréquence de détection.
+Une deuxième pression sur le bouton permet à l'appareil de revenir en mode normal multi-détection.
+Ce même bouton permet le rééquilibrage des réglages de base après toute modification.
+Un potentiomètre de volume pour définir le volume sonore en sortie de haut-parleur.
+Une prise jack
+pour y brancher un casque d'écoute.
+Un indicateur de batterie faible.
+Un haut-parleur
+Une canne rattachant le boîtier au disque ;
+elle doit être en matière indétectable afin de ne pas perturber la détection.
+Sur les détecteurs les plus modernes, il n'y a plus de potentiomètre mais les réglages se font sur un menu visible sur écran à cristaux liquides et modifiable par pression sur des boutons.
+Le tableau de bord ne se situe pas nécessairement sur la canne du détecteur mais peut se porter à la ceinture, en hipmount.
+Utilisation
+Déminage
+Le déminage militaire a pour but de permettre à des unités de se frayer un chemin parmi un champ de mines ou de sécuriser un environnement militaire (camp, base) où des mines ont été cachées, du déminage humanitaire qui tend à rendre un terrain miné accessible, sans danger pour des populations environnantes.
+Archéologie
+Les détecteurs de métaux font parfois l'objet d'une utilisation professionnelle dans le domaine de l'archéologie.
+En effet, l'objectif fondamental de celle-ci n'est pas la collecte d'objets métalliques mais leur mise au jour dans le cadre de fouilles méthodiques comme la fouille programmée, en documentant le contexte auquel ils étaient associés.
+Les détecteurs de métaux sont donc employés marginalement à des fins de vérification ou dans des contextes d'urgence dans le cadre d'une fouille préventive.
+Par ailleurs, les détecteurs de métaux font l'objet d'une utilisation non contrôlée ou « chasses au trésor », pouvant entrer en conflit avec la préservation du patrimoine et considérée fouille clandestine.
+Pour l'association Happah qui lutte contre le pillage du patrimoine archéologique, «
+La prospection au détecteur de métaux pratiquée par loisir a souvent des répercussions catastrophiques sur l'intégrité des sites archéologiques.
+La plupart des pratiquants de la détection de loisir, les « détectoristes » (plusieurs dizaines de milliers) n'ont pas d'autorisation de prospection.
+Seules quelques dizaines de personnes en sont pourvues en France.
+Par conséquent, de très nombreux objets archéologiques (plusieurs milliers si les monnaies, les fibules etc. sont prises en considération) ne sont pas déclarés au SRA et ne sont pas publiés.
+Il s'agit donc d'une perte gigantesque d'informations pourtant cruciales pour la science.
+Les sites historiques et archéologiques sont alors privés d'une partie des informations potentielles qu'ils auraient pu livrer dans le cas d'une prospection systématique .
+Différentes réponses législatives ont été apportées à ces menaces en fonction des pays.
+Espagne
+En Espagne, les lois sur le patrimoine national (leyes del Patrimonio Nacional) régissent la détection de loisir.
+Ainsi, toute prospection qui ne bénéficie pas d'une autorisation est considérée comme un délit contre le patrimoine.
+De nombreuses associations se sont créées pour provoquer un changement législatif.
+En Andalousie, la loi 14/2007 du patrimoine historique andalou autorise dans son l'usage d'appareils de détection du métal, permettant son usage pour autant qu'il ne met pas en péril le patrimoine national.
+France
+Les premiers détecteurs de métaux de loisirs sont apparus en France en 1975.
+Auparavant, des chercheurs inventifs utilisaient des détecteurs de mines, modifiés ou non, mais leur nombre restait confidentiel.
+L'utilisation des détecteurs de métaux a d'abord été réglementée par la loi n° 89-900 du 18 décembre 1989
+« relative à l'utilisation des détecteurs de métaux »,
+qui a été abrogée par l'ordonnance n° 2004-178 du 20 février 2004 qui a posé la partie législative du code du patrimoine.
+L'article L. 542-1 du code du patrimoine, précise que .
+Mesures reprises dans la version consolidée du 6 février 2016 : "Toute publicité ou notice d'utilisation concernant les détecteurs de métaux doit comporter le rappel de l'interdiction mentionnée à l'article L. 542-1, des sanctions pénales encourues ainsi que des motifs de cette réglementation".
+Cette loi est destinée à préserver l'intégrité des niveaux archéologiques des sites contenant des objets métalliques : l'intérêt scientifique de ces derniers est en grande partie lié à leur contexte stratigraphique et archéologique, dont l'étude n'est possible que dans le cadre de fouilles méthodiques.
+L'utilisation de détecteurs de métaux visant la recherche d'objets anciens, archéologiques ou historiques est strictement interdite sans autorisation nominative délivrée par le ministère de la Culture (Service régional de l'archéologie) et validée par la préfecture.
+Malgré des peines encourues pouvant aller jusqu'à sept ans d’emprisonnement et 100 000 € d’amende , voire plus lorsque plusieurs pilleurs agissent en association, des pillages de sites archéologiques sont encore à déplorer.
+Grande-Bretagne
+En Grande-Bretagne, le gouvernement a promulgué en 1996 le Treasure
+Act :
+les musées nationaux rachètent au prix du marché les découvertes de trésor faites par des amateurs.
+En 1997, il a mis en place le Portable Antiquities Scheme, un programme volontaire pour enregistrer le nombre croissant de petites découvertes archéologiques, qui ne constituent pas un trésor et ne tombent donc pas sous l'application de la loi de 1996, trouvées par le public, particulièrement avec un détecteur.
+Des utilisateurs de détecteurs se sont également regroupés en association afin de mettre en ligne une base de données sur les trouvailles et les matériels employés à fin de statistique et de mémoire historique avec photos des objets découverts ;
+il s'agit de la UK Detector Finds Database.
+Le droit relatif à la découverte d'un trésor est réglé par le Treasure Act de 1996.
+Cet ensemble de lois oblige celui qui découvre un trésor à le déclarer sous 14 jours au coroner le plus proche.
+Il va mener une enquête et déterminer si la découverte fait partie d'un trésor.
+Si c'est le cas, le découvreur doit le proposer à la vente à un musée à un prix fixé par une commission d'experts indépendants.
+Si aucun musée n'est intéressé, le découvreur peut le garder.
+Risques
+Tous les gros objets ne sont pas des trésors et les lieux de combats des deux dernières guerres nous le rappellent régulièrement.
+Du fait même de leur fabrication (fer, acier, plomb, cuivre), les engins explosifs se détectent très bien.
+L'utilisation de détecteurs de métaux dans ces contextes nécessite une grande vigilance : il est recommandé de ne jamais toucher ni démonter une munition non explosée car elle demeure toujours dangereuse.
+Chaque année, des accidents sont à déplorer dans lesquels sont impliqués des pratiquants de la détection qui n'ont pas su observer cette règle élémentaire de sécurité.
+Pour ces raisons, l'utilisation de détecteurs de métaux est interdite dans toute la région Picardie (Somme, Aisne, Oise), dans la Meuse, en particulier à Verdun, dans quelques communes d'Île-de-France (autour de Mantes-la-Jolie), sur toutes les plages des débarquements de Normandie et de Provence, dans toute la région Basse-Normandie ainsi que dans quelques communes du Bas-Rhin et du Haut-Rhin.
+Détection sécuritaire
+On trouve les détecteurs de métaux en usage sécuritaire, par exemple dans les aéroports pour détecter d'éventuelles armes métalliques cachées sur les passagers d'un avion.

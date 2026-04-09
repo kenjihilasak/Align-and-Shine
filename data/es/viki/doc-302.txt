@@ -1,0 +1,16 @@
+Stratego
+El stratego es un juego de mesa similar al ajedrez.
+Este simula ser una guerra entre dos bandos: el rojo y el azul.
+El ganador del juego es aquel que logra capturar la bandera del oponente o dejar al otro sin poder hacer una jugada legal.
+A diferencia del ajedrez, uno no puede ver las piezas del otro, solamente atacándolas.
+Los rangos son del 1 al 9 y más vale el 1.
+Entonces si un 5 ataca a un 8, lo come, o un 1 a un 3, también lo come.
+Todas las fichas del 1 al 7 solo pueden hacer una jugada moviendo un casillero a cualquier lado (derecha, izquierda, arriba, abajo) excepto diagonales.
+El 8 y el 9 si pueden recorrer en línea recta más de un casillero.
+Cualquier pieza excepto la bomba o sus variaciones puede comer la bandera.
+La espía es la pieza más importante del juego.
+Si alguna ficha la ataca, pierde, pero si ella ataca, muere excepto con el 1, a quien come, o a la bandera, a quien también come.
+En algunas versiones, cuando la vida logra comer al 1 y a la bandera en el mismo juego, el próximo juego también puede comerse al 2.
+A excepción de su poder cuando ataca, su número de rango es 10.
+La bomba no se mueve, y es comida por el 8, pero a otra pieza la mata (por ejemplo, una ficha del 1 al 7, la vida o otras piezas movibles).
+No se mueve, y si es comida el que la come es el ganador.

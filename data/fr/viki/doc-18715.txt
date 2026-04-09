@@ -1,0 +1,13 @@
+Code
+ASCII
+Les caractères ASCII affichables.
+Le code ASCII est l'un des plus anciens codes toujours utilisés par les ordinateurs pour représenter des caractères latins.
+Il utilise pour chaque caractère une suite de 8 bits qui forment un octet (attention, en anglais on parle de byte à ne pas confondre avec bit) et représente un caractère :
+le caractère A est représenté sous la forme d'un octet (suite de 8 bits) ayant pour valeurs: 0 1 0 0 0 0 0 1 en binaire ou 65 en décimal
+le caractère B est représenté sous le forme d'un octet (suite de 8 bits) ayant pour valeurs: 0 1 0 0 0 0 1 0 en binaire ou 66 en décimal
+...etc...
+Bonjour en codage
+ASCII
+donne la suite d'octets suivants:
+01110101 = u représenté par le code ASCII ayant pour valeur
+Ce code permet de représenter au maximum 256 valeurs différentes allant de 0 à 255 (2x2x2x2x2x2x2x2, ou bien 28 font 256).

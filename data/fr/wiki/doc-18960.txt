@@ -1,0 +1,105 @@
+Moteur de recherche (
+service)|Site web américain
+DuckDuckGo est un moteur de recherche dont la société éditrice est située à en Pennsylvanie.
+Il se distingue en utilisant les informations d'externalisation ouverte provenant d'autres sites (comme Wikipédia) dans le but d'enrichir les résultats traditionnels et d'améliorer la pertinence.
+La philosophie de ce moteur de recherche est de préserver la vie privée et de ne stocker aucune information personnelle concernant les utilisateurs (adresses IP et traces numériques comme la signature du navigateur).
+Cependant, par défaut, DuckDuckGo relaie des liens sponsorisés (publicités) sur son moteur de recherche.
+DuckDuckGo a été en forte progression depuis l'affaire PRISM/XKeyscore ;
+son trafic le classe au niveau mondial
+le , selon le cabinet d'études Alexa.
+En , il devient .
+Il consacre une partie de ses revenus à financer des projets libres.
+Historique
+DuckDuckGo a été fondé par le « entrepreneur » Gabriel Weinberg, dont la dernière entreprise, , a été acquise en 2006 par pour de dollars.
+Weinberg
+est également un et fait partie d'une de Philadelphie.
+Le projet a été initialement financé par Weinberg mais son modèle économique actuel repose sur une publicité minimale fournie par les sites Amazon et eBay et a été finaliste au « ».
+En , le fondateur Gabriel Weinberg lance un site communautaire pour permettre au public de signaler les problèmes, discuter des moyens de propagation du moteur de recherche, de ses caractéristiques et innovations.
+En , DuckDuckGo met en place une « enclave de sortie »
+Tor (voir section Vie privée).
+En , l' investit dans DuckDuckGo.
+Le partenaire d', Brad Burnham, a d'ailleurs déclaré :
+En , Linux Mint signe un accord exclusif avec DuckDuckGo pour sa mise en place au sein de la distribution Linux .
+Le , le moteur de recherche dépasse pour la première fois le million de recherches par jour.
+Le , l'entreprise dit atteindre de recherches quotidiennes, puis le 17 du même mois, le , le , le , le et le jour suivant le .
+En 2015, le moteur de recherche dépasse les de recherches par jour.
+En mai 2019
+, la moyenne des recherches directes par jour est de 37 831 751.
+Fonctionnalités
+Recherche
+DuckDuckGo permet de rechercher les pages web (par défaut), les images et les vidéos.
+Les résultats de recherche proviennent de plus de quatre cents sources (2015) dont : DuckDuckBot, les sites web de référence indexés par DDG (par exemple Wikipedia), Yahoo!, Yandex, Yelp, et Bing.
+Absence de « bulle » comportementale
+Selon les éditeurs de DuckDuckGo, la tendance des principaux moteurs de recherche à personnaliser les résultats de recherche limite l'ensemble des informations auxquelles chaque utilisateur a accès à une bulle, par opposition au Web tout entier, et ainsi dégrade son expérience du Web en attentant à sa liberté d'y accéder, aussi sûrement que le ferait un filtre.
+DuckDuckGo a donc pour .
+Vie privée
+DuckDuckGo se positionne en défenseur de la vie privée sur le Web.
+Le site affirme ne pas enregistrer les requêtes effectuées et ne permettrait pas à d'autres sites de le faire, s'opposant ainsi au pistage.
+Il est accessible en HTTPS et favorise l'utilisation d'HTTPS sur les sites vers lesquels il renvoie.
+DuckDuckGo est accessible via le réseau de communication anonyme
+Tor et dispose d'une enclave de sortie Tor.
+Celle-ci permet de « sortir » du réseau Tor directement sur les serveurs de DuckDuckGo et donc d'accéder au service sans passage par Internet hors Tor.
+Weinberg a déclaré : .
+DuckDuckGo est soumis à la législation des États-Unis et pourrait y être obligé à collaborer avec les forces de l'ordre.
+Gabriel Weinberg a déclaré en 2013 que DuckDuckGo n'avait jamais été et ne pourrait pas être obligé légalement à enregistrer ou transmettre des informations personnelles, mais cette interprétation du droit ne fait pas l'unanimité.
+D'autre part,
+comme pour tout service Web, la politique de respect de la vie privée de DuckDuckGo n'offre pas de garantie contre le piratage informatique pratiqué par certains services de renseignement tels que la NSA à des fins de surveillance individuelle ou globale (voir Révélations d'Edward Snowden).
+Zero Click Infobox
+La est un encadré affiché en dessous de l'en-tête à chaque recherche, contenant des résumés thématiques et des sujets connexes en relation avec la requête à partir des informations fournies par diverses sources telles que Wikipédia, Wikia, , , GitHub, WikiHow, , , WolframAlpha De cette manière, l'information recherchée dans la plupart des cas est affichée dans cet encadré.
+Bang
+DuckDuckGo permet d'effectuer des requêtes redirigeant vers d'autres moteurs de recherche ou sites en tapant la commande correspondante appelé !
+bang, en exemple :
+* la commande « !
+wfr » ou « !
+w » redirige directement vers le site Wikipédia, respectivement francophone et anglophone.
+Ainsi, par exemple, la commande « !
+wfr duckduckgo »
+redirige directement vers l'article « DuckDuckGo » de Wikipédia francophone.
+* la commande « !
+» redirige directement vers le premier résultat de la recherche, comme la fonction «
+J'ai de la chance » de Google.
+Langue
+L'interface du moteur de recherche est maintenant par défaut dans la langue du navigateur.
+Il est possible de la basculer dans différentes langues : il faut pour cela accéder aux paramètres, depuis le menu en cliquant l'entrée paramètres avancés ou directement à l'adresse https:/ settings.
+Il est possible d'aider la communauté DuckDuckGo à traduire l'interface en se connectant sur la plate-forme .
+Il est par ailleurs possible de privilégier les résultats de recherche pour un pays donné comme la France et, pour certains pays, une langue donnée, par exemple «
+Canada (fr) ».
+Configuration
+DuckDuckGo permet de sauvegarder ses paramètres de configuration de trois manières différentes :
+* de façon traditionnelle, c'est-à-dire dans un cookie, généré par le moteur de recherche et stocké par le navigateur Web ;
+* de façon anonyme en stockant les cookies dans le et en les protégeant via un mot de passe.
+Ce mot de passe est utilisé pour générer une clef en utilisant le connu sous le nom de SHA-2, en utilisant une clef .
+Seul le mot de passe est gardé par le navigateur Web ;
+DuckDuckGo sauvegarde le fichier de paramètres sur le serveur dédié () en utilisant la clef générée, comme le nom ;
+* en enregistrant directement les paramètres dans l'url, avec la syntaxe habituelle des requêtes GET, par exemple (résultats en français + en-tête bleu) :
+https:/ ?
+fr-fr&kj
+Interfaces
+En plus de son interface par défaut (page d’accueil), DuckDuckGo propose deux interfaces sans JavaScript, l’une d’apparence standard et l’autre plus légère ().
+Il propose également une application Android et iOS.
+Page d'accueil
+À l'instar de Google, DuckDuckGo procède périodiquement à des adaptations temporaires de son logo de Dax le canard, les versions modifiées étant affichées pendant une journée sur la page d'accueil du moteur de recherche.
+Ils sont créés pour célébrer des événements particuliers tels que les fêtes nationales, les anniversaires d'illustres personnages ou autres.
+Chaque logo peut porter un lien hypertexte qui mène vers la page de résultats obtenue pour une recherche sur une chaîne de caractères décrivant le sujet commémoré.
+Fonctionnement
+DuckDuckGo est construit principalement sur les API de recherche de différents fournisseurs majeurs (tels que Yahoo!
+BOSS, embed.ly, WolframAlpha, EntireWeb, Bing & Blekko).
+TechCrunch caractérise même « d'hybride » le service de moteur de recherche.
+Dans le même temps, le moteur de recherche produit ses propres pages de contenu et est également similaire à des sites comme Mahalo, Kosmix et SearchMe.
+Le moteur de recherche DuckDuckGo est écrit en Perl et JavaScript et fonctionne avec nginx sur FreeBSD et Ubuntu.
+Popularité
+Trafic
+DuckDuckGo publie des statistiques de trafic, telles que le nombre de requêtes par jour depuis avril 2010.
+Ce nombre était de l’ordre de en .
+En , DuckDuckGo fut classé environ site
+Web mondial en termes de trafic par le cabinet d'études Alexa.
+Depuis le et le scandale de PRISM, il enregistre une hausse significative du nombre de requêtes.
+Le nombre de recherches par mois a ainsi atteint en , contre le mois précédent.
+En , il fut classé , soit par an ou 0,3 % des recherches faites sur Google.
+En , les douze millions de recherches quotidiennes sont franchies.
+Le record semble être établi le mercredi avec exactement directes et via le bot, Safari et Vivaldi.
+Au cinéma
+Voir aussi
+Articles connexes
+Sites web similaires :
+Lien externe

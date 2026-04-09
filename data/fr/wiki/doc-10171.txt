@@ -1,0 +1,101 @@
+Théorie algorithmique des nombres|Euclide
+, Algorithme d'|Algorithme numérique|Euclide, Algorithme d'
+Lalgorithme d'Euclide est un algorithme permettant de déterminer le plus grand commun diviseur (PGCD) de deux entiers sans connaître leur factorisation.
+Il a été décrit pour la première fois dans le livre VII des Éléments d'Euclide sous la forme de l'anthyphérèse.
+Remarque historique
+Au début, Euclide a formulé le problème de façon géométrique : comment trouver une « unité de mesure » commune pour deux longueurs de segments.
+Il procède par soustractions répétées de la longueur du plus court segment sur la longueur du plus long.
+Cela correspond à une adaptation de la méthode naïve de calcul de la division euclidienne, telle que décrite dans l'article consacré.
+Description
+Explications géométriques
+Dans la tradition grecque, en comprenant un nombre entier comme une longueur et un couple d'entiers comme un rectangle, leur PGCD est la longueur du côté du plus grand carré permettant de carreler entièrement ce rectangle.
+L'algorithme décompose ce rectangle en carrés, de plus en plus petits, par divisions euclidiennes successives, de la longueur par la largeur, puis de la largeur par le reste, jusqu'à un reste nul.
+Dans le rectangle de dimensions
+21 par l
+15 représenté à droite,
+par exemple, on peut glisser un carré de côté 15 mais il reste un rectangle de côtés 15 et 6, dans lequel on peut glisser deux carrés de côté 6 mais il reste un rectangle de côtés 6 et 3 que l'on peut carreler entièrement de carrés de côté 3.
+Les carrés de côté 6 ou 15 peuvent aussi se carreler en carrés de côté 3.
+Le rectangle entier peut se carreler en carrés de côté 3.
+Il n'existe pas de carré plus grand permettant un tel carrelage.
+Explications arithmétiques
+On sait que et
+que .
+On progresse dans l'algorithme en diminuant à chaque étape les nombres considérés par calcul du modulo.
+Généralisation
+Cet algorithme repose sur la structure d’anneau euclidien de l’anneau Z des entiers relatifs, plus particulièrement sur la propriété de division euclidienne.
+Il se généralise donc à bien d’autres anneaux, en particulier les anneaux de polynômes à coefficients dans un corps.
+L’algorithme se généralise pour permettre le calcul des coefficients de Bézout.
+L’algorithme est effectif à condition de disposer d’un algorithme effectif de division euclidienne.
+La possibilité de disposer d’un tel algorithme rend de nombreux autres calculs effectifs, notamment, en algèbre linéaire, le calcul de facteurs invariants.
+Remarque préliminaire
+Puisque l'algorithme a pour objet le calcul d'un PGCD, il est possible de se restreindre aux entiers positifs, un PGCD de deux entiers relatifs étant égal au PGCD de leurs valeurs absolues.
+Description de l'algorithme
+L'algorithme récursif suivant fournit le PGCD de deux entiers relatifs a et b :
+*si b ≠ 0, PGCD (a, b) = PGCD (b, r),
+où r est le reste de la division euclidienne de a par b.
+Démonstration de la terminaison de l'algorithme et de sa correction
+*Terminaison :
+pour une valeur non nulle de b, le calcul de PGCD (a, b) fait appel au calcul de PGCD (a’, b’), où 0 ≤ b’ < |b|, car b’ est le reste d'une division euclidienne par b.
+Le théorème de Lamé
+Le théorème de Lamé stipule que le nombre d'étapes de l'algorithme d'Euclide exécuté sur deux entiers est borné (supérieurement) par cinq fois le nombre de chiffres nécessaire à écrire (en base 10) le plus petit de ces deux entiers.
+On peut en fait être légèrement plus précis : le nombre d'étapes de l'algorithme d'Euclide exécuté sur deux entiers a et b, avec b\leq a, est borné par la partie entière de \ln (b) \ln (10) et que la quantité \ln (10)/\ln (\varphi) est inférieure à 5 (elle vaut environ ), on retrouve bien le théorème de Lamé.
+De plus, cette majoration est la meilleure possible, puisqu'elle est atteinte
+quand a et b sont deux nombres de Fibonacci consécutifs.
+Algorithme étendu aux coefficients de Bézout
+Le théorème de Bachet-Bézout assure l'existence de deux entiers u et v tels que : au+bv
+a_N
+PGCD (a,b).
+L'algorithme d'Euclide convenablement adapté permet de calculer de tels coefficients.
+Description
+Pour cela, on introduit deux suites (u_n) et (v_n) telles que pour tout n, on ait la relation :
+au_n+bv_n=a_n.
+Si de telles suites existent, les termes u_N,v_N constitueront une paire de coefficients de Bézout pour a
+et b.
+On choisit u_0
+v_0
+0 et u_1
+0,v_1
+1 (
+afin que au_n+bv_n
+a_n soit vrai
+pour n
+0 et pour n = 1),
+puis la relation de récurrence de pas 2 entre les a_n montre :
+a_=a_n
+q_a
+=au_n+bv_n-q_ (au_+bv_)
+=a (u_n-q_u_)+b (v_n-q_v_)
+On peut ainsi définir (u_n) par la relation de récurrence de pas 2 : u_
+u_n
+q_u_ et l'initialisation précédente, et (v_n) par v_
+v_n
+q_v_ et l'initialisation précédente ;
+et on obtient bien la relation annoncée pour tout n.
+Commentaires
+L'algorithme étendu s'implémente comme l'algorithme classique ;
+il suffit de rajouter des variables correspondant aux coefficients u et v à calculer, et de faire une multiplication et une soustraction supplémentaires, pour calculer chacun des deux nouveaux coefficients, à chaque étape.
+Fractions continues
+Les quotients successifs qui apparaissent quand l'algorithme d'Euclide est appliqué aux données a et b, sont précisément les nombres qui apparaissent dans la représentation sous forme de fraction continue de a
+/b.
+Considérons l'exemple
+et b
+utilisé ci-dessus.
+Voici le calcul avec les quotients soulignés (successivement 1, 24 et 2) :
+: = ×
+De cela on tire :
+:\frac = \mathbf + \frac.
+Dans l'égalité précédente, le second membre s'appelle la fraction continue ou continuée du quotient /.
+On peut en déduire les trois approximations suivantes de la fraction, classées par ordre de précision croissante :
+Cette méthode peut également être utilisée pour des nombres réels a et b ;
+comme dans le cas de deux entiers, la suite de quotients calculés représente la « décomposition en fraction continue » de a b.
+Dans le cas où ce quotient est irrationnel, l'algorithme d'Euclide ne se termine pas et la suite des approximations obtenues est donc elle-même infinie !
+Nota :
+La décomposition en fraction continue (et la série d'approximations successives correspondante) peut être appliquée, non seulement à un nombre réel quelconque, mais également à une fonction : cette démarche consiste à rechercher les approximants de Padé, dont on peut définir le principe comme suit :
+Au voisinage d'un point, le développement en série de Taylor d'une fonction donnée fournit un polynôme qui réalise une approximation de la fonction.
+Mais on peut également chercher une fraction rationnelle qui satisfasse les mêmes conditions que la partie polynomiale du développement de Taylor : l'égalité des dérivées de la fonction et de son approximation, jusqu'à un certain ordre donné.
+La comparaison de ces deux types de développements permet de très intéressants développements, comme la démonstration de l'irrationalité de ζ (3).
+Voir aussi
+Article connexe
+Lien externe
+, téléversé le 12 mai 2014
+k2pogp45eaj26y6moyl9c8hzot4ashr

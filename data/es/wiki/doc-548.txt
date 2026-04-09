@@ -1,0 +1,209 @@
+La apotema de un polígono regular es la menor distancia entre el centro y cualquiera de sus lados.
+Es un segmento cuyos extremos son el centro de un polígono regular y el punto medio de cualquiera de sus lados, y es siempre perpendicular a dicho lado.
+En una pirámide regular, también se denomina apotema al segmento trazado desde el vértice al centro de cualquier lado del polígono que conforma la base; coincide con la altura de cada cara triangular de la pirámide regular.
+Apotema y sagita
+Dado un polígono inscrito, el radio se divide en dos segmentos: la apotema y la sagita; así, podemos decir que el complemento de la apotema es la sagita, cuya unión es el radio.
+Principales medidas asociadas a la apotema y a la sagita
+:De «radio» r = OQ
+:Y sea FM = l uno de los lados del polígono regular inscrito, de n lados, cuyo perímetro conocemos.
+:De «apotema» a =
+:De «sagita» s =
+Entonces:
+nl,
+y A
+\frac
+El diccionario Larousse define sagita como la parte del radio comprendida entre el punto medio de un arco de circunferencia y el de su cuerda.
+Fórmulas
+Entonces la apotema OK = a , viene dada por la fórmula:
+:: a = \sqrt
+Por lo tanto una vez calculado el valor de la apotema podemos conocer el valor de la sagita KQ
+s , toda vez que s
+r - a .
+Por su parte el segmento FM = l del polígono regular inscrito se puede calcular a partir de la fórmula:
+:: l = 2\sqrt
+Si se desconoce el valor, tanto de la apotema (a) como de la sagita (s), entonces la longitud del segmento FM = l , se puede calcular a partir de la fórmula:
+: \frac = x
+: En donde n , es la cantidad de lados que tiene el polígono regular inscrito.
+: sen (x) =
+:2 \cdot r \cdot k = l
+Arco de una circunferencia
+Es posible también determinar el radio del círculo cuando se proporciona un arco, si se conoce la longitud L de una cuerda, y a la vez, la distancia d que hay del punto medio de la cuerda al punto medio del arco determinado por la cuerda usando la fórmula:
+: r = \frac
+o la ecuación trigonométrica:
+: r = \frac
+En donde:
+:un lado del polígono = l, es la longitud L (véase imagen).
+:y la sagita = s, es la distancia d.
+Cálculo de la apotema y de la sagita en diferentes polígonos regulares
+Un polígono cuyos lados tienen la misma longitud y todos sus ángulos internos son iguales se llama polígono regular, lo que implica que la magnitud de la apotema del «polígono rectangular» subsiguiente no es una cantidad continua, sino que es a «saltos progresivos».
+: \frac = x^0
+: sin (x^0) =
+: 2 \cdot r \cdot k = l
+: a = \sqrt
+: r - a = s
+En donde:
+: l_n = cantidad de lados del polígono regular.
+: l = longitud del cada lado del polígono regular.
+: r
+radio de la circunferencia (para todos los ejercicios siguientes el radio r
+10cm)
+: a = apotema.
+: s = sagita.
+Caso particular
+Si se considera:
+* Que todo triángulo tiene tres lados y tres vértices.
+* Que en la geometría euclidiana, la suma de los tres ángulos internos de un triángulo es 180°.
+Entonces, nos encontramos legitimados para hacer un experimento mental, en donde uno de los ángulos internos del triángulo mida 0º, y los dos restantes 90º cada uno.
+En tal caso, uno de los lados del triángulo medirá 0 cm, y los dos restantes tienen el diámetro de la circunferencia.
+En ese triángulo, así confeccionado, visualizaremos dos de sus lados traslapados.
+Con ello no violamos ninguno de los postulados precedentes.
+Confirma lo anterior el segundo teorema de Tales: «Todo ángulo inscrito en un semicírculo es un ángulo recto».
+:Sea C_x un punto cualquiera de la circunferencia de diámetro AB , igual o distinto de los puntos A y de B. Entonces el triángulo ABC_x siempre será un triángulo rectángulo.
+:En otras palabras, podemos manifestar que el teorema de Tales dice que si los tres vértices de un triángulo están sobre una circunferencia dada, en donde uno de sus lados siempre es el diámetro de la circunferencia; entonces el ángulo opuesto a este lado es un ángulo recto.
+* El segmento \left AB \right es el diámetro de la circunferencia.
+Diámetros que, para el triángulo rectángulo inscrito ABC_x , será la hipotenusa con carácter invariante.
+* Asimismo existe otra constante, según ya lo señalamos, dado que los fasores en el punto C_x, siempre tienen 90^0, debemos aplicar la ley de los cosenos, en donde y son los fasores (véase arco capaz):
+: (Hipotenusa)^2 = -2xxx\cos90^0+
+:Hipotenusa = \sqrt
+Considerando que toda cantidad multiplicada por cero es cero (\cos 90^0 =0 ), podemos eliminar de la ecuación esta parte
+: (-2xxx\cos90^0)
+:Hipotenusa = \sqrt
+Nota: La longitud de la hipotenusa, para este caso, siempre será igual al diámetro de la circunferencia, y a la vez \cos 90^0 =0 , de manera tal que la longitud variable de los fasores y , son calculables -para cualquiera que sea la ubicación del punto C_x- ya sea por las fórmulas trigonometricas, o a través del teorema de Pitágoras:
+: = \sqrt
+: = \sqrt
+* Ver mayores antecedentes en dilatación del tiempo y contracción de la longitud
+* Los puntos A, B y C_x al ser traslapados por el perímetro de la circunferencia, son puntos cocíclicos.
+Si un nodo es un punto que permanece fijo para un determinado marco de referencia, entonces los puntos A y B son nodos equidistantes entre sí, que además dividen la circunferencia en dos semicírculos.
+* El punto C_x puede estar en cualquier lugar del perímetro de cualquiera de ambos semicírculo, incluso traslapando al punto A o al punto B.
+* La longitud de un cateto tiende a cero cuando su ángulo adyacente tiende a cero.
+Y en contra partida, la longitud del otro cateto tiende a igualar el valor de la hipotenusa.
+Ejercicio
+Todo lo expuesto anteriormente nos permite iniciar el cálculo del apotema y de la sagita, para este caso especial:
+: sen (x^\circ) = k
+: 2 \cdot r \cdot k = l
+:En donde:
+: l = longitud del cada lado del polígono regular.
+: \frac = 90^0
+: sen (90^0) =
+:Longitud de cada lado traslapado
+:Apotema
+\sqrt
+:Sagita
+Este caso especial encierra una paradoja, puesto que: no estamos en presencia de un polígono regular inscrito, y a pesar de su inexistencia, pudimos calcular sin dificultad la sagita y la apotema.
+¿El apotema y la sagita serán ajenas a los polígonos regulares inscritos?
+Visualicemos, en este caso especial, qué propiedades del polígono regular inscrito se han cumplido y cuáles no:
+Todos los vértices del polígono regular inscrito son puntos cocíclicos: se cumple esta propiedad, ya que el perímetro de la circunferencia toca los puntos A, B y C_x.
+# El centro de un polígono regular es un punto equidistante de todos los vértices del polígono: También se cumple esta propiedad, porque el centro del polígono traslapa el centro de la circunferencia que lo inscribe.
+Todos los puntos cocíclicos del polígono regular inscrito son equidistantes, y dividen, el perímetro de la circunferencia, en partes iguales: ¿se cumple o no esta propiedad?, el punto C_x traslapa al punto A, tienen la misma ubicación, por lo que son equidistantes entre sí; ambos puntos están, entre sí, a una distancia cero, pero la distancia al punto B es diferente a cero.
+Los puntos A, B y C_x dividen el perímetro de la circunferencia en dos partes iguales, cuando en el hecho tres puntos la debieran dividir en tres porciones.
+# Los polígonos regulares son equiláteros; todos sus lados tienen la misma longitud: no se cumple, dado que uno de los lados del polígono tiene una longitud de 0, y los dos restante tienen por longitud el diámetro de la circunferencia.
+Todos los ángulos interiores de un polígono regular tienen la misma medida, es decir, son congruentes: no se cumple, porque uno tiene 0º y los dos restantes 90º.
+Disquisiciones
+Al parecer, para calcular el “apotema” y la “sagita” es suficiente con considerar la cantidad de puntos cocíclicos, los que pueden ir desde uno hasta infinito.
+En efecto, l_n será la cantidad de puntos cocíclicos.
+: \frac = x^\circ
+Y para este caso, consideraremos que tenemos un solo punto cocíclico.
+: sen (x^\circ) = k
+: 2 \cdot r \cdot k = l
+:En donde:
+: l = longitud del cada lado del polígono regular.
+: \frac =
+180^\circ
+: sen (180^\circ) =
+:Longitud, en línea recta, que separa a cada punto cocíclico, para este caso es 2 \cdot x \cdot 10 \cdot x \cdot 0 = 0, dado que, en este ejemplo, tenemos solamente un punto.
+:Apotema
+\sqrt
+:Sagita
+Polígono regular de tres lados (triángulo) inscrito
+: sena a^1 = V
+: 2 \cdot r \cdot k = l
+:En donde:
+: l = longitud del cada lado del polígono regular.
+: \frac = 60^0
+: sen (60^0) =
+0,866025404
+:Longitud de cada lado del polígono regular
+2 \cdot x \cdot 10 \cdot x \cdot 0,866025404
+17,32050808
+:Apotema
+\sqrt
+:Sagita
+Polígono regular de cuatro lados (cuadrilátero) inscrito
+: \frac = 45^0
+: sen (45^0) =
+0,7071068
+:Longitud de cada lado del polígono regular
+2 \cdot x \cdot 10 \cdot x \cdot 0,7071068
+14,14213562
+:Apotema
+\sqrt
+7,071067812
+:Sagita
+7,071067812
+2,928932188
+Polígono regular de seis lados (hexágono) inscrito
+: \frac = 30^0
+: sen (30^0) =
+0,5000000
+:Longitud de cada lado del polígono regular
+2 \cdot x \cdot 10 \cdot x \cdot 0,5000000
+:Apotema
+\sqrt
+8,660254038
+:Sagita
+10 - 8,660254038
+1,339745962
+Polígono regular de siete lados (heptágono) inscrito
+: \frac = 25,71428^0
+: sen (25.71428^0) =
+0,4338836
+:Longitud de cada lado del polígono regular
+2 \cdot x 10 \cdot x \cdot
+0,4338836
+8,677672985
+:Apotema
+\sqrt
+9,00968909
+:Sagita
+9,00968909
+0,99031091
+Polígono regular de ocho lados (octógono) inscrito
+: \frac = 22,5^0
+: sen (22,5^0) =
+0,3826834
+:Longitud de cada lado del polígono regular
+2 \cdot x \cdot 10 \cdot x \cdot 0,3826834
+7,653668647
+:Apotema
+\sqrt
+9,238795325
+:Sagita
+9,238795325
+0,761204675
+Polígono regular de 360 lados inscrito
+: \frac = 0,5^0
+: sen (0,5^0) =
+0,0087265
+:Longitud de cada lado del polígono regular
+2 \cdot x \cdot 10 \cdot x \cdot 0,0087265
+0,17453071
+:Apotema
+\sqrt
+9,999619231
+:Sagita
+9,999619231
+0,000380769
+Gugólgono inscrito
+Gugol = 10^
+En este caso, la gran cantidad de lados del polígono regular tiende al infinito, y se asemeja más a una circunferencia, por lo que la sagita tiende a cero y la apotema a la longitud del radio.
+: \frac = \approx 0^\circ
+:Longitud de cada lado del polígono regular
+\approx
+:Apotema
+\sqrt
+\approx
+:Sagita
+10 - (\approx 10 )
+\approx
+Y si se trata de un gúgolplex, mucho mejor pues en más grande que un gúgol.
+Pero, aun así un gúgolplex no deja de ser finito.

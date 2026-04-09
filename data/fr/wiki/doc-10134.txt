@@ -1,0 +1,78 @@
+Numération|Combinatoire
+En mathématiques, le dénombrement est la détermination du nombre d'éléments d'un ensemble.
+Il s'obtient en général par un comptage ou par un calcul de son cardinal à l'aide de techniques combinatoires.
+Perception immédiate
+Face à une collection d'au plus quatre objets, l'être humain, avant même l'acquisition du langage, et certains animaux semblent avoir une notion immédiate de la quantité présentée sans énumération.
+Ce phénomène est appelé .
+Il peut être étendu au-delà de quatre dans certaines configurations, comme les points sur les faces d'un dé .
+Les nombres figurés peuvent être ainsi plus facilement repérables.
+Symbolisation par une même quantité
+Les premières évaluations de quantités n'ont pas nécessairement été exprimées à l'aide d'un nombre ou d'une notation chiffrée.
+Or, de telles évaluations ont pu être utiles pour suivre l'évolution d'un troupeau, d'une production manufacturée, des récoltes ou d'une population humaine, notamment dans les corps d'armée.
+En l'absence de système de numération, il est possible de représenter chaque élément d'une collection, par exemple, à l'aide d'une encoche sur un morceau de bois ou un os.
+Un autre exemple est visible dans le film Ivan le Terrible de Sergueï Eisenstein, où avant un combat, les soldats jettent chacun à leur tour une pièce dans un sac.
+Comptage
+L'évaluation d'une quantité d'objets à l'aide d'un terme particulier nécessite l'établissement d'une liste de termes qui puisse être apprise et transmise.
+Certains peuples océaniens parcourent ainsi une vingtaine de parties du corps selon un ordre fixe (mais dépendant de la localisation du peuple).
+Chaque langue a développé un système de désignation des premiers nombres entiers, éventuellement lié à un système de numération particulier.
+Le dénombrement consiste alors à parcourir simultanément la chaine numérique et la collection d'objets de façon que chaque objet ne soit considéré qu'une seule fois.
+La compréhension de cette technique de dénombrement est décomposée en cinq principes :
+* principe d'adéquation unique : chaque mot n'est associé qu'à un et un seul élément de la collection ;
+* principe d'ordre stable :
+les mots-nombres sont toujours récités dans le même ordre ;
+* principe du cardinal :
+pour désigner la taille d'une collection, il suffit d'énoncer le dernier mot-nombre utilisé ;
+* principe d'abstraction : les objets peuvent être de natures différentes ;
+* principe de non pertinence de l'ordre : les objets peuvent être parcourus dans n'importe quel ordre.
+Calcul
+Pour des grandes quantités ou pour des ensembles abstraits et en particulier pour des ensembles mathématiques, le dénombrement se fait à l'aide d'opérations arithmétiques ou de considérations combinatoires.
+Propriétés fondamentales
+*Principe des tiroirs :
+si l'on dispose de m ensemble (s) et que l'on y range n objet (s) avec n > m, alors au moins un de ces ensembles contiendra plusieurs objets.
+Exemple : dans une classe de 20 élèves, si tous sont nés la même année, alors plusieurs d'entre eux sont forcément nés le même mois.
+*Cardinal d'un produit cartésien :
+si un arbre comporte n branche (s) et que celle (s)-ci comporte (nt) chacune p sous-branche (s), alors cet arbre comporte n × p sous-branche (s).
+Exemple en probabilités élémentaires : supposons qu'on tire une carte au hasard dans un jeu de 52 cartes.
+Si l'on tente d'en deviner la couleur (trèfle, carreau, cœur ou pique), on a 1 chance sur 4 de tomber juste.
+Par ailleurs, si l'on tente d'en deviner la valeur (as, roi, dame, valet), on a 1 chance sur 13 de tomber juste.
+Enfin, si l'on tente d'en deviner la couleur et la valeur, on a une chance sur 52 (4 × 13) de tomber juste.
+Dénombrement
+dans des ensembles finis
+Théorèmes fondamentaux
+Dans cette section, si A est un ensemble fini, on note \mathrm (A) (lire « cardinal de A ») le nombre de ses éléments.
+Par exemple, \mathrm (\)
+= 3.
+Pour démontrer le point 1, on peut s'intéresser à l'ensemble des éléments de E qui ont une image par f. Si on le note A, alors l'application induite par f de A dans f (E) est une bijection.
+Comme A est un sous-ensemble de E, il est fini et \mathrm (f (E))=\mathrm (A) ≤ \mathrm (E).
+Le point 2 vient du fait que lorsque f est injective, tous les éléments de f (E) ont un antécédent unique, donc l'application induite de E dans f (E) est une bijection.
+Donc \mathrm (f (E))
+\mathrm (E).
+Réciproquement si \mathrm (f (E))
+\mathrm (E), alors \mathrm (A)
+\mathrm (E)
+puis il vient que A
+Ce corollaire n'est en fait que l'application de la caractérisation des applications injectives dans le cas particulier où l'ensemble d'arrivée de f est f (E).
+Propriétés
+En effet soient f une bijection de E dans \!
+1,k \!
+et g une bijection de F dans \!
+1+k,n+k \!, alors on peut construire h l'application de E \cup F dans \!
+1,n+k \!
+dont la restriction à E est f et celle à F est g. Comme h est une bijection, c'est une injection et le corollaire de caractérisation conclue que \mathrm (h (E \cup F))
+\mathrm ( \!
+1,n+k \!
+n+k.
+Par récurrence, on généralise cette propriété à une famille d'ensembles finis disjoints deux à deux :
+Démonstration : A et \overline A sont deux ensembles finis d'intersection vide et A \cup \overline A=E.
+La première propriété permet de conclure.
+Démonstration :
+Comme A \cap B et A-B sont complémentaires dans A, la propriété précédente s'applique et on a \mathrm (A \cap B) + \mathrm (A
+- B)=\mathrm (A).
+Ce même raisonnement s'applique pour B-A et A \cap B. Remarquons enfin que A-B,A \cap B et B
+-A forment une partition de A \cup B.
+L'identité se déduit des trois résultats précédents.
+Ce résultat peut se généraliser à plus de deux ensembles.
+Plus généralement,
+pour une suite d'ensembles finis :
+Cette propriété justifie la notation plus courante F^E.
+Les applications injectives, qui jouent un rôle important en combinatoire, sont traitées de manière plus approfondie dans les paragraphes suivants.

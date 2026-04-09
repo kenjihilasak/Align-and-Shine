@@ -1,0 +1,202 @@
+Acidité et basicité|Propriété
+chimique|Échelle logarithmique
+Le potentiel hydrogène, noté pH, est une mesure de l'activité chimique des hydrons (appelés aussi couramment protons ou ions hydrogène) en solution.
+Notamment, en solution aqueuse, ces ions sont présents sous la forme de l'ion hydronium (le plus simple des ions oxonium).
+Plus souvent, le pH mesure l’acidité ou la basicité d’
+une solution.
+Ainsi, dans un milieu aqueux à :
+* une solution de pH 7 est dite basique ;
+plus son pH augmente, plus elle est basique.
+Historique
+En 1893, le chimiste danois
+Søren Sørensen, qui travaille alors au laboratoire Carlsberg à Copenhague sur les effets des concentrations de quelques ions sur des protéines lors des processus de fabrication de la bière, remarque l’importance des ions hydrogène et décide d’introduire le concept de pH. Dans l’article où est évoqué le pH pour la première fois, Sørensen utilise la notation p. Dans cette publication
+, il donne au sigle la signification en latin (« poids de l’hydrogène ») ; mais dans les comptes-rendus de travaux qu’il rédige au sein du laboratoire Carlsberg de l’université de Copenhague la même année, p est l’abréviation du mot allemand (potentiel) et H est le symbole de l’hydrogène.
+Sørensen définit alors l’acidité
+d’une solution comme étant le cologarithme décimal de la concentration molaire (exprimée en moles par litre) en ions hydrogène :
+\mathrm=-\log_ \left \mathrm^+ \right
+Le principe d’une telle échelle de pH est accepté par la communauté scientifique, notamment grâce au chimiste allemand Leonor Michaelis, qui publie en 1909 un livre sur la concentration en ion hydronium (H3O+).
+En 1924, à la suite de l’introduction du concept d’activité, Sørensen publie un nouvel article précisant que le pH dépend plutôt de l’activité que de la concentration en H. Entretemps, la notation pH a été adoptée, sans que l’on sache vraiment qui en a été l’initiateur :
+\mathrm = -\log_
+a ( \mathrm^+ )
+Par la suite, la lettre «
+p »
+est reprise dans plusieurs notations usuelles en chimie, pour désigner le cologarithme : pK, pOH, pCl La signification du sigle «
+pH » a été adaptée par chaque langue.
+Ainsi, par pH, on entendra « potentiel hydrogène » en français, « » en allemand, « » en anglais, ou « » en espagnol.
+La notion d’
+acidité, qui était à la base uniquement qualitative, s’est vue dotée d’un caractère quantitatif avec les apports de la théorie de Brønsted-Lowry et du pH. Alors qu’au début du on utilisait uniquement des indicateurs de pH pour justifier du caractère acide ou basique d’une solution, les évolutions en électrochimie ont permis à l’IUPAC de se tourner dans les années 1990 vers une nouvelle définition du pH, permettant des mesures plus précises.
+Elle est utilisée dans les programmes scolaires (études supérieures) et les dictionnaires :
+:\mathrm= -\log \,\, a_\mathrm
+où a (également noté a (H) ou ) désigne l’activité des ions hydrogène H, sans dimension.
+Le pH est lui-même une grandeur sans dimension.
+Cette définition formelle ne permet pas des mesures directes de pH, ni même des calculs.
+Le fait que le pH dépende de l’activité des ions hydrogène induit que le pH dépend de plusieurs autres facteurs, tels que l’influence du solvant.
+Toutefois, il est possible d’obtenir des valeurs approchées de pH par le calcul, à l’aide de définitions plus ou moins exactes de l’activité.
+Loi
+de Nernst
+L’IUPAC donne aujourd’hui une définition du pH à partir d’une méthode électrochimique expérimentale.
+Elle consiste à utiliser la relation de Nernst dans la cellule électrochimique suivante :
+Électrode de référence
+Solution de KCl concentré |
+Solution X | H |
+Pt (électrode à hydrogène)
+À l’aide de mesures de la force électromotrice (notée fem ou f.e.m.
+) de la cellule avec une solution X et une solution S de référence, on obtient :
+\mathrm = \mathrm + \frac
+avec
+:pH (X) : pH de la solution inconnue
+:pH (S) :
+pH tabulé de la solution de référence S
+:E : f.e.m.
+de la cellule avec la solution inconnue X ;
+:E : f.e.m.
+de la cellule avec la solution de référence S à la place de la solution X
+:F = : constante de Faraday
+R = : constante universelle des gaz parfaits
+T : température absolue, en kelvins
+Cette définition du pH a été standardisée par la norme ISO 31-8 en 1992.
+En solution aqueuse
+Définitions approximatives
+Les manipulations liées au pH en chimie étant le plus souvent réalisées en milieu aqueux, on peut déterminer plusieurs définitions approchées du pH en solution aqueuse.
+En utilisant deux définitions différentes de l’activité chimique, on peut écrire les deux relations ci-dessous.
+Elles sont valables dans le domaine limité des solutions aqueuses de concentrations en ions inférieures à et n’étant ni trop acide, ni trop basique, c’est-à-dire pour des pH entre 2 et 12 environ.
+\mathrm=-\log_ \left ( \gamma _\mathrm \frac \right)
+:γ est le coefficient d’activité des ions H, sans dimension
+H est la concentration molaire en ions H, en mol·L
+:C = est la concentration standard
+\mathrm=-\log_ \left ( \gamma _\mathrm \frac \right)
+:γ est le coefficient d’activité des ions H, sans dimension
+m est la molalité des ions H, en mol·kg
+:m = est la molalité standard
+Pour des concentrations encore plus faibles en ions en solution, on peut assimiler l’activité des ions H à leur concentration (le coefficient d’activité tend vers 1).
+On peut écrire :
+\mathrm=-\log_ \, \mathrm^+
+Par abus d’écriture, l’écriture
+n’est pas homogène, La concentration standard C étant souvent omise pour simplifier la notation.
+Cette relation est la plus connue et est la plus utilisée dans l’enseignement secondaire.
+Pour des acides forts en solution aqueuse à des concentrations supérieures à , l'approximation précédente n'est plus valable : il faut se ramener à la définition
+\mathrm
+-\log (a (\mathrm)) où l'activité des ions oxonium a (\mathrm)
+tend vers 1 quand la concentration augmente, soit un pH qui tend vers 0^+.
+De même pour des bases fortes en solution aqueuse à des concentrations supérieures à , l'activité des ions hydroxyde HO tend vers 1 ;
+or, par définition de K, produit ionique de l'eau valant 10 à , on a K_e = a (\mathrm) \cdot a (\mathrm^-) donc a
+\mathrm^+)
+ne peut être inférieure à K, soit un pH qui tend vers 14 quand la concentration en base forte augmente.
+Hydratation des ions H
+Acides et bases
+Brønsted et Lowry ont donné une définition simple des concepts d’acide et de base comme étant respectivement un donneur et un accepteur de proton.
+D’autres conceptions de l’acidité sont utilisées dans les milieux non protiques (milieux où l’espèce échangeable n’est pas le proton), telles la théorie de Lewis :
+Exemples :
+* est une base de Brønsted et Lewis, mais pas d’Arrhenius ;
+* est un acide de Lewis, mais ni d’Arrhenius, ni de Brønsted.
+Autoprotolyse
+Le pH varie dans l’intervalle défini grâce à la constante d’auto-protolyse du solvant.
+En solution aqueuse, à température et pression standard (CNTP), un pH de 7,0 indique la neutralité car l’eau, amphotère, se dissocie naturellement en ions H et HO aux concentrations de .
+Cette dissociation est appelée autoprotolyse de l’eau :
+* d’où la réaction : (l) + (l) = (aq) + HO (aq)
+Dans les conditions normales de température et de pression (TPN), le produit ionique de l’eau (HHO) vaut , d’où .
+On peut également définir le pOH (-log a), de sorte que .
+Le pH doit être redéfini
+- à partir de l’équation de Nernst
+- en cas de changement de conditions de température, de pression ou de solvant.
+Influence de la pression et de la température
+Le produit ionique de l’eau (HHO) varie avec la pression et la température : sous et à (TPN), le produit ionique vaut , d’où pK = 13,995 ;
+sous et à , pK n’est que de 7,68 : le pH d’une eau neutre est alors de 3,84 !
+Sous une atmosphère de (pression de vapeur d’eau saturante), on a :
+* à : pK
+14,938, d’où le pH de la neutralité
+7,4690 ;
+* à : pK
+13,995,
+d’où le pH de la neutralité
+6,9975 ;
+* à : pK
+12,265, d’où
+le pH de la neutralité
+6,1325.
+Par conséquent, le pOH varie de la même façon et pour la même raison : la plus grande fragmentation de l'eau en proton H (en réalité ion hydronium ) et en OH.
+Dire que l'eau devient « plus acide » est donc assurément vrai, mais il est non moins vrai qu'elle devient en même temps et pour des raisons de parité « plus basique ».
+Néanmoins le résultat est bien qu'elle devient plus corrosive, problème étudié avec soin pour les échangeurs de centrales thermiques.
+Le produit ionique de l’eau varie selon l’équation suivante :
+\log K_e^* = -4098
+- \frac + \frac
+- \frac + \left ( 13957 + \frac + \frac \right) \log d_e^*
+dans laquelle K
+K (g⋅cm)
+Avec :
+Domaine d'application de la formule : T compris entre , P compris entre abs.
+Une autre formulation pour le calcul du pK est celle de l'IAPWS
+Influence du solvant
+Dans d’autres solvants que l’eau, le pH n’est pas fonction de la dissociation de l’eau.
+Par exemple, le pH de neutralité de l’acétonitrile est de 27 (TPN) et non de 7,0.
+Le pH est défini en solution non aqueuse par rapport à la concentration en protons solvatés et non pas par rapport à la concentration en protons non dissociés.
+En effet, dans certains solvants peu solvatants, le pH d’un acide fort et concentré n’est pas nécessairement faible.
+D’autre part, selon les propriétés du solvant, l’échelle de pH se trouve décalée par rapport à l’eau.
+Ainsi, dans l’eau, l’acide sulfurique est un acide fort, tandis que dans l’éthanol, c’est un acide faible.
+Travailler en milieu non aqueux rend le calcul du pH très compliqué.
+Acidité et alcalinité
+Un pH moins élevé que celui de la neutralité (par exemple 5 pour une solution aqueuse) indique une augmentation de l’acidité, et un pH plus élevé (par exemple 9 pour une solution aqueuse) indique une augmentation de l’alcalinité, c’est-à-dire de la basicité.
+Un acide diminuera le pH d’une solution neutre ou basique ;
+une base augmentera le pH d’une solution acide ou neutre.
+Lorsque le pH d’une solution est peu sensible aux acides et aux bases, on dit qu’il s’agit d’une solution tampon (de pH) ;
+c’est le cas du sang, du lait ou de l’eau de mer, qui renferment des couples acido-basiques susceptibles d’amortir les fluctuations du pH, tels anhydride carbonique carbonate, acide phosphorique phosphate, acide borique / borate.
+Le pH d’
+une solution dite physiologique est de 7,41.
+Activité et concentration
+Pour des concentrations ioniques importantes, l’activité ne peut plus être assimilée à la concentration et on doit tenir compte de la force ionique, par exemple grâce à la théorie de Debye-Hückel.
+Le pH d’une solution décamolaire d’acide fort n’est donc pas égal à -1, tout comme le pH d’une solution décamolaire de base forte n’est pas égal à 15.
+L’agressivité de telles solutions et leur force ionique importante rend la mesure du pH délicate avec les habituelles électrodes de verre.
+On a donc recours à d’autres méthodes s’appuyant sur les indicateurs colorés (spectroscopie UV ou RMN).
+Pour des concentrations élevées de H, on peut définir par analogie d’autres échelles de mesure d’acidité, telles l’échelle de Hammett H.
+Mesure
+D’après la loi de Nernst établie plus haut :
+\mathrm = \mathrm + \frac
+dans laquelle X est la solution dont le pH est inconnu et S, la solution de référence ;
+avec à (R est la constante des gaz parfaits, T, la température et F, la constante de Faraday).
+Généralement, le pH est mesuré par électrochimie avec un pH-mètre, appareil comportant une électrode combinée spéciale, dite électrode de verre, ou deux électrodes séparées.
+L’électrode de référence est en général l'électrode au calomel saturée (ECS).
+Il existe de nombreuses façons de mesurer l’acidité, on utilise fréquemment des indicateurs de pH.
+Formules de calcul approché du pH pour des solutions aqueuses
+À pK = 14.
+Cas d'un acide fort
+\mathrm = -\log_ (C_\mathrm), où C_\mathrm est la concentration en acide en mol/L.
+Cette relation n’est pas valable pour des concentrations inférieures à et ne devrait s’appliquer qu’avec des concentrations supérieures à .
+Son application à une solution diluée à 10 donne en effet , ce qui est absurde puisque la solution est acide et non alcaline (le pH d’une telle solution est de 6,98).
+Dans le cas d’un monoacide, le pH se calcule en résolvant l’équation du troisième degré suivante : .
+Dans le cas limite K_\mathrm \to +\infty, l’équation précédente devient alors (\mathrm^+)^2
+- C_\mathrm (\mathrm^+)
+- K_\mathrm
+0 d’où on déduit
+que (\mathrm^+)
+\frac
+Lorsque C_\mathrm \gg 2\sqrt \approx 2\cdot 10^, on a \mathrm =
+- \log_ (\mathrm^+) \approx -\log_ C_\mathrm.
+Cas d'une base forte
+: \mathrm = \mathrmK_\text + \log_ (C_\mathrm) où C_\mathrm est la concentration en base en mol·L.
+Cette relation est soumise aux mêmes remarques que pour le cas d’un acide fort.
+Cas d'un acide faible
+\mathrm = \frac (\mathrmK_\text
+- \log_ (C_\mathrm)) où le \mathrmK_\text est celui de l’acide.
+Cas d'une base faible
+: \mathrm = \frac (\mathrmK_\text+\mathrmK_\text+\log_ (C_\mathrm)) où le \mathrmK_\text est celui de l’acide créé.
+Cas d'un mélange de solutions de pH connus
+\mathrm = -\log \left (\frac\right)
+Cette formule est très approximative, notamment si les acides ou bases utilisés sont faibles, et devrait être utilisée avec la plus grande prudence.
+pH négatif
+Dans des solutions assez peu concentrées (on dit «
+solution diluée »), l’acidité est mesurée par la concentration en ions hydronium (oxonium) ou , car les ions H s’associent avec .
+Cependant, aux fortes concentrations, cet effet est en partie contrebalancé par les coefficients d’activité qui s’effondrent aux concentrations élevées.
+Néanmoins, il est possible d’obtenir des pH négatifs, y compris dans le contexte des séquelles minières en cas de drainage minier acide extrême.
+L'échelle 0-14 pour le pH est une limite conventionnelle.
+Ainsi une solution concentrée d'acide chlorhydrique à a un pH d'environ quand une solution saturée d'hydroxyde de sodium a un pH d'environ .
+Les produits plus acides que l’acide sulfurique à 100 %, sont qualifiés de superacides.
+Ceux-ci sont couramment utilisés, notamment comme catalyseurs pour l’isomérisation et le craquage des alcanes.
+De même, l'acide chlorhydrique concentré possède un pH négatif.
+pH d'un sol
+Le pH d’un sol est le résultat de la composition du sol (sol calcaire, résineux) et de ce qu'il reçoit (pluie, engrais).
+Il a une influence sur l’assimilation des nutriments et oligo-éléments par une plante.
+Fichier:
+Flower 658.jpg|Fleurs d'hortensia en sol acide
+Fichier:
+FlorFlower.
+JPG|Fleurs d'hortensia en sol alcalin

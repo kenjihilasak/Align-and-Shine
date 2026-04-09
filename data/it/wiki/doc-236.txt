@@ -1,0 +1,18 @@
+In geometria, il circocentro è il centro del cerchio circoscritto di un triangolo (detto circumcerchio), o più in generale di un poligono.
+Si può dimostrare che esso è il punto di incontro degli assi dei lati del triangolo.
+Proprietà
+La sua posizione dipende dal tipo di triangolo:
+* in un triangolo acutangolo è interno al contorno
+* in un triangolo rettangolo corrisponde al punto medio dell'ipotenusa, ovvero si trova sul contorno
+* in un triangolo ottusangolo è esterno al contorno.
+Il circocentro è equidistante dai vertici del triangolo, ed è il centro della circonferenza circoscritta, da cui il nome del punto.
+Fa parte della retta di Eulero, ed è il coniugato isogonale dell'ortocentro.
+Denotiamo con A, B, C i tre vertici del triangolo e con P il circocentro.
+Denotiamo con a, b, c le rette contenenti rispettivamente i segmenti AP, BP, CP.
+Denotiamo con A_1, B_1, C_1, le intersezioni di a, b, c rispettivamente con le rette BC, AC, AB.
+Allora i punti A_1, B_1, C_1 e i punti medi dei lati giacciono tutti sulla medesima conica.
+In particolare essa sarà:
+* un cerchio, il cerchio inscritto, nel triangolo equilatero (in questo caso A
+A_1,
+B_1 e C=C_1);
+* due rette parallele, di cui una contenente l'ipotenusa, per i triangoli rettangoli.

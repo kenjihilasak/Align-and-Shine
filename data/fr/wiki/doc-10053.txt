@@ -1,0 +1,85 @@
+Code source
+Le code source est un texte qui représente les instructions d'un programme telles qu'elles ont été écrites dans un langage de programmation sous une forme humainement lisible par un programmeur.
+Le code source se matérialise souvent sous la forme d'un ensemble de fichiers textes.
+Le code source est souvent traduit par un assembleur ou un compilateur en
+code binaire
+- composé d'instructions machine exécutables par un processeur.
+Il peut aussi être interprété pour être exécuté immédiatement.
+Une autre possibilité est qu'il soit traduit en code intermédiaire qui sera ensuite interprété.
+Dénomination
+L'expression est une traduction de l'anglais source code.
+Les expressions omettant le terme de code sont communes : les sources, le source.
+Histoire
+Dans les tout premiers temps de l'informatique, les programmes étaient entrés dans la mémoire de l'ordinateur par l'intermédiaire des interrupteurs du pupitre de commande, sous forme du codage binaire des instructions machines.
+Ce qui ne convenait qu'à de tout petits programmes.
+Ils ont ensuite été chargés depuis des bandes perforées, puis des cartes perforées.
+Très rapidement, les programmes ont été rédigés dans un langage symbolique, langage d'assemblage ou langage évolué comme Fortran, Cobol, puis traduit automatiquement par un programme (assembleur, compilateur).
+Avec l'apparition des disques magnétiques et des consoles interactives, des éditeurs de lignes puis des éditeurs de textes ont été utilisés pour taper et modifier le code source.
+Les possibilités limitées des ordinateurs de l'époque nécessitaient souvent l'impression du code source sur avec des bandes Carol.
+Aujourd'hui, il existe des environnements de développement, dits Environnement de développement intégré (IDE, ), qui intègrent notamment les tâches d'édition et de compilation.
+Principe
+Types de code
+sources
+Un logiciel est une suite d'instructions données à une machine.
+Un processeur ne peut exécuter que des instructions représentées sous une forme binaire particulière.
+Sauf mécanismes expérimentaux, il n'est pas possible pour un être humain de saisir directement un code binaire dans la représentation qu'en attend le processeur : un être humain ne peut pas écrire directement les champs de bits aux adresses attendues.
+Il est obligé de passer par un code distinct appelé code source, et qui est par la suite traduit dans la représentation binaire attendue par la machine puis chargé et exécuté par la cible.
+Toutefois, l'écriture d'un code sous forme binaire, même dans un fichier séparé, pose de nombreux problèmes aux êtres humains.
+C'est une représentation uniquement constituée d'une suite ininterrompue de 0 et de 1 qui est difficile à lire, à écrire et à maintenir pour l'être humain.
+La diversité des microprocesseurs et des composants présents dans un ordinateur ou automate, implique qu'un code binaire généré pour un système ne puisse pas être a priori le même que sur une machine distincte.
+Aussi, il existe autant de codes binaires que de configurations et une complexité accrue excluant que l'être humain puisse concevoir simplement un code binaire de grande ampleur.
+Pour éviter ces écueils, et puisqu'une traduction est toujours nécessaire, l'être humain écrit un code textuel afin qu'il soit plus lisible, plus compréhensible et plus simple à maintenir : c'est le code source écrit dans un langage de programmation.
+Il est, dans la plupart des cas, plus lisible, plus simple à écrire et indépendant du système cible.
+Un programme tiers (compilateur, interpréteur ou machine virtuelle) se charge de la traduction du code source en code binaire exécutable par la cible.
+Le code généré par l'être humain est appelé code source ;
+la façon dont est rédigé ce code source est appelée langage de programmation ;
+le traducteur de ce code dans sa représentation binaire est appelé compilateur, interpréteur ou machine virtuelle selon les modalités de la traduction.
+Dans la plupart des langages, on peut distinguer différents éléments dans un code source :
+* les éléments décrivant l’algorithme et les données (le code source proprement dit) :
+** des symboles identifiant des variables
+, des mots clefs dénotant des instructions, des représentations de données
+* les commentaires, qui documentent le code source le plus souvent en langage naturel, destinés aux relecteurs du code source.
+Ils ne sont pas nécessaires à la production du code exécutable mais peuvent être utilisés par le compilateur pour, par exemple, produire automatiquement de la documentation.
+Coloration syntaxique
+Un code est plus facile à lire et à écrire avec un éditeur fournissant une coloration syntaxique permettant de distinguer les différents éléments du code source.
+Les commentaires peuvent par exemple être mis en vert.
+Exemple de code en Ruby :
+a = "\n這是一個雙引號的字串\n"
+a = %
+a =
+hash
+puts hash:fire #
+Τυπώνει
+hot
+hash.each_pair do |key, value# Ή: hash.each do |key, value|
+puts "# is #"
+end
+# Τυπώνει: water is wet
+# fire is hot
+hash.delete :water #
+Σβήνει
+το :water => 'wet'
+hash.delete_if #
+Σβήνει
+το :fire => 'hot'
+Autre exemple de code en Ruby :
+File.open ('file.txt', 'w')
+Конструкция устраняет неопределённость с закрытием файла:
+закрывается здесь при любом исходе
+Analogie avec la recette de cuisine
+L'analogie du code source et de la recette de cuisine est souvent employée dans une volonté de vulgarisation.
+Une recette est une liste organisée d'ingrédients dont les quantités et les fonctions sont définies.
+Le but est d'obtenir le résultat voulu par le cuisinier, selon une technique et un enchaînement d'opérations déterminés.
+Ainsi le code source peut être apparenté à une recette de cuisine.
+Ainsi, une personne dégustant un plat est en mesure de deviner les ingrédients qui le composent et d'imaginer comment le réaliser.
+Néanmoins, pour un plat très raffiné et subtil (comme pourrait l'être un programme), il est fort probable qu'elle ignore le mode opératoire du cuisinier.
+Pour le connaître, une recette détaillée serait nécessaire (pour un programme, la recette peut compter plusieurs millions de lignes de code).
+La solution alternative à cela serait d'acheter des plats préparés, c'est un peu ce que l'on fait lorsqu'on achète des logiciels.
+Aspects légaux
+Le code source peut être public ou privé (voir logiciel libre et logiciel propriétaire).
+Toutefois, le code binaire n'étant qu'une traduction du code source, il est toujours possible d'étudier un logiciel à partir de son code binaire.
+La légalité des techniques utilisées à ces fins dépend du pays et de l'époque.
+Elle peut notamment être mise en œuvre pour percer les secrets d'une machine comme l'ES3B.
+Voir aussi
+Articles connexes
+ggh1hpxmzbhegnvykm9owvkwm3th78c

@@ -1,0 +1,361 @@
+Syllogistique|*|Rhétorique
+En logique, le syllogisme est un raisonnement logique mettant en relations trois propositions : deux d'entre elles, appelées « prémisses », conduisent à une « conclusion ».
+Aristote a été le premier à le formaliser dans son Organon.
+Ces propositions sont généralement exprimées avec uniquement des prédicats unaires et relèvent donc de la logique monadique du premier ordre.
+Un exemple très connu de syllogisme est : «
+Tous les hommes sont mortels, or Socrate est un homme; donc
+Socrate est mortel » : les deux prémisses (dites « majeure » et « mineure ») sont des propositions données et supposées vraies, le syllogisme permettant de valider la validité formelle de la conclusion, qui est nécessairement vraie si les prémisses sont effectivement vraies.
+La science des syllogismes est la syllogistique, à laquelle, entre autres, se sont intéressés les penseurs de la scolastique au Moyen Âge, puis Antoine
+Arnauld, Gottfried Wilhelm Leibniz, Emmanuel Kant, Georg Wilhelm Friedrich Hegel et Émile Durkheim.
+Elle est l'ancêtre de la logique mathématique moderne et a été enseignée jusqu'à la fin du .
+Étymologie
+Syllogisme est emprunté au grec , composé de (syn, « avec ») et (logos, « parole », « discours », « fable », « bruit », « lettres »).
+Le sens de logos à utiliser est tout simplement parole (désignant ici une proposition).
+Syllogisme signifie donc littéralement .
+Définition du syllogisme selon Aristote : Théophraste et Eudème de Rhodes ont montré plus simplement qu’une proposition négative universelle pouvait être convertie en ses propres termes ;
+la proposition négative universelle, ils l’ont appelée proposition universelle privative, et ils font la démonstration suivante : supposons que A ne soit à aucun B ;
+s’il n’est à aucun B, il est séparé de lui, donc B est aussi séparé de tout A : par conséquent, B n’est à aucun A. Théophraste dit aussi que cette proposition affirmative probable peut être convertie de la même façon que toutes les autres propositions affirmatives.
+Théophraste et Eudème de Rhodes disent
+que la proposition universelle affirmative elle-même peut être convertie, comme on convertirait la proposition universelle affirmative et nécessaire.
+Théophraste, dans le Premier livre des Premières Analytiques, dit que la mineure d’un syllogisme est établie soit par une induction, soit par une hypothèse, soit par une évidence, soit par des syllogismes.
+Théophraste définit la voie qui conduit aux choses particulières, indéfinie celle qui conduit aux parties.
+Il oppose d’autre part à celle qui est simplement générale celle qui concerne les choses particulières, et à celle qui est générale en tant que générale celle qui concerne les parties.
+Introduction
+Le syllogisme permet de mettre en lien dans une conclusion deux termes, le majeur et le mineur, au moyen d'un moyen terme.
+Le majeur et le mineur ne doivent apparaître qu'une fois chacun dans les prémisses, le moyen terme est présent dans chaque prémisse (puisqu'il permet la mise en rapport des deux autres termes) tandis que la conclusion expose le rapport entre le majeur et le mineur, de sorte que le syllogisme est un (expression de Renouvier, Traité).
+Voici un exemple de syllogisme :
+La syllogistique consiste à dresser la liste de toutes les formes de syllogismes correspondant à des raisonnements valides, et à étudier les liens qui existent entre ces diverses formes.
+Avant de chercher à comprendre le fonctionnement des syllogismes, il faut distinguer Validité et Vérité : dire d'un syllogisme qu'il est valide, c'est affirmer que sa forme est valide.
+Un syllogisme est concluant quand il est valide et toutes ses prémisses sont vraies.
+Un syllogisme n'est jamais vrai ou faux.
+Ainsi, le syllogisme suivant est formellement valide.
+Il n'est, en revanche, pas concluant.
+:Toutes les créatures sans dent sont kleptomanes,
+Or les poules n'ont pas de dent,
+:Donc les poules sont kleptomanes
+Les propositions
+Sujet et prédicat des propositions
+Les syllogismes sont constitués de propositions, ou affirmations faites d'un sujet (désigné par S) relié par une copule à un prédicat (désigné par P), de type
+:S est P , ce qu'on notera dans la suite (S ⊂ P), en utilisant la notation désignant les sous-ensembles.
+Ces propositions doivent être construites dans un ordre précis : le sujet de la conclusion, en effet, doit être présent dans une des prémisses (normalement la mineure), son prédicat dans l'autre , pour que le syllogisme soit valide.
+Le moyen terme (M) établit le rapport :
+or donc
+Il est donc exclu que le moyen terme apparaisse dans la conclusion ou que l'une des prémisses mette en relation les deux termes extrêmes (termes mineur et majeur).
+Rapport entre le sujet et le prédicat
+En fait, la copule est introduit un rapport entre les deux concepts S et P. Ces concepts, et le rapport que l'on établit ensuite entre eux, peuvent être appréhendés sous l'angle de la compréhension ou de lextension.
+(En logique, la compréhension d'un concept est la donnée des concepts plus généraux qui peuvent en être prédiqués, et peuvent entrer dans sa définition;
+là où l'extension d'un concept est la classe (l'ensemble) des individus qui répondent à ce concept.
+S est P doit donc se comprendre à la fois comme :
+Ainsi, tous les hommes sont mortels se comprend doublement :
+Les classes de propositions
+Il existe quatre classes de propositions, distinguées par leur qualité et leur quantité :
+* qualité : propositions affirmatives ou négatives ;
+* quantité : propositions universelles (le sujet concerne toute l'extension) ou particulières .
+Ces quatre classes sont traditionnellement désignées par des lettres (depuis la scolastique médiévale, suivant une correspondance mnémotechniques en latin : affirmo (), nego () :
+A et O
+sont 2 énoncés logiques contradictoires (l'un est vrai
+si et seulement si l'autre est faux);
+E et I aussi.
+Soient :
+Deux propositions disposant des mêmes sujet et prédicat peuvent s'opposer par leur qualité et/ou par leur quantité.
+Ainsi les oppositions qui peuvent être créées sont les suivantes :
+* Deux propositions contradictoires sont des propositions qui s'opposent par la qualité et la quantité
+* Deux propositions contraires sont des propositions universelles qui s'opposent par la qualité
+* Deux propositions subcontraires sont des propositions particulières qui s'opposent par la qualité
+* Deux propositions subalternes sont des propositions qui s'opposent par la quantité.
+On établit ainsi le carré logique de l'opposition des propositions.
+Or, un syllogisme doit considérer la classe de ses propositions et l'ordre dans lequel elles apparaissent pour rester valide : le schéma (M ⊂ P) ∧ (S ⊂ M) ⇒ (S ⊂ P) ne suffit pas, ne serait-ce que parce que l'on a parfois à faire à des exclusions d'ensembles, et non de seules inclusions.
+Les modes
+La position du moyen terme : notion de figure
+On l'a dit, l'ordre dans lequel apparaissent les prémisses n'est pas pertinent.
+Ce qui l'est, en revanche, c'est la répartition du sujet et du prédicat de la conclusion au sein des prémisses, indiquée par celle du moyen terme.
+La forme canonique d'un syllogisme est (M ⊂ P) ; ∧ (S ⊂ M)
+⇒ (S ⊂ P).
+Dans ce cas, le moyen terme est sujet de la majeure et prédicat de la mineure.
+Cela dessine ce que l'on nomme la première figure, dans laquelle le terme majeur est prédicat de la prémisse majeure et le terme mineur sujet de la prémisse mineure.
+Trois autres figures sont cependant possibles :
+* figure : (P ⊂ M) ∧ (M ⊂ S).
+Cette quatrième figure n'a pas été analysée par Aristote (considérant qu'elle revient à la première figure dont les prémisses seraient inversées) mais, selon la tradition, par Galien au de l'ère chrétienne.
+On la nomme aussi figure galénique.
+L'extension des termes
+Ces figures ont une importance dans la recherche des modes concluants car elles déterminent, outre la place du prédicat, celle des termes majeurs et mineurs ;
+or, selon qu'un terme est sujet ou prédicat, et selon la qualité de la proposition (affirmative ou négative), l'extension de ce terme varie.
+Si l'on se souvient que le syllogisme fonctionne sur l'inclusion de classes au sein d'autres classes, l'on comprend que l'extension des termes soit fondamentale : dire que tous les hommes sont mortels, or les Grecs sont des hommes donc les Grecs sont mortels nécessite que les ensembles hommes, mortels et Grecs soient pris dans la même extension d'un bout à l'autre du syllogisme ou au moins dans une extension moindre dans la conclusion.
+Si, par exemple, Grecs correspondait dans les prémisses à seulement les Grecs de Béotie et dans la conclusion à tous les Grecs, le syllogisme n'aurait aucun sens : la classe tous les Grecs n'est pas incluse dans la classe Grecs de Béotie.
+Sachant que l'extension des termes change selon la qualité de la proposition et leur place en son sein, il convient, si l'on veut respecter leur identité d'un bout à l'autre du syllogisme, de connaître les règles suivantes :
+En effet,
+dans :
+* tous les Grecs sont mortels, la classe Grecs est incluse dans celle des mortels;
+l'on ne peut cependant pas dire que la classe mortels soit limitée à celle de Grecs (tous les Grecs sont mortels ≠ tous les mortels sont Grecs).
+L'on considère donc une partie de l'extension de mortels;
+* aucun Grec n'est immortel, la classe immortel est saisie dans son entier : l'intégralité de la classe immortel n'a aucun point commun avec celle de Grecs.
+L'on peut donc dire quaucun Grec n'est immortel équivaut à aucun immortel n'est un Grec ;
+* quant aux sujets, ils sont quantifiés directement selon la quantité de la proposition où ils apparaissent : dans tout homme est mortel, la classe homme est prise en intégralité, dans quelques hommes portent une barbe de manière particulière.
+On peut aussi résumer les questions d'extension en considérant les classes de propositions :
+L'extension des sujets et des prédicats, on le verra plus bas, joue dans la détermination des modes concluants.
+Les modes concluants
+Sachant qu'il existe quatre classes de propositions (A, E, I et O), qu'un syllogisme se compose de trois propositions et que le moyen terme dessine quatre figures, il existe donc 4³ ×4
+256 modes (à noter que si l'on compte les deux tournures que peut prendre la conclusion (A implique B ou B implique A), il existe alors 4³ ×4 ×2
+512 modes)
+De ces 256, seuls 24 sont valides, ou concluants (six par figure).
+Jusqu'à Théophraste dix-neuf étaient retenus, cependant Leibniz, dans son De arte combinatoria (1666), prend en compte les cinq autres, ces derniers ayant des conclusions particulières subalternes de conclusions universelles d'autres syllogismes.
+Afin de dresser la liste des modes concluants, plusieurs règles (que l'on déduit d'autres règles logiques concernant l'extension des termes ;
+voir plus bas)
+sont à considérer :
+* l'extension des termes de la conclusion ne peut être plus importante que dans les prémisses ;
+* le moyen terme doit être universel au moins une fois dans les prémisses ;
+* on ne peut tirer de conclusion à partir de deux prémisses particulières ;
+* on ne peut tirer de conclusion à partir de deux prémisses négatives ;
+* deux prémisses affirmatives ne peuvent donner une conclusion négative ;
+* la conclusion doit être aussi faible que la prémisse la plus faible.
+De sorte, il est possible de recenser les modes concluants.
+Ceux-ci sont depuis le Moyen Âge désignés par des noms sans signification dont les voyelles indiquent les classes des propositions.
+Pour trouver le mode, nommé par un sigle de 3 lettres parmi les 4 des classes de propositions, il faut extraire les 3 voyelles qui composent ces noms de syllogismes.
+Ainsi, le syllogisme BArbArA par exemple doit se comprendre comme ayant deux prémisses et une conclusion affirmatives et universelles (A A A).
+On peut représenter les différents modes sous la forme de diagrammes de Venn.
+Le tableau suivant recense les diagrammes des 24 modes concluants, répartis sur quatre lignes correspondant aux quatre figures.
+Les modes de syllogismes présentant le même contenu sont représentés sur la même colonne.
+Note : les noms de ces modes peuvent varier ;
+les logiciens de Port-Royal les disent « Barbari », «
+Calentes »
+, «
+Dibatis »
+, « Fespamo » et « Fresisom ».
+De la première figure (« modes parfaits »)
+Schéma : (M ⊂ P) ∧ (S ⊂ M)
+⇒ (S ⊂ P) ;
+ces modes sont dits « parfaits » parce qu'Aristote s'en est servi pour démontrer le caractère concluant des modes des autres figures (ou « modes imparfaits »).
+En effet, tout syllogisme peut se ramener à l'un des quatre modes parfaits.
+Chacun de ces modes donne une conclusion d'une des classes :
+* Barbara :
+tout M est P, or tout S est M, donc tout S est P ;
+* Celarent : aucun M n'est P, or tout S est
+M, donc aucun S n'est P ;
+* Darii :
+tout M est P, or quelque S est M, donc quelque S est P ;
+* Ferio :
+aucun M n'est P, or quelque S est M, donc quelque S n'est pas P.
+Cette figure
+, ou catégorie de syllogismes, n'a que deux règles qui lui soient propres :
+Deux syllogismes, bien que formellement valides, ne sont généralement pas retenus.
+Le premier (AAI) est subalterne de Barbara, le second (EAO) est subalterne de Celarent.
+Les conclusions qu'ils proposent sont affaiblies, et leur intérêt est donc limité :
+* AAI (Barbari)
+: tout M est P, or tout S est M, donc quelque S est P ;
+* EAO
+Celaront)
+: aucun M n'est P, or tout S est M, donc quelque S n'est pas P ;
+Exemples
+:Tout chat est sympathique ;
+Or tout philosophe est un chat ;
+:Donc tout philosophe est sympathique.
+:Aucun agent de change n'est borgne ;
+Or tous les rats polyglottes sont des agents de change ;
+:Donc aucun rat polyglotte n'est borgne.
+:Toute hirondelle fait le printemps ;
+Or quelques syndicalistes sont des hirondelles ;
+Donc quelques syndicalistes font le printemps.
+:Aucune feuille du Dictionnaire étymologique de la langue latine n'est imputrescible ;
+Or quelques cornets de frites sont faits de feuilles du Dictionnaire étymologique de la langue latine ;
+Donc quelques cornets de frites ne sont pas imputrescibles.
+De la deuxième figure
+Schéma : (P ⊂ M) ∧ (S ⊂ M)
+⇒ (S ⊂ P) ;
+tous ces modes ont une conclusion négative :
+* Baroco :
+tout P est M, or quelque S n'est pas M, donc quelque S n'est pas P ;
+* Camestres : tout P est M, or aucun S
+n'est M, donc aucun S n'est P ;
+* Cesare : aucun P n'est M, or tout S est M, donc aucun S n'est P ;
+* Festino :
+aucun P n'est M, or quelque S est M, donc quelque S n'est pas P.
+Les deux syllogismes AEO (Camestrop) et EAO (Cesaro), bien que valides, ne sont généralement pas retenus, car subalternes de Camestres et Cesare, dont ils ne sont que des formes affaiblies.
+Cette figure ou catégorie de syllogismes a deux règles qui lui sont propres :
+Une des deux propositions (la majeure ou la mineure)
+doit être négative, et donc la conclusion doit l'être aussi (puisque la conclusion ne saurait excéder les prémisses).
+*La majeure doit être universelle, afin que l'attribut (ici, M) soit pris universellement.
+Exemples
+Toute conscience de soi est déjà quelque chose ;
+Or quelques riens ne sont pas quelque chose ;
+Donc quelques riens ne sont pas conscience de soi.
+:Les albatros portent des plumes ;
+Or le Lubeyron ne porte pas de plumes ;
+Donc le Lubeyron n'est pas un albatros.
+:Aucun prêtre n'est un singe ;
+Or les chimpanzés sont des singes ;
+:Donc les chimpanzés ne sont pas prêtres.
+:Aucun ange n'est mortel ;
+Or quelques hommes sont mortels ;
+Donc quelques hommes ne sont pas des anges.
+De la troisième figure
+Schéma : (M ⊂ P) ∧ (M ⊂ S)
+⇒ (S ⊂ P) ;
+chacun des modes de cette figure implique une conclusion particulière :
+* Bocardo : quelque M n'est pas P, or tout M est S, donc quelque S n'est pas P ;
+* Darapti
+tout M est P, or tout M est S, donc quelque S est P ;
+* Datisi :
+tout M est P, or quelque M est S, donc quelque S est P ;
+* Disamis :
+quelque M est P, or tout M est S, donc quelque S est P ;
+* Felapton :
+aucun M n'est P, or tout M est S, donc quelque S n'est pas P .
+Exemples
+:Quelques hommes de bien n'aiment pas Verdi ;
+Or tous les hommes de bien sont sages ;
+Donc quelques sages n'aiment pas Verdi.
+:Toutes les poules ont des dents ;
+Or les poules sont kleptomanes ;
+:Donc quelques créatures kleptomanes ont des dents.
+:Tous les verres de lunettes sont transparents ;
+:Or quelques verres de lunettes sont irisés ;
+:Donc quelques matières irisées sont transparentes.
+:Quelques papillons passent leurs vacances à Palavas ;
+Or tous les papillons aiment les asperges ;
+Donc certaines des choses qui aiment les asperges passent leur vacances à Palavas.
+:Aucun mot français ne commence par « spoûargh » ;
+Or tout mot français est agréable ;
+Donc certaines choses agréables ne commencent pas par « spoûargh ».
+:Aucune chaise n'est plate ;
+Or quelques chaises sont en métal ;
+:Donc certaines choses en métal ne sont pas plates.
+De la quatrième figure, dite
+« galénique »
+Schéma : (P ⊂ M) ∧ (M ⊂ S)
+⇒ (S ⊂ P) ;
+la conclusion des modes de cette figure ne peut pas être universelle affirmative.
+Les modes galéniques n'ont pas été reconnus concluants par Aristote.
+* Bamalip : tout P est M, or tout M est S, donc quelque S est P ;
+* Camenes :
+tout P est M, or aucun M n'est S, donc aucun S n'est P ;
+* Dimatis : quelque P est M, or tout M est S, donc quelque S est P ;
+* Fesapo : aucun P n'est M, or tout M est S, donc quelque S n'est pas P .
+Le syllogisme AEO (Calemop), bien que valide, n'est généralement pas retenu, car subalterne de Camenes.
+Exemples
+:Tous les mulots sont poilus ;
+Or tous les poilus sont iconoclastes ;
+:Donc quelques iconoclastes sont des mulots.
+:Tous les rois ont une couronne ;
+Or aucun de ceux qui ont une couronne ne sont ouvriers ;
+:Donc aucun ouvrier n'est roi.
+:Quelques serpents ont des plumes ;
+Or les créatures à plumes adorent le Quetzalcoatl ;
+:Donc parmi ceux qui adorent le Quetzalcoatl, certains sont des serpents.
+:Aucune grenouille verte n'est abonnée au câble ;
+:Or les abonnés au câble ont une télévision ;
+Donc certains possesseurs de télévision ne sont pas des grenouilles vertes.
+:Aucune vedette n'est en carton ;
+Or quelques objets en carton sont cylindriques ;
+Donc quelques cylindres ne sont pas des vedettes.
+Validation des modes concluants
+On a indiqué plus haut des règles communes à toutes les figures permettant de repérer les modes concluants sans en expliquer les raisons profondes, si ce n'est évoquer l'importance de l'extension des termes.
+Ainsi, comment expliquer qu'un Bamalip galénique (tout P est M, or tout M est S, donc quelque S est P) est concluant mais pas un éventuel « Bamalap » galénique (tout P est M, or tout M est S, donc tout S est P) ?
+Il faut, pour ce faire, étudier par le menu les règles de formation des syllogismes.
+L'extension des termes de la conclusion ne peut être plus importante que dans les prémisses
+L'extension des termes de la conclusion (ses sujet et prédicat) ne peut dépasser celle qu'ils ont dans les prémisses.
+Puisque la conclusion découle des prémisses, il faut que les ensembles qui y sont désignés soient ou les mêmes ou des plus petits pour que le jeu d'inclusion de classes au sein d'autres classes fonctionne.
+Cela explique pourquoi le mode Bamalip (tout P est M, or tout M est S, donc quelque S est P) de la quatrième figure ne peut avoir de conclusion universelle : dans cette figure, le terme mineur (sujet de la conclusion) est toujours prédicat, or, dans ce mode, il est pris en particulier puisque la proposition est affirmative.
+Il doit donc être particulier dans la conclusion.
+Le moyen terme doit être universel au moins une fois dans les prémisses
+Le moyen terme assurant le rapport entre les termes de la conclusion, celui-ci doit au moins une fois être utilisé sous son extension universelle.
+En effet, ce rapport ne fonctionne que si le moyen terme possède une identité claire.
+Or, si le moyen terme n'était considéré deux fois qu'en partie, rien ne permettrait d'affirmer que ces deux parties sont identiques ou que l'une est incluse dans l'autre.
+Ceci explique pourquoi les syllogismes de la deuxième figure, dans lesquels le moyen terme est toujours prédicat, donc pris particulièrement, ne peuvent suivre un schéma AAA : rien n'indique que dans les deux prémisses ce moyen terme serait le même : les cerises sont sphériques, or les yeux sont sphériques, donc les yeux sont des cerises.
+Dans les prémisses, les deux classes des objets sphériques évoqués ne se recoupent pas : le rapport entre le terme mineur et le majeur ne peut être assuré en l'absence d'un moyen terme non ambigu.
+On ne peut tirer de conclusion à partir de deux prémisses particulières
+Ce cas de figure est impossible.
+En effet, dans le cas où les deux prémisses seraient affirmatives particulières, tous les termes seraient particuliers (voir tableau plus haut), dont le moyen.
+Or, le moyen terme doit obligatoirement être pris au moins une fois universellement (voir plus haut).
+Dans le cas où l'une des deux prémisses serait négative particulière (deux négatives étant impossibles ;
+voir plus bas)
+, la conclusion devrait être négative, le prédicat P de la conclusion serait donc universel, et le syllogisme devrait contenir au moins deux termes universels, P et M. Le prédicat de la prémisse négative est universel, mais seule une prémisse universelle permettrait d'obtenir un sujet universel.
+On ne peut tirer de conclusion à partir de deux prémisses négatives
+Le sujet et le prédicat de la conclusion étant mis en rapport par le moyen terme, si ce rapport est nié deux fois, on ne peut naturellement établir de lien.
+Ainsi, il ne peut exister de syllogisme EEE ou OOO (ou un mélange quelconque de ces deux classes), qui ressemblerait à cela : aucun animal n'est immortel, or aucun dieu n'est un animal, donc aucun dieu n'est immortel.
+Deux prémisses affirmatives ne peuvent donner une conclusion négative
+Deux prémisses affirmatives unissent les termes de la conclusion par le moyen terme.
+On ne peut donc obtenir une conclusion négative, c'est-à-dire une absence de lien entre les termes.
+Cela exclut tous les modes AAE, AAO, AIE, AIO, IAE, IAO, IIE et IIO .
+La conclusion doit être aussi faible que la prémisse la plus faible
+On entend par « faible » une hiérarchie au sein des qualités et des quantités :
+* la particulière est plus faible que l'universelle ;
+Lorsqu'une des prémisses est négative (le cas où deux prémisses seraient négatives n'étant pas possible;
+voir plus haut), le rapport établi par le moyen terme entre le terme majeur et le mineur est double : l'une des classes est incluse ou identique à celle du moyen terme, l'autre est exclue du moyen terme.
+Il ne peut donc y avoir d'union entre le majeur et le mineur.
+De même, à supposer qu'une conclusion soit universelle affirmative, ses prémisses devront aussi être affirmatives et contenir chacune un terme universel, l'extension des termes de la conclusion ne pouvant dépasser celle des termes des prémisses.
+Si la conclusion est universelle négative, il faut que les prémisses contiennent trois termes universels, soient une négative (prédicat universel), et deux sujets universels.
+Ces règles permettent d'expliquer le caractère concluant de tous les modes syllogistiques en excluant ceux qui ne seraient pas convaincants du fait de l'extension des termes.
+L'utilisation de syllogismes non concluants se rencontre cependant souvent dans le cadre de l'argumentation ;
+on parle dans ce cas de sophisme, la plupart du temps par généralisation, ou sophisme secundum quid.
+Réduction aux modes parfaits
+Techniques de réduction
+Les quatre modes de la première figure, Barbara, Celarent, Darii, Ferio sont dits parfaits car le terme moyen y occupe une position médiane (sujet dans la majeure, prédicat dans la mineure).
+En outre, tous les autres modes peuvent s'y ramener au moyen de transformations élémentaires des propositions.
+L'initiale des modes parfaits B, C, D, F utilisent les premières lettres de l'alphabet, autres que A et E déjà prises pour désigner les universelles affirmatives et négatives.
+Le nom des autres modes a été choisi de façon à pouvoir désigner le mode parfait vers lequel on peut les réduire ainsi que les transformations pour y parvenir.
+Un mode donné peut être réduit au mode parfait portant la même initiale (B, C, D, F).
+Ainsi, Bocardo peut être réduit à Barbara, Cesare peut être réduit à Celarent, Dimatis peut être réduit à Darii, et Ferison peut être réduit à Ferio, etc.
+* Il y a quatre transformations possibles, désignées par la lettre S suivant un E ou un I, la lettre P suivant un A ou un I, la lettre M et la lettre C, plusieurs transformations pouvant s'appliquer au même mode.
+La transformation S est une transformation simple de la proposition.
+Le S suivant une lettre E signifie qu'une universelle négative nul X n'est Y est transformée en l'universelle équivalente nul Y n'est X. Suivant une lettre I
+, c'est la particulière affirmative quelque X est Y qui est transformée en la particulière équivalente quelque Y est X.
+La transformation P est une transformation per accidens d'une universelle affirmative vers une particulière affirmative.
+Dans une prémisse, AP signifie que l'hypothèse universelle tout X est Y est transformée en l'hypothèse particulière a fortiori vraie quelque Y est X.
+La prémisse de type A est alors transformée en prémisse de type I. Dans une conclusion, IP signifie que la conclusion particulière quelque Y est
+X provient d'une conclusion universelle tout X est Y qu'il suffit de prouver.
+La transformation C
+conduit à une contradiction avec la prémisse qui précède la lettre C, au moyen d'un raisonnement par l'absurde sur la conclusion du syllogisme.
+La connaissance des quatre syllogismes parfaits et des moyens d'y ramener les autres modes concluants permettait au logicien scolastique d'alléger la mémorisation des dix-neuf syllogismes.
+Voici quelques exemples :
+Réduction de Ferison
+Ferison est le syllogisme nul M n'est P, or quelque M est S, donc quelque S est non-P.
+On le prouve en transformant simplement la deuxième prémisse en quelque S est M. L'application de Ferio (nul M n'est P, or quelque S est M, donc quelque S est-non P) conduit à la conclusion voulue.
+Réduction de Fesapo
+Fesapo est le syllogisme énonçant que : nul P n'est M, or tout M est S, donc quelque S est non-P.
+On prouve sa validité en le transformant en Ferio (nul M n'est P, or quelque S est M, donc quelque S est non-P) au moyen des deux transformations suivantes :
+* transformation simple de nul P n'est M en nul M
+n'est P.
+* transformation per accidens de tout M
+est S en quelque S est M.
+On déduit donc des prémisses de Fesapo que nul M n'est P, or quelque S est M, donc (Ferio) quelque S est non-P.
+Réduction de Bamalip
+Bamalip est le syllogisme tout P est M, or tout M est S, donc quelque S est P.
+On procède à :
+* une permutation des deux prémisses : "tout M est S, or tout P est M".
+Une application de Barbara (tout M est P, or tout S est M donc tout S est P)
+sur les prémisses ainsi obtenus conduit à la conclusion tout P
+est S.
+Une transformation per accidens de la conclusion tout P est S en quelque S est P conduit à la conclusion voulue.
+Réduction de Camestres
+Camestres est le syllogisme tout P est M, or nul S n'est M, donc nul S n'est P.
+Il se ramène à Celarent (nul M n'est P, or tout S est
+M, donc nul S n'est P)
+au moyen de :
+* transformation simple de la deuxième prémisse nul S n'est M en nul M
+n'est S.
+* permutation des deux premières prémisses, ce qui donne nul M n'est S, or tout P est M. L'application de Celarent sur ces deux prémisses permet d'en déduire nul P
+n'est S.
+* transformation simple de la conclusion obtenue en nul S n'est P.
+Réduction de Baroco
+Baroco est le syllogisme tout P est M, or quelque S est non-M, donc quelque S est non-P. Prouvons le par l'absurde : si la conclusion était fausse, alors on aurait tout S est P.
+Mais l'application de Barbara sur tout P est M, or tout S est P conduit à la conclusion tout S est M, en contradiction avec la deuxième prémisse de Baroco.
+La conclusion de Baroco quelque S est non-P est donc nécessairement exacte.
+Faux syllogismes
+Un faux syllogisme, c'est-à-dire un « sophisme » ou un « paralogisme » selon qu'il est volontaire ou non, est un syllogisme invalide, donnant lieu à un paradoxe.
+Il se produit lorsqu'une conclusion absurde est déduite de prémisses semblant correctes mais n'obéissant pas aux règles d'inclusion.
+exemple:
+# Jésus est le fils de Dieu (A=>B)
+# Joseph est le père de Jésus (C=>B)
+# Donc Joseph est Dieu (C=>A)
+Pour des exemples voir les articles paradoxe du fromage à trous ou Apagogie/Raisonnement par l'absurde.
+Limites des syllogismes
+John Stuart Mill (et avant lui, Sextus Empiricus, philosophe sceptique) évoque les limites du syllogisme en remarquant que dans la pratique un syllogisme déductif est rarement applicable sans une part plus ou moins escamotée d'induction.
+Ainsi, le célèbre syllogisme
+:Tous les hommes sont mortels ;
+:Socrate est un homme ;
+:Donc Socrate est mortel
+repose sur la validité de la prémisse , qui n’est pas vérifiable.
+Par conséquent, le syllogisme classique est lui-même un paralogisme : aucune vérité
+particulière ne peut être inférée de principes généraux puisque c'est au contraire l'ensemble des premières qui doivent être démontrées pour garantir la validité des seconds.
+On a pu jadis croire qu'un syllogisme expliquait quelque chose sur le monde réel à une époque où l'on croyait aux essences, c'est-à-dire où on pensait que le mot définissait la chose, et non l'inverse (voir Induction (logique), Réalisme vs.
+Nominalisme).

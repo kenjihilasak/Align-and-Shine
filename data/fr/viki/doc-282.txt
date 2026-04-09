@@ -1,0 +1,131 @@
+Cryptographie
+Un texte chiffré basé sur des runes dans le roman de Jules VerneVoyage au centre de la Terre
+Toute la cryptologie sur Vikidia :
+La cryptographie est une science qui mêle mathématiques et informatique, avec des applications très concrètes.
+Elle a pour but de protéger des informations ;
+pour cela, le plus souvent, elle les rend apparemment incompréhensibles en les mélangeant et les transformant selon une certaine méthode, secrète.
+Tout le monde peut avoir besoin d’utiliser la cryptographie.
+Le plus ancien message chiffré1 connu date de 8 000 ans
+: un potier y avait inscrit sa recette secrète en supprimant des consonnes et en modifiant l'orthographe des mots.
+Dans ce cas, la cryptographie lui a permis d’éviter les copieurs, pour garder du travail.
+Aujourd’hui
+, les entreprises font exactement la même chose : pour que personne ne leur vole leurs idées, elles utilisent la cryptographie en chiffrant leurs communications et leurs documents ;
+c’est devenu indispensable.
+Les États eux-mêmes y ont recours, pour éviter d’être espionnés.
+Les particuliers eux aussi
+peuvent utiliser la cryptographie, par exemple pour l’envoi de messages sur Internet.
+On dit souvent que les emails sont comme des cartes postales : n’importe qui se trouvant sur leur chemin peut les lire, parce qu’ils n’ont pas d’enveloppe pour cacher leur contenu !
+Les chiffrer permet de garder ce contenu seulement pour l’expéditeur et le destinataire.
+De manière générale, tout le monde utilise déjà la cryptographie, tous les jours, souvent sans s’en rendre compte.
+Voici quelques activités qui l’emploient :
+lire ses emails ;
+La cryptographie est utilisée depuis l’Antiquité au moins, et aujourd’hui de façon très importante, grâce au développement de l’informatique et à la baisse des prix des équipements électroniques.
+Ce chapitre présente quelques grandes dates de la discipline.
+L'une des plus célèbres manières de chiffrer un message est aussi l'une des plus anciennes: il s'agit du chiffre de César.
+Il était utilisé au temps des Romains ;
+c'est pourquoi il s'appelle « César », du nom d'un fameux dictateur romain.
+Cet algorithme de chiffrement et ses variantes sont très simples, mais aussi très faibles: si un espion veut les « casser » (c'est-à-dire découvrir le message sans y être autorisé), il lui suffit en moyenne de 13 essais pour y arriver!
+Avec le temps, il a donc fallu trouver des méthodes plus sûres pour chiffrer les messages.
+Au XVIe siècle, le diplomatefrançais Blaise Vigenère invente une nouvelle méthode de chiffrement, le chiffre de Vigenère.
+Il est beaucoup plus solide que, par exemple, le chiffre de César: on n'a trouvé le moyen de casser cette méthode qu'en 1863!
+Elle est donc restée efficace pendant trois siècles et a été souvent utilisée pendant les guerres.
+Cet algorithme fait partie des chiffrements polyalphabétiques: dans le message, une même lettre n'est pas toujours codée de la même manière.
+Ainsi, pour le casser, on ne peut pas utiliser aussi facilement qu'avec le chiffre de César la méthode statistique : compter les lettres pour les deviner ;
+Les méthodes précédentes restent assez simples: au pire, pour les casser, il suffit de faire quelques centaines d'essais.
+Ce n'est donc qu'une question de temps, mais le message finira toujours par être retrouvé.
+Par exemple, pour le chiffre de César, tout le monde est capable de tester vite 25 possibilités.
+Dans le cas du chiffrement de Vigenère, la recherche est plus complexe, mais il existe des méthodes pour y arriver assez rapidement.
+Machine de chiffrement Enigma à quatre rotors.
+On distingue : le clavier, les lampes qui donnent le résultat du message chiffré ou déchiffré, et les rotors.
+Les méthodes de chiffrement dites
+« modernes » sont nettement plus sûres, pour résister à la puissance des ordinateurs qui peuvent tester énormément de possibilités dans une durée très courte.
+Elles sont apparues avec le développement de l'informatique, qui a commencé par l'armée, vers le milieu du XXe siècle.
+C'est alors la Seconde Guerre Mondiale.
+Pour que des espions alliés ne puissent pas la surveiller, l'armée allemande chiffrait ses communications.
+Ce qui était nouveau, c'était l'utilisation pour cela d'une machine, Enigma.
+On écrivait les lettres du message avec son clavier et, à chaque lettre, une lampe s'allumait pour montrer quelle lettre chiffrée correspondait.
+Il ne restait qu'à recopier les lettres indiquées par les lampes.
+Enigma possédait généralement trois rotors: ces molettes permettaient de régler la machine pour chiffrer et déchiffrer les messages allemands, selon un ordre choisi par le gouvernement et changé régulièrement (pour des raisons de sécurité).
+Les machines Enigma ont donné beaucoup de mal aux Alliés, qui ne parvenaient pas à en percer les secrets.
+Lors d'attaques, ils ont néanmoins réussi à en dérober, ce qui leur a permis d'en comprendre le fonctionnement.
+Pour décrypter les messages allemands, les Alliés ont alors commencé à construire les tous premiers ordinateurs: baptisés Bombes, ces machines essayaient toutes les possibilités à la place des humains.
+Le chiffrement d'Enigma était sans doute presqu'impossible à casser « à la main » (par un humain), mais les Bombes allaient beaucoup plus vite et travaillaient sans relâche.
+Elles ont permis de décrypter de nombreux messages et, très probablement, de gagner la guerre.
+À partir des années 1960, l'informatique fait d'importants progrès: les ordinateurs sont de plus en plus rapides et savent faire davantage de choses.
+Beaucoup d'algorithmes de chiffrement traditionnels, comme le chiffre de Vigenère ou Enigma
+, ne sont plus sûrs du tout
+, puisque les ordinateurs calculent très vite et trouvent la solution en un temps très court.
+Il faut donc inventer de nouvelles méthodes, suffisamment solides pour résister aux ordinateurs.
+C'est là que la cryptographie devient véritablement une science: on étudie mathématiquement les moyens de rendre un chiffrement résistant.
+Par conséquent, il faut aussi trouver des moyens plus puissants pour les casser ;
+c'est le développement de la cryptanalyse, qui se fait toujours parallèlement à celui de la cryptographie.
+En 1977 paraît la première version d'une méthode de chiffrement appelée Data Encryption Standard (DES).
+Cet algorithme sera utilisé pendant plus de vingt ans, en particulier pour chiffrer les documents confidentiels des États-Unis, mais aussi dans de très nombreux autres cas.
+C'est pourquoi il porte le nom de « standard »: il a été conçu pour être employé longtemps et par un grand nombre d'utilisateurs, tout en restant solide.
+De nombreux autres algorithmes ont également vu le jour, ainsi qu'un mode de cryptographie révolutionnaire: la cryptographie asymétrique, aussi appelée cryptographie à clef publique.
+Celle-ci possède encore aujourd'hui de très nombreuses applications et est même indispensable à la société telle que nous la connaissons.
+Avec l'évolution de la cryptanalyse et les progrès des ordinateurs, le chiffrement DES ne sera plus considéré comme sûr à partir de 1999.
+Le NIST, l'institution américaine qui avait commandé le standard DES
+pour chiffrer les communications américaines, organise alors un grand concours: les cryptologues du monde entier sont invités à proposer une méthode de chiffrement qui pourra remplacer DES comme standard mondial.
+À l'issue de cette compétition, en l'an 2000, c'est un algorithme du nom de Rijndael qui est choisi.
+Il est surnommé AES et devient le nouveau standard, encore non cassé aujourd'hui.
+Mais il n'y a pas qu'AES!
+Il existe beaucoup d'autres méthodes, de solidité comparable (par exemple
+, les algorithmes Serpent ou Twofish, qui sont arrivés juste après AES au concours du NIST).
+Voilà pour la cryptographie symétrique.
+On assiste enfin au développement de la cryptographie hybride, qui combine les avantages des cryptographies symétrique et asymétrique.
+C'est la méthode la plus employée sur Internet aujourd'hui, par exemple, par la messagerie de Google, ou Wikipédia en connexion chiffrée.
+Cependant, avec les progrès de l'informatique quantique, on commence à penser que des méthodes estimées sûres, comme RSA, pourraient être bien plus facilement brisées qu'avec les moyens actuels.
+En effet, les ordinateurs quantiques pourraient résoudre très rapidement les calculs sur lesquels est fondée la sécurité de ces chiffrements.
+Il faut donc songer à de nouveaux algorithmes, capables de résister aux ordinateurs quantiques.
+Dans ce domaine, un pas important a été franchi avec l'apparition de la cryptographie quantique.
+Celle-ci pourrait permettre de faire la même chose que les chiffrements asymétriques, mais en étant incassable.
+Comment est-ce possible?
+Au lieu de reposer sur des problèmes mathématiques difficiles, mais pas impossibles à résoudre, la cryptographie quantique s'appuie sur des phénomènes de la mécanique quantique, considérés comme totalement aléatoires, et donc inattaquables.
+Le but ultime de la cryptographie est, bien sûr, le chiffrement absolument inviolable ;
+mais, si de nombreux romans l'ont imaginé2, on ne l'a encore jamais vraiment trouvé!
+Cependant, on a souvent pensé être sur la bonne voie, comme le montrent les trois parties suivantes.
+Ces « problèmes », en fait, ont tous une réponse dans les mathématiques ;
+ainsi, n'importe quel nombre entier peut être décomposé en produit de nombres premiers.
+Cependant, il est très difficile de les résoudre effectivement lorsqu'on travaille avec de très grands nombres.
+Prenons un exemple.
+b = 7 873 412 712 535 604 354 075 130 194 743 est aussi un nombre premier ;
+on calcule facilement le produit a × b:
+un ordinateur effectue les multiplications très vite, même avec de grands nombres) ;
+en revanche, un ordinateur « habituel » est incapable de retrouver a et b à partir de (a × b) en un temps raisonnable.
+Il est beaucoup plus dur de factoriser (retrouver a et b) que de multiplier!
+Comme plus a et b sont grands, plus la factorisation est longue et difficile, on appelle cette difficulté le problème de la factorisation des grands entiers (ou problème de la décomposition des grands entiers en produit de facteurs premiers).
+En pratique, le chiffrement RSA utilise des nombres premiers de plus de cent chiffres: il est tout simplement actuellement impossible de les retrouver!
+La sécurité de nombreux algorithmes repose sur de tels problèmes.
+Le plus souvent, ces problèmes sont:
+la factorisation des grands entiers ;
+le calcul du logarithme discret sur les courbes elliptiques4
+Il est très difficile de résoudre en pratique des problèmes comme les précédents, mais, comme on l'a dit, cela reste possible ;
+en effet, ces problèmes ont vraiment une solution, bien qu'elle soit ardue à découvrir.
+Il n'est donc pas possible de prouver que le code est incassable: avec un ordinateur très puissant (comme pourraient en avoir les services secrets des gouvernements), on retrouvera forcément le résultat.
+Les chiffrements asymétriques actuels ne sont donc pas incassables, et ne le seront théoriquement jamais.
+En revanche, il a été prouvé qu’à certaines conditions, le chiffrement par masque jetable (ou chiffre de Vernam) est réellement inviolable.
+C'est-à-dire que, quelle que soit la puissance de calcul dont on dispose, on ne pourra jamais retrouver le message original sans connaître la clef.
+Il a donc tout du chiffrement absolu!
+Le chiffre de Vernam est très lourd à mettre en place à cause des conditions qu'il nécessite:
+la clef doit être totalementaléatoire.
+Cependant, il est difficile d'obtenir de vraies valeurs aléatoires ;
+chaque clef ne doit être utilisée au plus qu'une fois: à chaque nouveau message, il faut donc en principe fabriquer une nouvelle clef totalement aléatoire et la transmettre de façon absolument sûre à son correspondant.
+Il est en fait vraiment plus simple de lui donner directement les informations…
+la clef doit avoir la même longueur que le message à chiffrer: le chiffre de Vernam n'est donc pas pratique pour les données de taille très importante.
+Cet algorithme n'est donc utilisable que lorsqu'on dispose d'un moyen rapide et efficace de créer des valeurs vraiment aléatoires, lorsque les informations ne doivent pas être transmises et lorsqu'elles sont de petite taille (sinon, il faut se souvenir d'une très grande clef).
+On ne se trouve pratiquement jamais dans ce cas!
+Le « chiffrement absolu » par excellence se devrait d'être beaucoup plus simple à employer, et d'une utilisation bien plus large.
+À proprement parler, il n'y a pas de « chiffrement quantique
+Ce qu'on désigne sous le nom de cryptographie quantique n'est pas un algorithme pour chiffrer des données: c'est plutôt une méthode pour s'échanger une clef de manière sûre, afin de pouvoir, ensuite, utiliser en toute sécurité un chiffrement symétrique comme AES.
+La particularité de ce protocole d'échange de clefs quantique est de reposer sur les propriétés physiques de la matière, définies par la mécanique quantique, plutôt que sur des problèmes mathématiques.
+Grâce au caractère théoriquement absolument aléatoire de certains phénomènes et à quelques curiosités, la cryptographie quantique permet d'assurer que:
+la clef (créée en même temps qu'elle est transmise) est totalement aléatoire ;
+la confidentialité est respectée: si un espion surveille l'échange de clefs, sa présence sera détectée et « brisera » l'échange.
+↑On dit qu’un texte est « chiffré » quand on a utilisé la cryptographie pour le protéger.
+↑Comme
+par exemple, Dan Brown dans Forteresse digitale
+↑Il s'agit de retrouver y à partir de xymod.
+n en connaissant xy et n. C'est aussi difficile que la factorisation des grands entiers.
+↑Un problème encore plus difficile que sur les entiers relatifs, et qui n'a pas besoin de nombres aussi grands: c'est donc plus puissant.
+Article mis en lumière la semaine du 4 janvier 2007, la semaine du 8 août 2011.

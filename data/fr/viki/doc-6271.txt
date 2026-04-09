@@ -1,0 +1,18 @@
+IRC
+IRC est un réseau informatique de messagerie instantanée créé en août 1988 où l'on peut communiquer comme sur un tchat.
+Sur IRC, il y a des canaux (où l'on envoie et on reçoie les messages) permettant de discuter avec des autres utilisateurs.
+On peut aussi discuter en message privé avec un autre utilisateur, qui comme son nom l'indique, est privé, c'est-à-dire que les autres utilisateurs présents sur le canal ne voient la discussion.
+Sommaire
+Sur IRC, les utilisateurs peuvent se connecter avec un logiciel qu'on appelle client, lors de la connexion, le client se connecte à un serveur au hasard du réseau IRC.
+Les serveurs IRC se synchronisent (les données de chaque serveur se copie entre-elles) pour renvoyer les mêmes messages sur tous les serveurs du réseau à la fois.
+Une fois que le client est connecté, l'utilisateur peux rejoindre un canal IRC avec la commande /join #nom_du_canal afin de discuter avec les autres utilisateurs, sur certains réseaux, il est possible d'en créer.
+En se connectant à un réseau IRC, il est possible aux autres utilisateurs connectés au réseau avec la commande /whois pseudo d'identifier un utilisateur grâce à des informations comme l'adresse IP, sur certains réseaux, on peux masquer ces informations avec un cloak.
+Un cloak est une forme d'identifiant permettant de remplacer l'adresse IP et son nom d'hôte par quelque chose comme @.../utilisateur quand un utilisateur utilise
+cette commande.
+Il est possible de créer un compte sur IRC afin que le pseudo de l'utilisateur soit enregistré.
+Le service NickServ permet de gérer les pseudos du serveur et les comptes.
+ChanServ est un service permettant de gérer les canaux IRC.
+Sur IRC, certains utilisateurs sont des bots IRC (ou des robots IRC)
+, ils servent aux utilisateurs à faire des actions automatiquement sur le canal grâce à des commandes et à gérer plus facilement les canaux IRC, il peuvent également servir à envoyer automatiquement des messages (par exemple, quand quelqu'un arrive sur le canal) ou à expulser automatiquement un utilisateur qui floode.
+Source :
+cette page a été partiellement adaptée de la page IRC de Wikipédia.

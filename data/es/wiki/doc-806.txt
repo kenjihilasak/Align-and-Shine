@@ -1,0 +1,134 @@
+Las damas es un juego de mesa para dos contrincantes.
+El juego consiste en mover las piezas en diagonal a través de los cuadros negros o blancos de un tablero de 64 o 100 cuadros con la intención de capturar (comer) las piezas del jugador contrario pasando por encima de dichas piezas.
+Existen varias modalidades, con distintos tableros y número de piezas.
+La versión internacional, también llamada «damas polacas», está reglada por la Fédération Mondiale du Jeu de Dames () y se juega en un tablero de 10×10 cuadros con dos jugadores con 20 piezas cada uno.
+Reglas tradicionales
+Las damas es un juego para dos personas en un tablero de 64 casillas de 8x8 celdas.
+El tablero se coloca de manera que cada jugador tenga una casilla blanca en su parte inferior derecha.
+Cada jugador dispone de 12 piezas de un mismo color (uno blanco y otro negro) que al principio de la partida se colocan en las casillas negras de las tres filas más próximas a él.
+El objetivo del juego de damas es capturar las fichas del oponente o acorralarlas para que los únicos movimientos que puedan realizar sean los que lleven a su captura.
+(excepto las damas rusas la variante poddavki que gana quién se queda sin fichas o tiene bloqueadas las que tiene).
+Se juega por turnos alternos.
+Empieza a jugar quien tiene las fichas claras (blancas).
+En su turno cada jugador mueve una pieza propia.
+Las piezas se mueven (cuando no comen) una posición adelante (nunca hacia atrás) en diagonal a la derecha o a la izquierda, a una posición adyacente vacía.
+Final de partida
+Una partida de damas finaliza cuando estamos en una de estas 3 situaciones:
+Si el jugador se equivoca 3 veces pierde.
+Si cuando llega el turno de un jugador no puede mover, puesto que todas las piezas que le restan en juego están bloqueadas, ante esto se distinguen tres reglas dependiendo el estilo practicado:
+*Pierde a quien le corresponde el próximo movimiento.
+*Gana quien más piezas tenga, a igual número de piezas gana quién más reinas/damas tenga, y si en esto también se empata la partida termina en tablas.
+*El jugador que tenga muy pocas piezas puede retirarse del juego.
+La partida también puede terminar en tablas si ambos jugadores quedan con un número igual y muy reducido de piezas, tal que por muchos movimientos que se hagan no se resolvería la partida.
+La dama/reina siempre tiene prioridad para comer antes que cualquiera otra ficha.
+También la dama solo se mueve un cuadro tras cada captura.
+Una pieza normal puede capturar a la dama.
+Resolución matemática del juego
+El 20 de julio de 2007, en un artículo publicado en la revista Science, se encontró la resolución matemática para el juego de damas, siendo su resultado el de tablas.
+Es decir, si ambos contrincantes juegan siempre la partida perfecta en base al análisis completo y perfecto, las tablas están garantizadas.
+Chinook es el nombre del software creado por Jonathan Schaeffer, el primer programa que primero jugó a las damas a nivel de torneo, llegando a ganar al campeón del mundo de la época, Don Lafferty, que finalmente resolvió el desarrollo de la partida hacia el empate ineludiblemente.
+Se trataba en este caso del juego de damas de 12+12 fichas.
+Chinook nunca se usó para el juego de damas internacional de 20+20 fichas que es un juego tan difícil como el ajedrez.
+Variantes
+Checkers Damas angloamericanas
+* A nivel más anecdótico, las piezas suelen ser rojas o negras y blancas o marfil las del otro bando.
+* Las damas (llamadas kings o ‘reyes’) se mueven como una pieza normal, esto es, un cuadro en diagonal, tanto hacia adelante como hacia atrás, comiendo en sentido como una dama normal.
+* Es obligatorio capturar.
+El «soplido» se realiza al jugador que no come unas de las fichas (si se realiza un movimiento en vez de comer, se retira una de las fichas que se puedan comer.
+en caso contrario si tiene posibilidad en diferentes lados el jugador debe elegir hacia donde comer el caso del lado no elegido se debe retirar la ficha no comida ).
+* Ante dos opciones de captura, no hace falta elegir la que captura más piezas, ni de más rango.
+Esto sí, si empezamos una captura y se puede continuar, lo tenemos que hacer.
+Damas españolas
+* Con el tablero en la misma posición, las piezas van en las casillas blancas.
+Solo pueden matar en diagonal para adelante y atrás se llama movimiento múltiple
+* A nivel oficial, no se sopla (si se realiza un movimiento en vez de comer, no se retira una de las fichas que se puedan comer).
+El Juego de Damas se desarrolla en un tablero de 64 casillas (8x8), coloreadas blancas y negras alternadamente (tablero clásico) con el escaque inferior derecho de color blanco.
+# El tablero debe ser superficie plana y no brillante, dividido en ocho partes iguales en altura y anchura (8x8) cuyas intersecciones dan lugar a las 64 casillas del tablero.
+Las piezas, llamadas peones, podrán ser de madera, plástico, hueso o marfil, 12 por cada bando, blancas y negras.
+# Se juega sobre las casillas blancas del tablero, quedando la gran diagonal o diagonal principal a la derecha del jugador (esquina inferior derecha del tablero).
+# El tablero se numera de la siguiente forma: Se cuenta siempre de arriba a abajo y de izquierda a derecha y solo se numeran las casillas blancas.
+Así la primera casilla blanca de la primera fila será la número 1 y la última casilla blanca de la última fila será la número 32.
+Esta numeración será la utilizada a fin de representación de partidas, posiciones, estudios y en general todo lo relacionado con la nomenclatura del juego.
+Los 12 peones blancos se colocan sobre las casillas 1 a 12 del tablero y los 12 negros sobres las casillas 21 a 32.
+# Cada color es conducido por un jugador.
+La primera jugada debe ser realizada siempre por el jugador con las fichas blancas.
+Los movimientos de los peones son en diagonal, una sola casilla y en sentido de avance, o sea, hacia el campo oponente.
+Los movimientos se realizan alternadamente, uno por jugador.
+"Pieza tocada, pieza jugada".
+Si se toca una pieza, esta debe jugarse si el movimiento es posible.
+# Si un peón llega a la línea base del contrario (1-4 blanco, 29-32 negro),
+se convierte en dama, coronándolo con otro peón.
+# La dama mueve también en diagonal, pero hacia adelante y hacia atrás, pudiendo recorrer cualquier número de casillas si están libres.
+# La dama no puede saltar dos peones juntos o un peón de su color.
+En caso de peón de otro color ver captura de piezas.
+Si un peón se encuentra en casilla diagonal contigua a otro del contrario estando la posterior vacía y en turno de juego, puede saltar por encima de este hasta la casilla vacía, retirándole del tablero.
+# Si después de realizado un salto, el peón llega a una casilla en las mismas condiciones de la anterior, puede continuar saltando y así todas las veces en las que esto sea posible (captura múltiple).
+Si una dama se encuentra en turno y en la misma diagonal con una pieza contraria tras la cual hay casillas vacías, puede saltar esta hasta quedar en cualquiera de las casillas vacías.
+# Si después de realizado el salto anterior se vuelve a encontrar en otra diagonal con pieza contraria en las mismas condiciones, podrá proseguir los saltos todas las veces que esto fuese posible (capturas múltiples).
+# En capturas múltiples,
+en su misma diagonal puede saltar dos veces por encima de la misma pieza.
+# Un movimiento de captura no finaliza hasta que se terminan todos los saltos posibles.
+Solo entonces pueden retirarse del tablero las piezas capturadas.
+# El capturar es absolutamente obligatorio.
+Si un jugador no se ha dado cuenta de una captura, debe advertírsele.
+# En caso de competición
+, si una partida se demostrase que a partir de cierto movimiento se han infringido las reglas, deberá ser repetido a partir del movimiento infractor o anulada, según acordase el jurado nombrado al efecto.
+Ley de la Cantidad
+: Es obligatorio capturar al mayor número posible de piezas.
+Ley de la Calidad
+: A igual número de piezas a capturar, es obligatorio capturar a las de mayor calidad, dama antes que peón.
+# Un juego se considera perdido cuando un jugador:
+## Pierde todas sus piezas.
+## Tiene piezas, pero tocándole turno no tiene movimiento posible (cuche).
+## Abandone la partida.
+## En competición,
+exceda el tiempo previsto sin realizar el número de jugadas acordadas.
+## En competición, si así lo decide el jurado o juez de esta por no acatar el jugador alguna de las reglas del juego o del torneo.
+# Un juego se considera empatado cuando:
+## Los jugadores lo acuerden.
+## Cuando se exceda del número de jugadas previstas para finales que se deben ganar en un máximo de movimientos.
+## Cuando una misma posición se dé tres veces, siendo el mismo jugador el que esté en turno de juego y así se reclame.
+# Límite de movimientos:
+## Forzosa (3 damas con diagonal principal contra una dama): Máximo de 12 jugadas
+(24 movimientos) incluyendo el movimiento de captura final.
+## Saque de peón (2 Damas con d.p.
+y un peón en la casilla 2, contra una dama y peón en casilla 9; al contrario para las negras): Máximo de 32 jugadas (64 movimientos) hasta lograr ganar el juego, convertir en dama el peón o capturar el peón contrario.
+# En competición,
+cualquier disputa o controversia sobre la aplicación de estas reglas, será resuelta por el jurado nombrado al efecto.
+Ejemplo de la Ley de la Calidad: el peón negro debe comer al peón y a la dama blancos, en lugar de a los 2 peones blancos
+Damas rusas / Shashki
+Las damas rusas son iguales que las pool checkers con la diferencia que si en medio de una captura se llega a la última fila se corona y se sigue la captura como dama y que empiezan las blancas.
+Se juega en partes de la antigua Unión Soviética y en Israel tienen diferente modo de juego.
+Poddavki
+Variante de las damas rusas en la cual, utilizando las mismas reglas, el objetivo se invierte: vence quien consigue quedarse sin piezas o tener bloqueadas las que tiene.
+Generalmente estas versiones pierde/gana son practicadas en casi todos los juegos de damas, pero no se consideran más que un simple divertimento.
+Sin embargo en Rusia esta variante no solo tiene su propia denominación, sino que goza de prestigio y se celebran campeonatos del mismo modo que con la variante Shashki.
+Damas turcas
+Las «damas turcas», de nombre original «dama» se juegan en las mismas zonas que las damas rusas y en Turquía.
+Son las más diferentes de todas las variantes.
+El tablero es de ocho por ocho casillas.
+Cada jugador tiene dieciséis piezas, que están colocadas, al principio, en la segunda y la tercera fila más próximas a cada uno.
+* Las piezas mueven ortogonalmente, una posición adelante o a los lados, no atrás.
+* Se captura saltando, también a los lados o adelante.
+* Se encadenan las capturas.
+Tal y como se van capturando, se retiran las piezas capturadas.
+Cuando una pieza llega a la última fila se corona reina.
+* Las reinas mueven cualquier número de posiciones vacías adelante, atrás o a los lados.
+* Las reinas capturan igual que las piezas normales, pero pueden capturar piezas separadas de ellas por una línea de casillas vacías e ir a parar a cualquier casilla de última de la pieza capturada, siguiendo una línea de casillas vacías.
+* Capturar es obligatorio.
+Hace falta capturar el máximo número de piezas.
+* Gana quienes captura todas las piezas del contrario, lo inmoviliza o lo deja con una sola pieza contra, como mínimo, una reina.
+Damas chinas
+Esta es una variante peculiar de las damas, se juega entre 2, 4 ó 6 jugadores, cada uno con un color diferente.
+El tablero también es cuadriculado (en el caso de jugar 6 jugadores el tablero es hexagonal) pero con muchas más casillas.
+Cada jugador comienza la partida con sus piezas en la región de uno de los vértices del tablero y su objetivo es trasladar todas sus piezas a la región del vértice opuesto.
+El movimiento de las piezas es el siguiente: en cada turno el jugador mueve una sola pieza, bien desplazando la pieza hacia una casilla adyacente vacía, o bien saltando sobre otras piezas, bien sean suyas o de otro jugador.
+El salto se podrá realizar siempre que la casilla final a donde va la pieza esté vacía, y al igual que las damas convencionales se pueden realizar múltiples saltos.
+En este juego no se comen piezas, simplemente se mueven saltando unas sobre otras, es interesante realizar movimientos de varios saltos, pues así las piezas llegan antes al vértice opuesto.
+Gana el jugador que coloca todas sus piezas en la región del vértice opuesto antes que nadie.
+Ningún jugador no puede introducir ninguna pieza en la región opuesta hasta no haber sacado todas sus piezas de su propia región.
+Mitos sobre las damas
+* Las damas no son una variante del ajedrez, pese a que ambos juegos se pueden jugar en el mismo tablero.
+* Las damas chinas no tienen nada que ver con las damas que se juegan en Occidente.
+Juegos relacionados
+Alquerque (Origen de las damas, al fusionarse el Alquerque con el tablero del Ajedrez)

@@ -1,0 +1,44 @@
+Probabilité
+La probabilité va permettre de calculer et définir tous les résultats possible lorsque la personne va lancer les dés.
+En mathématique, une probabilité permet de mesurer la chance qu'un événement futur se produise.
+Le nombre est positif ou nul et inférieur à 1.
+Il est souvent multiplié par 100 pour avoir un résultat en pourcentage.
+Une probabilité égale à 1, ou 100%, signifie que l'évènement est certain de se produire.
+Dans les cas simples, le calcul de la probabilité d'un évènement est calculé en divisant le nombre de cas favorables possibles par le nombre de toutes les possibilités.
+Les probabilités permettent aussi d'établir des lois et des théories sur le hasard, les événements peu prévisibles comme par exemple la probabilité qu'un ordinateur tombe en panne avant un an.
+En tirant un dé avec 6 faces, la probabilité de tomber sur le chiffre « 2 » est de 1/6.
+En effet, il y a une seule possibilité de tirer le nombre « 2 » et le nombre de tous les cas possibles est 6.
+Cela est vrai
+si le dé n'est pas truqué.
+C'est-à-dire que chaque face doit avoir la même probabilité de sortir.
+Si on lance une pièce en l'air, la probabilité que l'on tombe sur l'une ou l'autre des faces est de 1/2, soit 50%, il y a une chance sur 2.
+En fait, le nombre est légèrement plus petit que deux car il existe une faible probabilité que la pièce retombe sur la tranche et ne soit donc ni pile, ni face !
+En langage mathématique on écrit plutôt :
+P(A)=0,5{\displaystyle P(A)=0,5}, qu'on lit « la probabilité de l'évènement A
+est de 0,5 ».
+où A{\displaystyle A} désigne l'évènement « la pièce tombe sur le côté pile » et P{\displaystyle P} symbolise la probabilité.
+Les probabilités en mathématiques sont toujours comprises entre 0 et 1.
+Si la probabilité vaut 1 alors l'évènement se produit à tous les coups.
+Si la probabilité vaut 0 alors l'évènement ne se produit jamais.
+Les probabilités peuvent être très petites : la probabilité qu'une météorite tombe aujourd'hui sur une voiture parquée près de chez soi est très faible.
+Les calculs de probabilités sont possibles et utilisés dans beaucoup de domaines :
+physique (exemple : la probabilité d'avoir un phénomène donné)
+météorologie (exemple : probabilité qu'il pleuve dans une semaine)
+démographie (exemple : probabilité que la population atteigne une certaine taille dans 10 ans)
+biologie, génétique (exemple : probabilité qu'un enfant ait les yeux bleus si seul l'un des deux parents a les yeux bleus).
+Le paradoxe des anniversaires
+Dans une classe de 30 élèves, quelle est la probabilité que deux au moins aient le même jour leur anniversaire ?
+Peu de chance ?
+Non !
+Il y a 70 % de chance que cela arrive.
+Calcul de la probabilité :
+On calcule pour cela d'abord la probabilité que tous les jours d'anniversaire des élèves soient différents
+Pour le deuxième élève, la probabilité que son jour d'anniversaire ne soit pas celui du premier est de 364365{\displaystyle {\frac {364}{365}}}
+Pour le troisième, cette probabilité est de 363365{\displaystyle {\frac {363}{365}}}
+Pour le quatrième, cette probabilité est de 362365{\displaystyle {\frac {362}{365}}}, etc.
+En généralisant : pour le 30ième élève, la probabilité est de 365−29365=336365{\displaystyle {\frac {365-29}{365}}={\frac {336}{365}}}
+La probabilité que tous les anniversaires soient différents, pour 30 élèves, est donc : 364365×363365×362365×⋯×336365{\displaystyle {\frac {364}{365}}\times {\frac {363}{365}}\times {\frac {362}{365}}\times \dots \times {\frac {336}{365}}} car il y a 30 élèves.
+En faisant le calcul, on trouve environ 0,294.
+Il y a donc 29,4 % de chances pour que toutes les dates d'anniversaires soient différentes.
+Mais on cherche l'inverse : la probabilité qu'il y ait au mois une date d'anniversaire qui soit la même pour deux élèves.
+Comme il y a 100 % de chance qu'on soit dans un cas ou dans l'autre, on fait la soustraction pour trouver la probabilité de l'autre cas : 100 - 29,4 = 70,6 % !

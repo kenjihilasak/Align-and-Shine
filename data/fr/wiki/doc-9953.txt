@@ -1,0 +1,111 @@
+.NET
+Framework
+Microsoft .NET
+prononcé « dot net »)
+est le nom donné à un ensemble de produits et de technologies informatiques de l'entreprise Microsoft pour rendre des applications facilement portables sur Internet.
+Le but est de fournir un serveur web local permettant de gérer des services et évitant d'externaliser des données privées sur un service web de stockage ou un hébergement web tiers.
+La plate-forme
+.NET
+se base sur plusieurs technologies :
+* les systèmes d'exploitation propriétaires Microsoft Windows ;
+* des protocoles de communication basés sur le Framework .NET et non plus sur les modèles COM ou OLE ;
+* une bibliothèque logicielle compatible
+Framework .NET et non plus MFC, GDI… ;
+ce framework a été conçu par Anders Hejlsberg, père de Delphi, qui y a développé entre autres le langage C# ;
+* un environnement d'exécution de code basé sur la CLI multi-langage ;
+* MSBuild : un outil de gestion de projet avec plusieurs compilateurs ;
+* Visual
+Studio : un IDE de développement utilisant la métaprogrammation et compatible avec Visual C++ ;
+* Framework .NET :
+un ensemble de bibliothèques de haut niveau ;
+* une portabilité pour les systèmes d'exploitation Windows et Windows Mobile ;
+* des composants facilitant le développement de services (MapPoint) et d'applications locales ou web (
+) ;
+Principales caractéristiques de .NET
+Interopérabilité :
+Du fait de la nécessité de pouvoir interagir avec les anciennes applications, le fournit des moyens pour accéder aux fonctionnalités en dehors de l'environnement .NET.
+La possibilité d'accéder aux composants COM est fournie par les espaces de noms System.
+Runtime.
+InteropServices et System.
+EnterpriseServices.
+L'accès aux autres fonctionnalités est fourni grâce à P/Invoke.
+; :
+Les langages de programmation du sont compilés dans un langage intermédiaire appelé , ou CIL (anciennement connu sous le nom de , ou MSIL).
+Ce langage n'est pas interprété, mais subit une compilation à la volée et une compilation au niveau de la (CLR).
+La CLR est l'implémentation de la CLI.
+Indépendance du langage :
+La spécification du (ou CTS) définit l'ensemble des types de données et structures de programmation supportés par la CLR ainsi que leurs interactions.
+Par conséquent, le .NET Framework supporte l'échange des instances des types entre les programmes écrits dans un des langages .NET.
+Architecture
+CLI, CIL et CLR
+Le framework .Net repose sur la (ou CLI).
+Son but est de fournir un langage indépendant de la plate-forme, aussi bien pour le développement que pour l'exécution.
+Elle inclut des fonctions pour gérer les erreurs, le ramasse-miettes, la sécurité et l'interopérabilité avec les objets COM.
+L'implémentation de la CLI par Microsoft est appelée (ou CLR).
+Voir aussi :
+Dynamic Language
+Runtime et Machine virtuelle de haut niveau
+CLR et Sécurité
+La sécurité est gérée par le CAS ().
+CAS est basé sur un système de preuves associées à une particulière.
+La « preuve » est l'origine de l’ .
+CAS utilise cette preuve pour déterminer les permissions données au code.
+Un code peut demander une autorisation pour le code qu'il appelle.
+La demande d'autorisation sait quand le CLR parcourt la pile d'appel : chaque de chaque méthode dans la pile est vérifiée.
+Si au moins une de ces n'est pas autorisée à avoir la permission demandée une exception est levée.
+Quand une est chargée, le CLR effectue divers tests dont la validation et la vérification.
+Pendant la validation, le CLR vérifie que l’ contient un code et des métadonnées valides.
+Après, il vérifie que les tables internes sont correctes.
+La vérification vérifie que le code ne fait rien de dangereux.
+Le code non-sûr sera exécuté uniquement si l’ a la permission .
+Le .NET Framework utilise des appdomains (domaine d'application) comme mécanisme pour isoler le code d'un processus.
+Un appdomain peut être créé et du code chargé ou déchargé d'un appdomain indépendamment des autres appdomain.
+Les appdomains peuvent aussi être configurés indépendamment avec différents privilèges de sécurité.
+Ceci peut aider à améliorer la sécurité d'une application en séparant le code potentiellement dangereux du reste.
+Cependant, le développeur doit séparer l'application en plusieurs sous-domaines, ce qui n'est pas à la charge du CLR.
+CLR et Gestion de la mémoire
+Le CLR prend en charge la gestion de la mémoire (allocation et libération).
+L'allocation de la mémoire pour les instances des types .NET (objets) est effectuée de façon continue à partir du tas.
+Aussi longtemps qu'il existe une référence vers un objet (directe ou indirecte via un graphe), l'objet est considéré comme étant utilisé par le CLR.
+Dès qu'il n'y a plus de référence sur un objet (ie, il ne peut plus être ni atteint ni utilisé), le ramasse-miettes , qui s'exécute périodiquement sur un processus léger différent de celui de l'application, passe libérer l'objet de la mémoire.
+Le ramasse
+-miettes du .NET est non-déterministe : il s'exécute seulement après qu'une certaine quantité de mémoire a été allouée ou s'il y a un défaut de mémoire.
+Il n'y a pas moyen de déterminer quand les conditions de déclenchement du ramasse-miettes sont satisfaites.
+Chaque application .NET possède un ensemble d'éléments racines qui sont des pointeurs maintenus par le CLR et qui pointent sur les objets du tas gérés.
+Ceci inclut des références aux objets statiques, à ceux définis comme variables locales, aux paramètres définis dans la portée courante du code et enfin aux registres processeurs.
+Quand le ramasse-miettes s'exécute, il suspend l'application et, pour chaque objet référencé dans la racine, il énumère récursivement, grâce aux métadonnées .NET et à la réflexion, tous les objets qu'il peut atteindre et les marques.
+Il énumère ensuite tous les objets sur le tas (qui étaient initialement alloués de façon continue) en utilisant la réflexion ;
+tous les objets qui n'ont pas été marqués sont alors considérés comme des déchets.
+C'est la phase de marquage.
+Cependant, ce procédé laisse des morceaux de mémoire libre entre les objets encore référencés ;
+ces objets sont ensuite compactés en utilisant memcpy pour rendre l'espace mémoire utilisé à nouveau continu.
+Les adresses des pointeurs sont mises à jour en conséquence.
+Après ces opérations, l'application reprend son exécution.
+En réalité, le ramasse
+-miettes est basé sur un système de génération.
+Chaque objet se voit affecté à une génération ;
+les objets nouvellement créés appartiennent à la génération 0.
+Les objets qui restent après la première passe du ramasse-miettes se voient promus à la génération 1 et les objets qui restent après une deuxième passe sont promus à la génération 2 (niveau maximum).
+Les objets ayant un niveau de génération élevé sont moins souvent analysés par le ramasse-miettes que les objets ayant un faible niveau de génération.
+Cet algorithme espère améliorer l'efficacité du ramasse-miettes, car les vieux objets ont tendance à avoir une durée de vie plus longue que les nouveaux objets.
+Avantages
+* Le framework, maintenant en 4.8, est une bibliothèque homogène, efficace et performante.
+* Avec l’avènement des applications web, l'environnement .Net
+devient accessible sur n'importe quel client, MVC5 fournit tous les outils pour développer des WebAPI serveur et des interfaces HTML5 Clients.
+Quant au WPF browser il est lui supporté sur desktop via des plugins chrome et firefox.
+* Mono et Xamarin ont rendu disponible l'environnement .Net
+en natif sur Android, IOS et Linux
+Inconvénients
+* Les applications fonctionnant avec du code managé en utilisant les environnements tels que le CLR du Framework Microsoft ou la JVM Java ont tendance à nécessiter plus de ressources systèmes que des applications fournissant les mêmes fonctionnalités mais qui accèdent plus directement aux ressources.
+Cependant, certaines applications ont montré de meilleures performances en utilisant le .NET Framework qu'en utilisant leur version en code natif.
+Ceci peut être attribué aux optimisations du rendues possibles par un tel environnement, à l'utilisation de fonctions performantes au sein du framework, à la compilation à la volée du « » ou encore à certains aspects de la CLR.
+* Les langages compilés à la volée produisent du code qui peut être plus facilement rétro-analysé que s'il était écrit en code natif, avec par exemple avec des outils comme dotPeek de JetBrains, où la qualité de la décompilation permettent quasiment une recompilation directe du code rétro-décompilé.
+Par conséquent il y a un risque en ce qui concerne la perte de secrets et le risque de passer outre les mécanismes de contrôle de licence.
+Plusieurs techniques pour rendre le code impénétrable ont déjà été développées pour l'empêcher.
+Visual Studio 2005 inclut un tel outil (dotfuscator).
+Ce type d'outil tente de limiter les analyses ou altérations du code binaire rendus possible par des logiciels comme Reflector ou Reflexil.
+* Puisque le n'est pas porté sur les anciennes versions de Windows, une application utilisant un doit vérifier qu'il est présent, et s'il n'est pas présent, l'application doit guider l'utilisateur pour l'installer.
+Cette contrainte peut dissuader certains utilisateurs d'utiliser l'application.
+* Certains développeurs sont dérangés par la taille importante du (environ pour le .NET 3.0 et pour la version 3.5) et par le manque de fiabilité des installateurs.
+Ce problème est en partie résolu par l'introduction d'une version allégée .Net
+Client Profile, et qui ne pèse que .

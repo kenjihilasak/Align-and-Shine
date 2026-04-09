@@ -1,0 +1,208 @@
+Transfert thermique|Transfert de masse|Mécanique des fluides|Thermodynamique atmosphérique
+La convection désigne l'ensemble des mouvements internes (verticaux ou horizontaux) qui animent un fluide et qui impliquent alors le transport des propriétés des parcelles de ce fluide au cours de son déplacement.
+Ce transfert implique l'échange de chaleur entre une surface et un fluide mobile à son contact, ou le déplacement de chaleur au sein d'un fluide par le mouvement d'ensemble de ses molécules d'un point à un autre.
+La convection constitue, avec la conduction thermique et le transfert radiatif, l'un des trois modes d'échange de chaleur entre deux systèmes, et diffère de ces derniers par la méthode de transfert.
+Elle a aussi pour effet d'accélérer l'homogénéisation de la composition chimique du fluide, par rapport à la seule diffusion chimique.
+Ce phénomène physique très courant se produit dans de nombreux systèmes (casserole, circuits de chauffages, atmosphère, manteau terrestre, étoiles).
+Lors du processus de convection, un accroissement de vitesse du fluide favorise aussi les possibilités de transformation d'un écoulement laminaire en écoulement turbulent, générant alors une convection turbulente qui accélère considérablement les échanges de propriétés entre couches voisines du fluide et en particulier la diffusion de la chaleur au sein de celui-ci.
+Un exemple de convection est celui du chauffage de l'eau dans une casserole.
+Les groupes de particules de fluide en contact avec le fond de la casserole sont chauffés (par conduction).
+Ils se dilatent, donc deviennent moins denses (cf. masse volumique) et se mettent en mouvement spontané vers le haut, car la poussée d'Archimède qui s'exerce sur eux devient prépondérante par rapport à leur poids.
+Les groupes de particules de la surface de la casserole sont refroidis par contact avec l'air ambiant, se contractent et gagnent en densité, puis plongent.
+Le transfert thermique que la convection engendre est plus efficace que celui de la conduction thermique ou du transfert radiatif.
+Définitions
+La convection est le mouvement d'un fluide sous l'effet de la différence de température, de salinité ou d'une autre caractéristique entre deux endroits.
+Elle peut être naturellement induite ou forcée.
+Il faut la différencier de l'advection qui est elle la quantité d'énergie, de salinité ou d'une autre caractéristique transférée par un agent externe.
+Convection naturelle
+La convection naturelle est un phénomène de la mécanique des fluides, qui se produit lorsqu'un gradient induit un mouvement dans le fluide.
+Le gradient peut concerner différentes grandeurs intensives telles que la température (« convection thermique »), la concentration d'un soluté (« convection solutale ») ou la tension superficielle (« convection thermo-capillaire »).
+La masse volumique dépendant de la température (et, le cas échéant, de la concentration), un gradient de température ou de concentration engendre des différences de masse volumique au sein du fluide, d'où résultent des variations latérales de la poussée d'Archimède qui sont à l'origine du mouvement.
+De tels déplacements s'appellent des mouvements de convection.
+Ils sont à l'origine de certains phénomènes océanographiques (courants marins), météorologiques (orages), géologiques (remontées de magma) par exemple.
+La convection thermique n'est pas le seul moyen de créer des mouvements verticaux dans des fluides.
+Ceux-ci vont se stratifier selon leur densité, à température uniforme, par l'effet de la gravité.
+Cette convection gravitationnelle se déroule comme la convection thermique avec les zones du fluide plus denses descendant et les parties moins denses poussées vers le haut.
+Cependant, il n'y a pas de variation de températures dans ces échanges.
+On peut citer la diffusion de la salinité dans une couche isothermale ou le déplacement du sel vers le bas dans une terre humide.
+La convection naturelle est utilisée dans les chauffe-eau solaire à thermosiphon.
+Convection forcée
+La convection forcée est provoquée par une circulation artificielle (pompe, turbine, ventilateur) d'un fluide.
+Le transfert est plus rapide que dans le cas de convection naturelle.
+Voici quelques exemples de convection forcée dans des appareillages : chauffage central avec accélérateur, chauffages électriques avec soufflerie, chauffe-eau solaire à circulation forcée et four à convection de cuisinière.
+Le corps humain a son propre système de convection forcée, la circulation sanguine.
+Dans un environnement à microgravité comme dans l'espace, la convection naturelle n'est pas possible puisque la poussée d'Archimède s'exerce par la différence de force gravitationnelle sur des volumes de densités différentes.
+Ainsi la circulation de la chaleur doit être forcée dans une capsule spatiale.
+Une flamme aurait également de la difficulté à exister car les gaz de combustion resteraient près de la flamme, la coupant de l'apport d'oxygène.
+Il faut pour l'entretenir une circulation forcée pour éloigner ces gaz et amener l'oxygène.
+Principe physique
+Une particule de fluide chauffée à la base devient moins dense du fait de sa dilatation thermique et remonte sous l'action de la poussée d'Archimède.
+Arrivée au sommet de la couche, le fluide échange sa chaleur
+, se refroidit et s'alourdit.
+Il redescend alors et crée un transfert retour de chaleur.
+La première approche physique a été mise en place par Henri Bénard, avec l'étude de la convection dans une couche de fluide soumise à un gradient de température vertical.
+Ces expériences sont connues sous le nom de cellules de Bénard.
+Convection de Rayleigh-Bénard
+Les cellules de Bénard sont le cas d'école étudié expérimentalement par Henri Bénard et modélisé par Lord Rayleigh.
+On considère ici un système simple et on suppose un fluide newtonien, incompressible, dans l'approximation de Boussinesq, c'est-à-dire que la seule propriété physique qui change est la masse volumique.
+Cette configuration est un problème classique d'instabilité thermoconvective aussi appelé instabilité de Rayleigh-Bénard.
+Équations de conservation en jeu :
+* Conservation de la masse : \vec\nabla\cdot\vec u=0, où \vec u désigne le vecteur vitesse ;
+Démarrage de la convection
+Le transfert thermique dans une couche de fluide horizontale s'effectue par conduction thermique et, éventuellement, par le mouvement de parcelles de fluide de températures différentes.
+Quand on impose une différence de température entre les deux faces de la couche, un gradient de masse volumique s'installe.
+Expérimentalement, on observe que le fluide se met en mouvement spontanément si la différence de température est suffisante.
+Le seuil à partir duquel la convection se produit est déterminé par une valeur critique d'un nombre sans dimension appelé nombre de Rayleigh et noté
+Ra :
+\mathrm
+\frac
+\frac
+avec :
+* :
+la masse volumique du fluide, en kilogrammes par mètre cube ,
+* : le coefficient d'expansion thermique, en inverses de kelvin (K),
+* : la différence de température entre le haut et le bas de la couche, en kelvin (K),
+* : la diffusivité thermique, en mètres carrés par seconde (m/s, m·s),
+* : la viscosité dynamique du fluide, en pascals secondes (Pa⋅s).
+(Noter que ces valeurs peuvent être variables dans le fluide :
+il est important de vérifier que l'on utilise bien des grandeurs caractéristiques.
+Si le nombre de Rayleigh est inférieur à une valeur critique de l'ordre de , le transfert thermique s'opère uniquement par conduction, tandis qu'au-delà de cette valeur la convection s'installe et devient vite prépondérante dans le transfert.
+Expression du flux de chaleur en convection
+Pour un écoulement à température T_\infty autour d'une structure à température de surface uniforme T_\mathrm S et d'aire , l'expression du flux de chaleur convectif est donnée par la loi de Newton :
+\varphi=hA (T_\mathrm S-T_\infty)
+où :
+* est le coefficient de transfert thermique, en watts par mètre carré et par kelvin .
+Pour une convection en air calme, dans des conditions normales de température et de pression, on a typiquement h compris entre 5 et .
+Résolution du problème
+L'analyse dimensionnelle permet de montrer que, en convection forcée, le nombre de Nusselt Nu, permettant de calculer h puis le flux thermique par la formule indiquée ci-dessus, s'exprime en fonction du nombre de Reynolds Re et du nombre de Prandtl Pr :
+* \mathrm (x)=C\,\mathrm^m (x)\,\mathrm^n, nombre de Nusselt local à une abscisse x ;
+* \overline=C\,\mathrm^m (L)\,\mathrm^n, nombre de Nusselt moyen sur une longueur L.
+où C, m et n dépendent des caractéristiques du fluide, de la géométrie et du régime d'écoulement.
+L'ingénieur dispose alors d'une série de formules empiriques établies sur des configurations typiques (plaque plane, écoulement autour d'un cylindre…) afin d'en déduire le coefficient de transfert thermique.
+Phénomènes convectifs
+La convection crée des patrons cycliques de montée de l'air chaud et descente de l'air froid en rouleaux, cellules ou panaches.
+Il y a une série de domaines où l'on retrouve ce phénomène.
+Vie courante
+Le mouvement dans une casserole posée sur le feu s'explique par les différences de densité créées par le chauffage.
+Le fluide se met en mouvement spontanément quand la différence de température entre le haut et le bas de la couche d'eau atteint une valeur critique.
+La fumée de cigarette ou de cheminée monte
+car la combustion crée une zone très chaude et très légère par rapport à l'environnement.
+Cette zone de fluide monte sous l'action de la poussée d'Archimède.
+Le chauffage par le sol relève du même principe.
+La couche chaude à la base des pièces, du fait de la dilatation thermique, devient plus légère (relativement) et engendre une circulation dans la maison.
+Le fonctionnement de la lampe à lave est basé sur ce phénomène: La cire est chauffée par le fond jusqu'à ce que sa densité soit inférieure à celle du fluide environnant.
+Elle s'élève alors en formant des panaches qui, une fois au sommet de la lampe, refroidissent et retombent au fond du récipient.
+Les courants de convection sont à l'origine des contraintes de compression et des contraintes d'expansion (selon leurs mouvements), ce qui cause la déformation des roches.
+* Pour l'isolation thermique d'une habitation, l'air enfermé entre la toiture et le plancher des combles, ou entre le mur porteur et un mur intérieur n'assure aucunement l'isolation à cause du phénomène de convection accéléré par une différence de température entre paroi chaude et paroi froide: pour réaliser l'isolation, il faut ajouter dans cet espace un matériau isolant dans lequel l'air enfermé dans des bulles ou entre des fibres ne peut pas participer à la convection.
+Technologie
+Le brûleur de la montgolfière réchauffe l'air au-dessus de lui et fait monter la nacelle.
+L'eau du circuit de refroidissement des réacteurs des centrales nucléaires est refroidie dans les grandes cheminées en utilisant la capacité d'extraction de chaleur de la convection associée à la chaleur d'évaporation de l'eau particulièrement élevée.
+Les tours solaires utilisent également la convection : l'air chauffé par le soleil à la base de la tour remonte dans la tour.
+Géophysique
+Météorologie
+Au sens météorologique, l'emploi du terme « convection » se limite au transport vertical des propriétés de l'air, le transport horizontal desdites
+propriétés étant désigné par un autre terme : l'advection horizontale.
+La convection est un phénomène omniprésent dans l'atmosphère terrestre.
+Elle peut être déclenchée par un réchauffement du sol par le soleil, par le mouvement d'une masse d'air froid au-dessus d'un plan d'eau relativement chaude, ou par d'autres phénomènes (dont les différences d'albédo) qui provoquent le réchauffement relatif du bas d'une couche atmosphérique par rapport à son sommet.
+Elle joue un rôle dans la chimie de l'atmosphère, en contribuant à certains transferts d'aérosols ou de polluants des basses couches (troposphère) vers les hautes couches, et inversement (pour l'ozone par exemple).
+Les processus ou les phénomènes qu'elle est capable de générer à certaines échelles spatio-temporelles sont qualifiés tout simplement de convectifs.
+Ils sont pourtant loin de représenter l'ensemble des processus et des phénomènes caractérisés par des mouvements verticaux, mais c'est parmi eux que se trouvent des phénomènes clés de la météorologie, comme les brises, les orages, les cyclones tropicaux ou les moussons.
+Ce mouvement ascendant s'accompagne du mouvement descendant d'un volume correspondant d'air plus dense (plus froid) par le même principe.
+La masse de l'air descendant est supérieure à celle de l'air ascendant ;
+il y a donc une baisse du centre de gravité du système, interprétable comme une conversion d'énergie potentielle gravitationnelle, en énergie cinétique.
+Les quantités d'énergie impliquées dans cette conversion peuvent être considérables et se traduire par des mouvements ascendants et descendants importants, créant de la turbulence.
+S'il y a condensation, on assiste à la formation de nuages convectifs qui peuvent donner de forts coups de vent, des précipitations intenses et de la foudre.
+Si le cisaillement des vents avec l'altitude est favorable à un transfert de tourbillon, on peut voir se former des tornades.
+Si le contenu en eau est très important, on peut obtenir des pluies torrentielles et même de la grêle.
+Nuages convectifs
+On donne à la classe des nuages d'origine convective le nom générique de cumulus.
+Lorsque la couche d'air instable est peu étendue verticalement, on a formation de cumulus humilis, dit cumulus de beau temps, synonymes d'air ascendant.
+Si l'énergie potentielle de convection disponible (EPCD) augmente, on passe ensuite au cumulus mediocris, puis au congestus, le second produisant les averses.
+Si l'instabilité est plus grande on obtient le cumulonimbus calvus, pour finir au roi des nuages le cumulonimbus cappilatus incus qui sont synonymes d'un orage mûr et possédant également un cycle descendant de convection.
+Chacun de ces nuages est appelé aussi cellule convective.
+Les orages peuvent être formés de cellules convectives isolées et on parlera alors d'un orage mono ou uni-cellulaire pour ceux peu importants et d'orages supercellulaires pour les autres.
+Les orages composés de plusieurs cellules convectives se classent en deux catégories, soit les orages multicellulaires, pour ceux provenant d'une cellule initiale qui se clone, et les systèmes convectifs de méso-échelle (ligne de grain, Derecho, complexe convectif de méso-échelle, cyclone tropical, etc.), pour celles qui s'unissent à partir d'une genèse distincte.
+Les nuages mentionnés ci-dessus se produisent en général dans une masse d'air assez uniforme ce qui donne une répartition aléatoire des cellules.
+Si un déclencheur comme un front, un creux barométrique, un soulèvement au-dessus d'un obstacle ou même le flux descendant des nuages passe dans le secteur, il peut servir à organiser la convection ou à donner une convection forcée.
+Des nuages convectifs peuvent également se former dans des systèmes plus stables.
+Par exemple, à l'avant d'une dépression qui donne de la pluie continue, dite stratiforme
+, on a souvent dans bandes de précipitations plus intenses associées à des zones convectives dans les niveaux moyens de l'atmosphère.
+On note alors des altocumulus castellanus, ou même de cumulonimbus à base haute, imbriqués dans la masse nuageuse.
+La convection se produit en toute saison.
+Ainsi, dans une tempête de neige les fortes chutes se retrouvent souvent sous des cellules convectives imbriquées.
+Le cas des bourrasques de neige côtières est un autre exemple alors que de l'air très froid passe au-dessus d'étendues d'eau non gelée et donne des cumulus bourgeonnants de faible extension verticale mais très intenses.
+Convection sans nuage
+La convection atmosphérique peut se produire sans nécessairement donner des nuages.
+En effet, elle n'est créée que par la structure thermique et si l'humidité n'est pas suffisante dans la parcelle d'air en ascension, il n'y aura pas de condensation.
+La brise de mer est un exemple typique de cellule convective en air clair.
+L'air se réchauffe plus rapidement sur terre que sur l'eau et une circulation thermique se développe durant la journée.
+Les thermiques qui se développent le long des pentes des montagnes sont un autre exemple où la différence de réchauffement crée une cellule convective à petite échelle, alors que la génération des alizés provient d'une boucle convective à large échelle.
+On peut mentionner encore les tourbillons de poussière et les vents générés dans un incendie.
+Usage de la convection en aéronautique
+Sous sa forme bénigne, la convection peut donner aux planeurs et autres aéronefs non motorisés la poussée ascendante dont ils ont besoin pour se maintenir en vol.
+Les montgolfières utilisent aussi la convection comme moyen de sustentation, en emprisonnant une quantité d'air chaud (moins dense que l'air environnant) à l'intérieur d'un ballon.
+Par contre
+, les forts mouvements verticaux, dans et autour des orages, sont à éviter car ils produisent de la turbulence intense.
+De plus, le givrage dans ces nuages est important, car les gouttes y sont en surfusion, et la grêle va endommager les aéronefs.
+Océanographie
+L'océan est animé de courants marins mettant en œuvre des phénomènes de convection.
+Les eaux de surface réchauffées par le Soleil à l'équateur se déplacent en courants superficiels ayant une épaisseur jusqu'à sous l'action des vents.
+Le réchauffement a comme conséquence une évaporation en surface qui concentre le sel contenu dans l'eau et donc la salinité de ces courants.
+Ce sont d'abord les alizés qui les poussent d'est en ouest puis, aux abords des continents, le courant remonte vers les hautes latitudes dans les vents généralement d'ouest.
+Les eaux se refroidissent ensuite à l'approche des calottes polaires et du fait de leur plus grande densité due à leur salinité, s'enfoncent au fond de l'océan.
+Elles terminent le cycle en retournant vers l'équateur.
+Cependant, la boucle ne se limite pas à un bassin océanique mais plutôt encercle la Terre en plusieurs sous-boucles.
+L'eau chaude produite dans l'Atlantique équatorial se déplace vers l'Amérique du Nord avant de tourner vers l'Europe en surface dans le Gulf Stream.
+Elle plonge ensuite en profondeur et se dirige vers le sud de l'Afrique.
+et le sel se dilue lentement, les eaux font un nouveau cycle en surface qui se termine le long de la côte ouest de l'Amérique et replongent en profondeur pour éventuellement resurgir dans l'Atlantique.
+Une boucle semblable se produit dans l'hémisphère sud.
+Le cycle complet de cette circulation thermohaline est estimé, de 600 à .
+Le rôle de ces boucles convectives est essentiel car il permet le transport de chaleur, libérée dans l'atmosphère, de l'équateur vers les pôles.
+Si ce transfert n'existait pas, il ferait plus chaud à l'équateur et plus froid aux hautes latitudes.
+Le Gulf Stream et le Kuro Shivo réchauffent ainsi les eaux respectivement situées au large de l'Europe et du Japon.
+La convection océanique joue aussi un rôle important dans le cycle du carbone.
+En effet, en plongeant les eaux marines entraînent une grande quantité de dioxyde de carbone (CO2) qui a été capturé de l'atmosphère et qui y est dissous.
+Ce dioxyde de carbone est restitué en partie à l'atmosphère lorsque les eaux profondes refont surface .
+Géologie
+Dans les volcans
+Dans la lithosphère
+Dans le manteau
+La convection mantellique est un phénomène physique se produisant à l’intérieur du manteau terrestre.
+Elle est considérée comme le moteur profond de la théorie de la tectonique des plaques mais le sujet est toujours en discussion.
+Soumises à une forte différence de température entre la base du manteau inférieur (isotherme environ) d'une part et la transition asthénosphère-lithosphère (isotherme ) d'autre part, les roches du manteau développent un gradient de densité important.
+Les parties chaudes, moins denses, auront tendance à s'élever, tandis que les parties froides, plus denses, auront tendance à s'enfoncer.
+Si les forces liées à la poussée d'Archimède sont plusieurs ordres de grandeur supérieures aux forces opposées à l'élévation, une convection à l'état solide se met en place.
+Ce mécanisme est autorisé par le comportement ductile des roches en profondeur, qui permet au réseau cristallin de se déformer sans se briser (fluage plastique).
+Le nombre de Rayleigh (Ra), sans dimension, exprime le rapport des forces impliquées dans la convection, qui débute si Ra dépasse une valeur critique, caractéristique d'un milieu donné.
+Le tout s'effectuant sur une échelle de temps géologique (le million d'années), le manteau se comporte d'une manière similaire à un fluide.
+Dans le noyau externe
+Plus profond encore, sous le manteau, se trouve le noyau terrestre.
+Il est composé d'une graine métallique (appelé aussi noyau interne, sorte d'agrégat de liquides solidifiés sous l'effet de la pression) entourée d'une épaisse coquille, métallique elle aussi mais demeurant à l'état liquide : le noyau externe.
+On peut considérer ici que le liquide contenu dans le noyau externe est confiné entre deux solides.
+Le noyau externe en question est animé de mystérieux mouvements de convection aux formes inhabituelles.
+Plusieurs phénomènes physiques de natures différentes (thermique, mécanique, magnétique) agissent de concert pour animer le noyau fluide.
+Dans un souci de simplification, nous présentons ces différentes causes séparément.
+La plus simple et la plus évidente
+d'entre toutes ces causes
+est certainement la poussée d'Archimède qui provoque des ascensions de parcelles dans le noyau fluide.
+Le noyau dans son ensemble se refroidit et cristallise lentement à l'interface entre le noyau interne et le noyau externe : de la chaleur et des éléments légers sont relargués par endroits à la base du fluide.
+Celui
+-ci, plus léger que son entourage (voir plus haut)
+, se met naturellement à .
+C'est une forme de convection dont les deux aspects thermiques et chimiques sont aussi importants l'un que l'autre.
+On parle de convection thermo-chimique.
+Deux autres forces viennent ensuite embellir la mécanique en déviant la trajectoire des parcelles fluides.
+Tout d'abord, la force de Coriolis.
+En effet, contrairement au cas du manteau qui l'entoure, la viscosité du fluide constituant le noyau externe est très faible (proche de celle de l'eau).
+Par conséquent, et puisque la coquille qui encapsule le fluide métallique est en rotation (jour-nuit-jour ...) le mouvement de convection décrit plus haut subit très fortement l'action de la force de Coriolis.
+Celle-ci devient dominante par rapport aux forces visqueuses et contraint le fluide à s'organiser en colonnes rotatives plus ou moins régulières.
+À ce stade on peut se représenter la convection dans le noyau en imaginant des parcelles de fluide ascendantes/descendantes convectant avec des trajectoires aux formes spiralées (??
+image convection coquille rotation).
+Vient ensuite la force de Laplace.
+Ne l'oublions pas, le fluide considéré ici est métallique !
+(fer + nickel + quelques éléments légers).
+C'est un très bon conducteur de l'électricité, sorte de fluide électrifié, qui est le siège de phénomènes hydro-magnétiques non élucidés à ce jour, notamment l'effet dynamo grâce auquel nous baignons dans un champ magnétique terrestre.
+Reste cependant une certitude, les phénomènes en question font naître dans le noyau des forces magnétiques suffisamment importantes (compte tenu de l'intensité du champ magnétique terrestre ambiant et de la vigueur de l'écoulement décrit plus tôt) pour modifier elles aussi à leur tour les mouvements de convection dont il est question ici.
+La convection dans le noyau externe semble alors se complexifier davantage.
+Astrophysique
+Les étoiles de la séquence principale et les géantes rouges comportent une zone de convection stellaire, dans laquelle ce sont les cellules de convection qui transfèrent l'énergie thermique produite au cœur de l'étoile.

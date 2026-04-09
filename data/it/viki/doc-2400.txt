@@ -1,0 +1,17 @@
+C++
+Il C++ (si legge c plus plus) è un linguaggio di programmazione orientato agli oggetti, quindi con le classi, speciali contenitori (si legge c plus plus).
+È discendente al C, un altro linguaggio.
+La differenza tra i due e che il C++ è, come detto prima, ad oggetti, invece il C è procedurale, cioè senza classi.
+Tra i due il più usato, perché più semplice, è il C++.
+Esempio:
+Più complicato il C o il C+?
+Nel codice di C++ abbiamo scritto cout e endl.
+Cosa significano?
+Servono per scrivere tutto quello che c'è sulla schermata di un programma, infatti il cout vuol dire "Console out", la console è appunto lo schermo, endl serve per andare a capo, si può anche non utilizzare, quindi si deve scrivere cout 2 usingnamespacestd;3 intmain4 {5 intx;6 cout >x;8 return0;9 }
+Cos'è la parola int e il cin?
+Queste due parole chiavi si usano moltissimo.
+Ora vediamo cosa sono:
+int= variabile, cioè contenitore.
+Variabili e acquisizione?
+Le variabili sono come dei piccoli contenitori, ce ne sono di vari tipi: string, int, float, double, bool, char...
+L'acquisizione è quando scrivi una cosa dalla tastiera.

@@ -1,0 +1,48 @@
+Nombre premier|Jumeaux|Conjecture non résolue|Nombres Premiers Jumeaux
+En mathématiques, deux nombres premiers jumeaux sont deux nombres premiers qui ne diffèrent que de 2.
+Hormis pour le couple (2, 3), cet écart entre nombres premiers de 2 est le plus petit possible.
+Les plus petits nombres premiers jumeaux sont 3 et 5, 5 et 7, 11 et 13.
+Au 25 décembre 2011, les plus grands nombres premiers jumeaux connus, découverts dans le cadre du projet de calcul distribué , sont ×
+2 ± 1 ; ils possèdent chiffres en écriture décimale.
+Selon la conjecture des nombres premiers jumeaux, il existe une infinité de nombres premiers jumeaux ;
+les observations numériques et des raisonnements heuristiques justifient la conjecture, mais aucune démonstration n'en a encore été faite.
+Définition
+Soient p et q deux nombres premiers.
+On dit que (p, q) forme un couple de nombres premiers jumeaux si q = p + 2.
+Liste des premiers nombres premiers jumeaux
+Suite des couples de nombres premiers jumeaux jusqu'à 1 000 :
+Quelques propriétés
+Le couple (2, 3) est le seul couple de nombres premiers consécutifs.
+* Si l'on omet le couple (2, 3), la plus petite distance possible
+entre deux nombres premiers est 2 ;
+deux nombres premiers jumeaux sont ainsi deux nombres impairs consécutifs.
+* Tout couple de nombres premiers jumeaux,
+à l'exception du couple (3, 5), est de la forme (6n - 1, 6n + 1) pour un certain entier
+En effet, tout triplet d'entiers consécutifs comporte au moins un multiple de 2 (éventuellement deux) et un seul multiple de 3 ;
+l'entier qui se trouve entre les deux nombres premiers jumeaux est à la fois ce multiple de 2 et ce multiple de 3, car cela ne peut pas être l'un des nombres premiers.
+* Pour tout entier m ≥ 2, le couple (m, m + 2) est constitué de nombres premiers jumeaux si et seulement si 4 (m - 1)!
++ 1 + m est divisible par m (m + 2).
+Cette caractérisation des nombres premiers jumeaux, remarquée par P. A. Clement en 1949, résulte du théorème de Wilson.
+* Alors que la série des inverses des nombres premiers est divergente, la série des inverses de nombres premiers jumeaux est convergente (vers un nombre appelé constante de Brun).
+Cette propriété fut démontrée par Viggo Brun en 1919.
+Records
+Le 15 janvier 2007, les deux projets de calcul distribué et ont découvert le plus grand couple de nombres premiers jumeaux connu à l'époque, de chiffres en écriture décimale.
+Le découvreur était le Français Éric Vautier.
+En septembre 2016, le couple record.
+En novembre 2013, une amélioration significative de ces résultats est annoncée indépendamment par James Maynard et Terence Tao : non seulement l'écart entre deux nombres premiers consécutifs est inférieur ou égal à 600 infiniment souvent, mais un résultat équivalent est valable pour m nombres premiers consécutifs, quel que soit m ≥ 2.
+Une nouvelle amélioration est annoncée par le projet Polymath (section Polymath8) début 2014 : d'une part, l'écart serait inférieur à 270 infiniment souvent, d'autre part, en admettant une version généralisée de la conjecture d'Elliott-Halberstam, l'écart serait alors inférieur ou égal à 6.
+Le résultat de Zhang a été publié dans les Annals of Mathematics.
+Dans un premier temps, il a été difficile de trouver des relecteurs acceptant d'évaluer le travail.
+La conjecture de Hardy-Littlewood
+Il existe aussi une généralisation de la conjecture des nombres premiers jumeaux, connue sous le nom de première conjecture de Hardy-Littlewood, en rapport avec la distribution des premiers jumeaux, par analogie avec le théorème des nombres premiers.
+Soit π2 (x) le nombre de nombres premiers p ≤ x tels que p + 2 soit aussi premier.
+On note C2 le nombre obtenu de la façon suivante :
+:C_2 = \prod_ \frac \approx 0,66016\ldots
+ici le produit s'étend à l'ensemble des nombres premiers p ≥ 3).
+C2 est appelé constante des nombres premiers jumeaux ou constante de Shah et Wilson.
+Alors la conjecture de Hardy-Littlewood s'énonce de la façon suivante :
+\pi_2 (x) \sim 2 C_2 \int_2^x
+ce qui signifie que le quotient des deux expressions tend vers 1 quand x tend vers l'infini)
+Comme le second membre a une limite infinie quand x tend vers l'infini, cette conjecture démontrerait que le nombre de nombres premiers jumeaux est bien infini.
+Cette conjecture peut être justifiée (mais pas démontrée) en supposant que 1/ln (t) est la fonction de densité de la distribution des nombres premiers, une hypothèse suggérée par le théorème des nombres premiers.
+Cette conjecture est un cas particulier d'une conjecture plus générale appelée conjecture des n-uplets premiers de Hardy-Littlewood utilisée dans les recherches sur la conjecture de Goldbach.

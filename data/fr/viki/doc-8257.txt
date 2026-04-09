@@ -1,0 +1,38 @@
+Chiffre de Vigenère
+Le chiffre de Vigenère est un système de chiffrement par substitution (une lettre en remplace une autre) qui crée de nombreuses possibilités de chiffrement pour une même lettre selon sa position dans la phrase.
+Cette méthode de chiffrement repose sur une clef de chiffrement se présentant sous forme de mot ou de phrase permettant de chiffrer de manières différentes le même mot ou la même phrase en fonction de la clé.1
+Sommaire
+Le chiffre de Vigenère est un système de chiffrement inventé par "Blaise Vigenère" (1523-1596) qui mit en échec les cryptanalystes durant trois siècles.
+C'est une modification du chiffre de "Giovan Battista Bellaso" à qui l'on doit cette idée dont il parle dans son livre "La Cifra del Sig" publié en 1553.
+Cette méthode de chiffrement est utilisable grâce à la table de Vigenère qui est un tableau carré permettant de chiffrer le mot ou la phrase selon la clé choisie.
+Blaise Vigenère décrit sa méthode de chiffrement dans un ouvrage intitulé Traité des chiffres paru en 15862.
+Il a été découvert par le major prussien Friedrich Kasiski qui publie sa méthode en 1863.3
+Grille de chiffrement du code de Vigenère
+Pour utiliser le chiffre de Vigenère, il faut avoir en sa possession : la table de Vigenère (représentée ci-dessus), une phrase à modifier pour lui donner un sens incompréhensible et un mot clé :
+phrase : je suis en vacances en Espagne.
+Pour que ça marche il faudra qu'il y ait le même nombre de lettres dans le mot clé que dans la phrase, pour ça il faudra répéter les lettres qu'il y a dans le mot balais pour qu'il y en ait autant que dans la phrase ce qui donne :
+phrase:
+je suis en vacances en Espagne
+Maintenant qu'on a autant de lettres dans la phrase que dans le mot clé, voyons comment transformer cette phrase banale en une phrase chiffrée, incompréhensible pour les personnes ne connaissant pas cette méthode de chiffrement.
+Pour cela il suffit de prendre la colonne correspondant à la première lettre de la phrase et la rangée (ligne horizontale) de la première lettre de la clé, et au croisement de ces lignes vous trouverez une lettre étant la première lettre de votre phrase chiffrée.
+Ce qui donne avec notre exemple au croisement de la colonne J (première lettre du mot je) et de la rangée B (première lettre du mot-clé balais la lettre K pour chiffrer la lettre J de je.
+Pour chiffrer le E(seconde lettre du mot je) de je on croise la colonne E avec la rangée A (seconde lettre de balais) ce qui donne un E;
+pour chiffrer le S du mot suis (troisième lettre de la phrase à chiffrer) on croise la colonne S avec la rangée L (troisième lettre de balais) ce qui correspond à la lettre D et ainsi de suite: la phrase à chiffer donnera la suite suivante de lettres : KeduqkfngaksocpsmfFsaaoff.4
+Pour déchiffrer il suffit de prendre la colonne correspondant à la première lettre de la clé et de chercher dans cette colonne la lettre correspondant à la première lettre de la phrase codée, elle sera sur la ligne de la première lettre de la phrase normale (lettre qui se trouve dans la colonne la plus à gauche).
+Ainsi dans l'exemple choisi: dans la colonne de B la première lettre de balais le K correspond à la lettre J dans la colonne de gauche, donc il s'agit de la première lettre du mot je.
+La lettre A seconde lettre du mot-clé balais croisé avec la lettre E seconde
+lettre du mot
+à déchiffrer donne E dans la colonne de gauche.
+, ce qui correspond au E seconde
+lettre
+de la phrase d'origine
+: la lettre L troisième lettre du mot-clé balais croisé avec la lettre D troisième lettre du mot chiffré correspond au S dans la colonne de gauche
+soit la troisième lettre du mot de la phrase d'origine (le premier S du mot suis)
+Il n'y a plus qu'à reproduire cette étape pour toutes les lettres.5
+↑PIERRAT
+-PAJOT
+, Lucie.
+Les mystères de Larispem tome 2.
+Gallimard
+-jeunesse, Mai 2017.
+322 p.

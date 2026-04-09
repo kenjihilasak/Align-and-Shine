@@ -1,0 +1,90 @@
+Navigateur web|Logiciel pour Windows|Logiciel pour Unix|Navigateur web utilisant
+Gecko
+Pale Moon est un navigateur web open source dérivé de Mozilla Firefox.
+Il dérivait à l'origine de celui-ci en proposant des optimisations de compilation pour améliorer les performances, mais s'en détache depuis progressivement en réintroduisant des fonctions retirées par Mozilla comme la barre d'état et en refusant d'adopter des changements introduits en vue de la nouvelle interface dite Australis ou les DRM HTML5, au point de pouvoir être qualifié de fork.
+Il reste cependant compatible avec la large majorité des extensions de Firefox.
+Pale Moon est développé par M.C. Straver, un développeur néerlandais.
+Le navigateur est disponible sur Windows, GNU/Linux et Android.
+Dérivant de Firefox, Pale
+Moon utilise
+depuis la version 26 le moteur de rendu Goanna, créé par Moonchild Productions, développeur de Pale Moon
+Ce moteur est un fork du célèbre Gecko.
+Fonctionnalités
+Pale Moon, grâce à sa base similaire à Firefox, est un navigateur qui se fonde principalement sur les extensions pour étendre les fonctionnalités du navigateur.
+Un nombre conséquent de fonctionnalités jugées vitales demeurent néanmoins intégrées dans le navigateur :
+* la navigation par onglets, qui peuvent être disposés au-dessus de la barre d'adresse ou en-dessous (position par défaut) et aisément réorganisés ;
+* un système de moteurs de recherche intégré et facilement personnalisable avec une barre de recherche ;
+* une barre d'état contenant un indicateur de chargement et accueillant les icônes d'extensions ;
+* un bloqueur de fenêtres intruses (appelées aussi ) ;
+* un système de marque-pages (appelés favoris ou signets chez d'autres ;
+les applisignets ou favelets sont aussi pris en charge) ;
+* support des marque-pages dynamiques (lecteur de flux d’
+informations aux formats RSS et Atom
+Syndication Format
+* un mode de navigation privée par fenêtre, où Pale Moon ne conserve aucune donnée sur les sites et pages visités ;
+* enfin bien sûr le respect des standards pour le cœur de mission du navigateur : le rendu des pages.
+Cet aspect est développé dans la sous-section dédiée.
+Pale Moon possède néanmoins un nombre notable de différences par rapport à son modèle :
+Une compatibilité native avec les systèmes 64 bits, ainsi qu'une accélération matérielle ;
+* L'utilisation de l'ancienne interface de Firefox, utilisée sur le célèbre navigateur jusqu'à sa version 28 (remplacée par Australis) ;
+De nouvelles options de configuration, telles que le défilement, le statut, et de nouvelles fonctionnalités spécifiques à ce navigateur ;
+Une barre de statuts fonctionnelle et plus de liberté dans la customisation ;
+Une page d'accueil personnalisable en coopération avec start.me ;
+Le support d'extensions et thèmes exclusifs à Pale Moon (ex : Adblock Latitude)
+* L'utilisation du service IP-API au lieu de Google pour la géolocalisation ;
+* L'utilisation de DuckDuckGo au lieu de Google ou Yahoo!
+comme moteur de recherche par défaut.
+Au contraire de Firefox et d'autres navigateurs, Pale Moon ne supporte pas nativement la vue de fichiers PDF dans le navigateur, recommandant d'utiliser un programme dédié pour un meilleur rendu.
+De même, le système de discussion audio/vidéo WebRTC n'est pas présent, considéré comme ne relevant pas d'un navigateur
+Web ==
+Débuts
+Au commencement, Pale Moon n'était qu'une copie personnalisée de Firefox.
+À partir des versions 3.X de Firefox, le développeur a commencé à alléger son projet, trouvant des compromis entre la vitesse, les caractéristiques et la facilité d'utilisation.
+À ce moment-là, le projet Pale Moon a pris forme.
+Le navigateur est disponible au public à partir du 4 octobre 2009.
+Depuis sa sortie, il est devenu assez populaire, avec pas moins de visites sur la page d'accueil seulement durant le premier mois de sa publication.
+Avec de nombreux téléchargements à partir d'un large éventail de lieux, pas tous surveillés, c'était une énigme de savoir combien de personnes l'utilisaient réellement, mais il a dépassé tout ce qui avait été initialement prévu.
+Les retours ont été très bons.
+À la demande des utilisateurs, une version spéciale pour les processeurs
+Athlon XP et Athlon
+MP (encore très utilisés à l'époque)
+a vu le jour.
+Une version portable à emporter sur clé usb a également été créée.
+Différenciation progressive
+Des changements ont été effectués de la version 3.5 à 3.6 afin de séparer les installations de Pale Moon et Firefox, offrant au navigateur une plus grande indépendance vis-à-vis de son modèle.
+Certaines fonctionnalités ont été enlevées, d'autres rajoutées, selon le souhait des utilisateurs.
+Avec l'arrivée de la version 4.0 de Firefox, Pale Moon s'éloigne de plus en plus de son modèle, qui supprime les commentaires utilisateurs et modifie les commandes de navigation.
+Pale
+Moon ne suit pas ces changements.
+Firefox divise son développement en deux branches, la branche 3.X, classique, et la branche 4.X et supérieur, qui sera la branche « nouvelle génération »
+Pale Moon suit l'évolution de la branche "nouvelle génération" tout en gardant certains services des versions 3.X, se différenciant de plus en plus de Firefox.
+À partir d'avril 2012, le développement de la branche 3.X de Firefox est stoppé, et la version restante instaure des mises à jour très régulières et rapides.
+Pale Moon se détache progressivement de Firefox, afin de suivre son propre développement.
+Cependant, Pale Moon continue de suivre Firefox, afin de conserver la compatibilité des extensions.
+À la sortie de la version 24 de Firefox (et Pale Moon, les navigateurs ont les mêmes numéros de versions), et à la suite de nombreux mécontentements sur les dernières décisions de Firefox, Pale Moon se détache de son modèle, afin de se concentrer sur ses propres innovations, tout en conservant les mises à jour comblant des failles de sécurité.
+Pale Moon devient un navigateur entièrement indépendant.
+À partir de la version 25, le moteur de rendu change.
+L'équipe de développement de Pale Moon crée Goanna, son propre moteur de rendu, qui se base sur Gecko.
+Orientations futures
+Pale Moon continuera à supporter son système d'extension, ainsi que le framework XUL, sur lequel le navigateur se base.
+La navigateur continuera à utiliser son propre thème, entièrement customisable, et n'implantera pas le nouveau thème « Australis » de Firefox.
+Historique et notes des sorties
+Critiques
+Les critiques adressées à Pale Moon peuvent se classer en plusieurs catégories :
+*celles qui contestent les gains allégués de performance après la comparaison avec Firefox à l'aide de tests synthétiques.
+*celles qui minimisent son intérêt, disant en substance
+que c'est simplement la version 24 ESR avec des fonctionnalités retirées (accessibilité, contrôle parental, webRTC), recompilée en 64 bits.
+*celles enfin qui s'interrogent sur la viabilité à long terme du projet alors que la différence avec Firefox s'accentue, le projet ne comportant qu'un seul développeur
+Les réponses adressées à chacune de ces critiques sont les suivantes :
+*les tests ne représentent pas un usage réel en se concentrant très fortement sur certains aspects comme le javascript dont la performance a beaucoup augmenté, est sujet à divers biais, et que la recherche du meilleur score au test peut se faire au détriment de la performance de tout ce qui n'est pas ainsi testé ;
+le résultat ne devrait donc pas être considéré comme davantage qu'une indication.
+*la première réponse à ces critiques a été de souligner les différences de fonctionnalités plus poussées que cela.
+La seconde a été la création de la version contribuée «
+Sumozi » qui inclut les fonctions désactivées dans la version normale.
+*l'intérêt de Pale Moon est flagrant pour les machines avec 1 ou 2G de mémoire qui deviennent inutilisables avec les dernières versions de Firefox.
+*enfin concernant la viabilité à long terme, le développeur se dit conscient de la tâche à accomplir et prêt à l'assumer, même si seul le temps permettra d'en juger.
+Licence
+Tout comme Firefox, Pale Moon est un logiciel open source, dont le code source est publié sous la Mozilla Public License 2.0, à l'exception des parties liées à l'image de marque du projet (nom, logos).
+Au contraire de Firefox cependant, les binaires de Pale Moon ne peuvent être redistribués que sous certaines conditions.
+D'après le développeur, cela est en place afin d'éviter toute confusion avec des versions malveillantes.
+Le nom du projet, son logo et d'autres images sont la propriété intellectuelle de M.C. Straver, et ne peuvent pas être utilisés sans la permission préalable de l'auteur.

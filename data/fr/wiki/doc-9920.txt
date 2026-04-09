@@ -1,0 +1,94 @@
+Langage orienté objet|Norme ISO|Norme ECMA|.NET Framework|Langage de programmation
+C# ( en anglais britannique)
+est un langage de programmation orientée objet, commercialisé par Microsoft depuis 2002.
+Il est utilisé pour développer des applications web, ainsi que des applications de bureau, des services web, des commandes, des widgets ou des bibliothèques de classes.
+Un assembly est la forme compilée, qui peut être un programme (un exécutable) ou une bibliothèque de classes (une dll).
+Un assembly contient le code exécutable en MSIL, ainsi que les symboles.
+Le code MSIL est traduit en langage machine au moment de l'exécution par la fonction just-in-time de la plateforme .NET
+Les mots clés ajoutés entre C# 2.0 et 6.0 :
+add dynamic join select
+alias equals let set
+ascending from nameof
+value
+async get on var
+await global orderby where
+by group partial when
+descending into remove yield
+* les membres d’une énumération sont rassemblés dans leur propre espace de noms ;
+* le C# ne gère pas les , mais cette fonctionnalité a été remplacée par les types génériques apparus avec C# 2.0 ;
+* les propriétés ont été introduites, et proposent une syntaxe spécifique pour l’accès aux données membres (ainsi que la facilitation de l’accès simultané par plusieurs ) ;
+* les délégués, qui sont des listes de pointeurs sur fonctions, sont utilisés notamment pour la programmation événementielle.
+Différences avec le Java
+Bien que le C# soit similaire à Java, il existe des différences notables, par exemple :
+* Java a des exceptions vérifiées, alors que les exceptions du C# ne sont pas vérifiées, comme en C++ ;
+* Java permet la génération automatique de la documentation HTML à partir des fichiers sources à l'aide des descriptions Javadoc-syntax, tandis que le C# utilise des descriptions fondées sur le XML ;
+* C# prend en charge les indexeurs, les méthodes déléguées, et les événements (là où Java se contente du patron de conception Observateur) ;
+* C# ne prend pas en charge les implémentations anonymes d'interfaces et de classes abstraites ;
+* C# ne prend en charge que les classes internes statiques ;
+* C# prend en charge les structures en plus des classes (les structures sont des types valeur : on stocke le contenu et non l'adresse) ;
+* C# utilise une syntaxe intégrée au langage (DllImport) et portable pour appeler une bibliothèque native, tandis que Java utilise ;
+* C# intègre la généricité,
+et la machine .NET a été modifiée pour permettre cela (Java l'intègre également, mais son implémentation a été réalisée dans le compilateur javac sans changer le bytecode Java).
+Plus de détails sur l'aspect théorique de cette réalisation peuvent être trouvés dans la référence, .
+Histoire
+C'est en septembre 2002 que la plateforme .NET et C# sont présentés au public ;
+* la prise en charge de la covariance et de la contravariance pour les interfaces et les délégués génériques.
+Le est sorti le , accompagné de 2010.
+Il propose entre autres :
+* une version optimisée de la plate-forme
+entité d'accès aux bases de données (
+via l'utilisation de LINQ
+C# 5.0
+La du langage permet de programmer plus simplement des programmes asynchrones grâce à l'ajout des mots clés async et await.
+Le comportement des dans la boucle foreach a été modifié.
+Il n'est désormais plus nécessaire d'introduire une variable locale dans une boucle foreach pour éviter les problèmes de .
+À noter également les informations relatives à l'appelant permettant de connaître le nom de la méthode qui a appelé une propriété.
+C# 6.0
+La sixième version du C# apporte plusieurs modifications, notamment :
+Les propriétés implémentées automatiquement (ou propriétés automatiques) sont apparues en C# 3, pour simplifier la déclaration de propriétés qui se contentent d'encapsuler l'accès à des champs.
+Bien qu'elles permettent de rendre le code plus concis, elles présentent un inconvénient : il n'est pas possible de les initialiser au niveau de la déclaration, il faut forcément le faire dans le constructeur.
+De plus, il n'est pas possible de faire des propriétés automatiques en lecture seule, puisqu'elles n'ont pas de mutateur (setter) et on ne pourrait donc pas leur affecter de valeur.
+6 remédie à ce problème en permettant d'initialiser les propriétés automatiques au niveau de la déclaration.
+Standardisation
+Le C# a été normalisé par l'ECMA (ECMA-334) en et par l'ISO CEI () en .
+Microsoft a ouvert le code source de certaines bibliothèques utilisées par le C# en sous la licence Microsoft Reference Source License (MS-RSL).
+Nom du langage
+Le standard
+ECMA 334 et l'ISO 23270
+définissent le nom du langage comme le caractère Unicode 0043 (C majuscule) suivi du caractère 0023 (#).
+Il est prononcé « C sharp ».
+Annexes
+Liens externes
+* http:/ iso store
+catalogue_detail_ics.htm?csnumber=42926
+Page du standard
+ISO publications Ecma-334.htm
+Page du standard
+ECMA
+* http:/ france outils/vcsharp.mspx
+Centre de Développement C#
+- Site MSDN
+Bibliographie
+*C# et .NET
+- Gérard Leblanc
+- Éditions Eyrolles -
+*C# et .NET
+- Gérard Leblanc
+- Éditions Eyrolles -
+*C#
+Tête
+la première
+- Andrew Stellman, Jennifer Greene
+- Éditions Digit Books
+*Introduction à C#
+- Pierre-Yves Saumont, Antoine Mirecourt
+- Éditions Eyrolles -
+Le guide de survie C#
+- Gilles Tourreau
+- Éditions -
+- Adrian Kingsley-Hughes, Kathie Kingsley-Hughes
+- Édition Wrox -
+- Ben Albahari, Peter Drayton, Brad Merrill
+- Édition O'Reilly Media -
+- Simon Robinson, Christian Nagel, Karli Watson, Jay Glynn, Morgan Skinner, Bill Evjen
+- 2004 - Édition Wrox -

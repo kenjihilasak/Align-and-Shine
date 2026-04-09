@@ -1,0 +1,176 @@
+PHP|*|Langage impératif|Php hypertext preprocessor|Langage de script|Php hypertext preprocessor|Langage pour pages Web dynamiques|Php hypertext preprocessor|Langage orienté objet|Php hypertext preprocessor|Logiciel sous licence libre|Logiciel pour Windows|Logiciel pour Unix|Palindrome
+, plus connu sous son sigle (sigle auto-référentiel)
+, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP
+Il est considéré comme une des bases de la création de sites web dits dynamiques mais également des applications web.
+Histoire
+Le langage PHP a été créé en 1994 par Rasmus Lerdorf pour son site web.
+C'était à l'origine une bibliothèque logicielle en C dont il se servait pour conserver une trace des visiteurs qui venaient consulter son CV.
+Au fur et à mesure qu'il ajoutait de nouvelles fonctionnalités, Rasmus a transformé la bibliothèque en une implémentation capable de communiquer avec des bases de données et de créer des applications dynamiques et simples pour le Web.
+Rasmus a alors décidé, en 1995, de publier son code, pour que tout le monde puisse l'utiliser et en profiter.
+PHP s'appelait alors PHP/FI .
+Cette souplesse a permis à de nombreux développeurs d'apprendre PHP mais le revers de la médaille a été que de nombreuses applications PHP étaient mal sécurisées.
+Le sujet a bien été pris en main par le PHPGroup qui a mis en place des configurations par défaut mettant l'accent sur la sécurité.
+Il en résultait une réputation de langage peu sécurisé, .
+Historique des versions
+PHP 6 et Unicode
+En 2005, le projet de faire de PHP un langage fonctionnant d'origine en Unicode a été lancé par Andrei Zmievski, ceci en s'appuyant sur la bibliothèque International Components for Unicode (ICU) et en utilisant UTF-16 pour représenter les chaînes de caractères dans le moteur.
+Étant donné que cela représentait un changement majeur tant dans le fonctionnement du langage que dans le code PHP créé par ses utilisateurs, il fut décidé d'intégrer cela dans une nouvelle version 6.0 avec d'autres fonctionnalités importantes alors en développement.
+Toutefois, le manque de développeurs experts en Unicode ainsi que les problèmes de performance résultant de la conversion des chaînes de et vers UTF-16 (rarement utilisé dans un contexte web), ont conduit au report récurrent de la livraison de cette version.
+Par conséquent, une version 5.3 fut créée en 2009 intégrant de nombreuses fonctionnalités non liées à Unicode qui était initialement prévues pour la version 6.0, notamment le support des espaces de nommage (namespaces) et des fonctions anonymes.
+En mars 2010, le projet 6.0 intégrant unicode fut abandonné et la version 5.4 fut préparée afin d'intégrer la plupart des fonctionnalités non liées à l'unicode encore dans la branche 6.0, telles que les traits ou l'extension des closures au modèle objet.
+Le projet est depuis passé à un cycle de livraison prévisible (annuel) contenant des avancées significatives mais contenues tout en préservant au maximum la rétro-compatibilité avec le code PHP existant (5.4 en 2012, 5.5 en 2013, 5.6 prévue pour l'été 2014).
+Depuis janvier 2014, l'idée d'une nouvelle version majeure introduisant Unicode mais se basant sur UTF-8 (largement devenu depuis le standard du Web pour l'Unicode) et permettant certains changements pouvant casser la rétro-compatibilité avec du code PHP ancien est de nouveau discutée et les RFC sont maintenant triées selon leur implémentation en 5.x (évolutions ne causant pas ou marginalement de cassure de la rétro-compatibilité) ou dans la future version majeure (évolutions majeures du moteur et évolutions impliquant une non-compatibilité ascendante).
+PHP
+Au vu des orientations différentes prises par le langage de celles prévues par PHP 6, une partie des développeurs propose de nommer la version succédant à PHP 5 « PHP 7 » au lieu de « PHP 6 ».
+Un vote parmi les développeurs valide cette proposition par 58 voix contre 24.
+La nouvelle version propose une optimisation du code et, d'après la société Zend, offre des performances dépassant celles de machines virtuelles comme HHVM.
+Les benchmarks externes montrent des performances similaires pour HHVM et PHP 7, avec un léger avantage d'HHVM dans la plupart des scénarios.
+Présentation
+PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un Navigateur web.
+PHP peut également générer d'autres formats comme le WML, le SVG, le PDF.
+Il a été conçu pour permettre la création d'applications dynamiques, le plus souvent développées pour le Web.
+PHP est le plus souvent couplé à un serveur Apache bien qu'il puisse être installé sur la plupart des serveurs HTTP tels que IIS ou nginx.
+Ce couplage permet de récupérer des informations issues d'une base de données, d'un système de fichiers (contenu de fichiers et de l'arborescence) ou plus simplement des données envoyées par le navigateur afin d'être interprétées ou stockées pour une utilisation ultérieure.
+C'est un langage peu typé et souple et donc facile à apprendre par un débutant mais, de ce fait, des failles de sécurité peuvent rapidement apparaître dans les applications.
+Pragmatique, PHP ne s'encombre pas de théorie et a tendance à choisir le chemin le plus direct.
+Néanmoins, le nom des fonctions (ainsi que le passage des arguments) ne respecte pas toujours une logique uniforme, ce qui peut être préjudiciable à l'apprentissage.
+Son utilisation commence avec le traitement des formulaires puis par l'accès aux bases de données.
+L'accès aux bases de données est aisé une fois l'installation des modules correspondants effectuée sur le serveur.
+La force la plus évidente de ce langage est qu'il a permis au fil du temps la résolution aisée de problèmes autrefois compliqués et est devenu par conséquent un composant incontournable des offres d'hébergements.
+Il est multi-plateforme : autant sur Linux qu'avec Windows il permet aisément de reconduire le même code sur un environnement à peu près semblable (prendre en compte les règles d'arborescences de répertoires qui peuvent changer).
+Libre, gratuit, simple d'utilisation et d'installation, ce langage nécessite comme tout langage de programmation une bonne compréhension des principales fonctions usuelles ainsi qu'une connaissance aiguë des problèmes de sécurité liés à ce langage.
+La version 5.3 a introduit de nombreuses fonctions nouvelles : les espaces de noms
+- un élément fondamental de l'élaboration d'extensions, de bibliothèques et de frameworks structurés, les fonctions anonymes, les fermetures, etc.
+En 2018, près de 80 % des sites web utilisent le langage PHP sous ses différentes versions.
+Le langage PHP fait l'objet, depuis plusieurs années maintenant, de rassemblements nationaux organisés par l'AFUP (l'Association Française des Utilisateurs de PHP), où experts de la programmation et du milieu se retrouvent pour échanger autour du PHP et de ses développeurs.
+L'association organise ainsi deux évènements majeurs : le « Forum PHP », habituellement en fin d'année, et les « AFUP
+Day », qui ont lieu au cours du premier semestre, simultanément dans plusieurs villes.
+Fonctionnement
+PHP appartient à la grande famille des descendants du C, dont la syntaxe est très proche.
+En particulier, sa syntaxe et sa construction ressemblent à celles des langages Java et Perl, à ceci près que du code PHP peut facilement être mélangé avec du code HTML au sein d'un fichier PHP.
+Dans une utilisation destinée à l'internet, l'exécution du code PHP se déroule ainsi : lorsqu'un visiteur demande à consulter une page de site web, son navigateur envoie une requête au serveur HTTP correspondant.
+Si la page est identifiée comme un script PHP (généralement grâce à l'extension .php), le serveur appelle l'interprète PHP qui va traiter et générer le code final de la page (constitué généralement d'HTML ou de XHTML, mais aussi souvent de feuilles de style en cascade et de JS).
+Ce contenu est renvoyé au serveur HTTP, qui l'envoie finalement au client.
+Ce schéma explique ce fonctionnement :
+Une étape supplémentaire est souvent ajoutée : celle du dialogue entre PHP et la base de données.
+Classiquement, PHP ouvre une connexion au serveur de SGBD voulu, lui transmet des requêtes et en récupère le résultat, avant de fermer la connexion.
+ou de script en ligne de commande sans utiliser de serveur HTTP ni de navigateur
+Il permet alors d'utiliser de nombreuses fonctions du langage C et plusieurs autres sans nécessiter de compilation à chaque changement du code source.
+Pour réaliser en Linux usr php.
+Sous un éditeur de développement comme SciTE, même en Windows, une première ligne
+Résultat affiché :
+Hello World
+Balises
+Le code PHP doit être inséré entre les balises (la balise de fermeture est facultative en fin de fichier).
+Il y existe d'autres notations pour les balises :
+Les notations autres que la standard ( ) et la notation courte avec affichage ( ) sont déconseillées, car elles peuvent être désactivées dans la configuration du serveur (php.ini ou .htaccess) : la portabilité du code est ainsi réduite.
+Depuis PHP 7, les notations ASP et script ont été supprimées.
+La notation courte sans affichage reste déconseillée.
+Instructions
+Les instructions sont séparées par des ; (il n'est pas obligatoire après la dernière instruction) et les sauts de ligne ne modifient pas le fonctionnement du programme.
+Il serait donc possible d'écrire :
+Pour des raisons de lisibilité, il est néanmoins recommandé d'écrire une seule instruction par ligne.
+Il est aussi préférable d'écrire le dernier ;.
+Structures de contrôle
+Le code PHP est composé par des appels à des fonctions, dans le but d'attribuer des valeurs à des variables, le tout encadré dans des conditions, des boucles.
+Exemple :
+Bonjour !
+Vous n'êtes pas un utilisateur autorisé !
+Une autre approche consiste à concaténer l'intégralité du code HTML dans une variable et de réaliser un echo de la variable en fin de fichier :
+d' .
+'e' .
+'f';
+On affiche le contenu
+echo $out;
+Dans le cas où l'utilisateur aura préféré l'utilisation de la commande echo à la concaténation, il lui sera possible de capturer le flux en utilisant les fonctions ob_start () et ob_get_clean () :
+documentElement;
+$html->head = $dom->createElement ('head');
+$html->appendChild ($html->head);
+$html->head->title = $dom->createElement ('title'
+$html->head->title->nodeValue = 'Exemple de HTML';
+$html->head->appendChild ($html->head->title);
+$html->head->charset = $dom->createElement ('meta'
+$html->head->charset->setAttribute ('http-equiv', 'Content-Type');
+$html->head->charset->setAttribute ('content', 'text/html;
+charset=utf-8');
+$html->head->appendChild ($html->head->charset);
+$html->body = $dom->createElement ('body');
+$html->appendChild ($html->body);
+html->body->p = $dom->createElement ('p');
+$html->body->p->nodeValue = 'Ceci est un paragraphe.
+$html->body->appendChild ($html->body->p);
+$html->body->p->br = $dom->createElement ('br');
+html->body->p->appendChild ($html->body->p->br);
+$html->body->p->a = $dom->createElement
+'a');
+html->body->p->a->nodeValue = 'Ceci est un lien.
+$html->body->p->a->setAttribute ('href', 'cible.html');
+html->body->p->appendChild ($html->body->p->a);
+echo $dom->saveHTML ();
+Qui crée le code HTML suivant :
+Exemple de HTML
+Ceci est un paragraphe.
+Ceci est un lien.
+Cette méthode est cependant peu utilisée pour générer un document complet, on l'utilise généralement pour générer un fichier XML.
+La commande phpinfo () est aussi utilisée pour générer un code HTML décrivant les paramètres du serveur ;
+elle est aussi très utilisée pour tester la bonne exécution du moteur d’exécution PHP.
+Programmation orientée objet
+Comme en C++ et en Java, PHP permet de programmer en orienté objet, en créant des classes contenant des attributs et des méthodes, qui peuvent être instanciées ou utilisées en statique.
+Toutefois, PHP est un langage à héritage simple, c'est-à-dire qu'une classe ne peut hériter que d'au plus une seule autre classe (sinon il faut utiliser un trait pour simuler l'héritage multiple par composition).
+Cependant les interfaces peuvent en étendre plusieurs autres.
+Voici un exemple de création d'une classe :
+getPV () .
+' PV.
+/ /
+Destruction de l'objet
+unset ($perso)
+Mascotte
+Comme de nombreux projets Open Source, PHP possède une mascotte.
+Il s'agit de l'éléPHPant, dessiné en 1998 par El Roubio.
+El Roubio s'est inspiré de la ressemblance des lettres PHP avec un éléphant et du fait que deux des lettres du langage soient déjà présentes dans ce mot, ce qui a permis de créer le néologisme éléPHPant.
+Toutes les œuvres d'El Roubio sont distribuées sous licence GNU GPL.
+Une peluche de lÉléPHPant bleu existe.
+D'autres versions ont vu le jour ces dernières années (rose, jaune, rouge, violet et orange) sous l'impulsion de sociétés (PHP Architect ou Zend Technologies) ou de groupes utilisateurs comme PHP Women.
+Exemples d'application
+* Systèmes de gestion de blog (Dotclear, WordPress...
+* Systèmes de gestion de contenu (appelés aussi CMS) (SPIP, ExpressionEngine, Drupal, Xoops, Joomla, K-Box...)
+* Administration de bases de données (phpMyAdmin, phpPgAdmin, Adminer...
+* Frameworks (Laravel, Symfony, Zend Framework, CodeIgniter, CakePHP, etc.)
+* E-commerce (PrestaShop, WooCommerce, Magento, osCommerce, Sylius, etc.)
+Plateformes
+Un serveur Web en architecture trois tiers est composé d'un système d'exploitation, un serveur HTTP, un langage serveur et enfin un système de gestion de base de données (SGBD), cela constituant une plate-forme.
+Dans le cas de PHP comme langage serveur, les combinaisons les plus courantes sont celles d'une plateforme LAMP (pour Linux Apache MySQL PHP) et WAMP (Windows Apache MySQL PHP).
+Une plate-forme WAMP s'installe généralement par le biais d'un seul logiciel qui intègre
+Apache, MySQL et PHP
+, par exemple EasyPHP
+, VertrigoServ, WampServer ou UwAmp.
+Il existe le même type de logiciels pour les plates-formes MAMP (
+Mac OS
+Apache MySQL PHP)
+, à l'exemple du logiciel MAMP.
+Il existe d'autres variantes, par exemple les plates-formes LAPP (le M de MySQL est remplacé par le P de PostgreSQL) ou encore le logiciel XAMPP (Apache MySQL Perl PHP ;
+le X indique que le logiciel est multiplate-forme), un kit de développement multiplate-forme.
+On peut décliner une grande variété d'acronymes sous cette forme.
+Des confusions peuvent parfois exister entre la plate-forme en elle-même et le logiciel permettant de l'installer, si elles ont le même nom.
+Il faut également remarquer que la grande majorité des logiciels « tout en un » sont destinés au développement d'applications Web en local, et non à être installés sur des serveurs Web.
+Une exception à cette règle est peut-être Zend Server, le serveur distribué par Zend Technologies, qui est prévu pour fonctionner aussi bien en environnement de développement que de production.
+Accélération
+PHP est à la base un langage interprété, ce qui est au détriment de la vitesse d'exécution du code.
+Sa forte popularité associée à son utilisation sur des sites Web à très fort trafic (Yahoo, Facebook) ont amené un certain nombre de personnes à chercher à améliorer ses performances pour pouvoir servir un plus grand nombre d'utilisateurs de ces sites Web sans nécessiter l'achat de nouveaux serveurs.
+La réécriture du cœur de PHP, qui a abouti au Zend Engine pour PHP 4 puis au Zend Engine 2 pour PHP 5, est une optimisation.
+Le Zend Engine compile en interne le code PHP en bytecode exécuté par une machine virtuelle.
+Les projets open source
+APC
+et eAccelerator fonctionnent en mettant le bytecode produit par Zend Engine en cache afin d'éviter à PHP de charger et d'analyser les scripts à chaque requête
+À partir de la version 5.5 de PHP, le langage dispose d'un cache d'opcode natif (appelé OpCache) rendant obsolète le module APC.
+Il existe également des projets pour compiler du code PHP :
+Quercus compile du PHP en bytecode
+Java exécutable sur une machine virtuelle Java,
+* Phalanger compile du PHP en Common Intermediate
+Language exécutable sur le Common
+Language
+Runtime du framework .NET
+* HipHop
+for PHP transforme du PHP
+en C++ qui est ensuite compilé en code natif
+Ce projet open source a été démarré par Facebook.

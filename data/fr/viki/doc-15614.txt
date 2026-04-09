@@ -1,0 +1,57 @@
+Fonction dérivée
+En noir la courbe d'une fonction et en rouge la tangente à cette fonction au point rouge.
+La dérivée d'une fonction en un point est donnée par la pente de la tangente à la courbe représentative de la fonction en ce point.
+Sur le schéma ci-contre, la pente de la droite rouge.
+La tangente ne peut pas être tracée si la courbe représentative n'est pas « lisse », s'il y des trous ou des angles.
+Dans ce cas la dérivée n'existe pas.
+Trouver la fonction dérivée d'une fonction f{\displaystyle f}, permet de résoudre des problèmes scientifiques, en physique, chimie, biologie, etc.
+La dérivée est une fonction.
+Le nombre dérivé, la pente de la tangente en un point, correspond à la valeur de la fonction dérivée en ce point.
+Les mathématiciens notent souvent la dérivéef′{\displaystyle f'}.
+Les physiciens plus souvent dfdx{\displaystyle {\frac {{\mathrm
+{d} }f}{{\mathrm {d} }x}}}.
+Pour une fonction affine, f(x)=ax+b{\displaystyle f(x)=ax+b}, la courbe représentative est une droite (dans un repère orthonormé du plan).
+En tout point de cette droite la tangente sera cette droite même.
+La pente de cette droite est donnée par a{\displaystyle a}.
+En effet, si d'un point quelconque de cette droite on se déplace d’une unité vers la droite (à l'horizontale, selon l'axe des abscisses), il faudra monter (ou descendre, selon son signe) de a{\displaystyle a} pour se retrouver sur la droite.
+La dérivée d'une fonction affine f{\displaystyle f} est donc constante : en tout x{\displaystyle x}, f′(x)=a{\displaystyle
+f'(x)=a}.
+Autre manière de dire la même chose, en parcourant la courbe selon les valeurs croissantes de x{\displaystyle x}, la croissance de la fonction est constante.
+Pour une fonction constante, f(x)=c{\displaystyle f(x)=c}, la dérivée est nulle, f′(x)=0{\displaystyle f'(x)=0} en tout x{\displaystyle x} : La droite représentative est horizontale, elle ne « monte » ni ne « descend ».
+Pour une fonction f{\displaystyle f} quelconque dont la courbe représentative est "lisse" mais pas droite, comme celle du schéma, la croissance n'est pas la même en tout point.
+Elle « monte » ou « descend » plus ou moins.
+Si on connait une formulation simple de la fonction on peut trouver la fonction dérivée f′{\displaystyle f'} permettant en tout point où elle est définie de calculer la dérivée f′(x){\displaystyle f'(x)} nous donnant la pente de la tangente, la croissance de la fonction f{\displaystyle f} au point d’abscisse x{\displaystyle x}. Plus la dérivée a une grande valeur en un point, plus la courbe représentative de la fonction est « inclinée » en ce point.
+Remarques :
+Là où la fonction n'est pas "lisses" on ne peut pas calculer sa dérivée.
+On dit que la fonction n'est pas dérivable.
+(Il existe des fonctions qui ne sont "lisses" et donc dérivables en aucun point.
+La dérivée est unique (une fonction dont la dérivée existe n'a qu’une seule dérivée).
+Mais deux fonctions peuvent avoir la même dérivée (f(x)=3x+2{\displaystyle f(x)=3x+2} et g(x)=3x+23{\displaystyle g(x)=3x+23} ont la même dérivée : f′(x)=g′(x)=3{\displaystyle f'(x)=g'(x)=3}).
+Quand on parcours la courbe selon les valeurs croissantes de x{\displaystyle x} (vers la droite sur les abscisses), si la fonction « monte » , on dit
+qu'elle croît (ou qu'elle est croissante), si elle « descend » on dit qu'elle décroît (ou qu'elle est décroissante), si elle ne monte ni ne descend on dit qu'elle est constante.
+C'est ce qu'on appelle le sens de variation.
+si f′(x){\displaystyle f'(x)} est positive, f{\displaystyle f} est croissante autour de x{\displaystyle x} ;
+si f′(x)=0{\displaystyle f'(x)=0}, f{\displaystyle f} est constante autour de x{\displaystyle x}, f{\displaystyle f} a une tangente horizontale en x{\displaystyle x}.
+si f′(x){\displaystyle f'(x)} est négative, f{\displaystyle f} est décroissante autour de x{\displaystyle x}.
+Des formules permettent de calculer la dérivée de fonction dont l'expression est simple, comme par exemple f(x)=exp⁡(ax2+bx+c)cos⁡x+2{\displaystyle f(x)={\frac {\exp({\sqrt {ax^{2}+bx+c}})}{\cos x+2}}}, composés de fonctions dont les dérivées sont connues.
+f{\displaystyle f} et g{\displaystyle g} étant des fonctions de R{\displaystyle \mathbb {R} } .
+a∈R{\displaystyle a\in \mathbb {R} }
+f(x)=6x3+8x2+9x+12{\displaystyle f(x)=6x^{3}+8x^{2}+9x+12} .
+f′(x)=18x2+16x+9{\displaystyle f'(x)=18x^{2}+16x+9} .
+f′{\displaystyle f'} est toujours positive sur R{\displaystyle \mathbb {R} } (car Δ<0,f(0)=9{\displaystyle \Delta <0,f(0)=9}), la fonction f{\displaystyle f} est strictement croissante sur R{\displaystyle \mathbb {R} }.
+Utiliser la dérivée peut aussi permettre de lever des indéterminations sur les calculs de limites, quand on trouve une forme indéterminée du type :
+00{\displaystyle {\frac {0}{0}}} et ∞∞{\displaystyle {\frac {\infty }{\infty }}}.
+Une application parlante de la dérivation en physique.
+Supposons qu'un mobile se déplace en ligne droite à une vitesse constante de 4 km/h , chaque heure, le mobile a avancé de 4 km.
+On peut donc établir une fonction qui, en fonction du temps, nous donne la distance que le mobile a parcourue : f(t)=4×t{\displaystyle f(t)=4\times t} (ici, t{\displaystyle t} représente le temps, en heures).
+C'est une fonction affine qu'on sait très bien dériver : f′(t)=4{\displaystyle f'(t)=4}.
+On retrouve la vitesse du mobile !
+Donc, lorsqu'on a une fonction qui nous donne une distance parcourue en ligne droite par un mobile, la dérivée nous donne la vitesse de ce mobile.
+Ceci est l'application la plus simple de la dérivée.
+Plus intéressants, si on dérive la vitesse, c'est-à-dire la dérivée elle-même, on obtient l'accélération.
+Puisque la dérivée est une fonction, on peut dériver la dérivée, mathématiquement on appelle ça une dérivée seconde.
+Dans le cas du mobile f(t)=4×t{\displaystyle f(t)=4\times t} , f′(t)=4{\displaystyle f'(t)=4} , f″(t)=0{\displaystyle
+f''(t)=0} .
+Vitesse constante : le mobile n'accélère pas !
+Dans le cas de la chute d'un corps lâché à un altitude z0{\displaystyle z_{0}} sur terre dans le vide (sans frottement) : z(t)=−12gt2+z0{\displaystyle z(t)=-{\frac {1}{2}}gt^{2}+z_{0}} , z′(t)=v(t)=−gt{\displaystyle z'(t)=v(t)=-gt} , z″(t)=v′(t)=a(t)=−g{\displaystyle z''(t)=v'(t)=a(t)=-g} .
+L'accélération sur terre, deuxième loi de Newton.

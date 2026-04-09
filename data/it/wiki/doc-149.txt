@@ -1,0 +1,98 @@
+Uno strumento di misura è uno strumento con la funzione di effettuare una misurazione.
+In fisica e ingegneria, una misurazione è il processo di rapportare una grandezza fisica ad eventi, fenomeni o oggetti del mondo reale.
+Lo strumento può presentarsi come un singolo oggetto, oppure può essere composto da due o più elementi che, opportunamente combinati, permettono di eseguire la misura (sistema di misura).
+Tipicamente ogni strumento di misura, prima di essere utilizzato, è tarato o calibrato utilizzando un campione dell'unità di misura che si vuole misurare o fissando un livello di misura come riferimento.
+Come unità di misura si utilizzano oggetti e/o eventi di riferimento precedentemente stabiliti, la cui misurazione dà come risultato un numero reale che è la relazione tra l'oggetto misurato e l'unità di riferimento.
+Formato della lettura
+Gli strumenti possono presentare fondamentalmente due tipi di formato di lettura, a cui corrisponde una prima divisione tipologica fondamentale:
+* strumenti analogici, dove il formato d'uscita è tale da dare valori di misura infinitamente contigui, limitati solo dalla risoluzione ottenibile nella lettura della scala graduata;
+*strumenti digitali, dove il formato d'uscita è tale da dare sempre valori di misura discreti, pari alla variazione di un digit.
+È importante specificare che le definizioni sopra riportate, si riferiscono al tipo di visualizzazione della lettura o alla forma del segnale d'uscita, non alla tecnologia usata per realizzare lo strumento.
+A titolo d'esempio, si può ricordare che esistono micrometri a vite in cui la lettura si esegue su totalizzatori meccanici (per cui sono strumenti digitali, sebbene non facciano uso di elettronica).
+Tipologie
+Esiste una grande varietà di strumenti di misura, che vanno dagli oggetti più semplici, come i righelli o i cronometri, fino ai più sofisticati come i microscopi elettronici o gli acceleratori di particelle.
+Facendo riferimento al VIM (Vocabolario Internazionale dei termini fondamentali e generali di Metrologia), di seguito verranno elencati alcune fondamentali tipologie di strumenti.
+Campioni materiali
+Un campione materiale è un oggetto o un'apparecchiatura destinata a riprodurre una determinata grandezza, con precisione nota.
+Alcuni esempi di campioni materiali:
+Trasduttori di misura
+Un trasduttore è un dispositivo che legge una grandezza presente in ingresso e ne genera un'altra in uscita, proporzionale alla prima.
+Tipicamente, un trasduttore rileva una grandezza fisica e genera un proporzionale segnale elettrico.
+Il segnale d'ingresso e quello d'uscita sono legati da una legge nota (la transcaratteristica del trasduttore).
+Nel linguaggio comune questi dispositivi vengono chiamati sensori, ma in ambito strettamente metrologico, quest'ultimo termine è riferito solamente all'elemento che fisicamente opera la trasformazione da una grandezza ad un'altra.
+Molti dispositivi trasduttori, oltre allelemento sensore, integrano alimentatori per il medesimo, amplificatori di segnale, dispositivi di comunicazione remota, ecc. Esempio:
+un trasduttore di pressione, oltre ad avere una membrana estensimetrata che fa da sensore, potrebbe integrare un amplificatore per il segnale elettrico d'uscita.
+Alcuni esempi di trasduttori:
+Strumenti indicatori
+Uno strumento indicatore è un dispositivo che visualizza direttamente il valore del misurando.
+La visualizzazione può avere sia un formato d'uscita analogica, sia digitale.
+Comunemente, questi dispositivi vengono chiamati anche visualizzatori, ma in ambito strettamente metrologico, questo termine è riferito all'elemento visualizzatore di uno strumento, e non al dispositivo nel suo complesso.
+Alcuni esempi di strumento indicatore:
+Strumenti registratori
+Uno strumento registratore è un dispositivo che fornisce una registrazione del valore del misurando, o di un valore in relazione con esso (tipicamente un segnale elettrico).
+Successivamente, può rendere disponibile i valori registrati per l'analisi.
+La registrazione può essere fatta su diversi tipi di supporti .
+Alcuni esempi di strumento registratore:
+Strumenti totalizzatori
+Uno strumento totalizzatore è un dispositivo che determina il valore del misurando facendone la somma dei valori parziali, o misurando il numero di specifici eventi che costituiscono l'oggetto della sua misurazione.
+Alcuni esempi di strumento totalizzatore:
+Sistemi di misura
+Un sistema di misura è un insieme di strumenti ed altre apparecchiature, utilizzate assieme per eseguire una specifica misura.
+A questa categoria appartengono molta strumentazione destinata alle misure più complesse, che richiedono estrema precisione o in condizioni estreme.
+Un sistema di misura comprende anche una serie di strumenti e apparecchiature destinati alla verifica e il controllo delle condizioni di contorno, almeno quelle che hanno influenza sulla misura in sé o sul valore del misurando (esempio la temperatura, l'umidità e la pressione atmosferica).
+La struttura più semplice di un sistema di misura è la catena di misura.
+Catene di misura
+Una catena di misura è una successione di strumenti ed altre apparecchiature, collegate in modo da poter elaborare il segnale a partire dalla grandezza d'ingresso (misurando) fino all'ottenimento della lettura in uscita (la misura).
+Alcuni esempi di catene di misura:
+*misuratore di pressione composto da un trasduttore di pressione, un amplificatore di segnale e un voltmetro;
+*misuratore di rumorosità acustica composto da un microfono, un preamplificatore, un registratore e un analizzatore di spettro.
+Strumenti integratori
+Uno strumento integratore è un dispositivo che legge due o più grandezze e le combina, per visualizzarne una terza che deriva dalle altre secondo una regola certa.
+Alcuni esempi di strumento integratore:
+Dispositivi rivelatori
+Uno strumento rivelatore è un dispositivo o una sostanza che rivela la presenza di una grandezza, senza necessariamente fornirne un valore preciso.
+In alcuni casi questi dispositivi sono realizzati per segnalare il superamento di un dato valore (chiamati anche strumenti a soglia).
+Alcuni esempi di dispositivi rilevatori:
+Caratteristiche
+Vista la grande varietà di strumenti di misura, elencarne in modo specifico le caratteristiche è impossibile.
+Si può però generalizzare e dividere le caratteristiche in un numero ristretto di tipologie:
+* funzionali (grandezza oggetto di misura
+, campo di misura, principio di funzionamento, limiti di temperatura)
+* metrologiche (precisione, risoluzione, linearità, ripetibilità);
+* elettriche (tensione di alimentazione, caratteristiche delle uscite).
+* settaggio e/o programmazione (possibilità di settaggio, programmazione funzioni, compatibilità a protocolli di comunicazione).
+Alcuni esempi di strumenti di misura (divisi per grandezza misurata)
+Massa
+Tempo
+misurazione tecnologica del tempo
+Lunghezza (intesa come distanza)
+Area
+Angolo
+Pendenza (o inclinazione)
+Deformazione
+Temperatura
+Pressione
+storia delle misurazioni di tecnologia e pressione
+Grandezze acustiche (pressione sonora)
+Flusso (o portata)
+Composizione
+Umidità
+Livello di liquido
+Luce
+Velocità
+*tubo di Pitot (usato per determinare la velocità di un fluido)
+*anemometro (usato per determinare la velocità del vento)
+Accelerazione
+Velocità angolare
+Grandezze elettriche
+*elettrometro (misura dell'intensità della corrente elettrica)
+*oscilloscopio (misura della tensione, tempo e frequenza)
+*analizzatore di rete (registra fenomeni anomali presenti su una rete informatica)
+*provacorto (permette l'individuazione di un cortocircuito su un circuito stampato)
+Durezza
+Viscosità
+Momento torcente
+Radiazione elettromagnetica
+*spettroscopio (misura delle emissioni elettromagnetiche)
+Varie
+*contatore Geiger (misura delle radiazioni ionizzanti)

@@ -1,0 +1,172 @@
+Grandeur physique
+En physique, la puissance reflète la vitesse à laquelle un travail est fourni.
+C'est la quantité d'énergie par unité de temps fournie par un système à un autre.
+C'est donc une grandeur scalaire.
+La puissance correspond donc à un débit d'énergie : si deux systèmes de puissances différentes fournissent le même travail, le plus puissant des deux est celui qui est le plus rapide.
+D'une façon générale, l'intégrale de la puissance fournie au cours du temps représente le travail total fourni :
+:W = \int_^ \mathcal \, \mathrmt.
+Lorsque la puissance P est constante, la capacité d'un système à fournir un travail W au cours d'une durée Δt s'exprime par le rapport :
+\mathcal=\frac.
+Dans le système international d'unités, une puissance s'exprime en watts, ce qui correspond à des joules par seconde, ou de façon équivalente à des .
+Une unité ancienne était le cheval-vapeur, où la capacité de traction d'une machine à vapeur était comparée à celle d'un cheval de trait.
+Généralités
+Vitesse de transformation
+En tant que grandeur physique, la puissance reflète à la fois la notion de changement matériel dans l'univers, et du temps nécessaire à effectuer ce changement.
+La puissance se distingue en cela du travail, qui ne prend en compte que le changement, mais non la durée nécessaire.
+Ainsi, par exemple, le même travail est effectué lorsqu'une charge pesante est transportée en haut d'un escalier, que le porteur le fasse en marchant ou en courant ;
+mais la puissance nécessaire dans ce second cas est beaucoup plus grande, d'autant plus que le délai d'accomplissement de ce travail est plus faible.
+Un autre exemple paradoxal est que la « combustion complète » d'un kilogramme de charbon produit plus d'énergie que l'explosion d'un kilogramme de TNT : brûler du charbon produit de l'ordre de , tandis que l'explosion de TNT produit à peu près .
+La différence essentielle est en fait une différence de puissance : l'explosion du TNT étant beaucoup plus rapide que la combustion du charbon, la puissance du TNT est bien supérieure à celle du charbon à poids égal, bien que l'énergie intrinsèque du charbon soit supérieure à celle du TNT.
+Variables d'effort et de flux
+D'une manière générale, la puissance est le produit d'une « variable d'effort » (force, couple, pression, tension, etc.) nécessaire à la mise en mouvement contre la résistance du système, par une « variable de flux » (vitesse, vitesse angulaire, débit, intensité du courant, etc.) entretenu malgré cette résistance.
+Ainsi, par exemple, la puissance nécessaire pour imposer un déplacement à un véhicule est le produit de la force de traction exercée par la vitesse de déplacement.
+La puissance d'un moteur rotatif est le produit du couple qu'il transmet par la vitesse de rotation qu'il est capable d'entretenir malgré cette résistance.
+Une ampoule électrique convertit de l'énergie électrique en lumière et en chaleur, et la puissance ainsi consommée est le produit de la tension électrique par l'intensité du courant électrique qui la traverse.
+La puissance moyenne :La puissance moyenne
+Pm est l'énergie E délivrée par un phénomène divisée par la durée τ de ce phénomène on déduit \mathcal_m = \frac.
+La puissance instantanée:La dérivée de l'énergie fournie par rapport au temps soit d'où .
+Pic au démarrage
+Dans certains cas, il faut une grande puissance au démarrage (grande énergie sur une courte durée), pour mettre le système en mouvement, mais une fois le système mis en mouvement, il suffit d'une faible puissance pour entretenir le mouvement.
+En effet, au départ, la puissance doit combattre toute l'inertie du système ;
+alors qu'en régime continu il n'y a plus qu'à compenser l'élément dissipatif dû généralement aux frottements.
+C'est notamment le cas lorsqu'il faut vaincre un frottement sec, une force d'inertie, ou en cas d'effet de seuil (exemples : la vitesse minimale de décollage d'un avion ou d'une fusée).
+Par exemples :
+* une péniche tirée par un cheval sur un chemin de halage demande, au départ, un très grand effort, afin de vaincre la force d'inertie, avant d'obtenir un déplacement sensible.
+Ensuite il peut avancer au pas, sans s'épuiser, le long du canal.
+* une rame de métro nécessite une puissance d'environ pour se lancer, et moins pour maintenir sa vitesse de croisière.
+Pour cette raison, la puissance motrice doit alors être surdimensionnée par rapport au strict besoin résultant de la vitesse de croisière ;
+et inversement, la conduite du système doit prévoir de réduire la puissance après démarrage, afin de ne pas emporter le système au-delà de son régime de fonctionnement normal.
+D'autre part, la puissance fournie est donc le produit d'une variable d'effort par une variable de flux, y compris au démarrage d'un système
+Si donc au démarrage on impose au système toute la puissance disponible à sa valeur nominale, la « variable d'effort » devra théoriquement prendre une valeur infinie, pour compenser une « variable de flux » initialement nulle.
+De ce fait, en pratique, la puissance transmise à un système au repos ne peut qu'augmenter progressivement.
+Mais inversement, une montée en puissance trop rapide peut imposer à la « variable d'effort » un pic instantané sous forme de choc, susceptible de détériorer le système.
+Unité de puissance
+L'unité de puissance du SI est le watt (symbole : W), qui correspond à un joule par seconde.
+Curieusement
+, on utilise encore le cheval-vapeur dans le cas des moteurs thermiques :
+: = environ.
+Par abus de langage, on attribue la puissance à l'objet qui la transforme, par exemple :
+Dans ce cas il peut s'agir de :
+* la puissance maximale (moteur à plein régime, ou à régime donné) ;
+* la puissance nominale sous condition de fonctionnement (par exemple lampe à incandescence alimentée en ).
+Principe des puissances virtuelles
+C'est un principe fondamental en mécanique
+, il met sous forme variationnelle
+les équations traditionnelles de la mécanique
+Il permet aussi d'établir des relations entre les puissances extérieures d'un mécanisme (et donc d'obtenir des lois entrée/sortie par exemple).
+Puissance des interactions :
+En particulier, dans une liaison parfaite, la puissance des interactions est nulle.
+On obtient cette grandeur par le calcul du co-moment des torseurs cinématique et statique de la liaison.
+Types de puissances
+Puissance mécanique
+Puissance d'une force :
+La puissance mécanique d’une force est l’énergie que l’on peut acquérir ou perdre avec cette force sur un temps donné.
+Si le point d'application d'une force \vec (en N) se déplace à la vitesse instantanée \vec (en m/s), alors la puissance instantanée vaut (en watts) :
+: \mathcal = \vec \cdot \vec.
+On retrouve aisément ce résultat en dérivant le travail d'une force.
+Puissance d'un couple :Si l'objet est en rotation sous l'action d'un couple \vec, avec (C pour couple exprimé en ), et tourne à la vitesse angulaire instantanée \vec (en radians par seconde), alors la puissance instantanée vaut (en watts) : \mathcal = \vec \cdot \vec.
+Puissance des torseurs
+Puissance électrique
+La puissance électrique que l'on note souvent P et qui a pour unité le watt (symbole W) est le produit de la tension électrique aux bornes de laquelle est branchée l'appareil (en volts) et de l'intensité du courant électrique qui le traverse (en ampères) pour des appareils purement résistifs.
+Régime continu
+En régime de tension et de courant continu, \mathcal = \mathrm \cdot \mathrm avec U et I les valeurs constantes de la tension aux bornes du dipôle et de l'intensité du courant à travers le dipôle.
+En particulier, si R est la résistance d'un dipôle, alors on a :
+\mathrm = \mathrm \cdot \mathrm.
+Cela conduit à l'expression de la puissance :
+\mathcal
+\mathrm
+\cdot
+\mathrm^2
+\frac
+D'un point de vue électrique, on peut modéliser un dipôle actif linéaire (électromoteur) par un Modèle équivalent de Thévenin (MET).
+Remarque : ce modèle est très sommaire et ne rend compte que de la chute de tension en charge ou des puissances électriques mises en jeu que dans un domaine de validité qui doit toujours être précisé.
+En convention générateur (flèche de tension et sens du courant dans le même sens), le schéma équivalent du dipôle est donc le suivant :
+En convention générateur, la puissance fournie par le dipôle à l'extérieur
+s'écrit par définition :
+\mathcal_
+\mathrm
+\cdot \mathrm
+\mathrm
+- r \cdot \mathrm)
+\cdot \mathrm = \mathrm
+\cdot \mathrm
+- r \cdot
+\mathrm^2
+La puissance fournie
+Pfournie par le dipôle actif correspond donc à la puissance fournie par un générateur idéal de tension E délivrant un courant I dont une partie est dissipée par effet Joule
+- r \cdot \mathrm^2 \,.
+Dans le cas des moteurs électriques le terme \mathrm \cdot \mathrm
+est appelé puissance électromécanique souvent noté \mathcal_.
+Régime alternatif
+Si la tension et le courant varient, la puissance instantanée consommée par un dipôle est égale au produit des valeurs instantanées du courant qui le traverse et de la tension à ses bornes.
+:p (t) = u (t) \cdot i (t)
+avec p en watts, u en volts et i en ampères
+En régime sinusoïdal, le courant et la tension ont pour expression :
+i (t)
+\mathrm_0
+\cdot \cos (\omega t )
+\mathrm_ \sqrt
+2 \cdot \cos (\omega t)
+u (t)
+\mathrm_0
+\cdot \cos (\omega t + \varphi )
+\mathrm_ \sqrt
+2 \cdot \cos (\omega t+ \varphi)
+où Ueff et Ieff sont les valeurs efficaces de la tension et du courant, et φ est le déphasage de la tension par rapport au courant
+Le produit de ces deux grandeurs a pour expression :
+:p (t) = \mathrm_ \, \mathrm_ \, \cos (\varphi) + \mathrm_ \, \mathrm_
+\, \cos (2 \omega t + \varphi).
+La moyenne de puissance instantanée, appelée puissance active, correspond à la puissance réellement consommée par le dipôle.
+Le second terme de la somme correspond à la puissance fluctuante.
+La puissance active vaut :
+\mathcal
+\langle
+p (t)
+\rangle
+\mathrm_
+\, \mathrm
+\cdot \cos (\varphi),
+où cos (φ) est le facteur de puissance
+La « puissance fluctuante » est une puissance sinusoïdale de fréquence double de celle du courant et de la tension.
+Pour des convertisseurs électrothermiques, cette puissance fluctuante n'a aucun effet, l'inertie thermique du système permettant de lisser totalement ces variations de puissance.
+En revanche, lors d'une conversion électromécanique, la machine électrique, moteur ou génératrice, du fait de son inertie, tourne avec une vitesse mécanique quasi constante et, à chaque instant, elle consomme ou fournit -aux pertes près- une puissance mécanique identique.
+La puissance fluctuante est alors responsable d'oscillations de couples qui sont, en majeure partie, absorbées par l’élasticité de l’arbre de transmission.
+Pour une machine de forte puissance, ces oscillations sont rédhibitoires car elles pourraient provoquer sa destruction.
+C'est une des raisons pour lesquelles les alternateurs des centrales électriques et les très gros moteurs doivent être polyphasés et sont, le plus souvent, des machines triphasées.
+Puissance thermique
+La puissance thermique (ou puissance de chauffage) désigne la quantité de chaleur (ou transfert thermique) traversant une surface isotherme par unité de temps.
+Il s'agit donc d'un flux de chaleur qui peut s'exprimer en watts, kilowatts ou mégawatts, la quantité de chaleur étant exprimée en joules et le temps en secondes.
+On exprime aussi une puissance thermique en kilocalories par heure .
+Par exemple, la puissance thermique d'un radiateur est de l'ordre de (), tandis que la puissance thermique d'un réacteur nucléaire peut atteindre plus de ().
+D’après le premier principe de la thermodynamique, la puissance thermique et la puissance mécanique sont équivalentes.
+D’après le second principe de la thermodynamique, la transformation de puissance thermique en puissance mécanique n’est pas intégrale, il y a toujours une puissance thermique dissipée.
+La puissance thermique s’écoule toujours des régions les plus chaudes vers les régions les plus froides.
+Dans le cas d'un transfert thermique par conduction, on introduit de manière unidimensionnelle la densité de flux thermique :
+:\varphi =
+- \lambda \cdot \frac.
+La loi de Fourier généralise cette densité de flux dans toutes les directions.
+Le vecteur densité de flux thermique est défini par :
+: \vec_Q =
+- \lambda \cdot \overrightarrow
+\, T.
+Cette expression de la propagation de chaleur présente deux avantages :
+* elle est tridimensionnelle (elle exprime la propagation dans toutes les directions de l'espace) ;
+* on peut librement utiliser les coordonnées de notre choix .
+Le choix des coordonnées dépend de la symétrie du problème.
+Par exemple, pour étudier la chaleur produite par un fusible (cylindrique), on utilise les coordonnées cylindriques.
+La puissance thermique à travers une surface S (notée PQ), par définition, est le flux du vecteur \vec_Q à travers la surface S, c'est-à-dire :
+\mathcal_Q = \iint\limits_S \vec_Q \, \vec.
+Puissance acoustique
+La puissance acoustique, ou puissance sonore, est la quantité d'énergie que transporte une onde sonore par unité de temps à travers une surface donnée.
+Elle dépend de l'amplitude de cette onde sonore et de la surface.
+Dans le cas général, elle est donnée par la formule :
+\mathcal = \int_S \mathrm \, \mathrmS
+où P est la puissance, I est l'intensité sonore, et dS l'élément de surface atteint par l'onde sonore.
+Pour une source isolée, le calcul de la puissance acoustique totale émise correspond à l'intégrale ci-dessus étendue sur une surface fermée.
+Puissance fiscale (terme administratif)
+Dans le domaine de l'automobile, l’administration et les assureurs utilisent une puissance dite fiscale pour déterminer le montant de certaines taxes et primes.
+Cette puissance est dimensionnée en « cheval fiscal »
+noté «
+CV » en droit fiscal français), qui n'est en rien comparable à une puissance au sens physique.
+Depuis juillet 1998, la puissance fiscale dépend de la valeur normalisée d'émission de dioxyde de carbone () en g km) et P la puissance du moteur (en kW) la puissance fiscale est : ;
+:Seule la cylindrée du moteur est prise en compte pour le calcul de la puissance fiscale.

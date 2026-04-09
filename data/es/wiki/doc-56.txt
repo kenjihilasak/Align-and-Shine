@@ -1,0 +1,7 @@
+Algoritmo de renderización algo más complejo que el Wireframe en el que se usan técnicas de sombreado rudimentarias.
+Cada malla de la escena está formada por polígonos, cada uno de uno color.
+El render sólido calcula el vector normal a cada polígono y calcula (frecuentemente mediante un producto escalar) lo perpendicular que es el polígono a una fuente de luz puntual.
+De esta forma, cuanto más se acerca el ángulo formado pr la normal y el vector que está en el centro del polígono a cero se considera que el polígono debe de estar más iluminado.
+El sombreado es uniforme para todo el polígono.
+Categoría:Algoritmos
+qc5qlelo1cnp1roja713c1uzh9ah3uk

@@ -1,0 +1,134 @@
+En geometría euclídea plana se denomina triángulo rectángulo a cualquier triángulo con un ángulo recto, es decir, un ángulo de 90 grados.
+Las razones entre las longitudes de los lados de un triángulo rectángulo es un enfoque de la trigonometría plana.
+En particular, en un triángulo rectángulo, se cumple el llamado teorema de Pitágoras ya conocido por los babilonios.
+Terminología y casos especiales
+Se denomina hipotenusa al lado mayor del triángulo, el lado opuesto al ángulo recto.
+Se llaman catetos a los dos lados menores, los que conforman el ángulo recto; cada cateto se opone a un ángulo agudo.
+Sólo si la medida de los tres lados son números enteros, éstos constituyen un trío de nombre terna pitagórica.
+Si los catetos son iguales se llama triángulo rectángulo isósceles ( 45-90-45); siendo
+\sen\frac
+\frac
+\frac
+Un triángulo rectángulo escaleno muy conocido, es el que tiene el cateto menor igual a la mitad de la hipotenusa, y estos dos lados forman un ángulo agudo de 30º y el otro ángulo de 60º, (30-90-60) y se obtiene al bisecar un triángulo equilátero por su altura; resultan estas razones entre dichos lados.
+Si admitimos que el lado del triángulo equilátero es 2a y mediante una altura se obtienen dos triángulos rectángulos, tal que en cada uno la hipotenusa es 2a ; cateto opuesto al ángulo de 30º, a y cateto opuesto al ángulo de 60º, a\sqrt , se obtienen los siguientes valores de los respectivos senos:
+\sen\frac
+\frac
+\frac = \frac
+\sen\frac
+\frac
+\frac= \frac
+Propiedades
+En todo triángulo rectángulo se cumple que:
+La hipotenusa es mayor que cualquiera de los catetos.
+* El cuadrado de la hipotenusa es igual a la suma del cuadrado de los catetos.
+La suma de la hipotenusa y el diámetro de un círculo inscrito en el triángulo es igual a la suma de los catetos.
+* Para efectos de área, un cateto cualquiera se puede considerar como base y el otro cateto como altura.
+* La mediana de la hipotenusa descompone un triángulo rectángulo escaleno en dos triángulos: uno obtusángulo y otro acutángulo, no congruentes pero equivalentes.
+* La mediana de la hipotenusa de un triángulo rectángulo isósceles lo descompone en dos triángulos rectángulos isósceles congruentes y equivalentes
+* Dos triángulos rectángulos, con hipotenusa común, y los ángulos rectos en semiplanos opuestos determinados por la recta que contiene a la hipotenusa, forman un cuadrilátero birrectángulo.
+* La mediana que parte del ángulo recto es igual a la mitad de la hipotenusa.
+* La altura que parte del vértice del ángulo recto, coincide con un cateto, con tal de considerar al otro cateto como una base.
+Tipos de triángulo rectángulo
+Existen dos tipos de triángulo rectángulo:
+* Triángulo rectángulo isósceles: los dos catetos son de la misma longitud, los ángulos interiores son de 45-45-90.
+En este tipo de triángulo, la hipotenusa mide \sqrt veces la longitud del cateto.
+* Triángulo rectángulo escaleno: los tres lados y los tres ángulos tienen diferente medida.
+Un caso particular es aquél cuyos ángulos interiores miden 30-60-90, en este tipo de triángulo, la hipotenusa mide el doble del cateto menor, y el cateto mayor \sqrt veces la longitud del cateto menor.
+Archivo:Triangle-45-45-90.svg|Triángulo rectángulo isósceles.
+Archivo:30-60-90 triangle.svg|Triángulo rectángulo escaleno.
+* Triángulo rectángulo de lados consecutivos: las medidas de sus lados tienen 3, 4 y 5 unidades de longitud.
+Aparece en las culturas del cercano oriente: Babilonia y Egipto.
+Histórico, útil y didáctico, adaptable a un geoplano.
+Sin lados consecutivos es el triángulo de lados que miden 5,12 y 13 unidades de longitud, menos conocido que el anterior.
+Relaciones métricas
+Las relaciones métricas del triángulo rectángulo son cuatro.
+Los tres triángulos formados al trazar la altura relativa a la hipotenusa son rectángulos y semejantes.
+* La hipotenusa es igual a la suma de las proyecciones.
+:: a=m+n \,\!
+Por semejanza de triángulos, tenemos
+que:
+:: \frac
+\frac \Rightarrow h^2
+mn \,\!
+* El cuadrado de un cateto, es igual al producto entre su proyección (que se encuentra de su lado) y la hipotenusa.
+:: \frac
+\frac \Rightarrow b^2
+am \,\
+:: \frac
+\frac \Rightarrow c^2
+an \,\
+* El producto entre la hipotenusa y la altura relativa a ella, es igual al producto de los catetos.
+:: \frac
+\frac \Rightarrow ah
+bc \,\
+Teorema de Pitágoras
+El teorema de Pitágoras establece que:
+Fórmulas para calcular un lado desconocido en función de los otros dos, donde a y b son los catetos y c es la hipotenusa.
+Teorema de la altura
+El teorema de "la altura de un triángulo rectángulo" establece que:
+;Demostración
+La altura del triángulo rectángulo ABC (véase Figura 1) lo divide en dos triángulos rectángulos semejantes, de forma que
+:\frac = \frac
+Multiplicando los dos miembros de la igualdad por hn se tiene:
+:h^2=m\,n \,
+por lo que
+Otra forma del mismo teorema
+La altura h correspondiente a la hipotenusa de un triángulo rectángulo (véase Figura 1) también puede obtenerse reemplazando a los valores m y n de la ecuación del presente teorema por sus respectivos equivalentes dados por el teorema del cateto.
+::m
+\frac \, ;
+\frac \,
+lo que al simplificar en el último término de la ecuación la raíz con los cuadrados nos conduce a:
+Donde h es la altura (relativa a la hipotenusa), b y c los catetos y a la hipotenusa.
+La ecuación nos permite establecer el enunciado (forma 2) del teorema:
+Teorema del cateto
+El teorema del cateto establece lo siguiente:
+Este teorema (véase Figura 1) puede expresarse matemáticamente -para cada uno de sus dos catetos- como:
+Donde m y n son, respectivamente, las proyecciones de los catetos b y a sobre la hipotenusa c.
+Demostración
+Sea el triángulo ΔABC rectángulo en C, dispuesto de modo que su base es la hipotenusa c. La altura h determina los segmentos m y n, que son, respectivamente, las proyecciones de los catetos b y a sobre la hipotenusa.
+Los triángulos rectángulos ΔABC, ΔACH y ΔBCH tienen iguales sus ángulos, y por lo tanto son semejantes:
+Todos tienen un ángulo recto.
+Los ángulos B y ACH son iguales por ser agudos, por abarcar un mismo arco, y tener sus lados perpendiculares.
+# Igualmente sucede con los ángulos A y BCH.
+Puesto que en las figuras semejantes los lados homólogos son proporcionales, tendremos
+que:
+:\frac =\frac
+de donde,
+:b^2 \ =\ cm
+:\frac =\frac
+:a^2 \ =\
+y el teorema queda demostrado.
+Corolario
+Basados en las dos ecuaciones del teorema anterior, para deducir el «corolario 1» basta con despejar en cada una de ellas, la respectiva variable de su proyección ortogonal, siendo éstas m y n:
+en las que al despejar respectivamente m y n producen las ecuaciones del «corolario 1»:
+donde m es la proyección ortogonal del cateto b sobre la hipotenusa c (véase figura 1) y n es la proyección ortogonal del cateto a también sobre la hipotenusa c.
+Cualquier triángulo se puede dividir en 2 triángulos rectángulos.
+La medida de un cateto es la media proporcional entre la medida de la hipotenusa y su proyección sobre ella.
+La medida de la altura es media proporcional entre los dos segmentos que determina sobre la hipotenusa.
+Las tres alturas del triángulo rectángulo pueden calcularse como:
+donde b y c son los catetos y a, la hipotenusa, en tanto que ha, hb y hc son las alturas sobre los respectivos lados.
+Razones trigonométricas
+En un triángulo rectángulo, las razones trigonométricas del ángulo, con vértice en A, con medida \alpha \; ', son:
+El seno: la razón entre el cateto opuesto y la hipotenusa,
+::: \text (\alpha)= \frac ; su inverso multiplicativo, si existe, se denomina cosecante
+El coseno: la razón entre el cateto adyacente y la hipotenusa,
+::: \cos (\alpha)= \frac ; su inverso multiplicativo si existe, se llama secante.
+La tangente: la razón entre el cateto opuesto y el adyacente,
+::: \tan (\alpha)= \frac ; el inverso de la razón anterior, si es posible, se nombra cotangente.
+Área
+Se puede considerar el área de un triángulo rectángulo como la mitad del área de un rectángulo partido por su diagonal, véase fig. ar1, (o un cuadrado si el triángulo rectángulo es además isósceles).
+donde a y b de la ecuación representan las medidas de los dos catetos que coinciden con los dos lados y las correspondientes alturas del rectángulo (véase fig. ar1).
+En todo triángulo rectángulo cada uno de los dos catetos es siempre la respectiva altura del otro.
+Asumiendo que a
+cateto1 y
+cateto2 se puede escribir una versión equivalente de ecuación de la siguiente manera:
+La demostración anterior es solo un caso especial, restringido, de una mucho más general que vale para todo triángulo (no solo para los triángulos rectángulos); Y esta es la "proposición I.41 de Euclides, la cual se basa en el concepto más general de paralelogramo y no se restringe al rectángulo.
+Dicha proposición I.41 extiende la validez de la ecuación a todo triángulo.
+Área máxima
+El triángulo rectángulo de mayor área que se puede inscribir en una semicircunferencia es el triángulo rectángulo isósceles, es decir, el que tiene los catetos iguales y de longitud R\sqrt donde R es el radio de la semicircunferencia circunscrita y la hipotenusa coincide con el diámetro.
+En tres dimensiones
+Un triángulo rectángulo que gira, teniendo como eje uno de sus catetos y como generatriz su hipotenusa, genera un cono de radio igual el cateto no axial y altura igual al cateto axial.
+Si dos triángulos rectángulos semejantes engendran dos conos, en las condiciones del enunciado precedente, entonces sus volúmenes son proporcionales a los cubos de cualquier par de lados correspondientes.
+También las áreas son proporcionales a los cuadrados de cualquier par de lados correspondientes.
+Si ambos conos tienen el mismo eje, y un plano secante que interseca ambos conos genera dos elipses, dichas elipses tienen ejes proporcionales entre sí (es decir, son semejantes).
+Véase también

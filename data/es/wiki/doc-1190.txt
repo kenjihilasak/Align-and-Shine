@@ -1,0 +1,119 @@
+Archivo:First Equation Ever.png|thumb|right|300px|El primer uso del signo de igualdad.
+La ecuación equivale a la notación moderna .
+Una ecuación es una igualdad matemática entre dos expresiones, denominadas miembros y separadas por el signo igual, en las que aparecen elementos conocidos o datos, desconocidos o incógnitas, relacionados mediante operaciones matemáticas.
+Los valores conocidos pueden ser números, coeficientes o constantes; también variables o incluso objetos complejos como funciones o vectores, los elementos desconocidos pueden ser establecidos mediante otras ecuaciones de un sistema, o algún otro procedimiento de resolución de ecuaciones.
+Las incógnitas, representadas generalmente por letras, constituyen los valores que se pretende hallar (en ecuaciones complejas en lugar de valores numéricos podría tratarse de elementos de un cierto conjunto abstracto, como sucede en las ecuaciones diferenciales).
+Por ejemplo, en la ecuación algebraica simple:
+la variable x representa la incógnita, mientras que el coeficiente 3 y los números 1 y 9 son constantes conocidas.
+La igualdad planteada por una ecuación será cierta o falsa dependiendo de los valores numéricos que tomen las incógnitas; se puede afirmar entonces que una ecuación es una igualdad condicional, en la que solo ciertos valores de las variables (incógnitas) la hacen cierta.
+Se llama solución de una ecuación a cualquier valor individual de dichas variables que la satisfaga.
+Para el caso dado, la solución es:
+En el caso de que todo valor posible de la incógnita haga cumplir la igualdad, la expresión se llama identidad.
+Si en lugar de una igualdad se trata de una desigualdad entre dos expresiones matemáticas, se denominará inecuación.
+El símbolo «=», que aparece en cada ecuación, fue inventado en 1557 por Robert Recorde, que consideró que no había nada más igual que dos líneas rectas paralelas de la misma longitud.
+Historia
+Antigüedad
+Ya en el siglo XVI a. C., los egipcios resolvían problemas cotidianos que tenían que ver con la repartición de víveres, de cosechas y de materiales que eran equivalentes a resolver ecuaciones algebraicas simples de primer grado; como la notación algebraica no existía, usaban un método iterativo aproximado, llamado el «método de la falsa posición».
+Los matemáticos chinos de principios de nuestra era escribieron el libro Los nueve capítulos sobre el arte matemático, en el que plantearon diversos métodos para resolver ecuaciones algebraicas de primero y segundo grado, así como sistemas de dos ecuaciones con dos incógnitas.
+El matemático griego Diofanto de Alejandría publicó su Arithmetica en el siglo III tratando las ecuaciones de primer y segundo grado; fue uno de los primeros en utilizar símbolos para representar las ecuaciones.
+También planteó las ecuaciones con soluciones enteras, llamadas en su honor ecuaciones diofánticas.
+Siglos XV - XVI
+Pasada la “edad oscura” medieval, el estudio de las ecuaciones algebraicas experimenta un gran impulso.
+En el siglo XV estaban a la orden del día los desafíos matemáticos públicos, con premios al vencedor; así, un desafío famoso enfrentó a dos matemáticos a resolver ecuaciones de tercer grado, el vencedor fue Niccolò Fontana Tartaglia, experto algebrista.
+Sobre mediados del siglo XVI los matemáticos italianos Girolamo Cardano y Rafael Bombelli descubrieron que, para poder resolver todas las ecuaciones de segundo, tercero y cuarto grado, el uso de los números imaginarios era indispensable.
+Cardano, enemigo acérrimo de Tartaglia, también halló métodos de resolución de ecuaciones de cuarto grado.
+En el mismo siglo, el matemático francés René Descartes popularizó la notación algebraica moderna, en la cual las constantes están representadas por las primeras letras del alfabeto, , , , … y las variables o incógnitas por las últimas, , , .
+En esta época se enuncian problemas de ecuaciones que solo han sido resueltos actualmente, algunos recientemente; entre ellos el último teorema de Fermat, uno de los teoremas más famosos de la matemática, que no fue demostrado hasta 1995 por Andrew Wiles y Richard Taylor.
+Siglos XVII-XVIII
+En el siglo XVII, Isaac Newton y Gottfried Leibniz publicaron los primeros métodos de resolución de las ecuaciones diferenciales que aparecen en los problemas de la dinámica.
+Probablemente el primer libro sobre estas ecuaciones fue Sobre las construcciones de ecuaciones diferenciales de primer grado, de Gabriele Manfredi (1707).
+Durante el siglo XVIII, matemáticos ilustres como Leonhard Euler, Daniel Bernoulli, Joseph Lagrange y Pierre Simon Laplace publicaron resultados sobre ecuaciones diferenciales ordinarias y ecuaciones en derivadas parciales.
+Época moderna
+A pesar de todos los esfuerzos de las épocas anteriores, las ecuaciones algebraicas de quinto grado y superiores se resistieron a ser resueltas; solo se consiguió en casos particulares, pero no se encontraba una solución general.
+A principios del siglo XIX, Niels Henrik Abel demostró que hay ecuaciones no resolubles; en particular, mostró que no existe una fórmula general para resolver la ecuación de quinto grado; acto seguido Évariste Galois demostró, utilizando su teoría de grupos, que lo mismo puede afirmarse de toda ecuación de grado igual o superior a cinco.
+Durante el siglo XIX, las ciencias físicas utilizaron, en su formulación, ecuaciones diferenciales en derivadas parciales y/o ecuaciones integrales, como es el caso de la electrodinámica de James Clerk Maxwell, la mecánica hamiltoniana o la mecánica de fluidos.
+El uso habitual de estas ecuaciones y de los métodos de solución llevó a la creación de una nueva especialidad, la física matemática.
+Ya en el siglo XX, la física matemática siguió ampliando su campo de acción; Erwin Schrödinger, Wolfgang Ernst Pauli y Paul Dirac formularon ecuaciones diferenciales con funciones complejas para la mecánica cuántica.
+Albert Einstein utilizó ecuaciones tensoriales para su Relatividad General.
+Las ecuaciones diferenciales tienen también un amplio campo de aplicación en teoría económica.
+Debido a que la mayoría de ecuaciones que se presentan en la práctica son muy difíciles o incluso imposibles de resolver analíticamente, es habitual utilizar métodos numéricos para encontrar raíces aproximadas.
+El desarrollo de la informática posibilita actualmente resolver en tiempos razonables ecuaciones de miles e incluso millones de variables usando algoritmos numéricos.
+Definición general
+Dada una función f : A → B y un b en B, es decir, un elemento del codominio de f.
+En la ecuación dada, x se denomina incógnita.
+Un ejemplo de ecuación es el siguiente, tomando
+se tiene la ecuación con variable natural
+El estudio de las ecuaciones depende de las características de los conjuntos y la aplicación; por ejemplo, en el caso de las ecuaciones diferenciales, los elementos del conjunto son funciones y la aplicación debe incluir alguna de las derivadas del argumento.
+En las ecuaciones matriciales, la incógnita es una matriz.
+La definición que se ha dado incluye las igualdades de la forma .
+Si «» denota la suma de funciones, entonces es un grupo.
+Basta definir la aplicación , con el inverso de con respecto a la suma, para transformar la igualdad en una ecuación con b = 0.
+Conjunto de soluciones
+Dada la ecuación , el conjunto de soluciones de la ecuación viene dado por , donde es la imagen inversa de .
+Si es el conjunto vacío, la ecuación no es soluble; si tiene solo un elemento, la ecuación tendrá solución única; y si posee más de un elemento, todos ellos serán soluciones de la ecuación.
+En la teoría de ecuaciones diferenciales, no se trata solo de averiguar la expresión explícita de las soluciones, sino determinar si una ecuación determinada tiene solución y esta es única.
+Uno de los métodos más corrientes para probar que existe una solución, consiste en aprovechar que el conjunto tiene alguna topología.
+No es el único: en los sistemas de ecuaciones reales, se recurre a técnicas algebraicas para averiguar si estos sistemas tienen solución.
+No obstante, el álgebra carece de recursos para asegurar la existencia de soluciones en las ecuaciones algebraicas: para asegurar que toda ecuación algebraica con coeficientes complejos tiene una solución, hay que recurrir al análisis complejo y, por lo tanto, a la topología.
+Otro caso en los que se investiga la existencia y unicidad de soluciones es en los sistemas de ecuaciones lineales, en donde es posible caracterizar el conjunto solución a través del Teorema de Rouché-Frobenius.
+Tipos de ecuaciones
+Las ecuaciones suelen clasificarse según el tipo de operaciones necesarias para definirlas y según el conjunto de números sobre el que se busca la solución.
+Entre los tipos más comunes están:
+** Racionales, aquellas en las que uno o ambos miembros se expresan como un cociente de polinomios
+Ecuaciones trascendentes, cuando involucran funciones no polinómicas, como las funciones trigonométricas, exponenciales, logarítmicas, etc.
+Una ecuación diofántica es aquella cuya solución solo puede ser un número entero, es decir, en este caso .
+Una ecuación funcional es aquella en la que algunas de las constantes y variables que intervienen no son realmente números sino funciones; y si en la ecuación aparece algún operador diferencial se llama ecuación diferencial.
+Cuando es un cuerpo y un polinomio, se tiene una ecuación algebraica polinómica.
+En un sistema de ecuaciones lineales, el conjunto es un conjunto de vectores reales y la función es un operador lineal.
+Propiedades
+El axioma fundamental de las ecuaciones es:
+Se consideran como operaciones elementales aquellas que preservan una igualdad matemática.
+Ejemplos sencillos de operaciones elementales son la suma, la multiplicación y sus inversas respectivas, resta y división.
+Esto implica:
+Si a los dos miembros de una ecuación se les suma una misma cantidad positiva o negativa, la igualdad subsiste.
+Si a los dos miembros de una ecuación se dividen por una misma cantidad no nula, positiva o negativa, la igualdad subsiste.
+tienen solución, ya que es posible que no exista ningún valor de la incógnita que haga cierta una igualdad dada.
+En ese caso, el conjunto de soluciones de la ecuación será vacío y se dice que la ecuación no es resoluble.
+De igual modo, puede tener un único valor, o varios, o incluso infinitos valores, siendo cada uno de ellos una solución particular de la ecuación.
+Si cualquier valor de la incógnita hace cumplir la igualdad (esto es, no existe ningún valor para el cual no se cumpla) la ecuación es en realidad una identidad.
+Ecuaciones algebraicas
+Una ecuación algebraica es aquella que contiene solo expresiones algebraicas, como polinomios, expresiones racionales, radicales y otras.
+Por ejemplo:
+Definición
+Se llama ecuación algebraica con una incógnita la ecuación que se reduce a lo que sigue:
+donde es un número entero positivo; , , , ..., , se denominan coeficientes o parámetros de la ecuación y se toman dados; se nombra incógnita y se busca su valor.
+El número positivo se llama grado de la ecuación Para definir un número algebraico, se consideran números racionales como coeficientes.
+Forma canónica
+Realizando una misma serie de transformaciones en ambos miembros de una ecuación, puede conseguirse que uno de ellos se reduzca a cero.
+Si además se ordenan los términos según los exponentes a los que se encuentran elevadas las incógnitas, de mayor a menor, se obtiene una expresión denominada forma canónica de la ecuación.
+Frecuentemente suele estudiarse las ecuaciones polinómicas a partir de su forma canónica, es decir aquella cuyo primer miembro es un polinomio y cuyo segundo miembro es cero.
+En el ejemplo dado, sumando y restando en ambos miembros, y luego ordenando, obtenemos:
+Grado
+Se denomina grado de una ecuación polinomial al mayor exponente al que se encuentran elevadas las incógnitas.
+Por ejemplo
+Es una ecuación de tercer grado porque la variable se encuentra elevada al cubo en el mayor de los casos.
+Las ecuaciones polinómicas de grado de una sola variable sobre los números reales o complejos, pueden resolverse por el método de los radicales cuando (ya que en esos casos el grupo de Galois asociado a las raíces de la ecuación es soluble).
+La solución de la ecuación de segundo grado es conocida desde la antigüedad; las ecuaciones de tercer y cuarto grado se conocen desde los siglos y , y usan el método de radicales.
+La solución de la ecuación de quinto grado no puede hacerse mediante el método de radicales, aunque puede escribirse en términos de la función theta de Jacobi.
+Ecuación de primer grado
+Se dice que una ecuación algebraica es de primer grado cuando la incógnita (aquí representada por la letra ) está elevada a la potencia 1 (grado = 1), es decir que su exponente es 1.
+Las ecuaciones de primer grado tienen la forma canónica:
+donde y están en un conjunto numérico (, ) con diferente de cero.
+Su solución es sencilla: x = -\tfrac.
+Exige la resolución, la existencia de inversos multiplicativos.
+Ecuación de segundo grado
+Las ecuaciones polinómicas de segundo grado tienen la forma canónica:
+Donde es el coeficiente del término cuadrático (aquel en que la incógnita está elevada a la potencia 2), es el coeficiente del término lineal (el que tiene la incógnita sin exponentes, o sea que está elevada a la potencia 1) y es el término independiente (el que no depende de la variable, o sea que está compuesto solo por constantes o números).
+Cuando esta ecuación se plantea sobre , siempre se tienen dos soluciones:
+Obviamente la condición para que la ecuación tenga solución sobre los números reales se requiere que y para que tenga soluciones sobre los números racionales se requiere sea el cuadrado de algún número entero.
+Ecuaciones diferenciales e integrales
+Tanto en matemáticas como en física y otras ciencias aplicadas, frecuentemente se usan ecuaciones no algebraicas, donde las incógnitas no son simplemente valores numéricos sino funciones.
+Por ejemplo, la trayectoria \scriptstyle \mathbf (t) de una partícula ligera en el campo gravitatorio de una estrella puede hallarse de manera aproximada gracias a buscar la solución de una ecuación diferencial del tipo:
+Donde \scriptstyle \mathbf (t) es el vector de posición de la partícula tomando el origen de coordenadas en la estrella, M es la masa del sol y G la constante de la gravitación universal.
+En las ecuaciones, el conjunto de soluciones forman un cierto espacio de funciones, tales que todas ellas satisfacen la ecuación.
+Si el conjunto de soluciones se puede especificar por un número finito de condiciones iniciales, entonces ese espacio es localmente una variedad diferenciable de dimensión finita, cosa que sucede frecuentemente con las ecuaciones diferenciales ordinarias.
+En las ecuaciones en derivadas paraciales frecuentemente el conjunto de soluciones posibles con diferentes condiciones de contorno pueden formar un espacio de dimensión no finita.
+Ejemplos de ecuaciones
+*Ecuaciones de (Claude-Louis) Navier- (George Gabriel) Stokes
+Véase también
+Notas

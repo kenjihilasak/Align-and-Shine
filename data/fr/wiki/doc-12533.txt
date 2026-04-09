@@ -1,0 +1,33 @@
+Café|Culture Internet|Standard du web|Poisson d'avril|Hyper Text
+Coffee
+Pot Control Protocol|Canular informatique|Hyper Text
+Coffee
+Pot Control Protocol|RFC
+LHyper Text
+Coffee
+Pot Control
+Protocol ou HTCPCP
+- de l'anglais signifiant littéralement «
+protocole hypertexte de gestion de cafetière »
+- est une proposition humoristique de protocole de communication client-serveur permettant le contrôle, la surveillance et le diagnostic de cafetière.
+HTCPCP est décrit dans la publié le et bien que cette RFC soit un poisson d'avril, elle est suffisamment bien décrite pour être implémentée : l'éditeur de texte Emacs possède d'ailleurs une extension permettant de générer des requêtes d'infusion via HTCPCP.
+Il existe également un rapport de bug qui déplore l'absence de support du protocole dans la suite Mozilla.
+Le , 10 ans après la publication d'HTCPCP, un Web-Controlled Coffee Consortium (WC3) imaginaire publie une première version de la description du vocabulaire RDF en imitation du World Wide
+Web
+Consortium (W3C) et de son propre HTTP
+Vocabulary in RDF.
+Description du protocole
+HTCPCP est une extension du protocole HTTP dont les requêtes sont identifiées par le schéma d'URI coffee: (ou le nom du café dans l'une des 29 langues listées dans la RFC, incluant le français).
+Méthodes
+Les méthodes ajoutées sont les suivantes :
+Champs d'en-tête
+De plus, afin de définir la préparation suivant les possibilités de la cafetière, un champ d'en-tête est également ajouté : Accept-Additions.
+Les valeurs possibles sont les suivantes :
+Volontairement, aucune option n'est définie pour le décaféiné, choix justifié par le commentaire : « quel est l'intérêt ?
+Codes d'erreur
+Enfin, deux codes d'erreur client sont définis :
+Reprises sur le
+web
+Quelques sites ont depuis repris l'idée pour afficher des pages faisant référence à ce poisson d'avril.
+Google a par exemple créé http:/ teapot/ une page affichant une théière sur laquelle il est possible de cliquer pour verser.
+Sur la version mobile, il suffit de pencher l'appareil pour verser le thé dans la tasse.

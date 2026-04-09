@@ -1,0 +1,66 @@
+Pretty Good Privacy (d'où le siglePGP) est un système cryptographique semi-libre créé en 1991 par l'américain Phil Zimmermann.
+PGP tente de garantir une confidentialité et une sécurité pour la transmission d'informations confidentielles entre les employés des entreprises ou pour le commerce électronique.
+Dans les années 1970 et 1980, on assiste à l'essor de l'informatique : la puissance des ordinateurs augmente de façon très importante.
+Cela a eu (et aura toujours) une conséquence directe sur la cryptologie : un cryptanalyste armé d'un ordinateur moderne est toujours plus dangereux, pour des individus désirant échanger des données confidentielles, qu'un cryptanalyste disposant seulement d'un crayon !
+Les anciens systèmes, que l'on croyait sûrs, se sont effondrés devant la puissance informatique dont pouvait disposer un État ou une entreprise spécialisée.
+Dans ces conditions, comment échanger des informations confidentielles avec quelqu'un d'autre, puisque tous les systèmes cryptographiques fiables étaient hors de portée du grand public ?
+Système à clé publique
+et clé privée
+Un système de cryptographie asymétrique fait appel à une paire de clés.
+La personne qui souhaite pouvoir recevoir des informations chiffrées publie pour tout le monde sa « clé publique » qui permet de coder l'information.
+Sa « clé privée » lui permet ensuite de la décoder en toute sécurité.
+C'est un peu comme si on voulait recevoir des paquets par la poste, fermés par un cadenas : dans ce cas, on distribue des cadenas gratuitement aux gens, et quand ceux-ci veulent nous envoyer un paquet, ils le ferment avec ce cadenas.
+Mais on est la seule personne au monde à posséder une clé de ce cadenas pour l'ouvrir.
+Système à clé secrète
+Un système de cryptographie symétrique fait appel à une seule clé.
+Les personnes qui souhaitent échanger des informations chiffrées utilisent la même clé pour encoder et décoder l'information.
+Cette clé doit être gardée secrète afin que personne d'autre ne puisse déchiffrer l'information échangée.
+Tout système cryptographique à paire de clés publique/privée est infiniment plus sûr que n'importe quel système à clé secrète lorsque l'on ne dispose pas de moyens de transmission sécurisés pour la clé.
+Tout système cryptographique à clé secrète est beaucoup plus rapide que n'importe quel système à paire de clés publique/privée, et ce dans tous les cas (on parle ici du cryptage et du décryptage des informations).
+Ce n'est qu'en 1991 qu'un compromis entre cryptographie à clef secrète (rapide) et à clef publique (sûre) a été trouvé : l'américain Philip Zimmermann a lancé sur Internet en téléchargement libre son logiciel Pretty Good Privacy (ce qui pourrait se traduire par « assez bonne confidentialité »), d'où le sigle PGP.
+PGP est donc un système dit « de cryptographie hybride ».
+Cela semble plus élaboré que le chiffre de César, un vieux code secret !
+Cependant, le chiffre de César a été, autant (voire plus) que PGP, une révolution dans le domaine de la cryptographie.
+Bien sûr, le niveau de sécurité entre ces deux systèmes est incomparable : PGP est considéré aujourd'hui comme incassable, même avec l'aide des plus puissants ordinateurs, en un temps « cryptanalytiquement » court, c'est-à-dire, au grand maximum, quelques années.
+À vrai dire, il faudrait environ plusieurs millions d'années1 à un État, en faisant fonctionner des milliers d'ordinateurs 24 heures sur 24, pour découvrir le message que vous avez vu plus haut.
+Des millions d'années, pour ce simple texte :
+Seraient-ils neuf cent quatre-vingt-quinze millions et moi tout seul, ce sont eux qui ont tort, Lola, et moi qui ai raison, parce que je suis le seul à savoir ce que je veux : je ne veux plus mourir.
+Entrée du message.
+Par exemple, « VIVE VIKIDIA ».
+Le logiciel génère une clefaléatoire (ou pseudo-aléatoire).
+Cette clef devient la clef secrète, que l'on notera s et qui vaut par exemple 1234567892.
+Il crypte « VIVE VIKIDIA » avec la clef secrète s ;
+le codage se fait par un système à clef privée, comme AES ou RC6 (le système utilisé dans les exemples plus haut est AES, avec une clef de longueur 128 bits).
+Le résultat de ce codage est « nIMpORTeqUoI ».
+Il utilise une fonction de hachage, dont le but est de compliquer encore la tâche aux casseurs de codes, mais surtout d'« alléger » le message.
+La clef secrète s est codée par un système à clef publique (avec la clef publique du destinataire du message), généralement RSA.
+Elle est incorporée au message crypté.
+Pour décrypter, on applique les opérations inverses :
+Le logiciel décrypte la clef secrète avec la clef privée du destinataire du message.
+On retrouve donc la valeur s = 123456789.
+Le message est décompressé.
+On décrypte « nIMpORTeqUoI » par la clef s ;
+comme il s'agit de cryptographie symétrique (c'est-à-dire à clef secrète), l'opération est très rapide.
+On récupère donc notre message initial «
+VIVE VIKIDIA ».
+PGP ne devrait pas être utilisé pour chiffrer des données pouvant mettre en jeu la vie d'individus.
+Si les données sont tellement importantes que leur découverte pourrait mettre en jeu des vies alors mieux vaut utiliser un autre algorithme de cryptographie plus avancé.
+En effet, les versions 128 ou 256 bits ne sont pas utilisées par le gouvernement américain pour ses communications classées TOP SECRET3.
+Le gouvernement américain utilise des algorithmes non divulgués comme par exemple BATON http:/ wiki/BATON.
+Aucun gouvernement de par le monde n'utilise ni PGP, ni AES mais utilise leurs propres algorithmes.
+Le gouvernement français utilise également ses propres algorithmes, comme par exemple celui du Teorem : http:/ actualites
+technologie
+internet
+nicolas
+sarkozy-a-teste
+teorem
+son
+futur
+telephone
+crypte 0/411021.
+↑La clef utilisée ici n'est pas extrêmement importante (elle mesure 1024 bits, ce qui est à peu près la norme : la plus grande clef «
+cassée » à ce jour mesurait 663 bits ;
+les clefs utilisées mesurent généralement entre 1024 et 2048 bits), elle ne garantit pas une sécurité absolue.
+Avec une véritable clef, efficace, les milliards d'années sont envisageables pour une attaque par force brute.
+↑Cette clef vaut donc 111010110111100110100010101 en système binaire ;
+cela correspond à une longueur de 27 bits, ce qui est ridiculement faible !

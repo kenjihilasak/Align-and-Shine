@@ -1,0 +1,153 @@
+Langage Lisp|Langage de programmation
+logique|Intelligence artificielle
+Lisp est la plus ancienne famille de langages de programmation à la fois impératifs et fonctionnels.
+Développé initialement en tant que modèle pratique pour représenter des programmes (par contraste avec la notion théorique de machine de Turing), il est devenu dans les années 1970 et 80 le langage de choix pour la recherche en intelligence artificielle.
+Les langages Lisp sont aujourd'hui utilisés dans de nombreux domaines, de la programmation Web à la finance, et dans certains cursus de formation en informatique.
+Le terme Lisp a été forgé à partir de l'anglais « » (« traitement de listes »).
+Tous les dialectes de Lisp partagent les mêmes opérateurs de manipulation de listes chaînées simples.
+Lisp se distingue en outre par une syntaxe simple en notation préfixée, son typage dynamique des données, le support pour la programmation fonctionnelle, sa gestion automatique de la mémoire et la faculté de manipuler le code source en tant que structure de données.
+Les langages Lisp sont reconnaissables immédiatement à leur apparence.
+Le code source des programmes est écrit en utilisant la même syntaxe que celle des listes
+- la syntaxe parenthésée des S-expressions.
+Chaque sous-expression d'un programme (ou structure de données) est délimitée par des parenthèses.
+Cela simplifie grandement l'analyse syntaxique des programmes Lisp et rend simple la métaprogrammation
+- la création de programmes qui créent d'autres programmes ou modifient le programme courant.
+Si l'on excepte le langage machine et le langage d'assemblage (ou plus communément « assembleur »), Lisp est le deuxième langage le plus ancien (juste après Fortran)
+parmi les langages qui se sont largement diffusés
+Lisp a beaucoup évolué depuis le début des années 1960 et a ainsi donné naissance à de nombreux dialectes.
+Histoire
+Le langage Lisp fut inventé par John McCarthy en 1958 alors qu'il était au Massachusetts Institute of Technology (MIT).
+Il publia un article intitulé «
+Recursive Functions of Symbolic
+Expressions and
+Their
+Computation by Machine, Part I »
+dans la revue CACM en 1960
+la partie II ne fut jamais publiée.
+Le premier interpréteur fonctionnait sur un ordinateur IBM 704 et deux instructions de cette machine devinrent les deux opérations primitives de Lisp pour décomposer les listes :
+L'opération qui consiste à fabriquer une liste à partir d'un premier élément et d'une liste est notée cons.
+Dans son article, John McCarthy introduit deux syntaxes : les S-expressions (
+expressions symboliques, parfois appelées « sexp ») et les M-expressions (méta-expressions permettant l'homoïconicité pour exprimer les fonctions manipulant des S-expressions autrement dit pour mettre en œuvre la réflexion ).
+Les M
+-expressions n'ont jamais été très appréciées et la plupart des Lisps de nos jours utilisent des S-expressions pour les programmes comme pour les données.
+C'est la syntaxe des S-expressions qui fait reprocher à Lisp son abondance de parenthèses, mais c'est aussi une des raisons de la puissance et de la souplesse du langage.
+En raison de son expressivité et de sa flexibilité, Lisp eut beaucoup de succès dans la communauté de l'intelligence artificielle (cf. Apports).
+Dans les années 1970, on créa des ordinateurs spécialisés dans l'exécution de programmes Lisp : les machines Lisp.
+Durant les années 1980 et 1990, on fit de grands efforts pour unifier les nombreux dialectes de Lisp qui étaient apparus.
+Le résultat fut la normalisation de Common Lisp dont la norme ANSI fut publiée en 1994 sous la référence «
+ANSI X3.226-1994
+L'ISO publia de son côté en 1997 la norme http:/ iso catalogue_ics IEC 13816:1997 (E), révisée en 2007 par la norme http:/ iso catalogue_tc IEC 13816:2007 (E).
+À ce moment, Lisp était bien moins florissant qu'à sa grande époque.
+Bien qu'éclipsé par des langages proches de la machine (C, C++), Lisp reste un langage relativement utilisé, en particulier en tant que langage embarqué dans des applications, où il sert de langage d'extension.
+Les cas les plus connus d'utilisation embarquée de Lisp sont l'éditeur de textes Emacs et le langage d'AutoCAD.
+On notera par ailleurs que Lisp vient en quatrième position en termes de lignes de codes utilisées pour implémenter les paquets sources disponibles dans le système d'exploitation Debian publié en juin 2005.
+Les huit premiers langages se distribuent ainsi : C (57 %), C++ (16,8 %), Shell (9 %), Lisp (3 %), Perl (2,8 %), Python (1,8 %), Java (1,6 %), Fortran (1,2 %).
+En juillet 2013, Lisp se place en 15 position de l'index TIOBE.
+Syntaxe
+Les listes sont délimitées par des parenthèses et leurs éléments sont séparés par des espaces : (1 2 "").
+Un programme Lisp est un arbre de syntaxe composé avec des listes.
+Cette utilisation des parenthèses donne lieu à des moqueries utilisant l'acronyme LISP : « » («
+Des tas de parenthèses irritantes et idiotes »
+), ou « » («
+Des tas de parenthèses insipides et stupides »
+), ou «
+Langage Informatique
+Stupidement Parenthésé », ou «
+Langage Insipide Saturé de Parenthèses ».
+Lisp est un langage orienté expression : il ne fait pas de distinction entre «
+expressions » et « instructions » comme le font de nombreux langages (par exemple Pascal) ;
+tout est expression et retourne une valeur ou un ensemble de valeurs.
+La plupart des expressions Lisp sont des applications de fonction.
+Ce que d'autres langages écrivent
+f (a,b,c)
+Lisp l'écrit
+Ainsi une somme ne se note pas
+1+2+3+4
+somme (1,2,3,4)
+mais
+On utilise la même notation préfixée (dite notation polonaise) pour les « formes spéciales » et les « macros » : le premier élément dans la liste, dans ces cas, détermine comment les éléments suivants seront traités.
+Une expression peut être une application de fonction, une forme spéciale ou une application de macro suivant la nature du premier élément.
+Syntaxe en notation EBNF
+Le langage Lisp dispose d'une syntaxe très simple et élégante, utilisant un minimum de concepts.
+Cette économie de concepts mène Gregory Chaitin à qualifier cette syntaxe de .
+À contrario, elle ne permet pas la détection d'erreur.
+L'essentiel du langage
+Lisp est défini par seulement trois règles EBNF :
+list
+' (' expressionexpression -> atom list
+atom
+number
+| name
+| string
+| operator
+Ces règles peuvent se traduire de la manière suivante en français :
+* une expression peut être un atome ou une liste (récursion) ;
+* un atome
+est soit : un nombre, un nom, une chaîne de caractères, un opérateur.
+Exemples
+Les programmes suivants ne sont pas typiques des vrais programmes Lisp.
+Ils sont typiques de la présentation que l'on fait de Lisp dans les cours d'informatique.
+Les exemples sont donnés en syntaxe Common Lisp.
+La factorielle est un grand classique :
+defun factorial (n)
+"Calcule la factorielle de l'entier n."
+if (
+defun factorial (n &optional (acc 1))
+"Calcule la factorielle de l'entier n."
+if (
+(defun reverse (l &optional (acc ' ()))
+"Renverse la liste l."
+acc
+(reverse (cdr l) (cons (car l) acc))))
+Apports
+Par opposition à la programmation numérique développée jusqu'alors
+, Lisp qui travaille sur des symboles plutôt que des nombres a permis une programmation plus qualitative, rendant possible l'intelligence artificielle.
+D'où, par exemple, des dialogues pseudo-naturels (cf Eliza, test de Turing).
+De plus, ses fonctions et programmes ont la même forme que ses données (propriété d'homoiconicité).
+On peut donc en Lisp passer à travers le miroir.
+Ainsi,
+* on peut simuler un robot qui, au reçu d'une mission (liste de commandes à exécuter avec une certaine liberté), en raisonnant d'abord sur cette liste et son environnement, ordonnance ces commandes, puis les exécute dans l'ordre qu'il a adopté ;
+en effet, (eval commande) traitera le libellé de commande, jusque-là donnée statique, en expression à évaluer ;
+* en rétro-conception, on peut partir de la trace d'une fonction inconnue pour tenter de retrouver cette fonction ;
+combiner diverses techniques (différences premières, secondes...
+et quotients similaires) permet alors
+de proposer des identifications, et caractériser leur plausibilité
+à l'aide d'une fonction génératrice utilisant la fonction (define ) qui lie un nom de fonction et une définition
+, engendrer le code Lisp concrétisant chaque identification, afin de pouvoir la tester plus finement ;
+* on peut même donner en Lisp le principe d'un interprète Lisp.
+Une particularité du langage Lisp, qui pendant longtemps resta uniquement un langage interprété, est que contrairement aux autres langages interprétés des années 1960 et 1970 son exécution était aussi - voire parfois plus
+- rapide
+que celle des langages compilés
+Cette particularité provient de sa syntaxe qui fait que la place de chaque type d'objet (fonction, opérateur, donnée) est prévisible et ne requiert pas l'analyse préalable d'une séquence de code source avant de construire la séquence de code d'exécution.
+Extension : Lisp et les objets
+Sous l'influence de Simula, divers systèmes à objets ont été construits à partir de Lisp, notamment :
+CLOS offre de l'héritage multiple, la sélection multiple et un puissant système de combinaison de méthodes.
+Common Lisp fut le premier langage orienté
+-objet standardisé.
+Citations
+Aujourd'hui, certains diraient que Scheme est le dérivé de Lisp atteignant la beauté décrite par Chaitin ; et il est certain que Common Lisp, le descendant en ligne droite des grandes cuvées des dialectes passés de LISP (Maclisp, Interlisp, Zetalisp) penche plus du côté de la boîte à outils géante, bien qu'ayant conservé intact son cœur conceptuel.
+G. Chaitin a utilisé ce Lisp idéalisé pour ses recherches : .
+Généalogie et variantes
+* Lisp
+* MacLisp (lié au projet MACSYMA du MIT
+et sans lien avec l' Macintosh), descendant direct de Lisp
+* ZetaLisp, successeur de MACLisp, qui fonctionne sur des machines
+Lisp
+* , né BBN Lisp, qui servit à développer les premières interfaces utilisateurs graphiques
+* VLISP développé
+à l'Université de Paris VIII
+- Vincennes
+* , développé à l'INRIA, et commercialisé ensuite par Eligis et Ilog
+* Emacs Lisp
+, version simplifiée utilisée pour programmer l'éditeur de texte Emacs
+* , norme ISO du langage ISLISP qui peut être considéré comme un sous-ensemble de Common Lisp, norme 13816:1997 (E), révisée en 2007 par ISO/IEC 13816:2007 (E).
+* AutoLISP
+, un Lisp utilisé dans AutoCAD pour la programmation
+* Nyquist, un Lisp utilisé
+pour travailler avec des sons
+* xLispStat
+, un Lisp utilisé pour les analyses statistiques de données
+* XLisp, un sous-ensemble du langage Lisp développé par David Michael Betz
+* QLisp, une extension de Xlisp4.3 avec une centaine de routines d'analyse d'images
+* Clojure, fonctionnant sur une machine virtuelle Java
+* , implémentation complète de la norme comportant de nombreuses extensions compatibles Common Lisp.

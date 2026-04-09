@@ -1,0 +1,64 @@
+La crittografia (dall'unione di due parole greche:
+κρυπτóς kryptós che significa "nascosto", e γραφία graphía che significa "scrittura") è la branca della crittologia che tratta delle "scritture nascoste", ovvero dei metodi per rendere un messaggio "offuscato" in modo da non essere comprensibile/intelligibile a persone non autorizzate a leggerlo.
+Un tale messaggio si chiama comunemente crittogramma e i metodi usati sono detti tecniche di cifratura.
+Storia
+La necessità di nascondere messaggi strategici da occhi nemici è antica quanto l'uomo:
+ci sono tracce di cifrari antichi quanto gli Ebrei con il loro codice di atbash;
+gli Spartani avevano un loro particolare sistema di comunicazione dei messaggi segreti, la scitala;
+a Gaio Giulio Cesare si attribuisce l'uso del cosiddetto cifrario di Cesare, un sistema crittografico oggi ritenuto elementare, ma emblema della nascita di un concetto totalmente nuovo e ottimo per comprendere le idee basilari della crittografia e i primi attacchi della sua "avversaria":
+la crittoanalisi.
+La storia della crittografia moderna inizia con la stesura del De cifris di Leon Battista Alberti, che per primo insegnò a cifrare per mezzo di un disco cifrante con un alfabeto segreto da spostare ad libitum ogni due o tre parole.
+Anche il tedesco Tritemio previde una forma di cifra polialfabetica, facendo scorrere l'alfabeto ordinato di un posto ad ogni lettera del chiaro (come si definisce in gergo il testo non criptato).
+Nel 1526 Jacopo Silvestri pubblicò lOpus novum, considerata una delle prime opere su questo argomento.
+Ma il vero progresso nella cifratura polialfabetica è stato compiuto dal bresciano Giovan Battista Bellaso, che ha inventato la tecnica di alternare alcuni alfabeti segreti formati con parola chiave sotto il controllo di un lungo versetto chiamato contrassegno.
+La sua prima tavola a 11 alfabeti reciproci, uscita nel 1553, fu ripubblicata dal napoletano Giovanni Battista Della Porta dieci anni più tardi e ne prese il nome grazie alla notevole diffusione che ebbe il suo trattato De furtivis literarum notis.
+Il francese Vigenère utilizzò poi il versetto per cifrare ciascuna lettera con la sua tavola ad alfabeti regolari identica a quella del Tritemio e che oggi porta il suo nome.
+Il suo sistema è stato considerato indecifrabile per tre secoli, finché nel 1863 il colonnello prussiano Friedrich Kasiski non pubblicò un metodo per "forzarlo", chiamato Esame Kasiski.
+Qualsiasi sia il sistema crittografico utilizzato, la legge fondamentale sul corretto uso di tali tecniche fu scritta da Kerckhoffs ("Legge di Kerckhoffs") nel suo libro del 1883 La Cryptographie Militaire e di seguito riportata:
+«La sicurezza di un crittosistema non deve dipendere dal tener celato il crittoalgoritmo.
+La sicurezza dipenderà solo dal tener celata la chiave.»
+Nel 1918 Gilbert Vernam maggiore dell'esercito statunitense e tecnico all'AT&T Bell, perfezionò il metodo di Vigenère proponendo l'idea di usare chiavi segrete casuali lunghe almeno quanto il messaggio.
+Successivamente, nel 1949, Claude Shannon, padre della teoria dell'informazione, nel lavoro La teoria della comunicazione nei sistemi crittografici dimostrò che questo è l'unico metodo crittografico possibile che sia totalmente sicuro.
+Con il possesso di un sistema crittografico perfetto, la battaglia teorica tra crittografia e crittoanalisi si è risolta con una vittoria della prima sulla seconda.
+Ipotizzando di voler far uso di questa insuperabile protezione, restano però aperti molti problemi di ordine pratico.
+Bisogna infatti soddisfare gli stringenti requisiti del cifrario di Vernam:
+chiave lunga quanto il messaggio e mai più riutilizzabile.
+Tuttavia si hanno notizie di utilizzi di questo cifrario in ambiente militare (comunicazione con le è un'applicazione del .
+Caratteristiche
+In tal modo si garantisce la confidenzialità dei dati che è uno dei requisiti essenziali nell'ambito della sicurezza informatica impedendo così la realizzazione di diversi tipi di attacchi informatici ai dati sensibili (es. sniffing).
+L'approccio inverso di studio volto a rompere un meccanismo crittografico è detto invece crittoanalisi che rappresenta l'altra branca della crittologia.
+Cruciali sono anche i tempi necessari alla crittoanalisi per la decifrazione del messaggio:
+per diverse applicazioni di telecomunicazioni e informatica un sistema si può considerare sicuro anche se il suo sistema di cifratura risulta violabile, ma con tempi di realizzazione che renderebbero poi vani i successivi tentativi di attacco diretto.
+L'attuale ricerca crittografica, avendo risolto il problema teorico della garanzia della sicurezza, si dedica al superamento dei forti limiti d'uso anzidetti.
+Si cercano metodi più comodi ma ciononostante estremamente sicuri che, possibilmente, utilizzino chiavi corte e riutilizzabili senza compromettere la loro utilità.
+Al momento non esiste alcuna tecnica crittografica che si possa definire sicura in senso assoluto, tranne il Cifrario di Vernam:
+tutte le altre tecniche rendono sicuro il dato solo per un certo arco temporale e non possono garantire la durata della segretezza.
+Tipologia
+Crittografia simmetrica
+Fino a pochi anni fa era l'unico metodo crittografico esistente, con cui si faceva uso di un'unica chiave sia per proteggere il messaggio che per renderlo nuovamente leggibile.
+Il problema era condividere la chiave di cifratura con il destinatario del messaggio criptato senza che questa venisse scoperta.
+La ricerca sulla crittografia simmetrica ha negli anni prodotto sistemi crittografici di tutto rispetto (ultimo tra tutti il cifrario Rijndael, scelto per il nuovo standard Advanced Encryption Standard per essere utilizzato nel prossimo ventennio, sostituendo l'ormai datato Data Encryption Standard).
+La crittografia asimmetrica
+La vera novità del secolo scorso è l'invenzione di una tecnica crittografica che utilizza chiavi diverse per cifrare e per decifrare un messaggio, facilitando incredibilmente il compito di distribuzione delle chiavi.
+Infatti in questo caso non è necessario nascondere le chiavi o le password:
+c'è una chiave per crittografare (che chiunque può vedere) e una per decifrare, che conosce solo il destinatario senza necessità quindi di riceverla (scambiarla) dal mittente.
+In altre parole, se Alice vuole ricevere un messaggio segreto da Bob, manda a Bob la chiave pubblica.
+Bob usa la chiave pubblica per cifrare un messaggio che manda ad Alice, la quale è l'unica ad avere la chiave.
+Chiunque può veder passare il messaggio, ma non può decifrarlo, in quanto non ha la chiave privata.
+Alice deve però tenere al sicuro la chiave privata.
+Nel 1976 Whitfield Diffie e Martin E.Hellman, un matematico e un ingegnere in forza alla Stanford University, introducono l'utilizzo della chiave pubblica per la crittazione e l'autenticazione;
+nell'anno seguente il gruppo di ricerca del MIT formato da Ronald L. Rivest, Adi Shamir e Leonard M. Adleman realizza il primo sistema a chiave pubblica, in questo modo viene ideato l'algoritmo RSA.
+Il funzionamento di questo sistema è basato sul fatto che è matematicamente e computazionalmente molto facile moltiplicare due numeri primi (che singolarmente rappresentano la chiave privata, quella che solo Alice conosce per decifrare), ma è invece molto difficile il problema inverso, ovvero risalire ai fattori primi del numero ottenuto dal precedente prodotto (che invece rappresenta la chiave pubblica che chiunque può vedere e che si usa per crittografare).
+Siccome la crittografia asimmetrica è molto lenta, se si devono spedire grandi quantità di dati si usa solitamente questo tipo di crittografia per scambiarsi una chiave con cui iniziare una comunicazione in crittografia simmetrica, molto più semplice, veloce e sicura.
+Rientra nell'ambito della crittografia asimmetrica anche la promettente crittografia ellittica.
+La crittografia quantistica
+L'evoluzione dei sistemi crittografici, uniti all'evoluzione della fisica teorica hanno permesso di realizzare un cifrario di Vernam che si basa sull'utilizzo della meccanica quantistica nella fase dello scambio della chiave.
+Il vantaggio di questa tecnica consiste nel fatto di rendere inutilizzabili gli attacchi del tipo man in the middle:
+cioè, se durante lo scambio della chiave qualcuno riuscisse ad intercettarla, la cosa diverrebbe immediatamente evidente sia a chi emette sia a chi riceve il messaggio.
+Applicazioni
+Le applicazioni della crittografia moderna sono diffuse nell'ambito informatico e telecomunicazionistico in tutti i casi in cui è richiesta confidenzialità dei dati, ad esempio, in messaggi e file presenti su supporti di memorizzazione, nelle comunicazioni wireless (Wi-Fi e reti cellulari) per garantire la confidenzialità (ad es. WEP e WPA), nella Rete Internet per oscurare la comunicazione dati in transito tra client e server (protocolli SSH, SSL/TSL, HTTPS, IPsec), nelle transazioni finanziarie-bancarie (home banking), nella pay per view per impedire la visione di contenuti audiovisivi a pagamento ai non abbonati ecc...
+Software
+per la crittografia
+Un elenco esemplificativo di alcuni software che a qualche titolo utilizzano crittografia:
+Note
+Bibliografia

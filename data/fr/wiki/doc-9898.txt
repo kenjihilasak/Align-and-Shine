@@ -1,0 +1,94 @@
+Théorie électrique|Électrodynamique|Loi en physique|Ohm
+La loi d'Ohm est une loi physique empirique qui lie l'intensité du courant électrique traversant un dipôle électrique à la tension à ses bornes.
+Cette loi permet de déterminer la valeur d'une résistance.
+La loi d'Ohm a été ainsi nommée en référence au physicien allemand Georg Simon Ohm qui la publie en 1827, dans son œuvre .
+Énoncé de la loi d'Ohm
+On note :
+* l’intensité du courant qui circule à travers la résistance ;
+La loi d'Ohm établit
+que : U
+R \times I
+Un dipôle électrique vérifiant la loi d'Ohm est appelé un conducteur ohmique.
+Unités
+Dans la loi d'Ohm, la tension est exprimée en volts (), l’intensité en ampères () et la résistance en ohms ().
+Interprétation de la loi d'Ohm
+La loi d’
+Ohm indique que la tension aux bornes d’une résistance est proportionnelle à l’intensité du courant.
+Ce coefficient de proportionnalité est la valeur de la résistance.
+Il est à noter que la valeur de la résistance est une constante et ne varie donc pas lorsque l'on modifie la tension ou l'intensité.
+Utilisation de la loi
+Selon son expression et les grandeurs connues, la loi d’
+Ohm permet d’obtenir différentes grandeurs :
+* sous la forme U
+= R x I, elle permet de calculer la tension lorsque la résistance et l’intensité sont connues ;
+* sous la forme I
+= U I
+, elle permet de calculer la résistance lorsque la tension et l’intensité sont connues.
+Caractéristique d'un conducteur ohmique
+Lorsque l'on trace la caractéristique d'un conducteur ohmique (c'est-à-dire le graphe de la tension en fonction de l'intensité), on obtient une droite passant par l'origine.
+La pente de cette droite est la valeur de la résistance.
+Point de vue macroscopique
+En courant continu et en régime établi
+La différence de potentiel ou tension (en volts) aux bornes d'un résistor de résistance (en ohms) est proportionnelle à l'intensité du courant électrique (en ampères) qui la traverse, ou la d'un dipôle est égale au quotient de sa par l' du courant :
+U = R \cdot I
+avec et orientées en sens opposés (dipôle en convention récepteur)
+N.B. :
+si et sont orientées dans le même sens (dipôle en convention générateur), la loi devient alors :
+-\,U = R \cdot I.
+On peut en déduire :
+\frac
+R ou R
+\frac
+U I
+Cette loi porte le nom de Georg Ohm qui a travaillé sur le comportement des conducteurs métalliques.
+Elle s'applique de manière satisfaisante aux conducteurs métalliques thermostatés.
+Lorsque la température varie, la valeur de la résistance varie également de manière plus ou moins simple, ce qui impose d'introduire des termes correctifs.
+Par convention, on conserve la loi et on introduit les termes correctifs dans la valeur de la résistance du conducteur.
+En courant alternatif
+La loi précédente se généralise au cas des courants sinusoïdaux en utilisant les notations complexes.
+On note et respectivement la tension et le courant complexes.
+La loi d'Ohm s'écrit alors :
+\underline=\underline \cdot \underline
+où est l'impédance complexe du dipôle considéré, qui peut être constitué de dipôles linéaires (résistances, condensateurs et inductances).
+Dans un circuit RLC série
+Par application de la loi des mailles,
+u (t) = R \;
+i (t)
++ L \, \frac + \frac 1 C \int_ i \, \mathrm dt
+Point de vue local (mésoscopique)
+Énoncé de la loi d'Ohm locale
+D'un point de vue local, c'est-à-dire mésoscopique, la loi (locale) d'Ohm s'énonce en disant que la mobilité des porteurs de charge est indépendante de \left\\vec \right\|.
+À noter que la loi d'Ohm doit respecter certaines conditions :
+* la grandeur considérée ne doit pas varier trop rapidement dans le temps.
+Si on note la mobilité des porteurs de charge, leur vitesse s'écrit alors \vec=\pm \, \mu\vec (la direction du mouvement dépend du signe des porteurs) ;
+la densité de courant \vec associée à une densité de porteurs vaut quant à elle :
+\vec
+q \, n \,
+\vec
+q \, n \, \mu \, \vec, où est la charge électrique du porteur (en valeur absolue).
+On note la conductivité électrique du matériau (pour un seul type de porteur).
+On a alors la loi locale d'Ohm pour un seul type de porteur :
+:\vec=\sigma \, \vec.
+Si on a plusieurs types de porteurs, comme les électrons et les trous dans un semi-conducteur ou des ions différents dans un électrolyte, la densité de courant devient :
+:\vec= \sum_k n_k q_k \vec_k,
+avec \vec_k=\mu_k \vec
+donc \vec= \left ( \sum_k n_k \, q_k \, \mu_k \right)
+\vec.
+On a alors la conductivité totale :
+\sigma= \sum_k n_k \, q_k \, \mu_k.
+Voir aussi
+Loi de Nernst-Einstein.
+Rapport avec la loi d'Ohm macroscopique : définition de la résistance
+Considérons une portion de conducteur d'un point A à un point B et de section droite S, on a alors la différence de potentiel qui vaut :
+:V_A-V_B = \int_^ \vec \cdot \mathrm\vec
+et l'intensité :
+\iint_S \vec \cdot
+\mathrm\vec
+\iint_S \sigma \vec \cdot \mathrm\vec = \sigma \iint_S \vec \cdot \mathrm\vec.
+Multiplions par une constante la différence de potentiel , alors les conditions aux limites sont inchangées ainsi que les lignes de champ de \vec, et l'expression \iint_S \vec \cdot \mathrm\vec est multipliée par la même constante.
+Par conséquent le rapport est indépendant de cette constante
+, c'est une « constante » (il dépend quand même de divers paramètres tels la température) appelée résistance électrique et notée .
+Elle se calcule comme suit :
+\frac
+\frac
+Cette formule permet de calculer la résistance de diverses géométries de matériaux (filiforme, cylindrique, sphérique).

@@ -1,0 +1,185 @@
+GIMP ( ; GNU Image Manipulation Program) is a free and open-source raster graphics editor used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks.
+GIMP is released under GPLv3+ licenses and is available for Linux, macOS, and Microsoft Windows.
+History
+GIMP was originally released as the General Image Manipulation Program.
+In 1995 Spencer Kimball and Peter Mattis began developing GIMP as a semester-long project at the University of California, Berkeley for the eXperimental Computing Facility.
+In 1996 GIMP (0.54) was released as the first publicly available release.
+In the following year Richard Stallman visited UC Berkeley where Spencer Kimball and Peter Mattis asked if they could change General to GNU (the name given to the operating system created by Stallman).
+Richard Stallman approved and the definition of the acronym GIMP was changed to be the GNU Image Manipulation Program.
+This reflected its new existence as being developed as Free Software as a part of the GNU Project.
+The number of computer architectures and operating systems supported has expanded significantly since its first release.
+The first release supported UNIX systems, such as Linux, SGI IRIX and HP-UX.
+Since the initial release, GIMP has been ported to many operating systems, including Microsoft Windows and macOS; the original port to the Windows 32-bit platform was started by Finnish programmer Tor M. Lillqvist (tml) in 1997 and was supported in the GIMP 1.1 release.
+A GUI toolkit called GTK (GIMP tool kit) was developed to facilitate the development of GIMP.
+GTK was replaced by its successor GTK+ after being redesigned using object-oriented programming techniques.
+The development of GTK+ has been attributed to Peter Mattis becoming disenchanted with the Motif toolkit GIMP originally used; Motif was used up until GIMP 0.60.
+Development
+GIMP is primarily developed by volunteers as a free and open source software project associated with both the GNU and GNOME projects.
+Development takes place in a public git source code repository, on public mailing lists and in public chat channels on the GIMPNET IRC network.
+New features are held in public separate source code branches and merged into the main (or development) branch when the GIMP team is sure they won't damage existing functions.
+to date GIMP has participated in all years except 2007.
+From 2006 to 2009 there have been nine GSoC projects that have been listed as successful, and a JPEG 2000 plug-in (mid 2009 in 2.8 and master).
+Several of the GSoC projects were completed in 2008, but have been merged into a stable GIMP release later in 2009 to 2014 for Version 2.8.xx and 2.9.x.
+Some of them needed some more code work for the master tree.
+Second public Development 2.9-Version was 2.9.4 with many deep improvements after initial Public Version 2.9.2.
+Third Public 2.9-Development version is Version 2.9.6.
+One of the new features is removing the 4GB size limit of XCF file.
+Increase of possible threads to 64 is also an important point for modern parallel execution in actual AMD Ryzen and Intel Xeon processors.
+Version 2.9.8 included many bug fixes and improvements in gradients and clips.
+Improvements in performance and optimization beyond bug hunting were the development targets for 2.10.0.
+MacOS Beta is available with Version 2.10.4
+The next stable version in the roadmap is 3.0 with a GTK3 port.
+User interface
+The user interface of GIMP is designed by a dedicated design and usability team.
+This team was formed after the developers of GIMP signed up to join the OpenUsability project.
+A user interface brainstorming group has since been created for GIMP, where users of GIMP can send in their suggestions as to how they think the GIMP user interface could be improved.
+GIMP is presented in two forms, single and multiple window mode; GIMP 2.8 defaults to the multiple-window mode.
+In multiple-window mode a set of windows contains all GIMP's functionality.
+By default, tools and tool settings are on the left and other dialogues are on the right.
+A layers tab is often to the right of the tools tab, and allows a user to work individually on separate image layers.
+Layers can be edited by right-clicking on a particular layer to bring up edit options for that layer.
+The tools tab and layers tab are the most common dockable tabs.
+Libre Graphics Meetings
+The Libre Graphics Meeting (LGM) is a yearly event where developers of GIMP and other projects meet up to discuss issues related to free and open-source graphics software.
+The GIMP developers hold birds of a feather (BOF) sessions at this event.
+Distribution
+The current version of GIMP works with numerous operating systems, including Linux, macOS and Microsoft Windows.
+Many Linux distributions include GIMP as a part of their desktop operating systems, including Fedora and Debian.
+The GIMP website links to binary installers compiled by Jernej Simončič for the platform.
+MacPorts was listed as the recommended provider of Mac builds of GIMP, but this is no longer needed as version 2.8.2 and later run natively on macOS.
+GTK+ was originally designed to run on an X11 server.
+Because macOS can optionally use an X11 server, porting GIMP to macOS is simpler compared to creating a Windows port.
+GIMP is also available as part of the Ubuntu noroot package from the Google Play Store on Android.
+In November 2013, GIMP removed its download from SourceForge, citing misleading download buttons that potentially confuse customers, as well as SourceForge's own Windows installer, which bundles potentially unwanted programs.
+In a statement, GIMP called SourceForge a once "useful and trustworthy place to develop and host FLOSS applications" that now faces "a problem with the ads they allow on their sites ..."
+Sourceforge controversy
+GIMP, who discontinued their use of SourceForge as a download mirror in November 2013, reported in May 2015 that SourceForge was hosting infected versions of their Windows binaries on their Open Source Mirror directory.
+Professional reviews
+Lifewire reviewed GIMP favorably in March 2019, writing that " (f)or those who have never experienced Photoshop, GIMP is simply a very powerful image manipulation program," and " (i)f you're willing to invest some time learning it, it can be a very good graphics tool."
+GIMP's fitness for use in professional environments is regularly reviewed; it is often compared to and suggested as a possible replacement for Adobe Photoshop.
+GIMP has similar functionality to Photoshop, but has a different user interface.
+GIMP 2.6 was used to create nearly all of the art in Lucas the Game, an independent video game by developer Timothy Courtney.
+Courtney started development of Lucas the Game in early 2014, and the video game was published in July 2015 for PC and Mac.
+Courtney explains GIMP is a powerful tool, fully capable of large professional projects, such as video games.
+The single-window mode introduced in GIMP 2.8 was reviewed in 2012 by Ryan Paul of Ars Technica, who noted that it made the user experience feel "more streamlined and less cluttered".
+Michael Burns, writing for Macworld in 2014, described the single-window interface of GIMP 2.8.10 as a "big improvement".
+In his review of GIMP for ExtremeTech in October 2013, David Cardinal noted that GIMP's reputation of being hard to use and lacking features has "changed dramatically over the last couple years", and that it was "no longer a crippled alternative to Photoshop".
+He described GIMP's scripting as one of its strengths, but also remarked that some of Photoshop's features such as Text, 3D commands, Adjustment Layers and History are either less powerful or missing in GIMP.
+Cardinal favorably described the UFRaw converter for raw images used with GIMP, noting that it still "requires some patience to figure out how to use those more advanced capabilities".
+Cardinal stated that GIMP is "easy enough to try" despite not having as well developed documentation and help system as those for Photoshop, concluding that it "has become a worthy alternative to Photoshop for anyone on a budget who doesn’t need all of Photoshop’s vast feature set".
+Mascot
+Wilber is the official GIMP mascot.
+Wilber has relevance outside of GIMP as a racer in SuperTuxKart and was displayed on the Bibliothèque nationale de France (National Library of France) as part of Project Blinkenlights.
+Wilber was created at some time before 25 September 1997 by Tuomas Kuosmanen (tigert) and has since received additional accessories and a construction kit to ease the process.
+Features
+Tools used to perform image editing can be accessed via the toolbox, through menus and dialogue windows.
+They include filters and brushes, as well as transformation, selection, layer and masking tools.
+;Color
+There are several ways of selecting colors, including palettes, color choosers and using an eyedropper tool to select a colour on the canvas.
+The built-in color choosers include RGB/HSV selector or scales, water-color selector, CMYK selector and a color-wheel selector.
+Colors can also be selected using hexadecimal color codes as used in HTML color selection.
+GIMP has native support for indexed colour and RGB color spaces; other color spaces are supported using decomposition where each channel of the new color space becomes a black-and-white image.
+CMYK, LAB and HSV (hue, saturation, value) are supported this way.
+Color blending can be achieved using the Blend tool, by applying a gradient to the surface of an image and using GIMP's color modes.
+Gradients are also integrated into tools such as the brush tool, when the user paints this way the output color slowly changes.
+There are a number of default gradients included with GIMP; a user can also create custom gradients with tools provided.
+Gradient plug-ins are also available.
+;Selections and paths
+GIMP selection tools include a rectangular and circular selection tool, free select tool, and fuzzy select tool (also known as magic wand).
+More advanced selection tools include the select by color tool for selecting contiguous regions of color-and the scissors select tool, which creates selections semi-automatically between areas of highly contrasting colors.
+GIMP also supports a quick mask mode where a user can use a brush to paint the area of a selection.
+Visibly this looks like a red colored overlay being added or removed.
+The foreground select tool is an implementation of Simple Interactive Object Extraction (SIOX) a method used to perform the extraction of foreground elements, such as a person or a tree in focus.
+The Paths Tool allows a user to create vectors (also known as Bézier curves).
+Users can use paths to create complex selections, including around natural curves.
+They can paint (or "stroke") the paths with brushes, patterns, or various line styles.
+Users can name and save paths for reuse.
+;Image editing
+There are many tools that can be used for editing images in GIMP.
+The more common tools include a paint brush, pencil, airbrush, eraser and ink tools used to create new or blended pixels.
+The Bucket Fill tool can be used to fill a selection with a color or pattern.
+The Blend tool can be used to fill a selection with a color gradient.
+These color transitions can be applied to large regions or smaller custom path selections.
+GIMP also provides "smart" tools that use a more complex algorithm to do things that otherwise would be time consuming or impossible.
+These include:
+* Healing brush, which copies pixels from an area and corrects tone and color
+* Perspective clone tool, which works like the clone tool but corrects for distance changes
+* Blur and sharpen tool blurs and sharpens using a brush
+The Smudge tool can be used to subtly smear a selection where it stands.
+* Dodge and burn tool is a brush that makes target pixels lighter (dodges) or darker (burns)
+;Layers, layer masks and channels
+An image being edited in GIMP can consist of many layers in a stack.
+The user manual suggests that "A good way to visualize a GIMP image is as a stack of transparencies," where in GIMP terminology, each level (analogous to a transparency) is called a layer.
+Each layer in an image is made up of several channels.
+In an RGB image, there are normally 3 or 4 channels, each consisting of a red, green and blue channel.
+Color sublayers look like slightly different gray images, but when put together they make a complete image.
+The fourth channel that may be part of a layer is the alpha channel (or layer mask).
+This channel measures opacity where a whole or part of an image can be completely visible, partially visible or invisible.
+Each layer has a layer mode that can be set to change the colors in the image.
+Text layers can be created using the text tool, allowing a user to write on an image.
+Text layers can be transformed in several ways, such as converting them to a path or selection.
+;Automation, scripts and plug-ins
+GIMP has approximately 150 standard effects and filters, including Drop Shadow, Blur, Motion Blur and Noise.
+GIMP operations can be automated with scripting languages.
+The Script-Fu is a Scheme-based language implemented using a TinyScheme interpreter built into GIMP.
+GIMP can also be scripted in Perl, Python (Python-Fu), or Tcl, using interpreters external to GIMP.
+New features can be added to GIMP not only by changing program code (GIMP core), but also by creating plug-ins.
+These are external programs that are executed and controlled by the main GIMP program.
+MathMap is an example of a plug-in written in C.
+There is support for several methods of sharpening and blurring images, including the blur and sharpen tool.
+The unsharp mask tool is used to sharpen an image selectively - it sharpens only those areas of an image that are sufficiently detailed.
+The Unsharp Mask tool is considered to give more targeted results for photographs than a normal sharpening filter.
+The Selective Gaussian Blur tool works in a similar way, except it blurs areas of an image with little detail.
+;GEGL
+The Generic Graphics Library (GEGL) was first introduced as part of GIMP on the 2.6 release of GIMP.
+This initial introduction does not yet exploit all of the capabilities of GEGL; as of the 2.6 release, GIMP can use GEGL to perform high bit-depth color operations; because of this less information is lost when performing color operations.
+When GEGL is fully integrated, GIMP will have a higher color bit depth and better non-destructive work-flow.
+GIMP 2.8.xx supports only 8-bit of color, which is much less than what e.g. digital cameras produce (12-bit or more).
+Full support for high bit depth is included with new actual Gimp 2.10 version.
+For accelerations OpenCL is available for some operations.
+;File formats
+GIMP supports importing and exporting with a large number of different file formats, GIMP's native format XCF is designed to store all information GIMP can contain about an image; XCF is named after the eXperimental Computing Facility where GIMP was authored.
+Import and export capability can be extended to additional file formats by means of plug-ins.
+XCF file size is extended to more than 4 GB since 2.9.6 and new stable tree 2.10.x.
+Forks and derivatives
+Because of the free and open-source nature of GIMP, several forks, variants and derivatives of the computer program have been created to fit the needs of their creators.
+While GIMP is available for popular operating systems, variants of GIMP may be OS-specific.
+These variants are neither hosted nor linked on the GIMP site.
+The GIMP site does not host GIMP builds for Windows or Unix-like operating systems either, although it does include a link to a Windows build.
+Well-known variants include:
+* GIMP classic: A patch against GIMP v2.6.8 source code created to undo changes made to the user interface in GIMP v2.4 through v2.6.
+A build of GIMP classic for Ubuntu is available.
+As of March 2011, a new patch could be downloaded that patches against the experimental GIMP v2.7.
+* GIMP Portable: A portable version of GIMP for Microsoft Windows XP or later that preserves brushes and presets between computers
+* in some form.
+Development of GIMPshop was halted in 2006 and the project disavowed by the developer, Scott Moschella, after an unrelated party registered "GIMPshop" as part of an Internet domain name and passed off the website as belonging to Moschella while accepting donations and making revenue from advertising but passing on none of the income to Moschella
+* .
+More modifications are possible with the GimPad tool.
+GimPhoto stands at version 24.1 for Linux and Windows (based on GIMP v2.4.3) and version 26.1 on macOS (based on GIMP v2.6.8).
+Installers are included for Windows 7, 8.1, and 10; macOS 10.6+; Ubuntu 14 and Fedora; as well as source code.
+Only one developer is at work in this project, so fast updates and new versions based on Gimp 2.8.x or 2.9.x are not planned.
+* Instrumented GIMP (ingimp): Created at the University of Waterloo to track and report user interaction with the program to generate statistics about how GIMP is used, first released on 5 May 2007.
+Statistics collected by ingimp were publicly available freely of charge on the project's site after being anonymized.
+The ingimp site is no longer functioning as of 2014.
+McGimp: An independent port for macOS that is aim to run GIMP directly on this platform, and integrated multiple plug-ins intended to optimize photos.
+Notable extensions
+;GIMP Animation Package (GAP)
+:A GIMP plug-in for creating animations.
+GAP can save animations in several formats, including GIF and AVI.
+The animation function relies on GIMP's layering and image file name numbering capability.
+Animations are created either by placing each frame on its own layer (in other words, treating each layer as an animation cel), or by manipulating each numbered file as if it were a frame in the video: moving, rotating, flipping, changing colors, applying filters, etc. to the layers by taking advantage of interpolation within function calls (plug-in usage), within a specified frame range.
+The resulting project can be saved as an animated GIF or encoded video file.
+GAP also provides programmed layer transitions, frame rate change, and move paths, allowing the creation of sophisticated animations.
+;GIMP Paint Studio (GPS)
+:A collection of brushes and accompanying tool presets, aimed at artists and graphic designers.
+It speeds up repetitive tasks and can save tool settings between sessions.
+;Resynthesizer
+:A set of plugins originally developed as part of Paul Harrison's PhD thesis providing "context-aware fill" features, including heal selection, heal transparency, uncrop and general resynthesize (the other plugins are user-friendly specialisations of this plugin).
+The plugin is now maintained by Lloyd Konneker.
+Some uses for the plugin are creating more of a texture, including creation of tileable textures, removing objects from images for touching up photos, and creating themed images.
+;G'MIC
+:An open-source image processing framework has a distribution as a GIMP plugin to provide several hundreds of different filters offering a preview and setting parameters.
+Has a few powerful denoising filters.
+About GIMP
+About editing
+Further reading

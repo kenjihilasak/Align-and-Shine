@@ -1,0 +1,146 @@
+Distribution dérivée d'Ubuntu|Live CD
+Linux Mint est un système d'exploitation GNU
+/Linux gratuit
+, créé en 2006 à partir d'Ubuntu, lui-même basé sur Debian.
+Il est conçu pour les ordinateurs individuels au même titre que Windows ou Mac OS et s'affirme comme un .
+Selon le site Alexa, Linux Mint est la distribution Linux
+la plus consultée sur Internet, après Ubuntu et devant Debian.
+Créé par Clément Lefèbvre,
+le projet est actuellement maintenu par l'équipe de Linux Mint.
+La devise de la distribution est « From freedom came elegance », ce qu'on peut traduire en français par : «
+De la liberté naquit l'élégance ».
+Linux Mint suit les cycles de mises à niveau d'Ubuntu LTS.
+La dernière mise à jour en date se nomme Linux Mint 19.2 «
+Tina », sortie le 2 août 2019.
+Histoire de Linux Mint
+Des débuts dans l'ombre
+La première version de Linux Mint est apparue en août 2006 sous le nom de code «
+Ada ».
+Cette version était basée sur la distribution Kubuntu.
+En décembre 2006, soit trois mois plus tard, sort la version 2.0 nommée «
+Barbara »
+, cette version sera la première basée sur Ubuntu, laquelle utilise l'environnement de bureau GNOME 2.
+Le prochain changement majeur survient en juin 2007 lors de la sortie de la version 4 nommée «
+Daryna ».
+En effet, la distribution adopte le même cycle de sortie que celui d'Ubuntu, c'est-à-dire une nouvelle version tous les six mois.
+Auparavant, les sorties des versions étaient inégales et de trois mois maximum.
+À partir de décembre 2008
+et la sortie de la version 6 nommée «
+Felicia », Linux Mint est complètement basé sur la dernière version d'Ubuntu.
+En 2010, Linux Mint crée une autre version de sa distribution appelée «
+Linux
+Mint Debian Edition ».
+Celle-ci est basée sur la distribution Debian et non plus Ubuntu.
+C'est une version parallèle à la version classique, moins orientée grand public.
+Popularisation de la distribution
+En 2011, GNOME
+passe en version 3.
+Cette évolution a soulevé de nombreuses critiques au sein de la communauté du libre, notamment à cause de la nouvelle interface GNOME Shell, celle-ci étant jugée trop compliquée et peu pratique.
+Afin de répondre aux nombreuses déceptions des utilisateurs de GNOME Shell et Unity, Linux Mint décide de développer sa propre interface, Cinnamon.
+Basée sur GNOME 3, celle-ci se veut simple d'utilisation et s'inspire des systèmes traditionnels en reprenant le concept de la barre des tâches et du menu démarrer.
+D'autre part, Linux Mint choisit de soutenir l'interface MATE, basée sur la dernière version de GNOME 2 : moins puissante, celle-ci permet d'être utilisée sur des ordinateurs à configuration modeste.
+En test depuis 2011, ces deux nouveaux environnements de bureau sont implémentés par défaut en mai 2012 lors de la sortie de la version 13 (Maya).
+De même, le thème de Linux Mint a été sujet à débat et à évolution afin de coller aux nouvelles attentes esthétiques des utilisateurs.
+Selon Clément Lefèbvre, le fondateur de la distribution :
+En 2012, la nouvelle version de GNOME (3.6) continue de décevoir certains membres de la communauté du libre.
+Clément Lefebvre qualifiera cette nouvelle version de « catastrophe ».
+En mai 2012, la nouvelle version de Linux Mint 13 (Maya) supprime donc certaines fonctionnalités jugées superflues sur le gestionnaire de fichiers Nautilus.
+Dès la version suivante (Linux Mint 14), ce dernier sera remplacé par un nouveau gestionnaire de fichiers nommé Nemo, basé sur Nautilus 3.4.
+La version CD de Linux Mint est stoppé.
+Clément Lefebvre : .
+Avec des mises à niveau mineures qui sortiront tous les six mois : 17.1, 17.2, 17.3...
+Depuis 2015, Linux Mint comprend un module pour Firefox (plus exactement une extension)
+nommé «
+Mint Search Enhancer », qui permet de signaler à divers moteurs de recherche quelle est l'origine (l'affilié) de l'utilisateur, afin de pouvoir prétendre à une rémunération par la technique de l'affiliation.
+Il tire ainsi parti du moteur de recherche personnalisé Google ainsi que d'autres moteurs de recherche.
+Clem (Clément Lefèbvre) informe par un message dans le blog Linux Mint de la mise en place de cette extension :
+Le , les développeurs de Linux Mint annoncent que leur site officiel a été attaqué par des pirates informatiques.
+La distribution en elle-même n'a pas été compromise, mais les pirates ont déposé sur le site des images infectées.
+Le forum a également été compromis, et la base de données des utilisateurs aurait subi des fuites depuis début 2016.
+Linux Mint a été de 2011 à 2017 la distribution Linux la plus recherchée sur le site DistroWatch.
+Présentation de Linux Mint
+différents,
+incluant ceux d'Ubuntu
+Linux Mint qualifie sa distribution de « simple, moderne et innovante, et de par son statut de LTS sa communauté la considère comme "fiable et sûre" .
+L'édition par défaut Cinnamon (fork de Gnome Shell) développée par l'équipe de Linux Mint est un environnement de bureau considérée comme graphiquement et esthétiquement moderne, cependant, à la différence de Ubuntu, elle conserve un mode d’interface dit "traditionnelle", avec une barre des taches unique.
+C'est le bureau par défaut depuis Linux Mint 13.
+Linux Mint est aussi disponible avec deux autres environnements de bureau :
+* MATE
+Version plus sobre et légère.
+Cela lui permet d'être utilisée par des ordinateurs dotés d'une configuration faible.
+C'est un fork de GNOME 2.
+Linux Mint qualifie cette édition de « stable, robuste et traditionnelle.
+Logiciels crées pour Linux Mint (MintTools)
+Ces logiciels sont créés par l'équipe de Linux Mint afin de faciliter l'installation et l'utilisation de la distribution.
+* Gestionnaire de logiciels (mintInstall) :
+Conçu pour installer les logiciels des dépôts d'Ubuntu, Linux Mint ainsi que les PPA de Launchpad.
+Depuis Linux Mint 18.3, le Software Manager est configuré par défaut avec Flathub et il est possible d'installer des logiciels Flatpak.
+Son interface est construite sur GTK3 et est fortement inspirée des logiciels GNOME.
+* Gestionnaire de mise à jour (mintUpdate) :
+Conçu pour empêcher les utilisateurs inexpérimentés d'installer des mises à jour qui ne sont pas nécessaires ou qui nécessitent un certain niveau de connaissances pour être configurées correctement.
+Il attribue un niveau de sécurité aux mises à jour (de 1 à 5), en fonction de la stabilité et de la nécessité de la mise à jour.
+Les mises à jour peuvent être configurées pour: avertir les utilisateurs, être listées mais non notifiées, ou être masquées par défaut.
+En plus d'inclure des mises à jour spécifiques pour la distribution Linux Mint, l'équipe de développement teste toutes les mises à jour des paquets.
+* Menu principal (mintMenu)
+Conçu pour l'environnement de bureau MATE.
+Il s'agit d'un menu d'options comprenant le filtrage, l'installation et la suppression de logiciels, les liens système et lieux, les favoris, la gestion des sessions, les éléments modifiables, les lieux personnalisés et de nombreuses options de configuration.
+* Outil de sauvegarde (mintBackup)
+: Permet à l'utilisateur de sauvegarder et de restaurer les données.
+Les données peuvent être sauvegardées avant une nouvelle installation d'une nouvelle version, puis restaurées.
+* Paramètres
+du bureau
+mintDesktop)
+Un outil de configuration du bureau.
+* Écran d'accueil (MintWelcome)
+: Introduit dans Linux Mint 7, une application qui démarre dès la première connexion de tout nouveau compte.
+Il fournit des liens vers le site Web de Linux Mint, le guide de l'utilisateur et le site Web de la communauté.
+* Créateur de clé
+USB/formateur de clé
+USB (MintStick) :
+Un outil pour écrire une image sur une clé USB et pour formater une clé USB.
+* Rapports système (mintReport)
+Introduit dans Linux Mint 18.3, le but de System Reports est de permettre à l'utilisateur de visualiser et de gérer les rapports de crash générés automatiquement.
+Depuis Linux Mint 18.3, ce logiciel n'est plus installé par défaut, mais est toujours disponible dans les dépôts de logiciels Linux Mint.
+* Gestionnaire de téléchargement (mintUpload) :
+Définit les services de téléchargement pour les serveurs FTP, SFTP et SCP.
+Les services sont alors disponibles dans la barre d'état système et fournissent des zones où ils peuvent être automatiquement téléchargés vers leurs destinations correspondantes.
+* Bloqueur de domaine (mintNanny)
+: Un outil de contrôle parental de blocage de domaine de base introduit avec la v6.
+Permet à l'utilisateur d'ajouter manuellement des domaines à bloquer à l'échelle du système.
+Depuis Linux Mint 18.3, ce logiciel n'est plus installé par défaut, mais est toujours disponible dans les dépôts de logiciels Linux Mint.
+Tableau des versions
+À la différence d'Ubuntu, Mint ne communique pas de dates de sortie.
+Les communiqués de presse sont annoncés lorsque « tout est prêt » (qui vient de l'anglais « When it's ready », souvent utilisé pour décrire ce genre de développement).
+Ils peuvent être publiés en avance sur le calendrier, lorsque la distribution est au point, ou retardés quand des bogues critiques sont découverts.
+Le contrôle de la version installée s'effectue par le menu Préférences / Écran d'accueil, ou dans un terminal avec la commande lsb_release -a
+Fichier
+Tara sortie en 2018
+Fichier
+Linux
+Mint-14-Cinnamon
+Edition menu.png|Linux
+Nadia sortie en 2012
+Fichier
+Mint Menu.png|Linux Mint 9 Isadora sortie en 2010
+Fichier
+Linuxmint6.felicia.desktop.png|Linux Mint 6 Felicia sortie en 2008
+Fichier:
+LinuxMintScreen.png|Linux Mint 2 Barbara sortie en 2006
+LTS signifie Long Term
+Support c'est-à-dire un support à long terme soit 5 ans.
+RC signifie Release Candidate soit une version admissible.
+On peut traduire cela par Version presque finale.
+Installation par LiveUSB
+Linux Mint est proposé sous la forme d'un LiveUSB (ou LiveDVD).
+Un redémarrage permet d'essayer la distribution et de l'installer.
+Ce type de média n'altère en rien le (s) système (s) d'exploitation installé (s) à demeure (que ce soit Windows ou un autre système) parce qu'il utilise la mémoire vive de l'ordinateur pour simuler un disque dur ;
+il constitue donc un bon moyen de découvrir Linux, ou de tester la compatibilité d'un ordinateur avec une distribution sans avoir à écrire dessus .
+Configuration requise pour Linux Mint Cinnamon 19.1 :
+À noter :
+* Si l'affichage d'effets 3D est souhaité, une carte graphique possédant un processeur graphique et compatible avec Linux Mint est nécessaire.
+Le même conseil prévaut en cas d'utilisation de Cinnamon, qui requiert plus de ressources que ses homologues MATE et Xfce.
+* Linux Mint prend en charge les architectures Intel x86 (32 bits) et AMD64 (64 bits).
+L'architecture 32 bits ne permet d'exploiter la mémoire vive d'un ordinateur que jusqu'à mais elle l'occupe (légèrement) moins que la 64 bits.
+Si Linux Mint est exécuté dans Virtualbox avec un écran physique de taille supérieure à 1280x960 et sous réserve d'une mémoire suffisante allouée à la carte graphique de sa machine virtuelle, Mint choisit automatiquement la résolution d'affichage la plus appropriée, à la différence d'Ubuntu
+Enfin
+, comme dans nombre d'autres distributions, des forums d'entraide permettent à tout utilisateur, en cas de problèmes d’installation ou d'utilisation, d'échanger avec la communauté.

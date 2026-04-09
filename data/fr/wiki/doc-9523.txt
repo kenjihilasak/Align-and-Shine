@@ -1,0 +1,49 @@
+Application linéaire|*|Propriété de fonction|Lineaire
+En mathématiques, une application linéaire (aussi appelée opérateur linéaire ou transformation linéaire mais beaucoup d'auteurs réservent le mot de « transformation » à celles qui sont bijectives) est une application entre deux espaces vectoriels sur un corps K ou deux modules sur un anneau qui respecte l'addition des vecteurs et la multiplication scalaire définie dans ces espaces vectoriels ou modules, ou, en d'autres termes, qui « préserve les combinaisons linéaires ».
+Définitions
+Soient et deux espaces vectoriels à gauche sur un corps .
+Une application est dite linéaire (ou « morphisme de -espaces vectoriels ») si elle vérifie à la fois
+\forall (x,y)\in E^2\quad f (x+y)=f (x)+f (y)
+\forall\lambda\in K\quad\forall
+x\in E\quad f (\lambda x)=\lambda f (x).
+Une application possédant la première propriété est dite additive et, pour la seconde, homogène.
+Caractérisations équivalentes :
+L'application est linéaire si et seulement
+si :
+\forall (x,y)\in E^2\quad\forall\lambda,\mu\in K\quad f (\lambda x+\mu y)=\lambda f (x)+\mu f (y)
+ou plus simplement :
+:\forall (x,y)\in
+E^2\quad\forall\mu\in
+K\quad f (x+\mu y)=f (
+x)+\mu f (y)
+Autrement dit, est linéaire si elle préserve les combinaisons linéaires, c'est-à-dire : pour toute famille finie de vecteurs et pour toute famille de scalaires (c'est-à-dire d'éléments de ),
+Notations :
+On note l'ensemble des applications linéaires de dans ;
+il peut aussi être noté ou , mais le corps en indice est souvent omis et implicite lorsqu'il est facile à dériver du contexte.
+Cas particuliers :
+* Un isomorphisme d'espaces vectoriels est un morphisme bijectif.
+On note l'ensemble des isomorphismes de sur ;
+* Un endomorphisme est un morphisme ayant même espace vectoriel de départ et d'arrivée.
+On note l'ensemble des endomorphismes de E ;
+* Un automorphisme est un endomorphisme bijectif.
+On note le groupe des automorphismes de (appelé aussi le groupe linéaire de ) ;
+* Si l'espace vectoriel d'arrivée est le corps , on parle de forme linéaire.
+On note l'ensemble des formes linéaires sur (appelé aussi espace dual de ).
+Noyau et image
+Si est une application linéaire de dans , alors son noyau, noté , et son image, notée , traduction de « noyau » en anglais.
+provient de image.
+Une application linéaire est injective si et seulement si son noyau est l'espace nul (c'est une propriété générale des morphismes de groupes).
+Une application (linéaire ou pas) est surjective si et seulement si son image est égale à son ensemble d'arrivée tout entier.
+L'ensemble est un sous-espace vectoriel de , et l'ensemble est un sous-espace vectoriel de .
+Plus généralement,
+*l'image réciproque
+par d'un sous-espace vectoriel de est un sous-espace vectoriel de ;
+*l'image directe
+par d'un sous-espace vectoriel de est un sous-espace vectoriel de
+Pour toute famille génératrice de , est le sous-espace de engendré par la famille
+L'espace vectoriel quotient s'appelle le conoyau.
+Si est de dimension finie et si le corps est commutatif, alors la dimension de est donnée par :\dim (\operatorname L (E,F))=\dim (E)\times\dim (F).En particulier, si est aussi de dimension finie alors l'est également.
+Si et sont des espaces vectoriels de dimension finie (resp.
+des modules libres de type fini) à droite sur un corps (resp.
+un anneau) , une application linéaire de dans se représente par une matrice dans des bases fixées dans et .
+Cette représentation matricielle est commode pour calculer le noyau et l'image de .

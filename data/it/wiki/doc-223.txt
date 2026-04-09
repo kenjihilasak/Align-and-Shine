@@ -1,0 +1,107 @@
+In matematica, la potenza è un'operazione che associa ad una coppia di numeri a e n, detti rispettivamente base ed esponente, il numero dato dal prodotto di n fattori uguali ad a:
+\begin a^n:= & \underbrace \\ & n\mbox \end
+in questo contesto a può essere un numero intero, razionale o reale mentre n è un numero intero positivo.
+Con opportune ipotesi su a è possibile considerare anche altri valori numerici per gli esponenti, ad esempio esponenti interi (anche non positivi), razionali o reali.
+Le potenze scritte nella forma a^n si leggono come a elevato alla n o più semplicemente a alla n. L'esponente è usualmente rappresentato come apice immediatamente a destra della base.
+Peculiarità ed esempi
+Alcuni esponenti hanno un loro nome.
+L'esponente due è spesso indicato come al quadrato (un numero alla seconda rappresenta l'area di un quadrato che abbia per lato quel valore) e l'esponente 3 come al cubo (un numero alla terza rappresenta il volume di un cubo che abbia per spigolo quel valore).
+Esempi:
+* 3^2
+3\cdot3
+9 si legge tre alla seconda oppure tre al quadrato
+* 2^3
+2\cdot2\cdot2
+4\cdot2=8 si legge due alla terza oppure due al cubo
+* 3^4
+3\cdot3\cdot3\cdot3
+9\cdot9=81 si legge tre alla quarta oppure tre elevato
+alla quarta
+* \left (\frac 1 2 \right)^3
+\frac
+1 2 \cdot \frac 1 2 \cdot \frac
+\frac
+1 8 si legge un mezzo alla terza oppure un mezzo al cubo
+a^0
+perché a^0
+a^n/a^n=1,
+e ad n negativi
+ponendo
+a^=\frac 1 ,
+Ad esempio,
+10^
+\frac
+0,001.
+Proprietà
+Le seguenti proprietà sono di immediata verifica nel caso in cui gli esponenti siano numeri interi positivi:
+* Il prodotto di due, o più potenze aventi la stessa base, è una potenza che ha per base la stessa base e come esponente la somma degli esponenti:
+a^n \cdot a^m = a^.
+* Il quoziente di potenze aventi la stessa base, è una potenza che ha per base la stessa base e come esponente la differenza degli esponenti:
+\frac = a^.
+* La potenza di una potenza è una potenza in cui la base rimane la stessa e l'esponente è dato dal prodotto degli esponenti:
+\left (a^n\right)^m
+\left (a^m\right)^n.
+* Il prodotto di potenze con lo stesso esponente è una potenza che ha per esponente lo stesso esponente e per base il prodotto delle basi:
+a^n\cdot b^n= (a\cdot b)^n \;
+* Il quoziente di potenze con lo stesso esponente è una potenza che ha per esponente lo stesso esponente e per base il quoziente delle basi:
+\frac = \left (\frac\right)^n
+Notiamo che la definizione a^0=1 risulta ora più comprensibile poiché è consistente con le proprietà appena viste, infatti:
+\frac
+a^0 = 1.
+Si noti che a^0 è un prodotto vuoto e pertanto è pari ad 1.
+E lo stesso vale per la definizione di a^, infatti:
+\frac = \frac
+Radici ed esponenti frazionari
+Dato un numero naturale a non negativo si chiama radice n-esima di a quel numero reale non negativo b tale che b^n=a, tale numero si indica con \sqrtna.
+Da questa definizione si ha subito che
+\left (\sqrtna\right)^n=
+quindi è ragionevole (in virtù delle proprietà delle potenze) porre
+a^ :
+= \sqrtna
+In questo modo le proprietà delle potenze sono ancora rispettate, infatti
+\left (a^\right)^n:
+a^1=
+come avveniva per la radice n-esima.
+Più in generale la definizione di potenza può essere estesa ulteriormente, con alcune restrizioni, consentendo all'esponente di essere un numero razionale \frac x y, con x e y primi tra loro, se si pone:
+a^ :
+= \sqrty
+In questo caso:
+* se y è pari, la potenza è definita per a positivo;
+** se x è positivo, la potenza è definita per qualsiasi a;
+** se x è negativo, la potenza è definita per qualsiasi a non nullo.
+Trascurando tali restrizioni e l'ipotesi x e y primi tra loro si cade in assurdi quali:
+\sqrt3
+(-1)^
+(-1)^
+\sqrt6
+\sqrt6
+Il passaggio errato è il terzo, in quanto (-1)^ non è definito in \R .
+Potenze ad esponente reale
+È possibile estendere la definizione dell'operazione di elevamento a potenza anche ai casi in cui base ed esponente sono dei generici numeri reali (con la base però sempre positiva) facendo in modo che si conservino le regole di operazione tra potenze e che la funzione potenza risultante sia una funzione continua, e questa estensione è unica.
+Si può in tal modo dare senso a espressioni come 3^ o eπ.
+Definiamo inizialmente a^b con la base a>1 e l'esponente b>0, entrambi numeri reali.
+Possiamo scrivere b nella sua rappresentazione in base 10 con la scrittura:
+b=b_0,b_1 b_2 b_3 b_4 \ldots
+La successione \beta_n dei numeri
+\beta_0=b_0
+\beta_1=b_0,b_1
+\beta_2=b_0,b_1 b_2
+\beta_3=b_0,b_1 b_2 b_3
+\dots
+è una successione di numeri razionali crescente che tende a b.
+La potenza a^ ha esponente razionale, quindi è stata definita.
+La successione di numeri reali
+\dots
+è una successione anch'essa crescente (poiché a>1), risulta quindi naturale definire il valore di a^b come l'estremo superiore di tale successione:
+a^b:=\mbox_n\.
+Nel caso in cui la base fosse un numero compreso tra 0 e 1 si può definire:
+a^b:= ( (a^)^b)^,
+poiché a^ in questo caso è maggiore di 1 e quindi il secondo membro è definito.
+Difatti, essendo a^b
+( (a^)^b)^
+( (a^)^), si ha la seguente successione di numeri reali (considerando \beta_n come prima):
+(a^)^
+(a^)^
+(a^)^
+\dots
+che è una successione decrescente e quindi si può porre, in questo caso, a^b:=\mbox_n\ .

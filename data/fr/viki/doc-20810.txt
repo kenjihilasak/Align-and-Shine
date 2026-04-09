@@ -1,0 +1,48 @@
+logo du format JSON
+JSON (acronyme de JavaScript Object Notation) est un moyen de représenter des informations (données) de façon lisible aussi bien par une machine (par exemple un programme informatique) que par un humain.
+est donc un format de données et, par extension, un type de fichier (.json).
+Aujourd’hui,
+JSON est l’un des formats de données les plus utilisés dans le monde1.
+Sommaire
+Imaginons
+qu’on veuille représenter des vêtements, par exemple parce qu’on souhaite les vendre.
+Dans ce cas, on pourrait représenter chaque vêtement par sa description :
+"petit manteau bleu" "long pantalon rayé" "gants rouges pour la neige"
+On a là une liste de vêtements, et en JSON les listes sont représentées entre crochets [ ... ] avec une virgule entre chaque élément :
+["petit manteau bleu","long pantalon rayé","gants rouges pour la neige"]
+Imaginons maintenant qu’
+on veuille permettre aux acheteurs de filtrer nos vêtements par couleur.
+Par exemple, pas la peine de montrer nos vêtements bleus à quelqu’un qui n’aime pas le bleu.
+Avec notre format «
+liste de descriptions »
+, il faudrait chercher le mot « bleu » dans toutes nos descriptions, en prenant en comptes ses différentes formes (bleue, bleus, etc.) et ses synonymes (azur, outremer, etc.).
+Une personne peut le faire, mais (avec de nombreux vêtements) c’est long et ennuyeux.
+Un ordinateur est beaucoup plus rapide, mais les machines ne sont pas encore très fortes à comprendre le sens des phrases ;
+il est donc probable que les nuances comme « bleue » ou « azur » ne seraient pas prises en compte.
+Une meilleure solution consiste à représenter la couleur séparément :
+["petit manteau","bleu"],["long pantalon rayé","?"],["gants pour la neige","rouge"]]
+Maintenant
+, chaque vêtement est lui-même une liste contenant une description et une couleur.
+Une machine peut beaucoup plus facilement proposer ou cacher un vêtement selon ce que l’acheteur veut : il suffit de comparer son critère (« je veux du bleu ») au second élément de chaque vêtement-liste.
+Avec beaucoup d’
+autres critères (taille, motifs, prix, etc.
+, représenter un vêtement sous forme de liste risque de devenir difficile à lire.
+Au lieu d’une liste
+, on peut utiliser ce que JSON appelle un « objet » en remplaçant les crochets des listes ([ ... ]) par des accolades ({ ... }) et en donnant un nom à chaque élément :
+JSON permet de représenter des données sous les formes suivantes :
+les listes, encadrées par des crochets [
+... ] et composées d’éléments séparés par une virgule ;
+les objets, encadrés par des accolades { ... } et composés d’
+éléments associés à un nom, avec chaque élément séparé de son nom par un deux-points, et chaque élément séparé des autres par une virgule ;
+le texte
+, écrit entre guillemets droits "..." ;
+les valeurs de vérité (booléens)
+vrai
+» (écrit en anglais true) et « faux » (false) ;
+l’absence d’une autre valeur : null.
+JSON est l’acronyme de JavaScript Object Notation, ou « notation objet issue de JavaScript », car la syntaxe de JSON est pratiquement la même que celle utilisée en JavaScript.2 Le format a été inventé au début des années 20003 pour faciliter la construction de pages web dynamiques, c’est-à-dire qui changent sans que l’utilisateur n’ait besoin de rafraîchir ou cliquer.
+Pour de nombreux usages, JSON était plus simple à utiliser que XML, l’autre célèbre format de données à l’époque.4 En particulier, la structure de JSON (listes, objets) est facile à lire par une machine et se retrouve dans de nombreux langages de programmation.
+Parce qu’il est si simple, JSON a été repris et étendu par de nombreux autres formats, parmi lesquels :
+YAML tente de le rendre plus facile à lire et écrire par des humains ;
+BSON optimise l’usage par les machines ;
+Jsonnet et Dhall ajoutent des fonctionnalités généralement trouvées dans les langages de programmation (conditions, fonctions, etc.).

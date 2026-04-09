@@ -1,0 +1,125 @@
+Physique quantique
+Leffet tunnel désigne la propriété que possède un objet quantique de franchir une barrière de potentiel même si son énergie est inférieure à l'énergie minimale requise pour franchir cette barrière.
+C'est un effet purement quantique, qui ne peut pas s'expliquer par la mécanique classique.
+Pour une telle particule, la fonction d'onde, dont le carré du module représente la densité de probabilité de présence, ne s'annule pas au niveau de la barrière, mais s'atténue à l'intérieur de la barrière (pratiquement exponentiellement pour une barrière assez large).
+Si, à la sortie de la barrière de potentiel, la particule possède une probabilité de présence non nulle, cela signifie qu'elle peut traverser cette barrière.
+Cette probabilité dépend des états accessibles de part et d'autre de la barrière ainsi que de l'extension spatiale de la barrière.
+Analyse
+Au niveau théorique le comportement tunnel n'est pas fondamentalement différent du comportement classique de la particule quantique face à la barrière de potentiel ;
+elle satisfait à l'équation de Schrödinger, équation différentielle impliquant la continuité de la fonction d'onde et de sa dérivée première dans tout l'espace.
+De même que l'équation des ondes électromagnétiques mène au phénomène des ondes évanescentes, de même la fonction d'onde rencontre des cas où l'amplitude de probabilité de présence est non nulle dans des endroits où l'énergie potentielle est supérieure à l'énergie totale.
+Si, au niveau mathématique l'évaluation de l'effet tunnel peut parfois être simple, l'interprétation que l'on cherche à donner aux solutions révèle le fossé qui sépare la mécanique classique, domaine du point matériel suivant une trajectoire définie dans l'espace-temps, de la mécanique quantique où la notion de trajectoire simple disparaît au profit de tout un ensemble de trajectoires possibles.
+La .
+Démonstration
+En 1978 le thermodynamicien Hubert Juillet réalise des jonctions thermoélectriques bithermes dont une distance pointe-échantillon de quelques nanomètres permet le passage d'un courant électrique par effet tunnel et cela même avec des tensions extrêmement basse : <0,0001 V.
+Ces travaux aboutirent bien plus tard à des dépôts de brevets d'inventions et sont considérés comme étant les ancêtres du microscope à effet tunnel et du chapelet conducteur d'électricité (electrically conductive string).
+Applications
+L'effet tunnel est à l'œuvre
+dans :
+* les modélisations des désintégrations (fission, radioactivité alpha ),
+Cas particulier :
+l'effet tunnel résonnant.
+Exemples
+Analyses mathématiques
+Introduction à la notion de transmitivité
+La barrière quantique sépare l'espace en trois, dont les parties gauche et droite sont considérées comme ayant des potentiels constants jusqu'à l'infini (V_G à gauche, V_D à droite).
+La partie intermédiaire constitue la barrière, qui peut être compliquée, révélant un profil doux, ou au contraire formé de barrières rectangulaires, ou autres éventuellement en séries.
+On s'intéresse souvent à la recherche des états stationnaires pour de telles géométries, états dont l'énergie peut être supérieure à la hauteur de potentiel, ou au contraire inférieure.
+Le premier cas correspond à une situation dénommée parfois comme classique, bien que la réponse révèle un comportement typiquement quantique ;
+le second correspond au cas où l'énergie de l'état est inférieure à la hauteur du potentiel.
+La particule à laquelle correspond l'état traverse alors la barrière par effet tunnel, ou, autrement dit, si l'on considère le diagramme énergétique, par effet saute-mouton.
+Envisageant une particule incidente depuis la gauche, l'état stationnaire prend la forme simple suivante :
+:\varphi (x) = \exp (ik_Gx)+r\exp (-ik_Gx) pour x<a ;
+\varphi (x) = \varphi_ (x) pour a \leq x\leq b ;
+:\varphi (x) = t\exp (ik_Dx) pour b \leq x ;
+où r et t sont respectivement les coefficients de réflexion et transmission en amplitude pour l'onde plane incidente \varphi (x) = \exp (ik_Gx).
+\varphi_ (x) est la fonction d'onde à l'intérieur de la barrière, dont le calcul peut être assez compliqué ;
+elle est liée aux expressions de la fonction d'onde dans les demi-espaces droits et gauches par les relations de continuité de la fonction d'onde et de sa dérivée première.
+Assez souvent on s'intéresse à la probabilité de transmission (donnant lieu au courant tunnel, par exemple), et donc on privilégie l'étude du coefficient de transmission t , plus précisément la valeur en amplitude et phase du coefficient t_
+\frac
+, caractérisant les relations entre l'onde plane incidente, prise à l'entrée
+a et l'onde plane de sortie prise au point b.
+La probabilité de transmission est nommée la transmitivité T
+|t_|^2.
+Ce sont ces transmitivités qui sont présentées dans quelques cas particuliers ci-dessous, limitées (en fait pour certaines formules seulement) au cas tunnel.
+Exemples de transmitivités tunnel
+barrière rectangulaire simple, associations de barrières simples
+La plupart des particularités de l'effet tunnel apparaissent lors de la considération de la barrière de potentiel la plus simple, une barrière rectangulaire symétrique, pour laquelle le potentiel est constant (égal à U) entre les points a et b, et nul à droite et à gauche.
+Dans ce cas les vecteurs d'onde incident (réfléchi) et transmis ont même module, noté k
+\sqrt \hbar .
+Pour les calculs on se place dans le repère où a=0.
+La condition de continuité en 0 de la fonction d'onde et de sa dérivée s'écrit :
+\left\{\begin A
+\frac1+r+\frac (
+1-r
+\\ B
+\frac1+r-\frac (1-r)
+\end\right.
+La condition de continuité en b :
+\left\{\begin A
+\frac1+\frace^ \\ B
+\frac1-\frace^ \end\right.
+De ces équations on évalue les complexes r, t et la transmitivité :
+\frac \frac
+\quad , \quad T
+|t|^2 = \frac ,
+avec d=b-a l'épaisseur de la barrière.
+Dans le cas de barrière épaisse (\Kappa d grand), l'on obtient la formule simple à retenir :
+:T=16\frac\;\exp (-2\Kappa d) .
+Dans ce cas là, on peut considérer la transmitivité comme le produit obtenu par l'approche BKW (cf. infra le terme exponentiel) par un préfacteur qui n'est que le produit des modules carrés des coefficients de transmission propres aux interfaces d'entrée et de sortie.
+Cette structure est une forme simplifiée de celle qui apparaît dans le cas d'une barrière de forme quelconque décomposée comme une série de barrières rectangulaires.
+La structure du calcul repose alors sur la prise en compte d'une écriture matricielle des équations, reliant les composantes progressive et régressive dans chaque couche, permettant l'établissement de la matrice de transfert du mode stationnaire entre l'espace d'entrée et l'espace de sortie.
+Cette méthode est illustrée sur le cas d'une structure rencontrée en électronique ou optique, la barrière tunnel résonnante, constituée d'une barrière d'entrée d'une partie interne de potentiel bas (puits de potentiel, de largeur L) et d'une barrière de sortie (cf. schéma).
+On montre que, dans le cas où le potentiel dans le puits est constant (définissant un vecteur d'onde réel k_3=\sqrt/\hbar), la transmitivité de la barrière peut s'écrire :
+T=\frac ;
+dans le numérateur apparaissent les transmitivités des barrières d'entrée et de sortie, et le dénominateur contient, outre les coefficients de réflexion en amplitude des barrières d'entrée de sortie, vues depuis l'intérieur du puits central, un terme exponentiel dont les variations (en fonction de l'énergie et/ou l'épaisseur) sont sources de résonances possibles (la formule est bonne pour des formes quelconques des barrières d'entrée et de sortie).
+barrière trapézoïdale
+La barrière trapézoïdale est obtenue par l'application d'une différence de potentiel entre les deux extrémités de la barrière rectangulaire simple.
+Ce qui donne le schéma suivant, qui offre l'avantage d'admettre des solutions analytiques exactes ;
+en effet, pour cette barrière l'expression de la fonction d'onde, à l'intérieur est une combinaison linéaire de fonctions d'Airy, Ai et Bi, que l'on peut raccorder aux ondes planes solutions dans les parties gauches et droites.
+Un cas particulier apparaît dans le cadre de cette description.
+Si la différence de potentiel est suffisamment importante pour que la barrière montre l'existence d'un point classique de retour , on obtient alors l'effet d'émission de champ, couramment utilisé en microscopie électronique.
+La particule, située dans la bande de conduction à gauche, traverse par effet tunnel et se trouve accélérée vers l'extérieur, à droite.
+Éventuellement, selon les valeurs de l'énergie et la forme de la barrière, des résonances de transmitivité peuvent apparaître, dues au saut de potentiel sur la marche de droite.
+Cette résonance a certains traits communs avec ceux de l'effet Ramsauer.
+Le schéma ci-contre correspond à une accumulation d'instantanés de la densité de présence associée à un paquet d'onde incident depuis le bas à gauche.
+L'effet de résonance se manifeste ici par l'apparition des trois maxima dans la partie classique de la barrière.
+Au terme de la traversée les parties réfléchies et transmises s'éloignent vers le haut de la figure, à gauche et à droite respectivement.
+approximation BKW
+Dans le cas où la barrière de potentiel présente un profil doux, il est possible de montrer, à partir de l'équation de Schrödinger, ou à partir d'une discrétisation fine du potentiel en une série de petites barrières rectangulaires successives, que la fonction d'onde, en un point de coordonnée x dans la barrière peut s'écrire :
+\varphi_ (x) = \frac\;\leftA \exp\left (i\int^x\,du\,k (u)\right) + B \exp\left (-i \int^x\,du\,k (u)\right)\right.
+Cette approximation, étudiée par Brillouin, Kramers et Wentzel, est manifestement non valide pour les points classiques de retour, x_1\;,\;x_2 (cf. schéma), où le potentiel V (x) est égal à l'énergie E de l'état (k (x) est alors nul), il faut procéder avec quelque soin au raccordement de part et d'autre de ces points.
+Dans le cadre de l'étude de la transmitivité cette expression est surtout utile dans le cas tunnel, où k (x) devenant imaginaire pur, les deux exponentielles apparaissant dans l'expression ci-dessus correspondent à des termes décroissant de la gauche vers la droite (terme facteur de la constante A) et décroissante de la droite vers la gauche (terme facteur de B).
+Dans le cas d'une onde incidente venant de gauche, et pour les barrières suffisamment larges, la source de la partie régressive (expression B) est minime.
+La transmitivité due à cette partie tunnel est alors obtenue par la considération de la diminution de l'amplitude de l'onde entre les points classiques de retour d'entrée et de sortie, soit :
+\exp\left-2\;\int_^\;du\;\Kappa (u)\right\quad ;
+\quad \Kappa (u)
+\sqrt\;.
+C'est cette expression qu'il faut alors calculer, par la méthode du potentiel inversé, par exemple.
+Cette approximation doit être corrigée par des préfacteurs, caractéristiques des potentiels à forte pente (saut de potentiel), que l'on rencontre à l'interface entre deux matériaux, et qui sont monnaies courantes dans les composants électroniques actuels (puits quantiques).
+Approche semi-classique et utilisation du potentiel retourné
+Antérieurement au développement des moyens de calculs rapides et puissants, qui permettent des évaluations précises des transmitivités, des méthodes approchées se sont développées qui ont permis, de façon efficace, de découvrir des caractéristiques de quelques transmitivités tunnel de certaines barrières d'importance théorique et pratique : barrière de type coulombien (modèle de radioactivité alpha) ou barrière triangulaire associée à l'effet de champ.
+Il s'agit d'évaluer l'argument de l'exponentielle apparaissant dans l'approximation BKW.
+Il est aisé de calculer les intégrales pour les potentiels hyperboliques ou linéaires, mais il est intéressant de noter l'approche possible par la méthode du potentiel retourné pour laquelle l'évaluation de \exp i \int^x p (u)du 2\hbar dans laquelle S (E) est l'action calculée sur l'orbite classique que suivrait une particule de même énergie dans le potentiel retourné, obtenu dans le cadre de l'emploi de la symétrie de Corinne.
+L'intérêt repose alors sur le fait que pour les barrières suffisamment épaisses, correspondant à des puits larges, l'action est, dans l'approximation semi-classique, sujette à la quantification S (E)= n\,h.
+La transmitivité BKW d'une telle barrière s'écrit alors :
+:T (E) = \exp-2\pi n (E)\,,
+où le nombre quantique n (E) est la fonction réciproque de l'énergie E postulée comme niveau d'énergie discret du puits de potentiel correspondant à la barrière retournée.
+Application à la radioactivité alpha
+La barrière de potentiel que doit traverser la particule alpha, d'énergie E, après son apparition aléatoire au sein du noyau de numéro atomique Z, est transformée en un puits coulombien, dont les niveaux d'énergies sont ceux d'un hydrogénoïde.
+Ceci permet le calcul du nombre n (E) directement à partir de formules bien connues :
+:E = -\frac\times \frac\,,
+où apparaissent la masse réduite, et les charges de la particule alpha et du noyau fils (numéro atomique Z-1).
+Le report du nombre n (E) dans l'expression de la transmitivité révèle alors le comportement observé de la demi-vie (proportionnelle à l'inverse de la transmitivité) des émetteurs alpha en fonction de \sqrt, énergie de la particule rencontrant la barrière.
+Application à l'effet Fowler-Nordheim
+Sous l'action d'un champ électrique F, on peut faire sortir des électrons d'un métal (charge q, masse m, énergie E par rapport au bas de la bande de conduction), en particulier d'un métal alcalin de travail de sortie \Phi.
+L'électron est alors soumis à un potentiel triangulaire qui peut, en première approximation, être traité par la méthode BKW : la transmitivité qui s'en déduit (compte tenu des points classiques de retour x_1
+0 et x_2
+\Phi -E)/qF)
+est
+\exp\left-2\;\int_^\;\textu\;\Kappa (u)\right\;
+\;\exp\left-2\;\frac\int_^\;\textX\;\sqrt\right
+:\qquad=\exp\left-\;\frac (\Phi-E)^\right\;.
+L'obtention du courant tunnel doit bien sûr tenir compte de la distribution en énergie et direction de l'ensemble des électrons de la bande, pour la température du conducteur.
+Ici aussi la transmissivité aurait pu être obtenue en utilisant un potentiel retourné.
+Il s'agit alors du demi-puits de Torricelli, dont les niveaux d'énergie peuvent être calculés et permettre l'obtention du nombre n (E).

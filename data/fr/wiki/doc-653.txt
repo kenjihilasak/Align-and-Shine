@@ -1,0 +1,238 @@
+Analyse
+réelle|Suite
+En mathématiques, une suite est une famille d'éléments
+- appelés ses « termes »
+- indexée par les entiers naturels.
+Une suite finie est une famille indexée par les entiers strictement positifs inférieurs ou égaux à un certain entier, ce dernier étant appelé « longueur » de la suite.
+Lorsque tous les éléments d'une suite (infinie) appartiennent à un même ensemble E, cette suite peut être assimilée à une application de \N dans E. On note classiquement une suite (u_n)_, ou en abrégé : (u_n).
+En particulier, on parle de suite « entière », suite « réelle » et suite « complexe », quand E est un sous-ensemble de \Z, \R et \Complex, respectivement.
+Fragments d'histoire
+Les suites numériques sont liées à la mathématique de la mesure (mesures d'un phénomène prises à intervalles de temps réguliers) et à l'analyse (une suite numérique est l'équivalent discret d'une fonction numérique).
+La notion de suite est présente dès qu'apparaissent des procédés illimités de calcul.
+On en trouve, par exemple, chez Archimède, spécialiste des procédés illimités d'approximation (séries géométriques de raison 1/4) pour des calculs d'aires et de volumes, ou en Égypte vers 1700 et plus récemment au dans le procédé d'extraction d'une racine carrée par la méthode de Héron d'Alexandrie :
+: Pour extraire la racine carrée de A, choisir une expression arbitraire a et prendre la moyenne entre a et A \over a et recommencer aussi loin que l'on veut le processus précédent
+En notation moderne, cela définit la suite de nombres (u_n) telle que
+u_0
+a et, pour tout entier n \;
+\left (u_n + \right).
+On retrouve ensuite cette préoccupation plusieurs siècles plus tard avec la méthode des indivisibles (Cavalieri, Torricelli, Pascal, Roberval).
+Dans l'Encyclopédie Raisonnée de d'Alembert et Diderot (1751), une grande part est laissée aux suites et séries dont le principal intérêt semble être leur convergence :
+:Suite et série : se dit d'un ordre ou d'une progression de quantités qui croissent ou décroissent suivant quelques lois.
+Lorsque la suite va toujours en s'approchant de plus en plus de quelque quantité finie … on l'appelle suite convergente et si on la continue à l'infini, elle devient égale à cette quantité.
+C'est ainsi que l'on voit Bernoulli, Newton, Moivre, Stirling et Wallis, s'intéresser aux suites pour approcher des valeurs numériques.
+C'est à Lagrange que l'on doit, semble-t-il, la notation indicielle.
+L'étude des suites ouvre la porte à celle des séries entières dont le but est d'approcher, non plus des nombres, mais des fonctions.
+Dans la seconde moitié du , le développement des calculateurs et des ordinateurs donne un second souffle à l'étude des suites en analyse numérique grâce à la méthode des éléments finis.
+On en retrouve l'usage aussi dans les mathématiques financières.
+Parallèlement à ces études de suites pour leur convergence, se développe un certain goût pour l'étude de la suite non tant pour sa convergence mais pour son terme général.
+C'est le cas par exemple d'un grand nombre de suites d'entiers comme la suite de Fibonacci, celle de Lucas ou, plus récemment, celle de Syracuse.
+Sont aussi particulièrement étudiées les suites de coefficients dans des séries entières ou les suites de nombres découvertes lors de dénombrements.
+Notations
+L'ensemble des suites d'éléments de E indexées par une partie A de \N se note \mathcal F\left (A, E\right) ou E^A.
+Soit A une partie de \N.
+Soit u \in E^A une suite d'éléments de E.
+On note u_n l'image u (n) de l'entier n par u.
+Ainsi, les images de 0, 1, 2, \dots, n sont notées u_0, u_1, u_2, \dots, u_n.
+On dit que u_n est le terme de rang n, ou d'indice n de la suite u.
+On note en général la suite u : (u_n)_
+qui est donc une application.
+Lorsque A =\N, on note plus simplement la suite : (u_n).
+Lorsque
+\N_n:
+n \cap \N = \, on peut noter la suite (u_k)_ ou encore (u_1, u_2, \dots, u_n).
+Remarque
+Il ne faut pas confondre la suite u = (u_n)_ avec l'ensemble des valeurs de la suite \ qui est l'image directe de \N par u.
+Par exemple, considérons la suite \left ( (-1)^n\right), l'ensemble des valeurs de la suite
+est \.
+Exemples
+La suite nulle est la suite dont tous les termes sont nuls :
+:\left (0, 0, 0, 0, \dots \right).
+Plus généralement, si (u_n) est une suite et que \exists N \in\N \quad
+\forall
+\geq
+N \quad
+u_n = 0 , alors on dit que (u_n) est une suite « presque nulle », ou « nulle à partir d'un certain rang ».
+Pour des raisons de commodité, pour tout élément k de E on peut identifier k et la suite :
+:\left (k, k, k, \dots \right)
+Posons \forall n \in \N,
+u_n
+u_n)
+_ est la suite des inverses des nombres entiers.
+Celle-ci peut être représentée par :
+:\left (1,\frac12,\frac13,\frac14,\frac15,\frac16,\cdots\right).
+Terme général et récurrence
+Une suite étant une application de A dans E, il est intéressant, voire primordial, de connaître l'image de n pour tout n de A. Si u_n est donné comme expression de n et permet un calcul direct du nombre, on dit que l'on connait le terme général de u_n.
+Cependant, si A=\, la nature de l'ensemble de départ permet de définir la suite par une relation de récurrence : le terme d'indice n est donné comme fonction de n et des termes d'indices k, k ≤ n. La propriété de récurrence permet d'affirmer qu'il suffit alors de donner u_ pour en déduire tous les termes.
+En pratique, la détermination de u_n va nécessiter le calcul de tous les termes de u_ à u_, soit une opération bien longue.
+En programmation, cette récurrence a donné lieu à la création des fonctions récursives.
+Une partie de la recherche sur les suites va consister à déterminer le terme général d'une suite connaissant sa relation de récurrence.
+Exemple
+:La suite (u_n) définie par u_0
+1 et, pour tout entier n, u_
+n+1)u_n est la suite des factorielles : u_n = n!.
+Somme des termes d'une suite
+Si E est un groupe additif, on note : \sum_^u_n ou \sum_u_n la somme :
+: u_p + u_ + \cdots + u_q.
+Exemples de suites
+Suite arithmétique
+C'est une suite à valeurs dans un groupe additif, définie par récurrence
+par :
+\begin
+u_ = a\\
+\forall n \geq
+n_0\quad u_ = u_n
++ r
+\end
+où r est une constante.
+Son terme général est alors :
+u_n
+a + (n
+- n_0)r.
+Suite géométrique
+C'est une suite à valeurs dans un monoïde, définie par récurrence par :
+\begin
+u_ = a\\
+\forall n \geq n_0, \quad u_ = qu_n
+\end
+où q est une constante.
+Son terme général est alors :
+u_n
+a q^.
+Suites arithmético-géométriques
+C'est une suite à valeurs dans un corps commutatif, définie par récurrence
+par :
+\begin
+u_ = U\\
+\forall n \geq n_0, \quad u_ = au_n + b.
+\end
+u_n
+\frac
+b + a^ \left (U - \frac\right).
+Suites
+récurrentes linéaires à coefficients constants
+Une suite récurrente linéaire est définie par une relation de récurrence :
+a_0u_n + a_1u_ + \cdots+ a_u
+où a_0,
+a_1, …a_ sont p scalaires (a_0\ne0).
+L'entier p est appelé l’ordre de la récurrence.
+Les suites à récurrence linéaire d’ordre 1 sont les suites géométriques ;
+une suite récurrente linéaire d’ordre 2 célèbre est la suite de Fibonacci.
+L’étude des suites récurrentes linéaires d’ordre p fait appel à la notion d’espace vectoriel et au calcul matriciel, et on dispose de méthodes permettant le calcul du terme général de n'importe quelle suite de ce type.
+Quelques suites célèbres
+C'est dans l'univers des suites d'entiers que l'on trouve les suites les plus célèbres :
+* la suite de Fibonacci où chaque terme est la somme des deux termes qui le précèdent et dont on connaît le terme général et sa relation avec le nombre d'or ;
+* la suite de Conway, où chaque terme est la description à voix haute du terme précédent ;
+* la suite de Syracuse ou de Collatz définie par une relation de récurrence simple :
+le terme suivant est obtenu en prenant, ou bien la moitié du terme précédent si celui-ci est pair, ou bien le triple du terme précédent augmenté de 1 si celui-ci est impair.
+Le comportement de cette suite reste encore une énigme pour les mathématiciens.
+Limite de suite
+Suite convergente
+La définition de limite d'une suite est classique en topologie.
+La convergence des suites dans \R ou dans \Complex est un cas particulier de cette définition : elle se formule à l'aide de la distance (sur laquelle la topologie de ces espaces est construite).
+Intuitivement, une suite possède une (valeur)
+limite si ses points se rapprochent toujours plus de cette limite lorsque l'indice augmente indéfiniment.
+Définition générale :
+Soient E un espace topologique et (u_n) une suite à valeurs dans E.
+On dit qu'un élément \ell de E est une limite de la suite (u_n)
+:pour tout ouvert O contenant \ell, il existe N\in \N tel que \forall n > N\quad u_n \in O.
+Suite réelle convergente
+On dit qu'une suite réelle (u_n) converge vers \ell lorsque pour tout \varepsilon\in\R_+^: |u_n-\ell|\le\varepsilon.
+On dit alors que (u_n) tend vers \ell, et on le note : \lim_u_n
+\ell.
+Suite complexe convergente
+La définition dans ℝ s'applique dans ℂ en remplaçant la valeur absolue par le module.
+Limites
+infinies
+Pour les suites réelles, on élargit le champ des limites possibles aux deux limites infinies et :
+Propriétés
+Les propriétés sur les limites :
+vont dépendre de l'espace sur lequel on travaille et sont détaillées dans l'article «
+Limite d'une suite ».
+Suites réelles et relation d'ordre
+Suites monotones
+Définition
+Une suite réelle monotone est une fonction monotone (c'est-à-dire croissante ou décroissante) de ℕ dans ℝ.
+De même, une suite réelle est dite strictement monotone lorsqu'elle est strictement croissante ou strictement décroissante.
+Propriétés
+On démontre qu'une suite réelle (u_n) est :
+*croissante si (et seulement si) \forall n\in\N\quad u_\ge u_n ;
+* strictement croissante si (et seulement si) \forall n\in\N\quad u_>u_n ;
+*décroissante si (et seulement si)
+\forall n\in\N\quad u_\le u_n ;
+*strictement décroissante si (et seulement si) \forall n\in\N\quad u_ 0.
+Critères de monotonie
+Limites de suites monotones
+Suite monotone bornée
+D'après le théorème de la limite monotone :
+Si une suite réelle (u_n) est croissante (resp.
+décroissante) et majorée par M (resp.
+minorée par m), alors elle est convergente et \lim_u_n\le M (resp.
+\lim_u_n\ge m).
+De cette propriété, découle la remarque suivante :
+Soient (u_n) et (v_n) deux suites réelles.
+Si :
+* \exist N\in\N\quad\forall n
+N\quad u_n
+\le v_n ;
+alors :
+: (u_n) et (v_n) sont convergentes et \lim_u_n\le\lim_v_n.
+Suite monotone non bornée
+Encore d'après le théorème de la limite monotone :
+Si une suite réelle (u_n) est croissante (resp.
+décroissante) et non majorée (
+resp.
+non minorée), alors elle tend vers +\infty (resp.
+-\infty).
+Suites adjacentes
+Deux suites réelles (a_n) et (b_n) sont dites adjacentes lorsque :
+L'intérêt des suites adjacentes est qu'elles permettent d'une part de prouver l'existence d'une limite, d'autre part de fournir un encadrement de celle-ci aussi fin qu'on le souhaite.
+Ceci grâce aux deux propriétés suivantes :
+Si deux suites réelles (a_n) et (b_n) sont adjacentes, alors elles convergent et ont la même limite \ell.
+* De plus, en supposant (a_n) croissante et (b_n) décroissante on a :\forall n \in\N\quad a_n \leq a_ \leq \ell \leq b_ \leq b_n.
+Suites particulières
+Suites de Cauchy
+Dans ce paragraphe, il s'agit de suites à valeurs dans un espace métrique (E,d).
+Une suite (u_n) est dite de Cauchy lorsque : \forall \eta \in\R^*_+\quad\exist N \in\N\quad\forall p \in\N\quad\forall q \in\N\quad (p \ge N et q \ge N)\Rightarrow d (u_p,u_q)\le\eta.
+On démontre que :
+On appelle espace complet un espace où toute suite de Cauchy est convergente.
+Suites extraites
+Soit (u_n) une suite.
+Si \sigma:\N\to\N est une fonction strictement croissante (une telle fonction s'appelle une extractrice), on dit que la suite (u_)_ est une suite extraite (ou sous-suite) de la suite (u_n)_.
+Grosso modo, c'est la suite (u_n) pour laquelle on n'a gardé que certains termes (une infinité quand même).
+Ces suites extraites se révèlent intéressantes quand on cherche à déterminer des valeurs d'adhérence.
+Suites équivalentes et suites négligeables
+Définition
+Soient (u_n) et (v_n) deux suites réelles.
+On dit que (u_n) est négligeable devant (v_n), et l'on note u_n = o (v_n), si :
+:\exists (_n)\quad\lim__n
+0 et u_n
+\varepsilon_n v_n.
+Remarque
+Si v_n \ne 0 à partir d'un certain rang, alors u_n
+o (v_n)
+si et seulement si \lim_
+Exemple
+Considérons u_n
+et v_n
+Posons _n = .
+On a alors :
+D'où = o \left (\right) et +\sim .
+Définition
+Deux suites réelles (u_n) et (v_n) sont dites équivalentes si u_n-v_n= o (v_n).
+On note alors u_n
+\sim
+v_n .
+Remarque
+Si v_n \ne 0 à partir d'un certain rang, alors u_n \sim v_n si et seulement si \lim_ = 1.
+Notes
+Voir aussi
+Articles connexes
+* Encyclopédie en ligne des suites de nombres
+entiers
+Lien externe
+https:/ ark:
+bpt6k505471
+L'encyclopédie de d'Alembert et Diderot sur Gallica.
+Tome XV (voir )
+Bibliographie
+i6jlcay6f80i247xyas3mp5wu5he7dy

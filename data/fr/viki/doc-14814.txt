@@ -1,0 +1,37 @@
+Algorithme
+Un algorithme est un ensemble d'étapes à appliquer dans un certain ordre pour résoudre un problème.
+L'algorithmique est l'étude des algorithmes (notamment de leur complexité).
+L'algorithme d'Euclide (du nom du mathématiciengrecEuclide) est un algorithme très simple et célèbre.
+Il permet de calculer le PGCD de deux nombres entiers positifs, c'est-à-dire le plus grand nombre entier qui les divise tous les deux.
+On nomme ces deux nombres a et b : il suffit de remplacer ces lettres par de vrais nombres pour trouver leur PGCD.
+Cet algorithme possède trois étapes :
+Trouver le reste :Divisera par b. On appelle r le reste de cette division.
+Condition d'arrêt :
+Si r = 0, la réponse (le PGCD de a et b)
+est b.
+Réduction :a ← b (on remplace la valeur de a par celle de b), b ← r, et on retourne à l'étape 1 avec ces nouveaux a et b.
+Appliquons cet algorithme pour trouver le PGCD de 119 et 51 : on va suivre les étapes précédentes avec a = 119 et b = 51.
+On commence à l'étape 1 :
+a (119) divisé par b (51) donne un quotient de 2 et un reste de 17 (car 119 = 2 × 51 + 17).
+On fait donc r ← 17 et on passe à l'étape 2.
+r = 17 ≠ 0 donc
+on passe directement à l'étape 3.
+a ← 51 (ancienne valeur de b)
+et b ← 17 (valeur de r).
+Comme indiqué, on retourne à l'étape 1.
+a (51) divisé par b (17) donne un quotient de 3 et un reste de 0 (car 51 = 3 ×
+et on passe à l'étape 2.
+r = 0 donc l'algorithme s'arrête : le PGCD de 119 et 51 est 17 (dernière valeur de b).
+Résolution du jeu des tours de Hanoï avec 3 disques
+La solution du jeu des tours de Hanoï peut également être calculée par un algorithme simple, malgré l'apparente difficulté du problème !
+« Algorithme » sonnant comme « rythme »
+, on trouve parfois la faute d'orthographe algorythme.
+Un algorithme doit produire un résultat en un nombre fini d'étapes, quelles que soient ses entrées (les valeurs de a et b dans notre exemple Algorithme d'Euclide).
+Cela revient à dire qu'il doit forcément terminer à un moment ou un autre.
+L'algorithme d'Euclide, par exemple, s'exécute toujours en un nombre fini d'étapes car son r atteint forcément zéro (cela se prouve mathématiquement).
+Chaque étape d'un algorithme doit être précisément définie : contrairement à une recette de cuisine, aucun choix ne doit être laissé à celui qui l'exécute.
+En effet, il devrait pouvoir être exécuté par un ordinateur, qui est complètement incapable de choisir.
+L'algorithme d'Euclide ne laisse aucun choix (chaque étape n'a qu'une signification, il est impossible de comprendre autre chose) alors qu'une étape de recette de cuisine, comme « Ajoutez une pointe de sel », peut être interprétée de nombreuses manières :
+quelle quantité exacte de sel ?
+quel type de sel
+faut-il ajouter le sel au-dessus ou en-dessous du plat ?

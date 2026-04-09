@@ -1,0 +1,251 @@
+JavaScript
+JavaScript est un langage de programmation très utilisé par les navigateurs Internet.
+Il permet de créer des animations sur des pages Web, de les modifier en fonction de ce que veut faire l’internaute... JavaScript permet au site Web d'avoir plusieurs possibilités pour l'internaute.
+Pour cela, c’est le navigateur Web qui fait ce que dit le programme JavaScript alors que, d’habitude, c’est plutôt un serveur qui travaille pour construire ou envoyer une page Web à l’utilisateur.
+Bien que leur nom semblent les rapprocher, JavaScript n’a rien à voir avec Java, un autre langage de programmation.
+L'acronymejs est couramment utilisé par les développeurs pour désigner le JavaScript.
+Il s'agit d'un langage de programmation orienté client, en effet JavaScript s'exécute sur la machine de l'utilisateur.
+Contrairement à PHP qui est un langage de programmation orienté serveur.
+Ces deux langages sont indispensables pour faire un site Internet très complet.
+JavaScript est un langage de programmation : cela veut dire que c’est un ensemble de mots et de caractères de ponctuation qui, correctement arrangés, peuvent être traduits dans un langage que l’ordinateur comprend et donc permettre de faire exécuter des tâches à cet ordinateur.
+Comme JavaScript est un langage prévu pour les pages Web, il possède beaucoup d’outils pour modifier ce qui s’affiche dans le navigateur et très peu pour le reste, contrairement à d’autres langages plus généraux.
+Une page Web est construite comme un arbre, avec une racine et un ensemble de "branches" qui en dépendent;
+cette ensemble s’appelle le DOM.
+On peut voir chaque chose qui s’affiche sur une page Web comme un nœud de ce « DOM » : les paragraphes, les images, les boutons, les liens, tout !
+Le principe de JavaScript est de modifier ces "branches" (qu'on appelle des nœuds) et les relations entre eux pour transformer la page.
+Par exemple, imaginons une image sur une page web.
+Cette image, c'est un nœud du DOM comme dit ci-avant.
+Avec JavaScript, il est possible de donner des effets particuliers à cette image ;
+par exemple, la grossir quand l'utilisateur met la souris dessus.
+Le JavaScript a de multiples utilités :
+Créer des meilleurs sites web avec, par exemple, des animations ;
+Créer des jeux vidéo ;
+Créer des applications ;
+Et bien d'autres utilités !
+Dans une page Web, on écrit le JavaScript entre deux « mots » (plus précisément deux balises), qui indiquent au navigateur que ce n’est pas du texte « normal » :
+On met du JavaScript ici
+Il s'agit des balises et .
+La première sert à ouvrir la zone de texte où est écrit le JavaScript, la seconde sert à fermer cette zone.
+Si ces balises ne sont pas présentes, l'ordinateur ne devine pas qu'il doit interpréter du JavaScript, et va donc afficher le texte à l'écran.
+Toutefois, il est grandement recommandé de préciser qu'on utilise le JavaScript la façon suivante, car la balise peut servir à d'autres langages, tel que le VBScript par exemple.
+/ / »
+en JavaScript
+, on écrit un « commentaire » : c’est juste pour expliquer aux humains ce que fait le code ;
+l'ordinateur ignorera le commentaire.
+On ne peut pas écrire comme ça hors des commentaires, car l’ordinateur croirait qu’on s’adresse à lui et ne comprendrait pas, puisque ce n’est pas du JavaScript mais du français !
+On peut aussi écrire des commentaires avec .
+Exemple :
+On peut mettre plusieurs astérisques.
+Il y a donc deux parties dans un programme JavaScript : le code en JavaScript destiné à être lu et interprété par l'ordinateur, et les commentaires, destinés à expliquer le code aux humains qui seront amenés à le lire pour l'améliorer ou le corriger.
+Pour afficher du texte, il faut, suivant où on veut l'afficher, mettre console.log("Texte à afficher");
+ou console.log("Texte à afficher");. Le premier est utilisé pour l'afficher sur un site Internet.
+Le second est pour l'afficher dans la console JavaScript, un endroit pour tester des scripts.
+Il y en a une intégrée dans chaque navigateur, on l'obtient en tapant Ctrl+Maj+k.
+Le point-virgule indique la fin du code.
+Le JavaScript, comme beaucoup de langages de programmation, utilisé des variables.
+Ce sont des valeurs attribuées à un nom, par exemple.
+Avant de les utiliser et de leur assigner une valeur, il faut les déclarer avec les mots-clés var, let, ou const.
+Il y a des petites subtilités entre les trois, mais le premier est le plus utilisé.
+Voici un exemple de comment les utiliser :
+varx;/ / Affichera :
+Ceci est une "chaîne".
+Les apostrophes autour de « Ceci est une "chaîne".
+» servent à préciser que c'est du texte, car l'ordinateur a besoin que l'on lui explique que c'est un texte en français à afficher, autrement il tenterait de l’interpréter comme du code.
+Sans ces apostrophes, l'ordinateur renverra une erreur.
+On peut aussi, au lieu des apostrophes, mettre des guillemets.
+Si on a un apostrophe dans une chaîne délimitée par des apostrophes, ou des guillemets dans une chaîne délimitée par des guillemets, on doit les échapper grâce au caractère \. Exemple : console.log('C\'est une chaîne !');.
+Ce caractère est ausi utilisé pour les expressions régulières.
+Une boîte de dialogue est une petite boîte qui apparaît sur l'écran.
+Voici un bout de code tout simple pour afficher un message, ou plus précisément une boîte de dialogue :
+Cela va afficher à l'internaute un petit message disant :
+Coucou !
+Pour faire disparaître le message, il suffit de cliquer sur le bouton Ok.
+La fonction alert() sert à afficher des alertes à l'utilisateur.
+Toutes les fonctions s'écrivent avec un nom, puis deux parenthèses contenant un texte que les fonctions vont interpréter.
+Par exemple, ici la fonction alert va lire le texte «
+Coucou !
+et le renvoyer dans une fenêtre où le texte s'affichera
+alert('Veux
+tu vraiment quitter cette page ?
+);alert('Au revoir, alors !');
+Ce code affichera un premier message disant :
+« Veux-tu vraiment quitter cette page ?
+Lorsque l’utilisateur aura répondu Ok, la fenêtre se fermera et le second message JavaScript sera lu à son tour : un nouveau message s’ouvrira pour afficher «
+Au revoir, alors !
+confirm() demande la confirmation de quelque chose de la part de l'utilisateur.
+Elle renvoie true si l'utilisateur clique sur « OK » ou « Confirm », false dans le cas inverse.
+varannulation=confirm('Annuler');// La variable "annulation" vaudra true ou false.if(annulation){alert('Action annulée.
+Cette boîte de dialogue sert à faire écrire un texte à l'internaute.
+Voici un exemple :
+varageDeLinternaute=prompt('Indique ton âge :','10');/ *La première valeur (Indique ton âge :), c'est le texte qui sera affiché comme indication pour dire ce que l'internaute doit saisir.
+La seconde (10) sert à mettre le texte par défaut.*/alert('Tu as '+ageDeLinternaute+' ans.
+Vous aurez remarqué qu'on a fait une action spéciale autorisée dans l'alerte : la concaténation.
+Il existe, en Javascript, des caractères dits « d'échappement », de la forme \x.
+Les voici listés :
+Caractère
+Signification
+Saut de ligne.
+Retour au caractère précédent.
+Retour au début de la ligne actuelle.
+Continuer à la page suivante.
+À ceux-là s'ajoutent \\ (caractère \ échappé), ainsi que l'apostrophe et les guillemets et apostrophes, qu'on échappe quand ils sont dans une chaîne.
+Les principaux opérateurs arithmétiques sont +, -, *, et /. Il existe aussi %, équivalent du modulus, et **, la puissance.
+Les deux derniers, surtout utilisés pour des boucles, sont ++ et --, qui signifient respectivement +1 et -1.
+vari,j,k
+,l;/ 7;/ / l est égal à 18 au carré ;
+l est égal à 324.
+Ces opérateurs sont utilisés pour mettre ensemble plusieurs bouts de texte (la concaténation), ou assigner une nouvelle valeur à une variable, par raport à la précédente.
+Ils sont : +=, -=, *=, =20;// x vaut 30 .
+Les opérateurs logiques sont && (et), || (ou), et ! (not).
+(not) recrache une valeur booléenne (true ou false) à une donnée.
+Elle renvoie false si la donnée vaut null ou undefined, true dans tous les autres cas.
+varx=5;/ / Affiche "true"
+Ce dernier exemple est souvent utilisé pour avoir la valeur booléenne d'une donnée.
+La concaténation est l'action de mettre ensemble plusieurs bouts de chaînes, ou des les mettre avec des variables.
+Cela est utile lorsqu'on désire afficher un texte parfois personnalisé.
+If est une instruction pratique pour dire «
+Si quelque chose, alors quelque chose »
+varx=2;vary=3;if(x==2&&y!=4){console.log('x est égal à 2 et y n\'est pas égal à 4.
+Analysons ce code.
+On commence par déclarer et attribuer une valeur aux variables x et y. Ensuite, le programme va exécuter le code après if car ce qui est entre parenthèses est vrai.
+Si ce n'était pas vrai, il n'afficherait rien.
+En l'occurrence, le programme va afficher «
+x est égal à 2 et y à 3.
+Si on veut que le programme affiche quelque chose si c'est faux, on utilise if/else.
+varx=2;if(x!=2){console.log('x n\'est pas égal à 2 !');}else{console.log('x est égal à 2 !');};
+Cette fois, le code va afficher «
+x est égal à 2.
+» car l'affirmation dans les parenthèses est fausse.
+Il existe une version raccourcie de if/else, moins utilisée, mais plus simple intuitivement : (condition) ?
+à afficher si vrai : à afficher si faux.
+Ce code affichera «
+Enfant »,
+car 13 est strictement inférieur à 18.
+varx=2;vary=5;if(x!==2){console.log('x n\'est pas égal à 2 !');
+}elseif(x+y==7){console.log('Puisque x = 2, et que x + y = 7, y = 5.')}else{console.log('x est égal à 2, et y n\'est pas égal à 5.
+Ce code affichera «
+Puisque x = 2, et que x + y = 7, y = 5.
+Il fonctionne avec une deuxième condition if encastrée dans la première.
+Switch est utilisé pour « switcher » justement, entre plusieurs valeurs.
+Exemple :
+Ce code affichera «
+x = 2.
+car nous avons défini x comme étant égal à 2.
+Il est nécessaire de mettre break;
+après chaque instruction, pour indiquer au programme de ne pas continuer après.
+Pour en savoir plus, lire l’article : #break.
+On peut aussi mettre la même chose pour plusieurs cas, comme ici :
+varx=2;vary=3;switch(x+y){case3:case4:console.log('x + y = 3 ou 4.');/ /
+Si x + y n'est égal à aucun des cas ci-dessus, switch n'indique rien.
+On peut y remédier avec le code suivant.
+Ou ajouter un cas défaut :
+varx=2;vary=5;//
+Changeons la valeur de y.switch(x+y){case3:case4:console.log('x + y = 3 ou 4.');break;case5:
+case6:console.log('x + y = 5 ou 6.');break;default:console.log('x + y = autre chose que 3, 4, 5 ou 6, car x + y = '+x+'.
+Puisque maintenant x + y = 7, le cas défaut est exécuté.
+Il affichera «
+x + y = autre chose que 3, 4, 5 ou 6, car x + y = 7.
+Nous avons concaténé, avec console.log, le texte à écrire et x (7).
+Une fonction est une itération définie à l'avance, pour éviter de la répéter.
+Comme exemple, nous utiliserons une fonction qui retourne l'opposé d'un nombre.
+On commence par indiquer qu'on définit une fonction avec le mot-clé function.
+Puis on lui donne un nom (inverse), et on indique de quoi on veut retourner quelque chose (nombre).
+On peut en théorie utiliser n'importe quelle chaîne, mais il vaut mieux prendre quelque chose en rapport.
+Ensuite, on ouvre une accolade, et on indique grâce au mot-clé return la valeur à retourner (-nombre).
+Une méthode est une fonction qui suit une ligne de code, d'abord par un point, puis par son nom, et puis deux parenthèses, pour la modifier.
+Les méthodes de formatage de texte ont l'usage déprécié, et il est vivement conseillé de ne plus les utiliser.
+Les tableaux sont utilisés pour stocker des données, souvent de même type.
+Ils peuvent se construire de deux manières : à l'aide du constructeur Array(), ou bien de façon plus manuelle.
+Avec cette méthode, on commence par déclarer et nommer une variable.
+Ici, nous l'avons appelée «
+Tableau ».
+On continue avec new, utilisé pour annoncer un objet.
+Entre parenthèses, ensuite, chaque élément, séparés par des virgules.
+Ici, ce sont tous des chaînes.
+Ici, on commence aussi par déclarer et nommer une variable.
+Ensuite, on indique qu'on veut définir un tableau avec les crochets.
+Les éléments sont ici aussi séparés par des virgules.
+Un tableau est affiché différemment qu'il n'est écrit.
+On ne peut l'écrire de la manière dont il est affiché (il ne le reconnaîtra pas comme un tableau), et vice-versa.
+Les expressions régulières, aussi appelées « regex » (pour Regular Expressions), sont des objets utilisés pour contrôler par exemple la saisie d’un champ dans un formulaire.
+Il existe deux formes pour les créer, qui seront détaillées ici.
+Dans cette forme, il faut déclarer une variable.
+Ensuite, on utilise le mot-clé new et l'objet RegExp().
+Cette façon de faire est un peu plus longue, mais plus simple à comprendre.
+Exemple :
+Nous détaillerons ce code après l'explication de la deuxième forme.
+Dans cette deuxième forme, il faut également définir une variable, mais cette fois on n'utilise ni new, ni RegExp().
+Cette fois, on donne une valeur avec / au début et à la fin.
+C'est une manière plus courte, mais donc aussi plus compacte et difficile à lire.
+Exemple :
+Quelle que soit la forme utilisée, les caractères ont tous une certaine signification.
+Voici un tableau pour les illustrer :
+Expressions
+Caractère
+Signification
+Indique le début de la chaîne à tester.
+Indique la fin de la chaîne à tester.
+Équivalent en expressions ou signification
+0-9]
+Frontière de mot (espace, alinéa, retour à la ligne...)
+Espace, quel qu'il soit (espace, tabulation, alinéa...)
+Tous les caractères, sauf \s.
+A-Za-z0
+-9_]
+^A-Za-z0
+-9_]
+Note :
+Pour faire le caractère \ (antislash), il faut écrire \\ pour l'échapper.
+Cette chaîne commence par le caractère ^, qui signifie d'analyser la chaîne depuis le début.
+Elle continue avec un point, qui signifie n'importe quel caractère.
+Il est suivi de l'astérisque (*), qui veut dire le caractère précédent 0 fois ou plus.
+Cela veut donc dire qu'il peut y avoir n'importe quel caractère, n'importe quel nombre de fois.
+Ensuite, on a [A-Za-z]{3} qui autorise trois fois une lettre minuscule ou majuscule.
+Puis, on a [0-9]{,2} qui autorise un chiffre, au maximum deux fois.
+La chaîne se termine par \W et $, qui veulent dire [
+-9_] (aucun de ces caractères) et fin de la chaîne à tester.
+Tout ce qu'on vient d'analyser s'appelle le motif, il nous reste à analyser l'option, g.
+Il existe six options, qui, comme le dit leur nom, sont optionnelles.
+g :
+Analyser toute la chaîne ;
+i :
+Ne pas prendre en compte minuscules et majuscules ;
+x :
+Ignorer les espaces ;
+m :
+Si la chaîne est sur plusieurs lignes, bien les traiter comme plusieurs lignes ;
+s :
+Autorise les points à aussi signifier des retours à la ligne ;
+u :
+Contrôles tous les caractères unicode ;
+y :
+Recherche d'une sous-chaîne à un endroit précis dans la chaîne à tester.
+Les quatre dernières sont peu utilisées.
+.exec() cherche une expression à l'intérieur d'une chaîne.
+Si elle la trouve, elle renvoie l'expression cherchée.
+Sinon, elle renvoie null.
+varchaîne="Ceci est une chaîne.
+";varExp=newRegExp("cha[iî]ne","gi");varréponse=chaîne.exec(Exp);console.log(réponse);/ else ;
+varExp=newRegExp ;
+/ / Sinon, on affiche "Ce n'est pas bon !".
+Cette méthode sert à contrôler s'il y a le motif dans la chaîne.
+Voici un petit programme pour y voir plus clair :
+ReD6+ »
+est accepté, car il respecte le motif (trois lettres majuscules ou minuscules, 0-2 chiffres, un caractère ni chiffre, ni lettre, ni _).
+La méthode .test() retourne donc true.
+La méthode .match() cherche une expression régulière à l'intérieur d'une chaîne.
+Elle renvoie un tableau des différents caractères correspondants.
+Pour éviter que cette méthode ne renvoie une erreur, il faut impérativement avoir l'optiong.
+varchaîne="Ceci est une chaîne.
+";vartableau=chaîne.match ;
+console.log(réponse);// Affichera : 3varréponse2=chaîne.search divise une chaîne en plusieurs parties, et renvoie un tableau.
+Elle prend en premer paramètre une chaîne ou une expression régulière, et un maximum de chaînes à renvoyer en deuxième.
+varchaîne="Ceci est une chaîne.
+";varréponse=chaîne.split(" ");
+console.log(réponse);/ / Affichera : c,c, ,st ,n
+Le JavaScript pur reste tout de même assez difficile d'utilisation, surtout pour les débutants, sans compter les incompatibilités entre navigateurs.
+C'est pourquoi des bibliothèques et des frameworks ont été développés, pour permettre d'utiliser plus facilement le JavaScript.
+Parmi les plus connus, on trouve :
+La célèbre bibliothèque jQuery redoutable par sa simplicité et son efficacité.
+Son concurrent la bibliothèque Mootools.
+Viennent ensuite d'autre bibliothèques moins répandues telles que Prototype, YUI, ExtJs etc.

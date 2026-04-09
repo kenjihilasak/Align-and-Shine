@@ -1,0 +1,63 @@
+Adresse IP
+Redirigé depuis IPv6)
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : Adresse.
+Cette adresse est utilisée pour les communications entre ordinateursclients (les utilisateurs d’Internet) et serveurs (les fournisseurs de services sur Internet).
+C’est comme deux personnes qui ont chacune besoin de connaître l’adresse (postale) de l’autre pour communiquer par courrier.
+Selon la version du protocole IP utilisé, il existe différentes formes d’adresses IP :
+une adresse IPv4 (
+est composée de quatre nombres compris entre 0 et 255, séparés par des points.
+Par exemple, 193.0.6.139, chaque numéro est composé de 8 bits (1 octet) en binaire ce qui donne 11000001.00000000.00000110.10001011, comme avec 8 bits en binaire, on peut donner des nombres de 0 à 255, c'est pour ça que chaque numéro peut aller jusqu'à 255 ;
+comme il y a 256 valeurs possibles pour chacun des quatre chiffres, cela fait 256 × 256 ×
+256 × 256 = 4 294 967 296 adresses IP possibles (un peu moins de 4,3 milliards)
+une adresse IPv6 (IP version 6, le protocole le plus moderne) est, elle, constituée de 8 nombres compris entre 0 et et 65535, séparés par des deux-points.
+Comme on écrit généralement ces nombres en hexadécimal (pour faire plus court), on arrive à les faire tenir sur quatre chiffres (65535 s’écrit ffff en hexadécimal).
+En binaire, ce type d'adresse IP fait 128 bits (16 octets, 8 chiffres codés chacun sur 2 octets), quatre fois plus long qu'une adresse IPV4.
+Le site pointé par l’adresse
+IPv4 précédente à l’adresse IPv6 2001:0610:0240:0022:0000:0000:c100:068b (elle s’abrège en 2001:610:240:22::c100:68b).
+Le nombre d'adresses IPv6 est énorme par rapport au nombres d'IPv4 : 3,4 × 1038 ou encore 340 sextillions (milliards de milliards de milliards de milliards ou 1036, c'est-à-dire 36 zéros).
+Cela en fait près de 100 milliards de milliards de milliards de fois en plus.
+Leur nombres peut être considéré en pratique comme illimité.
+Cette adresse est généralement conservée dans les serveurs auxquels on se connecte, pour des raisons légales et de sécurité.
+Le numéro correspond comme dans toute adresse à des indicatifs de région, puis à un numéro spécial et unique pour l’ordinateur.
+Par extension, dans le langage internet, on appelle une IP, une personne qui travaille sans inscription sur le site.
+Cet utilisateur est donc anonyme, il ne possède pas de compte utilisateur.
+Il a souvent moins de droits d'accès, en consultation et en action pour protéger les sites.
+Dans un réseau informatique, une adresse IP pour chaque machine est attribuée ainsi qu'une adresse réseau et un masque de sous-réseau.
+Par exemple
+, lorsque l'on installe son routeur pour accéder à Internet et l'on connecte des ordinateurs à Internet, une adresse IP du réseau local comme 192.168.1.0 est attribuée et chaque ordinateur du réseau à une adresse attribuée, par exemple, 2 ordinateurs ont l'adresse 192.168.1.1 et 192.168.1.2 et un masque de sous-réseau comme 255.255.255.0 est attribué.
+À la base, les adresses IP sont du binaire, c'est-à-dire qu'ils sont en réalité des nombres avec uniquement des 0 et des 1.
+Par exemple, pour l'ordinateur qui a l'adresse 192.168.1.2, son adresse IP en binaire est 11000000.10101000.00000001.00000010 : on peut voir que chaque chiffre de l'IP est codé en binaire par des groupes de 8 chiffres (un octet) qui peuvent avoir la valeur 0 ou 1 (des bits).
+Une adresse IP publique pour le réseau est également attribuée par le FAI, c'est l'adresse IP visible depuis Internet que les développeurs, les administrateurs ou les modérateurs d'un site web peuvent voir et chaque réseau à une adresse IP publique mais à l'intérieur du réseau, il y a des adresses IP privées qui correspondent aux ordinateurs et autres machines du réseau et ne sont visibles uniquement par les utilisateurs du réseau.
+Une « notation CIDR » sert à grouper une liste 24 ou 2001:2304:dabe:6700:: 30 se range par 4 hôtes
+dont 2 hôtes valide en gras :
+Pareil pour IPv6 ::ffff:fffc/94 ;
+4 hôtes mais différents car les 4 hôtes sont valides :
+Une adresse IP est constituée de numéros qui correspondent à des réseaux et aux ordinateurs.
+Il existe 5 classes d'adresses IP (de A à E).
+Les adresses IP de classe A sont les adresses IP dont le premier numéro est compris entre 0 et 127, cette classe est utilisée pour les grands réseaux.
+Les adresses IP de classe B sont les adresses IP dont le premier numéro est compris entre 128 et 191, cette classe est utilisée pour les réseaux plus petits.
+Les adresses IP de classe C sont les adresses IP dont le premier numéro est compris entre 192 et 223, cette classe est utilisée pour les petits réseaux.
+Un réseau a un masque de sous-réseau qui sert à savoir jusqu'à quelles IP va le réseau.
+Il est également utilisé pour savoir l'IP d'un réseau à partir de l'IP d'une machine, il faut convertir ce masque avec l'adresse IP en binaire et faire un ET logique entre les bits.
+Exemple : si l'adresse IP est 192.168.1.2 et le masque de sous-réseau 255.255.255.0 :
+192.168.1.2 en binaire :
+255.255.255.0 en binaire :
+IP du réseau :
+11000000.10101000.00000001.00000010 & 11111111.11111111.11111111.00000000 = 11000000.10101000.00000001.00000000 en décimal : 192.168.1.0
+Chaque classe à un masque de sous-réseau par défaut.
+Le masque de sous-réseau par défaut d'une adresse IP de classe A est 255.0.0.0, le masque de sous-réseau par défaut d'une adresse IP de classe B est 255.255.0.0 et le masque de sous-réseau par défaut d'une adresse IP de classe C est 255.255.255.0.
+Les adresses IP ont une partie de leurs numéros qui correspond au Net-Id et l'autre partie à l'Host-Id, elles dépendent de la classe d'adresse IP et du masque de sous-réseau.
+Le Net-Id correspond au réseau de la machine et l'Host-Id correspond au sous-réseau et à la machine.
+Dans une adresse IP de classe A, le Net-Id correspond généralement au premier nombre de l'adresse IP, par exemple, dans l'adresse IP 25.165.47.214 (si le masque est 255.0.0.0), le Net-Id est 25 et l'Host-Id est 165.47.214.
+Dans une adresse IP de classe B, le Net-Id correspond généralement aux premier et deuxième nombres de l'adresse IP, par exemple, dans l'adresse IP 170.99.100.187 (si le masque est 255.255.0.0), le Net-Id est 170.99 et l'Host-Id est 100.187.
+Dans une adresse IP de classe C, le Net-Id correspond généralement aux premier, deuxième et troisième nombres de l'adresse IP, par exemple, dans l'adresse IP 200.174.3.1 (si le masque est 255.255.255.0), le Net-Id est 200.174.3 et l'Host-Id est 1.
+Une adresse de diffusion (ou de broadcast) sert à envoyer des données à tout le réseau, elle dépend également du masque de sous-réseau.
+Par exemple, si un réseau a une IP 192.168.1.0 et un masque 255.255.255.0, son IP de diffusion sera 192.168.1.255
+L'IPv6 fonctionne différemment.
+Il utilise des nombres hexadécimaux.
+Exemple avec 2001:610:240:22::c100:68b.
+Il y a une limite d'adresse IPv4
+, le nombre maximal d'adresses IPv4 qui peuvent être active en même temps est de 4 294 967 296 (4 milliards)
+Si cette limite est atteinte, la création de nouvelles adresses IPv4 seront impossible et peut avoir un impact sur la connexion internet des IP dynamiques

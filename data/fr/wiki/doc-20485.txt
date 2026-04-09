@@ -1,0 +1,128 @@
+Mécanique
+ondulatoire|Interférences
+En mécanique ondulatoire, les interférences sont la combinaison de deux ondes susceptibles d'interagir.
+Ce phénomène apparaît souvent en optique avec les ondes lumineuses, mais il s'obtient également avec des ondes électromagnétiques d'autres longueurs d'onde, ou avec d'autres types d'ondes comme des ondes sonores.
+À savoir aussi, le phénomène d'interférence ne se produit uniquement lors de la combinaison de deux ondes de même fréquence.
+Définition
+L' onde se modélise par une fonction A (\vec,t), \vec étant la position dans l'espace et t étant le temps.
+Lorsque l'on a deux sources distinctes, deux émetteurs, créant deux ondes A1 et A2, en un point \vec donné, l'amplitude de A sera (si le milieu est linéaire)
+:A (\vec,t) = A_1 (\vec,t) + A_2 (\vec,t)
+En physique, on considère classiquement deux phénomènes «
+idéaux » qui se produisent lorsqu'on mélange deux ondes sinusoïdales :
+* l'interférence
+quand les deux ondes ont la même fréquence
+* le battement quand les fréquences sont légèrement différentes.
+Cette approche est justifiée par le fait que:
+* toute fonction continue et périodique
+peut se décomposer en une somme de fonctions sinusoïdales (séries de Fourier) ;
+* lorsque les fréquences sont très différentes, le résultat est bien plus simple.
+Outils d'étude
+On utilise des interféromètres pour mesurer ou visualiser les interférences.
+Citons le biprisme de Fresnel, les fentes de Young, l'interféromètre de Michelson, l’interféromètre à double miroir, l'interféromètre à lame transparente (de Fabry-Perot) et l’interféromètre de Mach-Zehnder.
+Ondes sinusoïdales
+Ondes de même fréquence déphasées (formule des interférences)
+On considère deux ondes de même pulsation mais de phases différentes (cela peut être causé par un trajet multiple de l'onde dans sa propagation) d'expressions :
+A_1 (t)
+A_\cos\left (\omega t - \varphi_1\right) et A_2 (t)
+A_\cos\left (\omega t
+- \varphi_2\right)
+On cherche à mettre l'onde résultante sous la forme :
+A (t)
+A_1 (t)+A_2 (t)
+A_0\cos\left (\omega t
+- \varphi\right)
+En développant, il vient :
+A_0\cos\omega t\cos\varphi + A_0 \sin\omega
+t\sin\varphi
+A_\cos\omega t\cos\varphi_1+A_
+\sin\omega
+t\sin\varphi_1 +A_\cos\omega
+t\cos\varphi_2+ A
+_ \sin\omega
+t\sin\varphi_2
+On doit donc résoudre simultanément :
+A_0\cos\omega t\cos\varphi
+= A_\cos\omega t\cos\varphi_1+A_\cos\omega
+t\cos\varphi_2
+A_0\sin\omega t\sin\varphi =
+A_\sin\omega
+t\sin\varphi_1+A_ \sin\omega
+t\sin\varphi_2
+D'où
+A_0\cos\varphi = A_\cos\varphi_1+A_\cos\varphi_2
+A_0\sin\varphi =
+A_\sin\varphi_1+A_\sin\varphi_2
+Calcul de l'amplitude de l'onde résultante
+On obtient l'amplitude en élevant au carré et en sommant membre à membre les deux équations :
+A_0^2 (\cos^2\varphi+\sin^2\varphi)=A_^2 (\cos^2\varphi_1+\sin^2\varphi_1)
++A_^2 (\cos^2\varphi_2+\sin^2\varphi_2)+2A_A_ (\cos\varphi_1\cos\varphi_2+\sin\varphi_1\sin\varphi_2)
+Et ainsi :
+A_0^2=A_^2+A_^2+2A_A_\cos\left (\varphi_1-\varphi_2\right)
+Si les ondes se superposent en phase (\varphi_1=\varphi_2), on obtient :
+A_0^2=\left (A_+A_\right)^2
+On parle d'interférence constructive, car la puissance résultante augmente.
+Si les ondes se superposent en anti-phase (\varphi_1=\varphi_2+\pi), on obtient :
+A_0^2=\left (
+A_-A_\right)^2
+On parle d'interférence destructive, car la puissance résultante diminue.
+Entre ces deux extrêmes, la puissance totale varie selon le cosinus de la différence des phases.
+Calcul de la phase de l'onde résultante
+On obtient la phase en rapportant membre à membre les deux équations précédentes :
+\tan\varphi=\frac
+Finalement, l'expression de l'onde résultante se résume à :
+A (t)=\sqrt\cos\left (\omega t - \arctan\frac\right)
+Ondes de fréquence proche (battements)
+Voir l'article détaillé Battement.
+Applications courantes
+En radio
+En radio, une interférence est la superposition de deux ou plusieurs ondes.
+Il est fréquent, pour les fréquences supérieures à quelques centaines de kilohertz, qu'une antenne de réception reçoive simultanément l'onde directe en provenance de l'émetteur et une (ou plusieurs) onde réfléchie par un obstacle.
+Les deux signaux vont se superposer et, en fonction de la différence de phase entre eux, voir leurs amplitudes s'additionner ou se soustraire.
+Ce genre d'interférence est responsable du fading, terme anglo-saxon désignant une variation plus ou moins rapide de l'amplitude du signal reçu.
+Mais le phénomène ne se limite pas aux seules ondes radio.
+Dans le sens commun, pour la radio, cela a pris le sens de « parasite » (il s'agit en fait de l'interférence entre l'onde radio et une onde parasite).
+Interférences sonores et visuelles
+Sur une chaîne stéréo, on peut aussi inverser le branchement d'un des deux haut-parleurs ;
+alors, en se promenant dans la pièce, il y aura des endroits où le son s'annule, disparait.
+C'est ce phénomène qui est utilisé dans les casques anti-bruit.
+Ce sont aussi des interférences qui sont à l'origine des phénomènes de diffraction (par exemple irisation d'une mince couche d'huile, décomposition de la lumière par un disque compact).
+Lorsque l'on accorde un instrument de musique, on prend un son de référence (diapason, la du hautbois) et on règle l'instrument de sorte que les deux sons concordent.
+Lorsque la différence de fréquence est faible, on perçoit des battements sonores, et ces battements ralentissent lorsque les fréquences se rapprochent.
+Interférences
+quantiques
+Les interférences par des ondes (vagues, son, lumière) peuvent être obtenues par un raisonnement mathématique.
+Les particules élémentaires, comme les électrons ne devraient alors pas interférer de la même façon que ces ondes.
+Or d'après la mécanique quantique, on ne peut pas se restreindre à l'appellation de particule.
+En effet, celles-ci sont également des ondes.
+On devrait plutôt dire que ce ne sont ni des particules ni des ondes : ce sont des objets présentant des aspects parfois ondulatoires et parfois corpusculaires.
+Cette notion de dualité onde-corpuscule permet de comprendre que ce que l'on appelle souvent des particules peuvent aussi exhiber un comportement ondulatoire et donc présenter des interférences.
+Ainsi, en 1961, C. Jönsson à Tübingen réalisait une expérience où un fil d'araignée métallisé séparant un faisceau d'électrons en deux produisait une interférence d'électrons.
+Dans la pratique, les électrons forment des impacts sur une plaque photographique, et la répartition de ces impacts présente des franges, de la même manière que pour la lumière.
+Lorsqu'il a été possible de détecter les photons et les électrons individuellement, on a pu aussi montrer qu'il n'y a pas besoin d'une assemblée de particules pour faire des interférences : lorsqu'elles arrivent une par une, il y a également interférences.
+Cela permet de confirmer la célèbre affirmation de Dirac « chaque photon interfère seulement avec lui-même » et l'expérience de pensée décrite par Feynman dans ses célèbres cours, où il se posait la question de savoir si la figure d'interférence apparaitrait même si les électrons arrivaient les uns après les autres devant deux fentes.
+C'est en 1989 qu'une équipe de chercheurs de Hitachi (fabricant de microscopes électroniques) réussit à contrôler la production d'électrons et la détection un à un et à observer l'apparition dans le temps, électron après électron de la figure d'interférences.
+L'équipe d'Hitachi peut affirmer que, dans leur expérience, les électrons sont passés un à un comme indiqué dans l'expérience de pensée de Feynman.
+Ce que l'on observe est que les impacts successifs forment petit à petit les franges d'interférence.
+Rappelons que Davisson et Thomson ont partagé le prix Nobel de physique de 1937 pour « la découverte de phénomènes d'interférences qui se produisent lorsqu'on expose des cristaux à un faisceau d'électrons » ce qui confirmait la thèse théorique de Louis de Broglie qui reçut le prix Nobel en 1929 pour sa découverte de l'aspect ondulatoire de l'électron.
+Depuis, des interférences ont été observées avec des neutrons, des atomes et même des molécules comme le Buckminsterfullerène .
+En effet avec un condensat de Bose-Einstein, il est possible de faire des interférences en le coupant en deux et en observant les deux moitiés se mélanger.
+Ce qui est remarquable dans ces résultats, c'est que l'affirmation de Dirac semble s'appliquer à toute particule, qu'elle soit un boson ou un fermion.
+Holographie
+Un article http:/ research lensless.html aussi paru dans Nature, 432, 885 (2004) permet de voir comment les interférences permettent de faire de l'holographie en rayons X.
+C'est de l'imagerie sans lentilles.
+(Mais en sens inverse, si on utilise des lentilles pour faire de la diffraction ou des interférences cela devient aussi de l'holographie en ligne).
+La cristallographie RX est une technique d'interférence qui par transformations de Fourier permet de faire des reconstitutions ou 'images' 3D de molécules à l'échelle nanométrique, mais cela ne se fait pas en enregistrant la phase.
+Stefan Eisebitt (BESSY, the Berlin
+Electron
+Storage
+Ring Company
+for Synchrotron Radiation, Berlin, Germany)
+et Jan Luning (Stanford Synchrotron Radiation Labor, États-Unis), ont réussi à faire de l'holographie avec des RX en éclairant un objet positionné sur un trou de 1.5 micromètre avec à côté un trou de référence de 100 nanomètres, ces deux trous étant éclairés avec un faisceau de rayons X cohérent.
+Cela produit une figure d'interférence ou hologramme qui est enregistré avec une caméra CCD.
+La transformée de Fourier rapide permet d'obtenir une « image ».
+Ils ont ainsi observé les domaines magnétiques de multicouches cobalt-platine.
+Des structures à l'échelle nanométrique devraient pouvoir être observées : nanocristaux et composants de microélectronique, cellules et protéines complexes.
+Un autre progrès technologique imminent devrait faire progresser ce domaine de l'holographie rayons X :
+Les lasers à électrons qui donneront une source pulsée de quelques femtosecondes très intense et cohérente de rayons X permettront d'observer le mouvement de nanoparticules ou même d'atomes
+"Lensless Imaging of Magnetic Nanostructures by X-ray Spectro-Holography"
+- S. Eisebitt, J. Luning, W. F. Schlotter, M. Lorgen, W. Eberhardt and J. Stohr

@@ -1,0 +1,43 @@
+Compilateur|Théorie de la compilation
+En informatique, un compilateur étaient écrits en langage assembleur.
+Les langages de programmation de plus haut niveau (dans les couches d'abstraction) n'ont été inventés que lorsque les avantages apportés par la possibilité de réutiliser le logiciel sur différents types de processeurs sont devenus plus importants que le coût de l'écriture d'un compilateur.
+La capacité de mémoire très limitée des premiers ordinateurs a également posé plusieurs problèmes techniques dans le développement des compilateurs.
+Vers la fin des , des langages de programmation indépendants des machines font pour la première fois leur apparition.
+Par la suite, plusieurs compilateurs expérimentaux sont développés.
+Le premier compilateur, (pour le langage A-0) est écrit par Grace Hopper, en 1952.
+L'équipe FORTRAN dirigée par John Backus d'IBM est considérée comme ayant développé le premier compilateur complet est le premier langage à être compilé sur plusieurs architectures.
+Dans plusieurs domaines d'application, l'idée d'utiliser un langage de plus haut niveau d'abstraction s'est rapidement répandue.
+Avec l'augmentation des fonctionnalités supportées par les langages de programmation plus récents et la complexité croissante de l'architecture des ordinateurs, les compilateurs se sont de plus en plus complexifiés.
+En 1962, le premier compilateur «
+auto-hébergé
+- capable de compiler son propre code source en langage de haut niveau
+- est créé, pour le Lisp, par Tim Hart et Mike Levin au (MIT).
+À partir des , il est devenu très courant de développer un compilateur dans le langage qu'il doit compiler, faisant du Pascal et du C des langages de développement très populaires.
+On peut aussi utiliser un langage ou un environnement spécialisé dans le développement de compilateurs : on parle lors d'outils de méta-compilation, et on utilise par exemple un compilateur de compilateur.
+Cette méthode est particulièrement utile pour réaliser le premier compilateur d'un nouveau langage ;
+l'utilisation d'un langage adapté et rigoureux facilite ensuite mise au point et évolution.
+Structure et fonctionnement
+La tâche principale d'un compilateur est de produire un code objet correct qui s'exécutera sur un ordinateur.
+La plupart des compilateurs permettent d'optimiser le code, c'est-à-dire qu'ils vont chercher à améliorer la vitesse d'exécution, ou réduire l'occupation mémoire du programme.
+D’autres compilateurs traduisent un code d’un langage de programmation vers un autre.
+On les appelle des transcompilateurs, ou bien encore par anglicisme, des transpileurs ou transpilateurs.
+Par exemple, le logiciel LaTeX permet, à partir d’un code source en LaTeX, d’obtenir un fichier au format PDF (avec par exemple la commande pdflatex sous Ubuntu) ou HTML.
+Autre exemple, LLVM est une bibliothèque aidant à réaliser des compilateurs, également utilisée par AMD pour développer « HIP », un transcompilateur de code CUDA (langage spécifique à NVIDIA et très utilisé) afin de l’exécuter sur les processeurs graphiques d’AMD.
+Plaintex.png|Le
+code source.
+Plainlatex.png|Le
+code obtenu après compilation.
+Pdflatex.png|Aperçu du document pdf.
+Certains compilateurs traduisent, de façon incrémentale ou interactive, le programme source (entré par l’utilisateur) en code machine.
+On peut citer comme exemple certaines implantations de Common Lisp (comme ).
+Annexes
+Bibliographie
+Articles connexes
+*Décompilateur, programme qui traduit un langage de bas niveau vers un langage de plus haut niveau
+*GCC est une suite de compilation particulièrement connue, beaucoup utilisée pour les langages C et C++, mais également Java ou encore Ada.
+*Clang est un pour les langages de la famille du C, utilisant le LLVM
+Liens externes
+* http:/ free
+compilers
+Liste de compilateurs gratuits et ~maranget compil index.html
+Cours plutôt complet et contenant des exemples en C/ASM.

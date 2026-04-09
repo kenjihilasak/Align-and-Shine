@@ -1,0 +1,23 @@
+Un ensemble est une collection d'objets mathématiques, comme des nombres, des fonctions, des vecteurs ou des droites.
+Néanmoins, la notion d’ensemble est quelque chose de très large ;
+par exemple, Z−∗×K(X)×{(x,y)∈R2;x2+y2=4}{\displaystyle \mathbb {Z} _{-}^{*}\times \mathbb {K} (X)\times \{(x,y)\in \mathbb {R} ^{2};x^{2}+y^{2}=4\}} est un ensemble fourre-tout, créé pour l'occasion et totalement inutile, puisqu'il mélange tous les entiers négatifs sauf zéro, les fractions de polynômes et les cercles de rayon égal à 2.
+En somme, un ensemble n'est qu'un gros « sac » mathématique où l'on peut mettre tout ce que l'on veut, même d'autres ensembles, et même rien du tout.
+Si l'on voyait les objets mathématiques comme les habitants d'une planète, chaque ensemble serait une partie de territoire, n'importe laquelle, et les gens qui y vivent seraient les éléments de l'ensemble.
+Rien ne les rattache spécifiquement aux autres, de même que les cercles ont très peu de choses en commun avec les fractions polynômiales.
+La structure algébrique peut alors être vue comme un ensemble organisé : c'est en effet un ensemble que l'on a « muni » de lois mathématiques, appelées lois de composition, et qui définissent la façon dont les éléments de l'ensemble se comportent à l'égard des autres, un peu comme les lois d'un pays.
+Il existe deux types de lois de composition :
+les lois de composition internes ;
+les lois de composition externes.
+N'importe quelle application peut être une loi de composition.
+Elle sera une loi de composition interne si, s'appliquant à des éléments d'un ensemble A, son résultat est lui aussi un élément de A. De la même façon, le résultat d'une loi de composition externe est en dehors de l'ensemble considéré.
+Exemples :
+Loi de composition interne :
+: L'addition est une loi de composition interne (et le produit en est une autre, etc.) sur l'ensemble N{\displaystyle \mathbb {N} } des entiers naturels, parce que la somme de deux entiers naturels est forcément un entier naturel : 5+3=8{\displaystyle 5+3=8} et non 5+3=8,2{\displaystyle 5+3=8,2} (qui n'est pas un entier naturel, puisqu'il a une virgule).
+Loi de composition externe :
+Le produit scalaire entre deux vecteurs est une loi de composition externe, parce que son résultat est un nombre, et non un vecteur.
+L'ensemble peut être celui des nombres entiers naturelsN{\displaystyle \mathbb {N} },
+des nombres réelsR{\displaystyle \mathbb
+voire un ensemble plus compliqué1.
+N'importe quel ensemble peut a priori convenir pour créer une structure algébrique.
+↑Comme
+, par exemple, l'ensemble des points du planR2{\displaystyle \mathbb {R} ^{2}} ou celui des fonctions réelles à valeurs complexesCR{\displaystyle \mathbb {C} ^{\mathbb {R} }}...

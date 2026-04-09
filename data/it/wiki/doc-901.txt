@@ -1,0 +1,49 @@
+Un indirizzo IP (dall'inglese Internet Protocol address) - in informatica e nelle telecomunicazioni - è un'etichetta numerica che identifica univocamente un dispositivo detto host collegato a una rete informatica che utilizza l'Internet Protocol come protocollo di rete.
+Viene assegnato a una interfaccia (ad esempio una scheda di rete) che identifica l'host di rete, che può essere un personal computer, un palmare, uno smartphone, un router, o anche un elettrodomestico.
+Va considerato, infatti, che un host può contenere più di una interfaccia:
+ad esempio, un router ha diverse interfacce (minimo due) per ognuna delle quali occorre un indirizzo.
+La gestione internazionale
+Gli indirizzi IP pubblici e i range di indirizzi sono rilasciati e regolamentati dall'ICANN tramite una serie di organizzazioni delegate.
+A causa della saturazione dello spazio di IPv4 l'ICANN ha proceduto alla definizione di una nuova versione del protocollo IP:
+IPv6..
+Tale versione è basata su indirizzi a 128 bit anziché a 32, ciò permetterà l'assegnazione di un numero maggiore di indirizzi
+La difficile implementazione a livello globale dell'IPv6 ha portato all'introduzione di nuovi concetti, che hanno rivoluzionato la teoria e la pratica delle reti.
+Vanno citati l'abbandono del concetto di classi di indirizzi IP e il conseguente utilizzo sempre maggiore di indirizzi classless (privi del concetto di classe), la subnet mask, la riorganizzazione gerarchica degli indirizzi mediante utilizzo massivo di Network address translation (NAT).
+IPv4
+L'indirizzo IPv4 è costituito da 32 bit (4 byte) suddiviso in 4 gruppi da 8 bit (1 byte), separati ciascuno da un punto (notazione dotted) (es. 11001001.00100100.10101111.00001111).
+Ciascuno di questi 4 byte è poi convertito in formato decimale di più facile identificazione (quindi ogni numero varia tra 0 e 255 essendo 28=256).
+Un esempio di indirizzo IPv4 è 195.24.65.215.
+IPv6
+L'indirizzo IPv6 è costituito da 128 bit (16 byte), viene descritto da 8 gruppi di 4 cifre esadecimali che rappresentano 2 byte ciascuno (quindi ogni numero varia tra 0 e 65535) separati dal simbolo "due punti".
+Un esempio di indirizzo IPv6 è 2001:0DB8:0000:0000:0000:0000:0000:0001, che può essere abbreviato in 2001:
+DB8::1 .
+I dispositivi connessi ad una rete IPv6 ottengono un indirizzo di tipo unicast globale, vale a dire che i primi 48 bit del suo indirizzo sono assegnati alla rete a cui esso si connette, mentre i successivi 16 bit identificano le varie sottoreti a cui l'host è connesso.
+Gli ultimi 64 bit sono ottenuti dall'indirizzo MAC dell'interfaccia fisica.
+Tipologie
+Indirizzi dinamici
+Gli indirizzi dinamici sono utilizzati per identificare dispositivi non permanenti in una LAN.
+Un server presente nella LAN assegna dinamicamente e automaticamente l'indirizzo scegliendolo casualmente da un range preimpostato.
+Si può scegliere l'intervallo di indirizzi a seconda del numero delle utenze della rete impostando la netmask, ossia dicendo al server DHCP quanti bit dell'indirizzo sono assegnabili dinamicamente a ogni singolo client che fa accesso.
+Per esempio, se la netmask ha valore 255.255.255.0 (dove ogni blocco separato da puntini denota un gruppo di 8 bit) solo gli ultimi 8 bit sono assegnabili agli host.
+I fornitori di connessione internet (Internet Service Provider, ISP), per esempio, utilizzano un numero variabile di indirizzi assegnabili per una vasta clientela Questo sistema viene utilizzato soprattutto per gli accessi dial-up, Wi-fi o in qualsiasi altro accesso temporaneo permettendo, per esempio a un computer portatile, di connettersi a un'ampia varietà di servizi senza la necessità di dover conoscere i dettagli di indirizzamento di ogni rete.
+Indirizzi statici
+Gli indirizzi statici vengono utilizzati per identificare dispositivi semi-permanenti con indirizzo IP permanente.
+Server, stampanti di rete ecc. utilizzano tipicamente questo metodo di indirizzamento.
+Tipicamente si può ricorrere anche ad un'assegnazione statica anziché dinamica per dispositivi di rete non permanenti se il numero di host della sottorete è contenuto e/o per motivi di sicurezza potendo tenere sotto controllo le azioni di ciascun host e del relativo utente.
+Sul fronte della sicurezza informatica l'assegnazione di un IP statico rende però il dispositivo più soggetto ad attacchi informatici.
+Servizi tecnici
+NAT
+Il NAT (Network Address Translation, Traduzione indirizzi di rete) è un servizio che permette a più dispositivi di condividere un unico indirizzo IP potendo così mettere in comunicazione diverse reti.
+Questa funzione è compito dei router.
+Utilizzando questa funzionalità si ha distinzione tra indirizzo IP pubblico e indirizzo IP privato.
+ARP
+L'indirizzo IP in formato numerico, una volta raggiunta la sottorete finale di destinazione, deve essere poi convertito in indirizzo MAC locale per linstradamento diretto.
+Di tale risoluzione si occupa il protocollo ARP.
+Conoscere l'indirizzo in uso
+Per conoscere il proprio indirizzo IP, subnet mask e gateway in qualsiasi sistema operativo Unix-like (come nei sistemi Linux o in macOS) è sufficiente aprire una shell e digitare il comando ifconfig (o ipconfig, a seconda della distribuzione in uso).
+Nei sistemi operativi Microsoft Windows, invece, con il comando ipconfig, dal prompt dei comandi, si possono avere le informazioni desiderate.
+Tale comando non è sempre già installato;
+Nel caso non lo fosse già, per installarlo si deve eseguire un doppio click sul file suptools.msi nella cartella \Support\Tools nel CD di installazione.
+Chi naviga utilizzando un router, usando tali comandi visualizzerà le informazioni relative alla propria rete privata.
+Le informazioni riguardo all'IP pubblico (assegnato al router) sono disponibili nel pannello di configurazione del router stesso oppure è possibile visualizzarlo tramite un sito apposito.
+Note

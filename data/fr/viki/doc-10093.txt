@@ -1,0 +1,186 @@
+En général, « intégrer une fonction » revient à « mesurer une aire(la surface verte sur l'image à droite) sous sa courbe (en rouge) » .
+L'intégration est à la base du calcul intégral, une branche importante des mathématiques.
+Tout d'abord, nous allons nous mettre d'accord sur le vocabulaire qui sera employé.
+Si tu ne connais pas un mot, n'hésite pas à cliquer sur le lien bleu !
+Il y a certains objets mathématiques dont nous allons avoir besoin :
+l'aire d'un rectangle : c'est la surface comprise à l'intérieur du rectangle.
+Si le rectangle a pour longueur a et pour largeur b, alors son aire A{\displaystyle {\mathcal {A}}} est égale à A{\displaystyle {\mathcal {A}}}
+= a × b ;
+la somme : la somme de deux nombres i et j, c'est le résultat de l'opération i + j ;
+un segment : un segment est défini par deux bornes (ici deux nombres) et il contient tous les nombres qui se trouvent entre ces bornes.
+Par exemple, [0;2] est le segment qui contient tous les nombres supérieurs (ou égaux) à zéro et inférieurs (ou égaux) à 2.
+Si l'on écrit plutôt ]0;2], alors on parle du segment [0;2], mais on en a retiré zéro.
+une fonction : si tu ne sais pas ce que c'est, il faut vraiment lire l'article Fonction avant de continuer celui-ci.
+Pour résumer, une fonction f transforme un nombre x en un autre nombre (appelé « image de x par f », et noté f(x)).
+Un graphe, comme le premier schéma de cet article, montre l'image f(x) de chaque x par f, quand on prend pour x tous les nombres compris dans un segment.
+Si tu connais ces cinq notions, alors nous sommes prêts pour la découverte du calcul intégral !
+Rappelons-nous
+que l'aire d'un rectangle est le produit de sa largeur par sa longueur.
+Qu'est-ce qu'une fonction constante ?
+C'est une fonction qui, quel que soit le x qu'on lui donne, renvoie toujours un même nombre, par exemple 2 ou 5.
+Une telle fonction a donc une courbe «
+plate », comme la fonction f sur le schéma ci-contre.
+On s'aperçoit alors que cette courbe forme aussi un rectangle avec l'axe des abscisses !
+Il suffit de définir un segment sur cet axe.
+Sur le schéma, ce segment a pour longueur a (qui représente un nombre, celui qu'on veut), et la fonction f renvoie toujours la valeur b.
+Le rectangle formé a donc pour longueur a et pour largeur b ;
+or on sait calculer son aire : Arectangle{\displaystyle {\mathcal {A}}_{rectangle}} = a × b. L'aire sous la courbe de la fonction f est donc égale à ab !
+On s'aperçoit qu'ainsi, il est facile de calculer l'aire sous une courbe plate, ou formant un triangle, etc., parce qu'il existe pour cela des formules de géométrie simples.
+Mais la courbe de certaines fonctions n'a pas de forme géométrique particulière (comme sur le tout premier schéma) : on ne peut pas y appliquer ces formules de géométrie.
+Il faut donc trouver un moyen facile de calculer quand même l'aire sous la courbe de ces fonctions.
+On va découvrir ce qu'on appelle une subdivision, qui nous aidera juste après.
+Prenons deux nombres, par exemple 0 et 2, et créons le segment [0;2], qu'on appelle S et qui contient tous les nombres réels de 0 à 2.
+Nous allons découper ce segment.
+Comme pour une baguette de pain, il y a différentes façons de le faire :
+on peut le couper directement en deux, en marquant comme avec un feutre sa moitié (pour S, c'est 1) ;
+comme on a divisé le segment S (la baguette) en deux, on appelle ce découpage s2{\displaystyle s_{2}} et l'on dit alors que s2{\displaystyle s_{2}} = (0 ; 1 ; 2) est une subdivision de S (on peut voir 0, 1 et 2 comme les marques du découpage : début, milieu, fin) ;
+on peut aussi partager S en de plus petits morceaux, par exemple en quatre : les points que l'on va marquer comme séparation seront alors 1 2.
+La subdivision sera donc notée s4{\displaystyle s_{4}} = .
+On dit que s4{\displaystyle s_{4}} est une subdivision plus fine que s2{\displaystyle s_{2}}, car elle réunit les points de s2{\displaystyle s_{2}}plus d'autres points : elle est donc plus précise, puisqu'elle découpe S plus finement (en des morceaux plus petits).
+Précédemment, nous avons vu ce que sont les fonctions constantes : des fonctions qui ont toujours la même valeur, quoi qu'on leur donne.
+Nous allons maintenant fabriquer une nouvelle fonction f, qui aura un peu une forme d'escalier :
+on choisit un certain segment [
+i;j], et une subdivision s qu'on associe au segment.
+Disons que cette subdivision découpe le segment en 6 morceaux (pas forcément de même taille).
+On écrit s=(a0;a1;a2;a3;a4;a5;a6){\displaystyle s=(a_{0};a_{1};a_{2};a_{3};a_{4};a_{5};a_{6})}, où a0{\displaystyle a_{0}} = i et a6{\displaystyle a_{6}} = j, puisque ce sont les bornes du segment.
+On a représenté la subdivision sur l'axe des abscisses du schéma n°3 ;
+sur chaque intervalle de la subdivision (entre a0{\displaystyle a_{0}} et a1{\displaystyle a_{1}}, puis entre a1{\displaystyle a_{1}} et a2{\displaystyle a_{2}}, etc.
+, on définit la fonction f comme une constante ;
+cependant, f sur [a1;a2[{\displaystyle
+[a_{1};a_{2}[} peut valoir 2, et prendre une valeur différente sur [a2;a3[{\displaystyle [a_{2};a_{3}[} !
+On obtient une courbe «
+en escalier », comme sur ce schéma.
+Encore une fois, il n'existe pas de formule de géométrie simple pour calculer l'aire d'une figure aussi peu régulière.
+Mais c'est là que les subdivisions rentrent en jeu : si l'on regarde la fonction f entre deux subdivisions qui se suivent, de quoi s'aperçoit-on ?
+La courbe de f, constante sur cette subdivision, forme un rectangle avec l'axe des abscisses !
+Et, un rectangle, on sait en calculer l'aire : nous l'avons fait tout à l'heure.
+Il devient donc très facile de calculer l'aire sous la courbe de f : il suffit d'additionner l'aire de chaque rectangle, entre chaque subdivision.
+Dans ce cas, la « largeur » du premier rectangle est égale à la distance a0a1{\displaystyle a_{0}\!a_{1}} (qui vaut a1−a0{\displaystyle a_{1}-a_{0}}), et sa longueur à f(a0{\displaystyle a_{0}}) ;
+et donc son aire à (a1−a0)f(a0){\displaystyle (a_{1}-a_{0})f(a_{0})}.
+Si on note I{\displaystyle {\mathcal {I}}}
+l'aire sous toute la courbe de f
+, on a donc :
+Prenons, sur les schémas suivants, la fonction f, en rouge et en forme de triangle.
+Nous voulons calculer l'aire sous sa courbe (la surface en rougepâle).
+La fonction f est ici définie sur le segment [0;2] :
+on commence par choisir une subdivision de ce segment.
+Disons qu'on le coupe en trois, et l'on appelle notre subdivision s3=(0;a0;a1;2){\displaystyle s_{3}=(0;a_{0};a_{1};2)} ;
+la fonction en escalier que l'on construit avec cette subdivision (en vert foncé sur les schémas) part du point 0, comme f. Jusqu'au point de subdivision suivant, la fonction en escalier est constante et vaut f(0), c'est-à-dire 0 ;
+lorsque notre fonction en escalier arrive en a0{\displaystyle a_{0}}, elle « monte » tout d'un coup, jusqu'à rejoindre f ;
+et puis elle redevient sagement constante et vaut f(a0{\displaystyle a_{0}}), jusqu'à la prochaine subdivision.
+bien-sûr
+, on a choisit celle-ci, a1{\displaystyle a_{1}}, de façon à ce que notre fonction en escalier reste sous la courbe de f. Ainsi, quand on atteint a1{\displaystyle a_{1}}, la fonction arrête d'être constante et « retombe » à 0.
+Si l'on compare l'aire sous la courbe de f (en rouge) et de notre fonction en escalier (en vert), on remarque que le vert ne recouvre pas tout le rouge : l'aire que nous avons calculée est plus petite que celle qu'il fallait trouver !
+C'est parce qu'un rectangle n'est pas très adapté pour calculer une surface triangulaire, évidemment.
+Première étape : un rectangle.
+Deuxième étape : dix rectangles...
+Troisième étape : et encore plus de rectangles.
+Comme précédemment, nous allons donc nous servir de davantage de rectangles, c'est-à-dire d'une fonction en escalier avec une subdivision plus fine (onze points, contre quatre juste avant), comme sur le deuxième schéma.
+En refaisant le même calcul avec ces dix rectangles, on constate cette fois que la taille de la surface verte s'est rapprochée de celle de la rouge.
+Ainsi, en augmentant le nombre de rectangles, on gagne en précision !
+Puisque c'est comme ça, nous allons faire un troisième calcul, avec encore plus de rectangles (troisième schéma).
+Plus de rectangles, ça veut dire une subdivision encore plus fine, et donc chaque distance aiai+1{\displaystyle a_{i}a_{i+1}} encore plus petite.
+Et ça marche !
+La surface verte recouvre cette fois-ci pratiquement toute la surface rouge : son aire est donc presque la même !
+Nous avons parce que plus on prenait de rectangles, meilleure était l'approximation de l'aire qu'on obtenait.
+Or, comme il faut faire rentrer tous ces rectangles dans un segment qui reste de la même taille, on prend forcément des rectangles de plus en plus fins ;
+et c'est normal : c'est parce qu'à chaque fois, on a pris une subdivision plus fine.
+À présent
+, puisque nous voulons calculer l'aire sous la courbe de f de la manière la plus précise possible, il est logique de prendre énormément de rectangles (puisque plus nous en prendrons, meilleur sera notre calcul).
+En fait, le mieux serait d'en prendre tellement qu'on ne pourrait même pas les compter, c'est-à-dire un nombre infini de rectangles !
+Comme ils seraient de plus en plus fins
+, ils « suivraient » toujours mieux la courbe de f.
+Mais comment faire rentrer une infinité de rectangles dans un espace fini (notre segment) ?
+En fait, il suffit qu'ils soient très fins : infiniment fins.
+Ce ne sont presque plus des rectangles, on dirait juste des traits.
+La longueur du rectangle qui commence, par exemple, au point 1 est toujours égale à f(1) (pour que le rectangle soit juste sous la courbe de f), mais sa largeur est donc devenue extrêmement faible.
+En mathématiques (et en physique), un morceau infiniment petit d'une longueur ℓ{\displaystyle \ell } est noté dℓ{\displaystyle \mathrm {d\ell } }.
+Par exemple, si j'ai une ficelle de longueur ℓ{\displaystyle \ell }, alors dℓ{\displaystyle \mathrm {d} \ell } est un morceau de cette ficelle, si petit qu'on ne le voit pas à l'œil nu.
+C'est presque un simple point ;
+sauf que c'est quand même un tout petit peu plus, juste assez pour être qualifié de « longueur ».
+Dans notre calcul d'aire sous la courbe de la fonction f, nous aurons donc le meilleur résultat possible si nous utilisons des rectangles d'une largeur égale à dℓ{\displaystyle \mathrm {d\ell } }.
+L'aire d'un tel rectangle, partant d'un point a, est donc égale à :
+Cela, c'est pour un rectangle ;
+pour l'aire totale (sur tout le segment), il faut faire la somme de toutes ces petites aires, soit :
+Les mathématiciens ont une façon très pratique d'écrire la somme précédente.
+Nous, nous avons mis des points de suspension, pour dire que la somme se répète de la même manière et qu'elle est si longue qu'on ne va quand même pas l'écrire en entier.
+Les mathématiciens utilisent cette notation :
+On voit que c'est bien plus court !
+Il faut lire comme ceci : «
+L'aire totale est égale à la somme des f(ai)×dℓ{\displaystyle f(a_{i})\times \mathrm {d\ell } }, pour i variant discrètement de 0 à n ».i est une variable qui augmente de 0 à un nombre n.
+En fait, cela signifie qu'on va d'abord prendre f(a0)dℓ{\displaystyle f(a_{0})\mathrm {d\ell } } ;
+et on augmente i d'une unité : i = 1 et donc f(ai)dℓ=f(a1)dℓ{\displaystyle f(a_{i})\mathrm {d\ell } =f(a_{1})\mathrm {d\ell } }.
+On reprend notre f(a0)dℓ{\displaystyle f(a_{0})\mathrm {d\ell } }, et on l'ajoute à f(a1)dℓ{\displaystyle f(a_{1})\mathrm {d\ell } } ;
+et ainsi de suite.
+À la fin, on a donc :
+f(a0)dℓ+f(a1)dℓ+f(a2)dℓ+…+f(an)dℓ{\displaystyle
+f(a_{0})\mathrm
+{d\ell } +f(a_{1})\mathrm {d\ell } +f(a_{2})\mathrm {d\ell } +\ldots +f(a_{n})\mathrm {d\ell } } et c'est bon !
+Le symbole ∑{\displaystyle \sum } vient de la lettre grecque sigmamajuscule, qui se traduit par « S » (pour «
+Somme »
+dans l'alphabet latin, que nous utilisons.
+Une somme d'aire de rectangles infiniment fins, c'est très bien et ça colle à la réalité : on obtient la bonne aire.
+Néanmoins, il n'est pas possible, à la main, de calculer la somme des aires d'une infinité de rectangles invisibles : ce n'est qu'un moyen de visualiser la solution.
+En vérité, si l'on utilisait toujours des rectangles, aussi fins soient-ils, ils ne recouvriraient jamais totalement l'aire à calculer (on l'a vu avec l'exemple de la fonction en forme de triangle).
+En résumé, il a y toujours une subdivision plus petite que celle qu'on choisit et qui nous échappe !
+Le problème vient, en fait, de la somme qu'on fait : elle est discrète.
+Cela ne signifie pas qu'elle ne fait pas de bruit, mais plutôt qu'on augmente le i de un en un ;
+sauf qu'entre deux nombres, il y en a toujours un autre1 !
+C'est à dire qu'entre chaque nouveau terme f(ai)dℓ,f(ai+1)dℓ{\displaystyle f(a_{i})\mathrm {d\ell } ,f(a_{i+1})\mathrm {d} \ell }, il y a de la place ; ou qu’entre chaque rectangle tracé, aussi fin soit-il
+, on peut trouver un espace minuscule mais suffisant pour en rajouter un, dont l'aire ne sera donc pas comptée !
+Pour pallier ce problème, on ne va donc pas utiliser la somme ∑{\displaystyle \sum }, discrète (qui progresse par étapes) ;
+mais plutôt une somme continue, qui recouvre tout le segment, sans oublier le moindre rectangle imaginable.
+Cette somme continue
+, c'est ce qu'on appelle une intégrale.
+Notre aire sous la courbe va donc s'écrire comme l'intégrale (c'est-à-dire la somme continue) de chaque point x sous la courbe (comprise entre les bornes a et b du segment).
+Si l'on veut raisonner avec les rectangles, on peut dire qu'on intègre les rectangles (infiniment fins) placés à chaque point x (dont l'aire vaut donc f(x)×dx{\displaystyle f(x)\times \mathrm {d} x}).
+Cela s'écrit :
+On lit : «
+L'aire totale est égale à l'intégrale entre a et b de la fonction f. »
+Le symbole utilisé,
+∫{\displaystyle \int }, représente lui aussi un s stylisé ;
+mais sa forme est lisse et continue, contrairement à ∑{\displaystyle \sum } qui possède des points d'arrêt.
+Nous avons atteint notre but : l'intégrale permet de calculer l'aire sous la courbe de n'importe quelle fonction, comme celle du tout premier schéma.
+Sauf que... nous ne savons pas encore comment obtenir le résultat d'une intégrale !
+Pas de panique
+, il existe pour cela différents moyens dont nous allons parler.
+Néanmoins, dans l'enseignement français, les bases du calcul intégral sont au programme de la classe de Terminale scientifique : c'est qu'il n'est pas toujours évident d’intégrer une fonction !
+Nous allons parler en premier de la méthode dite « des primitives », parce que c'est la plus utilisée et, souvent, la plus pratique.
+Cependant, la primitivation est une opération qui peut-être difficile à comprendre ;
+aussi, si tu ne sais pas ce qu'est la dérivée d'une fonction, mieux vaut visiter l'article concerné, ou sauter cette partie !
+Prenons la fonction
+Elle admet2 ce qu'on appelle une fonction dérivée, notée par exemple f’, qui se déduit de f en utilisant certaines règles de calcul.
+Comme f’ est la dérivée de f, on dit que f est une primitive de f’ : la primitivation est l’opération inverse de la dérivation.
+Le lien avec l'intégration se fait via un résultat très utile, qui dit que l'intégrale de a à b de la fonction f est égale à la primitive de f appliquée à b moins la primitive de f appliquée à a' :
+Lorsqu'on peut calculer une primitive de f, on obtient donc très facilement l'intégrale de f entre deux points.
+Elle consiste en fait à prendre un point au hasard sur le segment [a;b] (sur lequel on cherche à calculer ∫abf(x)dx{\displaystyle \int _{a}^{b}f(x)\,\mathrm {d} x}), par exemple une valeur c comprise entre a et b. On décide alors que, pour le moment, l'aire sous la courbe de f (et donc son intégrale) vaut (b
+- a) × f(c) (comme si la fonction f était constante).
+Avec un seul point, ce résultat est très probablement faux.
+En revanche, si l'on répète l'expérience avec un grand nombre de points, la moyenne des aires ainsi calculées tendra vers l'intégrale « réelle » de f entre a et b.
+Du fait de la simplicité du calcul (faire une moyenne) et du grand nombre d'opérations identiques à effectuer (la prise d'un point au hasard et le calcul d'aire associé), la méthode de Monte-Carlo est particulièrement adaptée quand on veut calculer des intégrales par ordinateur ;
+bien plus que les méthodes des rectangles , des trapèzes et des primitives.
+Jusqu'à présent, nous n'avons pensé qu'aux cas où la fonction à intégrer était strictementpositive, c'est-à-dire que toutes les images f(x) de notre fonction f étaient supérieures à zéro.
+Cependant, on peut calculer des intégrales dans les autres cas.
+Comment cela se passe-t-il ?
+Si la fonction f est nulle, alors son aire est nulle.
+Attention, la réciproque n'est pas forcément vraie !
+Si, sur le segment [a;b] où l'on veut intégrer la fonction f, certaines images f(x) (ou toutes) sont inférieures à zéro, on se retrouve dans le cas illustré par le schéma, à droite.
+On soustrait alors l'aire sous l'axe des abscisse (A1{\displaystyle {\mathcal {A}}_{1}}) à l'aire au-dessus de l'axe des abscisses (A2{\displaystyle {\mathcal {A}}_{2}}), et l'on définit l'aire totale sous la courbe comme A=A2−A1{\displaystyle {\mathcal {A}}={\mathcal {A}}_{2}-{\mathcal {A}}_{1}}.
+On peut ainsi obtenir une intégrale négative ;
+nous nous apercevons alors qu'on ne peut pas toujours comparer l'intégrale d'une fonction sur un segment à « l'aire sous la courbe » de cette fonction !
+Il existe diverses méthodes de calcul pratique de l'intégrale, et nous en avons vu quelques-unes ;
+mais il y a également des définitions différentes de ce qu'est l'intégrale.
+Heureusement, ces définitions sont compatibles entre elles !
+Dans cet article, nous avons découvert l'intégrale la plus commune, dite au sens de Riemann, du nom du mathématicien allemand Bernhard Riemann ;
+une autre interprétation en est l'intégrale au sens de Lebesgue, définie par le mathématicien français Henri-Léon Lebesgue.
+La différence principale entre ces deux conceptions est que Riemann considère l'intégrale comme, en quelque sorte, la somme continue de bandelettes verticales sous la courbe de la fonction.
+Lebesgue, lui, préférait concevoir ses intégrales toujours comme une somme continue, mais de bandelettes horizontales, qui s'empilaient de l'axe des abscisses jusqu'à la courbe de la fonction à intégrer.
+Ces deux méthodes, parmi d'autres, donnent les mêmes résultats.
+Alors, quel intérêt ?
+C'est qu'il existe des cas où l'une de ces conceptions ne permet pas de calculer une intégrale de façon satisfaisante ;
+on peut alors se servir de l'autre définition, qui fonctionnera.
+Il arrive qu'on ait à additionner ou multiplier des intégrales...
+Certaines règles de calcul permettent cela :
+Si [a;b] est un segment, f et g deux fonctions continues sur [a;b], λ{\displaystyle \lambda } et μ{\displaystyle \mu } deux nombres, et c un élément de [a;b] :
+↑C'est un théorème très utile en mathématiques : quels que soient les nombres réels x et y tels que x < y (aussi proches qu'on le veut), il existe toujours un autre nombre réel z tel que x < z < y.
+↑Sous certaines conditions.

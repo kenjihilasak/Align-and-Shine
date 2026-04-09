@@ -1,0 +1,17 @@
+Mémoire informatique
+En informatique, une mémoire tampon, couramment désignée par le terme anglais buffer, est une zone de mémoire vive ou de disque utilisée pour entreposer temporairement des données, notamment entre deux processus ou matériels ne travaillant pas au même rythme.
+Description
+Du fait de la différence de vitesse entre le processeur et le périphérique, les données envoyées vers un périphérique (interne ou externe) sont le plus souvent stockées dans des mémoires tampon en attente de leur envoi effectif vers le périphérique, pour épargner à l’ordinateur l'attente due à la différence de débits entre le microprocesseur interne et les différents périphériques souvent lents.
+De même, les données reçues de l'extérieur sont le plus souvent rassemblées dans des tampons, en attente de leur traitement par l'ordinateur (pour des raisons d'efficacité, et aussi pour éviter qu'une réception de données trop rapprochées fasse que certaines, non traitées, ne soient perdues).
+Les périphériques tels que les ports séries sont le plus souvent munis de tampons file d'attente : les données émises ou reçues en premier sont traitées en premier.
+Une émission trop rapide peut remplir le tampon ;
+on bloque alors généralement le processus émetteur.
+Une réception trop rapide peut, elle aussi, bloquer le tampon, avec risque de perte de données ;
+aussi utilise-t-on souvent un dispositif de contrôle de flux disant à l'émetteur d'arrêter son émission quand le tampon est dangereusement près de la limite, et de recommencer quand le niveau est redevenu acceptable.
+Utilisation
+Dans certains langages de programmation comme le C, des tampons sont systématiquement utilisés pour réguler les Entrées-Sorties, par exemple la lecture ou l'écriture dans un fichier.
+Concrètement, le tampon est une chaîne de caractères accompagnée d'un indice ou d'un pointeur désignant la position de lecture courante.
+Dans le cas d'une écriture, le contenu du tampon est partiellement ou intégralement recopié dans la sortie, puis il est mis à jour, et le processus est répété un certain nombre de fois;
+dans le cas d'une lecture, à chaque étape, une partie de l'entrée est copiée dans le tampon pour être utilisée.
+Ce système permet de limiter les appels système read et write, qui sont beaucoup plus lents que les autres types d'instructions.
+Le programmeur qui voudra forcer la vidange du tampon dans un but particulier fera bien d'examiner la commande fflush de la bibliothèque standard.

@@ -1,0 +1,15 @@
+Test
+Sommaire
+En statistiques, on réalise des tests d'hypothèse.
+Par exemple, dans un jeu de cartes avec des faces cachées rouges ou bleues, on peut formuler une hypothèse comme "toutes les dames ont une face cachée bleu", que l'on va appeler h0.
+Pour réaliser le test, il faut prendre un groupe (un échantillon), le plus grand possible pour qu'il puisse être le plus représentatif.
+On regarde les cartes : si c'est une dame avec un dos rouge, l'hypothèse est considérée comme fausse.
+En programmation, il faut réaliser des tests pour vérifier que le programme marche.
+On fait ce que l'on appelle un jeu de tests : on choisit plusieurs groupes de valeurs ou de données, on calcule manuellement le résultat attendu et on vérifie que le programme donne ce résultat avec les valeurs données.
+Il faut toujours tester plusieurs valeurs, y compris des valeurs erronées.
+Par exemple, si l'on fait un programme additionnant deux nombres, on peut tester avec 3 et 2 et vérifier que le programme renvoie 5.
+On peut aussi tester avec 2 et -3 pour vérifier que programme prend bien en compte les nombres négatifs.
+On doit aussi vérifier des valeurs non valides, comme "Château" et 3 : le programme doit répondre qu'additionner des lettres et des chiffres n'a aucun sens.
+Il existe des tests en biologie pour déterminer le groupe sanguin de quelqu'un, ou pour vérifier la présence d'une maladie.
+Les tests ADN sont eux utilisés pour retrouver les coupables dans les affaires criminelles.
+Les tests peuvent aussi vérifier les capacités de quelqu'un, et vérifier qu'il peut pratiquer un sport, ou qu'il a le niveau et le développement attendu pour son âge.

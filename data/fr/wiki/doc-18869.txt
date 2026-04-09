@@ -1,0 +1,23 @@
+Programmation informatique
+En programmation informatique, un langage de haut niveau est un langage de programmation orienté autour du problème à résoudre, qui permet d'écrire des programmes en utilisant des mots usuels des langues naturelles (très souvent de l'anglais) et des symboles mathématiques familiers.
+Un langage de haut niveau fait abstraction des caractéristiques techniques du matériel utilisé pour exécuter le programme, tels que les registres et les drapeaux du processeur.
+Les langages de haut niveau sont plus proches des langues naturelles, ce qui facilite et vulgarise l'écriture des programmes.
+Ils sont généralement indépendants de la machine : le même programme pourra être utilisé tel quel sur plusieurs types d'ordinateurs
+- quoique les programmes puissent également être conçus pour un système d'exploitation en particulier.
+Les langages de haut niveau sont apparus dans la seconde moitié des années 1950 (Fortran en 1954, Lisp et Algol en 1958, COBOL en 1959).
+Ils ont permis d'écrire des programmes d'une manière plus familière, proche de l'anglais, et qui ne dépend pas du processeur qui sera utilisé.
+En 2010, il existe plus de 200 langages de programmation de haut niveau.
+Caractéristiques
+Le terme « langage de haut niveau » n'implique pas que ce type de langage soit supérieur à un langage de bas niveau.
+La notion de profondeur désigne la distance du langage par rapport au travail de la machine.
+Le langage de haut niveau a un plus haut niveau d'abstraction que les langages machines.
+Plutôt que de s'occuper des registres, des accès mémoires et des piles, les langages de haut niveau s'occupent de concepts plus élaborés tels que les processus légers, verrous, objets, variables, tableaux, arithmétique complexe et expressions booléennes.
+De plus, ils n'ont en général pas la possibilité de s'occuper des détails liés à la machine tels que la gestion mémoire contrairement aux langages de bas niveau ou alors ces langages font appel à des fonctions préprogrammées (comme les opérateurs new et delete en C++).
+D'autres caractéristiques telles que des routines de manipulation de chaîne de caractères ou les concepts des langages objets peuvent être présentes.
+Coût de cette abstraction
+De façon stéréotypée, les langages de haut niveau simplifient le travail du programmeur là où les langages de bas niveau permettent de produire un code plus efficace.
+La limite d'utilisation des langages haut niveau correspond aux situations où les ressources matérielles sont limitées.
+Les concepts de programmation haut niveau tels que les structures de données génériques, l'interprétation à l'exécution sont souvent lents à l'exécution et grands consommateurs mémoire.
+Pour cette raison, les codes qui ont besoin de s'exécuter rapidement et efficacement devraient être écrits en langage de bas niveau, même si la programmation en langage de haut niveau se ferait plus facilement.
+Néanmoins, avec l'augmentation en complexité des architectures des microprocesseurs modernes et l'amélioration des compilateurs, on observe que fréquemment les langages de haut niveau produisent du code aussi efficace que ce qui peut être fait à la main par la plupart des programmeurs.
+De plus, une abstraction plus haute peut permettre des techniques plus puissantes produisant généralement de meilleurs résultats que leurs équivalents de bas niveau.

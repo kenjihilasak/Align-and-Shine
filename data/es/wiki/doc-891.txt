@@ -1,0 +1,43 @@
+Un generador eléctrico es todo dispositivo capaz de mantener una diferencia de potencial eléctrica entre dos de sus puntos (llamados polos, terminales o bornes) transformando la energía mecánica en eléctrica.
+Esta transformación se consigue por la acción de un campo magnético sobre los conductores eléctricos dispuestos sobre una armadura (denominada también estátor).
+Si se produce mecánicamente un movimiento relativo entre los conductores y el campo, se generará una fuerza electromotriz (F.E.M.).
+Este sistema está basado en la ley de Faraday.
+Aunque la corriente generada es corriente alterna, puede ser rectificada para obtener una corriente continua.
+En el diagrama adjunto se observa la corriente inducida en un generador simple de una sola fase.
+La mayoría de los generadores de corriente alterna son de tres fases.
+El proceso inverso sería el realizado por un motor eléctrico, que transforma energía eléctrica en mecánica.
+Otros sistemas de generación de corrientes eléctricas
+No solo es posible obtener una corriente eléctrica a partir de energía mecánica de rotación, sino que es posible hacerlo con cualquier otro tipo de energía como punto de partida.
+Desde este punto de vista más amplio, los generadores se clasifican en dos tipos fundamentales:
+Primarios: Convierten en energía eléctrica la energía de otra naturaleza que reciben o de la que disponen inicialmente, como alternadores, dinamos, etc.
+* Secundarios: Entregan una parte de la energía eléctrica que han recibido previamente, es decir, en primer lugar reciben energía de una corriente eléctrica y la almacenan en forma de alguna clase de energía.
+Posteriormente, transforman nuevamente la energía almacenada en energía eléctrica.
+Un ejemplo son las pilas o baterías recargables.
+Se agruparán los dispositivos concretos conforme al proceso físico que les sirve de fundamento.
+Generadores primarios
+Se indican de modo esquemático la energía de partida y el proceso físico de conversión.
+Se han considerado en todos los casos conversiones directas de energía.
+Por ejemplo, el hidrógeno posee energía química y puede ser convertida directamente en una corriente eléctrica en una pila de combustible.
+También sería su combustión con oxígeno para liberar energía térmica, que podría expansionar un gas obteniendo así energía mecánica que haría girar un alternador para obtener finalmente, por inducción magnética, la corriente deseada.
+En la mayoría de los casos, el rendimiento de la transformación es tan bajo que es preferible hacerlo en varias etapas.
+Por ejemplo, convertir la energía nuclear en energía térmica, posteriormente en energía mecánica de un gas a gran presión que hace girar una turbina a gran velocidad, para obtener finalmente, por inducción electromagnética, una corriente alterna en un alternador, el generador eléctrico más importante desde un punto de vista práctico como fuente de electricidad para casi todos los usos actuales.
+Generadores ideales
+Desde el punto de vista teórico (teoría de circuitos) se distinguen dos tipos de generadores ideales:
+* Generador de voltaje o tensión: un generador de voltaje ideal mantiene un voltaje fijo entre sus terminales con independencia de la resistencia de la carga Rc que pueda estar conectada entre ellos.
+* Generador de corriente o intensidad: un generador de corriente ideal mantiene una corriente constante por el circuito externo con independencia de la resistencia de la carga que pueda estar conectada entre ellos.
+En la (figura 1) se ve el circuito más simple posible, constituido por un generador de tensión constante E conectado a una carga Rc y en donde se cumpliría la ecuación:
+E = I×Rc
+El generador descrito no tiene existencia real en la práctica, ya que siempre posee lo que se ha dado en llamar convencionalmente resistencia interna, que aunque no es realmente una resistencia, en la mayoría de los casos se comporta como tal.
+En la (figura 2) se puede ver el mismo circuito anterior, pero donde la resistencia interna del generador viene representada por una resistencia Ri, en serie con el generador, con lo que la ecuación anterior se transforma en:
+E = I× (Rc+Ri)
+Así, un generador real puede considerarse en muchos casos como un generador ideal de tensión con una resistencia interna en serie, o bien como un generador ideal de intensidad en paralelo con una resistencia.
+Componentes de un generador
+Además del motor y el generador, los generadores eléctricos incluyen generalmente un suministro de combustible, un regulador de velocidad del motor constante (gobernador) y un regulador de tensión del generador, sistemas de refrigeración y de escape y el sistema de lubricación.
+Las unidades mayores de 1 kW de potencia a menudo tienen una batería y un motor de arranque eléctrico; además, unidades muy grandes pueden comenzar con aire comprimido o bien con un motor de arranque accionado por aire o introducido directamente a los cilindros del motor para iniciar la rotación del motor.
+Las unidades generadoras de energía de reserva incluyen a menudo un sistema automático de arranque y un interruptor de transferencia para desconectar la carga de la fuente de energía de la red cuando hay un fallo de alimentación y conectarlo al generador.
+Fuerza electromotriz de un generador
+Una característica de cada generador es su fuerza electromotriz (F.E.M.), simbolizada por la letra griega epsilon (ε) y definida como el trabajo que el generador realiza para pasar la unidad de carga positiva del polo negativo al positivo por el interior del generador.
+La F.E.M. (ε) se mide en voltios, y en el caso del circuito de la Figura 2 sería igual a la tensión E, mientras que la diferencia de potencial entre los puntos a y b, Va-b es dependiente de la carga Rc.
+La F.E.M. (ε) y la diferencia de potencial coinciden en valor en ausencia de carga, ya que en este caso, al ser
+no hay caída de tensión en Ri y por tanto Va-b
+Véase también

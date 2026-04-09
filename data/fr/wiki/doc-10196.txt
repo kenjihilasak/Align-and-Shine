@@ -1,0 +1,54 @@
+Mathématiques élémentaires|Suite de nombres|Arithmetique
+En mathématiques, une suite arithmétique est une suite (le plus souvent une suite numérique) dans laquelle chaque terme permet de déduire le suivant en lui ajoutant une constante appelée raison.
+Cette définition peut s'écrire sous la forme d'une relation de récurrence, pour chaque indice :
+u_ = u_n + r
+Cette relation est caractéristique de la progression arithmétique ou croissance linéaire.
+Elle décrit bien les phénomènes dont la variation est constante au cours du temps, comme l'évolution d'un compte bancaire à intérêts simples.
+Les suites arithmétiques satisfont une formule générale pour le calcul des termes ainsi que pour la série associée.
+Terme général
+Si (E, +) est un groupe
+- ou même seulement un ensemble muni d'une loi associative
+et si (u_n )_ est une suite arithmétique de E de raison r alors, pour tout entier naturel :
+u_n = u_0 + nr .
+Plus généralement, si la suite n'est définie qu'à partir de l'indice et si n ≥ p ≥ alors :
+Une suite arithmétique est donc entièrement déterminée par la donnée de son premier terme et de sa raison
+Réciproquement, une suite définie à partir de l'indice par
+est arithmétique de raison
+En analyse réelle ou complexe, la suite arithmétique est donc l'aspect discret de la fonction affine.
+Sens de variation et convergence
+Ce paragraphe concerne les suites arithmétiques à valeurs réelles et utilise que les réels forment un corps archimédien.
+Si r > 0, la suite est croissante ;
+si r 0), la limite est ;
+* si la raison est négative (r < 0), la limite est ;
+* si la raison est nulle (r = 0), la suite est constante et converge donc vers la constante.
+Somme des termes
+Si E = ℝ ou ℂ et si (u_n )_ est une suite arithmétique de E alors, toute somme de termes consécutifs est égale au nombre de ces termes multiplié par la moyenne des deux termes extrêmes.
+Par exemple
+u_0+u_1+\cdots+u_n
+n+1
+n+1
+Le cas particulier
+0 et r
+1 est
+la formule donnant la somme des entiers de 1 à n, dont diverses preuves sont présentées dans les deux articles détaillés.
+Il permet de montrer le cas général :
+u_p+u_+\cdots+u_n
+-p+1
+p+1
+Cette formule est vraie pour toute suite à valeurs dans un module sur un anneau de caractéristique différente de 2.
+Suites arithmétiques remarquables
+Ensemble des entiers naturels
+L'ensemble ℕ des nombres entiers naturels est une suite arithmétique infinie, de raison 1.
+Suite arithmétique de nombres premiers
+En 2004, Ben Joseph Green et Terence Tao ont démontré qu'il existait des suites arithmétiques de nombres premiers de longueur arbitraire finie, sans toutefois donner de moyen pour les trouver.
+Par exemple
+* suite arithmétique de trois nombres premiers de la forme 3 + 2n
+, avec n = 0 à 2 : 3, 5, 7 ;
+* suite arithmétique de cinq nombres premiers de la forme 5 + 6n,
+avec n = 0 à 4 : 5, 11, 17, 23, 29 ;
+* suite arithmétique de sept nombres premiers de la forme 7 + 150n,
+avec n = 0 à 6 : 7, 157, 307, 457, 607, 757, 907.
+Les plus longues suites arithmétiques de nombres premiers connues au sont au nombre de trois et possèdent 26 éléments chacune.
+Note et référence
+Voir aussi
+gyjp8uy4p48ddr9t0od64et1ehbm54d

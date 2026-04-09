@@ -1,0 +1,33 @@
+In un triangolo, la mediana è un segmento che congiunge un vertice al punto medio del lato opposto.
+Mediana di un parallelogramma è il segmento che congiunge i punti medi di due lati opposti.
+Proprietà
+Alcune proprietà della mediana:
+Il triangolo viene diviso dalla mediana in due triangoli aventi la stessa superficie e tutte le altre rette che dividono il triangolo in due parti di uguale superficie passano per il baricentro.
+Le tre mediane di un triangolo si intersecano in un punto chiamato baricentro o centro di massa (per una dimostrazione si veda per esempio il Teorema di Ceva).
+Ogni mediana giace per due terzi della propria lunghezza fra il vertice e il baricentro, mentre l'altro terzo si trova fra il baricentro e il punto medio del lato opposto.
+La terza proprietà non è immediata.
+In riferimento alla figura sottostante, provo che BG
+2GB '.
+Siano D ed E rispettivamente i punti medi dei segmenti BG e CG.
+Quindi
+DG (1) e CE=EG.
+Applicando il Teorema di Talete al triangoloABC tagliato dalla retta passante per B ' e C ' ho che
+B'C'=\fracBC.
+Applicando il Teorema di Talete al triangolo GBC tagliato dalla retta passante per D ed E ho che
+DE=\fracBC.
+Quindi DEB 'C ' è un parallelogramma.
+In un parallelogramma le diagonali si tagliano scambievolmente a metà, quindi DG
+GB ' (2).
+Si conclude osservando che per (1) e (2) si ha BG
+BD+DG
+2DG
+2GB '.
+Analogo ragionamento per le altre due mediane.
+Lunghezza delle mediane
+La lunghezza della mediana può essere ottenuta grazie al teorema della mediana.
+Usando la notazione standard per gli elementi di un triangolo e con m_a, m_b, m_c le mediane uscenti rispettivamente dai vertici A, B, C, si ha che:
+Dimostrazione:
+Sia A' il punto medio del lato BC.
+Considero i triangoli ABA' e AA'C. Per la prima proprietà essi sono equivalenti, quindi hanno medesima area, cioè ABA'=AA'C.
+Calcolando l'area dei due triangoli applicando la Formula di Erone (conviene la seconda forma proposta) ottengo il primo enunciato.
+Ragionamento analogo per gli altri due.

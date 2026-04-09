@@ -1,0 +1,130 @@
+Nella matematica, un intero b è un divisore di un intero a se esiste un intero c tale che
+b \cdot c.
+7 \cdot 6.
+Si dice anche che 7 divide 42, o che 42 è divisibile per 7 o che 42 è un multiplo di 7, e si scrive 7 \mid 42.
+I divisori possono essere sia positivi che negativi.
+I divisori positivi di 42 sono .
+Casi particolari:
+1 e -1 dividono qualunque intero, ed ogni intero è un divisore di 0.
+I numeri divisibili per 2 si chiamano pari, mentre quelli che non lo sono si chiamano dispari.
+Il nome è legato al fatto che l'intero non nullo b divide l'intero a se e solo se nella divisione con resto di a per b il resto è zero.
+Regole per piccoli divisori
+Esistono alcune regole utili per capire semplicemente alcuni piccoli divisori di un numero guardando le sue cifre
+decimali:
+* un numero è divisibile per 2 se e solo se l'ultima cifra è divisibile per due (cioè se è pari).
+Esempio:
+45 è un numero dispari, perciò non è divisibile per due, mentre 1478 è pari ed è perciò divisibile per due;
+* un numero è divisibile per 3 se la somma delle sue cifre è un multiplo di tre.
+Nel caso il risultato dovesse essere maggiore di 9, si sommano le due o più cifre del risultato e si stabilisce se sono multipli (ovvero divisibili) per tre.
+Esempio:
+La somma delle cifre che compongono il numero 213 è 6, quindi 213 è divisibile per tre.
+Nel caso di 579, invece, la somma risulta essere 21.
+Visto che 2 + 1 fa tre, anche 579 è divisibile per tre;
+* un numero è divisibile per 4 se il numero formato dalle sue due ultime cifre è un multiplo di 4 oppure sono due zeri.
+Esempio:
+Il numero 144 termina con le cifre 44, e, visto che il quattro calza nel 44, il numero 144 è divisibile per 4.
+Anche 500 è divisibile per quattro;
+* un numero è divisibile per 5 se l'ultima cifra è 0 oppure 5.
+Esempio:
+Sia 5025 che 19830 sono divisibili per 5, al contrario di 783.
+* un numero è divisibile per 6 se è divisibile sia per 2 che per 3 (vedi sopra).
+Esempio:
+Il numero 96 è divisibile sia per 2 che per tre, e quindi è divisibile anche per 6;
+* un numero è divisibile per 7 se sottraendo il doppio dell'ultima cifra al numero senza l'ultima cifra il risultato è divisibile per 7 (ad esempio, 364 è divisibile per sette in quanto 36-2×4
+28, che è divisible per 7).
+Se il numero è troppo grande, è possibile dividerlo in gruppi di tre cifre dalla destra alla sinistra, inserendo segni alternati fra ogni gruppo (ad esempio, invece di 1.048.576 è possibile fare la prova su 576-048+1
+529, che non è divisibile per sette in quanto 52-18 = 34 non lo è).
+Un numero può anche essere divisibile per 7 se lo è la somma fra il triplo delle cifre che precedono la cifra finale di un numero e la sua cifra finale (prendiamo il numero 380233, esso è divisibile per 7 perché 38023 x 3 + 3 è uguale a un numero divisibile per 7);
+* un numero è divisibile per 8 se il numero dato dalle ultime tre cifre lo è;
+* un numero è divisibile per 9 se la somma delle sue cifre rappresenta un multiplo di nove;
+* un numero è divisibile per 10 se la sua ultima cifra è 0;
+* un numero è divisibile per 11 se, eseguita la somma fra le cifre in una posizione pari e quelle in una posizione dispari, la differenza tra il maggiore e il minore di questi risultati è a sua volta divisibile per 11.
+Esempio:
+Nel numero 4257, si devono sommare le cifre che occupano una posizione dispari (1° e 3°, in questo caso), ovvero 4 e 5, con quelle che occupano una posizione pari (in questo caso, solo la 2ª e la 4ª cifra), ovvero 2 e 7.
+La somma delle cifre che occupano una posizione dispari è 9, quella delle cifre in un posto pari è ugualmente 9.
+La differenza è quindi uguale a zero (che è divisibile per 11);
+* un numero è divisibile per 13 se sottraendo 9 volte l'ultima cifra dal numero privato di questa il risultato è divisibile per 13 (ad esempio 858 lo è in quanto 85-9×8 = 13, che chiaramente è divisibile per 13).
+Il metodo della divisione dei grandi numeri in gruppi di tre cifre, spiegato a proposito della divisibilità per 7, funziona anche in questo caso.
+Un numero può essere divisibile per 13 anche se lo è la somma fra il quadruplo della cifra finale di un numero e tutte le cifre che precedono questa (ad esempio, 123071 è divisibile per 13 perché lo è 1 x 4 + 1+2+3+0+7).
+* un numero è divisibile per 17 se la differenza (presa in valore assoluto), fra il numero ottenuto eliminando la cifra delle unità e il quintuplo della cifra delle unità è 0, 17 o un multiplo di 17 (numeri con più di due cifre), oppure se in esso la differenza fra le sue cifre precedenti l'ultima e l'ultima moltiplicata per 5 è uguale a 0, 17 o un multiplo di 17
+* un numero è divisibile per 19, dopo averlo scomposto nella forma 100a + b, solo se è divisibile a + 4b, oppure se in esso la differenza fra le sue cifre prima dell'ultima moltiplicate per nove e l'ultima è uguale a 0, 19, o un multiplo di 19 (ad esempio 817 è divisibile per 19 perché lo è 81 x 9 - 7)
+* un numero è divisibile per 20, se l'ultima cifra è 0 e la penultima è 0,2,4,6 o 8.
+* un numero è divisibile per 23 se è divisibile per 23 la somma della cifra delle decine e del settuplo della cifra delle unità, oppure se in questo la differenza fra le cifre precedenti l'ultima e l'ultima moltiplicata per 16 è uguale a 0, 23 o un multiplo di 23 (ad esempio 1633 è divisibile per 23 perché lo è 163 - 3 x 16)
+* un numero è divisibile per 29 se (e solo se) lo è anche la cifra delle decine sommato al triplo della cifra delle sue unità (261 lo è in quanto 26 + 3*1 = 29), oppure se in questo la differenza fra le sue cifre precedenti l'ultima e l'ultima moltiplicata per 26 è uguale a 0, 29 o un multiplo di 29 (ad esempio, 957 è divisibile per 29 perché lo è 95 - 7 x 26)
+Proprietà
+Alcune proprietà fondamentali:
+Ulteriori informazioni
+Un divisore positivo di n diverso da n stesso è chiamato divisore proprio.
+Numeri primi
+Un intero n > 1 il cui unico divisore proprio è 1 viene chiamato numero primo.
+Qualunque divisore positivo di n è un prodotto di fattori primi di n elevati ad una qualche potenza (non superiore a quella presente nella fattorizzazione di n stesso).
+Questa è una conseguenza del teorema fondamentale dell'aritmetica.
+Numeri perfetti, difettivi, abbondanti
+Un numero uguale alla somma dei suoi divisori propri è detto numero perfetto.
+I numeri minori della somma sono detti difettivi, quelli maggiori abbondanti.
+Numero di divisori
+Il numero totale di divisori positivi di n è la funzione moltiplicativa d (n) (ad esempio, d (42)
+2×2×2 = d (2)×d (3)×d (7)).
+La somma dei divisori positivi di n è un'altra funzione moltiplicativa σ (n) (ad esempio, σ (42)
+3×4×8 = σ (2)×σ (3)×σ (7)).
+Notiamo che se un numero p è primo allora ha due divisori, p^2 ha tre divisori, ecc. ecc.
+In generale p^M ha M+1 divisori.
+Quindi se la fattorizzazione prima di n è data da:
+n = p_1^ \, p_2^ \, ... \, p_M^
+Allora il numero di divisori positivi di n è:
+d (n) = (\nu_1 + 1) (\nu_2 + 1) ... (\nu_M + 1)
+ed ogni divisore è nella forma:
+p_1^ \, p_2^ \, ... \, p_M^
+Dove:
+\forall
+i : 0 \le
+\mu_i \le \nu_i (i=1,2,...,M)
+Ad esempio
+poiché
+36000=2^
+5\cdot 3^2\cdot 5^3
+allora
+d (36000)
+6\cdot 3 \cdot 4=72
+e quindi 36000 ha 72 divisori.
+Da queste considerazioni si può dimostrare che un numero ha una quantità dispari di divisori se e solo se è un quadrato perfetto.
+Relazione indotta dalla divisibilità
+La relazione di divisibilità rende l'insieme \mathbb N degli interi non negativi un insieme parzialmente ordinato, precisamente un reticolo completamente distributivo.
+Il più grande elemento di questo reticolo è 0 ed il più piccolo è 1.
+L'operazione \wedge è rappresentata dal massimo comun divisore mentre la \vee dal minimo comune multiplo.
+Questo reticolo è isomorfo al duale del reticolo dei sottogruppi del gruppo ciclico infinito \mathbb Z
+Regole generali di divisibilità
+Se un intero n è scritto in base b e d è un intero tale che b ≡ 1 (mod d), allora n è divisibile per d se e solo se anche la somma delle sue cifre in base b lo è.
+Le regole date sopra per d
+e d
+9 sono casi speciali di questo (b=10).
+Possiamo generalizzare ulteriormente questo metodo per trovare come controllare, in qualsiasi base, la divisibilità di qualsiasi intero per un qualsiasi intero minore;
+cioè, determinare se d | a in base b.
+Per prima cosa cerchiamo una coppia di interi (n, k) tali che bn ≡ k (mod d).
+Adesso, invece di sommare le cifre, prendiamo a (che ha m cifre) e moltiplichiamo le prime m-n cifre per k ed aggiungiamo il prodotto alle ultime k cifre, e ripetiamo se necessario.
+Se il risultato è un multiplo di d allora anche il numero originario è divisibile per d. Qualche esempio:
+Poiché 103 ≡ 1 (mod 37) (
+1, d
+37) allora il numero a
+1523836638 si può dimostrare divisibile per 37 in quanto:
+1523836×1+638
+1524474, 1524×1+474
+1998, 1×1+998
+999 (o, più semplicemente, visto che in questo caso k
+1+523+836+638
+999)
+e 999 è divisibile per 37 per la conguenza vista sopra.
+Ancora, 102 ≡ 2 (mod 7) (
+2, d
+se a
+otteniamo 431×2+06
+868; ripetiamo:
+8×2+68 = 84 che è un multiplo di 7.
+Si noti che non c'è una terna (n, k, d) unica;
+3885, 388×3 +
+14 ed infine 1×3 + 4 = 7.
+Naturalmente questo non è sempre efficiente ma si noti che ogni numero della serie (43106, 12936, 3885, 1169, 357, 112, 35, 14, 7) è un multiplo di 7 e spesso si trovano multipli identificabili banalmente.
+Questo metodo non è necessariamente utile per alcuni numeri (ad esempio 104 ≡ 4 (mod 17) è il primo n dove k < 10) ma si presta a calcoli veloci in altri casi dove n e k sono relativamente piccoli.
+Generalizzazioni
+Si potrebbe parlare del concetto di divisibilità in ogni dominio d'integrità.
+Vedi la voce relativa per una definizione in questo contesto.

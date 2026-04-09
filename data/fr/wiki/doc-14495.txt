@@ -1,0 +1,389 @@
+Horlogerie|Pièce d'une montre|Dispositif mécanique
+Dans les horloges et les montres mécaniques, léchappement est un mécanisme placé entre la source d'énergie (ressort, poids, etc.) et le résonateur (pendule, balancier-spiral, etc.).
+L'échappement a pour buts de compter et d'entretenir les oscillations du balancier-spiral d'une montre ou du pendule d'une horloge.
+Bref historique
+Le chinois
+Yi Xing met au point la première horloge à échappement en 725.
+Cette horloge fait tourner une sphère armillaire grâce à un mécanisme alimenté par de l'eau.
+Ce n'est que bien plus tard, au XIe siècle, que Su Song conçoit une nouvelle horloge astronomique hydraulique qui utilise l'échappement de Yi Xing.
+Le premier échappement à être utilisé dans une horloge à poids
+est l'échappement à roue de rencontre (ou échappement à verge) couplé à un régulateur à foliot.
+Cet échappement est utilisé sur la plus ancienne horloge mécanique connue du monde occidental, celle du prieuré de Dunstable.
+Elle est datée de 1283 et contient un échappement à recul.
+La principale amélioration viendra d'Angleterre : George Graham invente en 1715 le mécanisme à ancre, encore utilisé sur nombre d'horloges du XIXe siècle.
+On parle d'échappement à repos frottant.
+Après de nombreuses améliorations, le progrès vient encore d'Angleterre : Thomas Mudge sépare l'ancre du pendule pour créer l'ancre libre.
+Le mécanisme est très intéressant pour les résonateurs à balanciers circulaires.
+L'échappement n'est en contact avec le résonateur que pendant un court instant.
+On parle alors d'échappement libre.
+En réalité, ce qui est libre, ce n'est pas l'échappement, mais plutôt le résonateur.
+Les dispositifs utilisant ce principe seront nombreux, et étonnamment ingénieux.
+Le problème à résoudre était de taille, car la navigation en mer demandait des chronomètres précis pour déterminer la longitude.
+L'habileté des créateurs était fortement aiguillonnée par de belles récompenses et un prestige considérable.
+En France, Pierre-Augustin Caron de Beaumarchais invente en 1753, un nouveau mécanisme d'échappement, dit « à hampe » ou « à double virgule », invention que lui dispute l'horloger du Roi Jean-André Lepaute.
+Beaumarchais doit faire appel à l'Académie des sciences pour que lui soit reconnue la propriété de l'invention.
+Par la suite, des systèmes ingénieux ont du être trouvés pour rendre les montres portables, en particulier les sécurités en cas de chocs.
+Fonctions communes à presque tous les échappements
+L'échappement est couplé au résonateur.
+Il interagit avec celui-ci une ou deux fois par période d'oscillation.
+L'angle parcouru par le résonateur pendant l'interaction est appelé angle de levée.
+Le reste du parcours du résonateur est appelé angle supplémentaire ou arc supplémentaire.
+Pendant l'angle supplémentaire, le résonateur peut être en contact avec l'échappement (échappement à repos frottant) ou sans contact (échappement libre).
+Pendant l'angle de levée, l'échappement exécute deux phases principales : le dégagement (ou comptage) et l'impulsion (ou entretien).
+Le dégagement
+Le dégagement permet de libérer le rouage qui va faire tourner les aiguilles.
+C'est la fonction de comptage.
+Le comptage est rythmé par la période de l'oscillateur, ceci permet de cadencer la vitesse de rotation des aiguilles.
+Le dégagement permet donc le transfert de l'information temporelle du résonateur vers les aiguilles, au travers du rouage.
+L'impulsion
+L'impulsion permet de redonner un peu d'énergie au résonateur.
+C'est la fonction dentretien des oscillations.
+L'amplitude des oscillations du résonateur a tendance à diminuer avec le temps à cause des frottements et de l'énergie dépensée pendant la phase de dégagement.
+L'impulsion essaie de maintenir l'amplitude des oscillations à un niveau constant.
+L'impulsion permet donc le transfert de l'énergie du moteur (barillet ou poids) vers le résonateur, au travers du rouage.
+On trouvera le fonctionnement détaillé de plusieurs types d'échappements éprouvés dans le livre "Échappements et Moteurs pas à pas",
+ainsi que de nombreux échappements anciens et modernes dans l'excellent livre "Théorie des échappements".
+Types d'échappements
+Il existe différentes manières de classer les échappements.
+Nous les classerons ici en fonction des conditions dans lesquelles le résonateur effectue l'angle de levée et l'angle supplémentaire :
+Dans l'échappement
+à recul
+, la roue d'échappement recule pendant toute la phase ascendante du résonateur.
+Elle avance pendant la phase descendante du résonateur.
+L'échappement à recul ne se rencontre que sur les horloges anciennes, en général pourvues d'un foliot ou d'un pendule.
+Exemple : l'échappement à roue de rencontre
+Dans l'échappement
+à repos frottant
+, la roue d'échappement est en contact quasi permanent avec le résonateur, sans toutefois se déplacer.
+Ce n'est que pendant le court instant de l'impulsion que la roue avance.
+Exemple : l'échappement
+à cylindre, l'échappement Graham,
+Dans l'échappement libre, l'échappement n'est en contact avec le résonateur que pendant l'angle de levée pour effectuer les phases de dégagement et d'impulsion (voir ci-dessous).
+Le reste du temps le résonateur est libre.
+Ce type d'échappement réclame une pièce supplémentaire, appelée ancre, venant s'insérer entre la roue d'échappement et l'oscillateur.
+Exemple : l'échappement à ancre suisse, l'échappement à détente
+Classement des échappements
+Il existe de nombreuses façons de classer les échappements.
+Nous avons choisi ici de les classer par leur mode d'utilisation, c'est-à-dire dans les montres ou dans les horloges, d'utilisation courante ou rare.
+Même si certains échappements pourraient être utilisés aussi bien dans une horloge que dans une montre, comme l'échappement à ancre, la plupart d'entre eux sont utilisés, soit dans l'un, soit dans l'autre.
+Échappements de montres
+Échappement à ancre suisse
+L'échappement à ancre est un échappement libre.
+Il est inventé par Thomas Mudge en 1754.
+Il est ensuite amélioré par de nombreux horlogers pour donner lieux à de nombreuses variantes.
+Le livre de Paul Mellen Chamberlain décrit des dizaines d'échappements à ancre.
+La variante utilisée actuellement qui ressemble le plus à l'échappement à ancre de Thomas Mudge est l' échappement à ancre suisse.
+Aujourd'hui, celui-ci est utilisé dans la très grande majorité des montres mécaniques.
+L'échappement à ancre suisse est constitué de 3 groupes de pièces :
+* la roue d'échappement (appelée aussi roue d'ancre)
+- le corps d'ancre avec la fourchette et les cornes
+- le grand plateau et le petit plateau avec son encoche
+- la cheville de plateau (ou ellipse) chassée dans le grand plateau
+On notera également les goupilles de limitation (entrée et sortie) ainsi que les axes des 3 pièces (pignon d'échappement, tige d'ancre, axe de balancier).
+Ces goupilles et axes, indispensables au fonctionnement de l'échappement, ne sont généralement pas considérées comme pièces de l'échappement.
+Fonctionnement
+Dans l'échappement à ancre suisse, le balancier comporte une cheville de plateau (ou ellipse) et l'ancre une fourchette.
+Quand le balancier, dans son mouvement d'oscillation, approche son point d'équilibre statique, la cheville de plateau entre dans la fourchette et fait pivoter l'ancre qui libère la roue d'échappement.
+C'est la phase de dégagement.
+Ensuite les rôles s'inversent, la roue d'échappement libérée vient pousser une palette de l'ancre qui elle poussera la cheville de plateau placée sur le balancier.
+C'est la phase d'impulsion qui redonne un peu d'énergie au balancier-spiral.
+Puis, l'ancre est arrêtée contre une butée (goupille de limitation) et le balancier continue son oscillation, libre de tout contact avec l'ancre.
+C'est la phase libre (ou arc supplémentaire).
+Arrivé en bout de course, le balancier-spiral repart en arrière et on retrouvera au retour, les mêmes phases qu'à l'aller : libre, dégagement, impulsion et libre.
+La roue d'échappement travaille alternativement sur une palette puis sur l'autre.
+Dû à son sens de rotation, une dent de la roue d'échappement travaille en premier sur la palette d'entrée ("entrée" dans l'ancre) et, quelques alternances plus tard, sur la palette de sortie ("sortie" de l'ancre).
+Fonctionnement en détail
+Description des zones fonctionnelles de la palette et de la dent
+Description de la fourchette et de la cheville
+Description des étapes du fonctionnement
+File:
+ArcPre.svg|alt=
+Phase libre du balancier|a)
+Phase libre du balancier
+File:DebDeg.svg|alt=Début du dégagement|b)
+Début du dégagement
+File:
+FinDeg.svg|alt=Fin du dégagement|c)
+Fin du dégagement
+File:
+DebImp.svg|alt=Début de l'impulsion sur la palette|d)
+Début de l'impulsion sur la palette (i.e.
+sur le plan d'impulsion de la palette)
+File:LigneCentres.svg|alt=Cheville de plateau sur la ligne des centres|e)
+Cheville de plateau sur la ligne des centres
+File:
+DebImpDent.svg|alt=Début de l'impulsion sur la dent|f) Début de l'impulsion sur la dent (i.e.
+sur le plan d'impulsion de la dent)
+File:
+FinImp.svg|alt=Fin de l'impulsion|g)
+Fin de l'impulsion
+File:
+FinChute.svg|alt=Fin de la chute|h) Fin de la chute
+File:
+FinChPerdu.svg|alt=Fin du chemin perdu|i)
+Fin du chemin perdu
+File:
+ArcPost.svg|alt=Phase libre du balancier|j)
+Phase libre du balancier
+* a)
+Phase libre du balancier : le balancier parcourt l'arc supplémentaire ascendant jusqu'à son élongation maximale (typiquement 200 à 300°), puis il repart dans l'autre sens pour parcourir l'arc supplémentaire descendant.
+Pendant cette phase libre, même s'il n'est pas en contact avec l'échappement, il est tout de même soumis au couple du spiral qui tend à le ramener au point d'équilibre statique.
+* b
+Début du dégagement : la cheville de plateau entre dans la fourchette de l'ancre.
+Le choc produit le bruit 1 (voir Bruits de l'échappement).
+La rotation de l'ancre dégage la palette de la roue d'échappement.
+Pendant le dégagement la roue d'échappement tourne très légèrement en arrière du fait du mouvement de la palette et de son angle de tirage.
+* c)
+Fin du dégagement : le bec de repos de la palette (BR) arrive sur le bec de la dent (BD).
+La roue d'échappement qui s'appuyait contre le plan de repos de la palette (PR), va venir s'appuyer contre le plan d'impulsion de celle-ci (PI).
+Cependant comme la roue d'échappement reculait très légèrement pendant le dégagement, le bec de la dent (BD) va mettre un cours instant pour rattraper le plan d'impulsion de la palette (PI).
+* d)
+Début de l'impulsion sur la palette : le bec de dent (BD) a rattrapé la palette, ce qui produit le bruit 2.
+Il commence à pousser la palette et donc l'ancre.
+Cette dernière se met alors à pousser la cheville de plateau.
+Le petit choc fourchette qui rattrape la cheville de plateau produit le faible bruit 3, presque simultané au bruit 2.
+* e)
+Cheville de plateau sur la ligne des centres : la cheville de plateau est sur la ligne reliant les centres du balancier et de l'ancre.
+S'il n'y a pas de défaut de repère, le balancier est au point d'équilibre statique (spiral détendu).
+* f
+) Début de l'impulsion sur la dent : l'échappement à ancre suisse étant un échappement à impulsion partagée, la première partie de l'impulsion se fait par le bec de la dent (BD) sur le plan d'impulsion de la palette (PI).
+Ici, nous avons la deuxième partie de l'impulsion qui se fait par le plan d'impulsion de la dent (PID) sur le bec d'impulsion de la palette (BI).
+* g)
+Fin de l'impulsion : le plan d'impulsion de la dent (PID) quitte le bec d'impulsion de la palette (BI).
+Les trois pièces de l'échappement (roue, ancre et cheville) perdent leurs contacts.
+La roue soumise au couple du rouage de finissage va chuter sur le plan de repos de l'autre palette (PR).
+Dans son élan, l'ancre continue de tourner.
+Le balancier va entamer sa phase libre.
+* h)
+Fin de la chute : la dent de la roue d'échappement a quitté la palette et son bec (BD) atteint le plan de repos de l'autre palette (PR).
+Elle produit le bruit 4.
+Elle pousse alors l'ancre vers la goupille de limitation.
+* i)
+Fin du chemin perdu : le bec de la dent (BD) glisse légèrement sur le plan de repos de la palette (PR).
+L'ancre atteint la goupille de limitation et produit le bruit 5, presque simultané au bruit 4.
+* j)
+Phase libre du balancier : comme pour la phase a
+, le balancier parcourt ses arcs supplémentaires ascendant puis descendant.
+Dans les phases décrites ci-dessus, le dégagement et l'impulsion se sont faits sur la palette d'entrée.
+La chute s'est faite sur la palette de sortie.
+Toutes ces phases se répéteront une demi-période plus tard, lors du retour du balancier.
+Cette fois-ci, le dégagement et l'impulsion se feront sur la palette de sortie et la chute sur la palette d'entrée.
+Bruits de l'échappement
+Lors de chaque alternance, le balancer fait basculer l'échappement, ce qui produit un son ("tic" ou "tac") composé de 5 bruits.
+Ces 5 bruits se suivent de manière très rapprochée sur une durée d'environ 7 ms.
+Cette durée dépend de la fréquence et de l'amplitude du résonateur ainsi que de l'angle de levée.
+Les 5 bruits sont provoqués par les actions suivantes :
+bruit 1 : La cheville de plateau arrive dans la fourchette de l'ancre (ci-dessus étape b);
+bruit 2 : La dent de la roue d'échappement tape contre le plan d'impulsion de la palette (ci-dessus étape d);
+bruit 3 : La fourchette tape contre la cheville de plateau (ci-dessus étape d);
+: bruit 4 : La dent de la roue d'échappement chute contre le plan de repos de l'autre palette (ci-dessus étape h);
+bruit 5 : La baguette (ou la fourchette) de l'ancre vient buter contre la goupille de limitation (ci-dessus étape i).
+Les bruits 2 et 3 sont très rapprochés et ne se distinguent pas dans le signal acoustique.
+Il en est de même pour les bruits 4 et 5.
+File:
+File:
+File:
+File:
+Bruit4.svg|alt
+La détection des bruits de l'échappement permet de mesurer la période de l'oscillateur et par conséquent la marche de la montre.
+Si la répétition des bruits est trop rapide, la montre avance;
+si elle est trop lente, la montre retarde.
+Les bruits apparaissent à chaque alternance, c'est-à-dire deux fois par période (au passage du balancier dans un sens, puis au passage dans l'autre sens).
+Le temps entre deux séries de bruits donne la durée d'une alternance acoustique.
+La somme de la durée de deux alternances consécutives donne la période d'oscillation et donc la marche du mouvement.
+Si le point d'équilibre stable du balancier
+spiral
+n'est pas sur la ligne des centres, il y a un défaut de repère.
+Deux alternances acoustiques consécutives ne sont pas tout à fait de même durée, une étant trop longue et l'autre trop courte.
+Il faut donc bien sommer deux alternances consécutives et non simplement doubler une alternance pour obtenir la période de l'oscillateur.
+Perturbations du résonateur dues à l'échappement
+Pendant la phase de dégagement, l'échappement freine le résonateur, alors que pendant la phase d'impulsion, il l'accélère.
+Le dégagement a lieu dans la phase descendante du balancier, en principe avant son passage au point d'équilibre statique.
+En retenant le balancier avant le point d'équilibre, le dégagement produit du retard.
+L'impulsion a lieu quant à elle, aussi bien avant le passage au point d'équilibre statique qu'après.
+Avant le point d'équilibre, elle produira de l'avance, alors qu'après le point d'équilibre, elle produira du retard.
+En sommant les effets d'avance et de retard de l'échappement, on obtient globalement du retard et on dit que l'échappement produit du retard.
+Ce retard sera d'autant plus important que l'amplitude du balancier sera faible.
+En conclusion, le balancier-spiral couplé à l'échappement oscille moins vite que le balancier-spiral seul.
+Remarque : avec un défaut de repère très important, il se pourrait que le dégagement, pour un sens de passage du balancier, se fasse après avoir passé le point d'équilibre statique.
+Dans ce cas, le dégagement produirait un peu d'avance et l'impulsion, complètement après le point d'équilibre, beaucoup de retard.
+On peut faire le même raisonnement si le dégagement et l'impulsion ont lieu, tous les deux, avant le point d'équilibre.
+Finalement, l'échappement produira toujours du retard.
+Le retard dû à l'échappement n'est pas un problème en soi et une correction de la fréquence du résonateur corrigera le défaut.
+Par contre, ce retard augmente aux petites amplitudes.
+Une correction dépendante de l'amplitude est plus difficile à réaliser sur le résonateur.
+Pour cette correction, on travaille sur les points d'attache extérieur et intérieur du spiral, voire sur l'épaisseur locale des spires pour les spiraux obtenus par photolithographie (spiraux silicium).
+Protection contre les chocs
+Pendant toute la phase libre du balancier, l'ancre ne doit pas basculer, sans quoi la cheville de plateau ne viendrait plus dans la fourchette, mais elle viendrait buter contre l'extérieur de celle-ci.
+Il faut donc, pendant cette phase libre, empêcher l'ancre de changer de côté, c'est-à-dire de se renverser.
+Pour cela, on ajoute les organes anti-renversement qui comprennent :
+File:
+Dard.svg|alt=Dard : protection anti-renversement de l'échappement à ancre|Dard limité dans son mouvement par le petit plateau
+File:
+Corne.svg|alt=Corne : protection anti-renversement de l'échappement à ancre|Corne limitée dans son mouvement par la cheville de plateau
+Remarque :
+Le grand plateau n'est pas représenté dans les deux images ci-dessus.
+Pendant la phase libre du balancier, l'ancre ne peut pas basculer car le dard vient s'appuyer contre le petit plateau.
+A la fin de la phase libre, le petit plateau présente une encoche en face du dard.
+Ainsi le dard et donc l'ancre peut basculer.
+Il y a cependant une phase critique lorsque l'encoche se présente devant le dard, mais que la cheville de plateau n'est pas encore entrée dans la fourchette.
+Pour éviter le renversement à ce moment là, ce sont les cornes en bout de fourchette qui s'appuient contre la cheville de plateau et qui empêche l'ancre de basculer.
+Échappement coaxial
+L'échappement coaxial est inventé par George Daniels et introduit en 1999 par la maison Omega.
+Il s'agit d'un échappement libre dont les impulsions, tantôt directe (roue - balancier), tantôt indirecte (roue - ancre
+- balancier) sont tangentielles.
+Dans limpulsion tangentielle, le bec glisse très peu sur le plan d'impulsion, ce qui diminue le chemin de frottement et améliore ainsi le rendement.
+Fonctionnement
+L'échappement coaxial sépare les fonctions de dégagement et d'impulsion et a l'avantage de fournir des impulsions tangentielles.
+Sa Roue d’Échappement Coaxiale (REC) a deux étages: le premier est une roue de repos et d'impulsion directe et le deuxième est une roue d'impulsion indirecte.
+Le balancier, qui oscille sur son Axe (AB), interagit avec de l'ancre (A) de manière équivalente à l'échappement à ancre suisse lors du dégagement.
+La Cheville de Plateau du Balancier (CPB) située sur le Grand Plateau (GPB) rentre en contact avec la fourchette de l'ancre.
+Trois palettes sont disposées sur l'ancre, qui oscille, entre deux Goupilles de Limitation (GL), sur son Axe (AA): une Palette d'Impulsion (PIA) et deux Palettes de Repos (PRA).
+Une deuxième palette d'impulsion se situe sur le grand plateau du balancier (PIB).
+Le système comporte les sécurités traditionnelles que sont le dard (non-représentés ci-contre) et les cornes.
+Les étapes du fonctionnement sont les suivantes:
+Dégagement aller : de retour de son arc supplémentaire, le balancier (B) interagit par sa cheville de plateau (CPB) avec la fourchette de l'ancre (A).
+La roue d'échappement coaxiale (REC), préalablement bloquée par la palette de repos (PRA) du bas est libérée.
+Impulsion indirecte : la roue d'échappement, qui tourne dans le sens horaire, prend contact par une des dents de son étage d'impulsion avec la palette d'impulsion située sur l'ancre (PIA).
+L'impulsion est transférée au balancier par le contact entre la fourchette de l'ancre et la cheville de plateau (CPB).
+: 3) Repos : la roue d'échappement vient avec une des dents de son étage de repos en contact avec la palette de repos de l'ancre (PRA) du haut.
+Le balancier fait ses arcs supplémentaires ascendant et descendant.
+Dégagement retour : de retour de son arc supplémentaire descendant, le balancier (B) interagit par sa cheville de plateau (CPB) avec la fourchette de l'ancre (A).
+La roue d'échappement coaxiale (REC), préalablement bloquée par la palette de repos (PRA) du haut est libérée.
+Impulsion directe : la roue d'échappement, qui tourne dans le sens horaire, prend contact par une des dents de son étage d'impulsion avec la palette d'impulsion située sur le balancier (PIB) cette fois.
+L'impulsion est directement transférée au balancier.
+Repos : la roue d'échappement vient avec une des dents de son étage de repos en contact avec la palette de repos de l'ancre (PRA) du bas.
+Le balancier fait ses arcs supplémentaires.
+Échappement à cylindre
+L'échappement à cylindre est un échappement à repos frottant.
+Il est inventé en 1695 par Thomas Tompion puis perfectionné vers 1720 par George Graham.
+En 1750 Jean-Antoine Lépine l'utilise dans ses montres pour remplacer l'échappement à roue de rencontre.
+Il sera utilisé jusqu'à la fin du XIXe siècle pour ensuite laisser la place aux échappements libres.
+Très utilisé au XIXe siècle, il est fabriqué presque exclusivement dans le Haut-Doubs
+jusqu'à la deuxième guerre mondiale où sa fabrication cesse au profit de l'échappement à ancre suisse.
+Fonctionnement
+L'échappement est composé du cylindre qui est monté directement sur l'axe du balancier et de la roue d'échappement.
+Il ne comporte pas de pièce intermédiaire comme une ancre.
+La roue d'échappement a en général 15 dents.
+Pendant le fonctionnement de l'échappement on trouve les étapes suivantes :
+* a)
+Repos extérieur : le balancier parcourt l'arc supplémentaire ascendant, puis descendant.
+La dent de la roue d'échappement frotte contre l'écorce extérieure du cylindre (Dessin position 4).
+* b
+Impulsion sur la lèvre d'entrée : la dent de la roue d'échappement pousse la lèvre d'entrée du cylindre (Dessin position 1).
+* c)
+Chute intérieure : la dent de la roue d'échappement chute contre l'écorce intérieure du cylindre.
+* d)
+Repos intérieur : le balancier parcourt l'arc supplémentaire ascendant, puis descendant.
+La dent de la roue d'échappement frotte contre l'écorce intérieure du cylindre (Dessin position 2).
+* e)
+Impulsion sur la lèvre de sortie : la dent de la roue d'échappement pousse la lèvre de sortie du cylindre (Dessin position 3).
+* f
+Chute extérieure : la dent de la roue d'échappement chute contre l'écorce extérieure du cylindre.
+Échappement à ancre à chevilles
+S'inspirant de l'échappement à ancre de Thomas Mudge, Louis Perron de Besançon remplace les palettes en rubis par deux chevilles en acier.
+Il obtient ainsi en 1798, l'échappement à ancre à chevilles.
+Cet échappement est moins cher à produire, entre autres à cause des dents plus simples de la roue d'échappement.
+L'échappement à ancre à chevilles est adopté en 1866 par Georges
+-Frédéric Roskopf pour réaliser une montre bon marché, la montre Roskopf, aussi appelée La Prolétaire.
+Cette montre sera vendue à des millions d'exemplaires, c'est pourquoi l'échappement à ancre à chevilles est parfois appelé échappement Roskopf.
+Fonctionnement
+Le fonctionnement de l'échappement à ancre à chevilles est très semblable à celui de l'échappement à ancre suisse.
+Cependant, on notera que les plans de repos et d'impulsion se situent sur les dents de la roue d'échappement, les chevilles font office de becs, autant pour le repos que pour l'impulsion.
+Échappement
+à détente
+L'échappement
+à détente
+apparaît vers le XVIIIe siècle lorsque plusieurs nations maritimes lancent des concours pour la construction d'un instrument horaire le plus précis possible, permettant ainsi aux marins d'améliorer significativement la détermination de la longitude.
+Pour cette raison, on trouve cet échappement principalement dans les chronomètres de marine.
+Fonctionnement
+Dans l'échappement à détente, l'impulsion tangentielle et directe est effectuée par la roue d'échappement directement sur l'organe réglant, sans passer par l'ancre.
+L'ancre ne participe donc pas à la phase d'impulsion, mais uniquement à celle du dégagement.
+D'autre part, l'impulsion n'a lieu que sur une des deux alternances, c'est-à-dire qu'une seule fois par période.
+L'alternance sans impulsion est appelée alternance morte ou alternance muette, et on parle également de coup perdu pour cette alternance sans impulsion.
+Un des problèmes majeurs de l'échappement à détente dans la montre, est d'éviter le déclenchement de la détente lors des chocs dus au porter, ainsi que la double impulsion (galop) si l'amplitude dépasse accidentellement les 360°.
+Pour obtenir cette sécurité, Urban Jurgensen introduit un plateau de limitation
+et Christophe
+Claret introduit une came anti-trébuchement.
+Échappement Robin
+Robert Robin, horloger du roi et de la reine, invente l’échappement qui porte son nom en 1791.
+C'est un échappement à impulsion tangentielle et directe.
+Les impulsions ont lieu une alternance sur deux (échappement à coup perdu).
+Dans les années 2000, la manufacture indépendante Audemars Piguet s'en est inspirée pour proposer son nouvel échappement tout en améliorant sa sécurité aux chocs.
+L'ancre comporte deux palettes d'arrêt ainsi qu'un système de verrouillage avec le balancier.
+Le balancier interagit avec la fourchette de l'ancre par l'intermédiaire de la cheville de plateau, libérant ainsi la roue d'échappement.
+Cette dernière vient alors fournir l'impulsion directement au balancier sur une palette d'impulsion, mais ceci uniquement lorsque le balancier-spiral tourne dans le sens horaire sur la figure ci-contre.
+Échappement Constant
+L'échappement constant emmagasine l’énergie provenant du barillet sous forme de contraintes dans deux lames bistables, ceci afin de fournir une impulsion constante au balancier-spiral.
+Il a été inventé puis développé par Nicolas Déhon, tout-d'abord chez Rolex en 1998,
+puis chez Girard-Perregaux en 2009
+Les lames (L), très fines (14 μm), sont fabriquées en silicium par gravure ionique réactive profonde.
+Elles sont mises en compression par des cames (CF) afin d'être en flambage.
+Lorsque la cheville du double plateau du balancier
+spiral (
+B,S)
+vient en contact avec la bascule de détente (BD), une des deux roues d'armage (A), bloquée au niveau de son ergot (EA) par une cheville d'armage située sur la bascule d'armage (BA), se libère et fait basculer les lames vers leur autre position bistable, ce qui fournit l'énergie nécessaire à l'entretien des oscillations.
+L'autre roue d'armage (A), engrenée par la roue de cinquième (R5), met sous contraintes les deux lames grâce au plan d'armage (PA) jusqu'à être bloquée par l'autre cheville d'armage située sur la bascule.
+Les deux bascules sont solidaires au niveau de l'axe (a).
+Cette échappement à l'avantage de fournir une impulsion constante au balancier-spiral, ce qui implique que l'amplitude des oscillations est stable.
+Toutefois, il écrête le couple disponible au barillet et donc une partie de l'énergie fournie par ce dernier est perdue.
+Échappements pour horloges et pendules
+Échappement à roue de rencontre
+En 1558, la régulation de l'astrolabe de la Cathédrale Notre-Dame de Saint-Omer était assurée par un échappement à roue de rencontre, un axe à palettes surmonté d'un foliot et de deux régules ou de deux coupelles.
+L'entrainement du mécanisme était garantit par un poids -originellement une couleuvrine de - suspendu à un câble enroulé sur un tambour.
+Le système "roue de rencontre et foliot"
+n'a jamais permis d'atteindre une bonne régularité de marche, et ceci malgré le réglage des régules ou des coupelles, permettant d'ajuster l'inertie du foliot.
+Les erreurs de marche restaient de l'ordre d'une heure par jour, mais à cette époque, les horloges n'avaient qu'une aiguille qui indiquait l'heure.
+Elles n'avaient pas d'aiguille pour l'affichage des minutes.
+Fonctionnement
+Le principe de fonctionnement est le suivant : devant une roue dentée appelée roue de rencontre (roue à denture frontale ressemblant à celle d'une scie cloche), un arbre, d'axe perpendiculaire à celui de la roue, porte un volant d'inertie appelé foliot, ainsi que deux palettes travaillant tout-à-tour sur deux dents opposées de la roue de rencontre.
+Une dent de la roue de rencontre pousse la palette supérieure qui fait tourner le foliot.
+Arrivée au bout de la palette, la dent s'échappe et la roue de rencontre devient libre.
+La roue tourne alors rapidement
+jusqu'à ce qu'une autre dent, opposée à la première, tombe sur la palette inférieure qui arrive en sens inverse
+Cette autre dent devient la dent active.
+Elle freine alors le foliot en appuyant sur la palette inférieure jusqu'à l'arrêt complet du foliot, puis elle redémarre le foliot en sens inverse.
+Arrivée au bout de la palette inférieure, la dent active s'échappe et une troisième dent chute sur la palette supérieure.
+Le processus recommence alors sur la palette supérieure.
+Le foliot qui ne fait pas directement partie de l'échappement, est constitué d'une règle ayant à chacun de ses deux bouts, une masse ou régule.
+Les régules peuvent coulisser sur la règle de manière à modifier l'inertie du foliot.
+Cette inertie ajustable permet de régler la période d'oscillation du système.
+Les régules peuvent être remplacées par des coupelles dans lesquelles on ajoutera plus ou moins de petits poids pour régler la période d'oscillation.
+Variante pour régulateur à pendule
+En 1657, suite aux travaux de Christian Huygens, le foliot est remplacé par un pendule, ce qui améliore notoirement la précision.
+La roue de rencontre et la verge sont tournées de 90°.
+La période des oscillations est principalement déterminée par la fréquence propre du pendule.
+Ce dernier reçoit par la palette (à l'avant, rouge) l'énergie de la roue de rencontre (phase 1).
+C'est alors l'autre palette (à l'arrière, bleue) qui rentre en contact (phase 2).
+Le balancier poursuit sa course, ce qui fait tourner la roue de rencontre en sens inverse (phase 3).
+Arrivé à son faîte, le pendule repart dans l'autre sens et fourni l'impulsion par l'intermédiaire de la palette (arrière, bleue) (phase 4), puis entre en contact avec la palette (avant, rouge) (phase 5) tout en poursuivant son oscillation jusqu'à son amplitude maximum (phase 6).
+Échappement
+Graham
+En 1721, George Graham invente l'échappement qui porte son nom.
+Il s'agit d'un échappement à repos frottant, sans recul.
+Les plans de repos et d'impulsion sont sur l'ancre.
+Les dents de la roue sont en forme de becs.
+L'ancre qui est solidaire du pendule, peut travailler sur de très faibles rotations angulaires.
+Cet échappement, très bien réfléchi dans chacune de ses phases, inspirera beaucoup d'autres échappements, y compris l'échappement à ancre suisse.
+Échappement
+à chevilles
+Louis Amant invente en 1741 l'échappement à chevilles.
+En 1752 Jean-André Lepaute l'équipe de chevilles semi-cylindriques pour diminuer la chute.
+Les plans de repos et d'impulsion sont sur l'ancre qui est solidaire du pendule.
+Les chevilles de la roue font office de bec de repos et de becs d'impulsion.
+Échappement Brocot
+Louis-Gabriel Brocot propose en 1826, l'échappement Brocot aussi appelé échappement à rouleaux.
+Cet échappement pour pendules est robuste et facile à fabriquer.
+Les chevilles (ou goupilles) de l'ancre solidaire au pendule font office de becs de repos et plans d'impulsion.
+Les dents de la roue sont en forme de dents de scie et font office de plans de repos et de becs d'impulsion.
+Remarque :
+Cet échappement ne doit pas être confondu avec l'échappement à chevilles, ni avec l'échappement à ancre à chevilles utilisé dans les montres.
+Références
+Voir aussi
+Articles connexes
+Lectures complémentaires
+Liens externes
+*https:/ watch?v=xOYOsfQFKmk
+Video du fonctionnement d'un échappement à ancre suisse
+que l'on trouve sur les mouvements de montres mécaniques classiques.
+1s6sdxf5f5kkxet3czt0idbfbk56qdw

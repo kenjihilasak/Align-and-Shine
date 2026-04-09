@@ -1,0 +1,180 @@
+La circunferencia es una curva plana y cerrada donde todos sus puntos están a igual distancia del centro.
+Distíngase del círculo, que es el lugar geométrico de los puntos contenidos en el interior de dicha circunferencia, o sea, la circunferencia es el perímetro del círculo.
+Los puntos de la circunferencia están a una distancia igual al radio del centro del círculo, mientras los demás puntos del círculo están a menor distancia que el radio.
+Puede ser considerada como una elipse de excentricidad nula, o una elipse cuyos semiejes son iguales, o los focos coinciden; o bien fuera una elipse cuyas directrices están en el infinito.
+También se puede describir como la sección, perpendicular al eje, de una superficie cónica o cilíndrica, o como un polígono regular de infinitos lados, cuya apotema coincide con su radio.
+La intersección de un plano con una superficie esférica puede ser: o bien el conjunto vacío (plano exterior); o bien un solo punto (plano tangente); o bien una circunferencia, si el plano secante pasa por el centro, se llama ecuador
+La circunferencia de centro en el origen de coordenadas y radio 1 se denomina circunferencia unidad o circunferencia goniométrica.
+Terminología de la circunferencia
+Existen varios puntos, rectas y segmentos, singulares en la circunferencia:
+* Centro: Es el punto interior equidistante de todos los puntos de la circunferencia.
+* Radio: Es el segmento que une el centro de la circunferencia con un punto cualquiera de la misma.
+El radio también es la longitud del segmento del mismo nombre.
+El radio es igual a la longitud de la circunferencia dividida entre 2π.
+* Diámetro: El diámetro de una circunferencia es el segmento que une dos puntos de la circunferencia que pasa por el centro de esta.
+El diámetro también es la longitud del segmento del mismo nombre.
+El diámetro mide el doble del radio.
+El diámetro es igual a la longitud de la circunferencia dividida entre π.
+* Cuerda: La cuerda es un segmento que une dos puntos de la circunferencia.
+El diámetro es la cuerda de longitud máxima.
+* Recta secante: Es la línea que corta a la circunferencia en dos puntos.
+* Recta tangente: Es la línea que toca a la circunferencia en un solo punto.
+* Punto de Tangencia: es el punto de contacto de la recta tangente con la circunferencia.
+* Arco: El arco de la circunferencia es cada una de las partes en que una cuerda divide a la circunferencia.
+Un arco de circunferencia se denota con el símbolo sobre las letras de los puntos extremos del arco.
+* Semicircunferencia: cada uno de los dos arcos delimitados por los extremos de un diámetro.
+Resultados analíticos
+Longitud de la circunferencia
+El interés por conocer la longitud de una circunferencia surge en Babilonia (actual Irak), cuando usaban los carros con rueda, era primordial relacionar el diámetro o radio con la circunferencia.
+La longitud \ell de una circunferencia es:
+: \ell
+2\pi r
+\pi
+donde r es la longitud del radio y d=2r es el diámetro.
+Así pues \pi \, (número pi) es, por definición, el cociente entre la longitud de la circunferencia y el diámetro:
+: \pi
+\frac
+\frac
+Área del círculo delimitado por una circunferencia
+Arquímedes, en su tratado Sobre la medida del círculo, definió que el área del círculo era igual en área a un triángulo rectángulo, siendo uno de sus catetos la longitud \ell de la circunferencia y el otro el radio r. Así, el área del círculo delimitado por la circunferencia es:
+: \text
+\frac\ell r
+\pi
+r^2
+Ecuaciones de la circunferencia
+Ecuación en coordenadas cartesianas
+En un sistema de coordenadas cartesianas x-y, la circunferencia con centro en el punto (a, b) y radio r consta de todos los puntos (x, y) que satisfacen la ecuación
+: (x-a)^2 + (y-b)^2 = r^2\,.
+Cuando el centro está en el origen (0, 0), la ecuación anterior se simplifica a
+:x^2 + y^2 = r^2\,.
+La circunferencia con centro en el origen y de radio la unidad, es llamada circunferencia goniométrica, circunferencia unidad o circunferencia unitaria.
+De la ecuación general de una circunferencia se deduce
+que:
+:x^2+y^2+Dx+Ey+F=0 \,
+resultando:
+:a = -\frac
+:b = -\frac
+:r = \sqrt
+Si conocemos los puntos extremos de un diámetro: (x_1,y_1), (x_2,y_2)\,, la ecuación de la circunferencia es
+: (x-x_1) (x-x_2)+ (y-y_1) (y-y_2)=0.\,
+Ecuación vectorial de la circunferencia
+En el espacio vectorial R2, la circunferencia con centro en el origen y radio R, viene dada por la ecuación vectorial:
+:\mathbf (\theta) = (R\cos (\theta),R\sen (\theta))\,,
+donde \theta \, es el parámetro de la curva, además cabe destacar que \theta\in0,2\pi).
+Se puede deducir fácilmente desde la ecuación cartesiana, ya que la componente x y la componente y, al cuadrado y sumadas deben dar por resultado el radio de la circunferencia al cuadrado.
+En el espacio vectorial R3 esta misma ecuación da como resultado un cilindro, dejando el parámetro z libre.
+De manera más general, si c es un punto fijo, x un punto variable cualquiera (ambos de R2) y r un real positivo, la ecuación vectorial
+:\\mathbf-\mathbf \|= r
+representa una circunferencia de centro c y radio r. La doble barra vertical representa la norma vectorial; en este caso corresponde a la distancia euclidiana constante de valor r.
+Ecuación en coordenadas polares
+Cuando la circunferencia tiene centro en el origen y el radio es c, se describe en coordenadas polares como (r,\theta) \,
+: r=c. \,
+Cuando el centro no está en el origen, sino en el punto (s,\alpha) \, y el radio es c \,, la ecuación se transforma en:
+:r^2 - 2 s r\cos (\theta - \alpha) + s^2 = c^2
+Ecuación paramétrica de la circunferencia
+La circunferencia con centro en (a, b) y radio r se parametriza con funciones trigonométricas como:
+\begin
+x= & a + r \cos
+t \\
+y= & b + r\,\sen
+\end \qquad t\in0,2\pi)
+donde t es el parámetro, que varía en el rango indicado.
+También se puede parametrizar con funciones funciones racionales como
+\begin
+x= & a+r\left ( \frac\right )\\
+y= & b+r\left ( \frac\right )
+\end \qquad
+t \in \widehat
+donde t no solo recorre todos los valores reales, sino también un punto en el infinito.
+Ecuación en el plano complejo
+En el plano complejo, una circunferencia con centro c y radio (r) tiene como ecuación |z-c|
+r\,.
+En forma paramétrica puede ser escrita como z
+re^+c.
+Propiedades geométricas
+La circunferencia y un punto
+Un punto en el plano puede ser
+* Exterior a la circunferencia, si la distancia del centro al punto es mayor que la longitud del radio.
+* Perteneciente a la circunferencia, si la distancia del centro al punto es igual a la longitud del radio.
+* Interior a la circunferencia, si la distancia del centro al punto es menor a la longitud del radio.
+El conjunto de todos los puntos interiores se llama interior de la circunferencia.
+Respecto al círculo, claramente, se distinguen el interior, el exterior y la frontera, que es precisamente la respectiva circunferencia.
+La circunferencia y la recta
+Una recta, respecto de una circunferencia, puede ser:
+* Exterior, si no tienen ningún punto en común con ella y la distancia del centro a la recta es mayor que la longitud del radio.
+* Tangente, si la toca en un punto (el punto de tangencia o tangente) y la distancia del centro a la recta es igual a la longitud del radio.
+Una recta tangente a una circunferencia es perpendicular al radio que une el punto de tangencia con el centro.
+* Secante, si tiene dos puntos comunes, es decir, si la corta en dos puntos distintos y la distancia del centro a la recta es menor a la longitud del radio.
+* Segmento circular, es el conjunto de puntos de la región circular comprendida entre una cuerda y el arco correspondiente
+Dos circunferencias
+Dos circunferencias, en función de sus posiciones relativas, se denominan:
+* Exteriores o Disjuntas, si no tienen puntos comunes y la distancia que hay entre sus centros es mayor que la suma de sus radios.
+No importa que tengan igual o distinto radio.
+* Tangentes exteriormente, si tienen un punto común y todos los demás puntos de una son exteriores a la otra.
+La distancia que hay entre sus centros es igual a la suma de sus radios.
+No importa que tengan igual o distinto radio.
+* Secantes, si se cortan en dos puntos distintos y la distancia entre sus centros es menor a la suma de sus radios.
+No importa que tengan igual o distinto radio.
+Dos circunferencias distintas no pueden cortarse en más de dos puntos.
+Dos circunferencias son secantes ortogonalmente si el ángulo entre sus tangentes en los dos puntos de contacto es recto.
+* Tangentes interiormente, si tienen un punto común y todos los demás puntos de una de ellas son interiores a la otra exclusivamente.
+La distancia que hay entre sus centros es igual al valor absoluto de la diferencia de sus radios.
+Una de ellas tiene que tener mayor radio que la otra.
+* Interiores excéntricas, si no tienen ningún punto común y la distancia entre sus centros es mayor que 0 y menor que el valor absoluto de la diferencia de sus radios.
+Una de ellas tiene que tener mayor radio que la otra.
+* Interiores concéntricas, si tienen el mismo centro (la distancia entre sus centros es 0) y distinto radio.
+Forman una figura conocida como corona circular o anillo.
+Una de ellas tiene que tener mayor radio que la otra.
+* Coincidentes, si tienen el mismo centro y el mismo radio.
+Si dos circunferencias tienen más de dos puntos comunes, necesariamente son circunferencias coincidentes.
+Ángulos en una circunferencia
+Un ángulo, respecto de una circunferencia, pueden ser:
+Ángulo central, si tiene su vértice en el centro de esta.
+Sus lados contienen a dos radios.
+:La amplitud de un ángulo central es igual a la del arco que abarca.
+Ángulo inscrito, si su vértice es un punto de la circunferencia y sus lados contienen dos cuerdas.
+:La amplitud de un ángulo inscrito en una semi circunferencia equivale a la mayor parte del ángulo exterior que limita dicha base.
+(Véase: arco capaz.
+Ángulo semi-inscrito, si su vértice es un punto de la circunferencia y sus lados contienen una cuerda y una recta tangente a la circunferencia.
+El vértice es el punto de tangencia.
+:La amplitud de un ángulo semi-inscrito es la mitad de la del arco que abarca.
+Ángulo interior, si su vértice está en el interior de la circunferencia.
+:La amplitud de un ángulo interior es la mitad de la suma de dos medidas: la del arco que abarcan sus lados más la del arco que abarcan sus prolongaciones.
+Ángulo exterior, si tiene su vértice en el exterior de la circunferencia.
+Circunferencia en un plano de ejes de referencia no ortogonales
+Para construir una circunferencia en el plano oblicuo, no se puede usar la misma ecuación que se usa en un plano ortogonal, por lo que es necesario introducir algunos conceptos que nos ayudarán a entender la construcción de tal ecuación.
+Tales conceptos son los de trigonometría.
+Dos diámetros de una sección cónica se denominan conjugados cuando toda cuerda paralela a uno de ellos es bisecada por el otro.
+Siguiendo esto, dos diámetros de la circunferencia perpendiculares entre sí son mutuamente conjugados.
+En una elipse dos diámetros son conjugados si y solo si la tangente a la elipse en el extremo de un diámetro es paralela a la tangente al segundo extremo.
+Se debe tener presente que en este plano una ecuación de circunferencia se llamará así si se ve como tal.
+Es por esta razón que se descarta la ecuación anterior, porque en el plano oblicuo no parecerá circunferencia, sino una elipse.
+Otras propiedades
+* Potencia de un punto: si dos cuerdas se intersecan, el producto de los segmentos formados en la una, es igual al producto de los segmentos formados en la otra cuerda, A_1 P \cdot P B_1 = A_2 P \cdot P B_2.
+* El segundo teorema de Tales muestra que si los tres vértices de un triángulo están sobre una circunferencia dada, siendo uno de sus lados el diámetro de la circunferencia, entonces, el ángulo opuesto a este lado es un ángulo recto (véase arco capaz).
+* Dados tres puntos cualesquiera no alineados, existe una única circunferencia que contiene a estos tres puntos (esta circunferencia estará circunscrita al triángulo definido por estos puntos).
+Dados tres puntos no alineados en el plano cartesiano (x_1,y_1), (x_2,y_2), (x_3,y_3) \,, la ecuación de la circunferencia está dada de forma simple por la determinante matricial:
+\det\begin
+x_2 & y_2 & x_2^2 + y_2^2 & 1 \\
+\end = 0.
+Familia de circunferencias
+Lehmann menciona las siguientes Lehmann, Charles H. Geometría Analítica (1980) Editorial Limusa, S. A. México 1, D.F. p.110
+# Circunferencias que tienen el mismo centro.
+# Circunferencias que pasan por dos puntos.
+# Circunferencias tangentes a una recta en un punto fijo.
+# Circunferencias que pasan por las intersecciones de dos circunferencias.
+Circunferencia en topología
+En topología, se denomina circunferencia a cualquier curva cerrada simple que sea homeomorfa a la circunferencia usual de la geometría (es decir, la esfera 1-dimensional).
+Se la puede definir como el espacio cociente determinado al identificar los dos extremos de un intervalo cerrado.
+Sin embargo, los geómetras llaman 2-esfera a la circunferencia, mientras que los topólogos se refieren a ella como 1-esfera y la indican como S^1\,\!, dando lugar a posibles confusiones.
+La dimensión de la circunferencia es 1.
+De igual modo, la dimensión de una recta no acotada, o de un arco - esto es de un conjunto homeomorfo con un intervalo cerrado - y de una curva cerrada simple, i.e.
+un conjunto homeomorfo con una circunferencia, es igual a 1.También el caso de una poligonal cerrada.
+Circunferencias especiales
+Circunferencias de Cardanus
+Un par de circunferencias que se desplazan, tangencial e interiormente, una sobre la otra guardando una razón entre sus radios de 1:2.
+Investigadas, originalmente, por el matemático italiano, Girolamo de Cardano
+Circunferencia directriz
+Usada en una alternativa definitoria de la elipse y de la hipérbola.
+Siendo estas el lugar de los centros de las circunferencias tangentes a la llamada circunferencia directriz.
+Véase también

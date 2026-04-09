@@ -1,0 +1,133 @@
+La multiplicación es una operación binaria que se establece en un conjunto numérico.
+Tal el caso de números naturales, consiste en sumar un número tantas veces como indica otro número.
+Así, 4×3 (léase «cuatro multiplicado por tres» o, simplemente, «cuatro por tres») es igual a sumar tres veces el valor 4 por sí mismo (4+4+4).
+Es una operación diferente de la adición, pero equivalente; no es igual a una suma reiterada, sólo son equivalentes porque permiten alcanzar el mismo resultado.
+La multiplicación está asociada al concepto de área geométrica.
+La potenciación es un caso particular de la multiplicación donde el exponente indica las veces que debe multiplicarse un número por sí mismo.
+El resultado de la multiplicación de varios números se llama producto.
+Los números que se multiplican se llaman factores o coeficientes, e individualmente: multiplicando (número a sumar o número que se está multiplicando) y multiplicador (veces que se suma el multiplicando).
+Aunque esta diferenciación en algunos contextos puede ser superflua cuando en el conjunto donde esté definido el producto se tiene la propiedad conmutativa de la multiplicación (por ejemplo, en los conjuntos numéricos), pero puede ser útil cuando se ocupa para referirse al multiplicador de una expresión algebraica (ej: en a^2b+a^2b+a^2b ó 3 a^2b, 3 es el multiplicador o coeficiente, mientras que el monomio a^2b es el multiplicando).
+En álgebra moderna se suele usar la denominación «cociente» o «multiplicación» con su notación habitual «·» para designar la operación externa en un módulo, para designar también la segunda operación que se define en un anillo (aquella para la que no está definido el elemento inverso del 0), o para designar la operación que dota a un conjunto de estructura de grupo.
+La operación inversa de la multiplicación es la división.
+Notación
+La multiplicación se indica con un aspa (×) o el punto medio (·).
+En ausencia de estos caracteres se suele emplear el asterisco (*), sobre todo en computación (este uso tiene su origen en FORTRAN), pero está desaconsejado en otros ámbitos y sólo debe utilizarse cuando no hay otra alternativa.
+A veces se utiliza la letra equis (x), pero esto es desaconsejable porque crea una confusión innecesaria con la letra que normalmente se asigna a una incógnita en una ecuación.
+Por último, se puede omitir el signo de multiplicación a menos que se multipliquen números o se pueda generar confusión sobre los nombres de las incógnitas, constantes o funciones (por ejemplo, cuando el nombre de alguna incógnita tiene más de una letra y podría confundirse con el producto de otras dos).
+También suelen utilizarse signos de agrupación como paréntesis (), corchetes o llaves .
+Esto mayormente se utiliza para multiplicar números negativos entre sí o por números positivos.
+Si los factores no se escriben de forma individual pero pertenecen a una lista de elementos con cierta regularidad se puede escribir el producto mediante una elipsis, es decir, escribir explícitamente los primeros términos y los últimos, (o en caso de un producto de infinitos términos sólo los primeros), y sustituir los demás por unos puntos suspensivos.
+Esto es análogo a lo que se hace con otras operaciones aplicadas a infinitos números (como las sumas).
+Así, el producto de todos los números naturales desde el 1 hasta el 100 se puede escribir:
+mientras que el producto de los números pares del entre 1 y 100 se escribiría:
+:2\cdot 4\cdot 6 \cdots 100.
+Esto también se puede denotar escribiendo los puntos suspensivos en la parte media de la línea de texto:
+En cualquier caso, deben estar claros cuáles son los términos omitidos.
+Por último, se puede denotar el producto mediante el símbolo productorio, que proviene de la letra griega Π (Pi mayúscula).
+Esto se define así:
+: \prod_^ x_ = x_ \cdot x_ \cdot x_ \cdot \cdots \cdot x_ \cdot x_.
+El subíndice i \, indica una variable que recorre los números enteros desde un valor mínimo (m \,, indicado en el subíndice) y un valor máximo (n \,, indicado en el superíndice).
+Definición
+La multiplicación de dos números enteros n y m se expresa como:
+:\sum_^n m=mn
+Ésta no es más que una forma de simbolizar la expresión «sumar m a sí mismo n veces».
+Puede facilitar la comprensión al expandir la expresión anterior:
+:m·n = m + m + m +...+ m
+tal que hay n sumandos.
+Así, por ejemplo:
+El producto de infinitos términos se define como el límite del producto de los n primeros términos cuando n crece indefinidamente.
+Definición recursiva
+En el caso de la multiplicación de números naturales ℕ = puede aplicarse
+definición recursiva de la multiplicación , que comprende estos dos pasos:
+: m·0 =
+: m· (n+1) = m.n + m.
+Donde m y n son números naturales, el principio de inducción se aplica sobre el número n, que inicialmente es n = 0, luego asumimiendo que es cierto para n, se infiere que también se cumple para n+1.
+Se deducen las siguientes proposiciones básicas:
+: Existencia del elemento identidad, n\cdot 1 = n todo número natural n.
+: Propiedad asociativa, (m\cdot n)\cdot p = m\cdot (n\cdot p) para cualesquier m, n, p números naturales
+: Propiedad conmutativa: m\cdot n = n\cdot m , para n y n cualesquier número natural.
+: Propiedad distributiva respecto a la adición: m\cdot (l+n)
+m\cdot l + m\cdot n
+(l+n)\cdot m
+: No hay divisores de cero: m\cdot n = 0 implica que por lo menos uno de los factores es igual a cero.
+Para indicar el producto de dos números naturales se usa un punto entre los dos factores, un aspa entre ellos, la simple yuxtaposición de los factores literales o, un factor y el otro en paréntesis o los dos factores en paréntesis
+Producto de números enteros
+Es un número entero m que se calcula tal como sigue:
+: Si n > 0 y p > 0 entones m= n\cdot p , factores positivos.
+: Si n 0 y p 0 entonces m = -|n| |p| , un factor positivo y el otro negativo.
+: Si n
+0 y
+0 entonces
+n\cdot p .
+Al menos un factor cero.
+El producto de los enteros se basa en el producto de los números naturales y se toma en cuenta el valor absoluto.
+Producto de fracciones
+La fracción \frac es el producto de las fracciones \frac y \frac que cumplen la igualdad
+\frac\cdot \frac = \frac .
+Se asume que q_1 \neq 0, q_2 \neq 0 .
+Producto de raíces
+Se cumple la siguiente propiedad de producto de raíces:
+Propiedades
+Para los números naturales, enteros, fracciones y números reales y complejos, la multiplicación tiene ciertas propiedades:
+;Propiedad de cerradura
+La multiplicación de dos o más números naturales nos da como resultado otro número natural
+ejemplo
+Propiedad conmutativa
+: El orden de los factores no altera el producto.
+::x\cdot y = y\cdot x
+Propiedad asociativa
+: Únicamente expresiones de multiplicación o adición son invariantes con respecto al orden de las operaciones.
+:: (x\cdot y)\cdot z = x\cdot (y\cdot z)
+Propiedad distributiva
+: El total de la suma de dos números multiplicado por un tercer número es igual a la suma de los productos entre el tercer número y cada sumando.
+::x\cdot (y + z) = (x\cdot y) + (x\cdot z)
+;Elemento identidad (neutro)
+: La identidad multiplicativa es 1; el producto de todo número multiplicado por 1 es sí mismo.
+Esto se conoce como la propiedad de identidad.
+::x\cdot 1 = x
+;Elemento cero (absorbente)
+: Cualquier número multiplicado por cero da como producto cero.
+Esto se conoce como la propiedad cero de la multiplicación.
+::0\cdot x =
+;Negación
+:Menos uno multiplicado por cualquier número es igual al opuesto de ese número.
+:: (-1)\cdot x = (-x)
+: Menos uno multiplicado por menos uno es uno.
+:El producto de números naturales no incluye números negativos.
+Elemento inverso
+:Todo número x, excepto cero, tiene un inverso multiplicativo, \frac, tal que x\cdot\left (\frac\right) = 1.
+Producto de números negativos
+El producto de números negativos también requiere reflexionar un poco.
+Primero, considérese el número -1.
+Para cualquier entero positivo m:
+: (-1)m
+(-1) + (-1) +...+ (-1)
+Éste es un resultado interesante que muestra que cualquier número negativo no es más que un número positivo multiplicado por -1.
+Así que la multiplicación de enteros cualesquiera se puede representar por la multiplicación de enteros positivos y factores -1.
+Lo único que queda por definir es el producto de (-1) (-1):
+: (-1) (-1)
+- (-1)
+De esta forma, se define la multiplicación de dos enteros.
+Las definiciones pueden extenderse a conjuntos cada vez mayores de .
+Conexión con la geometría
+Desde un punto de vista puramente geométrico, la multiplicación entre 2 valores produce un área que es representable.
+Del mismo modo el producto de 3 valores produce un volumen igualmente representable.
+Extensiones
+En matemáticas, producto es sinónimo de multiplicación.
+Se denominan también producto ciertas operaciones binarias realizadas en contextos especializados.
+* Producto escalar es una operación binaria entre elementos de un espacio vectorial que tiene por resultado un elemento del campo subyacente.
+El caso más relevante es el de producto punto.
+* Producto vectorial o producto cruz es una operación entre vectores de un espacio euclidiano 3-dimensional que tiene como resultado otro vector.
+* Producto mixto o triple producto escalar es un producto que combina el producto vectorial y el escalar.
+* Producto matricial es una operación binaria entre matrices.
+* Producto cartesiano es una operación entre conjuntos cuyo resultado son pares ordenados de elementos respectivos.
+* Topología producto es una topología construida en un producto cartesiano de espacios topológicos.
+** Topología caja es otra topología construida en un producto cartesiano de espacios topológicos que coincide con la anterior en productos finitos.
+* Producto exterior es una generalización del producto vectorial.
+* Producto directo es un abstracción que permite definir estructuras algebraicas en productos de otros algebraicos
+* Productoria Notación para denotar un producto arbitrario de términos.
+* Producto (teoría de categorías) es una generalización abstracta de los productos encontrados en diversas estructuras algebraicas.
+El término producto también se relaciona con
+* Regla del producto, un método para calcular la derivada de un producto de funciones.
+* Principio del producto, uno de los principios fundamentales de conteo.
+Véase también

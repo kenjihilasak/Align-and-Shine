@@ -1,0 +1,20 @@
+La radice quadrata di un numero, o radice con indice 2, è quel numero che elevato alla seconda restituisce il radicando.
+Le proprietà delle radici rendono il calcolo dell' estrazione a radice più semplice;
+sono valide solo per la moltiplicazione e per la divisione.
+Esistono due procedimenti :
+Calcolo il prodotto della moltiplicazione sotto radice e successivamente cerco la sua radice quadrata.
+Separo il moltiplicando e i moltiplicatore, trovo la radice quadrata di entrambe e le moltiplico.
+Esistono due procedimenti:
+Svolgo la divisione sotto radice, trovo il quoziente e successivamente calcolo la radice quadrata.
+Separo il divisore e il dividendo, trovo la radice quadrata di entrambe e svolgo la divisione.
+Algoritmo della radice quadrata
+L'algoritmo serve per risolvere la radice quadrata di un numero senza l'utilizzo della calcolatrice.
+Per risolvere l'algoritmo bisogna:
+scomporre il numero a gruppi di due cifre partendo da destra verso sinistra per esempio 2.401 diventerà 24.01;
+calcolare a mente la radice quadrata del primo gruppo di cifre partendo da sinistra es: radice di 24=4, questo sarà il primo numero del risultato;
+calcolare il quadrato del risultato 4 cioè 16, e scriviamo il risultato sotto il primo gruppo di cifre poi eseguiamo la sottrazione 24-16=8 (questo sarà il primo resto);
+trascrivere il secondo gruppo di cifre (01) accanto al primo resto (801) poi separiamo le unità dal resto del numero (80.1);
+calcolare il doppio della prima cifra della radice (4) e scriviamo il numero ottenuto (8);
+calcolare il quoziente 80:8=10 (al massimo si può considerare 9) e scriviamolo a destra di 8 ottenendo così 89 poi moltiplichiamo per lo stesso quoziente (9,cioè 89*9= 801), e 9 sarà il secondo numero del risultato;
+sottrarre al primo resto il numero 801 (801-801=0), questo significa che il numero è un quadrato perfetto perché il resto è di 0;
+quindi radice quadrata di 2401 è pari a 49.

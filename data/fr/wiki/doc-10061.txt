@@ -1,0 +1,21 @@
+Google|Langage
+de script|2011
+Dart (initialement appelé Dash) est un langage de programmation web développé par Google.
+Son but initial est de remplacer JavaScript pour devenir la nouvelle du développement web, ainsi que le développement d'applications mobiles (via l'API ).
+Histoire
+En 2010, Lars Bak et Kasper Lund, deux informaticiens de Google ayant travaillé sur le moteur JavaScript V8, essaient de créer un nouveau langage de programmation pour le Web, nommé Spot, destiné à construire des applications Web à grande échelle, estimant que JavaScript n'est pas adapté pour ce genre de projets.
+En juin 2014, Dart devient une norme de l'Ecma, l'organisme qui a notamment standardisé ECMAScript, la base de JavaScript.
+Début 2015, les développeurs annoncent que l'idée d'intégrer Dart dans Chrome a été abandonnée, et qu'ils souhaitent désormais concentrer leurs efforts sur la compilation source à source de Dart vers JavaScript.
+Justification
+Dart est destiné à résoudre les problèmes de JavaScript (qui, selon un document ayant circulé.
+Exemple
+Le fameux programme Hello world :
+void main ()
+Et une fonction pour calculer le n-ième nombre de Fibonacci :
+int
+fib (int n)
+main (
+Une classe simple :
+/ / main (
+est le point d'entrée des programmes Dart.
+main (

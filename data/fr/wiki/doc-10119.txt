@@ -1,0 +1,45 @@
+Algèbre linéaire
+En mathématiques, une combinaison linéaire est une expression construite à partir d'un ensemble de termes en multipliant chaque terme par une constante et en ajoutant le résultat.
+Par exemple, une combinaison linéaire de x et y serait une expression de la forme ax + by, où a et b sont des constantes.
+Le concept de combinaison linéaire est central en algèbre linéaire et dans des domaines connexes des mathématiques.
+La majeure partie de cet article traite des combinaisons linéaires dans le contexte d'espace vectoriel sur un corps commutatif, et indique quelques généralisations à la fin de l'article.
+Définitions
+Soient K un corps commutatif et E un espace vectoriel sur K.
+Les éléments de E sont appelés les vecteurs et les éléments de K les scalaires.
+Si v, …, v sont des vecteurs et a, …, a des scalaires, alors la combinaison linéaire de ces vecteurs ayant comme coefficients ces scalaires est le vecteur av + … + av.
+Pour parler de combinaison linéaire d'une famille (v) de vecteurs de E indexée par un ensemble I éventuellement infini, il est nécessaire de supposer que la famille (a) de scalaires est à support fini, c'est-à-dire qu'il n'y a qu'un ensemble fini d'indices i pour lesquels a est non nul.
+La combinaison linéaire la somme ∑ av .
+Une « relation de dépendance linéaire » est une combinaison linéaire égale au vecteur nul.
+Une famille de vecteurs est liée si elle possède au moins une relation de dépendance linéaire « non triviale », c'est-à-dire à coefficients non tous nuls.
+Une partie non vide F de E est un sous-espace vectoriel si et seulement si F est « stable par combinaisons linéaires »
+, c'est-à-dire si toute combinaison linéaire de vecteurs de F est encore un vecteur de F.
+Exemples
+* Soient K le corps ℝ des nombres réels et E l'espace vectoriel euclidien ℝ.
+Considérons les vecteurs e
+1, 0, 0)
+, e
+0, 1, 0)
+et e
+0, 0, 1)
+Alors, tout vecteur (a, a, a) de ℝ est une combinaison linéaire de e, e et e. En effet, (a, a, a)
+a (1, 0, 0) + a (0, 1, 0) + a (0, 0, 1) = ae + ae + ae.
+*Soient K
+le corps ℂ des nombres complexes et E l'espace des fonctions de ℝ dans ℂ.
+Les formules d'Euler expriment les fonctions et comme combinaisons linéaires des fonctions cosinus et sinus : et inversement : .
+Par contre, les fonctions constantes non nulles ne sont pas combinaisons linéaires de et , autrement dit : les fonctions , et sont linéairement indépendantes.
+Sous-espace vectoriel engendré
+Considérons à nouveau un corps commutatif K, un K-espace vectoriel E et v, …, v des vecteurs de E.
+L'ensemble de toutes les combinaisons linéaires de ces vecteurs s'appelle le « sous-espace vectoriel engendré » (ou juste « sous-espace engendré ») par ces vecteurs et se note (v, …, v) :
+\mathrm ( v_1 ,\ldots, v_n)
+= \.
+Généralisations
+Si E est un espace vectoriel topologique, alors il est possible de donner un sens à une combinaison linéaire infinie, en utilisant la topologie de E.
+Par exemple, nous pourrions parler de la somme infinie av + av + av + … .
+De telles combinaisons linéaires infinies n'ont pas toujours un sens ;
+nous les qualifions de convergentes lorsqu'elles en ont un.
+Le fait de pouvoir considérer davantage de combinaisons linéaires dans ce cas peut également mener à des concepts plus larges de sous-espace vectoriel engendré, d'indépendance linéaire, et de bases.
+Si K est un anneau commutatif au lieu d'être un corps, alors tout ce qui a été dit au-dessus sur les combinaisons linéaires se généralise sans aucun changement.
+La seule différence est que nous appelons ces espaces E des modules au lieu d'espaces vectoriels.
+Si K est un anneau non commutatif, alors la notion de combinaison linéaire se généralise encore, cependant avec une restriction :
+puisque les modules sur les anneaux non commutatifs peuvent être des modules à droite ou à gauche, nos combinaisons linéaires peuvent également être écrites à droite ou à gauche, c'est-à-dire avec des scalaires placés à droite ou à gauche, selon la nature du module.
+Une adaptation plus compliquée survient lorsque E est un bimodule sur deux anneaux, K et K. Dans ce cas, la combinaison linéaire la plus générale ressemble à avb + … + avb, où a, …, a appartiennent à K, b, …, b appartiennent à K et v, …, v appartiennent à E.

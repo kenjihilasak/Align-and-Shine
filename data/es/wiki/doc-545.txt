@@ -1,0 +1,117 @@
+La placa base, también conocida como tarjeta madre, placa madre o placa principal (motherboard o mainboard en inglés), es una tarjeta de circuito impreso a la que se conectan los componentes que constituyen la computadora.
+Es una parte fundamental para montar cualquier computadora personal de escritorio o portátil o algún dispositivo.
+Tiene instalados una serie de circuitos integrados, entre los que se encuentra el circuito integrado auxiliar (chipset), que sirve como centro de conexión entre el microprocesador (CPU), la memoria de acceso aleatorio (RAM), las ranuras de expansión y otros dispositivos.
+Va instalada dentro de una carcasa o gabinete que por lo general está hecha de chapa y tiene un panel para conectar dispositivos externos y muchos conectores internos y zócalos para instalar componentes internos.
+La placa madre, además incluye un firmware llamado BIOS, que le permite realizar las funcionalidades básicas, como pruebas de los dispositivos, vídeo y manejo del teclado, reconocimiento de dispositivos y carga del sistema operativo.
+Componentes de la placa base
+Una placa base típica admite los siguientes componentes:
+* Zócalo de CPU (monoprocesador) o zócalos de CPU (multiprocesador).
+Conectores de alimentación
+mini molex para FDD.
+Molex universal: para dispositivos IDE, HDD y unidad de disco óptico.
+para dispositivos SATA.
+(4) para tarjetas gráficas de 8 pines, separable para 6 pines.
+(5) para tarjeta gráfica de 6 pines.
+para placa base de 8 pines.
+(7) para CPU P4, combinado para el conector de la placa base de 8 pines a 12V.
+(8) ATX2 de 24 pines.
+Por uno o varios de estos conectores de alimentación, una alimentación eléctrica proporciona a la placa base los diferentes voltajes e intensidades necesarios para su funcionamiento.
+Zócalo de CPU
+El zócalo (socket) de CPU es un receptáculo que encastra el microprocesador y lo conecta con el resto de componentes a través del bus frontal de la placa base.
+Si la placa madre dispone de un único zócalo para microprocesador, se denomina monoprocesador.
+En cambio, si dispone de dos o más zócalos, se denomina placa multiprocesador.
+Ranuras de RAM
+Las placas bases constan de ranuras (slots) de memoria de acceso aleatorio, su número es de 2 a 6 ranuras en una misma placa base común.
+En ellas se insertan dichas memorias del tipo conveniente dependiendo de la velocidad, capacidad y fabricante requeridos según la compatibilidad de cada placa base y la CPU.
+Chipset
+El chipset es una serie o conjunto de circuitos electrónicos, que gestionan las transferencias de datos entre los diferentes componentes de la computadora (procesador, memoria, tarjeta gráfica, unidad de almacenamiento secundario, etcétera).
+El chipset, generalmente se divide en dos secciones:
+# Puente norte (northbridge): gestiona la interconexión entre el microprocesador, la memoria RAM y la unidad de procesamiento gráfico.
+# Puente sur (southbridge): gestiona la interconexión entre los periféricos y los dispositivos de almacenamiento, como los discos duros o las unidades de disco óptico.
+Las nuevas líneas de procesadores de escritorio tienden a integrar el propio controlador de memoria dentro del procesador, además de que estas tardan en degradarse aproximadamente de 100 a 200 años.
+Otros componentes importantes
+El reloj: regula la velocidad de ejecución de las instrucciones del microprocesador y de los periféricos internos.
+* La CMOS: una pequeña memoria que preserva cierta información importante (como la configuración del equipo, fecha y hora), mientras el equipo no está alimentado por electricidad.
+La pila de la CMOS: proporciona la electricidad necesaria para operar el circuito constantemente y que este último no se apague perdiendo la serie de configuraciones guardadas, como la fecha, hora, secuencia de arranque...
+** Actualmente, las computadoras modernas sustituyen el MBR por la tabla de particiones GUID (GPT) y el BIOS por Extensible Firmware Interface (EFI).
+* El bus frontal o bus delantero (front-side bus o FSB): también llamado “bus interno”, conecta el microprocesador al chipset.
+Está cayendo en desuso frente a HyperTransport y Quickpath.
+* El bus de memoria conecta el chipset a la memoria temporal.
+* El bus de expansión , por ejemplo, para conectar diferentes periféricos, como por ejemplo: mouse, teclado, memoria USB, teléfonos inteligentes, impresoras.
+Los conectores RJ-45, para conectarse a una red informática.
+Los conectores VGA, DVI, HDMI o DisplayPort para la conexión del monitor de computadora o proyector de vídeo.
+** Los conectores IDE o Serial ATA, para conectar dispositivos de almacenamiento, tales como discos duros (HDD), dispositivos de estado sólido (SDD) y unidades de disco óptico.
+** Los conectores jacks de audio, para conectar dispositivos de audio, por ejemplo: altavoces y auriculares (código de color: verde), y micrófonos (código de color: rosado).
+* Las ranuras de expansión: se trata de receptáculos (slots) que pueden acoger placas o tarjetas de expansión (estas tarjetas se utilizan para agregar características o aumentar el rendimiento de la computadora; por ejemplo, una tarjeta gráfica se puede añadir para mejorar el rendimiento 3D).
+Estos puertos pueden ser puertos:
+** ISA (Industry Standard Architecture) interfaz antigua,
+* Con la evolución de las computadoras, más y más características se han integrado en la placa base, tales como circuitos electrónicos para la gestión del vídeo, de sonido o de redes, evitando así la adición de tarjetas de expansión:
+** interfaz gráfica integrada o unidad de procesamiento gráfico (GPU, Graphics Processing Unit, o IGP, Integrated Graphic Processor);
+** interfaz integrada Ethernet o puertos de red integrados ).
+* En la placa también existen distintos conjuntos de pines, llamados jumpers o puentes, que sirven para configurar otros dispositivos:
+** JMDM1: Sirve para conectar un módem por el cual se puede encender el sistema cuando este recibe una señal.
+** JIR2: Este conector permite conectar módulos de infrarrojos IrDA, teniendo que configurar la BIOS.
+** JBAT1: Se utiliza para poder borrar todas las configuraciones que como usuario podemos modificar y restablecer las configuraciones que vienen de fábrica.
+* JFP1 Y JFP2: Se utiliza para la conexión de los interruptores del panel frontal y los ledes.
+** JUSB1 Y JUSB3: Es para conectar puertos USB del panel frontal.
+Tipos de bus
+Los buses son espacios físicos que permiten el transporte de información y energía entre dos puntos de la computadora.
+Los buses generales son cinco:
+Bus de datos
+Los buses de datos son las líneas de comunicación por donde circulan los datos externos e internos del microprocesador.
+Bus de dirección
+El bus de dirección es la línea de comunicación por donde viaja la información específica sobre la localización de la dirección de memoria del dato o dispositivo al que se hace referencia.
+Bus de control
+El bus de control es la línea de comunicación por donde se controla el intercambio de información con un módulo de la unidad central y los periféricos.
+Bus de expansión
+Los buses de expansión son el conjunto de líneas de comunicación encargado de llevar el bus de datos, el bus de dirección y el de control a la tarjeta de interfaz (entrada, salida) que se agrega a la placa principal.
+Bus del sistema
+Todos los componentes de la placa madre se vinculan a través del bus del sistema, mediante distintos tipos de datos del microprocesador y de la memoria principal, que también involucra a la memoria caché de nivel 2.
+La velocidad de transferencia del bus de sistema está determinada por la frecuencia del bus y el ancho.
+Formatos de placa base
+Las tarjetas madre necesitan tener dimensiones compatibles con las cajas que las contienen, de manera que desde los primeros computadores personales se han establecido características mecánicas, llamadas factor de forma.
+Definen la distribución de diversos componentes y las dimensiones físicas, como por ejemplo el largo y ancho de la tarjeta, la posición de agujeros de sujeción y las características de los conectores.
+Con los años, varias normas se fueron imponiendo.
+1983: XT (sigla en inglés de eXtended Technology, «tecnología extendida») es el formato de la placa base de la computadora IBM PC XT (modelo 5160), lanzado en 1983.
+En este factor de forma se definió un tamaño exactamente igual al de una hoja A4 y un único conector externo para el teclado.
+1984: AT (Advanced Technology, «tecnología avanzada») es uno de los formatos más grandes de toda la historia de la PC (305×279-330 mm), definió un conector de potencia formado por dos partes.
+Fue usado de manera extensa de 1985 a 1995.
+ATX
+1995: ATX (Advanced Technology eXtended, «tecnología avanzada extendida») fue creado por un grupo liderado por Intel, en 1995 introdujo las conexiones exteriores en la forma de un panel E/S y definió un conector de 24 pines para la energía.
+Se usa en la actualidad en la forma de algunas variantes, que incluyen conectores de energía extra o reducciones en el tamaño.
+ITX
+2001: ITX (Integrated Technology eXtended), con rasgos procedentes de las especificaciones microATX y FlexATX de Intel, el diseño de VIA se centra en la integración en placa base del mayor número posible de componentes, además de la inclusión del hardware gráfico en el propio chipset del equipo, siendo innecesaria la instalación de una tarjeta gráfica en la ranura AGP.
+BTX
+2004:
+BTX fue retirada en muy poco tiempo por la falta de aceptación, resultó prácticamente incompatible con ATX, salvo en la fuente de alimentación.
+Fue creada para intentar solventar los problemas de ruido y refrigeración, como evolución de la ATX.
+DTX
+2007: DTX eran destinadas a las PC de pequeño formato.
+Hacen uso de un conector de energía de 24 pines y de un conector adicional de 2x2.
+Formatos propietarios
+Durante la existencia del PC, muchas marcas han intentado mantener un esquema cerrado de hardware, denominado formato propietario, fabricando tarjetas madre incompatibles físicamente con los factores de forma con dimensiones, distribución de elementos o conectores que son atípicos.
+Entre las marcas más persistentes está Dell, que rara vez fabrica equipos diseñados con factores de forma de la industria.
+Fabricantes de placa base
+Varios fabricantes se reparten el mercado de placas base, tales como: Advantech, Albatron, Aopen, ASUS, AsRock, Biostar, Chaintech, Dell, DFI, ECS EliteGroup, FIC, Foxconn, Gigabyte Technology, iBase, iEi, Intel, Lenovo, MSI, Pc Chips, Sapphire Technology, Super Micro, Tyan, VIA, XFX, Zotac.
+Algunos diseñan y fabrican uno o más componentes de la placa base, mientras que otros ensamblan los componentes que terceros han diseñado y fabricado.
+Tipos de placas principales
+La mayoría de las placas de PC fabricadas después de 2001 se pueden clasificar en dos grupos:
+** Socket 754: Athlon 64, Mobile Athlon 64, Sempron, Turion
+** Socket 939: Athlon 64, Athlon FX , Athlon X2, Sempron,
+Opteron
+Socket AM2: Athlon 64, Athlon FX, Athlon X2, Sempron, Phenom
+Socket AM2 +: Athlon 64, Athlon FX, Athlon X2, Sempron, Phenom
+Socket AM3: Phenom II X2 X4 X3 X3 X3 X6, FX X4 X8
+** Socket FM2: APU A4, APU A6, APU A8, APU A10, Athlon II X2/X4
+** LGA 775: Pentium 4, Celeron, Pentium D (doble núcleo), Core 2 Dúo, Core 2 Quad, Core 2 Extreme, Xeon
+** LGA 1366: Intel Core i7 (Nehalem), Xeon (Nehalem)
+** LGA 1156: Intel Core i3, Intel Core i5, Intel Core i7 (Nehalem)
+** LGA 1155: Intel Core i5 e Intel Core i3 (Sandy Bridge), Intel Core i7, Intel Core i5 e Intel Core i3 (Ivy Bridge)
+** LGA 1150: Intel Core i7, Intel Core i5 e Intel Core i3 (Haswell y Broadwell)
+* LGA 1151: Intel Core i7, Intel Core i5 e Intel Core i3 (Skylake)
+Placa multiprocesador
+Este tipo de placa base incluye zócalos para instalar varios procesadores (generalmente 2, 4, 8 o más).
+No nos estamos refiriendo a instalar un procesador con varios núcleos, si no a que podemos instalar varios procesadores físicos.
+Algunos fabricantes proveen placas base que pueden acoger hasta 8 procesadores (en el caso de socket 939 para procesadores AMD Opteron y sobre socket 604 para procesadores Intel Xeon).
+Véase también
+4zbow6mpjj9mbkw700mvp0n5pru2j7v

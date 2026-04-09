@@ -1,0 +1,322 @@
+Vecteur|Objet
+mathématique|Géométrie affine|Algèbre linéaire
+En mathématiques, un vecteur est un objet généralisant plusieurs notions provenant de la géométrie (couples de points, translations, etc.), de l'algèbre (« solution » d'un système d'équations à plusieurs inconnues), ou de la physique (forces, vitesses, accélérations).
+Rigoureusement axiomatisée, la notion de vecteur est le fondement de la branche des mathématiques appelée algèbre linéaire.
+En ce sens, un vecteur est un élément d'un espace vectoriel, ce qui permet d'effectuer des opérations d'addition et de multiplication par un scalaire.
+Un n
+-uplet peut constituer un exemple de vecteur, à condition qu'il appartienne à un ensemble muni des opérations adéquates.
+On représente fréquemment les vecteurs comme de simples n-uplets ou, graphiquement, dans le cas particulier des espaces à 1, 2 ou 3 dimensions, par des flèches : cette représentation est issue de la combinaison des notions de couple de points de la géométrie euclidienne (qui permettent de définir les distances, mais aussi la direction et le sens), et des possibilités de calcul offertes par l'algèbre ;
+cela permet de donner un sens à des vecteurs définis en dimension deux (le plan), trois (l'espace euclidien usuel), mais plus généralement dans des espaces de dimension quelconque.
+En physique, les vecteurs sont grandement utilisés, ils permettent de modéliser des grandeurs comme une force, une vitesse, une accélération, une quantité de mouvement ou certains champs (électrique, magnétique, gravitationnel…).
+Une grandeur vectorielle s'oppose à une grandeur scalaire : la grandeur scalaire a uniquement une valeur mais pas de direction ou de sens.
+Ces notions de champs, et les opérateurs permettant de les calculer, ont amené à définir, en algèbre multilinéaire, la notion de champ vectoriel, c'est-à-dire une fonction de ℝn dans ℝn.
+Ainsi, par exemple, résoudre une équation différentielle, c'est déterminer les courbes auxquelles sont tangents les vecteurs du champ.
+Plus généralement encore, les vecteurs sont des cas particuliers de tenseurs (ils s'identifient aux tenseurs d'ordre un).
+Les tenseurs d'ordre deux sont représentés par des matrices, et les matrices d'une application linéaire transformant les vecteurs en forme linéaire constituent une forme particulière de vecteurs, appelées aussi bivecteurs.
+Histoire
+La notion de vecteur est le fruit d'une longue histoire, commencée voici plus de deux mille ans.
+Deux familles d'idées, d'abord distinctes, sont à l'origine de la formalisation.
+L'une d'elles est la géométrie, traitant de longueurs, d'angles et de mesures de surfaces et de volumes.
+L'autre correspond à l'algèbre, qui traite des nombres, de l'addition ou la multiplication et plus généralement d'ensembles munis d'opérations.
+Un vieux problème d'algèbre nous vient par exemple des Égyptiens et s'exprime de la manière suivante :
+Ces deux familles d'idées sont développées indépendamment, pour finir par converger vers la notion de vecteur.
+Origines des deux concepts
+La civilisation grecque développe la géométrie à un niveau inégalé à cette époque.
+L'un des fleurons est le traité nommé les Éléments d'Euclide, datant du .
+Il contient la formalisation, très rigoureuse pour l'époque, d'une géométrie, encore maintenant appelée euclidienne.
+On y trouve les définitions d'une droite, d'un plan ou de notre espace physique de dimension trois permettant de modéliser des volumes.
+Les propriétés des distances, des angles, des mesures de surfaces et de volumes sont étudiées.
+Les théorèmes fondateurs, comme ceux appelés Thalès ou Pythagore, sont explicités et démontrés.
+L'algèbre y est peu développée et contient essentiellement de l'arithmétique.
+Les nombres entiers et rationnels sont étudiés ainsi que quelques irrationnels, c'est-à-dire les nombres qui ne s'écrivent pas sous forme d'une fraction d'entiers.
+Les nombres sont toujours strictement positifs.
+La Chine développe les premières idées algébriques à l'origine des vecteurs.
+Un vieux texte, datant probablement
+du : les Neuf Chapitres sur l'art mathématique y consacre sa huitième partie.
+Elle s'intitule Fang cheng ou Disposition rectangulaire et traite d'un problème maintenant appelé système d'équations linéaires.
+Cette culture n'en reste pas là, Qin Jiushao (1202 - 1261) généralise cette étude à des nombres différents des entiers ou rationnels.
+Il utilise les congruences, inaugurant une démarche consistant à définir des vecteurs sur des ensembles de nombres exotiques.
+Il peut ainsi résoudre des problèmes liés au calendrier et aux alignements de planètes avec une très grande précision.
+La méthode utilisée ne sera connue qu'au en Occident, sous le nom de pivot de Gauss.
+Ce résultat est suffisamment étonnant pour que précise que :
+L'aspect géométrique n'échappe pas aux mathématiciens chinois.
+Le dernier chapitre, le Gou gu comporte un équivalent du théorème de Thalès et de Pythagore.
+Convergence de l'algèbre et de la géométrie
+L'existence d'un lien entre ce que l'on appelle maintenant l'algèbre et la géométrie est ancienne.
+Les Babyloniens connaissaient déjà la propriété algébrique de la diagonale d'un carré de côté de longueur un, à savoir que son carré est égal à deux.
+Ils savaient de plus calculer cette valeur avec une remarquable précision.
+Ce lien est aussi connu des Grecs et des Chinois.
+Il faut cependant attendre la civilisation arabe pour observer un progrès significatif.
+Leurs mathématiciens connaissaient les travaux des Grecs, particulièrement ceux d'Euclide.
+Les notations utilisées laissent penser qu'ils avaient aussi accès à des travaux des premiers mathématiciens chinois.
+Le progrès déterminant consiste à associer au plan géométrique des coordonnées.
+Omar Khayyam (1048
+- 1131)
+cherche les solutions d'un problème purement algébrique : trouver les racines d'un polynôme du troisième degré.
+Un système de coordonnées lui permet de visualiser ces racines comme les abscisses des intersections d'une parabole et d'une hyperbole.
+Le système des coordonnées est repris en Europe.
+La volonté de maitriser la perspective pousse les peintres italiens à étudier les mathématiques.
+Filippo Brunelleschi (1377
+- 1446) découvre les lois de la perspective, issues d'une projection centrale.
+Ces résultats sont formalisés par Leon Battista Alberti (1404 - 1472).
+Les théoriciens de la perspective disposent de multiples talents.
+Ainsi Piero della Francesca (vers 1412 - 1492), auteur d'un traité sur la question, est à la fois peintre et mathématicien.
+Giorgio Vasari (1511
+- 1574) indique, à propos de ses talents de géomètre « il ne fut inférieur à personne de son époque et peut-être de tout temps ».
+Apports de la physique
+La physique est le moteur suivant de la convergence entre géométrie et algèbre.
+En 1604, Galileo Galilei (1564 - 1642) établit la loi de la chute des corps.
+Les illustrations de ses notes montrent l'utilisation d'un repère.
+L'optique est la branche qui aboutit au progrès le plus marquant.
+Pierre de Fermat (1601
+), qui connaissait les écrits de Galilée, et René Descartes (1596 - 1650)
+s'écrivent des lettres au sujet de la dioptrique (la manière dont la lumière se réfléchit sur un miroir) et à la réfraction (la déviation d'un rayon lumineux quand il change de milieu, par exemple en passant de l'air à l'eau).
+Ils arrivent à la conclusion qu'un repère est une méthode systématique permettant d'appréhender tous les problèmes de géométrie euclidienne.
+Ces résultats sont consignés dans un traité de Descartes.
+Il écrit en introduction : «
+Comment le calcul d'arithmétique se rapporte aux opérations de géométrie ».
+Pour Descartes, calcul d'arithmétique signifie approximativement ce qui est maintenant appelé algèbre.
+Cette approche est particulièrement féconde pour l'étude d'une branche naissante des mathématiques : la géométrie analytique.
+Un exemple est donné par l'étude de la cycloïde.
+Cette courbe décrit la trajectoire d'un point de la surface d'une roue se déplaçant sans glissement sur un sol horizontal.
+Isaac Newton (1643
+- 1727)
+développe la géométrie analytique et l'utilise en astronomie.
+Cette application est l'origine de l'utilisation du terme vecteur.
+En 1704, un dictionnaire technique anglais indique :
+Ce terme apparait en français sous la plume de Pierre-Simon de Laplace (1749 - 1827) dans l'expression rayon vecteur, encore dans un contexte astronomique.
+Il vient du latin vector provenant lui-même du verbe vehere qui veut dire transporter.
+Pour les romains, le mot vector désignait aussi bien le passager que le conducteur d'un bateau ou d’un chariot.
+Les mots français véhicule, voiture, mais aussi invective proviennent de cette même racine latine.
+Son origine est plus ancienne, elle provient de l'indo-européen
+Ainsi, au , le contexte géométrique et algébrique du vecteur est présent.
+En revanche, aucune formalisation n'est proposée et le terme, s'il est utilisé, désigne encore une grandeur scalaire.
+Formalisations
+La première formalisation des vecteurs est le fruit d'un travail de plusieurs mathématiciens durant la première moitié du .
+Bernard Bolzano publie un livre élémentaire contenant une construction axiomatique de la géométrie analogue à celle d'Euclide, fondée sur des points, droites et plans.
+Il adjoint les opérations algébriques d'addition et de multiplication.
+La géométrie projective, héritière du travail sur la perspective des peintres de la renaissance italienne, conduit Jean-Victor Poncelet et Michel Chasles à affiner les travaux de Bolzano.
+August
+Ferdinand
+Möbius
+apporte sa pierre à l'édifice en développant le système de coordonnées barycentriques.
+Enfin, la formalisation encore actuellement enseignée, à partir des notions de bipoint et d'équipollence, est l'œuvre de Giusto Bellavitis.
+Une autre voie est explorée, purement algébrique.
+William Rowan
+Hamilton remarque que les nombres complexes représentent un plan euclidien.
+Il passe dix ans de sa vie à chercher un équivalent en dimension trois, et finit par trouver le corps des quaternions, de dimension quatre en 1843.
+Il propose deux nouvelles définitions pour les mots « vecteur » et « scalaire ».
+Un vecteur est pour lui un élément d'un sous-ensemble des quarternions, de dimension trois.
+Il écrit :
+En 1878, dans Éléments de dynamique William Kingdon Clifford reprendra en la simplifiant la notion de quaternions.
+Il introduit en particulier le produit scalaire et le produit vectoriel de deux vecteurs.
+Cette approche permit d'utiliser les vecteurs d'une manière plus calculatoire.
+Cette deuxième voie, qui donne pour la première fois une signification analogue aux formalisations modernes de la notion de vecteur, est ensuite précisée et enrichie.
+Elle consiste maintenant à définir un vecteur comme un élément d'un espace vectoriel.
+Approche géométrique
+La géométrie euclidienne est la géométrie du plan ou de l'espace, fondée sur les axiomes d'Euclide.
+Les notions de point, de droite, de longueur, sont introduits par le biais d'axiomes.
+Le vecteur est alors un objet géométrique construit à partir des précédents.
+Une visualisation intuitive d'un vecteur correspond à un déplacement d'un point, ou pour utiliser le terme mathématique précis, une translation.
+Ainsi un vecteur possède une longueur, la distance entre le point de départ et d'arrivée, une direction si le déplacement n'est pas nul, c'est la droite contenant le point de départ et d'arrivée et un sens, depuis le départ jusqu'à l'arrivée.
+Définition
+Un vecteur est représenté par un segment orienté (une flèche), ayant pour extrémités un point de départ et un point d'arrivée.
+L’emplacement dans le plan ou l'espace n’a pas d’importance, deux déplacements de deux points d'origine distincts peuvent correspondre au même vecteur, seuls comptent sa longueur, sa direction et son sens.
+Il est donc possible de le faire glisser librement dans le plan, parallèlement à lui-même.
+Si A et B sont deux points distincts, le vecteur \overrightarrow possède trois éléments caractéristiques :
+* son sens (il y a deux sens possibles de parcours de la droite (AB) : de A vers B ou de B vers A)
+* sa norme (ou sa longueur, la longueur du segment AB).
+Attention cependant
+à ne pas confondre sens et direction.
+En effet, dans le langage courant, lorsqu'on se trouve sur une route entre Paris et Versailles et que l'on dit que l'on va dans la direction de Versailles, on se rapproche de cette dernière ville.
+Mais dans le langage mathématique, la direction est portée par la route (direction Paris-Versailles) sans savoir si l'on va de Versailles vers Paris ou de Paris vers Versailles.
+Pour savoir vers quelle ville on se dirige, il faudra aussi donner le sens : le sens Paris-Versailles par exemple pour indiquer que l'on va de Paris vers Versailles.
+Une définition formelle utilise au préalable la notion de bipoint.
+Il est défini comme un couple de points.
+L’ordre a une importance : le premier point est appelé origine.
+Deux bipoints (A, B) et (C, D) sont dits équipollents lorsque les segments AD et BC ont le même milieu.
+La relation d'équipollence constitue une relation d'équivalence sur les bipoints.
+Une classe d'équivalence contient tous les bipoints dont le deuxième membre est limage du premier point par le déplacement.
+La classe d'équivalence d'un bipoint (A, B) est appelée vecteur et est notée \overrightarrow.
+Le bipoint (A, B) en est un représentant.
+Réciproquement, tout vecteur admet plusieurs bipoints représentants, dont aucun n'est privilégié.
+Si une origine est choisie, il existe un unique bipoint représentant un vecteur donné.
+Si les vecteurs peuvent être déplacés dans le plan, quant à eux, les points ne le sont pas.
+Ces derniers restent fixes.
+L'intérêt d'avoir un représentant d'un vecteur est d'obtenir, parmi les bipoints équipollents, un seul dont l'origine ou l'extrémité est fixée une fois pour toutes.
+Ainsi deux bipoints (A, B) et (C, D) sont équipollents si et seulement s'ils représentent le même vecteur et on peut alors écrire l'égalité
+\overrightarrow = \overrightarrow.
+Tous les bipoints constitués de la répétition d'un même point : (A, A), sont équipollents entre eux, ils sont les représentants d'un vecteur qualifié de nul.
+Il est noté
+:\overrightarrow=\overrightarrow.
+Cet unique vecteur possède la propriété particulière d'avoir son origine et son extrémité confondues.
+Ce vecteur sera alors le seul à être représenté comme un point.
+Un vecteur représente un déplacement.
+Mais dans un vecteur nul, l'extrémité et l'origine étant confondues, il n'y a aucun déplacement.
+Cela veut donc dire que l'absence de déplacement est considérée comme un déplacement.
+Les théories présentant les vecteurs comme une classe d'équivalence de bipoints les notent en général par une lettre surmontée d'une flèche.
+Longueur et angle
+La longueur d'un bipoint (A, B) est définie comme la longueur du segment sous-jacent.
+Deux bipoints équipollents ont la même longueur.
+Tous les représentants d'un vecteur \vec ont donc la même longueur, qui est appelée norme (ou module) du vecteur \vec, et notée en général ||\vec|| (on utilise aussi parfois simplement la ou les lettres désignant le vecteur sans la flèche, par exemple u ou AB).
+Un vecteur unitaire est un vecteur de norme 1.
+Le vecteur nul est de norme nulle, ||\vec|| = 0.
+L’angle que forment deux vecteurs \vec et \vec est noté (\widehat).
+Il est défini comme l'angle que font deux représentants de même origine.
+Ainsi si (A, B) est un représentant de \vec et (A, C) un représentant de \vec, alors
+: (\widehat)
+= \widehat
+Dans le plan orienté, il est possible de définir la notion d'angle orienté de deux vecteurs.
+Ce n'est pas le cas dans l'espace.
+Opérations
+Des constructions géométriques permettent la définition de l'addition et de la multiplication par un scalaire.
+Le nom donné aux opérations est la conséquence de la similarité avec les opérations sur les nombres (commutativité, associativité et distributivité, présence d'un élément neutre et absorbant).
+Pour cette raison, non seulement les noms des opérations mais les notations sont similaires.
+Si \vec et \vec sont deux vecteurs, soit un couple (A, B) de points représentant \vec et C le point tel que le couple (B, C) représente le vecteur \vec.
+Alors un représentant du vecteur \vec + \vec est le couple (A, C).
+\vec
+est le vecteur nul, alors les points B et C sont confondus, la somme est alors égale à \vec et le vecteur nul est bien l'élément neutre pour l'addition des vecteurs.
+Soit α un nombre, si \vec est le vecteur nul, alors \alpha \vec est aussi le vecteur nul, sinon il existe une unique droite contenant A et B, et un unique point C tel que la distance entre A et C soit égale à
+|\alpha|\;
+\cdot ||\vec|| et le sens de (A, B)
+si α est positif, relativement au sens de \vec, et l'inverse sinon.
+Une fois équipée d'une structure d'espace vectoriel, les démonstrations de la géométrie euclidienne s’avèrent souvent simplifiées.
+Un exemple est donné par le théorème de Thalès.
+Formalisation
+On ne trouve pas de vecteurs dans les éléments d'Euclide, mais les notions de point ou de parallélogramme, de l'approche esquissée ci-dessus y sont bien présentes.
+Mais l'axiomatisation des éléments n'est pas tout à fait satisfaisante, bien qu'elle ait été longtemps un modèle en la matière : certains axiomes restent implicites.
+David Hilbert a montré comment axiomatiser rigoureusement le plan ou l'espace affine de façon géométrique .
+En utilisant le parallélisme, il est alors possible de définir les translations et les homothéties, et en utilisant ces transformations, les vecteurs et les scalaires.
+Cette approche est très générale : elle permet de traiter des cas utiles, où les scalaires ne sont pas forcément des réels, mais par exemple des complexes ou les éléments d'un ensemble fini de nombres du vecteur \vec u dans cette base.
+Cette définition correspond à celle d'un plan affine muni d'un repère.
+Une telle propriété est encore vraie dans l'espace.
+Cependant, deux vecteurs ne suffisent plus, toute base contient exactement trois vecteurs non nuls et dont les directions ne sont pas coplanaires (c'est-à-dire qu'il n'existe aucun plan contenant les trois directions).
+Si dans l'espace, les trois composantes d'un vecteur \vec u sont , et , il est d'usage de noter :
+\vec = \begin u_1 \\ u_2
+u_3
+\end
+pour indiquer les composantes du vecteur.
+Le tableau est appelé vecteur colonne et correspond à un cas particulier de matrice.
+Les opérations algébriques sur les vecteurs sont simples, avec une telle représentation.
+Additionner deux vecteurs revient à additionner chacune des composantes et la multiplication par un scalaire revient à multiplier chaque composante par le scalaire.
+Dans un plan vectoriel, un vecteur s'identifie à un couple de scalaires, et dans l'espace à un triplet.
+Si les nombres choisis sont réels alors un plan (respectivement un espace) s'identifie à ℝ (respectivement à ℝ).
+Ici, ℝ désigne l'ensemble des nombres réels.
+Ébauche d'une construction algébrique
+La logique précédente, appliquée pour une dimension égale à deux ou trois se généralise.
+Il est ainsi possible de considérer la structure ℝn ou de manière plus générale Kn avec K un ensemble de scalaires possédant de bonnes propriétés (précisément, K est un corps commutatif).
+Une telle structure possède une addition, et une multiplication par un scalaire définies comme au paragraphe précédent.
+Il est possible de généraliser encore la définition d'un vecteur.
+Si un ensemble E possède une addition et une multiplication scalaire sur un corps commutatif et si ses opérations vérifient certaines propriétés, appelées axiomes et décrites dans l'article détaillé, alors E est appelé espace vectoriel et un élément de E vecteur.
+De très nombreux exemples d'ensembles mathématiquement intéressants possèdent une telle structure.
+C’est le cas par exemple des espaces de polynômes, de fonctions vérifiant certaines propriétés de régularité, de matrices...
+Tous ces ensembles peuvent alors être étudiés avec les outils du calcul vectoriel et de l'algèbre linéaire.
+La notion de dimension fournit le premier résultat de classification concernant les espaces vectoriels.
+Dans un espace vectoriel de dimension finie n, il est possible, moyennant le choix d'une base, de se ramener au calcul sur des vecteurs colonnes de taille n.
+Il existe également des espaces vectoriels de dimension infinie.
+L'ensemble des fonctions de ℝ dans ℝ est ainsi un espace vectoriel sur le corps des nombres réels, de dimension infinie.
+Vue sous cet angle, une telle fonction est un vecteur.
+Construction algébrique et géométrie
+Si les deux constructions, algébrique et géométrique, sont équivalentes pour les structures vectorielles du plan et de l'espace usuel, la géométrie apporte en plus les notions de distance et d'angle.
+La notion de produit scalaire permet de combler cette lacune.
+Un produit scalaire associe à deux vecteurs un réel.
+Si les deux vecteurs sont identiques le réel est positif.
+Il existe un produit scalaire tel que la norme du vecteur soit égale à la racine carrée du produit scalaire du vecteur avec lui-même.
+La géométrie euclidienne apparait alors comme l'étude d'un espace affine comprenant un espace vectoriel de dimension deux ou trois sur le corps des réels, muni d'un produit scalaire : plan affine euclidien ou espace affine euclidien.
+Une fois équipée d'un produit scalaire, il devient possible de définir sur l'espace vectoriel des transformations classiques de géométrie euclidienne comme la symétrie, la rotation ou la projection orthogonale.
+La transformation associée aux espaces vectoriels laisse toujours invariant le vecteur nul.
+Les rotations permettent de définir la notion d'angle pour les vecteurs.
+L'angle \scriptstyle (\widehat) est égal à \scriptstyle (\widehat) si et seulement s'il existe une rotation qui envoie \scriptstyle \vec sur \scriptstyle \vec et \scriptstyle \vec sur \scriptstyle \vec.
+Cette définition, qui s'applique à une formalisation algébrique de la notion d'espace vectoriel, est équivalente à celle de la construction géométrique.
+Une telle approche simplifie parfois grandement les démonstrations, un exemple est le théorème de Pythagore.
+L'approche algébrique permet de définir toutes les notions de la géométrie euclidienne, elle généralise cette géométrie à une dimension quelconque si les nombres sont réels.
+Dans le cas des nombres complexes une construction analogue, appelée espace hermitien, existe.
+Approche tensorielle
+Le produit scalaire dans un système non orthonormé va faire apparaître deux types de projection (parallèle aux axes ou perpendiculairement) et donc deux types de coordonnées
+Composantes covariantes d'un vecteur
+En effectuant le produit scalaire d'un vecteur x = x^e_ par le vecteur de base e_, on obtient la composante covariante de ce vecteur
+x.e_
+x^ e_).e_
+x^ (e_.e_)
+x^.g_
+avec g_ = e_.e_ , le tenseur métrique égal au produit scalaire des vecteurs de base (valant \delta_ lorsque la base est orthonormée).
+Composantes contravariantes d'un vecteur
+Les composantes contravariantes sont les composantes du vecteur telles que x = x^ e_
+On note les composantes contravariantes par un indice supérieur, les composantes covariantes par un indice inférieur.
+En multipliant les composantes contravariantes par le tenseur métrique, on obtient les composantes covariantes
+:x^ g_ = x_
+Dans un système orthonormé les composantes covariantes et contravariantes sont identiques
+Géométriquement pour un système quelconque,
+en projetant un vecteur \overline parallèlement aux axes
+, on obtient deux points M et M dont les coordonnées par rapport aux vecteurs de base définissent les coordonnées contravariantes du vecteur \overline=x^ e_ + x^ e_.
+En projetant le même vecteur \overline perpendiculairement, on obtient deux points m et m dont les coordonnées par rapport aux vecteurs de base définissent les coordonnées covariantes du vecteur
+Utilisations des vecteurs
+Les exemples cités dans cet article sont relativement simples et didactiques.
+D'autres cas, plus généraux sont présentés dans les articles théorème spectral et algèbre linéaire.
+Mathématiques
+Une vaste partie des mathématiques utilise les vecteurs, en algèbre, en géométrie ou en analyse.
+Un exemple archétypal en algèbre est la résolution d'un système d'équations linéaires.
+Un exemple de trois équations à trois inconnues correspond à la recherche des vecteurs de dimension trois, antécédents d'une application linéaire d'un vecteur donné.
+Le plan euclidien ℝ peut aussi être identifié au plan complexe ℂ. La base canonique est composée de deux vecteurs unitaires : l'unité des réels et l'unité imaginaire.
+Les vecteurs offrent un outil efficace pour la résolution de nombreux problèmes de géométrie.
+Ils sont utilisés pour la détermination de propriétés de parallélisme ou d'orthogonalité de droites, plan ou segments.
+À travers l'utilisation des coordonnées barycentriques, les vecteurs forment un outil adapté pour caractériser le centre d'une figure géométrique et permettent une démonstration simple du théorème de Leibniz, du théorème de Ceva comme de nombreux résultats sur la géométrie du triangles.
+Le produit scalaire, qui s'exprime particulièrement simplement dans une base orthonormée, offre de nombreuses possibilités.
+Il permet, par exemple, de mesurer la distance d'un point à une droite ou à un plan.
+Une telle base permet d'exprimer aussi simplement des transformations géométriques comme la projection orthogonale sur un plan ou une droite.
+L'analyse n'est pas en reste.
+L'espace vectoriel ℝ, copie du plan euclidien est le cadre naturel de représentation du graphe d'une fonction.
+Les vecteurs permettent par exemple de déterminer la droite perpendiculaire à une courbe en vue de déterminer les foyers d'une conique.
+La représentation graphique offre une solution pour déterminer une approximation d'une racine d'une équation dans le cas où une résolution par une méthode algébrique n'est pas connue.
+Physique
+La physique est à l'origine du terme de vecteur, elle utilise toujours largement ce concept.
+La raison historique provient du fait qu'en physique classique l'espace qui nous entoure est bien modélisé comme espace affine (géométrie euclidienne) de dimension trois avec le temps (absolu) comme paramètre d'évolution.
+En physique, une addition de vecteurs ne peut avoir de sens que si leurs coordonnées respectives ont la même dimension.
+La position d'un point est décrite par des coordonnées dans un repère, mais sa vitesse et son accélération sont des vecteurs.
+Pour établir la mécanique du point, c'est-à-dire l'étude des mouvements d'un point matériel, les vecteurs sont indispensables.
+La position d'un point se modélise par ses trois coordonnées (qui sont des nombres réels) dont chacune est une fonction du temps ;
+on peut aussi la décrire par le vecteur position allant de l'origine du repère au point : les composantes du vecteur sont alors identifiables aux coordonnées du point.
+Le vecteur vitesse est égal à la dérivée du vecteur position (c'est-à-dire : les composantes du vecteur vitesse sont les dérivées de celles du vecteur position), et c'est encore un vecteur.
+Il en est de même pour l'accélération, correspondant à la dérivée seconde.
+Dans un référentiel galiléen, l'accélération d'un point est proportionnelle à la force qui lui est appliquée.
+Une force est équivalente à un vecteur.
+La trajectoire d'une planète est connue par la force qui lui est appliquée à chaque instant.
+Cette force est la conséquence de la gravitation, essentiellement due au Soleil.
+Ce phénomène est décrit par la donnée du champ gravitationnel.
+Ce champ associe un vecteur proportionnel à la force de la gravitation à chaque point de l'espace.
+Cette modélisation s'accommode plus difficilement de la relativité restreinte du fait que les changements de référentiels n'y dépendent pas linéairement de la vitesse, et elle ne concerne pas la relativité générale qui n'utilise pas d'espace euclidien (sauf pour des approximations).
+En physique quantique les coordonnées ne peuvent être celles d'une particule qu'en tenant compte du principe d'incertitude, et les forces sont dues à des échanges de particules.
+Généralisations
+Mathématiques
+Les applications linéaires d'un espace vectoriel dans un autre sont des fonctions respectant l'addition et la multiplication externe.
+Elles s'additionnent et se multiplient scalairement, et disposent donc des propriétés qui font d'elles des vecteurs.
+Il en est de même pour les matrices de format fixé, même si elles ne sont pas de type colonne : ces matrices forment toujours un espace vectoriel.
+Les deux exemples précédents correspondent à des cas où la structure est enrichie par une multiplication interne.
+Elle porte le nom d'algèbre, ses éléments sont appelés souvent vecteurs et parfois points.
+Des exemples sont données par l'ensemble des polynômes à coefficients réels ou encore une algèbre de Lie.
+Dans d'autres cas, la structure est appauvrie.
+Un module est une structure analogue tel que les scalaires différents de zéro ne sont plus toujours inversibles.
+Le terme de vecteur est néanmoins toujours utilisé.
+Physique
+Les lois établissant les mouvements d'un point s'appliquent aussi dans le cas d'un solide, les calculs deviennent néanmoins plus complexes.
+Si les vecteurs restent omniprésents, le point d'application de la force possède son importance.
+Selon sa position, le solide tourne en plus du déplacement de son centre de gravité.
+Pour tenir compte de ce phénomène, de nouvelles définitions sont proposées.
+Un vecteur lié ou pointeur est un couple composé d'un vecteur et d'un point appelé point d'application.
+La rotation du solide est la conséquence d'une grandeur physique appelé moment.
+Elle ne dépend pas de la position du vecteur sur une droite donnée.
+Pour cette raison, un vecteur glissant est un couple composé d'un vecteur et d'une droite affine.
+Dans ce contexte, et pour éviter toute ambigüité, un vecteur au sens classique du terme est appelé vecteur libre.
+Pour tenir compte à la fois de la rotation et du mouvement du centre de gravité, un être mathématique plus complexe est utilisé.
+Il porte le nom de .
+Informatique
+L'informatique utilise le terme de vecteur, à la fois pour des raisons géométriques et algébriques.
+Le codage d'une image sur un écran d'ordinateur utilise au choix deux techniques : matricielle et vectorielle.
+La première utilise des éléments graphiques définis point par point.
+À chaque pixel est associé la quantité de couleurs primaires correspondante.
+Si cette méthode est économique en termes de puissance de calcul, un agrandissement de la taille de l'image possède pour conséquence un effet d'escalier.
+Un dessin vectoriel est une représentation composée d'objets géométriques (lignes, points, polygones, courbes…) ayant des attributs de forme, de position, de couleur, etc. À la différence de la technique précédente, il s'agit d'une méthode plus coûteuse en termes de puissance de calcul mais dans laquelle l'effet d'escalier n'existe pas.
+La représentation des données en informatique, pour les fonctions de mémoire ou de calcul, se fonde sur des tableaux d'octets.
+Si un octet est identifié à un scalaire, ce qui se conçoit car deux octets s'additionnent et se multiplient, alors un tel tableau s'apparente à une famille de composantes vectorielles.
+Pour cette raison, un tel tableau est appelé vecteur.
+Par extension, le terme de vecteur désigne aussi des tableaux dont les composantes sont autre chose que des nombres, par exemple des pointeurs ou des structures informatiques quelconques.

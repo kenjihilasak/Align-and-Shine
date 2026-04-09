@@ -1,0 +1,93 @@
+Windows 95 es un sistema operativo con interfaz gráfica de usuario híbrido de entre 16 y 32 bits.
+Fue lanzado al mercado el 24 de agosto de 1995 por la empresa de software Microsoft con notable éxito de ventas.
+Durante su desarrollo se conoció como Windows 4 o por el nombre clave Chicago.
+Sustituyó a MS-DOS como sistema operativo y a Windows 3.x como entorno gráfico.
+Se encuadra dentro de la familia de sistemas operativos de Microsoft denominada Windows 9x.
+En la versión OSR2 (OEM Service Release 2) incorporó el sistema de archivos FAT32, además del primer indicio del entonces novedoso USB.
+Historia
+Windows 95 fue lanzado al mercado el 24 de agosto de 1995 por Microsoft Windows.
+En ésta edición se introdujeron mejoras que eran muy significativas con respecto a sus antecesores entre los cuales se pueden mencionar los profundos cambios realizados a la interfaz gráfica de usuario de Windows, siendo completamente distinta a las de versiones anteriores, y el pasar de usar una arquitectura multitarea cooperativa de 16 bits a usar una arquitectura multitarea apropiativa de 32 bits.
+Esta versión fue la primera en incluir la barra de tareas y el botón Inicio, los cuales se siguieron incluyendo en versiones posteriores de Windows, además de ser la primera versión en soportar la función de Plug and Play, y, solo en Japón, una de las últimas versiones para PC-9821.
+El lanzamiento de Windows 95 estuvo acompañado por una extensa y millonaria campaña de marketing, logrando con ello obtener un gran éxito de ventas y convirtiéndose en uno de los sistemas operativos de escritorio más populares.
+Los sucesores directos de Windows 95 fueron Windows 98 y Windows ME.
+Con la unificación de la línea profesional y la doméstica con Windows XP, ésta familia de sistemas Windows continuó su desarrollo con Windows Vista, Windows 7 , Windows 8 y Windows 10.
+Windows 95 fue vendido en disquetes y en CD-ROM.
+En la versión en disquetes se incluían 13 discos y se utilizaba un formato no estándar conocido como DMF el cual les permitía almacenar una capacidad mayor a la normal de 1440 KiB.
+La versión en CD-ROM ofrecía una selección de accesorios y complementos multimedia, además de algunos controladores de dispositivos, juegos y versiones de demostración de algunos programas ofrecidos por la compañía.
+Durante la instalación se incluía la opción de crear un disquete de rescate con MS-DOS 7.0.
+Esta versión de MS-DOS estaba restringida, ya que inhabilitaba ciertas partes que con anteriores versiones estaban disponibles a través del BIOS del PC, como el acceso al puerto serie, en la que una llamada es simplemente devuelta sin modificación alguna, apuntando a una instrucción RET (lenguaje ensamblador), mientras que con versiones anteriores, aún apuntaban a la rutina existente en el propio BIOS.
+El soporte estándar para Windows 95 finalizó el 31 de diciembre de 2000 y el soporte ampliado para Windows 95 finalizó el 31 de diciembre de 2001.
+32 bits
+La inclusión del acceso a ficheros de 32 bits en Windows 3.11 para trabajo en grupo, significó que el modo real de 16 bits de MS-DOS no se siguiera usando para manejar ficheros mientras Windows estuviese en ejecución, y la introducción del acceso a disco de 32 bits significó que el BIOS de una PC dejaría de usarse para administrar el disco duro.
+Esto redujo el rol de MS-DOS a un simple Bootloader o cargador de arranque para el kernel en modo protegido de Windows.
+El DOS incluido aún se podía usar para ejecutar controladores antiguos por razones de compatibilidad, aunque Microsoft no recomendaba su uso, dado su impacto en el rendimiento y estabilidad del sistema operativo.
+El Panel de Control de Windows permitió a los usuarios ver qué componentes de MS-DOS todavía permanecían en el sistema, mejorando el rendimiento general cuando estos no se usaban.
+El kernel de Windows aún usaba el antiguo modo real de drivers de MS-DOS en el llamado Modo a prueba de fallos, aunque este modo especial estaba diseñado para permitir a un usuario arreglar los problemas que se pudieran presentar con la carga de controladores nativos en modo protegido.
+Sistema de archivos y nombres largos
+Con la entrada de los 32 bits en el acceso a ficheros, se pudo añadir al sistema el uso de nombres largos de archivos, que estaba disponible tanto para los programas del sistema como los de DOS arrancados bajo Windows, aunque los nombres largos no eran visualizados con los sistemas DOS compatibles de otras empresas, que necesitaban una actualización.
+En su primera versión Windows 95 utilizaba FAT16 como sistema de archivos, el cual era accesible con las versiones anteriores de MS-DOS.
+Más adelante, a partir de las versiones denominadas como OEM Service Release 2 (OSR2), se incluyó el sistema de archivos FAT32 el cual incluía como novedad el soporte de particiones mayores a 2 GiB.
+Requisitos mínimos
+Los requisitos oficiales que indicaba Microsoft eran los siguientes:
+PC con un procesador 486 DX4 o superior (se recomendaba Pentium)
+* Espacio en disco duro necesario normalmente para actualizarse a Windows 95: 35 a 40 MB.
+El requisito real varía, dependiendo de las características que elija instalar.
+* Espacio en disco duro necesario normalmente para instalar Windows 95 en un sistema limpio: 50 a 55 MB.
+El requisito real varía, dependiendo de las características que elija instalar.
+* Una unidad de disco de 3,5 pulgadas de alta densidad (instalación desde disquetes)
+Resolución VGA o superior (se recomienda SVGA de 256 colores)
+Estos requisitos estaban pensados para abarcar el mercado ya disponible de usuarios de Windows 3.x.
+Sin embargo esta configuración era totalmente insuficiente para el trabajo diario más allá del uso de una aplicación por estación de trabajo debido al constante uso de la memoria virtual.
+Incluso en algunas ocasiones, si se instalaba algún componente de red, el sistema se negaba a arrancar con 4 MiB de RAM.
+Finalmente, aunque Windows 95 se podía arrancar en un 386SX, el rendimiento era bastante bajo.
+Para alcanzar un rendimiento aceptable, Microsoft recomendaba un Intel 80486 o compatible con (al menos) 8 MiB de memoria RAM.
+Versiones
+Datos de las versiones
+;Windows 95 SP1 (4.00.950A):
+Este fue el primer service pack de Windows 95, el cual también tomó como nombre 4.00.950A, el año de salida de esta actualización fue 1996.
+El principal inconveniente de la versión era que no contenía Internet Explorer comparando con su versión predecesora.
+Esta versión tampoco tenía soporte nativo para USB ya que su hardware no lo soportaba y tampoco lo tenía instalado.
+Su soporte para FAT32 todavía era inexistente únicamente seguía soportando la lectura de archivos en FAT16 ya que ésta era la más utilizada en esa época.
+El soporte para UDMA que era la que soportaba ratios de transferencia de 33.3 Mbit/s que superaba a los anteriores estándares de discos duros para PC.
+;Windows 95 OSR 1:
+Esa fue la tercera versión de Windows 95 que significaba OEM Service Release 1.
+El acrónimo que complementa su nombre se debe a que nunca salió al mercado del público consumidor; más bien, Microsoft proveía de éste a los Fabricantes de Equipos Originales (OEM) para que lo incluyeran preinstalado.
+Su fecha de salida fue en el mismo año que el SP1 de Windows 95 que fue en 1996, esta versión sí contenía Internet Explorer y con una nueva versión llamada 2.0.
+Al igual que sus versiones antiguas, tampoco contaba con soporte para USB, pero tenía mejoras en el sentido del sistema ya que se habían arreglado algunos errores de sus anteriores versiones.
+Tampoco contaba con soporte para FAT32 ya que el sistema seguía reconociendo el FAT16 que seguía siendo el estándar a utilizar, al igual tampoco tenía soporte para la utilización de UDMA.
+Pero ya se tenía previsto que la siguiente versión de Windows 95 tendría muchas mejoras en el soporte para FAT32 Y UDMA.
+;Windows 95 OSR 2:
+Es la cuarta versión de Windows 95 que salió al mercado, también es conocida como la versión 4.00.1111 o como 4.00.950B. Salió al mercado en 1996, un año después que la versión inicial.
+Fue una versión que renovó por completo a Windows 95, algo que era muy criticado de las versiones anteriores era que se atascaba el sistema operativo cada cierto tiempo, esto fue mejorado y se podría decir que es tan estable como Windows 3.11.
+Esta versión incluía el explorador de Internet, diseñado por Microsoft, Internet Explorer 3.0, aún no contaba con soporte para USB, debido a que en la época que salió al mercado el USB no era popular.
+Es la primera versión de Windows con soporte para el sistema de archivos FAT32, además soportaba también UDMA.
+Esta versión no se distribuyó directamente al público, por lo que tuvo menos usuarios que las anteriores, la única forma de conseguirlo era comprando un equipo nuevo.
+;Windows 95 OSR 2.1:
+Es una versión que presentó pequeñas variantes con relación a la versión OSR2, al igual que la versión OSR2 salió al mercado en 1996 con el número de versión 4.03.1212.
+Debido a que es de las más modernas, posee pocos usuarios ya que al igual que su antecesora sólo se conseguía comprando un equipo nuevo.
+Una de sus principales características es el soporte de las últimas tecnologías existentes en 1996, tales como el procesador de Intel Pentium II, y ya no solo el 386DX y el 486.
+Igual a su versión anterior, incluyó el explorador de Internet Internet Explorer 3.0.
+Fue la primera versión de Windows con soporte para USB, además de soportar el sistema de archivos FAT32 y contar con el soporte para UDMA.
+También era compatible con AGP.
+Windows 95 OSR 2.5 C:
+Esta fue la última versión de Windows 95 que salió al mercado en 1997.
+Al igual que las anteriores era difícil de encontrar, pues solo se podía conseguir mediante equipos nuevos que la tuvieran preinstalada.
+Esta versión corrigió muchos errores encontrados en las anteriores, además incluía un soporte USB perfeccionado y ciertas mejoras en el rendimiento general del sistema, tiempo de arranque y apagado así como en seguridad.
+Es la versión más estable de Windows 95.
+Interfaz gráfica de usuario
+Windows 95 estrenaba una nueva interfaz de usuario más sencilla y potente que sus antecesores, convirtiendo al sistema operativo en menos de dos años en el de mayor éxito de todos los tiempos, a pesar de sus cuantiosos defectos.
+Con la instalación de Internet Explorer 4.0 se incluyó una actualización llamada Windows Desktop Update que una vez instalada confería a Windows 95 (y NT 4.0) una interfaz de usuario muy similar al que sería su sucesor, Windows 98.
+Esta actualización desapareció en las siguientes versiones de Internet Explorer.
+Salida al mercado
+Windows 95 salió al mercado con una fuerte campaña de marketing, incluyendo un anuncio publicitario con la canción de los Rolling Stones, "Start Me Up" .
+Los detractores de Microsoft se apresuraron en señalar que el segundo verso de la canción comenzaba con "you make a grown man cry" (haces llorar a un hombre), una línea que es repetida en varias ocasiones.
+La frase fue usada de forma humorística en muchas críticas de Windows 95.
+Se habla que Microsoft pagó a los Rolling Stones entre 8 y 14 millones de dólares aproximadamente para usar la canción, (que pertenece al álbum de 1981 Tattoo You) aunque la cantidad exacta se mantiene en secreto.
+La campaña publicitaria de Microsoft que costó unos 300 millones de dólares mostraba historias de personas haciendo colas en los exteriores de las tiendas, tan sólo para conseguir una copia.
+En Nueva York, el rascacielos Empire State se preparó para que se iluminara coincidiendo con los colores del logotipo de Windows.
+Mientras, en Toronto, colgaron un cartel de unos 100 metros representando a Windows en lo alto de la Torre CN.
+Y en el Reino Unido, The Times se distribuía gratuitamente porque Microsoft había comprado una tirada de 1,5 millones de ejemplares (el doble de los habituales en aquel momento).
+Windows 95 marca la introducción del botón Inicio y de la barra de tareas en la interfaz, los cuales aún siguen presentes hasta Windows 10.
+Plus!
+Plus! fue un paquete que creó Microsoft a modo de "addon" que incluía mejoras al sistema operativo sobre todo a nivel estético, de interfaz gráfica y de personalización.
+Véase también

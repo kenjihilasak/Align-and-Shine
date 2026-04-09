@@ -1,0 +1,13 @@
+In geometria, la semiretta è l'insieme formato da un punto su una retta data e una delle due parti in cui tale retta viene divisa dal punto.
+Una definizione formale è la seguente:
+dati due punti O e P esiste una retta r che li contiene, la semiretta definita da O e P è l'insieme dei punti della retta r compresi tra O e P (inclusi gli stessi punti O e P) e dei punti di r tali che P è compreso tra O e il punto considerato.
+Il punto O è detto punto d'origine della semiretta.
+Ogni semiretta è univocamente determinata dall'origine e da un qualunque suo altro punto.
+Preso un punto Q della retta r tale che O è compreso tra P e Q, si ha che O e Q definiscono un'altra semiretta detta semiretta opposta a r.
+Nel caso di un punto su una retta orientata è possibile dare la seguente definizione di semiretta:
+fissato un punto O su una retta orientata, si chiama semiretta il sottoinsieme della retta formato dal punto O e da tutti quelli che lo seguono (oppure che lo precedono, per ottenere la semiretta opposta).
+Spazi vettoriali
+Esiste una definizione più generale di semiretta valida in spazi vettoriali:
+Sia V uno spazio vettoriale su un campo ordinato.
+Preso comunque un vettore non nullo v\in V, una semiretta uscente dall'origine s è l'insieme dei multipli positivi di v più l'origine.
+Una semiretta è invece un qualunque insieme che sia il traslato (secondo un qualunque vettore u\in V) di una semiretta uscente dall'origine.

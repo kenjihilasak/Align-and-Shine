@@ -1,0 +1,23 @@
+Inverse
+Ne pas confondre avec Opposé !
+En mathématiques, l’inverse d’un nombre réelx{\displaystyle x} non nul est le nombre 1x{\displaystyle {\frac {1}{x}}}, aussi noté x−1{\displaystyle x^{-1}}. 0 n’a pas d’inverse car son calcul donnerait une division par zéro.
+La courbe représentative de la fonction inverse.
+On remarque que la fonction n’est pas définie en 0 et que la courbe a pour centre de symétrie l’origine du repère.
+La fonction inverse associe à un nombre réel x non nul son inverse.
+On peut donc dire que f est la fonction inverse définie sur ℝ* (tous les nombres réels sauf 0) par :
+Représentée dans un repère orthonormé, elle dessine une hyperbole.
+La fonction inverse est décroissante sur ]−∞;0[{\displaystyle ]-\infty ;
+0[} (tous les nombres réels négatifs sauf 0) et également décroissante sur ]0;+∞[{\displaystyle ]0;+\infty [} (tous les nombres réels positifs sauf 0).
+La fonction inverse est impaire, car pour tout x non nul, on a :
+Cela se traduit graphiquement : la courbe de la fonction inverse est symétrique par rapport à l’origine du repère.
+La dérivée de la fonction inverse est f′(x)=−1x2{\displaystyle
+f'(x)=-{\frac {1}{x^{2}}}}.
+La primitive de la fonction inverse est : F(x)=ln(x){\displaystyle F(x)=ln(x)}.
+L'inverse d'un nombre complexe z{\displaystyle z} s'écrit : 1z=z¯zz¯=z¯‖z‖2{\displaystyle {\frac {1}{z}}={\frac {\bar {z}}{z{\bar {z}}}}={\frac {\bar {z}}{\|z\|^{2}}}}.
+Comme z=a+ib{\displaystyle z=a+ib}, alors 1a+ib=a−ib(a+ib)(a−ib)=a−iba2+b2{\displaystyle {\frac {1}{a+ib}}={\frac {a
+ib}{(a+ib)(a
+ib)}}={\frac
+-ib}{a^{2}+b^{2}}}}.
+Une matrice A{\displaystyle A} est inversible si il existe une matrice B{\displaystyle B} qui est la matrice inverse de A{\displaystyle A} telle que B=A−1{\displaystyle B=A^{-1}}. En particulier, AB=BA=In{\displaystyle AB=BA=I_{n}}.
+Pour une matrice de taille 2×2{\displaystyle 2\times 2} telle que A=(abcd).{\displaystyle A={\begin{pmatrix}a&b\\c&d\end{pmatrix}}.}
+Si det(A)=ad−bc≠0{\displaystyle \det(A)=ad-bc\neq 0} (déterminant de la matrice A), alors la matrice A est inversible, et sa matrice inverse est alors A−1=1ad−bc(d−b−ca){\displaystyle A^{-1}={\frac {1}{ad-bc}}{\begin{pmatrix}d&-b\\-c&a\end{pmatrix}}}

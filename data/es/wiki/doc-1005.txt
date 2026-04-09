@@ -1,0 +1,166 @@
+En geometría euclidiana, la recta o la línea recta es una línea que se extiende en una misma dirección por lo tanto tiene una sola dimensión y contiene un número infinito de puntos.
+Dicha recta también se puede describir como una sucesión continua de puntos extendidos en una sola dirección.
+Es uno de los entes geométricos fundamentales, junto al punto y el plano.
+Son considerados conceptos apriorísticos ya que su definición solo es posible a partir de la descripción de las características de otros elementos similares.
+Un ejemplo de las dificultades de la definición de la recta a partir de puntos es la llamada paradoja de Zenón de la dicotomía que ilustraba la desaparición de la recta al dividirla en puntos porque luego no había un concepto para ensamblar dicha recta a partir de puntos ya que la unión de dos puntos es un punto.
+Las rectas se suelen denominar con una letra minúscula.
+En geometría analítica las líneas rectas en un plano pueden ser expresadas mediante una ecuación del tipo y = m x + b, donde x, y son variables en un plano cartesiano.
+En dicha expresión m es denominada la "pendiente de la recta" y está relacionada con la inclinación que toma la recta respecto a un par de ejes que definen el plano.
+Mientras que b es el denominado "término independiente" u "ordenada al origen" y es el valor del punto en el cual la recta corta al eje vertical en el plano.
+Definiciones y postulados de Euclides relacionados con la recta
+Euclides, en su tratado denominado Los Elementos, establece varias definiciones relacionadas con la línea y la línea recta:
+* Una línea es una longitud sin anchura (Libro I, definición 2).
+* Los extremos de una línea son puntos (Libro I, definición 3).
+Una línea recta es aquella que yace por igual respecto de los puntos que están en ella (Libro I, definición 4).
+Características de la recta
+* La recta se prolonga indefinidamente en ambos sentidos.
+* En geometría euclidiana, la distancia más corta entre dos puntos es la línea recta.
+* La recta puede definirse como el conjunto de puntos situados a lo largo de la intersección de dos planos.
+Semirrecta
+Se le llama semirrecta a cada una de las dos partes en que queda dividida una recta al ser cortada en cualquiera de sus puntos.
+Es la parte de una recta conformada por todos los puntos que se ubican hacia un lado de un punto fijo de la recta, denominado origen, a partir del cual se extiende indefinidamente en una sola dirección.
+Semirrecta opuesta
+La semirrecta opuesta de una semirrecta es la otra semirrecta salida de la recta que define la primera.
+donde \frac \! representa la pendiente de la recta y \frac \!
+señala la ordenada en el origen, datos suficientes para representar cualquier recta en el plano cartesiano.
+Ecuación normal de la recta (primera forma)
+La forma normal de la recta (Ecuación de Hesse):
+:x \ \cos\omega + y \ \sin\omega - d = 0 \!
+Siendo d el valor de la distancia entre la recta y el origen de coordenadas.
+El ángulo omega ω es el ángulo entre la perpendicular a la recta y la parte positiva del eje de ordenadas.
+Si en lugar del ángulo de la normal ω se emplea el ángulo de la recta α, entre la recta y el eje de las ordenadas:
+:x \ \sin\alpha - y \ \cos\alpha + d = 0 \!
+Siendo d el valor de la distancia entre la recta y el origen de coordenadas.
+El ángulo alfa α es el ángulo entre la recta y la parte positiva del eje de ordenadas, cuya tangente expresa el valor de la pendiente de la recta.
+Ecuación normal de la recta (segunda forma)
+Tomando el valor positivo o negativo de la raíz según corresponda.
+Haz de rectas que pasan por un punto
+Para determinar el haz de las rectas del plano que pasan por el punto P= (x_0, y_0) \, se usa la ecuación
+:y = m (x- x_0) + y_0 \, donde el parámetro m toma cualquier valor real
+Esta familia de rectas tiene la característica común la de pasar por el mismo puntos, P, con pendiente diferente.
+Recta que pasa por dos puntos
+Si pasa por dos puntos (x_1, y_1) y (x_2, y_2) , la ecuación de la recta puede expresarse como:
+y =
+\cfrac \; (x - x_1) + y_1
+Fórmulas para hallar "x" e "y" en una recta dada por coordenadas.
+Tenemos una recta \overline
+dada por dos puntos A (x_A;y_A)
+B (x_B;y_B)
+, de la cual queremos hallar x
+a lo largo de la misma.
+Obtenemos la pendiente m_\overline
+y utilizamos las fórmulas respectivas para hallarlas:
+m_\overline=
++x_A
+m_\overline (x-x_A)
++y_A
+Donde:
+: ordenada y abcisas a hallarse;
+x_A
+, y_A
+, x_B
+, y_B
+: ordenadas y abcisas respectivas de los puntos A y B de la recta \overline
+m_\overline
+: pendiente de la recta \overline
+Fórmulas para hallar el punto de intersección de dos rectas dadas por sus puntos de coordenadas.
+Para obtener las coordenadas del punto de intersección (x_I;y_I)
+de dos rectas
+\overline
+y \overline
+podemos utilizar las siguientes fórmulas.
+x_I=
+y_I=
+m_\overline (x_I-x_A)
++y_A
+Donde:
+x_I
+y y_I
+: ordenada y abcisas de la intersección.
+Recta que no pasa por el origen
+En coordenadas polares
+una recta que pasa a una distancia d > 0, tiene una ecuación dada por:
+Donde la pendiente de la recta viene dada por 1/\tan\theta_0.
+Rectas notables
+* La ecuación de una recta vertical responde a la ecuación general x = x_v (constante).
+* La ecuación de una recta horizontal responde a la ecuación general y = y_h (constante).
+* Una recta trigonoidal que pase por el origen O (0, 0), cumplirá la condición b
+0, siendo su ecuación: y
+(m) (x)\;.
+:: y = \left ( m_1 \right)\left ( x \right)+ b_1 \!
+:: y = \left ( m_2 \right)\left ( x \right)+ b_2 \!
+:serán paralelas si y solo si m_1
+m_2\;.
+Además, serán coincidentes cuando: b_1
+b_2\;
+:serán perpendiculares si y solo si m_1
+-1/ m_2\;, es decir: (m_1) (m_2)
+-1 \;
+Rectas en el plano como espacio vectorial y afín
+Mediante dos puntos del plano afín
+Dado dos puntos en el plano, P y Q, sobre una recta, se puede describir cada punto de ésta (es decir toda la recta) mediante la ecuación:
+: P + \lambda \vec donde \lambda puede tomar cualquier valor.
+Ejemplo
+Dados P
+y Q
+(3,5),
+entonces la recta son los puntos (x,y) tales que
+1+\lambda (3-1) y
+2+\lambda (5-2).
+Mediante un punto y un vector
+Dado un punto y un vector en el plano, P y \vec, queda totalmente definida una recta mediante la ecuación:
+: P + \lambda \vec donde \lambda puede tomar cualquier valor.
+Ejemplo
+Dados P
+y \vec
+(3,1) (llamado vector director),
+entonces la recta son los puntos (x,y) tales que
+5+\lambda (3) y
+-2 +\lambda (1).
+Rectas notables
+* La ecuación de una recta vertical poseería un vector director del tipo \vec= (0,1).
+* La ecuación de una recta horizontal poseería un vector director del tipo \vec= (1,0).
+* Una recta por el origen, es una recta que pasa por el origen de coordenadas con P= (0, 0)\in r.
+: P + \lambda_1 \vec
+: Q + \lambda_2 \vec
+:serán paralelas si y solo si \vec=\alpha \vec.
+:serán perpendiculares si y solo si \vec y \vec son perpendiculares, es decir su producto escalar es cero.
+Rectas como producto
+escalar
+Toda recta ya sea de forma implícita, explícita o vectorial se puede expresar como producto escalar de vectores:
+: (x,y)
+(b_x,b_y)+ \lambda (u_x,u_y) \Leftrightarrow \lambda
+\frac \;\;\;\;y \;\;\;\;
+\lambda
+\frac \Leftrightarrow \frac
+\frac \Leftrightarrow \frac+\frac
+\frac+\frac \Leftrightarrow (x,y)\cdot \begin \frac\\ \frac \end
+\frac+\frac
+es decir, renombrando las constantes:
+: (x,y)\cdot \begina\\ b\end = c
+Si (x,y)\perp (a,b) \Rightarrow c
+0 por tanto el vector (a,b) es perpendicular a la recta ax+by
+0 y a sus vectores directores, y por tanto a todas sus paralelas.
+Ecuación de la recta en el espacio
+Recta determinada mediante un sistema de ecuaciones
+Recta en el espacio usando un sistema de 2 ecuaciones y 3 incógnitas:
+\left \{
+\begin
+x & - y &+ 3z& =
+\end
+\right .
+* Esta ecuación equivale a la intersección de dos planos en el espacio.
+Recta determinada mediante vectores
+Recta en el espacio usando un punto, p
+(p_x,p_y,p_z), y un vector,
+(u_x,u_y,u_z):
+: (x,y,z)= (p_x,p_y,p_z)+\lambda (u_x,u_y,u_z)
+Posiciones relativas entre rectas
+* Dos rectas serán paralelas si tiene vectores directores paralelos.
+* Dos rectas serán coincidentes si comparten al menos dos puntos diferentes.
+* Dos rectas se intersecan si no son paralelas y tienen un punto en común.
+* Dos rectas serán coplanarias si están contenidas en algún plano.
+** Dos rectas son coplanarias si y solo si o bien son coincidentes o bien se intersecan o bien son paralelas.
+* Dos rectas se cruzan si no son paralelas ni tienen puntos comunes.
+Véase también
+Notas

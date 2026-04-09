@@ -1,0 +1,6 @@
+Base de données
+Pour que des données forment une base de données, l'ensemble doit avoir :
+une structure logique : il faut qu'il y ait des relations entre les différentes informations (l'organisation des données les divise en tables ou en objets avec des rapports entre eux) ;
+une structure physique : la manière et l'endroit où elles sont entreposées sont bien définis (dans la mémoire vive1, dans un ou plusieurs fichiers, dans un ou plusieurs disques durs, locaux ou reliés par un réseau...).
+↑Il
+est cependant rare qu'une base de données soit stockée dans la mémoire vive, ou alors seulement temporairement, car elle est volatile : les données ne sont pas gardées quand le courant électrique est coupé.

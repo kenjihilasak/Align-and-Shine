@@ -1,0 +1,238 @@
+Phishing is the fraudulent attempt to obtain sensitive information such as usernames, passwords and credit card details by disguising oneself as a trustworthy entity in an electronic communication.
+Typically carried out by email spoofing or instant messaging, it often directs users to enter personal information at a fake website which matches the look and feel of the legitimate site.
+Phishing is an example of social engineering techniques being used to deceive users.
+Users are often lured by communications purporting to be from trusted parties such as social web sites, auction sites, banks, online payment processors or IT administrators.
+Attempts to deal with phishing incidents include legislation, user training, public awareness, and technical security measures (the latter being due to phishing attacks frequently exploiting weaknesses in current web security).
+The word itself is a neologism created as a homophone of fishing.
+Technique
+Phishing types
+Spear phishing
+Phishing attempts directed at specific individuals or companies have been termed spear phishing.
+In contrast to bulk phishing, spear phishing attackers often gather and use personal information about their target to increase their probability of success.
+Threat Group-4127 (Fancy Bear) used spear phishing tactics to target email accounts linked to Hillary Clinton's 2016 presidential campaign.
+They attacked more than 1,800 Google accounts and implemented the domain to threaten targeted users.
+Whaling
+The term whaling refers to spear phishing attacks directed specifically at senior executives and other high-profile targets.
+In these cases, the content will be crafted to target an upper manager and the person's role in the company.
+The content of a whaling attack email may be an executive issue such as a subpoena or customer complaint.
+Clone phishing
+Clone phishing is a type of phishing attack whereby a legitimate, and previously delivered, email containing an attachment or link has had its content and recipient address (es) taken and used to create an almost identical or cloned email.
+The attachment or link within the email is replaced with a malicious version and then sent from an email address spoofed to appear to come from the original sender.
+It may claim to be a resend of the original or an updated version to the original.
+Typically this requires either the sender or recipient to have been previously hacked for the malicious third party to obtain the legitimate email.
+Link manipulation
+Most methods of phishing use some form of technical deception designed to make a link in an email (and the spoofed website it leads to) appear to belong to the spoofed organization.
+Misspelled URLs or the use of subdomains are common tricks used by phishers.
+In the following example URL, http:/ , it appears as though the URL will take you to the example section of the yourbank website; actually this URL points to the "yourbank" (i.e. phishing) section of the example website.
+Another common trick is to make the displayed text for a link (the text between the tags) suggest a reliable destination, when the link actually goes to the phishers' site.
+Many desktop email clients and web browsers will show a link's target URL in the status bar while hovering the mouse over it.
+This behavior, however, may in some circumstances be overridden by the phisher.
+Equivalent mobile apps generally do not have this preview feature.
+Internationalized domain names (IDN) can be exploited via IDN spoofing or homograph attacks, to create web addresses visually identical to a legitimate site, that lead instead to malicious version.
+Phishers have taken advantage of a similar risk, using open URL redirectors on the websites of trusted organizations to disguise malicious URLs with a trusted domain.
+Even digital certificates do not solve this problem because it is quite possible for a phisher to purchase a valid certificate and subsequently change content to spoof a genuine website, or, to host the phish site without SSL at all.
+Filter evasion
+Phishers have sometimes used images instead of text to make it harder for anti-phishing filters to detect the text commonly used in phishing emails.
+In response, more sophisticated anti-phishing filters are able to recover hidden text in images using OCR (optical character recognition).
+Website forgery
+Some phishing scams use JavaScript commands in order to alter the address bar of the website they lead to.
+This is done either by placing a picture of a legitimate URL over the address bar, or by closing the original bar and opening up a new one with the legitimate URL.
+An attacker can also potentially use flaws in a trusted website's own scripts against the victim.
+These types of attacks (known as cross-site scripting) are particularly problematic, because they direct the user to sign in at their bank or service's own web page, where everything from the web address to the security certificates appears correct.
+In reality, the link to the website is crafted to carry out the attack, making it very difficult to spot without specialist knowledge.
+Such a flaw was used in 2006 against PayPal.
+To avoid anti-phishing techniques that scan websites for phishing-related text, phishers sometimes use Flash-based websites (a technique known as phlashing).
+These look much like the real website, but hide the text in a multimedia object.
+Covert redirect
+Covert redirect is a subtle method to perform phishing attacks that makes links appear legitimate, but actually redirect a victim to an attacker's website.
+The flaw is usually masqueraded under a log-in popup based on an affected site's domain.
+It can affect OAuth 2.0 and OpenID based on well-known exploit parameters as well.
+This often makes use of open redirect and XSS vulnerabilities in the third-party application websites.
+Users may also be redirected to phishing websites covertly through malicious browser extensions.
+Normal phishing attempts can be easy to spot because the malicious page's URL will usually be different from the real site link.
+For covert redirect, an attacker could use a real website instead by corrupting the site with a malicious login popup dialogue box.
+This makes covert redirect different from others.
+For example, suppose a victim clicks a malicious phishing link beginning with Facebook.
+A popup window from Facebook will ask whether the victim would like to authorize the app.
+If the victim chooses to authorize the app, a "token" will be sent to the attacker and the victim's personal sensitive information could be exposed.
+These information may include the email address, birth date, contacts, and work history.
+Even if the victim does not choose to authorize the app, he or she will still get redirected to a website controlled by the attacker.
+This could potentially further compromise the victim.
+This vulnerability was discovered by Wang Jing, a Mathematics Ph.D. student at School of Physical and Mathematical Sciences in Nanyang Technological University in Singapore.
+Covert redirect is a notable security flaw, though it is not a threat to the Internet worth significant attention.
+Social engineering
+Users can be encouraged to click on various kinds of unexpected content for a variety of technical and social reasons.
+For example, a malicious attachment might masquerade as a benign linked Google doc.
+Alternatively users might be outraged by a fake news story, click a link and become infected.
+Voice phishing
+Not all phishing attacks require a fake website.
+Messages that claimed to be from a bank told users to dial a phone number regarding problems with their bank accounts.
+Once the phone number (owned by the phisher, and provided by a voice over IP service) was dialed, prompts told users to enter their account numbers and PIN.
+Vishing (voice phishing) sometimes uses fake caller-ID data to give the appearance that calls come from a trusted organization.
+Other techniques
+* Another attack used successfully is to forward the client to a bank's legitimate website, then to place a popup window requesting credentials on top of the page in a way that makes many users think the bank is requesting this sensitive information.
+* Tabnabbing takes advantage of tabbed browsing, with multiple open tabs.
+This method silently redirects the user to the affected site.
+This technique operates in reverse to most phishing techniques in that it does not directly take the user to the fraudulent site, but instead loads the fake page in one of the browser's open tabs.
+History
+1980s
+A phishing technique was described in detail in a paper and presentation delivered to the 1987 International HP Users Group, Interex.
+1990s
+The term "phishing" is said to have been coined by the well known spammer and hacker in the mid-90s, Khan C Smith.
+The first recorded mention of the term is found in the hacking tool AOHell (according to its creator), which included a function for attempting to steal the passwords or financial details of America Online users.
+Early AOL phishing
+Phishing on AOL was closely associated with the warez community that exchanged unlicensed software and the black hat hacking scene that perpetrated credit card fraud and other online crimes.
+AOL enforcement would detect words used in AOL chat rooms to suspend the accounts of individuals involved in counterfeiting software and trading stolen accounts.
+The term was used because "<> < was replaced for any wording that referred to stolen credit cards, accounts, or illegal activity.
+Since the symbol looked like a fish, and due to the popularity of phreaking it was adapted as "Phishing".
+AOHell, released in early 1995, was a program designed to hack AOL users by allowing the attacker to pose as an AOL staff member, and send an instant message to a potential victim, asking him to reveal his password.
+In order to lure the victim into giving up sensitive information, the message might include imperatives such as "verify your account" or "confirm billing information".
+Once the victim had revealed the password, the attacker could access and use the victim's account for fraudulent purposes.
+Both phishing and warezing on AOL generally required custom-written programs, such as AOHell.
+Phishing became so prevalent on AOL that they added a line on all instant messages stating: "no one working at AOL will ask for your password or billing information".
+A user using both an AIM account and an AOL account from an ISP simultaneously could phish AOL members with relative impunity as internet AIM accounts could be used by non-AOL internet members and could not be actioned ..
+In late 1995, AOL crackers resorted to phishing for legitimate accounts after AOL brought in measures in late 1995 to prevent using fake, algorithmically generated credit card numbers to open accounts.
+Eventually, AOL's policy enforcement forced copyright infringement off AOL servers, and AOL promptly deactivate accounts involved in phishing, often before the victims could respond.
+The shutting down of the warez scene on AOL caused most phishers to leave the service.
+2000s
+** The first known direct attempt against a payment system affected E-gold in June 2001, which was followed up by a "post-9/11 id check" shortly after the September 11 attacks on the World Trade Center.
+** The first known phishing attack against a retail bank was reported by The Banker in September 2003.
+** It is estimated that between May 2004 and May 2005, approximately 1.2 million computer users in the United States suffered losses caused by phishing, totaling approximately .
+United States businesses lose an estimated per year as their clients become victims.
+** Phishing is recognized as a fully organized part of the black market.
+Specializations emerged on a global scale that provided phishing software for payment (thereby outsourcing risk), which were assembled and implemented into phishing campaigns by organized gangs.
+** In the United Kingdom losses from web banking fraud-mostly from phishing-almost doubled to in 2005, from in 2004, while 1 in 20 computer users claimed to have lost out to phishing in 2005.
+** Almost half of phishing thefts in 2006 were committed by groups operating through the Russian Business Network based in St. Petersburg.
+** Banks dispute with customers over phishing losses.
+The stance adopted by the UK banking body APACS is that "customers must also take sensible precautions ... so that they are not vulnerable to the criminal."
+Similarly, when the first spate of phishing attacks hit the Irish Republic's banking sector in September 2006, the Bank of Ireland initially refused to cover losses suffered by its customers, although losses to the tune of €113,000 were made good.
+** Phishers are targeting the customers of banks and online payment services.
+Emails, supposedly from the Internal Revenue Service, have been used to glean sensitive data from U.S. taxpayers.
+While the first such examples were sent indiscriminately in the expectation that some would be received by customers of a given bank or service, recent research has shown that phishers may in principle be able to determine which banks potential victims use, and target bogus emails accordingly.
+** Social networking sites are a prime target of phishing, since the personal details in such sites can be used in identity theft; in late 2006 a computer worm took over pages on MySpace and altered links to direct surfers to websites designed to steal login details.
+** 3.6 million adults lost in the 12 months ending in August 2007.
+Microsoft claims these estimates are grossly exaggerated and puts the annual phishing loss in the US at .
+** Attackers who broke into TD Ameritrade's database and took 6.3 million email addresses (though they were not able to obtain social security numbers, account numbers, names, addresses, dates of birth, phone numbers and trading activity) also wanted the account usernames and passwords, so they launched a follow-up spear phishing attack.
+** The RapidShare file sharing site has been targeted by phishing to obtain a premium account, which removes speed caps on downloads, auto-removal of uploads, waits on downloads, and cool down times between uploads.
+** Cryptocurrencies such as Bitcoin facilitate the sale of malicious software, making transactions secure and anonymous.
+** In January 2009, a phishing attack resulted in unauthorized wire transfers of US$1.9 million through Experi-Metal's online banking accounts.
+In the 3rd Quarter of 2009, the Anti-Phishing Working Group reported receiving 115,370 phishing email reports from consumers with US and China hosting more than 25% of the phishing pages each.
+2010s
+In March 2011, Internal RSA staff were successfully phished, leading to the master keys for all RSA SecureID security tokens being stolen, then subsequently used to break into US defense suppliers.
+** Chinese phishing campaigns targeted Gmail accounts of highly ranked officials of the United States and South Korean governments and militaries, as well as Chinese political activists.
+According to Ghosh, there were "445,004 attacks in 2012 as compared to 258,461 in 2011 and 187,203 in 2010”.
+In August 2013, advertising service Outbrain suffered a spearphishing attack and SEA placed redirects into the websites of The Washington Post, Time, and CNN.
+In October 2013, emails purporting to be from American Express were sent to an unknown number of recipients.
+In November 2013, 110 million customer and credit card records were stolen from Target customers, through a phished subcontractor account.
+CEO and IT security staff subsequently fired.
+** By December 2013, Cryptolocker ransomware had infected 250,000 computers.
+According to Dell SecureWorks, 0.4% or more of those infected likely agreed to the ransom demand.
+In January 2014, the Seculert Research Lab identified a new targeted attack that used Xtreme RAT.
+This attack used spear phishing emails to target Israeli organizations and deploy the piece of advanced malware.
+Fifteen machines were compromised including ones belonging to the Civil Administration of Judea and Samaria.
+** In August 2014, the iCloud leaks of celebrity photos was found to be based on phishing e-mails sent to the victims that looked like they came from Apple or Google, warning the victims that their accounts might be compromised and asking for their account details.
+In November 2014, phishing attacks on ICANN gained administrative access to the Centralized Zone Data System; also gained was data about users in the system - and access to ICANN's public Governmental Advisory Committee wiki, blog, and whois information portal.
+**Charles H. Eccleston plead guilty in an attempted spear-phishing when he attempted to infect computers of 80 Department of Energy employees.
+** Eliot Higgins and other journalists associated with Bellingcat, a group researching the shoot down of Malaysia Airlines Flight 17 over Ukraine, were targeted by numerous spear phishing emails.
+** In August 2015, Cozy Bear was linked to a spear-phishing cyber-attack against the Pentagon email system causing the shut down of the entire Joint Staff unclassified email system and Internet access during the investigation.
+** In August 2015, Fancy Bear used a zero-day exploit of Java, in a spear phishing attack spoofing the Electronic Frontier Foundation and launching attacks on the White House and NATO.
+* In February, Austrian aerospace firm FACC AG was defrauded of 42 million euros ($47 million) through a BEC attack - and subsequently fired both the CFO and CEO.
+** Fancy Bear carried out spear phishing attacks on email addresses associated with the Democratic National Committee in the first quarter of 2016.
+** The Wichita Eagle reported "KU employees fall victim to phishing scam, lose paychecks"
+** Fancy Bear is suspected to be behind a spearphishing attack in August 2016 on members of the Bundestag and multiple political parties such as Linken-faction leader Sahra Wagenknecht, Junge Union and the CDU of Saarland.
+According to WADA, some of the data the hackers released had been forged.
+** Within hours of the 2016 U.S. election results, Russian hackers sent emails from spoofed Harvard University email addresses, using techniques similar to phishing to publish fake news targeted at ordinary American voters.
+In 2017, 76% of organizations experienced phishing attacks.
+Nearly half of information security professionals surveyed said that the rate of attacks increased from 2016.
+In the first half of 2017 businesses and residents of Qatar were hit with more than 93,570 phishing events in a three-month span.
+A phishing email to Google and Facebook users successfully induced employees into wiring money - to the extent of US$100 million - to overseas bank accounts under the control of a hacker.
+He has since been arrested by the US Department of Justice.
+In August 2017, customers of Amazon faced the Amazon Prime Day phishing attack, when hackers sent out seemingly legitimate deals to customers of Amazon.
+When Amazon's customers attempted to make purchases using the "deals", the transaction would not be completed, prompting the retailer’s customers to input data that could be compromised and stolen.
+In 2018, the company block.one, which developed the blockchain, was attacked by a phishing group who sent phishing emails to all customers, aimed at intercepting the user's cryptocurrency wallet key; and a later attack targetted airdrop tokens.
+Anti-phishing
+There are anti-phishing websites which publish exact messages that have been recently circulating the internet, such as FraudWatch International and Millersmiles.
+Such sites often provide specific details about the particular messages.
+As recently as 2007, the adoption of anti-phishing strategies by businesses needing to protect personal and financial information was low.
+Now there are several different techniques to combat phishing, including legislation and technology created specifically to protect against phishing.
+These techniques include steps that can be taken by individuals, as well as by organizations.
+Phone, web site, and email phishing can now be reported to authorities, as described below.
+User training
+People can be trained to recognize phishing attempts, and to deal with them through a variety of approaches.
+Such education can be effective, especially where training emphasises conceptual knowledge and provides direct feedback.
+Many organisations run regular simulated phishing campaigns targeting their staff to measure the effectiveness of their training.
+People can take steps to avoid phishing attempts by slightly modifying their browsing habits.
+When contacted about an account needing to be "verified" (or any other topic used by phishers), it is a sensible precaution to contact the company from which the email apparently originates to check that the email is legitimate.
+Alternatively, the address that the individual knows is the company's genuine website can be typed into the address bar of the browser, rather than trusting any hyperlinks in the suspected phishing message.
+Nearly all legitimate e-mail messages from companies to their customers contain an item of information that is not readily available to phishers.
+Some companies, for example PayPal, always address their customers by their username in emails, so if an email addresses the recipient in a generic fashion ("Dear PayPal customer") it is likely to be an attempt at phishing.
+Furthermore, PayPal offers various methods to determine spoof emails and advises users to forward suspicious emails to their spoof@ domain to investigate and warn other customers.
+However it is it unsafe to assume that the presence of personal information alone guarantees that a message is legitimate, and some studies have shown that the presence of personal information does not significantly affect the success rate of phishing attacks; which suggests that most people do not pay attention to such details.
+Emails from banks and credit card companies often include partial account numbers.
+However, recent research has shown that the public do not typically distinguish between the first few digits and the last few digits of an account number-a significant problem since the first few digits are often the same for all clients of a financial institution.
+The Anti-Phishing Working Group produces regular report on trends in phishing attacks.
+Technical approaches
+A wide range of technical approaches are available to prevent phishing attacks reaching users or to prevent them from successfully capturing sensitive information.
+Filtering out phishing mail
+Specialized spam filters can reduce the number of phishing emails that reach their addressees' inboxes.
+These filters use a number of techniques including machine learning and natural language processing approaches to classify phishing emails, and reject email with forged addresses.
+Web browsers such as Google Chrome, Internet Explorer 7, Mozilla Firefox 2.0, Safari 3.2, and Opera all contain this type of anti-phishing measure.
+Firefox 2 used Google anti-phishing software.
+Opera 9.1 uses live blacklists from Phishtank, cyscon and GeoTrust, as well as live whitelists from GeoTrust.
+Some implementations of this approach send the visited URLs to a central service to be checked, which has raised concerns about privacy.
+According to a report by Mozilla in late 2006, Firefox 2 was found to be more effective than Internet Explorer 7 at detecting fraudulent sites in a study by an independent software testing company.
+An approach introduced in mid-2006 involves switching to a special DNS service that filters out known phishing domains: this will work with any browser, and is similar in principle to using a hosts file to block web adverts.
+To mitigate the problem of phishing sites impersonating a victim site by embedding its images (such as logos), several site owners have altered the images to send a message to the visitor that a site may be fraudulent.
+The image may be moved to a new filename and the original permanently replaced, or a server can detect that the image was not requested as part of normal browsing, and instead send a warning image.
+Augmenting password logins
+The Bank of America website is one of several that asks users to select a personal image (marketed as SiteKey) and displays this user-selected image with any forms that request a password.
+Users of the bank's online services are instructed to enter a password only when they see the image they selected.
+However, several studies suggest that few users refrain from entering their passwords when images are absent.
+In addition, this feature (like other forms of two-factor authentication) is susceptible to other attacks, such as those suffered by Scandinavian bank Nordea in late 2005, and Citibank in 2006.
+A similar system, in which an automatically generated "Identity Cue" consisting of a colored word within a colored box is displayed to each website user, is in use at other financial institutions.
+Security skins are a related technique that involves overlaying a user-selected image onto the login form as a visual cue that the form is legitimate.
+Unlike the website-based image schemes, however, the image itself is shared only between the user and the browser, and not between the user and the website.
+The scheme also relies on a mutual authentication protocol, which makes it less vulnerable to attacks that affect user-only authentication schemes.
+Still another technique relies on a dynamic grid of images that is different for each login attempt.
+The user must identify the pictures that fit their pre-chosen categories (such as dogs, cars and flowers).
+Only after they have correctly identified the pictures that fit their categories are they allowed to enter their alphanumeric password to complete the login.
+Unlike the static images used on the Bank of America website, a dynamic image-based authentication method creates a one-time passcode for the login, requires active participation from the user, and is very difficult for a phishing website to correctly replicate because it would need to display a different grid of randomly generated images that includes the user's secret categories.
+Monitoring and takedown
+Several companies offer banks and other organizations likely to suffer from phishing scams round-the-clock services to monitor, analyze and assist in shutting down phishing websites.
+Individuals can contribute by reporting phishing to both volunteer and industry groups, such as cyscon or PhishTank.
+Individuals can also contribute by reporting phone phishing attempts to Phone Phishing, Federal Trade Commission.
+Phishing web pages and emails can be reported to Google.
+The Internet Crime Complaint Center noticeboard carries phishing and ransomware alerts.
+Transaction verification and signing
+Solutions have also emerged using the mobile phone as a second channel for verification and authorization of banking transactions.
+Multi Factor Authentication
+Organisations can implement two factor or multi-factor authentication (MFA), which requires a user to use at least 2 factors when logging in. .
+This mitigates some risk, in the event of a successful phishing attack, the stolen password on its own cannot be reused to further breach the protected system.
+However, there are several attack methods which can defeat many of the typical systems.
+MFA schemes such as WebAuthn address this issue by design.
+Email content redaction
+Organizations that prioritize security over convenience can require users of its computers to use an email client that redacts URLs from email messages, thus making it impossible for the reader of the email to click on a link, or even copy a URL.
+While this may result in an inconvenience, it does almost completely eliminate email phishing attacks.
+Limitations of technical responses
+An article in Forbes in August 2014 argues that the reason phishing problems persist even after a decade of anti-phishing technologies being sold is that phishing is "a technological medium to exploit human weaknesses" and that technology cannot fully compensate for human weaknesses.
+Legal responses
+On January 26, 2004, the U.S. Federal Trade Commission filed the first lawsuit against a suspected phisher.
+The defendant, a Californian teenager, allegedly created a webpage designed to look like the America Online website, and used it to steal credit card information.
+Other countries have followed this lead by tracing and arresting phishers.
+A phishing kingpin, Valdir Paulo de Almeida, was arrested in Brazil for leading one of the largest phishing crime rings, which in two years stole between and .
+UK authorities jailed two men in June 2005 for their role in a phishing scam, in a case connected to the U.S. Secret Service Operation Firewall, which targeted notorious "carder" websites.
+In 2006 eight people were arrested by Japanese police on suspicion of phishing fraud by creating bogus Yahoo Japan Web sites, netting themselves ().
+The arrests continued in 2006 with the FBI Operation Cardkeeper detaining a gang of sixteen in the U.S. and Europe.
+In the United States, Senator Patrick Leahy introduced the Anti-Phishing Act of 2005 in Congress on March 1, 2005.
+This bill, if it had been enacted into law, would have subjected criminals who created fake web sites and sent bogus emails in order to defraud consumers to fines of up to and prison terms of up to five years.
+The UK strengthened its legal arsenal against phishing with the Fraud Act 2006, which introduces a general offence of fraud that can carry up to a ten-year prison sentence, and prohibits the development or possession of phishing kits with intent to commit fraud.
+Companies have also joined the effort to crack down on phishing.
+On March 31, 2005, Microsoft filed 117 federal lawsuits in the U.S. District Court for the Western District of Washington.
+The lawsuits accuse "John Doe" defendants of obtaining passwords and confidential information.
+March 2005 also saw a partnership between Microsoft and the Australian government teaching law enforcement officials how to combat various cyber crimes, including phishing.
+Microsoft announced a planned further 100 lawsuits outside the U.S. in March 2006, followed by the commencement, as of November 2006, of 129 lawsuits mixing criminal and civil actions.
+AOL reinforced its efforts against phishing in early 2006 with three lawsuits seeking a total of under the 2005 amendments to the Virginia Computer Crimes Act, and Earthlink has joined in by helping to identify six men subsequently charged with phishing fraud in Connecticut.
+In January 2007, Jeffrey Brett Goodin of California became the first defendant convicted by a jury under the provisions of the CAN-SPAM Act of 2003.
+He was found guilty of sending thousands of emails to America Online users, while posing as AOL's billing department, which prompted customers to submit personal and credit card information.
+Facing a possible 101 years in prison for the CAN-SPAM violation and ten other counts including wire fraud, the unauthorized use of credit cards, and the misuse of AOL's trademark, he was sentenced to serve 70 months.
+Goodin had been in custody since failing to appear for an earlier court hearing and began serving his prison term immediately.

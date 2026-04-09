@@ -1,0 +1,82 @@
+File:
+PoliReg 02.svg|thumb|Pentagono regolare inscritto in una circonferenza.
+C = centro della circonferenza circoscritta,
+V = un vertice del poligono,
+L = un lato del poligono,
+d = una diagonale del poligono,
+r = un raggio della circonferenza circoscritta,
+a = un apotema del poligono.
+Un poligono regolare è un poligono convesso che è contemporaneamente equilatero (cioè ha tutti i lati congruenti fra loro) e equiangolo (cioè ha tutti gli angoli congruenti fra loro).
+Si tratta cioè di una porzione convessa di piano euclideo delimitato da una linea spezzata chiusa, formata da una successione di segmenti di uguale lunghezza (detti lati), che formano tra di loro angoli di uguale ampiezza.
+Il nome poligono individua una pluralità (poli) di angoli (gonos) e il termine regolare sottende a una loro uguaglianza.
+Come in ogni poligono, il numero di lati coincide con il numero degli angoli e con il numero di vertici, inoltre affinché la porzione di piano individuata da tale spezzata sia non nulla, vi devono essere almeno 3 lati.
+Un poligono regolare con 3 angoli si definisce triangolo equilatero, con 4 quadrato, con 5 pentagono regolare, con 6 esagono regolare, e si procede per n angoli anteponendo il prefisso che individua il numero di angoli al suffisso -gono seguito dal termine regolare al fine di marcare la distinzione con un poligono generico.
+Prime proprietà
+Ogni poligono regolare con n lati è inscrivibile e circonscrivibile in due circonferenze, infatti tracciando le bisettrici degli angoli interni si ottengono n triangoli isosceli tutti congruenti e con un vertice in comune, che risulta quindi essere il centro di tali circonferenze.
+Un poligono regolare è simmetrico rispetto a ogni retta passante per un vertice e il centro.
+Pertanto, vi sono esattamente n assi di simmetria;
+se poi il numero di lati n è pari, allora il centro è centro di simmetria per il poligono.
+Oltre a queste simmetrie, vi sono anche altre trasformazioni lineari che lasciano invariato il poligono, ossia le rotazioni rispetto al centro di angoli multipli di 360^\circ/n. L'insieme di tutte queste trasformazioni forma un gruppo, il gruppo diedrale di ordine 2n.
+Ogni angolo interno di un poligono ha ampiezza pari a \cdot 180^\circ,
+mentre ogni angolo esterno \gamma ha ampiezza
+\gamma
+180^\circ-
+\beta
+\frac=\alpha.
+Dato che il numero di angoli interni, esterni e al centro è sempre n, segue che la somma degli angoli interni è
+n\beta = \left (n-2\right)\cdot 180^\circ,
+mentre la somma di somma degli angoli al centro (o, equivalentemente, degli angoli esterni) è
+n\alpha
+n\gamma
+360^\circ.
+Apotema
+Ogni poligono regolare è inscrivibile e circonscrivibile in due circonferenze concentriche.
+Il raggio della circonferenza inscritta è detto apotema e, chiaramente, coincide con la distanza dal centro di un qualsiasi lato del poligono.
+È facile ricavare una relazione tra l'apotema e il raggio della circonferenza circoscritta.
+Infatti, dato che i lati uguali di ognuno degli n triangoli isosceli che compongono il poligono sono raggi della circonferenza circoscritta e che gli angoli alla base hanno ampiezza \beta/2, risulta che l'apotema (che coincide con l'altezza di tali triangoli) misura
+r\sin \frac
+r\sin \left (90^\circ-\frac\right)=r \, \cos \frac,
+ove r è il raggio della circonferenza circoscritta.
+Esprimendo l'apotema in funzione del lato l del poligono (nonché base del triangolo isoscele), si ha
+\frac
+l 2\tan\left (90^\circ-\frac\right)=\frac l 2\cot\frac.
+Da queste due equazioni si può anche ricavare il raggio della circonferenza circoscritta in funzione del lato:
+r = \frac l.
+Perimetro e area
+Il perimetro P_n è definito come la lunghezza della spezzata che delimita il poligono.
+Chiaramente risulta
+P_n = nl,
+o anche, usando le formule della sezione precedente,
+P_n
+2 n r\sin \frac
+2 n\tan \frac a.
+Per calcolare l'area di un poligono regolare è sufficiente moltiplicare per n l'area dei triangoli isosceli che lo compongono.
+Quindi, dato che tali triangoli hanno come base un lato e come altezza l'apotema, il poligono regolare di n lati ha area
+A_n
+n \frac2
+\frac4\cot\frac,
+o, equivalentemente,
+A_n
+n r^2\sin \frac \cdot \cos\frac
+\frac 2 \sin \frac = n \tan \frac a^2.
+Si noti che per n che tende all'infinito, l'area tende a
+\lim_ A_n = \pi r^2,
+perché
+\lim_ n\tan \frac = \pi,
+che non è altro che l'area del cerchio circoscritto, confermando così l'intuizione che al crescere del numero dei lati il poligono vada a "riempire" il cerchio circoscritto.
+Pentagono, esagono e decagono
+Nel libro XIII dei suoi Elementi, Euclide dimostra la seguente proposizione:
+Di questa proposizione Euclide dà una lunga spiegazione geometrica, ma qui ci limiteremo a una verifica ottenibile conoscendo la lunghezza dei lati e applicando il teorema di Pitagora.
+Ammesso che il cerchio in cui si inscrivono i poligoni abbia raggio unitario, le formule che esprimono le lunghezze del lato L_5 del pentagono, L_6 dell'esagono e L_ del decagono, sono le seguenti:
+Allora:
+\sqrt
+\sqrt
+\sqrt
+\sqrt
+\frac =
+L_5
+Quindi dato che la somma dei quadrati dei lati dell'esagono e del decagono dà il quadrato del lato del pentagono, ne consegue che il lato del pentagono è ipotenusa di un triangolo rettangolo i cui cateti sono i lati dell'esagono e del decagono.
+Tabella riepilogativa
+N.B.:
+Se si pensa a un poligono con un grandissimo numero di lati, l'angolo interno di quel poligono tende a diventare piatto, il lato tende a diventare nullo e l'area si avvicina di più a pi greco.
+Note

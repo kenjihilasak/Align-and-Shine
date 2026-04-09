@@ -1,0 +1,59 @@
+In fisica la convezione è un tipo di trasporto (di materia ed energia), assente nei solidi e trascurabile per i fluidi molto viscosi, causato da un gradiente di pressione e dalla forza di gravità e caratterizzato da moti di circolazione interni al fluido.
+Il moto convettivo risultante è uno stato di moto caratterizzato da un alto grado di miscelazione, che dipende dal regime idrodinamico:
+in particolare, in regime laminare il grado di miscelazione è più basso, mentre in regime turbolento il grado di miscelazione è maggiore, e di conseguenza i coefficienti di scambio sono più elevati.
+Convezione termica
+Nel caso in cui il moto convettivo sia associato ad uno scambio termico, si parla di convezione termica.
+La convezione termica è uno dei tre modi di trasmissione del calore (convezione, conduzione e irraggiamento).
+Dalla legge di conservazione dell'energia discende che il calore che un sistema cede (ad altri sistemi, al suo interno o all'ambiente circostante) è uguale a quello che l'altro riceve, e per il secondo principio della termodinamica spontaneamente il calore viene ceduto dal sistema a maggior temperatura verso quello a minore temperatura.
+Il fenomeno della convezione termica si ha quando un fluido (come l'acqua o l'aria) entra in contatto con un corpo la cui temperatura è maggiore di quella del fluido stesso.
+Aumentando di temperatura per conduzione, il fluido a contatto con l'oggetto si espande e diminuisce di densità, e a causa della spinta di Archimede sale essendo meno denso del fluido che lo circonda che è più freddo, generando così moti convettivi, in cui il fluido caldo sale verso l'alto e quello freddo scende verso il basso (convezione naturale).
+Trattazione del fenomeno fisico
+Consideriamo un sistema A in equilibrio termodinamico almeno locale.
+In A, allora, sarà definita la distribuzione di temperatura T (x,y,z,t), che supporremo differenziabile.
+Nell'intorno di ciascun punto di A sono definiti T e \nabla T. Sia S una superficie generica situata entro il nostro sistema A. Se la temperatura in A non è uniforme, la superficie S sarà attraversata da una potenza termica dovuta al gradiente di temperatura.
+Il fenomeno si chiama trasmissione del calore.
+Suddividiamo il sistema A in sottosistemi infinitesimi.
+Se tali sottosistemi sono in moto relativo la trasmissione del calore è detta convezione.
+Potenza termica scambiata fra una parete solida di confine e il fluido
+La potenza termica scambiata fra una parete solida di confine e il fluido può essere calcolata attraverso la legge di Fourier applicata alla parete:
+Q = -\lambda \cdot \iint_S \nabla T \cdot \hat ds
+dove \hat è il versore normale all'areola infinitesima ds e \lambda è il coefficiente di conduzione.
+Per calcolare la potenza termica scambiata Q, è necessario conoscere la distribuzione di temperatura nel fluido e per determinare quest'ultima è necessario risolvere il seguente sistema di equazioni differenziali:
+\frac+ \nabla (\rho \vec)=0
+\rho \frac=-\rho \vec (g z)- \vec p+ \mu \nabla^2 \vec+\frac \vec (\vec \cdot \vec)
+\frac=\mathcal D_Q\nabla^2 T
+dove \rho è la densità del fluido, \vec è il vettore velocità del fluido, g è l'accelerazione di gravità e \mathcal D_Q è la diffusività termica del fluido in questione.
+La prima è l'equazione di continuità e costituisce un bilancio locale di massa, la seconda è l'equazione di Navier-Stokes e costituisce un bilancio locale della quantità di moto (si noti che con la scrittura \frac si suole indicare la derivata materiale del vettore u), la terza è l'equazione di Fourier estesa alla convezione.
+Qualora le differenze di densità dovute a differenze di temperatura nel fluido abbiano un effetto trascurabile sul moto si parla di convezione forzata.
+In questo caso il moto è dovuto a cause esterne quali ventilatori, pompe o in generale differenze di pressione generate fuori dal dominio di studio.
+In questo caso è possibile porre la densità del fluido costante e risolvere così le prime due equazioni del sistema succitato e poi la terza.
+Se, al contrario, il moto è causato solo da differenze di densità dovute a differenze di temperatura, si parla di convezione naturale.
+Un terzo caso è quello di convezione mista che, come il nome suggerisce, il moto è dovuto sia a differenze di densità dovute a differenze di temperatura che a cause esterne.
+Nei casi di convezione naturale o mista non è possibile porre la densità \rho del fluido costante ed è necessario risolvere simultaneamente le tre equazioni differenziali scritte.
+Esempi
+Come esempio si può immaginare un sistema isolato dall'esterno, con due corpi a diverse temperature, quello più freddo in alto e quello più caldo in basso, separati da .
+In generale la convezione è qualsiasi flusso che:
+Il suolo della Terra viene riscaldato dai raggi del Sole per irraggiamento, il calore fa espandere l'aria che diventa meno densa e galleggia come una bolla verso l'alto, arrivando negli strati alti dell'atmosfera cede il suo calore ad altre masse d'aria, ovvero lo spazio esterno, si raffredda ed altre bolle che provengono dal basso la spingono di lato e comincia a scendere, questo movimento è un altro esempio di moto convettivo.
+Il Sole
+Il Sole è una massa di gas autogravitante, in equilibrio idrostatico, cioè in equilibrio tra la forza di gravità e la pressione.
+Nel suo interno l'energia sviluppata (calore) si propaga per convezione e anche per irraggiamento.
+Nelle regioni del Sole dove la temperatura è molto elevata la materia si riscalda notevolmente, quando la differenza di temperatura aumenta di valore succede la stessa cosa che avviene in una pentola colma d'acqua quando viene esposta al fuoco.
+Gli elementi fluidi si riscaldano e si dilatano, diventano più leggeri e salgono in superficie dove cominciano a raffreddarsi.
+Dopodiché ridiscendono verso il basso, e si hanno così i cicli convettivi, tramite i quali il calore viene trasportato dalle zone più calde a quelle più fredde ridistribuendo la temperatura, ed in questo modo avviene il meccanismo di trasporto del calore tipico dei mezzi fluidi.
+Nelle stelle più grandi la temperatura al centro è più elevata e l'energia è prodotta tramite il ciclo CNO, più energetica;
+questo porta a sviluppare un nucleo totalmente convettivo, dove gli stessi cicli miscelano gli elementi prodotti dalla reazione con quelli più esterni.
+Nel Sole appena attorno al nucleo, dove avvengono le reazioni di fusione, c'è uno strato di gas detto radiativo a sua volta circondato da uno strato chiamato zona convettiva di uno spessore di 150.000 km.
+Dalla zona radiativa l'energia viene trasportata attraverso i fotoni, che vengono trasferiti da uno ione ad un altro in un processo molto lento, di qualche milione di anni, e si muove verso l'esterno dove la temperatura del gas diminuisce;
+gli elettroni si ricombinano e possono così riassorbire un fotone e possono essere strappati di nuovo all'atomo:
+tutto ciò provoca un rallentamento della radiazione.
+Così si sviluppano moti convettivi nel gas, cioè bolle che si innalzano verso la superficie dove si raffreddano, provocando il trasferimento dell'energia che altrimenti resterebbe all'interno.
+Meteorologia
+In meteorologia e fisica dell'atmosfera esistono due tipi di convezione:
+la convezione naturale o libera che si instaura per differenze di temperatura tra le masse d'aria e l'aria circostante e la convezione forzata che si instaura su una massa d'aria per effetto ad esempio di un sollevamento orografico (stau) di una catena montuosa.
+In un temporale l'aria calda ed umida sale in un moto convettivo, quando arriva in una zona di pressione inferiore si raffredda e si espande;
+l'aria fredda non può trattenere tutta l'umidità dell'aria calda per cui l'acqua in più viene espulsa.
+Questa, a causa di un moto convettivo moderato forma le nuvole, ma quando l'acqua è in quantità eccessiva si ottiene la pioggia.
+Passando allo stato liquido, l'acqua si raffredda cedendo il calore fornitole in precedenza dal Sole per farne evaporare la massa e restituendo in questo modo energia all'aria.
+Come risultato l'aria che sale sarà più calda degli strati circostanti, per cui violentemente continuerà a salire.
+Note
+Bibliografia

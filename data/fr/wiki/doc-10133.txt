@@ -1,0 +1,145 @@
+Divisibilité
+et factorisation|Calcul numérique|Calcul informatique|Zéro
+La division par zéro consiste à chercher le résultat qu'on obtiendrait en prenant zéro comme diviseur.
+Ainsi, une division par zéro s'écrirait , où serait le dividende (ou numérateur).
+Dans les définitions usuelles de la multiplication, cette opération n'a pas de sens : elle contredit notamment la définition de la multiplication en tant que seconde loi de composition d'un corps, car zéro (l'élément neutre de l'addition) est un élément absorbant pour la multiplication.
+On déclare donc généralement qu'elle est impossible.
+D'une manière plus générale, c'est une expression signifiant une tâche impossible ou absurde.
+Dans les diverses branches des mathématiques
+L'infini
+La division par zéro donne l'infini.
+Cette convention a d'ailleurs été défendue par Louis Couturat dans son livre De l'infini mathématique.
+Cette convention est assez cohérente avec les règles de la droite réelle achevée, dans laquelle n'importe quel nombre, divisé par l'infini, donne 0.
+La convention de Louis Couturat est cependant assez difficile à comprendre.
+Elle donne l'infini non signé comme résultat de la division de tout nombre par 0.
+Or, l'infini non signé est un concept encore plus difficile à saisir que « plus l'infini » et « moins l'infini ».
+De plus, Couturat est assez flou sur le statut qu'il faut alors donner à des expressions comme .
+Abbas Edalat et Peter
+John Potts proposèrent pour leur part d'introduire en même temps que l'infini comme inverse de zéro un second élément, qui lui représente les formes indéterminées, y compris celles qui apparaissent à cause de l'introduction de l'infini.
+En fait, ces propositions sont postérieures aux conventions informatiques.
+En informatique
+pour le calcul en nombres flottants
+, c'est un tel système qui est utilisé, en utilisant dans le calcul les éléments , et NaN, ce dernier étant utilisé pour les formes indéterminées (voir #En informatique).
+Si l'on emploie une telle convention, il faut se souvenir que certaines propriétés des nombres réels ne sont plus vraies dans l'ensemble formé par les nombres réels et les nouveaux éléments introduits.
+En effet, comme on a pour deux nombres différents et les égalités et , la division n'est plus réversible par multiplication ( ne peut valoir simultanément et ), et n'est donc plus définie comme son opération réciproque.
+Il faut bien rappeler que par définition des nombres réels, l'infini, signé ou non, et les formes indéterminées n'en sont pas.
+L'ajout de ces éléments constitue donc une extension de l'ensemble des réels, comme l'est la construction des nombres complexes.
+Justification par les limites
+Mais en analyse, on peut essayer de donner un sens à la limite de la fonction inverse en 0, c'est-à-dire du quotient lorsque tend vers zéro.
+Ainsi, si désigne un nombre réel non nul, le quotient peut avoir une valeur absolue aussi grande qu'on veut, à condition de prendre suffisamment proche de zéro.
+On écrit cela :
+\lim_\left|\frac\right|=+\infty
+et on dit que la valeur absolue de ce quotient admet pour limite « plus l'infini »
+lorsque tend vers zéro.
+Si l'on veut se passer de la valeur absolue, il faut distinguer deux cas, selon que tend vers zéro par valeurs négatives (dans ce cas, le quotient tend vers \scriptstyle -\infty) ou positives (le quotient tend alors vers ).
+On écrit : \lim_\frac = +\infty,
+et : \lim_\frac = -\infty
+En termes vulgarisés, quand est très petit, est très grand, ce qui peut pousser à convenir que 1 0 vaudrait plus l'infini ou moins l'infini.
+Même dans la droite réelle achevée, qui comprend et comme éléments, on ne peut donc pas définir la division par zéro (alors que l'on a, par exemple, ).
+Analyse
+non standard
+Sans autoriser la division par zéro, les nombres hyperréels admettent des nombres « infiniment petits ».
+Dans ce domaine des mathématiques, un nombre infinitésimal (plus petit que tout réel positif, sauf 0) a pour inverse un « infiniment grand » (plus grand que tout réel).
+Algèbre
+En algèbre, l'impossibilité de diviser tout nombre par zéro se démontre dans le cadre plus général de la théorie des anneaux.
+En effet, on démontre en règle générale que l'élément neutre de la première loi de l'anneau (l'addition pour les nombres réels) est un élément absorbant pour la seconde loi (la multiplication).
+* Démonstration : \forall x,y \in A, x \times y
+x+0
+) \times y (
+parce que x
+x+0)
+et (x+0) \times y
+x \times y + 0 \times y (par distributivité à droite)
+, d'où
+x \times y
+x \times y + 0 \times y,
+d'où 0 = 0 \times y. De même pour l'autre côté
+si l'anneau n'est pas commutatif.
+Donc
+pour tout nombre
+, .
+Or, la division s'entend comme l'opération réciproque de la multiplication.
+Donc diviser par zéro reviendrait à multiplier par l'inverse de zéro.
+Or, zéro n'a pas d'inverse.
+C'est pourquoi la division par zéro n'a non seulement pas de sens dans les ensembles de nombres usuels (entiers, réels ou complexes), mais plus généralement dans tout ensemble de nombres vérifiant les propriétés algébriques usuelles vis-à-vis de l'addition et de la multiplication (ce qu'on appelle un anneau).
+Il n'y a donc pas d'espoir de construire un nouvel ensemble de nombres qui donnerait un sens à l'inverse de zéro (comme celui des nombres complexes donne un sens à la racine carrée de ), sauf si l'on accepte de perdre des propriétés essentielles du calcul algébrique usuel (notamment la distributivité de la multiplication sur l'addition).
+Pseudo-inverse
+Le problème général de la division impossible a amené en algèbre linéaire à inventer un objet conservant certaines propriétés de l'inverse : le pseudo-inverse.
+Dans le cas matriciel, la définition est la suivante :
+Étant donné une matrice A avec lignes et p colonnes, son pseudo-inverse A vérifie (entre autres
+, on ne met que les plus simples) les conditions suivantes :
+# A
+A^+A
+= A\, ;
+# A^+A
+A^+
+= A^+\,
+Donc
+, en considérant les nombres comme matrices à une seule ligne et une seule colonne, le pseudo-inverse de 0 est 0.
+Bien entendu, la notion de pseudo-inverse est beaucoup plus importante pour les matrices de taille supérieure.
+La définition d'un nouvel objet ne se justifierait pas pour donner seulement une réponse à la division par zéro pour les nombres réels.
+Analyse
+En analyse, dans certains cas, il est possible de calculer la limite d'un quotient dont le dénominateur est une suite ou une fonction de limite nulle.
+Par exemple, un cas évident est celui de la fonction f : x \longrightarrow \frac .
+En principe, on devrait dire que ne peut être calculé car implique une division par 0.
+Mais pour tout autre que 0, on peut simplifier l'expression en .
+Il est alors évident qu'on peut écrire ƒ (0) = 0 en tant que limite (valeur dont ƒ (x) devient « infiniment proche » quand devient « infiniment proche » de 0, pour donner une idée du concept).
+Bien entendu, le problème n'apparaît pas forcément en approchant la valeur 0 pour l'argument de la fonction.
+Par exemple, pour la fonction g : x \longrightarrow \frac
+, c'est quand vaut 3 qu'on a un problème de type « division par zéro ».
+Suivant les expressions que l'on trouve au numérateur et au dénominateur, une expression comprenant une division par zéro peut avoir pour limite 0, un autre nombre, +∞ (plus l'infini), -∞, ou ne pas avoir de limite.
+Quelques exemples :
+* f_1 : x \longrightarrow \frac a 0 pour limite en 0 (déjà vu)
+* f_2:
+x \longrightarrow \frac a \frac
+pour limite en 0 (exercice courant pour étudiants en mathématiques
+utilise
+le développement limité
+* f_3 :
+* f_4 :
+Comme piège de raisonnement
+Dans les pseudo-démonstration d'égalité entre nombres, la méthode la plus courante consiste à démontrer que , alors que c'est trivialement faux (exemple : , ) en démontrant en fait que (ce qui, on l'a dit plus haut, est vrai pour tous les nombres), puis en divisant par zéro des deux côtés pour simplifier (il est vrai que implique que pour tout nombre autre que 0).
+L'astuce consiste à compliquer les expressions de telles manières qu'on effectue la « simplification par zéro » en divisant par une expression si compliquée que le lecteur ne s'aperçoit pas qu'elle vaut 0.
+Tentatives plus poussées
+Le docteur en mathématiques Jesper Carlström a fait l'inventaire des méthodes proposées pour étendre les ensembles mathématiques en autorisant la division par zéro.
+En généralisant les constructions précédemment proposées, il obtient une structure appelée , c'est-à-dire «
+roue
+, allusion au fait que cette structure s'obtient en complétant un anneau.
+Comme déjà dit, l'ensemble autorisant la division par zéro n'est même plus un anneau.
+Et dans cet ensemble, si l'égalité reste vraie, cela ne signifie pas forcément que .
+Le professeur d'informatique
+James Anderson proposa pour sa part d'ajouter les deux infinis et un nouveau nombre appelé (qu'on obtient, par exemple, en faisant 0/0) pour autoriser la division par zéro dans tous les cas.
+Les critiques remarquèrent que cela revenait à peu près au même que la convention déjà utilisée en informatique (voir plus bas), à cela près que la réponse des ordinateurs pour une forme indéterminée, NaN (ce qui signifie : « pas un nombre ») est appelée un nombre, et que quelques-unes de ses propriétés conventionnelles changent.
+En informatique
+En informatique, suivant le standard IEEE 754, un résultat est prévu pour la division par 0.
+Tout nombre positif non nul divisé par 0 donne Inf (l'infini), tandis qu'un nombre négatif donne -Inf.
+Cependant il est aussi prévu que le diviseur ait une valeur de zéro, tout en ayant son signe négatif (-0).
+Dans ce cas, le signe de l'infini est inversé.
+Techniquement, cela vient du fait que dans le codage des nombres à virgule flottante en informatique, un bit indique si le nombre est positif ou négatif, les autres bits représentant la valeur absolue.
+En fait, excepté quand on calcule avec des nombres complexes, la division par zéro est quasiment le seul cas où la distinction +0/-0 prend une importance.
+De plus, il faut noter qu'on peut trouver zéro comme produit de deux nombres non nuls, s'ils sont si petits que leur produit est inférieur au plus petit nombre représentable, ou comme résultat d'autres opérations pour lesquelles la précision des nombres tels qu'évalués par l'ordinateur joue.
+La division par zéro en informatique peut donc se produire même quand le modèle prédit qu'une variable ne peut pas faire zéro.
+0/0 donne pour sa part NaN (, ce qui signifie en anglais « pas un nombre »), tout comme de multiplier Inf ou -Inf par 0, ou de soustraire Inf à Inf.
+Donc si on a quelque part effectué une division par zéro, on trouve ensuite souvent une variable qui vaut NaN.
+Ce qui arrive après une division par zéro dépend des choix faits par le programmeur, mais il est assez souvent préférable de prévoir que le programme interrompe son exécution dès qu'une variable vaut Inf, -Inf ou NaN, plutôt que de le laisser continuer à se dérouler en se basant sur de telles valeurs, qui sont relativement inutilisables pour prendre des décisions.
+Par exemple, supposons que l'on souhaite comparer deux nombres x et y ;
+on obtient en fait les quantités et .
+On les redivise par .
+Finalement, si valait en fait 0, on obtient NaN pour les deux valeurs, ce qui ne permet pas de déterminer laquelle des deux est la plus grande.
+Même si les ordinateurs ont des réponses conventionnelles pour ces comparaisons, il est souvent préférable que le programme envoie un message d'alerte pour signaler qu'en raison d'une division par zéro, les résultats sont inutilisables.
+D'autres calculateurs ont comme convention de renvoyer l'erreur spécifique «
+division par zéro
+C'est généralement le cas des calculatrices de poche.
+Exemple particulier, le logiciel de mathématiques Maple renvoie une erreur si la division est faite sous forme symbolique (par exemple ou ), mais « l'infini des flottants » (ou moins l'infini) si un des nombres est à virgule flottante.
+Certaines des plus grandes destructions de matériels causées par des plantages informatiques ont pour cause un comportement catastrophique en cas de division par zéro, parce que le programmeur pensait à tort que la variable utilisée comme diviseur ne vaudrait jamais 0.
+Annulation catastrophique
+Pour comprendre les raisons d'une division par zéro, il faut mentionner la notion d'« annulation catastrophique » ().
+Pour des nombres enregistrés dans la mémoire d'un ordinateur, on utilise généralement la représentation en virgule flottante.
+Or, cela signifie que les nombres ne peuvent être connus qu'avec une précision relative limitée.
+L'annulation catastrophique est la soustraction de deux nombres qui ne sont pas formellement égaux, mais le sont dans la limite de la précision utilisée.
+Donc
+, bien que d'un pur point de vue mathématique
+l'exponentielle d'un nombre strictement supérieur à 0 est strictement supérieure à 1, en informatique 1/ (exp (x)-1) provoquera une division par zéro, non seulement si x est nul, mais aussi quand x est non nul mais que exp (x) est un nombre trop peu différent de 1 pour être distingué en représentation flottante.
+Or en virgule flottante, la précision est relative.
+Ce qui signifie que ce format permet de représenter des nombres très petits (par exemple, le format « simple précision » permet de représenter des valeurs de l'ordre de 10-38), mais qu'il ne peut pas représenter une différence par rapport à 1 aussi faible .
+Voir aussi

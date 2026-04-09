@@ -1,0 +1,129 @@
+Code-barres|Code-barres
+Un code-barres, ou code à barres (CAB), est la représentation d'une donnée numérique ou alphanumérique sous forme d'un symbole constitué de barres et d'espaces dont l'épaisseur varie en fonction de la symbologie utilisée et des données ainsi codées.
+Il existe des milliers de codes-barres différents ;
+ceux-ci sont destinés à une lecture automatisée par un capteur électronique, le lecteur de code-barres.
+Pour l'impression des codes-barres, les technologies les plus utilisées sont l'impression laser et le transfert thermique.
+Histoire
+Le brevet initial date du 7 octobre 1952 (concernant un code à lignes verticales, mais aussi en forme de cible, ainsi que le système d'acquisition des données).
+Il a été déposé par deux étudiants américains, Norman Joseph Woodland et Bernard Silver, qui cherchaient une méthode pour automatiser l'enregistrement des produits des fabricants.
+Leur idée a consisté à combiner le système de sonorisation de films et le code morse.
+Il s'agissait ensuite de balayer le code avec une lumière pour traduire les barres verticales en informations.
+Ils ont également l'idée d'utiliser plutôt des cercles concentriques au lieu des lignes verticales afin de permettre la lecture du code dans toutes les orientations.
+L'utilisation courante n'interviendra cependant qu'à partir de 1973, à la suite de l'invention, le 7 octobre 1970 par George Laurer du code UPC (Universal Product Code, CUP en français).
+C'est à lui qu'on doit l'ajout de chiffres sous les barres verticales pour identifier le produit.
+Cette codification va dès lors supplanter les lignes concentriques, trop facilement illisibles en cas de bavures d'impression.
+La première utilisation de codes-barres a été l'étiquetage des wagons de train, mais ils n'ont pas été un succès commercial, jusqu'à ce qu'ils soient utilisés pour automatiser les activités des supermarchés au point de vente Commander Systems, une tâche dans laquelle ils sont devenus presque universels.
+Le premier produit doté d'un code-barres scanné à une caisse est un paquet de gomme à mâcher de la William Wrigley Jr.
+Company
+, le 26 juin 1974 dans la ville de Troy (Ohio).
+Leur usage s'est étendu à bien d'autres rôles, des tâches qui sont généralement qualifiées d'identification automatique et de saisie des données (
+Auto ID
+Data Capture :
+AIDC)
+D'autres tentent de faire des percées sur le marché AIDC, mais la simplicité, l'universalité et le faible coût des codes-barres ont limité leur pénétration.
+Aspects économiques
+Le coût unitaire de mise en œuvre d'un code-barres est environ 0,005 USD, donc nettement inférieur à celui d'une étiquette RFID (identification par radio-fréquence) qui est de l'ordre de 0,07 USD à 0,30 USD.
+Le coût de mise en œuvre comprend l'installation et l'achat de scanner, l'impression des codes-barres sur les produits.
+Conséquences
+L'arrivée du code barre dans les commerces a permis une réduction du temps de passage en caisse (donc des files d'attente moins longues) et l'augmentation du volume de vente.
+Cette augmentation a généré une baisse des prix pour le consommateur.
+De plus, cette invention a favorisé les entreprises qui proposaient de grandes quantités de produits, par rapport aux petits commerçants pour lesquels le passage au code barre n'était pas rentable à court terme en raison des coûts de mise en œuvre.
+Ce système permet l'enregistrement systématique des produits vendus, et empêche les malversations dans le cas où le vendeur ne déclarerait pas la transaction.
+Le code-barres a donc permis un suivi précis des stocks en temps réel ainsi que la diversification de l'offre, jusqu'alors matériellement complexe.
+Il a aussi marqué le début du traitement statistique des préférences des consommateurs, et l'arrivée des cartes de fidélités.
+On observe en effet une corrélation entre l'explosion de la grande distribution et la généralisation du code barre
+Types
+On distingue deux types généraux de codes-barres :
+* Unidimensionnel (1D) :
+ces codes sont ceux représentés par une série de lignes parallèles d'épaisseur variable.
+Leur lecture est unidimensionnelle.
+Selon la technologie de lecture utilisée, le décodage pourra se faire de façon unidirectionnelle ou bidirectionnelle afin de confirmer le premier décodage.
+* Bidimensionnel (2D)
+: ces codes utilisent une variété de symboles (rectangles, points, hexagones et autres formes géométriques).
+Cette forme matricielle permet d'enregistrer davantage d'informations.
+On distingue deux familles de codes 2D :
+Il s'agit de codes 1D empilés (Code 16k, PDF417, etc.).
+Ces codes peuvent aussi être lus par les lecteurs 1D en faisant un balayage du code.
+Il s'agit de codes dont les motifs constituent une forme souvent rectangulaire ou carrée qui ne peuvent être lus que par des technologies de prise de photos.
+Symbologies
+La symbologie est le système de transposition entre un texte et un code-barres.
+Cette transposition implique un codage, ainsi que des marqueurs de début et de fin de l'information.
+Quelques types de codes-barres unidimensionnels (1D) :
+* les codes
+barres
+EAN
+, Code Universel des Produits (CUP)
+* le (alias 2 parmi 7, 2 of 7, Ames
+Code, Rationalized Codabar) : format obsolète utilisé dans les bibliothèques
+* le et le :
+utilisé pour les magasins à rayons, les entrepôts et les inventaires
+Quelques types de codes-barres bidimensionnels (2D) :
+* le PDF-417 : Portable Data File, code avec une grande capacité de stockage
+* le Code 1 : de domaine public, utilisé pour les étiquettes médicales et l'industrie du recyclage
+* le DataMatrix surnommé Tag
+pour certaines applications
+* le DPM : Direct Part Mark, code
+DataMatrix
+gravé dans la matière comme le métal,
+le verre, le caoutchouc…
+* le MaxiCode : de domaine public
+, utilisé par United Parcel Service
+* le Bokode : code expérimental, prévu pour contenir beaucoup plus d’informations que les autres codes-barres tout en étant bien plus petit
+* le Code QR :
+Quick Response, conçu pour être décodé rapidement, stocker une grande quantité d'informations et être lu par plusieurs types d'appareils
+* le High Capacity
+Color
+Barcode : créé par Microsoft
+Les codes dits « postaux » :
+* codes
+à quatre états : Australia Post, British Post, Canada Post, Dutch Post, Infomail, , Japan Post, Swedish Post
+Usages généraux
+Les codes
+barres se retrouvent dans de nombreuses sphères de l'activité économique, principalement celles qui impliquent la circulation des biens et l'identification.
+Parmi les principaux usages de cette technologie, mentionnons :
+* Suivi des articles dans les magasins à rayons, les grands magasins, les marchés d'alimentation, etc., afin de mieux gérer les inventaires, la facturation et la comptabilité.
+* Suivi des envois postaux
+comme les colis ou les lettres recommandées.
+* Depuis 2005, plusieurs compagnies aériennes utilisent les codes-barres sur les cartes d'embarquement.
+* Codage d'hyperliens en code 2D pouvant être lus par un téléphone mobile, ce qui donne accès à une page web
+Lecture des codes
+barres
+Pour décoder un code-barres, il faut un lecteur relié à un ordinateur.
+Les premières technologies utilisaient le port RS-232, puis l'USB s'est imposé.
+La lecture se fait le plus souvent grâce à un rayon laser qui permet le déchiffrage des zones claires et sombres, et ainsi de l'information codée.
+On appelle zone de silence les marges situées autour du code et qui permettent au lecteur de trouver le début et la fin du code.
+Il existe 3 types différents de lecteurs de code-barres : les douchettes code-barres, les lecteurs portables de code-barres et les terminaux code-barres autonomes.
+Chacun d'entre eux correspond à un besoin et à un domaine d'activité spécifique.
+* Les douchettes code-barres sont utilisées principalement dans le domaine médical ainsi que par les petites et grandes surfaces commerciales.
+Appréciées pour leur rapidité et leur simplicité d'utilisation, les douchettes autotrigger sont connectées à un ordinateur et peuvent lire aussi bien les codes 1D (code-barres linéaires) que 2D (codes plus élaborés tels que les QR code).
+* Les lecteurs de code-barres portables sont utilisés régulièrement pour les inventaires en entrepôt et magasin, ou encore les services de poste.
+Ils sont parfaits pour une utilisation extérieure grâce à leur maniabilité et leur simplicité d'utilisation.
+Ces lecteurs portatifs peuvent aussi lire aussi bien les codes 2D que 1D.
+* Les terminaux code-barres autonomes sont les plus élaborés, en plus de scanner les codes 1D et 2D, ils analysent les données et les transmettent en réseau comme un mini-ordinateur le ferait.
+Parfaitement adaptés pour l'inventaire, l'audit et contrôle de prix ainsi que le merchandising, ces terminaux laser correspondent aux besoins des commerciaux en magasins, aux gestionnaires de stocks ainsi que les transporteurs.
+À l'exception de quelques code-barres spéciaux (par exemple les code-barres "presse" de la norme EAN 13), l'information relative au prix d'un produit n'est généralement pas codée directement dans le code-barres.
+Le prix est en effet stocké dans le fichier interne du magasin.
+La lecture du code-barres sur une borne-prix est reçue par le terminal du magasin qui en retour renvoie l'information correspondante.
+Évolution vers de nouveaux usages
+Au service des personnes handicapées
+Le code-barres peut faciliter l’accès à l’information par les personnes aveugles et, plus largement, par les personnes empêchées de lire les documents imprimés.
+Le principe est que la personne aveugle utilise un lecteur de code-barres pour lire les codes-barres standards apposés sur tous les articles du commerce et ainsi accéder à l’information relative aux produits.
+Combinée à la possibilité d’imprimer à bas coût des étiquettes ordinaires permettant de marquer toutes sortes d'objets et/ou documents personnels, cette utilisation des codes-barres permet aux personnes aveugles de
+* reconnaître les articles de consommation courante,
+* prendre en main leur santé (identification des boîtes de médicaments, accès aux données en ligne).
+Réalité augmentée
+Un des exemples d’utilisation en matière de réalité augmentée consiste, par exemple, à placer dans un livre des codes-barres 2D permettant d'accéder à des contenus complémentaires.
+Exemples de codes-barres
+Fichier:
+Datamatrix.png|Exemple d'un code-barres 2D DataMatrix ;
+le symbole code le texte
+Wikipédia,
+l'encyclopédie libre »
+Fichier
+Better Sample PDF417.png|Exemple de code PDF417.
+Fichier
+Qrcode wikipedia fr v2clean.png|Code QR codant http:/ tag.
+Fichier:
+Barcodedmail.
+JPG|Code
+barres sur un colis postal.

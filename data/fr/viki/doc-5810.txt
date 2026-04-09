@@ -1,0 +1,71 @@
+Nombre uniforme
+Tout entier naturel s'écrit de manière unique comme une séquence finie de chiffres.
+Un nombre uniforme est un entier qui ne s'écrit qu'avec un seul chiffre !
+Par exemple : 2 ;
+333 ;
+7 777 et 555 555 sont des nombres uniformes.
+Avec le seul chiffre 0, on ne peut former que 0 ;
+et par convention, on suppose que ce n'est pas un nombre uniforme.
+Les premiers entiers non nuls (1 ;
+2 ;
+3 ;
+4 ;
+5 ;
+6 ;
+7 ;
+8 et 9)
+sont des nombres uniformes.
+n'est pas un nombre uniforme.
+Les nombres uniformes sont des curiosités en arithmétique.
+Factoriser un entier »
+, c'est l'exprimer comme produit d'entiers strictement plus petits.
+Un nombre premier est un entier
+dont les seuls diviseurs sont 1 et lui-même.
+Ce sont des « briques élémentaires » des entiers.
+Chaque entier s'écrit comme un produit de nombres premiers : c'est sa factorisation.
+Voilà comment commence la factorisation des nombres uniformes à 8 chiffres :
+11 111 111 =
+22 222 222 =
+333 333 =
+44 444 444 =
+2×2×
+55 555 555 =
+66 666 666 =
+2×3×
+77 777 777 =
+88 888 888 =
+2×2×2×
+99 999 999 =
+3×3×
+On voit donc que, si on sait factoriser les nombres uniformes qui ne s'écrivent avec que des 1, alors on sait factoriser tous les nombres uniformes.
+On effectue la division euclidienne des nombres uniformes par 9.
+Le reste de la division d'un nombre uniforme par 9 est le reste de la division du nombre de chiffres par 9.
+Plus étonnant
+, les chiffres du quotient, suivis du reste, sont les premiers termes de la suite périodique :
+Attention !
+on évite intelligemment le 8 (très méchant chiffre).
+C'est une suite infinie de chiffres, périodique de période de longueur 9.
+Explication :
+Le problème est intéressant car on peut fournir différentes explications.
+Pourquoi les restes sont-ils les mêmes ?
+On considère un nombre uniforme qui ne s'écrit avec que des 1.
+On suppose qu'il possède au moins 3 chiffres.
+Si on lui soustrait un nombre à un chiffre, on modifie ses deux derniers chiffres :
+Somme des chiffres
+9 (-10)
+Si on effectue la division (euclidienne) du nombre de chiffres par 9, on obtient un reste.
+Si on soustrait ce reste au nombre uniforme, on obtient un nouvel entier.
+J'affirme que cet entier est divisible par 9.
+Pourquoi ?
+D'après le tableau ci-dessus, la somme de ses chiffres vaut le nombre de chiffres plus 9 moins le reste.
+Cette somme est divisible par 9.
+On applique le critère de divisibilité par 9.
+Détermination de proche en proche de la division
+On peut déterminer les nombres uniformes de proche en proche en multipliant par 10 et en ajoutant 1.
+On peut donc espérer déterminer de proche en proche le quotient et le reste de la division par 9.
+Cependant, le reste fois 10 plus 1 ne va pas donner un entier inférieur à 9.
+Division euclidienne
+Quotient
+Reste
+On voit que, au niveau des restes, un décalage vers la gauche apparait.
+Ça explique la périodicité observée.

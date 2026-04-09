@@ -1,0 +1,116 @@
+Codex|*|Histoire
+du livre
+Un codex (pluriel : codices) est un cahier formé de pages manuscrites reliées ensemble en forme de livre.
+Cet ancêtre du livre moderne a été inventé à Rome durant le et s'est répandu à partir du , pour progressivement remplacer le rouleau de papyrus (le volumen) grâce à son faible encombrement, son coût modéré, sa maniabilité et la possibilité qu'il offre d'accéder directement à n'importe quelle partie du texte.
+Origine et développement
+À l'origine, le codex
+- au pluriel «
+codices ».
+Au cours du , les Romains substituèrent aux planchettes de bois des feuilles de papyrus ou de parchemin, afin d'en faire un carnet de notes à usage personnel, ainsi que l'indique un témoignage d'Horace, pouvant être doté d'une couverture en cuir.
+L'utilisation de codex en tant que document officiel est attestée à la mort d'Auguste, en 14 ap.
+J.-C.
+Un an avant celle-ci, il avait déposé auprès des vestales quatre documents devant être lus au Sénat après sa disparition : testament, consignes funéraires et état de l'Empire pour les trois premiers, le contenu du quatrième étant discuté.
+Le tout était composé de deux codices (les testaments) et de trois volumina.
+C'est dans l'œuvre de Martial que l'on trouve trace, pour la première fois, de la publication d’œuvres littéraires (Homère, Virgile, Tite-Live, Ovide) sous cette forme.
+Martial publia en 84 ou en 85 ses Apophoreta, reprises dans le livre 14 selon le découpage moderne.
+Il s'agit de distiques qui décrivent des lots-cadeaux lors des saturnales, dont ce qui paraît bien être des codices : « Dans ces petits vélins est contenu le grand Tite-Live, que ma bibliothèque ne peut contenir tout entier » (XIV, 190).
+Par la suite, le codex sera adopté par les premiers chrétiens pour faire circuler les textes sacrés.
+Ce format permettait en effet de différencier le texte des évangiles des rouleaux sur lesquels les juifs écrivaient la Torah (Sefer Torah).
+D'autre part, le format codex est plus compact et plus économique, car il permet l'écriture des deux côtés de la feuille.
+Enfin, étant plus petit que le rouleau, il peut être plus facilement transporté par les missionnaires chrétiens.
+En somme, écrit Régis Debray :
+Même si le rouleau de papyrus (volumen) était depuis très longtemps le livre par excellence, il sera progressivement remplacé par le codex entre les et s. Cela n'a pas été sans heurts, car les ouvrages en format codex manquaient du prestige attaché aux objets du savoir et n'étaient pas considérés comme de vrais livres.
+Ainsi, au , un juge romain dut trancher un litige entre deux fils, dont l'un avait hérité les « livres » de son père : ce terme désignait-il les seuls rouleaux de papyrus ou englobait-il aussi les codex ?
+Le jugement qui en est résulté était très clair :
+Le remplacement du rouleau par le codex aura des conséquences majeures sur l'organisation du livre ainsi que sur la façon de lire, et il permettra le développement ultérieur de l'imprimerie.
+La principale révolution introduite par le codex est la notion de page.
+Grâce à elle, le lecteur peut accéder de manière directe à un chapitre ou à un passage du texte, alors que le rouleau impose une lecture continue :
+En outre, avec le codex, le rapport physique au livre se modifie radicalement.
+Le rouleau devait être tenu à deux mains, et le lecteur devait même parfois s'aider de son menton pour assurer le bon déroulement du volumen, laissant ainsi des marques qu'un poète latin juge dégoûtantes : Cela permet au lecteur de prendre un rôle plus dynamique :
+Le codex pouvant rester ouvert sur une table, il encourage le développement des enluminures.
+Au fil des siècles, le codex va évoluer et se donner peu à peu les attributs du livre moderne :
+La séparation entre les mots permet de passer du format compact, scriptural continua des premiers codex, où les lectures orales prédominaient, le lecteur ajoutait des pauses, en une forme plus lisible.
+Au , les moines irlandais n'arrivaient pas à lire le latin et commencèrent à séparer les mots les uns des autres.
+La ponctuation sert à structurer le texte pour améliorer sa lisibilité.
+Utilisant des signes graphiques, on voit apparaître les ancêtres du point, points-virgules et virgules (« point d'en haut », « point médian » et « point d'en bas » respectivement) au , définis par l'alphabet grec.
+Plus tard, au Moyen Âge, les ponctuations vont se peaufiner.
+* Le développement d'une écriture minuscule au lieu des lettres capitales ou de grand format, qui remplace au début du l'onciale par la minuscule caroline, écriture plus fine, d'exécution plus rapide et de lecture plus commode.
+La table des matières détaillant l'ensemble des parties et sous parties d'un texte.
+Au Moyen Âge, celle-ci était placée en début de livre mais il était rare d'en trouver.
+Le titre courant est un rappel du titre du livre, ou d'une partie du livre, sur les pages concernées.
+Son utilisation commence à se répandre au .
+* La marque de paragraphe se généralise à partir du .
+La pagination ou numérotation des pages se répand avec le développement de l'imprimerie, dès 1470.
+* L'index sert à retrouver un mot précis à l'intérieur d'un texte
+. C'est au que commence à se répandre cette technique, qui suppose une parfaite maitrise de l'orthographe.
+Il est en quelque sorte l'ancêtre du dictionnaire et deviendra plus tard le principe sur lequel se base toute recherche.
+* Page de titre.
+Lorsque l'on passe de l'ère du manuscrit à celle du livre imprimé, la page de titre fait finalement son apparition, vers 1475-1480.
+Le livre moderne a alors atteint sa forme familière.
+# définition de la taille de la frise
+ImageSize = width:550 height:150 # taille totale de l'image : largeur, hauteur
+PlotArea = width:450 height:95
+left:50 bottom:40
+# taille réelle de la frise au sein de l'image
+DateFormat = yyyy # format des dates utilisées
+Period = from:-200 till:2007 # laps de temps (de ... à ...)
+TimeAxis = orientation:
+horizontal # orientation de la frise (verticale ou horizontale)
+ScaleMajor = unit:year increment:200 start:0 # incrément temporel (majeur)
+# définition des données de la frise
+PlotData=
+# définition de la première barre : 45 pixels de large, etc.
+bar:livre color:yellow width:45 mark: (line,white) align:left fontsize:M
+from:
+start till:2007 shift: (-15,30)
+at:-200 mark: (line, black)
+shift: (0,30) textcolor:black fontsize:8 text:Papyrus
+at:0 mark: (line, black) shift: (0,30) textcolor:black fontsize:8 text:
+Parchemin
+at:1300 mark: (line, black) shift: (-15,30) textcolor:black fontsize:8 text:Papier
+at:1440 mark: (line, black)
+shift: (0,30) textcolor:black fontsize:8 text:Invention de la typographie
+bar:
+Evolution color:
+blue width:45 mark: (line,white) align:left fontsize:
+bar:
+Evolution color:blue from: start till: 0 shift: (-30,-60) textcolor:
+blue text:
+Volumen
+bar:
+Evolution color:red from: 0 till: 1440 shift: (-15,-60)
+textcolor:blue text:
+Codex / Manuscrit
+bar:
+Evolution color:green from: 1440 till: 1500 shift: (-15,-60) textcolor:green text:
+Incunable
+bar
+:Evolution color:orange from: 1500 till: 2007 shift: (-30,0)text:Livre actuel
+Extension du terme
+Par extension, le terme codex a été employé pour désigner des recueils de lois (comme le Codex Theodosianus) d'où le nom de Code employé aujourd'hui.
+Le codex comme objet est étudié par une science spécifique : la codicologie.
+Composition du codex
+Le codex se compose de cahiers résultant du pliage des feuilles dont il se compose.
+Le pli d'une feuille de parchemin (ou ultérieurement de papier) produit un bifeuillet, soit deux feuillets ou quatre pages.
+On parle alors d'un format in folio.
+Si le bifeuillet est à nouveau plié en deux, c'est un in-quarto (deux bifeuillets, quatre feuillets, huit pages), puis un (quatre bifeuillets, huit feuillets, seize pages) ou un in-duodecimo (six bifeuillets, douze feuillets, vingt-quatre pages).
+Après avoir obtenu le format souhaité, les bifeuillets, dont le bord a été découpé, sont éventuellement emboîtés les uns dans les autres, et réunis par un fil de couture.
+Deux bifeuillets produisent un binion, puis, respectivement un trinion, un quaternion (c'est le cas le plus fréquent pour les parchemins latins non italiens, et c'est de ce mot que dérive le terme cahier), quinion, sénion, septénion, octonion, puis cahier formé de neuf bifeuillets, etc.
+Le format est le plus souvent rectangulaire, mais à certaines époques il peut être carré.
+Au début, les cahiers sont cousus.
+Pour les gros ouvrages, on utilise comme reliure des pièces de bois, de carton ou d'autre matériau entre lesquelles sont assemblées les feuilles.
+Les codex mésoaméricains
+Les civilisations mésoaméricaines (Olmèques, Zapotèques, Mayas, Toltèques, Aztèques, etc.) ont inventé écriture et papier indépendamment de l'Eurasie.
+Les Aztèques produisaient un papier à base de liber de ficus nommé amatl, ce papier était nommé huun chez les Mayas.
+On parle aussi de codex pour désigner leurs ouvrages contenant dessins et légendes.
+Grâce à ces ouvrages, on peut suivre l'évolution au fil du temps de la graphie et de la sémiologie des Mayas et des Aztèques.
+Les codex asiatiques
+En Chine, les premiers livres, attestés
+jusqu'au sont faits
+d'étroites lattes de bois, larges de cinq à dix centimètres et longues de 30 à , sur lesquelles le scribe alignait les caractères verticalement, et qui étaient reliées en rouleau, qui se lisaient de droite à gauche
+Par la suite, ils sont remplacés par un rouleau composé de feuilles de papier ou, pour des ouvrages luxueux, par de la soie.
+À partir du , le développement de l'imprimerie entraînera l'abandon du rouleau au profit du codex, dont les cahiers, d'abord simplement encollés, seront cousus à partir du .
+L'unité de base du livre devient la feuille de papier.
+Avec la reliure en papillon, une seule face de la feuille est imprimée et celle-ci est pliée en deux, face vierge vers l'intérieur.
+Dans les ouvrages tibétains ou dongba, la reliure est située au sommet.
+Liste de codex en Occident

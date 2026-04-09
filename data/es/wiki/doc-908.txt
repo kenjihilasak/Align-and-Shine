@@ -1,0 +1,73 @@
+En informática, un puerto es una interfaz a través de la cual se pueden enviar y recibir los diferentes tipos de datos.
+La interfaz puede ser de tipo física (hardware) o puede ser a nivel lógico o de software, en cuyo caso se usa frecuentemente el término puerto lógico (por ejemplo, los puertos de redes que permiten la transmisión de datos entre diferentes computadoras).
+(1) conector Mini-DIN 6 para puerto PS 2 (violeta) de teclado.
+conector registered jack para puerto RJ-45 de red Ethernet.
+(4) dos puertos Universal Serial Bus (puerto serie) para conector USB tipo A hembra.
+(5) conector D-sub (DE-9M) para puerto COM (comunicaciones).
+(6) conector D-Sub (DB-25H) para puerto LPT (impresoras antiguas).
+(7) conector D-Sub (DE-15H) para puerto VGA.
+(8) conector D-Sub (DA-15H) para puerto MIDI.
+tres conectores jack de 3,5 mm para entrada/salida de audio (como altavoces, micrófono, parlantes, auriculares, etc).
+Se denomina “puerto lógico” a una zona o localización de la memoria de acceso aleatorio (RAM) de la computadora que se asocia con un puerto físico o un canal de comunicación, y que proporciona un espacio para el almacenamiento temporal de la información que se va a transferir entre la localización de memoria y el canal de comunicación.
+Puertos de Internet
+En el ámbito de Internet, un puerto es el valor que se usa, en el modelo de la capa de transporte, para distinguir entre las múltiples aplicaciones que se pueden conectar al mismo host, o puesto de trabajo.
+Aunque muchos de los puertos se asignan de manera arbitraria, ciertos puertos se asignan, por convenio, a ciertas aplicaciones particulares o servicios de carácter universal.
+De hecho, la IANA (Internet Assigned Numbers Authority) determina las asignaciones de todos los puertos comprendidos entre los valores 0, 1023 (hasta hace poco, la IANA sólo controlaba los valores desde el 0 al 255).
+Por ejemplo, el servicio de conexión remota telnet, usado en Internet se asocia al puerto 23.
+Por tanto, existe una tabla de puertos asignados en este rango de valores y que son los servicios y las aplicaciones que se encuentran en el listado denominado Selected Port Assignments.
+De manera análoga, los puertos numerados en el intervalo 1024, 65535 se pueden registrar con el consenso de la IANA, vendedores de software y otras organizaciones.
+Por ejemplo, el puerto 1352 se asigna a Lotus Notes también más conocido como posibles cambios sobre todo esta.
+Puerto serie
+El puerto serie por excelencia es el RS-232, que utiliza cableado simple desde 3 hilos hasta 25 y que conecta computadoras o microcontroladores a todo tipo de periféricos, desde terminales de computadoras a impresoras y módems, pasando por mouses.
+La interfaz entre el RS-232 y el microprocesador generalmente se realiza mediante el circuito integrado 82C50.
+El RS-232 original tenía un conector tipo D de 25 pines, sin embargo, la mayoría de dichos pines no se utilizaban por lo que IBM incorporó desde su PS/2 un conector más pequeño de solamente 6 pines, que es el que actualmente se utiliza.
+En Europa la norma RS-422, de origen alemán, es también un estándar muy usado en el ámbito industrial.
+Uno de los defectos de los puertos serie iniciales era su lentitud en comparación con los puertos paralelos, sin embargo, con el paso del tiempo, han ido apareciendo multitud de puertos serie con una alta velocidad que los hace muy interesantes ya que tienen la ventaja de un menor cableado y solucionan el problema de la velocidad con un mayor apantallamiento.
+Son más baratos ya que usan la técnica del par trenzado; por ello, el puerto RS-232 e incluso multitud de puertos paralelos están siendo reemplazados por nuevos puertos serie como el USB, el Firewire o el Serial ATA.
+Los puertos serie sirven para comunicar la computadora con la impresora, el ratón o el módem, sin embargo, el puerto USB sirve para todo tipo de periféricos, desde ratones a discos duros externos, pasando por conexiones bluetooth.
+Los puertos sATA (Serial ATA): tienen la misma función que los IDE, (a éstos se conecta, la disquetera, el disco duro, lector/grabador de CD y DVD) pero los sATA cuentan con una mayor velocidad de transferencia de datos.
+Un puerto de red puede ser puerto serie o puerto paralelo.
+Tipos de puertos
+PCI
+Los puertos PCI (Peripheral Component Interconnect) son ranuras de expansión de la placa base de la computadora en las que se pueden conectar tarjetas de expansión: de sonido, de vídeo, de red, etcétera.
+La ranura o slot PCI se sigue usando hoy en día y podemos encontrar bastantes componentes (la mayoría) en el formato PCI.
+Dentro de las ranuras PCI está el PCI-Express.
+Los componentes que suelen estar disponibles en este tipo de ranura son:
+PCI Exprés
+El PCI expréses un nuevo desarrollo del bus PCI que usa los conceptos de programación y los estándares de comunicación existentes, pero se basa en un sistema de comunicación serie mucho más rápido que PCI y AGP.
+Posee nuevas mejoras para la especificación PCIe 3.0 que incluye una cantidad de optimizaciones para aumentar la señal y la integridad de los datos, incluyendo control de transmisión y recepción de archivos, PLL improvements, recuperación de datos de reloj, y mejoras en los canales, lo que asegura la compatibilidad con las topolgías actuales.
+(anteriormente conocido por las siglas 3GIO, 3rd Generation I/O), este sistema es apoyado, principalmente, por Intel, que empezó a desarrollar el estándar con el nombre de proyecto Arapahoe después de retirarse del sistema Infiniband.
+Tiene velocidad de transferencia de 16x (8GB/s) y se utiliza en tarjetas gráficas.
+Puertos de memoria
+A estos puertos se conectan las tarjetas de memoria RAM.
+Los puertos de memoria son aquellos puertos, o bahías, donde se pueden insertar nuevas tarjetas de memoria, con la finalidad de extender la capacidad de la misma.
+Existen bahías que permiten diversas capacidades de almacenamiento que van desde los 256MB (megabytes) hasta 4GB (gigabytes).
+Conviene recordar que en la memoria RAM es de tipo volátil, es decir, si se apaga repentinamente la computadora los datos almacenados en la misma se pierden.
+Dicha memoria está conectada con la CPU a través de buses de muy alta velocidad.
+De esta manera, los datos ahí almacenados se intercambian con el procesador a una velocidad unas 1000 veces más rápida que con el disco duro.
+Puertos inalámbricos
+Las conexiones en este tipo de puertos se hacen sin necesidad de cables, a través de la conexión entre un emisor y un receptor, utilizando ondas electromagnéticas.
+Si la frecuencia de la onda, usada en la conexión, se encuentra en el espectro de infrarrojos se denomina puerto infrarrojo.
+Irda.jpg
+Bluetooth.svg|
+Wi-Fi Logo.svg|
+Puerto USB
+Un puerto USB permite conectar hasta 127 dispositivos y ya es un estándar en las computadoras de next gen, que incluyen al menos cuatro puertos USB 3.0 en los más modernos, y algún USB 1.1 en los más viejos.
+Además, están disponibles en los dispositivos móviles, en su versión Mini-USB y micro-USB.
+Es totalmente plug and play, es decir, con sólo conectar el dispositivo (con la computadora ya encendida), el dispositivo es reconocido e instalado de manera inmediata.
+Sólo es necesario que el sistema operativo lleve incluido el correspondiente controlador o driver.
+Presenta una alta velocidad de transferencia en comparación con otro tipo de puertos: USB 1.1 alcanza los 12 Mb s y dispositivos de alto consumo (hasta 500 mA).
+Para dispositivos que necesiten más de 500 mA será necesaria alimentación externa.
+Hay que tener en cuenta, además, que si se utiliza un concentrador y éste está alimentado, no será necesario realizar consumo del bus.
+Una de las limitaciones de este tipo de conexiones es que la longitud del cable no debe superar los 5 m y que este debe cumplir las especificaciones del estándard USB iguales para las versiones 1.1 y la 2.0.
+Véase también
+Puertos para teclado y ratón
+* DIN (Deutsches Institut für Normung, “Instituto Alemán de Normalización”)
+* PS 2)
+Puertos para audio, video o multimedia
+Puertos para redes
+** RS-232 (Recommended Standard 232), es un conector de tipo DB-25 o DE-9
+Puertos para unidades de almacenamiento
+* ATA o PATA (Advanced Technology Attachment o Parallel Advanced Technology Attachment)
+* SATA o Serial ATA (Serial Advanced Technology Attachment)
+Puertos de alimentación de energía

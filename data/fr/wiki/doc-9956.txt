@@ -1,0 +1,38 @@
+Microsoft Windows
+Le mode sans échec est un mode d'exécution proposé par certains systèmes d'exploitation qui permet de démarrer un ordinateur avec un nombre limité de programmes.
+Ce mode d'exécution est aussi proposé dans certains logiciels.
+À titre d'exemple, le mode sans échec de Mozilla Firefox permet d'exécuter le navigateur sans ses paramètres, thèmes ou extensions.
+Le mode sans échec
+Le mode sans échec est le mode de diagnostic de Microsoft Windows.
+Sous ce système d'exploitation, le mode sans échec est accessible, entre autres, via la touche F8 au démarrage de l'ordinateur.
+Lors du démarrage en mode sans échec, Windows ne charge que les programmes strictement nécessaires à son démarrage.
+Comme le système d'exploitation ne charge que les pilotes absolument nécessaires , certaines fonctions ne sont pas accessibles :
+* le système d'exploitation ne charge pas le pilote vidéo habituel, il charge un pilote vidéo de base, donc le mode sans échec a une basse résolution graphique ;
+l'aspect du bureau et des programmes est donc différent du mode normal ;
+* il ne charge pas non plus le pilote du modem donc il n'y a pas d'accès à Internet (sauf en mode sans échec avec prise en charge du réseau).
+* sur certaines versions de Windows, il ne charge même pas la souris, seul le clavier est disponible.
+Accéder au mode sans échec
+Il existe deux façons d'accéder au mode sans échec :
+Au démarrage de l'ordinateur
+C'est la technique la plus utilisée.
+Elle est relativement simple à utiliser et sans danger :
+* immédiatement après avoir appuyé sur le bouton d'alimentation, appuyez sur F8 ou sur F5 (avec une pression continue ou avec une frappe toutes les secondes) jusqu'à ce qu'une fenêtre noire affiche un choix de mode de démarrage ;
+* sélectionnez le mode sans échec (déplacez la sélection avec les flèches du clavier et sélectionnez avec la touche entrée) ;
+L'affichage est différent de l'affichage habituel, car ce n'est pas le pilote habituel qui est chargé par le système d'exploitation, mais plutôt un pilote de base.
+Via MSConfig
+Attention, cette seconde technique ne doit pas être utilisée si la machine est infectée ou si vous soupçonnez qu'elle le soit.
+L'infection Bagle, par exemple, casse les clés du mode sans échec, donc le système d'exploitation ne sait pas quelles clés charger et l'ordinateur redémarre en boucle.
+Pour y accéder :
+Une fois que vous avez fini avec le mode sans échec, refaites les mêmes étapes, mais cette fois-ci décochez l'option SAFEBOOT.
+À quoi sert le mode sans échec ?
+Le mode sans échec permet plusieurs choses :
+* supprimer un fichier qui ne peut être supprimé en mode normal, la plupart du temps ce genre de fichier héberge un logiciel malveillant qui empêche sa suppression ;
+en mode sans échec, le logiciel malveillant n'étant pas exécuté, il ne peut pas empêcher la suppression du fichier infecté ;
+* redémarrer si le mode normal « bogue » (fortes infections empêchant l'accès au mode normal)
+* réparer toute instabilité qui fait « boguer » le PC en mode normal (par exemple, à cause d'un logiciel récent mal installé).
+Voir aussi
+Liens externes
+* http:/
+article213-le-mode-sans-echec.html Description du mode
+sans échec de Microsoft Windows sur le site Dépanne ton PC
+oyy5qo9z61fd86dn5jls9261lk25y7x

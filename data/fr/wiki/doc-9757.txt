@@ -1,0 +1,93 @@
+Mathématiques élémentaires|Géométrie du triangle|Equilateral|Construction géométrique
+En géométrie euclidienne, un triangle équilatéral est un triangle dont les trois côtés ont la même longueur.
+Ses trois angles internes ont alors la même mesure de 60 degrés, et il constitue ainsi un polygone régulier à trois sommets.
+Tous les triangles équilatéraux sont semblables.
+Chaque triangle équilatéral est invariant par trois symétries axiales et deux rotations dont le centre est à la fois le centre de gravité, l'orthocentre et le centre des cercles inscrit et circonscrit au triangle.
+La figure du triangle équilatéral apparait dans de nombreux contextes mathématiques et culturels.
+Propriétés
+Angles
+À la différence des autres polygones, le triangle est une figure rigide, c'est-à-dire que la connaissance des longueurs des côtés détermine les mesures des angles internes, d'après le cas d'égalité des triangles issus des axiomes d'Euclide, ou sous une forme plus calculatoire avec le théorème d'Al Kashi
+En particulier, dans le cas du triangle équilatéral, l'égalité des longueurs des côtés implique que les trois angles internes ont la même mesure.
+Or la somme des angles d'un triangle vaut 180°, donc chaque angle interne vaut un tiers de cette somme, donc 60°.
+Éléments remarquables
+Comme un triangle équilatéral est isocèle en chacun de ses sommets, chaque médiane est aussi une hauteur, bissectrice, et portée par la médiatrice du côté opposé.
+Ce segment partage le triangle en deux triangles rectangles symétriques dont l'hypoténuse mesure le double d'un autre côté.
+En notant la longueur commune aux trois côtés, le théorème de Pythagore permet de montrer que cette hauteur mesure h
+a\frac\sqrt32, donc l'aire s'écrit \mathcal A
+\frac2=a^2\frac\sqrt34.
+Le périmètre s'écrit simplement .
+La superposition des droites remarquables implique que le centre de gravité, situé aux deux tiers de la médiane en partant du sommet, est aussi le centre du cercle circonscrit qui passe par chacun des trois sommets.
+Le rayon de ce cercle vaut donc R
+\frac23h
+\frac a\sqrt3
+Le cercle inscrit, de même centre, est tangent à chaque côté au bout d'un rayon qui lui est perpendiculaire, donc ce rayon est le dernier tiers de la médiane, et mesure r=\frac a.
+Le quotient de l'aire du disque inscrit dans un triangle équilatéral par l'aire du triangle est égal à ≈ 0,604 599 ().
+Symétries
+Les médiatrices des côtés sont des axes de symétrie du triangle équilatéral, et les composées de ces symétries définissent deux rotations de 120° autour du centre du triangle.
+Avec l'identité, on obtient 6 transformations qui constituent le groupe de symétrie du triangle équilatéral, isomorphe au groupe diédral D6, d'ordre 6.
+Parmi les triangles (non réduits à un point), seul les triangles équilatéraux admettent autant de symétries.
+Les sommets d'un triangle équilatéral peuvent être obtenus à partir de deux axes de symétries formant un angle de 60° et d'un point appartenant à un seul des deux axes.
+La réflexion de ce point par rapport au deuxième axe forme un deuxième sommet, qui donne lieu ensuite au troisième sommet après réflexion par rapport au premier axe.
+Cette construction est illustrée par le diagramme de Coxeter-Dynkin constitué de deux points (représentant chacun un axe) reliés par une arête (signifiant l'angle de 60°) avec un anneau autour du premier point (représentant le sommet initial).
+Le symbole de Schläfli indique simplement le nombre de côtés pour un polygone régulier.
+Caractérisation
+L'égalité des angles est caractéristique, c'est-à-dire que tout triangle équiangle (dont tous les angles internes ont la même mesure) est nécessairement équilatéral.
+D'autres caractérisations proviennent de problèmes d'optimisation pour lesquels le triangle équilatéral constitue la solution.
+Le triangle équilatéral maximise l'aire intérieure du triangle pour un périmètre fixé.
+Il maximise aussi le rapport entre l'aire du cercle inscrit et l'aire du triangle, et le rapport entre l'aire du triangle et celle du cercle circonscrit, et par conséquent aussi le rapport entre le rayon du cercle inscrit et celui du cercle circonscrit.
+Construction géométrique
+Pour construire un triangle équilatéral ayant pour côté un segment fixé à l'aide d'un compas, on peut :
+* adapter l'ouverture du compas à la largeur du segment ;
+* tracer deux arcs de cercle sécants en plaçant successivement la pointe du compas à chaque extrémité du segment
+* relier à la règle un point d'intersection des deux arcs aux deux extrémités du segment.
+Pour construire un triangle équilatéral inscrit dans un cercle, on peut :
+* adapter l'ouverture du compas au rayon du cercle ;
+* placer la pointe du compas en un point du cercle ;
+* tracer au compas deux arcs de cercle qui coupent le cercle initial en deux points distincts ;
+* relier à la règle les deux points d'intersection ainsi formés et les relier au point où avait été placée la pointe du compas
+Occurrences
+Les triangles équilatéraux peuvent être trouvés dans de nombreuses constructions géométriques (voir par exemple GeoGebra).
+Trois des cinq solides de Platon sont composés de triangles équilatéraux.
+En particulier, les quatre faces du tétraèdre régulier sont des triangles équilatéraux.
+Plus généralement, les 2-faces des simplexes réguliers en plus grande dimension comme le pentachore sont des triangles équilatéraux.
+Image:
+Tetrahedron.jpg|Tétraèdre régulier
+Image
+Octahedron.jpg|Octaèdre régulier
+Image
+Icosahedron.jpg|Icosaèdre régulier
+Le triangle équilatéral constitue une tuile du pavage triangulaire.
+En particulier, six triangles équilatéraux peuvent composer un hexagone régulier inscrit dans le cercle unité, ce qui permet de démontrer l'inégalité \pi > 3.
+Deux triangles équilatéraux symétriques par rapport à leur centre commun forment un hexagramme.
+Image:
+Tiling 3.svg|Pavage triangulaire
+Image:
+Regular polygon 6 annotated.svg|Hexagone de périmètre 6 inscrit dans le cercle unité de longueur 2π
+Image:
+Cross graph 3.svg|Hexagramme inscrit dans un hexagone
+La forme du triangle équilatéral est utilisée pour figurer les nombres triangulaires et pour disposer les coefficients binomiaux du triangle de Pascal.
+Image:
+First six triangular numbers.svg|Premiers nombres triangulaires
+Image:3-Pascal.png|Premières lignes du triangle de Pascal
+Image:
+PascalungeradeDreieckeGleichseitig.svg|Marquage de la parité des termes du triangle de Pascal, faisant apparaitre un triangle de Sierpiński
+Le motif géométrique apparait aussi dans la construction du triangle de Sierpiński et du flocon de Koch.
+Image:
+Koch Snowflake 0th iteration.svg|Triangle initial
+Image:
+Koch Snowflake 1st
+iteration.svg|Première étape de construction du flocon de Koch
+Image:
+Koch Snowflake 2nd iteration.svg|Deuxième étape
+Image:
+Koch Snowflake 3rd iteration.svg|Troisième étape
+Image:
+Koch Snowflake 4th iteration.svg|Quatrième étape
+Les racines troisièmes de l'unité 1, \mathrm et \overline forment un triangle équilatéral dans le plan complexe.
+Le théorème de Morley est un résultat permettant de trouver un triangle équilatéral dans n'importe quel triangle.
+Tout triangle « est » équilatéral, c'est-à-dire que tout triangle (non dégénéré) du plan affine est équilatéral pour un certain produit scalaire (unique à un multiple positif près).
+Dans la culture
+* Plusieurs sites archéologiques ont des triangles équilatéraux dans leur construction, par exemple Lepenski Vir en Serbie.
+La figure apparaît également dans l'architecture moderne, comme dans le .
+Le triangle équilatéral a une signification mystique, étant une représentation de la trinité chrétienne dans et faisant partie du Tetraktys, figure utilisée par les Pythagoriciens.
+* Dans la signalisation routière, les panneaux d'avertissement de danger et ceux de cédez-le-passage ont une forme de triangle équilatéral, respectivement avec un sommet en haut et un sommet en bas.

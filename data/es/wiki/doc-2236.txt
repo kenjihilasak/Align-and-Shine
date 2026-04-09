@@ -1,0 +1,164 @@
+El teorema de Pitágoras establece que en todo triángulo rectángulo, el cuadrado de la longitud de la hipotenusa es igual a la suma de los cuadrados de las respectivas longitudes de los catetos.
+Es la proposición más conocida entre las que tienen nombre propio en la matemática.
+Si en un triángulo rectángulo hay catetos de longitud a \, y b \,, y la medida de la hipotenusa es c \,, entonces se cumple la siguiente relación:
+De esta ecuación se deducen fácilmente tres corolarios de verificación algebraica y aplicación práctica:
+Historia
+El teorema de Pitágoras fue comprobado en el siglo VI a.C. por el filósofo y matemático griego Pitágoras, pero se estima que pudo haber sido previo a su existencia, o demostrado bajo otra denominación.
+Respecto de los babilonios hay esta nota:
+El teorema de Pitágoras tiene este nombre porque su demostración, sobre todo, es esfuerzo de la escuela pitagórica.
+Anteriormente, en Mesopotamia y el Antiguo Egipto se conocían ternas de valores que se correspondían con los lados de un triángulo rectángulo, y se utilizaban para resolver problemas referentes a los citados triángulos, tal como se indica en algunas tablillas y papiros.
+Sin embargo, no ha perdurado ningún documento que exponga teóricamente su relación.
+La pirámide de Kefrén, datada en el siglo XXVI a. C., fue la primera gran pirámide que se construyó basándose en el llamado triángulo sagrado egipcio, de proporciones 3-4-5.
+Designaciones convencionales
+Demostraciones
+El teorema de Pitágoras es de los que cuenta con un mayor número de demostraciones diferentes, utilizando métodos muy diversos.
+Una de las causas de esto es que en la Edad Media se exigía una nueva demostración del teorema para alcanzar el grado de "Magíster matheseos".
+Algunos autores proponen hasta más de mil demostraciones.
+Otros autores, como el matemático estadounidense E. S. Loomis, catalogó 367 pruebas diferentes en su libro de 1927 The Pythogorean Proposition.
+En ese mismo libro, Loomis clasificaría las demostraciones en cuatro grandes grupos: las algebraicas, donde se relacionan los lados y segmentos del triángulo; geométricas, en las que se realizan comparaciones de áreas; dinámicas a través de las propiedades de fuerza, masa; y las cuaterniónicas, mediante el uso de vectores.
+China: El Zhoubi Suanjing y el Jiuzhang Suanshu
+El Zhoubi Suanjing es una obra matemática de datación discutida en algunos lugares, aunque se acepta mayoritariamente que fue escrita entre el 500 y el 300 a. C. Se cree que Pitágoras no conoció esta obra.
+En cuanto al Jiuzhang Suanshu parece que es posterior, está fechado en torno al año 250 a.
+El Zhou Bi demuestra el teorema construyendo un cuadrado de lado (a+b) que se parte en cuatro triángulos de base a y altura b, y un cuadrado de lado c.
+;Demostración
+Sea el triángulo rectángulo de catetos a y b e hipotenusa c. Se trata de demostrar que el área del cuadrado de lado c es igual a la suma de las áreas de los cuadrados de lado a y lado b. Es decir:
+: a^2 + b^2 = c^2\,
+Si añadimos tres triángulos iguales al original dentro del cuadrado de lado c formando la figura mostrada en la imagen, obtenemos un cuadrado de menor tamaño.
+Se puede observar que el cuadrado resultante tiene efectivamente un lado de b - a.
+Luego, el área de este cuadrado menor puede expresarse de la siguiente manera:
+: (a-b)^2 = a^2 - 2ab + b^2 \,
+Ya que (b-a)^2 = (a-b)^2 \, .
+Es evidente que el área del cuadrado de lado c es la suma del área de los cuatro triángulos de altura a y base b que están dentro de él más el área del cuadrado menor:
+:c^2
+4 \cdot \left ( \frac \right) + a^2 - 2ab + b^2
+a^2 + b^2
+Con lo cual queda demostrado el teorema.
+Demostraciones supuestas de Pitágoras
+Se estima que se demostró el teorema mediante semejanza de triángulos: sus lados homólogos son proporcionales.
+Sea el triángulo ABC, rectángulo en C. El segmento CH es la altura relativa a la hipotenusa, en la que determina los segmentos a’ y b’, proyecciones en ella de los catetos a y b, respectivamente.
+Los triángulos rectángulos ABC, AHC y BHC tienen sus tres bases iguales: todos tienen dos bases en común, y los ángulos agudos son iguales bien por ser comunes, bien por tener sus lados perpendiculares.
+En consecuencia dichos triángulos son semejantes.
+y dos triángulos son semejantes si hay dos o más ángulos congruentes.
+:\frac =\frac
+:b^2\ =\ b'c
+:\frac =\frac
+:a^2\ =\ a'c
+Los resultados obtenidos son el teorema del cateto.
+Sumando:
+:a^2\ +\ b^2
+a'c\ +\ b'c\
+\ c\left (a'+b'\right )
+Pero \left (a'+b'\right )=\ c, por lo que finalmente resulta:
+:a^2\ +\ b^2 =c^2
+Pitágoras también pudo haber demostrado el teorema basándose en la relación entre las superficies de figuras semejantes.
+Los triángulos PQR y PST son semejantes, de manera que:
+:\frac
+\frac
+siendo r la razón de semejanza entre dichos triángulos.
+Si ahora buscamos la relación entre sus superficies:
+:S_\ =\ \frac \left ( rs \right )
+:S_\ =\ \frac \left ( uv \right )
+obtenemos después de simplificar que:
+:\frac
+\frac
+\frac \cdot \frac
+pero siendo \frac
+\frac
+r la razón de semejanza, está claro que:
+:\frac
+\left (\frac \right )
+\left ( \frac \right )
+Es decir, "la relación entre las superficies de dos figuras semejantes es igual al cuadrado de la razón de semejanza".
+Aplicando ese principio a los triángulos rectángulos semejantes ACH y BCH tenemos
+que:
+:\frac = \left (\frac \right )^2
+que de acuerdo con las propiedades de las proporciones da:
+:\frac
+\frac
+\frac (I)
+y por la semejanza entre los triángulos ACH y ABC resulta que:
+:\frac = \left (\frac \right )^2
+:\frac = \frac
+pero según (I) \frac = \frac , así que:
+: \frac = \frac
+y por lo tanto:
+: b^2 \ +\ a^2 \ = \ c^2
+quedando demostrado el teorema de Pitágoras.
+Es asimismo posible que Pitágoras hubiera obtenido una demostración gráfica del teorema.
+Partiendo de la configuración inicial, con el triángulo rectángulo de lados a, b, c, y los cuadrados correspondientes a catetos e hipotenusa -izquierda-, se construyen dos cuadrados diferentes:
+* Uno de ellos -centro- está formado por los cuadrados de los catetos, más cuatro triángulos rectángulos iguales al triángulo inicial.
+* El otro cuadrado -derecha- lo conforman los mismos cuatro triángulos, y el cuadrado de la hipotenusa.
+Si a cada uno de estos cuadrados les quitamos los triángulos, evidentemente el área del cuadrado gris (c^2) equivale a la de los cuadrados amarillo y azul (b^2+a^2), habiéndose demostrado el teorema de Pitágoras.
+Demostración de Euclides: proposición I.47 de Los Elementos
+El descubrimiento de los números irracionales por Pitágoras y los Pitagóricos supuso un contratiempo muy serio.
+De pronto, las proporciones dejaron de tener validez universal, no siempre podían aplicarse.
+La demostración de Pitágoras de su teorema se basaba muy probablemente en proporciones, y una proporción es un número racional.
+¿Sería realmente válida como demostración?
+Ante esto, Euclides elabora una demostración nueva que elude la posibilidad de encontrarse con números irracionales.
+El eje de su demostración es la proposición I.47 de Los Elementos:
+Basándose en la proposición I.41 de Los Elementos, que equivale a decir que a igual base y altura, el área del paralelogramo dobla a la del triángulo, (véase Figura Euclides 1).
+Se tiene el triángulo ABC, rectángulo en C (véase Figura Euclides 3), y se construye los cuadrados correspondientes a catetos e hipotenusa.
+La altura CH se prolonga hasta J. Seguidamente se traza cuatro triángulos, iguales dos a dos:
+* Triángulos ACK y ABD: son iguales, pues siendo los lados AD y AC iguales y perpendiculares; y siendo AB y AK también iguales y formando igual ángulo que AD y AC, necesariamente el ángulo DAB es igual al ángulo CAK, por lo que BD=KC.
+Sus tres lados son iguales.
+* Triángulos ABG y CBI: análogamente, BA
+BI, y BG
+BC, así que AG=IC.
+Sus tres lados son asimismo iguales.
+Abundando en las anteriores consideraciones, nótese que un giro con centro en A, y sentido positivo, transforma ABD en ACK.
+Y un giro con centro en B, y sentido también positivo, transforma ABG en CBI.
+En la demostración de Leonardo da Vinci se encontrará nuevamente con giros que demuestran la igualdad de figuras.
+Véase (en la Figura Euclides 3) que:
+# Las paralelas r y s comprenden al triángulo ACK y el rectángulo AHJK, los cuales tienen la misma base, AK.
+Por tanto de acuerdo con la proposición I.41 de Los Elementos, AHJK tiene doble área que ACK, (véase Figura Euclides 1).
+Las paralelas m y n contienen a ABD y ADEC, cuya base común es AD
+Así que el área de ADEC es doble de la de ABD.
+Pero siendo ACK=ABD, resulta que el rectángulo AHJK y el cuadrado ADEC tienen áreas equivalentes.
+Haciendosé razonamientos similares con los triángulos ABG y CBI, respecto al cuadrado BCFG y al rectángulo HBIJ respectivamente, se concluye que éstos últimos tienen asimismo áreas iguales.
+A partir de lo anterior, surge de inmediato que: «la suma de las áreas de los cuadrados construidos sobre los catetos, es igual al área del cuadrado construido sobre la hipotenusa».
+Demostración de Pappus
+Unos 625 años después que Euclides, Pappus parece seguir su senda, y desarrolla una demostración del teorema de Pitágoras basada en la proposición I.36 desarrolló una demostración del teorema de Pitágoras publicada en el New England Journal of Education.
+Garfield construye un trapecio de bases a y b, y altura (a+b), a partir del triángulo rectángulo de lados a, b y c. Dicho trapecio resulta compuesto por tres triángulos rectángulos: dos iguales al dado, y un tercero, isósceles de catetos c. En consecuencia:
+como corresponde a la superficie del trapecio, pero asimismo tenemos una figura compuesta por tres triángulos, dos de ellos iguales, de modo que:
+igualando la ecuación con la obtenemos:
+: (ab) + \frac = \frac (a+b) \cdot (a+b)
+multiplicando ambos lados por 2 y simplificando...
+:2 a b+c^2= (a+b)^2\,
+expandiendo el miembro derecho...
+:2 a b+c^2=a^2+2 a b+b^2\,
+restando 2ab a ambos miembros, finalmente nos da:
+y el teorema está demostrado.
+Prueba mediante un geoplano
+Es posible, más que una demostración de carácter genérico, la comprobación de la justeza de la proposición mediante un geoplano, únicamente para casos especiales y concretos, previamente conocidos.
+Proposición recíproca del teorema de Pitágoras
+Si en un triángulo ABC, siendo el lado mayor a se cumple que a^2 =b^2+c^2 entonces el triángulo es rectángulo.
+Ejemplos de uso
+* Para calcular la longitud e de una escalera; se conoce la altura h del muro a alcanzar; la distancia p desde la línea suelo muro al pie de la escalera.
+Se cumple la ecuación e^2
+h^2 + p^2 ; se despeja el valor de e, mediante e
+\sqrt.
+En la geometría analítica plana, para hallar la distancia entre los puntos C (x_1, y_1) , D (x_2, y_2) con la igualdad CD^2 = (x_2 -x_1)^2+ (y_2 -y_1)^2.
+En trigonometría para demostrar la identidad fundamental \sen^2\alpha +\cos^2\alpha = 1 entre el seno y coseno.
+* En la geometría para calcular la altura de un triángulo equilátero en función del lado; para obtener la altura del tetraedro regular usando la arista.
+Para hallar el apotema de un triángulo equilátero y de un hexágono regular inscritos, conociendo el radio de la circunferencia circunscrita.
+* En teoría algebraica de números para analizar si un entero gaussiano es primo gaussiano.
+Por ejemplo \alpha
+1+4i, cuya norma es N (\alpha)
+1^2+4^2 = 17.
+Véase también
+Notas
+Bibliografía
+* (1958).
+Diálogos.
+Menexenos-Menon-Kratilos-Faidros.
+Madrid: Ediciones Ibéricas.
+* , Paul (1999).
+Pitágoras y su teorema.
+Madrid: Siglo XXI de España Editores.
+* , Elisha Scott (1940).
+The Pythagorean Proposition.
+Míchigan: NCTM.
+* , Pedro Miguel (2001).
+Pitágoras.
+El filósofo del número.
+Madrid: Nivola.

@@ -1,0 +1,29 @@
+Número compuesto es cualquier número natural no primo, a excepción del 1.
+Es decir, tiene uno o más divisores distintos a 1 y a sí mismo.
+También se utiliza el término divisible para referirse a estos números.
+Los 30 primeros números compuestos son: 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30, 32, 33, 34, 35, 36, 38, 39, 40, 42, 44 y 45.
+Características
+Una característica es que cada uno puede escribirse como producto de dos naturales menores que él.
+Así, el número 20 es compuesto porque puede expresarse como 4×5; y también el 87 ya que se expresa como 3×29.
+Sin embargo, no es posible hacer lo mismo con el 17 ó el 23 porque son números primos.
+Cada número compuesto se puede expresar como multiplicación de dos (o más) números primos específicos, cuyo proceso se conoce como factorización.
+El número compuesto más pequeño es el 4.
+La forma más sencilla para probar que un número n es compuesto, es encontrar un divisor d comprendido entre 1 y n (1 < d < n).
+Por ejemplo, 219 es compuesto porque tiene a 3 por divisor.
+Y también 371 porque tiene a 7 por divisor.
+Sin embargo, este método deja de ser efectivo para números que son producto de primos grandes.
+Una buena alternativa es utilizar entonces el pequeño teorema de Fermat, o mejor la generalización de este teorema debida al matemático suizo Leonhard Euler.
+Como los números primos y compuestos están entremezclados unos con otros es lógico preguntarse si existirán secuencias de números compuestos consecutivos de longitud arbitraria.
+La secuencia 32, 33, 34, 35 y 36 es un ejemplo de longitud 5, y 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125 y 126 un ejemplo de longitud 13.
+La respuesta es que podemos conseguir una secuencia de números compuestos tan larga como se desee.
+Si deseamos una secuencia de longitud 20, basta tomar los números 21!+2, 21!+3, 21!+4, ... , 21!+21, ya que el primero es divisible por 2, el segundo por 3, etcétera.
+Un teorema de Fermat afirma que si p es primo de la forma 4n+1, entonces se da un caso de exclusión simple, que puede expresarse de forma única como suma de dos cuadrados.
+Si un número de la forma 4n+1 puede expresarse como suma de dos cuadrados de dos formas diferentes al menos, entonces el número es compuesto.
+Euler halló un método de factorización a partir de este hecho.
+Por ejemplo, si
+Tomando mcd (14+11, 10+5)
+mcd (25,15)
+34, entonces mcd (221, 34)
+17 nos da el factor que buscamos.
+El 1 y el 0 son casos especiales y no se consideran ni primos ni compuestos.
+Véase también

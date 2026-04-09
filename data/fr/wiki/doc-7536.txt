@@ -1,0 +1,74 @@
+Courrier électronique
+Une adresse électronique, adresse courriel ou adresse e-mail est une chaîne de caractères permettant d'acheminer du courrier électronique dans une boîte aux lettres informatique.
+Histoire
+Le courrier électronique s'est développé dans un contexte où seuls les caractères latins non accentués bénéficiaient d'une standardisation numérique universellement reconnue.
+En février 2012, cette limitation fut révisée par le .
+Format
+Généralités
+Les adresses de courrier électronique utilisées sur Internet sont codées dans un nombre très limité de caractères, sous-ensemble de l'ASCII.
+Un codage spécial appelé en utilisant uniquement les caractères autorisés.
+Elles sont constituées des trois éléments suivants, dans cet ordre :
+* une partie locale, identifiant généralement une personne (lucas, Jean.
+Dupont, joe123) ou un nom de service (info, vente, postmaster) ;
+* le caractère séparateur @ (arobase), signifiant at (« à » ou «
+chez ») en anglais ;
+* l'adresse du serveur, généralement un nom de domaine identifiant l'entreprise hébergeant la boîte électronique ( , , ).
+Le nom de domaine sert
+à identifier
+le serveur de messagerie auquel doit être acheminé un message via le protocole Simple Mail Transfer Protocol (SMTP).
+La transformation du nom de domaine en adresse IP se fait grâce au système de résolution de noms DNS.
+La partie locale est quant à elle spécifique à ce serveur et identifie la boîte en tant que telle.
+Comme deux personnes peuvent avoir le même nom et habiter dans la même rue mais dans des villes différentes, la même partie locale peut exister sur deux serveurs différents, mais identifier des adresses totalement différentes telles que joe25317@ et joe25317@ .
+L'interprétation de cet identificateur est faite librement par le serveur.
+Par exemple, c'est le serveur qui décide s'il distingue les majuscules des minuscules.
+Le signe point « .
+» n'a pas de signification particulière et est traité comme tout autre caractère.
+Des liens vers des adresses électroniques peuvent être insérés dans des pages web grâce au protocole mailto des URL.
+Pour préciser le destinataire, on indiquera le nom du destinataire suivi de l'adresse électronique entourée par des chevrons.
+Exemple :
+Marc Dupont
+Plusieurs adresses électroniques peuvent être placées sur une même ligne et séparées par des points-virgules.
+Exemple :
+Marc Dupont ;
+hddp@ ;
+Pete
+Un alias (adresse électronique) est un système qui permet de rediriger les courriers électroniques envoyés à une adresse électronique (l'alias, qui est public) vers une autre adresse préexistante (cachée).
+Syntaxe exacte
+Le résume la syntaxe des adresses électroniques et est basé sur les et .
+De nombreuses applications ne supportent pas l'ensemble des adresses valides (par exemple, en refusant l'utilisation d'une apostrophe) ou acceptent des adresses non valides.
+Seuls les lettres sans accent, les chiffres et le point sont très communs.
+Toutefois le paragraphe 5 de ce stipule que les systèmes devraient accepter les accents dans les noms de domaines internationalisés IDN (nom de domaines avec accent).
+À titre d'exemple, il est maintenant possible d'enregistrer des domaines tels que voilà.fr depuis pour l'extension .fr et plusieurs autres.
+Exemples d'adresses valides :
+Exemples d'adresses non valides :
+Le caractère .
+est situé juste avant le caractère @ .
+Mél.
+/ Courriel
+En France, Mél.
+est, selon le Journal officiel, le symbole de « messagerie électronique » qui peut figurer devant l'adresse électronique sur un document , tout comme Tél.
+devant le numéro de téléphone.
+Le document précise cependant qu'il « ne doit pas être employé comme substantif ».
+Le linguiste Robert Chaudenson et le typographe Jean-Pierre Lacroux mettent par ailleurs en évidence le caractère non idiomatique pour un francophone du substantif que serait mél.
+Les équivalents s'employant substantivement sont messagerie électronique, courrier électronique et l'évolution, d’origine québecoise, de cette dernière locution en courriel.
+Les termes courriel et courrier électronique sont par ailleurs reconnus comme synonymes de messagerie électronique par le même Journal officiel.
+Il est à noter que les termes et expressions publiés au Journal officiel sont obligatoirement utilisés à la place des termes et expressions équivalents en langues étrangères pour les agents des services publics en France, conformément au décret 96-602 du 3 juillet 1996 relatif à l'enrichissement de la langue française.
+Toutefois, plusieurs critiques de la contraction Mél.
+ont été formulées.
+Robert Chaudenson et Jean-Pierre Lacroux pointent la confusion entre abréviation et acronymie dont elle procède : l'abréviation de « messagerie électronique » devrait s'écrire « M. él.
+», avec un point abréviatif pour chacun des deux mots, et l'acronyme « mel » sans point abréviatif ;
+l'écriture « Mél.
+» supposerait en réalité l'abréviation d'un mot commençant par mél-.
+Jean-Pierre Lacroux souligne en outre la rareté des abréviations obligatoires en français, et la confusion entre abréviation et lexique que risquerait d'entrainer la normalisation des abréviations .
+Déguisement contre les pourriels
+Pour éviter que leur adresse puisse être reconnue par un robot d'indexation collectant des adresses à des fins de spam, certaines personnes déguisent leur adresse lorsqu'elles la donnent dans une page web ou dans un message sur Usenet, par exemple :
+* joe25317@ lorsqu'il faut que l'adresse conserve un format d'adresse valide ;
+* joe25317 at example dot com
+lorsqu'il suffit que l'adresse soit reconnaissable par un humain.
+Pour approfondir
+Articles connexes
+Liens externes
+* http:/ culture
+mel.htm
+Mél.
+sur le site du ministère de la culture (voir archive)

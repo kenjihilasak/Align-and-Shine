@@ -1,0 +1,94 @@
+Intervalle musical|Unité de son|Échelle logarithmique
+En musique, une octave est l’intervalle séparant deux notes de même nom.
+Divisée en plusieurs sous-intervalles, elle permet de définir les gammes.
+Une octave ascendante, vers l'aigu, correspond à une division par deux de la longueur d'une corde ou d'un tuyau vibrant dans un instrument de musique.
+La fréquence fondamentale du son le plus aigu de l'intervalle est le double de celle du plus grave.
+D’un point de vue harmonique, l’octave est l’intervalle le plus consonant.
+Son renversement est un unisson.
+L'octave augmentée ou diminuée est rarissime.
+Par analogie, on utilise l'octave en électronique comme unité logarithmique de rapport de fréquences.
+Définition
+La notion d'octave appartient principalement au domaine musical.
+Principe d'équivalence
+Jean-Philippe Rameau a énoncé le principe de l'identité des octaves : l'audition humaine a tendance à percevoir comme identiques deux notes séparées par une octave, c'est-à-dire produites par des cordes ou des tuyaux dont l'un est deux fois plus long que l'autre.
+On parle aussi déquivalence des octaves ou de parenté des octaves.
+Le statut particulier de l'octave dans l'audition a été étudié et confirmé par les études psychoacoustiques.
+Il est possible qu'il s'agisse d'un biais culturel ;
+mais il pourrait aussi avoir une base physiologique.
+Dans la musique occidentale, le système tonal et l'harmonie reposent sur ce principe : l'intervalle d'octave
+- plus précisément, l'octave juste
+- se reproduit de manière cyclique, quelle que soit l'échelle adoptée.
+Cet intervalle est devenu le cadre privilégié des hauteurs musicales dans le cadre de la composante mélodique de la musique.
+Acoustique musicale
+Du point de vue de la production du son musical, si une corde ou une colonne d'air dans un tuyau vibre dans son mode normal à une fréquence de , une corde ou colonne de la moitié de sa longueur sonnera à l'octave supérieure (doublement des vibrations, f multiplié par deux).
+Diviser encore par deux la longueur aboutit à deux octaves , diviser encore par deux donne le huitième de la longueur et trois octaves.
+À l'opposé,
+pour descendre d'une octave la longueur doit être multipliée par deux, pour deux octaves par quatre, et pour trois octaves, par huit.
+Voir également les longueurs des tuyaux d'orgue.
+Physique
+Les études sur les cordes et tuyaux vibrants des instruments de musique ont débouché sur la notion physique de fréquence.
+En définissant un son musical par sa fréquence fondamentale, on relie, malgré quelque anomalies, la perception musicale de la hauteur et la physique.
+L'intervalle d'octave correspond au doublement de la fréquence fondamentale.
+Le rapport des fréquences fondamentales de deux notes à l'octave est donc de 2 ;
+pour deux notes séparées de n octaves, le rapport entre les fréquences est de f_1 / f_0
+2^n.
+On a donc n
+\log_2 \left ( \frac \right).
+Ceci établit une échelle logarithmique des fréquences, dont l'unité est l'octave.
+L'écart en octaves entre deux fréquences f_0 et f_1 quelconques est :
+Écart en octaves : E = \log_2 \left ( \frac \right)
+, qu'on peut calculer en divisant le logarithme du rapport par celui de 2 dans la même base.
+Un écart E nul correspond à un rapport de fréquence unitaire, donc des fréquences égales.
+Si l'écart est positif, la fréquence f_1 est plus grande que la fréquence f_0.
+Les définitions de la physique sont indépendantes de la perception humaine ;
+mais s'il s'agit de fréquences sonores audibles, le son correspondant à f_1 est plus aigu.
+Inversement, si l'écart est négatif, la fréquence f_1 est plus petite que la fréquence f_0 et le cas échéant le son en est plus grave.
+L'octave que l'acoustique définit rigoureusement ne coîncide pas exactement avec la perception musicale pour les notes les plus aigües du piano.
+Usage technique
+Les techniques de l'électronique se sont appliquées, depuis les années 1920, à la reproduction musicale.
+On exprime souvent les rapports de fréquences du signal électrique en octave et en fractions d'octave, bien qu'on préfère souvent la décade.
+Par exemple, les filtres de pondération des mesures de la sonie se définissent en tiers d'octave ou en octave ;
+les réglages des égaliseurs dits graphiques présentent une tirette verticale par tiers d'octave ;
+la pente d'un filtre électronique s'exprime souvent en décibels par octave.
+Le spectre sonore s'étend sur une dizaine d'octaves de quelques hertz à environ .
+Les mesures acoustiques pouvant s'étendre dans les infrasons et dans les ultrasons, la norme ISO 266:1997 définit des intervalles d'octave, demi octave et tiers d'octave autour de la fréquence de référence de , centrés de à .
+Solfège
+Pour différencier les octaves de notes de même nom, on indique un numéro d'octave.
+Le changement d'octave se fait à partir du do : on passe du si2 au do3.
+La convention française donne le numéro 3 à l'octave qui contient le la du diapason à , qui se note « la3 ».
+Dans ce système, le la de 220 Hz sera le la.
+Les logiciels d'édition et composition musicales les plus répandus utilisent la convention dite scientifique, en vigueur aux États-Unis, dans laquelle la numérotation des octaves commence à zéro, et qui par conséquent ont une unité de plus.
+Le la3 est ainsi noté A.
+Dans le système français (et plus largement dans la notation latine), au-dessous de l'octave 1 se trouve l'octave -1.
+Il n'y a pas d'octave zéro.
+Dans le système américain, la numérotation va de 0 à 8.
+Correspondances des différents systèmes de notation
+L'oreille humaine perçoit les sons dans des fréquences comprises entre quelques hertz et , bien qu'en fait les limites dépendent du niveau sonore et de la durée du son et varient d'individu à individu.
+La note la plus grave d'un piano normal est le la à .
+Divisions de l'octave
+Demi-ton
+La gamme au tempérament égal divise l'octave en douze intervalles en progression géométrique.
+Chacun de ces demi-tons correspond à un rapport de fréquences fondamentales de \sqrt12, soit environ 1,06.
+Tiers d'octave ou dixième de décade
+L'intervalle du demi-ton, utile à la musique, est trop étroit pour des applications scientifiques et techniques.
+Dans ce contexte, on divise, si nécessaire, l'octave en tiers.
+Un tiers d'octave correspond à un rapport de fréquences d'un peu plus d'un quart (1,26 environ).
+On retient facilement la série des valeurs normalisées, 100, 125, 160, 200, 250, et ainsi de suite, les valeurs doublant en trois étapes.
+La série ISO 266:1997 en tiers d'octave et celle en dixième de décade coïncident à moins de un pour cent près.
+Une décade correspond à un facteur 10, dix tiers d'octave correspondent à un facteur 10,08.
+Le principe d'incertitude rend la différence négligeable pour les durées d'analyse ordinaires.
+Octave et décade,
+cent et savart
+Les petits écarts de fréquences se repèrent sur des échelles dont la plus petite division
+est inférieure au seuil de discrimination des auditeurs.
+Le cent se définit comme un centième de demi-ton, c'est-à-dire un mille deux centième d'octave.
+On exprime aussi ces écarts en décade, c'est-à-dire en logarithme décimal de l'écart entre deux fréquences, autrefois plus simple à calculer.
+L'octave garde la faveur des praticiens entraînés à reconnaître des intervalles musicaux à l'oreille.
+Le millième de décade s'appelle le savart.
+La norme ISO 266:1997
+définit des bandes en décades et dixièmes de décades.
+Autres dénominations
+L'intervalle d'octave a parfois été appelé autrefois, surtout dans des publications anglophones, par son nom grec issu du pythagorisme : diapasôn, faisant suite au diatessarôn et au diapente (quinte).
+Annexes
+Bibliographie
+Articles connexes

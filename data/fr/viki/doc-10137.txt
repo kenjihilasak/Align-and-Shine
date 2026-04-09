@@ -1,0 +1,17 @@
+L'ensemble A est l'ensemble des poussins appartenant à la zone bleue.
+L'ensemble B est l'ensemble des poussins appartenant à la zone verte.
+Ces deux ensembles sont disjoints.
+Deux ensembles sont disjoints lorsqu'ils n'ont aucun élément en commun.
+Autrement dit, lorsque leur intersection est l'ensemble vide.
+On dit aussi que A est disjoint de B.
+Le mot « disjoint » est à associer à disjonction.
+Si A et B sont disjoints, alors tout élément de la réunion de A et de B appartient ou bien à A, ou bien à B.
+Par exemple, l'ensemble des entiers pairs et l'ensemble des entiers impairs sont disjoints.
+Un entier ne peut pas être à la fois pair et impair.
+Par contre, l'ensemble des entiers pairs et l'ensemble des entiers divisibles par 3 ne sont pas disjoints car tous deux contiennent 0.
+En fait, leur intersection est l'ensemble des entiers divisibles par 6.
+Si A et B sont deux ensembles, la soustraction de A par B est l'ensemble des éléments qui appartiennent à A mais qui n'appartiennent pas à B. On le note A-B.
+Par définition,
+A-B et B sont deux ensembles disjoints.
+est aussi un sous-ensemble de A.
+On peut démontrer que c'est le plus grand sous-ensemble de A disjoint de B.

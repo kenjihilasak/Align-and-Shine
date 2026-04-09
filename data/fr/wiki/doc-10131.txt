@@ -1,0 +1,122 @@
+Méthode mathématique|Application linéaire
+En mathématiques, la diagonalisation est un procédé d'algèbre linéaire qui permet de simplifier la description de certains endomorphismes d'un espace vectoriel, en particulier de certaines matrices carrées.
+Elle consiste à rechercher et expliciter une base de l'espace vectoriel constituée de vecteurs propres, lorsqu'il en existe une.
+En dimension finie, la diagonalisation revient en effet à décrire cet endomorphisme à l'aide d'une matrice diagonale.
+Ce procédé se ramène donc à une réduction maximale de l'endomorphisme, c'est-à-dire à une décomposition de l'espace vectoriel en une somme directe de droites vectorielles stables par l'endomorphisme.
+Sur chacune de ces droites, l'endomorphisme se réduit à une homothétie.
+La diagonalisation d'un endomorphisme permet un calcul rapide et simple de ses puissances et de son exponentielle, ce qui permet d'exprimer numériquement certains systèmes dynamiques linéaires, obtenus par itération ou par des équations différentielles.
+Méthode
+*Il est parfois nécessaire de calculer le polynôme caractéristique de la matrice, afin de déterminer ses valeurs propres et les sous-espaces propres associés :
+Pour M\in M_n (K), le polynôme caractéristique est \chi_M (X)
+XI_n
+, où X est l'indéterminée et I est la matrice identité de M_n (K).
+Les valeurs propres λ sont les racines de \chi_M, il y a donc au plus n valeurs propres de multiplicité m.
+On détermine ensuite, pour chaque valeur propre, le sous-espace propre qui lui est associé :E_
+M-\lambda _i I_n).La
+matrice n'est diagonalisable que si la dimension de chaque sous-espace propre E est égale à la multiplicité m de la valeur propre λ, ce qui signifie que pour chaque E_ on a une base de m vecteurs propres que l'on note X, 1 ≤ j ≤ m.
+Alors il existe une matrice inversible U telle que UMU soit égale à une matrice diagonale D dont les coefficients diagonaux sont les λ répétés m fois et U est la matrice dont les colonnes sont les vecteurs X (l'ordre n'a pas d'importance, mais si on a le vecteur X sur la k-ième colonne de U, alors on a la valeur propre λ sur la k-ième colonne de D).
+Il est aussi possible de déterminer directement les valeurs propres, et des bases des sous-espaces propres associés.
+La matrice M est diagonalisable si et seulement si la somme des dimensions des différents sous-espaces propres est égale à n. Si la matrice est diagonalisable, alors il existe une matrice inversible P obtenue en plaçant les unes à côté des autres, les colonnes propres formant une base de chacun des sous-espaces, et la matrice D = PMP est alors diagonale.
+La dimension du sous-espace propre associé à une valeur propre, correspond au nombre de fois que celle-ci est répétée sur la diagonale de la matrice diagonale D semblable à la matrice M.
+*Un endomorphisme u qui n'a qu'un nombre fini de valeurs propres (ce qui est toujours le cas en dimension finie) est diagonalisable si et seulement s'il est annulé par un polynôme scindé et à racines simples.
+De plus, les projecteurs sur les sous-espaces propres s'expriment alors comme des polynômes en u (voir Lemme des noyaux).
+Exemples
+Premier exemple
+Considérons la matrice :
+:A=\begin
+1 & 2 & 0 \\
+0 & 3 & 0 \\
+2 & -4
+& 2 \end.
+Cette matrice admet comme valeurs propres :
+\lambda_1
+3, \quad \lambda_2
+2, \quad \lambda_3= 1.
+Ainsi A qui est de taille 3, a 3 valeurs propres distinctes, donc est diagonalisable.
+Si nous voulons diagonaliser A, nous avons besoin de déterminer les vecteurs propres correspondants.
+Il y a par exemple :
+v_1
+\begin 1 \\ 1 \\
+-2 \end, \quad v_2
+\begin 0 \\ 0 \\ 1 \end, \quad v_3 = \begin 1 \\ 0 \\
+-2 \end.
+On vérifie facilement que A v_k = \lambda_k v_k.
+Maintenant soit P la matrice ayant ces vecteurs propres comme colonnes :
+\begin
+1 & 0 & 1 \\
+1 & 0 & 0 \\
+-2 & 1 & -2 \end.
+Alors « P diagonalise A », comme le montre un simple calcul :
+P^AP =
+\begin
+0 & 1 & 0 \\
+2 & 0 & 1 \\
+1 & -1
+& 0 \end
+\begin
+1 & 2 & 0 \\
+0 & 3 & 0 \\
+2 & -4
+& 2 \end
+\begin
+1 & 0 & 1 \\
+1 & 0 & 0 \\
+& 1 & -2 \end =
+\begin
+3 & 0 & 0 \\
+0 & 2 & 0 \\
+0 & 0 & 1\end.
+Remarquons que les valeurs propres λ apparaissent sur la diagonale de la matrice dans le même ordre que nous avons placé les colonnes propres pour former P.
+Deuxième exemple
+Soit A= \begin 0 & 3 & -1 \\ 2 & -1 & 1 \\ 0 & 0 & 2 \end \in M_3 (\R)
+\chi_A (
+\operatorname (TI_3-A)
+\begin T & -3 & 1 \\
+-2 & T+1 & -1 \\ 0 & 0 & T-2 \end= (T-2)^2 (T+3) (voir le calcul d'un déterminant)
+Donc
+les valeurs propres
+sont :
+Calcul des sous-espaces propres :
+Calcul de E :
+On cherche les X
+\begin x_1 \\ x_2
+\\ x_3 \end tels que : (A-2I_3)X=0
+Or :
+A-2I_3)X
+0 \Leftrightarrow
+0 \Leftrightarrow -2x_1+3x_2-x_3=0
+Donc E_2=\operatorname \left\
+On procède de même pour E et l'on obtient :
+E_=\operatorname \left\
+On a bien : \operatorname ( E_2 )
+2 \, et \operatorname ( E_ )
+1 \,, donc cette matrice est diagonalisable.
+Une diagonalisation possible est :
+U^AU
+, avec U = .
+Projecteur
+Soit (en dimension quelconque)
+p un projecteur, c'est-à-dire un endomorphisme idempotent :
+Il est annulé par le polynôme X
+1)X, qui est scindé et à racines simples.
+Il est donc diagonalisable, de valeurs propres 1 et 0.
+Les projecteurs sur les deux sous-espaces propres correspondants (supplémentaires l'un de l'autre) sont p et id
+- p. Si l'espace est normé (ou plus généralement si c'est un espace vectoriel topologique) et si p est continu, ces deux sous-espaces sont donc même supplémentaires topologiques.
+Symétrie
+Toujours en dimension quelconque, soit s une symétrie, c'est-à-dire un endomorphisme involutif :
+id.
+Il est annulé par le polynôme X
+X - 1) (X + 1) qui est scindé, et à racines simples dès que le corps des scalaires est de caractéristique différente de 2.
+Il est donc dans ce cas diagonalisable, ses deux sous-espaces propres (pour les valeurs propres 1 et -1) étant d'ailleurs ceux (pour les valeurs propres 1 et 0) du projecteur
+Par exemple sur l'espace ℒ (H)
+des opérateurs bornés sur un espace de Hilbert H sur K = ℝ ou ℂ, la symétrie qui à chaque opérateur associe son adjoint est toujours ℝ-linéaire, et diagonalisable en tant que telle : les opérateurs hermitiens et antihermitiens forment deux sous-espaces vectoriels réels supplémentaires (topologiques).
+(Lorsque H est de dimension finie n sur K, une écriture matricielle montre que leurs dimensions sont égales respectivement à n (n + 1) 2 si H est euclidien, et toutes deux égales à n si H est hermitien.
+Limites et généralité
+Tous les endomorphismes ne sont pas diagonalisables.
+Cependant :
+* le polynôme caractéristique d'un endomorphisme est scindé si et seulement si son polynôme minimal l'est, et sur un corps algébriquement clos comme ℂ, ils le sont toujours.
+Dans ce cas, la décomposition de Dunford assure que l'endomorphisme se décompose comme somme d'un endomorphisme diagonalisable et d'un nilpotent qui commutent, ce qui facilite le calcul de ses puissances et ses exponentielles ;
+* dans l'ensemble des matrices carrées de taille fixée à coefficients complexes (qui sont toutes trigonalisables sur ℂ), l'ensemble des matrices diagonalisables est dense (pour la topologie usuelle) ;
+* dans l'ensemble des matrices carrées de taille fixée à coefficients réels trigonalisables sur ℝ (c'est-à-dire dont toutes les valeurs propres
+- a priori complexes
+- sont réelles), l'ensemble des matrices diagonalisables est dense.

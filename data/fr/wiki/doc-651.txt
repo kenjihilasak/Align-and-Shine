@@ -1,0 +1,155 @@
+Méthode mathématique
+En mathématiques élémentaires, la règle de trois ou règle de proportionnalité est une méthode mathématique permettant de déterminer une quatrième proportionnelle.
+Plus précisément, trois nombres , et étant donnés, la règle de trois permet, à partir de l'égalité des produits en croix, de trouver le nombre tel que soit proportionnel à .
+Ce nombre vaut :
+Elle tire son nom de la présence d'une opération qui implique trois nombres (, et ).
+La règle de trois est une méthode pouvant être utilisée pour résoudre les problèmes de proportionnalité, comme les distances parcourues à vitesse constante en fonction du temps, le prix à payer en fonction du poids en économie domestique ou les problèmes de dosage en technique de laboratoire.
+Elle se retrouve notamment dans le calcul de pourcentages, dans la résolution de problèmes de conversion d’unités, en application du théorème de Thalès ou encore dans la caractérisation de la colinéarité de deux vecteurs du plan à l’aide de leurs coordonnées.
+La manière de présenter la règle de trois et la place qui lui est accordée dans l'enseignement français ont varié selon les époques.
+La question soulevée par son apprentissage est un point de discorde entre les tenants d'un enseignement fournissant des recettes et les tenants d'un enseignement présentant un savoir intelligible en construction.
+Présentations de la règle
+La règle de trois s'utilise quand il existe de manière évidente une proportionnalité entre deux variables comme le prix à payer en fonction de la quantité achetée en économie ou les relations entre les distances sur la carte et les distances sur le terrain dans des problèmes d'échelles.
+Ainsi les trois problèmes suivants peuvent se résoudre par une règle de trois.
+- Si deux kilogrammes de fruits coûtent 10 euros, combien coûterait 1,5 kilogramme de ces mêmes fruits ?
+- On dispose d’un plan dont l’échelle indique que sur la carte représentent sur le terrain.
+On sait que, sur la carte, la distance entre deux villes est de .
+On cherche à déterminer la distance à vol d'oiseau entre ces deux villes.
+- Si dix objets identiques coûtent 22 euros, combien coûtent quinze de ces objets ?
+La manière de justifier cette procédure, fondamentale pour la compréhension des mathématiques, n'est pas unique et a varié au cours du temps.
+Produits en croix
+est sous cette forme qu’elle est souvent maintenant présentée en France.
+Dans un tableau de proportionnalité à quatre cases, le produit des termes situés dans une diagonale est égal au produit des termes situés dans l'autre diagonale.
+Ce résultat est connu depuis au moins Euclide sous le nom d'égalité du produit des extrêmes et du produit des moyens (dans une lecture de gauche à droite et de haut en bas).
+Pour résoudre les problèmes précédents, il suffit alors de construire un tableau de proportionnalité incomplet :
+Les produits en croix permettent d'écrire les équations suivantes et de trouver leurs solutions
+2 \times x\, donc
+\dfrac
+2 \times y\, donc
+\dfrac
+Le résultat final s’obtient donc en effectuant le produit des deux termes d’une diagonale et en divisant par le terme restant.
+Réduction à l'unité
+Cette méthode met en place un discours plus explicatif permettant d'élucider la règle de trois pour la remplacer par une « règle de six ».
+Elle consiste à utiliser une étape en passant par l'unité.
+Pour le problème 1 :
+* pour acheter de fruits
+, il faut deux fois moins d'euros soit \dfrac 2 euros ;
+* pour acheter de fruits
+, il faut 1,5 fois plus d'euros soit \dfrac 2 euros.
+Pour le problème 2 :
+* sur la carte représente deux fois moins de km sur le terrain c'est-à-dire \dfrac km ;
+* sur la carte représentent 12,2 fois plus de km, soit \dfrac km.
+Pour le problème 3 :
+* 15 objets coûtent 15 fois plus, soit 220 \times 15 = 33 euros.
+Elle fut enseignée sous cette forme dans les écoles françaises à différentes époques.
+Coefficient de proportionnalité
+La méthode du coefficient de proportionnalité utilise une propriété voisine des tableaux de proportionnalité : dans un tableau de proportionnalité, on passe d'une ligne à l'autre (ou d'une colonne à l'autre) en multipliant par un coefficient constant appelé le coefficient de proportionnalité qui doit rester sous une forme exacte, éventuellement fractionnaire.
+Ainsi le problème 1 fournit le tableau
+Le coefficient de proportionnalité pour passer de la première colonne à la seconde colonne est de 5 ou \frac 2 car 10 = 5 \times 2.
+C'est ce même coefficient de proportionnalité qui permet de passer de 1,5 au nombre cherché.
+Le nombre cherché est donc 5 \times 15.
+De même le coefficient de proportionnalité pour passer de la première ligne à le seconde ligne est de \dfrac 2 car 1,5= \dfrac 2 \times 2.
+C'est ce même coefficient de proportionnalité qui permet de passer de 10 au nombre cherché.
+Le nombre cherché est donc \dfrac 2.
+Rôle de la proportionnalité
+L'utilisation d'une règle de trois suppose que soit établie l'existence d'une proportionnalité entre les quantités en présence.
+Les IUFM soulèvent cet écueil : la règle de trois ne peut pas précéder la notion de proportionnalité.
+Remplir un tableau à quatre cases ne garantit pas l'existence d'une proportionnalité et peut conduire à des contresens comme celui-ci
+* Problème 1 : si 4 ouvriers font un travail en 9 jours, combien mettront 6 ouvriers pour effectuer le même travail ?
+Il est toujours possible de construire un tableau
+Mais il est nécessaire de vérifier la proportionnalité avant de tenter d'appliquer la règle de trois.
+Ici la vérification consiste seulement à se demander .
+Normalement, la réaction de bon sens consiste à répondre non et la règle de trois ne s'applique pas de manière directe (voir règle de trois inverse).
+François Drouin souligne la rareté des phénomènes de proportionnalité et évoque le fait que, même en économie domestique, il n'y a pas toujours proportionnalité entre la quantité achetée et le prix payé.
+La précision, , , , est souvent un non-dit de l'énoncé.
+Déjà au , Diderot et d'Alembert dans leur encyclopédie, pointaient du doigt cette contrainte, signalant qu'il ne leur semblait pas raisonnable d'imaginer qu'une citerne puisse se vider à débit constant et qu'il est donc peu réaliste de considérer que le temps nécessaire à vider une citerne soit proportionnel au volume d'eau qu'elle contient.
+Le tableau de proportionnalité, construit avec plus de quatre cases, permet en outre de développer d'autres techniques pour déterminer une quatrième proportionnelle.
+Ainsi pour le problème 1, on peut observer qu'en prenant 4 fois moins de fruits, on doit payer quatre fois moins d'euros.
+On construit donc le tableau intermédiaire :
+Les propriétés sur les tableaux de proportionnalité permettent de dire que l'on peut créer une nouvelle ligne en sommant ou retranchant deux lignes.
+On peut ainsi créer la ligne solution du problème par soustraction des deux lignes précédentes :
+Cas des nombres
+entiers
+La règle de trois s'applique pour des quantités portionnables, nombres décimaux, fractionnaires ou réels.
+Il est difficile de l'utiliser lorsqu'une des quantités ne peut pas se diviser : nombre de pots de peinture nécessaire pour peindre les murs d'une pièce, nombre d'objets que l'on peut acheter avec une quantité d'argent donnée.
+Le résultat à fournir étant un nombre entier d'objets ou de pots, il s'agit d'arrondir le nombre, obtenu par l'application de la règle de trois, par excès ou par défaut selon la logique du problème.
+Il peut aussi arriver que les deux quantités soient des entiers.
+Alors la règle de proportionnalité n'est pas vérifiée.
+Ainsi le problème
+* Problème :
+Si avec 560 perles, on peut faire 11 colliers de même taille, avec 9000 perles, combien peut-on faire de colliers de cette taille ?
+qui se présente comme les problèmes précédents doit être résolu, non par une règle de trois, mais par l'utilisation de divisions euclidiennes.
+Si avec 560 perles, on peut faire 11 colliers, combien de perles contient chaque collier ?
+Chaque collier contient 50 perles (et il reste 10 perles non utilisées).
+* Avec 9000 perles, combien peut-on faire de colliers de 50 perles ?
+L’application de la règle de trois aurait conduit à
+qui, même arrondi à 177, n'aurait pas donné le bon nombre de colliers.
+Extensions
+Règle de trois inverse
+Il y a des grandeurs qui diminuent à proportion d’un accroissement des données.
+Par exemple, si on demande en combien de temps construiront un certain mur que ont pu élever en , on considérera qu’il faut, pour construire un tel mur, un travail égal à
+travail qui est, dans une large mesure, indépendant du nombre d’hommes ou du temps disponible,
+mais ne dépend que de la taille du mur.
+Ainsi, le temps recherché doit être tel que : 10 ×
+180 donc
+18 jours
+En résumé, la règle de trois s’écrit dans ce cas :
+\dfrac
+La réponse est donc pour .
+Règle de trois composée
+On rencontre parfois des problèmes de proportion faisant intervenir deux « règles de trois » enchaînées, ou même plus.
+En voici un exemple :
+travaillant à raison de par jour ont pavé en une rue longue de .
+On demande combien il faut d’ouvriers travaillant par jour pour paver en une rue longue de , rue de même largeur que la précédente.
+Lagrange propose la règle suivante :
+Dans l’exemple qu’on vient de donner, pour une même largeur de route,
+* il faut plus d’ouvriers si la longueur de rue à paver augmente ;
+* il faut moins d’ouvriers si la durée journalière de travail augmente ou si le nombre de jours accordé pour faire le travail augmente.
+Donc le d’ouvriers
+cherché est donné par :
+18 \times \dfrac\div \left (\dfrac \times \dfrac \right)
+\dfrac = 8.
+Règle de trois dans l'enseignement français
+Produit des extrêmes et des moyens
+La recherche d'une quatrième proportionnelle est un problème très ancien puisqu'on en trouve trace déjà dans les éléments d'Euclide.
+Celui-ci étudie, dans son livre V, la notion de grandeurs proportionnelles et celle de raison entre grandeurs : 4 grandeurs a, b, c, d sont proportionnelles si a est à b ce que c est à d. C'est-à-dire si la raison entre a et b est égale à la raison entre c et d
+- de nos jours on écrirait : \frac ab = \frac cd .
+Il établit, dans son livre VII, la règle sur les proportions entre nombres entiers : quatre nombres sont proportionnels si et seulement si le produit du premier par le quatrième est égal au produit du second par le troisième.
+Cette règle qui s'appelle aujourd'hui égalité des produits en croix se traduisait aussi souvent par l'expression : le produit des extrêmes est égal au produit des moyens.
+C'est sur cette règle que se construisent alors les recherches de quatrième proportionnelle.
+On peut cependant remarquer qu'Euclide travaille sur des quantités de même nature (livre V) ou bien sur des entiers (livre VII).
+Ce n'est que plus tard que cette propriété est généralisée aux nombres rompus (ou fractionnaires), aujourd'hui appelés nombres rationnels.
+Le terme de est attesté, en France, dès 1520 mais est probablement présent dès le .
+Dans son ouvrage L'arithmétique nouvellement composée, Estienne de La Roche consacre tout un chapitre à cette règle qu'il décrit comme et précise son surnom de règle dorée.
+C'est une recette qu'il donne concernant trois nombres telle que la proportion entre le premier et le deuxième soit identique à celle entre le troisième et le quatrième.
+Ici, les unités prennent de l'importance : il précise que le premier et le troisième nombre doivent être de même nature, ainsi que le second avec le quatrième.
+Il rappelle que dans un tel cas, le produit du premier nombre par le quatrième doit être égal au produit du second par le troisième.
+Il établit alors la règle :
+* multiplie le troisième par le second et divise le par le premier, ainsi tu obtiendras le quatrième
+Règle de raison du sieur Barrême
+Dès 1710, la recette est popularisée par les nombreuses éditions du livre de François Barrême L’
+Arithmétique du sieur Barrême
+ou le livre facile pour apprendre l'arithmétique de soi-même et sans maître.
+Barrême est l'auteur d'ouvrages de calculs pratiques et de tables de correspondance qui sont passés à la postérité sous le nom de barèmes.
+Règle de trois dans l'Encyclopédie de Diderot et d’Alembert
+On retrouve cette même qualité de recette dans l'article de l'Encyclopédie, même si Diderot et d’Alembert se préoccupent, plus que Barrême, de l'existence d'une réelle proportionnalité.
+C'est aussi dans cet ouvrage qu'on la qualifie de « règle d'or », propose une nouvelle méthode consistant à revenir à l'unité ce qui lui permet de traiter de la même manière les cas proportionnels ou inversement proportionnels.
+En préambule il annonce proposer .
+Son but est pédagogique : il a remarqué que la multitude de règles concernant la règle de trois et ses variantes obscurcissait la maitrise du phénomène.
+Il a conscience que la règle appliquée sans réflexion conduit à des résultats aberrants en cas de quantités inversement proportionnelles.
+Son ambition est donc de remplacer la recette par un raisonnement écrit-il dans son préambule.
+La méthode plait, son emploi, sous le nom de réduction à l'unité, est encouragé par les inspecteurs primaires et fleurit dans les ouvrages scolaires.
+La recette de la règle de trois va donc être abandonnée au profit d'un concept plus général : la linéarité.
+Plutôt qu'une règle, on propose un instrument, la proportionnalité, à savoir manipuler dans des exercices de types très variés demandant autonomie et prise d'initiative chez l'élève.
+En 1963, Gilbert Walusinski, membre de l'APMEP très impliquée dans la réforme, écrit un article
+La règle de trois n'aura pas lieu dans le Bulletin de l'APMEP de mai-juin, critiquant l'automatisme de la règle de trois et proposant des problèmes en situation permettant de mobiliser l'esprit critique des élèves.
+Ce titre est repris dans un film distribué par les IREM dans les années 1970 se proposant de convaincre les futurs enseignants de l'inanité de la règle de trois.
+L'abandon de l'enseignement des mathématiques modernes au début des années 1980 ne sonne pourtant pas son retour.
+L'outil à la mode reste le tableau de proportionnalité qui, avec le produit en croix ou le coefficient de proportionnalité, propose des méthodes permettant de calculer une quatrième proportionnelle.
+Il faut noter que dans de nombreux cas, une astuce permet de simplifier la résolution ;
+ainsi, dans le problème 3 exposé plus haut, en remarquant que 10 et 15 sont multiples de 5, donc :
+Retour dans les programmes de 2008
+Cependant, cette autonomie laissée à l'élève pour trouver la quatrième proportionnelle induit un effet pervers : l'élève manquant d'autonomie se retrouve sans outil efficace pour résoudre un simple problème de proportionnalité.
+Certains milieux professionnels, comme les formateurs en école d'infirmières, s'en inquiètent dès 1996.
+En 2008, une réflexion sur les savoirs fondamentaux conduit aux observations suivantes : les performances scolaires en mathématiques des élèves français baissent, l'évaluation Pisa montre que si les meilleurs élèves restent toujours très performants, le nombre d'élèves faibles en mathématiques devient trop important .
+Un remède est proposé : la maitrise des outils de base ne pourrait s'acquérir que par de nombreux exercices répétitifs et par la mise en place de procédures appliquées jusqu'à leur automatisation, permettant alors à l'esprit enfin libéré de manipuler des raisonnements plus complexes .
+La règle de trois réapparait alors dans les programmes de l'enseignement primaire mais son mode d'introduction est laissé au libre choix de l'enseignant.

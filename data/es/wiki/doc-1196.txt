@@ -1,0 +1,280 @@
+El sistema binario, llamado también sistema diádico en ciencias de la computación, es un sistema de numeración en el que los números se representan utilizando solamente dos cifras: cero y uno (0 y 1).
+Es uno de los sistemas que se utilizan en las computadoras, debido a que estas trabajan internamente con dos niveles de voltaje, por lo cual su sistema de numeración natural es el sistema binario.
+Historia del sistema binario
+El antiguo matemático indio Pingala presentó la primera descripción que se conoce de un sistema de numeración binario en el siglo tercero antes de nuestra era, lo cual coincidió con su descubrimiento del concepto del número cero.
+Una serie completa de 8 trigramas y 64 hexagramas (análogos a 3 bits) y números binarios de 6 bits eran conocidos en la antigua China en el texto clásico del I Ching.
+Series similares de combinaciones binarias también han sido utilizadas en sistemas de adivinación tradicionales africanos, como el Ifá, así como en la geomancia medieval occidental.
+Un arreglo binario ordenado de los hexagramas del I Ching, representando la secuencia decimal de 0 a 63, y un método para generar el mismo fue desarrollado por el erudito y filósofo Chino Shao Yong en el siglo XI.
+En 1605 Francis Bacon habló de un sistema por el cual las letras del alfabeto podrían reducirse a secuencias de dígitos binarios, las cuales podrían ser codificadas como variaciones apenas visibles en la fuente de cualquier texto arbitrario.
+En 1670 Juan Caramuel publica su libro Mathesis Biceps; en las páginas XLV a XLVIII se da una descripción del sistema binario.
+El sistema binario moderno fue documentado en su totalidad por Leibniz, en el siglo XVII, en su artículo "Explication de l'Arithmétique Binaire".
+En él se mencionan los símbolos binarios usados por matemáticos chinos.
+Leibniz utilizó el 0 y el 1, al igual que el sistema de numeración binario actual.
+En 1854, el matemático británico George Boole publicó un artículo que marcó un antes y un después, detallando un sistema de lógica que terminaría denominándose Álgebra de Boole.
+Dicho sistema desempeñaría un papel fundamental en el desarrollo del sistema binario actual, particularmente en el desarrollo de circuitos electrónicos.
+Aplicaciones
+En 1937, Claude Shannon realizó su tesis doctoral en el MIT, en la cual implementaba el Álgebra de Boole y aritmética binaria utilizando relés y conmutadores por primera vez en la historia.
+Titulada Un Análisis Simbólico de Circuitos Conmutadores y Relés, la tesis de Shannon básicamente fundó el diseño práctico de circuitos digitales.
+En noviembre de 1937, George Stibitz, trabajando por aquel entonces en los Laboratorios Bell, construyó una computadora basada en relés -a la cual apodó "Modelo K" (porque la construyó en una cocina, en inglés "kitchen")- que utilizaba la suma binaria para realizar los cálculos.
+Los Laboratorios Bell autorizaron un completo programa de investigación a finales de 1938, con Stibitz al mando.
+El 8 de enero de 1940 terminaron el diseño de una "Calculadora de Números Complejos", la cual era capaz de realizar cálculos con números complejos.
+En una demostración en la conferencia de la Sociedad Estadounidense de Matemática, el 11 de septiembre de 1940, Stibitz logró enviar comandos de manera remota a la Calculadora de Números Complejos a través de la línea telefónica mediante un teletipo.
+Fue la primera máquina computadora utilizada de manera remota a través de la línea de teléfono.
+Algunos participantes de la conferencia que presenciaron la demostración fueron John von Neumann, John Mauchly y Norbert Wiener, quien escribió acerca de dicho suceso en sus diferentes tipos de memorias en la cual alcanzó diferentes logros.
+Representación
+En el sistema binario solo se necesitan dos cifras.
+En informática, un número binario puede ser representado por cualquier secuencia de bits (dígitos binarios), que suelen representar cualquier mecanismo capaz de usar dos estados mutuamente excluyentes.
+Las siguientes secuencias de símbolos podrían ser interpretadas como el mismo valor numérico binario:
+El valor numérico representado en cada caso depende del valor asignado a cada símbolo.
+En una computadora, los valores numéricos pueden representar dos voltajes diferentes; también pueden indicar polaridades magnéticas sobre un disco magnético.
+Un "positivo", "sí", o "sobre el estado" no es necesariamente el equivalente al valor numérico de uno; esto depende de la nomenclatura usada.
+De acuerdo con la representación más habitual, que es usando números arábigos, los números binarios comúnmente son escritos usando los símbolos 0 y 1.
+Los números binarios se escriben a menudo con subíndices, prefijos o sufijos para indicar su base.
+Las notaciones siguientes son equivalentes:
+* 100101 binario (declaración explícita de formato)
+* bin 100101 (un prefijo que indica formato binario)
+* 1001012 (un subíndice que indica base 2 (binaria) notación)
+* 0b100101 (un prefijo que indica formato binario, común en lenguajes de programación)
+Conversión entre binario y decimal
+Decimal a binario
+Se divide el número del sistema decimal entre 2, cuyo resultado entero se vuelve a dividir entre 2, y así sucesivamente hasta que el dividendo sea menor que el divisor, 2.
+Es decir, cuando el número a dividir sea 1 finaliza la división.
+A continuación se ordena desde el último cociente hasta el primer resto, simplemente se colocan en orden inverso a como aparecen en la división.
+Este será el número binario que buscamos.
+;Ejemplo: Transformar el número decimal 131 en binario.
+El método es muy simple:
+131 dividido entre 2 da 65 y el residuo es igual a
+65 dividido entre 2 da 32 y el residuo es igual a
+32 dividido entre 2 da 16 y el residuo es igual a
+16 dividido entre 2 da 8 y el residuo es igual a
+8 dividido entre 2 da 4 y el residuo es igual a
+4 dividido entre 2 da 2 y el residuo es igual a
+2 dividido entre 2 da 1 y el residuo es igual a
+-> Ordenamos los residuos, del último al primero
+: 10000011
+En sistema binario, 131 se escribe 10000011
+;Ejemplo: Transformar el número decimal 100 en binario.
+Otra forma de conversión consiste en un método parecido a la factorización en números primos.
+Es relativamente fácil dividir cualquier número entre 2.
+Este método consiste también en divisiones sucesivas.
+Dependiendo de si el número es par o impar, colocaremos un cero o un uno en la columna de la derecha.
+Si es impar, le restaremos uno y seguiremos dividiendo entre dos, hasta que ya no sea posible y se coloca el número 1.
+Después solo nos queda tomar el último resultado de la columna izquierda y todos los de la columna de la derecha y ordenar los dígitos de abajo a arriba.
+;Ejemplo
+100|0
+50|0
+25|1 --> 1, 25-1=24 y seguimos dividiendo
+12|0
+6|0
+3|1
+1|1 --> (100)_ = (1100100)_2
+Ejemplo
+Para convertir al sistema binario el número decimal 77 haremos una serie de divisiones que arrojarán los siguientes resultados:
+19 Residuo
+4 Residuo
+1 Residuo
+Ahora tomando el último cociente y los residuos en orden inverso, el resultado es: 1001101 (binario)
+Existe un último método denominado de distribución.
+Consiste en distribuir los unos necesarios entre las potencias sucesivas de 2 de modo que su suma resulte ser el número decimal a convertir.
+Sea por ejemplo el número 151, para el que se necesitarán las 8 primeras potencias de 2, ya que la siguiente,
+256, es superior al número a convertir.
+Se comienza poniendo un 1 en 128, por lo que aún faltarán 23, 151-128
+23, para llegar al 151.
+Este valor se conseguirá distribuyendo unos entre las potencias cuya suma dé el resultado buscado y poniendo ceros en el resto.
+En el ejemplo resultan ser las potencias 4, 2, 1 y 0, esto es, 16, 4, 2 y 1, respectivamente.
+;Ejemplo
+20= 1|1
+21= 2|1
+22= 4|1
+23= 8|0
+24= 16|1
+25= 32|0
+26= 64|0
+128|1 128+16+4+2+1
+(151)_ = (10010111)_2
+Decimal (con decimales) a binario
+Para transformar un número del sistema decimal al sistema binario:
+# Se transforma la parte entera a binario. .
+# Se sigue con la parte fraccionaria, multiplicando cada número por 2.
+Si el resultado obtenido es mayor o igual a 1 se anota como un uno (1) binario.
+Si es menor que 1 se anota como un 0 binario.
+(Por ejemplo, al multiplicar 0.6 por 2 obtenemos como resultado 1.2 lo cual indica que nuestro resultado es un uno (1) en binario, solo se toma la parte decimal del resultado).
+# Después de realizar cada multiplicación,
+se colocan los números obtenidos en el orden de su obtención.
+# Algunos números se transforman en dígitos periódicos, por ejemplo: el 0.1.
+;Ejemplo
+0,3125 (decimal) => 0,0101 (binario).
+Proceso:
+0,3125 0,625 0,25 0,5 En orden: 0101 -> 0,0101 (binario)
+;Ejemplo
+0,1 (decimal) => 0,0 0011 0011 ... (binario).
+Proceso:
+0,4
+> 0 0,0 0011 0011 ... (binario periódico)
+;Ejemplo
+Convertir 0.2 (decimal) a binario.
+Proceso:
+como se repiten los valores indefinidamente, el resultado es:
+En orden: 0.001100110011... (decimal)
+;Ejemplo
+5.5 =
+5,5
+5,5 (decimal) => 101,1 (binario).
+Proceso:
+5 =>
+0,5 En orden: 1 (un solo dígito fraccionario) -> 101,1 (binario)
+;Ejemplo
+6,83 (decimal) => 110,110101000111 (binario).
+Proceso:
+6 =>
+0,83 0,66 0,32 0,64 0,28 0,56 0,12 0,24 0,48 0,96 0,92 0,84 En orden: 110101000111 (binario)
+Parte entera: 110 (binario)
+Encadenando parte entera y fraccionaria: 110,110101000111 (binario)
+Binario a decimal
+Para realizar la conversión de binario a decimal, realice lo siguiente:
+Comience
+por el lado derecho del número en binario
+Multiplique cada dígito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, 20).
+# Después de realizar cada una de las multiplicaciones, súmelas todas y el número resultante será el equivalente al sistema decimal.
+Ejemplos:
+\overset\,\overset\,\overset\,\overset\,\overset\,\overset\
+1\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^
+32+16+0+4+0+1=53
+\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,_
+1\cdot 2^+0\cdot 2^+0\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^+1\cdot 2^+1\cdot 2^
+128+0+0+16+0+4+2+1=151
+\overset\,\overset\,\overset\,\overset\,\overset\,\overset\
+1\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^+1\cdot 2^+1\cdot 2^
+32+16+0+4+2+1=55
+También se puede optar por utilizar los valores que presenta cada posición del número binario a ser transformado, comenzando de derecha a izquierda, y sumando los valores de las posiciones que tienen un 1.
+;Ejemplo
+El número binario 1010010 corresponde en decimal al 82.
+Se puede representar de la siguiente manera:
+\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,_
+entonces se suman los números 64, 16 y 2:
+\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,\overset\,_
+64+16+2
+Para cambiar de binario con decimales a decimal se hace exactamente igual, salvo que la posición cero (en la que el dos es elevado a la cero) es la que está a la izquierda de la coma y se cuenta hacia la derecha a partir de -1:
+\begin
+& \overset\,\overset\,\overset\,\overset\,\overset\,\overset\,,\overset\,\overset\,\overset\,
+1\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^+1\cdot 2^+0\cdot 2^+1\cdot 2^
+32+16+0+4+0+1+\frac+\frac+\frac
+32+16+0+4+0+1+0,5+0+0,125=53,625 \\
+\end
+Binario a decimal
+Inicie por el lado izquierdo (la primera cifra a la derecha de la coma), cada número deberá ser multiplicado por 2 elevado a la potencia consecutiva a la inversa (comenzando por la potencia -1, 2-1).
+Después de realizar cada una de las multiplicaciones, sume todas y el número resultante será el equivalente al sistema decimal.
+;Ejemplos
+* 0,101001 (binario) = 0,640625 (decimal).
+Proceso:
+1 0 1 0 0 1 La suma es
+: 0,640625
+* 0,110111 (binario) = 0,859375 (decimal).
+Proceso:
+1 1 0 1 1 1 La suma es
+: 0,859375
+Operaciones con números binarios
+Adición de números binarios
+La tabla de sumar para números binarios es la siguiente:
+Las posibles combinaciones al sumar dos bits son:
+Note que al sumar 1 + 1 es 102, es decir, llevamos 1 a la siguiente posición de la izquierda (acarreo).
+Esto es equivalente en el sistema decimal a sumar 9 + 1, que da 10: cero en la posición que estamos sumando y un 1 de acarreo a la siguiente posición.
+;Ejemplo
++ 00010101
+Se puede convertir la operación binaria en una operación decimal, resolver la decimal, y después transformar el resultado en un (número) binario.
+10, entonces escribimos 0 en la fila del resultado y llevamos 1 (este "1" se llama acarreo o arrastre).
+1, y seguimos hasta terminar todas las columnas (exactamente como en decimal).
+Sustracción de números binarios
+El algoritmo de la resta en sistema binario es el mismo que en el sistema decimal.
+Pero conviene repasar la operación de restar en decimal para comprender la operación binaria, que es más sencilla.
+Los términos que intervienen en la resta se llaman minuendo, sustraendo y diferencia.
+Las restas básicas 0 - 0, 1 - 0 y 1 - 1 son evidentes:
+1 (se transforma en 10 -
+(en sistema decimal equivale a 2 -
+1 = 1)
+1 y me llevo 1 (este valor se resta al resultado que obtenga, entre el minuendo y el sustraendo de la siguiente columna), lo que equivale a decir en el sistema decimal, 2 - 1
+;Ejemplos
+7 y 217 -
+Para simplificar las restas y reducir la posibilidad de cometer errores hay varios métodos:
+* Dividir los números largos en grupos.
+En el siguiente ejemplo, vemos cómo se divide una resta larga en tres restas cortas:
+------------- = ----- ----- -----
+* Utilizando el complemento a dos (C2).
+La resta de dos números binarios puede obtenerse sumando al minuendo el «complemento a dos» del sustraendo.
+;Ejemplo
+La siguiente resta, 91 - 46 = 45, en binario es:
+-0101110 el C2 de 0101110 es 1010010 +1010010
+En el resultado nos sobra un bit, que se desborda por la izquierda.
+Pero, como el número resultante no puede ser más largo que el minuendo, el bit sobrante se desprecia.
+Un último ejemplo: vamos a restar 219 - 23 = 196, directamente y utilizando el complemento a dos:
+-00010111 el C2 de 00010111 es 11101001 +11101001
+Y, despreciando el bit que se desborda por la izquierda, llegamos al resultado correcto: 11000100 en binario, 196 en decimal.
+* Utilizando el complemento a uno.
+La resta de dos números binarios puede obtenerse sumando al minuendo el complemento a uno del sustraendo y a su vez sumarle el bit que se desborda.
+Producto de números binarios
+La tabla de multiplicar para números binarios es la siguiente:
+El algoritmo del producto en binario es igual que en números decimales; aunque se lleva a cabo con más sencillez, ya que el 0 multiplicado por cualquier número da 0, y el 1 es el elemento neutro del producto.
+Por ejemplo, multipliquemos 10110 por 1001:
+x 1001
+En sistemas electrónicos, donde suelen usarse números mayores, se utiliza el método llamado algoritmo de Booth.
+x 111011
+__________
+______________
+División de números binarios
+La división en binario es similar a la decimal; la única diferencia es que a la hora de hacer las restas, dentro de la división, estas deben ser realizadas en binario.
+;Ejemplo
+Dividir 100010010 (274) entre 1101 (13):
+100010010 /1101 = 010101
+Conversión entre sistema binario y octal
+Sistema binario a octal
+Debido a que el sistema octal tiene como base 8, que es la tercera potencia de 2, y que dos es la base del sistema binario, es posible establecer un método directo para convertir de la base dos a la base ocho, sin tener que convertir de binario a decimal y luego de decimal a octal.
+Este método se describe a continuación:
+Para realizar la conversión de binario a octal, realice lo siguiente:
+Agrupe la cantidad binaria en grupos de 3 en 3 iniciando por el lado derecho.
+Si al terminar de agrupar no completa 3 dígitos, entonces agregue ceros a la izquierda.
+Posteriormente vea el valor que corresponde de acuerdo a la tabla:
+La cantidad correspondiente en octal se agrupa de izquierda a derecha.
+;Ejemplos
+001 =
+Agrupe de izquierda a derecha
+000 =
+Agrupe de izquierda a derecha
+Si el número binario tiene parte decimal, se agrupa de tres en tres desde el punto decimal hacia la derecha siguiendo los mismos criterios establecidos anteriormente para números enteros.
+Por ejemplo:
+0.01101 (binario) = 0.32 (octal) Proceso:
+Agregue la parte entera: 0.32
+Octal
+a binario
+Cada dígito octal se convierte en su binario equivalente de 3 bits y se juntan en el mismo orden.
+;Ejemplo
+* 247 (octal)
+010100111 (binario).
+El 2 en binario es 10, pero en binario de 3 bits es Oc (2)
+B (010); el Oc (4)
+B (100) y el Oc (7)
+(111),
+luego el número en binario será 010100111.
+Conversión entre binario y hexadecimal
+Binario a hexadecimal
+Para realizar la conversión de binario a hexadecimal, realice lo siguiente:
+Agrupe la cantidad binaria en grupos de 4 en 4 iniciando por el lado derecho.
+Si al terminar de agrupar no completa 4 dígitos, entonces agregue ceros a la izquierda.
+Posteriormente vea el valor que corresponde de acuerdo a la tabla:
+La cantidad correspondiente en hexadecimal se agrupa de derecha a izquierda.
+;Ejemplos
+* 110111010 (binario) = 1BA (hexadecimal).
+Proceso:
+1010 =
+1011 = B
+1 entonces agregue 0001 =
+Agrupe de derecha a izquierda: 1BA
+* 11011110101 (binario) = 6F5 (hexadecimal).
+Proceso:
+1111 = F
+Agrupe de derecha a izquierda: 6F5
+Hexadecimal a binario
+Note que para pasar de Hexadecimal a binario, se remplaza el número Hexadecimal por el equivalente de 4 bits, de forma similar a como se hace de octal a binario.
+Tabla de conversión entre decimal, binario, hexadecimal, octal, BCD, Exceso 3 y Gray o Reflejado
+Factorización
+* Tabla de conversión entre binario, factor binario, hexadecimal, octal y decimal
+Véase también

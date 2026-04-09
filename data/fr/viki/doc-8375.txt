@@ -1,0 +1,35 @@
+Projection de Peters
+La projection de Peters, appelée aussi "projection de Gall-Peters", est une manière de représenter le monde sur une carte, en respectant le rapport des surfaces.
+En première approximation, la Terre est une sphère.
+La projection de Peters est une manière de projeter cette sphère sur un cylindre imaginaire, dont l'axe de révolution est l'axe nord-sud.
+En réalité, on ne projette que la Terre privée de ses deux pôles.
+Projeter, c'est associer à chaque point de la Terre un point du cylindre.
+Si M est un point différent des pôles Nord et Sud, il existe une unique demi-droite :
+dont l'origine est sur l'axe nord-sud ;
+qui est orthogonale à cet axe ;
+qui passe par le point M.
+Ce demi-axe coupe le cylindre en un unique point.
+C'est ainsi qu'on projette la Terre privée des deux pôles sur le cylindre.
+Ensuite, il suffit de dérouler ce cylindre imaginaire pour obtenir une projection de Peters de la Terre.
+Un planisphère établi selon la projection de Peters
+Pour des raisons de métriques (une métrique est une théorie de la mesure au sein d'un espace quelconque), on ne peut pas déformer un morceau d'une sphère en un morceau de plan, en préservant le rapport des distances.
+Cela n'est pas gênant quand on représente une région, mais cela devient visible quand on souhaite représenter un continent, voire le monde entier.
+La projection de Peters permet de représenter une carte du monde (privé des deux pôles), en respectant le rapport des aires.
+Elle restitue par conséquent les proportions entre les surfaces sur la carte et les surfaces réelles.
+C'est ce qu'on appelle une projection équivalente.
+En revanche, elle n'est pas conforme car elle déforme les angles et par conséquent les contours des continents.
+Les parallèles correspondent à des droites horizontales.
+Un parallèle est la trace d'un plan imaginaire orthogonal à l'axe Nord-Sud.
+Ce plan coupe le cylindre utilisé en un cercle.
+Quand on déroule le cylindre, on obtient une droite horizontale.
+Les méridiens correspondent à des droites verticales.
+Un méridien est la trace d'un demi-plan imaginaire délimité par l'axe Nord-sud.
+Ce demi-plan coupe le cylindre utilisé en une droite verticale.
+On considère une zone de la Terre, délimitée par deux parallèles et deux méridiens.
+Elle correspond à un rectangle sur la carte de Peters.
+Sur la sphère ou sur un ellipsoïde, cette même surface correspond à une zone sphérique ou ellipsoïdale.
+Dans la réalité, les méridiens sont concentriques (aux pôles) et non parallèles entre eux.
+Ils ne sont par conséquent pas perpendiculaires aux parallèles, comme le laisserait suggérer cette projection, sauf à l'équateur.
+La projection de Peters n'exagère pas les aires des pays de la zone tempérée ou des régions polaires comme peut le faire la projection de Mercator, qui véhicule une idée européocentriste du monde.
+Elle restitue aux régions intertropicales une image plus proche de la réalité, du moins dans le domaine des aires.
+Mais la projection de Peters a tendance à aplatir les régions tempérées et surtout polaires (tout en conservant le rapport entre les aires).

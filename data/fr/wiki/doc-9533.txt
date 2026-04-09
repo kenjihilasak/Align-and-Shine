@@ -1,0 +1,41 @@
+Relation (mathématiques)
+Une relation entre objets mathématiques d'un certain domaine est une propriété qu'ont, ou non, entre eux certains de ces objets ;
+ainsi la relation d'ordre strict, notée « < », définie sur N l'ensemble des entiers naturels : 1 < 2 signifie que 1 est en relation avec 2 par cette relation, et on sait que 1 n'est pas en relation avec 0 par celle-ci.
+Une relation est très souvent une relation binaire, définie sur un ensemble comme la relation d'ordre strict sur N, ou entre deux ensembles.
+Une relation binaire met en jeu deux objets, mais une relation peut être aussi ternaire
+- elle met en jeu trois objets, ou plus généralement n-aire, d'arité n, elle met en jeu un nombre fini donné n d'objets.
+Par exemple, en géométrie euclidienne la relation « A est entre B et C » (sur une droite passant par B et C) est une relation ternaire sur l'ensemble des points du plan.
+On parle également de relation dans un sens en fait très voisin, mais pour des prédicats, des propriétés exprimées en langage mathématique, qui ne sont donc pas directement des objets mathématiques.
+Les fonctions ou applications peuvent être vues elles-mêmes comme des cas particuliers de relations ;
+plus précisément, une fonction (application) n-aire est une relation n+1
+fonctionnelle
+et applicative
+On montre en calcul des prédicats que les relations binaires suffisent au sens qu'on n'aura pas une théorie plus forte avec une théorie dont les symboles de relation sont d'arités plus élevées.
+Pour exemple la théorie des ensembles n'a que deux symboles non logiques : l'appartenance et l'égalité qui sont deux symboles de relation binaires.
+Relations binaires
+L'égalité est un exemple, que l'on peut définir sur n'importe quel ensemble.
+Il existe une relation d'ordre naturelle par exemple sur l'ensemble des entiers.
+Dans les deux cas il s'agit d'une relation binaire définie sur un ensemble, elle met en jeu deux objets, a = b
+, 0 ≤ 1.
+Plus généralement les relations d'équivalence, et les relations d'ordre sont particulièrement utiles en mathématiques.
+Une relation binaire peut aussi être définie plus généralement entre deux ensembles distincts, comme la relation d'appartenance entre points et droites du plan, qui peut être utilisée pour axiomatiser celui-ci (on l'appelle alors relation d'incidence).
+En mathématiques une relation est définie par son extension, ce qui signifie que la façon d'exprimer la relation importe peu, seul compte le résultat obtenu : dans le cas d'une relation binaire les couples d'éléments qui sont en relation et ceux qui ne le sont pas.
+Définition 1.
+- Une relation binaire entre E et F, ou de E vers F, est un sous-ensemble du produit cartésien E ×
+Dans le cas particulier où E = F on parle de relation binaire sur E où G est un sous-ensemble du produit cartésien E ×
+F, appelé graphe de la relation ;
+E est l’ensemble de départ de la relation, et F son ensemble d'arrivée.
+Dans la première définition, la relation entre E et F est identifiée directement à son graphe (au sens de la seconde définition).
+Il n'y a pas de différence essentielle entre les deux définitions.
+Pratiquement quand on définit une relation, par exemple la divisibilité « » sur N, on écrit « a | b si et seulement s'il existe un entier naturel d tel que b = d•a », que l'on peut interpréter correctement pour l'une comme l'autre définition : le graphe de la relation (ou la relation) est l'ensemble des couples (a, b) tels que b est un multiple de a.
+Outre qu'elles sont les plus répandues, il existe des notations, un vocabulaire, des opérations comme la composition qui sont spécifiques aux relations binaires.
+Relations n-aires
+Définition.
+- Une relation n-aire sur un ensemble E est un sous-ensemble du produit cartésien E.
+Relations comme prédicats
+On parle également de relation dans un cadre plus général que le cadre ensembliste.
+La théorie des ensembles axiomatise les propriétés de la relation d'appartenance, qui est un terme primitif de celle-ci.
+La relation d'appartenance est définie sur tout l'univers ensembliste, qui n'est pas un ensemble.
+La relation d'inclusion est définie de façon formelle, par une formule du langage de la théorie des ensembles.
+Ces relations prennent pour arguments n'importe quels ensembles.
+Or l'univers ensembliste, la classe de tous les ensembles, ne peut être considéré elle-même comme un ensemble, du moins dans les théories des ensembles les plus usuelles, sous peine de contradiction comme le paradoxe de Russell.

@@ -1,0 +1,29 @@
+un triangle rectangle
+Un triplet pythagoricien est la donnée de trois entiers naturels tels que la somme des carrés des deux premiers entiers vaut le carré du troisième.
+Par exemple, (3,4,5) est un triplet pythagoricien parce que :
+On sait qu'il existe une infinité de triplets pythagoriciens.
+Autrement dit, on peut en donner autant qu'on veut.
+Cependant, en général, la somme des carrés de deux entiers n'est pas le carré d'un entier.
+Sommaire
+Dans un triangle rectangle, le carré de la longueur de l'hypoténuse est la somme des carrés des longueurs des deux autres côtés.
+Si on a un triplet pythagoricien, on a un triangle rectangle dont les côtés ont pour longueurs un nombre entier d'unités.
+En particulier, (3,4,5) est un triplet pythagoricien (c'est le plus petit triplet pythagoricien).
+Dans un triangle rectangle, si les côtés adjacents à l'angle droit ont pour longueurs 3 et 4 unités, alors la longueur de l'hypoténuse est de 5 unités.
+C'est ce qu'on appelle le triangle 3-4-5.
+Les scribes babyloniens effectuaient des exercices de mathématiques sur des tables d'argile séchées.
+On en a retrouvées en Irak et en Iran.
+Sur certaines, il apparaît des listes de triplets pythagoriciens.
+Les babyloniens devaient donc disposer de méthodes pour en trouver.
+En analysant et comparant des tablettes, les historiens des mathématiques ont montré que les babyloniens avaient mis en place des algorithmes pour effectuer des calculs.
+Probablement, ils connaissaient un algorithme donnant des triplets pythagoriciens.
+Les premières méthodes écrites retrouvées sont données dans les Éléments d'Euclide.
+Méthode d'Euclide :
+On prend deux entiers naturels.
+Un triplet pythagoricien est donné par la différence de leurs carrés, le double de leur produit et la somme de leurs carrés.
+Par exemple, 8 et 77 sont des entiers.
+Un triplet pythagoricien est (5865,1232,5993).
+On peut ainsi obtenir de très grands triplets pythagoriciens.
+En 1637, Pierre de Fermat affirma que, pour n > 2, il n'existait aucun couple d'entier naturel non nul tel que la somme des puissances n-ièmes est la puissance n-ième d'un troisième entier : xn + yn = zn.
+Il prétendit avoir une démonstration, mais refusa de l'écrire.
+Ce résultat s'appela alors le « dernier théorème de Fermat ».
+Mais ce fut longtemps une affirmation non démontrée, c'est-à-dire une conjecture.

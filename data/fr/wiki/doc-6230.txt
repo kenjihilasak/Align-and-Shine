@@ -1,0 +1,61 @@
+Analyse réelle|Fonction trigonométrique
+En mathématiques, l’arc tangente d'un nombre réel est la valeur d'un angle orienté dont la tangente vaut ce nombre.
+La fonction qui à tout nombre réel associe la valeur de son arc tangente en radians est la réciproque de la restriction de la fonction trigonométrique tangente à l'intervalle \left-\frac2,\frac2\right.
+La notation est arctan ou Arctan (on trouve aussi Atan, arctg en notation française ;
+atan ou tan, en notation anglo-saxonne
+, cette dernière pouvant être confondue avec la notation de l'inverse ()).
+Pour tout réel :
+\arctan x\iff\tan
+x\texty\in\left-\frac\pi2,\frac\pi2\right.
+Dans un repère cartésien orthonormé du plan, la courbe représentative de la fonction arc tangente est obtenue à partir de la courbe représentative de la restriction de la fonction tangente à l'intervalle \left-\frac2,\frac2\right par une réflexion d'axe la droite d'équation .
+Parité
+La fonction arctan est impaire, c'est-à-dire que (pour tout réel )
+Dérivée
+Comme dérivée d'une fonction réciproque, est dérivable et vérifie :
+Développement en série de Taylor
+Le développement en série de Taylor de la fonction arc tangente
+est :
+:\forall x\in -1,1\quad
+\arctan x
+\sum_^ (-1)^k\frac
+- \frac13 x^3 + \frac15 x^5
+- \frac17 x^7+ \cdots
+Cette série entière converge vers quand et .
+La fonction arc tangente est cependant définie sur tout ℝ (et même sur un domaine du plan complexe contenant à la fois ℝ et le disque unité fermé privé des deux points ).
+Voir aussi Fonction hypergéométrique#Cas particuliers.
+La fonction peut être utilisée pour calculer des approximations de ;
+la formule la plus simple, appelée formule de Leibniz, est le cas du développement en série ci-dessus :
+\frac\pi4=1-\frac13+\frac15-\frac17+\ldots.
+Équation fonctionnelle
+On peut déduire de et inversement, par les équations fonctionnelles suivantes :
+:\forall x\in\R_+^:\forall x\in\R_-^
+Fonction réciproque
+Par définition, la fonction arc tangente est la fonction réciproque de la restriction de la fonction tangente à l'intervalle \left-\frac2,\frac2\right :
+Ainsi, pour tout réel , .
+Mais l'équation n'est vérifiée que pour compris entre -\frac\pi2 et \frac\pi2.
+Dans le plan complexe, la fonction tangente est bijective de ℝ dans ℂ privé des deux demi-droites et de l'axe imaginaire pur, d'après son lien avec la fonction tangente hyperbolique et les propriétés de cette dernière.
+La définition ci-dessus de arctan s'étend donc en :
+Logarithme complexe
+Par construction, la fonction arctangente est reliée à la fonction argument tangente hyperbolique et s'exprime donc, comme elle, par un logarithme complexe :
+\forall x\in\Complex\setminus\left (\left (-\infty,-1\cup1,+\infty\right)\right)\quad\arctan x
+\frac1\operatorname (x)
+\frac1\ln\frac=\frac.
+Intégration
+Primitive
+La primitive de la fonction arc tangente qui s'annule en 0 s'obtient grâce à une intégration par parties :
+: \int_0^x\arctan t\;\mathrm dt=x\,\arctan x-\frac12\ln\left (1+x^2\right).
+Utilisation de la fonction arc tangente
+La fonction arc tangente joue un rôle important dans l'intégration des expressions de la forme
+\frac1
+Si le discriminant est positif ou nul, l'intégration est possible en revenant à une fraction partielle.
+Si le discriminant est strictement négatif, on peut faire la substitution par
+u=\frac
+qui donne pour l'expression à intégrer
+\frac~\frac1.
+L'intégrale est alors
+\frac2\arctan\frac.
+Formule remarquable
+Si , alors :
+\arctan x+\arctan y=\arctan\frac+k\pi
+:k=\begin0&\textxy 1\textx\texty\text>0,\\
+-1&\textxy>1\textx\texty\text<0.\end

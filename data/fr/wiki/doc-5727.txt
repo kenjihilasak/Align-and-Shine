@@ -1,0 +1,193 @@
+Géométrie affine
+En géométrie classique, un plan est une surface plate illimitée, munie de notions d’alignement, d’angle et de distance, et dans laquelle peuvent s’inscrire des points, droites, cercles et autres figures planes usuelles.
+Il sert ainsi de cadre à la géométrie plane, et en particulier à la trigonométrie lorsqu’il est muni d’une orientation, et permet de représenter l’ensemble des nombres complexes.
+Un plan peut aussi se concevoir comme partie d’un espace tridimensionnel euclidien, dans lequel il permet de définir les sections planes d’un solide ou d’une autre surface.
+Plus généralement, un plan apparait en géométrie vectorielle et géométrie affine, comme un sous-espace de dimension 2, abstraction faite des notions d’angle et de distance.
+En définissant ces structures sur d’autres corps que celui des nombres réels, le concept de plan se résume à une structure d’incidence satisfaisant le théorème de Desargues.
+En géométrie projective, le plan est complété par une droite à l'infini pour obtenir un plan projectif, comme le plan de Fano.
+Cette structure définit une géométrie non euclidienne comme dans le plan hyperbolique.
+Définitions
+Premières approches
+En géométrie classique, la définition d'un plan est axiomatique et vise à idéaliser les représentations physiques de surfaces planes (table, tableau, feuille...).
+On trouve une définition axiomatique du plan chez Euclide, vers 300 ans avant Jésus-Christ, qui définit une surface comme et précise alors dans sa définition 7 :
+Plusieurs siècles plus tard, Denis Henrion, dans sa traduction et commentaires des Éléments, tente d'expliciter le sens de « également placée entre ses lignes droites » indiquant que c'est une surface dont toutes les parties du milieu ne sont plus élevées ni abaissée que les extrêmes, que c'est la surface la plus courte parmi celles ayant mêmes extrêmes, que les parties du milieu y ombrage les parties extrêmes.
+Il explique que, si par un point quelconque d'une surface , on peut faire tourner une droite en restant dans la surface, alors cette surface est plane.
+Cette même idée transparait dans la définition d'Adrien-Marie Legendre dans ses Éléments de Géométrie (1790) :
+ou bien dans cette définition de La Petite encyclopédie des mathématiques (1980) :
+Repérage cartésien
+Au , la géométrie analytique de Descartes et Fermat décrit tous les points du plan par des couples (x,y) de coordonnées.
+En langage mathématique contemporain, le plan est alors en bijection avec l’ensemble \R^2, de sorte que la distance entre deux points corresponde à la norme euclidienne
+d ( (x_1, y_1), (x_2, y_2)) = \sqrt illustrant le théorème de Pythagore
+De même, en représentant l’espace comme l’ensemble
+\R^3
+des triplets (
+x,y,z) de nombres réels, un plan est l’ensemble des solutions d’une équation cartésienne de la forme ax+by+cz+d=0, où les coefficients a,b,c ne sont pas tous nuls.
+Les plans apparaissent ainsi comme les surfaces de niveau d’une forme linéaire dans l’espace.
+Présentation algébrique
+Le développement de l'algèbre linéaire au permet une définition du plan à l'aide du concept d'espace vectoriel et de dimension sur un corps :
+C’est le cas, par exemple, de l’ensemble des nombres complexes, l’ensemble des fonctions affines, l’ensemble des suites satisfaisant une relation de récurrence linéaire d’ordre 2 de la forme u_
+a_n u_ + b_n u_n + c_n (comme celle de la suite de Fibonacci), ou l’ensemble des solutions d’une équation différentielle linéaire d'ordre 2 de la forme y
+a (x)y + b (x)y' + c (x) sur un intervalle donné.
+Cette présentation implique l’existence d’un point et de deux vecteurs \vec u et \vec v tel que les points du plan soient les points satisfaisant une égalité vectorielle de la forme \overrightarrow = a\vec u + b\vec v, où et décrivent tous deux le corps des scalaires.
+On dit alors que le triplet (O, \vec u, \vec v) est un repère cartésien du plan, et on utilisera cette présentation dans la suite de l’article.
+Le plan de la géométrie classique se réalise dans un espace affine sur le corps des nombres réels.
+Mais de nombreuses constructions géométriques gardent du sens sur d’autres corps, en particulier sur des corps finis.
+Structure d'incidence
+À la fin du , après la découverte des géométries non euclidiennes, un mouvement se dessine pour axiomatiser encore davantage la géométrie en cherchant à la vider de son contenu ontologique.
+David Hilbert, dans son Grundlagen der Geometrie (Base de la géométrie), définit points, droites et plans de l'espace par les relations qui les unissent (les axiomes d'incidences):
+Une réduction des axiomes de Hilbert permet de fonder la géométrie plane en dehors du contexte de la géométrie dans l'espace :
+La structure d’incidence ainsi définie est satisfaite par tous les espaces affines de dimension 2 quel que soit le corps sous-jacent, mais aussi par d’autres structures comme le plan de Moulton.
+Hilbert identifie que le théorème de Desargues de la géométrie classique se déduit
+d’autres axiomes mais pas de ceux d’incidence dans le plan, alors qu’il se formule uniquement en termes d’incidence.
+En l’introduisant comme axiome supplémentaire, il caractérise en fait tous les espaces affines de dimension 2.
+Et en le remplaçant par le théorème de Pappus, on obtient une caractérisation de tous les espaces affines sur des corps commutatifs.
+Relations entre droites et plans
+Position relative
+Deux plans
+Dans un espace affine de dimension 3, il n'existe que deux positions relatives de deux plans :
+* ils peuvent être parallèles, autrement dit de même direction, ce qui recouvre deux cas : les deux plans sont confondus ou ils sont disjoints (et qualifiés de strictement parallèles) ;
+* ils peuvent être sécants : leur intersection est alors une droite.
+Cette disjonction est particulière à l’espace tridimensionnel.
+En dimension plus grande, deux plans peuvent avoir un seul point d’intersection, ou être disjoints sans être parallèles.
+La direction est facile à comparer à partir des équations cartésiennes :
+Ces vecteurs sont respectivement des vecteurs normaux aux plans dans une base orthogonale, ou encodent dans la base duale des formes linéaires dont les plans sont des surfaces de niveau.
+Droite et plan
+Étant donné un plan de l’espace, une droite de cet espace peut être :
+* disjointe du plan
+et dans ce cas elle est strictement parallèle au plan.
+L’inclusion dans un espace affine de plus grande dimension ne fournit pas d’autre position relative d’une droite et d’un plan.
+Propriétés
+Le théorème du toit stipule que si une droite d’un plan est parallèle à une droite d’un autre plan sécant au premier, alors ces droites sont parallèles à l’intersection des deux plans.
+Trois plans sécants deux à deux ont des droites d’intersection qui sont nécessairement toutes parallèles ou concourantes.
+Angle
+Dans l’espace tridimensionnel euclidien, le produit scalaire permet de définir l’angle entre deux vecteurs non nuls.
+Étant donnés deux vecteurs non colinéaires \vec u, \vec v d’un plan, le produit vectoriel montre l’existence d’un vecteur \vec n orthogonal à \vec u et \vec v (et donc à tout autre vecteur reliant deux points du plan) qualifié de vecteur normal au plan.
+Ce vecteur est unique à multiplication près par un scalaire.
+Deux plans sécants délimitent des dièdres dont l’angle varie entre l’angle nul et l’angle plat, et qui correspond à l’angle entre leurs vecteurs normaux.
+Si ces vecteurs normaux sont eux-mêmes orthogonaux, les plans sont dits perpendiculaires.
+Ils ne sont pas dits orthogonaux, car il existe des vecteurs non nuls représentés à la fois dans l’un et dans l’autre (par exemple, des vecteurs dirigeant leur intersection dans le cas de deux plans sécants).
+Distance
+La distance entre deux plans, ou entre un plan et une droite, est la distance minimale entre un point de l’un et un point de l’autre.
+Ce minimum vaut 0 si les deux ensembles sont d’intersection non vide,
+et est atteint le long de segment orthogonaux aux deux ensembles dans le cas contraire.
+Utilisations
+Représentation de relation entre deux variables
+Le plan est le support de représentation visuelle et permet d’apprécier une relation entre deux variables numériques.
+Si chaque valeur de la première variable ne correspond qu’à une valeur (au plus) de la seconde, la relation est dite fonctionnelle, et le graphe de la relation est une courbe représentative de la fonction.
+Lorsque les deux variables sont décrites par un échantillon statistique, la relation est représentée par un nuage de points.
+Lorsque les deux variables sont elles
+-mêmes fonctions d’une variable tierce, en particulier d’une variable temporelle, leur relation est illustrée par une trajectoire, éventuellement obtenue par une équation différentielle.
+En particulier, l’étude des relations entre l’évolution d’une grandeur et sa dérivée temporelle donne lieu à la représentation d’un portrait de phase.
+Symétrie
+Une symétrie (orthogonale) par rapport à un plan est une transformation géométrique qui à tout point du plan associe l’unique point tel que le segment soit orthogonal au plan en son milieu.
+La composée de deux symétries par rapport à deux plans sécants est une rotation autour de leur droite d’intersection, d’angle le double de l’angle dièdre.
+La composée de deux symétries par rapport à deux plans parallèles est une translation d’un vecteur normal aux deux plans et de norme le double de la distance entre les plans.
+Une telle symétrie est caractéristique des espèces animales bilatères.
+Projection
+Une projection (affine) sur un plan, parallèlement à une droite sécante au plan, est une transformation géométrique qui associe à tout point l’unique point d’intersection entre le plan et la parallèle à passant par .
+Si la droite est orthogonale au plan, on parle alors de projection orthogonale.
+Une telle projection idéalise
+le phénomène de l’ombre sur un support plan dans le cas d’un éclairage à l’infini (qui est une bonne approximation de l’éclairage du Soleil).
+La projection affine sur un plan régit aussi la représentation en perspective cavalière.
+On l’utilise également en plus grande dimension pour visualiser un nuage de données, notamment à l’aide de l’analyse en composantes principales.
+Section
+Une section plane d’une figure de l’espace est simplement l’intersection de cette figure avec un plan.
+Cette notion permet de visualiser des structures mathématiques ou concrètes comme en architecture, en physique, chimie et biologie, notamment avec l’utilisation de scanner tridimensionnel.
+Changement de représentation
+Dans un cadre affine
+Les axiomes d’incidence de Hilbert mettent en évidence différentes caractérisations d’un plan dans un espace affine.
+Il existe un unique plan :
+* contenant une droite et un point n'appartenant pas à cette droite ;
+* contenant deux droites non confondues et parallèles.
+La première caractérisation permet d’obtenir simplement chacune des suivantes, et réciproquement.
+À partir de trois point ,, non alignés, on peut définir un repère
+A,\overrightarrow,\overrightarrow).
+Réciproquement, tout repère peut s’écrire sous cette forme.
+Étant donné un repère (A, \vec u, \vec v) du plan, on obtient une représentation paramétrique de la forme \overrightarrow = \lambda \vec u + \mu \vec v.
+En dimension 3, si l’on note A (a_1,a_2,a_3),
+\vec u
+u_1,u_2,u_3)
+et \vec v
+v_1,v_2,v_3)
+, on obtient les équations paramétriques
+\begin
+x = a_1 + \lambda u_1 + \mu v_1 \\
+y = a_2 + \lambda u_2 + \mu v_2 \\
+z = a_3 + \lambda u_3 + \mu v_3
+\end avec (\lambda,\mu)\in\R^2.
+Réciproquement, toute représentation paramétrique affine permet de retrouver les coordonnées du point origine (en annulant les paramètres) et des deux vecteurs directeurs (facteurs des paramètres dans chacune des trois équations).
+Enfin, à partir d’un repère (A, \vec u, \vec v) du plan dans l’espace et un point générique M (x,y,z), l’appartenance du point au plan est caractérisée par l’annulation du produit mixte de vecteurs \overrightarrow, \vec u, \vec v, lequel mesure le défaut de coplanarité.
+\vec u,\vec v,\overrightarrow
+\vec u,\vec v,\overrightarrow-\vec u,\vec v,\overrightarrow
+avec
+\vec u,\vec v,\overrightarrow=\begin
+u_1
+&& v_1
+&&x\\
+u_2
+&& v_2 && y\\
+u_3 && v_3&
+& z
+\end=\underbrace_ax +\underbrace_by +\underbrace_cz, et de même,
+-\vec u,\vec v,\overrightarrow=\underbrace_d.
+Ces 4 facteurs notés a, b, c, d définissent alors l’équation cartésienne ax+by+cz+d=0.
+Réciproquement
+, à partir d’une équation cartésienne s’écrivant ax+by+cz+d
+0 avec a,b
+,c non tous nuls, on peut choisir un point solution évidente (par exemple en choisissant une coordonnée associée à un coefficient non nul, en annulant les deux autres coordonnées, et en résolvant l’équation du premier degré restante), puis on détermine une base (\vec u, \vec v) du sous-espace vectoriel d’équation ax+by+cz
+0 dans \R^3
+Dans un cadre tridimensionnel euclidien
+Les caractérisations suivantes reposent sur les notions de distance et d’angle qui viennent de la structure euclidienne de l’espace en géométrie classique.
+Cette caractérisation d’un plan s’obtient très facilement à partir d’un repère (A,\vec u,\vec v) du plan, en utilisant le produit vectoriel \vec n = \vec u \wedge \vec v.
+Réciproquement, étant donné un point A (x_A,y_A,z_A) et un vecteur normal \vec n
+(a,b,c), on trouve facilement une équation cartésienne a (x-x_A)+b (y-y_A)+c (z-z_A)
+D’autres caractérisations se ramènent au choix d’un point et d’un vecteur normal :
+Géométrie vectorielle
+Un plan est un sous-espace de dimension 2 d'un espace vectoriel sur un corps commutatif \mathbb.
+On parle aussi dans ce cas d'un plan vectoriel.
+Un plan est toujours engendré par deux vecteurs v et w non colinéaires.
+De la sorte, x est un vecteur du plan si et seulement s'il est combinaison linéaire de v et w, à coefficients dans \mathbb.
+Si V est de dimension finie n
+, on peut aussi définir un plan par n-2 formes linéaires indépendantes s'annulant sur tous les vecteurs du plan.
+Il est particulièrement intéressant de disposer de cette dernière caractérisation, si on veut, par exemple, déterminer les points d'intersection du plan et d'un autre objet, par exemple une courbe ou une surface.
+Dans le cas où l'espace V est de dimension 3, il suffit d'une seule forme linéaire pour définir un plan.
+Connaissant deux vecteurs v et w qui l'engendrent, de coordonnées
+:\beginv_1\\v_2\\v_3\end\quad \text\quad \beginw_1\\w_2\\w_3\end,
+il est utile de savoir fabriquer une forme linéaire donnant l'équation du plan.
+Le produit mixte de v, w et z est nul si et seulement si z appartient au plan engendré par v et w. Ce produit mixte s'écrit
+v,w,z
+v\times w)\cdot z
+z_1 (v_2w_3-v_3w_2)+z_2 (v_3w_1-v_1w_3)+z_3 (v_1w_2-v_2w_1).
+On a ainsi obtenu la forme linéaire désirée.
+Réciproquement, si on possède une forme linéaire z\mapsto a_1z_1+a_2z_2+a_3z_3 définissant un plan, on peut trouver aisément deux vecteurs engendrant ce plan à partir de la forme linéaire.
+Il existe forcément un coefficient non nul parmi a_1, a_2 et a_3.
+Disons que ce coefficient est a_2.
+On peut alors réécrire l'équation du plan sous la forme
+:z_2=- (a_1z_1+a_3z_3) a_2\\0\end\quad \text \quad \begin0\\-a_3/a_2\\1\end,
+qui sont forcément indépendants puisque leurs projections respectives sur le plan des z_1,z_3 par rapport à l'axe des z_2 sont des vecteurs indépendants
+Généralisation en dimension plus élevée
+Supposons qu'on ait dans un espace de dimension n deux vecteurs v et w indépendants.
+Comment trouver n-2 formes linéaires indépendantes donnant les équations du plan?
+Cela revient à chercher une base de solutions du système linéaire
+:\begin&\sum_^nv_i x_i
+0,\\&\sum_^nw_ix_i
+0.\end
+Pour ce faire, on sélectionne deux indices p et q tels que les couples (v_p,v_q) et (w_p,w_q) soient linéairement indépendants.
+Géométriquement, cela revient à sélectionner un plan de coordonnées tel que les projections respectives de v et w sur ce plan, parallèlement au sous-espaces \ soient indépendantes.
+Un tel plan existe toujours parce que v et w sont indépendants.
+Une fois ceci fait, on réécrit le système précédent sous la forme
+:\begin
+v_px_p+v_qx_q&=-\sum_v_ix_i,\\
+w_px_p+w_qx_q&=-\sum_w_ix_i.\end
+La solution de ce système linéaire est obtenue par les méthodes classiques.
+Pour obtenir une base de l'espace des solutions, il suffira de substituer à la suite à n-2 éléments (x_i)_ les éléments de la base canonique de l'espace vectoriel \mathbb^, c'est-à-dire
+(1,0,0,\dots,0), (0,1,0,\dots,0), (0,0,1,\dots,0),\dots, (0,0,0,\dots,1).
+Réciproquement, étant données n-2 formes linéaires indépendantes \ell_j
+, on trouve deux vecteurs indépendants dans le plan défini comme ensemble des points où s'annulent ces formes linéaires, en trouvant une base de l'ensemble des solutions du système
+\ell_1 (z)
+0, \ell_2 (z)
+0,\dots, \ell_ (z)=0.
+En pratique, la meilleure manière de procéder est de mettre la matrice L du système sous forme échelonnée, moyennant d'éventuelles permutations sur les colonnes.
+Comme M est de rang n-2, cet algorithme fournira n-2 variables par rapport auxquelles on résoudra, et deux variables indépendantes à mettre dans le second membre.
+La résolution est alors rapide.
+Il faut absolument éviter les formules de Cramer pour détecter les indices des variables par rapport auxquelles on résout : il faudrait calculer n (n-1)/2 déterminants (n-2)\times (n-2), pour un nombre total d'opérations de l'ordre de n^4, si on calcule les déterminants par algorithme de Gauss-Jordan, alors que le passage sous forme échelon permet de conclure pour un nombre d'opérations de l'ordre de n^3.

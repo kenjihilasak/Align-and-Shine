@@ -1,0 +1,80 @@
+Fonction
+En mathématiques, une fonction est une valeur qui change en fonction d'une autre valeur.
+On la note f(x) : x est la valeur qui détermine celle de f(x).
+Par exemple si on dit f(x) = x+1, alors si x = 5, alors f(x) = 6 ;
+dans cet exemple très simple, il faut ajouter 1 à x pour obtenir f(x).
+Chaque objet mathématique
+a sa particularité : par exemple, les ensembles sont comme des sacs contenant d'autres objets, et les vecteurs peuvent être vus comme des points, des translations, ou même (en physique) des forces.
+Les fonctions sont les objets qui transforment d'autres objets (un synonyme de « fonction » est « transformation »).
+Cette idée est reprise et étendue en informatique, où les fonctions sont un moyen non seulement de transformer les objets qu'on leur donne, mais aussi d'agir sur l'environnement du programme (par exemple en affichant des choses à l'écran)
+- elles sont alors parfois appelées procédures pour les distinguer des fonctions mathématiques «
+pures ».
+En mathématique, une fonction a :
+souvent
+un nom
+par exemple f{\displaystyle f} ;
+un ensemble de départ (aussi appelé domaine, ensemble des antécédents ou ensemble de définition)
+par exemple, l'ensemble des nombres entiers ;
+un ensemble d'arrivée (aussi appelé codomaine ou ensemble des images), qui peut être identique ou différent de l'ensemble de départ ;
+un moyen de relier chaque élément de l'ensemble de départ à un élément de l'ensemble d'arrivée.
+Par exemple, on peut formaliser les opérations «
+ajoute
+1 »
+et «
+compte
+les doigts » sous la forme de fonctions :
+Ajoute 1 » transforme
+un nombre en autre nombre (du même ensemble)
+en retournant, pour toute valeur de départ x{\displaystyle x}, la valeur x+1{\displaystyle x+1}. Chaque élément de l'ensemble de départ (un nombre x{\displaystyle x})
+est relié à un élément de l'ensemble d'arrivée, car x+1{\displaystyle x+1} existe pour tout nombre x{\displaystyle x}.
+Compte les doigts » transforme
+un animal en nombre (entier ou rationnel selon la définition qu'on préfère) en retournant, pour tout animal Bob, le nombre de doigts que possède Bob.
+Chaque élément de l'ensemble de départ (un animal Bob) est relié à un élément de l'ensemble d'arrivée, car tout animal a un certain nombre de doigts (peut-être zéro).
+Pour dire « la fonction f{\displaystyle f} transforme 1 en 2 », on écrit souvent : f(1)=2{\displaystyle f(1)=2}.
+En général, il est plus simple de remplacer les nombres par des lettres, pour signifier que le nombre lui-même n'a pas d'importance ;
+on écrit alors (par exemple, si f{\displaystyle f} est notre fonction «
+ajoute
+1 ») :
+f(x)=x+1{\displaystyle f(x)=x+1}, ou parfois , qui se lisent « la fonction f{\displaystyle f} qui, à x{\displaystyle x}, associe x+1{\displaystyle x+1} ».
+Quand on veut parler des ensembles de départ et d'arrivée de f{\displaystyle f}, sans préciser exactement la transformation, on utilise une flèche différente : « f:
+A{\displaystyle f:A} → B{\displaystyle B} ».
+Par exemple, pour « ajoute 1 », les ensembles de départ et d'arrivée peuvent être les nombres entiers (un ensemble souvent noté ℤ), ce qui donne , qui se lit « une fonction f{\displaystyle f} des nombres entiers (ℤ) ».
+Le temps d'attente est fonction de la longueur de la file d'attente.
+On peut organiser certaines fonctions selon la façon dont elles transforment leurs valeurs de départ, par exemple :
+Certaines fonctions sont si importantes qu'elles ont leur propre nom, par exemple :
+L'image d'une fonction f{\displaystyle f} est le nom donné à l'ensemble des résultats de f{\displaystyle f}.
+Autrement dit, c'est l'ensemble (contenu dans l'ensemble d'arrivée) des valeurs f(x){\displaystyle f(x)} pour tout élément x{\displaystyle x} de l'ensemble de départ de f{\displaystyle f}.
+Dans ce cas, x{\displaystyle x} est appelé un antécédent de f(x){\displaystyle f(x)}.
+Quand on applique une fonction f{\displaystyle f} au résultat d'une fonction g{\displaystyle g}, on dit qu'on composef{\displaystyle f} et g{\displaystyle g}.
+Le résultat de cette composition est une nouvelle fonction (souvent notée f{\displaystyle f} ∘ g{\displaystyle g}) dont l'ensemble de départ est celui de g{\displaystyle g} (la première fonction appliquée) et l'ensemble d'arrivée celui de f{\displaystyle f} (la seconde fonction appliquée).
+f{\displaystyle f}⁻¹ est la réciproque de f{\displaystyle f} :
+son ensemble de départ est l'image de f{\displaystyle f}, et son image est l'ensemble de départ de f{\displaystyle f}.
+Prenons au hasard une fonction f{\displaystyle f}.
+Il existe peut-être une fonction g{\displaystyle g} qui fait la même transformation que f{\displaystyle f}, mais « à l'envers » ou « dans l'autre sens ».
+On appelle alors g{\displaystyle g} la fonction réciproque de f{\displaystyle f}, souvent notée f−1{\displaystyle f^{-1}}.
+Par exemple, si f(x)=2+x{\displaystyle f(x)=2+x}, sa réciproque est g(x)=x−2{\displaystyle g(x)=x-2}, car pour tout nombre x{\displaystyle x}, g(f(x))=x{\displaystyle g(f(x))=x}, c'est-à-dire que g{\displaystyle g} « annule » f{\displaystyle f} en transformant f(x){\displaystyle f(x)} en x{\displaystyle x}. En fixant x=3{\displaystyle x=3}
+, on a f(x)=2+3=5{\displaystyle f(x)=2+3=5}, et g(5)=5−2=3=x{\displaystyle g(5)=5-2=3=x}.
+Une fonction n'a pas forcément de réciproque !
+Cela dépend de la transformation et de l'ensemble de départ.
+Par exemple, la fonction carré (ou « puissance 2 »)f(n)=n{\displaystyle f(n)=n} × n{\displaystyle n} a une réciproque dans l'ensemble des entiers naturels (c'est la racine carrée), mais pas dans celui des entiers relatifs.
+C'est parce que la fonction carré associe le même résultat (n{\displaystyle n} × n{\displaystyle n}) à deux valeurs de départ différentes (n{\displaystyle n} et −n{\displaystyle -n}), par exemple f(3=3{\displaystyle f(3=3} × 3=9{\displaystyle 3=9} et f″(−3)=−3{\displaystyle f''(-3)=-3} × −3=9{\displaystyle -3=9}.
+Une fonction relie chaque élément de son ensemble de départ à un élément de son ensemble d'arrivée, mais la fonction réciproque de f{\displaystyle f} dans les entiers relatifs devrait associer 9 à la fois à 3 et -3 (deux éléments), ce qui n'est pas possible.
+Il n'existe donc pas de réciproque à la fonction quadratique (x2{\displaystyle x{2}}) dans les entiers relatifs.
+Sous certaines conditions, on peut observer le comportement d'une fonction f{\displaystyle f} en étudiant d'autres fonctions qui « décrivent comment évolue » f{\displaystyle f}.
+Par exemple, disons qu'un train quitte une gare, et que f{\displaystyle f} associe la distance parcourue par le train au temps écoulé depuis qu'il a quitté la gare.
+L'ensemble de départ de f{\displaystyle f} est donc un nombre de secondes et son ensemble d'arrivée (ce que f{\displaystyle f} retourne) est une distance entre le train et la gare, comme « 5 km ».
+Dit autrement, f{\displaystyle f} nous donne la distance du train (par rapport à la gare) à chaque instant.
+À partir de f{\displaystyle f}, on peut trouver une nouvelle fonction v{\displaystyle v} qui nous donne la vitesse du train à chaque instant.
+Connaître la vitesse du train (v{\displaystyle v}) nous renseigne sur la façon dont sa distance (f{\displaystyle f}) évolue en fonction du temps.
+On dit que la fonction v{\displaystyle v} est une dérivée de f{\displaystyle f}, et l'opération qui nous donne v{\displaystyle v} à partir de f{\displaystyle f} s'appelle dérivation.
+On peut continuer notre analyse et calculer aussi la dérivée de v{\displaystyle v}: on obtient alors une fonction qui décrit l'évolution de la vitesse en fonction du temps, c'est-à-dire l'accélération du train à chaque instant.
+Comme la fonction v{\displaystyle v} est la dérivée de f{\displaystyle f}, on appelle f{\displaystyle f} une primitive de v{\displaystyle v}.
+L'opération réciproque de la dérivation, qui permet de trouver les primitives d'une fonction, s'appelle l'intégration.
+Les fonctions (aussi appelées procédures ou routines) sont un outil essentiel dans les langages de programmation modernes.
+Elles sont un moyen de nommer et réutiliser du code source à plusieurs endroits, et donc rendent les programmes plus lisibles et plus efficaces.
+L'idée de fonction est représentée très différemment selon le langage.
+Un langage comme Haskell a des fonctions qui ressemblent beaucoup à la définition mathématique donnée plus haut, avec des ensembles de départ et d'arrivée strictement définis :
+Alors que dans un langage comme Python, les fonctions peuvent directement afficher des choses à l'écran, retourner n'importe quelle valeur, et même ne rien retourner du tout mais plutôt déclencher une exception :
+Parfois, notamment en programmation orientée objet, des fonctions sont « attachées » à des objets sur lesquels elles s'appliquent : on appelle alors ces fonctions des méthodes de ces objets.
+Plusieurs fonctions qui relèvent du même domaine sont souvent combinées en bibliothèques de fonctions, ce qui permet de les trouver et les réutiliser plus facilement.
+Par exemple, TensorFlow est une bibliothèque publiée par Google pour travailler en intelligence artificielle.

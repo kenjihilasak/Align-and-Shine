@@ -1,0 +1,141 @@
+Traitement de texte| |!|Suite bureautique|Logiciel libre sous licence LGPL|Logiciel qui utilise GTK|Logiciel pour Linux|Logiciel
+pour Unix|Logiciel pour Windows|Logiciel
+pour Mac OS|Produit lancé en 2011
+LibreOffice (parfois abrégé en LibO ou LO) est une suite bureautique libre et gratuite, dérivée du projet , créée et gérée par .
+LibreOffice est notamment soutenu par la Fondation pour le logiciel libre et rassemble autour du projet une grande partie de l'ancienne « communauté d' ».
+LibreOffice est intégré au socle interministériel de logiciels libres.
+L'interface utilisateur est disponible en 114 langues.
+Histoire
+À la suite du rachat de , propriétaire de la marque , par Oracle et aux difficultés relationnelles grandissantes entre Oracle et la communauté , celle-ci décide, le , de se détacher d'Oracle et de créer une fondation indépendante, , pour poursuivre le projet sur une base plus communautaire sous le nom de LibreOffice.
+La communauté LibreOffice propose à Oracle de se joindre au projet en tant que membre, et en contrepartie, de lui céder la marque .
+Oracle refuse cette proposition, gardant la propriété du nom pour décliner une offre bureautique en versions libre et commerciale, et a exigé que tous les membres du Conseil communautaire de concernés par quittent le Conseil communautaire OOo, invoquant un conflit d'intérêts.
+Quelques mois plus tard
+, Oracle renonce au marché bureautique et cède en mai 2011 le projet à la , où il prendra le nom de Apache OpenOffice.
+Cette intégration signifie notamment l'abandon du concept de .
+En 2012, le développement d’une version sur Android a été lancé.
+En 2013, IBM a donné une partie du code de IBM Lotus Symphony à Apache OpenOffice, étant sous licence libre, une partie de ce code a été repris et adapté dans la version 4.1, ce qui a donné naissance au volet latéral.
+Au fur et à mesure des développements de la suite bureautique, le recours à Java tend à disparaître, le code correspondant étant réécrit.
+Début 2016, si Java est encore utilisé, c'est principalement dans le module Base (mais le changement programmé de HSQLDB vers Firebird SQL permettra d'y remédier), accessoirement dans le composant Rhino (un moteur JavaScript écrit en Java qui pourrait être purement et simplement retiré), et aussi pour certaines extensions écrites en Java .
+Modules fonctionnels
+LibreOffice est un intégré bureautique, c’est-à-dire un logiciel composé d'un ensemble de modules pouvant interagir entre eux pour créer et modifier des documents bureautiques, tels que des textes mis en forme, des tableaux de chiffres, des présentations, des dessins.
+Pour plus de détails, on pourra se référer à la documentation utilisateur.
+est un traitement de texte.
+Il permet de gérer en plusieurs langues les paragraphes et mettre en forme les documents, tant au niveau de leur contenu sémantique que de leur mise en page.
+C'est le module le plus couramment utilisé.
+Il est compatible avec le format Microsoft Word dont il est le principal concurrent.
+Fichier
+LibreOffice 4.0
+- Writer.png|LibreOffice 4.0
+- dans Gnome Shell.
+Fichier
+Writer avec un persona de Firefox.png|LibreOffice 4.0
+- avec un persona de Firefox.
+Calc
+LibreOffice Calc est un tableur, ou gestionnaire de feuilles de calcul, disposant de nombreuses fonctions : travail de plusieurs utilisateurs sur la même feuille de calcul, traitement de macros, traitements et analyses de données, génération de graphiques, solveur.
+Il est compatible avec le format Microsoft Excel qu'il concurrence.
+Fichier
+Libreoffice 4.0
+- Calc.png|Ouverture d'un document .xls provenant de data.gouv.fr avec dans Gnome Shell.
+Impress
+LibreOffice Impress est le module de composition de diaporamas qui sert à faire des présentations sous forme de suites de diapositives.
+Celles-ci visent à mettre en valeur visuellement les points importants d’un exposé oral.
+Il utilise nativement le format OpenDocument (ODF), mais il est également compatible avec le format du logiciel Microsoft PowerPoint dont il est le principal concurrent.
+LibreOffice Impress comporte plusieurs modes :
+* mode diaporama, utilisé pour les présentations, il affiche les diapositives en mode plein écran, généralement projetées sur un écran à l’aide d’un vidéoprojecteur.
+Les diapositives sont présentées les unes à la suite des autres, soit de façon automatique, soit sous le contrôle de l’animateur de la réunion ou de la conférence ;
+* mode normal, utilisé pour éditer ou créer les diapositives ;
+* mode note, pour associer des commentaires à chaque diapositive ;
+* mode plan, pour visualiser la structure du diaporama ;
+* mode trieuse,
+pour réarranger l'ordre des diapositives au sein du diaporama ;
+* mode prospectus,
+pour organiser la mise en page des diapositives en vue de les imprimer.
+LibreOffice Draw est le module de dessin vectoriel pour schémas et illustrations simples.
+Il permet de manipuler des primitives graphiques simples (flèches, figures géométriques, étiquettes, cotations) par l'utilisation de calques (ou couches) et d’objets.
+Draw dispose de fonctionnalités de dessin en trois dimensions (3D) permettant d'inclure quelques éléments 3D prédéfinis (Cube, sphère, cône, pyramide) ou définis par l'utilisateur depuis des formes 2D.
+Les formes 2D sont transformées par extrusion droite ou conique (Outil : conversion 3D) et par révolution 3D (Outil : corps de révolution 3D).
+Ces fonctionnalités sont gérées par un outil unique Effets 3D qui donne accès à de nombreux réglages.
+Par exemple :
+* Géométrie
+- on peut modifier les Arrondis d'arêtes, le cône d'extrusion avec Échelle de profondeur, l’Angle de rotation pour les objets générés par Révolution 3D, et la Hauteur.
+Les Segments permettent d'affiner le rendu ou de modifier l'apparence des objets en réduisant les facettes.
+Les normales donnent quelques réglages pour le rendu et l'on peut basculer en mode Isométrique / Perspective.
+* Représentation
+- on accède au mode de rendu (Gouraud, Phong, Plat), à l'ombre portée, aux réglages de caméra.
+* Éclairage
+- huit sources de lumières de type Spot (en plus de l'ambiance) avec un réglage individuel de la position spatiale.
+* Textures
+- une gestion simplifiée en cinq réglages par bouton des textures appliquées.
+* Matériau
+- la possibilité d'appliquer des réglages couleur/réflexion pour imiter les matières.
+D'autres réglages visuels sont possibles avec les outils de la barre d'outils Ligne et remplissage.
+En résumé, la 3D avec est encadrée par deux principes :
+On peut… créer des formes 3D et les réunir dans un espace commun (Groupement 3D).
+On ne peut pas… réaliser d'opérations booléennes sur ces formes 3D ni agir sur une seule des facettes.
+La vue est en perspective, mais les actions sont limitées par le plan 2D (x, y) face à l'écran.
+La rotation de l'objet 3D est nécessaire pour agir sur la dimension Z de l'objet mais ne donne pas accès aux coordonnées d'un seul point.
+Par exemple, on ne peut pas donner un point Z de départ différent du point de fin d'une courbe pour réaliser un vrai pas de vis.
+dispose également de fonctions intéressantes telles qu'une option automatisée des rayures et des fonctions de base pour faire des diagrammes.
+est capable d'importer un fichier PDF, d'y ajouter tout ce qui est décrit précédemment, de supprimer des pages.
+Il est également possible de modifier le contenu (textes, tableaux, images) du PDF si le fichier d'origine n'est pas protégé.
+Depuis la version 3.6, peut importer les fichiers produits par (extension CDR), qu'il concurrence.
+Les fichiers réalisés sous LibreOffice Draw peuvent être exportés au format Flash en natif, et comme pour tous les fichiers produits par LibreOffice en PDF.
+Les fichiers réalisés sous peuvent être ouverts sous Draw en natif depuis la version LibreOffice 4.1 (novembre 2013) et enregistrés au format (
+LibreOffice Draw est un logiciel de dessin vectoriel au même titre que CorelDRAW ou Adobe Illustrator et, en libre, Inkscape.
+Il est cependant plus simple d'utilisation et moins sophistiqué que ces derniers, mais son avantage réside dans l'intégration à la suite bureautique LibreOffice ou OpenOffice.
+Il faut noter qu'il ne s'agit pas du même type de logiciels que les logiciels de traitement d'images matricielles (bitmap) Adobe Photoshop et son concurrent libre .
+Quant à Adobe InDesign, tout comme Scribus, il s'agit de logiciels de PAO (Publication Assistée par Ordinateur, donc mise en page avancée) et ne se placent donc pas sur le même créneau (même si des mises en page peuvent parfois être réalisées avec Draw).
+LibreOffice Draw ne concurrence pas les logiciels SIG ArcGIS et MapInfo, pour lesquels le projet libre QGIS existe.
+Base
+LibreOffice Base est le module de création et de gestion de base de données permettant aussi de générer des rapports.
+Base supporte les bases de données HSQLDB, FireBird, MySQL, MariaDB, Adabas D, PostgreSQL, dBase et Microsoft Access ainsi que les interfaces ODBC et JDBC.
+Base inclut nativement les gestionnaires de base de données HSQLDB (et Firebird depuis 2018).
+Une base de données extérieure n'est donc pas indispensable.
+Bien que Base concurrence le logiciel Microsoft Access, ses fonctionnalités sont différentes : Base a une interface ODBC, permettant de lier des tableaux (Calc ou Excel) et différentes bases de données.
+Microsoft Access est une interface graphique surtout utilisée pour visualiser des états de données et créer des formulaires de saisie utilisables après compilation en tant qu'exécutables avec .
+Math
+LibreOffice Math est le module de composition de formules mathématiques.
+Les formules peuvent être incluses dans les autres documents LibreOffice.
+Un assistant présente un choix d'opérations de départ.
+Si l'on choisit par exemple une fraction, celle-ci apparaît dans la demi-fenêtre du haut sous forme algébrique classique, et bas sous une forme alphanumérique modifiable : chacun de ses deux termes (numérateur et dénominateur) peut à son tour être remplacé par une opération, et ainsi de suite.
+Chaque formule peut être sauvegardée, complète ou non.
+Des sauvegardes successives sous des noms différents permettent de tracer les étapes d'évolution d'une formule, à des fins pédagogiques par exemple.
+Image:
+LibreOffice-3.5-Math
+WithContent
+German
+Windows-7.png|Un exemple sur LibreOffice Math.
+Versions
+Numérotation
+LibreOffice reprend le développement d' à partir de la version 3.2.1 (dernière version du tronc commun) et garde la numérotation de version.
+La première version est donc numérotée 3.3.0.
+Le principe de la numérotation des versions sur trois chiffres X.Y.Z est le suivant :
+Ce système de gestion des versions correspond aux besoins exprimés par les grands comptes qui souhaitent disposer de versions fonctionnelles maintenues sur une période suffisamment longue afin de mieux planifier les migrations.
+Tableau récapitulatif
+Pour accéder aux notes de versions et voir les nouveautés concernant les nouvelles versions il faut se rendre sur https:/ Category:ReleaseNotes/fr .
+LibreOffice en ligne
+LibreOffice en ligne ou (LOoL) est une édition de la suite bureautique sous la forme d'une application web.
+Le développement a été annoncé en octobre 2011.
+Des versions sont mises en œuvre par la société fonctionnent avec Zimbra (grace à Zextras), ownCloud, Nextcloud et d'autres applications.
+CODE est la version Open source
+portée
+par
+Format des documents
+LibreOffice utilise nativement le format ouvert OpenDocument.
+LibreOffice permet aussi l'importation et l'exportation des documents aux formats Microsoft Office (.doc (x), .xls (x), .ppt (x)…) afin de permettre l'échange de documents avec les utilisateurs ne disposant pas d'une suite bureautique compatible OpenDocument.
+D'autre part, LibreOffice permet aussi le traitement des fichiers Portable Document
+Format (PDF)
+, en effet il est possible non seulement d'exporter un document en format PDF, mais aussi d'y effectuer des modifications.
+LibreOffice permet aussi l'importation et l'exportation des documents au format HTML, permettant ainsi d'être utilisé comme éditeur de pages Web.
+Une extension chargeable à part lui permet également d'exporter au format MediaWiki.
+Polices incluses
+* DejaVu :
+Sans, Sans Condensed, Sans Mono, Serif
+, Serif Condensed
+* Liberation :
+Mono, Sans, Sans Narrow et Serif (substitut pour Courier, Arial, Arial Narrow et Times New Roman)
+* Noto : Kufi arabic, Mono, Naskh Arabic, Sans, Sans Armenian, Sans Georgian, Sans Hebrew, Sans Lao, Sans Lisu, Serif, Serif Armenian, Serif Georgian, Serif Hebrew, Serif Lao
+Récompenses
+En septembre 2016, LibreOffice reçoit le Bossie
+Awards 2016 (catégorie : Best Open-Source Application) remis par le magazine en ligne
+InfoWorld spécialisé dans le domaine des technologies de l'information.

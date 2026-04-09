@@ -1,0 +1,152 @@
+Diode|*|Électronique de puissance
+La diode (du grec di deux, double ;
+odos voie, chemin) est un composant électronique.
+C'est un dipôle non-linéaire et polarisé (ou non-symétrique).
+Le sens de branchement d'une diode a donc une importance sur le fonctionnement du circuit électronique dans lequel elle est placée.
+Sans précision
+ce mot désigne un dipôle qui ne laisse passer le courant électrique que dans un sens.
+Ce dipôle est appelé diode de redressement lorsqu'il est utilisé pour réaliser les redresseurs qui permettent de transformer le courant alternatif en courant unidirectionnel.
+Historique
+Le premier dispositif capable de laisser passer le courant électrique dans un sens, tout en le bloquant dans l'autre, fut découvert en 1874 par Karl Ferdinand Braun avec un cristal de galène.
+Cet appareil est aujourd'hui connu sous le nom de diode à pointe, bien que le terme diode n'ait été proposé qu'en 1919 pour la diode à vide.
+Jagadish Chandra
+Bose
+l'utilisa pour la détection des ondes radio, et ce système fut largement diffusé dès les débuts de la radiodiffusion, dans les années 1920, dans le poste à galène.
+Au début du , on utilisait des redresseurs à oxyde de cuivre ou au sélénium pour la conversion du courant alternatif en courant continu.
+Cette utilisation persista dans la plus grande partie du siècle pour la charge des batteries.
+En 1901, Peter Cooper Hewitt inventa
+le redresseur à vapeur de mercure, utilisé pour les applications de puissance jusqu'aux années 1970.
+À la même époque, recherchant à améliorer la détection des ondes radio, John Fleming mettait au point le premier tube électronique, la diode à vide, dont la cathode, chauffée, émet des électrons que l'anode peut capter, tandis que le contraire n'est pas possible.
+C'est à l'époque du premier essor de l'électronique, autour des industries du téléphone et de la radio, que les ingénieurs adoptent le terme de diode pour un tube électronique à deux électrodes, tandis que la triode, inventée en 1906, en a trois.
+La diode à semi-conducteur au germanium ou au silicium vient remplacer les tubes à vide après la Seconde Guerre mondiale.
+Leur chute de tension dans le sens direct (sens passant) est moins élevée à courant égal et elles sont plus pratiques à mettre en œuvre, n'exigeant pas de courant de chauffage.
+Cependant, les diodes à vide persistent tant que le tube électronique reste l'élément actif des appareils : elles fournissent une tension compatible avec les autres tubes, et l'alimentation des circuits doit de toute façon fournir un courant de chauffage des filaments.
+Le développement des semi-conducteurs a entraîné la création de nombreuses variétés de diodes, exploitant les caractéristiques de la jonction P-N, ou, dans le cas des diodes électroluminescentes, des propriétés annexes du matériau.
+Symbole
+La norme CEI 60617 définit les symboles pour les schémas en électronique.
+Le schéma normalisé CEI, symbole général de la diode à semi-conducteur, apparaît sur la figure ci-contre à la deuxième ligne sous la représentation plus commune.
+On trouve encore une variante avec le triangle rempli en noir, et entouré d'un cercle.
+Les notes d'application de fabricants de diodes reflètent une diversité d'usage, avec la forme normalisée, la forme sans trait central ou celle avec le triangle noir.
+Fabrication
+Fichier:
+Diode-EN A-K.svg|vignette|A : représente l'anode, reliée à la jonction P.
+K : représente la cathode, reliée à la jonction N.
+Les diodes sont fabriquées à partir de semi-conducteurs.
+Leur principe physique de fonctionnement est utilisé dans de nombreux composants actifs en électronique.
+Une diode est créée en accolant un substrat déficitaire en électrons c'est-à-dire riche en trous (semi-conducteur type P) à un substrat riche en électrons libres (semi-conducteur de type N ou métal).
+La plupart des diodes sont réalisées par la jonction de deux semi-conducteurs : l'un dopé «
+P » l'autre dopé
+N »
+La diode Schottky quant à elle est constituée d'une jonction semi-conducteur/métal.
+La connexion du côté P s'appelle l'anode ;
+celle du côté N ou métal porte le nom de cathode.
+Seule la diode Gunn échappe totalement à ce principe : n'étant constituée que d'un barreau monolithique d'arséniure de gallium, son appellation diode peut être considérée comme un abus de langage.
+Pour les diodes cylindriques, le côté de la cathode est généralement repéré par un anneau de couleur.
+D'autre formes de repérage existent selon la nature de l'encapsulation de ces composants.
+Fonctionnement théorique
+La diode est un dipôle à semi-conducteur (jonction P-N), qui possède deux régimes de fonctionnement : bloqué et passant.
+Ces régimes de fonctionnement ne sont pas contrôlables directement, mais dépendent de la tension aux bornes de la diode et de l'intensité du courant (courant direct, peut aussi s'écrire avec F pour ) la traversant.
+Caractéristique
+Caractéristique réelle
+Lorsque la diode est bloquée, n'est pas complètement nul mais vaut quelques (courant de fuite).
+est une donnée fournie par les constructeurs et vaut typiquement :
+Le courant qui traverse la diode s'obtient par l' (voir : « William Shockley ») :
+I=I_0\left\mathrm \exp \left ( \frac\right)-1\right
+où :
+* appelé tension thermique est égal à \frac où est la constante de Boltzmann, avec la température absolue de la jonction, et la charge d’un électron.
+à () ;
+* est le facteur de qualité de la diode, généralement compris entre 1 et 2 ;
+1 pour une diode de « signal » (comme le type 1N4148) ;
+* est la constante spécifique au type de diode considéré ( est homogène à un courant).
+Cette constante est aussi appelée « courant de saturation » de la diode.
+Modélisation de la diode à l'aide de la caractéristique
+À l'aide de la caractéristique on peut modéliser une diode passante par l'association d'une force électromotrice (la tension de seuil) qui s'oppose au passage du courant en série avec une résistance (la résistance dynamique).
+La diode dont la caractéristique dans le sens passant est représentée ci-dessus peut être modélisée par l'association de et .
+L'inverse de la résistance dynamique de la diode est la pente de sa caractéristique.
+Dans certains cas il sera judicieux de négliger l'un ou l'autre de ces paramètres :
+* la tension de seuil
+si elle est faible par rapport aux autres tensions du montage ;
+* la résistance dynamique
+si la chute de tension qu'elle provoque est faible devant les tensions du montage.
+Lorsque la diode est dite idéale, on suppose que ces deux derniers paramètres sont nuls.
+Caractéristique d'une diode idéale
+Caractéristiques techniques
+Principe
+Lors de l'aboutement des deux cristaux, les électrons surabondants de la partie N ont tendance à migrer vers la partie P pour y boucher les « trous » (phénomènes de diffusion et de recombinaison).
+En cédant chacun un électron, les atomes dopés de la partie N deviennent des ions positifs alors que les atomes dopés de la partie P contigus à la jonction deviennent des ions négatifs en gagnant ces électrons.
+Ces ions sont fixes et il se crée ainsi une barrière électrostatique croissante s'opposant, à l'équilibre, au phénomène de diffusion.
+Cette zone située de part et d'autre de la jonction sans porteur de charge mobile et isolante, est appelée zone de déplétion.
+Et il existe donc aussi, à l'équilibre thermodynamique, une différence de potentiel entre la partie N et la partie P (dite potentiel de jonction) ;
+celle-ci est de l'ordre de pour les diodes à substrat silicium, pour le germanium et les diodes Schottky ;
+elle est plus importante pour certains substrats type III-V comme GaAs ou les diodes électroluminescentes.
+Le champ électrique est maximal aux abords de la jonction, dans une zone appelée zone de charge d'espace, ZCE.
+Si maintenant l'on applique une tension positive côté N et négative côté P, la polarisation de la diode est dite « inverse » et la jonction « se creuse » : les électrons de la section N sont attirés vers l'extrémité du barreau, un phénomène symétrique se produit côté P avec les trous : la ZCE s'étend, aucun courant ne peut circuler, la diode est dite «
+bloquée » ;
+elle se comporte alors comme un condensateur, une propriété mise à profit dans les varicaps, diodes dont la capacité varie en fonction de la tension inverse qu'on leur applique ;
+elles sont utilisées entre autres dans la réalisation d'oscillateurs commandés en tension (OCT, anglais VCO).
+Lorsque la tension inverse devient suffisamment grande, on observe deux phénomènes ayant des causes distinctes :
+* l'énergie du champ électrique devient suffisante pour permettre aux électrons de valence de passer en bande de conduction (effet Zener).
+Ces derniers franchissent la jonction de la diode par effet tunnel.
+Il s'agit d'un effet quantique qui peut avoir lieu à une tension d'autant plus faible que la ZCE est mince ;
+* les paires électrons
+-trous créées dans le substrat à la suite de l'agitation thermique, accélérées par le champ électrique externe, vont pouvoir acquérir une énergie cinétique suffisante pour arracher, par choc contre le réseau cristallin, d'autres électrons qui vont s'extraire des liaisons covalentes et en frapper d'autres (effet d'avalanche).
+Ces deux phénomènes, dont la prédominance résulte de la concentration en dopant, donnent lieu à l'apparition d'un courant inverse important et non limité, qui aboutit souvent à la destruction (claquage) du cristal par effet Joule.
+La diode présente en effet une résistance très faible dans cette plage de fonctionnement.
+La tension inverse à laquelle se produit le phénomène d'avalanche s'appelle tension d'avalanche (souvent notée VBR de l'anglais )
+Si ce courant est limité au moyen de résistances externes, la diode en avalanche se comporte alors, du fait de sa faible résistance interne, comme une référence de tension (un récepteur de tension)
+quasi parfaite : cette propriété est à l'origine de l'utilisation des diodes dites
+Zener dans la régulation de tension continue.
+En revanche
+lorsque l'on applique une tension «
+directe »
+, c'est-à-dire que l'on applique une tension positive du côté P et négative du côté N (polarisation directe), pourvu que cette tension soit supérieure à la barrière de potentiel présente à l'équilibre, les électrons injectés du côté N franchissent l'interface N-P et terminent leur course soit en se recombinant avec des trous, soit à l'anode via laquelle ils peuvent rejoindre la source d'alimentation : le courant circule, la diode est dite « passante ».
+Lorsqu'un électron « tombe » dans un trou (recombinaison), il passe d'un état libre à un état lié ;
+il perd de l'énergie (différence entre le niveau de valence et le niveau de conduction) en émettant un photon ;
+ce principe est à l'origine des diodes électroluminescentes ou DEL,
+dont le rendement dépasse considérablement celui des sources de lumière domestiques : lampes à incandescence, lampes à halogène.
+Une DEL dont le substrat a été façonné pour servir de réflecteur aux photons peut donner lieu à du pompage optique, aboutissant à un rayonnement laser (diode laser).
+Le fonctionnement d'une diode n'est pas simple à appréhender lorsqu'on n'a pas fait d'études à caractère scientifique.
+Une manière plus simple et imagée pour comprendre le fonctionnement d'une diode est de réaliser une analogie avec l'hydrodynamique.
+Soit une canalisation munie d'un clapet anti-retour : dans un sens, à partir d'une certaine pression du fluide, le clapet va laisser passer le fluide (analogie avec la tension de seuil), dans l'autre sens, le fluide ne fera pas ouvrir le clapet, sauf si la pression est trop forte (analogie avec la tension inverse maximale).
+L'analogie peut être poussée, et on peut trouver des correspondances avec toutes les autres caractéristiques d'une diode (puissance, allure de la caractéristique…).
+Autres types de diode
+Diode Schottky
+La diode Schottky est constituée d'une jonction métal/semi-conducteur ce qui lui procure une chute de tension directe réduite ( environ) et une dynamique nettement améliorée du fait de l'absence de porteurs minoritaires engagés dans le processus de conduction.
+Elle est en revanche incapable de supporter des tensions au-delà d'une cinquantaine de volts.
+Diode Zener
+La diode Zener est plus fortement dopée qu'une diode conventionnelle.
+L'effet Zener a lieu lorsque, sous l'effet de l'application d'une tension inverse suffisante, l'augmentation du champ électrique provoque la libération des porteurs de charge de telle sorte que le courant augmente brutalement et que la tension aux bornes reste pratiquement constante.
+D'autres diodes, néanmoins classifiées comme diodes Zener, fonctionnent selon l'effet d'avalanche.
+Ces diodes permettent de faire de la stabilisation de tension et de l'écrêtage.
+On peut aussi utiliser une diode Zener comme source de bruit.
+Diode Transil
+La diode Transil est un composant du type parasurtenseur destiné à la protection des circuits.
+Cette diode a été créée grâce à l'optimisation du fonctionnement des diodes dans leur zone d'avalanche.
+Diode électroluminescente
+La diode électroluminescente, d'abord cantonnée aux signalisations lumineuses économes en courant, sert depuis les années 2000 à l'éclairage.
+Au début des années 1990 les recherches permirent la création des diodes électroluminescentes bleues, puis blanches.
+Certaines (au nitrure de gallium ou GaN) sont assez puissantes pour des phares de voitures et réverbères (éventuellement solaires).
+Un projet européen vise à en faire des éclairages domestiques capables de rivaliser avec les lampes basse consommation des années 1990-2000.
+La partie émettrice de systèmes de liaison à fibre optique, comme certains codeurs optiques peuvent utiliser des diodes électroluminescentes.
+Les diodes électroluminescentes émettant principalement dans l'infrarouge sont utilisées dans des composants électroniques tels que les photocoupleurs.
+Elles permettent la transmission d'un signal entre des circuits électriquement isolés ;
+les diodes sont en général l'élément non-linéaire nécessaire à la multiplication de fréquence hétérodyne ;
+* plusieurs diodes en série transmettent le signal avec une différence de potentiel continue qui diminue la distorsion de raccordement dans un étage de sortie push-pull d'amplificateur électronique à transistors bipolaires ;
+* la non-linéarité
+d'une ou plusieurs diodes en série avec une résistance suffisamment grande sert à adapter la réponse de circuits électroniques, et notamment donne une approximation de la valeur efficace d'un signal mise à profit dans un VU-mètre.
+En parallèle :
+* restitution de composante continue pour la transposition d'un signal électrique ;
+* montages écrêteurs et protection contre les surtensions (diode Zener, Transil…)
+Une diode en série, l'autre en parallèle :
+* doubleur et multiplicateur de tension ou pompe
+à diodes, dont multiplicateurs de tension Schenkel
+* transposition de niveau d'un signal par pompe à diodes et en thermométrie (mesure de température en fonction de la variation de la caractéristique)
+Les diodes permettent la réalisation de circuits logiques câblés simples pour un coût très modique.
+Cette technique est par exemple utilisée pour obtenir deux puissances de chauffe dans les sèche-cheveux, une diode, placée en série avec la résistance de chauffage
+, est mise en court-circuit par un interrupteur pour obtenir la puissance de chauffe maximale.
+Les diodes sont fréquemment utilisées dans le domaine de redressement de courant alternatif, par exemple en monophasé :
+* redressement simple alternance : une seule diode est nécessaire ;
+* redressement double alternance : on utilise pour cela un pont de diodes (pont de Graëtz) ou deux diodes sur les sorties en opposition de phase d'un transformateur à point milieu.
+Éclairage et signalisation
+En éclairage, l'invention des diodes électroluminescentes approximativement blanches, par association d'un produit fluorescent aux rayonnements des diodes électroluminescentes bleues, leur donne de nombreuses applications.
+Les diodes électroluminescentes, utilisées en affichage et signalisation sont une application particulièrement visible.

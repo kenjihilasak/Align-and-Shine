@@ -1,0 +1,75 @@
+Logiciel réseau et Internet|Filtrage numérique|Parent|Technique de la télévision
+Le contrôle ou filtre ou filtrage parental est un type de système qui permet aux parents de restreindre automatiquement l’accès de leurs enfants à un média (Internet, télévision, console de jeu) en le limitant à certaines catégories de contenus, afin de les protéger.
+Un premier risque est lié à la pédophilie et aux contenus inappropriés considérés comme choquants pour leur âge (pornographie, violence, fausse nouvelles et contenus mensongers).
+Un second risque est l'addiction aux écrans, car certains enfants sont incapables de gérer leur temps passé en ligne.
+De plus, il peut être nécessaire de limiter l'installation d'applications tierces, car les enfants peuvent sans le savoir installer des malwares.
+Les trois qualités d'une bonne solution de contrôle parental sont donc de filtrer correctement les contenus inappropriés, de prévenir l'addiction aux écrans et de limiter l'installation d'applications nuisibles.
+Les logiciels de contrôle parental n'ont pas forcément bonne réputation, à cause de leur côté « big brother ».
+Il peut être suffisant de mettre en place une série de bonnes pratiques pour réduire le risque lié au contenu choquant, le risque lié à l'addiction, et le risque lié à l'installation d'applications nuisibles (ou malware)
+Fonctionnement
+Le contrôle parental peut être mis en œuvre en installant un logiciel dédié sur l'ordinateur, la tablette ou le téléphone utilisé par l'enfant.
+Il peut aussi être mise en œuvre en paramétrant correctement les écrans utilisés par les enfants, ainsi que le point d'accès internet.
+Par exemple, le choix sur d'un serveur DNS filtrant la pornographie permet de la filtrer très efficacement.
+Le paramétrage du logiciel est protégé par mot de passe, afin que seul l’administrateur du système (les parents) puisse en modifier les paramètres.
+Si le logiciel est installé dans le système d'exploitation de l'ordinateur, il ne filtre alors pas le contenu appelé par d’autres systèmes (autre ordinateur, Live CD et Live USB, qui permettent alors de contourner le contrôle), le filtrage est plus efficace s'il est réalisé au niveau de la connexion à internet.
+Son utilisation est optionnelle.
+Internet
+Sur Internet, le contrôle parental peut être assuré par un logiciel ;
+mais il est plus efficace de contrôler soi-même les créneaux horaires progressifs, selon l'âge du jeune, l'implantation de l'ordinateur et de dialoguer avec le jeune sur ses droits et devoirs, quant à l'utilisation de cet outil.
+Comme tous les logiciels, ceux-ci peuvent être gratuits, mais pas forcément libres, il existe également de nombreuses solutions payantes.
+Des solutions existent aussi bien pour les plates-formes Mac, Windows, ainsi que sur les distributions de GNU/Linux et autres systèmes libres..
+Ces logiciels peuvent être utilisés non seulement dans les logiciels permettant d’accéder à Internet (navigateurs web), mais aussi dans les autres logiciels, les jeux vidéo, voire en dehors de l’ordinateur (dans la télévision numérique, les téléphones mobiles, les consoles de jeux).
+Les logiciels de contrôle parental n’ont pas pour vocation de remplacer la vigilance des parents ;
+il s’agit de simples outils.
+L'Union Européenne via son Projet SIP (Safer Internet Project) pour un Internet plus sûr, œuvre pour le développement de solutions de protection des enfants plus efficaces.
+En France, au niveau législatif, la loi pour la confiance dans l'économie numérique (LCEN) de 2004, impose à tous les fournisseurs d’accès à Internet grand public, d’informer leurs abonnés de l’existence de moyens de filtrage d’accès à internet.
+Une proposition de loi a été déposée à l'Assemblée nationale le 9 novembre 2005, « tendant à renforcer les obligations des fournisseurs d’accès à l’Internet en matière de fourniture de logiciels de filtrage ».
+Par ailleurs, au niveau exécutif, le gouvernement a obtenu en 2005, en concertation avec les fournisseurs d'accès à internet, que ces derniers mettent à disposition de leurs abonnés de tels systèmes.
+Bloquer les contenus inappropriés pour les enfants
+Les contenus inappropriés sont dangereux pour les enfants, et peuvent causer des séquelles psychologiques à long terme.
+Les logiciels modernes de contrôle parental (Qustodio, Norton family safe, bitdefender) bloquent les contenus choquants et fournissent un rapport aux parents.
+Il est également possible de bloquer les contenus inappropriés (pornographie, pédophilie, jeux d'argent) en configurant des serveurs DNS appropriés pour les enfants sur la box internet, l'ordinateur ou les mobiles et tablettes.
+Il existe plusieurs fournisseurs de DNS appropriés pour les enfants :
+*https:/ :
+185.228.168.168 et 185.228.168.169 Cleanbrowsing est simple et efficace complètement préconfiguré et fournit le filtrage le plus efficace des contenus inappropriés pour les enfants, des malwares et des phishings.
+*https:/ setupguide/#familyshield
+Opendns family shield : 208.67.222.123 et 208.67.220.123.
+solution simple et efficace, possibilité de configuration avancées avec l’option home (filtrage des réseaux sociaux etc).
+*https:/ en overview.html
+Adguard dns :
+176.103.130.132, 176.103.130.134 Adguard est moins efficace contre la pornographie, mais filtre aussi la publicité, bonne application mobile dans l’app store iOS et Android (payante).
+*https:/
+Comodo
+dome (filtre paramétrable)
+Complètement paramétrable, mais plus compliqué.
+La configuration du DNS doit préférablement être faite sur le routeur (la 'box') d'accès à internet, lorsque l'option est disponible.
+Elle peut également être fait sur chaque PC, comme le montre par exemple cette vidéo.
+Il est également possible de configurer un proxy, sur une machine virtuelle dans le cloud, ou sur une machine dédiée dans la famille.
+La combinaison de squid et de squidguard permet de filtrer très efficacement la pornographie et la publicité.
+Réduire le risque d'addiction
+Le risque d'addiction est réel, les enfants peuvent être accros aux jeux, à YouTube et aux réseaux sociaux.
+Pour limiter ce risque, la première option est simplement de garder le contrôle des écrans utilisés dans la famille, et de les mettre sous clef lorsque les parents s'absentent.
+Si cela ne suffit pas, les box internet permettent de définir des plages horaires pendant lesquelles l'accès à internet est autorisé.
+Les logiciels de contrôle parental permettent de définir des temps d'usage, et même de plafonner le cumul ces temps sur plusieurs écrans.
+Limiter l'installation d'applications tierces téléchargées
+Les enfants peuvent installer diverses applications de type malware (logiciels malveillants) sur leurs écrans.
+Pour prévenir ce risque, les fournisseurs de plate-forme permettent de contrôler l'installation des applications sur les équipements.
+* Dans les environnements Microsoft, il est possible de définir des profils pour chaque membre de la famille via le portail https:/ family fr-be store details?id
+com.google.android.apps.kids.familylink&hl
+fr Google family link permet de contrôler les applications installées sur le téléphone de l'enfant.
+Télévision
+Les décodeurs TV numériques (par câble, par satellite, par ADSL, etc.) sont parfois équipés d'un système de contrôle parental.
+Ce dernier filtre les émissions à contenus indésirables pour l'enfant telles que les magazines ou longs métrages pornographique ou gore et parfois à partir d'une certaine heure donnée.
+Leur utilité est que l’enfant peut être protégé non seulement sur Internet, mais aussi les adultes peuvent l'empêcher de regarder des programmes interdits à leur âge sur la télévision.
+Comme le contrôle parental pour Internet, un mot de passe ou un code spécial est requis pour l'activer ou le désactiver .
+Cependant, les aides sur son utilisation sont plus restreintes.
+Consoles de jeux vidéo dotés de systèmes de contrôle parental
+Références
+Voir aussi
+Articles connexes
+Articles généralistes
+Liens externes
+* http:/ hiiao
+Présentation
+sur le contrôle parental
+828us0v5dvwcexhuclt595boegnj68f

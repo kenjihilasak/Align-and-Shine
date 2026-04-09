@@ -1,0 +1,10 @@
+Système hexadécimal
+Le système hexadécimal (ou base 16) est comme le système décimal (à 10 symboles) utilisé courrament, sauf que le système hexadécimal emploie 16 symboles (comme on n'a que 10 chiffres, on utilise des lettres pour compléter) : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E et F.
+On s'en sert pour nommer les couleurs.
+#000000 donne un noir, #FFFFFF donne un blanc, #FF0000 donne un rouge, #00FF00 donne un vert, #0000FF donne un bleu.
+Dans ce système, les deux premiers chiffres donnent l'intensité du rouge, les deux seconds, l'intensité de vert et les deux derniers, l'intensité de bleu.
+Ainsi, par exemple, 0000FF signifie : 00 bleu, 00 rouge et FF bleu (FF est comme 99, le plus grand nombre a deux chiffres du système hexadécimal).
+Si on veut ajouter du rouge à ce bleu et faire un mauve, on peut ajouter la quantité de rouge en faisant augmenter la valeur des deux premiers chiffres.
+Par exemple, 9900FF ou encore plus de rouge BB00FF.
+On peut faire toutes les combinaisons qu'on veut.
+Ce qui fait : #██████

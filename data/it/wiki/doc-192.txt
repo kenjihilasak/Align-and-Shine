@@ -1,0 +1,102 @@
+Per la fisica, il suono è un'oscillazione (un movimento nello spazio) compiuta dalle particelle (atomi e molecole) in un mezzo.
+Nel caso del suono che si propaga in un mezzo fluido (tipicamente in aria) le oscillazioni sono spostamenti delle particelle, intorno alla posizione di riposo e lungo la direzione di propagazione dell'onda, provocati da movimenti vibratori, provenienti da un determinato oggetto, chiamato sorgente del suono, il quale trasmette il proprio movimento alle particelle adiacenti, grazie alle proprietà meccaniche del mezzo;
+le particelle a loro volta, iniziando ad oscillare, trasmettono il movimento alle altre particelle vicine e queste a loro volta ad altre ancora, provocando una variazione locale della pressione;
+in questo modo, un semplice movimento vibratorio si propaga meccanicamente originando unonda sonora (od onda acustica), che è pertanto onda longitudinale.
+Le onde sonore possono essere rappresentate graficamente utilizzando un grafico cartesiano, riportante il tempo (t) sull'asse delle ascisse, e gli spostamenti delle particelle (s) su quello delle ordinate.
+Il tracciato esemplifica gli spostamenti delle particelle:
+alla fine, la particella si sposta dal suo punto di riposo (asse delle ascisse) fino al culmine del movimento oscillatorio, rappresentato dal ramo crescente di parabola che giunge al punto di massimo parabolico.
+Poi la particella inizia un nuovo spostamento in direzione opposta, passando per il punto di riposo e continuando per inerzia fino ad un nuovo culmine simmetrico al precedente, questo movimento è rappresentato dal ramo decrescente che, intersecando l'asse delle ascisse, prosegue in fase negativa fino al minimo parabolico.
+Infine, la particella ritorna indietro e ripete nuovamente la sequenza di spostamenti, così come fa il tracciato del grafico.
+Il periodo (graficamente il segmento tra due creste) è il tempo impiegato dalla particella per tornare nello stesso punto dopo aver cominciato lo spostamento (indica cioè la durata di una oscillazione completa).
+La distanza dalla cresta all'asse delle ascisse indica, invece, lampiezza del movimento, in altre parole la distanza massima percorsa dalla particella dalla sua posizione di riposo durante l'oscillazione.
+Tuttavia, nonostante il periodo e l'ampiezza siano due grandezze che da sole sarebbero sufficienti per descrivere le caratteristiche di un'onda, non sono frequentemente utilizzate, perlomeno non in forma pura:
+in acustica si preferisce, infatti, usare altre grandezze da queste derivate.
+Il numero di periodi compiuti in un secondo esprime la frequenza in hertz (Hz).
+Dall'ampiezza dell'onda, invece, si calcola la pressione sonora, definita come la variazione di pressione rispetto alla condizione di quiete, e la potenza e l'intensità acustica, definita come il rapporto tra la potenza dell'onda e la superficie da essa attraversata;
+l'intensità delle onde sonore viene comunemente misurata in decibel.
+Tipologie di onde sonore
+Esistono tre diverse tipologie di onde sonore e ognuna è identificabile da un particolare andamento grafico
+* Le onde sinusoidali:
+onde dal tracciato regolare:
+i picchi sono speculari alle valli e assume la caratteristica forma di sinusoide.
+Le principali caratteristiche sono appunto il grafico sinusoidale e la periodicità.
+* Le onde periodiche non sinusoidali:
+sono sempre onde dal tracciato regolare, in quanto i picchi sono speculari alle valli, ma la loro forma risulta più complessa della precedente, perché presenta diverse anomalie nelle curve.
+Le caratteristiche sono: la periodicità e il grafico non sinusoidale.
+Il teorema di Fourier garantisce che siano sempre esprimibili come somma di componenti discrete sinusoidali di opportune ampiezza, frequenza - multipla della fondamentale - e fase.
+* Le onde aperiodiche:
+sono onde non regolari:
+il tracciato ha forma caotica e zigzagante.
+Sono caratterizzate dall'assoluta irregolarità del grafico e dall'aperiodicità;
+sono tracciati caratteristici dei rumori.
+Per una descrizione delle onde semplici i parametri di frequenza e d'ampiezza sono sufficienti, mentre le onde aperiodiche, a causa della loro aperiodicità, non possono essere descritte da alcun parametro.
+Invece nella descrizione delle onde complesse sono sì utili sia la frequenza che l'ampiezza, ma date le anomalie del tracciato, questi due semplici parametri da soli non sono sufficientemente esaurienti, in quanto bisogna ricorrere alla scomposizione dell'onda fondamentale in una serie d'onde semplici, che sono invece analizzabili con le normali grandezze.
+Le onde semplici o formanti, ottenute dalla scomposizione di un'onda complessa, sono dette armoniche e nel loro insieme costituiscono quello che è chiamato spettro dell'onda sonora.
+Una caratteristica molto importante delle armoniche è che le loro frequenze corrispondono sempre a multipli interi della frequenza dell'onda complessa, e sono indicate con F0, F1, F2, ecc. con il pedice che corrisponde al rapporto tra la frequenza dell'onda fondamentale e quella dell'armonica
+Equazione delle onde sonore
+Si consideri un volume d'aria \mathrmV=A\mathrmx.
+In esso l'aria si trova alla densità a riposo \rho_0.
+Dopo una compressione, la lunghezza del volume \mathrmx diventa \mathrmx+\mathrm\psi e la sua densità \rho.
+Calcolando la differenza di pressione alle estremità del volume si avrà:
+\mathrmp=\frac\mathrmx
+mentre la forza \left (p=\frac\right) vale
+\mathrmF
+-A\frac\mathrmx
+\mathrmV\frac
+mentre considerando la legge di Newton F=ma si ha
+\mathrmF=\rho_0\mathrmV\frac
+Eguagliando le ultime due relazioni, e dividendo entrambi i membri per \mathrmV, si ottiene
+-\frac = \rho_0\frac
+Ora, applicando la regola della catena, si può riscrivere \partial/\partial nel seguente modo:
+\frac\frac
+Facendo uso della legge di conservazione della massa, imponendo dunque che la massa d'aria contenuta nel volume non cambi prima e dopo la compressione, dovrà essere:
+\rho_0\mathrmx=\rho (\mathrmx+\mathrm\psi)
+Ricavando \rho si ottiene
+\rho = \rho_0\left ( 1+\frac\right)^
+e, derivando rispetto a x risulta
+\frac=\frac
+Ora l'equazione si presenta nella forma
+-\frac\frac=\frac
+Per risolvere il problema, è necessario trovare una relazione tra la pressione e la densità.
+Poiché la compressione avviene rapidamente, si può ipotizzare che essa accada in regime adiabatico
+Per le leggi della trasformazione adiabatica (PV^\gamma
+\text) per la pressione si ottiene p
+k\rho^\gamma, con k costante.
+Derivando rispetto a \rho, si ha
+\frac=k\gamma\rho^
+Utilizzando la precedente relazione tra \rho e \rho_0 si ottiene
+\frac
+k\gamma\rho_0^\left
+(1+\frac\right)^
+\gamma p_0\left
+(1+\frac\right)^
+dove p_0 rappresenta la pressione a riposo dell'aria nel volumetto.
+Inserendo questa relazione nell'equazione d'onda precedente si ottiene
+\frac\frac=\rho_0\frac
+Se le perturbazioni sono piuttosto piccole, e quindi per \partial\psi/\partial x\ll1, l'equazioni si linearizza e diviene
+\frac=\frac\frac
+che corrisponde all'equazione delle onde nel caso monodimensionale per onde che si propagano alla velocità
+v=\sqrt
+Velocità del suono
+La velocità di propagazione del suono attraverso un gas è:
+v_s = \sqrt
+dove &gamma;
+è il rapporto tra calore specifico a pressione costante e calore specifico a volume costante, p0 è la pressione statica del gas (nel quotidiano:
+la pressione atmosferica), &rho;0 la densità del gas.
+Utilizzando la legge dei gas perfetti
+:P =
+\rho_0\frac T
+dove MM è la massa molare, R la costante universale dei gas e T la temperatura assoluta (in kelvin), la velocità del suono può essere così riscritta:
+v_s = \sqrt
+Riflessione e incidenza delle onde sonore
+Se le dimensioni della superficie riflettente sono grandi rispetto alla lunghezza dell'onda sonora, le leggi delle riflessione sonora sono simili a quelle della riflessione ottica.
+Si consideri l'incidenza sulla superficie di separazione tra due mezzi;
+si ha che:
+\frac = \frac
+con c velocità del suono nei due mezzi.
+Quando l'angolo di incidenza è superiore all'angolo limite
+\theta_c=
+\arcsin
+\frac
+si ha la riflessione totale dell'onda sonora.
+Tale fenomeno si può realizzare anche nel passaggio tra due strati d'aria a diversa temperatura, con la nascita di zone d'ombra acustica.

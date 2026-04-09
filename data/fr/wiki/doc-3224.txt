@@ -1,0 +1,80 @@
+Mathématiques élémentaires|Suite de nombres|Geometrique
+En mathématiques, une suite géométrique est une suite de nombres dans laquelle chaque terme permet de déduire le suivant par multiplication par un facteur constant appelé raison.
+Ainsi, une suite géométrique a la forme suivante :
+:a,\ aq,\ aq^2,\
+aq^3,\ aq^4,\
+\ldots
+La définition peut s'écrire sous la forme d'une relation de récurrence, c'est-à-dire que pour chaque entier naturel n :
+q\times u_n\ ;
+\ \ u_0
+Cette relation est caractéristique de la progression géométrique qui se retrouve par exemple dans l'évolution d'un compte bancaire à intérêts composés ou la composition des intervalles musicaux.
+Elle permet aussi de modéliser une croissance exponentielle (dans laquelle la variation est proportionnelle à la quantité) par un processus en temps discret.
+Les suites géométriques satisfont une formule générale pour le calcul des termes ainsi que pour la série associée.
+Elles peuvent aussi servir à calculer des solutions particulières pour les relations de récurrence linéaires.
+Champ d'applications
+La suite géométrique est l'outil privilégié pour l'étude de phénomènes à croissance ou décroissance exponentielle, ou encore l'étude de populations dont la taille double ou diminue de moitié dans un intervalle de temps constant (période).
+Exemple :
+Le carbone 14 14C est un atome radioactif dont la période ou demi-vie est de T = 5730 ans (à 40 ans près).
+Cela signifie que, en cas de fermeture d'un système (fin des échanges avec le monde extérieur), la quantité de carbone 14 diminue de moitié tous les 5730 ans.
+:Si N est la quantité de 14C dans le système, au bout de T années (T = 5730 ans), il n'existe plus que N 4 noyaux.
+Au bout de 3T, il ne reste plus que N 2.
+On la retrouve aussi dans le système bancaire avec le calcul des intérêts composés.
+Exemple : Un capital C_0 placé à 5 % rapporte au bout d'un an 0,05 \times C_0 d'intérêts.
+Ces intérêts ajoutés au capital nous donnent un nouveau capital C_1
+1,05\times C_0
+En recommençant le processus chaque année, on crée une suite géométrique de raison 1,05 car C_
+1,05 \times C_n.
+On la retrouve enfin, en musicologie.
+En partant d'une certaine fréquence initiale, la suite des octaves correspond à une progression géométrique de raison 2 (en allant vers l'aigu), la suite des quintes pures (celles de l'accord pythagoricien) à une progression géométrique de raison 3/2, la suite des demi-tons de la gamme tempérée à une progression géométrique de raison la racine douzième de 2.
+La gamme tempérée n'utilise que douze quintes pures, ou ℂ (corps des complexes)
+- et si (u_n )_ est une suite géométrique de K de raison q ∈ K alors, pour tout entier naturel n :
+u_n = u_0 q^n
+= 1).
+Une suite géométrique est donc entièrement déterminée par la donnée de son premier terme et par sa raison q.
+Une suite géométrique peut aussi être définie à partir d'un rang quelconque , soit, pour tout , par :
+u_n=u_q^
+qui suit la même relation de récurrence.
+Ce cas se ramène au cas précédent en posant qui est géométrique de même raison que à partir de .
+Sens de variation et convergence
+On supposera u_ non nul.
+Sens de variation
+Ce paragraphe concerne les suites géométriques à valeurs dans ℝ.
+*si q 1\,, la suite est divergente mais possède une limite égale
+Supposons, sans perte de généralité,
+Le cas se ramène au cas en examinant les deux sous-suites d'indices pairs et d'indices impairs.
+Les cas et sont immédiats.
+Si alors la suite est décroissante et positive, donc converge vers un réel .
+La suite converge donc à la fois vers - comme sous-suite de , ou par le théorème des gendarmes puisque
+- et vers - comme produit de par la constante
+- donc (par unicité de la limite).
+Comme , on conclut que .
+Si , on peut minorer , en utilisant la formule du binôme ou l'inégalité de Bernoulli : .
+Puisque , la suite arithmétique tend vers donc la suite aussi.
+Remarque : en passant aux inverses, on peut déduire chacun de ces deux cas de l'autre, ou adapter la méthode de l'un pour redémontrer l'autre directement.
+Dans ℂ
+* si q = 1\ , la suite est constante et converge vers u_.
+* si q \neq 1 et \leftq\right| = 1, la suite diverge.
+Croissance comparée
+On considère ici des suites à valeurs dans ℝ.
+On démontre (par la formule du binôme ou l'inégalité de Bernoulli) que pour tout entier n et tout réel t positif, (1 + t )^n \geq 1 + nt.
+Cette inégalité permet d'affirmer qu'une suite géométrique de raison 1 + t et de premier terme a croît plus vite qu'une suite arithmétique de raison a×t.
+Cependant, en pratique, pour de petites valeurs de t et des valeurs raisonnables de n, les deux suites sont quasiment confondues.
+Cette approximation se justifie mathématiquement par le développement limité à l'ordre 1 lorsque t tend vers 0 : (1+t)^n=1 + nt + o (t) qui fournit l'approximation : ~ (1+t)^n \approx 1+nt.
+Illustration
+avec a
+et t
+soit une raison
+a×t = 4 :
+Cette approximation permet aux financiers d'utiliser comme taux d'intérêt mensuel le du taux annuel t, au lieu de prendre la valeur exacte \sqrt12-1 ;
+elle est d'autant meilleure que le taux est faible.
+Somme des termes
+La somme des n + 1 premiers termes d'une suite géométrique de raison vérifie :
+Quand q
+1, la suite est constante et u0 + … +
+n+1)u0.
+La formule se généralise à partir d'un rang m quelconque, la suite étant également géométrique.
+Plus généralement si la suite suit une progression géométrique entre m et n, qui est donc de longueur n
+- m + 1, on a la formule suivante quand la raison q est différente de 1 :
+La valeur de la somme des termes d'une progression géométrique est démontrée dans le livre IX des Éléments d'Euclide, théorème 33 proposition XXXV, pour des nombres entiers plus grands que 1 (mais par une méthode générale).
+La proposition énonce que, dans une progression géométrique, les différences entre le premier et le second terme d'une part et le premier et le dernier terme d'autre part sont proportionnelles respectivement au premier terme et à la somme de tous les termes qui précèdent le dernier.
+Soit en langage algébrique

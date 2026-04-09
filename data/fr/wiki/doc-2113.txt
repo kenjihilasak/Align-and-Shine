@@ -1,0 +1,93 @@
+Glossaire de la cryptologie
+Le chiffrement (ou cryptage) est un procédé de cryptographie grâce auquel on souhaite rendre la compréhension d'un document impossible à toute personne qui n'a pas la clé de (dé)chiffrement.
+Ce principe est généralement lié au principe d'accès conditionnel.
+Bien que le chiffrement puisse rendre secret le sens d'un document, d'autres techniques cryptographiques sont nécessaires pour communiquer de façon sûre.
+Pour vérifier l'intégrité ou l'authenticité d'un document, on utilise respectivement un Message Authentication
+Code (MAC) ou une signature numérique.
+On peut aussi prendre en considération l'analyse de trafic dont la communication peut faire l'objet, puisque les motifs provenant de la présence de communications peuvent faire l'objet d'une reconnaissance de motifs.
+Pour rendre secrète la présence de communications, on utilise la stéganographie.
+La sécurité d'un système de chiffrement doit reposer sur le secret de la clé de chiffrement et non sur celui de l'algorithme.
+Le principe de Kerckhoffs suppose en effet que l'ennemi (ou la personne qui veut déchiffrer le message codé)
+connaisse l'algorithme utilisé.
+Système symétrique ou asymétrique
+Un système de chiffrement est dit :
+* chiffrement symétrique quand il utilise la même clé pour chiffrer et déchiffrer.
+* chiffrement asymétrique quand il utilise des clés différentes : une paire composée d'une clé publique, servant au chiffrement, et d'une clé privée, servant à déchiffrer.
+Le point fondamental soutenant cette décomposition publique/privée est l'impossibilité calculatoire de déduire la clé privée de la clé publique.
+Les méthodes les plus connues sont le DES, le Triple DES et l'AES pour le chiffrement symétrique, et le RSA pour le chiffrement asymétrique, aussi appelé chiffrement à clé publique.
+L'utilisation d'un système symétrique ou asymétrique dépend des tâches à accomplir.
+La cryptographie asymétrique présente deux intérêts majeurs : elle supprime le problème de transmission sécurisée de la clé, et elle permet la signature électronique.
+Elle ne remplace cependant pas les systèmes symétriques car ses temps de calcul sont nettement plus longs et la cryptographie asymétrique est de par sa nature même plus vulnérable.
+Une solution hybride consiste à créer une clé de session aléatoire, invisible à l'utilisateur final, chiffrer de façon symétrique le document à protéger avec cette clé de session, puis à chiffrer cette clef de session avec la clef publique du destinataire avant de la détruire et enfin d'envoyer dans un seul fichier le document chiffré symétriquement et la clé de session chiffrée avec la clé publique.
+Il reste alors au destinataire à calculer la clé de session grâce à sa clef privée afin de l'utiliser pour déchiffrer le document original.
+Une clé de session étant nettement plus petite ( = ) qu'un document pouvant atteindre plusieurs dizaines de mégaoctets, on a les avantages de la rapidité et la robustesse d'un bon algorithme de chiffrement symétrique avec les avantages du chiffrement asymétrique.
+Différence entre chiffrement et codage
+Les opérations de chiffrement et de codage font partie de la théorie de l'information et de la théorie des codes.
+La différence essentielle réside dans la volonté de protéger les informations et d'empêcher des tierces personnes d'accéder aux données dans le cas du chiffrement.
+Le codage consiste à transformer de l'information (des données) vers un ensemble de mots.
+Chacun de ces mots est constitué de symboles.
+La compression est un codage : on transforme les données vers un ensemble de mots adéquats destinés à réduire la taille mais il n'y a pas de volonté de dissimuler (bien que cela se fasse implicitement en rendant plus difficile d'accès le contenu).
+Le « code » dans le sens cryptographique du terme travaille au niveau de la sémantique (les mots ou les phrases).
+Par exemple, un code pourra remplacer le mot « avion » par un numéro.
+Le chiffrement travaille sur des composantes plus élémentaires du message, les lettres ou les bits, sans s'intéresser à la signification du contenu.
+Un code nécessite une table de conversion, aussi appelée « dictionnaire » (codebook en anglais).
+Ceci étant, «
+code » et « chiffrement » sont souvent employés de manière synonyme malgré cette différence.
+L'exemple de codage le plus connu est le Code Morse international.
+Le Morse a été mis au point afin de permettre la transmission d'un texte en impulsions de type tout-ou-rien sans aucun équipement spécialisé, mis à part une clef de Morse et en étant facilement décodable à l'oreille humaine par un télégraphiste spécialement formé à cet effet.
+La transmission en tout-ou-rien simplifie grandement les équipements utilisés pour la transmission (en filaire, signaux lumineux ou hertziens) tout en augmentant significativement la facilité de décodage dans des conditions de signal faible (rapport signal/bruit faible).
+L'alphabet Morse étant du domaine public et encore enseigné aujourd'hui, particulièrement dans la communauté radioamateur, il ne peut donc pas servir à cacher un message d'un adversaire.
+Son usage est lié principalement à ses qualités propres en transmission.
+On parle donc ici d'un codage dans le sens le plus pur du terme.
+On peut aussi considérer que le chiffrement doit résister à un adversaire « intelligent » qui peut attaquer de plusieurs manières alors que le codage est destiné à une transmission sur un canal qui peut être potentiellement bruité.
+Ce bruit est un phénomène aléatoire qui n'a pas d'« intelligence » intrinsèque mais peut toutefois être décrit mathématiquement.
+Aspects légaux
+Aux États-Unis
+Au cours des décennies 1980 et 1990, les États-Unis ont connu une vive polémique sur l'utilisation et l'exportation des solutions de chiffrement, connue sous le nom de Crypto Wars.
+Elle opposait les pouvoirs publics au secteur privé et à des associations de défense des libertés civiles.
+Le chiffrement a d'abord relevé de la catégorie juridique des armes et munitions soumises à autorisation pour l'utilisation et l'exportation, au nom de la lutte contre le crime et le terrorisme.
+Cette régulation s'est assouplie en deux temps.
+Le 15 novembre 1996, Bill Clinton limite par décret la rigueur du régime de déclaration aux pouvoirs publics pour l'utilisation et l'exportation des solutions de chiffrement, qui est ensuite pratiquement aboli le 10 janvier 2000 à l'initiative d'Al Gore.
+Ces services devraient selon lui être légalement contraints de fournir aux autorités le texte en clair des échanges entre leurs utilisateurs à la demande d'une cour de justice, ce qui impliquerait ou d'intégrer une porte dérobée dans leur algorithme de chiffrement, ou de renoncer au chiffrement de bout en bout.
+En France
+La France connaît son propre pendant des « Crypto Wars » américaines durant les décennies 1980 et 1990, quoique sur un mode mineur, portant modification du décret du 12 mars 1973 fixant le régime des matériels de guerre, armes et munitions.
+Fondé sur un rapport de la DST et de la DGSE rédigé en 1985, le décret interdit l'exportation de logiciels de chiffrement, et oblige les sociétés agréées fournissant des services de chiffrement sur le territoire français à fournir au service central de la sécurité des systèmes d'information les clés de chiffrement employées.
+Le chiffrement de bout-en-bout, dans lequel seuls l'expéditeur et le destinataire d'un message disposent des clés de chiffrement et de déchiffrement, sont donc interdits.
+Cette interdiction est reconduite dans l' de la loi du 29 décembre 1990 sur la réglementation des télécommunications.
+Ainsi, l'usage de Pretty Good Privacy (PGP), un des premiers logiciels de chiffrement disponibles sur l'Internet, était strictement interdit en France jusqu'en 1996, car il était considéré comme une arme de guerre de deuxième catégorie.
+Sous la pression de militants des libertés civiles et d'une partie des milieux commerciaux pressentant l'importance à venir du commerce en ligne, cette situation est modifiée par l' de la loi du 26 juillet 1996 de réglementation des télécommunications, qui dispose que « l'utilisation d'un moyen ou d'une prestation de cryptologie est libre », quoiqu'à certaines conditions notamment le recours à un tiers de confiance agréé par les pouvoirs publics.
+Cet assouplissement de la législation française a été confirmé à la publication des décrets d'application au cours des années suivantes.
+Le chiffrement sans déclaration aux pouvoirs publics avec des clés allant jusqu'à pour usage privé est autorisée par le gouvernement Jospin en 1999 (décret du 17 mars 1999)).
+Malgré cela, le chiffrement reste au cœur de la tension entre protections des données personnelles, innovation technologique et surveillance.
+Dans une déclaration commune de juin 2017 avec la Première ministre britannique Theresa May, le président de la République Emmanuel Macron s'est prononcé en faveur d'un meilleur accès aux contenus chiffrés, « dans des conditions qui préservent la confidentialité des correspondances, afin que les messageries ne puissent pas être l'outil des terroristes ou des criminels ».
+À l'inverse, le chiffrement est défendu notamment par la CNIL, l'ANSSI ou encore le Conseil national du numérique comme un outil vital pour la sécurité en ligne, et qui permet également l'exercice des libertés fondamentales.
+Selon ces organismes, la mise en place de portes dérobées fragiliserait l'avenir de l'écosystème du numérique.
+Certaines décisions judiciaires vont également dans le sens d'une préservation du droit au chiffrement.
+Ainsi, le 11 juin 2019, le tribunal de grande instance de Créteil a reconnu le droit d'un prévenu à ne pas fournir le code de déverrouillage de son téléphone à la police, au motif que ce code ne peut pas en soi « être considéré comme une clé de déchiffrement d’un moyen de cryptologie », même s'il permet indirectement d'accéder au contenu d'un téléphone au contenu chiffré.
+En Suisse
+La Suisse a toujours été tolérante vis-à-vis de la cryptographie, le gouvernement est favorable à son utilisation et à son développement qui représente un marché économique.
+La Loi fédérale sur la Protection des Données (LPD) indique que les données personnelles sensibles doivent être protégées par des mesures techniques adaptées et que la cryptographie est recommandée.
+Plusieurs entreprises florissantes dans ce domaine sont suisses : Kudelski (chiffrement pour chaînes payantes), Mediacrypt (propriétaire de IDEA), Crypto AG et id Quantique (cryptographie quantique).
+La Loi fédérale du 21 juin 1991 sur les télécommunications (RS 784.10) indique que (résumé du texte de loi) :
+* Le développement et la création de produits cryptographiques (logiciel ou matériel)
+n'est soumis à aucune limitation.
+L'utilisation des logiciels cryptographiques n'est soumise à aucune limitation.
+* Les produits cryptographiques de même que les autres équipements de télécommunications qui peuvent être connectés au réseau public doivent être en accord avec les normes techniques ordonnés par le Conseil Fédéral (mise en conformité par le fabricant ou par une inspection de l'Office Fédéral de la Communication
+- OFCOM)
+L'import/export de matériel cryptographique est soumis à une demande de certificat, celui-ci autorise les transactions.
+Des dispositions particulières sont prévues en ce qui concerne les licences et les applications militaires.
+(voir liens externes ci-dessous).
+Terminologie
+Le terme « chiffrement » est utilisé depuis le dans le sens de chiffrer un message.
+L'opération inverse, qui suppose que l'on connaisse la clé, est donc le « déchiffrement ».
+Le terme de décryptage est réservé à l'action de casser (décoder) un message chiffré sans connaître la clé.
+Le Référentiel Général de Sécurité de l'agence française ANSSI qualifie d'incorrects «
+cryptage »
+et « chiffrage »,
+car la terminologie de cryptage reviendrait à coder un fichier sans en connaître la clé et donc sans pouvoir le décoder ensuite.
+L'Académie française reconnaît le terme « crypter ».
+Dans le cadre de la télévision à péage, on parle quasi exclusivement de chaînes « cryptées », ce que l'Académie française accepte : .
+Les géopolitologues Alix Desforges et Enguerrand Déterville recommandent l'utilisation du terme « chiffrement », et présentent « cryptage » comme un anglicisme formé sur « encryption ».
+Chiffrement des données numériques et télévision : l'accès conditionnel
+Le contrôle d'accès pour la télévision (en anglais, ou CA) consiste à chiffrer les données vidéo qui ne doivent pouvoir être lues que par les seuls usagers payant un abonnement.
+Le déchiffrement se fait à l'aide d'un terminal (Set-top box) contenant le module de déchiffrement.

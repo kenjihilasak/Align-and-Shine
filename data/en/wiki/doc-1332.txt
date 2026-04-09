@@ -1,0 +1,167 @@
+Microsoft Windows is a group of several graphical operating system families, all of which are developed, marketed and sold by Microsoft.
+Each family caters to a certain sector of the computing industry.
+Active Microsoft Windows families include Windows NT and Windows IoT; these may encompass subfamilies, e.g. Windows Server or Windows Embedded Compact (Windows CE).
+Defunct Microsoft Windows families include Windows 9x, Windows Mobile and Windows Phone.
+Microsoft introduced an operating environment named Windows on November 20, 1985, as a graphical operating system shell for MS-DOS in response to the growing interest in graphical user interfaces (GUIs).
+Microsoft Windows came to dominate the world's personal computer (PC) market with over 90% market share, overtaking Mac OS, which had been introduced in 1984.
+Apple came to see Windows as an unfair encroachment on their innovation in GUI development as implemented on products such as the Lisa and Macintosh (eventually settled in court in Microsoft's favor in 1993).
+On PCs, Windows is still the most popular operating system.
+However, in 2014, Microsoft admitted losing the majority of the overall operating system market to Android, because of the massive growth in sales of Android smartphones.
+In 2014, the number of Windows devices sold was less than 25% that of Android devices sold.
+This comparison, however, may not be fully relevant, as the two operating systems traditionally target different platforms.
+Still, numbers for server use of Windows (that are comparable to competitors) show one third market share, similar to that for end user use.
+, the most recent version of Windows for PCs, tablets, smartphones and embedded devices is Windows 10.
+The most recent version for server computers is Windows Server, version 1903.
+A specialized version of Windows also runs on the Xbox One video game console.
+Genealogy
+By marketing role
+Microsoft, the developer of Windows, has registered several trademarks, each of which denote a family of Windows operating systems that target a specific sector of the computing industry.
+As of 2014, the following Windows families were being actively developed:
+* Windows NT: Started as a family of operating systems with Windows NT 3.1, an operating system for server computers and workstations.
+It now consists of three operating system subfamilies that are released almost at the same time and share the same kernel:
+** Windows: The operating system for mainstream personal computers, tablets and smartphones.
+The latest version is Windows 10.
+The main competitor of this family is macOS by Apple for personal computers and Android for mobile devices (c.f. ).
+** Windows Server: The operating system for server computers.
+The latest version is Windows Server 2019.
+Unlike its client sibling, it has adopted a strong naming scheme.
+The main competitor of this family is Linux.
+** Windows PE: A lightweight version of its Windows sibling, meant to operate as a live operating system, used for installing Windows on bare-metal computers (especially on many computers at once), recovery or troubleshooting purposes.
+The latest version is Windows PE 10.
+* Windows IoT (previously Windows Embedded): Initially, Microsoft developed Windows CE as a general-purpose operating system for every device that was too resource-limited to be called a full-fledged computer.
+Eventually, however, Windows CE was renamed Windows Embedded Compact and was folded under Windows Compact trademark which also consists of Windows Embedded Industry, Windows Embedded Professional, Windows Embedded Standard, Windows Embedded Handheld and Windows Embedded Automotive.
+The following Windows families are no longer being developed:
+* Windows 9x:
+An operating system that targeted consumers market.
+Discontinued because of suboptimal performance. .
+Unlike MS-DOS, Windows allowed users to execute multiple graphical applications at the same time, through cooperative multitasking.
+Windows implemented an elaborate, segment-based, software virtual memory scheme, which allows it to run applications larger than available memory: code segments and resources are swapped in and thrown away when memory became scarce; data segments moved in memory when a given application had relinquished processor control.
+Windows 3.x
+Windows 3.0, released in 1990, improved the design, mostly because of virtual memory and loadable virtual device drivers (VxDs) that allow Windows to share arbitrary devices between multi-tasked DOS applications.
+Windows 3.0 applications can run in protected mode, which gives them access to several megabytes of memory without the obligation to participate in the software virtual memory scheme.
+They run inside the same address space, where the segmented memory provides a degree of protection.
+Windows 3.0 also featured improvements to the user interface.
+Microsoft rewrote critical operations from C into assembly.
+Windows 3.0 is the first Microsoft Windows version to achieve broad commercial success, selling 2 million copies in the first six months.
+Windows 3.1, made generally available on March 1, 1992, featured a facelift.
+In August 1993, Windows for Workgroups, a special version with integrated peer-to-peer networking features and a version number of 3.11, was released.
+It was sold along with Windows 3.1.
+Support for Windows 3.1 ended on December 31, 2001.
+Windows 3.2, released 1994, is an updated version of the Chinese version of Windows 3.1.
+The update was limited to this language version, as it fixed only issues related to the complex writing system of the Chinese language.
+Windows 3.2 was generally sold by computer manufacturers with a ten-disk version of MS-DOS that also had Simplified Chinese characters in basic output and some translated utilities.
+Windows 9x
+The next major consumer-oriented release of Windows, Windows 95, was released on August 24, 1995.
+While still remaining MS-DOS-based, Windows 95 introduced support for native 32-bit applications, plug and play hardware, preemptive multitasking, long file names of up to 255 characters, and provided increased stability over its predecessors.
+Windows 95 also introduced a redesigned, object oriented user interface, replacing the previous Program Manager with the Start menu, taskbar, and Windows Explorer shell.
+Windows 95 was a major commercial success for Microsoft; Ina Fried of CNET remarked that "by the time Windows 95 was finally ushered off the market in 2001, it had become a fixture on computer desktops around the world."
+Microsoft published four OEM Service Releases (OSR) of Windows 95, each of which was roughly equivalent to a service pack.
+The first OSR of Windows 95 was also the first version of Windows to be bundled with Microsoft's web browser, Internet Explorer.
+Mainstream support for Windows 95 ended on December 31, 2000, and extended support for Windows 95 ended on December 31, 2001.
+Windows 95 was followed up with the release of Windows 98 on June 25, 1998, which introduced the Windows Driver Model, support for USB composite devices, support for ACPI, hibernation, and support for multi-monitor configurations.
+Windows 98 also included integration with Internet Explorer 4 through Active Desktop and other aspects of the Windows Desktop Update (a series of enhancements to the Explorer shell which were also made available for Windows 95).
+In May 1999, Microsoft released Windows 98 Second Edition, an updated version of Windows 98.
+Windows 98 SE added Internet Explorer 5.0 and Windows Media Player 6.2 amongst other upgrades.
+Mainstream support for Windows 98 ended on June 30, 2002, and extended support for Windows 98 ended on July 11, 2006.
+On September 14, 2000, Microsoft released Windows Me (Millennium Edition), the last DOS-based version of Windows.
+Windows Me incorporated visual interface enhancements from its Windows NT-based counterpart Windows 2000, had faster boot times than previous versions (which however, required the removal of the ability to access a real mode DOS environment, removing compatibility with some older programs), expanded multimedia functionality (including Windows Media Player 7, Windows Movie Maker, and the Windows Image Acquisition framework for retrieving images from scanners and digital cameras), additional system utilities such as System File Protection and System Restore, and updated home networking tools.
+However, Windows Me was faced with criticism for its speed and instability, along with hardware compatibility issues and its removal of real mode DOS support.
+PC World considered Windows Me to be one of the worst operating systems Microsoft had ever released, and the 4th worst tech product of all time.
+Windows NT
+Early versions
+In November 1988, a new development team within Microsoft (which included former Digital Equipment Corporation developers Dave Cutler and Mark Lucovsky) began work on a revamped version of IBM and Microsoft's OS 2".
+NT OS/2 was intended to be a secure, multi-user operating system with POSIX compatibility and a modular, portable kernel with preemptive multitasking and support for multiple processor architectures.
+However, following the successful release of Windows 3.0, the NT development team decided to rework the project to use an extended 32-bit port of the Windows API known as Win32 instead of those of OS/2.
+Win32 maintained a similar structure to the Windows APIs (allowing existing Windows applications to easily be ported to the platform), but also supported the capabilities of the existing NT kernel.
+Following its approval by Microsoft's staff, development continued on what was now Windows NT, the first 32-bit version of Windows.
+However, IBM objected to the changes, and ultimately continued OS/2 development on its own.
+Windows XP
+The next major version of Windows NT, Windows XP, was released on October 25, 2001.
+The introduction of Windows XP aimed to unify the consumer-oriented Windows 9x series with the architecture introduced by Windows NT, a change which Microsoft promised would provide better performance over its DOS-based predecessors.
+Windows XP would also introduce a redesigned user interface , streamlined multimedia and networking features, Internet Explorer 6, integration with Microsoft's .NET Passport services, modes to help provide compatibility with software designed for previous versions of Windows, and Remote Assistance functionality.
+At retail, Windows XP was now marketed in two main editions: the "Home" edition was targeted towards consumers, while the "Professional" edition was targeted towards business environments and power users, and included additional security and networking features.
+Home and Professional were later accompanied by the "Media Center" edition (designed for home theater PCs, with an emphasis on support for DVD playback, TV tuner cards, DVR functionality, and remote controls), and the "Tablet PC" edition (designed for mobile devices meeting its specifications for a tablet computer, with support for stylus pen input and additional pen-enabled applications).
+Mainstream support for Windows XP ended on April 14, 2009.
+Extended support ended on April 8, 2014.
+After Windows 2000, Microsoft also changed its release schedules for server operating systems; the server counterpart of Windows XP, Windows Server 2003, was released in April 2003.
+Windows 7 has multi-touch support, a redesigned Windows shell with an updated taskbar, a home networking system called HomeGroup, and performance improvements.
+(in recent years) of devices.
+They are consistent with server numbers in next section.
+In terms of the number of devices shipped with the operating system installed, on smartphones, Windows Phone was the third-most-shipped OS (2.6%) after Android (82.8%) and iOS (13.9%) in the second quarter of 2015 according to IDC.
+Across both PCs and mobile devices, in 2014, Windows OSes were the second-most-shipped (333 million devices, or 14%) after Android (1.2 billion, 49%) and ahead of iOS and macOS combined (263 million, 11%).
+Use of the latest version Windows 10 has exceeded Windows 7 globally since early 2018.
+In most developed countries, such as Japan, Australia and the US, Windows 10 already was the most popular version since early 2017.
+Usage share on servers
+Usage share of Windows on serversthose running a web servers that is (there are also other kinds of servers) is at 33.6%.
+Security
+Consumer versions of Windows were originally designed for ease-of-use on a single-user PC without a network connection, and did not have security features built in from the outset.
+However, Windows NT and its successors are designed for security (including on a network) and multi-user PCs, but were not initially designed with Internet security in mind as much, since, when it was first developed in the early 1990s, Internet use was less prevalent.
+These design issues combined with programming errors (e.g. buffer overflows) and the popularity of Windows means that it is a frequent target of computer worm and virus writers.
+In June 2005, Bruce Schneier's Counterpane Internet Security reported that it had seen over 1,000 new viruses and worms in the previous six months.
+In 2005, Kaspersky Lab found around 11,000 malicious programs-viruses, Trojans, back-doors, and exploits written for Windows.
+Microsoft releases security patches through its Windows Update service approximately once a month (usually the second Tuesday of the month), although critical updates are made available at shorter intervals when necessary.
+In versions of Windows after and including Windows 2000 SP3 and Windows XP, updates can be automatically downloaded and installed if the user selects to do so.
+As a result, Service Pack 2 for Windows XP, as well as Service Pack 1 for Windows Server 2003, were installed by users more quickly than it otherwise might have been.
+While the Windows 9x series offered the option of having profiles for multiple users, they had no concept of access privileges, and did not allow concurrent access; and so were not true multi-user operating systems.
+In addition, they implemented only partial memory protection.
+They were accordingly widely criticised for lack of security.
+The Windows NT series of operating systems, by contrast, are true multi-user, and implement absolute memory protection.
+However, a lot of the advantages of being a true multi-user operating system were nullified by the fact that, prior to Windows Vista, the first user account created during the setup process was an administrator account, which was also the default for new accounts.
+Though Windows XP did have limited accounts, the majority of home users did not change to an account type with fewer rights - partially due to the number of programs which unnecessarily required administrator rights - and so most home users ran as administrator all the time.
+Windows Vista changes this by introducing a privilege elevation system called User Account Control.
+When logging in as a standard user, a logon session is created and a token containing only the most basic privileges is assigned.
+In this way, the new logon session is incapable of making changes that would affect the entire system.
+When logging in as a user in the Administrators group, two separate tokens are assigned.
+The first token contains all privileges typically awarded to an administrator, and the second is a restricted token similar to what a standard user would receive.
+User applications, including the Windows shell, are then started with the restricted token, resulting in a reduced privilege environment even under an Administrator account.
+When an application requests higher privileges or "Run as administrator" is clicked, UAC will prompt for confirmation and, if consent is given (including administrator credentials if the account requesting the elevation is not a member of the administrators group), start the process using the unrestricted token.
+Leaked documents published by WikiLeaks, codenamed Vault 7 and dated from 2013-2016, detail the capabilities of the CIA to perform electronic surveillance and cyber warfare, such as the ability to compromise operating systems such as Microsoft Windows.
+In August 2019, computer experts reported that the BlueKeep security vulnerability, , that potentially affects older unpatched Microsoft Windows versions via the program's Remote Desktop Protocol, allowing for the possibility of remote code execution, may now include related flaws, collectively named DejaBlue, affecting newer Windows versions (i.e., Windows 7 and all recent versions) as well.
+In addition, experts reported a Microsoft security vulnerability, , based on legacy code involving Microsoft CTF and ctfmon (ctfmon.exe), that affects all Windows versions from the older Windows XP version to the most recent Windows 10 versions; a patch to correct the flaw is currently available.
+File permissions
+All Windows versions from Windows NT 3 have been based on a file system permission system referred to as AGDLP (Accounts, Global, Local, Permissions) in which file permissions are applied to the file/folder in the form of a 'local group' which then has other 'global groups' as members.
+These global groups then hold other groups or users depending on different Windows versions used.
+This system varies from other vendor products such as Linux and NetWare due to the 'static' allocation of permission being applied directory to the file or folder.
+However using this process of AGLP AGUDLP allows a small number of static permissions to be applied and allows for easy changes to the account groups without reapplying the file permissions on the files and folders.
+Windows Defender
+On January 6, 2005, Microsoft released a Beta version of Microsoft AntiSpyware, based upon the previously released Giant AntiSpyware.
+On February 14, 2006, Microsoft AntiSpyware became Windows Defender with the release of Beta 2.
+Windows Defender is a freeware program designed to protect against spyware and other unwanted software.
+Windows XP and Windows Server 2003 users who have genuine copies of Microsoft Windows can freely download the program from Microsoft's web site, and Windows Defender ships as part of Windows Vista and 7.
+In Windows 8, Windows Defender and Microsoft Security Essentials have been combined into a single program, named Windows Defender.
+It is based on Microsoft Security Essentials, borrowing its features and user interface.
+Although it is enabled by default, it can be turned off to use another anti-virus solution.
+Windows Malicious Software Removal Tool and the optional Microsoft Safety Scanner are two other free security products offered by Microsoft.
+In the Windows 10 Anniversary Update, Microsoft introduced the Limited Periodic Scanning feature, which allows Windows Defender to scan, detect, and remove any threats that third-party anti-virus software missed.
+The Advanced Threat Protection service is introduced for enterprise users.
+The new service uses cloud service to detect and take actions on advanced network attacks.
+Third-party analysis
+In an article based on a report by Symantec, has described Microsoft Windows as having the "fewest number of patches and the shortest average patch development time of the five operating systems it monitored in the last six months of 2006."
+A study conducted by Kevin Mitnick and marketing communications firm Avantgarde in 2004, found that an unprotected and unpatched Windows XP system with Service Pack 1 lasted only four minutes on the Internet before it was compromised, and an unprotected and also unpatched Windows Server 2003 system was compromised after being connected to the internet for 8 hours.
+The computer that was running Windows XP Service Pack 2 was not compromised.
+The AOL National Cyber Security Alliance Online Safety Study of October 2004, determined that 80% of Windows users were infected by at least one spyware/adware product.
+Much documentation is available describing how to increase the security of Microsoft Windows products.
+Typical suggestions include deploying Microsoft Windows behind a hardware or software firewall, running anti-virus and anti-spyware software, and installing patches as they become available through Windows Update.
+Alternative implementations
+Owing to the operating system's popularity, a number of applications have been released that aim to provide compatibility with Windows applications, either as a compatibility layer for another operating system, or as a standalone system that can run software written for Windows out of the box.
+These include:
+* Wine - a free and open-source implementation of the Windows API, allowing one to run many Windows applications on x86-based platforms, including UNIX, Linux and macOS.
+Wine developers refer to it as a "compatibility layer" and use Windows-style APIs to emulate Windows environment.
+** CrossOver - a Wine package with licensed fonts.
+Its developers are regular contributors to Wine, and focus on Wine running officially supported applications.
+** Cedega - a proprietary fork of Wine by TransGaming Technologies, designed specifically for running Microsoft Windows games on Linux.
+A version of Cedega known as Cider allows Windows games to run on macOS.
+Since Wine was licensed under the LGPL, Cedega has been unable to port the improvements made to Wine to their proprietary codebase.
+Cedega ceased its service in February 2011.
+** Darwine - a port of Wine for macOS and Darwin.
+Operates by running Wine on QEMU.
+** Linux Unified Kernel - a set of patches to the Linux kernel allowing many Windows executable files in Linux (using Wine DLLs); and some Windows drivers to be used.
+* ReactOS - an open-source OS intended to run the same software as Windows, originally designed to simulate Windows NT 4.0, now aiming at Windows 7 compatibility.
+It has been in the development stage since 1996.
+* Linspire - formerly LindowsOS, a commercial Linux distribution initially created with the goal of running major Windows software.
+Changed its name to Linspire after Microsoft v. Lindows.
+Discontinued in favor of Xandros Desktop, that was also later discontinued.
+* Freedows OS - an open-source attempt at creating a Windows clone for x86 platforms, intended to be released under the GNU General Public License.
+Started in 1996, by Reece K. Sellin, the project was never completed, getting only to the stage of design discussions which featured a number of novel concepts until it was suspended in 2002.
+Azure Sphere, Microsoft's Linux-based operations system
+* Windows Subsystem for Linux, a subsystem in Windows 10, not using the Linux kernel; reimplementing

@@ -1,0 +1,99 @@
+Surface|Sphère|*|Géométrie dans l'espace|Espace homogène|Quadrique
+En géométrie dans l'espace, une sphère est une surface constituée de tous les points situés à une même distance d'un point appelé centre.
+La valeur de cette distance au centre est appelée le rayon de la sphère.
+La géométrie sphérique est la science qui étudie les propriétés des sphères.
+La surface de la Terre peut, en première approximation, être modélisée par une sphère dont le rayon est d'environ .
+Plus généralement en mathématiques, dans un espace métrique, une sphère est l'ensemble des points situés à même distance d'un centre.
+Leur forme peut alors être très différente de la forme ronde usuelle.
+Une sphère est également un ellipsoïde dégénéré.
+Les points dont la distance au centre est inférieure ou égale au rayon constituent une boule.
+Sphère euclidienne (dans l’espace à 3 dimensions)
+Représentation
+En géométrie cartésienne, une sphère de centre (x_0, y_0, z_0) et de rayon r est l'ensemble des points (x, y, z) tels que :
+\displaystyle (x-x_0)^2+ (y-y_0)^2+ (z-z_0)^2 = r^2.
+Les points de la sphère de rayon r et de centre l'origine du repère peuvent être paramétrés par :
+\left\
+\begin
+x & = & r \cos\theta \;
+\cos\phi \\
+y & = & r \cos\theta \;
+\sin\phi
+z & = & r \sin\theta
+\end
+\right.
+\qquad\left (\frac
+\le\theta\le \frac
+\mbox
+-\pi \le
+\phi \le \pi\right)
+On peut voir \displaystyle \theta comme la latitude et \displaystyle \phi comme la longitude.
+Voir fonctions trigonométriques et coordonnées sphériques.
+Formules
+L'aire d'une sphère de rayon r est :
+A=4\pi r^2.
+Le volume de la boule qu'elle renferme est :
+V=\frac.
+Sa , c'est-à-dire le rapport entre son volume et sa surface est
+\frac
+\frac
+Le moment d'inertie d'une boule homogène de rayon r, de masse volumique \rho et de masse M, par rapport à un axe passant par son centre est :
+\frac
+\frac
+Le moment d'inertie d'une sphère homogène de rayon r et de masse M, par rapport à un axe passant par son centre est :
+\frac
+\frac
+L'élément d'aire de la sphère de rayon r dans les coordonnées latitude-longitude est \mathrm d\sigma=r^2\cos\theta\mathrm d\theta
+d\phi.
+On en déduit que l'aire d'un s) est 2\alpha r^2.
+Cela permet aussi de calculer l'aire d'une calotte sphérique (on dit aussi segment de sphère), c’est-à-dire d'une portion de sphère limitée par deux plans parallèles qui intersectent la sphère (ou lui sont tangents).
+On trouve 2\pi rh où h désigne la distance des deux plans : l'aire est la même que celle d'un cylindre circulaire de même hauteur tangent à la sphère (cylindre circonscrit).
+Ce résultat remarquable est démontré par Archimède dans son traité De la sphère et du cylindre.
+Selon Cicéron, Archimède aurait demandé que soient gravés sur son tombeau, en mémoire de ce résultat, une sphère et son cylindre circonscrit.
+Le cylindre circonscrit à une sphère donnée a un volume égal à 1,5 fois le volume de la sphère.
+La sphère a la plus petite aire parmi les surfaces renfermant un volume donné et renferme le volume le plus élevé parmi les surfaces d'une aire donnée.
+Elle est la réponse à la question d'isopérimétrie pour l'espace euclidien de dimension 3.
+Pour cette raison, la sphère apparaît dans la nature, par exemple les bulles et gouttes d'eau (en l'absence de gravité)
+sont des sphères car la tension superficielle essaie de minimiser l'aire.
+Sphère circonscrite à un tétraèdre
+Par quatre points non coplanaires A, B, C et D (ABCD est un tétraèdre non aplati), il passe une seule et unique sphère, appelée sa .
+Les plans médiateurs des arêtes du tétraèdre se coupent au centre de la sphère.
+Développement
+On peut démontrer que la sphère est une surface non développable.
+Il n'existe pas de patron de la sphère.
+Néanmoins il est possible, en pratique, d'obtenir des surfaces développables approchant la sphère très fidèlement, c'est le cas de tous les cousus.
+Voir : ballon de football (icosaèdre tronqué), ballon de volley-ball, et ballon fantaisie (en fuseaux de pôle à pôle.
+Notez que la pression interne gauchit les surfaces et fidélise l'approche…
+Plus on gonfle plus la sphère s'approche de la perfection.
+Sphères euclidiennes de dimensions supérieures
+On peut généraliser le concept de sphère à un espace de dimension entière quelconque.
+Pour tout entier naturel n, une n
+sphère de rayon
+r est l'ensemble des points de l'espace euclidien à (n+1) dimensions qui sont à distance fixée r d'un point de cet espace (r est un réel strictement positif).
+Par exemple :
+* une 0-sphère est la paire des points extrémités de l'intervalle −r, r de la ligne réelle ;
+Les sphères de dimension n > 2 sont parfois appelées hypersphères.
+La n-sphère de rayon
+1 est notée Sn.
+L'aire d'une (n−1)-sphère de rayon r
+est
+2 \fracr^=\begin
+\displaystyle \frac
+, & \text n \text
+\displaystyle \frac
+, & \text n \text,
+\end
+où Γ est la fonction gamma d'Euler
+et le volume d'une n-boule de rayon r est égal au produit de cette aire par , donc à
+\begin
+\displaystyle \frac
+, & \text n \text
+\displaystyle \frac
+, & \text n \text.
+\end
+La sphère comme espace topologique
+Selon le contexte, en particulier en topologie, le mot sphère (ou n
+sphère
+si on veut rappeler la dimension) peut être utilisé pour désigner n'importe quel espace topologique homéomorphe à une n
+sphère
+au sens défini dans la section précédente
+La caractéristique d'Euler d'une n-sphère vaut 2 si n est pair, et 0 si n est impair.

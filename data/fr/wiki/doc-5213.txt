@@ -1,0 +1,47 @@
+Casse-tête mécanique
+articulé|Rubik'
+s Cube
+Le Rubik's Revenge, inventé par Péter Sebestény, est un équivalent 4×4×4
+du Rubik's Cube
+Il est constitué de 56 cubes (au lieu de 26 pour le Rubik's Cube).
+Histoire et principe
+Le casse-tête a failli s'appeler Sebestény's Cube mais au dernier moment, il a pris le nom de son aîné, le Rubik's Cube, afin de marquer la filiation entre les deux casse-têtes.
+D'après une publicité du Rubik's Cube parue dans l'édition de juin-juillet 1982 de Jeux et Stratégie, le nom initial était Master
+Rubik's Cube.
+Contrairement au cube original, il n'y a pas de facettes fixes : les facettes centrales (quatre par face) peuvent tout à fait être transférées vers de nouvelles positions.
+La mécanique interne est très différente : les facettes centrales sont tenues dans les sillons d'une boule centrale qui ne peut se voir qu'en démontant le cube.
+Les facettes des bords et des coins cheminent d'une manière analogue à celles du Cube de Rubik.
+Permutations
+Le nombre total de positions différentes que peut prendre le Rubik's Revenge est de :
+:\frac \approx 7.4 \cdot 10^
+Cela représente positions possibles, soit environ 1,7 ×1026 (170 millions de milliards de milliards) fois plus de combinaisons qu'un Rubik's cube classique.
+Méthodes
+Pour un 4×4×4, une méthode simple (et longue) reprend quelques algorithmes de la méthode couche par couche pour un 3×3×3 :
+# Former la face inférieure et sa couronne
+# Placer les coins de la couche supérieure
+# Placer les arêtes de la face supérieure
+# Placer les arêtes intermédiaires sur leurs couches respectives
+# Orienter correctement les arêtes intermédiaires
+# Placer les centres.
+On peut facilement placer les arêtes de la deuxième couche entre les étapes 1 et 2.
+Cela permet d'éviter l'étape 4.
+Pour résoudre un 3×3×3 en couche par couche, on doit apprendre 4 algorithmes au minimum.
+Cette méthode se généralise facilement aux cubes 5×5×5, 6×6×6, etc.
+Une méthode plus efficace consiste à :
+# Créer deux centres opposés
+#Faire les 4 autres centres
+# Placer toutes les arêtes de même couleur ensemble (possible seulement si on les oriente
+dans un même sens)
+# Résoudre le cube comme s'il s'agissait d'un 3×3×3.
+On remarque qu'à l'étape 3, on a une chance sur deux qu'une grand arête soit mal orientée, et une chance sur deux que deux grandes arêtes soient échangées.
+Il faut alors utiliser ce qu'on appelle un algorithme de parité pour échanger/réorienter les arêtes.
+En l'absence d'un tel algorithme, il est impossible de résoudre le cube comme un 3×3×3.
+Une variante de cette méthode, la méthode Yau, est très utilisée en :
+# Résoudre deux centres opposés
+# Résoudre trois arêtes de la couleur de l'un des deux centres
+# Terminer les quatre derniers centres en se servant de l'arête libre
+# Résoudre la quatrième arête et ainsi terminer la croix
+# Mettre toutes les arêtes en paires
+# Terminer le cube comme un 3×3×3 en méthode de Fridrich, en sachant que la croix a déjà été faite.
+Records récents
+La moyenne est calculée sur 5 tentatives en enlevant le meilleur et le moins bon temps, se basant ainsi sur trois temps.

@@ -1,0 +1,17 @@
+Email
+Email (or e-mail) means "electronic mail".
+It is used for message transmission via a computer network, especially the Internet.
+Technically, an email system involves several components to
+let users create and submit email messages
+transfer messages between email systems towards destination email addresses
+store received messages into mailboxes, each mailbox corresponding to one or more email address,
+let users access received email messages in mailboxes corresponding to their email addresses
+These components rely on numerous communication protocols to interact with each other's and with email users:
+For email transmission over the Internet, the main protocol used today is called SMTP.
+It is usually complemented with MIME when transmitting mail with rich content or attached documents.
+The protocol used to access an electronic mailbox (where someone's email messages are stored) depends on the software used by the email recipient.
+Common protocols include POP3 (used to download received messages from a mailbox on an email server onto the local computer of the email user), IMAP (used to access messages in the mailbox on the email server) and WebDAV (a web protocol used to access data on a server, thanks to which several email servers provide access to mailboxes via web browsers).
+The rendering of emails may involve RTF or HTML.
+Because so many people have got email addresses, and because email messages are so easy and cheap to send... some bad people use email to send spam, phishing messages and malware (computer virus, troyans, etc.).
+Nowadays, email systems include pieces of software that aim at minimise the risk associated with those malicious email messages: they try to identify and block as many spam and phishing messages before they get delivered into mailboxes, then scan the remaining email messages and attached documents for malware to delete any malicious content...
+Users may still receive some spam or phishing email messages and usually have the possibility to report these to their email server or service provider so that further identical or very similar emails may be identified and blocked automatically.

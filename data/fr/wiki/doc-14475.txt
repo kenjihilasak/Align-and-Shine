@@ -1,0 +1,99 @@
+Thermodynamique chimique|Chimie des solutions
+En chimie, une solution est un mélange homogène (constitué d'une seule phase) résultant de la dissolution d'un ou plusieurs soluté (s) (espèce chimique dissoute) dans un solvant.
+Les molécules (ou les ions) de soluté sont alors solvatées et dispersées dans le solvant.
+Solution à l'état liquide
+La solution liquide est l'exemple le plus connu.
+Une solution ayant l'eau comme solvant est appelée solution aqueuse.
+Il est possible de mettre en solution :
+* un liquide dans un autre :
+limité par la miscibilité des deux liquides ;
+* un solide dans un liquide : limité par la solubilité du solide dans le solvant, au-delà de laquelle le solide n'est plus dissous.
+On parle alors de solution saturée ;
+Solution solide
+Une solution solide correspond à un mélange de plusieurs corps purs.
+Solution dans un gaz
+On parle assez rarement de « solution » pour un gaz.
+Un mélange de gaz est en général homogène après un court instant, en raison de l'agitation thermique , mais il peut y avoir une stratification en présence d'un champ de gravité si la hauteur du contenant est importante.
+Coexistence de phases
+Une solution peut être :
+* saturée : à une température et une pression données
+, une solution saturée est une solution qui ne peut plus dissoudre de soluté ;
+* insaturée
+: une solution insaturée est une solution qui peut dissoudre plus de soluté, aux conditions du système ;
+* sursaturée :
+une solution sursaturée est une solution contenant une plus grande quantité de soluté dissous que celle qui correspond à la limite de saturation.
+Proportion de phases et concentration
+Soient i composants.
+La concentration du composant peut s'exprimer de plusieurs manières dont les fractions et les concentrations :
+* Fractions
+: une fraction est le rapport de deux quantités du même type, la quantité du numérateur s'appliquant à un constituant du système et celle du dénominateur à la somme des quantités de tous les constituants du système.
+Quand elles sont appliquées aux mélanges, les fractions peuvent être de trois types :
+la fraction molaire xi (sans unité ou %mol), qui est le rapport entre le nombre ni de moles de i sur le nombre n total de moles
+x_i
+\frac
+\frac
+la fraction massique wi (sans unité ou %m), qui est le rapport entre la masse mi de i sur la masse totale m
+w_i
+\frac
+\frac
+la fraction volumique
+Vi (sans unité ou %vol), qui est le rapport entre le volume du composant i sur la somme des volumes de tous les composants utilisés pour fabriquer ce mélange \sum_^l v_j : V_i = \frac.
+* Concentrations : une concentration est une quantité caractérisant la composition d'un mélange par rapport à son volume V :
+** la concentration molaire ci (mol·L−1), rapport entre le nombre de moles de i et le volume de liquide : c_i = \frac ;
+** la concentration massique ρi, rapport entre la masse de i et le volume de liquide : \rho_i = \frac ;
+la fraction volumique (appelée « concentration volumique »
+dans le cas des solutions idéales)
+Vi ;
+dans le cas d'un mélange de liquides, c'est le volume vi de i divisé par le volume total V : V_i
+\frac
+\frac
+Dans le cas d'un gaz, on utilise :
+* la pression partielle Pi, qui est la contribution de la phase i à la pression totale P ;
+* la fraction volumique (sans unité ou %vol), qui est, dans les conditions de pression et de température fixées, le volume vi que représenterait la phase i toute seule sur le volume total ;
+dans le cas de gaz parfaits, on montre aisément que le pourcentage volumique est égal à la pression partielle divisée par la pression totale P: V_i
+\frac
+\frac
+Il existe plusieurs autres façons d'exprimer la composition ou la concentration :
+* CH ou DH : dilution Centésimale ou Décimale, Hahnemanienne (réservée à l'homéopathie).
+Solution diluée, activité
+On appelle une solution diluée le cas d'une solution pour laquelle la quantité de solutés est très inférieure à la quantité totale de solution.
+Si l'on désigne le solvant par l'indice s, on peut donc utiliser les approximations suivantes :
+n \simeq n_s, x_i \simeq \frac,
+x_s \simeq 1 ;
+: m \simeq m_s, w_i \simeq \frac, w_s \simeq 1.
+Pour les solutions liquides :
+: c_i \simeq \frac, cs est l'inverse du volume molaire du solvant ;
+:\rho_i \simeq \frac, ρs est la masse volumique du solvant ;
+Dans le cas d'une solution diluée, le potentiel chimique est une fonction affine du logarithme de la fraction molaire, pour une température fixée :
+* en solution liquide, \mu_i (P,T)
+= \mu_i^0 (T)
++ RT \cdot
+\ln
+x_i
+) ;
+* en solution gazeuse, \mu_i (P,T) = \mu_i^0 (T)
++ RT \cdot
+\ln
+P_i)
+Si la solution n'est pas diluée (ou dans le cas de gaz, à haute pression, lorsque l'on ne peut plus faire l'approximation des gaz parfaits), il faut faire intervenir l'activité chimique ai :
+\mu_i (P,T)
+= \mu_i^0 (T) + R \cdot T \cdot \ln (a_i)
+* dans le cas d'une solution liquide
+, ai = γi·xi où γi est le coefficient d'activité de i ;
+l'état de référence est le liquide i pur ;
+* dans le cas d'une solution gazeuse, ai = ƒi/Pi où ƒi est la fugacité ;
+l'état de référence est le liquide i gaz parfait pur.
+Ceci est l'approche du point de vue « chimique » : on part de ce que l'on mesure bien (le volume, la masse).
+D'un point de vue thermodynamique, on commence plutôt par définir l'activité, puis on établit que dans le cas des solutions diluées :
+* pour un liquide, l'activité d'un soluté vaut à peu près sa concentration molaire (liquide) et l'activité du solvant vaut 1 ;
+* pour un gaz, l'activité du soluté est pression partielle en atmosphère, un gaz ayant une pression partielle d'une atmosphère a une activité de 1 ;
+Solution idéale
+Du point de vue de la thermodynamique, une solution en phase \phi (gaz, liquide ou solide), à P et T, est idéale si chacun de ses constituants répond à la loi de Lewis et Randall (1923) basée sur les fugacités :
+: f_^ (P,T,z) = z_i.f_^ (P,T)
+avec :
+* f_^ fugacité du composant i dans la solution idéale ;
+* f_^ fugacité du composant i pur, à mêmes P, T et phase \phi
+que la solution idéale
+Références
+Voir aussi
+rn5aa92l8qskkjb7la26qrrgek6bmge

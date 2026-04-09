@@ -1,0 +1,453 @@
+Un sistema di numerazione è un modo di esprimere e rappresentare i numeri attraverso un insieme di simboli.
+I numeri, fin dai tempi antichi, sono uno strumento necessario per quantificare un insieme di elementi.
+Tutte le civiltà conosciute hanno ideato un sistema di numerazione, a partire dalle popolazioni primitive che adottavano il sistema di numerazione additivo fino all'epoca attuale, in cui è diffuso il sistema di numerazione posizionale.
+Tipologie e cenni storici
+A grandi linee si può dire che nel passato sono state adottate svariate notazioni numerali in gran parte poco razionali fino a giungere con una certa fatica alle notazioni oggi più diffuse, pratiche e canoniche, le notazioni posizionali decimali.
+Con lo sviluppo del computer si sono posti altri problemi che oggi sono padroneggiati in modo abbastanza soddisfacente.
+Dalla metà del XX secolo si sono quindi precisati sistemi di numerazione adatti non solo agli esseri umani, ma anche alle macchine.
+Per soddisfare certe esigenze accanto al sistema canonico vengono considerati alcuni sistemi esotici che presentano alcuni pregi pratici e un certo interesse matematico.
+I sistemi di numerazione si riferiscono quindi alla successione dei cosiddetti numeri naturali.
+Per ovvi motivi, i più antichi sistemi di numerazione hanno base dieci, con riferimento all'atto di contare con le dita delle mani.
+Possono essere di tipi differenti: per esempio, gli antichi Romani usavano un sistema basato essenzialmente sul numero cinque (vedi numeri romani), additivo e non posizionale:
+il simbolo X rappresenta sempre il numero dieci, V il numero cinque, e così via;
+invece, il comune sistema decimale che tutti impariamo a scuola, è di tipo posizionale:
+ogni cifra assume un significato diverso a seconda della posizione in cui si trova (unità, decine, centinaia, ecc.);
+i sistemi di tipo posizionale ci sono stati tramandati dagli Arabi.
+Per una definizione più formale di sistema di numerazione posizionale:
+* si sceglie un qualsiasi numero naturale b (diverso da zero e da uno), che chiameremo base
+* si scelgono b simboli diversi, che chiameremo cifre
+* si compongono i numeri tenendo presente che il valore di ogni cifra va moltiplicato per:
+** b0 cioè 1 (unità) se è l'ultima cifra alla destra del numero che stiamo considerando
+** e così via, b (n-1)
+se è la n-esima cifra da destra
+* la somma di tutti i valori così ottenuti è il numero che stiamo considerando
+2003_=2\times 10^3+0\times 10^2+0\times 10^1+3\times 10^0
+1100_
+1\times 2^3+1\times 2^2+0\times 2^1+0\times 2^0
+8+4=12_
+Il sistema decimale-posizionale
+Le ragioni della superiorità del sistema numerico decimale-posizionale, che si è diffuso dall'India, sono il principio posizionale (che di per sé denota i diversi ordini numerici) e l'uso di dieci simboli, comprensivi dello zero (che colmava i vuoti in un sistema posizionale).
+Un sistema posizionale è un naturale e sistematico sviluppo del sistema moltiplicativo in cui viene usata una base fissa, spariscono come superflui determinativi e moltiplicatori e dove il coefficiente è rappresentato dalla posizione della cifra nell'intera rappresentazione numerica.
+Le altre notazioni dovevano dare a ogni cifra un valore fisso a prescindere dalle posizioni.
+Nella numerazione cinese i segni per 7829 sono 7 mentre col sistema da noi utilizzato sono 4.
+Nel nostro sistema sono soppressi gli indicatori delle potenze di 10 e le cifre delle unità prendono diverso valore a seconda delle posizioni (misto ideale tra il numero di cifre e la necessità di iterazione delle stesse).
+In questo modo il linguaggio scritto comunica una fitta rete di concetti mediante semplice permutazione di pochi simboli.
+Il sistema decimale-posizionale consente anche una comoda esecuzione di operazioni aritmetiche:
+si mettono i numeri da sommare uno sotto l'altro e li si può addizionare colonna per colonna, riportando i totali eccedenti il 10 nella colonna a fianco (ordine superiore).
+Se si usano invece i numeri romani non c'è una notazione che abbia efficacia algoritmica (non è possibile cioè fare operazioni se non ricorrendo a un supporto esterno, tipo l'abaco).
+Questo sistema è anche una sorta di metafora ontologica e sociale di una gerarchia funzionale (e non rigida e letterale come quella egizia con i diversi ordini numerici irriducibili gli uni agli altri) di livelli ontologici che funzionano come vasi comunicanti e in cui c'è il passaggio dalla quantità alla qualità e in cui c'è il novum.
+Babilonesi, Cinesi e Maya con il principio di posizione già furono capaci di rappresentare qualsiasi numero con una quantità ridotta di cifre di base, ma ebbero dei limiti:
+* I Babilonesi non associarono cifre diverse alle 59 unità significative del primo ordine, ma iteravano i due simboli disponibili.
+Essi non concepirono lo zero né come numero (quantità nulla) né come operatore aritmetico.
+* I Cinesi mantennero la notazione ideografica e reintrodussero elementi di notazione moltiplicativa.
+Inoltre il loro uso dello zero fu sporadico e poco significativo.
+* I Maya, con l'anomalia del moltiplicatore del terzo ordine numerico, persero la possibilità di utilizzare lo zero come operatore.
+Perché il nuovo sistema posizionale manifestasse tutte le sue positive potenzialità bisognava aspettare la grande esperienza indiana.
+Notazioni numeriche alfabetiche
+Anche gli scribi israelitici e i matematici greci si dotarono di notazioni numeriche equivalenti allo ieratico egizio, ma utilizzarono le lettere (in ordine consecutivo) dei rispettivi alfabeti.
+L'alfabeto fu il primo perfezionamento della scrittura adattabile a ogni inflessione di ogni lingua articolata e dava la possibilità di scrivere tutte le parole con un piccolo numero di segni fonetici (lettere).
+Esso fu opera dei Fenici, commercianti spinti da un bisogno comprensibile di concisione.
+Il commercio diede diffusione al loro sistema:
+Ci fu dunque un tentativo di sovrapporre ordine alfabetico e ordine numerico.
+Gli Ebrei usarono la numerazione alfabetica:
+Evoluzione dei sistemi numerici
+Non si è contato sempre allo stesso modo:
+il sistema notazionale o di calcolo che abbiamo è il risultato di una lunga evoluzione caratterizzata da molteplici percorsi e dall'emergere di un sistema che per una serie di ragioni si è diffuso più degli altri.
+La molteplicità dei percorsi e la natura interessante dei tentativi effettuati fa giustizia però di una visione lineare della storia del sapere e, come vedremo in seguito, anche di una visione che considera solo poche culture foriere di civiltà nell'arco della complessa storia del mondo.
+I numeri concreti
+Non solo non si è contato sempre allo stesso modo, ma ancor oggi ci sono popoli che non sanno contare, nel senso che non concepiscono numeri astratti e sono perplessi di fronte a operazioni del tipo 2+2=4.
+I Pigmei in Africa, i Botocudos in Brasile, gli Aranda in Australia computano 1, 2, massimo 3 e poi subito parlano in termini di "molti" ("tanti quanto i capelli in testa").
+I bimbi di queste tribù hanno comunque nell'apprendimento una rapidità simile a quella dei nostri bambini.
+I Boscimani non vanno oltre il cinque.
+Non c'è ancora astrazione:
+la percezione della pluralità è ancora indissociata dalla natura degli oggetti presi in considerazione.
+Prendiamo ad esempio gli Aranda;
+per loro:
+* 4 è tara ma tara (2 e 2), a sua volta sinonimo di molti.
+Si potrebbe allora pensare che sarebbe stato loro possibile continuare con diverse combinazioni di 1 e 2 così come succede con il nostro sistema binario.
+Ma "2 e 1" e "2 e 2" non sono numeri astratti, bensì coppie di cose distinte:
+non ci troviamo di fronte a una conta vera e propria ma a una descrizione non sistematica di quantità con l'uso di un lessico specifico che per analogia definiamo "numerale";
+la conta vera e propria implica il riconoscimento di una relazione che definiremo costante tra i diversi termini di una successione, relazione che a sua volta permette l'astrazione dai concreti singoli oggetti che vanno computati e l'articolazione della serie in una forma autonoma dall'empiria.
+In questa svolta cognitiva forse stanno le lontane radici degli assiomi di Peano.
+Un ipotetico due-due-uno presuppone dunque un salto concettuale di astrazione che permetta l'iterazione delle cifre.
+L'ipotesi scartata è interessante anche per un altro motivo:
+il chimerico tara ma tara ma ninta presuppone una combinazione di tre elementi;
+ora è possibile una combinazione simbolico-mentale di tre elementi a chi sa contare distinguendo solo due cifre e cioè ninta e tara?
+La domanda potrebbe anche essere stupida, ma esiste certamente una differenza tra il mettere 10 mattoni materialmente uno sopra l'altro e combinare simbolicamente nel proprio cervello tre cifre/numeri che insieme formano un numero diverso da quelli che lo compongono.
+Questa incapacità di contare oltre i primi numeri e le implicazioni emotive e culturali a ciò legate, possono essere ben esemplificate da una storia che capitò a Francis Galton che in una transazione con un Damera sudafricano si trovò di fronte a questa situazione:
+doveva ricevere 2 pecore in cambio di 4 stecche;
+il Damera però non comprendeva questa equivalenza perché non riusciva a sintetizzare la nozione di "4".
+Perciò la transazione così costruita lo metteva in confusione, e andava avanti e indietro da una pecora all'altra;
+si rasserenò solo quando la somma fu scomposta nelle due operazioni singole che la costituivano.
+L'episodio illustra l'importanza e la complessità che caratterizzano un'operazione apparentemente elementare come il contare.
+In primo luogo c'è un elemento cognitivo:
+il Damera diffidava della permanenza della medesima quantità al di là delle forme numeriche in cui essa era strutturata.
+In pratica per il Damera 2p
+4s non equivaleva a 1p+1p
+2s+2s - ne dubitava -, per cui andava avanti e indietro quasi a verificare la sussistenza effettiva delle due pecore, data la nuova modalità di strutturazione dello scambio.
+Temeva che in questa, che non era un'identità analitica ma una trasformazione rischiosa, qualcosa andasse perduto.
+L'altra angolazione con cui guardare quest'episodio è pratico-politica:
+se il contare oltre il tre e il quattro risulta quasi impossibile e provoca disorientamenti mentali ed emotivi, qualsiasi tipo di transazione non risolvibile mediante gli scarsi strumenti cognitivi porta o alla necessità di una ritualizzazione lunga e minuziosa del rapporto commercial/ridistributivo, oppure a un cadere nella indeterminazione e nell'angoscia per cui scambio e ridistribuzione sono sostituiti dall'uso della forza e della rapina, che non solo prevengono l'altrui uso della forza e l'altrui rapina, ma registrano l'impossibilità di trovare criteri per gestire la situazione e permettere lo scambio o il trasferimento di beni.
+Il numero è garante circa il controllo della realtà e circa il nostro rapporto economico con gli altri.
+Questa incapacità di contare oltre il tre o il quattro si può rintracciare anche nel lessico indoeuropeo e in altre culture:
+nell'Egitto faraonico 3x corrisponde al plurale di x:
+3 scarabei
+gli scarabei.
+Nel cinese antico 3 alberi (森)
+foresta, 3 uomo = folla.
+Per i Sumeri 1 si diceva gesh che voleva dire anche uomo, 2 si diceva min che voleva dire anche donna, 3 era esh che era sinonimo di molti ed era suffisso del plurale.
+Anche qui scorgiamo la rete di rimandi simbolici che una situazione profana poteva generare:
+se 3 era semplicemente 2 e 1, l'uno maschile unito al due femminile dava origine alla molteplicità della prole.
+L'articolazione dei primi numeri era simbolicamente isomorfa alla copula e alla generazione.
+Tale modello lo ritroveremo nellUno e nella Diade Infinita dei Pitagorici e del Platone "esoterico".
+Nel lessico indoeuropeo 3 e "molti" sono quasi sinonimi:
+in francese "molto" è très;
+in latino e in inglese "3 volte" e "molte volte" sono spesso indicati con lo stesso segno;
+"al di là" è tres in antico francese, trans in latino, through in inglese;
+in inglese folla è throng;
+in italiano si dice "troppo" e si dice "truppa".
+Anche il 4 ha nelle sue radici lessicali lo stesso rimando alla molteplicità:
+in tedesco vier (4) e viel (molto) sono quasi omofoni;
+il greco tettares e il latino quattuor sono etimologicamente collegati al latino cetera, "le altre cose" (si pensi a 1, 2, 3... et cetera).
+Segno di questa divisione tra i primi due-tre numeri e la cognizione degli altri (cetera...) è anche la presenza nelle lingue antiche di numeri in senso grammaticale quali il duale (greco, ebraico, arabo), mentre in tribù oceaniche c'è addirittura il duale, il triplice, il quadruplice.
+In tale caso i sostantivi sono anche declinabili, ovviamente assieme al plurale.
+La mancanza di astrazione nell'approccio numerico alla realtà è esemplificata anche dal fatto che molte lingue primitive, quali ad es. la lingua tsimshian della Columbia Britannica, hanno parole differenti per indicare determinate quantità numeriche di oggetti piatti oppure di oggetti allungati o di uomini o di canoe etc.:
+8 oggetti piatti
+yuktalt, 8 oggetti allungati
+ektlaedskan, 8 nel conteggio orale = guandalt.
+Anche nelle lingue europee c'è traccia di questa differenziazione:
+in inglese a pair (scarpe), a couple (persone), a brace (polli), a yoke (buoi).
+In italiano paio, pariglia, coppia...
+Altri indizi di questa ipotesi?
+In latino solo i numeri da 1 a 4 hanno genere e declinazione, mentre da 5 in poi no.
+Inoltre i Romani chiamavano i figli dal primo al quarto con nomi senza rapporto con i numerali;
+dal quinto in poi i nomi diventavano Quintus, Sextus, Septimius, Octavius ecc.
+Infine l'anno romano prima della riforma giuliana era di 10 mesi di cui il primo era Martius, poi Aprilis, Maius e Iunius;
+dal quinto mese in poi troviamo Quintilis, Sextilis, September, October ecc.
+Questa difficoltà per l'uomo di andare oltre i primi numeri è per lo più ricondotta al fatto che questa soglia corrisponde a quella tra una percezione diretta della pluralità e la computazione estensionale della stessa.
+La percezione diretta della pluralità è la percezione di coppie, terne di entità identiche o similari ed è istintiva:
+anche il bambino tra i 6 e i 12 mesi ha una valutazione globale dello spazio, ha una percezione di insiemi di oggetti familiari e si accorge se eventualmente manchi qualcosa.
+Tra i 12 e i 18 mesi distingue tra 1, 2 e "parecchi" oggetti;
+tra i 2 e i 3 anni concepisce il 3.
+Anche gli animali hanno una percezione diretta della pluralità e riconoscono se da un insieme sono stati tolti uno o più costituenti.
+Un cardellino, addestrato a scegliere il proprio cibo da due mucchietti di semi, distingue differenze tra 1, 2, 3, 4 semi ma non tra 4 e 5 semi, 7 e 5 ecc.
+Gli uccelli distinguono quantità concrete da 1 a 4 ma non oltre.
+Noi non sappiamo fare molto meglio:
+all'atto pratico ricorriamo alla comparazione, allo sdoppiamento, al raggruppamento mentale o al computo astratto vero e proprio.
+Andare oltre il 4 con l'ausilio di una rappresentazione visuale non simbolica era insomma molto difficile.
+Vediamo dunque che sembra essere stato possibile un rapporto cognitivo con le realtà numeriche e quantitative senza conteggio al punto da farci considerare i primi numeri come totalità percettive empiriche (gestalten) qualitativamente differenziate e non operazionalmente decostruibili.
+A partire dal 4 però si rivelava necessaria una tecnica che consentisse in qualche modo il controllo di quantità più numerose.
+Vedremo in seguito come attraverso la scrittura, o con segni grafici e tacche scritte, si risolse almeno temporaneamente questo problema.
+Nel frattempo serviva un metodo che consentisse al contadino analfabeta di controllare se dal suo gregge, al ritorno dal pascolo, mancassero pecore.
+Questa tecnica fu il conteggio per corrispondenza o per comparazione:
+i pastori, a ogni animale che passasse attraverso la soglia di un recinto, facevano corrispondere un sasso o qualche altro oggetto piccolo e manipolabile:
+conchiglie, ossa, pezzi di sterco.
+I sassi ricavati li mettevano da parte al sicuro.
+Al ritorno del gregge facevano a una a una ripassare le pecore stavolta in entrata e a ognuna associavano di nuovo i sassi messi da parte.
+In tal modo essi non sapevano né quanti fossero i sassi né quante fossero le pecore ma sapevano, presupponendo costante il numero di sassi, se le pecore avevano cambiato di numero.
+Corpo umano e prime basi numeriche
+Una fase importante dell'evoluzione della modalità di computo fu l'utilizzo del corpo umano.
+Tale utilizzo fu probabilmente correlato anche alla concezione del corpo inteso come microcosmo e cioè come universo dio in scala più piccola.
+Tale concezione a sua volta fu estesa all'uomo non più come corpo ma come mente e/o anima.
+Il concetto di microcosmo sarebbe servito per conoscere il mondo e la sua struttura a partire da una sua parte, a volte privilegiata.
+Nella conta con il corpo il più delle volte si partiva da una delle mani, si andava verso la testa e si ruotava verso l'altra mano per scendere poi ai piedi e risalire al punto di partenza.
+Nelle tribù dove si contava (e forse si conta ancora) con il corpo in occasione di transazioni, di rituali, di calcoli legati alle stagioni e allo scorrere del tempo e agli astri, si utilizzava più di una persona, per cui il conteggio diventava un'operazione collettiva, sociale, rituale.
+Il conteggio rimaneva un rischio, ma diventava un rischio condiviso, un rischio che si poteva affrontare organizzati al fine di ottenere vantaggi per la comunità intera.
+Ma la cosa più importante collegata al computo "corporale", fu che esso costituì una tappa importante del processo di incremento delle potenzialità epistemiche e conoscitive del conteggio stesso.
+Il corpo, infatti, rispetto a un mucchio di sassi ha differenze rilevanti proprio per la conta:
+il mucchio di sassi è internamente omogeneo (ogni sasso non ha differenze significative con gli altri), discontinuo, inarticolato.
+Il corpo umano invece è continuo, articolato, ogni sua parte è diversa da un'altra e consente dunque due cose:
+#il passaggio dalla conta per comparazione (con i sassi appunto) alla conta per successione:
+mentre prima, cioè, la conta era un associare un oggetto con un altro che faceva da riferimento, ora, invece, si è fatto un passo in avanti verso l'astrazione, giacché è possibile computare una sola serie di oggetti senza fare riferimento a un'altra serie;
+le singole tappe del conteggio sono ben determinate (le dita, il polso, il gomito, le orecchie), il rapporto è solamente quello interno ai membri di una sola serie ed è aperta la strada alla seconda conseguenza considerata e cioè
+#la determinazione più astratta dei numeri:
+se per andare al gomito si fanno sempre sette passi (5 dita + polso + gomito), il gomito d'ora in poi sarà un riferimento certo per i parlanti senza che si debba riprendere la conta sempre daccapo.
+Naturalmente esistono anche altri metodi per agganciare più fortemente la conta al tempo:
+uno è quello delle canzoni e delle filastrocche (pensiamo a quelle che da piccoli ci servivano per stabilire chi pagava pegno, chi andava "sotto" in un gioco e dunque sostituivano una conta vera e propria) la cui struttura interna permetteva la costituzione di una serie numerica autoreferenziale, nel senso che in essa contano solo i rapporti interni tra i membri della serie stessa, membri che si interdefiniscono reciprocamente.
+Inoltre il contare tramite il corpo si collega anch'esso al rapporto tra conta, controllo, dominio e assassinio.
+Come si è detto, contare è conoscere, dominare, disporre di un essere umano:
+contare le dita dei piedi di un altro ne presuppone la morte (il "tirare i piedi" che è anche un modo per ricomporre un cadavere, è anche un modo per contarlo, per conoscerlo, per cui secondo una superstizione non si giace con i piedi verso la porta, in quanto non si espongono i piedi verso chi entra).
+Il contare più in generale è permesso dal fatto che gli eventi finiscono, terminano temporalmente e sono spazialmente finiti;
+li puoi cioè superare contandoli e lasciandoli alle tue spalle (un po' come si passano i soldati in rivista).
+Infine la conta del corpo fa delle serie dei numeri e dei singoli numeri una struttura determinata e figurale grazie alla quale si apre la strada dell'interpretazione geometrico-figurata che sarà elaborata dai Pitagorici e poi ripresa da tutta la tradizione esoterica:
+il rapporto tra i numeri diventa un rapporto gerarchico e si gettano le basi del concetto di ordinale, i cui legami con i numeri cardinali saranno eventualmente meglio descritti nel corso della riflessione filosofica conclusiva di questa ricerca sulla storia della computazione e della notazione numerica.
+Un altro importante e successivo passaggio di questa storia è quello dal corpo umano alla mano come strumento di conta.
+Prima di affrontare quest'argomento vale la pena però di fare una digressione sulla base numerica che ha preceduto l'introduzione della mano come "macchina" per contare;
+per base numerica s'intende il primo modulo di computazione con all'interno tutte le cifre semplici di un sistema, tutti i segni fondamentali la cui reiterazione riproduce tutta la serie numerica nella sua illimitatezza.
+La prima base, come abbiamo già visto, è la base 2 che alcuni collegano alla simmetria, al carattere bilobato di alcuni organismi biologici tra cui il corpo umano stesso (2 orecchie, 2 occhi, 2 braccia, 2 gambe ecc.).
+I popoli che non sanno contare in maniera più astratta sono quelli che si dice contino per base due:
+tale sistema era forse diffuso in tutto il mondo, mentre attualmente se ne trovano tracce solo nell'emisfero australe (abbiamo visto i Botocudos, i Damera, e poi i Gumulgal australiani, i Bakairi sudamericani e i Boscimani).
+Questi sistemi si spingono sino a un certo punto:
+ad es. gli indios Zamuco arrivano sino a 9 (2+2+2+2+1).
+Il sistema fu anche perfezionato:
+ad es. in un'iscrizione persiana dell'epoca di Dario I (circa VI secolo a.C.), c'è un elenco di simboli numerici da uno a dieci;
+paragonando questo elenco con una precedente iscrizione babilonese (1800-1600 a.C.) ci si rende conto che il sistema persiano è un'introduzione di un sistema in base 10 in un contesto preesistente a base 2:
+guardiamo ad es. il numero 3;
+in babilonese esso è III
+mentre in persiano è
+Come si può vedere, il terzo cuneo è in posizione particolare e rilevante rispetto agli altri due;
+mettendo i primi due su piani diversi si crea una base intermedia 2 ausiliare rispetto alla base 10, altrimenti il numero 3 sarebbe stato
+A tal proposito forse il sistema babilonese era un sistema a base 3 orizzontale, dove il salto di livello avviene con il 4, con il 7 e con il 10 e dove il numero che si aggiunge diventa una sorta di tronco
+Per alcuni il sistema a base 2 era precedente alla conta con le dita della mano e aggiungono che vi sia stato un unico centro diffusionale di questa tecnica di computo, ma è più facile pensare a una pluralità di centri in cui si sia costituito una sorta di approccio intuitivo alle quantità legato alle basi materiali del pensiero, approccio che verrà successivamente elaborato in maniera differenziata a seconda della latitudine (si pensi ai miglioramenti del sistema apportati da Zamuto, Boscimani e altri).
+Interessante poi a proposito del passaggio dalla conta col corpo a quella con la mano è il sistema cosiddetto neo-binario e cioè un sistema intermedio in cui ad esempio negli australiani aborigeni abbiamo 1, 2, 3 e poi (2+2), (2+3), (3+3) ecc.
+A volte il metodo di aggregazione dei numeri base per costituirne altri è additivo, altre volte è moltiplicativo, altre volte c'è la sottrazione.
+Ad es. una tribù primitiva del Paraguay conta
+1, 2, 3, 4, (2+3), (2×3), 1+ (2×3), (2×4), 1+ (2×4), 2+ (2×4) ...
+alternativi:
+(2×4)-1 (2×5)-1 (2×5) ...
+Poi, come vedremo, quando si introduce la mano, avremo che (2+3) o (2×2+1) diventano 5, mentre 4 diventa (5-1) e da ciò deriverà la notazione numerica romana.
+Vediamo una sequenza a tal proposito:
+1, 2, 3, 4, 5 (mano), (5+1), (5+2), (5+3), (5+4), (5×2),
+(5×2+1), (5×2+2), ... (5×3), (5×3+1), (5×3+2), ... (5×4), ...
+Comunque il sistema neo-binario o altri sistemi misti affini diventano scomodi quando, elaborata un'unità collettiva (base o modulo) minima, il computo a sua volta genera un meta-computo delle colonne in cui sono distribuiti le unità e i moduli formati dalle stesse unità.
+Tale meta-computo finisce anch'esso per trovarsi contro i limiti di cui il modulo è espressione o, superati questi, contro i limiti naturali della percezione diretta della quantità.
+Per fare un esempio, partiamo da un sistema a base numerica 3:
+Come si può vedere, il numero delle file, ognuna di tre unità, è 4 e cioè più del modulo 3 appositamente adottato per evitare confusioni percettive e di lettura (ricordiamo a tal proposito che non ci troviamo in questo caso di fronte a un sistema posizionale analogo al nostro, dove ogni colonna successiva è un ordine numerico differente).
+Il neo-binario che come abbiamo detto è una forma mista è anche geograficamente contiguo con residui del sistema binario:
+a Madras ad es. vediamo un residuo di neo-binario dove
+A Bombay invece possiamo trovare un conteggio a base 5 con meta-base moltiplicativa 5 con possibilità di conteggio sino a 30;
+in tal caso però ci troviamo già di fronte a un sistema misto.
+Per parlare di sistema quinario invece dobbiamo fare ovviamente riferimento all'ingresso della mano nel campo del calcolo, ingresso di cui c'è una traccia in diverse lingue quali la lingua ali della Repubblica Centrafricana dove 5 si dice moro (mano), mentre 10 si dice mbouna che sarebbe l'unione sincopata di moro+bouna (due) e cioè (5×2) ovvero "due mani".
+Nella lingua bugilai della Nuova Guinea invece:
+tarangesa
+mignolo della mano sinistra
+meta kina
+dito successivo
+guigi meta kina
+dito del centro
+topea
+indice
+manda
+pollice
+La grande predisposizione della mano a essere una macchina per contare è consentita da questi fattori:
+* Complessa articolazione che la rende difficile da rappresentare a uno scultore e che le permette di muoversi in molti modi
+* Disposizione asimmetrica e differenziata delle dita che permettono all'occhio di chi conta di orientarsi meglio e di rappresentare la differenza esistente tra i numeri, di rispecchiare il loro carattere individuo e determinato.
+* Il rapporto privilegiato tra mano e cervello, tematizzato da vari antropologi e paleontologi
+* L'opponibilità del pollice che consente di staccare un dito dagli altri in modo da non provocare confusioni percettive
+* L'opponibilità del pollice inoltre consente anche di contare con una base diversa usando il pollice stesso come puntatore
+* Infine la relativa autonomia di ogni dito consente un gran numero di combinazioni;
+infatti poiché la dita si possono sollevare sia tutte insieme sia una per volta e ciò consente di rappresentare il numero sia come totalità sia come autocostituzione di tale totalità e infine anche come ordinale.
+Un esempio del primo caso potrebbe essere il 4 come totalità e cioè IIII (si immagini che queste siano quattro dita sollevate);
+un esempio del secondo caso potrebbe essere la costituzione progressiva del 4 e cioè I...II...III...IIII (si immagini che si tratti di un conteggio con le dita della mano);
+un esempio di ordinale potrebbe essere (anche se non è consuetudine comune in Occidente ma diffusa in altre popolazioni) quello del dito anulare o mignolo sollevato a indicare il 4 inteso come quarto numero (volendo fare a meno dello zero).
+La mano come strumento di conta e le sue basi numeriche
+Come abbiamo visto, con la comparsa della mano come duttile strumento di computazione altre basi numeriche fanno la loro apparizione.
+Si passa idealmente dalla base 2 alla base 5.
+Un esempio di base 5 è la lingua Api delle Nuove Ebridi:
+otai =
+nuovo
+uno
+olua = nuovo
+due
+otolu = nuovo
+tre
+ovari = nuovo quattro
+luna
+lualuna
+due mani (2×5)
+lualuna i tai
+lualuna i lua
+toluluna
+3 mani (3×5)
+toluluna i
+tai
+variluna
+4 mani (4×5)
+Il fatto che la base 5 in questo caso sia fondata sull'utilizzo computazionale della mano può essere desunto dalla denominazione del numero 6 (nuovo uno), del numero 5 (mano) e del numero 10 (due mani).
+Quanto alle conseguenze filosofiche delle suddette denominazioni (legate soprattutto alla questione kantiana della matematica come disciplina sintetica a priori) si vedrà più in avanti.
+La base 5 pure è presente in Africa, Oceania e nel sud dell'India, luoghi dove ancora sopravvivono i relitti di sistemi residuali di notazione numerica.
+Questa base (e la mano che è il suo corrispettivo somatico) ha anche delle interessanti connessioni storico-mitiche:
+La prima si ricollega alla mitologia indiana dove il re Pandu, impossibilitato a unirsi alla moglie Kunti, viene sostituito da divinità che generano Yudishtira, Arjuna e Bhima (il giudice, il sovrano e la forza indisciplinata) che vengono identificati rispettivamente con il medio, l'indice e il pollice.
+Kunti fa unire con le divinità anche un'altra moglie, Madri, che genera altri due figli tra loro gemelli, Nakula il Bello e Sahadeva (anulare e mignolo, il primo dei quali poco si muove senza il secondo, o senza il medio).
+Ancora più interessante è il mito egizio in cui Nut (dea del cielo stellato) si unisce a Geb (la terra), ma viene punita da Ra (il Sole) che gli impedisce di procreare nei 360 giorni dell'anno.
+Allora Thot, innamorato di Nut, gioca con Ra e vince cinque giorni, che vengono aggiunti al calendario e nei quali Nut genera Seth, Horus, Osiride, Iside e Nephtis, rispettivamente pollice, indice, medio, anulare e mignolo.
+Il fatto che Seth faccia a pezzi Osiride si può forse collegare al conteggio che il pollice fa sulle giunture delle altre dita, quasi facendole a pezzi.
+Tale base consente anche di arrivare a numeri più grandi (nella fattispecie fino al numero 30), contando con una mano le unità e con l'altra le cinquine che risultano con il computo per unità (non è 5×5 ma 5×6 in quanto tenendo aperta a supporto mnemonico la mano delle cinquine si può contare ancora sino a 5 con la mano delle unità).
+Invece con la base 10 stessa si può contare fino a 10 con le due mani ma poi il riferimento è direttamente mnemonico o diventa un'ulteriore elemento esterno vista la mancanza di un arto ulteriore.
+Ben presto la base 5 si è legata a un'altra base pure legata agli arti e alle dita, la base 20.
+In realtà è più corretto dire che le basi 10 e 20 siano tentativi di estendere la base 5, in quanto il calcolo delle dita di una mano si può estendere a tutte e due le mani (base 10) e alle dita delle mani e dei piedi insieme (base 20).
+Un utilizzo misto (base 5 e base 20), dovuto forse all'eredità Maya, è presente negli Aztechi:
+chica
+ce (5+1)
+chicome (5+2) chica-ome
+chicuyey (5+3)
+navi
+chicnavi (5+4)
+chica
+matlactli
+cem poualli
+1 ventina
+cem poualli on matlactli
+20×1
++10
+ome poualli on matlactli on yey
+20×2
++10+3
+Con l'ingresso della base 20 il numero 20 diventava non più "2mani + 2piedi" ma direttamente "uomo" e dunque una nuova unità di misura antropomorfica:
+per i Banda della Repubblica Centrafricana il termine per 20 è lo stesso per dire "appendere un uomo", così come contare le dita di un uomo è trattarlo come morto, esaurirlo, manipolarlo come un pupazzo.
+Nei dialetti Maya huc uinic
+una ventina
+un uomo.
+Per i Maya il mese era di 20 giorni, come un periodo storico era di 20 anni.
+Per i Malinke della Nuova Guinea 20 è sinonimo di "uomo completo" mentre 40 è sinonimo di "letto" (dita delle mani e dei piedi di uomo e donna coricati sullo stesso giaciglio).
+Come la base 10 è un'interazione, un sovrapporsi tra due basi (base 5 e base 2), così la base 20 è una sovrapposizione tra base 10 e base 2 o meglio ancora una doppia simmetria di 5
+(5×2) + (5×2)
+5×2×2
+Così era pure per i Maya, un sistema ausiliare di base 5 o 10 che si iterava dalle 4 alle 2 volte.
+Dunque tale base congiunta era utilizzata da
+Essa andò in crisi quando i piedi furono più sistematicamente coperti da calzature.
+Di essa rimangono ancora tracce in Spagna, Gran Bretagna, Irlanda e Francia, forse collegate alla cultura megalitica o almeno a quella celtica.
+In inglese troviamo one score
+1×20
+(score dal sassone sceran
+taglio, tacca)
+quatrevingts
+4×20
+Un ospedale francese del XIII secolo era chiamato Hopital des quinzevingts (15×20=300).
+In latino il termine viginti (20) non è collegabile né a 2 né a 10, ma sembra essere associabile con termini come victi o vincti (che sta per "legati mani e piedi").
+I sistemi quinari-decimali e quinari-vigesimali furono comunque sostituiti da quello decimale.
+Altra base numerica storicamente importante è la base 12.
+Essa è stata molto diffusa e tuttora ha sparsi molti relitti in tutto il mondo (es. fra tutti il termine dozzina).
+Essa era usata da Sumeri e Assiro-babilonesi come misura per le lunghezze, le superfici, i volumi e le capacità.
+In questo contesto la durata della giornata era suddivisa in 12 periodi detti danna di 2 ore ciascuno;
+a sua volta il cerchio, l'eclittica e lo zodiaco erano suddivisi da queste popolazioni in 12 beru (settori) di 30º ciascuno.
+Per i Romani l'asse, unità di misura di peso e moneta,
+era divisa in 12 once come pure in Francia un soldo tornese era divisibile in 12 denari tornesi.
+Per quanto riguarda le lunghezze britanniche:
+1 piede = 12 pollici
+1 pollice = 12 linee
+1 linea = 12 punti
+Per quanto riguarda le misure di peso 12 once (once
+una volta)
+1 (vecchia) libbra.
+Per quanto riguarda le misure monetarie 12 pence = 1 scellino (da shekel/siclo?).
+L'origine della base 12 sta forse nel numero delle falangi (3 per ogni dito) computabili utilizzando il pollice come cursore (3×4=12);
+più probabilmente la ragione è dovuta al fatto che un sistema numerico con base 12 ha un numero maggiore di divisori interi rispetto a uno in base 10;
+infatti un sistema in base 10 ha solo l'unità, il 2, il 5 e il 10;
+mentre il 12 può essere diviso per 1, 2, 3, 4, 6 e 12; questo tornava utile soprattutto nell'uso monetario, quando per esempio era necessario dividere delle somme tra più persone, i divisori 3 e 4 sono molto più comuni del 5.
+La base 12 è presente in Indocina, India, Pakistan, Afghanistan, Iran, Iraq, Turchia, Siria ed Egitto (tale diffusione fa pensare a un utilizzo relativamente recente in ambito islamico).
+Nella lingua inglese è rimasta traccia dell'utilizzo della base 12 con i nomi specifici (non composti con un suffisso) "eleven" e "twelve", che indicano rispettivamente il numero undici e il numero dodici, mentre il suffisso "teen" comincia a essere usato solo dal numero 13.
+L'interazione tra base 10 e base 12 sembra riecheggiare in alcuni termini e in alcune locuzioni antiche:
+1 rimasto (dopo che sono state tolte tutte le dita)
+2 rimaste, da cui forse twelwe
+twalif
+two left = 2 lasciate fuori.
+Anche nella tradizione ebraica il resto d'Israele sono le due tribù che derivano dal sottrarre le dita della mano (10) alla base 12.
+Altra importante base, forse collegata alla base 12, è la base 60.
+La base 60 presa alla lettera prevederebbe 60 segni diversi e sarebbe un sovraccarico della memoria.
+Essa è stata parzialmente utilizzata dalle civiltà mesopotamiche e da astronomi greci e arabi per misurare archi e angoli.
+Attualmente viene usata per le misure angolari (e dunque anche latitudine e longitudine) e per le misure cronometriche.
+I Sumeri, raffinati commercianti, elaborarono un sistema numerico che si basava su 5, 10, 20.
+1, 2, 3, 4, 5, 5+1, 5+2, 5+3, 5+4, 10, 20, 10×3, 20×2, (20×2+10)
+60 era una nuova unità che fu denominata geshta per differenziarla da gesh = 1.
+limmu 7= imin (ia+min)
+ia 8= ussu
+ash (ia+gesh?) 9= ilimmu (ia+limmu)
+nish
+30 (3×10) 40 (2×20) 50 (40+10)
+"Imin" e "ilimmu" sono tracce di un sistema a base 5.
+Anche "ash" forse è un residuo di questo tipo.
+Come si vede dai numeri oltre il 20, le basi utilizzate e gli algoritmi di composizione sono molteplici, a indicare l'arcaicità del metodo.
+600= gesh-u (60×10)
+3600= shar
+36.000= shar-u (3600×10)
+216.000= shar-gal (3600×60)
+2.160.000= shar-gal-u (3600×60×10)
+Numerazione con diversi livelli
+1, 10, 60, 600, 3600, 36.000, 216.000, 2.160.000, 12.960.000
+1-10-10×6- (10×6×10)- (10×6×10×6)- (10×6×10×6×10)- (10×6×10×6×10×6)- (10×6×10×6×10×6×10)- (10×6×10×6×10×6×10×6)
+Perché la base 60?
+*Ipotesi di Otto Neugebauer.
+Nei testi economici cuneiformi importanza primaria ebbe l'unità di peso ;
+zodiaco 6 costellazioni;
+sole in ogni costellazione 60 giorni;
+possibilità di dividere un cerchio in sei parti uguali di 60º ognuna e con la corda di una di esse (sestante) uguale al raggio del cerchio stesso.
+A tale ipotesi si può obiettare che la suddivisione del cerchio in 360° è avvenuta solo negli ultimi secoli a.C., evidentemente dopo l'introduzione della base 60.
+rapporto tra l'ora sumera (2 h) e il diametro apparente del sole espresso in unità di tempo pari ognuna a 2 min.
+*Ipotesi della natura mista della base 60.
+Questa sarebbe il frutto di una sintesi tra base 10 e base 6 e la prova sarebbe le modalità di costituzione dei numeri sumeri vista sopra (v. il ruolo del numero 6).
+Ma questa tesi ha l'inconveniente di dover poi spiegare l'origine altrettanto misteriosa di questa base 6.
+*Ipotesi utilitaristica (Teone di Alessandria, IV secolo).
+Base 60 ha tanti divisori compresi i primi 6 numeri interi di cui è il minimo comune multiplo oltre a esserlo di 12 e 10.
+Tale sistema consente di rappresentare molte frazioni con interi (es. ½ sarebbe 30=60/2).
+Ma questo spiega meglio il successo della base 60, non tanto la sua origine.
+Anche se è ragionevole pensare al frutto di uno studio approfondito fatto da una classe sacerdotale specializzata come quella mesopotamica, visto che si sovrappose probabilmente a un sistema decimale spontaneamente usato (e di cui vi è traccia come sistema ausiliare).
+*Ipotesi di George Ifrah.
+Base 60 sarebbe la sintesi tra la base 5 e la base 12 (fondata sulla conta delle falangi di quattro dita), la base 12 computata su di una mano e quella 5 computata come multiplo del 12 sull'altra mano.
+Oppure il contrario (la base 5 computata su una mano e la base 12 come multiplo del 5 sull'altra mano):
+traccia linguistica di quest'usanza sarebbe in latino il termine "digiti" (dita) per indicare le unità e il termine "articuli" per indicare le decine.
+Dalla Mesopotamia questa tecnica si sarebbe diffusa a Oriente (India).
+La base che ha storicamente trionfato è la base 10, un felice compromesso, né troppo grande (con l'inconveniente di troppi segni elementari) né troppo piccola (con l'inconveniente di complicate combinazioni di pochi segni).
+Inoltre tale base è ben radicata nella costituzione degli arti dell'essere umano (le 10 dita).
+Il sistema decimale è simmetrico, ed esteticamente gradevole, con una procedura di costituzione periodica dei numeri a tutti livelli praticamente identica (in pratica non c'è bisogno di basi ausiliarie come nel caso della base 60).
+La vasta diffusione della base 10 è forse legata alla discesa degli Indoeuropei e all'esistenza di una sola lingua madre nel 2500-3000 a.C., giacché le affinità linguistiche del lessico numerico fanno pensare a un'elaborazione precedente l'inizio della diffusione.
+Forse il sistema decimale si è costituito a un'epoca in cui c'era ancora la comunicazione unicamente orale, per cui i simboli scritti sarebbero addirittura più recenti dei numerali.
+In certe regioni dell'Africa Occidentale già si può vedere l'utilizzo di una base 10:
+ad es. gli animali possono venir contati infilando conchiglie in una striscia bianca fino al numero di 10, con il quale si infila una prima conchiglia in una striscia blu che fa da supporto mnemonico esterno, si svuota la striscia bianca e la si riempie di nuovo fino sempre a 10 ecc.;
+quando la striscia blu arriva poi a 10 conchiglie (10 decine), si svuota e si mette una prima conchiglia in una striscia rossa (centinaia) ecc.
+Anche in Cina troviamo un sistema decimale ben sviluppato:
+shi-yi (10+1) 100= bai
+shi-er (10+2) 200= er-bai (2×100)
+shi-san (10+3) 300= san-bai (3×100)
+er-shi (2×10) 1000=
+qian
+liù
+san-shi (3×10) 2000= er-qian (2×1000)
+si-shi (4×10) 10000= wan
+9= jiu
+10= shi
+Ad es. 53.781:
+Cinquantatremilasettecentottantuno 33 lettere in italiano letterale
+Wu-wan san-qian qi-bai ba-shi yi 24 lettere
+in cinese
+Cinquediecimilatremillesettecentoottodieciuno 45 lettere traducendo in italiano letterale
+Dal precedente specchietto si vede che comunque il sistema cinese è meno rispettoso delle regole del sistema decimale in quanto ad es. 10000 che da noi è chiaramente dieci-mila, in esso è un termine coniato ex novo (wan).
+In italiano vi sono comunque i termini cento e mille.
+Aspetti positivi del sistema a base 10 sono come si è già detto:
+* Il miglior adattamento alla memoria umana (rispetto ad es. alla base 60)
+* Una tavola di moltiplicazione facilmente memorizzabile
+* Migliore rappresentabilità grafica rispetto a basi più piccole (es. in un sistema binario 2452 sarebbe 100110010100)
+Tuttavia queste ragioni non sarebbero sufficienti rispetto a basi vicine alla base 10, quali la base 11 e la base 12.
+La base 12 ad es. preferita dal naturalista francese Buffon:
+* Ha più divisori, dunque calcolatori e commercianti sarebbero facilitati perché della base potrebbero utilizzare la metà, un terzo, un quarto e un sesto.
+* L'anno avrebbe un numero di mesi uguale alla base.
+* Un giorno avrebbe un numero di ore doppio della base.
+* Un'ora e un minuto avrebbero rispettivamente un numero di minuti e di secondi quintupli della base.
+* La misura in gradi del cerchio sarebbe 30 volte la base e così pure l'eclittica.
+Molte ragioni per preferire la base 12 sarebbero cioè legate al fatto che molte misurazioni si effettuano ancora con base 12 o base 60 e fondamentalmente sulla presenza di un maggior numero di divisori.
+Quest'ultimo aspetto ha un inconveniente nella presenza di un maggior numero di ridondanze (doppioni) frazionarie .
+La base 11 invece ha una rappresentazione priva di queste ambiguità in quanto essendo un numero primo è divisibile solo per sé stessa, per cui le frazioni sarebbero irriducibili e avrebbero una sola rappresentazione simbolica possibile.
+Per tutte queste ragioni però la base 10 sembra essere il giusto mezzo tra base 12 (troppi divisori) e base 11 (nessun divisore), oltre ad avere l'indubbio vantaggio di essere esemplificabile in maniera immediata dal numero delle dita delle mani con un forte vantaggio nell'apprendimento infantile.
+Per Alain Boyer la formalizzazione linguistica e poi scritta di una base 10 già esistente e somaticamente ben riconoscibile, è stata decisiva per il trionfo della base 10.
+Se, cosa abbastanza improbabile, il linguaggio scritto avesse preceduto la costituzione della base si sarebbe potuto pensare a una molteplicità di basi.
+Comunque storicamente la scelta della base 10 si è definita in maniera quasi ufficiale e politica con le decisioni prese dalla Convenzione di Parigi dopo la Rivoluzione francese che disciplinò anche i sistemi di misurazione almeno per ciò che riguarda l'Europa continentale.
+Nelle popolazioni più primitive le diverse basi hanno distribuzioni diseguali ma qualche residuo arcaico rimane sempre:
+ad es. Eels nel 1913 fece una statistica tra centinaia di tribù del Nordamerica dove concluse che il 31% faceva uso di una base 10, il 31% di una base quinaria-decimale, il 27% di una arcaica base 2, il 10% di una base vigesimale e l'1% di una base 3.
+Del resto ci sono stati anche dei tentativi di usare basi non legate alla mano tipo la base 4 (anche se più probabilmente tale base è legata all'uso del pollice come cursore che conta le altre dita della mano) di cui vi è traccia nella parola indoeuropea per "8" che sarebbe solo la forma duale di "4", e anche nella relazione che si può instaurare tra il termine "novem" e il termine "novum", quasi che si fosse di fronte a una nuova serie numerica su base ottonaria.
+Note
+Bibliografia
+* Cajori, Florian:
+A History of Mathematical Notations vol.
+I, The Open Court Publishing Company (1928)
+*Cajori, Florian:
+A History of Mathematical Notations Vol.
+II, The Open Court Publishing Company (1929)
+*Ifrah, George (1984) Storia universale dei numeri Milano:
+Mondadori.
+ISBN 88-04-29443-4
+*Joseph, George Gheverghese (2000) The Crest of the Peacock:
+Non-European Roots of Mathematics.
+2nd.
+ed.
+London:
+Penguin Books.
+*Nicosia, Giovanni Giuseppe (2008) Numeri e culture.
+Alla scoperta delle culture matematiche nell'epoca della globalizzazione.
+Trento:
+Erickson.
+*Zaslavsky, Claudia (1973) Africa Counts:
+Number and Pattern in African Culture.
+Third revised ed.
+, 1999. Chicago:
+Lawrence Hill Books.
+ISBN 1-55652-350-5

@@ -1,0 +1,28 @@
+Compilateur
+Chaque langage de programmation a son propre compilateur.
+Le premier compilateur a été écrit par Grace Hopper.
+L’un des compilateurs les plus connus aujourd’hui est le compilateur écrit par Richard Stallman pour le langage C, gcc.
+En réalité, ce n’est pas seulement un compilateur mais une suite de logiciels dont un compilateur, cc1.
+Un exemple en C : un fichier test.c contient le code source suivant…
+/ /
+Sort du programmereturn(0);
+Le compilateur transforme ce fichier source en fichier objet, écrit en langage d’assemblage :
+Puis l’assembleur et l’éditeur de liens finissent
+le travail
+pour produire un fichier binaire, illisible par un humain :
+Les fichiers binaires ne devraient-ils pas être écrits seulement avec des 0 et des 1 ?
+Ça n'a aucune importance, car il s'agit simplement d'une façon comme une autre de représenter les mêmes nombres.
+Ici, plutôt que d’utiliser le binaire, on a écrit en hexadécimal, qui prend quatre fois moins de place.
+Pour cette raison, l’hexadécimal est très employé à la place du binaire.
+L’exemple précédent permet de comprendre les différentes utilités d’un langage de programmation :
+le code source est beaucoup plus simple à comprendre que du binaire ou même le langage d’assemblage ;
+il est aussi beaucoup plus court à lire et à écrire.
+De plus, chaque processeur peut avoir un langage d’assemblage différent des autres, ce qui fait que le code d’assemblage présenté plus haut a peu de chances de fonctionner sur un autre ordinateur pris au hasard.
+En revanche, le programme écrit en C n’est pas à adapter pour fonctionner sur tous les ordinateurs : lorsqu’il est recompilé, l’assembleur produit est automatiquement adapté à l’ordinateur qui compile !
+Il ne faut pas confondre le compilateur avec l'interpréteur :
+Le premier permet de traduire entièrement le code source en code exécutable.
+Ainsi à partir des fichiers sources, on obtient les fichiers exécutables, qui pourront être utilisés indépendamment.
+On n'a plus besoin du code source ni du compilateur pour l'exécution.
+Avec un interpréteur, le code est traduit au fur et à mesure de l'exécution.
+On n'obtient pas de fichier exécutable : le code machine est donné à exécuter par l'interpréteur pendant qu'il lit le code source.
+Dans ce cas, le code source et l'interpréteur doivent être utilisés ensemble.

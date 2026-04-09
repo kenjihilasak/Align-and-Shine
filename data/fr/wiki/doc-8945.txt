@@ -1,0 +1,136 @@
+Mécanique
+classique|Centrifugation
+La force centrifuge, nom courant mais « abusif » de leffet centrifuge
+, est un cas particulier de force fictive qui apparaît en physique dans le contexte de l'étude du mouvement des objets dans des référentiels non inertiels.
+L'effet ressenti est dû aux mouvements de rotation de ces référentiels et se traduit par une tendance à éloigner les corps du centre de rotation.
+C'est, par exemple, la sensation d'éjection d'un voyageur dans un véhicule qui effectue un virage.
+Historique
+L'expression de la force centrifuge («
+vis
+centrifuga ») a été découverte par Christian Huygens en 1659, donc bien avant que les lois de la dynamique ne soient mises au point par Isaac Newton et que la notion générale de force ne soit clairement dégagée.
+Les théorèmes qu'il a découverts sont publiés en 1673 en annexe de son Horologium oscillatorium.
+Le mémoire de 1659 ne sera publié qu'en 1703, une dizaine d'années après sa mort.
+Depuis Galilée, on sait que les corps tombent en chute libre d'un mouvement uniformément accéléré.
+Pour Huygens, un corps exerce une traction sur un fil qui le retient lorsque ce corps a une tendance à se mouvoir dans la direction du prolongement du fil d'un mouvement uniformément accéléré.
+Selon lui, cette règle s'applique non seulement au corps pesant, mais également à un corps tournant circulairement au bout d'un fil autour d'un point fixe.
+Dans ce dernier cas, la traction qu'on exerce sur le fil s'oppose à la force centrifuge qui, si le fil se rompt, éloignera le corps de sa trajectoire circulaire pour lui faire suivre une trajectoire rectiligne tangente au cercle.
+Relativement au cercle, au moment où le fil se rompt, la distance entre le point qu'occupe le corps sur la tangente et le point qu'il aurait occupé sur le cercle croît d'un mouvement uniformément accéléré.
+La comparaison à la chute libre permet alors à Huygens de déterminer l'expression de la force centrifuge par rapport au poids.
+Il énonce en particulier que :
+* Prop
+I :
+À vitesse angulaire constante, la force centrifuge est proportionnelle au rayon du cercle
+* Prop
+II : À rayon constant, elle est proportionnelle au carré de la vitesse
+* Prop
+V :
+La force centrifuge d'un mobile parcourant un cercle à une vitesse égale à celle acquise à l'issue d'une chute libre du quart du diamètre est égale à son poids.
+En notation moderne, la proposition V énonce
+que, si R est le rayon de la trajectoire circulaire, et si v est la vitesse acquise à l'issue d'une chute libre d'une hauteur R R. Les propositions I et II énoncent alors que l'accélération centrifuge est v^2/R dans tous les cas.
+L'expression force fictive apparaît chez Coriolis en 1844.
+Expression de la force centrifuge
+Elle provient directement de la cinématique classique et des trois lois du mouvement de Newton.
+Son intensité est donnée par la formule :
+m \cdot \omega^2 \cdot R
+\frac \;.
+Ces deux relations équivalentes sont valables dans le Système international d'unités avec les notations et unités suivantes : (convertir les unités si besoin) :
+* \scriptstyle _ est la force centrifuge en newtons (N), avec 1 newton voisin de 0,1 kilogramme-force ;
+* m est la masse, en kilogramme (kg), de l'objet considéré ;
+* ω est la vitesse angulaire en radians par seconde , 1 m h ;
+* R est la distance de l'axe de rotation au centre de gravité de l'objet
+c'est-à-dire le rayon de courbure de la trajectoire en mètres (m).
+La force centrifuge est représentable par un vecteur qui est perpendiculaire à l'axe instantané de rotation.
+Force et accélération centrifuge
+La force centrifuge et le poids s'exerçant sur un objet de masse m sont deux forces qui sont proportionnelles à m, (selon le principe d'équivalence).
+Aussi, est-il souvent plus évocateur de considérer, non pas les forces F, mais les accélérations F s).
+On peut également utiliser le nombre de g, défini par le rapport entre l'accélération considérée et l'accélération de la pesanteur terrestre, laquelle est environ .
+En langage courant, le nombre de g est donc le dixième de la valeur de l'accélération exprimée en m/s.
+Ordres de grandeurs pour des accélérations centrifuges
+Selon les vitesses (linéaires ou angulaires) et les rayons de courbure R, le calcul numérique donne approximativement :
+* : vélo incliné de 26° par rapport à la verticale,
+, R = .
+* : future gravité artificielle dans un habitat spatial, , R = .
+* : graine de pois sur plateforme rotative,
+, R =
+* : ressource ou virage d'un avion à réaction, , R
+ou avion à hélice, , R
+* : ressource ou virage d'un avion à hélice, , R = .
+* : centrifugeuse humaine pour l'entraînement des pilotes de chasse,
+, R = .
+* : essorage du linge d'une machine à laver, , R
+diamètre du tambour
+* : centrifugeuse pour l'enrichissement de l'uranium, , R = (hypothétique).
+Exemples
+Il existe des cas où l'effet centrifuge peut être recherché, par exemple lors de l'essorage du linge dans un tambour de machine.
+Inévitable pour les systèmes en rotation
+, il peut constituer un désagrément pour les passagers d'un véhicule négociant un changement de direction.
+Tout le monde a déjà expérimenté cette sensation dans une voiture prenant un virage, on ressent alors la force centrifuge qui nous pousse vers l'extérieur du virage.
+Mais à y bien regarder, le fond du siège nous tire vers l'intérieur sinon on ne prend pas le virage avec la voiture, et c'est à notre inertie (faculté de tout corps matériel à s'opposer au mouvement imposé) qu'on doit cette sensation .
+Et qui n'a pas laissé un objet sur le tableau de bord qui se voit glisser vers l'extérieur de la voiture au premier virage venu: effectivement, l'adhérence au tableau de bord étant alors insuffisante pour lui faire suivre le virage, dans sa grande paresse, l'objet part en réalité tout droit (donc vers l'extérieur pour un observateur placé dans le véhicule).
+Vu de l'extérieur, on observerait une trajectoire tangente à celle du virage pris par le véhicule, en aucun cas une trajectoire radiale dans la direction de la force dite centrifuge!
+Cet exemple montre bien que cette notion est fortement liée au référentiel.
+L'absence de force implique toujours une absence de variation de mouvement (soit la ligne droite).
+On a alors recours à des artifices pour annuler, ou plutôt compenser cet effet : Combinaison anti-G des pilotes d'avion de chasse, système pendulaire de certains trains, virages relevés des routes, inclinaison des véhicules à moins de quatre roues dans les virages, vélos, motos et scooters à 2 roues, scooters à 3 roues équipés de l'Hydraulic Tilting System.
+Essorage du linge
+C'est l'emploi le plus simple de l'effet centrifuge.
+Le mouvement de rotation imposé au linge induit des accélérations transmises aussi aux particules d'eau.
+Alors qu'elles restaient collées au repos, par capillarité aux textiles, les forces de cohésion deviennent insuffisantes lorsque l'ensemble tourne suffisamment vite.
+L'équilibre local n'est plus garanti, l'eau est éjectée.
+Séparation de liquides
+C'est le même principe employé pour séparer les éléments constituant des liquides hétérogènes, comme le sang.
+Le champ de force induit par l'effet centrifuge s'apparente à un champ de pesanteur plus fort qui favorise la séparation d'éléments de densités différentes.
+L'enrichissement de l'uranium repose sur ce principe, mais est technologiquement plus compliqué, puisqu'il faut « rendre liquide ce métal » pour pouvoir le centrifuger.
+C'est-à-dire incorporer les atomes de l'uranium « métal » dans une substance liquide (ou gazeuse), comme l'hexafluorure d'uranium.
+Régulateurs à effet centrifuge (sur anciennes machines à vapeur)
+Le schéma donné reproduit le principe du régulateur de James Watt.
+Entraîné, via la courroie, par la machine, le rotor voit ses masselottes s'écarter.
+Une tringlerie commande alors une vanne.
+L'action sur la vanne a un effet inverse sur la puissance fournie à la machine: c'est le principe de l'asservissement.
+Trop vite on ferme la vapeur, trop lent on ouvre, le système finissant par trouver le juste équilibre, et par conséquent un régime régulé.
+Fichier:
+Centrifugal governor.png|Exemple de régulateur
+Fichier:
+regulateur_watt.jpg|Principe d'un régulateur à effet centrifuge
+Train pendulaire
+Les voyages en train sont souvent longs.
+Il est donc appréciable de pouvoir circuler dans les voitures pour se dégourdir les jambes.
+Les lignes anciennes sont parfois sinueuses, et les déplacements dans les allées sont alors difficiles à négocier.
+L'idée du train pendulaire exploite l'effet centrifuge pour incliner les voitures, de telle sorte que la force centrifuge s'ajoute au poids pour donner un poids apparent exactement perpendiculaire au plancher.
+De ce fait les passagers ne ressentent plus les efforts de cisaillement le long du corps qui tendent à faire perdre l'équilibre.
+Dans certains cas cela permet d'augmenter la vitesse mais l'effet est alors reporté sur les voies qui doivent retenir les trains.
+Là encore on a recours aux virages relevés pour reprendre avec une meilleure incidence la force centripète appliquée aux essieux.
+Ce qui impose un passage en courbe à une vitesse bien particulière: trop faible, le train penche vers l'intérieur, trop forte on est attiré vers l'extérieur.
+La relation pour calculer l'angle auquel les rails doivent être inclinées est: \tan\alpha==
+\;.
+Poids
+La Terre ne constitue pas un référentiel strictement inertiel.
+Par rapport au référentiel géocentrique, la Terre est animée d'un mouvement de rotation (qui produit par ailleurs l'alternance jour/nuit).
+Les corps sur Terre sont donc soumis à la force centrifuge ;
+c'est pour cette raison que les pas de tir des fusées sont situés de préférence à proximité de l'équateur, car c'est là que l'effet est maximal (effet de « fronde ») ;
+c'est le cas du Centre spatial de Kourou (env.
+de latitude Nord) et de Cap Kennedy (env.
+de latitude Nord).
+Cette force centrifuge fait partie du poids, celui-ci ne se limite donc pas à l'attraction terrestre.
+Avion effectuant un virage dans le ciel
+Nous considérons ici que le mouvement s'effectue dans un plan (un peu comme le dessin sur la démonstration de la force centrifuge au-dessus).
+Le calcul reste valable si l'avion exécute un virage plus « complexe » (trajectoire gauche).
+Comme le montre la formule plus haut, l'accélération centrifuge (et donc la force centrifuge) est directement liée à la vitesse linéaire de l'appareil :
+\mathrm
+\frac \Leftrightarrow
+\frac
+puisque \mathrm = m \times a d'après la loi de Newton.
+En considérant un Grumman F-14 Tomcat, capable de voler à , ou un Mig-29, atteignant Mach 2,3 (2,3 fois la vitesse du son), on comprend qu'un pilote aux commandes de ce type d'avion subit des accélérations de l'ordre de ( la gravité terrestre).
+Les pilotes de chasse sont spécialement entraînés pour supporter ces accélérations extrêmes.
+De plus, ils sont équipés d'une combinaison anti-G pour contrebalancer les effets qu'elles pourraient entraîner (voile rouge, voile gris ou voile noir).
+Ces deux effets néfastes sont dus à des accélérations, que le pilote perçoit comme positive ou négative (et il est important de bien comprendre que c'est le pilote qui perçoit l'accélération alors que cette dernière n'a pas changé, comme dans l'illustration ci-dessus).
+Le voile rouge consiste en un afflux de sang dans la tête alors que le voile noir résulte du reflux du sang vers les jambes.
+La combinaison anti-G est un ensemble de poches qui se gonflent pour bloquer ces phénomènes.
+Vibreurs
+Une petite masse est fixée excentrée sur l'arbre d'un micro-moteur.
+Entraînée à grande vitesse de rotation, l'effet centrifuge provoque la réaction du palier qui fait vibrer le dispositif.
+Ceci est utilisé :
+* pour les aiguilles vibrantes, utilisées pour répartir le béton lors de la coulée (béton vibré) ;
+* pour les règles vibrantes utilisées pour lisser des chapes de mortier ou de béton.
+Transmission par courroie
+L'effort que l'on peut transmettre par une courroie asynchrone est limité par l'adhérence entre la courroie et la poulie.
+Aux grandes vitesses de rotation, la force centrifuge relâche l'effort normal de la courroie sur la poulie, et donc réduit l'adhérence.

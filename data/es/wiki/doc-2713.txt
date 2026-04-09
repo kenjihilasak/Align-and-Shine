@@ -1,0 +1,78 @@
+PHP, acrónimo recursivo en inglés de PHP Hypertext Preprocessor (procesador de hipertexto), es un lenguaje de programación de propósito general de código del lado del servidor originalmente diseñado para el desarrollo web de contenido dinámico.
+Fue uno de los primeros lenguajes de programación del lado del servidor que se podían incorporar directamente en un documento HTML en lugar, de llamar a un archivo externo que procese los datos.
+El código es interpretado por un servidor web con un módulo de procesador de PHP que genera el HTML resultante.
+PHP ha evolucionado por lo que ahora incluye también una interfaz de línea de comandos que puede ser usada en aplicaciones gráficas independientes.
+Puede ser usado en la mayoría de los servidores web al igual que en muchos sistemas operativos y plataformas sin ningún costo.
+Fue creado originalmente por Rasmus Lerdorf en el año 1995.
+Actualmente el lenguaje sigue siendo desarrollado con nuevas funciones por el grupo PHP.
+Este lenguaje forma parte del software libre publicado bajo la licencia PHPv3_01, es una licencia Open Source validada por Open Source Initiative.
+La licencia de PHP es del estilo de licencias BSD, esta licencia no tiene restricciones de copyleft" asociadas con GPL.
+Etimología
+PHP es un acrónimo recursivo que significa PHP Hypertext Preprocessor (inicialmente PHP Tools, o, Personal Home Page Tools).
+Fue creado originalmente por Rasmus Lerdorf; sin embargo, la implementación principal de PHP es producida ahora por The PHP Group y sirve como el estándar de facto para PHP, al no haber una especificación formal.
+Publicado con la PHP License, la Free Software Foundation considera esta licencia como software libre.
+Visión general
+PHP puede ser desplegado en la mayoría de los servidores web y en casi todos los sistemas operativos y plataformas sin costo alguno.
+El lenguaje PHP se encuentra instalado en más de 20 millones de sitios web y en un millón de servidores.
+El número de sitios basados en PHP se ha visto reducido progresivamente en los últimos años, con la aparición de nuevas tecnologías como Node.
+JS, Golang, , etc.
+El sitio web de Wikipedia está desarrollado en PHP.
+Es también el módulo Apache más popular entre las computadoras que utilizan Apache como servidor web.
+El gran parecido que posee PHP con los lenguajes más comunes de programación estructurada, como C y Perl, permiten a la mayoría de los programadores crear aplicaciones complejas con una curva de aprendizaje muy corta.
+También les permite involucrarse con aplicaciones de contenido dinámico sin tener que aprender todo un nuevo grupo de funciones.
+Aunque todo en su diseño está orientado a facilitar la creación de sitios webs, es posible crear aplicaciones con una interfaz gráfica para el usuario, utilizando alguna extensión como puede ser PHP-Qt, PHP-GTK, WxPHP, WinBinder, Roadsend PHP, Phalanger, Phc o HiP Hop VM.
+También puede ser usado desde la línea de comandos, de la misma manera como Perl o Python pueden hacerlo; a esta versión de PHP se la llama PHP-CLI (Command Line Interface).
+Cuando el cliente hace una petición al servidor para que le envíe una página web, el servidor ejecuta el intérprete de PHP.
+Éste procesa el script solicitado que generará el contenido de manera dinámica (por ejemplo obteniendo información de una base de datos).
+El resultado es enviado por el intérprete al servidor, quien a su vez se lo envía al cliente.
+Mediante extensiones es también posible la generación de archivos PDF, Flash, así como imágenes en diferentes formatos.
+Permite la conexión a diferentes tipos de servidores de bases de datos tanto SQL como NoSQL tales como MySQL, PostgreSQL, Oracle, ODBC, DB2, Microsoft SQL Server, Firebird, SQLite o MongoDB.
+PHP también tiene la capacidad de ser ejecutado en la mayoría de los sistemas operativos, tales como Unix (y de ese tipo, como Linux o Mac OS X) y Microsoft Windows, y puede interactuar con los servidores de web más populares ya que existe en versión CGI, módulo para Apache, e ISAPI.
+PHP es una alternativa a las tecnologías de Microsoft ASP y (que utiliza C# y Visual Basic .NET como lenguajes), a ColdFusion de la empresa Adobe, a JSP Perl y a Node.js/Javascript.
+Aunque su creación y desarrollo se da en el ámbito de los sistemas libres, bajo la licencia GNU, existe además un entorno de desarrollo integrado comercial llamado Zend Studio.
+CodeGear (la división de lenguajes de programación de Borland) ha sacado al mercado un entorno de desarrollo integrado para PHP, denominado 'Delphi for PHP.
+También existen al menos un par de módulos para Eclipse, uno de los entornos más populares.
+Historia
+Fue originalmente diseñado en Perl, con base en la escritura de un grupo de CGI binarios escritos en el lenguaje C por el programador danés-canadiense Rasmus Lerdorf en el año 1994 para mostrar su currículum vítae y guardar ciertos datos, como la cantidad de tráfico que su página web recibía.
+El 8 de junio de 1995 fue publicado "Personal Home Page Tools" después de que Lerdorf lo combinara con su propio Form Interpreter para crear PHP/FI.
+Dos programadores israelíes del Technion, Zeev Suraski y Andi Gutmans, reescribieron el analizador sintáctico (parser, en inglés) en 1997 y crearon la base del PHP3, y cambiaron el nombre del lenguaje por PHP: Hypertext Preprocessor.
+y, a pesar de lo anunciado, se ha liberado una nueva versión con mejoras de seguridad, la 4.4.8, publicada el 13 de enero del 2008, y posteriormente la versión 4.4.9, publicada el 7 de agosto del 2008.
+Según esta noticia, se le dio soporte a fallos críticos hasta el 9 de agosto del 2008.
+El 13 de julio del 2004, se lanzó PHP 5, utilizando el motor Zend Engine 2.0 (o Zend Engine 2).
+Las variables se prefijan con el símbolo del dólar ($) y no es necesario indicar su tipo.
+Las variables, a diferencia de las funciones, distinguen entre mayúsculas y minúsculas.
+Las cadenas de caracteres pueden ser encapsuladas tanto en dobles comillas como en comillas simples, aunque en el caso de las primeras, se pueden insertar variables en la cadena directamente, sin necesidad de concatenación.
+Los comentarios se pueden escribir bien con dos barras al principio de la línea, o con una almohadilla.
+También permite comentarios multi-línea encapsulados en /
+En cuanto a las palabras clave, PHP comparte con la mayoría de otros lenguajes con sintaxis C las condiciones con if, los bucles con for y while y los retornos de funciones.
+Como es habitual en este tipo de lenguajes, las sentencias deben acabar con punto y coma (;).
+Características de PHP
+Características
+Orientado al desarrollo de aplicaciones web dinámicas con acceso a información almacenada en una base de datos.
+* Es considerado un lenguaje fácil de aprender, ya que en su desarrollo se simplificaron distintas especificaciones, como es el caso de la definición de las variables primitivas, ejemplo que se hace evidente en el uso de php arrays.
+* El código fuente escrito en PHP es invisible al navegador web y al cliente, ya que es el servidor el que se encarga de ejecutar el código y enviar su resultado HTML al navegador.
+* Capacidad de conexión con la mayoría de los motores de base de datos que se utilizan en la actualidad, destaca su conectividad con MySQL y PostgreSQL.
+* Capacidad de expandir su potencial utilizando módulos (llamados ext's o extensiones).
+* Posee una amplia documentación en su sitio web oficial, entre la cual se destaca que todas las funciones del sistema están explicadas y ejemplificadas en un único archivo de ayuda.
+* Es libre, por lo que se presenta como una alternativa de fácil acceso para todos.
+* Permite aplicar técnicas de programación orientada a objetos.
+* No requiere definición de tipos de variables aunque sus variables se pueden evaluar también por el tipo que estén manejando en tiempo de ejecución.
+* Si bien PHP no obliga a quien lo usa a seguir una determinada metodología a la hora de programar, aun haciéndolo, el programador puede aplicar en su trabajo cualquier técnica de programación o de desarrollo que le permita escribir código ordenado, estructurado y manejable.
+Un ejemplo de esto son los desarrollos que en PHP se han hecho del patrón de diseño Modelo Vista Controlador (MVC), que permiten separar el tratamiento y acceso a los datos, la lógica de control y la interfaz de usuario en tres componentes independientes.
+* Debido a su flexibilidad ha tenido una gran acogida como lenguaje base para las aplicaciones WEB de manejo de contenido, y es su uso principal.
+Inconvenientes
+* Como es un lenguaje que se interpreta en ejecución, para ciertos usos puede resultar un inconveniente que el código fuente no pueda ser ocultado.
+La ofuscación es una técnica que puede dificultar la lectura del código pero no necesariamente impide que el código sea examinado.
+* Debido a que es un lenguaje interpretado, un script en PHP suele funcionar considerablemente más lento que su equivalente en un lenguaje de bajo nivel, sin embargo este inconveniente se puede minimizar con técnicas de caché tanto en archivos como en memoria.
+* En las versiones previas a la 7, las variables no son tipificadas, lo cual dificulta a los diferentes IDEs ofrecer asistencias para el tipificado del código, aunque esto no es realmente un inconveniente del lenguaje en sí.
+Esto es solventado por algunos IDEs añadiendo un comentario con el tipo a la declaración de la variable.
+XAMPP, LAMP, WAMP, MAMP, UwAmp
+XAMPP es un servidor independiente de plataforma, software libre, que consiste principalmente en la base de datos MySQL, el servidor Web Apache y los intérpretes para lenguajes de script: PHP y Perl.
+El nombre proviene del acrónimo de X (para cualquiera de los diferentes sistemas operativos), Apache, MySQL, PHP, Perl.
+El programa está liberado bajo la licencia GNU y actúa como un servidor Web libre, fácil de usar y capaz de interpretar páginas dinámicas.
+Actualmente XAMPP está disponible para Microsoft Windows, GNU/Linux, Solaris, y MacOS X.
+Es un software "liviano" que se puede utilizar en cualquier PC.
+No necesita muchos recursos.
+LAMP presenta una funcionalidad parecida a XAMPP, pero enfocada en Linux, WAMP lo hace enfocado en Windows, y MAMP para MacOS X. UwAmp es muy idéntico a WAMP y se destaca en que se puede ejecutar desde una memoria USB.
+Principales sitios desarrollados con PHP
+Se utiliza PHP en millones de sitios; entre los más destacados se encuentran , y .

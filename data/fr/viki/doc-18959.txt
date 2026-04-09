@@ -1,0 +1,8 @@
+Le Domain Name System ou DNS fait fonctionner les domaines Internet.
+Les domaines sont « stationnés » sur des noms de serveur DNS (nameservers).
+Chaque domaine nécessite 2 noms de serveur DNS ou plus.
+Les noms de serveur DNS commencent souvent par ns, nserver ou nameserver.
+Les grandes compagnies comme Google et Apple ont plus de 2 noms de serveur.
+Si un serveur ne fonctionne pas, on utilise l'autre.
+Les noms de serveur sont eux-mêmes configurés grâce à une entrée A (une adresse IP) et une entrée MX (le serveur qui doit recevoir les courriels).
+Voici quelques exemples :

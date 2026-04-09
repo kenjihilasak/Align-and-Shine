@@ -1,0 +1,201 @@
+Exponentielle|*|Fonction de référence|Exponentielle
+En mathématiques, la fonction exponentielle est la fonction notée qui est sa propre dérivée et qui prend la valeur en .
+Elle est utilisée pour modéliser des phénomènes dans lesquels une différence constante sur la variable conduit à un rapport constant sur les images.
+Ces phénomènes sont en croissance dite «
+exponentielle »
+On note la valeur de cette fonction en .
+Ce nombre qui vaut approximativement s'appelle la base de la fonction exponentielle et permet une autre notation de la fonction exponentielle :
+: \forall x\quad \exp (x) = \mathrm e^x.
+La fonction exponentielle est la seule fonction continue sur ℝ qui transforme une somme en produit et qui prend la valeur en .
+C'est un cas particulier des fonctions de ce type appelées exponentielles de base .
+On peut la déterminer comme limite de suite ou à l'aide d'une série entière.
+C'est la bijection réciproque de la fonction logarithme népérien.
+Ces diverses définitions permettent d'étendre la définition de la fonction exponentielle à des fonctions de ℂ vers ℂ* ou même à des espaces plus compliqués et s'utilise alors en géométrie riemannienne, dans la théorie des groupes de Lie, ou encore dans l'étude des algèbres de Banach.
+Les applications élémentaires des fonctions exponentielles réelles ou complexes concernent la résolution des équations différentielles, la mise en place de la théorie de Fourier… mais les champs d'applications des fonctions exponentielles sont extrêmement vastes : étude de la croissance des groupes, etc.
+On appelle aussi parfois fonction exponentielle toute fonction dont l'expression est de la forme .
+Fonction exponentielle réelle
+Définitions
+Il existe plusieurs points d'entrée possibles pour la définition de la fonction exponentielle : par la propriété de sa dérivée (la dérivée est égale à la fonction), par ses propriétés algébriques (elle transforme une somme en produit), ou par son développement en série.
+Par une équation différentielle
+Cette propriété d'être sa propre dérivée se traduit par une propriété sur la sous-tangente à la courbe représentative de .
+La sous-tangente, c'est-à-dire la distance qui sépare le réel de l'abscisse du point d'intersection de la tangente à la courbe au point d'abscisse avec l'axe des , est constante et vaut 1.
+On montre de plus que ne s'annule jamais.
+À partir de la fonction logarithme népérien
+En effet, la fonction logarithme népérien étant continue strictement croissante sur son ensemble de définition, et de limites infinies aux bornes, elle définit une bijection de ℝ sur ℝ.
+Sa réciproque est une fonction définie sur ℝ vérifiant car .
+La fonction étant dérivable et de dérivée non nulle
+, sa réciproque est une fonction dérivable et, pour tout réel ,
+f' (x)
+\frac1
+f (x).
+Caractérisation algébrique
+La propriété algébrique de la fonction exponentielle (fonction continue non nulle transformant une somme en produit) est partagée par un ensemble de fonctions qui portent aussi le nom de fonctions exponentielles.
+Elles sont entièrement déterminées dès que l'on a précisé leur valeur en 1 qui doit être un réel strictement positif.
+La fonction qui prend la valeur en 1 est alors appelée fonction exponentielle de base .
+On peut ainsi considérer que la fonction exponentielle est la fonction exponentielle de base .
+On détermine sur les entiers puis sur les rationnels puis sur les irrationnels par continuité.
+On démontre à partir de cette définition que la fonction est non seulement continue mais dérivable et égale à sa propre dérivée.
+On retrouve ainsi la définition ci-dessus de l'exponentielle par une équation différentielle.
+Il est possible de s'affranchir de la nécessité de connaître au préalable par la caractérisation suivante:
+On s'inspire de l'égalité
+pour introduire une nouvelle notation pour la fonction :
+Toutes les fonctions exponentielles de base s'expriment à l'aide de la fonction et de la fonction logarithme népérien :
+\exp_a (x)
+a^x
+\mathrm
+e^.~
+Par une série
+Enfin, en appliquant la méthode de recherche de solutions analytiques des équations différentielles linéaires, on peut définir l'application exponentielle ou encore comme la somme d'une série entière de rayon de convergence infini :
+\exp (x) = \sum_^ ,
+où est la factorielle de .
+C'est également cette série qu'on obtient en appliquant la démonstration du théorème de Cauchy-Lipschitz, c'est-à-dire en construisant la solution de l'équation différentielle comme limite de la suite de fonctions définie par et
+u_ (t)=1+\int_0^t u_n (t)\,\mathrm dt.
+On déduit de cette série entière l'un des nombreux développements en fraction continue généralisée de la fonction exponentielle :
+^x=\frac-\frac-\frac-\frac-\frac-\frac-\cdots.
+Une analyse détaillée d'expressions de cette nature est proposée dans l'article «
+Approximant de Padé de la fonction exponentielle ».
+Étude de la fonction exponentielle
+La fonction prend en une valeur notée , qui vaut environ et est un nombre transcendant.
+La première des quatre définitions équivalentes ci-dessus montre que la fonction est de classe C.
+La dernière montre qu'elle est même analytique.
+Chacune des trois premières montre que la fonction est strictement croissante de ℝ dans ℝ
+Plus précisément - voir l'article «
+Indétermination de la forme »
+- la fonction tend vers plus rapidement que toute fonction polynomiale quand sa variable tend vers , c'est-à-dire que
+\lim_\frac=+\infty
+quel que soit l'entier naturel .
+Par changement de variable, on en déduit
+\lim_x^n\exp (x)=0.
+La croissance de peut se déduire de la positivité de sa dérivée .
+De même, puisque sa dérivée seconde est strictement positive, la fonction est strictement convexe.
+Propriétés
+La fonction exponentielle, de ℝ sur ℝ*, est la bijection réciproque de la fonction logarithme népérien : pour tous réels et ,
+, et .
+La fonction exponentielle transforme les sommes en produits
+, c'est-à-dire que pour tous réels et , .
+On en déduit que pour tout réel et tout rationnel , .
+Pour irrationnel, cette équation peut tenir lieu de définition, c'est-à-dire que l'une des façons de définir l'exponentielle de base est de poser, pour tous réels et : .
+Généralisation à d'autres ensembles
+Dans le plan complexe
+Définitions
+On peut définir la fonction complexe de deux façons :
+En utilisant la propriété :on écrit où et sont des nombres réels.
+La fonction exponentielle complexe s'exprime donc à l'aide de la fonction exponentielle réelle et des fonctions trigonométriques.
+En utilisant le développement en série de l'exponentielle, on étend celle-ci au plan complexe :
+La fonction exponentielle vérifie alors les propriétés importantes suivantes :
+*la fonction exponentielle dans le plan complexe est une fonction holomorphe et sa dérivée (au sens complexe) est elle-même :
+Ces formules se montrent à l'aide des formules de trigonométrie ou à l'aide de la notion de produit de Cauchy de deux séries, selon le mode de définition de l'exponentielle.
+C'est une fonction périodique, de période le nombre imaginaire pur .
+Cette périodicité empêche la création d'une réciproque, c'est la raison pour laquelle prolonger le logarithme naturel à l'ensemble des nombres complexes, donne naturellement une fonction multiforme , appelée logarithme complexe.
+L'exponentielle plus générale : pour tous nombres complexes
+et ,
+est alors aussi une fonction multiforme.
+Les propriétés ci-dessus des exponentielles restent vraies à condition de les interpréter convenablement comme des relations entre fonctions multiformes.
+La fonction exponentielle complexe est une fonction qui transforme une droite en un cercle.
+Précisons sur un exemple: considérons la fonction de \R dans \C : x\mapsto\exp (ix).
+L'image de \R par cette fonction est le cercle de centre de de rayon 1.
+Autrement dit, la fonction exponentielle complexe transforme l'axe imaginaire en le cercle unité.
+C'est la fonction que l'on utilise pour montrer que la droite réelle est un revêtement du cercle unité.
+Représentations
+Si w=x+\mathrm iy on peut représenter graphiquement, dans l'espace, les fonctions w\mapsto\Re (\exp (w)), w\mapsto\Im (\exp (w)), w\mapsto|\exp (w)et w\mapsto\arg (\exp (w))
+Image:
+Exponential Function
+.png|z=\Re
+(\exp (x+\mathrm iy))
+Image:
+Exponential
+Function
+.png|z=\Im
+(\exp (x+\mathrm iy))
+Image:
+Exponential
+Function Modulus.png|z=|\exp (x+\mathrm iy)|
+Image:
+Exponential Function
+Argument.png|z=\arg (
+\exp (x+\mathrm iy))
+Image:
+Exponential Function
+Density.png|z=\Re
+(\exp (x+\mathrm iy))
+Image:
+Exponential
+Function Density.png|z=\Im
+(\exp (x+\mathrm iy))
+:Pour d'autres représentations de l'exponentielle complexe, se référer
+à .
+Fonctions exponentielles dans d'autres espaces
+Exponentielle d'une matrice
+La définition de l'exponentielle comme série entière permet de définir l'exponentielle d'une matrice carrée
+comme
+:\exp (M)
+\mathrm e^M
+\sum_^\inftyM^k.
+Les exponentielles de matrices sont utiles dans la résolution des équations différentielles linéaires.
+Exponentielle d'un opérateur différentiel
+On peut de même définir l'exponentielle d'un opérateur différentiel par :
+:\exp (D)
+\mathrm
+e^D
+\sum_^\inftyD^k.
+Par exemple
+quand D=a\frac\mathrm d où est une constante :
+:\exp\left (a\frac\mathrm d\right)
+\mathrm e^
+\sum_^\infty\left (\frac\right)
+si bien que pour toute fonction analytique
+en a
+\mathrm e^f (x)=f (x+a),
+un avatar de la formule de Taylor
+Exponentielle dans un groupe additif
+La définition de l'exponentielle comme un morphisme continu d'un groupe additif vers un groupe multiplicatif permet de définir une fonction exponentielle de ℝ vers tout groupe topologique.
+Plus généralement, pour un groupe topologique G, on appelle sous-groupe à un paramètre tout morphisme continu ℝ
+→ G.
+Certains ouvrages peuvent remplacer l'hypothèse de continuité par la mesurabilité.
+Exponentielle dans une variété différentielle
+La définition de la fonction exponentielle comme solution d'une équation différentielle se généralise pour les groupes de Lie et les géodésiques dans les variétés riemanniennes
+Exponentielle dans une algèbre de Banach
+La définition de l'exponentielle comme série entière permet de la définir sur des algèbres de Banach .
+Applications
+Équation différentielle
+linéaire
+L'importance majeure des fonctions exponentielles en sciences, provient du fait qu'elles sont proportionnelles à leur propre dérivée.
+a étant un nombre réel ou complexe
+, on a :
+: \frac \lambda \mathrm e^
+= a \lambda \mathrm
+ou plus exactement, la fonction \varphi : x\mapsto \lambda \mathrm e^ est l'unique solution de l'équation fonctionnelle
+\varphi'
+a \varphi \ \text
+\ \varphi (0)
+\lambda
+Si une grandeur croît ou décroît, en fonction du temps et que la vitesse de «sa course» est proportionnelle à «sa taille», comme dans le cas de la croissance d'une population, des intérêts composés continus ou de la décroissance radioactive, alors cette grandeur peut être exprimée comme une constante fois une fonction exponentielle du temps.
+La fonction exponentielle de base est solution de l'équation différentielle élémentaire :
+y' = y
+et on la rencontre fréquemment dans les solutions d'équations différentielles.
+En particulier, les solutions d'une équation différentielle linéaire peuvent être écrites à l'aide des fonctions exponentielles.
+On les trouve aussi dans les solutions des équations différentielles de Schrödinger, de Laplace ou dans l'équation différentielle du mouvement harmonique simple.
+Fonction trigonométrique
+La fonction exponentielle est d'une utilité capitale en trigonométrie.
+Les formules d'Euler nous donnent un lien direct entre les fonctions cosinus et sinus, réelles ou non, et la fonction exponentielle complexe.
+: \cos x =
+\sin x =
+Ces formules permettent de retrouver la plupart des identités trigonométriques, en particulier
+: \cos (a+b)= \cos (a) \cos (b)
+-\sin (a)
+\sin (b)
+: \sin (a+b)= \sin (a) \cos (b) +\sin (b) \cos (a) ~
+à partir desquelles on peut retrouver quasiment toutes les autres.
+La fonction exponentielle est aussi un moyen facile de linéariser les expressions de la forme : voir le § «
+Linéarisation » de l'article sur les identités trigonométriques.
+La fonction exponentielle trouve aussi son utilité quand on veut démontrer la formule de Moivre.
+Fonction exponentielle et trigonométrie hyperbolique
+À partir de la fonction exponentielle, on peut définir les fonctions de trigonométrie hyperbolique, définissant les fonctions hyperboliques cosinus hyperbolique, et sinus hyperbolique, , utilisées en partie dans les résolutions des équations différentielles de second ordre.
+: \operatorname x = \frac
+: \operatorname x = \frac
+Théorie de Fourier
+Les fonctions exponentielles t \mapsto^ où est un réel et un entier relatif sont utilisées dans la théorie de Fourier.
+Elles permettent d'exprimer toute fonction périodique comme somme de fonctions trigonométriques, ce sont les séries de Fourier.
+Elles permettent aussi de définir la transformée de Fourier d'une fonction de carré sommable.
+Fonction sigmoïde
+La fonction sigmoïde f (x)=\frac pour tout réel x est particulièrement utile dans les réseaux de neurones pour calculer le gradient de l'erreur.

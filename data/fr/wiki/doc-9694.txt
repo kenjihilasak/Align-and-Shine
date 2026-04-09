@@ -1,0 +1,75 @@
+Courant électrique|Génie énergétique
+Le courant continu ou CC.
+Par extension, on nomme courant continu un courant périodique dont l'intensité est toujours assez proche de sa valeur moyenne ou dont la composante continue (sa valeur moyenne) est d'importance primordiale, ou encore un courant électrique qui circule continuellement (ou très majoritairement) dans le même sens (dit aussi unidirectionnel).
+Symboles utilisés
+Pour qualifier ces grandeurs électriques indépendantes du temps, telles que tension ou courant et des dispositifs fonctionnant en courant continu et tension continue, ou encore des grandeurs associées à ces dispositifs, on utilise les deux lettres CC .
+Production
+Les courants continus sont produits par des générateurs ou des dispositifs délivrant des tensions continues.
+Les principales sources de courant continu sont :
+* certains générateurs comme les piles, les batteries d’accumulateurs, les piles à combustible et les panneaux solaires ;
+* les machines
+à courant continu, fonctionnant en générateur (ou dynamos)
+* la tension alternative issue du secteur, est transformée en tension continue après un passage dans un redresseur et mise en forme par un filtrage, éventuellement stabilisée à l'aide d'une , par exemple à découpage.
+Classification
+Le terme de courant continu recouvre plusieurs sens :
+* courant constant : le courant est totalement constant en direction et en amplitude au cours du temps.
+Les courants de ce type sont parfois appelés courants parfaitement continus ;
+* courant ondulé lissé : c'est un courant qui s'approche du courant constant, mais qui conserve un certain taux d'ondulation ;
+* courant variable unidirectionnel : c'est un courant qui ne change pas de sens mais dont l'amplitude varie au cours du temps.
+C'est le cas d'un courant alternatif, redressé mais non filtré qui définit le vocabulaire électrotechnique international.
+D'une manière générale plus ces taux et facteurs sont faibles, plus le lissage est effectif.
+Ils sont nuls pour un courant parfaitement constant.
+On pose :
+* I_a \
+, = valeur efficace de la composante alternative de i \,
+* \Delta (i)
+= i_
+- i_
+, : valeur crête à creux de l'intensité.
+Le taux d’ondulation
+La valeur du taux d'ondulation de crête est égal au rapport de la valeur efficace de la composante alternative d'une grandeur ondulée par la valeur efficace de la grandeur elle-même et se calcule avec la relation suivante :
+\frac
+Le taux d'ondulation efficace
+C'est le rapport de la valeur de crête à creux de la composante alternative d'une grandeur ondulée à la valeur absolue de la composante continue
+Il se calcule avec la relation suivante : \frac ,
+Le taux d'ondulation crête à crête
+La valeur du taux d'ondulation crête à crête (ou crête à creux)
+se calcule avec la relation suivante :
+: T_0 = \frac,
+Le facteur d'ondulation du courant
+Le facteur d'ondulation du courant est égal au rapport de la différence entre la valeur maximale i_ \, et la valeur minimale i_ \, d'un courant oscillant par deux fois la valeur moyenne \, = .
+Il se calcule avec la relation suivante :
+: T_0 = \frac
+Mesure
+Le courant continu peut être mesuré avec appareils de type shunt, capteur de courant à effet Hall, capteur de courant à effet Néel ou capteur à fibre optique.
+Utilisation
+Promu par Thomas Edison
+, le courant continu a été la première utilisation de l'électricité avant l'arrivée du courant alternatif défendu par Nikola Tesla.
+À la fin du , il était utilisé dans de nombreux domaines : éclairage, chauffage, transport, conversion d'énergie, industrie Malgré la campagne d'Edison contre le courant alternatif, au point d'électrocuter un éléphant pour prouver sa dangerosité, le courant continu n'a pu contrer le principal avantage du courant alternatif à cette époque qui est plus facile à transporter sur de longues distances du fait du transformateur de tension qui permet d'élever et abaisser la tension sans grosses pertes.
+Bien que l'utilisation du courant alternatif en ait réduit la plupart des usages, il est resté employé dans quelques niches comme le ferroviaire, la plupart des équipements électroniques en basse tension mais aussi les lignes électrique à très haute tension.
+le courant continu redevient une technologie en plein développement grâce aux progrès de l'électronique de puissance dans les années 1990 et en particulier l'essor des transistors IGBT.
+Ils permettent une conversion aisée depuis (et vers) l'alternatif pour construire des lignes à haute tension HVDC en courant continu avec des pertes en ligne jusqu'à 15 % inférieures à celles de lignes comparables en courant alternatif.
+Il s'utilise particulièrement sur les longues distances ou lorsque les caractéristiques des réseaux électriques entre deux pays sont différentes.
+Ces utilisations intéressent aussi le secteur des hautes puissances dans l'industrie, avec la galvanoplastie, l'électrolyse
+En 2017 Siemens a signé un contrat en Chine pour la construction d'une ligne de pour une capacité de à la tension de de volts.
+Outre des projets comparables en Chine, au Brésil et en Inde, alimentant les zones fortement peuplées à partir de grands barrages situés à grande distance, l'essor de l'offshore éolien et les besoins d'interconnexion des réseaux poussent vers de nouvelles solutions en continu, jusqu'à la création d'un "supergrid" en continu entre les fermes éoliennes et les pays limitrophes.
+Des projets de recherche comme PROMOTION et MEDOW2, financés par l'Union Européenne, étudient le fonctionnement de tels réseaux et les disjoncteurs adaptés.
+Lois usuelles du courant continu
+Introduction
+Un courant parcourant un conducteur électrique se manifeste à l'extérieur par de nombreux phénomènes :
+* magnétique (déviation d'une aiguille aimantée, action d'un électroaimant)
+La matière, constituée d'atomes, eux-mêmes constitués d'un noyau et d'électrons forment une structure de charges électriques qui s'équilibrent tant qu'un électron n'a pas l'occasion de se libérer pour circuler librement dans la structure de la matière.
+Notion de charge électrique
+Une charge électrique est un ensemble de particules dont la somme algébrique des charges n'est pas nulle.
+Soient -e la charge de l'électron et +e la charge du proton.
+Pour des raisons historiques, la physique de l'électron ayant été connue bien après que les principales propriétés de l'électricité aient été mises en évidence, il a été décidé, du fait que les électrons circulent dans le sens inverse du sens qui avait été choisi par convention, que la charge du principal porteur de charge utile qu'est l'électron serait considérée comme négative.
+Il faut donc retenir que la charge électrique de l'électron est :
+q=-e
+et que la charge électrique d'un électron en coulomb est : .
+Pour mettre en mouvement les électrons, il est nécessaire de fournir une certaine énergie proportionnelle au nombre d'électrons à déplacer et qui peut entre deux points A et B d'un conducteur s'écrire :
+W=UQ
+Le facteur de proportionnalité U étant appelé différence de potentiel entre A et B et n'est autre que la tension mesurée entre A et B.
+Références
+Voir aussi
+Articles connexes
+2q1qmtyb0m3scfxkiqszaay9shily9n

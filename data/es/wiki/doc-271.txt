@@ -1,0 +1,153 @@
+La resta o la sustracción es una operación de aritmética que se representa con el signo (-), representa la operación de eliminación de objetos de una colección.
+Por ejemplo, en la imagen de la derecha, hay 5-2 manzanas-significando 5 manzanas con 2 quitadas, con lo cual hay un total de 3 manzanas.
+Por lo tanto, 5 - 2 = 3.
+Además de contar frutas, la sustracción también puede representar combinación otras magnitudes físicas y abstractas usando diferentes tipos de objetos: números negativos, fracciones, números irracionales, vectores, decimales, funciones, matrices y más.
+La sustracción sigue varios patrones importantes.
+Es anticonmutativa, lo que significa que el cambio de la orden cambia el signo de la respuesta.
+No es asociativa, lo que significa que cuando se restan más de dos números, importa del orden en el que se realiza la resta.
+Restar a 0 no cambia un número.
+La sustracción también obedece a reglas predecibles relativas a las operaciones relacionadas, tales como la adición y la multiplicación.
+Todas estas reglas pueden probarse, a partir de la sustracción de números enteros y generalizarlas mediante los números reales y más allá.
+Las operaciones binarias generales que siguen estos patrones se estudian en el álgebra abstracta.
+Realizar sustracciones es una de las tareas numéricas más simples.
+La sustracción de números muy pequeños es accesible para los niños pequeños.
+En la educación primaria, los estudiantes se les enseña a restar números en el sistema decimal, comenzando con un solo dígito y progresivamente abordando problemas más difíciles.
+Las ayudas mecánicas van desde el antiguo ábaco a la computadora moderna.
+Resta básica: números enteros
+Imagine un segmento de recta de longitud b con el extremo izquierdo etiquetado a y el extremo derecho etiquetado c. Partiendo de a, se toma b posiciones a la derecha para llegar a c. Este movimiento hacia la derecha se modela matemáticamente mediante la adición:
+:a + b = c.
+De c, se toman b posiciones a la izquierda para volver a a. Este movimiento a la izquierda se modela por sustracción:
+:c − b = a.
+Ahora, un segmento de la línea marcada con los números 1, 2 y 3.
+Se necesitan 2 pasos a la izquierda para llegar a la posición 1, por lo que 3 &minus;
+Esta imagen es inadecuada para describir lo que sucedería después de pasar 3 pasos a la izquierda de la posición 3.
+Para representar dicha operación, la línea debe extenderse.
+Para restar números naturales arbitrarios, uno comienza con una línea que contiene cada número natural (0, 1, 2, 3, 4, 5, 6, ...).
+Del 3,
+se toma 3 pasos a la izquierda para llegar a 0, por lo que 3 - 3 = 0.
+Pero 3 &minus; 4 todavía es inválido, puesto que una vez más sale de la línea.
+Los números naturales no son un contexto útil para la resta.
+La solución es considerar la línea numérica entera (..., &minus;3, &minus;2, &minus;1, 0, 1, 2, 3, ...).
+Del 3, se toma 4 pasos a la izquierda para llegar a &minus;1:
+:3 &minus; 4 = &minus;1.
+Resta como adición
+Hay algunos casos donde resta como una operación separada se vuelve problemática.
+Por ejemplo, 3 - (-2) (es decir, restar -2 de 3) no es inmediatamente obvia desde un punto de vista del número natural o una vista de línea de números, porque no está claro de inmediato lo que significa mover -2 pasos a la izquierda o para quitar -2 manzanas.
+Una solución es ver a la resta como la suma de números con signo.
+Un signo menos extra simplemente denota inversión aditiva.
+Entonces tenemos 3 - (-2)
+Esto también ayuda a mantener el anillo de los enteros "simple" al evitar la introducción de "nuevos" operadores como la resta.
+Por lo general un anillo solo tiene dos operaciones definidas en el mismo; en el caso de los números enteros, éstos son la suma y la multiplicación.
+Un anillo ya tiene el concepto de inversiones aditivas, pero no tiene ninguna noción de una operación de sustracción separada, así que el uso de la suma como la resta firmada nos permite aplicar los axiomas de anillo para la resta sin necesidad de demostrar nada.
+Algoritmo de la resta
+Hay varios algoritmos para la resta, y difieren en su idoneidad para diversas aplicaciones.
+Para el cálculo a mano, se adaptan un número de métodos; por ejemplo, al hacer el cambio, no se realiza la resta real, sino más bien sigue subiendo el cambio de cuentas.
+Para cálculo en máquina, se prefiere el método de complementos, por lo que la resta se sustituye por una adición en una aritmética modular.
+La enseñanza de la resta las escuelas
+Los métodos utilizados para enseñar la resta para la escuela primaria varían de país en país, y dentro de un país, están de moda diferentes métodos en diferentes momentos.
+Algunas escuelas europeas emplean un método de sustracción llamado método austriaco, también conocido como el método de adiciones.
+En este método, no hay préstamo.
+En cambio, existen muletas (marcas para ayudar a la memoria), que varían de acuerdo al país.
+Este método separa la sustracción como un proceso de sustracciones de un dígito por valor de posición.
+A partir de un dígito menos significativo, una sustracción de sustraendo:
+: sj sj&minus;1 ...
+desde el minuendo
+: mk mk&minus;1 ... m1,
+donde cada si y mi es un dígito,
+procediendo a escribir
+abajo m1 &minus; s1, m2 &minus; s2, y así sucesivamente, siempre y cuando si no exceda mi.
+En caso contrario, mi se incrementa en 10 y algunos otros dígitos se modifica para corregir de este aumento.
+El método americano lo corrige intentando disminuir el dígito minuendo mi+1 por uno (o continuar el préstamo hacia la izquierda hasta que no sea un dígito distinto de cero desde el que presta).
+El método europeo corrige incrementado el dígito sustraendo si+1 por uno.
+Ejemplo: 704 &minus; 512.
+El minuendo es 704, el sustraendo es 512.
+Los dígitos del minuendo son m3
+7, m2
+y m1
+Los dígitos sustraendo son
+1 y s1
+Comenzando en el lugar de las unidades, 4 es no menos de 2 por lo que se escribe 2 la diferencia en el lugar del resultado.
+En el lugar de las decenas, 0 es menor que 1, por lo que el 0 se incrementa en 10, y la diferencia con 1, que es 9, se escribe en lugar de las decenas.
+El método americano corrige el aumento de diez reduciendo el dígito en el lugar de la centena del minuendo en uno.
+Es decir, el 7 está tachado y se sustituye por un 6.
+Entonces, la resta procede en el lugar de las centenas, donde 6 no es inferior a 5, lo que la diferencia se reduce en el lugar del resultado de cien.
+Ahora hemos terminado, el resultado es 192.
+El método austriaco no reduce la 7 a 6.
+Más bien aumenta el dígito de las centenas del sustraendo en uno.
+Se hace una pequeña marca cerca o por debajo de esta cifra (dependiendo de la escuela).
+A continuación, la restas procede por preguntar qué número cuando aumenta en 1, y 5, se añade a la misma, hace 7.
+La respuesta es 1, y se anota el resultado en el lugar de las centenas.
+Hay una sutileza adicional en que el estudiante siempre emplea una tabla de sustracción mental en el método americano.
+Muchas veces, el método austriaco alienta al estudiante a usar mentalmente la tabla de sumar a la inversa.
+En el ejemplo anterior, en lugar de la adición de 1 a 5, consiguiendo 6, y resta este desde el 7, el estudiante se le pide que considere qué número, cuando aumenta en 1, y 5, se añade al mismo, haciendo 7.
+Resta con la mano
+Método austriaco
+Ejemplo:
+Archivo:Vertical Subtraction Method B Step 1.JPG|1 + … =
+Archivo:Vertical Subtraction Method B Step 2.JPG|Se escribe la diferencia debajo de la línea.
+Archivo:Vertical Subtraction Method B Step 3.JPG|9 + … = 5¡La suma requerida (5) es demasiado pequeña!
+Archivo:Vertical Subtraction Method B Step 4.JPG|Por lo tanto, añadimos 10 a la misma y ponemos un 1 bajo el siguiente lugar más alto en el sustraendo.
+Archivo:Vertical Subtraction Method B Step 5.JPG|9 + … = 15Ahora podemos ver la diferencia como antes.
+Archivo:Vertical Subtraction Method B Step 6.JPG(4 + 1) + … =
+Archivo:Vertical Subtraction Method B Step 7.JPG|Se escribe la diferencia debajo de la línea.
+Archivo:Vertical Subtraction Method B Step 8.JPG|Se escribe la diferencia total.
+Sustracción de izquierda a derecha
+Ejemplo:
+Archivo:LeftToRight Subtraction Step 1.JPG|7 − 4 = 3Este resultado solo se dibuja con lápiz aquí.
+Archivo:LeftToRight Subtraction Step 2.JPG|Debido a que el siguiente dígito del minuendo es menor que el sustraendo, se resta uno de nuestro con lápiz-en-número y mentalmente se añade diez a la siguiente.
+Archivo:LeftToRight Subtraction Step 4.JPG|Debido a que el siguiente dígito del minuendo no es menor que el sustraendo, se mantiene este número.
+Método americano
+En este método, cada dígito del sustraendo se sustrae del dígito por encima de él comenzando de derecha a izquierda.
+Si el número superior es demasiado pequeño para restar el número inferior del mismo, se le suma 10 al mismo; este 10 es 'prestado'
+desde el dígito superior hacia la izquierda, lo que se resta 1 de.
+Luego se pasa a restar el siguiente dígito y el préstamo como sea necesario, hasta que se haya restado cada dígito.
+Ejemplo:
+Archivo:Vertical Subtraction Method A Step 1.JPG|3 − 1 = …
+Archivo:Vertical Subtraction Method A Step 2.JPG|Se escribe la diferencia debajo de la línea.
+Archivo:Vertical Subtraction Method A Step 3.JPG|5 − 9 = …¡El minuendo (5) es demasiado pequeño!
+Archivo:Vertical Subtraction Method A Step 4.JPG|Por lo tanto, se le suma 10 al mismo.
+El 10 es 'prestado' del dígito de la izquierda, el cual baja en 1.
+Archivo:Vertical Subtraction Method A Step 5.JPG|15 − 9 = …Ahora la resta funciona, y escribimos la diferencia debajo de la línea.
+Archivo:Vertical Subtraction Method A Step 6.JPG|6 − 4 = …
+Archivo:Vertical Subtraction Method A Step 7.JPG|Se escribe la diferencia debajo de la línea.
+Archivo:Vertical Subtraction Method A Step 8.JPG|La diferencia total.
+Primero comercio
+Una variante del método americano, donde todos los préstamos se realizan antes de que toda resta.
+Ejemplo:
+Archivo:Trade First Subtraction Step 1.JPG|1 − 3 = no es posible.
+Añadimos un 10 al 1.
+Debido a que el 10 es "prestado" desde el 5 cercano, el 5 se baja en 1.
+Archivo:Trade First Subtraction Step 2.JPG|4 − 9 = no es posible.
+Así se procede como en el paso 1.
+Archivo:Trade First Subtraction Step 3.JPG|Trabajando de derecha a izquierda:11 − 3 =
+Diferencias parciales
+El método de las diferencias parciales se diferencia de otros métodos de sustracción verticales porque ningún préstamo o o acarreo se realiza.
+En su lugar, se usan unos lugares más o signos de menos en función de si el minuendo es mayor o menor que el sustraendo.
+La suma de las diferencias parciales es la diferencia total.
+Ejemplo:
+Archivo:Partial-Differences Subtraction Step 1.JPG|El número menor se resta del mayor:700 − 400 = 300Debido a que el minuendo es mayor que el sustraendo, esta diferencia tiene un signo de más.
+Archivo:Partial-Differences Subtraction Step 2.JPG|El número menor se resta del mayor:90 − 50 = 40Debido a que el minuendo es menor que el sustraendo, esta diferencia tiene un signo de menos.
+Archivo:Partial-Differences Subtraction Step 3.JPG|El número menor se resta del mayor:3 − 1 = 2Debido a que el minuendo es mayor que el sustraendo, esta diferencia tiene un signo de más.
+Archivo:Partial-Differences Subtraction Step 4.JPG|+ 300 − 40 + 2 =
+Métodos no verticales
+Contando para arriba
+En lugar de encontrar diferencia dígito por dígito, puede contar los números entre el sustraendo y el minuendo.
+Ejemplo:
+1234 − 567 = puede ser encontrada en los siguientes pasos:
+Se suma el valor de cada paso para obtener la diferencia total: 3 + 30 + 400 + 234 = 667.
+Rompiendo la resta
+Otro método que es útil para el cálculo mental es dividir la resta en pequeños pasos.
+Ejemplo:
+1234 − 567 = puede ser resuelta de la siguiente manera:
+Igual cambio
+El mismo método de cambio se basa en el hecho de que sumar o restar el mismo número del minuendo y sustraendo no cambia la respuesta.
+Se añade la cantidad necesaria para obtener ceros en el sustraendo.
+Ejemplo:
+«1234 − 567 =» puede ser resuelta de la siguiente manera:
+1267 − 600 =
+Unidades de medida
+Al restar dos números con unidades de medida, tales como kilogramos o libras, deben tener la misma unidad.
+En la mayoría de casos, la diferencia tendrá la misma unidad que los números originales.
+Una excepción es cuando se restan dos números con porcentaje como unidad.
+En este caso, la diferencia tendrá puntos porcentuales como unidad; la diferencia es que los porcentajes deben ser positivos, mientras que los puntos porcentuales pueden ser negativos.
+Véase también

@@ -1,0 +1,260 @@
+Ressort
+Un ressort est un organe ou pièce mécanique qui utilise les propriétés élastiques de certains matériaux pour absorber de l'énergie mécanique, produire un mouvement, ou exercer un effort ou un couple.
+Description
+Des peintures rupestres attestent que l'homme a inventé cette pièce depuis plus de , sous la forme de l'arc, constitué essentiellement d'une pièce courbe flexible dont l'élasticité permet de ramener la pièce à sa position initiale lorsqu'elle est déformée ;
+le ressort a ainsi joué un rôle déterminant dans l'essor des civilisations.
+Un ressort idéal est parfaitement élastique et reprend sa forme de repos, ou l'une de ses formes de repos s'il en a plusieurs, après avoir subi une déformation.
+On peut distinguer plusieurs grandes catégories de ressorts en fonction des matériaux utilisés, qui peuvent être des métaux, des élastomères, des matériaux composites ou encore des gaz.
+Définitions
+Selon la norme ISO 26909:2010
+Caractéristiques générales des ressorts
+Un des paramètres essentiels à l'étude d'un ressort est la connaissance de sa loi de comportement.
+Celle-ci décrit le lien qui existe entre l'effort S appliqué sur le ressort (force ou moment de force) et la déformation u qui en résulte (allongement ou rotation, respectivement) :
+u = f (S)
+Pour un état de contrainte ou de déformation donné, le rapport entre la sollicitation et la déformation est appelé raideur :
+k = \frac S u
+Il est exprimé en :
+L'inverse de la raideur, , est la souplesse ou compliance.
+Un comportement dit linéaire s'apparente à la loi de Hooke : la déformation est alors proportionnelle à l'effort appliqué, et la raideur est une constante indépendante de la charge.
+Il s'agit de la loi de comportement la plus simple.
+La courbe qui représente le résultat de sa déformation d'ensemble, en fonction de l'effort appliqué, est une droite.
+L'allongement u ou la rotation \theta sont alors proportionnels à la force T ou au couple C qui l'a provoquée.
+Le coefficient de proportionnalité est la raideur k.
+Bien que le comportement linéaire soit le plus fréquemment évoqué ou recherché, par facilité ou pour de vrais impératifs techniques, les lois qui relient les déformations d'ensemble des ressorts aux efforts qui leur sont appliqués sont beaucoup plus variées que ce que l'on pense généralement ;
+tout l'art des concepteurs et des fabricants de ressorts consiste à les adapter le mieux possible aux besoins !
+Nota :
+ne pas confondre les deux termes raideur et rigidité.
+Même s'ils sont plus ou moins interchangeables
+dans le langage courant, du point de vue technique la raideur s'applique aux pièces tandis que la rigidité caractérise les matériaux
+Association de ressorts
+En faisant l'hypothèse d'un comportement linéaire du ressort, selon la relation S_\text = k_\textu_\text où la raideur globale k_\text est constante, on obtient les relations suivantes pour les combinaisons habituelles de plusieurs ressorts :
+* Ressorts disposés en parallèle de sorte
+que les ressorts aient tous la même déformation :
+** Déformation totale : u_\text
+u_1
+u_2
+u_3
+\ldots = u_n
+** Effort total :
+S_\text = S_1 + S_2 + S_3 + \ldots + S_n
+** Thèse :
+Raideur totale : k_\text = k_1 + k_2 + k_3 + \ldots + k_n
+** Démonstration :
+S_\text
+k_1 u_1 + k_2 u_2 + k_3 u_3 + \ldots + k_n u_n et, puisque tous les allongements sont identiques, S_\text
+k_1 + k_2 + k_3 + \ldots + k_n )u_\text = k_\text u_\text d'où la raideur de l'ensemble en éliminant u_\text.
+* Ressorts disposés en série (les ressorts sont soumis au même effort ;
+la déformation totale est la somme des déformations individuelles) :
+** Déformation totale : u_\text = u_1 + u_2 + u_3 + \ldots + u_n
+** Effort total : S_\text
+S_1
+S_2
+S_3
+\ldots = S_n
+** Thèse :
+Souplesse totale : \frac = \frac + \frac + \frac + \ldots + \frac
+** Démonstration : u_
+u_1
++ u_2 + u_3 + \ldots + u_nEn remplaçant les déformations par leur expression en fonction de l'effort
+, u_i
+\tfracu_\text
+\frac
+\frac
++ \frac + \ldots + \frac
+et, puisque toutes les forces sont identiques, u_\text
+\frac
+S_\text \left \frac + \frac + \ldots + \frac \right d'où la souplesse de l'ensemble en éliminant S_\text.
+Ressorts métalliques
+Si la conception d'un ressort de qualité nécessite de solides connaissances dans les domaines de l'analyse des contraintes et de la mécanique rationnelle, la concrétisation d'un projet pose des questions de choix de matériaux (nature, traitements), de mise en forme et surtout de qualité de surface (structure, contraintes résiduelles, rugosités) dès lors que l'on travaille sur un mécanisme en mouvement.
+Bien que de nombreux ressorts soient sollicités à des fréquences assez élevées ou très élevées, nous nous limiterons ici à une étude statique ou quasi statique.
+Quand les déformations ont lieu à faible vitesse, les variations de charge sont répercutées sans décalage de temps dans toute la masse du ressort.
+Par contre, dans le cas d'un fonctionnement dynamique à haute fréquence, les charges appliquées à une extrémité d'un ressort ne sont pas transmises instantanément jusqu'à l'autre ;
+ce retard engendre des phénomènes vibratoires que l'on peut parfois mettre à profit mais qui sont le plus souvent indésirables.
+Les motoristes, par exemple, n'apprécient guère la « danse » des ressorts de soupapes.
+Les ressorts, évidemment destinés à se déformer sous charge, sont fondamentalement différents des autres pièces mécaniques que l'on souhaite ordinairement aussi peu déformables que possible.
+Nous utiliserons malgré tout les formules classiques des poutres étudiées en résistance des matériaux, bien qu'elles ne soient applicables en toute rigueur que dans le cas de petites déformations.
+De toute manière, la précision apportée au calcul des ressorts n'a de sens que si l'on dispose des matériaux permettant d'obtenir et surtout de conserver dans la durée les caractéristiques adéquates.
+Matériaux et traitements
+Un bon matériau pour réaliser des ressorts possède une résistance vive élastique aussi grande que possible, R_ étant la limite d'élasticité et E le module de Young de ce matériau.
+Toutefois, une haute limite d'élasticité ne suffit pas, il faut qu'elle s'accompagne d'une bonne résilience et d'une bonne endurance vis-à-vis des efforts alternés.
+Parmi les aciers, une première famille est celle des aciers mangano-siliceux contenant de 1,5 à 2 % de silicium, 0,6 à 0,7 % de manganèse, 0,4 à 0,6 % de carbone, avec éventuellement un peu de chrome, de tungstène, de molybdène ou de vanadium.
+Citons les nuances suivantes : 45S7 (ressorts à lames), 55S7, 45SCD6, 60SC7, (barres de torsion), 45SW8.
+On trouve aussi des aciers au chrome, avec du vanadium, du manganèse ou du silicium-molybdène, par exemple : 45C4, 50CV4.
+Ces matériaux n'existent que dans des grandes dimensions : fil de diamètre supérieur à 6 mm, lame d'épaisseur supérieure à 4 mm.
+L'élinvar (« acier » à 33 % de nickel, 12 % de chrome, 1,2 % de manganèse) a
+un module d'Young indépendant de la température.
+Il sert à la fabrication de ressorts destinés à des appareils de précision (galvanomètres, sismographes, chronomètres, diapasons, etc.).
+Cette matière est peu disponible, et donc très chère.
+La limite d'élasticité des aciers baisse rapidement lorsque la température s'élève.
+Les alliages du type INCONEL à base de nickel (45 à 75 %), de chrome (15 %), de cobalt, molybdène, tungstène, titane, fer, et aluminium conservent des propriétés correctes jusqu'à 400-500 °C.
+Comme la matière précédente, cette matière coute cher, mais on la trouve assez aisément.
+La corde à piano est (en principe) un fil d'acier à 0,8
+- 1 % de carbone, dont la surface polie est exempte de défauts ou d'imperfections notables susceptibles d'amorcer des ruptures de fatigue.
+On atteint normalement une limite d'élasticité
+1 210 MPa pour le fil de 0,5 mm
+1 125 MPa pour le fil de 13 mm.
+Toutefois, il faut se méfier de la « corde à piano » achetée au rayon bricolage du supermarché du coin, car elle risque fort de ne pas approcher ces performances... (Il existe plusieurs types de corde à piano : B1 équivalent à un XC65
+- C1 ou SH équivalent à un XC75.
+Ces deux matières sont d'un coût modique et souvent employées.
+G1 équivalent à un XC85 2 à 3 fois plus cher que la précédente et n'apporte rien de plus pour des diamètres supérieurs à 2,5mm)
+Inox AISI 302 (Z12 CN 18-8)/AISI 316 (Z11 CND 17-6) : ces matières très proches en utilisation par rapport à l'acier ci-dessus possèdent l'avantage d'être peu sensibles à la rouille.
+Leur coût est légèrement supérieur à celui de l'acier ci-dessus, mais devient plus économique dans le cas de faibles quantités devant être protégées contre la rouille.
+Un matériau trop peu connu mais largement utilisé en construction électrique est le cuivre au béryllium (1 à 2 %).
+Il permet de réaliser des ressorts très bons conducteurs de l'électricité et de la chaleur.
+Sa limite d'élasticité atteint 1000 MPa, avec une très bonne endurance.
+Cette matière requiert un traitement thermique de qualité après utilisation, et souvent un revêtement de type étamage pour en faciliter la soudure.
+Les alliages à mémoire de forme (par exemple, le Nitinol, alliage de nickel, titane et cuivre) constituent une solution intéressante quand la détente du ressort doit être différée dans le temps.
+Ils présentent plusieurs propriétés très spéciales, entre autres l'effet mémoire simple sens qui permet à l'alliage de retrouver sa forme initiale après une déformation mécanique ou thermique et l'effet mémoire double sens qui le rend capable après « éducation » d'avoir deux positions stables au-dessous et au-dessus d'une certaine «
+température critique ».
+Des ressorts peuvent ainsi rester « au repos » à température ambiante et devenir «
+actifs »
+si leur température augmente
+Ils ont des applications fort intéressantes en orthodontie, dans les systèmes d'assemblage mécanique, les appareillages de sécurité, etc.
+Aux très basses températures (-150 à -200 °C), les aciers sont presque tous extrêmement fragiles mais on peut utiliser d'autres métaux comme... le plomb !
+Bien sûr, un ressort en plomb ne doit jamais être ramené sous charge à la température ambiante.
+Le détail des procédés de fabrication sort du champ de cet article.
+Signalons simplement que tous les ressorts sérieux subissent des traitements mécaniques qui, mettant en compression les couches superficielles du métal, minimisent la formation et la propagation des fissures de fatigue.
+Ces traitements peuvent être le galetage (barres de torsion) ou le grenaillage de précontrainte (en anglais shot peening).
+La préconformation des ressorts est également une solution pour créer, aux endroits les plus sollicités, les contraintes résiduelles de compression ou de cisaillement adéquates.
+Mais si un ressort est correctement calculé, le grenaillage de précontrainte, ou la préconformation des ressorts est inutile et coûteuse.
+Calcul de la raideur
+Il est très souvent utile de connaitre la raideur K d'un ressort à spires.
+Pour cela on utilise la formule :
+K = \frac
+Où :
+* G
+\frac
+est le module de cisaillement ou module de Coulomb en N mm²) pour les aciers
+* \nu est le coefficient de Poisson, adimensionnel, égal à 0,33 pour les aciers
+* D est le diamètre moyen ou diamètre d'enroulement des spires en mm (la moyenne entre les diamètres intérieur et extérieur des spires
+Ressorts dont la matière travaille en torsion
+Ressorts apparentés
+Au lieu d'un fil rond, on peut utiliser d'autres formes, elliptique, rectangulaire, ... Parfois, les ressorts à fil rectangulaire sont obtenus par taillage dans un tube.
+Les ressorts coniques sont enroulés à pas constant (sur le ressort à l'état libre, on s'élève d'une même quantité à chaque tour) ou à pente constante (les spires sont de plus en plus serrées au fur et à mesure que l'on se rapproche de l'extrémité de petit diamètre).
+* dans le premier cas
+, on peut obtenir une raideur de plus en plus forte au fur et à mesure de la compression (les spires de plus fort diamètre sont les plus souples et se compriment « à bloc » les premières) ou un encombrement minimal une fois la compression réalisée.
+* dans le second cas, on minimise la variation de raideur, les spires s'écrasent de façon à peu près simultanée mais une fois complètement aplati, le fil prend l'aspect d'une spirale de plus en plus lâche au fur et à mesure que l'on s'éloigne du centre.
+Tous les ressorts coniques ne peuvent pas se mettre « à plat ».
+Fichier:0
+Ressort
+conique.svg|Ressort conique
+Fichier:
+Ressort conique 1.svg|Ressort conique
+Fichier
+Ressort conique.svg|Ressort conique
+Pour les ressorts en volute on n'utilise plus du fil mais des bandes de tôle spéciale découpées selon divers profils.
+Si l'on souhaite une raideur variable, alors il faut adopter une largeur constante de façon que les spires de plus grand diamètre s'affaissent les premières.
+Si au contraire on souhaite que la raideur reste constante, alors il faut faire en sorte que la section aille en augmentant de l'intérieur vers l'extérieur.
+Il est également possible de réaliser des ressorts en double volute.
+Fichier
+ressort en volutes.svg|Ressort en volutes
+Fichier
+Ressort en volutes coupe.svg|Ressort en volutes
+Fichier:0 ressort en double volute.svg|Ressort en double volutes
+Outre leurs caractéristiques mécaniques un peu spéciales, les ressorts en volute ont la particularité de présenter une structure fermée, limitant les risques de blocage par des corps étrangers.
+Le ressort en double volute, par exemple, est très souvent utilisé pour écarter les deux branches des sécateurs.
+Les jardiniers n'aiment pas beaucoup les sécateurs munis de ressorts hélicoïdaux ordinaires, car les brindilles s'y coincent facilement.
+Ce type de ressort est également appelé ressort Comtois.
+Ressorts dont la matière travaille en flexion
+Ressorts métalliques
+divers
+Diaphragmes
+Divers fabricants proposent des pièces standardisées qui fonctionnent comme les rondelles Belleville mais en beaucoup moins raide.
+Il faut consulter leurs catalogues pour plus d'information.
+Fichier
+Ressort en coupelle.svg|Ressort-diaphragme en coupelle à lames multiples utilisé en particulier dans certains embrayages
+Fichier
+Rondelle Ringspann.svg|Rondelle Ringspan
+Fichier
+Rondelle Borrelly.svg|Diaphragme conique Borelly
+Ressorts annulaires
+On réalise des systèmes élastiques à hauteur variable en empilant des bagues coniques.
+De tels systèmes, soumis à une charge axiale, diminuent de longueur en raison de la dilatation des bagues extérieures et de la contraction des bagues intérieures.
+Les anneaux intérieurs «
+mâles
+pénètrent dans les anneaux extérieurs « femelles ».
+Les frottements très importants qui se produisent entre les bagues sont tels que la force axiale fournie lors de la détente de l'empilement est très largement inférieure à celle qui était appliquée lors de la mise en charge.
+Ils provoquent une perte d'énergie considérable qui correspond à la zone hachurée du diagramme représentant le cycle compression-détente.
+On peut mettre à profit cette particularité dans certains mécanismes comme les tampons du matériel roulant ferroviaire, où ils contribuent à absorber les chocs.
+En remplaçant une ou plusieurs des bagues intérieures complètes par des bagues fendues, on peut donner à ce ressort un tout autre comportement : il devient « mou » au début de sa déformation, puis de plus en plus « dur ».
+Rondelles ondulées
+Il existe de multiples types de rondelles ondulées.
+On les utilise par exemple pour rattraper des jeux ou pour remplacer les ressorts à boudin comme ressorts de rappel.
+De nombreux matériaux sont utilisés selon les spécificités.
+Pièces élastiques diverses
+Il existe d'innombrables pièces élastiques jouant le rôle de ressorts dans beaucoup de mécanismes, avec des caractéristiques spécifiques et donc en dehors de la production standardisée, comme des pièces en fil métallique.
+Les joints d'étanchéité Bal-Seal possèdent des ressorts à spires aplaties qui leur donnent l'élasticité radiale nécessaire pour un bon contact intérieur et extérieur sur les pièces à étancher :
+De nombreux ressorts sont réalisés à partir de feuillard dit «
+tôle bleue » découpé et mis en forme à la demande.
+Pour le matériel électrique, lorsque l'on a besoin de pièces à la fois élastiques et bonnes conductrices, on fait appel dans les mêmes conditions au cuivre au béryllium.
+Fichier
+Ressort à lame feuillard.svg|Ressort à lame feuillard
+Fichier
+Ressort à lames.svg|Ressort à lame
+Fichier
+Ressort.svg|Ressort à lame
+Fichier
+Ressort divers.svg|Un ressort spécial
+Il est possible de réaliser des pièces plus complexes par découpage, emboutissage et formage.
+Ressorts en élastomères
+Outre le fait qu'il est beaucoup plus faible que celui des métaux, le module d'élasticité des caoutchoucs varie avec la forme de l'élément élastique, qui varie elle-même beaucoup avec la charge appliquée.
+Il est donc pratiquement impossible d'obtenir des caractéristiques linéaires, surtout dans le cas des ressorts de compression.
+En fait, cette particularité est souvent mise à profit pour amortir les vibrations entre les deux éléments reliés par le ressort.
+En effet, l'énergie apportée par la vibration sinusoïdale d'un élément va se trouver répartie, à la sortie, entre la fréquence fondamentale et ses harmoniques, qui en sont des multiples.
+Or, on sait que plus une vibration a une fréquence élevée et plus elle est facile à amortir.
+Si les ressorts en caoutchouc ont une très bonne résistance aux sollicitations dynamiques, ils subissent aussi, à des degrés divers, les effets de l'hystérésis mécanique qui fait que la reprise de leur forme initiale n'est pas instantanée après qu'ils ont subi une déformation.
+Ceci est dû au comportement toujours plus ou moins visco-élastique de ces matériaux.
+N'oublions pas que le phénomène d'hystérésis est avant tout un phénomène de retard d'un effet sur une cause.
+Cette hystérésis provoque la transformation en chaleur, à l'intérieur même du matériau visco
+élastique
+, d'une partie de l'énergie fournie.
+Le caoutchouc étant mauvais conducteur de la chaleur, il en résulte un échauffement interne susceptible, pour des mécanismes mal étudiés, d'entraîner la dégradation ou la destruction du caoutchouc.
+Signalons aussi que le module d'élasticité varie avec la température, avec la vitesse d'application de la charge, et qu'il évolue au cours du temps en raison du vieillissement du matériau.
+Tous ces facteurs interagissent et dans ces conditions, on comprend facilement que les caractéristiques d'un ressort en caoutchouc ne peuvent pas être définies avec la même précision que celles d'un ressort métallique.
+Par contre, il est relativement facile d'obtenir des modules d'élasticité et des capacités d'amortissement très variables, en jouant sur la nature et les proportions des constituants du mélange à utiliser.
+Ressorts en matériaux composites
+Les composites fibres-résine ont une grande capacité d’absorption d’énergie par déformation élastique lorsque les fibres sont orientées dans le sens des plus grandes sollicitations.
+Les principaux avantages du ressort composite sont une bonne résistance à la corrosion, une longue durée de vie, un bruit en utilisation faible, une fréquence propre élevée, un bon effet tampon et un gain de poids non négligeable pour les systèmes embarqués.
+Le développement de ces ressorts profite en grande partie à l’automobile où le gain de poids par rapport à un ressort en acier peut atteindre 60 %.
+Du fait de l’absence de corrosion et d’oxydation la durée de vie est accrue, le risque de rupture baisse considérablement, augmentant ainsi la sécurité.
+Le confort est lui aussi augmenté de par la réduction des bruits résiduels.
+Les ressorts en matériaux composites sont de manière générale plus écologique que les standards ressorts hélicoïdaux en acier.
+Leur processus de fabrication ne nécessite ni traitements thermiques ni traitements de surface, réduisant ainsi la quantité d’énergie utilisée à sa fabrication.
+Leur composition varie selon les fabrications, mais reste aux alentours de ¾ de fibre de verre pour ¼ de résine Epoxy.
+La fibre de carbone étant avantageuse sur le plan de l'allègement, mais se retrouve trop coûteuse à la production.
+Audi est le premier constructeur automobile à intégrer des ressorts composites pour le système de suspension de ses véhicules.
+Ressorts à gaz
+Le ressort à gaz, appelé couramment et incorrectement vérin à gaz, est un tube étanche contenant un gaz comprimé dans lequel se déplace un piston relié à l’extérieur par une tige.
+Ces vérins contiennent une petite quantité de lubrifiant pour le bon fonctionnement de la tige.
+En réalité ces vérin à gaz sont des ressorts-amortisseurs
+Selon l’utilisation et l’effort nécessaire à fournir, les vérins sont plus ou moins tarés en force et en capacité d'amortissement pour servir de contrepoids pour l’ouverture ou/et la fermeture de portes, de coffres à bagages, de capots moteurs, de hayons, etc. des véhicules automobiles.
+Dans le bâtiment, on les trouve pour la manœuvre des trappes de désenfumage ou divers carters qui demanderaient un effort physique trop important.
+Dans le mobilier, on trouve de petits vérins à gaz pour l’ouverture et la fermeture de portes qui s’ouvrent vers le haut.
+Utilisations
+Les ressorts sont aujourd'hui très répandus dans toutes sortes de machines et d'équipements.
+Leurs fonctions sont très diverses.
+On peut citer, sans ordre précis :
+* rappel d'une pièce écartée de sa position d'équilibre (
+portes battantes type
+« saloon »
+, appareils de mesure),
+* ouverture rapide (couteau à cran d’arrêt, main-gauche trident)
+* suspension d'un véhicule (ressorts à lames, ressorts hélicoïdaux, systèmes hydropneumatiques),
+* émission de sons (diapasons, boîtes à musique
+, « criquets » de reconnaissance),
+* répartition de charges (sommiers et matelas à ressorts)
+* accumulation d'énergie (moteurs de jouets, de montres)
+ressort moteur,
+* amortissement des chocs (tampons de matériel ferroviaire),
+* mesure et/ou fixation de la valeur d'un effort (clés dynamométriques)
+* compensation d'une charge ou d'un poids (hayons arrière de voiture, portes de lave-vaisselle)
+* application d'un effort dans un but thérapeutique (appareils orthodontiques),
+* utilisation comme jouets ou objets décoratifs (les longs ressorts très souples «
+Slinky » qui descendent les escaliers)
+* utilisation en loisir (suspension vélo, échasse urbaine
+STRIDER
+Fabricants de ressorts
+La France compte environ 80 fabricants de ressorts en 2009.
+Ce nombre tend à diminuer au fil des années, soit par arrêt simple, soit par regroupement de plusieurs entités.
+Certains sont spécialisés dans les ressorts sur mesure afin de pouvoir envisager un avenir de niche.
+Pour ternir la situation, il est devenu difficile de trouver de la main-d’œuvre qualifiée pour l'usinage manuel de précision.

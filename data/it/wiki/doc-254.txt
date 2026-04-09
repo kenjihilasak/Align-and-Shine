@@ -1,0 +1,58 @@
+Il triangolo rettangolo è un triangolo in cui l'angolo formato da due lati, detti cateti, è retto, ovvero di 90° (o radianti).
+Il lato opposto all'angolo retto si chiama ipotenusa.
+L'ipotenusa è per il teorema di Pitagora uguale alla radice quadrata della somma dei quadrati dei cateti.
+Il triangolo rettangolo rappresenta un caso particolare di triangolo generico, per cui molte relazioni fondamentali si semplificano.
+Il caso più particolare è quello del triangolo rettangolo isoscele, caso per il quale
+Aggiungendo a un triangolo rettangolo il triangolo ottenuto con la sua riflessione rispetto all'ipotenusa si ottiene un aquilone.
+Aggiungendogli il triangolo ottenuto sottoponendolo alla rotazione di π intorno al punto medio dell'ipotenusa si ottiene il rettangolo per il quale l'ipotenusa è diagonale principale.
+Dal triangolo rettangolo isoscele con entrambe le costruzioni si ottiene il quadrato di lato a=b.
+Proprietà
+Teoremi fondamentali (proprietà dei lati)
+Proprietà degli angoli interni
+*Sapendo che la somma degli angoli interni di un triangolo qualsiasi è 180° (\pi rad), nel caso particolare di un triangolo rettangolo, sapendo che uno degli angoli interni è retto allora è facile dedurre che la somma degli altri due angoli interni vale sempre 90°:
+\alpha + \beta
++ 90^\circ
+180^\circ \to
+\alpha
++ \beta
+180^\circ - 90^\circ = 90^\circ
+*Da questa proprietà si può, di conseguenza dedurre che qualora venga tracciata l'altezza del triangolo rettangolo con origine nel vertice dell'angolo retto essa divide tale angolo in due angoli minori, indicati con \theta e \omega.
+Inoltre si vengono a formare due triangoli rettangoli distinti (ACH e BCH) con un cateto in comune, l'altezza appunto.
+Per la proprietà descritta sopra possiamo dire le seguenti cose.
+Considerando il triangolo rettangolo BCH, per la proprietà vista sopra:
+\theta + \beta
+90^\circ \to
+\theta
+90^\circ - \beta.
+Ora considerando il triangolo ABC completo:
+\alpha + \beta
+90^\circ \to
+\alpha
+90^\circ - \beta;
+da cui deduciamo la proprietà:
+\alpha
+90^\circ - \beta
+\theta \to \alpha = \theta.
+Analogamente possiamo osservare che:
+\beta = \omega.
+Classi di similitudine
+Ogni similitudine trasforma un triangolo rettangolo in un triangolo rettangolo.
+Le classi di similitudine dei triangoli rettangoli si possono quindi rappresentare fedelmente con i triangoli rettangoli aventi l'ipotenusa c di lunghezza 1 e il vertice opposto appartenente a una delle semicirconferenze aventi come diametro l'ipotenusa.
+La collezione delle classi di similitudine si può parametrizzare con il rapporto a/b delle lunghezze dei cateti ovvero con uno dei due angoli non retti, ad esempio con l'angolo \alpha relativo al vertice A. Dalla trigonometria segue che:
+Triangoli rettangoli particolari
+Triangolo rettangolo isoscele
+È chiamato anche Triangolo 90-45 per le ampiezze degli angoli che lo formano, invero è composto da un angolo retto e due angoli da 45°.
+Per costruzione, il triangolo rettangolo isoscele è la meta di un quadrato ed ha come ipotenusa la diagonale del quadrato e come cateti i suoi lati.
+Viene frequentemente rappresentato come un triangolo isoscele che ha come base l'ipotenusa.
+Ingloba le proprietà dei triangoli rettangoli e dei triangoli isosceli infatti, rispettivamente:
+* la mediana relativa all'ipotenusa è la meta dell'ipotenusa stessa;
+* la bisettrice dell'angolo al vertice è anche mediana e altezza relativa alla base.
+Per ciò, la caratteristica principale di questo triangolo è che l'altezza è congruente alla semi ipotenusa, cioè h
+i/2.
+Inoltre ha i due cateti uguali e misurano c
+\frac .
+Punti notevoli
+L'ortocentro di un triangolo rettangolo coincide con il vertice dell'angolo retto.
+Il circocentro è il punto medio dell'ipotenusa.
+Per individuare il baricentro può essere comodo riferire il triangolo ad una coppia di assi cartesiani ortogonali con l'origine nel vertice C relativo all'angolo retto, l'asse delle x contenente il lato a dalla parte delle ascisse positive e l'asse delle y contenente il lato b. Scrivendo in tale riferimento le equazioni di due rette comprendenti due delle mediane e mettendole a sistema per trovarne l'intersezione si calcola che le coordinate del baricentro sono a 3.
+Note

@@ -1,0 +1,69 @@
+El concepto de infinito (símbolo: ) aparece en varias ramas de la matemática, la filosofía y la astronomía, en referencia a una cantidad sin límite o sin final, contrapuesto al concepto de .
+En matemáticas el infinito aparece de diversas formas: en geometría, el punto al infinito en geometría proyectiva y el punto de fuga en geometría descriptiva; en análisis matemático, los límites infinitos; y en teoría de conjuntos como números transfinitos.
+Todos estos conceptos son diferentes y no corresponden todos ellos a la misma noción de infinitud.
+Teoría de conjuntos
+Los conjuntos finitos tienen una propiedad "intuitiva" que los caracteriza: "dada una parte propia de los mismos, ésta contiene un número de elementos menor que todo el conjunto".
+Es decir, no puede establecerse una biyección entre una parte propia del conjunto finito y todo el conjunto.
+Sin embargo, esa propiedad "intuitiva" de los conjuntos finitos no la tienen los conjuntos infinitos, y formalmente se dice que:
+La idea de cardinalidad de un conjunto se basa en la noción anterior de biyección.
+De dos conjuntos entre los que se puede establecer una biyección se dice que tienen la misma cardinalidad.
+Para un conjunto finito su cardinalidad puede representarse por un número natural.
+Por ejemplo, el conjunto tiene 3 elementos.
+Esto significa de modo más formal que se puede establecer una biyección entre tal conjunto y el número 3 que es el conjunto :
+:\begin
+\mbox & \leftrightarrow & 0\\
+\mbox &\leftrightarrow & 1\\
+\end
+Dicho de otra forma, es posible hacer parejas (0, manzana), (1, pera), (2, durazno) de modo que cada elemento de los dos conjuntos se utilice exactamente una vez.
+Cuando es posible establecer tal relación "uno a uno" entre dos conjuntos se dice que ambos conjuntos tienen la misma cardinalidad, lo cual, para conjuntos finitos, equivale a que tengan el mismo número de elementos.
+Otra forma de entender esta extraña medida sería repartir 2 caramelos a 0 amigos: y tendrías infinitos caramelos para dar entre tus 0 amigos, ya que al no tener un numero de amigos por el cual los puedas dividir, podrías darle todos los que quieras, que no existen.
+Primera definición positiva de conjunto infinito
+La primera definición positiva de conjunto infinito fue dada por Georg Cantor y se basa en la siguiente observación: Si un conjunto S es finito y T es un subconjunto propio, no es posible construir una biyección entre S y T. Por ejemplo,
+si S
+y T
+no es posible construir una biyección entre S y T, porque de ser así tendrían la misma cardinalidad (el mismo número de elementos).
+Un conjunto es infinito si es posible encontrar un subconjunto propio del mismo que tenga la misma cardinalidad que el conjunto original.
+Consideremos el conjunto de los números naturales N
+, el cual es un conjunto infinito.
+Para verificar tal afirmación es necesario encontrar un subconjunto propio y construir una biyección entre ambos.
+Para este caso, consideremos el conjunto de enteros positivos pares P
+El conjunto P es un subconjunto propio de N, y la regla de asignación n \to 2n es una biyección:
+: \mathbf = \begin
+N & \leftrightarrow & P\\
+1& \leftrightarrow & 2\\
+2 &\leftrightarrow & 4\\
+3 &\leftrightarrow & 6\\
+4 &\leftrightarrow & 8\end.
+ya que a todo elemento de N le corresponde un único elemento de P y viceversa.
+Números ordinales infinitos
+Los números ordinales sirven para notar una posición en un conjunto ordenado (primer, segundo, tercer elemento...).
+El ejemplo más elemental es el de los números naturales, que se definen rigurosamente así:
+Se nota 0\, el conjunto vacío:
+se nota 1\, el conjunto que sólo contiene 0\,:
+luego se nota 2\, el conjunto que sólo contiene 0\, y 1\,:
+Y así sucesivamente:
+Por construcción, 0 está incluido en 1, quién a su vez está incluido en 2, ya que obviamente:
+La inclusión permite convertir a los ordinales en un conjunto bien ordenado (dos elementos distintos siempre se pueden comparar, y añadiendo la igualdad daría un orden total) entre estos conjuntos que se prefiere, por costumbre, escribir " 0 ,\,\,x \cdot \infty
+\infty y x \cdot (-\infty)
+*: Si x r, formalmente:
+Nótese que en esta expresión no aparece el predicado "estándar" st (·), y por tanto es formalizable en la teoría ordinaria, mientras que la noción de número ilimitado no es formalizable en la teoría ordinaria por carecer esta teoría del predicado st (·).
+Análogamente en el análisis no estándar pueden definirse números infinitesimales, más pequeños en valor absoluto que cualquier número estándar positivo.
+De hecho el inverso de un número ilimitado es siempre un número infinitesimal.
+Infinito en informática
+De manera relacionada con el infinito para números reales, algunos lenguajes de programación admiten un valor especial que recibe el nombre de infinito: valor que se puede obtener como resultado de ciertas operaciones matemáticas no realizables, tales como las descritas en el punto anterior u operaciones teóricamente posibles, pero demasiado complejas para su trabajo en el ordenador/lenguaje en cuestión.
+En otros lenguajes simplemente se produciría un error.
+Infinito en metafísica
+Lo infinito no puede admitir ninguna restricción, lo que supone que es absolutamente incondicionado e indeterminado, ya que toda determinación, cualquiera que sea, es forzosamente una limitación, porque deja algo fuera de ella.
+Por otra parte, la limitación presenta el carácter de una verdadera negación: poner un límite, es negar, para lo que está encerrado en él, todo lo que este límite excluye; por consiguiente, la negación de un límite es propiamente la negación de una negación, es decir, lógica e incluso matemáticamente una afirmación, de tal suerte que la negación de todo límite equivale en realidad a la afirmación total y absoluta.
+Lo que no tiene límites, es aquello de lo cual no se puede negar nada, y por consiguiente, aquello que contiene todo, aquello fuera de lo cual no hay nada; y esta idea del Infinito, que es así la más afirmativa de todas, puesto que comprende o envuelve todas las afirmaciones particulares, cualesquiera que puedan ser, no se expresa por un término de forma negativa (in-finito) sino en razón misma de su indeterminación absoluta.
+Infinito según la física aristotélica
+El concepto finito según la física aristotélica niega que existe el infinito en acto.
+Cuando habla de infinito se refiere sobre todo a un cuerpo infinito y los argumentos que aduce contra la existencia de un cuerpo finito.
+Lo infinito existe sólo como potencia o en potencia.
+Esta es la razón por la que Aristóteles tenía que negar necesariamente de Dios el atributo de la infinitud.
+También se cree posible que la forma provenga de otros símbolos alquímicos o religiosos, como por ejemplo ciertas representaciones de la serpiente uróboros.
+Otra hipótesis defiende que el símbolo parece la representación gráfica del fenómeno conocido como Analema.
+Esta teoría tiene más sentido si dotamos de importancia a la parte formal del diseño y a la cronología de su origen.
+Se ha querido ver también una banda de Möbius en su forma, aunque el símbolo se usó durante cientos de años antes de que August Möbius descubriera la banda que lleva su nombre.
+El símbolo de infinito se representa en Unicode con el carácter ∞ (U+221E).
+Véase también

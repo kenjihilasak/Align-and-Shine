@@ -1,0 +1,47 @@
+Blockchain
+La blockchain ou chaîne de blocs est la technologie qui a permis le développement de la crypto-monnaiebitcoin en 2009.
+Dans une blockchain, il n'existe pas d'organisation centrale qui contrôle tout : ce sont des milliers d'ordinateurs qui vérifient les paiements simultanément.
+Ainsi elle est très sécurisée.
+Après avoir permis la création de monnaies décentralisées, la blockchain a été utilisée pour effectuer des contrats intelligents , c'est-à-dire que des programmes sécurisés qui tournent sur la blockchain et qui permettent d'effectuer des paiements automatiquement sous certaines conditions définies dans le programme.
+Des développeurs envisagent aujourd'hui (en 2018) qu'il sera possible de faire tourner des applications entières sur des blockchains.
+La blockchain, telle que proposée par son inventeur Satoshi Nakamoto, est le mécanisme qui permet d'empêcher que les échanges de la monnaie ne puissent être modifiés une fois le paiement effectué.
+C'est un fonctionnement décentralisé, c'est-à-dire sans aucun serveur ni autorité centrale capable de tout contrôler.
+Sur le dessin, chaque carré (bloc) représente des paiements, commençant par les plus anciens en bas.
+Les paiements considérés valides sont ceux de la chaîne la plus longue (en noir), car elle a été approuvée par plus de mineurs.
+Il existe deux principaux mécanismes de validation des transactions dans la blockchain :
+la preuve de travail (proof of work en anglais), c'est-à-dire que les mineurs qui vérifient les transactions doivent résoudre des calculs complexes.
+la preuve d'enjeu ou de possession (proof of stake en anglais), c'est-à-dire que les mineurs qui vérifient les transactions doivent prouver qu'ils possèdent la monnaie échangée.
+La solidité de la blockchain repose sur un calcul difficile à effectuer pour valider les transactions.
+L'ordinateur de la personne qui réalise ce calcul le plus rapidement gagne une récompense à chaque bloc de transactions.
+Les nouveaux blocs valident également les blocs précédents et l'ensemble de la chaîne.
+C'est la chaîne la plus longue (celle où les ordinateurs ont été les plus rapides) qui est considérée comme la bonne.
+Ainsi, si on veut retirer une transaction passée, il faut être plus rapide que l'ensemble des autres mineurs.
+Dans les faits, cela correspond à avoir plus de 50% de la capacité de calcul de l'ensemble des ordinateurs qui participent, et nettement plus pour remonter dans le temps.
+Pour des monnaies comme le bitcoin, cette puissance de calcul est colossale (se compte en milliards de dollars1).
+D'ailleurs, il serait plus intéressant financièrement pour quelqu'un avec cette puissance de l'utiliser comme les autres mineurs que de retirer des transactions.
+C'est ce qui fait la sécurité des blockchains qui fonctionnent par preuve de travail.
+Les blockchains par preuve de travail ont l'inconvénient de consommer beaucoup de ressources et d'électricité.
+En effet, pour être sécurisée, les ordinateurs doivent être très nombreux à effectuer les calculs de vérifications, et ils consomment énormément d'électricité.
+On estime en novembre 2017 que la blockchain du bitcoin consomme plus d'électricité que 26 pays !
+Ensuite, la blockchain avec preuve d'enjeu a été imaginée pour résoudre les problèmes de frais de transaction élevés et de consommation d'électricité de la blockchain par preuve de travail.
+La blockchain par preuve d'enjeu demande simplement aux mineurs qui vérifient les transactions de prouver qu'ils possèdent la monnaie en question.
+Pour éviter que cela soit le plus riche qui ait toujours raison, des mécanismes variés ont été développés, comme un système supplémentaire de vote ou de désignation aléatoire.
+Ils ont parfois des faiblesses car il ne doit pas y avoir de possibilité qu'un unique utilisateur puisse valider seul la transaction.
+Un exemple récent appelé preuve d'enjeu déléguée ou DPOS (delegated proof of stake) permet aux personnes qui possèdent la monnaie d'élire un groupe de mineurs sensés vérifier les transactions.
+Ils sont ensuite surveillés de près et peuvent être renvoyés immédiatement s'ils ne sont pas suffisamment sérieux...
+Le premier usage de la blockchain a été d'obtenir une monnaie que personne ne peut contrôler entièrement, et dont les transactions ne peuvent jamais être effacées.
+Ensuite, cette technologie a donné des idées à d'autres usages.
+Ainsi, une monnaie comme l'Ethereum a permis de réaliser des programmes sur la blockchain de manière automatique, les contrats intelligents.
+C'est-à-dire qu'en fonction de différents événements, des programmes peuvent payer automatiquement.
+Un exemple est par exemple une assurance de retard de vol qui rembourse automatiquement les passagers dès l'annonce du retard.
+Un autre exemple serait la réalisation d'un cadastre où les parcelles seraient échangées comme une monnaie.
+D'autres ont fait des systèmes de paris en ligne sécurisés par la blockchain, d'autres imaginent des paiements d'électricité directement du producteur au consommateur.
+C'est aujourd'hui, en 2018, encore très jeune et ces applications ne sont pas répandues auprès du grand public...
+Peut-être à l'avenir ?
+Bitcoin, la première à s'être lancée, et la plus connue.
+Litecoin, qui l'a copiée ensuite.
+Dodgecoin, qui a la particularité de s'être montée sur une blague avec un petit chien comme effigie.
+Elle a pourtant continuer à exister ensuite.
+Ethereum, qui a popularisé les contrats intelligents sur la blockchain
+, Cardano qui tentent de résoudre les problèmes de croissance et de frais de transactions du bitcoin.
+Il en existe de nombreuses autres, et certaines ont été de véritables arnaques : leurs fondateurs ont levé de l'argent pour la développer et sont finalement partis avec en l'abandonnant.

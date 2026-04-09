@@ -1,0 +1,76 @@
+Circuit électrique
+Un circuit électrique au sens matériel est un ensemble simple ou complexe de composants électriques ou électroniques, y compris des simples conducteurs, parcourus par un courant électrique.
+Au sens de la théorie des circuits, un circuit électrique est une abstraction des configurations matérielles, un agencement d'éléments définis par des relations mathématiques, reliés par des conducteurs idéaux.
+L'étude électrocinétique d'un circuit électrique consiste à déterminer, à chaque endroit, l'intensité du courant et la tension.
+Concept
+Le concept de , en ce qui concerne l'électricité, implique un générateur qui produit un courant électrique dans des conducteurs et divers éléments qui forment une boucle entre ses pôles.
+En électronique, on désigne souvent les circuits par leur mode d'exploitation : on ne s'intéresse pour un circuit logique qu'à deux plages de niveau du signal électrique, notées 0 et 1, séparés par une plage incertaine.
+Certains circuits simples, pour lesquels la notion de circuit électrique se confond avec celle de montage électrique, présentent un intérêt pédagogique : circuit RC, circuit RL, circuit LC, circuit RLC.
+Théorie des circuits
+En théorie des circuits, un « circuit électrique » est une abstraction des configurations réelles, où l'on agence des éléments caractérisés par des relations mathématiques entre les tensions à leurs bornes, les intensités qui les traversent et le temps.
+Des conducteurs idéaux, dont toutes les parties sont au même potentiel et qui laissent passer le courant sans modification, relient ces éléments.
+Le caractère idéal des liaisons entre éléments permet d'écrire et d'étudier des équations.
+Les composants sont modélisés par des éléments localisés () : on ne considère pas ce qui se passe à l'intérieur des composants, ces derniers sont considérés comme « ponctuels » et obéissent à des lois globales.
+Pour obtenir des relations mathématiques, le circuit équivalent de la disposition matérielle peut séparer des composants matériels en plusieurs éléments : par exemple, décomposer un bobinage en une inductance et une résistance.
+Les générateurs matériels délivrent toujours une tension ou un courant qui varie selon la charge.
+Le circuit équivalent les décompose en un générateur de tension idéal et un résistance de sortie en série selon le théorème de Thévenin, ou en un générateur de courant idéal en parallèle avec la même résistance selon le théorème de Norton.
+Quand, comme dans le cas d'une ligne de transmission, on ne peut négliger l'influence des connections matérielles entre les composants, on regroupe cette influence dans des éléments de circuit qui en constituent un équivalent.
+On peut aussi regrouper des sous-ensembles pour lesquels on a pu calculer des relations caractéristiques, comme une fonction de transfert, et les assembler dans un circuit général.
+Ces relations peuvent inclure tous les paramètres nécessaires, comme la température.
+Topologie
+Le circuit le plus simple est une boucle comprenant un générateur et un récepteur.
+L'élément le plus simple d'un circuit est un dipôle caractérisé par les relations entre l'intensité qui le traverse, la tension à ses bornes et le temps.
+On peut grouper des éléments en branches considérées comme un dipôle.
+L'extrémité d'une branche s'appelle un nœud.
+Les nœuds qui ne relient que deux dipôles ne jouant aucun rôle dans les calculs, on ne considère souvent que ceux qui reliés à trois dipôles ou plus.
+Un ensemble de branches formant une boucle s'appelle une « maille ».
+Les lois de Kirchhoff relient ces définitions à des méthodes de calcul : la somme algébrique des courants passant par un nœud, tout comme la somme algébrique des tensions aux pôles des éléments d'une maille
+, sont nulles.
+On peut généraliser ces relations à des sous-ensembles du circuit : la somme algébrique des courants entrant dans une région délimitée d'un circuit est nulle (nœud généralisé), tandis que la somme algébrique des tensions dans une boucle est nulle (maille généralisée).
+Les branches dont les nœuds sont reliés à leurs deux extrémités sont dites « parallèles ».
+Les branches successives, traversées par le même courant, sont dites « en série ».
+En traitement du signal, on utilise souvent des quadripôles, dont les relations caractéristiques sont établies entre les grandeurs d'un dipôle d'entrée et un dipôle de sortie.
+Limites et généralisation
+Un circuit électrique est un modèle mathématique permettant de prévoir ce qui se passera dans un montage électrique.
+Ce modèle dépend de conditions généralement implicites : les éléments ne réagissent pas entre eux à distance et le temps de propagation des phénomènes électrique est négligeable.
+Ces conditions ne sont remplies qu'avec des composants relativement distants les uns des autres, et des fréquences modérées.
+La théorie du circuit électrique s'étend rapidement au circuit magnétique, par l'analogie d'Hopkinson.
+Perfectionnée par les études sur la rétroaction et les systèmes bouclés, généralisant les termes qu'on utilise pour des circuits complexes, la théorie débouche sur la systémique.
+Régime continu
+En régime continu, les grandeurs électriques ne dépendent pas du temps.
+La loi d'Ohm caractérise la tension aux bornes d'une résistance.
+La méthode des noeuds et la méthode des mailles appliquent les lois de Kirchhoff pour donner les relations entre les différentes grandeurs du circuit.
+* La transformation delta-étoile permet de trouver des circuits équivalents.
+Régime transitoire
+Pour étudier un circuit quand les grandeurs électriques dépendent du temps, ce qui est le cas général et d'une importance particulière dans les applications où on traite un signal électrique, on étudie l'effet d'un échelon idéal sur un circuit qui comprend des inductances et des capacités.
+Soit on imagine que le générateur puisse changer instantanément de valeur de tension ou de courant, et on applique les définitions des éléments qui incluent le temps, soit on lui fait délivrer idéalement une impulsion donnant une puissance finie dans un temps nul (un Dirac).
+Régime sinusoïdal
+Les relations qui comprennent le temps permettent souvent des élaborations mathématiques quand on considère que le générateur délivre une grandeur qui varie selon une fonction sinusoïdale.
+Pour que le concept de circuit s'applique, et que les liaisons entre les composants puissent être considérées comme parfaites, il faut que les dimensions du circuit matériel soient très inférieures à la longueur d'onde dans les conducteurs, ce qui pose une limite à la fréquence maximale de la fonction sinus.
+En régime sinusoïdal, les grandeurs électriques ont la forme x = a \, \sin, où est l'amplitude, la pulsation et la phase.
+Les calculs se trouvent simplifiés si considère plutôt les valeurs comme un nombre complexe, dont la partie réelle représente l'amplitude en phase, et la partie imaginaire l'amplitude déphasée d'un quart de période.
+On attribue alors aux éléments du circuits une impédance complexe, et une grande partie des lois du régime continu peuvent s'appliquer.
+Représentation du circuit électrique
+Un circuit électrique est généralement représenté sous forme d'un schéma électrique.
+Le schéma donne une forme qui indique de façon aussi claire que possible le fonctionnement du circuit.
+Cette forme peut s'éloigner notablement de la réalisation matérielle, contrainte par la taille des composants et une quantité d'exigences pratiques.
+Cette présentation graphique obéit à des conventions qui évitent d'indiquer à chaque fois par une légende signification des pictogrammes.
+Ces conventions ont pu varier au cours du temps.
+Le schéma d'un circuit peut omettre certaines parties essentielles : le générateur d'alimentation électrique, les entrées et les sorties du signal électrique.
+Ces branches du circuit sont situées implicitement entre les bornes d'entrée et de sortie.
+Circuits matériels
+L'électronique utilise presque toujours le circuit imprimé, sur lequel sont soudés les composants.
+Le wrapping a été utilisé pour les prototypes ou petites séries.
+L'électronique à tubes utilisait surtout des liaisons entre plots de raccordement.
+Applications
+On appelle circuit électronique la réalisation matérielle, en électronique analogique ou numérique, d'un ensemble destiné à réaliser un certain nombre de fonctions (Amplification, filtrage, communications…).
+Un circuit intégré réalise ces fonctions dans un composant monolithique.
+Court-circuit
+Un court-circuit est une mise en relation directe de deux points qui sont à des potentiels électriques différents.
+Il existe deux types de court-circuit :
+# Courant alternatif : liaison entre phases, entre phase et neutre ou entre phase et masse conductrice ;
+# Courant continu : liaison entre deux polarités ou entre la masse et la polarité qui est isolée.
+Un court-circuit se traduit par une augmentation brutale du courant qui peut atteindre en quelques millisecondes une valeur égale à plusieurs fois le courant d'emploi.
+Annexes
+Bibliographie
+Articles connexes

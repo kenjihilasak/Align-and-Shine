@@ -1,0 +1,63 @@
+Ligne droite|Angle|Géométrie du triangle|Théorème de géométrie|Construction géométrique
+En mathématiques, de façon informelle, une bissectrice est une demi-droite qui coupe un angle en deux angles égaux.
+Cette notion peut être généralisée en nommant ainsi la droite qui se superpose à la demi-droite.
+Définition
+La bissectrice d'un angle le partage en deux secteurs angulaires superposables.
+C'est une demi-droite issue du sommet du secteur angulaire.
+Proposition : l'axe de symétrie d'un secteur angulaire porte la bissectrice de celui-ci.
+Remarque :
+Il peut être commode de décider d'appeler bissectrice tout l'axe et pas seulement la demi-droite contenue dans le secteur angulaire.
+Théorème de la bissectrice
+Réciproquement, un point équidistant des côtés de l'angle est sur la bissectrice de cet angle.
+on peut donc énoncer:
+Corollaire : La bissectrice Oz) d'un angle xOy est le lieu des centres des cercles tangents aux côtés Ox) et Oy) de cet angle.
+Applications :
+* Les bissectrices d'un triangle se rencontrent au centre du cercle inscrit.
+Construction géométrique
+Comme conséquence du théorème de la bissectrice, voici une méthode de construction à la règle et au compas de la bissectrice d'un angle.
+# Pointer le compas au sommet de l'angle et tracer un premier arc de cercle.
+Marquer les points d'intersection de cet arc avec les deux côtés de l'angle.
+# Pointer successivement le compas aux points d'intersection tracer deux arcs de cercle de même rayon .
+Marquer le point d'intersection de ces deux arcs.
+Relier
+le sommet de l'angle et le point d'intersection des deux derniers cercles et vous avez tracé la bissectrice de l'angle.
+Bissectrices de deux droites sécantes
+Les bissectrices d'un couple de droites sécantes sont par définition les bissectrices des quatre secteurs angulaires définis par les deux droites.
+Il y a donc stricto sensu quatre bissectrices pour deux droites, si on s'en tient à la première définition de bissectrice.
+Au cours de la preuve du théorème suivant on montre que ces quatre bissectrices sont portées par deux droites qu'on appellera bissectrices des droites sécantes.
+Bissectrices comme axes de symétrie de D et de D'.-
+Si u et v sont deux vecteurs unitaires dirigeant respectivement D et D', alors u+v et u-v dirigent les axes de symétrie de la réunion D u D' (dessiner les losanges).
+On obtient ainsi la notion de bissectrice de deux droites affines sécantes sans passer par le point de vue naïf des angles géométriques.
+Le produit scalaire (u+v).
+u-v) est nul comme u et v sont unitaires : les deux bissectrices sont orthogonales.
+Bissectrices d'un triangle
+Le segment de bissectrice , intérieur au triangle , issu d'un sommet (A par exemple) a pour longueur 2 b c cos
+Particularité :
+Dans un triangle ABC, la bissectrice intérieure issue d'un sommet (C) recoupe la médiatrice du segment opposé (AB) en un point S sur le cercle circonscrit .
+Le cercle de centre S passant par A (et B) passe aussi par le centre du cercle inscrit à ABC.
+Une preuve par le théorème de Thalès est donnée dans la page sur les divisions harmoniques.
+Le calcul de deux manières des aires des triangles CAI et CBI donne une autre démonstration élémentaire.
+On peut alors calculer les longueurs des segments que la bissectrice intérieure issue de C découpe sur le côté opposé : \frac
+\frac
+\frac = \frac
+On obtient : IA
+\frac
+et IB
+\frac
+Soit encore avec les notations classiques :
+\frac
+et y
+\frac
+Applications :
+* On utilise extensivement la caractérisation précédente de la bissectrice dans l'étude du problème d'Apollonius : lieu des M tels que MA/MB
+= k.
+* Avec cette caractérisation de la bissectrice, on retrouve aisément la bissectrice d'un angle MFN, où M et N sont deux points sur une ellipse (plus généralement, conique propre) de foyer F et de directrice D et la construction de la tangente en un point d'une conique
+Caractérisation des deux secteurs angulaires engendrés par la bissectrice d'un secteur angulaire saillant
+La bissectrice D d'un secteur angulaire saillant S délimité par deux demi-droites D1 et D2 de même origine partage celui-ci en deux secteurs angulaires qu'on peut caractériser ainsi:
+*l'un est l'ensemble S1 des points de S plus proches (au sens large) de D1 que de D2;
+*l'autre est l'ensemble S2 des points de S plus proches (au sens large) de D2 que de D1.
+On remarque que D est l'intersection de S1 et de S2.
+Le centre du cercle inscrit dans un triangle est donc le point qui réalise le maximum de distance entre un point du triangle et sa frontière, autrement dit le centre du plus grand cercle contenu dans le triangle.
+On peut exprimer la dernière remarque ainsi : la distance de Hausdorff entre la frontière d'un triangle et le triangle lui-même est le rayon du cercle inscrit dans le triangle.
+Par exemple, dans un triangle rectangle de côtés a, b et c, où c désigne l'hypoténuse, elle vaut \frac.
+On pourra se servir de la remarque précédente pour illustrer la distance de Hausdorff entre deux itérés successifs à partir d'un triangle ABC convergeant vers le triangle de Sierpinski associé à ABC.

@@ -1,0 +1,290 @@
+Santé en France|Service public en France|Carte à puce|Carte d'assurance maladie
+La carte Vitale est la carte d'assurance maladie de l'assurance maladie en France.
+Conçue par le groupement d'intérêt économique SESAM
+Vitale
+et son équipe de télétransmission/dématérialisation travaillant sur la norme B2, c’est une carte à puce au format carte de crédit (plus précisément au format ID1) permettant de justifier les droits du titulaire de la carte vers les portails des organismes d’assurance maladie obligatoire ;
+* des demandes de remboursement électroniques (DRE) vers les portails des organismes d'assurance maladie complémentaire.
+Cette architecture permet la gestion automatisée de ces facturations de prestations de soins, tout en assurant un traitement plus rapide des dossiers de remboursement des frais médicaux ainsi qu'une diminution des coûts de personnel par les caisses.
+L'utilisation d'une carte Vitale, quand on en possède une, n'est pas obligatoire en 2016, la présentation d'une feuille d'attestation de sécurité sociale, remise dans les caisses primaires d'assurance maladie (CPAM) est suffisante pour obtenir le remboursement des soins .
+Informations contenues dans une carte Vitale
+Elle contient les informations suivantes :
+#des données visibles comportant un numéro d'émetteur
+, un numéro propre à la carte, la date d'émission de cette dernière et des données d'identification du titulaire, à savoir son numéro de sécurité sociale, son nom de famille ou, si l'intéressé le demande, le nom d'usage, son prénom usuel, une photographie en couleur, de face, tête nue, récente et parfaitement ressemblante, et un signe d'identification de la carte en relief ;
+#des données inscrites dans le composant électronique de la carte :
+##les données visibles mentionnées ci-dessus ainsi que la période de validité de la carte, le nom de famille du titulaire s'il diffère du nom d'usage, ses autres prénoms le cas échéant, sa date de naissance, son adresse et la photographie numérisée identique à celle figurant sur la carte,
+##les données relatives aux droits aux prestations en nature au regard d'un régime de base d'assurance maladie,
+##les données relatives au choix du médecin traitant du titulaire de la carte,
+##les données relatives
+, le cas échéant et sous réserve de son consentement, à la situation du titulaire au regard de la protection complémentaire d'assurance maladie,
+##les données relatives à la situation du titulaire en matière d'accident du travail ou de maladies professionnelles et aux derniers accidents ou maladies professionnelles reconnus,
+##les données relatives à l'accès aux soins en cas de séjour ou résidence dans un autre État membre de l'Union européenne ou partie à l'Espace économique européen,
+##les données personnelles concernant les coordonnées d'une personne à prévenir en cas de nécessité si le titulaire de la carte y a consenti,
+##la mention indiquant que son titulaire a eu connaissance des dispositions de la réglementation sur le don d'organe,
+##des données permettant :
+##* d'assurer la mise en œuvre des fonctions de signature électronique,
+####* d'authentifier la carte en tant que carte d'assurance maladie et d'identifier son titulaire.
+Qui possède une carte Vitale
+La carte Vitale est strictement personnelle et est attribuée gratuitement à tout ayant droit de plus de 16 ans français ou résidant en France.
+Depuis 1996, les caisses d’assurance
+maladie ont obligation de délivrer à tout bénéficiaire de l’assurance
+-maladie
+une «carte électronique individuelle inter-régimes», la carte Vitale.
+Les bénéficiaires de l'aide médicale d'État (AME) n'ont pas de carte Vitale et les données sont à récupérer à partir d'une attestation papier.
+Les Français travaillant en principauté de Monaco ne possèdent pas de carte vitale car rattachés à la CCSS.
+Note : les professionnels de santé se sont également vu attribuer une carte à puce nominative, dont l'utilisation est théoriquement limitée à une seule personne, et qui doit être utilisée en même temps que la carte Vitale du patient pour pouvoir transmettre les informations de facturation à la Sécurité sociale.
+Liste d’opposition électronique
+Afin de lutter contre la fraude, après une expérimentation au deuxième semestre 2003 avec pharmacies (dans les régions PACA, Corse, Gironde et Ardennes), depuis juin 2004, les logiciels des officines de pharmacie gèrent une liste nationale et inter-régimes des cartes Vitale en opposition.
+Cette « liste d’opposition électronique » (LOE) comporte les numéros de série de toutes les cartes Vitale mises en opposition quel que soit le régime d'Assurance Maladie obligatoire.
+Une carte Vitale est inscrite dans cette liste quand elle été déclarée perdue ou volée , fait l'objet d'une utilisation frauduleuse, ou si elle est invalidée par le régime obligatoire qui l'a émise .
+Depuis cette date, le GIE SESAM-Vitale pouvait soit adresser chaque mois une mise à jour de cette liste d’opposition dans la boîte aux lettres des applications métiers des pharmaciens, soit adresser une mise à jour entre le 18 et le 22 de chaque mois à l'« organisme concentrateur technique » (OCT) qui ensuite la restitue aux pharmaciens.
+Les progiciels en version 1.31.4 ou supérieure bloquent automatiquement les cartes dont les numéros sont inscrits sur la liste d'opposition.
+Avec les progiciels 1.31.5 et supérieurs, le pharmacien ne peut pas réaliser une feuille de soin électronique sécurisée en tiers payant.
+Une feuille de soin électronique dégradée
+- c'est-à-dire sans usage de la carte Vitale
+- peut être faite mais dans ce cas le pharmacien risque de ne pas être remboursé en cas de tiers payant.
+Liste d’opposition électronique incrémentale
+Conséquence de la convention nationale des pharmaciens signée le , l'addendum au cahier des charges publié en mars 2009 apporte une évolution concernant la liste d’opposition des cartes Vitale.
+La liste quotidienne d’opposition des cartes Vitale (LOI) devient incrémentale et doit être téléchargée chaque jour.
+Au moment de sa publication seuls les pharmaciens sont concernés, mais il est précisé (page 10) qu'ultérieurement, et sans doute lors de la signature des nouvelles conventions, il y aura une extension de la liste d’opposition à l'ensemble des professionnels de santé ainsi que de son opposabilité.
+Les générations de carte Vitale
+C'est en juin 1997 que la carte Vitale a adopté son aspect visuel actuel.
+En avril 1998, les premières cartes Vitale familiales commencent à être distribuées en Bretagne.
+Il faudra attendre juillet 1999 pour que les de bénéficiaires de l'époque en disposent.
+La première génération de carte Vitale est dotée de seulement de mémoire à la .
+Initialement, sa durée de vie était programmée pour .
+C'est une carte de type « familial », c'est-à-dire contenant les données administratives de l'assuré ouvrant droit et des bénéficiaires ayants droit (conjoint et enfants).
+La carte peut gérer jusqu'à au maximum.
+Comme il était prévu qu'elle soit remplacée à la fin du par dotée d'un « volet santé », on n'a pas placé de champs contenant la date de fin de droit de l’assurance maladie et de fin du 100 %.
+À partir de septembre 2001, le GIE Sesam-Vitale commence la distribution des cartes Vitale dites « personnelles » pour tous les ayants droit de plus de .
+Depuis 1998, de cartes ont été fabriquées par Morpho (Safran Identity & Security), Axalto Schlumberger Sema .
+Le masque avait été réalisé par Bull CP8, une filiale de Bull spécialisée dans la conception et le développement des systèmes d'exploitation (masques) utilisés dans les cartes à puce.
+En Schlumberger achète pour de dollars Bull-CP8, la filiale du Groupe Bull et externalise cette activité dans Axalto.
+L'assurance maladie remplace gratuitement sur demande les cartes volées, abîmées ou perdues dans la limite des stocks disponibles dans les deux années à compter de leur perte.
+En 2004, la Direction de la Sécurité Sociale avait proposé lors de la discussion du projet de loi de financement de la sécurité sociale de faire prendre en charge par l'assuré le coût de remplacement des cartes perdues.
+Cette mesure refusée par le Parlement aurait pourtant permis une économie estimée entre 4 et 12 millions d'euros par an selon qu'on prend en compte le coût des cartes seules ou celui de la procédure totale de remplacement.
+Il n'y a pas d'information médicale mais les cartes Vitale 1 ou 2 contiennent un volet administratif :
+Le nom de famille, le prénom usuel et la date de naissance du titulaire (l'assuré ou un membre de sa famille de plus de 16 ans) et le nom de famille, le prénom usuel et la date de naissance des bénéficiaires éventuels;
+* Trois codes
+Régime Centre :
+Un code pour le régime d’assurance maladie obligatoire (régime général, régime agricole, travailleurs indépendants, etc.), un code pour la caisse et un code pour le centre de rattachement ;
+* Les droits aux prestations d'assurance maladie avec les « codes couverture » et les périodes d'exonération en cas d'Affection longue durée (ALD).
+Le code couverture est sur cinq caractères numériques (par exemple 00100 ou 10100).
+Il est la concaténation du code ALD de un caractère (valeur 0,1,2,3,4,5,6) et du code situation sur quatre caractères.
+Un code ALD de 1,2 ou 3 signifie que la personne bénéficie d'une exonération du ticket modérateur au titre d'une Affection Longue Durée.
+Si les prestations de soins sont conformes au protocole ALD, le taux de remboursement à appliquer est de 100 %.
+* Si la carte est actualisée et pour les femmes, la date de la grossesse.
+ainsi qu'éventuellement :
+* les droits à la couverture maladie universelle (CMU) sauf exception;
+* Pour certains régimes comme les fonctionnaires, les droits à une couverture complémentaire si elle est gérée par le même organisme que pour le régime obligatoire.
+Des données spécifiques à la carte :
+* Le type de carte et son numéro de série ainsi que le numéro figurant au dos du compte de sécurité primaire ;
+* Les données de personnalisation ainsi que la date de dernière mise à jour de la carte ;
+* La date de fin de validité de la carte à partir de la V1 ter.
+Le numéro de série est également imprimé au recto la carte.
+Les API Sesam-Vitale « remontent »
+ce numéro pour certaines fonctions :
+* pour la génération d'un identifiant de santé «
+temporaire » dans le cadre du Dossier pharmaceutique.
+En effet l'INS, ou Identifiant national de santé, n'est pas encore opérationnel.
+Lors de tout changement de situation (maternité, naissance, ALD ) la carte Vitale doit être actualisée dans une borne de mise à jour ou dans les pharmacies.
+Technologie et bug
+Il y a eu plusieurs générations de cartes Vitale 1 : Les V1, V1bis et V1ter.
+* Cartes «
+SCOT 400 » :
+nom historiquement utilisé pour désigner la famille des premières cartes Vitale déployées depuis 1998 à juin 2003.
+Le masque ou système d’exploitation générique était nommé « M9
+version 1 » ou « M9V1 » ou «
+SCOT 400 M9V1 »
+et avait été conçu en 1991 par Bull CP8.
+Le microcircuit ST16SF44 A/RHQ était développé par SGS-Thomson Microelectronics.
+Ce microcontrôleur de la famille des composants ST16XYZ utilisait une unité centrale de 8 bits, une mémoire de travail RAM de , une mémoire de programme ROM de 18 kio et une mémoire utilisateur EEPROM (mémoire de données) de 4 kio.
+Le chiffrement utilisait l'algorithme DES.
+En mai 1998, ce composant masqué (microcircuit électronique avec son masque) a été certifié Level E3 selon les critères ITSEC.
+* Cartes « IGEA »
+Nom générique de la deuxième génération de cartes Vitale déployées à partir de juillet 2003.
+Son masque était appelé initialement « M9V2 ».
+# IGEA
+340 est le nom utilisé pour désigner le masque Vitale sur composant AT05SC1604R de ATMEL
+Smart
+Card ICs (certifié EAL4+).
+SchlumbergerSema (revendu à Atos Origine en septembre 2003) développait la partie applicative.
+Ces cartes à micro-circuit «
+AT568C6 révision I » ont été appelées initialement « SCOTT340 ».
+# IGEA
+440 est le nom désignant le masque Vitale sur microcircuit ST19XS04D de STMicroelectronics (certifié EAL4+).
+PIC est la référence pour la version 1 de ce masque alors que PIL est la référence STMicroelectronics du masque IGEA
+440 V2 chargé sur ce même composant ST19XS04D. Axalto (alors filiale de Schlumberger) en a conçu le masque.
+Cette génération diffusée de 2004 à 2006 présentait un bug empêchant la signature des FSE avec les nouveaux lecteurs rapides à 4Mhz comme le PRIUM-3S ou bloquant la carte lors des mises à jour dans les bornes.
+La borne en version 3.0 refuse de faire la mise à jour des cartes Vitale 1 équipées du composant IGEA 440 et affiche un message d’erreur code n°73.
+Le GIE SESAM-Vitale estimait leur nombre à près de qu'il a fallu remplacer.
+Carte Vitale V1 ter
+En avril 2004, le rapport de l'inspection générale des affaires sociales expliquait qu'il y avait de cartes Vitale de trop en circulation.
+avaient été diffusées alors qu'il n'y avait que de titulaires de plus de 16 ans.
+Les cartes V1 et V1 bis ne comportent aucun mécanisme physique ou logique permettant d'indiquer une date de fin de droit et autorise donc une ouverture permanente aux droits.
+En 1998, tous les patients en maladie de longue durée (MLD) disposaient pour des raisons techniques de cartes Vitale avec des droits ALD se terminant au 31 décembre 1999, date à laquelle devait être lancée la carte Vitale 2.
+En 1999, confrontée au risque d'engorgement des services médicaux pour des demandes de renouvellement d'exonération au titre d'affections longue durée (ALD), l'assurance maladie avait décidé de rendre illisible par une modification du logiciel lecteur, la date de fin de droit à l'exonération ALD.
+Faute d'actualisation des cartes, les bornes étaient encore rares, les professionnels de santé n'avaient aucun moyen de vérifier que les porteurs de ces 7 millions de cartes étaient encore bénéficiaires de cette exonération.
+Devant l'impossibilité matérielle pour les médecins du Service médical des caisses de traiter tous ces dossiers il y eut plusieurs vagues de prolongation administrative des droits de l'ensemble des MLD aux échéances du 31 décembre 1999, du 31 décembre 2000 et du 31 décembre 2002, sans vérification de leur état médical.
+Au contraire des cartes V1 et V1bis, la date de fin de validité de la carte est toujours présente dans une carte V1ter.
+La version V1 ter contient les informations suivantes :
+** Zone
+mapping : type de carte codé sur 4 caractères
+** Zone mouvement : zone de 37 caractères permettant de connaître la nature et la date de la dernière opération effectuée sur la carte ainsi que l'outil ayant effectué ce mouvement.
+* Volet Administration
+carte : Contient la date de fin de validité du support carte Vitale.
+Lecture libre.
+Écriture réservée aux AMO.
+* Volet Famille : Unique pour l'ensemble des bénéficiaires, il contient :
+Les données des droits à l'Assurance Maladie Obligatoire pour l’ensemble de la famille et en particulier le matricule de l’assuré.
+** Adresse administrative de l’assuré ;
+* Volet ETM famille : contient les informations d'Assurance maladie obligatoire particulières (Exonération du ticket modérateur) dont bénéficie l’ensemble des membres de la famille.
+La lecture est réservée aux professionnels et établissements de santé, ainsi qu'aux agents des organismes AMO.
+Écriture réservée aux AMO.
+** Contient pour chaque bénéficiaire, son identification et les informations de couverture Assurance
+Maladie Obligatoire
+particulière dont il peut bénéficier.
+Lecture libre.
+Écriture réservée aux AMO.
+** Exonération du ticket modérateur :
+La lecture est réservée aux professionnels et établissements de santé, ainsi qu'aux agents des organismes AMO.
+Écriture réservée aux AMO.
+** NIR
+certifié par le RNIAM avec numéro, clé et date de certification :
+Lecture libre.
+Écriture réservée aux AMO.
+* Indication de la déclaration du médecin traitant (non implanté au 15 mars 2009
+* Volet Mutuelle
+AMO :
+* Volet Mutuelle AMC : Zone optionnelle pour chaque bénéficiaire et contenant les données d'identification de l'organisme d'assurance médicale complémentaire (AMC) (en général non implanté au 15 mars 2009).
+Lecture libre.
+Écriture protégée.
+* Volet AT : Données relatives aux accidents du travail.
+Lecture libre.
+En écriture cette zone peut être utilisée pour gérer un organisme qui peut être différent du gestionnaire maladie.
+* Volet E128 : Zone optionnelle supportant les données nécessaires à l’édition d’un formulaire européen E 128.
+Lecture libre.
+Écriture réservée aux AMO.
+* Volet E112 :
+Zone optionnelle supportant les données nécessaires à l’édition d’un formulaire européen E 112.
+Lecture libre.
+Écriture réservée aux AMO.
+* Volet E111 :
+Zone optionnelle supportant les données nécessaires à l’édition d’un formulaire européen E 111.
+Lecture libre.
+Écriture réservée aux AMO.
+Volet santé
+Dès le début du programme SESAM, il était prévu d’ajouter rapidement à la carte Vitale un « volet santé », c'est-à-dire un mini dossier médical électronique, qui devait se substituer au carnet de santé papier .
+Ainsi l' de l’ordonnance n°96-345 du 24 avril 1996 « relative à la maîtrise médicalisée des dépenses de soins » précise que .
+Ce projet nommé Vitale 2 a longtemps joué l’arlésienne, avec son volet d’informations médicales, elle devait même remplacer Vitale 1 avant le 31 décembre 1999.
+Le 3 novembre 1997 lors du débat parlementaire pour la loi de Finance 1998 à l’Assemblée nationale, Jérôme Cahuzac (rapporteur spécial de la commission des finances, de l’économie générale et du Plan, pour la santé) indiquait : .
+L'assurance maladie a dû même annuler un programme de de cartes Vitale 2 commandées en janvier 1997 et qu'elle pensait être en mesure de distribuer en 1998.
+Le contenu et la fonction de ce « volet de santé » sont inscrits officiellement à l’ de la loi du 30 juin 1999 instaurant la Couverture maladie universelle , n'a diffusé son progiciel de FSE 1.40 agréé le 22 janvier 2008 et intégrant l'addendum 2bis qu'en février 2009.
+L' de l'arrêté du 14 mars 2007 précise que la carte peut comporter des données précisant « l'existence d'un médecin traitant et les informations permettant de l'identifier ».
+La mention «
+Médecin traitant déclaré » devait être intégrée dans Vitale 2 à la mi 2007, or il n'en est rien en mars 2009.
+Historique des remboursements
+En 2009, les médecins peuvent consulter en ligne les douze derniers mois des seules prestations remboursées par l'assurance maladie.
+Les médicaments non remboursés .
+C'est fin 2007 que la MSA, le RSI, le GAMEX et la CNMSS rejoignent le dispositif.
+En février 2009, de nombreux régimes comme la Mutuelle Générale ne sont pas reliés.
+Après une infrastructure technique fournie par la CNAM, depuis la fin 2007 la sécurisation d'accès est assurée par IMARS (Infrastructure Mutualisée d’
+Accueil
+et de Routage Sécurisés des services en ligne) développée pour tous les régimes par le GIE SESAM-Vitale et qui permet l’authentification en ligne de la carte Vitale
+La cour des comptes (France) dans son rapport publié en septembre 2008 explique que le coût estimé de ce chantier pour la période 2005 à 2008 serait d'environ 10 millions d'euros pour la CNAM, un million d'euros pour le régime social des indépendants (RSI) et quelques centaines de milliers d’euros pour la mutualité sociale agricole (MSA) et les mutuelles de la fonction publique.
+Dossier pharmaceutique
+La carte Vitale sert aussi, dans les pharmacies connectées, à alimenter le contenu du dossier pharmaceutique un chantier dont le maître d'œuvre est le Conseil national de l’Ordre des pharmaciens (CNOP).
+Les pharmaciens identifiés par leur carte CPS, ont accès aux quatre derniers mois des médicaments délivrés dans les différentes officines connectées au DP.
+On y trouve, sauf précision contraire du patient lors de la dispensation, l'intégralité des médicaments délivrés remboursées ou non.
+La délivrance hospitalière reste exclue de ce dispositif.
+Les données sont chiffrées, comme les connexions au serveur qui se font en mode SSL.
+Les archives sont conservées trois ans au total an par l'hébergeur Santeos.
+À la suite d'une autorisation initiale de la CNIL datant du 30 mai 2007, c’est en juin 2007 qu'a débuté la phase pilote dans des quelques pharmacies de six départements (Doubs, Meurthe-et-Moselle, Nièvre, Pas-de-Calais, Rhône, Seine-Maritime).
+Puis en février 2008, à la suite d'une autre décision de la CNIL, il y a eu élargissement de l'expérimentation aux départements d'Yvelines et des Hauts-de-Seine ainsi qu'à autres officines sur l’ensemble du territoire.
+Le 22 juillet 2008 la CNIL a autorisé la poursuite de l’expérimentation jusqu’au 15 novembre 2008.
+Finalement c'est le 2 décembre 2008 que la CNIL a donné son autorisation pour la généralisation du Dossier Pharmaceutique à toute la France.
+En pratique
+pour identifier les dossiers pharmaceutiques le numéro de sécurité sociale n’est pas utilisé.
+Les API Sesam Vitale des progiciels des officines remontent par lecture de la carte Vitale, le nom, le prénom, la date de naissance, le rang gémellaire et le numéro de série de la carte Vitale.
+Carte à puce DUO FFSA
+L'expérimentation se fait dans le cadre des préconisations du rapport Babusiaux .
+Le conseil de surveillance du GIE Sesam-Vitale a donné son accord en 2005.
+L’API de lecture des cartes DUO, développée par le GIE SESAM-Vitale, a été livrée en 2007 aux différents éditeurs de logiciels.
+La Fédération Française des Sociétés d'Assurances (FFSA) a commencé depuis juin 2007 une expérimentation dans le département des Bouches-du-Rhône.
+Cette expérimentation menée par les assureurs SOGAREP, AMIS, AVIVA, AXA, GAN, GROUPAMA et MMA a été étendue progressivement au Calvados, au Deux-Sèvres, à la Seine-Maritime, au Var et à la Vienne.
+Cette deuxième carte à puce contient un volet administratif pour les seules données d'assurance complémentaire.
+En 2007 cartes Duo-FFSA ont été livrées.
+cartes devraient être distribuées au total.
+Cette carte, directement adressée à l'assuré par l'assureur, n'a pas besoin d'être actualisée au minimum une fois par an comme les cartes Vitale.
+Elle reflète donc la situation exacte de l'assuré et des bénéficiaires.
+Elle peut être mise en opposition par l'assureur en cas de non-paiement du contrat.
+Elle est utilisée conjointement avec la carte Vitale par les pharmaciens équipés de nouveaux logiciels de facturation, soit dans un lecteur trifente, soit alternativement avec la carte Vitale.
+Les tests ont commencé avec le tiers-payant pharmacie, puis pour la radiologie et ensuite les autres professionnels de santé.
+Il n'y a pas de photo sur la carte Duo.
+Son coût exclusivement supportée par l’organisme d'assurance complémentaire était estimé en 2005 à environ .
+Expérimentations BABUSIAUX
+FNMF
+Les expérimentations «
+Babusiaux » ont pour but d'analyser les habitudes de consommation pharmaceutique des adhérents aux mutuelles afin officiellement, .
+En 2004 la CNIL a autorisé à titre expérimental pour une durée de douze mois, la FNMF à accéder, pour le compte des mutuelles qu'elle fédère, aux codes CIP des médicaments et aux codes LPP (Liste des produits et prestations) des feuilles de soins électroniques.
+Ces études n'ont été autorisées que sur des DRE anonymisées de manière irréversible.
+Les DRE sont concentrées sur une plate-forme gérée par le prestataire Asway.
+Les données d'identification de l’assuré sont transformées en un numéro anonyme et irréversible.
+Ensuite, ces données sont agrégées et traitées à des fins statistiques.
+En 2006, grâce à la mise en œuvre d’un pilote dit « Vitale 1ter », la Fédération nationale de la mutualité française (FNMF) a pu récupérer les premiers flux réels de DRE réalisées avec des cartes Vitale 1ter.
+Dès avril 2007, la FMMF a utilisé la nouvelle version de la Chaîne d’
+Administration des Cartes (CAC) développée par le GIE SESAM Vitale pour Vitale 2.
+Inédit Santé (BABUSIAUX FFSA)
+Autre expérimentation Babusiaux menée depuis octobre 2007 dans par l'assureur privé AXA pour la FFSA et concernant dix départements français, l'Hérault d'abord, puis les départements 06, 27, 33, 35, 44, 49, 59, 77 et 84.
+Elle a pour but d’automatiser le remboursement par les mutuelles de certains produits prescrits et non remboursés par le régime obligatoire.
+Les progiciels télétransmettrent ces factures sécurisées dans les mêmes lots de factures contenant des prestations remboursables.
+Les flux électroniques passent obligatoirement par un Organisme Concentration Technique (OCT) qui fait l'aiguillage vers les mutuelles.
+Il faut intégrer un http:/ editeurs autres/pdt-nt-023_IneditSante_Juillet2007.pdf module spécifique dans les progiciels de facturation 1.3x et 1.4x des pharmaciens.
+En effet les FSE doivent détailler les codes CIP des médicaments non remboursables (PHN) pour les faire parvenir au régime complémentaire.
+En outre, il faut que l'officine puisse transmettre aussi les FSE qui ne comportent que des prestations prescrites non remboursées par l’assurance maladie obligatoire.
+Carte électronique européenne d’assurance
+maladie
+Les cartes vitale 1 ter et 2 contiennent des volets E128, E112 et E111.
+La carte électronique européenne d’assurance
+maladie (e-CEAM)
+est la version électronique de la Carte européenne d'assurance maladie.
+Ce projet, lancé en 2002, propose à terme la dématérialisation progressive de tous les formulaires de prise en charge qui empêchent la mobilité des assurés européens dans l’Union.
+Le consortium européen NETC@RDS (Allemagne, Autriche, Finlande, France, Grèce, Hongrie, Italie, Liechtenstein, Norvège, Pays-Bas, Pologne, République tchèque, Roumanie, Slovaquie, Slovénie) est chargé de la mise au point de cette carte électronique.
+Le projet est coordonné par le GIE SESAM-Vitale.
+Mais il est difficile de déployer un système interopérable alors que chaque pays européen présente chacun des contraintes spécifiques sur le plan technologique ou de l'architecture de ses systèmes d’information de santé.
+En outre quelques États ont lancé leur programme national de carte de santé électronique, comme la France avec Sesam-Vitale depuis 1998.
+D'autres ont leur propre carte électronique de santé :
+l’Allemagne avec la carte eHealth lancée en 2008 par l'Allgemeine Ortskrankenkasse, la Lombardie avec la carte SRS-CISS, ou Carta regionale dei servizi , l’Autriche avec ecard, la République tchèque, la Belgique avec la Carte SIS.
+Le déploiement initial de la future e-CEAM a été annoncé à partir de 2010.
+NETC@RDS
+Les cartes Vitale 1 ter et 2 contiennent un volet optionnel Netc@rd.
+Portail NETC@RDS :
+* Acquisition des données d'identification du patient soit par scannage de la carte CEAM ou en lisant directement dans des terminaux les cartes électroniques Vitale, ecard
+* Vérification sécurisée des droits en ligne sur le portail netc@rds
+* Échanges de données entre l'établissement de soins et l'organisme européen pour la prise en charge financière des soins
+* 2002-2003 : Première étape, baptisée «
+Phase A1 ».
+Elle a consisté en une étude de faisabilité avec cinq partenaires situés dans quatre pays différents.
+* 2004-2006 :
+Phase A2-A3.
+85 établissements hospitaliers européens (dont l'Hôpital européen Georges-Pompidou) ont participé à la phase pilote A.
+Le projet concerne vingt partenaires de dix pays.
+La troisième phase, dite « B
+», devait démarrer en juin 2007 et se terminer en 2009.
+On compte 26 partenaires de quinze pays réunis en consortium ainsi que des sponsors.
+En 2008 de nouveaux points de service ont été ouverts en France (Hôpital Saint Roch à Nice, Clinique des Diaconesses à Strasbourg), en Allemagne (Lörach).
+L’objectif de la phase B est de déployer et d’évaluer un téléservice transeuropéen de dématérialisation des prises en charge des soins dans 305 établissements (hôpitaux ou cliniques) européens (au total 566 points de services).
+Les premiers chiffres de l'évaluation étaient attendus en 2009/2010.
+Une convention multilatérale a été conclue entre les différents organismes d’Assurance maladie européens proposant le service NETC@RDS.
+Elle permet de garantir le paiement des factures des prestations de soins effectuées dans les différents établissements de santé européens connectés.
+Démarches administratives
+La déclaration de perte de son passeport, de sa carte d'identité ou de sa carte vitale fait partie des démarches administratives en ligne qu'il est désormais possible d'effectuer via Mon.service-public.fr, un portail internet de l'administration française créé début 2009, pour simplifier les démarches.
+Anecdotes
+Deux ingénieurs, Jérôme Créteaux et Patrick Gueulle, ont obtenu le Prix Voltaire 2005 distribué par les Big Brother
+Awards
+pour avoir démontré que les informations de la carte Vitale étaient codées, mais non chiffrées.
+Autrement dit, le logiciel de cryptographie n’a pas été activé (pour des raisons d’économie) : les données sont donc en clair.
+Ils ont ainsi montré qu’il était possible d’avoir accès aux données confidentielles présentes dans la carte et de créer des cartes « compatibles » acceptées par les professionnels de santé tout en modifiant lesdites données confidentielles.
+L’ayant signalé au GIE-Carte Vitale, la seule réponse dudit organisme a été de poursuivre Jérôme Créteaux pour fabrication de fausse carte et escroquerie en bande organisée parce qu’il avait démontré la viabilité de sa « carte compatible » en se faisant remettre des médicaments dans une pharmacie.
+Certains retraités européens installés en France se sont vu retirer leur carte Vitale, le 30 septembre 2007, pour des raisons administratives.
+D'après la CPAM des Hautes-Pyrénées : , en application d'une directive européenne de 2004,
+Inconvénients

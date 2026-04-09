@@ -1,0 +1,56 @@
+Test de primalité|Nombre premier|Théorie des cribles
+Le crible d'Ératosthène est un procédé qui permet de trouver tous les nombres premiers inférieurs à un certain entier naturel donné N.
+Le crible d'Atkin est plus rapide mais plus complexe.
+Algorithme
+L'algorithme procède par élimination : il s'agit de supprimer d'une table des entiers de 2 à N tous les multiples d'un entier.
+En supprimant tous les multiples, à la fin il ne restera que les entiers qui ne sont multiples d'aucun entier, et qui sont donc les nombres premiers.
+On commence par rayer les multiples de 2, puis à chaque fois on raye les multiples du plus petit entier restant.
+On peut s'arrêter lorsque le carré du plus petit entier restant est supérieur au plus grand entier restant, car dans ce cas, tous les non-premiers ont déjà été rayés précédemment.
+À la fin du processus, tous les entiers qui n'ont pas été rayés sont les nombres premiers inférieurs à N.
+L'animation ci-dessous illustre
+le crible d'Ératosthène pour N=120 :
+alors n
+n1n2, avec nécessairement l'un au moins des diviseurs ni plus petit que \sqrt.
+11²
+, on s'arrête après avoir trouvé les multiples de 7.
+Exemples de mise en œuvre
+Le crible d'Ératosthène peut être mis en œuvre de façon classique ou récursive, mais aussi sous la forme d'une méthode pipe-line.
+Pseudo-code
+Dans une version classique, on transcrit ainsi l'algorithme :
+Fonction Eratosthène (Limite)
+L = liste des entiers de 2 à Limite
+Tant que L est non vide
+Afficher le premier entier
+de L
+L = liste des entiers de L
+non multiples du premier
+Fin tant que
+Fin fonction
+Version récursive
+Le crible d'Ératosthène se code facilement avec une fonction récursive, qu'il suffit d'appeler initialement avec le tableau des entiers de 2 à N.
+Voici un pseudo code :
+FONCTION Eratosthène ( entiers )
+SI premier entier au carré > dernier entier
+ALORS AFFICHE
+entiers
+SINON
+AFFICHE premier
+entier
+EXECUTE
+Eratosthène ( tous les entiers non multiples du premier entier )
+FIN
+FIN FONCTION
+L'algorithme récursif présente comme avantage de pouvoir être codé sur un langage ne supportant pas de structure de données de type liste.
+Version pipe
+-line : le Crible de Hoare (1978)
+L'idée est d'engendrer chaque nombre à vérifier, pour le soumettre à un tri en cascade, ne conservant des entiers reçus que ceux qui sont premiers.
+Pour cela, à chaque nombre premier repéré est associé un poste qui ne transmettra parmi ses successeurs que ceux qui ne sont pas ses multiples.
+Ce système n'utilise pas de table ou de liste de nombres à traiter a priori, mais à tout moment un poste (cellule active ou coroutine) par nombre premier déjà reconnu.
+Crible de C.A.R HOARE :
+Un GENERATEUR passe chaque entier de 2 à N au premier poste disponible (qu'il crée s'il n'existe pas).
+Pour chaque POSTE créé :
+il conserve le premier entier qu'il reçoit, disons p,
+puis il transmet au poste suivant (créé si besoin) tout entier reçu n non divisible par p.
+Ainsi :
+*37 passe les postes 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, et crée le poste 37...
+En régime de croisière, ce crible commence à vérifier la primalité de nouveaux nombres pendant qu'il poursuit ou achève la vérification de la primalité de nombres précédents.

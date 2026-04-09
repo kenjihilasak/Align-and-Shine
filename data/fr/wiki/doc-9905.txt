@@ -1,0 +1,89 @@
+Microprocesseur x86
+Intel|Produit lancé en 2015
+Skylake est la micro-architecture de processeurs x86 d'Intel qui succède à la micro-architecture Haswell à partir d'août 2015.
+Avec cette nouvelle micro-architecture, Intel abandonne sa traditionnelle stratégie tic-tac.
+En effet, la firme a connu quelques difficultés pour le passage à la gravure en et prend encore du retard pour la gravure en .
+Cette architecture sera donc déclinée en de bien plus nombreuses familles qu'à l'accoutumé.
+La famille de microprocesseurs
+Cannonlake gravée
+en est prévue pour 2018 et sera toujours basée sur la micro-architecture Skylake.
+Chez Intel
+, le inaugure la lithographie extrême ultraviolet, pour succéder aux processus lithographiques classiques à immersion à laser à fluorure d'argon d’une longueur d'onde de .
+La chronologie des familles de microprocesseurs cités est donc la suivante :
+** famille
+de processeurs Haswell
+, gravés en , depuis juin 2013
+** famille
+de processeurs Broadwell, gravés en ,
+depuis septembre 2014
+** famille
+de processeurs Skylake, gravés en
+depuis août 2015
+** famille
+de processeurs
+Kaby Lake, gravés en , depuis octobre 2016
+** famille de processeurs
+Coffee Lake ou "Kaby Lake Refresh", gravés en , depuis août 2017
+Principales caractéristiques
+* La famille de micro-processeurs Skylake requiert un socket LGA 1151
+La partie graphique évolue avec cette micro-architecture : la famille de micro-processeurs Skylake embarque un cœur graphique de neuvième génération prenant en charge DirectX 12, OpenGL 4.4 et OpenCL 2.0.
+Changements annoncés
+Intel change son modèle d'évolution dit du tic-tac faisant alterner des changements de gravure à architecture inchangée, puis des changements d'architecture à finesse de gravure inchangée.
+Il se révèle en effet que les difficultés apparaissant avec des gravures de l'ordre de 15 nm demandent une approche désormais en trois phases : Process (finesse de gravure), Architecture (nouveaux nanocircuits), qui vise essentiellement les nouvelles fonctionnalités, et une troisième et nouvelle phase : Optimisation, qui cherche à augmenter la performance, d'où le nom PAO (sans rapport avec le sigle désignant la publication assistée par ordinateur).
+Famille Skylake
+- 6e génération
+- 14 nm
+Processeurs
+pour ordinateurs portables
+Lors de la sortie des premiers processeurs de génération, Intel annonce
+un gain de performance de 10 à 15 % par rapport à la génération précédente.
+Processeurs
+pour ordinateurs de bureaux
+Processeurs X-series (Skylake-X)
+Les processeurs X series sont les processeurs les plus puissants du marché, sont destinés un usage professionnel, où une puissance de calcul importante est nécessaire.
+Ces processeurs ne possèdent pas de processeur graphique intégré.
+Famille
+Kaby Lake
+- 7e génération
+- 14 nm
+Attention
+, ces processeurs sont uniquement supportés par Microsoft sous Windows 10.
+Sous Windows 7 et 8.1, ils n'auront pas de mise-à-jour de sécurité.
+Processeurs
+pour ordinateurs portables
+Lors de la sortie des premiers processeurs de 7ème génération, Intel annonce
+un gain de performance d'au moins 15 % par rapport à la génération précédente.
+Processeurs
+pour ordinateurs de bureaux
+Processeurs X-series (Kaby Lake-X)
+Il s'agit d'une gamme de processeurs à hautes performances, destinés aux ordinateurs de bureau.
+A ne pas confondre avec Skylake-X
+Famille
+Coffee Lake
+- 8e génération
+- 14 nm
+En août 2017, Intel annonce que la sortie de la 8ème génération se fera en plusieurs étapes, d'abord les processeurs mobiles qui reprennent l'architecture Kaby Lake dans une version Refresh, tandis que les processeurs bureaux arriveront début 2018 avec la nouvelle architecture Coffee Lake.
+Processeurs
+pour ordinateurs portables
+La principale nouveauté des nouveaux processeurs mobiles de génération est le passage pour tous ceux-ci à 4 cœurs au lieu de 2 cœurs.
+Cela permet, après quelques optimisations, des gains de performances de près de 40 %.
+En passant à 4 cœurs Intel a été obligé de baisser les fréquences de fonctionnement pour permettre de conserver une consommation énergétique de 15 W.
+Processeurs
+pour ordinateurs de bureaux
+La principale amélioration des processeurs
+Coffee
+Lake
+face aux Kabylake est l'augmentation du nombre de coeurs, comme sur les versions mobiles.
+Les i3 passent d'une configuration 2c 4t, les i5 de 4c 6t et les i7 de 4c 12t (c
+coeur,
+thread)
+Prise en charge de la partie graphique
+Pour utiliser la partie graphique de Skylake sous Linux, il faut au minimum de préférence :
+La prise en charge sous Linux de ces puces s'étend à OpenGL 4.3, OpenGL
+ES 3.2 et Vulkan 1.0
+OpenCL 2.0 est pris en charge sous Linux au moyen de la bibliothèque Beignet.
+Famille
+Cannon Lake
+Gravé
+en , Cannon Lake est prévue pour le deuxième semestre 2018.
+Elle intégrerait un chip graphique de dixième génération.

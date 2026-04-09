@@ -1,0 +1,98 @@
+Solide de Platon|Nombre d'or
+Un dodécaèdre régulier est un polyèdre régulier à 12 faces.
+Le préfixe dodéca-, d'origine grecque, fait référence au nombre de faces.
+Un dodécaèdre régulier est un solide de Platon composé de faces pentagonales, dont 3 se rejoignent à chaque sommet.
+Son polyèdre dual est l'icosaèdre régulier.
+Comme il a cinq sommets par face, et trois faces par sommet, son symbole de Schläfli est .
+Son groupe de rotations est isomorphe à A (le groupe alterné sur 5 éléments).
+Son groupe d'isométries est le produit de ce sous-groupe par le sous-groupe cyclique , où s est une symétrie centrale.
+Les 20 points suivants (dans l'espace euclidien usuel ℝ) sont les sommets d'un dodécaèdre régulier de centre (0, 0, 0) :
+:\left (0, \pm \frac1, \pm \varphi\right),\quad\left (\pm \frac1, \pm \varphi, 0\right),\quad\left (\pm \varphi, 0, \pm \frac1\right),\quad (\pm1, \pm1, \pm1),
+où \varphi
+\tfrac2 est le nombre d'or.
+En utilisant \varphi^2
+\varphi + 1, on vérifie que tous ces sommets sont sur une sphère de rayon √3, centrée à l'origine.
+Si est la longueur d'une arête :
+*le diamètre de la est égal à :
+\sqrt\tfrac2a
+\varphi\sqrta ;
+*l'aire est égale
+à :
+3\sqrta^2
+3\sqrta^2 ;
+*le volume est égal à :
+\tfrac4a^3
+\tfrac2a^3.
+L'angle dièdre entre deux faces vaut :
+:\arccos ,
+soit environ 116° 33' 54″.
+Le squelette du dodécaèdre régulier
+- l'ensemble de ses sommets reliés par ses arêtes
+- forme un graphe appelé graphe dodécaédrique.
+Symétries
+Le dodécaèdre admet un centre de symétrie.
+Soit O
+le centre du dodécaèdre (point équidistant de ses sommets)
+et A un sommet.
+La droite OA recoupe le dodécaèdre en un second point K, qui est soit le centre d’une face, soit le milieu d’une arête, soit un sommet.
+Or les deux rotations d’axe OA et d’angles respectifs 1 3 tour transforment le dodécaèdre en lui-même.
+K ne peut donc être qu'un sommet, et le symétrique du sommet A par rapport à O est le sommet K.
+Le dodécaèdre est conservé par les rotations d’axe passant par son centre et celui d’une de ses faces, de 1 5, 3 5 de tour.
+Il y a 6 couples de faces opposées, donc 24 rotations de ce type.
+Le dodécaèdre est conservé par les symétries d’axe passant par son centre et le milieu de l’une de ses arêtes.
+Il y a 15 couples d’arêtes opposées, et donc 15 symétries de ce type.
+Le dodécaèdre est conservé par les rotations d’axe passant par son centre et l’un de ses sommets, de 1 3 de tour.
+Il y a 10 couples de sommets opposés, donc 20 rotations de ce type.
+En ajoutant la transformation identique, on a donc recensé 60 rotations conservant le dodécaèdre.
+Il n’y en a pas d’autres.
+En effet une rotation est déterminée par la donnée de la transformée d’une arête orientée.
+Or il y a 30 arêtes avec deux orientations.
+En conclusion :
+Le groupe H des rotations conservant le dodécaèdre comprend 60 éléments.
+Par composition avec la symétrie centrale, on obtient 60 autres isométries .
+En font partie les 15 symétries par rapport à un plan passant par le centre et perpendiculaire à un des 15 axes passant par le centre et le milieu d’une arête.
+Le dodécaèdre admet cinq triplets de trois plans orthogonaux passant par le centre et qui sont chacun des plans de symétrie du dodécaèdre.
+Soit AB une arête de milieu M et KL l’arête symétrique de AB par rapport au centre O.
+La symétrie par rapport au plan perpendiculaire à OM passant par O est le produit de la rotation d’un demi-tour d’axe OM par la symétrie de centre O.
+La symétrie S d’axe passant par O et parallèle à AB et qui transforme AB en LK, fait partie des 15 rotations du groupe H d’
+un demi-tour conservant le dodécaèdre.
+La symétrie par rapport au plan passant par O et perpendiculaire à AB est le produit de S par la symétrie de centre O.
+La symétrie T d’axe passant par O et perpendiculaire au plan AOB et qui transforme AB en KL, fait partie des 15 rotations du groupe H d’
+un demi-tour conservant le dodécaèdre.
+La symétrie par rapport au plan passant par AOB est le produit de T parla symétrie de centre O
+Les trois plans orthogonaux passant par O, respectivement perpendiculaires à OM, à AB et aux deux précédents, sont donc trois des quinze plans de symétrie du dodécaèdre.
+Par quatre rotations d’angles 1 5, 3 5 de tour, d’axe commun avec la face contenant A et ne contenant pas B, on obtient quatre autres triplets de plans orthogonaux de symétrie.
+Le groupe H des rotations conservant le dodécaèdre est isomorphe au groupe A des substitutions paires d’un ensemble de cinq éléments.
+En effet, toute rotation de H opère une substitution sur l’ensemble des cinq triplets de plans orthogonaux de symétrie.
+Il est donc isomorphe à un sous-groupe du groupe S des substitutions d’un ensemble de cinq éléments.
+Or le seul sous-groupe de S ayant 60 éléments est le groupe A des substitutions paires d’un ensemble de cinq éléments.
+Construction
+Construction du dodécaèdre.
+Construction des trois premières faces.
+Soit ABCDE un pentagone régulier constituant la première face F1, de centre O et d’arête de longueur a.
+Dans le plan ABC, la perpendiculaire à AB passant par E coupe la droite OA en H. Dans le plan passant par OAH et perpendiculaire au plan ABC, soit G un des deux points d’intersection de la perpendiculaire au plan en H avec le cercle de centre A et de rayon a.
+Les points E et G
+sont dans un même plan perpendiculaire à AB, et à la même distance de AB.
+Il existe donc une rotation d’axe AB transformant E en G. Soit F3 la transformée de F1 par cette rotation :
+c’est un pentagone régulier ayant l’arête commune AB avec F1.
+Soit F2 le symétrique de F3 par rapport au plan OAG : c’est un pentagone régulier ayant l’arête commune AB avec F1 et ayant l’arête commune AG avec F3.
+Construction des trois faces suivantes.
+Soit R la rotation d’axe passant par O et perpendiculaire au plan ABC et de 1/5 de tour
+Elle transforme la face F2 en la face F3, car les plans EAG et ABG forment le même angle avec le plan ABC.
+Soient F4, F5 et F6 les transformées de F2 par les rotations respectives R, R et R. F2 a une arête commune avec F3, donc F6 a une arête commune avec R (F3), qui est égal à R (F2), soit F2.
+Construction des six dernières faces.
+Soit S la rotation d’axe
+passant par le centre de la face F2 et perpendiculaire à celle -ci, et de 1/5 de tour.
+Elle transforme les faces F1 et F3 respectivement en les faces F6 et F1, car les plans de F1, de F3 et de F6 forment le même angle avec le plan de F2.
+Par ailleurs, la face F4 a une arête commune avec F1 et une arête commune avec F3, mais aucune arête commune avec F2.
+Sa transformée S (F4) a donc une arête commune avec F6 et avec F1, mais aucune avec F2 : c’est donc F5.
+Soient F7 et F8 les transformées de F1 par les rotations respectives S et S. F1 ayant une arête commune avec F6, F8 a une arête commune avec F3.
+Soient F9, F10 et F11 les transformées de F4 par les rotations respectives S, S et S. F4 ayant une arête commune avec F5, F11 a une arête commune avec F4.
+L’arête de F4 qui n’est commune avec aucune des dix autres faces précédemment définies, est transformée par S, S, S et S en une arête respectivement de F5, F9, F10, et F11, qui sont dans un même plan et forment un pentagone régulier, douzième face du dodécaèdre.
+Autres dodécaèdres remarquables
+Utilisations
+Le poète médiéval Jean de Meung (1240-1305)
+a décrit un jeu de société divinatoire, dénommé « dodechedron », qui utilise un dé en forme de dodécaèdre régulier, dont chacune des douze faces représente un des signes du Zodiaque.
+Le Megaminx est un casse-tête dérivé du Rubik's cube en forme de dodécaèdre régulier.
+Certains jeux de rôles sur table utilisent dans leur système de jeu des dés à 12 faces pour la résolution d'actions.
+Ces dés à 12 faces sont des dodécaèdres.

@@ -1,0 +1,133 @@
+Principe physique|Optique géométrique
+Le principe de Fermat est un principe physique, attribué à Pierre de Fermat, qui sert de fondement à l'optique géométrique.
+Il décrit la forme du chemin optique d'un rayon lumineux et s'énonce ainsi :
+Une conséquence première du principe de Fermat est la propagation rectiligne des rayons lumineux dans les milieux homogènes.
+En effet, dans un milieu homogène, le temps de parcours est proportionnel à la longueur du trajet, et le chemin le plus court dans un espace euclidien pour aller d’un point à un autre est la ligne droite.
+Il permet de retrouver la plupart des résultats de l'optique géométrique, en particulier les lois de la réflexion sur les miroirs, les lois de la réfraction, la loi de Snell-Descartes, etc.
+Historique
+Ce principe doit son nom à Pierre de Fermat, qui l'a énoncé en 1657 mais qui n'a soumis son mémoire, Synthèse pour les réfractions qu'en 1662.
+Tandis que René Descartes, dans La Dioptrique, expliquait les lois de l'optique en faisant , Fermat se base sur un principe moral : «
+La nature agit toujours par les voies les plus courtes et les plus simples.
+En 1740
+, Pierre Louis Moreau de Maupertuis en complète la conception en créant le principe de Maupertuis qui, une fois peaufiné par Joseph Louis Lagrange, devint le principe de moindre action.
+En 1924, Louis de Broglie fit une synthèse du principe de Fermat et de celui de moindre action en proposant qu'à chaque particule massive soit associée une onde : cela ouvrit la voie de la dualité onde-particule menant à l'équation de Schrödinger, fondamentale en mécanique quantique.
+Le même problème se retrouve dans l'énoncé du principe de moindre action, qui est à la mécanique ce qu'est le principe de Fermat à l'optique, dans la définition des surfaces minimales (qui ne sont pas forcément... minimales) ou dans celle des géodésiques.
+Formulation du principe de Fermat à l’aide du chemin optique
+Cas d’un milieu homogène
+Le chemin optique de la lumière pour aller d'un point A vers un point B dans un milieu homogène, noté L (A,B), est défini comme étant un nombre proportionnel au temps mis par le rayon pour aller de A à B, le coefficient de proportionnalité étant tel que L (A,B) est égal à la distance AB pour un parcours dans le vide.
+Appelant v la célérité de la lumière dans le milieu, et c celle dans le vide, on a donc L (AB)
+\alpha\tfrac et \alpha\tfrac
+AB, d’où
+L (A,B)
+\tfracAB ;
+le coefficient de proportionnalité n
+\tfrac
+est appelé l’indice de réfraction du milieu.
+Le chemin optique est donc défini par :
+L (A,B)
+= n\cdot AB
+La lumière se propage « plus difficilement » dans les milieux autres que le vide.
+Exemple :
+Un rayon lumineux traverse une couche d'eau de 5 cm d'épaisseur.
+Parallèlement, un autre rayon lumineux traverse 5 cm d'air.
+L'eau a pour indice de réfraction n
+1,33 et l'air
+un indice sensiblement égal à celui du vide n
+Dans l'eau, le rayon lumineux aura parcouru une distance D
+1,33\cdot5
+6,65 \mathrm
+Dans l'air, le rayon aura parcouru une distance D'
+1\cdot
+5 \mathrm.
+Le rayon aura parcouru un chemin optique plus long dans l'eau que dans l'air.
+Cas d'un milieu continu quelconque
+On considère deux points infiniment voisins et distants d'une distance \mathrm ds.
+Le chemin optique séparant ces deux points est défini par \mathrm
+dL=n.\mathrm
+ds ;
+\mathrm dL est la différentielle de chemin optique ou encore, l'élément unitaire infinitésimal de chemin optique.
+Pour trouver le chemin optique L (AB) séparant deux points A et B sur cette courbe, il suffit de faire la somme intégrale de tous les éléments \mathrm dL sur la coordonnée curviligne s délimitée par les points A et B :
+L (AB)=\int_ n
+\, \mathrm
+Le principe de Fermat s’énonce alors :
+Conséquences
+Principe du retour inverse de la lumière
+La stationnarité du chemin optique permet de procéder à quelques considérations.
+Entre deux points A et B, tous deux sur la trajectoire curviligne d'un rayon lumineux se propageant dans un milieu inhomogène, on peut exprimer l'intégrale de chemin optique comme il suit :
+L (AB)
+\int_n \
+, \mathrm ds
+\int_n \
+, (-\mathrm ds)=\int_n \, \mathrm ds'
+En considérant
+que \mathrm ds'
+-\mathrm ds est l'élément de coordonnée curviligne de B vers A, on peut alors écrire L (AB)
+L (BA).
+Dans le cas de l'étude d'un système optique, cela signifie que l'on pourra étudier la propagation de la lumière et le trajet des rayons lumineux sans se soucier du sens de propagation.
+Attention : en pratique
+, l'utilisation irréfléchie de ce principe aboutit à des absurdités.
+On sait par exemple qu'un objectif ne donne jamais une image ponctuelle d'un point lumineux, mais une tache toujours plus ou moins floue.
+Il serait enfantin de penser que les rayons formant cette tache, renvoyés dans l'objectif par un miroir plan, pourraient reformer de l'autre côté un point-image net...
+Ce n'est pas le principe qui est en cause ici, mais le fait de vouloir l'appliquer de façon fautive.
+Lois de Snell-Descartes
+Un plan P de vecteur normal \vec n sépare deux milieux d’indices de réfractions n_1 et n_2.
+Un rayon lumineux part d'un point A_1 situé dans le premier milieu, traverse P en M et atteint un point A_2.
+Le problème est de trouver la position de M à partir du principe de Fermat.
+Le chemin optique de A_1 à A_2 est L= n_1A_1M+n_2A_2M donc :
+\mathrm dL
+n_1\mathrm d\overrightarrow M+n_2\mathrm d\overrightarrow M
+\left ( n_1+n_2\right) \mathrm d\overrightarrow M
+La condition de stationnarité de L, \mathrm dL
+, se traduit donc par le fait que n_1\tfrac+n_2\tfrac est orthogonal au plan P, soit colinéaire à \vec n ;
+le rayon lumineux est donc inclus dans le plan passant par A_1 et A_2 et orthogonal à P et \left (n_1\tfrac+n_2\tfrac\right)\wedge \vec n
+\vec 0 donne : n_1\sin i_1 =n_2 \sin i_2 .
+Cette démonstration est due essentiellement à Maupertuis en 1744, près d’un siècle après l’énoncé par Fermat de son principe.
+Une illustration en est donnée par le problème dit « du maître-nageur ».
+Celui
+-ci, situé sur la plage en A_1 doit aller secourir un noyé situé en A_2.
+Comme il court plus vite qu'il ne nage, son trajet optimal (en temps) est celui qui suit les lois de la réfraction, que nous venons de déterminer.
+On démontre que si la surface de séparation des deux milieux est une surface quelconque, les deux lois de Descartes sont conservées (mais il peut y avoir plusieurs chemins possibles).
+Généralisation des lois de Descartes au cas
+un milieu continu quelconque
+Cas d'un trajet plan
+Si la lumière se déplace dans un plan Oxy, on peut paramétrer sa trajectoire par son abscisse x (à l'exception de la droite x = constante).
+La trajectoire devient une fonction y (x) et le chemin optique s'écrit
+L (AB)
+\int_ n\;\mathrm ds
+\int_^n (x,y (x))\sqrt \;\mathrm dx .
+L’équation d'Euler
+Lagrange exprimant la stationnarité de la trajectoire pour cette intégrale donne
+\frac \left (\frac\right) = \sqrt\;\frac
+Nous allons résoudre le cas particulier où n ne dépend que de x : on obtient alors \tfrac=cte ;
+or si l'on désigne par i l’angle que fait la tangente à la courbe avec Ox, cette condition s’écrit :
+n\cdot\sin i=\rm cte
+Ceci constitue en quelque sorte une version infinitésimale de la seconde loi de Descartes, laquelle est en fait une traduction locale du principe de Fermat.
+L’équation différentielle de la trajectoire est donc :
+y'=\tfrac k.
+On retrouve évidemment que pour n constant, les trajectoires sont des droites ;
+mais si on prend n = \left (\tfrac\right)^, la courbe se paramétrise simplement en
+\begin
+x= (\sin t)^\alpha \\
+y= \int (\sin t)^\alpha\;\mathrm dt\end.
+C'est une courbe de Ribaucour.
+Par exemple pour \alpha=1 (l'indice de réfraction est inversement proportionnel à l'abscisse)
+on obtient
+\beginx
+\sin t \\ y
+\cos
+t + b \end,
+autrement dit les trajectoires sont des cercles.
+Pour \alpha=2 (l'indice de réfraction est inversement proportionnel à la racine carrée de l'abscisse)
+on obtient
+\beginx
+1-\cos 2 t) \\ y
+- \sin 2t) + b\end :
+la courbe est une cycloïde.
+Ce cas est historiquement intéressant : c'est par cette méthode que Jean Bernoulli a prouvé que la courbe brachistochrone (minimisant le temps de parcours d'un point matériel) est la cycloïde, en montrant que le problème de mécanique et celui d'optique sont en fait équivalents.
+Cas général
+On considère maintenant un milieu hétérogène continu à 3 dimensions.
+On montre que les lois de Descartes généralisées, issues du principe de Fermat, s'énoncent sous la forme suivante :
+Le plan osculateur à la trajectoire en un point M contient la normale à la surface d'indice de réfraction constant passant par M.
+Si on désigne par i l’angle que fait la tangente à la courbe avec cette normale, on a la relation :
+: \|\overrightarrow (n)\ \sin i = \tfrac
+où R est le rayon de courbure de la courbe

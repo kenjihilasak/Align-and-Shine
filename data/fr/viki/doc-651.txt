@@ -1,0 +1,36 @@
+Règle de trois
+En mathématiques, la règle de trois est une méthode pour trouver le quatrième terme parmi quatre termes ayant un même rapport de proportion lorsque trois de ces termes sont connus.
+Elle utilise le fait que le produit des premier et quatrième termes est égal au produit du second et du troisième.
+La règle de trois apparaît pour la première fois en Inde au VIIème siècle puis est transmis au monde arabo-musulman au IXème siècle avant d'apparaître en Europe à partir de XIIIème siècle.
+Cette règle s'est popularisée à partir des années 1830-1840.
+On suppose que a, b et c sont des nombres relatifs donnés et x un nombre inconnu.
+Si a, b et c, x sont dans le même rapport de proportion, c'est-à-dire si ab=cx{\displaystyle {\frac {a}{b}}={\frac {c}{x}}} ou ba=xc{\displaystyle {\frac {b}{a}}={\frac {x}{c}}} alors x=c×ba{\displaystyle x=c\times {\frac {b}{a}}}.
+On peut aussi utiliser le produit en croix (expliqué plus bas), qui semble plus simple et plus rapide, mais qui revient au même.
+Une voiture roule à vitesse constante et peut rouler 240 kilomètres en 3 heures (cas 1).
+Quelle distance la voiture peut-elle parcourir en 7 heures (cas 2) ?
+Posonst1=3{\displaystyle t_{1}=3} (heures), d1=240{\displaystyle d_{1}=240} (kilomètres) et t2=7{\displaystyle t_{2}=7} (heures).
+On cherche la distance parcourue par la voiture dans le cas 2 (c'est-à-dire quand elle roule 7 heures), notée d2=?{\displaystyle d_{2}=?
+Comme la vitesse de la voiture est constante, elle est la même dans le cas 1 et dans le cas 2 : v1=v2{\displaystyle v_{1}=v_{2}}.
+Comme on cherche d2{\displaystyle d_{2}}, on transforme l'équation pour le faire apparaître : d2=d1×t2t1{\displaystyle d_{2}={\frac {d_{1}\times t_{2}}{t_{1}}}}.
+On remplace par les valeurs : d2=240×73=560{\displaystyle d_{2}={\frac {240\times 7}{3}}=560} (km)
+On peut aussi retrouver le résultat par étapes :
+la voiture parcourt 240 kilomètres en trois heures ;
+en une heure, elle fait trois fois moins, soit 2403{\displaystyle {\frac {240}{3}}} kilomètres.
+en 7 heures, sept fois plus, soit 2403×7{\displaystyle {\frac
+240}{3}}\times
+7} heures : 560 kilomètres.
+Le « produit en croix » est un moyen plus visuel d'appliquer une règle de trois.
+Avec les valeurs du schéma, il dit que a×d=b×c{\displaystyle {a}\times {d}={b}\times {c}}.
+On « trace » en fait une croix entre les différentes valeurs (sur le schéma, a{\displaystyle a}, b{\displaystyle b}, c{\displaystyle c} et d{\displaystyle d}).
+Par exemple :
+on part de a{\displaystyle a}, et l'on trace la première branche de la croix : on arrive en d{\displaystyle d} ;
+de d{\displaystyle d}
+, on va en b{\displaystyle b} ;
+en l'on dessine la dernière branche de la croix : on va en c{\displaystyle c}.
+Ce qui est facile avec le produit en croix, c'est qu'il faut toujours faire les mêmes opérations !
+Entre la première valeur (a) et la deuxième (d), on fait une multiplication.
+Entre la deuxième (d{\displaystyle d}) et la troisième (b{\displaystyle b}), on divise.
+Et la dernière valeur (c{\displaystyle c}) est égale au résultat de nos opérations !
+On avait d1t1=d2t2{\displaystyle {\frac {d_{1}}{t_{1}}}={\frac {d_{2}}{t_{2}}}} et l'on cherchait d2{\displaystyle d_{2}}.
+En appliquant le produit en croix, on fait comme avec a, b, c et d : d1×t2t1=d2{\displaystyle {\frac {d_{1}\times t_{2}}{t_{1}}}=d_{2}} !
+La règle de trois est un outil fondamental car cette méthode est utilisée assez souvent dans les problèmes de proportionnalité comme les distances parcourues à vitesse constante en fonction du temps, le prix à payer en fonction du poids, en économie etc...

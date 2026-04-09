@@ -1,0 +1,87 @@
+Mécanique quantique
+En physique, quantum (mot latin signifiant «
+combien » et dont le pluriel s'écrit « ») représente la plus petite mesure indivisible, que ce soit celle de l'énergie, de la quantité de mouvement ou de la masse.
+Cette notion est centrale en théorie des quanta, laquelle a donné naissance à la mécanique quantique.
+Description
+La théorie des quanta ou théorie quantique, affirme que l'énergie rayonnante est discontinue.
+Les quanta sont alors les quantités minimales
+, les « grains » composant cette énergie.
+Leur valeur est h.&nu;, où :
+Ainsi, on peut déterminer facilement l'énergie contenue dans un photon en multipliant sa fréquence (déduite de sa longueur d'onde puisque sa vitesse est constante) par h.
+La valeur de h est faible : .
+Et \frac=n \times h,
+c'est-à-dire que le quotient \frac est toujours un multiple de h.
+Histoire
+Physique classique
+En physique classique, on considérait que les passages d'un état à un autre se faisaient de manière continue, ou, pour parler autrement, de manière progressive.
+Par exemple, des échanges d'énergie ou des modifications de vitesse pouvaient toujours être plus petits, en physique classique, que n'importe quelle valeur.
+Cela signifie qu'une modification d'état pouvait être d'une quantité infiniment petite;
+ce paradigme a d'ailleurs historiquement engendré, en mathématique, le calcul infinitésimal.
+Ainsi, John Rayleigh énonça en 1900 que la puissance rayonnée par un corps chauffé est proportionnelle à sa température absolue et inversement proportionnelle au carré de la longueur d'onde de la couleur réfléchie, ce qui illustre l'idée d'un changement continu.
+Cependant, des mesures ont démontré que sa théorie n'était vraie que pour les longueurs d'onde allant de l'infrarouge au vert.
+À partir du bleu, l'expérience était en contradiction avec ces valeurs théoriques.
+Paul Ehrenfest appela cette erreur la « catastrophe ultraviolette ».
+En effet photoélectrique également, les observations expérimentales entraient en contradiction avec la théorie de la physique.
+En effet, les valeurs expérimentales d'intervalle de temps nécessaire à ce que les électrons soient éjectés, étaient nettement plus faibles que celles prédites par les calculs de la mécanique classique basée sur une lumière de nature ondulatoire donc de spectre énergétique continu.
+Apparition des quanta
+La théorie des quanta vient bouleverser cette idée de continuité cette même année 1900 : Étudiant le rayonnement des corps noirs, Max Planck proposa que les vibrations issues de la chaleur d'un corps se répartissent suivant une loi déterminée, régie par la constante h qui porte son nom.
+Il fut, au même titre que les autres physiciens, déstabilisé par sa théorie : toute modification se faisait selon une quantité minimum en deçà de laquelle il est impossible de descendre.
+Autrement dit, toute modification se fait par saut.
+Max Planck essaya longtemps de conserver son résultat en supprimant les quanta, pour finalement renoncer et les admettre.
+La théorie des quanta était née.
+Elle fut le point de départ de la mécanique quantique, l'une des deux grandes théories physiques du .
+Cela provoqua l'émergence d'une nouvelle physique en contradiction avec de nombreux concepts de la physique classique, et que l'on appela la physique quantique.
+Dualité
+Onde/
+Corpuscule
+En effet cette interprétation quantique de la lumière introduisait une dualité ondulatoire et corpusculaire de cette dernière.
+Qui plus est, dans sa thèse de 1924, Louis de Broglie généralisait cette dualité à toute particule : il y liait le quantum à la longueur d'onde de la mécanique ondulatoire.
+Ceci fut validé pour l'électron par l'expérience de Davisson-Germer en 1927.
+Une partie importante des travaux de la fin du et du début du ont été consacrés à l'étude, la compréhension et l'établissement de cette dualité.
+La mécanique quantique, qui fait notamment appel à la fonction d'onde et introduit ainsi une composante probabiliste à cette mécanique, fut ainsi initiée par Satyendranath Bose, Louis de Broglie, Paul Dirac, Albert Einstein, Enrico Fermi, Max Born, Richard Feynman, Werner Heisenberg, Wolfgang Pauli et Erwin Schrödinger.
+Électrodynamique quantique
+Richard Feynman et Julian Schwinger ont par la suite développé
+l'électrodynamique quantique relativiste, théorie qui considère que l'interaction électromagnétique entre particules chargées se fait par l'échange de photons ;
+par extension, l'interaction gravitationnelle se ferait par l'échange de gravitons et les interactions faibles et fortes par l'intermédiaire de bosons.
+Pour décrire l'interaction des particules élémentaires, il a fallu développer une autre théorie portant le nom de théorie quantique des champs.
+Application en électronique
+En électronique, le quantum correspond à la tension analogique de la valeur numérique la plus petite dans un convertisseur numérique/analogique (CNA), soit un 1 logique.
+C'est donc la différence de tension qu'il y a entre une valeur numérique et la valeur numérique suivante, à la sortie d'un convertisseur analogique instrument de mesure peut détecter.
+La définition du quantum varie légèrement suivant la conversion (analogique vers numérique ou vice versa).
+CAN ⇒
+\frac
+avec V_ la tension pleine échelle, et n le nombre de bits
+CNA ⇒
+\frac
+avec V_ la tension pleine échelle, et n le nombre de bits
+Lorsque la résolution du convertisseur numérique numérique (CAN) :
+q = \frac
+La tension pleine échelle est la plage de conversion complète, c'est-à-dire, la plage de variation de l'entrée, on peut considérer que celle-ci est théorique.
+La tension de référence est exactement la même chose que la tension de pleine échelle mais cette fois-ci, cette tension est pratique.
+L'écart entre la valeur théorique et pratique est traduit par l'erreur de gain.
+Lors de la production de sur un même , des variations de process engendrent des caractéristiques différentes.
+Il convient donc au fabriquant de tester et de fournir dans sa les tensions de références des différents convertisseurs.
+Pour les circuits numériques cette plage de conversion est souvent .
+Notons toutefois qu'en microélectronique, la plage de conversion peut facilement descendre à (baisse de la tension d'alimentation donc baisse de la consommation).
+Exemple
+Les suites binaires suivantes sur n
+4 bits,
+pour V_
+8V donc en théorie V_
+= 8V
+- De l'analogique au numérique on a :
+0 0 0 0 si Ua <
+0 0 0 1 si < Ua <
+1 1 1 1 si < Ua
+Ainsi le quantum q = (on augmente de en analogique pour 0 0 0 1 en numérique)
+- Du numérique à l'analogique on a :
+0 0 0 0 =
+q )
+2q )
+15q )
+Étymologie
+* est une forme latine correspondant à ce qui désigne en physique une quantité ( au pluriel) ;
+* , adjectif signifiant «
+combien » dans le mode interrogatif et exclamatif ( au féminin singulier ou au neutre pluriel).
+Citons quelques mots dérivés de « quanta » :
+* quantique

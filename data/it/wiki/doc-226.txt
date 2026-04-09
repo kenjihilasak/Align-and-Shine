@@ -1,0 +1,177 @@
+In matematica, il logaritmo di un numero in una data base è l'esponente al quale la base deve essere elevata per ottenere il numero stesso.
+Per esempio, il logaritmo in base 10 di 1000 è 3, poiché bisogna elevare 10 alla terza potenza per ottenere 1000, ovvero 10^3
+Più in generale,
+se b
+a^c, allora c è il logaritmo in base a di b, cioè, scritto in notazione matematica,
+c=\log_a b.
+I logaritmi furono introdotti da Nepero all'inizio del 1600, e trovarono subito applicazione nelle scienze e nell'ingegneria, soprattutto come strumento per semplificare calcoli con numeri molto grandi, grazie all'introduzione di tavole di logaritmi.
+La funzione \log_a (x):
+(0,+\infty)\to\R (logaritmo in base a di x) è la funzione inversa della funzione esponenziale in base a data da a^x:\R\to (0,+\infty).
+È di importanza fondamentale il logaritmo naturale, cioè il logaritmo che ha come base il numero di Nepero, indicato con e\approx 2,718.
+Il logaritmo naturale è l'inverso della funzione esponenziale e^x:\R\to (0,+\infty).
+Definizione
+Dati due numeri reali positivi a e b, con a \neq 1, si definisce logaritmo in base a di b l'esponente a cui elevare a per ottenere b. Il numero b viene chiamato argomento del logaritmo.
+In altre parole, se b = a^c,
+si scrive che
+c = \log_a b,
+e si legge:
+c è il logaritmo in base a di b.
+Le ipotesi su a e b sono necessarie per avere l'esistenza e l'unicità di c, infatti:
+0 e b\neq 0, non esistono c tali che b
+a^c;
+0 e b
+0, esistono infiniti c con tale proprietà;
+* se a=1 e b\neq 1, non esistono c con tale proprietà, infatti non esiste nessun numero, a parte 1 stesso, che possa essere ottenuto attraverso una potenza di 1;
+1 e b
+1, esistono infiniti c con tale proprietà;
+* se a 0.
+Esempi
+4 perché 3^4
+3\cdot 3\cdot 3\cdot 3 = 81.
+I logaritmi possono anche essere negativi (a differenza della base e dell'argomento).
+Infatti
+\log_\left (\frac\right)=-1,
+poiché 3^=\frac.
+Proprietà dei logaritmi
+Dalle relazioni a^1
+a e a^0
+1, che valgono qualsiasi sia la base a, derivano le proprietà di base:
+Inoltre, dalla definizione segue che:
+\log_a
+Prodotto, quoziente, potenza e radice
+Una delle più importanti proprietà dei logaritmi è che il logaritmo del prodotto di due numeri è la somma dei logaritmi dei due numeri stessi.
+Allo stesso modo, il logaritmo del quoziente di due numeri non è altro che la differenza tra i logaritmi degli stessi.
+In altre parole valgono
+\log_a (x \cdot y) = \log_a x + \log_a
+I logaritmi, assieme alle formule di Prostaferesi, consentono quindi di trasformare le somme in prodotti e le differenze in quozienti, proprietà questa talora molto utile nella semplificazione algebrica.
+\log_a \frac = \log_a x - \log_a
+Inoltre, il logaritmo di un numero elevato a una certa potenza k è uguale a k moltiplicato per il logaritmo del numero stesso.
+Da questo discende che il logaritmo della radice k-esima di un numero è uguale all'inverso di k per il logaritmo del numero, e che il logaritmo dell'inverso di un numero è l'opposto del logaritmo del numero stesso.
+In altre parole valgono le formule:
+\log_a x^k = k \cdot \log_a x
+\log_a\sqrtk = \frac\log_a (x)
+\log_a = -\log_a x.
+Cambiamento di base
+Noto il valore di un logaritmo in una base, è semplice calcolarne il valore in un'altra base (spesso le calcolatrici danno il logaritmo solo in basi 10 ed e).
+Se b, x, e k sono tutti numeri reali positivi (con b\neq 1 e k\neq 1):
+\log_b x = \frac
+dove k è una base qualsiasi.
+La formula può essere scritta nel modo seguente
+:\log_k b\cdot \log_b x = \log_k x
+e segue dalla relazione
+(k^)^
+b^ = x.
+Dalla formula del cambiamento di base, ponendo k=x, si ricava la relazione seguente:
+\log_b x
+=\frac.
+Basi del logaritmo
+Anche se in linea di principio i logaritmi possono essere calcolati in qualunque base positiva e diversa da 1, quelle più utilizzate sono tre:
+* base 10 (logaritmi decimali o volgari o di Briggs), usati per le operazioni di calcolo;
+li si indica con log10, o con Log, oppure anche con log quando la base a cui ci si riferisce è chiara dal contesto (simbolo ISO lg).
+* base e (logaritmi naturali o neperiani), usati nel calcolo infinitesimale;
+li si indica con ln, oppure con log quando la base a cui ci si riferisce è chiara dal contesto (simbolo ISO ln).
+* base 2 (logaritmi binari), usati soprattutto nell'analisi della complessità computazionale, nella teoria dei codici e nella teoria dei segnali; li si indica con log2, oppure con log quando la base a cui ci si riferisce è chiara dal contesto (simbolo ISO lb).
+Storia
+Il metodo dei logaritmi fu proposto dallo scozzese Nepero nel 1614, in un libro intitolato Mirifici Logarithmorum Canonis Descriptio.
+Joost Bürgi inventò indipendentemente i logaritmi, ma pubblicò i suoi risultati sei anni dopo Nepero.
+Per sottrazioni successive, Nepero calcolò (1-10^)^L per L da 1 a 100;
+il risultato per L=100 è approssimativamente 0,99999, ovvero 1-10^.
+Nepero poi calcolò il prodotto di questi numeri per 10^7 (1-10^)^L, con L da 1 a 50.
+Questi calcoli, che occuparono 20 anni, gli permisero di trovare, per ogni numero intero N da 5 a 10 milioni, il numero L che risolve l'equazione
+N=10^7 (1- 10^)^L.
+Nepero chiamò inizialmente questo valore un "numero artificiale", ma successivamente introdusse il nome "logaritmo", dalle parole del greco "logos", proporzione, e "arithmos", numero.
+Usando una notazione moderna, i calcoli di Nepero gli permisero di calcolare
+\log_ \!\left ( \frac \right) \approx 10^7 \log_
+\!\left ( \frac \right)
+-10^7 \log_e \!\left ( \frac \right),
+dove l'approssimazione compiuta corrisponde alla seguente:
+^ \approx \frac.
+L'invenzione di Nepero fu subito largamente acclamata:
+i lavori di Bonaventura Cavalieri (Italia), Edmund Wingate (Francia), Xue Fengzuo (Cina) e Giovanni Keplero (Germania) permisero di diffondere velocemente l'idea.
+Nel 1647, il fiammingo Gregorio di San Vincenzo collegò i logaritmi alla quadratura dell'iperbole, dimostrando che l'area A (t) sottesa da 1 a t soddisfa
+A (tu) = A (t) + A (u).
+Il logaritmo naturale fu per la prima volta descritto da Nicolaus Mercator nel suo scritto Logarithmotechnia pubblicato nel 1668, anche se precedentemente l'insegnante di matematica John Speidell aveva compilato una tavola di logaritmi naturali nel 1619.
+Intorno al 1730, Eulero definì la funzione esponenziale e la funzione logaritmo
+come
+e^x = \lim_ \left (1+\frac\right)^n,
+\ln (x) = \lim_ n (x^ - 1).
+Eulero inoltre dimostrò che queste due funzioni erano una l'inversa dell'altra.
+Tavole dei logaritmi e applicazioni storiche
+Semplificando calcoli complessi, i logaritmi contribuirono ampiamente all'avanzamento della scienza, e in particolare dell'astronomia.
+Lo strumento che ne permise l'uso pratico furono le tavole dei logaritmi.
+La prima di esse fu completata da Henry Briggs nel 1617, subito dopo l'invenzione di Nepero.
+Successivamente, furono scritte altre tavole con diversi scopi e precisione.
+In esse veniva elencato il valore di \log_b (x) e di b^x per ogni numero x in un certo intervallo, con una precisione fissata e con una base b scelta (solitamente b=10).
+Per esempio, la tavola di Briggs conteneva il logaritmo in base 10 di tutti i numeri da 1 a 1000, con una precisione di otto cifre decimali.
+La funzione b^x, poiché inversa del logaritmo, venne chiamata antilogaritmo.
+Il prodotto e il quoziente di due numeri c e d venivano così calcolati con rispettivamente la somma e la differenza dei loro logaritmi.
+Il prodotto cd è l'antilogaritmo della somma dei logaritmi di c e d:
+b^ b^
+b^.
+Il quoziente c/d è l'antilogaritmo della differenza dei logaritmi di c e d:
+\frac
+cd^
+b^.
+Per compiere calcoli complessi con una buona precisione queste formule erano molto più veloci del calcolo diretto oppure dell'utilizzo di metodi precedenti, come quello di prostaferesi.
+Anche il calcolo di potenze e di radici veniva semplificato, riducendosi a moltiplicazione e divisione di logaritmi:
+c^d
+(b^)^d
+\sqrtd
+b^.
+Funzione logaritmo
+Operando sui numeri reali, la funzione logaritmo è la funzione f:
+(0,+\infty)\to\R definita da
+f (x) = \log_b (x).
+La funzione ha come dominio l'intervallo (0,+\infty).
+In figura sono disegnati tre esempi della funzione logaritmo con diversi valori per la base b.
+La curva rossa è per la funzione con base b=e costante di Nepero (valore approssimato:
+2,718).
+Come si può notare dal grafico, il dominio della funzione logaritmo (l'insieme entro cui variano i valori delle x), è l'intervallo (0,+\infty);
+mentre il codominio, insieme in cui variano i valori delle y, è \R.
+Derivata
+La funzione logaritmo è derivabile e la sua derivata è la seguente:
+\frac \log_b x
+\frac
+\frac,
+dove ln è il logaritmo naturale, cioè con base e. In particolare, la relazione seguente è fondamentale nel calcolo infinitesimale:
+\frac \ln x = \frac.
+Dimostrazione con la funzione inversa
+L'eguaglianza è dimostrabile usando la regola della funzione inversa:
+\left ( f^ \right)' \left ( y_0 \right ) = \frac
+La funzione inversa del logaritmo è la funzione esponenziale, la cui derivata coincide con se stessa:
+\frace^x =e^x.
+Ne segue:
+\frac \ln
+\frac
+\frac = \frac.
+Dimostrazione tramite definizione
+Si può utilizzare direttamente la definizione di derivata:
+\frac \log_b x = \lim_\frac
+=\lim_ \frac
+=\lim_ \frac
+=\lim_ \frac
+e, ricordando il limite notevole del logaritmo, si ottiene:
+=\frac.
+Convessità e concavità
+La derivata seconda della funzione logaritmo è
+\frac \log_b x = -\frac.
+Se b>1, questo valore è sempre negativo e la funzione è quindi funzione concava.
+Se b 0 ha infatti raggio di convergenza R ed è quindi convergente solo nell'intervallo (0,2R).
+Ad esempio, lo sviluppo in R=1 è il seguente:
+\ln (1+x)
+\sum_^ (-1)^ \frac
+x - \frac + \frac - \frac + \dots
+Relazione tra funzione esponenziale e logaritmica
+Per lo studio di funzioni esponenziali in cui è necessario estrapolare dati o parametri in modo semplice è possibile sfruttare la funzione logaritmo per ricavare una relazione implicita della funzione originale avente il vantaggio di essere lineare.
+Ad esempio, per una funzione descrivibile comey
+ae^con a e b costanti è possibile pervenire alla relazione:\ln \left ( y \right )
+\ln \left ( ae^ \right )
+\ln \left ( a \right ) + \ln \left ( e^ \right )
+\ln \left ( a \right ) + bx che sul piano semi-logaritmico rappresenta una retta che interseca l'asse delle ordinate in ln (a), con derivata prima b e angolo di inclinazione pari ad arctan (b):
+in questo modo l'estrapolazione dei dati per la nuova funzione è più semplice ed accessibile.
+Logaritmo complesso
+La funzione logaritmo può essere estesa ai numeri complessi diversi da zero.
+Nel caso in cui si tratti di un logaritmo naturale con argomento complesso vale la formula seguente:
+\ln = \ln + i\left (\arg z+2\pi k\right), z \in \C,
+con i l'unità immaginaria e \arg z l'argomento di z. Il logaritmo complesso è in realtà una funzione a più valori, determinati dal parametro intero k.
+Note

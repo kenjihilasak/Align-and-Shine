@@ -1,0 +1,35 @@
+Divisibilité et factorisation|Opération
+En mathématiques, et plus précisément en arithmétique, le plus petit commun multiple
+- en abrégé PPCM
+- (peut s'appeler aussi PPMC, soit "plus petit multiple commun") de deux entiers non nuls a et b est le plus petit entier strictement positif qui soit à la fois multiple de ces deux nombres.
+On le note a ∨ b ou PPCM (a, b), ou parfois simplement a, b.
+Le PPCM de a et b peut également se définir comme un multiple commun de a et de b qui divise tous les autres.
+Cette seconde définition se généralise à un anneau commutatif quelconque, mais on perd en général l'existence et l'unicité ;
+on parle alors dun PPCM de deux éléments.
+L'existence est assurée dans les anneaux intègres factoriels ou même seulement à PGCD.
+Le PPCM peut se définir plus généralement pour un nombre quelconque d'éléments : par exemple le PPCM de n entiers non nuls est le plus petit entier strictement positif multiple simultanément de ces n entiers.
+Définition
+Soient a et b deux entiers relatifs :
+* si a et b sont non nuls, considérons l'ensemble des entiers strictement positifs qui sont multiples à la fois de a et de b.
+Cet ensemble d'entiers naturels est non vide,
+car il contient |ab|. Il possède donc un plus petit élément, et c'est cet entier (strictement positif) que l'on appelle le PPCM de a et b :
+\operatorname (a,b)=\min\left (\left\\right).
+Calcul
+À l'aide de la décomposition en facteurs premiers
+La décomposition en facteurs premiers du PPCM de n entiers strictement positifs contient tous les nombres premiers qui apparaissent dans au moins une des décompositions en facteurs premiers de ces n entiers, chacun affecté du plus grand exposant qui apparait dans celles-ci.
+Autrement dit, pour tout nombre premier p, v_p (\text (a,b))=\max (v_p (a),v_p (b)), où v_p est la valuation p-adique.
+On obtient donc une méthode de calcul du PPCM en décomposant chaque nombre en produit de nombres premiers.
+Exemple
+Prenons les nombres 60 et 168 et décomposons-les en produits de facteurs premiers.
+On a :
+Pour le nombre premier 2, le plus grand exposant est 3.
+Pour les nombres premiers 3, 5 et 7, le plus grand exposant est 1.
+On a ainsi .
+À l'aide du PGCD
+Dès que l'un des deux entiers a ou b est non nul
+, leur plus petit commun multiple peut être calculé en utilisant leur plus grand commun diviseur (PGCD)
+*\operatorname (a,\operatorname (a,b))
+\operatorname (a,\operatorname (a,b))
+*\operatorname (a,\operatorname (b,c))=\operatorname (\operatorname (a,b),\operatorname (a,c))
+* \operatorname (a,\operatorname (b,c))=\operatorname (\operatorname (a,b),\operatorname (a,c))
+*\operatorname (\operatorname (a,b),\operatorname (b,c),\operatorname (a,c))=\operatorname (\operatorname (a,b),\operatorname (b,c),\operatorname (a,c))

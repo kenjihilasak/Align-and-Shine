@@ -1,0 +1,129 @@
+Il C++ è un linguaggio di programmazione orientato agli oggetti, con tipizzazione statica.
+È stato sviluppato (in origine col nome di "C con classi") da Bjarne Stroustrup ai Bell Labs nel 1983 come un miglioramento del linguaggio C.
+Tra i miglioramenti principali troviamo:
+l'introduzione del paradigma di programmazione a oggetti, funzioni virtuali, overloading degli operatori, ereditarietà multipla, template e gestione delle eccezioni.
+Introduzione
+Il C++ fu standardizzato nel 1998 (ISO/IEC 14882:1998 "Information Technology - Programming Languages - C++", aggiornato nel 2003).
+C++11, conosciuto anche come C++0x, è il nuovo standard per il linguaggio di programmazione C++ che sostituisce la revisione del 2003.
+Dopo una revisione minore nel 2014 (C++14), l'ultima versione dello standard (nota informalmente come C++17) è stata pubblicata nel 2017.
+Storia del linguaggio
+Bjarne Stroustrup iniziò a lavorare al C++ nel 1979.
+L'idea di creare un nuovo linguaggio ebbe origine nelle sue esperienze di programmazione durante la realizzazione della tesi di laurea.
+Stroustrup trovò che il Simula avesse caratteristiche utili per lo sviluppo di grossi progetti software, ma il linguaggio era troppo lento per l'utilizzo pratico, mentre il BCPL risultava veloce ma troppo a basso livello per lo sviluppo di grosse applicazioni.
+Quando Stroustrup cominciò a lavorare ai laboratori Bell, gli fu affidato il compito di analizzare il kernel di Unix in ambito di elaborazione distribuita.
+Ricordandosi del lavoro della tesi, decise di aggiungere al linguaggio C alcune delle caratteristiche di Simula.
+Fu scelto il C perché era un linguaggio per uso generico portabile e veloce.
+Oltre al C ed al Simula, si ispirò a linguaggi come l'ALGOL 68, Ada, il CLU ed il linguaggio ML.
+Inizialmente, le funzionalità di classe, classe derivata, controllo rigoroso dei tipi e argomento di default furono aggiunte al C con Cfront.
+La prima versione commerciale fu distribuita nell'ottobre del 1985.
+Nel 1983 il nome del linguaggio fu cambiato da "C con classi" a C++.
+Furono aggiunte nuove funzionalità, tra cui funzioni virtuali, overloading di funzioni ed operatori, reference, costanti, controllo dell'utente della gestione della memoria, type checking migliorato e commenti nel nuovo stile ("//").
+Nel 1985 fu pubblicata la prima edizione di The C++ programming Language, che fornì un'importante guida di riferimento del linguaggio, che non era ancora stato ufficialmente standardizzato.
+Nel 1989 fu distribuita la versione 2.0 del C++, le cui novità includono l'ereditarietà multipla, le classi astratte, le funzioni membro statiche, le funzioni membro const, e i membri protetti.
+Nel 1990 fu pubblicato The Annotated C++ Reference Manual, che fornì le basi del futuro standard.
+Le ultime aggiunte di funzionalità includono i template, le eccezioni, i namespace, i nuovi tipi di cast ed il tipo di dato booleano.
+Così come il linguaggio, anche la libreria standard ha avuto un'evoluzione.
+La prima aggiunta alla libreria standard del C++ è stata la libreria degli stream di I/O che forniva servizi sostitutivi della libreria C tradizionale (come printf e scanf).
+In seguito, tra le aggiunte più significative c'è stata la Standard Template Library.
+Dopo anni di lavoro, un comitato che presentava membri della ANSI e della ISO hanno standardizzato C++ nel 1998 (ISO/IEC 14882:1998).
+Per qualche anno seguente alla pubblicazione ufficiale degli standard, il comitato ha seguito lo sviluppo del linguaggio e ha pubblicato nel 2003 una versione corretta dello standard.
+Risale al 2005 un report tecnico, chiamato "Technical Report 1" (abbreviato TR1) che, pur non facendo ufficialmente parte dello standard, contiene un numero di estensioni alla libreria standard del C++11.
+Non c'è un proprietario del linguaggio C++, che è implementabile senza dover pagare royalty.
+Il documento di standardizzazione stesso però è disponibile solo a pagamento.
+Il nome del linguaggio
+La pronuncia di C++ è ˌsiː plʌs ˈplʌs (in inglese).
+Il nome fu suggerito da Rick Mascitti alla metà del 1983, quando il linguaggio veniva usato per la prima volta al di fuori dei centri di ricerca.
+Precedentemente il linguaggio si chiamava "C with classes" (C con classi).
+Il nome è un gioco di parole con un costrutto del C (dove il doppio segno più è l'operatore di autoincremento, che incrementa di una unità il valore di una variabile) insieme con la comune convenzione di aggiungere un segno più per indicare una versione potenziata.
+Secondo Stroustrup:
+«++ è l'operatore di incremento del C... il nome esprime la natura evoluzionaria dei cambiamenti dal C».
+Impiegando il gioco di parole si evita anche il problema che "C+" è già stato usato per un linguaggio senza alcun nesso col C++ (senza menzionare che è comunemente associato con una valutazione poco più che sufficiente in una performance accademica).
+Quando, nel 1992, gli furono chieste informalmente spiegazioni sul nome, Rick Mascitti ha spiegato di aver dato il suggerimento con spirito goliardico, e che non pensava che quello sarebbe divenuto il nome formale del linguaggio.
+Stroustrup ha anche suggerito a posteriori un'interpretazione più "orwelliana" del nome, in riferimento al "Dizionario C" della Neolingua (nel romanzo il dizionario dei termini tecnici, unico residuo di un linguaggio scientifico) descritto nell'appendice di 1984 e al prefisso doubleplus (arcipiù nell'edizione italiana), utilizzato in Neolingua per il superlativo.
+Benché non fedelissimo alla sintassi fittizia definita nel romanzo con estrema precisione, il nome suonerebbe come "C-issimo" e connoterebbe comunque il C++ (forse aggiungendo una sfumatura di disumana efficienza) come intenso miglioramento del C.
+La libreria standard
+Lo standard del C++ del 1998 consiste di due parti:
+il nucleo del linguaggio e la libreria standard del C++;
+quest'ultima include la maggior parte della Standard Template Library ed una versione della libreria standard del C leggermente modificata per un uso più comodo.
+Esistono molte librerie per il C++ che non fanno parte dello standard;
+ed è possibile, usando il linking esterno, utilizzare anche le librerie scritte per il linguaggio C.
+La STL era in origine una libreria di terze parti, sviluppata da HP ed in seguito da Silicon Graphics, prima che venisse incorporata nel C++ standard.
+Lo standard non si riferisce ad essa come alla "STL", poiché è semplicemente parte della libreria completa, ma molti continuano ad usare il termine per distinguerla dal resto della libreria (come flussi di I/O, internazionalizzazione, funzioni diagnostiche, ecc.)
+La maggior parte dei compilatori fornisce anche un'implementazione della libreria standard, STL compresa.
+Esistono anche versioni indipendenti dal compilatore della STL, come ad esempio la STLPort.
+Compilatori
+Alcuni compilatori per C++ sono:
+Clang (multipiattaforma), GCC (disponibile per molte piattaforme diverse), MinGW (porting di GCC per Windows), DJGPP e TerzC++Compiler.
+Oltre a questi ci sono i compilatori commerciali come VisualC++, Embarcadero C++ Builder (inizialmente realizzato dalla Borland).
+Su sistema operativo macOS, è possibile utilizzare il programma Xcode per scrivere codici in C++.
+Anche se il C non è un sottoinsieme del C++ nel senso più stretto della parola, è possibile compilare in C++ molti programmi scritti in C.
+Vecchi problemi
+Tradizionalmente i compilatori C++ hanno avuto un certo numero di problemi.
+Lo standard del C++ non specifica l'implementazione della decorazione dei nomi, della gestione delle eccezioni e altre funzioni specifiche dell'implementazione, e ciò rende incompatibile il codice oggetto prodotto da compilatori diversi.
+Ci sono però standard di terze parti per particolari macchine o sistemi operativi che cercano di standardizzare i compilatori per tali piattaforme, ad esempio l'http:/ cxx-abi/ ABI per C++, ed ora molti compilatori hanno standardizzato questi elementi.
+Per molti anni i diversi compilatori hanno implementato lo standard del C++ con diversi livelli di correttezza, in particolare la specializzazione parziale dei template.
+Le versioni recenti dei compilatori più usati supportano quasi tutto lo standard del C++ del 1998.
+Programmi di esempio
+Hello world!
+Esempio del programma hello world che utilizza la libreria standard C++ (non l'STL), il flusso di output cout per mostrare un messaggio e termina, restituendo ("return") un valore alla funzione chiamante, in questo caso il sistema operativo che ha lanciato il programma.
+#include / / per evitare di mettere std:
+prima di ogni istruzione
+int main ()
+Somma di interi
+Semplice programma che chiede all'utente di inserire due interi, li somma e ne visualizza il risultato.
+Il C++ (come anche il C allo standard C99) implementa i commenti su riga singola tramite il doppio slash:
+#include / / per std::cout, std::cin e std::endl
+using namespace std;
+int main ()
+Numero maggiore
+Il programma chiede all'utente più numeri e mostra il maggiore fra quelli inseriti (interrompendo l'esecuzione quando viene inserito un numero negativo o nullo).
+Oltre allint, il c++ utilizza anche il float per dichiarare variabili sia intere sia non intere.
+include
+using namespace std;
+int main ()
+Area Rettangolo
+Il calcolo dell'area di una figura piana come il rettangolo è qui sottoesposto:
+include
+using namespace std;
+float base,altezza,arearettangolo;
+/int
+main ()
+Definizione di Classe
+include
+using namespace std;
+class Message
+Essendo specificato std come namespace generale, non è necessario indicare il namespace per la risoluzione di ogni simbolo (std:
+:).
+Generatore numeri casuali
+include
+include
+include
+using namespace std;
+int main ()
+Il programma in questo caso genera un numero casuale tra 100 e 1.
+Ciclo for
+include
+using namespace std;
+int main ()
+Finché numero non è uguale a 10, il programma continua a ripetere la stringa Numero:
+incrementando il valore numero di uno.
+Il controllo dell'input
+Un costrutto che si trova spesso nella programmazione in C++ è:
+while ( condizione );
+utilizzato per ripetere l'esecuzione di una parte del programma dipendente da una specifica condizione, enunciata nel while.
+Il costrutto do-while implica che il ciclo sia eseguito almeno una volta, poiché la condizione è testata alla fine del corpo di istruzioni specificate dal do.
+L'uso del singolo while invece implica che il ciclo possa anche non essere mai eseguito, se la condizione si trovasse ad essere subito non verificata.
+Programma:
+dati due numeri ed un operatore (+ -
+include
+include
+using namespace std;
+int main ()
+In questo caso, l'istruzione do è stata utilizzata per impedire al programma di proseguire l'esecuzione con un valore del parametro s non corretto.
+Scrittura di file:
+Il programma mostrato di seguito crea un file chiamato "prova.txt" e ci scrive dentro "Hello world"
+/Funzione
+principale
+int main ()
+Note
+Bibliografia

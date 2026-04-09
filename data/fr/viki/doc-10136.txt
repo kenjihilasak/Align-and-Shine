@@ -1,0 +1,45 @@
+Ensemble vide
+Il y a beaucoup de points verts sur cette image ;
+mais aucun n'appartient à la zone jaune.
+L'ensemble des points verts qui appartiennent à la zone jaune est l'ensemble vide !
+L'ensemble vide est l'ensemble qui ne contient aucun élément.
+L'ensemble vide, que l'on note ∅{\displaystyle \emptyset }, ne correspond pas à rien, au néant ;
+c'est l'absence.
+C'est en fait un ensemble qui par définition ne contient rien.
+Mais en tant qu'ensemble, il n'est pas rien !
+Ce point est souvent difficile à comprendre.
+On peut, afin de mieux comprendre, comparer un ensemble à un sac : un sac vide est vide, mais le sac en lui même existe
+Sommaire
+Oui, l'ensemble vide est unique.
+C'est parce que deux ensembles A et B sont égaux s'ils ont exactement les mêmes éléments.
+Tout élément appartenant à A doit appartenir à B et réciproquement.
+Si deux ensembles A et B ne contiennent aucun élément, ces ensembles contiennent forcément exactement les mêmes éléments, parce qu'ils n'en ont pas : ils sont donc égaux !
+Cette démonstration est bien sûr troublante : on ne raisonne sur aucun élément...
+L'existence de l'ensemble vide est problématique.
+On ne peut pas prouver son existence ;
+on doit l'admettre !
+Plus exactement, l'existence de l'ensemble vide équivaut à l'existence d'un ensemble.
+Si x est un ensemble, l'ensemble des éléments de x qui n'appartiennent pas à x est... l'ensemble vide.
+S'il n'existait pas d'ensemble vide, il n'existerait pas d'ensembles.
+Sur quoi pourrait-on alors travailler ?
+Les mathématiques modernes se fondent entièrement sur les ensembles.
+Énumérons
+quelques propriétés de l'ensemble vide :
+L'ensemble vide est le seul ensemble qui est inclus dans tous les ensembles : ∀E,∅⊂E{\displaystyle \forall E,\emptyset \subset E}
+En effet, l'ensemble vide ne contient aucun élément.
+Si A est un ensemble, tout élément de l'ensemble vide appartient à A, car justement il n'y en a pas.
+Si un ensemble B est non vide, il contient un élément
+L'ensemble A des éléments de B distincts de b ne contient pas B. Par contraposition, si l'ensemble B est inclus dans tous les ensembles, alors B ne possède aucun élément : c'est l'ensemble vide.
+L'intersection de l'ensemble vide et d'un ensemble A est l'ensemble vide :
+A∩∅=∅{\displaystyle A\cap \emptyset =\emptyset }
+Par définition, l'intersection de A et de l'ensemble vide est l'ensemble des éléments communs à A et à l'ensemble vide.
+Mais l'ensemble ne contient aucun élément.
+A fortiori, l'intersection ne contient aucun élément : c'est l'ensemble vide.
+La réunion de l'ensemble vide et d'un ensemble A est l'ensemble A : A∪∅=A{\displaystyle A\cup \emptyset
+=A}
+Par définition, cette réunion B est l'ensemble des éléments qui appartiennent à A ou à l'ensemble vide.
+Un élément qui appartient à cette réunion B ne peut pas appartenir à l'ensemble vide, car cet ensemble ne contient aucun élément.
+Il appartient donc nécessairement à A. L'ensemble A et la réunion B ont donc exactement les mêmes éléments : ils sont égaux.
+Par conséquent, A et B sont égaux.
+L'ensemble des entiers divisibles par 6 qui ne sont pas divisibles par 2 est l'ensemble vide.
+Tout entier divisible par 6 est divisible par 2 !

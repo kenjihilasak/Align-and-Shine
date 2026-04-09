@@ -1,0 +1,35 @@
+Suite (mathématiques)
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : suite.
+En mathématiques, une suite est une liste d’
+objets numérotés par des entiers naturels.
+Ces objets sont appelés termes de la suite et leur numéro est appelé rang ou indice.
+La relation d'ordre qui existe entre les entiers permet de « ranger » les éléments d’une suite en fonction de leur indice.
+Une suite est dite finie lorsqu'il est possible de compter ses termes et infinie sinon.
+Pour une suite donnée, il peut exister une relation qui, à partir d’un terme d’indice k, permet de calculer celui d’indice k + 1 : c’est une relation de récurrence, très utilisée en mathématiques.
+Une suite peut également être définie de façon explicite ou implicite (solution d’une équation).
+Sommaire
+Pour désigner le terme d’indice k{\displaystyle k} d’une suite, on prend une variable (par exemple, u{\displaystyle u}) et on place le rang juste à côté, « en indice » (d’où le nom d’indice) : uk{\displaystyle u_{k}}. Le premier terme de cette suite est ainsi noté u0{\displaystyle u_{0}}, le suivant u1{\displaystyle u_{1}}, etc.
+Comme la suite tout entière est l’ensemble de tout ces termes uk{\displaystyle u_{k}} pour des valeurs de k{\displaystyle k} allant de 0 à un nombre N{\displaystyle N} (qui peut être l’infini : +∞{\displaystyle +\infty })
+, on écrit cette suite (uk)k∈[[0;N]]{\displaystyle (u_{k})_{k\in [\![0;N]\!]}}, ce qui signifie « la suite des termes uk{\displaystyle u_{k}} pour chaque k{\displaystyle k} appartenant (∈{\displaystyle \in }) à l’ensemble des entiers compris entre 0 et N{\displaystyle N} », ensemble mathématiquement noté [[
+0;N]]{\displaystyle [
+\![0;N]\!]}.
+Lorsque la suite est infinie, la variable d’indice (k{\displaystyle k} dans notre exemple) prend toutes les valeurs entières de 0 à +∞{\displaystyle +\infty }, c’est
+-à-dire toutes les valeurs de l’ensemble des nombres entiers naturels, qui est noté N{\displaystyle \mathbb {N} }.
+On écrira donc plutôt (uk)k∈N{\displaystyle (u_{k})_{k\in \mathbb {N} }} ou, plus simplement, (uk)k{\displaystyle (u_{k})_{k}}.
+Une suite arithmétique est une suite dont chaque terme est séparé du suivant toujours par le même nombre.
+Par exemple, la suite des nombres pairs est une suite arithmétique
+car, pour passer d’un nombre pair au suivant, il faut toujours ajouter 2.
+Cette suite arithmétique (an)n{\displaystyle (a_{n})_{n}} est donc entièrement définie par son premier élément (a0{\displaystyle a_{0}}, qui vaut ici zéro) et par la relation : ak+1=ak+2{\displaystyle a_{k+1}=a_{k}+2}. On écrit donc : (an)n{a0=0ak+1=ak+2,k∈N{\displaystyle (a_{n})_{n}\left\{{\begin{matrix}a_{0}=0\\a_{k+1}=a_{k}+2,\quad k\in \mathbb {N} \end{matrix}}\right.
+Si l’on change de premier élément, ce n’est plus la même suite !
+Ici, en prenant a0=1{\displaystyle
+a_{0}=1}, on obtient la suite des nombres impairs.
+Dans une suite géométrique, on passe d'un terme à l'autre en multipliant par une certaine valeur.
+C'est donc différent de la suite arithmétique (où l'on ajoutait cette valeur).
+Par exemple, la suite 1, 2, 4, 8, 16, 32, …, est une suite géométrique
+car on passe d'un terme à l'autre en le multipliant par 2.
+Cette valeur 2 est alors appelée la raison de la suite.
+Une suite géométrique est donc une suite de la forme un+1=un×q{\displaystyle u_{n+1}=u_{n}\times q} où un+1{\displaystyle u_{n+1}} est le terme qui suit un{\displaystyle u_{n}} et où q est la raison.
+Comme on multiplie toujours par la même quantité, il est facile de savoir combien vaut la suite à un certain terme n si l'on sait combien elle vaut à son premier terme : il suffit de le multiplier n fois par la raison de la suite, ce qui revient à : un=u0×qn{\displaystyle u_{n}=u_{0}\times q^{n}}.
+La somme des n premiers termes d'une suite géométrique u de raison q vaut u0×1−qn+11−q{\displaystyle u_{0}\times {\frac {1-q^{n+1}}{1-q}}}.

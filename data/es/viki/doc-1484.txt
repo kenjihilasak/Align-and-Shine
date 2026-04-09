@@ -1,0 +1,21 @@
+Radicación
+La radicación es el proceso opuesto a la potenciación.
+Es decir, matemáticamente: BC=A⟺AC=B{\displaystyle B^{C}=A\Longleftrightarrow {\sqrt[{C}]{A}}=B}
+En el proceso de radicación, buscamos un B que satisfaga la condición anterior.
+El método más difundido para su resolución, es el siguiente:
+Tomemos como ejemplo, el radicando 65536.
+El primer paso es la separación en grupos de dos del radicando, así: 6.55.36{\displaystyle {\sqrt {6.55.36}}} Ahora se busca un número que multiplicado por sí mismo sea lo más próximo (por defecto) al primer grupo de números, comenzando por la izquierda.
+Si el número no es un entero, los grupos se realizarán a partir de la coma decimal, hacia ambos lados.
+Si el número posee una cantidad impar de cifras decimales, se agrega un cero a la derecha, por ejemplo en el caso 123,456 la separación sería 1.23,45.60.
+Al llegar a la parte decimal, se pondría también en ese mismo paso la coma en el resultado.
+En este caso es el 2, pues 22=4 255{\displaystyle 46\times 6=256>255}).
+El 5 es el siguiente dígito del resultado.
+Ahora, se resta el resultado (45x5) a la parte "activa" del radicando.
+En el ejemplo,
+Los pasos sucesivos son repeticiones del anterior, como se ha comentado.
+Por tanto, se busaría un 50X×X≤3036{\displaystyle 50X\times X\leq 3036}.
+Ese número es el 6, pues 506×6=3036≤3036{\displaystyle 506\times 6=3036\leq 3036}.
+El resultado final es:
+Y con eso demostramos que 65536=256{\displaystyle {\sqrt {65536}}=256} .
+Por tanto, también es cierto que 2562 = 65536
+En caso de querer hallar números después de haberse terminado las cifras significativas del radicando, se bajarán grupos de dos ceros por cada dígito que se necesite de aproximación.

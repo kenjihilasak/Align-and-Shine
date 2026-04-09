@@ -1,0 +1,21 @@
+GPS
+GPS constellation en mouvement
+Assistant de navigation GPS
+GPS est l'acronyme de l'anglais "Global Positioning System", qui signifie {{"|système de positionnement global».
+Le système comprend au moins vingt-quatre satellites émetteurs, et un nombre quasi-illimité de récepteurs.
+En langage courant, on donne le nom de GPS au récepteur du système, un outil électronique parfois intégré dans un téléphone ou dans un système de navigation automobile.
+Le récepteur GPS calcule les informations émises par quatre satellites au minimum, pour obtenir les coordonnées en longitude, latitude, et altitude du point où il se trouve.
+Chaque récepteur GPS a en mémoire le chemin que parcourent tous les satellites du système autour de la terre.
+Ces données sont actualisées par les informations émises par les satellites visibles par l'appareil de réception.
+Chaque satellite est équipé d'une horloge atomique.
+Le récepteur GPS reçoit l'heure d'envoi d'une onde, émise par chaque satellite visible du système GPS.
+L'heure est en milliardième de seconde ;
+l'onde se propage à la vitesse de la lumière.
+Le récepteur GPS sélectionne les quatre satellites les mieux placés pour effectuer les calculs de géolocalisation.
+Les satellites visibles supplémentaires permettent d'affiner les calculs.
+Tour à tour, pour chaque satellite, le récepteur GPS soustrait l'heure de réception à l'heure d'envoi de l'onde, ce qui lui permet d'obtenir le temps qu'a mis cette onde à lui parvenir.
+En réalité, les calculs sont compliqués par le fait que le récepteur GPS n'a pas, lui, d'horloge atomique.
+En multipliant ce temps par la vitesse de l'onde, il calcule la distance entre le récepteur et chaque satellite.
+On voit qu'une erreur d'un millième de seconde provoque une erreur de 300 000*0,001 = 300 kilomètres !
+En croisant la distance et la position dans le ciel de chacun des quatre satellites au moment de la réception de l'onde, le GPS "fait le point", c'est-à-dire, il calcule le point d'intersection entre ces quatre distances.
+L'appareil dans lequel est implanté le récepteur GPS traduit finalement les coordonnées de ce point en langage compréhensible par l'utilisateur.

@@ -1,0 +1,293 @@
+Android è un sistema operativo per dispositivi mobili sviluppato da Google Inc. e basato sul kernel Linux;
+non è però da considerarsi propriamente né un sistema unix-like né una distribuzione GNU/Linux, bensì una distribuzione embedded Linux, dato che la quasi totalità delle utilità GNU è sostituita da software in Java.
+È un sistema embedded progettato principalmente per smartphone e tablet, con interfacce utente specializzate per televisori (Android TV), automobili (Android Auto), orologi da polso (Android Wear), occhiali (Google Glass), e altri.
+Ad aprile 2017 Android è il sistema operativo per dispositivi mobili più diffuso al mondo, con una fetta di mercato attestatasi a quota 62,94% sul totale, seguito da iOS con il 33,9%.
+Nello stesso mese supera anche il marketshare come OS più utilizzato per navigare in rete, superando di fatto il sistema operativo Windows che, fino ad allora, aveva il più alto marketshare al mondo.
+Lo sviluppo di Android prosegue attraverso lAndroid Open Source Project il quale è software libero ad esclusione di diversi firmware non-liberi inclusi per i produttori di dispositivi e delle cosiddette "Google Apps" come ad esempio Google Play.
+È distribuito sotto i termini della licenza libera Apache 2.0 riservandosi di non-includere software coperto da licenze copyleft.
+Storia
+Nell'ottobre 2003 Andy Rubin (cofondatore di Danger), Rich Miner (cofondatore di Danger e di Wildfire Communications), Nick Sears (vicepresidente di T-Mobile) e Chris White (principale autore dell'interfaccia grafica di Web TV), fondarono una società, la Android Inc.
+per lo sviluppo di quello che Rubin definì «... dispositivi cellulari più consapevoli della posizione e delle preferenze del loro proprietario».
+Inizialmente la società operò in segreto, rivelando solo di progettare software per dispositivi mobili.
+Durante lo stesso anno il budget iniziale si esaurì, motivo per cui fu fondamentale un finanziamento di 10 000 dollari da parte di Steve Perlman (amico intimo di Rubin) per poter continuare lo sviluppo.
+Steve Perlman consegnò a Rubin il denaro in una busta ma rifiutò ogni proposta di partecipazione al progetto.
+Il 17 agosto 2005 Google ha acquisito l'azienda, in vista del fatto che la società di Mountain View desiderava entrare nel mercato della telefonia mobile.
+È in questi anni che il team di Rubin comincia a sviluppare un sistema operativo per dispositivi mobili basato sul kernel Linux.
+La presentazione ufficiale del "robottino verde" avvenne il 5 novembre 2007 dalla neonata OHA (Open Handset Alliance), un consorzio di aziende del settore Hi Tech che include Google, produttori di smartphone come HTC e Samsung, operatori di telefonia mobile come Sprint Nextel e T-Mobile, e produttori di microprocessori come Qualcomm e Texas Instruments Incorporated.
+Il primo dispositivo equipaggiato con Android che venne lanciato sul mercato fu l'HTC Dream, il 22 ottobre del 2008.
+Dal 2008 gli aggiornamenti di Android per migliorarne le prestazioni e per eliminare eventuali problemi di sicurezza delle precedenti versioni sono stati molti.
+Dalla versione 1.5 ogni aggiornamento o release, similmente a quanto accade per molte versioni di Linux, segue una precisa convenzione alfabetica per i nomi, che in questo caso sono quelli di poi la 5.0 Lollipop.
+Il 5 ottobre 2015, tocca alla 6.0, col nome Marshmallow.
+Google lancia la possibilità di far scegliere agli utenti il nome della prossima versione.
+Molti italiani votarono per Android nutella ma non sarà poi quello il nome.
+Il 30 giugno 2016 viene annunciato ufficialmente il nome della versione successiva e il 22 agosto è pronta ad apparire sugli smartphone Android con il nome di 7.0 Nougat (torrone).
+Il 22 agosto 2017 viene rilasciato Android 8.0 Oreo.
+Nel marzo 2013 Larry Page annuncia che Andy Rubin ha lasciato la presidenza di Android per dedicarsi ad altri progetti di Google.
+Viene rimpiazzato da Sundar Pichai.
+Descrizione
+Android adotta una politica di licenza di tipo open source (escluse alcune versioni intermedie), e si basa sul kernel Linux.
+La licenza (Licenza Apache) sotto cui è distribuito consente di modificare e distribuire liberamente il codice sorgente.
+Inoltre, Android dispone di una vasta comunità di sviluppatori che realizzano applicazioni con l'obiettivo di aumentare le funzionalità dei dispositivi.
+Queste applicazioni sono scritte soprattutto in linguaggio di programmazione Java.
+Nell'ottobre 2012 le applicazioni disponibili presenti sul market ufficiale Android (Google Play) hanno raggiunto le 700.000 unità.
+Questi fattori hanno permesso ad Android di diventare il sistema operativo più utilizzato in ambito mobile, oltre a rappresentare, per le aziende produttrici, la migliore scelta in termini di bassi costi, personalizzazione e leggerezza del sistema operativo stesso, senza dover scrivere un proprio sistema operativo da zero.
+Android Open Source Project
+Il progetto Open Source Android è guidato da Google e, con il compito di mantenimento e allo sviluppo di Android secondo il progetto "l'obiettivo è quello di creare un vero e proprio successo, in modo da migliorare l'esperienza mobile per gli utenti", AOSP mantiene anche la compatibilità dei programmi per Android, la definizione di un dispositivo "Android compatibile", per esempio "quel dispositivo su cui è possibile eseguire qualsiasi applicazione scritta da sviluppatori di terze parti che utilizzano Android SDK e NDK.
+", per prevenire implementazioni incompatibili in Android.
+Il kernel Linux
+Android è costituito da un kernel Linux 2.6 e 3.x (da Android 4.0 in poi), con middleware, Librerie e API scritte in C (o C++) e software in esecuzione su un framework di applicazioni che include librerie Java compatibili con librerie basate su Apache Harmony.
+Android fino alla release 4.4 KitKat ha usato la Dalvik virtual machine con un compilatore just-in-time per l'esecuzione di Dalvik dex-code (Dalvik Executable), che di solito viene tradotto da codice bytecode Java.
+Questa virtual machine, ormai obsoleta, viene rimpiazzata con ART (Android RunTime) integrato in Android 5.0 Lollipop.
+Questa nuova virtual machine, sviluppata da Google, utilizza un compilatore Ahead-of-time.
+La piattaforma hardware principale di Android è l'architettura ARM.
+L'architettura x86 è supportata grazie al progetto Android x86 e Google TV utilizza una speciale versione x86 di Android.
+Il kernel Linux di Android mette a disposizione modifiche all'architettura create da Google al di fuori del ciclo di sviluppo del kernel.
+Un tipico sistema Android non possiede un X Window System nativo, né supporta il set completo standard di librerie GNU, e nel caso del C++ vi è solo una implementazione parziale delle STL.
+Tutto ciò rende difficile il porting su Android di applicazioni grafiche o librerie sviluppate per GNU C++ sotto Android si usa SDL che tramite un piccolo Wrapper java permette l'utilizzo della JNI dando un'idea di utilizzo simile a un'applicazione nativa in C C++ devono essere richiamate dal codice java, tutte le chiamate a sistema fatte in C (o C++) devono chiamare codice virtual machine Java di Android:
+infatti le API multimediali di SDL sotto Android richiamano metodi in Java;
+questo significa che il codice dell'applicazione C/C++ deve essere inserito all'interno di un progetto Java, il quale produce alla fine un pacchetto Android (APK).
+Google ha contribuito ad implementare alcune funzionalità all'interno del kernel Linux, in particolare il wakelock, una funzione che permette alle applicazioni di "risvegliare" il device mentre è in sleep.
+Quest'ultima feature è però stata rifiutata dagli sviluppatori del kernel mainline, in parte perché hanno ritenuto che Google non abbia manifestato l'intenzione di mantenere il proprio codice.
+Anche se Google ha annunciato nel mese di aprile 2010 che avrebbero assunto due dipendenti per lavorare con la comunità del kernel Linux, Greg Kroah-Hartman, l'attuale responsabile del kernel di Linux per il ramo stabile, ha dichiarato nel dicembre 2010 che era preoccupato del fatto che Google non sembrava più intenzionata a far includere le modifiche al codice nel ramo principale di Linux.
+Alcuni sviluppatori di Google Android hanno fatto capire che "il team di Android si è stancato del processo", perché erano una piccola squadra e avevano molto lavoro urgente da fare su Android
+In Linux è stato incluso l'autosleep e le capacità wakelocks nel kernel 3.5, dopo molti precedenti tentativi di fusione.
+Le interfacce sono le stesse ma la realizzazione di Linux ha due diverse modalità di sospensione:
+a memoria (la sospensione tradizionale che utilizza Android), e su disco (ibernazione, come è noto sul desktop).
+Nel mese di agosto 2011, Linus Torvalds ha detto che "alla fine Android e Linux sarebbero venuti di nuovo ad un nucleo comune, ma probabilmente non sarà per quattro o cinque anni" Nel mese di dicembre 2011, Kroah-Hartman ha annunciato l'inizio del progetto mainlining Android, che mira a mettere un po' di Android driver, le patch e le caratteristiche, nel kernel di Linux a partire da Linux 3.3.
+La memoria flash sui dispositivi Android è divisa in diverse partizioni, ad esempio " data" per i dati utente e le installazioni delle app.
+Diversamente rispetto alle tradizionali distribuzioni GNU/Linux, agli utenti di dispositivi Android non sono disponibili i privilegi di superutente, o root, per l'accesso al sistema operativo e alle sue partizioni, quali "/system", per le quali l'utente dispone dei permessi di sola lettura.
+Tuttavia, l'accesso come root sul dispositivo è quasi sempre possibile:
+in certi casi tramite richiesta al produttore, in altri sfruttando certe falle di sicurezza di Android.
+L'accesso root viene utilizzato frequentemente dalla comunità open source, per migliorare le capacità dei loro dispositivi, flashare nuove custom ROM (ovvero operazioni di .
+Altre caratteristiche
+L'interfaccia utente di Android è basata sul concetto di direct manipulation per cui si utilizzano gli ingressi mono e multi-touch come strisciate, tocchi e pizzichi sullo schermo per manipolare gli oggetti visibili sullo stesso.
+La cosiddetta Homescreen (in it.
+"Schermata principale", identificata con un'icona che rappresenta una casa) è simile al desktop di Windows ed è la schermata principale che ci si trova appena il device è stato avviato, oppure premendo il tasto Home.
+L'homescreen di Android è in genere occupata sia dalle icone delle applicazioni che dai widget cioè dei sorta di gadgets con varie funzioni;
+ci sono widget che mostrano vari stili di orologi, quelli che mostrano gli ultimi video di YouTube, altri che visualizzano informazioni meteo, quelli relativi alle email.
+La homescreen può essere costituita da più pagine tra cui l'utente può scorrere avanti e indietro.
+Componente classico del mondo Android è il Launcher (lett. "lanciatore") ovvero l'applicazione di sistema che sovrintende e gestisce essenzialmente la schermata principale e, secondariamente, le scorciatoie (shorcut), il cassetto delle applicazioni (app drawer), menù notifiche e impostazioni rapide.
+Oltre a quello predefinito esistono numerosi launcher di terze parti che offrono una vasta gamma di personalizzazioni.
+Sempre presente nella parte superiore dello schermo si trova una barra di stato, che mostra le informazioni sul dispositivo e la sua connettività.
+Trascinando la barra di stato verso il basso compare una schermata di notifica in cui le applicazioni possono visualizzare notifiche relative ad informazioni importanti o aggiornamenti come ad esempio una e-mail appena ricevuta o un SMS, in modo da non interrompere immediatamente l'utente.
+Nelle prime versioni di Android tali notifiche potevano essere sfruttate esclusivamente per aprire l'applicazione in questione, ma gli aggiornamenti più recenti hanno fornito maggiori funzionalità, come ad esempio la possibilità di chiamare un numero direttamente dalla notifica della chiamata persa, senza dover aprire l'applicazione telefono Le notifiche sono persistenti fino alla loro lettura o cancellazione da parte dell'utente.
+La piattaforma usa il database SQLite, la libreria dedicata SGL per la grafica bidimensionale (invece del classico server X delle altre distribuzioni linux) e supporta lo standard OpenGL ES 2.0 per la grafica tridimensionale.
+Le applicazioni vengono eseguite tramite la Dalvik virtual machine, una macchina virtuale adattata per l'uso su dispositivi mobili.
+Android è stato progettato principalmente per smartphone e tablet, ma il carattere aperto e personalizzabile del sistema operativo permette che sia utilizzato anche su altri dispositivi elettronici tra cui portatili e netbook, smartbook, eBook reader, fotocamere e smart TV (Google TV).
+Il mercato delle "smart things" è cresciuto in maniera notevole in questi ultimi periodi a tal punto da stimolare la creatività delle persone.
+Un esempio è lo smartwatch dotato di sistema operativo Android in versione "light" cuffie, lettori auto CD e DVD, occhiali intelligenti (Google Glass), frigoriferi, sistemi di navigazione satellitare per veicoli, sistemi di automazione per la casa, console di gioco, specchi, telecamere, lettori MP3/MP4 e tapis roulant.
+Il logo di Android è stato progettato con la famiglia di caratteri (font) Droid di Ascender Corporation, il verde è il colore del robot che rappresenta il sistema operativo Android.
+Il colore di stampa è PMS 376C e il colore RGB in valore esadecimale è # A4C639, come specificato dalle linee guida del Marchio di Android.
+Il carattere personalizzato di Android si chiama Norad.
+Viene utilizzato solo nel logo di testo.
+Ripristino e bootloader
+Su Android è semplice poter accedere all'ambiente di ripristino (recovery mode), come accade per qualsiasi distribuzione Linux o per Windows.
+L'ambiente è come sempre archiviato in una partizione di sistema e nascosta.
+L'accesso avviene accendendo o riavviando il dispositivo, premendo contemporaneamente altri tasti (ad esempio tasto "home" e "volume su").
+Il menù mette a disposizione diversi comandi tra i quali:
+* ripristino alle condizioni di fabbrica (hard reset);
+* lancio di eseguibili da percorso esterno o memoria flash.
+I produttori solitamente personalizzano non solo Android stesso (firmware ROM), l'ambiente di ripristino ma anche il bootloader.
+Nelle pratiche di modding, oltre a rootare il dispositivo occorre sbloccare il bootloader se si vuole flashare delle custom ROM (ivi comprese delle custom recovery più ricche di comandi di quella base, ad esempio esecuzione di backup e ripristino immagine).
+Il bootloader originale, tra l'altro, è il componente che controlla la validità della firma digitale degli aggiornamenti e delle app, impedendo o richiedendo i permessi di amministratore nei casi di app prive di certificati validi.
+Anche il bootloader è archiviato in una cartella inaccessibile senza diritti di root.
+Aggiornamenti
+Android ha un rapido ciclo di aggiornamento, con la distribuzione di nuove versioni ogni sei-nove mesi.
+Gli aggiornamenti sono in genere di natura incrementale, apportando miglioramenti del software a intervalli regolari, piuttosto che revisioni complete del sistema ogni due o tre anni (pratica comune per i sistemi operativi desktop come Windows).
+Tra una major release e l'altra vengono messi a disposizione aggiornamenti intermedi per risolvere problemi di sicurezza e altri bug del software.
+La maggior parte dei dispositivi Android sono in grado di ricevere gli aggiornamenti in modalità "OTA" (over the air), ovvero senza necessità di un collegamento ad un PC.
+Rispetto ad altri sistemi operativi mobili, come iOS, in genere trascorre parecchio tempo, a volte diversi mesi, fra la distribuzione ufficiale di un aggiornamento Android e l'effettiva distribuzione, da parte dei vari produttori OEM, ai dispositivi in grado di supportarlo.
+Questo non avviene però con i dispositivi della serie Nexus più recenti (attualmente Google Nexus 5X, Google Nexus 6P, Pixel, Pixel e il convertibile Pixel C).
+Nel 2011, Google ha siglato un accordo con un certo numero di produttori annunciando l'"Android Update Alliance" e impegnandosi a fornire aggiornamenti tempestivi ad ogni dispositivo per 18 mesi dalla sua immissione in commercio.
+Ciononostante, per l'ultima distribuzione del sistema operativo Lollipop, Google ha deciso di coinvolgere gli ormai datati Nexus 4, 7 (versione 2012) e 10, che hanno sforato i 18 mesi dalla data d'uscita (fine 2012, che, al conto dei 18 mesi, sarebbero dovuti uscire dalla linea d'aggiornamento nel primo semestre 2014).
+Il motivo per cui si verificano questi ritardi è dovuto a vari fattori.
+In primis vi è la necessità di personalizzare il sistema sullo specifico hardware di ogni dispositivo.
+Gli aggiornamenti ufficiali vengono infatti distribuiti da Google per i device di riferimento (attualmente Google Nexus 5X, Google Nexus 6P, Pixel, Pixel e Pixel C).
+Ogni produttore dovrà poi adattare il sistema ai propri dispositivi, operazione che richiede tempo e investimenti non indifferenti.
+Per questo motivo molti produttori si concentrano prima di tutto ad aggiornare i loro dispositivi di punta più recenti, allungando ancor di più i tempi per i vecchi dispositivi.
+In alcuni casi i produttori hanno rinunciato addirittura ad aggiornare dei vecchi dispositivi pur in grado di supportare le nuove versioni del sistema operativo.
+Ad aggravare ulteriormente il problema, si aggiunge il fatto che la stragrande maggioranza dei produttori personalizzano l'interfaccia di Android per differenziarsi sul mercato e, ad ogni aggiornamento, devono riportare le proprie personalizzazioni sulla nuova versione.
+Alcuni commentatori hanno notato che, allo stato attuale, i produttori non sono incentivati ad aggiornare i propri dispositivi, incentivando gli utenti a passare ad un modello più recente (e aggiornato).
+Come accade per iOS l'esecuzione del ripristino alle condizioni di fabbrica (o hard reset o wiping) mantiene la versione corrente del sistema operativo (cioè gli aggiornamenti installati sono conservati).
+Sicurezza
+Diversi marchi commerciali hanno prodotto del software antivirus per dispositivi Android.
+Un articolo del 2011 apparso su ExtremeTech ha sollevato l'opinione che gli antivirus disponibili all'epoca, su Android, fossero praticamente inutili, perché per il principio di minimo privilegio le app non possono agire a livello di kernel ma soltanto applicativo, e quindi qualunque applicazione, anche installata da fonti di terze parti, non avrebbe i permessi sufficienti per apportare danni permanenti al sistema.
+Queste soluzioni hanno ridotto il problema .
+Un'analisi McAfee stima che nel 2012 l'85% dei virus per dispositivi mobili sia stato sviluppato per dispositivi Android.
+Tuttavia, con l'introduzione del Google Play Service 5.0, questo problema dovrebbe ridursi, poiché il dispositivo potrà contare su aggiornamenti della sicurezza costanti.
+A partire dalla versione di Android L, le informazioni e i dati personali presenti sul terminale vengono cifrati di default dal dispositivo.
+La cifratura dei dati era stata introdotta tre anni prima, ma doveva essere abilitata manualmente.
+Firmware
+I telefoni che utilizzano Android come OS possono ottenere (grazie al lavoro di alcune comunità, come quella di XDA) i permessi di root, essendo Android basato su kernel Linux.
+Questo "sblocco" permette ai dispositivi di accedere a funzioni avanzate, come gestire direttamente CPU e app di sistema, altrimenti inaccessibili, ma permettono anche all'utente di cambiare il firmware del telefono.
+Senza i permessi aggiuntivi è comunque solitamente possibile installare eventuali aggiornamenti firmware ufficiali del produttore del dispositivo, senza far decadere la garanzia dello stesso.
+Inizialmente tutto il lavoro si era concentrato sull'HTC Dream con firmware come Mikhael, JacHero, TheDudes e altri.
+Ad oggi la completezza dei firmware preinstallati dai produttori non spinge gli utenti a sostituire il firmware con altri creati dalle comunità online, ma rimane comunque molto popolare la ROM .
+È pur vero che le ROM "cucinate" spesso permettono una maggiore libertà di gestione da parte dell'utente, includendo funzionalità particolari e ampia possibilità di personalizzazione.
+Esistono raccolte di firmware come quella di AndroidPedia.
+Per gli utenti avanzati l'utilizzo delle custom ROM Android rilasciate dalla community permette di liberarsi dalle applicazioni e personalizzazioni del produttore (del dispositivo), quasi sempre non disinstallabili o modificabili (cosa che non succede nel mondo dei PC).
+Dispositivi
+Smartphone
+Il primo dispositivo mobile dotato della piattaforma Android è stato il T-Mobile G1, prodotto dalla società taiwanese HTC e commercializzato dal carrier telefonico T-Mobile.
+Il prodotto è stato presentato il 23 settembre 2008 a New York, mentre la data di uscita nel mercato è stata il 22 ottobre 2008.
+Le caratteristiche principali del dispositivo sono:
+tastiera QWERTY, schermo touchscreen da 3.2 pollici con risoluzione di 320x480 pixel, supporto per la connettività 3G UMTS s, 192 MB di RAM e 256 MB di memoria flash.
+Il prezzo di lancio era di 179 $ negli Stati Uniti, con obbligo di sottoscrizione ad un contratto biennale con il carrier T-Mobile, mentre in Italia il dispositivo è noto con il nome di HTC Dream ed il prezzo iniziale fu di 450 € senza contratto.
+Il dispositivo è stato inizialmente distribuito negli Stati Uniti d'America il 22 ottobre 2008 e nel Regno Unito il 30 dello stesso mese.
+In seguito è stato commercializzato in Italia HTC Magic, un dispositivo con caratteristiche simili a quelle del T-Mobile G1, seppur non dotato di una tastiera a livello hardware;
+in seguito è stato introdotto da parte di Samsung il dispositivo Galaxy dotato di schermo AMOLED in seguito il Galaxy S dotato di una fotocamera senza flash, presente però nel suo successore Galaxy S II.
+Il primo dispositivo dotato di Android 2.0 è il Motorola Milestone, presentato nell'ultima parte del 2009 e commercializzato in Italia intorno ai 499 euro.
+Il 4 gennaio 2010 è stato distribuito il nuovo Nexus One, dotato di Android 2.1, prodotto da HTC e Google.
+A stretto giro di posta, la versione 2.1 diventa disponibile anche per gli altri dispositivi Android quali HTC, Motorola e altri.
+Nel 2010 sono stati poi presentati e messi in commercio una nuova generazione di smartphone con sistema operativo Android che spinti dal Nexus One hanno caratteristiche tecniche di livello superiore (processore da 1 GHz e RAM fino a 512MB).
+Tra questi troviamo l'HTC Desire, Samsung Galaxy S e l'LG Optimus Black.
+Il 16 dicembre 2010 è stato distribuito il successore di Nexus One:
+il Nexus S, prodotto da Samsung, è il primo terminale Android a montare in partenza la release 2.3 dell'OS, denominata Gingerbread.
+Secondo Wikimedia Foundation, il sistema operativo Android ha una diffusione tra tutti i dispositivi mobili pari al 22,94% (aggiornamento agosto 2011);
+nell'ultimo trimestre del 2010 Android è riuscito a superare Symbian, l'incontrastato sistema operativo di Nokia per oltre 10 anni, vendendo nel mondo ben 32,9 milioni di smartphone contro i 30,6 milioni di Symbian.
+Dal 2008 Android è cresciuto, anno su anno, del 615.1%.
+Tablet
+Nel 2009 la Toshiba ha presentato il tablet journ.e Touch, con schermo da 7 pollici e sistema Android 2.0.
+Durante il 2010 sono stati presentati molti tablet che utilizzano Android come sistema operativo.
+Quello che ha ricevuto più interesse dei media è stato sicuramente il Samsung Galaxy Tab con la versione 2.2 Froyo, che si è posto in diretta concorrenza con l'iPad di Apple.
+Il prodotto è stato presentato durante l'IFA di Berlino 2010 ed è stato messo in commercio a partire dalla fine di settembre 2010.
+La nuova versione di Android dedicata ai tablet è la versione 3.0 Honeycomb e il primo tablet annunciato ufficialmente con questa versione dell'OS è stato il Motorola Xoom.
+Il primo tablet ad entrare in commercio con HoneyComb 3.1 preinstallato è stato il Samsung Galaxy Tab 10.1
+nel giugno 2011.
+Sempre in questo periodo c'è da segnalare anche la linea di Acer, Iconia Tab.
+In generale, a tutto marzo 2012 si è cominciato ad avere una disponibilità sul mercato di dispositivi con versione di sistema 4.0, come l'Asus Transformer Prime anche se inizialmente alcuni venivano proposti con la versione inferiore (aggiornabile) a causa della momentanea mancanza di disponibilità del plugin Flash per questa versione di sistema.
+Il 28 giugno 2012 è stato presentato il primo tablet di Google prodotto in collaborazione con ASUS, chiamato Nexus 7, inizialmente dotato di Android 4.1 Jelly Bean (il dispositivo Android più supportato, in modo ufficiale, di sempre, supporto terminato con Android 5.1 Lollipop).
+Il Nexus 10 è stato presentato insieme al Nexus 4 e all'inizio era dotato di Android 4.2 Jelly Bean.
+La seconda generazione del Nexus 7, con versione 4.3 di Android è stata presentata il 24 luglio 2013.
+Google ha presentato nell'evento aperto solo ai giornalisti del 29 2015 il tablet Pixel C che farà parte della linea Chromebook Pixel ma adotterà come sistema operativo Android 6.0
+Marshmallow.
+Android Wear
+Android Wear è una versione del sistema operativo Android progettata per dispositivi indossabili , grazie al quale è possibile interagire tramite input vocale attraverso l'Assistente Google, gesture da polso o touchscreen.
+Il dispositivo comunica, con una companion app installata sullo smartphone, tramite bluetooth.
+Sono presenti app dedicate installabili da smartphone.
+Android TV
+Al Google I/O 2014 è stato presentato Android TV, un sistema operativo specifico per essere usato su TV, grazie al quale è possibile guardare film e serie televisive tramite il Play Movies, YouTube, Netflix o altre piattaforme, con l'unico ausilio dello smartphone con l'app dedicata installata.
+È possibile l'interazione vocale grazie all'integrazione con Google Now e la trasmissione alla TV di film e programmi da Chromebook, smartphone o tablet.
+Il 15 ottobre 2014 Google ha presentato il Nexus Player, prodotto da ASUS, il primo box commercializzato dotato di Android TV.
+Android Auto
+È una piattaforma rilasciata il 19 marzo 2015 che, grazie ad accordi con una discreta gamma di case automobilistiche, è presente nei computer di bordo di alcune automobili al fine di permettere il controllo sulla mappatura GPS / navigazione, la riproduzione di musica, SMS, telefonia, e ricerca sul web.
+È prevista l'integrazione, sia touch screen che vivavoce, di alcuni software proprietari come Google Maps Google Play Music, Spotify, Songza, Stitcher, iHeart Radio e TuneIn.
+Google Nexus
+I dispositivi targati "Google Nexus", che vengono prodotti su licenza Google da diversi produttori di dispositivi mobile, hanno la caratteristica di avere una versione di Android che viene aggiornata e supportata dalla stessa Google Inc.
+(la fondatrice del team di Android).
+Le applicazioni Google sono installate di stock.
+Project Brillo
+Adattamento di Android per la domotica e, più in generale, per Internet delle cose, Brillo è un progetto lanciato a maggio 2015, che introduce un apposito protocollo chiamato Weave per realizzare la comunicazione tra i vari dispositivi connessioni via Wi-Fi o Bluetooth a basso consumo.
+Project Ara (sospeso)
+Project Ara è il nome in codice di una iniziativa da parte di Google che mira a sviluppare un hardware libero basato su Android, per la creazione di Smartphone modulari.
+La piattaforma comprende un telaio strutturale che contiene i moduli dello smartphone da applicare a scelta del proprietario, come ad esempio un display, una tastiera, una batteria supplementare, una fotocamera, speaker e così via.
+Ciò comporta (almeno fino ad ora) un design poco accattivante, che potrebbe tuttavia passare in secondo piano, viste le potenzialità.
+Project Tango (sospeso)
+Project Tango è un progetto per smartphone e tablet, basati su Android, che grazie a sofisticati sensori, riesce a creare un modello 3D dell'ambiente.
+Google Glass
+I Google Glass sono un paio di occhiali a realtà aumentata sviluppati da Google e basati sul sistema operativo Android.
+I primi prototipi sperimentali noti al pubblico sono quelli della Explorer Edition, disponibile agli sviluppatori ad inizio 2013, ed in vendita al pubblico dal terzo trimestre del 2014.
+Android One
+Durante il Google I/O 2016, Google ha presentato Android One, un progetto inizialmente destinato ai mercati emergenti e in via di sviluppo.
+Grazie all'accordo con alcuni produttori tra cui Karbon, Spice e Micromax, Google proporrà una nuova gamma di dispositivi Android di fascia bassa, basati sulla versione stock del sistema operativo e con specifiche hardware stringenti, questi fattori permettono di realizzare una versione di Android ottimizzata più reattiva e leggera, con un sistema di aggiornamenti più fitta rispetto a quello della gamma Nexus e Pixel, garantendo anche un passaggio ad una versione superiore.
+I modelli in questione avranno il supporto Dual SIM, la memoria espandibile tramite micro SD, la radio FM e display all'incirca di 4.5 pollici, tutto a un prezzo inferiore ai 100 euro, nel 2017 debuttano in Italia i primi dispositivi con tale sistema.
+Nel 2017 sono stati prodotti anche modelli di fascia medio-alta con Android One, come l'HTC U11 Life (anche per il mercato europeo) e lo Xiaomi Mi A1.
+Applicazioni
+Le applicazioni (o app) sono la forma più generica per indicare i software applicativi installabili su Android.
+Esse possono essere scaricate sia dal catalogo ufficiale Google Play, sia da altri cataloghi, come l'Amazon Appstore di , o F-Droid che contiene solo software su licenza libera.
+Le applicazioni Android possono essere installate direttamente a partire da un file APK fornito dal distributore del software.
+Per motivi di sicurezza informatica, le applicazioni sono fornite di un sistema di certificazione che verifica l'integrità del pacchetto da installare e la paternità rispetto ad un distributore di software accreditato presso Google.
+Android è fornito di una serie di applicazioni preinstallate che vanno dal browser alla radio analogica FM, dal calendario all'applicazione Gmail, dalla calcolatrice al navigatore satellitare Turn-by-Turn e comprende anche la ricerca vocale Google Voice Search con la possibilità di scegliere la lingua in italiano.
+Google Play
+Il market ufficiale di Android è Google Play.
+Il nome attuale è stato adottato a partire dal 6 marzo 2012 mentre la denominazione precedente era "Android Market" .
+Il market offre la possibilità di acquistare non solo applicazioni, ma, dal 2012, anche libri e musica, rispettivamente Play Books e Play Music.
+Dal 2013 anche film, e più tardi anche riviste.
+Tutti o quasi i dispositivi Android hanno preinstallata una icona denominata Market oppure Google Play.
+Per accedere al Market è necessario possedere un account Google.
+Oltre a poter acquistare sul market utilizzando il servizio Google checkout, è prevista la possibilità di addebitare l'acquisto sul credito prepagato o sull'abbonamento usato per il servizio telefonico;
+in Italia questa modalità di pagamento è garantita dagli operatori TIM, Vodafone, H3G e Wind.
+Nell'ottobre 2012 le applicazioni presenti sul market ufficiale Android (Google Play) hanno raggiunto le 700.000 unità vari termini per definire i vari tipi di applicazioni.
+Attività (activity)
+Le attività sono quelle classi scritte in linguaggio Java che compongono una applicazione Android e subiscono una interazione diretta con l'utente.
+All'avvio di ogni applicazione viene eseguita una activity, la quale può eseguire delle operazioni e può anche aprire/eseguire altre activity.
+Le attività create estendono la classe Activity da cui ereditano proprietà e metodi.
+Servizio (service)
+I servizi sono, al contrario, quelle applicazioni che per loro natura svolgono delle operazioni autonome e che vengono richiamati dalle attività al bisogno.
+Il sistema operativo fornisce alle applicazioni vari servizi già pronti all'uso, per ottenere l'accesso all'hardware o a risorse esterne (ad esempio dei web services di messaggistica).
+I servizi sono oggetti di classe Services.
+la quale, anche graficamente, riprende la struttura tipica della documentazione Java del sito Oracle.
+Creazione, compilazione, emulazione
+Tramite l'SDK possiamo passare dalla descrizione della nostra applicazione alla sua effettiva esecuzione sia in emulazione, sia su un dispositivo concreto.
+Per descrivere l'applicazione al dispositivo prescelto si utilizza il file Manifest.xml.
+Possiamo quindi affermare che un'applicazione è descritta completamente da una tripletta:
+Il codice Java viene poi compilato insieme all'XML per generare un file con estensione .apk:
+esso contiene il bytecode per la cosiddetta Dalvik Virtual Machine (DVM).
+I passi successivi servono per installare il bytecode nel dispositivo (ed eseguirlo in emulazione).
+Java
+Il linguaggio per applicazioni Android è in realtà un "dialetto" del linguaggio Java così come è diversa anche la virtual machine di runtime (Dalvik virtual machine anziché JVM).
+Nella tipica applicazione Android non c'è un entry point (il classico metodo "main") da dove normalmente un programma comincia a caricare le sue parti software e avviarsi:
+tutto è pensato per essere un "componente" pilotato dagli eventi ("Event Driven") dell'hardware o di altri componenti.
+Questo paradigma fa sì che il programmatore sviluppi per ogni hardware delle routine il più possibile indipendenti.
+Un vantaggio è che il sistema operativo potrà ottimizzare le risorse, ad esempio rinunciando a caricare componenti (e hardware) non supportati o non prioritari perché inutilizzati.
+Inoltre, i componenti possono condividere le loro funzionalità:
+se ad esempio un videogioco trova installato nel dispositivo un programma che ritocca le fotografie appena scattate con la webcam, può avviarlo (se l'utente concede il permesso) per permettere all'utente di ritoccare tali foto, sceglierne una e "farsela passare" per scopi ludici.
+Il tutto con una interfaccia grafica perfettamente integrata e quindi senza tante aperture e chiusure di programmi.
+Ma soprattutto, il programmatore di videogiochi è così sollevato dall'onere di dover creare un sottoprogetto per implementare una funzionalità già esistente sotto altra forma.
+Risorse XML
+È la parte dichiarativa contenente varie informazioni:
+Android Manifest XML
+Tale file descrive l'applicazione al dispositivo.
+Il Manifest elenca la lista delle necessità del programma per poter operare nel sistema;
+per esempio, se una apk richiede la connessione alla Rete, lo notifica nel Manifest e, qualora la connessione non sia disponibile, l'applicazione verrà bloccata a run-time.
+In generale è opportuno ai fini della sicurezza vagliare attentamente il contenuto del Manifest, soprattutto se proviene da fonte non verificabile, e non installare il programma qualora le richieste del Manifest non siano congrue con gli obbiettivi dichiarati del programma stesso, soprattutto nel caso di richieste di connessione a linee di telefonia.
+La Dalvik Virtual Machine
+Tramite l'SDK (o meglio:
+tramite gli strumenti utilizzati mediante l'SDK) trasformiamo la nostra applicazione Android in un codice intermedio chiamato bytecode;
+questo è esattamente quello che accade abitualmente in Java, ossia:
+Codice Java:
+compilazione:
+bytecode:
+VM → esecuzione reale del programma
+Questo bytecode viene eseguito da un programma chiamato macchina virtuale (Virtual Machine, VM).
+Negli ambienti Android non viene utilizzata la Macchina virtuale Java:
+è stata infatti scritta una nuova VM chiamata Dalvik Virtual Machine (DVM).
+Ogni terminale Android ha la sua DVM installata, come descritto nell'architettura del sistema, ed il suo compito è solo eseguire il bytecode.
+Avremo quindi la seguente catena di esecuzione:
+Applicazione Android:
+compilazione:
+bytecode:
+DVM → esecuzione reale dell'applicazione Android
+L'idea è questa:
+essendo la DVM uguale per tutti i dispositivi Android, ogni applicazione può essere eseguita su ogni terminale, indipendentemente dal costruttore e dall'implementazione.
+La conseguenza di questa idea, che è anche una visione, è stata questa:
+molti costruttori di dispositivi mobili scelgono Android;
+in questo modo possono fornire ai propri utenti un ambiente condiviso da moltissimi altri utenti.
+Platform Development Kit (PDK)
+Un supporto che permette agli sviluppatori di ricevere le nuove release Android in anticipo rispetto alla data di commercializzazione, per poter aggiornare le applicazioni più rapidamente.
+Concorso a premi
+Al fine di favorire lo sviluppo di applicazioni per la piattaforma l'azienda Google ha indetto nel 2008 un concorso a premi legato allo sviluppo di applicazioni per Android.
+Il concorso a premi assegnerà una serie di premi e incentivi alle applicazioni, la scelta delle applicazioni vincenti verrà effettuata internamente da Google e la somma dei premi è di 10 milioni di dollari.
+Dal concorso risultano esclusi i programmatori residenti a Cuba, Iran, Siria, Nord Corea, Sudan, Burma (Myanmar), Quebec e Italia.
+Le nazioni sono state escluse per adempiere alla legislazione statunitense contro il terrorismo o per impedimenti burocratici locali.
+L'Italia risulta esclusa per via della legislazione locale sulle vincite a premi sebbene la sua esclusione sia ancora in discussione.
+Critiche
+ComputerWorld ha riportato in un articolo che le condizioni d'uso di Android e dello store delle applicazioni prevedono che "nel caso in cui un qualsiasi prodotto violi l'accordo di distribuzione con gli sviluppatori, Google si riserva il diritto di rimuoverle da remoto su ogni dispositivo a propria discrezione".
+Il 23 giugno 2010, Google è ricorsa a questa modalità per motivi di sicurezza e pulizia, dato che le applicazioni erano state create solo a scopo di ricerca.
+Nel 2010, un team di sviluppatori si è visto rigettare un'applicazione regolarmente inserita nell'Android Market.
+L'applicazione in questione, "WiFi Tether for Root Users", è dedicata al tethering (permette ai dispositivi di funzionare come veri e propri router wi-fi per fornire a loro volta connettività wi-fi ad altri apparecchi).
+La motivazione era che T-Mobile (primo carrier ufficiale di Android) vieta il tethering, quindi le applicazioni a esso dedicate creano un conflitto di interessi.
+Le notizie scatenarono pesanti polemiche tra gli utenti, indignati dalla poca flessibilità dimostrata da Google, la quale fece pensare che il sistema non fosse in realtà tanto "open" come fu presentato.
+Il tethering Wi-Fi fu comunque introdotto ufficialmente con la versione di Android 2.2 "Froyo", integrata nel sistema.
+Nel 2012 è emerso come le applicazioni potrebbero estrapolare le foto personali dell'utente (così come altri files salvati come pubblici) dal proprio dispositivo.
+Un'altra critica è volta alla funzione sveglia, la quale non si attiva con il terminale spento;
+tale funzione non dipende dal sistema operativo (e quindi da Android) ma dall'hardware utilizzato.
+È possibile aggirare tale mancanza tramite l'utilizzo di alcune applicazioni.
+Facendo una ricerca, un utente Android è venuto a conoscenza che alcuni dispositivi mobili in commercio montano in realtà una versione modificata del sistema operativo, programmata appositamente per inviare dati personali ai server dei produttori del telefonino.
+L'articolo rivolgeva le critiche principalmente verso la Motorola, colpevole di inviare ai suoi server password di email, social network e dati di utilizzo degli utenti.
+Note
+Bibliografia
+* Andreucci Giacomo, Applicazioni iOS e Android con Google Maps, Edizioni FAG, Milano, 2011, pp. 348.
+* Carli Massimo, Sviluppare applicazioni per Android, Edizioni Apogeo, 2011, pp. 416.
+* Stark Jonathan, Sviluppare applicazioni per Android con HTML, CSS e JavaScript, Ed.
+Tecniche Nuove, 2011, pp. 159.

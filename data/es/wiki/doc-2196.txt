@@ -1,0 +1,181 @@
+En álgebra, una operación es la aplicación de un operador sobre los elementos de un conjunto.
+El operador toma los elementos iniciales y los relaciona con otro elemento de un conjunto final que puede ser de la misma naturaleza o no; esto se conoce técnicamente como ley de composición.
+En aritmética y cálculo el conjunto de partida puede estar formado por elementos de un único tipo (las operaciones aritméticas actúan sólo sobre números) o de varios (el producto de un vector por un escalar engloba al conjunto unión de vectores y escalares que conforman un espacio vectorial).
+Dependiendo de cómo sean los conjuntos implicados en la operación con respecto al conjunto considerado principal según nuestras intenciones podemos clasificar las operaciones en dos tipos: internas y externas.
+Propiedades de las operaciones
+** tiene una operación inversa llamada , \, a-b = a + (-b)
+** tiene un elemento neutro 0 que no altera la suma: \, a + 0 = a
+** se escribe \, (a \times b) o \, ( a \cdot b )
+** es una adición repetida a \times n = a + a + \ldots + a (n veces)
+** es conmutativa: \, (a \cdot b ) = \, (b \cdot a)
+** es asociativa: \, (a \cdot b) \cdot c = a \cdot (b \cdot c)
+** se abrevia por yuxtaposición: a \cdot b \equiv ab
+** tiene una operación inversa, para números diferentes a cero, llamada división: \frac
+a , que es igual a multiplicar por el recíproco, \frac
+a \left (\frac \right)
+** tiene un elemento neutro 1 que no altera la multiplicación: a \times 1 =
+** es distributiva respecto la adición: \, (a + b) \cdot c = ac + bc
+** es una multiplicación repetida: a^ = a \times a \times \ldots \times a (n veces)
+** no es ni comutativa ni asociativa: en general \, a^ \ne b^ y \, (a^)^ \ne a^
+** tiene una operación inversa, llamada logaritmo: \, a^
+log_ a^
+** puede ser escrita en términos de raíz n-ésima: \ a^ \equiv (\sqrtn) y por lo tanto las raíces pares de números negativos no existen en el sistema de los números reales.
+** es distributiva con respecto a la multiplicación: \, (a \cdot b)^ = a^ \cdot b^
+Orden de las operaciones
+Para completar el valor de una expresión, es necesario calcular partes de ella en un orden particular, conocido como el orden de prioridad o el orden de precedencia de las operaciones.
+Primero se calculan los valores de las expresiones encerradas en signos de agrupación (paréntesis, corchetes, llaves), luego las de exponenciaciones, luego las multiplicaciones y divisiones y, por último, las sumas y las restas.
+Propiedades de la igualdad
+La relación de igualdad (=) es:
+* simétrica: si \,
+b entonces \,
+* transitiva: si \, a
+b y \,
+c entonces \, a =
+Leyes de la igualdad
+La relación de igualdad (=) tiene las propiedades siguientes:
+* si \, a
+b y \,
+d entonces \, a + c
+b + d y \,
+* si dos símbolos son iguales, entonces uno puede ser sustituido por el otro.
+* regularidad de la suma: trabajando con números reales o complejos sucede
+que si \, a + c
+b + c entonces \, a
+b .
+* regularidad condicional de la multiplicación: si \, a \cdot c
+b \cdot c y \, c no es cero, entonces \,
+b .
+Leyes de la desigualdad
+La relación de desigualdad (<) tiene las siguientes propiedades:
+* de transitividad: si \, a < b y \, b < c entonces \, a <
+* si \, a < b y \, c < d entonces \, a + c < b + d
+Regla de los signos
+En el producto y en el cociente de números positivos (+) y negativos (-) se cumplen las siguientes reglas:
+Álgebra abstracta
+Operación interna
+Una operación f_^ es interna si, tanto los elementos iniciales como los finales pertenecen al único conjunto A_^ .
+f: \; A^I \to A \; , \;
+A^I
+A \times A \times \cdots^I \times A
+\prod_ A_ \; , \;\;
+es un conjunto.
+Que también puede expresarse:
+(a_1, a_2, a_3, \cdots, a_n ) \; \xrightarrow \;
+O también:
+f (a_1, a_2, a_3, \cdots, a_n ) \;
+\to \;
+Según la naturaleza del producto cartesiano inicial de la operación podemos diferenciar:
+*Operaciones finitas si el conjunto inicial I_^ es producto cartesiano finito.
+Operación n-aria
+Diremos que f_^ es una operación n-aria en el conjunto A_^, si:
+a n_^ \in \mathbb se le llama la ariedad o anidad.
+Operación binaria
+Una operación es binaria cuando n es igual a dos:
+\begin
+\star : & \;
+A \times A & \to & A
+& (a,b) & \to & c = a \star
+\end
+y también:
+: a \star b \;
+\to \;
+: (a, b ) \; \xrightarrow \;
+: \star (a, b ) \; \to \;
+Ejemplo:
+En el conjunto de los números naturales, \mathbb , la operación de adición: +: \mathbb \times \mathbb \longrightarrow \mathbb, ( N , +) \, , con las diferentes expresiones:
+# a, b, c \in\mathbb, \quad a + b \to c
+# a, b, c \in\mathbb, \quad (a, b ) \;
+\xrightarrow \;
+# a, b, c \in\mathbb, \quad + (a, b ) \; \to \;
+donde a y b son los sumandos y c el resultado de la suma.
+Operación unaria
+Una operación unaria, con un solo parámetro:
+\begin
+\star : & \; A & \to & B
+& a & \to & b = \star (a)
+\end
+también suelen denominarse funciones.
+Ejemplos:
+*Dado el conjunto de los números naturales \mathbb , la operación unaria incremento o siguiente, como:
+\begin
+in : & \; N & \to & N
+& a & \to & b = in (a)
+\end
+Donde:
+in (n )
+= n+1 \; : \;
+n \in
+\mathbb
+*Dado el conjunto de los números enteros \mathbb , la operación opuesto, como:
+\begin
+op : & \; Z & \to & Z
+& a & \to & b = op (a)
+\end
+esto es:
+op (e) = - e \; : \; e \in
+\mathbb
+Operación 0-aria
+Una operación 0-aria es cuando tenemos una operación f: A^0 \to A es decir:
+\begin
+\star : & \; \emptyset & \to & A
+& () & \to & b = \star ()
+\end
+Ejemplo:
+Una operación nularia suele devolver constantes, por ejemplo el valor de pi:
+\begin
+pi : & \; \emptyset & \to & R
+() & \to & a = pi ()
+\end
+Que asigna a a el valor real del número pi.
+*Una operación que designa un elemento distiguido de A_^ , en teoría de grupos sería el elemento neutro de un grupo.
+Operación externa
+Una ley de composición externa sobre un conjunto A con un conjunto B es una aplicación:
+\begin
+\star : & \; B \times A & \to & A
+& (a,b) & \to & c = a \star
+\end
+esta aplicación se dice que es una operación externa.
+Ejemplo:
+Dado el conjunto V_2 \; de los vectores en el plano y el conjunto de escalares \R de números reales, tenemos que el producto de un número real por un vector en el plano es un vector en el plano:
+\begin
+\cdot : & R \times V_2 & \to & V_2
+& (a,\vec) & \to & \vec = a \cdot \vec
+\end
+Dado el vector:
+\vec = 3i +6j \;
+Si lo multiplicamos por un escalar 3:
+3 \cdot
+\vec
+3 \cdot (3i +6j)
+(9i +18j) = \vec
+podemos ver que los dos vectores son del plano:
+(3i +6j), (9i +18j)
+\in
+V_2
+Partiendo de los conjuntos A y B distintos, y una aplicación:
+\begin
+\star : & A \times A & \to & B
+& (a,b) & \to & c = a \star
+\end
+se dice que también es una ley de composición externa.
+Por ejemplo el Producto escalar de dos vectores en el plano, da como resultado un número real, esto es:
+\begin
+\circ : & V_2 \times V_2 & \to & R
+& (\vec,\vec) & \to & a = \vec \circ
+\vec
+\end
+Tomando los vectores del plano:
+\vec = (x_1, y_1)
+\vec = (x_2, y_2)
+Y siendo su producto escalar:
+\vec \circ \vec =
+(x_1, y_1) \circ (x_2, y_2)
+x_1 \cdot x_2 + y_1 \cdot
+y_2
+Que da por resultado un número real, veamos un ejemplo numérico:
+\vec = (3, 6)
+\vec = (5, 2)
+Operando
+\vec \circ \vec =
+(3, 6) \circ (5, 2)
+15 + 12 =

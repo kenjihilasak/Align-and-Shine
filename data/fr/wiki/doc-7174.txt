@@ -1,0 +1,467 @@
+Relativité restreinte
+La relativité restreinte est la théorie formelle élaborée par Albert Einstein en 1905 en vue de tirer toutes les conséquences physiques de la relativité galiléenne et du principe selon lequel la vitesse de la lumière dans le vide a la même valeur dans tous les référentiels galiléens (ou inertiels), ce qui était implicitement énoncé dans les équations de Maxwell (mais interprété bien différemment jusque-là, avec « l'espace absolu » de Newton et léther).
+La relativité galiléenne énonce, en langage moderne, que toute expérience faite dans un référentiel inertiel se déroule de manière parfaitement identique dans tout autre référentiel inertiel.
+Devenu «
+principe de relativité », son énoncé sera ensuite modifié par Einstein pour être étendu aux référentiels non inertiels : de « restreinte », la relativité deviendra « générale », et traitera de plus de la gravitation, ce que ne fait pas la relativité restreinte.
+La théorie de la relativité restreinte a établi de nouvelles formules permettant de passer d'un référentiel galiléen à un autre.
+Les équations correspondantes conduisent à des prévisions de phénomènes qui heurtent le sens commun (mais aucune de ces prévisions n'a été infirmée par l'expérience), un des plus surprenants étant le ralentissement des horloges en mouvement, qui a permis de concevoir l'expérience de pensée souvent appelée paradoxe des jumeaux.
+Ce phénomène est parfois utilisé en science-fiction.
+La relativité restreinte a eu également un impact en philosophie en éliminant toute possibilité d'existence d'un temps et de durées absolus dans l'ensemble de l'univers (Newton).
+À la suite d'Henri Poincaré, elle a forcé les philosophes à se poser différemment la question du temps et de l'espace.
+Origines de la théorie
+Bref historique
+En mécanique newtonienne, les vitesses s'additionnent lors d'un changement de référentiel : ce sont les transformations de Galilée.
+Par exemple si, d'une fusée s'éloignant de la Terre à la vitesse de , on tire un boulet de canon vers l'avant à la vitesse de par rapport à la fusée, la vitesse du projectile vu de la Terre
+sera de ;
+si le boulet est tiré vers l'arrière, sa vitesse observée de la Terre sera de .
+À la fin du , James Clerk Maxwell établit les équations régissant les ondes électromagnétiques et notamment les ondes lumineuses.
+Selon cette théorie, la vitesse de la lumière ne devait dépendre que des propriétés électriques et magnétiques du milieu, ce qui posait un problème dans le cas où ce milieu est le vide car cela suggère une indépendance de la vitesse de la lumière par rapport au référentiel de l'instrument de mesure : si on émet un faisceau lumineux depuis la fusée vers l'avant ou vers l'arrière, la vitesse de la lumière mesurée par rapport à la Terre sera la même, contrairement au boulet.
+L'hypothèse de l'éther, milieu de propagation de la lumière, donc hypothèse assez naturelle, devait enlever à la lumière cette propriété et rendre sa propagation compatible avec la relativité galiléenne.
+En 1887, une expérience a été conduite par Michelson et Morley pour mesurer la vitesse de la Terre par rapport à cet éther : expérience similaire à celle de la fusée évoquée ci-dessus, et où la Terre tient elle-même le rôle de la fusée.
+Ils voulaient mesurer cette vitesse en mettant en évidence la différence de vitesse de la lumière entre différentes directions de propagation possibles.
+N'ayant pas détecté une différence significative, le résultat de cette expérience s'avéra difficile à interpréter, tant et si bien que leurs auteurs allèrent jusqu'à imaginer une contraction, inexpliquée, des instruments de mesure dans certaines directions : la relativité restreinte justifiera cela par la suite.
+Des formules de transformation pour passer d'un observateur à un autre furent établies par Hendrik Lorentz avant 1904, Albert Einstein présenta la relativité comme suit :
+L'éther est une notion arbitraire qui n'est pas utile à l'expression de la théorie de la relativité.
+* La vitesse de la lumière dans le vide est égale à c dans tous les référentiels inertiels.
+Elle ne dépend ni du mouvement de la source ni de l’observateur.
+Les lois de la physique respectent le principe de relativité.
+Les équations de Lorentz qui en découlent sont conformes à la réalité physique.
+Elles ont des conséquences inattendues.
+Ainsi un observateur attribue à un corps en mouvement une longueur plus courte que la longueur attribuée à ce même corps au repos et la durée des phénomènes qui affectent le corps en mouvement est allongée par rapport à cette « même » durée mesurée par des observateurs immobiles par rapport à ce corps.
+Einstein a également réécrit les formules qui définissent la quantité de mouvement et l'énergie cinétique de manière à rendre leur expression invariante dans une transformation de Lorentz.
+Le temps et les trois coordonnées d'espace jouant des rôles indissociables dans les équations de Lorentz, Hermann Minkowski les interpréta dans un espace-temps à quatre dimensions.
+Remarquons toutefois que le temps et l'espace restent de natures différentes et qu'on ne peut donc pas assimiler l'un à l'autre.
+Par exemple on peut faire demi-tour dans l'espace alors que cela est impossible dans le temps.
+Attitude du comité Nobel
+En 1912, Lorentz et Einstein furent proposés pour un prix Nobel conjoint pour leur travail sur la théorie.
+La recommandation était de Wien, lauréat de 1911, qui déclare que .
+Einstein ne reçut jamais un prix Nobel pour la relativité, ce prix n'étant, en principe, jamais accordé pour une théorie pure.
+Le comité attendit donc une confirmation expérimentale.
+Le temps que cette dernière se présente, Einstein était passé à d'autres travaux importants.
+Einstein se verra finalement décerner le prix Nobel de physique en 1921 .
+La théorie
+Les postulats d'Einstein (1905)
+La théorie d'Einstein est centrée sur le principe de relativité qui concerne l'observation et la mesure des phénomènes en fonction du référentiel depuis lequel l'observateur (ou l'appareil de mesure) effectue les mesures sur l'expérience.
+La relativité restreinte ne considère que le cas où l'observateur est dans un référentiel inertiel, les autres référentiels sont l'objet d'étude de la relativité générale.
+Rappelons qu'un référentiel est dit inertiel si tout objet isolé de ce référentiel (sur lequel ne s’exerce aucune force ou sur lequel la résultante des forces est nulle) est soit immobile, soit en mouvement de translation rectiligne uniforme.
+Par exemple : une fusée dans l'espace loin de toute masse constitue un référentiel inertiel si aucun moteur n'est allumé.
+Les deux postulats de la relativité restreinte sont les suivants :
+Les lois de la physique ont la même forme dans tous les référentiels galiléens
+La vitesse de la lumière dans le vide a la même valeur dans tous les référentiels galiléens
+Le premier postulat est le principe de relativité proprement dit, dans sa conception restreinte à la classe des référentiels inertiels.
+Il formalise un constat de Galilée selon lequel le mouvement rectiligne uniforme est « comme rien » pour l'observateur appartenant au référentiel mobile.
+Le second postulat formalise l'interprétation des équations de Maxwell suivant laquelle il n'y a pas d'éther, et il est conforme aux expériences (en premier lieu celle de Michelson et Morley).
+Il est équivalent au postulat que la vitesse de la lumière ne dépend pas de la vitesse de la source lumineuse dans le référentiel de l'observateur et indépendamment par Comstock.
+L'hypothèse additionnelle conduit à un groupe de transformations, dépendant d'un paramètre c, physiquement homogène au carré d'une vitesse.
+Ces transformations s'identifient aux transformations de Galilée si c est infini et aux transformations de Lorentz si c est fini positif.
+L'identification de c à la vitesse de la lumière, établie comme finie par les observations, se traduit par le second postulat.
+Jean-Marc Lévy
+Leblond fait remarquer que cette approche implique seulement l'existence d'une vitesse-limite c, qui est celle de toutes les particules sans masse, et donc de la lumière dans nos théories actuelles.
+Si le photon devait s'avérer avoir une masse (voir à ce sujet les propriétés physiques du photon), la relativité (ou plus exactement sa description mathématique) ne serait pas remise en question, mais la lumière aurait une vitesse légèrement inférieure à c, et qui dépendrait des référentiels, ainsi d'ailleurs que de l'énergie des photons la constituant, et donc de sa longueur d'onde.
+Synchronisation des horloges
+La synchronisation des horloges immobiles au sein d'un même référentiel inertiel permet de dater les événements qui y sont observés et de définir une simultanéité pour ce référentiel, alors que les informations ne parviennent à l'observateur que de manière retardée car elles voyagent au maximum à la vitesse de la lumière.
+Mais deux horloges en mouvement l'une par rapport à l'autre ne peuvent pas être synchronisées, la simultanéité ne pouvant être la même pour deux référentiels inertiels en mouvement l'un par rapport à l'autre.
+Mesure du temps et des longueurs dans les référentiels
+Deux référentiels inertiels étant donnés, en translation rectiligne uniforme l'un par rapport à l'autre, comment s'assurer qu'ils ont le même système de mesure du temps et des longueurs ?
+* Tout d'abord, dans un seul référentiel, les hypothèses de l'isotropie et de l'homogénéité de l'espace impliquent que les mesures que l'on peut faire sur un objet ne dépendent pas de sa position dans le référentiel.
+* En transmettant des doubles de l'unité de mesure et de l'horloge de référence d'un référentiel inertiel à l'autre, on leur fait subir une accélération (pour passer de l'immobilité dans l'un à l'immobilité dans l'autre), ce qui implique que ces doubles ne sont pas dans un référentiel inertiel durant cette phase mais dans un référentiel accéléré : on peut imaginer que dans ce référentiel transitoire, leurs propriétés ne sont plus les mêmes.
+Mais une fois l'immobilité acquise dans le nouveau référentiel, le principe de relativité implique qu'ils ont les mêmes propriétés que dans leur précédent référentiel inertiel : les unités de mesures sont les mêmes dans les deux référentiels.
+Ce sera la vitesse relative entre les deux référentiels qui va donner des différences de mesures pour une même expérience.
+Le phénomène du « ralentissement des horloges en mouvement » ne permet pas de synchroniser des horloges en mouvement avec celles qui sont immobiles dans le référentiel de l'observateur.
+Les transformations de Lorentz
+On considère deux référentiels \mathcal et \mathcal, le premier référentiel \mathcal étant animé de la vitesse \vec par rapport au référentiel \mathcal.
+Pour simplifier le calcul on travaille d'abord dans le cadre de transformations dites « spéciales », caractérisées par le fait que les systèmes d'axes x, y, z et x′, y′, z′ sont parallèles, que les axes O′x′ et Ox sont communs et parallèles à la vitesse \vec, et en supposant que quand les origines spatiales des deux référentiels étaient confondues, les horloges (fixes dans les référentiels respectifs, en O et O′) indiquaient toutes deux t
+0 et t′
+0 (initialisation des horloges).
+Cette restriction ne nuit nullement à la généralité des résultats.
+On écrira ci-dessous les formules relatives à une vitesse pointant dans une direction quelconque.
+Les hypothèses d'Einstein conduisent aux transformations dites « de Lorentz ».
+Les formules de Lorentz permettent d'exprimer les coordonnées (x, y, z, t) d'un événement donné dans le référentiel « fixe » (disons la Terre) en fonction des coordonnées (x′, y′, z′, t′) du même événement dans le référentiel « mobile » (disons une fusée).
+Elles s'écrivent :
+\beginct = \gamma (ct'+ \beta
+x')\\
+x = \gamma (x' + \beta
+ct')\\
+y = y'\\
+z = z'
+\end
+où \beta et \gamma sont des facteurs sans dimension définis
+par
+\beta = v/c
+\qquad
+\gamma= \frac \,.
+Ces expressions se simplifient et prennent une forme proche d'une rotation si on fait intervenir les fonctions hyperboliques de paramètre θ, appelé rapidité, qui est un angle de « rotation » dans l'espace de Minkowski, défini par
+\tanh\theta
+v c)\equiv
+\operatorname\,\beta
+Avec ces notations on obtient
+\gamma
+- \beta^2)^
+- \tanh^2\, \theta)^ = \cosh \,\theta
+\begin
+ct= ct'\cosh\,\theta + x'\sinh\,\theta \\
+x = ct' \sinh\,\theta + x'\cosh\,\theta
+\end
+Pour obtenir les formules correspondant à la transformation inverse il suffit de changer β en -β, et donc θ en -θ.
+Une recette : pour trouver le signe à mettre devant sinh θ, il suffit de considérer un point au repos dans l'un des référentiels (disons celui de la fusée, avec x′ = 0 par exemple) et de voir quel doit être le signe de la coordonnée spatiale dans l'autre référentiel (disons le référentiel fixe dans lequel x croît si la fusée a une vitesse positive).
+Si les transformations spéciales simplifient l'étude analytique, elles ne nuisent en rien à la généralité.
+On peut aisément passer au cas où les référentiels en mouvement ne sont pas parallèles l'un à l'autre, et sont d'orientation quelconque par rapport à leur vitesse relative \vec.
+Il est toujours possible de décomposer le vecteur \vec suivant deux directions : celle parallèle au déplacement \vec_ et celle orthogonale à celle-ci \vec_.
+On a donc : \vec=\vec_+\vec_
+En posant
+\vec = \vec/c
+les transformations de Lorentz donnent :
+\left\{\begin
+ct'=\gamma (ct-\vec\vec)\\
+\vec_=\gamma (-\vecct + \vec_)\\
+\vec_=\vec_\\
+\end\right.
+\,,
+ce qui conduit à
+\vec
+\vec_+\vec_
+\gamma
+-\vecct + \vec_)+\vec_=\gamma (-\vecct + \vec)- (\gamma-1)\vec_\,.
+Comme
+\vec\times\vec
+\vec\times (\vec_+\vec_)
+\vec\times\vec_
+on a (en multipliant vectoriellement par \vec)
+:\vec\times (\vec\times\vec)=-\beta^2\vec_
+On obtient donc l'expression des transformations générales de Lorentz sous la forme :
+\left\{\begin
+ct'=\gamma (ct-\vec\vec)\\
+\vec=\gamma
+-\vecct + \vec)+ (\gamma-1)/\beta^\,\vec\times (\vec\times\vec)\\
+\end\right.
+Relativité de la simultanéité, du temps et des longueurs
+Les transformations de Lorentz mènent à une vision révolutionnaire de la physique et font apparaître des phénomènes qui heurtent le sens commun.
+Dans les exemples qui suivent nous allons être amenés à considérer deux événements successifs.
+On réécrira donc les formules précédentes en remplaçant les x et les t par des Δx et des Δt représentant l'écart spatial ou temporel entre le premier événement et le second.
+Relativité de la simultanéité
+La relativité limite la notion de simultanéité aux événements vus à partir d'un seul référentiel galiléen : si deux événements sont simultanés dans \mathcal, en deux points différents de \mathcal, alors, en général, ils ne sont plus simultanés dans un autre référentiel \mathcal en mouvement par rapport à \mathcal.
+Les transformations de Lorentz permettent de s'en assurer : de manière générale on sait que \ \Delta
+\gamma
+, les mesures étant en accord avec les prévisions avec 10 % de marge d'erreur .
+Un paradoxe semble alors apparaitre : comment peut-il se faire que les horloges de \mathcal ralentissent quand elles sont vues depuis \mathcal, et que, par symétrie, les horloges de \mathcal ralentissent quand elles sont vues depuis \mathcal ?
+Ceci ne pose pas de problème : chaque référentiel voit l'autre fonctionner au ralenti, et, s'il y a une mise à zéro commune des horloges des deux référentiels, chacun voit ce qui vient du passé de l'autre par rapport au temps écoulé sur sa propre horloge immobile.
+Le cas où entre deux horloges il y a une rencontre puis un éloignement et ensuite une nouvelle rencontre, permettant de comparer à proximité le temps écoulé entre les deux rencontres chez l'une et l'autre, est l'objet du paradoxe des jumeaux.
+Contraction des longueurs
+Supposons qu'une barre de longueur L soit immobile dans le référentiel \mathcal, orientée dans la direction de la vitesse relative entre les référentiels \mathcal et \mathcal et qu'elle soit mesurée, au passage, à l'aide d'une règle immobile dans le référentiel \mathcal.
+Cette mesure donnera un résultat plus petit que L : dans le référentiel \mathcal, la barre est en mouvement et est mesurée plus courte que sa longueur propre.
+Les transformations de Lorentz
+sont, en supposant la vitesse parallèle à l'axe (ox) et en posant \beta
+\frac et \gamma
+\frac
+1 :
+\,~ \left\{ \begin c \Delta t'
+\gamma \left ( c \Delta
+- \beta \Delta
+\right)\\
+\Delta
+\gamma \left ( \Delta x -\beta
+c \Delta t \right) \\ \Delta y
+\Delta y' \\ \Delta
+\Delta z' \end \right.
+Pour la mesure faite dans le référentiel \mathcal, on a \Delta
+0, et on obtient
+\Delta
+\gamma
+\Delta x \, \Rightarrow \
+, L'
+\Delta x = \gamma^ L \, 0, alors \Delta \tau
+\Delta t .\sqrt
+m_1.c^2 + m_2.c^2 car \
+E_i
+\gamma_i.m_i.c^2
+m_i.c^2,
+et donc \ M > m_1 + m_2
+Dans le cas où \ M < m_1 + m_2, cette désintégration ne peut pas être spontanée, elle ne peut se réaliser qu'après apport d'une énergie au moins égale à son « énergie de liaison » égale à \ m_1.c^2 + m_2.c^2
+- M.c^2.
+La loi de conservation de l'impulsion donne \vec p_1 + \vec p_2
+\vec 0, donc p_1^2
+p_2^2, d'où on tire \ E_1^2
+- E_2^2 = m_1^2.c^4
+- m_2^2.c^4.
+Finalement, les égalités \ Mc^2
+E_1 + E_2 et \
+E_1^2
+- E_2^2
+m_1^
+2.c^4
+- m_2^2.c^4 permettent de déterminer les énergies des deux nouvelles particules : \
+E_1
+\fracc^2 et \ E_2
+\fracc^2.
+La différence de masses \ M
+- (m_1 + m_2)
+s'est convertie en énergie cinétique pour les deux nouvelles particules, énergie que l'on retrouve dans \ E_1 et \ E_2.
+On peut également calculer la norme des impulsions des deux particules, et donc aussi de leurs vitesses.
+Une fission de particule implique aussi la conservation de nombres quantiques : la charge électrique, le spin, etc.
+Cas des particules de masse nulle
+Les expressions donnant E et p en fonction de m et v conduisent à la formule
+:p = \frac.
+Si la vitesse de la particule est égale à la vitesse de la lumière (c'est-à-dire si v
+alors p
+E c
+et par conséquent v
+Donc « une particule est de masse nulle »
+est équivalent à « sa vitesse est la vitesse de la lumière ».
+Exemples des rayons cosmiques et des muons
+On détecte en astronomie des particules porteuses d'une énergie colossale : les rayons cosmiques.
+Bien que leur mécanisme de production demeure encore mystérieux, on peut mesurer leur énergie.
+Les nombres considérables que l'on obtient montrent que leur analyse exige l'emploi des formules de la relativité restreinte.
+Les rayons cosmiques fournissent donc une illustration idéale de la théorie d'Einstein.
+On détecte des particules jusqu'à des énergies invraisemblables de l'ordre de 10 électron-volts, soit cent EeV.
+Supposons donc qu'un rayon cosmique soit un proton de 10 eV. Quelle est la vitesse de cette particule ?
+Dans l'expression donnant l'énergie E, le terme m c représente l'énergie de la masse au repos de la particule.
+Celle du proton est d'environ 1 GeV, soit 10 eV.
+Le rapport entre E et m c est donc égal à 10/10
+et n'est autre que le facteur d'étirement du temps \gamma
+\left (1
+- \left (\frac\right)^2\right)^. Quelle est la vitesse de ce proton ?
+- \left (\frac\right)^2=\left1+\left (\frac\right)\right\left1
+- \left (\frac\right)\right\simeq 2 \left1
+- \left (\frac\right)\right on trouve que
+-\left (\frac\right) = 0,5\times 10^ .
+Autrement dit la vitesse du proton considéré est quasiment égale à la vitesse de la lumière.
+Elle n'en diffère que par moins de 10 (mais ne peut en aucun cas l'égaler).
+Voyons
+ce que ces chiffres impliquent pour les facteurs relativistes existant entre le référentiel propre de la particule et le référentiel terrestre.
+Notre Galaxie, d'un diamètre d'environ , est traversée par la lumière en .
+Pour un observateur terrestre, le proton traverse la Galaxie dans le même temps.
+Dans le référentiel du proton relativiste, le temps correspondant est 10 fois plus faible, et vaut donc 30 secondes (une année fait 3×10 secondes).
+Il traverse notre Galaxie en 30 secondes de son temps propre mais en ans de notre temps terrestre.
+Lorsque ce rayon cosmique heurte
+un atome d'oxygène ou d'azote de l'atmosphère terrestre à une altitude de l'ordre de 20 à 50 kilomètres au-dessus du sol, une gerbe de particules élémentaires se déclenche contenant en particulier des muons.
+Une partie d'entre eux se dirigent vers le sol avec une vitesse pratiquement égale à celle de la lumière, de kilomètres par seconde dans le référentiel terrestre.
+Ces particules traversent donc les quelque 30 kilomètres d'atmosphère en 10 seconde (ou 100 microsecondes).
+Dans le référentiel où il est au repos, un muon a une demi-vie de 2 μs (2 microsecondes, ou 2 s).
+Cela signifie que parmi un ensemble de muons produits au sommet de l'atmosphère, la moitié auront disparu au bout de 2 microsecondes, transformés en d'autres particules.
+Une moitié des muons restants disparaîtront au bout d'encore 2 microsecondes et ainsi de suite.
+Si la demi-vie était la même (2 microsecondes) dans le référentiel terrestre, en 10 seconde de traversée de l'atmosphère les muons auraient compté 10 / 2×10 = 50 demi-vies.
+Par conséquent leur nombre serait réduit à l'arrivée au sol par un facteur de , des muons initiaux parviennent à la surface terrestre, ce qui prouve qu'ils n'ont subi que 3 divisions de leur nombre par 2 et non 50.
+Autrement dit le temps de traversée de l'atmosphère dans leur référentiel propre est de 3 demi-vies et non 50, soit 6 microsecondes seulement (et non 100 microsecondes).
+Ce résultat constitue une preuve forte de la justesse de la relativité restreinte et notamment du phénomène d'étirement du temps propre (ici celui du muon) lorsqu'on effectue les mesures dans un référentiel extérieur (ici celui de la Terre).
+- ^2
+2\times1
+- ^2\,,
+ce qui conduit à
+- \,.
+Pour transposer cette formule en mécanique relativiste, on devra considérer le quadrivecteur énergie-impulsion \mathbf à la place du vecteur \vec et évaluer le taux de variation de ce quadrivecteur non dans le référentiel d'un observateur galiléen quelconque mais dans le référentiel propre de la particule.
+Le membre de gauche sera donc de la forme d\mathbf/d\tau, où \tau est le temps propre de la particule chargée.
+À droite on trouvera un objet indépendant du référentiel choisi et qui en outre sera forcément une fonction linéaire de la vitesse \vec de la particule.
+En effet la partie spatiale de l'équation de la dynamique est linéaire en \,\vec\, puisqu'elle s'écrit
+d\vec dt
+\gamma
+q (\vec E \ + \vec \wedge \vec)
+= q (u_0 \vec/c + \vec \wedge \vec)\,.
+Dans cette expression \,u_0\, et \vec sont les composantes dans un référentiel lorentzien du quadrivecteur vitesse \mathbf\,, lequel peut donc s'écrire :
+\mathbf
+u_0, \vec)
+\left (\frac, \frac\right)\equiv (\gamma c, \gamma\vec)\,.
+De façon explicite l'équation ci-dessus se décompose sur les trois axes de la façon suivante :
+\begin
+dp_x
+d\tau = q (u_0 E_z/c +u_x B_y -u_yB_x)
+\end
+De son côté la composante temporelle de l'équation de la dynamique (qui correspond à la loi donnant la variation de l'énergie) s'écrit
+dp_0 c)\cdot\vec\,,
+où W est le travail de la force q\vec\,
+En rassemblant les équations écrites ci-dessus dans le cadre d'un espace-temps à quatre dimensions, le taux de variation du quadrivecteur énergie-impulsion est donné par
+\begin
+dp_0 d\tau\\dp_y
+d\tau
+\end
+= q
+\begin
+0 & E_x c & E_z c & 0 & B_z & -B_y\\
+E_y c & B_y & -B_x
+\end
+\begin
+u_0\\u_x\\u_y\\u_z
+\end
+L'équation matricielle que nous venons d'écrire montre qu'en relativité restreinte le champ magnétique et le champ électrique constituent une entité unique.
+En réalité la présentation précédente est quelque peu incorrecte dans la mesure où pour tirer parti de toute la puissance de la théorie relativiste il est nécessaire de faire appel aux tenseurs.
+L'équation matricielle ci-dessus est la traduction en termes de composantes de l'équation tensorielle, indépendante, elle, de tout système de coordonnées
+d\mathbf/d\tau = q \mathbf (\mathbf)\,.
+\mathbf est le tenseur du champ électromagnétique (ou tenseur de Maxwell ou tenseur de Faraday).
+C'est cet objet qui représente physiquement le champ électromagnétique.
+Ses composantes dans un certain système de coordonnées sont données par la matrice écrite ci-dessus.
+Vocabulaire
+# Observateur : humain ou appareil de détection possédant une horloge lui permettant de lire l'heure et éventuellement, s'il fait partie d'un groupe constitué, portant une marque indiquant sa position.
+# Référentiel galiléen, appelé aussi « référentiel de Lorentz » ou « référentiel inertiel » : ensemble d'observateurs se déplaçant librement dans l'espace loin de toute masse, dont les distances mutuelles ne changent pas au cours du temps (ils sont au repos les uns par rapport aux autres) et qui ont synchronisé leurs horloges.
+# Événement : un événement est tout phénomène localisable dans le temps et l'espace, comme la naissance d'un individu, le départ d'une fusée ou le tir d'un pétard.
+Il est indépendant des coordonnées de temps et d'espace qui permettent éventuellement de le localiser, cependant il est commode en pratique de repérer les événements par leurs coordonnées relativement à un repère, à savoir le point où l'événement se produit et la date à laquelle il se produit dans ce repère.
+En relativité restreinte une longueur et un temps devraient se mesurer avec la même unité (ce que nous n'avons pas fait ici de façon systématique).
+En astronomie on choisit l'unité de temps et on mesure une distance par le temps qu'il faut à la lumière pour couvrir cette distance.
+Par exemple qu'une galaxie soit située à cinq millions d'années-lumière de la nôtre signifie que la lumière met cinq millions d'années pour parcourir la distance qui nous en sépare.
+Remarquons que dans la vie courante on dira facilement que Paris, par exemple, est à trois heures de train de Montpellier, ce qui revient exactement à mesurer une distance en temps.
+D'ailleurs, depuis 1983, l'unité de temps (la seconde) est la seule à être définie directement par le Système international d'unités (SI), l'unité de longueur (le mètre) étant défini comme la distance que parcourt la lumière en un temps précis (ce qui revient à fixer définitivement et exactement la valeur de c à ).
+Bibliographie
+Une sélection des œuvres d'Einstein, notamment ses articles originaux, sont aujourd'hui disponibles en traduction française commentée sous le titre Œuvres choisies aux éditions du Seuil/CNRS éditions, dans la collection Sources du savoir (6 volumes parus depuis 1989).
+Les tomes 2 et 3 sont exclusivement consacrés aux théories de la relativité.
+Ouvrages de vulgarisation
+* Albert Einstein, La relativité, Paris, Gauthier-Villars, 1956;
+réédition, Paris, Payot, 1990, .
+Au format poche, un exposé élémentaire des principes de la théorie de la relativité restreinte et générale, par son auteur.
+* Banesh Hoffmann, Histoire d'une grande idée : la relativité, Paris, Pour La Science, 1985, diffusion Belin,
+Un exposé remarquable pour sa clarté et sa simplicité de la relativité, par un ancien collaborateur d'Einstein à lInstitute for
+Advanced
+Studies de Princeton.
+* Thibault Damour, Si Einstein m'était conté, Paris, Le Cherche-midi, 2005, .
+Le grand spécialiste français des théories de la relativité nous livre enfin « son » Einstein sans équations.
+Thibault Damour est professeur permanent à l'Institut des Hautes Études Scientifiques (IHES) de Bures-sur-Yvette ;
+il a longtemps enseigné la relativité générale au DEA de physique théorique de la rue d'Ulm.
+* Albert Einstein et Leopold Infeld, L'évolution des idées en physique (1936), Paris, Flammarion, 1938;
+réédition poche, Paris, Flammarion, 2009, coll.
+"Champs", .
+Une histoire de la physique, de la mécanique de Newton jusqu'aux théories modernes (relativité, quanta), écrite en 1936 par Einstein lui-même et l'un de ses disciples à Princeton pour financer le séjour de ce dernier.
+Ouvrages d'initiation au formalisme
+Accessibles au niveau du lycée (Première S).
+* Jean-Marie Vigoureux, L'Univers en perspective, relativité restreinte, Paris, Ellipses, 2006.
+Jean-Marie Vigoureux, professeur de Physique à l'université de Franche-Comté, est aussi l'auteur des livres :
+Les Pommes de Newton, Paris, Albin Michel, 2003 et La Quête d'Einstein, Paris, Ellipses, 2005.
+* Alexandre Ponce et Guillaume Lebrat (2010), http:/ Relativite/LaRelativiteLyceens.pdf
+La Relativité.
+Un article qui s'adresse à des lycéens et qui propose une notation non ambiguë dans les démonstrations.
+Accessibles au niveau du premier cycle universitaire.
+* James H. Smith, Introduction à la relativité, Paris, InterEditions, 1968.
+avec exercices corrigés
+, 1979, ;
+réédition, Paris, Masson.
+, Paris, Dunod, 1997, .
+Un livre en français qui expose les bases de la théorie de façon claire.
+* M. Boratav & R. Kerner, Relativité, Paris, Ellipses, 1991,
+Un très bon livre en français, écrit dans un style très vivant par deux professeurs à l'Université Paris 6.
+Contient de nombreux exemples et applications issus d'expériences récentes.
+* E.F. Taylor & John A. Wheeler, À la découverte de l'espace-temps, Paris, Dunod, 1970.
+Cet ouvrage original est une introduction élémentaire, quoique rigoureuse, à la théorie de la relativité restreinte ;
+Wheeler est un expert incontesté du domaine.
+Le public visé est l'étudiant de premier cycle débutant en physique ;
+en particulier, la connaissance de l'électromagnétisme n'est pas nécessaire.
+C'est le complément idéal pour prolonger la lecture du livre de Banesh Hoffman cité ci-dessus.
+De nombreux exercices, dont une bonne part résolue.
+Malheureusement plus édité en français, cet ouvrage reste disponible en anglais : W. H. Freeman, Spacetime Physics, , 1992, .
+* Jean-Marc Levy-Leblond
+, Les relativités, Cahiers de Fontenay , École Normale Supérieure de Fontenay-aux-Roses (1977).
+Notes de cours très pédagogiques, hélas non publiées.
+Disponibles dans les bonnes bibliothèques universitaires, et au format pdf, avec l'aimable autorisation de Jean-Marc Lévy-Leblond et de l'École normale supérieure de Fontenay-aux-Roses :
+* Max Born, La théorie de la relativité d'Einstein et ses bases physiques, Paris, Gauthier-Villars, 1923.
+Réédité par Jacques Gabay (2003) .
+Cet ouvrage, écrit par un grand théoricien allemand, prix Nobel 1954, est remarquable pour sa clarté.
+La place occupée par l'aspect mathématique y est extrêmement réduite.
+* Albert Einstein, La théorie de la relativité restreinte et générale, Paris, Dunod, 2005,
+La version anglaise se trouve sur le http:/ catalog authrec?fk_authors=1630 projet Gutenberg
+* Albert Einstein
+, Quatre conférences sur la théorie de la relativité, Paris, Dunod, 2005, .
+Texte de quatre conférences prononcées à l'université de Princeton en 1921.
+* Thibault Damour & Stanley Deser, Relativité, Paris, Encyclopeadia Universalis 19 (1995) 739-748.
+Un exposé non technique d'une grande clarté, par un spécialiste de notoriété mondiale : Thibault Damour est professeur permanent à l'Institut des Hautes Études Scientifiques (I.H.E.S.) de Bures-sur-Yvette ;
+il a longtemps enseigné la relativité générale au D.E.A. de physique théorique de Paris.
+* Jean-Pierre Provost & Marie-Antoinette Tonnelat, Espace-temps, Paris, Encyclopeadia Universalis 8 (1995) 743-745
+Un exposé d'introduction assez simple, ou l'essentiel de la relativité en quatre pages.
+* Hubert Lumbroso,
+Relativité
+- Problèmes résolus, Paris, Édisciences ( 1996), .
+Ouvrage classique de taupe : un résumé de cours, avec un très grand nombre de problèmes corrigés.
+* Wolfgang Rindler
+, Introduction to special relativity, Oxford University Press;
+, 1991, .
+Une introduction écrite par un professeur de l'Université de Dallas (Texas), spécialiste mondial du domaine.
+* N.D. Mermin
+, It's about time: understanding
+Einstein's relativity, Princeton University Press, 2005, .
+* David Bohm, The special theory of relativity, Benjamin, 1965;
+réédition London, Routeledge, 1996, .
+Il s'agit du cours professé au Birbeck College de l'Université de Londres par David Bohm, théoricien de la physique quantique, récemment disparu.
+Le formalisme mathématique est réduit au strict nécessaire permettant de discuter les idées physiques sous-jacentes.
+Niveau premier cycle universitaire.
+* Wolfgang Rindler
+, Relativity : special, general and cosmological, Oxford University Press;
+, 2001, .
+Une introduction brillante à tous les aspects de la relativité, par un professeur de l'Université de Dallas (Texas), spécialiste mondial du domaine.
+Accessible dès le premier cycle universitaire.
+* Wolfgang Rindler
+, Essential relativity : special, general and cosmological, Texts and Monographs in Physics, Springer-Verlag;
+révisée, 1977, .
+Édition antérieure du livre précédent, toujours intéressante.
+* George F.R. Ellis & Ruth M. Williams, Flat & curved space-times, Oxford University Press;
+, 2000, .
+Une autre excellente introduction à la relativité, par un expert, professeur de l'Université de Cape-Town (Afrique du Sud), et sa collaboratrice.
+Accessible dès le premier cycle universitaire.
+* Clifford M. Will, Tests of special relativity, Séminaire Poincaré "Einstein, 1905
+" (
+9 avril 2005)
+Ce texte en anglais, écrit par le spécialiste mondial des aspects expérimentaux des deux théories relativistes d'Einstein, décrit quelques tests expérimentaux de la relativité restreinte.
+À télécharger http:/ poincare avril2005.html ici aux formats PostScript ou PDF.
+* Julian Schwinger, L'héritage d'Einstein
+- Les prolongements de la relativité, Paris, Pour la Science, 1988, diffusion Belin, coll.
+"L'Univers des sciences".
+Une présentation relativement simple de la théorie d'Einstein par un théoricien américain, prix
+Nobel de physique 1965 (avec Feynman et Tomonaga)
+pour la théorie de l'électrodynamique quantique.
+Vulgarisation de niveau premier cycle universitaire (il y a quelques équations simples).
+Aspects historiques
+* Olivier Darrigol, http:/ membres Generalites/Darrigol%20_amp.pdf Faut-il réviser l'histoire de la relativité ?
+, La Lettre de l'Académie des Sciences 14 (Hiver 2004) 6-7.
+L'auteur est physicien théoricien
+de formation
+Il travaille au laboratoire de recherches épistémologiques et historiques sur les sciences exactes et les institutions scientifiques (REHSEIS) du CNRS et de l'Université Paris VII.
+* Albert Einstein, Œuvres choisies
+- Tome 2 : Relativités I, Seuil CNRS
+Éditions (1999),
+* Marie-Antoinette Tonnelat, Histoire du principe de relativité, Nouvelle Bibliothèque Scientifique, Flammarion (1971)
+ASIN 2082101630.
+Une histoire monumentale, depuis l'Antiquité jusqu'aux théories d'Einstein.
+Comporte une imposante bibliographie.
+Même s'il contient peu d'équations, ce livre exige de l'attention de la part du lecteur.
+Certains passages techniques consacrés à la théorie de la relativité générale sont de niveau deuxième cycle universitaire minimum.
+* Abraham Pais, Albert Einstein
+- Sa vie, son œuvre, Interéditions (1993).
+Réédité par Dunod (2005) .
+La biographie scientifique , par un professeur de l'Université de Rockfeller qui a connu Einstein dans les dernières années de sa vie.
+Contenu extrêmement riche.
+Le niveau de certains passages techniques est celui d'un second cycle universitaire (au moins).
+* Arthur
+I. Miller, Albert Einstein's special theory of relativity
+- Emergence (1905) & early interpretation (1905-1911), Addison-Wesley (1981).
+Réédité par Springer-Verlag (1998) .
+* Wolfgang Pauli,
+Theory of relativity, Dover Publications, Inc.
+(1981) .
+Ce livre est une réédition anglaise d'un article de revue écrit en allemand en 1921 pour lEncyklopädie der Mathematischen Wissenschaften par Pauli.
+Voilà ce qu'en dit Einstein dans une lettre adressée à Born, son professeur à Göttingen, datée du 30 décembre 1921 : «
+Pauli est un type épatant pour ses 21 ans ;
+il peut être fier de son article pour l'Encyclopédie.
+* Françoise Balibar, Galilée, Newton lus par Einstein
+- Espace & Relativité, Collection Philosophies, Presses Universitaires de France (1984) .
+Réflexions historiques sur le principe de relativité, en 128 pages (format poche).
+Il ne s'agit pas d'un exposé de la théorie d'Einstein.
+* http:/ rr 8-08.htm
+Who invented relativity ?
+Biographies d'Einstein
+* Banesh Hoffmann, Albert Einstein, créateur et rebelle, Collection Points-Sciences, Le Seuil (1975) .
+Biographie au format poche, par un ancien collaborateur d'Einstein à l'Institute for
+Advanced
+Studies de Princeton.
+* Philippe Frank, Einstein
+- Sa vie et son temps
+, Collection
+Les savants & le monde, Albin Michel (Paris-1950).
+Réédition en poche dans la collection Champs, Flammarion (1993) .
+Une biographie autorisée de première main, par celui qui fut le successeur d'Einstein à la chaire de physique théorique de l'Université de Prague, nommé sur sa recommandation.
+Très documentée, elle décrit admirablement le contexte historique (scientifique et politique) de la genèse des travaux d'Einstein.
+* Abraham Pais, Albert Einstein
+- Sa vie, son œuvre, Interéditions (1993).
+Réédité par Dunod (2005) .
+La biographie scientifique qui fait aujourd'hui autorité depuis sa parution en 1982, par un professeur de l'Université de Rockfeller qui a connu Einstein dans les dernières années de sa vie.
+Contenu extrêmement riche.
+Le niveau de certains passages techniques est celui d'un second cycle universitaire (au moins).
+* Jacques Merleau-Ponty, Einstein, Collection Champs, Flammarion (1997) .
+Une autre biographie au format poche, par un professeur d'épistémologie de l'Université de Paris X
+Nanterre
+L'ouvrage est divisé en trois parties : l'homme, son œuvre scientifique et sa philosophie.
+* Françoise Balibar, Einstein :
+La joie de la pensée, collection Découvertes, Gallimard (1993), .
+* Kouznetsov Boris, Einstein sa vie ses théories, Belgique, Marabout Université, Des presses de Gérard & co, 1967, 336 p.

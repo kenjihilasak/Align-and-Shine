@@ -1,0 +1,23 @@
+Criteri di divisibilità
+I criteri di divisibilità permettono di verificare la divisibilità di un numero intero per un fattore.
+Un numero è divisore di un altro numero quando lo divide in parti uguali senza resto.
+Sono regole che indicano per quali divisori può essere diviso qualsiasi numero naturale.
+Vengono utilizzati per stabilire se un numero è divisibile per un altro numero senza eseguire la divisione.
+x 2:
+se l'ultima cifra è pari (es. 104:2 = 52)
+x 3:
+se la somma delle sue cifre è 3 o un multiplo di 3 (es. 15:3 = 5 -> 1+5 = 6)
+x 4:
+se le sue ultime 2 cifre sono 00 oppure un multiplo di 4 (es. 200 :
+4 = 50)
+se l'ultima sua cifra è 0 o 5 (es. 1200:5 = 240)
+x 6:
+se è divisibile per 3 ed è pari (es. 36:6 = 6 -> 3+6 = 9)
+x 7:
+se la differenza tra il numero senza le unità e il doppio delle unità è un multiplo di 7 (es. 490:7 = 70 -> 49-(0x2) = 49)
+x 8:
+se è multiplo di 2 e 4 (es. 64:8 = 8)
+x 9:
+se la somma delle sue cifre è un multiplo di 9 (es. 72:9 = 8 -> 7+2 = 9)
+x 10:
+se la sua ultima cifra è 0 (es. 230:10 = 23)

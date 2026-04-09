@@ -1,0 +1,110 @@
+Suite d'entiers|Fermat|Nombre premier|Fermat|Arithmétique modulaire|Fermat
+Un nombre de Fermat est un nombre qui peut s'écrire sous la forme 22n + 1, avec n entier naturel.
+Le n-ième nombre de Fermat, 22n + 1, est noté Fn.
+Ces nombres doivent leur nom à Pierre de Fermat, qui émit la conjecture que tous ces nombres étaient premiers.
+Cette conjecture se révéla fausse, F5 étant composé, de même que tous les suivants jusqu'à F32.
+On ne sait pas si les nombres à partir de F33 sont premiers ou composés.
+Les seuls nombres de Fermat premiers connus sont donc F0, F1, F2, F3 et F4.
+Les nombres de Fermat disposent de propriétés intéressantes, en général issues de l'arithmétique modulaire.
+En particulier, le théorème de Gauss-Wantzel établit un lien entre ces nombres et la construction à la règle et au compas des polygones réguliers : un polygone régulier à n côtés peut être construit à la règle et au compas si et seulement si n est une puissance de 2, ou le produit d'une puissance de 2 et de nombres de Fermat premiers distincts.
+Histoire
+En 1640,
+dans une lettre adressée à Bernard Frénicle de Bessy, Pierre de Fermat énonce son petit théorème et commente :
+Ce théorème lui permet d'étudier les nombres portant maintenant son nom.
+Dans cette même lettre, il émet la conjecture que ces nombres sont tous premiers mais reconnaît : .
+Cette hypothèse le fascine ;
+deux mois plus tard
+, dans une lettre à Marin Mersenne, il écrit : .
+Dans une lettre à Kenelm Digby, non datée mais envoyée par Digby à John Wallis le 16 juin 1658, Fermat donne encore sa conjecture comme non démontrée.
+Toutefois, dans une lettre de 1659 à Pierre de Carcavi, il s'exprime en des termes qui, selon certains auteurs, impliquent qu'il estime avoir trouvé une démonstration.
+Si Fermat a soumis cette conjecture à ses principaux correspondants, elle est par contre absente des Arithmétiques de Diophante rééditées en 1670, où son fils retranscrivit les quarante-sept autres conjectures qui furent plus tard prouvées.
+C'est la seule conjecture erronée de Fermat.
+En 1732, le jeune Leonhard Euler, à qui Christian Goldbach avait signalé cette conjecture trois ans auparavant, la réfute : F5 est divisible par 641.
+Il ne dévoile la construction de sa preuve que quinze ans plus tard.
+Il y utilise une méthode similaire à celle qui avait permis à Fermat de factoriser les nombres de Mersenne M et M.
+Il est probable que les seuls nombres premiers de cette forme soient 3, 5, 17, 257 et , car Boklan et Conway ont prépublié en mai 2016 une analyse très fine estimant la probabilité d'un autre nombre premier à moins d'un sur un milliard.
+Propriétés
+Premières propriétés
+La suite des nombres de Fermat possède plusieurs relations de récurrence.
+On peut citer par exemple si n est supérieur ou égal à 2 :
+:F_n \
+\ (F_ -1)^2 + 1 \quad\quad F_
+F_^2
+- 2 (F_-1)^2
+ou encore, avec des produits de nombres de Fermat :
+:F_n \
+\prod_^ F_i \ + \ 2 \quad\quad F_n
+F_ + 2^\prod_^ F_i.
+On en déduit le théorème de Goldbach affirmant que :
+Soit D (n, b) le nombre de chiffres utilisés pour écrire
+Fn en base
+:D (n,b)
+= \left\lfloor \log_\left (2^+1\right)+1 \right\rfloor \approx \lfloor 2^\,\log_b2+1 \rfloor.
+Les crochets désignent la fonction partie entière et logb le logarithme de base
+Les nombres de Fermat premiers ne sont pas des nombres brésiliens alors que les nombres de Fermat composés sont tous des nombres brésiliens.
+Nombre de Fermat et primalité
+La raison historique de l'étude des nombres de Fermat est la recherche de nombres premiers.
+Fermat connaissait déjà la proposition suivante :
+Soit k un entier strictement positif
+si le nombre 2k + 1 est premier alors k est une puissance de 2.
+Il existe deux entiers a impair et b tels que k
+a 2b.
+En posant c
+2 (2b)
+, on dispose alors des égalités suivantes :
++2^k
+1 + c^a
+1 + c)\sum_^ (-1)^i c^i,
+qui montrent que 1 + c est un diviseur du nombre premier 1 + 2k et donc lui est égal, si bien que k = 2b.
+Fermat a conjecturé (erronément, comme on l'a vu) que la réciproque était vraie ;
+il a montré que les cinq nombres
+F_0
+2^1+1
+3,\quad F_1
+2^2+1
+5,\quad F_2
+2^4+1
+17,\quad F_3
+2^8+1
+257\quad\quad F_4
+2^+1
+65\,537\quad\text
+Actuellement, on ne connaît que cinq nombres de Fermat premiers, ceux cités ci-dessus.
+On ignore encore s'il en existe d'autres, mais on sait que les nombres de Fermat Fn, pour n entre 5 et 32, sont tous composés ;
+F33 est le plus petit nombre de Fermat dont on ne sait pas s'il est premier ou composé.
+En 2013, le plus grand nombre de Fermat dont on savait qu'il est composé était : F2 747 497 ; l'un de ses diviseurs est le nombre premier de Proth 57×22 747 499 + 1.
+Factorisation des nombres de Fermat composés
+Euler démontre le théorème :
+Ceci lui permet de trouver rapidement :
+* Tout facteur premier p d'un nombre de Fermat
+Fn est de la forme k2n + 1 + 1 où k est un entier.
+Modulo p,
+Fn est congru à 0 donc 22n est congru à -1, si bien que l'ordre multiplicatif de 2 dans l'anneau ℤ/pℤ est égal à Or cet ordre multiplicatif est un diviseur de , ce qui termine la démonstration.
+* F_5
+641 \times 6~700~417.
+On peut le vérifier par un simple calcul, mais expliquons comment Euler découvrit le diviseur 641.
+On cherche un entier
+k tel que le nombre p
+64k + 1 soit à la fois premier et diviseur strict de F.
+Les premières valeurs de k ne conviennent pas, mais dès k
+, on constate que est premier et que modulo p,
+-2^
+4\equiv5^4\text-2^\equiv5^4\times2^
+5\times2^7)^4
+640^4\equiv (-1)^4
+1\textF_5\equiv0.
+Le cas général est un problème difficile du fait de la taille des entiers Fn, même pour des valeurs relativement faibles de n. En 2015, le plus grand nombre de Fermat dont on connaisse la factorisation complète est F11, dont le plus grand des cinq diviseurs premiers a 564 chiffres (la factorisation complète de Fn, pour n entre 5 et 10, est, elle aussi, entièrement connue).
+En ce qui concerne F12, on sait qu'il est composé mais c'est, en 2015, le plus petit nombre de Fermat dont on ne connaisse pas la factorisation complète.
+Quant à F20, c'est, en 2015, le plus petit nombre de Fermat composé dont on ne connaisse aucun diviseur premier.
+Série des inverses des nombres de Fermat
+La série des inverses des nombres de Fermat est convergente et sa somme \sum_^\frac1\approx 0596 est irrationnelle et même transcendante.
+Ces résultats viennent de ce que cette somme est trop bien approchée par des rationnels.
+Polygone régulier
+Gauss et Wantzel ont établi un lien entre ces nombres et la construction à la règle et au compas des polygones réguliers : un polygone régulier à n côtés est constructible si et seulement si n est le produit d'une puissance de 2 (éventuellement égale à 20 = 1) et d'un nombre fini (éventuellement nul) de nombres de Fermat premiers distincts.
+Par exemple, le pentagone régulier est constructible à la règle et au compas puisque 5 est un nombre de Fermat premier ;
+de même, un polygone à 340 côtés est constructible à la règle et au compas puisque 340 = 22.F1.F2.
+Généralisation
+Il est possible de généraliser une partie des résultats obtenus pour les nombres de Fermat.
+Pour que soit premier, doit nécessairement être pair et doit être une puissance de 2.
+On appelle couramment « nombres de Fermat généralisés » les nombres de la forme a^+1 (avec ), mais Hans Riesel a donné aussi ce nom aux nombres de la forme a^+c^.
+Le plus grand nombre premier de la forme a^+1 connu en 2017 est 24518^+1, un nombre de plus d'un million de chiffres.

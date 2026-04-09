@@ -1,0 +1,64 @@
+Redirigé depuis RAM)
+La mémoire désigne, dans le vocabulaire courant, des puces électroniques chargées de stocker des informations dans l'ordinateur.
+Ce terme est assez vague, car il peut désigner des choses très différentes.
+Sommaire
+Barrettes de mémoire vive
+La mémoire vive ou RAM (de l'anglais Random Access Memory : mémoire à accès aléatoire) est la mémoire la plus connue de l'ordinateur.
+Le processeur l'utilise pour stocker toutes sortes de données dont il a besoin rapidement.
+Sans mémoire vive, un ordinateur ne peut pas fonctionner.
+Ainsi, dès qu'on veut exécuter un logiciel, par exemple, il est d'abord chargé depuis le disque dur dans la mémoire vive avant d'être exécuté par le processeur.
+Lorsque l'ordinateur est éteint, cette mémoire est effacée.
+C'est pour cela qu'il est important de sauvegarder sur le disque dur (ou autre) son travail, lorsqu'on éteint son ordinateur.
+La mémoire vive se présente sous forme de petites cartes (appelées barrettes mémoire) qui se fixent sur la carte mère.
+Selon le modèle de l'ordinateur, on peut en fixer 2, 3 ou 4.
+Chaque barrette a une capacité (une taille) exprimée en mégaoctets ou en gigaoctets (en abrégé Mo et Go).
+Lorsqu'on veut étendre la mémoire de l'ordinateur, on doit faire attention au format des barrettes supportées par la carte mère : en effet, il en existe plusieurs sortes, et elles ne sont pas compatibles entre elles.
+Pourquoi 4 Go de RAM ?
+Il y a près de 15 ans, pratiquement tous les ordinateurs personnels possédaient un processeur « 32 bits », c’est-à-dire un processeur qui travaille sur des nombres de 32 chiffres (ou moins) quand on les écrit en binaire.
+Le processeur traite ces nombres un par un car, pour lui, ils représentent des instructions à effectuer l’une après l’autre.
+Dans la mémoire vive, chaque donnée enregistrée possède une adresse : c’est grâce à elle que le processeur peut la retrouver, un peu comme le facteur a besoin d’une adresse pour déposer une lettre chez la bonne personne.
+Quand le processeur travaille sur des blocs de 32 bits, une adresse dans la mémoire ne peut pas être plus longue que 32 bits (= 4 octets) : sinon, il serait obligé de la découper, avec tous les problèmes de lenteur, de stockage et d’exactitude que cela pourrait entraîner !
+Dans un ordinateur « 32 bits », les adresses de mémoire ne peuvent donc pas être plus longues que 32 chiffres (en binaire), ce qui signifie qu’elles doivent être comprises entre 0 et 232 = 4 294 967 295.
+C’est beaucoup car cela signifie que, si l’on donne une adresse à chaque octet de la mémoire, on peut adresser 4 294 967 296 octets, soit environ 4,3 gigaoctets (Go).
+Cependant, on a parce que c’était le maximum que pouvait accepter un processeur 32 bits : en effet, si l’on veut écrire plus d’informations dans la mémoire, il faut plus d’adresses (pour ranger ces informations) et ces adresses doivent donc mesurer plus de 32 bits.
+C’est pourquoi
+les ordinateurs modernes équipés d’un processeur 32 bits n’ont jamais plus de 4 Go de mémoire vive :
+s’ils en avaient plus, une partie ne leur servirait à rien du tout et ce serait du gâchis… car la mémoire vive coûte cher !
+Aujourd’hui
+, les fabricants d’ordinateurs proposent de plus en plus de machines équipées d’un processeur non pas 32 bits, mais 64 bits : cela signifie qu’il est capable de travailler sur des blocs de 64 bits (= 8 octets) de long, donc deux fois plus grands que ceux d’un processeur 32 bits.
+Par conséquent, la taille maximale des adresses de mémoire a elle aussi doublé, et on peut maintenant utiliser plus de 4 Go de mémoire vive sur un ordinateur 64 bits.
+En fait, la limite d’un processeur 64 bits est une mémoire vive de 264 octets, c’est-à-dire d’environ… 18 milliards de gigaoctets.
+Quelque chose de tout à fait impossible à construire de nos jours !
+Lorsque la mémoire vive ne suffit plus (lorsqu'elle est pleine), le processeur va copier une partie de la mémoire occupée sur le disque dur afin de faire de la place.
+Cela permet à l'ordinateur de continuer à travailler, mais cela le ralentit considérablement (le disque dur est beaucoup plus lent que la mémoire vive).
+On la trouve sur les cartes graphiques.
+Ce sont des mémoires vives, chargées de stocker l'image qui doit être affichée sur le moniteur.
+Il est important que cette carte dispose de sa propre mémoire et ne se serve pas de la mémoire vive utilisée par le processeur car cela le ralentirait.
+La quantité minimale de mémoire dépend de la résolution utilisée par la carte et du nombre de couleurs.
+Les cartes modernes peuvent également stocker des images (appelées textures) qui seront insérées dans les images des jeux, par exemple.
+On appelle mémoire morte ou ROM (de l'anglais Read Only Memory : mémoire en lecture seule) une mémoire qui ne perd pas son contenu lorsqu'elle n'est pas alimentée en courant électrique.
+C'est le cas des ROM BIOS, qui sont des puces qui contiennent le programme (BIOS) qui sera utilisé lors de l'allumage de l'ordinateur (quand la mémoire vive ne contient encore aucun programme et que nul système d'exploitation n'est chargé).
+Aussi appelées mémoires auxiliaires ou mémoires secondaires
+, les mémoires de masse sont des mémoires faites pour stocker de grandes quantités d'informations (elles ont une grande capacité), longtemps (de manière persistante)
+et sans avoir besoin de courant électrique pour les maintenir (elles ne sont pas volatiles)
+une carte perforée 80 colonnes
+à gauche
+: une disquette 8 poucesEn haut au milieu, une disquette 5,25 poucesEn rose, une disquette 3,5 poucesEn haut à droite, un CD
+Depuis le début des ordinateurs, vers le milieu du 20ème siècle, plusieurs techniques se sont succédées :
+Il y a tout d'abord eu les cartes perforées.
+Cela ressemble à une feuille avec des trous, chaque colonne représente 1 caractère (par exemple une lettre).
+Pour faire lire le programme à l'ordinateur, on écrivait une ligne de code par carte, en perforant des trous dans chaque colonne pour encoder les caractères (la taille standard était de 80 ou 96 colonnes, donc 80 ou 96 caractères par ligne).
+Les cartes perforées ont été utilisées depuis le début des ordinateurs (vers la fin des années 1960 pour le grand public), jusqu'au début des années 1980.
+Ensuite sont arrivées les disquettes, les ancêtres des CD.
+D'abord les disquettes 8 pouces (dont la capacité de stockage était de 40 kilo octets (Ko), soit environ 40 000 caractères ou 500 cartes perforées).
+Les disquettes 5,25 pouces avaient une mémoire alant de 360 Ko à 1,2 mégaoctets(Mo) .
+Elles ont dominé les périphériques de stockage pendant les années 1980.
+Les disquettes 3,5 pouces, les dernières disquettes, pouvaient stocker 1,4 Mo .
+Cela représente environ la taille d'une image.
+Elles ont été largement utilisées entre 1990 et 2000.
+Les CD (Compact Disc, disque compact) sont ensuite arrivés, et sont restés pendant toute la première décennie de 21ème siècle.
+Ils sont d'ailleurs encore un peu utilisés de nos jours, mais sont peu à peu remplacés.
+Ils peuvent stocker 650 à 700 Mo.
+Depuis 2010, ce sont les clés USB qui sont utilisées, avec les disques durs.
+Elles stockent entre quelques dizaines de mégaoctets et 2 teraoctets (To), soit deux mille milliards de caractères.
+2 To de données écrites sur des cartes perforées représenteraient 150 000 mètres cubes, ce qui fait le volume de 60 piscines olympiques (50m de long, 25m de large, 2m de profondeur).

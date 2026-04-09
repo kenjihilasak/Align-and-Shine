@@ -1,0 +1,95 @@
+Onde|Distance et longueur|Électromagnétisme|Optique
+La longueur d’onde est une grandeur physique homogène à une longueur, caractéristique d'une onde monochromatique dans un milieu homogène, définie comme la distance séparant deux maxima consécutifs de l'amplitude .
+La longueur d'onde dépend de la célérité ou vitesse de propagation de l'onde dans le milieu qu'elle traverse.
+Lorsque l'onde passe d'un milieu à un autre, dans lequel sa célérité est différente, sa fréquence reste inchangée, mais sa longueur d'onde varie .
+Lorsque l'onde n'est pas monochromatique, l'analyse harmonique permet de la décomposer en une somme d'ondes monochromatiques.
+Les phénomènes physiques ne sont jamais strictement périodiques ;
+l'analyse spectrale aboutit à une somme infinie d'ondes monochromatiques.
+On considère alors la longueur d'onde dominante, c'est-à-dire celle qui correspond à la fréquence qui transporte le plus d'énergie, ou à la fréquence centrale de la plage qui transporte le plus d'énergie.
+Les longueurs d'onde sont d'un usage courant en acoustique, en , en optique.
+Définition
+Une onde est une perturbation qui se propage dans un milieu sans modifier de façon permanente ses propriétés.
+Pour étudier ces perturbations, il est utile de simplifier la réalité, en considérant que le milieu est homogène et que les ondes sont monochromatiques, c'est-à-dire se répètent à l'infini avec une seule fréquence.
+L'analyse spectrale montre que, si les relations physiques dans le milieu sont linéaires, toutes les perturbations peuvent se décrire en une série, éventuellement infinie, de phénomènes périodiques monochromatiques, décrits par des sinusoïdes.
+On étudie séparément les transitions entre les milieux homogènes.
+Si un milieu varie progressivement, on considère que cette variation est une suite de transitions entre des milieux extrêmement proches.
+Dans ces conditions et avec ces méthodes, l'étude des ondes monochromatiques dans un milieu homogène est la base de toutes les autres études.
+Dans un milieu homogène, une perturbation monochromatique se propage avec une célérité constante.
+Si on observe l'état du milieu en un point donné, il se retrouve identiquement à chaque période.
+Si on observe l'état du milieu entier en un instant donné, la longueur l'onde est la distance entre deux points qui sont au même état.
+On peut choisir comme point de référence pour la mesure le passage en baisse au point d'équilibre, ou tout autre point bien défini.
+En physique, on note souvent la longueur d'onde par la lettre grecque λ (lambda).
+Si l'onde décrit une fonction périodique quelconque, on peut définir la longueur d’onde comme le plus petit λ > 0 tel que pour tout x, on ait :
+\displaystyle
+La longueur d’onde est l’équivalent spatial de la période temporelle.
+En effet, la longueur d’onde est la distance parcourue par l’onde au cours d’une période.
+Si on appelle c la célérité de l’onde et T sa période temporelle et f sa fréquence, on a :
+\lambda
+c*T ce qui équivaut à \lambda
+\frac
+c f puisque T=\frac 1 f
+La période est l’équivalent temporel de la longueur d’onde : la période est le temps minimal qui s’écoule entre deux répétitions identiques de l’onde en un même point.
+Pour une onde sinusoïdale, la longueur d’onde est la distance entre deux pics de même signe successifs.
+La longueur d'onde en optique
+La longueur d'onde a une importance historique et pratique en optique.
+Au , Joseph von Fraunhofer
+étudiait le spectre solaire, et relia les couleurs de la lumière décomposée par le prisme optique aux longueurs d'onde des rayonnements correspondants, calculées d'après les interférences au passage d'un réseau optique.
+Les réseaux optiques relient, par une relation géométrique, les longueurs d'onde aux couleurs.
+Les réseaux optiques et les filtres interférentiels continuent d'avoir beaucoup d'applications, et leur calcul implique la longueur d'onde.
+On a donc l'habitude, en optique, de caractériser les rayonnements par leur longueur d'onde.
+La vitesse de la lumière dans l'air est peu différente de celle dans le vide, mais elle varie sensiblement dans les divers milieux qu'elle traverse, l'eau, les verres optiques, les milieux organiques qui composent l'œil humain.
+La fréquence, liée à l'énergie que transporte le rayonnement électromagnétique quand on le considère comme un flux de photons, est invariable.
+Par conséquent, la longueur d'onde varie selon les milieux traversés.
+La variation de vitesse provoque, au passage d'un milieu à un autre, des réfractions.
+Quand la célérité de la lumière varie, la longueur d'onde varie.
+Cette variation dépend légèrement de la fréquence, ce qui cause aussi de la dispersion.
+La longueur d'onde dans le matériau de la fibre optique est un paramètre capital pour en déterminer le mode de transmission.
+La longueur d'onde en acoustique et en radio
+L'histoire de l'acoustique commence avec l'étude de phénomènes vibratoires, dont la fréquence, calculée par extrapolation de systèmes vibrants de plus grandes dimensions, était la caractéristique la plus accessible.
+La longueur d'onde n'intervient que dans le calcul des résonances dans un tube.
+À partir du , les systèmes électroniques ont permis d'étendre progressivement le domaine des fréquences produites.
+Dans les premiers temps de la radiodiffusion, on désignait plus généralement le signal par sa longueur d'onde que par sa fréquence.
+On classait les bandes en grandes ondes, ondes moyennes et ondes courtes, et on disait plutôt que .
+La longueur d'onde reste une caractéristique secondaire, importante quand il s'agit d'antenne radioélectrique et de ligne de transmission.
+Comme celle de la lumière dans différents milieux, la célérité des ondes électromagnétiques est inférieure dans les lignes de transmission à ce qu'elle est dans le vide, tandis que la fréquence reste invariable.
+Vecteur d'onde et nombre d'onde
+À chaque longueur d’onde est associée un nombre d’
+onde et un vecteur d’
+onde.
+Le nombre d’onde est une grandeur proportionnelle au nombre d’oscillations qu’effectue une onde par une unité de longueur : c’est le nombre de longueurs d’onde présentes sur une distance de 2 \pi unités de longueur.
+Ce nombre d’onde est ainsi une grandeur inversement proportionnelle à la longueur d’onde.
+Son unité est le radian par mètre.
+Le vecteur d’onde (ou « vecteur de phase », en électronique notamment) est un vecteur représentant une onde.
+La norme du vecteur correspond au nombre d’onde (lié à l’inverse de la longueur d’onde), et sa direction indique la direction de propagation de l’onde.
+Le vecteur d’onde est très utile pour généraliser l’équation d’une onde à la description d’une famille d’ondes.
+Si toutes les ondes d’une famille se propagent dans la même direction et possèdent la même longueur d’onde, elles peuvent toutes être décrites par le même vecteur d’onde.
+Le cas le plus courant d’une famille d’onde respectant ces conditions est celle d’une onde plane, pour laquelle la famille d’ondes est également cohérente (toutes les ondes possèdent la même phase).
+Onde électromagnétique
+Une onde électromagnétique se propage dans le vide, à une vitesse constante et indépassable.
+La vitesse de la lumière dans le vide c est une importante constante physique.
+\lambda _0 = \frac
+où :
+* \lambda_0 est la longueur d’onde dans le vide de l’onde ;
+unité
+= mètre (m)
+* c est la vitesse de la lumière (≈) ;
+unité
+= mètre par seconde (m/s)
+* \nu (nu) est la fréquence de l’onde ;
+unité = Hertz (Hz)
+Longueur d'onde de De Broglie
+Louis de Broglie a découvert que toutes les particules physiques dotées d’une quantité de mouvement ont une longueur d’onde, nommée longueur d’onde de De Broglie .
+Pour une particule relativiste, la longueur d’onde de De Broglie est donnée par
+\lambda
+\frac
+\frac
+\frac
+\frac
+\sqrt
+où ~h~ est la constante de Planck, ~p~ est la quantité de mouvement de la particule, ~\gamma~ le facteur de Lorentz, ~m_0~ la masse de la particule au repos, ~v~ la vitesse, et ~c~ la célérité de la lumière dans le vide.
+Longueur d'onde thermique de De Broglie
+La longueur d'onde thermique de De Broglie correspond à la longueur d'onde de De Broglie typique des particules d'un gaz porté à une température T donnée.
+Cette grandeur intervient (entre autres) dans les discussions justifiant que les effets quantiques sont négligeables quand on considère un volume macroscopique de gaz.
+Voir aussi
+Bibliographie
+Articles connexes

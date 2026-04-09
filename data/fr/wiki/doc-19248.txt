@@ -1,0 +1,109 @@
+Statique
+Le principe fondamental de la statique (PFS), ou théorème de l'équilibre, exprime les conditions d'équilibre d'un solide indéformable dans un référentiel galiléen.
+Un objet est à l'équilibre
+lorsqu'il a un mouvement rectiligne uniforme (son moment dynamique est nul en tous points, ce qui implique que son accélération linéaire et son accélération angulaire soient nulles).
+Souvent, on considère le cas d'un objet immobile.
+Énoncé avec les forces et les moments
+Considérons un solide soumis à un ensemble de forces extérieures \vec_1, \vec_2, …, \vec_n, et de couples extérieurs \vec_1, \vec_2, …, \vec_m.
+Considérons un point A quelconque de l'espace.
+Alors, le solide est en équilibre par rapport à un référentiel galiléen si la somme des forces est nulle et si la somme des moments des forces par rapport à A et des couples est nulle :
+théorème de la résultante statique :
+\sum_^n \vec_i = \vec ;
+: théorème du moment statique :
+\sum_^n \vec_ (\vec_i) + \sum_^m \vec_i = \vec.
+En général, on ne choisit pas le point A au hasard : pour simplifier les calculs, on prend le point d'application d'une force inconnue, et lorsque plusieurs forces sont inconnues, on prend le point d'application de la force « la moins connue » (celle dont on ne connaît ni l'intensité, ni la direction).
+Remarques :
+Il est essentiel que le référentiel soit galiléen.
+Comme contre-exemple, on peut prendre un objet posé sans frottement (ou frottement négligeable) sur la banquette d'une automobile qui freine brusquement.
+La somme des forces intérieur exercées sur l'objet est nulle (le poids vertical est compensé par la réaction verticale de la banquette) et pourtant l'objet ne reste pas immobile, dans le référentiel de l'automobile.
+* Si le référentiel n'est pas galiléen, on ne peut théoriquement pas utiliser le principe.
+On peut cependant travailler dans ce référentiel comme s'il était galiléen, à condition de prendre en compte des termes correctifs que l'on appelle forces d'inertie.
+Dans le cas d'un problème plan, on peut se contenter d'exprimer les moments par un nombre (la composante sur un axe perpendiculaire au plan) et non un vecteur, on écrit alors pour la deuxième condition :
+\sum_^n \mathrm_ (\vec_i)
++ \sum_^m \mathrm_i =
+Notons que le moment d'une force \vec_i par rapport à A est également souvent noté
+\vec_,
+la deuxième condition s'écrit alors :
+\sum_^n \vec_ + \sum_^m \vec_i = \vec.
+Énoncé avec les torseurs
+Considérons un solide 0 soumis à un ensemble d'actions mécaniques extérieures représentées par les torseurs statiques \, \, …, \. Alors, le solide est en équilibre par rapport à un référentiel galiléen si la résultante des actions extérieures est nulle :
+: \sum_^n \ = \.
+On note ℰ l'espace réel.
+On voit en fait
+que l'équation du moment statique
+: \forall \mathrm \in \mathcal, \sum \vec_ (\mathrm) = \vec
+suffit seule à établir l'équilibre.
+En effet, les torseurs sont des champs de vecteurs, ici les champs de moments de forces, donc la somme de torseurs est en fait la somme des moments.
+La résultante d'un torseur n'est qu'une propriété de ce champ ;
+l'équation de la résultante
+\sum \vec_ = \vec
+dérive de l'équation des moments par les propriétés d'addition des torseurs.
+Dans la pratique, il est plus aisé de vérifier l'équation de la résultante d'une part, et l'équation des moments en un point donné d'autre part, plutôt que de vérifier l'équation des moments en tout point.
+Pour simplifier les calculs, on transporte tous les torseurs au point d'application d'une action inconnue (point où la réduction du torseur de cette action est un glisseur), et lorsque plusieurs actions sont inconnues, on prend le point d'application de l'action «
+la moins connue » (celle ayant le plus de composantes inconnues)
+En effet, plus les termes du produit vectoriel comporte d'inconnues, plus le calcul est malaisé.
+Traduction graphique
+En statique graphique, la nullité de la somme des forces se traduit par un polygone des forces (un dynamique) fermé.
+La nullité des moments peut se traduire par la construction d'un polygone funiculaire, ou dans certains cas simples :
+* solide soumis à deux forces : les deux forces ont la même ligne d'action ;
+* solide soumis à trois forces non parallèles : méthode des trois forces concourantes ;
+* solide soumis à quatre forces dont les directions sont connues : méthode de Culmann.
+Résolubilité du système d'équations et stratégie de résolution
+Le PFS fournit six équations.
+Cela signifie que l'on ne peut déterminer que six inconnues.
+Dans le cas de la simplification des problèmes plans, le PFS ne fournit que trois équations, ce qui signifie que l'on ne peut déterminer que trois inconnues.
+Le PFS décrit l'état d'un système rigide, c'est-à-dire dont les points caractéristiques
+- centre de gravité, points d'application des forces extérieures
+- sont immobiles les uns par rapport aux autres ;
+ce système rigide peut être une pièce ou un ensemble de pièces liées.
+On peut écrire le PFS pour chacune des pièces ou chacun des sous-systèmes, le nombre global d'inconnues pour le problème peut donc être supérieur à six.
+Concernant le problème, il faut toutefois s'assurer que le nombre total d'inconnues est égal au nombre total d'équations libres, c'est-à-dire que le problème est isostatique.
+Si le système n'est pas isostatique, il faut :
+* s'il y a trop d'inconnues statiques (système surcontraint),
+soit faire des hypothèses simplificatrices (par exemple symétrie),
+soit remplacer des liaisons par d'autres liaisons plus « souples »
+** soit introduire
+des équations supplémentaires, typiquement décrivant la déformation élastique des pièces (résistance des matériaux)
+* s'il y a trop d'équations, revoir le système ou sa modélisation.
+En présence d'un système isostatique, il convient d'isoler un sous-ensemble
+* ne comportant pas plus de six inconnues (trois pour un problème plan) ;
+La recherche des sous-systèmes à résoudre et l'ordre de résolution fait utilise typiquement le graphe des liaisons cinématiques.
+En général, un problème de statique consiste à déterminer les efforts pour une liaison déterminée.
+On commence donc par isoler le sous-système le plus petit dont la frontière passe par la liaison à laquelle on s'intéresse, et contenant au moins une action mécanique entièrement définie.
+On dénombre les inconnues de ce sous-système ;
+si l'on n'a pas plus de six (ou trois en plan) inconnues, on peut appliquer directement le PFS.
+Sinon
+, il faut rechercher un sous-système de ce sous-système : le sous-système le plus grand contenant l'action connue et n'ayant pas plus de six (ou trois en plan) inconnues.
+On applique d'abord le PFS à ce sous-système, ce qui permet d'avoir de nouvelles actions mécaniques entièrement déterminées.
+On revient ensuite à la première étape.
+Exemple : élévateur de manège
+Prenons l'exemple d'un élévateur de manège.
+Le rôle de ce système est de faire monter et descendre un sujet sur une plateforme repérée 4 par rapport au bâti rep.
+1, en utilisant un vérin rep.
+, le sujet devant rester horizontal.
+Le guidage se fait par l'intermédiaire d'un parallélogramme déformable formé du bras de levage rep.
+2 et de la bielle rep.
+Nous nous plaçons dans le cadre d'un problème plan, ce qui permet de faire un schéma cinématique simplifié.
+Connaissant le poids \vec qui s'exerce au centre de gravité G de l'ensemble , nous désirons connaître la pression d'huile nécessaire dans le vérin, pressions s'exerçant sur le piston rep.
+6 en L.
+Nous considérons que l'étude de l'isostatisme a été faite, et dans le cadre d'un problème plan, nous remplaçons toutes les liaisons tournantes par des liaisons pivot pour simplifier la représentation.
+Dans un premier temps, nous isolons un par un les sous-système sur deux pivots et dont on néglige le poids : la bielle et le vérin .
+Pour ces systèmes, nous savons que les forces sont dans l'axe des pivots, respectivement (CH) et (KM).
+La surface du piston, sur laquelle pousse l'huile, est perpendiculaire à l'axe du vérin, on connaît donc également la direction de l'action de l'huile sur le vérin.
+Le premier essai consiste à définir le plus petit sous-ensemble contenant la force connue, et dont la frontière contient le point d'application de la force inconnue.
+Cette frontière passe donc par L et elle contient G ;
+le sous-ensemble considéré est (image de gauche).
+Les actions de contact avec l'extérieur du sous-système totalisent 4 inconnues (1 en C, 2 en F, 1 en L) ;
+on ne peut donc pas résoudre le PFS avec ce sous-système.
+Le plus grand sous-système pour lequel on peut résoudre le PFS est (image du milieu).
+Cela permet de déterminer les actions en A et en C.
+Par la suite, le plus petit sous-ensemble ayant une action connue et contenant L est
+Il contient une action totalement connue (en A) et l'action recherchée (en L), c'est donc le second sous-ensemble que l'on isolera.
+Il nous permettra de déterminer l'action en L et donc la pression dans le vérin.
+La résolution en elle-même peut être analytique (par les vecteurs ou les torseurs) ou bien, s'agissant d'un problème plan, graphique.
+Statique et dynamique
+Le principe fondamental de la statique peut être vu comme un cas particulier du principe fondamental de la dynamique : celui lorsque les accélérations linéaire \vec et angulaire \vec sont nulles.
+À l'inverse, on peut traiter un problème de dynamique avec le PFS en considérant les forces d'inertie, ou bien encore le principe de d'Alembert.
+Bibliographie
+Articles connexes
+r22a9wnxe7ln82pfdauuwjbx3a20mp5

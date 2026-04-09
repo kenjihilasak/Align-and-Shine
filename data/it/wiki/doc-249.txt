@@ -1,0 +1,135 @@
+In geometria, il triangolo è un poligono formato da tre lati;
+di conseguenza il triangolo ha tre vertici e quindi tre angoli (interni).
+Il triangolo è la figura con il minor numero di lati, in quanto tre è il numero minimo di segmenti necessari per delimitare una superficie chiusa, non esistono infatti poligoni aventi uno o due lati;
+in un triangolo non si possono tracciare diagonali.
+Caratteristiche del triangolo
+Il triangolo è caratterizzato dalle seguenti proprietà:
+# è una "figura indeformabile", a differenza dei poligoni con un numero maggiore di lati;
+cioè assegnate le lunghezze dei lati, sono univocamente determinati anche gli angoli;
+# è l'unico poligono per cui non è richiesto che sia regolare perché sia sempre possibile circoscrivere e inscrivere una circonferenza, perché per tre punti passa sempre una e una sola circonferenza;
+# la somma degli angoli interni è uguale ad un angolo piatto, ossia 180°;
+va comunque precisato che tale uguaglianza vale soltanto nella geometria euclidea e non in altri tipi di geometria come la geometria sferica e quella iperbolica, dove invece tale somma è, rispettivamente, maggiore e minore di 180°;
+# la somma di due lati deve essere sempre maggiore del terzo lato e la differenza di due lati deve essere sempre minore del terzo lato.
+Due triangoli sono congruenti se soddisfano almeno uno dei criteri di congruenza.
+Due triangoli si dicono simili se soddisfano almeno uno dei criteri di similitudine.
+Classificazione dei triangoli
+I triangoli possono essere classificati in base alla lunghezza relativa dei lati:
+* In un triangolo equilatero tutti i lati hanno lunghezza uguale.
+Un triangolo equilatero si può definire equivalentemente come triangolo equiangolo, ovvero triangolo avente i suoi angoli interni di uguale ampiezza, pari a 60°.
+* In un triangolo isoscele due lati hanno lunghezza uguale.
+Un triangolo isoscele si può definire equivalentemente come triangolo avente due angoli interni di uguale ampiezza.
+* In un triangolo scaleno tutti i lati hanno lunghezze differenti.
+Un triangolo scaleno si può definire equivalentemente come triangolo avente i tre angoli interni di diverse ampiezze.
+I triangoli possono essere classificati anche in base alle dimensioni del loro angolo interno più ampio;
+sono descritti di seguito usando i gradi d'arco.
+* Un triangolo rettangolo (o triangolo retto) ha un angolo interno di 90°, cioè un angolo retto.
+Il lato opposto all'angolo retto è detto ipotenusa;
+è il lato più lungo del triangolo rettangolo.
+Gli altri due lati del triangolo sono detti cateti.
+Per questo triangolo vale il teorema di Pitagora.
+* Un triangolo ottusangolo (o triangolo ottuso) ha un angolo interno maggiore di 90°, cioè un angolo ottuso.
+* Un triangolo acutangolo (o triangolo acuto) ha tutti gli angoli interni minori di 90°, cioè ha tre angoli acuti.
+* Un triangolo equiangolo, cioè se ha tutti gli angoli interni uguali, cioè di 60°, cioè se e solo se è un triangolo equilatero.
+Per i triangoli che non sono rettangoli vale una generalizzazione del teorema di Pitagora nota in trigonometria come teorema di Carnot.
+Triangoli degeneri e triangoli ideali
+Si dice triangolo degenere un triangolo che presenta un angolo
+di 180°.
+Gli altri due angoli hanno necessariamente ampiezza zero, ed un lato misura quanto la somma degli altri due:
+tale triangolo, come insieme di punti (graficamente), costituisce un segmento.
+Si usa il termine triangolo degenere anche per una figura ottenuta come limite di un triangolo nel quale alcuni dei suoi vertici vanno all'infinito;
+tale figura si chiama anche triangolo ideale.
+Questa costruzione è molto usata in geometria iperbolica.
+Un triangolo ideale con un vertice all'infinito risulta essere una striscia delimitata da un segmento e da due semirette che si estendono illimitatamente nella stessa direzione, ciascuna delle quali ha come estremità una di quelle del segmento;
+in particolare le rette possono essere ortogonali al segmento.
+Punti notevoli
+Ad ogni triangolo sono associati vari punti, ciascuno dei quali svolge un ruolo che, per qualche aspetto, lo qualifica come centrale per il triangolo stesso.
+Definiamo concisamente questi punti riferendoci ad un triangolo T i cui vertici denotiamo con A, B e C e i cui lati opposti denotiamo rispettivamente con a, b e c.
+* ortocentro di T è l'intersezione delle sue altezze;
+* baricentro o centroide di T è l'intersezione delle sue mediane;
+* incentro di T è l'intersezione delle sue tre bisettrici, ovvero il centro dell'incerchio di T;
+* circocentro di T
+è l'intersezione dei suoi tre assi, ovvero il centro della sua circonferenza circoscritta (vedi circumcerchio);
+* excentro di T opposto a un suo vertice A
+è l'intersezione della sua bisettrice in A e delle due bisettrici esterne relative ai due vertici rimanenti B e C;
+* punto di Bevan di T è il circocentro del triangolo excentrale di T;
+* punto di Apollonio di T è l'intersezione dei tre segmenti che rispettivamente uniscono un vertice A di T con il punto nel quale l'excerchio di T opposto ad A è tangente al cerchio tangente ai tre excerchi di T;
+* punto di Gergonne di T è l'intersezione dei tre segmenti che rispettivamente uniscono un vertice A di T con il punto nel quale il lato di T opposto ad A è tangente dell'incerchio di T;
+* punto di Nagel di T è l'intersezione dei tre segmenti ciascuno dei quali unisce un vertice di T con il punto nel quale il suo lato opposto è tangente del corrispondente excerchio;
+* punto di Fermat di T è l'intersezione dei tre segmenti ciascuno dei quali unisce un vertice A di T con il vertice non appartenente a T del triangolo equilatero uno dei cui lati è il lato a opposto ad A ed esterno a T;
+* punto di Napoleone di T è l'intersezione dei tre segmenti che collegano ognuno un suo vertice A con il centro del triangolo equilatero costruito, esternamente a T, sul lato a opposto ad A;
+* centro dei nove punti di T è il centro del cosiddetto cerchio dei nove punti (o cerchio di Feuerbach) di T;
+questi nove punti comprendono i tre punti medi dei lati di T, i tre piedi delle altezze di T, i punti medi dei tre segmenti ciascuno dei quali unisce un vertice di T con l'ortocentro di T.
+* punto pedale di T è l'intersezione di ciascuna delle tre rette perpendicolari ai lati di T.
+* punto ceviano di T è l'intersezione di tre rette ceviane.
+Formulario
+Formule trigonometriche
+L'area di un triangolo può essere trovata per via trigonometrica.
+Usando le lettere della figura a destra, l'altezza h
+a\sin\gamma.
+Sostituendo questo nella formula trovata precedentemente (per via geometrica), S
+\fracab\sin\gamma.
+L'area di un triangolo è quindi anche uguale al semiprodotto di due lati per il seno dell'angolo compreso.
+Di conseguenza, per la nota identità \sin x=\sin (\pi-x), l'area di un triangolo qualsiasi con i due lati a e b e l'angolo compreso \gamma, è uguale all'area del triangolo con gli stessi lati a e b ma con angolo compreso supplementare (\pi-\gamma)
+L'area di un parallelogramma con due lati adiacenti a e b e angolo compreso \gamma è il doppio di quella del triangolo che ha gli stessi dati, cioè ab\sin\gamma.
+Per risolvere il triangolo, cioè determinare la misura di tutti i lati ed angoli, dati due lati e l'angolo compreso fra di essi, o un lato e i due angoli adiacenti, si usano il teorema dei seni e il teorema del coseno, quest'ultimo meglio noto col nome di Carnot.
+L'area A del triangolo può essere misurata con la formula matematica:
+A = \frac,
+dove b è la base e h l'altezza ad essa relativa, perché il triangolo va visto come la metà di un parallelogramma di base b e altezza h.
+Alternativamente l'area del triangolo può essere calcolata
+con
+A = \sqrt,
+dove a, b e c sono i lati e p il semiperimetro (Formula di Erone).
+Formule analitiche
+Consideriamo un triangolo ABC nel piano cartesiano individuato attraverso le coppie di coordinate dei vertici (x_A,y_A), (x_B,y_B), (x_C,y_C).
+La sua area A è dato dall'espressione
+\frac \left\det\beginx_A & x_B & x_C \\ y_A & y_B & y_C \\ 1 & 1 & 1\end \right|
+\frac
+\big| x_A (y_B - y_C) - x_B (y_A - y_C) + x_C (y_A - y_B) \big|,
+oppure con un'espressione che non utilizza il concetto di matrice
+A = \frac,
+oppure
+A = ( x_M - x_m ) ( y_M - y_m ) - \left ( \frac\big|x_A - x_B \big| \big|y_A - y_B \big| + \frac\big|x_A - x_C \big| \big|y_A - y_C \big| + \frac\big|x_B - x_C \big| \big|y_B - y_C \big|\right),
+dove
+x_M = \mathrm \
+x_m = \mathrm \
+y_M = \mathrm \
+y_m = \mathrm \
+e il suo perimetro P è dato da
+:P = \sqrt + \sqrt + \sqrt.
+Geometrie non euclidee
+Il concetto di triangolo si estende ed è ampiamente usato in tutte le geometrie non euclidee.
+Un triangolo in una geometria non euclidea si differenzia generalmente per il fatto che la somma dei suoi angoli interni non è 180°:
+questa somma è inferiore a 180° per ogni triangolo nel caso di una geometria iperbolica, mentre è superiore per ogni triangolo nel caso di una geometria ellittica.
+Teoremi sui triangoli
+I criterio di congruenza dei triangoli
+Se due triangoli hanno rispettivamente congruenti due lati e l'angolo tra essi compreso, essi sono congruenti.
+II criterio di congruenza dei triangoli
+Se due triangoli hanno rispettivamente congruenti due angoli e il lato ad essi adiacente, essi sono congruenti.
+III criterio di congruenza dei triangoli
+Se due triangoli hanno rispettivamente congruente i tre lati, essi sono congruenti.
+Criterio generale di congruenza dei triangoli
+Se due triangoli hanno rispettivamente congruenti un lato e due angoli qualsiasi, essi sono congruenti.
+I teorema dell'angolo esterno
+In un triangolo ogni angolo esterno è maggiore di ciascuno degli angoli interni non adiacenti ad esso.
+II teorema dell'angolo esterno
+In un triangolo l'angolo esterno di uno di essi è uguale alla somma degli altri due angoli interni.
+Corollario 1:
+un triangolo non può avere né due angoli retti, né due angoli ottusi, né un angolo retto e uno ottuso, cioè un triangolo ha almeno due angoli acuti.
+Corollario 2:
+gli angoli alla base di un triangolo isoscele sono acuti.
+Disuguaglianza triangolare
+In un triangolo ciascun lato è minore della somma degli altri due e maggiore della loro differenza.
+I criterio di similitudine dei triangoli
+Se due triangoli hanno due angoli rispettivamente congruenti, allora sono simili.
+II criterio di similitudine dei triangoli
+Se due triangoli hanno rispettivamente due lati proporzionali e l'angolo tra essi compreso congruente, allora sono simili.
+III criterio di similitudine dei triangoli
+Se due triangoli hanno i tre lati rispettivamente proporzionali, allora sono simili.
+Criterio generale di similitudine dei triangoli
+Se due triangoli hanno due angoli rispettivamente congruenti, essi sono simili.
+I teorema di Euclide
+In un triangolo rettangolo ogni cateto è medio proporzionale tra l'ipotenusa e la sua proiezione sull'ipotenusa.
+II teorema di Euclide
+In un triangolo rettangolo l'altezza relativa all'ipotenusa è media proporzionale fra le proiezioni dei cateti sull'ipotenusa.
+Teorema di Pitagora
+In ogni triangolo rettangolo , il quadrato costruito sull'ipotenusa è uguale alla somma dei quadrati costruiti sui cateti.

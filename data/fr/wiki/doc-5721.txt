@@ -1,0 +1,76 @@
+Mécanique céleste|Unité de temps
+Un jour sidéral est la durée que met une planète pour faire un tour sur elle-même par rapport au point vernal, indépendamment de sa révolution autour du Soleil.
+Le jour sidéral terrestre
+dure un petit peu plus de 23 h 56 min 4 s. C'est en raison de la révolution de la Terre autour du Soleil en même temps qu'elle tourne sur elle-même que le jour solaire dure quelques minutes de plus, soit 24 heures en moyenne.
+Présentation détaillée
+Dans le cas de la Terre, un jour sidéral apparent est défini comme étant l'intervalle de temps séparant deux transits successifs du point vernal au méridien.
+Le temps que nous utilisons dans la vie quotidienne est basé sur le temps solaire.
+L'unité fondamentale du temps solaire est le jour solaire : c'est l'intervalle de temps séparant deux passages du Soleil au méridien, en raison de la rotation de la Terre.
+Mais, par rapport au point vernal ou par rapport aux étoiles fixes, la Terre n'effectue pas une rotation de 360 degrés en un jour solaire.
+En effet la Terre se déplace autour du Soleil et en un jour elle parcourt en moyenne un peu moins d'un degré sur son orbite :
+360 / 365,25 = 0,9856 degré par jour.
+Donc en 24 heures la direction Terre-Soleil change d'environ un degré.
+En conséquence, la Terre doit effectuer en réalité une rotation d'environ 361 degrés sur elle-même pour que le Soleil revienne au méridien et semble avoir parcouru 360 degrés dans le ciel.
+En moyenne, un jour solaire est 3 minutes 56 secondes plus long qu'un jour sidéral, à cause du degré de rotation terrestre supplémentaire dans le jour solaire.
+La durée d'une année tropique est de 365,2422 jours solaires, autrement dit durant cette année la Terre effectue le même nombre de tours sur elle-même par rapport au Soleil.
+Mais dans le même temps, par rapport aux étoiles, la Terre effectue sur elle-même un tour de plus c'est-à-dire 366,2422 tours sur elle-même ;
+une année tropique dure donc 366,2422 jours sidéraux et un jour sidéral vaut :
+365,2422/366,2422 = solaire ;
+soit .
+En pratique on utilise aussi le jour sidéral moyen qui tient compte en particulier des mouvements du pôle.
+Calcul du jour sidéral
+Le plus simple
+à partir de l'année julienne.
+En une année la Terre tourne sur elle-même
+un tour de plus par rapport à une direction fixe que par rapport au Soleil puisque sa rotation d'ensemble autour du Soleil lui rajoute "gratuitement" un tour supplémentaire.
+Une année
+365,25 rotations de la Terre par rapport au Soleil
+366,25 rotations par rapport à une direction fixe
+Un jour solaire reste bien égal à T_\text
+24 \times 3\,600
+86\,400\;\rm
+Donc le jour sidéral vaut T_\text
+T_\text \times
+T_\text \times 0997\,269\,62 = 86\,16410\;
+\rm
+86 164,10 s = 23 heures 56 minutes 4,10 secondes
+cas :
+à partir de l'année tropique.
+Le même calcul que ci-dessus conduit à :
+T_\text
+T_\text \times
+T_\text \times 0997\,269\,57 = 86\;16409\;\rm
+86 164,09 s = 23 heures 56 minutes 4,09 secondes
+En déterminant la vitesse de rotation de la Terre sur elle-même
+Une autre manière de faire le calcul est la suivante :
+On note \omega la vitesse angulaire de rotation de la Terre sur elle-même en (rad/s).
+Jour sidéral :
+T_\text = \frac.
+Sur la figure ci-
+dessus
+, cela correspond au temps mis par la Terre pour aller de la position 1 à 2 sur l'orbite terrestre.
+Jour solaire :
+T_\text = \frac.
+Ici on a ajouté un angle \alpha car sur la figure on va de la position 1 à la position 3, donc la Terre a tourné sur elle-même de plus de 2 \pi radians.
+Cet angle \alpha correspond, vu du Soleil, à l'angle parcouru entre les positions 1 et 3 (ou 1 et 2 car en pratique l'angle entre les positions 2 et 3 est de l'ordre de 10 secondes d'arc).
+Or entre les positions 1 et 3, il s'écoule par définition 24 h et l'angle parcouru par la Terre en un jour est : \alpha = \frac
+On peut alors déduire \omega :
+T_\text
+24 \times 3\,600
+\frac
++ \frac
+donc
+\omega = 7292\,115 \times 10^\;
+\rm rad \cdot s^
+Finalement on retrouve la durée du jour sidéral :
+T_\text
+\frac
+\frac = 86\,16410\;\rm
+Différence avec le jour stellaire
+En astronomie, on s'intéresse seulement à la durée de rotation de la Terre relativement aux étoiles dites fixes et non pas au Soleil.
+On utilise donc une échelle de temps qui se charge uniquement de déterminer le temps mis par la Terre pour effectuer une rotation de 360 degrés par rapport aux étoiles.
+Cette durée de rotation est le jour stellaire.
+Le jour sidéral est plus court que le jour stellaire, à cause du mouvement de précession du point vernal.
+Cette différence est d'environ 8 millisecondes .
+Articles connexes
+2fa427d9v979ua0z0kfy34mr7te9ekf

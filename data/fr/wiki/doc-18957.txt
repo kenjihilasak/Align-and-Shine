@@ -1,0 +1,68 @@
+Protocole réseau sur la couche physique|Connectique|Cable
+coaxial|Ligne de transmission
+Le câble coaxial ou ligne coaxiale est une ligne de transmission ou liaison asymétrique, utilisée en hautes fréquences, composée d'un câble à deux conducteurs.
+L' centrale, qui peut être mono-brin ou multi-brins (en cuivre ou en cuivre argenté, voire en acier cuivré), est entourée d'un matériau diélectrique (isolant).
+Le diélectrique est entouré d'une tresse conductrice (ou feuille d'aluminium enroulée), puis d'une gaine isolante et protectrice.
+Sa forme particulière permet de ne produire (et de ne capter) aucun flux net extérieur.
+Ce type de câble est utilisé pour la transmission de signaux numériques ou analogiques à haute ou basse fréquence.
+L'invention en est attribuée à Oliver Heaviside (breveté en 1880).
+L'américain Herman Affel a développé le câble coaxial moderne, dont le brevet a été accepté en 1931.
+Principe
+Les deux conducteurs de pôles opposés d'un câble coaxial sont de natures différentes (sur une ligne bifilaire, constituée de deux conducteurs parallèles séparés par un diélectrique, ils sont indifférenciés) : l'âme, qui est le conducteur central en cuivre est entourée d'un matériau isolant, puis d'un blindage qui est le second conducteur, généralement constitué de tresses de cuivres.
+La caractéristique spécifique de ce type de câble est que les axes centraux de symétrie des deux conducteurs se confondent : la conséquence est qu'ils subissent les mêmes perturbations induites par les champs électromagnétiques environnants.
+Le blindage évite aussi que les conducteurs ne produisent des perturbations vers le milieu extérieur.
+Cela fonctionne sur le principe de la cage de Faraday.
+Le signal utile est égal à la différence de tension entre les deux conducteurs.
+En théorie, quand les axes sont parfaitement confondus, les champs magnétiques extérieurs créent le même gain (ou la même perte) de potentiel sur les deux parties du câble.
+La tension induite (créée par les champs perturbateurs) est donc nulle, et le signal est transmis sans perturbation.
+Usages
+Par exemple, il est possible de trouver un câble coaxial :
+* entre une antenne TV (« râteau »
+TNT
+ou parabole
+satellite)
+et un récepteur de télévision ;
+* dans les réseaux câblés urbains (télévision par câble et accès à Internet : DOCSIS) ;
+* entre un émetteur et l'antenne d'émission, par exemple une carte électronique Wi-Fi et son antenne ;
+* entre des équipements de traitement du son (microphone, amplificateur, lecteur CD...) ;
+* dans les réseaux de transmissions de données tels qu'Ethernet dans ses anciennes versions : 10BASE2 et 10BASE5 ;
+* pour les liaisons inter-urbaines téléphoniques et dans les câbles sous-marins ;
+* pour le transport d'un signal vidéo, exemple caméra filaire déportée, sur des distances significatives (plusieurs dizaines de mètres).
+Le câble coaxial est progressivement remplacé depuis la fin du par la fibre optique pour les utilisations sur de longues distances (supérieures à un kilomètre).
+Un câble coaxial peut être placé le long des murs, gouttières ou enfoui car la présence d'objets n'influence pas la propagation du signal dans la ligne.
+Les pertes sont importantes au fil du temps, les particules de poussières se déposant sur le support isolant n'ayant pas d'influence sur la propagation du signal.
+Il est parfois nécessaire de placer, entre la sortie de l'antenne (symétrique) et la ligne coaxiale (asymétrique) un balun pour optimiser le transfert de l'énergie entre l'antenne et le câble (en réception comme en émission).
+La connexion à un câble coaxial doit être réalisée par l'utilisation de connecteurs coaxiaux adaptés au câble et montés en respectant les indications fournies pour conserver à l'ensemble les caractéristiques souhaitées sur le plan de la qualité de transmission (voir par exemple le connecteur BNC).
+Pour la TV Numérique Terrestre, les fiches sont désignées, alors que pour la TV par satellite ce sont les fiches F à visser, bien qu'elles soient montées sur un même type de câble « grand public ».
+Il est préférable de ne pas utiliser de câble endommagé car ses caractéristiques et ses propriétés sont alors dégradées et les ondes pourraient déborder (rayonner) vers l'extérieur.
+Caractéristiques
+Elles sont données par les constructeurs.
+Caractéristiques mécaniques du câble coaxial :
+* les diamètres intérieur de la gaîne et extérieur du conducteur central (celui-ci est parfois creux) ;
+Caractéristiques électriques du câble coaxial :
+* son impédance caractéristique Zc, standardisée à pour la TV (SAT et TNT), la radio FM, la vidéo ou l'audio, et à pour l'instrumentation ou la connexion d'antennes Wi-Fi, les hyperfréquences et les anciens réseaux ethernet, de même que les installations d'émission en général ;
+* sa constante d'affaiblissement α à une fréquence donnée, qui traduit les pertes dans la ligne.
+Pertes
+Les courants haute fréquence circulent dans une pellicule proche de la surface des conducteurs.
+L'épaisseur de cette pellicule diminue quand la fréquence augmente.
+La résistance d'un conducteur augmente comme la racine carrée de la fréquence ;
+c'est ce qu'on appelle l'« effet pelliculaire ».
+Les pertes produisent une diminution de l'amplitude du signal en fin de ligne ;
+cela se manifeste par exemple par une diminution de la puissance RF rayonnée dans le cas d'un émetteur.
+Voici quelques règles :
+* Plus le diamètre du conducteur est petit, plus grande sera sa résistance, et donc plus il y aura de pertes ;
+* Plus la fréquence augmente, plus il y aura de pertes ;
+* Plus on augmente la longueur du câble, plus il y aura de pertes ;
+* 19 Vatc = perte de 19 dB 100 mètres à une fréquence de référence de .
+En réception satellite de la TV terrestre numérique (TNT)
+« délicate ».
+En d'autres termes, pour une installation TV terrestre monoprise, avec une longueur de descente d'antenne standard, jusqu'à , la dégradation (atténuation) est contenue, de l'ordre de .
+Les pertes en mode satellite à la fréquence maximale de oscillent autour de .
+En outre, il existe un rapport optimum du diamètre de l'âme sur celui du blindage.
+Celui-ci correspond à une impédance caractéristique de , ce qui explique que cette valeur soit employée pour les câbles de réception qui doivent minimiser les pertes, toutes choses étant égales par ailleurs.
+Pour le transport de puissance, on aurait tendance à penser que maximiser le diamètre de l'âme diminue la résistance et donc les pertes.
+Ceci est vrai
+en continu, mais en haute fréquence, l'épaisseur réduite du diélectrique entraîne une tension de claquage plus faible, et donc une puissance maximale admissible limitée.
+L'optimum se réalise pour une impédance caractéristique de l'ordre de .
+La valeur de correspond à un compromis entre pertes en émission et pertes en réception.
+Caractéristiques des principales références de câbles coaxiaux

@@ -1,0 +1,42 @@
+Logo de .
+parfois appelé ou prononcé Agario
+est un jeu en ligne gratuit massivement multijoueur créé par Matheus Valadares, un jeune brésilien alors âgé de 19 ans.
+Le joueur contrôle une cellule dans un lieu représentant une boîte de Petri.
+Le but est de gagner de plus en plus de masse en mangeant les cellules plus petites que soi et en évitant les plus grandes.
+Ce jeu a été couvert d'éloges pour sa simplicité et sa compétitivité, mais a été critiqué pour sa répétitivité.
+Il a rencontré le succès, dès sa première année de présence, grâce au bouche à oreille.
+Son nom est dérivé de l'agar-agar, une substance utilisée pour la culture des bactéries et dans l'agro-alimentaire.
+Sommaire
+Le jeu repose sur des contrôles simples :
+souris pour se déplacer (notez le léger retard dans le changement de direction),
+barre d'espace pour se diviser en deux cellules égales
+et W
+pour éjecter un peu de sa masse.
+L'objectif est, au début, d'avaler des petites pastilles de couleurs, chaque pastille faisant légèrement croître la cellule, puis d'avaler les cellules plus petites que lui sans se faire avaler par les plus grosses.
+Ce jeu peut se dérouler comme un match à mort (Free-for-all) ou bien entre trois équipes.
+Plus un joueur est massif, plus il est lent.
+Les joueurs peuvent changer l'apparence de fond de leur cellule, celle-ci étant habituellement un simple cercle rempli d'une couleur aléatoire, avec des mots prédéfinis (par exemple Brazil donnera le drapeau du Brésil et 8 donnera la boule de billard numéro huit) ou encore avec des skins dépendant du niveau du joueur.
+Les virus verts font éclater les grandes cellules en une multitude de petites, mais les petites cellules peuvent se glisser derrière, les protégeant ainsi des attaques des grands joueurs.
+Si un joueur éjecte de la masse à plusieurs reprises sur un virus, un autre virus en sort et est lancé dans la direction du curseur du joueur : c'est comme si le virus se divisait en deux.
+Les virus roux, d'une masse deux fois supérieure à celle des virus verts, donnent des pastilles en très grande quantité, mais si un joueur plus petit que lui entre dans le virus, c'est comme si le virus le mangeait, et il rejette toutes les pastilles que le joueur a avalées.
+Si le joueur est plus gros que le virus, il explose.
+Le virus roux n'est disponible que dans le mode "Expérimental".
+Les joueurs peuvent se diviser en deux cellules de taille égale, dont l'une sera projetée dans la direction du curseur.
+Ceci peut être une technique pour avaler de petites cellules, échapper à l'attaque d'une autre cellule ou tout simplement se déplacer plus rapidement.
+Les cellules séparées mettent quelques dizaines de secondes à se reformer ;
+plus le joueur est grand, plus ce temps est long.
+Le fait d'éjecter une partie de sa masse vers un autre joueur est généralement reconnu comme une intention de faire équipe avec ce joueur.
+Il est également possible d'éjecter un peu de sa masse vers une petite cellule, afin de la ralentir, puis, une fois que la cible est assez proche, de la manger en se divisant.
+Il est aussi possible de se diviser en quatre, huit ou même seize (mais pas plus).
+Les mathématiques, plus particulièrement le calcul mental, sont très utiles dans ce jeu.
+Voici une liste d'infos mathématiques :
+Une cellule A ne peut manger une cellule B que si la masse de celle-ci est inférieure aux trois quarts de la cellule A.
+Vous perdez 1 % de votre masse toutes les 5 secondes.
+Un pellet, c'est-à-dire une petite boule éjectée par la touche W, coûte 18 points à son lanceur et ne rapporte que 14 points à son receveur, différence censée contrer la formation tacite d'équipes dans les modes FFA et Expérimental.
+Le temps de reformation après une séparation de base (en 2) est de 30 secondes + 2,3333...
+% de votre masse en secondes.
+Le jeu, écrit en Javascript et en C++, a été développé en quelques jours.
+Il est sorti et annoncé sur 4chan le 28 avril 2015 par Matheus Valadares, un jeune développeur brésilien de 19 ans.
+Par la suite, Valadares a continué à ajouter de nouvelles fonctionnalités au jeu telles qu'un système de points d'expérience.
+Un mode "expérimental" est là pour tester les nouvelles fonctionnalités.
+Une version d' sur Android et iOS est sortie le 8 juillet 2015.

@@ -1,0 +1,38 @@
+Référentiel
+Un référentiel est un objet (voiture, sol, planète, etc.) qui permet d’appliquer certaines lois de la physique (cinématique et mécanique,Terrestre par rapport à la terre principalement).
+L’état d’immobilité ou de mouvements dépend du choix de référence par rapport au quel on décrit cet état.
+Cet objet de référence est appelé le référenciel.
+Un même objet peut étre immobile par rapport à un référentiel et en mouvement par rapport à un autre..
+Sommaire
+Prenons l’exemple du point de repère :
+si nous nous déplaçons longtemps dans une grande salle plongée dans l’obscurité, à la fin, nous ne saurons probablement plus où nous nous trouvons.
+Mais il suffit d’un petit point lumineux pour pouvoir repérer à chaque instant notre position dans la pièce !
+Ce point lumineux, ce sera alors notre point de repère.
+Un référentiel, c’est un peu la même chose, mais en plus complet : c’est un point de repère (comme au-dessus) plus un repère, c’est-à-dire plusieurs droites qui pointent dans différentes directions.
+Par exemple
+, pour repérer la position d’une voiture sur une route rectiligne, on peut prendre comme repère :
+la droite qui suit la route (
+pour connaître l’avancée de la voiture)
+et la droite qui y est perpendiculaire, c’est-à-dire qui pointe vers un côté de la route en faisant un angle droit avec la première droite (pour connaître dans quelle file se trouve la voiture, par exemple, ou si elle en double une autre).
+Avec ce choix de droites, on peut connaître la position de la voiture où qu’elle se trouve sur la route : c’est donc un bon repère.
+Dans cet exemple, on pourrait prendre le point de départ de la voiture comme point de repère, ou son point d’arrivée…
+Dans ce cas, l’ensemble {point de départ + droite suivant la route + droite perpendiculaire} forme un référentiel pour observer la voiture.
+Comme il est directement relié à la surface du sol, si on lui rajoute une troisième droite pointant vers le ciel, on l’appelle référentiel terrestre et c’est l’un des référentiels les plus utilisés en physique, quand les expériences se déroulent sur la surface de la Terre.
+Il existe cependant d’autres référentiels « classiques » :
+le référentiel géocentrique (point de repère : centre de la Terre ;
+trois droites perpendiculaires entre elles et pointant vers trois étoiles fixes dans le ciel forment le repère) : il est utilisé quand les mouvements doivent prendre en compte la courbure de la Terre, par exemple la trajectoire de la Lune ou d’un satellite artificiel ;
+Parmi tous les référentiels, certains ont une propriété particulière qui les rend très intéressants pour l’étude physique : ce sont les référentiels galiléens (ou inertiels, parce qu’ils vérifient le principe d'inertie).
+Leur définition peut sembler un peu étrange : il s’agit de référentiels qui sont au repos (immobiles) ou dans un mouvement de translationuniforme… dans un référentiel galiléen !
+Pour dire qu’un référentiel est galiléen, il faut donc trouver un référentiel plus grand qui le contient et qui est galiléen, et montrer qu’il se déplace en ligne droite et à vitesse constante par rapport à ce référentiel plus grand.
+Mais il faut toujours trouver un référentiel galiléen plus grand, c’est sans fin !
+Pour résoudre cela, on postule que le référentiel de héliocentrique est galiléen, ce qui permet ensuite de dire si les référentiels plus petits le sont ou non.
+Le référentiel géocentrique, par exemple, peut être galiléen ou non.
+En effet, la Terre tourne autour du Soleil (elle en fait le tour en 365 jours environ), donc la trajectoire du référentiel géocentrique n’est pas rectiligne dans le référentiel héliocentrique (galiléen)… donc le référentiel géocentrique n’est en principe pas galiléen.
+Cependant, pour une observation qui dure moins de quelques heures, on peut dire que la Terre n’aura « pas beaucoup » tourné autour du Soleil : elle se sera bien déplacée, mais très peu, et sa trajectoire sera donc un tout petit peu courbe.
+On pourra donc dire que, sur une petite durée, la trajectoire du référentiel géocentrique dans le référentiel héliocentrique est rectiligne.
+De plus, la Terre tourne toujours à la même vitesse autour du Soleil, donc son déplacement est uniforme.
+Dans ce cas, le référentiel géocentrique est en mouvement rectiligne uniforme dans un référentiel galiléen (le référentiel héliocentrique) : il est donc galiléen lui-même !
+Donc
+, si l’évènement que l’on étudie dans un référentiel est suffisamment bref pour que l’on puisse dire que le déplacement de ce référentiel est pratiquement rectiligne et uniforme dans un référentiel galiléen, on peut voir ce référentiel comme « temporairement galiléen ».
+est la même chose pour le référentiel terrestre mais, puisque la Terre tourne sur elle-même beaucoup plus vite (en 24 heures environ), il faut que l’observation soit beaucoup plus courte : en effet, en une heure seulement, la Terre tourne de 360∘24=15∘{\displaystyle {\frac {360^{\circ }}{24}}=15^{\circ }} autour de son axe, ce qui déforme beaucoup plus les trajectoires que les 360∘365×24=0,041∘{\displaystyle {\frac {360^{\circ }}{365\times 24}}=0,041^{\circ }} (presqu’imperceptibles) du référentiel géocentrique par rapport au référentiel héliocentrique.
+Le référentiel terrestre peut donc être considéré comme galiléen, mais seulement pour des évènements très courts : la chute d’une masse depuis la tour de Pise, par exemple.

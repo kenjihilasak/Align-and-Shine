@@ -1,0 +1,20 @@
+Linguaggio di programmazione
+I primi computer, sviluppati negli anni 30 e 40, venivano programmati manualmente da squadre di matematici esperti.
+Negli anni 50 la programmatrice statunitense Grace Hopper inventò il compilatore, che permetteva di convertire il linguaggio informatico in istruzioni per il computer.
+L'Assembly è un linguaggio molto difficile, perché semplicemente traduce il linguaggio del computer con delle sigle più facili da ricordare.
+Solo chi ha una buona conoscenza del computer può programmare in Assembly.
+Un esempio di sottoprogramma in Assembly per LC-3, nota piattaforma didattica, che somma due numeri (notare che la somma tra un numero negativo e uno positivo è come se fosse una sottrazione) e restituisce nel registro R0 0 se il risultato è negativo e 1 se positivo o zero
+SOTTOPROGRAMMA ADD R0,R1,R2 BRN neg AND R0,R0,#0 ADD R0,R0,#1 RET neg AND R0,R0,#0
+RET
+Nel 1964 l'Olivetti produsse la Programma 101, di Pier Giorgio Perotto.
+Questo semplice calcolatore, il primo commerciale ad avere le caratteristiche di base del personal computer, aveva un linguaggio assembly molto semplificato e che veniva salvato su delle cartoline magnetiche tramite dei bottoni.
+Le istruzioni erano le operazioni matematiche di base, la radice quadrata, i salti, la stampa e i valori per scambiare dati tra registri, ossia dei contenitori dov'erano contenuti i numeri che il computer doveva elaborare.
+Il C, creato da Dennis Ritche e Ken Thompson ha rivoluzionato l'informatica:
+Creato negli anni '70 era, a differenza di linguaggi contemporanei come il COBOL, adatto per scrivere qualsiasi cosa ed aveva le librerie, comandi disponibili a chiunque programmi in C semplicemente includendo queste librerie.
+Nel 1976 nascono i primi Home Computer, il Commodore PET e Apple II:
+Questi computer avevano un BASIC, linguaggio molto semplice e imparabile da tutti, con il quale venivano scritti semplici programmi, spesso diffusi su riviste di appassionati.
+Esempio di programma in BASIC che scrive ripetutamente "Ciao"
+Intorno agli anni '90 la Microsoft creò il Visual Basic:
+Questo linguaggio permetteva di creare l'interfaccia del programma trascinando gli elementi su una schermata e programmando semplicemente le azioni, ad esempio dicendo al programma cosa fare se veniva premuto un bottone.
+Con la diffusione di Internet è stato necessario creare linguaggi che permettessero di creare delle pagine in modo dinamico, in risposta a particolari informazioni fornite.
+La prima idea fu di connettere i linguaggi classici ad apposite applicazioni, ma poi vennero creati linguaggi apposta, come il PHP, che il computer che fornisce il sito deve installare per poter elaborare le informazioni, oppure il JavaScript, che viene eseguito dal browser del visitatore.

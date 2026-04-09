@@ -1,0 +1,145 @@
+Réalité augmentée
+La réalité augmentée est la superposition de la réalité et d'éléments (sons, images 2D, 3D, vidéos) calculés par un système informatique en temps réel.
+Elle désigne souvent les différentes méthodes qui permettent d'incruster de façon réaliste des objets virtuels dans une séquence d'images.
+Elle s'applique aussi bien à la perception visuelle (superposition d'images virtuelles aux images réelles) qu'aux perceptions proprioceptives comme les perceptions tactiles ou auditives.
+Ces applications sont multiples et touchent de plus en plus de domaines, tels que les jeux vidéo, l'éducation par le jeu, les chasses au trésor virtuelles, le cinéma et la télévision (post-production, studios virtuels, retransmissions sportives…), les industries (conception, design, maintenance, assemblage, pilotage, robotique et télérobotique, implantation, étude d'impact) ou le champ médical.
+La réalité augmentée est l'un des phénomènes émergents permis par le développement et la démocratisation des technologies de l'information et de la communication (TIC) à la fin du (tendances attentivement suivies par les prospectivistes) et elle participe à certaines formes augmentées du travail collaboratif et de l'économie collaborative telles que conceptualisées par Michel Bauwens.
+Principes
+La technologie insère des images de synthèse sur les images du monde réel grâce à l'appareil photo d'un téléphone portable ou à des lunettes vidéo spécifiques.
+De petites caméras situées au milieu et à l'extérieur de chaque verre envoient des images vidéo en continu à deux écrans à cristaux liquides sur la face interne des lunettes par l'intermédiaire d'un processeur mobile.
+Une fois reliées à un téléphone intelligent ou à un ordinateur, les lunettes combinent les données informatiques avec la réalité filmée en direct, créant un champ de vision stéréoscopique unique sur l'écran LCD, où les images de synthèse se superposent avec celles du monde réel.
+Agrémenter d'objets fictifs une séquence vidéo issue d'un plan fixe ne pose guère de problèmes.
+Les applications visées demandant souvent énormément de réalisme, il est indispensable que l'ajout d'objets dans une scène ne perturbe pas la cohérence du contenu filmé.
+Le fait de déplacer la caméra implique cependant un mouvement dans l'image de la scène filmée.
+Pour assurer la cohérence entre les deux flux réels et virtuels, un lien rigide doit être maintenu entre les deux mondes.
+Afin de donner l'illusion que ces objets fictifs appartiennent au même monde, il est nécessaire de bien les placer, bien les orienter et de respecter des facteurs d'échelle par rapport aux objets réellement filmés.
+Bien placer les objets virtuels par rapport aux objets de la scène nécessite de connaître la position de la caméra par rapport à la scène.
+Le problème de la localisation de la caméra est donc important et peut être résolu par diverses approches.
+On peut utiliser un système de capteurs, comme des capteurs magnétiques qui mesurent la distorsion du champ magnétique pour calculer leur position, des capteurs optiques, des codeurs sur les moteurs du pied des caméras ou encore, évidemment, le flux vidéo.
+Dans le cas de l'utilisation de capteurs externes au système de prise de vue, les informations de ce système (angle, position, focale) sont récupérées à l'aide de capteurs et l'incrustation est directement reproduite à la bonne échelle sur l'image à augmenter.
+Cependant, si l'on considère uniquement les informations acquises par la caméra, le problème de réalité augmentée se ramène à un problème de vision par ordinateur.
+Dans certains contextes applicatifs comme le cinéma, l'ensemble de la séquence vidéo est disponible avant le traitement.
+Dans cette optique de post-production, des traitements lourds en termes de temps de calcul sont envisageables.
+Des techniques permettant à la fois la reconstruction 3D d'un certain nombre de points de la scène et la localisation 3D de la caméra sont mises en œuvre par des techniques d'autocalibrage ou d'ajustement de faisceaux.
+Des logiciels commerciaux reposant sur ce principe sont d'ores et déjà disponibles (on peut citer Boujou de la société 2d3
+- issue de l'université d'Oxford, MatchMover de la société Realviz
+- issue du projet
+Robotvis de l'INRIA
+Sophia Antipolis, D-Fusion de la société Total Immersion ou encore en version
+web RevelActions de la société ActenGo).
+Ces méthodes sont cependant très dépendantes de la qualité de la mise en correspondance des primitives 2D (bruit d'extraction, distribution spatiale, nombre d'erreurs d'appariement…) et l'utilisateur est parfois mis à contribution.
+Dans le cadre d'applications interactives (audiovisuel dans les , industrie, jeux vidéo interactifs, médical, militaire) le recours à des techniques d'autocalibrage n'est pas possible.
+Des techniques permettant la localisation de la caméra à partir de l'image courante (et éventuellement des précédentes) sont nécessaires.
+Si un modèle de la scène est disponible, le calcul de points de vue est évidemment une solution idéale à ce problème.
+Dans le cas où la structure 3D de la scène est inconnue, d'autres approches, reposant par exemple sur le calcul du déplacement de la caméra, sont envisageables.
+Les avantages de ces approches interactives sont multiples :
+* elles permettent une intégration réelle-virtuelle en temps réel (c'est-à-dire à la cadence vidéo), car les calculs sous-jacents sont relativement peu coûteux ;
+* il n'est pas non plus nécessaire de faire un étalonnage du système comme c'est le cas si on utilise d'autres types de capteurs, ni de disposer a priori de la séquence complète ;
+* elle peut fonctionner sur des plates-formes PC standards ce qui implique un coût relativement faible.
+Dans tous les cas, une fois la caméra localisée par rapport à la scène, ces informations servent à adapter le modèle informatique de la scène, de manière à être capable de calculer les caractéristiques des objets virtuels que l'on veut y insérer.
+Ces objets virtuels subissent alors des transformations géométriques qui permettront de les dans l'image source et les y intégrer de la manière la plus naturelle possible.
+Les problèmes de la réalité augmentée
+Le soleil et la température extérieure sont des facteurs contraignants qui, souvent, ne sont pas appréciés par les utilisateurs, notamment pour les applications mobiles dans le domaine du patrimoine touristique, les applications de ce type nécessitant que le participant se rende physiquement à un lieu précis pour en bénéficier.
+La réalité augmentée peut aussi poser des problèmes de sécurité, particulièrement pour ceux qui utilisent les lunettes de réalité augmentée, car certaines applications ajoutent des informations et éléments visuels qui obstruent la vision et peuvent entraîner des accidents sur le terrain.
+La réalité augmentée peut aussi poser des problèmes par rapport à la vie privée des concitoyens.
+Lorsque les informations fournies par la réalité augmentée permettent de prendre une décision personnelle et que celle-ci s’avère être risquée et dangereuse dans l'immédiat.
+Il y a là un problème lié à la responsabilité de l'erreur alors que le participant se trouve sur le terrain et est incité à faire une action dans l'immédiat.
+Autre problème de taille lié à l'utilisation de la réalité augmentée : certains supports permettent de bénéficier de la réalité augmentée notamment en conduisant.
+Par exemple, l'arrivée de Pokémon Go sur téléphone a été accompagnée d'incitations envers les conducteurs à jouer en roulant.
+De la même façon que les SMS, cette technologie entraîne des comportements dangereux.
+Bien entendu, tout ceci dépend des sécurités embarquées avec les applications, et la réalité augmentée ne peut être tenue responsable des débordements que les applications engendrent.
+Applications
+Police
+En Chine, certains agents de police utilisent des lunettes intelligentes disposant d’une caméra et de la reconnaissance faciale.
+Le système permet de reconnaître un suspect dans une foule et de consulter son activité sur internet, et à Cherbourg, il est possible de visualiser le château fort disparu en 3D grâce à une application téléchargeable sur un smartphone ou une tablette tactile.
+Une expérience dans ce domaine a également été menée par la ville d'Amiens avec la possibilité de télécharger une application permettant de visualiser la cathédrale en 3D et en couleurs.
+Dans le cadre d'un projet de maquette virtuelle représentant la ville de Caen à la fin des années 1930, une application a été produite pour visualiser le séminaire des Eudistes de Caen, détruit en 1944.
+Fin 2012 à Bordeaux, le projet Imayana propose plusieurs concepts (anima mori, portes temporelles, passe-murailles...) au service de la narration.
+Sciences
+La réalité augmentée devient un outil pour les scientifiques et notamment dans le domaine médical, ou elle peut être un outil d'apprentissage.
+L'usage peut aussi être ludique, dans une approche de vulgarisation, par exemple pour expliquer le fonctionnement du cerveau au grand public (par exemple l'application CervoMaton).
+Politique
+Sébastien Nadot, candidat à l'élection présidentielle de 2017
+, est le premier homme politique français à utiliser une affiche de campagne à réalité augmentée.
+Presse écrite
+Les journaux
+Le Parisien
+Aujourd'hui
+en France lus
+par de personnes en France chaque jour
+, utilisent ce principe afin de rendre leurs quotidiens interactifs et permettre aux lecteurs de réagir aux articles.
+En mars 2010, Télé 7 Jours présente pour ses 50 ans une couverture en réalité augmentée avec Johnny Hallyday et deux publicités interactives.
+Édition
+Orange, Robert Laffont et Jacques Attali éditent le premier livre (Hyperlivre
+- Le sens des choses).
+Édité à exemplaires, le livre est parsemé de codes barres 2D permettant d'accéder à des contenus complémentaires.
+En 2012, la maison d'édition Casterman a publié une bande dessinée (12 - la douce) en réalité augmentée.
+L'histoire porte sur une locomotive mythique en Europe dans les années 1930.
+Musique
+Le rappeur français Sinik utilise ce principe pour son album
+Ballon d'or
+, sorti en 2009
+Le groupe Alexx & Mooonshiners propose une eBoite à musique en réalité augmentée dans son album Live!.
+Un tag à l'ouverture de l'album permet l'affichage d'un jukebox animé en 3D proposant l'écoute des morceaux de l'album, chacun étant associé à une animation propre.
+Publicité
+La réalité augmentée sert par exemple à insérer des encarts publicitaires dans des images vidéos tournées sur des terrains de sport : les logos des entreprises partenaires d'un événement peuvent ainsi être toujours visibles quel que soit l'angle de vue choisi par le réalisateur, il est de plus possible d'afficher différents messages sur un même emplacement.
+En 2011, Volkswagen réfléchit à un moyen de faire découvrir la Nouvelle Golf Cabriolet dans ses concessions alors que le modèle n'est pas encore sur place.
+De cette réflexion est venue l'idée de se servir de la réalité augmentée pour voir la voiture à taille réelle.
+Jusqu'alors, plusieurs marques utilisaient la réalité augmentée pour montrer un produit via un ordinateur ;
+Volkswagen a innové en le faisant pour la première fois via un smartphone.
+Présent en presse, sur carte postale et disponible sur le web, le marqueur relaye l'opération sur un maximum de supports pour faire vivre l'expérience au plus grand nombre.
+Loisirs
+La réalité augmentée permet aussi de plonger le spectateur au cœur d'un monde partiellement réel (des décors réels) et partiellement virtuel (des objets, des animaux...).
+Le spectateur devient acteur en interagissant avec les objets virtuels au moyen de capteurs.
+Une première application accessible au grand public existe au Futuroscope depuis avril 2008, dans l'attraction
+Les Animaux du Futur, réalisée par la société française Total Immersion.
+À l'occasion de la sortie du film Arthur et la Vengeance de Maltazard en décembre 2009, Dassault Systèmes a conçu un jeu en réalité augmentée sur les paquets de ..
+La réalité augmentée est aussi utilisée dans certains jeux vidéo notamment sur la PlayStation Vita de Sony et la 3DS de Nintendo, ainsi que sur smartphone comme le jeu Pokémon Go sorti en juillet 2016.
+Industrielle
+La réalité augmentée est un outil innovant qui accompagne les nouveaux usages au cœur des industries.
+Elle constitue un élément important dans de nombreux concepts d'usine du futur.
+On retrouve son utilisation dans toutes les phases du cycle de vie d'un produit, par exemple :
+* La conception :
+Alstom expérimente la réalité augmentée avec un outil immersif qui permet de tester en environnement réel la disposition, la couleur et la matière des sièges d’un train.
+La production : Renault Trucks expérimente la réalité augmentée pour le contrôle qualité moteurs dans son usine de Lyon.
+Les principaux objectifs : réduction de la durée du processus et de la charge cognitive des opérateurs.
+* La formation :
+SunnaDesign expérimente la réalité augmentée pour améliorer l'agilité de son outil de production de lampadaires autonomes à énergie solaire.
+L'objectif principal est d'améliorer les temps de formation.
+Commerce
+La réalité augmentée devient un outil de vente incontournable et permet de rendre la marque plus attractive et haut de gamme.
+Elle offre une grande qualité promotionnelle et constitue une vraie aide à la décision d'achat.
+Elle fait désormais son entrée dans l'univers du vin.
+Le consommateur peut scanner l'étiquette d'une bouteille et voir le vigneron en sortir virtuellement afin de lui présenter son domaine et son vin.
+De nombreux catalogues, notamment de jouets (LEGO, Playmobil…) intègrent dorénavant la réalité augmentée sous forme de 3D interactive, permettant de visualiser les objets animés et d'interagir avec eux.
+E-commerce
+La réalité augmentée est un élément d'aide à la prise de décision dans l'acte d'achat pour l'e-commerce.
+Cela permet, par exemple dans le secteur du mobilier, de visualiser des meubles dans son propre intérieur grâce à une photo.
+Le mobilier modélisé en 3D est ainsi représenté dans ses proportions réelles,
+chez soi ou dans quelque visuel que ce soit, ce qui peut rassurer le cyber-acheteur lors de son choix de mobilier (taille, couleur, placement dans la pièce, etc.).
+Les premiers catalogues en réalité augmentée ont été créés pour Brisach ou Ikea en 2012.
+Les acteurs de l'e-commerce sont de plus en plus nombreux à proposer ce service à leurs clients : les sites de But, Made In Design, La Redoute, par exemple, se sont dotés en 2010 d'une pour le mobilier et les objets de décoration de leur catalogue.
+Dans le domaine de l'optique, les technologies d'essayage virtuel permettent de faciliter l'achat de lunettes.
+L'internaute était jusqu'alors freiné par l'impossibilité de voir le rendu des lunettes sur son visage ce qui provoquait un faible taux de conversion et un nombre de retours important.
+Il est possible d'essayer ses lunettes sur photo ou webcam.
+Tourisme
+Le principe de réalité augmentée apparaît dans plusieurs applications sur smartphone (iPhone, Blackberry, Android).
+La réalité augmentée permet d'enrichir l'expérience du visiteur en proposant des contenus associés à ce qu'il est en train de regarder.
+Cuisine
+La réalité augmentée peut permettre d'apporter une aide à la découpe des mets.
+Comme avec l'application Slice pour IPhone qui superpose un patron lorsque l'on filme sa pizza ou son gâteau.
+Annexes
+Bibliographie
+* Jeremy Antley, «
+Textual Dualism and
+Augmented Reality in the Russian
+Empire », Future Internet, vol.
+4 / 4, décembre 2012, p. 1037-1048.
+* Nathan Jurgenson, «
+When Atoms Meet Bits:
+Social Media, the Mobile
+Web
+and
+Augmented
+Revolution », Future Internet, vol.
+4 / 1, janvier 2012, p. 83-91.

@@ -1,0 +1,138 @@
+Réseau de téléphonie mobile|Carte à puce
+La carte SIM (pour « », terme anglophone) est une puce contenant un microcontrôleur et de la mémoire.
+Elle est utilisée en téléphonie mobile pour stocker les informations spécifiques à l'abonné d'un réseau mobile, en particulier pour les réseaux GSM, UMTS et LTE.
+Elle permet également de stocker des données et des applications de l'utilisateur, de son opérateur ou dans certains cas de tierces parties.
+D'autres systèmes de téléphonie mobile
+comme le CDMAOne, le PDC japonais ou le CDMA2000 défini par le 3GPP2 prennent en charge optionnellement une telle carte.
+La carte SIM contient un numéro IMSI, constitué du code pays (MCC), de l'identifiant de l'opérateur (MNC), et de l'identifiant de l'abonné (MSIN).
+Généralités
+Le choix de l'intégration d'une carte à puce dans les systèmes de téléphonie mobile est basé sur la nécessité de disposer des éléments suivants :
+* Un élément sécurisé contenant l'identifiant et les données de connexion d'un utilisateur donné ;
+* Un élément amovible permettant de personnaliser un nouveau téléphone avec les données de connexion ;
+l'intérêt est de séparer le choix d'un terminal de la notion d'abonnement ;
+* Un espace de stockage d'information pour les données personnelles de l'abonné (son annuaire), mais également des paramètres de personnalisation de son terminal (paramètres de messagerie) ;
+* Un espace
+pour les applications de l'opérateur de téléphonie
+Le terme « carte SIM » est un abus de langage (un raccourci en fait), Les cartes SIM ont progressivement été remplacées par des cartes USIM (l'équivalent de l'application SIM pour l'UMTS), définies dans les spécifications 3GPP (application USIM) et et qui sont compatibles avec les réseaux GSM, EDGE, UMTS et LTE.
+L'UICC et l'application SIM gèrent l'authentification de l'abonné dans le réseau GSM (l'USIM pour le réseau UMTS) et génèrent des clés qui permettent le chiffrement du flux de données, ceci étant réalisé au sein du terminal mobile.
+L'UICC peut également contenir et exécuter des applications sur la base du ( dans le cas de l'UMTS) et d'un environnement applicatif .
+Ces applications sont généralement la propriété de l'opérateur qui peut les télécharger sur la carte.
+Une carte SIM donnée est issue d'un seul opérateur ou d'un seul MVNO et permet son identification univoque .
+Caractéristiques physiques
+Formats
+L'UICC a été définie avec plusieurs formats :
+* Format ID-1 (ISO/CEI 7810)
+, le format des cartes de crédit, rapidement écarté car trop contraignant pour la conception des téléphones mobiles ( de long, de large et d'épaisseur) ;
+* Format ID-000 (ISO/CEI 7810)
+ou ou 2FF, aussi appelée «
+Mini SIM » ou «
+Standard
+SIM », le plus répandu des formats dans les téléphones mobiles GSM ou UMTS ( de long, de large et d'épaisseur en guise de SIMLock physique, puis en volume par Apple (2010) pour l'iPad.
+Le format est largement répandu ( de long, de large et d'épaisseur) ;
+* Format 4FF,
+commercialement nommé «
+Nano SIM » a été proposé par Apple avec le support de la plupart des opérateurs mobiles.
+Comme pour le 3FF, il s'agit de réduire la taille de la carte (approximativement 30 %) sans changer l'emplacement des contacts.
+Apple est en septembre 2012 le premier fabricant à avoir adopté ce nouveau format, avec l', suivi de Nokia qui l'utilisera pour le .
+Composants
+L'UICC utilise un microprocesseur et de la mémoire.
+Les capacités mémoire typiques en 2006 sont de 32 ou .
+Dans le cas de cartes « haut de gamme » pour des fonctionnalités comme un annuaire utilisateur important ou le support d'applications, les grands opérateurs européens achètent actuellement des cartes d'une capacité de 128 ou .
+La carte peut alors héberger des fichiers, des paramètres d'applications et de services du mobile, et même des applications exécutables dans la carte elle-même, par exemple, en .
+Une tendance se dessine dès 2006 à l'extension de la capacité mémoire vers des mégaoctets ou des gigaoctets.
+L'UICC peut alors reprendre en son sein les fonctions habituellement associées aux MMC ou : stockage agrandi, mais également sécurisation de contenu et d'applications.
+Toutefois, devant le coût de ces solutions, un modèle d'affaire inexistant et certaines difficultés d'implémentation, les solutions techniques n'ont vu le jour que sous la forme de prototypes.
+La technologie mémoire utilisée dans la carte a d'abord été de l'EEPROM, mais s'est rapidement tourné vers la Flash (en NAND plus qu'en NOR), bien plus flexible dans l'utilisation et maîtrisée pour les grandes capacités.
+Cependant, de plus en plus et à cause de l'intégration du multimédia, on sépare la mémoire et la carte SIM en s'orientant vers l'utilisation d'une carte Flash additionnelle permettant ainsi une plus grande flexibilité d'usage des données, sauf pour ce qui concerne le carnet d'adresse qui reste souvent encore traditionnellement sur la carte afin de faciliter le changement de GSM même si certains veulent encore croire au modèle intégré en insérant une micro Flash au sein même de la puce.
+Image:
+Simcard pins.svg|thumb|upright=1.2|Les contacts d'une carte SIM.
+1 : VCC (alimentation)
+2 : RST (remise à zéro)
+3 : CLK (horloge)
+4 : D+ () (absent si 6 contacts)
+5 : GND (masse)
+6 : SWP
+7 : I sortie)
+8 : D- () (absent si 6 contacts)
+Interface physique
+L'interface physique de la carte a huit contacts.
+Pendant longtemps, seuls cinq contacts ont été utilisés pour l'implémentation de l'interface dite «
+ISO »
+L'implémentation de nouvelles fonctions implique l'utilisation des contacts supplémentaires définis mais reste optionnelle.
+L'USB (choisi comme interface rapide) utilise les contacts C4 et C8 ;
+cette interface est définie dans le standard ETSI .
+Le contact C6 est utilisé pour une interface vers un module qui permet l'accès à des services de type NFC quel que soit le mode afin d'adresser des applications de transport (de type Navigo), de paiement, de lecture de tags RFID et d'échange de données (P2P).
+L'interface vers le module sans contact est définie dans les standards (SWP) et (HCI).
+Il existe également des cartes SIM ne disposant que de six contacts, sur lesquelles les contacts C4 et C8 sont absents.
+Cela est d'office le cas pour les cartes compatibles avec le format Nano SIM (4FF), qui n'existent qu'en format 6 contacts.
+Suivant les générations de puces, la tension peut varier de (voire ) pour les modèles les plus gourmands (tous les modèles antérieurs à 1998 ainsi que certains modèles plus récents) à pour les plus économes, en passant par la valeur intermédiaire, la plus fréquente, de 3 ou .
+Certains appareils ne supportent plus les cartes SIM exigeant une tension de (par exemple l', sorti en 2015).
+Virtualisation totale
+Une nouvelle spécification de la carte SIM, la eSIM, a été définie, pour virtualiser totalement la carte SIM, et ainsi intégrer ses fonctions dans une puce soudée à la carte mère, voire directement au sein des processeurs des téléphones mobiles.
+Caractéristiques logicielles
+Numéro de série de carte externe
+En France, le numéro de série de carte externe ou NSCE est une séquence correspondant à une suite de quatorze chiffres inscrite sur la carte SIM permettant d'identifier l'opérateur ayant mis en service la carte.
+Protocoles
+Le protocole utilisé à l'origine sur la carte SIM est le protocole de base de la carte à puce, le protocole T=0.
+Les caractéristiques principales de ce protocole sont les suivantes :
+Deux nouveaux protocoles ont été ajoutés en 2006 et 2007 à savoir :
+L'USB IC () qui présente les caractéristiques de performance de l'USB ( ) et est défini dans le standard ETSI .
+Cependant, l'interface électrique a été adaptée pour une communication à courte distance au sein d'un équipement afin de réduire l'énergie nécessaire à l'interface physique.
+Trois classes sont disponibles sur cette interface USB :
+** ICCD (
+) permet d'émuler l'interface historique et le transport d'informations suivant le standard ISO/IEC 7816-4 ;
+** permet d'émuler un disque ou une clé de stockage mémoire ;
+** EEM (
+) permet de transporter des paquets IP et donc de supporter des protocoles comme TCP IP.
+Le SWP () est définie dans les standards ETSI et ETSI et fonctionne suivant les caractéristiques suivantes :
+Système d'exploitation
+Le système d'exploitation des cartes SIM est le plus souvent propriétaire, codé par les encarteurs et généralement inscrit sur les composants par les fondeurs.
+Microsoft a tenté au début des de proposer un système , sans succès.
+L'initiative a été abandonnée, les opérateurs préférant l'expertise propriétaire de leurs fournisseurs.
+La mémoire est organisée en répertoires et fichiers (identifiant de l'opérateur, données liées au réseau, numéros d'appels d'urgence, entrées du répertoire).
+Le micro-contrôleur assure l'accès à ces données (droits)
+, les fonctions de cryptographie (par exemple liées au code PIN) et l'exécution des applications de l'opérateur.
+Boîtes à outil SIM
+Les cartes SIM contiennent de plus des boîtes à outil permettant de contrôler l'ensemble des fonctions du téléphone (micro, caméra, appel, SMS).
+Il existe depuis une version plus générique appelée « ».
+Des agences de renseignements comme la NSA, ont dans leur catalogue () des outils permettant de modifier ce et de prendre le contrôle de toutes ces opérations.
+Machines virtuelles
+Les cartes SIM de générations plus récentes sont capables d'héberger des applications destinées à l'abonné, par exemple l'information à la demande (météo, horoscope).
+Ces applications sont le plus souvent décrites dans un sous-ensemble du langage Java : le , spécifié dans le cadre du .
+Téléchargement
+La carte dispose de la possibilité de modifier et mettre à jour à distance le contenu de certains fichiers de la carte par téléchargement (OTA).
+Le canal SMS peut être utilisé pour cela depuis longtemps de manière transparente au travers du terminal mobile.
+Un autre système, nommé « » (BIP) permet de réaliser un téléchargement à partir d'autres média proposés par le terminal (par exemple GPRS).
+Cela ouvre des horizons d'applications comme la sauvegarde du répertoire de la SIM sur un serveur.
+Plus récemment, la standardisation de l'interface USB_IC () a ouvert la possibilité de transfert rapide et important de données entre une carte et un terminal.
+Verrouillage
+Le verrouillage SIM (ou ) permet aux opérateurs de téléphonie mobile de restreindre l'utilisation de leur terminal mobile (téléphone) à une carte SIM ou un groupe de cartes SIM.
+De ce point de vue, le n'est pas une fonctionnalité de la carte SIM, mais du téléphone qui identifie une carte pour fonctionner normalement.
+Cette fonctionnalité est demandée par les opérateurs ou fournisseurs de service qui subventionnent l'achat de terminaux et qui ne souhaitent pas en retour que ces terminaux soient utilisés chez leurs concurrents.
+À ce jour, ce type de verrouillage d'un téléphone peut limiter l'utilisation d'un terminal grâce à l'exploitation d'informations sur la carte SIM au niveau :
+* D'un groupe d'utilisateurs ;
+Le verrouillage le plus utilisé est celui forçant un opérateur donné ( ou SP-lock).
+Les téléphones proposés à la vente par les opérateurs de téléphonie mobile sont souvent verrouillés et moins onéreux que les mêmes modèles sans verrou, du fait des revenus supplémentaires attendus de la part de l'abonné sous contrat.
+Le verrouillage le plus restrictif est celui forçant l'utilisation d'une carte SIM unique donnée.
+Un téléphone peut être déverrouillé (désimlocké).
+En France, en 2015, la période donnée par les opérateurs Bouygues Telecom, Orange et SFR est de trois mois à l'initiative de la Fédération française des télécoms.
+Free mobile ne verrouille pas ses terminaux, la plus grande partie n'étant pas subventionnée mais potentiellement vendue à crédit.
+La formule est reprise par , l'intérêt étant d'appuyer le principe du « sans engagement » en n'empêchant pas l'abonné de changer d'opérateur en réutilisant son terminal.
+En contrepartie, les téléphones sont moins ou pas subventionnés chez ces opérateurs.
+Acteurs du domaine
+Les principaux acteurs du domaine sont les fournisseurs de composants (dits « fondeurs ») et les fabricants de carte .
+Fondeurs
+Les fabricants de composants (fondeurs de silicium) pour carte à puce fournissent le composant vierge ou « masqué » dans le cas de composants disposant de mémoire ROM.
+Les plus connus
+sont :
+Encarteurs
+Les encarteurs conçoivent toute la partie logicielle (OS et applications), l'insertion du composant dans le plastique , la personnalisation graphique du support de carte, la personnalisation des fichiers, la distribution aux opérateurs ou aux fournisseurs de service de manière plus générale.
+Les plus connus
+sont :
+Mesures
+anti-terrorisme
+En Belgique, à la suite des attentats du 13 novembre 2015 en France (Paris) et des attentats du 22 mars 2016 à Bruxelles (aéroport et métro de Bruxelles), il n'est plus possible d'acheter une carte SIM prépayée de manière anonyme depuis fin 2016.
+Il faut maintenant être identifié par sa carte d'identité lors de l'achat.
+Les cartes existantes avant cette date et qui n'ont pas été identifiées au sont bloquées par les opérateurs de téléphonie mobile.
+En Italie, une mesure similaire existe depuis 2005.
+En France, il existe à fin 2015 une faille juridique sur ce sujet, aucune obligation n'étant faite aux opérateurs d'enregistrer l'identité des acheteurs.

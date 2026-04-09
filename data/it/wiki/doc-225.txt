@@ -1,0 +1,314 @@
+In aritmetica, i criteri di divisibilità sono degli algoritmi che permettono di verificare la divisibilità di un numero intero per un fattore senza eseguire la divisione esplicita.
+Consistono in una serie di operazioni sulle cifre che compongono il numero.
+Tali operazioni dovrebbero essere sufficientemente semplici da potersi fare a mente, o comunque essere più rapide rispetto alla divisione.
+Poiché i criteri di divisibilità manipolano direttamente le cifre del numero, dipendono dalla base in cui il numero viene espresso.
+In pratica si considerano solamente i criteri per i numeri in base 10.
+Nel caso il criterio parli di "ultime cifre", si intende sempre quelle più a destra:
+le unità, decine, ecc.
+Alcuni criteri si limitano a dare un risultato sì/no;
+altri permettono anche di conoscere il resto della divisione, perché calcolano il modulo, e il numero dato è divisibile se e solo se tale resto è 0.
+Può essere necessaria una lieve modifica rispetto alla formulazione tradizionale, ad esempio il criterio di divisibilità per 2 può essere espresso nella forma:
+il resto della divisione di un numero n per 2 è uguale al resto della divisione dell'ultima cifra di n per 2 (e quindi n è divisibile per 2 se e solo se tale resto è 0).
+Inoltre, vale la regola generale per cui, se un numero n è divisibile per m, allora n è divisibile anche per ogni divisore di m. Viceversa, se n è divisibile per m_1, m_2, ..., m_l, allora n è divisibile anche per il minimo comune multiplo di m_1, m_2, ..., m_l.
+Ad esempio un numero è divisibile per 6 se e solo se lo è sia per 2 sia per 3.
+Usando questa regola, se la fattorizzazione di m in primi distinti è m
+p_1^ p_2^ \cdots p_l^, allora un numero è divisibile per m se è solo se è divisibile per ognuno dei fattori p_1^, p_2^, \cdots, p_l^. È quindi sufficiente considerare i criteri di divisibilità per i numeri primi e per le potenze di primi.
+Ad esempio,
+2^3
+\cdot 3^2 \cdot 11, un numero è divisibile per 792 se e solo se è divisibile per 8, per 9 e per 11.
+Principali criteri di divisibilità dei numeri interi
+Nessun numero (diverso da 0) è divisibile per 0.
+Tutti i numeri sono divisibili per 1.
+Un numero è divisibile per 2 se e solo se la sua ultima cifra decimale è pari, vale a dire 0, 2, 4, 6, 8.
+*Dimostrazione:
+consideriamo un numero N, le sue cifre decimali sono i coefficienti ai che compaiono nella somma
+N=a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k
+10^k
+i termini ai10i sono tutti divisibili per 2 se i>0, quindi se N è divisibile per 2 lo è anche
+N- (a_1 10+a_2
+10^2+a_3 10 ^3+\cdots+a_k 10^k)
+cioè a0, che quindi è 0, 2, 4, 6 o 8.
+Viceversa se a0 è 0, 2, 4, 6 o 8 una volta che lo sommiamo al numero
+che è anch'esso divisibile per 2 otteniamo ancora un multiplo di 2, dunque N sarà divisibile per 2.
+Esempio:
+26 è divisibile per 2 perché finisce con 6.
+Vedi anche divisione per due.
+Un numero intero si dice pari se è divisibile per 2, altrimenti si dice dispari.
+Vedi anche Numeri pari e dispari.
+Più in generale, un numero è divisibile per 2^k se lo è il numero composto dalle k cifre più a destra del numero.
+Dimostrazione:
+rappresentiamo un qualunque numero naturale n nella forma n
+m_k10^k+n_k dove n_k indica il numero costituito dalle prime k cifre di destra ed m_k il numero costituito dalle rimanenti cifre alla sinistra di n_k.
+Se dividiamo entrambi i membri per 2^k risulta che, poiché m_k10^k 2^k.
+Nel caso infine in cui n_k sia costituito da tutti zeri, si avrà n
+m_k10^k+0
+m_k5^k2^k che ne indica la divisibilità per 2^k.
+Un numero è divisibile per 3 se la somma delle sue cifre è 3 o un suo multiplo.
+Nel caso tale somma sia un numero maggiore di 9, si può eseguire di nuovo l'operazione.
+Quindi ad esempio da 493827 si ottiene 33 e da qui 6.
+Il risultato è pari al resto modulo 9, e se lo si divide per 3 si può anche ottenere il resto modulo 3;
+inoltre non è necessario sommare le eventuali cifre divisibili per 3 (ossia 0, 3, 6, 9) presenti nel numero.
+Ad esempio, per verificare se 32565 è divisible per 3 basta eseguire la somma 2+5+5 = 12.
+Dato che 12 è divisibile per 3, allora anche 32565 lo è.
+*Dimostrazione:
+consideriamo un numero N, le sue cifre decimali sono i coefficienti ai che compaiono nella somma
+N=a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k
+10^k
+supponiamo che la somma
+a_0+a_1+a_2+a_3+\cdots+a_k
+sia divisibile per 3, questo si può tradurre in aritmetica modulare dicendo che
+a_0+a_1+a_2+a_3+\cdots+a_k\equiv 0 \pmod
+ovvero
+a_0\equiv - (a_1+a_2+a_3+\cdots+a_k)\pmod
+sostituendo in N si ha
+N\equiv - (a_1+a_2+a_3+\cdots+a_k)+a_1
+10+a_2 10^2+a_3 10 ^3+\cdots+a_k 10^k\equiv 9 a_1+99a_2+\cdots+ (10^k-1)a_k
+che risulta evidentemente essere un multiplo di 3.
+Un numero è divisibile per 4 se le ultime due cifre sono 00 oppure formano un numero multiplo di 4, o equivalentemente le ultime due cifre sono tali che la sua penultima è dispari e l'ultima è 2 oppure 6, oppure la sua penultima cifra è pari e l'ultima è 0, 4, 8.
+*Dimostrazione:
+consideriamo un numero N, le sue cifre decimali sono i coefficienti ai che compaiono nella somma
+N=a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k
+10^k
+Se il numero finisce per 00 è divisibile per 100 che a sua volta è divisibile per 4.
+Supponiamo che le ultime due cifre
+formino un multiplo di 4;
+in ogni caso anche le cifre rimanenti
+a_2 10^2+a_3 10 ^3+\cdots+a_k 10^k
+formeranno un multiplo di 4 (in quanto formano un multiplo di 100), quindi anche la loro somma, cioè N, è multiplo di 4.
+Esempio:
+424 è divisibile per 4 perché le ultime 2 cifre sono 2 e 4, che formano 24, che è multiplo di 4.
+Un numero è divisibile per 5 se la sua ultima cifra è 0 oppure 5.
+*Dimostrazione:
+consideriamo un numero N, le sue cifre decimali sono i coefficienti ai che compaiono nella somma
+N=a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k
+10^k
+i termini ai10i sono tutti divisibili per 5 se i>0, quindi se N è divisibile per 5 lo è anche
+N- (a_1 10+a_2
+10^2+a_3 10 ^3+\cdots+a_k 10^k)
+cioè a0, che quindi è 0 o 5.
+Viceversa se a0 è 0 o 5 una volta che lo sommiamo al numero
+che è anch'esso divisibile per 5 otteniamo ancora un multiplo di 5, dunque N sarà divisibile per 5.
+Esempio:
+565 è divisibile per 5 perché finisce con 5.
+Similmente al caso con le potenze di 2, un numero è divisibile per 5^k se lo sono le k cifre più a destra del numero.
+Un numero è divisibile per 6 se è divisibile contemporaneamente per 2 e per 3.
+Un numero è divisibile per 7 se la somma tra il numero ottenuto escludendo la cifra delle unità (prenumero) e il quintuplo della cifra delle unità (coda numerica) è 7 o un multiplo di 7.
+Esempio:
+68089; calcoliamo 6808 + 9&times;5
+6853;
+non sapendo se 6853 sia divisibile per 7 basta ripetere la procedura.
+685 + 3&times;5
+che è evidentemente un multiplo di sette.
+Pertanto 68089 è multiplo di 7.
+*Dimostrazione:
+consideriamo un numero N, le sue cifre decimali sono i coefficienti ai che compaiono nella somma
+N=a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k
+10^k
+che possiamo scrivere più sintenticamente
+N=a_0+10 \times
+nel linguaggio dell'aritmetica modulare sappiamo che N è divisibile per 7 se e solo se
+N\equiv 0 \pmod
+ovvero
+a_0+10 \times b\equiv 0 \pmod
+e se moltiplichiamo tutto per 5 (che è l'inverso aritmetico di 10 modulo 7) abbiamo
+5\times a_0+5 \times 10 \times b\equiv 0 \pmod
+ovvero
+5\times a_0+ b\equiv 0 \pmod
+poiché
+50 \equiv 1 \pmod.
+Dato che -2 appartiene alla stessa Classe di Resto di 5 modulo 7, il criterio sopra definito può essere modificato come segue:
+Un numero è divisibile per 7 se la differenza tra il numero ottenuto escludendo la cifra delle unità e il doppio della cifra delle unità è 0, 7 o un multiplo di 7.
+Utilizzando lo stesso esempio "68089";
+6808-9&times;2
+6790;
+679-0&times;2
+679;
+67-9&times;2=49; da cui la divisibilità del numero iniziale per 7.
+Va ricordato che questi criteri (al contrario dei successivi) non consentono il calcolo del resto della divisione per 7, solo la verifica della divisibilità.
+Un secondo criterio di divisibilità per 7, come quello per 13, sfrutta anche il fatto che 1001 è fattorizzabile come 7 &times;
+11 &times;
+13, e quindi si può iniziare a ridurre il numero dato a uno con al più tre cifre (vedi sotto il criterio di divisibilità per 1001).
+Tali cifre, prese da destra a sinistra, devono essere moltiplicate rispettivamente per 1, 3 e 2 (mnemonicamente si può vedere la cosa come "legge 132") e i risultati sommati tra di loro.
+Un altro criterio di divisibilità per 7 consiste nel prendere la cifra più a sinistra del numero, moltiplicarla per 3 e sommarla a quella immediatamente più a destra, eliminando eventuali fattori 7 e continuando fino alla cifra più a destra.
+Nell'esempio del numero 493827, le operazioni da compiere sono:
+La stessa operazione si può anche fare da destra a sinistra;
+in questo caso il moltiplicatore è 5.
+Per numeri grandi, è possibile dividerli in gruppi di tre cifre da destra a sinistra, inserendo segni alternati fra ogni gruppo:
+il risultato deve essere divisibile per 7.
+Ad esempio "1491826":
+e, utilizzando uno dei criteri precedenti, 33 + (6 &times;
+63 quindi è divisibile.
+Un ulteriore criterio di divisibilità per 7 è il seguente, assai facile da usare.
+Si divide il numero in esame in gruppi di tre cifre (da destra a sinistra) e di ciascuno si calcola il resto della divisione per 7;
+si sommano i resti dei gruppi di posto dispari e dei gruppi di posto pari:
+se la differenza delle due somme è nulla o un multiplo di 7 il numero di partenza è divisibile per 7.
+Sembra complicato ma non lo è:
+basta fare un esempio.
+Prendiamo il numero 123457789:
+il resto di 123:7 è 4, il resto di 457:7 è 2, il resto di 789:7 è 5;
+la somma dei resti dei gruppi di posto dispari è 4+5
+9 e la somma dei resti dei gruppi di posto pari è 2 (c'è un solo gruppo);
+poiché 9-2
+7 il numero di partenza è divisibile per 7.
+Per calcolare facilmente il resto della divisione di un numero per 7 si ricordi che il resto non cambia se si sottrae al numero di partenza un multiplo di 7:
+ad esempio 723:7 dà lo stesso resto di (723-700):7 ovvero 23:7 il cui resto è assai più facile da calcolare.
+Si può anche dividere il numero in esame in due gruppi di cifre, le tre cifre di destra e le rimanenti cifre, ed applicare il medesimo criterio.
+Prendiamo il numero 123457789 (già considerato sopra):
+il resto di 123457:7 è 5, il resto di 789:7 è 5;
+la differenza dei resti è nulla e pertanto il numero di partenza è divisibile per 7.
+Per i numeri non divisibili per 7, la citata differenza tra le somme dei resti dei gruppi di posto dispari e dei gruppi di posto pari fornisce anche il resto della divisione del numero di partenza per 7 (con l'accortezza di aggiungere 7 in caso di differenza negativa e di sottrarre 7 - o multipli di 7 - in caso di differenza maggiore di 6).
+Un numero è divisibile per 8 se termina con tre zeri o se lo è il numero formato dalle sue ultime 3 cifre.
+Esempio:
+1128 è divisibile per 8 perché anche 128 lo è
+Un'altra possibilità è data dal prendere la terzultima cifra, raddoppiarla, sommarla alla penultima, raddoppiare il risultato e sommarlo all'ultima:
+se il risultato finale è multiplo di 8 allora anche il numero originale lo è.
+Esempio:
+15736 si fa 7&times;2
+14;
+14+3
+17;
+17&times;2
+34;
+34+6
+Dato che 40 è un multiplo di 8, anche 15736 lo è.
+Un numero è divisibile per 9 se la somma delle sue cifre è divisibile per nove.
+Nel caso tale somma sia un numero maggiore di 9, si può reiterare l'operazione.
+Si consideri ad esempio il numero 493827, sommando le sue cifre si ottiene 33.
+Ripetendo ulteriormente l'operazione si ottiene 6, da cui risulta che il numero 493827 non è divisibile per 9.
+Il risultato dell'operazione (6 nell'esempio) è pari al resto modulo 9 (dividendo il risultato per 3 si otterrebbe il resto modulo 3).
+Da notare che non è necessario sommare eventuali cifre 9 presenti nel numero.
+Dal criterio appena descritto si ricava una delle tante proprietà curiose legate al numero 9.
+Se si sottrae ad un qualunque numero la somma delle sue cifre prese singolarmente si ottiene sempre un numero divisibile per 9.
+Riprendendo l'esempio precedente, se a 493827 si sottraggono le sue cifre si ottiene:
+493827- (4+9+3+8+2+7)=493794, la cui divisibilità per 9 può facilmente essere dimostrata col precedente criterio.
+Questo è dovuto al fatto che, come descritto in precedenza, la somma delle cifre di un numero è pari proprio al resto modulo 9.
+Vedi anche Prova del nove e Radice numerica.
+Un numero è divisibile per 10 quando la sua ultima cifra è zero.
+Un numero è divisibile per 10^m (10, 100, 1000, ...) quando le sue ultime m (1, 2, 3, ..., rispettivamente) cifre a destra sono tutti zeri.
+Ad esempio, 40 è divisibile per 10, 300 è divisibile per 100 e 4000 è divisibile per 1000.
+*Dimostrazione:
+un generico numero naturale N è, infatti, sempre esprimibile nella forma
+N=a_0+a_1 10+a_2 10^2+\cdots+a_ 10^+a_k
+10^k
+in cui i coefficienti a_i sono le k+1 cifre decimali di N. La precedente somma può essere scritta anche come
+N=N_m+10^m \times b
+avendo posto
+b \triangleq a_m+a_ 10+a_ 10^2+\cdots+a_ 10^+a_k 10^
+N_m \triangleq a_0+a_1 10+a_2 10^2+\cdots+a_ 10^+a_ 10^
+dove a_0, a_1, a_2 \cdots, a_, a_ sono le ultime m cifre a destra di N (m \in \mathbb).
+Pertanto, N sarà divisibile per 10^m quando lo è il numero N_m composto dalle sue ultime m cifre a destra;
+d'altronde, essendo tutti i coefficienti a_i minori di 10 (in quanto cifre decimali), N_m potrà essere divisibile per 10^m soltanto quando è nullo, il che richiede che le m cifre a_0, a_1, a_2 \cdots, a_, a_ siano tutte pari a zero.
+Un numero è divisibile per 11 se, contando da destra verso sinistra, la differenza (in valore assoluto) tra la somma delle sue cifre di posto dispari e la somma delle sue cifre di posto pari dà come risultato 0, 11 o un multiplo di 11.
+Ad esempio, "8.291.778" è divisibile per 11 perché:
+(8+7+9+8)- (7+1+2)
+Un numero è divisibile per 12 se è contemporaneamente divisibile sia per 3 sia per 4.
+Un numero è divisibile per 13 se la somma tra il numero ottenuto escludendo la cifra delle unità (prenumero) e il quadruplo della cifra delle unità (coda numerica) è 0, 13 o un suo multiplo.
+Esempio:
+12285; calcoliamo 1228 + 5&times;4
+1248;
+non sapendo se 1248 sia divisibile per 13 basta ripetere la procedura.
+124 + 8&times;4
+Anche qui si ripete la procedura:
+15 + 6&times;4 = 39, cioè 13&times;3.
+Pertanto 12285 è multiplo di 13.
+*Dimostrazione:
+consideriamo un numero N, le sue cifre decimali sono i coefficienti ai che compaiono nella somma
+N=a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k
+10^k
+che possiamo scrivere più sinteticamente
+N=a_0+10 \times
+nel linguaggio dell'aritmetica modulare sappiamo che N è divisibile per 13 se e solo se
+N\equiv 0 \pmod
+ovvero
+a_0+10 \times b\equiv 0 \pmod
+e se moltiplichiamo tutto per 4 (che è l'inverso aritmetico di 10 modulo 13) abbiamo
+4\times a_0+4 \times 10 \times b\equiv 0 \pmod
+ovvero
+\pmod
+poiché
+40 \equiv 1 \pmod.
+Va ricordato che questo criterio, analogamente al criterio di divisibilità per 7, non consente il calcolo del resto della divisione per 13 ma solo la verifica della divisibilità.
+Un ulteriore criterio di divisibilità per 13 è il seguente, assai facile da usare.
+Si divide il numero in esame in gruppi di tre cifre (da destra a sinistra) e di ciascuno si calcola il resto della divisione per 13;
+si sommano i resti dei gruppi di posto dispari e dei gruppi di posto pari:
+se la differenza delle due somme è nulla o un multiplo di 13 il numero di partenza è divisibile per 13.
+Sembra complicato ma non lo è:
+basta fare un esempio.
+Prendiamo il numero 123457789:
+il resto di 123:13 è 6, il resto di 457:13 è 2, il resto di 789:13 è 9;
+la somma dei resti dei gruppi di posto dispari è 6+9
+15 e la somma dei resti dei gruppi di posto pari
+è 2 (c'è un solo gruppo);
+poiché 15-2
+13 il numero di partenza è divisibile per 13.
+Per calcolare facilmente il resto della divisione di un numero per 13 si ricordi che il resto non cambia se si sottrae al numero di partenza un multiplo di 13:
+ad esempio 543:13 dà lo stesso resto di (543-520):13 ovvero 23:13 il cui resto è assai più facile da calcolare.
+Si può anche dividere il numero in esame in due gruppi di cifre, le tre cifre di destra e le rimanenti cifre, ed applicare il medesimo criterio.
+Prendiamo il numero 123457789 (già considerato sopra):
+il resto di 123457:13 è 9, il resto di 789:13 è 9;
+la differenza dei resti è nulla e pertanto il numero di partenza è divisibile per 13.
+Per i numeri non divisibili per 13, la citata differenza tra le somme dei resti dei gruppi di posto dispari e dei gruppi di posto pari fornisce anche il resto della divisione del numero di partenza per 13 (con l'accortezza di aggiungere 13 in caso di differenza negativa e di sottrarre 13 - o multipli di 13 - in caso di differenza maggiore di 12).
+Un numero è divisibile per 17 se il valore assoluto della differenza fra il numero ottenuto eliminando la cifra delle unità e il quintuplo della cifra delle unità è 0, 17 o un multiplo di 17.
+85. Questo è divisibile per 17 se lo è il numero |8 - 5 \cdot 5|
+* Dimostrazione:
+esprimiamo N come N
+\overline
+a_0+a_1
+10+a_2 10^2+a_3 10 ^3+\cdots+a_k 10^k \equiv_0 ;
+# 18a_0+a_1 10+a_2 10^2+a_3 10 ^3+\cdots+a_k 10^k \equiv_0 (si dividono entrambi i membri per 2:
+cosa possibile visto che 2 e 17 sono coprimi);
+# 9a_0+5 (a_1 +a_2 10+a_3 10 ^2+\cdots+a_k 10^) \equiv_0 ;
+# -25a_0+5 (a_1 +a_2 10+a_3 10 ^2+\cdots+a_k 10^)
+\equiv_0 (si dividono entrambi i membri per 5:
+cosa possibile visto che 5 e 17 sono coprimi);
+# -5a_0 + a_1 +a_2
+10+a_3 10 ^2+\cdots+a_k 10^ \equiv_0 cioè \overline - 5a_0= 17k \qquad k\in \mathbb
+Quindi con questo criterio possiamo ottenere 17 quando k=1 oppure qualche multiplo di 17:
+in questo caso il criterio può essere reiterato con il numero appena ottenuto (proprio come nell'esempio qua sopra)
+Un numero è divisibile per 20 se è composto da almeno due cifre e le sue ultime due cifre a destra sono 00, 20, 40, 60, 80.
+Un numero è divisibile per 25, se è composto da almeno due cifre e le sue ultime 2 cifre a destra sono 00, 25, 50 o 75.
+Ad esempio 1550 è divisibile per 25 perché le ultime 2 cifre:
+50 formano un numero divisibile per 25.
+Per verificare se un numero è divisibile per 27, lo si divide in terzetti di cifre .
+Se la somma di tutti i terzetti dà come risultato un multiplo di 27 allora il numero di partenza è divisibile per 27.
+In alternativa, se risulta più agevole, si possono calcolare i resti delle divisioni per 27 dei vari terzetti e sommare infine tutti i resti ottenuti:
+se tale somma dà come risultato un multiplo di 27 allora il numero di partenza è divisibile per 27.
+Ad esempio "514.291.761" è divisibile perché:
+761+291+514
+che è un multiplo di 27;
+10x27+21
+19x27+1 e 5+21+1=27.
+Analogamente per verificare se un numero è divisibile per 37, lo si divide in terzetti di cifre .
+Se la somma di tutti i terzetti dà come risultato un multiplo di 37 allora il numero di partenza è divisibile per 37.
+In alternativa, se risulta più agevole, si possono calcolare i resti delle divisioni per 37 dei vari terzetti e sommare infine tutti i resti ottenuti:
+se tale somma dà come risultato un multiplo di 37 allora il numero di partenza è divisibile per 37.
+Ad esempio "514.291.749" è divisibile perché:
+749+291+514
+che è un multiplo di 37;
+7x37
+13x37+33 e 9+32+33=74 che è evidentemente un multiplo di 37.
+Per comprendere la similarità dei criteri di divisibilità per 27 e per 37 e capire perché per tali criteri si dividono i numeri in gruppetti di tre cifre si fa riferimento alla scomposizione di 999 che è pari a 27x37.
+Per verificare se un numero è divisibile per 101, lo si divide in coppie di cifre a partire da destra.
+Se contando da destra verso sinistra la differenza (in valore assoluto) tra la somma delle coppie che occupano posto pari e la somma delle coppie che occupano posto dispari dà come risultato 0, 101, un multiplo di 101, allora il numero di partenza è divisibile per 101.
+Ad esempio "514.300.787" è divisibile perché:
+(87+30+5)- (7+14)
+Divisibilità per 1001
+Per verificare se un numero è divisibile per 1001, lo si divide in terzetti di cifre a partire da destra.
+Se contando da destra verso sinistra la differenza (in valore assoluto) tra la somma dei terzetti che occupano posto pari e la somma dei terzetti che occupano posto dispari dà come risultato 0, 1001, un multiplo di 1001, allora il numero di partenza è divisibile per 1001.
+Ad esempio "514.291.778" è divisibile perché:
+(778+514)- (291)
+Divisibilità in altre basi
+Sia n un numero espresso in base b, e sia m un divisore di b. Si possono generalizzare il criterio di divisibilità per le potenze di 2, 5, 10 e il criterio di divisibilità per 9 (o per 3) nel modo seguente.
+Il resto della divisione di n per m^e è lo stesso della divisione delle ultime e cifre di n per m^e.
+Il resto della divisione di n per b-1 (o un divisore di b-1) è lo stesso della divisione della somma delle cifre di n per b-1.
+Anche il criterio di divisibilità per 11 può essere facilmente generalizzato a b+1.
+Divisibilità in altri anelli
+È possibile considerare la divisibilità anche su altri anelli oltre agli interi.
+Interi di Gauss
+Tenendo presente che 10 si scompone in fattori primi come (1-i) (1+i) (2-i) (2+i), si possono dare i criteri di divisibilità per i numeri 1-i, 1+i, 2-i, 2+i.
+Un intero di Gauss è divisibile:
+* per 1-i o per 1+i se la somma della parte reale e di quella immaginaria è divisibile per 2,
+* per 2-i se la differenza del doppio della parte reale e di quella immaginaria è divisibile per 5,
+* per 2+i se la somma del doppio della parte reale e di quella immaginaria è divisibile per 5.
+Polinomi
+Il teorema del resto fornisce un criterio di divisibilità dei polinomi.

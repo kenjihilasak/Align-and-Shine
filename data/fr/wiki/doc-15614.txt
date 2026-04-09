@@ -1,0 +1,246 @@
+Dérivée
+En mathématiques, la dérivée d'une fonction d'une variable réelle mesure l'ampleur du changement de la valeur de la fonction (valeur de sortie) par rapport à un changement de son argument (valeur d'entrée).
+Les produits dérivés sont un outil fondamental du calcul infinitésimal.
+Par exemple, la dérivée de la position d'un objet en mouvement par rapport au temps est la vitesse de l'objet : cette dérivée mesure à quelle vitesse la position de l'objet change lorsque le temps avance.
+La dérivée d'une fonction est une fonction qui, à tout nombre pour lequel admet un nombre dérivé, associe ce nombre dérivé.
+La dérivée en un point d'une fonction de plusieurs variables réelles, ou à valeurs vectorielles, est plus couramment appelée différentielle de la fonction en ce point, et n'est pas traitée ici.
+La dérivée de la fonction par rapport à est notée en mathématiques f' (x) ou \frac.
+On utilise aussi des notations spécifiques, en particulier en physique, pour désigner la dérivée par rapport au temps qui s'écrit avec un point surmontant la lettre (\dot f), la dérivée seconde s'écrivant alors grâce à un tréma surmontant la lettre.
+Cette notation est appelée « notation de Newton ».
+On utilise dans le même esprit, les notations prime et seconde pour noter la dérivée par rapport à l'espace.
+En analyse, le nombre dérivé en un « point » (réel) d'une fonction à variable et valeurs réelles est la pente de la tangente au graphe de au point .
+C'est le coefficient directeur de l'approximation affine de en ;
+ce nombre n'est donc défini que si cette tangente existe.
+La notion de dérivée est une notion fondamentale en analyse permettant d'étudier les variations d'une fonction, de construire des tangentes à une courbe et de résoudre des problèmes d'optimisation.
+En sciences, lorsqu'une grandeur est fonction du temps, la dérivée de cette grandeur donne la vitesse instantanée de variation de cette grandeur, et la dérivée de la dérivée donne l'accélération.
+Par exemple, la vitesse instantanée d'un mobile est la valeur à cet instant de la dérivée de sa position par rapport au temps, et son accélération est la valeur à cet instant de la dérivée par rapport au temps, de sa vitesse.
+On généralise la notion de dérivée en étendant celle-ci au champ complexe et on parle alors de dérivée complexe.
+Pour une fonction de plusieurs variables réelles, on parle de la dérivée partielle par rapport à l'une de ses variables.
+Il existe aussi une définition purement algébrique de la dérivée.
+On en trouve un exemple dans l'article polynôme formel.
+Histoire
+L'histoire du calcul infinitésimal remonte à l'Antiquité.
+Sa création est liée à une polémique entre deux mathématiciens : Isaac Newton et Gottfried Wilhelm Leibniz.
+Néanmoins, on retrouve chez des mathématiciens plus anciens les prémices de ce type de calcul : Archimède, Pierre de Fermat et Isaac Barrow notamment.
+La notion de nombre dérivé a vu le jour au dans les écrits de Gottfried Wilhelm Leibniz et d'Isaac Newton qui le nomme fluxion et qui le définit comme « le quotient ultime de deux accroissements évanescents ».
+C'est à Lagrange (fin du ) que l'on doit la notation , aujourd'hui usuelle, pour désigner le nombre dérivé de en .
+C'est aussi à lui qu'on doit le nom de « dérivée » pour désigner ce concept mathématique.
+Approche à partir de la pente de la tangente
+Pour approcher cette notion de manière graphique, commençons par nous donner une courbe représentative d'une fonction continue dans un repère cartésien, c'est-à-dire tracée d'un seul trait de crayon, et bien « lisse » ;
+on dira là que la fonction associée est dérivable.
+Quel que soit le point que l'on choisit sur la courbe, on pourra alors tracer ce qu'on appelle une tangente, c'est-à-dire une droite qui épouse localement la direction de cette courbe.
+Si l'on trace la courbe et sa tangente et que l'on s'approche en zoomant suffisamment, on aura de plus en plus de mal à distinguer la courbe de sa tangente.
+Si la courbe « monte » (c'est-à-dire si la fonction associée est croissante), la tangente sera également montante ;
+inversement, si la fonction est décroissante, la tangente sera descendante.
+Si on se donne une abscisse pour laquelle la fonction est dérivable, on appelle nombre dérivé de en le coefficient directeur de la tangente à la courbe au point d'abscisse .
+Ce réel donne de précieuses informations sur le comportement local d'une fonction : c'est la mesure algébrique de la vitesse à laquelle cette fonction change lorsque sa variable change.
+Ainsi, si le nombre dérivé d'une fonction est positif sur un intervalle, cette fonction sera croissante sur ce même intervalle.
+Inversement, s'il est négatif, elle sera décroissante.
+Lorsque le nombre dérivé est nul en un point, la courbe admet une tangente horizontale en ce point (pour plus de détails
+, voir Fonction monotone#Monotonie et signe de la dérivée).
+Définition formelle
+Soit une fonction réelle à valeurs réelles définie sur une réunion quelconque d'intervalles non triviaux, et appartenant à l'intérieur de l'ensemble de définition \mathcal_f.
+Pour tout h\in \R^* tel que x_0,x_0+h\sub \mathcal_f, on appelle taux d'accroissement de en et avec un pas de la quantité :
+:t_ (h) =
+Il s'agit du coefficient directeur de la droite reliant les points de coordonnées et .
+Si admet une limite finie lorsque tend vers 0, on dit que est dérivable en , auquel cas le nombre dérivé de en est égal à la limite de ce taux d'accroissement.
+On note alors :
+f' (x_0)
+\lim_ t_ (h)
+\lim_
+ou, de manière équivalente :
+:f' (x_0) = \lim_
+Une fonction pour laquelle le taux d'accroissement en un point admet une limite finie (qui est le nombre dérivé) est dite dérivable en ce point.
+Ce calcul de limite revient graphiquement à rechercher la pente de la tangente à la courbe en ce point.
+Ainsi, le nombre dérivé d'une fonction en un point, s'il existe, est égal à la pente de la tangente à la courbe représentative de la fonction en ce point :
+La dérivation peut aussi être définie pour des fonctions d'une variable réelle à valeurs dans d'autres ensembles que \R.
+Par exemple, une fonction d'une variable réelle, à valeurs dans \R^n, est dérivable en si et seulement si toutes ses coordonnées sont dérivables en ;
+et sa dérivée est la fonction dont les coordonnées sont les dérivées des coordonnées de .
+C'est un cas particulier de fonctions d'une variable vectorielle et à valeurs dans un espace vectoriel normé ou métrique.
+Dérivabilité et lien avec la continuité
+Typiquement, une fonction est dérivable si elle ne présente pas « d'aspérité », de rupture de pente ni de partie « verticale ».
+Une fonction qui n'est pas continue en un point n'y est pas dérivable : comme la fonction fait un saut, on ne peut pas définir de tangente, la limite du taux de variation est infini (la pente de la courbe est verticale).
+C'est le cas par exemple de la fonction signe en 0 :
+le taux de variation pour une largeur vaut donc
+\frac
+Par contre, on peut définir une dérivée à gauche
+- dérivée partout nulle (tangente horizontale) sur - et une dérivée à droite
+- dérivée également nulle sur .
+Si une fonction est dérivable en un point alors elle est continue en ce point, mais la réciproque est fausse.
+Par exemple : la fonction x\mapsto |xest continue mais n'est pas dérivable en 0 :
+il y a une tangente à gauche et une tangente à droite différentes, la pente en 0 n'est pas définie ;
+le taux de variation n'a pas de limite définie.
+C'est le cas général pour les courbes présentant un point anguleux.
+Il en est de même de la fonction racine cubique, qui a une tangente verticale en : le taux de variation a une limite infinie.
+Fonction dérivée
+La dérivabilité est a priori une notion locale (dérivabilité en un point), mais à toute fonction f:\mathcal_f\to\R on peut associer sa fonction dérivée (prononcée « prime »), donnée par
+f'\colon \mathcal_\rightarrow\R,\quad x\mapsto f' (x)
+où \mathcal_ est le domaine de dérivabilité de (le sous-ensemble de \mathcal_f constitué des points en lesquels est dérivable)
+Les fonctions dérivées sont utilisées notamment dans l'étude des fonctions réelles et de leurs variations.
+La seule fonction (à une constante multiplicative près) égale à sa dérivée
+- c'est-à-dire solution de l'équation différentielle
+- est la fonction exponentielle de base .
+prennent cette propriété comme définition de l'exponentielle.
+Notations
+Il existe différentes notations pour exprimer la valeur de la dérivée d'une fonction en un point .
+On distingue :
+* la notation de Leibniz : \frac (a) ou \left.\frac\right|_ ou même
+, moins rigoureusement, \frac ;
+* la notation de Newton : \dot (a)
+qui est plutôt utilisée en physique pour désigner une dérivée par rapport au temps (on parle alors de calcul des fluxions) ;
+Ces notations permettent également d'écrire des dérivée itérées, cela se fait en multipliant le prime ou le point dans la notation (par exemple une dérivée seconde peut s'écrire f (a) ou \ddot (a)).
+Dérivées usuelles et règles de dérivation
+f' peut souvent se calculer directement à partir d'une expression de , lorsqu'il s'agit d'une fonction « simple », en utilisant la table des dérivées usuelles.
+Pour des fonctions qui s'expriment comme combinaison linéaire de fonctions simples, comme produit, quotient ou composée, on utilise un petit nombre de règles algébriques déduites de la définition donnée plus haut.
+Les règles les plus couramment utilisées sont les suivantes :
+En particulier, voici les règles courantes se déduisant de la dérivée de composées :
+Dérivation numérique
+Dans le cas d'une courbe expérimentale, on ne possède pas de fonction analytique pour la décrire, mais d'une série de valeurs .
+On a donc recours à une dérivation numérique, qui consiste simplement à approcher la valeur de la dérivée en un point par le taux de variation entre les points précédent et suivant :
+f' (x_i) \simeq \frac
+Graphiquement
+, cela revient à remplacer la tangente par la corde.
+Ceci peut se justifier par le théorème des accroissements finis : on sait qu'il existe un point de l'intervalle pour lequel la dérivée est la pente de la corde, et si l'intervalle est petit, alors ce point est proche du milieu .
+Cette méthode est automatisable sur les calculatrices programmables et les ordinateurs.
+Il faut cependant se poser la question de la précision des résultats.
+Une mise en informatique «
+naïve » de la méthode de calcul
+peut mener à des résultats de précision médiocre dans certains cas.
+Dans un ordinateur, la précision des nombres est limitée par le mode de représentation.
+Si l'on utilise la double précision selon la norme IEEE 754, les nombres ont environ 16 chiffres significatifs.
+On a donc une précision relative de l'ordre de 10−16 (2−52 exactement).
+Notons cette valeur.
+Les calculatrices de poche admettent typiquement 10 chiffres significatifs, soit .
+Supposons que la différence soit inférieure à , alors le calculateur fera une erreur grossière sur le calcul et le résultat sera médiocre ;
+voire, si la différence est très faible, il ne « verra pas » de différence entre les deux valeurs, et le résultat sera 0.
+Si par exemple on veut avoir la dérivée autour de 2 de la fonction , en prenant un écart de 10−13 entre les points :
+On voit que la différence entre les nombres, 8·10−13, est proche de .
+On va donc avoir une erreur d'arrondi.
+De fait, le calcul nous donne sur un ordinateur
+alors que
+le résultat exact
+est
+soit une erreur de 0,3 %.
+Sur une calculatrice, le résultat est ƒ' (2) ≈ 0…
+Le point critique est le choix de l'écart entre les valeurs de .
+Une valeur de l'ordre de convient dans de nombreux cas.
+Il nous manque encore quelques éléments pour cette étude ;
+le problème est abordé dans la section Précision de la dérivée numérique ci-dessous.
+Donc
+* pour un ordinateur calculant en double précision, on peut prendre un écart de 10−8 entre les points ;
+* pour une calculatrice avec 10 chiffres significatifs, on peut prendre un écart de 10−5 entre les points.
+Précision de la dérivée numérique
+On peut approcher la fonction par un polynôme appelé développement limité :
+f (x + h)
+= f (x) + f' (x) \cdot h + \frac2\cdot h^2 + \mathrm (h^2)
+Il en vient une approximation de la dérivée à l'ordre 2 :
+: f' (x) \simeq \frach- \frac2\cdot h \simeq \frach.
+Ce faisant, on commet une erreur de troncature du second ordre
+\mathrm = \left | \frac2\right |h.
+Par ailleurs, l'ordinateur commet une erreur d'arrondi : la précision relative étant , la précision absolue sur est , et donc l'erreur induite sur la dérivée
+\mathrm = \frach.
+L'erreur totale vaut donc
+\mathrm
+\mathrm + \mathrm
+\left
+| \frac2\right | h + \frach
+Cette fonction est convexe, et admet un minimum en
+\bar h=\sqrt.
+Cela dépend donc du rapport entre la valeur de et la courbure .
+Pour les zones où la fonction est « modérée »
+- c'est-à-dire que est de l'ordre de l'unité -, on peut retenir
+\bar h\simeq \sqrt.
+L'erreur commise sur le premier terme (« erreur de méthode ») est en fait bien plus petite, puisque la méthode du paragraphe précédent revient à approximer par \frac ;
+le même développement limité (pris cette fois à l'ordre 3) montre qu'on commet alors une erreur de l'ordre de .
+Il en résulte que le principal défaut de ces méthodes d'approximation numérique vient des erreurs d'arrondi.
+Dérivation graphique
+On peut également effectuer une dérivation graphique, sans utiliser de calcul.
+On approche les tangentes par les cordes comme pour la méthode numérique.
+Puis, on tire des parallèles à ces droites passant par un point nommé pôle P. On considère l'intersection de ces droites avec la verticale passant par O, le segment OP étant horizontal.
+La hauteur vi des segments ainsi délimités est proportionnelle à la pente :
+: v_i = \mathrm \times a_i
+on peut donc reporter cette hauteur sur le graphique et obtenir une approximation de la courbe dérivée.
+L'échelle de l'axe des y est donc de OP:1.
+Dérivée d'ordre
+La dérivée seconde, notée ƒ", est la dérivée de la dérivée de ƒ, lorsqu'elle existe :
+: f = (f')'
+et la dérivée troisième est la dérivée de la dérivée seconde, lorsqu'elle existe :
+: f = (f)'.
+De manière générale, on définit la dérivée d'ordre pour une fonction fois dérivable par récurrence :
+\frac=\frac \frac
+\frac est également notée f^.
+Formule de Leibniz
+Si et sont des fonctions fois dérivables, alors, par application de la règle du produit :
+(fg)^=\sum_^ f^g^.
+En particulier
+pour ,
+: (
+fg)=fg+2f'g'+fg
+On notera l'analogie avec la formule du binôme de Newton.
+Cela provient de la bilinéarité de l'opérateur de dérivation d'un produit.
+Propriétés des fonctions dérivables
+Théorème de Rolle
+Soient et deux réels tels
+que .
+Si est continue sur , dérivable sur , et si , alors il existe (au moins) un réel dans tel que :
+f' (c)=0 .
+Théorème des accroissements finis
+Énoncé
+Si une fonction est continue sur , avec , et dérivable sur , alors il existe un point de tel que le nombre dérivé de en ce point soit le taux de variation entre et
+f' (c)= \frac.
+En particulier, si , on retrouve le théorème de Rolle, qui sert aussi à démontrer le résultat plus général , c'est pourquoi on le rencontre souvent sous le nom de lemme de Rolle.
+Cette propriété est utilisée en cinématique pour déterminer une approximation du vecteur vitesse à partir d'un relevé de point.
+Théorème de Darboux
+Si est dérivable, sa fonction dérivée n'est pas nécessairement continue.
+Cependant, possède la propriété des valeurs intermédiaires.
+Ceci constitue le théorème de Darboux, qui peut se formuler de deux façons équivalentes :
+: si dérivable est définie sur un intervalle réel , alors est un intervalle ;
+si alors, pour tout de , il existe tel que .
+Dérivées de fonctions liées
+Beaucoup de problèmes font intervenir plusieurs variables qui sont liées entre elles et qui varient en fonction du temps.
+La variation de l'une de ces variables donnera une variation correspondante des autres variables.
+Le lien entre ces variations dépendra des relations qui existent entre les variables.
+Analyse d'une fonction dérivée
+En trouvant les valeurs de pour lesquelles la dérivée vaut 0 ou n'existe pas, on trouve les nombres critiques de la fonction.
+Les nombres critiques de permettent de trouver implicitement ses maxima et ses minima.
+En effectuant le test de la dérivée première, on construit un tableau de variation ;
+si le signe de la fonction dérivée passe du plus au moins devant un nombre critique, on a un maximum et si le signe de la fonction dérivée passe du moins au plus devant le nombre critique, on a un minimum.
+De plus, lorsque le signe de la dérivée première est positif, la fonction est croissante ;
+s'il est négatif, elle est décroissante.
+On ne conclut rien, si au point critique la fonction dérivée ne change pas de signe.
+En dérivant la dérivée première, on a la dérivée seconde.
+En effectuant le test de la dérivée seconde, on trouve les nombres critiques de la dérivée première pour les placer dans le même tableau ;
+lorsqu'on observe un changement de signe de la dérivée seconde devant ce ou ces nombres critiques, on dit qu'on a un (ou des) point (s) d'inflexion.
+Les points d'inflexion marquent un changement de la concavité de la fonction.
+Un signe positif de la dérivée seconde signifie que la fonction est convexe et un signe négatif de la dérivée seconde signifie que la fonction est concave.
+Connaissant les changements de concavité et les extrema de la fonction, on peut alors tracer une esquisse de sa représentation graphique.
+Dérivée et optimisation
+Méthode
+pour optimiser un rendement à l'aide du calcul différentiel :
+Mathématisation
+Définitions et dessin :
+on définit les variables inconnues et on les représente sur un schéma.
+#* Écrire
+la fonction objectif à deux variables
+et préciser si on recherche un maximum ou un minimum dans la situation donnée.
+##* Écrire
+la fonction objectif à une variable
+et préciser le domaine de la fonction
+Analyse
+Dériver la fonction pour obtenir la dérivée première.
+#* Trouver les nombres critiques de la fonction, où la dérivée première vaut zéro ou n'existe pas dans les intervalles du domaine.
+#* Effectuer le test de la dérivée première ou le test de la dérivée seconde pour déterminer le maximum ou le minimum recherché de la situation.
+On formule la réponse de façon concise par rapport à la question.
+Dérivée algébrique
+Les algébristes donnent un sens un peu différent au terme dérivée.
+Ils l'appliquent à une structure B appelée A-algèbre associative unitaire et commutative.
+Une application D, de B dans B est appelée une dérivation
+si :
+* b1 et b2
+étant deux éléments de B, la dérivée de b1.b2 est égale à la somme du produit de la dérivée de b1 et de b2 et du produit de b1 avec la dérivée de b2 : D (b_1\cdot b_2) = D (b_1)\cdot b_2 + b_1\cdot D (b_2) .
+Un exemple de dérivation définie de cette manière est donné dans l'article polynôme formel.
+Dérivée en tant qu'application linéaire
+En vertu de ses propriétés de linéarité, la dérivée est une application linéaire sur l'ensemble des fonctions dérivables sur un intervalle ouvert I de \R et à valeur réelles, \mathcal^1 (I,\R), vers l'ensemble des fonctions continues \mathcal^0 (I,\R).
+Son noyau est constitué des fonctions constantes et tout réel est valeur propre de vecteur propre associé x\mapsto a \mathrm e^, \forall a \in \R.
+La dérivation en tant qu'endomorphisme de \mathcal^\infty (I,\R) n'admet pas de racine carrée.
+C'est-à-dire que si l'on note D \colon \mathcal^\infty (I,\R)\rightarrow\mathcal^\infty (I,\R) l'opérateur de dérivation, alors il n'existe pas d'application linéaire telle que R \circ R = D.

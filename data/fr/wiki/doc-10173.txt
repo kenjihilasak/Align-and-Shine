@@ -1,0 +1,49 @@
+Divisibilité et factorisation|Arithmétique modulaire|Théorème de la théorie des nombres|Arithmetique|Théorème fondamental
+En mathématiques, et en particulier en arithmétique élémentaire, le théorème fondamental de l'arithmétique ou théorème de décomposition en produit de facteurs premiers s'énonce ainsi : tout entier strictement positif peut être écrit comme un produit de nombres premiers d'une unique façon, à l'ordre près des facteurs.
+Par exemple, nous pouvons écrire que : 2 × 3 × 17 ou encore 2 × 3 × 5 et il n'existe aucune autre factorisation de ou sous forme de produits de nombres premiers, excepté par réarrangement des facteurs ci-dessus.
+Le nombre 1 est le produit de zéro
+nombre premier (voir produit vide), de sorte que le théorème est aussi vrai
+pour 1.
+Ce résultat se généralise à d'autres ensembles : les anneaux factoriels, comme celui des polynômes à coefficients dans les nombres réels ou complexes (cf. « Arithmétique des polynômes »).
+Histoire
+Dans le livre VII de ses Éléments, Euclide énonce une proposition plus faible, suffisante pour certaines applications : tout nombre non premier est divisible par un nombre premier.
+Mais dès son époque, la décomposition d'un nombre en facteurs premiers est connue et utilisée couramment.
+Si le théorème n'est pas énoncé dans toute sa généralité
+c'est essentiellement parce que le formalisme de l'époque, dépourvu entre autres des puissances, ne permettait pas de l'exprimer simplement.
+Le livre IX contient quant à lui un théorème qui affirme qu'étant donné une liste de nombres premiers distincts, le plus petit nombre divisible par tous les nombres premiers de la liste n'est divisible par aucun nombre premier.
+En 1801 dans son livre Disquisitiones arithmeticae, Carl Friedrich Gauss développe des arithmétiques sur d'autres structures.
+L'existence d'une factorisation est étendue aux entiers relatifs, aux polynômes à coefficients dans un corps commutatif ainsi qu'à un nouvel anneau d'entiers algébriques, les entiers de Gauss.
+La notion de nombre premier est alors étendue.
+Elle s'applique de la même manière pour les polynômes irréductibles ou les nombres premiers de Gauss.
+Dans tous ces cas, la décomposition est complétée par un facteur correspondant à un élément inversible : dans le cas des entiers relatifs, le facteur est égal à +1 si le nombre est positif et à -1 s'il est négatif.
+La décomposition en facteurs premiers se généralise à une classe d'anneaux plus grande : les anneaux factoriels.
+Démonstration
+La démonstration est constituée de deux parties.
+Nous avons à montrer :
+* (existence) que chaque nombre peut vraiment être écrit comme un produit de nombres premiers ;
+* (unicité) que deux représentations d'un même nombre sont essentiellement les mêmes.
+Existence
+La preuve ci-après de l'existence s'appuie sur le principe de récurrence.
+Des variantes appliquent la méthode de descente infinie.
+* 1 est le produit d'une famille finie de nombres premiers : la famille vide.
+* Supposons que tout entier strictement inférieur à un certain entier n > 1 est produit de nombres premiers.
+Soit p le plus petit entier strictement supérieur à 1 divisant
+n. Alors p est un nombre premier (tout entier naturel divisant p divise n, donc vaut p ou 1 par minimalité de p).
+On écrit alors avec .
+L'hypothèse de récurrence implique que l'entier s'écrit comme produit de nombres premiers, ce qui fournit une décomposition de n en produit de nombres premiers.
+* Par application du principe de récurrence, tous les entiers naturels peuvent s'écrire comme produits de nombres premiers.
+Grâce au choix ci-dessus d'un « plus petit p » (au lieu, si n n'est pas premier, d'une décomposition quelconque n = ab avec 1 < a, b < n), cette preuve explicite un algorithme (peu efficace cependant) de décomposition d'un entier naturel en produit de nombres premiers.
+Unicité
+La preuve de l'unicité peut être obtenue à partir du lemme d'Euclide selon lequel, si un nombre premier p divise un produit ab, alors il divise a ou il divise b. Maintenant, prenons deux produits de nombres premiers qui sont égaux.
+Prenons n'importe quel nombre premier p du premier produit.
+Il divise le premier produit, et, de là, aussi le second.
+Par ce qui précède, p doit alors diviser au moins un facteur dans le second produit.
+Mais les facteurs sont tous des nombres premiers eux-mêmes, donc p doit être égal à un des facteurs du second produit.
+Nous pouvons donc simplifier par p les deux produits.
+En continuant de cette manière, nous voyons que les facteurs premiers des deux produits coïncident précisément.
+Applications
+Le théorème fondamental de l'arithmétique est lié au fait que tout entier naturel supérieur ou égal à 2 admet un facteur premier (voir la preuve de l'existence de la décomposition en facteurs premiers).
+Euclide utilisa ce résultat pour démontrer que les nombres premiers sont en quantité inépuisable : pour une famille finie de nombres premiers p, p, … , p, le plus petit diviseur supérieur ou égal à 2 de l'entier 1+ pp…p est un nombre premier qui n'est pas dans la famille initiale.
+En conséquence, aucune famille finie ne contient tous les nombres premiers (cf. « Théorème d'Euclide sur les nombres premiers »).
+Le théorème fondamental intervient explicitement dans l'étude des fonctions additives et multiplicatives.
+En particulier, toute fonction complètement multiplicative est uniquement déterminée par les valeurs prises en les entiers premiers.

@@ -1,0 +1,63 @@
+Perl
+Perl est une famille de langages de programmation créée en 1987 par Larry Wall.
+Aujourd'hui, elle est composée de deux langages distincts : Perl 5, le plus ancien et utilisé des deux, et Perl 6, récent et encore en phase de développement.
+On dit souvent « Perl » pour parler des deux en même temps car, bien que différents et incompatibles, ils partagent de nombreux points communs.
+Perl est un langage dynamique et libre qui a été créé à une époque où les programmeurs n'avaient pas vraiment d'alternative entre le langage C et les scripts shell ;
+Larry Wall voulait un langage plus puissant que le shell et plus souple que le C1 : «
+Perl
+est
+conçu
+pour rendre faciles les travaux faciles sans rendre impossibles les travaux difficiles »2
+Aujourd'hui, Perl a beaucoup évolué et est utilisé dans de multiples applications, notamment sur Internet ou concernant le traitement de données textuelles (recherche, analyse, génération automatique).
+Ses très nombreuses bibliothèques (nommées modules) facilitent le traitement de tous types de problèmes et permettent même de modifier directement le comportement de l'interpréteur perl.
+Sommaire
+Perl est nommé en référence à un passage de la Bible où il est question d'un marchand qui vend tout ce qu'il possède pour acheter une perle magnifique (évangile selon Matthieu, 13,46).
+En anglais, perle s'écrit pearl mais, comme un autre langage s'appelait déjà PEARL, Larry Wall (qui voulait un nom court) a choisi Perl.
+On a trouvé plus tard que « Perl » pouvait aussi être l'acronyme de «
+Practical Extraction and
+Report Language » (« langage pratique pour l'extraction et la synthèse »), ce qui peut expliquer pourquoi certains écrivent PERL au lieu de Perl.
+On écrit « Perl » quand on parle du langage (ou de la famille de langages) et « perl » (en minuscules) lorsqu'il s'agit du programme qui le fait fonctionner : on dit souvent que seul perl analyse correctement Perl.
+« PERL
+» est incorrect3.
+Larry Wall, qui a fait des études de linguistique, dit souvent qu'il conçoit Perl comme une langue vivante :
+« Avec un langage naturel, on apprend comme ça vient.
+Vous savez, on apprend une fois et on utilise plein de fois.
+On devrait donc optimiser l'expressivité, et non la facilité d'apprendre.
+La facilité d'apprendre, c'est bien, mais l'expressivité est plus importante.
+Au cours de son évolution, Perl s'est inspiré de différents langages, à commencer par le C et, plus récemment pour Perl 6, de Ruby.
+Le parallèle avec un langage naturel est là encore valable :
+Perl peut donner tous ces degrés de liberté parce que c'est un langage avec une double personnalité : simultanément très simple et très riche.
+Perl a pris des idées d'à peu près partout et les a installées dans un «
+cadre mental » facile à utiliser.
+Il n'y a pas de honte à emprunter des mots.
+À moins d'être français !
+Dans les langages naturels, les mots les plus utilisés sont les plus courts (parce que les prononcer demande moins d'effort).
+En informatique, cela est formalisé sous le nom de principe de Huffman : les symboles les plus utilisés doivent prendre le moins de place possible.
+Par exemple, on pourrait inventer un langage dans lequel l'addition n'est pas symbolisée par « + » mais par « plus ».
+Dans un tel langage, « 2 + 3 + 5 + 8 »
+s'écrirait alors « 2 plus 3 plus 5 plus 8 », ce qui est plus long (à écrire comme à lire) et produit du « bruit » visuel inutile (on n'a pas besoin de 4 symboles, p, l, u et s, pour porter le sens d'un seul symbole, +).
+Larry Wall applique ce principe lorsqu'il choisit des symboles pour Perl.
+Par exemple, Perl utilise beaucoup les symboles ~, % ou @, alors qu'ils sont peu utilisés dans les autres langages, et Perl
+6 possède même des opérateurs guillemets (» et «).
+C'est aussi cette caractéristique qui fait dire à beaucoup que Perl est difficile à lire :
+Perl est le seul langage qui a l'air pareil avant et après un chiffrementRSA.
+- Keith Bostic
+Et, en détournant la devise de Java «
+Écris [le code]
+une fois - exécute [le programme]
+partout » :
+Perl :
+écris une fois
+- ne comprends plus jamais.
+Le slogan de Perl est There is more than one way to do it (TIMTOWTDI, «
+Il y a plus d'une façon de le faire »).
+En effet, la syntaxe de Perl est riche et propose de nombreuses façons d'accomplir une même tâche.
+Les gens sentent qu'ils peuvent être créatifs en Perl, parce qu'ils ont la liberté d'expression : ils choisissent quoi optimiser, que ce soit la vitesse de l'ordinateur ou la vitesse du programmeur, la verbosité ou la concision, la lisibilité ou la maintenabilité ou la facilité de réutilisation ou la portabilité ou l'apprentissage ou l'enseignement.
+L'exemple suivant est inspiré de celui du livre Modern Perl4 ;
+ces quatre programmes font la même chose, ils créent un tableau @triples contenant chaque nombre du tableau @nombres multiplié par 3 :
+Version « débutant », « comme en C »
+Version «
+adepte »
+C'est un bon exemple de TIMTOWTDI : différents programmeurs utiliseront différentes techniques pour faire la même chose, et Perl leur laisse le choix de la méthode qui leur convient le mieux (la plus simple pour eux, ou la plus lisible, ou la plus rapide, etc.).
+On n'attend pas d'un enfant de 5 ans qu'il parle avec la même assurance qu'un adulte de 50 ans.
+Et c'est très bien comme ça : [en Perl, ] on peut parler comme un bébé.

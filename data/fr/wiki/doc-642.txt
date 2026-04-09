@@ -1,0 +1,116 @@
+Identité
+mathématique|*|Mathématiques
+élémentaires
+En mathématiques, on appelle identités remarquables ou encore égalités remarquables qui s'appliquent à des nombres, ou plus généralement à des variables polynomiales.
+Elles servent en général à accélérer les calculs, à simplifier certaines écritures, à factoriser ou à développer des expressions.
+Elles servent pour la résolution des équations du second degré et sont plus généralement utiles pour la recherche de solutions d'équations.
+La plupart de ces identités remarquables ont tout d'abord été démontrées à l'aide de raisonnements géométriques, puis ont été généralisées à des puissances supérieures par des calculs algébriques.
+Identités remarquables du second
+degré
+Dans toute la suite, a et b désignent des nombres, qui peuvent être des entiers, des rationnels et réels, ou même des complexes.
+Ces identités sont vraies plus généralement dans un anneau commutatif, ou même dans un anneau quelconque où a et b commutent.
+Énoncés
+Les trois identités remarquables du second degré
+sont :
+La deuxième de ces identités peut être vue comme un cas particulier de la première, en prenant, au lieu de b, -b dans la première égalité.
+Ces égalités font l'objet d'un vocabulaire spécifique :
+On définit de même :
+Exemples
+Développement et réduction
+Les identités remarquables permettent de transformer l'écriture de certaines expressions algébriques, comme dans l'exemple suivant :
+L'expression A est la somme de deux termes.
+Le premier terme est un produit remarquable, que l'on peut transformer en somme :
+Le deuxième terme se traite à l'aide de la distributivité de la multiplication par rapport à l'addition :
+En additionnant termes à termes, on obtient :
+Équation du second degré
+Les identités remarquables permettent de résoudre une équation du second degré.
+Illustrons la méthode sur l'exemple suivant :
+La méthode consiste à travailler la partie de l'expression qui ne dépend pas de x de manière à utiliser une des deux premières identités remarquables et factoriser la partie qui dépend de x :
+Les trois premiers termes sont maintenant une somme remarquable, il est possible d'appliquer une identité remarquable et l'équation devient :
+On reconnaît une nouvelle somme remarquable, l'équation s'écrit encore :
+Un produit a.b de deux nombres a et b est nul si, et seulement si, a ou b est nul.
+Résoudre l'équation revient à résoudre deux équations du premier degré :
+On trouve les deux solutions de l'équation, appelées aussi racines du polynôme :
+La même méthode, appliquée à des coefficients a, b, et c (ax^2 +bx + c = 0) au lieu des coefficients 1, 2, et -5 de l'exemple précédent, fait apparaitre le rôle du discriminant et les deux solutions.
+Polynômes au carré
+Pour élever au carré un polynôme avec un nombre quelconque de termes, ajouter les carrés de chaque terme individuellement, puis ajouter le double de la somme des produits de chaque paire possible de termes.
+Identité remarquable et géométrie
+Ces identités remarquables sont connues depuis les Babyloniens.
+Il est possible qu'ils se soient rendu compte de ces égalités à l'aide de raisonnements géométriques.
+Il existe une méthode simple pour trouver la formule suivante :
+La figure de droite représente un carré.
+On suppose que la longueur du côté du carré rose est égale à a et celle du carré bleu à b. L'aire du grand carré est égale à (a + b).
+Il existe une autre manière d'exprimer cette aire : elle est la somme des aires des zones rose, bleue et des deux zones jaunes.
+L'aire rose est égale
+à a car c'est un carré de côté a, l'aire bleue est égale à b, et chacune des deux aires jaunes est égale à ab car c'est un rectangle de côtés a et b. On obtient bien la formule annoncée.
+Démonstration par l'algèbre
+L'algèbre permet encore de démontrer ces formules.
+Calculons (a
+- b)2.
+La distributivité montre
+que :
+On démontre de même la troisième identité remarquable :
+Identités remarquables diverses
+Identité de Brahmagupta
+Brahmagupta, un mathématicien indien du découvre une identité remarquable du quatrième degré :
+Il l'utilise dans le cas où a, b, c, d et n sont des nombres entiers.
+Elle permet de calculer une bonne approximation d'une racine carrée.
+Il applique son identité plusieurs fois, toujours avec n
+La première fois, il pose a
+2, b
+Il obtient :
+Il recommence avec cette fois avec :
+7, b
+Il obtient une nouvelle manière d'écrire 1 :
+Il réapplique la même logique, il obtient encore une autre manière d'écrire 1 :
+Cette égalité s'écrit encore :
+Il obtient une fraction dont le carré est « presque » égal à 3, ce qui revient à dire que 18 817/10 864 est « presque » égal à .
+Si on calcule la fraction, on trouve un résultat dont les neuf premiers chiffres significatifs fournissent la meilleure approximation possible (avec le même nombre de décimales), à savoir : 1,73205081.
+Il utilise aussi sa formule pour trouver des solutions à l'équation diophantienne dite de Pell-Fermat.
+Identité des quatre carrés d'Euler
+L'identité des quatre carrés d'Euler relie entre eux huit nombres.
+Elle prend la forme suivante :
+Elle est utilisée, entre autres pour démontrer le théorème des quatre carrés qui indique que tout nombre entier est somme de quatre carrés.
+Identité de Sophie Germain
+L'identité de Sophie Germain énonce que pour tous nombres et , on a :
+Identité d'Argand
+Identité de Gauss
+Identités de Legendre
+Identités de Lagrange
+La première identité de Lagrange ici listée est un cas particulier de l'identité de Brahmagupta.
+Identités remarquables de degré n
+Formule du binôme de Newton
+La même technique de démonstration
+que celle utilisée pour les formules de degré 2 montre que, si a et b désignent toujours deux nombres :
+Appliqué encore une fois, on obtient :
+De même,
+On peut la généraliser à un degré n quelconque, à l'aide de la formule du binôme :
+Les coefficients de l'expression, considérée comme un polynôme en x et en y sont appelés coefficients binomiaux.
+Comme y peut prendre une valeur négative, on obtient bien les deux formes précédentes.
+La formule s'applique même si x et y ne sont pas des nombres.
+Ces lettres peuvent désigner deux matrices qui commutent entre elles.
+De manière générale, la formule est vraie dans un anneau (supposé unitaire, c'est-à-dire.
+muni d'un élément unité 1=x^0 pour tout x), si x et y commutent .
+Différence ou somme de puissances
+Il est aussi possible de généraliser la troisième identité remarquable du second degré.
+Si a et b désignent deux nombres :
+La formule suivante permet de généraliser la démarche.
+Tout d'abord, pour tout entier n ≥ 2,
+Cette formule a plusieurs applications importantes, comme une preuve que la fonction puissance est continue, ou la factorisation d'un polynôme à partir d'une racine.
+On a de plus, si n est impair,
+On a par ailleurs :
+Si l'on travaille dans un ensemble qui n'est pas celui des nombres, la dernière formule n'est valable que si existe, c'est-à-dire s'il existe une valeur c telle que c2 soit égal à 1 + 1.
+Il faut pour cela, en premier lieu, que l'élément neutre 1 de la multiplication existe.
+Annexes
+Article connexe
+Livre II des Éléments d'Euclide
+Liens externes
+* http:/ Wwwgvmm
+IdentAut.htm
+Identités remarquables de degré supérieur à 2, sur le site de G. Villemin
+* http:/ coll_docs valide/ebeps_aide_N1.swf
+Identités remarquables (Flash), sur le site de Sésamath
+Bibliographie
+Notes
+Références
+4kedr0ue7ikrivi8y7b0npjmcbhlu7e

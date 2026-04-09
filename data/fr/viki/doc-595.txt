@@ -1,0 +1,68 @@
+Trigonométrie
+La trigonométrie est un domaine des mathématiques qui étudie les angles et les distances dans les triangles, ainsi que les fonctions trigonométriques qui les relient.
+Le nom de trigonométrie vient du grec (trigonon = trois angles, metro = mesure)
+La tablette Plimpton
+La trigonométrie remonte aux grandes civilisations antiques : Egypte des pharaons, Mésopotamie, vallée de l'Indus.
+Les techniques de calcul étaient principalement orales, ce qui nous empêche de savoir exactement ce que les mathématiciens de l'époque savaient .
+Mais certains chercheurs pensent que certaines traces écrites qui nous sont parvenus sont des preuves d'un savoir trigonométrique ancien, comme la tablette babylonienne Plimpton 322 (1900 avant J-C), les Shulba Sutras (VIIIe siècle av J-C) ou le Vadanga Jyotisha de Lagadha (IVe siècle avant J-C).
+Le mathématicien grec Hipparque de Nicée (IIe siècle avant J-C)
+établit les premières tables trigonométriques : ce sont des tableaux dans lequel, pour chaque angle, on donne la valeur approché de son sinus, de son cosinus et de sa tangente.
+On les connaît par l'astronome Ptolémée, qui les utilisa 300 ans plus tard dans son Almageste pour estimer les tailles et distances du Soleil et de la Lune.
+En Inde, Aryabhata, en 499, donne une table des sinus (qu'il appelle zya) et des cosinus (qu'il appelle kotizya).
+Il est aussi le premier à construire un tableau inversé (qui pour un sinus donné indique l'angle correspondant).
+Un siècle et demi plus tard, Brahmagupta calcule des valeur approchées des sinus deux fois plus précises.
+Planche de l' Encyclopédie d'Ephraim Chambers dédiée à la trigonométrie (1728)
+Du XIe siècle au XIIIe siècle, des mathématiciens comme Omar Khayyam, Al-Biruni ou Nasir
+-Din
+Tusi détaillent la construction des tables trigonométriques à l’aide de l’algèbre, développent la trigonométrie à la surface d’une sphère et démontrent plusieurs formules trigonométriques (relation entre sinus, cosinus et tangente, sinus de l’angle double, sinus d’une somme…).
+Au XIVe siècle, Al-Kashi et démontre le théorème qui porte aujourd’hui son nom (qu’on appelait alors la loi des cosinus) : il généralise le théorème de Pythagore dans les triangles qui ne sont pas rectangle en utilisant le cosinus.
+A cette époque, les tables trigonométriques donnaient des valeurs précises à 8 décimales après la virgule !
+La trigonométrie arrive en Europe au XIVe avec la traduction en latin des livres de Ptolémée et les travaux de Regiomontanus.
+Mais c'est au XVIe siècle que le vocabulaire et les notations encore utilisés aujourd'hui apparaissent : François Viète donne des table précises à la 11e décimale dans Canon Mathematicus (1579), Pitiscus donne son nom à la discipline avec son livre Trigonometria (1595), Adrien Romain invente la notation sin et cos.
+Au XVIIIe siècle, les nombres imaginaires arrivent dans la trigonométrie.
+Abraham de Moivre et Leonhard Euler démontrent la formule de De Moivre (dans Introductio in analysin infinitorum, 1748), qui mélange la trigonométrie et la fonction exponentielle.
+Ce mélange entre analyse et trigonométrie sera très fécond, notamment avec les approximations des six fonctions trigonométriques de Brook Taylor.
+C'est finalement Augustin Louis Cauchy qui, au début du XIXe siècle, avec son rigoureux Cours d'Analyse donné à l’École polytechnique, résumera et justifiera tous les travaux précédents.
+Aujourd'hui encore, les cours de lycée vont à rebours de l'histoire et justifient les relations trigonométriques à partir des propriétés de l'exponentielle.
+En 1822, Joseph Fourier trouvera une application inattendue et très efficace des fonctions trigonométries avec les séries de Fourier : il montre qu'on peut transformer n'importe quelle fonction (même très complexe) en l'écrivant comme une somme de cosinus et de sinus, ce qui facilite les calculs car les fonctions trigonométriques sont bien connues.
+Fourier l'utilisait pour expliquer la répartition de la chaleur dans un matériau, mais sa méthode de calcul a des applications dans tous les domaines où on étudie les ondes : électro-magnétisme, acoustique, électronique, astrophysique, télécommunication, cryptographie...
+Puisqu'elle se base sur des triangles, la trigonométrie est principalement liée à la géométrie, mais utilise des techniques de calcul issues de l'algèbre (résolution d'équations) et de l'analyse (le sinus et le cosinus peuvent être étudiés comme des fonctions) .
+La trigonométrie utilise
+un vocabulaire spécial
+pour décrire les parties du triangle
+Les plus connues
+sont :
+Le triangle rectangle
+triangle rectangle : un triangle avec un angle droit (90°), la plupart des formules ne fonctionnent qu'avec ce type de triangle
+hypoténuse : l'hypoténuse d'un triangle est le côté le plus long.
+Dans un triangle rectangle, l'hypoténuse se trouve à l'opposé de l'angle droit
+le côté opposé (à un angle)
+: si on prend un angle du triangle (un coin du triangle), alors le côté opposé est celui qui se trouve en face de l'angle.
+le côté adjacent (à un angle) : si on prend un angle du triangle (un coin du triangle), alors le côté adjacent est celui qui appartient à cet angle mais qui n'est pas l'hypoténuse.
+Pour calculer un angle grâce à la trigonométrie, on se sert soit du Cosinus, soit du Sinus, soit de la Tangente.
+Il est a remarquer que les cosinus, sinus et tangente sont des nombres dépourvus d'unité.
+On les définit au collège pour des angles entre 0° et 90°, mais à partir du lycée, on élargit leur utilisation pour tout type d'angle grâce au cercle trigonométrique.
+Les relations trigonométriques sont des formules faisant le lien entre le cosinus, le sinus et la tangente d'un angle.
+On les utilise pour, à partir d'une valeur connue
+, déterminer plus facilement les autres, sans repasser par des mesures sur le triangle rectangle.
+Résoudre un triangle c'est en connaissant un côté et deux angles d'un triangle, ou un angle et deux côtés, calculer la longueur de tous les côtés et la mesure de tous les angles.
+On utilise pour cela les formules ci-dessus, le Théorème de Pythagore et le Théorème d'Al-Kashi.
+On peut montrer que A=12b×c×sin⁡(A^){\displaystyle A={\frac {1}{2}}b\times c\times \sin({\hat {A}})}..
+Cette formule, mélangée au théorème d'Al-Kashi, permet d'établir la formule de Héron : A=p(p−a)(p−b)(p−c){\displaystyle A={\sqrt {p(p-a)(p-b)(p-c)}}} où p est le demi-périmètre du triangle.
+En 1706, John Machin a été le premier à calculer π avec 100 décimales, grâce à la formule de Machin.
+Aujourd'hui encore, on utilise des formules de ce type pour calculer de nouvelles décimales de π.
+Mesure de distance par triangulation pratiquée au XVIe siècle (Levinus Hulsius)
+La triangulation permet de connaître la position d'un point uniquement à partir de mesure d'angles sur deux points de vue de ce point recherché.
+Elle est particulièrement utile quand on ne peut pas mesurer directement les distances (comme en astronomie ou en navigation).
+On peut ainsi calculer par exemple : la position d'un navire, la position d'un avion, la source d'un émetteur radio (radar), l'épicentre d'un séisme...
+On peut aussi découper une forme géométrique parfois complexe en une multitude de triangles.
+En retrouvant les mesures des côtés de tous les triangles, on peut connaître très précisément la forme globale.
+Pendant très longtemps les cartes ont été établis en triangulant le territoire : on mesurait des angles de visées dans des triangles formés par des éléments repérables (tour, montagne, clocher...).
+La première carte de France a ainsi été conçue par triangulation en plus de 100 ans, entre 1681 et 1783, notamment par les membres de la famille Cassini.
+Le même procédé a été utilisé par Delambre et Méchain de 1792 à 1798 pour mesurer la distance entre Dunkerque et Barcelone (environ 1 147 km) sur le méridien de Paris.
+Cela a permis la première définition officielle du mètre en 1799.
+De nos jours c'est encore cette méthode que les satellites utilisent pour calculer la position d'un véhicule dans le système GPS.
+↑Moyen mnémotechnique efficace : "Casse-toi !" donne "cAH sOH tOA !", ou c,s et t représentent cosinus, sinus et tangente et O, A et H représentent
+Opposé,
+Adjacent et Hypothénuse
+↑Cette égalité se démontre facilement à partir du théorème de Pythagore

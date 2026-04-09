@@ -1,0 +1,77 @@
+Division par zéro
+Que se passe-t-il quand on divise par zéro ?
+On ne peut pas vraiment prévoir ce qu'il va se passer car elle n'est pas définie mathématiquement.
+Voyons deux explications.
+L’algèbre est la discipline des mathématiques qui étudie les ensembles de nombres et les relations entre ces nombres.
+Choisissons deux lettres de l’alphabet, au hasard a{\displaystyle a} et b{\displaystyle b}, et disons que a{\displaystyle a} et b{\displaystyle b} sont des nombres entiers.
+Cela marche aussi avec des nombres entiers naturels ou des nombres réels, et en fait avec beaucoup d’autres objets2.
+Essayons
+de calculer le résultat de la multiplication de a{\displaystyle a} par b{\displaystyle b}.
+Nous allons nous contenter d’écrire des égalités simples et voir où elles nous mènent :
+est bien vrai puisque, par définition, a+0=a{\displaystyle a+0=a}.
+Si l’on développe la parenthèse de l’équation (1), on trouve :
+à partir de là, nous pouvons finalement simplifier en soustrayant a.b{\displaystyle a.b} des deux côtés de (3) :
+Que pouvons-nous en déduire ?
+Il faut se rappeler que nous n’avons pas fixé la valeur de b{\displaystyle b} : ce peut être n’importe quel nombre…
+On a donc la preuve d’une règle bien connue : la multiplication de tout nombre par zéro donne zéro.
+Remarquons que ça ne marche
+qu’avec zéro : aucun autre nombre multiplié par n’importe quel autre ne donne toujours le même résultat.
+C’est cela qui nous permet de retrouver la valeur de l’inconnue x{\displaystyle x} dans l’équation 6x=42{\displaystyle 6x=42
+: nous savons bien qu’il n’existe qu’une seule valeur de x{\displaystyle x} dont la multiplication par 6 donne 42 ;
+c’est 42 divisé par 6, c’est-à-dire 7 !
+On voit bien que 42 divisé par 6, que l’on note 42/6, n’a qu’un seul résultat possible, puisque 7 n’est égal qu’à 7.
+Mais lorsque nous multiplions par zéro ?
+Nous obtenons de toute façon zéro quel que soit l’autre nombre choisi.
+Reprenons notre égalité 0=0.b{\displaystyle 0=0.b}.
+Si nous ne connaissons pas b{\displaystyle b} et si nous cherchons à le retrouver à partir d’une équation comme 6x=42{\displaystyle 6x=42}, nous avons alors une équation étrange : 0x=0{\displaystyle 0x=0}. Pour satisfaire cette équation, x{\displaystyle x} n’a plus une seule solution (comme tout à l’heure) mais peut prendre n’importe quelle valeur !
+Laquelle est b{\displaystyle b} ?
+On constate ainsi que la division par 0{\displaystyle 0} mène à l'absurde d'après la définition conventionnelle de la division.
+Graphe de la courbe (rouge) de la fonction inverse x↦1x{\displaystyle x\mapsto {\frac {1}{x}}} sur l’ensemble [
+-6 ; 6] privé de zéro
+Il existe une fonction appelée fonction inverse qui, pour n’importe quel nombre réelx{\displaystyle x} (sauf zéro), transforme x{\displaystyle x} en 1 x} (c’est-à-dire en l’inverse de x{\displaystyle x}, que l’on peut écrire x{\displaystyle x}⁻¹).
+La courbe de cette fonction inverse est tracée ci-contre, en rouge.
+Pour n’importe quel point de la courbe, le x{\displaystyle x} de départ est indiqué sur les graduations horizontales et le 1 x} d’arrivée sur les graduations verticales (le point (
+0 ; 0) est au centre de la croix noire).
+On remarque que plus on s’éloigne du centre du graphique, plus la fonction inverse renvoie des valeurs proches de zéro.
+En revanche, plus on se rapproche du centre (et donc de zéro), plus les valeurs renvoyées par la fonction sont grandes.
+D’ailleurs, on ne voit pas la courbe couper l’axe vertical situé en zéro.
+Pourquoi ?
+Pour trouver la « hauteur » (l’ordonnée) de chaque point dans ce graphe, on divise 1 par l’« écartement par rapport à zéro » de ce point (son abscisse).
+Plus on se rapproche de zéro, plus cet écartement par rapport à zéro devient petit.
+Cependant, quand on divise une valeur fixe (ici 1) par une valeur variable de plus en plus petite , on obtient des nombres de plus en plus grands3 !
+C’est pourquoi la courbe de la fonction
+inverse «
+grandit » quand on se rapproche de zéro.
+Par conséquent, plus x{\displaystyle x} se rapproche de zéro, plus 1 x} est grand.
+En analyse, on travaille avec des nombres réels.
+Une propriété très importante de ces nombres est qu’entre n’importe quels réels a{\displaystyle a} et b{\displaystyle b} > > > }, etc.
+Cela signifie que, pour n’importe quel nombre, on peut toujours en construire un plus grand en se rapprochant de zéro avec la fonction inverse.
+Finalement, la fonction inverse n’a pas de résultat pour zéro ?
+Non.
+En se rapprochant de zéro « par la droite », la courbe de cette fonction va monter, monter, monter infiniment sans jamais couper la droite verticale
+x=0{\displaystyle x=0} (on appelle alors cette droite une asymptote).
+On peut le démontrer facilement par l'absurde :
+Imaginons
+que la fonction inverse donne un résultat pour zéro, c’est-à-dire qu’il existe un réel y{\displaystyle y} tel que 1 0=y}. Comme y{\displaystyle y} est un nombre réel, il existe un nombre réel plus grand que lui, par exemple y+1{\displaystyle y+1}. On peut noter z=y+1{\displaystyle z=y+1} pour faciliter.
+Dans ce cas, comme y<z{\displaystyle y<z}, alors {\displaystyle }, c’est-à-dire que <0}. Donc 1 z} serait un nombre négatif (non nul) alors que z{\displaystyle z} est un nombre positif, ce qui est impossible.
+L’hypothèse de départ
+, «
+la fonction inverse admet un résultat pour zéro », était donc fausse : 1 0=∞{\displaystyle 1 0{\displaystyle 1/0} n'est pas défini, on peut penser qu’on pourrait lui donner quand même la valeur ∞{\displaystyle \infty }, l’infini, puisque la fonction inverse tend vers l’infini quand son argument tend vers zéro.
+Pourtant, cela poserait deux problèmes :
+d’abord, il n’existe pas un infini, mais plusieurs.
+En analyse, on distingue notamment −∞{\displaystyle -\infty } et +∞{\displaystyle +\infty }.
+Sur le graphe précédent, −∞{\displaystyle -\infty } est ce vers quoi tend la fonction inverse lorsqu’on se rapproche de zéro par des valeurs négatives (« par la gauche »).
+On a le même phénomène que celui que nous avons vu pour des valeurs positives (« par la droite »),
+mais les nombres qui sont de plus en plus grands sont négatifs, d’où un « infini négatif »
+On ne peut pas mélanger les deux : on voit bien qu’en zéro, la fonction inverse tend vers l’infini de deux manières différentes (positive et négative), et l’on ne peut pas dire que c’est vers le même résultat4.
+ensuite, la fonction inverse est définie comme une fonction qui a ses résultats dans l’ensemble des réels (privé de zéro) ;
+or cet ensemble ne contient pas d’élément −∞{\displaystyle -\infty } ni +∞{\displaystyle +\infty } ni même ∞{\displaystyle \infty } tout court.
+Cela dit, nous avons bien le droit de créer nous-mêmes un nouvel ensemble regroupant tous les nombres réels plus−∞{\displaystyle -\infty } et +∞{\displaystyle +\infty } ;
+mais, même dans cet ensemble, la division par zéro reste interdite !
+En effet, tous les nombres réels produisent le même résultat (zéro) quand on les divise par −∞{\displaystyle -\infty } ou +∞{\displaystyle +\infty }.
+Comme on peut « découper » tout nombre x{\displaystyle x} en x{\displaystyle x} × 1, la division de x{\displaystyle x} par zéro s’écrit :
+Or, comme 1 0} n’est pas définie, x 0} non plus, quel que soit x{\displaystyle x}.
+↑On peut étendre cette définition à des objets qui ne sont pas des nombres (par exemple, des polynômes ou des fonctions) en prenant pour zéro l’élément neutre (pour la multiplication) de l’ensemble auquel appartiennent ces objets : par exemple, le polynôme nul ou la fonction nulle.
+↑Il suffit que l’ensemble mathématique
+auquel appartiennent a{\displaystyle a} et b{\displaystyle b} soit un anneau.
+↑Par exemple, diviser 1 par 4 donne 0,25 mais diviser 1 par 0,5 (plus petit que 4) donne 2 (plus grand que 1/4 = 0,25).

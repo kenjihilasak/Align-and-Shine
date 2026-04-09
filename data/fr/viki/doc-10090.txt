@@ -1,0 +1,59 @@
+Fonction affine
+Avant de lire cet article, il est conseillé de connaître les fonctions !
+Une fonction affine par morceaux
+Une fonction affine est une fonctionf{\displaystyle f} définie par une relation de la forme f(x)=a+bx{\displaystyle f(x)=a+bx} où a{\displaystyle a} et b{\displaystyle b} sont deux nombres réels.
+Représentée dans un repère orthonormé, elle dessine une droite d'équation y=a+bx{\displaystyle y=a+bx}. Lorsque a=0{\displaystyle a=0}, on obtient alors une fonction linéaire.
+Dans la vie de tous les jours, une telle équation peut être utilisée, par exemple, dans le cas suivant :
+Jean possède 8 euros dans sa tirelire.
+Tous les jours, il en obtient deux autres.
+Combien en aura-t-il dans deux jours, cinq jours, un an ?
+Associons chaque élément avec ceux de notre problème.
+D'abord identifions qui est est x et qui est y. Dans ce cas, x{\displaystyle x} est le nombre de jours et y{\displaystyle y} la somme que possède Jean ce jour.
+On dit que la variable y{\displaystyle y} dépend de x{\displaystyle x}.
+Ensuite, le jour zéro, Jean a 8 euros.
+C'est l'ordonnée à l'origine.
+En notation mathématique : à x=0{\displaystyle x=0}, y=8{\displaystyle y=8}. La pente vaut 2, car tous les jours, il obtient deux euros de plus.
+L'équation qui décrit combien Jean possède d'argent selon le nombre de jours écoulés est donc y=8+2×x{\displaystyle y=8+2\times x} (note : dans certains cas, les gens préfèrent utiliser la lettre t lorsque la variable est le temps.
+Cela n'a peu d'importance car cette lettre est une variable muette.
+On peut a présent répondre à nos questions puisque l'équation est complète.
+Combien aura-t-il d'argent au bout de deux jours (x=2) : y=8+2×2=12{\displaystyle y=8+2\times 2=12} euros
+au bout de 5 jours, il aura : y=8+2×5=18{\displaystyle y=8+2\times 5=18} euros
+au bout de 365 jours (un an)
+: y=8+2×365=738{\displaystyle y=8+2\times 365=738} euros.
+On peut aussi demander : au bout de combien de jours il aura, par exemple, 32 euros.
+Dans ce cas, la variable est modifiée, cela devient la somme d'argent.
+Il faut réorganiser l'équation.
+y=8+2x{\displaystyle y=8+2x} peut aussi s'écrire x=y2−4{\displaystyle x={\frac {y}{2}}-4}.
+Il devient alors facile de répondre à la question, qui est, en langage mathématique, que vaut x{\displaystyle x} (nombre de jours) lorsque y{\displaystyle y} (somme d'argent) vaut 32 : x=322−4=12{\displaystyle x={\frac {32}{2}}-4=12}.
+Au bout de 12 jours, Jean aura 32 euros.
+On peut vérifier que 32=8+2×12{\displaystyle 32=8+2\times 12}
+On dit que la progression de la somme que Jean possède est linéaire.
+Deux fonctions
+Un autre exemple : Les parents de Pierre lui donnent toutes les semaines 5 euros.
+Il dépense 2 euros sur les 5.
+Il économise les 3 autres car il veut s'acheter une console de jeu dont le prix est de 120 euros.
+Dans combien de temps pourra-t-il s'acheter la console ?
+S'il économisait 4 euros par semaine, en combien de temps pourrait-il s'acheter la console ?
+Sommaire
+Dans l'équationy=a+bx{\displaystyle y=a+bx}, on appelle « a » l'ordonnée à l'origine et « b » la pente.
+Comme par deux points il ne peut passer qu'une et une seule droite, si on connaît les coordonnées de ces points dans un repère, on peut calculer l'équation de la droite dans ce repère.
+Soient M1(x1,y1){\displaystyle M_{1}(x_{1},y_{1})} et M2(x2,y2){\displaystyle M_{2}(x_{2},y_{2})} deux points du plan.
+La droite qui les relie est de la forme y=a+bx{\displaystyle y=a+bx}. On peut donc résoudre le système d'équation à deux inconnues suivant :
+On a : y1−bx1=y2−bx2{\displaystyle y_{1}-bx_{1}=y_{2}-bx_{2}}
+on calcule d'abord la pente b=y1−y2x1−x2{\displaystyle b={\frac {y_{1}-y_{2}}{x_{1}-x_{2}}}}
+Puis on a :
+l'ordonnée à l'origine a=y1−x1×b=y2−x2×b{\displaystyle a=y_{1}-x_{1}\times b=y_{2}-x_{2}\times b}.
+Une équation du premier degré est du type ax+b=0{\displaystyle ax+b=0} avec x{\displaystyle x} l'inconnue.
+La solution de l'équation est alors x=−ba{\displaystyle x=-{\frac {b}{a}}}.
+On appelle cette équation du premier degré car une fonction affine est une fonction polynomiale de degré 1.
+Une fonction polynomiale de degré 2 est une fonction de la forme ax2+bx+c{\displaystyle ax^{2}+bx+c}.
+Résoudre l'équation égal à 0 correspond alors à une équation du second degré.
+Soit f{\displaystyle f} une fonction affine définie par f(x)=ax+b{\displaystyle f(x)=ax+b}.
+Pour connaître le signe d'une fonction affine, on résout l'équation ax+b=0{\displaystyle ax+b=0} et on obtient :
+Si a est positif, alors f{\displaystyle f} est négative sur ]−∞,−ba]{\displaystyle \left]-\infty ,-{\frac {b}{a}}\right]} et positive sur [
+−ba,+∞[{\displaystyle \left[-{\frac {b}{a}},+\infty \right[}.
+Si a est négatif, alors f{\displaystyle f} est positive sur ]−∞,−ba]{\displaystyle \left]-\infty ,-{\frac {b}{a}}\right]} et négative sur [−ba,+∞[{\displaystyle \left[-{\frac {b}{a}},+\infty \right[}.
+On peut constater aussi que c'est la solution de l'inéquation ax+b≤0{\displaystyle ax+b\leq 0} ou ax+b≥0{\displaystyle ax+b\geq 0}.
+Pour connaître le sens de variation d'une fonction affine :
+Si a est positif, f{\displaystyle f} est strictement croissante.
+Si a est négatif, f{\displaystyle f} est strictement décroissante.

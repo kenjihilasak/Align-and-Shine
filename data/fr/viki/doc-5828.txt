@@ -1,0 +1,16 @@
+Surjection
+Une surjection est une application telle que tout élément de l'ensemble d'arrivée admet au moins un antécédent.
+On parle aussi d'application surjective.
+Une applicationf d'un ensemble E vers un ensemble F est surjective lorsque pour tout élément y de F, il existe au moins un élément x de E tel que y=f(x).
+Par exemple, les rangements de n boules numérotées de 1 à n dans quatre cases tels qu'aucune case ne reste vide, peuvent être représentés par des surjections de l'ensemble des n boules sur l'ensemble des cases.
+Les cases ne pouvant rester vides, elles contiennent toutes au moins une boule, et ont donc au moins un antécédent par l'application.
+Soient E et F deux ensembles finis de cardinaux respectifs p et n.
+S'il existe une surjection de E sur F alors n ≤ p.
+Questions:
+Combien y a-t-il de surjections d'un ensemble E à p éléments sur un ensemble à 1 élément ?
+à 2 éléments ?
+Solution
+Il y a une seule application d'un ensemble à p élément s sur un ensemble à 1 élément, celle qui envoie tous les éléments sur le seul élément de l'ensemble d'arrivée et elle est surjective.
+Il y a 2p applications de E sur l'ensemble à deux éléments et deux d'entre elles seulement ne sont pas surjectives.
+Au total, il y a donc 2p-2 surjections
+La composée de deux applications surjectives est surjective.

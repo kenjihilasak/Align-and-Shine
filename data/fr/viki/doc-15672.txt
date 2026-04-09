@@ -1,0 +1,46 @@
+Système binaire
+Le système binaire est le système de numération ne possédant que deux chiffres (appelés bits) : 0 et 1.
+Il utilise donc la base 2.
+Autrement dit, c'est une manière d'écrire les entiers naturels avec les seuls chiffres 0 ou 1.
+C'est un système positionnel : les entiers s'écrivent comme une succession de 0 et de 1, mais la signification du 1 dépend de sa position dans le nombre : le chiffre 1 peut représenter un, deux, quatre, huit, seize, ...
+Le nombre Zéro s'écrit 0 ;
+Le nombre Un s'écrit 1 ;
+Le nombre Deux s'écrit 10 ;
+Le nombre Trois s'écrit 11 ;
+Plus généralement,
+pour « traduire » en système décimal un entier écrit en système binaire, on procède ainsi :
+On écrit au-dessous de chaque chiffre les puissances croissantes de 2 en partant de la droite ;
+On ajoute les puissances de 2 écrites sous les chiffres 1.
+Pour convertir un nombre décimal en nombre binaire, il suffit de connaître les puissances de 2 : 2, 4, 8, 16, 32, 64 etc
+Exemple : 61.
+On y trouve une fois 32, on peut donc déjà écrire 100000.
+Un deuxième 32 est impossible, cela dépasserait 61.
+On est donc contraints à ajouter 16 (10000bin), puis 8 (1000bin) : 1110000bin.
+Il manque encore 5, donc 4 et 1, en puissances de 2 (respectivement 22 et 20).
+On arrive donc à 1110101, pour 61.
+On peut faire pareil avec d'autres nombres, comme 29 :
+Le principe de la base deux, tout comme celui de la base dix,
+est de former des paquets
+Si vous regardez vos deux mains, vous voyez un paquet de doigts que vous notez 10, un paquet de doigts (1) et aucun autre doigt à compter(0).
+C'est une numération dite de position.
+Quand on écrit "12", le "1" en première position correspond à un paquet de dix objets( dix doigts par exemple) et le chiffre en deuxième position correspond à des unités (deux doigts supplémentaires sur une photo de vos deux mains par un petit plaisantin par exemple".
+En base deux, c'est pareil, sauf qu'on n'attend pas d'avoir dix objets pour former un premier paquet, on forme un petit paquet dès qu'il y a deux objets
+et on note ................................................................................................................................................................................................(1 0)base2
+ce petit paquet de deux objets.
+Alors trois objets seront notés en base 2 ...............................................................................................................................................( 1 1)base2
+Quand, en base dix, vous formez dix paquets de dix, vous chiffrez 100, un paquet de paquets.
+En base 2, quatre objets, c'est un paquet de paquets.
+On le note .........................................................................................................( 1 0 0)base2
+Puis cinq objets........................................................................................................................................................................................(1 0 1 )base2
+Puis six....................................................................................................................................................................................................(1 1 0 )base2
+On remarque qu'on n'a besoin que de deux chiffres : le 1 et le 0.
+Puis sept ................................................................................................................................................................................................( 1 1 1)base2.
+Exemple d'un système binaire
+L'avantage du système binaire, c'est que les tables d'addition et de multiplication sont très simples.
+Les microprocesseurs des ordinateurs ne comprennent que le langage binaire.
+Soit le courant électrique passe, soit il ne passe pas.
+Mais il est facile de passer d'une base vers une autre.
+Par exemple 0 en base 2 est 0, 1 en base 2 est 1, 2 en base 2 est 10 et 3 en base 2 est 11.
+On peut également passer de la base 2 à la base 10.
+On peut même faire correspondre une lettre de l'alphabet à un nombre binaire en utilisant la table ASCII qui a été acceptée par tout le monde.
+C'est pourquoi on peut écrire sur un ordinateur : les lettres sont transformées en nombre binaire en utilisant la correspondance avec la table ASCII, nombre binaire que l'ordinateur peut comprendre.

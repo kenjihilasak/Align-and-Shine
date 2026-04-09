@@ -1,0 +1,54 @@
+Logiciel de cryptographie|Freeware|Système d'authentification du courrier électronique
+qu'on pourrait traduire en français bon niveau de confidentialité), plus connu sous le sigle PGP, est un logiciel de chiffrement cryptographique, développé et diffusé aux États-Unis par Philip Zimmermann en .
+PGP se propose de garantir la confidentialité et l'authentification pour la communication des données.
+Il est souvent utilisé pour la signature de données, le chiffrement et le déchiffrement des textes, des courriels, fichiers, répertoires et partitions de disque entier pour accroître la sécurité des communications par courriel.
+Utilisant la cryptographie asymétrique mais également la cryptographie symétrique, il fait partie des logiciels de cryptographie hybride.
+PGP et les produits similaires suivent le standard OpenPGP (RFC 4880) pour le chiffrement et le déchiffrement de données.
+Origine
+Philip Zimmermann finalise la version 1.0 de PGP en juin 1991.
+Cette version est diffusée sur le territoire nord-américain via les BBS téléphoniques.
+La version 2.0 de PGP est publiée en septembre 1992 en dehors des États-Unis, ce qui contrevient les restrictions à l'exportation pour les produits cryptographiques.
+PGP a été très mal accueilli par le gouvernement fédéral, qui a ouvert une enquête en 1993
+- abandonnée en 1996, sans donner d'explication).
+Zimmermann
+souligne qu'il a développé PGP dans un souci de droit à la vie privée et de progrès démocratique :
+Il explique aussi que :
+Fonctionnement
+Avec PGP, il devient possible de vérifier si un message provient bien de l'origine (via les signatures cryptographiques), ainsi que de chiffrer des messages afin qu'un seul destinataire puisse les lire.
+En bref, chaque utilisateur crée une paire de clés de chiffrement asymétriques (une publique, l'autre privée), et distribue la clé publique.
+Les signatures effectuées avec la clé privée peuvent être vérifiées en utilisant la clé publique correspondante et les messages chiffrés utilisant la clé publique sont déchiffrables en utilisant la clé privée correspondante.
+Ce fonctionnement a été initialement décrit dans le document RFC 1991.
+PGP offre des services d'authentification, de confidentialité, de compression et de segmentation, tout en étant compatible avec de nombreux systèmes de messagerie électronique :
+* authentification : l'expéditeur crée un condensat de son message (avec par exemple SHA-1), chiffre ce condensat avec sa clé privée et l'ajoute en début de message.
+Le destinataire déchiffre l'ajout en début de message avec la clé publique de l'émetteur et en extrait le condensat.
+Il calcule ensuite lui-même un condensat du message en utilisant la même fonction de condensat et le compare à celui qu'il a déchiffré ;
+même résultat ⇒ expéditeur authentifié et message intègre.
+Le couple clé publique/clé
+privée
+peut être fourni par RSA ou DSA ;
+* confidentialité (chiffrer des messages à transmettre ou des fichiers à enregistrer)
+: génération d'une clé secrète de taille 128 bits par exemple (nommée clé de session, valable pour un seul fichier ou un seul message).
+Le message ou le fichier est chiffré au moyen de cette clé de session avec un algorithme de cryptographie symétrique.
+Puis cette clé secrète est chiffrée au moyen de la clé publique RSA ou ElGamal du destinataire et ajoutée au début du message ou du fichier.
+Le destinataire du message déchiffre l'en-tête du message avec sa clé privée RSA ou ElGamal et en extrait la clé secrète qui lui permet de déchiffrer le message.
+Pour que la sécurité de l'échange soit plus sûre il ne faudrait pas utiliser le chiffrement sans authentification.
+PGP générant des clés très souvent (à chaque fichier ou message), le générateur aléatoire associé à PGP doit être particulièrement efficace afin de ne pas générer des séquences de clés prévisibles ;
+* compression :
+utilisation de ZIP appliqué après la signature mais avant le chiffrement.
+L'entropie induite par la compression rend plus difficile la cryptanalyse du fichier ou du message ;
+* compatibilité : comme certains systèmes de messagerie ne permettent l'utilisation que du format ASCII, PGP contourne cette limitation en convertissant chaque flot binaire de 8 bits en caractères
+ASCII imprimables (conversion Radix-64 : 3 octets binaires sont convertis en 4 octets
+ASCII tout en contenant un CRC pour détecter les erreurs de transmission) ;
+la taille des messages grossit de 33 % mais la compression compense largement ce phénomène.
+PGP applique une conversion Radix-64 systématiquement, que le message original soit déjà au format ASCII ou pas ;
+* segmentation et ré-assemblage :
+pour outrepasser certaines contraintes (taille maximum des messages), après tous les traitements précédents PGP peut tronçonner le message original en segments de taille fixe.
+L'en-tête contenant la clé secrète ne sera positionnée que dans le premier segment.
+Le destinataire met en mémoire la clé secrète, récupère tous les segments, en retire les en-têtes inutiles, ré-assemble le message avant de le déchiffrer, le décompresser et vérifier sa signature.
+Pourquoi utiliser PGP ?
+D'après Philip Zimmermann, extraits de Pourquoi j’ai écrit PGP.
+C'est le cinquième propriétaire, après Philip Zimmermann, PGP Inc.
+(P. Zimmermann était président de cette compagnie) puis Network Associates Inc.
+et PGP Corp.
+Symantec n'offre plus de version gratuite du logiciel.
+Toutefois le téléchargement du code source est permis pour révision par les pairs.

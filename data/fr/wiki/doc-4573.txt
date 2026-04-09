@@ -1,0 +1,93 @@
+La Mecque|Vocabulaire de l'islam
+Qibla, kibla, kiblat ou kiblet en arabe qibla (: direction) est la direction vers laquelle doit se tourner le fidèle pour effectuer le rite de la salat.
+En islam contemporain, il s'agit de l'orthodromie qui joint le lieu de prière à la Kaaba (en arabe: الكعبة ), dans la cité de La Mecque.
+Dans les mosquées, cette orientation est indiquée par le mihrab, une niche souvent encadrée de deux colonnes supportant une arcature.
+Histoire
+A l'origine, Temple de Salomon,
+Jérusalem
+Selon les hadiths constituant la sunna, le prophète de l'islam Mahomet avait d'abord recommandé de s'orienter vers Jérusalem lors de la prière.
+Dans les premiers temps de la révélation de l'islam à Mahomet, la direction de la qibla était le temple de Salomon à Jérusalem, à l'emplacement de l'actuel Dôme du Rocher.
+La direction de la Kaaba, La Mecque
+En l'an 2 de l'Hégire il reçoit la révélation lui ordonnant de se tourner dorénavant vers la Kaaba (en arabe: الكعبة ) de La Mecque.
+Selon la religion musulmane, c'est à la période où le Prophète et ses compagnons étaient installés à Médine depuis un peu plus de 17 mois, que Mahomet reçut pendant la prière de Midi (Dohr) la révélation de se tourner dorénavant vers la Kaaba lors des cinq prières quotidiennes.
+Ce pourrait-être à la suite du conflit entre Mahomet et les juifs locaux médinois que la Kaaba mekkoise a été désignée comme direction de substitution.
+La mosquée Al-Qiblatein, ou mosquée des deux Qiblas, construite en 623 de l'ère chrétienne et située aujourd'hui dans un quartier du nord-ouest de Médine, témoigne de cet événement.
+En effet, la mosquée présente la caractéristique unique d'avoir deux mihrabs, l'un en direction de Jérusalem, l'autre en direction de La Mecque.
+Depuis ce jour la Qibla correspond à la direction de la Kaaba.
+Une sourate du Coran vint confirmer cette obligation : «
+Tourne donc ton visage
+dans la direction de la Mosquée sacrée.
+Où que vous soyez, tournez votre visage dans sa direction » ().
+Géographie
+Estimation
+Toutefois, si le musulman n'a pas les moyens de connaître la direction de la qibla , sa prière ne sera pas annulée.
+Cependant, le musulman qui se trouve dans ce cas doit effectuer un effort de réflexion afin d'estimer la qibla le mieux possible.
+Il s'agit d'un ijtihad à titre personnel.
+En effet, la précision de La Mecque est toute relative : à une distance de , la mesure angulaire de la Kaaba est très légèrement supérieure à un mille-cinq-centième de degré (1/1488 exactement), soit 2,42 secondes d'angle.
+Et un musulman installé à Paris qui ferait une erreur d'un centimètre dans l'orientation de son tapis prierait vers un point distant de la Kaaba de 76 kilomètres !
+Par conséquent, seule l'intention du musulman détermine la validité de la prière.
+La nécessité de se diriger vers La Mecque est rendue difficile dès que celle-ci est hors de vue.
+Il a fallu donc inventer des outils permettant de calculer sa direction.
+Cela a probablement stimulé les géographes, astronomes et mathématiciens musulmans dans la recherche d'outils mathématiques et d'instruments aussi précis que possible.
+C'est ainsi qu'ont été conçus des logiciels spécialisés dans le calcul de la qibla, dont certains sont accessibles par Internet, et qui permettent une bonne approximation.
+Formule de calcul de la Qibla
+Données
+* A = Différence de longitudes entre La Mecque (la Kaaba) et le lieu de la prière ;
+La latitude doit être comptée positive au nord et négative au sud.
+La longitude doit être comptée positive à l'est et négative à l'ouest
+Calcul
+:Q = \arctan \left \right
+Si le sinus de la différence de longitudes (A) et le résultat Q (l’arc tangente) sont tous deux positifs, vous obtenez directement le bon résultat.
+Si le sinus de la différence de longitudes (A) et le résultat Q (l’arc tangente) sont de sens opposés, ajouter 180° à Q.
+Si le sinus de la différence de longitudes (A) et le résultat Q (l’arc tangente) sont tous deux négatifs, ajouter 360° à Q.
+* Avec un langage de programmation ayant une fonction
+atan2
+::Q = \operatorname (\cos (B).\tan (C)
+\sin (B).\cos (A), \sin (A))
+On obtient le bon résultat directement
+Résultat
+Q = Direction de la qibla
+* Q > 0 angle partant de la direction du nord et compté dans le sens rétrograde (sens des aiguilles d'une montre).
+* Q < 0 angle partant de la direction du nord et compté dans le sens direct (sens inverse des aiguilles d'une montre, sens trigonométrique).
+Controverses sur la formule employée
+Les musulmans d'Amérique du Nord avaient tout d'abord orienté leurs mosquées vers le sud-est.
+Mais lorsque plus tard on fit les calculs basés sur le calcul du grand cercle, donnant une direction orientée vers le nord-est, une polémique s'ensuivit, le résultat heurtant le sens commun à cause de la représentation du monde par planisphère, et plus particulièrement par la projection de Mercator, due au géographe et mathématicien flamand Gerard De Kremer.
+En effet, cette projection repose sur une représentation cylindrique du monde dans laquelle les méridiens sont parallèles au lieu d'être convergents.
+Sur les cartes mercatoriennes une ligne qui coupe chaque méridien suivant un angle fixe est représentée par une ligne droite.
+Or sur la sphère cette même ligne se traduit par une courbe, la loxodromie.
+C'est cette confusion qui a fait dire à certains que le calcul par la loxodromie était le seul valable et, comme tel, l'avaient suggéré aux autorités religieuses.
+Cette dernière proposition qui ne correspond ni à la géographie de la sphère, ni aux versets coraniques et notamment celui qui demande aux musulmans de prier face à la Kaaba, semble avoir été abandonnée.
+Seule une minorité défend encore cette solution, et c'est le calcul de la qibla par l'orthodromie qui prévaut aujourd'hui pour la plupart des mosquées nouvellement construites, en Amérique du Nord comme ailleurs.
+Qibla solaire
+Il existe aussi une autre méthode pour obtenir la bonne direction de La Mecque et qui vérifie d'ailleurs ce qui est énoncé au paragraphe précédent.
+Elle consiste à s'aider du Soleil et découle du principe suivant : la lumière solaire prend le plus court chemin pour parvenir à l'œil de l'observateur.
+Par conséquent, si le Soleil est à la perpendiculaire de La Mecque, la distance séparant ce lieu d'un point défini éclairé par notre étoile sera une orthodromie.
+De plus, le cap de cette orthodromie sera égal à l'angle de qibla pour ce même point.
+La condition de verticalité n'est remplie à La Mecque que deux jours par an, les 28 mai à 09 h 19 min 08 s UTC et 16 juillet à 9 h 26 min 45 s UTC, jours où le Soleil est précisément au zénith de la Ka'aba, autrement dit à la hauteur de 90°.
+Cependant, les années bissextiles, ces dates doivent être avancées d'un jour.
+Si le décalage horaire n'est pas suffisamment important pour empêcher la vision de l'astre du jour, il suffira à l'orant, aux dates et heures indiquées, de se tourner vers un point terrestre (bâtiment, arbre, sommet etc.) situé dans la même direction que le Soleil, ce dernier lui indiquant la qibla.
+La personne aura au préalable pris soin de tenir compte du décalage horaire.
+Si, aux heures données ci-dessus, le Soleil est inobservable (non levé ou déjà couché), le principe reste identique, mais il faudra alors se référer aux coordonnées géographiques des antipodes de la Ka'aba en suivant les dates et heures opposées, soit le 28 novembre à 21 h 09 min 51 s UTC ou le 13 janvier à 21 h 30 min 38 s UTC (le 12 janvier à 21 h 30 min 27 s UTC si l'année qui précède est bissextile).
+L'orant devra alors impérativement tourner le dos au Soleil et c'est son ombre qui le renseignera sur la direction à tenir.
+Il est utile de préciser que les antipodes de la Ka'aba se situent dans l'océan Pacifique Sud, aux îles Tuamotu (Polynésie française), plus précisément à moins de 52 kilomètres à l'est-nord-est de l'atoll de Tematangi.
+Directions de prière dans d'autres religions
+Judaïsme
+Selon la Bible, les juifs doivent se tourner vers Jérusalem, et plus précisément vers le Mont du Temple où se tenait le Beit Hamikdash (le Temple de Salomon) dans la direction donnée par le Mizrah.
+Christianisme
+Les églises chrétiennes sont traditionnellement orientés vers l'est, l'orient, la direction du soleil levant.
+Dans un plan type d'église en croix latine, le portail s'ouvre donc à l'ouest, et les fidèles traversent la nef et prient vers le chœur à l'est, qui en Europe est aussi plus ou moins en direction de Jérusalem, lieu de la mort de Jésus.
+Le mur sud porte en général les décorations (peintures, vitraux) du Nouveau Testament, tandis que le mur nord, plus sombre, porte des décorations relatives à l'Ancien Testament.
+Qibla bahá’íe
+Le bahaïsme utilise aussi le concept de Qiblih.
+Pour effectuer leurs prières "obligatoires" quotidiennes (ṣalát), les baha'is du monde entier doivent se tourner vers le manoir de Bahjí (près de Saint-Jean-d'Acre, au nord d'Israël), où est inhumé Bahá'u'lláh.
+Dans son Kitāb-i Aqdas, le livre le plus saint pour les baha'is, Bahá'u'lláh écrit :
+Si la Qiblih est physiquement un lieu vers lequel les baha'is
+doivent se tourner pour accomplir leurs prières rituelles "obligatoires" (ṣalát), elle est aussi pour eux le rappel qu'afin de trouver conseils et explications ils doivent se tourner spirituellement vers les paroles issues du "Temple Humain" (Haykal), où se manifestent les "qualités" divines (Mazhar-i-iláhí) : Bahá'u'lláh pour les baha'is.
+Si se tourner vers la Qiblih est requis pour les prières rituelles "obligatoires" (ṣalát) et la répétition (íkr) du "Plus Grand Nom", cela n'est pas exigé pour la "Prière des morts" ni pour les autres prières "non-obligatoires"
+Le "Gardien de la Cause de Dieu" (Valí Amr'ulláh) Shoghi Effendi (1897-1957) ajoute cependant à propos de funérailles baha'ies que :
+Références
+Liens externes
+* Google
+Play : https:/ store details?id
+=com.safsafi.qibla.meter Application de calcul de Qibla, 2015
+gkn6jt6lkqrts0szihkeqvedo0ds7zy

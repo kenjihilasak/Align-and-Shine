@@ -1,0 +1,117 @@
+Conique
+La parabole est une courbe plane, symétrique par rapport à un axe, approximativement en forme de U.
+Elle peut se définir mathématiquement de plusieurs façons, équivalentes.
+Le plus souvent, la parabole est définie comme une courbe plane dont chacun des points est situé à égale distance d'un point fixe, le foyer, et d'une droite fixe, la directrice.
+Mais on peut aussi la définir comme l'intersection d'un plan avec un cône de révolution lorsque le plan est parallèle avec un autre plan tangent à la surface du cône.
+Il s'agit d'un type de courbe algébrique dont les nombreuses propriétés géométriques ont intéressé les mathématiciens dès l'Antiquité et ont reçu des applications techniques variées en optique, télécommunication
+Mathématiques
+Section conique
+Les paraboles font partie de la famille des coniques, c'est-à-dire des courbes qui s'obtiennent par l'intersection d'un cône de révolution avec un plan ;
+en l'occurrence, la parabole est obtenue lorsque le plan est parallèle à l'une des génératrices du cône et perpendiculaire à l'autre plan qui contient la même génératrice et l'axe du cône.
+Directrice, foyer et excentricité
+Soient une droite et un point n'appartenant pas à , et soit P le plan contenant la droite et le point .
+On appelle parabole de droite directrice et de foyer l'ensemble des points M du plan P à égale distance du foyer et de la droite , c'est-à-dire vérifiant :
+:d (M,F) = d (M,D)
+où d (M,F) mesure la distance du point au point et d (M,D) mesure la distance du point à la droite .
+La parabole est une forme de conique dont l'excentricité e vaut 1.
+Équations
+À partir du foyer et de la directrice
+Si la parabole est donnée par son foyer et sa directrice \mathcal D, on appelle le projeté orthogonal de sur \mathcal D, on appelle (paramètre de la parabole) la distance et on appelle le milieu de .
+Alors, dans le repère orthonormé (S,\vec i, \vec j) où \vec j a même direction et sens que \overrightarrow, l'équation de la parabole est
+y = \frac
+À partir de la fonction du second degré
+La courbe représentative d'une fonction polynomiale du second degré d'équation
+:y = ax^2 + bx + c
+où , et sont des constantes réelles non nul), est une parabole.
+Dans le cas , , on obtient une expression simple pour une parabole
+y =x^2.
+Dans le repère (O,\vec i, \vec j), le sommet d'une parabole est le point de coordonnées \left (
+- \tfrac;
+-\tfrac\right).
+Son axe de symétrie est l'axe (S\vec j).
+Dans le repère (S,\vec i, \vec j), son équation est Son foyer est le point F\left (0;\tfrac\right) et sa directrice est la droite \mathcal D d'équation Y =
+- \frac
+Dans le repère (O,\vec i, \vec j), le foyer a donc pour coordonnées \left (-\frac, \frac\right) et la directrice pour équation y
+- \frac
+où \Delta
+b^2
+4ac
+À partir de l'équation générale
+Soit l'équation , dans un repère orthonormal.
+Si alors cette équation est celle d'une parabole ou de deux droites parallèles.
+Réciproquement, si (C) est une parabole, alors elle possède, dans tout repère orthonormal, une équation de la forme précédente.
+Soit l'équation , dans un repère orthonormal.
+Si avec ou non nul alors cette équation est celle d'une parabole dont l'axe est parallèle à un des axes du repère.
+Équation polaire
+Si l'on prend comme pôle le foyer de la parabole et comme axe polaire l'axe focal dirigé vers la directrice, par projection sur l'axe, il vient .
+On en déduit que l'équation polaire de la parabole est \overrightarrow
+\overrightarrow
+\frac
+\vec e_
+que l'on reconnaît comme un cas particulier de conique d'excentricité e = 1.
+Paramétrisation
+Dans le repère cartésien (S, \vec i, \vec j) où est le point situé au milieu du segment constitué du foyer et de sa projection sur la directrice et où \vec j est un vecteur unitaire orienté de vers , on peut envisager plusieurs paramétrisations de la parabole :
+Une paramétrisation cartésienne par l'abscisse : \overrightarrow (x)=x\vec i+\frac\vec j, pour tout x\in\R
+Une paramétrisation cartésienne par l'ordonnée : \overrightarrow (y)= (\pm\sqrt)\vec i+y\vec j,
+pour tout y\in\R^+
+Des paramétrisations cartésiennes dépendant chacune d'un constante arbitraire a
+0 : \overrightarrow (t)
+2pat\vec i+2pa^2t^2\vec j
+2pa (t\vec i+at^\vec j
+pour tout t\in\R
+Pour a=1/ (2p) on retrouve la paramétrisation par l'abscisse.)
+Ces paramétrisations sont régulières (i.e.
+le vecteur dérivé ne s'annule pas).
+Le vecteur dirige alors la tangente au point de paramètre .
+Quelques propriétés géométriques de la parabole
+Cordes parallèles
+Toutes les cordes de la parabole parallèles à une même droite ont leur milieu situé sur une même droite parallèle à l'axe : c'est un diamètre relatif à la direction .
+Les deux tangentes à la parabole aux extrémités d'une telle corde se coupent en .
+La tangente à la parabole parallèle à a son point de contact sur .
+Tangente et bissectrice
+Si est un point sur une parabole définie par un foyer et une directrice (d), alors la tangente de la parabole en est la bissectrice intérieure de l'angle formée par , et le projeté orthogonal de sur (d).
+Cette propriété explique le principe des miroirs paraboliques : l'angle que font les droites (AF) et (b) est égal à l'angle que font les droites (AH) et (b), donc les droites (AH) et (AF) sont symétriques par rapport à la tangente, ainsi que par rapport à la normale à la tangente.
+En optique, cela signifie qu'un rayon issu de F et frappant A subit une réflexion spéculaire de direction (AH), puisque selon le loi de Snell-Descartes, l'angle d'incidence est égal à l'angle de réflexion.
+Donc, tous les rayons issus de F sont réfléchis dans la même direction, perpendiculaire à (d).
+Propriété relative à l'orthoptique
+Soient et les points d'intersection d'une droite quelconque passant par le foyer de la parabole avec la parabole.
+Les deux tangentes de la parabole passant par et se coupent sur la directrice en formant un angle droit entre elles.
+De plus, si on appelle et les projetés respectifs de et sur la directrice et le point d'intersection des deux tangentes et de la directrice, alors est le milieu de .
+En se déplaçant le long de sa directrice, la parabole est toujours vue sous un angle droit.
+où et sont les nouvelles coordonnées des points de contact.
+Sous-normale
+constante
+D'un point de la courbe, on mène la normale qui coupe l'axe en , soit le projeté orthogonal de sur .
+La valeur s’appelle la sous-normale.
+On montre qu'elle admet comme valeur constante , le paramètre de la parabole.
+Démonstration
+La pente de la tangente
+étant y'
+\tan \theta, le triangle rectangle donne \overline
+PH \times\tan \theta
+= y y'.
+Or, si l'on dérive par rapport à l'équation de la parabole , on obtient précisément .
+Applications
+Physique
+La parabole est la trajectoire décrite par un objet que l'on lance si on peut négliger la courbure de la Terre, le frottement de l'air (vent, ralentissement de l'objet) et la variation de la gravité avec la hauteur.
+Torricelli a démontré en 1640 que l'enveloppe de ces trajectoires est elle-même une parabole : parabole de sûreté.
+Ondes hertziennes, acoustiques et lumineuses
+Par métonymie, une parabole désigne une antenne parabolique.
+Il s'agit plus exactement d'une application des propriétés de la surface nommée paraboloïde de révolution.
+À l'inverse elles peuvent également diffuser sous forme d'un faisceau cylindrique la lumière produite par une lampe au foyer de la parabole.
+Cette propriété est exploitée par le projecteur et le phare.
+Un cylindre parabolique permet, de même, de concentrer la lumière sur une droite, par exemple dans des concentrateurs solaires.
+Bibliographie
+* Jean-Denis Eiden, Géométrie analytique classique, Calvage & Mounet, 2009 .
+* Bruno Ingrao, Coniques affines, euclidiennes et projectives, C&M
+Référence
+Voir aussi
+Articles connexes
+Liens externes
+* http:/ ~wanner coursmath belges.htm
+Les théorèmes "belges"
+- Coniques et théorème de Dandelin
+* http:/
+coursmath poids.htm Lancement du poids
+Parabole de sûreté
+9w3ecj3ipj3f1fmko2srz23n8741qa4

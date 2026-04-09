@@ -1,0 +1,164 @@
+In informatica, il C è un linguaggio di programmazione imperativo di natura procedurale.
+I programmi C sono composti da espressioni matematiche e da istruzioni imperative raggruppate in procedure parametrizzate in grado di manipolare vari tipi di dati.
+Dal momento che è nato insieme a Unix, esso è supportato dalla totalità dei sistemi operativi di largo uso impiegati oggi.
+È utilizzato principalmente per la realizzazione di sistemi operativi, linguaggi di programmazione, librerie, giochi e per applicazioni altamente performanti.
+Introduzione
+Il C è un linguaggio di programmazione ad alto livello che integra caratteristiche dei linguaggi di basso livello, come il linguaggio macchina e l'assembly, per questo si usa anche l'espressione "di medio livello".
+Il C è rinomato per la sua efficienza e si è imposto come linguaggio di riferimento per la realizzazione di software di sistema su gran parte delle piattaforme hardware moderne.
+La standardizzazione del linguaggio garantisce la portabilità dei programmi scritti in C (standard, spesso detto ANSI C) su qualsiasi piattaforma.
+Oltre che per il software di sistema, il C è stato a lungo il linguaggio dominante in tutta una serie di altri domini applicativi caratterizzati da forte enfasi sull'efficienza.
+Esempi tipici sono le telecomunicazioni, il controllo di processi industriali e il software real-time.
+Oggi, il predominio del C in questi contesti è in parte diminuito a seguito dell'avvento di competitor significativi, primo fra tutti il C++.
+Il C ha anche una notevole importanza didattica, sebbene, per la sua complessità semantica e per le forti relazioni di tale semantica con il funzionamento dell'hardware dei computer, non si tratti di un linguaggio particolarmente intuitivo per i principianti e, in special modo, a quelli sprovvisti di un adeguato background riguardante l'elettronica dei calcolatori.
+Se un tempo le scuole superiori e i corsi universitari adottavano il C come linguaggio di riferimento a causa della sua importanza tecnica, oggi questa scelta trova un'ulteriore motivazione nella crescente importanza di linguaggi che dal C derivano (per esempio C++, Java e C# e, per consentire allo studente un approccio iniziale più rapido e intuitivo, linguaggi ad alto livello come Python).
+Storia e versioni
+Il linguaggio C è stato originariamente sviluppato da Dennis Ritchie presso i Bell Labs della AT&T tra il 1969 e il 1973, con lo scopo di utilizzarlo per la stesura del sistema operativo UNIX, precedentemente realizzato da Ken Thompson e Ritchie stesso in assembly del PDP-7.
+Il 1972 tuttavia segna la svolta con l'uscita del primo sistema UNIX su un DEC PDP-11, scritto interamente col nuovo nato linguaggio di programmazione C..
+Nel 1978 la pubblicazione del libro “The C Programming Language” ne fece crescere rapidamente la diffusione, portando alla nascita di diversi dialetti e dunque alla necessità di definire uno standard.
+La prima standardizzazione del C è stata realizzata ad opera dell'ANSI nel 1989 (ANSI X3.159-1989), nota come C89.
+La stessa versione, solo con minimali modifiche di formattazione, è stata successivamente standardizzata anche dall'ISO nel 1990 , C99 .
+Di queste la seconda (C99) è quella che ha portato i principali miglioramenti al linguaggio di programmazione, introducendo modifiche importanti come nuovi tipi di dato, gli inizializzatori designati per gli array, gli array di dimensione variabile ed altri miglioramenti mutuati da C++.
+C99
+* Il tipo di dato _Bool, che ammette la memorizzazione dei booleani false e true;
+* Il tipo di dato _Complex per la rappresentazione dei numeri complessi;
+* Il tipo di dato _Imaginary per la rappresentazione dei numeri immaginari;
+* Le funzionalità addizionali floating-point in ;
+Il qualificatore di tipo restrict, ammissibile solo sui puntatori (restricted pointer);
+* La lunghezza variabile dell'array (VLA, variable-length array);
+* Gli inizializzatori designati (Designated initializers)
+* È ammesso dichiarare variabili ovunque si desidera nell'ambito di un blocco di codice così come frapporre tra di esse altre istruzioni;
+* Le regole di promozione degli interi (integer promotion);
+* Le macro matematiche di tipo generico in ;
+* Lo specificatore di conversione %lf nella funzione printf ();
+* Il supporto all'aritmetica IEEE Floating-Point (IEC 559);
+C11
+Lo standard c11 ha introdotto cinque nuovi file header, ovvero , , , e , nonché diverse funzionalità che hanno contribuito a migliorare il linguaggio:
+* Le macro inerenti le specifiche di allineamento della memoria col relativo file header , tra cui _Alignas e _Alignof, nonché la funzione aligned_alloc (Memory Alignment Control);
+* Aggiunto il supporto al multi-threading.
+Le nuove funzionalità sono fornite dalla libreria dei threads dichiarata nel file header .
+Aggiunto anche il qualificatore di tipo _Atomic nell'header file ;
+* Le strutture (struct) e le unioni (union) anonime;
+* Espressioni di tipo generico mediante la parola chiave _Generic (type-generic expressions);
+* Migliorato il supporto unicode con i tipi di dato char16_t (UTF-16) e char32_t (UTF-32) con le relative funzioni di conversione dichiarate in ;
+* Rimossa la funzione gets () dichiarata in ;
+* Lo specificatore _Noreturn applicabile alle funzioni;
+* Le asserzioni statiche mediante la parola chiave _Static_assert (Static Assertions);
+* La funzione quick_exit per la terminazione di un programma;
+* La modalità esclusiva "x" di apertura e creazione file (Exclusive create-and-open mode):
+* Le macro per la creazione di numeri complessi in .
+Concetti generali
+Il C è un linguaggio di programmazione relativamente minimalista;
+la sua semantica utilizza un insieme ristretto di concetti relativamente semplici e vicini al funzionamento dell'hardware dei calcolatori.
+Molte istruzioni C sono traducibili direttamente con una singola istruzione di linguaggio macchina (per esempio, gli operatori di autoincremento e autodecremento).
+Nel linguaggio, un ruolo centrale viene svolto dal concetto di puntatore, che viene generalizzato fino a coincidere con l'indirizzamento indiretto, un modo di accedere alla memoria hardware caratteristico di tutte le moderne CPU.
+Questo rende il C un linguaggio particolarmente efficiente.
+D'altra parte, rispetto al linguaggio assembly, il C ha in più una struttura logica definita e leggibile, funzioni in stile Pascal e soprattutto il controllo sui tipi (in fase di compilazione), che manca completamente nel linguaggio assembly.
+La sintassi del C è piuttosto versatile e il linguaggio è in forma libera, permettendo di scrivere istruzioni complesse in poche righe di codice o di creare programmi criptici e illeggibili (offuscamento del codice).
+In definitiva, il successo del C fu decretato dall'essere un linguaggio creato da programmatori esperti, per essere usato da programmatori esperti.
+Questa grande libertà, la complessità sintattica del linguaggio (che come abbiamo visto contiene poche istruzioni di base) e il ruolo centrale dei puntatori, che è necessario usare praticamente fin dai primi programmi, ne fanno viceversa un linguaggio ostico e sconsigliabile ai neofiti, che cadono quasi subito in una serie di trappole che, se pure ovvie per un esperto, sono molto difficili da individuare per un principiante.
+Grazie alla particolare efficienza del codice prodotto dai suoi compilatori, il C venne utilizzato per riscrivere la maggior parte del codice del sistema UNIX, riducendo l'uso del linguaggio assembly ad un piccolo gruppo di funzioni.
+La sua importanza tuttavia, crebbe solo dopo il 1978 con la pubblicazione, da parte di Brian Kernighan e Dennis Ritchie, del libro The C Programming Language, nel quale il linguaggio venne definito in modo preciso.
+Il suo successivo larghissimo utilizzo portò alla nascita di diversi dialetti e quindi alla necessità di definirne uno standard.
+A questo scopo, nell'estate del 1983, venne nominato un comitato con il compito di creare uno standard ANSI (American National Standards Institute) che definisse il linguaggio C una volta per tutte.
+Il processo di standardizzazione, il quale richiese sei anni (molto più del previsto), terminò nel dicembre del 1989 e le prime copie si resero disponibili agli inizi del 1990.
+Questa versione del C è normalmente chiamata C89.
+Lo standard venne anche adottato dall'International Organisation for Standardisation (ISO) nel 1999 con il nome di C Standard ANSI/ISO.
+Nel 1995, fu adottato l'Emendamento 1 al C Standard che, fra le altre cose, ha aggiunto nuove funzioni alla libreria standard del linguaggio.
+Usando come documento base il C89 con l'Emendamento 1 e unendovi l'uso delle classi di Simula, Bjarne Stroustrup iniziò a sviluppare il C++.
+Il risultato finale del continuo sviluppo del C fu lo standard promulgato nel 1999, noto come ISO C99 (codice ISO 9899).
+Con l'ultima versione C11 (2011) vengono lievemente rivisti alcuni comandi.
+Parole chiave
+Il linguaggio C, come qualsiasi altro linguaggio di programmazione, consente la realizzazione di programmi adoperando un insieme di "parole chiave" (keywords).
+Lo standard ANSI ha definito il seguente insieme di parole chiave:
+auto, break, case, char, const, continue, default, do, double, else, enum, extern, float, for, goto, if, int, long, register, return, short, signed, sizeof, static, struct, switch, typedef, union, unsigned, void, volatile, while.
+Programma di esempio
+Hello world!
+Il seguente esempio stampa il testo "Hello world!" ("Ciao mondo!") sullo standard output (che normalmente coincide con lo schermo del terminale utilizzato da chi esegue il programma).
+Nella didattica informatica, l'uso di introdurre i fondamenti di un linguaggio di programmazione con un programma che stampa a video "Ciao mondo!" deriva proprio da questo celebre esempio, tratto dal libro Il linguaggio C di Kernighan e Ritchie.
+include
+int main ()
+Quanto segue è un'analisi linea per linea del programma mostrato;
+questo tipo di scrittura è eseguibile soltanto su sistemi basati su UNIX.
+include
+Questa linea è una direttiva per il preprocessore.
+Il preprocessore è un programma (o un modulo di un ambiente integrato) che esegue alcune trasformazioni preliminari del codice sorgente, prima che quest'ultimo venga consegnato al compilatore vero e proprio.
+In questo caso, la trasformazione richiesta consiste nel rimpiazzare la linea in questione con l'intero contenuto dello header file ("file di intestazione") "stdio.h".
+La presenza di parentesi angolari indica che il file si trova in una directory standard nota al preprocessore.
+Per includere un header (di solito creato dal programmatore) presente nella stessa cartella dove si trova il file da compilare si usa una sintassi del tipo:
+#include "nomeheader.h"
+Con al posto di nomeheader il nome dell'header desiderato.
+Un header file, in C, è un file che contiene dichiarazioni di tipi di dati e di funzioni;
+nel caso specifico, viene incluso per introdurre nel sorgente la dichiarazione della funzione di libreria standard printf.
+Tale dichiarazione, specifica quali tipi di parametri sia obbligatorio e consentito fornire alla printf e di che tipo sia il suo valore tornato.
+Entrambe queste informazioni saranno poi usate dal compilatore per verificare che l'uso che "Hello world!" fa di questa funzione sia corretto.
+Al posto di printfsi può anche utilizzare la funzione puts, scritta come
+puts ("Hello world!");
+int main ()
+Una linea di questo tipo costituisce l'inizio di una definizione di funzione, in questo caso la funzione main.
+La funzione main costituisce il punto di ingresso di un programma C:
+l'esecuzione di un programma inizia dalla prima istruzione del main e termina con l'ultima.
+Eventuali altre funzioni entreranno in gioco solo se e quando richiamate (direttamente o indirettamente) dal main.
+In assenza di una funzione main, il compilatore non può produrre un programma eseguibile (ma potrebbe produrre una libreria).
+La parola chiave iniziale int rappresenta il tipo del valore restituito dalla funzione.
+Nel caso speciale del main, esso viene interpretato come valore restituito dall'intero programma al sistema operativo.
+Coerentemente con una convenzione universale circa i valori restituiti dai programmi al sistema, il main restituisce sempre un numero intero, nonostante alcuni testi riportino erroneamente anche dichiarazioni della funzione main con tipo di ritorno void (vedi ANSI C).
+Le parentesi graffe sono utilizzate in C per indicare l'inizio e la fine di un blocco, una unità di programma;
+in questo caso, la funzione main.
+printf ("Hello, world!\n");
+Questa riga costituisce una chiamata di funzione;
+in altre parole, richiede che venga eseguita tale funzione.
+printf è una funzione della libreria standard del C che stampa un messaggio su standard output.
+Pertanto sullo schermo apparirà la scritta Hello, world! (senza doppi apici, che servono nel codice sorgente a indicare inizio e fine della stringa).
+"\n" è una sequenza di escape, ovvero una sequenza di caratteri (che in C cominciano sempre con il carattere "\") che verranno tradotti in fase di compilazione in un unico carattere (solitamente non stampabile od interpretato in altro modo).
+In particolare, "\n" verrà tradotto nel carattere di fine riga che, quando usato con le librerie standard in modalità testo (come con printf), indica l'avanzamento di linea ed il ritorno a capo del testo.
+Quindi, se il programma viene usato interattivamente, in genere uno spostamento del cursore.
+Il punto e virgola finale della riga indica la fine dell'istruzione (la chiamata a funzione).
+return 0;
+Un'istruzione iniziata con la parola chiave return, all'interno di una funzione, termina la funzione stessa e consente di specificare un valore di ritorno (qualora la funzione ne possa ritornare uno).
+Nel caso particolare del main, come si è detto sopra, questo valore sarà tornato al sistema operativo (0 è il valore di ritorno al sistema che, convenzionalmente, indica la terminazione con successo di un programma).
+Esempio di calcolatrice
+Esempio di calcolatrice che esegue la somma, il prodotto, la differenza ed il quoto di due numeri interi:
+#include //specifica la libreria usata dal programma
+int main ()
+Spiegazione
+"int" definisce le variabili come interi (a, b, somma, prodotto, differenza e quoto sono variabili)
+"printf" è l'istruzione che stamperà a video ciò che è contenuto
+tra le virgolette
+"scanf" legge l'input e lo colloca nella variabile ("&a").
+In questo caso in numeri decimali ("%d")
+"+", "*", "-", "/" sono, rispettivamente, gli operatori di somma, prodotto, differenza e quoto
+La sintassi "if ()" controlla se il contenuto all'interno delle parentesi tonde è vero (true).
+In caso positivo esegue le funzioni dentro le parentesi graffe (in questo caso:
+"quoto = a / b")
+La sintassi "!=" significa "diverso".
+In questo esercizio viene controllato se "b" è diverso da 0;
+in caso venga eseguita una divisione col divisore uguale a 0, il programma andrà in errore.
+"La somma e':
+"%d", somma Al posto di "%d" verrà stampato il contenuto di "somma" (%d significa verrà stampato un numero intero)
+"return" è la funzione che indica la fine del programma, restituendo come valore 0.
+Sequenze di escape
+Linguaggi collegati
+C++
+Il linguaggio di programmazione C++ fu originariamente derivato dal C.
+Tuttavia, non tutti i programmi C sono validi in C++.
+Mentre C e C++ evolvevano indipendentemente, sono aumentate le loro incompatibilità.
+La versione del C99 creò un numero di conflitti in più.
+Le differenze rendono difficile la scrittura di programmi e librerie che funzionino sia in C che in C++, e creano confusione in chi programma in entrambi i linguaggi.
+La disparità rende difficile per entrambi i linguaggi l'adozione di caratteristiche dall'altro.
+Bjarne Stroustrup, il creatore di C++, ha ripetutamente suggerito che le incompatibilità tra il C e il C++ dovrebbero essere ridotte il più possibile per massimizzare l'interoperatività tra i due linguaggi.
+Altri hanno sostenuto che poiché il C e il C++ sono linguaggi differenti, la compatibilità tra i due è utile ma non vitale.
+Secondo questa posizione, gli sforzi per ridurre l'incompatibilità non devono ostacolare i tentativi per migliorare in modo autonomo i linguaggi.
+Oggi, le maggiori differenze tra i due linguaggi sono:
+* inline - le funzioni inline hanno lo scope globale in C++,
+* Il tipo bool nel C99 è definito nel .
+Gli standard precedenti del C non definivano un tipo boolean, e vari (incompatibili) metodi erano usati per simulare il tipo booleano.
+* Singole costanti di caratteri hanno la dimensione di un int in C e di un char in C++.
+* Parole chiave addizionali sono introdotte nel C++, e quindi non possono essere usate come identificatori come invece era lecito in C (per esempio try, catch, template, new, delete, ...)
+* In C++, il compilatore crea automaticamente un tag per ogni struct, union o enum, quindi struct S ;
+in C++, in C è equivalente a typedef struct S S;.
+Objective-C
+Il linguaggio Objective C deve la sua popolarità a Apple che lo ha scelto come base per i suoi sistemi operativi macOS, iOS, watchOS e tvOS.
+È un linguaggio orientato agli oggetti e, a differenza del C++, mantiene la piena compatibilità con il C.
+Nel 2014, Apple presenta un nuovo linguaggio, Swift che ha sostituito Objective C nella programmazione sui sistemi operativi sopracitati.
+Note
+Bibliografia

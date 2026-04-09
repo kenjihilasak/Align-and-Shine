@@ -1,0 +1,38 @@
+Équation
+Un système d'équations est un ensemble d'équations, utilisant les mêmes variables ou inconnues ;
+une est l'affectation d'une valeur à chacune de ces variables, de telle façon que toutes les équations du système soient satisfaites simultanément .
+Dans la vie courante et en sciences, les phénomènes dépendent le plus souvent de plusieurs paramètres.
+Pour modéliser ces phénomènes, les relations entre ces paramètres sont traduites en équations, conduisant à un système d’équations à plusieurs inconnues, dont la résolution est recherchée au moyen de méthodes mathématiques (le développement de ces méthodes est un des objets de la recherche mathématique).
+Exemples
+Un exemple élémentaire de système d'équations linéaires est :
+\begin
+3x+y=5\\
+y=9.
+\end
+Ce système a une unique solution (x,y) = (2,-1).
+On peut également former de systèmes d'équations non linéaires :
+\begin
+x^2+y^2
+= 16 \\
+y = 4.
+\endCelui-ci admet deux solutions (x,y)
+4,0)
+et (x,y)
+0,-4
+* Exemple de système non linéaire de 2 équations à 2 inconnues sans solution réelle :
+\begin
+x^2
++ y^2 = 0\\
+x + y = 1.
+\endLa combinaison de ces deux équations permet d’obtenir l’équation du second degré :Le système n’a donc aucune solution réelle, mais deux solutions dans l’ensemble des nombres complexes, qui correspondent aux deux couples possibles formés des 2 solutions complexes conjuguées de l’équation du second degré ci-dessus.
+Ce nombre de solutions résulte d’une particularité du système d’équations, qui reste inchangé par permutation des inconnues.
+Une autre catégorie de systèmes, très utilisés en physique, sont les systèmes d'équations différentielles.
+L'exemple suivant est un système dynamique différentiel linéaire du premier ordre, appelé système dynamique de Lorenz :
+\begin \frac
+\sigma \bigl ( y (t)
+- x (t) \bigr)\\ \frac
+\rho \, x (t)
+- y (t)
+- x (t) \, z (t)\\ \frac =x (t) \, y (t)
+- \beta \, z (t).\end
+mqyzoey9s42tkkvegtqxxpwxr06mxjr

@@ -1,0 +1,174 @@
+Bluetooth
+est une norme de communications permettant l'échange bidirectionnel de données à très courte distance en utilisant des ondes radio UHF sur une bande de fréquence de 2,4 GHz.
+Son objectif est de simplifier les connexions entre les appareils électroniques en supprimant des liaisons filaires.
+Elle peut remplacer par exemple les câbles entre ordinateurs, tablettes, haut-parleurs, téléphones mobiles entre eux ou avec des imprimantes, scanneurs, claviers, souris, manettes de jeu vidéo, téléphones portables, assistants personnels, systèmes avec mains libres pour microphones ou écouteurs, autoradios, appareils photo numériques, lecteurs de code-barres et bornes publicitaires interactives.
+Nom et logo
+Le nom « »
+est directement inspiré du surnom anglicisé du roi danois
+Harald à la dent bleue (en danois , en anglais ), connu pour avoir réussi à unifier les tribus danoises au sein d'un même royaume, introduisant du même coup le christianisme.
+Ce nom a été proposé en 1996 par Jim Kardach d'Intel, un ingénieur travaillant alors sur le développement d'un système qui allait permettre aux téléphones cellulaires de communiquer avec des ordinateurs.
+Au temps où Kardach a fait cette proposition, un homologue d'Ericsson lui avait parlé de ce souverain après avoir lu le roman historique Orm le Rouge de Frans Gunnar Bengtsson, qui se déroule sous son règne.
+L'implication est que de la même façon que le roi Harald a unifié son pays et rassemblé le Danemark et la Norvège, Bluetooth relie les télécommunications et les ordinateurs et « unifie » les appareils entre eux.
+Le logo de Bluetooth est d'ailleurs inspiré des initiales en alphabet runique (Futhark récent) de Harald Blåtand : ) (ᛒ).
+Histoire
+* 1994 : création de la norme par le fabricant suédois Ericsson à Lund,
+* 1998 : plusieurs grandes sociétés (IBM, Intel,
+Nokia et Toshiba) s'associent avec Ericsson pour former le (SIG),
+* : le groupe Bluetooth SIG compte neuf sociétés après que 3Com, Lucent Technologies, Microsoft, Motorola l'ont rejoint.
+* 2004 : apparition du Bluetooth 2.0 et de l'EDR (Enhanced Data Rate) ,
+* : le « » (SIG) annonce la deuxième génération de la technique sans fil Bluetooth V2.0 (puis V2.1 en 2007), qui est capable d'assurer des débits en crête 3 fois supérieurs à l'ancienne version, passant donc de à .
+La technique
+- utilisée dans les téléphones mobiles, périphériques informatiques et autres appareils portables comme les assistants personnels (PDA)
+- a vu sa vitesse de transmission augmenter, lui permettant ainsi d'être utilisée pour l'échange de fichiers avec un baladeur MP3 par exemple.
+La nouvelle norme devait aussi incorporer une technique radio, connue comme l'ultra wideband (UWB), mais cette évolution a été abandonnée, le Bluetooth visant prioritairement le marché des terminaux à très basse consommation,
+* 2009 : le Bluetooth SIG publie la norme Bluetooth 3.0 et la variante HS (High Speed),
+* 2010 : apparition du Bluetooth 4.0 plus performant et moins gourmand en énergie : variante Bluetooth à basse consommation (connue sous le nom de Bluetooth
+Low Energy, BLE en anglais).
+Cette nouvelle génération apparaît comme une évolution importante qui permet une large démocratisation d'appareils connectés en tout genre,
+Spécifications
+Le Bluetooth SIG travaille sur la spécification de la norme, qui a évolué des versions 1.0, 1.1, 1.2, 2.0 + EDR (), 2.1 + EDR, 3.0 + HS, 4.0, 4.1 puis 4.2 en décembre 2014 et v5.
+Normes
+Les versions publiées des normes Bluetooth sont les suivantes :
+* Bluetooth v1.1, normalisé en 2002 sous le nom IEEE 802.15.1-2002
+* Bluetooth v1.2, normalisé en 2005 sous le nom IEEE 802.15.1-2005 ;
+* Bluetooth v4.2, rendue publique le 2 décembre 2014 (
+mise à jour matérielle) ;
+* Bluetooth Mesh, option rendue publique en juillet 2017 qui ne s'applique qu'à la version BLE
+Tableau de synthèse
+Couches protocolaires
+Les éléments fondamentaux d'un produit Bluetooth sont définis dans les deux premières couches protocolaires :
+# la couche radio ;
+# et la couche bande de base.
+Ces couches prennent en charge les tâches matérielles comme le contrôle du saut de fréquence et la synchronisation des horloges.
+La couche radio
+La couche radio (la couche la plus basse) est gérée au niveau matériel.
+C'est elle qui s'occupe de l'émission et de la réception des ondes radio.
+Elle définit les caractéristiques telles que la bande de fréquence et l'arrangement des canaux, les caractéristiques du transmetteur, de la modulation, du récepteur, etc.
+Le système Bluetooth opère dans les bandes de fréquences ISM* () dont l'exploitation ne nécessite pas de licence vu la faible puissance d'émission et le risque faible d'interférences.
+Cette bande de fréquences est comprise entre et .
+Un à sauts de fréquences est utilisé pour limiter les interférences et l'atténuation.
+Deux modulations sont définies : une modulation obligatoire utilise une modulation de fréquence binaire pour minimiser la complexité de l'émetteur ;
+une modulation optionnelle (mode EDR) utilise une modulation de phase (PSK à 4 et 8 symboles).
+La rapidité de modulation est de pour toutes les modulations.
+La transmission duplex utilise une division temporelle.
+Les 79 canaux RF sont numérotés de 0 à 78 et séparés de en commençant par .
+Le codage de l'information se fait par sauts de fréquences et la période est de , ce qui permet sauts par seconde.
+Il existe trois classes de modules radio
+Bluetooth sur le marché :
+La plupart des fabricants d'appareils électroniques utilisent des modules classe 2.
+La bande de base
+La bande de base (ou en anglais) est également gérée au niveau matériel.
+C'est au niveau de la bande de base que sont définies les adresses matérielles des périphériques .
+Cette adresse est nommée BD_ADDR () et est codée sur .
+Ces adresses sont gérées par la .
+C'est également la bande de base qui gère les différents types de communication entre les appareils.
+Les connexions établies entre deux appareils Bluetooth peuvent être synchrones ou asynchrones, ces connexions sont appelées «
+Liens Logiques » ().
+La bande de base peut donc gérer deux types majeurs de liens logiques :
+Les données transportées sur ces liens logiques sont sous forme de paquets.
+Il existe divers types de paquets et peuvent être utilisés par les deux liens logiques ou seulement par un seul type de lien.
+Chaque paquet est composé globalement de la même manière.
+On retrouve trois parties essentielles :
+* La charge utile ( = les données utiles)
+→ de 0 à 2 745 bits.
+Picoréseau
+Un picoréseau (on emploie également l'anglicisme ) est un mini-réseau qui se crée de manière instantanée et automatique quand plusieurs périphériques Bluetooth sont dans un même rayon.
+Un picoréseau est organisé selon une topologie en étoile : il y a un « maître » et plusieurs « esclaves ».
+Un périphérique « maître » peut administrer jusqu'à :
+La communication est directe entre le « maître » et un « esclave ».
+Les « esclaves » ne peuvent pas communiquer entre eux.
+Tous les « esclaves » du picoréseau sont synchronisés sur l'horloge du « maître ».
+C'est le « maître » qui détermine la fréquence de saut pour tout le picoréseau.
+Inter-réseau
+Bluetooth
+Les périphériques « esclaves » peuvent avoir plusieurs « maîtres » : les différents peuvent donc être reliés entre eux.
+Le réseau ainsi formé est appelé un (littéralement « réseau dispersé »).
+Le contrôleur de liaisons
+Il encode et décode les paquets bluetooth selon la charge utile et les paramètres liés au canal physique, transport logique et liaisons logiques.
+Le gestionnaire de liaisons
+Il crée, gère et détruit les canaux L2CAP pour le transport des protocoles de services et les flux de données applicatives.
+Il utilise le protocole L2CAP pour interagir avec son homologue sur les équipements distants.
+Cette couche gère les liens entre les périphériques « maîtres » et « esclaves » ainsi que les types de liaisons (synchrones ou asynchrones).
+C'est le gestionnaire de liaisons qui implémente les mécanismes de sécurité
+comme :
+L'interface de contrôle de l'hôte
+Cette couche fournit une méthode uniforme pour accéder aux couches matérielles.
+Son rôle de séparation permet un développement indépendant du matériel et du logiciel.
+Les protocoles de transport supportés sont (USB) ;
+PC-
+Card ;
+RS-232 ;
+UART.
+HCI permet un transfert de données à débit maximum, soit pour la norme 1.2, et un débit trois fois plus élevé pour la norme 2.0+EDR.
+La couche L2CAP
+La couche L2CAP () fournit les services de multiplexage des protocoles de niveau supérieur et la segmentation et le réassemblage des paquets ainsi que le transport des informations de qualité de service.
+Les protocoles de haut niveau peuvent ainsi transmettre et recevoir des paquets jusqu'à .
+Elle autorise un contrôle de flux par canal de communication.
+La couche L2CAP utilise des canaux logiques.
+Les services
+RFCOMM : signifie «
+Ce service est basé sur les spécifications RS-232, qui émule des liaisons séries.
+Il peut notamment servir à faire passer une communication IP par Bluetooth.
+RFCOMM est utilisé lorsque le débit des données n'atteint pas plus de (par exemple, téléphones mobiles).
+SDP : signifie «
+Ce protocole permet à un appareil Bluetooth de rechercher d'autres appareils et d'identifier les services disponibles.
+Il s'agit d'un élément particulièrement complexe de Bluetooth.
+OBEX : signifie «
+OBject EXchange »
+Ce service permet de transférer des objets grâce au protocole d'échange développé pour l'IrDA.
+Les profils
+Un profil correspond à une spécification fonctionnelle d'un usage particulier.
+Les profils peuvent également correspondre à différents types de périphériques.
+Les profils ont pour but d'assurer une interopérabilité entre tous les appareils Bluetooth.
+Ils définissent :
+* les contraintes et les intervalles de valeurs de ces protocoles
+Les différents profils sont :
+# GAP :
+# SDAP :
+# SPP :
+# HSP :
+# DUN :
+# LAN : ce profil est maintenant obsolète ;
+il est remplacé par le profil PAN
+Fax
+Profile
+# GOEP :
+# SP :
+# OPP :
+# FTP :
+# CTP :
+# IP :
+A2DP : (
+profil de distribution audio avancée)
+AVRCP : (Commande à distance)
+# HFP :
+# PAN :
+# VDP :
+# BIP :
+# BPP :
+# SYNC :
+# SAP :
+# PBAP :
+# HIDP :
+# MAP :
+Le profil d'accès générique
+Le profil d'accès générique (GAP) est le profil de base dont tous les autres profils héritent.
+Il définit les procédures génériques de recherche d'appareils, de connexion et de sécurité.
+La qualification et la certification Bluetooth
+Afin d'obtenir la certification Bluetooth, des tests de qualification sont nécessaires.
+Les tests de qualification sont de deux types :
+Qualification RF : l'objectif des essais est de prouver que la plate-forme matérielle utilisée respecte les performances radio de la norme Bluetooth.
+Il existe une liste des tests RF à réaliser, en émission et en réception.
+Ces essais sont :
+Les mesures de sont réalisées conformément à la norme ETSI EN 300 328.
+Les procédures des essais sont spécifiés dans le document .
+La plupart des appareils de mesure permettent de réaliser les essais sur 3 canaux : les deux extrêmes et le canal central.
+Pour des tests sur tous les canaux, il est nécessaire de développer des compléments d'essais.
+Les tests sont d'abord réalisés chez l'industriel, par l'industriel, afin de valider son design.
+Puis il est obligatoire de faire appel à un organisme agréé afin d'obtenir la certification Bluetooth (BQB : ).
+Qualification du logiciel : si l'industriel a lui-même réalisé le logiciel de son nouveau design, avec les couches hautes HCI, RFCOMM, L2CAP, SDP ou d'autres profils Bluetooth, ils doivent être qualifiés.
+La certification du logiciel s'effectue profil par profil.
+Chaque couche logicielle doit être conforme à la norme Bluetooth à respecter.
+Sécurité et Bluetooth
+Sécurité des protocoles Bluetooth
+Sécurité sur les smartphones

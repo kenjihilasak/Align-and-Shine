@@ -1,0 +1,38 @@
+C (langage de programmation)
+C’est un langage :
+compilé : pour passer du code source à l’exécutable, il faut utiliser un programme appelé compilateur qui traduit le code source en code binaire ;
+bas niveau :
+le programmeur C doit souvent gérer lui-même la mémoire (en utilisant des pointeurs) et dispose de moins d’opérations abstraites que dans des langages plus haut niveau comme Python ou Java ;
+impératif :
+il décrit une suite d’instructions à exécuter les unes après les autres ;
+procédural : contrairement au BASIC ou à l’assembleur
+, il ne permet de sauter n’importe où dans le programme.
+Il faut utiliser des fonctions (ou procédures) ;
+à typage statique : en C, chaque variable possède un type (nombre entier, caractère, etc.) bien défini et qui ne change pas au cours de l’exécution du programme.
+Pour afficher le traditionnel «
+Hello World!
+» sur l’écran en C, l’un des programmes les plus simples est :
+/ /
+Affiche "
+Hello World!" suivi d’un retour à la ligne sur l’écranputs("Hello World!");
+On met toujours le code à exécuter en premier dans la fonction main.
+Celle-ci prend « void » en argument (c’est-à-dire « rien ») et renvoie un « int » (c’est-à-dire un nombre entier, en anglais integer).
+On utilise ensuite la fonction puts pour écrire quelque part.
+On précise ce que l’on veut écrire (la chaine de caractères «
+Hello World!
+La fonction puts ajoute toujours un retour à la ligne.
+Voici le code.
+Ceci va être expliqué en-dessous:
+#include
+intmain(void){//Ceci est la variable ;
+l'utilisateur choisira sa valeur dans scanf.intnumber=0;printf("Veuillez entrer un nombre");scanf("%d",&number);intdoubl=0;doubl=number*2;printf("Le nombre que vous avez entré est %d et son double
+est %d",number,doubl);
+On a déclaré une variable number dont la valeur est 0 et on a affiché le texte
+Veuillez entrer un nombre.
+scanf
+a permis à l'utilisateur d'en entrer un.
+Puis on a déclaré la variable doubl pour y mettre le double du nombre.
+On affiche ensuite les deux variables par un appel à printf.
+Le premier argument donné à printf est la chaine de formatage "Le nombre que vous avez entré est %d et son double est %d", dans laquelle le premier %d indique la place de la valeur de la variable number et le deuxième celle de son double que l'on a calculé juste avant.
+Remarque : La deuxième variable ne peut pas être nommée double car c'est un mot-clé du langage.
+C'est pourquoi le e final a été enlevé de son nom.

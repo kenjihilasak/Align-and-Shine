@@ -1,0 +1,25 @@
+Scacchi
+Una scacchiera con i pezzi in posizione di partenza.
+Gli scacchi sono un gioco da tavolo di memoria, ragionamento e capacità decisionale.
+Il gioco vede opposti due giocatori, definiti Bianco e Nero in base al colore dei pezzi che muovono durante una partita.
+Movimento dei pezzi Pedoni I pedoni si possono muovere di 1 o di 2 in avanti alla prima mossa, ma dopo quella non possono più muovere di due in avanti ma solo di uno in avanti, possono solo andare in avanti ma se c’è un pezzo nella loro diagonale allora possono muoversi nel posto mangiandolo, se i pedoni arrivano alla fine della scacchiera allora deve promuoversi in un pezzo più importante a scelta:regina, torre, alfiere o cavallo I pedoni sono in tutto 16, 8 bianchi e 8 neri.
+Cavalli I cavalli si possono muovere in questo modo sia a destra sia a sinistra:
+2 in avanti e uno a destra o a sinistra, oppure 2 a sinistra o due a destra e poi uno in avanti, tutto questo lo possono fare anche ritornando indietro.
+I cavalli possono saltare ogni cosa che sia nel loro tragitto tranne, se c’è, un pezzo nero dove vanno a sistemarsi, allora, in quel caso il pezzo bianco deve mangiare quello nero.
+Se un cavallo vuole andare dove c’è un pezzo bianco non può perché i pezzi bianchi non si possono mangiare a vicenda, anche quelli neri anche loro non possono farlo.
+I cavalli sono 4 in tutto:
+due bianchi e due neri.
+Alfieri Gli alfieri si muovono in diagonale sia a destra e sia a sinistra, sia indietro sia in avanti.
+A differenza dei cavalli gli alfieri non possono saltare nessun pezzo.
+Gli alfieri sono sempre 4, due bianchi e due neri, gli alfieri sono ottimi per fare delle infilate.
+Torre La torre si muove a croce:
+si muove in avanti e indietro fino finché non c’è un pezzo, può muoversi anche a sinistra e a destra con le stesse regole.
+Anche questi pezzi sono in tutto 4, 2 bianchi e 2 neri.
+Regina La regina si muove come una torre è un alfiere messi insieme,èil pezzo più importante della scacchiera dopo il re.
+A differenza degli alfieri e delle torri sono in tutto due, una bianca è una nera.
+Re Il re si può muovere in tutte le direzioni ma è abbastanza lento perché si muovedi una sola casella, c’è ne sono due, uno bianco e uno nero, se il bianco lo perde allora vince il bianco, invece se il nero perde il re allora vince il bianco, ecco come si muovono i pezzi negli scacchi, può esservi sempre utile
+Si suppone che il gioco degli scacchi nacque attorno all'8° secolo, inventato dai persiani, che adattarono un gioco da tavolo indiano già esistente.
+Giunse in Europa attorno al IX secolo.
+Gli scacchi vengono giocati su di una tavola quadrata detta scacchiera, composta da 64 caselle di due colori alternati sulla quale, all'inizio della partita, si trovano trentadue pezzi, sedici per ciascun colore.
+l'obiettivo del gioco è dare scacco matto all'avversario, ovvero attaccare il re avversario senza che esso abbia la possibilità di scappare.
+Gli scacchi sono composti da un re, una regina, due alfieri, due cavalli, due torri e otto pedoni.

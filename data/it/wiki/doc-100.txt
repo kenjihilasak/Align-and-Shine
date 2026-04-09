@@ -1,0 +1,268 @@
+In chimica e in fisica, la molecola (dal latino scientifico molecula, derivato a sua volta da moles, che significa "mole", cioè "piccola quantità") è un'entità elettricamente neutra composta da due o più atomi, dello stesso elemento o di elementi diversi, uniti fra loro da un legame chimico covalente.
+Nella definizione del compendium of Chemical Terminology della IUPAC gli atomi formano una buca di potenziale coulombiano sufficientemente profonda da consentire la presenza di almeno uno stato vibrazionale.
+Viene spesso definita come la più piccola parte in cui può essere suddivisa una sostanza conservandone la composizione e le proprietà chimiche che la caratterizzano.
+In chimica organica e biochimica, il termine molecola identifica talvolta anche ioni poliatomici, mentre nella teoria cinetica dei gas è spesso utilizzato per ogni particella gassosa, indipendentemente dalla sua composizione:
+con tale definizione anche i singoli atomi nella famiglia dei gas nobili possono essere considerati molecole.
+Una molecola può essere composta da più atomi di un solo elemento chimico o da atomi di elementi diversi.
+Famiglie di molecole costituite dagli stessi atomi disposti nello spazio in maniera diversa sono dette isomeri, e la disposizione influisce sulle proprietà fisiche della sostanza.
+Dinamica molecolare
+La descrizione a livello atomico della materia utilizza il formalismo della meccanica quantistica, che attraverso la caratterizzazione probabilistica di una particella fornita dalla funzione d'onda permette di spiegare la natura elettromagnetica dei legami fisici e chimici che governano il comportamento delle molecole e dei loro costituenti.
+In tale contesto, lo studio della dinamica molecolare si basa sull'approssimazione di Born-Oppenheimer, anche detta approssimazione adiabatica, che considera il moto dei nuclei indipendente da quello degli elettroni, dal momento che i primi sono estremamente più pesanti e quindi più lenti dei secondi.
+Questo rende possibile la fattorizzazione della funzione d'onda totale della molecola:
+Per le molecole biatomiche il potenziale adiabatico è un potenziale armonico, e può essere approssimato dal potenziale di Morse, che a differenza dell'oscillatore armonico quantistico include esplicitamente gli effetti della rottura del legame chimico, come l'esistenza di stati non legati.
+Molecole biatomiche
+Le molecole biatomiche sono composte da due atomi, e si distinguono in molecole omonucleari, quando gli atomi sono dello stesso elemento chimico, ed eteronucleari, quando invece gli atomi differiscono.
+La molecola H2+
+Le molecole diatomiche omonucleari sono composte da due atomi dello stesso elemento chimico;
+la più semplice di queste è H2+, per la quale l'equazione elettronica assume la forma:
+\left \nabla_r^2 - \frac - \frac + \frac \right \psi_ (\mathbf) = E_ (\mathbf) \psi_ (\mathbf)
+dove k = 1/ 4 \pi \epsilon_0, il secondo ed il terzo termine rappresentano l'attrazione Vne dell'elettrone nei confronti dei nuclei ed il quarto la repulsione dei due nuclei.
+I due protoni formano due buche di potenziale, e la funzione d'onda dell'elettrone è la combinazione lineare di due funzioni d'onda idrogenoidi \psi_:
+\psi_ (\mathbf) = \frac\psi_
+La funzione d'onda \psi_ costituisce l'orbitale molecolare di legame, la funzione \psi_ costituisce l'orbitale di antilegame.
+L'orbitale di legame ha energia minore dell'orbitale di antilegame.
+Le funzioni \psi_, sebbene descrivano bene la distribuzione di probabilità dell'elettrone nello stato fondamentale, non sono soluzioni esatte dell'equazione elettronica.
+La funzione d'onda \psi_+, nello spazio tra i due nuclei, è maggiore delle singole funzioni d'onda idrogenoidi \psi_, ed è questo fatto che genera il legame covalente tra i due nuclei.
+Si nota infatti che la densità di probabilità associata alla funzione d'onda:
+|\psi_|^2 = \frac\psi_^2 \pm 2\psi_
+contiene un termine di interazione, il doppio prodotto, che rappresenta la sovrapposizione delle due funzioni d'onda:
+si tratta di una regione di carica negativa che unisce i due nuclei di carica opposta.
+Per quanto riguarda l'orbitale di antilegame \psi_-, esso si annulla a metà tra i due nuclei, dove genera una densità di probabilità minore di quella che avrebbe senza il termine di sovrapposizione.
+La molecola H2
+Si consideri ora la molecola H2, la più semplice molecola neutra.
+Avendo due elettroni, la funzione d'onda elettronica di singoletto è data da:
+\psi_ (1,2) = \frac\psi_ + \psi_ \chi^A (1,2)
+e rappresenta l'orbitale di legame, mentre quella di tripletto da:
+\psi_ (1,2) = \frac\psi_ - \psi_ \chi^S (1,2)
+che rappresenta l'orbitale di antilegame, dove:
+\chi^A (1,2) = \frac \left ( \left+;
+- \right\rangle - \left| -;
++ \right\rangle \right)
+\chi^S (1,2) = \begin \left| +;
++ \right\rangle \\ \frac \left ( \left| +;
+- \right\rangle + \left| -;
++ \right\rangle \right) \\ \left| -;
+- \right\rangle \end
+sono gli stati di spin, in cui + rappresenta lo spin-up, - lo spin-down.
+La densità di probabilità spaziale è:
+\begin E_L & -\Delta \\ -\Delta & E_L \end \equiv \begin \langle
+L | H_1 | L \rangle & \langle L | H_1 | R \rangle \\ \langle R | H_1 | L \rangle & \langle
+R |
+H_1 | R \rangle \end
+dove:
+H_1 = T_e + V
+_ \
+è l'effettiva hamiltoniana di singolo elettrone mentre gli stati | L \rangle e | R \rangle sono gli orbitali corrispondenti rispettivamente all'atomo sinistro e destro.
+Gli autovalori associati alla matrice sono:
+\Epsilon_= \frac
+\mp \sqrt
+Gli orbitali di legame | b \rangle e antilegame | a \rangle sono dati dagli autostati:
+b,a \rangle = \sqrt | L \rangle \pm \sqrt | R \rangle
+con:
+u = \frac
+per u = 0 si ottiene la molecola omonucleare, ed il termine 2 \Delta rappresenta lo splitting tra l'orbitale di legame e di antilegame di una molecola omonucleare, ovvero lo splitting tra le combinazioni simmetriche ed antisimmetriche.
+Quando la differenza E_L - E_R è tale da comportare un trasferimento completo di carica tra i due atomi, il legame si dice ionico.
+Molecole poliatomiche
+Le molecole poliatomiche possiedono più di due atomi, che nella maggior parte dei casi sono diversi fra loro.
+La loro struttura è estremamente diversificata poiché le possibili combinazioni tra gli orbitali atomici che formano gli orbitali molecolari sono estremamente numerose.
+Oltre al legame che caratterizza le molecole biatomiche, nelle molecole poliatomiche gli orbitali atomici s e p si possono combinare fra loro per formare orbitali detti ibridi.
+Si riportano di seguito due esempi di molecole poliatomiche, l'acqua ed il metano:
+La molecola H2O
+Una delle più semplici molecole poliatomiche è quella dell'acqua, in cui l'ossigeno ha un orbitale p caratterizzato da una tripla degenerazione sui tre assi cartesiani, che genera due possibili configurazioni elettroniche:
+la prima è il caso in cui i 4 elettroni riempiono completamente due lobi dell'orbitale, lasciando il terzo vuoto, mentre la seconda è il caso in cui si abbiano due elettroni su un lobo, ed uno su ognuno dei restanti due.
+Tale orbitale può essere quindi scritto come 2pxpypz2, in cui si è supposto che il lobo diretto lungo l'asse z contenga due elettroni, e questo rende possibile la formazione di due legami covalenti, in cui ai lobi x e y si legano i due atomi di idrogeno.
+La molecola CH4
+Il metano è una molecola con un orbitale ibrido.
+Il carbonio ha configurazione elettronica 1s22s22p2, e l'orbitale p e nel suo stato fondamentale può quindi legarsi con solo due atomi di idrogeno.
+La molecola di metano esiste, tuttavia, dal momento che un elettrone dell'orbitale 2s2 viene promosso all'orbitale p, sicché la configurazione elettronica diventa 1s22s2pxpypz, generando quattro elettroni disaccoppiati che possono legarsi ad altrettanti atomi di idrogeno.
+I quattro orbitali molecolari ibridi sono quindi una combinazione lineare degli stati \psi_, \psi_, \psi_, \psi_ della forma:
+:\psi_i=\frac (\psi_ \pm \psi_ \pm \psi_ \pm \psi_)
+e formano un tetraedro con l'atomo di carbonio al centro.
+Orbitali e legami molecolari
+L'orbitale molecolare caratterizza la configurazione elettronica di una molecola, definendo la distribuzione spaziale e l'energia degli elettroni, ed è stato introdotto da Friedrich Hund e Robert S. Mulliken nel 1927 e 1928.
+Un orbitale molecolare è rappresentato da una funzione d'onda il cui quadrato descrive la distribuzione di probabilità relativa alla posizione dell'elettrone.
+Tale funzione d'onda si ottiene dall'equazione d'onda che descrive l'intera molecola, che in generale non è di facile soluzione:
+questa problematica viene risolta mediante un'approssimazione che consiste nello scrivere l'orbitale molecolare come combinazione lineare degli orbitali atomici dei singoli atomi.
+Tale approssimazione è descritta dalla teoria degli orbitali molecolari.
+L'ordine di legame è inoltre la semidifferenza tra il numero di elettroni leganti e il numero di elettroni antileganti.
+L'ordine di legame è un indice della forza del legame stesso e viene utilizzato estensivamente anche nella teoria del legame di valenza.
+Teoria degli orbitali molecolari
+La teoria degli orbitali molecolari è una tecnica per determinare la struttura molecolare in cui si pone che gli elettroni non siano assegnati a particolari legami chimici, ma siano trattati come oggetti che si muovono sotto l'influenza dei nuclei all'interno dell'intera molecola.
+La funzione d'onda totale degli elettroni \psi è scritta come combinazione lineare:
+\psi_j = \sum_^ c_ \chi_i
+dove \chi_i sono gli orbitali atomici, e c_ i coefficienti della sommatoria, ricavati risolvendo l'equazione di Schrödinger per \psi_j ed applicando il principio variazionale.
+Le proprietà principali degli orbitali molecolari così definiti sono:
+* Il numero degli orbitali molecolari è pari al numero di orbitali atomici contenuti nella combinazione lineare dalla quale sono costituiti, poiché gli stati stazionari non si creano né si distruggono.
+* Se la molecola possiede simmetrie, gli orbitali atomici degeneri, caratterizzati dalla stessa energia, sono raggruppati in combinazioni lineari che appartengono alla rappresentazione del gruppo di simmetria.
+* Il numero di orbitali molecolari appartenenti alla rappresentazione di un gruppo è pari al numero di orbitali atomici appartenenti a tale rappresentazione.
+* All'interno di una particolare rappresentazione, gli orbitali atomici si mischiano maggiormente tanto più i loro livelli di energia atomici sono vicini.
+Rappresentazione degli orbitali molecolari
+La nomenclatura degli orbitali molecolari ricalca quella degli orbitali atomici:
+quando un orbitale ha simmetria cilindrica rispetto alla congiungente dei due nuclei, detta direzione di legame, viene indicato con la lettera greca \sigma;
+quando si trova da parti opposte rispetto alla direzione di legame viene indicato con \pi.
+Accanto alla lettera si scrive un indice che indica da quale tipologia di legame atomico è formato l'orbitale molecolare.
+Vi è inoltre una terza tipologia di legame, denotato con \delta, ottenuto dalla sovrapposizione di quattro lobi di due orbitali atomici.
+Esistono in questo caso due piani nodali siti fra i due nuclei che contraggono tale legame.
+Il legame δ è riscontrato nel legame quadruplo, legame multiplo importante in chimica inorganica e che caratterizza complessi quale Re2Cl104- o altri tipi di cluster.
+L'orbitale di antilegame si denota inoltre con un asterisco, ad esempio la molecola H2 possiede un orbitale di legame \sigma_ \ ed un orbitale di antilegame \sigma_^
+* Nelle molecole biatomiche omonucleari
+gli elettroni riempiono gli orbitali con lo stesso schema con cui avviene il riempimento degli orbitali atomici, con l'uinica eccezione che tra gli orbitali derivanti dagli orbitali atomici 2p, gli orbitali \pi, hanno energia minore degli orbitali \sigma a causa del fatto che la repulsione coulombiana degli orbitali derivati dagli orbitali atomici 1s e 2s aumenta l'energia degli stati \sigma.
+Questo è dovuto al fatto che gli elettroni dei due legami \sigma sono situati nella regione tra i due nuclei, e pertanto si respingono;
+nelle molecole più pesanti dell'ossigeno gli orbitali \pi_ \ hanno energia minore e sono situati in prossimità dei nuclei, pertanto il naturale ordinamento energetico è ristabilito.
+La combinazione lineare delle funzioni d'onda che forma l'orbitale molecolare è rappresentata a lato, dove sono schematizzate la molecola He2 e la molecola O2, la quale ha configurazione elettronica:
+\sigma_^2 \sigma_^ \sigma_^2 \sigma_^ \sigma_^2 \sigma_^ \pi_^2 \pi_^2 \pi_^
+\pi_^.
+* Nel caso di molecole biatomiche eteronucleari, se il numero atomico dei due atomi differisce di poco il procedimento che forma gli orbitali è lo stesso delle molecole omonucleari.
+Vi è tuttavia una differenza di elettronegatività tra i due atomi, e ciò implica la presenza di un dipolo elettrico tra di essi dovuto al fatto che gli elettroni si distribuiscono nelle vicinanze dell'atomo più elettronegativo:
+il legame che si viene a formare prende il nome di covalente polare.
+Tale legame viene rappresentato come in figura a lato, e si può notare che gli elettroni di \sigma_ hanno energia maggiore, e costituiscono un orbitale detto HOMO (Highest Occupied Molecular Orbital), mentre gli elettroni di \sigma_ e \sigma_ costituiscono gli orbitali vuoti a minore energia detti LUMO (Lowest
+Unoccupied Molecular Orbital).
+L'orbitale LUMO è il centro in cui la molecola può subire un attacco nucleofilo di una
+base di Lewis
+, e si tratta quindi del centro di acidità di Lewis.
+Viceversa, HOMO è il centro di basicità di Lewis della molecola, e può subire un attacco elettrofilo.
+Se la differenza di elettronegatività è maggiore di un valore convenzionale fissato a 1,9 vi è un trasferimento completo di carica tra i due atomi, cioè la nuvola elettronica può considerarsi come spostata completamente sull'elemento più elettronegativo.
+Tale legame prende il nome di legame ionico.
+Se il numero atomico dei due atomi differisce di molto accade che gli orbitali molecolari si formino tra orbitali atomici con energia simile, invece che dello stesso tipo.
+* All'aumentare del numero di atomi coinvolti diventa complessa la caratterizzazione degli orbitali, a nell'ambito della teoria degli orbitali molecolari sono stati sviluppati diversi metodi di calcolo degli orbitali, tra i quali vi sono il Metodo di Hückel, proposto da Erich Hückel nel 1930, consiste in un semplice metodo LCAO utilizzato per la determinazione delle energie degli orbitali molecolari di sistemi π rappresentati da idrocarburi con legami coniugati, risultando applicabile a molecole quali ad esempio l'etilene, il benzene e il butadiene.
+La nota regola di Hückel trae origine da queste basi.
+Il metodo di Hückel esteso, sviluppato da Roald Hoffmann, rappresenta invece la base delle regole di Woodward-Hoffmann ed è un'estensione a tutti gli orbitali di valenza.
+Negli anni successivi il metodo fu reso applicabile anche agli eterocicli come la piridina, il pirrolo e il furano.
+Vi è infine il metodo di Pariser-Parr-Pople, che sfrutta metodi semi-empirici della chimica quantistica nell'ambito della chimica organica.
+Moti interni nelle molecole biatomiche
+I nuclei sono soggetti al potenziale adiabatico definito in precedenza, che nelle molecole biatomiche è indipendente dalla posizione del centro di massa della molecola e dall'orientazione della retta congiungente i due nuclei.
+Il potenziale gode quindi di invarianza rispetto alle traslazioni ed alle rotazioni, e il moto dei nuclei può essere studiato come un problema a due corpi, sicché l'equazione di Schrödinger può essere separata in moto radiale, dipendente dalla distanza tra i due nuclei, e moto orbitale, dipendente dal numero quantico orbitale.
+L'equazione di Schrödinger nel caso di un moto in un campo centrale è:
+\left -\frac \nabla_^ - \frac \nabla^ + V_\mathrm (|\mathbf r_|) \right \psi_ (\mathbf r_,\mathbf r_) = E_ \psi_ (\mathbf r_,\mathbf r_)
+dove \mathbf r_ indica la posizione del centro di massa e \mathbf r_ la posizione relativa dei due nuclei, differenza delle rispettive posizioni.
+Il problema può essere quindi separato in due equazioni, una per il centro di massa ed una per la particella di massa μ che si muove in un campo centrale rispetto al centro di massa.
+La funzione d'onda si può quindi fattorizzare nel seguente modo:
+\psi_ (\mathbf r_,\mathbf r_)
+\psi_ (\mathbf r_)\psi_ (\mathbf r_).
+L'equazione per \psi_ (\mathbf r_), che rappresenta il problema della particella libera, fornisce l'energia traslazionale della molecola.
+L'equazione per \psi_ (\mathbf r_) si può ulteriormente fattorizzare in parte radiale, dipendente da r, e parte angolare, dipendente dalle coordinate angolari:
+\psi_ (\mathbf r_)
+R (r)f (\theta, \phi).
+La soluzione per f (\theta, \phi) sono le armoniche sferiche, ed i rispettivi stati sono autostati del momento angolare orbitale e della sua componente lungo l'asse z.
+L'equazione per R (r) è invece, detta g = rR (r):
+\left -\frac \frac + \frac + V_\mathrm (|\mathbf r_|) \right g = E g
+dove il secondo termine rappresenta il contributo energetico rotazionale E_ (l), che dipende dal numero quantico orbitale l.
+Il potenziale adiabatico può essere inoltre sviluppato in serie di Taylor, che troncata al secondo ordine è:
+V_\mathrm (|\mathbf r_|)= V_\mathrm (R_M) + \frac \left ( \frac\right)_ (|\mathbf r_| - R_M)^2
+dove R_M è il valore di |\mathbf r_| che minimizza V_\mathrm, e rappresenta la posizione di equilibrio dei due nuclei.
+Tale espressione rappresenta un moto armonico attorno a R_M che fornisce un contributo energetico dato dall'energia dell'equazione elettronica contenuta in V_\mathrm (R_M) e dall'energia vibrazionale E_ (v).
+Detta x_0 la lunghezza caratteristica data dalla relazione \hbar^2 2kx_0^2 e detta y
+x/x_0, le soluzioni dell'equazione per g sono:
+g_v (y)=c_vH_v (y)e^
+dove H_v (y) è il polinomio di Hermite di grado v.
+Lo spettro energetico contiene in definitiva tre termini:
+E =V_\mathrm (R_M) + E_ (v) + E_ (l) \
+Tali termini sono i contributi energetici che caratterizzano la dinamica della molecola biatomica, e nello specifico sono:
+* Il contributo elettronico, dato dal termine E_ (R) di V_\mathrm (R_M), definisce la profondità V_\mathrm (\infty) - V_\mathrm (R_M) della buca di potenziale generata dai due nuclei, responsabile del legame chimico.
+I livelli energetici associati a questo termine sono detti superfici adiabatiche, e corrispondono ai diversi stati energetici degli elettroni.
+Gli elettroni che vengono promossi da un orbitale ad un altro, ad esempio da un orbitale di legame ad uno di antilegame, effettuano una transizione tra due valori V_\mathrm' e V_\mathrm del potenziale adiabatico.
+Tali transizioni sono dell'ordine di 10 eV, e a differenti superfici adiabatiche corrispondono anche diversi valori di R_M. Le transizioni elettroniche tra due di tali superfici sono inoltre accompagnate da transizioni tra diversi stati vibrazionali e rotazionali.
+* Il contributo vibrazionale, meno energetico del precedente, nell'approssimazione di moto armonico fornita dall'esclusione dei termini superiori al secondo ordine nel precedente sviluppo di V_\mathrm (R) è dato dagli autovalori dell'oscillatore armonico quantistico:
+E_ (v)
+\hbar \omega \left (v +\frac \right) \qquad
+0,1,2,...
+dove \hbar è la costante di Planck e \omega la frequenza angolare dell'oscillazione intorno a R_M.
+La frequenza è data da:
+\omega = \sqrt
+con
+k = \left ( \frac\right)_
+e \mu la massa ridotta dell'oscillatore a due corpi, data dal rapporto tra il prodotto e la somma delle masse dei due nuclei.
+Tale contributo descrive il moto armonico dei due nuclei intorno alla posizione di equilibrio, e transizioni tra due livelli vibrazionali sono dell'ordine del decimo di eV.
+* Il contributo rotazionale, il meno energetico dei tre, è fornito dall'equazione angolare dell'atomo di idrogeno, pari a:
+E_ (l)
+\frac
+\frac
+\ \ \ \ \ l=0,1,2,...
+dove l è il momento angolare orbitale e I = \mu R_M^2 il momento d'inerzia.
+Tale contributo è generalmente dell'ordine dei meV, ed è calcolato assumendo R = R_M.
+In conclusione, quindi, l'energia interna di una molecola biatomica è:
+E =V_\mathrm (R_M) + \hbar \omega \left (v +\frac \right) + \frac
+dove i termini sono elencati in ordine di importanza.
+Moti interni nelle molecole poliatomiche
+Nelle molecole poliatomiche il calcolo dello spettro energetico può essere molto complesso.
+Le simmetrie della molecola giocano spesso un ruolo determinante al fine di ottenere gli autovalori dell'energia vibrazionale e rotazionale.
+Moto vibrazionale
+Nelle molecole poliatomiche l'energia cinetica data dal moto vibrazionale è espressa come:
+T_v = \frac\sum_\alpha m_\alpha (\dot x^2_\alpha + \dot y^2_\alpha + \dot z^2_\alpha)
+dove le coordinate cartesiane sono le posizioni del nucleo α-esimo rispetto alla posizione di equilibrio.
+Utilizzando coordinate mass-weighted:
+q_ = \sqrt m_i x_j
+è possibile definire la matrice \mathbf U di elementi:
+\left ( \frac \right)
+\left ( \frac \right)
+E quindi, come nelle molecole biatomiche, l'energia vibrazionale può essere espressa come:
+E_ = V_\mathrm (R_) + \frac \mathbf q^T \mathbf U \mathbf
+dove \mathbf q è il vettore che ha per componenti q_
+Le equazioni del moto sono date dal sistema di equazioni differenziali:
+\mathbf = - \mathbf U \mathbf q
+Ogni atomo vibra con la stessa frequenza angolare, e tali frequenze sono dette modi normali di vibrazione, che si ottengono dalle radici dell'equazione caratteristica per la matrice \mathbf U:
+\det (u_ - \lambda \delta_) = 0 \
+Moto rotazionale
+Considerando la molecola un corpo rigido, è possibile definire il momento d'inerzia attorno a un asse a come:
+I_a = \sum_\alpha m_\alpha r^2_\alpha
+Gli assi d'inerzia di una molecola sono tre, e i rispettivi momenti d'inerzia sono I_a, I_b, I_c.
+Se I_a \ne I_b \ne I_c, il corpo rigido è detto asymmetrical top, se I_a
+I_b \ne I_c è detto symmetrical top, mentre se I_a
+I_b
+I_c è detto spherical top.
+All'interno dei corpi rigidi symmetrical top, se I_a
+I_b
+\langle v'l'm' |d_z |vlm\rangle = \int g_ (r)d (r)g_ (r)dr \int Y_^* (\theta,\phi)Y_ (\theta,\phi)\cos \theta \sin\theta d\theta d\phi
+dove |vlm\rangle sono gli autostati simultanei dell'energia vibrazionale e rotazionale.
+Lo stesso accade per le componenti x e y.
+Dalle proprietà delle armoniche sferiche e dallo sviluppo di d (r) attorno alla distanza di equilibrio si ottengono le regole di selezione:
+\Delta l
+\pm 1 \qquad \Delta m
+0, \pm 1 \qquad \Delta v = 0, \pm
+che definiscono le transizione permesse tra autostati dell'operatore associato all'osservabile dipolo elettrico.
+Spettro nelle molecole poliatomiche
+L'operatore di momento dipolare elettronico di una molecola poliatomica è dato da:
+\mathbf = \mu_a \mathbf e_a + \mu_b \mathbf e_b + \mu_c \mathbf e_c
+in cui \mathbf e_i sono i versori degli assi d'inerzia.
+Il momento di dipolo elettrico diventa:
+\mathbf
+\langle |\mu_a \mathbf e_a + \mu_b \mathbf e_b + \mu_c \mathbf e_c | \psi_ \psi_ \rangle
+\langle \psi_'
+| \mu_a | \psi_ \rangle \langle \psi_' | \mathbf e_a | \psi_ \rangle + \dots
+Detto \mathbf il vettore delle coordinate normali, le cui componenti sono:
+Q_i = \sum_^ R_
+q_\alpha
+ed espandendo in serie di Taylor \mu (Q_1,\dots Q_) attorno alla posizione di equilibrio:
+\mathbf = \mu_\langle \psi_'| \psi_ \rangle + \sum_^ \left ( \frac \right)\langle \psi_'|Q_i| \psi_ \rangle
+si ottengono i due termini che generano le transizioni.
+Le transizioni dovute al primo termine del secondo membro sono nella regione delle microonde dello spettro, mentre le transizioni dovute al secondo termine nell'infrarosso.
+Il secondo termine fornisce inoltre le regole di selezione relative all'osacillatore armonico corrispondente:
+\Delta v_i = \pm
+Per quanto riguarda lo spettro rotazionale, si ha che gli spherical top ed i symmetrical top planari hanno dipolo nullo, e pertanto non generano transizioni di dipolo.
+Nel caso di symmetrical top non planari, il dipolo è diretto lungo l'asse di simmetria, e le transizioni tra autostati degli operatori L, L_z ed L_c sono rispettivamente:
+\Delta L
+\pm 1 \qquad \Delta M
+e si rilevano nella regione delle microonde dello spettro.
+Spettro elettronico
+Una transizione elettronica molecolare consiste in una transizione da parte dell'elettrone tra due superfici adiabatiche.
+Tali transizioni sono simili a quelle atomiche, e consistono nella promozione di un elettrone da un orbitale molecolare ad un altro orbitale vuoto.
+Le regole di selezione si ricavano osservando che l'operatore di spin totale:
+\mathbf S = \sum_i s_i
+commuta con l'hamiltoniana elettronica e con \mathbf, l'operatore di dipolo non agisce sullo spin, e pertanto si ha che \Delta \mathbf S
+Per l'operatore di momento angolare nelle molecole biatomiche:
+L_z = \sum_i L_ \
+solo la componente lungo l'asse z commuta con d_z, ottenendo che \Delta M
+, mentre per le altre due componenti si ricava che \Delta M
+\pm
+In definitiva si ha:
+\Delta M = 0, \pm
+Il principio di Franck Condon
+Il principio di Franck Condon afferma la probabilità associata ad una transizione vibrazionale, data da:
+\left\langle \psi'\right|\mathbf \left|
+\psi \right\rangle
+\int
+\mathbf \psi d\tau
+aumenta all'aumentare della sovrapposizione delle funzioni d'onda dei rispettivi stati iniziale e finale.
+Questo comporta che i livelli vibrazionali associati allo stato finale sono favoriti nel momento in cui la transizione comporta un cambiamento minimo nelle coordinate nucleari.
+Una conseguenza del principio è che, ad esempio, come mostrato nella figura a sinistra, se le funzioni d'onda tra lo stato fondamentale della superficie adiabatica iniziale e il secondo stato eccitato della superficie adiabatica finale si sovrappongono, tale transizione è più probabile delle altre dal momento che minimizza la variazione delle coordinate dei nuclei.
+Note

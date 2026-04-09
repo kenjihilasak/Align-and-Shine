@@ -1,0 +1,19 @@
+Asymptote
+Une asymptote à la courbe représentative d'une fonction est une droite qui se rapproche infiniment de la courbe sans jamais l'atteindre.
+La fonction inverse
+L'équation de l'asymptote est calculée à partir de limites.
+Prenons un exemple: la fonction inverse : f:x→1x{\displaystyle f:x\rightarrow {\frac {1}{x}}} :
+Sur le graphique, on voit que la courbe se rapproche de l'axe des abscices.
+On dit alors que la droite d'équation y=0{\displaystyle y=0} est asymptote horizontale à la courbe représentative de la fonction f{\displaystyle f}.
+De même on voit que la courbe se rapproche de l'axe des ordonnées sans le toucher.
+La droite d'équation
+x=0{\displaystyle x=0} est asymptote verticale à la courbe représentative de la fonction f{\displaystyle
+f}.
+Autre exemple : considérons la fonction g{\displaystyle g} définie par g(x)=x+2x+2+1{\displaystyle g(x)=x+{\frac {2}{x+2}}+1}.
+Sa courbe possède deux asymptotes d'équations y=x+1{\displaystyle y=x+1} (asymptote oblique) et x=2{\displaystyle x=2} (asymptote verticale).
+Soit f{\displaystyle f} une fonction et on note Cf{\displaystyle {\mathcal {C}}_{f}}
+sa courbe représentative.
+Dans le cas où la limite en +∞{\displaystyle +\infty } ou en −∞{\displaystyle -\infty } est l{\displaystyle l}, on dit que la droite d'équation y=l{\displaystyle y=l} est une asymptote horizontale à la courbe Cf{\displaystyle {\mathcal {C}}_{f}}.
+Dans le cas où la limite en a{\displaystyle a} est +∞{\displaystyle +\infty } ou −∞{\displaystyle -\infty }, on dit que la droite d'équation x=a{\displaystyle x=a} est une asymptote verticale à la courbe Cf{\displaystyle {\mathcal {C}}_{f}}.
+Si f{\displaystyle f} est telle que limx→±∞[f(x)−(ax+b)]=0{\displaystyle \lim \limits _{x\to \pm \infty }[f(x)-(ax+b)]=0}, on dit alors que la droite d'équation y=ax+b{\displaystyle y=ax+b}
+est une asymptote oblique à la courbe représentative Cf{\displaystyle {\mathcal {C}}_{f}} en ±∞{\displaystyle \pm \infty }.

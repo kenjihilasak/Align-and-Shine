@@ -1,0 +1,165 @@
+El correo electrónico (en inglés: electronic mail, comúnmente abreviado e-mail o email) es un servicio de red que permite a los usuarios enviar y recibir mensajes mediante redes de comunicación electrónica.
+El término «correo electrónico» proviene de la analogía con el correo postal: ambos sirven para enviar y recibir mensajes, y se utilizan «buzones» intermedios (servidores de correo).
+Por medio del correo electrónico se puede enviar no solamente texto, sino todo tipo de archivos digitales, si bien suelen existir limitaciones al tamaño de los archivos adjuntos.
+Los sistemas de correo electrónico se basan en un modelo de almacenamiento y reenvío, de modo que no es necesario que ambos extremos se encuentren conectados simultáneamente.
+Para ello se emplea un servidor de correo que hace las funciones de intermediario, guardando temporalmente los mensajes antes de enviarse a sus destinatarios.
+En Internet, existen multitud de estos servidores, que incluyen a empresas, proveedores de servicios de internet y proveedores de correo tanto libres como de pago.
+Origen del correo electrónico
+El correo electrónico es anterior a la creación de Internet.
+El primer antecedente data de 1962, cuando el Massachusetts Institute of Technology adquirió una computadora de tiempo compartido modelo IBM 7090 (actualizado en 1963 a un IBM 7094) que permitía a varios usuarios iniciar sesión desde terminales remotas, y así guardar archivos en el disco.
+Este sistema se utilizó informalmente para intercambiar mensajes, pero ya en 1965 se desarrolló el servicio MAIL, que facilitaba el envío de mensajes entre los usuarios de esta máquina.
+El primer mensaje de correo electrónico genuinamente enviado a través de una red data del año 1971.
+El mensaje, que contenía únicamente el texto «QWERTYUIOP», se envió a través de la red ARPANET, aunque las máquinas estaban físicamente una junto a la otra.
+La idea del correo electrónico sobre redes se debe a Ray Tomlinson, quien utilizó el protocolo experimental CYPNET para enviar por red los mensajes, que hasta ese momento solo comunicaban a los usuarios de una misma computadora.
+Fue así mismo Tomlinson quien incorporó el uso de la arroba (@) como divisor entre el usuario y la computadora en la que se aloja la cuenta del usuario de destino.
+Anteriormente no había necesidad de especificar la máquina de destino puesto que todos los mensajes que se enviaban eran locales; sin embargo, con el nuevo sistema era preciso distinguir el correo local del correo de red.
+El motivo de elegir este símbolo fue que en inglés la arroba se lee «at» (en español en).
+Así, la dirección ejemplo@máquina.com se lee ejemplo en máquina punto com.
+En 1977, el correo electrónico se convirtió en un servicio de red estandarizado, gracias a diversos estándares parciales, que culminaron con la especificación RFC 733.
+Direcciones de correo electrónico
+Para poder enviar o recibir mensajes de un correo electrónico es necesario disponer de una cuenta de correo.
+Dicha cuenta es un buzón virtual identificado por una dirección de correo electrónico de la forma «Juan.
+Nadie@ ».
+Cada dirección se compone de una parte local (en este caso Juan.
+Nadie), el símbolo separador @ y una parte que identifica un dominio (en este caso ).
+Existen diversos modos de obtener una cuenta de correo electrónico:
+* las empresas y administraciones suelen proporcionar una cuenta de correo corporativo a sus empleados.
+* los centros educativos, especialmente los universitarios, hacen lo propio con empleados y alumnos.
+* en el ámbito doméstico, los proveedores de servicios de internet suelen facilitar una o varias cuentas por cada contrato.
+* existen proveedores de correo que proporcionan este servicio a cambio de una cuota.
+* finalmente, es posible obtener gratuitamente una cuenta de correo en servicios tales como GMail, Yahoo Mail, y muchos otros.
+Funcionamiento
+En el ejemplo ficticio descrito por la figura, Ana (ana@ ) envía un correo electrónico a Bea (bea@ ).
+Cada una de ellas tiene su cuenta de correo electrónico en un servidor distinto (una en , otra en ), pero estos se pondrán en contacto para transferir el mensaje.
+Secuencialmente, son ejecutados los siguientes pasos:
+# Ana escribe el correo con la ayuda de su cliente de correo electrónico.
+Cuando envía el mensaje, el programa hace contacto con el servidor de correo usado por Ana (en este caso, ).
+Se comunica usando un lenguaje conocido como protocolo SMTP.
+Le transfiere el correo, y le da la orden de enviarlo.
+# El servidor debe entregar un correo a un usuario del dominio , pero no sabe con qué ordenador tiene que conectarse.
+Para ello, efectúa una consulta al servidor DNS de su red, usando el protocolo DNS, y le pregunta qué servidor es el encargado de gestionar el correo del dominio .
+Técnicamente, le está preguntando el registro MX asociado a ese dominio.
+# Como respuesta a esta petición,
+el servidor DNS contesta con el nombre de dominio del servidor de correo de Bea.
+En este caso es ; que en este caso en particular es un servidor gestionado por el proveedor de Internet de Bea.
+El servidor SMTP ( ) ya puede conectarse con y transferirle el mensaje, que quedará guardado en este ordenador.
+Se usa otra vez el protocolo SMTP.
+# Posteriormente
+, cuando Bea inicie su programa cliente de correo electrónico, su ordenador inicia una conexión, mediante el protocolo POP3 o IMAP, al servidor que guarda los correos nuevos que le han llegado.
+Este ordenador ( ) es el mismo que el del paso anterior ( ), ya que se encarga tanto de recibir correos del exterior como de entregárselos a sus usuarios.
+En el esquema, Bea se descarga el mensaje de Ana mediante el protocolo POP3.
+Esta es la secuencia básica, pero pueden darse varios casos especiales:
+* Si ambas cuentas de correo están en la misma red, como una Intranet de una empresa o el mismo servidor de correo: en estos casos el mensaje no se envía de un servidor a otro porque ambos son el mismo.
+En el primero de los casos ni siquiera atravesará la red Internet.
+* Ana podría tener instalado un servidor SMTP en su propio ordenador, de forma que el paso 1 se haría en su mismo ordenador.
+De la misma forma, Bea podría tener su servidor de correo en el propio ordenador.
+* Una persona puede no usar un cliente de correo electrónico, sino un cliente de correo con interfaz web.
+El proceso es casi el mismo, pero se usan conexiones HTTP para acceder al correo de cada usuario en vez de usar SMTP o IMAP/POP3.
+* Normalmente existe más de un servidor de correo (MX) disponible de respaldo, para que aunque uno falle, se siga pudiendo recibir correo.
+* En los comienzos de Internet era habitual que los servidores estuvieran configurados como open relay (relé abierto), es decir, que transmitían mensajes de cualquier usuario y no solo de remitentes o destinatarios conocidos.
+Sin embargo este tipo de funcionamiento ha caído en desuso, ya que facilitaban la difusión del spam, y de hecho los estándares desaconsejan su uso.
+Escritura del mensaje
+No se pueden mandar mensajes entre computadores personales o entre dos terminales de una computadora central.
+Los mensajes se archivan en un buzón (una manera rápida de mandar mensajes).
+Cuando una persona decide escribir un correo electrónico, su programa (o correo web) le pedirá como mínimo tres cosas:
+* Destinatario: una o varias direcciones de correo a las que ha de llegar el mensaje
+* Asunto: una descripción corta que verá la persona que lo reciba antes de abrir el correo
+* El propio mensaje.
+Puede ser sólo texto, o incluir formato, y no hay límite de tamaño.
+Además, se suele dar la opción de incluir archivos adjuntos al mensaje.
+Esto permite traspasar datos informáticos de cualquier tipo mediante el correo electrónico.
+Para especificar el destinatario del mensaje, se escribe su dirección de correo en el campo llamado Para dentro de la interfaz (ver imagen de arriba).
+Si el destino son varias personas, normalmente se puede usar una lista con todas las direcciones, separadas por comas o punto y coma.
+Además del campo Para existen los campos CC y CCO, que son opcionales y sirven para hacer llegar copias del mensaje a otras personas:
+* Campo CC (Copia de Carbón): quienes estén en esta lista recibirán también el mensaje, pero verán que no va dirigido a ellos, sino a quien esté puesto en el campo Para.
+Como el campo CC lo ven todos los que reciben el mensaje, tanto el destinatario principal como los del campo CC pueden ver la lista completa.
+* Campo CCO (Copia de Carbón Oculta): una variante del CC, que hace que los destinatarios reciban el mensaje sin aparecer en ninguna lista.
+Por tanto, el campo CCO nunca lo ve ningún destinatario.
+Un ejemplo:
+Ana escribe un correo electrónico a Beatriz (su profesora), para enviarle un trabajo.
+Sus compañeros de grupo, Carlos y David, quieren recibir una copia del mensaje como comprobante de que se ha enviado correctamente, así que les incluye en el campo CC.
+Por último, sabe que a su hermano Esteban también le gustaría ver este trabajo aunque no forma parte del grupo, así que le incluye en el campo CCO para que reciba una copia sin que los demás se enteren.
+Entonces:
+* Beatriz recibe el mensaje dirigido a ella (sale en el campo Para), y ve que Carlos y David también lo han recibido
+* Carlos recibe un mensaje que no va dirigido a él, pero ve que aparece en el campo CC, y por eso lo recibe.
+En el campo Para sigue viendo a Beatriz
+* David, igual que Carlos, ya que estaban en la misma lista (CC)
+* Esteban recibe el correo de Ana, que está dirigido a Beatriz.
+Ve que Carlos y David también lo han recibido (ya que salen en el CC), pero no se puede ver a él mismo en ninguna lista, cosa que le extraña.
+Al final, supone que es que Ana le incluyó en el campo CCO.
+*Campo Reply-To (responder) Dirección dónde el emisor quiere que se le conteste.
+Muy útil si el emisor dispone de varias cuentas.
+* Campo Date (fecha, y hora, del mensaje) Fecha y hora de cuando se envío del mensaje.
+Si el sistema que envía el mensaje tiene la fecha y/u hora equivocadas, puede generar confusión.
+Otros campos, menos importantes son:
+La cabecera del mensaje normalmente, se muestra resumida.
+Para ver todos los detalles bastará con expandir, mediante la opción oportuna, dicha cabecera.
+Proceso de envío de correo electrónico
+Si el usuario quiere, puede almacenar los mensajes que envía, bien de forma automática (con la opción correspondiente), o bien sólo para los mensajes que desee.
+Estos mensajes quedan guardados en un directorio o carpeta reservada para mensajes enviados en el ordenador del usuario.
+Recepción
+Cuando una persona recibe un mensaje de correo electrónico puede verse en la denominada bandeja de entrada un resumen de éste:
+* Remitente (o De o De: o From o From:-en inglés-): este campo indica quién envía el mensaje.
+Puede aparecer el nombre o apodo de la persona o entidad remitente.
+Si quien envía el mensaje no ha configurado su programa o correo web al respecto aparecerá su dirección de correo electrónico, solamente.
+* Asunto: en este campo se ve el tema que trata el mensaje (o lo que el remitente de él desee).
+Si quien envía el mensaje ha dejado esta casilla en blanco pudieran aparecer textos como ninguno o sin asunto.
+** Si el mensaje es una respuesta el asunto suele empezar por RE: o Re: (abreviatura de responder o reply -en inglés-, seguida de dos puntos).
+Aunque según de dónde proceda el mensaje pueden aparecer An: (del alemán antwort), Sv: (del sueco svar), etc.
+** Cuando el mensaje procede de un reenvío el asunto suele comenzar por RV: (abreviatura de reenviar) o Fwd: (del inglés forward), aunque a veces empieza por Rm: (abreviatura de remitir)
+* Fecha: esta casilla indica cuándo fue enviado el mensaje o cuándo ha llegado a la bandeja de entrada del receptor.
+Puede haber dos casillas que sustituyan a este campo, una para indicar la fecha y hora de expedición del mensaje y otra para expresar el momento de su recepción.
+Además pueden aparecer otras campos como:
+* Tamaño: indica el espacio que ocupa el mensaje y los fichero (s) adjunto (s) si existe (n).
+* Destinatarios (o Para o Para: o To o To: -en inglés-): muestra a quiénes se envió el mensaje.
+* Datos adjuntos: si aparece una marca (habitualmente un clip) significa que el mensaje viene con uno o varios ficheros anexos.
+* Prioridad: expresa la importancia o urgencia del mensaje según el remitente (alta -se suele indicar con un signo de exclamación-, normal -no suele llevar marca alguna- o baja -suele indicarse con una flecha apuntando para abajo-)
+* Marca (de seguimiento): si está activada (por ejemplo mostrando una bandera) indica que hay que tener en cuenta este mensaje (previamente lo ha marcado la persona que lo ha recibido).
+* Inspeccionar u omitir: haciendo clic en este campo (o su equivalente) se puede marcar el mensaje para inspeccionarlo (suelen aparecer el símbolo de unas gafas en la casilla y ponerse de color llamativo -normalmente rojo- las letras de los demás campos).
+Al hacer otro clic en este campo se puede marcar para omitirlo (suele aparecer el símbolo de "prohibido el paso" en este campo y ponerse en un tono suave -normalmente gris- las letras de las demás casillas).
+Pinchando una vez más volvemos a dejar el mensaje sin ninguna de las dos marcas mencionadas
+* Cuenta: Si utilizamos un cliente de correo electrónico configurado con varias cuentas de correo, esta casilla indica a cuál de ellas ha llegado el mensaje en cuestión.
+Los mensajes recibidos pero sin haber sido leídos aún suelen mostrar su resumen en negrillas.
+Después de su lectura figuran con letra normal.
+A veces si seleccionamos estos mensajes sin abrirlos, puede observarse una previsualización de su contenido.
+Si el destinatario desea leer el mensaje tiene que abrirlo (normalmente haciendo (doble) clic sobre el contenido de su asunto con el puntero del ratón).
+Entonces el receptor puede ver un encabezado arriba seguido por el cuerpo del mensaje.
+En la cabecera del mensaje aparecen varias o todas las casillas arriba mencionadas (salvo las primeras palabras del cuerpo del mensaje).
+Los ficheros adjuntos, si existen, pueden aparecer en el encabezado o debajo del cuerpo del mensaje.
+Una vez que el destinatario ha recibido (y, normalmente, leído) el mensaje puede hacer varias cosas con él.
+Normalmente los sistemas de correo (tanto programas como correo web) ofrecen opciones como:
+* Responder: escribir un mensaje a la persona que ha mandado el correo (que es sólo una).
+Existe la variante Responder a todos, que pone como destinatarios tanto al que lo envía como a quienes estaban en el campo CC
+* Reenviar (o remitir): pasar este correo a una tercera persona, que verá quién era el origen y destinatario original, junto con el cuerpo del mensaje.
+De forma opcional se puede añadir más texto al mensaje o borrar los encabezados e incluso el cuerpo de anteriores envíos del mensaje.
+* Marcar como correo no deseado (spam): separar el correo y esconderlo para que no moleste, de paso instruyendo al programa para que intente detectar mejor mensajes parecidos a éste.
+Se usa para evitar la publicidad no solicitada.
+* Archivar: guardar el mensaje en el ordenador, pero sin borrarlo, de forma que se pueda consultar más adelante.
+Esta opción no está en forma explícita, ya que estos programas guardan los mensajes automáticamente.
+* Borrar: Se envía el mensaje a una carpeta Elementos eliminados que puede ser vaciada posteriormente.
+* Mover a carpeta o Añadir etiquetas: algunos sistemas permiten catalogar los mensajes en distintos apartados según el tema del que traten.
+Otros permiten añadir marcas definidas por el usuario (ej: "trabajo", "casa", etc.).
+Problemas
+El principal problema actual es el correo no deseado, que se refiere a la recepción de correos no solicitados, normalmente de publicidad engañosa, y en grandes cantidades, promoviendo pornografía y otros productos y servicios de calidad sospechosa.
+Usualmente los mensajes indican como remitente del correo una dirección falsa.
+Por esta razón, es más difícil localizar a los verdaderos remitentes, y no sirve de nada contestar a los mensajes de correo no deseado: las respuestas serán recibidas por usuarios que nada tienen que ver con ellos.
+Por ahora, el servicio de correo electrónico no puede identificar los mensajes de forma que se pueda discriminar la verdadera dirección de correo electrónico del remitente, de una falsa.
+Esta situación que puede resultar impactante en un primer momento, es semejante por ejemplo a la que ocurre con el correo postal ordinario: nada impide poner en una carta o postal una dirección de remitente aleatoria: el correo llegará en cualquier caso.
+No obstante, hay tecnologías desarrolladas en esta dirección: por ejemplo el remitente puede firmar sus mensajes mediante criptografía de clave pública.
+Además del correo no deseado, existen otros problemas que afectan a la seguridad y veracidad de este medio de comunicación:
+* los virus informáticos, que se propagan mediante ficheros adjuntos infectando el ordenador de quien los abre
+* la suplantación de identidad, que es correo fraudulento que generalmente intenta conseguir información bancaria
+* los bulos (bromas, burlas, o hoax), que difunden noticias falsas masivamente
+* las cadenas de correo electrónico, que consisten en reenviar un mensaje a mucha gente; aunque parece inofensivo, la publicación de listas de direcciones de correo contribuye a la propagación a gran escala del correo no deseado y de mensajes con virus, suplantadores de identidad y engaños.
+Pérdida progresiva de la privacidad
+Desde 2014, los principales proveedores de correo web como Google o Yahoo exigen como requisito proveer datos personales como un número de teléfono obligatorio o una dirección de correo alternativa obligatoria para así impedir las altas anónimas o de personas que no puedan tener acceso a la compra de un teléfono móvil.
+Servicios de correo electrónico
+Principales proveedores de servicios de correo electrónico gratuito:
+Los servicios de correo de pago los suelen dar las compañías de acceso a Internet o los registradores de dominios.
+También hay servicios especiales, como Mailinator, que ofrece cuentas de correo temporales (caducan en poco tiempo) pero que no necesitan registro.
+Programas para leer y organizar correo
+Programas servidores de correo
+Son programas usados por un ordenador para proporcionar el servicio a los clientes (por lo que se llama un servidor de correo), que podrán usarlo mediante un cliente de correo.
+También existen otros programas para dar el servicio de correo web.
+Véase también
+Principales protocolos usados en el correo electrónico:

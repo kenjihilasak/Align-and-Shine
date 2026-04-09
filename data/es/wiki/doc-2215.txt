@@ -1,0 +1,59 @@
+Byte (B) (pronunciada: o ) es la unidad de información de base utilizada en computación y en telecomunicaciones, y que resulta equivalente a un conjunto ordenado de bits (generalmente 8 bits,
+por lo que en español también se le denomina octeto, aunque esta palabra es más bien derivada del francés octet, que hubieron de idear en dicho idioma para evitar byte, por el parecido de esta palabra con el vocablo vulgar bite, que significa «miembro viril»).
+La unidad byte no tiene símbolo establecido internacionalmente, aunque en países anglosajones es frecuente representarlo como B, mientras que en los países francófonos con frecuencia se utiliza o (de octet).
+Visión general
+Se usa como unidad de información digital en combinación con los prefijos del SI o los prefijos binarios.
+Definición
+Byte proviene de bite (en inglés «mordisco»), como la cantidad más pequeña de datos que una computadora podía «morder» a la vez.
+El cambio de letra no solo redujo la posibilidad de confundirlo con bit, sino que también era consistente con la afición de los primeros científicos en computación en crear palabras y cambiar letras.
+Sin embargo, en los años 1960, en el Departamento de Educación de IBM del Reino Unido se enseñaba que un bit era un Binary digIT y un byte era un BinarY TuplE. Un byte también se conocía como «un byte de 8 bits», reforzando la noción de que era una tupla de n bits y que se permitían otros tamaños.
+# Es una secuencia contigua de bits en un flujo de datos serie, como en comunicaciones por módem o satélite, o desde un cabezal de disco duro, y es la unidad de datos más pequeña con significado.
+Estos bytes pueden incluir bits de inicio, parada o paridad, y según los casos, podrían contener de 7 a 12 bits, para así contemplar todas las posibilidades del código ASCII de 7 bits, o de extensiones de dicho código.
+# Es un tipo de datos o un sinónimo en ciertos lenguajes de programación.
+En el lenguaje C por ejemplo, se define byte como la "unidad de datos de almacenamiento direccionable lo suficientemente grande como para albergar cualquier miembro del juego de caracteres básico del entorno de ejecución" (cláusula 3.6 del C estándar).
+En C, el tipo de datos unsigned char es tal que al menos debe ser capaz de representar 256 valores distintos (cláusula 5.2.4.2.1).
+La primitiva de Java byte está siempre definida con 8 bits siendo un tipo de datos con signo, tomando valores entre -128 y 127.
+Comparativa
+De una forma aproximada, las equivalencias entre bytes y objetos reales son
+Historia
+Werner Buchholz
+El término «byte» fue acuñado por Werner Buchholz en 1957 durante las primeras fases de diseño del IBM 7030 Stretch.
+Originalmente fue definido en instrucciones de 4 bits, permitiendo desde uno hasta dieciséis bits en un byte (el diseño de producción redujo este hasta campos de 3 bits, permitiendo desde uno a ocho bits en un byte).
+Los equipos típicos de entrada y salida de este periodo utilizaban unidades de seis bits, pero tras la necesidad de agregar letras minúsculas, así como una mayor cantidad de símbolos y signos de puntuación, se tuvieron que idear otros modelos con mayor cantidad de bits.
+Un tamaño fijo de byte de 8 bits se adoptó posteriormente y se promulgó como un estándar por el IBM S/360.
+Visión detallada
+Controversias
+Originalmente el byte fue elegido para ser un submúltiplo del tamaño de palabra de un ordenador, desde cinco a doce bits.
+La popularidad de la arquitectura IBM S/360 que empezó en los años 1960 y la explosión de las microcomputadoras basadas en microprocesadores de 8 bits en los años 1980 ha hecho obsoleta la utilización de otra cantidad que no sean 8 bits.
+Los bytes de 8 bits se integran firmemente en estándares comunes como Ethernet y HTML.
+Sin embargo, en la historia otras computadoras han tenido bytes cuyo valor no era de 8 bits, por ejemplo:
+* La serie CDC 6000 de mainframes científicas dividió sus palabras de 60 bits de punto flotante en 10 bytes de seis bits, estos bytes convenientemente colocados forman los datos Hollerith de las tarjetas perforadas, típicamente el alfabeto de mayúsculas y los dígitos decimales, el CDC también se refería a cantidades de 12 bits como bytes, cada una albergando dos caracteres de 6 bits, debido a la arquitectura de E/S de 12 bits de la máquina.
+* El PDP-10 utilizaba instrucciones de ensamblado LDB y DPB para extraer o componer bytes del tamaño arbitrario (entre 1 bit y 36 bits) de sus palabras de 36 bits, estas operaciones sobreviven hoy en el Common Lisp.
+* Los ordenadores del UNIVAC 1100/2200 series (ahora Unisys) direccionaban los campos de datos de 6 bits y en modo ASCII de 9 bits modes con su palabra de 36 bits.
+Bit
+El IEEE 1541 especifica «b» (minúscula) como el símbolo para bit.
+Sin embargo la IEC 60027 y el MIXF especifican «bit» (por ejemplo Mbit para megabit), teniendo la máxima desambiguación posible de byte.
+Octeto
+El término «octeto» (octet en francés, derivado del latín octo y del griego okto, que significa 'ocho') se utiliza ampliamente como un sinónimo preciso donde la ambigüedad es indeseable (por ejemplo, en definiciones de protocolos).
+Los bytes de 8 bits a menudo se llaman "octetos" en contextos formales como los estándares industriales, así como en redes informáticas y telecomunicaciones para evitar confusiones sobre el número de bits implicados.
+Un octeto es también la palabra utilizada para la cantidad de ocho bits en muchas lenguas diferentes del inglés.
+Los países francófonos utilizan una "o" minúscula para "octeto": es posible referirse a estas unidades indistintamente como ko, Mo, o kB, MB.
+Esto no se permite en el SI por el riesgo de confusión con el cero, aunque esa es la forma empleada en la versión francesa del estándar ISO/IEC 80000-13:2008.
+Múltiplos del byte
+Los prefijos utilizados para los múltiplos del byte normalmente son los mismos que los prefijos del SI, también se utilizan los prefijos binarios, pero existen diferencias entre ellos, ya que según el tipo de prefijo utilizado los bytes resultantes tienen valores diferentes.
+Esto se debe a que los prefijos del SI se basan en base 10 (sistema decimal), y los prefijos binarios se basan en base 2 (sistema binario), por ejemplo:
+Múltiplos utilizando los prefijos del Sistema Internacional
+Múltiplos utilizando los prefijos ISO IEC 80000-13
+Los primeros prefijos desde kibi a exbi fueron definidos por la Comisión Electrotécnica Internacional (IEC) en diciembre de 1998, e incluidos en el IEC 60027-2 (Desde febrero del año 1999), posteriormente en el año 2005 se incluyeron zebi y yobi.
+Oficialmente, el padrón IEC especificaba que los prefijos del SI fueran usados solamente para múltiplos en base 10 (Sistema decimal) y nunca base 2 (Sistema binario).
+Otras definiciones
+La palabra byte también tiene otras definiciones:
+Unidades relacionadas
+Información fraccional y nibbles
+Los primeros microprocesadores, como el Intel 8008 (el predecesor directo del 8080 y el Intel 8086) podían realizar un número pequeño de operaciones en 4 bits, como la instrucción DAA (ajuste decimal) y el flag "half carry" que eran utilizados para implementar rutinas de aritmética decimal.
+Estas cantidades de cuatro bits se llamaron "nibbles" en honor al equivalente de 8 bits "bytes".
+A la mitad de un byte de ocho bits se llama nibble o un dígito hexadecimal.
+El nibble a menudo se llama semiocteto en redes o telecomunicaciones y también por algunas organizaciones de estandarización.
+Además, una cantidad de 2 bits se llama crumb, aunque raramente se utiliza.
+La información fraccional normalmente se mide en bits, nibbles, nats o bans, donde las últimas dos se utilizan especialmente en el contexto de la teoría de la información y no se utilizan en otros campos de la computación e investigación.
+Véase también

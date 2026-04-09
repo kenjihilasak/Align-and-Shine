@@ -1,0 +1,4 @@
+Le crible d'Eratosthène est un algorithme (une méthode)
+pour déterminer tous les nombres premiers plus petits qu'un entier donné.
+On peut vérifier qu'un nombre premier n'est divisible par aucun nombre premier qui lui est plus petit.
+On peut remarquer que l'on peut l'arrêter le test au dernier nombre premier plus petit ou égal à sa racine carrée.

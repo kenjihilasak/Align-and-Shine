@@ -1,0 +1,38 @@
+Codage des caractères
+Le codage des caractères sert à enregistrer ou transmettre du texte pour les télécommunications ou l'informatique.
+Il y a des codes assez anciens et qui peuvent être utilisés manuellement comme le code Morse.
+Ensuite, d'autres codes ont été mis au point pour les utilisations en informatique.
+Sommaire
+Le code Morse se fait à base de petits signaux longs ou courts.
+C'était le code du télégraphe et il était produit par des pressions longues et courtes sur un appareil.
+Le code ASCII est l'un des plus anciens codes utilisés pour représenter du texte en informatique.
+Il se base sur un tableau contenant les caractères les plus utilisés en langue anglaise : les lettres de l'alphabet en majuscule (de A à Z) et en minuscule (de a à z), les dix chiffres arabes (de 0 à 9), les signes de ponctuation (point, virgule, point-virgule, guillemet, parenthèses, etc.), quelques symboles et certains caractères spéciaux invisibles (espace, retour-chariot, tabulation, retour-arrière, etc.).
+Les créateurs de ce code ont limité le nombre de ses caractères à 128, c'est-à-dire 27 (2 puissance 7), pour qu'il puissent être codés avec seulement 7 bits (sept 0 ou 1) : les ordinateurs utilisaient des cases mémoire de un octet, mais ils réservaient toujours le 8e bit pour le contrôle de parité (c'est une sécurité pour éviter les erreurs, qui étaient très fréquentes dans les premières mémoires électroniques).
+Exemple :
+Le caractère A est codé en ASCII par le nombre 65 (dans notre système décimal habituel), qui correspond en binaire au nombre 1000001.
+Chaque caractère d'un texte codé en ASCII occupe alors un octet.
+Un texte de 5000 caractères occupe donc 5 ko.
+Exemple : La phrase Marie mange
+l'abricot mûr.
+a une taille de 26 octets (il faut compter les espaces, l'apostrophe et le point final bien sûr).
+L'expérience peut être faite en utilisant un éditeur de texte simple (comme gedit de GNOME ou le bloc-notes de Windows).
+Il suffit d'écrire le texte, puis de l'enregistrer et ensuite de vérifier la taille en octets du fichier obtenu (ce qui se fait le plus souvent en cliquant d'abord avec le bouton droit sur l'icône du fichier puis sur "Propriétés").
+Longtemps après, les mémoires devenant plus fiables et de nouvelles méthodes plus sûres que le contrôle de parité ayant été inventées, le code ASCII ne suffisait plus.
+En effet, il avait l'inconvénient très gênant de ne contenir que les lettres non accentuées, ce qui pouvait suffire en anglais, mais pas dans les autres langues (comme le français et l'espagnol par exemple).
+Il manquait aussi des caractères qui pouvaient être utiles comme ceux servant à fabriquer des bordures de tableaux (plus jolies que celles formées de points d'exclamation et de traits-d'union) etc.
+C'est pourquoi le code ASCII fut étendu sur 8 bits, ce qui permit d'obtenir un tableau de 256 caractères (28) au lieu de 128.
+Il apparut alors possible d'écrire des lettres comme é, è, ç, à, ù, ô, æ, œ, ñ, etc...
+Le bit de parité n'étant plus utilisé, les caractères d'un texte en ASCII étendu occupent toujours un octet, comme pour l'ASCII standard.
+Remarque :
+Les caractères utiles étant très différents et variés entre les langues (surtout celles n'utilisant pas l'alphabet latin), il a fallu en fait créer plusieurs extensions de l'ASCII.
+Ainsi, selon la page de code utilisée, les caractères de code 128 à 255 peuvent être complètement différents.
+Cela a été normalisé par l'ISO pour donner les codages occidental (ISO-8859-15) utilisé pour le français par exemple, arabe (ISO-8859-6), hébreux (ISO-8859-8), etc.
+Les nouvelles normes de codage du texte utilisent des standards universels.
+Dans UTF-8, les 128 premiers caractères sont identiques aux caractères
+ASCII
+et sont codés sur 8 bits (avec le bit le plus à gauche toujours à 0 bien sûr).
+Les caractères suivants par contre sont codés sur deux, trois ou quatre octets, ce qui permet d'avoir un plus grand nombre de possibilités qu'avec les codages précédents et permet d'englober tous les caractères qu'ils possèdent en un seul code.
+Ce codage est devenu un standard utilisé par la plupart des systèmes d'exploitation et des protocoles de communication.
+UTF-16 comme son nom l'indique est un codage de caractères utilisant un ou deux mots de 16 bits.
+UTF-8 est pour l'instant plus utilisé car, dans le cas des textes des langues latines en tout cas, il a l'avantage de coder la majorité des caractères sur un seul octet.
+↑Le texte simple enregistré par le bloc-notes n'est pas de l'ASCII standard, mais chaque caractère y occupe aussi 8 bits (c'est de l'ASCII étendu)

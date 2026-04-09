@@ -1,0 +1,34 @@
+Insieme
+In ambito matematico un insieme è una collezione di oggetti, detti elementi, elencati in modo che sia possibile stabilire con certezza la loro appartenenza all'insieme, in modo quindi oggettivo.
+Un insieme quindi è identificato, definito, dai suoi elementi.
+Quando un elemento a è un elemento dell'insieme A, si dice che a appartiene ad A, in simboli a ∈ A, quando invece un elemento b non è un elemento dell'insieme A, si dice che b non appartiene ad A, in simboli b ∉ A. Gli insiemi vengono indicati con le lettere maiuscole dell'alfabeto.
+Un insieme può essere rappresentato in diversi modi.
+Per elencazione, consiste nell'elencare gli elementi separati dalla virgola tra parentesi graffe.
+Viene usato preferenzialmente per gli insieme finiti, insiemi con gli elementi che si possono contare.
+Per caratteristica, in cui viene indicata la caratteristica che accomuna gli elementi di un insieme.
+A={x|x è un numero naturale}, si legge:
+A è l'insieme di tutti gli x tali che x è un numero naturale.
+Due insiemi A e B si dicono:
+Coincidenti, se sono lo stesso insieme.
+Questo si verifica se e solo se hanno gli stessi elementi.
+Disgiunti, se non hanno nessun elemento in comune.
+Per esempio A={c,o,n}{\displaystyle A=\{c,o,n\}} e B={p,e,r}{\displaystyle B=\{p,e,r\}}.
+Un insieme B è sottoinsieme di A se A contiene gli elementi di B. Secondo la definizione ogni insieme è contenuto in sé stesso.
+Per esprimere questo si usa la notazioneB⊆A{\displaystyle B\subseteq A}.
+Se abbiamo gli insiemi A={a,u,t,o}{\displaystyle A=\{a,u,t,o\}} e B={a,o}{\displaystyle B=\{a,o\}}, allora B⊆A{\displaystyle B\subseteq A}.
+La cardinalità di un insieme è il numero che indica la numerosità dei suoi elementi.
+Un insieme si dice finito se ha un numero finito di elementi, infinito se contiene infiniti elementi.
+L'insieme V={a,e,o,i,u}{\displaystyle V=\{a,e,o,i,u\}} ha cardinalità 5 e si indica con card(V)=5{\displaystyle card(V)=5}.
+L'insieme N{\displaystyle \mathbb {N} } dei numeri naturali N={1,2,3,4,...}{\displaystyle N=\{1,2,3,4,...\}} ha cardinalità infinita.
+L'insieme vuoto è l'insieme che non contiene nessun elemento.
+Si indica con i simboli ∅ Φ o con due parentesi graffe, la prima aperta e l'altra chiusa {}.
+L'insieme vuoto è sottoinsieme di qualsiasi altro insieme (incluso sé stesso).
+unione:
+dati due insiemi A e B la loro unione è l'insieme che contiene solo e tutti gli elementi di A e B presi una sola volta.
+L'unione si indica A ∪ B;
+intersezione:
+dati un insieme A e B la loro intersezione è l'insieme che contiene tutti gli elementi appartenenti ad A e a B nello stesso tempo.
+differenza simmetrica:
+dati due insiemi A e B la loro differenza simmetrica è l'insieme contenente gli elementi di A e non di B o gli elementi di B ma non di A.
+differenza tra B e A è l'insieme formato dai soli elementi di B che non appartengono ad A. Si indica con B \ A o con B - A.
+La differenza tra B e A viene anche detta insieme complementare di A in B.

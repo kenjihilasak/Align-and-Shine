@@ -1,0 +1,26 @@
+Terminologie du logiciel|Filtrage numérique
+En informatique, un filtre est un programme permettant d'effectuer des transformations sur les flux de données.
+La syntaxe des interpréteurs de commandes de la plupart des systèmes d'exploitation dispose du mécanisme appelé tubes qui permet cette technique.
+Les filtres reçoivent habituellement leurs données depuis l'entrée standard (stdin) et écrivent le résultat (c'est-à-dire les données traitées) sur la sortie standard (stdout).
+En enchainant les commandes, les filtres permettent d'obtenir des traitements très sophistiqués mais d'une utilité essentielles.
+Les interpréteurs de commande permettent d'obtenir les données depuis un périphérique ou d'un fichier plutôt que de l'entrée standard est l'opérateur de redirection du flux d'entrée, par exemple sous MS-DOS est disponible.
+Pour ajouter des données dans un fichier existant plutôt que de remplacer celle qu'il contient déjà, il est possible d'utiliser l'opérateur >>.
+Certaines interfaces graphiques autorisent les filtres pour que les utilisateurs puissent facilement mettre au point les traitements dont ils ont besoin, en particulier pour l'exploration de données.
+Exemples
+find "motclé" fichiersortie
+sort fichiersortie
+find /v fichiersortie
+De tels filtres peuvent utilisés dans les fichiers de commande .bat
+ou .cmd.
+Ces exemples sont également utilisables sur des systèmes UNIX.
+L'exemple suivant utilise le filtre paramétrable sed.
+L'entrée est la chaîne de caractères «
+Hello World
+Le traitement consiste à remplacer « World » par « Wikipédia ».
+echo "Hello World" | sed 's Wikipédia/'
+Cette commande produit la chaîne «
+Hello Wikipédia ».
+Voir aussi
+Articles connexes
+Exemples de filtres
+tdmxpdydzcdmgqnohjxecx7cctejtrm

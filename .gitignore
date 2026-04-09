@@ -6,10 +6,13 @@ data/**
 !data/*/.gitkeep
 !data/*/raw/
 !data/*/raw/.gitkeep
+!data/*/raw/**
 !data/*/wiki/
 !data/*/wiki/.gitkeep
+!data/*/wiki/**
 !data/*/viki/
 !data/*/viki/.gitkeep
+!data/*/viki/**
 !data/*/aligned/
 !data/*/aligned/.gitkeep
 runs/**

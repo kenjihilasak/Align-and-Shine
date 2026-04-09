@@ -1,0 +1,55 @@
+Una pantalla táctil (), en algunos lugares también llamada tóuch, es una pantalla que mediante un toque directo sobre su superficie permite la entrada de datos y órdenes al dispositivo, y a su vez muestra los resultados introducidos previamente; actúa como periférico de entrada y salida de datos, así como emulador de datos interinos erróneos al no tocarse efectivamente.
+Este contacto también se puede realizar por medio de un lápiz óptico o de otras herramientas similares.
+Hay pantallas táctiles que pueden instalarse sobre una pantalla común, de cualquier tipo o denominación (LCD, monitores y televisores CRT, plasma, etcétera).
+Las pantallas táctiles se volvieron comercialmente exitosas por su uso en dispositivos de la industria, en ordenadores públicos (como exposiciones de museos, pantallas de información, cajeros automáticos de bancos y otros) donde los teclados y los ratones no permiten una interacción satisfactoria, intuitiva, rápida, o exacta del usuario.
+Desde finales del siglo XX y especialmente en los comienzos del XXI, alcanzaron un uso habitual en la mayoría de los dispositivos con pantalla: por ejemplo, monitores de computadora, teléfonos móviles, tabletas.
+Historia
+Las pantallas táctiles se han ido haciendo populares desde la invención de la interfaz electrónica táctil, en 1971, por está generando la demanda y la aceptación de las pantallas táctiles.
+El HP-150 fue, en 1983, uno de los primeros ordenadores comerciales del mundo que disponía de pantalla táctil.
+En realidad, no tenía una pantalla táctil en el sentido propiamente dicho, sino una pantalla de tubo Sony de 9 pulgadas rodeada de transmisores y receptores infrarrojos que detectaban la posición de cualquier objeto no transparente sobre la pantalla.
+Las pantallas táctiles de última generación consisten en un cristal transparente donde se sitúa una lámina que permite al usuario interactuar directamente sobre esta superficie.
+Desarrollo y utilización
+La gran mayoría de las tecnologías de pantalla táctil significativas fueron patentadas durante las décadas de 1970 y 1980 y actualmente han expirado.
+Este hecho ha permitido que desde entonces los diseños de productos y componentes que utilizan dichas tecnologías no estén sujetos a royalties, lo que ha permitido que los dispositivos táctiles se hayan extendido más fácilmente.
+Con la creciente aceptación de multitud de productos con una pantalla táctil integrada, el coste marginal de esta tecnología ha sido rutinariamente absorbido en los productos que las incorporan, haciendo que prácticamente desaparezca.
+Como ocurre habitualmente con cualquier tecnología, el hardware y el software asociado a las pantallas táctiles ha alcanzado un punto de madurez suficiente después de más de tres décadas de desarrollo, lo que le ha permitido que actualmente tengan un grado muy alto de fiabilidad.
+Como tal, las pantallas táctiles pueden hallarse en la actualidad en aviones, automóviles, consolas, sistemas de control de maquinaria y dispositivos de mano de cualquier tipo.
+Tipos
+Según la tecnología que usen, hay tres tipos de pantallas táctiles de uso habitual:
+* : Son más baratas y no les afectan el polvo ni el agua salada y, además de ser más precisas, pueden ser usadas con un puntero o con el dedo.
+Sin embargo, tienen hasta un 15% menos de brillo y son más gruesas, por lo que están siendo sustituidas por otras en los dispositivos móviles que precisan un tamaño y un peso ajustados y mayor brillo en la pantalla por la posibilidad de estar expuestos a la luz directa del sol.
+* Capacitivas: Basadas en sensores capacitivos, consisten en una capa de aislamiento eléctrico, como el cristal, recubierto con un conductor transparente, como el ITO (tin-doped indium oxide).
+Como el cuerpo humano es también un conductor eléctrico, el contacto con la superficie de la pantalla genera una distorsión del campo electrostático de la pantalla, que se mide a través del cambio en la capacitancia (capacidad eléctrica).
+Pueden utilizarse diferentes tecnologías para determinar en qué posición de la pantalla se hizo el toque.
+La posición se envía al controlador, para su procesamiento.
+En este tipo de pantallas, la imagen tiene una mayor calidad, la respuesta es mejor, y algunas permiten el uso de varios dedos a la vez (multitouch).
+Sin embargo, son más caras y no se pueden usar con el puntero habitual, sino con uno especial para las pantallas capacitivas.
+, para su procesamiento.
+El panel de pantalla táctil de onda de superficie es el más avanzado de los tres tipos, pero puede dañarse con elementos externos.
+Especificaciones HID
+Las pantallas táctiles se encuentran definidas dentro de la especificación de dispositivos de interfaz humana (HID) para puerto , entre otros.
+Las pantallas táctiles se identifican con el usage ID 04.
+Las especificaciones incluyen los campos utilizados para el manejo de este tipo de dispositivos.
+Algunos de los más interesantes para el manejo de las pantallas táctiles son:
+* Tip pressure: Representa la fuerza por un transductor, habitualmente un estilete o también un dedo.
+* Barrel pressure: Fuerza que ejerce el usuario en el sensor del transductor, como por ejemplo un botón sensible a la presión en el puntero de manejo.
+* In range: Indica que el transductor se encuentra en el área donde la digitalización es posible.
+Se representa por un bit.
+* Touch: Indica si un dedo está tocando la pantalla.
+El sistema suele interpretarlo como un clic de botón primario.
+* Untouch: Indica que el dedo ha perdido contacto con la superficie de la pantalla.
+Se interpreta como la acción de soltar el botón primario.
+* Tap: Indica que se ha realizado un toque con el dedo en la pantalla, levantándolo rápidamente sin prolongar el contacto.
+Se interpreta como un evento provocado por un botón.
+Sistemas operativos y software
+Existe una gran variedad de programas de cómputo para el manejo de máquinas con pantallas táctiles que pueden ejecutarse en los principales sistemas operativos tales como, por ejemplo, GNU/Linux, MacOS y Windows.
+En los tres casos, existen versiones especiales adaptadas para su uso en tabletas y en portátiles táctiles.
+Android es un sistema operativo de código abierto basado en el núcleo (kernel) de Linux, inicialmente desarrollado por Android Inc.
+y respaldado por Google.
+Apple ha desarrollado su sistema iOS para iPad, y Microsoft ha incluido un desarrollo específico en las distintas versiones: desde Windows XP Tablet PC Edition hasta el Windows 8, en el cual el desarrollo táctil no es específico de una versión sino de la versión.
+En otro tipo de dispositivos, como las PDA o teléfonos con pantalla táctil, también existen sistemas operativos como: PalmOS, Windows Phone, iOS, Android, BlackBerry OS, WebOS, Symbian OS, MeeGo o Maemo.
+Respecto al software específico para pantallas táctiles, al igual que en el caso de otros dispositivos similares como las tabletas digitalizadoras, destacan los programas de reconocimiento de escritura manual, como Inkwell en Macintosh.
+En el caso de Windows XP Tablet PC Edition, el propio sistema operativo incluye reconocimiento de escritura.
+También son habituales los programas de dibujo, como por ejemplo Corel Painter, que pueden incluso reconocer la fuerza con la que se está pulsando sobre la pantalla o la inclinación del objeto con el que se está tocando.
+Muchas aplicaciones utilizan las características táctiles de los dispositivos y de los sistemas operativos: teclados virtuales, juegos, gestores multimedia y ofimática, entre otros.
+Véase también

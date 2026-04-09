@@ -1,0 +1,49 @@
+Factorielle
+programmation du factorielle
+En mathématiques, la factorielle d'un nombre est le produit des nombres entiers naturels (supérieurs à 0) inférieurs ou égaux à ce nombre.
+Concrètement, on la définit par la formule : n!=1×2×3×…×(n−1)×n.{\displaystyle n!=1\times 2\times 3\times \ldots \times (n-1)\times n.}
+Par convention, on définit également 0!=1{\displaystyle 0!=1}.
+Notation :
+On note n!
+la factorielle d'un nombre n : par exemple, la « factorielle de 5 » est 5!.
+Les factorielles deviennent très vite de grands nombres difficiles à calculer :
+Les factorielles permettent d'exprimer le nombre de combinaisons possibles avec un nombre donné d'éléments.
+Cela peut servir dans plusieurs domaines mathématiques, comme dans celui des probabilités et en dénombrement.
+Il y a trois boules dans une urne : une boule a
+, une boule b, une boule c.
+On prend au hasard les 3 boules successivement, en tenant compte de l'ordre dans lequel on les tire.
+Combien y a-t-il de combinaisons possibles ?
+Il y a 3 possibilités pour la première boule.
+Pour la seconde, il ne reste plus que deux boules : il y a alors 2 possibilités.
+Pour la troisième, il n'en reste plus qu'une !
+Cela fait donc 3 × 2 × 1 = 6 combinaisons possibles (a-b-c, a-c-b, b-a-c, b-c-a, c-a-b et c-b-a)
+Pour 4 boules, il y a 4!
+= 24 combinaisons ;
+pour 5 boules, 5!
+= 120 combinaisons, etc.
+Il devient très vite impossible de compter toutes les combinaisons (pour 10 boules, il y a plus de 3 millions de possibilités !), d'où l'intérêt des factorielles.
+Le tiercé est un pari, pour une course de chevaux, dont le but est de deviner quels sont les 3 premiers chevaux à l'arrivée.
+Le parieur peut trouver ces 3 chevaux dans le désordre mais les trouver dans le bon ordre rapporte pour lui plus d'argent.
+S'il y a 20 chevaux, il y a pour le premier numéro 20 possibilités, pour le deuxième 19 et pour le troisième 18.
+Le nombre de possibilités est donc de 20 × 19 × 18, soit écrit avec des factorielles 20!
+/ 17!
+= 6 840 (le parieur a alors, s'il choisit au hasard, environ une chance sur 7 000 de gagner !).
+D'une façon générale, pour k objets à choisir parmi n objets au total, il y a n!(n−k)!{\displaystyle {\frac {n!}{(n-k)!}}} possibilités d'arrangements (avec importance de l'ordre).
+Il y en a moins : le parieur a beaucoup plus de chance de gagner.
+Par exemple, les combinaisons 1-5-7, 5-7-1 ou 7-1-5 sont les mêmes (sans importance d'ordre).
+On a vu, avec l'exemple du tirage dans une urne, qu'il y avait avec ces trois chiffres 3!
+= 6 combinaisons possibles (dans des ordres différents).
+Il y a donc 3!
+fois plus de «
+combinaisons
+dans l'ordre » que de « combinaisons dans le désordre »
+Pour 20 chevaux, il y a 6 840 « combinaisons dans l'ordre » : il y a donc 10 640/6 = 1 140 «
+combinaisons dans le désordre » (et donc environ une chance sur 1 000 de gagner, en jouant au hasard).
+D'une façon générale, pour k objets à choisir parmi n objets au total, il y a n!(n−k)!⋅k!{\displaystyle {\frac {n!}{(n-k)!\cdot k!}}} possibilités de combinaisons (sans importance de l'ordre)
+Le triangle de Pascal sert à calculer les coefficients binominaux
+Pour l’alléger
+, on note cette dernière quantité (nk){\displaystyle {\binom {n}{k}}}, qui se lit « k parmi n » ;
+cela s’appelle un coefficient binomial.
+Certaines fonctions qu'on veut étudier en l'infini peuvent posséder des factorielles dans leurs expressions.
+Pour simplifier l'étude, on peut utiliser un équivalent de n!
+en l'infini :

@@ -1,0 +1,84 @@
+Électromagnétisme|Optique
+ondulatoire
+Londe électromagnétique est un modèle utilisé pour représenter les rayonnements électromagnétiques.
+Il convient de bien distinguer : le rayonnement électromagnétique, qui est le phénomène étudié, et l'onde électromagnétique, qui est une des représentations du phénomène.
+Une autre représentation prend en compte l'existence du photon.
+Une onde lumineuse est une onde électromagnétique dont la longueur d'onde correspond au spectre visible, soit environ entre les longueurs d'onde 400 et 800 nm, ce qui correspond aux énergies de photon de 1,5 à 3 eV.
+Historique
+La théorie ondulatoire de la lumière a été principalement développée par Christian Huygens dans les années 1670, puis par Augustin Fresnel.
+Elle s'opposait à l'époque à la théorie corpusculaire, défendue principalement par Isaac Newton.
+Huygens travaillait principalement sur les lois de réflexion et de réfraction, Fresnel développa notamment les notions d'interférence et de longueur d'onde.
+La conception de la lumière comme ondulation incita les physiciens à imaginer un milieu de propagation, l'éther.
+La grande avancée théorique fut la synthèse des lois de l'électromagnétisme par James Clerk Maxwell
+, ses équations prédisaient l'existence d'ondes électromagnétiques, et leur vitesse, permettant l'hypothèse que la lumière est une onde électromagnétique.
+Les ondes radio, à basse fréquence et grande longueur d'onde, furent découvertes à la fin du avec les travaux notamment d'Alexandre Popov, Heinrich Hertz, Édouard Branly et de Nikola Tesla.
+Les rayons X, à haute fréquence et faible longueur d'onde, furent découverts par Wilhelm Röntgen en 1895.
+Le problème du rayonnement du corps noir fut résolu par Max Planck, en 1901, en introduisant une constante et des discontinuités expliquées par Albert Einstein en 1905, dans ses travaux sur l'effet photoélectrique, en proposant l'existence d'un quanta énergétique.
+Ce quanta est le prémisse au modèle du photon, synthèse des approches ondulatoire et corpusculaire de la lumière, donnant l'idée d'une généralisation à toute la matière : la mécanique quantique.
+Émission
+Les ondes électromagnétiques (perturbations des champs électrique et magnétique) sont produites par des particules chargées accélérées.
+Description
+Comme toutes les ondes, une onde électromagnétique peut s'analyser en utilisant l'analyse spectrale ;
+on peut décomposer l'onde en ondes dites « monochromatiques » (voir aussi Spectre d'ondes planes).
+Une onde électromagnétique monochromatique peut se modéliser par un dipôle électrostatique vibrant, ce modèle reflétant convenablement, par exemple, les oscillations du nuage électronique d'un atome intervenant dans la diffusion Rayleigh (modèle de l'électron élastiquement lié).
+Les variations des champs électriques et magnétiques sont liées par les équations de Maxwell, on peut donc représenter l'onde par un seul de ces champs, en général le champ électrique.
+Il est alors possible d'écrire l'équation générale d'une onde plane monochromatique :
+\vec (\vec,t)
+= \cos (\omega t
+- \vec \cdot \vec + \varphi) \;
+\vec_0
+*\vec est le vecteur d'onde dont la norme vaut \\vec\|
+= \frac , \lambda étant la longueur d'onde ;
+On utilise aussi fréquemment la notation complexe :
+\vec (\vec,t) = \mathrm^ \;
+\underline_0 \;.
+Dans ce cas on obtiendra alors les grandeurs physiques réelles, en prenant la partie réelle de cette forme complexe.
+On remarquera que dans cette expression, \underline_0 = \vec_0 \, \mathrm^.
+L'utilisation de la notation complexe, pur artifice de calcul, a pour objectif de simplifier grandement les opérations dans la majorité des cas.
+Propriétés
+Polarisation
+La polarisation correspond à la direction et à l'amplitude du champ électrique \vec.
+Pour une onde non polarisée, ou naturelle, \vec tourne autour de son axe de façon aléatoire et imprévisible au cours du temps.
+Polariser une onde correspond à donner une trajectoire définie au champ électrique.
+Il y a plusieurs sortes de polarisation :
+La polarisation rectiligne : \vec est toujours selon la même direction.
+La polarisation circulaire : le champ électrique tourne autour de son axe en formant un cercle.
+La polarisation elliptique : le champ électrique tourne autour de son axe et change d'amplitude pour former une ellipse.
+Comportement ondulatoire
+Propagation
+: Dans un milieu homogène et isotrope, l'onde électromagnétique se propage en ligne droite.
+Lors de la rencontre avec un obstacle, il y a diffraction ;
+lors d'un changement de milieu, il y a réflexion et réfraction ;
+il y a aussi réfraction
+si les propriétés du milieu changent selon l'endroit (hétérogénéité)
+Voir aussi Principe de Huygens-Fresnel.
+Réflexion
+Lors d'un changement de milieu de propagation, une partie de l'onde électromagnétique repart vers le milieu d'origine, c'est la réflexion.
+Le cas le plus connu de la réflexion est le miroir, mais celle-ci concerne également les rayons X (miroir à rayons X) et les ondes radio : réflexion sur la ionosphère des ondes mégahertz, antenne parabolique, réflexion sur la Lune…
+Réfraction
+: Lors d'un changement de milieu de propagation, si le second milieu est transparent pour l'onde, celle-ci se propage au travers mais avec une direction différente.
+Cela concerne la lumière (lentille optique, mirage), mais aussi les ondes radio (réfraction des ondes décamétriques dans la ionosphère).
+Diffusion
+: Lorsqu'une onde rencontre un atome, elle se diffuse sur celui-ci, elle change de direction.
+On distingue la diffusion Rayleigh, dite « diffusion électronique », au cours de laquelle l'onde ne change pas de longueur d'onde, la diffusion Raman qui est une diffusion électronique avec diminution ou augmentation de longueur d'onde, et la diffusion Compton, dans le cas des rayons X diffusant sur des atomes légers, au cours de laquelle la longueur d'onde augmente.
+Interférences
+: Comme toutes les ondes, les ondes électromagnétiques peuvent interférer.
+Dans le cas des radiocommunications, cela provoque un parasitage du signal (voir aussi
+Rapport signal sur bruit).
+Diffraction
+: L'interférence d'ondes diffusées porte le nom de diffraction :
+::::::
+Flux d'énergie
+: Le flux d'énergie à travers une surface est donné par le flux du vecteur de Poynting.
+Dualité onde-corpuscule
+La notion d'onde électromagnétique est complémentaire de celle de photon.
+En fait, l'onde fournit une description plus pertinente de la radiation pour les faibles fréquences (c'est-à-dire les grandes longueurs d'onde) comme les ondes radio.
+En réalité, l'onde électromagnétique représente deux choses :
+* la variation macroscopique du champ électrique et du champ magnétique ;
+* la fonction d'onde du photon, c'est-à-dire que la norme au carré de l'onde est la probabilité de présence d'un photon.
+Lorsque le flux d'énergie est grand devant l'énergie des photons, on peut considérer que l'on a un flux quasi-continu de photons, et les deux notions se recouvrent.
+Ceci n'est plus vrai lorsque le flux d'énergie est faible (on envoie les photons un par un), la notion de « variation macroscopique » (moyenne) n'a alors plus de sens.
+Le flux d'énergie est donné par le vecteur de Poynting.
+Chaque photon possède une quantité d'énergie déterminée, valant E
+h\,\nu , où h est la constante de Planck et \nu la fréquence.
+On peut ainsi calculer le flux de photons à travers une surface.

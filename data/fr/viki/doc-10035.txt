@@ -1,0 +1,112 @@
+En informatique, et plus précisément dans le domaine de l'intelligence artificielle, l'apprentissage automatique est le champ d'étude de l'ensemble de méthodes et algorithmes permettant à un programme d'apprendre par lui-même, à l'aide de données fournies, sans être explicitement programmé pour accomplir cette tâche à la base.
+Le terme anglais machine learning est aussi souvent utilisé pour se référer à ce domaine de recherche.
+L'apprentissage automatique permet apprendre des choses à un programme que nous ne savons pas comment programmer explicitement.
+Cela permet d'apprendre aux systèmes informatique à comprendre, analyser et interagir avec les données de notre monde tel que des images ou du texte par exemple.
+Le terme modèle dans le contexte de l'apprentissage automatique désigne une représentation mathématique des données que d'on cherche à apprendre.
+Cette représentation a une structure définie, souvent une fonction mathématique, et des paramètres vont permettre de décrire le modèle mathématiquement.
+Ce sont ces paramètres qui sont optimisés afin de représenter le mieux nos données.
+Cette définition sonne très abstraite, mais on peut se représenter un modèle comme une simplification approximative des données.
+Des images telles que la deuxième à la fin de cette section aident également à comprendre mieux le concept.
+L'ensemble des données est référé sous le terme jeu de données.
+Un jeu de données est constitué d'une série d'exemples.
+Un exemple peut être un texte, une image, une ligne dans un tableau de valeurs ou bien d'autres choses encore.
+À l'image d'un humain qui apprendra à faire des additions en faisant plein d'exemples de calculs d'additions, l'apprentissage automatique se fait également avec une série d'exemples qui permettront au modèle d'assimiler les connaissances souhaitées.
+Chaque exemple est constitué de plusieurs attributs dont les valeurs peuvent être catégoriques ou bien continues.
+La première image à la fin de cette section montre les attributs présents dans un jeu de données connu nommé Iris de Fisher1.
+Il est intéressant de noter que les attributs des données ne sont pas forcément interprétables pour un humain, elles n'auront pas nécessairement une signification intuitive pour nous.
+Dans une image par exemple, chaque valeur RGB de chaque pixel peut être un attribut, ainsi que la position du pixel par rapport aux autres pixels, même si un humain ne verrait aucun intérêt à décomposer des données ainsi et interpréterait l'image plutôt dans son ensemble ou par zones.
+Il est normal que les attributs n'aient pas toujours de sens logique pour un humain, car un ordinateur ne traite pas les informations de la même manière qu'un humain, et peut souvent extraire des informations intéressantes de données qui ne parlent pas aux humains.
+C'est un autre avantage que présente l'apprentissage automatique.
+Chaque exemple peut posséder un label (ou une classe) qui est une catégorie ou une valeur numérique associée à cet exemple.
+C'est généralement ce label que l'on cherche à prédire avec l'apprentissage automatique.
+Dans la première image ci-dessous, la couleur du point indique le label associé à l'exemple.
+Théoriquement, n'importe quel attribut des données peut être un label, et les jeux de données contiennent souvent plusieurs attributs pouvant servir de label.
+Par exemple, dans la deucième image ci-dessous, on peut utiliser la taille et le sexe pour prédire le poids, ou bien utiliser la taille et le poids pour prédire
+le sexe.
+Le jeu de données Iris de Fisher1 contient un ensemble d'exemples de fleurs iris.
+Ces exemples sont définis par les attributs "longueur de sépale", "largeur de sépale", "longueur des pétales" et "largeur des pétales".
+Les valeurs de ces attributs sont représentées dans cette image par des nuages de points.
+Les couleurs des points correspondent au label de l'exemple, il y a donc 3 classes de fleurs iris représentées dans ce jeu de données.
+Un exemple simple de régression linéaire, qui est un type de modèle.
+Chaque petite croix représente un exemple2, dont la valeur de l'axe horizontale est le poids et la valeur de l'axe verticale la taille.
+Les croix vertes correspondent à des exemples d'hommes et les magenta de femmes.
+Il y a 2 modèles dans l'image:
+l'un, qui est la ligne verte, est obtenu à partir les exemples d'hommes (croix vertes), et l'autre, la ligne en magenta, avec les exemples de femmes.
+On voit bien ici que la ligne verte est une approximation des données représentées par les croix vertes, et il en va de même pour les magenta.
+L'apprentissage automatique permet d'accomplir une grande variété de tâches différentes.
+Certaines de ces tâches servent à l'analyse des données, utilisée beaucoup dans le domaine de la science des données, entre autre pour déterminer les relations entre les attributs des données et trouver des correlations importantes.
+D'autres visent à prédire quelque chose, tel que la catégorie à laquelle appartient un nouvel exemple que l'on donne au modèle.
+Par exemple, un système de recommandation doit déterminer quels utilisateurs aimeront un nouveau produit sur base des informations qu'il a sur les préférences des utilisateurs.
+Plus récemment, la recherche s'est également orientée vers des modèles permettant la génération de nouvelles données.
+Un exemple d'application est un chatbot, qui va devoir générer du texte pour communiquer avec les humains.
+Un autre exemple connu est thispersondoesnotexist3, qui génère des images d'humains très réalistes mais qui n'existent pas réellement, et des modèles tels que celui-ci permettent par exemple de générer des données pour l'entrainement de modèles beaucoup plus facilement que par la collecte traditionnelle de données45.
+Selon le type de tâche, certains types de modèles seront plus appropriés que d'autres, mais le principe derrière l'apprentissage automatique reste le même.
+L'apprentissage supervisé utilise des données dont les exemples possèdent des labels.
+L'objectif de l'apprentissage automatique est de trouver une bonne représentation mathématique, qui expliquera donc bien les données que nous avons.
+Afin qu'un programme puisse interpréter et apprendre des données, il est d'abord nécessaire de nettoyer et d'exprimer ces données d'une manière exploitable par un algorithme d'optimisation.
+Ensuite, on initialise un modèle mathématique dont les paramètres sont aléatoires au départ.
+Puis, pour que notre modèle puisse représenter nos données, on l'entraine sur nos données avec un algorithme d'optimisation pour améliorer les valeurs des paramètres.
+Le modèle entrainé est le résultat final de cet apprentissage et l'évaluer permet de déterminer à quel point il remplit bien la tâche pour laquelle il a été entrainé.
+Il est intéressant de noter ici que l'apprentissage automatique suppose toujours qu'il existe une représentation mathématique expliquant bien nos données, mais ce n'est pas toujours le cas.
+Notamment, lorsque les attributs des données ne présentent aucune correlation avec leurs labels (ce sera typiquement le cas si les attributs utilisés sont inadéquats pour la tâche ciblée), la représentation mathématique résultante sera très mauvaise car une bonne représentation n'existe simplement pas.
+La phase de prétraitement des données comporte en premier lieu la tâche de nettoyage des données.
+Le nettoyage des données consiste principalement à réparer d'éventuelles erreurs dans les données, compléter les valeurs manquantes et retirer les exemples qu'on appelle des données aberrantes.
+Ces exemples sont des anomalies dans les données, et peuvent rendre le modèle beaucoup moins bon, car il va apprendre avec des exemples qui représentent des exceptions et non la généralité.
+S'ils sont identifiables, il faut donc les retirer afin d'éviter ces problèmes.
+Bien que ce ne soit pas nécessaire pour entrainer un modèle, il est également préférable de faire une analyse des données pour mieux comprendre ce avec quoi on travaille.
+Par exemple, si on travaille avec des photos de visages, mais que la majorité des gens sur les photos sont des personnes blanches, il faut s'attendre à ce que le modèle qu'on obtiendra fonctionne bien mieux avec des photos de personnes de peau blanche qu'avec des personnes de peau plus foncée.
+Une fois les données analysées et nettoyées, il faut exprimer les données dans un format exploitable par les algorithmes d'optimisation utilisés dans l'apprentissage automatique.
+Bien que les données numérisées soient déjà exprimées dans un language interprétable par un ordinateur, elles sont rarement dans un format adéquat de base.
+Il faudra donc souvent les traiter par des procédés mathématiques comme la standardisation, mais certaines formes de données nécessitent également des traitements plus spécifiques.
+C'est notamment le cas du texte, car chaque mot doit être représenté par un nombre tout en gardant son sens par rapport à son contexte.
+Une fois les données prétraitées, elles sont exploitables par un procédé mathématique d'optimisation.
+Cette optimisation se fait en minimisant une fonction particulière que l'on appelle la fonction objectif.
+Pour minimiser cette fonction, l'algorithme le plus souvent utilisé est l'algorithme du gradient.
+La droite bleue est le modèle et les points rouges sont des exemples.
+Les lignes vertes représentent d'erreur entre chaque exemple et la prédiction du modèle.
+Pour comprendre cette étape, il est essentiel de comprendre la notion mathématique de fonction.
+Lorsqu'on donne les attributs d'un exemple au modèle, il renvoie une prédiction.
+On peut mesurer l'écart entre la prédiction et le véritable label de l'exemple comme illustré sur l'image à droite, et cet écart est appelé l'erreur.
+Lorsqu'on modifie les valeurs des paramètres du modèle, on va également modifier la prédiction du modèle, ce qui va donc modifier l'erreur.
+On peut représenter l'erreur sur un graphe dont les axes sont les valeurs des paramètres et la valeur de l'erreur.
+La fonction qu'on obtient est appelée fonction objectif.
+Donc, la fonction objectif est la fonction qui représente l'erreur en fonction des paramètres du modèle.
+Comme on cherche les paramètres du modèle qui représenteront au mieux nos données, on souhaite naturellement que la somme des erreurs sur les exemples de nos données soit la plus petite possible.
+C'est la raison pour laquelle on cherche à minimiser la fonction objectif;
+en trouvant les paramètres qui minimisent la fonction objectif, on trouve les meilleurs paramètres pour notre modèle.
+Un exemple de fonction objectif.
+Les axes x et y sont les paramètres du modèle et l'axe verticale est la somme des erreurs sur les données.
+On voit que les meilleurs paramètres pour ce modèle
+seraient (0, 0).
+Un deuxième exemple de fonction objectif.
+Ici, la forme obtenue est plus compliquée et a plusieurs minimums.
+Toutes les optimisations ne donneront pas le même résultat en fonction du point de départ, donnant des modèles avec des performances différentes.
+La forme générale de cette fonction variera selon le type de modèle utilisé, mais aussi selon la manière de calculer l'erreur.
+Par exemple, on peut décider de travailler avec les valeurs absolues des erreurs, afin d'éviter que des erreurs très positives et très négatives ne s'annulent lorsqu'on les aditionne.
+Ou bien, on peut utiliser le carré des erreurs, qui lui aussi donnera des valeurs uniquement positives, mais qui seront proportionnellement beaucoup plus grandes pour de grandes erreurs que pour de petites erreurs.
+Utiliser le carré au lieu de la valeur absolue des erreurs rend le modèle plus sensible aux données aberrantes s'il en reste dans les données, car ces anomalies auront une grande erreur par rapport à la prédiction du modèle.
+L'algorithme du gradient est la fondation sur laquelle repose la majorité des algorithmes optimisation.
+La phase d'évaluation permet de tester le modèle afin de déterminer s'il est bon ou mauvais selon des critères définis.
+Les modèles entrainés par apprentissage automatique sont extrêmement dépendants des données utilisées pour leur entrainement.
+Si les données sont insuffisantes ou imprécises, le modèle sera mauvais.
+Si les données sont biaisées, le modèle sera biaisé6.
+Et ainsi de suite.
+Cela pose un véritable challenge pour les chercheurs et travailleurs dans le domaine, car obtenir de grandes quantités de données est souvent difficile, et il n'existe pas de méthode universelle qui permettra de s'assurer de la qualité des données utilisées.
+Lors du pré-traitement, les données sont déjà nettoyées, mais c'est largement insuffisant pour garantir des données de qualité en quantité suffisante.
+En voici quelques raisons:
+Combien de données sont suffisantes pour entrainer un bon modèle?
+Cela va dépendre d'énormément de facteurs tels que le type de tâche et le type de modèle.
+En règle général, plus il y a de données, mieux le modèle obtenu sera, mais d'autres problèmes surviennent lorsqu'on travaille avec de grandes quantités de données.
+Notamment, utiliser énormément de données nécessite énormément de puissance de calcul, ce qui est coûteux à la fois en terme de matériel et d'un point de vue environnemental.
+Il s'agit donc de trouver un compromis adéquat entre la quantité de données (la complexité du modèle entrainé jouera également un rôle important) et les ressources utilisées pour entrainer le modèle.
+Qu'est-ce qui définit la qualité de données?
+On peut par exemple souhaiter réduire le biais dans les données, c'est à dire s'assurer que les données représentent toute la diversité existante.
+Par exemple, on peut fixer l'objectif d'avoir autant d'hommes que de femmes dans les exemples, et que toutes les ethnies soient représentées significativement7.
+Ainsi, le modèle entrainé fonctionnera sur tout type d'exemple, ce qui réduit le surapprentissage.
+Mais on souhaite également que ces facteurs de diversité ne corrèlent pas sans raison avec les labels, c'est à dire qu'on veut éviter les stéréotypes dans les données8.
+Par exemple, on ne veut pas que dans les données, 80% des infirmiers soient des femmes et 80% des médecins soient des hommes, car ça correspond à un stéréotype indésirable que le modèle apprendra sans aucun doute s'il est entrainé avec ces données biaisées9.
+De telles correlations indésirables sont souvent dûes à des facteurs de confusion.
+Naturellement, il existe également ce genre de facteurs de confusion entre des attributs différents que ceux liés à la diversité, et ils sont généralement tout aussi indésirables.
+Ceci ne sont que quelques problèmes liés aux données parmi beaucoup d'autres qui peuvent survenir.
+Il existe tout un domaine de recherche, la science des données, qui se consacre en grande partie à cette question et permet d'apporter quelques solutions pour améliorer la qualité des données utilisées.
+Cela dit, lorsqu'on travaille dans le domaine de l'apprentissage automatique, et simplement lorsqu'on est confronté à l'utilisation de modèles, il est essentiel de connaître les enjeux liés aux données et les problèmes qu'ils peuvent causer chez les modèles entrainés dessus, afin de pouvoir comprendre mieux d'où viennent les prédictions du modèle10.

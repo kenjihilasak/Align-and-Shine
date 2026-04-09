@@ -1,0 +1,33 @@
+International Standard Book Number
+An ISBN-13 barcode represented as EAN-13 barcode (ISBN 978-3-16-148410-0)
+An ISBN is given to each edition and variation (except reprintings) of a book.
+The ISBN is 13 digits long if assigned after January 1, 2007, and 10 digits long if assigned before 2007.
+An International Standard Book Number consists of 4 or 5 parts:
+the group identifier code, (group of countries sharing a language)
+the publisher code,
+the item number, and
+The ISBN parts may be of different lengths, and usually are separated with hyphens or spaces.
+The group identifier code (GIC) number is 0 or 1 for English-speaking countries; 2 for French-speaking countries; 3 for German-speaking countries; 4 for Japanese; 5 for Russian, et cetera.
+The original standard book number (SBN) had no group identifier, but affixing a zero (0) as prefix to a 9-digit SBN creates a valid 10-digit ISBN.
+The group identifier may be up to 5 digits long; e.g. 99936 is a group identifier for the country Bhutan.
+The national ISBN agency assigns the publisher number; the publisher selects the item number.
+Generally, a book publisher is not required to assign an ISBN, nor for a book to display its number (except in China; see below), however, most book stores only handle ISBN bearing merchandise.
+A listing of all the 628,000 assigned publisher codes is published, and can be ordered in book form, but, as of 2007, it costs US$300.
+The web site of the international ISBN agency does not offer any free method of looking up publisher codes.
+CODEN (serial publication identifier currently used by libraries; replaced by the ISSN for new works)
+↑Occasionally publishers will use an ISBN for more than one title (e.g. the first edition of "The Ultimate Alphabet" and "The Ultimate Alphabet Workbook" have the same ISBN, 0-8050-0076-3).
+On the other hand, books can be published with more than one ISBN: A German-as-a-second-language edition of Emil und die Detektive has the ISBNs 87-23-90157-8 (Denmark), 0-8219-1069-8 (United States), 91-21-15628-X (Sweden), 0-85048-548-7 (England) and 3-12-675495-3 (Germany).
+↑Some books have several codes in the first block, e.g. A.M. Yaglom's Correlation Theory..., published by Springer Verlag, has the ISBNs 0-387-96331-6 and 3-540-96331-6.
+Though Springer's 387 and 540 codes are different for English (0) and German (3); the same item number 96331 produces the same check digit: 6.
+Springer uses 431 as their publisher code for Japanese (4) and 4-431-96331-?
+would also have check digit ?
+= 6.
+Other Springer books in English have publisher code 817, and 0-817-96331-?
+would also get check digit ?
+= 6.
+This suggests special considerations were made for assigning Springer's publisher codes, as random assignments of different publisher codes would not lead the same item number to get the same check digit every time.
+Finding publisher codes for English and German, say, with this effect amounts to solving a linear equation in modular arithmetic.
+↑the international ISBN agency's "ISBN User's Manual" says: "The ten-digit number is divided into four parts of variable length, which must be separated clearly, by hyphens or spaces" although permitting their omission for internal data processing, as the prefix code ensures that no two codes begin the same way.
+If present, hyphens must be correctly placed; See hyphenation instructions at the web site.
+-find books by ISBN, author, title, subject, et cetera; auto-corrects ISBN checksums if needed.
+ISBN.nu-offers free searching of a titles database.

@@ -1,0 +1,197 @@
+Géométrie euclidienne|Aire|Opération
+En mathématiques, et plus précisément en géométrie, le produit vectoriel est une opération vectorielle effectuée dans les espaces euclidiens orientés de dimension 3.
+Le formalisme utilisé actuellement est apparu en 1881 dans un manuel d'analyse vectorielle écrit par Josiah Willard Gibbs pour ses étudiants en physique.
+Les travaux de Hermann Günther Grassmann et William Rowan Hamilton sont à l'origine du produit vectoriel défini par Gibbs.
+Histoire
+Résumé
+En 1843, Hamilton inventa les quaternions qui permettent de définir le produit vectoriel.
+Indépendamment et à la même période (1844), Grassmann définissait dans un « produit géométrique » à partir de considérations géométriques ;
+mais il ne parvient pas à définir clairement un produit vectoriel.
+Puis Grassmann lit Hamilton et s'inspire de ses travaux pour publier en 1862 une deuxième version de son traité qui est nettement plus claire.
+De même, Hamilton a lu les travaux de Grassmann et les a commentés et appréciés.
+Plus tard Maxwell commença à utiliser la théorie des quaternions pour l'appliquer à la physique.
+Après Maxwell, Clifford modifia profondément le formalisme de ce qui devenait l'analyse vectorielle.
+Il s'intéressa aux travaux de Grassmann et Hamilton avec une nette préférence pour le premier.
+Son inconvénient est d'entrer en conflit avec la notation du produit extérieur ;
+* Dans la littérature anglophone (et au Canada francophone, ainsi qu'en Suisse et parfois en Belgique) et allemande le produit vectoriel est noté .
+Cette notation est due à Josiah Willard Gibbs.
+Son inconvénient est d'induire une confusion éventuelle avec le produit des réels et le produit cartésien, mais ces produits ne portent pas sur des objets de même nature ;
+Une troisième notation, privilégiée par exemple par Arnold, est l'utilisation des crochets de Lie : .
+Dans cet article, nous utiliserons la première convention (avec ou sans flèches sur les vecteurs).
+Définition
+Soit E un espace vectoriel euclidien orienté de dimension 3.
+Par le choix d'une base orthonormée, E peut être identifié avec l'espace R, mais cette identification n'est pas obligatoire pour définir le produit vectoriel.
+D'un point de vue géométrique
+En particulier :
+* deux vecteurs sont colinéaires si (et seulement si) leur produit vectoriel est nul ;
+* deux vecteurs sont orthogonaux si et seulement si la norme de leur produit vectoriel est égale au produit de leurs normes ;
+*le module du produit vectoriel \vec w est égal à la surface du parallélogramme défini par les deux vecteurs \vec u et \vec v.
+La notion d'orientation peut ici être comprise de manière élémentaire en utilisant la règle de la main droite : le pouce, l'index et le majeur écartés en un trièdre indiquent respectivement le sens de \vec u, de \vec v et de \vec w. Cette définition, utilisée dans l'enseignement secondaire, n'est pas totalement satisfaisante, mais reste une approche adaptée aux applications, en particulier en physique pour une approche plus théorique).
+Définition par le produit mixte
+Une seconde définition utilise la théorie des déterminants et la notion de produit mixte comme point de départ.
+Le produit mixte de trois vecteurs , , , noté , est le déterminant de ces trois vecteurs dans une base orthonormale directe quelconque.
+La formule de changement de base montre que ce déterminant est indépendant du choix de la base directe ;
+géométriquement il est égal au volume orienté du parallélépipède appuyé sur les vecteurs , , .
+Le produit vectoriel s'interprète comme les variations du volume orienté d'un parallélépipède en fonction du troisième côté.
+Avec une telle définition, il est possible de définir, dans un espace vectoriel orienté de dimension n + 1, le produit vectoriel de n vecteurs.
+Calcul en composantes
+Le choix arbitraire d'une base orthonormée directe donne une identification de E et de R. Notons les coordonnées et .
+Leur produit vectoriel est donné par :
+u\wedge
+v=\begin
+u_2v_3-u_3v_2\\
+u_3v_1-u_1v_3\\ u_1v_2-u_2v_1
+\end.
+Cette troisième définition, puisqu'elle est équivalente aux deux précédentes, est indépendante, malgré les apparences, du choix de la base orthonormée directe dans laquelle on calcule les coordonnées.
+Propriétés
+Propriétés algébriques
+* Le produit vectoriel est un produit distributif, anticommutatif :
+** Compatibilité avec la multiplication par un scalaire :
+**: \lambda (u\wedge v)
+\lambda u\wedge v
+u\wedge\lambda v,
+Ces propriétés découlent immédiatement de la définition du produit vectoriel par le produit mixte et des propriétés algébriques du déterminant.
+Il n'est pas associatif
+c'est-à-dire qu'en général n'est pas égal à - et plus précisément, il vérifie les égalités du double produit vectoriel :
+:u\wedge (v\wedge w)
+u\cdot w)v- (u\cdot v)w\qquad\text\qquad (u\wedge v)\wedge w
+u\cdot w)v- (v\cdot w)u
+Il vérifie par conséquent l'identité de Jacobi, ce qui en fait un crochet de Lie :
+on peut démontrer facilement l'égalité
+que l'on peut aussi écrire sous la forme :
+ce qui équivaut à l'identité trigonométriqueet qui n'est rien d'autre qu'une des façons d'écrire le théorème de Pythagore
+*Les premières propriétés algébriques ci-dessus (bilinéarité et formule du double produit vectoriel) fournissent une solution au problème de la division vectorielle , où l'inconnue est le vecteur et les données sont les deux vecteurs et , en supposant non nul et orthogonal à (sans quoi la résolution est instantanée).
+En effet, de , on déduit que est une solution.
+Or le noyau de l'application linéaire est la droite vectorielle , donc l'ensemble des solutions de cette équation linéaire est .
+Invariance
+par isométries
+Le produit vectoriel est invariant par l'action des isométries vectorielles directes.
+Plus exactement, pour tous vecteurs et de E et pour toute rotation de E, on a :
+Cette identité peut être prouvée différemment suivant l'approche adoptée :
+Définition géométrique :
+L'identité est immédiate avec la première définition, car préserve l'orthogonalité, l'orientation et les longueurs.
+Produit mixte : L'isomorphisme linéaire laisse invariant le produit mixte de trois vecteurs.
+En effet, le produit mixte de , , peut être calculé dans l'image par de la base orthonormée directe dans laquelle le produit mixte de , et est calculé.
+De fait, l'identité précédente s'obtient immédiatement :
+(f (u)\wedge f (v))\cdot f (w)
+f (u),f (v),f (w)
+u,v,w
+(u\wedge v)\cdot w\,
+f (u\wedge v)\cdot f (w)
+où parcourt tout l'espace vectoriel
+quand le parcourt puisque est une bijection, d'où l'égalité souhaitée.
+Définitions alternatives
+Comme produit de Lie
+Toute isométrie directe de R est une rotation vectorielle.
+L'ensemble des isométries directes forme un groupe de Lie classique noté SO (3) (autrement dit, un sous-groupe fermé de GL3 (R)).
+Son algèbre de Lie, notée so (3) est la sous-algèbre de Lie de gl3 (R) définie comme l'espace tangent de SO (3) en l'identité.
+Un calcul direct montre qu'il est l'espace des matrices antisymétriques de taille 3.
+Cet espace est a fortiori stable par le crochet de Lie.
+Toute matrice antisymétrique de taille 3 s'écrit de manière unique :
+En identifiant et le vecteur , on définit un isomorphisme linéaire entre so (3) et R. Le crochet de Lie se transporte via cet isomorphisme, et R hérite d'une structure d'algèbre de Lie.
+Le crochet de deux vecteurs est précisément le produit vectoriel de et de .
+En effet, si , et , leur crochet se calcule en introduisant les matrices antisymétriques correspondantes et :
+\mathrm M_1, \mathrm M_2
+\mathrm
+M_1 \mathrm M_2- \mathrm M_2 \mathrm M_1
+\begin
+0 & a_2b_1-a_1b_2 & a_2c_1-a_1c_2\\
+a_1b_2 -a_2b_1
+& 0 & b_2c_1-b_1c_2\\
+a_1c_2-a_2c_1 & b_1c_2-b_2c_1
+\end
+Le vecteur correspondant, à savoir , a donc pour coordonnées .
+Cette approche redéfinit donc le produit vectoriel.
+Si on suit cette approche, il est possible de prouver directement l'invariance du produit vectoriel par isométries
+En tant qu'algèbres de Lie, so (3) a été identifié à R. L'action (linéaire) de SO3 (R) sur R s'identifie à l'action par conjugaison sur so (3).
+SO3 (R) opère donc par automorphisme d'algèbres de Lie.
+Autrement dit, l'identité ci-dessus est vérifiée.
+Comme produit de quaternions imaginaires
+Il est possible de retrouver produit vectoriel et produit scalaire à partir du produit de deux quaternions purs.
+Pour rappel, le corps (non commutatif) des quaternions H est l'unique extension de R de dimension 4.
+Sa base canonique est où le sous-espace engendré par , et forme l'espace des quaternions purs, canoniquement identifié avec R.
+Ces éléments vérifient :
+Si et , le produit se calcule immédiatement :
+La partie réelle est au signe près le produit scalaire de et de ;
+la partie imaginaire est un quaternion pur qui correspond au produit vectoriel, après identification avec R.
+Cette coïncidence trouve ses explications dans le paramétrage du groupe SO (3) par les quaternions unitaires.
+Il est de nouveau possible de justifier l'invariance par isométrie.
+Toute isométrie de l'espace des quaternions imaginaires s'écrit comme la conjugaison par un quaternion unitaire.
+Si est un quaternion unitaire, et , sont des quaternions imaginaires, il suffit de constater :
+\leftqq_1\overline\right.\leftqq_2\overline\right=q (q_1q_2)\overline
+pour en déduire l'invariance par isométrie du produit vectoriel.
+Par le produit tensoriel
+Soient deux vecteurs à trois composantes et .
+On peut définir le tenseur
+: u\otimes v =\begin
+u_1
+v_1 & u_1
+v_2 & u_1 v_3
+u_2 v_1
+& u_2 v_2
+& u_2
+v_3
+u_3 v_1 & u_3 v_2 & u_3
+v_3
+\end
+qui, en notation tensorielle
+, s'écrit simplement :
+:u\otimes v_= u_i\cdot v_j
+Ce tenseur peut se décomposer en la demi-somme de deux tenseurs, l'un complètement symétrique :
+u\odot v_=u_i\cdot v_j + u_j\cdot v_i
+qui a 6 composantes indépendantes, et l'autre complètement anti-symétrique :
+:u\wedge v_=u_i\cdot v_j
+- u_j\cdot v_i
+qui a 3 composantes indépendantes.
+On peut alors « transformer » ce tenseur anti-symétrique en un vecteur à trois composantes en utilisant le symbole de Levi-Civita \varepsilon^ (ce dernier est un pseudo-tenseur dont la définition fait intervenir la métrique et l'orientation) :
+: z_k = \varepsilon^
+\cdot u_i\cdot v_j
+selon la convention de sommation d'Einstein, on somme sur et sur dans la formule ci-dessus).
+Le vecteur est le produit vectoriel de et .
+Exemple
+pour des vecteurs à 3 composantes (, et variant de 1 à 3):
+z_3
+\varepsilon^ \cdot u_i\cdot v_j
+\varepsilon^ \cdot u_1\cdot v_2 + \varepsilon^ \cdot u_2\cdot v_1
+= u_1\cdot v_2
+- u_2\cdot v_1.
+On voit que si l'on échange les indices et , le signe change, ce qui illustre l'antisymétrie du produit vectoriel.
+En outre le résultat est un « pseudovecteur » puisqu'il est renversé si on change l'orientation de l'espace.
+À partir des propriétés algébriques
+On appelle produit vectoriel sur un espace euclidien V une application bilinéaire notée ×, allant de V × V vers V, (\mathbf,\mathbf)\mapsto\mathbf \times \mathbf, ayant les propriétés suivantes :
+\mathbf \cdot (\mathbf \times \mathbf)
+\mathbf \times \mathbf)\mathbf
+0    (orthogonalité),
+et :
+|\mathbf \times \mathbf|^2 = |\mathbf|^2 |\mathbf|^2
+\mathbf \cdot \mathbf)^2    (relation entre les normes),
+où (x·y)
+est le produit scalaire et |xest la norme du vecteur x.
+Une formulation équivalente, utilisant l'angle θ entre les vecteurs, est.
+Il est également possible de montrer que l'expression suivante est équivalente aux deux précédentes :
+|\mathbf \times
+\mathbf|
+|\mathbf| |\mathbf|~\mbox \ \left ( \mathbf
+\cdot \mathbf \right)
+On démontre alors qu'un produit vectoriel non trivial ne peut exister qu'en dimensions trois et sept ;
+de plus, en dimension trois, ce produit vectoriel est unique au signe près.
+Applications
+Mécanique
+On définit l'opérateur rotationnel comme suit :
+En mécanique du solide, c'est une opération très employée notamment dans la relation de Varignon qui lie les deux champs vectoriels d'un torseur.
+D'autre part, les équations de Maxwell sur l'électromagnétisme s'expriment à travers l'opérateur rotationnel, ainsi que les équations de la mécanique des fluides, notamment celles de Navier-Stokes.
+Le moment d'une force est défini comme le produit vectoriel de cette force \vec \mathrm F par le vecteur \vec reliant son point d'application au pivot considéré :
+C'est une notion primordiale en mécanique du solide.
+Équation de plan dans l'espace
+Soient A, B et C, trois points non alignés de l'espace, grâce auxquels on peut former le plan (ABC).
+appartient à (ABC)
+si et seulement si les coordonnées de M vérifient l'équation de (ABC).
+L'équation cartésienne de (ABC) est de la forme , où et sont des réels et \vec w est un vecteur normal
+à (ABC)
+, c'est-à-dire que son produit scalaire avec le vecteur \overrightarrow ou avec \overrightarrow ou encore avec le vecteur \overrightarrow est nul, donc si \vec w est un vecteur orthogonal à deux vecteurs non colinéaires de (ABC).
+Les réels et sont donc les composantes respectives en et du vecteur \vec w, produit vectoriel de deux vecteurs non colinéaires du plan (ABC), par exemple \overrightarrow et \overrightarrow.
+Géométrie plane
+Soit ABCD
+un parallélogramme
+, c'est-à-dire qu'on a la relation
+Comme indiqué plus haut dans la définition, l'aire de ce parallélogramme est égale à la norme du produit vectoriel des deux vecteurs sur lesquels il s'appuie :

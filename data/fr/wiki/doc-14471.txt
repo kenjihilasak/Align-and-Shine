@@ -1,0 +1,146 @@
+Outils théoriques de l'électromagnétisme|Mécanique
+C'est la principale manifestation de l'interaction électromagnétique.
+La force de Lorentz, appliquée dans diverses situations, induit l'ensemble des interactions électriques et magnétiques observées ;
+elle est de ce fait principalement étudiée en physique et en chimie.
+Les effets quantiques affectant la force électromagnétique sont étudiés dans le cadre de l'électrodynamique quantique.
+Elle doit son nom au physicien néerlandais Hendrik Antoon Lorentz (1853-1928).
+Description mathématique
+Le champ électromagnétique exerce la force suivante sur des particules possédant une charge électrique q non nulle
+\vec = q \vec + q \vec \wedge
+\vec
+Les vecteurs \vec et \vec sont respectivement le champ électrique et le champ magnétique pris au point où se trouve la particule, \vec représente la vitesse de la particule dans le référentiel d'étude.
+On peut distinguer deux contributions à cette force :
+* \vec = q \vec \wedge \vec, qui est la force magnétique.
+Dans le cas où la charge électrique est immobile à une certaine position nommée \vec' , sa vitesse est donc nulle, et elle n'est pas soumise à une quelconque force magnétique : le produit vectoriel \vec \wedge \vec est nul, et la charge est alors soumise à une force qui ne dépend que du champ électrique \vec.
+\vec
+\vec
+q \vec
+Le champ électrique s'exerçant en \vec est alors donné par la loi de Coulomb :
+\vec = \frac \frac,
+ε est une constante universelle appelée la permittivité du vide (à remplacer par la permittivité du milieu, lorsqu'on n'est pas dans le vide).
+Le calcul de la force ne se fait que lorsque l'on connaît la valeur des champs \vec et \vec , qui sont principalement déterminés par la distribution de l'ensemble des particules chargées intervenant dans la configuration étudiée.
+Démonstration de la formule de la force de Lorentz
+Historiquement, la force de Lorentz était une donnée indépendante de l'équation décrivant le champ électromagnétique.
+On peut retrouver la force de Lorentz grâce au formalisme lagrangien.
+Le lagrangien permettant de retrouver les équations de Maxwell permet également de retrouver la force de Lorentz.
+Les équations de Maxwell sont les équations sources, et la force de Lorentz est l'équation d'évolution (équation dynamique).
+On retrouve les deux grâce aux équation d'Euler-Lagrange.
+Pour retrouver les équations dynamiques on applique les équations d'Euler-Lagrange aux coordonnées d'espaces (positions, vitesses), et pour retrouver les équations sources (équation de Maxwell), on applique les équations d'Euler-Lagrange aux coordonnées généralisées (champs, et dérivées du champ).
+L'action d'une particule chargée ponctuelle soumise à un champ électrique est :
+: S = \int_^ \left (-mc^2\sqrt-q\phi +q \vec \cdot \vec\right)dt .
+avec
+: S = \int_^ L\, dt .
+Pour appliquer les équations d'Euler-Lagrange, on cherche donc d'abord le moment :
+\Pi
+\frac
+\frac+q \vec A
+La notation \frac étant un peu abusive.
+L'équation d'Euler-
+Lagrange nous dit alors que :
+\frac
+\frac
+\frac =
+-q \nabla \phi +q\nabla ( \vec.\vec).
+: \frac = \frac + (\vec V.\nabla)\vec A .
+donc
+: \frac+q\frac +q (\vec V.\nabla)\vec A =
+-q \nabla \phi +q\nabla ( \vec.\vec) .
+Et en utilisant l'identité vectorielle
+\vec V \wedge (\nabla \wedge \vec A) = \nabla (\vec\cdot \vec)
+- (\vec V\cdot\nabla)\vec A .
+on obtient
+\frac= - q\frac -q \nabla\phi + q\left (\vec V \wedge (\nabla \wedge \vec A) \right) .
+soit la force de Lorentz
+:\nabla \wedge \vec A =\vec B.
+\vec E = -\nabla
+\phi
+- \frac.
+On peut également faire apparaitre la force de Lorentz grâce aux équations de maxwell, elle apparait comme terme source dans l'équation de continuité de la densité d'impulsion du champ électromagnétique.
+Soit
+\frac + \rho\vec E +\vec j\wedge\vec B -\nabla \sigma = 0.
+avec \sigma le tenseur des contraintes de Maxwell.
+On peut aussi passer par le formalisme relativiste du lagrangien, appliqué à la relativité restreinte.
+Dans ce cadre-là, le mouvement d'une particule suivant la trajectoire x (τ) soumise au champ électromagnétique est décrit par son action, qui prend la forme
+S = \int q A_b \;
+x^b,
+où la quantité A est ce que l'on appelle le quadripotentiel, duquel on tire le potentiel électrique et le potentiel vecteur qui déterminent entièrement le champ électrique et le champ magnétique.
+On définit comme de coutume en relativité restreinte la quadrivitesse par
+u^a \equiv \frac\quad,
+ce qui permet de réécrire l'action sous la forme
+:S = \int q A_b
+u^b \;
+\tau.
+Dans le formalisme de l'action (qui est l'intégrale du lagrangien), la trajectoire est déterminée par la maximisation de l'action par rapport aux variations possibles de la trajectoire x (τ).
+La trajectoire apparaît explicitement dans le quadrivecteur vitesse, mais aussi implicitement dans le quadripotentiel, puisque l'on évalue celui-ci en chaque point de la trajectoire.
+Ainsi, la variation de l'action donne-t-elle
+:\delta S = \int q \left \;
+\tau.
+On peut intégrer le premier terme par partie, pour obtenir
+:\delta S = \int q \left \;
+\tau,
+mais comme le quadripotentiel dépend est uniquement évalué sur des points de la trajectoires
+, on a
+:\delta S = \int q \left \;
+\tau.
+En regroupant l'ensemble des termes, il vient
+:\delta S = \int q \left u^b \right)\;
+\delta
+x^a\;
+\tau.
+Le terme de l'intégrale en dehors du dτ et des δx donne la force.
+En introduisant le tenseur électromagnétique F tel que
+:F_ = \partial_a
+A_b
+- \partial_b A_a,
+la force f s'écrit donc
+:f^a = q F^a_ u^b.
+Du fait de la structure des équations de Maxwell, on montre que le champ magnétique peut être écrit sous la forme du rotationnel d'un vecteur, le potentiel vecteur du champ magnétique.
+Or la partie spatiale du tenseur électromagnétique peut s'écrire, si l'on se place en coordonnées cartésiennes x, y, z,
+F^a_
+\left
+\left (\begin0 & ?
+& ?
+& ?
+\\ ?
+& 0 & (\;
+A)^z & - ( \;A)^y \\ ?
+& - (\;
+A)^z & 0 & (\;
+A)^x \\ ?
+& (\;
+A)^y & - ( \;A)^x & 0 \end \right).
+Appliqué à la partie spatiale de la quadrivitesse, on vérifie, en notant \vec B le rotationnel de \vec A , que l'on a
+F^a_
+u^b
+\left (\begin ?
+\\ v^y B^z
+- v^z B^y \\ v^z B^x
+- v^x B^z \\
+v^x B^y
+- v^y B_x \end\right)
+\left (\begin ?
+\\ \\ \vec v \wedge \vec B \\ ~ \end \right).
+Si maintenant on considère en sus les composantes temporelles du tenseur F, on a
+:F^a_ = \left .
+Or, étant données les équations de Maxwell, on sait que l'on peut écrire le champ électrique comme la somme de l'opposé de la dérivée temporelle du potentiel vecteur et du gradient du potentiel électrique, que l'on va assimiler à A. On a ainsi l'expression quadridimensionnelle de la force :
+F^a_
+u^b = \left (\begin \frac \\ \\ \vec E + \vec v \wedge \vec B \\ ~ \end \right).
+Ordre de grandeur
+L'interaction électromagnétique est la deuxième des quatre interactions élémentaires dans l'ordre des puissances.
+À basse énergie, soit celle des réactions chimiques ou nucléaires, elle est à peu près cent fois plus faible que l'interaction forte, mais dépasse les interactions faibles et gravitationnelles d'un facteur 10 et 10 respectivement.
+Travail de la force de Lorentz
+Le travail de la force de Lorentz correspond à l'énergie transmise par le champ électromagnétique aux particules chargées.
+Pour un déplacement élémentaire d\vec du point d'application de la force, le travail élémentaire de la force de Lorentz \vec est par définition :
+\delta W = \vec \cdot d\vec
+:\delta W = (q \vec + q \vec \wedge \vec)
+\cdot
+d\vec
+Comme on a par définition d\vec = \vec dt, il vient :
+\delta W = q \vec \cdot \vec dt + q \vec \wedge \vec \cdot \vec dt
+Le deuxième terme s'annule, le vecteur produit \vec \wedge \vec étant orthogonal à \vec.
+On trouve donc finalement :
+\delta W = q \vec \cdot \vec dt
+Le travail de la force de Lorentz n'est donc pas nul dans le cas général.
+On constate en revanche que la force magnétique ne travaille pas, seule la composante électrique travaille et peut donc faire varier l'énergie cinétique d'une particule chargée.
+Articles connexes
+hhwqpkw7gvlhm0ufs2ehymola9v39qu

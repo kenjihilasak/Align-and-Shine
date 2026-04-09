@@ -1,0 +1,83 @@
+Sudoku (en japonés: 数独, sūdoku) es un juego matemático que se inventó a finales de la década de 1970, adquirió popularidad en Japón en la década de 1980 y se dio a conocer en el ámbito internacional en 2005 cuando numerosos periódicos empezaron a publicarlo en su sección de pasatiempos.
+El objetivo del sudoku es rellenar una cuadrícula de 9 × 9 celdas (81 casillas) dividida en subcuadrículas de 3 × 3 (también llamadas "cajas" o "regiones") con las cifras del 1 al 9 partiendo de algunos números ya dispuestos en algunas de las celdas.
+Aunque se podrían usar colores, letras, figuras, se conviene en usar números para mayor claridad, lo que importa, es que sean nueve elementos diferenciados, que no se deben repetir en una misma fila, columna o subcuadrícula.
+Un sudoku está bien planteado si la solución es única, algo que el matemático Gary McGuire ha demostrado que no es posible si no hay un mínimo de 17 cifras de pista al principio.
+La solución de un sudoku siempre es un cuadrado latino, aunque el recíproco en general no es cierto ya que el sudoku establece la restricción añadida de que no se puede repetir un mismo número en una subcuadrícula.
+Historia
+En el siglo XVIII, el famoso matemático suizo, Leonhard Euler de Basilea (1707-1783), creó un sistema de probabilidades para representar una serie de número sin repetir.
+Debido a esto Leonhard Euler de Basilea se considera el inventor de este juego.
+Ya en 1970 la editorial Math Puzzles and Logic Problems publicaba una sección llamada Number place por lo que este enigma matemático se convertiría en pasatiempos aunque años más tarde se perdió en el olvido.
+En 1984 el periódico japonés Monthly Nikolist publicó una sección de pasatiempos llamada Sūji wa dokushin ni kagiru (数字は独身に限る) "los números deben estar solos" (literalmente dokushin (独身)
+"célibe, soltero").
+Fue Kaji Maki, presidente de Nikoli, quien le puso el nombre.
+El nombre se abrevió a Sūdoku (sū
+número, doku = solo).
+Se comenzó a conocer internacionalmente en 2005, cuando varios periódicos empezaron a publicarlo como pasatiempo.
+cree haber probado que un cuadrado latino con menos de 17 pistas necesariamente tendrá múltiples soluciones (si la tiene).
+Es decir, para ser bien planteado es condición necesaria que un sudoku deba tener al menos 17 pistas.
+La construcción de un sudoku puede ser realizada a mano eficientemente predeterminando las posiciones de los números dados y asignándoles valores para realizar un proceso deductivo.
+Los sudokus Nikoli se construyen a mano, y el nombre del autor aparece en los créditos junto a cada rompecabezas; los números dados siempre se encuentran en forma de un patrón simétrico.
+Los rompecabezas Number Place Challenger de Dell (véase Variantes más abajo) también citan los créditos del autor.
+Los rompecabezas sudoku que aparecen en la mayoría de los periódicos del Reino Unido aparentemente son generados por ordenador, pero emplean probables en sudokus generados por ordenador.
+El desafío para los programadores de sudokus es enseñar a un programa cómo construir rompecabezas inteligentes, de manera que no se puedan distinguir de aquellos realizados por humanos; Wayne Gould necesitó retocar su popular programa durante seis años para creer que había alcanzado ese nivel.
+Variantes
+Aunque lo más común es que la tabla tenga un tamaño de 9x9 con regiones de 3x3, hay numerosas variantes.
+Los juegos de iniciación pueden ser tablas de 4x4 con regiones de 2x2; bajo el nombre de Logi-5, se han publicado tablas de 5x5 con pentominós como regiones; el World Puzzle Championship ha publicado una tabla de 6x6 con regiones de 2x3 y una tabla de 7x7 formada por 6 regiones compuestas por heptominós y una región separada.
+También se pueden encontrar tablas de mayor tamaño.
+El diario The Times propone el Dodeka Sudoku, una tabla de 12x12 con 12 regiones de 4x3.
+Dell Magazines publica con frecuencia juegos de 16x16 (la variante de 16x16 utiliza normalmente los símbolos del 1 a la G, en lugar de los símbolos del 0 a la F usados en hexadecimal).
+El editor de puzzles Nikoli propone el Sudoku Gigante de 25x25.
+Otra variante frecuente es añadir límites en la colocación de los números aparte de mantener los requisitos normales sobre filas, columnas y regiones.
+Con frecuencia, los límites toman la forma de una “dimensión” extra; lo más común es obligar a que los números de la diagonal principal de la tabla sean únicos.
+Los ya mencionados juegos Number Place Challenger incluyen esta variante.
+También forman parte de esta variante los juegos del Daily Mail que utilizan tablas de 6x6.
+El periódico americano USA Today publica otra variante denominada “Mini Sudoku”, consistente en una tabla de 6x6 con regiones de 3x2.
+El objetivo es el mismo que en el Sudoku original, pero en esta variante solo se utilizan números del 1 al 6.
+Otra variante es la combinación del Sudoku y el Kakuro en una tabla de 9x9, denominada Sudoku de Sumas Cruzadas, en la que las pistas se dan a través de sumas cruzadas.
+También es posible que las pistas se den mediante criptoaritmos en los que cada letra representa un único dígito del 0 al 9.
+Un ejemplo es
+: NUMBER+NUMBER
+KAKURO cuya única solución es
+186925+186925
+Otro ejemplo es
+SUDOKU
+IS*FUNNY cuya solución es
+34*12558.
+El Addoku combina elementos de Sudoku y Kakuro - normalmente no se dan números iniciales, sino que la tabla de 9x9 se divide en regiones, cada una de las cuales contiene la suma de todos los números de la región teniendo además en cuenta que no hay números repetidos en la misma región.
+A la hora de completar la tabla se mantienen además las reglas del Sudoku original.
+Una de las variantes más populares es el Hypersudoku.
+Se publica en periódicos y revistas de todo el mundo y también es conocido por “Sudoku NRC Handelsblad”, “Windoku”, “Hiper-Sudoku” y “Sudoku 4 cuadros”.
+La base es idéntica a la del Sudoku original, pero incluye áreas interiores adicionales en las que deben aparecer números del 1 al 9.
+El algoritmo que lo resuelve es ligeramente diferente del Sudoku normal por la influencia de los cuadros solapados.
+Este solapamiento da al jugador más información que permite reducir las posibilidades de los restantes cuadros.
+La forma de jugar es similar a la del Sudoku pero es necesario prestar más atención a las cuadros y a las zonas solapadas que a las filas y columnas.
+También son comunes los juegos construidos a partir de múltiples tablas de Sudoku.
+En Japón es conocido el Sudoku Gattai 5 (mezcla de 5) compuesto por 5 tablas de 9x9 con solapamiento en las regiones de las esquinas con forma de quincuncio.
+En diarios como The Times o The Sydney Morning Herald, esta variante se conoce como Sudoku Samurai.
+Otros como el Baltimore Sun y el Toronto Star publican esta variante en su edición dominical con el nombre High Five.
+Con frecuencia, no se proporcionan pistas en las regiones solapadas.
+También se publican variantes con tablas secuenciales, en lugar de solapadas, en las que los valores de determinadas posiciones se transfieren de una tabla a otra.
+El Sudoku Social es una versión digital multijugador de Sudoku que permite a 2 jugadores jugar al mismo tiempo sobre el mismo tablero.
+Esta variante fue creada por Crosswords Ltd.
+en 2010 y lanzada como aplicación para la plataforma iOS de Apple a través de su Game Center.
+El Sudoku Socialhttp:/ us social-sudoku/id403590129?mt=8 concede puntos a cada jugador a medida que van colocando los números correctamente, bloqueando el cuadro seleccionado al otro jugador.
+Las jugadas incorrectas hacen que el jugador no tenga acceso al tablero durante 10 segundos, además de provocar la pérdida de puntos.
+También han surgido variantes alfabéticas, llamadas a veces Sudokus de letras (Wordokus): no existe diferencia funcional a menos que las letras formen palabras.
+Algunas variantes, como la de TV Guide, incluyen una vez resuelto el juego una palabra en la diagonal principal, en una fila o en una columna; determinar la palabra por adelantado puede ser una ayuda para la resolución del juego.
+Un Wordoku puede contener otras palabras además de la palabra principal.
+Como en el ejemplo de la derecha, las palabras “Kari”, “Park” y “Per” podrían formar parte de la solución.
+Esto debería evitarse sustituyendo, por ejemplo, el carácter “R” por el carácter “Q”.
+Por otro lado el Sudoku Ripetohttp:/ / mostrar palabras en el tablero antes de la resolución.
+Otra variante sin diferencia funcional es el Quadratum Latinum con Numeración romana de Hebdomada Aenigmatum, la revista de crucigramas íntegramente en latín de Luca Desiata.
+Con una baraja estándar de 81 cartas del juego Set!http:/ puede jugarse al Sudoku.
+La versión tridimensional del Sudoku fue inventada por Dion Church y publicada en el Daily Mail Telegraph en mayo de 2005.
+También existe una versión del cubo de Rubik denominada el cuboku.
+Hay otras muchas variantes.
+Algunas presentan diferentes formas en la disposición de los solapamientos de tablas de 9x9, tales como una mariposa, un molino o una flor.
+Otras versiones varían en la lógica de resolución del juego.
+Una de ellas es Sudoku Mayor que.
+En esta versión, cada región de 3x3 contiene 12 símbolos de mayor (>) o menor (<) en la línea común de dos números adyacentes.
+Otra variante de este tipo es Sudoku Sin pistas en el que se colocan nueve tablas de Sudoku de 9x9 en una matriz de 3x3.
+La celda central de cada región de 3x3 en cada una de las 9 tablas se deja en blanco, formando un décimo Sudoku sin ninguna celda completa; de ahí el nombre "sin pistas".
+Véase también
+* Cuadrado mágico

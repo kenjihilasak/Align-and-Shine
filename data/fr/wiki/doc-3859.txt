@@ -1,0 +1,443 @@
+Théorème de logique
+mathématique|Incompletude|Théorie des modèles|Théorie de la démonstration|Principe épistémologique|Kurt Gödel
+Les théorèmes d'incomplétude de Gödel sont deux théorèmes célèbres de logique mathématique, publiés par Kurt Gödel en 1931 dans son article (« Sur les propositions formellement indécidables des Principia Mathematica et des systèmes apparentés »).
+Ils ont marqué un tournant dans l'histoire de la logique en apportant une réponse négative à la question de la démonstration de la cohérence des mathématiques posée plus de 20 ans auparavant par le programme de Hilbert.
+Le premier théorème d'incomplétude établit qu'une théorie suffisante pour y démontrer les théorèmes de base de l'arithmétique est nécessairement incomplète, au sens où il existe des énoncés qui n'y sont ni démontrables, ni réfutables (un énoncé est démontrable si on peut le déduire des axiomes de la théorie, il est réfutable si on peut déduire sa négation).
+On parle alors d'énoncés indécidables dans la théorie.
+Le second théorème d'incomplétude est à la fois un corollaire et une formalisation d'une partie de la preuve du premier.
+Il traite le problème des preuves de cohérence d'une théorie : une théorie est cohérente s'il existe des énoncés qui n'y sont pas démontrables (ou, ce qui revient au même, si on ne peut y démontrer A et non A) ;
+par exemple on exprime souvent la cohérence de l'arithmétique par le fait que l'énoncé 0 = 1 n'y est pas démontrable (sachant que bien entendu 0 ≠ 1 l'est).
+Sous des hypothèses à peine plus fortes que celles du premier théorème on peut construire un énoncé exprimant la cohérence d'une théorie dans le langage de celle-ci.
+Le second théorème affirme alors que si la théorie est cohérente cet énoncé ne peut pas en être conséquence, ce que l'on peut résumer par : « une théorie cohérente ne démontre pas sa propre cohérence ».
+Énoncés des deux théorèmes
+Le premier théorème d'incomplétude peut être énoncé de la façon encore un peu approximative suivante (les termes techniques sont expliqués dans le paragraphe suivant).
+De tels énoncés sont dits indécidables dans cette théorie.
+On dit également indépendants de la théorie.
+Toujours dans l'article de 1931, Gödel en déduit le second théorème d'incomplétude :
+Ces deux théorèmes sont valides par exemple pour l'arithmétique de Peano et donc pour les théories plus fortes que celle-ci, en particulier les théories destinées à fonder les mathématiques, telles que la théorie des ensembles ou les Principia Mathematica.
+Les conditions d'application des théorèmes
+Pour fixer les idées, on considère dorénavant que les théories en question sont, comme celles que l'on vient de mentionner (arithmétique de Peano, théorie des ensembles), des théories du premier ordre de la logique classique, même si les théorèmes d'incomplétude restent valides, sous les mêmes conditions, par exemple en logique intuitionniste ou en passant à l'ordre supérieur.
+* Par théorie récursivement axiomatisable, on entend que la théorie peut être axiomatisée de façon qu'il soit possible de reconnaître purement mécaniquement les axiomes parmi les énoncés du langage de la théorie.
+C'est le cas évidemment des théories utilisées pour formaliser tout ou partie des mathématiques usuelles.
+Une théorie est cohérente s'il existe des énoncés qui ne sont pas conséquence de ses axiomes ;
+ou autrement dit si elle ne démontre pas tous les énoncés.
+Une théorie incohérente permet de tout démontrer et est donc vide de sens.
+La cohérence est souvent exprimée sous la forme équivalente : aucune contradiction ne peut être prouvée à partir des axiomes.
+On dit aussi qu'elle est consistante ou non contradictoire.
+Pour pouvoir démontrer son premier théorème d'incomplétude sous sa forme la plus générale - il existe un énoncé qui n'est ni démontrable, ni réfutable dans la théorie
+- Gödel faisait une hypothèse de cohérence un peu plus forte.
+Cette hypothèse n'est toutefois pas nécessaire pour le second théorème, qui n'énonce que la non-démontrabilité de l'énoncé de cohérence.
+De plus, John Barkley Rosser a donné en 1936 une démonstration du premier théorème d'incomplétude sous cette simple hypothèse de cohérence.
+À proprement parler, l'énoncé du premier théorème d'incomplétude donné ci-dessus n'est donc pas exactement celui de Gödel ;
+pour cette raison on nomme celui-ci théorème de Gödel-Rosser.
+Une théorie permet de formaliser l'arithmétique si, d'une part il est possible de définir (en un sens qu'il faudrait préciser) les entiers (donnés par zéro et la fonction successeur), avec les opérations usuelles, au moins l'addition et la multiplication, et si d'autre part un certain nombre d'énoncés sur les entiers sont prouvables dans la théorie.
+L'arithmétique de Peano est une telle théorie, et satisfait les hypothèses des deux théorèmes d'incomplétude.
+En fait une théorie arithmétique beaucoup plus faible suffit pour le premier (la récurrence n'est essentiellement pas utile).
+Pour le second, les preuves usuelles utilisent un minimum de récurrence.
+Il est remarquable que pour formaliser l'arithmétique, l'addition et la multiplication suffisent (en plus de zéro et du successeur).
+C'est le tout premier pas vers la solution du dixième problème de Hilbert (voir théorème de Matiyasevich).
+L'addition seule ne suffit pas : l'arithmétique de Presburger, qui est la théorie obtenue en restreignant l'arithmétique de Peano au langage de l'addition (en plus de zéro et du successeur), est complète.
+Conséquences immédiates du premier théorème d'incomplétude
+On peut reformuler le premier théorème d'incomplétude en disant que si une théorie T satisfait les hypothèses utiles, il existe un énoncé tel que chacune des deux théories obtenues l'une en ajoutant à T cet énoncé comme axiome, l'autre en ajoutant la négation de cet énoncé, sont cohérentes.
+Donnons-en la démonstration.
+Étant donné un énoncé G, notons non G sa négation.
+On montre facilement qu'un énoncé G n'est pas démontrable dans T si et seulement si la théorie T + non G (la théorie T à laquelle on ajoute l'axiome non G) est cohérente.
+En effet, si G est démontrable dans T, T + non G est évidemment contradictoire.
+Réciproquement, supposons T + non G contradictoire.
+Cela signifie que, dans la théorie T, on peut déduire de non G une contradiction.
+On en déduit que G est conséquence de T (c'est un raisonnement par contraposée).
+Il est donc équivalent de dire qu'un énoncé G est indécidable dans une théorie cohérente T, et de dire que les deux théories T + non G et T + G sont cohérentes.
+L'énoncé G n'étant évidemment pas indécidable dans chacune de ces deux théories
+, on voit que la notion d'énoncé indécidable est par nature relative à une théorie donnée.
+Ainsi, si G est un énoncé indécidable donné pour T par le premier théorème d'incomplétude, on aura, en appliquant à nouveau ce théorème, un nouvel énoncé indécidable dans la théorie T + G (et donc d'ailleurs indécidable aussi dans la théorie T).
+De fait, quand le théorème d'incomplétude s'applique à une théorie T, il s'applique à toutes les extensions cohérentes de cette théorie, tant qu'elles restent récursivement axiomatisables : il n'y a aucun moyen effectif de compléter une telle théorie.
+On peut également noter que, quelle que soit la théorie en jeu, Gödel a montré que l'énoncé indécidable qu'il construit pour démontrer son théorème est arithmétique, c’est-à-dire qu'on peut l'exprimer dans le langage de l'arithmétique, même si la théorie est plus expressive.
+Il s'agit même d'un énoncé de l'arithmétique qui, bien que fastidieux à écrire explicitement, est logiquement assez simple .
+Par exemple, on obtiendra par le théorème de Gödel appliqué à la théorie des ensembles de Zermelo-Fraenkel un énoncé arithmétique, qui sera pourtant indécidable dans cette même théorie des ensembles.
+Conséquences immédiates du second théorème d'incomplétude
+L'énoncé du second théorème d'incomplétude a ceci de particulier, qu'il utilise la formalisation de la théorie dans elle-même, puisqu'il parle de la cohérence de la théorie comme d'un énoncé de celle-ci.
+C'est assez inhabituel en mathématiques, et cela entraîne facilement des confusions.
+Les conséquences qui suivent sont immédiates, au sens où elles se déduisent « simplement » du second théorème d'incomplétude, mais cette simplicité elle-même peut n'avoir rien d'immédiate.
+Il peut être utile pour comprendre l'énoncé du second théorème d'incomplétude, de le reformuler par contraposée :
+On peut remarquer que ce théorème ne dit rien dans le cas où T démontre un énoncé exprimant qu'elle n'est pas cohérente.
+De fait, on peut déduire du second théorème cette conséquence, apparemment paradoxale, qu'il existe des théories non contradictoires démontrant leur propre incohérence.
+Pour voir cela, appelons cohT un énoncé qui exprime la cohérence de T dans la théorie T. De la même façon qu'au paragraphe précédent pour le premier théorème, on reformule le second théorème d'incomplétude en disant que, sous les hypothèses utiles sur T, si la théorie T est cohérente, la théorie T'=T + non cohT est encore cohérente.
+Rappelons que « T n'est pas cohérente », signifie qu'il existe une preuve d'une contradiction dans T.
+Une preuve dans T est aussi une preuve dans T' , qui a juste un axiome supplémentaire.
+Il est donc simple de montrer dans une théorie telle que T, qui satisfait les hypothèses du théorème de Gödel, que non cohT a pour conséquence non cohT' (n'oublions pas cependant que cohT et cohT' sont des énoncés exprimés dans le langage de ces théories, il faudrait, pour que la preuve soit vraiment complète, rentrer dans le détail de cette représentation pour montrer cette implication).
+On a donc déduit du second théorème d'incomplétude, et de l'existence d'une théorie cohérente T qui satisfait les hypothèses de ce théorème
+- par exemple l'arithmétique de Peano
+- l'existence d'une théorie T' cohérente qui démontre non cohT', par exemple l'arithmétique de Peano augmentée d'un axiome exprimant l'incohérence de celle-ci.
+De telles théories sont pathologiques : on n'en rencontre pas parmi les théories mathématiques usuelles.
+A contrario une théorie incohérente, dans laquelle tous les énoncés sont prouvables, démontrera évidemment un énoncé exprimant qu'elle est cohérente.
+Un autre exemple d'application simple, mais assez surprenante, du second théorème d'incomplétude est le théorème de Löb, qui affirme que, dans une théorie T qui satisfait les hypothèses utiles, prouver dans T un énoncé sous l'hypothèse que cet énoncé est prouvable dans la théorie, revient à prouver l'énoncé.
+Autrement dit cette hypothèse est inutile.
+On voit par ces diverses remarques que le second théorème d'incomplétude ne dit rien en défaveur de la cohérence d'une théorie à laquelle il s'applique, par exemple la cohérence de l'arithmétique de Peano.
+Tout ce qu'il dit de cette dernière est que l'on ne peut pas la démontrer en utilisant seulement les axiomes de l'arithmétique, c'est-à-dire essentiellement la récurrence sur les entiers.
+Nous revenons sur ce point plus bas, mais remarquons tout de suite que c'est ici que le programme de Hilbert est contredit : Hilbert voulait démontrer la cohérence des mathématiques dans un fragment finitaire de celles-ci, c'est-à-dire dans une théorie comme l'arithmétique ne permettant de manipuler que des objets finis (des entiers, des formules, des démonstrations...) ;
+or une telle théorie satisfait les hypothèses des deux théorèmes donc est incomplète et ne prouve pas sa propre cohérence.
+Ainsi les théorèmes de Gödel ont pour corollaire, au sens mathématique du terme, l'impossibilité de réaliser le programme de Hilbert.
+Accueil des théorèmes par les mathématiciens
+Les théorèmes d'incomplétudes, et surtout leurs conséquences sur la conception qu'avaient les mathématiciens de l'époque de leur discipline, en particulier David Hilbert et ses élèves, étaient très inattendus.
+Peu de mathématiciens comprirent tout d'abord ces théorèmes et ce qu'ils impliquaient.
+Il faut compter parmi ceux-ci John von Neumann, qui après avoir assisté au premier exposé de Gödel en 1930 sur le premier théorème d'incomplétude, lui envoya une lettre mentionnant un corollaire qui était le second théorème (que Gödel connaissait déjà).
+Paul Bernays également, proche collaborateur de David Hilbert, comprit très vite les conséquences de ces théorèmes sur les conceptions de ce dernier, et donna la première démonstration détaillée du second théorème dans l'ouvrage (cosigné avec Hilbert).
+Enfin, Gödel se rendit plusieurs fois aux États-Unis dans les années 1930.
+Ses travaux eurent une grande audience auprès d'Alonzo Church et de ses élèves, Stephen Cole Kleene et J. Barkley Rosser, et jouèrent un rôle important dans la naissance de la théorie de la calculabilité.
+Le second problème de la célèbre liste que Hilbert présenta en 1900 à Paris était celui de la démonstration de la cohérence de l'arithmétique.
+L'arithmétique joue un rôle particulier dans le programme car, même si Hilbert n'a jamais défini précisément ce qu'il entendait par théorie finitaire, il semble clair qu'à ses yeux l'arithmétique en était une.
+Il était donc important à ses yeux de démontrer la cohérence de l'arithmétique par des moyens internes, c'est-à-dire sans employer de principe mathématique plus fort que la récurrence sur les entiers ;
+comme on l’a déjà vu, le second théorème d'incomplétude montre que c'est impossible.
+Curieusement cela n'a pas empêché les logiciens de continuer à chercher ;
+ainsi Gerhard Gentzen donna en 1936 qui utilisait un principe d'induction plus fort que la récurrence sur les entiers, et Gödel lui-même produisit plusieurs constructions, notamment l', conduisant à des preuves de cohérence de l'arithmétique.
+Mentionnons également
+Alonzo Church dont le lambda-calcul fut initialement conçu pour développer des preuves élémentaires de cohérence.
+Cette recherche de démonstrations de cohérence, apparemment rendue vaine par les théorèmes d'incomplétude, fut donc au contraire extrêmement fructueuse en posant les bases de la théorie de la démonstration moderne.
+Vérité et démontrabilité
+Les théorèmes d'incomplétude traitent du rapport fondamental en logique entre vérité et prouvabilité et surtout établissent de façon formelle que ces deux concepts sont profondément différents.
+En mathématique on considère qu'une fois un énoncé prouvé, celui-ci peut être considéré comme vrai, mais ce faisant on utilise une condition importante quoique rarement explicitée : que les hypothèses utilisées dans la démonstration soient non contradictoires.
+Une démonstration aussi rigoureuse soit-elle ne vaut rien si elle est fondée sur des bases branlantes puisque l'on a vu qu'une théorie contradictoire démontre n'importe quel énoncé (et son contraire).
+Par conséquent la cohérence d'une théorie est l'ingrédient absolument nécessaire pour assurer que tout théorème de la théorie est vrai.
+Les théorèmes d'incomplétude montrent que cet ingrédient ne peut être interne à la théorie.
+C'est ce qu'exprime le théorème de Löb : si une théorie T démontre une formule A sous l'hypothèse que A est démontrable dans T, alors cette hypothèse est inutile et on peut démontrer A sans celle-ci ; car déduire A du fait que A est démontrable revient à utiliser la cohérence de T ;
+mais justement celle-ci n'est pas démontrable dans T et donc cet argument n'a pas pu être utilisé dans la preuve.
+Les théorèmes d'incomplétude sont fondés sur le fait qu'il est possible de définir la prouvabilité dans une théorie en utilisant uniquement quelques principes d'arithmétique (et donc dans toute théorie contenant ces quelques principes d'arithmétique).
+Par contre pour définir la vérité dans une théorie il est nécessaire de se donner d'autres moyens qui reviennent essentiellement à supposer que la théorie est cohérente : il faut par exemple pouvoir construire un modèle ce qui ne peut se faire en général en utilisant seulement les principes de l'arithmétique.
+Vérité dans le modèle standard de l'arithmétique
+À l'époque où Gödel démontre son théorème, la notion de vérité n'est pas vraiment formalisée, même si elle est connue de ce dernier, puisqu'il a démontré en 1929 le théorème de complétude.
+La définition utilisée actuellement est due à Alfred Tarski, on la trouve dans un article publié en 1956.
+La vérité est définie relativement à une interprétation des formules dans un modèle, une structure mathématique : un ensemble muni de lois et de relations.
+Nous allons nous intéresser à la vérité dans le modèle standard de l'arithmétique, les entiers que «tout le monde connaît», que l'on note N. Remarquons tout d'abord que, comme son nom le suggère il existe également des modèles non standards de l'arithmétique : le théorème d'incomplétude de Gödel montre l'existence de structures mathématiques qui ressemblent aux entiers, au sens où tous les axiomes de l'arithmétique de Peano, y compris la récurrence, y sont satisfaits, mais qui ne sont pas les entiers usuels, parce qu'elles vérifient des énoncés faux dans le modèle standard N. En effet, soit G la formule du premier théorème, qui donc exprime sa propre non prouvabilité dans l'arithmétique de Peano ;
+cette formule est vraie dans N, c'est précisément ce que démontre le premier théorème.
+Comme vu à la section précédente, la théorie constituée de l'arithmétique de Peano augmentée de la formule non G est cohérente.
+Cela signifie, d'après le théorème de complétude du même Gödel, que cette théorie admet un modèle qui satisfait donc en particulier non G, et donc ne saurait être le modèle standard N.
+L'interprétation standard consiste à associer à chaque symbole du langage de l'arithmétique une signification dans le modèle : la constante 0 est interprétée par l'entier 0, le symbole de fonction s par la fonction successeur (n \mapsto n+1), etc.).
+Ce dictionnaire permet ainsi de transformer les formules, objets formels, en des énoncés sur les entiers.
+Ainsi l'expression formelle s (s (0)) est interprétée comme l'entier 2, la formule s (s (0)) > 1 \wedge \forall a, b\, (s (s (0))
+a\times b \rightarrow
+s (0)\vee b = s (0)) exprime la propriété (vraie en l'occurrence) que 2 est un nombre premier, etc.
+On vérifie facilement que les interprétations des axiomes de l'arithmétique de Peano sont vraies dans le modèle standard, ce qui n'a rien de surprenant puisque ceux-ci étaient précisément conçus pour définir les entiers.
+Il est intéressant de considérer quelques cas particuliers d'interprétation de formules.
+Les plus simples sont les formules atomiques closes qui deviennent des égalités et inégalités polynomiales sur les entiers dont la vérité ou la fausseté peuvent être vérifiées algorithmiquement.
+Les formules closes sans quantificateurs restent décidables : on peut se ramener à des conjonctions et disjonctions d'égalités et d'inégalités (≠ et ≤) polynomiales.
+On peut remarquer que pour décider ces formules on a besoin de très peu d'outils, il suffit juste de savoir calculer les sommes et les produits, et de disposer d'un algorithme pour décider les égalités et les inégalités entre entiers.
+En fait il est facile de voir que si l'interprétation d'une formule close et sans quantificateur est vraie dans le modèle standard alors cette formule est démontrable dans l'arithmétique en utilisant uniquement les axiomes définissant le successeur, la somme, la multiplication et la relation d'ordre.
+Ce sous-système de l'arithmétique, appelé arithmétique de Robinson ou arithmétique élémentaire, permet donc toutes les démonstrations sur les entiers qui n'utilisent pas la récurrence.
+Et comme la négation d'une formule close sans quantificateurs est close et sans quantificateurs, si celle-ci est fausse alors sa négation est prouvable dans l'arithmétique élémentaire.
+En résumé : l'arithmétique élémentaire décide les formules closes sans quantificateurs.
+Les choses se compliquent lorsque l'on passe aux quantificateurs : une formule existentielle, c'est-à-dire de la forme ∃x1 …
+xn (P (x1, …, xn)
+Q (x1, …, xn)) où P et Q sont des polynômes à n variables, est vraie quand on peut trouver n entiers a1, …, an tels que P (a1, … , an)
+Q (a1, … , an).
+S'il existe un tel n-uplet d'entiers, une machine pourra le trouver, en essayant les n-uplets entiers les uns après les autres (par exemple en énumérant tous les n-uplets dont la somme est 0, puis tous ceux dont la somme est 1, puis tous ceux dont la somme est 2, etc.).
+Autrement dit si une formule existentielle est vraie dans le modèle standard alors cette formule est vérifiable algorithmiquement et par conséquent démontrable dans l'arithmétique élémentaire ;
+cette remarque, un peu généralisée est fondamentale dans la preuve du théorème d'incomplétude, voir le paragraphe sur les formules Σ plus bas.
+Par contre si une formule existentielle est fausse, alors cet algorithme ne s'arrêtera pas.
+Le théorème de Matiiassevitch montre qu'il n'existe pas d'algorithme qui déciderait le statut de n'importe quelle formule existentielle.
+La situation est « pire » pour le quantificateur universel : un énoncé universel est un énoncé du genre ∀x1, …, xn (P (x1, …, xn)
+Q (x1, …, xn)) ;
+cet énoncé est vrai dans le modèle standard si pour chaque n
+uplet
+d'entiers a1
+, …, an, l'égalité P (a1, …, an)
+Q (a1, …, an) est vraie : c'est bien défini, mais, si l'on suit la définition, cela demande une infinité de vérifications.
+On voit bien la différence entre vérité et démontrabilité : une preuve est nécessairement finie et se vérifie de manière algorithmique.
+Pour démontrer un énoncé universel tel que celui-ci, habituellement on fait une récurrence ce qui permet de représenter de façon finie une infinité de vérifications : la récurrence peut se « déplier » de façon à construire une infinité de preuves, une pour chaque entier.
+La récurrence introduit toutefois une certaine uniformité dans ces preuves et il n'y a aucune raison que tout énoncé universel vrai dans le modèle standard puisse être démontré ainsi ;
+le théorème de Gödel montre justement que ce n'est pas le cas.
+En effet appliquons le théorème de Gödel à l'arithmétique de Peano.
+L'énoncé de Gödel est un énoncé universel, de la forme ∀x H (x) où H est une formule sans quantificateur et dépendant seulement de la variable x. Quand on définit précisément l'énoncé, on montre que pour chaque entier n, H (n), est prouvable dans l'arithmétique de Peano, donc vrai dans le modèle standard.
+C'est la raison pour laquelle ∀x H (x) est vrai
+dans le modèle standard
+mais l'énoncé est précisément construit pour en déduire qu'alors il n'est pas prouvable dans la théorie considérée, ici l'arithmétique de Peano.
+Il y a là un point subtil : le théorème démontre que ∀x H (x) est vraie dans le modèle standard.
+Mais le seul moyen en maths de s'assurer qu'une formule est vraie, c'est de la prouver, nous avons donc une preuve de ∀x H (x) et en regardant la démonstration du théorème on peut se convaincre que cette preuve n'utilise pas de principes plus forts que ceux de l'arithmétique.
+Cette formule semble prouvable dans l'arithmétique mais justement le théorème de Gödel assure qu'elle ne l'est pas !
+La raison est que l'énoncé « ∀x H (x) est vrai dans le modèle standard » présuppose l'existence du modèle standard, c'est-à-dire présuppose la cohérence de l'arithmétique ;
+pour être tout à fait précis on n'a pas démontré ∀x H (x) mais : si l'arithmétique est cohérente alors ∀x H (x) ;
+et cette démonstration est tout à fait formalisable dans l'arithmétique, c'est d'ailleurs la clef du second théorème d'incomplétude.
+Vérité et incomplétude
+Rappelons que si l'on démontre un énoncé à partir d'énoncés vrais dans un modèle, l'énoncé obtenu est vrai dans ce modèle, et que, dans un modèle, un énoncé (une formule close) est soit vrai soit faux.
+Par conséquent la théorie des énoncés vrais dans N est close par déduction et complète.
+On déduit immédiatement du premier théorème d'incomplétude que
+et donc, la vérité étant close par déduction
+C'est une version faible du théorème d'incomplétude, énoncée pour les théories dont tous les axiomes sont vrais dans N, alors que cette forme du théorème de Gödel se démontre sous la simple hypothèse de cohérence de ces axiomes qui est beaucoup plus générale (tout ceci en ayant précisé correctement ce que signifie « suffisamment d'arithmétique »).
+On ne peut pas non plus le formaliser directement dans l'arithmétique, pour en déduire le second théorème d'incomplétude.
+Tel quel il se déduit d'ailleurs du théorème de Tarski (1933), qui est plus facile à démontrer que celui de Gödel.
+Comme l'énoncé G non démontrable est vrai
+dans N et que la théorie ne démontre que des énoncés vrais dans N, la négation de cet énoncé n'est pas non plus démontrable.
+Il est possible de donner une assertion sous cette forme qui soit vraiment équivalente à celle démontrée par Gödel, en précisant la complexité logique de l'énoncé G, voir la fin du paragraphe diagonalisation.
+Comme déjà dit, la simple hypothèse de cohérence suffit pour que l'énoncé G vrai dans N soit non démontrable,
+et ceci représente l'essentiel du théorème.
+Une fois précisée la complexité logique de G, le fait que la négation de G n'est pas non plus démontrable est une conséquence quasi-immédiate d'une hypothèse de cohérence un peu plus forte faite par Gödel, qui entraîne que tous les théorèmes de la complexité logique de la négation de G sont vrais dans N.
+Des exemples de systèmes incomplets et d'énoncés indécidables
+Une théorie du premier ordre est incomplète quand il existe des énoncés exprimables au premier ordre dans le langage de la théorie et qui ne sont pas déterminés par cette théorie (c'est-à-dire qu'ils sont indécidables dans cette théorie).
+L'existence de théories incomplètes est banale au sens où il n'y a « pas assez » d'axiomes pour déterminer tous les énoncés.
+Ainsi on peut dire au premier ordre avec égalité qu'il existe au moins deux éléments distincts, ou au contraire qu'il en existe un seul, c'est-à-dire que la simple théorie de l'égalité, mais aussi par exemple la théorie des groupes ou la théorie des corps sont évidemment incomplètes.
+En ajoutant des axiomes on peut espérer compléter une théorie en la déterminant, ainsi la théorie des corps algébriquement clos d'une caractéristique donnée, la théorie des corps réels clos sont des théories complètes.
+Ceci n'est pas possible pour l'arithmétique ainsi que le montre le théorème de Gödel : même en ajoutant des axiomes on n'obtiendra pas une théorie complète (tant que la liste des axiomes est récursivement axiomatisable, c'est-à-dire essentiellement qu'on peut la décrire explicitement).
+La théorie des ensembles, bien qu'elle permette de démontrer plus d'énoncés arithmétiques que l'arithmétique de Peano, ne les détermine pas tous pour autant (la théorie des ensembles est également incomplète pour des raisons n'ayant rien à voir avec les théorèmes de Gödel, voir ci-après).
+L'arithmétique de Presburger (l'arithmétique de l'addition) est un exemple de théorie arithmétique complète : le langage est trop peu expressif pour que l'on puisse démontrer le théorème de Gödel.
+De façon générale, d'après justement le théorème de Gödel, les théories complètes, comme celles déjà citées ou l'axiomatisation de la géométrie élémentaire (associée à celle des corps réels clos) ne sont pas suffisamment expressives pour faire de l'arithmétique (avec addition et multiplication).
+Énoncés indécidables dans l'arithmétique de Peano
+Appliqués à l'arithmétique, les théorèmes de Gödel fournissent des énoncés dont la signification est tout à fait intéressante, puisqu'il s'agit de la cohérence de la théorie.
+Cependant ces énoncés dépendent du codage choisi.
+Ils sont pénibles à écrire explicitement.
+Paris et Harrington ont montré en 1977 qu'un renforcement du théorème de Ramsey fini, vrai dans N, n'est pas démontrable dans l'arithmétique de Peano.
+Il s'agit du premier exemple d'énoncé indécidable dans l'arithmétique qui n'utilise pas de codage du langage.
+Depuis, on en a découvert d'autres.
+Le théorème de Goodstein est un tel énoncé ;
+sa preuve est particulièrement simple (quand on connaît les ordinaux), mais utilise une induction jusqu’à l'ordinal dénombrable .
+Laurence Kirby et Jeff Paris ont démontré en 1982 que l'on ne peut pas prouver ce théorème dans l'arithmétique de Peano.
+Les énoncés de ce genre qui ont été découverts sont des résultats de combinatoire.
+Leurs démonstrations ne sont pas nécessairement très compliquées, et en fait il n'y a aucune raison de penser qu'il y a un lien entre complexité technique d'une preuve et possibilité de formaliser celle-ci dans l'arithmétique de Peano.
+Énoncés indécidables en théorie des ensembles
+En théorie des ensembles, on a d'autres énoncés indécidables que ceux fournis par le théorème de Gödel qui peuvent être de nature différente.
+Ainsi, d'après des travaux de Gödel, puis de Paul Cohen, l'axiome du choix et l'hypothèse du continu sont des énoncés indécidables dans ZF la théorie des ensembles de Zermelo et Fraenkel, le second étant d'ailleurs indécidable dans ZFC (ZF plus l'axiome du choix).
+Mais d'une part, ce ne sont pas des énoncés arithmétiques.
+D'autre part, la théorie obtenue en ajoutant à ZF l'axiome du choix ou sa négation est équi-cohérente à ZF : la cohérence de l'une entraîne la cohérence de l'autre et réciproquement.
+De même pour l'hypothèse du continu.
+Ce n'est pas le cas pour un énoncé exprimant la cohérence de ZF, d'après justement le second théorème d'incomplétude.
+De même pour l'un des deux énoncés obtenus par les preuves usuelles du premier théorème d'incomplétude (il est équivalent à un énoncé de cohérence).
+Considérons une théorie des ensembles T+A. Démontrer qu'un ensemble (un objet de la théorie) est modèle de la théorie des ensembles T, c’est démontrer la cohérence de T. Si l'on suppose que l'on peut faire une telle démonstration, on peut donc déduire par le second théorème d'incomplétude que, si T est cohérente, A n'est pas démontrable dans T. On montre ainsi que certains axiomes qui affirment l'existence de « grands » cardinaux, ne sont pas démontrables dans ZFC.
+Théorèmes d'incomplétude et calculabilité
+La notion de calculabilité intervient à divers titres à propos des théorèmes d'incomplétude.
+On l'a utilisée pour en définir les hypothèses.
+Elle intervient dans la preuve du premier théorème d'incomplétude (Gödel utilise les fonctions récursives primitives).
+Enfin incomplétude et indécidabilité de l'arithmétique sont liées.
+Indécidabilité
+algorithmique
+Il y a un lien étroit entre décidabilité algorithmique d'une théorie, l'existence d'une méthode mécanique pour tester si un énoncé est ou non un théorème, et complétude de cette théorie.
+Une théorie récursivement axiomatisable et complète est décidable.
+On peut donc prouver le premier théorème d'incomplétude en montrant qu'une théorie qui satisfait les hypothèses utiles est indécidable.
+Ce résultat, l'indécidabilité algorithmique des théories qui satisfont les hypothèses du premier théorème d'incomplétude, a été démontré indépendamment par Turing et Church en 1936 (voir problème de la décision), en utilisant les méthodes développées par Gödel pour son premier théorème d'incomplétude.
+Pour un résultat d'indécidabilité, qui est un résultat négatif, il faut avoir formalisé la calculabilité, et être convaincu que cette formalisation est correcte, conviction qui ne peut reposer seulement sur des bases mathématiques.
+En 1931, Gödel connaît un modèle de calcul que l'on dirait maintenant Turing-complet, les fonctions récursives générales, décrit dans une lettre que Jacques Herbrand lui a adressée, et qu'il a lui-même précisé et exposé en 1934.
+Cependant il n'est pas convaincu à l'époque d'avoir décrit ainsi toutes les fonctions calculables.
+À la suite de travaux de Kleene, Church, et Turing, ces deux derniers ont énoncé indépendamment en 1936 la thèse de Church : les fonctions calculables sont les fonctions récursives générales.
+On peut être plus précis en donnant une classe restreinte d'énoncés pour laquelle la prouvabilité est indécidable.
+Si on reprend les arguments développés dans le paragraphe Vérité et démontrabilité ci-dessus, on voit par exemple que la classe des énoncés sans quantificateurs (et sans variables) est, elle, décidable.
+En utilisant les arguments développés par Gödel, on montre que la prouvabilité des énoncés Σ1 est indécidable.
+Sans entrer dans le détail de la définition des formules Σ1 (faite ci-dessous), cela ne semble pas si loin d'une solution négative au dixième problème de Hilbert : l'existence d'un algorithme de décision pour la résolution des équations diophantiennes.
+Mais il fallut plusieurs dizaines d'années et les efforts successifs de plusieurs mathématiciens dont Martin Davis, Hilary Putnam, Julia Robinson et finalement Youri Matiiassevitch pour y arriver en 1970 (voir théorème de Matiiassevitch).
+On peut tout à fait déduire le premier théorème de Gödel du théorème de Matiiassevitch.
+Cela peut paraître artificiel, puisqu'un résultat d'indécidabilité beaucoup plus facile à démontrer suffit.
+Mais on peut en déduire des énoncés indécidables d'une forme particulièrement simple.
+En effet, le théorème de Matiiassevitch équivaut à dire que la vérité des énoncés (formules closes) qui s'écrivent comme des égalités polynomiales quantifiées existentiellement, n'est pas décidable.
+Or :
+* on peut reconnaître mécaniquement de tels énoncés, et donc leurs négations ;
+* l'ensemble des tels énoncés vrais
+est récursivement énumérable, et donc, d'après le théorème de Matiiassevitch, l'ensemble des tels énoncés faux n'est pas récursivement énumérable ;
+* l'ensemble des théorèmes d'une théorie récursivement axiomatisable
+est récursivement énumérable (voir Théorie récursivement axiomatisable), et donc l'ensemble des théorèmes qui s'écrivent comme la négation d'une égalité polynomiale quantifiée existentiellement également ;
+* l'hypothèse de cohérence que fait Gödel pour son premier théorème d'incomplétude a pour conséquence directe que des égalités quantifiées existentiellement et fausses ne peuvent être démontrables.
+On en déduit qu'il existe des énoncés vrais non démontrables, qui s'écrivent comme la négation d'une égalité polynomiale quantifiée existentiellement, ou plus simplement comme une inégalité polynomiale quantifiée universellement.
+Une preuve partielle du premier théorème d'incomplétude
+La preuve par Gödel de son premier théorème d'incomplétude utilise essentiellement deux ingrédients :
+* le codage par des nombres entiers du langage et des fonctions qui permettent de le manipuler, ce que l'on appelle larithmétisation de la syntaxe ;
+* un argument diagonal qui, en utilisant l'arithmétisation de la syntaxe, fait apparaître un énoncé similaire au paradoxe du menteur : lénoncé de Gödel est équivalent, via codage, à un énoncé affirmant sa propre non prouvabilité dans la théorie considérée.
+Mais l'énoncé de Gödel n'est pas paradoxal.
+Il est vrai dans N, car s'il était faux, il serait prouvable.
+Or cet énoncé est de complexité logique suffisamment simple pour que sa prouvabilité dans une théorie cohérente capable de coder l'arithmétique entraîne sa vérité dans N (on n'a pas besoin de supposer que N est modèle de la théorie).
+Il est donc vrai
+dans N.
+Il n'est donc pas prouvable, par définition de l'énoncé.
+Pour montrer que la négation de l'énoncé de Gödel n'est pas non plus prouvable, il faut une hypothèse de cohérence plus forte, comme celle qu'a faite Gödel.
+Rosser a modifié astucieusement l'énoncé pour pouvoir utiliser simplement la cohérence (voir « Astuce de Rosser »).
+En ce qui concerne la preuve de Gödel l'argument est le suivant : l'énoncé étant vrai, sa négation est fausse.
+Si on supposait que N est modèle de la théorie, cela suffirait pour qu'elle ne soit pas démontrable.
+Mais Gödel a construit un énoncé d'une complexité logique suffisamment faible pour qu'une hypothèse beaucoup moins forte suffise : il s'agit essentiellement de dire que de tels énoncés faux ne peuvent être démontrables, et il peut l'exprimer de façon syntaxique.
+La preuve esquissée
+-dessus est reprise de façon plus précise dans le paragraphe « diagonalisation ».
+Arithmétisation de la syntaxe
+À l'époque actuelle
+, quiconque connait un peu d'informatique n'a aucun mal à imaginer que l'on puisse représenter les énoncés d'une théorie par des nombres.
+Cependant il faut également manipuler ces codages dans la théorie.
+La difficulté réside dans les restrictions du langage : une théorie du premier ordre avec essentiellement l'addition et la multiplication comme symboles de fonction.
+C'est la difficulté que Gödel résout pour montrer que la prouvabilité peut être représentée par une formule dans la théorie.
+La suite est un peu technique.
+En première lecture, on peut simplifier l'argumentation en supposant que N est modèle de T, auquel cas on n'a pas besoin d'être attentif à la complexité logique de l'énoncé.
+La partie sur la fonction β et la représentation de la récurrence reste utile.
+On précise également des notions, et des résultats qui ont été évoqués ou rédigés de façon approximative ci-dessus.
+Codes
+Il peut être amusant d'écrire soi-même les codages, il l'est certainement beaucoup moins de lire ceux des autres.
+On trouve donc beaucoup de variété dans la littérature.
+Le choix du codage n'a pas grande importance, en soi.
+Éventuellement certains se "manieront" plus facilement dans la théorie.
+Comme les formules et les démonstrations peuvent être vues comme des suites finies de caractères, lettres, espace, ponctuation, et ceux-ci en nombre fini, on peut les coder par un nombre, celui étant écrit dans une base de taille le nombre de caractères nécessaire, ou par tout autre moyen qui permet de coder des suites
+finies
+d'entiers (Gödel utilise les exposants de la décomposition d'un nombre en facteurs premiers)
+On peut également utiliser un codage des couples (voir ci-dessous) pour représenter, suites finies, arbres, et donc les structures syntaxiques utiles ...
+Formules Σ0
+Un problème plus important est d'avoir des fonctions pour manipuler ces structures, l'équivalent des programmes en informatique : il est à peu près clair que l'on ne peut se contenter de compositions de fonctions constantes, d'additions et de multiplications, c’est-à-dire de polynômes à coefficients entiers positifs.
+On va représenter les fonctions utiles par des formules.
+Voyons un exemple, par ailleurs fort utile pour les codages.
+La bijection de Cantor entre N×N et N est bien connue et tout à fait calculable : on énumère les couples d'entiers diagonale par diagonale (somme constante), par exemple en faisant croître la seconde composante :
+Cette fonction n'est déjà plus représentée par un terme du langage, à cause de la division par 2, mais elle est représentée par la formule (on utilise "≡" pour la relation d'équivalence) :
+Passons maintenant aux fonctions de décodage, c’est-à-dire à un couple de fonctions inverses.
+On aura besoin de quantificateurs :
+On a donc représenté une fonction, plus exactement son graphe (la formule soulignée) par une formule du langage de l'arithmétique.
+Les formules ci-dessus sont bien particulières : la première est une égalité polynomiale, si on remplace les trois variables libres par des termes clos du langage, représentant des entiers (s…s0), elle devient décidable.
+Les deux suivantes utilisent un quantificateur borné : "∃x≤z A" signifie "il existe un x inférieur ou égal à z tel que A".
+Là encore si on remplace les deux variables libres par des entiers
+cette formule devient décidable : pour vérifier une quantification existentielle bornée, il suffit de chercher jusqu’à la borne, soit on a trouvé, et l'énoncé est vérifié, soit on n'a pas trouvé et il ne l'est pas.
+Ce n'est plus le cas si la quantification existentielle n'est pas bornée.
+On pourra conserver cette propriété de décidabilité en ajoutant des quantifications universelles bornées, notée "∀ x≤ p A" ("pour tout x inférieur ou égal à p, A").
+Les formules construites à partir des égalités polynomiales en utilisant les connecteurs booléens usuels, et des quantifications uniquement bornées sont appelées formules Σ0.
+Remarquez que la négation d'une formule Σ0 est Σ0.
+On se convainc facilement, des arguments sont donnés juste ci-dessus et au paragraphe vérité et démontrabilité, que la vérité dans N des formules closes Σ0 est décidable : on a un moyen mécanique de savoir si elles sont vraies ou fausses.
+Pour démontrer le premier théorème d'incomplétude de Gödel (il faut un peu plus pour Gödel-Rosser, de la récurrence pour le second), la condition minimale sur la théorie, en plus d'être récursivement axiomatisable et d'une hypothèse de cohérence, est de démontrer toutes les formules Σ0 vraies dans N, et donc, par stabilité par négation des Σ0 et cohérence, de n'en démontrer aucune fausse.
+C'est ce que l'on a entendu par "formaliser suffisamment d'arithmétique".
+Remarquez que c'est une hypothèse sur les axiomes de la théorie.
+Par exemple l'ensemble des formules Σ0 vraies dans N étant décidable, on peut le choisir comme système d'axiomes pour une théorie qui sera bien récursivement axiomatisable (on peut évidemment le simplifier).
+En particulier on peut démontrer :
+Résultat qui se démontre d'ailleurs sans véritablement utiliser les axiomes de récurrence de l'arithmétique de Peano (ce qui est naturel puisqu'il n'y a pas véritablement de quantification universelle dans ces énoncés).
+Formules Σ1
+Il serait bien commode de se contenter de manipuler des fonctions représentables par des formules Σ0 : vérité et démontrabilité sont confondues, ces formules sont décidables, donc les fonctions représentées par des formules Σ0 sont calculables.
+Mais le « langage de programmation » induit n'est pas assez riche.
+On doit introduire les formules Σ1, qui sont obtenues en plaçant un quantificateur existentiel en tête d'une formule Σ0.
+En général, la négation d'une formule Σ1 n'est pas équivalente à une formule Σ1.
+On a la propriété suivante :
+En effet une formule Σ1 "∃ x A x" est vraie dans N signifie que pour un certain entier, que l'on peut écrire "s…s0", la formule "A s…s0" est vraie, or cette formule est Σ0.
+Il existe des théories arithmétiques cohérentes, qui démontrent des formules closes Σ1 fausses, contrairement à ce qui se passe pour les Σ0.
+Il faut préciser que de telles théories arithmétiques sont assez pathologiques, comme celles qui démontrent un énoncé exprimant leur propre contradiction .
+L'hypothèse de cohérence supplémentaire utile pour le premier théorème d'incomplétude, que l'on va appeler Σ-cohérence, c'est justement de supposer que la théorie ne démontre aucune formule close Σ1 fausse.
+On suppose que certaines formules ne sont pas démontrables, donc la contradiction ne l'est pas : c'est bien une hypothèse de cohérence au moins aussi forte que la simple cohérence.
+Elle est vraiment plus forte : on peut exprimer la négation de la cohérence d'une théorie par une formule Σ1.
+Fonctions définissables, fonctions représentables
+Un sous-ensemble E de N, ou plus généralement de Np est définissable dans l'arithmétique s'il existe une formule F de l'arithmétique avec p variables libres telle que :
+Un sous-ensemble E de Np est représentable dans une théorie T s'il existe une formule F de l'arithmétique avec p variables libres telle que :
+Une fonction f à plusieurs variables sur N est définissable dans N si son graphe est défini dans N, représentable dans une théorie T si son graphe est représentable dans T. Un ensemble, ou une fonction est définissable par une formule Σ1 si et seulement s'il, ou elle, est représentable par cette formule dans une théorie Σ-cohérente où tous les énoncés Σ0 sont démontrables.
+Il existe d'autres notions de représentabilité plus fortes, pour les ensembles comme pour les fonctions.
+Pour celle introduite ici, on dit souvent « faiblement représentable ».
+On notera y=f (x) une formule Σ1 définissant ou représentant f.
+Pour le théorème de Gödel c'est la notion de fonction ou d'ensemble représentable qui est utile, mais la notion de fonction ou d'ensemble définissable est plus simple à manipuler, et comme on s'intéresse aux cas où elles sont équivalentes, on va dans la suite parler de définissabilité par une formule Σ1.
+On peut remarquer que la conjonction, la disjonction de deux formules Σ1, la quantification existentielle d'une formule Σ1, la quantification universelle bornée d'une formule Σ1, sont équivalentes dans N (on note ≡N) à une formule Σ1 :
+L'ensemble de fonctions à notre disposition est donc stable par composition (on donne l'exemple pour une variable, on généralise sans peine à des fonctions de plusieurs variables) :
+On définit également de façon naturelle :
+Cependant, pour pouvoir avoir un langage suffisamment expressif pour définir les fonctions utiles sur la syntaxe, il manque une notion très utile : la définition par récurrence.
+L'idée pour l'obtenir est d'utiliser un codage des suites finies (les listes de l'informatique).
+Supposons que nous ayons un tel codage, notons
+;…;
+l'entier qui code la suite finie n0,…, np
+Il faut pouvoir décoder : notons β (l, i)
+ni l'élément en place i de la suite codée par l (la valeur n'a pas d'importance si i est trop grand).
+Supposons que nous ayons une fonction g de N dans N (une suite infinie d'entiers) définie par :
+et que f soit définissable dans N. Alors on pourra définir la fonction g par :
+formule qui est équivalente dans N à une formule Σ1 dès que le graphe de β est Σ1.
+Ceci se généralise au schéma de récurrence utilisé pour les fonctions récursives primitives.
+Il suffit donc trouver une formule Σ1 qui définit une fonction β : c'est la principale difficulté à résoudre pour le codage de la syntaxe.
+La fonction
+Le nom de fonction β est repris de l'article original de Gödel.
+Pour la définir, il a eu l'idée d'utiliser le théorème des restes chinois : pour coder n1,…, np on va donner p entiers premiers entre eux deux à deux, engendrés à partir d'un seul entier d, et un entier a dont les restes des divisions par chacun de ces entiers sont n1,…, np.
+La suite n1,…, np sera donc codée
+par les deux entiers a et d, l'entier si on en veut un seul.
+Plusieurs (une infinité !) entiers coderont la même suite, ce qui n'est pas gênant si on pense à l'objectif (coder les définitions par récurrence).
+Le principal est que l'on assure que toute suite finie a au moins un code.
+Étant donnés les entiers n1,…, np, on choisit un entier s, tel que s ≥ p et pour tout
+ni, s≥ni.
+Les entiers
+sont alors premiers entre eux deux à deux.
+De plus ni < di.
+Par le théorème chinois on déduit l'existence d'un entier a tel que pour chaque entier ni de la suite finie, le reste de la division de a par di soit ni.
+On a donc, en posant d = s! :
+On a bien une fonction β définie par une formule Σ0.
+On en déduit
+que :
+On peut calculer beaucoup de choses avec les fonctions récursives primitives.
+Une fois ce résultat obtenu, le reste n'est plus qu'affaire de soin.
+On peut utiliser des méthodes plus ou moins astucieuses pour gérer les problèmes de liaison de variables.
+On montre que la fonction qui code la substitution d'un terme à une variable dans une formule est récursive primitive, que l'ensemble des (codes de) preuves d'une théorie T récursivement axiomatisable est récursif primitif, et enfin que la fonction qui extrait d'une preuve la conclusion de celle-ci est récursive primitive.
+Dire qu'une formule est prouvable dans T, c'est dire qu'il existe une preuve de cette formule dans T, ce qui, codé dans la théorie, reste Σ1, bien que le prédicat "être démontrable" ne soit pas, lui, récursif primitif, ni même récursif.
+En conclusion, pour une théorie récursivement axiomatisable T, on a deux formules Σ1, DemT (x) et z=sub (x, y), telles que :
+* DemT (⌈F⌉)
+est vraie dans N si et seulement si F est prouvable dans T ;
+* pour toute formule F (x), ⌈F (
+n)⌉
+sub (⌈F⌉, n),
+et la fonction sub est définie par la formule z
+sub (x, y).
+On a noté ⌈F⌉ l'entier qui code la formule F.
+Du fait que les formules sont Σ1, on peut remplacer "vrai" par "démontrable dans T" sous les hypothèses suffisantes.
+Diagonalisation
+La construction de l'énoncé de Gödel repose sur un argument diagonal.
+On construit tout d'abord la formule à une variable libre Δ (x) :
+qui peut s'interpréter dans N par « la formule de code x appliquée à son propre code n'est pas démontrable dans T », et on applique cette formule à l'entier
+⌈Δ⌉.
+On obtient G=Δ (⌈Δ⌉), une formule qui dit bien d'elle-même qu'elle n'est pas démontrable dans T. On reprend en la précisant l'argumentation déjà donnée au-dessus.
+On suppose que T est récursivement axiomatisable, démontre toutes les formules Σ0 vraies dans N, donc toutes les formules Σ1 vraies dans N, et qu'
+elle est
+cohérente
+* G
+=Δ (⌈Δ⌉)
+est une formule close, équivalente à la négation d'une formule Σ1 ;
+* si la formule G était démontrable, la négation de G étant Σ1 ne pourrait être vraie car alors elle serait démontrable, et donc cela contredirait la cohérence de T. La formule G serait donc vraie dans N, ce qui voudrait dire, par construction de G, que la formule G ne serait pas démontrable, contradiction.
+Donc G n'est pas démontrable.
+* si la négation de la formule G était démontrable dans T, par Σ-cohérence elle serait vraie, or elle est fausse d'après ce qui précède.
+Donc la négation de G n'est pas démontrable.
+On voit donc bien, le dernier argument étant assez tautologique, que le véritable contenu du théorème est dans la non-démontrabilité de G. Le premier théorème d'incomplétude de Gödel s'énonce donc aussi bien par :
+On remarque que la formule G en question est équivalente à une formule universelle ∀x H (x), où H est Σ0.
+Cette formule étant vraie, pour chaque entier n (représenté par s...s 0)
+H (n)
+est vraie, donc démontrable étant Σ0.
+On a donc bien, comme annoncé dans le paragraphe « vérité et démontrabilité », un énoncé universel ∀x H (x) qui n'est pas démontrable dans T, alors que pour chaque entier n, H (n) est démontrable dans T.
+Argument de la preuve du second théorème d'incomplétude
+Pour démontrer le premier théorème d'incomplétude, on a formalisé la prouvabilité dans une théorie arithmétique.
+1 n'est pas prouvable » (0
+1 ou n'importe quelle proposition contradictoire dans la théorie), c'est-à-dire de construire un énoncé exprimant la cohérence de la théorie.
+Le second théorème d'incomplétude affirme que, sous des hypothèses un peu plus fortes que pour le premier théorème, un tel énoncé n'est pas démontrable.
+On peut déjà observer que la formule G que l'on construit pour démontrer le premier théorème d'incomplétude, et qui dépend de la théorie considérée, affirme qu'un certain énoncé (lui-même, en l'occurrence) n'est pas prouvable dans cette théorie.
+C'est donc déjà dans une certaine mesure un énoncé de cohérence, puisque dans une théorie incohérente tout est démontrable ;
+en fait, G a pour conséquence la cohérence de la théorie.
+Pour le second théorème d'incomplétude, il suffit de montrer que la cohérence de la théorie entraîne G.
+Le second théorème d'incomplétude se prouve essentiellement en formalisant la preuve du premier théorème d'incomplétude pour une théorie T dans cette même théorie T. En effet, on a montré ci-dessus que, si la théorie était cohérente la formule G de Gödel (qui dépend de T), n'est pas prouvable.
+Mais la formule de Gödel est équivalente à sa non prouvabilité.
+On a donc montré que la cohérence de la théorie T entraîne G. Si maintenant T permet de formaliser cette preuve, on montre dans la théorie T que la cohérence de la théorie T entraîne G. Mais justement, si T est cohérente, G n'est pas démontrable dans T. On ne peut donc démontrer la cohérence de T dans T si cette dernière théorie est cohérente.
+Pour ce raisonnement, on utilise seulement la non-démontrabilité de G, donc la simple hypothèse de cohérence suffit.
+Par contre, pour formaliser le raisonnement, on suppose que la théorie T est plus forte que pour le premier théorème d'incomplétude, en particulier on utilisera la récurrence.
+Les conditions que doit vérifier la théorie T pour démontrer le second théorème d'incomplétude ont été précisées tout d'abord par Paul Bernays dans les Grundlagen der Mathematik (1939) coécrit avec David Hilbert, puis par Martin Löb, pour la démonstration de son théorème, une variante du second théorème d'incomplétude.
+Les conditions de Hilbert-Bernays-Löb portent sur le prédicat de prouvabilité dans la théorie T, que l'on nommera comme ci-dessus DemT :
+* D1
+Si F est démontrable dans T, alors DemT (⌈F⌉)
+est démontrable dans T.
+* D2
+DemT (⌈F⌉)
+⇒ DemT (⌈DemT (⌈F⌉)⌉) est démontrable dans T.
+* D3
+DemT (⌈F ⇒ H⌉) ⇒ (DemT (⌈F⌉) ⇒ DemT (⌈H⌉)) est démontrable dans T.
+La condition D1 est apparue implicitement pour démontrer le premier théorème d'incomplétude.
+La seconde condition D2 est une formalisation dans la théorie de D1.
+Enfin la dernière, D3, est une formalisation de la règle logique primitive dite de modus ponens.
+Notons cohT la formule qui exprime la cohérence de T, c’est-à-dire que l'absurde, que l'on note ⊥, n'est pas démontrable (la négation est notée maintenant ¬) :
+Comme la négation d'une formule F, ¬F, équivaut à F entraîne l'absurde, F⇒⊥, on déduit de la condition D3 que
+Pour déduire le second théorème d'incomplétude des trois conditions de Gödel-Bernays, il suffit de reprendre le raisonnement déjà fait ci-dessus.
+Soit G la formule de Gödel construite pour la théorie T, qui, si cette dernière est cohérente, entraîne ¬DemT (⌈G⌉).
+D'après D1 et la cohérence de la théorie T, G n'est pas démontrable dans T (premier théorème).
+On formalise maintenant ce raisonnement dans T. Par D2.
+on démontre dans T que DemT (⌈G ⇒ ¬DemT (⌈G⌉)⌉).
+On en déduit par D3 que dans T, DemT (⌈G⌉) on démontre que DemT (⌈¬DemT (⌈G⌉)⌉), puis par D2 et D'3, ¬cohT. On a donc dans T que DemT (⌈G⌉) ⇒ ¬cohT, c’est-à-dire par définition de G, ¬G ⇒ ¬cohT, et par contraposée cohT ⇒ G. Or on a vu que G n'est pas démontrable dans T, donc cohT n'est pas démontrable dans T.
+La preuve de D1 a déjà été esquissée à propos du premier théorème d'incomplétude : il s'agit de formaliser proprement la démontrabilité, et on utilise le fait que les formules closes Σ1 vraies sont démontrables.
+La condition D3 formalise la règle de modus ponens, une règle que l'on a tout intérêt à avoir dans le système que l'on a choisi pour formaliser les démonstrations.
+Il faudrait rentrer dans le détail du codage pour donner la preuve de D3, mais elle ne sera pas bien difficile.
+Il faut faire attention à bien formaliser le résultat indiqué dans la théorie choisie : les variables en jeu (par exemple, il existe un x qui est le code d'une preuve de F) sont les variables de la théorie.
+Il faudra quelques propriétés de l'ordre, et savoir démontrer quelques résultats élémentaires sur les preuves dans la théorie.
+C'est la condition D2 qui s'avère la plus délicate a démontrer.
+C'est un cas particulier de la propriété
+* Pour toute formule close F Σ1, F ⇒
+DemT (⌈F⌉)
+est démontrable dans T
+qui formalise (dans T)
+que toute formule close Σ1 vraie est démontrable dans T.
+On n'a donné ci-dessus aucun détail sur la preuve de ce dernier résultat, T étant par exemple l'arithmétique de Peano.
+Si on en donnait, on se rendrait compte que l'on n'a pas besoin de l'axiome de récurrence de la théorie, mais que, par contre, l'on raisonne par récurrence sur la longueur des termes, la complexité des formules ...
+Pour formaliser cette preuve dans la théorie, il faut de la récurrence.
+Pour résumer la situation : quand on a démontré sérieusement le premier théorème d'incomplétude pour l'arithmétique de Peano, on a fait cette preuve, qui est un peu longue, mais ne présente pas de difficulté.
+Pour le second théorème, la seule chose à faire consiste maintenant à montrer que cette preuve se formalise dans l'arithmétique de Peano elle-même, ce qui est intuitivement relativement clair (quand on a fait la preuve), mais très pénible à expliciter complètement.
+On peut en fait démontrer le second théorème d'incomplétude pour une théorie plus faible que l'arithmétique de Peano, larithmétique primitive récursive.
+On étend le langage de façon à avoir des symboles de fonction pour toutes les fonctions primitives récursives, et on ajoute à la théorie les axiomes qui définissent ces fonctions.
+On restreint la récurrence aux formules sans quantificateurs, ce qui fait que celles-ci sont « immédiates ».
+L'arithmétique primitive récursive est souvent considérée comme la formalisation des mathématiques finitaires, avec lesquelles Hilbert espérait pouvoir prouver la cohérence des théories mathématiques.
+Généralisations et conjectures
+Des résulats de Cristian S. Calude mènent à penser que presque tout énoncé mathématique est indécidable.
+Leonid Levin démontre que les algorithmes probabilistes ne peuvent compléter récursivement une théorie incomplète.
+Il conjecture par ailleurs que le monde physique ne peut résoudre les impossibilités mathématiques exposées par les théorèmes de limitations comme celui de l'arrêt des machines de Turing.

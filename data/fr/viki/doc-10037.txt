@@ -1,0 +1,13 @@
+Assembleur
+L'assembleur est le langage informatique le plus proche de l'ordinateur qu'un humain puisse lire.
+En effet, un programme informatique est exécuté sous sa forme binaire
+- mais cette forme est évidemment illisible pour un humain.
+L'assembleur constitue une traduction utilisant des symboles de manière à ce que le programme puisse être compris par un humain.
+Il est différent selon les différents types d'architecture : par exemple, l'assembleur associé à un processeur Intel 32bits est différent d'un processeur ARM comme sur la plupart des téléphones : c'est une conséquence du niveau proche de la machine de l'assembleur.
+Des aspects bas-niveaux sont parfois codés directement en assembleur : c'est par exemple le cas de certaines parties des systèmes d'exploitation ainsi que du codage de la gestion de certaines cartes électroniques de l'ordinateur.
+C'est du binaire : on ne sait pas ce qu'il va se passer...
+En assembleur dit x86 16 bits, l'équivalent est :
+movb$0x61,%al
+Ce qui signifie : « écrire le nombre 97 ("61"
+est équivalent à 97 en hexadecimal) dans le registre AL ».
+Les langages de l’informatique

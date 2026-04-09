@@ -1,0 +1,66 @@
+Système de numération|hexadécimal|Calcul informatique|Calcul numérique
+Le système hexadécimal est un système de numération positionnel en base 16.
+Il utilise ainsi 16 symboles, en général les chiffres arabes pour les dix premiers chiffres et les lettres A à F pour les six suivants.
+Le système hexadécimal est utilisé notamment en électronique numérique et en informatique car il est particulièrement commode et permet un compromis entre le code binaire des machines et une base de numération pratique à utiliser pour les ingénieurs.
+En effet, chaque chiffre hexadécimal correspond exactement à quatre chiffres binaires (ou bits), rendant les conversions très simples et fournissant une écriture plus compacte.
+L'hexadécimal a été utilisé la première fois en 1956 par les ingénieurs de l'ordinateur Bendix G-15.
+Écriture des entiers
+Le système hexadécimal nécessite l'introduction de 16 symboles, représentant les 16 premiers entiers naturels :
+:0 ;
+1 ;
+2 ;
+3 ;
+4 ;
+5 ;
+6 ;
+7 ;
+8 ;
+9 ;
+A ;
+B ;
+C ;
+D ;
+E ;
+Un entier s'écrit comme la concaténation de ces chiffres, et sa lecture s'effectue de droite à gauche.
+Sa valeur vaut la somme des chiffres affectés de poids correspondant aux puissances successives du nombre 16.
+Par exemple, 4D516 vaut 5 × 160 + 13 × 16 + 4 ×
+16 = 10.
+L'addition s'effectue à partir de la technique de l'addition et de la table d'addition suivante :
+La multiplication s'effectue soit par la technique de la multiplication par glissement ou par la technique de la multiplication par jalousies et en utilisant la table de multiplication suivante :
+Utilisation, avantages et inconvénients
+Ce format est largement utilisé en informatique car il offre une conversion facile avec le système binaire, système employé par les ordinateurs.
+Il est en effet possible de traduire du binaire vers de l'hexadécimal et réciproquement, groupe de chiffres par groupe de chiffres.
+Cette caractéristique s'explique par le fait que 16 (nombre de chiffres dans la base hexadécimale) est lui-même une puissance de 2 (nombre de chiffres de la base binaire), et donc que la quantité d'information d'un chiffre hexadécimal vérifie :
+: \log_2 (16) = 4 \times \log_2 (2)
+Cette égalité revient à dire que : « À un chiffre dans la base 16, correspondent exactement quatre chiffres dans la base 2.
+Cette facilité de conversion a conduit la notation hexadécimale à être utilisée pour noter des nombres initialement quantifiés ou à destination d'être quantifiés en binaire, l'hexadécimal étant plus compact (quatre fois moins de chiffres) et offrant une meilleure lisibilité pour l'œil humain.
+Un avantage supplémentaire de la base 16 est sa concordance avec l'octet, mot de 8 bits auquel correspond aujourd'hui fréquemment un byte, la plus petite unité de stockage adressable.
+En se basant sur la formule précédente, nous pouvons facilement constater qu'à 8 bits correspondent exactement deux chiffres hexadécimaux :
+: 2 \times \log_2 (16) = 8 \times \log_2 (2)
+Il est donc commode de noter la valeur d'un octet sur deux chiffres hexadécimaux.
+La table ASCII a été construite de façon à faire commencer les suites de symboles élémentaires (chiffres, lettres minuscule, lettres majuscules) à des positions remarquables lorsqu'elles sont exprimées en binaire, octal ou hexadécimal.
+Par exemple, la lettre «
+A » correspond ainsi au code hexadécimal 41 (40 + la position de la lettre dans l'alphabet)
+, le chiffre « 0 » correspond au code hexadécimal 30 (30 + la valeur du chiffre).
+Les conversions entre le système décimal et l'hexadécimal sont moins aisées que les conversions entre le système décimal et le binaire.
+Conversion
+La conversion de binaire en hexadécimal se fait en regroupant les chiffres (les bits)
+quatre par quatre, ou inversement en remplaçant chaque chiffre hexadécimal par 4 chiffres binaires :
+La conversion vers le système décimal est réalisée en effectuant la somme
+\sum_^h_i \cdot 16^i
+où n est le nombre de chiffres et où h_i est la valeur du chiffre hexadécimal à la position
+Ainsi 15AACF7 se convertit en décimal de la façon suivante
+1×16 + 5×16 + 10×16 + 10×16 + 12×16 + 15×16 + 7×160 = 22719735.
+La conversion du décimal vers l'hexadécimal se fait par une suite de divisions entières ou bien en utilisant le binaire comme base intermédiaire.
+Notation
+Des notations sont utilisées, notamment dans les langages informatiques, pour différencier sans ambiguïté les chiffres hexadécimaux des autres :
+* notation préfixée : 0x123 (langage C et dérivés), &h123 (BASIC), $123 (en Pascal,
+et dérivés comme le VHDL en électronique),
+mais aussi #123 (Common Lisp), 0h123 (Texas Instrument) ou X123' (COBOL)
+Système bibi
+binaire
+Le chanteur et humoriste Boby
+Lapointe avait inventé en 1968 un système hexadécimal, appelé système bibi
+binaire à la fois drôle et cohérent.
+Codage des couleurs
+Le système hexadécimal est un des modes de codage informatique des couleurs des écrans d'ordinateurs.

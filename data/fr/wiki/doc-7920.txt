@@ -1,0 +1,115 @@
+Composant électrique|Sécurité électrique
+Un disjoncteur est un dispositif électromécanique, voire électronique, de protection
+dont la fonction est d'interrompre le courant électrique en cas d'incident sur un circuit électrique.
+Il est capable d'interrompre un courant de surcharge ou un courant de court-circuit dans une installation.
+Suivant sa conception, il peut surveiller un ou plusieurs paramètres d'une ligne électrique.
+Sa principale caractéristique par rapport au fusible est qu'il est réarmable (il est prévu pour ne subir aucune avarie lors de son fonctionnement).
+Différentes techniques utilisées par les disjoncteurs
+Thermique
+Ce type de disjoncteur se déclenche quand un courant excessif traverse un bilame, créant un échauffement par effet Joule et provoquant sa déformation.
+Ce bilame déclenche mécaniquement un contact, qui ouvre le circuit électrique protégé.
+Ce système électromécanique est assez simple et robuste mais n'est pas très précis et son temps de réaction
+est relativement lent.
+Il permet donc d'éviter de mettre le circuit en surintensité prolongée.
+La protection thermique a pour principale fonction la protection des conducteurs contre les échauffements excessifs pouvant générer des risques d'incendies, dus aux surcharges prolongées de l'installation électrique.
+Il remplit la même fonction qu'un fusible, lequel doit être remplacé après avoir coupé le courant.
+Magnétique
+La forte variation d'intensité passe au travers des spires d'une bobine (repère 7 sur la photographie «
+coupe d'un disjoncteur »).
+Elle produit, selon les règles de l'électromagnétisme, une forte variation du champ magnétique.
+Le champ ainsi créé déclenche le déplacement d'un noyau de fer doux qui va mécaniquement ouvrir le circuit et ainsi protéger la source et une partie de l'installation électrique, notamment les conducteurs électriques entre la source et le court-circuit.
+L'interruption est « instantanée » dans le cas d'une bobine rapide ou « contrôlée » par un fluide dans la bobine qui permet des déclenchements retardés.
+Il est généralement associé à un interrupteur de très haute qualité qui autorise des milliers de manœuvres.
+Ce fonctionnement peut remplacer le fusible sur les courts-circuits.
+* Suivant le type de disjoncteur, la valeur d'intensité de consigne va de 3 à 15 fois l'intensité nominale (pour les modèles courants).
+De nombreuses autres possibilités existent, déclenchement par bobine tension (consigne provenant de capteurs), interrupteur , bobine sous voltage , déclenchement à distance, réarmement à distance.
+* Nombreuses courbes de déclenchement pour CC, CA 50/ et .
+Une option étanche est généralement disponible, soit version face avant étanche, soit entièrement (IP67).
+C'est la fonction remplie par un fusible aM (accompagnement moteurs).
+Pour démarrer, un moteur demande, pendant quelques instants, une brève surintensité pouvant aller jusqu'à dix fois son intensité normale de fonctionnement.
+Cette surintensité, normale, ne doit toutefois pas déclencher le dispositif de protection.
+Ainsi, les fusibles de type aM sont conçus pour pouvoir absorber pendant un court instant un pic d'intensité supérieur à la valeur de protection.
+En revanche, en cas de surintensité (d'une valeur inférieure mais plus longue) : le dispositif coupera logiquement l'alimentation électrique.
+La protection magnétique a pour principale fonction la protection des équipements contre les défauts (surcharge de l'équipement, court-circuit, panne...).
+Il est choisi par l'ingénieur qui a le souci de protéger son équipement avec une très grande précision.
+Courbe de déclenchement
+Un disjoncteur peut inclure ou non une détection thermique ;
+de ce fait il existe deux types principaux de disjoncteurs :
+** courbe B : seuil de déclenchement du magnétique entre 3 et 5 ou 3,2 et 4,8 fois l'intensité nominale ;
+** courbe C : seuil de déclenchement du magnétique entre 5 et 10 ou 7 et 10 fois l'intensité nominale ;
+** courbe K : seuil de déclenchement du magnétique entre 10 et 14 fois l'intensité nominale.
+Description
+Le principe d'un dispositif différentiel à courant résiduel (DDR) est de comparer les intensités sur les différents conducteurs qui le traversent.
+Par exemple, en monophasé, il compare l'intensité circulant dans le conducteur de phase, et celle du conducteur de neutre.
+C'est un appareil de protection des personnes qui limite les risques d'électrocution en détectant les fuites de courant à la terre de l'installation électrique.
+Le dispositif différentiel est basé sur le principe suivant : dans une installation normale, le courant électrique qui arrive par un conducteur doit ressortir par un autre.
+Dans une installation monophasée, si le courant dans le conducteur de phase au départ d'un circuit électrique est différent de celui du conducteur neutre, c'est qu'il y a une ), notée IΔn .
+Son fonctionnement est simple : chaque conducteur passe dans un circuit magnétique (en général torique), formant ainsi des champs électromagnétiques identiques et en opposition qui s'annulent.
+En cas de différence, d'où son nom de différentiel, le champ électromagnétique résultant actionne un dispositif qui coupe rapidement le courant.
+Classes
+Il existe plusieurs classes (ou types) de dispositifs différentiels :
+* les dispositifs de classe AC permettent de se protéger du contact avec les courants de défaut à composante alternative.
+On l'utilise pour protéger la plupart des circuits, sauf les spécialisés tels que, par exemple, la plaque de cuisson à induction et le lave-linge ;
+* les dispositifs de classe A sont prévus pour les circuits dédiés, cuisinières, plaques de cuisson à induction, lave-linge, dont le fonctionnement peut produire des courants résiduels comportant une composante continue.
+La sécurité des personnes reste assurée, le risque de déclenchement injustifié reste limité.
+Les dispositifs différentiels de classe AC ne se déclenchent parfois pas sur ce type de courant de défaut.
+Dans le secteur tertiaire, ce type de dispositif (interrupteur différentiel ou disjoncteur différentiel) est obligatoire sur les circuits ou les matériels de classe 1 qui sont susceptibles de produire le type de phénomène décrit ci-dessus ;
+* les dispositifs de classe HI (également appelés Hpi ou Si suivant les fabricants).
+Ce type de dispositif différentiel bénéficie d’une immunisation complémentaire contre les déclenchements intempestifs.
+Ils sont aussi recommandés, généralement dans le secteur tertiaire, pour les circuits nécessitant une continuité du service, tels que des congélateurs, les circuits informatiques, les appareils hospitaliers
+Différences entre disjoncteur et interrupteur différentiels
+Dans le langage courant, et notamment lorsque l'on parle de l'équipement d'un tableau de répartition électrique, les disjoncteurs différentiels sont simplement appelés « différentiels », alors que le terme « disjoncteur » est réservé aux disjoncteurs électro-magnétiques.
+Il en résulte alors une confusion possible entre le disjoncteur différentiel et l'interrupteur différentiel.
+L'interrupteur différentiel réalise la fonction décrite ci-dessus, mais n'a pas de détection des surintensités (il ne protège donc pas des surcharges) et il est de ce fait moins onéreux.
+Dans un tableau de distribution, il est possible, afin de minimiser les coûts, de réaliser la protection différentielle d'un groupe de circuits par un interrupteur différentiel plutôt que par un disjoncteur différentiel, à condition que la protection de surintensité soit assurée en aval, par exemple par des fusibles ou des disjoncteurs placés sur chaque départ.
+Le calibre de courant maximum de l'interrupteur différentiel sera toujours choisi comme étant au moins égal au calibre du fusible ou du disjoncteur qui l'alimente (protection en amont).
+Électronique
+Il faut distinguer les disjoncteurs à déclencheur électronique, présentés dans ce paragraphe, des disjoncteurs électroniques qui interrompent le courant de court-circuit à l'aide de composants électroniques puissants et rapides, mais sont incapables d'assurer un sectionnement (séparation physique des circuits).
+Un déclencheur électronique peut réaliser les fonctions des déclencheurs thermiques et/ ou magnétiques, c'est-à-dire détecter selon le cas les courants de surcharge ou les courants de court-circuit pour provoquer l'ouverture des contacts.
+Il se compose toujours d'un dispositif de mesure du courant (shunt, ou le plus souvent transformateur de courant à fer ou à air), d'un dispositif de traitement électronique de la mesure (comparaison du courant mesuré à une valeur définie), et d'un dispositif de déclenchement (un électro-aimant qui libère le mécanisme d'ouverture).
+L'intérêt d'un déclencheur électronique est de pouvoir disposer d'une large plage de réglage (du niveau de déclenchement, du délai de déclenchement), d'inclure éventuellement des algorithmes sophistiqués de détection de courant de défaut, par exemple en prenant en compte la dérivée du courant, de permettre la transmission de l'état du disjoncteur, de la mesure du courant vers un automatisme de surveillance du réseau.
+Son inconvénient est de nécessiter une alimentation en prélevant l'énergie nécessaire :
+* sur le courant (appareil dit à « propre courant ») : un délai est nécessaire après la mise sous tension pour que l'alimentation ait accumulé une énergie suffisante pour être capable de déclencher l'ouverture.
+Ces déclencheurs ne peuvent réagir aussi rapidement qu'un disjoncteur magnétique ;
+* sur le réseau : un dispositif doit empêcher la fermeture du disjoncteur tant que l'alimentation par la tension du réseau n'est pas assurée ;
+En effet, un disjoncteur doit pouvoir déclencher dès l'apparition d'un court-circuit, y compris celui résultant de sa propre fermeture.
+Il est aussi coûteux, ce qui le réserve aux appareils puissants ou haut de gamme.
+Hydraulique
+Le mécanisme de déclenchement utilisé dans le cas d'un disjoncteur magnéto-hydraulique ou hydro-magnétique est double.
+D'une part la partie magnétique déjà expliquée ci-dessus, et d'autre part, le dispositif hydraulique.
+Celui-ci remplace la partie « thermique ».
+Il va donc permettre de détecter les surintensités légères mais de longue durée.
+Ses avantages sont les suivants :
+* pas d'inertie thermique : après un déclenchement, le réenclenchement est immédiatement possible ;
+* pas de décalage de la protection avec la température ambiante : les disjoncteurs thermiques voient leur calibre varier en fonction de la température ambiante, contrairement à la technologie hydraulique.
+Son principal inconvénient reste son prix vis-à-vis de la technologie thermique.
+Constantes de temps
+Certains disjoncteurs sont équipés de systèmes mécaniques, électriques ou électroniques, réglables en durée, en intensité ou en sensibilité, permettant d'interdire le fonctionnement de l'une des 3 fonctions ci-dessus (thermique, magnétique, différentielle) durant un certain laps de temps.
+Ce retard au déclenchement permet d'autoriser certains phénomènes transitoires négligeables du point de vue de la protection des personnes, des circuits et des équipements, mais qui pourraient autrement déclencher l'ouverture de la protection (mise sous tension de transformateurs ou d'alimentation à découpage par exemple).
+Ils peuvent également être réglés afin de laisser la possibilité à une autre protection située en aval de remplir son rôle, permettant ainsi la sélectivité des protections.
+Pouvoir de coupure
+Le pouvoir de coupure d'un disjoncteur correspond à son aptitude à interrompre un courant de court-circuit (« couper un circuit ») sans se détériorer et sans mettre en danger l’entourage.
+Il se caractérise par l'intensité maximale du courant (appelé « courant présumé ») qui passerait si aucun disjoncteur ne l'interrompait.
+Les normes CEI 60947-2 (ou NF-EN 60947-2) pour les disjoncteurs basse tension de puissance, et CEI 60898 (ou NF EN 60898) pour les disjoncteurs à usage domestique, précisent ces caractéristiques.
+La coupure d'un circuit en charge implique la formation systématique d'un arc électrique entre les contacts.
+Le courant I circule à travers l'arc, ce qui retarde la coupure, mais qui génère entre les contacts une tension U_, dite tension d'arc, qui s'oppose à la tension du réseau E_r qui l'a créé.
+Le courant diminue, jusqu'à se couper, dès que la tension d'arc est supérieure à celle du réseau, conséquence de l'équation du circuit : L.\frac = E_r
+- R.I.
+Un fort courant soumet tous les conducteurs à des forces électrodynamiques violentes, qui selon l'architecture de l'appareil peuvent l'aider ou non à s'ouvrir rapidement, aider aussi l'arc électrique à s'allonger et à rejoindre une zone du disjoncteur, dite chambre d'extinction, où son énergie sera bien absorbée.
+Plus le courant est important, plus l'arc est puissant (produit intensité par tension d'arc), plus l'énergie accumulée peut être destructrice.
+Si la disparition de l'arc n'est pas assurée dans un temps suffisamment court, le boîtier de l'appareil peut ne plus supporter la pression des gaz échauffés, la fusion des contacts risque d'empêcher le réarmement de l'appareil.
+Le disjoncteur ne serait alors plus capable d'assumer sa fonction.
+Un disjoncteur doit donc être dimensionné pour pouvoir supporter le courant de court-circuit potentiellement présent à son point d'insertion dans un circuit, sous la tension potentiellement présente à ce même point d'insertion.
+L'intensité et la tension de ce courant dépendent de plusieurs facteurs :
+* la capacité du circuit d'alimentation à fournir un courant maximal sous une certaine tension ;
+* la possibilité pour le circuit (fils, pistes) et l'appareillage alimenté, à laisser passer un courant plus ou moins important ;
+* la faculté qu'a l'appareillage ainsi que le circuit l'alimentant à être le siège d'une tension plus ou moins importante (normale ou accidentelle).
+Dans le cas contraire, il devra être lui-même protégé soit par un fusible, soit par un autre disjoncteur présentant un pouvoir de coupure suffisant.
+Pouvoir de fermeture
+Selon la définition de la CEI, le pouvoir de fermeture est une valeur du courant présumé établi qu'un disjoncteur est capable d'établir sous une tension donnée et dans des conditions prescrites d'emploi et de comportement.
+Il correspond à la valeur maximale du courant sous lequel le disjoncteur peut être manipulé en charge sans dégradation.
+Aptitude au sectionnement
+Selon les règles d'installation (en France, selon le chapitre 437.2 de la norme NF C 15-100), le disjoncteur doit assurer la séparation physique des circuits, lors d'intervention ou de travaux sur le circuit concerné, c'est-à-dire avoir une aptitude au sectionnement : cette aptitude est la garantie que l'appareil ne laissera passer aucun courant résiduel dangereux s'il indique une position ouverte par un voyant ou par la position de la manette, soit un maximum de à selon le cas, lorsque la tension du réseau est appliquée entre ses bornes.
+Les normes et mentionnées plus haut précisent les conditions de cette aptitude.
+Un dispositif de condamnation (cadenas et étiquette de condamnation) permet alors le blocage des contacts en position ouverte afin de respecter les règles concernant l'habilitation électrique (, 520, 540), on appelle cela une « condamnation ».
+La condamnation concerne la deuxième étape de la procédure de consignation, la première étant la séparation.

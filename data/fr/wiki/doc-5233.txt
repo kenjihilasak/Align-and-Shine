@@ -1,0 +1,78 @@
+Casse-tête mécanique articulé
+Le Square One est un casse-tête équivalent du Rubik's Cube.
+Il a été inventé par Karel Hršel et Vojtěch Kopský en 1990.
+Sa spécificité est qu'il prend, contrairement au cube classique, des centaines de formes différentes.
+Ainsi certains mouvements ne sont parfois plus possibles, ce qui en fait un puzzle des plus difficiles de la famille des Rubik's.
+Histoire
+Le Square One, de son nom entier "Back to Square
+One", et avec son nom alternatif "Cube 21", fut inventé par Karel Hršel et Vojtěch Kopský vers 1990.
+Son brevet tchécoslovaque fut créé le , et fut approuvé le sous le numéro de brevet CS 277266 B6.
+Le , il fut breveté aux États-Unis sous le numéro de brevet US5,193,809.
+Son design fut aussi breveté le , sous le numéro de brevet D340,093.
+Description
+Le Square One est constitué de trois étages.
+Les étages du-dessus et du dessous sont tous deux faits de pièces triangulaires et trapézoïdales.
+Elles sont respectivement appelées arêtes et coins.
+Il y a en tout 8 pièces pour chaque type.
+Les coins font 60 degrés, tandis que les arêtes font 30 degrés.
+Chaque étage peut être tourné librement.
+Et si les pièces des trois étages sont alignées, il est possible de tourner la moitié du puzzle de 180 degrés, interchangeant les moitiés respectives des étages du haut et du bas.
+À partir de cela, il est très facile de mélanger le puzzle.
+Vu que les coins font précisément le double de l'angle d'une pièce triangulaire, on peut échanger librement les deux.
+Cependant, vu que l'étage du milieu ne peut prendre que deux formes, il y a une formule simple pour passer d'une forme à l'autre.
+Comme pour le Rubik's Cube et ses dérivés, les pièces sont colorées.
+Pour le résoudre, il faut qu'il soit en forme de cube, mais qu'il ait aussi une seule et unique couleur par face.
+Dans son état original (Résolu), si l'on se met devant la face avec le mot "Square-1" imprimé dessus, les couleurs sont : Blanc au-dessus, vert en bas, jaune devant, rouge à gauche, orange à droite, et bleu derrière.
+Les versions alternatives peuvent avoir un schéma de couleur différent.
+Solutions
+Un bon nombre de solutions pour ce puzzle existent sur Internet.
+Certaines emploient la méthode classique "étage par étage", tandis que d'autres procèdent d'une manière différente, en mettant d'abord les coins en place, puis les arêtes, ou vice versa.
+D'autres solutions encore, sont la combinaison de ces deux méthodes.
+Bien que toutes les solutions aient des approches différentes, la plupart essaient d'abord de rétablir le puzzle en forme de cube, sans tenir compte du deuxième étage, et de résoudre le puzzle en gardant sa forme de cube tout au long de la résolution.
+La plupart des solutions contiennent énormément d'algorithmes.
+Les algorithmes sont des séquences qui modifieront la position de certaines pièces du puzzle sans toucher au reste.
+Par exemple, interchanger deux pièces, échanger les deux étages, trianguler trois pièces, etc.
+Comme pour les solutions du Rubik's Cube, les solutions du Square-1 dépendent de l'utilisation des algorithmes.
+Les algorithmes ne peuvent être trouvés que par trois méthodes : Chercher, faire une erreur ou utiliser un ordinateur.
+Bien que les algorithmes d'un Rubik's Cube ne soient utiles qu'à la dernière étape, les algorithmes sont utiles pendant toute la résolution du Square-1.
+Dans ce dernier, l'échange libre de coins et arêtes peut poser problème, à cause de certains axes de rotation pouvant être physiquement bloqués.
+Nombre de positions
+Si toutes les rotations d'une permutation sont comptées une seule fois tandis que les réflexions sont comptées individuellement, il y a 170 × 2 × 8!
+× 8!
+= positions.
+Si les réflexions et rotations sont comptées une seule fois seulement, le nombre de positions est réduit à 15!
+÷ 3 = positions.
+Records récents
+La moyenne (ou average, terme anglais) est calculée sur cinq tentatives en enlevant à la fois le meilleur et le moins bon temps de la série, se basant ainsi sur trois temps.
+Super Square
+One
+Description
+Le Super Square-1 est une version à quatre étages du Square-1.
+Tout comme le Square One, il peut prendre des formes non cubiques.
+Dès 2009, il est mis en vente par Uwe Mèffert dans son magasin en ligne de puzzles, Meffert's.
+Il est constitué de 8 pièces par étage, chacun entourant la même colonne, qui elle-même peut être tournée selon un axe perpendiculaire.
+Cela permet aux pièces des deux étages intérieurs et celles des deux étages extérieurs d'être échangées.
+Chaque étage est constitué de 4 coins et 4 arêtes.
+On peut dire que les coins et arêtes du Super Square-1 sont les mêmes que celles du Square-1 classique.
+On notera que le Super Square-1 a un centre sur les deux étages externes, ce qui peut démontrer l'existence de problèmes de parité sur le Square-1 classique.
+Solution
+Malgré son apparence, le Super Square-1 n'est pas plus difficile que le Square-1 classique.
+Les étages externes et internes sont en fait deux Square-1 indépendants.
+On peut ainsi utiliser la même méthode que le Square-1.
+Cependant, le centre des faces externes peut poser un défi supplémentaire.
+Fichier
+Super Square-1 solved.jpg|Super Square
+One résolu.
+Fichier
+Super Square1 scrambled-01.jpg|Super
+Square
+One mélangé.
+Fichier
+Super Square-1 scrambled-02.jpg|Super Square
+One mélangé.
+Nombre de positions
+Sachant que le Super Square-1 est un groupement de deux Square-1 indépendants avec un centre sur les faces externes
+, on obtient un calcul assez simple :
+4 (170 × 2 × 8!
+× 8!
+) = positions, soit plus de 50 quadrillons de positions.

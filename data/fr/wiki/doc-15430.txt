@@ -1,0 +1,772 @@
+Pair à pair|Logiciel libre sous licence MIT|Bitcoin
+Le Bitcoin (₿, BTC) (de l'anglais : unité d'information binaire et ) est une cryptomonnaie autrement appelée monnaie cryptographique.
+Dans le cas de la dénomination unitaire, on l'écrit et, dans le cas du système de paiement pair-à-pair on l'écrit .
+L'idée fut présentée pour la première fois en novembre 2008 par une personne, ou un groupe de personnes, sous le pseudonyme de Satoshi Nakamoto.
+Le code source de l'implémentation de référence fut quant à lui publié en 2009.
+Le G20 considère que le Bitcoin est un qui ne remplit pas le rôle d'une monnaie.
+Le terme fait alors référence à .
+Présentation
+Fonctionnement
+Pour créer et gérer les bitcoins, Bitcoin s'appuie sur un logiciel.
+Dans ce logiciel, les bitcoins sont créés conformément à un protocole qui rétribue les agents qui ont traité des transactions.
+Ces agents mettent à contribution leur puissance de calcul informatique afin de vérifier, de sécuriser et d'inscrire les transactions dans un registre virtuel, appelé la blockchain, en français chaîne de blocs, nom qui vient du fait que l'entité de base de Bitcoin s'appelle un bloc, et que les blocs sont ensuite reliés en une chaîne, la chaine de blocs.
+Pour chaque nouveau bloc accepté, l'activité de vérification
+sécurisation
+enregistrement, appelée minage
+, est rémunérée par des bitcoins nouvellement créés et par les frais des transactions traitées.
+En tant que monnaie ou commodité, les bitcoins peuvent être échangés contre d'autres monnaies ou commodités, biens ou services.
+Le taux d'échange de la cryptomonnaie est fixé principalement sur des places de marché spécialisées et fluctue selon la loi de l'offre et de la demande.
+Il est possible d'acheter des bitcoins en ligne sur des plateformes spécialisées.
+Ces plateformes permettent également de suivre en temps réel l'évolution du prix du bitcoin par rapport à d'autres monnaies ou cryptomonnaies.
+Unité de compte
+L'unité de compte de Bitcoin est le bitcoin.
+Son émission est limitée à 21 millions d'unités, chacune divisible jusqu'à la huitième décimale (appelée Satoshi ou Sat).
+Le symbole monétaire officiel .
+Décentralisation
+Le système fonctionne sans autorité centrale, ni administrateur unique.
+Il est géré de manière décentralisée grâce au consensus de l'ensemble des nœuds du réseau.
+Bitcoin est la plus importante monnaie cryptographique décentralisée, avec une capitalisation supérieure à 200 milliards de dollars début .
+Moyen de paiement
+En tant que moyen de paiement, le bitcoin est accepté par un nombre croissant de commerçants, incités par des frais de transaction généralement inférieurs aux 2 à 3 % pratiqués par les organismes de cartes de crédit et indépendants du montant de la transaction financière .
+Cependant, en 2017, les frais ont considérablement augmenté en quelques mois, passant de en 2016 à en décembre 2017, si bien que la plateforme Steam ou Microsoft ont retiré le Bitcoin en tant que moyen de paiement, justement à cause de frais de transaction trop élevés (Microsoft a de nouveau autorisé le Bitcoin en janvier 2018).
+Afin de résoudre le problème des frais de transaction trop élevés, le déploiement progressif de diverses améliorations technologiques (Segwit, Lightning Network, transactions par lots) tout au long de l'année 2018 et 2019 a permis aux frais de chuter aux alentours de 0,05 $ pour les transactions non-urgentes, voire même à des montants inférieurs à 0,0001 $ pour les transactions de type Lightning.
+Contrairement aux cartes de crédit, les frais éventuels sont à la charge non pas du vendeur mais de l'acheteur, qui choisit d'en payer volontairement.
+Une transaction bitcoin est irrévocable et ne peut être annulée.
+Malgré une croissance de 500 % du nombre de marchands acceptant le bitcoin en 2014, la cryptomonnaie n'est pas très implantée dans le commerce de détail, mais continue de s'implanter dans les échanges commerciaux.
+Usage
+Depuis sa création en 2009 et jusqu'à la fermeture par les autorités américaines de Silk Road en 2013, le bitcoin a été utilisé majoritairement comme moyen d'échange par des réseaux criminels pour des jeux d'argent, l'achat de substances illicites, ou pour des bases de données piratées.
+La cryptomonnaie a attiré l'attention des autorités financières, des organes législatifs de différents pays notamment américains et des médias.
+Néanmoins, ces dernières années, la cryptomonnaie a mûri et un nombre croissant d'études concluent que ces activités illégales, bien qu'elles existent toujours comme dans tout système de paiement, ne représentent plus qu'une part minoritaire des échanges de la cryptomonnaie.
+Le Sénat des États-Unis reconnaît par ailleurs que le bitcoin permet de fournir des services financiers parfaitement légitimes.
+Histoire
+Création
+Bitcoin est une amélioration du concept de b-money, imaginé par Wei Dai en 1999, et de bitgold, décrit en 2005 par Nick Szabo.
+Le bitcoin résout en particulier le problème crucial du modèle de confiance : les serveurs considérés comme sérieux votent avec leur puissance de calcul pour déterminer la chaîne de transaction légitime.
+Dans b
+-money, les serveurs étaient supposés verser un dépôt de garantie selon un mécanisme peu explicite.
+L'idée d'utiliser une chaîne de preuves de calcul fut avancée dans le projet bitgold bien que Nick Szabo ne proposât d'utiliser qu'une majorité d'adresses pour établir la légitimité d'une chaîne de transactions, ce qui laissait entier le problème du contrôle du nombre des adresses.
+Satoshi Nakamoto a affirmé qu'il avait travaillé sur bitcoin de 2007 à 2009.
+Dès 2008, il publie un document sur une liste de diffusion décrivant la monnaie numérique bitcoin.
+En février 2009, il diffuse une annonce concernant son travail sur le site .
+Le , le premier bloc ou bloc genesis est créé.
+En février 2009, il diffuse la première version du logiciel Bitcoin sur le site P2P Foundation et pour faire fonctionner le réseau, il met à contribution son ordinateur et engendre ainsi les premiers bitcoins.
+Avec d'autres développeurs, Nakamoto continue l'implémentation du logiciel et de sa version Bitcoin-Qt jusqu'en 2010.
+Les développeurs et la communauté bitcoin perdent progressivement contact avec lui au milieu de l'année 2010.
+Le , un dernier message est posté par Nakamoto sur le principal forum.
+Peu de temps avant de s'évanouir, Nakamoto désigne Gavin Andresen comme son successeur en lui donnant accès au projet SourceForge bitcoin et une copie de la clef d'alerte.
+Cette dernière est une clef cryptographique privée unique permettant d'atténuer les effets d'une attaque potentielle sur le système Bitcoin, comme la découverte d'une faille cryptographique permettant de modifier a posteriori les transactions, ou la prise de contrôle de plus de 51 % des nœuds du réseau.
+Les opérateurs des nœuds du réseau peuvent lors d'une alerte soit avertir leurs usagers, soit stopper tout enregistrement de transaction.
+Le , la Fondation Bitcoin est créée.
+Des figures importantes du monde des nouvelles technologies ont très vite soutenu le projet, tel que Wences Casares.
+Identité de Satoshi Nakamoto
+Plusieurs personnes ont revendiqué être Satoshi Nakamoto, mais aucune d'entre elles n'a pu le prouver de manière indubitable.
+Il n'existait aucune trace de son identité avant la création de Bitcoin.
+Sur son profil, il déclarait être un Japonais de .
+En mars 2014, la journaliste du magazine Newsweek annonce avoir retrouvé la trace de l'inventeur de Bitcoin qui serait, selon elle, un Nippo-Américain de dont le nom de naissance est "Satoshi Nakamoto", bien qu'il ait changé son nom en "Dorian Prentice Satoshi Nakamoto" à l'âge de .
+Il s'agirait d'un physicien retraité vivant en en Angleterre qui ont réalisé une étude approfondie des correspondances linguistiques entre les productions écrites de l'auteur du livre blanc de Bitcoin et de plusieurs personnalités suspectées, notamment Dorian Nakamoto.
+En 2016, Craig Steven Wright, un entrepreneur australien, affirme être Satoshi Nakamoto.
+Cependant, des doutes subsistent, l'intéressé ayant lui-même déclaré le , dans un énigmatique message sur son blog personnel, renoncer à diffuser les preuves confirmant qu'il est bien le créateur de Bitcoin.
+Acceptation
+Le , WordPress accepte les bitcoins pour ses services payants.
+Le , la rémunération des mineurs diminue pour la première fois, passant de 50 à .
+Le code source bitcoin prévoit en effet une division par deux de la rémunération tous les deux cent dix mille
+blocs
+minés
+, soit approximativement tous les quatre ans.
+Le , un partenariat entre la startup Paymium (site d'échange français) et la société Aqoba (établissement de paiement) permet à Paymium d'opérer comme prestataire de service de paiement, et donc de tenir des comptes en euros et d'émettre des cartes de paiement utilisables en euro et en bitcoins.
+Le , le site communautaire Reddit met en place un système permettant d'acheter des avec des bitcoins.
+Le , le site de stockage en ligne Mega, successeur de , accepte les paiements en bitcoin.
+Le , le géant Baidu (équivalent chinois de Google) accepte les transactions en bitcoins pour son service pare-feu Jiasule.
+Le , le premier distributeur-échangeur automatique de bitcoins est mis en service à Vancouver.
+En septembre 2016, plus de sept cent soixante-dix de ces distributeurs
+-échangeurs automatiques
+sont installés dans le monde, dont quatre en France.
+Le , l'université de Nicosie annonce qu'elle accepte le bitcoin et ouvre un master de sciences économiques spécialisé dans les monnaies numériques.
+Le , Richard Branson annonce que Virgin Galactic acceptera désormais les bitcoins comme moyen de paiement pour ses vols de tourisme spatial.
+Le , Jiangsu Telecom (troisième plus grand opérateur chinois), filiale de China Telecom, accepte désormais les bitcoins.
+Le , le fisc américain déclare que le bitcoin ne doit pas être considéré comme une monnaie, mais comme un bien, dont les transactions sont soumises à la fiscalité sur les plus-values.
+Cela implique de tenir compte du taux de change auquel on a acquis un bitcoin et de celui auquel on l'utilise afin de calculer la plus-value réalisée, ce qui rend l'utilisation légale du bitcoin aux États-Unis particulièrement difficile.
+Le , la commission électorale des États-Unis accepte que les campagnes électorales soient financées en bitcoins dans une limite de par cycle électoral.
+Le , Paypal permet à certains marchands de biens numériques d'Amérique du Nord sélectionnés par les processeurs de paiement bitcoin partenaires, d'accepter les paiements en bitcoins, et s'ouvre ainsi très progressivement au bitcoin.
+Le , on comptait distributeurs dans le monde.
+En décembre 2017, le ministre français des Comptes publics, Gérald Darmanin, rappelle aux contribuables français l'exigence de la déclaration de revenus, quand il s'agit de plus-values réalisées lors d'opérations en bitcoins.
+En Novembre 2018, le gouvernement de l'Ohio a annoncé accepter les paiements de taxes en Bitcoins.
+Incidents
+Le est généré un bloc contenant une transaction créant bitcoins pour trois adresses différentes.
+Cette faille est liée au fait que le code n'avait pas prévu le cas de création de quantités aussi grandes de bitcoins.
+Le , survient un incident lié à une non-rétrocompatibilité de la version 0.8.0 : la chaîne se sépare en plusieurs versions et certaines restent bloquées pendant quelques heures.
+Le , la valeur du bitcoin s'effondre et passe de à avant de se stabiliser à () en moins de six heures.
+Le 13 avril, le cours atteint .
+Le cours avait été multiplié par huit en moins de cinq semaines.
+Le , Ross Ulbricht est arrêté.
+Il est le fondateur présumé de Silk Road, qui est fermé par le FBI et qui utilisait uniquement le bitcoin pour toutes ses transactions.
+Le , le réseau Bitcoin est victime d'une attaque massive et concertée lancée sur de nombreuses plates-formes d'échange.
+Le , la plate-forme d'échange Mt.
+Gox est victime d'une perte record de BTC, soit l'équivalent de plus de d'euros.
+Le site internet ferme temporairement.
+Un document de gestion de crise a été rédigé et est consultable publiquement.
+Selon certains médias spécialisés, l'avenir du bitcoin serait menacé.
+Le bitcoin aurait perdu plus de 38 % de sa valeur sur le premier trimestre 2014.
+Le , bitcoins sont volés sur la plate-forme slovène Bitstamp.
+Le , Mark Karpelès, patron de la plate-forme Mt.
+Gox, est mis en examen au Japon pour détournement de fonds.
+Il est soupçonné d'avoir détourné 2,3 millions d'euros de dépôts en bitcoin.
+Le suspect nie en bloc ces accusations.
+En mai 2016, le site d'échange Gatecoin, est piraté et se fait voler 250 bitcoins et .
+Le pirate a réussi à contourner les limites de stockage en ligne des actifs de la plate-forme d'échange : alors que seuls 5 % des dépôts ne sont pas stockés à froid, le pirate est parvenu à vider ces dépôts tout en continuant d'alimenter l'adresse par transfert d'actifs des stockages à froid de la plate-forme d'échange.
+Malveillance
+Les bitcoins sont conservés sous forme de code numérique dans un wallet et réputés perdus, lorsque le détenteur du wallet n'y a plus l'accès.
+Ainsi, à l'international, il est possible pour des criminels, d'utiliser des logiciels malveillants pour cibler certains utilisateurs de bitcoins et leur dérober les données relatives aux dits bitcoins.
+Selon le droit pénal suisse, il s'agit de soustraction illicite de données ou d'utilisation frauduleuse d'un ordinateur.
+Cheval de Troie
+La technique dite du Cheval de Troie permet de changer l'adresse du récipiendaire de l'opération de crypto-monnaie.
+CryptoShuffler est l'un des logiciels utilisant cette technique.
+Évolution du cours
+par rapport au dollar et à l'euro
+Le , le bitcoin atteint la parité avec le dollar.
+En , le taux de change dépasse
+les mais redescend sous les en décembre de la même année.
+Le , la valeur d'un bitcoin (BTC) dépasse celle de l'once d'or, à près de .
+En 2014, le cours baisse progressivement et se stabilise à environ au début de l'année 2015, avant de repartir à la hausse à la fin de la même année.
+Le bitcoin, principalement échangé contre des yuans et des dollars, peut également être échangé contre des euros sur une dizaine de plates-formes.
+Jusqu'en novembre 2013, Mt.
+Gox fut la plus importante de ces plates-formes en volume de transactions et l'habitude avait été prise de considérer son cours comme représentatif du marché.
+À la suite des problèmes qu'elle a rencontrés, les utilisateurs s'en sont détournés, provoquant une chute brutale du cours du bitcoin sur Mt.
+Gox, les cours observés sur les autres plates-formes n'étant que peu affectés.
+: Un investissement de quelques centimes pour le lancement du bitcoin, le , valait plus de le .
+Le cours a aussi connu une augmentation de plus de 400 % entre les mois de janvier et de mars 2013, avant de se corriger sévèrement le 10 avril, à la suite d'une défaillance du site d'échange Mt.
+Gox et de probables ventes paniques.
+Le cours est alors retombé au niveau du mois précédent, aux alentours de .
+Entre le 4 et le , à la suite d'une mise en garde de la Banque populaire de Chine et de la Banque de France, le cours perd près de 35 % en 24 heures.
+Le , le cours s'effondre à la suite de l'annonce de la disparition de bitcoins sur Mt.
+Gox.
+Sur cette plate-forme d'échange, le bitcoin passe de , le 18 février, à 24 heures plus tard, alors qu'il reste voisin de sur les autres plates-formes.
+Mt.
+Gox se déclare en faillite le .
+Le , un groupe d'investisseurs du nom de Sunlot Holdings se propose de racheter le site pour un bitcoin symbolique.
+En 2016, après l'annonce du Brexit, le , la valeur du bitcoin monte en flèche, gagnant plus de 9 %, alors que toutes les places financières plongent.
+Le , le bitcoin dépasse une nouvelle fois la valeur de l'once d'or, s'établissant à presque USD.
+Le cours chute à la mi-mars 2017, s'établissant à moins de le 18 mars 2017.
+Le bitcoin voit sa valeur remonter progressivement au cours du mois d'avril 2017 et finit par dépasser à la fin du mois d'avril.
+Sa valeur augmente
+de manière fulgurante au mois de mai, dépassant pour la première fois les le
+, atteignant le , marquant un taux maximal historique de le , après une pointe à près de .
+Cette forte augmentation de la valeur serait la conséquence d'un renforcement de la demande en bitcoin au Japon.
+Le , le cours du bitcoin dépasse la marque des .
+Le , le cours franchit pour la première fois la barre symbolique des .
+Il va alors s'emballer puisque, onze jours plus tard, le , il franchit les .
+Onze jours après, la barre des est franchie, le .
+Les sont atteints seize jours après, le .
+Une semaine plus tard, le , le bitcoin franchit , puis le .
+À cette date, sa valeur a doublé en un mois et demi.
+Il retombe sous la barre des en fin d'année (ce qui le laisse tout de même plus haut que début décembre).
+Le cours fluctuera entre et durant la première quinzaine de janvier, mais dévisse brutalement durant la journée du 16 janvier 2018, descendant sous les avec une perte de 25 % en un jour.
+Après s'être maintenu durant une quinzaine à il dévisse à nouveau fin janvier, jusqu'à passer sous les le 5 février.
+En novembre 2018, le cours du Bitcoin est inférieur à .
+Conception
+École économique
+Les racines théoriques de Bitcoin se trouvent dans l'école autrichienne d'économie et dans sa critique du système monétaire actuel et des interventions des gouvernements et d'autres organismes, qui, selon cette école exacerbe les cycles économiques et l'inflation massive.
+Un des sujets sur lequel l'école autrichienne d'économie, dirigée par Eugen von Böhm-Bawerk, Ludwig von Mises et Friedrich A. Hayek, s'est concentrée est le cycle économique : selon la théorie autrichienne, les cycles économiques sont la conséquence inévitable des interventions monétaires sur le marché, par lesquelles une expansion excessive du crédit bancaire entraîne une augmentation de l'encours du crédit bancaire dans un système de réserve fractionnaire, ce qui entraîne à son tour des taux d'intérêt artificiellement bas.
+Dans cette situation, les entrepreneurs, guidés par des signaux de taux d'intérêt déformés, se lancent dans des projets d'investissement trop ambitieux qui ne correspondent pas aux préférences des consommateurs à ce moment-là en matière de consommation intertemporelle (c'est-à-dire leurs décisions à court terme et consommation future).
+Tôt ou tard, ce déséquilibre généralisé ne peut plus perdurer et conduit à une récession, au cours de laquelle les entreprises doivent liquider les projets d'investissement qui échouent et réadapter (restructurer) leurs structures de production en fonction des préférences intertemporelles des consommateurs.
+En conséquence, de nombreux économistes des écoles autrichiennes réclament l'abandon de ce processus en abolissant le système bancaire de la réserve fractionnaire et en retournant à une monnaie basée sur l'étalon-or, qui ne peut pas être facilement manipulée par n'importe quelle autorité.
+Un domaine connexe dans lequel les économistes autrichiens ont été très actifs est la théorie monétaire.
+Friedrich A. Hayek est l'un des noms les plus connus dans ce domaine.
+Il a écrit quelques publications très influentes, comme Dénationalisation de la monnaie (1976), dans lequel il postule que les gouvernements ne devraient pas avoir un monopole sur l'émission de l'argent.
+Il suggère plutôt que les banques privées soient autorisées à émettre des certificats non productifs d'intérêts, sur la base de leurs propres marques déposées.
+Ces certificats (c'est-à-dire les devises) devraient être ouverts à la concurrence et seraient négociés à des taux de change variables.
+Toutes devises pouvant garantir un pouvoir d'achat stable éliminerait du marché d'autres devises moins stables.
+Le résultat de ce processus de concurrence et de maximisation des profits serait un système monétaire hautement efficace dans lequel seules des monnaies stables coexisteraient.
+Les idées suivantes sont généralement partagées par les partisans Bitcoin :
+* ils considèrent Bitcoin comme un bon point de départ pour mettre fin au monopole des banques centrales dans l'émission de monnaie ;
+* ils critiquent vivement le système bancaire actuel des réserves fractionnaires, qui permet aux banques d'étendre leur offre de crédit au-delà de leurs réserves réelles et, en même temps, aux déposants de retirer leurs fonds sur leurs comptes courants à tout moment ;
+Bien que les racines théoriques du système se trouvent dans l'école autrichienne d'économie, le Bitcoin a suscité de sérieuses inquiétudes chez certains économistes autrichiens d'aujourd'hui.
+Leurs critiques couvrent deux aspects généraux :
+* les bitcoins n'ont pas de valeur intrinsèque comme l'or ;
+ce ne sont que des bits stockés dans un ordinateur ;
+* le système ne satisfait pas au , ce qui explique que l'argent est accepté non pas à cause d'un décret gouvernemental ou d'une convention sociale, mais parce qu'il a ses racines dans une marchandise exprimant un certain pouvoir.
+Spécificité de Bitcoin
+Il faut bien distinguer le bitcoin, la crypto-monnaie et d'autre part Bitcoin, le système de paiement dans cette devise.
+Sous ces deux aspects, Bitcoin se distingue des systèmes préexistants sur les points suivants :
+* contrairement aux autres devises monétaires, Bitcoin n'est pas l'incarnation de l'autorité d'un État, d'une banque ou d'une entreprise.
+La valeur du bitcoin est déterminée de façon entièrement flottante par l'usage économique qui en est fait et par le marché des changes.
+Les règles organisant l'émission monétaire sont quant à elles déterminées uniquement par le code informatique libre du logiciel Bitcoin ;
+* en tant que système de paiement, Bitcoin se distingue par le fait que son fonctionnement ne requiert pas l'utilisation d'une infrastructure centralisée tenant les comptes des montants détenus afin d'assurer les transactions.
+Le rôle de garantie et de vérification existe, mais est attribué toutes les dix minutes environ à un ordinateur du réseau choisi de façon aléatoire en fonction de sa puissance ;
+* Bitcoin repose sur un protocole cryptographique ayant notamment pour objet, d'une part, de résoudre le problème dit du double paiement, qui avait jusqu'alors empêché l'émergence d'un tel type de monnaie, et, d'autre part, d'interdire la falsification des identifiants des parties prenantes et la valeur du stock de bitcoins figurant dans les porte-monnaie électroniques identifiés grâce à une adresse donnée.
+Principe monétaire
+D'un point de vue monétaire, le bitcoin se distingue des autres monnaies par le fait majeur que l'agrégat monétaire n'est pas conçu pour s'adapter à la production de richesse.
+Le montant total et le taux d'émission des unités sont inscrits explicitement dans le code informatique du logiciel, selon une règle mathématique de type série géométrique.
+Les bitcoins sont émis lentement et régulièrement, de façon dégressive, jusqu'à atteindre un montant maximal de dans quelques décennies.
+Toutes les monnaies fiduciaires connaissent une inflation, de faible à forte selon les politiques menées par leur banque centrale.
+À l'inverse, la monnaie bitcoin est susceptible de finir par connaître la déflation, car la quantité maximale de bitcoins susceptibles d'être créés est fixée à l'avance dans le logiciel à .
+En outre, les bitcoins perdus par les utilisateurs ne seront jamais remplacés.
+C'est pourquoi le projet Bitcoin est envisagé par la communauté de ses créateurs comme une expérience originale en termes économiques, constituant une sorte de mise à l'épreuve des thèses monétaires de l'école autrichienne d'économie.
+En effet, Friedrich Hayek, prix Nobel d'économie avait appelé en 1976 à rétablir le libre arbitre monétaire dans son livre Pour une vraie concurrence des monnaies.
+Le succès ou l'échec de Bitcoin est difficile à prévoir.
+Évolutivité du protocole
+Une limite de par bloc pour empêcher des attaques malveillantes
+Le , peu après le lancement du système Bitcoin, Satoshi Nakamoto a créé une limite de pour chaque bloc nouvellement créé toutes les dix minutes sur la chaîne de blocs bitcoin.
+À cette époque, les transactions étaient gratuites car peu nombreuses, et les développeurs avaient une préoccupation légitime que des attaquants puissent le réseau de transactions, créant arbitrairement d'énormes blocs et gonflant de façon permanente la taille de la chaîne de blocs.
+Cette limite était destinée à empêcher ce genre d'attaque jusqu'à ce qu'une meilleure solution puisse être mise en place.
+Satoshi
+Nakamoto avait proposé une solution qui passerait par une augmentation de la taille des blocs à certaines hauteurs de blocs, augmentant efficacement la limite à un taux prédéterminé et semblable à la façon dont les nouveaux bitcoins sont émis.
+L'évolutivité du système Bitcoin a depuis été une source constante de débats dans la communauté depuis l'introduction de cette limite de taille de bloc.
+Cette limite de , initialement pensée pour limiter le nombre de transactions par seconde à sept, ne posait aucun problème à une époque où, le nombre réel de transactions ne dépassait guère 2,3 transactions par seconde (2010).
+Ainsi, sept transactions par seconde représentaient trois fois plus de volume que le jour le plus actif de bitcoin à cette époque, laissant aux développeurs des années pour trouver une meilleure solution.
+Par ailleurs, le protocole prévoyait d'introduire des frais de transactions dans le temps ce qui rendrait ce genre d'attaques plus coûteux et inefficace.
+Saturation de la capacité d'intégration des transactions
+À partir de 2014
+, le succès du système Bitcoin conduit à une hausse continue du nombre de transactions qui finit par atteindre la limite de en 2016.
+Un développeur, Gavin Andresen, proposa tout d'abord des blocs de , mais cette augmentation fut jugée trop agressive par la communauté.
+Une autre proposition, BIP101, proposait d'augmenter la taille des blocs de 40 % par an à partir de qui a conduit à la création d'une nouvelle crypto-monnaie, différente de bitcoin, appelé Bitcoin XT.
+D'autres propositions ont été faites comme BIP100 avec un bloc de qui conduit à la crypto-monnaie Bitcoin Classic et des approches plus agressives de qui permettent aux utilisateurs de la meilleure taille de bloc à un instant donné à travers Bitcoin Unlimited.
+D'autres membres de la communauté ont préféré ne pas favoriser d'augmentation de la taille de bloc, mais changer le protocole lui-même pour que soit intégrées davantage de transactions dans un bloc en réduisant leur taille ou d'augmenter la fréquence de création des nouveaux blocs.
+Lorsque le nombre de transactions a fini par atteindre la limite de taille de bloc, le bassin des transactions en attente de validation s'est saturé.
+Le seul moyen pour intégrer une transaction donnée dans la chaîne de bloc plus rapidement pour un utilisateur était d'augmenter les frais de transactions qui atteignirent près de fin 2016.
+Cela a rendu Bitcoin non compétitif par rapport à des services existants comme Western Union ou Paypal sur la base stricte de rapidité et de coût.
+Compromis de l'accord de New York
+L'enlisement du débat sur l'évolutivité fragilise le système Bitcoin Core et conduit au succès grandissant du vote en faveur du mouvement Bitcoin Unlimited, notamment chez les mineurs, en grande partie à cause d'une frustration face au manque de solutions de mise à l'échelle réelle.
+L'approche de l'équipe de développement, appelée segwit (), consistant à ne pas augmenter la limite de taille des blocs, mais à partitionner différemment les signatures numériques des transactions en , n'arrive pas à recueillir suffisamment de consensus.
+Un compromis est trouvé lors d'un consensus d'industrie en 2017 appelé Segwit2x, qui combine la proposition avec une augmentation de taille de bloc à .
+Cette proposition est implémentée le août 2017 pour segregated witness et l'augmentation de la taille de bloc entre en application en novembre 2017 au bloc .
+Elle constitue une mise à jour majeure du système Bitcoin Core.
+Néanmoins, le débat d'évolutivité est toujours vif et un groupe dissident a augmenté unilatéralement la taille de bloc à tout en rejetant la proposition Segwit le août 2017.
+Cette décision a conduit à l'émergence d'une nouvelle crypto
+monnaie appelé Bitcoin Cash.
+La probabilité qu'un autre groupe décide d'implémenter segregated witness sans augmenter la taille de bloc en novembre 2017 peut conduire à l'émergence d'une autre crypto-monnaie, parallèle à Bitcoin Cash et Bitcoin Core et dont les blocs seraient rejetés après la mise à jour du protocole Bitcoin Core.
+Bitcoin XT (créé en août 2015), Bitcoin Unlimited (créé en janvier 2016), Bitcoin Classic (créé en février 2016 avant d'être abandonné en novembre 2017), Bitcoin Cash (créé en août 2017) et Bitcoin Gold (créé en octobre 2017) sont des crypto
+monnaies alternatives à Bitcoin (encore appelé Bitcoin Core).
+Concurrence et spéculation
+Le bitcoin bénéficie d'un plus grand succès que d'autres crypto-monnaies plus avancées.
+Selon les analyses de certains journalistes, le seul ou le principal argument rendant le bitcoin plus intéressant que les autres monnaies serait l'augmentation rapide de sa valeur aussi connu sous le nom de bulle économique.
+Répartition des richesses
+Les bitcoins sont concentrés : la répartition des est telle que mille adresses détiennent 40 % du total.
+Fonctionnement
+Principe
+Le bitcoin n'a pas d'existence indépendante du système de paiement Bitcoin qui permet de faire des transactions d'un compte vers un autre, grâce à des logiciels appelés wallets (porte-monnaies), l'autorité étant assurée par des logiciels de vérification appelés mineurs.
+Les données de toutes les transactions constituent un registre public de droit privé appelé chaîne de blocs en raison de sa structure et un agent utilise des bitcoins en enregistrant dans la chaîne de blocs du système Bitcoin ses transactions, ledit enregistrement faisant référence aux transactions antérieures.
+Le système Bitcoin s'appuie sur l'informatique, autrement dit, le système Bitcoin réside sur le réseau Internet.
+Le téléchargement et l'installation du logiciel approprié permet de devenir utilisateur de Bitcoin en interagissant avec un matériel de son choix, notamment un smartphone ou un ordinateur.
+Pour payer ou être payé en bitcoin, l'utilisateur doit se connecter au système, cette connexion offrant deux fonctionnalités : la création d'un nombre quelconque de comptes d'une part, et la facilité de procéder à des transactions constituées du transfert de bitcoins depuis un compte propre vers le compte d'un tiers.
+La fonction essentielle du système Bitcoin réside dans les transactions qui sont soumises à une vérification de validité par les ordinateurs compétents et sont inscrites irrévocablement dans un registre public.
+Ce registre public ou chaîne de blocs peut être consulté partout, à condition d'avoir une connexion à Bitcoin, et par tout un chacun.
+Lors de la consultation aucune altération n'est possible.
+Une transaction en bitcoins est réalisée en deux temps :
+# Dans un premier temps, des nœuds dédiés du réseau (les ) créent un nouveau bloc en regroupant des transactions récemment effectuées et en leur adjoignant un en-tête contenant notamment la date et l'heure, une somme de contrôle () qui servira également d'identificateur unique du bloc, et l'identificateur du bloc précédent.
+# Dans un second temps, après avoir vérifié la validité de toutes les transactions que contient ce nouveau bloc et leur cohérence avec les transactions déjà enregistrées, chaque mineur l'ajoute à sa version locale du registre (ou chaîne de blocs).
+Le registre public est recopié en plusieurs exemplaires.
+L'historique complet de toutes les transactions peut alors être lu en consultant tous les nœuds du réseau qui gèrent (c'est-à-dire qui ont accès à) un exemplaire de la chaîne de blocs.
+La recopie peut faire apparaître des différences éventuelles entre fichiers, en cas de désaccord.
+Dans ce cas, les différences éventuelles entre ces exemplaires doivent être résolues par le logiciel d'accès.
+Voici quelques caractéristiques de Bitcoin.
+* Ses fonctionnalités sont mises en œuvre par des logiciels mis à disposition sous la forme de logiciel libre.
+L'utilisateur choisit son rôle dans le système ainsi que les logiciels qu'il utilise.
+* Par conception, l'autorité de confiance du système n'est pas centrale, mais répartie entre les ordinateurs compétents pour la construction et l'entretien de la chaîne de blocs.
+Acteurs
+La BCE distingue différents types d'acteurs dans le schéma d'une monnaie virtuelle de type Bitcoin :
+# les inventeurs
+l'éditeur
+# le mineur
+# le fournisseur de service de process
+# l'utilisateur
+# le fournisseur de wallet
+# les cambistes
+# les plateformes de négociation
+# les autres acteurs.
+Transactions
+Les transactions consistent à débiter certains comptes pour en créditer d'autres.
+Elles sont composées d'entrées (inputs) et de sorties (outputs).
+Chaque sortie comporte un montant et la clé publique de l'adresse créditée, ou plus généralement un programme (un script) permettant d'autoriser ou non le transfert du montant de cette sortie vers une autre transaction.
+Chaque entrée désigne une sortie d'une transaction antérieure et comporte un programme (script) qui fournit les données attendues par le script figurant dans cette sortie.
+La somme des valeurs des sorties doit être inférieure ou égale à la somme des valeurs des entrées, la différence constituant la rémunération du mineur.
+Lors de la validation d'une transaction, les scripts de chaque entrée sont exécutés ;
+d'abord le script de l'entrée elle-même, puis le script de la sortie antérieure à laquelle l'entrée fait référence.
+La transaction n'est validée que si le résultat est pour toutes les entrées.
+Ces scripts sont écrits dans un langage interne conçu par Nakamoto.
+Ce langage est volontairement minimaliste et non Turing-complet afin notamment d'éviter que le système ne puisse s'engager dans des boucles infinies.
+L'utilisation des scripts doit permettre au logiciel de s'adapter aisément à des évolutions ultérieures et permettre la prise en charge de fonctionnalités avancées telles que les transactions impliquant plusieurs signatures ou les contrats intelligents.
+Les transactions effectuées par un nœud sont diffusées à ses voisins.
+Ceux-ci valident les transactions qu'ils reçoivent et les regroupent progressivement dans un pool local avant de les transmettre à leurs propres voisins.
+Les transactions valides sont ainsi diffusées de proche en proche à tous les nœuds du réseau, après une nouvelle vérification lors de chaque étape.
+Avant d'inscrire définitivement une transaction dans la chaîne de blocs, le réseau effectue à plusieurs reprises un ensemble de vérifications, comprenant notamment le fait que les sorties référencées par les entrées existent bien et n'ont pas encore été utilisées, que l'auteur de la transaction est bien titulaire de l'adresse créditée dans ces sorties, et que la somme des montants figurant dans les sorties de la transaction est bien inférieure ou égale à la somme des montants des sorties référencées par les entrées.
+L'inscription d'une transaction dans la chaîne de blocs a pour effet d'interdire toute future référence aux sorties désignées par les entrées de cette transaction, et donc d'empêcher une double dépense du montant de ces sorties, ce qui reviendrait à créer ex-nihilo des bitcoins de manière non autorisée.
+La seule création autorisée de bitcoin ex-nihilo est faite par une transaction spéciale appelée Coinbase insérée au début de chaque bloc de la chaîne pour rémunérer le mineur qui a inséré le bloc.
+Une transaction est prise en compte instantanément par le réseau et confirmée une première fois au bout de environ.
+Chaque nouvelle confirmation renforce la validité de la transaction dans le registre des transactions.
+Adresses
+Chaque utilisateur peut disposer d'un nombre quelconque d'adresses qu'il crée par l'intermédiaire de son wallet.
+À chaque adresse bitcoin est associée une paire clef publique
+- clef privée.
+Une adresse est égale à l'empreinte cryptographique sur 160 bits (soit ) de sa clef publique.
+Il existe ainsi un maximum de 2 adresses bitcoin possibles, soit environ 10 (à titre de comparaison il y a environ 10 molécules d'eau sur Terre, cela représente également adresses disponibles par mm de surface sur la terre).
+Une adresse
+bitcoin possède également un préfixe identifiant le numéro de version (0 par défaut) et une somme de contrôle de quatre octets.
+En tout, une adresse bitcoin occupe donc .
+Une adresse est représentée au format ASCII grâce à un codage dédié sur alphanumériques : les chiffres et les lettres majuscules et minuscules, à l'exception des lettres et chiffres l, I, 0 et O, que Nakamoto a exclu en raison de leur ressemblance dans certaines fontes de caractères.
+Voici, à titre d'exemple
+, la toute première adresse bitcoin ayant reçu des bitcoins : 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa.
+Pour utiliser la somme contenue dans une sortie d'une transaction existante créditant une adresse bitcoin, l'utilisateur doit faire usage dans l'entrée d'une transaction de la clé privée correspondant à l'adresse en signant la transaction.
+Le réseau vérifie la validité de cette signature à l'aide de la clé publique associée à l'adresse créditée, en ayant recours aux techniques de la cryptographie asymétrique.
+L'opération est répétée pour chaque entrée de la transaction.
+Wallets
+Le wallet de chaque utilisateur contient ses données personnelles, notamment l'adresse
+, la clef publique et la clef privée de chacun de ses comptes.
+Il peut aussi contenir des informations propres à l'utilisateur et construites à partir de la chaîne de blocs, par exemple la liste des sorties de transactions disponibles ou les soldes des comptes.
+Le logiciel de wallet assure au minimum les fonctions de création de comptes, de consultation des comptes, de construction et d'envoi de transactions.
+Il existe un choix de logiciels de wallet pour toutes les variétés d'appareils y compris les smartphones.
+Ils diffèrent par l'étendue de leurs fonctions annexes et par leur ergonomie.
+Les informations contenues dans le wallet d'un utilisateur sont critiques et doivent être strictement protégées contre toute intrusion.
+Si la clé privée d'un compte est perdue, l'utilisateur ne peut plus accéder aux transactions qui alimentent ce compte, ni créer de nouvelles transactions à partir de celui-ci.
+Ses bitcoins sont définitivement perdus et resteront à tout jamais dans la base sans plus pouvoir changer d'adresse.
+En 2013, un utilisateur a perdu , représentant à l'époque une valeur de , en jetant accidentellement le disque dur qui contenait sa clé privée.
+La découverte de la clé privée d'un compte par un autre utilisateur permet à celui-ci d'usurper l'identité du titulaire légitime du compte et de dépenser les bitcoins qui viendraient à s'y trouver, ce qui équivaut à un vol de bitcoins.
+Minage
+L'opération de minage consiste à assembler des transactions en , en y adjoignant un en-tête indiquant notamment la taille du bloc, le nombre de transactions enregistrées, la date et l'heure, une somme de contrôle () interdisant toute modification du bloc et servant également d'identifiant unique au bloc, ainsi que l'identifiant du bloc précédent.
+Les mineurs incluent dans les blocs qu'ils constituent une transaction particulière qui les crédite d'un certain nombre de bitcoins créés à cet effet, et intègre des frais spécifiques de transaction.
+Cette rémunération ne sera toutefois effective que si le bloc est définitivement accepté dans la chaîne de blocs par les autres nœuds.
+C'est cette création de monnaie qui explique l'utilisation du terme "minage", par analogie avec l'exploitation des mines d'or.
+Un bloc peut contenir un nombre quelconque de transactions, en général entre et , sans toutefois que la taille du bloc puisse dépasser 1 mégaoctet (pour le système Bitcoin Core).
+Au sein d'un bloc, les transactions sont stockées sous la forme d'un arbre de Merkle.
+La somme de contrôle (ou empreinte) du bloc est calculée en appliquant deux fois un hashage SHA-256 au sextuplet constitué :
+* de la racine de l'arbre des transactions du bloc (qui est lui-même une empreinte indirecte de l'ensemble des transactions du bloc),
+* de l'horodatage (temps écoulé depuis le janvier 1970 0 h, en secondes),
+Le calcul de cette empreinte est rendu intentionnellement difficile par l'exigence d'être inférieure à une certaine valeur (la ), qui se matérialise par une représentation binaire commençant par un certain nombre de zéros.
+À cette fin, l'empreinte contient parmi ses composants, un nombre arbitraire de 32 bits, le .
+Même si l'on connaît les empreintes correspondant à certains nonces, le hachage fait qu'il est impossible de déterminer la valeur de l'empreinte pour un nouveau nonce sans exécuter à nouveau l'algorithme.
+On ne peut donc trouver le nonce approprié à l'exigence de borne sur la valeur de l'empreinte qu'en faisant plusieurs essais.
+Pour une valeur donnée du nonce, la probabilité de calculer une empreinte inférieure à la difficulté est très faible, de sorte que de nombreuses tentatives doivent être effectuées avant d'y parvenir.
+Entre 2014 et 2016, le nombre moyen de nonces que chaque mineur a dû tester entre chaque création de blocs est passé de 1 milliard à 200 milliards.
+Ce calcul consiste à effectuer un très grand nombre de fois le même calcul à partir de données différentes, il se prête donc bien au calcul parallèle.
+La difficulté est réajustée tous les 2016 blocs pour tenir compte de la puissance de calcul réelle du réseau et permettre en moyenne d'ajouter un bloc toutes les , ce qui revient à dire que la durée probable de calcul d'une empreinte valide est de pour l'ordinateur ou le groupe d'ordinateurs le plus puissant du réseau.
+Ce système de preuve de travail et d'enchaînement des blocs par leur empreinte rend toute altération de la chaîne de blocs pratiquement impossible (sauf dans le cas d' une attaque des 51%).
+Un attaquant qui souhaiterait modifier une transaction dans un bloc donné serait obligé de recalculer sa somme de contrôle et celle de tous les blocs suivants.
+La difficulté augmentant avec le temps, ainsi que le nombre de blocs postérieurs à la transaction modifiée (son degré de confirmation), le temps nécessaire pour opérer une telle modification augmente très rapidement.
+Lorsqu'un mineur a construit un bloc valide dont la somme de contrôle satisfait la condition de difficulté, il le diffuse aux nœuds voisins, qui en vérifient la validité avant de le rediffuser à leur tour.
+La rémunération du travail de minage est faite en bitcoin.
+Les blocs valides sont ainsi diffusés de proche en proche à tous les nœuds du réseau, non sans avoir été préalablement vérifiés, mais sans plus pouvoir être modifiés.
+À partir du nonce inclus dans l'en-tête, il est facile et rapide de vérifier la validité du bloc (un parallèle simpliste peut être fait avec un jeu de sudoku : sa résolution est difficile et requiert du temps et du calcul humain mais sa vérification est très facile une fois la solution trouvée).
+Consommation électrique
+Le minage est une activité décriée en raison de l'importance de sa consommation énergétique.
+Estimation de la consommation électrique
+Elle est difficile à évaluer en raison de la décentralisation de l'activité.
+Les chiffres les plus souvent cités par la presse proviennent du site créé par un analyste financier hollandais.
+Selon son estimation qui repose sur l'hypothèse d'un équilibre économique entre les revenus et les coûts du minage
+Sa croissance est extrêmement forte, puisqu'elle n'était estimée qu'à un an auparavant (), soit une multiplication par un peu plus de 5 en un an.
+Avec seulement environ transactions par jour en 2018.
+Selon Marc Bevand, ingénieur en sécurité informatique, elles surestiment la consommation électrique des mineurs de Bitcoin par un facteur de 1,5 à 2,8 (probablement 2,2), ce qui ramènerait la consommation électrique totale à , soit par transaction :
+* la puissance et la capacité de hachage de la machine la plus performante du marché (l'Antminer S9 de Bitmain) : pour .
+Ces fermes consomment beaucoup d'électricité pour alimenter les serveurs et les refroidir.
+Pour pouvoir enregistrer un nouveau bloc sur la chaîne de blocs, les mineurs doivent résoudre un problème mathématique soumis à tous ceux qui sont en compétition, et c'est le premier qui trouve une solution qui procède à l'enregistrement et gagne une rétribution en bitcoins.
+Comme la solution ne peut être trouvée que par essai-erreur, c'est le mineur qui est capable de faire le maximum d'essais qui a le plus de chances de gagner.
+La difficulté du problème est ajustée pour que le temps de calcul nécessaire à sa résolution soit de l'ordre de .
+L'ampleur de la consommation électrique est liée à l'intensité des calculs et au fait que ces calculs sont faits simultanément par un grand nombre de mineurs.
+Elle est liée au cours du Bitcoin, car plus il est élevé, plus la rétribution augmente et plus il y a de mineurs, car leur sécurité et la confiance qu'on a en eux repose sur un problème mathématique dont la réponse est difficile à trouver et dont la résolution est par essence coûteuse.
+L'optimisation des matériels et le progrès technique permettraient de ne consommer que d'ici 2020, ce qui nécessiterait malgré tout près de pour produire un bitcoin, soit la moitié de la consommation annuelle en électricité d'un ménage américain.
+Ainsi, pour le chercheur Nicolas Houy, du Groupe d'analyse et de théorie économique de Lyon/Saint-Étienne, .
+Regroupements des mineurs
+La difficulté du minage a conduit les mineurs à se regrouper dans des coopératives () pour combiner leurs ressources de calcul et construire plus rapidement de nouveaux blocs.
+La rémunération correspondant à la constitution de chaque bloc est ensuite divisée proportionnellement entre les membres, après prélèvement de frais, ce qui permet de lisser leurs revenus et les rend moins aléatoires.
+En 2016, une dizaine de ces coopératives fournissent 95 % des blocs.
+Ils se trouvent en grande partie en Chine , mais aussi en République tchèque et en Géorgie.
+La rémunération des activités de minage a conduit au développement de technologies toujours plus spécialisées.
+Les matériels les plus efficaces utilisent des circuits intégrés qui surpassent les processeurs à usage général tout en utilisant moins d'énergie.
+À partir de 2015, un mineur n'utilisant pas de matériel spécialement conçu pour le minage avait une faible probabilité de couvrir ses frais d'électricité et de matériel, même en rejoignant une coopérative de minage.
+Russie
+Un proche du président russe souhaite lever 100 millions de dollars pour financer le , de manière à concurrencer la Chine.
+Chaîne de blocs
+La chaîne de blocs du système Bitcoin est comparable à un livre public enregistrant les transactions.
+Elle existe en un grand nombre d'exemplaires gérés parallèlement par les nœuds du réseau, aucun ne jouant un rôle privilégié.
+L'opérateur de chaque nœud du réseau peut décider d'installer un "nœud complet" () qui construit et tient à jour un exemplaire local de la chaîne de blocs.
+Il peut au contraire choisir de se contenter d'un nœud léger () qui fera appel aux nœuds complets voisins pour valider les transactions en utilisant le protocole SPV ().
+Ces décisions étant totalement décentralisées, il est impossible de connaître le nombre de nœuds de chaque type.
+La seule population recensée en permanence par des sites spécialisés tels que ou bitnodes est celle des nœuds () qui acceptent, au moment de la mesure, des transactions et des blocs en provenance des autres nœuds.
+Leur nombre oscille autour de .
+Les nœuds du réseau se comptent vraisemblablement en dizaines de milliers.
+Pour ce qui concerne les nœuds complets, dont le nombre correspond à celui des exemplaires de la chaîne de blocs, les estimations vont de à , localisés dans 85 pays sur tous les continents.
+Cette redondance assure la continuité de service.
+Chaque ordinateur peut se déconnecter ou tomber en panne sans mettre en péril le bon fonctionnement de l'ensemble du système.
+Lorsqu'il redevient opérationnel, le protocole de construction de la chaîne de blocs qu'il héberge reconstruit automatiquement la portion manquante en recourant aux nœuds voisins.
+Tant qu'il a accès à Internet, un utilisateur trouvera toujours un nœud du réseau pour accepter et relayer une écriture, et il se trouvera ensuite un grand nombre de mineurs et de nœuds complets, situés partout dans le monde, pour inscrire celle-ci et la rendre accessible dans la chaîne de blocs, où elle restera toujours accessible de tout point du monde ayant accès à Internet, sans pouvoir être modifiée.
+Cette même redondance, jointe au aux termes duquel chaque nœud du réseau vérifie la validité des informations qu'il reçoit avant de les utiliser, rend impossible la propagation d'écritures frauduleuses.
+Erreurs et fraudes restent possibles sur un ordinateur particulier, qu'elles soient le fait de l'opérateur du site ou d'un pirate qui manipule ce site ;
+il est même possible qu'elles se propagent localement par contagion ou par connivence.
+En revanche, il est pratiquement impossible qu'une telle pollution se propage à un pourcentage significatif des exemplaires de la chaîne de blocs, et moins encore à l'ensemble du réseau.
+Construction de la chaîne de blocs
+En recevant un nouveau bloc, chaque ordinateur gérant un nœud complet exécute un protocole aboutissant soit au rejet du bloc si celui-ci a déjà été reçu ou s'il est invalide, soit à son ajout à la chaîne de blocs locale après une ultime vérification de toutes les écritures qu'il contient, soit à sa mise en attente.
+Chaque bloc contient l'identifiant du bloc qui le précède dans la chaîne de blocs de son mineur et, dans le cas le plus courant, ce prédécesseur est le bloc terminal de la chaîne locale, à laquelle le nouveau bloc vient s'ajouter après une ultime vérification de sa validité.
+Les transactions contenues dans ce nouveau bloc sont alors validées par le nœud, notamment celle qui rémunère en bitcoins le mineur qui a créé ce bloc.
+Celui-ci est transmis aux nœuds voisins et, de proche en proche, à l'ensemble du réseau.
+En cas d'échec lors de la vérification de la validité du bloc, celui-ci est conservé en attente, et s'incorpore à une branche secondaire de la chaîne de blocs.
+Si le nœud reçoit un nouveau bloc qui contient une écriture déjà présente dans la chaîne locale, ce bloc est rejeté.
+C'est donc le premier bloc valide reçu que chaque nœud inscrira dans sa chaîne de blocs.
+Les blocs identiques construits par d'autres mineurs dans le même cycle de seront rejetés, de sorte que les mineurs se livrent à une course de vitesse pour voir leurs blocs ajoutés à la chaîne et être rémunérés en conséquence.
+En raison du délai nécessaire à la propagation des blocs à travers le réseau, deux blocs créés dans le même cycle peuvent arriver dans un ordre différent selon les nœuds récepteurs, qui construisent alors des versions différentes du registre.
+On dit qu'il y a bifurcation ().
+La plupart du temps, une bifurcation est temporaire et le protocole de construction de la chaîne de blocs la corrige au cycle suivant.
+Afin que tous les exemplaires de la chaîne de blocs soient identiques sur tous les nœuds, alors même qu'ils sont construits indépendamment, ce protocole incorpore un mécanisme dit , qui est un élément central du système.
+La règle utilisée par Bitcoin consiste à retenir la chaîne dont la construction des blocs qui la composent a demandé le travail le plus important.
+À cette fin, l'en-tête de chaque bloc indique la difficulté du travail qui a été effectué pour le construire.
+Le fait que la somme de contrôle du bloc respecte les contraintes imposées constitue la garantissant que ce travail a bien été effectué.
+S'il apparaît, à la suite de l'ajout d'un bloc à une chaîne secondaire, que celle-ci a réclamé plus de travail que la chaîne principale, cette chaîne secondaire doit devenir la branche principale.
+Pour cela, le programme remonte à l'endroit où elle s'est détachée de la branche principale
+, revalide un par un les blocs et les écritures qu'ils contiennent, et ajoute chaque bloc à l'extrémité de la nouvelle chaîne en cours de construction si ces contrôles sont satisfaits, en abandonnant ce processus à la première erreur.
+Ce processus très complexe est le véritable cœur du système, car il est le seul moyen de modifier la chaîne de blocs et ses résultats sont irréversibles.
+Il assure également des fonctions telles que la résolution des cas de bifurcation et la reconstruction de la chaîne en cas d'arrêt de l'ordinateur ou du réseau.
+À l'issue de cette deuxième phase, chacun des milliers d'exemplaires de la chaîne de blocs qui existent sur les nœuds complets a été prolongé par un bloc choisi par chaque nœud parmi les propositions des mineurs en appliquant la règle de consensus programmée.
+Si tous les nœuds complets mettent en œuvre les mêmes règles de validation des écritures et des blocs, ce bloc additionnel est le même pour tous les nœuds, de sorte que tous les exemplaires de la chaîne de blocs restent identiques.
+Ce sont ainsi quelques milliers de nouvelles écritures qui sont enregistrées de façon définitive et deviennent accessibles sur les milliers de sites correspondant.
+Rôle de la cryptographie
+La cryptographie est utilisée pour authentifier les acteurs, mais les données numériques ne sont pas chiffrées : la cryptographie n'est utilisée que pour assurer la signature.
+Clés de signature
+Pour être valide, chaque transaction doit être signée, au sens cryptographique du terme, en utilisant des techniques de cryptographie asymétrique.
+À cet effet, chaque adresse bitcoin constitue également l'empreinte cryptographique d'une clef publique.
+Toute transaction indique en entrée la référence d'une transaction précédente justifiant la disponibilité des fonds objet de la transaction et en sortie une ou plusieurs adresses bitcoin et les montants qui doivent leur être attribués.
+Une transaction équilibre toujours ses entrées et ses sorties.
+Pour transmettre des bitcoins, un utilisateur doit signer cryptographiquement une transaction faisant référence en entrée à une ou plusieurs transactions précédentes dont le montant de sortie est suffisant pour couvrir la transaction.
+La clef privée utilisée pour signer cette transaction doit correspondre à la clef publique ayant précédemment reçu des bitcoins.
+L'utilisateur doit donc stocker de manière confidentielle et sécurisée toutes ses clefs privées.
+Le fichier correspondant dans le logiciel, appelé wallet.dat, doit être conservé et sauvegardé par l'utilisateur, de façon confidentielle.
+La cryptographie permet l'authentification et la non répudiation décrite plus haut, grâce à la signature des transactions et aux fonctions à sens unique.
+À aucun moment le système n'assure la confidentialité ou le chiffrement des données transmises sur le réseau.
+Toutes les transactions sont donc en clair.
+La signature des transactions est effectuée en utilisant la cryptographie à courbes elliptiques, dite ECDSA.
+En l'occurrence, la courbe employée est secp256k1.
+Transparence
+Même si le logiciel n'utilise aucune donnée personnelle de l'utilisateur, l'anonymat n'est pas assuré : l'identité d'un utilisateur peut être déterminée s'il la découvre volontairement, si son adresse IP est traçable, ou éventuellement à la suite d'une méticuleuse et complexe étude statistique de la base de données des transactions, ou encore lorsque la réglementation d'un État ou d'un groupe d'États prend des mesures légales pour mettre fin à l'anonymat des transactions sur les plates-formes de monnaies virtuelles.
+Le système Bitcoin ne chiffre aucune des données qu'il utilise.
+La cryptographie est uniquement utilisée pour créer des signatures non falsifiables et mettre en œuvre des fonctions à sens unique.
+Seul le portefeuille de clefs privées est susceptible d'être chiffré par l'utilisateur, mais ceci est facultatif, relève de sa seule compétence et ne fait pas partie des spécifications du système : la confidentialité peut être à la charge du système d'exploitation ou d'un logiciel de chiffrement adapté, comme c'est le cas pour n'importe quel autre fichier.
+Preuve de travail
+Bitcoin utilise la méthode de preuve de travail, initialement imaginée pour résoudre le problème des spam et notamment mise en œuvre dans le système Hashcash.
+Les algorithmes de hashage sont SHA-256 et RIPEMD-160.
+Un double hash en SHA-256 est utilisé pour obtenir le hash des blocs et donc la preuve de travail, tandis qu'un SHA-256 suivi d'un RIPEMD-160 est utilisé pour construire les adresses bitcoins.
+Aspects monétaires
+Unités
+L'unité de compte du système Bitcoin est le bitcoin.
+Les symboles utilisés pour le représenter sont BTC, XBT et .
+Le bitcoin peut également être subdivisé en unités plus petites telles que le millibitcoin (mXBT), le microbitcoin (μXBT) ou encore le satoshi, qui représente 10 nanobitcoins (10nXBT).
+Le microbitcoin est parfois dénommé bit.
+Faisant suite à une proposition d'ajout, le consortium Unicode a accepté en novembre 2015 d'ajouter le bitcoin parmi ses caractères.
+Particularités
+En tant que monnaie virtuelle, le bitcoin présente trois particularités :
+# En termes de régulation, l'absence de statut légal et de cadre réglementaire, fait que les monnaies virtuelles n'apportent aucune garantie de prix ni de liquidité.
+La limitation volontaire du nombre d'unités émises sans indexation porte un risque de spéculation conduisant à une forte volatilité.
+# En termes de transparence, un chiffrement des identités des bénéficiaires et des donneurs d'ordre conduit à un anonymat total des transactions.
+Les transactions effectuées sont enregistrées dans un registre public, mais cette traçabilité est limitée: elle ne permet pas de connaître le donneur d'ordre et le bénéficiaire effectif, elle n'est ni certaine ni systématique, elle n'est pas exploitable ni techniquement ni juridiquement.
+# En termes d'extraterritorialité, les protagonistes, les serveurs et les personnes physiques ou morales qui les exploitent peuvent être situés dans des pays et territoires dont la coopération peut être difficile à obtenir est théoriquement facultatif, mais les mineurs déterminent l'ordre de traitement des transactions à intégrer dans les nouveaux blocs en fonction des frais de transaction offerts par les utilisateurs.
+Plus un utilisateur accepte de payer des frais de transaction élevés, plus sa transaction sera traitée rapidement.
+En cas de frais d'un montant identique, priorité est donnée aux transactions les plus anciennes.
+Les transactions effectuées sans frais de transaction sont traitées après toutes les autres ;
+pratiquement, ces transactions commencent à être traitées en moyenne à partir de et jusqu'à un temps potentiellement infini.
+Les frais de transaction les plus compétitifs, qui permettent d'obtenir une confirmation quasi-immédiate, entre 0 et en moyenne, se situent aux alentours de 80 satoshis octet).
+Ainsi, en 2016, pour une taille médiane de transaction de , cela représente un coût approximatif de satoshis (soit moins de ) quel que soit le montant de bitcoins à transférer.
+Pour décourager la multiplication des transactions de faible montant, le logiciel applique des frais de transaction obligatoires de 0,0001 XBT à toute transaction d'un montant inférieur à 0,01 XBT.
+Plus les assemblages de données d'entrées sont importants pour réaliser une transaction, plus l'encodage de celle-ci est long à réaliser et plus les frais augmentent, tout en restant malgré tout d'un montant global très faible.
+L'algorithme du logiciel Bitcoin est conçu pour éviter le plus possible le regroupement de données d'entrées de montant inférieur à 0.01 XBT afin de limiter les frais de transaction obligatoires.
+Si le montant des bitcoins à transférer est faible ou si la transaction est récente, seul le paiement de frais de transaction permettra un traitement immédiat de celle-ci.
+Chaque transaction est en effet affectée d'un ordre de priorité déterminé en fonction de son montant, de son ancienneté et de sa taille, elle-même déterminée en fonction du nombre de données d'entrée regroupées.
+Plus précisément, le logiciel calcule un quotient déterminé par le nombre de bitcoins à transférer multiplié par l'âge de la transaction et divisé par la taille des données d'entrées regroupées.
+En dessous d'un certain quotient, la transaction ne sera traitée immédiatement qu'en contrepartie du paiement de frais de transaction.
+* Si l'utilisateur choisit de ne pas payer de frais de transaction, le quotient augmentera avec le temps jusqu'à dépasser une valeur seuil qui déclenchera le traitement de la transaction ;
+celle-ci sera ainsi traitée sans frais mais avec retard.
+* Plus le nombre de bitcoins à transférer est élevé, plus le quotient est élevé et plus l'utilisateur verra sa transaction traitée rapidement ou sans frais.
+* Pour un même montant de bitcoins à transférer
+, les transactions regroupant un faible nombre de données d'entrées sont traitées plus rapidement que les autres.
+Le logiciel Bitcoin calcule en général les frais optimaux à payer pour que la transaction soit traitée à l'instant du transfert.
+Ces frais varient en fonction du nombre des transactions à traiter à l'instant du transfert, mais ils restent globalement très négligeables.
+L'utilisateur décide seul du montant des frais de transaction qu'il est prêt à payer.
+Cas particuliers
+* Si un utilisateur a enregistré dans son portefeuille 3 XBT issus de deux transactions de 1 et 2 XBT et souhaite acheter sans frais un produit ou un service coûtant 2,999 XBT, le logiciel Bitcoin devra regrouper les deux transactions et fractionner la transaction de 1 XBT en une ligne de 0,999 XBT et une de 0,001 XBT.
+Mais dans ce cas, la ligne de 0,001 XBT se verrait appliquer des frais automatiques de 0,0001 XBT.
+L'utilisateur ne pourrait alors pas réaliser son achat qui lui coûterait 2 XBT + 0.999 XBT + 0.0001 XBT alors qu'il possède 3 XBT et souhaite conserver 0.001 XBT.
+Dans un tel cas, il serait préférable pour lui d'envoyer sans frais 3 XBT au vendeur, même si certains vendeurs souhaitent que le montant précis de l'achat leur soit envoyé.
+Le site reddit rapporte le cas d'un utilisateur ayant remporté un jackpot de 1280 XBT sur un site de jeu dont le montant des paris était de 0,02 XBT.
+Pour transférer le montant du jackpot, le site de jeu a dû regrouper 64.000 transactions d'un montant de 0,02 XBT en données d'entrée, ce qui représentait une transaction de ;
+le montant des frais requis pour un traitement immédiat s'élevait à 0,026 XBT, soit environ , ce qui représente plus que montant du pari du joueur, , ou que des frais habituellement payés pour une transaction normale, , mais bien moins que le montant du gain, ).
+* Certains mineurs peuvent choisir de traiter les transactions en ne respectant pas les règles du protocole Bitcoin.
+Dans ce cas, ils incluent la transaction dans un nouveau bloc qu'ils parviendront à miner dans un temps d'autant plus long que leur puissance de calcul sera faible.
+Création de bitcoins
+La création d'un nouveau bloc est récompensée par des bitcoins créés à cet effet.
+Le montant de cette récompense est divisé par 2 () chaque fois que de transactions sont ajoutés à la chaîne de blocs :
+* de la création du premier bloc (bloc genesis) jusqu'au bloc, créé le 28 novembre 2012
+, chaque mineur fut récompensé de 50 bitcoins nouvellement créés pour la création d'un nouveau bloc valide ;
+* du bloc au bloc
+, créé le 9 juillet 2016, la récompense était de 25 bitcoins pour chaque bloc nouvellement créé ;
+* du bloc au bloc
+, la récompense est de 12,5 bitcoins pour chaque bloc nouvellement créé
+Le prochain halving devrait avoir lieu aux alentours de Mai-Juin 2020, la récompense passerait donc à 6,25 bitcoins par bloc.
+Le système de récompense tend vers zéro au fur et à mesure que les séries de s'enchaînent, de sorte qu'un maximum de 21 millions de bitcoins seront créés in fine, probablement aux alentours de l'an 2140.
+La baisse progressive du montant de nouveaux bitcoins récompensant la création de nouveaux blocs sera compensée par le développement des frais de transaction.
+En d'autres termes, l'inventeur du système Bitcoin a cherché à définir une politique monétaire aux termes de laquelle le nombre de bitcoins ne peut excéder 21 millions d'unités au total, la vitesse de création de nouvelles unités tendant vers zéro.
+Un tel système monétaire est qualifié de déflationniste.
+Confidentialité
+Le système Bitcoin indique sur le registre public le montant de bitcoins associé à chaque adresse.
+Toutes les transactions enregistrées sur la chaîne de blocs sont également publiques.
+L'identité des propriétaires des adresses bitcoin n'est pas publique mais peut être déterminée, par exemple par le biais des plates-formes d'échange qui enregistrent l'identité de leurs utilisateurs.
+Les plates
+-formes d'échange regroupent en général les avoirs de leurs utilisateurs sur une adresse unique et réattribuent une ligne créditrice en bitcoins à chacun de leurs utilisateurs par l'intermédiaire de leur logiciel de négociation.
+Les utilisateurs peuvent ainsi échanger leurs bitcoins contre d'autres crypto-monnaies ou contre des devises.
+La plate-forme sécurise ses dépôts en les répartissant sur plusieurs adresses ou en les stockant () les bitcoins sur un support numérique déconnecté du réseau, ce qui a pour effet de les protéger contre le vol, comme le serait de l'or qu'un utilisateur choisirait de conserver dans un coffre-fort.
+Entre 2017 et 2018, une start-up française a vendu plus de 1,5 million de ces coffres-forts à bitcoins dans 165 pays.
+Des chercheurs ont avancé qu'à défaut de mesures spécifiques de protection, les paiements effectués selon le protocole Bitcoin ne sont pas plus privés que les paiements par carte bancaire.
+Bourses et instruments financiers
+Le bitcoin, en tant que monnaie virtuelle est assez inclassable.
+Ainsi, certaines sociétés de gestion d'actifs considèrent que la monnaie virtuelle ne peut ni être considérée comme un placement de bon père de famille, ni être comparé à l'or, en raison de l'absence de revenu.
+Pour le président de la SEC, Jay Clayton, les sont moins protégées que les valeurs mobilières traditionnelles, permettant davantage de manipulations de marchés et d'escroqueries : Pour lui, comme pour les autres investissements, une prudence extrême ainsi que la conscience du risque de tout perdre sont requises.
+Aucune ICO n'a été enregistrée auprès de l'organisme fédéral américain de réglementation et de contrôle des marchés financiers (connu sous le nom de SEC), et l'inscription et la négociation de produits négociés en bourse qui détiennent de la cryptomonnaie n'a pas été approuvé par la SEC.
+Les plates
+-formes doivent disposer en France d'un agrément pour réaliser des opérations d'achat et de vente de bitcoins.
+Des plates
+-formes
+de séquestre permettent de mettre en relation acheteurs et vendeurs afin d'échanger les bitcoins contre des espèces, des mandats de compte postaux ou des virements bancaires
+Des points de vente à sens unique permettent de payer en bitcoins, moyennant le paiement de frais, en débitant le montant correspondant en euro sur des cartes bancaires ou des cartes prépayées.
+Il existe enfin des distributeurs automatiques qui prélèvent une commission généralement plus importante.
+Depuis novembre 2016, les chemins de fer fédéraux suisses proposent, en liaison avec l'entreprise SweePay, l'achat de bitcoins depuis leurs distributeurs de billets de train, créant ainsi le plus grand réseau de distribution de bitcoins au monde.
+Financiarisation
+Certains courtiers offrent désormais la possibilité de coter le bitcoin tandis que des plates-formes offrent la possibilité d'acheter ou de vendre à découvert la crypto-monnaie ou d'utiliser l'effet de levier.
+Des instruments financiers complexes tels que les CFD et les fonds d'investissements se développent.
+Le recours à des intermédiaires financiers établis permet de sécuriser davantage les transactions, dans la mesure où ces opérateurs sont soumis à des règles strictes de régulation ;
+pour autant, la volatilité qui caractérise les instruments financiers fondés sur le bitcoin peut conduire à subir des pertes aussi élevées que les profits susceptibles d'être réalisés.
+Cadre religieux
+Selon certaines sources religieuses (comme le Diyanet, le ministère turc des Affaires religieuses), la monnaie virtuelle ne serait pas compatible avec l'islam, les principes de finance islamique interdisant la spéculation.
+Cadre juridique
+La nature juridique du bitcoin n'est pas une question uniformément tranchée.
+La dimension internationale du bitcoin, en regard du caractère régional des cadres juridiques (Union européenne, États-Unis, Chine, notamment), écarte toute réponse juridique globale, en l'état actuel du droit.
+En particulier, le G20 a considéré que, si les cryptoactifs soulèvent des problèmes en ce qui concerne la protection des consommateurs et des investisseurs, l'intégrité du marché, l'évasion fiscale, le blanchiment d'argent et le financement du terrorisme, alors ils doivent être gérés par les États plutôt que par le G20 lui-même.
+Union européenne
+Selon la banque centrale européenne, l'importante réglementation bancaire et financière qui s'impose aux États membres de l'Union européenne ne concerne pas le bitcoin.
+L'autorité bancaire européenne a mis en garde les consommateurs contre les risques liés au bitcoin (13 décembre 2013), considérant les crypto-monnaies comme des de monnaie.
+Elle a également recommandé le 4 juillet 2014 aux institutions bancaires et financières européennes de ne pas utiliser le bitcoin ni de proposer des services autour de ce dernier.
+Le 22 octobre 2015, la Cour de justice de l'Union européenne a confirmé que les opérations d'échange de bitcoins contre des devises traditionnelles étaient exonérées de TVA, considérant le bitcoin comme une et non comme un bien ou un service.
+Algérie
+L'Algérie interdit le Bitcoin dans l' de la loi des finances 2018.
+Australie
+En décembre 2013, le gouverneur de la banque centrale d'Australie (RBA) a indiqué, dans une interview sur la légalité du bitcoin, que
+L'Australie a confirmé officiellement que le bitcoin serait traité comme de l'argent le juillet 2017 et qu'il ne serait plus soumis à une double imposition.
+Belgique
+Le ministre des Finances a indiqué que l'intervention du gouvernement en ce qui concerne le système Bitcoin ne semble pas nécessaire à l'heure actuelle.
+La banque centrale de Belgique a estimé dans un communiqué que .
+Chine
+Le , la Banque centrale chinoise interdit aux banques locales toute transaction en bitcoin, mesure entraînant le début d'un krach sur la valeur de la monnaie virtuelle.
+BTC China, première plate-forme mondiale de transaction en bitcoin, interdit aux usagers de nouveaux dépôts en Yuan sur leur compte .
+Le , le groupe chinois
+Ali Baba interdit les paiements en bitcoin, conformément à la nouvelle réglementation chinoise.
+Une circulaire du 4 septembre 2017 conduit soit à la fermeture de plateforme d'échange soit à la fin de l'acceptation de monnaies fiat.
+En février 2018, le gouvernement chinois annonce vouloir renforcer l'interdiction par la censure de tous les sites internet d'échange de bitcoin chinois ou étrangers.
+Corée du Sud
+Le bitcoin et les crypto-monnaies sont légales et reconnues comme des instruments financiers.
+Aucune restriction n'existe pour la détention et l'échange de bitcoin entre particuliers.
+Les plates-formes d'échange doivent s'assurer de posséder au moins 500 millions de wons coréens pour protéger les commerçants et les entreprises contre les malversations et les fraudes.
+Le gouvernement de la Corée du Sud dispose d'accords avec 14 plates-formes d'échange d' dites .
+Grâce à ces accords, ces plates-formes n'acceptent plus que les seuls utilisateurs dont l'identité est contrôlée par un acteur financier comme une banque.
+L'État sud-coréen régit aussi les points suivants :
+* interdiction pour les mineurs d'échanger de l'argent
+* taxe sur les bénéfices issus de la vente de bitcoins
+États-Unis
+Le rapport parlementaire du sénateur Tom Carper (3 février 2014) dresse un premier panorama des enjeux juridiques du bitcoin.
+Le rapport conclut à l'intérêt économique du bitcoin et à la nécessité d'en réguler le développement, afin d'en contenir les risques spécifiques.
+Il n'offre pas davantage de définition juridique ferme du bitcoin.
+Le , le sénateur américain Joe Manchin demande l'interdiction du bitcoin aux États-Unis, en raison de sa volatilité incontrôlée et des risques qu'il soit utilisé à des fins illégales, notamment pour du blanchiment d'argent.
+Pour l'instant, les États-Unis considèrent que les monnaies virtuelles développées sur le modèle du bitcoin n'ont pas de valeur légale mais constituent des actifs susceptibles d'être soumis à l'impôt.
+Le , la Bourse de Chicago a institutionnalisé le Bitcoin .
+En 2018, les autorités ont poursuivi divers acteurs qui ont réalisé des escroqueries comme le fait de faire miroiter la possibilité de s'enrichir avec le Bitcoin ou les options binaires.
+France
+En France, le Code monétaire et financier prévoit que la monnaie de la France est l'euro
+Un euro est divisé en cent centimes.
+En France ni la loi ni la jurisprudence
+n'ont réglementé spécifiquement et avec clarté la nature et le régime juridique du bitcoin.
+Pour certains juristes, il ne s'agit pas d'une monnaie.
+Pour d'autres, le bitcoin serait .
+Pour la commission nationale des comptes de campagne et des financements politiques, il s'agit d'une .
+Pour la direction générale des finances publiques, le bitcoin est considéré comme un bien meuble, la valeur à l'achat ou à la vente et sa valeur en fin d'année fiscale faisant valeur légale.
+les règles en vigueur pour la monnaie électronique seraient applicables au bitcoin .
+Dans les autres cas, un régime juridique serait à inventer.
+La monnaie virtuelle ne représente pas une créance sur l'émetteur et n'est pas émise contre la remise de fonds, au sens de la directive monnaie électronique 2, ce qui ne lui donne pas le statut de monnaie électronique.
+Les bénéfices réalisés en accord avec la définition de l' du code général des impôts (CGI) sont soumis à l'imposition.
+Dans un premier temps, la banque de France met en garde contre les risques présentés par le bitcoin.
+L'intermédiation des bitcoins par une entreprise nécessite, au préalable, un agrément en tant que prestataire de service de paiement (recommandation 2014-P-01 de l'ACPR).
+En janvier 2018, le ministre de l'Économie, Bruno Le Maire, dit appréhender .
+Il confie une mission sur le bitcoin à Jean-Pierre Landau, ancien sous-gouverneur de la Banque de France.
+Dans son rapport, Jean-Pierre Landau préconise de ne pas réguler directement les crypto-monnaies (sauf dans le cadre de la lutte anti blanchiment), de créer un environnement favorable au développement de cette technologie et de limiter strictement l'exposition du secteur financier aux cryptomonnaies.
+Le 12 septembre 2018, la France devient le premier pays du monde à accorder un cadre légal aux Initial Coin Offering, ces levées de fonds en crypto-monnaies ;
+si cela ne sert pas de régulation à l'usage du bitcoin, cela ouvre un premier pas.
+Indonésie
+La banque centrale d'Indonésie n'a pas de politique détaillée pour réglementer ou interdire l'utilisation de bitcoin.
+Japon
+La banque centrale du Japon reconnaît officiellement le bitcoin et les crypto-monnaies comme un moyen de paiement ).
+Luxembourg
+La commission de surveillance du secteur financier a publié en février 2014 une communication reconnaissant le statut de monnaie au bitcoin et à d'autres crypto-monnaies.
+Une première licence de paiement bancaire a été octroyée à SnapSwap par le ministère des finances en octobre 2015.
+Le gouvernement a indiqué soutenir activement le développement de cette technologie.
+Malaisie
+La banque centrale de Malaisie a publié le 3 janvier 2014 une déclaration selon laquelle le bitcoin n'est pas reconnu comme ayant un cours légal en Malaisie et qu'elle ne réglementera pas les opérations en bitcoins, les utilisateurs devant connaître les risques associés à l'utilisation de ceux-ci.
+Maroc
+Le 20 novembre 2017, l'office des changes du Maroc déclare que les transactions effectuées via les monnaies virtuelles constituent une infraction à la réglementation des changes, passible de sanctions et d'amendes.
+Nouvelle
+Zélande
+La banque centrale de Nouvelle-Zélande déclare : .
+Pays
+Bas
+Les crypto
+monnaies telles que le bitcoin sont légales et des dispositions ont été prises pour éviter le blanchiment d'argent par leur intermédiaire.
+Philippines
+Les crypto
+-monnaies ont été légalisées et les échanges sont réglementés par la banque centrale des Philippines.
+Deux premières licences ont été accordées pour des plates-formes d'échange locales en août 2017.
+Royaume
+Uni
+Le bitcoin est considéré comme de l'.
+Lorsque des crypto
+-monnaies sont échangées contre des livres sterling ou d'autres monnaies fiduciaires, comme l'euro ou le dollar, aucune TVA n'est due.
+Toutefois, la TVA s'applique pour tous les biens et services qui pourraient être échangés contre des bitcoins.
+Les profits et les pertes réalisés sur les crypto-monnaies sont assujettis à l'impôt sur les gains en capital.
+Russie
+Le , la Russie déclare la monnaie illégale sur son territoire, arguant que la seule monnaie officielle en Russie est le rouble et qu'aucune autre monnaie ne peut légalement être utilisée dans le pays.
+Cependant, à partir de novembre 2016 elle a déclaré, que celui-ci n'était selon le service fiscal fédéral de la Russie.
+Singapour
+En décembre 2013, l'autorité monétaire de Singapour a affirmé que des échanges de biens et de services contre des bitcoins constituaient des échanges commerciaux à propos desquels il n'appartenait pas à l'autorité d'intervenir.
+En janvier 2014, l'administration des recettes intérieures de Singapour a publié une série de lignes directrices fiscales selon lesquelles les transactions en bitcoins peuvent être considérées comme un troc si elles sont utilisées comme méthode de paiement pour des biens et des services réels.
+Les entreprises qui traitent des échanges en bitcoins seront imposées en fonction de leurs niveaux de ventes.
+Suisse
+En Suisse, le Conseil fédéral a considéré que le bitcoin est une monnaie virtuelle d'un usage marginal, et qu'à ce titre il est soumis en principe à la législation des monnaies régulières.
+Il recommande toutefois aux autorités et aux organisations de défense des consommateurs responsables d'appeler les utilisateurs de bitcoins à la prudence.
+D'après lui, l'exécution des contrats passés en monnaies virtuelles peut en principe être assurée et les infractions commises avec ces monnaies sont punissables.
+Par exemple, le négoce à titre professionnel de monnaies virtuelles et l'exploitation de plates-formes de négoce en Suisse entrent en principe dans le champ d'application de la loi sur le blanchiment d'argent, qui impose de vérifier l'identité du cocontractant et d'identifier l'ayant droit économique.
+Toutefois, du point de vue Suisse, il n'existe pas de normes internationales réglant les monnaies virtuelles.
+Thaïlande
+Le , la Thaïlande devient le premier pays à interdire l'utilisation du bitcoin sur son territoire après une décision de sa Banque centrale.
+En 2016, la banque centrale de Thaïlande a indiqué que le bitcoin n'était pas illégal mais a mis en garde contre son utilisation.
+Tunisie
+Le gouverneur de la Banque centrale de Tunisie Chedly
+Ayari
+a affirmé son opposition au bitcoin le 5 avril 2016, du fait de son risque supposé pour le financement du terrorisme.
+Son successeur à la tête de la Banque centrale de Tunisie, Marouane Abassi, a quant à lui annoncé en avril 2019 que la Tunisie "étudiait sérieusement la possibilité d’émettre une obligation souveraine Bitcoin".
+Vietnam
+Les crypto
+monnaies
+comme le bitcoin ne sont pas réglementées.
+En décembre 2016, le gouvernement a confirmé l'élaboration d'un cadre juridique qui devrait être achevé d'ici décembre 2017.
+Terrorisme et sécurité nationale
+Débat sur le terrorisme
+Diverses opinions relatives au lien réel ou supposé entre Bitcoin et terrorisme ont été soulevés.
+À plusieurs reprises, Bitcoin a été présenté comme un outil pouvant être utilisé pour le financement du terrorisme :
+* en France, par Michel Castel, ancien directeur de la banque de France, dans un article des Échos publié le 20 novembre 2015 (soit une semaine après les attentats de Paris)
+* en Belgique, par le président de la Cellule de Traitement des Informations financières (CTIF) Philippe De Koster
+* au Maroc,
+par Abdellatif Jouahri, Wali de Bank Al-Maghrib
+* aux États-Unis, par Elizabeth Rosenber, ancienne conseillère au trésor.
+Ces allégations reliant Bitcoin et terrorisme n'ont toutefois pas été constatées par les forces de l'ordre, d'après un rapport d'Europol datant de janvier 2016.
+Risques allégués
+Dès l'origine, Bitcoin a fait l'objet de nombreuses discussions aussi bien techniques qu'économiques ou même politiques.
+De ces discussions, un nombre d'avantages et d'inconvénients ont été discutés.
+Certains de ces commentaires ne sont pas nécessairement propres au bitcoin et pourraient être appliqués à d'autres systèmes de paiement ayant des caractéristiques similaires.
+Toutefois, récemment, on s'est rendu compte du fait que les risques liés au bitcoin sont peu ou mal compris dans leur nature et dans leur ampleur.
+Le bitcoin, comme la plupart des cryptomonnaies existantes, n'a pas d'actifs ou de garanties subjacents.
+Celui qui achète un bitcoin rémunère exclusivement le vendeur.
+Par conséquent l'augmentation de la valeur de la monnaie provient exclusivement de la présence continue d'un flux d'acheteurs capables d'en soutenir le prix.
+En y regardant de plus près, le fonctionnement du bitcoin est donc beaucoup plus similaire à celui d'un système pyramidal qu'à celui d'un système monétaire.
+Risques
+pour le porteur
+Faible sensibilisation et compréhension du protocole
+: La compréhension du fonctionnement du protocole Bitcoin est nécessaire pour bien l'utiliser.
+Faible diffusion
+Peu d'utilisateurs utilisent Bitcoin et sa démocratisation n'est pas encore achevée,
+Volatilité
+Le bitcoin est une monnaie volatile car le nombre de pièces est limité face à une demande qui croît,
+Le cours évolue au gré de l'actualité sur les crypto-monnaies,
+La crypto
+monnaie
+est flottante comme n'importe quelle devise et fluctue différemment face à différentes devises.
+Irréversibilité
+: Une transaction en bitcoins est irréversible et ne peut être annulée,
+Défaut de sécurité sur sa technologie ou la manière dont les utilisateurs l'utilisent :
+::* de nouvelles fonctionnalités sont en développement pour rendre la monnaie plus sûre et accessible,
+:* la technologie s'expose aux attaques par déni de service et à l'attaque des 51 %,
+Dépendance à internet
+Le protocole Bitcoin est une surcouche du protocole IP qui est la base du fonctionnement d'internet.
+En cas de coupure internet .
+De plus en plus de fermes de serveurs sont installées dans des pays au climat froid (pour faciliter leur refroidissement) disposant d'énergies renouvelables bon marché, comme le Canada et l'Islande.
+Une étude sur l'origine de l'électricité consommer par les fermes de minages montre que 74,1% de l'énergie consommée est produite à partir d'énergies renouvelables.
+Risques éthiques
+Critiques sur la philosophie de Bitcoin et son concept économique, en comparaison avec les monnaies des États ou l'étalon-or :
+: Bitcoin favoriserait les premiers acquéreurs de la monnaie ().
+Cette allégation est tantôt confirmée par certaines études montrant que la répartition de la richesse dans bitcoin est très inégalitaire, tantôt infirmée par d'autres.
+Risques de fraude, risques systémiques, et risques spéculatifs
+* Il a été évoqué que Bitcoin pouvait être assimilé à un schéma de Ponzi, mais cela n'est pas applicable : le cours de la crypto-monnaie est un équilibre entre des acheteurs qui cherchent à acquérir la monnaie et des vendeurs qui cherchent à la vendre.
+Dans un schéma de Ponzi, les nouveaux entrants rémunèrent les anciens entrants.
+* Lorsque le cours du bitcoin a franchi les , certains articles qualifiaient le phénomène de tulipomanie.
+*Charles Stross et Paul Krugman ont pris position contre bitcoin.
+* Certaines banques centrales (BCE, Banque de France, Banque de Chine)
+ont lancé des mises en garde sur l'usage du bitcoin insistant sur son caractère hautement spéculatif, sur les risques juridiques qu'il engendre du fait de son statut de monnaie non régulée et sur son utilisation possible à des fins criminelles (blanchiment, financement du terrorisme).
+L'Autorité bancaire européenne (ABE) a également émis une mise en garde en décembre 2013 contre le manque de protection du consommateur par l'utilisation du moyen de paiement qu'est le bitcoin.
+Toutefois, d'autres institutions tiennent un discours plus nuancé, voire opposé.
+Ainsi, les gouvernements allemand et américain considèrent cette monnaie avec une certaine bienveillance et Ben Bernanke, ex-président de la FED, qualifiait le bitcoin de monnaie qui a du .
+La technologie de Bitcoin a été détournée par le crime organisé comme unique moyen de paiement sur Silkroad.
+Avantages allégués
+Souplesse et versatilité
+: Avec Bitcoin, il est possible d'envoyer et de recevoir de l'argent, en le convertissant en monnaie virtuelle :
+::* à n'importe quel moment, indépendamment des jours fériés ;
+:* quasi-instantanément : les transactions sont très rapides de quelques secondes à quelques heures ;
+sans limitation : contrairement à une banque qui instaure des plafonds quotidiens ou mensuels ;
+Sécurité
+dans le principe, les utilisateurs sont les seuls à pouvoir commander la réalisation d'une transaction ;
+:* la transaction est irréversible, ce qui constitue une protection pour le vendeur, qui ne peut pas subir de répudiation par l'acheteur après avoir expédié le bien ou le service ;
+:* les commerçants ne peuvent pas facturer de frais supplémentaires sans le faire savoir au préalable à l'acheteur ;
+la crypto
+monnaie est insaisissable si elle est suffisamment protégée ;
+Transparence transactionnelle
+:* toutes les transactions finalisées sont disponibles et consultables par tout le monde sur le registre public de la chaîne de blocs ;
+:* toute personne peut à tout moment vérifier les transactions.
+Large
+diffusion
+Le protocole de paiement est parvenu à s'implanter progressivement chez des commerçants, et il continue de croître rapidement ;
+Robustesse
+: Malgré plusieurs crises (explosion de la bulle des cours en 2010, faillite de bourses d'échange), la crypto-monnaie s'est montrée résiliente ;
+Pertinence du concept
+: Le concept sous-jacent aux monnaies virtuelles ouvertes est également considéré par des banques, des institutions financières et des autorités monétaires qui pourraient développer des monnaies virtuelles régulées juridiquement sécurisées.
+La technologie intéresse de plus en plus les banques et les autorités monétaires officielles.
+Critiques et opinions
+Opinions
+Des économistes ont émis diverses opinions sur le bitcoin.
+Pour le Prix Nobel d'économie américain Joseph Stiglitz, le bitcoin est une bulle qui va être très excitante tant qu'elle montera avant de redescendre.
+Pour lui, elle ne sert aucune fonction socialement utile.
+Son succès est dû à sa capacité de contournement.
+De ce fait, il a le sentiment que le bitcoin devrait être interdit.
+Le Prix Nobel d'économie français Jean Tirole met en garde contre le bitcoin, , .
+Le Prix Nobel d'économie américain Paul Krugman avait jugé dès 2013, dans le New York Times, que le .
+Pour le gouverneur de la Banque de France, François Villeroy de Galhau, le bitcoin présente un caractère spéculatif et ne présente pas les caractéristiques d'une monnaie.
+Ainsi, le bitcoin n'est lié à aucune réalité économique.
+Pour de la Banque centrale américaine (FED), le bitcoin n'est pas garanti par des actifs sûrs, il n'a pas de valeur intrinsèque et n'est pas émis par une institution bancaire régulée.
+Jean-Marc Sylvestre, journaliste français de la presse économique, prévoit un krach en soulignant son succès chez ceux qui fabriquent de l'argent sale dans le commerce de la drogue, le commerce illicite des armes et dans la prostitution internationale ainsi qu'auprès des populations des pays émergents, qui ne sont pas bancarisées mais sont équipées d'un smartphone.
+L'économiste Thomas
+S. Umlauft, de l'université de Vienne,
+# refuse à Bitcoin les caractéristiques essentielles d'une monnaie :
+Bitcoin comme les autres crypto
+monnaies ne répondent pas aux exigences des deux écoles dirigeantes en matière de création et de nature de l'argent
+- d'après l'école orthodoxe, une valeur intrinsèque, ou d'après l'école hétérodoxe, un support par un État,
+# affirme que la limite haute de 21 millions de Bitcoin est là aussi intrinsèquement un facteur empêchant le Bitcoin de devenir une monnaie, car aucune autre monnaie n'a ainsi de limite haute,
+et déclare que la valeur actuelle du Bitcoin est uniquement due à un biais cognitif des investisseurs, qui considèrent que le Bitcoin a une valeur, du fait de l'investissement demandé par le minage, alors que manquant intrinsèquement d'utilité, la valeur finale de ces crypto-monnaies ne pourra que tendre vers zéro.
+Le Bitcoin serait une arnaque à cause du Pump and
+Dump
+Bill Harris, ancien CEO de PayPal, déclare , critiquant en particulier les phénomènes de pump and dump, qui consiste à manipuler le cours d'une crypto-monnaie de manière coordonnée avec un groupe de personnes afin d'acheter à bas prix, faire monter le cours (pump), et revendre au plus haut (dump).
+La montée étant artificielle, la valeur retourne alors à son cours initial, et ceux qui ont acheté au plus haut perdent de l'argent.
+Le Bitcoin serait une bulle spéculative
+Bitcoin value in euros since 2013.png|vignette|Valeur d'un Bitcoin en euros depuis 2013
+Thomsons tulipomania
+chart wide.svg|vignette|La crise de la tulipe en 1637 (en vert, les transactions, en rouge, les options)
+Les analyses financiers sont partagés entre décrire le bitcoin comme un coup de génie ou une simple bulle spéculative.
+Le Bitcoin serait un schéma de Ponzi
+Un système de Ponzi est un montage financier frauduleux qui consiste à rémunérer les investissements des clients essentiellement par les fonds procurés par les nouveaux entrants.
+Le Bitcoin est un schéma de Ponzi
+Plusieurs journalistes, économistes, et la banque centrale d'Estonie se sont dits préoccupés par le fait que Bitcoin puisse être un stratagème Ponzi.
+En juillet 2017, le milliardaire Howard Marks a qualifié Bitcoin de système pyramidal.
+Le 12 septembre 2017, Jamie Dimon, PDG de JP Morgan Chase, a qualifié Bitcoin d' et a déclaré qu'il licencierait toute personne de son entreprise qui échangerait de cette monnaie.
+Le 13 septembre 2017, Dimon persiste et compare Bitcoin à une bulle en disant qu'il n'a d'utilité que pour les trafiquants de drogue et des pays comme la Corée du Nord.
+Le 22 septembre 2017, le fonds spéculatif Blockswater a accusé JP Morgan de manipulation de marché et a déposé une plainte pour violation de l' du règlement européen relatif aux abus de marché auprès de l'Autorité suédoise de surveillance financière.
+David Gledhill de la banque DBS considère que Bitcoin tient un petit peu du schéma de Ponzi.
+Le Bitcoin n'est pas un schéma de Ponzi
+En 2013, Eric Posner, professeur de droit à l'Université de Chicago, a déclaré qu'.
+D'après la banque mondiale, et Kaushik Basu un schéma de Ponzi peut être volontaire ou involontaire.
+D'après la banque mondiale, Bitcoin n'est pas un schéma de Ponzi, mais une bulle spéculative.
+Pour le rapport du Conseil fédéral sur les monnaies virtuelles, Bitcoin ne correspond pas à un schéma de Ponzi dans la mesure où aucune promesse de gain n'a cours.

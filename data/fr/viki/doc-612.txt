@@ -1,0 +1,21 @@
+Rectangle
+Un rectangle est un quadrilatère qui possède quatre angles droit.
+Dans un rectangle ABCD,
+Les quatre angles sont droits ;
+Les côtés opposés sont parallèles et ont les mêmes longueurs ;
+Les côtés opposés ont la même médiatrice ;
+Les diagonales et les médiatrices s'intersectent en leurs milieux ;
+Un quadrilatère qui possède trois angles droits est un rectangle.
+Un quadrilatère dont les diagonales ont la même longueur et s'intersectent en leur milieu est un rectangle.
+L'aire d'un rectangle dont les côtés ont pour longueurs a et b est : a×b{\displaystyle a\times b}.
+La formule du périmètre est : P=2(L+l)=2L+2l{\displaystyle P=2(L+l)=2L+2l}
+Exemple : Un rectangle fait 8 cm de longueur sur 3 de largeur :
+Pour quels rectangles l'aire est supérieure à l'aire de tout rectangle de même périmètre ?
+Pour quels rectangles le périmètre est-il inférieur au périmètre de tout rectangle de même aire ?
+Réponses :
+Dans les deux cas, les carrés !
+Si un rectangle de côtés de longueur a et b a pour périmètre 2d, alors b=d−a{\displaystyle
+b=d-a}. Donc
+, son aire vaut a(d−a){\displaystyle a(d-a)}. Par l'inégalité arithmético-géométrique, l'aire est inférieure à d24{\displaystyle {\frac {d^{2}}{4}}}. et strictement inférieure si a et b=d−a{\displaystyle b=d-a} sont inégaux.
+Si un rectangle de côtés de longueur a et b a pour aire A, alors b=Aa{\displaystyle b={\frac {A}{a}}}. Donc son périmètre vaut A+aa{\displaystyle {\frac {A+a}{a}}} ;
+il est inférieur à 2A{\displaystyle 2{\sqrt {A}}}, et est strictement inférieur si a et b sont inégaux.

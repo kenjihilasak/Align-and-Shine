@@ -1,0 +1,101 @@
+Diode|Opto
+électronique|Laser
+Une diode laser est un composant opto-électronique à base de matériaux semi-conducteurs.
+Elle émet de la lumière monochromatique cohérente (une puissance optique) destinée, entre autres, à transporter un signal contenant des informations sur de longue distances (dans le cas d'un système de télécommunications) ou à apporter de l'énergie lumineuse pour le pompage de certains lasers (lasers à fibre, laser DPSS) et amplificateurs optiques (OFA, Optical Fiber Amplifier).
+La diode laser est un composant essentiel des lecteurs et graveurs de disques optiques, dans ce cas elle émet le faisceau lumineux dont la réflexion sur le disque est détectée par une photodiode ou un phototransistor.
+Elle trouve également son application dans les dispositifs électroniques de mesure de distance, de vitesse, de guidage et de pointage précis.
+Caractéristiques
+Ses caractéristiques sont proches de celles des lasers conventionnels.
+La plus faible longueur de la cavité, quelques centaines de micromètres au lieu de quelques dizaines de centimètres, entraîne une plus grande divergence du faisceau et des raies d'émission plus éloignées les unes des autres, ce qui facilite la création de lasers monomodes (une seule raie d'émission) par filtrage.
+Les états énergétiques se répartissent dans la structure de bandes du semi-conducteur à la place d'états énergétiques bien définis dans un gaz, par exemple, impliquant l'émission de raies moins fines.
+Les avantages sont sa compacité, sa facilité de modulation à des fréquences élevées, ses faibles tensions de service et puissance consommée grâce à des rendements de l'ordre de 30 % au lieu de 3 % pour les autres types de laser.
+Selon la puissance et la longueur d'onde d'émission de la diode laser, celle-ci peut représenter un réel danger pour la vue et provoquer des brûlures irréparables de la rétine.
+Caractéristique électrique
+La caractéristique d'une diode laser ressemble à celle d'une diode.
+En dessous d'une valeur d'intensité seuil, la diode est absorbante, au-delà, l'émission stimulée est proportionnelle à l'intensité du courant électrique.
+Dépendance en température
+La caractéristique électrique d'une diode laser dépend de la température de la diode.
+En effet, la population de l'état haut de la diode dépend de la température suivant une fonction de Fermi.
+La température modifie l'intensité de seuil et translate donc la caractéristique.
+Principe de fonctionnement
+Comme tout laser, une diode laser fonctionne à l'aide d'un milieu amplificateur (amplification dans les semi-conducteurs par émission stimulée), d'une structure résonante (cavité de Fabry-Pérot ou autre types) et d'un processus de pompage (courant électrique).
+Les matériaux composés : exemple du GaAs
+L'émission lumineuse est basée sur le phénomène de l'électroluminescence qui comprend l'émission d'un photon par recombinaison d'une paire électron-trou et le peuplement de la bande de conduction par injection d'un courant.
+La longueur d'onde d'émission est donnée par l'application du principe de conservation de l'énergie : celle du photon sera approximativement égale à la largeur de la bande interdite du matériau.
+Un autre principe incontournable de la physique est la conservation du moment lors d'une recombinaison ou d'une absorption ;
+cela entraîne la nécessité d'utiliser des matériaux dits « à gap direct » : le minimum de la bande de conduction est à la verticale du maximum de la bande de valence dans l'espace des moments.
+L'arséniure de gallium (GaAs) possède cette propriété et fut le premier utilisé avec succès.
+On l'appelle un composé binaire III-V car Ga appartient à la colonne III du tableau périodique des éléments et As à la colonne V. Avec une largeur de bande interdite de 1,424 eV, il génère une longueur d'onde de 870 nm.
+Structure de base
+Une diode laser est une jonction de semi-conducteurs, comme une diode/diode électroluminescente classique.
+Elle possède trois zones caractéristiques : une couche de confinement de type n, une zone active et une couche de confinement de type p.
+Les couches de confinement permettent d'optimiser l'utilisation du courant dans la diode et d'augmenter le rendement.
+La zone active est formée d'un guide d'onde encadrant le lieu de l'émission laser : matériau massif ou quantique (puits, boîtes ou fil).
+Lorsque cette diode est polarisée en direct, elle laisse passer un fort courant qui peuple la bande de conduction et peut réaliser l'inversion de population.
+En réalité, une couche intermédiaire d'indice optique supérieur joue le rôle de guide optique, comme dans une fibre.
+Les extrémités sont clivées et donnent des faces parfaitement planes jouant le rôle de miroirs semi-réfléchissants, créant la cavité résonante.
+Le dioptre entre le semi-conducteur d'indice 3,5 environ et l'air d'indice 1 possède ainsi un coefficient de réflexion de 30 %.
+Ce coefficient peut être diminué sur les deux côtés par l'application d'un revêtement anti-réfléchissant afin d'obtenir une puissance de sortie plus importante.
+Suivant le domaine d'application, on ajoute soit une lentille de focalisation par exemple pour les pointeurs ou les lecteurs, soit un asservissement en température ou en courant et une fibre amorce pour les applications télécoms et de spectroscopie.
+La puce optoélectronique est, dans ce dernier cas, montée sur un radiateur puis sur un module Peltier "butterfly".
+Le contact supérieur est connecté à la source de courant par un procédé de bonding.
+L'image montre la structure d'une diode laser de puissance.
+Création du rayonnement cohérent
+La condition d'émission laser s'obtient simplement en écrivant les conditions de résonance :
+Le gain sur un aller-retour doit être supérieur aux pertes.
+Le déphasage sur un aller-retour doit être un multiple de 2.
+On obtient ainsi le gain seuil et l'espacement en longueur d'onde entre les différentes raies.
+Cet espacement est l'intervalle spectral libre, ISL (ou FSR en anglais, pour ).
+Sur un aller-retour, le déphasage s'écrit
+: 2 n k_0 \mathrm avec k_0= \frac
+où :
+La valeur de l'ISL se calcule donc de la manière suivante :
+: \mathrm_\nu = \nu_
+- \nu_m
+avec
+\nu_m = \frac
+soit
+\mathrm_\nu = \frac
+ou encore, exprimé en longueur d'onde :
+\begin
+\mathrm_\lambda & = & \frac
+\times \mathrm_\nu \\
+& =& \frac
+\end
+On voit notamment que plus la diode laser est courte, plus les longueurs d'onde d'émission sont espacées.
+Comportement statique
+Modes lumineux d'une diode.
+Comportement dynamique
+La diode laser est utilisée comme convertisseur de l'information électrique vers optique dans des applications à haute fréquence de modulation, la principale étant les télécommunications.
+Cette modulation haute fréquence induit des effets non linéaires et des limitations qui vont être décrits ici.
+La bande passante est la fréquence maximale d'utilisation d'une diode, c'est-à-dire la limitation dynamique intrinsèque au composant.
+Ce facteur est directement relié au temps de déplétion de la jonction et à l'arrêt de l'inversion de population.
+Dans les systèmes de transmission actuels dits transceiver (ensemble diode laser + Peltier + couplage optique + boîtier), la bande passante exploitée est de .
+Le futur sera constitué de systèmes à .
+Applications
+Les diodes constituent le type de laser le plus vendus : environ 733 millions d'unités en 2004, beaucoup plus que les
+d'autres types de lasers.
+Ces diodes laser sont largement utilisées dans les télécommunications car elles sont facilement modulées et deviennent des sources lumineuses couplées pour des fibres optiques de communication.
+Elles sont utilisés dans divers instruments de mesure, comme les télémètres ou encore pour des lecteurs de code-barres.
+Les diodes laser visibles, généralement de couleur rouge, mais aussi verte, sont fréquentes, comme les pointeurs laser.
+Les diodes laser de basses ainsi que de hautes puissances sont largement utilisés dans l'industrie de l'imprimerie en tant que sources de lumière pour la numérisation d'images (entrée) ainsi que pour la fabrication de plaque d'impression de très haute vitesse et haute résolution (sortie).
+Des diodes laser infrarouge et rouge sont courantes dans les lecteurs de CD, CD-ROM et la technologie DVD.
+Des diodes laser de couleur violette sont utilisés pour les technologies HD-DVD et Blu-ray.
+Des diodes laser de haute puissance sont utilisées dans des applications industrielles telles que le traitement thermique, le plaquage, le soudage et pour le pompage d'autres lasers.
+Pour la plupart des applications des diodes laser, on pourrait utiliser des grands lasers à l'état solide ou des oscillateurs optiques paramétriques, mais c'est la capacité à produire en masse de diodes lasers à faible coût qui les rend essentielles pour applications grand public.
+Les diodes laser trouvent des applications dans de nombreux domaines, mais selon les cas, on recherche différentes propriétés de lumière : la puissance, la longueur d'onde et la qualité spectrale, la qualité de faisceau, la polarisation, …
+Il est intéressant de classer les applications par ces propriétés fondamentales.
+Énergie dirigée
+Dans de nombreuses applications, on a besoin d'avoir de l'énergie à un endroit donné ou dans une direction donnée, ce qui peut être fait avec un faisceau lumineux collimaté ou bien focalisé.
+Dans cette catégorie, on peut inclure l'imprimante laser, les lecteurs de codes à barres, la numérisation d'image, les éclairages, l'enregistrement optique des données, l'allumage de combustion, la chirurgie laser, l'industrie de tri, l'usinage, et les armes à énergie dirigée.
+Certaines de ces applications sont courante auprès du grand public, d'autres sont expérimentales.
+Cohérence
+La lumière laser est une lumière cohérente.
+Cette propriété est utilisée pour la mesure de distance par interférométrie, l’holographie, la communication cohérente et la maîtrise cohérente de réactions chimiques.
+La cohérence de la lumière laser est primordiale pour les gyromètres à fibre optique.
+Ces outils calculent les variations d'angle d'une plateforme en utilisant l'effet Sagnac.
+Impulsions ultra-courtes
+La technique de « blocage de mode » permet de générer des impulsions ultra-courtes.
+Cette propriété est utilisée pour la distribution de signaux d'horloge pour des circuits intégrés de haute performance, la production de signaux arbitraires pour des ondes radio, l’échantillonnage photonique pour la conversion analogique-numérique, et les systèmes d'accès multiple par répartition de code optique pour les communications sécurisées.
+Types
+* VCSEL : lasers à cavité verticale émettant par la surface

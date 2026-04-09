@@ -1,0 +1,152 @@
+In matematica, una funzione è una relazione tra due insiemi, chiamati dominio e codominio della funzione, che associa a ogni elemento del dominio uno e un solo elemento del codominio.
+Se i due insiemi sono rispettivamente indicati con X e Y, la relazione è indicata con f \colon X \to Y e l'elemento associato a x \in X tramite la funzione f viene abitualmente indicato con f (x) (si pronuncia "effe di x").
+La parola funzione quindi non si riferisce alla sola relazione ma alla terna:
+relazione, domino e codominio.
+Ad esempio la funzione che associa a un numero naturale la radice quadrata di quel numero è diversa dalla funzione che associa a un numero intero la radice quadrata di quel numero (a seconda di come è definito il codominio, la seconda potrebbe non essere neppure un'associazione corretta).
+Si dice che x è l'argomento della funzione, oppure un valore della variabile indipendente, mentre y = f (x) è un valore della variabile dipendente della funzione.
+Sinonimi del termine funzione sono applicazione e mappa.
+Il termine trasformazione viene utilizzato spesso in ambito geometrico per indicare una funzione f:X
+\rightarrow X invertibile
+e che conserva le proprietà geometriche di X, mentre operatore è talvolta utilizzato nella trattazione di funzioni lineari tra spazi vettoriali.
+Le funzioni hanno un ruolo molto importante in tutte le scienze esatte.
+Il concetto di dipendenza funzionale tra due grandezze sostituisce infatti, all'interno delle teorie fisiche e matematiche, quello di causa-effetto, che, al contrario del precedente, non riguarda gli enti teorici ma direttamente gli elementi della realtà concreta.
+Se si afferma, ad esempio, che la pressione di una certa quantità di gas perfetto è funzione della sua temperatura e del suo volume si sta facendo un'affermazione interna a un modello termodinamico, mentre il rapporto di causa-effetto che viene individuato fra le tre grandezze dipende in modo sostanziale dalle possibilità di intervento concreto su di esse.
+Rimanendo a questo esempio, il valore della pressione viene visto più spesso come conseguenza del valore degli altri due parametri, poiché è generalmente molto più facile intervenire sul volume e sulla temperatura che direttamente sulla pressione.
+Esempi
+Gli esempi più semplici di funzione sono quelli per cui sia il dominio che il codominio sono insiemi numerici.
+Per esempio, se a ogni numero naturale si associa il doppio di tale numero, si ha una funzione, il cui dominio è dato dai naturali e il cui codominio è costituito dai naturali pari.
+Tuttavia si parla di funzione anche quando il dominio o il codominio, o entrambi, non sono insiemi numerici.
+Se, per esempio, a ogni triangolo del piano si associa il cerchio in esso inscritto, si ha ugualmente una funzione, in quanto per ogni triangolo esiste uno e un solo cerchio in esso inscritto.
+Inoltre spesso si parla di funzioni con più argomenti, o con più valori:
+per esempio la funzione che alle coordinate x, y, z di un punto nello spazio fa corrispondere temperatura T e pressione P dell'aria.
+In tal caso, la funzione ha in realtà sempre un solo argomento, che è la terna (x, y, z), e ha sempre un solo valore, che è la coppia (T, P).
+Definizione
+Dati due insiemi non vuoti X e Y, si chiama funzione da X in Y una relazione f tale che per ogni x \in X\;
+esiste uno ed un solo elemento y \in Y\;
+tale che (x, y) \in f.
+Tale elemento tradizionalmente si denota con f (x):
+in altre parole, invece di scrivere (x, y) \in f si può usare la scrittura più tradizionale:
+\,y=f (x)\;
+Il fatto che f sia una funzione da X in Y che associa a x l'elemento f (x) si può esprimere con la scrittura:
+\begin f:
+& X & \longrightarrow & Y \\ & x & \longmapsto & f (x)
+\end
+L'insieme X (da cui la funzione f "prende" i valori) è il dominio della funzione f, mentre l'insieme Y (in cui si trovano i valori "restituiti" dalla funzione f) è il codominio della funzione f.
+Le espressioni "prendere un valore" e "restituire un valore" fanno riferimento a un modello meccanico delle funzioni, rappresentate come meccanismi che, fornito loro un elemento del dominio, lo "trasformano" nel corrispondente elemento del codominio.
+Immagine e controimmagine
+Data una funzione f di dominio X e codominio Y, comunque scelto un elemento x del dominio, si chiama immagine di x il corrispondente elemento del codominio, indicato con f (x).
+Analogamente, se y è un elemento del codominio che sia immagine di un elemento x del dominio, cioè se y=f (x), si dice che x è una controimmagine di y. Mentre a ogni elemento del dominio di f è assegnata una e una sola immagine, è possibile che un elemento nel codominio possegga diverse controimmagini, o che non ne possieda affatto.
+Si definisce quindi "controimmagine" dell'elemento y\in Y l'insieme
+f^ (y) = \.
+Se f^ (y) \ne \emptyset per ogni y \in Y si dice che f è suriettiva, mentre se f^ (y) contiene al più un elemento per ogni y si dice che f è iniettiva.
+Se valgono entrambe le condizioni, f è detta biiettiva o biunivoca.
+L'insieme
+degli elementi y del codominio per i quali esiste almeno un x nel dominio che ha y come immagine è detto immagine di f e si denota con \textrm (f) o con f (X).
+Altre notazioni per le funzioni
+Per il valore di una funzione F corrispondente a un elemento x, denotabile con la notazione tradizionale F (x), vengono usate anche altre due scritture.
+Per quella che chiamiamo notazione a funzione prefissa si pone
+\, Fx :
+= F (x) .
+Per quella che chiamiamo notazione a funzione suffissale si pone
+\, xF :
+= F (x) .
+A volte al posto delle parentesi tonde si usano parentesi quadrate:
+\, Fx=F (x) .
+In questo modo si evitano confusioni con le parentesi che indicano l'ordine delle operazioni.
+Questa notazione è usata da alcuni programmi di calcolo simbolico.
+Nelle funzioni di due variabili si usa talvolta la notazione infissa, ossia
+\, yFx :
+= F (x,y)
+ad esempio, nelle usuali operazioni di addizione e sottrazione si usa scrivere x+y e x-y invece di + (x,y) e - (x,y) .
+Estensione e restrizione di una funzione
+Data una funzione f:
+A \to Y e un insieme X tale che A \subset X, si dice che la funzione \tilde:
+X \to Y è un'estensione di f all'insieme X
+\tilde\circ i = f
+dove i : A \to X è l'inclusione di A in X, data da i (a) =
+a. Si dice viceversa che f è la restrizione di \tilde all'insieme A.
+La restrizione di una funzione f a un insieme A contenuto nel suo dominio è abitualmente indicata con f\big|_A.
+Funzioni di due o più variabili
+Quando il dominio di una funzione f è il prodotto cartesiano di due o più insiemi, e dunque la funzione agisce su n-uple di elementi di insiemi, allora l'immagine del vettore di questi elementi \mathbf x viene indicata con la notazione
+f (x_i) \
+In questo caso la funzione viene anche chiamata funzione di vettore.
+A tal proposito in fisica si parla di campo.
+Per esempio, si consideri la funzione di moltiplicazione che associa un vettore di due numeri naturali x e y al loro prodotto:
+f (x,y)
+x \, y. Questa funzione può essere definita formalmente come avente per dominio \N \times \N, l'insieme di tutte le coppie di numeri naturali;
+si noti inoltre che in questo caso la funzione è simmetrica rispetto alle componenti del vettore:
+f (x,y)
+f (y,x) e quindi si tratta di una funzione di un insieme f in cui non importa cioè l'ordine degli elementi.
+Sono inoltre possibili anche altri raggruppamenti delle variabili:
+per esempio risulta estremamente importante nello studio dei sistemi di equazioni differenziali la teoria della funzione di matrice:
+f (x_) \
+Operazioni binarie
+Molte operazioni binarie dell'aritmetica, come l'addizione e la moltiplicazione, sono funzioni dal prodotto cartesiano \Z \times \Z a valori in \Z, e vengono descritte tramite la notazione infissa:
+si scrive cioè x+y (e non + (x,y) ) per descrivere l'immagine della coppia (x,y) tramite l'operazione + .
+Questa notazione è stata generalizzata dall'algebra moderna, per definire strutture algebriche come ad esempio quella di gruppo, come un insieme X dotato di alcune operazioni binarie aventi determinate proprietà.
+Funzioni a più valori
+Se il codominio di una funzione f è il prodotto cartesiano di due o più insiemi, questa può essere indicata come funzione vettoriale.
+Tali variabili spesso vengono aggregate in un vettore;
+a tal proposito in fisica si parla di campo vettoriale.
+Un esempio tipico è dato da una trasformazione lineare del piano, ad esempio:
+(x,y) \to (y,x) .
+Una funzione è invece detta polidroma nel caso in cui esista almeno un elemento del dominio cui corrisponde più di un elemento del codominio.
+In effetti tali funzioni non rientrano nella definizione data inizialmente, ma in alcuni campi (ad esempio in analisi complessa) essa viene estesa proprio in questo senso.
+Un esempio di funzione polidroma è la radice quadrata di un numero reale positivo, che può essere descritta come una funzione
+\mathbb R_+ \to \mathbb P (\R)
+che associa a ogni numero reale positivo l'insieme delle sue due radici quadrate.
+Un esempio analogo è il logaritmo definito sull'insieme dei numeri complessi.
+Tipologia
+Nella matematica e sostanzialmente in tutte le sue applicazioni si incontrano numerosi tipi di funzioni, che si presentano anche con caratteristiche molto diverse, e che vengono classificate seguendo diversi criteri.
+Classificazione puramente insiemistica
+Classificazione delle funzioni nell'ambito della teoria della calcolabilità
+* Funzione ricorsiva (secondo la Tesi di Church-Turing, funzioni ricorsive e funzioni calcolabili sono la stessa cosa)
+Classificazione delle funzioni nell'ambito dell'analisi matematica
+* Funzione crescente, funzione decrescente e funzione monotona
+Alcune funzioni notevoli
+* Funzione Beta, funzione Gamma, funzione zeta di Riemann
+* Funzioni trigonometriche:
+seno, coseno, tangente, cotangente, secante, cosecante
+Funzioni di interesse probabilistico e statistico
+Operazioni elementari su funzioni di variabile reale a valori reali
+Data una funzione f (x) di variabile reale a valori reali e una costante c \in \mathbb, su di essa sono applicabili le operazioni aritmetiche elementari ovvero somma, sottrazione, moltiplicazione, divisione, elevamento a potenza, radice n-esima ovvero:
+z (x)=f (x)+c,
+z (x)=f (x)-c,
+z (x)=f (x) \cdot c,
+se c \neq 0 si ha anche
+z (x)=\frac,
+se f (x) > 0 si ha anche
+z (x)=f (x)^c,
+, e se c pari si deve avere anche f (x) \geq 0 , si ha anche
+z (x)=\sqrtc.
+Date due funzioni f (x) e g (x) di variabile reale a valori reali sono applicabili le operazioni aritmetiche elementari di cui sopra ovvero:
+z (x)=f
+(x)+g (x),
+z (x)=f (x)-g (x),
+z (x)=f (x)
+\cdot g (x),
+se g (x) \neq 0 si ha anche
+z (x)=\frac
+se f (x) > 0 (o f (x) \geq 0 nel caso in cui f (x) = 0 \and g (x)>0 ) si ha anche
+z (x)=f
+(x)^
+Composizione
+Date due funzioni f :
+X → Y e g :
+Y → Z si può definire la loro composizione:
+questa è definita applicando prima f ad x e quindi applicando g al risultato f (x).
+Questa nuova funzione viene denotata con g\circ f Riconducendoci alla notazione tradizionale con le due notazioni il risultato della precedente composizione applicato all'elemento x del dominio si può scrivere
+\, (g\circ f) (x) = gf (x)
+Traslazione
+Data una funzione f (x) di variabile reale a valori reali ed una costante c \in \mathbb:
+* la sua traslata rispetto all'asse y verso destra è f (x-c)
+* la sua traslata rispetto all'asse y verso sinistra è
+f (y+c)
+* la sua traslata rispetto all'asse x verso l'alto è f (x)+c
+* la sua traslata rispetto all'asse x verso il basso è
+f (x)-c
+Simmetria
+Data una funzione f (x) di variabile reale a valori reali:
+* la simmetrica di f (x) rispetto all'asse y è f (-x)
+* la simmetrica di f (x) rispetto all'asse x è -f (x)
+Note

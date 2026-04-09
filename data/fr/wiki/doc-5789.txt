@@ -1,0 +1,61 @@
+Tube électronique
+Un tube électronique (thermionic valve en anglais ou vacuum tube aux États-Unis), également appelé tube à vide ou même lampe, est un composant électronique actif, généralement utilisé comme amplificateur de signal.
+Le tube à vide redresseur ou amplificateur a été remplacé dans beaucoup d'applications par différents semi-conducteurs, mais n'a pas été remplacé dans certains domaines comme l'amplification de forte puissance ou des hyperfréquences.
+Historique
+Principe
+Structure générale
+Les tubes électroniques désignent les composants qui utilisent des électrodes, placées dans le vide ou dans un gaz, isolées entre elles par ce milieu, et comprenant au moins une source d'électrons.
+Une enveloppe résistante à la température isole l'ensemble de l'extérieur.
+Bien que l'enveloppe soit généralement en verre, les tubes de puissance utilisent souvent la céramique et le métal.
+Les électrodes sont reliées aux terminaisons qui passent au travers de l'enveloppe par des passages étanches.
+Sur la plupart des tubes, les terminaisons sont des broches prévues pour être installées dans un support de tube électronique pour un remplacement facile.
+Effet thermoïonique
+Les tubes à vide utilisent l'effet thermoïonique pour créer des électrons libres puis les diriger et les moduler.
+À l'origine, le tube à vide ressemble à une lampe à incandescence, car il possède un filament chauffant à l'intérieur d'une enveloppe de verre vidée d'air.
+Quand il est chaud, le filament relâche des électrons dans le vide : ce processus est appelé émission thermoïonique.
+Il en résulte un nuage d'électrons, dont la charge est négative, appelé « charge d'espace ».
+Les tubes à chauffage direct ne sont plus utilisés sauf en tube de forte puissance, remplacé par le chauffage indirect.
+Dans un tube à chauffage indirect, le filament chauffe une électrode qui émet les électrons, la cathode, comme pour les émetteurs ALLISS d'Issoudun.
+En effet, le transistor bipolaire est limité en puissance et en fréquence par deux phénomènes : la dissipation volumique et le temps de transit, qui rendent difficile l'augmentation simultanée de la puissance et la fréquence de fonctionnement.
+Pour pallier cette limitation dans les applications de très forte puissance dans le domaine des hautes fréquences, des combinaisons d'amplificateurs en parallèle sont possibles, mais demandent des coupleurs multiples en entrée et en sortie, et un coût supérieur à un amplificateur à tube unique de même puissance.
+Les tubes à vide au contraire ne dissipent aucune énergie dans le transit des électrons, mais uniquement à l'impact sur l'anode, qui peut être refroidie.
+En diffusion sonore, certains audiophiles trouvent que les tubes électroniques permettent une qualité de son supérieure aux systèmes à transistors bipolaires ou à amplificateurs opérationnels.
+D'autres affirment par contre que les tubes électroniques n'apportent rien et qu'ils ne représentent plus aujourd'hui qu'un argument commercial.
+Il est toutefois peu probable qu'ils disparaissent, vu l'intérêt majeur que leur portent certains amateurs, musiciens et techniciens, par exemple pour les amplificateurs de guitare électrique ainsi que pour les préamplificateurs de microphone et de studio d'enregistrement, où, selon des tests effectués comparativement dans les années 1970, les préamplificateurs à tubes, utilisés dans des conditions de surcharge et de distorsion dépassant leur gamme utile, reproduiraient mieux les harmoniques que leurs équivalents à transistors ou à amplificateurs opérationnels.
+Triodes et pentodes de puissance
+Malgré l'avancée technologique des semi-conducteurs de puissance, les tubes à vide ont ainsi gardé l'avantage pour la fiabilité et pour le coût de revient lors de leur utilisation en amplificateurs de forte puissance dans certains domaines.
+Les triode à grille commune, ou les pentodes à cathode commune sont les schémas les plus utilisés, jusqu'à environ .
+Les puissances varient de pour un amplificateur de radioamateur avec une triode 3-500Z refroidie par convection naturelle, à pour un tube d'émetteur de radiodiffusion et environ en commutation, en refroidissement par circulation d'eau.
+Conception des amplificateurs à tubes
+Classes de fonctionnement
+Les classes d'amplification sont définies de la même façon que pour les transistors, avec les principes suivants :
+* la classe A est utilisée en petits signaux, la puissance dissipée reste constante quel que soit le signal appliqué ;
+* les classes AB ou B, non linéaires sur charge résistive, peuvent être utilisées en « push-pull » linéaire en BF, ou en amplificateur linéaire avec charge accordée ;
+On distingue la classe AB1, sans apparition de courant grille et la classe AB2 avec courant grille ;
+* les classes C avec taux d'ouverture variable pouvant aller jusqu'à la commutation totale, sont utilisées en modulateurs de forte puissance, et en amplificateurs à enveloppe constante (émetteurs FM par exemple).
+Schémas amplificateurs
+Les amplificateurs à tubes utilisent les trois schémas usuels appliqués également pour les transistors :
+* le montage «
+grille commune » où le signal à amplifier est appliqué à la cathode, avec l'avantage d'un faible couplage entrée-sortie permettant d'éviter le « neutrodynage ».
+L'inconvénient est un gain en puissance limité (de dix à vingt fois), ces amplificateurs demandent donc un préamplificateur capable de délivrer pour une puissance de sortie finale de par exemple.
+Ce schéma est bien adapté aux amplificateurs fonctionnant sur toute la bande HF (haute fréquence), par exemple pour la marine
+, les radioamateurs ou les télécommunications professionnelles HF ;
+* le montage en «
+cathode commune », où le signal à amplifier est appliqué à la grille à haute impédance, le gain en puissance est très élevé, le préamplificateur est donc économique, mais le couplage entrée-sortie demande en général un neutrodynage sauf en BF (basse fréquence) : (amplificateurs de stades, de pots vibrants, etc.).
+En HF le neutrodynage sur une fréquence est facile à réaliser, c'est donc le schéma usuel des émetteurs de radiodiffusion en PO (petites ondes) et OC (ondes courtes) ;
+* le montage
+en «
+anode commune » appelé également « suiveur » ou « cathode follower », où le signal entre sur la grille et sort sur la cathode.
+C'est un adaptateur d'impédance sans gain en tension, peu utilisé à l'exception des amplificateurs Hi-Fi.
+Dissipation et refroidissement
+Dans un tube électronique de petits signaux, la source de chaleur principale est le filament, dont la dissipation s'effectue par rayonnement.
+Dans un tube de puissance, le refroidissement de l'anode est la limitation principale en puissance.
+Elle est résolue par rayonnement pour les puissances inférieures au kilowatt, en laissant l'anode monter à la température maximale compatible avec le matériau utilisé (métal jusqu'à , graphite de 200 à et graphite pyrolytique à ), l'enveloppe de verre spécial assurant le rayonnement.
+Le refroidissement à air forcé est utilisé jusqu'à quelques dizaines de kilowatts, l'anode étant externe et munie d'ailettes de convection.
+Enfin la circulation d'eau, voire l'ébullition d'eau sur les vapotrons permet de dissiper des centaines de kilowatts.
+Il est également possible de refroidir l'anode par circulation d'eau, par exemple.
+De nombreux fabricants fournissent directement les modèles de leurs composants, modèles qui seront utilisés par le logiciel de simulation.
+Ces modèles des fabricants permettent de disposer de données fiables conduisant à des résultats corrects.
+Ils sont cependant dans la plupart des cas une simplification du comportement réel du tube modélisé.
+De manière générale, plus le nombre d'électrodes du tube augmente, plus le modèle s'écarte du composant réel.
+Leur principal défaut est de ne modéliser correctement que le courant d'anode, et dans le cas des tubes multigrilles, que pour une tension G2 fixe.

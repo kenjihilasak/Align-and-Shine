@@ -1,0 +1,43 @@
+Vocabulaire des mathématiques|Element|Axiome de la théorie des ensembles|Logique
+En mathématiques, l’appartenance est une relation non symétrique entre ensembles, ou plus généralement entre objets et classes.
+On écrit x \in E pour signifier que l'objet x appartient à la classe E.
+En théorie des ensembles usuelle : l'axiome d'extensionnalité précise que chaque ensemble est caractérisé par les éléments qui lui appartiennent ;
+l'axiome de fondation énonce que la relation d'appartenance est bien fondée, ce qui interdit notamment qu'un ensemble puisse être élément de lui-même (antiréflexivité) ;
+l'appartenance n'est pas transitive, contrairement à la relation d'inclusion.
+Notation et terminologie
+Le symbole \in a été introduit par Giuseppe Peano en 1889 dans (page X) : Il s'agit d'un epsilon, première lettre de la troisième personne du singulier du verbe « être » en grec ancien.
+Sa graphie correspond à celle répandue en Europe continentale à l'époque de Peano.
+Cependant Peano utilisera aussi le symbole ε.
+La relation x \in E se lisait ainsi à l'origine «
+x est un E ».
+Dans le cas général x \in E se lit de nos jours «
+x appartient à E », « x est un élément de E », ou « x est dans E ».
+La relation réciproque E \ni x, moins utilisée, se lit « E contient x », « E comprend x », ou « E possède x ».
+Le terme contient présente le désavantage d'être ambigu, pouvant également désigner l'inclusion.
+Utiliser possède, comme le recommande Gérard Debreu en soulignant que possède est le symétrique naturel de appartient, élude ce problème.
+D'autres auteurs, tels que Paul Halmos ou George Boolos, recommandent plutôt d'utiliser systématiquement « E contient x » pour traduire E \ni x, et « E inclut X » pour E \supseteq X. Enfin, la plupart des auteurs, dont par exemple Nicolas Bourbaki était la suivante :
+Cette définition un peu floue permet déjà de présenter une version intuitive de la théorie des ensembles.
+Voir les articles Ensemble et Théorie naïve des ensembles.
+Par exemple, si M = , 1, 2 et 3 sont les éléments de M.
+On prendra garde à ne pas confondre « élément » et « sous-ensemble » ;
+dans l'exemple qui précède, et , parmi d'autres, sont des sous-ensembles de M mais n'en sont pas des éléments.
+Approche formelle
+Les exposés contemporains de la théorie des ensembles la décrivent comme une théorie égalitaire du premier ordre comportant outre l'égalité = un seul prédicat binaire, l'appartenance \in.
+Dans cette approche, la phrase « x est élément de M » n'est
+que la verbalisation de la formule x\in
+Le formalisme le plus généralement admis est celui de Zermelo-Fraenkel.
+Felix Hausdorff relève que cette approche ne constitue pas une définition à partir d'un concept antérieur, mais est un point de départ pour la formalisation d'une grande partie des mathématiques :
+Éléments d'ensembles, éléments de classes
+Symbole d'appartenance
+Le symbole d'appartenance «
+∈ » est un symbole mathématique introduit par Giuseppe Peano pour l'appartenance en théorie des ensembles.
+Sa graphie correspond à celle de la lettre grecque epsilon en Europe continentale à cette époque.
+Il en existe une version minuscule et une version barrée, et ces trois caractères ont également un codage Unicode renversé de droite à gauche.
+Ce symbole est repris comme titre d'un recueil de poésie publié par Jacques Roubaud en 1967.
+Pour l'auteur, il est aussi « par extension, symbole de l'appartenance au monde de « l'être au monde ».
+Articles connexes
+* SETL
+, un langage de programmation fondé sur la notion d'ensemble
+Notes
+Références
+gs9h0bf2icgg4wifeqhdi7s2ciozxx7

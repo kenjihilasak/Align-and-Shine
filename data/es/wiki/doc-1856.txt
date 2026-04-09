@@ -1,0 +1,160 @@
+La potenciación es una operación matemática entre dos términos denominados: base y exponente .
+Se escribe y se lee usualmente como « elevado a » o también « elevado a la ».
+Hay algunos números especiales como el 2, que se lee al cuadrado o el 3, que le corresponde al cubo.
+Nótese que en el caso de la potenciación la base y el exponente pueden pertenecer a conjuntos diferentes, en un anillo totalmente general la base será un elemento del anillo pero el exponente será un número natural que no tiene por qué pertenecer al anillo.
+En un cuerpo el exponente puede ser un número entero.
+Definición
+Se llama potencia a una expresión de la forma a^n, donde a es la base y n es el exponente.
+Su definición varía según el conjunto numérico al que pertenezca el exponente.
+Exponente entero
+Cuando el exponente es un número natural n, este indica las veces que aparece a multiplicando por sí mismo, siendo a un número cualquiera:
+Esta definición puede aplicarse, tanto a números reales o complejos, así como a otras estructuras algebraicas más abstractas, como pueden ser, por ejemplo, matrices cuadradas.
+Multiplicación de potencias de igual base
+El producto de dos potencias que tienen la misma base es igual a una potencia de dicha base que tiene como exponente la suma de los exponentes, es decir:
+Ejemplos:
+: 9^3 \cdot 9^2
+9^5
+Potencia de una potencia
+La potencia de una potencia de base a es igual a la potencia de base a y cuyo exponente es el producto de ambos exponentes (la misma base y se multiplican los exponentes):
+Debido a esto, la notación a^ se reserva para significar a^ ya que ^c se puede escribir sencillamente como a^\,.
+Potencia de un producto
+La potencia de un producto es igual al producto de cada uno de los factores elevado al mismo exponente, es decir:
+Si la base a tiene inverso aditivo, indicado mediante signo negativo -a, entonces se tiene la regla:
+Si la base a tiene inverso multiplicativo c, es decir c·a
+1 o que c
+\frac, entonces este se denota por a^, y el exponente se puede ampliar a todos los números enteros:
+;Observación:
+: a^
+( a^ )^n
+\underbrace_n
+\frac
+\frac.
+División de potencias de igual base
+El cociente de dos potencias con la misma base es igual a una potencia de dicha base con un exponente igual a la diferencia del exponente del dividendo menos el del divisor, esto es:
+Ejemplo:
+: \frac
+9^2
+Un número distinto de 0 elevado al exponente 0 da como resultado la unidad (1), puesto que:
+\frac
+a^ =
+a^0\,
+El caso particular de 0^0\, no está definido y es conocido como una indeterminación.
+Potencia de un cociente
+La potencia de un cociente es igual al cociente de cada uno de los números elevado al mismo exponente.
+Si la base a = 0, entonces a no tiene inverso multiplicativo a^, por lo que sólo se presentan exponentes de números naturales por quedando así prohibida la notación como valor numérico:
+:0^1=0
+:0^n
+\underbrace_n
+Exponente racional
+La potenciación con exponente racional viene de la necesidad de resolver una ecuación del tipo x^n
+a , de manera que x
+\sqrtn , pero se ha de garantizar que dicha x sea un número real y esto sólo se puede garantizar para todo n si la base a es un número real positivo, por lo que existe un teorema que dice:
+Para notar la raíz se define el uso de fracciones en el exponente:
+;Observación:
+:\left ( a^ \right)^n
+a^1 = a.
+En general para las fracciones se define que:
+;Relación:
+Propiedades
+: a^ \cdot a^ = a^ ,
+: \left ( a^ \right)^ = a^ ,
+: ( a \cdot b )^ = a^ \cdot b^ .
+Exponente real
+La potenciación puede extenderse a exponentes reales usando sucesiones racionales; esto se recoge en el siguiente teorema:
+Nótese que las sucesivas aproximaciones de ab tienen como exponente números racionales, con lo que para que la definición sea consistente, se exige que a sea un número real positivo.
+Análogamente, se puede extender la potenciación a funciones, usando la función exponencial, y su inversa, la función logaritmo natural, en un proceso que se denomina exponenciación.
+Así, se define
+: f (x)^ = e^ .
+De igual manera, esta es totalmente consistente si el conjunto imagen de f (x) es el conjunto de los números reales positivos R+, o algún subconjunto de este, siendo los valores de la función exponente g (x) números reales cualesquiera, debido a que el logaritmo natural no está definido para números negativos.
+Propiedades
+: a^b \cdot a^c = a^ ,
+: \left ( a^b \right)^c = a^ ,
+: ( a \cdot b )^c = a^c \cdot b^c .
+Exponente complejo
+Puede extenderse a exponentes complejos usando funciones analíticas o holomorfas, así a^b= \mbox ( b\cdot \mbox a) donde det-exp es la determinación de la exponencial y det-log la determinación del logaritmo.
+Resultados de potenciación
+Propiedades que no cumple la potenciación
+No es distributiva con respecto a la adición y sustracción (véase productos notables), es decir, no se puede distribuir cuando dentro del paréntesis es suma o resta:
+: (a + b)^m \ \neq\ a^m + b^m
+: (a - b)^m \ \neq\ a^m - b^m
+No cumple la propiedad conmutativa:
+:a^b \ \neq\ b^a
+Tampoco cumple la propiedad asociativa:
+:a^
+a^\ne
+(a^b)^c
+a^=a^
+Para las potencias con base 10 y exponente entero, el efecto será desplazar la coma decimal tantas posiciones como indique el exponente, hacia la izquierda si el exponente es negativo, o hacia la derecha si el exponente es positivo.
+Ejemplos:
+\begin
+10^ & = & 0,000001\\
+10^ & = & 0,00001 \\
+10^ & = & 0,0001 \\
+10^ & = & 0,001
+10^ & = & 0,01 \\
+10^ & = & 0,1
+\end
+\begin
+10^0 & = & 1 \\
+10^1 & = & 10 \\
+10^2 & = & 100 \\
+10^3 & = & 1.000 \\
+10^4 & = & 10.000 \\
+10^5 & = & 100.000 \\
+10^6 & = & 1.000.000
+\end
+Representación gráfica
+La representación gráfica de una función potencia f (x) = xn con exponente natural n par tiene una simetría similar a la de una parábola.
+Su vértice se sitúa en el punto (0, 0) y la curva es decreciente en el segundo cuadrante y creciente en el primero.
+La representación gráfica de una función potencia f (x) = xn con exponente natural n impar es una curva con dos ramas unidas en el punto (0, 0), que posee simetría rotacional alrededor de este.
+El punto de inflexión precisamente se encuentra en el punto (0, 0), la curva es siempre creciente y ocupa el tercer y primer cuadrante.
+Dichas curvas son continuas y derivables en todo su dominio de definición.
+Límites
+El caso especial 0^0\, se considera indefinido y dependiendo del contexto pueden ser asignados distintos valores dependiendo de las propiedades específicas que se quieran mantener.
+Por ejemplo, puede argumentarse que 0^0\, es el igual al valor del límite
+:\lim_ x^0
+y como x^0=1 para x \ne 0, dicho valor podría ser igual a 1.
+Sin embargo también puede considerarse dicha expresión como el valor del límite
+:\lim_ 0^x
+y como 0^x=0 para x \ne 0, dicho valor podría ser igual a 0.
+Esto ilustra que la forma 0^0\, puede corresponder a diferentes valores y por ello se considera indefinida.
+El debate sobre el valor de la forma 0^0\, tiene casi dos siglos de antigüedad.
+Durante los primeros días del análisis matemático en que el fundamento formal del cálculo no se había establecido, era común aceptar que 0^0\,=1.
+Sin embargo, en 1821 cuando Cauchy publica el Cours d'Analyse de l'École Royale Polytechnique estableciendo el primer tratamiento riguroso del análisis, dicha forma aparece en una tabla de formas indefinidas junto a otras como 0/0.
+En los años 1830, Libri publicó un argumento para asignar 1 como valor de 0^0\, y Möbius lo apoyó afirmando erróneamente
+que
+:\lim_ f (t)^
+1\, siempre que \lim_ f (t)
+\lim_ g (t) = 0.
+Sin embargo un comentarista que firmó simplemente como «S» proporcionó un contraejemplo
+:f (t)^=^t
+cuyo límite cuando t\to0^+ es 1/e, lo cual calmó el debate con la aparente conclusión del incidente que 0^0\, debería permanecer indefinida.
+Se pueden encontrar más detalles en Knuth (1992).
+En la actualidad, suele considerarse la forma 0^0\, como indefinida y no se le asigna valor si no se tiene un contexto en el cual el valor asignado tenga sentido.
+Para calcular límites cuyo valor aparente es 0^0\, suele usarse la regla de l'Hôpital.
+Generalizaciones
+Extensión a estructuras abstractas
+La definición de potenciación puede extenderse a exponentes reales, complejos o incluso matriciales.
+Dado un anillo \scriptstyle (\mathbb,+,\cdot) la operación de potenciación se define como:
+\begin
+\mathrm
+: & \mathbb \times \mathbb & \longrightarrow & \mathbb\\
+& (x,n) & \longrightarrow &
+\mathrm (x,n)
+x^n
+\end
+Esto difiere de la exponenciación que es definible sobre un cuerpo que contenga a los racionales o ciertas álgebras sobre los reales o complejos:
+\begin
+\mathrm: & \mathbb & \longrightarrow & \mathbb
+& x & \longrightarrow &
+\mathrm (x)
+e^x
+\end
+\mathrm (x)
+\sum_^\infty \frac
+Obviamente la exponenciación sólo se puede definir sobre un conjunto en el que sea posible definir la potenciación, aunque un anillo admitirá siempre la operación de potenciación (con exponente natural) aunque no admita la exponenciación.
+Potencia de números complejos
+Para cualquiera de los números reales a,b,c,d \, se tiene la identidad:
+:\left (a\,e^\right)^=a^\,e^
+Véase también
+* Fórmula de De Moivre (para potencias de números complejos)

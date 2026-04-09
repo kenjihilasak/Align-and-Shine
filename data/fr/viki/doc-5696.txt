@@ -1,0 +1,20 @@
+Une maintenance de cette page a été demandée.
+1 février 2022 à 09:24 (CET)
+Exemple d'injection
+Une injection est une application qui envoie deux éléments distincts quelconques sur deux images distinctes.
+On parle aussi d'application injective.
+Une applicationf d'un ensemble E vers un ensemble F est injective lorsque deux éléments quelconques de E ayant même image, sont égaux.
+Autrement dit f:E→F est injective lorsque, pour tous x et y de E tels que f(x)=f(y), on a x=y.
+Par exemple, en cours de géographie, on demande de connaître les capitales des différents pays d'Europe.
+On peut décrire une application de l'ensemble des pays du monde dans l'ensemble des villes, qui à chaque pays associe sa capitale.
+C'est une injection : une ville ne peut pas être la capitale de deux pays différents !
+La composée de deux applications injectives est injective.
+Supposons que f est une application injective de E dans F, et que g est une application injective de F dans G.
+: Si x et y sont deux éléments de E tels que g[f(x)]=g[f(y)], alors, comme g est injective, il vient : f(x)=f(y) ;
+puis, comme f est injective, on obtient : x=y.
+Par conséquent, g o f est injective.
+Si g o f est injective, alors f est injective.
+Soient x et y deux éléments de l'ensemble de définition E de f tels que f(x)=f(y).
+De fait, on obtient : g[f(x)]=g[f(y)]. Comme g o f est injective, on a : x=y.
+Le théorème de Cantor-Bernstein permet de comparer la taille de différents ensembles :
+S'il existe une injection de l'ensemble A dans l'ensemble B, et s'il existe une injection de l'ensemble B dans l'ensemble A, alors il existe une bijection de A sur B.

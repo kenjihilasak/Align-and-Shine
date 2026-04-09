@@ -1,0 +1,66 @@
+Java (langage de programmation)
+Attention
+à ne pas confondre !
+Pour les sujets ou articles dits homonymes, voir : Java.
+Java est l’un des deux langages de programmation les plus employés aujourd'hui, notamment pour des programmes de gestion des entreprises ou de création de jeux vidéos.
+Du fait du développement de l'informatique, ce langage est de plus en plus utilisé par les entreprises, entrainant une augmentation d'emplois et de métiers dans ce domaine et un intérêt de plus en plus grand pour ce langage qui peut être appris aujourd'hui dans de nombreuses écoles, ou encore sur Internet à l’aide de plusieurs plateformes comme YouTube ou OpenClassrooms.
+Il ressemble au C++, mais leurs différences font qu'ils ne sont généralement pas utilisés pour les mêmes choses :
+Java s'exécute dans une machine virtuelle : il est donc plus lent que le C++ ,mais i simplifie la gestion de la mémoire ;
+Java est plus simple d'accès que le C++ (moins de symboles, moins de notions) mais le C++ permet des constructions plus puissantes et personnalisées ;
+Grâce à sa machine virtuelle, Java est un multi-plateforme.
+Le programme Java ci-dessous affiche le texte «
+Bonjour tout le monde !
+publicclassDireBonjour{publicstaticvoidmain(String[]args){System.out.print("Bonjour tout le monde !");}}
+Le langage Java permet aussi de créer et coder avec des structures conditionnelles, c'est-à-dire une énumération de conditions.
+Si quelques conditions sont vérifiées le programme va alors effectuer les actions codées au bon endroit.
+Le programme ci-dessous permet de comparer et d'afficher l'entier le plus grand parmi deux nombres entiers pris au hasard.
+Le code en français peut s'écrire de cette forme :
+Exemple, en français
+d'une structure conditionnelle en Java
+En reprenant l'exemple ci-dessus, le programme Java correspondant est celui-ci :
+publicclassStructuresConditionnelles{publicstaticvoidmain(String[]args){intn1,n2;/ /
+On affiche l'entier n1 car dan ce cas, n1 est plus grand que n2 (n1 > n2)System.out.println(n1+" est plus grand que "+n2);}elseif(n1 si n1 n'est pas plus petit et plus grand que n2
+, cela signifie que n1 = n2)System.out.println(n1+"
+et "+n2+" sont égaux.
+);}}}
+Le langage Java n'est pas seulement un langage de programmation ;
+il inclut aussi des outils permettant de développer des interfaces graphiques pour le développement d'applications mobiles.
+On parle généralement de deux grandes familles de langages de programmation :
+les langages compilés (comme le C), qui font des programmes directement « compris » par l'ordinateur (en code machine)
+les langages interprétés (comme Perl), qui sont entièrement traduits (« interprétés »)
+par un programme appelé interpréteur qui se charge lui-même d'effectuer les actions demandées.
+Java n'est ni compilé ni interprété mais il est entre les deux.
+En effet, pour fonctionner, un programme Java a lui aussi besoin d'être compilé mais cette compilation ne produit pas du code machine ;
+à la place, on a du bytecode (en français code octet ou code objet), une sorte de code machine abstrait que le processeur ne peut pas comprendre.
+Le bytecode s'exécute dans une machine virtuelle, un programme qui reproduit lui-même le comportement d'un ordinateur.
+Pour Java, ce programme s'appelle la Java Virtual Machine (JVM).
+La JVM sert de « traducteur » entre le bytecode et le système d'exploitation.
+L'intérêt d'un bytecode s'exécutant dans une machine virtuelle est d'être suffisamment simple pour être exécuté rapidement (parce qu'il est déjà compilé) tout en n'étant pas aussi concret que du code machine .
+En effet, un programme compilé est adapté aux spécificités de l'ordinateur sur lequel il a été compilé : il ne fonctionnera pas forcément sur un autre système d'exploitation ou avec un processeur de type différent.
+En revanche, un même programme
+Java peut-être utilisé sur tous les ordinateurs pour lesquels il existe une machine virtuelle Java, parce que son bytecode ne dépend pas d'une architecture d'ordinateur particulière.
+C'est la raison pour laquelle la majorité des programmes pour smartphones sont écrits en Java : le programmeur n'écrit qu'un seul programme pour tous les smartphones, sans se soucier des différences entre ceux-ci puisque le constructeur aura fourni une machine virtuelle Java.
+Un autre avantage du bytecode est qu'il n'est pas aussi lisible que du code source : un programmeur Java peut donc distribuer son programme sans dévoiler comment il est fait.
+Dans le cas du Java, cela doit être nuancé car le langage fournit de puissants outils d'introspection (c'est-à-dire qui permettent aux programmes de s'analyser eux-mêmes).
+Puisque les deux ont besoin d'un programme qui les exécute, la différence entre un langage à bytecode et un langage interprété peut paraître mince, d'autant plus que certains interpréteurs (comme celui de Python) savent eux aussi produire du bytecode.
+On dit que Java n'est pas un langage interprété parce que son exécution passe nécessairement par la production de bytecode, et donc par une étape de compilation, alors que, pendant leur exécution, les programmes interprétés ne sont pas transformés aussi radicalement et conservent une forme beaucoup plus abstraite.
+Miniature de l'une des premières saisons de Taupe Gun
+L'un des grands domaines dans lequel le langage Java est utilisé est le jeu vidéo.
+De nombreuses applications mobiles, web ou logiciels sont programmées grâce à ce langage.
+Le jeu vidéo
+Java le plus connu est le jeu Minecraft, l'un des jeux les plus vendus de l'histoire.
+D'un point de vue informatique, ce dernier constitue un jeu open source, c'est-à-dire que le code source (code exécuté lors du lancement du jeu) est accessible et modifiable par tous.
+Cela signifie donc qu'il est possible d'ajouter au jeu des éléments manquant que nous souhaitons voir et utiliser, comme des armes customisées, des armures ou même des blocs entiers.
+De plus, Minecraft permet, via le langage Java, de créer ses propres mini-jeux : certains développeurs ont même reprogrammé d'autres jeux vidéos pour les adapter et les implémenter dans Minecraft.
+Des jeux comme Hunger Games ou encore le jeu complet
+Garry'
+s Mod ont donc fait leur apparition dans Minecraft.
+Cependant, pour ajouter ou créer ces types de jeux, il est nécessaire de les programmer et donc, d'avoir des connaissances poussées en Java.
+Pour créer un mini-jeu dans Minecraft, les connaissances basiques du langage sont requises, mais il faut ajouter à cela des packages (paquetages en français) de méthodes et fonctions.
+Cela donne donc naissance, lors de l'exécution du code final, à un plugin Java, c'est-à-dire à un module d'extension permettant de compléter et/ou d'ajouter du contenu et des fonctionnalités au jeu.
+Pour mettre en relation un plugin et le jeu, il suffit de déplacer le plugin dans un dossier spécifique et de lancer le jeu.
+Il est également possible de télécharger des plugins prêt à l'utilisation : c'est ce que l'on appelle des « mods ».
+En ce qui concerne les modifications open
+-sources de Minecraft, chaque utilisateur peut modifier l’apparence de son jeu via des packs de textures, modifiant l'aspect des blocs et items, mais aussi des shaders, modifiant cette fois-ci les animations de l'environnement (mouvement de feuilles, de l'eau, des nuages, de la luminosité, etc...).
+Cette application du langage Java montre donc qu'il permet de créer des jeux quasiment infini, d'une part via des cartes de jeu (map) mais également avec de très nombreuses possibilités d'extensions, d'ajouts et de modifications.
+Des jeux comme Minecraft constituent donc un espace de création à part entière pour les plus jeunes : certaines écoles n'hésitent pas à se servir du jeu pour développer la créativité des élèves et/ou expliquer certaines notions mathématiques et géométriques.

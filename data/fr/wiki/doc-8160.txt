@@ -1,0 +1,64 @@
+Vocabulaire des mathématiques|Logique|Axiome|*|Philosophie des mathématiques|Raisonnement mathématique|Philosophie des sciences
+Un axiome (du grec ancien /axioma, « considéré comme digne, convenable, évident en soi »
+- lui-même dérivé de (axios), « digne ») désigne une proposition non démontrée, utilisée comme fondement d’un raisonnement ou d’une théorie mathématique.
+Histoire
+Antiquité
+Pour Euclide et certains philosophes grecs de l’Antiquité, un axiome était une affirmation qu'ils considéraient comme évidente et qui n'avait nul besoin de démonstration.
+Description
+Épistémologique
+Pour l'épistémologie (branche de la philosophie des sciences), un axiome est une vérité évidente en soi sur laquelle une autre connaissance peut se reposer
+, autrement dit peut être construite.
+Précisons que tous les épistémologues n'admettent pas que les axiomes, dans ce sens du terme, existent.
+Dans certains courants philosophiques, comme l'objectivisme, le mot axiome a une connotation particulière.
+Un énoncé est axiomatique s'il est impossible de le nier sans se contredire.
+Exemple : «
+Il existe une vérité absolue » ou «
+Le langage existe » sont des axiomes.
+Mathématiques
+En mathématiques, le mot axiome désignait une proposition qui est évidente en soi dans la tradition mathématique des Éléments d’Euclide.
+L’axiome est utilisé désormais, en logique mathématique, pour désigner une vérité première, à l'intérieur d'une théorie.
+L'ensemble des axiomes d'une théorie est appelé axiomatique ou théorie axiomatique.
+Cette axiomatique doit être non contradictoire.
+Cette axiomatique définit la théorie.
+Un axiome représente donc un point de départ dans un système de logique.
+La pertinence d'une théorie dépend de la pertinence de ses axiomes et de leur interprétation.
+L'axiome est donc à la logique mathématique, ce qu'est le postulat à la physique théorique.
+Dans tout système de logique formelle, il y a comme point de départ des axiomes.
+Un exemple : l'arithmétique usuelle
+Par exemple, on peut définir une arithmétique simple, comprenant un ensemble de « nombres », une loi de composition, +, interne à cet ensemble, une égalité qui est réflexive, symétrique et transitive, et en posant (en s'inspirant un peu de Peano) :
+# un nombre noté
+existe
+# tout nombre X a un successeur noté succ (X)
+# X + 0 = X
+# succ (X) + Y = X + succ (Y)
+Des théorèmes peuvent être démontrés à partir de ces axiomes.
+En utilisant ces axiomes, et en définissant les mots usuels 1, 2, 3, et ainsi de suite pour désigner les successeurs de 0 : succ (0), succ (succ (0)), succ (succ (succ (0))) respectivement, nous pouvons démontrer ce qui suit :
+:succ (X)
+= X + 1 (axiome 4 et 3)
+D'autres systèmes axiomatiques
+Tout résultat qui peut être déduit des axiomes n'est pas un axiome.
+Toute affirmation qui ne peut être déduite des axiomes et dont la négation ne peut pas non plus être déduit de ces mêmes axiomes peut être ajoutée comme axiome sans en modifier la cohérence.
+On dit qu'une telle affirmation est indépendante des axiomes précédents.
+En revanche, l'ajout d'un nouvel axiome permet de démontrer de nouveaux théorèmes.
+Probablement le plus ancien et aussi le plus célèbre système d'axiomes est celui des 5 postulats d'Euclide.
+Ceux-ci s'avérèrent être assez incomplets, et beaucoup plus d'axiomes sont nécessaires pour caractériser complètement la géométrie d'Euclide (Hilbert en a utilisé 26 dans son axiomatique de la géométrie euclidienne).
+Le cinquième postulat (par un point en dehors d'une droite, il passe exactement une parallèle à cette droite) a été suspecté d'être une conséquence des 4 premiers pendant presque deux millénaires.
+Finalement, le cinquième postulat s'est avéré être indépendant des quatre premiers.
+En effet, nous pouvons supposer qu'aucune parallèle ne passe par un point situé en dehors d'une droite, ou qu'il existe une unique parallèle, ou encore qu'il en existe une infinité.
+Chacun de ces choix nous donne différentes formes alternatives de géométrie, dans lesquelles les mesures des angles intérieurs d'un triangle s'ajoutent pour donner une valeur inférieure, égale ou supérieure à la mesure de l'angle formé par une droite (angle plat).
+Ces géométries sont connues en tant que géométries elliptique, euclidienne et hyperbolique respectivement.
+La relativité générale affirme que la masse donne à l'espace une courbure, c'est-à-dire que l'espace physique n'est pas euclidien.
+Au , les théorèmes d'incomplétude de Gödel énoncent qu'aucune liste explicite d'axiomes suffisante pour démontrer quelques théorèmes très élémentaires sur les entiers (par exemple l'arithmétique de Robinson) ne peut être à la fois complète (chaque proposition peut être démontrée ou réfutée à l'intérieur du système) et cohérente (aucune proposition ne peut être à la fois démontrée et réfutée).
+Références
+Voir aussi
+Bibliographie
+Robert Blanché, L’Axiomatique
+- 1955, éd.
+P.U.F. coll.
+Quadrige, 112 p.
+Articles connexes
+Lien externe
+http:/ mpegif/mmset.html#axioms
+Metamath axioms
+page
+fwllaph82jbsjotx01ntwu6k9m4q3p2

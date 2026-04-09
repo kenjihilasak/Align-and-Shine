@@ -1,0 +1,377 @@
+Technologie automobile|Véhicule à conduite automatique|Automate
+Un véhicule autonome est un véhicule automobile apte à rouler, sur route ouverte, sans intervention d'un conducteur.
+Le concept vise à développer et produire un véhicule pouvant réellement circuler sur la voie publique dans le trafic sans intervention humaine en toutes situations, à terme.
+C'est une application typique du domaine de la robotique mobile dans laquelle de nombreux acteurs sont engagés.
+Néanmoins de nombreuses questions techniques, légales, psychologiques et juridiques restent non résolues.
+La notion de voiture
+autonome peut recouvrir aussi bien un véhicule totalement autonome ou bien un véhicule «
+semi-autonome » disposant de différents systèmes d'aide à la conduite automatisée, par exemple en ville ou sur autoroute, ou encore de système de stationnement automatisé.
+Principes
+Un véhicule autonome
+- qui peut être un véhicule standard aménagé
+- est équipé de capteurs numériques (caméras, radars, sonars, lidars) dont les données sont traitées par des processeurs et des logiciels spécifiques :
+* avec la fusion de ces données, ces logiciels reconstituent la situation routière 3D par reconnaissance de formes (limites de chaussées, de voies, de véhicules, d'obstacles, de panneaux) et emploient des algorithmes d'intelligence artificielle pour décider de l'action à réaliser sur les commandes du véhicule ;
+* les actions décidées par logiciel sont réalisées par servocommandes sur le volant, l'accélérateur, le frein et diverses interfaces permettant l'engagement et le désengagement du mode conduite automatique.
+Effets attendus du développement des véhicules autonomes
+Certains analystes estiment que le développement de ce type de véhicules pourrait chambouler l'industrie automobile mondiale, à travers un changement radical des modes de consommation.
+Alors qu'aujourd'hui de nombreux particuliers achètent des véhicules pour leur utilisation personnelle, le développement de services de transport (taxi) reposant sur une flotte de véhicules autonomes pourrait conduire à une réduction substantielle de ce type d'achats.
+L'industrie automobile passerait alors progressivement d'une industrie de biens à une industrie de services, les véhicules restant la propriété de la compagnie de transport.
+Avantages et inconvénients possibles
+En termes d'accidentologie, les statistiques révèlent que 90 % des accidents de la route sont liés à une erreur humaine.
+* l'apparition de nombreux trajets d'ajustement et redondants (par exemple, les trajets pour aller chercher quelqu'un qui a commandé une voiture, pour aller se garer, pour anticiper une demande dans un lieu éloigné) ;
+* une réticence possible des utilisateurs à laisser le contrôle de leur voiture à des machines.
+* le piratage informatique des voitures, ciblé contre un véhicule, ou contre toute une flotte simultanément ;
+* les voitures ne peuvent, pour l'instant, obéir aux signaux et injonctions des agents de police ;
+en ce cas, il sera probable qu'ils doivent disposer d'outils adaptés pour réguler la circulation ou arrêter le véhicule ;
+* le surcoût d'un véhicule autonome par rapport à son équivalent «
+non autonome »
+pourrait être un frein auprès de la clientèle.
+Historique
+Plusieurs tentatives isolées avaient été réalisées depuis les années 1970, mais l'évolution rapide des technologies liées aux capteurs, à la télématique et à la puissance intrinsèque des processeurs numériques, ont finalement abouti à des résultats probants et assez nombreux.
+En 1977 le Laboratoire de robotique de Tsukuba au Japon fit fonctionner une automobile automatique sur un circuit dédié.
+Le suivi de trajectoire était réalisé par reconnaissance du marquage au sol et la vitesse de était atteinte.
+En 1984 Mercedes-Benz testa une camionnette automatique équipée de caméras, dont le logiciel de reconnaissance
+était développé par une équipe de l'université de la Bundeswehr à Munich sous la direction d'Ernst Dickmanns.
+Le véhicule atteint sur un réseau routier sans trafic.
+En 1986 le projet ALV (Autonomous Land Vehicle) financé par l'Agence pour les projets de recherche avancée de défense (DARPA), aboutit à un démonstrateur autonome capable de suivre une route à .
+Le Laboratoire de Robotique de l'université Carnegie
+Mellon de Pittsburgh démarre le développement des véhicules automatiques
+Navlab ;
+En 1987 la Commission européenne finança le programme européen Prometheus, à hauteur de 800 millions d'euros, qui contribua, entre autres, au développement d'outils technologiques dédiés à la conduite automobile automatique.
+La même année, le laboratoire de recherche Hughes Aircraft (HRL) complète le véhicule ALV en le rendant tout-terrain et capable d'évoluer à dans un environnement complexe (végétation, rochers, ravins).
+En 1994, à l'occasion d'une conférence scientifique sur le thème, Daimler-Benz réalise une démonstration, en situation réelle de trafic sur l'autoroute A1 à partir de Paris, de deux véhicules autonomes (VaMP and Vita-2) pilotés par logiciels de l'équipe de Dickmanns et capables de réaliser conduite en file, changement de file et dépassement avec une vitesse de pointe de .
+En 1995 un de ces véhicules réalisa le trajet Munich-Copenhague et retour () avec une vitesse atteinte de .
+La plus longue section de conduite automatique continue fut .
+La même année un véhicule
+Navlab réalisa l'opération
+Hands
+Across America sur le trajet de Washington, D.C. à San Diego.
+En août 1997 a lieu à San Diego une importante démonstration du « consortium américain de l'autoroute automatisée »
+National Automated
+Highway
+System Consortium (NAHSC) où divers véhicules autonomes peuvent être comparés.
+À cette occasion une infrastructure spécifique avait été préparée par l'insertion de plots magnétiques servant au guidage dans certaines sections d'autoroute.
+Rapport du département des transports des États-Unis
+Les années 1960 à 2015
+Les faits relatés ci
+-après sont tirés d'un rapport du département des transports des États-Unis.
+Par conséquent, il est possible que l'exposition de certains faits montre un caractère tendancieux en faveur de la politique américaine.
+Les années 1960 marquent l'émergence des systèmes intelligents.
+Le nombre de véhicule en circulation passe désormais le cap des 75 millions.
+Pour des raisons de sécurité, des normes commencent à être mises en place par les agences du gouvernement des États-Unis, donnant naissance au développement de nouvelles technologies intelligentes comme les ceintures de sécurité ou les airbags par exemple.
+General Motors, un constructeur automobile américain, développe DAIR (
+Driver Aided
+Information and
+Routing System)
+, un système connecté intégré dans une voiture, permettant à la fois de recevoir des informations sur la direction à prendre, d'obtenir des informations sur les conditions routières ou bien d'envoyer des messages d'urgence à une centrale.
+Cependant, en raison du manque de ressources pour déployer les infrastructures, le projet est abandonné.
+Durant la fin des années 1960, vient ensuite le projet du Bureau des voies publiques (Federal Highway Administration), ERGS (Experimental Route Guidance System).
+Ce système permet la communication entre plusieurs véhicules.
+Plusieurs constructeurs automobiles américains, comme General Motors bien Philco-Ford se penchent sur le sujet.
+Il y a des tentatives d'essais avec des prototypes mais sans grand succès.
+En 1970, le projet est abandonné car les infrastructures qui auraient été nécessaires auraient coûté trop cher.
+Dans les années 1980, la sécurité et l'environnement sont au cœur de la politique des transports aux États-Unis.
+La cause de ce changement est notamment le nombre élevé de dysfonctionnements de véhicules en 1980 et la diminution des ressources pétrolières depuis 1970, au point qu'un mandat a été mis en place pour que les nouveaux véhicules respectent une certaine norme.
+La technologie devient cependant meilleure et plus accessible, permettant l'émergence de plus d'applications dans le domaine des transports.
+Pendant cette période, des programmes de recherche concernant le développement technologique des transports font leur apparition, tel que PATH (The California Program
+On Advanced Technology For The Highway) qui est encore actif et un des leaders concernant les systèmes de transports intelligents aujourd'hui.
+Dans les années 1990, peu après la fin de la Guerre froide et de la chute du mur de Berlin, les États-Unis profitent de la paix pour faire des progrès dans le domaine de l'industrie, des transports et de la santé.
+On assiste aussi à l'émergence d'Internet avant la fin du siècle.
+L'association ITS America est fondée en 1991 par American Association of State Highway and
+Transportation Officials (AASHTO), le Transportation Research Board (TRB) et l'Institute of Transportation Engineers.
+Son principal but est de faciliter la collaboration de compagnies privées ou d'agences publiques pour le développement des systèmes de transports intelligents.
+Dans les années 2000, les progrès technologiques, surtout dans le domaine de la communication, permettent aux systèmes intelligents de transport de faire un bond en avant.
+En effet, les objets connectés, par exemple les smartphones permettent désormais à l'utilisateur de recevoir des informations en temps réel sur les transports et le trafic par le biais d'applications.
+Mais cela marche aussi dans l'autre sens, c'est-à-dire que le voyageur partage à son tour ses informations (comme sa position par exemple) en temps réel qui peuvent être collectées dans une base de données et être analysées.
+Les smartphones ont joué un rôle majeur dans le développement des systèmes automatisés de transport, car les utilisateurs peuvent désormais envisager un avenir où les moyens de transports seraient composés en grande partie de véhicules autonomes.
+En 2007, des mails dévoilés par le Guardian auraient commencé à être échangés entre Uber et le gouverneur de l'Arizona pour autoriser secrètement les premières voitures autonomes Uber.
+Après 2010 et la crise économique, le but était d'adopter une utilisation plus efficace du réseau routier et du parc automobile.
+Par ailleurs, avec l'évolution rapide des technologies de la communication et de l'information, de nombreuses applications de transport liant des parcs de véhicules localisés géographiquement à des interfaces utilisateurs intuitives sont arrivées sur le marché.
+En 2009, le projet Auto-Driving Car de Google a débuté.
+À l'origine, ce projet équipait des véhicules existants, comme la Toyota Prius et la Lexus RX 450h.
+Cependant, Google a aussi conçu son propre prototype qui a notamment comme particularité d'abandonner le volant et les pédales.
+Ils testent actuellement ce prototype dans plusieurs villes aux États-Unis.
+Leur technologie peut atteindre une automatisation de niveau 4.
+De 2012 à 2013 à Ann Arbor, au Michigan a eu lieu un test grandeur nature de la technologie des véhicules connectés.
+Cet événement a rassemblé environ .
+Chaque véhicule était équipé de la technologie aidant à éviter les accidents lors du parcours de son itinéraire.
+Les conducteurs reçoivent des alertes telles que le freinage des véhicules, les véhicules en angle mort et les non-respects des feux de signalisation.
+En août 2014, la National Highway Traffic Safety Administration (NHTSA) a publié un rapport de recherche sur la technologie de communication entre véhicules V2V.
+On trouve dans ce rapport les résultats de recherches menées par les ministères de la faisabilité technique, la vie privée et la sécurité.
+Ces recherches montrent que deux applications de sécurité :
+Left
+Turn Assist et Intersection
+Movement Assist, pourraient empêcher jusqu'à et sauver par an.
+Le Département des Transports des États-Unis (USDOT) a sélectionné en septembre 2015 trois sites de déploiement de véhicules connectés afin de réaliser des tests grandeur nature.
+Premièrement, les technologies de véhicules connectés sont utilisées dans le sud du Wyoming pour rendre le transit des camions plus sûr et plus efficace.
+Deuxièmement, on utilise la technologie V2V ainsi que la communication des intersections pour fluidifier et sécuriser la circulation sur les grands axes New-Yorkais.
+Troisièmement, de nombreuses applications de mobilité ont été déployées à Tempa en Floride.
+Ainsi, la marine américaine a pour but de devenir incontournable dans les domaine des navires de guerre et des sous-marins autonomes.
+Déjà en 2004, des planeurs sous-marins autonomes ont rejoint le RIMPAC (Rim of the Pacific Exercise) dans la mer de Chine méridionale pour mettre à l'épreuve leurs capacités de combat.
+En avril 2015, La DARPA () a commencé des essais en mer de leur prototype :
+Sea Hunter.
+Le Sea Hunter est un sous-marin autonome expérimental conçu pour chasser une nouvelle génération de sous-marins diesel et nucléaires silencieux que la Chine et d'autres concurrents stratégiques des Américains devraient utiliser en eau internationale contestés tels que la mer de Chine méridionale et le détroit de Malacca.
+L'utilisation de ce type de technologie permet notamment de ne pas mettre en péril de combattants.
+Projets depuis 2010
+Teqmoville, près de paris est une fausse ville où des voitures autonomes sont testées par des ingénieurs spiécialisés en intelligence artificielle
+Projet CATS
+en Europe
+CATS est un projet de recherche européen qui a duré cinq ans (de 2010 à 2014) mené dans le cadre du FP7, (en français le septième programme-cadre de l'Union européenne pour la recherche et le développement technologique) et dont l'objectif a été d'étudier la faisabilité d'une mise en place d'un système de transport basé sur des véhicules électriques autonomes.
+Les paragraphes suivants se réfèrent à l'article «
+Pioneering driverless electric vehicles
+in Europe:
+the City Automated Transport System (CATS)
+» écrit par Derek Christie, Anne Koymans, Thierry Chanard, Jean-Marc Lasgouttes, et Vincent Kaufmann.
+Le projet commence le et l'objectif primaire est d'encourager le déploiement de Cristal, le véhicule autonome développé et créé par le groupe privé français Lohr Industrie, spécialisé dans la conception et la commercialisation de systèmes de transports de biens.
+C'est après avoir effectué des analyses concernant les besoins en matière de mobilité dans trois villes, qu'il a été déduit que Strasbourg était la ville la plus adaptée pour une démonstration publique.
+L'expérience a pu permettre la collecte de données ;
+des informations sur les émissions de , et sur l'acceptation par le marché du système Cristal ont pu être relevées.
+Le projet commence alors à rencontrer ses premiers obstacles.
+Lohr Industrie qui s'occupait de fournir les véhicules autonomes, fait faillite en 2013.
+Elle cesse alors la production de Cristal et se retire en partie du projet CATS.
+Afin de poursuivre le projet, un autre véhicule autonome nommé Navia est choisi pour ses nombreux points communs avec Crystal.
+Il est développé par une autre compagnie française qui s'appelle Induct Technology.
+La contribution d'Induct Technology en fin d'année 2013 au projet, permet alors l'accomplissement d'une grosse étape qui a lieu début 2014, où trois véhicules Navia circulèrent avec succès dans le parc d'innovation d'Illkirch à Strasbourg pendant plusieurs mois, hélas sans prendre de passagers pour des raisons légales.
+En mai 2014, Induct Technology fait faillite à son tour, et se fait racheter par un nouveau propriétaire qui est aussi intéressé par le projet CATS et renomme les véhicules en « Navya ».
+L'expérience sur le campus de l'EPFL est supervisée par BestMile du 10 au 31 juillet 2014 les jours de la semaine de 7 h 30 jusqu'à 18 h 00 pour un total de 168 heures sur 16 jours.
+L'expérience suit un schéma précis : un étudiant est présent dans chaque navette pour répondre aux éventuelles questions, distribuer des questionnaires pour que les passagers partagent leur expérience et arrêter le véhicule en cas d'urgence.
+Des personnes plus qualifiées sont postées sur la route pour surveiller, gérer les étudiants ou bien intervenir en cas d'urgence.
+Mais malgré tout le dispositif mis en place pour garantir le bon déroulement de l'expérience, cela n'a pas empêché les navettes de rencontrer plusieurs problèmes, notamment liés à des défauts techniques et logiciels.
+Autres Projets
+De nombreux acteurs travaillent sur des projets de voiture autonome :
+constructeurs automobiles
+Audi, Toyota, Renault, Nissan, Peugeot, General Motors, Mercedes-Benz,
+ou encore Tesla mais aussi des équipementiers comme Valeo, Continental ou Bosch.
+Google, un acteur pour qui ce n'est pas le cœur de métier, développe également son système, la société reste un acteur emblématique du secteur.
+Apple semble aussi vouloir se positionner sur le marché, avec son projet Titan.
+En octobre 2010, Google annonce avoir conçu un système de pilotage automatique pour automobile, qu'il a installé sur huit véhicules.
+Anthony Levandowski et Sebastian Thrun sont impliqués dans ce projet.
+En août 2013, Nissan annonce vouloir commercialiser ses premières voitures sans conducteur en 2020.
+Volvo qui travaille depuis sur les années 1970 sur l'accidentologie de ses véhicules souhaite aussi proposer un modèle sans accident avant 2020.
+Parmi les constructeurs automobiles français, plusieurs ont un projet de voiture autonome à l'instar du groupe PSA qui fait circuler depuis l'été 2015 sur route ouverte plusieurs véhicules de type , tandis que Ligier a déployé la navette EasyMile EZ 10.
+Fin 2015, la FIA annonce le lancement en 2016-2017 d'un championnat de voitures électriques sans conducteur, Roborace.
+À l'image de sa tentative avortée
+à San Francisco
+pour un problème réglementaire, Uber entend déployer massivement des voitures sans conducteur, ce que son fondateur Travis Kalanick juge pour sa société : celle-ci y voit en effet un moyen de baisser ses prix.
+Le 20 octobre 2016, un semi-remorque Otto, entreprise rachetée par Uber en août 2016, a effectué la première livraison mondiale par un camion autonome, sans chauffeur, en mode de pilotage automatique sur une autoroute entre Fort Collins et Colorado Springs soit un trajet de .
+Une étude de PwC, réalisée en 2016 aux États-Unis, révèle que 66 % de la technologie utilisée par les voitures autonomes est aussi fiable qu'un conducteur moyen.
+Les principales peurs partagées sont les risques d'accidents et de vol.
+Seuls 13 % des consommateurs interrogés ne voient aucun avantage dans ce type de voiture.
+Tesla envisage de commercialiser des fonctions de conduite autonome à partir d'aout 2018.
+Le 16 août 2018, la start-up américaine Nuro annonce le lancement d'expérimentation de service de livraison autonome sur les routes d'Arizona, en partenariat avec le retailer Kroger.
+Déclaration d'Amsterdam
+Le 14 avril 2016, la Déclaration d'Amsterdam, portée par les ministres des transports des vingt-huit États membres de l'Union européenne affirme une ligne politique commune au sujet du développement des véhicules autonomes.
+Les États membres soutiennent le développement d'une conduite automatisée et connectée à travers une gamme d'initiatives telles que les convois de camions, le pilote automatique sur l'autoroute et l'établissement de corridors ITS (corridor de systèmes de transport intelligents).
+Il est aussi soutenu qu'au début de cette transition, une concurrence ouverte entre différents modèles et initiatives est nécessaire pour susciter la créativité et l'innovation.
+Cependant, l'industrie et les utilisateurs exigent que les nouveaux services et systèmes puissent fonctionner sans contraintes liées au franchissement des frontières.
+Les États membres reconnaissent aussi que malgré quelques incertitudes concernant la technologie, la société, le droit, la confidentialité et la sécurité, les technologies de véhicules connectés et automatisés offrent un grand potentiel pour améliorer la sécurité routière, les flux de trafic, l'efficacité globale et la performance environnementale du système de transport.
+En 2017, les expérimentations se multiplient, d'abord en sites fermés puis en ville : à partir du 2 octobre, quatre Renault
+Zoe électriques vont rouler sans chauffeur parmi les véhicules ordinaires, et après la période de test, le public pourra, à partir du printemps 2018, appeler un véhicule en temps réel par l’intermédiaire de son smartphone, depuis l’un des dix-sept points d’arrêt.
+Des opérateurs ont contacté la ville de Paris pour expérimenter des taxis autonomes dans Paris dès 2018.
+Le 8 novembre 2017, la navette électrique autonome de l'entreprise française Navya a un accident avec un camion à Las Vegas, pour son premier jour de mise en service.
+Aux États-Unis, la société Uber a dû arrêter les expérimentations en Californie après que plusieurs véhicules ne se sont pas arrêtés au feu rouge.
+En 2015, les expérimentations se sont alors poursuivies en Arizona, État où les véhicules autonomes peuvent être expérimentés sans demander d'autorisation (permis ou licence).
+Cet État, l'un des plus pauvres du pays, encourage en effet activement la venue des entreprises technologiques sur son territoire.
+En mars 2018, l’État a décidé de suspendre les expérimentations d'uber en raison d'une vidéo étonnante et alarmante d'une collision mortelle.
+Prospectives
+En 2015, les débuts de la commercialisation étaient attendus dès 2017 et sa généralisation à la fin de la décennie des années 2020, selon le Figaro.
+Selon l'INRIA, les voitures autonomes n'arriveront qu'en 2025 sur voie privée et en 2040 sur voies publiques.
+D'après une étude d'IHS Automotive, les ventes de voitures autonomes vont décoller au début des années 2020 puis fortement croître d'ici 2035.
+Carlos Ghosn indique en 2018 que .
+Une étude publiée en mai 2018 par les analystes d'UBS évalue la part de la conduite autonome en 2030 à 5 % des kilomètres parcourus ;
+elle table surtout sur la montée en puissance des robots taxis, qui représenteraient 12 % des ventes de véhicules neufs en 2030, avec 26 millions de robots taxis en circulation dans le monde ;
+en contrepartie, les ventes de véhicules individuels chuteront de 5 %.
+Transports
+en commun
+Plusieurs pays et villes ont entrepris des séries de tests en situation sur des transports en commun autonomes.
+Pour les transports en commun, la technologie reste identique à celle utilisée pour les voitures particulières.
+À Helsinki en Finlande, les bus n'ont ni pédale de frein, ni pédale d'accélérateur, ni volant.
+Il n'y a pas non plus de chauffeur, mais seulement une personne présente prête à actionner un bouton d'arrêt d'urgence.
+L'intérêt des transports en commun autonomes est le même que celui des transports en commun traditionnels, à savoir de réduire le nombre de véhicules dans les villes et désengorger les rues.
+Cette volonté est soutenue par le projet Sohjoa qui cherche à limiter les embouteillages et les gaz à effet de serre.
+Ces autobus sont en test dans des lieux fréquentés, les campus, les zones industrielles (pour Helsinki) mais aussi dans des quartiers d'affaires à Paris et à Lyon.
+Ces essais sont toujours mis en place sur de courtes distances et à des vitesses modérées pour des questions de sécurité et de législation.
+Véhicule sur rails virtuels de Zhuzhou
+À Zhuzhou
+, ville chinoise du Hunan, un véhicule sur rails virtuels, le premier au monde, dénommé tramway rapide sur rails autonome (TRA) ou ART (Automated Railway Transit), a entamé en mai 2018 une expérimentation de 3 mois.
+Le TRA se compare à un tramway pour sa forme, sa longueur et l'aménagement des voitures ;
+il peut transporter jusqu'à 307 passagers à une vitesse maximale de .
+Il roule avec des pneumatiques sur une voie propre marquée de points blancs, en étant guidé par des signaux sans fils.
+À deux millions d’euros par kilomètre.
+Il pèse dix tonnes, sa longueur est de 19 mètres, il est fabriqué par Siemens et circule à Potsdam.
+Il est équipé de vidéo, radar et lidar pour surveiller les alentours du véhicule.
+Les données collectées sont interprétées et évaluées par un ordinateur de bord au moyen d'algorithmes qui peuvent déclencher une réponse automatique appropriée à la situation, comme la proximité de piétons ou d'automobiles.
+Navettes autonomes
+La navette autonome de Keolis et de Navya, roule notamment à Lyon (France), à Las Vegas (États-Unis) et au parc olympique de Londres (Royaume-Uni).
+Des navettes Apolong ont été vendues par la Chine au Japon en 2018, pour commencer à opérer en 2019.
+Mi-2018, la RATP annonce avoir transporté plus de dans diverses expérimentations de navettes autonomes, à Paris, à Bruxelles, à Boulogne-sur-Mer, et à Austin.
+En mai 2019, la RATP met fin à une expérience de navette autonome lancée en juillet 2017 dans le quartier parisien de La Défense.
+Après avoir enregistré dans les six premiers mois, ils ne furent qu'à peine plus de la seconde année faute d'une vitesse plus importante que la marche à pied et de pouvoir faire circuler la navette en toute autonomie dans ce quartier aux circulations variées.
+Positionner ces véhicules sur des populations spécifiques (handicapées, personnes âgées) ou apporter un service ajouté avec une vitesse concurrentielle par rapport à la marche semblent nécessaire pour les développements ultérieurs.
+Transport de fret
+Le constructeur Hyundai a effectué un trajet autonome de niveau 3 d'une longueur de 40 kilomètres avec un camion le lundi 21 août 2018.
+Transport sur site privé en Alberta
+En Alberta, en 2019, dans des mines de sables bitumineux à ciel ouvert, des camions autonomes sont mis en exploitation après cinq ans d'essais en raison d'une meilleure sûreté et d'un moindre coût.
+Ces 150 camions desservent la mine de North Steepbank, au nord de la ville de Fort McMurray, sur quelques kilomètres.
+Législation
+; États-Unis : Cinq États des États-Unis autorisent les véhicules autonomes sur leur territoire : le Nevada (depuis juin 2011), la Floride (depuis avril 2012), la Californie (depuis septembre 2012), le Michigan (fin 2013), et Washington (district de Columbia) (début 2013).
+Une dizaine d'États américains (dont New York, Hawaï, New Jersey, Oklahoma) envisagent également de légaliser ces véhicules en 2015.
+France :
+Le « véhicule à pilotage automatique » fait l'objet de l'un des de la « nouvelle France industrielle » annoncés en octobre 2013.
+D'autre part, l'Assemblée nationale autorise le le principe des tests sur route de « véhicule à délégation totale ou partielle de conduite », dans le cadre de la loi relative à la transition énergétique pour la croissance verte.
+Ainsi de voie devraient être ouverts dès 2015 sur le territoire national notamment à Bordeaux, en Isère, en Île-de-France et à Strasbourg.
+Renault et le laboratoire de recherche Heudiasyc (unité mixte entre l'université de technologie de Compiègne et le CNRS) travaillent sur le sujet depuis au moins 10 ans, et ont créé un laboratoire de recherche commun (Sivalab) à Compiègne pour travailler sur la localisation des véhicules autonomes, leur fiabilité, leur intégrité et leur précision.
+En 2017 un appel à projet I-PME (porté par l'Ademe) a été annoncé, doté d'un fonds de , et l'État pourrait soutenir le projet de plate-forme de services eHorizon de Continental Automotive France (si la Commission européenne le valide).
+Allemagne :
+En 2015, l'Allemagne a annoncé l'ouverture prochaine de zones d'essai sur autoroute.
+L'A9 reliant Munich à Berlin et l'A841 reliant Stuttgart à la frontière suisse devraient accueillir une portion autorisant les véhicules autonomes.
+Les dates et budgets concernant ce projet n'ont toutefois pas encore été communiqués.
+Europe :
+En mars 2016, la Commission économique pour l'Europe des Nations unies (UNECE) annonce une révision de la Convention de Vienne sur la circulation routière.
+néanmoins les véhicules sans conducteur totalement autonomes restent encore interdits à la circulation.
+Classification
+Aux États-Unis la National
+Highway
+Traffic Safety Administration, agence fédérale chargée de la sécurité routière, a établi une classification des véhicules autonomes comportant 5 niveaux :
+; Niveau 0 :
+Aucune automatisation :
+Le conducteur a un contrôle total et à tout instant des fonctions principales du véhicule (moteur, accélérateur, direction, freins).
+; Niveau 1 : Assistance au conducteur : L'automatisation est présente pour certaines fonctions du véhicule, mais ne font qu'assister le conducteur qui garde le contrôle global.
+Par exemple, le système anti-blocage des roues (ABS) ou l'électrostabilisateur programmé (ESP) vont automatiquement agir sur le freinage pour aider le conducteur à garder le contrôle du véhicule.
+Le régulateur de vitesse simple fait également partie de ce premier niveau.
+Niveau 2 :
+Automatisation de fonctions combinées :
+Le contrôle d'au moins deux fonctions principales est combiné dans l'automatisation pour remplacer le conducteur dans certaines situations.
+Le régulateur de vitesse adaptatif combiné avec le centrage sur la voie fait entrer le véhicule dans cette catégorie, tout comme le Park assist qui permet le stationnement sans que le conducteur n'agisse sur le volant ou les pédales.
+; Niveau 3 : Conduite autonome limitée :
+Le conducteur peut céder le contrôle complet du véhicule au système automatisé qui sera alors chargé des fonctions critiques de sécurité.
+Cependant la conduite autonome ne peut avoir lieu que dans certaines conditions environnementales et de trafic (uniquement sur autoroute par exemple).
+Il est imposé au conducteur d'être en mesure de reprendre le contrôle dans un temps acceptable sur demande du système (notamment lorsque les conditions de circulation autonome ne sont plus réunies : sortie de l'autoroute, bouchon, etc.).
+La voiture sans conducteur de Google est actuellement à ce stade d'automatisation.
+; Niveau 4 :
+Conduite
+autonome complète sous conditions :
+le véhicule est conçu pour assurer seul l'ensemble des fonctions critiques de sécurité sur un trajet complet.
+Le conducteur fournit une destination ou des consignes de navigation mais n'est pas tenu de se rendre disponible pour reprendre le contrôle.
+Il peut d'ailleurs quitter le poste de conduite et le véhicule est capable de circuler sans occupant à bord.
+Niveau 5 :
+Conduite complètement autonome sans l'aide de conducteur dans toutes les circonstances.
+L'Organisation internationale des constructeurs automobiles propose une classification très proche à 6 niveaux, le niveau 3 de la classification américaine étant divisé en deux sous-niveaux.
+Sécurité et accidents
+Quelques accidents ont concerné des véhicules autonomes.
+Parmi ces accidents, des voitures sont entrées en collision mortelle avec des éléments leur faisant face.
+Sécurité
+Les considérations de sécurité dépendent du niveau d'autonomie du véhicule, selon qu'il s'agisse d'un véhicule autonome qui devra accomplir toutes les tâches de sécurité aussi bien qu'un conducteur humain, ou d'un véhicule apportant une aide à la conduite.
+Il est anticipé que le véhicule autonome pourrait apporter un gain de sécurité, mais avant, selon Andrew Moore, doyen pour l'informatique de l'université Carnegie-Mellon, personne ne sera intéressé par la conduite autonome d'un véhicule jusqu'à ce qu'un gain de sécurité très net par rapport à la conduite humaine soit prouvé.
+En 2018, la flotte de voitures Google a parcouru de de miles sur des routes publiques, soit environ de kilomètres, sans accident mortel, selon Forbes.
+Les Toyota Prius et les Lexus autonomes de la société Google sont meilleures qu'un professionnel pour les questions liées aux distances de sécurité : les accélérations et les freinages sont meilleurs et réduisent les durées pendant lesquelles les véhicules se trouvent dans des états de proche collision.
+Fin mars 2018, John Krafcik directeur de Waymo (groupe Alphabet/Google) a indiqué que les voitures de sa société ont parcouru 8 millions de kilomètres sans accident mortel depuis 2009, sur des routes en tout ou partie ouvertes aux piétons.
+Toutefois, la distance parcourue par les véhicules autonomes reste trop faible pour pouvoir établir des comparaisons de sécurité significatives, sachant qu'aux États-Unis la mortalité est d'environ par milliards de miles parcourus par des véhicules conduits par un humain.
+Une conduite sécurisée étant une tâche complexe, la sécurité du véhicule n'est pas toujours entièrement garantie par le véhicule dit autonome et peut nécessiter l'intervention du conducteur.
+Or, celui-ci peut devenir inattentif ou peu vigilant du fait de la présence de ces fonctions d'autonomie.
+Certaines études suggèrent que dix secondes sont nécessaires à un conducteur pour passer du mode 100 % autonome au mode conduite, ce qui peut poser des questions de sécurité.
+Au Royaume
+Uni
+en 2018, des sociétés comme Tesla et Nissan ont été critiquées pour avoir suscité des attentes irréalistes: certains conducteurs voudraient conduire des véhicules de niveau 5 alors que ne sont présents sur le marché que des véhicules de niveau 2 ou 3: chaque accident de véhicule semi autonome est dû à un conducteur inattentif.
+Accidents mortels
+Accidents mortels en 2016
+Premier accident mortel en 2016
+Le , un accident a lieu à Williston (Floride, États-Unis) entre un camion et une voiture Tesla équipée du système Autopilot.
+Le véhicule autonome entre en collision, à une intersection, avec un camion venant de face qui tournait à gauche.
+Le passager de la voiture, Joshua Brown, grièvement blessé, décèdera deux mois plus tard de la suite de ses blessures.
+Le décès d'un utilisateur à la suite d'une défaillance du système de pilotage automatique d'un véhicule commercialisé est une première pour le secteur automobile.
+Le véhicule, roulant sur l'US-27A, n'a pas freiné automatiquement alors qu'il se dirigeait vers la remorque d'un camion.
+Les capteurs du véhicule n'auraient pas détecté le camion en raison d'un ciel « très brillant » ou du fait que le système aurait confondu le camion avec un panneau publicitaire.
+Une enquête est ouverte le par la NHTSA.
+Le résultat de l'enquête de la NHTSA peut conduire au rappel de l'intégralité des véhicules concernés par un défaut.
+À la lumière de l'expertise renforcée par une reconstitution, elle commente dans son rapport n'avoir identifié aucun défaut dans la conception ou la performance de l'Autopilot sur le véhicule en question ni aucun incident montrant que le système n'a pas fonctionné.
+Par ailleurs, la reconstitution de l'accident a permis de constater qu'il s'était écoulé sept secondes entre le moment où le camion semi-remorque a fait sa manœuvre et le choc, un délai suffisant pour qu'un conducteur puisse réagir or il n'a pas réagi et c'est bien la cause majeure de cet accident puisque ce système de conduite assistée n'est pas un véritable mode autonome.
+, conclut NHTSA.
+Tesla continue de son côté de mettre en avant que le déploiement de son logiciel autopilote avait permis une réduction de 40 % des crashs ayant touché ses voitures.
+Un chiffre vérifié par la NTHSA, qui salue dans son rapport la sécurité du système proposé par Tesla.
+Deuxième accident mortel en 2016
+Le deuxième accident mortel d'un véhicule autonome
+s'est produit sur une autoroute chinoise : le véhicule est entré en collision avec l'obstacle situé devant lui.
+Accident mortel en 2018
+Le vers p.m.
+, se produit un accident mortel causé par une voiture autonome Uber à Tempe en Arizona.
+Elaine Herzberg, une femme de 49 ans, traversait la route en dehors d'un passage piéton.
+Elle a été fauchée par une voiture en mode autonome monitorée par une opératrice de assise à la place du conducteur alors que l'opératrice, seule occupante du véhicule, en est sortie indemne.
+Le lieu de l'accident est une rue-route ouverte au public où les piétons traversent à proximité d'un parc local.
+Plus précisément, la piétonne se trouvait être dans une zone non directement éclairée par l'éclairage de la route portait des vêtements de couleurs sombres sans gilet de haute visibilité.
+D'après un rapport du GHSA, aux États-Unis, 74 % des piétons tués le sont la nuit, et 72 % des tués ne traversaient pas la route à un croisement.
+Ce type de condition est exactement la situation ou le lidar et le radar sont supposés améliorer la sécurité, d'après l'expert en prévoyance des transports David King, professeur de l'université d'État d'Arizona.
+À l'endroit de l'impact, la route dispose de deux voies pour tourner à gauche, de deux voies pour aller tout droit, et d'une bande cyclable.
+Elle est située dans l'État d'Arizona, qui est l'un des États les plus dangereux des États-Unis pour les piétons, classé en cinquième position avec 23,9 piétons tués par million d'habitants en 2015, et en troisième position avec 14 piétons tués par million d'habitants au premier semestre 2016.
+L'ensemble véhicule autonome-conducteur
+Cet accident interroge sur les raisons pour lesquelles, ni l'automobile sans conducteur, ni la conductrice n'ont réagi à cette situation.
+Le véhicule avait quitté son garage à 9h14 (pm), pour suivre une route pré-établie.
+Au moment de la collision, le véhicule en était à sa deuxième tournée et était en mode autonome depuis 19 minutes est classé avec cinq étoiles au test euro NCAP, et 72 % de protection pour les piétons en 2015, avec une protection médiocre de la zone pelvienne.
+Le véhicule est équipé d'une technologie Uber différente et étrangère à la technologie de Volvo.
+En particulier, le système AEB de freinage automatique d'urgence destiné à éviter les collisions est désactivé en mode autonome.
+Selon le journaliste, lorsque le piéton devient visible elle est située à la distance parcourue soit d'une seconde et demie, soit de deux secondes, dans un premier temps.
+Le conducteur de sécurité ne faisait aucune surveillance de sécurité d'après Missy Cummings, une professeure d’ingénierie de l'université de Duke.
+Position de l'IEEE Spectrum :
+En 2018, certains experts britanniques d'après l'IEEE Spectrum considèrent que les systèmes AEB détecteurs de piétons du commerce auraient détecté le piéton traversant la rue avec sa bicyclette.
+Conséquences de l'accident d'Uber à Tempe :
+Tous les essais d'Uber ont été suspendus.
+Cet accident a relancé le débat sur la sécurité des véhicules autonomes.
+Le Gouverneur d'Arizona Doug Ducey a estimé que cet incident d'Uber mortel marque un échec incontestable de respect des règles de sureté publique.
+Enquête sur l'accident d'Uber :
+Le rapport préliminaire de l'enquête des autorités fédérales (National Transportation Safety Board) des États-Unis a éclairé l'accident dans plusieurs domaines :
+Le système d'AEB fourni de série sur ce type de Volvo avait détecte la nécessité de freiner plus d'une seconde avant l'impact, toutefois le système AEB d'origine avait été désactivé en mode véhicule autonome pour une conduite plus «smooth» (douce) et pour éviter des comportements «erratiques», ce qui explique l'absence de freinage de l'AEB.
+- Le véhicule n'a pas été conçu pour alerter le conducteur de la présence d'une difficulté sur la voie.
+Enjeux sociaux liés aux véhicules autonomes
+La vision de la société sur les véhicules autonomes
+Les progrès dans le domaine des véhicules autonomes posent désormais de nombreuses questions au sujet de l'acceptation de ceux-ci par un large public.
+En effet, les investissements dans ce domaine par de grandes sociétés et les récents progrès techniques, semblent annoncer l'avènement de véhicules autonomes promettant de réduire de 93 % les accidents, grâce à la correction de facteurs humains comme la fatigue ou l'inattention Néanmoins, c'est ici qu'un problème se pose puisque cette estimation se base sur l'hypothèse d'un parc automobile presque entièrement constitué de véhicules autonomes.
+La confrontation des visions du public et des industriels semble donc être un facteur-clé qui décidera du futur de tels véhicules.
+Le regard de la population sur le véhicule autonome
+Une enquête menée en 2015 auprès de dans 109 pays différents par l'université de Delft a montré des différents résultats quant à l'avis de la population sur les véhicules autonomes dans la circulation.
+Tout d'abord, cette enquête révèle que les personnes provenant de pays riches sont plus enclines à ce que le marché des véhicules autonomes se développe s'expliquant en partie par une mise en avant plus en accrue de cette technologie dans ces États.
+Le marché ciblé par les véhicules autonomes est de surcroit dirigé vers une clientèle aisée possédant plus de flexibilité pour s'équiper de ceux-ci.
+D'autres paramètres montrent qu'il s'agit également d'une question de besoin, une personne conduisant beaucoup sera plus intéressée par le développement de cette technologie et sera capable de dépenser plus pour l'obtenir.
+De plus, selon cette étude, 69 % des personnes interrogées pensent que les véhicules autonomes représenteront 50 % des ventes en 2050.
+Ce résultat montre que bien qu'une partie de la population ait confiance en l'avenir de cette technologie, une part non négligeable de celle-ci semble douter de son succès.
+Quant aux 31 % restant, les avis sont divers sur le futur de la voiture autonome.
+Une autre enquête plus restreinte et plus localisée cette fois-ci regroupant de nationalité allemande a préféré étudier l'anxiété provoquée par les véhicules autonomes en fonction de l'âge et du sexe des individus.
+Il en ressort que globalement les femmes sont plus anxieuses que les hommes sur ce sujet et que ce niveau d'anxiété a tendance à augmenter avec l'âge de manière significative pour les deux sexes.
+Une question peut ici encore se poser car l'un des fers de lances des véhicules autonomes est l'indépendance des personnes à mobilités réduite telles que les personnes âgées qui sont pourtant moins enclines à adopter ce genre de technologie.
+Nous pouvons voir dans ce cas que la vision des industriels ne correspond pas pleinement à ce que le public attend des véhicules autonomes.
+Il faut également préciser que pour pallier ce problème d'acceptation, les grandes entreprises contribuant au développement de véhicules autonomes essayent de mettre en contact la population avec de tels véhicules.
+Il s'agit ici de stratégies pour les tester dans la circulation en conditions réelles mais aussi familiariser le public avec cette technologie.
+Telle est la stratégie d'Uber qui a mis en circulation une flotte de ces véhicules dans la ville de Pittsburgh en Pennsylvanie ou encore dans la ville de Göteborg en Suède où Volvo met en circulation 100 véhicules autonomes.
+Finalement, un cas différent dans le mode d'approche serait celui de Tesla qui intègre d'usine dans ses nouveaux modèles une fonction autopilot.
+Ce dernier modèle est intéressant puisque bien que le marché de Tesla soit restreint, il bénéficie d'une large couverture médiatique propice à faire connaître le véhicule autonome.
+À la suite des crashs des véhicules d'Uber et de Tesla, en mars et mai 2018, 73% des américains ne sont pas à l'aise à l'idée de conduire un véhicule autonome, soit dix points de plus qu'au début de l'année, d'après une étude menée par l'Association Américaine des Automobilistes (AAA).
+Éthique et morale
+Lors d'un accident ayant pour cause des raisons humaines, de nombreux facteurs intrinsèques à l'homme déterminent la finalité de l'accident tels que le stress ou encore l'instinct de survie.
+Par contre, dans le cas d'un accident inévitable, le comportement de la voiture sera dicté par le programme de celle-ci.
+De cette problématique, peut être modélisé un dilemme du tramway où ce programme aura le choix et la possibilité de sauver les occupants du véhicule ou de les sacrifier en fonction de la situation.
+C'est d'ailleurs en se basant sur ce type de dilemme qu'une étude a été faite auprès de pour connaître le désir des personnes concernant le comportement à adopter par ces véhicules dans diverses situations.
+À la fin de cette étude, il ressort que les sondés préfèrent un véhicule pouvant sacrifier la vie de ses passagers afin de sauver un plus grand nombre de personnes.
+Ce choix pose néanmoins un problème car à la question de l'achat d'un tel véhicule, les sujets de l'enquête préfèrent en grande majorité un véhicule les préservant eux avant tout.
+On ressent ici une crainte intrinsèque aux véhicules autonomes dans le sens où les utilisateurs sont anxieux de confier leurs vies à une technologie qui ne considéreras ses occupants que comme des variables parmi tant d'autres.
+De plus d'autres problèmes relatifs cette fois-ci aux informations personnelles se posent.
+Selon les lois en vigueur, le propriétaire d'un véhicule autonome est toujours responsable en cas d'accident.
+Les différents systèmes permettant de surveiller l'attention du conducteur et l'état de celui-ci pourraient se retourner contre lui dans l'hypothèse où ces informations sont transmises à l'insu de l'usager à sa compagnie d'assurance par exemple » des véhicules autonomes en situation d’accident.
+Les chercheurs observent sur les 40 millions de réponses issues de 233 pays trois grandes préférences : sauver les humains plutôt que les animaux, sauver plus de vie plutôt que moins, sauver en priorité les enfants.
+Cependant, si les préférences dépendent peu de la catégorie socio-professionnelle, elles sont très variables d'un pays à l'autre, si bien qu'il est difficile pour les concepteurs d'algorithme des constructeurs de ces véhicules de les mettre en application.
+Coût
+Selon une étude de 2015 par l'université de Delft, 22 % de la population étudiée ne se dit pas prête à dépenser plus que le prix d'un modèle équivalent pour que leurs véhicules soit autonome contre environ 5 % qui serait capable de débourser plus de pour avoir cette option.
+L'équipement des véhicules autonomes en test et leur consommation d'énergie sont considérables : les Volkswagen e-Golf testées en conditions réelles en 2019 sont spécialement équipées pour la conduite autonome de niveau 4 : onze scanners laser, sept radars, quatorze caméras, plusieurs capteurs à ultrasons et jusqu’à 5 gigaoctets de données transférées chaque minute à l’ordinateur de bord ;
+leur système informatique installé dans le coffre est doté d’une capacité de calcul équivalant à « 15 ordinateurs portables »
+Effet sur le marché du travail
+Aux États-Unis, des prévisions considèrent que les voitures et camions autonomes pourraient induire la suppression de d'emplois en .
+Les auteurs insistent sur la difficulté à prédire les effets, car de nombreux emplois seront aussi créés par la baisse du coût du transport.
+Au Canada, l'automatisation des transports pourrait supprimer directs et indirects, en effet la majorité de leur activité est concentrée sur le transport de biens sur de longues distances à travers les réseaux autoroutiers.
+Seulement sur le territoire américain, où les véhicules autonomes sont autorisés dans plusieurs états, on peut estimer à près de le nombre de conducteurs de poids lourds pouvant potentiellement perdre leurs emplois.
+* Les conducteurs de bus et de cars sont eux aussi concernés par cette transition, en effet, lorsque les technologies de conduite atteindront le niveau 4, ces deux modes de transport pourront être entièrement automatisés et ces deux professions n'auront plus de raison d'être.
+* Enfin
+les conducteurs de taxi et les chauffeurs de VTC
+La transition vers les véhicules autonomes pourrait aussi engendrer plusieurs changements positifs sur l'économie et le marché du travail, en optimisant le temps de travail des employés en déplacement mais aussi en permettant de réduire les coûts liés à l'utilisation des véhicules.
+Cette transition pourrait aussi avoir de grandes conséquences sur la productivité de certaines professions dont les fonctions impliquent un grand nombre de déplacements.
+En effet, avec l'utilisation de véhicules autonomes, ce temps « perdu » pourrait être remplacé par du temps travaillé.
+Le temps d'utilisation réel des véhicules actuels par leurs utilisateur est estimé à 4 % selon Morgan Stanley, ceci impliquant une perte d'argent et de ressources.
+Une réponse à ce problème pourrait être l'autopartage .
+Or, l'arrivée sur le marché des véhicules autonomes permettrait de lever une grande partie des contraintes liées à ce mode de déplacement, les véhicules autonomes pouvant aisément aller chercher leurs utilisateurs et optimiser leurs trajets pour servir plus efficacement leurs différents utilisateurs.

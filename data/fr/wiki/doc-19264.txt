@@ -1,0 +1,42 @@
+Théorie électrique|Loi en physique|Kirchhoff|Équation de conservation
+Les lois de Kirchhoff expriment la conservation de l'énergie et de la charge dans un circuit électrique.
+Elles portent le nom du physicien allemand qui les a établies en 1845 : Gustav Kirchhoff.
+Dans un circuit complexe, il est possible de calculer les différences de potentiel aux bornes de chaque résistance et l'intensité du courant continu dans chaque branche de circuit en appliquant les deux lois de Kirchhoff : la loi des nœuds et la loi des mailles.
+Loi des nœuds
+La somme des intensités des courants qui entrent par un nœud est égale à la somme des intensités des courants qui sortent du même nœud.
+Sur la figure est représenté le sens (choisi arbitrairement) d'orientation de chaque fil, entrant ou sortant du nœud.
+L'intensité d'un courant (exprimée en ampères) est une grandeur algébrique (positive, négative ou nulle) définie par-rapport à l'orientation du fil.
+Par exemple, si l'intensité dans un fil entrant est
+, cela signifie que ce fil porte un courant sortant de
+D'après la loi des nœuds, on a donc : i_1 + i_2 = i_3 + i_4\, .
+Cette loi découle directement de la conservation de la charge électrique, en tenant compte du fait qu'en régime stationnaire, ces charges ne peuvent pas s'accumuler à un endroit quelconque du circuit.
+Les charges qui arrivent à un nœud compensent celles qui en repartent.
+Cette loi permet la résolution d'« équations électriques » grâce à la méthode des nœuds.
+Loi des mailles
+File:
+Kirchhoff voltage
+law.svg|thumb|left|upright
+.614|Schéma d'un montage électrique illustrant la loi des mailles.
+Uab + Ubc + Ucd
+Uad
+Uab + Ubc + Ucd + Uda
+Car :
+Uxy
+- Uyx
+Dans une maille quelconque d'un réseau, dans l'approximation des régimes quasi stationnaires et à condition que les variations de flux magnétique à travers la maille soient négligeables, la somme algébrique des différences de potentiel le long de la maille est constamment nulle.
+Cette loi découle de l'additivité des différences de potentiel entre deux points.
+La différence de potentiels entre a et b, aussi appelée tension, est exprimée par l'équation suivante :
+Uab = Va
+- Vb
+Va et Vb étant les potentiels respectifs aux points a et b.
+En additionnant toutes ces différences sur une maille fermée on obtient un résultat nul, comme illustré à gauche.
+Cette loi permet la résolution d'« équations électriques » grâce à la méthode des mailles.
+Limite de validité de la loi des nœuds
+La loi des nœuds n'est nullement valide si le flux du champ électrique entourant chaque nœud est nul ou constant.
+Elle n'est pas toujours valable en électrostatique.
+Semi-conducteur
+Dans un semi-conducteur deux types de charges mobiles coexistent, les électrons et les trous.
+Le courant total, somme du courant d'électrons et du courant de trous, obéit strictement à la loi des nœuds.
+Pour décrire avec une excellente approximation le comportement d'un transistor bipolaire, on peut se limiter au transport d'un seul type de charge : les porteurs minoritaires dans la base.
+L'équation des nœuds pour ces seuls porteurs doit prendre en compte leur stockage ainsi que leur disparition par recombinaison.
+Cette équation, abusivement appelée équation de Kirchhoff, et améliorée pour décrire les transistors-laser, est à l'origine d'un buzz médiatique en 2010.

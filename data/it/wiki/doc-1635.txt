@@ -1,0 +1,119 @@
+In analisi matematica, una successione o sequenza infinita o stringa infinita può essere definita intuitivamente come un elenco ordinato costituito da una infinità numerabile di oggetti, detti termini della successione, tra i quali sia possibile distinguere un primo, un secondo, un terzo e in generale un n-esimo termine per ogni numero naturale n.
+A differenza di quanto avviene per gli insiemi numerabili, per una successione è rilevante l'ordine in cui gli oggetti si trovano, e uno stesso oggetto può comparire più volte:
+diversi termini possono coincidere.
+Tali caratteristiche sono molto simili a quelle che distinguono una n-upla ordinata da un insieme costituito da n elementi;
+in effetti una successione può anche essere considerata l'estensione infinita di una n-upla ordinata.
+Le successioni sono utilizzate nel calcolo infinitesimale, che fa ampio uso del concetto di limite di una successione.
+Esse hanno un ruolo fondamentale nella definizione dell'insieme dei numeri reali e in tutta l'analisi matematica, in quanto rappresentano una base dello studio delle funzioni nel campo reale:
+infatti, essendo il loro dominio \N dei numeri naturali sottoinsieme di \R (si può facilmente pensare che esse siano rappresentate in un grafico \N X \R, cioè una funzione o applicazione che abbina i numeri naturali a dei numeri reali), risulta più semplice operare su di esso per eseguire una qualunque operazione, anziché ragionare subito in termini di numeri reali, che, per sua definizione, è un insieme denso.
+Scrittura formale
+La scrittura formale delle successioni è varia, e cambia a seconda che le si considerino in discorsi generali, riconducibili ad una impostazione assiomatica, o si prendano in considerazione successioni specifiche ossia calcolabili.
+Poiché i termini di una successione sono infiniti, essi non possono essere infatti scritti tutti in modo esplicito e dunque si utilizzano diversi artifici.
+Ad esempio per rappresentare una successione spesso ci si limita a scrivere alcuni termini iniziali seguiti da puntini di sospensione:
+:a_1, a_2, a_3, \cdots, a_n, \cdots
+Nel caso finito la differenza fra una n-pla ordinata e un insieme viene evidenziata usando per la n-pla le parentesi tonde (oppure le angolate) e per l'insieme le parentesi graffe:
+anche nel caso infinito appare utile usare le parentesi tonde (oppure le angolate) per delimitare una successione.
+Tale consuetudine tuttavia non si è del tutto imposta nella letteratura matematica, dove per tradizione anche le successioni sono delimitate con le graffe (anche se tale notazione genera facile confusione).
+Entrambe le notazioni:
+\ \qquad (a_1, a_2, a_3, \cdots, a_n, \cdots)
+si possono rendere in modo più sintetico indicando il solo termine generico a_n e l'insieme in cui varia n:
+\_ o (a_n)_.
+Talvolta, quando l'insieme è sottinteso, si scrive semplicemente \.
+Talvolta nel caso di una successione specifica si rende necessario dare un'indicazione utilizzabile per il termine generico.
+In generale questa può essere data mediante un algoritmo.
+In casi tendenzialmente semplici si riesce a dare una espressione che dipende da n, oppure che dipende da alcuni termini precedenti della successione.
+Ad esempio la successione dei numeri pari si scrive così:
+:0, 2, 4, \cdots, 2n, \cdots :
+= (2n)_
+La successione i cui termini dal terzo in poi si ottengono sommando i due precedenti (detta successione di Fibonacci) si può scrivere così:
+Una espressione un po' più elaborata si trova per i numeri di Catalan, la cui successione può essere espressa mediante la relazione di ricorrenza di Segner nel modo seguente:
+In questi modi si ottengono tutte le informazioni necessarie a calcolare quanti si vogliano termini della successione.
+Infatti:
+* se ln-mo termine a_n è espresso in dipendenza di n, quella dipendenza definisce direttamente una funzione che al generico intero n associa il termine n-mo;
+* se invece ln-mo termine a_n è espresso in dipendenza di alcuni termini precedenti della successione, e se sono dati i valori di un numero sufficiente di termini iniziali, allora la funzione che associa a_n a n resta definita implicitamente da una relazione di ricorrenza.
+Per definire in modo esauriente una successione calcolabile occorre quindi poter determinare a_n per ogni n, sicché in definitiva bisogna disporre - in qualche modo - di tutte le informazioni necessarie a definire in modo univoco una funzione f definita su \N tale che a_n=f (n).
+E poiché ad ogni successione di termini resta associata una e una sola funzione siffatta, si può identificare la successione con la funzione stessa.
+Definizione
+Formalmente, una successione di elementi di un dato insieme A è un'applicazione dall'insieme \N dei numeri naturali in A:
+f:\mathbb\to A
+L'elemento a_n della successione è quindi l'immagine:
+a_n = f (n)
+del numero n secondo la funzione f. L'insieme A può essere, ad esempio, l'insieme dei numeri reali.
+Tra le successioni più utilizzate in matematica vi sono le successioni costituite da semplici numeri reali o complessi, dette successioni numeriche, o costituita da funzioni, dette successione di funzioni.
+Si utilizzano inoltre successioni composte da altri oggetti matematici, come matrici (le matrici identità di dimensione n \times n), figure geometriche (poligoni regolari, piramidi regolari) o di strutture (gruppi ciclici di ordini successivi, spazi vettoriali \R^n).
+Limite di una successione
+Sia T uno spazio topologico.
+Un punto l \in T è detto limite di una successione \ se e solo se per ogni intorno U di l esiste un numero naturale N \in \N tale che:
+x_n \in U \quad \forall n > N
+Se T è uno spazio di Hausdorff, allora ogni successione ammette al più un unico limite l. Se tale limite esiste, può essere scritto nel seguente modo:
+\lim_ x_n =
+Considerando il limite di una successione numerica (a_n)_, si possono suddividere le successioni in tre categorie:
+\exists l \in \mathbb R\, \lim_ a_n=
+\lim_ a_n=\pm\infty
+* Una successione è detta irregolare o indeterminata se:
+\not\exists \lim_ a_n .
+L'esempio più semplice di successione convergente è una successione costante, cioè una successione in cui a_n = k per ogni n;
+un altro esempio è la successione 1 / n, che tende a 0.
+Una semplice successione divergente è a_n
+n, o più in generale qualsiasi successione i cui termini siano i valori di un polinomio P (x), ovvero in cui a_n
+P (n).
+Una successione indeterminata "classica" è la successione a_n
+(-1)^n:
+essa "salta" continuamente da -1 a +1 e viceversa, senza stabilizzarsi verso nessun valore.
+Altri esempi più sofisticati sono la successione a_n
+\sin n, come molte successioni derivanti da funzioni aritmetiche, come a_n=\sigma (n), dove si è usata la funzione sigma.
+Esistono anche definizioni alternative di limiti per le successioni indeterminate, ad esempio la convergenza in media.
+Altri procedimenti di questo genere sono la somma di Hölder di un dato rango, somma di Cesaro di un dato rango).
+Successione di funzioni
+Dato un insieme F di funzioni tra due insiemi fissati X e Y, una successione di funzioni è una applicazione dall'insieme dei numeri naturali in F, che associa ad ogni numero naturale n una funzione f_n.
+La successione è usualmente indicata con uno dei due simboli seguenti:
+\_, \quad (f_n)_
+Il secondo simbolismo è più corretto in quanto evidenzia il fatto che la nozione di successione generalizza quella di ennupla ordinata.
+È importante osservare che nella definizione, così come nell'enunciazione di molti teoremi e proprietà, non è necessario supporre che il dominio delle funzioni sia un insieme strutturato.
+Solo dove richiesto esso sarà da intendersi, a seconda dei casi, uno spazio topologico, metrico,
+etc.
+Valori in un punto fissato
+Fissato un elemento x_0 nel dominio X, la successione:
+(f_n (x_0))_
+dei valori assunti dalle funzioni in x_0 è una successione di elementi del codominio Y.
+Quando Y è un insieme numerico, come ad esempio l'insieme dei numeri reali, questa è una successione numerica.
+Approccio intuitivo e problemi teorici
+Le successioni non sono semplici insiemi di elementi, in quanto il concetto di insieme non contempla in alcun modo la nozione di ordine né la presenza di elementi ripetuti.
+Ad esempio, l'insieme dei risultati ottenuti lanciando il dado è composto di soli sei elementi:
+e tale rimane anche quando si continui a lanciare il dado indefinitamente, prolungando la successione dei numeri usciti.
+In matematica la sequenza ordinata di n oggetti viene anche definita n-pla ordinata, per cui quella che si è chiamata successione finita può anche essere chiamata n-pla ordinata.
+Si tratta di una terminologia che viene riservata al caso finito, mentre di "successione" si parla solitamente nel caso infinito.
+Data una sequenza ordinata di oggetti, allora fra tutti quegli oggetti è possibile individuare un "primo", un "secondo", eccetera.
+Dunque dato un qualunque numero naturale n, esiste una funzione che ad ogni numero naturale n associa un certo elemento dell'insieme di tutti gli oggetti che possono comparire (eventualmente ripetuti) nella successione.
+Dunque ad ogni successione (a_1, a_2, a_3 \cdots) di elementi dell'insieme A resta associata in modo univoco la funzione che associa l'n-esimo termine a_n ad n:
+f : \N \rightarrow A \qquad f :
+n \mapsto a_n = f (n)
+I termini a_n sono i valori che la funzione f assume al variare di n, e appartengono al codominio di f. Per altro non si può dire che la successione dei termini sia l'immagine dell'insieme di \N tramite f, perché l'immagine di un insieme è un altro insieme, e come tale non contiene informazione sull'ordinamento dei suoi elementi, né contiene elementi ripetuti.
+Dunque se si associa una funzione f a una successione, occorre poi definire la disposizione ordinata dei termini della serie:
+in generale, si tratterà della famiglia associata alla funzione f.
+Solitamente in matematica il concetto di funzione viene ricondotto a quello di insieme affermando che una funzione da A a B è un sottoinsieme del prodotto cartesiano A \times B.
+Il prodotto cartesiano A \times B è l'insieme delle coppie ordinate costituite da un elemento di A e un elemento di B, sicché è legittimo dire che la successione:
+può essere ricondotta al seguente insieme:
+il quale è un insieme di coppie ordinate, cioè di successioni finite di due elementi.
+Se si vuole portare fino in fondo il progetto di ricondurre tutti i concetti fondamentali al concetto primitivo di insieme, resta la necessità di definire una coppia ordinata a partire dal concetto di insieme.
+Generalizzazioni
+In alcuni casi viene chiamata successione anche una funzione da un insieme numerabile I.
+La numerabilità garantisce l'esistenza di una corrispondenza biunivoca \psi, \psi:\mathbb\to I con \mathbb, e quindi la funzione composta \phi (\psi) è una successione nel senso della definizione precedente.
+Possono avere grande interesse anche le funzioni da \mathbb (l'insieme dei numeri interi relativi) in A. Questi oggetti vengono indicati con notazioni del tipo:
+\dots , a_ , \dots , a_, a_0 , a_1 , \dots a_n
+e vengono chiamati successioni bilatere.
+Si possono poi considerare successioni a 2 indici:
+queste si possono considerare matrici infinite.
+Possono essere utili anche successioni a 3 o più indici e si può anche considerare l'insieme delle successioni con un numero intero qualsiasi di indici.
+Esempi
+Di seguito alcuni esempi di successioni:
+\_n
+\ \qquad
+\_n
+\ \qquad
+\ \qquad
+\_n
+\ \qquad
+* \quad \phi (n)=\sum_^n \phi_g (n), i cui elementi sono:
+\ \qquad
+Si tratta di un esempio di successione delle somme parziali, in particolare di una somma parziale geometrica.

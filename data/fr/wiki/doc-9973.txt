@@ -1,0 +1,142 @@
+Virus informatique
+Un virus informatique est un automate autoréplicatif à la base non malveillant, mais aujourd'hui souvent additionné de code malveillant (donc classifié comme logiciel malveillant), conçu pour se propager à d'autres ordinateurs en s'insérant dans des logiciels légitimes, appelés « hôtes ».
+Il peut perturber plus ou moins gravement le fonctionnement de l'ordinateur infecté.
+Il peut se répandre par tout moyen d'échange de données numériques comme les réseaux informatiques et les cédéroms, les clefs USB, les disques durs, etc.
+Terminologie
+Son appellation provient d'une analogie avec le virus biologique puisqu'il présente des similitudes dans sa manière de se propager en utilisant les facultés de reproduction de la cellule hôte.
+On attribue le terme de « virus informatique » à l'informaticien et spécialiste en biologie moléculaire Leonard Adleman.
+Les virus informatiques ne doivent pas être confondus avec les vers informatiques, qui sont des programmes capables de se propager et de se dupliquer par leurs propres moyens sans contaminer de programme hôte.
+Au sens large, on utilise souvent et abusivement le mot virus pour désigner toute forme de logiciel malveillant.
+Statistique
+Le nombre total de programmes malveillants connus serait de l'ordre de (2011) selon Sophos (tous types de malwares confondus).
+Cependant, le nombre de virus réellement en circulation ne serait pas supérieur à quelques milliers selon la Wildlist Organisation, chaque éditeur d'antivirus ayant intérêt à « gonfler » (surestimer) le nombre de virus qu'il détecte.
+La très grande majorité touche la plate
+forme Windows
+Bien qu'ils soient extrêmement peu nombreux, il existe aussi des virus sur les systèmes d'exploitation de type trop rares pour apporter une notoriété à un développeur de virus.
+Les virus font souvent l'objet de fausses alertes que la rumeur propage, encombrant les messageries.
+Certaines d'entre elles, jouant sur l'ignorance en informatique des utilisateurs, leur font parfois détruire des éléments totalement sains du système d'exploitation.
+Historique
+Les premiers programmes autonomes n'avaient pas le but qu'ils ont aujourd'hui.
+Les tout premiers logiciels de ce type étaient de simples divertissements ;
+par exemple, un jeu a été inventé en 1970 par trois informaticiens , et des Bell Labs et appelé Core War.
+Pour ce jeu, chaque joueur écrit un programme et le charge en mémoire vive.
+Le système d'exploitation, qui se doit juste d'être multitâche, exécute tour à tour une instruction de chacun des programmes.
+L'objectif du jeu est de détruire les programmes adverses tout en assurant sa propre prolifération.
+Les joueurs ne connaissent pas l'emplacement du programme adverse.
+Les programmes sont capables de se recopier, de se réparer, de se déplacer en différentes zones de la mémoire et « d'attaquer » les programmes adverses en écrivant de façon non déterministe dans d'autres zones de la mémoire.
+La partie se termine au bout d'un temps défini ou lorsque l'un des joueurs voit tous ses programmes inactifs ou détruits.
+Le vainqueur est celui qui possède le plus grand nombre de copies actives.
+C'est l’acte de naissance de la programmation des virus.
+En 1984, le magazine Scientific American a présenté un jeu informatique consistant à concevoir de petits programmes entrant en lutte et se dupliquant en essayant d'infliger des dégâts aux adversaires, fondant ainsi les bases des futurs virus.
+En 1986, l'ARPANET fut infecté par Brain, virus renommant toutes les disquettes de démarrage de système en (C)Brain.
+Les créateurs de ce virus y donnaient leurs nom, adresse et numéro de téléphone car c'était une publicité pour eux.
+Différents types de virus
+* Le virus classique est un morceau de programme, souvent écrit en assembleur, qui s'intègre dans un programme normal, le plus souvent à la fin, mais cela peut varier.
+Chaque fois que l'utilisateur exécute ce programme « infecté », il active le virus qui en profite pour aller s'intégrer dans d'autres programmes exécutables.
+De plus, lorsqu'il contient une , il peut, après un certain temps (qui peut être très long) ou un événement particulier, exécuter une action prédéterminée.
+Cette action peut aller d'un simple message anodin à la détérioration de certaines fonctions du système d'exploitation ou la détérioration de certains fichiers ou même la destruction complète de toutes les données de l'ordinateur.
+On parle dans ce cas de « bombe logique » et de « charge utile ».
+* Un virus de boot s'installe dans un des secteurs de boot d'un périphérique de démarrage, disque dur , disquette, ou autre.
+Il remplace un chargeur d'amorçage (ou programme de démarrage ou « bootloader »)
+existant (en copiant l'original ailleurs) ou en crée un (sur un disque où il n'y en avait pas)
+mais ne modifie pas un programme comme un virus normal ;
+quand il remplace un programme de démarrage existant, il agit un peu comme un virus « prepender » (qui s'insère au début), mais le fait d'infecter aussi un périphérique vierge de tout logiciel de démarrage le distingue du virus classique, qui ne s'attaque jamais à « rien ».
+* Les macrovirus qui s'attaquent aux macros de logiciels de la suite Microsoft Office (Word, Excel, etc.
+grâce au VBA de Microsoft.
+Par exemple, en s'intégrant dans le modèle normal.dot de Word, un virus peut être activé à chaque fois que l'utilisateur lance ce programme.
+* Les virus
+vers, apparus aux environs de l'année 2003, ayant connu un développement fulgurant dans les années qui suivirent, sont des virus classiques
+car ils ont un programme hôte.
+Mais s'apparentent aux vers (en anglais « »)
+car :
+** Leur mode de propagation
+est lié au réseau, comme des vers, en général via l'exploitation de failles de sécurité.
+Comme des vers
+, leur action se veut discrète, et non destructrice pour les utilisateurs de la machine infectée.
+Comme des vers
+, ils poursuivent des buts à visée large, tels que l'attaque par saturation des ressources ou attaque
+DoS (
+Denial of Service) d'un serveur par des milliers de machines infectées se connectant simultanément.
+* Les virus de type batch, apparu à l'époque où MS-DOS était le système d'exploitation en vogue, sont des virus
+« primitifs ».
+Bien que capables de se reproduire et d'infecter d'autres fichiers batch, ils sont lents et ont un pouvoir infectant très faible.
+Certains programmeurs ont été jusqu'à créer des virus batch cryptés et polymorphes, ce qui peut être qualifié de « prouesse technique » tant le langage batch est simple et primitif.
+D'autres menaces existent en informatique, s'en distinguant souvent par l'absence de système de reproduction qui caractérise les virus et les vers ;
+le terme de « logiciel malveillant » (« » en anglais) est dans ce cas plus approprié.
+Caractéristiques
+* le chiffrement : à chaque réplication, le virus est chiffré (afin de dissimuler les instructions qui, si elles s'y trouvaient en clair, révéleraient la présence de ce virus ou pourraient indiquer la présence de code suspect).
+* le polymorphisme : le virus est chiffré et la routine de déchiffrement est capable de changer certaines de ses instructions au fil des réplications afin de rendre plus difficile la détection par l'antivirus.
+* le métamorphisme : contrairement au chiffrement simple et au polymorphisme, où le corps du virus ne change pas et est simplement chiffré, le métamorphisme permet au virus de modifier sa structure même et les instructions qui le composent.
+* la furtivité :
+le virus « trompe » le système d'exploitation (et par conséquent les logiciels antivirus) sur l'état des fichiers infectés.
+Des rootkits permettent de créer de tels virus.
+Par exemple, l'exploitation d'une faille de sécurité au niveau des répertoires permet de masquer l'existence de certains fichiers exécutables ainsi que les processus qui leur sont associés.
+Logiciels antivirus
+Les logiciels antivirus sont des logiciels capables de détecter des virus, détruire, mettre en quarantaine et parfois de réparer les fichiers infectés sans les endommager.
+Ils utilisent pour cela de nombreuses techniques, parmi lesquelles :
+* la reconnaissance de séquences d'octets caractéristiques (signatures) d'un virus particulier
+* la détection d'instructions suspectes dans le code d'un programme (analyse heuristique) ;
+* la création de listes de renseignements sur tous les fichiers du système, en vue de détecter d'éventuelles modifications ultérieures de ces fichiers par un virus ;
+* la surveillance des lecteurs de support amovible : disquettes, Zip, CD-ROM, DVD-ROM, Clé USB.
+Virologie
+Le terme virus informatique a été créé par analogie avec le virus en biologie : un virus informatique utilise son hôte (l'ordinateur qu'il infecte) pour se reproduire et se transmettre à d'autres ordinateurs.
+Comme pour les virus biologiques, pour lesquels ce sont les hôtes les plus en contact avec d'autres hôtes qui augmentent les chances de développement d'un virus, en informatique ce sont les systèmes et logiciels les plus répandus qui sont les plus atteints par les virus : Microsoft Windows, Microsoft Office, Microsoft Outlook, Microsoft Internet Explorer, Microsoft Internet Information Server...
+Les versions professionnelles de Windows permettant de gérer les droits de manière professionnelle ne sont pas immunisées contre ces envahisseurs furtifs.
+La banalisation de l'accès à Internet a été un facteur majeur dans la rapidité de propagation à grande échelle des virus les plus récents.
+Ceci est notamment dû à la faculté des virus de s'approprier des adresses de courriel présentes sur la machine infectée (dans le carnet d'adresses, mais aussi dans les messages reçus ou dans les archives de pages web visitées ou de messages de groupes de discussions).
+De même, l'interconnexion des ordinateurs en réseaux locaux a amplifié la faculté de propagation des virus qui trouvent de cette manière plus de cibles potentielles.
+Cependant, des systèmes à diffusion plus restreinte ne sont pas touchés proportionnellement.
+La majorité de ces systèmes, en tant que variantes de l'architecture UNIX (BSD, Mac OS X ou Linux), utilisent en standard une gestion des droits de chaque utilisateur leur permettant d'éviter les attaques les plus simples, les dégâts sont donc normalement circonscrits à des zones accessibles au seul utilisateur, épargnant la base du système d'exploitation.
+Dénomination des virus
+Lors de leur découverte, les virus se voient attribuer un nom.
+Celui-ci est en théorie conforme à la convention signée en 1991 par les membres de ().
+Ce nom se détermine ainsi :
+* en préfixe, le mode d'infection (ex : macro virus, cheval de Troie, ver...) ou le système d'exploitation concerné (ex : Win32) ;
+* un mot exprimant une de ses particularités ou la faille qu'il exploite (Swen est l'anagramme de News, Nimda l'anagramme de Admin, Sasser exploite une faille LSASS, ...) ;
+* en suffixe un numéro de version (les virus sont souvent déclinés sous forme de variantes comportant des similitudes avec la version d'origine).
+Exceptions
+Malheureusement, les laboratoires d'analyse des différents éditeurs antiviraux affectent parfois leur propre appellation aux virus sur lesquels ils travaillent, ce qui rend difficile la recherche d'informations.
+C'est ainsi que, par exemple, le virus NetSky dans sa variante Q est appelé W32.
+Netsky.
+Q@mm chez Symantec, WORM_NETSKY.
+Q chez Trend Micro, W32/Netsky.
+Q.worm chez Panda Security et I-Worm.
+NetSky.
+r chez Kaspersky.
+Il est cependant possible d'effectuer des recherches génériques pour un nom donné grâce à des moteurs de recherche spécialisés, comme celui de ou de Kevin Spicer.
+Virus
+sur les systèmes Linux
+Le système d'exploitation Linux, au même titre que les systèmes d'exploitation Unix et apparentés, est généralement assez bien protégé contre les virus informatiques.
+Cependant, certains virus peuvent potentiellement endommager des systèmes Linux non sécurisés.
+Comme les autres systèmes Unix, Linux implémente un environnement multi-utilisateur, dans lequel les utilisateurs possèdent des droits spécifiques correspondant à leur besoin.
+Il existe ainsi un système de contrôle d'accès visant à interdire à un utilisateur de lire ou de modifier un fichier.
+Ainsi, les virus ont typiquement moins de capacités à altérer et à infecter un système fonctionnant sous Linux que sous DOS ou encore que les Windows ayant toujours des systèmes de fichiers en FAT32 (le système de fichier NTFS a le même type de protection que les fichiers UNIX, les Windows à base NT isolent également les comptes entre eux).
+C'est pourquoi aucun des virus écrits pour Linux, y compris ceux cités ci-dessous, n'a pu se propager avec succès.
+En outre, les failles de sécurité qui sont exploitées par les virus sont corrigées en quelques jours par les mises à jour du noyau Linux et des logiciels composant le système.
+Des scanners de virus sont disponibles pour des systèmes Linux afin de surveiller l'activité des virus actifs sur Windows.
+Ils sont principalement utilisés sur des serveurs mandataires ou des serveurs de courrier électronique, qui ont pour client des systèmes Microsoft Windows.
+Virus informatiques célèbres
+Cabir est considéré comme le tout premier virus informatique proof of concept recensé se propageant par la téléphonie mobile grâce à la technologie Bluetooth et du système d'exploitation Symbian OS.
+MyDoom.
+A est un virus informatique qui se propage par les courriels et le service P2P de Kazaa.
+Les premières infections ont eu lieu le 26 janvier 2004.
+Psyb0t est un virus informatique découvert en janvier 2009.
+Il est considéré comme étant le seul virus informatique ayant la capacité d'infecter les routeurs et modem haut-débit.
+Le virus Tchernobyl ou CIH est connu pour avoir été un des plus destructeurs.
+Il détruisait l'ensemble des informations du système attaqué et parfois il rendait la machine quasiment inutilisable.
+Il a sévi de 1998 à 2002.
+Le ver Conficker exploite une faille du Windows Server Service utilisé par Windows 2000, Windows XP, Windows Vista, Windows 7, Windows Server 2003 et Windows Server 2008.
+Cryptolocker est un logiciel malveillant dont la présence sur le web a augmenté de 700 % entre 2012 et 2014.
+Selon les calculs du FBI en juin 2014, il a causé pour de dollars de pertes aux utilisateurs.
+Sous couvert d'une mise à jour Adobe Flash, le logiciel malveillant chiffre les fichiers des victimes et exige un paiement (pouvant aller de à ) pour les décrypter.
+Il n'y a en 2014 aucun moyen connu pour casser l'algorithme de chiffrement utilisé, ce qui explique le pourcentage élevé de victimes ayant payé la rançon exigée par les fraudeurs.
+Le logiciel malveillant Locky, qui est similaire à Cryptolocker, est particulièrement actif de fin 2015 à début 2016.
+Zeus Bot est responsable d'environ 4 millions d'infections rien qu'aux États-Unis.
+Il a provoqué pour de dollars de pertes pour les entreprises et consommateurs américains avant d'être démantelé par le FBI début 2014.
+Il exploite les vulnérabilités présentes dans Adobe Reader et Adobe Flash pour infecter les machines.
+Virus et téléphonie mobile
+Le premier virus ciblant la téléphonie mobile
+est né en 2004 : il s'agit de Cabir se diffusant par l'intermédiaire des connexions Bluetooth.
+Il sera suivi d'un certain nombre, dont le CommWarrior en 2005.
+Ces virus attaquent essentiellement le système d'exploitation le plus répandu en téléphonie mobile, à l'époque, Symbian OS, qui était dominant en Europe.
+Bibliographie

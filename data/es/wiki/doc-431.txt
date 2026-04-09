@@ -1,0 +1,76 @@
+Un cuadrado en geometría plana es un cuadrilátero regular; esto es una figura del plano con sus cuatro lados iguales, y sus cuatro ángulos que son de 90º. Sus dos únicas diagonales son de igual longitud y perpendiculares entre sí.
+Tiene 4 ejes de simetría, cuya intersección es el centro de la figura; dos ejes que pasan perpendicularmente por cada punto medio del par de lados opuestos; otros dos que pasan por vértices opuestos de la figura.
+En algunas traducciones, no aceptadas en general, el cuadrado es un rectángulo de cuatro lados iguales o un rombo de ángulos iguales y lados consecutivos perpendiculares.
+Propiedades
+Es el polígono que tiene sus lados opuestos paralelos y, por tanto, es un paralelogramo.
+Dado que sus cuatro ángulos internos son rectos, es también un caso especial de rectángulo, es un rectángulo equilátero.
+De modo similar, al tener los cuatro lados iguales, es un caso especial de rombo, es un rombo equiángulo.
+Cada ángulo interno de un cuadrado mide 90 grados o \pi 2 radianes.
+Entre los rectángulos que tienen el mismo perímetro, el cuadrado es el que tiene mayor área.
+*La intersección de sus diagonales es centro de simetría del cuadrado.
+*Las perpendiculares, trazadas por el centro de simetría, son ejes de simetría del cuadrado.
+*Sus diagonales son perpendiculares entre sí, bisectrices de los ángulos cuyos vértices conectan, y ejes de simetría del cuadrado.
+* El lado de un cuadrado circunscrito es igual al diámetro de la respectiva circunferencia.
+* La diagonal de un cuadrado inscrito es igual al diámetro de la respectiva circunferencia.
+Medidas
+Perímetro
+Si un cuadrado C tiene lados que miden L, entonces, el perímetro es igual a 4L, pues los cuatro lados son iguales.
+Expresión de la diagonal
+La longitud de la diagonal se puede calcular mediante el Teorema de Pitágoras:
+::d = L\sqrt y recíprocamente
+::L = d\frac
+Área
+El área de un cuadrado es el producto de la longitud del lado por sí misma:
+::A = L^2 \,
+donde A el área y L el lado.
+El área de un cuadrado es la mitad del cuadrado de la longitud de la diagonal D:
+::A =\frac \,
+Diversas medidas numéricas
+El concepto de área está ligado al concepto de número real positivo, de modo que la aparición de los números irracionales surgen al tratar problemas geométricos como la longitud de la diagonal de un cuadrado con lados de longitud 1 o la longitud del lado de un cuadrado de área 3 entre otros.
+Pues no surge ni del álgebra ni de la aritmética.
+Esto obliga el despliegue sistemático del área del cuadrado en diversos contextos, según la naturaleza de los números que se usan para medir el lado.
+# Axiomáticamente se define que el área de un cuadrado de longitud 1 unidad lineal
+u, su área es una unidad cuadrada o A_C
+1u^2 .
+Luego se considera un cuadrado cuyo lado mida n unidades lineales, donde n es un número entero positivo mayor que 1.
+Se deduce que el área A_C = n^2 .
+# En seguida
+se considera que el lado mide \frac unidades lineales, siendo esta medida un número raciona positivo ≠ 1; se deduce que A_C = \frac .
+# Finalmente, se considera la longitud del lado s, donde s es un número irracional positivo.
+Se Aproxima por n. racionales s'< s, obteniendo áreas crecientes menores a s2.
+De modo decreciente, con valores racionales s < s´´ se aproxima mediante áreas decrecientes pero mayores a s2.
+Se concluye que A_C = s^2 .
+Comparación con otras figuras
+*Si inscribimos un círculo en un cuadrado de lado L, el radio será la mitad del lado: r = L 4 ≈ 0,785 veces el área del cuadrado.
+*Por otro lado, si consideramos un círculo circunscrito, el radio será la mitad de la diagonal, y el área del círculo será: π/2 ≈ 1,57 veces el área del cuadrado.
+*Si se une el punto medio del lado de un cuadrado con los vértices del lado opuesto se determinan un triángulo isósceles cuya área es la mitad del área del cuadrado; además dos triángulos rectángulos, cada cual tiene un área que es la cuarta de la del cuadrado.
+Si se inscribe un cuadrilátero en un cuadrado, colocando los vértices en los puntos medios de los lados de este, resulta otro cuadrado, cuya área es la mitad de la del cuadrado exterior.
+*Previamente se biseca un lado de un cuadrado, luego se biseca cada uno los subsegmentos anteriores; por sus respectivos puntos medios se trazan dos segmentos a los vértices del lado opuesto y se prolongan, en sentido contrario, hasta formar un triángulo.
+El área de este triángulo es igual al área del cuadrado.
+Trazado con regla y compás
+Para trazar un cuadrado de diagonales d centrado en el punto O:
+# Marca el punto O donde quieras el centro del cuadrado.
+# Traza una línea horizontal que pase por dicho punto O.
+# Haciendo centro en el punto O traza una circunferencia de un diámetro d cualquiera, esto genera dos puntos de intersección con la recta horizontal del paso 2.
+# Sin variar la apertura del compás y haciendo ahora centro en alguna de las dos intersecciones del paso 3,
+traza un arco hasta cortar en dos puntos la circunferencia inicial.
+# Uniendo los dos puntos hallados en el paso 4 con una línea recta (vertical), dicha recta generará un nuevo punto de intersección sobre la recta horizontal inicial.
+# Haz centro con el compás en el punto hallado en el paso 5 y abre el mismo hasta el punto central O y traza una semicircunferencia que intercepte en dos puntos a la línea vertical del paso 5.
+# Traza una línea recta que pase por uno de los puntos del paso 6 y por el punto central O, extendiéndola hacia ambos lados hasta intersecar a la circunferencia inicial de paso 3, esto genera sobre la misma dos puntos que son vértices opuestos del cuadrado y también extremos de una de las diagonales.
+# Repitiendo el paso anterior pero ahora con el otro punto del paso 6 y el punto central O, obtendrás los dos puntos que son vértices opuestos del cuadrado y también extremos de la segunda diagonal.
+Luego uniendo de modo cíclico con líneas rectas los cuatro puntos vértice hallados en los dos pasos anteriores, habrás obtenido finalmente el cuadrado.
+El cuadrado y el álgebra
+Consideremos un cuadrado centrado en el origen de coordenadas, con lados paralelos a los ejes coordenados, de lado 2.
+Sus vértices señalados con 1, 2 3 y 5 desde el primer cuadrante en sentido antihorario.
+Interesa los movimientos que conduzcan el cuadrado sobre sí mismo.
+Hay cuatro rotaciones:
+rω para los ángulos ω
+2π.
+Observar que el rotar 2π equivale a rotar 0 grados.
+Además hay 4 reflexiones con respecto a los ejes coordenados X, Y con respecto a las rectas que contienen a sendas diagonales, que denotaremos αX αy α1 α2, que corresponden a las reflexiones, respectivamente, respecto al eje X, al Y, al eje bisector del primer cuadrante y al eje bisector del segundo cuadrante.
+Tanto una rotación como una reflexión se llamará acción, y la composición de una acción con otra da una única tercera acción, obviamente, una de las ocho anteriores.
+Por ejemplo.
+(rπ/2)2, Así sucesivamente.
+El conjunto de las ocho acciones sobre el cuadrado y la composición de acciones forma un grupo finito de orden 8, cuyo elemento identidad es la rotación 0 o de 2π.
+Tema de interés aplicativo en cristalografía.
+Véase también

@@ -1,0 +1,327 @@
+Panne informatique|Administration Windows
+L’écran bleu de la mort (abrégé en anglais en BSoD pour )
+est le surnom du message d'erreur affiché sur un écran d'ordinateur par le système d'exploitation (OS) Windows lorsque celui-ci ne parvient pas à récupérer d'une erreur système ou lorsqu'il arrive à un point critique d’erreur fatale.
+Windows a deux types d’écrans d’erreur : un « arrêt d’urgence » (comme décrit dans les manuels de ) et le véritable , qui a une signification d’erreur plus sérieuse que la première.
+Ce type d'évènement est devenu, au fil des années, un sujet d’amusement quasi folklorique lié au système d’exploitation de Microsoft (mais il arrive aussi à ses concurrents ou sur d'autres supports, comme les consoles de jeu) et une source de raillerie de la part des détracteurs de ce système, mais principalement une source d’énervement pour les utilisateurs.
+Historique
+Depuis la de Windows, les écrans bleus de la mort
+ont toujours été présents sous une forme ou sous une autre dans le système d'exploitation de Microsoft.
+Ils sont devenus au fil des années un sujet quasi récurrent de ce système d’exploitation, une source de désagrément pour les utilisateurs et de raillerie pour ses concurrents.
+Le , lors de la présentation à la presse de Windows 98 à la conférence COMDEX, le PDG de Microsoft, Bill Gates, souhaita souligner la facilité d'usage du système d'exploitation et le support amélioré du Plug-and-Play (PnP), une des avancées majeures de Windows.
+Toutefois, lorsque son assistant Chris Capossela brancha un scanner et essaya de l'installer, le système d'exploitation planta, affichant un écran bleu de la mort.
+Après les applaudissements et les acclamations de l'auditoire, Bill Gates déclara : .
+La vidéo de cet événement devint un phénomène Internet populaire.
+Lors de la cyberattaque mondiale du ransomware NotPetya survenue le , le fait d'exécuter le fichier exécutable corrompu petya.exe sur les PC Windows non-protégés par le correctif de sécurité de mars 2017 provoquait pendant quelques secondes l'affichage d'un écran bleu de la mort, avant le blocage de la machine infectée.
+Cependant, cet écran bleu affiche juste une ligne disant , en français (sur Windows XP, Vista et Windows 7 uniquement).
+Le , alors que la première mise à jour de l'année 2018 pour Windows 10 (April 2018 update) commençait à être déployée, Microsoft détecta un bug de grande ampleur touchant certains utilisateurs ayant installé la nouvelle mise à jour bisannuelle, qui conduisait à un écran bleu de la mort après l'installation.
+Cela a obligé la firme américaine à repousser la sortie de la mise à jour.
+Le bug a été corrigé dans la , qui succède à la , qui était censé être la Release to manufacturing (RTM), c'est-à-dire la version finale de la mise à jour.
+La nouvelle version est finalement arrivée le 8 mai 2018.
+Le même problème est survenu avec le Patch Tuesday du mois d'octobre 2018, qui est arrivé au même moment que la deuxième mise à jour majeure de Windows 10 (October 2018 Update).
+Un correctif déployé à partir du 9 octobre a généré des écrans bleus de la mort sur des matériels de marque Hewlett-Packard.
+Ce problème, corrigé par Microsoft le , touchait les propriétaires d'ordinateurs de la marque HP, qui ont été rendus inutilisables au démarrage.
+Lors de la mise à jour vers la version 1809, des problèmes multiples sont survenus comme la suppression non désirée de fichiers.
+C'est pour cette raison que Microsoft a dû interrompre la mise à jour d'octobre pour la reporter à plus tard.
+Microsoft a admis que sa mise à jour cumulative KB4467682 avait provoqué un plantage important de Windows 10 sur certains appareils.
+Certains utilisateurs ont été victimes d’un crash fatal du système.
+Ironie du sort, la fait partie des nombreux appareils touchés.
+Depuis la mise à jour d’avril 2018, certaines machines plantent complètement.
+Le système est victime d’un crash et l'écran bleu de la mort apparaît.
+Il faut alors procéder à une restauration du système.
+À la suite de la découverte du problème, Microsoft a tout simplement conseillé aux utilisateurs de désinstaller le correctif en question, dans l'attente d'un futur patch qui permettra de résoudre le problème.
+Types d'écrans selon les versions Windows
+Windows 1.0/2.0
+L'écran bleu de Windows 1.0 et de Windows 2.0 ne donnait pas de raison claire à l'utilisateur lors de son apparition.
+Il s'agissait d'un mélange de caractères alphanumériques et non alphabétiques.
+Il a inquiété de nombreux utilisateurs, notamment car il signifiait la mort pure et simple du système (et donc l'obligation de le réinstaller en entier).
+Windows 3.0 98/Me
+L’écran bleu le moins critique mais le plus courant survient avec les systèmes d’exploitation Microsoft Windows 9x et Millennium Edition.
+Dans ces systèmes d’exploitation, le BSoD est le principal chemin pour afficher les rapports d’erreur VxD à destination de l’utilisateur.
+En interne, on s'y réfèrait par le nom de « _VWIN32_FaultPopup ».
+Il se présentait sous la forme d’un écran bleu affichant des informations sur l’erreur produite.
+Un BSoD sous donne à l’utilisateur la faculté de redémarrer le système ou de continuer.
+Cependant, VxD n’affiche pas de BSoD de façon fantaisiste ;
+l’erreur survenue ne pouvant être rarement résolue ainsi
+, il est donc recommandé de redémarrer la machine, car le fait d'utiliser l'ordinateur après un BSoD est souvent aléatoire voire impossible.
+La cause la plus fréquente de BSoD était généralement due à une incompatibilité de version de bibliothèque logicielle (DLLs).
+Cette cause a été surnommée l’« enfer des DLL » ().
+Windows charge ces bibliothèques en mémoire lorsqu’elles sont requises par une application.
+Si les versions ont changé, lors du prochain chargement par l’application, la version attendue n’est pas celle chargée.
+Ce genre d’
+incompatibilité
+augmente
+avec le nombre de nouvelles applications installées, c’est
+pourquoi une copie de Windows nouvellement installée sera plus stable qu’une « ancienne ».
+Avec Windows 3.1, 95 et 98, un BSoD survenait lorsque le système tentait d’accéder au fichier « c:\con\con ».
+Cette ligne est parfois insérée dans des pages Internet dans le but de faire planter les machines tournant avec ces systèmes d’exploitation.
+Ce bug a été corrigé par Microsoft.
+Un BSoD pouvait également apparaître lorsqu’un utilisateur éjectait une disquette ou un CD ME.
+Windows XP
+NT/7
+Dans , 2000 ,XP, Vista et 7, un écran bleu de la mort (« arrêt » d’urgence) survient lorsque le noyau rencontre une erreur qu’il ne peut traiter.
+Ce genre d’erreur est généralement causée par un pilote qui a lancé une opération illégale ou provoqué une exception non permise.
+La seule opération que l’utilisateur peut effectuer dans ce cas est de redémarrer la machine, avec le risque de perte de données due à la fermeture incorrecte de Windows.
+Mais cela arrivait beaucoup moins souvent qu’avec les anciennes versions .
+Le message d’« arrêt » contient le code d’erreur et son nom symbolique (exemple : « 0x0000001E, KMODE_EXCEPTION_NOT_HANDLED ») ainsi que quatre valeurs dépendant de l’erreur entre parenthèses.
+Il affiche l’adresse mémoire où s’est produit le problème ainsi que le nom du pilote en question.
+Sous et 2000, les deuxième et troisième sections de l’écran contiennent respectivement des informations sur tous les pilotes chargés ainsi que la vidange de la pile.
+Les informations des pilotes sont affichées sur trois colonnes.
+La première colonne donne l’adresse de base du pilote, la seconde liste les dates de création des pilotes sous forme d’horodatage Unix et la troisième affiche le nom des pilotes.
+Windows peut être réglé pour envoyer les informations de débogage au travers d’un port COM vers un noyau débogueur séparé.
+Un débogueur est nécessaire pour tracer la pile, car la lecture à l’écran est limitée et peut être erronée, masquant ainsi la véritable cause de l’erreur.
+En 2003, des internautes du site « » ont découvert un moyen de provoquer manuellement un écran bleu.
+Il consiste à ajouter une valeur à la base de registre de Windows.
+Une fois cela effectué, un BSoD apparaissait lorsque l’utilisateur pressait la touche «
+Arrêt défil » deux fois tout en maintenant la touche Ctrl droite enfoncée.
+Windows Vista (écran rouge de la mort)
+L'écran rouge de la mort (, en abrégé RSoD, parfois appelé ) est le surnom du message d'erreur qui a existé dans certaines versions bêta du système d'exploitation Microsoft Longhorn (devenu plus tard Windows Vista).
+Il a été abandonné dans la version bêta 1 (Build 5112) de Windows Vista pour toutes les erreurs sauf celles liées au boot loader.
+Il peut également être trouvé (mais rarement) dans les versions du début du système d'exploitation de Microsoft Windows 98 (connues sous le nom de code «
+Memphis »).
+Un outil est disponible pour modifier la couleur d'un écran bleu de la mort par d'autres couleurs comme le rouge, vert Windows 9x dans system.ini.
+Il renvoie parfois à des erreurs fatales dans les versions récentes de Lotus Notes.
+Ces erreurs ne sont pas en plein écran, comme le Microsoft rouge ou des écrans bleus de la mort, mais sont plutôt des boîtes de couleur rouge vif avec des bordures noires.
+Avec l'arrivée de Windows 8, l'écran bleu de la mort est remanié.
+Il est maintenant plus esthétique et, surtout, plus concis, ne donnant que les informations nécessaires à l'utilisateur, à savoir ce qui s'est passé et le code de l'erreur.
+On remarque également la disparition complète du code d'erreur au format hexadécimal et l'inclusion d'une émoticône « triste ».
+Depuis la mise à jour Anniversary Update de Windows 10 sortie le 2 août 2016, l'écran bleu de la mort a été amélioré avec l'ajout d'un QR code permettant de trouver des informations sur l'erreur produite, à partir d'un smartphone ou d'une tablette avec lecteur de QR code intégré.
+Cette modification a également une faille de sécurité, car elle permet aussi aux pirates informatiques d'afficher de faux écrans bleus et infecter certaines machines.
+Écran vert de la mort
+Lors du développement de Windows 10 Creators Update en avril 2017, les BSOD ont cédé leur place aux GSoD (écrans verts de la mort, ou Green Screen of Death), qui sont uniquement réservés aux membres du programme Windows Insider et testant les dernières versions Insider Preview du système.
+Pour Microsoft, il s'agit de différencier les versions stables des versions bêta de Windows 10 grâce à l'envoi de rapports d'erreur système.
+Le géant américain ne veut pas avoir un écran bleu de la mort sur les deux branches de son système d'exploitation, d'où ce choix de créer cet écran vert de la mort.
+Affichage
+Concernant les premiers BSoD, par défaut l’affichage est blanc (couleur CGA 0x0F ; couleur HTML #FFFFFF) sur fond bleu (couleur EGA 0x01 ;
+couleur HTML
+#0000AA), avec les informations concernant les valeurs actuelles de la mémoire et celles des registres.
+Microsoft a ajouté un utilitaire permettant à l’utilisateur de changer le réglage du contrôle des couleurs du BSoD dans le fichier system.ini parmi les seize couleurs EGA disponibles.
+, 98 et Me utilisent le mode texte
+avec une définition d’écran de pixels
+La police d'écriture est celle utilisée dans le mode MS-DOS natif.
+Le BSoD de utilise le mode texte , avec une définition de .
+L’écran bleu de , Windows Vista, Windows 7 utilise la police Lucida Console sur un affichage en pixels.
+Windows 8 et Windows 10 utilisent la police Segoe
+UI sur un fond bleu clair et sur une résolution de 1024 x .
+Dans l'industrie informatique
+Les systèmes embarqués tournant sous Windows ont également connu leur lots d'écrans bleus.
+Les exemples typiques sont les téléphones publics par Internet, les automates bancaires et autres bornes d’information ou panneaux d’affichage électroniques.
+Une des causes fréquentes de l’écran bleu est le dysfonctionnement du processeur, mal refroidi, par l’accumulation de poussière dans les ailettes du radiateur.
+Hors tension, il suffit de retirer les quatre vis du ventilateur et de nettoyer les ailettes avec un aspirateur ou d’évacuer la poussière en soufflant avec une bombe d’air comprimé.
+Certains BSoD ont été causés par l'exploitation de la faille (exploit) dite , qui a été un moyen très populaire pour les d’attaquer d’autres utilisateurs et déconnecter leur ordinateur de leur accès à Internet et ainsi afficher un écran bleu sur leur machine.
+La faille de sécurité exploitée par a été corrigée par un correctif disponible pour les version de Windows ayant suivi , Microsoft ayant cessé de maintenir à jour cette version du système d’exploitation.
+Blue Screen of Death on Internet Terminal.
+JPG|Un BSoD sur un terminal internet à l'aéroport international de Los Angeles.
+07-07 1258.jpg|Borne interactive téléphonique victime d'un BSoD.
+42nd Street (
+IND
+Eighth
+Avenue Line).jpg|BSoD
+sur un panneau d'affichage du métro, sur la 42e rue à New York (2004)
+Blue screen (Windows 2000, Seoul Subway).jpg|BSoD de Windows 2000 sur deux écrans d'un rame de métro à Séoul, en Corée du sud.
+Blue Screen in
+Fashion
+Walk
+JPG|Un BSoD sur un panneau d'affichage d'une galerie marchande.
+Blue screen
+dfw.jpg|BSoD à l'aéroport international de Dallas-Fort Worth (2011).
+Base de connaissance
+Les systèmes d’exploitation GNU/Linux et AmigaOS, alternatives à Windows, ont également leurs propres erreurs fatales, tels que la Panique du noyau ou le Guru Meditation, bien qu'étant moins emblématiques que le BSoD. Cependant, certains utilisateurs ont créé un Économiseur d’écran simulant différents écrans bleus de la mort, pour se moquer de Windows.
+On trouve cet économiseur d’écran dans différentes distributions parmi les plus connues.
+Microsoft a également inclus une référence aux BSoD sous la forme d’un (« œuf de Pâques », petit clin d’œil caché dans un programme) dans certaines versions de son navigateur web .
+Il suffit de saisir « about:mozilla » dans la barre de navigation pour obtenir une page bleue en guise de réponse (page rouge dans Firefox).
+Cette commande est le moyen standard
+pour obtenir Le Livre de Mozilla, un autre disponible dans les navigateurs de la famille Netscape depuis la .
+Sur le système d’exploitation
+Mac OSX Leopard
+, les PC connectés au réseau sont représentés par un vieil écran cathodique gris affichant un BSOD…
+Écran rouge de la mort
+Les écrans bleus de la mort ont en partie cédé leur place aux écrans rouges de la mort, pour le successeur de , Windows Vista (dans certaines versions uniquement), mais aussi dans les premières bêtas de Microsoft Memphis (devenu Windows 98).
+Le RSoD est uniquement réservé aux erreurs critiques et le BSoD continue de vivre, mais pour des erreurs nécessitant « seulement » le redémarrage.
+Il peut aussi y avoir des écrans verts au démarrage, mais dans ce cas, l’OS peut continuer.
+Écran vert de la mort
+Les écrans bleus et rouges de la mort ont cédé leur place aux écrans verts de la mort, et cet écran de la mort n'est réservé qu'aux utilisateurs de la version bêta de Windows 10, à savoir les membres inscrits au programme Windows Insider.
+Ce changement a été opéré à la suite de la sortie de la Creators Update en avril 2017.
+Écran blanc de la mort
+Apparu sur Windows 7, l'écran blanc de la mort se produit au chargement du système (boot) et n'affiche rien d'autre qu'un écran blanc sans texte.
+Effet sonore lié au BSoD
+Il existe parfois un effet sonore désagréable lié au BSoD. : lorsqu'il se manifeste alors que l'ordinateur joue un son, celui-ci se figera sur la même note sonore et le jouera en boucle de manière stridente, ce qui peut avoir des risques pour l’audition si le son était fort (ou si l'utilisateur porte un casque audio).
+Forcer
+l'apparition d'un BSoD
+Il est possible de forcer l’apparition d'un écran bleu de la mort en terminant un processus crucial (« csrss.exe », par exemple) via le gestionnaire de tâches, que ce soit celui de Windows ou une alternative, cela provoque le plus souvent le code d'erreur « CRITICAL_PROCESS_DIED ».
+L'autre méthode est d'ajouter le CrashOnCtrlScroll dans la base de registre, l'appui des combinaisons Ctrl droit + Scroll Lock (x2) donne alors le code « MANUALLY_INITIATED_CRASH ».
+Il existe aussi un moyen de provoquer le BSoD par programmation, en exécutant la fonction système non documentée NtRaiseHardError qui déclenche différents codes d'erreur autour de 0xC00002xx et préfixés par « STATUS_XXX_XXX ».
+Autres marques et matériels
+Apple
+Sur les et les , il est possible de voir un écran de la mort si l’utilisateur a jailbreaké son appareil et qu’il a fait une modification du système via le pour les ou 3.x.
+Cela peut aussi arriver lors d’une surcharge du processeur de l’ ou de l’.
+L’appareil est alors en mode sans échec et une fenêtre ayant comme titre , créée par Saurik, propose à l’utilisateur de (relancer) son appareil ou de le (redémarrer) pour quitter ce mode.
+L’utilisateur peut, via ce mode, corriger les éventuelles erreurs.
+Il existe aussi un BSoD sur l'IPhone 5S dans lequel, quand le propriétaire essayait d'ouvrir une application du type iMovie ou iPhoto, le téléphone affichait un BSoD sans texte jusqu’à que le téléphone redémarre.
+Apple avait proposé la mise à jour 7.0.2 de son système d’exploitation pour corriger un problème similaire, lié à l’écran de verrouillage.
+MacOS
+Sous le système d’exploitation MacOS, on parle de WOD, pour « Wheel of Death » ou encore de SBoD, pour « Spinning
+Beachball of Death » (en français «
+ballon de plage de la mort »
+) ;
+ce ballon de plage rotatif étant le pointeur indiquant qu'une application est en cours de travail (sa non-disparition pouvant être synonyme de plantage du programme).
+Dans un tel système Unix, le crash d'une application ne provoque jamais celui du système, comme cela peut être le cas sous Windows.
+En revanche, la panique du noyau, si elle est assez rare, demande le redémarrage de la machine.
+Microsoft
+La donnera un BSoD (, cette fois-ci) avec une explication en plusieurs langues disant de contacter le service .
+En bas de l’écran se situe le , ce qui signifie un problème fatal du disque dur ;
+une lumière rouge clignote pour signifier l’erreur.
+On peut continuer à jouer si on enlève le disque dur mais il n’y aura aucune source de sauvegarde.
+Il existe également un RRoD, , qui signifie que la console est hors d’usage et qu’elle doit être renvoyée au service client, cela se traduit par l’allumage en rouge des diodes situées autour du bouton , d’où son nom.
+Windows Phone
+Sur les smartphones sous Windows Phone, si le terminal est endommagé (par exemple écran brisé), le téléphone, après l'écran du constructeur, affiche un BSoD semblable à celui de Windows 8 et Windows 10.
+Nintendo
+Si une cartouche est enlevée de la pendant qu’elle fonctionne encore, la console affiche un écran de la mort sans texte ou continuera à afficher une image «
+gelée » du jeu comme il était au moment exact avant le gel et continuera à jouer la note sonore qu’il effectuait à ce moment-là.
+Remettre la cartouche ne stoppera pas le problème.
+Pour le résoudre, il faut éteindre la console, remettre la cartouche et la rallumer.
+La plupart des jeux redémarrent au dernier point de sauvegarde.
+Le même problème apparaît avec un jeu GBA sur la console de jeu .
+Wii
+La Wii a un écran vert de la mort qui, normalement, n’apparaît pas durant un usage normal, mais qui peut apparaître après avoir lancé un ou tout autre programme non officiel, ou bleu dans le cas d'un bug de jeu.
+La console peut aussi présenter un BSoD (écran noir de la mort) avec un texte qui explique qu'une erreur est survenue et qu'il suffit de retirer le disque de jeu et d'éteindre la console, puis de la rallumer.
+Il existe aussi un autre écran noir de la mort avec le texte "Veuillez insérer le disque (suivi du titre du jeu)" qui peut apparaître si un disque est retiré en cours de jeu.
+Il suffit de réinsérer le disque du jeu sur lequel la console était avant que l'écran de la mort apparaisse.
+GameCube
+La a un écran, dit «
+écran vert de la mort », qui n’apparaît pas durant un usage normal mais qui peut se présenter lorsqu’un est lancé et le bouton reset enfoncé ;
+un freeloader étant un accessoire permettant de lire les disques de jeux de toutes régions (PAL.
+malgré le fait que la GameCube est programmée pour ne lire que les disques de jeux d'une région spécifique.
+Ce n'est pas un accessoire officiel, mais il reste assez pratique lors d'achat d'un jeu, pour profiter de rabais de prix lorsque celui-ci vient de l'étranger ou d'une région différente.
+Nintendo
+La couleur de l'écran de la mort dépend de la version du (micrologiciel) de la console à ce moment-là.
+La , celle de la plupart des consoles, affiche un écran bleu de la mort.
+La , celle de la DS Lite, affiche une couleur magenta.
+Couleurs possibles :
+Mais dans certains cas spéciaux de Nintendo DS lite achetées à l’étranger, l’écran se fige, tout simplement.
+Un autre écran de la mort existe sur la Nintendo DS, un véritable écran bleu de la mort.
+Lorsque l'on retire la carte durant le mode jeu, l'écran se gèle (NDS/NDS Lite) ou affiche un écran noir de la mort sur les deux écrans disant que la carte a été retirée (NDSi et 3DS, ou aussi sur toutes les consoles dans certains jeux comme Pokémon : Donjon mystère
+- Équipe de secours bleue).
+Mais, moyennant l'appui sur une combinaison de touches, sur certains jeux on peut faire apparaitre un BSoD ;
+découvert en premier dans le jeu New Super Mario Bros.
+puis dans Super Mario 64 DS et enfin dans Animal Crossing: Wild World, il suffit de suivre la technique décrite ci-dessous pour faire apparaitre le BSoD si la cartouche a été retirée en cours de jeu :
+# Appuyer sur L+R+A+Gauche
+puis relâcher les touches ;
+# Appuyer sur Bas+B puis relâcher les touches ;
+Et enfin, appuyer sur Start+Select et le BSoD s'affichera à l'écran.
+** :
+pendant le jeu, si la connexion sans-fil est perturbée, un écran bleu clair apparaîtra comprenant le personnage Ressetti qui a l’air triste avec un texte disant que le jeu a été interrompu et que toutes les progressions non sauvegardées seront perdues.
+Pokémon
+Diamant et Perle
+: les données corrompues résultent d’une erreur de type blue screen.
+Pokémon
+Or HeartGold et Argent
+SoulSilver :
+un message de fond bleu avec un affichage lent indique que « le fichier de sauvegarde est corrompu.
+Le fichier précédent va être chargé.
+» Dans les cas les plus graves, la partie est totalement effacée.
+Ceci ne peut être dû qu'à l'extinction de la console alors que le jeu est en train de sauvegarder la partie.
+** Mario Kart DS :
+En mode multijoueur, les deux écrans deviennent noir et un court texte apparaît indiquant que la partie a été interrompue et qu'il suffit d'appuyer sur le bouton A pour éteindre la console, si une des consoles s'est éteinte ou si la cartouche est retirée.
+** PictoChat :
+certaines Nintendo DS affichent un écran vert de la mort quand une carte DS ou une cartouche GBA est enlevée dans le menu PictoChat.
+Nintendo Switch
+Un BSoD et un OSoD (Orange Screen of Death) ont été rapportés sur la Nintendo Switch, qui peut arriver pendant le démarrage de la console ou quand on lance le Nintendo eShop.
+L'OSOD rendait la console inutilisable, il fallait alors la changer.
+Sony
+PlayStation
+La console de jeu PlayStation a un écran rouge de la mort, qui apparaît quand le disque détecté n'est pas au format PlayStation.
+Le logo Sony apparaît normalement, puis apparaît un mur rouge avec une phrase indiquée en gris : «
+Veuillez insérer un disque au format PlayStation ».
+Il existe un autre écran de la mort, cette fois noir, apparaissant si un disque est rayé ou endommagé.
+Le logo Sony apparaît plus longtemps que d'habitude, puis l'écran apparaît.
+Le son est similaire à celui du logo PlayStation, mais avec moins de carillons et le grincement sonore, extrêmement intense.
+Tristement connu pour avoir effrayé beaucoup de joueurs, dont des jeunes, ce logo est surnommé « Personnified fear » (littéralement « peur personnifiée ») par les joueurs anglophones.
+En réponse, cet écran noir fut remplacé par l'écran rouge cité ci-dessus sur la PSone.
+Il y a aussi un autre écran noir de la mort qui est appelé "Fearful Harmony".
+Il apparaît lorsque le disque inséré n'est pas au format PlayStation 1 (CD d'installation de Windows, par exemple).
+Lorsqu'il apparaît, le fond de démarrage devient noir et le logo PlayStation se met à clignoter dans le diamant.
+Cet écran varie en fonction du modèle de PlayStation et du disque inséré.
+Le son est similaire à celui du logo PlayStation, mais il est beaucoup plus intense, car il est au ralenti.
+Sur certaines PlayStation 1 vendues, il y aussi un écran bleu de la mort s'affichant avec la phrase :
+Cet écran s'affiche quand le CD-ROM inséré n'est pas au format PlayStation.
+La (PS2) a aussi un écran de la mort, mais cette fois-ci avec ce qui est une traversée de tunnel gazeux couleur rouge sombre avec deux cubes transparents flottant dans le décor (au démarrage, ce sont des colonnes bleues).
+Le son ressemble beaucoup à celle du démarrage de la console que l'on peut entendre dans le menu, mais il est plus intense car il est au ralenti.
+Ce problème survient quand le disque inséré n’est pas au format (ou ).
+Une phrase est alors inscrite au milieu de l’écran, en gris : «
+Veuillez insérez un disque au format PlayStation ou PlayStation 2 ».
+Même si l'on se rend dans le navigateur et que l'on insère le disque, l’écran de la mort s'affiche.
+Si un disque de jeu PlayStation 1 ou PlayStation 2 est rayé ou endommagé, et que l'utilisateur va dans le navigateur, l’écran se noircit et marque en gris : .
+PlayStation 3 et PlayStation
+Portable
+Sur uniquement, on appelle YLoD () le signal annonçant une panne majeure et représenté par l’affichage successif de dont le jaune sur la led lumineuse située à côté du bouton de démarrage.
+La led jaune ne se manifeste jamais en dehors de cette panne (souvent due à une surchauffe).
+La PlayStation 3 (et la PlayStation Portable) ont un BSoD, qui apparaît quand la mémoire flash est modifiée (installation d'un logiciel non approuvé, par exemple).
+Cet écran sur PS3 et PSP est la plupart du temps bénin, il suffit d’appuyer sur la touche O et de reparamétrer sa console.
+Parfois, il peut arriver que la console se bloque sur cet écran bleu de la mort et la touche O ne résout rien, ce qui signifie que le problème est alors beaucoup plus sérieux.
+La console est la plupart du temps inutilisable par la suite pour un utilisateur ne sachant pas contourner le problème.
+Les deux consoles ont également un écran rouge de la mort, qui indique en plusieurs langues, qu'une erreur grave s'est produite et qu'il faut contacter l'assistance technique de Sony.
+Ce problème était dû aux nombreuses mises à jour du système de la console .
+PlayStation Vita
+La PlayStation Vita a un écran de la mort avec des lignes horizontales vertes sur un fond noir, qui peut se produire au démarrage de la console, après l'apparition du logo PlayStation.
+Un autre plantage survient également en cours de jeu lorsque le processeur graphique de la console détecte une erreur.
+La console peut également présenter un message d'erreur indiquant qu'un problème grave s'est produit.
+Cependant, ce message apparaît au démarrage de la console, qui redémarrera en Safe Mode.
+Sur la PlayStation 4, il existe deux lumières de la mort : la première, une lumière bleue de la mort, appelée Blue Light of Death (BLOD), qui s'allume si un composant nécessaire au fonctionnement de la console ne répond plus.
+Ce problème se traduit également par un écran blanc de la mort (White Screen of Death) sur le téléviseur, signifiant que la console ne peut pas démarrer.
+La seconde lumière est appelée Red Line of Death (RLOD) (Lumière rouge de la mort), qui se manifeste en cas de chauffe de la console.
+Elle se traduit par trois bips successifs et une mise hors tension.
+Cela se traduit également par un écran bleu de la mort.
+Lorsqu'on rallume la console, on entend un son fort, ce qui peut causer des problèmes auditifs pour l'utilisateur.
+Il existe aussi un écran bleu de la mort qui apparaît en cas de plantage d'un jeu, et un écran rouge de la mort qui peut survenir au démarrage de la console, signifiant que la console entre dans une boucle de redémarrage infinie et ne peut pas démarrer (sur les premiers modèles de lancement uniquement).
+Sony Ericsson
+Sur l’OS propriétaire des téléphones de Sony Ericsson, lorsque le téléphone bloque significativement à un moment donné, et qu’il n’est plus en mesure de répondre, un écran blanc de la mort apparaît
+, le téléphone semble s’éteindre, mais revient comme lors d’un allumage.
+Google
+Android
+Sur le système d'exploitation mobile Android de Google, il n'y a pas d'écran de la mort, mais quand une application ne répond plus, celui-ci affiche le message d'erreur
+Force close (arrêt forcé en anglais) suivant : .
+L'utilisateur revient alors sur le lanceur où il était, ou sur l'interface de l'appli si elle redémarre.
+Parfois, si une application ne répond plus alors qu'elle travaille, le système donne la faculté d'envoyer un rapport d'erreur à Google, d'attendre jusqu'à ce que l'application réponde, ou d'arrêter l'application.
+Mais l'arrêt d'une application signifie que les données de l'utilisateur sur cette application sont perdues.
+Ces bugs sont causés par des mises à jour de ces applications, mais aussi par la vieillesse de l'appareil Android utilisé.
+Ces bugs peuvent être corrigés via des mises à jour système (en Over the Air) ou via le Google Play
+Store s'il s'agit d'une application téléchargée depuis la boutique d'applications de Google.
+Dans certains cas, il peut arriver également qu'un des processus du système d'exploitation mobile s'arrête, ce qui cause de nombreux problèmes pouvant aller jusqu'au redémarrage de l'appareil, comme cela peut être le cas avec le BSoD de Windows.
+Google a modifié ce message au fil des versions d'Android.
+Depuis Android 5 Lollipop, la firme américaine a modifié le message avertissant l'utilisateur qu'une application s'est arrêtée.
+Le message d'erreur est affiché dans cette forme : .
+Le système permet à l'affichage de ce message d'envoyer un rapport d'erreur à Google.
+Avec Android 7 Nougat, Google a ajouté les options
+Mute app until restart (arrêter l'appli au redémarrage) et Restart (redémarrage de l'appli).
+Sous Android 9 Pie, le message d'erreur a été effacé, de manière à faire en sorte que l'application se ferme toute seule en cas de plantage.
+Chromecast
+Sur la passerelle multimédia de Google, il existe un écran bleu de la mort, qui s'affiche si le Chromecast n'arrive pas à se connecter à Internet.
+Sur cet écran, il y affiche les instructions permettant de résoudre le problème de connexion (qui peuvent changer en fonction de la nature du problème), ainsi qu'un lien vers un site internet consacré à l'assistance.
+Parfois, cet écran survient malgré le fait qu'aucun message d'erreur ne soit affiché sur le routeur, et il suffit de redémarrer le Chromecast pour résoudre le problème.
+Les BSoD dans la fiction
+Jeux vidéo
+* Dans le jeu vidéo Eternal Darkness
+, une des illusions causées par la perte de santé mentale est de voir le jeu planter en affichant un BSoD puis s'effacer après un instant.
+* Dans SWAT 4, de nombreux ordinateurs sont aperçus affichant un BSoD.
+* Dans la version française dUnreal
+Tournament 3, les Robots de la Liandri (des hommes-machines) s’exclament avec fanatisme juste avant de mourir , conférant ainsi avec humour une fonction religieuse au phénomène.
+* Dans Portal 2, avant chaque salle, le personnage arrive dans une zone aux murs recouverts d'écrans, lesquels diffusent une vidéo explicative.
+Pour symboliser le délabrement avancé du complexe, au bout d'un certain chapitre, ces écrans n'affichent plus qu'un BSoD parodique.
+* Dans Half
+Life
+au début du jeu (à l'accueil du centre de recherche de Black Mesa), un « Barney » (garde) essaye de réparer son ordinateur qui a planté et où l'on peut voir
+un BSoD.
+* Dans Grand Theft Auto: Online
+, on peut voir trois ordinateurs, dont un qui affiche un BSoD grâce à un glitch en traversant les murs de la tour de contrôle de la base militaire et en y montant à l'avant-dernier étage.
+* Dans Borderlands 2, dans la base du Faucon Ardent, on peut apercevoir plusieurs écrans.
+L'un d'entre eux affiche un BSoD contenant un texte humoristique que l'on peut lire en visant l'écran avec la lunette d'un fusil de précision.
+Dans Scribblenauts Unlimited, il est possible de faire apparaître un BSoD en l'écrivant.
+Il a alors vaguement l'apparence d'une feuille de papier bleue sur laquelle sont écrites des choses illisibles en blanc.
+* Dans Tom
+Clancy's The Division, on peut voir à certains endroits des ordinateurs avec un BSoD.
+* Sur la carte multijoueur «
+Zanzibar » de Halo 2, Microsoft semble prendre avec humour le BSoD puisqu'il en place un lorsqu'on active un ordinateur, portant la mention « WAC ».
+*Dans le jeu XCOM 2 la munition "blue screen" provoque davantage de dégâts sur les unités robotiques.
+Séries télévisées
+* Dans la série Person of Interest
+, le premier épisode de la cinquième saison est intitulé « BSoD ».

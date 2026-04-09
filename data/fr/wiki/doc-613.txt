@@ -1,0 +1,27 @@
+Géométrie affine|Mathématiques élémentaires
+En mathématiques, un repère permet d’identifier par une liste de coordonnées chaque point d’une droite, d’un plan ou plus généralement d’un espace affine.
+Ce procédé fonde la géométrie analytique, dans laquelle les transformations géométriques peuvent être étudiées par leur expression.
+Un repère cartésien est constitué d’un point appelé origine et d’une base de vecteurs.
+Il facilite ainsi la représentation graphique de données, par projection d’un nuage de points sur les axes principaux d’une analyse en composantes principales par exemple.
+Un repère affine est constitué de points affinement indépendants mais qui engendrent tout l’espace affine, et permettent de définir les coordonnées barycentriques.
+Dans un espace euclidien, un repère cartésien peut être orthonormal si ses vecteurs de base sont unitaires et deux à deux orthogonaux.
+Dans ce cas, d’autres systèmes de coordonnées permettent de repérer les points, comme les coordonnées polaires, cylindriques ou sphériques...
+Chaque point d’une courbe rectifiable dans le plan, ou d’une courbe gauche dans l’espace, est l’origine d’un repère de Frenet dirigé notamment par le vecteur tangent.
+Dans le plan
+Un repère du plan est en général représenté par deux axes gradués et sécants en leur origine.
+Deux vecteurs relient l’origine aux points correspondant à la graduation 1 sur ces deux axes.
+Le repère est défini mathématiquement par le point à l’origine (souvent noté ) et ces deux vecteurs (souvent notés \vec et \vec, ou bien \vec et \vec) qui sont non colinéaires et forment donc une base du plan vectoriel.
+Chaque point du plan est alors muni de deux coordonnées cartésiennes : une abscisse et une ordonnée telle que \overrightarrow = x\vec i+y\vec j.
+Ces coordonnées peuvent se lire sur les deux axes en traçant leurs parallèles passant par .
+Le repère est orthonormal lorsque les deux axes sont perpendiculaires et gradués avec la même échelle homogène.
+Par analogie, on parle aussi de repère pour des modes de représentation de données bidimensionnelles dans le plan.
+Dans un espace affine
+On veut désigner un point, une courbe, une surface.
+Il suffit pour cela de choisir :
+* une base, c’est-à-dire une famille de vecteurs particuliers permettant de désigner de manière unique n’importe quel autre vecteur par combinaison linéaire ;
+cette base est en général notée (\vec,\vec) en géométrie plane, et (\vec,\vec,\vec) en géométrie dans l'espace ;
+* un point de référence, en général noté O, qu’on appelle l’origine du repère.
+De manière générale, soient A un espace affine associé à un espace vectoriel E de dimension n et O un point quelconque de A, alors un repère cartésien de A est l’association du point O et d’une base de E :
+\mathcal R = (\ O ;
+\vec e_1 , \vec e_2 , ... , \vec e_n)
+Repère local

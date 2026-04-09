@@ -1,0 +1,29 @@
+Logiciel dans le domaine public|Environnement de développement
+intégré
+CSPro, abréviation de Census and
+Survey Processing
+System est un ensemble logiciel comprenant compilateur et différents outils spécialisés dans le développement d’applications de collecte, visualisation, traitement et analyse de données.
+Historique
+est un logiciel développé par le Census Bureau des États-Unis ainsi que ICF international.
+Serpro S.A était aussi impliqué dans les premières étapes du développement de CSPro.
+Le financement de ce programme provient principalement de l’USAID.
+La première version de CSPro remonte à mai 2000, cependant le développement de ses ancêtres : ISSA et IMPS remonte a plus de 30 années.
+Description
+Les dernières versions du compilateur et des outils sont conçues pour être utilisées sur les ordinateurs roulant sur Windows 7 et plus.
+Cependant, les applications implémentées avec CSPro 7+ peuvent être déployées sur n’importe quel ordinateur, Tablet, smartphone roulant sur Android, Windows UWP ou Widows 7, 8 , 10.
+CSPro dispose d’un environnement de développement très simple, mais la puissance de son langage de programmation propre : Le Cspro Programming Language (CPL) lui permet de concevoir des applications complexes et intelligentes susceptibles d’être utilisées dans des domaines variés (Formulaires électroniques pour Enquêtes et Recensements, implémentation de système d'information sophistiqués : Suivi-Evaluation, Administration et Gestion d’entreprises etc.)
+Versions
+A date (Septembre 2019)
+, CSPro est activement en développement par une équipe de développeur dynamique.
+Au cours des dernières années, des changements majeurs ont été opéré dans le développement du compilateur et des outils au point qu’actuellement, les applications développés avec Cspro sont devenues plus puissantes et intelligentes en supportant :
+* Sqlite comme moteur de stockage de données du côté client ;
+* MySQL via l’API CSWeb pour le stockage et la compilation des données de tous les clients ;
+Le langage SQL (version de SQLite) à l’intérieur de CPL ;
+*La cartographie mobile intelligente et dynamique avec ou sans internet;
+* Les langages CSS, HTML, JavaScript par le biais de l’interface templated report ;
+Un système puissant et exhaustif de collecte de données d’audit (Paradata log) du côté client ;
+* De nouveaux fonctions dans le langage de programmation
+pour, entre autres, permettre le support de la synchronisation intelligente des applications et des données
+, la traduction dynamique
+etc.
+En dépit du fait que CSPro est dans le domaine public, seuls les codes sources de CSWeb et de l'Aide sont disponibles pour le public.

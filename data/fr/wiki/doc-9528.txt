@@ -1,0 +1,73 @@
+Histoire de l'analyse|Algorithme de recherche d'un zéro d'une fonction|Héron|Racine carrée
+En mathématiques, la méthode de Héron ou méthode babylonienne est une méthode efficace d'extraction de racine carrée, c’est
+-à-dire de résolution de l'équation x = a, avec a positif.
+Elle porte le nom du mathématicien
+Héron d'Alexandrie, qui l'expose dans le tome I de son ouvrage Metrica (Les métriques)
+, découvert seulement en 1896 mais certains calculs antérieurs, notamment égyptiens, semblent prouver que la méthode est plus ancienne.
+Héron expose ainsi sa méthode dans le problème 8 du tome I des Métriques.
+Il détaille initialement une méthode pour calculer l'aire d'un triangle en connaissant ses trois côtés ( formule de Héron), en prenant pour exemple un triangle de côtés 7, 8 et 9 unités.
+Il obtient alors le nombre 720 comme résultat intermédiaire, dont il doit calculer la racine carrée pour aboutir au résultat final.
+Il propose alors la méthode de calcul suivante :
+Exposé de la méthode
+Approche géométrique
+Il est intéressant de mettre en évidence le principe géométrique sous-jacent à la méthode.
+Chez les mathématiciens grecs, extraire la racine carrée de revient à trouver un carré dont l'aire soit .
+En prenant un rectangle de côté arbitraire et de même aire, il est nécessaire que l'autre côté ait pour longueur .
+Pour le rendre « moins rectangle », il suffit de considérer un nouveau rectangle dont la longueur est la moyenne arithmétique des deux côtés précédents soit
+et dont l'aire reste
+En réitérant infiniment le processus, le rectangle se transforme petit à petit en un carré de même aire.
+Cette constatation est à la base de la méthode de Héron.
+Principe
+Pour déterminer la racine carrée du nombre (positif) , il convient dès lors de considérer la suite définie par récurrence de la façon suivante :
+de premier terme x_0>0 choisi
+si possible « assez proche » de , en général la partie entière
+de .
+La suite ainsi obtenue est une suite décroissante à partir du second terme, convergeant vers .
+Si le premier terme de la suite est un nombre rationnel, il est clair que tous les termes successifs seront des nombres rationnels, ce qui permet d'approcher un nombre irrationnel tel que la racine carrée de deux par une suite de rationnels.
+Convergence
+Il est par ailleurs facile de vérifier que la convergence en est quadratique : l'écart entre chaque terme et la limite évolue comme le carré de l'écart précédent, en effet pour tout n > 0 :
+: x_-\sqrt a=\frac,
+soit puisque x_n\ge \sqrt a :
+:\left|x_-\sqrt a\right|\le\frac,
+ce qui correspond bien à la définition de la convergence quadratique, c’est-à-dire que le nombre de décimales exactes double à chaque itération.
+L'algorithme nécessite à chaque étape de faire une division, qui elle-même requiert une suite d'opérations d'autant plus longue que la précision demandée est importante.
+Néanmoins, l'algorithme est robuste, il supporte bien quelques approximations (et même quelques erreurs, dont l'effet sera de retarder l'obtention du résultat mais n'empêchera pas de l'obtenir), ce qui permet de se contenter de divisions (pas trop) fausses, au moins au début.
+Du fait de sa convergence rapide, la méthode de Héron permet d'obtenir une bonne approximation de la valeur de même après peu d'étapes de calcul.
+Exemple : calcul
+Soit x_0
+, il vient successivement :
+x_1
+\frac2
+\frac32=15,
+:x_2
+\frac2
+\frac=14166\ldots,
+:x_3
+\frac2
+\frac=14142156\ldots,
+:x_4
+\frac2
+\frac=14142135623745\ldots,
+x_5
+\frac
+14142135623730950488016896\ldots,
+or en comparant avec la valeur exacte = 1,4142135623730950488016887…
+, on constate bien la convergence quadratique (2 décimales exactes au deuxième calcul, 5 au troisième, 11 au quatrième, 23 au cinquième…).
+En seulement trois étapes, la précision relative sur la valeur de est déjà de 10, ce qui est excellent, et de moins de 10 en quatre étapes.
+De fait, une des principales problématiques est de choisir une « bonne » valeur pour x_0, idéalement l'entier dont le carré est le plus proche de , ce que suggérait d'ailleurs Héron lui-même dans la partie des Metrica consacrée à cette question.
+Généralisation de la méthode
+Racine n-ième d'un nombre
+Une méthode analogue existe pour extraire la racine n-ième d'un nombre A, il convient de considérer alors la suite de terme général
+\forall k\in\N\quad x_ = \frac \left\right.
+L'idée géométrique sous-jacente est la même, puisque déterminer la racine n-ième d'un nombre A consiste à trouver le côté d'un hypercube dont le « volume » est A. La suite considérée revient à partir d'un (hyper)parallélépipède à n dimensions dont (n-1) côtés sont égaux, le dernier étant ajusté de façon à obtenir un volume égal à A.
+Lien avec la méthode de Newton
+La méthode de Héron est un cas particulier de la méthode de Newton.
+En effet, dans la méthode de Newton, il s'agit de trouver un zéro d'une fonction f en utilisant la récurrence suivante :
+: x_ = x_n - \frac.
+En prenant
+: f (x) = x^2
+- a,
+la récurrence devient
+x_n
+- \frac
+\frac = \frac2.
