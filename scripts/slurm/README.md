@@ -1,10 +1,10 @@
 # SLURM Launchers
 
-This folder contains example launchers for HPC environments that use SLURM.
+This folder contains example submission scripts for HPC environments that use SLURM.
 
-These scripts are optional and environment-specific. They are provided as templates for running the pipeline on a cluster, but they are not required to understand or use the main paper artifact.
+These scripts are optional and environment-specific. They are provided as templates for running the pipeline on a cluster.
 
-Before using them, you will likely need to adapt:
+Before using them, adapt them to your local environment as needed:
 
 - cluster paths
 - conda environment names

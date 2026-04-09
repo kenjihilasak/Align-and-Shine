@@ -1,5 +1,5 @@
 # Legacy Scripts
 
-This folder contains older or ad hoc utilities preserved for traceability.
+This folder contains older or environment-specific utilities preserved for reference.
 
-These files are not required for the main paper release and should be treated as historical helpers rather than as part of the core public interface.
+These files are not required to use the released corpus or reproduce the main pipeline and should be treated as optional helpers.

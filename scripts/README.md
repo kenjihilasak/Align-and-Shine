@@ -1,23 +1,21 @@
 # Scripts
 
-This directory groups scripts that are useful for reproduction but are not part of the main top-level paper interface.
+This directory groups supporting scripts for running and reproducing the alignment pipeline.
 
 ## Structure
 
 - `slurm/`
   Example launchers for HPC and SLURM environments.
-- `baselines/hunalign/`
-  Helper files for classic Hunalign-style baselines.
 - `legacy/`
-  Older or ad hoc utilities kept for traceability, not required for the main paper pipeline.
+  Older or environment-specific helpers kept for reference.
 
-## Recommended Reading Order
+## Recommended Entry Points
 
-If you are mainly interested in the paper artifact, start with:
+If you are mainly interested in the released corpus and its construction, start with:
 
 1. `src/prepare_sentalign_data.py`
 2. `src/filter_full_corpus_by_best_thresholds.py`
 3. `config/best_thresholds_strict_fullcorpus.csv`
 4. `data/<lang>/aligned/`
 
-Use the scripts under this folder only if you need cluster launchers, baseline comparisons, or older utilities.
+Use the scripts in this directory when you need cluster launchers or compatibility utilities around the main pipeline.
