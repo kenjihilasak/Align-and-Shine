@@ -16,6 +16,7 @@ If you are mainly interested in the released corpus and its construction, start 
 1. `src/prepare_sentalign_data.py`
 2. `src/filter_full_corpus_by_best_thresholds.py`
 3. `config/best_thresholds_strict_fullcorpus.csv`
-4. `data/<lang>/aligned/`
+4. `data/<lang>/alignments/`
+5. `data/<lang>/aligned/`
 
 Use the scripts in this directory when you need cluster launchers or compatibility utilities around the main pipeline.

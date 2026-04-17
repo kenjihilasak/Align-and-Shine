@@ -25,6 +25,7 @@ Align-and-Shine/
 |  |  |- raw/
 |  |  |- wiki/
 |  |  |- viki/
+|  |  |- alignments/
 |  |  `- aligned/
 |- runs/
 |- scripts/
@@ -41,7 +42,8 @@ The top level is kept focused on the released corpus, configuration, and the cor
 ## Repository Contents
 
 - the corpus directory skeleton under `data/`
-- the released final sentence alignments under `data/<lang>/aligned/`
+- the released final aligned outputs under `data/<lang>/aligned/`
+- the document-level `.path` alignment files under `data/<lang>/alignments/`
 - the threshold configuration used in the paper
 - the core preparation and filtering scripts
 - the three SentAlign variants used in the paper
@@ -57,9 +59,10 @@ Per language, the expected directories are:
 - `raw/`: source `.jsonl` and related input files
 - `wiki/`: one Wikipedia document per `.txt`, one sentence per line
 - `viki/`: one Vikidia document per `.txt`, one sentence per line
-- `aligned/`: final sentence-aligned corpus released with this repository
+- `alignments/`: document-level alignment files in `.path` format
+- `aligned/`: final released aligned outputs, including clean per-language CSV files
 
-The final corpus is available in `data/<lang>/aligned/`. Intermediate system outputs and run-specific artifacts are stored under `runs/`.
+The final released aligned outputs are available in `data/<lang>/aligned/`. The released `.path` alignments are stored in `data/<lang>/alignments/`. Intermediate system outputs and run-specific artifacts are stored under `runs/`.
 
 ## Licensing
 
